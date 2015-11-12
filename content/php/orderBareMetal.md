@@ -14,7 +14,7 @@ tags:
 ---
 
 
-
+```php
 <?php
 
 require_once './vendor/autoload.php';
@@ -129,4 +129,4 @@ $example = new Example();
 
 $example->placeOrder();    
 
-
+```
