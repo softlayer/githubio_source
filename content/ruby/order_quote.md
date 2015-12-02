@@ -2,7 +2,7 @@
 title: "Place quote order"
 description: "Retrieve an order object from a quote and place an order based on it"
 date: "2015-11-28"
-classes: ["SoftLayer_User_Customer","SoftLayer_Account"]
+classes: ["SoftLayer_Billing_Order_Quote"]
 tags:
     - "order"
     - "quote"
