@@ -1,3 +1,17 @@
+{{ range first 1 (where .Site.Recent "Params.upcoming" "true") }}
+  <div class="panel panel-default">
+    <div class="panel-heading" style="padding: 2px 15px; background-color: rgba(153,0,0,.65)">
+      <strong><h4><strong>Upcoming Changes</strong></h4></strong>
+    </div>
+    <div class="panel-body">
+      <ul>
+        {{ range where .Site.Recent "Params.upcoming" "true" }}
+          <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+{{ end }}
 <div class="panel panel-default">
     <div class="panel-heading" style="padding: 2px 15px;">
         <h4>More Documentation</h4>
