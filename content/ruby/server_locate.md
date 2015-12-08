@@ -12,8 +12,8 @@ tags:
 
 
 ```ruby
-require 'softlayer_api'
-require 'table_print'
+require 'softlayer_api' # gem install softlayer_api
+require 'table_print' # gem install table_print
 
 # Credentials to the SoftLayer API are grabbed from the config file by default.
 # See https://github.com/softlayer/softlayer-ruby/blob/master/lib/softlayer/Config.rb#L11-L44
