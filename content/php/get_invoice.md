@@ -48,4 +48,5 @@ $invoices = $accountClient->getObject();
 
 print_r($invoices);
 
+?>
 ```
