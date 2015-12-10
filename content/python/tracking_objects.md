@@ -1,13 +1,12 @@
 ---
-title: "Server Bandwidth"
-description: "A handy script to get and print relevant server bandwidth details"
-date: "2015-06-15"
-classes: 
-    - "SoftLayer_Metric_Tracking_Object"
-    - "SoftLayer_Hardware_Server"
+title: "getCustomGraphData"
+description: "An example of how to use getCustomGraphData"
+date: "2015-10-11"
+classes: ["SoftLayer_Metric_Tracking_Object"]
 tags:
-    - "server"
-    - "bandwidth"
+    - "getCustomGraphData"
+    - "getSummaryData"
+    - "getBandwidthData"
 ---
 
 ```python
