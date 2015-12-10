@@ -12,33 +12,38 @@ tags:
 
 ```python
 import SoftLayer
-import pprint
+from pprint import pprint as pp
 
 class setPermissions():
 
     def __init__(self):
+
         self.client = SoftLayer.Client()
 
-    def main(self):
-
-        pp = pprint.PrettyPrinter(indent=4)
-        # the user ID we want to change
-        template_user_id = 350000
-
-        # This is just so we can see what permissions we have already
-        permissions = self.client['User_Customer'].getPermissions(id=template_user_id)
-        pp.pprint(permissions)
-
-        # Adds in a new permissions
+    def main(self, user_id):
+        permissions = self.client['User_Customer'].getPermissions(id=user_id)
+        print("=== OLD PERMISSIONS ===")
+        self.printPermissions(permissions)
         setperm = {'keyName': "TICKET_ADD"}
-        users = self.client['User_Customer'].addPortalPermission(setperm, id=template_user_id)
-        pp.pprint(users)
+        self.client['User_Customer'].addPortalPermission(setperm, id=user_id)
+        permissions = self.client['User_Customer'].getPermissions(id=user_id)
+        print("=== NEW PERMISSIONS ===")
+        self.printPermissions(permissions)
 
-        # Make sure it actually worked
-        permissions = self.client['User_Customer'].getPermissions(id=template_user_id)
-        pp.pprint(permissions)
+    def getUsers(self):
+        users = self.client['Account'].getUsers()
+        print("ID - USERNAME - E-MAIL")
+        for user in users:
+            print("%s - %s - %s " % (user['id'], user['username'], user['email']))
+
+    def printPermissions(sefl, permissions):
+        for permission in permissions:
+            print("%s" % permission['keyName'])
 
 if __name__ == "__main__":
     main = setPermissions()
-    main.main()
+    # CHANGE ME
+    my_user = 439723
+    main.getUsers()
+    main.main(my_user)
 ```
