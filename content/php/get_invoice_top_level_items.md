@@ -9,14 +9,13 @@ tags:
     - "objectMask"
     - "invoice"
     - "brand"
-    - "deprecated"
 ---
 With a given date range, get all the invoice details for all of the owned brands, and all of their owned accounts. The $filter can be used to get just a single accounts invoices, just take off the ->allOwnedAccounts bits
 
 
 ```php
 <?php
-require_once './SoftLayer/SoapClient.class.php';
+require_once __DIR__.'/vendor/autoload.php';
 
 
 /**
@@ -29,8 +28,8 @@ class topBillingItems
     function __construct() {
         $this->apiUsername = '';
         $this->apiKey = '';
-        $this->startDate = new DateTime('2015-02-12T00:00:00-06:00');
-        $this->endDate = new DateTime('2015-03-12T00:00:00-06:00');
+        $this->startDate = new DateTime('2015-02-12T00:00:00 UTC');
+        $this->endDate = new DateTime('2015-03-12T00:00:00 UTC');
     }
 
     /*!
@@ -43,10 +42,10 @@ class topBillingItems
 
         //The First Object Mask. Used to get all the front line brands, which will have the
         //accounts that are actually buying things
-        $objectMask = new SoftLayer_ObjectMask();
+        $objectMask = new \SoftLayer\Common\ObjectMask();
         $objectMask->ownedBrands->allOwnedAccounts->ownedBrands;
 
-        $client = SoftLayer_SoapClient::getClient('SoftLayer_Account', null, $this->apiUsername, $this->apiKey);
+        $client = \SoftLayer\SoapClient::getClient('SoftLayer_Account', null, $this->apiUsername, $this->apiKey);
         $client->setObjectMask($objectMask);
 
         $response = $client->getObject();
@@ -96,11 +95,11 @@ class topBillingItems
         $filter->allOwnedAccounts->invoices->createDate->options[1]->value = array($this->endDate->format('m/d/Y H:i:s'));
 
         //Mask for the front line brands, used to get all their accounts, and their invoices
-        $brandMask = new SoftLayer_ObjectMask();
+        $brandMask = new \SoftLayer\Common\ObjectMask();
         $brandMask->allOwnedAccounts->invoices;
 
         //From that brand, get all the brand's owned accounts, with their invoices from the current month
-        $brandClient = SoftLayer_SoapClient::getClient('SoftLayer_Brand', $brandId, $this->apiUsername, $this->apiKey);
+        $brandClient = \SoftLayer\SoapClient::getClient('SoftLayer_Brand', $brandId, $this->apiUsername, $this->apiKey);
         $brandClient->setObjectMask($brandMask);
         $brandClient->setObjectFilter($filter);
         return $brandClient->getAllOwnedAccounts();
@@ -111,7 +110,7 @@ class topBillingItems
 
         print "=====\e[94m" . $account->companyName ." ::" . $account->id . "\e[0m\n";
         //Used to get all the actual line items from an invoice
-        $invoiceMask = new SoftLayer_ObjectMask();
+        $invoiceMask = new \SoftLayer\Common\ObjectMask();
         $invoiceMask->items;
         $invoiceMask->invoiceTotalAmount;
         //Go through each of the accounts monthly invoices
@@ -119,7 +118,7 @@ class topBillingItems
             print "Created: " . $invoice->createDate . " TYPE: " . $invoice->typeCode ."\n";
 
             //Here we get the actual invoice and all the billing items inside of it
-            $bClient = SoftLayer_SoapClient::getClient('SoftLayer_Billing_Invoice', $invoice->id , $this->apiUsername, $this->apiKey);
+            $bClient = \SoftLayer\SoapClient::getClient('SoftLayer_Billing_Invoice', $invoice->id , $this->apiUsername, $this->apiKey);
             $bClient->setObjectMask($invoiceMask);
             $bt = $bClient->getObject();
             print "====\e[42;90m" . $bt->invoiceTotalAmount ."\e[0m\n";
@@ -136,6 +135,8 @@ class topBillingItems
     }
 }
 
-$main = new Example();
+$main = new topBillingItems();
 $main->main();
+
+?>
 ```
