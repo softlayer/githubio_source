@@ -2,48 +2,50 @@
 title: "Server Bandwidth"
 description: "A handy script to get and print relevant server bandwidth details"
 date: "2015-06-15"
-classes: ["SoftLayer_Hardware_Server"]
+classes: 
+    - "SoftLayer_Metric_Tracking_Object"
+    - "SoftLayer_Hardware_Server"
 tags:
     - "server"
     - "bandwidth"
 ---
 
 ```python
+
 import SoftLayer
-import pprint
+from pprint import pprint as pp
 
 class example():
 
     def __init__(self):
-        user = ''
-        key = ''
-        self.client = SoftLayer.Client(username = user, api_key = key)
+        self.client = SoftLayer.Client()
 
-    def main(self):
-        pp = pprint.PrettyPrinter(indent=2)
-        theMask = "mask[inboundPrivateBandwidthUsage,inboundPublicBandwidthUsage,outboundPrivateBandwidthUsage,outboundPublicBandwidthUsage]"
-        result = self.client['SoftLayer_Account'].getHardware()
-        print "server_name,public_in,public_out,private_in,private_out"
-        
-        for server in result:
-            #getHardware() only returns SoftLayer_Hardware, which doesn't have the private bw usage metrics, for some reason.
-            # So we just use SoftLayer_Hardware_Server here, which has more detailed information
-            serverInfo = self.client['SoftLayer_Hardware_Server'].getObject(id=server['id'],mask=theMask)
+    def main(self, tracking_id):
 
-            # use .get() to avoid exceptions
-            pubin = serverInfo.get('inboundPublicBandwidthUsage', '--')
-            pubout = serverInfo.get('outboundPublicBandwidthUsage', '--')
-            privin =serverInfo.get('inboundPrivateBandwidthUsage', '--')
-            privout = serverInfo.get('outboundPrivateBandwidthUsage', '--')
+        tracking_service = self.client['SoftLayer_Metric_Tracking_Object']
+        bw_result = tracking_service.getBandwidthData('2015-10-01', '2015-11-31', 'public', 600, id=tracking_id)
+        object_type = [{'keyName':'PUBLICIN','summaryType':'counter','name':'vif_1_rx'}]
+        summary_result = tracking_service.getSummaryData('2015-11-01','2015-11-02', object_type, 600, id=tracking_id)
+        args = {
+            'startDateTime' : '2015-11-01',
+            'endDateTime':'2015-11-02',
+            'metrics': [{'keyName':'PUBLICIN','summaryType':'counter','name':'vif_1_rx'}],
+            'interval':600,
+            'returnImage': False
+        }
+        custom_result = tracking_service.getCustomGraphData(args,id=tracking_id)
+        pp(custom_result)
 
-            print(serverInfo['fullyQualifiedDomainName'] + ","),
-            print(pubin + ","),
-            print(pubout + ","),
-            print(privin + ","),
-            print(privout)
-
+    # For use with a virtual Guest, just change
+    # SoftLayer_Hardware_Server here with SoftLayer_Virtual_Guest
+    def getTrackingId(self, server_id):
+        tracking_id = self.client['SoftLayer_Hardware_Server'].getMetricTrackingObjectId(id=server_id)
+        return tracking_id
 
 if __name__ == "__main__":
     main = example()
-    main.main()
+    # CHANGE THIS
+    my_server_id = 12345
+    tracking_id = main.getTrackingId(my_server_id)
+    main.main(tracking_id)
 ```
