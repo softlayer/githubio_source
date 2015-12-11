@@ -10,22 +10,20 @@ tags:
 
 ```python
 import SoftLayer
-import pprint
+from pprint import pprint as pp
 
-server = 132672 
+# CHANGE ME
+server = 678243 
 
-api_username = ''
-api_key = ''
-pp = pprint.PrettyPrinter(indent=4)
-client = SoftLayer.Client(username=api_username,api_key=api_key)
+client = SoftLayer.Client()
 
 mask = "mask[attributes]"
 
 # Sets the metadata for this server to tttttt
 result1 = client['SoftLayer_Hardware_Server'].setUserMetadata({'value': 'tttttt'},id=server)
-pp.pprint(result1)
+pp(result1)
 
 result2 = client['SoftLayer_Hardware_Server'].getObject(mask=mask,id=server)
 
-pp.pprint(result2)
+pp(result2)
 ```
