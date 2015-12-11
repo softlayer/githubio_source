@@ -10,30 +10,27 @@ tags:
 
 
 ```python
-import SoftLayer.API
+import SoftLayer
 from pprint import pprint as pp
  
-api_username = ''
-api_key = ''
-quote_id = 1234
-
-client = SoftLayer.Client(
-    username=api_username,
-    api_key=api_key,
-)
+quote_id = 12345
+client = SoftLayer.Client()
 
 def getOrderContainer(quote_id):
-    container = client['Billing_Order_Quote'].getRecalculatedOrderContainer( \
-        id=quote_id)
+    container = client['Billing_Order_Quote'].getRecalculatedOrderContainer(id=quote_id)
     return container['orderContainers'][0]
  
- 
+def getQuotes():
+    quotes = client['SoftLayer_Account'].getQuotes()
+    pp(quotes)
+
+getQuotes()
 container = getOrderContainer(quote_id)
 order = {}
 order['complexType'] = 'Container_Product_Order_Virtual_Guest'
 order['hardware'] = [{'hostname': 'quotetest', 'domain': 'example.com'}]
 order['quanity'] = 1
-result = client['Billing_Order_Quote'].placeOrder(order, id=quote_id)
+result = client['Billing_Order_Quote'].verifyOrder(order, id=quote_id)
 
 pp(result)
 

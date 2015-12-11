@@ -11,12 +11,9 @@ tags:
 
 ```python
 import SoftLayer
-
-apiUsername = ''
-apiKey = ''
 package = 46
 
-client = SoftLayer.Client(username=apiUsername, api_key=apiKey)
+client = SoftLayer.Client()
 categoryObjectMask = "mask[isRequired, itemCategory[id, name]]"
 
 configurations = client['Product_Package'].getConfiguration(
