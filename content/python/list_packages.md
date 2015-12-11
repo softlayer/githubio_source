@@ -29,9 +29,6 @@ class example():
         result = self.client['Product_Package'].getAllObjects();
         for product in result:
             print str(product['id']) + " - " + product['name']
-        for prices in result['itemPrices']:
-            print str(prices['id']) + " - " + prices['item']['description']
-
         # result has a LOT of stuff in it, only print it out if you are ready
         # pp.pprint(result)
 
@@ -46,8 +43,7 @@ class example():
         # pp(locations)
 
         result = self.client['Product_Package'].getObject(mask=mask,id=package_id)
-        # result has a LOT of output
-        # pp(result)
+
         for item in result['items']:
             print str(item['id']) + " - " + item['description'] + " --- " + item['keyName']
             for prices in item['prices']:
