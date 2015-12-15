@@ -20,13 +20,10 @@ http://sldn.softlayer.com/reference/services/SoftLayer_Product_Order/verifyOrder
 http://sldn.softlayer.com/reference/services/SoftLayer_Product_Order/placeOrder
 http://sldn.softlayer.com/reference/services/SoftLayer_Product_Package
 http://sldn.softlayer.com/reference/services/SoftLayer_Product_Package/getItems
-http://sldn.softlayer.com/reference/services/SoftLayer_Location_Group_Pricing
-http://sldn.softlayer.com/reference/services/SoftLayer_Location_Group_Pricing/getAllObjects
 http://sldn.softlayer.com/reference/services/SoftLayer_Location
 http://sldn.softlayer.com/reference/services/SoftLayer_Location/getDatacenters
 http://sldn.softlayer.com/reference/services/SoftLayer_Network_Storage_Iscsi_OS_Type
 http://sldn.softlayer.com/reference/services/SoftLayer_Network_Storage_Iscsi_OS_Type/getAllObjects
-http://sldn.softlayer.com/reference/datatypes/SoftLayer_Location_Group_Pricing
 http://sldn.softlayer.com/reference/datatypes/SoftLayer_Location
 http://sldn.softlayer.com/reference/datatypes/SoftLayer_Container_Product_Order_Network_Storage_Enterprise
 http://sldn.softlayer.com/reference/datatypes/SoftLayer_Product_Item_Price
@@ -43,77 +40,82 @@ Author: SoftLayer Technologies, Inc. <sldn@softlayer.com>
 import SoftLayer
 import json
 
-USERNAME = 'set me'
-API_KEY = 'set me'
-
 # Values "AMS01", "AMS03", "CHE01", "DAL05", "DAL06" "FRA02", "HKG02", "LON02", etc.
-location = "set me"
+location = "AMS01"
 
 # Values "20", "40", "80", "100", etc.
-storageSize = "set me"
+storageSize = "40"
 
 # Values between "100" and "6000" by intervals of 100.
-iops = "set me"
+iops = "100"
 
 # Values "Hyper-V", "Linux", "VMWare", "Windows 2008+", "Windows GPT", "Windows 2003", "Xen"
-os = "set me"
+os = "Linux"
 
 PACKAGE_ID = 222
 
-client = SoftLayer.Client(username=USERNAME, api_key=API_KEY)
+client = SoftLayer.Client()
 productOrderService = client['SoftLayer_Product_Order']
 packageService = client['SoftLayer_Product_Package']
-locationGroupService = client['SoftLayer_Location_Group_Pricing']
 locationService = client['SoftLayer_Location']
 osService = client['SoftLayer_Network_Storage_Iscsi_OS_Type']
 
 objectFilterDatacenter = {"name": {"operation": location.lower()}}
 objectFilterStorageNfs = {"items": {"categories": {"categoryCode": {"operation": "performance_storage_iscsi"}}}}
 objectFilterOsType = {"name": {"operation": os}}
-objectMaskLocation = "mask[locations]"
 
 try:
     # Getting the datacenter.
     datacenter = locationService.getDatacenters(filter=objectFilterDatacenter)
     # Getting the performance storage NFS prices.
     itemsStorageNfs = packageService.getItems(id=PACKAGE_ID, filter=objectFilterStorageNfs)
-    # Getting the SoftLayer_Location_Group_Pricing which contains the configured location.
-    locations = locationGroupService.getAllObjects(mask=objectMaskLocation)
-    for item in locations:
-        for loc in item['locations']:
-            if location.lower() == loc['name'].lower():
-                location = item
-                break
-        if 'id' in location:
-            break
-    # Getting the storage space prices which match the configured storage space, and are valid for the configured location.
-    # In case we did not get a location group for the configured location, we are going to search for standard prices.
-    if 'id' in location:
-        objectFilterLocation = {"itemPrices": {"item": {"capacity": {"operation":  storageSize}}, "categories": {"categoryCode": {"operation": "performance_storage_space"}}, "locationGroupId": {"operation": "in", "options": [{"name": "data", "value": [location['id']]}]}}}
-        objectFilter = objectFilterLocation
-    else:
-        objectFilterNoLocation = {"itemPrices": {"item": {"capacity": {"operation":  storageSize}}, "categories": {"categoryCode": {"operation": "performance_storage_space"}}, "locationGroupId": {"operation": "is null"}}}
-        objectFilter = objectFilterNoLocation
+    # Getting the storage space prices
+    objectFilter = {
+        "itemPrices": {
+            "item": {
+                "capacity": {
+                    "operation": storageSize
+                }
+            },
+            "categories": {
+                "categoryCode": {
+                    "operation": "performance_storage_space"
+                }
+            },
+            "locationGroupId": {
+                "operation": "is null"
+            }
+        }
+    }
     pricesStorageSpace = packageService.getItemPrices(id=PACKAGE_ID, filter=objectFilter)
-    if len(pricesStorageSpace) == 0:
-        objectFilter = {"itemPrices": {"item": {"capacity": {"operation":  storageSize}}, "categories": {"categoryCode": {"operation": "performance_storage_space"}}, "locationGroupId": {"operation": "is null"}}}
-        pricesStorageSpace = packageService.getItemPrices(id=PACKAGE_ID, filter=objectFilter)
-    # If the prices list is still empty that means that the storage space value is invalid.
+    # If the prices list is empty that means that the storage space value is invalid.
     if len(pricesStorageSpace) == 0:
         raise ValueError('The storage space value: ' + storageSize + ' GB, is not valid.')
-    # Getting the IOPS prices which match the configured IOPS, are valid for the configured storage space, and are valid for the configured location.
-    # In case we did not get a location group for the configured location, we are going to search for standard prices.
-    if 'id' in location:
-        objectFilterLocation = {"itemPrices": {"item": {"capacity": {"operation": iops}}, "attributes": {"value": {"operation": storageSize}}, "categories": {"categoryCode": {"operation": "performance_storage_iops"}}, "locationGroupId": {"operation": "in", "options": [{"name": "data", "value": [location['id']]}]}}}
-        objectFilter = objectFilterLocation
-    else:
-        objectFilterNoLocation = {"itemPrices": {"item": {"capacity": {"operation": iops}}, "attributes": {"value": {"operation": storageSize}}, "categories": {"categoryCode": {"operation": "performance_storage_iops"}}, "locationGroupId": {"operation": "is null"}}}
-        objectFilter = objectFilterNoLocation
+    # Getting the IOPS prices
+    objectFilter = {
+        "itemPrices": {
+            "item": {
+                "capacity": {
+                    "operation": iops
+                }
+            },
+            "attributes": {
+                "value": {
+                    "operation": storageSize
+                }
+            },
+            "categories": {
+                "categoryCode": {
+                    "operation": "performance_storage_iops"
+                }
+            },
+            "locationGroupId": {
+                "operation": "is null"
+            }
+        }
+    }
     pricesIops = packageService.getItemPrices(id=PACKAGE_ID, filter=objectFilter)
-    if len(pricesIops) == 0:
-        objectFilter = {"itemPrices": {"item": {"capacity": {"operation": iops}}, "attributes": {"value": {"operation": storageSize}}, "categories": {"categoryCode": {"operation": "performance_storage_iops"}}, "locationGroupId": {"operation": "is null"}}}
-        pricesIops = packageService.getItemPrices(id=PACKAGE_ID, filter=objectFilter)
-    # If the prices list is still empty that means that the IOPS value is invalid for the configured storage space.
+    # If the prices list is empty that means that the IOPS value is invalid for the configured storage space.
     if len(pricesIops) == 0:
         raise ValueError('The IOPS value: ' + iops + ', is not valid for the storage space: ' + storageSize + ' GB.')
     # Getting the OS.
