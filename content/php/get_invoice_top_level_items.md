@@ -28,8 +28,8 @@ class topBillingItems
     function __construct() {
         $this->apiUsername = '';
         $this->apiKey = '';
-        $this->startDate = new DateTime('2015-02-12T00:00:00 UTC');
-        $this->endDate = new DateTime('2015-03-12T00:00:00 UTC');
+        $this->startDate = new DateTime('2015-02-12T00:00:00', new DateTimeZone('CST'));
+        $this->endDate = new DateTime('2015-03-12T00:00:00', new DateTimeZone('CST'));
     }
 
     /*!
