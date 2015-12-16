@@ -30,3 +30,10 @@ The SoftLayer CLI tool is bundled with the softlayer-python project and offers a
 Salt-Cloud is a part of [SaltStack](http://saltstack.com/) which is a python based configuration management platform. Salt-Cloud can provision [Virtual Guests](https://docs.saltstack.com/en/develop/ref/clouds/all/salt.cloud.clouds.softlayer.html) and [Bare Metal Instances](https://docs.saltstack.com/en/latest/ref/clouds/all/salt.cloud.clouds.softlayer_hw.html) on SoftLayer's platform, along with a variety of other providers.
 
 See the [Getting Started](http://salt-cloud.readthedocs.org/en/latest/topics/softlayer.html) guide for more details.
+
+---
+### [Fog-Softlayer](https://github.com/fog/fog-softlayer)
+
+A module for the 'fog' gem to support SoftLayer. This gem is a module for the fog gem that allows you to manage resources in the SoftLayer Cloud. It is included by the main fog metagem but can used as an independent library in other applications.
+
+See the [Getting Started](https://github.com/fog/fog-softlayer/blob/master/examples/getting_started.md) guide for more details. 
