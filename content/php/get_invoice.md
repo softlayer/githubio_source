@@ -19,8 +19,8 @@ $apiUser = '';
 $key = '';
 
 //The date does need to be in this specific format
-$startDate = new DateTime('2014-11-01T13:05:25 UTC');
-$endDate = new DateTime('2014-12-01T09:53:51 UTC');
+$startDate = new DateTime('2014-11-01T13:05:25', new DateTimeZone('CST'));
+$endDate = new DateTime('2014-12-01T09:53:51', new DateTimeZone('CST'));
  
 $accountClient = \SoftLayer\SoapClient::getClient('SoftLayer_Account', null, $apiUser, $key);
 
