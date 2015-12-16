@@ -12,18 +12,12 @@ tags:
 
 ```python
 import SoftLayer
-from SoftLayer import utils
-import sys
-import pprint
-import logging
+from pprint import pprint as pp
  
-apiUsername = ''
-apiKey = ''
-  	 
-pp = pprint.PrettyPrinter(indent=4)
-client = SoftLayer.Client(username=apiUsername,api_key=apiKey)
-	  
-mask = "mask[networkManagementIpAddress,remoteManagementAccounts[username,password]]"
-		 
-result = client['SoftLayer_Account'].getHardware(
+client = SoftLayer.Client()
+      
+mask = """mask[networkManagementIpAddress,remoteManagementAccounts[username,password],id,fullyQualifiedDomainName]"""
+         
+result = client['SoftLayer_Account'].getHardware(mask=mask)
+pp(result)
 ```
