@@ -1,8 +1,6 @@
 ---
 title: "Determining your next bill"
-description: "Example on how to use getNextInvoiceTotalAmount to retrieve the pre-tax total amount of an account's next invoice measured in US Dollars ($USD). The amount assumes no changes or charges occur between now and the time of billing.
-
-"
+description: "Example on how to use getNextInvoiceTotalAmount to retrieve the pre-tax total amount of an account's next invoice measured in US Dollars ($USD). The amount assumes no changes or charges occur between now and the time of billing."
 date: "2015-12-30"
 classes: ["SoftLayer_Account"]
 tags:
