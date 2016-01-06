@@ -32,7 +32,7 @@ Salt-Cloud is a part of [SaltStack](http://saltstack.com/) which is a python bas
 See the [Getting Started](http://salt-cloud.readthedocs.org/en/latest/topics/softlayer.html) guide for more details.
 
 ---
-### [Fog-Softlayer](https://github.com/fog/fog-softlayer)
+### [Fog-Softlayer](/fog/)
 
 A module for the 'fog' gem to support SoftLayer. This gem is a module for the fog gem that allows you to manage resources in the SoftLayer Cloud. It is included by the main fog metagem but can used as an independent library in other applications.
 
@@ -41,6 +41,6 @@ See the [Getting Started](https://github.com/fog/fog-softlayer/blob/master/examp
 ---
 ### [Apache Libcloud](https://libcloud.apache.org/)
 
-Apache Libcloud is a Python library which hides allows you to manage different cloud resources through a unified and easy to use API. Libcloud can provision [Virtual Guests](https://libcloud.readthedocs.org/en/latest/apidocs/libcloud.compute.drivers.html#module-libcloud.compute.drivers.softlayer), manage SSH keys, interact with Load Balancers, manage DNS, and a whole lot more. 
+Apache Libcloud is a Python library which hides allows you to manage different cloud resources through a unified and easy to use API. Libcloud can provision [Virtual Guests](https://libcloud.readthedocs.org/en/latest/apidocs/libcloud.compute.drivers.html#module-libcloud.compute.drivers.softlayer), manage SSH keys, interact with Load Balancers, manage DNS, and a whole lot more.
 
 See the [Getting Started](https://libcloud.readthedocs.org/en/latest/getting_started.html) guide for more details.
