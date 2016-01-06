@@ -38,5 +38,5 @@ print $result->result->{'hoursUsed'} . " hours @ " . $result->result->{'hourlyRe
 
 Example Response:
 ```
-
+1 hours @ .045$/hour = 0.045 $
 ```
