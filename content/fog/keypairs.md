@@ -1,7 +1,7 @@
 ---
 title: "Managing SSH Key Pairs with fog-softlayer"
 description: "Using the fog-softlayer gem to create, destroy, and get information about SSH keys"
-date: "2016-01-07"
+date: "2016-01-08"
 tags:
   - "fog"
   - "sshkey"
