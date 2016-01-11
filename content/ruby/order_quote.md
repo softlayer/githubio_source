@@ -26,7 +26,7 @@ pp quote.getRecalculatedOrderContainer['orderContainers'][0]
 puts "Displaying order result:\n"
 pp quote.placeOrder(
   complexType: 'Container_Product_Order_Virtual_Guest',
-  hardware: { hostname: 'quotetest', domain: 'example.com' },
+  hardware: [{ hostname: 'quotetest', domain: 'example.com' }],
   quantity: 1
 )
 ```
