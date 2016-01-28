@@ -14,5 +14,5 @@ require 'pp'
 # See https://github.com/softlayer/softlayer-ruby/blob/master/lib/softlayer/Config.rb#L11-L44
 SoftLayer::Client.default_client = SoftLayer::Client.new
 
-pp SoftLayer::VirtualServers.find_servers
+pp SoftLayer::VirtualServer.find_servers
 ```
