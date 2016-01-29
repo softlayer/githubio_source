@@ -1,5 +1,5 @@
 ---
-title: "Find a billing item from a provisioned product?"
+title: "Find a billing item from a provisioned product"
 description: "Determine the billing item of a provisioned product using getBillingItem"
 
 date: "2015-12-30"
