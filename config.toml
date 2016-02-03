@@ -6,6 +6,7 @@ SectionPagesMenu = "sections"
 pygmentsuseclasses = false
 pygmentsStyle = "monokai"
 pluralizelisttitles = "false"
+paginate = 5
 
 [params]
   description = "SoftLayer API Examples, implementations, and release notes."
