@@ -2,7 +2,7 @@
 title: "Cancel an item or service"
 description: "Use cancelService to cancel an item or service
 "
-date: "2016-02-8"
+date: "2016-02-08"
 classes: ["SoftLayer_Virtual_Guest", "SoftLayer_Billing_Item"]
 tags:
     - "objectMask"
