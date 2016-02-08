@@ -1,7 +1,7 @@
 ---
 title: "Find a billing item from a provisioned product"
 description: "Determine the billing item of a provisioned product using getBillingItem"
-date: "2016-02-8"
+date: "2016-02-08"
 classes: ["SoftLayer_Virtual_Guest"]
 tags:
     - "objectmask"
