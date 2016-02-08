@@ -1,6 +1,6 @@
 ---
 title: "Cancel an item or service"
-description: "Use cancelService to cancel am item or service"
+description: "Use cancelService to cancel an item or service"
 
 date: "2015-12-30"
 classes: ["SoftLayer_Billing_Item"]
