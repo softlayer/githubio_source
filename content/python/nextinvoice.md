@@ -1,7 +1,7 @@
 ---
 title: "Determining your next bill"
 description: "Example on how to use getNextInvoiceTotalAmount to retrieve the pre-tax total amount of an account's next invoice measured in US Dollars ($USD)"
-date: "2016-02-8"
+date: "2016-02-08"
 classes: ["SoftLayer_Account"]
 tags:
     - "invoice"
