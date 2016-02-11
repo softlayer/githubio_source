@@ -43,7 +43,3 @@ pluralizeListTitles = false
     name = "tools"
     identifier = "tools"
     url = "/tools/"
-[[menu.main]]
-    name = "release notes"
-    identifier = "release_notes"
-    url = "/release_notes/"
