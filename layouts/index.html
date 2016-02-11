@@ -6,8 +6,8 @@
 
     <div class="container">
     <div class="row">
-        <div class="col-md-9">
         <h1>Release Notes</h1>
+		<div class="col-md-9">
         {{ range $paginator.Pages }}
             {{ .Render "front-summary" }}
         {{ end }}
