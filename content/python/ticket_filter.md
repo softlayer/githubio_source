@@ -1,6 +1,6 @@
 ---
 title: "Get tickets using an objectFilter"
-description: "Pulls down all the tickets created after a set date, along with any updates"
+description: "Pulls down all the cancellation tickets created after a set date, along with any updates"
 date: "2016-02-26"
 classes: ["SoftLayer_Account"]
 tags:
@@ -52,6 +52,12 @@ class example():
                     'options': [
                         {'name': 'date', 'value': [theDate]}
                     ]
+                },
+                'group' : {
+                    'name': {
+                        'operation': 'Cancellations'
+                    }
+                    
                 }
             }
         }
