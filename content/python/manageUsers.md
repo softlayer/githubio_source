@@ -135,8 +135,8 @@ if __name__ == "__main__":
 ```
 
 Disable user, changes their password, cancels their servers, and removes any sshKeys
-```
 
+```
 import SoftLayer.API
 from pprint import pprint as pp
 
@@ -167,14 +167,11 @@ def get_target_keys(prefix):
 
 def print_result(result, thing):
     if result == True:
-        print "\033[42;97mOK\033[0m"
+        print "OK"
     else:
-        print "\033[31mERROR: "
+        print "ERROR: "
         pp(thing)
-        print "\033[0m"
-
     return
-
 
 if __name__ == "__main__":
     import argparse
@@ -192,7 +189,7 @@ if __name__ == "__main__":
 
     for user in users:
         password =  args.password
-        print '\033[95mUser: ' + user['username'] + ' Password: ' + password + '\033[0m'
+        print 'User: ' + user['username'] + ' Password: ' + password 
         # status 1021 disables the user
         template = {
             'id': user['id'],
@@ -203,26 +200,25 @@ if __name__ == "__main__":
         servers = client['User_Customer'].getVirtualGuests(id=user['id'])
         result = True
         for virt in servers: 
-            print("\tCanceling host... \033[34m" + virt['fullyQualifiedDomainName'] + " \033[96m(" + str(virt['id']) + ")\t\033[0m"),
+            # the "," and the end of print removes the automatic newline
+            print("\tCanceling host... " + virt['fullyQualifiedDomainName'] + " (" + str(virt['id']) + ")\t"),
             try:
                 result = client['Virtual_Guest'].deleteObject(id=virt['id'])
                 print_result(result,virt)
             except SoftLayer.exceptions.SoftLayerAPIError as error:
-                print("\t\033[31mException, host might already be canceling...\033[0m")
+                print("\tException, host might already be canceling...")
                 pp(error)
 
-        print("\tChanging password for... \033[34m" + user['username'] + " \033[96m(" + str(user['id']) + ")\t\033[0m"),
+        print("\tChanging password for..." + user['username'] + " (" + str(user['id']) + ")\t"),
         result = client['User_Customer'].updatePassword(password, id=user['id'])
         print_result(result,user)
  
     sshkeys = get_target_keys(args.prefix)
-    print '\033[95mSSH Key Removal\033[0m'
+    print 'SSH Key Removal'
     for key in sshkeys:
-        print("Deleting key... \033[34m" + key['label'] + " \033[96m(" + str(key['id']) + ")\t\033[0m"),
+        print("Deleting key... " + key['label'] + " (" + str(key['id']) + ")\t"),
         result = client['SoftLayer_Security_Ssh_Key'].deleteObject(id=key['id'])
         print_result(result,key)
 
-    print '\033[94mComplete'
-    print '\033[0m'
-
+    print 'Complete'
 ```
