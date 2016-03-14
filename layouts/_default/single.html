@@ -3,10 +3,10 @@
 {{ partial "navbar.html" . }}
 <div class="container">
     <div class="row">
-        <div class="col-md-9">
-            <div class="well well-sm" style="word-wrap: break-word;">
-                <h3>{{ .Title }}<br> <small>{{ .Description }}</small></h3>
-                <hr>
+		<div class="col-md-9">
+            <div class="well well-sm release-note" style="word-wrap: break-word;">
+				<h3>{{ .Title }}<br> <small>{{ .Description }}</small></h3>
+				<!-- Start deprecated block -->
                 {{ if in .Params.tags "deprecated" }}
                     <div class="alert alert-info alert-dismissable" style="margin-top:25px;margin-bottom:5px;">
                         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
@@ -14,10 +14,10 @@
                         This example contains deprecated methods or syntax and needs to be updated. Please use caution when using.
                     </div>
                 {{ end }}
+				<!-- End deprecated block -->
                 {{ .Content }}
             </div>
         </div>
-
         <!-- Sidebar -->
         <div class="col-md-3">
             <div class="well well-sm" style="word-wrap: break-word;"> <!-- Post-specific stats -->

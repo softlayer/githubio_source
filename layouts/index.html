@@ -6,20 +6,24 @@
 
     <div class="container">
     <div class="row">
-        <div class="col-md-9">
         <h1>Release Notes</h1>
-        {{ range $paginator.Pages }}
-            {{ .Render "front-summary" }}
-        {{ end }}
+		<div class="col-md-9">
+			{{ range $paginator.Pages }}
+				{{ .Render "front-summary" }}
+			{{ end }}
+		</div>
 
-        {{ template "_internal/pagination.html" . }}
-        </div>
-
-            <!-- Sidebar -->
-            <div class="col-md-3">
-                {{ partial "menu.html" . }}
-            </div>
+		<!-- Sidebar -->
+		<div class="col-md-3">
+			{{ partial "menu.html" . }}
+		</div>
     </div>
-{{ partial "footer.copyright.html" . }}
+	<div class="row">
+
+		<div class="col-md-9 center-block">
+			{{ template "_internal/pagination.html" . }}
+		</div>
+	</div>
+	{{ partial "footer.copyright.html" . }}
 </div>
 {{ partial "footer.html" . }}
