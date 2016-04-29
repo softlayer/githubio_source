@@ -1,13 +1,12 @@
 ---
 title: "Create a new Bandwidth Pool"
-description: "Creating a new Bandwidth pool. This allows you to optimize your bandwidth usage by "pooling" all of the bandwidth together for servers in a the Pool."
+description: "Creating a new Bandwidth pool. This allows you to optimize your bandwidth usage by _pooling_ all of the bandwidth together for servers in a the Pool."
 date: "2016-04-29"
 classes: ["SoftLayer_Network_Bandwidth_Version1_Allotment"]
 tags:
-    - "BandwidthPool"
-    - "createObject"
+    - "placeOrder"
+    - "verifyOrder"
 ---
-
 ```python
 
 import SoftLayer
