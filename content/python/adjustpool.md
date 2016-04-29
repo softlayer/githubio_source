@@ -7,7 +7,7 @@ tags:
     - "BandwidthPool"
 ---
 
-The following script allows you to add and remove servers in an existing bandwidth pool. 
+The following script allows you to add and remove servers in an existing bandwidth pool. The script requires empty arrays when not specifying a Bare Metal or Virtual Guest Id. 
 
 ```python
 import SoftLayer
