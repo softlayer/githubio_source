@@ -8,6 +8,8 @@ tags: ["virtual server", "ordering"]
 
 ---
 
+[getPrivateBlockDeviceTemplateGroups](http://sldn.softlayer.com/reference/services/SoftLayer_Account/getPrivateBlockDeviceTemplateGroups) will return a list of all the templates that you have created on your account. Use this method to find the id of the template you want to create a server from.
+
 ```python
 import SoftLayer
 from pprint import pprint as pp
@@ -15,6 +17,15 @@ from pprint import pprint as pp
 templateId = 12345
 
 client = SoftLayer.Client()
+
+mask = "mask[id,name,note]"
+imageTemplates = client['SoftLayer_Account'].getPrivateBlockDeviceTemplateGroups(mask=mask)
+print("ID - Name - Note")
+for template in imageTemplates:
+    try:
+        print("%s - %s - %s" % (template['id'], template['name'], template['note']))
+    except KeyError:
+        print("%s - %s - %s" % (template['id'], template['name'], 'None'))
 
 order = {
     'complexType': 'SoftLayer_Container_Product_Order_Virtual_Guest',
