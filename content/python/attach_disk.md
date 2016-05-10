@@ -7,13 +7,15 @@ tags:
     - "attachDiskImage"
     - "detachDiskImage"
     - "getPortableStorageVolumes"
+    - "checkHostDiskAvailability"
 ---
 
-Attaching a currently detached portable block device to a given guest. The disk image will need to be migrated to the host the guest is on, so make sure to check if that host has enough disk space (with checkHostDiskAvailability) before attaching. 
+Attaching a currently detached portable block device to a given guest. The disk image will need to be migrated to the host the guest is on, so make sure to check if that host has enough disk space (with checkHostDiskAvailability) before attaching. This is only required for guests with local storage guests. SAN based guests don't need that step.
 
 Running this on a disk that is already attached will move the disk to the new guest. 
 
-```import SoftLayer
+```
+import SoftLayer
 from pprint import pprint as pp
 
 class example():
@@ -68,6 +70,7 @@ if __name__ == "__main__":
     main = example()
     main.getImages()
     main.main(image_id, guest_id)
+    # The new guest will only show up on the image once the migration transaction is completed
     main.getMyImage(image_id)
 
 ```
