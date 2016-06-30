@@ -1,4 +1,4 @@
-baseurl = "https://softlayer.github.io/"
+BaseURL = "http://softlayerio.mybluemix.net/"
 languageCode = "en-us"
 title = "SoftLayer API Examples"
 canonifyurls = true
