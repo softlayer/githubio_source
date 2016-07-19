@@ -42,6 +42,9 @@ if [ -f Dockerfile ]; then
     else
         log_and_echo "$SUCCESSFUL" "Container build of ${FULL_REPOSITORY_NAME} was successful"
         ${EXT_DIR}/utilities/sendMessage.sh -l good -m "Container build of ${FULL_REPOSITORY_NAME} was successful"
+        log_and_echo "Spinng up container!"
+        DOCKER_ID=`ice_retry run -m 64  ${FULL_REPOSITORY_NAME}`
+        log_and_echo "DockerID: ${DOCKER_ID}"
     fi  
 else 
     log_and_echo "$ERROR" "Dockerfile not found in project"
@@ -55,10 +58,5 @@ fi
 echo "IMAGE_NAME=${FULL_REPOSITORY_NAME}" >> $ARCHIVE_DIR/build.properties
 log_and_echo "Spinng up container!"
 mkdir buildOut
-ice_rety run -m 64 -v ./bouldOut:/output ${FULL_REPOSITORY_NAME} 
-log_and_echo "Sleeping for a bit!"
-sleep 30
-cd buildOut
-ls -l
-log_and_echo "Publishing"
-cf push softlayerio -b https://github.com/cloudfoundry/staticfile-buildpack.git -m 64M
+ice_retry cp ${DOCKER_ID}:/output buildOut/
+

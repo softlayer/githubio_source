@@ -13,12 +13,16 @@ RUN apk add --update wget ca-certificates && \
 
 COPY ./run.sh /run.sh
 
-VOLUME /src
+VOLUME /source
 VOLUME /output
 
-COPY ./* /src/
+COPY ./config.toml /source/
+COPY ./content/ /source/
+COPY ./layouts/ /source/
+COPY ./public/ /source/
+COPY ./static/ /source/
 
-WORKDIR /src
+WORKDIR /source
 CMD ["/run.sh"]
 
 EXPOSE 1313
