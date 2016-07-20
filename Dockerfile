@@ -19,7 +19,6 @@ VOLUME /output
 COPY ./config.toml /source/
 COPY ./content/ /source/
 COPY ./layouts/ /source/
-COPY ./public/ /source/
 COPY ./static/ /source/
 
 WORKDIR /source
