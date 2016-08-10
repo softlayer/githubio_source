@@ -10,7 +10,7 @@ tags:
 ---
 
 
-The following script allows you retrieve the username and password for Performance/Endurance Block storage if you have authorized hosts against the storage.
+The following script allows you retrieve the username and password for Performance/Endurance Block storage. If you have not autorized hosts against the storage then you will get some basic information about the Block storage as a result. 
 
 ```php
 <?php
