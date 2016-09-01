@@ -10,7 +10,6 @@ tags:
 ---
 
 ```php
-
 <?php
 
 /* You can use the getenv() module to pull your exported Username
@@ -46,4 +45,4 @@ try {
 }
 
 ?>
-````
+```
