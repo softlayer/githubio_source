@@ -22,7 +22,7 @@ import (
 	"github.com/softlayer/softlayer-go/sl"
 )
 
-const guestID = 24459505
+const guestID = 123456
 
 func main() {
 	sess := session.New()
