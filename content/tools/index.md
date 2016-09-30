@@ -44,3 +44,8 @@ See the [Getting Started](https://github.com/fog/fog-softlayer/blob/master/examp
 Apache Libcloud is a Python library which hides allows you to manage different cloud resources through a unified and easy to use API. Libcloud can provision [Virtual Guests](https://libcloud.readthedocs.org/en/latest/apidocs/libcloud.compute.drivers.html#module-libcloud.compute.drivers.softlayer), manage SSH keys, interact with Load Balancers, manage DNS, and a whole lot more.
 
 See the [Getting Started](https://libcloud.readthedocs.org/en/latest/getting_started.html) guide for more details.
+
+---
+### [Terraform](/terraform/)
+
+Terraform provides a common configuration to launch infrastructure — from physical and virtual servers to email and DNS providers.

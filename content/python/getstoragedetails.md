@@ -11,6 +11,13 @@ tags:
 The following script allows you retrieve the username and password for Performance/Endurance Block storage if you have authorized hosts against the storage.
 
 ```python
+"""
+Get credentials for a authorized hosts of a SoftLayer_Network_Storage_Iscsi 
+
+Important manual pages
+http://sldn.softlayer.com/reference/services/SoftLayer_Network_Storage_Iscsi
+"""
+
 import SoftLayer
 import json
 

@@ -8,7 +8,6 @@ classes: ["SoftLayer_Monitoring_Agent", "SoftLayer_Hardware_Server"]
 tags:
     - "monitoring"
     - "metrics"
-    - "deprecated"
 ---
 We will call the SoftLayer API to retrieve the monitoring agents,
  configuration template, and configuration values for a server instance.
@@ -24,50 +23,23 @@ shown below you can do so by looking at the current options available in the
  SoftLayer portal or by further debugging the output of this script.
 ```php
 <?php
- 
-// Include XmlrpcClient.class.php if you'd like to use our XML-RPC client
-// instead.
-require_once(dirname(__FILE__) . '/SoftLayer/SoapClient.class.php');
 
-/**
- * Your SoftLayer API username.
- *
- * @var string
- */
-$apiUsername = 'set me!';
+/* You can use the getenv() module to pull your exported Username
+and API key to keep from having to store them in your files */
 
-/**
- * Your SoftLayer API key. Generate and API key at the SoftLayer customer
- * portal:
- * https://manage.softlayer.com/Administrative/apiKeychain
- *
- * @var string
- */
-$apiKey = 'set me too!';
+require_once './vendor/autoload.php';
+$apiUsername = getenv('SOFTLAYER_USERNAME');
+$apiKey = getenv('SOFTLAYER_API_KEY');
+$serverId = 17422485;
 
-/**
- * The id number of the server whose metrics you wish to retrieve. Call the
- * getVirtualGuests() method in the SoftLayer_Account API service to retrieve a list
- * of the servers on your account.
- *
- * @var int
- */
-$serverId = 1234;
-
-/**
- * The date at which you wish to start the metric sample. Pass any string that
- * is compatible with the PHP strtotime() function.
- *
- * @var string
- */
-$startDate = '03/01/2014';
+$startDate = '04/13/2016';
 
 /**
  * The date at which you wish to end the metric sample.
  *
  * @var string
  */
-$endDate = '03/02/2014';
+$endDate = '08/10/2016';
 
 /**
  * For this example we'll be working with SoftLayer_Virtual_Guest, you can also work
@@ -76,7 +48,7 @@ $endDate = '03/02/2014';
  * Create a connection to the SoftLayer_Virtual_Guest API service and call the
  * getMonitoringAgents() method to get the server's associated tracking object record.
  */
-$client = Softlayer_SoapClient::getClient('SoftLayer_Virtual_Guest', $serverId, $apiUsername, $apiKey);
+$client = \SoftLayer\SoapClient::getClient('SoftLayer_Virtual_Guest', $serverId, $apiUsername, $apiKey);
 
 try {
     // getMonitoringAgents() returns an array of SoftLayer_Monitoring_Agent objects.
@@ -103,7 +75,7 @@ foreach ($monitoringAgents as $agent) {
  * Re-declare our client variable to talk to the
  * SoftLayer_Monitoring_Agent API service.
  */
-$client = SoftLayer_SoapClient::getClient('SoftLayer_Monitoring_Agent', $cdmAgent->id, $apiUsername, $apiKey);
+$client = \SoftLayer\SoapClient::getClient('SoftLayer_Monitoring_Agent', $cdmAgent->id, $apiUsername, $apiKey);
 
 // Object mask to get all definitions that we need.
 $objectMask = 'mask.definition.monitoringDataFlag';
@@ -138,7 +110,7 @@ foreach ($cdmConfigurationValues as $configurationValue) {
     }
 
     // Get the metricDataType for this configuration value
-    $client = SoftLayer_SoapClient::getClient('SoftLayer_Monitoring_Agent_Configuration_Value', $configurationValue->id, $apiUsername, $apiKey);
+    $client = \SoftLayer\SoapClient::getClient('SoftLayer_Monitoring_Agent_Configuration_Value', $configurationValue->id, $apiUsername, $apiKey);
     try {
         $metricDataTypes[] = $client->getMetricDataType();
     } catch (Exception $e) {
@@ -154,7 +126,7 @@ foreach ($cdmConfigurationValues as $configurationValue) {
  *
  * We will be retrieving the "Graph Total CPU Usage" metric data.
  */
-$client = SoftLayer_SoapClient::getClient('SoftLayer_Monitoring_Agent', $cdmAgent->id, $apiUsername, $apiKey);
+$client = \SoftLayer\SoapClient::getClient('SoftLayer_Monitoring_Agent', $cdmAgent->id, $apiUsername, $apiKey);
 
 try {
     // getGraphData() returns a SoftLayer_Metric_Tracking_Object_Data object.
@@ -163,4 +135,5 @@ try {
 } catch (Exception $e) {
     die('Unable to retrieve metric data: ' . $e->getMessage());
 }
+?>
 ```
