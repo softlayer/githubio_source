@@ -1,0 +1,91 @@
+---
+title: "Advanced Quote Ordering"
+description: "Place an order using a quote with SSH keys and post provisioning scripts. Along with a few examples of how to get the needed data."
+date: "2016-10-05"
+classes: 
+    - "SoftLayer_Billing_Order_Quote"
+    - "SoftLayer_Account"
+    - "SoftLayer_Product_Order"
+    - "SoftLayer_Location"
+tags:
+    - "order"
+    - "quote"
+---
+
+
+```python
+import SoftLayer
+from pprint import pprint as pp
+
+class example():
+
+    def __init__(self):
+
+        self.client = SoftLayer.Client()
+        self.mgr = SoftLayer.OrderingManager(self.client)
+
+
+    def orderQuote(self, quote_id):
+        # If you have more than 1 server in the quote, you will need to append
+        # 
+        guests = {
+            'hostname': 'quotetest', 
+            'domain': 'example.com'
+
+        }
+        
+        quote = self.client['Billing_Order_Quote']
+        quote_container = quote.getRecalculatedOrderContainer(id=quote_id)
+        container = quote_container['orderContainers'][0]
+
+        container['quantity'] = 1
+        container['virtualGuests'] = []
+        container['virtualGuests'].append(guests)
+
+        # SoftLayer.exceptions.SoftLayerAPIError: SoftLayerAPIError(SoftLayer_Exception_Order_MismatchedQuantity): The number of servers (2) does not match the order quantity (1).
+        # the hardware variable was getting filled out for some reason, even though there were no hardware on this quote.
+        container['hardware'] = None
+
+
+        container['presetId'] = None
+        container['provisionScripts'] = ['https://gist.githubusercontent.com/myscript.py']
+        # http://sldn.softlayer.com/reference/datatypes/SoftLayer_Container_Product_Order
+        # The order of containers passed in needs to match the order they are assigned to either hardware or virtualGuests
+        container['sshKeys'] = [{'sshKeyIds': [1234]} ]
+
+        # Edit this ID to change the location of the order.
+        # this is AMS03
+        container['location'] = 814994
+        result = self.client['Product_Order'].verifyOrder(container)
+        pp(result)
+
+    def getOrderContainer(self,quote_id):
+        quote = self.client['Billing_Order_Quote']
+        container = quote.getRecalculatedOrderContainer(id=quote_id)
+        return container['orderContainers'][0]
+
+
+    def listQuotes(self):
+        quotes = self.client['SoftLayer_Account'].getActiveQuotes()
+        pp(quotes)
+
+    def listLocations(self):
+        locations = self.client['SoftLayer_Location'].getDatacenters()
+        pp(locations)
+
+    def listSshKeys(self):
+        keys = self.client['SoftLayer_Account'].getSshKeys()
+        pp(keys)
+
+if __name__ == "__main__":
+    quote_id = 1942633
+    main = example()
+    # main.main()
+    # main.listQuotes()
+    # quote = main.getOrderContainer(quote_id)
+    # pp(quote)
+    # main.listLocations()
+    # main.listSshKeys()
+    main.orderQuote(quote_id)
+
+```
