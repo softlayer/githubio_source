@@ -19,6 +19,10 @@ paginate = 5
 pluralizeListTitles = false
 
 [[menu.main]]
+    name = "go"
+    identifier = "go"
+    url = "/go/"
+[[menu.main]]
     name = "perl"
     identifier = "perl"
     url = "/perl/"
