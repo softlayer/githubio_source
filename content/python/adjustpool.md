@@ -1,6 +1,6 @@
 ---
 title: "Adding/Removing Servers in a Bandwidth Pool"
-description: "Adding and removing Virtual Guests and Bare Metal Servers in an exising Bandwidth Pool"
+description: "Adding and removing Virtual Guests and Bare Metal Servers in an existing Bandwidth Pool"
 date: "2016-04-28"
 classes: ["SoftLayer_Network_Bandwidth_Version1_Allotment"]
 tags:
