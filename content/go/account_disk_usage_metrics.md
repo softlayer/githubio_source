@@ -13,37 +13,37 @@ tags:
 package main
 
 import (
-	"fmt"
-	"log"
-	"time"
+    "fmt"
+    "log"
+    "time"
 
-	"github.com/softlayer/softlayer-go/services"
-	"github.com/softlayer/softlayer-go/session"
-	"github.com/softlayer/softlayer-go/sl"
+    "github.com/softlayer/softlayer-go/services"
+    "github.com/softlayer/softlayer-go/session"
+    "github.com/softlayer/softlayer-go/sl"
 )
 
 func main() {
-	// Create a session
-	sess := session.New()
+    // Create a session
+    sess := session.New()
 
-	// Account service has the method we need
-	service := services.GetAccountService(sess)
+    // Account service has the method we need
+    service := services.GetAccountService(sess)
 
-	// Range: most recent 24 hours
-	//
-	// Time values are wrapped within an sl.Time type, to facilitate json marshaling
-	tEnd := sl.Time(time.Now())
-	tStart := sl.Time(tEnd.AddDate(0, 0, -1))
+    // Range: most recent 24 hours
+    //
+    // Time values are wrapped within an sl.Time type, to facilitate json marshaling
+    tEnd := sl.Time(time.Now())
+    tStart := sl.Time(tEnd.AddDate(0, 0, -1))
 
-	data, err := service.GetDiskUsageMetricDataByDate(tStart, tEnd)
-	if err != nil {
-		log.Fatal(err)
-	}
+    data, err := service.GetDiskUsageMetricDataByDate(tStart, tEnd)
+    if err != nil {
+        log.Fatal(err)
+    }
 
-	fmt.Printf("Number of elements returned: %d\n", len(data))
+    fmt.Printf("Number of elements returned: %d\n", len(data))
 
-	for _, d := range data {
-		fmt.Printf("Counter: %.f, Time: %s, Type: %s\n", *d.Counter, *d.DateTime, *d.Type)
-	}
+    for _, d := range data {
+        fmt.Printf("Counter: %.f, Time: %s, Type: %s\n", *d.Counter, *d.DateTime, *d.Type)
+    }
 }
 ```

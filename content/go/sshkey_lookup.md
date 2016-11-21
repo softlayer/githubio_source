@@ -13,52 +13,52 @@ tags:
 package main
 
 import (
-	"fmt"
-	"log"
+    "fmt"
+    "log"
 
-	"github.com/softlayer/softlayer-go/filter"
-	"github.com/softlayer/softlayer-go/services"
-	"github.com/softlayer/softlayer-go/session"
+    "github.com/softlayer/softlayer-go/filter"
+    "github.com/softlayer/softlayer-go/services"
+    "github.com/softlayer/softlayer-go/session"
 )
 
 // The key to look up
 const label = "Test Public Key"
 
 func main() {
-	sess := session.New()
-	service := services.GetAccountService(sess)
+    sess := session.New()
+    service := services.GetAccountService(sess)
 
-	keys, err := service.
-		Filter(filter.Build(
-			filter.Path("sshKeys.label").Eq(label))).
-		Mask("id,label,key,fingerprint,notes").
-		GetSshKeys()
+    keys, err := service.
+        Filter(filter.Build(
+            filter.Path("sshKeys.label").Eq(label))).
+        Mask("id,label,key,fingerprint,notes").
+        GetSshKeys()
 
-	if err != nil {
-		log.Fatal("Error retrieving SSH key: ", err)
-	}
+    if err != nil {
+        log.Fatal("Error retrieving SSH key: ", err)
+    }
 
-	if len(keys) == 0 {
-		log.Fatal("No ssh key found labeled ", label)
-	}
+    if len(keys) == 0 {
+        log.Fatal("No ssh key found labeled ", label)
+    }
 
-	if len(keys) > 1 {
-		log.Fatal("More than one ssh key found labeled ", label)
-	}
+    if len(keys) > 1 {
+        log.Fatal("More than one ssh key found labeled ", label)
+    }
 
-	key := keys[0]
+    key := keys[0]
 
-	fmt.Printf("Public Key [%s] found:\n", label)
+    fmt.Printf("Public Key [%s] found:\n", label)
 
-	fmt.Println("\tID:", *key.Id)
-	fmt.Println("\tFingerprint:", *key.Fingerprint)
-	fmt.Println("\tKey:", *key.Key)
+    fmt.Println("\tID:", *key.Id)
+    fmt.Println("\tFingerprint:", *key.Fingerprint)
+    fmt.Println("\tKey:", *key.Key)
 
-	notes := ""
-	if key.Notes != nil {
-		notes = *key.Notes
-	}
+    notes := ""
+    if key.Notes != nil {
+        notes = *key.Notes
+    }
 
-	fmt.Println("\tNotes:", notes)
+    fmt.Println("\tNotes:", notes)
 }
 ```
