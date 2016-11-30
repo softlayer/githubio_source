@@ -15,29 +15,29 @@ tags:
 package main
 
 import (
-	"fmt"
-	"log"
+    "fmt"
+    "log"
 
-	"github.com/softlayer/softlayer-go/services"
-	"github.com/softlayer/softlayer-go/session"
+    "github.com/softlayer/softlayer-go/services"
+    "github.com/softlayer/softlayer-go/session"
 )
 
 var remoteScriptURL = "http://example.com/scripts/preparevm"
 
 func main() {
-	// Create a session
-	sess := session.New()
+    // Create a session
+    sess := session.New()
 
-	// Get the VirtualGuest service
-	service := services.GetVirtualGuestService(sess)
+    // Get the VirtualGuest service
+    service := services.GetVirtualGuestService(sess)
 
-	// Execute the script on VM with ID 12345678
-	err := service.Id(12345678).ExecuteRemoteScript(&remoteScriptURL)
+    // Execute the script on VM with ID 12345678
+    err := service.Id(12345678).ExecuteRemoteScript(&remoteScriptURL)
 
-	if err != nil {
-		log.Fatal(err)
-	} else {
-		fmt.Println("Remote script sent for execution")
-	}
+    if err != nil {
+        log.Fatal(err)
+    } else {
+        fmt.Println("Remote script sent for execution")
+    }
 }
 ```

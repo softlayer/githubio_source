@@ -8,6 +8,8 @@ tags:
 ---
 
 
+### [Bluemix for AWS professionals](/tools/compareorator/index.html)
+
 ### [Ansible](/ansible/)
 
 Ansible offers an agentless way to administer your servers and is a great way to quickly make changes across your infrastructure.

@@ -6,6 +6,8 @@ SectionPagesMenu = "sections"
 pygmentsuseclasses = false
 pluralizelisttitles = "false"
 paginate = 5
+googleAnalytics = "UA-88235803-1"
+
 
 [params]
   description = "SoftLayer API Examples, implementations, and release notes."
