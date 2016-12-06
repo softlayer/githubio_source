@@ -36,6 +36,7 @@ With Watson on Bluemix, you have access to the widest range of cognitive technol
 Everything in Bluemix can be managed with an API, for infrastructure this is done through the [SoftLayer API](http://sldn.softlayer.com/) and Bluemix Apps and Services can be managed through the [Bluemix CLI](https://console.ng.bluemix.net/docs/cli/reference/cfcommands/index.html) which is an implementation of the [Cloud Foundry API](https://apidocs.cloudfoundry.org/247/)
 
 
+------------
 
 What follows is a rough comaprison between Bluemix, AWS and Azure. Not all of these services will line up 1:1, but most of them are fairly close. Of course, if you have questions about anything in here, please [Contact Us](https://www.ibm.com/cloud-computing/bluemix/contact-us)
 
