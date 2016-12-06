@@ -12,13 +12,29 @@ tags:
 This article will hopefully help anyone coming from the AWS ecosystem translate their workloads into IBM Bluemix. 
  
 ## Basic Concepts
-[Bluemix](https://console.ng.bluemix.net/docs/overview/whatisbluemix.html#bluemixoverview) has three main silos of services. [Infrastructure](https://console.ng.bluemix.net/catalog/?category=infrastructure) , [Applications](https://console.ng.bluemix.net/catalog/?category=applications) , and [Services](https://console.ng.bluemix.net/catalog/?category=services). 
+[Bluemix](https://console.ng.bluemix.net/docs/overview/whatisbluemix.html#bluemixoverview) has three main silos. [Infrastructure](https://console.ng.bluemix.net/catalog/?category=infrastructure) , [Applications](https://console.ng.bluemix.net/catalog/?category=applications) , and [Services](https://console.ng.bluemix.net/catalog/?category=services). 
 
 _Infrastructure_ is built on [SoftLayer](htts://www.softlayer.com) and is available in over 30 [SoftLayer Datacenters](http://www.softlayer.com/data-centers) across the world. All of which are interconnect with our unmetered [private network](http://www.softlayer.com/network).
 
 _Applications_ can be either [Cloud Foundry](https://www.ibm.com/cloud-computing/bluemix/runtimes), [Docker](https://console.ng.bluemix.net/docs/containers/container_index.html), or [Open Whisk](https://console.ng.bluemix.net/openwhisk/)
 
-[_Services_](https://console.ng.bluemix.net/catalog/?category=services) contain a huge catalog of pay as you go addons to your application. 
+[_Services_](https://console.ng.bluemix.net/catalog/?category=services) contain a huge catalog of pay as you go addons to your application, such as Watson, Databases and Analytics to name a few.
+
+
+## [Network](http://www.softlayer.com/network)
+On Bluemix Infrastructure (SoftLayer) you are only charged for bandwidth that leaves your account. Incoming traffic, and everything on the private network is unmetered, allowing you to take full advantage of our worldwide private network for shipping data between locations. For more information on bandwidth costs see our [pricing page](http://www.softlayer.com/info/pricing).
+
+See [Deconstructing SoftLayer's Three Tiered Network](http://blog.softlayer.com/2013/deconstructing-softlayers-three-tiered-network) for some more information on how it all works.
+
+## [Bare Metal](http://www.softlayer.com/bare-metal-servers)
+Standard-configuration servers available within 20-30 minutes, and fully customizable servers available within 4 hours. [Power8 servers](http://www.softlayer.com/power-servers) are available as well, built on IBM OpenPOWER architecture.
+
+## [Watson](https://www.ibm.com/cloud-computing/bluemix/watson)
+With Watson on Bluemix, you have access to the widest range of cognitive technologies available today to quickly and securely build smart applications. From analyzing images and video to understanding sentiment, keywords and entities from text, our Watson services enable cognitive within your applications.
+
+## API
+Everything in Bluemix can be managed with an API, for infrastructure this is done through the [SoftLayer API](http://sldn.softlayer.com/) and Bluemix Apps and Services can be managed through the [Bluemix CLI](https://console.ng.bluemix.net/docs/cli/reference/cfcommands/index.html) which is an implementation of the [Cloud Foundry API](https://apidocs.cloudfoundry.org/247/)
+
 
 
 What follows is a rough comaprison between Bluemix, AWS and Azure. Not all of these services will line up 1:1, but most of them are fairly close. Of course, if you have questions about anything in here, please [Contact Us](https://www.ibm.com/cloud-computing/bluemix/contact-us)
@@ -30,7 +46,8 @@ Bluemix | AWS | Azure
  ------ | ----- | ----- 
  [Virtual Server](https://console.ng.bluemix.net/catalog/infrastructure/virtual-server-hourly/) | EC2   |  Virtual Machines   
  [Bare Metal Server](https://console.ng.bluemix.net/catalog/infrastructure/bare-metal-server-monthly/) |  N/A | N/A 
- [Vmware Solution](https://www.ibm.com/cloud-computing/solutions/ibm-vmware/console/) | N/A | N/A 
+ [nVidia GPU](http://www.softlayer.com/gpu) | EC2 Elastic GPUs | N/A
+ [Vmware Solution](https://www.ibm.com/cloud-computing/solutions/ibm-vmware/console/) | VMware on AWS Cloud| N/A 
 
 
 ### Storage
@@ -66,7 +83,7 @@ Bluemix | AWS | Azure
 Bluemix | AWS | Azure 
  ------ | --- | ----- 
  [Cloud Foundry](https://console.ng.bluemix.net/catalog/?category=runtimes)| Elastic Beanstalk | Web Apps Cloud Services
- [Docker](https://console.ng.bluemix.net/docs/containers/container_index.html) | EC2 Container Service | Container Service 
+ [Docker](https://console.ng.bluemix.net/docs/containers/container_index.html) | EC2 Container Service/ Blox  | Container Service 
  [OpenWhisk ](https://console.ng.bluemix.net/openwhisk/)| Lambda | Functions Web Jobs Logic Apps 
 
 ### Mobile
@@ -77,7 +94,7 @@ Bluemix | AWS | Azure
  [Mobile Application Content Manager](https://console.ng.bluemix.net/catalog/services/mobile-application-content-manager/) |  N/A | N/A
  [Mobile Client Access](https://console.ng.bluemix.net/catalog/services/mobile-client-access/) |  N/A | N/A 
  [Mobile Quality Assurance](https://console.ng.bluemix.net/catalog/services/mobile-quality-assurance/) |  N/A | N/A 
- [Push Notifications](https://console.ng.bluemix.net/catalog/services/push-notifications/) | Simple Notification Service | Notification Hubs 
+ [Push Notifications](https://console.ng.bluemix.net/catalog/services/push-notifications/) | Simple Notification Service  | Notification Hubs 
 
 ## Services
 
@@ -115,17 +132,17 @@ Bluemix | AWS | Azure
 Bluemix | AWS | Azure 
  ------ | --- | ----- 
  [AlchemyAPI](https://console.ng.bluemix.net/catalog/services/alchemyapi/) | N/A | N/A 
- [Conversation](https://console.ng.bluemix.net/catalog/services/conversation/)  | N/A | N/A 
- [Document COnversion](https://console.ng.bluemix.net/catalog/services/document-conversion/) | N/A | N/A 
+ [Conversation](https://console.ng.bluemix.net/catalog/services/conversation/)  | Lex | N/A 
+ [Document Conversion](https://console.ng.bluemix.net/catalog/services/document-conversion/) | N/A | N/A 
  [Language Translator](https://console.ng.bluemix.net/catalog/services/language-translator/) | N/A | N/A 
  [Natural Language Classifier](https://console.ng.bluemix.net/catalog/services/natural-language-classifier/)  | N/A | N/A 
  [Personality Insights ](https://console.ng.bluemix.net/catalog/services/personality-insights/) | N/A | N/A 
  [Retrieve and Rank](https://console.ng.bluemix.net/catalog/services/retrieve-and-rank/)  | N/A | N/A 
  [Speech to Text](https://console.ng.bluemix.net/catalog/services/speech-to-text/) | N/A | N/A 
- [Text to Speech](https://console.ng.bluemix.net/catalog/services/text-to-speech/) | N/A | N/A 
+ [Text to Speech](https://console.ng.bluemix.net/catalog/services/text-to-speech/) | Polly | N/A 
  [Tone Analyzer](https://console.ng.bluemix.net/catalog/services/tone-analyzer/)  | N/A | N/A 
  [Tradeoff Analytics](https://console.ng.bluemix.net/catalog/services/tradeoff-analytics/) | N/A | N/A 
- [Visual Recognition](https://console.ng.bluemix.net/catalog/services/visual-recognition/) | N/A | N/A 
+ [Visual Recognition](https://console.ng.bluemix.net/catalog/services/visual-recognition/) | Rekognition | N/A 
 
 ### Internet of Things (IoT)
 Bluemix | AWS | Azure
