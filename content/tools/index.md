@@ -9,6 +9,9 @@ tags:
 
 
 ### [Bluemix for AWS professionals](/tools/compareorator/index.html)
+A general comparison between Bluemix products and AWS or Azure products. With some comments to point out the key differences.
+
+---
 
 ### [Ansible](/ansible/)
 
