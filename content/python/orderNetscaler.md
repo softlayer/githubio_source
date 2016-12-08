@@ -1,8 +1,8 @@
 ---
 title: "Order a Netscaler"
-description: "Example of how to create a Domain in the SoftLayer DNS, along with how to edit its resource records."
+description: "Example of how to order a NetScaler ADC."
 date: "2016-11-29"
-classes: 
+classes:
     - "SoftLayer_Product_Order"
 tags:
     - "netscaler"
@@ -39,7 +39,7 @@ class orderNetscaler():
             "quantity": 1,
             # Price IDS for Netscaler and 2 IPs
             "prices": [
-                {"id": 44964}, 
+                {"id": 44964},
                 {"id": 17238}
             ]
         }]
