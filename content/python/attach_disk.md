@@ -14,7 +14,7 @@ Attaching a currently detached portable block device to a given guest. The disk 
 
 Running this on a disk that is already attached will move the disk to the new guest. 
 
-```
+```python
 import SoftLayer
 from pprint import pprint as pp
 
