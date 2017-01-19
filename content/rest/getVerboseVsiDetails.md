@@ -1,6 +1,6 @@
 ---
-title: "Get verbose details about a Bare Metal Server"
-description: "Retrieve the packages, categories and items associated with a Bare Metal Server."
+title: "Get verbose details about a Virtual Guest"
+description: "Retrieve the packages, categories and items associated with a Virtual Guest."
 
 date: "2016-12-29"
 classes: ["SoftLayer_Virtual_Guest"]
