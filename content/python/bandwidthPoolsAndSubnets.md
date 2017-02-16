@@ -1,7 +1,7 @@
 ---
 title: "Subnets and Bandwidth Pools"
 description: "An example of getting information on portable subnets and servers in a bandwidth pool."
-date: "2016-02-08"
+date: "2017-2-16"
 classes: ["SoftLayer_Account", "SoftLayer_Network_Bandwidth_Version1_Allotment", "SoftLayer_Network_Subnet"]
 tags:
     - "objectMask"
