@@ -40,8 +40,16 @@ class example():
         # logger.addHandler(logging.StreamHandler())
         # logger.setLevel(3)
         self.client = SoftLayer.Client()
-        self.product_name = "SoftLayer_Container_Product_Order_Network_Storage_Enterprise"
+        self.storage = self.client['SoftLayer_Network_Storage']
         self.mgr = SoftLayer.FileStorageManager(self.client)
+        self.objectMask = "mask[ \
+            id, username, capacityGb, bytesUsed, \
+            serviceResource[datacenter[name]], \
+            serviceResourceBackendIpAddress, activeTransactionCount, \ fileNetworkMountAddress, \
+            snapshots[id,createDate], hourlySchedule, \ allowedReplicationVirtualGuests[hostname], \
+            allowedVirtualGuests[hostname], replicationStatus,  \
+            replicationPartners \
+        ]"
 
     def orderStorage(self):
         """
@@ -100,12 +108,6 @@ class example():
                 # pp(prices)
 
     def listStorage(self):
-        # result = self.mgr.list_file_volumes(datacenter='hou02',storage_type='Endurance')
-        objectMask = "mask[id, username, capacityGb, bytesUsed, serviceResource[datacenter[name]], \
-                      serviceResourceBackendIpAddress, activeTransactionCount, fileNetworkMountAddress, \
-                      snapshots[id,createDate], hourlySchedule, allowedReplicationVirtualGuests[hostname], \
-                      allowedVirtualGuests[hostname], replicationStatus,  \
-                      replicationPartners ]"
         objectFilter = {
             'nasNetworkStorage': {
                 'serviceResource': {
@@ -131,7 +133,7 @@ class example():
                 }
             }
         }
-        result = self.client['Account'].getNasNetworkStorage(mask=objectMask,filter=objectFilter)
+        result = self.client['Account'].getNasNetworkStorage(mask=objectMask,filter=self.objectMask)
         pp(result)
 
     def authHost(self, volume_id, host_id):
@@ -142,7 +144,7 @@ class example():
         guest = {
             'id': host_id
         }
-        self.client['SoftLayer_Network_Storage'].allowAccessFromVirtualGuest(guest, id=volume_id)
+        self.storage.allowAccessFromVirtualGuest(guest, id=volume_id)
 
     def authReplicant(self, volume_id, host_id):
         """
@@ -152,7 +154,7 @@ class example():
         guest = {
             'id': host_id
         }
-        self.client['SoftLayer_Network_Storage'].allowAccessToReplicantFromVirtualGuest(guest, id=volume_id)
+        self.storage.allowAccessToReplicantFromVirtualGuest(guest, id=volume_id)
 
     def createSnapSchedule(self, volume_id):
         # http://sldn.softlayer.com/reference/services/SoftLayer_Network_Storage/enableSnapshots
@@ -160,31 +162,26 @@ class example():
         self.client['SoftLayer_Network_Storage'].enableSnapshots('HOURLY', 24, 1,0,0, id=volume_id)
 
     def manualSnap(self, volume_id):
-        self.client['SoftLayer_Network_Storage'].createSnapshot('Manul SNAP', id=volume_id)
+        self.storage.createSnapshot('Manul SNAP', id=volume_id)
 
     def getReplicantId(self, volume_id):
         """
         there might be more than 1 replicant id in this list if there are more 
         than 1 replicant targets. Or none of course.
         """
-        result = self.client['SoftLayer_Network_Storage'].getReplicationPartners(id=volume_id)
+        result = self.storage.getReplicationPartners(id=volume_id)
         return result[0]['id']
         
 
     def houIsDown(self, volume_id):
         replicate_to = main.getReplicantId(volume_id)
-        self.client['SoftLayer_Network_Storage'].failoverToReplicant(replicate_to, id=volume_id)
+        self.storage.failoverToReplicant(replicate_to, id=volume_id)
 
     def houIsBack(self, volume_id):
-        self.client['SoftLayer_Network_Storage'].failbackFromReplicant(id=volume_id)
+        self.storage.failbackFromReplicant(id=volume_id)
 
     def volumeStatus(self, volume_id):
-        objectMask = "mask[id, username, capacityGb, bytesUsed, serviceResource[datacenter[name]], \
-            serviceResourceBackendIpAddress, activeTransactionCount, fileNetworkMountAddress, \
-            snapshots[id,createDate], hourlySchedule, allowedReplicationVirtualGuests[hostname], \
-            allowedVirtualGuests[hostname], replicationStatus,  \
-            replicationPartners ]"
-        result = self.client['SoftLayer_Network_Storage'].getObject(mask=objectMask, id=volume_id)
+        result = self.storage.getObject(mask=self.objectMask, id=volume_id)
         pp(result)
 
 
