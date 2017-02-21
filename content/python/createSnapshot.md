@@ -7,6 +7,7 @@ tags:
     - "iscsi"
     - "blockStorage"
     - "objectMask"
+    - "storage"
 ---
 
 Trigger a manual snapshot creation of a Block storage volume.
