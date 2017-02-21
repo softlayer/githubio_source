@@ -14,6 +14,11 @@ tags:
     - "enableSnapshots"
 ---
 
+Some good starting reading.
+* https://knowledgelayer.softlayer.com/procedure/endurance-replication
+* https://knowledgelayer.softlayer.com/procedure/endurance-snapshots
+
+This example should touch on all the basics of dealing with endurance storage replication volumes. This example uses the SoftLayer-python File manager a little bit for ordering
 
 ```
 """
