@@ -55,8 +55,7 @@ class example():
         self.mgr = SoftLayer.FileStorageManager(self.client)
         # Broken up like this to look 'good' on softlayer.github.io
         self.objectMask = "mask["
-            "id, username, capacityGb, bytesUsed,"
-            "serviceResource[datacenter[name]],"
+            "id, username, capacityGb, bytesUsed, serviceResource[datacenter[name]],"
             "serviceResourceBackendIpAddress, " 
             "activeTransactionCount, "
             "fileNetworkMountAddress, "
@@ -183,10 +182,12 @@ class example():
         return result[0]['id']
         
 
-    def houIsDown(self, volume_id):
+    def houIsDown(self, volume_id, now=False):
         replicate_to = main.getReplicantId(volume_id)
-        self.storage.failoverToReplicant(replicate_to, id=volume_id)
-
+        if now:
+            self.storage.immediateFailoverToReplicant(replicate_to, id=volume_id)
+        else
+            self.storage.failoverToReplicant(replicate_to, id=volume_id)
     def houIsBack(self, volume_id):
         self.storage.failbackFromReplicant(id=volume_id)
 
