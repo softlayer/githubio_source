@@ -31,6 +31,13 @@ TO authorize hosts that are NOT virtual guests, see the allowAccessFrom* methods
 
 * http://sldn.softlayer.com/reference/services/SoftLayer_Network_Storage/ 
 
+Graceful vs Immediate failover
+
+* http://sldn.softlayer.com/reference/services/SoftLayer_Network_Storage/immediateFailoverToReplicant
+* http://sldn.softlayer.com/reference/services/SoftLayer_Network_Storage/failoverToReplicant
+
+Failback is always immediate.
+
 ```
 """
 @package examples 
@@ -55,21 +62,15 @@ class example():
         self.mgr = SoftLayer.FileStorageManager(self.client)
         # Broken up like this to look 'good' on softlayer.github.io
         self.objectMask = "mask["
-            "id, username, capacityGb, bytesUsed, serviceResource[datacenter[name]],"
-            "serviceResourceBackendIpAddress, " 
-            "activeTransactionCount, "
-            "fileNetworkMountAddress, "
-            "snapshots[id,createDate], "
-            "hourlySchedule, " 
-            "allowedReplicationVirtualGuests[hostname], "
-            "allowedVirtualGuests[hostname], "
+            "id, username, capacityGb, bytesUsed, serviceResource[datacenter[name]], "
+            "serviceResourceBackendIpAddress, activeTransactionCount, "
+            "fileNetworkMountAddress, snapshots[id,createDate], hourlySchedule, " 
+            "allowedReplicationVirtualGuests[hostname], allowedVirtualGuests[hostname], "
             "replicationStatus, replicationPartners]"
 
     def orderStorage(self):
         """
-
-        This will order endurance storage in HOU02 
-        with 20G in size, and the 0.25IOPS/GB tier
+        This will order endurance storage in HOU02 with 20G in size, and the 0.25IOPS/GB tier
         0.25, 2, 4 and 10 iops/g are tiers available. 
         """
         result = self.mgr.order_file_volume(
@@ -122,13 +123,15 @@ class example():
                 # pp(prices)
 
     def listStorage(self):
+    """
+    Super complicated objectFilter. Mostly here as an example of how to do an IN filter.
+    Returns all storage that is in DAL06, HOU02, is NOT NAS, and is Endurance_File_Storage
+    """
         objectFilter = {
             'nasNetworkStorage': {
                 'serviceResource': {
                     'type': {
-                        'type': {
-                            'operation': '!~ NAS'
-                        }
+                        'type': {'operation': '!~ NAS'}
                     },
                     'datacenter': {
                         'name': {
@@ -141,9 +144,7 @@ class example():
                     }
                 },
                 'storageType': {
-                    'keyName': {
-                        'operation': 'ENDURANCE_FILE_STORAGE'
-                    }
+                    'keyName': {'operation': 'ENDURANCE_FILE_STORAGE'}
                 }
             }
         }
@@ -152,21 +153,26 @@ class example():
         pp(result)
 
     def authHost(self, volume_id, host_id):
-
+    """
+    each host that needs to mount the volume needs to be authorized.
+    host and volume need to be in the same DC
+    """
         guest = {
             'id': host_id
         }
         self.storage.allowAccessFromVirtualGuest(guest, id=volume_id)
 
     def authReplicant(self, volume_id, host_id):
-
+    """
+    each host that needs to mount the REPLICANT needs to be authorized.
+    host and volume need to be in the same DC
+    """
         guest = {
             'id': host_id
         }
         self.storage.allowAccessToReplicantFromVirtualGuest(guest, id=volume_id)
 
     def createSnapSchedule(self, volume_id):
-        # 
         # HOURLY, 24 copies, first minute of the hour. 
         self.storage.enableSnapshots('HOURLY', 24, 1, 0, 0, id=volume_id)
 
@@ -183,13 +189,15 @@ class example():
         
 
     def houIsDown(self, volume_id, now=False):
+
         replicate_to = main.getReplicantId(volume_id)
         if now:
             self.storage.immediateFailoverToReplicant(replicate_to, id=volume_id)
         else
             self.storage.failoverToReplicant(replicate_to, id=volume_id)
+
     def houIsBack(self, volume_id):
-        self.storage.failbackFromReplicant(id=volume_id)
+        self.storage.failbackFromReplicant(id=volume_id,now=False)
 
     def volumeStatus(self, volume_id):
         result = self.storage.getObject(mask=self.objectMask, id=volume_id)
@@ -197,7 +205,12 @@ class example():
 
 
 if __name__ == "__main__":
+"""
+Covers each of the steps required to create a storage volume, and then fail it over.
+The ordering methods will need to be slightly modified for block storage. 
+everything else should be good as is.
 
+"""
 
     host_a = 25206857
     host_b = 28630647
@@ -206,22 +219,31 @@ if __name__ == "__main__":
     ### First we need to order a storage volume, and get its ID.
     # main.orderStorage()
     volume_id = 20017773
+
     ### Then we need to order snapshot space
     # main.orderSnapshot(volume_id)
+
     ### Then create a snapshot schedule.
     # main.createSnapSchedule(volume_id)
+
     ### Then Allow our host to access the volume
     # main.authHost(volume_id, [host_a])
+
     ### Create a manual snapshot for fun 
     # main.manualSnap(volume_id)
+
     ### Order replication space.
     # main.orderReplicant(volume_id, 'HOURLY')
+
     ### Allow our vm to access replicant volume
     # main.authReplicant(volume_id,host_b)
+
     ### Failover to replicant
     # main.houIsDown(volume_id)
+
     ### Failback to main
     # main.houIsBack(volume_id)
+
     ### Get some status
     # main.volumeStatus(volume_id)
 
