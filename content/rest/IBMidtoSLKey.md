@@ -15,7 +15,7 @@ tags:
 #!/bin/bash
 # Parameters: <IBMid username> <IBMid password> <SL Account number (optional)>
 # Requires: curl, jq and xmllint installed
-creds=$(curl -s -u 'bx:bx' -k -X POST --header 'Content-Type: application/x-www-form-urlencoded' --header 'Accept: application/json' -d "grant_type=password&response_type=cloud_iam,ims_portal&username=${1}&password=${2}&ims_account=${3}" https://iam.stage1.ng.bluemix.net/oidc/token)
+creds=$(curl -s -u 'bx:bx' -k -X POST --header 'Content-Type: application/x-www-form-urlencoded' --header 'Accept: application/json' -d "grant_type=password&response_type=cloud_iam,ims_portal&username=${1}&password=${2}&ims_account=${3}" https://iam.ng.bluemix.net/oidc/token)
 
 ims_token=$(echo $creds | jq -r '.ims_token')
 ims_user_id=$(echo $creds | jq -r '.ims_user_id')
