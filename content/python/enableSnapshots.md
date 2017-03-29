@@ -6,6 +6,7 @@ classes: ["SoftLayer_Network_Storage"]
 tags:
     - "enableSnapshots"
     - "blockStorage"
+    - "storage"
 ---
 
 This method is not valid for Legacy iSCSI Storage Volumes. You need to have already purchased snapshot space for the script to work properly.
