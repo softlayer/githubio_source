@@ -34,7 +34,7 @@ class example():
             'sshKeyIds': [sshKey1, sshKey2]
         }
 
-        output = client['Hardware_Server'].reloadOperatingSystem('FORCE', config, id=serverId)
+        output = self.client['Hardware_Server'].reloadOperatingSystem('FORCE', config, id=serverId)
 
         pp(config)
         print "RESULT\n"
