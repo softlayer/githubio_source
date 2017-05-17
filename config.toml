@@ -5,7 +5,7 @@ canonifyurls = true
 SectionPagesMenu = "sections"
 pygmentsuseclasses = false
 pluralizelisttitles = "false"
-paginate = 5
+paginate = 10
 googleAnalytics = "UA-88235803-1"
 
 
