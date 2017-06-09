@@ -8,14 +8,29 @@ classes:
     - "SoftLayer_Billing_Order_Item"
     - "SoftLayer_Billing_Order"
     - "SoftLayer_User_Customer"
+
 tags:
     - "getbillingitem"
     - "billing"
     - "getnextinvoicetotalamount"
     - "usercustomer"
+---
+
 
 This is a rough script, it doesn't include some of the tax fees and some of the other one off fee fields that you will find in http://sldn.softlayer.com/reference/datatypes/SoftLayer_Billing_Item
 
+Example Output
+
+```bash
+chris-cde - 840.0
+    123.cdetesting.com : Dual Intel Xeon E5-2620 v3 (12 Cores, 2.40 GHz) $345.0
+    234.cdetesting.com : Dual Intel Xeon E5-2620 v3 (12 Cores, 2.40 GHz) $495.0
+    chris.testing.com : 2 x 2.0 GHz Cores $0.0
+    4 Portable Private IP Addresses - $0.0
+    8 Portable Private IP Addresses - $0.0
+```
+
+Source
 
 ```python
 """
