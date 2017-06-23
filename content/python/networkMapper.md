@@ -1,5 +1,5 @@
 ---
-title: "Router Model Map
+title: "Router Model Map"
 description: "Finds the model number of all networking equipment that is on the way to servers on the account."
 date: "2017-06-23"
 classes:
