@@ -5,7 +5,7 @@ date: "2017-08-09"
 classes:
     - "SoftLayer_Virtual_DedicatedHost"
 tags:
-	- "getAllocationStatus"
+    - "getAllocationStatus"
 ---
 
 ```ruby
