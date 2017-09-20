@@ -6,8 +6,8 @@ classes:
     - "SoftLayer_Virtual_DedicatedHost"
     - "SoftLayer_Account"
 tags:
-	  - "getAllocationStatus"
-	  - "getDedicatedHosts"
+    - "getAllocationStatus"
+    - "getDedicatedHosts"
 ---
 
 The first thing you need to get is a list of the Dedicated Hosts on your account. To list the Dedicated Hosts on your account you can use the following code:
