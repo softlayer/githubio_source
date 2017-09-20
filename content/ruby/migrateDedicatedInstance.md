@@ -6,8 +6,8 @@ classes:
     - "SoftLayer_Virtual_Guest"
     - "SoftLayer_Account"
 tags:
-	- "migrateDedicatedHost"
-	- "getDedicatedHosts"
+    - "migrateDedicatedHost"
+    - "getDedicatedHosts"
 ---
 
 The first thing you need to get is a list of the Dedicated Hosts on your account. To list the Dedicated Hosts on your account you can use the following code:
