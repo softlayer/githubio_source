@@ -14,12 +14,13 @@ tags:
     - "billing"
     - "getnextinvoicetotalamount"
     - "usercustomer"
+    - "objectfilter"
 ---
 
 
 This is a rough script, it doesn't include some of the tax fees and some of the other one off fee fields that you will find in http://sldn.softlayer.com/reference/datatypes/SoftLayer_Billing_Item
 
-Example Output
+Example Output for billsByUser()
 
 ```bash
 chris-cde - 840.0
@@ -28,6 +29,17 @@ chris-cde - 840.0
     chris.testing.com : 2 x 2.0 GHz Cores $0.0
     4 Portable Private IP Addresses - $0.0
     8 Portable Private IP Addresses - $0.0
+```
+
+Example Output of upcoming_hourly()
+```bash
+ItemID  Info    Host    Domain  Hours   Hourly Cost Cost
+143131173   Dual Intel Xeon E5-2620 v3 (12 Cores, 2.40 GHz) jd-cos-testing-sjc03    secore.com  489 .309    151.101
+==> 143131179   64 GB RAM   291.933
+==> 143131183   1.00 TB SATA    17.604
+==> 143131185   1.00 TB SATA    17.604
+==> 143131189   10 Gbps Dual Public & Private Network Uplinks (Unbonded)    147.189
+TOTAL: 625.431
 ```
 
 Source
@@ -48,7 +60,7 @@ class bills():
         self.client = SoftLayer.Client()
         self.mgr = SoftLayer.VSManager(self.client)
 
-    def main(self):
+    def billsByUser(self):
 
         """
         Not all billing items have a user record, these are collected under the master account
@@ -97,9 +109,45 @@ class bills():
                 print("\t%s" % thing)
 
 
+    def upcoming_hourly(self):
+    """
+    Filters upcoming billing items for only hourly WITH a hostname that contains the string 'test'
+    Each hourly server will also have some children that need to be added for the total cost, those are included with the nonZeroNextInvoiceChildren property
+    NOTE: 
+    ObjectMask starts at http://sldn.softlayer.com/reference/datatypes/SoftLayer_Billing_item
+    ObjectFilter starts at http://sldn.softlayer.com/reference/datatypes/SoftLayer_Account
+    hourlyFlag needs to be 1 or 0.
+
+    """
+        mask="mask[hourlyFlag,nonZeroNextInvoiceChildren]"
+        objectFilter =  {
+            'nextInvoiceTopLevelBillingItems': {
+                'hourlyFlag': {'operation': 1},
+                'hostName': {'operation': '*= test'}
+            }
+        }
+        billingItems = self.client['SoftLayer_Account'].getNextInvoiceTopLevelBillingItems(mask=mask, filter=objectFilter)
+        print("ItemID\tInfo\tHost\tDomain\tHours\tHourly Cost\tCost")
+        for item in billingItems:
+            itemId = item['id']
+            hostName = item['hostName']
+            domainName = item['domainName']
+            description = item['description']
+            hours = item['hoursUsed']
+            hourly_cost = item['hourlyRecurringFee']
+            cost = int(hours) * float(hourly_cost)
+            total_cost = cost
+            print("%s\t%s\t%s\t%s\t%s\t%s\t%s" % (itemId, description, hostName,domainName, hours, hourly_cost, cost ))
+            for child in item['nonZeroNextInvoiceChildren']:
+                childId = child['id']
+                childDesc = child['description']
+                childCost = int(child['hoursUsed']) * float(child['hourlyRecurringFee'])
+                total_cost = total_cost + childCost
+                print("==> %s\t%s\t%s" % (childId,childDesc,childCost))
+            print("TOTAL: %s" % (total_cost))
 
 
 if __name__ == "__main__":
     main = bills()
-    main.main()
+    main.billsByUser()
 ```
