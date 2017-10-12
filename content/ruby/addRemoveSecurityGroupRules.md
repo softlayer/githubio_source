@@ -5,7 +5,10 @@ date: "2017-08-09"
 classes:
     - "SoftLayer_Network_SecurityGroup"
 tags:
+    - "securitygroups"
     - "objectTemplate"
+    - "addRules"
+    - "removeRules"
 ---
 
 ### Adding Rules
