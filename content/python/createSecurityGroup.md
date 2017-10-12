@@ -5,6 +5,7 @@ date: "2017-06-20"
 classes: 
     - "SoftLayer_Network_SecurityGroup"
 tags:
+    - "securitygroups"
     - "objectTemplate"
 
 ---
