@@ -96,8 +96,7 @@ class example():
 
 
 if __name__ == "__main__":
-    # quote_id = 2263815
-    quote_id = 1942633
+    quote_id = 1234
     main = example()
     # main.listImageTemplates()
     # main.listQuotes()
@@ -107,8 +106,8 @@ if __name__ == "__main__":
     dal09 = 449494
     # main.listSshKeys()
     # main.listVlansInLocation(dal13)
-    backend_vlan = 1467099 # 1281, bcr06a.dal09
-    front_vlan = 1467097 # 1177, fcr06a.dal09
+    backend_vlan = 1400000 # 123, bcr06a.dal09
+    front_vlan = 1400001 # 456, fcr06a.dal09
     main.orderQuote(quote_id, dc_id=dal09, private_vlan=backend_vlan,public_vlan=front_vlan )
 
 ```

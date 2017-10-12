@@ -8,8 +8,6 @@ tags:
     - "objectTemplate"
 ---
 
-The Security Group offering is currently in Beta. The use of this feature is restricted to select users. When the Beta period is over, security groups will be available for all users. Contact sgbeta@us.ibm.com using ‘Security Groups’ in the subject line with any questions.
-
 ```ruby 
 
 =begin
