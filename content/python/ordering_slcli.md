@@ -84,7 +84,7 @@ The last thing to note is the --extras and --complex-type options.
 --Extras are going to match up to things like Vlans, subnets, ssh keys etc. Basically anything in the order container that ISN'T prices. Supported fields correstpond to the SoftLayer_Container_Product_Order data type. Needs to be valid JSON
 
 ```
---extras '{"hardware": [{"hostname" : "testOrder1", "domain": "cgallo.com"}, {"hostname" : "testOrder2", "domain": "cgallo.com"}], 'quantity': 2, 'sshKeys' : [87634], 'tags': 'cgallo, test'}'
+--extras '{"hardware": [{"hostname" : "testOrder1", "domain": "cgallo.com"}], "sshKeys" : [87634], "tags": "cgallo, test"}'
 ```
 
 --complex-type should match up with something that starts with SoftLayer_Container_Product_Order_
