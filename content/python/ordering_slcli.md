@@ -100,7 +100,7 @@ the --verify option will not actually place an order, just insure the order is m
 slcli --really order place --verify --preset D2620V4_64GB_2X1TB_SATA_RAID_1 BARE_METAL_SERVER  TORONTO  \
     OS_UBUNTU_16_04_LTS_XENIAL_XERUS_64_BIT \
     BANDWIDTH_0_GB_2  \
-    1_GBPS_PUBLIC_PRIVATE_NETWORK_UPLINK  \
+    1_GBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS  \
     REBOOT_KVM_OVER_IP 1_IP_ADDRESS  \
     UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT \
     --extras '{"hardware": [{"hostname" : "testOrder1", "domain": "cgallo.com"}], "sshKeys" : [87634], "tags": "cgallo, test"}' \
