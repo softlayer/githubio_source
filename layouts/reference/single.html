@@ -1,0 +1,61 @@
+{{ partial "header.html" . }}
+
+<body>
+{{ partial "navbar.html" . }}
+<!-- REFERENCE PAGE -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 ">
+            <div class="well well-lg">
+                <h3>SoftLayer Reference<br> <small>This is a collection of automatically generated documentation regarding the SoftLayer API. </small></h3>
+                <hr>
+                {{ .Content }}
+            </div>
+<!-- Service Filer BEGIN -->
+                        <div class="view-filters">
+
+                                <div class="clearfix">
+                                    <div class="search-input-box">
+                                        <input placeholder="Filter" onkeyup="titleSearch(inputId='list-input', divId='sidebar-list', elementClass='list-row')" 
+                                            type="text" id="list-input" value="" size="30" maxlength="128" class="form-text">
+                                    </div>
+                                </div>
+
+                        </div>
+
+<!-- Service Filer END -->
+        </div>
+    </div>
+<div id='sidebar-list'>
+    <div  class="col-sm-6">
+        <h3> Services </h3>
+        <div id="service-sidebar-list" >
+            <div class="list-row">
+                Services or Datatypes go here
+            </div>
+        </div>
+        <script> 
+            $(function(){
+                $("#service-sidebar-list").load("/reference/services/list.html"); 
+            });
+        </script> 
+    </div>
+    <div class="col-sm-6">
+        <h3> Datatypes </h3>
+        <div id="datatype-sidebar-list" >
+            <div class="list-row">
+                Services or Datatypes go here
+            </div>
+        </div>
+        <script> 
+            $(function(){
+                $("#datatype-sidebar-list").load("/reference/datatypes/list.html"); 
+            });
+        </script> 
+
+    </div>
+</div>
+{{ partial "footer.copyright.html" . }}
+</div>
+<script src="/js/sldn.js"></script>
+{{ partial "footer.html" . }}
