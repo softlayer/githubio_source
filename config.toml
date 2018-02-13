@@ -26,6 +26,10 @@ pluralizeListTitles = false
     identifier = "sldn"
     url = "/reference/softlayerapi"
 [[menu.main]]
+    name = "Articles"
+    identifier = "article"
+    url ="/article/"
+[[menu.main]]
     name = "Go"
     identifier = "go"
     url = "/go/"
