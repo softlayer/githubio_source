@@ -1,6 +1,6 @@
 ---
 title: "An Introduction to Object Storage"
-description: "With the release of SoftLayer Object Storage, we wanted to integrate brand-unique, value-added features on top of the already comprehensive tools that have been set in place to provide a first-in-class product for our customers. While Object Storage has many features that come standard from the <a href="http://openstack.org/projects/storage/">OpenStack Object Storage</a> project (code-named Swift), the additional features we have integrated will bring your storage to the next level."
+description: "With the release of SoftLayer Object Storage, we wanted to integrate brand-unique, value-added features on top of the already comprehensive tools that have been set in place to provide a first-in-class product for our customers. While Object Storage has many features that come standard from the OpenStack Object Storage project (code-named Swift), the additional features we have integrated will bring your storage to the next level."
 date: "2012-02-08"
 tags:
     - "article"
