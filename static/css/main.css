@@ -39,7 +39,7 @@
     font-weight:bold;
 }
 
-body {
+/*body {
     font-family: "BentonSans Regular" !important;
     line-height: 1.5;
     font-size: 87.5%;
@@ -50,19 +50,19 @@ body {
     padding: 0;
     border: 0;
     outline: 0;
-}
+}*/
 
-a, a:link, a:visited, a:hover {
+/*a, a:link, a:visited, a:hover {
     color: #972f2c;
     text-decoration: none;
 }
+*/
 
-
-ul.menu {
+/*ul.menu {
     border: none;
     list-style: none;
     text-align: left;
-}
+}*/
 
 #header {
     position: relative;
@@ -196,37 +196,13 @@ ul.menu {
 
 #leftsidebar {
     float: left;
-    width: 18%;
     background-color: #efefef;
     height: 100%;
 
 }
 #leftsidebar .block {
     background-color: #E2E2E2;
-}
 
-#leftsidebar .content {
-    margin-top: 0px;
-    position: static;
-}
-
-#leftsidebar ul.menu {
-    margin: 0;
-    padding: 0;
-}
-
-#leftsidebar ul.menu li {
-    background-color: #e2e2e2;
-    border-bottom: 1px solid #bababa;
-    list-style: none outside none;
-    margin: 0;
-}
-
-#leftsidebar ul.menu li a {
-    color: #616161;
-    display: block;
-    font-size: 12px;
-    padding: 7px 15px;
 }
 
 #page-wrapper {
@@ -241,14 +217,10 @@ ul.menu {
     float: right;
     margin-bottom: 40px;
     margin-left: 5px;
-    width: 80%;
     display: inline;
     position: relative;
 }
 
-.div {
-    display: block;
-}
 
 .clearfix:after {
     content: ".";
@@ -306,9 +278,7 @@ ul.menu {
     margin: 4px 0;
 }
 
-#properties {
 
-}
 
 #sldn-reference-tabs {
     display: block;
@@ -350,14 +320,11 @@ ul.menu {
     word-wrap: normal;
     font-family: "BentonSans Regular" !important;
 }
-.list-row {
 
-}
 
 #sidebar-list {
     overflow-y: auto;
-    overflow-x: auto;
-    max-height: 656px;
+    /*overflow-x: auto;*/
     word-wrap: normal;
     padding: 0px 11px;
 }
@@ -394,7 +361,7 @@ ul.menu {
     border-bottom: 2px solid #ccc;
 }
 
-tr.odd {
+/*tr.odd {
 
     background: rgba(100,100,100,0.5);
 }
@@ -403,7 +370,7 @@ tr.even {
 
     background: rgba(0,0,0,0.063);
 
-}
+}*/
 
 #method-param-table {
     border-spacing: 0;

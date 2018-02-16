@@ -7,7 +7,7 @@ pygmentsuseclasses = false
 pluralizelisttitles = "false"
 paginate = 10
 googleAnalytics = "UA-88235803-1"
-disablePathToLower = false
+disablePathToLower = true
 
 
 [params]

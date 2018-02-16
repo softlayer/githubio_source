@@ -1,0 +1,46 @@
+{{ partial "header.html" . }}
+<body>
+
+{{ partial "navbar.html" . }}
+<div class="container">
+    <div class="row">
+    <!-- Sidebar -->
+        <div class="col-md-3">
+            <div style="word-wrap: break-word;"> <!-- Post-specific stats -->
+                <h4>{{ .Title }}<br></h4>
+            </div>
+        </div>
+        <div class="col-md-9">
+
+                <strong>Classes <span class="fa fa-book"/></strong>
+                {{ range .Params.classes }}
+                    <a class="label label-primary" href="/classes/{{ . | urlize }}">{{ . }}</a>
+                {{ end }}
+                <br>
+                <strong>Tags <span class="fa fa-tags"/></strong>
+                {{ range .Params.tags }}
+                    <a class="label label-danger" href="/tags/{{ . | urlize }}">{{ . }}</a>
+                {{ end }}          
+        </div>
+    </div>
+    <hr>
+
+    <div class="row">
+        <div class="col-md-3">
+                {{ partial "datatype-bar.html" . }}
+        </div>
+        <div class="col-md-9">
+            <div class="well well-sm release-note" style="word-wrap: break-word;">
+
+                {{ .Content }}
+            </div>
+        </div>
+
+    </div>
+    <hr>
+
+{{ partial "footer.copyright.html" . }}
+</div>
+{{ partial "footer.html" . }}
+
+{{.URL}}
