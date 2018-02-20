@@ -1,0 +1,28 @@
+---
+title: "deleteObject"
+description: "deleteObject permanently removes a domain and all of it's associated resource records from the softlayer name servers. '... "
+layout: "method"
+tags:
+    - "method"
+    - "sldn"
+    - "Dns"
+classes:
+    - "SoftLayer_Dns_Domain"
+---
+# SoftLayer_Dns_Domain::deleteObject
+## Overview 
+deleteObject permanently removes a domain and all of it's associated resource records from the softlayer name servers. '''This cannot be undone.''' Be wary of running this method. If you remove a domain in error you will need to re-create it by creating a new SoftLayer_Dns_Domain object. 
+
+### Parameters 
+|Name | Type | Description |
+| --- | --- | --- |
+
+
+### Required Headers
+* authenticate
+* SoftLayer_Dns_DomainInitParameters
+
+### Optional Headers
+
+### Return Values
+boolean

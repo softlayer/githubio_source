@@ -1,0 +1,29 @@
+---
+title: "updateIpmiPassword"
+description: "This method will update the root IPMI password on this SoftLayer_Hardware."
+layout: "method"
+tags:
+    - "method"
+    - "sldn"
+    - "Hardware"
+classes:
+    - "SoftLayer_Hardware_SecurityModule"
+---
+# SoftLayer_Hardware_SecurityModule::updateIpmiPassword
+## Overview 
+This method will update the root IPMI password on this SoftLayer_Hardware. 
+
+### Parameters 
+|Name | Type | Description |
+| --- | --- | --- |
+|password| string| An alpha-numeric password|
+
+
+### Required Headers
+* authenticate
+* SoftLayer_Hardware_SecurityModuleInitParameters
+
+### Optional Headers
+
+### Return Values
+boolean

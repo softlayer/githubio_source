@@ -1,0 +1,28 @@
+---
+title: "createObjects"
+description: "Create more than one password for a software component."
+layout: "method"
+tags:
+    - "method"
+    - "sldn"
+    - "Software"
+classes:
+    - "SoftLayer_Software_Component_Password"
+---
+# SoftLayer_Software_Component_Password::createObjects
+## Overview 
+Create more than one password for a software component. 
+
+### Parameters 
+|Name | Type | Description |
+| --- | --- | --- |
+|templateObjects| <a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password[] </a>| An array of SoftLayer_Software_Component_Password objects that you wish to create.|
+
+
+### Required Headers
+* authenticate
+
+### Optional Headers
+
+### Return Values
+boolean

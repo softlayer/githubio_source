@@ -1,0 +1,29 @@
+---
+title: "editRules"
+description: "Edit rules that belong to the security group. An array of skeleton [[SoftLayer_Network_SecurityGroup_Rule]] objects must... "
+layout: "method"
+tags:
+    - "method"
+    - "sldn"
+    - "Network"
+classes:
+    - "SoftLayer_Network_SecurityGroup"
+---
+# SoftLayer_Network_SecurityGroup::editRules
+## Overview 
+Edit rules that belong to the security group. An array of skeleton [[SoftLayer_Network_SecurityGroup_Rule]] objects must be sent in with only the properties defined that you want to change. To edit a property to null, send in -1 for integer properties and "" for string properties. Unchanged properties are left alone. 
+
+### Parameters 
+|Name | Type | Description |
+| --- | --- | --- |
+|ruleTemplates| <a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_Rule'>SoftLayer_Network_SecurityGroup_Rule[] </a>| An array of rule objects|
+
+
+### Required Headers
+* authenticate
+* SoftLayer_Network_SecurityGroupInitParameters
+
+### Optional Headers
+
+### Return Values
+<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_RequestRules'>SoftLayer_Network_SecurityGroup_RequestRules </a>

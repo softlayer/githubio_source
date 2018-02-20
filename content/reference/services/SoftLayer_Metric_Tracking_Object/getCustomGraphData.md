@@ -1,0 +1,29 @@
+---
+title: "getCustomGraphData"
+description: "Returns a graph container instance that is populated with metric data for the tracking object."
+layout: "method"
+tags:
+    - "method"
+    - "sldn"
+    - "Metric"
+classes:
+    - "SoftLayer_Metric_Tracking_Object"
+---
+# SoftLayer_Metric_Tracking_Object::getCustomGraphData
+## Overview 
+Returns a graph container instance that is populated with metric data for the tracking object. 
+
+### Parameters 
+|Name | Type | Description |
+| --- | --- | --- |
+|graphContainer| <a href='/reference/datatypes/SoftLayer_Container_Graph'>SoftLayer_Container_Graph </a>| |
+
+
+### Required Headers
+* authenticate
+* SoftLayer_Metric_Tracking_ObjectInitParameters
+
+### Optional Headers
+
+### Return Values
+<a href='/reference/datatypes/SoftLayer_Container_Graph'>SoftLayer_Container_Graph </a>

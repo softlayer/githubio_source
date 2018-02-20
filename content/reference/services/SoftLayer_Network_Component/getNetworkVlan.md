@@ -1,0 +1,31 @@
+---
+title: "getNetworkVlan"
+description: "Retrieve the VLAN that a network component's subnet is associated with."
+layout: "method"
+tags:
+    - "method"
+    - "sldn"
+    - "Network"
+classes:
+    - "SoftLayer_Network_Component"
+---
+# SoftLayer_Network_Component::getNetworkVlan
+## Overview 
+Retrieve the VLAN that a network component's subnet is associated with.
+
+### Parameters 
+|Name | Type | Description |
+| --- | --- | --- |
+
+
+### Required Headers
+* SoftLayer_Network_ComponentInitParameters
+* authenticate
+
+### Optional Headers
+* SoftLayer_Network_ComponentObjectMask
+* SoftLayer_Network_ComponentObjectFilter
+* SoftLayer_ObjectMask
+
+### Return Values
+<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>

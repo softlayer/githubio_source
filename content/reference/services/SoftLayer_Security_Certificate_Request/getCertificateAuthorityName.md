@@ -1,0 +1,31 @@
+---
+title: "getCertificateAuthorityName"
+description: "Retrieve the Certificate Authority name"
+layout: "method"
+tags:
+    - "method"
+    - "sldn"
+    - "Security"
+classes:
+    - "SoftLayer_Security_Certificate_Request"
+---
+# SoftLayer_Security_Certificate_Request::getCertificateAuthorityName
+## Overview 
+Retrieve the Certificate Authority name
+
+### Parameters 
+|Name | Type | Description |
+| --- | --- | --- |
+
+
+### Required Headers
+* SoftLayer_Security_Certificate_RequestInitParameters
+* authenticate
+
+### Optional Headers
+* SoftLayer_Security_Certificate_RequestObjectMask
+* SoftLayer_Security_Certificate_RequestObjectFilter
+* SoftLayer_ObjectMask
+
+### Return Values
+string

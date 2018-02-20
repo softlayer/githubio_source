@@ -1,0 +1,29 @@
+---
+title: "migrateDedicatedHost"
+description: "Create a transaction to migrate an instance from one dedicated host to another dedicated host"
+layout: "method"
+tags:
+    - "method"
+    - "sldn"
+    - "Virtual"
+classes:
+    - "SoftLayer_Virtual_Guest"
+---
+# SoftLayer_Virtual_Guest::migrateDedicatedHost
+## Overview 
+Create a transaction to migrate an instance from one dedicated host to another dedicated host 
+
+### Parameters 
+|Name | Type | Description |
+| --- | --- | --- |
+|destinationHostId| integer| Id for destination dedicated host for VSI migration|
+
+
+### Required Headers
+* authenticate
+* SoftLayer_Virtual_GuestInitParameters
+
+### Optional Headers
+
+### Return Values
+void

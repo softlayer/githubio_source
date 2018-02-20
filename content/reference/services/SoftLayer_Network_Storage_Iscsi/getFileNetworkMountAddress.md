@@ -1,0 +1,31 @@
+---
+title: "getFileNetworkMountAddress"
+description: "Retrieve retrieves the NFS Network Mount Address Name for a given File Storage Volume."
+layout: "method"
+tags:
+    - "method"
+    - "sldn"
+    - "Network"
+classes:
+    - "SoftLayer_Network_Storage_Iscsi"
+---
+# SoftLayer_Network_Storage_Iscsi::getFileNetworkMountAddress
+## Overview 
+Retrieve retrieves the NFS Network Mount Address Name for a given File Storage Volume.
+
+### Parameters 
+|Name | Type | Description |
+| --- | --- | --- |
+
+
+### Required Headers
+* SoftLayer_Network_Storage_IscsiInitParameters
+* authenticate
+
+### Optional Headers
+* SoftLayer_Network_Storage_IscsiObjectMask
+* SoftLayer_Network_Storage_IscsiObjectFilter
+* SoftLayer_ObjectMask
+
+### Return Values
+string

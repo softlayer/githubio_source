@@ -1,0 +1,31 @@
+---
+title: "getMetricTrackingObject"
+description: "Retrieve a guest's metric tracking object."
+layout: "method"
+tags:
+    - "method"
+    - "sldn"
+    - "Virtual"
+classes:
+    - "SoftLayer_Virtual_Guest"
+---
+# SoftLayer_Virtual_Guest::getMetricTrackingObject
+## Overview 
+Retrieve a guest's metric tracking object.
+
+### Parameters 
+|Name | Type | Description |
+| --- | --- | --- |
+
+
+### Required Headers
+* SoftLayer_Virtual_GuestInitParameters
+* authenticate
+
+### Optional Headers
+* SoftLayer_Virtual_GuestObjectMask
+* SoftLayer_Virtual_GuestObjectFilter
+* SoftLayer_ObjectMask
+
+### Return Values
+<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>

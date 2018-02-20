@@ -1,0 +1,31 @@
+---
+title: "getByDomainName"
+description: "Search for [[SoftLayer_Dns_Domain_Secondary]] records by domain name. getByDomainName() performs an inclusive search for... "
+layout: "method"
+tags:
+    - "method"
+    - "sldn"
+    - "Dns"
+classes:
+    - "SoftLayer_Dns_Secondary"
+---
+# SoftLayer_Dns_Secondary::getByDomainName
+## Overview 
+Search for [[SoftLayer_Dns_Domain_Secondary]] records by domain name. getByDomainName() performs an inclusive search for secondary domain records, returning multiple records based on partial name matches. Use this method to locate secondary domain records if you don't have access to their id numbers. 
+
+### Parameters 
+|Name | Type | Description |
+| --- | --- | --- |
+|name| string| The portion of the domain name you wish to search for.|
+
+
+### Required Headers
+* authenticate
+
+### Optional Headers
+* SoftLayer_Dns_SecondaryObjectMask
+* SoftLayer_ObjectMask
+* SoftLayer_Dns_SecondaryObjectFilter
+
+### Return Values
+<a href='/reference/datatypes/SoftLayer_Dns_Secondary'>SoftLayer_Dns_Secondary[] </a>

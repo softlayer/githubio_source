@@ -1,0 +1,29 @@
+---
+title: "editObject"
+description: "Edit the properties of a media record by passing in a modified instance of a SoftLayer_Account_Media object."
+layout: "method"
+tags:
+    - "method"
+    - "sldn"
+    - "Account"
+classes:
+    - "SoftLayer_Account_Media"
+---
+# SoftLayer_Account_Media::editObject
+## Overview 
+Edit the properties of a media record by passing in a modified instance of a SoftLayer_Account_Media object. 
+
+### Parameters 
+|Name | Type | Description |
+| --- | --- | --- |
+|templateObject| <a href='/reference/datatypes/SoftLayer_Account_Media'>SoftLayer_Account_Media </a>| A skeleton SoftLayer_Account_Media object with only the properties defined that you wish to change. Unchanged properties are left alone.|
+
+
+### Required Headers
+* authenticate
+* SoftLayer_Account_MediaInitParameters
+
+### Optional Headers
+
+### Return Values
+boolean

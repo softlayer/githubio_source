@@ -1,0 +1,31 @@
+---
+title: "getAllObjects"
+description: "Returns all SSL certificate server types, which are passed in on a [[SoftLayer_Container_Product_Order_Security_Certific... "
+layout: "method"
+tags:
+    - "method"
+    - "sldn"
+    - "Security"
+classes:
+    - "SoftLayer_Security_Certificate_Request_ServerType"
+---
+# SoftLayer_Security_Certificate_Request_ServerType::getAllObjects
+## Overview 
+Returns all SSL certificate server types, which are passed in on a [[SoftLayer_Container_Product_Order_Security_Certificate|certificate order]]. 
+
+### Parameters 
+|Name | Type | Description |
+| --- | --- | --- |
+
+
+### Required Headers
+* authenticate
+
+### Optional Headers
+* SoftLayer_Security_Certificate_Request_ServerTypeObjectMask
+* SoftLayer_ObjectMask
+* SoftLayer_Security_Certificate_Request_ServerTypeObjectFilter
+* resultLimit
+
+### Return Values
+<a href='/reference/datatypes/SoftLayer_Security_Certificate_Request_ServerType'>SoftLayer_Security_Certificate_Request_ServerType[] </a>

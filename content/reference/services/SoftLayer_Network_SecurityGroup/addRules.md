@@ -1,0 +1,29 @@
+---
+title: "addRules"
+description: "Add new rules to a security group by sending in an array of template [[SoftLayer_Network_SecurityGroup_Rule (type)]] obj... "
+layout: "method"
+tags:
+    - "method"
+    - "sldn"
+    - "Network"
+classes:
+    - "SoftLayer_Network_SecurityGroup"
+---
+# SoftLayer_Network_SecurityGroup::addRules
+## Overview 
+Add new rules to a security group by sending in an array of template [[SoftLayer_Network_SecurityGroup_Rule (type)]] objects to be created. 
+
+### Parameters 
+|Name | Type | Description |
+| --- | --- | --- |
+|ruleTemplates| <a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_Rule'>SoftLayer_Network_SecurityGroup_Rule[] </a>| An array of rule objects you want to create|
+
+
+### Required Headers
+* authenticate
+* SoftLayer_Network_SecurityGroupInitParameters
+
+### Optional Headers
+
+### Return Values
+<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_RequestRules'>SoftLayer_Network_SecurityGroup_RequestRules </a>
