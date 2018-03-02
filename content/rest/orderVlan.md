@@ -8,14 +8,13 @@ classes:
     - "SoftLayer_Product_Item_Category"
 tags:
   - "vlans"
-  - "addRules"
-  - "editRules"
-  - "removeRules"
+  - "Product"
+  - "placeOrder"
 ---
 
 There are a few steps in preparing to order a VLAN.
 
-### Find the DC name
+## Find the DC name
 Lets start by finding the datacenter we want to order in.
 
 ```
@@ -24,12 +23,19 @@ curl -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Produ
 
 Keep track of the KeyName of the location you want to order from.
 
-### Find the correct router (optional)
+```
+[{"description": "HOU02 - Houston", "keyname": "HOUSTON02" }]
+```
+## Find the correct router (optional)
 If you want the new VLAN to be behind a specific router, you need to find the ID of that router.
 
 To get a list of all the routers your account currently has VLANs on, you can use 
 ```
 curl -u $SL_USER:$SL_APIKEY "https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getRouters?objectMask=mask\[hostname,id\]" | python -m json.tool
+```
+
+```
+[{ "hostname": "bcr02a.hou02", "id": 112661 },]
 ```
 
 If you have a Vyatta or other device you want this VLAN to be accessible to, you can find the Vyattas router and just use that.
@@ -86,7 +92,7 @@ Which will output something like this. For Public VLANs, you will want the ID of
 For this example, we are going to use "fcr02a.hou02", or id=112561
 
 
-### Find the price IDs
+## Find the price IDs
 This is a several step process. The [SLCLI](https://softlayer-python.readthedocs.io/en/latest/cli/ordering.html) has a few helper functions for this. For this example though I will walk you through each REST call needed
 
 #### Find the package
@@ -180,7 +186,7 @@ That will return a long list of questions you need to answer, which we will have
 
 
 
-### Placeing the order
+## Placeing the order
 Now that we have all the required information, we can build an order object.
 
 
@@ -191,7 +197,7 @@ Now that we have all the required information, we can build an order object.
   "parameters": [
     {
       "location": "HOUSTON02",
-      "routerId": 112561,
+      "routerId": 112661,
       "packageId": 571,
       "prices": [
         {
