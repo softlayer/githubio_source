@@ -17,7 +17,7 @@ URL: `SoftLayer_Virtual_Guest/{guest_id}/getObject.json?objectMask=mask[networkC
 
 Example CURL:
 ```
-$ curl --user "$SOFTLAYER_USERNAME:$SOFTLAYER_API_KEY" -g -X GET 'https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/30000007/getObject.json?objectMask=mask[networkComponents.port,networkComponents.id]'
+$ curl --user "$SOFTLAYER_USERNAME:$SOFTLAYER_API_KEY" -g -X GET 'https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/39269481/getObject.json?objectMask=mask[networkComponents.port,networkComponents.id]'
 ```
 Example Response:
 ```
@@ -25,11 +25,11 @@ Example Response:
     <output omitted>
     "networkComponents": [
         {
-            "id": 20000003,
+            "id": 21781733,
             "port": 0
         },
         {
-            "id": 20000001,
+            "id": 21781731,
             "port": 1
         }
     ],
@@ -46,7 +46,14 @@ URL: `SoftLayer_Network_SecurityGroup/{securitygroup_id}/attachNetworkComponents
 
 Example CURL:
 ```
-$ curl --user "$SOFTLAYER_USERNAME:$SOFTLAYER_API_KEY" -X POST 'https://api.softlayer.com/rest/v3/SoftLayer_Network_SecurityGroup/123456/attachNetworkComponents' -d '{"parameters": [[20000003]]}'
+$ curl --user "$SOFTLAYER_USERNAME:$SOFTLAYER_API_KEY" -X POST 'https://api.softlayer.com/rest/v3/SoftLayer_Network_SecurityGroup/461903/attachNetworkComponents' -d '{"parameters": [[21781731]]}'
+```
+
+Example Response:
+```
+{
+    "requestId": "3d1bf39a0a0e4d699335c12"
+}
 ```
 ---
 
@@ -58,5 +65,12 @@ URL: `SoftLayer_Network_SecurityGroup/{securitygroup_id}/detachNetworkComponents
 
 Example CURL:
 ```
-$ curl --user "$SOFTLAYER_USERNAME:$SOFTLAYER_API_KEY" -X POST 'https://api.softlayer.com/rest/v3/SoftLayer_Network_SecurityGroup/123456/detachNetworkComponents' -d '{"parameters": [[20000003]]}'
+$ curl --user "$SOFTLAYER_USERNAME:$SOFTLAYER_API_KEY" -X POST 'https://api.softlayer.com/rest/v3/SoftLayer_Network_SecurityGroup/461903/detachNetworkComponents' -d '{"parameters": [[21781731]]}'
+```
+
+Example Response:
+```
+{
+    "requestId": "12b9e0b9459a1e000bfb169"
+}
 ```
