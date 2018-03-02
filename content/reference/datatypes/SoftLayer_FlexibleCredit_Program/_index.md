@@ -13,11 +13,16 @@ classes:
 # SoftLayer_FlexibleCredit_Program
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_FlexibleCredit_Program' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_FlexibleCredit_Program' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_FlexibleCredit_Program' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">

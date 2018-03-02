@@ -26,3 +26,4 @@ Cancel the resource or service (excluding bare metal servers) for a billing Item
 
 ### Return Values
 boolean
+

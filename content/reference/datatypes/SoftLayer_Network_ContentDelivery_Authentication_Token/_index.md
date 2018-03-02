@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Network_ContentDelivery_Authentication_Token
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_ContentDelivery_Authentication_Token' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Authentication_Token' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Authentication_Token' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_ContentDelivery_Authentication_Address data type models an individual IP address that CDN allow or deny access from. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

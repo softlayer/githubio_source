@@ -29,3 +29,4 @@ Retrieve the SoftLayer_Network_Storage_Credential this allowed host uses.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage_Credential'>SoftLayer_Network_Storage_Credential </a>
+

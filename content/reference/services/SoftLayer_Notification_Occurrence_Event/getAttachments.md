@@ -30,3 +30,4 @@ Retrieve a collection of attachments for this event which provide supplementary 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event_Attachment'>SoftLayer_Notification_Occurrence_Event_Attachment[] </a>
+

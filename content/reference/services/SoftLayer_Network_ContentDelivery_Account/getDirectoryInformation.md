@@ -27,3 +27,4 @@ This method returns an array of [[SoftLayer_Container_Network_Directory_Listing|
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_Directory_Listing'>SoftLayer_Container_Network_Directory_Listing[] </a>
+

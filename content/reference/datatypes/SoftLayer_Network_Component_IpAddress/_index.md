@@ -19,6 +19,17 @@ classes:
 
 ## Description 
 The SoftLayer_Network_Component_IpAddress data type contains general information relating to the binding of a single network component to a single SoftLayer IP address. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Subnet_IpAddress::getObject](/reference/services/SoftLayer_Network_Subnet_IpAddress/getObject )
+*  [SoftLayer_Network_Subnet_IpAddress::editObject](/reference/services/SoftLayer_Network_Subnet_IpAddress/editObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -46,6 +57,7 @@ The SoftLayer_Network_Component_IpAddress data type contains general information
             <div class='views-field-body'>The network component associated with this object's IP address. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

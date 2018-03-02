@@ -29,3 +29,4 @@ classes:
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Gateway_Status'>SoftLayer_Network_Gateway_Status </a>
+

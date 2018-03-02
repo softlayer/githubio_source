@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Account_Shipment_Item
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Account_Shipment_Item' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Shipment_Item' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Shipment_Item' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Account_Shipment_Item data type contains information relating to a shipment's item. Basic information such as addresses, the shipment courier, and any tracking information for as shipment is accessible with this data type. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -81,6 +86,7 @@ The SoftLayer_Account_Shipment_Item data type contains information relating to a
             <div class='views-field-body'>The type of this shipment item. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account_Shipment_Item_Type'>SoftLayer_Account_Shipment_Item_Type </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

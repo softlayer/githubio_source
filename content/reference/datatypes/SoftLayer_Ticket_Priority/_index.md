@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Ticket_Priority
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Ticket_Priority' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Ticket_Priority' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Ticket_Priority' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">

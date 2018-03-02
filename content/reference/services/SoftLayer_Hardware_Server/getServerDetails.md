@@ -26,3 +26,4 @@ Retrieve a server's hardware components, software, and network components. getSe
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Hardware_Server_Details'>SoftLayer_Container_Hardware_Server_Details </a>
+

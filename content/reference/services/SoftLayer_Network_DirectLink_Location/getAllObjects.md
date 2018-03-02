@@ -29,3 +29,4 @@ Return all existing Direct Link location.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_DirectLink_Location'>SoftLayer_Network_DirectLink_Location[] </a>
+

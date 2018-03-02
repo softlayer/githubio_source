@@ -27,3 +27,4 @@ Edit this gateway. Currently, the only value that can be edited is the name.
 
 ### Return Values
 boolean
+

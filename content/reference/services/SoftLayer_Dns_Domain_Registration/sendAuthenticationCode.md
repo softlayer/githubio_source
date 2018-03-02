@@ -26,3 +26,4 @@ The sendAuthenticationCode method sends the authentication code to the administr
 
 ### Return Values
 boolean
+

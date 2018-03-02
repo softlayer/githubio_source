@@ -28,3 +28,10 @@ This method returns an array of SoftLayer_Container_Network_Storage_Evault_WebCc
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_Storage_Evault_WebCc_JobDetails'>SoftLayer_Container_Network_Storage_Evault_WebCc_JobDetails[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Account::getCurrentBackupStatisticsGraph](/reference/services/SoftLayer_Account/getCurrentBackupStatisticsGraph )
+*  [SoftLayer_Account::getHistoricalBackupGraph](/reference/services/SoftLayer_Account/getHistoricalBackupGraph )
+

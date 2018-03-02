@@ -23,6 +23,11 @@ classes:
 Single storage group(array) used in a storage group template. 
 
 If a server configuration requires a raid configuration this object will describe a single array to be configured. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -75,6 +80,7 @@ If a server configuration requires a raid configuration this object will describ
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group_Array_Type'>SoftLayer_Configuration_Storage_Group_Array_Type </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

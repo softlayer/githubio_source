@@ -29,3 +29,4 @@ Retrieve peak number of bytes used in the vault for the current billing cycle.
 
 ### Return Values
 unsigned integer
+

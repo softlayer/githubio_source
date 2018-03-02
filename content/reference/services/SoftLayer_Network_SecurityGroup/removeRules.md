@@ -27,3 +27,4 @@ Remove rules from a security group.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_RequestRules'>SoftLayer_Network_SecurityGroup_RequestRules </a>
+

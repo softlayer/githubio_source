@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -71,6 +76,7 @@ classes:
             <div class='views-field-body'>The firmware revision </div>
             <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

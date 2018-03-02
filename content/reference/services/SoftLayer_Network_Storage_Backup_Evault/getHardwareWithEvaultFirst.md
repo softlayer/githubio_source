@@ -40,3 +40,10 @@ This method drives the backup page of the SoftLayer customer portal. It serves a
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+
+### External Links
+
+
+* [Backup management on the SoftLayer customer portal](http://maange.softlayer.com/backup/index.html)
+
+

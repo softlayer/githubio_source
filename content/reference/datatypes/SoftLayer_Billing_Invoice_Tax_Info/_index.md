@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Invoice tax information contains top-level information about the taxes recorded for a particular invoice. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -95,6 +100,12 @@ Invoice tax information contains top-level information about the taxes recorded 
             <span class='views-field-title'><a href="#totalTaxAmountToCurrency" name=totalTaxAmountToCurrency>totalTaxAmountToCurrency</a></span>
             <div class='views-field-body'>This the total tax amount (converted to the 'to' currency) for the invoice. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p>float</p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#itemCount" name=itemCount>itemCount</a></span>
+            <div class='views-field-body'>A count of this is the collection of tax information for each of the related invoice items. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -30,3 +30,4 @@ Retrieve the invoice items associated with a ticket. Ticket based invoice items 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a>
+

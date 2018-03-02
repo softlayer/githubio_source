@@ -30,3 +30,4 @@ Retrieve describes how all disks in this preset will be configured.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group_Template_Group'>SoftLayer_Configuration_Storage_Group_Template_Group[] </a>
+

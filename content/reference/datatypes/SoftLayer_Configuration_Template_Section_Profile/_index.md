@@ -15,7 +15,7 @@ classes:
 # SoftLayer_Configuration_Template_Section_Profile
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Configuration_Template_Section_Profile' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Profile' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Profile' >Datatype</a></li>
     </ul>
 </div>
 
@@ -23,6 +23,11 @@ classes:
 Some configuration templates let you create a unique configuration profiles. 
 
 For example, you can create multiple configuration profiles to monitor multiple hard drives with "CPU/Memory/Disk Monitoring Agent". SoftLayer_Configuration_Template_Section_Profile help you keep track of custom configuration profiles. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -75,6 +80,7 @@ For example, you can create multiple configuration profiles to monitor multiple 
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Monitoring_Agent'>SoftLayer_Monitoring_Agent </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

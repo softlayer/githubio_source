@@ -36,3 +36,4 @@ Note that files larger than 1MB will never be served with compression regardless
 
 ### Return Values
 boolean
+

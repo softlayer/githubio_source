@@ -19,6 +19,31 @@ classes:
 
 ## Description 
 SoftLayer_Container_Utility_Microsoft_Windows_UpdateServices_UpdateItem models a single Microsoft Update as reported by SoftLayer's private Windows Server Update Services (WSUS) services. All servers purchased with Microsoft Windows retrieve updates from SoftLayer's WSUS servers by default.
+
+### External Links
+
+
+* [Windows Server Update Services (WSUS) Home](http://technet.microsoft.com/en-us/wsus/default.aspx)
+
+
+* [Microsoft Help and Support](http://support.microsoft.com/)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Hardware_Server::getWindowsUpdateAvailableUpdates](/reference/services/SoftLayer_Hardware_Server/getWindowsUpdateAvailableUpdates )
+*  [SoftLayer_Hardware_Server::getWindowsUpdateInstalledUpdates](/reference/services/SoftLayer_Hardware_Server/getWindowsUpdateInstalledUpdates )
+
+
+
+### seeAlso
+
+* [SoftLayer_Container_Utility_Microsoft_Windows_UpdateServices_Status](/reference/datatypes/SoftLayer_Container_Utility_Microsoft_Windows_UpdateServices_Status )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

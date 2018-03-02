@@ -31,6 +31,16 @@ The <code>template</code> will provide a fragment of the request with the proper
 The [[SoftLayer_Virtual_Guest/getCreateObjectOptions|getCreateObjectOptions]] method returns this data structure. 
 
 <style type="text/css">#properties .views-field-body p { margin-top: 1.5em; };</style> 
+
+
+### associatedMethods
+
+*  [SoftLayer_Virtual_Guest::getCreateObjectOptions](/reference/services/SoftLayer_Virtual_Guest/getCreateObjectOptions )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

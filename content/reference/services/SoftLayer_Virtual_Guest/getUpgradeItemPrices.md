@@ -31,3 +31,4 @@ This method exclude downgrade item prices by default. You can set the "includeDo
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>
+

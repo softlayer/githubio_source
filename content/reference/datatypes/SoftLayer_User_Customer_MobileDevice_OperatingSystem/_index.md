@@ -13,12 +13,17 @@ classes:
 # SoftLayer_User_Customer_MobileDevice_OperatingSystem
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_User_Customer_MobileDevice_OperatingSystem' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice_OperatingSystem' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice_OperatingSystem' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 This class represents the mobile operating system installed on a user's registered mobile device. It assists us when determining the how to get a push notification to the user. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

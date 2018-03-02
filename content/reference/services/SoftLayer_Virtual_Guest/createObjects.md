@@ -113,3 +113,10 @@ See [[SoftLayer_Virtual_Guest/createObject|createObject]] for specifics on the r
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Virtual_Guest::createObject](/reference/services/SoftLayer_Virtual_Guest/createObject )
+*  [SoftLayer_Virtual_Guest::getCreateObjectOptions](/reference/services/SoftLayer_Virtual_Guest/getCreateObjectOptions )
+

@@ -41,3 +41,4 @@ Not all labels are guaranteed to be returned.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_LoadBalancer_StatusEntry'>SoftLayer_Container_Network_LoadBalancer_StatusEntry[] </a>
+

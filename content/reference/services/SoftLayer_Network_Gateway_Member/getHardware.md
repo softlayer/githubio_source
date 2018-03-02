@@ -29,3 +29,4 @@ Retrieve the device for this member.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+

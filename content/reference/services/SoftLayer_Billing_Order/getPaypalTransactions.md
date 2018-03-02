@@ -30,3 +30,4 @@ Retrieve all PayPal transactions associated with this order. If this order was n
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Payment_PayPal_Transaction'>SoftLayer_Billing_Payment_PayPal_Transaction[] </a>
+

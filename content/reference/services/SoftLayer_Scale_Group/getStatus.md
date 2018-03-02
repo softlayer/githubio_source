@@ -29,3 +29,4 @@ Retrieve the status for this scale group.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_Group_Status'>SoftLayer_Scale_Group_Status </a>
+

@@ -29,3 +29,4 @@ Retrieve the billing item for a server.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item_Hardware'>SoftLayer_Billing_Item_Hardware </a>
+

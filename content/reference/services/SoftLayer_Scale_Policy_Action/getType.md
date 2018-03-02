@@ -29,3 +29,4 @@ Retrieve the type of action.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_Policy_Action_Type'>SoftLayer_Scale_Policy_Action_Type </a>
+

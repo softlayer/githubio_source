@@ -26,3 +26,4 @@ Power on a virtual guest
 
 ### Return Values
 boolean
+

@@ -26,3 +26,10 @@ Return a SoftLayer hosted domain and resource records' data formatted as zone fi
 
 ### Return Values
 string
+
+### External Links
+
+
+* [Zone file at Wikipedia](http://en.wikipedia.org/wiki/Zone_file)
+
+

@@ -19,6 +19,28 @@ classes:
 
 ## Description 
 SoftLayer's CDN content delivery network offering replicates your data to a number of Points of Presence (POP's) around the world. SoftLayer_Container_Network_ContentDelivery_PointsOfPresence models one of these POP locations. 
+
+### External Links
+
+
+* [CDN Services at softlayer.com](http://www.softlayer.com/services_cdnlayer.html)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::getBandwidthOverage](/reference/services/SoftLayer_Network_ContentDelivery_Account/getBandwidthOverage )
+*  [SoftLayer_Network_ContentDelivery_Account::getPopNames](/reference/services/SoftLayer_Network_ContentDelivery_Account/getPopNames )
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_ContentDelivery_Account](/reference/datatypes/SoftLayer_Network_ContentDelivery_Account )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

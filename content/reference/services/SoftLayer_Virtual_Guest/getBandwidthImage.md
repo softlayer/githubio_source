@@ -30,3 +30,4 @@ Use this method when needing a bandwidth image for a single guest.  It will gath
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+

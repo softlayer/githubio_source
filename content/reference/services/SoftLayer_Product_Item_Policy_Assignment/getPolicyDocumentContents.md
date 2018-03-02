@@ -26,3 +26,4 @@ Retrieve the binary contents of the associated PDF policy document.
 
 ### Return Values
 binary data
+

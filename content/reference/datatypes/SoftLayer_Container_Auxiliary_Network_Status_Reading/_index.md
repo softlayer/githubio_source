@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 The SoftLayer_Container_Auxiliary_Network_Status_Reading data type contains information relating to an object being monitored from outside the SoftLayer network.  It is primarily used to check the status of our edge routers from multiple locations around the world. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Auxiliary_Network_Status::getObject](/reference/services/SoftLayer_Auxiliary_Network_Status/getObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

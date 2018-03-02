@@ -30,3 +30,4 @@ Retrieve all network devices in SoftLayer's network hierarchy that this device i
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+

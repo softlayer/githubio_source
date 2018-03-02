@@ -28,3 +28,9 @@ This method returns a disk usage graph wrapped in [[SoftLayer_Container_Bandwidt
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::getDiskSpaceUsageDataByDate](/reference/services/SoftLayer_Network_ContentDelivery_Account/getDiskSpaceUsageDataByDate )
+

@@ -21,8 +21,23 @@ classes:
 Layout profiles are the primary object used to tie customized portal experiences to the [[SoftLayer_User_Customer|user account]]. 
 
 In order to take full advantage of the flexible customization of the portal, each user must be given one or more layout profiles. Each layout profile is then assigned one of the [[SoftLayer_Layout_Container|layout containers]], thereby giving the user all [[SoftLayer_Layout_Item|items]] and associated [[SoftLayer_Layout_Profile_Preferences|default preferences]]. These default preferences can be modified via the [[SoftLayer_Layout_Profile::modifyPreference()]] method, giving the user their own customized configuration. 
+
+
+
 ### seeAlso
-        SoftLayer_Layout_Profile_Preference1        SoftLayer_Layout_Container1        SoftLayer_Layout_Preference1        SoftLayer_Layout_Profile_Containers1                
+
+* [SoftLayer_Layout_Profile_Preference](/reference/datatypes/SoftLayer_Layout_Profile_Preference )
+
+
+* [SoftLayer_Layout_Container](/reference/datatypes/SoftLayer_Layout_Container )
+
+
+* [SoftLayer_Layout_Preference](/reference/datatypes/SoftLayer_Layout_Preference )
+
+
+* [SoftLayer_Layout_Profile_Containers](/reference/datatypes/SoftLayer_Layout_Profile_Containers )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

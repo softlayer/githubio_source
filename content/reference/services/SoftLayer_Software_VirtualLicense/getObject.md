@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Software_VirtualLicense object whose ID number
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Software_VirtualLicense'>SoftLayer_Software_VirtualLicense </a>
+

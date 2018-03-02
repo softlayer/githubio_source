@@ -27,3 +27,4 @@ Modify either the ``name`` or ``notes`` properties of a Network.
 
 ### Return Values
 boolean
+

@@ -30,3 +30,4 @@ Retrieve collection of log entries for this group.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_Group_Log'>SoftLayer_Scale_Group_Log[] </a>
+

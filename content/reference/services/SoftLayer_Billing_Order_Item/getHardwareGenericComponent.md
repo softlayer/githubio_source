@@ -29,3 +29,4 @@ Retrieve the component type tied to an order item. All hardware-specific items s
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic </a>
+

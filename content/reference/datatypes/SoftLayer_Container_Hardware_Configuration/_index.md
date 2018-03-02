@@ -31,6 +31,16 @@ The <code>template</code> will provide a fragment of the request with the proper
 The [[SoftLayer_Hardware/getCreateObjectOptions|getCreateObjectOptions]] method returns this data structure. 
 
 <style type="text/css">#properties .views-field-body p { margin-top: 1.5em; };</style> 
+
+
+### associatedMethods
+
+*  [SoftLayer_Hardware::getCreateObjectOptions](/reference/services/SoftLayer_Hardware/getCreateObjectOptions )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

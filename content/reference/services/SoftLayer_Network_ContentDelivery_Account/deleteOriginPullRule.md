@@ -27,3 +27,9 @@ This method removes an Origin Pull domain rule.  Once an Origin Pull rule is rem
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::createOriginPullRule](/reference/services/SoftLayer_Network_ContentDelivery_Account/createOriginPullRule )
+

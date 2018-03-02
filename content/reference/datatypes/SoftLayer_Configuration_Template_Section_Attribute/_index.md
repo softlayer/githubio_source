@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Configuration section attribute class contains supplementary information for a configuration section. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -46,6 +51,7 @@ Configuration section attribute class contains supplementary information for a c
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Configuration_Template_Section'>SoftLayer_Configuration_Template_Section </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

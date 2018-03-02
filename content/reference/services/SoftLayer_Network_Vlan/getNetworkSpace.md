@@ -29,3 +29,4 @@ Retrieve identifier to denote whether a VLAN is used for public or private conne
 
 ### Return Values
 string
+

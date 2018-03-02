@@ -28,3 +28,12 @@ This method retrieves an array of SoftLayer_Monitoring_Agent_Configuration_Templ
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Configuration_Template_Group'>SoftLayer_Monitoring_Agent_Configuration_Template_Group[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group::getObject](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getObject )
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group::getAllObjects ](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getAllObjects  )
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group::createObject](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/createObject )
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group::editObject](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/editObject )
+

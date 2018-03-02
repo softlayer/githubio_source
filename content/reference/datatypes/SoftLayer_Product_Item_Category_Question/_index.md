@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Product_Item_Category_Question data type represents a single question to be answered by an end user.  The question may or may not be required which can be located by looking at the 'required' property on the item category references.  The answerValueExpression property is a regular expression that is used to validate the answer to the question.  The description and valueExample properties can be used to get an idea of the type of answer that should be provided. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -80,6 +85,12 @@ The SoftLayer_Product_Item_Category_Question data type represents a single quest
             <span class='views-field-title'><a href="#itemCategoryReferences" name=itemCategoryReferences>itemCategoryReferences</a></span>
             <div class='views-field-body'>The link between an item category and an item category question. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question_Xref'>SoftLayer_Product_Item_Category_Question_Xref[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#itemCategoryReferenceCount" name=itemCategoryReferenceCount>itemCategoryReferenceCount</a></span>
+            <div class='views-field-body'>A count of the link between an item category and an item category question. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

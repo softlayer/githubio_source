@@ -29,3 +29,4 @@ Retrieve the current state of a VeriSign credential. This can be 'Enabled', 'Dis
 
 ### Return Values
 string
+

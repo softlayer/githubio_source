@@ -26,3 +26,9 @@ This method will return a SoftLayer_Container_Account_Discount_Program object co
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Account_Discount_Program'>SoftLayer_Container_Account_Discount_Program </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Product_Order::verifyOrder](/reference/services/SoftLayer_Product_Order/verifyOrder )
+

@@ -19,7 +19,9 @@ classes:
 
 ## Description
 A Transcode job's status. It can be Pending, Processing, Complete, Error or Deleted. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

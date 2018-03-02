@@ -29,3 +29,4 @@ Retrieve the total private inbound bandwidth for this hardware for the current b
 
 ### Return Values
 decimal
+

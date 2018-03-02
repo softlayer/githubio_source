@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 A property provides additional information about a volume which it is assigned to. This information can range from "Mountable" flags to utilized snapshot space. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +71,7 @@ A property provides additional information about a volume which it is assigned t
             <div class='views-field-body'>The associated volume for a property. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

@@ -30,3 +30,4 @@ Retrieve the last five commands issued to the server's remote management card.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component_RemoteManagement_Command_Request'>SoftLayer_Hardware_Component_RemoteManagement_Command_Request[] </a>
+

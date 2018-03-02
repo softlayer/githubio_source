@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 Every SoftLayer_Auxiliary_Notification_Emergency has a statusId that references a SoftLayer_Auxiliary_Notification_Emergency_Status data type.  The status is used to determine the current state of the event. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Auxiliary_Notification_Emergency](/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

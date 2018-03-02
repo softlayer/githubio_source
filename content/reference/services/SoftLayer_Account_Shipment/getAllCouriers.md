@@ -27,3 +27,4 @@ Retrieve a list of available shipping couriers.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Auxiliary_Shipping_Courier'>SoftLayer_Auxiliary_Shipping_Courier[] </a>
+

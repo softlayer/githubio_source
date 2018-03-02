@@ -27,3 +27,4 @@ This method simply returns a receipt for a previously finalized payment authoriz
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Product_Order_Receipt'>SoftLayer_Container_Product_Order_Receipt </a>
+

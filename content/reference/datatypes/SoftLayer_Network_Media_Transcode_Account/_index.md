@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Network_Media_Transcode_Account
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Media_Transcode_Account' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Account' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Account' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_Media_Transcode_Account contains information regarding a transcode account. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -65,6 +70,12 @@ The SoftLayer_Network_Media_Transcode_Account contains information regarding a t
             <span class='views-field-title'><a href="#transcodeJobs" name=transcodeJobs>transcodeJobs</a></span>
             <div class='views-field-body'>Transcode jobs </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Job'>SoftLayer_Network_Media_Transcode_Job[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#transcodeJobCount" name=transcodeJobCount>transcodeJobCount</a></span>
+            <div class='views-field-body'>A count of transcode jobs </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

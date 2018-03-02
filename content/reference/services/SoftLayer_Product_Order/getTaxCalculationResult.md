@@ -26,3 +26,4 @@ Sometimes taxes cannot be calculated immediately, so we start the calculations a
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Tax_Cache'>SoftLayer_Container_Tax_Cache </a>
+

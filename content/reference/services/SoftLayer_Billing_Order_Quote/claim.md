@@ -31,3 +31,4 @@ To claim a quote, both the quote id and the quote key (the 32-character random s
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Order_Quote'>SoftLayer_Billing_Order_Quote </a>
+

@@ -27,3 +27,10 @@ Determine if a string is the given user's login password to the SoftLayer custom
 
 ### Return Values
 boolean
+
+### External Links
+
+
+* [The SoftLayer Customer Portal](https://manage.softlayer.com)
+
+

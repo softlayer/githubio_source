@@ -26,3 +26,4 @@ R1Soft Bare Metal Server Restore is an R1Soft disk agent designed specifically f
 
 ### Return Values
 boolean
+

@@ -26,3 +26,4 @@ This method will power off the server via the server's remote management card.
 
 ### Return Values
 boolean
+

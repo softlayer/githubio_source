@@ -29,3 +29,4 @@ Retrieve a flag indicating that a vlan can be assigned to a host that has local 
 
 ### Return Values
 boolean
+

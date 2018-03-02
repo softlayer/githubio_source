@@ -29,3 +29,11 @@ Users can assign device access to their child users, but not to themselves. An a
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Customer::addDedicatedHostAccess](/reference/services/SoftLayer_User_Customer/addDedicatedHostAccess )
+*  [SoftLayer_User_Customer::removeDedicatedHostAcces](/reference/services/SoftLayer_User_Customer/removeDedicatedHostAcces )
+*  [SoftLayer_User_Customer::removeBulkHDedicatedHostAccess](/reference/services/SoftLayer_User_Customer/removeBulkHDedicatedHostAccess )
+

@@ -29,3 +29,4 @@ Retrieve whether the package only has access to the private network.
 
 ### Return Values
 boolean
+

@@ -28,3 +28,4 @@ Retrieve the total amount of the recurring taxes on an account's pending invoice
 
 ### Return Values
 decimal
+

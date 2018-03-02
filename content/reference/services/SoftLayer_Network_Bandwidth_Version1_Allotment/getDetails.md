@@ -30,3 +30,4 @@ Retrieve the bandwidth allotment detail records associated with this virtual rac
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Detail'>SoftLayer_Network_Bandwidth_Version1_Allotment_Detail[] </a>
+

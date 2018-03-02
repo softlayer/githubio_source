@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 The SoftLayer_Network_LBaaS_Pool type presents a structure containing attributes of a load balancer pool such as the protocol, protocol port and the load balancing algorithm used. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_LBaaS_Listener](/reference/datatypes/SoftLayer_Network_LBaaS_Listener )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -85,6 +95,12 @@ The SoftLayer_Network_LBaaS_Pool type presents a structure containing attributes
             <span class='views-field-title'><a href="#sessionAffinity" name=sessionAffinity>sessionAffinity</a></span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_SessionAffinity'>SoftLayer_Network_LBaaS_SessionAffinity </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#memberCount" name=memberCount>memberCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

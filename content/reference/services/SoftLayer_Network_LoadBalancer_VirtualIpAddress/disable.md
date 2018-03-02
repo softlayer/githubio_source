@@ -26,3 +26,9 @@ Disable a Virtual IP Address, removing it from load balancer rotation and denyin
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_LoadBalancer_VirtualIpAddress::enable](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/enable )
+

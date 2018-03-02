@@ -28,3 +28,4 @@ Retrieve the pre-tax total amount of an account's next invoice measured in US Do
 
 ### Return Values
 float
+

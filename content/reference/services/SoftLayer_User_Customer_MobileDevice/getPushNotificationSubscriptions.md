@@ -30,3 +30,4 @@ Retrieve notification subscriptions attached to a mobile device.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber[] </a>
+

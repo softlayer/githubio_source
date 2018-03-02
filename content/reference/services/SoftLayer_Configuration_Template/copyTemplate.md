@@ -29,3 +29,4 @@ Copy a configuration template and returns a newly created template copy
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>
+

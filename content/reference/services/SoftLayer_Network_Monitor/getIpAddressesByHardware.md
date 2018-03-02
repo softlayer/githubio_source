@@ -28,3 +28,4 @@ This will return an arrayObject of objects containing the ipaddresses.  Using an
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>
+

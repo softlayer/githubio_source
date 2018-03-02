@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 This datatype simply describes which steps are next in line for ordering. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -56,6 +61,7 @@ This datatype simply describes which steps are next in line for ordering.
             <div class='views-field-body'>The SoftLayer_Product_Package_Order_Step to which this object belongs. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Package_Order_Step'>SoftLayer_Product_Package_Order_Step </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

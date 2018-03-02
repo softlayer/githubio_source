@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The McAfee_Epolicy_Orchestrator_Version45_Agent_Parent_Details data type contains the name of an anti-virus policy.
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -50,6 +55,12 @@ The McAfee_Epolicy_Orchestrator_Version45_Agent_Parent_Details data type contain
             <span class='views-field-title'><a href="#policies" name=policies>policies</a></span>
             <div class='views-field-body'>The current anti-virus policy of an agent. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p>McAfee_Epolicy_Orchestrator_Version45_Agent_Parent_Details[]</p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#policyCount" name=policyCount>policyCount</a></span>
+            <div class='views-field-body'>A count of the current anti-virus policy of an agent. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

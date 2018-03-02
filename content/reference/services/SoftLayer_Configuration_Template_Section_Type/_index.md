@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Configuration section type 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

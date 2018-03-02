@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The SoftLayer_Hardware_Blade service provides specific information about blade servers. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

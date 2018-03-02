@@ -26,3 +26,4 @@ The getAuthenticationCode method retrieves the authentication code for the domai
 
 ### Return Values
 string
+

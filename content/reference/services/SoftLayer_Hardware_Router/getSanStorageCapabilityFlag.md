@@ -29,3 +29,4 @@ Retrieve a flag indicating that a VLAN on the router can be assigned to a host t
 
 ### Return Values
 boolean
+

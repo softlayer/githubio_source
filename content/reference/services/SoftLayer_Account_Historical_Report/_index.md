@@ -19,7 +19,9 @@ classes:
 
 ## Description
 SoftLayer's account historical report service allows users to access a broad overview of devices for that account and historical details concerning the overall function and performance of the devices on that account 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

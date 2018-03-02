@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The storage property types provide standard definitions for properties which can be used with any type for Storage offering.  The properties provide additional information about a volume which they are assigned to. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

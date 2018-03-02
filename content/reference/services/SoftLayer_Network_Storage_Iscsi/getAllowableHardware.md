@@ -30,3 +30,4 @@ This method retrieves a list of SoftLayer_Hardware that can be authorized to thi
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+

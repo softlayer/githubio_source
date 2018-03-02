@@ -19,6 +19,33 @@ classes:
 
 ## Description 
 SoftLayer_Dns_Domain_ResourceRecord_AaaaType is a SoftLayer_Dns_Domain_ResourceRecord object whose ''type'' property is set to "aaaa" and defines a DNS AAAA record on a SoftLayer hosted domain. An AAAA record directs a host name to an IPv6 address. For instance if the AAAA record for "host.example.org" points to the IPv6 address "fe80:0:0:0:0:0:a00:0" then the ''host'' property for the AAAA record equals "host" and the ''data'' property equals "fe80:0:0:0:0:0:a00:0". 
+
+### External Links
+
+
+* [List of DNS record types at Wikipedia](http://en.wikipedia.org/wiki/List_of_DNS_record_types)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain::createAaaaRecord](/reference/services/SoftLayer_Dns_Domain/createAaaaRecord )
+
+
+
+### seeAlso
+
+* [SoftLayer_Dns_Domain](/reference/datatypes/SoftLayer_Dns_Domain )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_AType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_AType )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -101,6 +128,7 @@ SoftLayer_Dns_Domain_ResourceRecord_AaaaType is a SoftLayer_Dns_Domain_ResourceR
             <div class='views-field-body'>The domain that a resource record belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

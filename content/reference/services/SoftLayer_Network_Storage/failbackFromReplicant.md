@@ -26,3 +26,10 @@ Failback from a volume replicant. In order to failback the volume must have alre
 
 ### Return Values
 boolean
+
+### External Links
+
+
+* [In depth details on storage replication at Wikipedia](http://en.wikipedia.org/wiki/Storage_replication#Disk_storage_replication)
+
+

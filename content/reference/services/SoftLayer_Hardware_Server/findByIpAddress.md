@@ -28,3 +28,4 @@ The '''findByIpAddress''' method finds hardware using its primary public or priv
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Server'>SoftLayer_Hardware_Server </a>
+

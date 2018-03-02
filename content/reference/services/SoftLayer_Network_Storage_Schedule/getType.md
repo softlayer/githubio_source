@@ -29,3 +29,4 @@ Retrieve the type provides a standardized definition for a schedule.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule_Type'>SoftLayer_Network_Storage_Schedule_Type </a>
+

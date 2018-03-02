@@ -23,20 +23,26 @@ Every SoftLayer ip address is associated with a subnet which is defined in the S
 Along with VLANs, subnets are an integral part of the SoftLayer network. Each server ordered by SoftLayer comes with at least one public and one private subnet, with more available for order in the customer portal. Subnets exist in the SoftLayer network as either interfaces on a VLAN or as route destination from an IP address or VLAN. 
 
 SoftLayer customers can order and manage subnets through the customer portal. If you need to cancel a subnet please open a sales ticket in our customer portal and our account management staff will assist you. 
-### external links
-        Array
-(
-    [url] => http://en.wikipedia.org/wiki/Subnetwork
-    [description] => Subnetwork at Wikipedia
-)
-1        Array
-(
-    [url] => http://tools.ietf.org/html/rfc950
-    [description] => RFC950:Internet Standard Subnetting Procedure at ietf.org
-)
-1        
+
+### External Links
+
+
+* [Subnetwork at Wikipedia](http://en.wikipedia.org/wiki/Subnetwork)
+
+
+* [RFC950:Internet Standard Subnetting Procedure at ietf.org](http://tools.ietf.org/html/rfc950)
+
+
+
+
 ### seeAlso
-        SoftLayer_Network_Vlan1        SoftLayer_Network_IpAddress1                
+
+* [SoftLayer_Network_Vlan](/reference/datatypes/SoftLayer_Network_Vlan )
+
+
+* [SoftLayer_Network_IpAddress](/reference/datatypes/SoftLayer_Network_IpAddress )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

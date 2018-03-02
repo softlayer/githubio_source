@@ -39,3 +39,13 @@ For more detailed information, use the getReportForIpAddressOrSubnet method
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_IntrusionProtection_SubnetReport'>SoftLayer_Container_Network_IntrusionProtection_SubnetReport[] </a>
+
+### External Links
+
+
+* [The Security focus (BugTraq) database](http://www.securityfocus.com/vulnerabilities)
+
+
+* [The MITRE (CVE) database](http://cve.mitre.org/find/index.html)
+
+

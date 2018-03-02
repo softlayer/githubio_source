@@ -28,3 +28,10 @@ Account master users and sub-users in the SoftLayer customer portal can save the
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Order_Cart'>SoftLayer_Billing_Order_Cart </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Billing_Order_Quote::saveQuote](/reference/services/SoftLayer_Billing_Order_Quote/saveQuote )
+*  [SoftLayer_Billing_Order_Quote::deleteQuote](/reference/services/SoftLayer_Billing_Order_Quote/deleteQuote )
+

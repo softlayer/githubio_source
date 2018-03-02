@@ -27,3 +27,4 @@ Return an account's next invoice in PDF format.
 
 ### Return Values
 binary data
+

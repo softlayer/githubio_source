@@ -29,3 +29,4 @@ Retrieve the type of shipment (e.g. for Data Transfer Service or Colocation Serv
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account_Shipment_Type'>SoftLayer_Account_Shipment_Type </a>
+

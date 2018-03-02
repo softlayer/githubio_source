@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The [[SoftLayer_Brand_Restriction_Location_CustomerCountry]] service defines the relationship between brands, locations and countries associated with a user's account that are ineligible when ordering products. For example, the India datacenter may not be available on the SoftLayer US brand for customers that live in Great Britain. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

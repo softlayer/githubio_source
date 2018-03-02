@@ -29,3 +29,4 @@ Retrieve the type of this VLAN.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Vlan_Type'>SoftLayer_Network_Vlan_Type </a>
+

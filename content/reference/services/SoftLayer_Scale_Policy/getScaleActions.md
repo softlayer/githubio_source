@@ -30,3 +30,4 @@ Retrieve the scale actions to perform upon any trigger hit. Currently this must 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_Policy_Action'>SoftLayer_Scale_Policy_Action[] </a>
+

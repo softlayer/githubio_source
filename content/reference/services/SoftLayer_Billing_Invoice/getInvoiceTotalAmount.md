@@ -29,3 +29,4 @@ Retrieve the total amount of this invoice.
 
 ### Return Values
 decimal
+

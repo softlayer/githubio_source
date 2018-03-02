@@ -25,3 +25,4 @@ Retrieve a list of valid (non-expired) security certificates without the sensiti
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Security_Certificate_Entry'>SoftLayer_Security_Certificate_Entry[] </a>
+

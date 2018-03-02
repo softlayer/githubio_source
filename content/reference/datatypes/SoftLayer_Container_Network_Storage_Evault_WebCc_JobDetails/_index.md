@@ -19,6 +19,17 @@ classes:
 
 ## Description 
 The SoftLayer_Container_Network_Storage_Evault_WebCc_JobDetails will contain basic details for all backup and restore jobs performed by the StorageLayer EVault service offering. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Storage_Backup_Evault::getAgentStatuses](/reference/services/SoftLayer_Network_Storage_Backup_Evault/getAgentStatuses )
+*  [SoftLayer_Network_Storage_Backup_Evault::getTasks](/reference/services/SoftLayer_Network_Storage_Backup_Evault/getTasks )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

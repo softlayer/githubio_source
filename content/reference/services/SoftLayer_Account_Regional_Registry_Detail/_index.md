@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Regional Registry Detail objects are used to specify the information you wish to use when registering subnets with the appropriate Regional Internet Registries. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

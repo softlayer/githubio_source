@@ -28,3 +28,4 @@ Create a new VLAN attachment. If the bypassFlag is false, this will also create 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Gateway_Vlan'>SoftLayer_Network_Gateway_Vlan </a>
+

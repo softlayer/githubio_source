@@ -29,3 +29,4 @@ Retrieve whether or not this subnet is associated with a router. Subnets that ar
 
 ### Return Values
 boolean
+

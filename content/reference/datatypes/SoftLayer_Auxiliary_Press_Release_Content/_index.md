@@ -13,11 +13,21 @@ classes:
 # SoftLayer_Auxiliary_Press_Release_Content
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Auxiliary_Press_Release_Content' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_Content' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_Content' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Auxiliary_Press_Release_Content::getObject](/reference/services/SoftLayer_Auxiliary_Press_Release_Content/getObject )
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">

@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Hardware_Component_Firmware_Attribute data type contains general information for a hardware model's firmware. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +71,7 @@ The SoftLayer_Hardware_Component_Firmware_Attribute data type contains general i
             <div class='views-field-body'>A hardware component firmware attribute's associated [[SoftLayer_Hardware_Component_Firmware_Attribute_Type|type]]. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware_Attribute_Type'>SoftLayer_Hardware_Component_Firmware_Attribute_Type </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

@@ -29,3 +29,4 @@ Retrieve location Group ID of CleverSafe cross region.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group </a>
+

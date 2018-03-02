@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Survey_Status data type contains survey status information. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

@@ -24,3 +24,4 @@ The getServiceResources method retrieves all service resources associated with t
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Resource_Metadata_ServiceResource'>SoftLayer_Container_Resource_Metadata_ServiceResource[] </a>
+

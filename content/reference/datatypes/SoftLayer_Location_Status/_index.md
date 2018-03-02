@@ -30,6 +30,16 @@ SoftLayer_Location_Status models the state of any location. SoftLayer uses the f
 
 
 Locations in use should stay in the ACTIVE state. If a locations status ever reads anything else and contains active hardware then please contact SoftLayer support. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Location](/reference/datatypes/SoftLayer_Location )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

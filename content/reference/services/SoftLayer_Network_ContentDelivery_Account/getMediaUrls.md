@@ -26,3 +26,4 @@ This method returns CDN URLs for static file (http), Flash streaming (rtmp) and 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_ContentDelivery_SupportedProtocol'>SoftLayer_Container_Network_ContentDelivery_SupportedProtocol[] </a>
+

@@ -29,3 +29,4 @@ Retrieve information regarding the virtual chassis for a piece of hardware.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Group'>SoftLayer_Hardware_Group </a>
+

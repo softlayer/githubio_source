@@ -19,6 +19,22 @@ classes:
 
 ## Description 
 The SoftLayer_Product_Package_Item_Prices contains price to package cross references Relates a category, price and item to a bundle.  Match bundle ids to see all items and prices in a particular bundle. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Product_Item](/reference/datatypes/SoftLayer_Product_Item )
+
+
+* [SoftLayer_Product_Item_Price](/reference/datatypes/SoftLayer_Product_Item_Price )
+
+
+* [SoftLayer_Product_Item_Category](/reference/datatypes/SoftLayer_Product_Item_Category )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -61,6 +77,7 @@ The SoftLayer_Product_Package_Item_Prices contains price to package cross refere
             <div class='views-field-body'>The package to which this object belongs. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

@@ -30,3 +30,4 @@ Retrieve user(s) who have access to issue commands and/or interact with the serv
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component_RemoteManagement_User'>SoftLayer_Hardware_Component_RemoteManagement_User[] </a>
+

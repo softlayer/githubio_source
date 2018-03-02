@@ -30,3 +30,4 @@ Retrieve top Ten network datacenter syslog events, grouped by destination port, 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>
+

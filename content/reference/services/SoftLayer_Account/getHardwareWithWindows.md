@@ -29,3 +29,4 @@ Retrieve all hardware associated with an account that is running a version of th
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+

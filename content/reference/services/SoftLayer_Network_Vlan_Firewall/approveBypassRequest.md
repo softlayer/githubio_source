@@ -26,3 +26,4 @@ Approve a request from technical support to bypass the firewall. Once approved, 
 
 ### Return Values
 void
+

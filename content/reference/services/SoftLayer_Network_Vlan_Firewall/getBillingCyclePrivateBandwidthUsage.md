@@ -29,3 +29,4 @@ Retrieve the raw private bandwidth usage data for the current billing cycle.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage </a>
+

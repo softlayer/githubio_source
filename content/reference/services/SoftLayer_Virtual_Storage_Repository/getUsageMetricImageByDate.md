@@ -28,3 +28,4 @@ Returns a disk usage image based on disk usage specified by the input parameters
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+

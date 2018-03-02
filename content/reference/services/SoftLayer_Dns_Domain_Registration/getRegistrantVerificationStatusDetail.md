@@ -26,3 +26,4 @@ When a domain is registered or transferred, or when the registrant contact infor
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Registrant_Verification_StatusDetail'>SoftLayer_Container_Dns_Domain_Registration_Registrant_Verification_StatusDetail </a>
+

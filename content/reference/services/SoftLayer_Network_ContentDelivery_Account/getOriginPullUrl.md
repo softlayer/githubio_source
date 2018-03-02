@@ -26,3 +26,9 @@ This method returns the domain name of your Origin Pull rule.  It assumes you ha
 
 ### Return Values
 string
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::createOriginPullRule](/reference/services/SoftLayer_Network_ContentDelivery_Account/createOriginPullRule )
+

@@ -29,3 +29,4 @@ Retrieve the last known power state of a virtual guest in the event the guest is
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Power_State'>SoftLayer_Virtual_Guest_Power_State </a>
+

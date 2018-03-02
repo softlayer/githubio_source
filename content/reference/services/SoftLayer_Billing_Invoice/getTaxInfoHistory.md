@@ -30,3 +30,4 @@ Retrieve this is the set of tax information for any tax calculation for this inv
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Info'>SoftLayer_Billing_Invoice_Tax_Info[] </a>
+

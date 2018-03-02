@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Auxiliary_Shipping_Courier_Type
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Auxiliary_Shipping_Courier_Type' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Auxiliary_Shipping_Courier_Type' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Auxiliary_Shipping_Courier_Type' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -60,6 +65,12 @@ classes:
             <span class='views-field-title'><a href="#courier" name=courier>courier</a></span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Auxiliary_Shipping_Courier'>SoftLayer_Auxiliary_Shipping_Courier[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#courierCount" name=courierCount>courierCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

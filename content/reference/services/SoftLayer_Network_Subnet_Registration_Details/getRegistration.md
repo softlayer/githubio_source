@@ -29,3 +29,4 @@ Retrieve the related [[SoftLayer_Network_Subnet_Registration|registration object
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration'>SoftLayer_Network_Subnet_Registration </a>
+

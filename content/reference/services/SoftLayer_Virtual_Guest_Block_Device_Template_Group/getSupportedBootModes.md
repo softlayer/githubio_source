@@ -26,3 +26,4 @@ This method indicates which boot modes are supported by the image.
 
 ### Return Values
 array of strings
+

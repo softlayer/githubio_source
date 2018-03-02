@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Hardware_Component_Model_Generic_MarketingFeature data type contains general information relating to all the advertising features of a single SoftLayer hardware generic component model. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -51,6 +56,7 @@ The SoftLayer_Hardware_Component_Model_Generic_MarketingFeature data type contai
             <div class='views-field-body'>The generic component model for a list of advertising or marketing features </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

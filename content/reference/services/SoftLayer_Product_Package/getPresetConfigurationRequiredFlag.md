@@ -29,3 +29,4 @@ Retrieve whether the package requires the user to define a preset configuration.
 
 ### Return Values
 boolean
+

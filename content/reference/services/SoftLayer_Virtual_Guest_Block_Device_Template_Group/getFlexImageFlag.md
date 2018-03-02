@@ -29,3 +29,4 @@ Retrieve a flag indicating if this is a flex image.
 
 ### Return Values
 boolean
+

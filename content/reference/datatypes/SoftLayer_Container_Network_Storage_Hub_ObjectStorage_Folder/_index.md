@@ -19,6 +19,22 @@ classes:
 
 ## Description 
 SoftLayer_Container_Network_Storage_Hub_Container provides details about containers which store collections of files. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Storage::uploadFile](/reference/services/SoftLayer_Network_Storage/uploadFile )
+*  [SoftLayer_Network_Storage::downloadFile](/reference/services/SoftLayer_Network_Storage/downloadFile )
+
+
+
+### seeAlso
+
+* [SoftLayer_Container_Utility_File_Entity](/reference/datatypes/SoftLayer_Container_Utility_File_Entity )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

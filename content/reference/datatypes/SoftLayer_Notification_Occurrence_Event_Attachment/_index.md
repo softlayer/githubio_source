@@ -19,6 +19,21 @@ classes:
 
 ## Description 
 SoftLayer events can have have files attached to them by a SoftLayer employee. Attaching a file to a event is a way to provide supplementary information such as a RFO (reason for outage) document or root cause analysis. The SoftLayer_Notification_Occurrence_Event_Attachment data type models a single file attached to a event. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Notification_Occurrence_Event::getAttachedFile](/reference/services/SoftLayer_Notification_Occurrence_Event/getAttachedFile )
+
+
+
+### seeAlso
+
+* [SoftLayer_Notification_Occurrence_Event](/reference/datatypes/SoftLayer_Notification_Occurrence_Event )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +81,7 @@ SoftLayer events can have have files attached to them by a SoftLayer employee. A
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

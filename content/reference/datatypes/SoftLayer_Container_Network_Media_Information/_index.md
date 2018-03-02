@@ -19,6 +19,21 @@ classes:
 
 ## Description 
 This container class holds information on a media file such as file name, codec, frame rate and so on 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Media_Transcode_Account::getFileDetail](/reference/services/SoftLayer_Network_Media_Transcode_Account/getFileDetail )
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_Media_Transcode_Account](/reference/datatypes/SoftLayer_Network_Media_Transcode_Account )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

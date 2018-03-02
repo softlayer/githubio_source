@@ -26,3 +26,4 @@ This method pulls an account trait by its key.
 
 ### Return Values
 string
+

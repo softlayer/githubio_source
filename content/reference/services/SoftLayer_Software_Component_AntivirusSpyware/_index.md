@@ -19,7 +19,9 @@ classes:
 
 ## Description
 This object specifies a specific type of Software Component:  An Anti-virus/spyware instance. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

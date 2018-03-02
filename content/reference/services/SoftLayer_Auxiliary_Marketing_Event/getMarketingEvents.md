@@ -27,3 +27,4 @@ This method will return a collection of SoftLayer_Auxiliary_Marketing_Event obje
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Auxiliary_Marketing_Event'>SoftLayer_Auxiliary_Marketing_Event[] </a>
+

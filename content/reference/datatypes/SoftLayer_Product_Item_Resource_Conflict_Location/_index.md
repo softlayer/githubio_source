@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -71,6 +76,7 @@ classes:
             <div class='views-field-body'>A location that conflicts with a product item. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

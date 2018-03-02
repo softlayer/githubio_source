@@ -29,3 +29,9 @@ Retrieve network storage accounts by username and storage account type. Use this
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Storage::getObject](/reference/services/SoftLayer_Network_Storage/getObject )
+

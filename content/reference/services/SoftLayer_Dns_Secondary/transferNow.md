@@ -26,3 +26,4 @@ Force a secondary DNS zone transfer by setting it's status "Transfer Now".  A zo
 
 ### Return Values
 boolean
+

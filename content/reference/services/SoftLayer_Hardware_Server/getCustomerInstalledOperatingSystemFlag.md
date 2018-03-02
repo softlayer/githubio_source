@@ -29,3 +29,4 @@ Retrieve indicates if a server has a Customer Installed OS
 
 ### Return Values
 boolean
+

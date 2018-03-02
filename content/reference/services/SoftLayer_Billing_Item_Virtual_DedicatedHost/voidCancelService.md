@@ -26,3 +26,4 @@ Void a previously made cancellation for a service
 
 ### Return Values
 boolean
+

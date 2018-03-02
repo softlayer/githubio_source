@@ -29,3 +29,4 @@ Retrieve the monitoring service flag eligibility status for a piece of hardware.
 
 ### Return Values
 boolean
+

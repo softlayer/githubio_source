@@ -26,3 +26,9 @@ Provides all of the address translation configurations for an IPSec VPN tunnel i
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Utility_File_Entity'>SoftLayer_Container_Utility_File_Entity </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Tunnel_Module_Context::getAddressTranslationConfigurations](/reference/services/SoftLayer_Network_Tunnel_Module_Context/getAddressTranslationConfigurations )
+

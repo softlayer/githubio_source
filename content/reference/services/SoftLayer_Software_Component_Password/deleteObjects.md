@@ -26,3 +26,4 @@ Delete more than one passwords from a software component.
 
 ### Return Values
 boolean
+

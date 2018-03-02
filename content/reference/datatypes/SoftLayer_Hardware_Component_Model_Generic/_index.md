@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Hardware_Component_Model_Generic data type contains general information relating to a single SoftLayer generic component model.  A generic component model represents a non-vendor specific representation of a hardware component.  Frequently SoftLayer utilizes components from various vendors in the servers they provision. For Example: Several different vendors produce 6GB DDR2 memory.  The generic component model for the 6GB stick of RAM encompasses every instance of this component regardless of make and model. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -80,6 +85,12 @@ The SoftLayer_Hardware_Component_Model_Generic data type contains general inform
             <span class='views-field-title'><a href="#marketingFeatures" name=marketingFeatures>marketingFeatures</a></span>
             <div class='views-field-body'>A list of features that a generic component model can provide. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic_MarketingFeature'>SoftLayer_Hardware_Component_Model_Generic_MarketingFeature </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#hardwareComponentModelCount" name=hardwareComponentModelCount>hardwareComponentModelCount</a></span>
+            <div class='views-field-body'>A count of a generic component model's hardware component model. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

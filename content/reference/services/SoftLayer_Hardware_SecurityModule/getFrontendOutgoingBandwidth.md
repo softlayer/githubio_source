@@ -28,3 +28,4 @@ The '''getFrontendOutgoingBandwidth''' method retrieves the amount of outgoing p
 
 ### Return Values
 float
+

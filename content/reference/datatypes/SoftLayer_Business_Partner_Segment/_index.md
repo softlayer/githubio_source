@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Business_Partner_Segment
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Business_Partner_Segment' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Business_Partner_Segment' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Business_Partner_Segment' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 Contains business partner segment information 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

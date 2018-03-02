@@ -29,3 +29,4 @@ Retrieve a computing instance's status.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Status'>SoftLayer_Virtual_Guest_Status </a>
+

@@ -29,3 +29,4 @@ Retrieve determines whether the package contains prices that can be ordered hour
 
 ### Return Values
 boolean
+

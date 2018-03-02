@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Allows for retrieving the available SSL certificate server types. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

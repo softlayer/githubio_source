@@ -30,3 +30,4 @@ Retrieve information regarding a piece of hardware's benchmark certifications.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Benchmark_Certification'>SoftLayer_Hardware_Benchmark_Certification[] </a>
+

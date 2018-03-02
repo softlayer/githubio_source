@@ -28,3 +28,12 @@ This method returns an array of SoftLayer_User_Customer objects, representing th
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Monitoring_Agent::getActiveAlarmSubscribers](/reference/services/SoftLayer_Monitoring_Agent/getActiveAlarmSubscribers )
+*  [SoftLayer_Monitoring_Agent::removeActiveAlarmSubscriber](/reference/services/SoftLayer_Monitoring_Agent/removeActiveAlarmSubscriber )
+*  [SoftLayer_Monitoring_Agent::removeAllAlarmSubscribers](/reference/services/SoftLayer_Monitoring_Agent/removeAllAlarmSubscribers )
+*  [SoftLayer_Monitoring_Agent::setActiveAlarmSubscriber](/reference/services/SoftLayer_Monitoring_Agent/setActiveAlarmSubscriber )
+

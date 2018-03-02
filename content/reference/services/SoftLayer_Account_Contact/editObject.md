@@ -27,3 +27,4 @@ This method allows you to modify an account contact. Only master users are permi
 
 ### Return Values
 boolean
+

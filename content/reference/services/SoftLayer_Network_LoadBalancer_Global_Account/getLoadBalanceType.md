@@ -29,3 +29,4 @@ Retrieve the load balance method of a global load balancer account
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Type'>SoftLayer_Network_LoadBalancer_Global_Type </a>
+

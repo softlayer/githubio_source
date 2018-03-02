@@ -26,3 +26,4 @@ The '''isPingable''' method issues a ping command to the selected server and ret
 
 ### Return Values
 boolean
+

@@ -30,3 +30,4 @@ Retrieve the regional locations that a package is available in.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location_Region'>SoftLayer_Location_Region[] </a>
+

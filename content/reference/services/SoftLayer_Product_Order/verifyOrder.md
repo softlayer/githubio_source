@@ -32,3 +32,11 @@ This service returns the same container that was provided, but with additional i
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Product_Order::placeOrder](/reference/services/SoftLayer_Product_Order/placeOrder )
+*  [SoftLayer_Product_Order::placeQuote](/reference/services/SoftLayer_Product_Order/placeQuote )
+*  [SoftLayer_Product_Order::getVlans](/reference/services/SoftLayer_Product_Order/getVlans )
+

@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Monitoring_Agent_Configuration_Value
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Monitoring_Agent_Configuration_Value' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Configuration_Value' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Configuration_Value' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 Monitoring agent configuration value 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -88,6 +93,7 @@ A "Template section" defines skeleton configuration definitions. For instance, i
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Profile'>SoftLayer_Configuration_Template_Section_Profile </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

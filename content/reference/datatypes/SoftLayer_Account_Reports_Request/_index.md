@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Account_Reports_Request
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Account_Reports_Request' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Reports_Request' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Reports_Request' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -131,6 +136,7 @@ classes:
             <div class='views-field-body'>The customer user that initiated a report request. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

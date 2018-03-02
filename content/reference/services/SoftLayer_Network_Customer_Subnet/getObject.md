@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Network_Customer_Subnet object whose ID number
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet'>SoftLayer_Network_Customer_Subnet </a>
+

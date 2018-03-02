@@ -28,3 +28,4 @@ Retrieve a VLAN's associated private network VLAN. getPrivateVlan gathers it's i
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>
+

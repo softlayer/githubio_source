@@ -13,12 +13,22 @@ classes:
 # SoftLayer_User_Customer_Notification_Hardware
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_User_Customer_Notification_Hardware' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Hardware' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Hardware' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The Customer_Notification_Hardware object stores links between customers and the hardware devices they wish to monitor.  This link is not enough, the user must be sure to also create SoftLayer_Network_Monitor_Version1_Query_Host instance with the response action set to "notify users" in order for the users linked to that hardware object to be notified on failure. 
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Customer_Notification_Hardware::findByHardwareId](/reference/services/SoftLayer_User_Customer_Notification_Hardware/findByHardwareId )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -61,6 +71,7 @@ The Customer_Notification_Hardware object stores links between customers and the
             <div class='views-field-body'>The user that will be notified when the associated hardware object fails a monitoring instance. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

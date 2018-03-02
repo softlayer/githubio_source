@@ -26,3 +26,4 @@ This function, when called on an instantiated SWIP transaction, will allow you t
 
 ### Return Values
 boolean
+

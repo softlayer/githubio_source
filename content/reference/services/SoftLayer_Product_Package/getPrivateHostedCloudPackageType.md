@@ -29,3 +29,4 @@ Retrieve the server role of the private hosted cloud deployment. (Deprecated)
 
 ### Return Values
 string
+

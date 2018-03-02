@@ -30,3 +30,4 @@ Retrieve user(s) credentials to issue commands and/or interact with the server's
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component_RemoteManagement_User'>SoftLayer_Hardware_Component_RemoteManagement_User[] </a>
+

@@ -26,3 +26,10 @@ SoftLayer maintains relationships between the generic subjects for standard admi
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_KnowledgeLayer_QuestionAnswer'>SoftLayer_Container_KnowledgeLayer_QuestionAnswer[] </a>
+
+### External Links
+
+
+* [The SoftLayer KnowledgeLayer](http://knowledgelayer.softlayer.com/)
+
+

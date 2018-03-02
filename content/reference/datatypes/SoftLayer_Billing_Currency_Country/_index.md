@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Billing_Currency_Country
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Billing_Currency_Country' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Currency_Country' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Currency_Country' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Billing_Currency_Country data type maps what currencies are valid for specific countries. US Dollars are valid from any country, but other currencies are only available to customers in certain countries. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

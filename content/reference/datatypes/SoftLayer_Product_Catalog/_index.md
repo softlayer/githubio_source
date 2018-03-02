@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 A Catalog is defined as a set of prices for products that SoftLayer offers for sale. These prices are organized into packages which represent the different servers and services that SoftLayer offers. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -55,6 +60,27 @@ A Catalog is defined as a set of prices for products that SoftLayer offers for s
             <span class='views-field-title'><a href="#products" name=products>products</a></span>
             <div class='views-field-body'>Products available in catalog </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#brandCount" name=brandCount>brandCount</a></span>
+            <div class='views-field-body'>A count of brands using this Catalog </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#packageCount" name=packageCount>packageCount</a></span>
+            <div class='views-field-body'>A count of packages available in this catalog </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#priceCount" name=priceCount>priceCount</a></span>
+            <div class='views-field-body'>A count of prices available in this catalog </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#productCount" name=productCount>productCount</a></span>
+            <div class='views-field-body'>A count of products available in catalog </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

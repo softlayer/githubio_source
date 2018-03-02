@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The SoftLayer_Auxiliary_Press_Release_Contact_Press_Release service associates a press release to one or more contacts. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

@@ -30,3 +30,4 @@ Retrieve the managed bare metal server instances contained within a virtual rack
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+

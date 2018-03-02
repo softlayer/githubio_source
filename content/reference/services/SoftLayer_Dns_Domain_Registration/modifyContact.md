@@ -27,3 +27,4 @@ The modifyContact method modifies contact information (admin, billing, owner, te
 
 ### Return Values
 boolean
+

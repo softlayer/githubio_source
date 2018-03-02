@@ -29,3 +29,4 @@ Retrieve all virtual guests associated with an account that has the cPanel web h
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+

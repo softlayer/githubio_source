@@ -29,3 +29,4 @@ Retrieve the type of the layout container object
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Layout_Container_Type'>SoftLayer_Layout_Container_Type </a>
+

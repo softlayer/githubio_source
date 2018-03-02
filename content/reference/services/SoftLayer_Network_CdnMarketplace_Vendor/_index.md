@@ -19,7 +19,9 @@ classes:
 
 ## Description
 This service allows internal users to create, read, update, and delete  vendor instances. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

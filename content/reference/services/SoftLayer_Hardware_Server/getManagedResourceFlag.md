@@ -29,3 +29,4 @@ Retrieve a flag indicating that the hardware is a managed resource.
 
 ### Return Values
 boolean
+

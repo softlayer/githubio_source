@@ -21,6 +21,22 @@ classes:
 This container holds information on a purge request. [[SoftLayer_Network_ContentDelivery_Account::purgeCache|Purge method]] for more details. 
 
 Status code can be "SUCCESS", "FAILED", or "INVALID_URL" "INVALID_URL" code is returned when a URL is malformed or does not belong to customer. "FAILED" is returned in case there was an internal error. 
+
+### External Links
+
+
+* [CDN Services at softlayer.com](http://www.softlayer.com/services_cdnlayer.html)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::purgeCache](/reference/services/SoftLayer_Network_ContentDelivery_Account/purgeCache )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

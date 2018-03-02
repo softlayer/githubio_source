@@ -31,3 +31,4 @@ In order to find billing items for cancellation, use [[SoftLayer_Product_Item_Ca
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+

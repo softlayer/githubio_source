@@ -19,6 +19,17 @@ classes:
 
 ## Description 
 The SoftLayer_Container_Network_Storage_Host will contain the reference id field for the object associated with the host.  The host object type will also be returned. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Storage::allowAccessFromHost](/reference/services/SoftLayer_Network_Storage/allowAccessFromHost )
+*  [SoftLayer_Network_Storage::removeAccessFromHost](/reference/services/SoftLayer_Network_Storage/removeAccessFromHost )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

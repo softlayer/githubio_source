@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Account_Lockdown_Request
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Account_Lockdown_Request' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Lockdown_Request' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Lockdown_Request' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Account_Lockdown_Request data type holds information on API requests from brand customers. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

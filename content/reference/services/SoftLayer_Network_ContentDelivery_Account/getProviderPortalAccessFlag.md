@@ -29,3 +29,4 @@ Retrieve indicates if customer is allowed to access the CDN provider's managemen
 
 ### Return Values
 boolean
+

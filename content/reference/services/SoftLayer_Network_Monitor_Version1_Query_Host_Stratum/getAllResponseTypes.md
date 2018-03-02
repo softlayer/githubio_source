@@ -27,3 +27,4 @@ Calling this function returns all possible response type objects. These objects 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_ResponseType'>SoftLayer_Network_Monitor_Version1_Query_ResponseType[] </a>
+

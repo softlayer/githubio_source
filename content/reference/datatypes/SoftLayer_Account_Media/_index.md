@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Account_Media
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Account_Media' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Media' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Media' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Account_Media data type contains information on a single piece of media associated with a Data Transfer Service request. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -101,6 +106,7 @@ The SoftLayer_Account_Media data type contains information on a single piece of 
             <div class='views-field-body'>A guest's associated EVault network storage service account. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

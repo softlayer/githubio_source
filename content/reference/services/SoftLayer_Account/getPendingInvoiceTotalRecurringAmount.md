@@ -28,3 +28,4 @@ Retrieve the total recurring amount of an account's pending invoice, if one exis
 
 ### Return Values
 decimal
+

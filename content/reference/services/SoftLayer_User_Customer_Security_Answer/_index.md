@@ -19,7 +19,9 @@ classes:
 
 ## Description
 An account's user have security answers for secondary security measures. These questions/answers can be found during login and password update. These questions/answers are also needed for password reset. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

@@ -29,3 +29,4 @@ Retrieve the type of network storage service.
 
 ### Return Values
 string
+

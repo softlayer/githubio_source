@@ -28,3 +28,4 @@ Retrieve the total recurring tax amount of an account's next invoice measured in
 
 ### Return Values
 float
+

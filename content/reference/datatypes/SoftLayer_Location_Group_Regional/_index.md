@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Location_Group_Regional
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Location_Group_Regional' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Location_Group_Regional' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Location_Group_Regional' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -80,6 +85,17 @@ classes:
             <span class='views-field-title'><a href="#preferredDatacenter" name=preferredDatacenter>preferredDatacenter</a></span>
             <div class='views-field-body'>The preferred datacenters of a group. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Location_Datacenter'>SoftLayer_Location_Datacenter </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#datacenterCount" name=datacenterCount>datacenterCount</a></span>
+            <div class='views-field-body'>A count of the datacenters in a group. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#locationCount" name=locationCount>locationCount</a></span>
+            <div class='views-field-body'>A count of the locations in a group. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

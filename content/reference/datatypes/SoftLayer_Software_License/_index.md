@@ -19,6 +19,19 @@ classes:
 
 ## Description 
 This class describes a specific type of license, like a Microsoft Windows Site License, a GPL license, or a license of another type. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Software_Component](/reference/datatypes/SoftLayer_Software_Component )
+
+
+* [SoftLayer_Software_Description](/reference/datatypes/SoftLayer_Software_Description )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -61,6 +74,7 @@ This class describes a specific type of license, like a Microsoft Windows Site L
             <div class='views-field-body'>A Description of the software that this license instance is valid for. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

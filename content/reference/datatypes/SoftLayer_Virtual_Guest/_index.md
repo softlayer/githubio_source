@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Virtual_Guest
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Virtual_Guest' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Virtual_Guest' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Virtual_Guest' >Datatype</a></li>
     </ul>
 </div>
 
@@ -21,6 +21,16 @@ classes:
 The virtual guest data type presents the structure in which all virtual guests will be presented. Internally, the structure supports various virtualization platforms with no change to external interaction. 
 
 A guest, also known as a virtual server, represents an allocation of resources on a virtual host. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Virtual_Guest::checkHostDiskAvailability](/reference/services/SoftLayer_Virtual_Guest/checkHostDiskAvailability )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -652,6 +662,152 @@ A guest, also known as a virtual server, represents an allocation of resources o
             <span class='views-field-title'><a href="#virtualRackName" name=virtualRackName>virtualRackName</a></span>
             <div class='views-field-body'>The name of the bandwidth allotment that a computing instance belongs too. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#activeNetworkMonitorIncidentCount" name=activeNetworkMonitorIncidentCount>activeNetworkMonitorIncidentCount</a></span>
+            <div class='views-field-body'>A count of a virtual guest's currently active network monitoring incidents. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#activeTicketCount" name=activeTicketCount>activeTicketCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#activeTransactionCount" name=activeTransactionCount>activeTransactionCount</a></span>
+            <div class='views-field-body'>A count of any active transaction(s) that are currently running for the server (example: os reload). </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#allowedNetworkStorageCount" name=allowedNetworkStorageCount>allowedNetworkStorageCount</a></span>
+            <div class='views-field-body'>A count of the SoftLayer_Network_Storage objects that this SoftLayer_Virtual_Guest has access to. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#allowedNetworkStorageReplicaCount" name=allowedNetworkStorageReplicaCount>allowedNetworkStorageReplicaCount</a></span>
+            <div class='views-field-body'>A count of the SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Virtual_Guest has access to. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#attributeCount" name=attributeCount>attributeCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#availableMonitoringCount" name=availableMonitoringCount>availableMonitoringCount</a></span>
+            <div class='views-field-body'>A count of an object that stores the maximum level for the monitoring query types and response types. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#backendNetworkComponentCount" name=backendNetworkComponentCount>backendNetworkComponentCount</a></span>
+            <div class='views-field-body'>A count of a guests's backend network components. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#backendRouterCount" name=backendRouterCount>backendRouterCount</a></span>
+            <div class='views-field-body'>A count of a guest's backend or private router. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#billingCycleBandwidthUsageCount" name=billingCycleBandwidthUsageCount>billingCycleBandwidthUsageCount</a></span>
+            <div class='views-field-body'>A count of the raw bandwidth usage data for the current billing cycle. One object will be returned for each network this server is attached to. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#blockDeviceCount" name=blockDeviceCount>blockDeviceCount</a></span>
+            <div class='views-field-body'>A count of a computing instance's block devices. Block devices link [[SoftLayer_Virtual_Disk_Image|disk images]] to computing instances. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#evaultNetworkStorageCount" name=evaultNetworkStorageCount>evaultNetworkStorageCount</a></span>
+            <div class='views-field-body'>A count of a guest's associated EVault network storage service account. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#frontendNetworkComponentCount" name=frontendNetworkComponentCount>frontendNetworkComponentCount</a></span>
+            <div class='views-field-body'>A count of a guest's frontend network components. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#internalTagReferenceCount" name=internalTagReferenceCount>internalTagReferenceCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#monitoringAgentCount" name=monitoringAgentCount>monitoringAgentCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#monitoringUserNotificationCount" name=monitoringUserNotificationCount>monitoringUserNotificationCount</a></span>
+            <div class='views-field-body'>A count of the monitoring notification objects for this guest. Each object links this guest instance to a user account that will be notified if monitoring on this guest object fails </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkComponentCount" name=networkComponentCount>networkComponentCount</a></span>
+            <div class='views-field-body'>A count of a guests's network components. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkMonitorCount" name=networkMonitorCount>networkMonitorCount</a></span>
+            <div class='views-field-body'>A count of a guests's network monitors. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkMonitorIncidentCount" name=networkMonitorIncidentCount>networkMonitorIncidentCount</a></span>
+            <div class='views-field-body'>A count of all of a virtual guest's network monitoring incidents. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkStorageCount" name=networkStorageCount>networkStorageCount</a></span>
+            <div class='views-field-body'>A count of a guest's associated network storage accounts. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkVlanCount" name=networkVlanCount>networkVlanCount</a></span>
+            <div class='views-field-body'>A count of the network Vlans that a guest's network components are associated with. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#recentEventCount" name=recentEventCount>recentEventCount</a></span>
+            <div class='views-field-body'>A count of recent events that impact this computing instance. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#scaleAssetCount" name=scaleAssetCount>scaleAssetCount</a></span>
+            <div class='views-field-body'>A count of collection of scale assets this guest corresponds to. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#securityScanRequestCount" name=securityScanRequestCount>securityScanRequestCount</a></span>
+            <div class='views-field-body'>A count of a guest's vulnerability scan requests. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#softwareComponentCount" name=softwareComponentCount>softwareComponentCount</a></span>
+            <div class='views-field-body'>A count of a guest's installed software. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#sshKeyCount" name=sshKeyCount>sshKeyCount</a></span>
+            <div class='views-field-body'>A count of sSH keys to be installed on the server during provisioning or an OS reload. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#tagReferenceCount" name=tagReferenceCount>tagReferenceCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#userCount" name=userCount>userCount</a></span>
+            <div class='views-field-body'>A count of a list of users that have access to this computing instance. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#userDataCount" name=userDataCount>userDataCount</a></span>
+            <div class='views-field-body'>A count of a base64 encoded string containing custom user data for a Cloud Computing Instance order. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

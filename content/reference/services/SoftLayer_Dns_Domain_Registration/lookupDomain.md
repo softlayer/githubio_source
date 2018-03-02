@@ -26,3 +26,10 @@ The lookupDomain method checks whether a specified domain name is available for 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Lookup'>SoftLayer_Container_Dns_Domain_Registration_Lookup[] </a>
+
+### External Links
+
+
+* [List of TLD's at Wikipedia](http://en.wikipedia.org/wiki/List_of_Internet_top-level_domains)
+
+

@@ -30,3 +30,4 @@ Retrieve the SoftLayer_Virtual_Guest objects which are allowed access to this st
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+

@@ -27,3 +27,4 @@ This method let you edit an authentication IP object by passing a modified objec
 
 ### Return Values
 boolean
+

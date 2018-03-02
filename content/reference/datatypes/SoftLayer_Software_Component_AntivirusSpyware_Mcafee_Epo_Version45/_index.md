@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Software_Component_AntivirusSpyware_Mcafee_Epo_Version45 data type represents a single McAfee Secure anti-virus/spyware software component that uses the ePolicy Orchestrator version 4.5 backend. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -135,6 +140,32 @@ The SoftLayer_Software_Component_AntivirusSpyware_Mcafee_Epo_Version45 data type
             <span class='views-field-title'><a href="#virtualGuest" name=virtualGuest>virtualGuest</a></span>
             <div class='views-field-body'>The virtual guest this software component is installed upon. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#latestAccessProtectionEventCount" name=latestAccessProtectionEventCount>latestAccessProtectionEventCount</a></span>
+            <div class='views-field-body'>A count of the latest access protection events. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#latestAntivirusEventCount" name=latestAntivirusEventCount>latestAntivirusEventCount</a></span>
+            <div class='views-field-body'>A count of the latest anti-virus events. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#latestSpywareEventCount" name=latestSpywareEventCount>latestSpywareEventCount</a></span>
+            <div class='views-field-body'>A count of the latest spyware events </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#passwordCount" name=passwordCount>passwordCount</a></span>
+            <div class='views-field-body'>A count of username/Password pairs used for access to this Software Installation. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#passwordHistoryCount" name=passwordHistoryCount>passwordHistoryCount</a></span>
+            <div class='views-field-body'>A count of history Records for Software Passwords. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

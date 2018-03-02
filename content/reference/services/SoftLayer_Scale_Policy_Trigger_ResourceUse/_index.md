@@ -19,7 +19,9 @@ classes:
 
 ## Description
 A trigger that will only execute only when all guests on the group (both static and member) satisfy certain resource watches. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

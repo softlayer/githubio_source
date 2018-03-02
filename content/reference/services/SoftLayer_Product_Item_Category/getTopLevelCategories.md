@@ -28,3 +28,4 @@ This method returns a collection of computing categories. These categories are a
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>
+

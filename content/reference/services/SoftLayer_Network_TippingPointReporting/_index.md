@@ -25,7 +25,9 @@ Every customer has access to the global intrusion protection statistics, as well
 No actions can be taken using this system, it is for statistical reporting purposes only. If an attacking IP is identified using this system, please use the firewall system to take any actions that are appropriate. 
 
 This system reports attacks on all SoftLayer data centers. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

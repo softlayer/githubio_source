@@ -29,3 +29,4 @@ Retrieve the vendor for a network message delivery account.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Message_Delivery_Vendor'>SoftLayer_Network_Message_Delivery_Vendor </a>
+

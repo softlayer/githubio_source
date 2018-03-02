@@ -19,8 +19,14 @@ classes:
 
 ## Description
 Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. SoftLayer servers have all the functionality of SoftLayer_Hardware with the of server specific data and functionality such as Operating System reload dates and motherboard components. The SoftLayer_Hardware service is a convenient way to obtain general information about your SoftLayer server. Use the data returned by these methods with other API services to get more detailed information about your services and to make changes to your servers and services. 
+
+
+
 ### seeAlso
-        SoftLayer_Hardware1                
+
+* [SoftLayer_Hardware](/reference/datatypes/SoftLayer_Hardware )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

@@ -29,3 +29,4 @@ Retrieve the name of a Storage's network resource.
 
 ### Return Values
 string
+

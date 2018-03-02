@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 The SoftLayer_Account_Network_Vlan_Span data type exposes the setting which controls the automatic spanning of private VLANs attached to a given customers account. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Account::setNetworkVlanSpan](/reference/services/SoftLayer_Account/setNetworkVlanSpan )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +76,7 @@ The SoftLayer_Account_Network_Vlan_Span data type exposes the setting which cont
             <div class='views-field-body'>The SoftLayer customer account associated with a VLAN. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

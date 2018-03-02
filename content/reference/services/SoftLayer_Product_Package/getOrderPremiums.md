@@ -30,3 +30,4 @@ Retrieve the premium price modifiers associated with the [[SoftLayer_Product_Ite
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Price_Premium'>SoftLayer_Product_Item_Price_Premium[] </a>
+

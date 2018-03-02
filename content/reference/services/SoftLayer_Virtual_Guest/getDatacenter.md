@@ -29,3 +29,4 @@ Retrieve the datacenter that a virtual guest resides in.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+

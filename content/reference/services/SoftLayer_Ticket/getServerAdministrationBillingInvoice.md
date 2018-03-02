@@ -29,3 +29,4 @@ Retrieve the invoice associated with a ticket. Only tickets with an associated a
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a>
+

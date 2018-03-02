@@ -30,3 +30,4 @@ Retrieve a collection of [[SoftLayer_Product_Item_Price]] objects for pay-as-you
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>
+

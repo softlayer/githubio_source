@@ -28,3 +28,9 @@ Create the default PTR records for this subnet
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Domain_Reverse'>SoftLayer_Dns_Domain_Reverse </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Vlan::getReverseDomainRecords](/reference/services/SoftLayer_Network_Vlan/getReverseDomainRecords )
+

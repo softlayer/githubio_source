@@ -29,3 +29,4 @@ Search for [[SoftLayer_Dns_Domain_Secondary]] records by domain name. getByDomai
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Secondary'>SoftLayer_Dns_Secondary[] </a>
+

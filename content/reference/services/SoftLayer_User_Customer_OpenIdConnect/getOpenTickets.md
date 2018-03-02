@@ -30,3 +30,4 @@ Retrieve an user's associated open tickets.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>
+

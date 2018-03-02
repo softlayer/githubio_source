@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 All bandwidth tracking is maintained through the switch that the bandwidth is used through.  All bandwidth is stored in a "pod" repository.  An interface links the hardware switch with the pod repository identification number. This is only relevant to bandwidth data.  It is not common to use this. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -56,6 +61,7 @@ All bandwidth tracking is maintained through the switch that the bandwidth is us
             <div class='views-field-body'>The switch for an interface. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

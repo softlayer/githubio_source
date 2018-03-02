@@ -29,3 +29,4 @@ Retrieve the average daily public bandwidth usage for the current billing cycle.
 
 ### Return Values
 float
+

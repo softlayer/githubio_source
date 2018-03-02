@@ -29,3 +29,4 @@ Retrieve a network component's subnet for its primary IP address
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
+

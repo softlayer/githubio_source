@@ -30,3 +30,4 @@ Retrieve the records of all IP addresses bound to a network component.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Component_IpAddress'>SoftLayer_Network_Component_IpAddress[] </a>
+

@@ -13,12 +13,44 @@ classes:
 # SoftLayer_Network_Component
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Component' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Component' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Component' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 Every piece of hardware running in SoftLayer's datacenters connected to the public, private, or management networks (where applicable) have a corresponding network component. These network components are modeled by the SoftLayer_Network_Component data type. These data types reflect the servers' local ethernet and remote management interfaces. 
+
+### External Links
+
+
+* [IP address at Wikipedia](http://en.wikipedia.org/wiki/IP_address)
+
+
+* [MAC address at Wikipedia](http://en.wikipedia.org/wiki/MAC_address)
+
+
+* [Virtual LAN at Wikipedia](http://en.wikipedia.org/wiki/Virtual_LAN)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Hardware::getNetworkComponents](/reference/services/SoftLayer_Hardware/getNetworkComponents )
+*  [SoftLayer_Hardware::getPrimaryIpAddress](/reference/services/SoftLayer_Hardware/getPrimaryIpAddress )
+*  [SoftLayer_Hardware_Server::getPublicNetworkComponent](/reference/services/SoftLayer_Hardware_Server/getPublicNetworkComponent )
+*  [SoftLayer_Hardware_Server::getPrivateNetworkComponent](/reference/services/SoftLayer_Hardware_Server/getPrivateNetworkComponent )
+*  [SoftLayer_Hardware_Server::getManagementNetworkComponent](/reference/services/SoftLayer_Hardware_Server/getManagementNetworkComponent )
+*  [SoftLayer_Hardware_Server::getPrimaryIpAddress](/reference/services/SoftLayer_Hardware_Server/getPrimaryIpAddress )
+*  [SoftLayer_Hardware_Server::getPrivateIpAddress](/reference/services/SoftLayer_Hardware_Server/getPrivateIpAddress )
+*  [SoftLayer_Hardware_Server::setPublicPortSpeed](/reference/services/SoftLayer_Hardware_Server/setPublicPortSpeed )
+*  [SoftLayer_Hardware_Server::setPrivatePortSpeed](/reference/services/SoftLayer_Hardware_Server/setPrivatePortSpeed )
+*  [SoftLayer_Network_Subnet::getNetworkComponent](/reference/services/SoftLayer_Network_Subnet/getNetworkComponent )
+*  [SoftLayer_Network_Vlan::getNetworkComponents](/reference/services/SoftLayer_Network_Vlan/getNetworkComponents )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -240,6 +272,42 @@ Every piece of hardware running in SoftLayer's datacenters connected to the publ
             <span class='views-field-title'><a href="#uplinkDuplexMode" name=uplinkDuplexMode>uplinkDuplexMode</a></span>
             <div class='views-field-body'>The duplex mode of the uplink network component linking to this object </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Component_Duplex_Mode'>SoftLayer_Network_Component_Duplex_Mode </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#ipAddressBindingCount" name=ipAddressBindingCount>ipAddressBindingCount</a></span>
+            <div class='views-field-body'>A count of the records of all IP addresses bound to a network component. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#ipAddressCount" name=ipAddressCount>ipAddressCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkHardwareCount" name=networkHardwareCount>networkHardwareCount</a></span>
+            <div class='views-field-body'>A count of all network devices in SoftLayer's network hierarchy that this device is connected to. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkVlanTrunkCount" name=networkVlanTrunkCount>networkVlanTrunkCount</a></span>
+            <div class='views-field-body'>A count of the VLANs that are trunked to this network component. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#recentCommandCount" name=recentCommandCount>recentCommandCount</a></span>
+            <div class='views-field-body'>A count of the last five reboot/power (rebootDefault, rebootSoft, rebootHard, powerOn, powerOff and powerCycle) commands issued to the server's remote management card. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#remoteManagementUserCount" name=remoteManagementUserCount>remoteManagementUserCount</a></span>
+            <div class='views-field-body'>A count of user(s) credentials to issue commands and/or interact with the server's remote management card. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#subnetCount" name=subnetCount>subnetCount</a></span>
+            <div class='views-field-body'>A count of a network component's subnets. A subnet is a group of IP addresses </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -29,3 +29,4 @@ Retrieve a network component that is statically routed to an IP address.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>
+

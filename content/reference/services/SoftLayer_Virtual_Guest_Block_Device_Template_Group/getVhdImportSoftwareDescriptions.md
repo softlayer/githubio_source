@@ -27,3 +27,4 @@ Returns an array of SoftLayer_Software_Description that are supported for VHD im
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description[] </a>
+

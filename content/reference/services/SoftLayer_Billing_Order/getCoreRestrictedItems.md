@@ -30,3 +30,4 @@ Retrieve the [[SoftLayer_Billing_Order_Item (type)|order items]] that are core r
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item[] </a>
+

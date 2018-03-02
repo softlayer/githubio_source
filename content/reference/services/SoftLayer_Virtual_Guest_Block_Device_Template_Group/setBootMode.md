@@ -27,3 +27,4 @@ This method allows you to specify the boot mode for a given image template.
 
 ### Return Values
 boolean
+

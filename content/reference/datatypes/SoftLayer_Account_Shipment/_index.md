@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Account_Shipment
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Account_Shipment' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Shipment' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Shipment' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Account_Shipment data type contains information relating to a shipment. Basic information such as addresses, the shipment courier, and any tracking information for as shipment is accessible with this data type. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -160,6 +165,17 @@ The SoftLayer_Account_Shipment data type contains information relating to a ship
             <span class='views-field-title'><a href="#type" name=type>type</a></span>
             <div class='views-field-body'>The type of shipment (e.g. for Data Transfer Service or Colocation Service). </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account_Shipment_Type'>SoftLayer_Account_Shipment_Type </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#shipmentItemCount" name=shipmentItemCount>shipmentItemCount</a></span>
+            <div class='views-field-body'>A count of the items in the shipment. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#trackingDataCount" name=trackingDataCount>trackingDataCount</a></span>
+            <div class='views-field-body'>A count of the tracking data for the shipment. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -28,3 +28,9 @@ Edit multiple resource records on a domain. This follows the same logic as ''cre
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_ResourceRecord::editObject](/reference/services/SoftLayer_Dns_ResourceRecord/editObject )
+

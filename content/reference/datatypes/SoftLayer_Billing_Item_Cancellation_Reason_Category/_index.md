@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Billing_Item_Cancellation_Reason_Category
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Billing_Item_Cancellation_Reason_Category' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason_Category' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason_Category' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Billing_Item_Cancellation_Reason_Category data type contains cancellation reason categories. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -50,6 +55,12 @@ The SoftLayer_Billing_Item_Cancellation_Reason_Category data type contains cance
             <span class='views-field-title'><a href="#billingCancellationReasons" name=billingCancellationReasons>billingCancellationReasons</a></span>
             <div class='views-field-body'>The corresponding billing cancellation reasons having the specific billing cancellation reason category. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason'>SoftLayer_Billing_Item_Cancellation_Reason[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#billingCancellationReasonCount" name=billingCancellationReasonCount>billingCancellationReasonCount</a></span>
+            <div class='views-field-body'>A count of the corresponding billing cancellation reasons having the specific billing cancellation reason category. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

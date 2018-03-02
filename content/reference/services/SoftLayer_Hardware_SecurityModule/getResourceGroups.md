@@ -30,3 +30,4 @@ Retrieve the resource groups in which this hardware is a member.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group[] </a>
+

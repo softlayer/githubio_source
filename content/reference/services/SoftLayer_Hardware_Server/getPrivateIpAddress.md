@@ -29,3 +29,4 @@ Retrieve a server's primary private IP address.
 
 ### Return Values
 string
+

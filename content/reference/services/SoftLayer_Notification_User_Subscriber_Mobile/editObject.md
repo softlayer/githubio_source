@@ -41,3 +41,4 @@ Subscriber preferences may also be edited.  To edit the preferences, you must pa
 
 ### Return Values
 boolean
+

@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 A SoftLayer_Account_Attachment_Employee models an assignment of a single [[SoftLayer_User_Employee|employee]] with a single [[SoftLayer_Account|account]] 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -56,6 +61,7 @@ A SoftLayer_Account_Attachment_Employee models an assignment of a single [[SoftL
             <div class='views-field-body'>A [[SoftLayer_User_Employee|employee]] that is assigned to a [[SoftLayer_Account|account]]. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account_Attachment_Employee_Role'>SoftLayer_Account_Attachment_Employee_Role </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

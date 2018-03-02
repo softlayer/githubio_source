@@ -26,3 +26,4 @@ Retrieve the certificate in PEM (Privacy Enhanced Mail) format, which is a strin
 
 ### Return Values
 string
+

@@ -27,3 +27,9 @@ Retrieve a metric summary. Ideal if you want to employ your own graphing systems
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Metric_Tracking_Object_Summary'>SoftLayer_Container_Metric_Tracking_Object_Summary </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Metric_Tracking_Object::getDetailsForDateRange](/reference/services/SoftLayer_Metric_Tracking_Object/getDetailsForDateRange )
+

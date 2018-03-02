@@ -29,3 +29,4 @@ Retrieve information regarding the hardware's primary public network component.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>
+

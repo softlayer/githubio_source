@@ -32,3 +32,4 @@ The authentication options are as follows:
 
 ### Return Values
 array of strings
+

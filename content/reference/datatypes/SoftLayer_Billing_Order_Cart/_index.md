@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Billing_Order_Cart
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Billing_Order_Cart' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Order_Cart' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Order_Cart' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -100,6 +105,12 @@ classes:
             <span class='views-field-title'><a href="#ordersFromQuote" name=ordersFromQuote>ordersFromQuote</a></span>
             <div class='views-field-body'>These are all the orders that were created from this quote. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#ordersFromQuoteCount" name=ordersFromQuoteCount>ordersFromQuoteCount</a></span>
+            <div class='views-field-body'>A count of these are all the orders that were created from this quote. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

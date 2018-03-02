@@ -26,3 +26,10 @@ This method activates a SoftLayer_Monitoring_Agent.
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Monitoring_Agent::restart](/reference/services/SoftLayer_Monitoring_Agent/restart )
+*  [SoftLayer_Monitoring_Agent::deactivate](/reference/services/SoftLayer_Monitoring_Agent/deactivate )
+

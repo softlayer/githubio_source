@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The SoftLayer_Network_DirectLink_Provider service allows users to create, update, delete, get details of a Direct Link provider and retrieve all existing details. Provider like "Equinix", "Telestra" etc. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

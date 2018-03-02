@@ -23,8 +23,17 @@ SoftLayer_Software_VirtualLicense is the application class that handles a specia
 SoftLayer_Software_VirtualLicense's service allows you to retrieve the hard-copy license file for a virtual license, if one exists for your license instance. 
 
 You can also retrieve the subnet that the IP to which a software virtual license is licensed upon exists in, as well as the software description that this virtual license is for. 
+
+
+
 ### seeAlso
-        SoftLayer_Software_Description1        SoftLayer_Network_Subnet1                
+
+* [SoftLayer_Software_Description](/reference/datatypes/SoftLayer_Software_Description )
+
+
+* [SoftLayer_Network_Subnet](/reference/datatypes/SoftLayer_Network_Subnet )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

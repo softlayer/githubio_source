@@ -30,3 +30,4 @@ This method retrieves a list of SoftLayer_Network_Subnet that can be authorized 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+

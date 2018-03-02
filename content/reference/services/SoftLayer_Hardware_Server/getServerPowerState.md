@@ -26,3 +26,4 @@ Retrieves the power state for the server.  The server's power status is retrieve
 
 ### Return Values
 string
+

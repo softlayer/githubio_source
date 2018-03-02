@@ -30,3 +30,4 @@ Retrieve the billing items associated with an account that share a category code
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+

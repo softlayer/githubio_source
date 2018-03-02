@@ -27,3 +27,10 @@ classes:
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Security_Question'>SoftLayer_User_Security_Question[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Customer::lostPassword](/reference/services/SoftLayer_User_Customer/lostPassword )
+*  [SoftLayer_User_Customer::setPasswordFromLostPasswordRequest](/reference/services/SoftLayer_User_Customer/setPasswordFromLostPasswordRequest )
+

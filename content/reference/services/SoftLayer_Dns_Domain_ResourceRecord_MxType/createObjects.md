@@ -30,3 +30,11 @@ Create multiple MX records on a domain. This follows the same logic as ''createO
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord'>SoftLayer_Dns_Domain_ResourceRecord[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain_ResourceRecord::createObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObject )
+*  [SoftLayer_Dns_Domain_ResourceRecord::createObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObjects )
+*  [SoftLayer_Dns_Domain_ResourceRecord_MxType::createObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/createObject )
+

@@ -29,3 +29,4 @@ Retrieve the storage repository that an image template group resides on.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository'>SoftLayer_Virtual_Storage_Repository </a>
+

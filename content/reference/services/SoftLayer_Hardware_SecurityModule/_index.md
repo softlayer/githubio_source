@@ -19,8 +19,14 @@ classes:
 
 ## Description
 
+
+
+
 ### seeAlso
-        SoftLayer_Hardware1                
+
+* [SoftLayer_Hardware](/reference/datatypes/SoftLayer_Hardware )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

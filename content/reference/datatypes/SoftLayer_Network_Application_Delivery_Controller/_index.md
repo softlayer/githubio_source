@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Network_Application_Delivery_Controller
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Application_Delivery_Controller' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_Application_Delivery_Controller data type models a single instance of an application delivery controller. Local properties are read only, except for a ''notes'' property, which can be used to describe your application delivery controller service. The type's relational properties provide more information to the service's function and login information to the controller's backend management if advanced view is enabled. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -170,6 +175,37 @@ The SoftLayer_Network_Application_Delivery_Controller data type models a single 
             <span class='views-field-title'><a href="#virtualIpAddresses" name=virtualIpAddresses>virtualIpAddresses</a></span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#configurationHistoryCount" name=configurationHistoryCount>configurationHistoryCount</a></span>
+            <div class='views-field-body'>A count of previous configurations for an Application Delivery Controller. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#loadBalancerCount" name=loadBalancerCount>loadBalancerCount</a></span>
+            <div class='views-field-body'>A count of the virtual IP address records that belong to an application delivery controller based load balancer. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkVlanCount" name=networkVlanCount>networkVlanCount</a></span>
+            <div class='views-field-body'>A count of the network VLANs that an application delivery controller resides on. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#subnetCount" name=subnetCount>subnetCount</a></span>
+            <div class='views-field-body'>A count of a network application controller's subnets. A subnet is a group of IP addresses </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#tagReferenceCount" name=tagReferenceCount>tagReferenceCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#virtualIpAddressCount" name=virtualIpAddressCount>virtualIpAddressCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

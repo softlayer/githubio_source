@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Security_Ssh_Key
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Security_Ssh_Key' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Security_Ssh_Key' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Security_Ssh_Key' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -91,6 +96,17 @@ This property is read only. Changes made will be silently ignored.  </div>
             <span class='views-field-title'><a href="#softwarePasswords" name=softwarePasswords>softwarePasswords</a></span>
             <div class='views-field-body'>The OS root users that are linked to an SSH key. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#blockDeviceTemplateGroupCount" name=blockDeviceTemplateGroupCount>blockDeviceTemplateGroupCount</a></span>
+            <div class='views-field-body'>A count of the image template groups that are linked to an SSH key. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#softwarePasswordCount" name=softwarePasswordCount>softwarePasswordCount</a></span>
+            <div class='views-field-body'>A count of the OS root users that are linked to an SSH key. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

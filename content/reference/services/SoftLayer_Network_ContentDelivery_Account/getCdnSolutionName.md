@@ -29,3 +29,4 @@ Retrieve the solution type of a CDN account.
 
 ### Return Values
 string
+

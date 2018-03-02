@@ -29,3 +29,4 @@ Retrieve the id of the bandwidth allotment that a computing instance belongs too
 
 ### Return Values
 integer
+

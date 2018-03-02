@@ -19,6 +19,27 @@ classes:
 
 ## Description 
 SoftLayer's CDN allows for multiple origin pull domains and CNAME records. This container holds the origin pull configuration details. CDN currently supports origin pull method for HTTP content. 
+
+### External Links
+
+
+* [CDN Services at softlayer.com](http://www.softlayer.com/services_cdnlayer.html)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::getOriginPullMappingInformation](/reference/services/SoftLayer_Network_ContentDelivery_Account/getOriginPullMappingInformation )
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_ContentDelivery_Account](/reference/datatypes/SoftLayer_Network_ContentDelivery_Account )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

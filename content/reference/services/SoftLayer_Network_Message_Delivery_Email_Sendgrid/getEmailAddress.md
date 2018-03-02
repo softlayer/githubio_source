@@ -29,3 +29,4 @@ Retrieve the contact e-mail address used by SendGrid.
 
 ### Return Values
 string
+

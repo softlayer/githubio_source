@@ -29,3 +29,4 @@ Retrieve a virtual rack's metric tracking object. This object records all period
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_VirtualDedicatedRack'>SoftLayer_Metric_Tracking_Object_VirtualDedicatedRack </a>
+

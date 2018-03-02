@@ -21,6 +21,11 @@ classes:
 Container for holding information necessary for the setting and resetting of customer passwords 
 
 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

@@ -26,3 +26,4 @@ Reboot the server by issuing a reset command to the server's remote management c
 
 ### Return Values
 boolean
+

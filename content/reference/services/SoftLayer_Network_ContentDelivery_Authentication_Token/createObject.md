@@ -37,3 +37,4 @@ This method creates a managed authentication token. When passing a parameter, th
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Authentication_Token'>SoftLayer_Network_ContentDelivery_Authentication_Token </a>
+

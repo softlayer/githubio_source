@@ -29,3 +29,4 @@ Retrieve the subnet that this registration pertains to.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
+

@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The SoftLayer_Auxiliary_Press_Release_Media_Partner service provides all media partners associated to a press release. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

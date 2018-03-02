@@ -30,3 +30,4 @@ Retrieve the locations this preset configuration is available in. If empty the p
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+

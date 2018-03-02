@@ -30,3 +30,4 @@ Retrieve the list of additional emails to notify when a ticket update is made.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer_AdditionalEmail'>SoftLayer_User_Customer_AdditionalEmail[] </a>
+

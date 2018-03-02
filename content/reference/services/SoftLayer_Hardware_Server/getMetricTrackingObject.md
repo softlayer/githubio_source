@@ -29,3 +29,4 @@ Retrieve a piece of hardware's metric tracking object.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_HardwareServer'>SoftLayer_Metric_Tracking_Object_HardwareServer </a>
+

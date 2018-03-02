@@ -25,3 +25,4 @@ A capability is simply a string literal that denotes the availability of a featu
 
 ### Return Values
 array of strings
+

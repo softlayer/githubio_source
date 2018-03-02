@@ -37,3 +37,11 @@ User portal passwords must match the following restrictions. Portal passwords mu
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Customer::lostPassword](/reference/services/SoftLayer_User_Customer/lostPassword )
+*  [SoftLayer_User_Customer::getUserFromLostPasswordRequest](/reference/services/SoftLayer_User_Customer/getUserFromLostPasswordRequest )
+*  [SoftLayer_User_Customer::updatePassword](/reference/services/SoftLayer_User_Customer/updatePassword )
+

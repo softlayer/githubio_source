@@ -30,3 +30,4 @@ Retrieve the currently running rule set of this network component firewall.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Component_Firewall_Rule'>SoftLayer_Network_Component_Firewall_Rule[] </a>
+

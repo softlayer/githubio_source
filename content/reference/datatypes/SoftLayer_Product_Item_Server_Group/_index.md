@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Product_Item_Server_Group data type details the type of compute service a [[SoftLayer_Product_Item (type)|SoftLayer_Product_Item]] or [[SoftLayer_Product_Package_Preset (type)|SoftLayer_Product_Package_Preset]] belongs to. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

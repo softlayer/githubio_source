@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Network_Subnet_Registration
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Subnet_Registration' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The subnet registration data type contains general information relating to a single subnet registration instance. These registration instances can be updated to reflect changes, and will record the changes in the [[SoftLayer_Network_Subnet_Registration_Event|events]]. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -130,6 +135,17 @@ The subnet registration data type contains general information relating to a sin
             <span class='views-field-title'><a href="#subnet" name=subnet>subnet</a></span>
             <div class='views-field-body'>The subnet that this registration pertains to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#detailReferenceCount" name=detailReferenceCount>detailReferenceCount</a></span>
+            <div class='views-field-body'>A count of the cross-reference records that tie the [[SoftLayer_Account_Regional_Registry_Detail]] objects to the registration object. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#eventCount" name=eventCount>eventCount</a></span>
+            <div class='views-field-body'>A count of the related registration events. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

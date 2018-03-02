@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 SoftLayer_Virtual_Guest_Type models the type of a [[SoftLayer_Virtual_Guest]] (PUBLIC | DEDICATED | PRIVATE) 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

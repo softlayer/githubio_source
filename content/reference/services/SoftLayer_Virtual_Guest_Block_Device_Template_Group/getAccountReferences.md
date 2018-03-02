@@ -30,3 +30,4 @@ Retrieve the accounts which may have read-only access to an image template group
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group_Accounts'>SoftLayer_Virtual_Guest_Block_Device_Template_Group_Accounts[] </a>
+

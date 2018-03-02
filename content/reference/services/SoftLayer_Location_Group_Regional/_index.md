@@ -19,7 +19,9 @@ classes:
 
 ## Description
 A regional location group is a collection of datacenters for a region. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

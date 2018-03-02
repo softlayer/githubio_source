@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Each User is assigned a timezone allowing for a precise local timestamp.
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

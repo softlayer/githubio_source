@@ -26,3 +26,4 @@ Power off a virtual guest
 
 ### Return Values
 boolean
+

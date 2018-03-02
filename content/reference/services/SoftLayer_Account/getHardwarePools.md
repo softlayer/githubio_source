@@ -25,3 +25,4 @@ Return a collection of managed hardware pools.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Hardware_Pool_Details'>SoftLayer_Container_Hardware_Pool_Details[] </a>
+

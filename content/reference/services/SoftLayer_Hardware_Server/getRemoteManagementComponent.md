@@ -29,3 +29,4 @@ Retrieve a hardware's associated remote management component. This is normally I
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>
+

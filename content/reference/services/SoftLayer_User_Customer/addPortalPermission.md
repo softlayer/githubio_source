@@ -31,3 +31,11 @@ Use the [[SoftLayer_User_Customer_CustomerPermission_Permission::getAllObjects]]
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Customer::addBulkPortalPermission](/reference/services/SoftLayer_User_Customer/addBulkPortalPermission )
+*  [SoftLayer_User_Customer::removePortalPermission](/reference/services/SoftLayer_User_Customer/removePortalPermission )
+*  [SoftLayer_User_Customer::removeBulkPortalPermission](/reference/services/SoftLayer_User_Customer/removeBulkPortalPermission )
+

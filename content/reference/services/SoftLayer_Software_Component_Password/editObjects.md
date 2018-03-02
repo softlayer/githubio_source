@@ -26,3 +26,4 @@ Edit more than one password from a software component.
 
 ### Return Values
 boolean
+

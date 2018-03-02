@@ -28,3 +28,9 @@ Create a new shipment tracking data. The ''shipmentId'', ''sequence'', and ''tra
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account_Shipment_Tracking_Data'>SoftLayer_Account_Shipment_Tracking_Data </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Account_Shipment_Tracking_Data::createObjects](/reference/services/SoftLayer_Account_Shipment_Tracking_Data/createObjects )
+

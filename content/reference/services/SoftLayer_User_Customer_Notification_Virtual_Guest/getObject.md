@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_User_Customer_Notification_Virtual_Guest objec
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Virtual_Guest'>SoftLayer_User_Customer_Notification_Virtual_Guest </a>
+

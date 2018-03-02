@@ -30,3 +30,4 @@ Retrieve information regarding the network component that is one level higher th
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>
+

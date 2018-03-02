@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Dns_Domain_ResourceRecord
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord' >Datatype</a></li>
     </ul>
 </div>
 
@@ -32,6 +32,68 @@ The SoftLayer_Dns_Domain_ResourceRecord data type represents a single resource r
 
 
 As ''SoftLayer_Dns_Domain_ResourceRecord'' objects are created and loaded, the API verifies the ''type'' property and casts the object as the appropriate type. 
+
+### External Links
+
+
+* [List of DNS record types at Wikipedia](http://en.wikipedia.org/wiki/List_of_DNS_record_types)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain::getResourceRecords](/reference/services/SoftLayer_Dns_Domain/getResourceRecords )
+*  [SoftLayer_Dns_Domain::createARecord](/reference/services/SoftLayer_Dns_Domain/createARecord )
+*  [SoftLayer_Dns_Domain::createAaaaRecord](/reference/services/SoftLayer_Dns_Domain/createAaaaRecord )
+*  [SoftLayer_Dns_Domain::createCnameRecord](/reference/services/SoftLayer_Dns_Domain/createCnameRecord )
+*  [SoftLayer_Dns_Domain::createMxRecord](/reference/services/SoftLayer_Dns_Domain/createMxRecord )
+*  [SoftLayer_Dns_Domain::createNsRecord](/reference/services/SoftLayer_Dns_Domain/createNsRecord )
+*  [SoftLayer_Dns_Domain::createSpfRecord](/reference/services/SoftLayer_Dns_Domain/createSpfRecord )
+*  [SoftLayer_Dns_Domain::createTxtRecord](/reference/services/SoftLayer_Dns_Domain/createTxtRecord )
+*  [SoftLayer_Dns_Domain_ResourceRecord::getObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/getObject )
+
+
+
+### seeAlso
+
+* [SoftLayer_Dns_Domain](/reference/datatypes/SoftLayer_Dns_Domain )
+
+
+* [SoftLayer_Dns_Domain_Reverse](/reference/datatypes/SoftLayer_Dns_Domain_Reverse )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_AType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_AType )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_AaaaType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_AaaaType )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_CnameType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_CnameType )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_MxType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_MxType )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_NsType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_NsType )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_PtrType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_PtrType )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_SoaType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SoaType )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_SpfType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SpfType )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_SrvType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SrvType )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_TxtType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_TxtType )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -114,6 +176,7 @@ As ''SoftLayer_Dns_Domain_ResourceRecord'' objects are created and loaded, the A
             <div class='views-field-body'>The domain that a resource record belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

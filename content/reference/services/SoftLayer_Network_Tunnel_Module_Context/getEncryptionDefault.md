@@ -25,3 +25,4 @@ The default encryption type used for both phases of the negotiation process.  Th
 
 ### Return Values
 string
+

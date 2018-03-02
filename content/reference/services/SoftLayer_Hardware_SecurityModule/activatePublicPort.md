@@ -26,3 +26,4 @@ Activates the public network port
 
 ### Return Values
 boolean
+

@@ -38,3 +38,4 @@ Retrieve various network statistics.  The network statistics are retrieved from 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_Port_Statistic'>SoftLayer_Container_Network_Port_Statistic </a>
+

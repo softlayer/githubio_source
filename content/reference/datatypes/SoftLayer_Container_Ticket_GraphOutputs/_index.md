@@ -19,6 +19,22 @@ classes:
 
 ## Description 
 SoftLayer_Container_Ticket_GraphOutputs models a single outbound object for a given bandwidth graph.
+
+
+### associatedMethods
+
+*  [SoftLayer_Utility_Ticket_Graph::getTicketImage](/reference/services/SoftLayer_Utility_Ticket_Graph/getTicketImage )
+*  [SoftLayer_Utility_Ticket_Graph::getTicketGraphParameters](/reference/services/SoftLayer_Utility_Ticket_Graph/getTicketGraphParameters )
+
+
+
+### seeAlso
+
+* [SoftLayer_Container_Ticket_GraphInputs](/reference/datatypes/SoftLayer_Container_Ticket_GraphInputs )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

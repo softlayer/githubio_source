@@ -29,3 +29,4 @@ Retrieve the open tickets that do not belong to the abuse, accounting, sales, or
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>
+

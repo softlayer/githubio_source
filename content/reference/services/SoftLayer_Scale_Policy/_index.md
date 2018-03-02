@@ -19,7 +19,9 @@ classes:
 
 ## Description
 A scale policy is a combination of triggers and actions that can occur on a scale group. When any trigger is satisfied (or the policy is manually triggered) the actions will be executed. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

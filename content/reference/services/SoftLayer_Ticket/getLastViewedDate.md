@@ -29,3 +29,4 @@ Retrieve a timestamp of the last time the Ticket was viewed by the active user.
 
 ### Return Values
 dateTime
+

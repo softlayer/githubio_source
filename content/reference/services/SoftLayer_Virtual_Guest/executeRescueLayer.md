@@ -26,3 +26,4 @@ Reboot a Linux guest into the Xen rescue image.
 
 ### Return Values
 boolean
+

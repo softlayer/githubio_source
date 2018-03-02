@@ -36,3 +36,15 @@ Finally, users can only update their own VPN password. An account's master user 
 
 ### Return Values
 boolean
+
+### External Links
+
+
+* [The SoftLayer Customer Portal](https://manage.softlayer.com)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Customer::updatePassword](/reference/services/SoftLayer_User_Customer/updatePassword )
+

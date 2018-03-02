@@ -26,3 +26,4 @@ This method will reassign a collection of SoftLayer hardware to the virtual priv
 
 ### Return Values
 boolean
+

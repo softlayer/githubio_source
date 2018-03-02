@@ -29,3 +29,4 @@ Retrieve the vendor of an external authentication binding.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_External_Binding_Vendor'>SoftLayer_User_External_Binding_Vendor </a>
+

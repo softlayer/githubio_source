@@ -26,3 +26,10 @@ Retrieve a Microsoft Excel spreadsheet of a SoftLayer invoice. You must have a M
 
 ### Return Values
 binary data
+
+### External Links
+
+
+* [Microsoft Excel at Wikipedia](http://en.wikipedia.org/wiki/Microsoft_Excel)
+
+

@@ -30,3 +30,4 @@ Retrieve the records of all IP addresses bound to a computing instance's network
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component_IpAddress'>SoftLayer_Virtual_Guest_Network_Component_IpAddress[] </a>
+

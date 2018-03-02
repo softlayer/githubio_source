@@ -29,3 +29,4 @@ Retrieve the secondary router that a VLAN is associated with. Every SoftLayer VL
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+

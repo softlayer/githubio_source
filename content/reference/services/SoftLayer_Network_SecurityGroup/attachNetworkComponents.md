@@ -27,3 +27,4 @@ Attach virtual guest network components to a security group by creating [[SoftLa
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_Request'>SoftLayer_Network_SecurityGroup_Request </a>
+

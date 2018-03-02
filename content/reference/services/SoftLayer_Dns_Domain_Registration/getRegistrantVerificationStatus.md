@@ -29,3 +29,4 @@ Retrieve the registrant verification status.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status'>SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status </a>
+

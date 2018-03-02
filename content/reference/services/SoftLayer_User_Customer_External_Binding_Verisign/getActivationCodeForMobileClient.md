@@ -25,3 +25,4 @@ An activation code is required when provisioning a new mobile credential from Ve
 
 ### Return Values
 string
+

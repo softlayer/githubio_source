@@ -27,3 +27,4 @@ This method allows you to remove a supported boot mode attribute for a given ima
 
 ### Return Values
 boolean
+

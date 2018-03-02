@@ -13,12 +13,30 @@ classes:
 # SoftLayer_Account_Authentication_Attribute
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Account_Authentication_Attribute' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 Account authentication has many different settings that can be set. This class allows the customer or employee to set these settigns. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Account_Authentication_Saml::getAttributes](/reference/services/SoftLayer_Account_Authentication_Saml/getAttributes )
+
+
+
+### seeAlso
+
+* [SoftLayer_Account_Authentication_Saml](/reference/datatypes/SoftLayer_Account_Authentication_Saml )
+
+
+* [SoftLayer_Account_Authentication_Attribute_Type](/reference/datatypes/SoftLayer_Account_Authentication_Attribute_Type )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -71,6 +89,7 @@ Account authentication has many different settings that can be set. This class a
             <div class='views-field-body'>The type of attribute assigned to a SoftLayer account authentication. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute_Type'>SoftLayer_Account_Authentication_Attribute_Type </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

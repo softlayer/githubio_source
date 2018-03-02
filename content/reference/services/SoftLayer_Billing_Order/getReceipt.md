@@ -26,3 +26,4 @@ Generate a [[SoftLayer_Container_Product_Order_Receipt]] object with all the ord
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Product_Order_Receipt'>SoftLayer_Container_Product_Order_Receipt </a>
+

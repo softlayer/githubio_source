@@ -30,3 +30,4 @@ Retrieve a portal user's permissions. These permissions control that user's acce
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer_CustomerPermission_Permission'>SoftLayer_User_Customer_CustomerPermission_Permission[] </a>
+

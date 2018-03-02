@@ -30,3 +30,4 @@ Retrieve all network hardware downstream from the selected piece of hardware.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+

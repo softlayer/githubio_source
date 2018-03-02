@@ -31,3 +31,4 @@ Create a new Customer user record in the SoftLayer customer portal. This is a wr
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+

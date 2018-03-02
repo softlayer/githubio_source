@@ -26,3 +26,4 @@ deleteObject permanently removes a domain and all of it's associated resource re
 
 ### Return Values
 boolean
+

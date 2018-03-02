@@ -30,3 +30,4 @@ Retrieve a base64 encoded string containing custom user data for a Cloud Computi
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Attribute'>SoftLayer_Virtual_Guest_Attribute[] </a>
+

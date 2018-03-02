@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Product_Item_Category_Question_Xref data type represents a link between an item category and an item category question.  It also contains a 'required' field that designates if the question is required to be answered for the given item category. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -71,6 +76,7 @@ The SoftLayer_Product_Item_Category_Question_Xref data type represents a link be
             <div class='views-field-body'>The item category question that this reference points to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question'>SoftLayer_Product_Item_Category_Question </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

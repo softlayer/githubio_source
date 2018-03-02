@@ -29,3 +29,4 @@ Retrieve the minute parameter of this schedule.
 
 ### Return Values
 string
+

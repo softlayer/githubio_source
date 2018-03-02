@@ -29,3 +29,4 @@ Retrieve a network component's associated group.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Component_Group'>SoftLayer_Network_Component_Group </a>
+

@@ -30,3 +30,4 @@ Retrieve the triggers to check for this group.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger'>SoftLayer_Scale_Policy_Trigger[] </a>
+

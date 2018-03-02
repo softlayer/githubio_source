@@ -13,12 +13,27 @@ classes:
 # SoftLayer_Billing_Order
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Billing_Order' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Order' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Order' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Billing_Order data type contains general information relating to an individual order applied to a SoftLayer customer account or to a new customer. Personal information in this type such as names, addresses, and phone numbers are taken from the account's contact information at the time the order is generated for existing SoftLayer customer. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Billing_Order::getObject](/reference/services/SoftLayer_Billing_Order/getObject )
+
+
+
+### seeAlso
+
+* [SoftLayer_Account (type)](/reference/datatypes/SoftLayer_Account (type) )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -225,6 +240,32 @@ The SoftLayer_Billing_Order data type contains general information relating to a
             <span class='views-field-title'><a href="#userRecord" name=userRecord>userRecord</a></span>
             <div class='views-field-body'>The SoftLayer_User_Customer object tied to an order. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#coreRestrictedItemCount" name=coreRestrictedItemCount>coreRestrictedItemCount</a></span>
+            <div class='views-field-body'>A count of the [[SoftLayer_Billing_Order_Item (type)|order items]] that are core restricted </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#creditCardTransactionCount" name=creditCardTransactionCount>creditCardTransactionCount</a></span>
+            <div class='views-field-body'>A count of all credit card transactions associated with this order. If this order was not placed with a credit card, this will be empty. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#itemCount" name=itemCount>itemCount</a></span>
+            <div class='views-field-body'>A count of the SoftLayer_Billing_Order_items included in an order. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#orderTopLevelItemCount" name=orderTopLevelItemCount>orderTopLevelItemCount</a></span>
+            <div class='views-field-body'>A count of an order's top level items. This normally includes the server line item and any non-server additional services such as NAS or ISCSI. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#paypalTransactionCount" name=paypalTransactionCount>paypalTransactionCount</a></span>
+            <div class='views-field-body'>A count of all PayPal transactions associated with this order. If this order was not placed with PayPal, this will be empty. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

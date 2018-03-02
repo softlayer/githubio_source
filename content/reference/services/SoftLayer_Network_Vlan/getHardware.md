@@ -30,3 +30,4 @@ Retrieve all of the hardware that exists on a VLAN. Hardware is associated with 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+

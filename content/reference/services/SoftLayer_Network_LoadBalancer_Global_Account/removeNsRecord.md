@@ -26,3 +26,9 @@ If your globally load balanced domain is hosted on the SoftLayer nameservers thi
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_LoadBalancer_Global_Account::addNsRecord](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/addNsRecord )
+

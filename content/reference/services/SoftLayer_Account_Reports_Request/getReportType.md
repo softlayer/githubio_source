@@ -29,3 +29,4 @@ Retrieve type of the report customer is requesting for.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Compliance_Report_Type'>SoftLayer_Compliance_Report_Type </a>
+

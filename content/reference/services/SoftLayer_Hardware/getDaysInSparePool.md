@@ -29,3 +29,4 @@ Retrieve number of day(s) a server have been in spare pool.
 
 ### Return Values
 integer
+

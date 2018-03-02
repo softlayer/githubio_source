@@ -31,3 +31,4 @@ Get all available firewall template objects.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Firewall_Template'>SoftLayer_Network_Firewall_Template[] </a>
+

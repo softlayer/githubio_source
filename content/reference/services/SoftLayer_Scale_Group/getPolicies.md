@@ -30,3 +30,4 @@ Retrieve collection of policies for this group. This can be empty.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_Policy'>SoftLayer_Scale_Policy[] </a>
+

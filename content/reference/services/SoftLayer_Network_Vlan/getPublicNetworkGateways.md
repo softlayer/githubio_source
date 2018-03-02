@@ -30,3 +30,4 @@ Retrieve the gateways this VLAN is the public VLAN of.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway[] </a>
+

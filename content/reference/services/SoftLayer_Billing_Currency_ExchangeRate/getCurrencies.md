@@ -27,3 +27,4 @@ classes:
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency[] </a>
+

@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 The SoftLayer_Container_Hardware_Server_Details data type contains information relating to a server's component information, network information, and software information. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Hardware::getObject](/reference/services/SoftLayer_Hardware/getObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

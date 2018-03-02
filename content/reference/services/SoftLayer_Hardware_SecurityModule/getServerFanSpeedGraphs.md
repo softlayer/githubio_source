@@ -26,3 +26,4 @@ Retrieve the server's fan speeds and displays them using tachometer graphs.  Dat
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_RemoteManagement_Graphs_SensorSpeed'>SoftLayer_Container_RemoteManagement_Graphs_SensorSpeed[] </a>
+

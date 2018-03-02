@@ -27,3 +27,4 @@ Detach virtual guest network components from a security group by deleting its [[
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_Request'>SoftLayer_Network_SecurityGroup_Request </a>
+

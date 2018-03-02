@@ -30,3 +30,4 @@ Retrieve the group of rules contained within the update request.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request_Rule'>SoftLayer_Network_Firewall_Update_Request_Rule[] </a>
+

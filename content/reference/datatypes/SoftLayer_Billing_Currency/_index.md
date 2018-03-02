@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Billing_Currency
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Billing_Currency' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Currency' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Currency' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -56,6 +61,7 @@ classes:
             <div class='views-field-body'>The current exchange rate </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Currency_ExchangeRate'>SoftLayer_Billing_Currency_ExchangeRate </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

@@ -29,3 +29,9 @@ Retrieve a list of all SoftLayer backbone connections. Use this method if you ne
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Backbone'>SoftLayer_Network_Backbone[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Backbone::getObject](/reference/services/SoftLayer_Network_Backbone/getObject )
+

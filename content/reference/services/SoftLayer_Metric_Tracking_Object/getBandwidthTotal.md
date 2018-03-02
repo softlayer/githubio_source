@@ -30,3 +30,10 @@ Retrieve the total amount of bandwidth recorded by a tracking object within the 
 
 ### Return Values
 unsigned long
+
+
+### associatedMethods
+
+*  [SoftLayer_Metric_Tracking_Object::getBandwidthGraph](/reference/services/SoftLayer_Metric_Tracking_Object/getBandwidthGraph )
+*  [SoftLayer_Metric_Tracking_Object::getBandwidthData](/reference/services/SoftLayer_Metric_Tracking_Object/getBandwidthData )
+

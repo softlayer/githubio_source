@@ -28,3 +28,4 @@ Returns monitoring alarm detailed history
 
 ### Return Values
 boolean
+

@@ -29,3 +29,4 @@ Retrieve whether the package is a specialized network gateway appliance package.
 
 ### Return Values
 boolean
+

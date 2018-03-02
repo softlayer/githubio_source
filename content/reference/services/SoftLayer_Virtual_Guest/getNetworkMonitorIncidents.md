@@ -30,3 +30,4 @@ Retrieve all of a virtual guest's network monitoring incidents.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Incident'>SoftLayer_Network_Monitor_Version1_Incident[] </a>
+

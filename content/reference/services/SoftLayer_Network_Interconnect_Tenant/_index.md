@@ -19,7 +19,9 @@ classes:
 
 ## Description
 A network interconnect tenant defines an IP routing path through a network interconnect. Each network interconnect requires a single primary tenant, indicated by the primaryFlag 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

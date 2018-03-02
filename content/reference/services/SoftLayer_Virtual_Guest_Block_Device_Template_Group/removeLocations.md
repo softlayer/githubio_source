@@ -27,3 +27,4 @@ This method will create transaction(s) to remove available locations from an arc
 
 ### Return Values
 boolean
+

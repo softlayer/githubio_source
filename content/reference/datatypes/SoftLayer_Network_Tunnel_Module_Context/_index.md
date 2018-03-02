@@ -13,12 +13,23 @@ classes:
 # SoftLayer_Network_Tunnel_Module_Context
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Tunnel_Module_Context' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Tunnel_Module_Context' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Tunnel_Module_Context' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_Tunnel_Module_Context data type contains general information relating to a single SoftLayer network tunnel.  The SoftLayer_Network_Tunnel_Module_Context is useful to gather information such as related customer subnets (remote) and internal subnets (local) associated with the network tunnel as well as other information needed to manage the network tunnel.  Account and billing information related to the network tunnel can also be retrieved. 
+
+### External Links
+
+
+* [IPSec at Wikipedia](http://en.wikipedia.org/wiki/IPsec)
+
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -187,6 +198,42 @@ NOTE:  This date should NOT be used to determine when the network tunnel configu
             <span class='views-field-title'><a href="#transactionHistory" name=transactionHistory>transactionHistory</a></span>
             <div class='views-field-body'>The transaction history for this network tunnel. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#addressTranslationCount" name=addressTranslationCount>addressTranslationCount</a></span>
+            <div class='views-field-body'>A count of a network tunnel's address translations. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#allAvailableServiceSubnetCount" name=allAvailableServiceSubnetCount>allAvailableServiceSubnetCount</a></span>
+            <div class='views-field-body'>A count of subnets that provide access to SoftLayer services such as the management portal and the SoftLayer API. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#customerSubnetCount" name=customerSubnetCount>customerSubnetCount</a></span>
+            <div class='views-field-body'>A count of remote subnets that are allowed access through a network tunnel. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#internalSubnetCount" name=internalSubnetCount>internalSubnetCount</a></span>
+            <div class='views-field-body'>A count of private subnets that can be accessed through the network tunnel. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#serviceSubnetCount" name=serviceSubnetCount>serviceSubnetCount</a></span>
+            <div class='views-field-body'>A count of service subnets that can be access through the network tunnel. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#staticRouteSubnetCount" name=staticRouteSubnetCount>staticRouteSubnetCount</a></span>
+            <div class='views-field-body'>A count of subnets used for a network tunnel's address translations. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#transactionHistoryCount" name=transactionHistoryCount>transactionHistoryCount</a></span>
+            <div class='views-field-body'>A count of the transaction history for this network tunnel. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -26,3 +26,4 @@ Retrieves the remaining number of allowed hosts per volume.
 
 ### Return Values
 integer
+

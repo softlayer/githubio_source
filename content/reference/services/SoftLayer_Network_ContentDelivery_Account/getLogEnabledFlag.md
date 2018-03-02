@@ -29,3 +29,4 @@ Retrieve indicates if CDN logging is enabled.
 
 ### Return Values
 string
+

@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Virtual_Guest_Network_Component
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Virtual_Guest_Network_Component' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component' >Datatype</a></li>
     </ul>
 </div>
 
@@ -21,6 +21,11 @@ classes:
 The virtual guest network component data type presents the structure in which all computing instance network components are presented. Internally, the structure supports various virtualization platforms with no change to external interaction. 
 
 A guest, also known as a virtual server, represents an allocation of resources on a virtual host. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -157,6 +162,22 @@ A guest, also known as a virtual server, represents an allocation of resources o
             <span class='views-field-title'><a href="#subnets" name=subnets>subnets</a></span>
             <div class='views-field-body'>A network component's subnets. A subnet is a group of IP addresses </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#ipAddressBindingCount" name=ipAddressBindingCount>ipAddressBindingCount</a></span>
+            <div class='views-field-body'>A count of the records of all IP addresses bound to a computing instance's network component. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#securityGroupBindingCount" name=securityGroupBindingCount>securityGroupBindingCount</a></span>
+            <div class='views-field-body'>A count of the bindings associating security groups to this network component </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#subnetCount" name=subnetCount>subnetCount</a></span>
+            <div class='views-field-body'>A count of a network component's subnets. A subnet is a group of IP addresses </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Provisioning_Maintenance_Classification
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Provisioning_Maintenance_Classification' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Provisioning_Maintenance_Classification represent a maintenance type for the specific hardware maintenance desired. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -55,6 +60,12 @@ The SoftLayer_Provisioning_Maintenance_Classification represent a maintenance ty
             <span class='views-field-title'><a href="#itemCategories" name=itemCategories>itemCategories</a></span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification_Item_Category'>SoftLayer_Provisioning_Maintenance_Classification_Item_Category[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#itemCategoryCount" name=itemCategoryCount>itemCategoryCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

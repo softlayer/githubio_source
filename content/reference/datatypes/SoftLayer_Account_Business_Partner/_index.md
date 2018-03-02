@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Account_Business_Partner
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Account_Business_Partner' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Business_Partner' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Business_Partner' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 Contains business partner details associated with an account. Country Enterprise Identifier (CEID), Channel ID, Segment ID and Reseller Level. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -71,6 +76,7 @@ Contains business partner details associated with an account. Country Enterprise
             <div class='views-field-body'>Segment indicator used to categorize business partner revenue. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Business_Partner_Segment'>SoftLayer_Business_Partner_Segment </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

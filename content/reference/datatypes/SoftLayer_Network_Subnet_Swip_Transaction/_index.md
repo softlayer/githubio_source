@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Network_Subnet_Swip_Transaction
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Subnet_Swip_Transaction' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Subnet_Swip_Transaction' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Subnet_Swip_Transaction' >Datatype</a></li>
     </ul>
 </div>
 
@@ -30,6 +30,22 @@ The SoftLayer_Network_Subnet_Swip_Transaction data type contains basic informati
 * REMOVE CONFIRMED:  ARIN has confirmed that the removal request is good, and the subnet should be clear in WHOIS in 24 hours
 * DELETED:  This specific SWIP Transaction has been removed from ARIN and is no longer in effect
 * SOFTLAYER MANUALLY PROCESSING:  Sometimes a request doesn't go through correctly and has to be manually processed by SoftLayer.  This may take some time.
+
+### External Links
+
+
+* [Shared Whois Project at Wikipedia](http://en.wikipedia.org/wiki/Shared_Whois_Project)
+
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_Subnet_Rwhois_Data](/reference/datatypes/SoftLayer_Network_Subnet_Rwhois_Data )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -72,6 +88,7 @@ The SoftLayer_Network_Subnet_Swip_Transaction data type contains basic informati
             <div class='views-field-body'>The subnet that this SWIP transaction was created for. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

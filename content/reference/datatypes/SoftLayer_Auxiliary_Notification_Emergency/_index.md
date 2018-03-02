@@ -13,12 +13,30 @@ classes:
 # SoftLayer_Auxiliary_Notification_Emergency
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Auxiliary_Notification_Emergency' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 A SoftLayer_Auxiliary_Notification_Emergency data object represents a notification event being broadcast to the SoftLayer customer base. It is used to provide information regarding outages or current known issues. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Auxiliary_Notification_Emergency::getObject](/reference/services/SoftLayer_Auxiliary_Notification_Emergency/getObject )
+
+
+
+### seeAlso
+
+* [SoftLayer_Auxiliary_Notification_Emergency_Status](/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency_Status )
+
+
+* [SoftLayer_Auxiliary_Notification_Emergency_Signature](/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency_Signature )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -96,6 +114,7 @@ A SoftLayer_Auxiliary_Notification_Emergency data object represents a notificati
             <div class='views-field-body'>The status of this notification. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency_Status'>SoftLayer_Auxiliary_Notification_Emergency_Status </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

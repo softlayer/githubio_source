@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 The IntrusionProtection_Statistics Type is used as a container for SoftLayer_Container_Network_IntrusionProtection_Statistic objects.  The SoftLayer_Container_Network_IntrusionProtection_Statistics class holds the "header" information, like the item being queried (either account or data center), the time frame, and the grand total of the attacks. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_TippingPointReporting::getMainStatistics](/reference/services/SoftLayer_Network_TippingPointReporting/getMainStatistics )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

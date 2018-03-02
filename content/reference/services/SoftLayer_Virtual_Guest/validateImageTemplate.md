@@ -27,3 +27,4 @@ Validate an image template for OS Reload
 
 ### Return Values
 boolean
+

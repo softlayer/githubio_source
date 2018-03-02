@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Retrieve the category group information for a product item.
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

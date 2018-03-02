@@ -24,3 +24,4 @@ The getDatacenterId retrieves the ID for the datacenter in which the resource is
 
 ### Return Values
 integer
+

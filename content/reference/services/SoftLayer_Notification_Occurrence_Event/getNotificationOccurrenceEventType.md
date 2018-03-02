@@ -29,3 +29,4 @@ Retrieve the type of event such as planned or unplanned maintenance.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event_Type'>SoftLayer_Notification_Occurrence_Event_Type </a>
+

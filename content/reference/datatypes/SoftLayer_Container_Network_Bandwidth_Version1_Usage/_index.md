@@ -19,6 +19,21 @@ classes:
 
 ## Description 
 SoftLayer_Container_Network_Bandwidth_Version1_Usage models an hourly bandwidth record.
+
+
+### associatedMethods
+
+*  [SoftLayer_Hardware::getBandwidthByHour](/reference/services/SoftLayer_Hardware/getBandwidthByHour )
+
+
+
+### seeAlso
+
+* [SoftLayer_Container_Network_Bandwidth_Version1_Allotment](/reference/datatypes/SoftLayer_Container_Network_Bandwidth_Version1_Allotment )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Network_Subnet_IpAddress object whose ID numbe
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>
+

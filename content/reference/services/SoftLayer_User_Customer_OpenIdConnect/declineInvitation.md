@@ -26,3 +26,4 @@ Declines an invitation to link an OpenIdConnect identity to a SoftLayer (Atlas) 
 
 ### Return Values
 void
+

@@ -13,12 +13,23 @@ classes:
 # SoftLayer_Network_Firewall_Update_Request_Rule
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request_Rule' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request_Rule' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_Firewall_Update_Request_Rule type contains information relating to a SoftLayer network firewall update request rule. This rule is a member of a [[SoftLayer Network Firewall Update Request]]. Use the [[SoftLayer Network Component Firewall]] service to view current rules. Use the [[SoftLayer Network Firewall Template]] service to pull SoftLayer recommended rule set templates. 
+
+### External Links
+
+
+* [Firewall at Wikipedia](http://en.wikipedia.org/wiki/Firewall_(networking))
+
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -116,6 +127,7 @@ The SoftLayer_Network_Firewall_Update_Request_Rule type contains information rel
             <div class='views-field-body'>The update request that this rule belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request'>SoftLayer_Network_Firewall_Update_Request </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

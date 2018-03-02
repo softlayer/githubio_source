@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Container_Authentication_Response_SUCCESS data type contains information for specific responses from the getPortalLogin API. This class is indicative of a request that was successful in obtaining a portal login token from the getPortalLogin API. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

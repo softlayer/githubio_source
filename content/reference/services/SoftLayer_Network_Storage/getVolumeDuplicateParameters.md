@@ -26,3 +26,4 @@ This method returns the parameters for cloning a volume
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_Storage_VolumeDuplicateParameters'>SoftLayer_Container_Network_Storage_VolumeDuplicateParameters </a>
+

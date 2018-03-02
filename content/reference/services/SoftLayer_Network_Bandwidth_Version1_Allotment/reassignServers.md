@@ -27,3 +27,4 @@ This method will reassign a collection of SoftLayer hardware to a bandwidth allo
 
 ### Return Values
 boolean
+

@@ -30,3 +30,4 @@ Retrieve the update requests made for this firewall.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request'>SoftLayer_Network_Firewall_Update_Request[] </a>
+

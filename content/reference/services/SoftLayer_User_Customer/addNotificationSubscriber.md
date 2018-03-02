@@ -27,3 +27,4 @@ Create a notification subscription record for the user. If a subscription record
 
 ### Return Values
 boolean
+

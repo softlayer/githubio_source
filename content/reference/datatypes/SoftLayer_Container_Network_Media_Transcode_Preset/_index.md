@@ -19,6 +19,24 @@ classes:
 
 ## Description 
 Transcode preset is a set of configuration parameters that defines a Transcode output format. SoftLayer_Container_Network_Media_Transcode_Preset contains a preset information defined on a Transcode server 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Media_Transcode_Account::getPresets](/reference/services/SoftLayer_Network_Media_Transcode_Account/getPresets )
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_Media_Transcode_Account](/reference/datatypes/SoftLayer_Network_Media_Transcode_Account )
+
+
+* [SoftLayer_Network_Media_Transcode_Job](/reference/datatypes/SoftLayer_Network_Media_Transcode_Job )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

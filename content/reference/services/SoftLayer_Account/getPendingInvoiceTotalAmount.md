@@ -28,3 +28,4 @@ Retrieve the total amount of an account's pending invoice, if one exists.
 
 ### Return Values
 decimal
+

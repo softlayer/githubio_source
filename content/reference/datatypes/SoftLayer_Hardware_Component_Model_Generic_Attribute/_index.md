@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Hardware_Component_Model_Generic_Attribute data type contains information relating to a single SoftLayer generic component model.  Generic component model attributes can hold any information to describe functionality of the model. For Example: The number of cores that a processor has. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -46,6 +51,7 @@ The SoftLayer_Hardware_Component_Model_Generic_Attribute data type contains info
             <div class='views-field-body'>An attributes generic component model. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

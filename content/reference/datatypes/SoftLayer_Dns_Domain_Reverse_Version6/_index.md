@@ -19,6 +19,35 @@ classes:
 
 ## Description 
 The SoftLayer_Dns_Domain_Reverse_Version6 data type represents a reverse IPv6 address record. 
+
+### External Links
+
+
+* [Reverse DNS lookup at Wikipedia](http://en.wikipedia.org/wiki/Reverse_DNS_lookup)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Vlan::getReverseDomainRecords](/reference/services/SoftLayer_Network_Vlan/getReverseDomainRecords )
+*  [SoftLayer_Network_Subnet::getReverseDomainRecords](/reference/services/SoftLayer_Network_Subnet/getReverseDomainRecords )
+*  [SoftLayer_Hardware_Server::getReverseDomainRecords](/reference/services/SoftLayer_Hardware_Server/getReverseDomainRecords )
+
+
+
+### seeAlso
+
+* [SoftLayer_Dns_Domain](/reference/datatypes/SoftLayer_Dns_Domain )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_PtrType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_PtrType )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -81,6 +110,7 @@ The SoftLayer_Dns_Domain_Reverse_Version6 data type represents a reverse IPv6 ad
             <div class='views-field-body'>The start of authority (SOA) record contains authoritative and propagation details for a DNS zone. This property is not considered in requests to createObject and editObject. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SoaType'>SoftLayer_Dns_Domain_ResourceRecord_SoaType </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

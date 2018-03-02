@@ -29,3 +29,4 @@ Retrieve the value of a hardware's network status attribute.
 
 ### Return Values
 string
+

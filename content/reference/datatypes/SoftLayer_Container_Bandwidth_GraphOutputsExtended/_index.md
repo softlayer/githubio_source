@@ -19,6 +19,24 @@ classes:
 
 ## Description 
 SoftLayer_Container_Bandwidth_GraphOutputs models an individual bandwidth graph image and certain details about that graph image.
+
+
+### associatedMethods
+
+*  [SoftLayer_Utility_Bandwidth_Graph::getBandwidthImage](/reference/services/SoftLayer_Utility_Bandwidth_Graph/getBandwidthImage )
+*  [SoftLayer_Utility_Bandwidth_Graph::getBandwidthGraphParameters](/reference/services/SoftLayer_Utility_Bandwidth_Graph/getBandwidthGraphParameters )
+*  [SoftLayer_Network_ContentDelivery_Account::getBandwidthImage](/reference/services/SoftLayer_Network_ContentDelivery_Account/getBandwidthImage )
+*  [SoftLayer_Network_ContentDelivery_Account::getAllPopsBandwidthImage](/reference/services/SoftLayer_Network_ContentDelivery_Account/getAllPopsBandwidthImage )
+
+
+
+### seeAlso
+
+* [SoftLayer_Container_Bandwidth_GraphInputs](/reference/datatypes/SoftLayer_Container_Bandwidth_GraphInputs )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

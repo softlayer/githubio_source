@@ -29,3 +29,4 @@ Retrieve an order's total one time amount. This amount represents the initial fe
 
 ### Return Values
 decimal
+

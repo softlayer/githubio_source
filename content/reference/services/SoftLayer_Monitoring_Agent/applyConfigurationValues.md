@@ -29,3 +29,14 @@ This method creates a transaction used to apply changes to a monitoring agent's 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Monitoring_Agent::addConfigurationProfile](/reference/services/SoftLayer_Monitoring_Agent/addConfigurationProfile )
+*  [SoftLayer_Monitoring_Agent::deleteConfigurationProfile](/reference/services/SoftLayer_Monitoring_Agent/deleteConfigurationProfile )
+*  [SoftLayer_Monitoring_Agent::deployMonitoringAgent](/reference/services/SoftLayer_Monitoring_Agent/deployMonitoringAgent )
+*  [SoftLayer_Monitoring_Agent::getAvailableConfigurationTemplates](/reference/services/SoftLayer_Monitoring_Agent/getAvailableConfigurationTemplates )
+*  [SoftLayer_Monitoring_Agent::getAvailableConfigurationValues](/reference/services/SoftLayer_Monitoring_Agent/getAvailableConfigurationValues )
+*  [SoftLayer_Monitoring_Agent::getGraph](/reference/services/SoftLayer_Monitoring_Agent/getGraph )
+

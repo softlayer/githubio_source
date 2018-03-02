@@ -29,3 +29,4 @@ Retrieve the snapshot size in bytes.
 
 ### Return Values
 string
+

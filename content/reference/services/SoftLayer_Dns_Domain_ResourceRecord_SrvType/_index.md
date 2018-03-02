@@ -19,15 +19,23 @@ classes:
 
 ## Description
 The SoftLayer_Dns_Domain_ResourceRecord_SrvType service controls the creation, modification, and deletion of SRV records within a domain hosted on SoftLayer's DNS servers. It exists separately from the SoftLayer_Dns_Domain_ResourceRecord to provide control for SRV priority, port, protocol, service, and weight in addition to host, data, and time-to-live. 
-### external links
-        Array
-(
-    [url] => http://en.wikipedia.org/wiki/SRV_record
-    [description] => SRV Record at Wikipedia
-)
-1        
+
+### External Links
+
+
+* [SRV Record at Wikipedia](http://en.wikipedia.org/wiki/SRV_record)
+
+
+
+
 ### seeAlso
-        SoftLayer_Dns_Domain1        SoftLayer_Dns_Domain_ResourceRecord1                
+
+* [SoftLayer_Dns_Domain](/reference/datatypes/SoftLayer_Dns_Domain )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

@@ -26,3 +26,4 @@ Use this method to delete a single SoftLayer portal VPN user subnet override.
 
 ### Return Values
 boolean
+

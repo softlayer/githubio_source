@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_User_Customer object whose ID number correspon
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+

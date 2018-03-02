@@ -29,3 +29,11 @@ editObject edits an existing SRV resource record. The ''host'' property of the t
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain_ResourceRecord::editObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/editObject )
+*  [SoftLayer_Dns_Domain_ResourceRecord::editObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/editObjects )
+*  [SoftLayer_Dns_Domain_ResourceRecord_SrvType::editObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/editObjects )
+

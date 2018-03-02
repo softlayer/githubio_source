@@ -29,3 +29,4 @@ Retrieve the type of trigger.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_Type'>SoftLayer_Scale_Policy_Trigger_Type </a>
+

@@ -29,3 +29,4 @@ Retrieve an account's associated load balancers.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress[] </a>
+

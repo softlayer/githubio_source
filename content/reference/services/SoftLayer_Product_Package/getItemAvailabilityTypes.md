@@ -27,3 +27,4 @@ Returns a collection of SoftLayer_Product_Item_Attribute_Type objects.  These it
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Attribute_Type'>SoftLayer_Product_Item_Attribute_Type[] </a>
+

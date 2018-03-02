@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -90,6 +95,37 @@ classes:
             <span class='views-field-title'><a href="#networkStatus" name=networkStatus>networkStatus</a></span>
             <div class='views-field-body'>The value of a hardware's network status attribute. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#downlinkServerCount" name=downlinkServerCount>downlinkServerCount</a></span>
+            <div class='views-field-body'>A count of all servers attached to a network hardware. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#downlinkVirtualGuestCount" name=downlinkVirtualGuestCount>downlinkVirtualGuestCount</a></span>
+            <div class='views-field-body'>A count of all virtual guests attached to a network hardware. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#downstreamNetworkHardwareCount" name=downstreamNetworkHardwareCount>downstreamNetworkHardwareCount</a></span>
+            <div class='views-field-body'>A count of all network hardware downstream from this hardware. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#downstreamNetworkHardwareWithIncidentCount" name=downstreamNetworkHardwareWithIncidentCount>downstreamNetworkHardwareWithIncidentCount</a></span>
+            <div class='views-field-body'>A count of all network hardware with monitoring warnings or errors downstream from this hardware. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkMonitorAttachedDownHardwareCount" name=networkMonitorAttachedDownHardwareCount>networkMonitorAttachedDownHardwareCount</a></span>
+            <div class='views-field-body'>A count of all servers attached downstream to a hardware that have failed monitoring </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkMonitorAttachedDownVirtualGuestCount" name=networkMonitorAttachedDownVirtualGuestCount>networkMonitorAttachedDownVirtualGuestCount</a></span>
+            <div class='views-field-body'>A count of virtual guests that are attached downstream to a hardware that have failed monitoring </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

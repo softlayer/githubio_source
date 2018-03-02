@@ -19,7 +19,9 @@ classes:
 
 ## Description
 SoftLayer_Network_Media_Transcode_Job holds information on a transcode job. To create a transcode job, use a [[SoftLayer_Network_Media_Transcode_Account|Transcode account]] object. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

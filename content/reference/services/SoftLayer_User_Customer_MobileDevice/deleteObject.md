@@ -26,3 +26,4 @@ Delete a mobile device association for a user.
 
 ### Return Values
 boolean
+

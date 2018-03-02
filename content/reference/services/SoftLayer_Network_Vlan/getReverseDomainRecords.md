@@ -28,3 +28,9 @@ Retrieve all reverse DNS records associated with the subnets assigned to a VLAN.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Subnet::getReverseDomainRecords](/reference/services/SoftLayer_Network_Subnet/getReverseDomainRecords )
+

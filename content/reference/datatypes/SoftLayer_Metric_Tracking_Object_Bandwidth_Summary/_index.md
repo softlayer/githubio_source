@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Metric_Tracking_Object_Bandwidth_Summary
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Metric_Tracking_Object_Bandwidth_Summary' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Bandwidth_Summary' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Bandwidth_Summary' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 This data type provides commonly used bandwidth summary components for the current billing cycle. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

@@ -28,3 +28,4 @@ Update the active status for a notification that the user is subscribed to. A no
 
 ### Return Values
 boolean
+

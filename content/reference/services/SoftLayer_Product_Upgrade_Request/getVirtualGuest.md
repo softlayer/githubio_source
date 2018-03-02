@@ -29,3 +29,4 @@ Retrieve a virtual server object associated with the upgrade request if any.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
+

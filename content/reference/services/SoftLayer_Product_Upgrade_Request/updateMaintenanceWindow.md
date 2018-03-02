@@ -28,3 +28,4 @@ In case an upgrade cannot be performed, the maintenance window needs to be updat
 
 ### Return Values
 boolean
+

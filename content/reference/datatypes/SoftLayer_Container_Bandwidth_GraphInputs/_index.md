@@ -19,6 +19,22 @@ classes:
 
 ## Description 
 SoftLayer_Container_Bandwidth_GraphInputs models a single inbound object for a given bandwidth graph.
+
+
+### associatedMethods
+
+*  [SoftLayer_Utility_Bandwidth_Graph::getBandwidthImage](/reference/services/SoftLayer_Utility_Bandwidth_Graph/getBandwidthImage )
+*  [SoftLayer_Utility_Bandwidth_Graph::getBandwidthGraphParameters](/reference/services/SoftLayer_Utility_Bandwidth_Graph/getBandwidthGraphParameters )
+
+
+
+### seeAlso
+
+* [SoftLayer_Container_Bandwidth_GraphOutputs](/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

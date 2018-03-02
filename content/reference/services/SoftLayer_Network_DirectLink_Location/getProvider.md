@@ -29,3 +29,4 @@ Retrieve the Id of Direct Link provider.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_DirectLink_Provider'>SoftLayer_Network_DirectLink_Provider </a>
+

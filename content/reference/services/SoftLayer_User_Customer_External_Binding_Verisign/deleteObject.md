@@ -28,3 +28,4 @@ When a VeriSign external binding is deleted the credential is deactivated in Ver
 
 ### Return Values
 boolean
+

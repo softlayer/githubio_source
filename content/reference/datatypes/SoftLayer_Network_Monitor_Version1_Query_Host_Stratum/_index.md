@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Network_Monitor_Version1_Query_Host_Stratum
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum' >Datatype</a></li>
     </ul>
 </div>
 
@@ -26,6 +26,11 @@ There are two values on this object that are important:
 
 
 Also note that the query type and response types are available through getAllQueryTypes and getAllResponseTypes, respectively. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -58,6 +63,7 @@ Also note that the query type and response types are available through getAllQue
             <div class='views-field-body'>The hardware object that these monitoring permissions applies to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

@@ -19,7 +19,9 @@ classes:
 
 ## Description
 This class links the monitoring configuration group to agent configuration templates. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

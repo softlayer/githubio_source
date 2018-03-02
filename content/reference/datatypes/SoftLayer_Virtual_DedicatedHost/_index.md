@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Virtual_DedicatedHost
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Virtual_DedicatedHost' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Virtual_DedicatedHost' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Virtual_DedicatedHost' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 This data type presents the structure for a dedicated host. The data type contains relational properties to distinguish a dedicated host and associate an account to it. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -120,6 +125,22 @@ This data type presents the structure for a dedicated host. The data type contai
             <span class='views-field-title'><a href="#tagReferences" name=tagReferences>tagReferences</a></span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#guestCount" name=guestCount>guestCount</a></span>
+            <div class='views-field-body'>A count of the guests associated with the dedicated host. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#internalTagReferenceCount" name=internalTagReferenceCount>internalTagReferenceCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#tagReferenceCount" name=tagReferenceCount>tagReferenceCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

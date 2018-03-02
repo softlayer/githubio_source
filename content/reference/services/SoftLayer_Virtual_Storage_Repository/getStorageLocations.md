@@ -28,3 +28,4 @@ Returns the public image storage locations.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+

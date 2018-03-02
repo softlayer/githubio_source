@@ -29,3 +29,4 @@ This method will return a collection of [[SoftLayer_Container_Product_Order_Netw
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Product_Order_Network_Storage_Hub_Datacenter'>SoftLayer_Container_Product_Order_Network_Storage_Hub_Datacenter[] </a>
+

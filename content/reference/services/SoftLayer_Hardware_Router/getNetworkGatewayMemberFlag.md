@@ -29,3 +29,4 @@ Retrieve whether or not this device is part of a network gateway.
 
 ### Return Values
 boolean
+

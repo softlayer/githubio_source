@@ -30,3 +30,4 @@ Retrieve the load balancers virtual IP addresses currently associated with the c
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress[] </a>
+

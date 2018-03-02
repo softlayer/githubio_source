@@ -27,3 +27,4 @@ This function will return an array of SoftLayer_Network_Subnet_Swip_Transaction 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet_Swip_Transaction'>SoftLayer_Network_Subnet_Swip_Transaction[] </a>
+

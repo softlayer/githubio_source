@@ -28,3 +28,4 @@ Use this method to retrieve all storage group types available.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage_Group_Type'>SoftLayer_Network_Storage_Group_Type[] </a>
+

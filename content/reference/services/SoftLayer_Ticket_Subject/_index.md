@@ -19,8 +19,17 @@ classes:
 
 ## Description
 Every standard support ticket submitted to SoftLayer contains a relationship to a pre-determined subject which populates that ticket's title. The SoftLayer_Ticket_Subject service retrieves these subjects. These ticket subjects also determine which department a ticket is opened for. 
+
+
+
 ### seeAlso
-        SoftLayer_Ticket1        SoftLayer_Ticket_Subject (type)1                
+
+* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+
+
+* [SoftLayer_Ticket_Subject (type)](/reference/datatypes/SoftLayer_Ticket_Subject (type) )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

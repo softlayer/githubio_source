@@ -29,3 +29,4 @@ Retrieve an invoice item's location, if one exists.'
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+

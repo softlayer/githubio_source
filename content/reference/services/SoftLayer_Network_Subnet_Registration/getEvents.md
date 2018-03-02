@@ -30,3 +30,4 @@ Retrieve the related registration events.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Event'>SoftLayer_Network_Subnet_Registration_Event[] </a>
+

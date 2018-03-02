@@ -29,3 +29,4 @@ Retrieve the start of authority (SOA) record contains authoritative and propagat
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SoaType'>SoftLayer_Dns_Domain_ResourceRecord_SoaType </a>
+

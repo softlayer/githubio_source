@@ -30,3 +30,4 @@ Retrieve information regarding an operating system's [[SoftLayer_Hardware_Compon
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template'>SoftLayer_Hardware_Component_Partition_Template[] </a>
+

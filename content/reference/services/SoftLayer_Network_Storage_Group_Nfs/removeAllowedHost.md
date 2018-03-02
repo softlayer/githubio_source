@@ -27,3 +27,4 @@ Use this method to remove a SoftLayer_Network_Storage_Allowed_Host object from t
 
 ### Return Values
 boolean
+

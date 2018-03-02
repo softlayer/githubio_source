@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Network_Storage_Schedule
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Storage_Schedule' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 Schedules can be created for select Storage services, such as iscsi. These schedules are used to perform various tasks such as scheduling snapshots or synchronizing replicants. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -150,6 +155,27 @@ Schedules can be created for select Storage services, such as iscsi. These sched
             <span class='views-field-title'><a href="#volume" name=volume>volume</a></span>
             <div class='views-field-body'>The associated volume for a schedule. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#eventCount" name=eventCount>eventCount</a></span>
+            <div class='views-field-body'>A count of events which have been created as the result of a schedule execution. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#propertyCount" name=propertyCount>propertyCount</a></span>
+            <div class='views-field-body'>A count of properties used for configuration of a schedule. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#replicaSnapshotCount" name=replicaSnapshotCount>replicaSnapshotCount</a></span>
+            <div class='views-field-body'>A count of replica snapshots which have been created as the result of this schedule's execution. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#snapshotCount" name=snapshotCount>snapshotCount</a></span>
+            <div class='views-field-body'>A count of snapshots which have been created as the result of this schedule's execution. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

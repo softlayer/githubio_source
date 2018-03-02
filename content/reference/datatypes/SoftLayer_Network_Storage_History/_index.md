@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Network_Storage_History contains the username/password past history for Storage services except Evault. Information such as the username, passwords, notes and the date of the password change may be retrieved. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +71,7 @@ The SoftLayer_Network_Storage_History contains the username/password past histor
             <div class='views-field-body'>The Storage service that the password history belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

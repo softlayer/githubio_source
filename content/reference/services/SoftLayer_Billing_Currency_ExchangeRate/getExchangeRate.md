@@ -30,3 +30,4 @@ classes:
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Currency_ExchangeRate'>SoftLayer_Billing_Currency_ExchangeRate </a>
+

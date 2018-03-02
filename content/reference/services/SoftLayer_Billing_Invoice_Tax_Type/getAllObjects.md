@@ -29,3 +29,4 @@ classes:
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Type'>SoftLayer_Billing_Invoice_Tax_Type[] </a>
+

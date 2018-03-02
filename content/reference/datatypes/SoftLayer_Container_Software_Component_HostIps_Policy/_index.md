@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Container_Software_Component_HostIps_Policy container holds the title and value of a current host ips policy.
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

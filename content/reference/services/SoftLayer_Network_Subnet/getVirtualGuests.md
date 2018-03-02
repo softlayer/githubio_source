@@ -30,3 +30,4 @@ Retrieve the Virtual Servers using IP addresses on this subnet.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+

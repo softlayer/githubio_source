@@ -21,6 +21,33 @@ classes:
 SoftLayer_Dns_Domain_ResourceRecord_SpfType is a SoftLayer_Dns_Domain_ResourceRecord object whose ''type'' property is set to "spf" and defines a DNS SPF record on a SoftLayer hosted domain. An SPF record provides sender policy framework data for a host. For instance, if defining the SPF record "v=spf1 mx:mail.example.org ~all" for "host.example.org". then the ''host'' property equals "host" and the ''data'' property equals "v=spf1 mx:mail.example.org ~all". 
 
 SPF records are commonly used in email verification methods such as Sender Policy Framework. 
+
+### External Links
+
+
+* [List of DNS record types at Wikipedia](http://en.wikipedia.org/wiki/List_of_DNS_record_types)
+
+
+* [Sender Policy Framework](http://www.openspf.org/Project_Overview)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain::createSpfRecord](/reference/services/SoftLayer_Dns_Domain/createSpfRecord )
+
+
+
+### seeAlso
+
+* [SoftLayer_Dns_Domain](/reference/datatypes/SoftLayer_Dns_Domain )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -103,6 +130,7 @@ SPF records are commonly used in email verification methods such as Sender Polic
             <div class='views-field-body'>The domain that a resource record belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

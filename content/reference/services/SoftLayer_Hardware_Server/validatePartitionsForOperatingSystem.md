@@ -27,3 +27,4 @@ Validates a collection of partitions for an operating system
 
 ### Return Values
 boolean
+

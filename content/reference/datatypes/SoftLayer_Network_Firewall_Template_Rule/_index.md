@@ -19,6 +19,17 @@ classes:
 
 ## Description 
 The SoftLayer_Network_Component_Firewall_Rule type contains general information relating to a single SoftLayer firewall template rule. Use the [[SoftLayer Network Component Firewall]] service to view current rules. Use the [[SoftLayer Network Firewall Update Request]] service to submit a firewall update request. 
+
+### External Links
+
+
+* [Firewall at Wikipedia](http://en.wikipedia.org/wiki/Firewall_(networking))
+
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -101,6 +112,7 @@ The SoftLayer_Network_Component_Firewall_Rule type contains general information 
             <div class='views-field-body'>The firewall template that this rule is attached to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Firewall_Template'>SoftLayer_Network_Firewall_Template </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

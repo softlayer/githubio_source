@@ -19,6 +19,17 @@ classes:
 
 ## Description 
 Contains data required to both request a new IaaS account for active IBM employees and review pending requests. Fields used exclusively in the review process are scrubbed of user input. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Account_Internal_Ibm::requestAccount](/reference/services/SoftLayer_Account_Internal_Ibm/requestAccount )
+*  [SoftLayer_Account_Internal_Ibm::getAccountTypes](/reference/services/SoftLayer_Account_Internal_Ibm/getAccountTypes )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

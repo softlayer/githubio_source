@@ -29,3 +29,4 @@ Retrieve the average amount of time that a software component takes to install.
 
 ### Return Values
 unsigned long
+

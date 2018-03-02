@@ -25,3 +25,4 @@ Returns true if this account is eligible for the local currency program, false o
 
 ### Return Values
 boolean
+

@@ -19,6 +19,36 @@ classes:
 
 ## Description 
 SoftLayer_Container_Subnet_IPAddress models an IP v4 address as it exists as a member of it's subnet, letting the user know if it is a network identifier, gateway, broadcast, or useable address. Addresses that are neither the network identifier nor the gateway nor the broadcast addresses are usable by SoftLayer servers. 
+
+### External Links
+
+
+* [Ip address at Wikipedia](http://en.wikipedia.org/wiki/Ip_address)
+
+
+* [RFC791:Internet Protocol Specification at ietf.org](http://tools.ietf.org/html/rfc791)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Subnet::getRoutableEndpointIpAddresses](/reference/services/SoftLayer_Network_Subnet/getRoutableEndpointIpAddresses )
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_Subnet](/reference/datatypes/SoftLayer_Network_Subnet )
+
+
+* [SoftLayer_Network_Subnet_IpAddress](/reference/datatypes/SoftLayer_Network_Subnet_IpAddress )
+
+
+* [SoftLayer_Network_Vlan](/reference/datatypes/SoftLayer_Network_Vlan )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

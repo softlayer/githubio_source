@@ -13,12 +13,27 @@ classes:
 # SoftLayer_Billing_Invoice_Item
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Billing_Invoice_Item' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 Each billing invoice item makes up a record within an invoice. This provides you with a detailed record of everything related to an invoice item. When you are billed, our system takes active billing items and creates an invoice. These invoice items are a copy of your active billing items, and make up the contents of your invoice. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Billing_Invoice_Item::getObject](/reference/services/SoftLayer_Billing_Invoice_Item/getObject )
+
+
+
+### seeAlso
+
+* [SoftLayer_Billing_Invoice](/reference/datatypes/SoftLayer_Billing_Invoice )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -280,6 +295,27 @@ Each billing invoice item makes up a record within an invoice. This provides you
             <span class='views-field-title'><a href="#usageChargeFlag" name=usageChargeFlag>usageChargeFlag</a></span>
             <div class='views-field-body'>Indicating whether this invoice item is for the usage charge. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#associatedChildrenCount" name=associatedChildrenCount>associatedChildrenCount</a></span>
+            <div class='views-field-body'>A count of an Invoice Item's associated child invoice items. Only parent invoice items have associated children. For instance, a server invoice item may have associated children. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#childrenCount" name=childrenCount>childrenCount</a></span>
+            <div class='views-field-body'>A count of an Invoice Item's child invoice items. Only parent invoice items have children. For instance, a server invoice item will have children. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#filteredAssociatedChildrenCount" name=filteredAssociatedChildrenCount>filteredAssociatedChildrenCount</a></span>
+            <div class='views-field-body'>A count of an Invoice Item's associated child invoice items, excluding some items with a $0.00 recurring fee. Only parent invoice items have associated children. For instance, a server invoice item may have associated children. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#nonZeroAssociatedChildrenCount" name=nonZeroAssociatedChildrenCount>nonZeroAssociatedChildrenCount</a></span>
+            <div class='views-field-body'>A count of an Invoice Item's associated child invoice items, excluding ALL items with a $0.00 recurring fee. Only parent invoice items have associated children. For instance, a server invoice item may have associated children. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

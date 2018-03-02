@@ -25,20 +25,23 @@ SoftLayer Transcoding service supports a large number of video and audio codecs.
 A Transcode account object allows you to communicate with the Transcode FTP (transcode.service.softlayer.com server) server and Transcode server. You can retrieve a directory listing, details on a media file, Transcode output presets, and Transcode FTP login credentials. Most importantly, you can create transcode jobs through your Transcode account. 
 
 When a Transcode account is created, it creates an FTP account on the Transcode FTP. You can upload your media files to the /in directory and you can download transcoded media files from the /out directory. You can keep the files 3 days from the creation date. They will be automatically deleted after this point. For more details on the Transcode FTP server, refer to [[SoftLayer_Network_Media_Transcode_Account::getFtpAttributes|getFtpAttributes]] method. 
-### external links
-        Array
-(
-    [url] => http://knowledgelayer.softlayer.com/questions/409/SoftLayer+Transcoding+FAQ
-    [description] => Transcode FAQ
-)
-1        Array
-(
-    [url] => http://en.wikipedia.org/wiki/Transcoding
-    [description] => Transcode Wiki
-)
-1        
+
+### External Links
+
+
+* [Transcode FAQ](http://knowledgelayer.softlayer.com/questions/409/SoftLayer+Transcoding+FAQ)
+
+
+* [Transcode Wiki](http://en.wikipedia.org/wiki/Transcoding)
+
+
+
+
 ### seeAlso
-        SoftLayer_Network_Media_Transcode_Job1                
+
+* [SoftLayer_Network_Media_Transcode_Job](/reference/datatypes/SoftLayer_Network_Media_Transcode_Job )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

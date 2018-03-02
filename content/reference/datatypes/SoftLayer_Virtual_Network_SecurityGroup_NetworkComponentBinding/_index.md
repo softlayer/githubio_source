@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding data type contains general information for a single binding. A binding associates a [[SoftLayer_Virtual_Guest_Network_Component]] with a [[SoftLayer_Network_SecurityGroup]]. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -61,6 +66,7 @@ The SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding data type co
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

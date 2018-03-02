@@ -30,3 +30,4 @@ Retrieve the Application Delivery Controller contained within a virtual rack.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller[] </a>
+

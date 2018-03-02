@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Hardware_Component_Model object.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model </a>
+

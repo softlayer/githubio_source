@@ -29,3 +29,4 @@ Retrieve the type of an order. This lets you know where this order was generated
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Order_Type'>SoftLayer_Billing_Order_Type </a>
+

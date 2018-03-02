@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Hardware_Component_Attribute_Type data type contains general information for the type of an attribute for a hardware component. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

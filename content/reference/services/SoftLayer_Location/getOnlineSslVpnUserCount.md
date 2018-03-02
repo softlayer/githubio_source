@@ -29,3 +29,4 @@ Retrieve the total number of users online using SoftLayer's SSL VPN service for 
 
 ### Return Values
 integer
+

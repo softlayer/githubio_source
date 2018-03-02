@@ -26,3 +26,4 @@ Reboot a guest into the Idera Bare Metal Restore image.
 
 ### Return Values
 boolean
+

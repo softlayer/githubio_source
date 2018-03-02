@@ -29,3 +29,4 @@ Retrieve the type which defines this group.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage_Group_Type'>SoftLayer_Network_Storage_Group_Type </a>
+

@@ -24,3 +24,4 @@ The getId getGlobalIdentifier retrieves the globalIdentifier for the resource
 
 ### Return Values
 string
+

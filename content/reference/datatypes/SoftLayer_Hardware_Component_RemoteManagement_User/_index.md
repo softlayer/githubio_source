@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The credentials used for remote management such as username, password, etc... 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -56,6 +61,7 @@ The credentials used for remote management such as username, password, etc...
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

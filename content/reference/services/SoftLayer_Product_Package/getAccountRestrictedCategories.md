@@ -30,3 +30,4 @@ Retrieve the results from this call are similar to [[SoftLayer_Product_Package/g
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>
+

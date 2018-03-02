@@ -29,3 +29,4 @@ Retrieve the item category to which the billing item's item belongs.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>
+

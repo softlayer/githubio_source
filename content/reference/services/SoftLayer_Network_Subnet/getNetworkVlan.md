@@ -29,3 +29,4 @@ Retrieve the VLAN object that a subnet is associated with.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>
+

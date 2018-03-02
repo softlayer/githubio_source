@@ -29,3 +29,4 @@ Retrieve the inside VLAN record if this VLAN is inside a network gateway.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Gateway_Vlan'>SoftLayer_Network_Gateway_Vlan </a>
+

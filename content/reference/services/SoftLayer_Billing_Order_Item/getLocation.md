@@ -29,3 +29,4 @@ Retrieve the location of an ordered item. This is usually the same as the server
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+

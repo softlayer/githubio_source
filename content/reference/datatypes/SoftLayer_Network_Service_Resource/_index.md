@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Network_Service_Resource is used to store information related to a service.  It is used for determining the correct resource to connect to for a given service, like NAS, Evault, etc. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -115,6 +120,12 @@ The SoftLayer_Network_Service_Resource is used to store information related to a
             <span class='views-field-title'><a href="#type" name=type>type</a></span>
             <div class='views-field-body'>The network information associated with this resource. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Service_Resource_Type'>SoftLayer_Network_Service_Resource_Type </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#attributeCount" name=attributeCount>attributeCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -27,3 +27,4 @@ Validate the user id and VeriSign credential id used to create an external authe
 
 ### Return Values
 boolean
+

@@ -26,3 +26,9 @@ Yields a list of the secure communication protocols that are currently supported
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Security_SecureTransportProtocol'>SoftLayer_Security_SecureTransportProtocol[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress::getAvailableSecureTransportCiphers](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress/getAvailableSecureTransportCiphers )
+

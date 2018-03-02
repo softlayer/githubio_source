@@ -28,3 +28,4 @@ Retrieve an array of SoftLayer_Auxiliary_Notification_Emergency data types, whic
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency'>SoftLayer_Auxiliary_Notification_Emergency[] </a>
+

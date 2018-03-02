@@ -25,3 +25,4 @@ The default authentication type used for both phases of the negotiation process.
 
 ### Return Values
 string
+

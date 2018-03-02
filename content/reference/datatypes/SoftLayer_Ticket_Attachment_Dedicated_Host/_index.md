@@ -19,6 +19,29 @@ classes:
 
 ## Description 
 SoftLayer tickets have the ability to be associated with specific dedicated hosts in a customer's inventory. Attaching a dedicated host to a ticket can greatly increase response time from SoftLayer for issues that are related to one or more specific hosts on a customer's account. The SoftLayer_Ticket_Attachment_Dedicated_Host data type models the relationship between a dedicated host and a ticket. Only one attachment record can exist per dedicated host item per ticket. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Ticket::getAttachedDedicatedHosts](/reference/services/SoftLayer_Ticket/getAttachedDedicatedHosts )
+*  [SoftLayer_Ticket::addAttachedDedicatedHost](/reference/services/SoftLayer_Ticket/addAttachedDedicatedHost )
+*  [SoftLayer_Ticket::removeAttachedDedicatedHost](/reference/services/SoftLayer_Ticket/removeAttachedDedicatedHost )
+
+
+
+### seeAlso
+
+* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+
+
+* [SoftLayer_Ticket_Attachment_File](/reference/datatypes/SoftLayer_Ticket_Attachment_File )
+
+
+* [SoftLayer_Ticket_Attachment_Virtual_Guest](/reference/datatypes/SoftLayer_Ticket_Attachment_Virtual_Guest )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -76,6 +99,7 @@ SoftLayer tickets have the ability to be associated with specific dedicated host
             <div class='views-field-body'>The ticket that an item is attached to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

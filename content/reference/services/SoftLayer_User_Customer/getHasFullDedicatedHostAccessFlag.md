@@ -29,3 +29,4 @@ Retrieve permission granting the user access to all Dedicated Host devices on th
 
 ### Return Values
 boolean
+

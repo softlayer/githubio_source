@@ -23,7 +23,9 @@ classes:
 Every SoftLayer customer account is associated to a brand 
 
 SoftLayer customers are unable to change their brand information in the portal or the API. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

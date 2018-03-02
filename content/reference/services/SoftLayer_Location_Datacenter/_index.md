@@ -19,8 +19,14 @@ classes:
 
 ## Description
 SoftLayer_Location_Datacenter exposes functionality to access datacenter-specific portions of SoftLayer's backend network. SoftLayer maintains datacenters within it's location hierarchy. Datacenters are located in city locations and each contain server room locations, racks, then slots. Each slot location houses a piece of SoftLayer hardware. 
+
+
+
 ### seeAlso
-        SoftLayer_Location1                
+
+* [SoftLayer_Location](/reference/datatypes/SoftLayer_Location )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

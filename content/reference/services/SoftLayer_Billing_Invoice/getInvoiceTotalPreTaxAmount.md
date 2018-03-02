@@ -29,3 +29,4 @@ Retrieve the total amount of this invoice. This does not include taxes.
 
 ### Return Values
 decimal
+

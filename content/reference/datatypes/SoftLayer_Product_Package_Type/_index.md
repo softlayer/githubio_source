@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Product_Package_Type
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Product_Package_Type' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Product_Package_Type' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Product_Package_Type' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The [[SoftLayer_Product_Package_Type]] object indicates the type for a service offering (package). The type can be used to filter packages. For example, if you are looking for the package representing virtual servers, you can filter on the type's key name of '''VIRTUAL_SERVER_INSTANCE'''. For bare metal servers by core or CPU, filter on '''BARE_METAL_CORE''' or '''BARE_METAL_CPU''', respectively. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -55,6 +60,12 @@ The [[SoftLayer_Product_Package_Type]] object indicates the type for a service o
             <span class='views-field-title'><a href="#packages" name=packages>packages</a></span>
             <div class='views-field-body'>All the packages associated with the given package type. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#packageCount" name=packageCount>packageCount</a></span>
+            <div class='views-field-body'>A count of all the packages associated with the given package type. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

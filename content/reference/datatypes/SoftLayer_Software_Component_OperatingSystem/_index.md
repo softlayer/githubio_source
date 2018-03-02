@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 SoftLayer_Software_Component_OperatingSystem extends the [[SoftLayer_Software_Component]] data type to include operating system specific properties. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Software_Component (type)](/reference/datatypes/SoftLayer_Software_Component (type) )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -110,6 +120,22 @@ SoftLayer_Software_Component_OperatingSystem extends the [[SoftLayer_Software_Co
             <span class='views-field-title'><a href="#virtualGuest" name=virtualGuest>virtualGuest</a></span>
             <div class='views-field-body'>The virtual guest this software component is installed upon. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#partitionTemplateCount" name=partitionTemplateCount>partitionTemplateCount</a></span>
+            <div class='views-field-body'>A count of an operating system's associated [[SoftLayer_Hardware_Component_Partition_Template|Partition Templates]] that can be used to configure a hardware drive. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#passwordCount" name=passwordCount>passwordCount</a></span>
+            <div class='views-field-body'>A count of username/Password pairs used for access to this Software Installation. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#passwordHistoryCount" name=passwordHistoryCount>passwordHistoryCount</a></span>
+            <div class='views-field-body'>A count of history Records for Software Passwords. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

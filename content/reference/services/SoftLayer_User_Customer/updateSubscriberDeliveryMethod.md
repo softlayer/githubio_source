@@ -29,3 +29,4 @@ Update a delivery method for a notification that the user is subscribed to. A de
 
 ### Return Values
 boolean
+

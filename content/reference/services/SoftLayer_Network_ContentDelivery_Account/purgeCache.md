@@ -37,3 +37,4 @@ It takes approximately 3-5 minutes for the system to delete the requested object
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_ContentDelivery_PurgeService_Response'>SoftLayer_Container_Network_ContentDelivery_PurgeService_Response[] </a>
+

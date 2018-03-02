@@ -30,3 +30,4 @@ Retrieve all the component models that are compatible with a hardware component 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model[] </a>
+

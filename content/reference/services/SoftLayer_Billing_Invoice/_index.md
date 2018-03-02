@@ -36,10 +36,15 @@ Once an invoice is paid it moves from OPEN to CLOSED state. Invoices are created
 Invoices are created with contact information duplicated from the [[SoftLayer_Account (type)|SoftLayer_Account data type]]. We do this in order to maintain a history of an account's contact information as invoices are generated. Likewise each invoice record keeps track of an account's balance as the invoice is opened and closed. 
 
 Query the [[SoftLayer_Account]] service to get a list of invoices for your account. 
+
+
 ### associatedMethods
 
-        SoftLayer_Account::getBalance1        SoftLayer_Account::getInvoices1        
-        
+*  [SoftLayer_Account::getBalance](/reference/services/SoftLayer_Account/getBalance )
+*  [SoftLayer_Account::getInvoices](/reference/services/SoftLayer_Account/getInvoices )
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

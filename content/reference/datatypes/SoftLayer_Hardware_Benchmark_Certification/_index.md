@@ -13,12 +13,22 @@ classes:
 # SoftLayer_Hardware_Benchmark_Certification
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Hardware_Benchmark_Certification' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Hardware_Benchmark_Certification' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Hardware_Benchmark_Certification' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Hardware_Benchmark_Certification data type contains general information relating to a single SoftLayer hardware benchmark certification document. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Hardware_Benchmark_Certification::getObject](/reference/services/SoftLayer_Hardware_Benchmark_Certification/getObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -61,6 +71,7 @@ The SoftLayer_Hardware_Benchmark_Certification data type contains general inform
             <div class='views-field-body'>Information regarding the piece of hardware on which a benchmark certification test was performed. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

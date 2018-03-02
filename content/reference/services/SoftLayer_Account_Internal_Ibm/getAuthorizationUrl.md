@@ -26,3 +26,4 @@ Gets the URL used to perform manager validation.
 
 ### Return Values
 string
+

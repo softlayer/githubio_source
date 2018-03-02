@@ -29,3 +29,4 @@ Retrieve the projected public outbound bandwidth for this computing instance for
 
 ### Return Values
 float
+

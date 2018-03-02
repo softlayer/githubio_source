@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The [[SoftLayer_Product_Item_Attribute]] data type allows us to describe a [[SoftLayer_Product_Item]] by attaching specific attributes, which may dictate how it interacts with other products and services. Most, if not all, of these attributes are geared towards internal usage, so customers should rarely be concerned with them. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -71,6 +76,7 @@ The [[SoftLayer_Product_Item_Attribute]] data type allows us to describe a [[Sof
             <div class='views-field-body'>This represents the product that an attribute is tied to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

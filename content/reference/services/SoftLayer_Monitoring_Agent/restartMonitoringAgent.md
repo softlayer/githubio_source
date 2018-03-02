@@ -26,3 +26,10 @@ This method restarts a monitoring agent and sets the agent's status to 'ACTIVE'.
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Monitoring_Agent::activate](/reference/services/SoftLayer_Monitoring_Agent/activate )
+*  [SoftLayer_Monitoring_Agent::deactivate](/reference/services/SoftLayer_Monitoring_Agent/deactivate )
+

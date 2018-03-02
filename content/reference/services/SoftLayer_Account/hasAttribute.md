@@ -26,3 +26,10 @@ Determine if an account has an [[SoftLayer_Account_Attribute|attribute]] associa
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Account::getAttributeByType](/reference/services/SoftLayer_Account/getAttributeByType )
+*  [SoftLayer_Account::getAttributes](/reference/services/SoftLayer_Account/getAttributes )
+

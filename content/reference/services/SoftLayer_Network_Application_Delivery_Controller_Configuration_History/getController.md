@@ -29,3 +29,4 @@ Retrieve the application delivery controller that a configuration history record
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller </a>
+

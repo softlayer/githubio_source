@@ -15,7 +15,7 @@ classes:
 # SoftLayer_Software_Description
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Software_Description' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Software_Description' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Software_Description' >Datatype</a></li>
     </ul>
 </div>
 
@@ -25,6 +25,19 @@ This class holds a description for a specific installation of a Software Compone
 SoftLayer_Software_Licenses tie a Software Component (A specific installation on a piece of hardware) to it's description. 
 
 The "Manufacturer" and "Name" properties of a SoftLayer_Software_Description are used by the framework to factory specific objects, objects that may have special methods for that specific piece of software, or objects that contain application specific data, such as default ports.  For example, if you create a SoftLayer_Software_Component who's SoftLayer_Software_License points to the SoftLayer_Software_Description for "Swsoft" "Plesk", you'll actually get a SoftLayer_Software_Component_Swsoft_Plesk object. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Software_Component](/reference/datatypes/SoftLayer_Software_Component )
+
+
+* [SoftLayer_Software_License](/reference/datatypes/SoftLayer_Software_License )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -176,6 +189,42 @@ The "Manufacturer" and "Name" properties of a SoftLayer_Software_Description are
             <span class='views-field-title'><a href="#validFilesystemTypes" name=validFilesystemTypes>validFilesystemTypes</a></span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Configuration_Storage_Filesystem_Type'>SoftLayer_Configuration_Storage_Filesystem_Type[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#attributeCount" name=attributeCount>attributeCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#compatibleSoftwareDescriptionCount" name=compatibleSoftwareDescriptionCount>compatibleSoftwareDescriptionCount</a></span>
+            <div class='views-field-body'>A count of a list of the software descriptions that are compatible with this software description. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#featureCount" name=featureCount>featureCount</a></span>
+            <div class='views-field-body'>A count of the feature attributes of a software description. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#latestVersionCount" name=latestVersionCount>latestVersionCount</a></span>
+            <div class='views-field-body'>A count of the latest version of a software description. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#productItemCount" name=productItemCount>productItemCount</a></span>
+            <div class='views-field-body'>A count of the various product items to which this software description is linked. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#softwareLicenseCount" name=softwareLicenseCount>softwareLicenseCount</a></span>
+            <div class='views-field-body'>A count of software Licenses that govern this Software Description. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#validFilesystemTypeCount" name=validFilesystemTypeCount>validFilesystemTypeCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

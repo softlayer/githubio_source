@@ -19,7 +19,9 @@ classes:
 
 ## Description
 A network gateway status is a value representing the state of a network gateway. The possible values are "ACTIVE" for when the gateway is ready for normal use and "UPDATING" for when the gateway is being updated. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

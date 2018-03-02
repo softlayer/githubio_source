@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Network_Bandwidth_Version1_Host type contains general information used to the route a server to its pod. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

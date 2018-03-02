@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -51,6 +56,7 @@ classes:
             <div class='views-field-body'>Flexible Credit Program the affiliate belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_FlexibleCredit_Program'>SoftLayer_FlexibleCredit_Program </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

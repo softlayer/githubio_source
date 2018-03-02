@@ -29,3 +29,4 @@ Retrieve the current billable public outbound bandwidth for this hardware for th
 
 ### Return Values
 decimal
+

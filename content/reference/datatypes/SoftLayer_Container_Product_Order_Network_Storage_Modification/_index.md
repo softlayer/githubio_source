@@ -23,6 +23,17 @@ The SoftLayer_Container_Product_Order_Network_Storage_Modification datatype has 
 The ''packageId'' property passed in for CloudLayer storage accounts must be set to 0 (zero) and the ''quantity'' property must be set to 1. The location does not have to be set. Please use the [[SoftLayer_Product_Package]] service to retrieve a list of CloudLayer items. 
 
 NOTE: When upgrading CloudLayer storage service from a metered plan (pay as you go) to a non-metered plan, make sure the chosen plan's storage allotment has enough space to cover the current usage. If the chosen plan's usage allotment is less than the CloudLayer storage's usage the order will be rejected. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Product_Order::verifyOrder](/reference/services/SoftLayer_Product_Order/verifyOrder )
+*  [SoftLayer_Product_Order::placeOrder](/reference/services/SoftLayer_Product_Order/placeOrder )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

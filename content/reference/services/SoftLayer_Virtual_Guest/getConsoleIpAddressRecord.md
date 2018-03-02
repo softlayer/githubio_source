@@ -29,3 +29,4 @@ Retrieve a record containing information about a computing instance's console IP
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component_IpAddress'>SoftLayer_Virtual_Guest_Network_Component_IpAddress </a>
+

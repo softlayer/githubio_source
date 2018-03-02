@@ -26,3 +26,10 @@ This method returns a SoftLayer_Container_Account_Graph_Outputs containing a bas
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Account_Graph_Outputs'>SoftLayer_Container_Account_Graph_Outputs </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Account::getHistoricalBackupGraph](/reference/services/SoftLayer_Account/getHistoricalBackupGraph )
+*  [SoftLayer_Account::getAccountBackupHistory](/reference/services/SoftLayer_Account/getAccountBackupHistory )
+

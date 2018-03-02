@@ -28,3 +28,4 @@ The '''getBackendOutgoingBandwidth''' method retrieves the amount of outgoing pr
 
 ### Return Values
 float
+

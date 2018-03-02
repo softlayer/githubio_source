@@ -26,3 +26,4 @@ Remove a host from the load balancing pool of a global load balancer account.
 
 ### Return Values
 boolean
+

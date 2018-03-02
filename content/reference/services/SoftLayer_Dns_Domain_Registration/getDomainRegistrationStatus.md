@@ -29,3 +29,4 @@ Retrieve the domain registration status.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Status'>SoftLayer_Dns_Domain_Registration_Status </a>
+

@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Provisioning_Version1_Transaction_Group
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Provisioning_Version1_Transaction_Group' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_Group' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_Group' >Datatype</a></li>
     </ul>
 </div>
 
@@ -21,6 +21,16 @@ classes:
 The SoftLayer_Provisioning_Version1_Transaction_Group data type contains general information relating to a single SoftLayer hardware transaction group. 
 
 SoftLayer customers are unable to change their hardware transactions or the hardware transaction group. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Provisioning_Version1_Transaction_Group::getObject](/reference/services/SoftLayer_Provisioning_Version1_Transaction_Group/getObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

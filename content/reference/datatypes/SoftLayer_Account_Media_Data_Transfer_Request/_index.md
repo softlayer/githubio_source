@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Account_Media_Data_Transfer_Request
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Account_Media_Data_Transfer_Request' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Media_Data_Transfer_Request' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Media_Data_Transfer_Request' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Account_Media_Data_Transfer_Request data type contains information on a single Data Transfer Service request. Creation of these requests is limited to SoftLayer customers through the SoftLayer Customer Portal. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -120,6 +125,22 @@ The SoftLayer_Account_Media_Data_Transfer_Request data type contains information
             <span class='views-field-title'><a href="#tickets" name=tickets>tickets</a></span>
             <div class='views-field-body'>All tickets that are attached to the data transfer request. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#activeTicketCount" name=activeTicketCount>activeTicketCount</a></span>
+            <div class='views-field-body'>A count of the active tickets that are attached to the data transfer request. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#shipmentCount" name=shipmentCount>shipmentCount</a></span>
+            <div class='views-field-body'>A count of the shipments of the request. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#ticketCount" name=ticketCount>ticketCount</a></span>
+            <div class='views-field-body'>A count of all tickets that are attached to the data transfer request. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -19,6 +19,29 @@ classes:
 
 ## Description 
 SoftLayer tickets have the ability to be associated with specific virtual guests in a customer's inventory. Attaching virtual guests to a ticket can greatly increase response time from SoftLayer for issues that are related to one or more specific servers on a customer's account. The SoftLayer_Ticket_Attachment_Virtual_Guest data type models the relationship between a virtual guest and a ticket. Only one attachment record may exist per virtual guest per ticket. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Ticket::getAttachedVirtualGuests](/reference/services/SoftLayer_Ticket/getAttachedVirtualGuests )
+*  [SoftLayer_Ticket::addAttachedVirtualGuest](/reference/services/SoftLayer_Ticket/addAttachedVirtualGuest )
+*  [SoftLayer_Ticket::removeAttachedVirtualGuest](/reference/services/SoftLayer_Ticket/removeAttachedVirtualGuest )
+
+
+
+### seeAlso
+
+* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+
+
+* [SoftLayer_Ticket_Attachment_File](/reference/datatypes/SoftLayer_Ticket_Attachment_File )
+
+
+* [SoftLayer_Ticket_Attachment_Hardware](/reference/datatypes/SoftLayer_Ticket_Attachment_Hardware )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -76,6 +99,7 @@ SoftLayer tickets have the ability to be associated with specific virtual guests
             <div class='views-field-body'>The virtualized guest or CloudLayer Computing Instance that is attached to a ticket. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

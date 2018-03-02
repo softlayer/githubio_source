@@ -28,3 +28,4 @@ Retrieve the contact information for the brand such as the corporate or support 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Brand_Contact'>SoftLayer_Brand_Contact[] </a>
+

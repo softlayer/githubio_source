@@ -23,7 +23,9 @@ SoftLayer provides its customers the ability to add an additional layer of secur
 The Phone external binding service allows a user to create an external binding, enable, disable, or unlock an external binding, and delete an external binding. 
 
 Once a SoftLayer user has a valid and active external binding, they will be required to always use their credential to login to the SoftLayer customer portal.  In addition any user with an active external binding will be prohibited from using the API. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

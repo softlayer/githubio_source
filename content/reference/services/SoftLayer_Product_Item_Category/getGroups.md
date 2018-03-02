@@ -30,3 +30,4 @@ Retrieve a collection of service offering category groups. Each group contains a
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Package_Item_Category_Group'>SoftLayer_Product_Package_Item_Category_Group[] </a>
+

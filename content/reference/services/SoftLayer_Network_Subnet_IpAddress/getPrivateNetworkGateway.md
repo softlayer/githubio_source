@@ -29,3 +29,4 @@ Retrieve the network gateway appliance using this address as the private IP addr
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a>
+

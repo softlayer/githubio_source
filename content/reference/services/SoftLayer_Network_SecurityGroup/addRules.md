@@ -27,3 +27,4 @@ Add new rules to a security group by sending in an array of template [[SoftLayer
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_RequestRules'>SoftLayer_Network_SecurityGroup_RequestRules </a>
+

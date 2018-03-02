@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Software_Component
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Software_Component' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Software_Component' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Software_Component' >Datatype</a></li>
     </ul>
 </div>
 
@@ -23,6 +23,24 @@ A SoftLayer_Software_Component ties the installation of a specific piece of soft
 SoftLayer_Software_Component works with SoftLayer_Software_License and SoftLayer_Software_Description to tie this all together. 
 
 <ul> <li>SoftLayer_Software_Component is the installation of a specific piece of software onto a specific piece of hardware in accordance to a software license. <ul> <li>SoftLayer_Software_License dictates when and how a specific piece of software may be installed onto a piece of hardware. <ul> <li>SoftLayer_Software_Description describes a specific piece of software which can be installed onto hardware in accordance with it's license agreement. </li></ul></li></ul></li></ul> 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Storage::getObject](/reference/services/SoftLayer_Network_Storage/getObject )
+
+
+
+### seeAlso
+
+* [SoftLayer_Software_License](/reference/datatypes/SoftLayer_Software_License )
+
+
+* [SoftLayer_Software_Description](/reference/datatypes/SoftLayer_Software_Description )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -99,6 +117,17 @@ SoftLayer_Software_Component works with SoftLayer_Software_License and SoftLayer
             <span class='views-field-title'><a href="#virtualGuest" name=virtualGuest>virtualGuest</a></span>
             <div class='views-field-body'>The virtual guest this software component is installed upon. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#passwordCount" name=passwordCount>passwordCount</a></span>
+            <div class='views-field-body'>A count of username/Password pairs used for access to this Software Installation. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#passwordHistoryCount" name=passwordHistoryCount>passwordHistoryCount</a></span>
+            <div class='views-field-body'>A count of history Records for Software Passwords. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

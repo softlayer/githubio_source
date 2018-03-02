@@ -27,3 +27,4 @@ Update a certificate. Modifications are restricted to the note and CSR if the ar
 
 ### Return Values
 boolean
+

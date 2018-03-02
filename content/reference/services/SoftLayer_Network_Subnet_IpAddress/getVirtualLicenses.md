@@ -30,3 +30,4 @@ Retrieve virtual licenses allocated for an IP Address.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Software_VirtualLicense'>SoftLayer_Software_VirtualLicense[] </a>
+

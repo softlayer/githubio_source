@@ -32,3 +32,13 @@ This method should be called once an attack has been identified using getSubnetR
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_IntrusionProtection_SubnetReport'>SoftLayer_Container_Network_IntrusionProtection_SubnetReport[] </a>
+
+### External Links
+
+
+* [http://www.securityfocus.com/vulnerabilities]()
+
+
+* [http://cve.mitre.org/find/index.html]()
+
+

@@ -30,3 +30,4 @@ Retrieve collection of scale VLANs this VLAN applies to.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_Network_Vlan'>SoftLayer_Scale_Network_Vlan[] </a>
+

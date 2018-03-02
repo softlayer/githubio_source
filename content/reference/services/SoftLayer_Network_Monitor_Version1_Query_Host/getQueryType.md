@@ -29,3 +29,4 @@ Retrieve the type of monitoring query that is executed when this hardware is mon
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Type'>SoftLayer_Network_Monitor_Version1_Query_Type </a>
+

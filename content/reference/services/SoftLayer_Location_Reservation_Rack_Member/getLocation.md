@@ -29,3 +29,4 @@ Retrieve location relation for the rack member
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+

@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Network_LoadBalancer_Global_Account object who
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Account'>SoftLayer_Network_LoadBalancer_Global_Account </a>
+

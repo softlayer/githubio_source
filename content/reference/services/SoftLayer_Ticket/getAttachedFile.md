@@ -27,3 +27,11 @@ Retrieve the file attached to a SoftLayer ticket by it's given identifier. To re
 
 ### Return Values
 binary data
+
+
+### associatedMethods
+
+*  [SoftLayer_Ticket::getAttachedFiles](/reference/services/SoftLayer_Ticket/getAttachedFiles )
+*  [SoftLayer_Ticket::getAttachedFiles](/reference/services/SoftLayer_Ticket/getAttachedFiles )
+*  [SoftLayer_Ticket::addAttachedFile](/reference/services/SoftLayer_Ticket/addAttachedFile )
+

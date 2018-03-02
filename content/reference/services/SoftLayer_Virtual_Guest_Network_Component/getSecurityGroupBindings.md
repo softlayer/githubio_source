@@ -30,3 +30,4 @@ Retrieve the bindings associating security groups to this network component
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding'>SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding[] </a>
+

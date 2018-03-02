@@ -19,7 +19,9 @@ classes:
 
 ## Description
 A scale network VLAN is a VLAN that scaled members will be placed on.
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

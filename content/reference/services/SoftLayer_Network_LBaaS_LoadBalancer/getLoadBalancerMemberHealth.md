@@ -26,3 +26,4 @@ Return load balancer members health
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_LBaaS_PoolMembersHealth'>SoftLayer_Network_LBaaS_PoolMembersHealth[] </a>
+

@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 This class represents a login/logout sheet for facility visitors.
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -96,6 +101,7 @@ This class represents a login/logout sheet for facility visitors.
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

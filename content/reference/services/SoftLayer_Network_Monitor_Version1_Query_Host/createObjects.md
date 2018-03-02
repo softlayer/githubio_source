@@ -28,3 +28,4 @@ Passing in a collection of unsaved instances of Query_Host objects into this fun
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host'>SoftLayer_Network_Monitor_Version1_Query_Host[] </a>
+

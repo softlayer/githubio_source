@@ -29,3 +29,4 @@ Retrieve a flag indicating that the virtual guest has at least one disk which is
 
 ### Return Values
 boolean
+

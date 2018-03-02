@@ -29,3 +29,4 @@ Retrieve the total disk space of all images in a image template group.
 
 ### Return Values
 float
+

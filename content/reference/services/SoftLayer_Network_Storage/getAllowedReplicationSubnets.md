@@ -30,3 +30,4 @@ Retrieve the SoftLayer_Network_Subnet objects which are allowed access to this s
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+

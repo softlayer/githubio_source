@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Event Log service lets you find interesting events related to various SoftLayer products and services such as hardware, virtual server or DNS. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

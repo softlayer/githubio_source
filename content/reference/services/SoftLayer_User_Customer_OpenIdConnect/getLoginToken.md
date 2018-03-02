@@ -25,3 +25,4 @@ Attempt to authenticate a user to the SoftLayer customer portal using the provid
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Authentication_Response_Common'>SoftLayer_Container_Authentication_Response_Common </a>
+

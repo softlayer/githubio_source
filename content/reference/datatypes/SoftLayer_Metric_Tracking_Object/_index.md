@@ -13,12 +13,22 @@ classes:
 # SoftLayer_Metric_Tracking_Object
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Metric_Tracking_Object' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 Metric tracking objects provides a common interface to all metrics provided by SoftLayer. These metrics range from network component traffic for a server to aggregated Bandwidth Pooling traffic and more. Every object within SoftLayer's range of objects that has data that can be tracked over time has an associated tracking object. Use the [[SoftLayer_Metric_Tracking_Object]] service to retrieve raw and graph data from a tracking object. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Metric_Tracking_Object_Data](/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +76,7 @@ Metric tracking objects provides a common interface to all metrics provided by S
             <div class='views-field-body'>The type of data that a tracking object polls. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Type'>SoftLayer_Metric_Tracking_Object_Type </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

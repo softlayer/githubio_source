@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Hardware_Attribute type contains general information for a hardware attribute. Hardware attributes can be assigned to specific hardware objects to describe relatively arbitrary information. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -56,6 +61,7 @@ The SoftLayer_Hardware_Attribute type contains general information for a hardwar
             <div class='views-field-body'>The type of hardware attribute that this represents. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Attribute_Type'>SoftLayer_Hardware_Attribute_Type </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

@@ -29,3 +29,4 @@ Retrieve the network component of the switch interface that this network compone
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>
+

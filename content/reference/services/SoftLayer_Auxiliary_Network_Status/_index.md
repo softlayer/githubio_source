@@ -38,7 +38,9 @@ This service provides a way for a SoftLayer customer to obtain current latency i
 * NETWORK_PRIVATE_SEATTLE
 * NETWORK_PRIVATE_WDC
 Information 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

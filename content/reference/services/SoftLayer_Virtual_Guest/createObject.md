@@ -352,3 +352,11 @@ Location: https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/1301396/getO
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Virtual_Guest::createObjects](/reference/services/SoftLayer_Virtual_Guest/createObjects )
+*  [SoftLayer_Virtual_Guest::generateOrderTemplate](/reference/services/SoftLayer_Virtual_Guest/generateOrderTemplate )
+*  [SoftLayer_Virtual_Guest::getCreateObjectOptions](/reference/services/SoftLayer_Virtual_Guest/getCreateObjectOptions )
+

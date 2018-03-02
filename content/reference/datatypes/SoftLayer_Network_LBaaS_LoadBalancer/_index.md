@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Network_LBaaS_LoadBalancer
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancer' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancer' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_LBaaS_LoadBalancer type presents a structure containing attributes of a load balancer, and its related objects including listeners, pools and members. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -125,6 +130,22 @@ The SoftLayer_Network_LBaaS_LoadBalancer type presents a structure containing at
             <span class='views-field-title'><a href="#members" name=members>members</a></span>
             <div class='views-field-body'>Members assigned to load balancer. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_Member'>SoftLayer_Network_LBaaS_Member[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#healthMonitorCount" name=healthMonitorCount>healthMonitorCount</a></span>
+            <div class='views-field-body'>A count of health monitors for the backend members. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#listenerCount" name=listenerCount>listenerCount</a></span>
+            <div class='views-field-body'>A count of listeners assigned to load balancer. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#memberCount" name=memberCount>memberCount</a></span>
+            <div class='views-field-body'>A count of members assigned to load balancer. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

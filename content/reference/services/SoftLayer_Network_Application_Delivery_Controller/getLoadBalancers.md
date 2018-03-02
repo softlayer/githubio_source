@@ -30,3 +30,4 @@ Retrieve the virtual IP address records that belong to an application delivery c
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_LoadBalancer_VirtualIpAddress[] </a>
+

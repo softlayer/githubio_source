@@ -29,3 +29,4 @@ Retrieve a Billing Item's total, including any child billing items if they exist
 
 ### Return Values
 float
+

@@ -29,3 +29,4 @@ Retrieve a flag that will reflect whether the detailed version of the pdf has be
 
 ### Return Values
 boolean
+

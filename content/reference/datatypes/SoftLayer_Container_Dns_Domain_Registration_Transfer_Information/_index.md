@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Transfer Information container for domain registration 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

@@ -21,7 +21,9 @@ classes:
 SoftLayer_Security_Certificate_Request holds your SSL certificate request data. This data is used to place an SSL certificate order with a Certificate Authority. 
 
 To create an SSL certificate order, pass a completed [[SoftLayer_Container_Product_Order_Security_Certificate|SSL order container]] to the [[SoftLayer_Product_Order::placeOrder|SoftLayer ordering service]]. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

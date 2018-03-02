@@ -29,3 +29,4 @@ Retrieve determines whether the instance is ineligible for cancellation because 
 
 ### Return Values
 boolean
+

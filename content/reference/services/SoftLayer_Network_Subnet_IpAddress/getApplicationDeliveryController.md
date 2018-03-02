@@ -29,3 +29,4 @@ Retrieve the application delivery controller using this address.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller </a>
+

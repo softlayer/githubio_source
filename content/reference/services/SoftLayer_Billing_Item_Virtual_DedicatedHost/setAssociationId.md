@@ -27,3 +27,9 @@ Set an associated billing item to an orphan billing item. Associations allow you
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Billing_Item::removeAssociationId](/reference/services/SoftLayer_Billing_Item/removeAssociationId )
+

@@ -30,3 +30,4 @@ Retrieve a user's successful attempts to log into the SoftLayer customer portal.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer_Access_Authentication'>SoftLayer_User_Customer_Access_Authentication[] </a>
+

@@ -28,3 +28,4 @@ Retrieve whether or not an account has automatic private VLAN spanning enabled.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account_Network_Vlan_Span'>SoftLayer_Account_Network_Vlan_Span </a>
+

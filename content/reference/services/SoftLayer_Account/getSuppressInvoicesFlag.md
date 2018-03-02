@@ -28,3 +28,4 @@ Retrieve a flag indicating to suppress invoices.
 
 ### Return Values
 boolean
+

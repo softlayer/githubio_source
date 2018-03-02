@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Billing_Item_Cancellation_Request object whose
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request'>SoftLayer_Billing_Item_Cancellation_Request </a>
+

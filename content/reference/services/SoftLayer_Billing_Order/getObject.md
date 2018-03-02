@@ -29,3 +29,9 @@ getObject retrieves the SoftLayer_Billing_Order object whose ID number correspon
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Account::getInvoices](/reference/services/SoftLayer_Account/getInvoices )
+

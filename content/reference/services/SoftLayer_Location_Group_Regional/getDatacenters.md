@@ -30,3 +30,4 @@ Retrieve the datacenters in a group.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+

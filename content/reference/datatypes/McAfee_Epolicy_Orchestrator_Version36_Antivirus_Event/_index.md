@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The McAfee_Epolicy_Orchestrator_Version36_Antivirus_Event data type represents a single anti-virus event. It contains details about the event such as the date the event occurred, the virus that is detected and the action that is taken. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -61,6 +66,7 @@ The McAfee_Epolicy_Orchestrator_Version36_Antivirus_Event data type represents a
             <div class='views-field-body'>The action taken when a virus is detected. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p>McAfee_Epolicy_Orchestrator_Version36_Antivirus_Event_Filter_Description</p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

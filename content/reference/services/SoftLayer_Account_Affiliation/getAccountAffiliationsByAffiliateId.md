@@ -28,3 +28,4 @@ Get account affiliation information associated with affiliate id.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account_Affiliation'>SoftLayer_Account_Affiliation[] </a>
+

@@ -28,3 +28,9 @@ Delete a domain's resource record. '''This cannot be undone.''' Be wary of runni
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_ResourceRecord::deleteObjects](/reference/services/SoftLayer_Dns_ResourceRecord/deleteObjects )
+

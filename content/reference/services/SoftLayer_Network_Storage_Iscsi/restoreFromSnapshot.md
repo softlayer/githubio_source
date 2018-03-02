@@ -27,3 +27,10 @@ Restore the volume from a snapshot that was previously taken.
 
 ### Return Values
 boolean
+
+### External Links
+
+
+* [In depth details on storage snapshots at Wikipedia](http://en.wikipedia.org/wiki/Snapshot_(computer_storage))
+
+

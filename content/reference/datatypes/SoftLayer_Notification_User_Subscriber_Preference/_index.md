@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Notification_User_Subscriber_Preference
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Notification_User_Subscriber_Preference' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber_Preference' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber_Preference' >Datatype</a></li>
     </ul>
 </div>
 
@@ -21,6 +21,16 @@ classes:
 Preferences are settings that can be modified to change the behavior of the subscription.  For example, modify the limit preference to only receive notifications 10 times instead of 1 during a billing cycle. 
 
 NOTE: Some preferences have certain restrictions on values that can be set. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Notification_User_Subscriber::editObject](/reference/services/SoftLayer_Notification_User_Subscriber/editObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -68,6 +78,7 @@ NOTE: Some preferences have certain restrictions on values that can be set.
             <div class='views-field-body'>Details of the subscriber tied to the preference. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

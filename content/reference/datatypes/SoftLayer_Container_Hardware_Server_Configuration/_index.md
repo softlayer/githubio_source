@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 The SoftLayer_Container_Hardware_Server_Configuration data type contains information relating to a server's item price information, and hard drive partition information. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Hardware::getObject](/reference/services/SoftLayer_Hardware/getObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

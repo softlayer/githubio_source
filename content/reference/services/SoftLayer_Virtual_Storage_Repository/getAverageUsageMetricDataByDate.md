@@ -28,3 +28,4 @@ Returns the average disk space usage for a storage repository.
 
 ### Return Values
 float
+

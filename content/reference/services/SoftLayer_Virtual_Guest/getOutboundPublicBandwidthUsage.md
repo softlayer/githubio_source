@@ -29,3 +29,4 @@ Retrieve the total public outbound bandwidth for this computing instance for the
 
 ### Return Values
 decimal
+

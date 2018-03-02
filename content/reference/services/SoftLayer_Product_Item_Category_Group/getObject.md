@@ -29,3 +29,4 @@ Each product item category must be tied to a category group. These category grou
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Category_Group'>SoftLayer_Product_Item_Category_Group </a>
+

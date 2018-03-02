@@ -26,3 +26,4 @@ This method returns your login credentials to the public CDN FTP.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_Authentication_Data'>SoftLayer_Container_Network_Authentication_Data </a>
+

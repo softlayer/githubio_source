@@ -29,3 +29,4 @@ Retrieve all of the account's current and former Flexible Credit enrollments.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_FlexibleCredit_Enrollment'>SoftLayer_FlexibleCredit_Enrollment[] </a>
+

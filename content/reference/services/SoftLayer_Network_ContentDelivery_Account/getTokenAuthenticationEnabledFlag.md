@@ -29,3 +29,4 @@ Retrieve indicates if the token authentication service is enabled or not.
 
 ### Return Values
 boolean
+

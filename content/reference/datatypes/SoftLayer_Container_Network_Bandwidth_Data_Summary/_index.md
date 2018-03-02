@@ -19,6 +19,17 @@ classes:
 
 ## Description 
 SoftLayer_Container_Network_Bandwidth_Data_Summary models an interface's overall bandwidth usage during it's current billing cycle. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Hardware_Server::getPublicBandwidthDataSummary](/reference/services/SoftLayer_Hardware_Server/getPublicBandwidthDataSummary )
+*  [SoftLayer_Hardware_Server::getPrivateBandwidthDataSummary](/reference/services/SoftLayer_Hardware_Server/getPrivateBandwidthDataSummary )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

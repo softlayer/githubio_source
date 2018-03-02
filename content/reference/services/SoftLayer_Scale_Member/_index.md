@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The base member of a scale group. Members are the volatile scaling units of a scale group. This cannot be used by itself, one of the more specific member types and services must be used. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

@@ -29,3 +29,4 @@ Retrieve the total Recurring amount of this invoice. This amount does not includ
 
 ### Return Values
 decimal
+

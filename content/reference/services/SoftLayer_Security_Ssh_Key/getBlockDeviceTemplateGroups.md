@@ -30,3 +30,4 @@ Retrieve the image template groups that are linked to an SSH key.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group[] </a>
+

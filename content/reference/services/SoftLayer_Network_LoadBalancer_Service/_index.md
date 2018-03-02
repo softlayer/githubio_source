@@ -56,7 +56,9 @@ Load balancer services represent the "routes" that the load balancer will have a
 The services also have a routing type, these ALSO need to be the same for services that share the same port. For this example, the services with a source port of 80 should have HTTP as their type.  The other two services should have TCP as their type. 
 
 The affect of other variables are listed in their individual documentation. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

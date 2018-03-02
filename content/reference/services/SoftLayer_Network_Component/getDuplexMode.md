@@ -29,3 +29,4 @@ Retrieve the duplex mode of a network component.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Component_Duplex_Mode'>SoftLayer_Network_Component_Duplex_Mode </a>
+

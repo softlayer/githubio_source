@@ -19,7 +19,9 @@ classes:
 
 ## Description
 An account's user may obtain access to SoftLayer's API through this authentication service.
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

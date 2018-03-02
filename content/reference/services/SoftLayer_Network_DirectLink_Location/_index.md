@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The SoftLayer_Network_DirectLink_Location service allows users to create, update, delete, get details of a Direct Link location and retrieve all existing details. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

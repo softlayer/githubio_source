@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 A network storage partnership is used to link multiple volumes to each other. These partnerships describe replication hierarchies or link volume snapshots to their associated storage volume. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -71,6 +76,7 @@ A network storage partnership is used to link multiple volumes to each other. Th
             <div class='views-field-body'>The associated parent volume for a partnership. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

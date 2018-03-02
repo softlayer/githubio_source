@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Network_SecurityGroup_Rule data type contains general information for a single rule that belongs to a [[SoftLayer_Network_SecurityGroup|security group]]. By default, all traffic (both inbound and  outbound) to a virtual server instance is blocked. Security group rules are permissive, and define the allowed incoming (ingress) and outgoing (egress) traffic to both the public and private interfaces of a  virtual server instance. The order of rules within a security group does not matter and priority always falls to the least restrictive rule. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -91,6 +96,7 @@ The SoftLayer_Network_SecurityGroup_Rule data type contains general information 
             <div class='views-field-body'>The security group of this rule. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

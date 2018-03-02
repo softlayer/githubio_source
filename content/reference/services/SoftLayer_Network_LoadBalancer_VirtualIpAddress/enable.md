@@ -26,3 +26,9 @@ Enable a disabled Virtual IP Address, allowing connections back to the IP addres
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_LoadBalancer_VirtualIpAddress::disable](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/disable )
+

@@ -26,3 +26,4 @@ Returns the capacity usage for an IBM Cloud Object Storage account.
 
 ### Return Values
 integer
+

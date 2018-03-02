@@ -26,3 +26,4 @@ Provides the list of capabilities a Pod fulfills. See [[SoftLayer_Network_Pod/li
 
 ### Return Values
 array of strings
+

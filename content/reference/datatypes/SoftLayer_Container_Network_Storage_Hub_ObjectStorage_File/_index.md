@@ -19,6 +19,22 @@ classes:
 
 ## Description 
 SoftLayer_Container_Network_Storage_Hub_ObjectStorage_File provides specific details that only apply to files that are sent or received from CloudLayer storage resources. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Storage::uploadFile](/reference/services/SoftLayer_Network_Storage/uploadFile )
+*  [SoftLayer_Network_Storage::downloadFile](/reference/services/SoftLayer_Network_Storage/downloadFile )
+
+
+
+### seeAlso
+
+* [SoftLayer_Container_Utility_File_Entity](/reference/datatypes/SoftLayer_Container_Utility_File_Entity )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

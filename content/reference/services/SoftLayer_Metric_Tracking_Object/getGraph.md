@@ -29,3 +29,4 @@ Retrieve a PNG image of a metric in graph form.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+

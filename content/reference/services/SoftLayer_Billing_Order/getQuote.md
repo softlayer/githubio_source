@@ -29,3 +29,4 @@ Retrieve the quote of an order. This quote holds information about its expiratio
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Order_Quote'>SoftLayer_Billing_Order_Quote </a>
+

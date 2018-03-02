@@ -29,3 +29,4 @@ Retrieve the public VLAN for accessing this gateway.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>
+

@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Hardware_Benchmark_Certification object whose 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Benchmark_Certification'>SoftLayer_Hardware_Benchmark_Certification </a>
+

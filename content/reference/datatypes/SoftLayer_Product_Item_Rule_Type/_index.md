@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The item rule type data type represents the type of an item rule. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

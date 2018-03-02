@@ -28,3 +28,4 @@ Retrieve indicates whether this account is allowed to silently migrate to use IB
 
 ### Return Values
 boolean
+

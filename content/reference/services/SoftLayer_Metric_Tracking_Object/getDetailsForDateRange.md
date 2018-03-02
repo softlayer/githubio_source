@@ -29,3 +29,9 @@ Retrieve a collection of detailed metric data over a date range. Ideal if you wa
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Metric_Tracking_Object_Details'>SoftLayer_Container_Metric_Tracking_Object_Details[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Metric_Tracking_Object::getSummary](/reference/services/SoftLayer_Metric_Tracking_Object/getSummary )
+

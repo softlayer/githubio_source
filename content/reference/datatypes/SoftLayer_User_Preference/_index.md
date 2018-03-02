@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_User_Preference data type contains a single user preference to a specific preference type. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -51,6 +56,7 @@ The SoftLayer_User_Preference data type contains a single user preference to a s
             <div class='views-field-body'>Type of user preference </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Preference_Type'>SoftLayer_User_Preference_Type </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

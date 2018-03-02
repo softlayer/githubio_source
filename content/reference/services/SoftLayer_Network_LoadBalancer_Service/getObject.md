@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Network_LoadBalancer_Service object whose ID n
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Service'>SoftLayer_Network_LoadBalancer_Service </a>
+

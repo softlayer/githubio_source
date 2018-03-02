@@ -27,3 +27,4 @@ classes:
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_FlexibleCredit_Company_Type'>SoftLayer_FlexibleCredit_Company_Type[] </a>
+

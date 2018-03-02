@@ -26,3 +26,4 @@ Returns credential limits for this IBM Cloud Object Storage account.
 
 ### Return Values
 integer
+

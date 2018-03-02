@@ -29,3 +29,4 @@ Retrieve the gateway this member belongs to.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a>
+

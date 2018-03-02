@@ -26,3 +26,20 @@ Perform a WHOIS lookup from SoftLayer's application servers on the given IP addr
 
 ### Return Values
 string
+
+### External Links
+
+
+* [WHOIS at Wikipedia](http://en.wikipedia.org/wiki/WHOIS)
+
+
+* [RFC 3912 - WHOIS Protocol Specification at ietf.org](http://tools.ietf.org/html/rfc3912)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Utility_Network::ping](/reference/services/SoftLayer_Utility_Network/ping )
+*  [SoftLayer_Utility_Network::traceroute](/reference/services/SoftLayer_Utility_Network/traceroute )
+*  [SoftLayer_Utility_Network::nslookup](/reference/services/SoftLayer_Utility_Network/nslookup )
+

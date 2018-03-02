@@ -29,3 +29,4 @@ Retrieve when true this preset is only allowed to upgrade/downgrade to other pre
 
 ### Return Values
 boolean
+

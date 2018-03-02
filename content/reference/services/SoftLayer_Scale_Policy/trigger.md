@@ -28,3 +28,4 @@ classes:
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_Member'>SoftLayer_Scale_Member[] </a>
+

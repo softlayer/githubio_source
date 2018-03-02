@@ -27,3 +27,4 @@ This method returns service product categories that can be canceled via API.  Yo
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>
+

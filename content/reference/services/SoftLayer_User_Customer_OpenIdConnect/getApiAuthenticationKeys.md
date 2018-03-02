@@ -30,3 +30,4 @@ Retrieve a portal user's API Authentication keys. There is a max limit of two AP
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer_ApiAuthentication'>SoftLayer_User_Customer_ApiAuthentication[] </a>
+

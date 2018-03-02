@@ -27,3 +27,4 @@ Returns all tags of a given object type.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Tag_Type'>SoftLayer_Tag_Type[] </a>
+

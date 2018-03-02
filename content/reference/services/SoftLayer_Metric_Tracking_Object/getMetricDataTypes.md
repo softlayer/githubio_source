@@ -26,3 +26,4 @@ Returns a collection of metric data types that can be retrieved for a metric tra
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Metric_Data_Type'>SoftLayer_Container_Metric_Data_Type[] </a>
+

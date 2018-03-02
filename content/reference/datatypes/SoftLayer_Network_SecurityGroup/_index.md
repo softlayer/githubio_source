@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Network_SecurityGroup
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_SecurityGroup' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_SecurityGroup' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_SecurityGroup' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_SecurityGroup data type contains general information for a single security group. A security group contains a set of IP filter [[SoftLayer_Network_SecurityGroup_Rule (type)|rules]] that define how to handle incoming (ingress) and outgoing (egress) traffic to both the public and private interfaces of a virtual server instance and a set of [[SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding (type)|bindings]] to associate virtual guest network components with the security group. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -80,6 +85,22 @@ The SoftLayer_Network_SecurityGroup data type contains general information for a
             <span class='views-field-title'><a href="#rules" name=rules>rules</a></span>
             <div class='views-field-body'>The rules for this security group. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_Rule'>SoftLayer_Network_SecurityGroup_Rule[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkComponentBindingCount" name=networkComponentBindingCount>networkComponentBindingCount</a></span>
+            <div class='views-field-body'>A count of the network component bindings for this security group. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#orderBindingCount" name=orderBindingCount>orderBindingCount</a></span>
+            <div class='views-field-body'>A count of the order bindings for this security group </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#ruleCount" name=ruleCount>ruleCount</a></span>
+            <div class='views-field-body'>A count of the rules for this security group. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

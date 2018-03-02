@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Product_Item_Tax_Category data type contains the tax categories that are associated with products. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -60,6 +65,12 @@ The SoftLayer_Product_Item_Tax_Category data type contains the tax categories th
             <span class='views-field-title'><a href="#items" name=items>items</a></span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#itemCount" name=itemCount>itemCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

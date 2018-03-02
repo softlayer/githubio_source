@@ -29,3 +29,4 @@ Retrieve the billing item for a Application Delivery Controller.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item_Network_Application_Delivery_Controller'>SoftLayer_Billing_Item_Network_Application_Delivery_Controller </a>
+

@@ -21,8 +21,14 @@ classes:
 Every SoftLayer customer account has a RWHOIS record tied to it.  This RWHOIS record is used by SoftLayer's Reverse Whois system as well as SoftLayer's Automated SWIP system. 
 
 This service allows you to update your stored RWHOIS record.  Changing this record automatically updates the RWHOIS record in 24 hours, but does NOT update SWIP data.  You will need to use the SWIP service to do that. 
+
+
+
 ### seeAlso
-        SoftLayer_Network_Subnet_Swip_Transaction1                
+
+* [SoftLayer_Network_Subnet_Swip_Transaction](/reference/datatypes/SoftLayer_Network_Subnet_Swip_Transaction )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

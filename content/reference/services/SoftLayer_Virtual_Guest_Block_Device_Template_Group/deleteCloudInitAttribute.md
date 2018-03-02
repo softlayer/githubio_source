@@ -26,3 +26,4 @@ This method allows you to remove cloud init attribute for a given image template
 
 ### Return Values
 boolean
+

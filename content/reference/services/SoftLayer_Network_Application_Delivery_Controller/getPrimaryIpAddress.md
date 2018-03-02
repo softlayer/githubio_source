@@ -29,3 +29,4 @@ Retrieve an application delivery controller's primary public IP address.
 
 ### Return Values
 string
+

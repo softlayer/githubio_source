@@ -29,3 +29,4 @@ Retrieve the five most recently closed tickets that do not belong to the abuse, 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>
+

@@ -19,6 +19,24 @@ classes:
 
 ## Description 
 Every piece of hardware in SoftLayer's datacenters, including customer servers, are housed in one of many hardware chassis. The SoftLayer_Hardware_Chassis data type defines these chassis. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Hardware::getHardwareChassis](/reference/services/SoftLayer_Hardware/getHardwareChassis )
+
+
+
+### seeAlso
+
+* [SoftLayer_Hardware (type)](/reference/datatypes/SoftLayer_Hardware (type) )
+
+
+* [SoftLayer_Hardware_Server (type)](/reference/datatypes/SoftLayer_Hardware_Server (type) )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -106,6 +124,7 @@ Every piece of hardware in SoftLayer's datacenters, including customer servers, 
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

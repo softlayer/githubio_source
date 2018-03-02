@@ -29,3 +29,4 @@ Retrieve an Invoice Item's associated invoice item. If this is populated, it mea
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item </a>
+

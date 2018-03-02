@@ -32,3 +32,15 @@ The following properties are required in the ''file'' parameter.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Utility_File_Entity'>SoftLayer_Container_Utility_File_Entity </a>
+
+### External Links
+
+
+* [MIME Media Types at iana.org](http://www.iana.org/assignments/media-types/)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Storage::downloadFile](/reference/services/SoftLayer_Network_Storage/downloadFile )
+

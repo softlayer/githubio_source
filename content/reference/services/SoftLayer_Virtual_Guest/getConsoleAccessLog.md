@@ -29,3 +29,4 @@ Gets the console access logs for a computing instance
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>
+

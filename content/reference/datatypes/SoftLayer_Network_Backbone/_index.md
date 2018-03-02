@@ -13,12 +13,23 @@ classes:
 # SoftLayer_Network_Backbone
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Backbone' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Backbone' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Backbone' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 A SoftLayer_Network_Backbone represents a single backbone connection from SoftLayer to the public Internet, from the Internet to the SoftLayer private network, or a link that connects the private networks between SoftLayer's datacenters. The SoftLayer_Network_Backbone data type is a collection of data associated with one of those connections. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Backbone::getObject](/reference/services/SoftLayer_Network_Backbone/getObject )
+*  [SoftLayer_Network_Backbone::getAllBackbones](/reference/services/SoftLayer_Network_Backbone/getAllBackbones )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -81,6 +92,7 @@ A SoftLayer_Network_Backbone represents a single backbone connection from SoftLa
             <div class='views-field-body'>A backbone's primary network component. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

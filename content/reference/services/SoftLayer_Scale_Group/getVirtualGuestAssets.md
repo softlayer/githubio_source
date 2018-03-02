@@ -30,3 +30,4 @@ Retrieve collection of guests that have been pinned to this group. Guest assets 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_Asset'>SoftLayer_Scale_Asset[] </a>
+

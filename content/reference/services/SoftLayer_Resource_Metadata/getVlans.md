@@ -25,3 +25,4 @@ The getVlans method returns a list of VLAN numbers for the network component mat
 
 ### Return Values
 array of integers
+

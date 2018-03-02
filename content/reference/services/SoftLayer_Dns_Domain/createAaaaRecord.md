@@ -31,3 +31,10 @@ Create an AAAA record on a SoftLayer domain. This is a shortcut method, meant to
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_AaaaType'>SoftLayer_Dns_Domain_ResourceRecord_AaaaType </a>
+
+### External Links
+
+
+* [List of DNS record types at Wikipedia](http://en.wikipedia.org/wiki/List_of_DNS_record_types)
+
+

@@ -30,3 +30,4 @@ Retrieve the hosts in the load balancing pool for a global load balancer account
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Host'>SoftLayer_Network_LoadBalancer_Global_Host[] </a>
+

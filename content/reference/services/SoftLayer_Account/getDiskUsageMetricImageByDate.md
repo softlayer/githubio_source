@@ -27,3 +27,4 @@ Returns a disk usage image based on disk usage specified by the input parameters
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Account_Graph_Outputs'>SoftLayer_Container_Account_Graph_Outputs </a>
+

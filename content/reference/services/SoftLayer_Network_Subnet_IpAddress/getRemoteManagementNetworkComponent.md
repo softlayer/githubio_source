@@ -29,3 +29,4 @@ Retrieve an IPMI-based management network component of the IP address.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>
+

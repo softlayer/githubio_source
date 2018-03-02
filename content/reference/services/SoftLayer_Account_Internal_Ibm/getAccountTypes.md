@@ -25,3 +25,4 @@ Validates request and, if the request is approved, returns a list of allowed use
 
 ### Return Values
 array of strings
+

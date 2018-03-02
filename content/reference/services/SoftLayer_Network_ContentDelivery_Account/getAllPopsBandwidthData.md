@@ -30,3 +30,9 @@ POP bandwidth data is updated everyday at 22:50 CST (or CDT). It queries and sto
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_ContentDelivery_Bandwidth_PointsOfPresence_Summary'>SoftLayer_Container_Network_ContentDelivery_Bandwidth_PointsOfPresence_Summary[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::getBandwidthData](/reference/services/SoftLayer_Network_ContentDelivery_Account/getBandwidthData )
+

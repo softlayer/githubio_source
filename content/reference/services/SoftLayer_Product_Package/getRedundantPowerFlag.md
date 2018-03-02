@@ -29,3 +29,4 @@ Retrieve this flag determines if the package contains a redundant power supply p
 
 ### Return Values
 boolean
+

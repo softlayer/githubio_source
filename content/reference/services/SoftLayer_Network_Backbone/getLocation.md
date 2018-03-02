@@ -29,3 +29,4 @@ Retrieve which of the SoftLayer datacenters a backbone is connected to.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+

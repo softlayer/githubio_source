@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Tag
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Tag' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Tag' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Tag' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Tag data type is an optional type associated with hardware. The account ID that the tag is tied to, and the tag itself are stored in this data type. There is also a flag to denote whether the tag is internal or not. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -65,6 +70,12 @@ The SoftLayer_Tag data type is an optional type associated with hardware. The ac
             <span class='views-field-title'><a href="#references" name=references>references</a></span>
             <div class='views-field-body'>References that tie object to the tag. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#referenceCount" name=referenceCount>referenceCount</a></span>
+            <div class='views-field-body'>A count of references that tie object to the tag. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

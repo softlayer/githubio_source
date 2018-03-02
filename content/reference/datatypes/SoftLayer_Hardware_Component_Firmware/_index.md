@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -76,6 +81,7 @@ classes:
             <div class='views-field-body'>The Hardware Component Model this Firmware applies to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

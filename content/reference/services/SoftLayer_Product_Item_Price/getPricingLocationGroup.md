@@ -29,3 +29,4 @@ Retrieve the pricing location group that this price is applicable for. Prices th
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location_Group_Pricing'>SoftLayer_Location_Group_Pricing </a>
+

@@ -29,3 +29,4 @@ Retrieve a partition template's associated [[SoftLayer_Hardware_Component_Partit
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_OperatingSystem'>SoftLayer_Hardware_Component_Partition_OperatingSystem </a>
+

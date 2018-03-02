@@ -29,3 +29,4 @@ Retrieve a location's Dedicated Rack member
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location_Reservation_Rack_Member'>SoftLayer_Location_Reservation_Rack_Member </a>
+

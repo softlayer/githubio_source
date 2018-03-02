@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The SoftLayer_User_Customer_External_Binding_Vendor service is used to retrieve a list of available 3rd party vendors that SoftLayer supports for external bindings. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

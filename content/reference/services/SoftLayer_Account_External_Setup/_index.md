@@ -19,7 +19,9 @@ classes:
 
 ## Description
 This service class allows the user to set up an account to be billed by an external billing system. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

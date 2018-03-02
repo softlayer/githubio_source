@@ -28,3 +28,4 @@ Retrieve an affiliate identifier associated with the customer account.
 
 ### Return Values
 string
+

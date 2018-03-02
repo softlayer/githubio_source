@@ -30,3 +30,4 @@ Retrieve references to the [[SoftLayer_Network_Subnet_Registration|registration 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Details'>SoftLayer_Network_Subnet_Registration_Details[] </a>
+

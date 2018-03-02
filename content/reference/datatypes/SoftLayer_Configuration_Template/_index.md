@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Configuration_Template
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Configuration_Template' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Configuration_Template' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Configuration_Template' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Configuration_Template data type contains general information of an arbitrary resource. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -125,6 +130,27 @@ The SoftLayer_Configuration_Template data type contains general information of a
             <span class='views-field-title'><a href="#user" name=user>user</a></span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#configurationSectionCount" name=configurationSectionCount>configurationSectionCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#configurationTemplateReferenceCount" name=configurationTemplateReferenceCount>configurationTemplateReferenceCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#defaultValueCount" name=defaultValueCount>defaultValueCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#definitionCount" name=definitionCount>definitionCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

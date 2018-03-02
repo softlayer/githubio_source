@@ -29,3 +29,4 @@ Retrieve a guest's frontend or public router.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+

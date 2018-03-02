@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Account_Regional_Registry_Detail_Version4_Person_Default data type contains general information relating to a single SoftLayer RIR account. RIR account information in this type such as names, addresses, and phone numbers are assigned to the registry only and not to users belonging to the account. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -90,6 +95,17 @@ The SoftLayer_Account_Regional_Registry_Detail_Version4_Person_Default data type
             <span class='views-field-title'><a href="#regionalInternetRegistryHandle" name=regionalInternetRegistryHandle>regionalInternetRegistryHandle</a></span>
             <div class='views-field-body'>The associated RWhois handle of this detail object. Used only when detailed reassignments are necessary. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account_Rwhois_Handle'>SoftLayer_Account_Rwhois_Handle </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#detailCount" name=detailCount>detailCount</a></span>
+            <div class='views-field-body'>A count of references to the [[SoftLayer_Network_Subnet_Registration|registration objects]] that consume this detail object. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#propertyCount" name=propertyCount>propertyCount</a></span>
+            <div class='views-field-body'>A count of the individual properties that define this detail object's values. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -29,3 +29,4 @@ Retrieve indicates whether the network component is participating in a group of 
 
 ### Return Values
 boolean
+

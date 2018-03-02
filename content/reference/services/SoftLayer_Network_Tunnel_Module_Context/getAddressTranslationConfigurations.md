@@ -30,3 +30,9 @@ Format:
 
 ### Return Values
 string
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Tunnel_Module_Context::downloadAddressTranslationConfigurations](/reference/services/SoftLayer_Network_Tunnel_Module_Context/downloadAddressTranslationConfigurations )
+

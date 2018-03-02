@@ -26,3 +26,10 @@ classes:
 
 ### Return Values
 integer
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Storage::getAllFiles](/reference/services/SoftLayer_Network_Storage/getAllFiles )
+*  [SoftLayer_Network_Storage::getFilePendingDeleteCount](/reference/services/SoftLayer_Network_Storage/getFilePendingDeleteCount )
+

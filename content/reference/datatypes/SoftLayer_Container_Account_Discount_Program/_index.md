@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 SoftLayer_Container_Account_Discount_Program models a single outbound object for a graph of given data sets.
+
+
+### associatedMethods
+
+*  [SoftLayer_Account::getBandwidthImage](/reference/services/SoftLayer_Account/getBandwidthImage )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

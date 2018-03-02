@@ -29,3 +29,4 @@ Retrieve all the swip transactions associated with a subnet that are still activ
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet_Swip_Transaction'>SoftLayer_Network_Subnet_Swip_Transaction </a>
+

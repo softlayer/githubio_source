@@ -30,15 +30,20 @@ A vulnerability report will typically include the following information:
 
 
 If you have a firewall, SoftLayer's administrative networks need to be allowed for the vulnerability scan to be effective.  If a firewall is blocking all ports, the report may not show any problems even if some exist.  In addition you may have some indication in your firewall logs of the scan taking place as ports on your system are investigated. 
-### external links
-        Array
-(
-    [url] => http://en.wikipedia.org/wiki/Vulnerability_scanner
-    [description] => Vulnerability scanner at Wikipedia
-)
-1        
+
+### External Links
+
+
+* [Vulnerability scanner at Wikipedia](http://en.wikipedia.org/wiki/Vulnerability_scanner)
+
+
+
+
 ### seeAlso
-        SoftLayer_Network_Security_Scanner_Request_Status1                
+
+* [SoftLayer_Network_Security_Scanner_Request_Status](/reference/datatypes/SoftLayer_Network_Security_Scanner_Request_Status )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

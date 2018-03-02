@@ -30,3 +30,4 @@ Retrieve collection of scale assets this hardware corresponds to.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_Asset'>SoftLayer_Scale_Asset[] </a>
+

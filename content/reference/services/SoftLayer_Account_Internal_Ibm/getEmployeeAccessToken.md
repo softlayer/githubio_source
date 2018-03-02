@@ -26,3 +26,4 @@ Exchanges a code for a token during manager validation.
 
 ### Return Values
 string
+

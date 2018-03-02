@@ -28,3 +28,10 @@ If you want to download raw log files, prefix the username with "LOGS-" (without
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_Authentication_Data'>SoftLayer_Container_Network_Authentication_Data </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::createFtpUser](/reference/services/SoftLayer_Network_ContentDelivery_Account/createFtpUser )
+*  [SoftLayer_Network_ContentDelivery_Account::setFtpPassword](/reference/services/SoftLayer_Network_ContentDelivery_Account/setFtpPassword )
+

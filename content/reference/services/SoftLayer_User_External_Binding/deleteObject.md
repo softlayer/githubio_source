@@ -26,3 +26,4 @@ Delete an external authentication binding.  If the external binding currently ha
 
 ### Return Values
 boolean
+

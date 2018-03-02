@@ -29,3 +29,4 @@ Retrieve all network gateway devices on this account.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway[] </a>
+

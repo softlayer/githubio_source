@@ -25,3 +25,4 @@ The getVlanIds method returns a list of VLAN IDs for the network component match
 
 ### Return Values
 array of integers
+

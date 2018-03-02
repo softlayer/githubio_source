@@ -28,6 +28,23 @@ SoftLayer employees periodically log into our customer portal as users to diagno
 * 2607:f0d0:3000::/48
 * 66.228.118.67/32
 * 66.228.118.86/32
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Customer::getLoginAttempts](/reference/services/SoftLayer_User_Customer/getLoginAttempts )
+*  [SoftLayer_User_Customer::getSuccessfulLogins](/reference/services/SoftLayer_User_Customer/getSuccessfulLogins )
+*  [SoftLayer_User_Customer::getUnsuccessfulLogins](/reference/services/SoftLayer_User_Customer/getUnsuccessfulLogins )
+
+
+
+### seeAlso
+
+* [SoftLayer_User_Customer](/reference/datatypes/SoftLayer_User_Customer )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -75,6 +92,7 @@ SoftLayer employees periodically log into our customer portal as users to diagno
             <div class='views-field-body'>The user who has attempted to log into the SoftLayer customer portal. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

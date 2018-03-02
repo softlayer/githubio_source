@@ -19,6 +19,21 @@ classes:
 
 ## Description 
 This is the data type that may need to be populated to complete registraton for domains that are country code TLD's. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain_Registration::getExtendedAttributes](/reference/services/SoftLayer_Dns_Domain_Registration/getExtendedAttributes )
+
+
+
+### seeAlso
+
+* [SoftLayer_Container_Dns_Domain_Registration_List](/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_List )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

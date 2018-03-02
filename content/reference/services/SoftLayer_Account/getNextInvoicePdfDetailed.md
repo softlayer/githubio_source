@@ -26,3 +26,4 @@ Return an account's next invoice detailed portion in PDF format. The "next invoi
 
 ### Return Values
 binary data
+

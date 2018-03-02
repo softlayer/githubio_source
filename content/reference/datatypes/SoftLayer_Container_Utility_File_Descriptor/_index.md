@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 Used to describe a document in the file system on the file server 
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Employee_Management_HumanResources::getFileDescriptors](/reference/services/SoftLayer_User_Employee_Management_HumanResources/getFileDescriptors )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

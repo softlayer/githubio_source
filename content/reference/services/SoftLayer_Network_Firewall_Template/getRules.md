@@ -30,3 +30,4 @@ Retrieve the rule set that belongs to this firewall rules template.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Firewall_Template_Rule'>SoftLayer_Network_Firewall_Template_Rule[] </a>
+

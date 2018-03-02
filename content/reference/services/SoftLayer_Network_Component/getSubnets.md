@@ -30,3 +30,4 @@ Retrieve a network component's subnets. A subnet is a group of IP addresses
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+

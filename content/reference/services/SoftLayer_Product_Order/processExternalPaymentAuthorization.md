@@ -27,3 +27,4 @@ This method simply finalizes an authorization from PayPal. It tells SoftLayer th
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>
+

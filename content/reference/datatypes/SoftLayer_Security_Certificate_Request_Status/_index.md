@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Security_Certificate_Request_Status
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Security_Certificate_Request_Status' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Security_Certificate_Request_Status' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Security_Certificate_Request_Status' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 Represents the status of an SSL certificate request. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

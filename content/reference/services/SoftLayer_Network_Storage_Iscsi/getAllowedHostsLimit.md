@@ -26,3 +26,4 @@ Retrieves the total number of allowed hosts limit per volume.
 
 ### Return Values
 integer
+

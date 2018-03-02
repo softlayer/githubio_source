@@ -27,3 +27,4 @@ List the data centers that currently support the use of security groups.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+

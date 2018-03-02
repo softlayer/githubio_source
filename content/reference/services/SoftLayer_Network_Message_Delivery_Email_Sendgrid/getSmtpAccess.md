@@ -29,3 +29,4 @@ Retrieve a flag that determines if a SendGrid e-mail delivery account has access
 
 ### Return Values
 string
+

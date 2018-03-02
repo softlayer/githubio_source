@@ -26,3 +26,4 @@ The '''getServerFanSpeedGraphs''' method retrieves the server's fan speeds and d
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_RemoteManagement_Graphs_SensorSpeed'>SoftLayer_Container_RemoteManagement_Graphs_SensorSpeed[] </a>
+

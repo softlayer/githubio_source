@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Scale_Network_Vlan
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Scale_Network_Vlan' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Scale_Network_Vlan' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Scale_Network_Vlan' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -71,6 +76,7 @@ classes:
             <div class='views-field-body'>The group this network VLAN is for. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

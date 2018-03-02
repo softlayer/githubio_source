@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 SoftLayer_Container_Network_ContentDelivery_Bandwidth_PointsOfPresence_Summary models an individual CDN point of presence's bandwidth usage for a CDN account within a given date range. CDN POPs are located throughout the world, so individual POP usage may be beneficial in determining who is downloading your CDN hosted content. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::getPopNames](/reference/services/SoftLayer_Network_ContentDelivery_Account/getPopNames )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

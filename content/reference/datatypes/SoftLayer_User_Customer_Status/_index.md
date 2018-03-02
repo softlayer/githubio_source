@@ -13,12 +13,28 @@ classes:
 # SoftLayer_User_Customer_Status
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_User_Customer_Status' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_User_Customer_Status' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_User_Customer_Status' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 Each SoftLayer portal account is assigned a status code that determines how it's treated in the customer portal. This status is reflected in the SoftLayer_User_Customer_Status data type. Status differs from user permissions in that user status applies globally to the portal while user permissions are applied to specific portal functions.
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Customer::getUserStatus](/reference/services/SoftLayer_User_Customer/getUserStatus )
+*  [SoftLayer_User_Customer_Status::getObject](/reference/services/SoftLayer_User_Customer_Status/getObject )
+
+
+
+### seeAlso
+
+* [SoftLayer_User_Customer](/reference/datatypes/SoftLayer_User_Customer )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

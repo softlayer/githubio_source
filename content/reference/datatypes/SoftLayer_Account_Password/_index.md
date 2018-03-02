@@ -13,12 +13,27 @@ classes:
 # SoftLayer_Account_Password
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Account_Password' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Password' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Password' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Account_Password contains username, passwords and notes for services that may require for external applications such the Webcc interface for the EVault Storage service. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Account::getEvaultMasterUser](/reference/services/SoftLayer_Account/getEvaultMasterUser )
+
+
+
+### seeAlso
+
+* [SoftLayer_Software_Password](/reference/datatypes/SoftLayer_Software_Password )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -76,6 +91,7 @@ The SoftLayer_Account_Password contains username, passwords and notes for servic
             <div class='views-field-body'>The service that an account/password combination is tied to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account_Password_Type'>SoftLayer_Account_Password_Type </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

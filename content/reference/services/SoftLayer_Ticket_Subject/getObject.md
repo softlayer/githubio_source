@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Ticket_Subject object whose ID number correspo
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject </a>
+

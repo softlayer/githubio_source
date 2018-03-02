@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 The SoftLayer_Network_ContentDelivery_Account_Status contains information on a CDN account. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_ContentDelivery_Account](/reference/datatypes/SoftLayer_Network_ContentDelivery_Account )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

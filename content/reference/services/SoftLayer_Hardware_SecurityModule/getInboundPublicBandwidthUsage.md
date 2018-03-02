@@ -29,3 +29,4 @@ Retrieve the total public inbound bandwidth for this hardware for the current bi
 
 ### Return Values
 decimal
+

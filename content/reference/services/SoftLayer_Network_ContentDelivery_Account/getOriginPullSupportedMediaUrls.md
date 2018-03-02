@@ -26,3 +26,4 @@ This method returns CDN URLs that supports Origin Pull mappings.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_ContentDelivery_SupportedProtocol'>SoftLayer_Container_Network_ContentDelivery_SupportedProtocol[] </a>
+

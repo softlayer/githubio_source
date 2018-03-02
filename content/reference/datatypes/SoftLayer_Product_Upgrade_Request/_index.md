@@ -13,12 +13,25 @@ classes:
 # SoftLayer_Product_Upgrade_Request
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Product_Upgrade_Request' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Product_Upgrade_Request' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Product_Upgrade_Request' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Product_Upgrade_Request data type contains general information relating to a hardware, virtual server, or service upgrade. It also relates a [[SoftLayer_Billing_Order]] to a [[SoftLayer_Ticket]]. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Billing_Order](/reference/datatypes/SoftLayer_Billing_Order )
+
+
+* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -151,6 +164,7 @@ The SoftLayer_Product_Upgrade_Request data type contains general information rel
             <div class='views-field-body'>A virtual server object associated with the upgrade request if any. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

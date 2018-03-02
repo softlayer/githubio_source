@@ -28,3 +28,11 @@ Remove multiple SRV records from a domain. This follows the same logic as ''dele
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain_ResourceRecord::deleteObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObject )
+*  [SoftLayer_Dns_Domain_ResourceRecord::deleteObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObjects )
+*  [SoftLayer_Dns_Domain_ResourceRecord_SrvType::deleteObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/deleteObject )
+

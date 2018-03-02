@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The item rule data type represents a rule that must be followed when the item assigned to the rule is ordered. The type and operation applied to the resources of the rule will affect how the rule is checked during ordering. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -100,6 +105,32 @@ The item rule data type represents a rule that must be followed when the item as
             <span class='views-field-title'><a href="#type" name=type>type</a></span>
             <div class='views-field-body'>The type a rule is. The type affects how the rule is validated when ordering. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Type'>SoftLayer_Product_Item_Rule_Type </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#itemCategoryResourceCount" name=itemCategoryResourceCount>itemCategoryResourceCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#itemResourceCount" name=itemResourceCount>itemResourceCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#locationResourceCount" name=locationResourceCount>locationResourceCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#permissionResourceCount" name=permissionResourceCount>permissionResourceCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#resourceCount" name=resourceCount>resourceCount</a></span>
+            <div class='views-field-body'>A count of resources for this rule that are validated when ordering. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

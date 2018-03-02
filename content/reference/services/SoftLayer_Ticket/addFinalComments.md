@@ -27,3 +27,9 @@ As part of the customer service process SoftLayer has provided a quick feedback 
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Ticket_Update_Employee::addResponseRating](/reference/services/SoftLayer_Ticket_Update_Employee/addResponseRating )
+

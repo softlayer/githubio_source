@@ -30,3 +30,4 @@ Retrieve the members for this gateway.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Gateway_Member'>SoftLayer_Network_Gateway_Member[] </a>
+

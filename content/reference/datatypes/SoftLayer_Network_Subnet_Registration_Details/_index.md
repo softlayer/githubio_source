@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Network_Subnet_Registration_Details
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Subnet_Registration_Details' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Details' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Details' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_Subnet_Registration_Details objects are used to relate [[SoftLayer_Account_Regional_Registry_Detail]] objects to a [[SoftLayer_Network_Subnet_Registration]] object. This allows for easy reuse of registration details. It is important to note that only one detail object per type may be associated to a registration object. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -71,6 +76,7 @@ The SoftLayer_Network_Subnet_Registration_Details objects are used to relate [[S
             <div class='views-field-body'>The related [[SoftLayer_Network_Subnet_Registration|registration object]]. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration'>SoftLayer_Network_Subnet_Registration </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

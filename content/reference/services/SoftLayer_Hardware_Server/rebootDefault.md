@@ -26,3 +26,4 @@ Attempts to reboot the server by issuing a reset (soft reboot) command to the se
 
 ### Return Values
 boolean
+

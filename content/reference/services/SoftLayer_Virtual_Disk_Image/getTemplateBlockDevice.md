@@ -29,3 +29,4 @@ Retrieve the template that attaches a disk image to a [[SoftLayer_Virtual_Guest_
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template'>SoftLayer_Virtual_Guest_Block_Device_Template </a>
+

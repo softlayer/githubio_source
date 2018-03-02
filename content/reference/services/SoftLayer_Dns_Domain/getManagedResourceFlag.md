@@ -29,3 +29,4 @@ Retrieve a flag indicating that the dns domain record is a managed resource.
 
 ### Return Values
 boolean
+

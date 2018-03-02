@@ -29,3 +29,4 @@ Retrieve when true this virtual guest must be migrated using SoftLayer_Virtual_G
 
 ### Return Values
 boolean
+

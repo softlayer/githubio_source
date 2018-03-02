@@ -29,3 +29,4 @@ Retrieve the current status of the upgrade request.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Upgrade_Request_Status'>SoftLayer_Product_Upgrade_Request_Status </a>
+

@@ -29,3 +29,4 @@ Retrieve the total tax amount of the recurring fees, if the SoftLayer_Account ti
 
 ### Return Values
 decimal
+

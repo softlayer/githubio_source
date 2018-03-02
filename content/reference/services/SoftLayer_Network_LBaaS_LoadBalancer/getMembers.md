@@ -30,3 +30,4 @@ Retrieve members assigned to load balancer.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_LBaaS_Member'>SoftLayer_Network_LBaaS_Member[] </a>
+

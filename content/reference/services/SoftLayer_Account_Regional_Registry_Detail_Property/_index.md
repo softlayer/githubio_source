@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The subnet registration property is used to define various attributes of [[SoftLayer_Account_Regional_Registry_Detail|detail objects]]. For more information, please see the [[SoftLayer_Account_Regional_Registry_Detail_Property (type)|type overview]]. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

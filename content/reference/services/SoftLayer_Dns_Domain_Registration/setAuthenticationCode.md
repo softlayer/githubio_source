@@ -27,3 +27,4 @@ The setAuthenticationCode method sets the authentication code for the domain. Th
 
 ### Return Values
 boolean
+

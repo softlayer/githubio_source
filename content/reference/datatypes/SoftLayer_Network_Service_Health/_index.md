@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 Many general services that SoftLayer provides are tracked on the customer portal with a quick status message. These status message provide users with a quick reference to the health of a service, whether it's up or down. These services include SoftLayer's Internet backbone connections, VPN entry points, and router networks. The SoftLayer_Network_Service_Health data type provides the relationship between these services and their health status. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_Service_Health_Status](/reference/datatypes/SoftLayer_Network_Service_Health_Status )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +76,7 @@ Many general services that SoftLayer provides are tracked on the customer portal
             <div class='views-field-body'>The status portion of a service/status relationship. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Service_Health_Status'>SoftLayer_Network_Service_Health_Status </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

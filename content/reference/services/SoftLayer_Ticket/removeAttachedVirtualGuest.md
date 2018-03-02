@@ -27,3 +27,9 @@ Detach the given CloudLayer Computing Instance from a SoftLayer ticket. Removing
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Ticket::addAttachedVirtualGuest](/reference/services/SoftLayer_Ticket/addAttachedVirtualGuest )
+

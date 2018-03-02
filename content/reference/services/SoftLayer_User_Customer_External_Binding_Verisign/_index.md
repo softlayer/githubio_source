@@ -23,7 +23,9 @@ SoftLayer provides its customers the ability to add an additional layer of secur
 The VeriSign external binding service allows a user to create an external binding, enable, disable, or unlock an external binding, and delete an external binding. Currently SoftLayer provides the master account user of a SoftLayer account with one free VeriSign external binding. All subsequent VeriSign external bindings will need to be created by placing an order. 
 
 Once a SoftLayer user has a valid and active VeriSign external binding, they will be required to always use their credential to login to the SoftLayer customer portal.  In addition any user with an active external binding will be prohibited from using the API. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

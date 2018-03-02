@@ -29,3 +29,4 @@ Retrieve the current external binding status. It can be "ACTIVE" or "BLOCKED".
 
 ### Return Values
 string
+

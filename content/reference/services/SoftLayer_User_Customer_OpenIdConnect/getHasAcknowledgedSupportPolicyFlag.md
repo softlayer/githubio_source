@@ -29,3 +29,4 @@ Retrieve whether or not a user has acknowledged the support policy.
 
 ### Return Values
 boolean
+

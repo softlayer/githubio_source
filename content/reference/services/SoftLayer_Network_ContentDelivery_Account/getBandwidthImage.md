@@ -29,3 +29,9 @@ This method returns a bandwidth graph wrapped in [[SoftLayer_Container_Bandwidth
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputsExtended'>SoftLayer_Container_Bandwidth_GraphOutputsExtended </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::getBandwidthData](/reference/services/SoftLayer_Network_ContentDelivery_Account/getBandwidthData )
+

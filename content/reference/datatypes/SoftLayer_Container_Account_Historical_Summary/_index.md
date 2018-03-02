@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Historical Summary Container for account resource details 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

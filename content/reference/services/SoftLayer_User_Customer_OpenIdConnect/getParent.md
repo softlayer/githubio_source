@@ -29,3 +29,4 @@ Retrieve a portal user's parent user. If a SoftLayer_User_Customer has a null pa
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+

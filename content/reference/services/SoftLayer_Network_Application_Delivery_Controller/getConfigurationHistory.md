@@ -30,3 +30,4 @@ Retrieve previous configurations for an Application Delivery Controller.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_Configuration_History'>SoftLayer_Network_Application_Delivery_Controller_Configuration_History[] </a>
+

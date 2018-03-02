@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -98,6 +103,7 @@ of either the frontend or backend network.  </div>
             <div class='views-field-body'>The trigger this watch is on. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_ResourceUse'>SoftLayer_Scale_Policy_Trigger_ResourceUse </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

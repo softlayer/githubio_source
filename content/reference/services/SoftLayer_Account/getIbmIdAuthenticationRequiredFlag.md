@@ -28,3 +28,4 @@ Retrieve indicates whether this account requires IBMid authentication.
 
 ### Return Values
 boolean
+

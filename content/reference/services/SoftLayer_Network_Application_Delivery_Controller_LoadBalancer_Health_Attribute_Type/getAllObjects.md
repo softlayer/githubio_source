@@ -29,3 +29,4 @@ classes:
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute_Type'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute_Type[] </a>
+

@@ -30,3 +30,4 @@ Retrieve the locations that this pricing location group is applicable for. This 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+

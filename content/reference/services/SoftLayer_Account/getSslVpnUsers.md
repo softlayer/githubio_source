@@ -29,3 +29,4 @@ Retrieve an account's associated portal users with SSL VPN access.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a>
+

@@ -29,3 +29,9 @@ Retrieve an individual SoftLayer_Network_Backbone record. Use the getAllBackbone
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Backbone'>SoftLayer_Network_Backbone </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Backbone::getAllBackbones](/reference/services/SoftLayer_Network_Backbone/getAllBackbones )
+

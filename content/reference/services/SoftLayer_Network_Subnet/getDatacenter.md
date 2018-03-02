@@ -29,3 +29,4 @@ Retrieve the data center this subnet may be routed within.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location_Datacenter'>SoftLayer_Location_Datacenter </a>
+

@@ -80,7 +80,9 @@ Authentication tokens expire after the specified time (in seconds) has elapsed. 
 <dt>'''Client IP (optional)'''</dt> <dd>If set, the token validation process will match the client IP address. A valid IP address should be an IPv4 format or an IP block. If you want to block access from IP 211.37.0.0/16, you can enter "211.37." instead. IP blocks can be specified in the manner of "8bit times n".</dd> 
 
 <dt>'''Referring domain (optional)'''</dt> <dd>The referrer or referring page is the URL of the previous webpage from which a link was followed. You can further restrict access to your contents by matching referrer information. Set this value only if you are certain about referrer you're expecting. You can only set a domain or an IP address without a path or a file name in it. This can be a part of your domain. If you want to grant access from any of your subdomains, set the root domain as a referring domain.</dd> </dl> 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

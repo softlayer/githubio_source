@@ -29,3 +29,4 @@ Retrieve an image template's universally unique identifier.
 
 ### Return Values
 string
+

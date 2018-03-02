@@ -30,3 +30,4 @@ Retrieve replica snapshots which have been created as the result of this schedul
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+

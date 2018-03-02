@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_User_Preference_Type data type contains a single preference type including the accepted values. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

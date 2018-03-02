@@ -21,20 +21,29 @@ classes:
 Every SoftLayer IP address is defined in the SoftLayer_Network_Subnet_IpAddress service. SoftLayer IP addresses are assigned to a SoftLayer_Network_Subnet.  The SoftLayer_Network_Subnet_IpAddress service gives you information about an IP address such if it is reserved, a network address, or a gateway.  Use the data returned by these methods with other API services to get more detailed information about your services. 
 
 SoftLayer customers can order and manage IP addresses through the customer portal. If you need to cancel a subnet please open a sales ticket in our customer portal and our account management staff will assist you. 
-### external links
-        Array
-(
-    [url] => http://en.wikipedia.org/wiki/Ip_address
-    [description] => Ip address at Wikipedia
-)
-1        Array
-(
-    [url] => http://tools.ietf.org/html/rfc791
-    [description] => RFC791: Internet Protocol Specification at ietf.org
-)
-1        
+
+### External Links
+
+
+* [Ip address at Wikipedia](http://en.wikipedia.org/wiki/Ip_address)
+
+
+* [RFC791: Internet Protocol Specification at ietf.org](http://tools.ietf.org/html/rfc791)
+
+
+
+
 ### seeAlso
-        SoftLayer_Network_Vlan1        SoftLayer_Network_Subnet1        SoftLayer_Network_Subnet_IpAddress_Version61                
+
+* [SoftLayer_Network_Vlan](/reference/datatypes/SoftLayer_Network_Vlan )
+
+
+* [SoftLayer_Network_Subnet](/reference/datatypes/SoftLayer_Network_Subnet )
+
+
+* [SoftLayer_Network_Subnet_IpAddress_Version6](/reference/datatypes/SoftLayer_Network_Subnet_IpAddress_Version6 )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

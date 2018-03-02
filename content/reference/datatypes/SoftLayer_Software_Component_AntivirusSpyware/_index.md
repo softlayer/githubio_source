@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Software_Component_AntivirusSpyware
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Software_Component_AntivirusSpyware' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Software_Component_AntivirusSpyware' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Software_Component_AntivirusSpyware' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 This object specifies a specific type of Software Component:  An Anti-virus/spyware instance. Anti-virus/spyware installations have specific properties and methods such as SoftLayer_Software_Component_AntivirusSpyware::updateAntivirusSpywarePolicy. Defaults are initiated by this object. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -95,6 +100,17 @@ This object specifies a specific type of Software Component:  An Anti-virus/spyw
             <span class='views-field-title'><a href="#virtualGuest" name=virtualGuest>virtualGuest</a></span>
             <div class='views-field-body'>The virtual guest this software component is installed upon. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#passwordCount" name=passwordCount>passwordCount</a></span>
+            <div class='views-field-body'>A count of username/Password pairs used for access to this Software Installation. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#passwordHistoryCount" name=passwordHistoryCount>passwordHistoryCount</a></span>
+            <div class='views-field-body'>A count of history Records for Software Passwords. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -15,7 +15,7 @@ classes:
 # SoftLayer_Configuration_Template_Section_Definition
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Configuration_Template_Section_Definition' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition' >Datatype</a></li>
     </ul>
 </div>
 
@@ -25,6 +25,11 @@ Configuration definition gives you details of the value that you're setting.
 Some monitoring agents requires values unique to your system. If value type is defined as "Resource Specific Values", you will have to make an additional API call to retrieve your system specific values. 
 
 See [[SoftLayer_Monitoring_Agent::getAvailableConfigurationValues|Monitoring Agent]] service to retrieve your system specific values. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -146,6 +151,12 @@ See [[SoftLayer_Monitoring_Agent::getAvailableConfigurationValues|Monitoring Age
             <span class='views-field-title'><a href="#valueType" name=valueType>valueType</a></span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Type'>SoftLayer_Configuration_Template_Section_Definition_Type </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#attributeCount" name=attributeCount>attributeCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

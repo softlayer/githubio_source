@@ -28,3 +28,4 @@ The '''importVirtualHost''' method attempts to import the host record for the vi
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Host'>SoftLayer_Virtual_Host </a>
+

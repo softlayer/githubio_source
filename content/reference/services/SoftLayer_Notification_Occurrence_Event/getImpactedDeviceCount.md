@@ -26,3 +26,4 @@ This method will return the number of impacted devices associated with this even
 
 ### Return Values
 integer
+

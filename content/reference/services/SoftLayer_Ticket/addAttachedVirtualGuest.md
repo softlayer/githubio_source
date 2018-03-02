@@ -29,3 +29,9 @@ Attach the given CloudLayer Computing Instance to a SoftLayer ticket. An attachm
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Ticket_Attachment_Virtual_Guest'>SoftLayer_Ticket_Attachment_Virtual_Guest </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Ticket::removeAttachedVirtualGuest](/reference/services/SoftLayer_Ticket/removeAttachedVirtualGuest )
+

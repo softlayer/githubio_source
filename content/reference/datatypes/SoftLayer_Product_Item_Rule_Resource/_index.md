@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The item rule resource data type represents a resource that is part of an item rule. The item rule resource is used when its item rule is checked on an order. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -56,6 +61,7 @@ The item rule resource data type represents a resource that is part of an item r
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item_Rule'>SoftLayer_Product_Item_Rule </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

@@ -29,3 +29,4 @@ Retrieve an order's total one time tax amount. This amount represents the tax th
 
 ### Return Values
 decimal
+

@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The SoftLayer_Utility_Network service allows users to send network diagnostic requests from SoftLayer's application servers to a given host on the Internet. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

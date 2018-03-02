@@ -29,3 +29,4 @@ Retrieve signifies pricing that is only available on a dedicated host virtual se
 
 ### Return Values
 boolean
+

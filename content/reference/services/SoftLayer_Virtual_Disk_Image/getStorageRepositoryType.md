@@ -29,3 +29,4 @@ Retrieve the type of storage repository that a disk image resides in.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository_Type'>SoftLayer_Virtual_Storage_Repository_Type </a>
+

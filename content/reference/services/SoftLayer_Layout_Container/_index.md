@@ -23,8 +23,17 @@ classes:
 Layout containers are used in the customization of the Portal 4 customer experience. 
 
 A single page in the portal can be thought of as a layout container. The container houses individual [[SoftLayer_Layout_Item|layout items]], which are the elements of the page (e.g., Ticket list). Layout containers can be added to [[SoftLayer_Layout_Profile|layout profiles]], allowing for full customization of the container's related items. 
+
+
+
 ### seeAlso
-        SoftLayer_Layout_Profile1        SoftLayer_Layout_Item1                
+
+* [SoftLayer_Layout_Profile](/reference/datatypes/SoftLayer_Layout_Profile )
+
+
+* [SoftLayer_Layout_Item](/reference/datatypes/SoftLayer_Layout_Item )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

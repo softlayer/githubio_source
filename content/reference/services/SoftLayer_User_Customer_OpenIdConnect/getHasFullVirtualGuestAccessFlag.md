@@ -29,3 +29,4 @@ Retrieve whether or not a portal user has access to all hardware on their accoun
 
 ### Return Values
 boolean
+

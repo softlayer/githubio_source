@@ -29,3 +29,4 @@ You can retrieve authentication IP address using [[SoftLayer_Network_ContentDeli
 
 ### Return Values
 boolean
+

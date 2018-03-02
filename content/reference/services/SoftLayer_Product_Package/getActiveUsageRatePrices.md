@@ -30,3 +30,4 @@ This method returns a collection of active usage rate [[SoftLayer_Product_Item_P
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>
+

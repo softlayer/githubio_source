@@ -15,7 +15,7 @@ classes:
 # SoftLayer_Brand
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Brand' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Brand' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Brand' >Datatype</a></li>
     </ul>
 </div>
 
@@ -23,6 +23,11 @@ classes:
 The SoftLayer_Brand data type contains brand information relating to the single SoftLayer customer account. 
 
 SoftLayer customers are unable to change their brand information in the portal or the API. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -159,6 +164,57 @@ SoftLayer customers are unable to change their brand information in the portal o
             <span class='views-field-title'><a href="#virtualGuests" name=virtualGuests>virtualGuests</a></span>
             <div class='views-field-body'>An account's associated virtual guest objects. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#allOwnedAccountCount" name=allOwnedAccountCount>allOwnedAccountCount</a></span>
+            <div class='views-field-body'>A count of all accounts owned by the brand. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#contactCount" name=contactCount>contactCount</a></span>
+            <div class='views-field-body'>A count of the contacts for the brand. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#customerCountryLocationRestrictionCount" name=customerCountryLocationRestrictionCount>customerCountryLocationRestrictionCount</a></span>
+            <div class='views-field-body'>A count of this references relationship between brands, locations and countries associated with a user's account that are ineligible when ordering products. For example, the India datacenter may not be available on this brand for customers that live in Great Britain. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#hardwareCount" name=hardwareCount>hardwareCount</a></span>
+            <div class='views-field-body'>A count of an account's associated hardware objects. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#openTicketCount" name=openTicketCount>openTicketCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#ownedAccountCount" name=ownedAccountCount>ownedAccountCount</a></span>
+            <div class='views-field-body'>A count of active accounts owned by the brand. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#ticketCount" name=ticketCount>ticketCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#ticketGroupCount" name=ticketGroupCount>ticketGroupCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#userCount" name=userCount>userCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#virtualGuestCount" name=virtualGuestCount>virtualGuestCount</a></span>
+            <div class='views-field-body'>A count of an account's associated virtual guest objects. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

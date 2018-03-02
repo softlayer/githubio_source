@@ -30,3 +30,4 @@ Retrieve the other items included with an ordered item.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item[] </a>
+

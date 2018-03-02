@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Network_Storage_Credential data type will give you an overview of the usernames that are currently attached to your storage device. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -90,6 +95,12 @@ The SoftLayer_Network_Storage_Credential data type will give you an overview of 
             <span class='views-field-title'><a href="#volumes" name=volumes>volumes</a></span>
             <div class='views-field-body'>These are the SoftLayer_Network_Storage volumes that this credential is assigned to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#volumeCount" name=volumeCount>volumeCount</a></span>
+            <div class='views-field-body'>A count of these are the SoftLayer_Network_Storage volumes that this credential is assigned to. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

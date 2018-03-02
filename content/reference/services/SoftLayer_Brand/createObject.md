@@ -28,3 +28,4 @@ Create a new brand record.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>
+

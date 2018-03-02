@@ -31,3 +31,4 @@ Return a collection of SoftLayer_Item_Price objects from a collection of SoftLay
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>
+

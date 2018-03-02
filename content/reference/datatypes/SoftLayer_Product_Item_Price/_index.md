@@ -13,12 +13,25 @@ classes:
 # SoftLayer_Product_Item_Price
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Product_Item_Price' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Product_Item_Price' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Product_Item_Price' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Product_Item_Price data type contains general information relating to a single SoftLayer product item price. You can find out what packages each price is in as well as which category under which this price is sold. All prices are returned in floating point values measured in US Dollars ($USD). 
+
+
+
+### seeAlso
+
+* [SoftLayer_Product_Item (type)](/reference/datatypes/SoftLayer_Product_Item (type) )
+
+
+* [SoftLayer_Product_Item_Category](/reference/datatypes/SoftLayer_Product_Item_Category )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -222,6 +235,47 @@ During order [[SoftLayer_Product_Order/verifyOrder|verification]] and [[SoftLaye
             <span class='views-field-title'><a href="#requiredCoreCount" name=requiredCoreCount>requiredCoreCount</a></span>
             <div class='views-field-body'>The number of server cores required to order this item. This is deprecated. Use [[SoftLayer_Product_Item_Price/getCapacityRestrictionMinimum|getCapacityRestrictionMinimum]] and [[SoftLayer_Product_Item_Price/getCapacityRestrictionMaximum|getCapacityRestrictionMaximum]] </div>
             <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#accountRestrictionCount" name=accountRestrictionCount>accountRestrictionCount</a></span>
+            <div class='views-field-body'>A count of the account that the item price is restricted to. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#attributeCount" name=attributeCount>attributeCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#bundleReferenceCount" name=bundleReferenceCount>bundleReferenceCount</a></span>
+            <div class='views-field-body'>A count of cross reference for bundles </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#categoryCount" name=categoryCount>categoryCount</a></span>
+            <div class='views-field-body'>A count of all categories which this item is a member. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#orderPremiumCount" name=orderPremiumCount>orderPremiumCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#packageCount" name=packageCount>packageCount</a></span>
+            <div class='views-field-body'>A count of a price's packages under which this item is sold. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#packageReferenceCount" name=packageReferenceCount>packageReferenceCount</a></span>
+            <div class='views-field-body'>A count of cross reference for packages </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#presetConfigurationCount" name=presetConfigurationCount>presetConfigurationCount</a></span>
+            <div class='views-field-body'>A count of a list of preset configurations this price is used in.' </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

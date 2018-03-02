@@ -29,3 +29,4 @@ Retrieve the policy this action is on.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_Policy'>SoftLayer_Scale_Policy </a>
+

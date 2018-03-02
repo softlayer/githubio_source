@@ -27,3 +27,4 @@ Retrieve a a list of shipment types.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account_Shipment_Type'>SoftLayer_Account_Shipment_Type[] </a>
+

@@ -28,3 +28,11 @@ Edit multiple SRV records on a domain. This follows the same logic as ''createOb
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain_ResourceRecord::editObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/editObject )
+*  [SoftLayer_Dns_Domain_ResourceRecord::editObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/editObjects )
+*  [SoftLayer_Dns_Domain_ResourceRecord_SrvType::editObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/editObject )
+

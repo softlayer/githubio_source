@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Network_Customer_Subnet_IpAddress data type contains general information relating to a single Customer Subnet (Remote) IPv4 address. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -65,6 +70,12 @@ The SoftLayer_Network_Customer_Subnet_IpAddress data type contains general infor
             <span class='views-field-title'><a href="#translations" name=translations>translations</a></span>
             <div class='views-field-body'>All the address translations that are tied to an IP address. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Tunnel_Module_Context_Address_Translation'>SoftLayer_Network_Tunnel_Module_Context_Address_Translation[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#translationCount" name=translationCount>translationCount</a></span>
+            <div class='views-field-body'>A count of all the address translations that are tied to an IP address. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

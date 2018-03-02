@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Layout_Profile
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Layout_Profile' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Layout_Profile' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Layout_Profile' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Layout_Profile contains the definition of the layout profile 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -75,6 +80,17 @@ The SoftLayer_Layout_Profile contains the definition of the layout profile
             <span class='views-field-title'><a href="#layoutPreferences" name=layoutPreferences>layoutPreferences</a></span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Layout_Profile_Preference'>SoftLayer_Layout_Profile_Preference[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#layoutContainerCount" name=layoutContainerCount>layoutContainerCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#layoutPreferenceCount" name=layoutPreferenceCount>layoutPreferenceCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

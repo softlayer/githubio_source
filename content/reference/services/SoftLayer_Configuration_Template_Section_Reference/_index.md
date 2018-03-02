@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Configuration section reference allow you to reuse a configuration section from another configuration template. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

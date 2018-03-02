@@ -29,3 +29,4 @@ Retrieve the scale member for this guest, if applicable.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_Member_Virtual_Guest'>SoftLayer_Scale_Member_Virtual_Guest </a>
+

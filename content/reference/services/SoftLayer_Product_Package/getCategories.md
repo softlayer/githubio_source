@@ -30,3 +30,4 @@ Retrieve this is a collection of categories ([[SoftLayer_Product_Item_Category]]
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>
+

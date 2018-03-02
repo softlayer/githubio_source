@@ -13,12 +13,27 @@ classes:
 # SoftLayer_Billing_Order_Quote
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Billing_Order_Quote' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Order_Quote' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Order_Quote' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Billing_Oder_Quote data type contains general information relating to an individual order applied to a SoftLayer customer account or to a new customer. Personal information in this type such as names, addresses, and phone numbers are taken from the account's contact information at the time the quote is generated for existing SoftLayer customer. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Billing_Order_Quote::getObject](/reference/services/SoftLayer_Billing_Order_Quote/getObject )
+
+
+
+### seeAlso
+
+* [SoftLayer_Account (type)](/reference/datatypes/SoftLayer_Account (type) )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -100,6 +115,12 @@ The SoftLayer_Billing_Oder_Quote data type contains general information relating
             <span class='views-field-title'><a href="#ordersFromQuote" name=ordersFromQuote>ordersFromQuote</a></span>
             <div class='views-field-body'>These are all the orders that were created from this quote. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#ordersFromQuoteCount" name=ordersFromQuoteCount>ordersFromQuoteCount</a></span>
+            <div class='views-field-body'>A count of these are all the orders that were created from this quote. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

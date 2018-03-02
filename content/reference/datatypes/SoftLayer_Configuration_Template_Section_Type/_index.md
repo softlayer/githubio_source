@@ -15,7 +15,7 @@ classes:
 # SoftLayer_Configuration_Template_Section_Type
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Configuration_Template_Section_Type' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Type' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Type' >Datatype</a></li>
     </ul>
 </div>
 
@@ -23,6 +23,11 @@ classes:
 The SoftLayer_Configuration_Template_Section_Type data type contains information of a configuration section type. 
 
 Configuration can contain sub-sections. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

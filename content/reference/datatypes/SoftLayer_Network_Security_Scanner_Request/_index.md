@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Network_Security_Scanner_Request
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Security_Scanner_Request' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request' >Datatype</a></li>
     </ul>
 </div>
 
@@ -24,6 +24,22 @@ The SoftLayer_Network_Security_Scanner_Request data type represents a single vul
 *Scan Complete
 *Scan Cancelled
 *Generating Report.
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Security_Scanner_Request::getObject](/reference/services/SoftLayer_Network_Security_Scanner_Request/getObject )
+*  [SoftLayer_Hardware::getSecurityScanRequests](/reference/services/SoftLayer_Hardware/getSecurityScanRequests )
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_Security_Scanner_Request_Status](/reference/datatypes/SoftLayer_Network_Security_Scanner_Request_Status )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -111,6 +127,7 @@ The SoftLayer_Network_Security_Scanner_Request data type represents a single vul
             <div class='views-field-body'>A security scan request's status. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request_Status'>SoftLayer_Network_Security_Scanner_Request_Status </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

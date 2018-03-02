@@ -29,3 +29,4 @@ Retrieve a flag indicating that this Application Delivery Controller is a manage
 
 ### Return Values
 boolean
+

@@ -29,3 +29,4 @@ Retrieve the type of device this user is using
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice_Type'>SoftLayer_User_Customer_MobileDevice_Type </a>
+

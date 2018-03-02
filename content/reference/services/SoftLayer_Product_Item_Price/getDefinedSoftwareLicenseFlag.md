@@ -29,3 +29,4 @@ Retrieve whether this price defines a software license for its product item.
 
 ### Return Values
 boolean
+

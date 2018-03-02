@@ -29,3 +29,4 @@ Retrieve a partition template's associated [[SoftLayer_Account|Account]].
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+

@@ -29,3 +29,4 @@ Retrieve channel indicator used to categorize business partner revenue.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Business_Partner_Channel'>SoftLayer_Business_Partner_Channel </a>
+

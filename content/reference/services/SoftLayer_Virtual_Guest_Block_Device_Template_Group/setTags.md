@@ -27,3 +27,4 @@ Set the tags for this template group.
 
 ### Return Values
 boolean
+

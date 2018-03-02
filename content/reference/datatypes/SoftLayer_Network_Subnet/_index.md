@@ -13,12 +13,39 @@ classes:
 # SoftLayer_Network_Subnet
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Subnet' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Subnet' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Subnet' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_Subnet data type contains general information relating to a single SoftLayer subnet. Personal information in this type such as names, addresses, and phone numbers are assigned to the account only and not to users belonging to the account. 
+
+### External Links
+
+
+* [Subnetwork at Wikipedia](http://en.wikipedia.org/wiki/Subnetwork)
+
+
+* [RFC950:Internet Standard Subnetting Procedure at ietf.org](http://tools.ietf.org/html/rfc950)
+
+
+* [Classless Inter-Domain Routing at Wikipedia](http://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Subnet::findAllSubnetsAndActiveSwipTransactionStatus](/reference/services/SoftLayer_Network_Subnet/findAllSubnetsAndActiveSwipTransactionStatus )
+*  [SoftLayer_Network_Subnet::getObject](/reference/services/SoftLayer_Network_Subnet/getObject )
+*  [SoftLayer_Network_Subnet::getSubnetForIpAddress](/reference/services/SoftLayer_Network_Subnet/getSubnetForIpAddress )
+*  [SoftLayer_Network_Subnet_Swip_Transaction::getSubnet](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/getSubnet )
+*  [SoftLayer_Network_Vlan::getSubnets](/reference/services/SoftLayer_Network_Vlan/getSubnets )
+*  [SoftLayer_Network_Vlan::getSecondarySubnets](/reference/services/SoftLayer_Network_Vlan/getSecondarySubnets )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -305,6 +332,82 @@ The SoftLayer_Network_Subnet data type contains general information relating to 
             <span class='views-field-title'><a href="#virtualGuests" name=virtualGuests>virtualGuests</a></span>
             <div class='views-field-body'>The Virtual Servers using IP addresses on this subnet. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#allowedNetworkStorageCount" name=allowedNetworkStorageCount>allowedNetworkStorageCount</a></span>
+            <div class='views-field-body'>A count of the SoftLayer_Network_Storage objects that this SoftLayer_Hardware has access to. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#allowedNetworkStorageReplicaCount" name=allowedNetworkStorageReplicaCount>allowedNetworkStorageReplicaCount</a></span>
+            <div class='views-field-body'>A count of the SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Hardware has access to. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#boundDescendantCount" name=boundDescendantCount>boundDescendantCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#boundRouterCount" name=boundRouterCount>boundRouterCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#childrenCount" name=childrenCount>childrenCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#descendantCount" name=descendantCount>descendantCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#hardwareCount" name=hardwareCount>hardwareCount</a></span>
+            <div class='views-field-body'>A count of the hardware using IP addresses on this subnet. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#ipAddressCount" name=ipAddressCount>ipAddressCount</a></span>
+            <div class='views-field-body'>A count of all the ip addresses associated with a subnet. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkProtectionAddressCount" name=networkProtectionAddressCount>networkProtectionAddressCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkTunnelContextCount" name=networkTunnelContextCount>networkTunnelContextCount</a></span>
+            <div class='views-field-body'>A count of iPSec network tunnels that have access to a private subnet. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#protectedIpAddressCount" name=protectedIpAddressCount>protectedIpAddressCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#registrationCount" name=registrationCount>registrationCount</a></span>
+            <div class='views-field-body'>A count of all registrations that have been created for this subnet. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#swipTransactionCount" name=swipTransactionCount>swipTransactionCount</a></span>
+            <div class='views-field-body'>A count of all the swip transactions associated with a subnet. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#unboundDescendantCount" name=unboundDescendantCount>unboundDescendantCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#virtualGuestCount" name=virtualGuestCount>virtualGuestCount</a></span>
+            <div class='views-field-body'>A count of the Virtual Servers using IP addresses on this subnet. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

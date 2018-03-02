@@ -30,3 +30,4 @@ Use this method to return an array of private bandwidth utilization records betw
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail[] </a>
+

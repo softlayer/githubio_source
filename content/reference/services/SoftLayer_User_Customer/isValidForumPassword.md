@@ -29,3 +29,10 @@ Determine if a string is the given user's login password to the SoftLayer commun
 
 ### Return Values
 boolean
+
+### External Links
+
+
+* [The SoftLayer Community Forums](http://forums.softlayer.com)
+
+

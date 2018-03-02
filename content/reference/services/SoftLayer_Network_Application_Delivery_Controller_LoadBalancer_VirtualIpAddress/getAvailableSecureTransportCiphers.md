@@ -26,3 +26,9 @@ Yields a list of the SSL/TLS encryption ciphers that are currently supported on 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Security_SecureTransportCipher'>SoftLayer_Security_SecureTransportCipher[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress::getAvailableSecureTransportProtocols](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress/getAvailableSecureTransportProtocols )
+

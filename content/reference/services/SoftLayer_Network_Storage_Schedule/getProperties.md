@@ -30,3 +30,4 @@ Retrieve properties used for configuration of a schedule.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule_Property'>SoftLayer_Network_Storage_Schedule_Property[] </a>
+

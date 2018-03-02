@@ -29,3 +29,4 @@ classes:
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_Asset'>SoftLayer_Scale_Asset </a>
+

@@ -29,3 +29,4 @@ Retrieve the global load balancer account a host belongs to.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Account'>SoftLayer_Network_LoadBalancer_Global_Account </a>
+

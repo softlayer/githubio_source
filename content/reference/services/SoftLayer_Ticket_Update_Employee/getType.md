@@ -29,3 +29,4 @@ Retrieve the Type of update to this ticket
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Ticket_Update_Type'>SoftLayer_Ticket_Update_Type </a>
+

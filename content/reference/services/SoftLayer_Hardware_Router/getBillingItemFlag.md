@@ -29,3 +29,4 @@ Retrieve a flag indicating that a billing item exists.
 
 ### Return Values
 boolean
+

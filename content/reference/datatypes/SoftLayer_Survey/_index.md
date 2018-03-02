@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Survey
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Survey' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Survey' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Survey' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Survey data type contains general information relating to a single SoftLayer survey. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -80,6 +85,12 @@ The SoftLayer_Survey data type contains general information relating to a single
             <span class='views-field-title'><a href="#type" name=type>type</a></span>
             <div class='views-field-body'>The type of survey </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Survey_Type'>SoftLayer_Survey_Type </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#questionCount" name=questionCount>questionCount</a></span>
+            <div class='views-field-body'>A count of the questions for a survey. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -30,3 +30,4 @@ This method recurses through all servers on a Bandwidth Pool between the given s
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail[] </a>
+

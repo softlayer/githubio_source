@@ -29,3 +29,4 @@ Retrieve the group this asset belongs to.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>
+

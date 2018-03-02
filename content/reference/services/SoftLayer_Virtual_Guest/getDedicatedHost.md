@@ -29,3 +29,4 @@ Retrieve the dedicated host associated with this guest.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_DedicatedHost'>SoftLayer_Virtual_DedicatedHost </a>
+

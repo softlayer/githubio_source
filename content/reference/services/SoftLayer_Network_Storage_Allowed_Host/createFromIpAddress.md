@@ -29,3 +29,4 @@ This method is used to create a new SoftLayer_Network_Storage_Allowed_Host using
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage_Allowed_Host'>SoftLayer_Network_Storage_Allowed_Host </a>
+

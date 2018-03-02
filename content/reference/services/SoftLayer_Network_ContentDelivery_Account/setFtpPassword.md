@@ -31,3 +31,10 @@ This method updates the password for your CDN FTP account on the ftp.cdnlayer.se
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::createFtpUser](/reference/services/SoftLayer_Network_ContentDelivery_Account/createFtpUser )
+*  [SoftLayer_Network_ContentDelivery_Account::getFtpAttributes](/reference/services/SoftLayer_Network_ContentDelivery_Account/getFtpAttributes )
+

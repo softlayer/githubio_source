@@ -29,3 +29,4 @@ Retrieve this flag indicates that the package supports GPUs.
 
 ### Return Values
 boolean
+

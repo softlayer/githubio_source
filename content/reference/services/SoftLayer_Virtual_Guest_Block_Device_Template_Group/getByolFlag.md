@@ -29,3 +29,4 @@ Retrieve a flag indicating that customer is providing the software licenses.
 
 ### Return Values
 boolean
+

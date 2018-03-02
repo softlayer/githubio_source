@@ -29,3 +29,4 @@ Retrieve information regarding the billing item for external authentication.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+

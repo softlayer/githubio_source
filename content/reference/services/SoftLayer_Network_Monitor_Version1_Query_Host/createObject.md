@@ -29,3 +29,4 @@ Passing in an unsaved instances of a Query_Host object into this function will c
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host'>SoftLayer_Network_Monitor_Version1_Query_Host </a>
+

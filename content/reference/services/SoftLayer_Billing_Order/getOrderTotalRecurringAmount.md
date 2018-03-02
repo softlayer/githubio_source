@@ -29,3 +29,4 @@ Retrieve an order's total recurring amount. This amount represents the fees that
 
 ### Return Values
 decimal
+

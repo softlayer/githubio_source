@@ -29,3 +29,4 @@ Retrieve indicating whether this invoice item is billed on an hourly basis.
 
 ### Return Values
 boolean
+

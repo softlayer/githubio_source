@@ -29,3 +29,4 @@ Retrieve the hardware that a network component resides in.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+

@@ -26,3 +26,4 @@ Determine if the server runs any version of the Microsoft Windows operating syst
 
 ### Return Values
 boolean
+

@@ -29,3 +29,4 @@ Retrieve information regarding a piece of hardware's operating system.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Software_Component_OperatingSystem'>SoftLayer_Software_Component_OperatingSystem </a>
+

@@ -29,3 +29,4 @@ Retrieve the hardware's related network status attribute.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Attribute'>SoftLayer_Hardware_Attribute </a>
+

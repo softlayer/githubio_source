@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Historical Summary Details Container for a resource's data 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

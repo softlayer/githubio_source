@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -155,6 +160,32 @@ classes:
             <span class='views-field-title'><a href="#virtualServers" name=virtualServers>virtualServers</a></span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#applicationDeliveryControllerCount" name=applicationDeliveryControllerCount>applicationDeliveryControllerCount</a></span>
+            <div class='views-field-body'>A count of a virtual IP address's associated application delivery controllers. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#loadBalancerHardwareCount" name=loadBalancerHardwareCount>loadBalancerHardwareCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#secureTransportCipherCount" name=secureTransportCipherCount>secureTransportCipherCount</a></span>
+            <div class='views-field-body'>A count of the list of security ciphers enabled for this virtual IP address </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#secureTransportProtocolCount" name=secureTransportProtocolCount>secureTransportProtocolCount</a></span>
+            <div class='views-field-body'>A count of the list of secure transport protocols enabled for this virtual IP address </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#virtualServerCount" name=virtualServerCount>virtualServerCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

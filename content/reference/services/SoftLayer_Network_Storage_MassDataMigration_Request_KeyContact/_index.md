@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact data type contains name, email, and phone for key contact at customer location who will handle Mass Data Migration. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

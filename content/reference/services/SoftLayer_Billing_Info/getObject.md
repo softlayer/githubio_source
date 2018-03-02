@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Billing_Info object whose data corresponds to 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Info'>SoftLayer_Billing_Info </a>
+

@@ -30,3 +30,4 @@ Retrieve all hardware downstream from a network device.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Component_Uplink_Hardware'>SoftLayer_Network_Component_Uplink_Hardware[] </a>
+

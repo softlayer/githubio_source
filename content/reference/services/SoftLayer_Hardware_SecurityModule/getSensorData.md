@@ -26,3 +26,4 @@ Retrieve a server's hardware state via its internal sensors. Remote sensor data 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_RemoteManagement_SensorReading'>SoftLayer_Container_RemoteManagement_SensorReading[] </a>
+

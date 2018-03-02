@@ -26,3 +26,4 @@ This method returns an array of CDN POPs (Points of Presence) object. [[SoftLaye
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_ContentDelivery_PointsOfPresence'>SoftLayer_Container_Network_ContentDelivery_PointsOfPresence[] </a>
+

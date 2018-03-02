@@ -27,3 +27,4 @@ Register the acceptance of the associated policy to product assignment, and link
 
 ### Return Values
 boolean
+

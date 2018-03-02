@@ -29,3 +29,4 @@ An OpenIdConnect identity, for example an IBMid, can be linked or mapped to one 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account[] </a>
+

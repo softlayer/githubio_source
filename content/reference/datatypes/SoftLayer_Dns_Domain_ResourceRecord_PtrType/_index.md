@@ -31,6 +31,31 @@ For an IPv6 address the ''host'' property for every PTR record is the last four 
 For instance, if the reverse DNS record for fe80:0000:0000:0000:0000:0000:0a00:0001 is "host.example.org" then it's corresponding SoftLayer_Dns_Domain_ResourceRecord_PtrType host is "1.0.0.0.0.0.a.0.0.0.0.0.0.0.0.0", while it's data property equals "host.example.org". The full name of the reverse record for host.example.org including the domain name is "1.0.0.0.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa". 
 
 PTR record host names may not be changed by [[SoftLayer_Dns_Domain_ResourceRecord::editObject]] or [[SoftLayer_Dns_Domain_ResourceRecord::editObjects]]. 
+
+### External Links
+
+
+* [List of DNS record types at Wikipedia](http://en.wikipedia.org/wiki/List_of_DNS_record_types)
+
+
+* [Reverse DNS lookup at Wikipedia](http://en.wikipedia.org/wiki/Reverse_DNS_lookup)
+
+
+
+
+### seeAlso
+
+* [SoftLayer_Dns_Domain (type)](/reference/datatypes/SoftLayer_Dns_Domain (type) )
+
+
+* [SoftLayer_Dns_Domain_Reverse](/reference/datatypes/SoftLayer_Dns_Domain_Reverse )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -118,6 +143,7 @@ PTR record host names may not be changed by [[SoftLayer_Dns_Domain_ResourceRecor
             <div class='views-field-body'>The domain that a resource record belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

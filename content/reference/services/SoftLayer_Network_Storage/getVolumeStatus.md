@@ -29,3 +29,4 @@ Retrieve the current status of a network storage volume.
 
 ### Return Values
 string
+

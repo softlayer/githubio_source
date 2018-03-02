@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Monitoring_Agent_Status
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Monitoring_Agent_Status' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Status' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Status' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 Monitoring agent status 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

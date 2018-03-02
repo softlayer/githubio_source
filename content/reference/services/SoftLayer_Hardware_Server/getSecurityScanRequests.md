@@ -30,3 +30,4 @@ Retrieve information regarding a piece of hardware's vulnerability scan requests
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request'>SoftLayer_Network_Security_Scanner_Request[] </a>
+

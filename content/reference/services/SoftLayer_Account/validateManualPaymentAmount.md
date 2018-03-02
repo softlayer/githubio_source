@@ -26,3 +26,4 @@ This method checks global and account specific requirements and returns true if 
 
 ### Return Values
 boolean
+

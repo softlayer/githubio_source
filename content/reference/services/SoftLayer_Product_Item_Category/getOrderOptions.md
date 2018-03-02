@@ -30,3 +30,4 @@ Retrieve any unique options associated with an item category.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Category_Order_Option_Type'>SoftLayer_Product_Item_Category_Order_Option_Type[] </a>
+

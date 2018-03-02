@@ -26,3 +26,4 @@ Idera Bare Metal Server Restore is a backup agent designed specifically for maki
 
 ### Return Values
 boolean
+

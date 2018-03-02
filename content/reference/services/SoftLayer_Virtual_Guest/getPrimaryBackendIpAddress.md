@@ -29,3 +29,4 @@ Retrieve a guest's primary private IP address.
 
 ### Return Values
 string
+

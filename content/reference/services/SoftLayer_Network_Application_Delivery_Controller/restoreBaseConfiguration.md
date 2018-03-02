@@ -26,3 +26,10 @@ Restore an application delivery controller's base configuration state. The confi
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Application_Delivery_Controller::saveCurrentConfiguration](/reference/services/SoftLayer_Network_Application_Delivery_Controller/saveCurrentConfiguration )
+*  [SoftLayer_Network_Application_Delivery_Controller::restoreConfiguration](/reference/services/SoftLayer_Network_Application_Delivery_Controller/restoreConfiguration )
+

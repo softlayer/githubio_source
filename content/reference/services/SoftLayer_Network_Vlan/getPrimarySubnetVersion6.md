@@ -29,3 +29,4 @@ Retrieve a VLAN's primary IPv6 subnet. Some VLAN's may not have a primary IPv6 s
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
+

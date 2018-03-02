@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Security_Certificate
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Security_Certificate' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Security_Certificate' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Security_Certificate' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -137,6 +142,12 @@ This property is read only. Changes made will be silently ignored.  </div>
             <span class='views-field-title'><a href="#loadBalancerVirtualIpAddresses" name=loadBalancerVirtualIpAddresses>loadBalancerVirtualIpAddresses</a></span>
             <div class='views-field-body'>The load balancers virtual IP addresses currently associated with the certificate. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#loadBalancerVirtualIpAddressCount" name=loadBalancerVirtualIpAddressCount>loadBalancerVirtualIpAddressCount</a></span>
+            <div class='views-field-body'>A count of the load balancers virtual IP addresses currently associated with the certificate. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

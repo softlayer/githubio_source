@@ -30,3 +30,4 @@ Retrieve a user's notification subscription records.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber[] </a>
+

@@ -29,3 +29,4 @@ classes:
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_FlexibleCredit_Affiliate'>SoftLayer_FlexibleCredit_Affiliate[] </a>
+

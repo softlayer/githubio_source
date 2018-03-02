@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Provides details for the subscriber's delivery methods. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -71,6 +76,7 @@ Provides details for the subscriber's delivery methods.
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Notification_Subscriber'>SoftLayer_Notification_Subscriber </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

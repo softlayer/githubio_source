@@ -27,3 +27,4 @@ Changes the password that we have stored in our database for a servers' Operatin
 
 ### Return Values
 boolean
+

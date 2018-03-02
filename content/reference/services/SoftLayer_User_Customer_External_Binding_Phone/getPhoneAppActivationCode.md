@@ -28,3 +28,4 @@ Some vendor's mobile app requires an activation code. Use this method to get an 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_External_Binding_Attribute'>SoftLayer_User_External_Binding_Attribute[] </a>
+

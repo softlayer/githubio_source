@@ -29,3 +29,4 @@ Retrieve an open ticket requesting cancellation of this server, if one exists.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>
+

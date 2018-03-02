@@ -28,3 +28,4 @@ Retrieve the account balance of a SoftLayer customer account. An account's balan
 
 ### Return Values
 decimal
+

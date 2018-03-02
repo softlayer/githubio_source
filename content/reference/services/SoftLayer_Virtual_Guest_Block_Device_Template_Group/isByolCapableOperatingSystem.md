@@ -26,3 +26,4 @@ This method indicates whether or not this image uses an operating system capable
 
 ### Return Values
 boolean
+

@@ -27,3 +27,4 @@ Updates default configuration values.
 
 ### Return Values
 boolean
+

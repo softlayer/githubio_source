@@ -29,3 +29,4 @@ Retrieve determines whether the hardware is ineligible for cancellation because 
 
 ### Return Values
 boolean
+

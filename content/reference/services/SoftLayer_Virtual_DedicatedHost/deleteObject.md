@@ -26,3 +26,4 @@ This method will cancel a dedicated host immediately.
 
 ### Return Values
 boolean
+

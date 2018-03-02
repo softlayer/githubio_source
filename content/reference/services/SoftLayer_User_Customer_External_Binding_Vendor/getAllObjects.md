@@ -28,3 +28,4 @@ getAllObjects() will return a list of the available external binding vendors tha
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_External_Binding_Vendor'>SoftLayer_User_External_Binding_Vendor[] </a>
+

@@ -21,6 +21,16 @@ classes:
 The SoftLayer_Provisioning_Version1_Transaction_Status data type contains general information relating to a single SoftLayer hardware transaction status. 
 
 SoftLayer customers are unable to change their hardware transaction status. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Provisioning_Version1_Transaction_Status::getObject](/reference/services/SoftLayer_Provisioning_Version1_Transaction_Status/getObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -57,6 +67,12 @@ SoftLayer customers are unable to change their hardware transaction status.
             <span class='views-field-title'><a href="#nonCompletedTransactions" name=nonCompletedTransactions>nonCompletedTransactions</a></span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#nonCompletedTransactionCount" name=nonCompletedTransactionCount>nonCompletedTransactionCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

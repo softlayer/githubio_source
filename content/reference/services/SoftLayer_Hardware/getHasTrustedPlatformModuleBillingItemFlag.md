@@ -29,3 +29,4 @@ Retrieve determine in hardware object has TPM enabled.
 
 ### Return Values
 boolean
+

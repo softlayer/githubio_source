@@ -35,14 +35,15 @@ The following range of blocks are valid:
 Management of a Network occurs entirely via the SoftLayer_Network service. This includes the addition and removal of Subnets. Subnets are required before compute resources may be provisioned. A subnet defines the portion of a Network that is available within a [[SoftLayer_Network_Pod|Pods]]. 
 
 See [[SoftLayer_Network/createObject]] and [[SoftLayer_Network/createSubnet]]. 
-### external links
-        Array
-(
-    [url] => https://tools.ietf.org/html/rfc1918
-    [description] => RFC 1918
-)
-1        
-        
+
+### External Links
+
+
+* [RFC 1918](https://tools.ietf.org/html/rfc1918)
+
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

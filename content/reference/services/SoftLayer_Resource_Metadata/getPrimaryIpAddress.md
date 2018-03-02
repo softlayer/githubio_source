@@ -24,3 +24,4 @@ The getPrimaryIpAddress method retrieves the primary IP address for the resource
 
 ### Return Values
 string
+

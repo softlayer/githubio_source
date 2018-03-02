@@ -29,3 +29,9 @@ This method returns the metric data for each of the configuration values provide
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Monitoring_Agent_Configuration_Value::getMetricDataType](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Value/getMetricDataType )
+

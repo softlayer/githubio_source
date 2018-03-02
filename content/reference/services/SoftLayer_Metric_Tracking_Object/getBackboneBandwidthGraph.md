@@ -27,3 +27,4 @@ Retrieve a PNG image of the last 24 hours of bandwidth usage of one of SoftLayer
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+

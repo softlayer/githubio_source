@@ -27,3 +27,4 @@ Calling this function returns all possible query type objects. These objects are
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Type'>SoftLayer_Network_Monitor_Version1_Query_Type[] </a>
+

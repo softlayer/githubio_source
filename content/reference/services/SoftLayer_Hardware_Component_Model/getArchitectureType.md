@@ -29,3 +29,4 @@ classes:
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Architecture_Type'>SoftLayer_Hardware_Component_Model_Architecture_Type </a>
+

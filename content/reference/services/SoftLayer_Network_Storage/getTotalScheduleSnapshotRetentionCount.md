@@ -29,3 +29,4 @@ Retrieve the total snapshot retention count of all schedules on this network sto
 
 ### Return Values
 unsigned integer
+

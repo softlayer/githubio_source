@@ -28,3 +28,4 @@ This method will change the password of a credential created using the 'addNewCr
 
 ### Return Values
 boolean
+

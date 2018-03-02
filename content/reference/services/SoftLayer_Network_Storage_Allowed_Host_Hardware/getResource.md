@@ -29,3 +29,4 @@ Retrieve the SoftLayer_Hardware object which this SoftLayer_Network_Storage_Allo
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+

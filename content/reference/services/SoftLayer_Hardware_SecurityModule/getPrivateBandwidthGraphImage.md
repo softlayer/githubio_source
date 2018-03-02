@@ -28,3 +28,10 @@ Retrieve a graph of a server's private network bandwidth usage over the specifie
 
 ### Return Values
 binary data
+
+### External Links
+
+
+* [Portable Network Graphics at Wikipedia](http://en.wikipedia.org/wiki/Portable_Network_Graphics)
+
+

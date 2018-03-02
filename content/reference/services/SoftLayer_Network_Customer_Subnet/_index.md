@@ -21,7 +21,9 @@ classes:
 Every Customer subnet is defined in the SoftLayer_Network_Customer_Subnet service. SoftLayer keeps track of subnets outside of the SoftLayer Network that are associated to SoftLayer subnets or systems. 
 
 For example, customer subnets are tracked for proper management of network tunnels.  This service allows for managing subnets on the remote end of the network tunnel. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

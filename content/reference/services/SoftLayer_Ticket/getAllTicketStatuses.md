@@ -29,3 +29,4 @@ Every SoftLayer ticket has statusId and status properties that correspond to one
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Ticket_Status'>SoftLayer_Ticket_Status[] </a>
+

@@ -29,3 +29,4 @@ Retrieve a server's remote management card.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component_RemoteManagement'>SoftLayer_Hardware_Component_RemoteManagement </a>
+

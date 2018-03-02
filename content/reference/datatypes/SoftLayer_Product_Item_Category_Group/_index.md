@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Product_Item_Category_Group
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Product_Item_Category_Group' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Product_Item_Category_Group' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Product_Item_Category_Group' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Product_Item_Category_Group data type contains general category group information. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

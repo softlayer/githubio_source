@@ -27,3 +27,4 @@ Delete a credential
 
 ### Return Values
 boolean
+

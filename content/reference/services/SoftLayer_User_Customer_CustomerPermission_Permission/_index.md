@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Portal account users who are not the master user (account owner) have permissions to allow them access to portal functionalities.
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

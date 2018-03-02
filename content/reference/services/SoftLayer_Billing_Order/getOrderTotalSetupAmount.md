@@ -29,3 +29,4 @@ Retrieve an order's total setup fee.
 
 ### Return Values
 decimal
+

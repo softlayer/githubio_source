@@ -30,3 +30,4 @@ Retrieve information regarding a piece of hardware's installed software.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component[] </a>
+

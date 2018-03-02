@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Configuration_Template_Section_Definition_Type
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Configuration_Template_Section_Definition_Type' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Type' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Type' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 SoftLayer_Configuration_Template_Section_Definition_Type further defines the value of a configuration definition. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

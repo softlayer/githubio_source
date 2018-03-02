@@ -29,3 +29,4 @@ Retrieve an optional note for identifying the external binding.
 
 ### Return Values
 string
+

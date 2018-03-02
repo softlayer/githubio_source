@@ -26,3 +26,4 @@ Power cycle a guest.
 
 ### Return Values
 boolean
+

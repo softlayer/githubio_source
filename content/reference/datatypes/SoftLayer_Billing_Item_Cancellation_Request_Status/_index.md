@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 SoftLayer_Billing_Item_Cancellation_Request_Status data type represents the status of a service cancellation request. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

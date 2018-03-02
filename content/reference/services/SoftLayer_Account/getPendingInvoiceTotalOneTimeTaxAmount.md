@@ -28,3 +28,4 @@ Retrieve the sum of all the taxes related to one time charges for an account's p
 
 ### Return Values
 decimal
+

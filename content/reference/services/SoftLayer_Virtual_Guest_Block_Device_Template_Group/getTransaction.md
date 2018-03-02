@@ -29,3 +29,4 @@ Retrieve a transaction that is being performed on a image template group.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>
+

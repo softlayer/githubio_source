@@ -28,3 +28,11 @@ createObject creates a new SRV record. The ''host'' property of the templateObje
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SrvType'>SoftLayer_Dns_Domain_ResourceRecord_SrvType </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain_ResourceRecord::createObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObject )
+*  [SoftLayer_Dns_Domain_ResourceRecord::createObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObjects )
+*  [SoftLayer_Dns_Domain_ResourceRecord_SrvType::createObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/createObjects )
+

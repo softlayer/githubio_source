@@ -29,3 +29,4 @@ Retrieve where a piece of hardware is located within SoftLayer's location hierar
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+

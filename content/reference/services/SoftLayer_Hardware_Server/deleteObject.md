@@ -27,3 +27,4 @@ This method will cancel a server effective immediately. For servers billed hourl
 
 ### Return Values
 boolean
+

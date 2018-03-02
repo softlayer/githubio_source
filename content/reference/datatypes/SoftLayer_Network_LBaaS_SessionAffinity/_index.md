@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 SoftLayer_Network_LBaaS_SessionAffinity represents the session affinity, aka session persistence, configuration for a load balancer backend pool. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -46,6 +51,7 @@ SoftLayer_Network_LBaaS_SessionAffinity represents the session affinity, aka ses
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_Pool'>SoftLayer_Network_LBaaS_Pool </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

@@ -29,3 +29,4 @@ Retrieve the [[SoftLayer_Account_Regional_Registry_Detail]] object this property
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail'>SoftLayer_Account_Regional_Registry_Detail </a>
+

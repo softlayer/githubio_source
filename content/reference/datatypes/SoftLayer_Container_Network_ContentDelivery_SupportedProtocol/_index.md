@@ -23,6 +23,21 @@ SoftLayer's CDN content delivery network allows for multiple types of media host
 CDN media URLs follow the standard <protocol>://<cdn-name>.<platform-name>.cdn.softlayer.net 
 
 Flash streaming, Windows Media streaming and HTTP protocols are supported: Flash streaming: <nowiki>rtmp://<cdn-name>.flash.cdn.softlayer.net</nowiki> Windows Media streaming: <nowiki>mms://<cdn-name>.wm.cdn.softlayer.net</nowiki> HTTP: <nowiki>http://<cdn-name>.http.cdn.softlayer.net</nowiki> 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::getMediaUrls](/reference/services/SoftLayer_Network_ContentDelivery_Account/getMediaUrls )
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_ContentDelivery_Account](/reference/datatypes/SoftLayer_Network_ContentDelivery_Account )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

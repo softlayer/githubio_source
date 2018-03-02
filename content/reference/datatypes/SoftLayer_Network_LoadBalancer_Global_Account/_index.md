@@ -13,12 +13,23 @@ classes:
 # SoftLayer_Network_LoadBalancer_Global_Account
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_LoadBalancer_Global_Account' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Account' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Account' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_LoadBalancer_Global_Account data type contains the properties for a single global load balancer account.  The properties you are able to edit are fallbackIp, loadBalanceTypeId, and notes. The hosts relational property can be used for creating and editing hosts that belong to the global load balancer account.  The [[SoftLayer_Network_LoadBalancer_Global_Account::editObject|editObject]] method contains details on creating and edited hosts through the hosts relational property. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Account::getGlobalLoadBalancerAccounts](/reference/services/SoftLayer_Account/getGlobalLoadBalancerAccounts )
+*  [SoftLayer_Network_LoadBalancer_Global_Account::getObject](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -100,6 +111,12 @@ The SoftLayer_Network_LoadBalancer_Global_Account data type contains the propert
             <span class='views-field-title'><a href="#managedResourceFlag" name=managedResourceFlag>managedResourceFlag</a></span>
             <div class='views-field-body'>A flag indicating that the global load balancer is a managed resource. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#hostCount" name=hostCount>hostCount</a></span>
+            <div class='views-field-body'>A count of the hosts in the load balancing pool for a global load balancer account. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

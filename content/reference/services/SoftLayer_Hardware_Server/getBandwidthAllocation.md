@@ -29,3 +29,4 @@ Retrieve a hardware's allotted bandwidth (measured in GB).
 
 ### Return Values
 decimal
+

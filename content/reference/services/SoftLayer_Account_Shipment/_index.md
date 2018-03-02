@@ -19,7 +19,9 @@ classes:
 
 ## Description
 SoftLayer's shipment service allows the user to access information pertaining to a shipment from the user to SoftLayer or from SoftLayer to the user. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

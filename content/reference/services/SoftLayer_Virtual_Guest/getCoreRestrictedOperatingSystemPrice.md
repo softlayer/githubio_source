@@ -28,3 +28,4 @@ If the virtual server currently has an operating system that has a core capacity
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>
+

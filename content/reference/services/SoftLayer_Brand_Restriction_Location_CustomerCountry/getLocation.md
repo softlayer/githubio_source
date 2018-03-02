@@ -29,3 +29,4 @@ Retrieve this references the datacenter that has a brand-location-country restri
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+

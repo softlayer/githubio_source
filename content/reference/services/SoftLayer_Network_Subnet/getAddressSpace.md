@@ -29,3 +29,4 @@ Retrieve identifier which distinguishes whether the subnet is public or private 
 
 ### Return Values
 string
+

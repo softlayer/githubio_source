@@ -29,3 +29,4 @@ Retrieve this is the seller's tax registration.
 
 ### Return Values
 string
+

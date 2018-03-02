@@ -29,3 +29,4 @@ Retrieve the public network VLANs assigned to an account.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a>
+

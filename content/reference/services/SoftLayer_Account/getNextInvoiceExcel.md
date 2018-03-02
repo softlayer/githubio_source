@@ -26,3 +26,4 @@ Return an account's next invoice in a Microsoft excel format. The "next invoice"
 
 ### Return Values
 binary data
+

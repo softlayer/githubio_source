@@ -27,3 +27,4 @@ Retrieve all datacenter locations. SoftLayer's datacenters exist in various citi
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+

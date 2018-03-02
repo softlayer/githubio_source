@@ -30,3 +30,4 @@ Retrieve retrieve all subnets that are eligible to be routed; those which the ac
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+

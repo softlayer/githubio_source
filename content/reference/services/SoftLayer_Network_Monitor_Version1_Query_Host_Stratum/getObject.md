@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Network_Monitor_Version1_Query_Host_Stratum ob
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum'>SoftLayer_Network_Monitor_Version1_Query_Host_Stratum </a>
+

@@ -28,3 +28,4 @@ Use this method when needing a memory usage image for a single guest.  It will g
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+

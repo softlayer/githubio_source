@@ -28,3 +28,4 @@ Passing in a collection of unsaved instances of SoftLayer_Customer_Notification_
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Virtual_Guest'>SoftLayer_User_Customer_Notification_Virtual_Guest[] </a>
+

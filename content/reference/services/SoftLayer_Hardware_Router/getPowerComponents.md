@@ -30,3 +30,4 @@ Retrieve the power components for a hardware object.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Power_Component'>SoftLayer_Hardware_Power_Component[] </a>
+

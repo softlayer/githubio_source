@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Container_Product_Item_Category data type represents a single product item category. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

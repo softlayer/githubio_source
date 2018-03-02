@@ -27,3 +27,9 @@ Given the start and end dates, this method will return a pie chart of ticket sta
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Account_Graph_Outputs'>SoftLayer_Container_Account_Graph_Outputs </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Account::getCurrentTicketStatisticsGraph](/reference/services/SoftLayer_Account/getCurrentTicketStatisticsGraph )
+

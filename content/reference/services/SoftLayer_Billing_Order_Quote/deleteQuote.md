@@ -28,3 +28,10 @@ Account master users and sub-users in the SoftLayer customer portal can delete t
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Order_Quote'>SoftLayer_Billing_Order_Quote </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Billing_Order_Quote::deleteQuote](/reference/services/SoftLayer_Billing_Order_Quote/deleteQuote )
+*  [SoftLayer_Billing_Order_Quote::saveQuote](/reference/services/SoftLayer_Billing_Order_Quote/saveQuote )
+

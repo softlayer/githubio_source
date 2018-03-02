@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Provides a means of tracking handle identifiers at the various regional internet registries (RIRs). These objects are used by the [[SoftLayer_Network_Subnet_Registration (type)|SoftLayer_Network_Subnet_Registration]] objects to identify a customer or organization when a subnet is registered. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +71,7 @@ Provides a means of tracking handle identifiers at the various regional internet
             <div class='views-field-body'>The account that this handle belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

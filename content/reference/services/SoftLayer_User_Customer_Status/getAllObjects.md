@@ -27,3 +27,4 @@ Retrieve all user status objects.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer_Status'>SoftLayer_User_Customer_Status[] </a>
+

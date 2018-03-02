@@ -30,3 +30,4 @@ Retrieve information regarding a piece of hardware's virtual software licenses.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Software_VirtualLicense'>SoftLayer_Software_VirtualLicense[] </a>
+

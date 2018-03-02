@@ -28,3 +28,4 @@ Retrieve boolean flag dictating whether or not this account has the EU Supported
 
 ### Return Values
 boolean
+

@@ -33,3 +33,10 @@ If you need to only add an update to a ticket then please use the [[SoftLayer_Ti
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Ticket::addUpdate](/reference/services/SoftLayer_Ticket/addUpdate )
+*  [SoftLayer_Ticket::addAttachedFile](/reference/services/SoftLayer_Ticket/addAttachedFile )
+

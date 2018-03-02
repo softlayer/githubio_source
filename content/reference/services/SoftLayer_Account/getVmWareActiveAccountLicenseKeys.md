@@ -25,3 +25,4 @@ This returns a collection of active VMware software account license keys.
 
 ### Return Values
 array of strings
+

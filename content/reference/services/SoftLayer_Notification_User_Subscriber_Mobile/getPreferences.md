@@ -30,3 +30,4 @@ Retrieve associated subscriber preferences used for the notification subscriptio
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber_Preference'>SoftLayer_Notification_User_Subscriber_Preference[] </a>
+

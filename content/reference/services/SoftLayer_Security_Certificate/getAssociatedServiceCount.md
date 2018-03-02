@@ -29,3 +29,4 @@ Retrieve the number of services currently associated with the certificate.
 
 ### Return Values
 integer
+

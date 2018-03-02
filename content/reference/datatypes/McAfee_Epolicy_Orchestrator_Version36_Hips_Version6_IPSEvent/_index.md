@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The McAfee_Epolicy_Orchestrator_Version36_Hips_Version6_IPSEvent data type represents a single IPS event.  It contains details about the event such as the date the event occurred, the process that generated it, the severity of the event, and the action taken. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +71,7 @@ The McAfee_Epolicy_Orchestrator_Version36_Hips_Version6_IPSEvent data type repre
             <div class='views-field-body'>The signature that generated an IPS event. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p>McAfee_Epolicy_Orchestrator_Version36_Hips_Version6_Event_Signature</p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

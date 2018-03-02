@@ -29,3 +29,4 @@ Retrieve whether the package prevents the user from specifying a Vlan.
 
 ### Return Values
 boolean
+

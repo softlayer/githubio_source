@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Container_Authentication_Response_LOGIN_FAILED data type contains information for specific responses from the getPortalLogin API. This class is indicative of a request where there was an inability to login based on the information that was provided. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

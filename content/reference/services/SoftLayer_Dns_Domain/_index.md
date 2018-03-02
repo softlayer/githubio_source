@@ -23,20 +23,29 @@ SoftLayer customers have the option of hosting DNS domains on the SoftLayer name
 Domain changes are applied automatically by our nameservers, but changes may not be received by the other name servers on the Internet for 72 hours after your change. The SoftLayer_Dns_Domain service does not apply to customers who run their own nameservers on servers purchased from SoftLayer. 
 
 SoftLayer provides secondary DNS hosting services if you wish to maintain DNS records on your name server, but have records replicated on SoftLayer's name servers. Use the [[SoftLayer_Dns_Secondary]] service to manage secondary DNS zones and transfers. 
-### external links
-        Array
-(
-    [url] => http://en.wikipedia.org/wiki/Domain_name_system
-    [description] => Domain Name System at Wikipedia
-)
-1        Array
-(
-    [url] => http://tools.ietf.org/html/rfc1035
-    [description] => RFC1035: Domain Names - Implementation and Specification at ietf.org
-)
-1        
+
+### External Links
+
+
+* [Domain Name System at Wikipedia](http://en.wikipedia.org/wiki/Domain_name_system)
+
+
+* [RFC1035: Domain Names - Implementation and Specification at ietf.org](http://tools.ietf.org/html/rfc1035)
+
+
+
+
 ### seeAlso
-        SoftLayer_Dns_Domain_ResourceRecord1        SoftLayer_Dns_Domain_Reverse1        SoftLayer_Dns_Secondary1                
+
+* [SoftLayer_Dns_Domain_ResourceRecord](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord )
+
+
+* [SoftLayer_Dns_Domain_Reverse](/reference/datatypes/SoftLayer_Dns_Domain_Reverse )
+
+
+* [SoftLayer_Dns_Secondary](/reference/datatypes/SoftLayer_Dns_Secondary )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

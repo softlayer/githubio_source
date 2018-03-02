@@ -25,3 +25,4 @@ This method will return the limit (number) of hourly bare metal servers the acco
 
 ### Return Values
 integer
+

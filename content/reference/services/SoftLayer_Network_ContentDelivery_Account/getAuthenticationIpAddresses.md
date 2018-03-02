@@ -30,3 +30,4 @@ Retrieve the IP addresses that are used for the content authentication service.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Authentication_Address'>SoftLayer_Network_ContentDelivery_Authentication_Address[] </a>
+

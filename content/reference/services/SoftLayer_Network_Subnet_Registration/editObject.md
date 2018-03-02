@@ -27,3 +27,4 @@ This method will edit an existing SoftLayer_Network_Subnet_Registration object. 
 
 ### Return Values
 boolean
+

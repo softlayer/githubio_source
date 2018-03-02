@@ -13,12 +13,17 @@ classes:
 # SoftLayer_User_External_Binding_Vendor
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_User_External_Binding_Vendor' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_User_External_Binding_Vendor' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_User_External_Binding_Vendor' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_User_External_Binding_Vendor data type contains information for a single external binding vendor.  This information includes a user friendly vendor name, a unique version of the vendor name, and a unique internal identifier that can be used when creating a new external binding. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

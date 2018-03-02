@@ -25,3 +25,9 @@ classes:
 
 ### Return Values
 void
+
+
+### associatedMethods
+
+*  [SoftLayer_Account::enableEuSupport](/reference/services/SoftLayer_Account/enableEuSupport )
+

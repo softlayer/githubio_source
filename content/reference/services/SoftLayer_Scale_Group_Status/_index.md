@@ -29,7 +29,9 @@ The status of a scale group. This status affects what actions can occur on a gro
 * SCALING - At least one of the members is in the process of being created or destroyed.
 * SUSPENDED - The group has been placed in a suspended state by a user. It may only be resumed by a user. While in a
 suspended state, a scale group cannot have any members added or deleted, or change settings of that group that would invoke such an action. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

@@ -35,3 +35,4 @@ Unlike server bandwidth, CDN bandwidth returns total bytes consumed within an ho
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_ContentDelivery_Report_Usage'>SoftLayer_Container_Network_ContentDelivery_Report_Usage[] </a>
+

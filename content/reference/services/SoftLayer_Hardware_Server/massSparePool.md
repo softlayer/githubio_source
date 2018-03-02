@@ -28,3 +28,4 @@ The ability to place multiple bare metal servers in a state where they are power
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Hardware_Server_Request'>SoftLayer_Container_Hardware_Server_Request[] </a>
+

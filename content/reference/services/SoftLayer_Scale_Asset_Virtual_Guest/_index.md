@@ -19,7 +19,9 @@ classes:
 
 ## Description
 A guest asset is a fixed asset of scale group. It is not automatically scaled up or down in any way. Its purpose is to provide information (e.g. metrics) to policies to affect scaling decisions. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

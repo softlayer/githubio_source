@@ -30,3 +30,4 @@ Retrieve the VLAN objects that a firewall is associated with and protecting.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a>
+

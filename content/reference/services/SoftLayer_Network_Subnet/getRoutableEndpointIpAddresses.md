@@ -28,3 +28,4 @@ getRoutableEndpointAddresses retrieves valid routable endpoint addresses for a s
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>
+

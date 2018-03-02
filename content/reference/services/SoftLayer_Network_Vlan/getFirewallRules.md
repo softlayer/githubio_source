@@ -30,3 +30,4 @@ Retrieve the currently running rule set of a firewalled VLAN.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Vlan_Firewall_Rule'>SoftLayer_Network_Vlan_Firewall_Rule[] </a>
+

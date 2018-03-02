@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Network_CdnMarketplace_Account
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_CdnMarketplace_Account' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Account' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Account' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_CdnMarketplace_Account data type models an individual CDN account. CDN accounts contain the SoftLayer account ID of the customer, the vendor ID the account belongs to, the customer ID provided by the vendor, and a CDN account's status. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -46,6 +51,7 @@ The SoftLayer_Network_CdnMarketplace_Account data type models an individual CDN 
             <div class='views-field-body'>An associated parent billing item which is active. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

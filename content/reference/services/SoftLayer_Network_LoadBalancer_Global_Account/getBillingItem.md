@@ -29,3 +29,4 @@ Retrieve the current billing item for a Global Load Balancer account.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+

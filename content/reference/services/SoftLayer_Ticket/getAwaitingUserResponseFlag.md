@@ -29,3 +29,4 @@ Retrieve ticket is waiting on a response from a customer flag.
 
 ### Return Values
 boolean
+

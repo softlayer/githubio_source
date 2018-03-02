@@ -30,3 +30,4 @@ Retrieve the delivery methods used to send the subscribed notification.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Notification_Delivery_Method'>SoftLayer_Notification_Delivery_Method[] </a>
+

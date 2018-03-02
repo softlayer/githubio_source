@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The SoftLayer_Auxiliary_Press_Release service is associated with all actions pertaining to the press release management tool.  It can be used to obtain a single press release, all press releases, press releases for a given year and highlighted press releases. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

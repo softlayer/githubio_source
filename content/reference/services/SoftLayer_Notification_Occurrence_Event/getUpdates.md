@@ -30,3 +30,4 @@ Retrieve all updates for this event.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Update'>SoftLayer_Notification_Occurrence_Update[] </a>
+

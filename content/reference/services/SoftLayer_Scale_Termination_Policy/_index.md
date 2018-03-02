@@ -27,7 +27,9 @@ A policy for automatic removal of members from a group. This policy determines w
 will let you remove the member you have gotten the most out of. Note, this is usually closest to the next billing hour. 
 
 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

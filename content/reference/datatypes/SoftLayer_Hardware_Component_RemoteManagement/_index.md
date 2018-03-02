@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 This class adds functionality to the base SoftLayer_Hardware class for web servers (all server hardware) 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -170,6 +175,42 @@ This class adds functionality to the base SoftLayer_Hardware class for web serve
             <span class='views-field-title'><a href="#uplinkHardwareComponents" name=uplinkHardwareComponents>uplinkHardwareComponents</a></span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#childrenCount" name=childrenCount>childrenCount</a></span>
+            <div class='views-field-body'>A count of a components sub components. Devices that are usually integrated or in some way attached to a component. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#downlinkHardwareComponentCount" name=downlinkHardwareComponentCount>downlinkHardwareComponentCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#moduleComponentCount" name=moduleComponentCount>moduleComponentCount</a></span>
+            <div class='views-field-body'>A count of the module's hardware components </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#moduleHardwareComponentCount" name=moduleHardwareComponentCount>moduleHardwareComponentCount</a></span>
+            <div class='views-field-body'>A count of the module's hardware components </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#moduleNetworkComponentCount" name=moduleNetworkComponentCount>moduleNetworkComponentCount</a></span>
+            <div class='views-field-body'>A count of the module's network components </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkComponentCount" name=networkComponentCount>networkComponentCount</a></span>
+            <div class='views-field-body'>A count of the components local ethernet and remote management interfaces </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#uplinkHardwareComponentCount" name=uplinkHardwareComponentCount>uplinkHardwareComponentCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -28,3 +28,4 @@ Get the subnets associated with this server that are protectable by a network co
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+

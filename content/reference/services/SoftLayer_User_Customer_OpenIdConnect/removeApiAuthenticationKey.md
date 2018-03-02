@@ -26,3 +26,9 @@ Remove a user's API authentication key, removing that user's access to query the
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Customer::addApiAuthenticationKey](/reference/services/SoftLayer_User_Customer/addApiAuthenticationKey )
+

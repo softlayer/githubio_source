@@ -29,3 +29,4 @@ Retrieve a storage repository's [[SoftLayer_Virtual_Storage_Repository_Type|type
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository_Type'>SoftLayer_Virtual_Storage_Repository_Type </a>
+

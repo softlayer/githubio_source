@@ -24,3 +24,4 @@ The getDatacenter method retrieves the name of the datacenter in which the resou
 
 ### Return Values
 string
+

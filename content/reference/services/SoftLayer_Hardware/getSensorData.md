@@ -26,3 +26,4 @@ The '''getSensorData''' method retrieves a server's hardware state via its inter
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_RemoteManagement_SensorReading'>SoftLayer_Container_RemoteManagement_SensorReading[] </a>
+

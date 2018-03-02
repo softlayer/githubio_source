@@ -26,3 +26,4 @@ Cancels a pending SSL certificate order at the Certificate Authority
 
 ### Return Values
 boolean
+

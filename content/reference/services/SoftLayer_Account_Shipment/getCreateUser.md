@@ -29,3 +29,4 @@ Retrieve the customer user who created the shipment.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+

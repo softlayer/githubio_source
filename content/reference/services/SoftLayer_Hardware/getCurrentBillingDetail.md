@@ -28,3 +28,4 @@ Get the billing detail for this instance for the current billing period. This do
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+

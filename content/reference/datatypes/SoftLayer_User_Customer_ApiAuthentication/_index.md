@@ -13,12 +13,28 @@ classes:
 # SoftLayer_User_Customer_ApiAuthentication
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_User_Customer_ApiAuthentication' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_User_Customer_ApiAuthentication' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_User_Customer_ApiAuthentication' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_User_Customer_ApiAuthentication type contains user's authentication key(s).
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Customer::getApiAuthenticationKeys](/reference/services/SoftLayer_User_Customer/getApiAuthenticationKeys )
+*  [SoftLayer_User_Customer_ApiAuthentication::getObject](/reference/services/SoftLayer_User_Customer_ApiAuthentication/getObject )
+
+
+
+### seeAlso
+
+* [SoftLayer_User_Customer](/reference/datatypes/SoftLayer_User_Customer )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +82,7 @@ The SoftLayer_User_Customer_ApiAuthentication type contains user's authenticatio
             <div class='views-field-body'>The user who owns the api authentication key. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

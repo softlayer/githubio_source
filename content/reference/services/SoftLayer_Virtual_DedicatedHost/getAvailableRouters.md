@@ -28,3 +28,4 @@ This method will get the available backend routers to order a dedicated host.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+

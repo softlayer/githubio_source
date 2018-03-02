@@ -19,7 +19,9 @@ classes:
 
 ## Description
 This service specifies a specific type of Software Component:  A Host Intrusion Protection System instance. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

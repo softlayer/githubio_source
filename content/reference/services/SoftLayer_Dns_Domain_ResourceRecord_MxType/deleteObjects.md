@@ -28,3 +28,11 @@ Remove multiple MX records from a domain. This follows the same logic as ''delet
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain_ResourceRecord::deleteObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObject )
+*  [SoftLayer_Dns_Domain_ResourceRecord::deleteObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObjects )
+*  [SoftLayer_Dns_Domain_ResourceRecord_MxType::deleteObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/deleteObject )
+

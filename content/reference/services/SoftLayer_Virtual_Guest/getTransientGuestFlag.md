@@ -29,3 +29,4 @@ Retrieve whether or not a computing instance is a Transient Instance.
 
 ### Return Values
 boolean
+

@@ -19,7 +19,9 @@ classes:
 
 ## Description
 A trigger type
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

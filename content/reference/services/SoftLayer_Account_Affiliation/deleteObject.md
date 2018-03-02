@@ -26,3 +26,4 @@ deleteObject permanently removes an account affiliation
 
 ### Return Values
 boolean
+

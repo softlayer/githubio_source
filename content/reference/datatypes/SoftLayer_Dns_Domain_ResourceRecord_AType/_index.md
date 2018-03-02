@@ -19,6 +19,33 @@ classes:
 
 ## Description 
 SoftLayer_Dns_Domain_ResourceRecord_AType is a SoftLayer_Dns_Domain_ResourceRecord object whose ''type'' property is set to "a" and defines a DNS A record on a SoftLayer hosted domain. An A record directs a host name to an IP address. For instance if the A record for "host.example.org" points to the IP address 10.0.0.1 then the ''host'' property for the A record equals "host" and the ''data'' property equals "10.0.0.1". 
+
+### External Links
+
+
+* [List of DNS record types at Wikipedia](http://en.wikipedia.org/wiki/List_of_DNS_record_types)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain::createARecord](/reference/services/SoftLayer_Dns_Domain/createARecord )
+
+
+
+### seeAlso
+
+* [SoftLayer_Dns_Domain](/reference/datatypes/SoftLayer_Dns_Domain )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_AaaaType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_AaaaType )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -101,6 +128,7 @@ SoftLayer_Dns_Domain_ResourceRecord_AType is a SoftLayer_Dns_Domain_ResourceReco
             <div class='views-field-body'>The domain that a resource record belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

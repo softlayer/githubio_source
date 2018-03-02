@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 SoftLayer_Metric_Tracking_Object_VirtualDedicatedRack models tracking objects specific to virtual dedicated racks. Bandwidth Pooling aggregate the bandwidth used by multiple servers within the rack. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Metric_Tracking_Object](/reference/datatypes/SoftLayer_Metric_Tracking_Object )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -115,6 +125,17 @@ SoftLayer_Metric_Tracking_Object_VirtualDedicatedRack models tracking objects sp
             <span class='views-field-title'><a href="#type" name=type>type</a></span>
             <div class='views-field-body'>The type of data that a tracking object polls. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Type'>SoftLayer_Metric_Tracking_Object_Type </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#billingCycleBandwidthUsageCount" name=billingCycleBandwidthUsageCount>billingCycleBandwidthUsageCount</a></span>
+            <div class='views-field-body'>A count of the raw bandwidth usage data for the current billing cycle. One object is returned for each network this server is attached to. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#billingCyclePrivateBandwidthUsageCount" name=billingCyclePrivateBandwidthUsageCount>billingCyclePrivateBandwidthUsageCount</a></span>
+            <div class='views-field-body'>A count of the raw bandwidth usage data for the current billing cycle. One object is returned for each network this server is attached to. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Network_Vlan object whose ID number correspond
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>
+

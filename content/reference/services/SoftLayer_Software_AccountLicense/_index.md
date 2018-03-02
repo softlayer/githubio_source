@@ -19,8 +19,17 @@ classes:
 
 ## Description
 SoftLayer_Software_AccountLicense is the application class that handles a special type of Software License.  Most software licenses are licensed to a specific hardware ID or IP address, this is tied to an account. 
+
+
+
 ### seeAlso
-        SoftLayer_Account1        SoftLayer_Software_Description1                
+
+* [SoftLayer_Account](/reference/datatypes/SoftLayer_Account )
+
+
+* [SoftLayer_Software_Description](/reference/datatypes/SoftLayer_Software_Description )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

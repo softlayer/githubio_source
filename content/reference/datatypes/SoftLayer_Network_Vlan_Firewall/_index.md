@@ -13,12 +13,31 @@ classes:
 # SoftLayer_Network_Vlan_Firewall
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Vlan_Firewall' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Vlan_Firewall' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Vlan_Firewall' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_Vlan_Firewall data type contains general information relating to a single SoftLayer VLAN firewall. This is the object which ties the running rules to a specific downstream server. Use the [[SoftLayer Network Firewall Template]] service to pull SoftLayer recommended rule set templates. Use the [[SoftLayer Network Firewall Update Request]] service to submit a firewall update request. 
+
+### External Links
+
+
+* [Firewall at Wikipedia](http://en.wikipedia.org/wiki/Firewall_(networking))
+
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_Firewall_Template](/reference/datatypes/SoftLayer_Network_Firewall_Template )
+
+
+* [SoftLayer_Network_Firewall_Update_Request](/reference/datatypes/SoftLayer_Network_Firewall_Update_Request )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -155,6 +174,32 @@ The SoftLayer_Network_Vlan_Firewall data type contains general information relat
             <span class='views-field-title'><a href="#upgradeRequest" name=upgradeRequest>upgradeRequest</a></span>
             <div class='views-field-body'>A firewall's associated upgrade request object, if any. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Upgrade_Request'>SoftLayer_Product_Upgrade_Request </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#billingCycleBandwidthUsageCount" name=billingCycleBandwidthUsageCount>billingCycleBandwidthUsageCount</a></span>
+            <div class='views-field-body'>A count of the raw bandwidth usage data for the current billing cycle. One object will be returned for each network this firewall is attached to. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkFirewallUpdateRequestCount" name=networkFirewallUpdateRequestCount>networkFirewallUpdateRequestCount</a></span>
+            <div class='views-field-body'>A count of the update requests made for this firewall. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkVlanCount" name=networkVlanCount>networkVlanCount</a></span>
+            <div class='views-field-body'>A count of the VLAN objects that a firewall is associated with and protecting. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#ruleCount" name=ruleCount>ruleCount</a></span>
+            <div class='views-field-body'>A count of the currently running rule set of this network component firewall. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#tagReferenceCount" name=tagReferenceCount>tagReferenceCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -29,3 +29,4 @@ Retrieve whether this disk image is meant for storage of custom user data suppli
 
 ### Return Values
 boolean
+

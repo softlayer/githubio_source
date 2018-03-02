@@ -26,3 +26,4 @@ The '''getServerTemperatureGraphs''' retrieves the server's temperatures and dis
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_RemoteManagement_Graphs_SensorTemperature'>SoftLayer_Container_RemoteManagement_Graphs_SensorTemperature[] </a>
+

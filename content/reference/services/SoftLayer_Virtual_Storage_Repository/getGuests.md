@@ -30,3 +30,4 @@ Retrieve the computing instances that have disk images in a storage repository.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+

@@ -29,3 +29,4 @@ Retrieve the transaction information related to verifying the customer credit ca
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_Transaction'>SoftLayer_Billing_Payment_Card_Transaction </a>
+

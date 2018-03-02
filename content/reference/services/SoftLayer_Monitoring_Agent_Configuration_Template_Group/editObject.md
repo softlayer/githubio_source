@@ -27,3 +27,12 @@ This method edits an existing SoftLayer_Monitoring_Agent_Configuration_Template_
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group::getObject](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getObject )
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group::getAllObjects ](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getAllObjects  )
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group::createObject](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/createObject )
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group::getConfigurationGroups ](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getConfigurationGroups  )
+

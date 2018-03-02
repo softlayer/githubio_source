@@ -26,3 +26,10 @@ This method will deactivate the monitoring agent, preventing it from generating 
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Monitoring_Agent::activate](/reference/services/SoftLayer_Monitoring_Agent/activate )
+*  [SoftLayer_Monitoring_Agent::restart](/reference/services/SoftLayer_Monitoring_Agent/restart )
+

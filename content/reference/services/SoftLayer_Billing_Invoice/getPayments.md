@@ -30,3 +30,4 @@ Retrieve the payments for the invoice.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Invoice_Receivable_Payment'>SoftLayer_Billing_Invoice_Receivable_Payment[] </a>
+

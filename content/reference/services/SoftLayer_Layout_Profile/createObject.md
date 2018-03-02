@@ -26,3 +26,4 @@ This method creates a new layout profile object.
 
 ### Return Values
 boolean
+

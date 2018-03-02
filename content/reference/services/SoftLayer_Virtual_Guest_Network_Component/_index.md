@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The virtual guest network component service provides a common interface to a [[SoftLayer_Virtual_Guest|computing instance's]] network component. Interaction with various third party APIs is not needed when implementing this service to administer your computing instances. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

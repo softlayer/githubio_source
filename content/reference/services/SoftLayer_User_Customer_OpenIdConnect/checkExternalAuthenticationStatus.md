@@ -26,3 +26,4 @@ This service checks the result of a previously requested external authentication
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_User_Customer_Portal_Token'>SoftLayer_Container_User_Customer_Portal_Token </a>
+

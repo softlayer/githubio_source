@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Virtual_Storage_Repository
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Virtual_Storage_Repository' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Virtual_Storage_Repository represents a web based storage system that can be accessed through many types of devices, interfaces, and other resources. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -105,6 +110,17 @@ The SoftLayer_Virtual_Storage_Repository represents a web based storage system t
             <span class='views-field-title'><a href="#type" name=type>type</a></span>
             <div class='views-field-body'>A storage repository's [[SoftLayer_Virtual_Storage_Repository_Type|type]]. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository_Type'>SoftLayer_Virtual_Storage_Repository_Type </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#diskImageCount" name=diskImageCount>diskImageCount</a></span>
+            <div class='views-field-body'>A count of the [[SoftLayer_Virtual_Disk_Image|disk images]] that are in a storage repository. Disk images are the virtual hard drives for a virtual guest. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#guestCount" name=guestCount>guestCount</a></span>
+            <div class='views-field-body'>A count of the computing instances that have disk images in a storage repository. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

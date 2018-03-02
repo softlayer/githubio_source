@@ -29,3 +29,4 @@ Retrieve the type keyname of this price which can be STANDARD or TIERED.
 
 ### Return Values
 string
+

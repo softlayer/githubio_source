@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Network_Pod
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Pod' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Pod' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Pod' >Datatype</a></li>
     </ul>
 </div>
 
@@ -24,6 +24,11 @@ A ``Pod`` is identified by a ``name``, which is unique. A Pod name follows the f
 * dal09.pod01 = Dallas 9, Pod 1 (ie. bcr01)
 * sjc01.pod04 = San Jose 1, Pod 4 (ie. bcr04)
 * ams01.pod01 = Amsterdam 1, Pod 1 (ie. bcr01)
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

@@ -29,3 +29,4 @@ Retrieve the bandwidth allocation for a billing item.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allocation'>SoftLayer_Network_Bandwidth_Version1_Allocation </a>
+

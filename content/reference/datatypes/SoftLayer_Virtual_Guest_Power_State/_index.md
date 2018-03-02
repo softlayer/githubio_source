@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The power state class provides a common set of values for which a guest's power state will be presented in the SoftLayer API. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

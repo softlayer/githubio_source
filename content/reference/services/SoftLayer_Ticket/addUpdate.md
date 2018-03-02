@@ -30,3 +30,4 @@ Add an update to a ticket. A ticket update's entry has a maximum length of 4000 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Ticket_Update'>SoftLayer_Ticket_Update[] </a>
+

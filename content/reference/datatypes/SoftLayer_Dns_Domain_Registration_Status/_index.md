@@ -16,7 +16,7 @@ classes:
 # SoftLayer_Dns_Domain_Registration_Status
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Dns_Domain_Registration_Status' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Status' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Status' >Datatype</a></li>
     </ul>
 </div>
 
@@ -29,6 +29,16 @@ SoftLayer_Dns_Domain_Registration_Status models the state of domain name. Here a
 *'''Pending Admin Review''': Pending admin review for transfer.
 *'''Pending Registry''': Pending registry for transfer.
 *'''Expired''': Domain name has expired.
+
+
+
+
+
+### seeAlso
+
+* [SoftLayer_Dns_Domain_Registration](/reference/datatypes/SoftLayer_Dns_Domain_Registration )
+
+
 
 
 <!-- Service Filer BEGIN -->

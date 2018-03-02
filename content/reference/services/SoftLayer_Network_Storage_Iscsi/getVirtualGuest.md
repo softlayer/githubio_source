@@ -29,3 +29,4 @@ Retrieve when applicable, the virtual guest associated with a Storage service.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
+

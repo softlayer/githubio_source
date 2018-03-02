@@ -29,3 +29,4 @@ Retrieve the hour parameter of this schedule.
 
 ### Return Values
 string
+

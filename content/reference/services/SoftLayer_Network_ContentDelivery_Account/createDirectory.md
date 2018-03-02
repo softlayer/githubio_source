@@ -27,3 +27,4 @@ You can further organize your contents on the CDN FTP server by creating sub dir
 
 ### Return Values
 boolean
+

@@ -28,3 +28,4 @@ The registerNameserver method creates a nameserver for the domain.
 
 ### Return Values
 boolean
+

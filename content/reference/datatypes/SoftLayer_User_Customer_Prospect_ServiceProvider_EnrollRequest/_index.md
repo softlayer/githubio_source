@@ -13,12 +13,17 @@ classes:
 # SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 Contains user information for Service Provider Enrollment. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -206,6 +211,7 @@ Contains user information for Service Provider Enrollment.
             <div class='views-field-body'>Catalyst company types. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Catalyst_Company_Type'>SoftLayer_Catalyst_Company_Type </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

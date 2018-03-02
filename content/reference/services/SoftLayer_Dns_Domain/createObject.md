@@ -44,3 +44,9 @@ If your domain doesn't contain NS resource records for ns1.softlayer.com or ns2.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain::createObjects](/reference/services/SoftLayer_Dns_Domain/createObjects )
+

@@ -29,3 +29,4 @@ Retrieve the virtual host on which a virtual guest resides (available only on pr
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Host'>SoftLayer_Virtual_Host </a>
+

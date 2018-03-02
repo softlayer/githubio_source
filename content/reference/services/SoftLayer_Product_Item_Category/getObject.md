@@ -29,3 +29,4 @@ Each product item price must be tied to a category for it to be sold. These cate
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>
+

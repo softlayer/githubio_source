@@ -24,3 +24,4 @@ The getUserMetadata method retrieves metadata completed by users who interact wi
 
 ### Return Values
 string
+

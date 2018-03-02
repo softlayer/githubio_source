@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Locale_Timezone object whose ID number corresp
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Locale_Timezone'>SoftLayer_Locale_Timezone </a>
+

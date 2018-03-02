@@ -28,3 +28,9 @@ Create a secondary DNS record. The ''zoneName'', ''masterIpAddress'', and ''tran
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Secondary'>SoftLayer_Dns_Secondary </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Secondary::createObjects](/reference/services/SoftLayer_Dns_Secondary/createObjects )
+

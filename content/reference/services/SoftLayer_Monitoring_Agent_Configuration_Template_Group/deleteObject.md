@@ -26,3 +26,4 @@ Deletes a customer configuration template group.
 
 ### Return Values
 boolean
+

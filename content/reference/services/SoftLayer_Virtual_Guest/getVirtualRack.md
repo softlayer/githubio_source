@@ -29,3 +29,4 @@ Retrieve the name of the bandwidth allotment that a hardware belongs too.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment </a>
+

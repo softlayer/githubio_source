@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Network_Bandwidth_Usage_Detail data type contains specific information relating to bandwidth utilization at a specific point in time on a given network interface. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +71,7 @@ The SoftLayer_Network_Bandwidth_Usage_Detail data type contains specific informa
             <div class='views-field-body'>In and out bandwidth utilization for a specified time stamp. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

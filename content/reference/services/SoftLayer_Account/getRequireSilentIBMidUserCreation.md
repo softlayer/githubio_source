@@ -28,3 +28,4 @@ Retrieve indicates whether newly created users under this account will be associ
 
 ### Return Values
 boolean
+

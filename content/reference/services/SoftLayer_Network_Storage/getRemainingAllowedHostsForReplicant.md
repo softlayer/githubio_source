@@ -26,3 +26,4 @@ Retrieves the remaining number of allowed hosts for a volume's replicant.
 
 ### Return Values
 integer
+

@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 This contains the four tax rates, one for each fee type. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

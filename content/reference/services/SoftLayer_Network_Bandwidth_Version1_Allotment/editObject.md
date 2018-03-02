@@ -27,3 +27,4 @@ Edit a bandwidth allotment's local properties. Currently you may only change an 
 
 ### Return Values
 boolean
+

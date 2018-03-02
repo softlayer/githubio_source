@@ -19,15 +19,23 @@ classes:
 
 ## Description
 The SoftLayer_Network_Firewall_AccessControlList service accesses general information relating to a single SoftLayer firewall access control list.  This is the object which ties the running rules to a specific context. The current running rule set can be pulled from this service. Use the [[SoftLayer Network Firewall Template]] service to pull SoftLayer recommended rule set templates. Use the [[SoftLayer Network Firewall Update Request]] service to submit a firewall update request. 
-### external links
-        Array
-(
-    [url] => http://en.wikipedia.org/wiki/Firewall_(networking)
-    [description] => Firewall at Wikipedia
-)
-1        
+
+### External Links
+
+
+* [Firewall at Wikipedia](http://en.wikipedia.org/wiki/Firewall_(networking))
+
+
+
+
 ### seeAlso
-        SoftLayer_Network_Firewall_Template1        SoftLayer_Network_Firewall_Update_Request1                
+
+* [SoftLayer_Network_Firewall_Template](/reference/datatypes/SoftLayer_Network_Firewall_Template )
+
+
+* [SoftLayer_Network_Firewall_Update_Request](/reference/datatypes/SoftLayer_Network_Firewall_Update_Request )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

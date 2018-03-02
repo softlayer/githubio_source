@@ -27,3 +27,4 @@ An origin pull mapping is a combination of your customer origin record and a CNA
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_ContentDelivery_OriginPull_Mapping'>SoftLayer_Container_Network_ContentDelivery_OriginPull_Mapping[] </a>
+

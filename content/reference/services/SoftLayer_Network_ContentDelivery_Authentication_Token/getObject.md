@@ -33,3 +33,4 @@ getObject retrieves the SoftLayer_Network_ContentDelivery_Authentication_Token o
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Authentication_Token'>SoftLayer_Network_ContentDelivery_Authentication_Token </a>
+

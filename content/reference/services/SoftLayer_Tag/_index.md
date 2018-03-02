@@ -19,7 +19,9 @@ classes:
 
 ## Description
 SoftLayer's tagging service gives customers the ability to tag devices with keywords that can later be used to search upon. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

@@ -26,3 +26,4 @@ Power cycle a virtual guest
 
 ### Return Values
 boolean
+

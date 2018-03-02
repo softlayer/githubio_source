@@ -29,3 +29,4 @@ Retrieve the size of the Network specified in CIDR notation. Specified in conjun
 
 ### Return Values
 integer
+

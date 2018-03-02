@@ -47,3 +47,4 @@ SUPPORTS_CUSTOMER_DEFINED_NETWORK capability. See [[SoftLayer_Network_Pod/getCap
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
+

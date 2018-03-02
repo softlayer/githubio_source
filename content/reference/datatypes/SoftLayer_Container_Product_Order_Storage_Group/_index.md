@@ -23,6 +23,11 @@ classes:
 A single storage group container used for a hardware server order. 
 
 This object describes a single storage group that can be added to an order container. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

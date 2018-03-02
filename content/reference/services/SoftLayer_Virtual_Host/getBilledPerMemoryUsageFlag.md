@@ -29,3 +29,4 @@ Retrieve boolean flag indicating whether this virtualization platform gets bille
 
 ### Return Values
 boolean
+

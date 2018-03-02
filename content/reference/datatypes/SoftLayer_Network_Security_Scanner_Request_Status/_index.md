@@ -27,6 +27,21 @@ The SoftLayer_Network_Security_Scanner_Request_Status data type represents the c
 
 
 The status of a vulnerability scan will change over the course of a scan's execution. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Security_Scanner_Request::getStatus](/reference/services/SoftLayer_Network_Security_Scanner_Request/getStatus )
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_Security_Scanner_Request](/reference/datatypes/SoftLayer_Network_Security_Scanner_Request )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

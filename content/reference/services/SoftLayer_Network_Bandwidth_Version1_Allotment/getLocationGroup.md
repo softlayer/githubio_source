@@ -29,3 +29,4 @@ Retrieve the location group associated with this virtual rack.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group </a>
+

@@ -36,3 +36,15 @@ Finally, users can only update their own password. An account's master user can 
 
 ### Return Values
 boolean
+
+### External Links
+
+
+* [The SoftLayer Customer Portal](https://manage.softlayer.com)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Customer::updateForumPassword](/reference/services/SoftLayer_User_Customer/updateForumPassword )
+

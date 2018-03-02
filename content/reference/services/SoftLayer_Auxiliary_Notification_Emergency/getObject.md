@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Auxiliary_Notification_Emergency object, it ca
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency'>SoftLayer_Auxiliary_Notification_Emergency </a>
+

@@ -29,3 +29,4 @@ Retrieve the location of the billing item. Some billing items have physical prop
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+

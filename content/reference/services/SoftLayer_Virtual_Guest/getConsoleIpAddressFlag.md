@@ -29,3 +29,4 @@ Retrieve a flag indicating a computing instance's console IP address is assigned
 
 ### Return Values
 boolean
+

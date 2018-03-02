@@ -28,3 +28,4 @@ Use this method when needing a image displaying the amount of memory used over t
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+

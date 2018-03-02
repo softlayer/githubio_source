@@ -28,3 +28,4 @@ Returns closed monitoring alarms for a given time period
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Monitoring_Alarm_History'>SoftLayer_Container_Monitoring_Alarm_History[] </a>
+

@@ -29,3 +29,4 @@ Retrieve the last time a VeriSign credential was updated.
 
 ### Return Values
 string
+

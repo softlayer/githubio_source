@@ -29,3 +29,11 @@ This method returns a SoftLayer_Container_Bandwidth_GraphOutputs object containi
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Monitoring_Graph_Outputs'>SoftLayer_Container_Monitoring_Graph_Outputs </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Monitoring_Agent::addConfigurationProfile](/reference/services/SoftLayer_Monitoring_Agent/addConfigurationProfile )
+*  [SoftLayer_Monitoring_Agent::applyConfigurationValues](/reference/services/SoftLayer_Monitoring_Agent/applyConfigurationValues )
+*  [SoftLayer_Monitoring_Agent::getAvailableConfigurationValues](/reference/services/SoftLayer_Monitoring_Agent/getAvailableConfigurationValues )
+

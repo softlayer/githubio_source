@@ -26,3 +26,4 @@ Delete a network storage schedule. '''This cannot be undone.''' ''deleteObject''
 
 ### Return Values
 boolean
+

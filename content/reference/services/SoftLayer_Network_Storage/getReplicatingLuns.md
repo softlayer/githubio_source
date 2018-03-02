@@ -30,3 +30,4 @@ Retrieve the iSCSI LUN volumes being replicated by this network storage volume.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+

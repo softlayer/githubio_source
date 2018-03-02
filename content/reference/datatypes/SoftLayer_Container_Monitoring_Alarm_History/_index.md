@@ -19,6 +19,17 @@ classes:
 
 ## Description 
 The SoftLayer_Container_Monitoring_Alarm_History data type contains information relating to SoftLayer monitoring alarm history. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Hardware::getMonitoringAlarmHistory](/reference/services/SoftLayer_Hardware/getMonitoringAlarmHistory )
+*  [SoftLayer_Virtual_Guest::getMonitoringAlarmHistory](/reference/services/SoftLayer_Virtual_Guest/getMonitoringAlarmHistory )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

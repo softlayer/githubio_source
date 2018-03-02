@@ -27,3 +27,4 @@ Verify that a virtual server can go through the operating system reload process.
 
 ### Return Values
 boolean
+

@@ -30,3 +30,4 @@ Retrieve the Subnets within the Network. These represent the realized segments o
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+

@@ -25,3 +25,4 @@ Returns multiple [[SoftLayer_Container_Policy_Acceptance]] that represent the ac
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Policy_Acceptance'>SoftLayer_Container_Policy_Acceptance[] </a>
+

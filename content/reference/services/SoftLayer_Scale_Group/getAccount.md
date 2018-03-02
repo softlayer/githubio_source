@@ -29,3 +29,4 @@ Retrieve the account for this scaling group.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+

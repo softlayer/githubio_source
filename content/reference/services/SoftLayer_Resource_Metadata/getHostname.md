@@ -24,3 +24,4 @@ The getHostname method retrieves the hostname for the resource.
 
 ### Return Values
 string
+

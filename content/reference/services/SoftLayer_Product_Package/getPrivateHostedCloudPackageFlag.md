@@ -29,3 +29,4 @@ Retrieve this flag indicates the package is for a private hosted cloud deploymen
 
 ### Return Values
 boolean
+

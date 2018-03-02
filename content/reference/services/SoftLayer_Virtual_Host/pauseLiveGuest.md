@@ -27,3 +27,4 @@ Pause a virtual guest
 
 ### Return Values
 boolean
+

@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Auxiliary_Press_Release_About_Press_Release ob
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_About_Press_Release'>SoftLayer_Auxiliary_Press_Release_About_Press_Release </a>
+

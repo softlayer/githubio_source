@@ -19,7 +19,9 @@ classes:
 
 ## Description
 A scale load balancer is a configuration for a load balancer virtual server that autoscaled members will be automatically configured for. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

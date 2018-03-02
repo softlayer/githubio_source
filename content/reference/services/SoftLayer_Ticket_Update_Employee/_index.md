@@ -19,8 +19,17 @@ classes:
 
 ## Description
 Retrieve an update to a ticket made by a SoftLayer employee. Ticket updates created by employees have the option of being rated on a one to five scale. Because customer updates don't have this ability the SoftLayer_Ticket_Update_Employee class has it's own service. 
+
+
+
 ### seeAlso
-        SoftLayer_Ticket1        SoftLayer_Ticket_Update1                
+
+* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+
+
+* [SoftLayer_Ticket_Update](/reference/datatypes/SoftLayer_Ticket_Update )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

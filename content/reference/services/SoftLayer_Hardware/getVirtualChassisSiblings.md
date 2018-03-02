@@ -30,3 +30,4 @@ Retrieve information regarding the virtual chassis siblings for a piece of hardw
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+

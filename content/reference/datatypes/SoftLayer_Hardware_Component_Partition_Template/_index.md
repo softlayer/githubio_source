@@ -13,12 +13,23 @@ classes:
 # SoftLayer_Hardware_Component_Partition_Template
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Hardware_Component_Partition_Template' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Hardware_Component_Partition_Template data type contains general information relating to a single SoftLayer partition template.  Partition templates group 1 or more partition configurations that can be used to predefine how a hard drive's partitions will be configured. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Hardware_Component_Partition_Template::getData](/reference/services/SoftLayer_Hardware_Component_Partition_Template/getData )
+*  [SoftLayer_Hardware_Component_Partition_Template::getPartitionTemplatePartition](/reference/services/SoftLayer_Hardware_Component_Partition_Template/getPartitionTemplatePartition )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -90,6 +101,17 @@ The SoftLayer_Hardware_Component_Partition_Template data type contains general i
             <span class='views-field-title'><a href="#partitionTemplatePartition" name=partitionTemplatePartition>partitionTemplatePartition</a></span>
             <div class='views-field-body'>An individual partition for a partition template. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template_Partition'>SoftLayer_Hardware_Component_Partition_Template_Partition[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#dataCount" name=dataCount>dataCount</a></span>
+            <div class='views-field-body'>A count of an individual partition for a partition template. This is identical to 'partitionTemplatePartition' except this will sort unix partitions. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#partitionTemplatePartitionCount" name=partitionTemplatePartitionCount>partitionTemplatePartitionCount</a></span>
+            <div class='views-field-body'>A count of an individual partition for a partition template. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

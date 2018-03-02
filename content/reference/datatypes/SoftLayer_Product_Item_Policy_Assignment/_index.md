@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Product_Item_Policy_Assignment
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Product_Item_Policy_Assignment' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Product_Item_Policy_Assignment' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Product_Item_Policy_Assignment' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 Represents the assignment of a policy to a product. The existence of a record means that the associated product is subject to the terms defined in the document content of the policy. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -56,6 +61,7 @@ Represents the assignment of a policy to a product. The existence of a record me
             <div class='views-field-body'>The [[SoftLayer_Product_Item]] for this policy assignment. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

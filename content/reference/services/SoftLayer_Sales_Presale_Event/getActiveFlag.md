@@ -29,3 +29,4 @@ Retrieve a flag to indicate that the presale event is currently active. A presal
 
 ### Return Values
 boolean
+

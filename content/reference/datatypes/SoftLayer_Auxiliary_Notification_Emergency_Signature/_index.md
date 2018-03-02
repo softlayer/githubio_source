@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 Every SoftLayer_Auxiliary_Notification_Emergency has a signatureId that references a SoftLayer_Auxiliary_Notification_Emergency_Signature data type.  The signature is the user or group  responsible for the current event. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Auxiliary_Notification_Emergency](/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

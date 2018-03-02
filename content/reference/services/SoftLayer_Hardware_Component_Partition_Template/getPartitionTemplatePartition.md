@@ -30,3 +30,4 @@ Retrieve an individual partition for a partition template.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template_Partition'>SoftLayer_Hardware_Component_Partition_Template_Partition[] </a>
+

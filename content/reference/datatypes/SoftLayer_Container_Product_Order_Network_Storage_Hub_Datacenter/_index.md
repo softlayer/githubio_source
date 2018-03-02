@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 This class is used to contain a datacenter location and its associated active usage rate prices for object storage ordering. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

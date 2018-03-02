@@ -29,3 +29,4 @@ Retrieve the node type for a package in a solution deployment.
 
 ### Return Values
 string
+

@@ -26,3 +26,9 @@ Edit multiple [[SoftLayer_Account_Regional_Registry_Detail_Property]] objects.
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Account_Regional_Registry_Detail_Property::editObject](/reference/services/SoftLayer_Account_Regional_Registry_Detail_Property/editObject )
+

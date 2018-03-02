@@ -30,3 +30,4 @@ Retrieve the cross-reference records that tie the [[SoftLayer_Account_Regional_R
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Details'>SoftLayer_Network_Subnet_Registration_Details[] </a>
+

@@ -29,3 +29,4 @@ Retrieve the type for this location group.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location_Group_Type'>SoftLayer_Location_Group_Type </a>
+

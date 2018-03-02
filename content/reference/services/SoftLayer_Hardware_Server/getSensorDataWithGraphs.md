@@ -26,3 +26,4 @@ Retrieves the raw data returned from the server's remote management card.  For m
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_RemoteManagement_SensorReadingsWithGraphs'>SoftLayer_Container_RemoteManagement_SensorReadingsWithGraphs </a>
+

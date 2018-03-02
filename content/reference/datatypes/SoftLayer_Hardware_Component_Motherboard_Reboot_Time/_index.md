@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Hardware_Component_Motherboard_Reboot_Time contains the average reboot times for motherboards. There are two types of average times.  One is for motherboards without raid, and the other is for motherboards with raid.  These times are based on averages and have been gathered through numerous test cases. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -51,6 +56,7 @@ The SoftLayer_Hardware_Component_Motherboard_Reboot_Time contains the average re
             <div class='views-field-body'>Motherboard's specifications (manufacturer, version, etc....) </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

@@ -29,3 +29,4 @@ Retrieve the billing item for a network interconnect.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item_Network_Interconnect'>SoftLayer_Billing_Item_Network_Interconnect </a>
+

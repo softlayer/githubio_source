@@ -26,3 +26,4 @@ The getDomainInformation method retrieves all the information for a domain.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Information'>SoftLayer_Container_Dns_Domain_Registration_Information </a>
+

@@ -27,3 +27,4 @@ Use this method to modify the credential password for a SoftLayer_Network_Storag
 
 ### Return Values
 boolean
+

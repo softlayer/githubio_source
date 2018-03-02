@@ -27,3 +27,4 @@ This service returns key names of all available authentication modes. Refer to [
 
 ### Return Values
 array of strings
+

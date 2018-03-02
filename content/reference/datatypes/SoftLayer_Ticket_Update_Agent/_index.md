@@ -19,6 +19,22 @@ classes:
 
 ## Description 
 A SoftLayer_Ticket_Update_Agent type models an update to a ticket made by an agent. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Ticket_Update](/reference/datatypes/SoftLayer_Ticket_Update )
+
+
+* [SoftLayer_Ticket_Update_Employee](/reference/datatypes/SoftLayer_Ticket_Update_Employee )
+
+
+* [SoftLayer_Ticket_Update_Customer](/reference/datatypes/SoftLayer_Ticket_Update_Customer )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -85,6 +101,12 @@ A SoftLayer_Ticket_Update_Agent type models an update to a ticket made by an age
             <span class='views-field-title'><a href="#type" name=type>type</a></span>
             <div class='views-field-body'>The Type of update to this ticket </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Ticket_Update_Type'>SoftLayer_Ticket_Update_Type </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#fileAttachmentCount" name=fileAttachmentCount>fileAttachmentCount</a></span>
+            <div class='views-field-body'>A count of the files attached to a ticket update. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

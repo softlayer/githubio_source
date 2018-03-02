@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 The SoftLayer_Software_Description_Feature data type represents a single software description feature. A feature may show up on more than one software description and can not be created, modified, or removed. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Software_Description::getFeatures](/reference/services/SoftLayer_Software_Description/getFeatures )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

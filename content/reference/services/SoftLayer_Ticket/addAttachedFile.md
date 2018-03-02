@@ -29,3 +29,10 @@ Attach the given file to a SoftLayer ticket. A file attachment is a convenient w
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Ticket_Attachment_File'>SoftLayer_Ticket_Attachment_File </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Ticket::getAttachedFile](/reference/services/SoftLayer_Ticket/getAttachedFile )
+*  [SoftLayer_Ticket::getAttachedFiles](/reference/services/SoftLayer_Ticket/getAttachedFiles )
+

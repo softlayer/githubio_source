@@ -29,3 +29,4 @@ Retrieve remote management command requests for an account
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component_RemoteManagement_Command_Request'>SoftLayer_Hardware_Component_RemoteManagement_Command_Request[] </a>
+

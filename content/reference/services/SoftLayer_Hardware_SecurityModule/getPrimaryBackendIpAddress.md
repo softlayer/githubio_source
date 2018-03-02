@@ -29,3 +29,4 @@ Retrieve the hardware's primary private IP address.
 
 ### Return Values
 string
+

@@ -13,12 +13,27 @@ classes:
 # SoftLayer_Locale_Timezone
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Locale_Timezone' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Locale_Timezone' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Locale_Timezone' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 Each User is assigned a timezone allowing for a precise local timestamp.
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Customer::getTimezone](/reference/services/SoftLayer_User_Customer/getTimezone )
+
+
+
+### seeAlso
+
+* [SoftLayer_User_Customer](/reference/datatypes/SoftLayer_User_Customer )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

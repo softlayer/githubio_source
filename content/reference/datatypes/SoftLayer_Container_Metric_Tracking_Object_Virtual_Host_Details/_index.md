@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 SoftLayer_Container_Metric_Tracking_Object_Virtual_Host_Details This container details a virtual host's metric data.
+
+
+
+### seeAlso
+
+* [SoftLayer_Container_Metric_Tracking_Object_Virtual_Host_Summary](/reference/datatypes/SoftLayer_Container_Metric_Tracking_Object_Virtual_Host_Summary )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

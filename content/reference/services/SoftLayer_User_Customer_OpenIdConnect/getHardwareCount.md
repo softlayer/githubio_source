@@ -26,3 +26,4 @@ Retrieve the number of servers that a portal user has access to. Portal users ca
 
 ### Return Values
 integer
+

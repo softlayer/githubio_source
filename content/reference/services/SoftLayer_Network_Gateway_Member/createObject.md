@@ -28,3 +28,4 @@ Create a new hardware member on the gateway. This also asynchronously sets up th
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Gateway_Member'>SoftLayer_Network_Gateway_Member </a>
+

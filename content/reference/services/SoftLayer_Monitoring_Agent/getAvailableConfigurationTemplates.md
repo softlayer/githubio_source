@@ -28,3 +28,9 @@ This method returns an array of available SoftLayer_Configuration_Template objec
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Monitoring_Agent::deployMonitoringAgent](/reference/services/SoftLayer_Monitoring_Agent/deployMonitoringAgent )
+

@@ -29,7 +29,9 @@ To have SoftLayer's global load balancers respond to DNS requests, a nameserver 
 Use the [[SoftLayer_Network_LoadBalancer_Global_Host::deleteObject]] method to remove a host from your global load balancing pool. 
 
 Global load balancer accounts can only be removed by opening a ticket with the SoftLayer accounting team and request that the global load balancer service be canceled. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

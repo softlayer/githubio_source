@@ -30,3 +30,4 @@ Retrieve the block devices that are part of an image template group
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template'>SoftLayer_Virtual_Guest_Block_Device_Template[] </a>
+

@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Network_DirectLink_Location
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_DirectLink_Location' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_DirectLink_Location' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_DirectLink_Location' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_DirectLink_Location presents a structure containing attributes of a Direct Link location, and its related object SoftLayer location. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -76,6 +81,7 @@ The SoftLayer_Network_DirectLink_Location presents a structure containing attrib
             <div class='views-field-body'>The Id of Direct Link provider. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_DirectLink_Provider'>SoftLayer_Network_DirectLink_Provider </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

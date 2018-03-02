@@ -29,3 +29,4 @@ Retrieve logs of who entered a colocation area which is assigned to this account
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Access_Facility_Log'>SoftLayer_User_Access_Facility_Log[] </a>
+

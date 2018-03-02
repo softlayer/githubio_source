@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 This type contains general information relating to any hardware or services that may be impacted by a SoftLayer_Notification_Occurrence_Event. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -76,6 +81,7 @@ This type contains general information relating to any hardware or services that
             <div class='views-field-body'>The physical resource. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

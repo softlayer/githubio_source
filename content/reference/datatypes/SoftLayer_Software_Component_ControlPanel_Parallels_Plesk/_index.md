@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 This object specifies a specific Software Component:  A Plesk instance produced by SWSoft. SWSoft Plesk installations have a specific default port (8443) and a pattern for usernames and passwords.  Defaults are initiated by this object. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Software_Component](/reference/datatypes/SoftLayer_Software_Component )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -90,6 +100,12 @@ This object specifies a specific Software Component:  A Plesk instance produced 
             <span class='views-field-title'><a href="#virtualGuest" name=virtualGuest>virtualGuest</a></span>
             <div class='views-field-body'>The virtual guest this software component is installed upon. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#passwordHistoryCount" name=passwordHistoryCount>passwordHistoryCount</a></span>
+            <div class='views-field-body'>A count of history Records for Software Passwords. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

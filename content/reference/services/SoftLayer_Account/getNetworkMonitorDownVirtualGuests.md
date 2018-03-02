@@ -29,3 +29,4 @@ Retrieve virtual guest which is currently experiencing a service failure.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+

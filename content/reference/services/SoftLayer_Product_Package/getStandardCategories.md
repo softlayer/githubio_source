@@ -28,3 +28,4 @@ This call is similar to [[SoftLayer_Product_Package/getCategories|getCategories]
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>
+

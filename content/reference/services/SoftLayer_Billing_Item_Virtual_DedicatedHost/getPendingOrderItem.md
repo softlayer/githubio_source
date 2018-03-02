@@ -29,3 +29,4 @@ Retrieve the new order item that will replace this billing item.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item </a>
+

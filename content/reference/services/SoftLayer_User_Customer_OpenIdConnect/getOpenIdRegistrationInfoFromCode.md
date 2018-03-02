@@ -26,3 +26,4 @@ classes:
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account_Authentication_OpenIdConnect_RegistrationInformation'>SoftLayer_Account_Authentication_OpenIdConnect_RegistrationInformation </a>
+

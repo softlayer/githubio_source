@@ -30,3 +30,4 @@ Retrieve returns a hardware's network components.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>
+

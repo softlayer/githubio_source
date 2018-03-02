@@ -26,3 +26,4 @@ This method will return a collection of [[SoftLayer_Container_Product_Order_Netw
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Product_Order_Network_Storage_ObjectStorage_LocationGroup'>SoftLayer_Container_Product_Order_Network_Storage_ObjectStorage_LocationGroup[] </a>
+

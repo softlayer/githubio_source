@@ -28,3 +28,4 @@ Retrieve the total one-time tax amount of an account's next invoice measured in 
 
 ### Return Values
 decimal
+

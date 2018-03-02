@@ -21,7 +21,9 @@ classes:
 Subnet registration objects are used to request and track registration of the subnet with the appropriate Regional Internet Registry (RIR). Subnet registration is executed automatically for RIRs that require registration upon assignment, but this registration can be modified at any time. 
 
 Subnet Registration objects can be updated after they are created. This will result in the information being submitted to the RIR and the records on their end being refreshed. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

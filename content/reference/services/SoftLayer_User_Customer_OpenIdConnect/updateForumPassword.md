@@ -40,3 +40,15 @@ Finally, users can only update their own password.
 
 ### Return Values
 boolean
+
+### External Links
+
+
+* [The SoftLayer Community Forums](http://forums.softlayer.com)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Customer::updatePassword](/reference/services/SoftLayer_User_Customer/updatePassword )
+

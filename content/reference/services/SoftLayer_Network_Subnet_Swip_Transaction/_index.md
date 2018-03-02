@@ -21,15 +21,20 @@ classes:
 SoftLayer's Automated Swip System is a finite state machine; it works by locally tracking a transaction between SoftLayer and the relevant Regional Internet Registry (RIR), assigning responsibility of a subnet to a customer. Transactions are dictated by the RIR's processing system, and the nature of the communication medium with each RIR, namely their REST API. 
 
 Using this API, SoftLayer Customers are able to initiate, monitor, update, and remove Swip system transactions with ARIN and RIPE. 
-### external links
-        Array
-(
-    [url] => http://en.wikipedia.org/wiki/Shared_Whois_Project
-    [description] => Shared Whois Project at Wikipedia
-)
-1        
+
+### External Links
+
+
+* [Shared Whois Project at Wikipedia](http://en.wikipedia.org/wiki/Shared_Whois_Project)
+
+
+
+
 ### seeAlso
-        SoftLayer_Network_Subnet_Rwhois_Data1                
+
+* [SoftLayer_Network_Subnet_Rwhois_Data](/reference/datatypes/SoftLayer_Network_Subnet_Rwhois_Data )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

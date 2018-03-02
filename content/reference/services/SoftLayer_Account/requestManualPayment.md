@@ -28,3 +28,4 @@ Retrieve the record data associated with the submission of a Manual Payment Requ
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_ManualPayment'>SoftLayer_Billing_Payment_Card_ManualPayment </a>
+

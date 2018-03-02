@@ -29,3 +29,4 @@ This API gets the default account for the OpenIdConnect identity that is linked 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+

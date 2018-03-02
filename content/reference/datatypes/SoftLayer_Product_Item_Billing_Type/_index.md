@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 The SoftLayer_Product_Item_Billing_Type data type models special billing types for non-monthly billed items in the SoftLayer product catalog. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Product_Item](/reference/datatypes/SoftLayer_Product_Item )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

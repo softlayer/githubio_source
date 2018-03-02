@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Network_Storage_Allowed_Host_IpAddress
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Storage_Allowed_Host_IpAddress' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Storage_Allowed_Host_IpAddress' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Storage_Allowed_Host_IpAddress' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -100,6 +105,22 @@ classes:
             <span class='views-field-title'><a href="#sourceSubnet" name=sourceSubnet>sourceSubnet</a></span>
             <div class='views-field-body'>Connections to a target with a source IP in this subnet prefix are allowed. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#assignedGroupCount" name=assignedGroupCount>assignedGroupCount</a></span>
+            <div class='views-field-body'>A count of the SoftLayer_Network_Storage_Group objects this SoftLayer_Network_Storage_Allowed_Host is present in. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#assignedReplicationVolumeCount" name=assignedReplicationVolumeCount>assignedReplicationVolumeCount</a></span>
+            <div class='views-field-body'>A count of the SoftLayer_Network_Storage primary volumes whose replicas are allowed access. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#assignedVolumeCount" name=assignedVolumeCount>assignedVolumeCount</a></span>
+            <div class='views-field-body'>A count of the SoftLayer_Network_Storage volumes to which this SoftLayer_Network_Storage_Allowed_Host is allowed access. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

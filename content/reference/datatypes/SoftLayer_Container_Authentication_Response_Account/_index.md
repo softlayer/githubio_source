@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Container_Authentication_Response_Account data type contains account information for responses from the getPortalLogin API. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

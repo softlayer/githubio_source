@@ -28,3 +28,12 @@ This method creates an account contact. The accountId is fixed, other properties
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account_Contact'>SoftLayer_Account_Contact </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Account_Contact::getAllContactTypes](/reference/services/SoftLayer_Account_Contact/getAllContactTypes )
+*  [SoftLayer_Account_Contact::getObject](/reference/services/SoftLayer_Account_Contact/getObject )
+*  [SoftLayer_Account_Contact::editObject](/reference/services/SoftLayer_Account_Contact/editObject )
+*  [SoftLayer_Account_Contact::deleteObject](/reference/services/SoftLayer_Account_Contact/deleteObject )
+

@@ -28,3 +28,4 @@ Retrieve a flag indicating whether payments are processed for this account.
 
 ### Return Values
 boolean
+

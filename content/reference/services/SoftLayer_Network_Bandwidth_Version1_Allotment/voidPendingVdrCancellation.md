@@ -26,3 +26,4 @@ This method will void a pending cancellation on a bandwidth pool. Note however a
 
 ### Return Values
 boolean
+

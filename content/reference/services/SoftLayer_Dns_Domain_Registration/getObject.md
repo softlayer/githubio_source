@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Dns_Domain_Registration object whose ID number
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration'>SoftLayer_Dns_Domain_Registration </a>
+

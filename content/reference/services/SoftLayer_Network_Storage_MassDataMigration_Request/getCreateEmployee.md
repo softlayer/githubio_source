@@ -29,3 +29,4 @@ Retrieve the employee user who created the request.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>
+

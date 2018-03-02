@@ -30,3 +30,4 @@ This method revokes all managed tokens belong to a CDN account.
 
 ### Return Values
 boolean
+

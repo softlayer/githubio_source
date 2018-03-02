@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Container_Product_Item_Discount_Program data type represents the information about a discount that is related to a specific product item. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

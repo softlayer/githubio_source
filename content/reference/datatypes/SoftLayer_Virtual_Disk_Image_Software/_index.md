@@ -19,6 +19,19 @@ classes:
 
 ## Description 
 A SoftLayer_Virtual_Disk_Image_Software record connects a computing instance's virtual disk images with software records. This can be useful if a disk image is directly associated with software such as operating systems. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Virtual_Disk_Image](/reference/datatypes/SoftLayer_Virtual_Disk_Image )
+
+
+* [SoftLayer_Software_Description](/reference/datatypes/SoftLayer_Software_Description )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -60,6 +73,12 @@ A SoftLayer_Virtual_Disk_Image_Software record connects a computing instance's v
             <span class='views-field-title'><a href="#softwareDescription" name=softwareDescription>softwareDescription</a></span>
             <div class='views-field-body'>The software associated with a virtual disk image. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#passwordCount" name=passwordCount>passwordCount</a></span>
+            <div class='views-field-body'>A count of username/Password pairs used for access to a Software Installation. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Survey_Response data type contains general information relating to a single SoftLayer survey response. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -51,6 +56,7 @@ The SoftLayer_Survey_Response data type contains general information relating to
             <div class='views-field-body'>The survey answer that this response was to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Survey_Answer'>SoftLayer_Survey_Answer </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

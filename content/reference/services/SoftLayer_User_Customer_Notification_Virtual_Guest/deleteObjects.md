@@ -26,3 +26,4 @@ Like any other API object, the customer notification objects can be deleted by p
 
 ### Return Values
 boolean
+

@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The SoftLayer_Billing_Currency_Country service provides information about what currencies a customer in a specific country is eligible to use. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 SoftLayer_Billing_Item_Cancellation_Request_Item data type contains a billing item for cancellation. This data type is used to harness billing items to the associated service. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -76,6 +81,7 @@ SoftLayer_Billing_Item_Cancellation_Request_Item data type contains a billing it
             <div class='views-field-body'>The service cancellation request that a cancellation item belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request'>SoftLayer_Billing_Item_Cancellation_Request </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

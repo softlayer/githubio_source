@@ -29,3 +29,4 @@ Retrieve whether the computing instance only has access to the private network.
 
 ### Return Values
 boolean
+

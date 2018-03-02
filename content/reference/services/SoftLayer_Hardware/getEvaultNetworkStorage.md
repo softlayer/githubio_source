@@ -30,3 +30,4 @@ Retrieve information regarding a piece of hardware's associated EVault network s
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+

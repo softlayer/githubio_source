@@ -29,3 +29,4 @@ Retrieve catalyst company types.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Catalyst_Company_Type'>SoftLayer_Catalyst_Company_Type </a>
+

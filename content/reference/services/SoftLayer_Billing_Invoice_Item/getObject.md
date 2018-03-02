@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Billing_Invoice_Item object whose ID number co
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item </a>
+

@@ -19,6 +19,18 @@ classes:
 
 ## Description 
 The IntrusionProtection_SubnetReport object is the container that holds the SoftLayer_Container_Network_IntrusionProtection_Event objects for a particular subnet, or "All Subnets", whatever the case may be.  Subnet, subnet mask, direction, and the individual events are returned by this object. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_TippingPointReporting::getSubnetReportForEntireAccount](/reference/services/SoftLayer_Network_TippingPointReporting/getSubnetReportForEntireAccount )
+*  [SoftLayer_Network_TippingPointReporting::getReportForIpAddressOrSubnet](/reference/services/SoftLayer_Network_TippingPointReporting/getReportForIpAddressOrSubnet )
+*  [SoftLayer_Network_TippingPointReporting::drillDownAttack](/reference/services/SoftLayer_Network_TippingPointReporting/drillDownAttack )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

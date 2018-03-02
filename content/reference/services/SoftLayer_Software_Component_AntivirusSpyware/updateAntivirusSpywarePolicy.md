@@ -36,3 +36,4 @@ Update an anti-virus/spyware policy. The policy options that it accepts are the 
 
 ### Return Values
 boolean
+

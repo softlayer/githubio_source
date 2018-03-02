@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Location_Group_Pricing
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Location_Group_Pricing' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Location_Group_Pricing' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Location_Group_Pricing' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -75,6 +80,17 @@ classes:
             <span class='views-field-title'><a href="#prices" name=prices>prices</a></span>
             <div class='views-field-body'>The prices that this pricing location group limits. All of these prices will only be available in the locations defined by this pricing location group. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#locationCount" name=locationCount>locationCount</a></span>
+            <div class='views-field-body'>A count of the locations that this pricing location group is applicable for. This limits the locations that the prices referenced by this pricing location group can be used with. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#priceCount" name=priceCount>priceCount</a></span>
+            <div class='views-field-body'>A count of the prices that this pricing location group limits. All of these prices will only be available in the locations defined by this pricing location group. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

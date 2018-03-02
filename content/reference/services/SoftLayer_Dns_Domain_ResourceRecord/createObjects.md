@@ -30,3 +30,9 @@ Create multiple resource records on a domain. This follows the same logic as ''c
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord'>SoftLayer_Dns_Domain_ResourceRecord[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain_ResourceRecord::createObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObject )
+

@@ -29,3 +29,4 @@ Retrieve status indicating whether or not a piece of hardware has business conti
 
 ### Return Values
 boolean
+

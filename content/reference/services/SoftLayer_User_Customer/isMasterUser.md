@@ -26,3 +26,4 @@ Portal users are considered master users if they don't have an associated parent
 
 ### Return Values
 boolean
+

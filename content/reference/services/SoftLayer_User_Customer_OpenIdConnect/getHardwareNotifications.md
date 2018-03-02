@@ -30,3 +30,4 @@ Retrieve hardware notifications associated with this user. A hardware notificati
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Hardware'>SoftLayer_User_Customer_Notification_Hardware[] </a>
+

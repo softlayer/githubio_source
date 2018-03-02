@@ -23,7 +23,9 @@ Every global load balancer account contains hosts that make up the load balancin
 Hosts can only be created or modified by using the [[SoftLayer_Network_LoadBalancer_Global_Account::editObject]] method. 
 
 Each account has a limited number of hosts that can be added to the load balancing pool, which is defined by the allowedNumberOfHosts property on a global load balancer account. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

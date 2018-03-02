@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Searched BluePages for an employee and returns a container representing the employee. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

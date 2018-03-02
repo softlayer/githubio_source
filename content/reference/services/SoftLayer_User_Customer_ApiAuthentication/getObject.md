@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_User_Customer_ApiAuthentication object whose I
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer_ApiAuthentication'>SoftLayer_User_Customer_ApiAuthentication </a>
+

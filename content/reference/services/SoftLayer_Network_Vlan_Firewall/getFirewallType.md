@@ -29,3 +29,4 @@ Retrieve the firewall device type.
 
 ### Return Values
 string
+

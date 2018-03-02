@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Represents the acceptance status of a Policy.
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

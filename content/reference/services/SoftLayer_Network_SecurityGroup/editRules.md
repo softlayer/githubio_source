@@ -27,3 +27,4 @@ Edit rules that belong to the security group. An array of skeleton [[SoftLayer_N
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_RequestRules'>SoftLayer_Network_SecurityGroup_RequestRules </a>
+

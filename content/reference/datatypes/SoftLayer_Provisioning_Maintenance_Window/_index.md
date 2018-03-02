@@ -13,12 +13,27 @@ classes:
 # SoftLayer_Provisioning_Maintenance_Window
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Provisioning_Maintenance_Window' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Window' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Window' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Provisioning_Maintenance_Window represent a time window that SoftLayer performs a hardware or software maintenance and upgrades. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Provisioning_Maintenance_Window::getMaintenanceWindows](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceWindows )
+
+
+
+### seeAlso
+
+* [SoftLayer_Product_Order_Upgrade_Request](/reference/datatypes/SoftLayer_Product_Order_Upgrade_Request )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

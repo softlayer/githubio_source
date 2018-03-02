@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Layout_Item
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Layout_Item' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Layout_Item' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Layout_Item' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Layout_Item contains definitions for default layout items 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -65,6 +70,12 @@ The SoftLayer_Layout_Item contains definitions for default layout items
             <span class='views-field-title'><a href="#layoutItemType" name=layoutItemType>layoutItemType</a></span>
             <div class='views-field-body'>The type of the layout item object </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Layout_Item_Type'>SoftLayer_Layout_Item_Type </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#layoutItemPreferenceCount" name=layoutItemPreferenceCount>layoutItemPreferenceCount</a></span>
+            <div class='views-field-body'>A count of the layout preferences assigned to this layout item </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

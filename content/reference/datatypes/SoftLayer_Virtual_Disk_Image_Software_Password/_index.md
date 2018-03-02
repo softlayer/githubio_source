@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 This SoftLayer_Virtual_Disk_Image_Software_Password data type contains a password for a specific virtual disk image software instance. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Virtual_Disk_Image_Software](/reference/datatypes/SoftLayer_Virtual_Disk_Image_Software )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -51,6 +61,7 @@ This SoftLayer_Virtual_Disk_Image_Software_Password data type contains a passwor
             <div class='views-field-body'>The instance that this username/password pair is valid for. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Software'>SoftLayer_Virtual_Disk_Image_Software </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

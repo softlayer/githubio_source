@@ -28,3 +28,4 @@ The lockDomain method locks a domain to prevent unauthorized, unwanted or accide
 
 ### Return Values
 boolean
+

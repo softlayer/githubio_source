@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Configuration section allow you to divide a large configuration values into a smaller pieces. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

@@ -30,3 +30,4 @@ Retrieve a Billing Item's child billing items and associated items'
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+

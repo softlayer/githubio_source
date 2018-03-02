@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Layout_Container
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Layout_Container' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Layout_Container' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Layout_Container' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Layout_Container contains definitions for default page layouts 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -65,6 +70,12 @@ The SoftLayer_Layout_Container contains definitions for default page layouts
             <span class='views-field-title'><a href="#layoutItems" name=layoutItems>layoutItems</a></span>
             <div class='views-field-body'>The layout items assigned to this layout container </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Layout_Item'>SoftLayer_Layout_Item[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#layoutItemCount" name=layoutItemCount>layoutItemCount</a></span>
+            <div class='views-field-body'>A count of the layout items assigned to this layout container </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

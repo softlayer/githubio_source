@@ -28,3 +28,4 @@ Retrieve an account's billing information.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Info'>SoftLayer_Billing_Info </a>
+

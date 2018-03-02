@@ -29,3 +29,4 @@ Retrieve the media's type.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account_Media_Type'>SoftLayer_Account_Media_Type </a>
+

@@ -29,3 +29,4 @@ Retrieve the message delivery type of a network message delivery account.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Message_Delivery_Type'>SoftLayer_Network_Message_Delivery_Type </a>
+

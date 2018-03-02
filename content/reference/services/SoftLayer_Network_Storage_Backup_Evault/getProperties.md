@@ -30,3 +30,4 @@ Retrieve the properties used to provide additional details about a network stora
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage_Property'>SoftLayer_Network_Storage_Property[] </a>
+

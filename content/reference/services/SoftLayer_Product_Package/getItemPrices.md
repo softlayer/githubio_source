@@ -30,3 +30,4 @@ Retrieve a collection of SoftLayer_Product_Item_Prices that are valid for this p
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>
+

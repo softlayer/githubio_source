@@ -26,3 +26,9 @@ This method deletes your FTP user record on the ftp.cdnlayer.service.softlayer.c
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::createFtpUser](/reference/services/SoftLayer_Network_ContentDelivery_Account/createFtpUser )
+

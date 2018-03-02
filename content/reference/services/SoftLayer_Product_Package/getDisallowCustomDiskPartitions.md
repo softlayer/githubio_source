@@ -29,3 +29,4 @@ Retrieve this flag indicates the package does not allow custom disk partitions.
 
 ### Return Values
 boolean
+

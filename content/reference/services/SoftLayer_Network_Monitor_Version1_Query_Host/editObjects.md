@@ -26,3 +26,4 @@ Like any other API object, the monitoring objects can have their exposed propert
 
 ### Return Values
 boolean
+

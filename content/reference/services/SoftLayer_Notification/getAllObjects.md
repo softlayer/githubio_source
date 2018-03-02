@@ -28,3 +28,4 @@ Use this method to retrieve all active notifications that can be subscribed to.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Notification'>SoftLayer_Notification[] </a>
+

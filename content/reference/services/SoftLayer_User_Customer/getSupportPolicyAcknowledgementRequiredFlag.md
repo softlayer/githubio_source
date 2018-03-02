@@ -29,3 +29,4 @@ Retrieve whether or not a user is required to acknowledge the support policy for
 
 ### Return Values
 integer
+

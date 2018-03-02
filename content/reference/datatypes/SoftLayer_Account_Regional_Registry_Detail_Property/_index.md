@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Account_Regional_Registry_Detail_Property
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Account_Regional_Registry_Detail_Property' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 Subnet registration properties are used to define various attributes of the [[SoftLayer_Account_Regional_Registry_Detail|detail objects]]. These properties are defined by the [[SoftLayer_Account_Regional_Registry_Detail_Property_Type]] objects, which describe the available value formats. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -81,6 +86,7 @@ Subnet registration properties are used to define various attributes of the [[So
             <div class='views-field-body'>The [[SoftLayer_Account_Regional_Registry_Detail_Property_Type]] object this property belongs to </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property_Type'>SoftLayer_Account_Regional_Registry_Detail_Property_Type </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

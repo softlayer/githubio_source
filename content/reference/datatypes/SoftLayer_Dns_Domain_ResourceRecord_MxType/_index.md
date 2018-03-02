@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Dns_Domain_ResourceRecord_MxType
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_MxType' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_MxType' >Datatype</a></li>
     </ul>
 </div>
 
@@ -23,6 +23,31 @@ SoftLayer_Dns_Domain_ResourceRecord_MxType is a SoftLayer_Dns_Domain_ResourceRec
 Domains can have more than one MX record if it uses more than one server to send mail through. Multiple MX records are denoted by their priority, defined by the mxPriority property. 
 
 MX records must be defined for hosts with accompanying A or AAAA resource records. They may not point mail towards a host defined by a CNAME record. 
+
+### External Links
+
+
+* [MX Record at Wikipedia](http://en.wikipedia.org/wiki/MX_record)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain::createMxRecord](/reference/services/SoftLayer_Dns_Domain/createMxRecord )
+*  [SoftLayer_Dns_Domain_ResourceRecord_MxType::createObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/createObject )
+
+
+
+### seeAlso
+
+* [SoftLayer_Dns_Domain](/reference/datatypes/SoftLayer_Dns_Domain )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -105,6 +130,7 @@ MX records must be defined for hosts with accompanying A or AAAA resource record
             <div class='views-field-body'>The domain that a resource record belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

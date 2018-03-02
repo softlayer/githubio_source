@@ -26,3 +26,10 @@ Retrieve a list of Windows updates available for a server from the local SoftLay
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Utility_Microsoft_Windows_UpdateServices_UpdateItem'>SoftLayer_Container_Utility_Microsoft_Windows_UpdateServices_UpdateItem[] </a>
+
+### External Links
+
+
+* [Windows Server Update Services (WSUS) Home](http://technet.microsoft.com/en-us/wsus/default.aspx)
+
+

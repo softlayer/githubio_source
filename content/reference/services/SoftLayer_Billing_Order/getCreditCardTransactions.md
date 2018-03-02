@@ -30,3 +30,4 @@ Retrieve all credit card transactions associated with this order. If this order 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_Transaction'>SoftLayer_Billing_Payment_Card_Transaction[] </a>
+

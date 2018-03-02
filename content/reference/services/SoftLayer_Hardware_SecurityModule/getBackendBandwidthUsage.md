@@ -32,3 +32,4 @@ This method represents the NEW version of getFrontendBandwidthUse
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
+

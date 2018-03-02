@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Network_LBaaS_Member
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_LBaaS_Member' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_LBaaS_Member' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_LBaaS_Member' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_LBaaS_Member represents the backend member for a load balancer. It can be either a virtual server or a bare metal machine. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

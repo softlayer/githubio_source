@@ -27,3 +27,4 @@ This method recurses through all servers on a Bandwidth Pool for 24 hour time sp
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_Bandwidth_Version1_Usage'>SoftLayer_Container_Network_Bandwidth_Version1_Usage[] </a>
+

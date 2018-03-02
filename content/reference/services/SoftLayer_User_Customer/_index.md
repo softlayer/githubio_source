@@ -21,7 +21,9 @@ classes:
 Every SoftLayer account has one or more portal users which are defined by the SoftLayer_User_Customer service. Every SoftLayer customer account has a master user account whose name corresponds to their account id preceded by the letters "SL". Users exist in a parent-child relationship. Child users inherit the properties and permissions of their parent user while conversely a user may have more than one child users. 
 
 API users have full access to their own portal user account and they could also have access to other users under their SoftLayer customer account, if they have "Manage Users" permission in the customer portal. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

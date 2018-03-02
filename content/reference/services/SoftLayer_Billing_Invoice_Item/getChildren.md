@@ -30,3 +30,4 @@ Retrieve an Invoice Item's child invoice items. Only parent invoice items have c
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a>
+

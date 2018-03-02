@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Network_Bandwidth_Version1_Allotment_Detail data type contains specific information relating to a single bandwidth allotment record. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -80,6 +85,12 @@ The SoftLayer_Network_Bandwidth_Version1_Allotment_Detail data type contains spe
             <span class='views-field-title'><a href="#bandwidthUsage" name=bandwidthUsage>bandwidthUsage</a></span>
             <div class='views-field-body'>Bandwidth used. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage'>SoftLayer_Network_Bandwidth_Version1_Usage[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#bandwidthUsageCount" name=bandwidthUsageCount>bandwidthUsageCount</a></span>
+            <div class='views-field-body'>A count of bandwidth used. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Billing_Order_Quote object whose ID number cor
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Order_Quote'>SoftLayer_Billing_Order_Quote </a>
+

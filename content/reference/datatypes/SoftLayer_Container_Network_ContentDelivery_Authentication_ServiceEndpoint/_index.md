@@ -23,6 +23,27 @@ CDN supports the content authentication service. With the content authentication
 CDN uses the default authentication web service provided by SoftLayer to validate a token. A customer can use their own implementation of the token authentication web service by using [[SoftLayer_Network_ContentDelivery_Account::setAuthenticationServiceEndpoint|setAuthenticationServiceEndpoint]] method. 
 
 This container class holds the token validation web service endpoint information. CDN supports 3 different protocols: HTTP, RTMP (streaming Flash), and MMS (streaming Windows Media) 
+
+### External Links
+
+
+* [CDN Services at softlayer.com](http://www.softlayer.com/services_cdnlayer.html)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::setAuthenticationServiceEndpoint](/reference/services/SoftLayer_Network_ContentDelivery_Account/setAuthenticationServiceEndpoint )
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_ContentDelivery_Account](/reference/datatypes/SoftLayer_Network_ContentDelivery_Account )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

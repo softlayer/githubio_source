@@ -29,3 +29,4 @@ Retrieve the total public outbound bandwidth for this hardware for the current b
 
 ### Return Values
 decimal
+

@@ -25,3 +25,9 @@ Retrieve a list of an account's hardware's Windows Update status. This list incl
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Utility_Microsoft_Windows_UpdateServices_Status'>SoftLayer_Container_Utility_Microsoft_Windows_UpdateServices_Status[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Hardware::getWindowsUpdateStatus](/reference/services/SoftLayer_Hardware/getWindowsUpdateStatus )
+

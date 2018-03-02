@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Container_RemoteManagement_Graphs_SensorTemperature contains graphs to display the cpu(s) and system temperatures retrieved from the management card using thermometer graphs. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

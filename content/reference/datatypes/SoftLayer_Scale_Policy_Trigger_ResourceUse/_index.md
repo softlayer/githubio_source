@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Scale_Policy_Trigger_ResourceUse
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_ResourceUse' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_ResourceUse' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -80,6 +85,12 @@ classes:
             <span class='views-field-title'><a href="#watches" name=watches>watches</a></span>
             <div class='views-field-body'>The resource watches for this trigger. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch'>SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#watchCount" name=watchCount>watchCount</a></span>
+            <div class='views-field-body'>A count of the resource watches for this trigger. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

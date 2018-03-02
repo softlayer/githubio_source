@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Container_Search_Result data type represents a result row from an execution of Search service. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

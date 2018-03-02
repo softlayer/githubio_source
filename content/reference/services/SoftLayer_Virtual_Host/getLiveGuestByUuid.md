@@ -29,3 +29,4 @@ Query a virtualization platform directly to retrieve details regarding a guest.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
+

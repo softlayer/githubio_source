@@ -29,3 +29,4 @@ Retrieve a piece of hardware's network management IP address.
 
 ### Return Values
 string
+

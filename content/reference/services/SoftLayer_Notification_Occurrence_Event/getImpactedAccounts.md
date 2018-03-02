@@ -30,3 +30,4 @@ Retrieve a collection of accounts impacted by this event. Each impacted account 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Account'>SoftLayer_Notification_Occurrence_Account[] </a>
+

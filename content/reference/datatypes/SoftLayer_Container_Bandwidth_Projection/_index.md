@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 SoftLayer_Container_Bandwidth_Projection models projected bandwidth use over a time range.
+
+
+### associatedMethods
+
+*  [SoftLayer_Bandwidth_Manager::getBandwidthList](/reference/services/SoftLayer_Bandwidth_Manager/getBandwidthList )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

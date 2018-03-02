@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Account_Link_Bluemix
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Account_Link_Bluemix' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Link_Bluemix' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Link_Bluemix' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -76,6 +81,7 @@ classes:
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

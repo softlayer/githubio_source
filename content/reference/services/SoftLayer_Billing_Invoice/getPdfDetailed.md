@@ -26,3 +26,4 @@ Retrieve a PDF record of a SoftLayer detailed invoice summary. SoftLayer keeps P
 
 ### Return Values
 binary data
+

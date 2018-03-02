@@ -32,15 +32,53 @@ Every domain record hosted on the SoftLayer name servers is comprised of a serie
 The SoftLayer_Dns_Domain_ResourceRecords service also controls the records contained in reverse DNS records. SoftLayer_Dns_Domain_Reverse records contain multiple PTR type resource records. 
 
 As with domain changes, resource record changes happen immediately, but may take up to 72 hours to propagate to the rest of the Internet's name servers. The SoftLayer_Dns_Domain_ResourceRecord service only applies to domains hosted on the SoftLayer name servers. 
-### external links
-        Array
-(
-    [url] => http://en.wikipedia.org/wiki/List_of_DNS_record_types
-    [description] => List of DNS record types at Wikipedia
-)
-1        
+
+### External Links
+
+
+* [List of DNS record types at Wikipedia](http://en.wikipedia.org/wiki/List_of_DNS_record_types)
+
+
+
+
 ### seeAlso
-        SoftLayer_Dns_Domain1        SoftLayer_Dns_Domain_Reverse1        SoftLayer_Dns_Domain_ResourceRecord_AType1        SoftLayer_Dns_Domain_ResourceRecord_AaaaType1        SoftLayer_Dns_Domain_ResourceRecord_CnameType1        SoftLayer_Dns_Domain_ResourceRecord_MxType1        SoftLayer_Dns_Domain_ResourceRecord_NsType1        SoftLayer_Dns_Domain_ResourceRecord_PtrType1        SoftLayer_Dns_Domain_ResourceRecord_SoaType1        SoftLayer_Dns_Domain_ResourceRecord_SpfType1        SoftLayer_Dns_Domain_ResourceRecord_SrvType1        SoftLayer_Dns_Domain_ResourceRecord_TxtType1                
+
+* [SoftLayer_Dns_Domain](/reference/datatypes/SoftLayer_Dns_Domain )
+
+
+* [SoftLayer_Dns_Domain_Reverse](/reference/datatypes/SoftLayer_Dns_Domain_Reverse )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_AType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_AType )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_AaaaType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_AaaaType )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_CnameType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_CnameType )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_MxType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_MxType )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_NsType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_NsType )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_PtrType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_PtrType )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_SoaType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SoaType )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_SpfType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SpfType )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_SrvType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SrvType )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord_TxtType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_TxtType )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

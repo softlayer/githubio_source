@@ -29,3 +29,4 @@ Retrieve a virtual IP address's associated application delivery controller.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller </a>
+

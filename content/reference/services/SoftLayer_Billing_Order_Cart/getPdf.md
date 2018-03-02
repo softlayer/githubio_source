@@ -26,3 +26,4 @@ Retrieve a PDF copy of the cart.
 
 ### Return Values
 binary data
+

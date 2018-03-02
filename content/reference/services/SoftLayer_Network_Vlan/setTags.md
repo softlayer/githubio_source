@@ -27,3 +27,4 @@ Tag a VLAN by passing in one or more tags separated by a comma. Tag references a
 
 ### Return Values
 boolean
+

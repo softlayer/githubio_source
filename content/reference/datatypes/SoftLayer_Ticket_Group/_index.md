@@ -19,6 +19,19 @@ classes:
 
 ## Description 
 SoftLayer tickets have the ability to be assigned to one of SoftLayer's internal departments. The department that a ticket is assigned to is modeled by the SoftLayer_Ticket_Group data type. Ticket groups help to ensure that the proper department is handling a ticket. Standard support tickets are created from a number of pre-determined subjects. These subjects help determine which group a standard ticket is assigned to. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+
+
+* [SoftLayer_Ticket_Subject](/reference/datatypes/SoftLayer_Ticket_Subject )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -56,6 +69,7 @@ SoftLayer tickets have the ability to be assigned to one of SoftLayer's internal
             <div class='views-field-body'>The category that a ticket group belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Ticket_Group_Category'>SoftLayer_Ticket_Group_Category </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

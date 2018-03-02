@@ -19,7 +19,9 @@ classes:
 
 ## Description
 SoftLayer customers can use this API to submit a cancellation request. A single service cancellation can contain multiple cancellation items which contain a billing item. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

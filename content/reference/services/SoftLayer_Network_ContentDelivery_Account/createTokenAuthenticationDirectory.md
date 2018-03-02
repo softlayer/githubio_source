@@ -28,3 +28,4 @@ You need to specify a directory on your CDN FTP or on your origin host in which 
 
 ### Return Values
 boolean
+

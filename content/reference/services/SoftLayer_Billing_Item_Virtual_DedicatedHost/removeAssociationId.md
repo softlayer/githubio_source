@@ -26,3 +26,9 @@ Remove the association from a billing item.
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Billing_Item::setAssociationId](/reference/services/SoftLayer_Billing_Item/setAssociationId )
+

@@ -29,3 +29,4 @@ Retrieve an invoice Item's total, including any child invoice items if they exis
 
 ### Return Values
 float
+

@@ -29,3 +29,4 @@ Retrieve the datacenter that the dedicated host resides in.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+

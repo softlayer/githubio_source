@@ -29,3 +29,4 @@ Retrieve whether or not a computing instance is billed hourly instead of monthly
 
 ### Return Values
 boolean
+

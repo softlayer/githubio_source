@@ -29,3 +29,4 @@ Retrieve segment indicator used to categorize business partner revenue.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Business_Partner_Segment'>SoftLayer_Business_Partner_Segment </a>
+

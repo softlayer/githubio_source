@@ -33,19 +33,18 @@ CDN supports the content authentication service. CDN's content authentication se
 There are several scenarios where this authentication capability could be useful. Websites can prevent other rogue websites from linking to their videos. Content owners can prevent users from passing around HTTP links, thus forcing them to login to view contents. See [[SoftLayer_Network_ContentDelivery_Authentication_Token|SoftLayer_Network_ContentDelivery_Authentication_Token]] and [[SoftLayer_Network_ContentDelivery_Authentication_Address|SoftLayer_Network_ContentDelivery_Authentication_Address]] for more details on the content authentication service. 
 
 
-### external links
-        Array
-(
-    [url] => http://en.wikipedia.org/wiki/Content_delivery_network
-    [description] => Content delivery network at Wikipedia
-)
-1        Array
-(
-    [url] => http://knowledgelayer.softlayer.com/topic/cdn
-    [description] => CDN Services at softlayer.com
-)
-1        
-        
+
+### External Links
+
+
+* [Content delivery network at Wikipedia](http://en.wikipedia.org/wiki/Content_delivery_network)
+
+
+* [CDN Services at softlayer.com](http://knowledgelayer.softlayer.com/topic/cdn)
+
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

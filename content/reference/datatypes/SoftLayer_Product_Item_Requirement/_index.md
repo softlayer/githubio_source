@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 The SoftLayer_Product_Item_Requirement data type contains information relating to what requirements, if any, exist for an item. The requiredItemId local property is the item id that is required. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Product_Conflict](/reference/datatypes/SoftLayer_Product_Conflict )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +76,7 @@ The SoftLayer_Product_Item_Requirement data type contains information relating t
             <div class='views-field-body'>The product containing the requirement. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

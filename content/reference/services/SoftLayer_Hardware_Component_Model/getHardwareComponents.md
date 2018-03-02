@@ -30,3 +30,4 @@ Retrieve a hardware component model's physical components in inventory.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>
+

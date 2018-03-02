@@ -26,3 +26,4 @@ Completely restrict all incoming and outgoing bandwidth traffic to a network com
 
 ### Return Values
 boolean
+

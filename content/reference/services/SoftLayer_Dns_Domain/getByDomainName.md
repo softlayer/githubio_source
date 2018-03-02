@@ -29,3 +29,4 @@ Search for [[SoftLayer_Dns_Domain]] records by domain name. getByDomainName() pe
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain[] </a>
+

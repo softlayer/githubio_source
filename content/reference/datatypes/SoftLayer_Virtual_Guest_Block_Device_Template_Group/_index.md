@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Virtual_Guest_Block_Device_Template_Group
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group' >Datatype</a></li>
     </ul>
 </div>
 
@@ -21,6 +21,11 @@ classes:
 The virtual block device template group data type presents the structure in which a group of archived image templates will be presented. The structure consists of a parent template group which contain multiple child template group objects.  Each child template group object represents the image template in a particular location. Unless editing/deleting a specific child template group object, it is best to use the parent object. 
 
 A virtual block device template group, also known as an image template group, represents an image of a virtual guest instance. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -187,6 +192,42 @@ A virtual block device template group, also known as an image template group, re
             <span class='views-field-title'><a href="#transaction" name=transaction>transaction</a></span>
             <div class='views-field-body'>A transaction that is being performed on a image template group. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#accountContactCount" name=accountContactCount>accountContactCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#accountReferenceCount" name=accountReferenceCount>accountReferenceCount</a></span>
+            <div class='views-field-body'>A count of the accounts which may have read-only access to an image template group. Will only be populated for parent template group objects. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#blockDeviceCount" name=blockDeviceCount>blockDeviceCount</a></span>
+            <div class='views-field-body'>A count of the block devices that are part of an image template group </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#childrenCount" name=childrenCount>childrenCount</a></span>
+            <div class='views-field-body'>A count of the image template groups that are clones of an image template group. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#datacenterCount" name=datacenterCount>datacenterCount</a></span>
+            <div class='views-field-body'>A count of a collection of locations containing a copy of this image template group. Will only be populated for parent template group objects. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#sshKeyCount" name=sshKeyCount>sshKeyCount</a></span>
+            <div class='views-field-body'>A count of the ssh keys to be implemented on the server when provisioned or reloaded from an image template group. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#tagReferenceCount" name=tagReferenceCount>tagReferenceCount</a></span>
+            <div class='views-field-body'>A count of the tags associated with this image template group. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

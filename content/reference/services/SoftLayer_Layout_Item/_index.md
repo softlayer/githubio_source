@@ -23,8 +23,20 @@ classes:
 Layout items are used in the customization of the Portal 4 customer experience. 
 
 Each [[SoftLayer_Layout_Container|container]] in the portal contains one or more layout items. These are used to describe elements such as ticket lists. Layout items typically have [[SoftLayer_Layout_Preference|default preferences]], which can be customized once the container is added to a [[SoftLayer_Layout_Profile|layout profile]]. 
+
+
+
 ### seeAlso
-        SoftLayer_Layout_Profile1        SoftLayer_Layout_Container1        SoftLayer_Layout_Preference1                
+
+* [SoftLayer_Layout_Profile](/reference/datatypes/SoftLayer_Layout_Profile )
+
+
+* [SoftLayer_Layout_Container](/reference/datatypes/SoftLayer_Layout_Container )
+
+
+* [SoftLayer_Layout_Preference](/reference/datatypes/SoftLayer_Layout_Preference )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

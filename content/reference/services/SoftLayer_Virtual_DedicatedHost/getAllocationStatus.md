@@ -29,3 +29,4 @@ Retrieve the container that represents allocations on the dedicated host.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Virtual_DedicatedHost_AllocationStatus'>SoftLayer_Container_Virtual_DedicatedHost_AllocationStatus </a>
+

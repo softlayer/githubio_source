@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Product_Item_Price data type gives more information about the item price restrictions.  An item price may be restricted to one or more accounts. If the item price is restricted to an account, only that account will see the restriction details. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -61,6 +66,7 @@ The SoftLayer_Product_Item_Price data type gives more information about the item
             <div class='views-field-body'>The item price that has the account restriction. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

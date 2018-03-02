@@ -23,6 +23,17 @@ This datatype describes the item categories that are required for each package t
 There are others, but these are the main ones. For each required category, a SoftLayer_Product_Item_Price must be chosen that is valid for the package. 
 
 
+
+
+### associatedMethods
+
+*  [SoftLayer_Product_Package_Item_Prices::getObject](/reference/services/SoftLayer_Product_Package_Item_Prices/getObject )
+*  [SoftLayer_Product_Package_Items::getObject](/reference/services/SoftLayer_Product_Package_Items/getObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -90,6 +101,7 @@ There are others, but these are the main ones. For each required category, a Sof
             <div class='views-field-body'>The step to which this instance belongs. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Package_Order_Step'>SoftLayer_Product_Package_Order_Step </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

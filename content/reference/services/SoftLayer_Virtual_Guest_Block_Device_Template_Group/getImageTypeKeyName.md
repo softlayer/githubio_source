@@ -29,3 +29,4 @@ Retrieve the virtual disk image type keyname (e.g. SYSTEM, DISK_CAPTURE, ISO, et
 
 ### Return Values
 string
+

@@ -29,3 +29,4 @@ Retrieve the subscriber id to resource id mapping.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber_Resource'>SoftLayer_Notification_User_Subscriber_Resource </a>
+

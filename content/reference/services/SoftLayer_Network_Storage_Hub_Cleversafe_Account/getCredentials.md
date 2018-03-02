@@ -30,3 +30,4 @@ Retrieve credentials used for generating an AWS signature. Max of 2.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage_Credential'>SoftLayer_Network_Storage_Credential[] </a>
+

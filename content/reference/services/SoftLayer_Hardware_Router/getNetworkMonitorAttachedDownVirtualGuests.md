@@ -30,3 +30,4 @@ Retrieve virtual guests that are attached downstream to a hardware that have fai
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+

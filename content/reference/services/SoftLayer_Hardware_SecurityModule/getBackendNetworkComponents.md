@@ -30,3 +30,4 @@ Retrieve a piece of hardware's back-end or private network components.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>
+

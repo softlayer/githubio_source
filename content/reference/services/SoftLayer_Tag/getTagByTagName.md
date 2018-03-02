@@ -28,3 +28,4 @@ Returns the Tag object with a given name. The user types in the tag name and thi
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Tag'>SoftLayer_Tag[] </a>
+

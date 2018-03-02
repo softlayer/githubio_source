@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Duplex Mode allows finer grained control over networking options and settings. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

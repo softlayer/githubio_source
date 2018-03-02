@@ -27,3 +27,4 @@ This method will edit an existing SoftLayer_Account_Regional_Registry_Detail_Pro
 
 ### Return Values
 boolean
+

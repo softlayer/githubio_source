@@ -27,3 +27,9 @@ Account master users and sub-users who have the User Manage permission in the So
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Customer::editObjects](/reference/services/SoftLayer_User_Customer/editObjects )
+

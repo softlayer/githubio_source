@@ -28,3 +28,4 @@ Retrieve network storage accounts by SoftLayer_Network_Storage_Credential object
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+

@@ -28,3 +28,10 @@ Retrieve the VLAN that belongs to a server's public network interface, as descri
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>
+
+### External Links
+
+
+* [Fully qualified domain name at Wikipedia](http://en.wikipedia.org/wiki/Fully_qualified_domain_name)
+
+

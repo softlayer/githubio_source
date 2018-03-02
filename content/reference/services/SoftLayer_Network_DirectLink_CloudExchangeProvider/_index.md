@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The SoftLayer_Network_DirectLink_CloudExchangeProvider service allows users to create, update, delete, get details of a Direct Link Cloud exchange provider and retrieve all existing details. Cloud exchange provider like "Equinix", "Telestra" etc. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

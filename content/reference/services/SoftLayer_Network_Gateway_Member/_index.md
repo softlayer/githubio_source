@@ -19,7 +19,9 @@ classes:
 
 ## Description
 A network gateway member is a device that serves as a gateway. Once the hardware becomes a member of the gateway, only a reclaim can remove it. A reclaim on the last member of the gateway triggers a reclaim of the entire gateway. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

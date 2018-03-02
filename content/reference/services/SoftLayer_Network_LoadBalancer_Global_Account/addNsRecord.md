@@ -26,3 +26,15 @@ If your globally load balanced domain is hosted on the SoftLayer nameservers thi
 
 ### Return Values
 boolean
+
+### External Links
+
+
+* [Configuring the Global Load Balancer in the SoftLayer Knowledge Layer.](http://knowledgelayer.softlayer.com/questions/421/)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_LoadBalancer_Global_Account::removeNsRecord](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/removeNsRecord )
+

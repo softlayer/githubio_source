@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Network_Bandwidth_Version1_Allocation data type contains general information relating to a single bandwidth allocation record. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -56,6 +61,7 @@ The SoftLayer_Network_Bandwidth_Version1_Allocation data type contains general i
             <div class='views-field-body'>Billing item associated with this hardware allocation. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Item_Hardware'>SoftLayer_Billing_Item_Hardware </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

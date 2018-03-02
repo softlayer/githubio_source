@@ -29,3 +29,4 @@ Retrieve the type of this virtual guest.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Type'>SoftLayer_Virtual_Guest_Type </a>
+

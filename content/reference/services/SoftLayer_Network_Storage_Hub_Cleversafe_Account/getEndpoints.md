@@ -27,3 +27,4 @@ Returns a collection of endpoint URLs available to this IBM Cloud Object Storage
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Endpoint'>SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Endpoint[] </a>
+

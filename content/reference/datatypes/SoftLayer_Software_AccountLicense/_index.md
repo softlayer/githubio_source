@@ -13,12 +13,25 @@ classes:
 # SoftLayer_Software_AccountLicense
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Software_AccountLicense' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Software_AccountLicense' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Software_AccountLicense' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 SoftLayer_Software_AccountLicense is a class that represents software licenses that are tied only to a customer's account and not to any particular hardware, IP address, etc. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Account](/reference/datatypes/SoftLayer_Account )
+
+
+* [SoftLayer_Software_Description](/reference/datatypes/SoftLayer_Software_Description )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -71,6 +84,7 @@ SoftLayer_Software_AccountLicense is a class that represents software licenses t
             <div class='views-field-body'>The SoftLayer_Software_Description that this account license is for. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

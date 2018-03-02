@@ -27,3 +27,9 @@ removeAttachedAdditionalEmails() removes the specified email addresses from a ti
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Ticket::addAttachedAdditionalEmails](/reference/services/SoftLayer_Ticket/addAttachedAdditionalEmails )
+

@@ -26,3 +26,4 @@ Internap servers attempts to validate a token before serving a protected content
 
 ### Return Values
 boolean
+

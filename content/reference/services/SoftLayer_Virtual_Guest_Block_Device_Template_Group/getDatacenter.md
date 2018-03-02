@@ -29,3 +29,4 @@ Retrieve the location containing this image template group. Will only be populat
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+

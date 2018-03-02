@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 A network storage partnership type is used to define the link between two volumes. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

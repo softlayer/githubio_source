@@ -29,3 +29,4 @@ Retrieve a flag to indicate that the presale event is expired. A presale event i
 
 ### Return Values
 boolean
+

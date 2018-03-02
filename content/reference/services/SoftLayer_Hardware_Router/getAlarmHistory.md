@@ -29,3 +29,4 @@ The '''getAlarmHistory''' method retrieves a detailed history for the monitoring
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Monitoring_Alarm_History'>SoftLayer_Container_Monitoring_Alarm_History[] </a>
+

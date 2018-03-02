@@ -29,3 +29,4 @@ Retrieve the number of primary IP addresses in a VLAN.
 
 ### Return Values
 unsigned integer
+

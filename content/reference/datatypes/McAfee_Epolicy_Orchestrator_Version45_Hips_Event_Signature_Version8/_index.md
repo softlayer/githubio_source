@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The McAfee_Epolicy_Orchestrator_Version45_Hips_Event_Signature_Version8 data type contains the signature name of a rule that generated an IPS event.
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

@@ -29,3 +29,4 @@ Retrieve the total number of users online using SoftLayer's PPTP VPN service for
 
 ### Return Values
 integer
+

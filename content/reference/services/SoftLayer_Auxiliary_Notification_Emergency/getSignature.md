@@ -29,3 +29,4 @@ Retrieve the signature of the SoftLayer employee department associated with this
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency_Signature'>SoftLayer_Auxiliary_Notification_Emergency_Signature </a>
+

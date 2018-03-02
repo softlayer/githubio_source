@@ -27,3 +27,4 @@ Return a phone validation result.
 
 ### Return Values
 boolean
+

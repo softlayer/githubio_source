@@ -29,3 +29,4 @@ Retrieve a server object associated with the upgrade request if any.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+

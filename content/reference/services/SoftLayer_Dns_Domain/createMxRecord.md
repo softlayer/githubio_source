@@ -32,3 +32,10 @@ Create an MX record on a SoftLayer domain. This is a shortcut method, meant to t
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_MxType'>SoftLayer_Dns_Domain_ResourceRecord_MxType </a>
+
+### External Links
+
+
+* [MX record at Wikipedia](http://en.wikipedia.org/wiki/MX_record)
+
+

@@ -13,12 +13,38 @@ classes:
 # SoftLayer_Dns_Secondary
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Dns_Secondary' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Dns_Secondary' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Dns_Secondary' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Dns_Secondary data type contains information on a single secondary DNS zone which is managed through SoftLayer's zone transfer service. Domains created via zone transfer may not be modified by the SoftLayer portal or API. 
+
+### External Links
+
+
+* [DNS Zone Transfer at Wikipedia.](http://en.wikipedia.org/wiki/DNS_zone_transfer)
+
+
+* [Secondary Domains at KnowledgeLayer](http://knowledgelayer.softlayer.com/questions/478)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Secondary::getObject](/reference/services/SoftLayer_Dns_Secondary/getObject )
+*  [SoftLayer_Dns_Domain::getSecondary](/reference/services/SoftLayer_Dns_Domain/getSecondary )
+*  [SoftLayer_Account::getSecondaryDomains](/reference/services/SoftLayer_Account/getSecondaryDomains )
+
+
+
+### seeAlso
+
+* [SoftLayer_Dns_Domain](/reference/datatypes/SoftLayer_Dns_Domain )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -99,6 +125,12 @@ The SoftLayer_Dns_Secondary data type contains information on a single secondary
             <span class='views-field-title'><a href="#status" name=status>status</a></span>
             <div class='views-field-body'>The current status of the secondary DNS zone. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Dns_Status'>SoftLayer_Dns_Status </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#errorMessageCount" name=errorMessageCount>errorMessageCount</a></span>
+            <div class='views-field-body'>A count of the error messages created during secondary DNS record transfer. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

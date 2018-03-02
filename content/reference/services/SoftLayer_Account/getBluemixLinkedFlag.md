@@ -28,3 +28,4 @@ Retrieve returns true if this account is linked to IBM Bluemix, false if not.
 
 ### Return Values
 boolean
+

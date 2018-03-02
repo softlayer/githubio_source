@@ -21,6 +21,11 @@ classes:
 The virtual block device template data type presents the structure in which all archived image templates are presented. 
 
 A virtual block device template, also known as a image template, represents the image of a virtual guest instance. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -78,6 +83,7 @@ A virtual block device template, also known as a image template, represents the 
             <div class='views-field-body'>A block device template's group. Several block device templates can be combined together into a group for archiving purposes. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

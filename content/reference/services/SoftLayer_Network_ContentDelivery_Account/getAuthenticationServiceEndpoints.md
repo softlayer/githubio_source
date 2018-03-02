@@ -26,3 +26,4 @@ CDN servers will invoke a Web Service method to validate a content authenticatio
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_ContentDelivery_Authentication_ServiceEndpoint'>SoftLayer_Container_Network_ContentDelivery_Authentication_ServiceEndpoint[] </a>
+

@@ -29,3 +29,4 @@ Retrieve where guest is located within SoftLayer's location hierarchy.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+

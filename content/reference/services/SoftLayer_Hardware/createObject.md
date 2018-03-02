@@ -294,3 +294,11 @@ Location: https://api.softlayer.com/rest/v3/SoftLayer_Hardware/f5a3fcff-db1d-4b7
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Hardware::createObjects](/reference/services/SoftLayer_Hardware/createObjects )
+*  [SoftLayer_Hardware::generateOrderTemplate](/reference/services/SoftLayer_Hardware/generateOrderTemplate )
+*  [SoftLayer_Hardware::getCreateObjectOptions](/reference/services/SoftLayer_Hardware/getCreateObjectOptions )
+

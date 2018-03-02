@@ -34,3 +34,4 @@ The valid encryption options are as follows:
 
 ### Return Values
 array of strings
+

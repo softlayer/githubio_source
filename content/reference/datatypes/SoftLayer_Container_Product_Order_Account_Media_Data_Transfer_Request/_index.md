@@ -19,6 +19,17 @@ classes:
 
 ## Description 
 This datatype is to be used for data transfer requests. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Product_Order::verifyOrder](/reference/services/SoftLayer_Product_Order/verifyOrder )
+*  [SoftLayer_Product_Order::placeOrder](/reference/services/SoftLayer_Product_Order/placeOrder )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

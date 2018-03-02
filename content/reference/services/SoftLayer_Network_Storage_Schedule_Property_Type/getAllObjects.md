@@ -28,3 +28,4 @@ Use this method to retrieve all network storage schedule property types.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule_Property_Type'>SoftLayer_Network_Storage_Schedule_Property_Type[] </a>
+

@@ -28,3 +28,11 @@ Delete a domain's MX record. '''This cannot be undone.''' Be wary of running thi
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain_ResourceRecord::deleteObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObject )
+*  [SoftLayer_Dns_Domain_ResourceRecord::deleteObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObjects )
+*  [SoftLayer_Dns_Domain_ResourceRecord_MxType::deleteObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/deleteObjects )
+

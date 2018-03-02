@@ -29,3 +29,4 @@ Retrieve the OS Type this group is configured for.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage_Iscsi_OS_Type'>SoftLayer_Network_Storage_Iscsi_OS_Type </a>
+

@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 SoftLayer_Container_Subnet_Registration_TransactionDetails is provided to return details of a newly created Subnet Registration Transaction. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

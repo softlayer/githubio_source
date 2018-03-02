@@ -19,15 +19,29 @@ classes:
 
 ## Description
 The SoftLayer_Network_Firewall_Update_Request service can be used to create SoftLayer network component firewall rules update requests.  Update requests are added to a transaction queue and are typically posted in about 60 seconds.  After they are posted, they are listed as current rules via the [[SoftLayer Network Component Firewall]] service. Use the [[SoftLayer Network Component Firewall]] service to view current rules. Use the [[SoftLayer Network Firewall Template]] service to pull SoftLayer recommended rule set templates. 
-### external links
-        Array
-(
-    [url] => http://en.wikipedia.org/wiki/Firewall_(networking)
-    [description] => Firewall at Wikipedia
-)
-1        
+
+### External Links
+
+
+* [Firewall at Wikipedia](http://en.wikipedia.org/wiki/Firewall_(networking))
+
+
+
+
 ### seeAlso
-        SoftLayer_Network_Component_Firewall1        SoftLayer_Network_Firewall_Template1        SoftLayer_Network_Component_Firewall1        SoftLayer_Network_Firewall_Template1                
+
+* [SoftLayer_Network_Component_Firewall](/reference/datatypes/SoftLayer_Network_Component_Firewall )
+
+
+* [SoftLayer_Network_Firewall_Template](/reference/datatypes/SoftLayer_Network_Firewall_Template )
+
+
+* [SoftLayer_Network_Component_Firewall](/reference/datatypes/SoftLayer_Network_Component_Firewall )
+
+
+* [SoftLayer_Network_Firewall_Template](/reference/datatypes/SoftLayer_Network_Firewall_Template )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

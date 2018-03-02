@@ -29,3 +29,4 @@ Retrieve indicates whether or not this event has been acknowledged by the user.
 
 ### Return Values
 boolean
+

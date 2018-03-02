@@ -30,3 +30,4 @@ Retrieve subnets which are directly bound to one or more routers in a given data
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+

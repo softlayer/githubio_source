@@ -29,3 +29,4 @@ Retrieve information regarding the piece of hardware's service provider.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>
+

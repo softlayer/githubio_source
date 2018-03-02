@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Network_DirectLink_CloudExchangeProvider
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_DirectLink_CloudExchangeProvider' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_DirectLink_CloudExchangeProvider' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_DirectLink_CloudExchangeProvider' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_DirectLink_CloudExchangeProvider presents a structure containing attributes of a Direct Link Cloud exchange provider. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

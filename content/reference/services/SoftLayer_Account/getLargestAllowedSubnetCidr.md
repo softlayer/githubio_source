@@ -27,3 +27,4 @@ Computes the number of available public secondary IP addresses, aligned to a sub
 
 ### Return Values
 integer
+

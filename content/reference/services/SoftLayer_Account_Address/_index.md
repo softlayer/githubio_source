@@ -19,7 +19,9 @@ classes:
 
 ## Description
 SoftLayer's address service allows you to access and manage addresses associated with your account. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

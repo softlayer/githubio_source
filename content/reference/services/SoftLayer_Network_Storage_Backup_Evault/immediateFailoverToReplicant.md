@@ -27,3 +27,4 @@ Immediate Failover to a volume replicant.  During the time which the replicant i
 
 ### Return Values
 boolean
+

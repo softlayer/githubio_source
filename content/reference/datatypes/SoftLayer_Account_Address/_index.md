@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Account_Address
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Account_Address' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Address' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Address' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Account_Address data type contains information on an address associated with a SoftLayer account. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -126,6 +131,7 @@ The SoftLayer_Account_Address data type contains information on an address assoc
             <div class='views-field-body'>An account address' type. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account_Address_Type'>SoftLayer_Account_Address_Type </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

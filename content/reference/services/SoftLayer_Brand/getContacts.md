@@ -30,3 +30,4 @@ Retrieve the contacts for the brand.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Brand_Contact'>SoftLayer_Brand_Contact[] </a>
+

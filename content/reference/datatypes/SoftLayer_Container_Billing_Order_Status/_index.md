@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 SoftLayer_Container_Billing_Order_Status models an order status.
+
+
+### associatedMethods
+
+*  [SoftLayer_Billing_Order::getOrderStatuses](/reference/services/SoftLayer_Billing_Order/getOrderStatuses )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

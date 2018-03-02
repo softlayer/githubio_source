@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Survey_Type data type contains survey type information. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

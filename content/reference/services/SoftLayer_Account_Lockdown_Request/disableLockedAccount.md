@@ -27,3 +27,4 @@ Takes the original lockdown request ID, and an optional disable date. If no date
 
 ### Return Values
 integer
+

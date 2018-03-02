@@ -28,3 +28,4 @@ Retrieve flag indicating if this account can be linked with Bluemix.
 
 ### Return Values
 boolean
+

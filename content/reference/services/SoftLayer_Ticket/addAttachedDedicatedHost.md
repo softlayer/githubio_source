@@ -29,3 +29,9 @@ Attach the given Dedicated Host to a SoftLayer ticket. An attachment provides an
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Ticket_Attachment_Dedicated_Host'>SoftLayer_Ticket_Attachment_Dedicated_Host </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Ticket::removeAttachedDedicatedHost](/reference/services/SoftLayer_Ticket/removeAttachedDedicatedHost )
+

@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Configuration template class encapsulated an arbitrary configuration values for various resources. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

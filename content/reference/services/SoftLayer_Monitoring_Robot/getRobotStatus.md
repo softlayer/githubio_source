@@ -29,3 +29,4 @@ Retrieve the current status of the robot.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Monitoring_Robot_Status'>SoftLayer_Monitoring_Robot_Status </a>
+

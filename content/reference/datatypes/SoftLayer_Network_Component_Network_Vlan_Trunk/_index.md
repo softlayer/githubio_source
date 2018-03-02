@@ -19,6 +19,17 @@ classes:
 
 ## Description 
 Represents the association between a Network_Component and Network_Vlan in the manner of a 'trunk'. Trunking a VLAN to a port allows that ports to receive and send packets tagged with the corresponding VLAN number. 
+
+### External Links
+
+
+* [Virtual LAN at Wikipedia](http://en.wikipedia.org/wiki/Virtual_LAN)
+
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -56,6 +67,7 @@ Represents the association between a Network_Component and Network_Vlan in the m
             <div class='views-field-body'>The VLAN that is being trunked to the network component. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

@@ -26,3 +26,10 @@ classes:
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Customer::getUserFromLostPasswordRequest](/reference/services/SoftLayer_User_Customer/getUserFromLostPasswordRequest )
+*  [SoftLayer_User_Customer::setPasswordFromLostPasswordRequest](/reference/services/SoftLayer_User_Customer/setPasswordFromLostPasswordRequest )
+

@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Hardware_Component_Model
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Hardware_Component_Model' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Hardware_Component_Model' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Hardware_Component_Model' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Hardware_Component_Model data type contains general information relating to a single SoftLayer component model.  A component model represents a vendor specific representation of a hardware component.  Every piece of hardware on a server will have a specific hardware component model. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -155,6 +160,37 @@ The SoftLayer_Hardware_Component_Model data type contains general information re
             <span class='views-field-title'><a href="#validAttributeTypes" name=validAttributeTypes>validAttributeTypes</a></span>
             <div class='views-field-body'>The types of attributes that are allowed for a given hardware component model. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Attribute_Type'>SoftLayer_Hardware_Component_Model_Attribute_Type[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#attributeCount" name=attributeCount>attributeCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#compatibleArrayTypeCount" name=compatibleArrayTypeCount>compatibleArrayTypeCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#compatibleChildComponentModelCount" name=compatibleChildComponentModelCount>compatibleChildComponentModelCount</a></span>
+            <div class='views-field-body'>A count of all the component models that are compatible with a hardware component model. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#compatibleParentComponentModelCount" name=compatibleParentComponentModelCount>compatibleParentComponentModelCount</a></span>
+            <div class='views-field-body'>A count of all the component models that a hardware component model is compatible with. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#firmwareCount" name=firmwareCount>firmwareCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#validAttributeTypeCount" name=validAttributeTypeCount>validAttributeTypeCount</a></span>
+            <div class='views-field-body'>A count of the types of attributes that are allowed for a given hardware component model. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

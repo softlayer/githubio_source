@@ -26,3 +26,10 @@ Retrieve the size of a PDF record of a SoftLayer invoice. SoftLayer keeps PDF re
 
 ### Return Values
 integer
+
+### External Links
+
+
+* [Portable Document Format at Wikipedia](http://en.wikipedia.org/wiki/Portable_Document_Format)
+
+

@@ -28,3 +28,4 @@ Retrieve the total recurring amount for an accounts previous revenue.
 
 ### Return Values
 decimal
+

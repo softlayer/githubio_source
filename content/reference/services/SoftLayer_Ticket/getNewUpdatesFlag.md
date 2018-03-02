@@ -29,3 +29,4 @@ Retrieve true if there are new, unread updates to this ticket for the current us
 
 ### Return Values
 boolean
+

@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Every SoftLayer_Product_Package contains information related products and services that SoftLayer sells. The configuration of this package reveals which categories are required to place an order for this package. Every package has items, item prices, locations, regions, and a configuration. This service is the starting point for ordering servers, and other services we provide. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

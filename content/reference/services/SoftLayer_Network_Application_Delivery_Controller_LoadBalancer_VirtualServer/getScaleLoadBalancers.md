@@ -30,3 +30,4 @@ Retrieve collection of scale load balancers this virtual server applies to.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_LoadBalancer'>SoftLayer_Scale_LoadBalancer[] </a>
+

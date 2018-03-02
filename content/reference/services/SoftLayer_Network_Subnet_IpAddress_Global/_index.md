@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Global IP Addresses are static IP addresses that can be routed to any server within the SoftLayer network. Global IP Addresses are not restricted to routing within the same datacenter. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

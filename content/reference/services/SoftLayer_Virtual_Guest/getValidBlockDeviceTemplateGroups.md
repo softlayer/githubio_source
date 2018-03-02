@@ -31,3 +31,4 @@ This method will return the list of block device template groups that are valid 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group[] </a>
+

@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Network_Customer_Subnet
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Customer_Subnet' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_Customer_Subnet data type contains general information relating to a single customer subnet (remote). 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -70,6 +75,12 @@ The SoftLayer_Network_Customer_Subnet data type contains general information rel
             <span class='views-field-title'><a href="#ipAddresses" name=ipAddresses>ipAddresses</a></span>
             <div class='views-field-body'>All ip addresses associated with a subnet. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet_IpAddress'>SoftLayer_Network_Customer_Subnet_IpAddress[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#ipAddressCount" name=ipAddressCount>ipAddressCount</a></span>
+            <div class='views-field-body'>A count of all ip addresses associated with a subnet. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -27,3 +27,4 @@ Edit an image template group's associated name and note. All other properties in
 
 ### Return Values
 boolean
+

@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 The SoftLayer_Container_Network_Storage_Evault_WebCc_BackupResults will contain the timeframe of backups and the results will also be returned. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Account::getCurrentBackupData](/reference/services/SoftLayer_Account/getCurrentBackupData )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

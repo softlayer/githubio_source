@@ -29,3 +29,4 @@ Retrieve the network component linking this object to a child device
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>
+

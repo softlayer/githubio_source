@@ -26,3 +26,4 @@ This method will return the number of impacted owned accounts associated with th
 
 ### Return Values
 integer
+

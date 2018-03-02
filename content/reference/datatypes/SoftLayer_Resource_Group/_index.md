@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Resource_Group
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Resource_Group' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Resource_Group' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Resource_Group' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -110,6 +115,37 @@ classes:
             <span class='views-field-title'><a href="#vlanMembers" name=vlanMembers>vlanMembers</a></span>
             <div class='views-field-body'>A resource group's associated VLAN members. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#ancestorGroupCount" name=ancestorGroupCount>ancestorGroupCount</a></span>
+            <div class='views-field-body'>A count of a resource group's associated group ancestors. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#attributeCount" name=attributeCount>attributeCount</a></span>
+            <div class='views-field-body'>A count of a resource group's associated attributes. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#hardwareMemberCount" name=hardwareMemberCount>hardwareMemberCount</a></span>
+            <div class='views-field-body'>A count of a resource group's associated hardware members. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#memberCount" name=memberCount>memberCount</a></span>
+            <div class='views-field-body'>A count of a resource group's associated members. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#subnetMemberCount" name=subnetMemberCount>subnetMemberCount</a></span>
+            <div class='views-field-body'>A count of a resource group's associated subnet members. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#vlanMemberCount" name=vlanMemberCount>vlanMemberCount</a></span>
+            <div class='views-field-body'>A count of a resource group's associated VLAN members. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

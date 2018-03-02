@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The virtual host service provides a common interface to any virtualization platform supported by SoftLayer. Interaction with various third party APIs is not needed when implementing this service to administer your hosts. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

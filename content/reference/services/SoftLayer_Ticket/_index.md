@@ -27,8 +27,32 @@ Tickets exist in one of three states: open, assigned, and closed. Open tickets a
 It is possible to attach files and associate hardware with a ticket. Associating your ticket with more than one pieces of hardware helps SoftLayer's support team localize issues to certain servers. Attachments are a good way to illustrate a point, such as adding a screen shot of a problem or attaching a driver or configuration file that you'd like investigated. 
 
 Typically the only tickets an account user may create are technical support tickets. Technical support tickets are divided into two categories: standard tickets and administrative tickets. A standard support ticket describes an issue with your SoftLayer server or services. Standard support tickets' titles must be selected from a pre-determined list of ticket subjects, defined in the [[SoftLayer_Ticket_Subject]] service. If you need a little help from SoftLayer's support staff to manage your server then open an administrative support ticket. Administrative tickets add a one-time $3USD charge to your account, and you may specify your ticket's title as needed. 
+
+
+
 ### seeAlso
-        SoftLayer_Ticket_Update_Customer1        SoftLayer_Ticket_Update_Employee1        SoftLayer_Ticket_Attachment_Hardware1        SoftLayer_Ticket_Attachment_File1        SoftLayer_Ticket_Group1        SoftLayer_Ticket_Status1        SoftLayer_Ticket_Subject1                
+
+* [SoftLayer_Ticket_Update_Customer](/reference/datatypes/SoftLayer_Ticket_Update_Customer )
+
+
+* [SoftLayer_Ticket_Update_Employee](/reference/datatypes/SoftLayer_Ticket_Update_Employee )
+
+
+* [SoftLayer_Ticket_Attachment_Hardware](/reference/datatypes/SoftLayer_Ticket_Attachment_Hardware )
+
+
+* [SoftLayer_Ticket_Attachment_File](/reference/datatypes/SoftLayer_Ticket_Attachment_File )
+
+
+* [SoftLayer_Ticket_Group](/reference/datatypes/SoftLayer_Ticket_Group )
+
+
+* [SoftLayer_Ticket_Status](/reference/datatypes/SoftLayer_Ticket_Status )
+
+
+* [SoftLayer_Ticket_Subject](/reference/datatypes/SoftLayer_Ticket_Subject )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

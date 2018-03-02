@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Retrieve identifier cross-reference information.  SoftLayer_Notification_User_Subscriber_Resource provides the resource table id and subscriber id relation. The resource table id is the id of the service the subscriber receives alerts for.  This resource table id could be the unique identifier for a Storage Evault service, Global Load Balancer or CDN service. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -55,6 +60,7 @@ Storage EVault CDN Global Load Balancer
             <div class='views-field-body'>The Subscriber information tied to the resource service. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

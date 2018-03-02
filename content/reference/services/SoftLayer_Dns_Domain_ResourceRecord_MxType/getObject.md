@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Dns_Domain_ResourceRecord_MxType object whose 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_MxType'>SoftLayer_Dns_Domain_ResourceRecord_MxType </a>
+

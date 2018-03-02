@@ -30,3 +30,4 @@ Retrieve a piece of hardware's active physical components.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>
+

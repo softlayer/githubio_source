@@ -15,7 +15,7 @@ classes:
 # SoftLayer_Virtual_Disk_Image
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Virtual_Disk_Image' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image' >Datatype</a></li>
     </ul>
 </div>
 
@@ -23,6 +23,11 @@ classes:
 The virtual disk image data type presents the structure in which a virtual disk image will be presented. 
 
 Virtual block devices are assigned to disk images. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -164,6 +169,22 @@ Virtual block devices are assigned to disk images.
             <span class='views-field-title'><a href="#type" name=type>type</a></span>
             <div class='views-field-body'>A virtual disk image's type. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Type'>SoftLayer_Virtual_Disk_Image_Type </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#blockDeviceCount" name=blockDeviceCount>blockDeviceCount</a></span>
+            <div class='views-field-body'>A count of the block devices that a disk image is attached to. Block devices connect computing instances to disk images. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#coalescedDiskImageCount" name=coalescedDiskImageCount>coalescedDiskImageCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#softwareReferenceCount" name=softwareReferenceCount>softwareReferenceCount</a></span>
+            <div class='views-field-body'>A count of references to the software that resides on a disk image. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

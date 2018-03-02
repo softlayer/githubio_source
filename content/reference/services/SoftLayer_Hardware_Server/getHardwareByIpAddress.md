@@ -28,3 +28,4 @@ Retrieve a server by searching for the primary IP address.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Server'>SoftLayer_Hardware_Server </a>
+

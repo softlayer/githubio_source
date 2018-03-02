@@ -30,3 +30,4 @@ Retrieve a Billing Item's spare pool bundled billing items.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+

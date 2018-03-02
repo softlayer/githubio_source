@@ -29,3 +29,4 @@ Retrieve the total public inbound bandwidth used in this virtual rack for an acc
 
 ### Return Values
 decimal
+

@@ -25,3 +25,4 @@ Before being approved for general use, a credit card must be approved by a SoftL
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Account_Payment_Method_CreditCard'>SoftLayer_Container_Account_Payment_Method_CreditCard[] </a>
+

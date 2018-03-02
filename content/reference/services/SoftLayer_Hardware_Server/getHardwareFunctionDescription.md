@@ -29,3 +29,4 @@ Retrieve a hardware's function.
 
 ### Return Values
 string
+

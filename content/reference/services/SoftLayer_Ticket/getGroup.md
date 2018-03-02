@@ -29,3 +29,4 @@ Retrieve the SoftLayer department that a ticket is assigned to.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Ticket_Group'>SoftLayer_Ticket_Group </a>
+

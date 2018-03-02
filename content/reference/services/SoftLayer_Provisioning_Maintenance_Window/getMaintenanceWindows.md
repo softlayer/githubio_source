@@ -31,3 +31,4 @@ This method returns a list of available maintenance windows
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Window'>SoftLayer_Provisioning_Maintenance_Window[] </a>
+

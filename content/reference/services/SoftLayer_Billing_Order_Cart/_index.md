@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The [[SoftLayer_Billing_Order_Cart]] service allows customers to save their order in a state that can be continually modified. The difference between a cart and a quote is that a quote has locked-in prices while a cart does not. This allows customers to save their order configuration for up to 30 days. After 30 days, the cart is deleted and cannot be retrieved again. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

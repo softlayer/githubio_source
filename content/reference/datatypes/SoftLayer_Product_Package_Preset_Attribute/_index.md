@@ -19,6 +19,19 @@ classes:
 
 ## Description 
 Package preset attributes contain supplementary information for a package preset. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Product_Package_Preset](/reference/datatypes/SoftLayer_Product_Package_Preset )
+
+
+* [SoftLayer_Product_Package_Preset_Attribute_Type](/reference/datatypes/SoftLayer_Product_Package_Preset_Attribute_Type )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +79,7 @@ Package preset attributes contain supplementary information for a package preset
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

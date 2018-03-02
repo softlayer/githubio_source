@@ -27,3 +27,4 @@ This method modifies a single registration by modifying the current [[SoftLayer_
 
 ### Return Values
 boolean
+

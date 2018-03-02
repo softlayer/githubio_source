@@ -30,3 +30,4 @@ Retrieve the SoftLayer_Network_Storage objects that this SoftLayer_Virtual_Guest
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+

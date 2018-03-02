@@ -26,3 +26,4 @@ This method will delete an existing SoftLayer_Account_Regional_Registry_Detail_P
 
 ### Return Values
 boolean
+

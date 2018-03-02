@@ -29,3 +29,4 @@ Retrieve the original physical location for this billing item--may differ from c
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+

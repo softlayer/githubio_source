@@ -13,12 +13,34 @@ classes:
 # SoftLayer_Software_VirtualLicense
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Software_VirtualLicense' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Software_VirtualLicense' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Software_VirtualLicense' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 SoftLayer_Software_VirtualLicense is the application class that handles a special type of Software License.  Most software licenses are licensed to a specific hardware ID;  virtual licenses are designed for virtual machines and therefore are assigned to an IP Address.  Not all software packages can be "virtual licensed". 
+
+
+### associatedMethods
+
+*  [SoftLayer_Software_VirtualLicense::getObject](/reference/services/SoftLayer_Software_VirtualLicense/getObject )
+*  [SoftLayer_Account::getObject](/reference/services/SoftLayer_Account/getObject )
+
+
+
+### seeAlso
+
+* [SoftLayer_Software_Description](/reference/datatypes/SoftLayer_Software_Description )
+
+
+* [SoftLayer_Network_Subnet](/reference/datatypes/SoftLayer_Network_Subnet )
+
+
+* [SoftLayer_Account](/reference/datatypes/SoftLayer_Account )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -106,6 +128,7 @@ SoftLayer_Software_VirtualLicense is the application class that handles a specia
             <div class='views-field-body'>The subnet this Virtual License's IP address belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

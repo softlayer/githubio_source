@@ -28,3 +28,4 @@ This method will remove all VLANs trunked to this network component. The native 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a>
+

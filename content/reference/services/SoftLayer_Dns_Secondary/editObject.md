@@ -27,3 +27,4 @@ Edit the properties of a secondary DNS record by passing in a modified instance 
 
 ### Return Values
 boolean
+

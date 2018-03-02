@@ -13,12 +13,33 @@ classes:
 # SoftLayer_Network_Vlan
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Vlan' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Vlan' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Vlan' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_Vlan data type models a single VLAN within SoftLayer's public and private networks. a Virtual LAN is a structure that associates network interfaces on routers, switches, and servers in different locations to act as if they were on the same local network broadcast domain. VLANs are a central part of the SoftLayer network. They can determine how new IP subnets are routed and how individual servers communicate to each other. 
+
+### External Links
+
+
+* [Virtual LAN at Wikipedia](http://en.wikipedia.org/wiki/Virtual_LAN)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Subnet::getNetworkVlan](/reference/services/SoftLayer_Network_Subnet/getNetworkVlan )
+*  [SoftLayer_Network_Vlan::getObject](/reference/services/SoftLayer_Network_Vlan/getObject )
+*  [SoftLayer_Network_Vlan::getVlanForIpAddress](/reference/services/SoftLayer_Network_Vlan/getVlanForIpAddress )
+*  [SoftLayer_Network_Vlan::getPrivateVlanByIpAddress](/reference/services/SoftLayer_Network_Vlan/getPrivateVlanByIpAddress )
+*  [SoftLayer_Network_Vlan::getPrivateVlan](/reference/services/SoftLayer_Network_Vlan/getPrivateVlan )
+*  [SoftLayer_Network_Vlan::getPublicVlanByFqdn](/reference/services/SoftLayer_Network_Vlan/getPublicVlanByFqdn )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -255,6 +276,97 @@ The SoftLayer_Network_Vlan data type models a single VLAN within SoftLayer's pub
             <span class='views-field-title'><a href="#virtualGuests" name=virtualGuests>virtualGuests</a></span>
             <div class='views-field-body'>All of the Virtual Servers that are connected to a VLAN. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#additionalPrimarySubnetCount" name=additionalPrimarySubnetCount>additionalPrimarySubnetCount</a></span>
+            <div class='views-field-body'>A count of a VLAN's additional primary subnets. These are used to extend the number of servers attached to the VLAN by adding more ip addresses to the primary IP address pool. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#firewallGuestNetworkComponentCount" name=firewallGuestNetworkComponentCount>firewallGuestNetworkComponentCount</a></span>
+            <div class='views-field-body'>A count of a firewalled Vlan's network components. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#firewallInterfaceCount" name=firewallInterfaceCount>firewallInterfaceCount</a></span>
+            <div class='views-field-body'>A count of a firewalled vlan's inbound/outbound interfaces. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#firewallNetworkComponentCount" name=firewallNetworkComponentCount>firewallNetworkComponentCount</a></span>
+            <div class='views-field-body'>A count of a firewalled Vlan's network components. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#firewallRuleCount" name=firewallRuleCount>firewallRuleCount</a></span>
+            <div class='views-field-body'>A count of the currently running rule set of a firewalled VLAN. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#guestNetworkComponentCount" name=guestNetworkComponentCount>guestNetworkComponentCount</a></span>
+            <div class='views-field-body'>A count of the networking components that are connected to a VLAN. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#hardwareCount" name=hardwareCount>hardwareCount</a></span>
+            <div class='views-field-body'>A count of all of the hardware that exists on a VLAN. Hardware is associated with a VLAN by its networking components. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkComponentCount" name=networkComponentCount>networkComponentCount</a></span>
+            <div class='views-field-body'>A count of the networking components that are connected to a VLAN. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkComponentTrunkCount" name=networkComponentTrunkCount>networkComponentTrunkCount</a></span>
+            <div class='views-field-body'>A count of the network components that are connected to this VLAN through a trunk. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#primarySubnetCount" name=primarySubnetCount>primarySubnetCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#privateNetworkGatewayCount" name=privateNetworkGatewayCount>privateNetworkGatewayCount</a></span>
+            <div class='views-field-body'>A count of the gateways this VLAN is the private VLAN of. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#protectedIpAddressCount" name=protectedIpAddressCount>protectedIpAddressCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#publicNetworkGatewayCount" name=publicNetworkGatewayCount>publicNetworkGatewayCount</a></span>
+            <div class='views-field-body'>A count of the gateways this VLAN is the public VLAN of. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#scaleVlanCount" name=scaleVlanCount>scaleVlanCount</a></span>
+            <div class='views-field-body'>A count of collection of scale VLANs this VLAN applies to. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#secondarySubnetCount" name=secondarySubnetCount>secondarySubnetCount</a></span>
+            <div class='views-field-body'>A count of the subnets that exist as secondary interfaces on a VLAN </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#subnetCount" name=subnetCount>subnetCount</a></span>
+            <div class='views-field-body'>A count of all of the subnets that exist as VLAN interfaces. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#tagReferenceCount" name=tagReferenceCount>tagReferenceCount</a></span>
+            <div class='views-field-body'>A count of references to all tags for this VLAN. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#virtualGuestCount" name=virtualGuestCount>virtualGuestCount</a></span>
+            <div class='views-field-body'>A count of all of the Virtual Servers that are connected to a VLAN. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

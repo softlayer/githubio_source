@@ -26,3 +26,10 @@ Retrieve a Microsoft Excel record of a SoftLayer invoice. SoftLayer generates Mi
 
 ### Return Values
 binary data
+
+### External Links
+
+
+* [Microsoft Excel at Wikipedia](http://en.wikipedia.org/wiki/Microsoft_Excel)
+
+

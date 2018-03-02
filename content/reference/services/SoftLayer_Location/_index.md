@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The SoftLayer_Location API service queries SoftLayer's location tree to find locations for all softlayer resources including bare metal servers, virtual servers, storage repositories, datacenters, points of presence, network backbones, and many more. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

@@ -28,3 +28,4 @@ classes:
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Locale'>SoftLayer_Locale[] </a>
+

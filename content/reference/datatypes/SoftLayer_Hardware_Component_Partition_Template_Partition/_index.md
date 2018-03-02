@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Hardware_Component_Partition_Template_Partition data type contains general information relating to a single SoftLayer Template Partition. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -76,6 +81,7 @@ The SoftLayer_Hardware_Component_Partition_Template_Partition data type contains
             <div class='views-field-body'>A partition's [[SoftLayer_Hardware_Component_Partition_Template|Partition Template]]. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template'>SoftLayer_Hardware_Component_Partition_Template </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

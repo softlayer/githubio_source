@@ -30,3 +30,4 @@ Retrieve the item-location conflicts associated with a package.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Resource_Conflict'>SoftLayer_Product_Item_Resource_Conflict[] </a>
+

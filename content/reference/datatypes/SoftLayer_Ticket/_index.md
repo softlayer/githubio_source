@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Ticket
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Ticket' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Ticket' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Ticket' >Datatype</a></li>
     </ul>
 </div>
 
@@ -21,6 +21,29 @@ classes:
 The SoftLayer_Ticket data type models a single SoftLayer customer support or notification ticket. Each ticket object contains references to it's updates, the user it's assigned to, the SoftLayer department and employee that it's assigned to, and any hardware objects or attached files associated with the ticket. Tickets are described in further detail on the [[SoftLayer_Ticket]] service page. 
 
 To create a support ticket execute the [[SoftLayer_Ticket::createStandardTicket|createStandardTicket]] or [[SoftLayer_Ticket::createAdministrativeTicket|createAdministrativeTicket]] methods in the SoftLayer_Ticket service. To create an upgrade ticket for the SoftLayer sales group execute the [[SoftLayer_Ticket::createUpgradeTicket|createUpgradeTicket]]. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Account::getTickets](/reference/services/SoftLayer_Account/getTickets )
+*  [SoftLayer_Account::getOpenTickets](/reference/services/SoftLayer_Account/getOpenTickets )
+*  [SoftLayer_Account::getClosedTickets](/reference/services/SoftLayer_Account/getClosedTickets )
+*  [SoftLayer_Account::getLastFiveClosedTickets](/reference/services/SoftLayer_Account/getLastFiveClosedTickets )
+*  [SoftLayer_Account::getLastFiveClosedAbuseTickets](/reference/services/SoftLayer_Account/getLastFiveClosedAbuseTickets )
+*  [SoftLayer_Account::getLastFiveClosedAccountingTickets](/reference/services/SoftLayer_Account/getLastFiveClosedAccountingTickets )
+*  [SoftLayer_Account::getLastFiveClosedSalesTickets](/reference/services/SoftLayer_Account/getLastFiveClosedSalesTickets )
+*  [SoftLayer_Account::getLastFiveClosedSupportTickets](/reference/services/SoftLayer_Account/getLastFiveClosedSupportTickets )
+*  [SoftLayer_Account::getLastFiveClosedOtherTickets](/reference/services/SoftLayer_Account/getLastFiveClosedOtherTickets )
+*  [SoftLayer_Ticket::getObject](/reference/services/SoftLayer_Ticket/getObject )
+*  [SoftLayer_Ticket::getTicketsClosedSinceDate](/reference/services/SoftLayer_Ticket/getTicketsClosedSinceDate )
+*  [SoftLayer_Ticket::createStandardTicket](/reference/services/SoftLayer_Ticket/createStandardTicket )
+*  [SoftLayer_Ticket::createAdministrativeTicket](/reference/services/SoftLayer_Ticket/createAdministrativeTicket )
+*  [SoftLayer_Ticket::createUpgradeTicket](/reference/services/SoftLayer_Ticket/createUpgradeTicket )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -347,6 +370,67 @@ To create a support ticket execute the [[SoftLayer_Ticket::createStandardTicket|
             <span class='views-field-title'><a href="#updates" name=updates>updates</a></span>
             <div class='views-field-body'>A ticket's updates. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Ticket_Update'>SoftLayer_Ticket_Update[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#assignedAgentCount" name=assignedAgentCount>assignedAgentCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#attachedAdditionalEmailCount" name=attachedAdditionalEmailCount>attachedAdditionalEmailCount</a></span>
+            <div class='views-field-body'>A count of the list of additional emails to notify when a ticket update is made. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#attachedDedicatedHostCount" name=attachedDedicatedHostCount>attachedDedicatedHostCount</a></span>
+            <div class='views-field-body'>A count of the Dedicated Hosts associated with a ticket. This is used in cases where a ticket is directly associated with one or more Dedicated Hosts. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#attachedFileCount" name=attachedFileCount>attachedFileCount</a></span>
+            <div class='views-field-body'>A count of the files attached to a ticket. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#attachedResourceCount" name=attachedResourceCount>attachedResourceCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#attachedVirtualGuestCount" name=attachedVirtualGuestCount>attachedVirtualGuestCount</a></span>
+            <div class='views-field-body'>A count of the virtual guests associated with a ticket. This is used in cases where a ticket is directly associated with one or more virtualized guests installations or Virtual Servers. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#employeeAttachmentCount" name=employeeAttachmentCount>employeeAttachmentCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#invoiceItemCount" name=invoiceItemCount>invoiceItemCount</a></span>
+            <div class='views-field-body'>A count of the invoice items associated with a ticket. Ticket based invoice items only exist when a ticket incurs a fee that has been invoiced. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#scheduledActionCount" name=scheduledActionCount>scheduledActionCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#stateCount" name=stateCount>stateCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#tagReferenceCount" name=tagReferenceCount>tagReferenceCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#updateCount" name=updateCount>updateCount</a></span>
+            <div class='views-field-body'>A count of a ticket's updates. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

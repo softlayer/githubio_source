@@ -30,3 +30,4 @@ Retrieve information regarding all servers attached to a piece of network hardwa
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+

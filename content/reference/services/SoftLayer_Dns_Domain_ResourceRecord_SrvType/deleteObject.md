@@ -28,3 +28,11 @@ Delete a domain's SRV record. '''This cannot be undone.''' Be wary of running th
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain_ResourceRecord::deleteObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObject )
+*  [SoftLayer_Dns_Domain_ResourceRecord::deleteObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObjects )
+*  [SoftLayer_Dns_Domain_ResourceRecord_SrvType::deleteObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/deleteObjects )
+

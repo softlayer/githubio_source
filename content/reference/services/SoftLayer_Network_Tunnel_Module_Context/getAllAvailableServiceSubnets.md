@@ -30,3 +30,4 @@ Retrieve subnets that provide access to SoftLayer services such as the managemen
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+

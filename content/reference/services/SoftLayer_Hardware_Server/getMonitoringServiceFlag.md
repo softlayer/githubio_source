@@ -29,3 +29,4 @@ Retrieve the service flag status for a piece of hardware.
 
 ### Return Values
 boolean
+

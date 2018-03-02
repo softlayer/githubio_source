@@ -29,3 +29,4 @@ Retrieve the SoftLayer user that the external authentication binding belongs to.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+

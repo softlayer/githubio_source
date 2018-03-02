@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 This class represents a facility visitor that is not an active employee or customer.
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -61,6 +66,7 @@ This class represents a facility visitor that is not an active employee or custo
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Access_Facility_Visitor_Type'>SoftLayer_User_Access_Facility_Visitor_Type </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

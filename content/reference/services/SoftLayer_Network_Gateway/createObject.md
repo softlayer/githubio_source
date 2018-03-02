@@ -28,3 +28,4 @@ Create and return a new gateway. This object can be created with any number of m
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a>
+

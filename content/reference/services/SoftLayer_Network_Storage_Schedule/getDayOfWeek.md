@@ -29,3 +29,4 @@ Retrieve the day of the week parameter of this schedule.
 
 ### Return Values
 string
+

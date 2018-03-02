@@ -29,3 +29,4 @@ Retrieve this invoice item's "item category group".
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Category_Group'>SoftLayer_Product_Item_Category_Group </a>
+

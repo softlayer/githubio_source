@@ -26,3 +26,4 @@ Return load balancers statistics such as total number of current sessions and to
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancerStatistics'>SoftLayer_Network_LBaaS_LoadBalancerStatistics </a>
+

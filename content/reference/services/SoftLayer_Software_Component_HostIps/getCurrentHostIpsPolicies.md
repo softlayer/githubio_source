@@ -26,3 +26,4 @@ Get the current Host IPS policies.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Software_Component_HostIps_Policy'>SoftLayer_Container_Software_Component_HostIps_Policy[] </a>
+

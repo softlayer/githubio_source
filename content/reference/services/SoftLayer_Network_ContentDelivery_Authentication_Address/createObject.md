@@ -36,3 +36,4 @@ This method creates an authentication IP record.  Required parameters are
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Authentication_Address'>SoftLayer_Network_ContentDelivery_Authentication_Address </a>
+

@@ -28,3 +28,4 @@ Create delivery methods for a notification that the user is subscribed to. Multi
 
 ### Return Values
 boolean
+

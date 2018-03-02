@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Network_Subnet_Rwhois_Data
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Subnet_Rwhois_Data' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Subnet_Rwhois_Data' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Subnet_Rwhois_Data' >Datatype</a></li>
     </ul>
 </div>
 
@@ -21,6 +21,34 @@ classes:
 Every SoftLayer customer account has contact information associated with it for reverse WHOIS purposes. An account's RWHOIS data, modeled by the SoftLayer_Network_Subnet_Rwhois_Data data type, is used by SoftLayer's reverse WHOIS server as well as for SWIP transactions. SoftLayer's reverse WHOIS servers respond to WHOIS queries for IP addresses belonging to a customer's servers, returning this RWHOIS data. 
 
 A SoftLayer customer's RWHOIS data may not necessarily match their account or portal users' contact information. 
+
+### External Links
+
+
+* [WHOIS at Wikipedia](http://en.wikipedia.org/wiki/WHOIS)
+
+
+* [ARIN WHOIS Database Search at arin.net](http://www.arin.net/whois/)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Storage::getObject](/reference/services/SoftLayer_Network_Storage/getObject )
+*  [SoftLayer_Account::getRwhoisData](/reference/services/SoftLayer_Account/getRwhoisData )
+
+
+
+### seeAlso
+
+* [SoftLayer_Account](/reference/datatypes/SoftLayer_Account )
+
+
+* [SoftLayer_Network_Subnet_Swip_Transaction](/reference/datatypes/SoftLayer_Network_Subnet_Swip_Transaction )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -118,6 +146,7 @@ A SoftLayer customer's RWHOIS data may not necessarily match their account or po
             <div class='views-field-body'>The SoftLayer customer account associated with this reverse WHOIS data. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

@@ -26,3 +26,4 @@ The sendTransferApprovalEmail method resends a transfer approval email message f
 
 ### Return Values
 boolean
+

@@ -26,3 +26,4 @@ This function is used to edit multiple objects at the same time.
 
 ### Return Values
 boolean
+

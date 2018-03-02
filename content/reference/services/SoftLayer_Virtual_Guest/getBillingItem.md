@@ -29,3 +29,4 @@ Retrieve the billing item for a CloudLayer Compute Instance.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item_Virtual_Guest'>SoftLayer_Billing_Item_Virtual_Guest </a>
+

@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Every hardware component is associated with a model. A hardware component model defines the type of hardware component to which it is associated. The '''SoftLayer_Hardware_Component_Model''' class provides detailed information regarding the hardware component. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

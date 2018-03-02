@@ -19,6 +19,24 @@ classes:
 
 ## Description 
 Transcode preset element 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Media_Transcode_Account::getPresetDetail](/reference/services/SoftLayer_Network_Media_Transcode_Account/getPresetDetail )
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_Media_Transcode_Account](/reference/datatypes/SoftLayer_Network_Media_Transcode_Account )
+
+
+* [SoftLayer_Network_Media_Transcode_Job](/reference/datatypes/SoftLayer_Network_Media_Transcode_Job )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

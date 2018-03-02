@@ -25,3 +25,4 @@ The getActiveExternalAuthenticationVendors method will return a list of availabl
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_User_Customer_External_Binding_Vendor'>SoftLayer_Container_User_Customer_External_Binding_Vendor[] </a>
+

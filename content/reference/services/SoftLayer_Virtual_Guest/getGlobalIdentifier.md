@@ -29,3 +29,4 @@ Retrieve a guest's universally unique identifier.
 
 ### Return Values
 string
+

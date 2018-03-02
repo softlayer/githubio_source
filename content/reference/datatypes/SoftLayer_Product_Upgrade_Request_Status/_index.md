@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Product_Upgrade_Request_Status data type contains detailed information relating to an hardware or software upgrade request. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

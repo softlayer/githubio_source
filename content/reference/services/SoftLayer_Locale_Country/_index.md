@@ -19,7 +19,9 @@ classes:
 
 ## Description
 This service provides methods to retrieve country locale information. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

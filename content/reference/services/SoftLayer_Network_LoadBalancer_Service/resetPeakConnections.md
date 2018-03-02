@@ -26,3 +26,4 @@ Calling resetPeakConnections will set the peakConnections variable to zero on th
 
 ### Return Values
 boolean
+

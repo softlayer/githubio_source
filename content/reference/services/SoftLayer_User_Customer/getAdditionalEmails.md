@@ -30,3 +30,4 @@ Retrieve a portal user's additional email addresses. These email addresses are c
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer_AdditionalEmail'>SoftLayer_User_Customer_AdditionalEmail[] </a>
+

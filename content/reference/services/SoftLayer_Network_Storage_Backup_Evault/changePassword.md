@@ -28,3 +28,4 @@ The method will change the password for the given Storage/Virtual Server Storage
 
 ### Return Values
 boolean
+

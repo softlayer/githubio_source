@@ -30,3 +30,4 @@ This method will query transaction history for a piece of hardware.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_History'>SoftLayer_Provisioning_Version1_Transaction_History[] </a>
+

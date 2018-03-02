@@ -28,3 +28,9 @@ Retrieve the private network VLAN associated with an IP address.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Vlan::getVlanForIpAddress](/reference/services/SoftLayer_Network_Vlan/getVlanForIpAddress )
+

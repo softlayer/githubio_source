@@ -28,3 +28,9 @@ Remove multiple resource records from a domain. This follows the same logic as '
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_ResourceRecord::deleteObject](/reference/services/SoftLayer_Dns_ResourceRecord/deleteObject )
+

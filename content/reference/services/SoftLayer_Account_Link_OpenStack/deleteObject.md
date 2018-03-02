@@ -26,3 +26,4 @@ deleteObject permanently removes an account link and all of it's associated keys
 
 ### Return Values
 boolean
+

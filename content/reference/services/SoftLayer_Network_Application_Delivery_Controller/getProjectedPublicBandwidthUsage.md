@@ -29,3 +29,4 @@ Retrieve the projected public outbound bandwidth for the current billing cycle.
 
 ### Return Values
 float
+

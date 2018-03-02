@@ -28,3 +28,4 @@ The ability to place bare metal servers in a state where they are powered down, 
 
 ### Return Values
 boolean
+

@@ -27,3 +27,4 @@ Update the note of an external binding.  The note is an optional property that i
 
 ### Return Values
 boolean
+

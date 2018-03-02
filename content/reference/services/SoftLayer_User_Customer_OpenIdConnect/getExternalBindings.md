@@ -30,3 +30,4 @@ Retrieve the external authentication bindings that link an external identifier t
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_External_Binding'>SoftLayer_User_External_Binding[] </a>
+

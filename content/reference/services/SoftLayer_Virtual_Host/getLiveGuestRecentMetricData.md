@@ -32,3 +32,4 @@ Query a virtualization platform directly to retrieve recent metric data for a gu
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object[] </a>
+

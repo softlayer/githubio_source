@@ -37,3 +37,4 @@ Return the current network status of and latency information for a given target 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Auxiliary_Network_Status_Reading'>SoftLayer_Container_Auxiliary_Network_Status_Reading[] </a>
+

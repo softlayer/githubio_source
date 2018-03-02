@@ -26,3 +26,4 @@ deleteObject permanently removes a configuration history record
 
 ### Return Values
 boolean
+

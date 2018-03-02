@@ -28,3 +28,4 @@ Create a new affiliation to associate with an existing account.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account_Affiliation'>SoftLayer_Account_Affiliation </a>
+

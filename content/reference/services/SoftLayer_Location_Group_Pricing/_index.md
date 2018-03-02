@@ -19,7 +19,9 @@ classes:
 
 ## Description
 A pricing location group relates a set of [[SoftLayer_Product_Item_Price|prices]] to only be available to a set of [[SoftLayer_Location|locations]] when used for [[SoftLayer_Product_Order|ordering]]. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

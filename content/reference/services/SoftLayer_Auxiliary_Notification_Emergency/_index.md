@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The SoftLayer_Auxiliary_Notification_Emergency service is associated with all actions pertaining to the notification system.  It can be used to check for current network or service interruptions that effect SoftLayer services. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

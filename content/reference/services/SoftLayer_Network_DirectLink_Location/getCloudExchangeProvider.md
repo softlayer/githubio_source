@@ -29,3 +29,4 @@ Retrieve the Id of Direct Link cloud exchange provider.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_DirectLink_CloudExchangeProvider'>SoftLayer_Network_DirectLink_CloudExchangeProvider </a>
+

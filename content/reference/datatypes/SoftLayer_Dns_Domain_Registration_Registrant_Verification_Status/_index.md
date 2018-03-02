@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status' >Datatype</a></li>
     </ul>
 </div>
 
@@ -27,6 +27,16 @@ SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status models the stat
 *'''Verified''': The registrant has been validated.
 *'''Verifying''': The verification process has been initiated and is waiting for registrant response.
 *'''Unverified''': The verification process has not been inititated.
+
+
+
+
+
+### seeAlso
+
+* [SoftLayer_Dns_Domain_Registration](/reference/datatypes/SoftLayer_Dns_Domain_Registration )
+
+
 
 
 <!-- Service Filer BEGIN -->

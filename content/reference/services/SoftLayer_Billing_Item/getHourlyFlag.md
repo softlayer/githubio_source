@@ -29,3 +29,4 @@ Retrieve a flag that will reflect whether this billing item is billed on an hour
 
 ### Return Values
 boolean
+

@@ -29,3 +29,4 @@ Retrieve the IP Address record associated with a virtual license.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>
+

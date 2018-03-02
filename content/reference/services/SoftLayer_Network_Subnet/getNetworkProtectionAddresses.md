@@ -30,3 +30,4 @@ classes:
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Protection_Address'>SoftLayer_Network_Protection_Address[] </a>
+

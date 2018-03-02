@@ -29,3 +29,4 @@ Retrieve the user who owns the api authentication key.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+

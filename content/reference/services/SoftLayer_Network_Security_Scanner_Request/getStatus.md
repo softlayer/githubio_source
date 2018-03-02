@@ -29,3 +29,4 @@ Retrieve a security scan request's status.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request_Status'>SoftLayer_Network_Security_Scanner_Request_Status </a>
+

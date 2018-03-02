@@ -29,3 +29,4 @@ Retrieve an account's associated hourly virtual guest objects.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+

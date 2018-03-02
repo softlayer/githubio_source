@@ -29,3 +29,4 @@ Retrieve indicates if it is a legacy CDN or not
 
 ### Return Values
 boolean
+

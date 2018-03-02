@@ -27,3 +27,4 @@ Retrieve all point of presence locations.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+

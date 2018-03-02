@@ -19,6 +19,18 @@ classes:
 
 ## Description 
 The SoftLayer_User_Customer_AdditionalEmail data type contains the additional email for use in ticket update notifications. 
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Customer_AdditionalEmail::getObject](/reference/services/SoftLayer_User_Customer_AdditionalEmail/getObject )
+*  [SoftLayer_Ticket::attachedAdditionalEmails](/reference/services/SoftLayer_Ticket/attachedAdditionalEmails )
+*  [SoftLayer_User_Customer::additionalEmails](/reference/services/SoftLayer_User_Customer/additionalEmails )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -51,6 +63,7 @@ The SoftLayer_User_Customer_AdditionalEmail data type contains the additional em
             <div class='views-field-body'>The portal user that owns this additional email address. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

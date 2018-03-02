@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The SoftLayer_Provisioning_Maintenance_Slots service returns available maintenance slots at SoftLayer data centers. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

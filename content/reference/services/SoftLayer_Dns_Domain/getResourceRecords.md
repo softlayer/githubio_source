@@ -30,3 +30,4 @@ Retrieve the individual records contained within a domain record. These include 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord'>SoftLayer_Dns_Domain_ResourceRecord[] </a>
+

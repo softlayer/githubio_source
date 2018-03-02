@@ -26,3 +26,4 @@ Returns true if the object has sub-sections
 
 ### Return Values
 boolean
+

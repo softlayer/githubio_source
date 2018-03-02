@@ -29,3 +29,4 @@ Retrieve the License this Software Component uses.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Software_License'>SoftLayer_Software_License </a>
+

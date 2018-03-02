@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Network_Storage_MassDataMigration_Request_DeviceConfiguration data type contains settings such networking, COS account, which needs to be configured on device for a Mass Data Migration Request. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -116,6 +121,7 @@ The SoftLayer_Network_Storage_MassDataMigration_Request_DeviceConfiguration data
             <div class='views-field-body'>The storage account to use for this request. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Storage_Hub_Cleversafe_Account'>SoftLayer_Network_Storage_Hub_Cleversafe_Account </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

@@ -27,3 +27,4 @@ getAllCancellationReasonCategories() retrieves a list of all cancellation reason
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason_Category'>SoftLayer_Billing_Item_Cancellation_Reason_Category[] </a>
+

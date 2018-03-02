@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 ARIN-specific registration object. For more detail see [[SoftLayer_Network_Subnet_Registration (type)|SoftLayer_Network_Subnet_Registration]]. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -130,6 +135,17 @@ ARIN-specific registration object. For more detail see [[SoftLayer_Network_Subne
             <span class='views-field-title'><a href="#subnet" name=subnet>subnet</a></span>
             <div class='views-field-body'>The subnet that this registration pertains to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#detailReferenceCount" name=detailReferenceCount>detailReferenceCount</a></span>
+            <div class='views-field-body'>A count of the cross-reference records that tie the [[SoftLayer_Account_Regional_Registry_Detail]] objects to the registration object. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#eventCount" name=eventCount>eventCount</a></span>
+            <div class='views-field-body'>A count of the related registration events. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

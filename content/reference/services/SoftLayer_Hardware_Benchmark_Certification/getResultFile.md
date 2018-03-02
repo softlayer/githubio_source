@@ -26,3 +26,4 @@ Attempt to retrieve the file associated with a benchmark certification result, i
 
 ### Return Values
 binary data
+

@@ -29,3 +29,4 @@ Retrieve a brief description of an application delivery controller record.
 
 ### Return Values
 string
+

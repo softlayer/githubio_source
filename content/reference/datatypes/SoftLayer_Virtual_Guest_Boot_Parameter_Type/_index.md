@@ -13,12 +13,22 @@ classes:
 # SoftLayer_Virtual_Guest_Boot_Parameter_Type
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter_Type' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Boot_Parameter_Type' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Boot_Parameter_Type' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 Describes a virtual guest boot parameter. In this the word class is used in the context of arguments sent to cloud computing instances such as single user mode and boot into bash. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Virtual_Guest_Boot_Parameter](/reference/datatypes/SoftLayer_Virtual_Guest_Boot_Parameter )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

@@ -29,3 +29,4 @@ Retrieve the bandwidth allotment type of this virtual rack.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Type'>SoftLayer_Network_Bandwidth_Version1_Allotment_Type </a>
+

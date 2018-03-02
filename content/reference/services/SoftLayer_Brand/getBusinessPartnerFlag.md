@@ -29,3 +29,4 @@ Retrieve flag indicating if the brand is a business partner.
 
 ### Return Values
 boolean
+

@@ -26,3 +26,4 @@ The unlockDomain method unlocks a domain
 
 ### Return Values
 boolean
+

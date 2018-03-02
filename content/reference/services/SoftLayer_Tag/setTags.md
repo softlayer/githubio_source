@@ -28,3 +28,4 @@ Tag an object by passing in one or more tags separated by a comma.  Tag referenc
 
 ### Return Values
 boolean
+

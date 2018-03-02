@@ -28,3 +28,11 @@ createObject creates a new MX record. The ''host'' property of the templateObjec
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_MxType'>SoftLayer_Dns_Domain_ResourceRecord_MxType </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain_ResourceRecord::createObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObject )
+*  [SoftLayer_Dns_Domain_ResourceRecord::createObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObjects )
+*  [SoftLayer_Dns_Domain_ResourceRecord_MxType::createObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/createObjects )
+

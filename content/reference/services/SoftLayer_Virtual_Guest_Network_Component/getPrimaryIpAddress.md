@@ -29,3 +29,4 @@ Retrieve a computing instance network component's primary IP address.
 
 ### Return Values
 string
+

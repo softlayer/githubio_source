@@ -29,3 +29,4 @@ Retrieve whether or not this VLAN is inside a gateway.
 
 ### Return Values
 boolean
+

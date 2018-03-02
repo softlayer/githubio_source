@@ -29,3 +29,4 @@ Retrieve the refund invoice associated with a ticket. Only tickets with a refund
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a>
+

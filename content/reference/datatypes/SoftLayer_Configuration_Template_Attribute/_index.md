@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Configuration template attribute class contains supplementary information for a configuration template. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -46,6 +51,7 @@ Configuration template attribute class contains supplementary information for a 
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

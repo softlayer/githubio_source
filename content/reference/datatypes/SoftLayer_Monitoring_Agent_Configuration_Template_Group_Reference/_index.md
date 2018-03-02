@@ -13,12 +13,22 @@ classes:
 # SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference class holds the reference information, essentially a SQL join, between a monitoring configuration group and agent configuration templates. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group::getObject](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -61,6 +71,7 @@ SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference class holds th
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Configuration_Template_Group'>SoftLayer_Monitoring_Agent_Configuration_Template_Group </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

@@ -19,7 +19,9 @@ classes:
 
 ## Description
 SoftLayer_Virtual_DedicatedHost models a single tenant virtual host dedicated to a specific account. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

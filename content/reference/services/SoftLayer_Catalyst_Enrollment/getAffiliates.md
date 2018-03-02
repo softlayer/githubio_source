@@ -27,3 +27,4 @@ classes:
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Catalyst_Affiliate'>SoftLayer_Catalyst_Affiliate[] </a>
+

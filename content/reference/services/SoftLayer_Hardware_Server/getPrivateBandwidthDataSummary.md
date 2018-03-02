@@ -26,3 +26,4 @@ Retrieve a brief summary of a server's private network bandwidth usage. getPriva
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_Bandwidth_Data_Summary'>SoftLayer_Container_Network_Bandwidth_Data_Summary </a>
+

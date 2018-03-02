@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Schedule properties provide attributes such as start date, end date, interval, and other properties to a storage schedule. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -71,6 +76,7 @@ Schedule properties provide attributes such as start date, end date, interval, a
             <div class='views-field-body'>The type provides a standardized definition for a property. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule_Property_Type'>SoftLayer_Network_Storage_Schedule_Property_Type </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

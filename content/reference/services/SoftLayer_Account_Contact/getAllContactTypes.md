@@ -27,3 +27,11 @@ This method will return an array of SoftLayer_Account_Contact_Type objects which
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account_Contact_Type'>SoftLayer_Account_Contact_Type[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Account_Contact::createObject](/reference/services/SoftLayer_Account_Contact/createObject )
+*  [SoftLayer_Account_Contact::getObject](/reference/services/SoftLayer_Account_Contact/getObject )
+*  [SoftLayer_Account_Contact::editObject](/reference/services/SoftLayer_Account_Contact/editObject )
+

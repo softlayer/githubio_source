@@ -29,3 +29,4 @@ Retrieve whether or not there is a firewall associated with this gateway.
 
 ### Return Values
 boolean
+

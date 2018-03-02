@@ -30,3 +30,4 @@ Retrieve the resource watches for this trigger.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch'>SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch[] </a>
+

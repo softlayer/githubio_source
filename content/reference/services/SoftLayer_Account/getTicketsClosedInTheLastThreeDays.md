@@ -29,3 +29,4 @@ Retrieve tickets closed within the last 72 hours or last 10 tickets, whichever i
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>
+

@@ -27,3 +27,4 @@ Cancel the PayPal Payment Request process. During the process of submitting a Pa
 
 ### Return Values
 boolean
+

@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 This is deprecated. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -81,6 +86,7 @@ This is deprecated.
             <div class='views-field-body'>The product package that is associated with an inventory record. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

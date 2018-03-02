@@ -29,3 +29,4 @@ Retrieve information regarding a piece of hardware's network monitoring services
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum'>SoftLayer_Network_Monitor_Version1_Query_Host_Stratum </a>
+

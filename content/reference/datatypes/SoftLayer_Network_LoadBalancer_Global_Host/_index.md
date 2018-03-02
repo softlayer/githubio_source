@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Network_LoadBalancer_Global_Host
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_LoadBalancer_Global_Host' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Host' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Host' >Datatype</a></li>
     </ul>
 </div>
 
@@ -23,6 +23,17 @@ The SoftLayer_Network_LoadBalancer_Global_Host data type represents a single hos
 The destination IP address of a host must be one that belongs to your SoftLayer customer account, or to a datacenter load balancer virtual ip that belongs to your SoftLayer customer account.  The destination IP address and port of a global load balancer host is a required field and must exist during creation and can not be removed.  The acceptable values for the health check type are 'none', 'http', and 'tcp'. The status property is updated in 5 minute intervals and the hits property is updated in 10 minute intervals. 
 
 The order of the host is only important if you are using the 'failover' load balance method, and the weight is only important if you are using the 'weighted round robin' load balance method. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_LoadBalancer_Global_Account::editObject](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/editObject )
+*  [SoftLayer_Network_LoadBalancer_Global_Host::getObject](/reference/services/SoftLayer_Network_LoadBalancer_Global_Host/getObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -95,6 +106,7 @@ The order of the host is only important if you are using the 'failover' load bal
             <div class='views-field-body'>The global load balancer account a host belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Account'>SoftLayer_Network_LoadBalancer_Global_Account </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

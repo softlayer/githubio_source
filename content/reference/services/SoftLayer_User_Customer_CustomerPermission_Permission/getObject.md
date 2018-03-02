@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_User_Customer_CustomerPermission_Permission ob
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer_CustomerPermission_Permission'>SoftLayer_User_Customer_CustomerPermission_Permission </a>
+

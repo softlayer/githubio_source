@@ -28,3 +28,4 @@ Retrieve return 1 if one of the account's hardware has an installation of R1Soft
 
 ### Return Values
 boolean
+

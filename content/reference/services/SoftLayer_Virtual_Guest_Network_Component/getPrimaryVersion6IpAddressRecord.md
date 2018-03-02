@@ -29,3 +29,4 @@ Retrieve a network component's primary IPv6 IP address record.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>
+

@@ -29,3 +29,4 @@ Retrieve a user's locale. Locale holds user's language and region information.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Locale'>SoftLayer_Locale </a>
+

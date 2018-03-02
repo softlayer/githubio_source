@@ -29,3 +29,4 @@ Retrieve the resource for a virtual dedicated host billing item.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_DedicatedHost'>SoftLayer_Virtual_DedicatedHost </a>
+

@@ -28,3 +28,4 @@ Attempt to authenticate a username and password to the SoftLayer customer portal
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_User_Customer_Portal_Token'>SoftLayer_Container_User_Customer_Portal_Token </a>
+

@@ -30,3 +30,4 @@ Retrieve the hardware associated with a ticket. This is used in cases where a ti
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+

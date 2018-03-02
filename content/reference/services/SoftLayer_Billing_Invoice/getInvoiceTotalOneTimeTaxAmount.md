@@ -29,3 +29,4 @@ Retrieve a sum of all the taxes related to one time charges for this invoice.
 
 ### Return Values
 decimal
+

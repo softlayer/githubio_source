@@ -431,3 +431,11 @@ This example includes a combination of the above examples in a single order. Not
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Product_Order_Receipt'>SoftLayer_Container_Product_Order_Receipt </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Product_Order::verifyOrder](/reference/services/SoftLayer_Product_Order/verifyOrder )
+*  [SoftLayer_Product_Order::placeQuote](/reference/services/SoftLayer_Product_Order/placeQuote )
+*  [SoftLayer_Product_Order::getVlans](/reference/services/SoftLayer_Product_Order/getVlans )
+

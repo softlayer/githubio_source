@@ -28,3 +28,4 @@ Create a new vulnerability scan request. New scan requests are picked up every f
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request'>SoftLayer_Network_Security_Scanner_Request </a>
+

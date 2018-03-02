@@ -26,3 +26,4 @@ This method deletes an authentication IP address.
 
 ### Return Values
 boolean
+

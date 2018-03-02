@@ -26,3 +26,9 @@ Create Softlayer portal user VPN overrides.
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Service_Vpn_Overrides::createObject](/reference/services/SoftLayer_Network_Service_Vpn_Overrides/createObject )
+

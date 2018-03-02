@@ -27,3 +27,4 @@ Resume a virtual guest
 
 ### Return Values
 boolean
+

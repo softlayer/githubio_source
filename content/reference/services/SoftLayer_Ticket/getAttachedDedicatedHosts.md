@@ -30,3 +30,4 @@ Retrieve the Dedicated Hosts associated with a ticket. This is used in cases whe
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_DedicatedHost'>SoftLayer_Virtual_DedicatedHost[] </a>
+

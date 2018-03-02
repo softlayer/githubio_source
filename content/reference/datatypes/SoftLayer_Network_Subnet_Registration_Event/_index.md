@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Each time a [[SoftLayer_Network_Subnet_Registration|subnet registration]] object is created or modified, the system will generate an event for it. Additional actions that would create an event include RIR responses and error cases. * 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -76,6 +81,7 @@ Each time a [[SoftLayer_Network_Subnet_Registration|subnet registration]] object
             <div class='views-field-body'>The type of this event. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Event_Type'>SoftLayer_Network_Subnet_Registration_Event_Type </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

@@ -30,3 +30,4 @@ Retrieve a server's power supply.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>
+

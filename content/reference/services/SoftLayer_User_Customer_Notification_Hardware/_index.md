@@ -23,7 +23,9 @@ classes:
 This service represents the link between a monitored hardware instance, and a user account. 
 
 When a monitoring service on that hardware instance fails and the monitor is set to "notify users," any users linked to that hardware instance using this service will be notified of the failure. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

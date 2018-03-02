@@ -27,3 +27,4 @@ Retrieve the contents of the file attached to a SoftLayer event by it's given id
 
 ### Return Values
 binary data
+

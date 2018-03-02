@@ -26,3 +26,10 @@ Retrieve a graph of a SoftLayer datacenter's last 48 hours of network activity. 
 
 ### Return Values
 binary data
+
+### External Links
+
+
+* [Portable Network Graphics at Wikipedia](http://en.wikipedia.org/wiki/Portable_Network_Graphics)
+
+

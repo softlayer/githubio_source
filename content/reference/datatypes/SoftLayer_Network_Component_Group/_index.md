@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,6 +50,12 @@ classes:
             <span class='views-field-title'><a href="#networkComponents" name=networkComponents>networkComponents</a></span>
             <div class='views-field-body'>A network component group's associated network components. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#networkComponentCount" name=networkComponentCount>networkComponentCount</a></span>
+            <div class='views-field-body'>A count of a network component group's associated network components. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

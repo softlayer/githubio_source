@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Container_Authentication_Response_AccountIdMissing data type contains information for specific responses from the getPortalLogin API. This class is indicative of a request that is missing the account id. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

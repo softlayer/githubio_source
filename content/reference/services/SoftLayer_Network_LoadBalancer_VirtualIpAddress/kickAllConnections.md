@@ -26,3 +26,4 @@ Quickly remove all active external connections to a Virtual IP Address.
 
 ### Return Values
 boolean
+

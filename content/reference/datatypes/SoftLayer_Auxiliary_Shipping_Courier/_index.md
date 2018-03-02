@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Auxiliary_Shipping_Courier data type contains general information relating the different (major) couriers that SoftLayer may use for shipping. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

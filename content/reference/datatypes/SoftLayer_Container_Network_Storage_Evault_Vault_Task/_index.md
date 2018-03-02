@@ -25,6 +25,23 @@ SoftLayer's StorageLayer Evault services provides details regarding the the purc
 When a job is created using the Webcc Console, the job created is identified as a task on the vault. Using this service, information regarding the task can be retrieved. 
 
 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Storage_Backup_Evault::getBackupJobDetails](/reference/services/SoftLayer_Network_Storage_Backup_Evault/getBackupJobDetails )
+*  [SoftLayer_Network_Storage_Backup_Evault::getRestoreJobDetails](/reference/services/SoftLayer_Network_Storage_Backup_Evault/getRestoreJobDetails )
+*  [SoftLayer_Network_Storage_Backup_Evault::getAgentStatuses](/reference/services/SoftLayer_Network_Storage_Backup_Evault/getAgentStatuses )
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_Storage](/reference/datatypes/SoftLayer_Network_Storage )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

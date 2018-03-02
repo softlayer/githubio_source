@@ -29,3 +29,4 @@ Retrieve the next SoftLayer_Product_Item in the upgrade path for this order item
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>
+

@@ -28,3 +28,9 @@ Edit multiple [[SoftLayer_Account_Regional_Registry_Detail_Property]] objects.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property'>SoftLayer_Account_Regional_Registry_Detail_Property[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Account_Regional_Registry_Detail_Property::createObject](/reference/services/SoftLayer_Account_Regional_Registry_Detail_Property/createObject )
+

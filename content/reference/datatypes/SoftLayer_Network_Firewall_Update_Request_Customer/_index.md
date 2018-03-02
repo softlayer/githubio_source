@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 A SoftLayer_Ticket_Update_Customer is a single update made by a customer to a ticket. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -105,6 +110,12 @@ A SoftLayer_Ticket_Update_Customer is a single update made by a customer to a ti
             <span class='views-field-title'><a href="#rules" name=rules>rules</a></span>
             <div class='views-field-body'>The group of rules contained within the update request. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request_Rule'>SoftLayer_Network_Firewall_Update_Request_Rule[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#ruleCount" name=ruleCount>ruleCount</a></span>
+            <div class='views-field-body'>A count of the group of rules contained within the update request. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

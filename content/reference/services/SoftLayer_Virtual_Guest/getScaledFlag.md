@@ -29,3 +29,4 @@ Retrieve whether or not this guest is a member of a scale group and was automati
 
 ### Return Values
 boolean
+

@@ -29,3 +29,4 @@ Retrieve whether or not a user must take a brief survey the next time they log i
 
 ### Return Values
 boolean
+

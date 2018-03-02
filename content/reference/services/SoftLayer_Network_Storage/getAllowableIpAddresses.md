@@ -31,3 +31,4 @@ This method retrieves a list of SoftLayer_Network_Subnet_IpAddress that can be a
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>
+

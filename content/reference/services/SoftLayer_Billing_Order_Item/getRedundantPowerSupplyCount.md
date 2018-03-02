@@ -29,3 +29,4 @@ Retrieve a count of power supplies contained within this SoftLayer_Billing_Order
 
 ### Return Values
 unsigned integer
+

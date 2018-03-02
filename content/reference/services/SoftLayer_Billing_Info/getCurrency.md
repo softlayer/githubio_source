@@ -29,3 +29,4 @@ Retrieve currency to be used by this customer account.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a>
+

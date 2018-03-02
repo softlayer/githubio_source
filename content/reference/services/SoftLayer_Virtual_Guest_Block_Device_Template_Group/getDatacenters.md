@@ -30,3 +30,4 @@ Retrieve a collection of locations containing a copy of this image template grou
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+

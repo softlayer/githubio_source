@@ -29,3 +29,4 @@ Retrieve the flag to indicate if there are any restricted prices in a package fo
 
 ### Return Values
 boolean
+

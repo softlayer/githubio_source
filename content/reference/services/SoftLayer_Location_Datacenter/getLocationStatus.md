@@ -29,3 +29,4 @@ Retrieve the current locations status.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location_Status'>SoftLayer_Location_Status </a>
+

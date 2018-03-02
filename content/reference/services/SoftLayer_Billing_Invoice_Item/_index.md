@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Every invoice item is defined in the SoftLayer_Billing_Invoice_Item service. Softlayer billing invoice items have details about the items that reside within an invoice. These items detail, for instance, the recurring and one time charges for each item billed. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

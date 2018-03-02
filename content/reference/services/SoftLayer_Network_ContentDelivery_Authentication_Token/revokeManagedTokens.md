@@ -30,3 +30,4 @@ Deletes multiple managed tokens
 
 ### Return Values
 boolean
+

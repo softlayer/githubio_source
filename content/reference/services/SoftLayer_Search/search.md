@@ -41,3 +41,4 @@ A collection of available object types can be retrieved by calling the <b>[[Soft
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Search_Result'>SoftLayer_Container_Search_Result[] </a>
+

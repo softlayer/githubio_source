@@ -26,3 +26,4 @@ Mark a ticket as viewed.  All currently posted updates will be marked as viewed.
 
 ### Return Values
 void
+

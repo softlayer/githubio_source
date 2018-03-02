@@ -29,3 +29,4 @@ Retrieve whether or not a network storage volume may be mounted.
 
 ### Return Values
 string
+

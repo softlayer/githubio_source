@@ -29,3 +29,4 @@ Retrieve the IP address of a Storage resource.
 
 ### Return Values
 string
+

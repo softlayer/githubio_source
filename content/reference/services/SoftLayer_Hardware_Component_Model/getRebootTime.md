@@ -29,3 +29,4 @@ Retrieve a motherboard's average reboot time.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component_Motherboard_Reboot_Time'>SoftLayer_Hardware_Component_Motherboard_Reboot_Time </a>
+

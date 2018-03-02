@@ -29,3 +29,4 @@ Retrieve the associated RWhois handle of this detail object. Used only when deta
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account_Rwhois_Handle'>SoftLayer_Account_Rwhois_Handle </a>
+

@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Hardware_Component_Partition data type contains general information relating to a single hard drive partition. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +71,7 @@ The SoftLayer_Hardware_Component_Partition data type contains general informatio
             <div class='views-field-body'>A hardware component partitions's associated [[SoftLayer_Hardware_Component|Hardware Component]]. Likely to be a [[SoftLayer_Hardware_Component_HardDrive|Hard Drive]] </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

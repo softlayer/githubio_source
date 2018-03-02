@@ -29,3 +29,4 @@ Retrieve datacenter, where load balancer is located.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+

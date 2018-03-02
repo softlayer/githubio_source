@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Security_Certificate_Request
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Security_Certificate_Request' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Security_Certificate_Request' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Security_Certificate_Request' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 SoftLayer_Security_Certificate_Request data type is used to harness your SSL certificate order to a Certificate Authority. This contains data that is required by a Certificate Authority to place an SSL certificate order. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -116,6 +121,7 @@ SoftLayer_Security_Certificate_Request data type is used to harness your SSL cer
             <div class='views-field-body'>The status of a SSL certificate request. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Security_Certificate_Request_Status'>SoftLayer_Security_Certificate_Request_Status </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

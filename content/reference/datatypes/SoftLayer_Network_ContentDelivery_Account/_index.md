@@ -13,12 +13,32 @@ classes:
 # SoftLayer_Network_ContentDelivery_Account
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_ContentDelivery_Account' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Account' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Account' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_ContentDelivery_Account data type models an individual CDN account. CDN accounts contain references to the SoftLayer customer account they belong to, login credentials for upload services, and a CDN account's status. Please contact SoftLayer sales to purchase or cancel a CDN account 
+
+### External Links
+
+
+* [Content delivery network at Wikipedia](http://en.wikipedia.org/wiki/Content_delivery_network)
+
+
+* [CDN Services at softlayer.com](http://knowledgelayer.softlayer.com/topic/cdn)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Account::getCdnAccounts](/reference/services/SoftLayer_Account/getCdnAccounts )
+*  [SoftLayer_Network_ContentDelivery_Account::getObject](/reference/services/SoftLayer_Network_ContentDelivery_Account/getObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -120,6 +140,12 @@ The SoftLayer_Network_ContentDelivery_Account data type models an individual CDN
             <span class='views-field-title'><a href="#tokenAuthenticationEnabledFlag" name=tokenAuthenticationEnabledFlag>tokenAuthenticationEnabledFlag</a></span>
             <div class='views-field-body'>Indicates if the token authentication service is enabled or not. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#authenticationIpAddressCount" name=authenticationIpAddressCount>authenticationIpAddressCount</a></span>
+            <div class='views-field-body'>A count of the IP addresses that are used for the content authentication service. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

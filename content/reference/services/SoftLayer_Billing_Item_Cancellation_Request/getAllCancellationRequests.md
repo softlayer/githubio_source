@@ -33,3 +33,4 @@ Make sure to include the "resultLimit" in the SOAP request header for quicker re
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request'>SoftLayer_Billing_Item_Cancellation_Request[] </a>
+

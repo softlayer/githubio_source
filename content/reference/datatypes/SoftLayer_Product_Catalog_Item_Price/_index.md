@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Product_Catalog_Item_Price type assigns an Item Price to a Catalog. This relation defines the composition of Item Prices in a Catalog. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +71,7 @@ The SoftLayer_Product_Catalog_Item_Price type assigns an Item Price to a Catalog
             <div class='views-field-body'>Price being assigned </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

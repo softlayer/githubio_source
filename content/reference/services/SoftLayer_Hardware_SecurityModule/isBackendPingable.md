@@ -26,3 +26,4 @@ Issues a ping command and returns the success (true) or failure (false) of the p
 
 ### Return Values
 boolean
+

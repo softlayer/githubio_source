@@ -26,3 +26,4 @@ This method will create a bulk transaction to update any registrations that refe
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_Subnet_Registration_TransactionDetails'>SoftLayer_Container_Network_Subnet_Registration_TransactionDetails </a>
+

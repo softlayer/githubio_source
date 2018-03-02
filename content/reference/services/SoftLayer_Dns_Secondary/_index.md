@@ -23,20 +23,26 @@ SoftLayer's secondary DNS service allows you to use SoftLayer's name servers as 
 The secondary DNS service also provides the ability to manually initiate a zone transfer through the [[SoftLayer_Dns_Secondary::transferNow]] method. The daemon that performs zone transfers runs once a minute, therefore it could take a full minute for the zone transfer to be completed. 
 
 Secondary DNS transfers may periodically generate notification or error messages. Please use the [[SoftLayer_Dns_Message]] service to retrieve these notifications. 
-### external links
-        Array
-(
-    [url] => http://en.wikipedia.org/wiki/DNS_zone_transfer
-    [description] => DNS Zone Transfer at Wikipedia.
-)
-1        Array
-(
-    [url] => http://knowledgelayer.softlayer.com/questions/478
-    [description] => Secondary Domains at KnowledgeLayer
-)
-1        
+
+### External Links
+
+
+* [DNS Zone Transfer at Wikipedia.](http://en.wikipedia.org/wiki/DNS_zone_transfer)
+
+
+* [Secondary Domains at KnowledgeLayer](http://knowledgelayer.softlayer.com/questions/478)
+
+
+
+
 ### seeAlso
-        SoftLayer_Dns_Domain1        SoftLayer_Dns_Message1                
+
+* [SoftLayer_Dns_Domain](/reference/datatypes/SoftLayer_Dns_Domain )
+
+
+* [SoftLayer_Dns_Message](/reference/datatypes/SoftLayer_Dns_Message )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

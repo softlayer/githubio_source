@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Network_SecurityGroup_OrderBinding data type contains links between security groups and product orders. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -71,6 +76,7 @@ The SoftLayer_Network_SecurityGroup_OrderBinding data type contains links betwee
             <div class='views-field-body'>The security group associated with the order </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

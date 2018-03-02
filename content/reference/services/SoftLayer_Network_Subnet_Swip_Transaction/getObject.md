@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Network_Subnet_Swip_Transaction object whose I
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet_Swip_Transaction'>SoftLayer_Network_Subnet_Swip_Transaction </a>
+

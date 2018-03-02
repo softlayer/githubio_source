@@ -26,3 +26,4 @@ This method deletes an existing layout profile and associated custom preferences
 
 ### Return Values
 boolean
+

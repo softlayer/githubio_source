@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Processes requests by IBM employees to create an IaaS account tied to their email. Request process cannot be initiated directly and must go through the Bluemix IBMer account request form. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

@@ -13,12 +13,28 @@ classes:
 # SoftLayer_Billing_Invoice
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Billing_Invoice' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Invoice' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Invoice' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Billing_Invoice data type contains general information relating to an individual invoice applied to a SoftLayer customer account. Personal information in this type such as names, addresses, and phone numbers are taken from the account's contact information at the time the invoice is generated. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Billing_Invoice::getObject](/reference/services/SoftLayer_Billing_Invoice/getObject )
+*  [SoftLayer_Account::getInvoices](/reference/services/SoftLayer_Account/getInvoices )
+
+
+
+### seeAlso
+
+* [SoftLayer_Account (type)](/reference/datatypes/SoftLayer_Account (type) )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -265,6 +281,27 @@ The SoftLayer_Billing_Invoice data type contains general information relating to
             <span class='views-field-title'><a href="#taxType" name=taxType>taxType</a></span>
             <div class='views-field-body'>This is the strategy used to calculate tax on this invoice. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Type'>SoftLayer_Billing_Invoice_Tax_Type </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#invoiceTopLevelItemCount" name=invoiceTopLevelItemCount>invoiceTopLevelItemCount</a></span>
+            <div class='views-field-body'>A count of a list of top-level invoice items that are on the currently pending invoice. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#itemCount" name=itemCount>itemCount</a></span>
+            <div class='views-field-body'>A count of the items that belong to this invoice. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#paymentCount" name=paymentCount>paymentCount</a></span>
+            <div class='views-field-body'>A count of the payments for the invoice. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#taxInfoHistoryCount" name=taxInfoHistoryCount>taxInfoHistoryCount</a></span>
+            <div class='views-field-body'>A count of this is the set of tax information for any tax calculation for this invoice. Note that not all of these are necessarily official, so use the taxInfo key to get the final information. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -26,3 +26,9 @@ Retrieve a PDF record of a SoftLayer quote. If the order is not a quote, an erro
 
 ### Return Values
 binary data
+
+
+### associatedMethods
+
+*  [SoftLayer_Billing_Order_Quote::getPdf](/reference/services/SoftLayer_Billing_Order_Quote/getPdf )
+

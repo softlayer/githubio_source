@@ -29,3 +29,4 @@ Retrieve the average daily private bandwidth usage for the current billing cycle
 
 ### Return Values
 float
+

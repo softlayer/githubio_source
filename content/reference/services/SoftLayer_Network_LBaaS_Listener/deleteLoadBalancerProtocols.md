@@ -29,3 +29,4 @@ Delete load balancers front- and backend protocols and return load balancer obje
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancer'>SoftLayer_Network_LBaaS_LoadBalancer </a>
+

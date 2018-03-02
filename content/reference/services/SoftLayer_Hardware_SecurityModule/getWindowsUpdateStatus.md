@@ -26,3 +26,10 @@ This method returns an update status record for this server.  That record will s
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Utility_Microsoft_Windows_UpdateServices_Status'>SoftLayer_Container_Utility_Microsoft_Windows_UpdateServices_Status </a>
+
+### External Links
+
+
+* [Windows Server Update Services (WSUS) Home](http://technet.microsoft.com/en-us/wsus/default.aspx)
+
+

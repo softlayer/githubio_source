@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 SoftLayer_Container_Network_Directory_Listing represents a single entry in a listing of files within a remote directory. API methods that return remote directory listings typically return arrays of SoftLayer_Container_Network_Directory_Listing objects. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::getDirectoryListing](/reference/services/SoftLayer_Network_ContentDelivery_Account/getDirectoryListing )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

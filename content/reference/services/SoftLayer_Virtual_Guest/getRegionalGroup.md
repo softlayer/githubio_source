@@ -29,3 +29,4 @@ Retrieve the regional group this guest is in.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location_Group_Regional'>SoftLayer_Location_Group_Regional </a>
+

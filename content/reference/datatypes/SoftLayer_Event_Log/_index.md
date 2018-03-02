@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Event_Log
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Event_Log' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Event_Log' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Event_Log' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Event_Log data type contains an event detail occurred upon various SoftLayer resources. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -111,6 +116,7 @@ The SoftLayer_Event_Log data type contains an event detail occurred upon various
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

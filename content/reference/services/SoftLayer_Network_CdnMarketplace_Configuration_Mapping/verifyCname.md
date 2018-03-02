@@ -26,3 +26,4 @@ Verifies the CNAME is Unique in the domain. The method will return true if CNAME
 
 ### Return Values
 boolean
+

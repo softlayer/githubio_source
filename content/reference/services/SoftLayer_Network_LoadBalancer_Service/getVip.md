@@ -29,3 +29,4 @@ Retrieve the load balancer that this service belongs to.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_LoadBalancer_VirtualIpAddress </a>
+

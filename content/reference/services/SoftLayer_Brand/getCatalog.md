@@ -29,3 +29,4 @@ Retrieve the Product Catalog for the Brand
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Catalog'>SoftLayer_Product_Catalog </a>
+

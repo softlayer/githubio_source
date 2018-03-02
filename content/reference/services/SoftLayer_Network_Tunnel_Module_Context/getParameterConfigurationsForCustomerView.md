@@ -26,3 +26,9 @@ All of the IPSec VPN tunnel's configurations will be returned.  It will list all
 
 ### Return Values
 string
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Tunnel_Module_Context::downloadParameterConfigurations](/reference/services/SoftLayer_Network_Tunnel_Module_Context/downloadParameterConfigurations )
+

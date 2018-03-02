@@ -21,6 +21,30 @@ classes:
 SoftLayer_Dns_Domain_ResourceRecord_CnameType is a SoftLayer_Dns_Domain_ResourceRecord object whose ''type'' property is set to "cname" and defines a DNS CNAME record on a SoftLayer hosted domain. A CNAME record directs a host name to another host. For instance, if the CNAME record for "alias.example.org" points to the host "host.example.org" then the ''host'' property equals "alias" and the ''data'' property equals "host.example.org.". 
 
 DNS entries defined by CNAME should not be used as the data field for an MX record. 
+
+### External Links
+
+
+* [List of DNS record types at Wikipedia](http://en.wikipedia.org/wiki/List_of_DNS_record_types)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain::createCnameRecord](/reference/services/SoftLayer_Dns_Domain/createCnameRecord )
+
+
+
+### seeAlso
+
+* [SoftLayer_Dns_Domain](/reference/datatypes/SoftLayer_Dns_Domain )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -103,6 +127,7 @@ DNS entries defined by CNAME should not be used as the data field for an MX reco
             <div class='views-field-body'>The domain that a resource record belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

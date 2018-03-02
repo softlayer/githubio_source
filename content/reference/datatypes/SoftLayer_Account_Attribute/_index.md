@@ -19,6 +19,24 @@ classes:
 
 ## Description 
 Many SoftLayer customer accounts have individual attributes assigned to them that describe features or special features for that account, such as special pricing, account statuses, and ordering instructions. The SoftLayer_Account_Attribute data type contains information relating to a single SoftLayer_Account attribute. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Account::getAttributes](/reference/services/SoftLayer_Account/getAttributes )
+
+
+
+### seeAlso
+
+* [SoftLayer_Account](/reference/datatypes/SoftLayer_Account )
+
+
+* [SoftLayer_Account_Attribute_Type](/reference/datatypes/SoftLayer_Account_Attribute_Type )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +84,7 @@ Many SoftLayer customer accounts have individual attributes assigned to them tha
             <div class='views-field-body'>The type of attribute assigned to a SoftLayer customer account. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account_Attribute_Type'>SoftLayer_Account_Attribute_Type </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

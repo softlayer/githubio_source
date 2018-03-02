@@ -29,3 +29,4 @@ Retrieve the total cost of a server, measured in US Dollars ($USD).
 
 ### Return Values
 float
+

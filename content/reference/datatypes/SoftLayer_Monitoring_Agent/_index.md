@@ -13,12 +13,22 @@ classes:
 # SoftLayer_Monitoring_Agent
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Monitoring_Agent' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Monitoring_Agent' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Monitoring_Agent' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 A monitoring agent object contains information describing the agent. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Monitoring_Agent::getObject](/reference/services/SoftLayer_Monitoring_Agent/getObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -120,6 +130,17 @@ A monitoring agent object contains information describing the agent.
             <span class='views-field-title'><a href="#virtualGuest" name=virtualGuest>virtualGuest</a></span>
             <div class='views-field-body'>Softlayer_Virtual_Guest object related to the monitoring agent, which this virtual guest object and hardware is on the server of the running agent. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#configurationProfileCount" name=configurationProfileCount>configurationProfileCount</a></span>
+            <div class='views-field-body'>A count of all custom configuration profiles associated with the corresponding agent </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#configurationValueCount" name=configurationValueCount>configurationValueCount</a></span>
+            <div class='views-field-body'>A count of the values associated with the corresponding Agent configuration. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

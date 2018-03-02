@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 SoftLayer_Container_Network_ContentDelivery_Authentication_Directory represents a token authentication directory on your CDN FTP or on your origin server. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::getAuthenticationDirectories](/reference/services/SoftLayer_Network_ContentDelivery_Account/getAuthenticationDirectories )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

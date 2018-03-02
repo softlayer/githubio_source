@@ -30,3 +30,4 @@ Retrieve the list of secure transport protocols enabled for this virtual IP addr
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress_SecureTransportProtocol'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress_SecureTransportProtocol[] </a>
+

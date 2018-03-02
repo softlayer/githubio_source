@@ -29,3 +29,4 @@ Retrieve a flag indicating that the virtual guest is a managed resource.
 
 ### Return Values
 boolean
+

@@ -30,3 +30,4 @@ Retrieve the hard drives contained within a piece of hardware.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>
+

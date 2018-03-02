@@ -29,3 +29,9 @@ editObject edits an existing domain resource record. The ''host'' property of th
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_ResourceRecord::editObjects](/reference/services/SoftLayer_Dns_ResourceRecord/editObjects )
+

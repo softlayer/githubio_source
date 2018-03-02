@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 This datatype is to be used for ordering object storage products using the object_storage [[SoftLayer_Product_Item_Category|category]]. For object storage products using hub [[SoftLayer_Product_Item_Category|category]] use the [[SoftLayer_Container_Product_Order_Network_Storage_Hub]] order container. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

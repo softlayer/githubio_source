@@ -29,3 +29,4 @@ Recent metric data for a guest
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object[] </a>
+

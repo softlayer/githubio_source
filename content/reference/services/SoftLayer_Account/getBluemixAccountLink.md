@@ -28,3 +28,4 @@ Retrieve the Bluemix account link associated with this SoftLayer account, if one
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account_Link_Bluemix'>SoftLayer_Account_Link_Bluemix </a>
+

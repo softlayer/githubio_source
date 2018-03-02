@@ -30,3 +30,4 @@ Retrieve the SoftLayer_Network_Subnet_IpAddress objects which are allowed access
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>
+

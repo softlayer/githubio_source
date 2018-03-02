@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Hardware_Component_Type data type provides details on the type of component requested 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -65,6 +70,12 @@ The SoftLayer_Hardware_Component_Type data type provides details on the type of 
             <span class='views-field-title'><a href="#typeParent" name=typeParent>typeParent</a></span>
             <div class='views-field-body'>The parent generic component model object for this generic component model object. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Type'>SoftLayer_Hardware_Component_Type </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#hardwareGenericComponentModelCount" name=hardwareGenericComponentModelCount>hardwareGenericComponentModelCount</a></span>
+            <div class='views-field-body'>A count of the generic component model description for this component type object. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

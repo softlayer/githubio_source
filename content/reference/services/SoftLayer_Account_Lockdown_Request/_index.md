@@ -25,7 +25,9 @@ Disconnecting a customer will disable all hardware resources (servers and virtua
 Reconnecting a customer will restore all previously disconnected public access. The original lockdown event will be closed. 
 
 Disabling an account is a PERMANENT action. All billable items under the account will be canceled, access to the control portal, all resources, network access and hardware will be permanently disabled and reclaimed. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

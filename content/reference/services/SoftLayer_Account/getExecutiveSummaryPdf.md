@@ -29,3 +29,4 @@ This method will return a PDF of the specified report, with the specified period
 
 ### Return Values
 binary data
+

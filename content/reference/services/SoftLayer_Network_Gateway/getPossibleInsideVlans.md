@@ -28,3 +28,4 @@ Get all VLANs that can become inside VLANs on this gateway. This means the VLAN 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a>
+

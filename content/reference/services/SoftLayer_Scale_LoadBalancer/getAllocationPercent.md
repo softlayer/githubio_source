@@ -29,3 +29,4 @@ Retrieve the percentage of connections allocated to this virtual server.
 
 ### Return Values
 integer
+

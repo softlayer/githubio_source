@@ -29,3 +29,4 @@ Retrieve the SoftLayer_Virtual_Guest object which this SoftLayer_Network_Storage
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
+

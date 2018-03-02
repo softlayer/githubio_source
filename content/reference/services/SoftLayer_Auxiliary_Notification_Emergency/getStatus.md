@@ -29,3 +29,4 @@ Retrieve the status of this notification.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency_Status'>SoftLayer_Auxiliary_Notification_Emergency_Status </a>
+

@@ -30,3 +30,4 @@ Retrieve the [[SoftLayer_Virtual_Disk_Image|disk images]] that are in a storage 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image[] </a>
+

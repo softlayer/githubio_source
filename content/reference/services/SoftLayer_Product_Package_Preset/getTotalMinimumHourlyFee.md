@@ -29,3 +29,4 @@ Retrieve the starting hourly price for this configuration. Additional options no
 
 ### Return Values
 decimal
+

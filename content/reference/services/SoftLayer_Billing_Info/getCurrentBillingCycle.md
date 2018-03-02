@@ -29,3 +29,4 @@ Retrieve information related to an account's current and previous billing cycles
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Info_Cycle'>SoftLayer_Billing_Info_Cycle </a>
+

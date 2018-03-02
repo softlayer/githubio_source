@@ -23,7 +23,9 @@ A monitoring robot is a set of essential agents that lets SoftLayer monitoring m
 A monitoring robot must be installed in order for any monitoring agent to report monitoring data to a SoftLayer monitoring hub system. 
 
 TCP ports from 48000 to 48020 should be open on your server or cloud instance for advanced monitoring robots and agents. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

@@ -36,3 +36,9 @@ If reloading from an image template, we recommend first getting the list of vali
 
 ### Return Values
 string
+
+
+### associatedMethods
+
+*  [SoftLayer_Account::getOperatingSystemReloadImages](/reference/services/SoftLayer_Account/getOperatingSystemReloadImages )
+

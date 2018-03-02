@@ -30,3 +30,4 @@ Retrieve all ip addresses associated with a subnet.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet_IpAddress'>SoftLayer_Network_Customer_Subnet_IpAddress[] </a>
+

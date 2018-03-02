@@ -30,3 +30,4 @@ Retrieve a collection of users impacted by this event. Each impacted user record
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Notification_Occurrence_User'>SoftLayer_Notification_Occurrence_User[] </a>
+

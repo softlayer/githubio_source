@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Each package has at least 1 step to the ordering process. For server orders, there are many. Each step has certain item categories which are displayed. This type describes the steps for each package. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -60,6 +65,22 @@ Each package has at least 1 step to the ordering process. For server orders, the
             <span class='views-field-title'><a href="#previousSteps" name=previousSteps>previousSteps</a></span>
             <div class='views-field-body'>The item to which this object belongs. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Package_Order_Step_Next'>SoftLayer_Product_Package_Order_Step_Next[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#inclusivePreviousStepCount" name=inclusivePreviousStepCount>inclusivePreviousStepCount</a></span>
+            <div class='views-field-body'>A count of the next steps in the ordering process for the package tied to this object, including this step. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#nextStepCount" name=nextStepCount>nextStepCount</a></span>
+            <div class='views-field-body'>A count of the next steps in the ordering process for the package tied to this object. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#previousStepCount" name=previousStepCount>previousStepCount</a></span>
+            <div class='views-field-body'>A count of the item to which this object belongs. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -30,3 +30,4 @@ Retrieve information regarding a piece of hardware's processors.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>
+

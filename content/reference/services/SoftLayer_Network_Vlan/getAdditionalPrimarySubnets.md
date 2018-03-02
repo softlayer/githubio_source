@@ -30,3 +30,4 @@ Retrieve a VLAN's additional primary subnets. These are used to extend the numbe
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+

@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Layout_Profile_Preference
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Layout_Profile_Preference' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Layout_Profile_Preference' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Layout_Profile_Preference' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Layout_Profile_Preference contains definitions for layout preferences 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -96,6 +101,7 @@ The SoftLayer_Layout_Profile_Preference contains definitions for layout preferen
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Layout_Profile'>SoftLayer_Layout_Profile </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

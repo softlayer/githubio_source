@@ -27,3 +27,4 @@ Edit a computing instance's properties
 
 ### Return Values
 boolean
+

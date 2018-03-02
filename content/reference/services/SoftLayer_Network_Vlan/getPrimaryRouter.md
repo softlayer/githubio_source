@@ -29,3 +29,4 @@ Retrieve the primary router that a VLAN is associated with. Every SoftLayer VLAN
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Router'>SoftLayer_Hardware_Router </a>
+

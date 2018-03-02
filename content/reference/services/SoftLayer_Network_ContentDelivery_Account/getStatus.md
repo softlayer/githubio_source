@@ -29,3 +29,4 @@ Retrieve a CDN account's status presented in a more detailed data type.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Account_Status'>SoftLayer_Network_ContentDelivery_Account_Status </a>
+

@@ -29,3 +29,4 @@ Retrieve the type of the permission group.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Permission_Group_Type'>SoftLayer_User_Permission_Group_Type </a>
+

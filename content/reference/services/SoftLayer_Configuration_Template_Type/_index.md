@@ -23,7 +23,9 @@ classes:
 SoftLayer_Configuration_Template_Type defines the types of configuration template. 
 
 Template types can be custom, default and so on. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Billing_Invoice_Receivable_Payment data type contains general information relating to payments made against invoices. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -91,6 +96,7 @@ The SoftLayer_Billing_Invoice_Receivable_Payment data type contains general info
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Payment_PayPal_Transaction'>SoftLayer_Billing_Payment_PayPal_Transaction </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

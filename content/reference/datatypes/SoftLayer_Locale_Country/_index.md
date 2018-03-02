@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Locale_Country
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Locale_Country' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Locale_Country' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Locale_Country' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -75,6 +80,12 @@ classes:
             <span class='views-field-title'><a href="#states" name=states>states</a></span>
             <div class='views-field-body'>States that belong to this country. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Locale_StateProvince'>SoftLayer_Locale_StateProvince[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#stateCount" name=stateCount>stateCount</a></span>
+            <div class='views-field-body'>A count of states that belong to this country. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

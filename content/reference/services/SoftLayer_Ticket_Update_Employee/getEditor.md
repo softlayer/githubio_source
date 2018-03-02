@@ -29,3 +29,4 @@ Retrieve a representation of the SoftLayer employee who created a ticket update.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>
+

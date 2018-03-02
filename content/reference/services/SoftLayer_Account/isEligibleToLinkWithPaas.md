@@ -25,3 +25,4 @@ Returns true if this account is eligible to link with PaaS. False otherwise.
 
 ### Return Values
 boolean
+

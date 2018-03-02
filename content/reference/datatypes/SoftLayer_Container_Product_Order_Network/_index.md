@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 This type contains the structure of network-related objects that may be specified when ordering services. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

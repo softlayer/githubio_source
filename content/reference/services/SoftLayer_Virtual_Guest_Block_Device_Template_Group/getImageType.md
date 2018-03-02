@@ -29,3 +29,4 @@ Retrieve the virtual disk image type of this template. Value will be populated o
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Type'>SoftLayer_Virtual_Disk_Image_Type </a>
+

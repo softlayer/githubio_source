@@ -30,3 +30,4 @@ Retrieve the volume replication events.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage_Event'>SoftLayer_Network_Storage_Event[] </a>
+

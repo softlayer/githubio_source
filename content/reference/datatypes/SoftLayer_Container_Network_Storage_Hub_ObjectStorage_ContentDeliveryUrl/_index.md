@@ -19,6 +19,21 @@ classes:
 
 ## Description 
 SoftLayer_Container_Network_Storage_Hub_ObjectStorage_ContentDeliveryUrl provides specific details is a container which contains the cdn urls associated with an object storage account 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Storage_Hub_Swift_Version1::getCdnUrls](/reference/services/SoftLayer_Network_Storage_Hub_Swift_Version1/getCdnUrls )
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_Storage_Hub_Swift_Version1](/reference/datatypes/SoftLayer_Network_Storage_Hub_Swift_Version1 )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

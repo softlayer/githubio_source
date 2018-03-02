@@ -29,3 +29,4 @@ Retrieve the projected public outbound bandwidth for this hardware for the curre
 
 ### Return Values
 float
+

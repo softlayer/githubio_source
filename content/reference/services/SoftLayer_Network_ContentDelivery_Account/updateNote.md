@@ -27,3 +27,4 @@ This method allows you to edit CDN account note. The maximum length for CDN acco
 
 ### Return Values
 boolean
+

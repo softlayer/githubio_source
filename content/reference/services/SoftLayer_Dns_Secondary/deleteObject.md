@@ -26,3 +26,4 @@ Delete a secondary DNS Record. This will also remove any associated domain recor
 
 ### Return Values
 boolean
+

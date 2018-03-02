@@ -26,3 +26,4 @@ The '''getPowerState''' method retrieves the power state for the selected server
 
 ### Return Values
 string
+

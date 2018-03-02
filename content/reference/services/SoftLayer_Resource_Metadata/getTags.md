@@ -24,3 +24,4 @@ The getTags method retrieves all tags associated with the resource. Tags are sin
 
 ### Return Values
 array of strings
+

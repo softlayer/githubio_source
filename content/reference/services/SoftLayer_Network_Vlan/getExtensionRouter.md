@@ -29,3 +29,4 @@ Retrieve the extension router that a VLAN is associated with.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Router'>SoftLayer_Hardware_Router </a>
+

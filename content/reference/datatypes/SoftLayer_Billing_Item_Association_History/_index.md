@@ -19,6 +19,23 @@ classes:
 
 ## Description 
 The SoftLayer_Billing_Item_Association_History type keeps a record of which server billing items an "orphan" item has been associated with. Orphan billing items are billable items for secondary portable services (such as secondary subnets and StorageLayer accounts) that are not associated with a server and appear at the bottom of a SoftLayer invoice. The [[SoftLayer_Billing_Item::setAssociationId]] method allows you to associate these kinds of items with servers, making them appear as a child item of the server on your invoice. A SoftLayer_Billing_Item_Association_History record is created every time one of these associations are set. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Billing_Item::getAssociatedBillingItemHistory](/reference/services/SoftLayer_Billing_Item/getAssociatedBillingItemHistory )
+*  [SoftLayer_Billing_Item::setAssociationId](/reference/services/SoftLayer_Billing_Item/setAssociationId )
+*  [SoftLayer_Billing_Item::removeAssociationId](/reference/services/SoftLayer_Billing_Item/removeAssociationId )
+
+
+
+### seeAlso
+
+* [SoftLayer_Billing_Item](/reference/datatypes/SoftLayer_Billing_Item )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +83,7 @@ The SoftLayer_Billing_Item_Association_History type keeps a record of which serv
             <div class='views-field-body'>The billing item that was associated with a server billing item. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

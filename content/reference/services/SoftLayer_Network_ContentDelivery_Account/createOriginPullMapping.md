@@ -44,3 +44,4 @@ gzip is supported if your web server sends a proper gzip header. For more detail
 
 ### Return Values
 boolean
+

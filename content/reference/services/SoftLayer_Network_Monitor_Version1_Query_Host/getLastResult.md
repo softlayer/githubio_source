@@ -29,3 +29,4 @@ Retrieve the most recent result for this particular monitoring instance.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Result'>SoftLayer_Network_Monitor_Version1_Query_Result </a>
+

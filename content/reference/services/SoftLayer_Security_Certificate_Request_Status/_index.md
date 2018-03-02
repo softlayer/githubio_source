@@ -23,7 +23,9 @@ SoftLayer_Security_Certificate_Request_Status indicates the status of your SSL c
 Once the certificate authority (CA) approves your order, the status will change to "Approved". Once your order is approved, you will receive your fulfillment email from the CA. The email will contain your SSL certificate. SoftLayer does not store your SSL certificate in our system. If you lose the email from your CA, you can have the fulfillment email sent again via the SoftLayer customer portal or by using [[SoftLayer_Security_Certificate_Request/resendEmail|resendEmail]]. Your approved order will be picked up by SoftLayer's billing system and it will complete the payment process. Finally, your order will change to "Complete" status when the payment process is successful. 
 
 There might be a chance that your SSL certificate order could rejected by a CA. Our automated system will put a rejected order into "Canceled" status. You can contact SoftLayer Support for more details. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

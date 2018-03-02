@@ -29,3 +29,4 @@ Retrieve a guest's operating system software description.
 
 ### Return Values
 string
+

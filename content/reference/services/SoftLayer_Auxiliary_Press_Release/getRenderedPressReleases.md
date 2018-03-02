@@ -30,3 +30,4 @@ Retrieve an array of SoftLayer_Auxiliary_Press_Release data types, which contain
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release'>SoftLayer_Auxiliary_Press_Release[] </a>
+

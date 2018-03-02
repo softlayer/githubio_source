@@ -29,3 +29,4 @@ Retrieve the network resource this group is created on.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Service_Resource'>SoftLayer_Network_Service_Resource </a>
+

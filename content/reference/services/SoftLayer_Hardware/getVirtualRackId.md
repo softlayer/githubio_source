@@ -29,3 +29,4 @@ Retrieve the name of the bandwidth allotment belonging to a piece of hardware.
 
 ### Return Values
 integer
+

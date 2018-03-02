@@ -29,3 +29,4 @@ Retrieve the billing items that will be on an account's next invoice. Does not c
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+

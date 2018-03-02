@@ -27,3 +27,4 @@ This method returns a file object given the file's full name.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_Storage_Hub_ObjectStorage_File'>SoftLayer_Container_Network_Storage_Hub_ObjectStorage_File </a>
+

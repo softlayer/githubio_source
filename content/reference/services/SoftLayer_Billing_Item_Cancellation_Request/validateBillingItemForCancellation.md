@@ -26,3 +26,4 @@ This method examined if a billing item is eligible for cancellation. It checks i
 
 ### Return Values
 boolean
+

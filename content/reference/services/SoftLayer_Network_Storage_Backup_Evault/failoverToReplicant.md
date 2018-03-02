@@ -27,3 +27,10 @@ Failover to a volume replicant.  During the time which the replicant is in use t
 
 ### Return Values
 boolean
+
+### External Links
+
+
+* [In depth details on storage replication at Wikipedia](http://en.wikipedia.org/wiki/Storage_replication#Disk_storage_replication)
+
+

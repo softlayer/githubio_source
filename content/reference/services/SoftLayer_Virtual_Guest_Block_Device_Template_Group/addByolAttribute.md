@@ -26,3 +26,4 @@ This method allows you to mark this image template as customer managed software 
 
 ### Return Values
 boolean
+

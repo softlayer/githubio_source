@@ -30,3 +30,4 @@ Retrieve all events for this IP address stored in the datacenter syslogs from th
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>
+

@@ -26,3 +26,4 @@ This function is used to create a new SoftLayer SWIP transaction to register you
 
 ### Return Values
 boolean
+

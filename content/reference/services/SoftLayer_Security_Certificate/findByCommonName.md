@@ -28,3 +28,4 @@ Locate certificates by their common name, traditionally a domain name.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Security_Certificate'>SoftLayer_Security_Certificate[] </a>
+

@@ -26,3 +26,4 @@ Attempt to complete a soft reboot of a guest by shutting down the operating syst
 
 ### Return Values
 boolean
+

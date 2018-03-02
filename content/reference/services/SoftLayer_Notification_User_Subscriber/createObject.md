@@ -46,3 +46,4 @@ For example to create a subscriber for a Storage EVault service to be notified 1
 
 ### Return Values
 boolean
+

@@ -30,3 +30,4 @@ Retrieve all VLANs trunked to this gateway.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Gateway_Vlan'>SoftLayer_Network_Gateway_Vlan[] </a>
+

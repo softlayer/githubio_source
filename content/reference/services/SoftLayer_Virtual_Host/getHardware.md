@@ -29,3 +29,4 @@ Retrieve the hardware record which a virtual host resides on.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Server'>SoftLayer_Hardware_Server </a>
+

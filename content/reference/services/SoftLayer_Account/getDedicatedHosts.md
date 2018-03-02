@@ -29,3 +29,4 @@ Retrieve an account's associated virtual dedicated host objects.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_DedicatedHost'>SoftLayer_Virtual_DedicatedHost[] </a>
+

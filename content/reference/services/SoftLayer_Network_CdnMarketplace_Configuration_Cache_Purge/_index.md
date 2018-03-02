@@ -19,7 +19,9 @@ classes:
 
 ## Description
 This service manages purges associated with a CDN mapping Configuration. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

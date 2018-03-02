@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Network_LBaaS_Listener
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_LBaaS_Listener' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_LBaaS_Listener' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_LBaaS_Listener' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_LBaaS_Listener type presents a data structure for a load balancers listener, also called frontend. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -86,6 +91,7 @@ The SoftLayer_Network_LBaaS_Listener type presents a data structure for a load b
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_Pool'>SoftLayer_Network_LBaaS_Pool </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

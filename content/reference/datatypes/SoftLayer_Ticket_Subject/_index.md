@@ -13,12 +13,32 @@ classes:
 # SoftLayer_Ticket_Subject
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Ticket_Subject' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Ticket_Subject' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Ticket_Subject' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Ticket_Subject data type models one of the possible subjects that a standard support ticket may belong to. A basic support ticket's title matches it's corresponding subject's name. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Ticket_Subject::getObject](/reference/services/SoftLayer_Ticket_Subject/getObject )
+*  [SoftLayer_Ticket_Subject::getAllObjects](/reference/services/SoftLayer_Ticket_Subject/getAllObjects )
+*  [SoftLayer_Ticket::getSubject](/reference/services/SoftLayer_Ticket/getSubject )
+
+
+
+### seeAlso
+
+* [SoftLayer_Ticket (type)](/reference/datatypes/SoftLayer_Ticket (type) )
+
+
+* [SoftLayer_Ticket_Subject](/reference/datatypes/SoftLayer_Ticket_Subject )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -75,6 +95,12 @@ The SoftLayer_Ticket_Subject data type models one of the possible subjects that 
             <span class='views-field-title'><a href="#parent" name=parent>parent</a></span>
             <div class='views-field-body'>A parent subject </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#childrenCount" name=childrenCount>childrenCount</a></span>
+            <div class='views-field-body'>A count of a child subject </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

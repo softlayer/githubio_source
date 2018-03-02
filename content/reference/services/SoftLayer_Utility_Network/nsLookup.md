@@ -27,3 +27,17 @@ A method used to return the nameserver information for a given address
 
 ### Return Values
 string
+
+### External Links
+
+
+* [nslookup at Wikipedia](http://en.wikipedia.org/wiki/Nslookup)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Utility_Network::ping](/reference/services/SoftLayer_Utility_Network/ping )
+*  [SoftLayer_Utility_Network::traceroute](/reference/services/SoftLayer_Utility_Network/traceroute )
+*  [SoftLayer_Utility_Network::whois](/reference/services/SoftLayer_Utility_Network/whois )
+

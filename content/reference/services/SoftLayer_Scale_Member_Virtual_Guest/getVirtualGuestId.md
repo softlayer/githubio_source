@@ -29,3 +29,4 @@ Retrieve the identifier of the guest for this member.
 
 ### Return Values
 integer
+

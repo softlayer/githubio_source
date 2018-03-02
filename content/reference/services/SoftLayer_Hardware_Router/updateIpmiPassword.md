@@ -27,3 +27,4 @@ This method will update the root IPMI password on this SoftLayer_Hardware.
 
 ### Return Values
 boolean
+

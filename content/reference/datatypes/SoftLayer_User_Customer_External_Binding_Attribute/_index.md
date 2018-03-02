@@ -23,6 +23,11 @@ The SoftLayer_User_Customer_External_Binding_Attribute data type contains the va
 *Credential State
 *Credential Expiration Date
 *Credential Last Update Date
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -50,6 +55,7 @@ The SoftLayer_User_Customer_External_Binding_Attribute data type contains the va
             <div class='views-field-body'>The external authentication binding an attribute belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_External_Binding'>SoftLayer_User_External_Binding </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

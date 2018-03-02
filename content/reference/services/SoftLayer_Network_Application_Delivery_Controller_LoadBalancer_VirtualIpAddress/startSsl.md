@@ -26,3 +26,4 @@ Start SSL acceleration on all SSL virtual services (those with a type of HTTPS).
 
 ### Return Values
 boolean
+

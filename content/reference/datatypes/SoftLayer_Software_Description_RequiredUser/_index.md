@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 This class represents a software description's required user 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

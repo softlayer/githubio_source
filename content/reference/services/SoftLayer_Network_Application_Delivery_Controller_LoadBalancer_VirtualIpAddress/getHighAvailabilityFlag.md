@@ -29,3 +29,4 @@ Retrieve denotes whether the virtual IP is configured within a high availability
 
 ### Return Values
 boolean
+

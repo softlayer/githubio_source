@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 This data type is a cross-reference between the SoftLayer_Product_Package and the SoftLayer_Product_Item(s) that belong in the SoftLayer_Product_Package. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -61,6 +66,7 @@ This data type is a cross-reference between the SoftLayer_Product_Package and th
             <div class='views-field-body'>The package to which this object belongs. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

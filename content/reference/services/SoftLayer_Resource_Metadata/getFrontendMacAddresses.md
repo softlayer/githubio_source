@@ -24,3 +24,4 @@ The getFrontendMacAddresses method retrieves a list of frontend MAC addresses fo
 
 ### Return Values
 array of strings
+

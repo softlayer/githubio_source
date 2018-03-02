@@ -30,3 +30,4 @@ Retrieve a collection of valid locations for this package. (Deprecated - Use [[S
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+

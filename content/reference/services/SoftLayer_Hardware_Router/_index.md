@@ -19,8 +19,14 @@ classes:
 
 ## Description
 This service provides access to the device responsible for routing a particular SoftLayer Router. 
+
+
+
 ### seeAlso
-        SoftLayer_Hardware1                
+
+* [SoftLayer_Hardware](/reference/datatypes/SoftLayer_Hardware )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

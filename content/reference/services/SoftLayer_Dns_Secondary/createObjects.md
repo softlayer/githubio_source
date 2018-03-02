@@ -28,3 +28,9 @@ Create multiple secondary DNS records. Each record passed to ''createObjects'' f
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Secondary'>SoftLayer_Dns_Secondary[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Secondary::createObject](/reference/services/SoftLayer_Dns_Secondary/createObject )
+

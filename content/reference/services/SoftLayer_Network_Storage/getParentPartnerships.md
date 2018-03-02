@@ -30,3 +30,4 @@ Retrieve the volumes or snapshots partnered with a network storage volume in a p
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage_Partnership'>SoftLayer_Network_Storage_Partnership[] </a>
+

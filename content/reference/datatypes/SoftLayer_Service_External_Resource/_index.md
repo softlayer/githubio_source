@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Service_External_Resource is a placeholder that references a service being provided outside of the standard SoftLayer system. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -56,6 +61,7 @@ The SoftLayer_Service_External_Resource is a placeholder that references a servi
             <div class='views-field-body'>The customer account that is consuming the service. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

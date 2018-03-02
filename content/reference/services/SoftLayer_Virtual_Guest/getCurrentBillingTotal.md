@@ -26,3 +26,4 @@ Get the total billing price in US Dollars ($) for this instance. This includes a
 
 ### Return Values
 decimal
+

@@ -19,6 +19,22 @@ classes:
 
 ## Description 
 SoftLayer_Container_Ticket_GraphInputs models a single inbound object for a given ticket graph.
+
+
+### associatedMethods
+
+*  [SoftLayer_Utility_Ticket_Graph::getTicketImage](/reference/services/SoftLayer_Utility_Ticket_Graph/getTicketImage )
+*  [SoftLayer_Utility_Ticket_Graph::getTicketGraphParameters](/reference/services/SoftLayer_Utility_Ticket_Graph/getTicketGraphParameters )
+
+
+
+### seeAlso
+
+* [SoftLayer_Container_Ticket_GraphOutputs](/reference/datatypes/SoftLayer_Container_Ticket_GraphOutputs )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

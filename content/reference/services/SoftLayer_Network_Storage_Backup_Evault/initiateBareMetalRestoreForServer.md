@@ -27,3 +27,4 @@ This method operates the same as the initiateBareMetalRestore() method.  However
 
 ### Return Values
 boolean
+

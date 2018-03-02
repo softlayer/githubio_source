@@ -28,3 +28,4 @@ The '''getFrontendIncomingBandwidth''' method retrieves the amount of incoming p
 
 ### Return Values
 float
+

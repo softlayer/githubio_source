@@ -19,6 +19,25 @@ classes:
 
 ## Description 
 SoftLayer tickets have the ability to be associated with specific pieces of hardware in a customer's inventory. Attaching hardware to a ticket can greatly increase response time from SoftLayer for issues that are related to one or more specific servers on a customer's account. The SoftLayer_Ticket_Attachment_Hardware data type models the relationship between a piece of hardware and a ticket. Only one attachment record may exist per hardware item per ticket. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+
+
+* [SoftLayer_Ticket_Attachment_Hardware](/reference/datatypes/SoftLayer_Ticket_Attachment_Hardware )
+
+
+* [SoftLayer_Ticket_Attachment_Virtual_Guest](/reference/datatypes/SoftLayer_Ticket_Attachment_Virtual_Guest )
+
+
+* [SoftLayer_Ticket_Attachment_File](/reference/datatypes/SoftLayer_Ticket_Attachment_File )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -61,6 +80,7 @@ SoftLayer tickets have the ability to be associated with specific pieces of hard
             <div class='views-field-body'>The ticket that an item is attached to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

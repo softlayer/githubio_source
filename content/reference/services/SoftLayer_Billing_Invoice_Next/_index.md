@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Service for an account's next invoice. The "next invoice" is what a customer will be billed on their next invoice, assuming no changes are made. Currently this does not include Bandwidth Pooling charges. Note, this should be considered preliminary as you may add, remove, or change billing items on your account. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

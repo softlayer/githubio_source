@@ -29,3 +29,4 @@ Retrieve this references the brand that has a brand-location-country restriction
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>
+

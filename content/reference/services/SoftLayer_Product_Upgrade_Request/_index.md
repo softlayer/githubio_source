@@ -19,7 +19,9 @@ classes:
 
 ## Description
 SoftLayer_Product_Upgrade_Request tracks the progress of an upgrade, and allows modification of the maintenance window and other information. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

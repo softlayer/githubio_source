@@ -29,3 +29,4 @@ Retrieve the SSL certificate currently associated with the VIP.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Security_Certificate'>SoftLayer_Security_Certificate </a>
+

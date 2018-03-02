@@ -26,3 +26,4 @@ Returns the public image storage disk usage fee rate per gigabyte.
 
 ### Return Values
 decimal
+

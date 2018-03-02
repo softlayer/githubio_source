@@ -30,3 +30,4 @@ Retrieve all of the subnets that exist as VLAN interfaces.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+

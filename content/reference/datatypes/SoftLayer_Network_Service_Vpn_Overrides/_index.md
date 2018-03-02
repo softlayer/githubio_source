@@ -13,12 +13,22 @@ classes:
 # SoftLayer_Network_Service_Vpn_Overrides
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Service_Vpn_Overrides' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Service_Vpn_Overrides' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Service_Vpn_Overrides' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_Service_Vpn_Overrides data type contains information relating user ids to subnet ids when VPN access is manually configured.  It is essentially an entry in a 'white list' of subnets a SoftLayer portal VPN user may access. 
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Customer::updateVPNUser](/reference/services/SoftLayer_User_Customer/updateVPNUser )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -61,6 +71,7 @@ The SoftLayer_Network_Service_Vpn_Overrides data type contains information relat
             <div class='views-field-body'>SoftLayer VPN portal user. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

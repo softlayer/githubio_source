@@ -19,7 +19,9 @@ classes:
 
 ## Description
 A User's status. It can be Active, Inactive, Disabled, Delete User, or VPN Only.
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

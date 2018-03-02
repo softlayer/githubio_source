@@ -29,3 +29,4 @@ Retrieve details of the subscriber tied to the preference.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber </a>
+

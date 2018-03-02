@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -111,6 +116,7 @@ classes:
             <div class='views-field-body'>Employee overseeing the enrollment </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

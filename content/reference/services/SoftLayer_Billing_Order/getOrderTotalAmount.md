@@ -29,3 +29,4 @@ Retrieve this amount represents the order's initial charge including set up fee 
 
 ### Return Values
 decimal
+

@@ -26,3 +26,4 @@ The '''getCurrentBillingTotal''' method retrieves the total bill amount in US Do
 
 ### Return Values
 decimal
+

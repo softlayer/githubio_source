@@ -29,3 +29,4 @@ Retrieve this is the invoice associated with the upgrade request. For hourly ser
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a>
+

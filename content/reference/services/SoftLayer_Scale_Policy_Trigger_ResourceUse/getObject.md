@@ -29,3 +29,4 @@ classes:
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_ResourceUse'>SoftLayer_Scale_Policy_Trigger_ResourceUse </a>
+

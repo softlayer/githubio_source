@@ -25,6 +25,11 @@ The IntrusionProtection_Event object stores information about individual intrusi
 It is a data container that cannot be edited, deleted, or saved. 
 
 It is returned by many methods in the TippingPointReporting object, but never directly, always as a child of another container object. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Dns_Status data type contains information for a DNS status 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Billing_Payment_Card_Transaction data type contains general information relating to attempted credit card transactions. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -186,6 +191,7 @@ The SoftLayer_Billing_Payment_Card_Transaction data type contains general inform
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

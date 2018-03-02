@@ -30,3 +30,4 @@ Retrieve the additional subnets linked to this network component firewall, that 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+

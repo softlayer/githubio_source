@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Historical Summary Details Container for a host resource uptime 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

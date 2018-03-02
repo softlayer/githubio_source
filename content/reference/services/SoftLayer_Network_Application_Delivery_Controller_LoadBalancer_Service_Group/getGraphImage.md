@@ -30,3 +30,4 @@ This method returns the raw binary image data.
 
 ### Return Values
 binary data
+

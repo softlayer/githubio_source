@@ -26,3 +26,4 @@ Reboot a guest into the R1Soft Bare Metal Restore image.
 
 ### Return Values
 boolean
+

@@ -19,7 +19,9 @@ classes:
 
 ## Description
 A policy action to scale a group. A group can be scaled to an absolute member number or by a relative amount using a fixed number or a percentage. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

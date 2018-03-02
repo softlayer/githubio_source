@@ -29,3 +29,4 @@ Retrieve brand associated with the business partner data
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>
+

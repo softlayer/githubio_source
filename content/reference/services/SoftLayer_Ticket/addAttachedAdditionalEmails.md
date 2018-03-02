@@ -27,3 +27,9 @@ Creates new additional emails for assigned user if new emails are provided. Atta
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Ticket::removeAttachedAdditionalEmails](/reference/services/SoftLayer_Ticket/removeAttachedAdditionalEmails )
+

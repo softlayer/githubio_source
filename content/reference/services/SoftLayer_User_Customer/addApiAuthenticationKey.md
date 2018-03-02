@@ -26,3 +26,9 @@ Create a user's API authentication key, allowing that user access to query the S
 
 ### Return Values
 string
+
+
+### associatedMethods
+
+*  [SoftLayer_User_Customer::removeApiAuthenticationKey](/reference/services/SoftLayer_User_Customer/removeApiAuthenticationKey )
+

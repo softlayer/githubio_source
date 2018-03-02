@@ -19,6 +19,37 @@ classes:
 
 ## Description 
 The SoftLayer_Network_Subnet_IpAddress data type contains general information relating to a single SoftLayer IPv6 address. 
+
+### External Links
+
+
+* [IPv6 at Wikipedia](http://en.wikipedia.org/wiki/IPv6)
+
+
+* [RFC2460: Internet Protocol, Version 6 (IPv6) Specification at ietf.org](http://tools.ietf.org/html/rfc2460)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Subnet_IpAddress::getObject](/reference/services/SoftLayer_Network_Subnet_IpAddress/getObject )
+*  [SoftLayer_Network_Subnet_IpAddress::editObject](/reference/services/SoftLayer_Network_Subnet_IpAddress/editObject )
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_Vlan](/reference/datatypes/SoftLayer_Network_Vlan )
+
+
+* [SoftLayer_Network_Subnet](/reference/datatypes/SoftLayer_Network_Subnet )
+
+
+* [SoftLayer_Network_Subnet_IpAddress](/reference/datatypes/SoftLayer_Network_Subnet_IpAddress )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -215,6 +246,87 @@ The SoftLayer_Network_Subnet_IpAddress data type contains general information re
             <span class='views-field-title'><a href="#virtualLicenses" name=virtualLicenses>virtualLicenses</a></span>
             <div class='views-field-body'>Virtual licenses allocated for an IP Address. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Software_VirtualLicense'>SoftLayer_Software_VirtualLicense[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#allowedNetworkStorageCount" name=allowedNetworkStorageCount>allowedNetworkStorageCount</a></span>
+            <div class='views-field-body'>A count of the SoftLayer_Network_Storage objects that this SoftLayer_Hardware has access to. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#allowedNetworkStorageReplicaCount" name=allowedNetworkStorageReplicaCount>allowedNetworkStorageReplicaCount</a></span>
+            <div class='views-field-body'>A count of the SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Hardware has access to. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#contextTunnelTranslationCount" name=contextTunnelTranslationCount>contextTunnelTranslationCount</a></span>
+            <div class='views-field-body'>A count of an IPSec network tunnel's address translations. These translations use a SoftLayer ip address from an assigned static NAT subnet to deliver the packets to the remote (customer) destination. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#endpointSubnetCount" name=endpointSubnetCount>endpointSubnetCount</a></span>
+            <div class='views-field-body'>A count of all the subnets routed to an IP address. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#protectionAddressCount" name=protectionAddressCount>protectionAddressCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#syslogEventsOneDayCount" name=syslogEventsOneDayCount>syslogEventsOneDayCount</a></span>
+            <div class='views-field-body'>A count of all events for this IP address stored in the datacenter syslogs from the last 24 hours </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#syslogEventsSevenDayCount" name=syslogEventsSevenDayCount>syslogEventsSevenDayCount</a></span>
+            <div class='views-field-body'>A count of all events for this IP address stored in the datacenter syslogs from the last 7 days </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#topTenSyslogEventsByDestinationPortOneDayCount" name=topTenSyslogEventsByDestinationPortOneDayCount>topTenSyslogEventsByDestinationPortOneDayCount</a></span>
+            <div class='views-field-body'>A count of top Ten network datacenter syslog events, grouped by destination port, for the last 24 hours </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#topTenSyslogEventsByDestinationPortSevenDayCount" name=topTenSyslogEventsByDestinationPortSevenDayCount>topTenSyslogEventsByDestinationPortSevenDayCount</a></span>
+            <div class='views-field-body'>A count of top Ten network datacenter syslog events, grouped by destination port, for the last 7 days </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#topTenSyslogEventsByProtocolsOneDayCount" name=topTenSyslogEventsByProtocolsOneDayCount>topTenSyslogEventsByProtocolsOneDayCount</a></span>
+            <div class='views-field-body'>A count of top Ten network datacenter syslog events, grouped by source port, for the last 24 hours </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#topTenSyslogEventsByProtocolsSevenDayCount" name=topTenSyslogEventsByProtocolsSevenDayCount>topTenSyslogEventsByProtocolsSevenDayCount</a></span>
+            <div class='views-field-body'>A count of top Ten network datacenter syslog events, grouped by source port, for the last 7 days </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#topTenSyslogEventsBySourceIpOneDayCount" name=topTenSyslogEventsBySourceIpOneDayCount>topTenSyslogEventsBySourceIpOneDayCount</a></span>
+            <div class='views-field-body'>A count of top Ten network datacenter syslog events, grouped by source ip address, for the last 24 hours </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#topTenSyslogEventsBySourceIpSevenDayCount" name=topTenSyslogEventsBySourceIpSevenDayCount>topTenSyslogEventsBySourceIpSevenDayCount</a></span>
+            <div class='views-field-body'>A count of top Ten network datacenter syslog events, grouped by source ip address, for the last 7 days </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#topTenSyslogEventsBySourcePortOneDayCount" name=topTenSyslogEventsBySourcePortOneDayCount>topTenSyslogEventsBySourcePortOneDayCount</a></span>
+            <div class='views-field-body'>A count of top Ten network datacenter syslog events, grouped by source port, for the last 24 hours </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#topTenSyslogEventsBySourcePortSevenDayCount" name=topTenSyslogEventsBySourcePortSevenDayCount>topTenSyslogEventsBySourcePortSevenDayCount</a></span>
+            <div class='views-field-body'>A count of top Ten network datacenter syslog events, grouped by source port, for the last 7 days </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#virtualLicenseCount" name=virtualLicenseCount>virtualLicenseCount</a></span>
+            <div class='views-field-body'>A count of virtual licenses allocated for an IP Address. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

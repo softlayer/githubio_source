@@ -28,3 +28,10 @@ Retrieve a single [[SoftLayer_Account_Attribute]] record by its [[SoftLayer_Acco
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account_Attribute'>SoftLayer_Account_Attribute </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Account::hasAttribute](/reference/services/SoftLayer_Account/hasAttribute )
+*  [SoftLayer_Account::getAttributes](/reference/services/SoftLayer_Account/getAttributes )
+

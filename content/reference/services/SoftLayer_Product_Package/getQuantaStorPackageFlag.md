@@ -29,3 +29,4 @@ Retrieve whether the package is a specialized mass storage QuantaStor package. (
 
 ### Return Values
 boolean
+

@@ -29,3 +29,4 @@ Returns a collection of rate-based [[SoftLayer_Product_Item_Price]] objects asso
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>
+

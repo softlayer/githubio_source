@@ -26,3 +26,4 @@ deleteObject permanently removes an account contact
 
 ### Return Values
 boolean
+

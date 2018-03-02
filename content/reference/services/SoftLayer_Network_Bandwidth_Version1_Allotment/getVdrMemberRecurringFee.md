@@ -26,3 +26,4 @@ Gets the monthly recurring fee of a pooled server.
 
 ### Return Values
 float
+

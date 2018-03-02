@@ -19,7 +19,9 @@ classes:
 
 ## Description
 A guest member is a scaled guest on a scale group. It is added either automatically or manually based on group settings. It can be removed here, but is usually best removed using one of the scaling features of the group as a whole. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

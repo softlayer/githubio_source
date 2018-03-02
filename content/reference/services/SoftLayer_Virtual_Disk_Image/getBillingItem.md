@@ -29,3 +29,4 @@ Retrieve the billing item for a virtual disk image.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item_Virtual_Disk_Image'>SoftLayer_Billing_Item_Virtual_Disk_Image </a>
+

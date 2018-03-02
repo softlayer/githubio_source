@@ -30,3 +30,4 @@ Retrieve the network virtual LANs (VLANs) associated with a piece of hardware's 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a>
+

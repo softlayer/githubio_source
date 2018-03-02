@@ -28,3 +28,9 @@ Create multiple domains on the SoftLayer name servers. Each domain record passed
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain::createObject](/reference/services/SoftLayer_Dns_Domain/createObject )
+

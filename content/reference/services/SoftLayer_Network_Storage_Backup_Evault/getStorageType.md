@@ -29,3 +29,4 @@ Retrieve a description of the Storage object.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage_Type'>SoftLayer_Network_Storage_Type </a>
+

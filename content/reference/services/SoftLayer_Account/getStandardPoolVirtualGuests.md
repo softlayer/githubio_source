@@ -29,3 +29,4 @@ Retrieve an account's virtual guest objects that are hosted on a user provisione
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+

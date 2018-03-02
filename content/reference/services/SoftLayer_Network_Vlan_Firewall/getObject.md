@@ -29,3 +29,4 @@ getObject returns a SoftLayer_Network_Vlan_Firewall object. You can only get obj
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Vlan_Firewall'>SoftLayer_Network_Vlan_Firewall </a>
+

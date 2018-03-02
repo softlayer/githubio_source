@@ -19,6 +19,22 @@ classes:
 
 ## Description 
 SoftLayer_Container_KnowledgeLayer_QuestionAnswer models a single question and answer pair from SoftLayer's KnowledgeLayer knowledge base. SoftLayer's backend network interfaces with the KnowledgeLayer to recommend helpful articles when support tickets are created. 
+
+### External Links
+
+
+* [The SoftLayer Knowledge Layer](http://knowledgelayer.softlayer.com/)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Ticket_Subject::getTopFiveKnowledgeLayerQuestions](/reference/services/SoftLayer_Ticket_Subject/getTopFiveKnowledgeLayerQuestions )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

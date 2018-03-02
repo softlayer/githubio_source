@@ -30,3 +30,4 @@ Retrieve a history of billing items which a billing item has been associated wit
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item_Association_History'>SoftLayer_Billing_Item_Association_History[] </a>
+

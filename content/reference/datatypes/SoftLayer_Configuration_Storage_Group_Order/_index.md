@@ -23,6 +23,11 @@ classes:
 Single storage group(array) used for a hardware server order. 
 
 If a raid configuration is required this object will describe a single array that will be configured on the server. If the server requires more than one array, a storage group will need to be created for each array. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -95,6 +100,7 @@ If a raid configuration is required this object will describe a single array tha
             <div class='views-field-body'>The order item that relates to this storage group. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

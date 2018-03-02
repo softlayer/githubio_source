@@ -30,3 +30,4 @@ Retrieve the virtual guests associated with a ticket. This is used in cases wher
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+

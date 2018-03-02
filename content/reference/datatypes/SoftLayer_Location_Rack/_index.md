@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 SoftLayer_Location_Rack extends the [[SoftLayer_Location]] data type to include rack-specific properties. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Location (type)](/reference/datatypes/SoftLayer_Location (type) )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -135,6 +145,37 @@ SoftLayer_Location_Rack extends the [[SoftLayer_Location]] data type to include 
             <span class='views-field-title'><a href="#vdrGroup" name=vdrGroup>vdrGroup</a></span>
             <div class='views-field-body'>A location can be a member of 1 Bandwidth Pooling Group. This will show which group to which a location belongs. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Location_Group_Location_CrossReference'>SoftLayer_Location_Group_Location_CrossReference </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#activePresaleEventCount" name=activePresaleEventCount>activePresaleEventCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#backboneDependentCount" name=backboneDependentCount>backboneDependentCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#groupCount" name=groupCount>groupCount</a></span>
+            <div class='views-field-body'>A count of a location can be a member of 1 or more groups. This will show which groups to which a location belongs. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#hardwareFirewallCount" name=hardwareFirewallCount>hardwareFirewallCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#priceGroupCount" name=priceGroupCount>priceGroupCount</a></span>
+            <div class='views-field-body'>A count of a location can be a member of 1 or more Price Groups. This will show which groups to which a location belongs. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#regionCount" name=regionCount>regionCount</a></span>
+            <div class='views-field-body'>A count of a location can be a member of 1 or more regions. This will show which regions to which a location belongs. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

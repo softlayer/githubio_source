@@ -19,7 +19,9 @@ classes:
 
 ## Description
 A trigger to determine when a policy's actions should be fired.
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Storage Repositories are storage systems that are accessible through the internet and can be accessed through many types of devices, interfaces, and other resources such as NFS (Network File System).  They can contain 1 or more [[SoftLayer_Disk_Image|disk images]] and can be attached to more than one [[SoftLayer_Virtual_Host|host]]. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

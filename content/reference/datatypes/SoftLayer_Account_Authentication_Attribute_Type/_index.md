@@ -13,12 +13,22 @@ classes:
 # SoftLayer_Account_Authentication_Attribute_Type
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Account_Authentication_Attribute_Type' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute_Type' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute_Type' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 SoftLayer_Account_Authentication_Attribute_Type models the type of attribute that can be assigned to a SoftLayer customer account authentication. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Account_Authentication_Attribute](/reference/datatypes/SoftLayer_Account_Authentication_Attribute )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

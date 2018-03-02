@@ -29,3 +29,4 @@ Retrieve this flag indicates the package does not allow different disks with RAI
 
 ### Return Values
 boolean
+

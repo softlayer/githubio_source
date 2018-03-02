@@ -29,3 +29,4 @@ Retrieve the current billing item for the load balancing device housing the virt
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item_Network_LoadBalancer'>SoftLayer_Billing_Item_Network_LoadBalancer </a>
+

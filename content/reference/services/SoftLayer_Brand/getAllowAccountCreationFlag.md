@@ -29,3 +29,4 @@ Retrieve this flag indicates if creation of accounts is allowed.
 
 ### Return Values
 boolean
+

@@ -28,3 +28,4 @@ This service returns a unique authentication request token. You can use [[SoftLa
 
 ### Return Values
 string
+

@@ -66,7 +66,9 @@ You can also set an authentication IP with an * (asterisk). This can be helpful 
 |style="background: #e7e7e7"|20
 |-
 |}
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

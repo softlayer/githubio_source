@@ -28,3 +28,4 @@ This method will return a [[SoftLayer_Billing_Order_Quote]] that is identified b
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Order_Quote'>SoftLayer_Billing_Order_Quote </a>
+

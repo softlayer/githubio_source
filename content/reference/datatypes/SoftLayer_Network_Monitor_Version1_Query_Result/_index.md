@@ -23,6 +23,11 @@ classes:
 The monitoring result object is used to show the status of the actions taken by the monitoring system. 
 
 In general, only the responseStatus variable is needed, as it holds the information on the status of the service. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -60,6 +65,7 @@ In general, only the responseStatus variable is needed, as it holds the informat
             <div class='views-field-body'>References the queryHost that this response relates to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host'>SoftLayer_Network_Monitor_Version1_Query_Host </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

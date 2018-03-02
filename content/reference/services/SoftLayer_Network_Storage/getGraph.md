@@ -33,3 +33,4 @@ getGraph() retrieves a Storage account's usage and returns a PNG graph image, ti
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+

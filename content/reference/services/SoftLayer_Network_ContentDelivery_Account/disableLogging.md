@@ -26,3 +26,4 @@ This method disables CDN access log.
 
 ### Return Values
 boolean
+

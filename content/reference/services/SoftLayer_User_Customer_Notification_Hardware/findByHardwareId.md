@@ -30,3 +30,4 @@ This behavior can also be accomplished by simply tapping monitoringUserNotificat
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Hardware'>SoftLayer_User_Customer_Notification_Hardware[] </a>
+

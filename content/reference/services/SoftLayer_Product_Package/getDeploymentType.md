@@ -29,3 +29,4 @@ Retrieve the solution deployment type.
 
 ### Return Values
 string
+

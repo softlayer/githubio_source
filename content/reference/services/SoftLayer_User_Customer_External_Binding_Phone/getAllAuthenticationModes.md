@@ -26,3 +26,4 @@ This service returns key names of all available authentication modes. See [[Soft
 
 ### Return Values
 array of strings
+

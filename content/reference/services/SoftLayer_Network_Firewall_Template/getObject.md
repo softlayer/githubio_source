@@ -31,3 +31,4 @@ getObject returns a SoftLayer_Network_Firewall_Template object. You can retrieve
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Firewall_Template'>SoftLayer_Network_Firewall_Template </a>
+

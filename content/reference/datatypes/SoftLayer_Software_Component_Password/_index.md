@@ -13,12 +13,25 @@ classes:
 # SoftLayer_Software_Component_Password
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Software_Component_Password' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Software_Component_Password' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Software_Component_Password' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 This SoftLayer_Software_Component_Password data type contains a password for a specific software component instance. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Software_Component](/reference/datatypes/SoftLayer_Software_Component )
+
+
+* [SoftLayer_Software_Password_History](/reference/datatypes/SoftLayer_Software_Password_History )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -85,6 +98,12 @@ This SoftLayer_Software_Component_Password data type contains a password for a s
             <span class='views-field-title'><a href="#sshKeys" name=sshKeys>sshKeys</a></span>
             <div class='views-field-body'>SSH keys to be installed on the server during provisioning or an OS reload. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Security_Ssh_Key'>SoftLayer_Security_Ssh_Key[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#sshKeyCount" name=sshKeyCount>sshKeyCount</a></span>
+            <div class='views-field-body'>A count of sSH keys to be installed on the server during provisioning or an OS reload. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

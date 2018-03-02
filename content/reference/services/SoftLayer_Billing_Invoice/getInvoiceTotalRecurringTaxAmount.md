@@ -29,3 +29,4 @@ Retrieve the total amount of the recurring taxes on this invoice.
 
 ### Return Values
 decimal
+

@@ -29,3 +29,4 @@ Retrieve the downstream server that the rule set will be applied to.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+

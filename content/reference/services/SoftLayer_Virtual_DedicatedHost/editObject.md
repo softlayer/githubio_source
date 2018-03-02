@@ -27,3 +27,4 @@ Edit a dedicated host's properties.
 
 ### Return Values
 boolean
+

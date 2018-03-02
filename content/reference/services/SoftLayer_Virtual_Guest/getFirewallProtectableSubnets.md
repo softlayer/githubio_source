@@ -28,3 +28,4 @@ Get the subnets associated with this CloudLayer computing instance that are prot
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+

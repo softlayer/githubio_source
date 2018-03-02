@@ -26,3 +26,4 @@ Evault Bare Metal Restore is a special version of Rescue Kernel designed specifi
 
 ### Return Values
 boolean
+

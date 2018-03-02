@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 This container data type contains extended attributes information for a domain of country code TLD. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain_Registration::getExtendedAttributes](/reference/services/SoftLayer_Dns_Domain_Registration/getExtendedAttributes )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

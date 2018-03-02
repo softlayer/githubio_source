@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Billing_Item_Cancellation_Request
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Billing_Item_Cancellation_Request' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 SoftLayer_Billing_Item_Cancellation_Request data type is used to cancel service billing items. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -102,6 +107,12 @@ It will be updated to "Complete" when all services are reclaimed.  </div>
             <span class='views-field-title'><a href="#user" name=user>user</a></span>
             <div class='views-field-body'>The user that initiated a service cancellation request. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#itemCount" name=itemCount>itemCount</a></span>
+            <div class='views-field-body'>A count of a collection of service cancellation items. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

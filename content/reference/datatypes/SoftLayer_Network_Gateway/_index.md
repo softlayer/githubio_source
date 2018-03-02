@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Network_Gateway
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Gateway' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Gateway' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Gateway' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -145,6 +150,17 @@ classes:
             <span class='views-field-title'><a href="#status" name=status>status</a></span>
             <div class='views-field-body'>The current status of the gateway. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Gateway_Status'>SoftLayer_Network_Gateway_Status </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#insideVlanCount" name=insideVlanCount>insideVlanCount</a></span>
+            <div class='views-field-body'>A count of all VLANs trunked to this gateway. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#memberCount" name=memberCount>memberCount</a></span>
+            <div class='views-field-body'>A count of the members for this gateway. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

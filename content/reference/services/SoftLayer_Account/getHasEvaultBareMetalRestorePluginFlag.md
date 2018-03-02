@@ -28,3 +28,4 @@ Retrieve return 1 if one of the account's hardware has the EVault Bare Metal Ser
 
 ### Return Values
 boolean
+

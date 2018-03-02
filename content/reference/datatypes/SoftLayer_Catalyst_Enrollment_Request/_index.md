@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Contains user information for Catalyst self-enrollment. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -206,6 +211,7 @@ Contains user information for Catalyst self-enrollment.
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Catalyst_Company_Type'>SoftLayer_Catalyst_Company_Type </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

@@ -19,6 +19,17 @@ classes:
 
 ## Description 
 A region is made up of a keyname and a description of that region. A region keyname can be used as part of an order. Check the SoftLayer_Product_Order service for more details. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Product_Order::verifyOrder](/reference/services/SoftLayer_Product_Order/verifyOrder )
+*  [SoftLayer_Product_Order::placeOrder](/reference/services/SoftLayer_Product_Order/placeOrder )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -60,6 +71,12 @@ A region is made up of a keyname and a description of that region. A region keyn
             <span class='views-field-title'><a href="#locations" name=locations>locations</a></span>
             <div class='views-field-body'>The locations (like datacenters or PoPs) in this region. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Location_Region_Location'>SoftLayer_Location_Region_Location[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#locationCount" name=locationCount>locationCount</a></span>
+            <div class='views-field-body'>A count of the locations (like datacenters or PoPs) in this region. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

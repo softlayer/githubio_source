@@ -29,3 +29,4 @@ Retrieve the preferred datacenters of a group.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location_Datacenter'>SoftLayer_Location_Datacenter </a>
+

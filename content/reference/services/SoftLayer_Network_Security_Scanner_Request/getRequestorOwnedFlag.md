@@ -29,3 +29,4 @@ Retrieve flag whether the requestor owns the hardware the scan was run on. This 
 
 ### Return Values
 boolean
+

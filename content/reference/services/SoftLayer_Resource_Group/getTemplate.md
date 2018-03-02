@@ -29,3 +29,4 @@ Retrieve a resource group's associated template.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Resource_Group_Template'>SoftLayer_Resource_Group_Template </a>
+

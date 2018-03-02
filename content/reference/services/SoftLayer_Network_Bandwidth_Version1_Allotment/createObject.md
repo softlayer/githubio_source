@@ -28,3 +28,4 @@ Create a allotment for servers to pool bandwidth and avoid overages in billing i
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment </a>
+

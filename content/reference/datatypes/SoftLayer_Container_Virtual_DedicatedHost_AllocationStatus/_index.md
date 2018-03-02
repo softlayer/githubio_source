@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 This data type represents the structure to hold the allocation properties of a [[SoftLayer_Virtual_DedicatedHost]]. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

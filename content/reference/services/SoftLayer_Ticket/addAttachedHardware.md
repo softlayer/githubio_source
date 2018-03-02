@@ -29,3 +29,9 @@ Attach the given hardware to a SoftLayer ticket. A hardware attachment provides 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Ticket_Attachment_Hardware'>SoftLayer_Ticket_Attachment_Hardware </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Ticket::removeAttachedHardware](/reference/services/SoftLayer_Ticket/removeAttachedHardware )
+

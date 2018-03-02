@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 SoftLayer_Container_Network_ContentDelivery_Bandwidth_Summary_File models a CDN account's overall bandwidth usage and overages within a given date range. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::getDetailedBandwidth](/reference/services/SoftLayer_Network_ContentDelivery_Account/getDetailedBandwidth )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

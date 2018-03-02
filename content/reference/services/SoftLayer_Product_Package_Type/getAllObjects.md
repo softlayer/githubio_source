@@ -29,3 +29,4 @@ This method will return all of the available package types.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Package_Type'>SoftLayer_Product_Package_Type[] </a>
+

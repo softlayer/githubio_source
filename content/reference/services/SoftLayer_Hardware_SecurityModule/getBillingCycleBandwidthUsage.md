@@ -30,3 +30,4 @@ Retrieve the raw bandwidth usage data for the current billing cycle. One object 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage[] </a>
+

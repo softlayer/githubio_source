@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Hardware_Server object whose ID number corresp
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Server'>SoftLayer_Hardware_Server </a>
+

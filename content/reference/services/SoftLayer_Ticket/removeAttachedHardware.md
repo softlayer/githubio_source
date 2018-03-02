@@ -27,3 +27,9 @@ detach the given hardware from a SoftLayer ticket. Removing a hardware attachmen
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Ticket::addAttachedHardware](/reference/services/SoftLayer_Ticket/addAttachedHardware )
+

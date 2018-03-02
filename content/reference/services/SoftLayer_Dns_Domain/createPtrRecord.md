@@ -30,3 +30,4 @@ setPtrRecordForIpAddress() sets a single reverse DNS record for a single IP addr
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord'>SoftLayer_Dns_Domain_ResourceRecord </a>
+

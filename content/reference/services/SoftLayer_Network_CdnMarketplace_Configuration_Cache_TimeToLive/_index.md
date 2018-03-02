@@ -19,7 +19,9 @@ classes:
 
 ## Description
 This service manages Times To Live (TTLs) associated with a CDN mapping Configuration. A time to live represents the time a purge will occur at a given path. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

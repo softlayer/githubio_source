@@ -29,3 +29,4 @@ Retrieve the current status of the corresponding agent
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Status'>SoftLayer_Monitoring_Agent_Status </a>
+

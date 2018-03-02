@@ -25,6 +25,16 @@ The SoftLayer_Ticket_Status data type models the state of a ticket as it is work
 
 
 A ticket usually goes from the Open to Assigned to Closed states during its life cycle. If a ticket is forwarded from one department to another it may change from the Assigned state back to Open until it is assigned to a member of the new department. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

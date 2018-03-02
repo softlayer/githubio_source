@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Storage volumes can create various events to keep track of what has occurred to the volume. Events provide an audit trail that can be used to verify that various tasks have occurred, such as snapshots to be created by a schedule or remote replication synchronization. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -76,6 +81,7 @@ Storage volumes can create various events to keep track of what has occurred to 
             <div class='views-field-body'>The associated volume for an event. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

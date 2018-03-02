@@ -29,3 +29,4 @@ Retrieve information regarding the bandwidth allotment to which a piece of hardw
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment </a>
+

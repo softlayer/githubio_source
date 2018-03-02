@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Hardware_Component_Partition_OperatingSystem
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Hardware_Component_Partition_OperatingSystem' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_OperatingSystem' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_OperatingSystem' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Hardware_Component_Partition_OperatingSystem data type contains general information relating to a single SoftLayer Operating System Partition Template. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -55,6 +60,12 @@ The SoftLayer_Hardware_Component_Partition_OperatingSystem data type contains ge
             <span class='views-field-title'><a href="#partitionTemplates" name=partitionTemplates>partitionTemplates</a></span>
             <div class='views-field-body'>Information regarding an operating system's [[SoftLayer_Hardware_Component_Partition_Template|Partition Templates]]. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template'>SoftLayer_Hardware_Component_Partition_Template[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#partitionTemplateCount" name=partitionTemplateCount>partitionTemplateCount</a></span>
+            <div class='views-field-body'>A count of information regarding an operating system's [[SoftLayer_Hardware_Component_Partition_Template|Partition Templates]]. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

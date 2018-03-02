@@ -44,3 +44,4 @@ vpnPassword If the vpnPassword is provided, then the user's vpnPassword will be 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+

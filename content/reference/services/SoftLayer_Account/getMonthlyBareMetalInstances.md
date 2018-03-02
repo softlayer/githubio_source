@@ -29,3 +29,4 @@ Retrieve an account's associated monthly bare metal server objects.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+

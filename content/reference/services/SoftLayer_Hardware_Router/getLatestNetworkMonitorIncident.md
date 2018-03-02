@@ -29,3 +29,4 @@ Retrieve a piece of hardware's latest network monitoring incident.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Incident'>SoftLayer_Network_Monitor_Version1_Incident </a>
+

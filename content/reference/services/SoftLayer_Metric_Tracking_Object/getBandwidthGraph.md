@@ -33,3 +33,10 @@ Retrieve a PNG image of a bandwidth graph representing the bandwidth usage over 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Metric_Tracking_Object::getBandwidthData](/reference/services/SoftLayer_Metric_Tracking_Object/getBandwidthData )
+*  [SoftLayer_Metric_Tracking_Object::getBandwidthTotal](/reference/services/SoftLayer_Metric_Tracking_Object/getBandwidthTotal )
+

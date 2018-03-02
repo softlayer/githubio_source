@@ -29,3 +29,4 @@ Retrieve the type of survey
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Survey_Type'>SoftLayer_Survey_Type </a>
+

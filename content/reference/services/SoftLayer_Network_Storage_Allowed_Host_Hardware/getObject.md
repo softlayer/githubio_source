@@ -29,3 +29,4 @@ classes:
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage_Allowed_Host_Hardware'>SoftLayer_Network_Storage_Allowed_Host_Hardware </a>
+

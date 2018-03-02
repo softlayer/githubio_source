@@ -29,3 +29,4 @@ Retrieve invoice items associated with this billing item
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item </a>
+

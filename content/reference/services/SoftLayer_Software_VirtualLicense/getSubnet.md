@@ -29,3 +29,4 @@ Retrieve the subnet this Virtual License's IP address belongs to.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
+

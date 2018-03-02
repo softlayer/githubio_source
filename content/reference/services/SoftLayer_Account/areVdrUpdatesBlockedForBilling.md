@@ -25,3 +25,4 @@ This method indicates whether or not Bandwidth Pooling updates are blocked for t
 
 ### Return Values
 boolean
+

@@ -30,3 +30,4 @@ Retrieve the dedicated hosts to which the user has been granted access.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_DedicatedHost'>SoftLayer_Virtual_DedicatedHost[] </a>
+

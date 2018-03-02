@@ -28,3 +28,4 @@ Create credentials for an IBM Cloud Object Storage Account
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage_Credential'>SoftLayer_Network_Storage_Credential[] </a>
+

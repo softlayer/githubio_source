@@ -28,3 +28,4 @@ Get the load balancer object with given uuid.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancer'>SoftLayer_Network_LBaaS_LoadBalancer </a>
+

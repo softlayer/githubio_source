@@ -29,3 +29,4 @@ Retrieve indicates that the upgrade request has completed or has been cancelled.
 
 ### Return Values
 boolean
+

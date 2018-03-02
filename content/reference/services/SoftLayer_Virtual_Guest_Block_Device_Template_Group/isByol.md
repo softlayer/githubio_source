@@ -26,3 +26,4 @@ This method indicates whether or not this image is a customer supplied license i
 
 ### Return Values
 boolean
+

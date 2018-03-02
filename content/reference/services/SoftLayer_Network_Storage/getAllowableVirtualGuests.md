@@ -30,3 +30,4 @@ This method retrieves a list of SoftLayer_Virtual_Guest that can be authorized t
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+

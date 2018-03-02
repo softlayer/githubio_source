@@ -23,6 +23,19 @@ The SoftLayer_Network_Component_Uplink_Hardware data type abstracts information 
 It is populated via triggers on the network_connection table (SoftLayer_Network_Connection), so you shouldn't have to delete or insert records into this table, ever. 
 
 
+
+
+
+### seeAlso
+
+* [SoftLayer_Hardware](/reference/datatypes/SoftLayer_Hardware )
+
+
+* [SoftLayer_Network_Component](/reference/datatypes/SoftLayer_Network_Component )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -50,6 +63,7 @@ It is populated via triggers on the network_connection table (SoftLayer_Network_
             <div class='views-field-body'>The [[SoftLayer_Network_Component|Network Component]] that a uplink connection belongs to.. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

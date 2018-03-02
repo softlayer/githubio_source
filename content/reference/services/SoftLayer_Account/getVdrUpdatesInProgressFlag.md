@@ -28,3 +28,4 @@ Retrieve return 0 if vpn updates are currently in progress on this account other
 
 ### Return Values
 boolean
+

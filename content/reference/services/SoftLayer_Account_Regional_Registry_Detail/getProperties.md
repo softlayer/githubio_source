@@ -30,3 +30,4 @@ Retrieve the individual properties that define this detail object's values.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property'>SoftLayer_Account_Regional_Registry_Detail_Property[] </a>
+

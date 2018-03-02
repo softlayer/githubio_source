@@ -26,3 +26,4 @@ This method will initiate the removal of a subnet registration.
 
 ### Return Values
 boolean
+

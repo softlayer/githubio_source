@@ -13,12 +13,22 @@ classes:
 # SoftLayer_Billing_Info
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Billing_Info' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Info' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Info' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 Every SoftLayer customer account has billing specific information which is kept in the SoftLayer_Billing_Info data type. This information is used by the SoftLayer accounting group when sending invoices and making billing inquiries. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Account::getBillingInfo](/reference/services/SoftLayer_Account/getBillingInfo )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -155,6 +165,12 @@ Every SoftLayer customer account has billing specific information which is kept 
             <span class='views-field-title'><a href="#nextBillDate" name=nextBillDate>nextBillDate</a></span>
             <div class='views-field-body'>The date on which an account will be billed next. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#achInformationCount" name=achInformationCount>achInformationCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

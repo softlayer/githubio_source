@@ -27,3 +27,4 @@ This method will cancel a computing instance effective immediately. For instance
 
 ### Return Values
 boolean
+

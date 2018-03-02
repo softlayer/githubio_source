@@ -29,3 +29,4 @@ Retrieve a hardware component model's type.
 
 ### Return Values
 string
+

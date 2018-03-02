@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Provides mapping details of how the subscriber's notification will be delivered.  This maps the subscriber's id with all the delivery method ids used to delivery the notification. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -61,6 +66,7 @@ Provides mapping details of how the subscriber's notification will be delivered.
             <div class='views-field-body'>The Subscriber information tied to the delivery method. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

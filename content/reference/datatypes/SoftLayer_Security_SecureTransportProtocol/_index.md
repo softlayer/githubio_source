@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 Protocol intended for use in secure communications
+
+
+
+### seeAlso
+
+* [SoftLayer_Security_SecureTransportCipher (type)](/reference/datatypes/SoftLayer_Security_SecureTransportCipher (type) )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

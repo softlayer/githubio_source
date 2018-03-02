@@ -28,3 +28,4 @@ Retrieve unique identifier for a customer used throughout IBM.
 
 ### Return Values
 string
+

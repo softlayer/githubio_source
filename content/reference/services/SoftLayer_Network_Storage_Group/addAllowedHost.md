@@ -27,3 +27,4 @@ Use this method to attach a SoftLayer_Network_Storage_Allowed_Host object to thi
 
 ### Return Values
 boolean
+

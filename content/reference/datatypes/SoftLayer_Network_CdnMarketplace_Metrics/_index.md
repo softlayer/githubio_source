@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Network_CdnMarketplace_Metrics
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_CdnMarketplace_Metrics' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Metrics' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Metrics' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 This Metrics class provides methods to get CDN metrics based on account or mapping unique id. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

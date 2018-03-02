@@ -26,3 +26,4 @@ Use the method to create a new notification preference for a subscriber
 
 ### Return Values
 boolean
+

@@ -26,3 +26,4 @@ Returns the archive storage disk usage fee rate per gigabyte.
 
 ### Return Values
 decimal
+

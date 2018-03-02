@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Monitoring_Robot
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Monitoring_Robot' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Monitoring_Robot' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Monitoring_Robot' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Monitoring_Robot data type contains general information relating to a monitoring robot. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -75,6 +80,12 @@ The SoftLayer_Monitoring_Robot data type contains general information relating t
             <span class='views-field-title'><a href="#softwareComponent" name=softwareComponent>softwareComponent</a></span>
             <div class='views-field-body'>The SoftLayer_Software_Component that corresponds to the robot installation on the server. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#monitoringAgentCount" name=monitoringAgentCount>monitoringAgentCount</a></span>
+            <div class='views-field-body'>A count of the program (monitoring agent) that gets details of a system or application and reporting of the metric data and triggers alarms for predefined events. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

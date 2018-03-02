@@ -28,3 +28,13 @@ This method retrieves all SoftLayer_Monitoring_Agent_Configuration_Template_Grou
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference'>SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference::createObject ](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference/createObject  )
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference::createObjects ](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference/createObjects  )
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference::getObject ](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference/getObject  )
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference::editObject ](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference/editObject  )
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference::editObjects ](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference/editObjects  )
+

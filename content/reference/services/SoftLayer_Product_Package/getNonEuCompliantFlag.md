@@ -29,3 +29,4 @@ Retrieve whether the package is not in compliance with EU support.
 
 ### Return Values
 boolean
+

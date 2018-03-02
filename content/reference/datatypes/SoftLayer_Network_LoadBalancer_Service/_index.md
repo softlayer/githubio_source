@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Network_LoadBalancer_Service
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_LoadBalancer_Service' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Service' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Service' >Datatype</a></li>
     </ul>
 </div>
 
@@ -21,6 +21,16 @@ classes:
 The SoftLayer_Network_LoadBalancer_Service data type contains all the information relating to a specific service (destination) on a particular load balancer. 
 
 Information retained on the object itself is the the source and destination of the service, routing type, weight, and whether or not the service is currently enabled. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_LoadBalancer_Service::getObject](/reference/services/SoftLayer_Network_LoadBalancer_Service/getObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -151,6 +161,7 @@ Information retained on the object itself is the the source and destination of t
             <div class='views-field-body'>The load balancer that this service belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_LoadBalancer_VirtualIpAddress </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

@@ -29,3 +29,4 @@ Retrieve information regarding the datacenter in which a piece of hardware resid
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+

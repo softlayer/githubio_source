@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Account_Agreement
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Account_Agreement' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Agreement' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Agreement' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -115,6 +120,22 @@ classes:
             <span class='views-field-title'><a href="#topLevelBillingItems" name=topLevelBillingItems>topLevelBillingItems</a></span>
             <div class='views-field-body'>The top level billing item associated with an agreement. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#attachedBillingAgreementFileCount" name=attachedBillingAgreementFileCount>attachedBillingAgreementFileCount</a></span>
+            <div class='views-field-body'>A count of the files attached to an agreement. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#billingItemCount" name=billingItemCount>billingItemCount</a></span>
+            <div class='views-field-body'>A count of the billing items associated with an agreement. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#topLevelBillingItemCount" name=topLevelBillingItemCount>topLevelBillingItemCount</a></span>
+            <div class='views-field-body'>A count of the top level billing item associated with an agreement. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

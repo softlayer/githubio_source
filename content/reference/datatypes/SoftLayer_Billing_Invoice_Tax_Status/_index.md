@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Billing_Invoice_Tax_Status
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Billing_Invoice_Tax_Status' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Status' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Status' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The invoice tax status data type models a single status or state that an invoice can reflect in regard to an integration with a third-party tax calculation service. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

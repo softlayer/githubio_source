@@ -26,3 +26,4 @@ Issues a ping command to the server and returns the ping response.
 
 ### Return Values
 string
+

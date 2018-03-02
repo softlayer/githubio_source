@@ -26,3 +26,4 @@ This method will return the service provider metadata in XML format.
 
 ### Return Values
 string
+

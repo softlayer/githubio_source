@@ -26,7 +26,9 @@ A network VLAN type is a value representing the type of a network VLAN. The poss
 
 * STANDARD - A VLAN for normal server or guest use
 * GATEWAY - A VLAN designated for use as a network gateway VLAN
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

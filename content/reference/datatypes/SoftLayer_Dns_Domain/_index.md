@@ -13,12 +13,32 @@ classes:
 # SoftLayer_Dns_Domain
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Dns_Domain' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Dns_Domain' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Dns_Domain' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Dns_Domain data type represents a single DNS domain record hosted on the SoftLayer nameservers. Domains contain general information about the domain name such as name and serial. Individual records such as A, AAAA, CTYPE, and MX records are stored in the domain's associated [[SoftLayer_Dns_Domain_ResourceRecord (type)|SoftLayer_Dns_Domain_ResourceRecord]] records. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Account::getDomains](/reference/services/SoftLayer_Account/getDomains )
+*  [SoftLayer_Dns_Domain::getObject](/reference/services/SoftLayer_Dns_Domain/getObject )
+*  [SoftLayer_Dns_Domain_ResourceRecord::getDomain](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/getDomain )
+
+
+
+### seeAlso
+
+* [SoftLayer_Dns_Domain_ResourceRecord (type)](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord (type) )
+
+
+* [SoftLayer_Dns_Secondary (type)](/reference/datatypes/SoftLayer_Dns_Secondary (type) )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -80,6 +100,12 @@ The SoftLayer_Dns_Domain data type represents a single DNS domain record hosted 
             <span class='views-field-title'><a href="#soaResourceRecord" name=soaResourceRecord>soaResourceRecord</a></span>
             <div class='views-field-body'>The start of authority (SOA) record contains authoritative and propagation details for a DNS zone. This property is not considered in requests to createObject and editObject. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SoaType'>SoftLayer_Dns_Domain_ResourceRecord_SoaType </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#resourceRecordCount" name=resourceRecordCount>resourceRecordCount</a></span>
+            <div class='views-field-body'>A count of the individual records contained within a domain record. These include but are not limited to A, AAAA, MX, CTYPE, SPF and TXT records. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

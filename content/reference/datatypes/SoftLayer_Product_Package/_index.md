@@ -13,12 +13,23 @@ classes:
 # SoftLayer_Product_Package
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Product_Package' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Product_Package' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Product_Package' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Product_Package data type contains information about packages from which orders can be generated. Packages contain general information regarding what is in them, where they are currently sold, availability, and pricing. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Product_Package_Items::getObject](/reference/services/SoftLayer_Product_Package_Items/getObject )
+*  [SoftLayer_Product_Package_Item_Prices::getObject](/reference/services/SoftLayer_Product_Package_Item_Prices/getObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -325,6 +336,102 @@ The SoftLayer_Product_Package data type contains information about packages from
             <span class='views-field-title'><a href="#type" name=type>type</a></span>
             <div class='views-field-body'>The type of service offering. This property can be used to help filter packages. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Package_Type'>SoftLayer_Product_Package_Type </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#accountRestrictedActivePresetCount" name=accountRestrictedActivePresetCount>accountRestrictedActivePresetCount</a></span>
+            <div class='views-field-body'>A count of the preset configurations available only for the authenticated account and this package. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#accountRestrictedCategoryCount" name=accountRestrictedCategoryCount>accountRestrictedCategoryCount</a></span>
+            <div class='views-field-body'>A count of the results from this call are similar to [[SoftLayer_Product_Package/getCategories|getCategories]], but these ONLY include account-restricted prices. Not all accounts have restricted pricing. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#activePresetCount" name=activePresetCount>activePresetCount</a></span>
+            <div class='views-field-body'>A count of the available preset configurations for this package. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#activeRamItemCount" name=activeRamItemCount>activeRamItemCount</a></span>
+            <div class='views-field-body'>A count of a collection of valid RAM items available for purchase in this package. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#activeServerItemCount" name=activeServerItemCount>activeServerItemCount</a></span>
+            <div class='views-field-body'>A count of a collection of valid server items available for purchase in this package. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#activeSoftwareItemCount" name=activeSoftwareItemCount>activeSoftwareItemCount</a></span>
+            <div class='views-field-body'>A count of a collection of valid software items available for purchase in this package. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#activeUsagePriceCount" name=activeUsagePriceCount>activeUsagePriceCount</a></span>
+            <div class='views-field-body'>A count of a collection of [[SoftLayer_Product_Item_Price]] objects for pay-as-you-go usage. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#attributeCount" name=attributeCount>attributeCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#availableLocationCount" name=availableLocationCount>availableLocationCount</a></span>
+            <div class='views-field-body'>A count of a collection of valid locations for this package. (Deprecated - Use [[SoftLayer_Product_Package/getRegions|getRegions]]) </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#configurationCount" name=configurationCount>configurationCount</a></span>
+            <div class='views-field-body'>A count of the item categories associated with a package, including information detailing which item categories are required as part of a SoftLayer product order. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#defaultRamItemCount" name=defaultRamItemCount>defaultRamItemCount</a></span>
+            <div class='views-field-body'>A count of a collection of valid RAM items available for purchase in this package. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#deploymentCount" name=deploymentCount>deploymentCount</a></span>
+            <div class='views-field-body'>A count of the package that represents a multi-server solution. (Deprecated) </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#deploymentPackageCount" name=deploymentPackageCount>deploymentPackageCount</a></span>
+            <div class='views-field-body'>A count of the packages that are allowed in a multi-server solution. (Deprecated) </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#itemCount" name=itemCount>itemCount</a></span>
+            <div class='views-field-body'>A count of a collection of valid items available for purchase in this package. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#itemPriceCount" name=itemPriceCount>itemPriceCount</a></span>
+            <div class='views-field-body'>A count of a collection of SoftLayer_Product_Item_Prices that are valid for this package. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#itemPriceReferenceCount" name=itemPriceReferenceCount>itemPriceReferenceCount</a></span>
+            <div class='views-field-body'>A count of cross reference for item prices </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#locationCount" name=locationCount>locationCount</a></span>
+            <div class='views-field-body'>A count of a collection of valid locations for this package. (Deprecated - Use [[SoftLayer_Product_Package/getRegions|getRegions]]) </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#orderPremiumCount" name=orderPremiumCount>orderPremiumCount</a></span>
+            <div class='views-field-body'>A count of the premium price modifiers associated with the [[SoftLayer_Product_Item_Price]] and [[SoftLayer_Location]] objects in a package. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#regionCount" name=regionCount>regionCount</a></span>
+            <div class='views-field-body'>A count of the regional locations that a package is available in. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

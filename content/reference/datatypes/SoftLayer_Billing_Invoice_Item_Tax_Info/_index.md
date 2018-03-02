@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 Information about the tax rates that apply to a particular invoice item. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -136,6 +141,7 @@ Information about the tax rates that apply to a particular invoice item.
             <div class='views-field-body'>This is the currency the invoice will be converted to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

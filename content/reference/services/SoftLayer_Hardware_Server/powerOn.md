@@ -26,3 +26,4 @@ Power on server via its remote management card.  If a reboot command has been is
 
 ### Return Values
 boolean
+

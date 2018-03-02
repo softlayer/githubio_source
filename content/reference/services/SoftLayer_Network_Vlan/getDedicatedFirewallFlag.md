@@ -29,3 +29,4 @@ Retrieve a flag indicating that a network vlan is on a Hardware Firewall (Dedica
 
 ### Return Values
 integer
+

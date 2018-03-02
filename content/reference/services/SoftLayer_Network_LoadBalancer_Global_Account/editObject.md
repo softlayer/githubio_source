@@ -52,3 +52,4 @@ There is a limit to the maximum number of hosts that you are allowed to add, and
 
 ### Return Values
 boolean
+

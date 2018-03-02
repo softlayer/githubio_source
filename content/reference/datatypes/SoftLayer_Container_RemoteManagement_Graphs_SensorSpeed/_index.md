@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Container_RemoteManagement_Graphs_SensorSpeed contains graphs to  display speed for each of the server's fans.  Fan speeds are gathered from the server's remote management card. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

@@ -26,3 +26,10 @@ Retrieve a PDF record of a SoftLayer invoice. SoftLayer keeps PDF records of all
 
 ### Return Values
 binary data
+
+### External Links
+
+
+* [Portable Document Format at Wikipedia](http://en.wikipedia.org/wiki/Portable_Document_Format)
+
+

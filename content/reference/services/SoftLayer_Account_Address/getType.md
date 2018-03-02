@@ -29,3 +29,4 @@ Retrieve an account address' type.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account_Address_Type'>SoftLayer_Account_Address_Type </a>
+

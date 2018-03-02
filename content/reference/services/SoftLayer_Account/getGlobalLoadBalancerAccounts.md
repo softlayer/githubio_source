@@ -29,3 +29,4 @@ Retrieve the global load balancer accounts for a softlayer customer account.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Account'>SoftLayer_Network_LoadBalancer_Global_Account[] </a>
+

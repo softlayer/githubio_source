@@ -30,3 +30,4 @@ Retrieve the network components that are connected to this VLAN through a trunk.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Component_Network_Vlan_Trunk'>SoftLayer_Network_Component_Network_Vlan_Trunk[] </a>
+

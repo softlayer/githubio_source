@@ -28,3 +28,4 @@ getMaintenceWindowForTicket() returns a specific maintenance window
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Window'>SoftLayer_Provisioning_Maintenance_Window[] </a>
+

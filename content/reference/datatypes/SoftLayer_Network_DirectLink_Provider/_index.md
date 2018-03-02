@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Network_DirectLink_Provider
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_DirectLink_Provider' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_DirectLink_Provider' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_DirectLink_Provider' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_DirectLink_Provider presents a structure containing attributes of a Direct Link provider. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

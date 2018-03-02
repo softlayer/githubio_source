@@ -29,6 +29,21 @@ SoftLayer_Hardware_Status models the inventory state of any piece of hardware in
 
 
 Servers in production and in use should stay in the ACTIVE state. If a server's status ever reads anything else then please contact SoftLayer support. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Hardware::getHardwareStatus](/reference/services/SoftLayer_Hardware/getHardwareStatus )
+
+
+
+### seeAlso
+
+* [SoftLayer_Hardware](/reference/datatypes/SoftLayer_Hardware )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

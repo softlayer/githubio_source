@@ -26,3 +26,4 @@ Return an account's next invoice in PDF format. The "next invoice" is what a cus
 
 ### Return Values
 binary data
+

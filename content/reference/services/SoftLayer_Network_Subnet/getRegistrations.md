@@ -30,3 +30,4 @@ Retrieve all registrations that have been created for this subnet.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration'>SoftLayer_Network_Subnet_Registration[] </a>
+

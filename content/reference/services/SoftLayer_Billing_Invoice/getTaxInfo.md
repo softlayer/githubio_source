@@ -29,3 +29,4 @@ Retrieve this is the tax information that applies to tax auditing. This is the o
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Info'>SoftLayer_Billing_Invoice_Tax_Info </a>
+

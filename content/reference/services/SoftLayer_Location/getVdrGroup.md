@@ -29,3 +29,4 @@ Retrieve a location can be a member of 1 Bandwidth Pooling Group. This will show
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location_Group_Location_CrossReference'>SoftLayer_Location_Group_Location_CrossReference </a>
+

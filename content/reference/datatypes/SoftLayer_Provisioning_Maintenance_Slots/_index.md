@@ -13,12 +13,22 @@ classes:
 # SoftLayer_Provisioning_Maintenance_Slots
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Provisioning_Maintenance_Slots' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Slots' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Slots' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Provisioning_Maintenance_Slots represent the available slots for a given maintenance window at a SoftLayer data center. 
+
+
+
+### seeAlso
+
+* [SoftLayer_Product_Order_Upgrade_Request](/reference/datatypes/SoftLayer_Product_Order_Upgrade_Request )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

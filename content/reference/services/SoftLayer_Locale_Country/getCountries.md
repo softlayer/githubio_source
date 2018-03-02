@@ -27,3 +27,4 @@ Use this method to retrieve a list of countries and locale information such as c
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Locale_Country'>SoftLayer_Locale_Country[] </a>
+

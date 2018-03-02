@@ -19,6 +19,27 @@ classes:
 
 ## Description 
 This container is used for CDN content authentication service. 
+
+### External Links
+
+
+* [CDN Services at softlayer.com](http://www.softlayer.com/services_cdnlayer.html)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::authenticateResourceRequest](/reference/services/SoftLayer_Network_ContentDelivery_Account/authenticateResourceRequest )
+
+
+
+### seeAlso
+
+* [SoftLayer_Network_ContentDelivery_Account](/reference/datatypes/SoftLayer_Network_ContentDelivery_Account )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

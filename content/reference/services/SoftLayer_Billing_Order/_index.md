@@ -27,10 +27,15 @@ Once an order is paid it moves from QUOTE_PENDING to PENDING_APPROVAL state.
 Orders are created with contact information duplicated from the [[SoftLayer_Account (type)|SoftLayer_Account data type]] or by manual entry. We do this in order to maintain a history of an account's contact information as orders are generated. 
 
 Query the [[SoftLayer_Account]] service to get a list of orders for your account. 
+
+
 ### associatedMethods
 
-        SoftLayer_Account::getBalance1        SoftLayer_Account::getInvoices1        
-        
+*  [SoftLayer_Account::getBalance](/reference/services/SoftLayer_Account/getBalance )
+*  [SoftLayer_Account::getInvoices](/reference/services/SoftLayer_Account/getInvoices )
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

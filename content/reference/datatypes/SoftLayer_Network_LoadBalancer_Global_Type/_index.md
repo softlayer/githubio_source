@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Network_LoadBalancer_Global_Type data type represents a single load balance method that can be assigned to a global load balancer account. The load balance method determines how hosts in a load balancing pool are chosen by the global load balancers. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

@@ -29,3 +29,4 @@ Retrieve determine if hardware object has Software Guard Extension (SGX) enabled
 
 ### Return Values
 boolean
+

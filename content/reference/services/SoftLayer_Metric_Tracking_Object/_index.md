@@ -21,8 +21,14 @@ classes:
 Metric tracking objects provides a common interface to all metrics provided by SoftLayer. These metrics range from network component traffic for a server to aggregated Bandwidth Pooling traffic and more. Every object within SoftLayer's range of objects that has data that can be tracked over time has an associated tracking object. 
 
 The SoftLayer_Metric_Tracking_Object service contains methods that allow users to retrieve data from these tracking objects in raw and graph form. 
+
+
+
 ### seeAlso
-        SoftLayer_Metric_Tracking_Object_Data1                
+
+* [SoftLayer_Metric_Tracking_Object_Data](/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data )
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

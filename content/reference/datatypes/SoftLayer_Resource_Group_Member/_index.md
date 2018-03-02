@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -75,6 +80,22 @@ classes:
             <span class='views-field-title'><a href="#type" name=type>type</a></span>
             <div class='views-field-body'>A resource group member's type. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Type'>SoftLayer_Resource_Group_Member_Type </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#attributeCount" name=attributeCount>attributeCount</a></span>
+            <div class='views-field-body'>A count of a resource group member's associated attributes. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#descendantMemberCount" name=descendantMemberCount>descendantMemberCount</a></span>
+            <div class='views-field-body'>A count of a resource group member's associated member descendants. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#roleCount" name=roleCount>roleCount</a></span>
+            <div class='views-field-body'>A count of a resource group member's associated roles. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The McAfee_Epolicy_Orchestrator_Version36_Agent_Details data type represents a virus scan agent and contains details about its version.
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -51,6 +56,7 @@ The McAfee_Epolicy_Orchestrator_Version36_Agent_Details data type represents a v
             <div class='views-field-body'>The current anti-virus policy of an agent. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p>McAfee_Epolicy_Orchestrator_Version36_Agent_Parent_Details</p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

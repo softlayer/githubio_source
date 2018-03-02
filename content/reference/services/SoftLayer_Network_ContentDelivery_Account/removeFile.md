@@ -27,3 +27,4 @@ With this method you can remove a file or a directory on the CDN FTP server. If 
 
 ### Return Values
 boolean
+

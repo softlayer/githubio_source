@@ -30,3 +30,4 @@ Retrieve references to all tags for this VLAN.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>
+

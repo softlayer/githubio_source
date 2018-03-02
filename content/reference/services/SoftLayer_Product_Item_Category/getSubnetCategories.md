@@ -27,3 +27,4 @@ This method returns a list of subnet categories.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>
+

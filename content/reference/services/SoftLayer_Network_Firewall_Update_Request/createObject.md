@@ -30,3 +30,4 @@ Create a new firewall update request. The SoftLayer_Network_Firewall_Update_Requ
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request'>SoftLayer_Network_Firewall_Update_Request </a>
+

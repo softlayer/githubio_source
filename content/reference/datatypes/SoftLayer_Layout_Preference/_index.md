@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Layout_Preference contains definitions for default layout item preferences 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -56,6 +61,7 @@ The SoftLayer_Layout_Preference contains definitions for default layout item pre
             <div class='views-field-body'>The type of the preference object </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Layout_Preference_Type'>SoftLayer_Layout_Preference_Type </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

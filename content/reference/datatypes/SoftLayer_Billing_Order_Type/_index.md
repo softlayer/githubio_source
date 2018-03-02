@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 The SoftLayer_Billing_Oder_Type data type contains general information relating to all the different types of orders that exist. This data pertains only to where an order was generated from, from any of the SoftLayer websites with ordering interfaces or directly through the SoftLayer API. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Billing_Order::getType](/reference/services/SoftLayer_Billing_Order/getType )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

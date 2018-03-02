@@ -13,12 +13,28 @@ classes:
 # SoftLayer_Dns_Domain_Registration
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Dns_Domain_Registration' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Dns_Domain_Registration data type represents a domain registration record. 
+
+### External Links
+
+
+* [Domain Name Registry at Wikipedia](http://en.wikipedia.org/wiki/Domain_name_registration)
+
+
+
+
+### seeAlso
+
+* [SoftLayer_Dns_Domain_Registration_Status](/reference/datatypes/SoftLayer_Dns_Domain_Registration_Status )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -101,6 +117,7 @@ The SoftLayer_Dns_Domain_Registration data type represents a domain registration
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

@@ -29,3 +29,4 @@ Retrieve a hardware's function.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Function'>SoftLayer_Hardware_Function </a>
+

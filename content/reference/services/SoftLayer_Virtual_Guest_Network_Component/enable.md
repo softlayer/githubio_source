@@ -26,3 +26,4 @@ Allow incoming and outgoing bandwidth traffic to a network component
 
 ### Return Values
 boolean
+

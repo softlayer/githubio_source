@@ -26,3 +26,4 @@ Completes invitation process for an OpenIdConnect user created by Bluemix Unifie
 
 ### Return Values
 void
+

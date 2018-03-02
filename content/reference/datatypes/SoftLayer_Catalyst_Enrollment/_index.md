@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Catalyst_Enrollment
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Catalyst_Enrollment' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Catalyst_Enrollment' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Catalyst_Enrollment' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -106,6 +111,7 @@ classes:
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

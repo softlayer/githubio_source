@@ -26,3 +26,4 @@ Whether this firewall qualifies for High Availability upgrade.
 
 ### Return Values
 boolean
+

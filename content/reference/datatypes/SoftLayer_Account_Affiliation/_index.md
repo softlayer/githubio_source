@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Account_Affiliation
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Account_Affiliation' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Affiliation' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Affiliation' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 This service allows for a unique identifier to be associated to an existing customer account. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +71,7 @@ This service allows for a unique identifier to be associated to an existing cust
             <div class='views-field-body'>The account that an affiliation belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

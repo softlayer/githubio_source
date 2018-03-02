@@ -29,3 +29,4 @@ Retrieve the type of service offering. This property can be used to help filter 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Package_Type'>SoftLayer_Product_Package_Type </a>
+

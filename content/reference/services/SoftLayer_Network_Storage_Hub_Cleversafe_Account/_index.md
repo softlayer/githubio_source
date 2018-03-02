@@ -19,7 +19,9 @@ classes:
 
 ## Description
 This class provides an interface for the management of IBM Cloud Object Storage Accounts and Credentials. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

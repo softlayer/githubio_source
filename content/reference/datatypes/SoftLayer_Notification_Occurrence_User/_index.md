@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Notification_Occurrence_User
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Notification_Occurrence_User' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Notification_Occurrence_User' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Notification_Occurrence_User' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 This type contains general information relating to a user that may be impacted by a [[SoftLayer_Notification_Occurrence_Event]]. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -70,6 +75,12 @@ This type contains general information relating to a user that may be impacted b
             <span class='views-field-title'><a href="#user" name=user>user</a></span>
             <div class='views-field-body'>The impacted user. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#impactedResourceCount" name=impactedResourceCount>impactedResourceCount</a></span>
+            <div class='views-field-body'>A count of a collection of resources impacted by the associated event. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

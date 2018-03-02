@@ -19,7 +19,9 @@ classes:
 
 ## Description
 Configuration definition gives you details of the value that you're setting. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

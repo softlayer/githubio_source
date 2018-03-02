@@ -29,3 +29,4 @@ Retrieve an order's total recurring amount. Taxes will be applied for non-tax-ex
 
 ### Return Values
 decimal
+

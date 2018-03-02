@@ -19,7 +19,9 @@ classes:
 
 ## Description
 SoftLayer's resource group service allows users to access a broad overview of the resource group and its members 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

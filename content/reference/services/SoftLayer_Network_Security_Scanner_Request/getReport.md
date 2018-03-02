@@ -26,3 +26,4 @@ Get the vulnerability report for a scan request, formatted as HTML string. Previ
 
 ### Return Values
 string
+

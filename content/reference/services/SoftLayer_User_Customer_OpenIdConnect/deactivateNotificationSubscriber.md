@@ -28,3 +28,4 @@ Create a new subscriber for a given resource.
 
 ### Return Values
 boolean
+

@@ -29,3 +29,4 @@ Retrieves all available configuration templates
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template[] </a>
+

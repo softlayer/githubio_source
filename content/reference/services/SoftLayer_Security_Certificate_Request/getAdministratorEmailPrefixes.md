@@ -25,3 +25,4 @@ Gets the email accounts that can be used to validate a certificate to a domain.
 
 ### Return Values
 array of strings
+

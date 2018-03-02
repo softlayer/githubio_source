@@ -19,7 +19,9 @@ classes:
 
 ## Description
 An inside VLAN is a VLAN which is attached to a network gateway and can be routed or bypassed. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

@@ -26,3 +26,4 @@ The getTransferInformation method checks to see if the domain can be transferred
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Transfer_Information'>SoftLayer_Container_Dns_Domain_Registration_Transfer_Information </a>
+

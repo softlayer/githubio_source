@@ -26,3 +26,4 @@ Cancel a load balancer with the given uuid. The billing system will execute the 
 
 ### Return Values
 boolean
+

@@ -29,3 +29,4 @@ Retrieve a server's hourly billing status.
 
 ### Return Values
 boolean
+

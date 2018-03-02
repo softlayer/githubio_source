@@ -29,3 +29,4 @@ Retrieve a hardware's allotted detail record. Allotment details link bandwidth a
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Detail'>SoftLayer_Network_Bandwidth_Version1_Allotment_Detail </a>
+

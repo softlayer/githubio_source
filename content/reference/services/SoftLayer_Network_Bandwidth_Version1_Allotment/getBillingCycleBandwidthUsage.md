@@ -30,3 +30,4 @@ Retrieve a virtual rack's raw bandwidth usage data for an account's current bill
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage[] </a>
+

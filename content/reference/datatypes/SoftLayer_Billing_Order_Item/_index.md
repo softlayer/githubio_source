@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Billing_Order_Item
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Billing_Order_Item' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Order_Item' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Order_Item' >Datatype</a></li>
     </ul>
 </div>
 
@@ -21,6 +21,25 @@ classes:
 Every individual item that a SoftLayer customer is billed for is recorded in the SoftLayer_Billing_Item data type. Billing items range from server chassis to hard drives to control panels, bandwidth quota upgrades and port upgrade charges. Softlayer [[SoftLayer_Billing_Invoice|invoices]] are generated from the cost of a customer's billing items. Billing items are copied from the product catalog as they're ordered by customers to create a reference between an account and the billable items they own. 
 
 Billing items exist in a tree relationship. Items are associated with each other by parent/child relationships. Component items such as CPU's, RAM, and software each have a parent billing item for the server chassis they're associated with. Billing Items with a null parent item do not have an associated parent item. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Storage::getBillingItem](/reference/services/SoftLayer_Network_Storage/getBillingItem )
+*  [SoftLayer_Network_LoadBalancer_VirtualIpAddress::getBillingItem](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/getBillingItem )
+
+
+
+### seeAlso
+
+* [SoftLayer_Billing_Item_Hardware](/reference/datatypes/SoftLayer_Billing_Item_Hardware )
+
+
+* [SoftLayer_Billing_Invoice](/reference/datatypes/SoftLayer_Billing_Invoice )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -287,6 +306,32 @@ Billing items exist in a tree relationship. Items are associated with each other
             <span class='views-field-title'><a href="#upgradeItem" name=upgradeItem>upgradeItem</a></span>
             <div class='views-field-body'>The next SoftLayer_Product_Item in the upgrade path for this order item. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#bundledItemCount" name=bundledItemCount>bundledItemCount</a></span>
+            <div class='views-field-body'>A count of the other items included with an ordered item. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#childrenCount" name=childrenCount>childrenCount</a></span>
+            <div class='views-field-body'>A count of the child order items for an order item. All server order items should have children. These children are considered a part of the server. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#itemCategoryAnswerCount" name=itemCategoryAnswerCount>itemCategoryAnswerCount</a></span>
+            <div class='views-field-body'>A count of this is an item's category answers. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#nextOrderChildrenCount" name=nextOrderChildrenCount>nextOrderChildrenCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#storageGroupCount" name=storageGroupCount>storageGroupCount</a></span>
+            <div class='views-field-body'>A count of the drive storage groups that are attached to this billing order item. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

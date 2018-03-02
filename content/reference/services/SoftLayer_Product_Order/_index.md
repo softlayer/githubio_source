@@ -27,7 +27,9 @@ There are several main entry points associated with ordering:
 While this service provides detailed customization for ordering, some customers may find the simplified ordering system sufficient for their needs. For more information, see the following: 
 
 <ul> <li>[[SoftLayer_Virtual_Guest/createObject]] - Simplified virtual server ordering</li> <li>[[SoftLayer_Hardware/createObject]] - Simplified bare metal server ordering</li> </ul> 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

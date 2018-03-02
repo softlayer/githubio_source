@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Network_Application_Delivery_Controller object
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller </a>
+

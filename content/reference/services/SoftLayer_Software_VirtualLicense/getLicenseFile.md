@@ -26,3 +26,4 @@ Attempt to retrieve the file associated with a virtual license, if such a file e
 
 ### Return Values
 binary data
+

@@ -19,7 +19,9 @@ classes:
 
 ## Description
 A trigger that will only execute once on the given date. If the auto scale group is suspended this will not occur. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

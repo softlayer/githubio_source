@@ -29,3 +29,4 @@ Attempt to authenticate a supplied OpenIdConnect access token to the SoftLayer c
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_User_Customer_Portal_Token'>SoftLayer_Container_User_Customer_Portal_Token </a>
+

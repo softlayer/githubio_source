@@ -30,3 +30,4 @@ Retrieve a portal user's security question answers. Some portal users may not ha
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer_Security_Answer'>SoftLayer_User_Customer_Security_Answer[] </a>
+

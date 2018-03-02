@@ -28,3 +28,4 @@ Query a virtualization platform directly to retrieve a list of known guests.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+

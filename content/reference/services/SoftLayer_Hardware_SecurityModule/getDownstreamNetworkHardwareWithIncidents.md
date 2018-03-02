@@ -30,3 +30,4 @@ Retrieve all network hardware with monitoring warnings or errors that are downst
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+

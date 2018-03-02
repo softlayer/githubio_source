@@ -29,3 +29,4 @@ Retrieve indicates if a server is a customer owned device.
 
 ### Return Values
 boolean
+

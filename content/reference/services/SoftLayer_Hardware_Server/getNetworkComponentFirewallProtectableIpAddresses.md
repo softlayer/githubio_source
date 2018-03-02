@@ -28,3 +28,4 @@ Get the IP addresses associated with this server that are protectable by a netwo
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>
+

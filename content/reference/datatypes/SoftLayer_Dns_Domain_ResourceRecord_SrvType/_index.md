@@ -13,12 +13,36 @@ classes:
 # SoftLayer_Dns_Domain_ResourceRecord_SrvType
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SrvType' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SrvType' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 SoftLayer_Dns_Domain_ResourceRecord_SrvType is a SoftLayer_Dns_Domain_ResourceRecord object whose ''type'' property is set to "srv" and defines a DNS SRV record on a SoftLayer hosted domain. 
+
+### External Links
+
+
+* [SRV Record at Wikipedia](http://en.wikipedia.org/wiki/SRV_record)
+
+
+
+### associatedMethods
+
+*  [SoftLayer_Dns_Domain_ResourceRecord_SrvType::createObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/createObject )
+
+
+
+### seeAlso
+
+* [SoftLayer_Dns_Domain](/reference/datatypes/SoftLayer_Dns_Domain )
+
+
+* [SoftLayer_Dns_Domain_ResourceRecord](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -126,6 +150,7 @@ SoftLayer_Dns_Domain_ResourceRecord_SrvType is a SoftLayer_Dns_Domain_ResourceRe
             <div class='views-field-body'>The domain that a resource record belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

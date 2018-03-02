@@ -30,3 +30,4 @@ Retrieve a collection of service cancellation items.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request_Item'>SoftLayer_Billing_Item_Cancellation_Request_Item[] </a>
+

@@ -29,3 +29,4 @@ Retrieve the associated type of this detail object.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Type'>SoftLayer_Account_Regional_Registry_Detail_Type </a>
+

@@ -27,7 +27,9 @@ Once an order is placed from a quote it moves from PENDING to EXPIRED state 2 da
 Quotes could are created with contact information duplicated from the [[SoftLayer_Account (type)|SoftLayer_Account data type]] or by manual entry. We do this in order to maintain a history of an account's contact information as quotes are generated. 
 
 Query the [[SoftLayer_Account]] service to get a list of quotes for your account. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

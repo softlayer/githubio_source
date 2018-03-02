@@ -29,3 +29,4 @@ Retrieve the action taken when a monitor fails.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_ResponseType'>SoftLayer_Network_Monitor_Version1_Query_ResponseType </a>
+

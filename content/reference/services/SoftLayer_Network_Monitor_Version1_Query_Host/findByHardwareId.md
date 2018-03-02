@@ -30,3 +30,4 @@ This behavior can also be accomplished by simply tapping networkMonitors on the 
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host'>SoftLayer_Network_Monitor_Version1_Query_Host[] </a>
+

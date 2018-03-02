@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 OpenStack domain creation details
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

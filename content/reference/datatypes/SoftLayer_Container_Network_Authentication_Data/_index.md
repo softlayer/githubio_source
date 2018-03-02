@@ -19,6 +19,16 @@ classes:
 
 ## Description 
 This object holds authentication data to a server. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::getFtpAttrubutes](/reference/services/SoftLayer_Network_ContentDelivery_Account/getFtpAttrubutes )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

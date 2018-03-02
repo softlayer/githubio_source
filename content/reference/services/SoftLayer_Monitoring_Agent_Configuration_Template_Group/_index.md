@@ -19,7 +19,9 @@ classes:
 
 ## Description
 SoftLayer offers several monitoring packages, each containing multiple monitoring agents. Monitoring packages can have a configuration template group, which consists of configuration templates for all agents in a package. The configuration template group is required when you install a SoftLayer monitoring system on your system for the first time. You will be able to configure per agent basis once your monitoring system is active. Once your monitoring system is active, please refer to [[SoftLayer_Configuration_Template|Configuration Template]]. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

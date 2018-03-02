@@ -29,3 +29,4 @@ Retrieve the related Regional Internet Registry.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Regional_Internet_Registry'>SoftLayer_Network_Regional_Internet_Registry </a>
+

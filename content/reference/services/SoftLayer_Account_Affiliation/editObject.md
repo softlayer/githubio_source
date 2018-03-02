@@ -27,3 +27,4 @@ Edit an affiliation that is associated to an existing account.
 
 ### Return Values
 boolean
+

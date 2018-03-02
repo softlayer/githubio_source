@@ -13,12 +13,31 @@ classes:
 # SoftLayer_Ticket_Attachment_File
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Ticket_Attachment_File' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Ticket_Attachment_File' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Ticket_Attachment_File' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 SoftLayer tickets can have have files attached to them. Attaching a file to a ticket is a good way to report issues, provide documentation, and give examples of an issue. Both SoftLayer customers and employees have the ability to attach files to a ticket. The SoftLayer_Ticket_Attachment_File data type models a single file attached to a ticket. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Ticket::getAttachedFiles](/reference/services/SoftLayer_Ticket/getAttachedFiles )
+*  [SoftLayer_Ticket::getAttachedFile](/reference/services/SoftLayer_Ticket/getAttachedFile )
+
+
+
+### seeAlso
+
+* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+
+
+* [SoftLayer_Ticket_Attachment_Hardware](/reference/datatypes/SoftLayer_Ticket_Attachment_Hardware )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -91,6 +110,7 @@ SoftLayer tickets can have have files attached to them. Attaching a file to a ti
             <div class='views-field-body'>The ticket that a file is attached to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Ticket_Update'>SoftLayer_Ticket_Update </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

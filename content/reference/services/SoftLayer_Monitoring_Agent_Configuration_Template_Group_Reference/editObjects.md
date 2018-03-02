@@ -26,3 +26,13 @@ This method updates a set of SoftLayer_Monitoring_Agent_Configuration_Template_G
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference::createObject ](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference/createObject  )
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference::createObjects ](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference/createObjects  )
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference::getObject ](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference/getObject  )
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference::getAllObjects ](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference/getAllObjects  )
+*  [SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference::editObject ](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference/editObject  )
+

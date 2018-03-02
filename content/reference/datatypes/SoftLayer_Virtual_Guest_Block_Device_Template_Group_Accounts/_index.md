@@ -23,6 +23,21 @@ The SoftLayer_Virtual_Guest_Block_Device_Template_Group_Accounts data type repre
 All accounts other than the image template group owner have read-only access to that image template group. 
 
 It is important to note that this data type should only exist to give accounts access to the parent template group object, not the child.  All image template sharing between accounts should occur on the parent object. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Virtual_Guest_Block_Device_Template_Group::getAccountReferences](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getAccountReferences )
+
+
+
+### seeAlso
+
+* [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -65,6 +80,7 @@ It is important to note that this data type should only exist to give accounts a
             <div class='views-field-body'>The [[SoftLayer_Virtual_Guest_Block_Device_Template_Group|image template group]] that is shared with an account. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

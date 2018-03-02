@@ -29,3 +29,4 @@ getObject retrieves the SoftLayer_Hardware_Component_Partition_Template object w
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template'>SoftLayer_Hardware_Component_Partition_Template </a>
+

@@ -29,3 +29,4 @@ Retrieve a hardware's status.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Status'>SoftLayer_Hardware_Status </a>
+

@@ -26,3 +26,4 @@ This method enables CDN access log.
 
 ### Return Values
 boolean
+

@@ -28,3 +28,4 @@ Retrieve a SoftLayer server's public network component. Some servers are only co
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>
+

@@ -19,6 +19,19 @@ classes:
 
 ## Description 
 This object allows you to find the history of password changes for a specific SoftLayer_Software Component 
+
+
+
+### seeAlso
+
+* [SoftLayer_Software_Component](/reference/datatypes/SoftLayer_Software_Component )
+
+
+* [SoftLayer_Software_Password](/reference/datatypes/SoftLayer_Software_Password )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -66,6 +79,7 @@ This object allows you to find the history of password changes for a specific So
             <div class='views-field-body'>An installed and licensed instance of a piece of software </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

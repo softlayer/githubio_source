@@ -30,3 +30,4 @@ Retrieve a guest's associated EVault network storage service account.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+

@@ -29,3 +29,4 @@ Retrieve blade Bay
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware_Blade'>SoftLayer_Hardware_Blade </a>
+

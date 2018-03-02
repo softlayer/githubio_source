@@ -19,7 +19,9 @@ classes:
 
 ## Description
 SoftLayer_Configuration_Template_Section_Definition_Type further defines the value of a configuration definition. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

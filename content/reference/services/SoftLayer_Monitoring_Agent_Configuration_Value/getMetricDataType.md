@@ -29,3 +29,4 @@ Retrieve the metric data type used to retrieve metric data currently being track
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Metric_Data_Type'>SoftLayer_Container_Metric_Data_Type </a>
+

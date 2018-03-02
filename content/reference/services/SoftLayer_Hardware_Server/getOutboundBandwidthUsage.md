@@ -29,3 +29,4 @@ Retrieve the sum of all the outbound network traffic data for the last 30 days.
 
 ### Return Values
 decimal
+

@@ -29,3 +29,4 @@ Retrieve the associated partnership for a schedule.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Storage_Partnership'>SoftLayer_Network_Storage_Partnership </a>
+

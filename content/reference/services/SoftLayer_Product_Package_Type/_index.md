@@ -19,7 +19,9 @@ classes:
 
 ## Description
 The [[SoftLayer_Product_Package_Type]] object indicates the type for a service offering (package). The type can be used to filter packages. To find all the available types, call `getAllObjects` on this class. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

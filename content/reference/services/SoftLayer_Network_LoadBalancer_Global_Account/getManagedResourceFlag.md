@@ -29,3 +29,4 @@ Retrieve a flag indicating that the global load balancer is a managed resource.
 
 ### Return Values
 boolean
+

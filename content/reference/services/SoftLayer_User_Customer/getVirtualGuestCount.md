@@ -26,3 +26,4 @@ Retrieve the number of CloudLayer Computing Instances that a portal user has acc
 
 ### Return Values
 integer
+

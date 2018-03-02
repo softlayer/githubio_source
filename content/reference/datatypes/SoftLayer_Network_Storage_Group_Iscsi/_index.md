@@ -13,11 +13,16 @@ classes:
 # SoftLayer_Network_Storage_Group_Iscsi
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Storage_Group_Iscsi' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Storage_Group_Iscsi' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Storage_Group_Iscsi' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+
+
+
+
+
 
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
@@ -105,6 +110,17 @@ classes:
             <span class='views-field-title'><a href="#serviceResource" name=serviceResource>serviceResource</a></span>
             <div class='views-field-body'>The network resource this group is created on. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Service_Resource'>SoftLayer_Network_Service_Resource </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#allowedHostCount" name=allowedHostCount>allowedHostCount</a></span>
+            <div class='views-field-body'>A count of the allowed hosts list for this group. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#attachedVolumeCount" name=attachedVolumeCount>attachedVolumeCount</a></span>
+            <div class='views-field-body'>A count of the network storage volumes this group is attached to. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

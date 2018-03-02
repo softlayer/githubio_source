@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Notification_User_Subscriber
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Notification_User_Subscriber' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber' >Datatype</a></li>
     </ul>
 </div>
 
@@ -21,6 +21,16 @@ classes:
 A notification subscriber will have details pertaining to the subscriber's notification subscription.  You can receive details such as preferences, details of the preferences, delivery methods and the delivery methods for the subscriber. 
 
 NOTE: There are preferences and delivery methods that cannot be modified.  Also, there are some subscriptions that are required. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Notification::getObject](/reference/services/SoftLayer_Notification/getObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -87,6 +97,22 @@ NOTE: There are preferences and delivery methods that cannot be modified.  Also,
             <span class='views-field-title'><a href="#userRecord" name=userRecord>userRecord</a></span>
             <div class='views-field-body'>User record for the subscription. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#deliveryMethodCount" name=deliveryMethodCount>deliveryMethodCount</a></span>
+            <div class='views-field-body'>A count of the delivery methods used to send the subscribed notification. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#preferenceCount" name=preferenceCount>preferenceCount</a></span>
+            <div class='views-field-body'>A count of associated subscriber preferences used for the notification subscription. For example, preferences include number of deliveries (limit) and threshold. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#preferencesDetailCount" name=preferencesDetailCount>preferencesDetailCount</a></span>
+            <div class='views-field-body'>A count of preference details such as description, minimum and maximum limits, default value and unit of measure. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -28,3 +28,4 @@ Retrieve the total one-time charge amount of an account's next invoice measured 
 
 ### Return Values
 decimal
+

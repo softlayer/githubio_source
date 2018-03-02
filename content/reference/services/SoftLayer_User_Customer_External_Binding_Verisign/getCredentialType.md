@@ -29,3 +29,4 @@ Retrieve the type of VeriSign credential. This can be either 'Hardware' or 'Soft
 
 ### Return Values
 string
+

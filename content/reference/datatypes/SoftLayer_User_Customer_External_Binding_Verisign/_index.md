@@ -13,7 +13,7 @@ classes:
 # SoftLayer_User_Customer_External_Binding_Verisign
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_User_Customer_External_Binding_Verisign' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_User_Customer_External_Binding_Verisign' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_User_Customer_External_Binding_Verisign' >Datatype</a></li>
     </ul>
 </div>
 
@@ -31,6 +31,11 @@ The information provided by the VeriSign external binding data type includes:
 
 
 SoftLayer users with an active external binding will be prohibited from using the API for security reasons. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -137,6 +142,12 @@ SoftLayer users with an active external binding will be prohibited from using th
             <span class='views-field-title'><a href="#vendor" name=vendor>vendor</a></span>
             <div class='views-field-body'>The vendor of an external authentication binding. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_External_Binding_Vendor'>SoftLayer_User_External_Binding_Vendor </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#attributeCount" name=attributeCount>attributeCount</a></span>
+            <div class='views-field-body'>A count of attributes of an external authentication binding. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

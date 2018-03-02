@@ -19,7 +19,9 @@ classes:
 
 ## Description
 SoftLayer Customers can use this service to view all of the available notifications that can be subscribed to. Some of the notifications are required while others are not. 
-        
+
+
+
         
 <div id="properties" class="content">
     <h2>Methods</h2>

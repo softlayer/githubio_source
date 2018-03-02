@@ -26,3 +26,9 @@ Use this method to delete a collection of SoftLayer portal VPN user subnet overr
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Service_Vpn_Overrides::deleteObject](/reference/services/SoftLayer_Network_Service_Vpn_Overrides/deleteObject )
+

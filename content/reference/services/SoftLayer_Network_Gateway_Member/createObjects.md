@@ -28,3 +28,4 @@ Create multiple new hardware members on the gateway. This also asynchronously se
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Gateway_Member'>SoftLayer_Network_Gateway_Member[] </a>
+

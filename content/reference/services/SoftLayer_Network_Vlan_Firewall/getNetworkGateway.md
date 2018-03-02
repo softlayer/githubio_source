@@ -29,3 +29,4 @@ Retrieve the gateway associated with this firewall, if any.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a>
+

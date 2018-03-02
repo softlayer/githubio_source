@@ -13,12 +13,28 @@ classes:
 # SoftLayer_Location_Datacenter
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Location_Datacenter' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Location_Datacenter' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Location_Datacenter' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 SoftLayer_Location_Datacenter extends the [[SoftLayer_Location]] data type to include datacenter-specific properties. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Hardware::getDatacenter](/reference/services/SoftLayer_Hardware/getDatacenter )
+*  [SoftLayer_Location::getDatacenters](/reference/services/SoftLayer_Location/getDatacenters )
+
+
+
+### seeAlso
+
+* [SoftLayer_Location (type)](/reference/datatypes/SoftLayer_Location (type) )
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -185,6 +201,77 @@ SoftLayer_Location_Datacenter extends the [[SoftLayer_Location]] data type to in
             <span class='views-field-title'><a href="#vdrGroup" name=vdrGroup>vdrGroup</a></span>
             <div class='views-field-body'>A location can be a member of 1 Bandwidth Pooling Group. This will show which group to which a location belongs. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Location_Group_Location_CrossReference'>SoftLayer_Location_Group_Location_CrossReference </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#activeItemPresaleEventCount" name=activeItemPresaleEventCount>activeItemPresaleEventCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#activePresaleEventCount" name=activePresaleEventCount>activePresaleEventCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#backboneDependentCount" name=backboneDependentCount>backboneDependentCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#backendHardwareRouterCount" name=backendHardwareRouterCount>backendHardwareRouterCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#boundSubnetCount" name=boundSubnetCount>boundSubnetCount</a></span>
+            <div class='views-field-body'>A count of subnets which are directly bound to one or more routers in a given datacenter, and currently allow routing. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#brandCountryRestrictionCount" name=brandCountryRestrictionCount>brandCountryRestrictionCount</a></span>
+            <div class='views-field-body'>A count of this references relationship between brands, locations and countries associated with a user's account that are ineligible when ordering products. For example, the India datacenter may not be available on this brand for customers that live in Great Britain. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#frontendHardwareRouterCount" name=frontendHardwareRouterCount>frontendHardwareRouterCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#groupCount" name=groupCount>groupCount</a></span>
+            <div class='views-field-body'>A count of a location can be a member of 1 or more groups. This will show which groups to which a location belongs. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#hardwareFirewallCount" name=hardwareFirewallCount>hardwareFirewallCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#hardwareRouterCount" name=hardwareRouterCount>hardwareRouterCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#presaleEventCount" name=presaleEventCount>presaleEventCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#priceGroupCount" name=priceGroupCount>priceGroupCount</a></span>
+            <div class='views-field-body'>A count of a location can be a member of 1 or more Price Groups. This will show which groups to which a location belongs. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#regionCount" name=regionCount>regionCount</a></span>
+            <div class='views-field-body'>A count of a location can be a member of 1 or more regions. This will show which regions to which a location belongs. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#routableBoundSubnetCount" name=routableBoundSubnetCount>routableBoundSubnetCount</a></span>
+            <div class='views-field-body'>A count of retrieve all subnets that are eligible to be routed; those which the account has permission to associate with a vlan. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

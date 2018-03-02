@@ -33,3 +33,10 @@ See [[SoftLayer_Hardware/createObject|createObject]] for specifics on the requir
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Hardware::createObject](/reference/services/SoftLayer_Hardware/createObject )
+*  [SoftLayer_Hardware::getCreateObjectOptions](/reference/services/SoftLayer_Hardware/getCreateObjectOptions )
+

@@ -29,3 +29,4 @@ Retrieve whether a network component's primary ip address is from a storage netw
 
 ### Return Values
 boolean
+

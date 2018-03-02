@@ -28,3 +28,4 @@ Retrieve the remote management network component attached with this server.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>
+

@@ -27,3 +27,4 @@ classes:
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Scale_Termination_Policy'>SoftLayer_Scale_Termination_Policy[] </a>
+

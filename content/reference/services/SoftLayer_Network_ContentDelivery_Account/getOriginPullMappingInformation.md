@@ -26,3 +26,9 @@ This method returns a list of origin pull configuration data.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_ContentDelivery_OriginPull_Mapping'>SoftLayer_Container_Network_ContentDelivery_OriginPull_Mapping[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_ContentDelivery_Account::createOriginPullRule](/reference/services/SoftLayer_Network_ContentDelivery_Account/createOriginPullRule )
+

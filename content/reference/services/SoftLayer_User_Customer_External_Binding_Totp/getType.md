@@ -29,3 +29,4 @@ Retrieve the type of external authentication binding.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_External_Binding_Type'>SoftLayer_User_External_Binding_Type </a>
+

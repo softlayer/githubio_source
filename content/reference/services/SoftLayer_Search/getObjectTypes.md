@@ -27,3 +27,4 @@ This method returns a collection of <b>[[SoftLayer_Container_Search_ObjectType (
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Search_ObjectType'>SoftLayer_Container_Search_ObjectType[] </a>
+

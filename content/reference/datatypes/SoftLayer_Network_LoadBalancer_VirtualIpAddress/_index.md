@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Network_LoadBalancer_VirtualIpAddress
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_VirtualIpAddress' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_VirtualIpAddress' >Datatype</a></li>
     </ul>
 </div>
 
@@ -21,6 +21,16 @@ classes:
 The SoftLayer_Network_LoadBalancer_VirtualIpAddress data type contains all the information relating to a specific load balancer assigned to a customer account. 
 
 Information retained on the object itself is the virtual IP address, load balancing method, and any notes that are related to the load balancer.  There is also an array of SoftLayer_Network_LoadBalancer_Service objects, which represent the load balancer services, explained more fully in the SoftLayer_Network_LoadBalancer_Service documentation. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_LoadBalancer_VirtualIpAddress::getObject](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/getObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -117,6 +127,12 @@ Information retained on the object itself is the virtual IP address, load balanc
             <span class='views-field-title'><a href="#services" name=services>services</a></span>
             <div class='views-field-body'>the services on this load balancer. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Service'>SoftLayer_Network_LoadBalancer_Service[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#serviceCount" name=serviceCount>serviceCount</a></span>
+            <div class='views-field-body'>A count of the services on this load balancer. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

@@ -29,3 +29,4 @@ getObject returns a SoftLayer_Network_Firewall_Update_Request_Rule object. You c
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request_Rule'>SoftLayer_Network_Firewall_Update_Request_Rule </a>
+

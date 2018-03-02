@@ -30,3 +30,4 @@ Retrieve a portal user's accessible hardware. These permissions control which ha
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+

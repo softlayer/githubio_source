@@ -13,12 +13,22 @@ classes:
 # SoftLayer_Sales_Presale_Event
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Sales_Presale_Event' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Sales_Presale_Event' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Sales_Presale_Event' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The presale event data types indicate the information regarding an individual presale event. The '''locationId''' will indicate the datacenter associated with the presale event. The '''itemId''' will indicate the product item associated with a particular presale event - however these are more rare. The '''startDate''' and '''endDate''' will provide information regarding when the presale event is available for use. At the end of the presale event, the server or services purchased will be available once approved and provisioned. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Sales_Presale_Event::getObject](/reference/services/SoftLayer_Sales_Presale_Event/getObject )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -90,6 +100,12 @@ The presale event data types indicate the information regarding an individual pr
             <span class='views-field-title'><a href="#orders" name=orders>orders</a></span>
             <div class='views-field-body'>The orders ([[SoftLayer_Billing_Order]]) associated with this presale event that were created for the customer's account. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#orderCount" name=orderCount>orderCount</a></span>
+            <div class='views-field-body'>A count of the orders ([[SoftLayer_Billing_Order]]) associated with this presale event that were created for the customer's account. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

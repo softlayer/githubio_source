@@ -28,3 +28,4 @@ CDN servers will invoke a Web Service method to validate a content authenticatio
 
 ### Return Values
 boolean
+

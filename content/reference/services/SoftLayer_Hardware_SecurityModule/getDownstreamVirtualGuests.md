@@ -30,3 +30,4 @@ Retrieve information regarding all virtual guests attached to a piece of network
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+

@@ -28,3 +28,4 @@ Retrieve whether or not this account can define their own networks.
 
 ### Return Values
 boolean
+

@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 SoftLayer_Configuration_Template_Attribute_Type models the type of attribute that can be assigned to a configuration definition. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

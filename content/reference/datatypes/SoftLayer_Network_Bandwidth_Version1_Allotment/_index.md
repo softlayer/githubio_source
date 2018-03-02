@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Network_Bandwidth_Version1_Allotment
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The SoftLayer_Network_Bandwidth_Version1_Allotment class provides methods and data structures necessary to work with an array of hardware objects associated with a single Bandwidth Pooling. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -220,6 +225,62 @@ The SoftLayer_Network_Bandwidth_Version1_Allotment class provides methods and da
             <span class='views-field-title'><a href="#virtualGuests" name=virtualGuests>virtualGuests</a></span>
             <div class='views-field-body'>The Virtual Server contained within a virtual rack. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#activeDetailCount" name=activeDetailCount>activeDetailCount</a></span>
+            <div class='views-field-body'>A count of the bandwidth allotment detail records associated with this virtual rack. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#applicationDeliveryControllerCount" name=applicationDeliveryControllerCount>applicationDeliveryControllerCount</a></span>
+            <div class='views-field-body'>A count of the Application Delivery Controller contained within a virtual rack. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#bareMetalInstanceCount" name=bareMetalInstanceCount>bareMetalInstanceCount</a></span>
+            <div class='views-field-body'>A count of the bare metal server instances contained within a virtual rack. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#billingCycleBandwidthUsageCount" name=billingCycleBandwidthUsageCount>billingCycleBandwidthUsageCount</a></span>
+            <div class='views-field-body'>A count of a virtual rack's raw bandwidth usage data for an account's current billing cycle. One object is returned for each network this server is attached to. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#detailCount" name=detailCount>detailCount</a></span>
+            <div class='views-field-body'>A count of the bandwidth allotment detail records associated with this virtual rack. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#hardwareCount" name=hardwareCount>hardwareCount</a></span>
+            <div class='views-field-body'>A count of the hardware contained within a virtual rack. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#managedBareMetalInstanceCount" name=managedBareMetalInstanceCount>managedBareMetalInstanceCount</a></span>
+            <div class='views-field-body'>A count of the managed bare metal server instances contained within a virtual rack. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#managedHardwareCount" name=managedHardwareCount>managedHardwareCount</a></span>
+            <div class='views-field-body'>A count of the managed hardware contained within a virtual rack. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#managedVirtualGuestCount" name=managedVirtualGuestCount>managedVirtualGuestCount</a></span>
+            <div class='views-field-body'>A count of the managed Virtual Server contained within a virtual rack. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#privateNetworkOnlyHardwareCount" name=privateNetworkOnlyHardwareCount>privateNetworkOnlyHardwareCount</a></span>
+            <div class='views-field-body'>A count of the private network only hardware contained within a virtual rack. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#virtualGuestCount" name=virtualGuestCount>virtualGuestCount</a></span>
+            <div class='views-field-body'>A count of the Virtual Server contained within a virtual rack. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

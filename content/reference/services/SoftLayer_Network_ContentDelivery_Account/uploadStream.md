@@ -28,3 +28,4 @@ With this method, you can upload binary data to the CDN FTP server.  This method
 
 ### Return Values
 boolean
+

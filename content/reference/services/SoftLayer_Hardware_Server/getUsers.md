@@ -30,3 +30,4 @@ Retrieve a list of users that have access to this computing instance.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a>
+

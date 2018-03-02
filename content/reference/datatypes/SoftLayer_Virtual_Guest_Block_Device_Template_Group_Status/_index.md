@@ -23,6 +23,11 @@ The virtual block device template group status data type represents the current 
 For an operating system reload, the image template will need to have a status of 'Active' or 'Deprecated'. For a provision, the image template will need to have a status of 'Active' 
 
 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

@@ -29,3 +29,4 @@ Retrieve the datacenter location for one end of the network tunnel that allows a
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+

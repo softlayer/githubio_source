@@ -30,3 +30,4 @@ Retrieve the SoftLayer_Hardware objects which are allowed access to this storage
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+

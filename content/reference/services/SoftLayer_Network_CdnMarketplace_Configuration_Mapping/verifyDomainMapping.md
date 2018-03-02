@@ -26,3 +26,4 @@ Verifies the status of the domain mapping by calling the rest api; will update t
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping[] </a>
+

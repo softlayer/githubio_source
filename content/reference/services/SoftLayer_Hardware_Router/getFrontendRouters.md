@@ -30,3 +30,4 @@ Retrieve a hardware's frontend or public router.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+

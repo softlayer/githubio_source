@@ -26,3 +26,4 @@ The method will retrieve the password for the StorageLayer or Virtual Server Sto
 
 ### Return Values
 boolean
+

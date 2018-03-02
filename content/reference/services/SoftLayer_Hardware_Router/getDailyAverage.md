@@ -28,3 +28,4 @@ The '''getDailyAverage''' method calculates the average daily network traffic us
 
 ### Return Values
 float
+

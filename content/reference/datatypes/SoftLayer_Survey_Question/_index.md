@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The SoftLayer_Survey_Question data type contains general information relating to a single SoftLayer survey question. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -75,6 +80,12 @@ The SoftLayer_Survey_Question data type contains general information relating to
             <span class='views-field-title'><a href="#survey" name=survey>survey</a></span>
             <div class='views-field-body'>The survey that a question belongs to. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Survey'>SoftLayer_Survey </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#answerCount" name=answerCount>answerCount</a></span>
+            <div class='views-field-body'>A count of the possible answers for a survey question. </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

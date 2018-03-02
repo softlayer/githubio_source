@@ -30,3 +30,4 @@ Retrieve for product items which have a downgrade path defined, this will return
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>
+

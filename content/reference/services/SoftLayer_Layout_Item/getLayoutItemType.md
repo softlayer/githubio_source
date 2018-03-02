@@ -29,3 +29,4 @@ Retrieve the type of the layout item object
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Layout_Item_Type'>SoftLayer_Layout_Item_Type </a>
+

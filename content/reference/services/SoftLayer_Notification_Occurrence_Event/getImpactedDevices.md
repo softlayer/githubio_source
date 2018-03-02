@@ -29,3 +29,4 @@ This method will return a collection of SoftLayer_Notification_Occurrence_Resour
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Resource'>SoftLayer_Notification_Occurrence_Resource[] </a>
+

@@ -29,3 +29,4 @@ Retrieve hardware which is currently experiencing a service failure.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+

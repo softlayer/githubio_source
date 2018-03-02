@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Network_Storage_Schedule_Property_Type
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Storage_Schedule_Property_Type' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule_Property_Type' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule_Property_Type' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 A schedule property type is used to allow for a standardized method of defining network storage schedules. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

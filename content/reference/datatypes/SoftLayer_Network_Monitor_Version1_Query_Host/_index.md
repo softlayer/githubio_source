@@ -13,12 +13,22 @@ classes:
 # SoftLayer_Network_Monitor_Version1_Query_Host
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 The Monitoring_Query_Host type represents a monitoring instance.  It consists of a hardware ID to monitor, an IP address attached to that hardware ID, a method of monitoring, and what to do in the instance that the monitor ever fails. 
+
+
+### associatedMethods
+
+*  [SoftLayer_Network_Monitor_Version1_Query_Host::findByHardwareId](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/findByHardwareId )
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -106,6 +116,7 @@ The Monitoring_Query_Host type represents a monitoring instance.  It consists of
             <div class='views-field-body'>The action taken when a monitor fails. </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_ResponseType'>SoftLayer_Network_Monitor_Version1_Query_ResponseType </a></p></div>
         </div>
+                <h2>Relational</h2>
             </div>
 </div>
 

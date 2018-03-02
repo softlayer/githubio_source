@@ -26,3 +26,10 @@ Retrieve a graph of a SoftLayer backbone's last 24 hours of activity. getGraphIm
 
 ### Return Values
 binary data
+
+### External Links
+
+
+* [Portable Network Graphics at Wikipedia](http://en.wikipedia.org/wiki/Portable_Network_Graphics)
+
+

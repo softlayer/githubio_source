@@ -26,3 +26,4 @@ Validates a supplied OpenIdConnect access token to the SoftLayer customer portal
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Container_User_Customer_OpenIdConnect_LoginAccountInfo'>SoftLayer_Container_User_Customer_OpenIdConnect_LoginAccountInfo </a>
+

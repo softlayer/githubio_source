@@ -29,3 +29,4 @@ Retrieve a VLAN's primary subnet. Each VLAN has at least one subnet, usually the
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
+

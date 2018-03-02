@@ -30,3 +30,10 @@ Retrieve a collection of raw bandwidth data from an individual public or private
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
+
+
+### associatedMethods
+
+*  [SoftLayer_Metric_Tracking_Object::getBandwidthGraph](/reference/services/SoftLayer_Metric_Tracking_Object/getBandwidthGraph )
+*  [SoftLayer_Metric_Tracking_Object::getBandwidthTotal](/reference/services/SoftLayer_Metric_Tracking_Object/getBandwidthTotal )
+

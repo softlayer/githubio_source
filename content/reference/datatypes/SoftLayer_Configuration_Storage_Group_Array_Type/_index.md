@@ -13,12 +13,17 @@ classes:
 # SoftLayer_Configuration_Storage_Group_Array_Type
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Configuration_Storage_Group_Array_Type' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group_Array_Type' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group_Array_Type' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
 Supported hardware raid modes 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -80,6 +85,12 @@ Supported hardware raid modes
             <span class='views-field-title'><a href="#hardwareComponentModels" name=hardwareComponentModels>hardwareComponentModels</a></span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model[] </a></p></div>
+        </div>
+                <h2>Relational</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'><a href="#hardwareComponentModelCount" name=hardwareComponentModelCount>hardwareComponentModelCount</a></span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
         </div>
             </div>
 </div>

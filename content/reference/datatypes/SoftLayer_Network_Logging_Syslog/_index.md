@@ -19,6 +19,11 @@ classes:
 
 ## Description 
 The Syslog class holds a single line from the Networking Firewall "Syslog" record, for firewall detected and blocked attempts on a server. 
+
+
+
+
+
 <!-- Service Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">

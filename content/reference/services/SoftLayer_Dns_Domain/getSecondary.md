@@ -29,3 +29,4 @@ Retrieve the secondary DNS record that defines this domain as being managed thro
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Dns_Secondary'>SoftLayer_Dns_Secondary </a>
+

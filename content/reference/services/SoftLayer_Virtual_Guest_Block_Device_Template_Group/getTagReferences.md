@@ -30,3 +30,4 @@ Retrieve the tags associated with this image template group.
 
 ### Return Values
 <a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>
+
