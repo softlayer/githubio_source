@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getNetworkComponentFirewallProtectableIpAddresses
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getNetworkComponentFirewallProtectableIpAddresses
+
+Get the IP addresses associated with this CloudLayer computing instance that are protectable by a network component firewall.
+
+
 ## Overview 
 Get the IP addresses associated with this CloudLayer computing instance that are protectable by a network component firewall. Note, this may not return all values for IPv6 subnets for this CloudLayer computing instance. Please use getFirewallProtectableSubnets to get all protectable subnets. 
 

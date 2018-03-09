@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Hub_Cleversafe_Account"
 ---
-# SoftLayer_Network_Storage_Hub_Cleversafe_Account::getObject
+# [SoftLayer_Network_Storage_Hub_Cleversafe_Account](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account)::getObject
+
+Retrieve a SoftLayer_Network_Storage_Hub_Cleversafe_Account record.
+
+
 ## Overview 
 
 

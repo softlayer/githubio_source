@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::findAllSubnetsAndActiveSwipTransactionStatus
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::findAllSubnetsAndActiveSwipTransactionStatus
+
+Retrieve a list of subnets along with their SWIP transaction statuses.
+
+
 ## Overview 
 Retrieve a list of a SoftLayer customer's subnets along with their SWIP transaction statuses. This is a shortcut method that combines the SoftLayer_Network_Subnet retrieval methods along with [[object masks]] to retrieve their subnets' associated SWIP transactions as well. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component"
 ---
-# SoftLayer_Software_Component::getLicenseFile
+# [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component)::getLicenseFile
+
+Get the license file for a software component if it is supported.
+
+
 ## Overview 
 Attempt to retrieve the file associated with a software component.  If the software component does not support downloading license files an exception will be thrown. 
 

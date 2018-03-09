@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getRecentRemoteManagementCommands
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getRecentRemoteManagementCommands
+
+Retrieve the last five commands issued to the server's remote management card.
+
+
 ## Overview 
 Retrieve the last five commands issued to the server's remote management card.
 

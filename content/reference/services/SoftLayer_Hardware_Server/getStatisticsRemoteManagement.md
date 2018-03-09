@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getStatisticsRemoteManagement
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getStatisticsRemoteManagement
+
+Retrieve a server's remote management card used for statistics.
+
+
 ## Overview 
 Retrieve a server's remote management card used for statistics.
 

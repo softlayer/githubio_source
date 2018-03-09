@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getOverBandwidthAllocationFlag
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getOverBandwidthAllocationFlag
+
+Retrieve whether the bandwidth usage for this hardware for the current billing cycle exceeds the allocation.
+
+
 ## Overview 
 Retrieve whether the bandwidth usage for this hardware for the current billing cycle exceeds the allocation.
 

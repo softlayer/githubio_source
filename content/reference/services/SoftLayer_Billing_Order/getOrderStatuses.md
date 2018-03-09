@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order"
 ---
-# SoftLayer_Billing_Order::getOrderStatuses
+# [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getOrderStatuses
+
+Get a list of SoftLayer_Container_Billing_Order_Status objects.
+
+
 ## Overview 
 Get a list of [[SoftLayer_Container_Billing_Order_Status]] objects. 
 

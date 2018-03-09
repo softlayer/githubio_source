@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getBandwidthAllocation
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBandwidthAllocation
+
+Retrieve a computing instance's allotted bandwidth (measured in GB).
+
+
 ## Overview 
 Retrieve a computing instance's allotted bandwidth (measured in GB).
 

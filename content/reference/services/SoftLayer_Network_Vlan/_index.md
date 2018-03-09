@@ -32,10 +32,10 @@ The SoftLayer_Network_Vlan service controls these VLANs and provides relationshi
 
 ### seeAlso
 
-* [SoftLayer_Network_Subnet](/reference/datatypes/SoftLayer_Network_Subnet )
+* [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet )
 
 
-* [SoftLayer_Network_Subnet_IpAddress](/reference/datatypes/SoftLayer_Network_Subnet_IpAddress )
+* [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress )
 
 
         

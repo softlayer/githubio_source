@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHardwareWithPlesk
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardwareWithPlesk
+
+Retrieve all hardware associated with an account that has the Plesk web hosting control panel installed.
+
+
 ## Overview 
 Retrieve all hardware associated with an account that has the Plesk web hosting control panel installed.
 

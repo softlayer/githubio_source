@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::lostPassword
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::lostPassword
+
+Generate a lost password request
+
+
 ## Overview 
 <strong>This method is deprecated.  Please see documentation for initiatePortalPasswordChange</strong> SoftLayer provides a way for users of it's customer portal to recover lost passwords. The lostPassword() method is the first step in this process. Given a valid username and email address, the SoftLayer API will email the address provided with a URL to visit to begin the password recovery process. The last part of this URL is a hash key that's used as an identifier throughout this process. Use this hash key in the [[SoftLayer_User_Customer::setPasswordFromLostPasswordRequest|setPasswordFromLostPasswordRequest]] method to reset a user's password. Password recovery hash keys are valid for 24 hours after they're generated. 
 

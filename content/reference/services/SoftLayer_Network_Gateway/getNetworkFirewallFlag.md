@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Gateway"
 ---
-# SoftLayer_Network_Gateway::getNetworkFirewallFlag
+# [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::getNetworkFirewallFlag
+
+Retrieve whether or not there is a firewall associated with this gateway.
+
+
 ## Overview 
 Retrieve whether or not there is a firewall associated with this gateway.
 

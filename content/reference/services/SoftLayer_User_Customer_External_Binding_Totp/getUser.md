@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Totp"
 ---
-# SoftLayer_User_Customer_External_Binding_Totp::getUser
+# [SoftLayer_User_Customer_External_Binding_Totp](/reference/services/SoftLayer_User_Customer_External_Binding_Totp)::getUser
+
+Retrieve the SoftLayer user that the external authentication binding belongs to.
+
+
 ## Overview 
 Retrieve the SoftLayer user that the external authentication binding belongs to.
 

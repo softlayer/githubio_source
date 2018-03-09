@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Upgrade_Request"
 ---
-# SoftLayer_Product_Upgrade_Request::getUser
+# [SoftLayer_Product_Upgrade_Request](/reference/services/SoftLayer_Product_Upgrade_Request)::getUser
+
+Retrieve the user that placed the order.
+
+
 ## Overview 
 Retrieve the user that placed the order.
 

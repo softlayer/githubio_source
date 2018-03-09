@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::updateForumPassword
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::updateForumPassword
+
+Update a user's forum password
+
+
 ## Overview 
 This method is deprecated! SoftLayer Community Forums no longer exist, therefore, this method will return false. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getSnapshotsForVolume
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getSnapshotsForVolume
+
+Retrieves a list of snapshots for a given volume.
+
+
 ## Overview 
 Retrieves a list of snapshots for this SoftLayer_Network_Storage volume. This method works with the result limits and offset to support pagination. 
 

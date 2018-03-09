@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice"
 ---
-# SoftLayer_Billing_Invoice::getPdfDetailedFilename
+# [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getPdfDetailedFilename
+
+Get the name of the detailed version of the PDF.
+
+
 ## Overview 
 
 

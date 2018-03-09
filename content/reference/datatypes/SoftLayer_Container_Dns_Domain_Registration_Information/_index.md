@@ -39,34 +39,64 @@ Information container for domain registration
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#contacts" name=contacts>contacts</a></span>
+            <span class='views-field-title'>
+                <a href="#contacts" name=contacts>contacts</a>
+            </span>
             <div class='views-field-body'>The information of the registered domain. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Contact'>SoftLayer_Container_Dns_Domain_Registration_Contact[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Contact'>SoftLayer_Container_Dns_Domain_Registration_Contact[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#expireDate" name=expireDate>expireDate</a></span>
+            <span class='views-field-title'>
+                <a href="#expireDate" name=expireDate>expireDate</a>
+            </span>
             <div class='views-field-body'>The date that a domain is set to expire. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#nameservers" name=nameservers>nameservers</a></span>
+            <span class='views-field-title'>
+                <a href="#nameservers" name=nameservers>nameservers</a>
+            </span>
             <div class='views-field-body'>The list of nameservers for the domain. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Nameserver'>SoftLayer_Container_Dns_Domain_Registration_Nameserver[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Nameserver'>SoftLayer_Container_Dns_Domain_Registration_Nameserver[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#registryCreateDate" name=registryCreateDate>registryCreateDate</a></span>
+            <span class='views-field-title'>
+                <a href="#registryCreateDate" name=registryCreateDate>registryCreateDate</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#registryExpireDate" name=registryExpireDate>registryExpireDate</a></span>
+            <span class='views-field-title'>
+                <a href="#registryExpireDate" name=registryExpireDate>registryExpireDate</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#registryUpdateDate" name=registryUpdateDate>registryUpdateDate</a></span>
+            <span class='views-field-title'>
+                <a href="#registryUpdateDate" name=registryUpdateDate>registryUpdateDate</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
             </div>
     </div>

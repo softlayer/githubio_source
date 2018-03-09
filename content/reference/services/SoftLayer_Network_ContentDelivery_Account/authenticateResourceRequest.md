@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::authenticateResourceRequest
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::authenticateResourceRequest
+
+Validates an authentication token
+
+
 ## Overview 
 Internap servers attempts to validate a token before serving a protected content. SoftLayer customer does not need to invoke this method.  Please refer to [[SoftLayer_Network_ContentDelivery_Authentication_Token|Authentication Token]] object for more details on Content Authentication Service. 
 

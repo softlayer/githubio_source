@@ -39,39 +39,69 @@ The SoftLayer_Product_Catalog_Item_Price type assigns an Item Price to a Catalog
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#catalogId" name=catalogId>catalogId</a></span>
+            <span class='views-field-title'>
+                <a href="#catalogId" name=catalogId>catalogId</a>
+            </span>
             <div class='views-field-body'>The id of the Catalog the Item Price is part of. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#createDate" name=createDate>createDate</a></span>
+            <span class='views-field-title'>
+                <a href="#createDate" name=createDate>createDate</a>
+            </span>
             <div class='views-field-body'>The time the Item Price was defined in the Catalog </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#modifyDate" name=modifyDate>modifyDate</a></span>
+            <span class='views-field-title'>
+                <a href="#modifyDate" name=modifyDate>modifyDate</a>
+            </span>
             <div class='views-field-body'>The time the Item Price was changed for the Catalog </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#priceId" name=priceId>priceId</a></span>
+            <span class='views-field-title'>
+                <a href="#priceId" name=priceId>priceId</a>
+            </span>
             <div class='views-field-body'>The id of the Item Price that is part of the Catalog. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#catalog" name=catalog>catalog</a></span>
+            <span class='views-field-title'>
+                <a href="#catalog" name=catalog>catalog</a>
+            </span>
             <div class='views-field-body'>Catalog being assigned </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Catalog'>SoftLayer_Product_Catalog </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Product_Catalog'>SoftLayer_Product_Catalog </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#price" name=price>price</a></span>
+            <span class='views-field-title'>
+                <a href="#price" name=price>price</a>
+            </span>
             <div class='views-field-body'>Price being assigned </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

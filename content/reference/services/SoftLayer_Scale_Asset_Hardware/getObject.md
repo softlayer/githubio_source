@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Asset_Hardware"
 ---
-# SoftLayer_Scale_Asset_Hardware::getObject
+# [SoftLayer_Scale_Asset_Hardware](/reference/services/SoftLayer_Scale_Asset_Hardware)::getObject
+
+Retrieve a SoftLayer_Scale_Asset_Hardware record.
+
+
 ## Overview 
 
 

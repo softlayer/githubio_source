@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getMonitoringServiceFlag
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getMonitoringServiceFlag
+
+Retrieve the service flag status for a piece of hardware.
+
+
 ## Overview 
 Retrieve the service flag status for a piece of hardware.
 

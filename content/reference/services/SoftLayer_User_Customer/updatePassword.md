@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::updatePassword
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::updatePassword
+
+Update a user's portal password
+
+
 ## Overview 
 <strong>This method is deprecated.  Please see documentation for initiatePortalPasswordChange</strong> Update a user's password on the SoftLayer customer portal. As with forum passwords, user portal passwords must match the following restrictions. Portal passwords must... 
 * ...be over eight characters long.

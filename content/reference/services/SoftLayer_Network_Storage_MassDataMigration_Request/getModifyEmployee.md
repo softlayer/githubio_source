@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_MassDataMigration_Request"
 ---
-# SoftLayer_Network_Storage_MassDataMigration_Request::getModifyEmployee
+# [SoftLayer_Network_Storage_MassDataMigration_Request](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request)::getModifyEmployee
+
+Retrieve the employee who last modified the request.
+
+
 ## Overview 
 Retrieve the employee who last modified the request.
 

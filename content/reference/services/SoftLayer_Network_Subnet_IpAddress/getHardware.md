@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_IpAddress"
 ---
-# SoftLayer_Network_Subnet_IpAddress::getHardware
+# [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::getHardware
+
+Retrieve a server that this IP address is routed to.
+
+
 ## Overview 
 Retrieve a server that this IP address is routed to.
 

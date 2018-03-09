@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand_Business_Partner"
 ---
-# SoftLayer_Brand_Business_Partner::getObject
+# [SoftLayer_Brand_Business_Partner](/reference/services/SoftLayer_Brand_Business_Partner)::getObject
+
+Retrieve a SoftLayer_Brand_Business_Partner record.
+
+
 ## Overview 
 
 

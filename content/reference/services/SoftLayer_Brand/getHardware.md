@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand"
 ---
-# SoftLayer_Brand::getHardware
+# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getHardware
+
+Retrieve an account's associated hardware objects.
+
+
 ## Overview 
 Retrieve an account's associated hardware objects.
 

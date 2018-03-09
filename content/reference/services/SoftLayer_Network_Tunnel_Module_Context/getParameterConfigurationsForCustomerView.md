@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::getParameterConfigurationsForCustomerView
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getParameterConfigurationsForCustomerView
+
+Build and returns IPsec VPN tunnel configurations
+
+
 ## Overview 
 All of the IPSec VPN tunnel's configurations will be returned.  It will list all of phase one and two negotiation parameters.  Both remote and local subnets will be provided as well.  This is useful when the configurations need to be passed on to another team and/or company for internal network configuration. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_DirectLink_Location"
 ---
-# SoftLayer_Network_DirectLink_Location::getCloudExchangeProviderLocations
+# [SoftLayer_Network_DirectLink_Location](/reference/services/SoftLayer_Network_DirectLink_Location)::getCloudExchangeProviderLocations
+
+Retrieve all locations
+
+
 ## Overview 
 Retrieve all locations for a Cloud Exchange Provider. IBM SoftLayer's datacenters exist in various cities and each contain one or more infrastructure. 
 

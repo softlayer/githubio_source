@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getServiceResourceName
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getServiceResourceName
+
+Retrieve the name of a Storage's network resource.
+
+
 ## Overview 
 Retrieve the name of a Storage's network resource.
 

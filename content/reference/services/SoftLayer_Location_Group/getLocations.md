@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location_Group"
 ---
-# SoftLayer_Location_Group::getLocations
+# [SoftLayer_Location_Group](/reference/services/SoftLayer_Location_Group)::getLocations
+
+Retrieve the locations in a group.
+
+
 ## Overview 
 Retrieve the locations in a group.
 

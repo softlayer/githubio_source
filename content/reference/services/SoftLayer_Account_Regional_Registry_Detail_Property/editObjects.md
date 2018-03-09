@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Regional_Registry_Detail_Property"
 ---
-# SoftLayer_Account_Regional_Registry_Detail_Property::editObjects
+# [SoftLayer_Account_Regional_Registry_Detail_Property](/reference/services/SoftLayer_Account_Regional_Registry_Detail_Property)::editObjects
+
+Edit multiple property objects.
+
+
 ## Overview 
 Edit multiple [[SoftLayer_Account_Regional_Registry_Detail_Property]] objects. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getUplinkDuplexMode
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getUplinkDuplexMode
+
+Retrieve the duplex mode of the uplink network component linking to this object
+
+
 ## Overview 
 Retrieve the duplex mode of the uplink network component linking to this object
 

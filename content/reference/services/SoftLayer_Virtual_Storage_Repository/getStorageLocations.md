@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Storage_Repository"
 ---
-# SoftLayer_Virtual_Storage_Repository::getStorageLocations
+# [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getStorageLocations
+
+The available locations for public image storage. 
+
+
 ## Overview 
 Returns the public image storage locations. 
 

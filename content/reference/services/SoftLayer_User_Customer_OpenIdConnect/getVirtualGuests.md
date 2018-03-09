@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getVirtualGuests
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getVirtualGuests
+
+Retrieve a portal user's accessible CloudLayer Computing Instances. These permissions control which CloudLayer Computing Instances a user has access to in the SoftLayer customer portal.
+
+
 ## Overview 
 Retrieve a portal user's accessible CloudLayer Computing Instances. These permissions control which CloudLayer Computing Instances a user has access to in the SoftLayer customer portal.
 

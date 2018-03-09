@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Storage_Repository"
 ---
-# SoftLayer_Virtual_Storage_Repository::getAverageUsageMetricDataByDate
+# [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getAverageUsageMetricDataByDate
+
+Returns the average disk usage for the timeframe based on the parameters provided. 
+
+
 ## Overview 
 Returns the average disk space usage for a storage repository. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Block_Device_Template_Group"
 ---
-# SoftLayer_Virtual_Guest_Block_Device_Template_Group::getSupportedBootModes
+# [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::getSupportedBootModes
+
+
+
+
 ## Overview 
 This method indicates which boot modes are supported by the image. 
 

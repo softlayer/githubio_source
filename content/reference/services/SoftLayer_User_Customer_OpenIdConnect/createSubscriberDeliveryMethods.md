@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::createSubscriberDeliveryMethods
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::createSubscriberDeliveryMethods
+
+Create delivery methods for the subscriber.
+
+
 ## Overview 
 Create delivery methods for a notification that the user is subscribed to. Multiple delivery method keyNames can be supplied to create multiple delivery methods for the specified notification. Available delivery methods - 'EMAIL'. Available notifications - 'PLANNED_MAINTENANCE', 'UNPLANNED_INCIDENT'. 
 

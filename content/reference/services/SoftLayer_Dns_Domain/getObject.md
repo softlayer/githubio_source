@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain"
 ---
-# SoftLayer_Dns_Domain::getObject
+# [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::getObject
+
+Retrieve a SoftLayer_Dns_Domain record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Dns_Domain object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Dns_Domain service. You can only retrieve domains that are assigned to your SoftLayer account. 
 

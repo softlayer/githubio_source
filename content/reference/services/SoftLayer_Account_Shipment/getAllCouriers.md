@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Shipment"
 ---
-# SoftLayer_Account_Shipment::getAllCouriers
+# [SoftLayer_Account_Shipment](/reference/services/SoftLayer_Account_Shipment)::getAllCouriers
+
+Retrieve a list of available shipping couriers.
+
+
 ## Overview 
 Retrieve a list of available shipping couriers.
 

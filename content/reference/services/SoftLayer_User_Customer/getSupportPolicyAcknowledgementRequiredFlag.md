@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getSupportPolicyAcknowledgementRequiredFlag
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getSupportPolicyAcknowledgementRequiredFlag
+
+Retrieve whether or not a user is required to acknowledge the support policy for portal access.
+
+
 ## Overview 
 Retrieve whether or not a user is required to acknowledge the support policy for portal access.
 

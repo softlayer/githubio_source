@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getAllFilesByFilter
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getAllFilesByFilter
+
+Retrieve a listing of all files matching the filter's criteria in a Storage account's root directory.
+
+
 ## Overview 
 {{CloudLayerOnlyMethod}} Retrieve details such as id, name, size, create date for all files matching the filter's criteria in a Storage account's root directory. This does not download file content. 
 

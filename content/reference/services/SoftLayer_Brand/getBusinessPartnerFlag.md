@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand"
 ---
-# SoftLayer_Brand::getBusinessPartnerFlag
+# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getBusinessPartnerFlag
+
+Retrieve flag indicating if the brand is a business partner.
+
+
 ## Overview 
 Retrieve flag indicating if the brand is a business partner.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getReplicationSchedule
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getReplicationSchedule
+
+Retrieve the Replication Schedule associated with a network storage volume.
+
+
 ## Overview 
 Retrieve the Replication Schedule associated with a network storage volume.
 

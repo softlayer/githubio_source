@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller"
 ---
-# SoftLayer_Network_Application_Delivery_Controller::getLiveLoadBalancerServiceGraphImage
+# [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getLiveLoadBalancerServiceGraphImage
+
+Get the connection or status graph image for an application delivery controller service.
+
+
 ## Overview 
 Get the graph image for an application delivery controller service based on the supplied graph type and metric.  The available graph types are: 'connections' and 'status', and the available metrics are: 'day', 'week' and 'month'. 
 

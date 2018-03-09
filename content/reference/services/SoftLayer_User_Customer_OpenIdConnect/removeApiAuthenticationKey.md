@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::removeApiAuthenticationKey
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::removeApiAuthenticationKey
+
+Remove a user's API authentication key.
+
+
 ## Overview 
 Remove a user's API authentication key, removing that user's access to query the SoftLayer API. 
 

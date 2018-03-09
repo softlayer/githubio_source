@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getAlarmHistory
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getAlarmHistory
+
+Returns monitoring alarm detailed history
+
+
 ## Overview 
 The '''getAlarmHistory''' method retrieves a detailed history for the monitoring alarm. When calling this method, a start and end date for the history to be retrieved must be entered. 
 

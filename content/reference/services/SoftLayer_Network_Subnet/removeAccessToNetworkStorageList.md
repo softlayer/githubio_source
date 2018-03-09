@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::removeAccessToNetworkStorageList
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::removeAccessToNetworkStorageList
+
+Remove access to multiple SoftLayer_Network_Storage volumes from this device. 
+
+
 ## Overview 
 This method is used to remove access to multiple SoftLayer_Network_Storage volumes 
 

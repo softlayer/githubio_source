@@ -39,14 +39,24 @@ The IntrusionProtection_Statistic is used exclusively by the getMainStatistics m
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#attackCount" name=attackCount>attackCount</a></span>
+            <span class='views-field-title'>
+                <a href="#attackCount" name=attackCount>attackCount</a>
+            </span>
             <div class='views-field-body'>The number of attacks effecting this name over the time period </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>Either the name of the attack in question, or the attacking IP Address </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

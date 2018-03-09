@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::getBandwidthImage
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getBandwidthImage
+
+Returns an object with bandwidth graph data
+
+
 ## Overview 
 This method returns a bandwidth graph wrapped in [[SoftLayer_Container_Bandwidth_GraphOutputsExtended|Bandwidth Graph]] object. [[SoftLayer_Container_Bandwidth_GraphOutputsExtended|Bandwidth Graph]] object contains a starting time, ending time, graph title, graph binary data, and in and outbound total bytes. 
 

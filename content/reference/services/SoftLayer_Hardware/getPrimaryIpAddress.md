@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getPrimaryIpAddress
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getPrimaryIpAddress
+
+Retrieve the hardware's primary public IP address.
+
+
 ## Overview 
 Retrieve the hardware's primary public IP address.
 

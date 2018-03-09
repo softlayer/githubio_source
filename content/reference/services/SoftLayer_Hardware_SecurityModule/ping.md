@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::ping
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::ping
+
+Issues ping command.
+
+
 ## Overview 
 Issues a ping command to the server and returns the ping response. 
 

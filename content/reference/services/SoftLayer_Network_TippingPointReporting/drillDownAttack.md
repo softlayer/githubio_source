@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_TippingPointReporting"
 ---
-# SoftLayer_Network_TippingPointReporting::drillDownAttack
+# [SoftLayer_Network_TippingPointReporting](/reference/services/SoftLayer_Network_TippingPointReporting)::drillDownAttack
+
+Allows for attack-specific drill downs.  Available only in ascending time order.
+
+
 ## Overview 
 This method, when given an attack signature ID (available in the return values of getReportForIpAddressOrSubnet and  getSubnetReportForEntireAccount) and an IP Address and subnet mask, returns all attacks for that subnet in the specified time frame and direction.  Once the results have been filtered, additional data is available, including starting and ending times for the attack, originating IP address and port, and destination IP address and port. 
 

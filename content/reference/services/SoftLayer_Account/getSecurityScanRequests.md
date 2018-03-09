@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getSecurityScanRequests
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSecurityScanRequests
+
+Retrieve an account's vulnerability scan requests.
+
+
 ## Overview 
 Retrieve an account's vulnerability scan requests.
 

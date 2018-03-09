@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Order"
 ---
-# SoftLayer_Product_Order::checkItemConflicts
+# [SoftLayer_Product_Order](/reference/services/SoftLayer_Product_Order)::checkItemConflicts
+
+Check order items for conflicts
+
+
 ## Overview 
 Check order items for conflicts
 

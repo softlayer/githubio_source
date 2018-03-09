@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_IpAddress"
 ---
-# SoftLayer_Network_Subnet_IpAddress::getByIpAddress
+# [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::getByIpAddress
+
+Search for an IP address record.
+
+
 ## Overview 
 Search for an IP address record by IP address.
 

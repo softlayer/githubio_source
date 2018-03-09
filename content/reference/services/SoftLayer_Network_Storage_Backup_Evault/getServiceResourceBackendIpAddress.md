@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getServiceResourceBackendIpAddress
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getServiceResourceBackendIpAddress
+
+Retrieve the IP address of a Storage resource.
+
+
 ## Overview 
 Retrieve the IP address of a Storage resource.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::checkPhoneFactorAuthenticationForPasswordSet
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::checkPhoneFactorAuthenticationForPasswordSet
+
+Check the status of an outstanding Phone Factor Authentication for Password Set
+
+
 ## Overview 
 Add a description here 
 

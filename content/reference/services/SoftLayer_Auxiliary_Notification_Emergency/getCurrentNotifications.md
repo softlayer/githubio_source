@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Auxiliary_Notification_Emergency"
 ---
-# SoftLayer_Auxiliary_Notification_Emergency::getCurrentNotifications
+# [SoftLayer_Auxiliary_Notification_Emergency](/reference/services/SoftLayer_Auxiliary_Notification_Emergency)::getCurrentNotifications
+
+Retrieve current notification events.
+
+
 ## Overview 
 Retrieve an array of SoftLayer_Auxiliary_Notification_Emergency data types, which contain all current notification events. 
 

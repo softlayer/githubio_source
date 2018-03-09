@@ -46,24 +46,39 @@ The SoftLayer_User_Customer_AdditionalEmail data type contains the additional em
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#email" name=email>email</a></span>
+            <span class='views-field-title'>
+                <a href="#email" name=email>email</a>
+            </span>
             <div class='views-field-body'>Email assigned to user for use in ticket update notifications. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#userId" name=userId>userId</a></span>
+            <span class='views-field-title'>
+                <a href="#userId" name=userId>userId</a>
+            </span>
             <div class='views-field-body'>An internal identifier for the portal user who this additional email belongs to. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#user" name=user>user</a></span>
+            <span class='views-field-title'>
+                <a href="#user" name=user>user</a>
+            </span>
             <div class='views-field-body'>The portal user that owns this additional email address. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getNextInvoiceTotalRecurringAmountBeforeAccountDiscount
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNextInvoiceTotalRecurringAmountBeforeAccountDiscount
+
+Retrieve the total recurring charge amount of an account's next invoice measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing.
+
+
 ## Overview 
 Retrieve the total recurring charge amount of an account's next invoice measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing.
 

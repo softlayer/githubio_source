@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice"
 ---
-# SoftLayer_Billing_Invoice::emailInvoices
+# [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::emailInvoices
+
+Create a transaction to email invoice links.
+
+
 ## Overview 
 Create a transaction to email PDF and/or Excel invoice links to the requesting user's email address. You must have a PDF reader installed in order to view these files. 
 

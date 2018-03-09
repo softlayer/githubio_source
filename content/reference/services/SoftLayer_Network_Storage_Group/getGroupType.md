@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Group"
 ---
-# SoftLayer_Network_Storage_Group::getGroupType
+# [SoftLayer_Network_Storage_Group](/reference/services/SoftLayer_Network_Storage_Group)::getGroupType
+
+Retrieve the type which defines this group.
+
+
 ## Overview 
 Retrieve the type which defines this group.
 

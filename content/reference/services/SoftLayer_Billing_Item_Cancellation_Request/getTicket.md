@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item_Cancellation_Request"
 ---
-# SoftLayer_Billing_Item_Cancellation_Request::getTicket
+# [SoftLayer_Billing_Item_Cancellation_Request](/reference/services/SoftLayer_Billing_Item_Cancellation_Request)::getTicket
+
+Retrieve the ticket that is associated with the service cancellation request.
+
+
 ## Overview 
 Retrieve the ticket that is associated with the service cancellation request.
 

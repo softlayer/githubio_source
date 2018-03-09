@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getType
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getType
+
+Retrieve the type of this VLAN.
+
+
 ## Overview 
 Retrieve the type of this VLAN.
 

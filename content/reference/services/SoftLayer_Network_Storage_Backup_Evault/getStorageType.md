@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getStorageType
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getStorageType
+
+Retrieve a description of the Storage object.
+
+
 ## Overview 
 Retrieve a description of the Storage object.
 

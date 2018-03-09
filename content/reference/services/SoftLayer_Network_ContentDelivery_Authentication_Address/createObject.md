@@ -12,7 +12,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Authentication_Address"
 ---
-# SoftLayer_Network_ContentDelivery_Authentication_Address::createObject
+# [SoftLayer_Network_ContentDelivery_Authentication_Address](/reference/services/SoftLayer_Network_ContentDelivery_Authentication_Address)::createObject
+
+Creates an authentication IP record
+
+
 ## Overview 
 This method creates an authentication IP record.  Required parameters are 
 

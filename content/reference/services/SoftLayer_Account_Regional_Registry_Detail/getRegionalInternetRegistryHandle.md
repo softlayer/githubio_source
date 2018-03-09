@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Regional_Registry_Detail"
 ---
-# SoftLayer_Account_Regional_Registry_Detail::getRegionalInternetRegistryHandle
+# [SoftLayer_Account_Regional_Registry_Detail](/reference/services/SoftLayer_Account_Regional_Registry_Detail)::getRegionalInternetRegistryHandle
+
+Retrieve the associated RWhois handle of this detail object. Used only when detailed reassignments are necessary.
+
+
 ## Overview 
 Retrieve the associated RWhois handle of this detail object. Used only when detailed reassignments are necessary.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getAffiliateId
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAffiliateId
+
+Retrieve an affiliate identifier associated with the customer account. 
+
+
 ## Overview 
 Retrieve an affiliate identifier associated with the customer account. 
 

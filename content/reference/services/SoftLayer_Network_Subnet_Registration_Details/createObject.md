@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_Registration_Details"
 ---
-# SoftLayer_Network_Subnet_Registration_Details::createObject
+# [SoftLayer_Network_Subnet_Registration_Details](/reference/services/SoftLayer_Network_Subnet_Registration_Details)::createObject
+
+Create a new association between a [[SoftLayer_Network_Subnet_Registration]] object and a [[SoftLayer_Account_Regional_Registry_Detail]] object. 
+
+
 ## Overview 
 <style type="text/css">.create_object > li > div { padding-top: .5em; padding-bottom: .5em}</style> This method will create a new SoftLayer_Network_Subnet_Registration_Details object. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order"
 ---
-# SoftLayer_Billing_Order::approveModifiedOrder
+# [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::approveModifiedOrder
+
+Approve the changes of a modified order
+
+
 ## Overview 
 When an order has been modified, the customer will need to approve the changes. This method will allow the customer to approve the changes. 
 

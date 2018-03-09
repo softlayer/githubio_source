@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_Registration"
 ---
-# SoftLayer_Dns_Domain_Registration::getExtendedAttributes
+# [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration)::getExtendedAttributes
+
+Retrieves extended attributes.
+
+
 ## Overview 
 The getExtendedAttributes method determines if a country code top level domain requires extended attributes. 
 

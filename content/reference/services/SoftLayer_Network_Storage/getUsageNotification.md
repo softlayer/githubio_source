@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getUsageNotification
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getUsageNotification
+
+Retrieve the usage notification for SL Storage services.
+
+
 ## Overview 
 Retrieve the usage notification for SL Storage services.
 

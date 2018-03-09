@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket_Attachment_File"
 ---
-# SoftLayer_Ticket_Attachment_File::getExtensionWhitelist
+# [SoftLayer_Ticket_Attachment_File](/reference/services/SoftLayer_Ticket_Attachment_File)::getExtensionWhitelist
+
+
+
+
 ## Overview 
 
 

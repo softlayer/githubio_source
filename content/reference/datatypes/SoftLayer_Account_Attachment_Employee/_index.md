@@ -39,29 +39,49 @@ A SoftLayer_Account_Attachment_Employee models an assignment of a single [[SoftL
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#roleId" name=roleId>roleId</a></span>
+            <span class='views-field-title'>
+                <a href="#roleId" name=roleId>roleId</a>
+            </span>
             <div class='views-field-body'>Role identifier. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#account" name=account>account</a></span>
+            <span class='views-field-title'>
+                <a href="#account" name=account>account</a>
+            </span>
             <div class='views-field-body'>A [[SoftLayer_Account|account]] that is assigned to a [[SoftLayer_User_Employee|employee]]. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#employee" name=employee>employee</a></span>
+            <span class='views-field-title'>
+                <a href="#employee" name=employee>employee</a>
+            </span>
             <div class='views-field-body'>A [[SoftLayer_User_Employee|employee]] that is assigned to a [[SoftLayer_Account|account]]. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#employeeRole" name=employeeRole>employeeRole</a></span>
+            <span class='views-field-title'>
+                <a href="#employeeRole" name=employeeRole>employeeRole</a>
+            </span>
             <div class='views-field-body'>A [[SoftLayer_User_Employee|employee]] that is assigned to a [[SoftLayer_Account|account]]. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account_Attachment_Employee_Role'>SoftLayer_Account_Attachment_Employee_Role </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Account_Attachment_Employee_Role'>SoftLayer_Account_Attachment_Employee_Role </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

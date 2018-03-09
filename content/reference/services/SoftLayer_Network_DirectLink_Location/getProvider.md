@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_DirectLink_Location"
 ---
-# SoftLayer_Network_DirectLink_Location::getProvider
+# [SoftLayer_Network_DirectLink_Location](/reference/services/SoftLayer_Network_DirectLink_Location)::getProvider
+
+Retrieve the Id of Direct Link provider.
+
+
 ## Overview 
 Retrieve the Id of Direct Link provider.
 

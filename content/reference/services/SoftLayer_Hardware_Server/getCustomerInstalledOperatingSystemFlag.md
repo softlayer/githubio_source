@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getCustomerInstalledOperatingSystemFlag
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getCustomerInstalledOperatingSystemFlag
+
+Retrieve indicates if a server has a Customer Installed OS
+
+
 ## Overview 
 Retrieve indicates if a server has a Customer Installed OS
 

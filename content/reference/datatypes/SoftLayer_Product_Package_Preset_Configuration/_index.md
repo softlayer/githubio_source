@@ -42,21 +42,36 @@ classes:
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#category" name=category>category</a></span>
+            <span class='views-field-title'>
+                <a href="#category" name=category>category</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#packagePreset" name=packagePreset>packagePreset</a></span>
+            <span class='views-field-title'>
+                <a href="#packagePreset" name=packagePreset>packagePreset</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#price" name=price>price</a></span>
+            <span class='views-field-title'>
+                <a href="#price" name=price>price</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

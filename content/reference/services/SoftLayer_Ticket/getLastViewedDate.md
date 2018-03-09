@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getLastViewedDate
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getLastViewedDate
+
+Retrieve a timestamp of the last time the Ticket was viewed by the active user.
+
+
 ## Overview 
 Retrieve a timestamp of the last time the Ticket was viewed by the active user.
 

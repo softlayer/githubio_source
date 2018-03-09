@@ -39,39 +39,69 @@ The McAfee_Epolicy_Orchestrator_Version36_Hips_Version7_IPSEvent data type repre
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#incidentTime" name=incidentTime>incidentTime</a></span>
+            <span class='views-field-title'>
+                <a href="#incidentTime" name=incidentTime>incidentTime</a>
+            </span>
             <div class='views-field-body'>The time when an IPS event occurred. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#processName" name=processName>processName</a></span>
+            <span class='views-field-title'>
+                <a href="#processName" name=processName>processName</a>
+            </span>
             <div class='views-field-body'>Name of the process that generated an IPS event. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#reactionText" name=reactionText>reactionText</a></span>
+            <span class='views-field-title'>
+                <a href="#reactionText" name=reactionText>reactionText</a>
+            </span>
             <div class='views-field-body'>The action taken because of an IPS event. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#remoteIpAddress" name=remoteIpAddress>remoteIpAddress</a></span>
+            <span class='views-field-title'>
+                <a href="#remoteIpAddress" name=remoteIpAddress>remoteIpAddress</a>
+            </span>
             <div class='views-field-body'>The IP address that generated an IPS event. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#severityText" name=severityText>severityText</a></span>
+            <span class='views-field-title'>
+                <a href="#severityText" name=severityText>severityText</a>
+            </span>
             <div class='views-field-body'>The severity level for an IPS event. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#signature" name=signature>signature</a></span>
+            <span class='views-field-title'>
+                <a href="#signature" name=signature>signature</a>
+            </span>
             <div class='views-field-body'>The signature that generated an IPS event. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>McAfee_Epolicy_Orchestrator_Version36_Hips_Version7_Event_Signature</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>McAfee_Epolicy_Orchestrator_Version36_Hips_Version7_Event_Signature</p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

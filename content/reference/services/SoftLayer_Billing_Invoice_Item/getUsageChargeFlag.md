@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice_Item"
 ---
-# SoftLayer_Billing_Invoice_Item::getUsageChargeFlag
+# [SoftLayer_Billing_Invoice_Item](/reference/services/SoftLayer_Billing_Invoice_Item)::getUsageChargeFlag
+
+Retrieve indicating whether this invoice item is for the usage charge.
+
+
 ## Overview 
 Retrieve indicating whether this invoice item is for the usage charge.
 

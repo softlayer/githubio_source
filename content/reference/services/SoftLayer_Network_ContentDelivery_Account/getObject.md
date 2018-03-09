@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::getObject
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getObject
+
+Retrieve a SoftLayer_Network_ContentDelivery_Account record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Network_ContentDelivery_Account object whose ID number corresponds to the ID number of the initial parameter passed to the SoftLayer_Network_ContentDelivery_Account service. You can only retrieve CDN accounts assigned to your SoftLayer customer account. 
 

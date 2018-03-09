@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Survey"
 ---
-# SoftLayer_Survey::getQuestions
+# [SoftLayer_Survey](/reference/services/SoftLayer_Survey)::getQuestions
+
+Retrieve the questions for a survey.
+
+
 ## Overview 
 Retrieve the questions for a survey.
 

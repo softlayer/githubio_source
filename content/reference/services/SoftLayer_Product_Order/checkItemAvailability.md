@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Order"
 ---
-# SoftLayer_Product_Order::checkItemAvailability
+# [SoftLayer_Product_Order](/reference/services/SoftLayer_Product_Order)::checkItemAvailability
+
+
+
+
 ## Overview 
 
 

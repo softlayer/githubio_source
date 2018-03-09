@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Customer_Subnet"
 ---
-# SoftLayer_Network_Customer_Subnet::createObject
+# [SoftLayer_Network_Customer_Subnet](/reference/services/SoftLayer_Network_Customer_Subnet)::createObject
+
+*
+
+
 ## Overview 
 For IPSec network tunnels, customers can create their local subnets using this method.  After the customer is created successfully, the customer subnet can then be added to the IPSec network tunnel. 
 

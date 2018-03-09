@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Link_Bluemix"
 ---
-# SoftLayer_Account_Link_Bluemix::getServiceProvider
+# [SoftLayer_Account_Link_Bluemix](/reference/services/SoftLayer_Account_Link_Bluemix)::getServiceProvider
+
+
+
+
 ## Overview 
 
 

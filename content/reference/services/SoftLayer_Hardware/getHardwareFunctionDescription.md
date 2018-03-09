@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getHardwareFunctionDescription
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getHardwareFunctionDescription
+
+Retrieve a hardware's function.
+
+
 ## Overview 
 Retrieve a hardware's function.
 

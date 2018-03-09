@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host"
 ---
-# SoftLayer_Network_Storage_Allowed_Host::getObject
+# [SoftLayer_Network_Storage_Allowed_Host](/reference/services/SoftLayer_Network_Storage_Allowed_Host)::getObject
+
+Retrieve a SoftLayer_Network_Storage_Allowed_Host record.
+
+
 ## Overview 
 
 

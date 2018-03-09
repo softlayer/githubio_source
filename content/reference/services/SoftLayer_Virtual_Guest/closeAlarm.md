@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::closeAlarm
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::closeAlarm
+
+Returns monitoring alarm detailed history
+
+
 ## Overview 
 Returns monitoring alarm detailed history 
 

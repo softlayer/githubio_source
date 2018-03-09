@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order"
 ---
-# SoftLayer_Billing_Order::getPdf
+# [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getPdf
+
+Retrieve a PDF copy of a quote.
+
+
 ## Overview 
 Retrieve a PDF record of a SoftLayer quote. If the order is not a quote, an error will be thrown. 
 

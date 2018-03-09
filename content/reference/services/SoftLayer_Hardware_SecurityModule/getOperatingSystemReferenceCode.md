@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getOperatingSystemReferenceCode
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getOperatingSystemReferenceCode
+
+Retrieve a hardware's operating system software description.
+
+
 ## Overview 
 Retrieve a hardware's operating system software description.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Upgrade_Request"
 ---
-# SoftLayer_Product_Upgrade_Request::updateMaintenanceWindow
+# [SoftLayer_Product_Upgrade_Request](/reference/services/SoftLayer_Product_Upgrade_Request)::updateMaintenanceWindow
+
+Updates the maintenance window
+
+
 ## Overview 
 In case an upgrade cannot be performed, the maintenance window needs to be updated to a future date. 
 

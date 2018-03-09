@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getOpenAccountingTickets
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getOpenAccountingTickets
+
+Retrieve the open accounting tickets associated with an account.
+
+
 ## Overview 
 Retrieve the open accounting tickets associated with an account.
 

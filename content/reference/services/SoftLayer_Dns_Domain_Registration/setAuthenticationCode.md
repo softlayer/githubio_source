@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_Registration"
 ---
-# SoftLayer_Dns_Domain_Registration::setAuthenticationCode
+# [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration)::setAuthenticationCode
+
+Sets the authentication code for a domain.
+
+
 ## Overview 
 The setAuthenticationCode method sets the authentication code for the domain. The authentication code is a transfer key and provides an extra level of security, safeguarding domain names from unauthorized transfers. 
 

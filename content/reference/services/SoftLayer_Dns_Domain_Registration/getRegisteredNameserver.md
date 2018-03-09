@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_Registration"
 ---
-# SoftLayer_Dns_Domain_Registration::getRegisteredNameserver
+# [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration)::getRegisteredNameserver
+
+Retrieves a registered nameserver.
+
+
 ## Overview 
 The getRegisteredNameserver method retrieves registered nameservers. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_VirtualLicense"
 ---
-# SoftLayer_Software_VirtualLicense::getSubnet
+# [SoftLayer_Software_VirtualLicense](/reference/services/SoftLayer_Software_VirtualLicense)::getSubnet
+
+Retrieve the subnet this Virtual License's IP address belongs to.
+
+
 ## Overview 
 Retrieve the subnet this Virtual License's IP address belongs to.
 

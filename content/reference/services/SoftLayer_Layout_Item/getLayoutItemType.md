@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Layout_Item"
 ---
-# SoftLayer_Layout_Item::getLayoutItemType
+# [SoftLayer_Layout_Item](/reference/services/SoftLayer_Layout_Item)::getLayoutItemType
+
+Retrieve the type of the layout item object
+
+
 ## Overview 
 Retrieve the type of the layout item object
 

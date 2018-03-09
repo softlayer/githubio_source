@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getHardwareByIpAddress
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getHardwareByIpAddress
+
+Retrieve a SoftLayer_Hardware_Server object by IP address.
+
+
 ## Overview 
 Retrieve a server by searching for the primary IP address. 
 

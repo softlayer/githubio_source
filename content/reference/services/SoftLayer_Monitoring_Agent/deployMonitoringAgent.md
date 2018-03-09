@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::deployMonitoringAgent
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::deployMonitoringAgent
+
+Initialize a monitoring agent and deploy it with the specified configuration template. 
+
+
 ## Overview 
 Initialize a monitoring agent and deploy it with the SoftLayer_Configuration_Template with the same identifier as the $configurationTemplateId parameter. If the configuration template ID is not provided, the current configuration template will be used. When executing this method, the existing configuration values will be lost. If no configuration template identifier is provided, the current configuration template will be used. '''Warning''' Reporting data may be lost as a result of executing this method. 
 

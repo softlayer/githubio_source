@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Certificate"
 ---
-# SoftLayer_Security_Certificate::getLoadBalancerVirtualIpAddresses
+# [SoftLayer_Security_Certificate](/reference/services/SoftLayer_Security_Certificate)::getLoadBalancerVirtualIpAddresses
+
+Retrieve the load balancers virtual IP addresses currently associated with the certificate.
+
+
 ## Overview 
 Retrieve the load balancers virtual IP addresses currently associated with the certificate.
 

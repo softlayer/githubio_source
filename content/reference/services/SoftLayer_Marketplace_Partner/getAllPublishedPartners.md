@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Marketplace_Partner"
 ---
-# SoftLayer_Marketplace_Partner::getAllPublishedPartners
+# [SoftLayer_Marketplace_Partner](/reference/services/SoftLayer_Marketplace_Partner)::getAllPublishedPartners
+
+
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getBillingInfo
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getBillingInfo
+
+Retrieve an account's billing information.
+
+
 ## Overview 
 Retrieve an account's billing information.
 

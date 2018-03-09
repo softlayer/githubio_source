@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_Registration"
 ---
-# SoftLayer_Dns_Domain_Registration::getAuthenticationCode
+# [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration)::getAuthenticationCode
+
+Get the authentication code for a domain.
+
+
 ## Overview 
 The getAuthenticationCode method retrieves the authentication code for the domain. 
 

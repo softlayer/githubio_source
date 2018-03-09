@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getHardware
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getHardware
+
+Retrieve when applicable, the hardware associated with a Storage service.
+
+
 ## Overview 
 Retrieve when applicable, the hardware associated with a Storage service.
 

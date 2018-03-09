@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice"
 ---
-# SoftLayer_Billing_Invoice::getPdfFileSize
+# [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getPdfFileSize
+
+Retrieve the size of a PDF copy of an invoice.
+
+
 ## Overview 
 Retrieve the size of a PDF record of a SoftLayer invoice. SoftLayer keeps PDF records of all closed invoices for customer retrieval from the portal and API. 
 

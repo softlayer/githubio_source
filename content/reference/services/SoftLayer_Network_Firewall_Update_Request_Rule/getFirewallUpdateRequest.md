@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Firewall_Update_Request_Rule"
 ---
-# SoftLayer_Network_Firewall_Update_Request_Rule::getFirewallUpdateRequest
+# [SoftLayer_Network_Firewall_Update_Request_Rule](/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule)::getFirewallUpdateRequest
+
+Retrieve the update request that this rule belongs to.
+
+
 ## Overview 
 Retrieve the update request that this rule belongs to.
 

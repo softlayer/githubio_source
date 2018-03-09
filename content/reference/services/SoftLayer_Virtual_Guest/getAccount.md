@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getAccount
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getAccount
+
+Retrieve the account that a virtual guest belongs to.
+
+
 ## Overview 
 Retrieve the account that a virtual guest belongs to.
 

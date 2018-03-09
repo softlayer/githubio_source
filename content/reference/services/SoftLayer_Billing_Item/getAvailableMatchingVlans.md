@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getAvailableMatchingVlans
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getAvailableMatchingVlans
+
+
+
+
 ## Overview 
 
 

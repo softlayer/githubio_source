@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Host"
 ---
-# SoftLayer_Virtual_Host::getAccount
+# [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::getAccount
+
+Retrieve the account which a virtual host belongs to.
+
+
 ## Overview 
 Retrieve the account which a virtual host belongs to.
 

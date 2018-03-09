@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Secondary"
 ---
-# SoftLayer_Dns_Secondary::getByDomainName
+# [SoftLayer_Dns_Secondary](/reference/services/SoftLayer_Dns_Secondary)::getByDomainName
+
+Search for secondary domains by name.
+
+
 ## Overview 
 Search for [[SoftLayer_Dns_Domain_Secondary]] records by domain name. getByDomainName() performs an inclusive search for secondary domain records, returning multiple records based on partial name matches. Use this method to locate secondary domain records if you don't have access to their id numbers. 
 

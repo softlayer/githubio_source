@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Search"
 ---
-# SoftLayer_Search::getObjectTypes
+# [SoftLayer_Search](/reference/services/SoftLayer_Search)::getObjectTypes
+
+Return a collection of indexed object types. 
+
+
 ## Overview 
 This method returns a collection of <b>[[SoftLayer_Container_Search_ObjectType (type)|SoftLayer_Container_Search_ObjectType]]</b> containers that specify which indexed object types and properties are exposed for the current user.  These object types can be used to discover searchable data and to create or validate object index search strings. 
 

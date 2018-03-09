@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getBluemixLinkedFlag
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getBluemixLinkedFlag
+
+Retrieve returns true if this account is linked to IBM Bluemix, false if not.
+
+
 ## Overview 
 Retrieve returns true if this account is linked to IBM Bluemix, false if not.
 

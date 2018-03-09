@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::getActiveAlarmSubscribers
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::getActiveAlarmSubscribers
+
+Retrieves all active users that are receiving alarm notifications.
+
+
 ## Overview 
 This method retrieves an array of SoftLayer_Notification_User_Subscriber objects belonging to the SoftLayer_Monitoring_Agent which are able to receive alarm notifications. 
 

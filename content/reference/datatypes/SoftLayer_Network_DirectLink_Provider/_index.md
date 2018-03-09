@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Network_DirectLink_Provider
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_DirectLink_Provider' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Network_DirectLink_Provider' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_DirectLink_Provider' >Datatype</a></li>
     </ul>
 </div>
 
@@ -39,14 +39,24 @@ The SoftLayer_Network_DirectLink_Provider presents a structure containing attrib
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

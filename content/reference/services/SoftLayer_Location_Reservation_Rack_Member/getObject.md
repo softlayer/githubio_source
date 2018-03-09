@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location_Reservation_Rack_Member"
 ---
-# SoftLayer_Location_Reservation_Rack_Member::getObject
+# [SoftLayer_Location_Reservation_Rack_Member](/reference/services/SoftLayer_Location_Reservation_Rack_Member)::getObject
+
+Retrieve a SoftLayer_Location_Reservation_Rack_Member record.
+
+
 ## Overview 
 
 

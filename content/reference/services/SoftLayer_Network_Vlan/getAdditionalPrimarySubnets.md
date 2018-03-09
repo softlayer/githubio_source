@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getAdditionalPrimarySubnets
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getAdditionalPrimarySubnets
+
+Retrieve a VLAN's additional primary subnets. These are used to extend the number of servers attached to the VLAN by adding more ip addresses to the primary IP address pool.
+
+
 ## Overview 
 Retrieve a VLAN's additional primary subnets. These are used to extend the number of servers attached to the VLAN by adding more ip addresses to the primary IP address pool.
 

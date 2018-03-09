@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Agreement"
 ---
-# SoftLayer_Account_Agreement::getTopLevelBillingItems
+# [SoftLayer_Account_Agreement](/reference/services/SoftLayer_Account_Agreement)::getTopLevelBillingItems
+
+Retrieve the top level billing item associated with an agreement.
+
+
 ## Overview 
 Retrieve the top level billing item associated with an agreement.
 

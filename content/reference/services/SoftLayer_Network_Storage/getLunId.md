@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getLunId
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getLunId
+
+Retrieve the ID of the LUN volume.
+
+
 ## Overview 
 Retrieve the ID of the LUN volume.
 

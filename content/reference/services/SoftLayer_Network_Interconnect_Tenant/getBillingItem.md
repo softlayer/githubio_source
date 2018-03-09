@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Interconnect_Tenant"
 ---
-# SoftLayer_Network_Interconnect_Tenant::getBillingItem
+# [SoftLayer_Network_Interconnect_Tenant](/reference/services/SoftLayer_Network_Interconnect_Tenant)::getBillingItem
+
+Retrieve the billing item for a network interconnect.
+
+
 ## Overview 
 Retrieve the billing item for a network interconnect.
 

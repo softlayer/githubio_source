@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getGlobalIpv6Records
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getGlobalIpv6Records
+
+
+
+
 ## Overview 
 
 

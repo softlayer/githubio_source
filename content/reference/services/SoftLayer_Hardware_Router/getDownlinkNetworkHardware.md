@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getDownlinkNetworkHardware
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getDownlinkNetworkHardware
+
+Retrieve all hardware that has uplink network connections to a piece of hardware.
+
+
 ## Overview 
 Retrieve all hardware that has uplink network connections to a piece of hardware.
 

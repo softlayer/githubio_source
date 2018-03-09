@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getNetworkMountAddress
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getNetworkMountAddress
+
+Displays the mount path of a storage volume.
+
+
 ## Overview 
 
 

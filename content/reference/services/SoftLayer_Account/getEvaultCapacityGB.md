@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getEvaultCapacityGB
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getEvaultCapacityGB
+
+Retrieve the total capacity of Legacy EVault Volumes on an account, in GB.
+
+
 ## Overview 
 Retrieve the total capacity of Legacy EVault Volumes on an account, in GB.
 

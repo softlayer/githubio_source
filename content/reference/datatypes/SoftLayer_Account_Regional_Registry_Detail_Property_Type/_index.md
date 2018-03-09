@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Account_Regional_Registry_Detail_Property_Type
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property_Type' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Account_Regional_Registry_Detail_Property_Type' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property_Type' >Datatype</a></li>
     </ul>
 </div>
 
@@ -39,34 +39,64 @@ Subnet Registration Detail Property Type objects describe the nature of a [[Soft
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#createDate" name=createDate>createDate</a></span>
+            <span class='views-field-title'>
+                <a href="#createDate" name=createDate>createDate</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>Unique numeric ID of the property type object  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#keyName" name=keyName>keyName</a></span>
+            <span class='views-field-title'>
+                <a href="#keyName" name=keyName>keyName</a>
+            </span>
             <div class='views-field-body'>Code-friendly string name of the property type  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#modifyDate" name=modifyDate>modifyDate</a></span>
+            <span class='views-field-title'>
+                <a href="#modifyDate" name=modifyDate>modifyDate</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>Human-readable name of the property type  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#valueExpression" name=valueExpression>valueExpression</a></span>
+            <span class='views-field-title'>
+                <a href="#valueExpression" name=valueExpression>valueExpression</a>
+            </span>
             <div class='views-field-body'>A Perl-compatible regular expression used to describe the valid format of the property  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

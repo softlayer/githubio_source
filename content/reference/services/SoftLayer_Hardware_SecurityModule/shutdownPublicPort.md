@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::shutdownPublicPort
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::shutdownPublicPort
+
+Shuts down the public port
+
+
 ## Overview 
 Shuts down the public network port
 

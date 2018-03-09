@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order"
 ---
-# SoftLayer_Billing_Order::getReferralPartner
+# [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getReferralPartner
+
+Retrieve the Referral Partner who referred this order. (Only necessary for new customer orders)
+
+
 ## Overview 
 Retrieve the Referral Partner who referred this order. (Only necessary for new customer orders)
 

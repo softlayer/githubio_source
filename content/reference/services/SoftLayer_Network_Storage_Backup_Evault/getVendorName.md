@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getVendorName
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getVendorName
+
+Retrieve the type of network storage service.
+
+
 ## Overview 
 Retrieve the type of network storage service.
 

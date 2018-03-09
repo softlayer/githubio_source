@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getMonitoringClosedAlarms
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getMonitoringClosedAlarms
+
+Returns closed monitoring alarms for a given time period
+
+
 ## Overview 
 Returns closed monitoring alarms for a given time period 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Termination_Policy"
 ---
-# SoftLayer_Scale_Termination_Policy::getAllObjects
+# [SoftLayer_Scale_Termination_Policy](/reference/services/SoftLayer_Scale_Termination_Policy)::getAllObjects
+
+Get a list of all termination policies
+
+
 ## Overview 
 
 

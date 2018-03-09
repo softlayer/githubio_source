@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getActivePrivateHostedCloudPackages
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getActivePrivateHostedCloudPackages
+
+Get the Active SoftLayer_Product_Packages from which one can order private hosted cloud configurations.
+
+
 ## Overview 
 This method pulls all the active private hosted cloud packages. This will give you a basic description of the packages that are currently active and from which you can order private hosted cloud configurations. 
 

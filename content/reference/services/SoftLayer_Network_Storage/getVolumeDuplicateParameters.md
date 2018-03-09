@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getVolumeDuplicateParameters
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getVolumeDuplicateParameters
+
+
+
+
 ## Overview 
 This method returns the parameters for cloning a volume 
 

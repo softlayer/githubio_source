@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getPrivateHostedCloudPackageType
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getPrivateHostedCloudPackageType
+
+Retrieve the server role of the private hosted cloud deployment. (Deprecated)
+
+
 ## Overview 
 Retrieve the server role of the private hosted cloud deployment. (Deprecated)
 

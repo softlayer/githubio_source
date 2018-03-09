@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Network_Component"
 ---
-# SoftLayer_Virtual_Guest_Network_Component::getPrimaryVersion6IpAddressRecord
+# [SoftLayer_Virtual_Guest_Network_Component](/reference/services/SoftLayer_Virtual_Guest_Network_Component)::getPrimaryVersion6IpAddressRecord
+
+Retrieve a network component's primary IPv6 IP address record.
+
+
 ## Overview 
 Retrieve a network component's primary IPv6 IP address record.
 

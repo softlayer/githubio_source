@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_Media_Transcode_Job"
 ---
-# SoftLayer_Network_Media_Transcode_Job::createObject
+# [SoftLayer_Network_Media_Transcode_Job](/reference/services/SoftLayer_Network_Media_Transcode_Job)::createObject
+
+Creates a transcode job
+
+
 ## Overview 
 With this method, you can create a transcode job. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getObject
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getObject
+
+Retrieve a SoftLayer_User_Customer_OpenIdConnect record.
+
+
 ## Overview 
 
 

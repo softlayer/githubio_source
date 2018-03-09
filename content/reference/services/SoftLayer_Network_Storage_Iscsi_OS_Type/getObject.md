@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi_OS_Type"
 ---
-# SoftLayer_Network_Storage_Iscsi_OS_Type::getObject
+# [SoftLayer_Network_Storage_Iscsi_OS_Type](/reference/services/SoftLayer_Network_Storage_Iscsi_OS_Type)::getObject
+
+Retrieve a SoftLayer_Network_Storage_Iscsi_OS_Type record.
+
+
 ## Overview 
 
 

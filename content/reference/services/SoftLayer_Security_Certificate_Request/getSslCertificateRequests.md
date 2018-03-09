@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Certificate_Request"
 ---
-# SoftLayer_Security_Certificate_Request::getSslCertificateRequests
+# [SoftLayer_Security_Certificate_Request](/reference/services/SoftLayer_Security_Certificate_Request)::getSslCertificateRequests
+
+Returns all the SSL certificate requests
+
+
 ## Overview 
 Returns all the SSL certificate requests. 
 

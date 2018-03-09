@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Firewall_Update_Request"
 ---
-# SoftLayer_Network_Firewall_Update_Request::getObject
+# [SoftLayer_Network_Firewall_Update_Request](/reference/services/SoftLayer_Network_Firewall_Update_Request)::getObject
+
+Retrieve a SoftLayer_Network_Firewall_Update_Request record.
+
+
 ## Overview 
 ''getObject'' returns a SoftLayer_Network_Firewall_Update_Request object. You can only get historical objects for servers attached to your account that have a network firewall enabled. ''createObject'' inserts a new SoftLayer_Network_Firewall_Update_Request object. You can only insert requests for servers attached to your account that have a network firewall enabled. ''getFirewallUpdateRequestRuleAttributes'' Get the possible attribute values for a firewall update request rule. 
 

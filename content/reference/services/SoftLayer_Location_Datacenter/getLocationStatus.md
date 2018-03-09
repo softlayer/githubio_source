@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location_Datacenter"
 ---
-# SoftLayer_Location_Datacenter::getLocationStatus
+# [SoftLayer_Location_Datacenter](/reference/services/SoftLayer_Location_Datacenter)::getLocationStatus
+
+Retrieve the current locations status.
+
+
 ## Overview 
 Retrieve the current locations status.
 

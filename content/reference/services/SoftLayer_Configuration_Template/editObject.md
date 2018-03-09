@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Configuration_Template"
 ---
-# SoftLayer_Configuration_Template::editObject
+# [SoftLayer_Configuration_Template](/reference/services/SoftLayer_Configuration_Template)::editObject
+
+Edit the object by passing in a modified instance of the object
+
+
 ## Overview 
 Edit the object by passing in a modified instance of the object. Use this method to modify configuration template name or description. 
 

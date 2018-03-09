@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getMappedAccounts
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getMappedAccounts
+
+Retrieve a list of all the accounts that belong to this customer.
+
+
 ## Overview 
 An OpenIdConnect identity, for example an IBMid, can be linked or mapped to one or more individual SoftLayer users, but no more than one SoftLayer user per account. This effectively links the OpenIdConnect identity to those accounts. This API returns a list of all the accounts for which there is a link between the OpenIdConnect identity and a SoftLayer user. Invoke this only on IBMid-authenticated users. 
 

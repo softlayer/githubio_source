@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Address"
 ---
-# SoftLayer_Account_Address::getLocation
+# [SoftLayer_Account_Address](/reference/services/SoftLayer_Account_Address)::getLocation
+
+Retrieve the location of this address.
+
+
 ## Overview 
 Retrieve the location of this address.
 

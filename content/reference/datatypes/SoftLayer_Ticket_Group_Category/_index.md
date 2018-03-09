@@ -24,7 +24,7 @@ SoftLayer's support ticket groups represent the department at SoftLayer that is 
 
 ### seeAlso
 
-* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+* [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket )
 
 
 * [SoftLayer_Ticket_Group](/reference/datatypes/SoftLayer_Ticket_Group )
@@ -47,14 +47,24 @@ SoftLayer's support ticket groups represent the department at SoftLayer that is 
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>A ticket group category's unique identifier. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>A ticket group category's name. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

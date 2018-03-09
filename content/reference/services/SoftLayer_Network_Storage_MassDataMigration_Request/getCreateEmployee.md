@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_MassDataMigration_Request"
 ---
-# SoftLayer_Network_Storage_MassDataMigration_Request::getCreateEmployee
+# [SoftLayer_Network_Storage_MassDataMigration_Request](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request)::getCreateEmployee
+
+Retrieve the employee user who created the request.
+
+
 ## Overview 
 Retrieve the employee user who created the request.
 

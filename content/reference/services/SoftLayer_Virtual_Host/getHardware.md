@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Host"
 ---
-# SoftLayer_Virtual_Host::getHardware
+# [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::getHardware
+
+Retrieve the hardware record which a virtual host resides on.
+
+
 ## Overview 
 Retrieve the hardware record which a virtual host resides on.
 

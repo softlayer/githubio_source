@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getBillingItem
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getBillingItem
+
+Retrieve information regarding the billing item for a server.
+
+
 ## Overview 
 Retrieve information regarding the billing item for a server.
 

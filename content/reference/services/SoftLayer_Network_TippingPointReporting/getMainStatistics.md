@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_TippingPointReporting"
 ---
-# SoftLayer_Network_TippingPointReporting::getMainStatistics
+# [SoftLayer_Network_TippingPointReporting](/reference/services/SoftLayer_Network_TippingPointReporting)::getMainStatistics
+
+Returns the main statistics for the entire SoftLayer network, as well as your particular account.
+
+
 ## Overview 
 This method returns the attack statistics for the current user's account and for the entire SoftLayer network.  These attacks are recorded and monitored at the entry point to the network, and represent attacks in both directions. 
 

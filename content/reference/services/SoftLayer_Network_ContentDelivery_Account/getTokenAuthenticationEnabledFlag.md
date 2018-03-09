@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::getTokenAuthenticationEnabledFlag
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getTokenAuthenticationEnabledFlag
+
+Retrieve indicates if the token authentication service is enabled or not.
+
+
 ## Overview 
 Retrieve indicates if the token authentication service is enabled or not.
 

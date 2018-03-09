@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getStorageType
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getStorageType
+
+Retrieve a description of the Storage object.
+
+
 ## Overview 
 Retrieve a description of the Storage object.
 

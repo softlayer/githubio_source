@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_Security_Answer"
 ---
-# SoftLayer_User_Customer_Security_Answer::getUser
+# [SoftLayer_User_Customer_Security_Answer](/reference/services/SoftLayer_User_Customer_Security_Answer)::getUser
+
+Retrieve the user who the security answer belongs to.
+
+
 ## Overview 
 Retrieve the user who the security answer belongs to.
 

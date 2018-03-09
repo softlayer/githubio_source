@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Info"
 ---
-# SoftLayer_Billing_Info::getNextBillDate
+# [SoftLayer_Billing_Info](/reference/services/SoftLayer_Billing_Info)::getNextBillDate
+
+Retrieve the date on which an account will be billed next.
+
+
 ## Overview 
 Retrieve the date on which an account will be billed next.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getBillingCyclePrivateBandwidthUsage
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getBillingCyclePrivateBandwidthUsage
+
+Retrieve the raw private bandwidth usage data for the current billing cycle.
+
+
 ## Overview 
 Retrieve the raw private bandwidth usage data for the current billing cycle.
 

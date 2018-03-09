@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network"
 ---
-# SoftLayer_Network::deleteObject
+# [SoftLayer_Network](/reference/services/SoftLayer_Network)::deleteObject
+
+Remove the Network
+
+
 ## Overview 
 Remove the specified Network along with any Subnets. 
 

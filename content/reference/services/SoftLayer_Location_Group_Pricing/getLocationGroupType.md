@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location_Group_Pricing"
 ---
-# SoftLayer_Location_Group_Pricing::getLocationGroupType
+# [SoftLayer_Location_Group_Pricing](/reference/services/SoftLayer_Location_Group_Pricing)::getLocationGroupType
+
+Retrieve the type for this location group.
+
+
 ## Overview 
 Retrieve the type for this location group.
 

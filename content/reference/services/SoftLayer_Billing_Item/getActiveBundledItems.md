@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getActiveBundledItems
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getActiveBundledItems
+
+Retrieve a Billing Item's active bundled billing items.
+
+
 ## Overview 
 Retrieve a Billing Item's active bundled billing items.
 

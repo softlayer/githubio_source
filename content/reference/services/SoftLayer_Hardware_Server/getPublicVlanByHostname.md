@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getPublicVlanByHostname
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getPublicVlanByHostname
+
+Retrieve the frontend VLAN by a server's hostname.
+
+
 ## Overview 
 Retrieve the frontend network Vlan by searching the hostname of a server 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Phone"
 ---
-# SoftLayer_User_Customer_External_Binding_Phone::updateAuthenticationMode
+# [SoftLayer_User_Customer_External_Binding_Phone](/reference/services/SoftLayer_User_Customer_External_Binding_Phone)::updateAuthenticationMode
+
+Updates the authentication mode
+
+
 ## Overview 
 This service allow you to change your phone authentication mode. See [[SoftLayer_Container_User_Customer_External_Binding_Phone_Mode|authentication mode]] container for available modes. 
 

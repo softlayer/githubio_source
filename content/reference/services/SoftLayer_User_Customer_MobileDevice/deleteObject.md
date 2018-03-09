@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_MobileDevice"
 ---
-# SoftLayer_User_Customer_MobileDevice::deleteObject
+# [SoftLayer_User_Customer_MobileDevice](/reference/services/SoftLayer_User_Customer_MobileDevice)::deleteObject
+
+Delete a mobile device association for a user.
+
+
 ## Overview 
 Delete a mobile device association for a user. 
 

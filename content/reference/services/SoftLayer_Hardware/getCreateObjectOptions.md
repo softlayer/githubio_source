@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getCreateObjectOptions
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getCreateObjectOptions
+
+Determine options available when creating a server
+
+
 ## Overview 
 
 There are many options that may be provided while ordering a server, this method can be used to determine what these options are. 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Tag"
 ---
-# SoftLayer_Tag::getObject
+# [SoftLayer_Tag](/reference/services/SoftLayer_Tag)::getObject
+
+Retrieve a SoftLayer_Tag record.
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getAttributeByType
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAttributeByType
+
+Retrieve an account attribute by type key name.
+
+
 ## Overview 
 Retrieve a single [[SoftLayer_Account_Attribute]] record by its [[SoftLayer_Account_Attribute_Type|types's]] key name. 
 

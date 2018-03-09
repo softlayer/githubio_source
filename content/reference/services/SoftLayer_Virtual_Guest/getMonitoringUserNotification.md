@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getMonitoringUserNotification
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getMonitoringUserNotification
+
+Retrieve the monitoring notification objects for this guest. Each object links this guest instance to a user account that will be notified if monitoring on this guest object fails
+
+
 ## Overview 
 Retrieve the monitoring notification objects for this guest. Each object links this guest instance to a user account that will be notified if monitoring on this guest object fails
 

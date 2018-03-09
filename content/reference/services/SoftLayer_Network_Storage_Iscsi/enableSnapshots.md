@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::enableSnapshots
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::enableSnapshots
+
+Enable snapshots of this Storage Volume on a schedule.
+
+
 ## Overview 
 This method is not valid for Legacy iSCSI Storage Volumes. 
 

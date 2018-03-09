@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Survey"
 ---
-# SoftLayer_Survey::getActiveSurveyByType
+# [SoftLayer_Survey](/reference/services/SoftLayer_Survey)::getActiveSurveyByType
+
+Provides survey details for the given type
+
+
 ## Overview 
 Provides survey details for the given type 
 

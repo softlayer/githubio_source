@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_Password"
 ---
-# SoftLayer_Software_Component_Password::getSoftware
+# [SoftLayer_Software_Component_Password](/reference/services/SoftLayer_Software_Component_Password)::getSoftware
+
+Retrieve the SoftLayer_Software_Component instance that this username/password pair is valid for.
+
+
 ## Overview 
 Retrieve the SoftLayer_Software_Component instance that this username/password pair is valid for.
 

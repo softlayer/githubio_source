@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Block_Device_Template_Group"
 ---
-# SoftLayer_Virtual_Guest_Block_Device_Template_Group::deleteObject
+# [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::deleteObject
+
+Create a transaction that will remove all block device templates from the group and delete the disk images associated with them. 
+
+
 ## Overview 
 Deleting a block device template group is different from the deletion of other objects.  A block device template group can contain several gigabytes of data in its disk images.  This may take some time to delete and requires a transaction to be created.  This method creates a transaction that will delete all resources associated with the block device template group. 
 

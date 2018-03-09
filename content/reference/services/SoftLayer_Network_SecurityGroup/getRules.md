@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_SecurityGroup"
 ---
-# SoftLayer_Network_SecurityGroup::getRules
+# [SoftLayer_Network_SecurityGroup](/reference/services/SoftLayer_Network_SecurityGroup)::getRules
+
+Retrieve the rules for this security group.
+
+
 ## Overview 
 Retrieve the rules for this security group.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_DedicatedHost"
 ---
-# SoftLayer_Virtual_DedicatedHost::getAllocationStatus
+# [SoftLayer_Virtual_DedicatedHost](/reference/services/SoftLayer_Virtual_DedicatedHost)::getAllocationStatus
+
+Retrieve the container that represents allocations on the dedicated host.
+
+
 ## Overview 
 Retrieve the container that represents allocations on the dedicated host.
 

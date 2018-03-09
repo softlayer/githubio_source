@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Provisioning_Hook"
 ---
-# SoftLayer_Provisioning_Hook::deleteObject
+# [SoftLayer_Provisioning_Hook](/reference/services/SoftLayer_Provisioning_Hook)::deleteObject
+
+
+
+
 ## Overview 
 
 

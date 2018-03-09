@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getTagReferences
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getTagReferences
+
+
+
+
 ## Overview 
 
 

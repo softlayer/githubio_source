@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::getAuthenticationServiceEndpoints
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getAuthenticationServiceEndpoints
+
+Returns all token validation web service endpoints
+
+
 ## Overview 
 CDN servers will invoke a Web Service method to validate a content authentication token. This method returns all token validation web service endpoints set for a CDN account. You can override the default web service by calling [[SoftLayer_Network_ContentDelivery_Authentication_Token|setContentAuthenticationWsdl setContentAuthenticationWsdl]] method. 
 

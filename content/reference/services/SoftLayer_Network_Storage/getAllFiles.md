@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getAllFiles
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getAllFiles
+
+Retrieve a listing of all files in a Storage account's root directory.
+
+
 ## Overview 
 {{CloudLayerOnlyMethod}} Retrieve details such as id, name, size, create date for all files in a Storage account's root directory. This does not download file content. 
 

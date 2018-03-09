@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Monitor_Version1_Query_Host"
 ---
-# SoftLayer_Network_Monitor_Version1_Query_Host::editObject
+# [SoftLayer_Network_Monitor_Version1_Query_Host](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host)::editObject
+
+Edit the object by passing in a modified instance of the object
+
+
 ## Overview 
 Like any other API object, the monitoring objects can have their exposed properties edited by passing in a modified version of the object. 
 

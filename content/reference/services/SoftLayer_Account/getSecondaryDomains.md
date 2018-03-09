@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getSecondaryDomains
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSecondaryDomains
+
+Retrieve the secondary DNS records for a SoftLayer customer account.
+
+
 ## Overview 
 Retrieve the secondary DNS records for a SoftLayer customer account.
 

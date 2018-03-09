@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getBareMetalInstances
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getBareMetalInstances
+
+Retrieve an account's associated bare metal server objects.
+
+
 ## Overview 
 Retrieve an account's associated bare metal server objects.
 

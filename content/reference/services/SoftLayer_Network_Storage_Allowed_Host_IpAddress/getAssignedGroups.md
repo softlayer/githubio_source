@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host_IpAddress"
 ---
-# SoftLayer_Network_Storage_Allowed_Host_IpAddress::getAssignedGroups
+# [SoftLayer_Network_Storage_Allowed_Host_IpAddress](/reference/services/SoftLayer_Network_Storage_Allowed_Host_IpAddress)::getAssignedGroups
+
+Retrieve the SoftLayer_Network_Storage_Group objects this SoftLayer_Network_Storage_Allowed_Host is present in.
+
+
 ## Overview 
 Retrieve the SoftLayer_Network_Storage_Group objects this SoftLayer_Network_Storage_Allowed_Host is present in.
 

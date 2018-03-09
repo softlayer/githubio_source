@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_CustomerPermission_Permission"
 ---
-# SoftLayer_User_Customer_CustomerPermission_Permission::getAllObjects
+# [SoftLayer_User_Customer_CustomerPermission_Permission](/reference/services/SoftLayer_User_Customer_CustomerPermission_Permission)::getAllObjects
+
+Retrieve all available permissions.
+
+
 ## Overview 
 Retrieve all available permissions.
 

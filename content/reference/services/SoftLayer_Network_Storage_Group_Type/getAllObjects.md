@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Group_Type"
 ---
-# SoftLayer_Network_Storage_Group_Type::getAllObjects
+# [SoftLayer_Network_Storage_Group_Type](/reference/services/SoftLayer_Network_Storage_Group_Type)::getAllObjects
+
+Returns all storage group types available
+
+
 ## Overview 
 Use this method to retrieve all storage group types available. 
 

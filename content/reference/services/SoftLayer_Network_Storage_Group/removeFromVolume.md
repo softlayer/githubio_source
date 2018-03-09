@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Group"
 ---
-# SoftLayer_Network_Storage_Group::removeFromVolume
+# [SoftLayer_Network_Storage_Group](/reference/services/SoftLayer_Network_Storage_Group)::removeFromVolume
+
+Remove a SoftLayer_Network_Storage volume from this group
+
+
 ## Overview 
 Use this method to remove a SoftLayer_Network_Storage volume from this group.  This will automatically disable access to this volume for any SoftLayer_Network_Storage_Allowed_Host objects currently attached to this group. 
 

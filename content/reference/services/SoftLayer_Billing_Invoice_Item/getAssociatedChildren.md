@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice_Item"
 ---
-# SoftLayer_Billing_Invoice_Item::getAssociatedChildren
+# [SoftLayer_Billing_Invoice_Item](/reference/services/SoftLayer_Billing_Invoice_Item)::getAssociatedChildren
+
+Retrieve an Invoice Item's associated child invoice items. Only parent invoice items have associated children. For instance, a server invoice item may have associated children.
+
+
 ## Overview 
 Retrieve an Invoice Item's associated child invoice items. Only parent invoice items have associated children. For instance, a server invoice item may have associated children.
 

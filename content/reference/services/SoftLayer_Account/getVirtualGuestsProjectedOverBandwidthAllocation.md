@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getVirtualGuestsProjectedOverBandwidthAllocation
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualGuestsProjectedOverBandwidthAllocation
+
+Retrieve an account's associated virtual guest objects currently over bandwidth allocation.
+
+
 ## Overview 
 Retrieve an account's associated virtual guest objects currently over bandwidth allocation.
 

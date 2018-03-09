@@ -39,58 +39,108 @@ The SoftLayer_Hardware_Component_Model_Generic data type contains general inform
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#capacity" name=capacity>capacity</a></span>
+            <span class='views-field-title'>
+                <a href="#capacity" name=capacity>capacity</a>
+            </span>
             <div class='views-field-body'>A generic component model's capacity. The capacity of a generic component model depends on the model itself.  For Example: Hard drives have a capacity that reflects the amount of data that hard drive can store.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>decimal</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>decimal</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#description" name=description>description</a></span>
+            <span class='views-field-title'>
+                <a href="#description" name=description>description</a>
+            </span>
             <div class='views-field-body'>A brief description for a generic component model that typically defines it's function.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#hardwareComponentTypeId" name=hardwareComponentTypeId>hardwareComponentTypeId</a></span>
+            <span class='views-field-title'>
+                <a href="#hardwareComponentTypeId" name=hardwareComponentTypeId>hardwareComponentTypeId</a>
+            </span>
             <div class='views-field-body'>The internal identifier of the component type for a generic component model.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>A generic component model's internal identification number. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#units" name=units>units</a></span>
+            <span class='views-field-title'>
+                <a href="#units" name=units>units</a>
+            </span>
             <div class='views-field-body'>The unit of measurement for the capacity of a generic component model.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#upgradePriority" name=upgradePriority>upgradePriority</a></span>
+            <span class='views-field-title'>
+                <a href="#upgradePriority" name=upgradePriority>upgradePriority</a>
+            </span>
             <div class='views-field-body'>A generic component model's upgrade priority. The upgrade priority indicates the order a generic component model should be considered over other generic component models. A higher number indicates that a generic component model receives a higher upgrade preference in comparison to a generic component model with a lower priority number.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#hardwareComponentModels" name=hardwareComponentModels>hardwareComponentModels</a></span>
+            <span class='views-field-title'>
+                <a href="#hardwareComponentModels" name=hardwareComponentModels>hardwareComponentModels</a>
+            </span>
             <div class='views-field-body'>A generic component model's hardware component model. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#hardwareComponentType" name=hardwareComponentType>hardwareComponentType</a></span>
+            <span class='views-field-title'>
+                <a href="#hardwareComponentType" name=hardwareComponentType>hardwareComponentType</a>
+            </span>
             <div class='views-field-body'>A generic component model's type. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Type'>SoftLayer_Hardware_Component_Type </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Type'>SoftLayer_Hardware_Component_Type </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#marketingFeatures" name=marketingFeatures>marketingFeatures</a></span>
+            <span class='views-field-title'>
+                <a href="#marketingFeatures" name=marketingFeatures>marketingFeatures</a>
+            </span>
             <div class='views-field-body'>A list of features that a generic component model can provide. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic_MarketingFeature'>SoftLayer_Hardware_Component_Model_Generic_MarketingFeature </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic_MarketingFeature'>SoftLayer_Hardware_Component_Model_Generic_MarketingFeature </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#hardwareComponentModelCount" name=hardwareComponentModelCount>hardwareComponentModelCount</a></span>
+            <span class='views-field-title'>
+                <a href="#hardwareComponentModelCount" name=hardwareComponentModelCount>hardwareComponentModelCount</a>
+            </span>
             <div class='views-field-body'>A count of a generic component model's hardware component model. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
         </div>
             </div>
 </div>

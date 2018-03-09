@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::restoreFromSnapshot
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::restoreFromSnapshot
+
+Restore from a volume snapshot.
+
+
 ## Overview 
 Restore the volume from a snapshot that was previously taken. 
 

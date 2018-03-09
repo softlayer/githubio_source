@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain"
 ---
-# SoftLayer_Dns_Domain::getResourceRecords
+# [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::getResourceRecords
+
+Retrieve the individual records contained within a domain record. These include but are not limited to A, AAAA, MX, CTYPE, SPF and TXT records.
+
+
 ## Overview 
 Retrieve the individual records contained within a domain record. These include but are not limited to A, AAAA, MX, CTYPE, SPF and TXT records.
 

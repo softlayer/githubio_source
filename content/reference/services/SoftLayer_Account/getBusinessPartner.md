@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getBusinessPartner
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getBusinessPartner
+
+Retrieve the Business Partner details for the account. Country Enterprise Code, Channel, Segment, Reseller Level.
+
+
 ## Overview 
 Retrieve the Business Partner details for the account. Country Enterprise Code, Channel, Segment, Reseller Level.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getBluemixAccountLink
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getBluemixAccountLink
+
+Retrieve the Bluemix account link associated with this SoftLayer account, if one exists.
+
+
 ## Overview 
 Retrieve the Bluemix account link associated with this SoftLayer account, if one exists.
 

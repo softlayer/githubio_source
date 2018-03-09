@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Benchmark_Certification"
 ---
-# SoftLayer_Hardware_Benchmark_Certification::getResultFile
+# [SoftLayer_Hardware_Benchmark_Certification](/reference/services/SoftLayer_Hardware_Benchmark_Certification)::getResultFile
+
+Retrieve the file for a benchmark certification result, if is exists.
+
+
 ## Overview 
 Attempt to retrieve the file associated with a benchmark certification result, if such a file exists.  If there is no file for this benchmark certification result, calling this method throws an exception. The "getResultFile" method attempts to retrieve the file associated with a benchmark certification result, if such a file exists. If no file exists for the benchmark certification, an exception is thrown. 
 

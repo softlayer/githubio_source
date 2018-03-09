@@ -39,74 +39,144 @@ The SoftLayer_Container_Authentication_Response_Account data type contains accou
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#accountCompanyName" name=accountCompanyName>accountCompanyName</a></span>
+            <span class='views-field-title'>
+                <a href="#accountCompanyName" name=accountCompanyName>accountCompanyName</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#accountCountry" name=accountCountry>accountCountry</a></span>
+            <span class='views-field-title'>
+                <a href="#accountCountry" name=accountCountry>accountCountry</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#accountId" name=accountId>accountId</a></span>
+            <span class='views-field-title'>
+                <a href="#accountId" name=accountId>accountId</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#accountStatusName" name=accountStatusName>accountStatusName</a></span>
+            <span class='views-field-title'>
+                <a href="#accountStatusName" name=accountStatusName>accountStatusName</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#bluemixAccountId" name=bluemixAccountId>bluemixAccountId</a></span>
+            <span class='views-field-title'>
+                <a href="#bluemixAccountId" name=bluemixAccountId>bluemixAccountId</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#createDate" name=createDate>createDate</a></span>
+            <span class='views-field-title'>
+                <a href="#createDate" name=createDate>createDate</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#defaultAccount" name=defaultAccount>defaultAccount</a></span>
+            <span class='views-field-title'>
+                <a href="#defaultAccount" name=defaultAccount>defaultAccount</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#isMasterUserFlag" name=isMasterUserFlag>isMasterUserFlag</a></span>
+            <span class='views-field-title'>
+                <a href="#isMasterUserFlag" name=isMasterUserFlag>isMasterUserFlag</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#modifyDate" name=modifyDate>modifyDate</a></span>
+            <span class='views-field-title'>
+                <a href="#modifyDate" name=modifyDate>modifyDate</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#phoneFactorExternalAuthenticationRequired" name=phoneFactorExternalAuthenticationRequired>phoneFactorExternalAuthenticationRequired</a></span>
+            <span class='views-field-title'>
+                <a href="#phoneFactorExternalAuthenticationRequired" name=phoneFactorExternalAuthenticationRequired>phoneFactorExternalAuthenticationRequired</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#securityQuestionRequired" name=securityQuestionRequired>securityQuestionRequired</a></span>
+            <span class='views-field-title'>
+                <a href="#securityQuestionRequired" name=securityQuestionRequired>securityQuestionRequired</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#totpExternalAuthenticationRequired" name=totpExternalAuthenticationRequired>totpExternalAuthenticationRequired</a></span>
+            <span class='views-field-title'>
+                <a href="#totpExternalAuthenticationRequired" name=totpExternalAuthenticationRequired>totpExternalAuthenticationRequired</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#userId" name=userId>userId</a></span>
+            <span class='views-field-title'>
+                <a href="#userId" name=userId>userId</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#verisignExternalAuthenticationRequired" name=verisignExternalAuthenticationRequired>verisignExternalAuthenticationRequired</a></span>
+            <span class='views-field-title'>
+                <a href="#verisignExternalAuthenticationRequired" name=verisignExternalAuthenticationRequired>verisignExternalAuthenticationRequired</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
         </div>
             </div>
     </div>

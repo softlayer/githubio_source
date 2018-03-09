@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getBillingItemFlag
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getBillingItemFlag
+
+Retrieve a flag indicating that a billing item exists.
+
+
 ## Overview 
 Retrieve a flag indicating that a billing item exists.
 

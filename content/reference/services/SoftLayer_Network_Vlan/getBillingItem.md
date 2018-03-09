@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getBillingItem
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getBillingItem
+
+Retrieve the billing item for a network vlan.
+
+
 ## Overview 
 Retrieve the billing item for a network vlan.
 

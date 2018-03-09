@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::allowAccessToNetworkStorage
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::allowAccessToNetworkStorage
+
+Allow access to a SoftLayer_Network_Storage volume from this device. 
+
+
 ## Overview 
 This method is used to allow access to a SoftLayer_Network_Storage volume that supports host- or network-level access control. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getPowerComponents
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getPowerComponents
+
+Retrieve the power components for a hardware object.
+
+
 ## Overview 
 Retrieve the power components for a hardware object.
 

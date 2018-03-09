@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_MassDataMigration_Request"
 ---
-# SoftLayer_Network_Storage_MassDataMigration_Request::editObject
+# [SoftLayer_Network_Storage_MassDataMigration_Request](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request)::editObject
+
+Edit a Mass Data Migration request.
+
+
 ## Overview 
 Edit the properties of a Mass Data Migration request record by passing in a modified instance of a SoftLayer_Network_Storage_MassDataMigration_Request object. 
 

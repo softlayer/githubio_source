@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::activatePublicPort
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::activatePublicPort
+
+Activate the public port
+
+
 ## Overview 
 Activate the public network port
 

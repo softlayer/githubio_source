@@ -40,7 +40,7 @@ SoftLayer employees periodically log into our customer portal as users to diagno
 
 ### seeAlso
 
-* [SoftLayer_User_Customer](/reference/datatypes/SoftLayer_User_Customer )
+* [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer )
 
 
 
@@ -60,39 +60,69 @@ SoftLayer employees periodically log into our customer portal as users to diagno
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#createDate" name=createDate>createDate</a></span>
+            <span class='views-field-title'>
+                <a href="#createDate" name=createDate>createDate</a>
+            </span>
             <div class='views-field-body'>The date of an attempt to log into the SoftLayer customer portal. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#ipAddress" name=ipAddress>ipAddress</a></span>
+            <span class='views-field-title'>
+                <a href="#ipAddress" name=ipAddress>ipAddress</a>
+            </span>
             <div class='views-field-body'>The IP address of the user who attempted to log into the SoftLayer customer portal. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#successFlag" name=successFlag>successFlag</a></span>
+            <span class='views-field-title'>
+                <a href="#successFlag" name=successFlag>successFlag</a>
+            </span>
             <div class='views-field-body'>Whether an attempt to log into the SoftLayer customer portal was successful or not. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#userId" name=userId>userId</a></span>
+            <span class='views-field-title'>
+                <a href="#userId" name=userId>userId</a>
+            </span>
             <div class='views-field-body'>The internal identifier of the user who attempted to log into the SoftLayer customer portal. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#username" name=username>username</a></span>
+            <span class='views-field-title'>
+                <a href="#username" name=username>username</a>
+            </span>
             <div class='views-field-body'>The username used when attempting to log into the SoftLayer customer portal </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#user" name=user>user</a></span>
+            <span class='views-field-title'>
+                <a href="#user" name=user>user</a>
+            </span>
             <div class='views-field-body'>The user who has attempted to log into the SoftLayer customer portal. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

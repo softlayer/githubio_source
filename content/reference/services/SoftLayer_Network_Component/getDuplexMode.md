@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getDuplexMode
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getDuplexMode
+
+Retrieve the duplex mode of a network component.
+
+
 ## Overview 
 Retrieve the duplex mode of a network component.
 

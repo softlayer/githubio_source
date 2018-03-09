@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference"
 ---
-# SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference::getObject
+# [SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference)::getObject
+
+Retrieve a SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference record.
+
+
 ## Overview 
 This method retrieves a monitoring agent configuration template group reference whose identifier corresponds to the value provided in the initialization parameter passed to the SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference service. 
 

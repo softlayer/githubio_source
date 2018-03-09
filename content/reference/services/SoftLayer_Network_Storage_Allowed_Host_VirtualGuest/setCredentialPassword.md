@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host_VirtualGuest"
 ---
-# SoftLayer_Network_Storage_Allowed_Host_VirtualGuest::setCredentialPassword
+# [SoftLayer_Network_Storage_Allowed_Host_VirtualGuest](/reference/services/SoftLayer_Network_Storage_Allowed_Host_VirtualGuest)::setCredentialPassword
+
+Modify the credential password for this SoftLayer_Network_Storage_Allowed_Host
+
+
 ## Overview 
 Use this method to modify the credential password for a SoftLayer_Network_Storage_Allowed_Host object. 
 

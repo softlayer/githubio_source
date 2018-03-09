@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Affiliation"
 ---
-# SoftLayer_Account_Affiliation::deleteObject
+# [SoftLayer_Account_Affiliation](/reference/services/SoftLayer_Account_Affiliation)::deleteObject
+
+Delete an account affiliation
+
+
 ## Overview 
 deleteObject permanently removes an account affiliation 
 

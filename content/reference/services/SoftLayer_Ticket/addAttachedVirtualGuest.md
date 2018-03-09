@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::addAttachedVirtualGuest
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::addAttachedVirtualGuest
+
+Attach a CloudLayer Computing Instance to a ticket.
+
+
 ## Overview 
 Attach the given CloudLayer Computing Instance to a SoftLayer ticket. An attachment provides an easy way for SoftLayer's employees to quickly look up your records in the case of specific issues. 
 

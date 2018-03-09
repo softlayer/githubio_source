@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Email_Subscription"
 ---
-# SoftLayer_Email_Subscription::disable
+# [SoftLayer_Email_Subscription](/reference/services/SoftLayer_Email_Subscription)::disable
+
+Disable email subscription.
+
+
 ## Overview 
 
 

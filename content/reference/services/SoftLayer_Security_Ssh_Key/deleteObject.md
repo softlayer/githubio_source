@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Ssh_Key"
 ---
-# SoftLayer_Security_Ssh_Key::deleteObject
+# [SoftLayer_Security_Ssh_Key](/reference/services/SoftLayer_Security_Ssh_Key)::deleteObject
+
+
+
+
 ## Overview 
 Remove a ssh key from your account. 
 

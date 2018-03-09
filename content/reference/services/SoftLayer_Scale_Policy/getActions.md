@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy"
 ---
-# SoftLayer_Scale_Policy::getActions
+# [SoftLayer_Scale_Policy](/reference/services/SoftLayer_Scale_Policy)::getActions
+
+Retrieve the actions to perform upon any trigger hit. Currently this must be a single value.
+
+
 ## Overview 
 Retrieve the actions to perform upon any trigger hit. Currently this must be a single value.
 

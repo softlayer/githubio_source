@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getBandwidthAllotmentDetail
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getBandwidthAllotmentDetail
+
+Retrieve a hardware's allotted detail record. Allotment details link bandwidth allocation with allotments.
+
+
 ## Overview 
 Retrieve a hardware's allotted detail record. Allotment details link bandwidth allocation with allotments.
 

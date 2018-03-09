@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_Registration"
 ---
-# SoftLayer_Dns_Domain_Registration::modifyContact
+# [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration)::modifyContact
+
+Modifies contact information for a domain.
+
+
 ## Overview 
 The modifyContact method modifies contact information (admin, billing, owner, technical) for a domain. 
 

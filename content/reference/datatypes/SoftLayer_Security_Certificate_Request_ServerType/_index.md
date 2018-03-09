@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Security_Certificate_Request_ServerType
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Security_Certificate_Request_ServerType' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Security_Certificate_Request_ServerType' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Security_Certificate_Request_ServerType' >Datatype</a></li>
     </ul>
 </div>
 
@@ -39,24 +39,44 @@ Represents a server type that can be specified when ordering an SSL certificate.
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#description" name=description>description</a></span>
+            <span class='views-field-title'>
+                <a href="#description" name=description>description</a>
+            </span>
             <div class='views-field-body'>The description of the certificate server type. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>The internal identifier of the certificate server type. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>The name of the certificate server type. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#value" name=value>value</a></span>
+            <span class='views-field-title'>
+                <a href="#value" name=value>value</a>
+            </span>
             <div class='views-field-body'>The value of the certificate server type. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
     </div>

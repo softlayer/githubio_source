@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item_Virtual_DedicatedHost"
 ---
-# SoftLayer_Billing_Item_Virtual_DedicatedHost::getSoftwareDescription
+# [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getSoftwareDescription
+
+Retrieve a friendly description of software component
+
+
 ## Overview 
 Retrieve a friendly description of software component
 

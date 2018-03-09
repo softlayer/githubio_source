@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getFileBlockEncryptedLocations
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getFileBlockEncryptedLocations
+
+Returns a list of SoftLayer_Location_Datacenter objects corresponding to Datacenters in which File and Block Storage Volumes with Encryption at Rest may be ordered. 
+
+
 ## Overview 
 
 

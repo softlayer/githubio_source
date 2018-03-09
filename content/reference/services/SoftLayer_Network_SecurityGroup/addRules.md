@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_SecurityGroup"
 ---
-# SoftLayer_Network_SecurityGroup::addRules
+# [SoftLayer_Network_SecurityGroup](/reference/services/SoftLayer_Network_SecurityGroup)::addRules
+
+Add new rules to a security group.
+
+
 ## Overview 
 Add new rules to a security group by sending in an array of template [[SoftLayer_Network_SecurityGroup_Rule (type)]] objects to be created. 
 

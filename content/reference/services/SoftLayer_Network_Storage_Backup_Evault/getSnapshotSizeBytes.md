@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getSnapshotSizeBytes
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getSnapshotSizeBytes
+
+Retrieve the snapshot size in bytes.
+
+
 ## Overview 
 Retrieve the snapshot size in bytes.
 

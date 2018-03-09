@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::createReverseDomainRecords
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::createReverseDomainRecords
+
+Create the default PTR records for this subnet
+
+
 ## Overview 
 Create the default PTR records for this subnet 
 

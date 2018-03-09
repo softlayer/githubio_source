@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
-# SoftLayer_Network_Bandwidth_Version1_Allotment::getLocationGroup
+# [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getLocationGroup
+
+Retrieve the location group associated with this virtual rack.
+
+
 ## Overview 
 Retrieve the location group associated with this virtual rack.
 

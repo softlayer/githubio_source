@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_User_Subscriber_Mobile"
 ---
-# SoftLayer_Notification_User_Subscriber_Mobile::getPreferences
+# [SoftLayer_Notification_User_Subscriber_Mobile](/reference/services/SoftLayer_Notification_User_Subscriber_Mobile)::getPreferences
+
+Retrieve associated subscriber preferences used for the notification subscription. For example, preferences include number of deliveries (limit) and threshold.
+
+
 ## Overview 
 Retrieve associated subscriber preferences used for the notification subscription. For example, preferences include number of deliveries (limit) and threshold.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
-# SoftLayer_Network_Bandwidth_Version1_Allotment::getProjectedPublicBandwidthUsage
+# [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getProjectedPublicBandwidthUsage
+
+Retrieve the projected public outbound bandwidth for this virtual server for the current billing cycle.
+
+
 ## Overview 
 Retrieve the projected public outbound bandwidth for this virtual server for the current billing cycle.
 

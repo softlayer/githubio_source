@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getOperatingSystemReferenceCode
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getOperatingSystemReferenceCode
+
+Retrieve a hardware's operating system software description.
+
+
 ## Overview 
 Retrieve a hardware's operating system software description.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Layout_Container"
 ---
-# SoftLayer_Layout_Container::getAllObjects
+# [SoftLayer_Layout_Container](/reference/services/SoftLayer_Layout_Container)::getAllObjects
+
+Returns customizable layout containers
+
+
 ## Overview 
 Use this method to retrieve all active layout containers that can be customized. 
 

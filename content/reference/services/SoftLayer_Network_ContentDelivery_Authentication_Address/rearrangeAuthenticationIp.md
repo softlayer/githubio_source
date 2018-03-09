@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Authentication_Address"
 ---
-# SoftLayer_Network_ContentDelivery_Authentication_Address::rearrangeAuthenticationIp
+# [SoftLayer_Network_ContentDelivery_Authentication_Address](/reference/services/SoftLayer_Network_ContentDelivery_Authentication_Address)::rearrangeAuthenticationIp
+
+rearranges authentication IPs
+
+
 ## Overview 
 The authentication IP address match occurs from the higher priority IP to the lower. This method will be helpful if you want to modify the order (priority) of the authentication IP addresses. You can use this method instead of editing individual authentication IP addresses. 
 

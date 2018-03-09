@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Component_Partition_Template"
 ---
-# SoftLayer_Hardware_Component_Partition_Template::getObject
+# [SoftLayer_Hardware_Component_Partition_Template](/reference/services/SoftLayer_Hardware_Component_Partition_Template)::getObject
+
+Retrieve a SoftLayer_Hardware_Component_Partition_Template record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Hardware_Component_Partition_Template object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Hardware_Component_Partition_Template service. You can only retrieve the partition templates that your account created or the templates predefined by SoftLayer. 
 

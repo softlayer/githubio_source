@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::updateIpmiPassword
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::updateIpmiPassword
+
+Update the root IPMI user password 
+
+
 ## Overview 
 This method will update the root IPMI password on this SoftLayer_Hardware. 
 

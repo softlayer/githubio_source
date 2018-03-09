@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getEndPointIpAddress
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getEndPointIpAddress
+
+Retrieve a static routed ip address
+
+
 ## Overview 
 Retrieve a static routed ip address
 

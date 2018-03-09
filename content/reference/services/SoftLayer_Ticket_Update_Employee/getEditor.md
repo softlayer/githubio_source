@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket_Update_Employee"
 ---
-# SoftLayer_Ticket_Update_Employee::getEditor
+# [SoftLayer_Ticket_Update_Employee](/reference/services/SoftLayer_Ticket_Update_Employee)::getEditor
+
+Retrieve a representation of the SoftLayer employee who created a ticket update.
+
+
 ## Overview 
 Retrieve a representation of the SoftLayer employee who created a ticket update.
 

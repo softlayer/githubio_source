@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::getObject
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::getObject
+
+Retrieve a SoftLayer_Monitoring_Agent record.
+
+
 ## Overview 
 This method retrieves a monitoring agent whose identifier corresponds to the value provided in the initialization parameter passed to the SoftLayer_Monitoring_Agent service. 
 

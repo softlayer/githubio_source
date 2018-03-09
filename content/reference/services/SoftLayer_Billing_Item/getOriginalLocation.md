@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getOriginalLocation
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getOriginalLocation
+
+Retrieve the original physical location for this billing item--may differ from current.
+
+
 ## Overview 
 Retrieve the original physical location for this billing item--may differ from current.
 

@@ -39,19 +39,34 @@ Represents the acceptance status of a Policy.
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#acceptedFlag" name=acceptedFlag>acceptedFlag</a></span>
+            <span class='views-field-title'>
+                <a href="#acceptedFlag" name=acceptedFlag>acceptedFlag</a>
+            </span>
             <div class='views-field-body'>Flag to indicate if a policy has been previously accepted. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#policyName" name=policyName>policyName</a></span>
+            <span class='views-field-title'>
+                <a href="#policyName" name=policyName>policyName</a>
+            </span>
             <div class='views-field-body'>Name of the policy for which we are representing it's acceptance status. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#productPolicyAssignmentId" name=productPolicyAssignmentId>productPolicyAssignmentId</a></span>
+            <span class='views-field-title'>
+                <a href="#productPolicyAssignmentId" name=productPolicyAssignmentId>productPolicyAssignmentId</a>
+            </span>
             <div class='views-field-body'>ID of the [[SoftLayer_Product_Item_Policy_Assignment]]. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
     </div>

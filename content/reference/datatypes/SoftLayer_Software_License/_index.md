@@ -24,10 +24,10 @@ This class describes a specific type of license, like a Microsoft Windows Site L
 
 ### seeAlso
 
-* [SoftLayer_Software_Component](/reference/datatypes/SoftLayer_Software_Component )
+* [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component )
 
 
-* [SoftLayer_Software_Description](/reference/datatypes/SoftLayer_Software_Description )
+* [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description )
 
 
 
@@ -47,34 +47,59 @@ This class describes a specific type of license, like a Microsoft Windows Site L
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>An ID number for this specific License type. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#softwareDescriptionId" name=softwareDescriptionId>softwareDescriptionId</a></span>
+            <span class='views-field-title'>
+                <a href="#softwareDescriptionId" name=softwareDescriptionId>softwareDescriptionId</a>
+            </span>
             <div class='views-field-body'>The ID number of a Software Description that this specific license is valid for. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#account" name=account>account</a></span>
+            <span class='views-field-title'>
+                <a href="#account" name=account>account</a>
+            </span>
             <div class='views-field-body'>The account that owns this specific License instance. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#owner" name=owner>owner</a></span>
+            <span class='views-field-title'>
+                <a href="#owner" name=owner>owner</a>
+            </span>
             <div class='views-field-body'>The account that owns this specific License instance. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#softwareDescription" name=softwareDescription>softwareDescription</a></span>
+            <span class='views-field-title'>
+                <a href="#softwareDescription" name=softwareDescription>softwareDescription</a>
+            </span>
             <div class='views-field-body'>A Description of the software that this license instance is valid for. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

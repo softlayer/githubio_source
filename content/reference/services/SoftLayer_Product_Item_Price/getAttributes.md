@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Price"
 ---
-# SoftLayer_Product_Item_Price::getAttributes
+# [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getAttributes
+
+
+
+
 ## Overview 
 
 

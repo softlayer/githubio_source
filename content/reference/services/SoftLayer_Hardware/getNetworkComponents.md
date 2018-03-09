@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getNetworkComponents
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getNetworkComponents
+
+Retrieve returns a hardware's network components.
+
+
 ## Overview 
 Retrieve returns a hardware's network components.
 

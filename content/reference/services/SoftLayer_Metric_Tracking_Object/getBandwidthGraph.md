@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Metric_Tracking_Object"
 ---
-# SoftLayer_Metric_Tracking_Object::getBandwidthGraph
+# [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getBandwidthGraph
+
+Retrieve a bandwidth graph.
+
+
 ## Overview 
 Retrieve a PNG image of a bandwidth graph representing the bandwidth usage over time recorded by SofTLayer's bandwidth pollers. 
 

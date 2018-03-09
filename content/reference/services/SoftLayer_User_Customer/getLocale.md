@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getLocale
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getLocale
+
+Retrieve a user's locale. Locale holds user's language and region information.
+
+
 ## Overview 
 Retrieve a user's locale. Locale holds user's language and region information.
 

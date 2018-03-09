@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::addAttachedDedicatedHost
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::addAttachedDedicatedHost
+
+Attach a Dedicated Host to a ticket.
+
+
 ## Overview 
 Attach the given Dedicated Host to a SoftLayer ticket. An attachment provides an easy way for SoftLayer's employees to quickly look up your records in the case of specific issues. 
 

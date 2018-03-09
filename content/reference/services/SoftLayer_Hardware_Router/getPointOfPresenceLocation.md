@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getPointOfPresenceLocation
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getPointOfPresenceLocation
+
+Retrieve information regarding the Point of Presence (PoP) location in which a piece of hardware resides.
+
+
 ## Overview 
 Retrieve information regarding the Point of Presence (PoP) location in which a piece of hardware resides.
 

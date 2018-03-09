@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LoadBalancer_Global_Account"
 ---
-# SoftLayer_Network_LoadBalancer_Global_Account::getObject
+# [SoftLayer_Network_LoadBalancer_Global_Account](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account)::getObject
+
+Retrieve a SoftLayer_Network_LoadBalancer_Global_Account record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Network_LoadBalancer_Global_Account object whose ID number corresponds to the ID number of the init paramater passed to the SoftLayer_Network_LoadBalancer_Global_Account service. You can only retrieve a global load balancer account that is assigned to your SoftLayer customer account. 
 

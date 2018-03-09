@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Block_Device_Template_Group"
 ---
-# SoftLayer_Virtual_Guest_Block_Device_Template_Group::getPublicImages
+# [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::getPublicImages
+
+Gets all public image templates that the user is allowed to see. 
+
+
 ## Overview 
 This method gets all public image templates that the user is allowed to see. 
 

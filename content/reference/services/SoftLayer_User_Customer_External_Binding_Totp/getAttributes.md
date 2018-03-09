@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Totp"
 ---
-# SoftLayer_User_Customer_External_Binding_Totp::getAttributes
+# [SoftLayer_User_Customer_External_Binding_Totp](/reference/services/SoftLayer_User_Customer_External_Binding_Totp)::getAttributes
+
+Retrieve attributes of an external authentication binding.
+
+
 ## Overview 
 Retrieve attributes of an external authentication binding.
 

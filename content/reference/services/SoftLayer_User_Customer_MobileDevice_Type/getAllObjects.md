@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_MobileDevice_Type"
 ---
-# SoftLayer_User_Customer_MobileDevice_Type::getAllObjects
+# [SoftLayer_User_Customer_MobileDevice_Type](/reference/services/SoftLayer_User_Customer_MobileDevice_Type)::getAllObjects
+
+
+
+
 ## Overview 
 
 

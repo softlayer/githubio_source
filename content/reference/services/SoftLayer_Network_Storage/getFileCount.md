@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getFileCount
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getFileCount
+
+Retrieve the file number of files in a Virtual Server Storage account's root directory.
+
+
 ## Overview 
 {{CloudLayerOnlyMethod}} Retrieve the file number of files in a Virtual Server Storage account's root directory. This does not include the files stored in the recycle bin. 
 

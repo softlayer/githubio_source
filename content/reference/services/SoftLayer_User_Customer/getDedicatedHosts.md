@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getDedicatedHosts
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getDedicatedHosts
+
+Retrieve the dedicated hosts to which the user has been granted access.
+
+
 ## Overview 
 Retrieve the dedicated hosts to which the user has been granted access.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getMonthlyBareMetalInstances
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getMonthlyBareMetalInstances
+
+Retrieve an account's associated monthly bare metal server objects.
+
+
 ## Overview 
 Retrieve an account's associated monthly bare metal server objects.
 

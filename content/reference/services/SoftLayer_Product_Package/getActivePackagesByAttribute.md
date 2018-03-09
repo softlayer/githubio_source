@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getActivePackagesByAttribute
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getActivePackagesByAttribute
+
+[<strong>DEPRECATED</strong>] Retrieve the active [[SoftLayer_Product_Package]] objects from which you can order a server, service or software filtered by an attribute type ([[SoftLayer_Product_Package_Attribute_Type]]) on the package. 
+
+
 ## Overview 
 <strong>This method is deprecated and should not be used in production code.</strong> 
 

@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::massReloadOperatingSystem
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::massReloadOperatingSystem
+
+Reloads operating system configuration on a set of hardware Ids.
+
+
 ## Overview 
 Reloads current or customer specified operating system configuration. 
 

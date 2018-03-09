@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Host"
 ---
-# SoftLayer_Virtual_Host::getGuests
+# [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::getGuests
+
+Retrieve the guests associated with a virtual host.
+
+
 ## Overview 
 Retrieve the guests associated with a virtual host.
 

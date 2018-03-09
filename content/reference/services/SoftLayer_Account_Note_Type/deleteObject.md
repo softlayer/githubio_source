@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Note_Type"
 ---
-# SoftLayer_Account_Note_Type::deleteObject
+# [SoftLayer_Account_Note_Type](/reference/services/SoftLayer_Account_Note_Type)::deleteObject
+
+
+
+
 ## Overview 
 
 

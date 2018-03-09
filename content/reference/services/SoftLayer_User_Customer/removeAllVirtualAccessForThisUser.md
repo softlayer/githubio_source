@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::removeAllVirtualAccessForThisUser
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::removeAllVirtualAccessForThisUser
+
+Remove all cloud computing instances from a portal user's instance access list.
+
+
 ## Overview 
 Remove all cloud computing instances from a portal user's instance access list. A user's instance access list controls which of an account's computing instance objects a user has access to in the SoftLayer customer portal and API. If the current user does not have administrative privileges over this user, an inadequate permissions exception will get thrown. 
 

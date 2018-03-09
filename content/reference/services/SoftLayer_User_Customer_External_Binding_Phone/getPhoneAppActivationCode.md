@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Phone"
 ---
-# SoftLayer_User_Customer_External_Binding_Phone::getPhoneAppActivationCode
+# [SoftLayer_User_Customer_External_Binding_Phone](/reference/services/SoftLayer_User_Customer_External_Binding_Phone)::getPhoneAppActivationCode
+
+Return a mobile phone app activation code
+
+
 ## Overview 
 Some vendor's mobile app requires an activation code. Use this method to get an activation data. 
 

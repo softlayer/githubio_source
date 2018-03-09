@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_External_Binding_Vendor"
 ---
-# SoftLayer_User_External_Binding_Vendor::getAllObjects
+# [SoftLayer_User_External_Binding_Vendor](/reference/services/SoftLayer_User_External_Binding_Vendor)::getAllObjects
+
+Get a list of all available external binding vendors that SoftLayer supports.
+
+
 ## Overview 
 getAllObjects() will return a list of the available external binding vendors that SoftLayer supports.  Use this list to select the appropriate vendor when creating a new external binding. 
 

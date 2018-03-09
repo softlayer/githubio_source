@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice"
 ---
-# SoftLayer_Billing_Invoice::getExcel
+# [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getExcel
+
+Retrieve a Microsoft Excel copy of an invoice.
+
+
 ## Overview 
 Retrieve a Microsoft Excel spreadsheet of a SoftLayer invoice. You must have a Microsoft Excel reader installed in order to view these invoice files. 
 

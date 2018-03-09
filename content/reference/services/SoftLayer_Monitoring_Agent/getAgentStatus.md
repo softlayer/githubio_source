@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::getAgentStatus
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::getAgentStatus
+
+Retrieve the current status of the corresponding agent
+
+
 ## Overview 
 Retrieve the current status of the corresponding agent
 

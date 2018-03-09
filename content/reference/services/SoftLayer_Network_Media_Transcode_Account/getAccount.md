@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Media_Transcode_Account"
 ---
-# SoftLayer_Network_Media_Transcode_Account::getAccount
+# [SoftLayer_Network_Media_Transcode_Account](/reference/services/SoftLayer_Network_Media_Transcode_Account)::getAccount
+
+Retrieve the SoftLayer account information
+
+
 ## Overview 
 Retrieve the SoftLayer account information
 

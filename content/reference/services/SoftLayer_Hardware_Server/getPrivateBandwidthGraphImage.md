@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getPrivateBandwidthGraphImage
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getPrivateBandwidthGraphImage
+
+Retrieve a graph of a server's private network usage.
+
+
 ## Overview 
 Retrieve a graph of a server's private network bandwidth usage over the specified time frame. If no time frame is specified then getPublicBandwidthGraphImage retrieves the last 24 hours of public bandwidth usage. getPublicBandwidthGraphImage returns a PNG image 
 

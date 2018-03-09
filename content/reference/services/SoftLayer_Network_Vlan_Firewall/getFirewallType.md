@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan_Firewall"
 ---
-# SoftLayer_Network_Vlan_Firewall::getFirewallType
+# [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getFirewallType
+
+Retrieve the firewall device type.
+
+
 ## Overview 
 Retrieve the firewall device type.
 

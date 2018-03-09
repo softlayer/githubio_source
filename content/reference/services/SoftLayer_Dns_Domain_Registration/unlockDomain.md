@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_Registration"
 ---
-# SoftLayer_Dns_Domain_Registration::unlockDomain
+# [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration)::unlockDomain
+
+Unlocks a domain.
+
+
 ## Overview 
 The unlockDomain method unlocks a domain 
 

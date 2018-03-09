@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getSoftwareComponents
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getSoftwareComponents
+
+Retrieve a guest's installed software.
+
+
 ## Overview 
 Retrieve a guest's installed software.
 

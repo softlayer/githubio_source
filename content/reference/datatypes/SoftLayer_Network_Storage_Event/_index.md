@@ -39,49 +39,89 @@ Storage volumes can create various events to keep track of what has occurred to 
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#createDate" name=createDate>createDate</a></span>
+            <span class='views-field-title'>
+                <a href="#createDate" name=createDate>createDate</a>
+            </span>
             <div class='views-field-body'>The date an event was created. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#message" name=message>message</a></span>
+            <span class='views-field-title'>
+                <a href="#message" name=message>message</a>
+            </span>
             <div class='views-field-body'>The message text for an event. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#scheduleId" name=scheduleId>scheduleId</a></span>
+            <span class='views-field-title'>
+                <a href="#scheduleId" name=scheduleId>scheduleId</a>
+            </span>
             <div class='views-field-body'>An identifier for the schedule which is associated with an event. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#typeId" name=typeId>typeId</a></span>
+            <span class='views-field-title'>
+                <a href="#typeId" name=typeId>typeId</a>
+            </span>
             <div class='views-field-body'>An identifier for the type of an event. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#volumeId" name=volumeId>volumeId</a></span>
+            <span class='views-field-title'>
+                <a href="#volumeId" name=volumeId>volumeId</a>
+            </span>
             <div class='views-field-body'>The volume id which an event is associated with. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#schedule" name=schedule>schedule</a></span>
+            <span class='views-field-title'>
+                <a href="#schedule" name=schedule>schedule</a>
+            </span>
             <div class='views-field-body'>A schedule that is associated with an event. Not all events will have a schedule. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#type" name=type>type</a></span>
+            <span class='views-field-title'>
+                <a href="#type" name=type>type</a>
+            </span>
             <div class='views-field-body'>A Storage volume's event type. The type provides a standardized definition for an event. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Storage_Event_Type'>SoftLayer_Network_Storage_Event_Type </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_Storage_Event_Type'>SoftLayer_Network_Storage_Event_Type </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#volume" name=volume>volume</a></span>
+            <span class='views-field-title'>
+                <a href="#volume" name=volume>volume</a>
+            </span>
             <div class='views-field-body'>The associated volume for an event. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

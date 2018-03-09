@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Media"
 ---
-# SoftLayer_Account_Media::getVolume
+# [SoftLayer_Account_Media](/reference/services/SoftLayer_Account_Media)::getVolume
+
+Retrieve a guest's associated EVault network storage service account.
+
+
 ## Overview 
 Retrieve a guest's associated EVault network storage service account.
 

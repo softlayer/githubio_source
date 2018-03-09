@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Resource_Group"
 ---
-# SoftLayer_Resource_Group::getHardwareMembers
+# [SoftLayer_Resource_Group](/reference/services/SoftLayer_Resource_Group)::getHardwareMembers
+
+Retrieve a resource group's associated hardware members.
+
+
 ## Overview 
 Retrieve a resource group's associated hardware members.
 

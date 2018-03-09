@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getSensorDataWithGraphs
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getSensorDataWithGraphs
+
+Retrieve server's temperature and fan speed graphs as well the sensor raw data.
+
+
 ## Overview 
 The '''getSensorDataWithGraphs''' method retrieves the raw data returned from the server's remote management card. Along with raw data, graphs for the CPU and system temperatures and fan speeds are also returned. For more details on what information is returned, refer to the ''getSensorData'' method. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getNetworkMonitors
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getNetworkMonitors
+
+Retrieve information regarding a piece of hardware's network monitors.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's network monitors.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Regional_Registry_Detail"
 ---
-# SoftLayer_Account_Regional_Registry_Detail::getProperties
+# [SoftLayer_Account_Regional_Registry_Detail](/reference/services/SoftLayer_Account_Regional_Registry_Detail)::getProperties
+
+Retrieve the individual properties that define this detail object's values.
+
+
 ## Overview 
 Retrieve the individual properties that define this detail object's values.
 

@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller"
 ---
-# SoftLayer_Network_Application_Delivery_Controller::updateNetScalerLicense
+# [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::updateNetScalerLicense
+
+Update the NetScaler VPX License.
+
+
 ## Overview 
 Update the NetScaler VPX License. 
 

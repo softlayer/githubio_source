@@ -39,14 +39,24 @@ SoftLayer_Container_Network_Subnet_Registration_SubnetReference is provided to r
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#registrationId" name=registrationId>registrationId</a></span>
+            <span class='views-field-title'>
+                <a href="#registrationId" name=registrationId>registrationId</a>
+            </span>
             <div class='views-field-body'>The ID of the [[SoftLayer_Network_Subnet_Registration]] object. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#subnetCidr" name=subnetCidr>subnetCidr</a></span>
+            <span class='views-field-title'>
+                <a href="#subnetCidr" name=subnetCidr>subnetCidr</a>
+            </span>
             <div class='views-field-body'>The subnet address in CIDR form. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

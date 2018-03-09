@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Network_CdnMarketplace_Account
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Account' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Network_CdnMarketplace_Account' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Account' >Datatype</a></li>
     </ul>
 </div>
 
@@ -42,16 +42,26 @@ The SoftLayer_Network_CdnMarketplace_Account data type models an individual CDN 
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#account" name=account>account</a></span>
+            <span class='views-field-title'>
+                <a href="#account" name=account>account</a>
+            </span>
             <div class='views-field-body'>SoftLayer account to which the CDN account belongs. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#billingItem" name=billingItem>billingItem</a></span>
+            <span class='views-field-title'>
+                <a href="#billingItem" name=billingItem>billingItem</a>
+            </span>
             <div class='views-field-body'>An associated parent billing item which is active. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

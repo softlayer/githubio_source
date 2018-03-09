@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getOpenCancellationTicket
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getOpenCancellationTicket
+
+Retrieve an open ticket requesting cancellation of this server, if one exists.
+
+
 ## Overview 
 Retrieve an open ticket requesting cancellation of this server, if one exists.
 

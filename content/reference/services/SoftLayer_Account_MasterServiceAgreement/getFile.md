@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_MasterServiceAgreement"
 ---
-# SoftLayer_Account_MasterServiceAgreement::getFile
+# [SoftLayer_Account_MasterServiceAgreement](/reference/services/SoftLayer_Account_MasterServiceAgreement)::getFile
+
+Get the user's accounts current MSA
+
+
 ## Overview 
 Gets a File Entity container with the user's account's current MSA PDF. Gets a translation if one is available. Otherwise, gets the master document. 
 

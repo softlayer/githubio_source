@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_ApiAuthentication"
 ---
-# SoftLayer_User_Customer_ApiAuthentication::getUser
+# [SoftLayer_User_Customer_ApiAuthentication](/reference/services/SoftLayer_User_Customer_ApiAuthentication)::getUser
+
+Retrieve the user who owns the api authentication key.
+
+
 ## Overview 
 Retrieve the user who owns the api authentication key.
 

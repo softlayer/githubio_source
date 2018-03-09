@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Certificate"
 ---
-# SoftLayer_Security_Certificate::findByCommonName
+# [SoftLayer_Security_Certificate](/reference/services/SoftLayer_Security_Certificate)::findByCommonName
+
+
+
+
 ## Overview 
 Locate certificates by their common name, traditionally a domain name. 
 

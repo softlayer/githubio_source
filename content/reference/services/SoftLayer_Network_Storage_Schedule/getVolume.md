@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Schedule"
 ---
-# SoftLayer_Network_Storage_Schedule::getVolume
+# [SoftLayer_Network_Storage_Schedule](/reference/services/SoftLayer_Network_Storage_Schedule)::getVolume
+
+Retrieve the associated volume for a schedule.
+
+
 ## Overview 
 Retrieve the associated volume for a schedule.
 

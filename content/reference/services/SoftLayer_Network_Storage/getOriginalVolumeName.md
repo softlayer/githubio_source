@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getOriginalVolumeName
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getOriginalVolumeName
+
+Retrieve the name of the volume that this volume was duplicated from.
+
+
 ## Overview 
 Retrieve the name of the volume that this volume was duplicated from.
 

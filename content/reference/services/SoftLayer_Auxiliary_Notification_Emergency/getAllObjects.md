@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Auxiliary_Notification_Emergency"
 ---
-# SoftLayer_Auxiliary_Notification_Emergency::getAllObjects
+# [SoftLayer_Auxiliary_Notification_Emergency](/reference/services/SoftLayer_Auxiliary_Notification_Emergency)::getAllObjects
+
+Retrieve all notification events.
+
+
 ## Overview 
 Retrieve an array of SoftLayer_Auxiliary_Notification_Emergency data types, which contain all notification events regardless of status. 
 

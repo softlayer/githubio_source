@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::getLogEnabledFlag
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getLogEnabledFlag
+
+Retrieve indicates if CDN logging is enabled.
+
+
 ## Overview 
 Retrieve indicates if CDN logging is enabled.
 

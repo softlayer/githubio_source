@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getPublicNetworkComponent
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getPublicNetworkComponent
+
+Retrieve a server's public network component.
+
+
 ## Overview 
 Retrieve a SoftLayer server's public network component. Some servers are only connected to the private network and may not have a public network component. In that case getPublicNetworkComponent returns a null object. 
 

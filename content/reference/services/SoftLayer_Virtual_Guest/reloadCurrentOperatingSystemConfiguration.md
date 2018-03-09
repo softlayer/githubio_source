@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::reloadCurrentOperatingSystemConfiguration
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::reloadCurrentOperatingSystemConfiguration
+
+Perform an OS reload
+
+
 ## Overview 
 Create a transaction to perform an OS reload 
 

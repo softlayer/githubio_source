@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan_Firewall"
 ---
-# SoftLayer_Network_Vlan_Firewall::getUpgradeRequest
+# [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getUpgradeRequest
+
+Retrieve a firewall's associated upgrade request object, if any.
+
+
 ## Overview 
 Retrieve a firewall's associated upgrade request object, if any.
 

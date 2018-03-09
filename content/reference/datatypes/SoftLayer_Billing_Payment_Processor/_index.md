@@ -39,48 +39,88 @@ classes:
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#description" name=description>description</a></span>
+            <span class='views-field-title'>
+                <a href="#description" name=description>description</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#brandAssignments" name=brandAssignments>brandAssignments</a></span>
+            <span class='views-field-title'>
+                <a href="#brandAssignments" name=brandAssignments>brandAssignments</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Brand_Payment_Processor'>SoftLayer_Brand_Payment_Processor[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Brand_Payment_Processor'>SoftLayer_Brand_Payment_Processor[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#ownerAccount" name=ownerAccount>ownerAccount</a></span>
+            <span class='views-field-title'>
+                <a href="#ownerAccount" name=ownerAccount>ownerAccount</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#paymentMethods" name=paymentMethods>paymentMethods</a></span>
+            <span class='views-field-title'>
+                <a href="#paymentMethods" name=paymentMethods>paymentMethods</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Payment_Processor_Method'>SoftLayer_Billing_Payment_Processor_Method[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Billing_Payment_Processor_Method'>SoftLayer_Billing_Payment_Processor_Method[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#type" name=type>type</a></span>
+            <span class='views-field-title'>
+                <a href="#type" name=type>type</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Payment_Processor_Type'>SoftLayer_Billing_Payment_Processor_Type </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Billing_Payment_Processor_Type'>SoftLayer_Billing_Payment_Processor_Type </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#brandAssignmentCount" name=brandAssignmentCount>brandAssignmentCount</a></span>
+            <span class='views-field-title'>
+                <a href="#brandAssignmentCount" name=brandAssignmentCount>brandAssignmentCount</a>
+            </span>
             <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#paymentMethodCount" name=paymentMethodCount>paymentMethodCount</a></span>
+            <span class='views-field-title'>
+                <a href="#paymentMethodCount" name=paymentMethodCount>paymentMethodCount</a>
+            </span>
             <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
         </div>
             </div>
 </div>

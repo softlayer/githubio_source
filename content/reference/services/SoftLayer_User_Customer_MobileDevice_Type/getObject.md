@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_MobileDevice_Type"
 ---
-# SoftLayer_User_Customer_MobileDevice_Type::getObject
+# [SoftLayer_User_Customer_MobileDevice_Type](/reference/services/SoftLayer_User_Customer_MobileDevice_Type)::getObject
+
+Retrieve a SoftLayer_User_Customer_MobileDevice_Type record.
+
+
 ## Overview 
 
 

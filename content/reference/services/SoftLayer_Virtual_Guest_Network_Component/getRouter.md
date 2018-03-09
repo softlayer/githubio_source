@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Network_Component"
 ---
-# SoftLayer_Virtual_Guest_Network_Component::getRouter
+# [SoftLayer_Virtual_Guest_Network_Component](/reference/services/SoftLayer_Virtual_Guest_Network_Component)::getRouter
+
+Retrieve a network component's routers.
+
+
 ## Overview 
 Retrieve a network component's routers.
 

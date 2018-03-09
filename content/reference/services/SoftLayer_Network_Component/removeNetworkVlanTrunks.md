@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::removeNetworkVlanTrunks
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::removeNetworkVlanTrunks
+
+Remove VLAN trunks from a network component
+
+
 ## Overview 
 Remove one or more VLANs currently attached to the uplinkComponent of this networkComponent. The VLANs given must be assigned to your account, and on the router the network component is connected to. If any VLANs not currently trunked are given, they will be silently ignored. 
 

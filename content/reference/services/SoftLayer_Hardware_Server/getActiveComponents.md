@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getActiveComponents
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getActiveComponents
+
+Retrieve a piece of hardware's active physical components.
+
+
 ## Overview 
 Retrieve a piece of hardware's active physical components.
 

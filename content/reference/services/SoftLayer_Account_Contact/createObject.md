@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Contact"
 ---
-# SoftLayer_Account_Contact::createObject
+# [SoftLayer_Account_Contact](/reference/services/SoftLayer_Account_Contact)::createObject
+
+This method creates an account contact.
+
+
 ## Overview 
 This method creates an account contact. The accountId is fixed, other properties can be set during creation. The typeId indicates the SoftLayer_Account_Contact_Type for the contact. This method returns the SoftLayer_Account_Contact object that is created. 
 

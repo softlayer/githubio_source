@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Block_Device_Template_Group"
 ---
-# SoftLayer_Virtual_Guest_Block_Device_Template_Group::getVhdImportSoftwareDescriptions
+# [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::getVhdImportSoftwareDescriptions
+
+Returns the software descriptions supported for VHD imports.
+
+
 ## Overview 
 Returns an array of SoftLayer_Software_Description that are supported for VHD imports. 
 

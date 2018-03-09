@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::completePayPalTransaction
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::completePayPalTransaction
+
+Complete the PayPal Payment Request process and receive confirmation message.
+
+
 ## Overview 
 Complete the PayPal Payment Request process and receive confirmation message. During the process of submitting a PayPal payment request, the customer is redirected to PayPal to confirm the request.  Once confirmed, PayPal returns the customer to SoftLayer where an attempt is made to finalize the transaction.  A status message regarding the attempt is returned to the calling function. 
 

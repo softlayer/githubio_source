@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getServiceProvider
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getServiceProvider
+
+Retrieve information regarding the piece of hardware's service provider.
+
+
 ## Overview 
 Retrieve information regarding the piece of hardware's service provider.
 

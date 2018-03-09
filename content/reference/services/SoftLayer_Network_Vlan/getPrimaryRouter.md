@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getPrimaryRouter
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getPrimaryRouter
+
+Retrieve the primary router that a VLAN is associated with. Every SoftLayer VLAN is connected to more than one router for greater network redundancy.
+
+
 ## Overview 
 Retrieve the primary router that a VLAN is associated with. Every SoftLayer VLAN is connected to more than one router for greater network redundancy.
 

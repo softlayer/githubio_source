@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_IpAddress_Global"
 ---
-# SoftLayer_Network_Subnet_IpAddress_Global::getActiveTransaction
+# [SoftLayer_Network_Subnet_IpAddress_Global](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global)::getActiveTransaction
+
+Retrieve the active transaction associated with this Global IP.
+
+
 ## Overview 
 Retrieve the active transaction associated with this Global IP.
 

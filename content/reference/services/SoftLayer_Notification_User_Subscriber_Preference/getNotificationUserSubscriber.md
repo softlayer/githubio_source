@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_User_Subscriber_Preference"
 ---
-# SoftLayer_Notification_User_Subscriber_Preference::getNotificationUserSubscriber
+# [SoftLayer_Notification_User_Subscriber_Preference](/reference/services/SoftLayer_Notification_User_Subscriber_Preference)::getNotificationUserSubscriber
+
+Retrieve details of the subscriber tied to the preference.
+
+
 ## Overview 
 Retrieve details of the subscriber tied to the preference.
 

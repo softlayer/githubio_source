@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_Registration"
 ---
-# SoftLayer_Network_Subnet_Registration::getRegionalInternetRegistryHandle
+# [SoftLayer_Network_Subnet_Registration](/reference/services/SoftLayer_Network_Subnet_Registration)::getRegionalInternetRegistryHandle
+
+Retrieve the RIR handle that this registration object belongs to. This field may not be populated until the registration is complete.
+
+
 ## Overview 
 Retrieve the RIR handle that this registration object belongs to. This field may not be populated until the registration is complete.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Secondary"
 ---
-# SoftLayer_Dns_Secondary::getErrorMessages
+# [SoftLayer_Dns_Secondary](/reference/services/SoftLayer_Dns_Secondary)::getErrorMessages
+
+Retrieve the error messages created during secondary DNS record transfer.
+
+
 ## Overview 
 Retrieve the error messages created during secondary DNS record transfer.
 

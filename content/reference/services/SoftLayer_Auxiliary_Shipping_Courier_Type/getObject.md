@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Auxiliary_Shipping_Courier_Type"
 ---
-# SoftLayer_Auxiliary_Shipping_Courier_Type::getObject
+# [SoftLayer_Auxiliary_Shipping_Courier_Type](/reference/services/SoftLayer_Auxiliary_Shipping_Courier_Type)::getObject
+
+Retrieve a SoftLayer_Auxiliary_Shipping_Courier_Type record.
+
+
 ## Overview 
 
 

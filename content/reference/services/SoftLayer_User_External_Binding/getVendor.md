@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_External_Binding"
 ---
-# SoftLayer_User_External_Binding::getVendor
+# [SoftLayer_User_External_Binding](/reference/services/SoftLayer_User_External_Binding)::getVendor
+
+Retrieve the vendor of an external authentication binding.
+
+
 ## Overview 
 Retrieve the vendor of an external authentication binding.
 

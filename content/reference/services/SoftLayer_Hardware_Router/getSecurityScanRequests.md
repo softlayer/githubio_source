@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getSecurityScanRequests
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getSecurityScanRequests
+
+Retrieve information regarding a piece of hardware's vulnerability scan requests.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's vulnerability scan requests.
 

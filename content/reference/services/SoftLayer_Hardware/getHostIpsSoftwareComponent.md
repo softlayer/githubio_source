@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getHostIpsSoftwareComponent
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getHostIpsSoftwareComponent
+
+Retrieve information regarding a host IPS software component object.
+
+
 ## Overview 
 Retrieve information regarding a host IPS software component object.
 

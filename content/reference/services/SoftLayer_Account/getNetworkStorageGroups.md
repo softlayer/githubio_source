@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getNetworkStorageGroups
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNetworkStorageGroups
+
+Retrieve an account's Network Storage groups.
+
+
 ## Overview 
 Retrieve an account's Network Storage groups.
 

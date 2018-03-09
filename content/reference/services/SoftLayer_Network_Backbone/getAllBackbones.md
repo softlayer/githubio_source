@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Backbone"
 ---
-# SoftLayer_Network_Backbone::getAllBackbones
+# [SoftLayer_Network_Backbone](/reference/services/SoftLayer_Network_Backbone)::getAllBackbones
+
+Retrieve a list of all SoftLayer Backbones
+
+
 ## Overview 
 Retrieve a list of all SoftLayer backbone connections. Use this method if you need all backbones or don't know the id number of a specific backbone. 
 

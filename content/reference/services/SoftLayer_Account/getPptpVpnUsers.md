@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getPptpVpnUsers
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPptpVpnUsers
+
+Retrieve an account's associated portal users with PPTP VPN access.
+
+
 ## Overview 
 Retrieve an account's associated portal users with PPTP VPN access.
 

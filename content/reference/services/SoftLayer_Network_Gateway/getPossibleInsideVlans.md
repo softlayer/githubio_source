@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Gateway"
 ---
-# SoftLayer_Network_Gateway::getPossibleInsideVlans
+# [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::getPossibleInsideVlans
+
+Get Possible Inside VLANs
+
+
 ## Overview 
 Get all VLANs that can become inside VLANs on this gateway. This means the VLAN must not already be an inside VLAN, on the same router as this gateway, not a gateway transit VLAN, and not firewalled. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getPreferenceTypes
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getPreferenceTypes
+
+Get all available preference types
+
+
 ## Overview 
 Use any of the preference types to fetch or modify user preferences using [[SoftLayer_User_Customer::getPreference|getPreference]] or [[SoftLayer_User_Customer::changePreference|changePreference]], respectively. 
 

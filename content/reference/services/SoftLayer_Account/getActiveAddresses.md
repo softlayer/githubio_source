@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getActiveAddresses
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getActiveAddresses
+
+Retrieve the active address(es) that belong to an account.
+
+
 ## Overview 
 Retrieve the active address(es) that belong to an account.
 

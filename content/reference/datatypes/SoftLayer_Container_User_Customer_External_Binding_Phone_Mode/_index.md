@@ -41,7 +41,9 @@ You can also use SMS text message or PhoneFactor mobile app modes (in case you'r
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#mode" name=mode>mode</a></span>
+            <span class='views-field-title'>
+                <a href="#mode" name=mode>mode</a>
+            </span>
             <div class='views-field-body'>Authentication mode. Valid modes are: VOICE_CALL, SMS_TEXT, PHONE_APP 
 
 
@@ -69,17 +71,30 @@ This mode is applicable for PhoneFactor. Phone App mode results in a notificatio
 **STANDARD: (default) The first authentication is when the user signs on using a username and password.
 The second authentication is when the user receives a notification in the PhoneFactor phone app. In Standard Mode, users will prompted to authenticate, deny, or deny and report fraud. 
 **PIN: This mode enhances the security of the authentication by requiring the user to enter their PIN in the phone app. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#pin" name=pin>pin</a></span>
+            <span class='views-field-title'>
+                <a href="#pin" name=pin>pin</a>
+            </span>
             <div class='views-field-body'>Optional authentication pin. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#pinMode" name=pinMode>pinMode</a></span>
+            <span class='views-field-title'>
+                <a href="#pinMode" name=pinMode>pinMode</a>
+            </span>
             <div class='views-field-body'>Available Pin modes are: PIN, VOICE_PRINT, STANDARD Default: STANDARD (Pin is not used)  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Item"
 ---
-# SoftLayer_Billing_Order_Item::getOrderApprovalDate
+# [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getOrderApprovalDate
+
+
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_Swip_Transaction"
 ---
-# SoftLayer_Network_Subnet_Swip_Transaction::getObject
+# [SoftLayer_Network_Subnet_Swip_Transaction](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction)::getObject
+
+Retrieve a SoftLayer_Network_Subnet_Swip_Transaction record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Network_Subnet_Swip_Transaction object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Network_Subnet_Swip_transaction service. You can only retrieve Swip transactions tied to the account. 
 

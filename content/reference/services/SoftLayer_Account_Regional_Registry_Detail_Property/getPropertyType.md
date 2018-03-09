@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Regional_Registry_Detail_Property"
 ---
-# SoftLayer_Account_Regional_Registry_Detail_Property::getPropertyType
+# [SoftLayer_Account_Regional_Registry_Detail_Property](/reference/services/SoftLayer_Account_Regional_Registry_Detail_Property)::getPropertyType
+
+Retrieve the [[SoftLayer_Account_Regional_Registry_Detail_Property_Type]] object this property belongs to
+
+
 ## Overview 
 Retrieve the [[SoftLayer_Account_Regional_Registry_Detail_Property_Type]] object this property belongs to
 

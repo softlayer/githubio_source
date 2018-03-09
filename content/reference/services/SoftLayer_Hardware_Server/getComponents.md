@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getComponents
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getComponents
+
+Retrieve a piece of hardware's components.
+
+
 ## Overview 
 Retrieve a piece of hardware's components.
 

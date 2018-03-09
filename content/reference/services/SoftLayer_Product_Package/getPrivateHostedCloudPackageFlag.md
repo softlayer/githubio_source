@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getPrivateHostedCloudPackageFlag
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getPrivateHostedCloudPackageFlag
+
+Retrieve this flag indicates the package is for a private hosted cloud deployment. (Deprecated)
+
+
 ## Overview 
 Retrieve this flag indicates the package is for a private hosted cloud deployment. (Deprecated)
 

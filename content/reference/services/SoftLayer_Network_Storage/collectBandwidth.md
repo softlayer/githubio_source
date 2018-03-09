@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::collectBandwidth
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::collectBandwidth
+
+Retrieve the bandwidth usage for the current billing cycle.
+
+
 ## Overview 
 {{CloudLayerOnlyMethod}} 
 

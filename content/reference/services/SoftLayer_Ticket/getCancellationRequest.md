@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getCancellationRequest
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getCancellationRequest
+
+Retrieve a service cancellation request.
+
+
 ## Overview 
 Retrieve a service cancellation request.
 

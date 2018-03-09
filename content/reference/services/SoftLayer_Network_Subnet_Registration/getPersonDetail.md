@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_Registration"
 ---
-# SoftLayer_Network_Subnet_Registration::getPersonDetail
+# [SoftLayer_Network_Subnet_Registration](/reference/services/SoftLayer_Network_Subnet_Registration)::getPersonDetail
+
+Retrieve the "person" detail object.
+
+
 ## Overview 
 Retrieve the "person" detail object.
 

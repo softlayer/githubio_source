@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::addPortalPermission
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::addPortalPermission
+
+Add a permission to a portal user's permission set.
+
+
 ## Overview 
 Add a permission to a portal user's permission set. [[Permissions]] control which features in the SoftLayer customer portal and API a user may use. If the user already has the permission you're attempting to add then addPortalPermission() returns true. 
 

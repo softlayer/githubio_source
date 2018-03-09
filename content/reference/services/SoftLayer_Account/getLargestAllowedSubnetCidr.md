@@ -9,7 +9,15 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getLargestAllowedSubnetCidr
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getLargestAllowedSubnetCidr
+
+Computes the number of available public secondary IP addresses, augmented by the provided number of hosts, before overflow of the allowed host to IP address ratio occurs. The result is aligned to the nearest subnet size that could be accommodated in full. 
+
+0 is returned if an overflow is detected. 
+
+The use of $locationId has been deprecated. 
+
+
 ## Overview 
 Computes the number of available public secondary IP addresses, aligned to a subnet size. 
 

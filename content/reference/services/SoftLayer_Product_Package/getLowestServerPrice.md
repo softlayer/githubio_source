@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getLowestServerPrice
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getLowestServerPrice
+
+Retrieve the lowest server [[SoftLayer_Product_Item_Price]] related to this package.
+
+
 ## Overview 
 Retrieve the lowest server [[SoftLayer_Product_Item_Price]] related to this package.
 

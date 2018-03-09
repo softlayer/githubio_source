@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Regional_Registry_Detail_Property"
 ---
-# SoftLayer_Account_Regional_Registry_Detail_Property::deleteObject
+# [SoftLayer_Account_Regional_Registry_Detail_Property](/reference/services/SoftLayer_Account_Regional_Registry_Detail_Property)::deleteObject
+
+Delete an existing property object
+
+
 ## Overview 
 This method will delete an existing SoftLayer_Account_Regional_Registry_Detail_Property object. 
 

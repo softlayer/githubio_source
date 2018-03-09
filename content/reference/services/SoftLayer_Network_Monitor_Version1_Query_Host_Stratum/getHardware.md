@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Monitor_Version1_Query_Host_Stratum"
 ---
-# SoftLayer_Network_Monitor_Version1_Query_Host_Stratum::getHardware
+# [SoftLayer_Network_Monitor_Version1_Query_Host_Stratum](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum)::getHardware
+
+Retrieve the hardware object that these monitoring permissions applies to.
+
+
 ## Overview 
 Retrieve the hardware object that these monitoring permissions applies to.
 

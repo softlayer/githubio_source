@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Robot"
 ---
-# SoftLayer_Monitoring_Robot::checkConnection
+# [SoftLayer_Monitoring_Robot](/reference/services/SoftLayer_Monitoring_Robot)::checkConnection
+
+Checks if a monitoring robot can communicate with SoftLayer monitoring management system 
+
+
 ## Overview 
 Checks if a monitoring robot can communicate with SoftLayer monitoring management system via the private network. 
 

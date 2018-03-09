@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::deleteObject
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::deleteObject
+
+Delete a network storage volume
+
+
 ## Overview 
 Delete a network storage volume. '''This cannot be undone.''' At this time only network storage snapshots may be deleted with this method. 
 

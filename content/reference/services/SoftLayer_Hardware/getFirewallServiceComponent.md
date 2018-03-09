@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getFirewallServiceComponent
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getFirewallServiceComponent
+
+Retrieve information regarding a piece of hardware's firewall services.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's firewall services.
 

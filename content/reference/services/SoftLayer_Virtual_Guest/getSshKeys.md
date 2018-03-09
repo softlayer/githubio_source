@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getSshKeys
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getSshKeys
+
+Retrieve sSH keys to be installed on the server during provisioning or an OS reload.
+
+
 ## Overview 
 Retrieve sSH keys to be installed on the server during provisioning or an OS reload.
 

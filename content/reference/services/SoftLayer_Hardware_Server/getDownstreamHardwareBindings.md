@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getDownstreamHardwareBindings
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getDownstreamHardwareBindings
+
+Retrieve all hardware downstream from a network device.
+
+
 ## Overview 
 Retrieve all hardware downstream from a network device.
 

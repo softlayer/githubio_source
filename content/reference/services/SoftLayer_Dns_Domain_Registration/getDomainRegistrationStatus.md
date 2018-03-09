@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_Registration"
 ---
-# SoftLayer_Dns_Domain_Registration::getDomainRegistrationStatus
+# [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration)::getDomainRegistrationStatus
+
+Retrieve the domain registration status.
+
+
 ## Overview 
 Retrieve the domain registration status.
 

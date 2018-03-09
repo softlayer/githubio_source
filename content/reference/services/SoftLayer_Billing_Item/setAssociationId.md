@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::setAssociationId
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::setAssociationId
+
+Set the associated billing item for an orphan billing item.
+
+
 ## Overview 
 Set an associated billing item to an orphan billing item. Associations allow you to tie an "orphaned" billing item, any non-server billing item that doesn't have a parent item such as secondary IP subnets or StorageLayer accounts, to a server billing item. You may only set an association for an orphan to a server. You cannot associate a server to an orphan if the either the server or orphan billing items have a cancellation date set. 
 

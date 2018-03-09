@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getBackendNetworkComponents
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getBackendNetworkComponents
+
+Retrieve a piece of hardware's back-end or private network components.
+
+
 ## Overview 
 Retrieve a piece of hardware's back-end or private network components.
 

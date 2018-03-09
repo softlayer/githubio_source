@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getSshKeys
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getSshKeys
+
+Retrieve sSH keys to be installed on the server during provisioning or an OS reload.
+
+
 ## Overview 
 Retrieve sSH keys to be installed on the server during provisioning or an OS reload.
 

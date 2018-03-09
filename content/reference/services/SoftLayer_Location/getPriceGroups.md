@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location"
 ---
-# SoftLayer_Location::getPriceGroups
+# [SoftLayer_Location](/reference/services/SoftLayer_Location)::getPriceGroups
+
+Retrieve a location can be a member of 1 or more Price Groups. This will show which groups to which a location belongs.
+
+
 ## Overview 
 Retrieve a location can be a member of 1 or more Price Groups. This will show which groups to which a location belongs.
 

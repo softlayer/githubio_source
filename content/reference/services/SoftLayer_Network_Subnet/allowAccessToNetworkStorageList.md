@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::allowAccessToNetworkStorageList
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::allowAccessToNetworkStorageList
+
+Allow access to multiple SoftLayer_Network_Storage volumes from this device. 
+
+
 ## Overview 
 This method is used to allow access to multiple SoftLayer_Network_Storage volumes that support host- or network-level access control. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice"
 ---
-# SoftLayer_Billing_Invoice::getSellerRegistration
+# [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getSellerRegistration
+
+Retrieve this is the seller's tax registration.
+
+
 ## Overview 
 Retrieve this is the seller's tax registration.
 

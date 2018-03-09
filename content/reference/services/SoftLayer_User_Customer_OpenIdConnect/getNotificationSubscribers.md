@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getNotificationSubscribers
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getNotificationSubscribers
+
+Retrieve notification subscription records for the user.
+
+
 ## Overview 
 Retrieve notification subscription records for the user.
 

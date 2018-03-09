@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Group"
 ---
-# SoftLayer_Network_Storage_Group::addAllowedHost
+# [SoftLayer_Network_Storage_Group](/reference/services/SoftLayer_Network_Storage_Group)::addAllowedHost
+
+Attach a SoftLayer_Network_Storage_Allowed_Host object to this group
+
+
 ## Overview 
 Use this method to attach a SoftLayer_Network_Storage_Allowed_Host object to this group.  This will automatically enable access from this host to any SoftLayer_Network_Storage volumes currently attached to this group. 
 

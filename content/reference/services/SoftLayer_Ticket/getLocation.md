@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getLocation
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getLocation
+
+Retrieve a ticket's associated location within the SoftLayer location hierarchy.
+
+
 ## Overview 
 Retrieve a ticket's associated location within the SoftLayer location hierarchy.
 

@@ -9,7 +9,19 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_Rwhois_Data"
 ---
-# SoftLayer_Network_Subnet_Rwhois_Data::editObject
+# [SoftLayer_Network_Subnet_Rwhois_Data](/reference/services/SoftLayer_Network_Subnet_Rwhois_Data)::editObject
+
+Edit the RWHOIS record by passing in a modified version of the record object. All fields are editable. The fields are as follows: 
+* companyName
+* firstName
+* lastName
+* city
+* country
+* postalCode
+* abuseEmail
+* address1
+
+
 ## Overview 
 Edit the RWHOIS record by passing in a modified version of the record object.  All fields are editable.
 

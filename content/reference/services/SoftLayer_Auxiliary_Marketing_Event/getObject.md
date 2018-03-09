@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Auxiliary_Marketing_Event"
 ---
-# SoftLayer_Auxiliary_Marketing_Event::getObject
+# [SoftLayer_Auxiliary_Marketing_Event](/reference/services/SoftLayer_Auxiliary_Marketing_Event)::getObject
+
+Retrieve a SoftLayer_Auxiliary_Marketing_Event record.
+
+
 ## Overview 
 
 

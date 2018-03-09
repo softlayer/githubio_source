@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain"
 ---
-# SoftLayer_Dns_Domain::createObject
+# [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::createObject
+
+Create a new domain.
+
+
 ## Overview 
 Create a new domain on the SoftLayer name servers. The SoftLayer_Dns_Domain object passed to this function must have at least one A or AAAA resource record. 
 

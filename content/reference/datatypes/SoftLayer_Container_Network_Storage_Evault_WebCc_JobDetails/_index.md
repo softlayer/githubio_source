@@ -45,49 +45,94 @@ The SoftLayer_Container_Network_Storage_Evault_WebCc_JobDetails will contain bas
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#bytesUsed" name=bytesUsed>bytesUsed</a></span>
+            <span class='views-field-title'>
+                <a href="#bytesUsed" name=bytesUsed>bytesUsed</a>
+            </span>
             <div class='views-field-body'>The number of bytes currently used by the backup job. (provided only for backup jobs) </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsigned long</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsigned long</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#description" name=description>description</a></span>
+            <span class='views-field-title'>
+                <a href="#description" name=description>description</a>
+            </span>
             <div class='views-field-body'>Description of the backup/restore job </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#hardwareId" name=hardwareId>hardwareId</a></span>
+            <span class='views-field-title'>
+                <a href="#hardwareId" name=hardwareId>hardwareId</a>
+            </span>
             <div class='views-field-body'>hardware id </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#lastRunDate" name=lastRunDate>lastRunDate</a></span>
+            <span class='views-field-title'>
+                <a href="#lastRunDate" name=lastRunDate>lastRunDate</a>
+            </span>
             <div class='views-field-body'>Date of the last jobrun. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>Name of the backup/restore job </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#originalSize" name=originalSize>originalSize</a></span>
+            <span class='views-field-title'>
+                <a href="#originalSize" name=originalSize>originalSize</a>
+            </span>
             <div class='views-field-body'>Size of backup job when it was first run. (provided only for backup jobs) </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsigned long</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsigned long</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#percentageOfTotalUsage" name=percentageOfTotalUsage>percentageOfTotalUsage</a></span>
+            <span class='views-field-title'>
+                <a href="#percentageOfTotalUsage" name=percentageOfTotalUsage>percentageOfTotalUsage</a>
+            </span>
             <div class='views-field-body'>Percentage of overall used space allocated by the job. (provided only for backup jobs) </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#result" name=result>result</a></span>
+            <span class='views-field-title'>
+                <a href="#result" name=result>result</a>
+            </span>
             <div class='views-field-body'>Result of the latest jobrun. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#virtualGuestId" name=virtualGuestId>virtualGuestId</a></span>
+            <span class='views-field-title'>
+                <a href="#virtualGuestId" name=virtualGuestId>virtualGuestId</a>
+            </span>
             <div class='views-field-body'>virtual guest id </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
     </div>

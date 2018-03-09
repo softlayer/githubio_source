@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getVirtualizationPlatform
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getVirtualizationPlatform
+
+Retrieve a piece of hardware's virtualization platform software.
+
+
 ## Overview 
 Retrieve a piece of hardware's virtualization platform software.
 

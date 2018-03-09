@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getProjectedOverBandwidthAllocationFlag
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getProjectedOverBandwidthAllocationFlag
+
+Retrieve whether the bandwidth usage for this hardware for the current billing cycle is projected to exceed the allocation.
+
+
 ## Overview 
 Retrieve whether the bandwidth usage for this hardware for the current billing cycle is projected to exceed the allocation.
 

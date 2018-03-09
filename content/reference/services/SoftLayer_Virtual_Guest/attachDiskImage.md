@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::attachDiskImage
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::attachDiskImage
+
+Attaches a disk image.
+
+
 ## Overview 
 Creates a transaction to attach a guest's disk image. If the disk image is already attached it will be ignored. 
 

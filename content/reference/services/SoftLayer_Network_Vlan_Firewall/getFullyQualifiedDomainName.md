@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan_Firewall"
 ---
-# SoftLayer_Network_Vlan_Firewall::getFullyQualifiedDomainName
+# [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getFullyQualifiedDomainName
+
+Retrieve a name reflecting the hostname and domain of the firewall. This is created from the combined values of the firewall's logical name and vlan number automatically, and thus can not be edited directly.
+
+
 ## Overview 
 Retrieve a name reflecting the hostname and domain of the firewall. This is created from the combined values of the firewall's logical name and vlan number automatically, and thus can not be edited directly.
 

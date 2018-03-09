@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Firewall_Update_Request"
 ---
-# SoftLayer_Network_Firewall_Update_Request::getFirewallUpdateRequestRuleAttributes
+# [SoftLayer_Network_Firewall_Update_Request](/reference/services/SoftLayer_Network_Firewall_Update_Request)::getFirewallUpdateRequestRuleAttributes
+
+Get the possible attribute values for a firewall update request rule.
+
+
 ## Overview 
 Get the possible attribute values for a firewall update request rule.  These are the valid values which may be submitted as rule parameters for a firewall update request. 
 

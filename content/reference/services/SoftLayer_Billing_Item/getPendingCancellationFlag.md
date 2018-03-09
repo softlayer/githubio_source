@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getPendingCancellationFlag
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getPendingCancellationFlag
+
+Retrieve this flag indicates whether a billing item is scheduled to be canceled or not.
+
+
 ## Overview 
 Retrieve this flag indicates whether a billing item is scheduled to be canceled or not.
 

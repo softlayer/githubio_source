@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getFirewallServiceComponent
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getFirewallServiceComponent
+
+Retrieve a computing instance's hardware firewall services.
+
+
 ## Overview 
 Retrieve a computing instance's hardware firewall services.
 

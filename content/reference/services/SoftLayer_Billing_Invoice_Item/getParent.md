@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice_Item"
 ---
-# SoftLayer_Billing_Invoice_Item::getParent
+# [SoftLayer_Billing_Invoice_Item](/reference/services/SoftLayer_Billing_Invoice_Item)::getParent
+
+Retrieve every item tied to a server should have a parent invoice item which is the server line item. This is how we associate items to a server.
+
+
 ## Overview 
 Retrieve every item tied to a server should have a parent invoice item which is the server line item. This is how we associate items to a server.
 

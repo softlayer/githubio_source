@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LoadBalancer_Global_Account"
 ---
-# SoftLayer_Network_LoadBalancer_Global_Account::getBillingItem
+# [SoftLayer_Network_LoadBalancer_Global_Account](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account)::getBillingItem
+
+Retrieve the current billing item for a Global Load Balancer account.
+
+
 ## Overview 
 Retrieve the current billing item for a Global Load Balancer account.
 

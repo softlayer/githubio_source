@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host_Hardware"
 ---
-# SoftLayer_Network_Storage_Allowed_Host_Hardware::getAssignedGroups
+# [SoftLayer_Network_Storage_Allowed_Host_Hardware](/reference/services/SoftLayer_Network_Storage_Allowed_Host_Hardware)::getAssignedGroups
+
+Retrieve the SoftLayer_Network_Storage_Group objects this SoftLayer_Network_Storage_Allowed_Host is present in.
+
+
 ## Overview 
 Retrieve the SoftLayer_Network_Storage_Group objects this SoftLayer_Network_Storage_Allowed_Host is present in.
 

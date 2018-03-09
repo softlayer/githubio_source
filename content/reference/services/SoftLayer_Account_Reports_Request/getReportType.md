@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Reports_Request"
 ---
-# SoftLayer_Account_Reports_Request::getReportType
+# [SoftLayer_Account_Reports_Request](/reference/services/SoftLayer_Account_Reports_Request)::getReportType
+
+Retrieve type of the report customer is requesting for.
+
+
 ## Overview 
 Retrieve type of the report customer is requesting for.
 

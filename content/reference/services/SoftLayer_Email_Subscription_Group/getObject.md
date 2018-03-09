@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Email_Subscription_Group"
 ---
-# SoftLayer_Email_Subscription_Group::getObject
+# [SoftLayer_Email_Subscription_Group](/reference/services/SoftLayer_Email_Subscription_Group)::getObject
+
+Retrieve a SoftLayer_Email_Subscription_Group record.
+
+
 ## Overview 
 
 

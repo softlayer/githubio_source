@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::setUserMetadata
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::setUserMetadata
+
+Sets the server's user metadata value.
+
+
 ## Overview 
 Sets the data that will be written to the configuration drive. 
 

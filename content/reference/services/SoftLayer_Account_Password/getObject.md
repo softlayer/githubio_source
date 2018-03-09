@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Password"
 ---
-# SoftLayer_Account_Password::getObject
+# [SoftLayer_Account_Password](/reference/services/SoftLayer_Account_Password)::getObject
+
+Retrieve a SoftLayer_Account_Password record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Account_Password object whose ID corresponds to the ID number of the init parameter passed to the SoftLayer_Account_Password service. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item_Virtual_DedicatedHost"
 ---
-# SoftLayer_Billing_Item_Virtual_DedicatedHost::getServiceBillingItemsByCategory
+# [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getServiceBillingItemsByCategory
+
+Returns billing item in a given category code. Use this method to retrieve service billing items that you wish to cancel.
+
+
 ## Overview 
 This service returns billing items of a specified category code. This service should be used to retrieve billing items that you wish to cancel. Some billing items can be canceled via [[SoftLayer_Security_Certificate_Request|service cancellation]] service. 
 

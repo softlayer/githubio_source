@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getNextInvoiceTopLevelBillingItems
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNextInvoiceTopLevelBillingItems
+
+Retrieve the billing items that will be on an account's next invoice.
+
+
 ## Overview 
 Retrieve the billing items that will be on an account's next invoice.
 

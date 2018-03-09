@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getOriginalSnapshotName
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getOriginalSnapshotName
+
+Retrieve the name of the snapshot that this volume was duplicated from.
+
+
 ## Overview 
 Retrieve the name of the snapshot that this volume was duplicated from.
 

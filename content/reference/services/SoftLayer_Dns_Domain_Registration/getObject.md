@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_Registration"
 ---
-# SoftLayer_Dns_Domain_Registration::getObject
+# [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration)::getObject
+
+Retrieve a SoftLayer_Dns_Domain_Registration record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Dns_Domain_Registration object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Dns_Domain_Registration service. 
 

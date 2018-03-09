@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getOpenIdConnectMigrationState
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getOpenIdConnectMigrationState
+
+Get the OpenId migration state
+
+
 ## Overview 
 This API returns a SoftLayer_Container_User_Customer_OpenIdConnect_MigrationState object containing the necessary information to determine what migration state the user is in. If the account is not OpenIdConnect authenticated, then an exception is thrown. 
 

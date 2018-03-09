@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getRemoteManagementUsers
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getRemoteManagementUsers
+
+Retrieve user(s) who have access to issue commands and/or interact with the server's remote management card.
+
+
 ## Overview 
 Retrieve user(s) who have access to issue commands and/or interact with the server's remote management card.
 

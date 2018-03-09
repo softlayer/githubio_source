@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Event_Log"
 ---
-# SoftLayer_Event_Log::getUser
+# [SoftLayer_Event_Log](/reference/services/SoftLayer_Event_Log)::getUser
+
+
+
+
 ## Overview 
 
 

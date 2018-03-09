@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item_Cancellation_Reason_Category"
 ---
-# SoftLayer_Billing_Item_Cancellation_Reason_Category::getBillingCancellationReasons
+# [SoftLayer_Billing_Item_Cancellation_Reason_Category](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason_Category)::getBillingCancellationReasons
+
+Retrieve the corresponding billing cancellation reasons having the specific billing cancellation reason category.
+
+
 ## Overview 
 Retrieve the corresponding billing cancellation reasons having the specific billing cancellation reason category.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getOpenCancellationTicket
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getOpenCancellationTicket
+
+Retrieve an open ticket requesting cancellation of this server, if one exists.
+
+
 ## Overview 
 Retrieve an open ticket requesting cancellation of this server, if one exists.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getOrphanBillingItems
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getOrphanBillingItems
+
+Retrieve the billing items that have no parent billing item. These are items that don't necessarily belong to a single server.
+
+
 ## Overview 
 Retrieve the billing items that have no parent billing item. These are items that don't necessarily belong to a single server.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Internal_Ibm"
 ---
-# SoftLayer_Account_Internal_Ibm::getAuthorizationUrl
+# [SoftLayer_Account_Internal_Ibm](/reference/services/SoftLayer_Account_Internal_Ibm)::getAuthorizationUrl
+
+Gets the redirect URL for manager validation
+
+
 ## Overview 
 Gets the URL used to perform manager validation. 
 

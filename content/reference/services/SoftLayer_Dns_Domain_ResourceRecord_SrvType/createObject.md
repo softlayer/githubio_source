@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_ResourceRecord_SrvType"
 ---
-# SoftLayer_Dns_Domain_ResourceRecord_SrvType::createObject
+# [SoftLayer_Dns_Domain_ResourceRecord_SrvType](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType)::createObject
+
+Create an SRV record.
+
+
 ## Overview 
 createObject creates a new SRV record. The ''host'' property of the templateObject parameter is scrubbed to remove all non-alpha numeric characters except for "@", "_", ".", "*", and "-". The ''data'' property of the templateObject parameter is scrubbed to remove all non-alphanumeric characters for "." and "-". Creating an SRV record updates the serial number of the domain the resource record is associated with. 
 

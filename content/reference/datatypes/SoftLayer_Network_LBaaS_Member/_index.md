@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Network_LBaaS_Member
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_LBaaS_Member' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Network_LBaaS_Member' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_LBaaS_Member' >Datatype</a></li>
     </ul>
 </div>
 
@@ -39,39 +39,74 @@ The SoftLayer_Network_LBaaS_Member represents the backend member for a load bala
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#address" name=address>address</a></span>
+            <span class='views-field-title'>
+                <a href="#address" name=address>address</a>
+            </span>
             <div class='views-field-body'>The IP address of a load balancer member. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#createDate" name=createDate>createDate</a></span>
+            <span class='views-field-title'>
+                <a href="#createDate" name=createDate>createDate</a>
+            </span>
             <div class='views-field-body'>Specifies when a load balancers </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#modifyDate" name=modifyDate>modifyDate</a></span>
+            <span class='views-field-title'>
+                <a href="#modifyDate" name=modifyDate>modifyDate</a>
+            </span>
             <div class='views-field-body'>Specifies when a load balancers </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#provisioningStatus" name=provisioningStatus>provisioningStatus</a></span>
+            <span class='views-field-title'>
+                <a href="#provisioningStatus" name=provisioningStatus>provisioningStatus</a>
+            </span>
             <div class='views-field-body'>The provisioning status of a load balancer member. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#uuid" name=uuid>uuid</a></span>
+            <span class='views-field-title'>
+                <a href="#uuid" name=uuid>uuid</a>
+            </span>
             <div class='views-field-body'>The UUID of a load balancer member. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#weight" name=weight>weight</a></span>
+            <span class='views-field-title'>
+                <a href="#weight" name=weight>weight</a>
+            </span>
             <div class='views-field-body'>The weight of a load balancer member. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
     </div>

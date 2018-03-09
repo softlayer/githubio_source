@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getReverseDomain
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getReverseDomain
+
+Retrieve the reverse DNS domain associated with this subnet.
+
+
 ## Overview 
 Retrieve the reverse DNS domain associated with this subnet.
 

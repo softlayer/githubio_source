@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHardwareWithCpanel
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardwareWithCpanel
+
+Retrieve all hardware associated with an account that has the cPanel web hosting control panel installed.
+
+
 ## Overview 
 Retrieve all hardware associated with an account that has the cPanel web hosting control panel installed.
 

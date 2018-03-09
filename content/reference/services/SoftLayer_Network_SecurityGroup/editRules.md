@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_SecurityGroup"
 ---
-# SoftLayer_Network_SecurityGroup::editRules
+# [SoftLayer_Network_SecurityGroup](/reference/services/SoftLayer_Network_SecurityGroup)::editRules
+
+Edit rules that belong to a security group.
+
+
 ## Overview 
 Edit rules that belong to the security group. An array of skeleton [[SoftLayer_Network_SecurityGroup_Rule]] objects must be sent in with only the properties defined that you want to change. To edit a property to null, send in -1 for integer properties and "" for string properties. Unchanged properties are left alone. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice_Item"
 ---
-# SoftLayer_Billing_Invoice_Item::getLocation
+# [SoftLayer_Billing_Invoice_Item](/reference/services/SoftLayer_Billing_Invoice_Item)::getLocation
+
+Retrieve an invoice item's location, if one exists.'
+
+
 ## Overview 
 Retrieve an invoice item's location, if one exists.'
 

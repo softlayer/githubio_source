@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getEuSupportedFlag
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getEuSupportedFlag
+
+Retrieve boolean flag dictating whether or not this account has the EU Supported flag. This flag indicates that this account uses IBM Cloud services to process EU citizen's personal data.
+
+
 ## Overview 
 Retrieve boolean flag dictating whether or not this account has the EU Supported flag. This flag indicates that this account uses IBM Cloud services to process EU citizen's personal data.
 

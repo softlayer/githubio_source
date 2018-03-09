@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Currency"
 ---
-# SoftLayer_Billing_Currency::getPrice
+# [SoftLayer_Billing_Currency](/reference/services/SoftLayer_Billing_Currency)::getPrice
+
+
+
+
 ## Overview 
 
 

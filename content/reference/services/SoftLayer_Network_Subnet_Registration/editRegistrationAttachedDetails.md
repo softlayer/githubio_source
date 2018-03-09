@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_Registration"
 ---
-# SoftLayer_Network_Subnet_Registration::editRegistrationAttachedDetails
+# [SoftLayer_Network_Subnet_Registration](/reference/services/SoftLayer_Network_Subnet_Registration)::editRegistrationAttachedDetails
+
+Modify the link between a [[SoftLayer_Network_Subnet_Registration]] object and two [[SoftLayer_Account_Regional_Registry_Detail]] objects simultaneously. 
+
+
 ## Overview 
 This method modifies a single registration by modifying the current [[SoftLayer_Network_Subnet_Registration_Details]] objects that are linked to that registration. 
 

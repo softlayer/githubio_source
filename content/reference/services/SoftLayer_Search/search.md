@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Search"
 ---
-# SoftLayer_Search::search
+# [SoftLayer_Search](/reference/services/SoftLayer_Search)::search
+
+Search for SoftLayer Resources by simple phrase.
+
+
 ## Overview 
 This method allows for searching for SoftLayer resources by simple phrase. It returns a collection or array of <b>[[SoftLayer_Container_Search_Result (type)|SoftLayer_Container_Search_Result]]</b> objects that have search metadata for each result and the resulting resource found. 
 

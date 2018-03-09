@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::deleteAddressTranslation
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::deleteAddressTranslation
+
+Delete an address translation from a network tunnel
+
+
 ## Overview 
 Remove an existing address translation from a network tunnel. 
 

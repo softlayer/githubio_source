@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Media_Transcode_Account"
 ---
-# SoftLayer_Network_Media_Transcode_Account::getObject
+# [SoftLayer_Network_Media_Transcode_Account](/reference/services/SoftLayer_Network_Media_Transcode_Account)::getObject
+
+Retrieve a SoftLayer_Network_Media_Transcode_Account record.
+
+
 ## Overview 
 getObject method retrieves the SoftLayer_Network_Media_Transcode_Account object whose ID number corresponds to the ID number of the initial parameter passed to the SoftLayer_Network_Media_Transcode_Account service. You can only retrieve a Transcode account assigned to your SoftLayer customer account. 
 

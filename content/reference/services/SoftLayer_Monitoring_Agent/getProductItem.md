@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::getProductItem
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::getProductItem
+
+Retrieve contains general information relating to a single SoftLayer product.
+
+
 ## Overview 
 Retrieve contains general information relating to a single SoftLayer product.
 

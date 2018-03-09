@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
-# SoftLayer_Network_Bandwidth_Version1_Allotment::getAccount
+# [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getAccount
+
+Retrieve the account associated with this virtual rack.
+
+
 ## Overview 
 Retrieve the account associated with this virtual rack.
 

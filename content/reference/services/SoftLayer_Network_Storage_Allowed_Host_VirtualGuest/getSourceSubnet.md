@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host_VirtualGuest"
 ---
-# SoftLayer_Network_Storage_Allowed_Host_VirtualGuest::getSourceSubnet
+# [SoftLayer_Network_Storage_Allowed_Host_VirtualGuest](/reference/services/SoftLayer_Network_Storage_Allowed_Host_VirtualGuest)::getSourceSubnet
+
+Retrieve connections to a target with a source IP in this subnet prefix are allowed.
+
+
 ## Overview 
 Retrieve connections to a target with a source IP in this subnet prefix are allowed.
 

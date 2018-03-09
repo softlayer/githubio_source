@@ -39,89 +39,169 @@ The SoftLayer_Network_Firewall_Update_Request_Rule_Version6 type contains inform
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#action" name=action>action</a></span>
+            <span class='views-field-title'>
+                <a href="#action" name=action>action</a>
+            </span>
             <div class='views-field-body'>The action that this update request rule is to take [permit or deny]. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#destinationIpAddress" name=destinationIpAddress>destinationIpAddress</a></span>
+            <span class='views-field-title'>
+                <a href="#destinationIpAddress" name=destinationIpAddress>destinationIpAddress</a>
+            </span>
             <div class='views-field-body'>The destination IP address considered for determining rule application. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#destinationIpCidr" name=destinationIpCidr>destinationIpCidr</a></span>
+            <span class='views-field-title'>
+                <a href="#destinationIpCidr" name=destinationIpCidr>destinationIpCidr</a>
+            </span>
             <div class='views-field-body'>The CIDR is used for determining rule application. This value will </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#destinationIpSubnetMask" name=destinationIpSubnetMask>destinationIpSubnetMask</a></span>
+            <span class='views-field-title'>
+                <a href="#destinationIpSubnetMask" name=destinationIpSubnetMask>destinationIpSubnetMask</a>
+            </span>
             <div class='views-field-body'>The destination IP subnet mask considered for determining rule application. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#destinationPortRangeEnd" name=destinationPortRangeEnd>destinationPortRangeEnd</a></span>
+            <span class='views-field-title'>
+                <a href="#destinationPortRangeEnd" name=destinationPortRangeEnd>destinationPortRangeEnd</a>
+            </span>
             <div class='views-field-body'>The ending (upper end of range) destination port considered for determining rule application. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#destinationPortRangeStart" name=destinationPortRangeStart>destinationPortRangeStart</a></span>
+            <span class='views-field-title'>
+                <a href="#destinationPortRangeStart" name=destinationPortRangeStart>destinationPortRangeStart</a>
+            </span>
             <div class='views-field-body'>The starting (lower end of range) destination port considered for determining rule application. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#firewallUpdateRequestId" name=firewallUpdateRequestId>firewallUpdateRequestId</a></span>
+            <span class='views-field-title'>
+                <a href="#firewallUpdateRequestId" name=firewallUpdateRequestId>firewallUpdateRequestId</a>
+            </span>
             <div class='views-field-body'>The unique identifier of the firewall update request that a firewall update request rule is associated with. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>A Firewall update request rule's internal identifier. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#notes" name=notes>notes</a></span>
+            <span class='views-field-title'>
+                <a href="#notes" name=notes>notes</a>
+            </span>
             <div class='views-field-body'>The notes field for the firewall update request rule. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#orderValue" name=orderValue>orderValue</a></span>
+            <span class='views-field-title'>
+                <a href="#orderValue" name=orderValue>orderValue</a>
+            </span>
             <div class='views-field-body'>The numeric value describing the order in which the rule should be applied. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#protocol" name=protocol>protocol</a></span>
+            <span class='views-field-title'>
+                <a href="#protocol" name=protocol>protocol</a>
+            </span>
             <div class='views-field-body'>The protocol considered for determining rule application. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#sourceIpAddress" name=sourceIpAddress>sourceIpAddress</a></span>
+            <span class='views-field-title'>
+                <a href="#sourceIpAddress" name=sourceIpAddress>sourceIpAddress</a>
+            </span>
             <div class='views-field-body'>The source IP address considered for determining rule application. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#sourceIpCidr" name=sourceIpCidr>sourceIpCidr</a></span>
+            <span class='views-field-title'>
+                <a href="#sourceIpCidr" name=sourceIpCidr>sourceIpCidr</a>
+            </span>
             <div class='views-field-body'>The CIDR is used for determining rule application. This value will </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#sourceIpSubnetMask" name=sourceIpSubnetMask>sourceIpSubnetMask</a></span>
+            <span class='views-field-title'>
+                <a href="#sourceIpSubnetMask" name=sourceIpSubnetMask>sourceIpSubnetMask</a>
+            </span>
             <div class='views-field-body'>The source IP subnet mask considered for determining rule application. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#version" name=version>version</a></span>
+            <span class='views-field-title'>
+                <a href="#version" name=version>version</a>
+            </span>
             <div class='views-field-body'>Whether this rule is an IPv4 rule or an IPv6 rule. If </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#firewallUpdateRequest" name=firewallUpdateRequest>firewallUpdateRequest</a></span>
+            <span class='views-field-title'>
+                <a href="#firewallUpdateRequest" name=firewallUpdateRequest>firewallUpdateRequest</a>
+            </span>
             <div class='views-field-body'>The update request that this rule belongs to. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request'>SoftLayer_Network_Firewall_Update_Request </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request'>SoftLayer_Network_Firewall_Update_Request </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

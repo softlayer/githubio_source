@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference"
 ---
-# SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference::editObjects
+# [SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference)::editObjects
+
+Update template group references by passing in an array of modified instances of the objects. 
+
+
 ## Overview 
 This method updates a set of SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference records by passing in an array of modified instances of the objects. Setting the $bulkCommit parameter to true will commit the changes in one transaction, false will commit after each object is updated. 
 

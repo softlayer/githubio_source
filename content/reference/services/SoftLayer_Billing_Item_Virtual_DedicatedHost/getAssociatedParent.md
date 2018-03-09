@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item_Virtual_DedicatedHost"
 ---
-# SoftLayer_Billing_Item_Virtual_DedicatedHost::getAssociatedParent
+# [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getAssociatedParent
+
+Retrieve a billing item's associated parent billing item. This object will be the same as the parent billing item if parentId is set.
+
+
 ## Overview 
 Retrieve a billing item's associated parent billing item. This object will be the same as the parent billing item if parentId is set.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Blade"
 ---
-# SoftLayer_Hardware_Blade::getObject
+# [SoftLayer_Hardware_Blade](/reference/services/SoftLayer_Hardware_Blade)::getObject
+
+Retrieve a SoftLayer_Hardware_Blade record.
+
+
 ## Overview 
 
 

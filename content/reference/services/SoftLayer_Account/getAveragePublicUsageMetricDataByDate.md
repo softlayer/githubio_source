@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getAveragePublicUsageMetricDataByDate
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAveragePublicUsageMetricDataByDate
+
+Returns the average disk usage for all public repositories for the timeframe based on the parameters provided. 
+
+
 ## Overview 
 Returns the average disk space usage for all public repositories. 
 

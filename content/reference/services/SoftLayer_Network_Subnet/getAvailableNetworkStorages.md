@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getAvailableNetworkStorages
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getAvailableNetworkStorages
+
+Return a list of SoftLayer_Network_Storage volumes that can be authorized to this device. 
+
+
 ## Overview 
 This method retrieves a list of SoftLayer_Network_Storage volumes that can be authorized to this SoftLayer_Network_Subnet. 
 

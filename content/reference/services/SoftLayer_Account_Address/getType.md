@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Address"
 ---
-# SoftLayer_Account_Address::getType
+# [SoftLayer_Account_Address](/reference/services/SoftLayer_Account_Address)::getType
+
+Retrieve an account address' type.
+
+
 ## Overview 
 Retrieve an account address' type.
 

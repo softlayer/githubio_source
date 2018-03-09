@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Disk_Image"
 ---
-# SoftLayer_Virtual_Disk_Image::getCopyOnWriteFlag
+# [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::getCopyOnWriteFlag
+
+
+
+
 ## Overview 
 
 

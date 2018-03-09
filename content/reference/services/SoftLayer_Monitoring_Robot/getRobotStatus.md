@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Robot"
 ---
-# SoftLayer_Monitoring_Robot::getRobotStatus
+# [SoftLayer_Monitoring_Robot](/reference/services/SoftLayer_Monitoring_Robot)::getRobotStatus
+
+Retrieve the current status of the robot.
+
+
 ## Overview 
 Retrieve the current status of the robot.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getMotherboard
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getMotherboard
+
+Retrieve a server's motherboard.
+
+
 ## Overview 
 Retrieve a server's motherboard.
 

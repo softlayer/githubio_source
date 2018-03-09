@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent_Configuration_Template_Group"
 ---
-# SoftLayer_Monitoring_Agent_Configuration_Template_Group::editObject
+# [SoftLayer_Monitoring_Agent_Configuration_Template_Group](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group)::editObject
+
+This method edits an existing SoftLayer_Monitoring_Agent_Configuration_Template_Group. 
+
+
 ## Overview 
 This method edits an existing SoftLayer_Monitoring_Agent_Configuration_Template_Group using the values passed in the $object parameter. The $object parameter should use the same structure as a SoftLayer_Monitoring_Agent_Configuration_Template_Group object. 
 

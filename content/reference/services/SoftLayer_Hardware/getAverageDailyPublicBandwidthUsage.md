@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getAverageDailyPublicBandwidthUsage
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getAverageDailyPublicBandwidthUsage
+
+Retrieve the average daily public bandwidth usage for the current billing cycle.
+
+
 ## Overview 
 Retrieve the average daily public bandwidth usage for the current billing cycle.
 

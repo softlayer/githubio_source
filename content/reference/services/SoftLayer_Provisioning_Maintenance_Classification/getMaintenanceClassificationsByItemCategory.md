@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Provisioning_Maintenance_Classification"
 ---
-# SoftLayer_Provisioning_Maintenance_Classification::getMaintenanceClassificationsByItemCategory
+# [SoftLayer_Provisioning_Maintenance_Classification](/reference/services/SoftLayer_Provisioning_Maintenance_Classification)::getMaintenanceClassificationsByItemCategory
+
+Retrieve all maintenance classifications.
+
+
 ## Overview 
 Retrieve an array of SoftLayer_Provisioning_Maintenance_Classification data types, which contain all maintenance classifications. 
 

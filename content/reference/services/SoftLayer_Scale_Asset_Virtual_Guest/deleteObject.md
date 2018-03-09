@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Asset_Virtual_Guest"
 ---
-# SoftLayer_Scale_Asset_Virtual_Guest::deleteObject
+# [SoftLayer_Scale_Asset_Virtual_Guest](/reference/services/SoftLayer_Scale_Asset_Virtual_Guest)::deleteObject
+
+Delete this group asset.
+
+
 ## Overview 
 
 

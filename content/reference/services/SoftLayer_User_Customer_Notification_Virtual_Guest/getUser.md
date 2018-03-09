@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_Notification_Virtual_Guest"
 ---
-# SoftLayer_User_Customer_Notification_Virtual_Guest::getUser
+# [SoftLayer_User_Customer_Notification_Virtual_Guest](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest)::getUser
+
+Retrieve the user that will be notified when the associated virtual guest object fails a monitoring instance.
+
+
 ## Overview 
 Retrieve the user that will be notified when the associated virtual guest object fails a monitoring instance.
 

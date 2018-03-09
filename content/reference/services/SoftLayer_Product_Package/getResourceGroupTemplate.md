@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getResourceGroupTemplate
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getResourceGroupTemplate
+
+Retrieve the resource group template that describes a multi-server solution. (Deprecated)
+
+
 ## Overview 
 Retrieve the resource group template that describes a multi-server solution. (Deprecated)
 

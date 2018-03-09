@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getCanOrderAdditionalVlansFlag
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getCanOrderAdditionalVlansFlag
+
+Retrieve indicating whether this account can order additional Vlans.
+
+
 ## Overview 
 Retrieve indicating whether this account can order additional Vlans.
 

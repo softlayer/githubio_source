@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Item"
 ---
-# SoftLayer_Billing_Order_Item::getPackage
+# [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getPackage
+
+Retrieve the SoftLayer_Product_Package an order item is a part of.
+
+
 ## Overview 
 Retrieve the SoftLayer_Product_Package an order item is a part of.
 

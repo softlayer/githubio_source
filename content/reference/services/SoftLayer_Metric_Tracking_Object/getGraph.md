@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Metric_Tracking_Object"
 ---
-# SoftLayer_Metric_Tracking_Object::getGraph
+# [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getGraph
+
+Retrieve a graph of a virtual hosting platform's per instance use.
+
+
 ## Overview 
 Retrieve a PNG image of a metric in graph form. 
 

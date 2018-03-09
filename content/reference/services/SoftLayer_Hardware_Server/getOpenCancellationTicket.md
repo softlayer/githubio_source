@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getOpenCancellationTicket
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getOpenCancellationTicket
+
+Retrieve an open ticket requesting cancellation of this server, if one exists.
+
+
 ## Overview 
 Retrieve an open ticket requesting cancellation of this server, if one exists.
 

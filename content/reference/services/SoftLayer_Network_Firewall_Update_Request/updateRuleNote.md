@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Firewall_Update_Request"
 ---
-# SoftLayer_Network_Firewall_Update_Request::updateRuleNote
+# [SoftLayer_Network_Firewall_Update_Request](/reference/services/SoftLayer_Network_Firewall_Update_Request)::updateRuleNote
+
+
+
+
 ## Overview 
 
 

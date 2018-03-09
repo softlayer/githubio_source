@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getLatestNetworkMonitorIncident
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getLatestNetworkMonitorIncident
+
+Retrieve a piece of hardware's latest network monitoring incident.
+
+
 ## Overview 
 Retrieve a piece of hardware's latest network monitoring incident.
 

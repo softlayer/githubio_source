@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_LoadBalancer"
 ---
-# SoftLayer_Scale_LoadBalancer::getObject
+# [SoftLayer_Scale_LoadBalancer](/reference/services/SoftLayer_Scale_LoadBalancer)::getObject
+
+Retrieve a SoftLayer_Scale_LoadBalancer record.
+
+
 ## Overview 
 
 

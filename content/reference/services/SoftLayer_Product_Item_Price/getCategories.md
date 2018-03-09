@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Price"
 ---
-# SoftLayer_Product_Item_Price::getCategories
+# [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getCategories
+
+Retrieve all categories which this item is a member.
+
+
 ## Overview 
 Retrieve all categories which this item is a member.
 

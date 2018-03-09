@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getExternalBindings
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getExternalBindings
+
+Retrieve the external authentication bindings that link an external identifier to a SoftLayer user.
+
+
 ## Overview 
 Retrieve the external authentication bindings that link an external identifier to a SoftLayer user.
 

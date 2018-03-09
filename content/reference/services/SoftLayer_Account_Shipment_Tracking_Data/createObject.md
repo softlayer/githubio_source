@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Shipment_Tracking_Data"
 ---
-# SoftLayer_Account_Shipment_Tracking_Data::createObject
+# [SoftLayer_Account_Shipment_Tracking_Data](/reference/services/SoftLayer_Account_Shipment_Tracking_Data)::createObject
+
+Create a new shipment tracking data.
+
+
 ## Overview 
 Create a new shipment tracking data. The ''shipmentId'', ''sequence'', and ''trackingData'' properties in the templateObject parameter are required parameters to create a tracking data record. 
 

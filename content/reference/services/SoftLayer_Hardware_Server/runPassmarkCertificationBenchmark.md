@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::runPassmarkCertificationBenchmark
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::runPassmarkCertificationBenchmark
+
+Runs a hardware stress test on the server to obtain a Passmark Certification.
+
+
 ## Overview 
 You can launch a new Passmark hardware test by selecting from your server list. It will bring your server offline for approximately 20 minutes while the testing is in progress, and will publish a certificate with the results to your hardware details page. 
 

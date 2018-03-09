@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
-# SoftLayer_Network_Bandwidth_Version1_Allotment::getVirtualGuests
+# [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getVirtualGuests
+
+Retrieve the Virtual Server contained within a virtual rack.
+
+
 ## Overview 
 Retrieve the Virtual Server contained within a virtual rack.
 

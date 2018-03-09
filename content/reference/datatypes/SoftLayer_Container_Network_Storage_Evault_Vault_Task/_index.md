@@ -37,7 +37,7 @@ When a job is created using the Webcc Console, the job created is identified as 
 
 ### seeAlso
 
-* [SoftLayer_Network_Storage](/reference/datatypes/SoftLayer_Network_Storage )
+* [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage )
 
 
 
@@ -57,19 +57,34 @@ When a job is created using the Webcc Console, the job created is identified as 
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>Unique identifier for the task. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsigned integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsigned integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>The hostname provided at time of agent registration. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#usedPoolsize" name=usedPoolsize>usedPoolsize</a></span>
+            <span class='views-field-title'>
+                <a href="#usedPoolsize" name=usedPoolsize>usedPoolsize</a>
+            </span>
             <div class='views-field-body'>Total compressed bytes used for the task. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsigned long</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsigned long</p>
+            </div>
         </div>
             </div>
     </div>

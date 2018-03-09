@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::getAssociatedCdnAccountId
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getAssociatedCdnAccountId
+
+Retrieve the CDN account id that this CDN account is associated with.
+
+
 ## Overview 
 Retrieve the CDN account id that this CDN account is associated with.
 

@@ -39,19 +39,29 @@ The SoftLayer_Hardware_Component_Model_Generic_Attribute data type contains info
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#value" name=value>value</a></span>
+            <span class='views-field-title'>
+                <a href="#value" name=value>value</a>
+            </span>
             <div class='views-field-body'>A generic component model attribute's value. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#hardwareGenericComponentModel" name=hardwareGenericComponentModel>hardwareGenericComponentModel</a></span>
+            <span class='views-field-title'>
+                <a href="#hardwareGenericComponentModel" name=hardwareGenericComponentModel>hardwareGenericComponentModel</a>
+            </span>
             <div class='views-field-body'>An attributes generic component model. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

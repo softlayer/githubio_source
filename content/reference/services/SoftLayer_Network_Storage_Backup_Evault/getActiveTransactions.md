@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getActiveTransactions
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getActiveTransactions
+
+Retrieve the currently active transactions on a network storage volume.
+
+
 ## Overview 
 Retrieve the currently active transactions on a network storage volume.
 

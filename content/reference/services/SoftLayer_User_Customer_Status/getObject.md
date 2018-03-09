@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_Status"
 ---
-# SoftLayer_User_Customer_Status::getObject
+# [SoftLayer_User_Customer_Status](/reference/services/SoftLayer_User_Customer_Status)::getObject
+
+Retrieve a SoftLayer_User_Customer_Status record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_User_Customer_Status object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_User_Customer_Status service. 
 

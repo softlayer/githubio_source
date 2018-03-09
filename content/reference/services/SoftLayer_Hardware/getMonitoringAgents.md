@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getMonitoringAgents
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getMonitoringAgents
+
+Retrieve information regarding the monitoring agents associated with a piece of hardware.
+
+
 ## Overview 
 Retrieve information regarding the monitoring agents associated with a piece of hardware.
 

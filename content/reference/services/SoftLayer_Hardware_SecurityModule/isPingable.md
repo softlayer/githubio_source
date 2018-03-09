@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::isPingable
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::isPingable
+
+Verifies if server is pingable.
+
+
 ## Overview 
 Issues a ping command and returns the success (true) or failure (false) of the ping command. 
 

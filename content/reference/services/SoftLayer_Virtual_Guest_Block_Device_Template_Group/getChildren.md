@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Block_Device_Template_Group"
 ---
-# SoftLayer_Virtual_Guest_Block_Device_Template_Group::getChildren
+# [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::getChildren
+
+Retrieve the image template groups that are clones of an image template group.
+
+
 ## Overview 
 Retrieve the image template groups that are clones of an image template group.
 

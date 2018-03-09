@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location_Datacenter"
 ---
-# SoftLayer_Location_Datacenter::getBoundSubnets
+# [SoftLayer_Location_Datacenter](/reference/services/SoftLayer_Location_Datacenter)::getBoundSubnets
+
+Retrieve subnets which are directly bound to one or more routers in a given datacenter, and currently allow routing.
+
+
 ## Overview 
 Retrieve subnets which are directly bound to one or more routers in a given datacenter, and currently allow routing.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getAllowedNetworkStorage
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getAllowedNetworkStorage
+
+Retrieve the SoftLayer_Network_Storage objects that this SoftLayer_Virtual_Guest has access to.
+
+
 ## Overview 
 Retrieve the SoftLayer_Network_Storage objects that this SoftLayer_Virtual_Guest has access to.
 

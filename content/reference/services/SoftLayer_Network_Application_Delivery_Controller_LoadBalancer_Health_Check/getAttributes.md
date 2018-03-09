@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check"
 ---
-# SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check::getAttributes
+# [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check)::getAttributes
+
+
+
+
 ## Overview 
 
 

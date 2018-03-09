@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getAllowedHostsLimit
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getAllowedHostsLimit
+
+Retrieves the total number of allowed hosts limit per volume.
+
+
 ## Overview 
 Retrieves the total number of allowed hosts limit per volume. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_MassDataMigration_Request"
 ---
-# SoftLayer_Network_Storage_MassDataMigration_Request::getAllRequestStatuses
+# [SoftLayer_Network_Storage_MassDataMigration_Request](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request)::getAllRequestStatuses
+
+Retrieves a list of all the possible statuses
+
+
 ## Overview 
 Retrieves a list of all the possible statuses to which a request may be set.
 

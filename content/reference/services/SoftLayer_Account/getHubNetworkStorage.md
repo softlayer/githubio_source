@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHubNetworkStorage
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHubNetworkStorage
+
+Retrieve an account's associated Virtual Storage volumes.
+
+
 ## Overview 
 Retrieve an account's associated Virtual Storage volumes.
 

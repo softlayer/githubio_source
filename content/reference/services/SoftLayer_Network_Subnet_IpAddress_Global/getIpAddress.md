@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_IpAddress_Global"
 ---
-# SoftLayer_Network_Subnet_IpAddress_Global::getIpAddress
+# [SoftLayer_Network_Subnet_IpAddress_Global](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global)::getIpAddress
+
+
+
+
 ## Overview 
 
 

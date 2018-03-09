@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getAllowedHostsLimit
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getAllowedHostsLimit
+
+Retrieves the total number of allowed hosts limit per volume.
+
+
 ## Overview 
 Retrieves the total number of allowed hosts limit per volume. 
 

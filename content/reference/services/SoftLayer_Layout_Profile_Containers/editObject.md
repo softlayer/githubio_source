@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Layout_Profile_Containers"
 ---
-# SoftLayer_Layout_Profile_Containers::editObject
+# [SoftLayer_Layout_Profile_Containers](/reference/services/SoftLayer_Layout_Profile_Containers)::editObject
+
+Edit the object by passing in a modified instance of the object
+
+
 ## Overview 
 
 

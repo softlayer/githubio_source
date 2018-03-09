@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Metric_Tracking_Object"
 ---
-# SoftLayer_Metric_Tracking_Object::getBandwidthTotal
+# [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getBandwidthTotal
+
+Retrieve the total bandwidth used within a given time frame.
+
+
 ## Overview 
 Retrieve the total amount of bandwidth recorded by a tracking object within the given date range. This method will only work on SoftLayer_Metric_Tracking_Object for SoftLayer_Hardware objects, and SoftLayer_Virtual_Guest objects. 
 

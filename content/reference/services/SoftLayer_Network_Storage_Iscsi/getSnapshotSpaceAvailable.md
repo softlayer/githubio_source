@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getSnapshotSpaceAvailable
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getSnapshotSpaceAvailable
+
+Retrieve an volume's available snapshot reservation space.
+
+
 ## Overview 
 Retrieve an volume's available snapshot reservation space.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LBaaS_Member"
 ---
-# SoftLayer_Network_LBaaS_Member::deleteLoadBalancerMembers
+# [SoftLayer_Network_LBaaS_Member](/reference/services/SoftLayer_Network_LBaaS_Member)::deleteLoadBalancerMembers
+
+Delete load balancer members
+
+
 ## Overview 
 Delete given members from load balancer and return load balancer object with listeners, pools and members populated 
 

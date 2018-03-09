@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Layout_Profile"
 ---
-# SoftLayer_Layout_Profile::createObject
+# [SoftLayer_Layout_Profile](/reference/services/SoftLayer_Layout_Profile)::createObject
+
+Create a new layout profile
+
+
 ## Overview 
 This method creates a new layout profile object. 
 

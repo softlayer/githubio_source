@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getObject
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getObject
+
+Retrieve a SoftLayer_Network_Component record.
+
+
 ## Overview 
 
 

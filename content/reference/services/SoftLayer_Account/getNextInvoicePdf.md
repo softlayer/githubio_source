@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getNextInvoicePdf
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNextInvoicePdf
+
+Retrieve the next billing period's invoice. Note, this should be considered preliminary as you may add, remove, change billing items on your account.
+
+
 ## Overview 
 Return an account's next invoice in PDF format. The "next invoice" is what a customer will be billed on their next invoice, assuming no changes are made. Currently this does not include Bandwidth Pooling charges.
 

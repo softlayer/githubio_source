@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Group_Iscsi"
 ---
-# SoftLayer_Network_Storage_Group_Iscsi::addAllowedHost
+# [SoftLayer_Network_Storage_Group_Iscsi](/reference/services/SoftLayer_Network_Storage_Group_Iscsi)::addAllowedHost
+
+Attach a SoftLayer_Network_Storage_Allowed_Host object to this group
+
+
 ## Overview 
 Use this method to attach a SoftLayer_Network_Storage_Allowed_Host object to this group.  This will automatically enable access from this host to any SoftLayer_Network_Storage volumes currently attached to this group. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Resource_Configuration"
 ---
-# SoftLayer_Resource_Configuration::setOsPasswordFromEncrypted
+# [SoftLayer_Resource_Configuration](/reference/services/SoftLayer_Resource_Configuration)::setOsPasswordFromEncrypted
+
+Set resource operating system password from an encrypted password
+
+
 ## Overview 
 The setOsPasswordFromEncrypted method is used to set the operating system password from a key/pair encrypted password signed by SoftLayer. 
 

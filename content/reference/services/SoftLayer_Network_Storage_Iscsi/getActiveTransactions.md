@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getActiveTransactions
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getActiveTransactions
+
+Retrieve the currently active transactions on a network storage volume.
+
+
 ## Overview 
 Retrieve the currently active transactions on a network storage volume.
 

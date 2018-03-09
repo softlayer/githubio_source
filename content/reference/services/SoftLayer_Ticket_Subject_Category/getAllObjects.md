@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket_Subject_Category"
 ---
-# SoftLayer_Ticket_Subject_Category::getAllObjects
+# [SoftLayer_Ticket_Subject_Category](/reference/services/SoftLayer_Ticket_Subject_Category)::getAllObjects
+
+Retrieve all ticket subject categories.
+
+
 ## Overview 
 Retrieve all ticket subject categories.
 

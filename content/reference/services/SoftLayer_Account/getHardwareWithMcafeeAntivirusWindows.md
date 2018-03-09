@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHardwareWithMcafeeAntivirusWindows
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardwareWithMcafeeAntivirusWindows
+
+Retrieve all hardware associated with an account that has McAfee Secure AntiVirus for Windows software components.
+
+
 ## Overview 
 Retrieve all hardware associated with an account that has McAfee Secure AntiVirus for Windows software components.
 

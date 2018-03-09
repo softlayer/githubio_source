@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket_Subject"
 ---
-# SoftLayer_Ticket_Subject::getChildren
+# [SoftLayer_Ticket_Subject](/reference/services/SoftLayer_Ticket_Subject)::getChildren
+
+Retrieve a child subject
+
+
 ## Overview 
 Retrieve a child subject
 

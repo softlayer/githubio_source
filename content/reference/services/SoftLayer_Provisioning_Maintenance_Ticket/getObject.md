@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Provisioning_Maintenance_Ticket"
 ---
-# SoftLayer_Provisioning_Maintenance_Ticket::getObject
+# [SoftLayer_Provisioning_Maintenance_Ticket](/reference/services/SoftLayer_Provisioning_Maintenance_Ticket)::getObject
+
+Retrieve a SoftLayer_Provisioning_Maintenance_Ticket record.
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getDiskUsageMetricImageByDate
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getDiskUsageMetricImageByDate
+
+Retrieve an image of the disk usage data on a [[SoftLayer_Virtual_Guest|Cloud Computing Instance]] image for the time range you provide. 
+
+
 ## Overview 
 Returns a disk usage image based on disk usage specified by the input parameters. 
 

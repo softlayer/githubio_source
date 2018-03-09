@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getOverBandwidthAllocationFlag
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getOverBandwidthAllocationFlag
+
+Retrieve whether the bandwidth usage for this hardware for the current billing cycle exceeds the allocation.
+
+
 ## Overview 
 Retrieve whether the bandwidth usage for this hardware for the current billing cycle exceeds the allocation.
 

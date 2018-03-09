@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Item"
 ---
-# SoftLayer_Billing_Order_Item::getGlobalIdentifier
+# [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getGlobalIdentifier
+
+Retrieve a hardware's universally unique identifier.
+
+
 ## Overview 
 Retrieve a hardware's universally unique identifier.
 

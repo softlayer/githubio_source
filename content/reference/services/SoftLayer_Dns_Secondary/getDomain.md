@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Secondary"
 ---
-# SoftLayer_Dns_Secondary::getDomain
+# [SoftLayer_Dns_Secondary](/reference/services/SoftLayer_Dns_Secondary)::getDomain
+
+Retrieve the domain record created by zone transfer from a secondary DNS record.
+
+
 ## Overview 
 Retrieve the domain record created by zone transfer from a secondary DNS record.
 

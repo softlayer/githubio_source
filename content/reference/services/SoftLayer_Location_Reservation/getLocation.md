@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location_Reservation"
 ---
-# SoftLayer_Location_Reservation::getLocation
+# [SoftLayer_Location_Reservation](/reference/services/SoftLayer_Location_Reservation)::getLocation
+
+Retrieve the datacenter location that the reservation belongs to.
+
+
 ## Overview 
 Retrieve the datacenter location that the reservation belongs to.
 

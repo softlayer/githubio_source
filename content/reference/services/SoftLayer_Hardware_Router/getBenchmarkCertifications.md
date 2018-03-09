@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getBenchmarkCertifications
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getBenchmarkCertifications
+
+Retrieve information regarding a piece of hardware's benchmark certifications.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's benchmark certifications.
 

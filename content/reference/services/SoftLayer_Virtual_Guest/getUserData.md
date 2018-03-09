@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getUserData
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getUserData
+
+Retrieve a base64 encoded string containing custom user data for a Cloud Computing Instance order.
+
+
 ## Overview 
 Retrieve a base64 encoded string containing custom user data for a Cloud Computing Instance order.
 

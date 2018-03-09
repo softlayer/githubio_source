@@ -44,44 +44,84 @@ SoftLayer_Container_Metric_Tracking_Object_Virtual_Host_Details This container d
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#day" name=day>day</a></span>
+            <span class='views-field-title'>
+                <a href="#day" name=day>day</a>
+            </span>
             <div class='views-field-body'>The day this metric was collected. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#maxInstances" name=maxInstances>maxInstances</a></span>
+            <span class='views-field-title'>
+                <a href="#maxInstances" name=maxInstances>maxInstances</a>
+            </span>
             <div class='views-field-body'>The maximum number of guests hosted by this platform for the given day. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#maxMemoryUsage" name=maxMemoryUsage>maxMemoryUsage</a></span>
+            <span class='views-field-title'>
+                <a href="#maxMemoryUsage" name=maxMemoryUsage>maxMemoryUsage</a>
+            </span>
             <div class='views-field-body'>The maximum amount of memory utilized by this platform for the given day. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#meanInstances" name=meanInstances>meanInstances</a></span>
+            <span class='views-field-title'>
+                <a href="#meanInstances" name=meanInstances>meanInstances</a>
+            </span>
             <div class='views-field-body'>The mean number of guests hosted by this platform for the given day. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>float</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>float</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#meanMemoryUsage" name=meanMemoryUsage>meanMemoryUsage</a></span>
+            <span class='views-field-title'>
+                <a href="#meanMemoryUsage" name=meanMemoryUsage>meanMemoryUsage</a>
+            </span>
             <div class='views-field-body'>The mean amount of memory utilized by this platform for the given day. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>float</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>float</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#metricName" name=metricName>metricName</a></span>
+            <span class='views-field-title'>
+                <a href="#metricName" name=metricName>metricName</a>
+            </span>
             <div class='views-field-body'>The name that best describes the metric being collected. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#minInstances" name=minInstances>minInstances</a></span>
+            <span class='views-field-title'>
+                <a href="#minInstances" name=minInstances>minInstances</a>
+            </span>
             <div class='views-field-body'>The minimum number of guests hosted by this platform for the given day. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#minMemoryUsage" name=minMemoryUsage>minMemoryUsage</a></span>
+            <span class='views-field-title'>
+                <a href="#minMemoryUsage" name=minMemoryUsage>minMemoryUsage</a>
+            </span>
             <div class='views-field-body'>The minimum amount of memory utilized by this platform for the given day. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
     </div>

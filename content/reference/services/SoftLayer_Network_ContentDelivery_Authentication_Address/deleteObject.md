@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Authentication_Address"
 ---
-# SoftLayer_Network_ContentDelivery_Authentication_Address::deleteObject
+# [SoftLayer_Network_ContentDelivery_Authentication_Address](/reference/services/SoftLayer_Network_ContentDelivery_Authentication_Address)::deleteObject
+
+Deletes an authentication IP address.
+
+
 ## Overview 
 This method deletes an authentication IP address. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::allowAccessToNetworkStorage
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::allowAccessToNetworkStorage
+
+Allow access to a SoftLayer_Network_Storage volume from this device. 
+
+
 ## Overview 
 This method is used to allow access to a SoftLayer_Network_Storage volume that supports host- or network-level access control. 
 

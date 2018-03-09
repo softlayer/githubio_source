@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LBaaS_LoadBalancer"
 ---
-# SoftLayer_Network_LBaaS_LoadBalancer::updateLoadBalancer
+# [SoftLayer_Network_LBaaS_LoadBalancer](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer)::updateLoadBalancer
+
+Update a load balancer's description.
+
+
 ## Overview 
 Update load balancer's description, and return the load balancer object containing all listeners, pools, members and datacenter. 
 

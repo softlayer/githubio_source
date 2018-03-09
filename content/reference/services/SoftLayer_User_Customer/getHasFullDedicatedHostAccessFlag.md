@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getHasFullDedicatedHostAccessFlag
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getHasFullDedicatedHostAccessFlag
+
+Retrieve permission granting the user access to all Dedicated Host devices on the account.
+
+
 ## Overview 
 Retrieve permission granting the user access to all Dedicated Host devices on the account.
 

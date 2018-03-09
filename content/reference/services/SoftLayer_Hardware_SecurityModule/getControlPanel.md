@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getControlPanel
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getControlPanel
+
+Retrieve a server's control panel.
+
+
 ## Overview 
 Retrieve a server's control panel.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::getOriginPullMappingInformation
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getOriginPullMappingInformation
+
+Gets Origin Pull domain information
+
+
 ## Overview 
 This method returns a list of origin pull configuration data. 
 

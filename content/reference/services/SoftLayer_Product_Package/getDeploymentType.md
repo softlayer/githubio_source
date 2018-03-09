@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getDeploymentType
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getDeploymentType
+
+Retrieve the solution deployment type.
+
+
 ## Overview 
 Retrieve the solution deployment type.
 

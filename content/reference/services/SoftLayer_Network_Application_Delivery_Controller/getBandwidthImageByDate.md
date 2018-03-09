@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller"
 ---
-# SoftLayer_Network_Application_Delivery_Controller::getBandwidthImageByDate
+# [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getBandwidthImageByDate
+
+Retrieve a visual representation of the amount of network traffic that occurred for the specified time frame for an application delivery controller. 
+
+
 ## Overview 
 Use this method when needing a bandwidth image for a single application delivery controller. It will gather the correct input parameters for the generic graphing utility based on the date ranges 
 

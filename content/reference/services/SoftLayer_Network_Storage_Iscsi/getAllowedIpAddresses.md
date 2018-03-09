@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getAllowedIpAddresses
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getAllowedIpAddresses
+
+Retrieve the SoftLayer_Network_Subnet_IpAddress objects which are allowed access to this storage volume.
+
+
 ## Overview 
 Retrieve the SoftLayer_Network_Subnet_IpAddress objects which are allowed access to this storage volume.
 

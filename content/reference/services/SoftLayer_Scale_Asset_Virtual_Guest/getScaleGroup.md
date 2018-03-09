@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Asset_Virtual_Guest"
 ---
-# SoftLayer_Scale_Asset_Virtual_Guest::getScaleGroup
+# [SoftLayer_Scale_Asset_Virtual_Guest](/reference/services/SoftLayer_Scale_Asset_Virtual_Guest)::getScaleGroup
+
+Retrieve the group this asset belongs to.
+
+
 ## Overview 
 Retrieve the group this asset belongs to.
 

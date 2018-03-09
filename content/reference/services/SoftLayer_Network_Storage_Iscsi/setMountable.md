@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::setMountable
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::setMountable
+
+Enable or disable mounting of a Storage volume.
+
+
 ## Overview 
 Enable or disable the mounting of a Storage volume. When mounting is enabled the Storage volume will be mountable or available for use. 
 

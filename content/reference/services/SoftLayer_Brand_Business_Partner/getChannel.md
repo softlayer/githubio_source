@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand_Business_Partner"
 ---
-# SoftLayer_Brand_Business_Partner::getChannel
+# [SoftLayer_Brand_Business_Partner](/reference/services/SoftLayer_Brand_Business_Partner)::getChannel
+
+Retrieve channel indicator used to categorize business partner revenue.
+
+
 ## Overview 
 Retrieve channel indicator used to categorize business partner revenue.
 

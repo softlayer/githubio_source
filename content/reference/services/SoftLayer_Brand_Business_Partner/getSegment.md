@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand_Business_Partner"
 ---
-# SoftLayer_Brand_Business_Partner::getSegment
+# [SoftLayer_Brand_Business_Partner](/reference/services/SoftLayer_Brand_Business_Partner)::getSegment
+
+Retrieve segment indicator used to categorize business partner revenue.
+
+
 ## Overview 
 Retrieve segment indicator used to categorize business partner revenue.
 

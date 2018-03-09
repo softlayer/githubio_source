@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_SecurityGroup"
 ---
-# SoftLayer_Network_SecurityGroup::createObjects
+# [SoftLayer_Network_SecurityGroup](/reference/services/SoftLayer_Network_SecurityGroup)::createObjects
+
+Create new security groups.
+
+
 ## Overview 
 Create new security groups.
 

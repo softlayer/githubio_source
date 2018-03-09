@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Resource_Metadata"
 ---
-# SoftLayer_Resource_Metadata::getPrimaryBackendIpAddress
+# [SoftLayer_Resource_Metadata](/reference/services/SoftLayer_Resource_Metadata)::getPrimaryBackendIpAddress
+
+The primary backend IP address for the resource
+
+
 ## Overview 
 The getPrimaryBackendIpAddress method retrieves the primary backend IP address for the resource
 

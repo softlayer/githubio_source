@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Host"
 ---
-# SoftLayer_Virtual_Host::getObject
+# [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::getObject
+
+Retrieve a SoftLayer_Virtual_Host record.
+
+
 ## Overview 
 
 

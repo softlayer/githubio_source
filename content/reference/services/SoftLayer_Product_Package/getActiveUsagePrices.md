@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getActiveUsagePrices
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getActiveUsagePrices
+
+Retrieve a collection of [[SoftLayer_Product_Item_Price]] objects for pay-as-you-go usage.
+
+
 ## Overview 
 Retrieve a collection of [[SoftLayer_Product_Item_Price]] objects for pay-as-you-go usage.
 

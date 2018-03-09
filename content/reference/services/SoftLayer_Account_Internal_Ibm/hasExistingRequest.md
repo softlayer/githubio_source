@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Internal_Ibm"
 ---
-# SoftLayer_Account_Internal_Ibm::hasExistingRequest
+# [SoftLayer_Account_Internal_Ibm](/reference/services/SoftLayer_Account_Internal_Ibm)::hasExistingRequest
+
+Checks for an existing request which would block an IBMer application
+
+
 ## Overview 
 Checks for an existing request which would block an IBMer from submitting a new request. Such a request could be denied, approved, or awaiting manager action. 
 

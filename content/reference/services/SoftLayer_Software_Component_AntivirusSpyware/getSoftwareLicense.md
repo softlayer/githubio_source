@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_AntivirusSpyware"
 ---
-# SoftLayer_Software_Component_AntivirusSpyware::getSoftwareLicense
+# [SoftLayer_Software_Component_AntivirusSpyware](/reference/services/SoftLayer_Software_Component_AntivirusSpyware)::getSoftwareLicense
+
+Retrieve the License this Software Component uses.
+
+
 ## Overview 
 Retrieve the License this Software Component uses.
 

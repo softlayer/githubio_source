@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand"
 ---
-# SoftLayer_Brand::getObject
+# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getObject
+
+Retrieve a SoftLayer_Brand record.
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_Occurrence_Event"
 ---
-# SoftLayer_Notification_Occurrence_Event::getObject
+# [SoftLayer_Notification_Occurrence_Event](/reference/services/SoftLayer_Notification_Occurrence_Event)::getObject
+
+Retrieve a SoftLayer_Notification_Occurrence_Event record.
+
+
 ## Overview 
 
 

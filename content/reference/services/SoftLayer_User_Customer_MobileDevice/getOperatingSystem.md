@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_MobileDevice"
 ---
-# SoftLayer_User_Customer_MobileDevice::getOperatingSystem
+# [SoftLayer_User_Customer_MobileDevice](/reference/services/SoftLayer_User_Customer_MobileDevice)::getOperatingSystem
+
+Retrieve the operating system this device is using
+
+
 ## Overview 
 Retrieve the operating system this device is using
 

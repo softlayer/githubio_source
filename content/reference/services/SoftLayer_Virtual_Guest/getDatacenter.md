@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getDatacenter
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getDatacenter
+
+Retrieve the datacenter that a virtual guest resides in.
+
+
 ## Overview 
 Retrieve the datacenter that a virtual guest resides in.
 

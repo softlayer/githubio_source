@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_HostIps"
 ---
-# SoftLayer_Software_Component_HostIps::getHardware
+# [SoftLayer_Software_Component_HostIps](/reference/services/SoftLayer_Software_Component_HostIps)::getHardware
+
+Retrieve the hardware this Software Component is installed upon.
+
+
 ## Overview 
 Retrieve the hardware this Software Component is installed upon.
 

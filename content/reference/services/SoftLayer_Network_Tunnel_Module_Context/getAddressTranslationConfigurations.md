@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::getAddressTranslationConfigurations
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getAddressTranslationConfigurations
+
+Build and returns IPsec VPN  tunnel address translation configurations
+
+
 ## Overview 
 The address translations will be returned.  All the translations will be formatted so that the configurations can be copied into a host file. 
 

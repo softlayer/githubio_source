@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress"
 ---
-# SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress::upgradeConnectionLimit
+# [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress)::upgradeConnectionLimit
+
+Upgrades the connection limit on the Virtual IP Address and changes the billing item on your account to reflect the change.
+
+
 ## Overview 
 Upgrades the connection limit on the Virtual IP to Address to the next, higher connection limit of the same product. 
 

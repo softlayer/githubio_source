@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Group"
 ---
-# SoftLayer_Network_Storage_Group::getAttachedVolumes
+# [SoftLayer_Network_Storage_Group](/reference/services/SoftLayer_Network_Storage_Group)::getAttachedVolumes
+
+Retrieve the network storage volumes this group is attached to.
+
+
 ## Overview 
 Retrieve the network storage volumes this group is attached to.
 

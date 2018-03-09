@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Account_Authentication_Attribute_Type
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute_Type' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Account_Authentication_Attribute_Type' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute_Type' >Datatype</a></li>
     </ul>
 </div>
 
@@ -24,7 +24,7 @@ SoftLayer_Account_Authentication_Attribute_Type models the type of attribute tha
 
 ### seeAlso
 
-* [SoftLayer_Account_Authentication_Attribute](/reference/datatypes/SoftLayer_Account_Authentication_Attribute )
+* [SoftLayer_Account_Authentication_Attribute](/reference/services/SoftLayer_Account_Authentication_Attribute )
 
 
 
@@ -44,29 +44,54 @@ SoftLayer_Account_Authentication_Attribute_Type models the type of attribute tha
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#description" name=description>description</a></span>
+            <span class='views-field-title'>
+                <a href="#description" name=description>description</a>
+            </span>
             <div class='views-field-body'>A brief description of a SoftLayer account authentication attribute type.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>A SoftLayer account authentication attribute type's internal identifier.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#keyName" name=keyName>keyName</a></span>
+            <span class='views-field-title'>
+                <a href="#keyName" name=keyName>keyName</a>
+            </span>
             <div class='views-field-body'>A SoftLayer account authentication attribute type's key name. This is typically a shorter version of an attribute type's name.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>A SoftLayer account authentication attribute type's name.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#valueExample" name=valueExample>valueExample</a></span>
+            <span class='views-field-title'>
+                <a href="#valueExample" name=valueExample>valueExample</a>
+            </span>
             <div class='views-field-body'>An example of what you can put in as your value.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

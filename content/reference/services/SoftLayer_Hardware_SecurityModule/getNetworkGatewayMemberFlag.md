@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getNetworkGatewayMemberFlag
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getNetworkGatewayMemberFlag
+
+Retrieve whether or not this device is part of a network gateway.
+
+
 ## Overview 
 Retrieve whether or not this device is part of a network gateway.
 

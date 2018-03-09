@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getBillingCyclePrivateBandwidthUsage
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBillingCyclePrivateBandwidthUsage
+
+Retrieve the raw private bandwidth usage data for the current billing cycle.
+
+
 ## Overview 
 Retrieve the raw private bandwidth usage data for the current billing cycle.
 

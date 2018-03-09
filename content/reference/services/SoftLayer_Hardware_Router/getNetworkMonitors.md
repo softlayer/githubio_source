@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getNetworkMonitors
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getNetworkMonitors
+
+Retrieve information regarding a piece of hardware's network monitors.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's network monitors.
 

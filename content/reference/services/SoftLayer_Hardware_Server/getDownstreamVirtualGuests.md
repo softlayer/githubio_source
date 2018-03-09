@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getDownstreamVirtualGuests
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getDownstreamVirtualGuests
+
+Retrieve information regarding all virtual guests attached to a piece of network hardware.
+
+
 ## Overview 
 Retrieve information regarding all virtual guests attached to a piece of network hardware.
 

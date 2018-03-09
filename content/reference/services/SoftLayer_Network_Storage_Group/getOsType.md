@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Group"
 ---
-# SoftLayer_Network_Storage_Group::getOsType
+# [SoftLayer_Network_Storage_Group](/reference/services/SoftLayer_Network_Storage_Group)::getOsType
+
+Retrieve the OS Type this group is configured for.
+
+
 ## Overview 
 Retrieve the OS Type this group is configured for.
 

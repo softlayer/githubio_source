@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getLocale
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getLocale
+
+Retrieve a user's locale. Locale holds user's language and region information.
+
+
 ## Overview 
 Retrieve a user's locale. Locale holds user's language and region information.
 

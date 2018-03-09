@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getRecentEvents
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getRecentEvents
+
+Retrieve recent events that impact this hardware.
+
+
 ## Overview 
 Retrieve recent events that impact this hardware.
 

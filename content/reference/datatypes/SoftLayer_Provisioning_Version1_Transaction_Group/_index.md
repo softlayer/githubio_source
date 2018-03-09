@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Provisioning_Version1_Transaction_Group
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_Group' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Provisioning_Version1_Transaction_Group' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_Group' >Datatype</a></li>
     </ul>
 </div>
 
@@ -46,14 +46,24 @@ SoftLayer customers are unable to change their hardware transactions or the hard
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#averageTimeToComplete" name=averageTimeToComplete>averageTimeToComplete</a></span>
+            <span class='views-field-title'>
+                <a href="#averageTimeToComplete" name=averageTimeToComplete>averageTimeToComplete</a>
+            </span>
             <div class='views-field-body'>Average time, in minutes, for this type of transaction to complete. Please note that this is only an estimate.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>decimal</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>decimal</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>A transaction group's name. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

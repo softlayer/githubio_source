@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order"
 ---
-# SoftLayer_Billing_Order::getOrderTotalOneTimeAmount
+# [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getOrderTotalOneTimeAmount
+
+Retrieve an order's total one time amount. This amount represents the initial fees before tax.
+
+
 ## Overview 
 Retrieve an order's total one time amount. This amount represents the initial fees before tax.
 

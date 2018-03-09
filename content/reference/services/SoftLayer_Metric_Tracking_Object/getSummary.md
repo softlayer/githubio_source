@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Metric_Tracking_Object"
 ---
-# SoftLayer_Metric_Tracking_Object::getSummary
+# [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getSummary
+
+Retrieve metric summary.
+
+
 ## Overview 
 Retrieve a metric summary. Ideal if you want to employ your own graphing systems.  Note not all metric types contain a summary.  These return null. 
 

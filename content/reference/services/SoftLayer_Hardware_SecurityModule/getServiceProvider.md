@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getServiceProvider
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getServiceProvider
+
+Retrieve information regarding the piece of hardware's service provider.
+
+
 ## Overview 
 Retrieve information regarding the piece of hardware's service provider.
 

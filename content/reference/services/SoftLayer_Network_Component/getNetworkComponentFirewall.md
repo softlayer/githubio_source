@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getNetworkComponentFirewall
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getNetworkComponentFirewall
+
+Retrieve the upstream network component firewall.
+
+
 ## Overview 
 Retrieve the upstream network component firewall.
 

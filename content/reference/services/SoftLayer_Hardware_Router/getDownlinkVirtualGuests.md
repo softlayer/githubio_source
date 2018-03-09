@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getDownlinkVirtualGuests
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getDownlinkVirtualGuests
+
+Retrieve information regarding all virtual guests attached to a piece of network hardware.
+
+
 ## Overview 
 Retrieve information regarding all virtual guests attached to a piece of network hardware.
 

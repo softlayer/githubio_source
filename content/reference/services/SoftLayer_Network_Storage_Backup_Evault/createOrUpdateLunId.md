@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::createOrUpdateLunId
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::createOrUpdateLunId
+
+Creates or updates the LUN ID property on a volume.
+
+
 ## Overview 
 The LUN ID only takes effect during the Host Authorization process. It is required to de-authorize all hosts before using this method. 
 

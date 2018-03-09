@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getTicketsClosedInTheLastThreeDays
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getTicketsClosedInTheLastThreeDays
+
+Retrieve tickets closed within the last 72 hours or last 10 tickets, whichever is less, associated with an account.
+
+
 ## Overview 
 Retrieve tickets closed within the last 72 hours or last 10 tickets, whichever is less, associated with an account.
 

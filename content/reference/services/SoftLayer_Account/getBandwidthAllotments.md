@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getBandwidthAllotments
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getBandwidthAllotments
+
+Retrieve the bandwidth allotments for an account.
+
+
 ## Overview 
 Retrieve the bandwidth allotments for an account.
 

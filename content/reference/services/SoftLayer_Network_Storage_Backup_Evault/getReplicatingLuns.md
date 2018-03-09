@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getReplicatingLuns
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getReplicatingLuns
+
+Retrieve the iSCSI LUN volumes being replicated by this network storage volume.
+
+
 ## Overview 
 Retrieve the iSCSI LUN volumes being replicated by this network storage volume.
 

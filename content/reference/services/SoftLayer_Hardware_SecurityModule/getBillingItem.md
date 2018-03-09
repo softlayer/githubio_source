@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getBillingItem
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getBillingItem
+
+Retrieve information regarding the billing item for a server.
+
+
 ## Overview 
 Retrieve information regarding the billing item for a server.
 

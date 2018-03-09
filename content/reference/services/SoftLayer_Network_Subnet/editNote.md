@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::editNote
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::editNote
+
+Edit the note for this subnet.
+
+
 ## Overview 
 Edit the note for this subnet.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Monitor"
 ---
-# SoftLayer_Network_Monitor::getIpAddressesByVirtualGuest
+# [SoftLayer_Network_Monitor](/reference/services/SoftLayer_Network_Monitor)::getIpAddressesByVirtualGuest
+
+Returns an ArrayObject of subnet ip address objects for a guest resource.
+
+
 ## Overview 
 This will return an arrayObject of objects containing the ipaddresses.  Using an string parameter you can send a partial ipaddress to search within a given ipaddress.  You can also set the max limit as well using the setting the resultLimit. 
 

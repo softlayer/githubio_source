@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Permission_Group"
 ---
-# SoftLayer_User_Permission_Group::getObject
+# [SoftLayer_User_Permission_Group](/reference/services/SoftLayer_User_Permission_Group)::getObject
+
+Retrieve a SoftLayer_User_Permission_Group record.
+
+
 ## Overview 
 
 

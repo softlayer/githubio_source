@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getActiveQuotes
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getActiveQuotes
+
+Retrieve an account's non-expired quotes.
+
+
 ## Overview 
 Retrieve an account's non-expired quotes.
 

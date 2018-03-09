@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getConsoleIpAddressFlag
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getConsoleIpAddressFlag
+
+Retrieve a flag indicating a computing instance's console IP address is assigned.
+
+
 ## Overview 
 Retrieve a flag indicating a computing instance's console IP address is assigned.
 

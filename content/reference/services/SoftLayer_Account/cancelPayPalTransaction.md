@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::cancelPayPalTransaction
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::cancelPayPalTransaction
+
+Cancel the PayPal Payment Request process.
+
+
 ## Overview 
 Cancel the PayPal Payment Request process. During the process of submitting a PayPal payment request, the customer is redirected to PayPal to confirm the request.  If the customer elects to cancel the payment from PayPal, they are returned to SoftLayer where the manual payment record is updated to a status of canceled. 
 

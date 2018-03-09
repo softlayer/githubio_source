@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Robot"
 ---
-# SoftLayer_Monitoring_Robot::getAccount
+# [SoftLayer_Monitoring_Robot](/reference/services/SoftLayer_Monitoring_Robot)::getAccount
+
+Retrieve the account associated with the corresponding robot.
+
+
 ## Overview 
 Retrieve the account associated with the corresponding robot.
 

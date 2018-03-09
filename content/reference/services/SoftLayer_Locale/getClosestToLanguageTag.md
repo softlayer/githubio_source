@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Locale"
 ---
-# SoftLayer_Locale::getClosestToLanguageTag
+# [SoftLayer_Locale](/reference/services/SoftLayer_Locale)::getClosestToLanguageTag
+
+Get the closest locale for the language tag (ISO 639-1 & 3166-1) format.
+
+
 ## Overview 
 
 

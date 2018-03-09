@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service"
 ---
-# SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service::getGraphImage
+# [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service)::getGraphImage
+
+Get the connection or status graph image for a load balancer service.
+
+
 ## Overview 
 Get the graph image for a load balancer service based on the supplied graph type and metric.  The available graph types are: 'connections' and 'status', and the available metrics are: 'day', 'week' and 'month'. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getGpuFlag
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getGpuFlag
+
+Retrieve this flag indicates that the package supports GPUs.
+
+
 ## Overview 
 Retrieve this flag indicates that the package supports GPUs.
 

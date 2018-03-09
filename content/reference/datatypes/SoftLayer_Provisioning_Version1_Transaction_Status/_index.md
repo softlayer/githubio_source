@@ -46,33 +46,58 @@ SoftLayer customers are unable to change their hardware transaction status.
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#averageDuration" name=averageDuration>averageDuration</a></span>
+            <span class='views-field-title'>
+                <a href="#averageDuration" name=averageDuration>averageDuration</a>
+            </span>
             <div class='views-field-body'>Hardware transaction status average duration. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>decimal</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>decimal</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#friendlyName" name=friendlyName>friendlyName</a></span>
+            <span class='views-field-title'>
+                <a href="#friendlyName" name=friendlyName>friendlyName</a>
+            </span>
             <div class='views-field-body'>Transaction status friendly name. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>Transaction status name. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#nonCompletedTransactions" name=nonCompletedTransactions>nonCompletedTransactions</a></span>
+            <span class='views-field-title'>
+                <a href="#nonCompletedTransactions" name=nonCompletedTransactions>nonCompletedTransactions</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#nonCompletedTransactionCount" name=nonCompletedTransactionCount>nonCompletedTransactionCount</a></span>
+            <span class='views-field-title'>
+                <a href="#nonCompletedTransactionCount" name=nonCompletedTransactionCount>nonCompletedTransactionCount</a>
+            </span>
             <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
         </div>
             </div>
 </div>

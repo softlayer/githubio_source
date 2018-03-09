@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host"
 ---
-# SoftLayer_Network_Storage_Allowed_Host::createFromVirtualGuest
+# [SoftLayer_Network_Storage_Allowed_Host](/reference/services/SoftLayer_Network_Storage_Allowed_Host)::createFromVirtualGuest
+
+Creates and returns a new SoftLayer_Network_Storage_Allowed_Host.
+
+
 ## Overview 
 This method is used to create a new SoftLayer_Network_Storage_Allowed_Host using an existing SoftLayer_Virtual_Guest object's id. 
 

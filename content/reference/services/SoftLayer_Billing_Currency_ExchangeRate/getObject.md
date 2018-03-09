@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Currency_ExchangeRate"
 ---
-# SoftLayer_Billing_Currency_ExchangeRate::getObject
+# [SoftLayer_Billing_Currency_ExchangeRate](/reference/services/SoftLayer_Billing_Currency_ExchangeRate)::getObject
+
+Retrieve a SoftLayer_Billing_Currency_ExchangeRate record.
+
+
 ## Overview 
 
 

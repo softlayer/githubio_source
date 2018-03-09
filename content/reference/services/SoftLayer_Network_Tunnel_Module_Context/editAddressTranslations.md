@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::editAddressTranslations
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::editAddressTranslations
+
+Edit address translations for a network tunnel
+
+
 ## Overview 
 Edit name, source (SoftLayer IP) ip address and/or destination (Customer IP) ip address for existing address translations for a network tunnel. 
 

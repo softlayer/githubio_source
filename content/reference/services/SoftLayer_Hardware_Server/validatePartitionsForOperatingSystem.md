@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::validatePartitionsForOperatingSystem
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::validatePartitionsForOperatingSystem
+
+Validates a collection of partitions for an operating system
+
+
 ## Overview 
 Validates a collection of partitions for an operating system
 

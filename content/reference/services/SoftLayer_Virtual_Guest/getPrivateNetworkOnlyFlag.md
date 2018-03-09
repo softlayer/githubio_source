@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getPrivateNetworkOnlyFlag
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getPrivateNetworkOnlyFlag
+
+Retrieve whether the computing instance only has access to the private network.
+
+
 ## Overview 
 Retrieve whether the computing instance only has access to the private network.
 

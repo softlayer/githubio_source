@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket_Survey"
 ---
-# SoftLayer_Ticket_Survey::optOut
+# [SoftLayer_Ticket_Survey](/reference/services/SoftLayer_Ticket_Survey)::optOut
+
+*DEPRICATED* Opt out of the customer satisfaction survey for the next 90 days
+
+
 ## Overview 
 By default, customers will occasionally receive a ticket survey upon closing of a ticket. Use this method to opt out of it for the next 90 days. Ticket surveys may not be applicable for some customers. Use the [[SoftLayer_Ticket_Survey::getPreference|getPreference]] method to retrieve your survey preference. The "applicable" property of the [[SoftLayer_Container_Ticket_Survey_Preference|survey preference]] indicates if the survey is relevant to your account or not. 
 

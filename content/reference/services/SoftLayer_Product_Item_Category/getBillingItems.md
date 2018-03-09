@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Category"
 ---
-# SoftLayer_Product_Item_Category::getBillingItems
+# [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category)::getBillingItems
+
+Retrieve the billing items associated with an account that share a category code with an item category's category code.
+
+
 ## Overview 
 Retrieve the billing items associated with an account that share a category code with an item category's category code.
 

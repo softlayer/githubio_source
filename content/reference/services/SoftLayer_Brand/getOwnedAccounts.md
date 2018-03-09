@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand"
 ---
-# SoftLayer_Brand::getOwnedAccounts
+# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getOwnedAccounts
+
+Retrieve active accounts owned by the brand.
+
+
 ## Overview 
 Retrieve active accounts owned by the brand.
 

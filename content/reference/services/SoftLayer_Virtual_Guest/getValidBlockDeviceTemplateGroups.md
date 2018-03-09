@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getValidBlockDeviceTemplateGroups
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getValidBlockDeviceTemplateGroups
+
+Return a list of valid block device template groups based on this host
+
+
 ## Overview 
 This method will return the list of block device template groups that are valid to the host. For instance, it will validate that the template groups returned are compatible with the size and number of disks on the host. 
 

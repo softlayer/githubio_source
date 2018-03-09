@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_Invitation"
 ---
-# SoftLayer_User_Customer_Invitation::getUser
+# [SoftLayer_User_Customer_Invitation](/reference/services/SoftLayer_User_Customer_Invitation)::getUser
+
+
+
+
 ## Overview 
 
 

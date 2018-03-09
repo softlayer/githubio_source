@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getChildrenHardware
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getChildrenHardware
+
+Retrieve child hardware.
+
+
 ## Overview 
 Retrieve child hardware.
 

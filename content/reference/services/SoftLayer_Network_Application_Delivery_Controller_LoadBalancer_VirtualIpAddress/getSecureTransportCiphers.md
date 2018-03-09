@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress"
 ---
-# SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress::getSecureTransportCiphers
+# [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress)::getSecureTransportCiphers
+
+Retrieve the list of security ciphers enabled for this virtual IP address
+
+
 ## Overview 
 Retrieve the list of security ciphers enabled for this virtual IP address
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Pod"
 ---
-# SoftLayer_Network_Pod::listCapabilities
+# [SoftLayer_Network_Pod](/reference/services/SoftLayer_Network_Pod)::listCapabilities
+
+Retrieve a list of all possible capabilities Pods may fulfill.
+
+
 ## Overview 
 A capability is simply a string literal that denotes the availability of a feature. Capabilities are generally self describing, but any additional details concerning the implications of a capability will be documented elsewhere; usually by the Service or Operation related to it. 
 

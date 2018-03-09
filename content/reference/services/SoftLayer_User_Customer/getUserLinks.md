@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getUserLinks
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getUserLinks
+
+
+
+
 ## Overview 
 
 

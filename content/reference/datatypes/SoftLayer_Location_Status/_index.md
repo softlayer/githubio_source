@@ -35,7 +35,7 @@ Locations in use should stay in the ACTIVE state. If a locations status ever rea
 
 ### seeAlso
 
-* [SoftLayer_Location](/reference/datatypes/SoftLayer_Location )
+* [SoftLayer_Location](/reference/services/SoftLayer_Location )
 
 
 
@@ -55,14 +55,24 @@ Locations in use should stay in the ACTIVE state. If a locations status ever rea
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>A locations status's internal identifier. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#status" name=status>status</a></span>
+            <span class='views-field-title'>
+                <a href="#status" name=status>status</a>
+            </span>
             <div class='views-field-body'>A Location's status code. See the SoftLayer_Locaiton_Status Overview for ''status''' possible values. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getDriveControllers
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getDriveControllers
+
+Retrieve the drive controllers contained within a piece of hardware.
+
+
 ## Overview 
 Retrieve the drive controllers contained within a piece of hardware.
 

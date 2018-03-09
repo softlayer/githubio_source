@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::removeServiceSubnetFromNetworkTunnel
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::removeServiceSubnetFromNetworkTunnel
+
+Disassociate service subnet from a network tunnel
+
+
 ## Overview 
 Disassociate a service subnet from a network tunnel.  When a service subnet is disassociated, that customer (remote) subnet on the other end of the network tunnel will not able to communicate with that service subnet on the SoftLayer network. 
 

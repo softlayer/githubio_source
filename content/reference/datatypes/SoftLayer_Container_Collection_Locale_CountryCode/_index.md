@@ -39,19 +39,34 @@ This container is used to hold country locale information.
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#longName" name=longName>longName</a></span>
+            <span class='views-field-title'>
+                <a href="#longName" name=longName>longName</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#shortName" name=shortName>shortName</a></span>
+            <span class='views-field-title'>
+                <a href="#shortName" name=shortName>shortName</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#stateCodes" name=stateCodes>stateCodes</a></span>
+            <span class='views-field-title'>
+                <a href="#stateCodes" name=stateCodes>stateCodes</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Collection_Locale_StateCode'>SoftLayer_Container_Collection_Locale_StateCode[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Collection_Locale_StateCode'>SoftLayer_Container_Collection_Locale_StateCode[] </a></p>
+            </div>
         </div>
             </div>
     </div>

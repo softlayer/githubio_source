@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::getAvailableConfigurationTemplates
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::getAvailableConfigurationTemplates
+
+Returns available configuration templates for this monitoring agent.
+
+
 ## Overview 
 This method returns an array of available SoftLayer_Configuration_Template objects for this monitoring agent. 
 

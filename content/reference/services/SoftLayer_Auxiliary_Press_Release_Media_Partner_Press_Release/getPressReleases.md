@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Auxiliary_Press_Release_Media_Partner_Press_Release"
 ---
-# SoftLayer_Auxiliary_Press_Release_Media_Partner_Press_Release::getPressReleases
+# [SoftLayer_Auxiliary_Press_Release_Media_Partner_Press_Release](/reference/services/SoftLayer_Auxiliary_Press_Release_Media_Partner_Press_Release)::getPressReleases
+
+
+
+
 ## Overview 
 
 

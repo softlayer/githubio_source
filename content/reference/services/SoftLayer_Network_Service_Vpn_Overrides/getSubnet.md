@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Service_Vpn_Overrides"
 ---
-# SoftLayer_Network_Service_Vpn_Overrides::getSubnet
+# [SoftLayer_Network_Service_Vpn_Overrides](/reference/services/SoftLayer_Network_Service_Vpn_Overrides)::getSubnet
+
+Retrieve subnet components accessible by a SoftLayer VPN portal user.
+
+
 ## Overview 
 Retrieve subnet components accessible by a SoftLayer VPN portal user.
 

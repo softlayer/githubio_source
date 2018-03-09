@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Media_Transcode_Account"
 ---
-# SoftLayer_Network_Media_Transcode_Account::createTranscodeAccount
+# [SoftLayer_Network_Media_Transcode_Account](/reference/services/SoftLayer_Network_Media_Transcode_Account)::createTranscodeAccount
+
+Creates a new transcode account
+
+
 ## Overview 
 With this method, you can create a transcode account.  Individual SoftLayer account can have a single Transcode account. You have to pass your SoftLayer account id as a parameter. 
 

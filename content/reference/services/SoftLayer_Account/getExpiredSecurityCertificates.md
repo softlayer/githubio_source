@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getExpiredSecurityCertificates
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getExpiredSecurityCertificates
+
+Retrieve stored security certificates that are expired (ie. SSL)
+
+
 ## Overview 
 Retrieve stored security certificates that are expired (ie. SSL)
 

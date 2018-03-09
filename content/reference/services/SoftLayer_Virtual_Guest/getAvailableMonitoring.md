@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getAvailableMonitoring
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getAvailableMonitoring
+
+Retrieve an object that stores the maximum level for the monitoring query types and response types.
+
+
 ## Overview 
 Retrieve an object that stores the maximum level for the monitoring query types and response types.
 

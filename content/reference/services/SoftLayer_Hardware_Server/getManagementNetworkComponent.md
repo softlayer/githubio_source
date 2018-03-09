@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getManagementNetworkComponent
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getManagementNetworkComponent
+
+Retrieve a server's management network component.
+
+
 ## Overview 
 Retrieve the remote management network component attached with this server. 
 

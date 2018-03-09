@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getUsers
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getUsers
+
+Retrieve a list of users that have access to this computing instance.
+
+
 ## Overview 
 Retrieve a list of users that have access to this computing instance.
 

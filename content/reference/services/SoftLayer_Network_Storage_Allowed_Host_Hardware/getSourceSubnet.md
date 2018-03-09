@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host_Hardware"
 ---
-# SoftLayer_Network_Storage_Allowed_Host_Hardware::getSourceSubnet
+# [SoftLayer_Network_Storage_Allowed_Host_Hardware](/reference/services/SoftLayer_Network_Storage_Allowed_Host_Hardware)::getSourceSubnet
+
+Retrieve connections to a target with a source IP in this subnet prefix are allowed.
+
+
 ## Overview 
 Retrieve connections to a target with a source IP in this subnet prefix are allowed.
 

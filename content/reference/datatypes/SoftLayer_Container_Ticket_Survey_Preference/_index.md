@@ -39,19 +39,34 @@ classes:
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#applicable" name=applicable>applicable</a></span>
+            <span class='views-field-title'>
+                <a href="#applicable" name=applicable>applicable</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#optedOut" name=optedOut>optedOut</a></span>
+            <span class='views-field-title'>
+                <a href="#optedOut" name=optedOut>optedOut</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#optedOutDate" name=optedOutDate>optedOutDate</a></span>
+            <span class='views-field-title'>
+                <a href="#optedOutDate" name=optedOutDate>optedOutDate</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
             </div>
     </div>

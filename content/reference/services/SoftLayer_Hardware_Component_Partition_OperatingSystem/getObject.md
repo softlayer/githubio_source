@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Component_Partition_OperatingSystem"
 ---
-# SoftLayer_Hardware_Component_Partition_OperatingSystem::getObject
+# [SoftLayer_Hardware_Component_Partition_OperatingSystem](/reference/services/SoftLayer_Hardware_Component_Partition_OperatingSystem)::getObject
+
+Retrieve a SoftLayer_Hardware_Component_Partition_OperatingSystem record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Hardware_Component_Partition_OperatingSystem object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Hardware_Component_Partition_OperatingSystem service.s 
 

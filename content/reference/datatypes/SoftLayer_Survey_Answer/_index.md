@@ -39,34 +39,59 @@ The SoftLayer_Survey_Answer data type contains general information relating to a
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#answer" name=answer>answer</a></span>
+            <span class='views-field-title'>
+                <a href="#answer" name=answer>answer</a>
+            </span>
             <div class='views-field-body'>A survey answer's answer that a user can response too. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#answerOrder" name=answerOrder>answerOrder</a></span>
+            <span class='views-field-title'>
+                <a href="#answerOrder" name=answerOrder>answerOrder</a>
+            </span>
             <div class='views-field-body'>A value indicating the order in when a survey answer will be displayed to a user. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>A survey answer's Id. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#surveyQuestionId" name=surveyQuestionId>surveyQuestionId</a></span>
+            <span class='views-field-title'>
+                <a href="#surveyQuestionId" name=surveyQuestionId>surveyQuestionId</a>
+            </span>
             <div class='views-field-body'>A survey answer's associated [[SoftLayer_Survey_Question|Survey Question]] Id. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#surveyQuestion" name=surveyQuestion>surveyQuestion</a></span>
+            <span class='views-field-title'>
+                <a href="#surveyQuestion" name=surveyQuestion>surveyQuestion</a>
+            </span>
             <div class='views-field-body'>The survey question that this answer belongs to. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Survey_Question'>SoftLayer_Survey_Question </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Survey_Question'>SoftLayer_Survey_Question </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

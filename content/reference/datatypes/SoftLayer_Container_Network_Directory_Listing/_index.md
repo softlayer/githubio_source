@@ -44,19 +44,34 @@ SoftLayer_Container_Network_Directory_Listing represents a single entry in a lis
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#fileCount" name=fileCount>fileCount</a></span>
+            <span class='views-field-title'>
+                <a href="#fileCount" name=fileCount>fileCount</a>
+            </span>
             <div class='views-field-body'>If the file in a directory listing is a directory itself then fileCount is the number of files within the directory.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>The name of a directory or a file within a directory listing. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#type" name=type>type</a></span>
+            <span class='views-field-title'>
+                <a href="#type" name=type>type</a>
+            </span>
             <div class='views-field-body'>The type of file in a directory listing. If a directory listing entry is a directory itself then type is set to "directory". Otherwise, type is a blank string.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

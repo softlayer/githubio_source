@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Description"
 ---
-# SoftLayer_Software_Description::getUpgradeSwDesc
+# [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description)::getUpgradeSwDesc
+
+Retrieve a suggestion for an upgrade path from this Software Description (Deprecated - Use upgradeSoftwareDescription)
+
+
 ## Overview 
 Retrieve a suggestion for an upgrade path from this Software Description (Deprecated - Use upgradeSoftwareDescription)
 

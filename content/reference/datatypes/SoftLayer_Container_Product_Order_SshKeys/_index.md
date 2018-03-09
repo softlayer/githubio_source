@@ -39,9 +39,14 @@ This object holds all of the ssh key ids that will allow authentication to a sin
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#sshKeyIds" name=sshKeyIds>sshKeyIds</a></span>
+            <span class='views-field-title'>
+                <a href="#sshKeyIds" name=sshKeyIds>sshKeyIds</a>
+            </span>
             <div class='views-field-body'>An array of SoftLayer_Security_Ssh_Key IDs to assign to a server. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>array of integers</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>array of integers</p>
+            </div>
         </div>
             </div>
     </div>

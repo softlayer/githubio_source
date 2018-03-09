@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getParentBay
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getParentBay
+
+Retrieve blade Bay
+
+
 ## Overview 
 Retrieve blade Bay
 

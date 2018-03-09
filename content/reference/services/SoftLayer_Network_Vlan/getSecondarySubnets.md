@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getSecondarySubnets
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getSecondarySubnets
+
+Retrieve the subnets that exist as secondary interfaces on a VLAN
+
+
 ## Overview 
 Retrieve the subnets that exist as secondary interfaces on a VLAN
 

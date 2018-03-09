@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::getDiskSpaceUsageDataByDate
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getDiskSpaceUsageDataByDate
+
+Returns a CDN FTP disk space usage
+
+
 ## Overview 
 This method returns disk space usage data for your CDN FTP. 
 

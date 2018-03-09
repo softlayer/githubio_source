@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_LoadBalancer"
 ---
-# SoftLayer_Scale_LoadBalancer::getVirtualServer
+# [SoftLayer_Scale_LoadBalancer](/reference/services/SoftLayer_Scale_LoadBalancer)::getVirtualServer
+
+Retrieve the virtual server for this configuration.
+
+
 ## Overview 
 Retrieve the virtual server for this configuration.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getProperties
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getProperties
+
+Retrieve the properties used to provide additional details about a network storage volume.
+
+
 ## Overview 
 Retrieve the properties used to provide additional details about a network storage volume.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_External_Setup"
 ---
-# SoftLayer_Account_External_Setup::getObject
+# [SoftLayer_Account_External_Setup](/reference/services/SoftLayer_Account_External_Setup)::getObject
+
+Retrieve a SoftLayer_Account_External_Setup record.
+
+
 ## Overview 
 
 

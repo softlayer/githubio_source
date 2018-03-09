@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getActiveNetworkFirewallBillingItem
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getActiveNetworkFirewallBillingItem
+
+Retrieve the billing item for a server's attached network firewall.
+
+
 ## Overview 
 Retrieve the billing item for a server's attached network firewall.
 

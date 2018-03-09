@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getFileList
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getFileList
+
+Retrieve list of files in a given folder for this account.
+
+
 ## Overview 
 
 

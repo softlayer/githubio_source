@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getBenchmarkCertifications
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getBenchmarkCertifications
+
+Retrieve information regarding a piece of hardware's benchmark certifications.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's benchmark certifications.
 

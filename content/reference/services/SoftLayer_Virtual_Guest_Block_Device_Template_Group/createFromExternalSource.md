@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Block_Device_Template_Group"
 ---
-# SoftLayer_Virtual_Guest_Block_Device_Template_Group::createFromExternalSource
+# [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::createFromExternalSource
+
+This method generates a transaction to import a disk image from an external source and create a standard image template. 
+
+
 ## Overview 
 Create a transaction to import a disk image from an external source and create a standard image template.
 

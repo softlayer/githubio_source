@@ -44,34 +44,64 @@ SoftLayer_Container_Network_ContentDelivery_Bandwidth_PointsOfPresence_Summary m
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#bandwidth" name=bandwidth>bandwidth</a></span>
+            <span class='views-field-title'>
+                <a href="#bandwidth" name=bandwidth>bandwidth</a>
+            </span>
             <div class='views-field-body'>The amount of bandwidth used by a CDN POP. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsigned long</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsigned long</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#endDateTime" name=endDateTime>endDateTime</a></span>
+            <span class='views-field-title'>
+                <a href="#endDateTime" name=endDateTime>endDateTime</a>
+            </span>
             <div class='views-field-body'>The ending date of a CDN POP bandwidth summary. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#popName" name=popName>popName</a></span>
+            <span class='views-field-title'>
+                <a href="#popName" name=popName>popName</a>
+            </span>
             <div class='views-field-body'>A CDN POP's name. This is typically the city the POP resides in. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#startDateTime" name=startDateTime>startDateTime</a></span>
+            <span class='views-field-title'>
+                <a href="#startDateTime" name=startDateTime>startDateTime</a>
+            </span>
             <div class='views-field-body'>The starting date of a CDN POP bandwidth summary. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#usageUnits" name=usageUnits>usageUnits</a></span>
+            <span class='views-field-title'>
+                <a href="#usageUnits" name=usageUnits>usageUnits</a>
+            </span>
             <div class='views-field-body'>The unit of measurement used in a CDN POP bandwidth summary. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#viewCount" name=viewCount>viewCount</a></span>
+            <span class='views-field-title'>
+                <a href="#viewCount" name=viewCount>viewCount</a>
+            </span>
             <div class='views-field-body'>The view count </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsigned long</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsigned long</p>
+            </div>
         </div>
             </div>
     </div>

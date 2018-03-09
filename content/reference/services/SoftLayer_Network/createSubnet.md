@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network"
 ---
-# SoftLayer_Network::createSubnet
+# [SoftLayer_Network](/reference/services/SoftLayer_Network)::createSubnet
+
+Add a Subnet to the Network.
+
+
 ## Overview 
 Creation of a Subnet is necessary prior to provisioning compute resources into a Network. In order to create a Subnet, both a [[SoftLayer_Network_Subnet|Subnet]] and [[SoftLayer_Network_Pod|Pod]] must be specified. The Pod determines where the Subnet will be available for use by compute resources. 
 

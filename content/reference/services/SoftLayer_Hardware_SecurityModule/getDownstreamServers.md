@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getDownstreamServers
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getDownstreamServers
+
+Retrieve information regarding all servers attached downstream to a piece of network hardware.
+
+
 ## Overview 
 Retrieve information regarding all servers attached downstream to a piece of network hardware.
 

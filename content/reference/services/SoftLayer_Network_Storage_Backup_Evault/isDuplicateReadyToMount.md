@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::isDuplicateReadyToMount
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::isDuplicateReadyToMount
+
+Displays the status of a clone mount.
+
+
 ## Overview 
 This method returns a boolean indicating whether the clone volume is ready to mount. 
 

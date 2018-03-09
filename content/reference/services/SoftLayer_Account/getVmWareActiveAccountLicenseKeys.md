@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getVmWareActiveAccountLicenseKeys
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVmWareActiveAccountLicenseKeys
+
+Get a collection of active VMware software account license keys.
+
+
 ## Overview 
 This returns a collection of active VMware software account license keys.
 

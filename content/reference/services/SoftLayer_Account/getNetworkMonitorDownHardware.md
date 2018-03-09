@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getNetworkMonitorDownHardware
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNetworkMonitorDownHardware
+
+Retrieve hardware which is currently experiencing a service failure.
+
+
 ## Overview 
 Retrieve hardware which is currently experiencing a service failure.
 

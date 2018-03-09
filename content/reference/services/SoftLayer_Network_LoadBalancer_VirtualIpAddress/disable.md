@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LoadBalancer_VirtualIpAddress"
 ---
-# SoftLayer_Network_LoadBalancer_VirtualIpAddress::disable
+# [SoftLayer_Network_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress)::disable
+
+Disable a Virtual IP Address
+
+
 ## Overview 
 Disable a Virtual IP Address, removing it from load balancer rotation and denying all connections to that IP address. 
 

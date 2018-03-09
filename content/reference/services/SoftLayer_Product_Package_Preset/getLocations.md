@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package_Preset"
 ---
-# SoftLayer_Product_Package_Preset::getLocations
+# [SoftLayer_Product_Package_Preset](/reference/services/SoftLayer_Product_Package_Preset)::getLocations
+
+Retrieve the locations this preset configuration is available in. If empty the preset is available in all locations the package is available in.
+
+
 ## Overview 
 Retrieve the locations this preset configuration is available in. If empty the preset is available in all locations the package is available in.
 

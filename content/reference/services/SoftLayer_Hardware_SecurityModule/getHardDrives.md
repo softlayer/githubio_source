@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getHardDrives
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getHardDrives
+
+Retrieve the hard drives contained within a piece of hardware.
+
+
 ## Overview 
 Retrieve the hard drives contained within a piece of hardware.
 

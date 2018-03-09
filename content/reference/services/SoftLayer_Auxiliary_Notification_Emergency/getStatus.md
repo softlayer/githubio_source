@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Auxiliary_Notification_Emergency"
 ---
-# SoftLayer_Auxiliary_Notification_Emergency::getStatus
+# [SoftLayer_Auxiliary_Notification_Emergency](/reference/services/SoftLayer_Auxiliary_Notification_Emergency)::getStatus
+
+Retrieve the status of this notification.
+
+
 ## Overview 
 Retrieve the status of this notification.
 

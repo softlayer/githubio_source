@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Host"
 ---
-# SoftLayer_Virtual_Host::pauseLiveGuest
+# [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::pauseLiveGuest
+
+Pause a guest.
+
+
 ## Overview 
 Pause a virtual guest 
 

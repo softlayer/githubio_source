@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Component_Model"
 ---
-# SoftLayer_Hardware_Component_Model::getAttributes
+# [SoftLayer_Hardware_Component_Model](/reference/services/SoftLayer_Hardware_Component_Model)::getAttributes
+
+
+
+
 ## Overview 
 
 

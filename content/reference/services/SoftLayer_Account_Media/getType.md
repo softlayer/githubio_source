@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Media"
 ---
-# SoftLayer_Account_Media::getType
+# [SoftLayer_Account_Media](/reference/services/SoftLayer_Account_Media)::getType
+
+Retrieve the media's type.
+
+
 ## Overview 
 Retrieve the media's type.
 

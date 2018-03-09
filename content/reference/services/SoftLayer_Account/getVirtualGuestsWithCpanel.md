@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getVirtualGuestsWithCpanel
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualGuestsWithCpanel
+
+Retrieve all virtual guests associated with an account that has the cPanel web hosting control panel installed.
+
+
 ## Overview 
 Retrieve all virtual guests associated with an account that has the cPanel web hosting control panel installed.
 

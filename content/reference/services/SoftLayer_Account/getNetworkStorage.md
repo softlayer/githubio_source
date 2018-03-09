@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getNetworkStorage
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNetworkStorage
+
+Retrieve an account's associated storage volumes. This includes Lockbox, NAS, EVault, and iSCSI volumes.
+
+
 ## Overview 
 Retrieve an account's associated storage volumes. This includes Lockbox, NAS, EVault, and iSCSI volumes.
 

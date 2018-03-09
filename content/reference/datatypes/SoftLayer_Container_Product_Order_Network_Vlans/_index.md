@@ -39,14 +39,24 @@ This class contains the collections of public and private VLANs that are availab
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#privateVlans" name=privateVlans>privateVlans</a></span>
+            <span class='views-field-title'>
+                <a href="#privateVlans" name=privateVlans>privateVlans</a>
+            </span>
             <div class='views-field-body'>The collection of private vlans available during ordering. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#publicVlans" name=publicVlans>publicVlans</a></span>
+            <span class='views-field-title'>
+                <a href="#publicVlans" name=publicVlans>publicVlans</a>
+            </span>
             <div class='views-field-body'>The collection of public vlans available during ordering. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a></p>
+            </div>
         </div>
             </div>
     </div>

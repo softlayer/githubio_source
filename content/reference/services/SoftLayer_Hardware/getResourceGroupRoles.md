@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getResourceGroupRoles
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getResourceGroupRoles
+
+
+
+
 ## Overview 
 
 

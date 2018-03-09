@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getPriorityOneTickets
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPriorityOneTickets
+
+Retrieve all priority one tickets associated with an account.
+
+
 ## Overview 
 Retrieve all priority one tickets associated with an account.
 

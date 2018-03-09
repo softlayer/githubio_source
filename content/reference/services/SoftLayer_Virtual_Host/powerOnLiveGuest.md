@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Host"
 ---
-# SoftLayer_Virtual_Host::powerOnLiveGuest
+# [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::powerOnLiveGuest
+
+Power on a guest.
+
+
 ## Overview 
 Power on a virtual guest 
 

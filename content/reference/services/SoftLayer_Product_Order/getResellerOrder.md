@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Order"
 ---
-# SoftLayer_Product_Order::getResellerOrder
+# [SoftLayer_Product_Order](/reference/services/SoftLayer_Product_Order)::getResellerOrder
+
+Get External Reseller pricing where applicable
+
+
 ## Overview 
 When the account is on an external reseller brand, this service will provide a SoftLayer_Product_Order with the the pricing adjusted by the external reseller. 
 

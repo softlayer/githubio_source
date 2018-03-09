@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Group_Iscsi"
 ---
-# SoftLayer_Network_Storage_Group_Iscsi::getGroupType
+# [SoftLayer_Network_Storage_Group_Iscsi](/reference/services/SoftLayer_Network_Storage_Group_Iscsi)::getGroupType
+
+Retrieve the type which defines this group.
+
+
 ## Overview 
 Retrieve the type which defines this group.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Internal_Ibm"
 ---
-# SoftLayer_Account_Internal_Ibm::getManagerPreview
+# [SoftLayer_Account_Internal_Ibm](/reference/services/SoftLayer_Account_Internal_Ibm)::getManagerPreview
+
+Gets a container representing the pending request
+
+
 ## Overview 
 After validating the requesting user through the access token, generates a container with the relevant request information and returns it. 
 

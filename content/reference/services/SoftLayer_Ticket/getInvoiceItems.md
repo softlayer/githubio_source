@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getInvoiceItems
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getInvoiceItems
+
+Retrieve the invoice items associated with a ticket. Ticket based invoice items only exist when a ticket incurs a fee that has been invoiced.
+
+
 ## Overview 
 Retrieve the invoice items associated with a ticket. Ticket based invoice items only exist when a ticket incurs a fee that has been invoiced.
 

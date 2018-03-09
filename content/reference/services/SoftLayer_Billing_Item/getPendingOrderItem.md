@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getPendingOrderItem
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getPendingOrderItem
+
+Retrieve the new order item that will replace this billing item.
+
+
 ## Overview 
 Retrieve the new order item that will replace this billing item.
 

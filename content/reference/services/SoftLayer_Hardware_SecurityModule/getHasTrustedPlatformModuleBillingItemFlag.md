@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getHasTrustedPlatformModuleBillingItemFlag
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getHasTrustedPlatformModuleBillingItemFlag
+
+Retrieve determine in hardware object has TPM enabled.
+
+
 ## Overview 
 Retrieve determine in hardware object has TPM enabled.
 

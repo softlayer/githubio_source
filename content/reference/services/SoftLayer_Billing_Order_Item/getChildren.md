@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Item"
 ---
-# SoftLayer_Billing_Order_Item::getChildren
+# [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getChildren
+
+Retrieve the child order items for an order item. All server order items should have children. These children are considered a part of the server.
+
+
 ## Overview 
 Retrieve the child order items for an order item. All server order items should have children. These children are considered a part of the server.
 

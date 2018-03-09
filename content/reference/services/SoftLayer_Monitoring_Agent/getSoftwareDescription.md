@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::getSoftwareDescription
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::getSoftwareDescription
+
+Retrieve a description for a specific installation of a Software Component
+
+
 ## Overview 
 Retrieve a description for a specific installation of a Software Component
 

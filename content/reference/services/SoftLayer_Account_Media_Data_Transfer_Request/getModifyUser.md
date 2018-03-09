@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Media_Data_Transfer_Request"
 ---
-# SoftLayer_Account_Media_Data_Transfer_Request::getModifyUser
+# [SoftLayer_Account_Media_Data_Transfer_Request](/reference/services/SoftLayer_Account_Media_Data_Transfer_Request)::getModifyUser
+
+Retrieve the customer user who last modified the request.
+
+
 ## Overview 
 Retrieve the customer user who last modified the request.
 

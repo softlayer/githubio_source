@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Totp"
 ---
-# SoftLayer_User_Customer_External_Binding_Totp::generateSecretKey
+# [SoftLayer_User_Customer_External_Binding_Totp](/reference/services/SoftLayer_User_Customer_External_Binding_Totp)::generateSecretKey
+
+
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::createOriginPullMapping
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::createOriginPullMapping
+
+Sets up an Origin Pull domain rule
+
+
 ## Overview 
 With Origin Pull, content is pulled from your origin server as needed and then delivered to visitors. You do not need to upload your files to the CDN FTP: you can utilize the files that currently exist on your origin server. It will take 10 to 15 minutes for this to take effect after you create an Origin Pull rule. Origin Pull is only supported for HTTP protocol and you would continue to use the CDN FTP for Flash and Windows Media streaming services. 
 

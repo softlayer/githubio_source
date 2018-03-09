@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Hub_Swift_Share"
 ---
-# SoftLayer_Network_Storage_Hub_Swift_Share::getContainerList
+# [SoftLayer_Network_Storage_Hub_Swift_Share](/reference/services/SoftLayer_Network_Storage_Hub_Swift_Share)::getContainerList
+
+Get a list of the file containers for a brand.
+
+
 ## Overview 
 This method returns a collection of container objects. 
 

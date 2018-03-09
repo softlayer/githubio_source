@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getMemoryCapacity
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getMemoryCapacity
+
+Retrieve the amount of memory a piece of hardware has, measured in gigabytes.
+
+
 ## Overview 
 Retrieve the amount of memory a piece of hardware has, measured in gigabytes.
 

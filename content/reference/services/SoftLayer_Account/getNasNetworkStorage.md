@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getNasNetworkStorage
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNasNetworkStorage
+
+Retrieve an account's associated NAS storage volumes.
+
+
 ## Overview 
 Retrieve an account's associated NAS storage volumes.
 

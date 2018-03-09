@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getBandwidthAllotmentsProjectedOverAllocation
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getBandwidthAllotmentsProjectedOverAllocation
+
+Retrieve the bandwidth allotments for an account projected to go over allocation.
+
+
 ## Overview 
 Retrieve the bandwidth allotments for an account projected to go over allocation.
 

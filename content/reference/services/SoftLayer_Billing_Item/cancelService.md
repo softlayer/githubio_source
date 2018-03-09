@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::cancelService
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::cancelService
+
+Cancel a service or resource immediately. This does not include bare metal servers. 
+
+
 ## Overview 
 Cancel the resource or service (excluding bare metal servers) for a billing Item. The billing item will be cancelled immediately and reclaim of the resource will begin shortly. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_LoadBalancer"
 ---
-# SoftLayer_Scale_LoadBalancer::getVirtualIpAddressId
+# [SoftLayer_Scale_LoadBalancer](/reference/services/SoftLayer_Scale_LoadBalancer)::getVirtualIpAddressId
+
+Retrieve the ID of the virtual IP address.
+
+
 ## Overview 
 Retrieve the ID of the virtual IP address.
 

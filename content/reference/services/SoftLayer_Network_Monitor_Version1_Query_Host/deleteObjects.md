@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Monitor_Version1_Query_Host"
 ---
-# SoftLayer_Network_Monitor_Version1_Query_Host::deleteObjects
+# [SoftLayer_Network_Monitor_Version1_Query_Host](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host)::deleteObjects
+
+Delete a group of Query_Host objects by passing in a collection of them
+
+
 ## Overview 
 Like any other API object, the monitoring objects can be deleted by passing an instance of them into this function.  The ID on the object must be set. 
 

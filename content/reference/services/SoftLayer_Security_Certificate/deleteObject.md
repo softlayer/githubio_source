@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Certificate"
 ---
-# SoftLayer_Security_Certificate::deleteObject
+# [SoftLayer_Security_Certificate](/reference/services/SoftLayer_Security_Certificate)::deleteObject
+
+
+
+
 ## Overview 
 Remove a certificate from your account. You may not remove a certificate with associated services. 
 

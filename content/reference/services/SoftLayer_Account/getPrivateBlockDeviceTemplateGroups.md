@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getPrivateBlockDeviceTemplateGroups
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPrivateBlockDeviceTemplateGroups
+
+Retrieve private and shared template group objects (parent only) for an account.
+
+
 ## Overview 
 Retrieve private and shared template group objects (parent only) for an account.
 

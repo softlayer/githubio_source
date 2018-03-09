@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller"
 ---
-# SoftLayer_Network_Application_Delivery_Controller::getNetworkVlan
+# [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getNetworkVlan
+
+Retrieve the network VLAN that an application delivery controller resides on.
+
+
 ## Overview 
 Retrieve the network VLAN that an application delivery controller resides on.
 

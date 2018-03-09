@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Disk_Image"
 ---
-# SoftLayer_Virtual_Disk_Image::getType
+# [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::getType
+
+Retrieve a virtual disk image's type.
+
+
 ## Overview 
 Retrieve a virtual disk image's type.
 

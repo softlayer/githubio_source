@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Cart"
 ---
-# SoftLayer_Billing_Order_Cart::updateCart
+# [SoftLayer_Billing_Order_Cart](/reference/services/SoftLayer_Billing_Order_Cart)::updateCart
+
+Update an existing cart with the modified order data
+
+
 ## Overview 
 Like SoftLayer_Billing_Order_Cart::createCart, the order data will be sent through SoftLayer_Product_Order::verifyOrder to make sure that the updated cart information is valid. Once it has been verified, the new order data will be saved. 
 

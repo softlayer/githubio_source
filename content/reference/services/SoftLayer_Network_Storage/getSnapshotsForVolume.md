@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getSnapshotsForVolume
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getSnapshotsForVolume
+
+Retrieves a list oƒf snapshots for a given volume.
+
+
 ## Overview 
 Retrieves a list of snapshots for this SoftLayer_Network_Storage volume. This method works with the result limits and offset to support pagination. 
 

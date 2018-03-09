@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_AccountLicense"
 ---
-# SoftLayer_Software_AccountLicense::getAllObjects
+# [SoftLayer_Software_AccountLicense](/reference/services/SoftLayer_Software_AccountLicense)::getAllObjects
+
+Return all account licenses
+
+
 ## Overview 
 
 

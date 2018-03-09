@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice"
 ---
-# SoftLayer_Billing_Invoice::getAmount
+# [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getAmount
+
+Retrieve this is the amount of this invoice.
+
+
 ## Overview 
 Retrieve this is the amount of this invoice.
 

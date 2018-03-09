@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Gateway_Vlan"
 ---
-# SoftLayer_Network_Gateway_Vlan::deleteObjects
+# [SoftLayer_Network_Gateway_Vlan](/reference/services/SoftLayer_Network_Gateway_Vlan)::deleteObjects
+
+Attach a VLAN to a gateway
+
+
 ## Overview 
 Detach several VLANs. This will not detach them right away, but rather start an asynchronous process to detach. 
 

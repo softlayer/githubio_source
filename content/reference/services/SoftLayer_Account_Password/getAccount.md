@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Password"
 ---
-# SoftLayer_Account_Password::getAccount
+# [SoftLayer_Account_Password](/reference/services/SoftLayer_Account_Password)::getAccount
+
+
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LoadBalancer_Service"
 ---
-# SoftLayer_Network_LoadBalancer_Service::getStatus
+# [SoftLayer_Network_LoadBalancer_Service](/reference/services/SoftLayer_Network_LoadBalancer_Service)::getStatus
+
+Returns various status entries for this service as an array of SoftLayer_Container_Network_LoadBalancer_StatusEntry objects
+
+
 ## Overview 
 Returns an array of SoftLayer_Container_Network_LoadBalancer_StatusEntry objects.  A SoftLayer_Container_Network_LoadBalancer_StatusEntry object has two variables, "Label" and "Value" 
 

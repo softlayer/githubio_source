@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Sales_Presale_Event"
 ---
-# SoftLayer_Sales_Presale_Event::getItem
+# [SoftLayer_Sales_Presale_Event](/reference/services/SoftLayer_Sales_Presale_Event)::getItem
+
+Retrieve the [[SoftLayer_Product_Item]] associated with the presale event.
+
+
 ## Overview 
 Retrieve the [[SoftLayer_Product_Item]] associated with the presale event.
 

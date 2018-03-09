@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Sales_Presale_Event"
 ---
-# SoftLayer_Sales_Presale_Event::getAllObjects
+# [SoftLayer_Sales_Presale_Event](/reference/services/SoftLayer_Sales_Presale_Event)::getAllObjects
+
+
+
+
 ## Overview 
 
 

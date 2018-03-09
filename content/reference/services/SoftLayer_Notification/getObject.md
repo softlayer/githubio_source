@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification"
 ---
-# SoftLayer_Notification::getObject
+# [SoftLayer_Notification](/reference/services/SoftLayer_Notification)::getObject
+
+Retrieve a SoftLayer_Notification record.
+
+
 ## Overview 
 
 

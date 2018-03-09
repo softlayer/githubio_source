@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getNetworkComponentGroup
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getNetworkComponentGroup
+
+Retrieve a network component's associated group.
+
+
 ## Overview 
 Retrieve a network component's associated group.
 

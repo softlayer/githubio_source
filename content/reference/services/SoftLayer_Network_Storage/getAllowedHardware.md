@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getAllowedHardware
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getAllowedHardware
+
+Retrieve the SoftLayer_Hardware objects which are allowed access to this storage volume.
+
+
 ## Overview 
 Retrieve the SoftLayer_Hardware objects which are allowed access to this storage volume.
 

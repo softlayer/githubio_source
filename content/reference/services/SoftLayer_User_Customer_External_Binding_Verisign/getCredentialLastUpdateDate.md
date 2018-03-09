@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Verisign"
 ---
-# SoftLayer_User_Customer_External_Binding_Verisign::getCredentialLastUpdateDate
+# [SoftLayer_User_Customer_External_Binding_Verisign](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign)::getCredentialLastUpdateDate
+
+Retrieve the last time a VeriSign credential was updated.
+
+
 ## Overview 
 Retrieve the last time a VeriSign credential was updated.
 

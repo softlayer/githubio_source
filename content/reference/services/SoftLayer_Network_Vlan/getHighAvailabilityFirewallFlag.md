@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getHighAvailabilityFirewallFlag
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getHighAvailabilityFirewallFlag
+
+
+
+
 ## Overview 
 
 

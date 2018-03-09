@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Provisioning_Maintenance_Classification"
 ---
-# SoftLayer_Provisioning_Maintenance_Classification::getObject
+# [SoftLayer_Provisioning_Maintenance_Classification](/reference/services/SoftLayer_Provisioning_Maintenance_Classification)::getObject
+
+Retrieve a SoftLayer_Provisioning_Maintenance_Classification record.
+
+
 ## Overview 
 
 

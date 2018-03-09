@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getBrandKeyName
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getBrandKeyName
+
+Retrieve the brand keyName.
+
+
 ## Overview 
 Retrieve the brand keyName.
 

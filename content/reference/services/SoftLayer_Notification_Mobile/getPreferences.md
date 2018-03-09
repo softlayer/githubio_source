@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_Mobile"
 ---
-# SoftLayer_Notification_Mobile::getPreferences
+# [SoftLayer_Notification_Mobile](/reference/services/SoftLayer_Notification_Mobile)::getPreferences
+
+Retrieve the preferences related to the notification. These are preferences are configurable and optional for subscribers to use.
+
+
 ## Overview 
 Retrieve the preferences related to the notification. These are preferences are configurable and optional for subscribers to use.
 

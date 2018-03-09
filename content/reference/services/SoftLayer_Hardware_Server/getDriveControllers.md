@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getDriveControllers
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getDriveControllers
+
+Retrieve the drive controllers contained within a piece of hardware.
+
+
 ## Overview 
 Retrieve the drive controllers contained within a piece of hardware.
 

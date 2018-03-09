@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getUserStatus
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getUserStatus
+
+Retrieve a portal user's status, which controls overall access to the SoftLayer customer portal and VPN access to the private network.
+
+
 ## Overview 
 Retrieve a portal user's status, which controls overall access to the SoftLayer customer portal and VPN access to the private network.
 

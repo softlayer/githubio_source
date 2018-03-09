@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Phone"
 ---
-# SoftLayer_User_Customer_External_Binding_Phone::getBillingItem
+# [SoftLayer_User_Customer_External_Binding_Phone](/reference/services/SoftLayer_User_Customer_External_Binding_Phone)::getBillingItem
+
+Retrieve the current billing item for an external binding.
+
+
 ## Overview 
 Retrieve the current billing item for an external binding.
 

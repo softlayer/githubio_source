@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getBlockDeviceTemplateGroup
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBlockDeviceTemplateGroup
+
+Retrieve the global identifier for the image template that was used to provision or reload a guest.
+
+
 ## Overview 
 Retrieve the global identifier for the image template that was used to provision or reload a guest.
 

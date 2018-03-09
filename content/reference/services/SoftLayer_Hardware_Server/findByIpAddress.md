@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::findByIpAddress
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::findByIpAddress
+
+Find hardware by its primary public or private IP (ipv4) address.
+
+
 ## Overview 
 The '''findByIpAddress''' method finds hardware using its primary public or private IP address. IP addresses that have a secondary subnet tied to the hardware will not return the hardware - alternate means of locating the hardware must be used (see '''Associated Methods'''). If no hardware is found, no errors are generated and no data is returned. 
 

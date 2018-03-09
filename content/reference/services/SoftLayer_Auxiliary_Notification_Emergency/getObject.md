@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Auxiliary_Notification_Emergency"
 ---
-# SoftLayer_Auxiliary_Notification_Emergency::getObject
+# [SoftLayer_Auxiliary_Notification_Emergency](/reference/services/SoftLayer_Auxiliary_Notification_Emergency)::getObject
+
+Retrieve a SoftLayer_Auxiliary_Notification_Emergency record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Auxiliary_Notification_Emergency object, it can be used to check for current notifications being broadcast by SoftLayer. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getVirtualChassisSiblings
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getVirtualChassisSiblings
+
+Retrieve information regarding the virtual chassis siblings for a piece of hardware.
+
+
 ## Overview 
 Retrieve information regarding the virtual chassis siblings for a piece of hardware.
 

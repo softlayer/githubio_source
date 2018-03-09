@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Locale_Country"
 ---
-# SoftLayer_Locale_Country::getCountries
+# [SoftLayer_Locale_Country](/reference/services/SoftLayer_Locale_Country)::getCountries
+
+
+
+
 ## Overview 
 Use this method to retrieve a list of countries and locale information such as country code and state/provinces. 
 

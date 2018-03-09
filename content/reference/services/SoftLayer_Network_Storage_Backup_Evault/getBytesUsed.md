@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getBytesUsed
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getBytesUsed
+
+Retrieve the amount of space used by the volume, in bytes.
+
+
 ## Overview 
 Retrieve the amount of space used by the volume, in bytes.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host_IpAddress"
 ---
-# SoftLayer_Network_Storage_Allowed_Host_IpAddress::getAssignedVolumes
+# [SoftLayer_Network_Storage_Allowed_Host_IpAddress](/reference/services/SoftLayer_Network_Storage_Allowed_Host_IpAddress)::getAssignedVolumes
+
+Retrieve the SoftLayer_Network_Storage volumes to which this SoftLayer_Network_Storage_Allowed_Host is allowed access.
+
+
 ## Overview 
 Retrieve the SoftLayer_Network_Storage volumes to which this SoftLayer_Network_Storage_Allowed_Host is allowed access.
 

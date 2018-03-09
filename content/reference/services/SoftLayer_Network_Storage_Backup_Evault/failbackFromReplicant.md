@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::failbackFromReplicant
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::failbackFromReplicant
+
+Failback from a volume replicant.
+
+
 ## Overview 
 Failback from a volume replicant. In order to failback the volume must have already been failed over to a replicant. 
 

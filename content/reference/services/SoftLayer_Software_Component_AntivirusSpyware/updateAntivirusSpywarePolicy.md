@@ -12,7 +12,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_AntivirusSpyware"
 ---
-# SoftLayer_Software_Component_AntivirusSpyware::updateAntivirusSpywarePolicy
+# [SoftLayer_Software_Component_AntivirusSpyware](/reference/services/SoftLayer_Software_Component_AntivirusSpyware)::updateAntivirusSpywarePolicy
+
+Update an anti-virus/spyware policy.
+
+
 ## Overview 
 Update an anti-virus/spyware policy. The policy options that it accepts are the following: 
 *1 - Minimal

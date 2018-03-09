@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_SecurityGroup"
 ---
-# SoftLayer_Network_SecurityGroup::getLimits
+# [SoftLayer_Network_SecurityGroup](/reference/services/SoftLayer_Network_SecurityGroup)::getLimits
+
+List the current security group limits 
+
+
 ## Overview 
 List the current security group limits 
 

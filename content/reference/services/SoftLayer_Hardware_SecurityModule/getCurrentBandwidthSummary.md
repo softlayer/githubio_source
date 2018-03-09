@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getCurrentBandwidthSummary
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getCurrentBandwidthSummary
+
+Retrieve an object that provides commonly used bandwidth summary components for the current billing cycle.
+
+
 ## Overview 
 Retrieve an object that provides commonly used bandwidth summary components for the current billing cycle.
 

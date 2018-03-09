@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::surveyEligible
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::surveyEligible
+
+
+
+
 ## Overview 
 (DEPRECATED) Use [[SoftLayer_Ticket_Survey::getPreference]] method. 
 

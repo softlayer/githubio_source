@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location_Reservation_Rack"
 ---
-# SoftLayer_Location_Reservation_Rack::getAllotment
+# [SoftLayer_Location_Reservation_Rack](/reference/services/SoftLayer_Location_Reservation_Rack)::getAllotment
+
+Retrieve the bandwidth allotment that the reservation belongs to.
+
+
 ## Overview 
 Retrieve the bandwidth allotment that the reservation belongs to.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getAccount
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getAccount
+
+Retrieve the SoftLayer customer account associated with a VLAN.
+
+
 ## Overview 
 Retrieve the SoftLayer customer account associated with a VLAN.
 

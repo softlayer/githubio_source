@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller"
 ---
-# SoftLayer_Network_Application_Delivery_Controller::getCustomBandwidthDataByDate
+# [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getCustomBandwidthDataByDate
+
+Retrieve bandwidth graph by date.
+
+
 ## Overview 
 Retrieve bandwidth graph by date. 
 

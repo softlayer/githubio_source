@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getFrontendRouters
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getFrontendRouters
+
+Retrieve a hardware's frontend or public router.
+
+
 ## Overview 
 Retrieve a hardware's frontend or public router.
 

@@ -29,10 +29,10 @@ Transcode preset is a set of configuration parameters that defines a Transcode o
 
 ### seeAlso
 
-* [SoftLayer_Network_Media_Transcode_Account](/reference/datatypes/SoftLayer_Network_Media_Transcode_Account )
+* [SoftLayer_Network_Media_Transcode_Account](/reference/services/SoftLayer_Network_Media_Transcode_Account )
 
 
-* [SoftLayer_Network_Media_Transcode_Job](/reference/datatypes/SoftLayer_Network_Media_Transcode_Job )
+* [SoftLayer_Network_Media_Transcode_Job](/reference/services/SoftLayer_Network_Media_Transcode_Job )
 
 
 
@@ -52,24 +52,44 @@ Transcode preset is a set of configuration parameters that defines a Transcode o
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#GUID" name=GUID>GUID</a></span>
+            <span class='views-field-title'>
+                <a href="#GUID" name=GUID>GUID</a>
+            </span>
             <div class='views-field-body'>The unique id that is used by a Transcode server </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#category" name=category>category</a></span>
+            <span class='views-field-title'>
+                <a href="#category" name=category>category</a>
+            </span>
             <div class='views-field-body'>The category that a preset belongs to </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#description" name=description>description</a></span>
+            <span class='views-field-title'>
+                <a href="#description" name=description>description</a>
+            </span>
             <div class='views-field-body'>The description of the preset </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>The friendly name of a preset </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

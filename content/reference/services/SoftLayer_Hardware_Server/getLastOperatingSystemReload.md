@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getLastOperatingSystemReload
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getLastOperatingSystemReload
+
+Retrieve the last transaction that a server's operating system was loaded.
+
+
 ## Overview 
 Retrieve the last transaction that a server's operating system was loaded.
 

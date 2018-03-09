@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller"
 ---
-# SoftLayer_Network_Application_Delivery_Controller::getPrimaryIpAddress
+# [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getPrimaryIpAddress
+
+Retrieve an application delivery controller's primary public IP address.
+
+
 ## Overview 
 Retrieve an application delivery controller's primary public IP address.
 

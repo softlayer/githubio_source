@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Network_Component"
 ---
-# SoftLayer_Virtual_Guest_Network_Component::getNetworkComponentFirewall
+# [SoftLayer_Virtual_Guest_Network_Component](/reference/services/SoftLayer_Virtual_Guest_Network_Component)::getNetworkComponentFirewall
+
+Retrieve the upstream network component firewall.
+
+
 ## Overview 
 Retrieve the upstream network component firewall.
 

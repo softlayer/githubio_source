@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Verisign"
 ---
-# SoftLayer_User_Customer_External_Binding_Verisign::updateNote
+# [SoftLayer_User_Customer_External_Binding_Verisign](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign)::updateNote
+
+Update the note of an external binding.
+
+
 ## Overview 
 Update the note of an external binding.  The note is an optional property that is used to store information about a binding. 
 

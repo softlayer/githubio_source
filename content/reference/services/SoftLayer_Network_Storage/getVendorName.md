@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getVendorName
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getVendorName
+
+Retrieve the type of network storage service.
+
+
 ## Overview 
 Retrieve the type of network storage service.
 

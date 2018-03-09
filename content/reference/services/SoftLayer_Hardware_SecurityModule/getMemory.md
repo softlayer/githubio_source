@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getMemory
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getMemory
+
+Retrieve information regarding a piece of hardware's memory.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's memory.
 

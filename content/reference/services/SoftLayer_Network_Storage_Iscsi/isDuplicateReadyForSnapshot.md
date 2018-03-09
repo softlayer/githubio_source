@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::isDuplicateReadyForSnapshot
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::isDuplicateReadyForSnapshot
+
+Displays the if clone snapshots can be ordered.
+
+
 ## Overview 
 This method returns a boolean indicating whether the clone volume is ready for snapshot. 
 

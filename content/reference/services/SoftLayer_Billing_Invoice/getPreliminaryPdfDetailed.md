@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice"
 ---
-# SoftLayer_Billing_Invoice::getPreliminaryPdfDetailed
+# [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getPreliminaryPdfDetailed
+
+Retrieve a PDF copy of the detailed version of an invoice.
+
+
 ## Overview 
 Retrieve a PDF record of the detailed version of a SoftLayer invoice. SoftLayer keeps PDF records of all closed invoices for customer retrieval from the portal and API. 
 

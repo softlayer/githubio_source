@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy_Action_Type"
 ---
-# SoftLayer_Scale_Policy_Action_Type::getAllObjects
+# [SoftLayer_Scale_Policy_Action_Type](/reference/services/SoftLayer_Scale_Policy_Action_Type)::getAllObjects
+
+Get all action types
+
+
 ## Overview 
 
 

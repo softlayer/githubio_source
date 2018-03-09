@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getObject
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getObject
+
+Retrieve a SoftLayer_Account record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Account object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Account service. You can only retrieve the account that your portal user is assigned to. 
 

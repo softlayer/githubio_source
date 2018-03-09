@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::deactivateNotificationSubscriber
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::deactivateNotificationSubscriber
+
+Delete a subscriber for a given resource.
+
+
 ## Overview 
 Create a new subscriber for a given resource. 
 

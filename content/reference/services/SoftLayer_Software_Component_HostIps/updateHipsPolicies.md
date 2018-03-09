@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_HostIps"
 ---
-# SoftLayer_Software_Component_HostIps::updateHipsPolicies
+# [SoftLayer_Software_Component_HostIps](/reference/services/SoftLayer_Software_Component_HostIps)::updateHipsPolicies
+
+Update the Host IPS policies.
+
+
 ## Overview 
 Update the Host IPS policies. To retrieve valid policy options you must use the provided relationships. 
 

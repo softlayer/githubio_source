@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getPodName
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getPodName
+
+Retrieve the pod in which this subnet resides.
+
+
 ## Overview 
 Retrieve the pod in which this subnet resides.
 

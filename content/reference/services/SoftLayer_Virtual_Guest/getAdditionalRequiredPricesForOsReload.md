@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getAdditionalRequiredPricesForOsReload
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getAdditionalRequiredPricesForOsReload
+
+Return a collection of SoftLayer_Item_Price objects for an OS reload
+
+
 ## Overview 
 Return a collection of SoftLayer_Item_Price objects for an OS reload
 

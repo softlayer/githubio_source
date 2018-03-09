@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getCurrentBackupStatisticsGraph
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getCurrentBackupStatisticsGraph
+
+This method retrieves a pie chart for today's backup statistics.
+
+
 ## Overview 
 This method returns a SoftLayer_Container_Account_Graph_Outputs containing a base64 string PNG image. The optional parameter, detailedGraph, can be passed to get a more detailed graph. 
 

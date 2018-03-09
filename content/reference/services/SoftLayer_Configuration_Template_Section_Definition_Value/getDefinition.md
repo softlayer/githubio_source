@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Configuration_Template_Section_Definition_Value"
 ---
-# SoftLayer_Configuration_Template_Section_Definition_Value::getDefinition
+# [SoftLayer_Configuration_Template_Section_Definition_Value](/reference/services/SoftLayer_Configuration_Template_Section_Definition_Value)::getDefinition
+
+
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::powerOff
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::powerOff
+
+Power off server.
+
+
 ## Overview 
 This method will power off the server via the server's remote management card. 
 

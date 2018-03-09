@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host_Hardware"
 ---
-# SoftLayer_Network_Storage_Allowed_Host_Hardware::getAssignedReplicationVolumes
+# [SoftLayer_Network_Storage_Allowed_Host_Hardware](/reference/services/SoftLayer_Network_Storage_Allowed_Host_Hardware)::getAssignedReplicationVolumes
+
+Retrieve the SoftLayer_Network_Storage primary volumes whose replicas are allowed access.
+
+
 ## Overview 
 Retrieve the SoftLayer_Network_Storage primary volumes whose replicas are allowed access.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::initiateIderaBareMetalRestore
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::initiateIderaBareMetalRestore
+
+Initiate an Idera bare metal restore for the server tied to an Idera Server Backup
+
+
 ## Overview 
 Idera Bare Metal Server Restore is a backup agent designed specifically for making full system restores made with Idera Server Backup. 
 

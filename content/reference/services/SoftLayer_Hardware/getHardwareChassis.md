@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getHardwareChassis
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getHardwareChassis
+
+Retrieve the chassis that a piece of hardware is housed in.
+
+
 ## Overview 
 Retrieve the chassis that a piece of hardware is housed in.
 

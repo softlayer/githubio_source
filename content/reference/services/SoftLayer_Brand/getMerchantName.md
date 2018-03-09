@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand"
 ---
-# SoftLayer_Brand::getMerchantName
+# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getMerchantName
+
+
+
+
 ## Overview 
 Get the payment processor merchant name.
 

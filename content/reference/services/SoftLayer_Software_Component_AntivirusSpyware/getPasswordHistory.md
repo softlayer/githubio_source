@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_AntivirusSpyware"
 ---
-# SoftLayer_Software_Component_AntivirusSpyware::getPasswordHistory
+# [SoftLayer_Software_Component_AntivirusSpyware](/reference/services/SoftLayer_Software_Component_AntivirusSpyware)::getPasswordHistory
+
+Retrieve history Records for Software Passwords.
+
+
 ## Overview 
 Retrieve history Records for Software Passwords.
 

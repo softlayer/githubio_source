@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LoadBalancer_Global_Account"
 ---
-# SoftLayer_Network_LoadBalancer_Global_Account::getHosts
+# [SoftLayer_Network_LoadBalancer_Global_Account](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account)::getHosts
+
+Retrieve the hosts in the load balancing pool for a global load balancer account.
+
+
 ## Overview 
 Retrieve the hosts in the load balancing pool for a global load balancer account.
 

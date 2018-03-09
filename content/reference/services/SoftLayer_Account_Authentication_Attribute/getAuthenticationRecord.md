@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Authentication_Attribute"
 ---
-# SoftLayer_Account_Authentication_Attribute::getAuthenticationRecord
+# [SoftLayer_Account_Authentication_Attribute](/reference/services/SoftLayer_Account_Authentication_Attribute)::getAuthenticationRecord
+
+Retrieve the SoftLayer account authentication that has an attribute.
+
+
 ## Overview 
 Retrieve the SoftLayer account authentication that has an attribute.
 

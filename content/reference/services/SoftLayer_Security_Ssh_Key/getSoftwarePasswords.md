@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Ssh_Key"
 ---
-# SoftLayer_Security_Ssh_Key::getSoftwarePasswords
+# [SoftLayer_Security_Ssh_Key](/reference/services/SoftLayer_Security_Ssh_Key)::getSoftwarePasswords
+
+Retrieve the OS root users that are linked to an SSH key.
+
+
 ## Overview 
 Retrieve the OS root users that are linked to an SSH key.
 

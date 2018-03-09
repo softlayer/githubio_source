@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference"
 ---
-# SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference::editObject
+# [SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference)::editObject
+
+Edit the object by passing in a modified instance of the object.
+
+
 ## Overview 
 This method updates a SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference record by passing in a modified instance of the object. 
 

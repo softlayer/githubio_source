@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getServerRoom
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getServerRoom
+
+Retrieve information regarding the server room in which the hardware is located.
+
+
 ## Overview 
 Retrieve information regarding the server room in which the hardware is located.
 

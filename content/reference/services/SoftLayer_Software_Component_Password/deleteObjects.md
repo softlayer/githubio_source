@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_Password"
 ---
-# SoftLayer_Software_Component_Password::deleteObjects
+# [SoftLayer_Software_Component_Password](/reference/services/SoftLayer_Software_Component_Password)::deleteObjects
+
+Delete more than one passwords from a software component.
+
+
 ## Overview 
 Delete more than one passwords from a software component. 
 

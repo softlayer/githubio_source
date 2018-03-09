@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getCurrentBandwidthSummary
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getCurrentBandwidthSummary
+
+Retrieve an object that provides commonly used bandwidth summary components for the current billing cycle.
+
+
 ## Overview 
 Retrieve an object that provides commonly used bandwidth summary components for the current billing cycle.
 

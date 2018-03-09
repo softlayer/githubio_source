@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getCurrentCyclePeakUsage
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getCurrentCyclePeakUsage
+
+Retrieve peak number of bytes used in the vault for the current billing cycle.
+
+
 ## Overview 
 Retrieve peak number of bytes used in the vault for the current billing cycle.
 

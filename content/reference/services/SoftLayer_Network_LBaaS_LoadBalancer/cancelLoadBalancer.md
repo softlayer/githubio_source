@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LBaaS_LoadBalancer"
 ---
-# SoftLayer_Network_LBaaS_LoadBalancer::cancelLoadBalancer
+# [SoftLayer_Network_LBaaS_LoadBalancer](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer)::cancelLoadBalancer
+
+Cancel the specified load balancer. 
+
+
 ## Overview 
 Cancel a load balancer with the given uuid. The billing system will execute the deletion of load balancer and all objects associated with it such as load balancer appliances, listeners, pools and members in the background. 
 

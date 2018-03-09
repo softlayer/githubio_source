@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Resource_Metadata"
 ---
-# SoftLayer_Resource_Metadata::getVlanIds
+# [SoftLayer_Resource_Metadata](/reference/services/SoftLayer_Resource_Metadata)::getVlanIds
+
+A list of VLAN ids for a network component
+
+
 ## Overview 
 The getVlanIds method returns a list of VLAN IDs for the network component matching the provided MAC address associated with the resource. For each return, the native VLAN will appear first, followed by any trunked VLANs associated with the network component. 
 

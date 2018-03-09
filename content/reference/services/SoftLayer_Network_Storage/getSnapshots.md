@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getSnapshots
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getSnapshots
+
+Retrieve the snapshots associated with this SoftLayer_Network_Storage volume.
+
+
 ## Overview 
 Retrieve the snapshots associated with this SoftLayer_Network_Storage volume.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location"
 ---
-# SoftLayer_Location::getpointOfPresence
+# [SoftLayer_Location](/reference/services/SoftLayer_Location)::getpointOfPresence
+
+Retrieve all points of presence locations
+
+
 ## Overview 
 Retrieve all point of presence locations. 
 

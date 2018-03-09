@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan_Firewall"
 ---
-# SoftLayer_Network_Vlan_Firewall::getNetworkGateway
+# [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getNetworkGateway
+
+Retrieve the gateway associated with this firewall, if any.
+
+
 ## Overview 
 Retrieve the gateway associated with this firewall, if any.
 

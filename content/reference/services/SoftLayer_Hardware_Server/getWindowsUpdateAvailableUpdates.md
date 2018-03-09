@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getWindowsUpdateAvailableUpdates
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getWindowsUpdateAvailableUpdates
+
+Retrieve a list of Windows updates available to a server.
+
+
 ## Overview 
 Retrieve a list of Windows updates available for a server from the local SoftLayer Windows Server Update Services (WSUS) server. Windows servers provisioned by SoftLayer are configured to use the local WSUS server via the private network by default. 
 

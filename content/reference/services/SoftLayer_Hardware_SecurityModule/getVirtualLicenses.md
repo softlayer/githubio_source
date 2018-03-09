@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getVirtualLicenses
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getVirtualLicenses
+
+Retrieve information regarding a piece of hardware's virtual software licenses.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's virtual software licenses.
 

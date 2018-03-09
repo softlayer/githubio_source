@@ -28,10 +28,10 @@ For each [[SoftLayer_Layout_Profile_Containers|associated container]] on a [[Sof
 
 ### seeAlso
 
-* [SoftLayer_Layout_Profile](/reference/datatypes/SoftLayer_Layout_Profile )
+* [SoftLayer_Layout_Profile](/reference/services/SoftLayer_Layout_Profile )
 
 
-* [SoftLayer_Layout_Profile_Containers](/reference/datatypes/SoftLayer_Layout_Profile_Containers )
+* [SoftLayer_Layout_Profile_Containers](/reference/services/SoftLayer_Layout_Profile_Containers )
 
 
 * [SoftLayer_Layout_Preference](/reference/datatypes/SoftLayer_Layout_Preference )

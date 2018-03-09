@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Monitor_Version1_Query_Host"
 ---
-# SoftLayer_Network_Monitor_Version1_Query_Host::createObject
+# [SoftLayer_Network_Monitor_Version1_Query_Host](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host)::createObject
+
+Create a monitoring entry
+
+
 ## Overview 
 Passing in an unsaved instances of a Query_Host object into this function will create the object and return the results to the user. 
 

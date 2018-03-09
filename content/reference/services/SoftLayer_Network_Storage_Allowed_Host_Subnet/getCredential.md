@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host_Subnet"
 ---
-# SoftLayer_Network_Storage_Allowed_Host_Subnet::getCredential
+# [SoftLayer_Network_Storage_Allowed_Host_Subnet](/reference/services/SoftLayer_Network_Storage_Allowed_Host_Subnet)::getCredential
+
+Retrieve the SoftLayer_Network_Storage_Credential this allowed host uses.
+
+
 ## Overview 
 Retrieve the SoftLayer_Network_Storage_Credential this allowed host uses.
 

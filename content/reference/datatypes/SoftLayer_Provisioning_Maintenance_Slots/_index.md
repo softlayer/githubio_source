@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Provisioning_Maintenance_Slots
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Slots' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Provisioning_Maintenance_Slots' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Slots' >Datatype</a></li>
     </ul>
 </div>
 
@@ -44,9 +44,14 @@ The SoftLayer_Provisioning_Maintenance_Slots represent the available slots for a
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#availableSlots" name=availableSlots>availableSlots</a></span>
+            <span class='views-field-title'>
+                <a href="#availableSlots" name=availableSlots>availableSlots</a>
+            </span>
             <div class='views-field-body'>The available slots for a maintenance window. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
     </div>

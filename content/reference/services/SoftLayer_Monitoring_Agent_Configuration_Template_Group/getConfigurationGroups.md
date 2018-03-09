@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent_Configuration_Template_Group"
 ---
-# SoftLayer_Monitoring_Agent_Configuration_Template_Group::getConfigurationGroups
+# [SoftLayer_Monitoring_Agent_Configuration_Template_Group](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group)::getConfigurationGroups
+
+retrieves agent package configuration templates available to your account.
+
+
 ## Overview 
 This method retrieves an array of SoftLayer_Monitoring_Agent_Configuration_Template_Group objects that are available to the active user's account. The packageId parameter is not currently used. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Partner_Referral_Prospect"
 ---
-# SoftLayer_Account_Partner_Referral_Prospect::createProspect
+# [SoftLayer_Account_Partner_Referral_Prospect](/reference/services/SoftLayer_Account_Partner_Referral_Prospect)::createProspect
+
+Creates a new Referral Partner Prospect
+
+
 ## Overview 
 Create a new Referral Partner Prospect 
 

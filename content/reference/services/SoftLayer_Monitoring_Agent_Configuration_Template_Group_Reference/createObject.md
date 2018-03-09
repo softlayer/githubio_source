@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference"
 ---
-# SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference::createObject
+# [SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference)::createObject
+
+Create a monitoring agent configuration template group reference.
+
+
 ## Overview 
 This method creates a monitoring agent configuration template group reference by passing in an object with the SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference structure as the $templateObject parameter. 
 

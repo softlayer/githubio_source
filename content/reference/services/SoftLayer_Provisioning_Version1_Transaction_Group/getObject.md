@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Provisioning_Version1_Transaction_Group"
 ---
-# SoftLayer_Provisioning_Version1_Transaction_Group::getObject
+# [SoftLayer_Provisioning_Version1_Transaction_Group](/reference/services/SoftLayer_Provisioning_Version1_Transaction_Group)::getObject
+
+Retrieve a SoftLayer_Provisioning_Version1_Transaction_Group record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Provisioning_Version1_Transaction_Group object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Provisioning_Version1_Transaction_Group service. 
 

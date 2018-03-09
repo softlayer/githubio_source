@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_User_Subscriber_Billing"
 ---
-# SoftLayer_Notification_User_Subscriber_Billing::getNotification
+# [SoftLayer_Notification_User_Subscriber_Billing](/reference/services/SoftLayer_Notification_User_Subscriber_Billing)::getNotification
+
+Retrieve notification subscribed to.
+
+
 ## Overview 
 Retrieve notification subscribed to.
 

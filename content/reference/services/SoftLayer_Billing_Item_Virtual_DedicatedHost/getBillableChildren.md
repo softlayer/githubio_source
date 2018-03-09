@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item_Virtual_DedicatedHost"
 ---
-# SoftLayer_Billing_Item_Virtual_DedicatedHost::getBillableChildren
+# [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getBillableChildren
+
+Retrieve a billing item's recurring child items that have once been billed and are scheduled to be billed in the future.
+
+
 ## Overview 
 Retrieve a billing item's recurring child items that have once been billed and are scheduled to be billed in the future.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Group_Nfs"
 ---
-# SoftLayer_Network_Storage_Group_Nfs::getNetworkConnectionDetails
+# [SoftLayer_Network_Storage_Group_Nfs](/reference/services/SoftLayer_Network_Storage_Group_Nfs)::getNetworkConnectionDetails
+
+Retrieve network connection information for SoftLayer_Network_Storage_Allowed_Host objects to connect to the Network Storage Volumes within this group 
+
+
 ## Overview 
 Use this method to retrieve network connection information for SoftLayer_Network_Storage_Allowed_Host objects within this group. 
 

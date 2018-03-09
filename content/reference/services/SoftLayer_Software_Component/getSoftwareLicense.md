@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component"
 ---
-# SoftLayer_Software_Component::getSoftwareLicense
+# [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component)::getSoftwareLicense
+
+Retrieve the License this Software Component uses.
+
+
 ## Overview 
 Retrieve the License this Software Component uses.
 

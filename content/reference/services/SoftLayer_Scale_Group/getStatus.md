@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Group"
 ---
-# SoftLayer_Scale_Group::getStatus
+# [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::getStatus
+
+Retrieve the status for this scale group.
+
+
 ## Overview 
 Retrieve the status for this scale group.
 

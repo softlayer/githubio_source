@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Firewall_AccessControlList"
 ---
-# SoftLayer_Network_Firewall_AccessControlList::getObject
+# [SoftLayer_Network_Firewall_AccessControlList](/reference/services/SoftLayer_Network_Firewall_AccessControlList)::getObject
+
+Retrieve a SoftLayer_Network_Firewall_AccessControlList record.
+
+
 ## Overview 
 getObject returns a SoftLayer_Network_Firewall_AccessControlList object. You can only get objects for servers attached to your account that have a network firewall enabled. 
 

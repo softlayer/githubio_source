@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getActiveSwipTransaction
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getActiveSwipTransaction
+
+Retrieve all the swip transactions associated with a subnet that are still active.
+
+
 ## Overview 
 Retrieve all the swip transactions associated with a subnet that are still active.
 

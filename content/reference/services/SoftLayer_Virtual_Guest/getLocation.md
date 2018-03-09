@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getLocation
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getLocation
+
+Retrieve where guest is located within SoftLayer's location hierarchy.
+
+
 ## Overview 
 Retrieve where guest is located within SoftLayer's location hierarchy.
 

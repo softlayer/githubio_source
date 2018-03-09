@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Shipment"
 ---
-# SoftLayer_Account_Shipment::getCourier
+# [SoftLayer_Account_Shipment](/reference/services/SoftLayer_Account_Shipment)::getCourier
+
+Retrieve the courier handling the shipment.
+
+
 ## Overview 
 Retrieve the courier handling the shipment.
 

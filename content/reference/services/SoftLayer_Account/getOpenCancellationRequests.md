@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getOpenCancellationRequests
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getOpenCancellationRequests
+
+Retrieve an open ticket requesting cancellation of this server, if one exists.
+
+
 ## Overview 
 Retrieve an open ticket requesting cancellation of this server, if one exists.
 

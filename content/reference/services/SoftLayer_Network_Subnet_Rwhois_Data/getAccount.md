@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_Rwhois_Data"
 ---
-# SoftLayer_Network_Subnet_Rwhois_Data::getAccount
+# [SoftLayer_Network_Subnet_Rwhois_Data](/reference/services/SoftLayer_Network_Subnet_Rwhois_Data)::getAccount
+
+Retrieve the SoftLayer customer account associated with this reverse WHOIS data.
+
+
 ## Overview 
 Retrieve the SoftLayer customer account associated with this reverse WHOIS data.
 

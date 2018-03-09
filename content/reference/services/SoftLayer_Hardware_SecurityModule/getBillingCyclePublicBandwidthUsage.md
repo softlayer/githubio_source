@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getBillingCyclePublicBandwidthUsage
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getBillingCyclePublicBandwidthUsage
+
+Retrieve the raw public bandwidth usage data for the current billing cycle.
+
+
 ## Overview 
 Retrieve the raw public bandwidth usage data for the current billing cycle.
 

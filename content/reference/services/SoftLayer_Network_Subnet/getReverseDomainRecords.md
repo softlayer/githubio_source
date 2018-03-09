@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getReverseDomainRecords
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getReverseDomainRecords
+
+Retrieve all reverse DNS records associated with a subnet.
+
+
 ## Overview 
 Retrieve all reverse DNS records associated with a subnet. 
 

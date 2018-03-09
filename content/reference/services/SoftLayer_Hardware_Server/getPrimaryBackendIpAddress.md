@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getPrimaryBackendIpAddress
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getPrimaryBackendIpAddress
+
+Retrieve the hardware's primary private IP address.
+
+
 ## Overview 
 Retrieve the hardware's primary private IP address.
 

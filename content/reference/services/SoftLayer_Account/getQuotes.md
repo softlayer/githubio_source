@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getQuotes
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getQuotes
+
+Retrieve an account's quotes.
+
+
 ## Overview 
 Retrieve an account's quotes.
 

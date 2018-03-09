@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Description"
 ---
-# SoftLayer_Software_Description::getAttributes
+# [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description)::getAttributes
+
+
+
+
 ## Overview 
 
 

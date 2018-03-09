@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller"
 ---
-# SoftLayer_Network_Application_Delivery_Controller::getLicenseExpirationDate
+# [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getLicenseExpirationDate
+
+Retrieve the date in which the license for this application delivery controller will expire.
+
+
 ## Overview 
 Retrieve the date in which the license for this application delivery controller will expire.
 

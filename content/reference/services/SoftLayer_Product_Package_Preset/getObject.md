@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package_Preset"
 ---
-# SoftLayer_Product_Package_Preset::getObject
+# [SoftLayer_Product_Package_Preset](/reference/services/SoftLayer_Product_Package_Preset)::getObject
+
+Retrieve a SoftLayer_Product_Package_Preset record.
+
+
 ## Overview 
 
 

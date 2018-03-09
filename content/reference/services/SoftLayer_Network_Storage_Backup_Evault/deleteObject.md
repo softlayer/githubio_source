@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::deleteObject
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::deleteObject
+
+Delete a network storage volume
+
+
 ## Overview 
 Delete a network storage volume. '''This cannot be undone.''' At this time only network storage snapshots may be deleted with this method. 
 

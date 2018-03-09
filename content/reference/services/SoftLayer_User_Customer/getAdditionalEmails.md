@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getAdditionalEmails
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getAdditionalEmails
+
+Retrieve a portal user's additional email addresses. These email addresses are contacted when updates are made to support tickets.
+
+
 ## Overview 
 Retrieve a portal user's additional email addresses. These email addresses are contacted when updates are made to support tickets.
 

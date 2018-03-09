@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::captureImage
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::captureImage
+
+Captures a Flex Image of the hard disk on the physical machine.
+
+
 ## Overview 
 Captures a Flex Image of the hard disk on the physical machine, based on the capture template parameter. Returns the image template group containing the disk image. 
 

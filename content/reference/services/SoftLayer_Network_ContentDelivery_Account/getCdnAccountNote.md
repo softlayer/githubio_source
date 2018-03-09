@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::getCdnAccountNote
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getCdnAccountNote
+
+Retrieve a brief note on a CDN account.
+
+
 ## Overview 
 Retrieve a brief note on a CDN account.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Component_Model"
 ---
-# SoftLayer_Hardware_Component_Model::getCompatibleParentComponentModels
+# [SoftLayer_Hardware_Component_Model](/reference/services/SoftLayer_Hardware_Component_Model)::getCompatibleParentComponentModels
+
+Retrieve all the component models that a hardware component model is compatible with.
+
+
 ## Overview 
 Retrieve all the component models that a hardware component model is compatible with.
 

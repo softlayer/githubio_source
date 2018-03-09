@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getPreviousRecurringRevenue
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPreviousRecurringRevenue
+
+Retrieve the total recurring amount for an accounts previous revenue.
+
+
 ## Overview 
 Retrieve the total recurring amount for an accounts previous revenue.
 

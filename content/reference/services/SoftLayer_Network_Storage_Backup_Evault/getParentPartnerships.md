@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getParentPartnerships
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getParentPartnerships
+
+Retrieve the volumes or snapshots partnered with a network storage volume in a parental role.
+
+
 ## Overview 
 Retrieve the volumes or snapshots partnered with a network storage volume in a parental role.
 

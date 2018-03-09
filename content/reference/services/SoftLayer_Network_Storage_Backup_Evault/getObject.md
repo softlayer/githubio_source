@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getObject
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getObject
+
+Retrieve a SoftLayer_Network_Storage_Backup_Evault record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Network_Storage_Backup_Evault object whose ID corresponds to the ID number of the init parameter passed to the SoftLayer_Network_Storage_Backup_Evault service. 
 

@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::disableSnapshots
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::disableSnapshots
+
+Disable snapshots of this Storage Volume on a schedule.
+
+
 ## Overview 
 This method is not valid for Legacy iSCSI Storage Volumes. 
 

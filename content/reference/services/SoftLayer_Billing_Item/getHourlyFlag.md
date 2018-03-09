@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getHourlyFlag
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getHourlyFlag
+
+Retrieve a flag that will reflect whether this billing item is billed on an hourly basis or not.
+
+
 ## Overview 
 Retrieve a flag that will reflect whether this billing item is billed on an hourly basis or not.
 

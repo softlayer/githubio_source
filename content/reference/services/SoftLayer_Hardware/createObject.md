@@ -10,7 +10,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::createObject
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::createObject
+
+Create a new server
+
+
 ## Overview 
 
 <style type="text/css">.create_object > li > div { padding-top: .5em; padding-bottom: .5em}</style> 

@@ -52,34 +52,64 @@ SoftLayer_Container_Bandwidth_GraphOutputs models an individual bandwidth graph 
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#graphImage" name=graphImage>graphImage</a></span>
+            <span class='views-field-title'>
+                <a href="#graphImage" name=graphImage>graphImage</a>
+            </span>
             <div class='views-field-body'>The raw PNG binary data of a bandwidth graph image. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>binary data</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>binary data</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#graphTitle" name=graphTitle>graphTitle</a></span>
+            <span class='views-field-title'>
+                <a href="#graphTitle" name=graphTitle>graphTitle</a>
+            </span>
             <div class='views-field-body'>A bandwidth graph's title. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#inBoundTotalBytes" name=inBoundTotalBytes>inBoundTotalBytes</a></span>
+            <span class='views-field-title'>
+                <a href="#inBoundTotalBytes" name=inBoundTotalBytes>inBoundTotalBytes</a>
+            </span>
             <div class='views-field-body'>The amount of inbound traffic reported on a bandwidth graph image. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsigned long</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsigned long</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#maxEndDate" name=maxEndDate>maxEndDate</a></span>
+            <span class='views-field-title'>
+                <a href="#maxEndDate" name=maxEndDate>maxEndDate</a>
+            </span>
             <div class='views-field-body'>The ending date of the data represented in a bandwidth graph. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#minStartDate" name=minStartDate>minStartDate</a></span>
+            <span class='views-field-title'>
+                <a href="#minStartDate" name=minStartDate>minStartDate</a>
+            </span>
             <div class='views-field-body'>The beginning date of the data represented in a bandwidth graph. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#outBoundTotalBytes" name=outBoundTotalBytes>outBoundTotalBytes</a></span>
+            <span class='views-field-title'>
+                <a href="#outBoundTotalBytes" name=outBoundTotalBytes>outBoundTotalBytes</a>
+            </span>
             <div class='views-field-body'>The amount of outbound traffic reported on a bandwidth graph image. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsigned long</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsigned long</p>
+            </div>
         </div>
             </div>
     </div>

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::editObject
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::editObject
+
+Edit various settings for a network tunnel.
+
+
 ## Overview 
 Negotiation parameters for both phases one and two are editable. Here are the phase one and two parameters that can modified: 
 

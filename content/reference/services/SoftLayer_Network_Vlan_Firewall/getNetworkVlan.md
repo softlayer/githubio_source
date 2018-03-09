@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan_Firewall"
 ---
-# SoftLayer_Network_Vlan_Firewall::getNetworkVlan
+# [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getNetworkVlan
+
+Retrieve the VLAN object that a firewall is associated with and protecting.
+
+
 ## Overview 
 Retrieve the VLAN object that a firewall is associated with and protecting.
 

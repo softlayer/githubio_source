@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Hub_Cleversafe_Account"
 ---
-# SoftLayer_Network_Storage_Hub_Cleversafe_Account::getMetricTrackingObject
+# [SoftLayer_Network_Storage_Hub_Cleversafe_Account](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account)::getMetricTrackingObject
+
+Retrieve provides an interface to various metrics relating to the usage of an IBM Cloud Object Storage account.
+
+
 ## Overview 
 Retrieve provides an interface to various metrics relating to the usage of an IBM Cloud Object Storage account.
 

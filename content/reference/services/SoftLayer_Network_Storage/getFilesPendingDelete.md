@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getFilesPendingDelete
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getFilesPendingDelete
+
+Retrieve a list of files in a Storage account's recycle bin.
+
+
 ## Overview 
 {{CloudLayerOnlyMethod}} Retrieve a list of files that are pending deletion in a Storage account's recycle bin. Files in an account's recycle bin may either be restored to the account's root directory or permanently deleted. This method does not download file content. 
 

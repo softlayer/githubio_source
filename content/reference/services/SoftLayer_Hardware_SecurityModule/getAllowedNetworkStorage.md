@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getAllowedNetworkStorage
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getAllowedNetworkStorage
+
+Retrieve the SoftLayer_Network_Storage objects that this SoftLayer_Hardware has access to.
+
+
 ## Overview 
 Retrieve the SoftLayer_Network_Storage objects that this SoftLayer_Hardware has access to.
 

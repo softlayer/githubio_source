@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_IpAddress_Global"
 ---
-# SoftLayer_Network_Subnet_IpAddress_Global::route
+# [SoftLayer_Network_Subnet_IpAddress_Global](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global)::route
+
+create a new transaction to reroute a global IP.
+
+
 ## Overview 
 This function is used to create a new transaction to modify a global IP route. Routes are updated in one to two minutes depending on the number of transactions that are pending for a router. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getScaleAssets
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getScaleAssets
+
+Retrieve collection of scale assets this hardware corresponds to.
+
+
 ## Overview 
 Retrieve collection of scale assets this hardware corresponds to.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getAccount
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getAccount
+
+Retrieve the customer account that a user belongs to.
+
+
 ## Overview 
 Retrieve the customer account that a user belongs to.
 

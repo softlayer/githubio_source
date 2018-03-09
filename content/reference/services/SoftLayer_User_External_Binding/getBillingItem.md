@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_External_Binding"
 ---
-# SoftLayer_User_External_Binding::getBillingItem
+# [SoftLayer_User_External_Binding](/reference/services/SoftLayer_User_External_Binding)::getBillingItem
+
+Retrieve information regarding the billing item for external authentication.
+
+
 ## Overview 
 Retrieve information regarding the billing item for external authentication.
 

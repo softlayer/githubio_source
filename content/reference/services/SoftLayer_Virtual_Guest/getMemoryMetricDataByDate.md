@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getMemoryMetricDataByDate
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getMemoryMetricDataByDate
+
+Retrieve records containing the amount memory that was used for the specified time frame for a computing instance. 
+
+
 ## Overview 
 Use this method when needing the metric data for memory for a single computing instance. 
 

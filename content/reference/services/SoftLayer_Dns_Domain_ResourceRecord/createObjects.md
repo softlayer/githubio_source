@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_ResourceRecord"
 ---
-# SoftLayer_Dns_Domain_ResourceRecord::createObjects
+# [SoftLayer_Dns_Domain_ResourceRecord](/reference/services/SoftLayer_Dns_Domain_ResourceRecord)::createObjects
+
+Create multiple domain resource records.
+
+
 ## Overview 
 Create multiple resource records on a domain. This follows the same logic as ''createObject'. The serial number of the domain associated with this resource record is updated upon creation. 
 

@@ -24,7 +24,7 @@ SoftLayer_Location_Datacenter exposes functionality to access datacenter-specifi
 
 ### seeAlso
 
-* [SoftLayer_Location](/reference/datatypes/SoftLayer_Location )
+* [SoftLayer_Location](/reference/services/SoftLayer_Location )
 
 
         

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Security_Question"
 ---
-# SoftLayer_User_Security_Question::getObject
+# [SoftLayer_User_Security_Question](/reference/services/SoftLayer_User_Security_Question)::getObject
+
+Retrieve a SoftLayer_User_Security_Question record.
+
+
 ## Overview 
 getAllObjects retrieves all the SoftLayer_User_Security_Question objects where it is set to be viewable. 
 

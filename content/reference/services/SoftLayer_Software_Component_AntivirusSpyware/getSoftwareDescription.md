@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_AntivirusSpyware"
 ---
-# SoftLayer_Software_Component_AntivirusSpyware::getSoftwareDescription
+# [SoftLayer_Software_Component_AntivirusSpyware](/reference/services/SoftLayer_Software_Component_AntivirusSpyware)::getSoftwareDescription
+
+Retrieve the Software Description of this Software Component.
+
+
 ## Overview 
 Retrieve the Software Description of this Software Component.
 

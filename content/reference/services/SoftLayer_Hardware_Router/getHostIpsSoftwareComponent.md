@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getHostIpsSoftwareComponent
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getHostIpsSoftwareComponent
+
+Retrieve information regarding a host IPS software component object.
+
+
 ## Overview 
 Retrieve information regarding a host IPS software component object.
 

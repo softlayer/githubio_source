@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getVirtualStorageArchiveRepositories
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualStorageArchiveRepositories
+
+Retrieve an account's associated virtual server archived storage repositories.
+
+
 ## Overview 
 Retrieve an account's associated virtual server archived storage repositories.
 

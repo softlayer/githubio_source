@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getItemLocationConflicts
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getItemLocationConflicts
+
+Retrieve the item-location conflicts associated with a package.
+
+
 ## Overview 
 Retrieve the item-location conflicts associated with a package.
 

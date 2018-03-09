@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getPendingInvoiceTotalRecurringAmount
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPendingInvoiceTotalRecurringAmount
+
+Retrieve the total recurring amount of an account's pending invoice, if one exists.
+
+
 ## Overview 
 Retrieve the total recurring amount of an account's pending invoice, if one exists.
 

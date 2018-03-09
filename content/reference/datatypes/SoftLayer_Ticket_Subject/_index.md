@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Ticket_Subject
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Ticket_Subject' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Ticket_Subject' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Ticket_Subject' >Datatype</a></li>
     </ul>
 </div>
 
@@ -34,7 +34,7 @@ The SoftLayer_Ticket_Subject data type models one of the possible subjects that 
 * [SoftLayer_Ticket (type)](/reference/datatypes/SoftLayer_Ticket (type) )
 
 
-* [SoftLayer_Ticket_Subject](/reference/datatypes/SoftLayer_Ticket_Subject )
+* [SoftLayer_Ticket_Subject](/reference/services/SoftLayer_Ticket_Subject )
 
 
 
@@ -54,53 +54,98 @@ The SoftLayer_Ticket_Subject data type models one of the possible subjects that 
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#categoryId" name=categoryId>categoryId</a></span>
+            <span class='views-field-title'>
+                <a href="#categoryId" name=categoryId>categoryId</a>
+            </span>
             <div class='views-field-body'>The subject category id that this ticket subject belongs to. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>A ticket subject's internal identifier. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>A ticket subject's name. This name is used for a standard support ticket's title. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#parentId" name=parentId>parentId</a></span>
+            <span class='views-field-title'>
+                <a href="#parentId" name=parentId>parentId</a>
+            </span>
             <div class='views-field-body'>Specifies the parent subject id. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#category" name=category>category</a></span>
+            <span class='views-field-title'>
+                <a href="#category" name=category>category</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Ticket_Subject_Category'>SoftLayer_Ticket_Subject_Category </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Ticket_Subject_Category'>SoftLayer_Ticket_Subject_Category </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#children" name=children>children</a></span>
+            <span class='views-field-title'>
+                <a href="#children" name=children>children</a>
+            </span>
             <div class='views-field-body'>A child subject </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#group" name=group>group</a></span>
+            <span class='views-field-title'>
+                <a href="#group" name=group>group</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Ticket_Group'>SoftLayer_Ticket_Group </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Ticket_Group'>SoftLayer_Ticket_Group </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#parent" name=parent>parent</a></span>
+            <span class='views-field-title'>
+                <a href="#parent" name=parent>parent</a>
+            </span>
             <div class='views-field-body'>A parent subject </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#childrenCount" name=childrenCount>childrenCount</a></span>
+            <span class='views-field-title'>
+                <a href="#childrenCount" name=childrenCount>childrenCount</a>
+            </span>
             <div class='views-field-body'>A count of a child subject </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
         </div>
             </div>
 </div>

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getCancelFailureReasons
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getCancelFailureReasons
+
+Get a set of reasons why this VLAN may not be cancelled.
+
+
 ## Overview 
 Get a set of reasons why this VLAN may not be cancelled. If the result is empty, this VLAN may be cancelled. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LBaaS_Member"
 ---
-# SoftLayer_Network_LBaaS_Member::updateLoadBalancerMembers
+# [SoftLayer_Network_LBaaS_Member](/reference/services/SoftLayer_Network_LBaaS_Member)::updateLoadBalancerMembers
+
+Update members weight
+
+
 ## Overview 
 Update members weight and return load balancer object with listeners, pools and members populated 
 

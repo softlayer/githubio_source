@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getTotalScheduleSnapshotRetentionCount
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getTotalScheduleSnapshotRetentionCount
+
+Retrieve the total snapshot retention count of all schedules on this network storage volume.
+
+
 ## Overview 
 Retrieve the total snapshot retention count of all schedules on this network storage volume.
 

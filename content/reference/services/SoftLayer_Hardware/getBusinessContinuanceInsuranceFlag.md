@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getBusinessContinuanceInsuranceFlag
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getBusinessContinuanceInsuranceFlag
+
+Retrieve status indicating whether or not a piece of hardware has business continuance insurance.
+
+
 ## Overview 
 Retrieve status indicating whether or not a piece of hardware has business continuance insurance.
 

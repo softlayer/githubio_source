@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice"
 ---
-# SoftLayer_Billing_Invoice::getPreliminaryPdf
+# [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getPreliminaryPdf
+
+Retrieve a PDF copy of an invoice.
+
+
 ## Overview 
 Retrieve a PDF record of a SoftLayer invoice. SoftLayer keeps PDF records of all closed invoices for customer retrieval from the portal and API. You must have a PDF reader installed in order to view these invoice files. 
 

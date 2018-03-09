@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getSshKeys
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSshKeys
+
+Retrieve customer specified SSH keys that can be implemented onto a newly provisioned or reloaded server.
+
+
 ## Overview 
 Retrieve customer specified SSH keys that can be implemented onto a newly provisioned or reloaded server.
 

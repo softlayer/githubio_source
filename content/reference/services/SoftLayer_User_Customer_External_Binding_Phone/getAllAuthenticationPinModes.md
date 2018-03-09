@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Phone"
 ---
-# SoftLayer_User_Customer_External_Binding_Phone::getAllAuthenticationPinModes
+# [SoftLayer_User_Customer_External_Binding_Phone](/reference/services/SoftLayer_User_Customer_External_Binding_Phone)::getAllAuthenticationPinModes
+
+Returns available authentication pin modes
+
+
 ## Overview 
 This service returns key names of all available authentication modes. Refer to [[SoftLayer_User_Customer_External_Binding_Phone::getAllAuthenticationModes|getAllAuthenticationModes]] to retrieve authentication mode key names. 
 

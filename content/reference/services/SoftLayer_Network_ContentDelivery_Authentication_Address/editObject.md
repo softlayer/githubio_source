@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Authentication_Address"
 ---
-# SoftLayer_Network_ContentDelivery_Authentication_Address::editObject
+# [SoftLayer_Network_ContentDelivery_Authentication_Address](/reference/services/SoftLayer_Network_ContentDelivery_Authentication_Address)::editObject
+
+Edits an authentication IP
+
+
 ## Overview 
 This method let you edit an authentication IP object by passing a modified object. 
 

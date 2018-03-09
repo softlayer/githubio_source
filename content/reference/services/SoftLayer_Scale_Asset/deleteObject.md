@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Asset"
 ---
-# SoftLayer_Scale_Asset::deleteObject
+# [SoftLayer_Scale_Asset](/reference/services/SoftLayer_Scale_Asset)::deleteObject
+
+Delete this group asset.
+
+
 ## Overview 
 
 

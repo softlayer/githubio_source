@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Group"
 ---
-# SoftLayer_Scale_Group::createObject
+# [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::createObject
+
+Create a scale group. If minimumMemberCount is greater than zero or desiredMemberCount is present, guest members will be created right away. 
+
+
 ## Overview 
 
 

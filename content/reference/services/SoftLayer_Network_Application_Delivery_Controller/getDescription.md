@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller"
 ---
-# SoftLayer_Network_Application_Delivery_Controller::getDescription
+# [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getDescription
+
+Retrieve a brief description of an application delivery controller record.
+
+
 ## Overview 
 Retrieve a brief description of an application delivery controller record.
 

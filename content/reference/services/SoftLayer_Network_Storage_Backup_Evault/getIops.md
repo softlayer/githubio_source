@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getIops
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getIops
+
+Retrieve the maximum number of IOPs selected for this volume.
+
+
 ## Overview 
 Retrieve the maximum number of IOPs selected for this volume.
 

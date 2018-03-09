@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getMemoryCapacity
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getMemoryCapacity
+
+Retrieve the amount of memory a piece of hardware has, measured in gigabytes.
+
+
 ## Overview 
 Retrieve the amount of memory a piece of hardware has, measured in gigabytes.
 

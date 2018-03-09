@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Provisioning_Maintenance_Window"
 ---
-# SoftLayer_Provisioning_Maintenance_Window::getMaintenanceWindowTicketsByTicketId
+# [SoftLayer_Provisioning_Maintenance_Window](/reference/services/SoftLayer_Provisioning_Maintenance_Window)::getMaintenanceWindowTicketsByTicketId
+
+Returns maintenance window ticket
+
+
 ## Overview 
 getMaintenanceWindowTicketsByTicketId() returns a list maintenance window ticket records by ticket id 
 

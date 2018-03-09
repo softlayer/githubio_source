@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getUpgradeRequests
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getUpgradeRequests
+
+Retrieve an account's associated upgrade requests.
+
+
 ## Overview 
 Retrieve an account's associated upgrade requests.
 

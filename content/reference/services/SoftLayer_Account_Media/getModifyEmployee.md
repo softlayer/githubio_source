@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Media"
 ---
-# SoftLayer_Account_Media::getModifyEmployee
+# [SoftLayer_Account_Media](/reference/services/SoftLayer_Account_Media)::getModifyEmployee
+
+Retrieve the employee who last modified the media.
+
+
 ## Overview 
 Retrieve the employee who last modified the media.
 

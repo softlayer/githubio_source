@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Security_Scanner_Request"
 ---
-# SoftLayer_Network_Security_Scanner_Request::createObject
+# [SoftLayer_Network_Security_Scanner_Request](/reference/services/SoftLayer_Network_Security_Scanner_Request)::createObject
+
+Create a new vulnerability scan request.
+
+
 ## Overview 
 Create a new vulnerability scan request. New scan requests are picked up every five minutes, and the time to complete an actual scan may vary. Once the scan is finished, it can take up to another five minutes for the report to be generated and accessible. 
 

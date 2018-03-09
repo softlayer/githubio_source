@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Order"
 ---
-# SoftLayer_Product_Order::getNetworks
+# [SoftLayer_Product_Order](/reference/services/SoftLayer_Product_Order)::getNetworks
+
+Retrieve the networks that are available during ordering.
+
+
 ## Overview 
 This method returns a collection of [[SoftLayer_Container_Product_Order_Network]] objects. This will contain the available networks that can be used when ordering services. 
 

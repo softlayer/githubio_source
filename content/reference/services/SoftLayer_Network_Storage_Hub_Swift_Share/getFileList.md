@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Hub_Swift_Share"
 ---
-# SoftLayer_Network_Storage_Hub_Swift_Share::getFileList
+# [SoftLayer_Network_Storage_Hub_Swift_Share](/reference/services/SoftLayer_Network_Storage_Hub_Swift_Share)::getFileList
+
+Get a list of the files in a container and path.
+
+
 ## Overview 
 This method returns a collection of the file objects within a container and the given path. 
 

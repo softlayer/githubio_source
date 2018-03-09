@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getFacilityLogs
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getFacilityLogs
+
+Retrieve logs of who entered a colocation area which is assigned to this account, or when a user under this account enters a datacenter.
+
+
 ## Overview 
 Retrieve logs of who entered a colocation area which is assigned to this account, or when a user under this account enters a datacenter.
 

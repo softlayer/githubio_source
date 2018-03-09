@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Permission_Group_Type"
 ---
-# SoftLayer_User_Permission_Group_Type::getGroups
+# [SoftLayer_User_Permission_Group_Type](/reference/services/SoftLayer_User_Permission_Group_Type)::getGroups
+
+
+
+
 ## Overview 
 
 

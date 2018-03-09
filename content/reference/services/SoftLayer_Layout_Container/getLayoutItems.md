@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Layout_Container"
 ---
-# SoftLayer_Layout_Container::getLayoutItems
+# [SoftLayer_Layout_Container](/reference/services/SoftLayer_Layout_Container)::getLayoutItems
+
+Retrieve the layout items assigned to this layout container
+
+
 ## Overview 
 Retrieve the layout items assigned to this layout container
 

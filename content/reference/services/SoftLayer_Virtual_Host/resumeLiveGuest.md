@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Host"
 ---
-# SoftLayer_Virtual_Host::resumeLiveGuest
+# [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::resumeLiveGuest
+
+Resume a guest.
+
+
 ## Overview 
 Resume a virtual guest 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Description"
 ---
-# SoftLayer_Software_Description::getSoftwareLicenses
+# [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description)::getSoftwareLicenses
+
+Retrieve software Licenses that govern this Software Description.
+
+
 ## Overview 
 Retrieve software Licenses that govern this Software Description.
 

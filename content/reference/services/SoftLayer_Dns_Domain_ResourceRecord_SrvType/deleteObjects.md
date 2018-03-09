@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_ResourceRecord_SrvType"
 ---
-# SoftLayer_Dns_Domain_ResourceRecord_SrvType::deleteObjects
+# [SoftLayer_Dns_Domain_ResourceRecord_SrvType](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType)::deleteObjects
+
+Delete multiple SRV records from a domain.
+
+
 ## Overview 
 Remove multiple SRV records from a domain. This follows the same logic as ''deleteObject'' and '''cannot be undone'''. The serial number of the domain associated with this SRV record is updated upon deletion. 
 

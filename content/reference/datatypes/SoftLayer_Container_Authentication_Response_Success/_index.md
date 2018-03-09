@@ -39,19 +39,34 @@ The SoftLayer_Container_Authentication_Response_SUCCESS data type contains infor
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#accounts" name=accounts>accounts</a></span>
+            <span class='views-field-title'>
+                <a href="#accounts" name=accounts>accounts</a>
+            </span>
             <div class='views-field-body'>The list of linked accounts for the authenticated SoftLayer customer portal user. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Authentication_Response_Account'>SoftLayer_Container_Authentication_Response_Account[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Authentication_Response_Account'>SoftLayer_Container_Authentication_Response_Account[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#statusKeyName" name=statusKeyName>statusKeyName</a></span>
+            <span class='views-field-title'>
+                <a href="#statusKeyName" name=statusKeyName>statusKeyName</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#token" name=token>token</a></span>
+            <span class='views-field-title'>
+                <a href="#token" name=token>token</a>
+            </span>
             <div class='views-field-body'>The token for interacting with the SoftLayer customer portal. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_User_Authentication_Token'>SoftLayer_Container_User_Authentication_Token </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_User_Authentication_Token'>SoftLayer_Container_User_Authentication_Token </a></p>
+            </div>
         </div>
             </div>
     </div>

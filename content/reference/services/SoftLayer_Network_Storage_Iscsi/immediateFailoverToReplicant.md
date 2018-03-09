@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::immediateFailoverToReplicant
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::immediateFailoverToReplicant
+
+Immediate Failover to a volume replicant.
+
+
 ## Overview 
 Immediate Failover to a volume replicant.  During the time which the replicant is in use the local nas volume will not be available. 
 

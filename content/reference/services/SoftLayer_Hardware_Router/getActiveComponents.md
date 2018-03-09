@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getActiveComponents
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getActiveComponents
+
+Retrieve a piece of hardware's active physical components.
+
+
 ## Overview 
 Retrieve a piece of hardware's active physical components.
 

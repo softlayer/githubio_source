@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Resource_Metadata"
 ---
-# SoftLayer_Resource_Metadata::getId
+# [SoftLayer_Resource_Metadata](/reference/services/SoftLayer_Resource_Metadata)::getId
+
+A resource's id
+
+
 ## Overview 
 The getId method retrieves the ID for the resource
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getHighAvailabilityFirewallFlag
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getHighAvailabilityFirewallFlag
+
+
+
+
 ## Overview 
 
 

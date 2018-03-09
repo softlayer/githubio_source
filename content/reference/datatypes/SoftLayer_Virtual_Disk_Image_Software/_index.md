@@ -24,10 +24,10 @@ A SoftLayer_Virtual_Disk_Image_Software record connects a computing instance's v
 
 ### seeAlso
 
-* [SoftLayer_Virtual_Disk_Image](/reference/datatypes/SoftLayer_Virtual_Disk_Image )
+* [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image )
 
 
-* [SoftLayer_Software_Description](/reference/datatypes/SoftLayer_Software_Description )
+* [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description )
 
 
 
@@ -47,38 +47,68 @@ A SoftLayer_Virtual_Disk_Image_Software record connects a computing instance's v
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>The unique identifier of a virtual disk image to software relationship.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#softwareDescriptionId" name=softwareDescriptionId>softwareDescriptionId</a></span>
+            <span class='views-field-title'>
+                <a href="#softwareDescriptionId" name=softwareDescriptionId>softwareDescriptionId</a>
+            </span>
             <div class='views-field-body'>The unique identifier of the software that a virtual disk image is associated with.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#diskImage" name=diskImage>diskImage</a></span>
+            <span class='views-field-title'>
+                <a href="#diskImage" name=diskImage>diskImage</a>
+            </span>
             <div class='views-field-body'>The virtual disk image that is associated with software. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#passwords" name=passwords>passwords</a></span>
+            <span class='views-field-title'>
+                <a href="#passwords" name=passwords>passwords</a>
+            </span>
             <div class='views-field-body'>Username/Password pairs used for access to a Software Installation. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Software_Password'>SoftLayer_Virtual_Disk_Image_Software_Password[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Software_Password'>SoftLayer_Virtual_Disk_Image_Software_Password[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#softwareDescription" name=softwareDescription>softwareDescription</a></span>
+            <span class='views-field-title'>
+                <a href="#softwareDescription" name=softwareDescription>softwareDescription</a>
+            </span>
             <div class='views-field-body'>The software associated with a virtual disk image. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#passwordCount" name=passwordCount>passwordCount</a></span>
+            <span class='views-field-title'>
+                <a href="#passwordCount" name=passwordCount>passwordCount</a>
+            </span>
             <div class='views-field-body'>A count of username/Password pairs used for access to a Software Installation. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
         </div>
             </div>
 </div>

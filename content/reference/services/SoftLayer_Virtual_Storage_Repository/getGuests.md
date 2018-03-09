@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Storage_Repository"
 ---
-# SoftLayer_Virtual_Storage_Repository::getGuests
+# [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getGuests
+
+Retrieve the computing instances that have disk images in a storage repository.
+
+
 ## Overview 
 Retrieve the computing instances that have disk images in a storage repository.
 

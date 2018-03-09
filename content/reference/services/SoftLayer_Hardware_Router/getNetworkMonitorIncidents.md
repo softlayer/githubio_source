@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getNetworkMonitorIncidents
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getNetworkMonitorIncidents
+
+Retrieve the status of all of a piece of hardware's network monitoring incidents.
+
+
 ## Overview 
 Retrieve the status of all of a piece of hardware's network monitoring incidents.
 

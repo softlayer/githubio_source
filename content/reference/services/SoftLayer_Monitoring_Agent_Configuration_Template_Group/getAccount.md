@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent_Configuration_Template_Group"
 ---
-# SoftLayer_Monitoring_Agent_Configuration_Template_Group::getAccount
+# [SoftLayer_Monitoring_Agent_Configuration_Template_Group](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group)::getAccount
+
+
+
+
 ## Overview 
 
 

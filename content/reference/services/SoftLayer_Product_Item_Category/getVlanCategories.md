@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Category"
 ---
-# SoftLayer_Product_Item_Category::getVlanCategories
+# [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category)::getVlanCategories
+
+
+
+
 ## Overview 
 
 

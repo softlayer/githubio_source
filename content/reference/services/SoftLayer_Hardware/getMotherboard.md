@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getMotherboard
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getMotherboard
+
+Retrieve information regarding a piece of hardware's motherboard.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's motherboard.
 

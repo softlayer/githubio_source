@@ -39,39 +39,74 @@ classes:
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#active" name=active>active</a></span>
+            <span class='views-field-title'>
+                <a href="#active" name=active>active</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#emailAddress" name=emailAddress>emailAddress</a></span>
+            <span class='views-field-title'>
+                <a href="#emailAddress" name=emailAddress>emailAddress</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#federated" name=federated>federated</a></span>
+            <span class='views-field-title'>
+                <a href="#federated" name=federated>federated</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#foundAs" name=foundAs>foundAs</a></span>
+            <span class='views-field-title'>
+                <a href="#foundAs" name=foundAs>foundAs</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#numberOfIbmIdsWithEmailAddress" name=numberOfIbmIdsWithEmailAddress>numberOfIbmIdsWithEmailAddress</a></span>
+            <span class='views-field-title'>
+                <a href="#numberOfIbmIdsWithEmailAddress" name=numberOfIbmIdsWithEmailAddress>numberOfIbmIdsWithEmailAddress</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#uniqueId" name=uniqueId>uniqueId</a></span>
+            <span class='views-field-title'>
+                <a href="#uniqueId" name=uniqueId>uniqueId</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#username" name=username>username</a></span>
+            <span class='views-field-title'>
+                <a href="#username" name=username>username</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getNetworkComponents
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getNetworkComponents
+
+Retrieve returns a hardware's network components.
+
+
 ## Overview 
 Retrieve returns a hardware's network components.
 

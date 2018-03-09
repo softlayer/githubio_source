@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_DirectLink_Provider"
 ---
-# SoftLayer_Network_DirectLink_Provider::getObject
+# [SoftLayer_Network_DirectLink_Provider](/reference/services/SoftLayer_Network_DirectLink_Provider)::getObject
+
+Retrieve a SoftLayer_Network_DirectLink_Provider record.
+
+
 ## Overview 
 
 

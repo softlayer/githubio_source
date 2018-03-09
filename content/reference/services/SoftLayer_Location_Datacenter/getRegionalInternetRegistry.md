@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location_Datacenter"
 ---
-# SoftLayer_Location_Datacenter::getRegionalInternetRegistry
+# [SoftLayer_Location_Datacenter](/reference/services/SoftLayer_Location_Datacenter)::getRegionalInternetRegistry
+
+
+
+
 ## Overview 
 
 

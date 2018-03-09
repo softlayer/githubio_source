@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getPrivateVlanByIpAddress
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getPrivateVlanByIpAddress
+
+Retrieve the private network VLAN associated with an IP address.
+
+
 ## Overview 
 Retrieve the private network VLAN associated with an IP address. 
 

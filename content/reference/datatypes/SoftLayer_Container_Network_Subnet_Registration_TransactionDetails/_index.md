@@ -39,14 +39,24 @@ SoftLayer_Container_Subnet_Registration_TransactionDetails is provided to return
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#subnetReferences" name=subnetReferences>subnetReferences</a></span>
+            <span class='views-field-title'>
+                <a href="#subnetReferences" name=subnetReferences>subnetReferences</a>
+            </span>
             <div class='views-field-body'>The IDs and Subnets of the [[SoftLayer_Network_Subnet_Registration]] object. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Network_Subnet_Registration_SubnetReference'>SoftLayer_Container_Network_Subnet_Registration_SubnetReference[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Network_Subnet_Registration_SubnetReference'>SoftLayer_Container_Network_Subnet_Registration_SubnetReference[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#transactionId" name=transactionId>transactionId</a></span>
+            <span class='views-field-title'>
+                <a href="#transactionId" name=transactionId>transactionId</a>
+            </span>
             <div class='views-field-body'>The ID of the Transaction object. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
     </div>

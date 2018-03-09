@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getServerPowerState
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getServerPowerState
+
+Retrieves server's power state
+
+
 ## Overview 
 Retrieves the power state for the server.  The server's power status is retrieved from its remote management card.  This will return 'on' or 'off'. 
 

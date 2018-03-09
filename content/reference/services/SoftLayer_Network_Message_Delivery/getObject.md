@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Message_Delivery"
 ---
-# SoftLayer_Network_Message_Delivery::getObject
+# [SoftLayer_Network_Message_Delivery](/reference/services/SoftLayer_Network_Message_Delivery)::getObject
+
+Retrieve a SoftLayer_Network_Message_Delivery record.
+
+
 ## Overview 
 
 

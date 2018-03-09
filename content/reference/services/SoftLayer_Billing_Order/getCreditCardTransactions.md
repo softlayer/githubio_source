@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order"
 ---
-# SoftLayer_Billing_Order::getCreditCardTransactions
+# [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getCreditCardTransactions
+
+Retrieve all credit card transactions associated with this order. If this order was not placed with a credit card, this will be empty.
+
+
 ## Overview 
 Retrieve all credit card transactions associated with this order. If this order was not placed with a credit card, this will be empty.
 

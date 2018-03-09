@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getLatestBillDate
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getLatestBillDate
+
+Retrieve an account's most recent billing date.
+
+
 ## Overview 
 Retrieve an account's most recent billing date.
 

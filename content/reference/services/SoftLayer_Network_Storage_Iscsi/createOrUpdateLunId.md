@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::createOrUpdateLunId
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::createOrUpdateLunId
+
+Creates or updates the LUN ID property on a volume.
+
+
 ## Overview 
 The LUN ID only takes effect during the Host Authorization process. It is required to de-authorize all hosts before using this method. 
 

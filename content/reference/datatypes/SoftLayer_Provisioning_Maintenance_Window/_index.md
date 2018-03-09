@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Provisioning_Maintenance_Window
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Window' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Provisioning_Maintenance_Window' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Window' >Datatype</a></li>
     </ul>
 </div>
 
@@ -49,34 +49,64 @@ The SoftLayer_Provisioning_Maintenance_Window represent a time window that SoftL
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#beginDate" name=beginDate>beginDate</a></span>
+            <span class='views-field-title'>
+                <a href="#beginDate" name=beginDate>beginDate</a>
+            </span>
             <div class='views-field-body'>The date and time a maintenance window is scheduled to begin. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#dayOfWeek" name=dayOfWeek>dayOfWeek</a></span>
+            <span class='views-field-title'>
+                <a href="#dayOfWeek" name=dayOfWeek>dayOfWeek</a>
+            </span>
             <div class='views-field-body'>An ISO-8601 numeric representation of the day of the week that a maintenance window is performed. 1: Monday, 7: Sunday </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#endDate" name=endDate>endDate</a></span>
+            <span class='views-field-title'>
+                <a href="#endDate" name=endDate>endDate</a>
+            </span>
             <div class='views-field-body'>The date and time a maintenance window is scheduled to end. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>Id of the maintenance window </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#locationId" name=locationId>locationId</a></span>
+            <span class='views-field-title'>
+                <a href="#locationId" name=locationId>locationId</a>
+            </span>
             <div class='views-field-body'>An internal identifier of the location (data center) record that a maintenance window takes place in. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#portalTzId" name=portalTzId>portalTzId</a></span>
+            <span class='views-field-title'>
+                <a href="#portalTzId" name=portalTzId>portalTzId</a>
+            </span>
             <div class='views-field-body'>An internal identifier of the datacenter timezone. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
     </div>

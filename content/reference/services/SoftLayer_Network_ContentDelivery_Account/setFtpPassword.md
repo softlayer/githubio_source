@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::setFtpPassword
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::setFtpPassword
+
+Updates a CDN FTP user password
+
+
 ## Overview 
 With a CDN FTP, you can upload contents to CDN host server. Once you uploaded contents, your contents will be fetched by the CDN POP (Points of Presence) servers as needed. 
 

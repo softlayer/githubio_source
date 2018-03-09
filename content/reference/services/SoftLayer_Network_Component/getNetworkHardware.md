@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getNetworkHardware
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getNetworkHardware
+
+Retrieve all network devices in SoftLayer's network hierarchy that this device is connected to.
+
+
 ## Overview 
 Retrieve all network devices in SoftLayer's network hierarchy that this device is connected to.
 

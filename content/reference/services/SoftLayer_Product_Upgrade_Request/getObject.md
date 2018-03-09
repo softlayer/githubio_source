@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Upgrade_Request"
 ---
-# SoftLayer_Product_Upgrade_Request::getObject
+# [SoftLayer_Product_Upgrade_Request](/reference/services/SoftLayer_Product_Upgrade_Request)::getObject
+
+Retrieve a SoftLayer_Product_Upgrade_Request record.
+
+
 ## Overview 
 getObject retrieves a SoftLayer_Product_Upgrade_Request object on your account whose ID corresponds to the ID of the init parameter passed to the SoftLayer_Product_Upgrade_Request service. 
 

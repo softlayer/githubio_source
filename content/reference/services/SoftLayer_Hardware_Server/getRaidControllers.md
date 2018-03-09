@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getRaidControllers
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getRaidControllers
+
+Retrieve the RAID controllers contained within a piece of hardware.
+
+
 ## Overview 
 Retrieve the RAID controllers contained within a piece of hardware.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice"
 ---
-# SoftLayer_Billing_Invoice::getInvoiceTopLevelItems
+# [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getInvoiceTopLevelItems
+
+Retrieve a list of top-level invoice items that are on the currently pending invoice.
+
+
 ## Overview 
 Retrieve a list of top-level invoice items that are on the currently pending invoice.
 

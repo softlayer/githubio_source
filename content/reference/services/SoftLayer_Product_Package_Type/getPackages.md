@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package_Type"
 ---
-# SoftLayer_Product_Package_Type::getPackages
+# [SoftLayer_Product_Package_Type](/reference/services/SoftLayer_Product_Package_Type)::getPackages
+
+Retrieve all the packages associated with the given package type.
+
+
 ## Overview 
 Retrieve all the packages associated with the given package type.
 

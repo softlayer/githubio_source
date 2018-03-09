@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getNetworkConnectionDetails
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getNetworkConnectionDetails
+
+Retrieve network connection details for complex network storage volumes.
+
+
 ## Overview 
 
 

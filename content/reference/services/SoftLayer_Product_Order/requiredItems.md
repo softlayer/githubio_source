@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Order"
 ---
-# SoftLayer_Product_Order::requiredItems
+# [SoftLayer_Product_Order](/reference/services/SoftLayer_Product_Order)::requiredItems
+
+Get list of items that are required with the item prices provided
+
+
 ## Overview 
 Get list of items that are required with the item prices provided
 

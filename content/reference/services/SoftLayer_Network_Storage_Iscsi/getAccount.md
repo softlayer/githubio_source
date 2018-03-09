@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getAccount
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getAccount
+
+Retrieve the account that a Storage services belongs to.
+
+
 ## Overview 
 Retrieve the account that a Storage services belongs to.
 

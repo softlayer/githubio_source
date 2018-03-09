@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::editObject
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::editObject
+
+Edit a VLAN's properties
+
+
 ## Overview 
 Edit a VLAN's properties
 

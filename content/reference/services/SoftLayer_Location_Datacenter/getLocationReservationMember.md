@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location_Datacenter"
 ---
-# SoftLayer_Location_Datacenter::getLocationReservationMember
+# [SoftLayer_Location_Datacenter](/reference/services/SoftLayer_Location_Datacenter)::getLocationReservationMember
+
+Retrieve a location's Dedicated Rack member
+
+
 ## Overview 
 Retrieve a location's Dedicated Rack member
 

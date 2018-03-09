@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getCdnAccounts
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getCdnAccounts
+
+Retrieve an account's associated CDN accounts.
+
+
 ## Overview 
 Retrieve an account's associated CDN accounts.
 

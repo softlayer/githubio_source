@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_User_Subscriber_Mobile"
 ---
-# SoftLayer_Notification_User_Subscriber_Mobile::getResourceRecord
+# [SoftLayer_Notification_User_Subscriber_Mobile](/reference/services/SoftLayer_Notification_User_Subscriber_Mobile)::getResourceRecord
+
+Retrieve the subscriber id to resource id mapping.
+
+
 ## Overview 
 Retrieve the subscriber id to resource id mapping.
 

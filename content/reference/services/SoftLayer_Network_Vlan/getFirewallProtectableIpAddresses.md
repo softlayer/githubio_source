@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getFirewallProtectableIpAddresses
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getFirewallProtectableIpAddresses
+
+Get the IP addresses associated with this server that are protectable by a network component firewall.
+
+
 ## Overview 
 Get the IP addresses associated with this server that are protectable by a network component firewall. Note, this may not return all values for IPv6 subnets for this VLAN. Please use getFirewallProtectableSubnets to get all protectable subnets. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item_Virtual_DedicatedHost"
 ---
-# SoftLayer_Billing_Item_Virtual_DedicatedHost::getCancellationRequests
+# [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getCancellationRequests
+
+Retrieve this will return any cancellation requests that are associated with this billing item.
+
+
 ## Overview 
 Retrieve this will return any cancellation requests that are associated with this billing item.
 

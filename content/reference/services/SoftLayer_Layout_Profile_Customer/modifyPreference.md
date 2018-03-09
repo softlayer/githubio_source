@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Layout_Profile_Customer"
 ---
-# SoftLayer_Layout_Profile_Customer::modifyPreference
+# [SoftLayer_Layout_Profile_Customer](/reference/services/SoftLayer_Layout_Profile_Customer)::modifyPreference
+
+Modifies an associated layout preference
+
+
 ## Overview 
 This method modifies an existing associated [[SoftLayer_Layout_Profile_Preference]] object. If the preference object being modified is a default value object, a new record is created to override the default value. 
 

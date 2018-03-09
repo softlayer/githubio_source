@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getLatestNetworkMonitorIncident
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getLatestNetworkMonitorIncident
+
+Retrieve a piece of hardware's latest network monitoring incident.
+
+
 ## Overview 
 Retrieve a piece of hardware's latest network monitoring incident.
 

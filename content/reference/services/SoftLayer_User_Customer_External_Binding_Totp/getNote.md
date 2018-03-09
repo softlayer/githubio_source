@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Totp"
 ---
-# SoftLayer_User_Customer_External_Binding_Totp::getNote
+# [SoftLayer_User_Customer_External_Binding_Totp](/reference/services/SoftLayer_User_Customer_External_Binding_Totp)::getNote
+
+Retrieve an optional note for identifying the external binding.
+
+
 ## Overview 
 Retrieve an optional note for identifying the external binding.
 

@@ -24,7 +24,7 @@ SoftLayer [[SoftLayer_Metric_Tracking_Object|tracking objects]] can model variou
 
 ### seeAlso
 
-* [SoftLayer_Metric_Tracking_Object](/reference/datatypes/SoftLayer_Metric_Tracking_Object )
+* [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object )
 
 
 
@@ -44,14 +44,24 @@ SoftLayer [[SoftLayer_Metric_Tracking_Object|tracking objects]] can model variou
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#keyname" name=keyname>keyname</a></span>
+            <span class='views-field-title'>
+                <a href="#keyname" name=keyname>keyname</a>
+            </span>
             <div class='views-field-body'>Description A tracking object type's key name. This is a shorter description of what kind of data a tracking object group is polling.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>Description A tracking object type's name. This describes what kind of data a tracking object group is polling.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

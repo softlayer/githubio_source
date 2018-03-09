@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_CdnMarketplace_Account"
 ---
-# SoftLayer_Network_CdnMarketplace_Account::getAccount
+# [SoftLayer_Network_CdnMarketplace_Account](/reference/services/SoftLayer_Network_CdnMarketplace_Account)::getAccount
+
+Retrieve softLayer account to which the CDN account belongs.
+
+
 ## Overview 
 Retrieve softLayer account to which the CDN account belongs.
 

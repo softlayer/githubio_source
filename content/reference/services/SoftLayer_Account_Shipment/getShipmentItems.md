@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Shipment"
 ---
-# SoftLayer_Account_Shipment::getShipmentItems
+# [SoftLayer_Account_Shipment](/reference/services/SoftLayer_Account_Shipment)::getShipmentItems
+
+Retrieve the items in the shipment.
+
+
 ## Overview 
 Retrieve the items in the shipment.
 

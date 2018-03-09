@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component_Firewall"
 ---
-# SoftLayer_Network_Component_Firewall::getRules
+# [SoftLayer_Network_Component_Firewall](/reference/services/SoftLayer_Network_Component_Firewall)::getRules
+
+Retrieve the currently running rule set of this network component firewall.
+
+
 ## Overview 
 Retrieve the currently running rule set of this network component firewall.
 

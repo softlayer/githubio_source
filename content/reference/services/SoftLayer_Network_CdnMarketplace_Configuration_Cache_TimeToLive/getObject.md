@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive"
 ---
-# SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive::getObject
+# [SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive)::getObject
+
+Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive record.
+
+
 ## Overview 
 
 

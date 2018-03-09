@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getPreconfiguredFlag
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getPreconfiguredFlag
+
+Retrieve this flag indicates the package is pre-configured. (Deprecated)
+
+
 ## Overview 
 Retrieve this flag indicates the package is pre-configured. (Deprecated)
 

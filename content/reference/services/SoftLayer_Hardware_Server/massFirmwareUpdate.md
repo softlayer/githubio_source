@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::massFirmwareUpdate
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::massFirmwareUpdate
+
+Runs firmware updates on the servers components.
+
+
 ## Overview 
 You can launch firmware updates by selecting from your server list. It will bring your server offline for approximately 20 minutes while the updates are in progress. 
 

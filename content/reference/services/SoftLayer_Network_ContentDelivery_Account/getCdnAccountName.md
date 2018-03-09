@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::getCdnAccountName
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getCdnAccountName
+
+Retrieve the name of a CDN account.
+
+
 ## Overview 
 Retrieve the name of a CDN account.
 

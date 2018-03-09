@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getAvailableLocations
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getAvailableLocations
+
+Retrieve a collection of valid locations for this package. (Deprecated - Use [[SoftLayer_Product_Package/getRegions|getRegions]])
+
+
 ## Overview 
 Retrieve a collection of valid locations for this package. (Deprecated - Use [[SoftLayer_Product_Package/getRegions|getRegions]])
 

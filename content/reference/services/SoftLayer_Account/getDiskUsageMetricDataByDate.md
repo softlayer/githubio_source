@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getDiskUsageMetricDataByDate
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getDiskUsageMetricDataByDate
+
+Retrieve the metric data for disk space usage for a storage repository from the Metric Tracking Object System and the Legacy Data Warehouse. 
+
+
 ## Overview 
 Retrieve disk usage data on a [[SoftLayer_Virtual_Guest|Cloud Computing Instance]] image for the time range you provide from the Metric Tracking Object System and Legacy Data Warehouse. Each data entry objects contain ''dateTime'' and ''counter'' properties. ''dateTime'' property indicates the time that the disk usage data was measured and ''counter'' property holds the disk usage in bytes. 
 

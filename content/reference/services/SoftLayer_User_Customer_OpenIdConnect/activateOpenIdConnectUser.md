@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::activateOpenIdConnectUser
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::activateOpenIdConnectUser
+
+Completes invitation process for an OIDC user initiated by the
+
+
 ## Overview 
 Completes invitation process for an OpenIdConnect user created by Bluemix Unified User Console. 
 

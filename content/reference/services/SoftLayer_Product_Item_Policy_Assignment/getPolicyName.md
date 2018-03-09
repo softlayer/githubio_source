@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Policy_Assignment"
 ---
-# SoftLayer_Product_Item_Policy_Assignment::getPolicyName
+# [SoftLayer_Product_Item_Policy_Assignment](/reference/services/SoftLayer_Product_Item_Policy_Assignment)::getPolicyName
+
+Retrieve the name of the assigned policy.
+
+
 ## Overview 
 Retrieve the name of the assigned policy.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Auxiliary_Press_Release"
 ---
-# SoftLayer_Auxiliary_Press_Release::getWebsiteHighlightPressReleases
+# [SoftLayer_Auxiliary_Press_Release](/reference/services/SoftLayer_Auxiliary_Press_Release)::getWebsiteHighlightPressReleases
+
+Retrieve press releases with the
+
+
 ## Overview 
 Retrieve an array of SoftLayer_Auxiliary_Press_Release data types, which have the website highlight flag set. 
 

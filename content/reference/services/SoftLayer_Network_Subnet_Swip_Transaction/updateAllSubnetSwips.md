@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_Swip_Transaction"
 ---
-# SoftLayer_Network_Subnet_Swip_Transaction::updateAllSubnetSwips
+# [SoftLayer_Network_Subnet_Swip_Transaction](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction)::updateAllSubnetSwips
+
+Update all subnets on the account with an "OK" status.
+
+
 ## Overview 
 This method finds all subnets attached to your account that are in "OK" status and updates their data with ARIN.  Use this function after you have updated your RWHOIS data if you want to keep SWIP up to date. 
 

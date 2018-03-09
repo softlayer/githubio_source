@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getPendingInvoice
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPendingInvoice
+
+Retrieve an account's latest open (pending) invoice.
+
+
 ## Overview 
 Retrieve an account's latest open (pending) invoice.
 

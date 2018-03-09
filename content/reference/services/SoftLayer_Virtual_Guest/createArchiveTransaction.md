@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::createArchiveTransaction
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::createArchiveTransaction
+
+[[SoftLayer_Virtual_Guest_Block_Devices|Block Devices]] can be grouped together in and backed up in an archive for later use. This method generates a transaction to perform an archive of the provided block devices. 
+
+
 ## Overview 
 Create a transaction to archive a computing instance's block devices
 

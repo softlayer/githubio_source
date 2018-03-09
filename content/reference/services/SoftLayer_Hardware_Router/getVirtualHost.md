@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getVirtualHost
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getVirtualHost
+
+Retrieve a piece of hardware's virtual host record.
+
+
 ## Overview 
 Retrieve a piece of hardware's virtual host record.
 

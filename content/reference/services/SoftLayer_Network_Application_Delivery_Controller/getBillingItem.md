@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller"
 ---
-# SoftLayer_Network_Application_Delivery_Controller::getBillingItem
+# [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getBillingItem
+
+Retrieve the billing item for a Application Delivery Controller.
+
+
 ## Overview 
 Retrieve the billing item for a Application Delivery Controller.
 

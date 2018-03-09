@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getPublicBandwidthDataSummary
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getPublicBandwidthDataSummary
+
+Retrieve a server's public bandwidth usage summary
+
+
 ## Overview 
 Retrieve a brief summary of a server's public network bandwidth usage. getPublicBandwidthDataSummary retrieves a server's bandwidth allocation for its billing period, its estimated usage during its billing period, and an estimation of how much bandwidth it will use during its billing period based on its current usage. A server's projected bandwidth usage increases in accuracy as it progresses through its billing period. 
 

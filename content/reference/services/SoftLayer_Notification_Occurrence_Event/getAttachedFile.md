@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_Occurrence_Event"
 ---
-# SoftLayer_Notification_Occurrence_Event::getAttachedFile
+# [SoftLayer_Notification_Occurrence_Event](/reference/services/SoftLayer_Notification_Occurrence_Event)::getAttachedFile
+
+Retrieve a file attached to an event.
+
+
 ## Overview 
 Retrieve the contents of the file attached to a SoftLayer event by it's given identifier. 
 

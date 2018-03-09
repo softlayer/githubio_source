@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getEvaultNetworkStorage
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getEvaultNetworkStorage
+
+Retrieve a guest's associated EVault network storage service account.
+
+
 ## Overview 
 Retrieve a guest's associated EVault network storage service account.
 

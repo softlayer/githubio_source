@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Member_Virtual_Guest"
 ---
-# SoftLayer_Scale_Member_Virtual_Guest::getVirtualGuestId
+# [SoftLayer_Scale_Member_Virtual_Guest](/reference/services/SoftLayer_Scale_Member_Virtual_Guest)::getVirtualGuestId
+
+Retrieve the identifier of the guest for this member.
+
+
 ## Overview 
 Retrieve the identifier of the guest for this member.
 

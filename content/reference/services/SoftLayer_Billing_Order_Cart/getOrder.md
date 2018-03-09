@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Cart"
 ---
-# SoftLayer_Billing_Order_Cart::getOrder
+# [SoftLayer_Billing_Order_Cart](/reference/services/SoftLayer_Billing_Order_Cart)::getOrder
+
+Retrieve this order contains the records for which products were selected for this quote.
+
+
 ## Overview 
 Retrieve this order contains the records for which products were selected for this quote.
 

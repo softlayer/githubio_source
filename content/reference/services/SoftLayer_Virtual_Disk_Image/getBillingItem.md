@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Disk_Image"
 ---
-# SoftLayer_Virtual_Disk_Image::getBillingItem
+# [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::getBillingItem
+
+Retrieve the billing item for a virtual disk image.
+
+
 ## Overview 
 Retrieve the billing item for a virtual disk image.
 

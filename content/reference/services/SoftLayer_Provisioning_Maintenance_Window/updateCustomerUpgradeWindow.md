@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Provisioning_Maintenance_Window"
 ---
-# SoftLayer_Provisioning_Maintenance_Window::updateCustomerUpgradeWindow
+# [SoftLayer_Provisioning_Maintenance_Window](/reference/services/SoftLayer_Provisioning_Maintenance_Window)::updateCustomerUpgradeWindow
+
+Creates records in the appropriate
+
+
 ## Overview 
 getMaintenceWindowForTicket() returns a boolean 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress"
 ---
-# SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress::startSsl
+# [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress)::startSsl
+
+
+
+
 ## Overview 
 Start SSL acceleration on all SSL virtual services (those with a type of HTTPS). This action should be taken only after configuring an SSL certificate for the virtual IP. 
 

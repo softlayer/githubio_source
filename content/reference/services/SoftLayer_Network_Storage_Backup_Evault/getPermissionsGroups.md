@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getPermissionsGroups
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getPermissionsGroups
+
+Retrieve all permissions group(s) this volume is in.
+
+
 ## Overview 
 Retrieve all permissions group(s) this volume is in.
 

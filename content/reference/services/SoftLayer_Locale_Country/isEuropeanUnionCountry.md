@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Locale_Country"
 ---
-# SoftLayer_Locale_Country::isEuropeanUnionCountry
+# [SoftLayer_Locale_Country](/reference/services/SoftLayer_Locale_Country)::isEuropeanUnionCountry
+
+
+
+
 ## Overview 
 
 

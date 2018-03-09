@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getManagedResourceFlag
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getManagedResourceFlag
+
+Retrieve a flag indicating that the virtual guest is a managed resource.
+
+
 ## Overview 
 Retrieve a flag indicating that the virtual guest is a managed resource.
 

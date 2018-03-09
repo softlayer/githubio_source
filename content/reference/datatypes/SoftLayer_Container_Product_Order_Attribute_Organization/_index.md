@@ -39,24 +39,44 @@ This is the datatype that needs to be populated and sent to SoftLayer_Product_Or
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#address" name=address>address</a></span>
+            <span class='views-field-title'>
+                <a href="#address" name=address>address</a>
+            </span>
             <div class='views-field-body'>The address information of the contact. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Product_Order_Attribute_Address'>SoftLayer_Container_Product_Order_Attribute_Address </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order_Attribute_Address'>SoftLayer_Container_Product_Order_Attribute_Address </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#faxNumber" name=faxNumber>faxNumber</a></span>
+            <span class='views-field-title'>
+                <a href="#faxNumber" name=faxNumber>faxNumber</a>
+            </span>
             <div class='views-field-body'>The fax number associated with an organization. This is an optional value. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#organizationName" name=organizationName>organizationName</a></span>
+            <span class='views-field-title'>
+                <a href="#organizationName" name=organizationName>organizationName</a>
+            </span>
             <div class='views-field-body'>The name of an organization. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#phoneNumber" name=phoneNumber>phoneNumber</a></span>
+            <span class='views-field-title'>
+                <a href="#phoneNumber" name=phoneNumber>phoneNumber</a>
+            </span>
             <div class='views-field-body'>The phone number associated with an organization. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

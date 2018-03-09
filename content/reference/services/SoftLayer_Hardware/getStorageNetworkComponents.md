@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getStorageNetworkComponents
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getStorageNetworkComponents
+
+
+
+
 ## Overview 
 
 

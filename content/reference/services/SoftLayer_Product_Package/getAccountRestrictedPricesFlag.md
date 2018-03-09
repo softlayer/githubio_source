@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getAccountRestrictedPricesFlag
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getAccountRestrictedPricesFlag
+
+Retrieve the flag to indicate if there are any restricted prices in a package for the currently-active account.
+
+
 ## Overview 
 Retrieve the flag to indicate if there are any restricted prices in a package for the currently-active account.
 

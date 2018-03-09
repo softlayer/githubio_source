@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::voidCancelService
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::voidCancelService
+
+Void a service cancellation that was previously made.
+
+
 ## Overview 
 Void a previously made cancellation for a service 
 

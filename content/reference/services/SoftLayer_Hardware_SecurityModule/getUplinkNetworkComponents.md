@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getUplinkNetworkComponents
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getUplinkNetworkComponents
+
+Retrieve information regarding the network component that is one level higher than a piece of hardware on the network infrastructure.
+
+
 ## Overview 
 Retrieve information regarding the network component that is one level higher than a piece of hardware on the network infrastructure.
 

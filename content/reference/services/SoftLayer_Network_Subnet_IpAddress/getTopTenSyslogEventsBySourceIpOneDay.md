@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_IpAddress"
 ---
-# SoftLayer_Network_Subnet_IpAddress::getTopTenSyslogEventsBySourceIpOneDay
+# [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::getTopTenSyslogEventsBySourceIpOneDay
+
+Retrieve top Ten network datacenter syslog events, grouped by source ip address, for the last 24 hours
+
+
 ## Overview 
 Retrieve top Ten network datacenter syslog events, grouped by source ip address, for the last 24 hours
 

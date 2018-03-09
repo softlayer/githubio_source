@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHardwareWithMcafeeIntrusionDetectionSystem
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardwareWithMcafeeIntrusionDetectionSystem
+
+Retrieve all hardware associated with an account that has McAfee Secure Intrusion Detection System software components.
+
+
 ## Overview 
 Retrieve all hardware associated with an account that has McAfee Secure Intrusion Detection System software components.
 

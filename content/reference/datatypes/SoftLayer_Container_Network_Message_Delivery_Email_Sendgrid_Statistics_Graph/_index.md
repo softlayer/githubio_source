@@ -39,19 +39,34 @@ classes:
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#graphError" name=graphError>graphError</a></span>
+            <span class='views-field-title'>
+                <a href="#graphError" name=graphError>graphError</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#graphImage" name=graphImage>graphImage</a></span>
+            <span class='views-field-title'>
+                <a href="#graphImage" name=graphImage>graphImage</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>binary data</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>binary data</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#graphTitle" name=graphTitle>graphTitle</a></span>
+            <span class='views-field-title'>
+                <a href="#graphTitle" name=graphTitle>graphTitle</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

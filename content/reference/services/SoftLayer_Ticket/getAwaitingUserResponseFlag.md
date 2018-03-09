@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getAwaitingUserResponseFlag
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getAwaitingUserResponseFlag
+
+Retrieve ticket is waiting on a response from a customer flag.
+
+
 ## Overview 
 Retrieve ticket is waiting on a response from a customer flag.
 

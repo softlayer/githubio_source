@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Resource_Metadata"
 ---
-# SoftLayer_Resource_Metadata::getServiceResources
+# [SoftLayer_Resource_Metadata](/reference/services/SoftLayer_Resource_Metadata)::getServiceResources
+
+Obtain service resources associated with the resource
+
+
 ## Overview 
 The getServiceResources method retrieves all service resources associated with the resource. Service resources are additional resources that may be used by this resource. The output format is <type>=<address> for each service resource. 
 

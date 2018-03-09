@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Firewall_Interface"
 ---
-# SoftLayer_Network_Firewall_Interface::getNetworkVlan
+# [SoftLayer_Network_Firewall_Interface](/reference/services/SoftLayer_Network_Firewall_Interface)::getNetworkVlan
+
+
+
+
 ## Overview 
 
 

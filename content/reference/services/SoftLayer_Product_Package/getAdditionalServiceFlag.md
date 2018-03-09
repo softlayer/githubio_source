@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getAdditionalServiceFlag
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getAdditionalServiceFlag
+
+Retrieve this flag indicates that the package is an additional service.
+
+
 ## Overview 
 Retrieve this flag indicates that the package is an additional service.
 

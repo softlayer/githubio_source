@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LBaaS_Listener"
 ---
-# SoftLayer_Network_LBaaS_Listener::deleteLoadBalancerProtocols
+# [SoftLayer_Network_LBaaS_Listener](/reference/services/SoftLayer_Network_LBaaS_Listener)::deleteLoadBalancerProtocols
+
+Delete load balancers front- and backend protocols
+
+
 ## Overview 
 Delete load balancers front- and backend protocols and return load balancer object with listeners (frontend), pools (backend), server instances (members) and datacenter populated. 
 

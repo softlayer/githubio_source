@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::deleteFiles
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::deleteFiles
+
+Delete multiple files within a Storage account.
+
+
 ## Overview 
 {{CloudLayerOnlyMethod}} Delete multiple files within a Storage account. Depending on the type of Storage account, Deleting either deletes files permanently or sends files to your account's recycle bin. 
 

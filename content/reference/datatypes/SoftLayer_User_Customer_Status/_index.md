@@ -13,7 +13,7 @@ classes:
 # SoftLayer_User_Customer_Status
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_User_Customer_Status' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_User_Customer_Status' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_User_Customer_Status' >Datatype</a></li>
     </ul>
 </div>
 
@@ -30,7 +30,7 @@ Each SoftLayer portal account is assigned a status code that determines how it's
 
 ### seeAlso
 
-* [SoftLayer_User_Customer](/reference/datatypes/SoftLayer_User_Customer )
+* [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer )
 
 
 
@@ -50,19 +50,34 @@ Each SoftLayer portal account is assigned a status code that determines how it's
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>A user's status identifying number. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#keyName" name=keyName>keyName</a></span>
+            <span class='views-field-title'>
+                <a href="#keyName" name=keyName>keyName</a>
+            </span>
             <div class='views-field-body'>A user's status keyname </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>A user's status. This can be either "Active" for user accounts with portal access, "Inactive" for users disabled by another portal user, "Disabled" for accounts turned off by SoftLayer, or "VPN Only" for user accounts with no access to the customer portal but VPN access to the private network. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

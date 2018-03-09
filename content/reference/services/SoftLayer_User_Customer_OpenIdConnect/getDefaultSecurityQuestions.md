@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getDefaultSecurityQuestions
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getDefaultSecurityQuestions
+
+Retrieve default security questions.
+
+
 ## Overview 
 <strong>This method is deprecated.  Please see documentation for initiatePortalPasswordChange</strong> 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Resource_Group"
 ---
-# SoftLayer_Resource_Group::getTemplate
+# [SoftLayer_Resource_Group](/reference/services/SoftLayer_Resource_Group)::getTemplate
+
+Retrieve a resource group's associated template.
+
+
 ## Overview 
 Retrieve a resource group's associated template.
 

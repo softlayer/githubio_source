@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Schedule_Property_Type"
 ---
-# SoftLayer_Network_Storage_Schedule_Property_Type::getAllObjects
+# [SoftLayer_Network_Storage_Schedule_Property_Type](/reference/services/SoftLayer_Network_Storage_Schedule_Property_Type)::getAllObjects
+
+Returns all network storage schedule property types
+
+
 ## Overview 
 Use this method to retrieve all network storage schedule property types. 
 

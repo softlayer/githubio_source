@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Policy_Assignment"
 ---
-# SoftLayer_Product_Item_Policy_Assignment::getProduct
+# [SoftLayer_Product_Item_Policy_Assignment](/reference/services/SoftLayer_Product_Item_Policy_Assignment)::getProduct
+
+Retrieve the [[SoftLayer_Product_Item]] for this policy assignment.
+
+
 ## Overview 
 Retrieve the [[SoftLayer_Product_Item]] for this policy assignment.
 

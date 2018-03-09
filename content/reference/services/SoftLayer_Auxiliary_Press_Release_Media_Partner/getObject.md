@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Auxiliary_Press_Release_Media_Partner"
 ---
-# SoftLayer_Auxiliary_Press_Release_Media_Partner::getObject
+# [SoftLayer_Auxiliary_Press_Release_Media_Partner](/reference/services/SoftLayer_Auxiliary_Press_Release_Media_Partner)::getObject
+
+Retrieve a SoftLayer_Auxiliary_Press_Release_Media_Partner record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Auxiliary_Press_Release_Contact object whose contact id number corresponds to the ID number of the init parameter passed to the SoftLayer_Auxiliary_Press_Release service. 
 

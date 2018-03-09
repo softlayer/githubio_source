@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component_Firewall"
 ---
-# SoftLayer_Network_Component_Firewall::getBillingItem
+# [SoftLayer_Network_Component_Firewall](/reference/services/SoftLayer_Network_Component_Firewall)::getBillingItem
+
+Retrieve the billing item for a Hardware Firewall (Dedicated).
+
+
 ## Overview 
 Retrieve the billing item for a Hardware Firewall (Dedicated).
 

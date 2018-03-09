@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::isValidPortalPassword
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::isValidPortalPassword
+
+Determine if a string is a user's portal password.
+
+
 ## Overview 
 Determine if a string is the given user's login password to the SoftLayer customer portal. 
 

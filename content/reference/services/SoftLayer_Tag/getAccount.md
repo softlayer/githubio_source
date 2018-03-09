@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Tag"
 ---
-# SoftLayer_Tag::getAccount
+# [SoftLayer_Tag](/reference/services/SoftLayer_Tag)::getAccount
+
+Retrieve the account to which the tag is tied.
+
+
 ## Overview 
 Retrieve the account to which the tag is tied.
 

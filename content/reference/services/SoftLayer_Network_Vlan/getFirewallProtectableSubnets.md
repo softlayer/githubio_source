@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getFirewallProtectableSubnets
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getFirewallProtectableSubnets
+
+Get the subnets associated with this server that are protectable by a network component firewall.
+
+
 ## Overview 
 Get the subnets associated with this server that are protectable by a network component firewall. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::deactivate
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::deactivate
+
+Deactivates a monitoring agent.
+
+
 ## Overview 
 This method will deactivate the monitoring agent, preventing it from generating any further alarms. 
 

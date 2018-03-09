@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getSoftwareComponents
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getSoftwareComponents
+
+Retrieve information regarding a piece of hardware's installed software.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's installed software.
 

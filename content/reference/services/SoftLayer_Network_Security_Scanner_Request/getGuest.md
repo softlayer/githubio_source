@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Security_Scanner_Request"
 ---
-# SoftLayer_Network_Security_Scanner_Request::getGuest
+# [SoftLayer_Network_Security_Scanner_Request](/reference/services/SoftLayer_Network_Security_Scanner_Request)::getGuest
+
+Retrieve the virtual guest a security scan is run against.
+
+
 ## Overview 
 Retrieve the virtual guest a security scan is run against.
 

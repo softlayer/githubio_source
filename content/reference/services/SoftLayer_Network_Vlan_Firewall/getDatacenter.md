@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan_Firewall"
 ---
-# SoftLayer_Network_Vlan_Firewall::getDatacenter
+# [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getDatacenter
+
+Retrieve the datacenter that the firewall resides in.
+
+
 ## Overview 
 Retrieve the datacenter that the firewall resides in.
 

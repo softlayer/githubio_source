@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getFrontendOutgoingBandwidth
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getFrontendOutgoingBandwidth
+
+Retrieve the amount of outgoing public network bandwidth used by a server over a period of time. 
+
+
 ## Overview 
 The '''getFrontendOutgoingBandwidth''' method retrieves the amount of outgoing public network traffic used by a server between the given start and end date parameters. The ''dateTime'' parameter requires only the day, month and year to be entered - the time (hour, minute and second) are set to midnight be default in order to gather the data for the entire start and end date indicated in the parameter. The amount of bandwidth retrieved is measured in gigabytes (GB). 
 

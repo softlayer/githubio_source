@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_Registration"
 ---
-# SoftLayer_Network_Subnet_Registration::clearRegistration
+# [SoftLayer_Network_Subnet_Registration](/reference/services/SoftLayer_Network_Subnet_Registration)::clearRegistration
+
+Clear an existing registration
+
+
 ## Overview 
 This method will initiate the removal of a subnet registration. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getPresetConfigurationRequiredFlag
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getPresetConfigurationRequiredFlag
+
+Retrieve whether the package requires the user to define a preset configuration.
+
+
 ## Overview 
 Retrieve whether the package requires the user to define a preset configuration.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getPermissionRoles
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPermissionRoles
+
+Retrieve an account's user roles.
+
+
 ## Overview 
 Retrieve an account's user roles.
 

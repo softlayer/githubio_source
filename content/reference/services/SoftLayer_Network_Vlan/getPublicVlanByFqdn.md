@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getPublicVlanByFqdn
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getPublicVlanByFqdn
+
+Retrieve a server's public VLAN based on it's fully-qualified domain name
+
+
 ## Overview 
 Retrieve the VLAN that belongs to a server's public network interface, as described by a server's fully-qualified domain name. A server's ''FQDN'' is it's hostname, followed by a period then it's domain name. 
 

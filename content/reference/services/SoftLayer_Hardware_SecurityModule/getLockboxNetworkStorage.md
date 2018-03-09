@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getLockboxNetworkStorage
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getLockboxNetworkStorage
+
+Retrieve information regarding a lockbox account associated with a server.
+
+
 ## Overview 
 Retrieve information regarding a lockbox account associated with a server.
 

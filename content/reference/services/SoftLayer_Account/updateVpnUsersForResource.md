@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::updateVpnUsersForResource
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::updateVpnUsersForResource
+
+Creates or updates a user VPN access privileges for a server on account.
+
+
 ## Overview 
 Some larger SoftLayer customer accounts may have servers and virtual servers on more subnets than SoftLayer's private network VPN devices can assign routes for. In those cases routes for individual servers and virtual servers may be assigned individually to an account's servers via this method. 
 

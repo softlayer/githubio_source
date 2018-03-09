@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getSecurityCertificates
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSecurityCertificates
+
+Retrieve stored security certificates (ie. SSL)
+
+
 ## Overview 
 Retrieve stored security certificates (ie. SSL)
 

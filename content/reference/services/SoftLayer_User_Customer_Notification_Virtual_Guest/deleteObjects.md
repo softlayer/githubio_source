@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_Notification_Virtual_Guest"
 ---
-# SoftLayer_User_Customer_Notification_Virtual_Guest::deleteObjects
+# [SoftLayer_User_Customer_Notification_Virtual_Guest](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest)::deleteObjects
+
+Delete a group of SoftLayer_Customer_Notification_Virtual_Guest objects by passing in a collection of them
+
+
 ## Overview 
 Like any other API object, the customer notification objects can be deleted by passing an instance of them into this function.  The ID on the object must be set. 
 

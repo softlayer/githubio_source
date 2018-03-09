@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_HostIps"
 ---
-# SoftLayer_Software_Component_HostIps::getPasswordHistory
+# [SoftLayer_Software_Component_HostIps](/reference/services/SoftLayer_Software_Component_HostIps)::getPasswordHistory
+
+Retrieve history Records for Software Passwords.
+
+
 ## Overview 
 Retrieve history Records for Software Passwords.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Resource_Metadata"
 ---
-# SoftLayer_Resource_Metadata::getFrontendMacAddresses
+# [SoftLayer_Resource_Metadata](/reference/services/SoftLayer_Resource_Metadata)::getFrontendMacAddresses
+
+A list of frontend MAC addresses
+
+
 ## Overview 
 The getFrontendMacAddresses method retrieves a list of frontend MAC addresses for the resource
 

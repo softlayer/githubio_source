@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand"
 ---
-# SoftLayer_Brand::createCustomerAccount
+# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::createCustomerAccount
+
+Create a new customer account record.
+
+
 ## Overview 
 Create a new customer account record. 
 

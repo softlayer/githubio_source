@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Verisign"
 ---
-# SoftLayer_User_Customer_External_Binding_Verisign::getCredentialExpirationDate
+# [SoftLayer_User_Customer_External_Binding_Verisign](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign)::getCredentialExpirationDate
+
+Retrieve the date that a VeriSign credential expires.
+
+
 ## Overview 
 Retrieve the date that a VeriSign credential expires.
 

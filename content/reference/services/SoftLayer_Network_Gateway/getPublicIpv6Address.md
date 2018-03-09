@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Gateway"
 ---
-# SoftLayer_Network_Gateway::getPublicIpv6Address
+# [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::getPublicIpv6Address
+
+Retrieve the public gateway IPv6 address.
+
+
 ## Overview 
 Retrieve the public gateway IPv6 address.
 

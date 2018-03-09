@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_MassDataMigration_Request"
 ---
-# SoftLayer_Network_Storage_MassDataMigration_Request::getModifyUser
+# [SoftLayer_Network_Storage_MassDataMigration_Request](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request)::getModifyUser
+
+Retrieve the customer user who last modified the request.
+
+
 ## Overview 
 Retrieve the customer user who last modified the request.
 

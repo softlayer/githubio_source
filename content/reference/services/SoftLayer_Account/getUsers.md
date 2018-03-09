@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getUsers
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getUsers
+
+Retrieve an account's portal users.
+
+
 ## Overview 
 Retrieve an account's portal users.
 

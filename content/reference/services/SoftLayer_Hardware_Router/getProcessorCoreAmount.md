@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getProcessorCoreAmount
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getProcessorCoreAmount
+
+Retrieve the total number of processor cores, summed from all processors that are attached to a piece of hardware
+
+
 ## Overview 
 Retrieve the total number of processor cores, summed from all processors that are attached to a piece of hardware
 

@@ -39,49 +39,94 @@ The Syslog class holds a single line from the Networking Firewall "Syslog" recor
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#createDate" name=createDate>createDate</a></span>
+            <span class='views-field-title'>
+                <a href="#createDate" name=createDate>createDate</a>
+            </span>
             <div class='views-field-body'>Timestamp for when the connection was blocked by the firewall </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#destinationIpAddress" name=destinationIpAddress>destinationIpAddress</a></span>
+            <span class='views-field-title'>
+                <a href="#destinationIpAddress" name=destinationIpAddress>destinationIpAddress</a>
+            </span>
             <div class='views-field-body'>The Destination IP Address of the blocked connection (your end) </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#destinationPort" name=destinationPort>destinationPort</a></span>
+            <span class='views-field-title'>
+                <a href="#destinationPort" name=destinationPort>destinationPort</a>
+            </span>
             <div class='views-field-body'>The Destination Port of the blocked connection (your end) </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#eventType" name=eventType>eventType</a></span>
+            <span class='views-field-title'>
+                <a href="#eventType" name=eventType>eventType</a>
+            </span>
             <div class='views-field-body'>This tells you what kind of firewall event this log line is for:  accept or deny. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#message" name=message>message</a></span>
+            <span class='views-field-title'>
+                <a href="#message" name=message>message</a>
+            </span>
             <div class='views-field-body'>Raw syslog message for the event </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#protocol" name=protocol>protocol</a></span>
+            <span class='views-field-title'>
+                <a href="#protocol" name=protocol>protocol</a>
+            </span>
             <div class='views-field-body'>Connection protocol used to make the call that was blocked (tcp, udp, etc) </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#sourceIpAddress" name=sourceIpAddress>sourceIpAddress</a></span>
+            <span class='views-field-title'>
+                <a href="#sourceIpAddress" name=sourceIpAddress>sourceIpAddress</a>
+            </span>
             <div class='views-field-body'>The Source IP Address of the call that was blocked (attacker's end) </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#sourcePort" name=sourcePort>sourcePort</a></span>
+            <span class='views-field-title'>
+                <a href="#sourcePort" name=sourcePort>sourcePort</a>
+            </span>
             <div class='views-field-body'>The Source Port where the blocked connection was established (attacker's end) </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#totalEvents" name=totalEvents>totalEvents</a></span>
+            <span class='views-field-title'>
+                <a href="#totalEvents" name=totalEvents>totalEvents</a>
+            </span>
             <div class='views-field-body'>If this is an aggregation of syslog events, this property shows the total events. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
     </div>

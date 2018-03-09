@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getActiveRamItems
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getActiveRamItems
+
+Retrieve a collection of valid RAM items available for purchase in this package.
+
+
 ## Overview 
 Retrieve a collection of valid RAM items available for purchase in this package.
 

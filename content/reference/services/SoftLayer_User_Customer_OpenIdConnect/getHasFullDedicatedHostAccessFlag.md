@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getHasFullDedicatedHostAccessFlag
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getHasFullDedicatedHostAccessFlag
+
+Retrieve permission granting the user access to all Dedicated Host devices on the account.
+
+
 ## Overview 
 Retrieve permission granting the user access to all Dedicated Host devices on the account.
 

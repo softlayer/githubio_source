@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getStandardPoolVirtualGuests
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getStandardPoolVirtualGuests
+
+Retrieve an account's virtual guest objects that are hosted on a user provisioned hypervisor.
+
+
 ## Overview 
 Retrieve an account's virtual guest objects that are hosted on a user provisioned hypervisor.
 

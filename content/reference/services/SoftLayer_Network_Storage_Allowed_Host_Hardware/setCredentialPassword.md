@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host_Hardware"
 ---
-# SoftLayer_Network_Storage_Allowed_Host_Hardware::setCredentialPassword
+# [SoftLayer_Network_Storage_Allowed_Host_Hardware](/reference/services/SoftLayer_Network_Storage_Allowed_Host_Hardware)::setCredentialPassword
+
+Modify the credential password for this SoftLayer_Network_Storage_Allowed_Host
+
+
 ## Overview 
 Use this method to modify the credential password for a SoftLayer_Network_Storage_Allowed_Host object. 
 

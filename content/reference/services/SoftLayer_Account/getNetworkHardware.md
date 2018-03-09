@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getNetworkHardware
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNetworkHardware
+
+Retrieve an account's associated network hardware.
+
+
 ## Overview 
 Retrieve an account's associated network hardware.
 

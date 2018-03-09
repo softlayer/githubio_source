@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getLocation
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getLocation
+
+Retrieve the location of the billing item. Some billing items have physical properties such as the server itself. For items such as these, we provide location information.
+
+
 ## Overview 
 Retrieve the location of the billing item. Some billing items have physical properties such as the server itself. For items such as these, we provide location information.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Event_Log"
 ---
-# SoftLayer_Event_Log::getAllEventObjectNames
+# [SoftLayer_Event_Log](/reference/services/SoftLayer_Event_Log)::getAllEventObjectNames
+
+Return all indexed event object names.
+
+
 ## Overview 
 This all indexed event object names. 
 

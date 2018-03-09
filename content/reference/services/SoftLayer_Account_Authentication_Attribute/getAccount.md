@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Authentication_Attribute"
 ---
-# SoftLayer_Account_Authentication_Attribute::getAccount
+# [SoftLayer_Account_Authentication_Attribute](/reference/services/SoftLayer_Account_Authentication_Attribute)::getAccount
+
+Retrieve the SoftLayer customer account.
+
+
 ## Overview 
 Retrieve the SoftLayer customer account.
 

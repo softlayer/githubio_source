@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Totp"
 ---
-# SoftLayer_User_Customer_External_Binding_Totp::enable
+# [SoftLayer_User_Customer_External_Binding_Totp](/reference/services/SoftLayer_User_Customer_External_Binding_Totp)::enable
+
+Enable an external binding.
+
+
 ## Overview 
 Enabling an external binding will activate the binding on your account and require you to authenticate with our trusted 3rd party 2 form factor vendor when logging into the SoftLayer customer portal. 
 

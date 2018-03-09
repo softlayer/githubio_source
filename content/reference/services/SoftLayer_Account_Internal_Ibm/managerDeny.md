@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Internal_Ibm"
 ---
-# SoftLayer_Account_Internal_Ibm::managerDeny
+# [SoftLayer_Account_Internal_Ibm](/reference/services/SoftLayer_Account_Internal_Ibm)::managerDeny
+
+Applies manager denial to a pending request
+
+
 ## Overview 
 Denies a pending request and prevents additional requests from the same applicant for as long as the manager remains the same. 
 

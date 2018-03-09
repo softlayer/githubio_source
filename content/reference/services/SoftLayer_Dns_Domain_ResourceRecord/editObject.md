@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_ResourceRecord"
 ---
-# SoftLayer_Dns_Domain_ResourceRecord::editObject
+# [SoftLayer_Dns_Domain_ResourceRecord](/reference/services/SoftLayer_Dns_Domain_ResourceRecord)::editObject
+
+Edit a domain's resource record.
+
+
 ## Overview 
 editObject edits an existing domain resource record. The ''host'' property of the templateObject parameter is scrubbed to remove all non-alpha numeric characters except for "@", "_", ".", "*", and "-". The ''data'' property of the templateObject parameter is scrubbed to remove all non-alphanumeric characters for "." and "-". Editing a resource record updates the serial number of the domain the resource record is associated with. 
 

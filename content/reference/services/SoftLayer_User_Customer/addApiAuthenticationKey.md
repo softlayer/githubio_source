@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::addApiAuthenticationKey
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::addApiAuthenticationKey
+
+Create a user's API authentication key.
+
+
 ## Overview 
 Create a user's API authentication key, allowing that user access to query the SoftLayer API. addApiAuthenticationKey() returns the users new API key. Each portal user is allowed a maximum of two API keys. 
 

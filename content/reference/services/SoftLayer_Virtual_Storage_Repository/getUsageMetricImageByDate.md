@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Storage_Repository"
 ---
-# SoftLayer_Virtual_Storage_Repository::getUsageMetricImageByDate
+# [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getUsageMetricImageByDate
+
+Retrieve an image of the disk usage data on a [[SoftLayer_Virtual_Guest|Cloud Computing Instance]] image for the time range you provide. 
+
+
 ## Overview 
 Returns a disk usage image based on disk usage specified by the input parameters. 
 

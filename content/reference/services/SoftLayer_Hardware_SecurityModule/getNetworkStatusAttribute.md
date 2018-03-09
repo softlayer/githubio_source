@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getNetworkStatusAttribute
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getNetworkStatusAttribute
+
+Retrieve the hardware's related network status attribute.
+
+
 ## Overview 
 Retrieve the hardware's related network status attribute.
 

@@ -39,24 +39,44 @@ Nameservers list container for domain registration
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#ipv4Address" name=ipv4Address>ipv4Address</a></span>
+            <span class='views-field-title'>
+                <a href="#ipv4Address" name=ipv4Address>ipv4Address</a>
+            </span>
             <div class='views-field-body'>The IPv4 address of the nameserver. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#ipv6Address" name=ipv6Address>ipv6Address</a></span>
+            <span class='views-field-title'>
+                <a href="#ipv6Address" name=ipv6Address>ipv6Address</a>
+            </span>
             <div class='views-field-body'>The IPv6 address of the nameserver. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>The fully qualified name of the nameserver </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#sortOrder" name=sortOrder>sortOrder</a></span>
+            <span class='views-field-title'>
+                <a href="#sortOrder" name=sortOrder>sortOrder</a>
+            </span>
             <div class='views-field-body'>The sort order of the nameserver </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
     </div>

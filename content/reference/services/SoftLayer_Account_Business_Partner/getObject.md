@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Business_Partner"
 ---
-# SoftLayer_Account_Business_Partner::getObject
+# [SoftLayer_Account_Business_Partner](/reference/services/SoftLayer_Account_Business_Partner)::getObject
+
+Retrieve a SoftLayer_Account_Business_Partner record.
+
+
 ## Overview 
 
 

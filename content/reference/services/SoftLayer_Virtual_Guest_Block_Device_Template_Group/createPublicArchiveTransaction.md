@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Block_Device_Template_Group"
 ---
-# SoftLayer_Virtual_Guest_Block_Device_Template_Group::createPublicArchiveTransaction
+# [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::createPublicArchiveTransaction
+
+[[SoftLayer_Virtual_Guest_Block_Devices|Block Devices]] can be published together in a public repository for use by everyone. This method generates a transaction to perform a public image of the provided archived block devices. 
+
+
 ## Overview 
 Create a transaction to copy archived block devices into public repository
 

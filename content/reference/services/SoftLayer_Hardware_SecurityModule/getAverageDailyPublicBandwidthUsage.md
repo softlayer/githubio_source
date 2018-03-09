@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getAverageDailyPublicBandwidthUsage
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getAverageDailyPublicBandwidthUsage
+
+Retrieve the average daily public bandwidth usage for the current billing cycle.
+
+
 ## Overview 
 Retrieve the average daily public bandwidth usage for the current billing cycle.
 

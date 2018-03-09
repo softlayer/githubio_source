@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LoadBalancer_VirtualIpAddress"
 ---
-# SoftLayer_Network_LoadBalancer_VirtualIpAddress::getBillingItem
+# [SoftLayer_Network_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress)::getBillingItem
+
+Retrieve the current billing item for the Load Balancer.
+
+
 ## Overview 
 Retrieve the current billing item for the Load Balancer.
 

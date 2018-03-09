@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::reloadCurrentOperatingSystemConfiguration
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::reloadCurrentOperatingSystemConfiguration
+
+Reloads current operating system configuration.
+
+
 ## Overview 
 Reloads current operating system configuration. 
 

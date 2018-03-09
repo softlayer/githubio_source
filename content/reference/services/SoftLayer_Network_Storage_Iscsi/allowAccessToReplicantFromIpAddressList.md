@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::allowAccessToReplicantFromIpAddressList
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::allowAccessToReplicantFromIpAddressList
+
+allow access to this volume from multiple SoftLayer_Network_Subnet_IpAddress objects.
+
+
 ## Overview 
 This method is used to modify the access control list for this Storage volume.  The SoftLayer_Network_Subnet_IpAddress objects which have been allowed access to this storage will be listed in the allowedVirtualGuests property of this storage volume. 
 

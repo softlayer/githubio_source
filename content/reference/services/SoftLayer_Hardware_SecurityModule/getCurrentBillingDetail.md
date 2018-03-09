@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getCurrentBillingDetail
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getCurrentBillingDetail
+
+Get the detail billing data for this instance's current billing period. This excludes bandwidth usage.
+
+
 ## Overview 
 Get the billing detail for this instance for the current billing period. This does not include bandwidth usage. 
 

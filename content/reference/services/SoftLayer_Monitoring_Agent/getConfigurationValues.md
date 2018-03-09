@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::getConfigurationValues
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::getConfigurationValues
+
+Retrieve the values associated with the corresponding Agent configuration.
+
+
 ## Overview 
 Retrieve the values associated with the corresponding Agent configuration.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LBaaS_Listener"
 ---
-# SoftLayer_Network_LBaaS_Listener::updateLoadBalancerProtocols
+# [SoftLayer_Network_LBaaS_Listener](/reference/services/SoftLayer_Network_LBaaS_Listener)::updateLoadBalancerProtocols
+
+Update/create load balancers protocols
+
+
 ## Overview 
 Update (create) load balancers front- and backend protocols and return load balancer object with listeners (frontend), pools (backend), server instances (members) and datacenter populated. Note if a protocolConfiguration has no listenerUuid set, this function will create the specified front- and backend accordingly. Otherwise the given front- and backend will be updated with the new protocol and port. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getDedicatedFirewallFlag
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getDedicatedFirewallFlag
+
+Retrieve a flag indicating that a network vlan is on a Hardware Firewall (Dedicated).
+
+
 ## Overview 
 Retrieve a flag indicating that a network vlan is on a Hardware Firewall (Dedicated).
 

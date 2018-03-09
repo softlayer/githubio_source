@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getCurrentBillingTotal
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getCurrentBillingTotal
+
+Get the total billing price for this instance's hourly usage up to this point. This includes total includes all bandwidth charges.
+
+
 ## Overview 
 The '''getCurrentBillingTotal''' method retrieves the total bill amount in US Dollars ($) for the current billing period. In addition to the total bill amount, the billing detail also includes all bandwidth used up to the point the method is called on the piece of hardware. 
 

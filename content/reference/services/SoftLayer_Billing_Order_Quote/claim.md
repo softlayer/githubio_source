@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Quote"
 ---
-# SoftLayer_Billing_Order_Quote::claim
+# [SoftLayer_Billing_Order_Quote](/reference/services/SoftLayer_Billing_Order_Quote)::claim
+
+Claim an anonymous quote
+
+
 ## Overview 
 This method is used to transfer an anonymous quote to the active user and associated account. An anonymous quote is one that was created by a user without being authenticated. If a quote was created anonymously and then the customer attempts to access that anonymous quote via the API (which requires authentication), the customer will be unable to retrieve the quote due to the security restrictions in place. By providing the ability for a customer to claim a quote, s/he will be able to pull the anonymous quote onto his/her account and successfully view the quote. 
 

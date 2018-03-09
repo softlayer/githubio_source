@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getAllowIbmIdSilentMigrationFlag
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAllowIbmIdSilentMigrationFlag
+
+Retrieve indicates whether this account is allowed to silently migrate to use IBMid Authentication.
+
+
 ## Overview 
 Retrieve indicates whether this account is allowed to silently migrate to use IBMid Authentication.
 

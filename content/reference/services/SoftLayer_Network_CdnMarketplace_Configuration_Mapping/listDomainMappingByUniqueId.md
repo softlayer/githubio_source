@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_CdnMarketplace_Configuration_Mapping"
 ---
-# SoftLayer_Network_CdnMarketplace_Configuration_Mapping::listDomainMappingByUniqueId
+# [SoftLayer_Network_CdnMarketplace_Configuration_Mapping](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Mapping)::listDomainMappingByUniqueId
+
+SOAP API will return the domain mapping based on the uniqueId. 
+
+
 ## Overview 
 
 

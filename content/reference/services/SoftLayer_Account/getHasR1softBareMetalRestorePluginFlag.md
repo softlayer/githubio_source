@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHasR1softBareMetalRestorePluginFlag
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHasR1softBareMetalRestorePluginFlag
+
+Retrieve return 1 if one of the account's hardware has an installation of R1Soft CDP otherwise 0.
+
+
 ## Overview 
 Retrieve return 1 if one of the account's hardware has an installation of R1Soft CDP otherwise 0.
 

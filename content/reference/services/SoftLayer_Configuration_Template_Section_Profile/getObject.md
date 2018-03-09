@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Configuration_Template_Section_Profile"
 ---
-# SoftLayer_Configuration_Template_Section_Profile::getObject
+# [SoftLayer_Configuration_Template_Section_Profile](/reference/services/SoftLayer_Configuration_Template_Section_Profile)::getObject
+
+Retrieve a SoftLayer_Configuration_Template_Section_Profile record.
+
+
 ## Overview 
 
 

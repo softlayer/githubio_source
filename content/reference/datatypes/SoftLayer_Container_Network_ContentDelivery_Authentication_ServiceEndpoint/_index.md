@@ -39,7 +39,7 @@ This container class holds the token validation web service endpoint information
 
 ### seeAlso
 
-* [SoftLayer_Network_ContentDelivery_Account](/reference/datatypes/SoftLayer_Network_ContentDelivery_Account )
+* [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account )
 
 
 
@@ -59,14 +59,24 @@ This container class holds the token validation web service endpoint information
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#endpoint" name=endpoint>endpoint</a></span>
+            <span class='views-field-title'>
+                <a href="#endpoint" name=endpoint>endpoint</a>
+            </span>
             <div class='views-field-body'>The authentication web service endpoint that CDN servers will use to validate a token </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#protocol" name=protocol>protocol</a></span>
+            <span class='views-field-title'>
+                <a href="#protocol" name=protocol>protocol</a>
+            </span>
             <div class='views-field-body'>The protocol that the WSDL will be used for.  This can be HTTP, WINDOWSMEDIA, or FLASH </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

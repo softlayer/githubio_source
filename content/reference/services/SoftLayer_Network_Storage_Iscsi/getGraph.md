@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getGraph
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getGraph
+
+Retrieve a graph representing the bandwidth used by a Storage account.
+
+
 ## Overview 
 {{CloudLayerOnlyMethod}} 
 

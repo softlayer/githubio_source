@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getNetworkStatus
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getNetworkStatus
+
+Retrieve the value of a hardware's network status attribute.
+
+
 ## Overview 
 Retrieve the value of a hardware's network status attribute.
 

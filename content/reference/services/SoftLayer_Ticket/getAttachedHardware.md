@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getAttachedHardware
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getAttachedHardware
+
+Retrieve the hardware associated with a ticket. This is used in cases where a ticket is directly associated with one or more pieces of hardware.
+
+
 ## Overview 
 Retrieve the hardware associated with a ticket. This is used in cases where a ticket is directly associated with one or more pieces of hardware.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getParentBay
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getParentBay
+
+Retrieve blade Bay
+
+
 ## Overview 
 Retrieve blade Bay
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getProjectedPublicBandwidthUsage
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getProjectedPublicBandwidthUsage
+
+Retrieve the projected public outbound bandwidth for this hardware for the current billing cycle.
+
+
 ## Overview 
 Retrieve the projected public outbound bandwidth for this hardware for the current billing cycle.
 

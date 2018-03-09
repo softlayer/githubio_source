@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::getConfigurationProfiles
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::getConfigurationProfiles
+
+Retrieve all custom configuration profiles associated with the corresponding agent
+
+
 ## Overview 
 Retrieve all custom configuration profiles associated with the corresponding agent
 

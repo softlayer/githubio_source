@@ -27,10 +27,10 @@ The SoftLayer_Product_Package_Item_Prices contains price to package cross refere
 * [SoftLayer_Product_Item](/reference/datatypes/SoftLayer_Product_Item )
 
 
-* [SoftLayer_Product_Item_Price](/reference/datatypes/SoftLayer_Product_Item_Price )
+* [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price )
 
 
-* [SoftLayer_Product_Item_Category](/reference/datatypes/SoftLayer_Product_Item_Category )
+* [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category )
 
 
 
@@ -50,34 +50,59 @@ The SoftLayer_Product_Package_Item_Prices contains price to package cross refere
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>The unique identifier for SoftLayer_Product_Package_Item_Price. This is only needed as a reference. The important data is the itemPriceId property.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#itemPriceId" name=itemPriceId>itemPriceId</a></span>
+            <span class='views-field-title'>
+                <a href="#itemPriceId" name=itemPriceId>itemPriceId</a>
+            </span>
             <div class='views-field-body'>The SoftLayer_Product_Item_Price id. This value is to be used when placing orders. To get more information about this item price, go from the item price to the item description  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#packageId" name=packageId>packageId</a></span>
+            <span class='views-field-title'>
+                <a href="#packageId" name=packageId>packageId</a>
+            </span>
             <div class='views-field-body'>The Package ID to which this price reference belongs </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#itemPrice" name=itemPrice>itemPrice</a></span>
+            <span class='views-field-title'>
+                <a href="#itemPrice" name=itemPrice>itemPrice</a>
+            </span>
             <div class='views-field-body'>The item price to which this object belongs. The item price has details regarding cost for the item it belongs to. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#package" name=package>package</a></span>
+            <span class='views-field-title'>
+                <a href="#package" name=package>package</a>
+            </span>
             <div class='views-field-body'>The package to which this object belongs. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

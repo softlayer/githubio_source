@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::assignCredential
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::assignCredential
+
+This method will assign an existing credential to the current volume.
+
+
 ## Overview 
 This method will assign an existing credential to the current volume. The credential must have been created using the 'addNewCredential' method. The volume type must support an additional credential. 
 

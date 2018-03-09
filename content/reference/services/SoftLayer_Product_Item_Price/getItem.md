@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Price"
 ---
-# SoftLayer_Product_Item_Price::getItem
+# [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getItem
+
+Retrieve the product item a price is tied to.
+
+
 ## Overview 
 Retrieve the product item a price is tied to.
 

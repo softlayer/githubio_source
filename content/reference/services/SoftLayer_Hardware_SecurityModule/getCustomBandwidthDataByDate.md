@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getCustomBandwidthDataByDate
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getCustomBandwidthDataByDate
+
+Retrieve bandwidth graph by date.
+
+
 ## Overview 
 Retrieve bandwidth graph by date. 
 

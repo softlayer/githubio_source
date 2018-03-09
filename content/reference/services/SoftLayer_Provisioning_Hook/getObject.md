@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Provisioning_Hook"
 ---
-# SoftLayer_Provisioning_Hook::getObject
+# [SoftLayer_Provisioning_Hook](/reference/services/SoftLayer_Provisioning_Hook)::getObject
+
+Retrieve a SoftLayer_Provisioning_Hook record.
+
+
 ## Overview 
 
 

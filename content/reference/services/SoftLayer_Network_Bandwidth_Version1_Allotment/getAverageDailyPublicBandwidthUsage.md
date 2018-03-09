@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
-# SoftLayer_Network_Bandwidth_Version1_Allotment::getAverageDailyPublicBandwidthUsage
+# [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getAverageDailyPublicBandwidthUsage
+
+Retrieve the average daily public bandwidth usage for the current billing cycle.
+
+
 ## Overview 
 Retrieve the average daily public bandwidth usage for the current billing cycle.
 

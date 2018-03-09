@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location_Group_Regional"
 ---
-# SoftLayer_Location_Group_Regional::getDatacenters
+# [SoftLayer_Location_Group_Regional](/reference/services/SoftLayer_Location_Group_Regional)::getDatacenters
+
+Retrieve the datacenters in a group.
+
+
 ## Overview 
 Retrieve the datacenters in a group.
 

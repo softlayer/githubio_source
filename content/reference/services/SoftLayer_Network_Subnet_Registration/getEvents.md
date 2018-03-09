@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_Registration"
 ---
-# SoftLayer_Network_Subnet_Registration::getEvents
+# [SoftLayer_Network_Subnet_Registration](/reference/services/SoftLayer_Network_Subnet_Registration)::getEvents
+
+Retrieve the related registration events.
+
+
 ## Overview 
 Retrieve the related registration events.
 

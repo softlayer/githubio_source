@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller"
 ---
-# SoftLayer_Network_Application_Delivery_Controller::getProjectedPublicBandwidthUsage
+# [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getProjectedPublicBandwidthUsage
+
+Retrieve the projected public outbound bandwidth for the current billing cycle.
+
+
 ## Overview 
 Retrieve the projected public outbound bandwidth for the current billing cycle.
 

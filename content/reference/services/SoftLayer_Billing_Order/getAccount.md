@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order"
 ---
-# SoftLayer_Billing_Order::getAccount
+# [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getAccount
+
+Retrieve the [[SoftLayer_Account|account]] to which an order belongs.
+
+
 ## Overview 
 Retrieve the [[SoftLayer_Account|account]] to which an order belongs.
 

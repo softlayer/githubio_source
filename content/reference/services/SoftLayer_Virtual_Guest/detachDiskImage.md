@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::detachDiskImage
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::detachDiskImage
+
+Detaches a disk image.
+
+
 ## Overview 
 Creates a transaction to detach a guest's disk image. If the disk image is already detached it will be ignored. 
 

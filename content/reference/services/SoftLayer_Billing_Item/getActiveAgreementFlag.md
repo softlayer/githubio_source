@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getActiveAgreementFlag
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getActiveAgreementFlag
+
+Retrieve a flag indicating that the billing item is under an active agreement.
+
+
 ## Overview 
 Retrieve a flag indicating that the billing item is under an active agreement.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Pod"
 ---
-# SoftLayer_Network_Pod::getObject
+# [SoftLayer_Network_Pod](/reference/services/SoftLayer_Network_Pod)::getObject
+
+Retrieve the Pod by name.
+
+
 ## Overview 
 Set the initialization parameter to the ``name`` of the Pod to retrieve. 
 

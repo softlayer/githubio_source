@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getObjectStorageConnectionInformation
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getObjectStorageConnectionInformation
+
+Retrieve all object storage details for connection
+
+
 ## Overview 
 
 

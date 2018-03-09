@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::removeCredential
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::removeCredential
+
+This method will remove a credential from the current volume.
+
+
 ## Overview 
 This method will remove a credential from the current volume. The credential must have been created using the 'addNewCredential' method. 
 

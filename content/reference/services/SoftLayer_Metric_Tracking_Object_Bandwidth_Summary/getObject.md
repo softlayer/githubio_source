@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Metric_Tracking_Object_Bandwidth_Summary"
 ---
-# SoftLayer_Metric_Tracking_Object_Bandwidth_Summary::getObject
+# [SoftLayer_Metric_Tracking_Object_Bandwidth_Summary](/reference/services/SoftLayer_Metric_Tracking_Object_Bandwidth_Summary)::getObject
+
+Retrieve a SoftLayer_Metric_Tracking_Object_Bandwidth_Summary record.
+
+
 ## Overview 
 
 

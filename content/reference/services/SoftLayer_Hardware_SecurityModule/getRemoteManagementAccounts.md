@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getRemoteManagementAccounts
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getRemoteManagementAccounts
+
+Retrieve user credentials to issue commands and/or interact with the server's remote management card.
+
+
 ## Overview 
 Retrieve user credentials to issue commands and/or interact with the server's remote management card.
 

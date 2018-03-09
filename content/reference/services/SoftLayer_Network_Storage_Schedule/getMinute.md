@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Schedule"
 ---
-# SoftLayer_Network_Storage_Schedule::getMinute
+# [SoftLayer_Network_Storage_Schedule](/reference/services/SoftLayer_Network_Storage_Schedule)::getMinute
+
+Retrieve the minute parameter of this schedule.
+
+
 ## Overview 
 Retrieve the minute parameter of this schedule.
 

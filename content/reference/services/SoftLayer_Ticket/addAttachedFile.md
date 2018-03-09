@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::addAttachedFile
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::addAttachedFile
+
+Attach a file to a ticket.
+
+
 ## Overview 
 Attach the given file to a SoftLayer ticket. A file attachment is a convenient way to submit non-textual error reports to SoftLayer employees in a ticket. File attachments to tickets must have a unique name. 
 

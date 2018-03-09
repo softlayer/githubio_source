@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getNewUpdatesFlag
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getNewUpdatesFlag
+
+Retrieve true if there are new, unread updates to this ticket for the current user, False otherwise.
+
+
 ## Overview 
 Retrieve true if there are new, unread updates to this ticket for the current user, False otherwise.
 

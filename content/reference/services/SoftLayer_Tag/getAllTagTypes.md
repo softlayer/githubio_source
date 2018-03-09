@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Tag"
 ---
-# SoftLayer_Tag::getAllTagTypes
+# [SoftLayer_Tag](/reference/services/SoftLayer_Tag)::getAllTagTypes
+
+get all valid tag types
+
+
 ## Overview 
 Returns all tags of a given object type. 
 

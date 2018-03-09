@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress"
 ---
-# SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress::getIpAddress
+# [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress)::getIpAddress
+
+
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getBandwidthAllotmentDetail
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getBandwidthAllotmentDetail
+
+Retrieve a hardware's allotted detail record. Allotment details link bandwidth allocation with allotments.
+
+
 ## Overview 
 Retrieve a hardware's allotted detail record. Allotment details link bandwidth allocation with allotments.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getReplicatingVolume
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getReplicatingVolume
+
+Retrieve the network storage volume being replicated by a volume.
+
+
 ## Overview 
 Retrieve the network storage volume being replicated by a volume.
 

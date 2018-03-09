@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getSubject
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getSubject
+
+Retrieve a ticket's subject. Only standard support tickets have an associated subject. A standard support ticket's title corresponds with it's subject's name.
+
+
 ## Overview 
 Retrieve a ticket's subject. Only standard support tickets have an associated subject. A standard support ticket's title corresponds with it's subject's name.
 

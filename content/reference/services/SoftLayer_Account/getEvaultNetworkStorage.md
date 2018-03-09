@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getEvaultNetworkStorage
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getEvaultNetworkStorage
+
+Retrieve an account's associated EVault storage volumes.
+
+
 ## Overview 
 Retrieve an account's associated EVault storage volumes.
 

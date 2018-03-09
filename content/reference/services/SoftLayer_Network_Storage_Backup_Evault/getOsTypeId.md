@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getOsTypeId
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getOsTypeId
+
+Retrieve a volume's configured SoftLayer_Network_Storage_Iscsi_OS_Type ID.
+
+
 ## Overview 
 Retrieve a volume's configured SoftLayer_Network_Storage_Iscsi_OS_Type ID.
 

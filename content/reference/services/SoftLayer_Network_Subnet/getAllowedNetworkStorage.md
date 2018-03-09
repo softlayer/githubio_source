@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getAllowedNetworkStorage
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getAllowedNetworkStorage
+
+Retrieve the SoftLayer_Network_Storage objects that this SoftLayer_Hardware has access to.
+
+
 ## Overview 
 Retrieve the SoftLayer_Network_Storage objects that this SoftLayer_Hardware has access to.
 

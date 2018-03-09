@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Authentication_Address"
 ---
-# SoftLayer_Network_ContentDelivery_Authentication_Address::getObject
+# [SoftLayer_Network_ContentDelivery_Authentication_Address](/reference/services/SoftLayer_Network_ContentDelivery_Authentication_Address)::getObject
+
+Retrieve a SoftLayer_Network_ContentDelivery_Authentication_Address record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Network_ContentDelivery_Authentication_Address object whose ID number corresponds to the ID number of the initial parameter passed to the SoftLayer_Network_ContentDelivery_Authentication_Address service. You can only retrieve authentication IP addresses assigned to one of your CDN account. 
 

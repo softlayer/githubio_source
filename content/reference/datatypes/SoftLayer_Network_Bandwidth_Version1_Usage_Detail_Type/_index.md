@@ -39,9 +39,14 @@ The SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type data type contains ge
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#alias" name=alias>alias</a></span>
+            <span class='views-field-title'>
+                <a href="#alias" name=alias>alias</a>
+            </span>
             <div class='views-field-body'>Database key associated with this bandwidth detail type. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

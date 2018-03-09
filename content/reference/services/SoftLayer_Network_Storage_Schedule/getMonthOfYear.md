@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Schedule"
 ---
-# SoftLayer_Network_Storage_Schedule::getMonthOfYear
+# [SoftLayer_Network_Storage_Schedule](/reference/services/SoftLayer_Network_Storage_Schedule)::getMonthOfYear
+
+Retrieve the month of the year parameter of this schedule.
+
+
 ## Overview 
 Retrieve the month of the year parameter of this schedule.
 

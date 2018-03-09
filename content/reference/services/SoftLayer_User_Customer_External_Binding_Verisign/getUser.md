@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Verisign"
 ---
-# SoftLayer_User_Customer_External_Binding_Verisign::getUser
+# [SoftLayer_User_Customer_External_Binding_Verisign](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign)::getUser
+
+Retrieve the SoftLayer user that the external authentication binding belongs to.
+
+
 ## Overview 
 Retrieve the SoftLayer user that the external authentication binding belongs to.
 

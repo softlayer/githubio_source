@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getNetworkId
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getNetworkId
+
+Retrieve the Private Network identifier this subnet is within, if applicable.
+
+
 ## Overview 
 Retrieve the Private Network identifier this subnet is within, if applicable.
 

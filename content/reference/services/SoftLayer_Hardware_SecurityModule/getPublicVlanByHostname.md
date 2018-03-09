@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getPublicVlanByHostname
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getPublicVlanByHostname
+
+Retrieve the frontend VLAN by a server's hostname.
+
+
 ## Overview 
 Retrieve the frontend network Vlan by searching the hostname of a server 
 

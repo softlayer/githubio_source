@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getNetworkComponents
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getNetworkComponents
+
+Retrieve the networking components that are connected to a VLAN.
+
+
 ## Overview 
 Retrieve the networking components that are connected to a VLAN.
 

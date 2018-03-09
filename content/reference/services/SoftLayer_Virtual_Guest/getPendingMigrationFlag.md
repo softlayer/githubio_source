@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getPendingMigrationFlag
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getPendingMigrationFlag
+
+Retrieve when true this virtual guest must be migrated using SoftLayer_Virtual_Guest::migrate.
+
+
 ## Overview 
 Retrieve when true this virtual guest must be migrated using SoftLayer_Virtual_Guest::migrate.
 

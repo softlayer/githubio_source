@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getServerTemperatureGraphs
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getServerTemperatureGraphs
+
+Retrieve server's temperature graphs
+
+
 ## Overview 
 The '''getServerTemperatureGraphs''' retrieves the server's temperatures and displays the various temperatures using thermometer graphs. Temperatures retrieved are CPU temperature(s) and system temperatures. Data used to construct the graphs is retrieved from the server's remote management card. All graphs returned will have an associated title. 
 

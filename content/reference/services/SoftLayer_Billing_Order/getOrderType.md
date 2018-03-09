@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order"
 ---
-# SoftLayer_Billing_Order::getOrderType
+# [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getOrderType
+
+Retrieve the type of an order. This lets you know where this order was generated from.
+
+
 ## Overview 
 Retrieve the type of an order. This lets you know where this order was generated from.
 

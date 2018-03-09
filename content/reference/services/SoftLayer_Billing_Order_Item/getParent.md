@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Item"
 ---
-# SoftLayer_Billing_Order_Item::getParent
+# [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getParent
+
+Retrieve the parent order item ID for an item. Items that are associated with a server will have a parent. The parent will be the server item itself.
+
+
 ## Overview 
 Retrieve the parent order item ID for an item. Items that are associated with a server will have a parent. The parent will be the server item itself.
 

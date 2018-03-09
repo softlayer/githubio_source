@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getApiAuthenticationKeys
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getApiAuthenticationKeys
+
+Retrieve a portal user's API Authentication keys. There is a max limit of two API keys per user.
+
+
 ## Overview 
 Retrieve a portal user's API Authentication keys. There is a max limit of two API keys per user.
 

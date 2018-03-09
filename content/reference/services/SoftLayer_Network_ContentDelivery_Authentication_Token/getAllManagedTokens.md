@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Authentication_Token"
 ---
-# SoftLayer_Network_ContentDelivery_Authentication_Token::getAllManagedTokens
+# [SoftLayer_Network_ContentDelivery_Authentication_Token](/reference/services/SoftLayer_Network_ContentDelivery_Authentication_Token)::getAllManagedTokens
+
+(DEPRECATED) Returns all managed tokens for a CDN account.
+
+
 ## Overview 
 This method is deprecated! 
 

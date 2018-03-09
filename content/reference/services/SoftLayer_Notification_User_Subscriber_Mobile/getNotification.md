@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_User_Subscriber_Mobile"
 ---
-# SoftLayer_Notification_User_Subscriber_Mobile::getNotification
+# [SoftLayer_Notification_User_Subscriber_Mobile](/reference/services/SoftLayer_Notification_User_Subscriber_Mobile)::getNotification
+
+Retrieve notification subscribed to.
+
+
 ## Overview 
 Retrieve notification subscribed to.
 

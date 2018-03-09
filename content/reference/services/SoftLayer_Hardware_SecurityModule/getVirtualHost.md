@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getVirtualHost
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getVirtualHost
+
+Retrieve a piece of hardware's virtual host record.
+
+
 ## Overview 
 Retrieve a piece of hardware's virtual host record.
 

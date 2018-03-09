@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Certificate_Request"
 ---
-# SoftLayer_Security_Certificate_Request::getAccount
+# [SoftLayer_Security_Certificate_Request](/reference/services/SoftLayer_Security_Certificate_Request)::getAccount
+
+Retrieve the account to which a SSL certificate request belongs.
+
+
 ## Overview 
 Retrieve the account to which a SSL certificate request belongs.
 

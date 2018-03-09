@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference"
 ---
-# SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference::createObjects
+# [SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference)::createObjects
+
+Creates monitoring agent configuration template group references.
+
+
 ## Overview 
 This method creates monitoring agent configuration template group references by passing in an array of objects with the SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference structure as the $templateObjects parameter. Setting the $bulkCommit parameter to true will commit the changes in one transaction, false will commit after each object is created. 
 

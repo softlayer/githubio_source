@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Auxiliary_Network_Status"
 ---
-# SoftLayer_Auxiliary_Network_Status::getNetworkStatus
+# [SoftLayer_Auxiliary_Network_Status](/reference/services/SoftLayer_Auxiliary_Network_Status)::getNetworkStatus
+
+return current network status for a given target.
+
+
 ## Overview 
 Return the current network status of and latency information for a given target from numerous points around the world. Valid Targets: 
 * ALL

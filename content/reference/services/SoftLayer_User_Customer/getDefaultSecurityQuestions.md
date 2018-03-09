@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getDefaultSecurityQuestions
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getDefaultSecurityQuestions
+
+Retrieve default security questions.
+
+
 ## Overview 
 <strong>This method is deprecated.  Please see documentation for initiatePortalPasswordChange</strong> 
 

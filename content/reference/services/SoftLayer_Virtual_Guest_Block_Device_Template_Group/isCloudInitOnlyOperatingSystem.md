@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Block_Device_Template_Group"
 ---
-# SoftLayer_Virtual_Guest_Block_Device_Template_Group::isCloudInitOnlyOperatingSystem
+# [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::isCloudInitOnlyOperatingSystem
+
+
+
+
 ## Overview 
 This method indicates whether or not this image uses an operating system that requires cloud init 
 

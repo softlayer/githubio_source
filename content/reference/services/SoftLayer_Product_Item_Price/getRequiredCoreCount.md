@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Price"
 ---
-# SoftLayer_Product_Item_Price::getRequiredCoreCount
+# [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getRequiredCoreCount
+
+Retrieve the number of server cores required to order this item. This is deprecated. Use [[SoftLayer_Product_Item_Price/getCapacityRestrictionMinimum|getCapacityRestrictionMinimum]] and [[SoftLayer_Product_Item_Price/getCapacityRestrictionMaximum|getCapacityRestrictionMaximum]]
+
+
 ## Overview 
 Retrieve the number of server cores required to order this item. This is deprecated. Use [[SoftLayer_Product_Item_Price/getCapacityRestrictionMinimum|getCapacityRestrictionMinimum]] and [[SoftLayer_Product_Item_Price/getCapacityRestrictionMaximum|getCapacityRestrictionMaximum]]
 

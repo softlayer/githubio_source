@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::isEligibleToLinkWithPaas
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::isEligibleToLinkWithPaas
+
+Returns true if this account is eligible to link with PaaS. False otherwise. 
+
+
 ## Overview 
 Returns true if this account is eligible to link with PaaS. False otherwise. 
 

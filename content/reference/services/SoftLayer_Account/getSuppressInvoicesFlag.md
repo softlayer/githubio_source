@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getSuppressInvoicesFlag
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSuppressInvoicesFlag
+
+Retrieve a flag indicating to suppress invoices.
+
+
 ## Overview 
 Retrieve a flag indicating to suppress invoices.
 

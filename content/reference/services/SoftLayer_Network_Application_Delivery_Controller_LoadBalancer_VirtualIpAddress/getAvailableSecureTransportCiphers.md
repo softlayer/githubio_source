@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress"
 ---
-# SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress::getAvailableSecureTransportCiphers
+# [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress)::getAvailableSecureTransportCiphers
+
+Lists the SSL encryption ciphers available to this virtual IP address
+
+
 ## Overview 
 Yields a list of the SSL/TLS encryption ciphers that are currently supported on this virtual IP address instance. 
 

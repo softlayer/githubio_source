@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getNetworkCreationFlag
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNetworkCreationFlag
+
+Retrieve whether or not this account can define their own networks.
+
+
 ## Overview 
 Retrieve whether or not this account can define their own networks.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getCustomMetricDataByDate
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getCustomMetricDataByDate
+
+Retrieve bandwidth graph by date.
+
+
 ## Overview 
 Retrieve bandwidth graph by date. 
 

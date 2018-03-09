@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getLatestRecurringInvoice
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getLatestRecurringInvoice
+
+Retrieve an account's latest recurring invoice.
+
+
 ## Overview 
 Retrieve an account's latest recurring invoice.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getFileNetworkMountAddress
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getFileNetworkMountAddress
+
+Retrieve retrieves the NFS Network Mount Address Name for a given File Storage Volume.
+
+
 ## Overview 
 Retrieve retrieves the NFS Network Mount Address Name for a given File Storage Volume.
 

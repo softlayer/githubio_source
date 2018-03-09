@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getOpenStackObjectStorage
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getOpenStackObjectStorage
+
+Retrieve an account's associated Openstack related Object Storage accounts.
+
+
 ## Overview 
 Retrieve an account's associated Openstack related Object Storage accounts.
 

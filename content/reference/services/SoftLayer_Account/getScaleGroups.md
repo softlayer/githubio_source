@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getScaleGroups
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getScaleGroups
+
+Retrieve all scale groups on this account.
+
+
 ## Overview 
 Retrieve all scale groups on this account.
 

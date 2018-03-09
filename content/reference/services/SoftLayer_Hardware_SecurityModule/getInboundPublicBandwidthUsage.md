@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getInboundPublicBandwidthUsage
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getInboundPublicBandwidthUsage
+
+Retrieve the total public inbound bandwidth for this hardware for the current billing cycle.
+
+
 ## Overview 
 Retrieve the total public inbound bandwidth for this hardware for the current billing cycle.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_Notification_Virtual_Guest"
 ---
-# SoftLayer_User_Customer_Notification_Virtual_Guest::getGuest
+# [SoftLayer_User_Customer_Notification_Virtual_Guest](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest)::getGuest
+
+Retrieve the virtual guest object that will be monitored.
+
+
 ## Overview 
 Retrieve the virtual guest object that will be monitored.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getMotherboard
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getMotherboard
+
+Retrieve a server's motherboard.
+
+
 ## Overview 
 Retrieve a server's motherboard.
 

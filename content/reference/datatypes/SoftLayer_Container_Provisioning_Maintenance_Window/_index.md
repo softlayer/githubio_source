@@ -39,29 +39,54 @@ This is the datatype that needs to be populated and sent to SoftLayer_Provisioni
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#classificationIds" name=classificationIds>classificationIds</a></span>
+            <span class='views-field-title'>
+                <a href="#classificationIds" name=classificationIds>classificationIds</a>
+            </span>
             <div class='views-field-body'>Maintenance classifications. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification'>SoftLayer_Provisioning_Maintenance_Classification[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification'>SoftLayer_Provisioning_Maintenance_Classification[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#itemCategoryIds" name=itemCategoryIds>itemCategoryIds</a></span>
+            <span class='views-field-title'>
+                <a href="#itemCategoryIds" name=itemCategoryIds>itemCategoryIds</a>
+            </span>
             <div class='views-field-body'>Maintenance classifications. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#maintenanceWindowId" name=maintenanceWindowId>maintenanceWindowId</a></span>
+            <span class='views-field-title'>
+                <a href="#maintenanceWindowId" name=maintenanceWindowId>maintenanceWindowId</a>
+            </span>
             <div class='views-field-body'>The maintenance window id </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#ticketId" name=ticketId>ticketId</a></span>
+            <span class='views-field-title'>
+                <a href="#ticketId" name=ticketId>ticketId</a>
+            </span>
             <div class='views-field-body'>Maintenance window ticket id </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#windowMaintenanceDate" name=windowMaintenanceDate>windowMaintenanceDate</a></span>
+            <span class='views-field-title'>
+                <a href="#windowMaintenanceDate" name=windowMaintenanceDate>windowMaintenanceDate</a>
+            </span>
             <div class='views-field-body'>Maintenance window date </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
             </div>
     </div>

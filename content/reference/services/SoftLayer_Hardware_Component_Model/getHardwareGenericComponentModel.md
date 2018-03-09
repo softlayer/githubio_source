@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Component_Model"
 ---
-# SoftLayer_Hardware_Component_Model::getHardwareGenericComponentModel
+# [SoftLayer_Hardware_Component_Model](/reference/services/SoftLayer_Hardware_Component_Model)::getHardwareGenericComponentModel
+
+Retrieve the non-vendor specific generic component model for a hardware component model.
+
+
 ## Overview 
 Retrieve the non-vendor specific generic component model for a hardware component model.
 

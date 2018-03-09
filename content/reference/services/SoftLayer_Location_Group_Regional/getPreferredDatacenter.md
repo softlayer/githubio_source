@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location_Group_Regional"
 ---
-# SoftLayer_Location_Group_Regional::getPreferredDatacenter
+# [SoftLayer_Location_Group_Regional](/reference/services/SoftLayer_Location_Group_Regional)::getPreferredDatacenter
+
+Retrieve the preferred datacenters of a group.
+
+
 ## Overview 
 Retrieve the preferred datacenters of a group.
 

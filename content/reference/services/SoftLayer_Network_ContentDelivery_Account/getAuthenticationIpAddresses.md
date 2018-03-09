@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::getAuthenticationIpAddresses
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getAuthenticationIpAddresses
+
+Retrieve the IP addresses that are used for the content authentication service.
+
+
 ## Overview 
 Retrieve the IP addresses that are used for the content authentication service.
 

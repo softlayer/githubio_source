@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getStorageNetworkFlag
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getStorageNetworkFlag
+
+Retrieve whether a network component's primary ip address is from a storage network subnet or not.
+
+
 ## Overview 
 Retrieve whether a network component's primary ip address is from a storage network subnet or not.
 

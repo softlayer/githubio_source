@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice"
 ---
-# SoftLayer_Billing_Invoice::getPayment
+# [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getPayment
+
+Retrieve this is the total payment made on this invoice.
+
+
 ## Overview 
 Retrieve this is the total payment made on this invoice.
 

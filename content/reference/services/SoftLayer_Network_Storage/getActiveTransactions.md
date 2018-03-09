@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getActiveTransactions
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getActiveTransactions
+
+Retrieve the currently active transactions on a network storage volume.
+
+
 ## Overview 
 Retrieve the currently active transactions on a network storage volume.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getAdcLoadBalancers
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAdcLoadBalancers
+
+Retrieve an account's associated load balancers.
+
+
 ## Overview 
 Retrieve an account's associated load balancers.
 

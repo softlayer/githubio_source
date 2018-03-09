@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Secondary"
 ---
-# SoftLayer_Dns_Secondary::deleteObject
+# [SoftLayer_Dns_Secondary](/reference/services/SoftLayer_Dns_Secondary)::deleteObject
+
+Delete a secondary DNS record
+
+
 ## Overview 
 Delete a secondary DNS Record. This will also remove any associated domain records and resource records on the SoftLayer nameservers that were created as a result of the zone transfers. This action cannot be undone. 
 

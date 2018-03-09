@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getUsageNotification
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getUsageNotification
+
+Retrieve the usage notification for SL Storage services.
+
+
 ## Overview 
 Retrieve the usage notification for SL Storage services.
 

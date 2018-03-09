@@ -39,28 +39,48 @@ The McAfee_Epolicy_Orchestrator_Version45_Agent_Parent_Details data type contain
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>The name of a policy. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#agentDetails" name=agentDetails>agentDetails</a></span>
+            <span class='views-field-title'>
+                <a href="#agentDetails" name=agentDetails>agentDetails</a>
+            </span>
             <div class='views-field-body'>Additional information about an agent. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>McAfee_Epolicy_Orchestrator_Version45_Agent_Details</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>McAfee_Epolicy_Orchestrator_Version45_Agent_Details</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#policies" name=policies>policies</a></span>
+            <span class='views-field-title'>
+                <a href="#policies" name=policies>policies</a>
+            </span>
             <div class='views-field-body'>The current anti-virus policy of an agent. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>McAfee_Epolicy_Orchestrator_Version45_Agent_Parent_Details[]</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>McAfee_Epolicy_Orchestrator_Version45_Agent_Parent_Details[]</p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#policyCount" name=policyCount>policyCount</a></span>
+            <span class='views-field-title'>
+                <a href="#policyCount" name=policyCount>policyCount</a>
+            </span>
             <div class='views-field-body'>A count of the current anti-virus policy of an agent. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
         </div>
             </div>
 </div>

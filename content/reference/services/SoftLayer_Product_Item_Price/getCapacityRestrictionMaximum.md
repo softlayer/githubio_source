@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Price"
 ---
-# SoftLayer_Product_Item_Price::getCapacityRestrictionMaximum
+# [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getCapacityRestrictionMaximum
+
+Retrieve the maximum capacity value for which this price is suitable.
+
+
 ## Overview 
 Retrieve the maximum capacity value for which this price is suitable.
 

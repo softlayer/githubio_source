@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::restoreFromSnapshot
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::restoreFromSnapshot
+
+Restore from a volume snapshot.
+
+
 ## Overview 
 Restore the volume from a snapshot that was previously taken. 
 

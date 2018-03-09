@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::createAdministrativeTicket
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::createAdministrativeTicket
+
+Create an administrative support ticket.
+
+
 ## Overview 
 Create an administrative support ticket. Use an administrative ticket if you require SoftLayer's assistance managing your server or content. If you are experiencing an issue with SoftLayer's hardware, network, or services then please open a standard support ticket. 
 

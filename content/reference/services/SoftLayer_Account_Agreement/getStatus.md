@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Agreement"
 ---
-# SoftLayer_Account_Agreement::getStatus
+# [SoftLayer_Account_Agreement](/reference/services/SoftLayer_Account_Agreement)::getStatus
+
+Retrieve the status of the agreement.
+
+
 ## Overview 
 Retrieve the status of the agreement.
 

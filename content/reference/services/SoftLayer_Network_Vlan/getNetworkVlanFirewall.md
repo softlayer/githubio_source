@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getNetworkVlanFirewall
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getNetworkVlanFirewall
+
+Retrieve the Hardware Firewall (Dedicated) for a network vlan.
+
+
 ## Overview 
 Retrieve the Hardware Firewall (Dedicated) for a network vlan.
 

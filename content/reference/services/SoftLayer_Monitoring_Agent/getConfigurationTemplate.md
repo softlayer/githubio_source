@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::getConfigurationTemplate
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::getConfigurationTemplate
+
+Retrieve a template of an agent's current configuration which contains information about the structure of the configuration values.
+
+
 ## Overview 
 Retrieve a template of an agent's current configuration which contains information about the structure of the configuration values.
 

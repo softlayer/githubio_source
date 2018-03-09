@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::removeAttachedVirtualGuest
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::removeAttachedVirtualGuest
+
+Detach a CloudLayer Computing Instance from a ticket.
+
+
 ## Overview 
 Detach the given CloudLayer Computing Instance from a SoftLayer ticket. Removing an attachment may delay ticket processing time if the instance removed is relevant to the ticket's issue. Return a boolean true upon successful detachment. 
 

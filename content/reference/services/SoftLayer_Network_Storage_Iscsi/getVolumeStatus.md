@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getVolumeStatus
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getVolumeStatus
+
+Retrieve the current status of a network storage volume.
+
+
 ## Overview 
 Retrieve the current status of a network storage volume.
 

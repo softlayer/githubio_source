@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket_Survey"
 ---
-# SoftLayer_Ticket_Survey::getPreference
+# [SoftLayer_Ticket_Survey](/reference/services/SoftLayer_Ticket_Survey)::getPreference
+
+Returns ticket survey preferences 
+
+
 ## Overview 
 Use this method to retrieve the ticket survey preferences. It will return your [[SoftLayer_Container_Ticket_Survey_Preference|survey preference]] which indicates if your account is applicable to receive a survey and if you're opted in. You can control the survey opt via the [[SoftLayer_Ticket_Survey::optIn|opt-in]] or [[SoftLayer_Ticket_Survey::optOut|opt-out]] method. 
 

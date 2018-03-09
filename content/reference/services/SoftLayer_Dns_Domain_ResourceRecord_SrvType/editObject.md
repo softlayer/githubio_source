@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_ResourceRecord_SrvType"
 ---
-# SoftLayer_Dns_Domain_ResourceRecord_SrvType::editObject
+# [SoftLayer_Dns_Domain_ResourceRecord_SrvType](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType)::editObject
+
+Edit a domain's SRV record.
+
+
 ## Overview 
 editObject edits an existing SRV resource record. The ''host'' property of the templateObject parameter is scrubbed to remove all non-alpha numeric characters except for "@", "_", ".", "*", and "-". The ''data'' property of the templateObject parameter is scrubbed to remove all non-alphanumeric characters for "." and "-". Editing an SRV record updates the serial number of the domain the record is associated with. 
 

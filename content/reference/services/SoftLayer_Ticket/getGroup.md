@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getGroup
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getGroup
+
+Retrieve the SoftLayer department that a ticket is assigned to.
+
+
 ## Overview 
 Retrieve the SoftLayer department that a ticket is assigned to.
 

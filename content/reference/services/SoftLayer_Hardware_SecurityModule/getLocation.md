@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getLocation
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getLocation
+
+Retrieve where a piece of hardware is located within SoftLayer's location hierarchy.
+
+
 ## Overview 
 Retrieve where a piece of hardware is located within SoftLayer's location hierarchy.
 

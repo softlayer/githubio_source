@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::captureImage
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::captureImage
+
+Captures a Flex Image of the hard disk on the virtual machine.
+
+
 ## Overview 
 Captures a Flex Image of the hard disk on the virtual machine, based on the capture template parameter. Returns the image template group containing the disk image. 
 

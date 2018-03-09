@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Gateway_Member"
 ---
-# SoftLayer_Network_Gateway_Member::createObject
+# [SoftLayer_Network_Gateway_Member](/reference/services/SoftLayer_Network_Gateway_Member)::createObject
+
+Add a member to a gateway
+
+
 ## Overview 
 Create a new hardware member on the gateway. This also asynchronously sets up the network for this member. Progress of this process can be monitored via the gateway status. All members created with this object must have no VLANs attached. 
 

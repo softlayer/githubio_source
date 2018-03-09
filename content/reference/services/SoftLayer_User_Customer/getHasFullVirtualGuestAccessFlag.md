@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getHasFullVirtualGuestAccessFlag
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getHasFullVirtualGuestAccessFlag
+
+Retrieve whether or not a portal user has access to all hardware on their account.
+
+
 ## Overview 
 Retrieve whether or not a portal user has access to all hardware on their account.
 

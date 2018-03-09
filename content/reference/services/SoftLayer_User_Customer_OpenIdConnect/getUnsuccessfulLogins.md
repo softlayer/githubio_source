@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getUnsuccessfulLogins
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getUnsuccessfulLogins
+
+Retrieve a user's unsuccessful attempts to log into the SoftLayer customer portal.
+
+
 ## Overview 
 Retrieve a user's unsuccessful attempts to log into the SoftLayer customer portal.
 

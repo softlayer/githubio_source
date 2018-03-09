@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network"
 ---
-# SoftLayer_Network::editObject
+# [SoftLayer_Network](/reference/services/SoftLayer_Network)::editObject
+
+Modify the Network.
+
+
 ## Overview 
 Modify either the ``name`` or ``notes`` properties of a Network. 
 

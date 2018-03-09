@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Network_Component"
 ---
-# SoftLayer_Virtual_Guest_Network_Component::getObject
+# [SoftLayer_Virtual_Guest_Network_Component](/reference/services/SoftLayer_Virtual_Guest_Network_Component)::getObject
+
+Retrieve a SoftLayer_Virtual_Guest_Network_Component record.
+
+
 ## Overview 
 
 

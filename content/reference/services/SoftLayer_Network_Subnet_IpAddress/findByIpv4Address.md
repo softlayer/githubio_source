@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_IpAddress"
 ---
-# SoftLayer_Network_Subnet_IpAddress::findByIpv4Address
+# [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::findByIpv4Address
+
+Search for an IP address record by IPv4 address.
+
+
 ## Overview 
 Search for an IP address record by IPv4 address.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_DedicatedHost"
 ---
-# SoftLayer_Virtual_DedicatedHost::getAvailableRouters
+# [SoftLayer_Virtual_DedicatedHost](/reference/services/SoftLayer_Virtual_DedicatedHost)::getAvailableRouters
+
+Get available backend routers in a datacenter to order a dedicated host. 
+
+
 ## Overview 
 This method will get the available backend routers to order a dedicated host. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Resource_Metadata"
 ---
-# SoftLayer_Resource_Metadata::getDomain
+# [SoftLayer_Resource_Metadata](/reference/services/SoftLayer_Resource_Metadata)::getDomain
+
+A resource's domain
+
+
 ## Overview 
 The getDomain method retrieves the hostname for the resource.
 

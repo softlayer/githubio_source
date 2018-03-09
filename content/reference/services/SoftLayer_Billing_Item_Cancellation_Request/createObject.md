@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item_Cancellation_Request"
 ---
-# SoftLayer_Billing_Item_Cancellation_Request::createObject
+# [SoftLayer_Billing_Item_Cancellation_Request](/reference/services/SoftLayer_Billing_Item_Cancellation_Request)::createObject
+
+Creates a cancellation request.
+
+
 ## Overview 
 This method creates a service cancellation request. 
 

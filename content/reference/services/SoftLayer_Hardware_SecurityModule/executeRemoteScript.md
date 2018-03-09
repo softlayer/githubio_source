@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::executeRemoteScript
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::executeRemoteScript
+
+Download and run remote script from uri on the hardware. Requires https for script to be executed after download. 
+
+
 ## Overview 
 Download and run remote script from uri on the hardware.
 

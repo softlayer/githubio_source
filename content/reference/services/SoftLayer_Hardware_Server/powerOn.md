@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::powerOn
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::powerOn
+
+Power on server.
+
+
 ## Overview 
 Power on server via its remote management card.  If a reboot command has been issued successfully in the past 20 minutes, another remote management command (rebootSoft, rebootHard, powerOn, powerOff and powerCycle) will not be allowed.  This is to avoid any type of server failures. 
 

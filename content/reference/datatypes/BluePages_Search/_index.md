@@ -13,7 +13,7 @@ classes:
 # BluePages_Search
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/BluePages_Search' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/BluePages_Search' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/BluePages_Search' >Datatype</a></li>
     </ul>
 </div>
 

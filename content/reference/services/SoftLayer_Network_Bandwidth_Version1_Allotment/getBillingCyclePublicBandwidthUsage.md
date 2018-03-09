@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
-# SoftLayer_Network_Bandwidth_Version1_Allotment::getBillingCyclePublicBandwidthUsage
+# [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getBillingCyclePublicBandwidthUsage
+
+Retrieve a virtual rack's raw public network bandwidth usage data for an account's current billing cycle.
+
+
 ## Overview 
 Retrieve a virtual rack's raw public network bandwidth usage data for an account's current billing cycle.
 

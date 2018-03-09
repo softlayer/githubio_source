@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Regional_Registry_Detail"
 ---
-# SoftLayer_Account_Regional_Registry_Detail::getAccount
+# [SoftLayer_Account_Regional_Registry_Detail](/reference/services/SoftLayer_Account_Regional_Registry_Detail)::getAccount
+
+Retrieve the account that this detail object belongs to.
+
+
 ## Overview 
 Retrieve the account that this detail object belongs to.
 

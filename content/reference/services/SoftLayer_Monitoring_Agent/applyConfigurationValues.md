@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::applyConfigurationValues
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::applyConfigurationValues
+
+Creates a transaction that applies monitoring configuration value changes to a monitoring agent's configuration for fixed sections. 
+
+
 ## Overview 
 This method creates a transaction used to apply changes to a monitoring agent's configuration for an array of SoftLayer_Configuration_Template_Section that have the property sectionType with a name of 'Fixed section'. Configuration values that are passed in can be new or updated objects but must have a configurationDefinitionId defined for both. Existing SoftLayer_Monitoring_Agent_Configuration_Value values can be retrieved as a property of the SoftLayer_Configuration_Template_Section_Definition from the monitoring agent's configurationTemplate property. New values will follow the structure of SoftLayer_Monitoring_Agent_Configuration_Value. This method returns a SoftLayer_Provisioning_Version1_Transaction object to track the progress of the update being applied. 
 

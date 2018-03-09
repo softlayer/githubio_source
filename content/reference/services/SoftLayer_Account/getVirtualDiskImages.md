@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getVirtualDiskImages
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualDiskImages
+
+Retrieve an account's associated virtual server virtual disk images.
+
+
 ## Overview 
 Retrieve an account's associated virtual server virtual disk images.
 

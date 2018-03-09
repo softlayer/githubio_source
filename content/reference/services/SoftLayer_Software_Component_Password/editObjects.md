@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_Password"
 ---
-# SoftLayer_Software_Component_Password::editObjects
+# [SoftLayer_Software_Component_Password](/reference/services/SoftLayer_Software_Component_Password)::editObjects
+
+Edit more than one password from a software component.
+
+
 ## Overview 
 Edit more than one password from a software component. 
 

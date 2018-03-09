@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getActiveItems
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getActiveItems
+
+Retrieve the active items, as well as their prices and categories for this package
+
+
 ## Overview 
 Return a list of Items in the package with their active prices.
 

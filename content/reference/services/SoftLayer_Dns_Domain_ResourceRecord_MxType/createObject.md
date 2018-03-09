@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_ResourceRecord_MxType"
 ---
-# SoftLayer_Dns_Domain_ResourceRecord_MxType::createObject
+# [SoftLayer_Dns_Domain_ResourceRecord_MxType](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType)::createObject
+
+Create an MX record.
+
+
 ## Overview 
 createObject creates a new MX record. The ''host'' property of the templateObject parameter is scrubbed to remove all non-alpha numeric characters except for "@", "_", ".", "*", and "-". The ''data'' property of the templateObject parameter is scrubbed to remove all non-alphanumeric characters for "." and "-". Creating an MX record updates the serial number of the domain the resource record is associated with. 
 

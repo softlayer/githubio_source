@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive' >Datatype</a></li>
     </ul>
 </div>
 
@@ -39,19 +39,34 @@ This data type models a purge event that occurs repetitively and automatically i
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#createDate" name=createDate>createDate</a></span>
+            <span class='views-field-title'>
+                <a href="#createDate" name=createDate>createDate</a>
+            </span>
             <div class='views-field-body'>date record is created  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#path" name=path>path</a></span>
+            <span class='views-field-title'>
+                <a href="#path" name=path>path</a>
+            </span>
             <div class='views-field-body'>Path where purge will be executed after TTL  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#timeToLive" name=timeToLive>timeToLive</a></span>
+            <span class='views-field-title'>
+                <a href="#timeToLive" name=timeToLive>timeToLive</a>
+            </span>
             <div class='views-field-body'>Time interval after which purge will occur repeatedly  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
     </div>

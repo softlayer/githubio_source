@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location_Group_Pricing"
 ---
-# SoftLayer_Location_Group_Pricing::getObject
+# [SoftLayer_Location_Group_Pricing](/reference/services/SoftLayer_Location_Group_Pricing)::getObject
+
+Retrieve a SoftLayer_Location_Group_Pricing record.
+
+
 ## Overview 
 
 

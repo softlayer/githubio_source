@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getInvoiceItem
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getInvoiceItem
+
+Retrieve invoice items associated with this billing item
+
+
 ## Overview 
 Retrieve invoice items associated with this billing item
 

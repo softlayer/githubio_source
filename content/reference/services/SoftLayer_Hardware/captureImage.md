@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::captureImage
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::captureImage
+
+Captures a Flex Image of the hard disk on the physical machine.
+
+
 ## Overview 
 Captures a Flex Image of the hard disk on the physical machine, based on the capture template parameter. Returns the image template group containing the disk image. 
 

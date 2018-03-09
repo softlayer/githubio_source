@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Tag"
 ---
-# SoftLayer_Tag::getTagByTagName
+# [SoftLayer_Tag](/reference/services/SoftLayer_Tag)::getTagByTagName
+
+get the tag object based on what the user inputs
+
+
 ## Overview 
 Returns the Tag object with a given name. The user types in the tag name and this method returns the tag with that name. 
 

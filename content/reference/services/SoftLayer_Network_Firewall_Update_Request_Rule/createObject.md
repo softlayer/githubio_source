@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Firewall_Update_Request_Rule"
 ---
-# SoftLayer_Network_Firewall_Update_Request_Rule::createObject
+# [SoftLayer_Network_Firewall_Update_Request_Rule](/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule)::createObject
+
+Create a new firewall update request rule.
+
+
 ## Overview 
 Create a new firewall update request. The SoftLayer_Network_Firewall_Update_Request object passed to this function must have at least one rule. 
 

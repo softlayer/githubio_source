@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Firewall_Module_Context_Interface"
 ---
-# SoftLayer_Network_Firewall_Module_Context_Interface::getObject
+# [SoftLayer_Network_Firewall_Module_Context_Interface](/reference/services/SoftLayer_Network_Firewall_Module_Context_Interface)::getObject
+
+Retrieve a SoftLayer_Network_Firewall_Module_Context_Interface record.
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LBaaS_LoadBalancer"
 ---
-# SoftLayer_Network_LBaaS_LoadBalancer::getAllObjects
+# [SoftLayer_Network_LBaaS_LoadBalancer](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer)::getAllObjects
+
+Get all existing load balancers. 
+
+
 ## Overview 
 Return all existing load balancers 
 

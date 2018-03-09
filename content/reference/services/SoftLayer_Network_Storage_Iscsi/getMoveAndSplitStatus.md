@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getMoveAndSplitStatus
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getMoveAndSplitStatus
+
+Retrieve the current status of split or move operation as a part of volume duplication.
+
+
 ## Overview 
 Retrieve the current status of split or move operation as a part of volume duplication.
 

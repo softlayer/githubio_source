@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Locale_Country"
 ---
-# SoftLayer_Locale_Country::getStates
+# [SoftLayer_Locale_Country](/reference/services/SoftLayer_Locale_Country)::getStates
+
+Retrieve states that belong to this country.
+
+
 ## Overview 
 Retrieve states that belong to this country.
 

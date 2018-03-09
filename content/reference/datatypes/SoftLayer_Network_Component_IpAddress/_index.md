@@ -48,16 +48,26 @@ The SoftLayer_Network_Component_IpAddress data type contains general information
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#ipAddress" name=ipAddress>ipAddress</a></span>
+            <span class='views-field-title'>
+                <a href="#ipAddress" name=ipAddress>ipAddress</a>
+            </span>
             <div class='views-field-body'>The IP address associated with this object's network component. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#networkComponent" name=networkComponent>networkComponent</a></span>
+            <span class='views-field-title'>
+                <a href="#networkComponent" name=networkComponent>networkComponent</a>
+            </span>
             <div class='views-field-body'>The network component associated with this object's IP address. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

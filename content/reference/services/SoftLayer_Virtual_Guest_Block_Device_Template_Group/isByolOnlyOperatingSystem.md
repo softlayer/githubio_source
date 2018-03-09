@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Block_Device_Template_Group"
 ---
-# SoftLayer_Virtual_Guest_Block_Device_Template_Group::isByolOnlyOperatingSystem
+# [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::isByolOnlyOperatingSystem
+
+
+
+
 ## Overview 
 This method indicates whether or not this image uses an operating system that requires using a customer supplied license image 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Item"
 ---
-# SoftLayer_Billing_Order_Item::getItem
+# [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getItem
+
+Retrieve the SoftLayer_Product_Item tied to an order item. The item is the actual definition of the product being sold.
+
+
 ## Overview 
 Retrieve the SoftLayer_Product_Item tied to an order item. The item is the actual definition of the product being sold.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Certificate_Request"
 ---
-# SoftLayer_Security_Certificate_Request::cancelSslOrder
+# [SoftLayer_Security_Certificate_Request](/reference/services/SoftLayer_Security_Certificate_Request)::cancelSslOrder
+
+Cancels a pending SSL certificate order at the Certificate Authority
+
+
 ## Overview 
 Cancels a pending SSL certificate order at the Certificate Authority 
 

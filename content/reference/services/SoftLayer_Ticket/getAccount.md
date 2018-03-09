@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getAccount
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getAccount
+
+Retrieve the SoftLayer customer account associated with a ticket.
+
+
 ## Overview 
 Retrieve the SoftLayer customer account associated with a ticket.
 

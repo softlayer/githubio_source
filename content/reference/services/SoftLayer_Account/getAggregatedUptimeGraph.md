@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getAggregatedUptimeGraph
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAggregatedUptimeGraph
+
+Returns URL uptime data for your account
+
+
 ## Overview 
 Returns URL uptime data for your account 
 

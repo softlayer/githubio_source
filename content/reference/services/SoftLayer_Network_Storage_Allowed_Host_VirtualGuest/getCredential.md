@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host_VirtualGuest"
 ---
-# SoftLayer_Network_Storage_Allowed_Host_VirtualGuest::getCredential
+# [SoftLayer_Network_Storage_Allowed_Host_VirtualGuest](/reference/services/SoftLayer_Network_Storage_Allowed_Host_VirtualGuest)::getCredential
+
+Retrieve the SoftLayer_Network_Storage_Credential this allowed host uses.
+
+
 ## Overview 
 Retrieve the SoftLayer_Network_Storage_Credential this allowed host uses.
 

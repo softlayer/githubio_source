@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getBandwidthAllocation
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getBandwidthAllocation
+
+Retrieve a hardware's allotted bandwidth (measured in GB).
+
+
 ## Overview 
 Retrieve a hardware's allotted bandwidth (measured in GB).
 

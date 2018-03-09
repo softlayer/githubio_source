@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getDeployments
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getDeployments
+
+Retrieve the package that represents a multi-server solution. (Deprecated)
+
+
 ## Overview 
 Retrieve the package that represents a multi-server solution. (Deprecated)
 

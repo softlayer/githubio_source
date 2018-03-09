@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Message_Delivery_Email_Sendgrid"
 ---
-# SoftLayer_Network_Message_Delivery_Email_Sendgrid::getType
+# [SoftLayer_Network_Message_Delivery_Email_Sendgrid](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid)::getType
+
+Retrieve the message delivery type of a network message delivery account.
+
+
 ## Overview 
 Retrieve the message delivery type of a network message delivery account.
 

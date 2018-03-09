@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getFirewallRules
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getFirewallRules
+
+Retrieve the currently running rule set of a firewalled VLAN.
+
+
 ## Overview 
 Retrieve the currently running rule set of a firewalled VLAN.
 

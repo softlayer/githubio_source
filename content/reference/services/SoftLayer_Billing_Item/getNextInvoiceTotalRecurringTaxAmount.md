@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getNextInvoiceTotalRecurringTaxAmount
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getNextInvoiceTotalRecurringTaxAmount
+
+Retrieve this is deprecated and will always be zero. Because tax is calculated in real-time, previewing the next recurring invoice is pre-tax only.
+
+
 ## Overview 
 Retrieve this is deprecated and will always be zero. Because tax is calculated in real-time, previewing the next recurring invoice is pre-tax only.
 

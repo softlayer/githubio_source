@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_Occurrence_Event"
 ---
-# SoftLayer_Notification_Occurrence_Event::getImpactedAccountCount
+# [SoftLayer_Notification_Occurrence_Event](/reference/services/SoftLayer_Notification_Occurrence_Event)::getImpactedAccountCount
+
+Get the number of impacted owned accounts for the current user.
+
+
 ## Overview 
 This method will return the number of impacted owned accounts associated with this event for the current user. 
 

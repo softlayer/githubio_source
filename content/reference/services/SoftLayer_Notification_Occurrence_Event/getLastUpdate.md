@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_Occurrence_Event"
 ---
-# SoftLayer_Notification_Occurrence_Event::getLastUpdate
+# [SoftLayer_Notification_Occurrence_Event](/reference/services/SoftLayer_Notification_Occurrence_Event)::getLastUpdate
+
+Retrieve the last update for this event.
+
+
 ## Overview 
 Retrieve the last update for this event.
 

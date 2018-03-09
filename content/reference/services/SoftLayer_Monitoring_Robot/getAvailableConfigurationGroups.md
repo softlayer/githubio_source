@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Robot"
 ---
-# SoftLayer_Monitoring_Robot::getAvailableConfigurationGroups
+# [SoftLayer_Monitoring_Robot](/reference/services/SoftLayer_Monitoring_Robot)::getAvailableConfigurationGroups
+
+Returns available configuration template groups for this monitoring agent.
+
+
 ## Overview 
 Returns available configuration template groups for this monitoring agent. 
 

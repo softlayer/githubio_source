@@ -38,13 +38,13 @@ SoftLayer_Container_Subnet_IPAddress models an IP v4 address as it exists as a m
 
 ### seeAlso
 
-* [SoftLayer_Network_Subnet](/reference/datatypes/SoftLayer_Network_Subnet )
+* [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet )
 
 
-* [SoftLayer_Network_Subnet_IpAddress](/reference/datatypes/SoftLayer_Network_Subnet_IpAddress )
+* [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress )
 
 
-* [SoftLayer_Network_Vlan](/reference/datatypes/SoftLayer_Network_Vlan )
+* [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan )
 
 
 
@@ -64,29 +64,54 @@ SoftLayer_Container_Subnet_IPAddress models an IP v4 address as it exists as a m
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#hardware" name=hardware>hardware</a></span>
+            <span class='views-field-title'>
+                <a href="#hardware" name=hardware>hardware</a>
+            </span>
             <div class='views-field-body'>The hardware that an IP address is associated with. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#ipAddress" name=ipAddress>ipAddress</a></span>
+            <span class='views-field-title'>
+                <a href="#ipAddress" name=ipAddress>ipAddress</a>
+            </span>
             <div class='views-field-body'>An IP address expressed in dotted-quad notation. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#isBroadcastAddress" name=isBroadcastAddress>isBroadcastAddress</a></span>
+            <span class='views-field-title'>
+                <a href="#isBroadcastAddress" name=isBroadcastAddress>isBroadcastAddress</a>
+            </span>
             <div class='views-field-body'>Whether an IP address is its subnet's broadcast address. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#isGatewayAddress" name=isGatewayAddress>isGatewayAddress</a></span>
+            <span class='views-field-title'>
+                <a href="#isGatewayAddress" name=isGatewayAddress>isGatewayAddress</a>
+            </span>
             <div class='views-field-body'>Whether an IP address is its subnet's gateway address. Gateway addresses exist on SoftLayer's routers and many not be assigned to servers. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#isNetworkAddress" name=isNetworkAddress>isNetworkAddress</a></span>
+            <span class='views-field-title'>
+                <a href="#isNetworkAddress" name=isNetworkAddress>isNetworkAddress</a>
+            </span>
             <div class='views-field-body'>Whether an IP address is its subnet's network identifier address. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
         </div>
             </div>
     </div>

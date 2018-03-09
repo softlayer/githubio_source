@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getCdnAccounts
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getCdnAccounts
+
+Retrieve the CDN accounts associated with a portal user.
+
+
 ## Overview 
 Retrieve the CDN accounts associated with a portal user.
 

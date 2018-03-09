@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_HostIps"
 ---
-# SoftLayer_Software_Component_HostIps::getObject
+# [SoftLayer_Software_Component_HostIps](/reference/services/SoftLayer_Software_Component_HostIps)::getObject
+
+Retrieve a SoftLayer_Software_Component_HostIps record.
+
+
 ## Overview 
 
 

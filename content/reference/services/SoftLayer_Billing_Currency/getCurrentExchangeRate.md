@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Currency"
 ---
-# SoftLayer_Billing_Currency::getCurrentExchangeRate
+# [SoftLayer_Billing_Currency](/reference/services/SoftLayer_Billing_Currency)::getCurrentExchangeRate
+
+Retrieve the current exchange rate
+
+
 ## Overview 
 Retrieve the current exchange rate
 

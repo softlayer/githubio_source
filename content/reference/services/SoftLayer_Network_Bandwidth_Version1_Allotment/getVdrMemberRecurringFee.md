@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
-# SoftLayer_Network_Bandwidth_Version1_Allotment::getVdrMemberRecurringFee
+# [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getVdrMemberRecurringFee
+
+Gets the monthly recurring fee of a pooled server.
+
+
 ## Overview 
 Gets the monthly recurring fee of a pooled server. 
 

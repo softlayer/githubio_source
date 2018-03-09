@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest"
 ---
-# SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest::getObject
+# [SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest](/reference/services/SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest)::getObject
+
+Retrieve a SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest record.
+
+
 ## Overview 
 
 

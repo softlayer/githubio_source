@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Shipment_Tracking_Data"
 ---
-# SoftLayer_Account_Shipment_Tracking_Data::editObject
+# [SoftLayer_Account_Shipment_Tracking_Data](/reference/services/SoftLayer_Account_Shipment_Tracking_Data)::editObject
+
+Edit a tracking data.
+
+
 ## Overview 
 Edit the properties of a tracking data record by passing in a modified instance of a SoftLayer_Account_Shipment_Tracking_Data object. 
 

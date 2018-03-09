@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHourlyBareMetalInstances
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHourlyBareMetalInstances
+
+Retrieve an account's associated hourly bare metal server objects.
+
+
 ## Overview 
 Retrieve an account's associated hourly bare metal server objects.
 

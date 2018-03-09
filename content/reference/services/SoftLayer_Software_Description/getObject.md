@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Description"
 ---
-# SoftLayer_Software_Description::getObject
+# [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description)::getObject
+
+Retrieve a SoftLayer_Software_Description record.
+
+
 ## Overview 
 
 

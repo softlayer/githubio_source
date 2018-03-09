@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getAvailableNetworkStorages
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getAvailableNetworkStorages
+
+Return a list of SoftLayer_Network_Storage volumes that can be authorized to this device. 
+
+
 ## Overview 
 This method retrieves a list of SoftLayer_Network_Storage volumes that can be authorized to this SoftLayer_Hardware. 
 

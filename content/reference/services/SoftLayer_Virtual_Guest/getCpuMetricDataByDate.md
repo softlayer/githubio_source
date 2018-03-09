@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getCpuMetricDataByDate
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getCpuMetricDataByDate
+
+Retrieve records containing the percentage of the amount of time that a cpu was in use for the specified time frame for a computing instance. 
+
+
 ## Overview 
 Use this method when needing the metric data for a single guest's CPUs.  It will gather the correct input parameters based on the date ranges 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller"
 ---
-# SoftLayer_Network_Application_Delivery_Controller::getDatacenter
+# [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getDatacenter
+
+Retrieve the datacenter that the application delivery controller resides in.
+
+
 ## Overview 
 Retrieve the datacenter that the application delivery controller resides in.
 

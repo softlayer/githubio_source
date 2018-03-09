@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getActiveTransaction
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getActiveTransaction
+
+Retrieve the billing item for a subnet.
+
+
 ## Overview 
 Retrieve the billing item for a subnet.
 

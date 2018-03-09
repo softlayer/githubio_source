@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Reports_Request"
 ---
-# SoftLayer_Account_Reports_Request::getUser
+# [SoftLayer_Account_Reports_Request](/reference/services/SoftLayer_Account_Reports_Request)::getUser
+
+Retrieve the customer user that initiated a report request.
+
+
 ## Overview 
 Retrieve the customer user that initiated a report request.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getItemsFromImageTemplate
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getItemsFromImageTemplate
+
+Return a collection of [[SoftLayer_Product_Item]] objects from a [[SoftLayer_Virtual_Guest_Block_Device_Template_Group]] object
+
+
 ## Overview 
 Return a collection of [[SoftLayer_Product_Item]] objects from a [[SoftLayer_Virtual_Guest_Block_Device_Template_Group]] object
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge"
 ---
-# SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge::createPurge
+# [SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge)::createPurge
+
+This method creates a purge record in the purge table, and also initiates the create purge workflow. 
+
+
 ## Overview 
 
 

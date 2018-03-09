@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item_Virtual_DedicatedHost"
 ---
-# SoftLayer_Billing_Item_Virtual_DedicatedHost::getResource
+# [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getResource
+
+Retrieve the resource for a virtual dedicated host billing item.
+
+
 ## Overview 
 Retrieve the resource for a virtual dedicated host billing item.
 

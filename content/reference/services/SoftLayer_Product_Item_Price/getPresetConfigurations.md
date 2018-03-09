@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Price"
 ---
-# SoftLayer_Product_Item_Price::getPresetConfigurations
+# [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getPresetConfigurations
+
+Retrieve a list of preset configurations this price is used in.'
+
+
 ## Overview 
 Retrieve a list of preset configurations this price is used in.'
 

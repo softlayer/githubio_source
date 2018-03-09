@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Auxiliary_Press_Release"
 ---
-# SoftLayer_Auxiliary_Press_Release::getObject
+# [SoftLayer_Auxiliary_Press_Release](/reference/services/SoftLayer_Auxiliary_Press_Release)::getObject
+
+Retrieve a SoftLayer_Auxiliary_Press_Release record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Auxiliary_Press_Release object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Auxiliary_Press_Release service. 
 

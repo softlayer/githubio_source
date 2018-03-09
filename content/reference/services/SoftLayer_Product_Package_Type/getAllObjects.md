@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package_Type"
 ---
-# SoftLayer_Product_Package_Type::getAllObjects
+# [SoftLayer_Product_Package_Type](/reference/services/SoftLayer_Product_Package_Type)::getAllObjects
+
+Get all the package types.
+
+
 ## Overview 
 This method will return all of the available package types. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_Notification_Virtual_Guest"
 ---
-# SoftLayer_User_Customer_Notification_Virtual_Guest::getObject
+# [SoftLayer_User_Customer_Notification_Virtual_Guest](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest)::getObject
+
+Retrieve a SoftLayer_User_Customer_Notification_Virtual_Guest record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_User_Customer_Notification_Virtual_Guest object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_User_Customer_Notification_Virtual_Guest service. You can only retrieve guest notifications attached to virtual guests and users that belong to your account 
 

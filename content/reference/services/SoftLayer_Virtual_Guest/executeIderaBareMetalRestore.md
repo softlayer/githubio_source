@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::executeIderaBareMetalRestore
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::executeIderaBareMetalRestore
+
+Reboot a guest into the Idera Bare Metal Restore image.
+
+
 ## Overview 
 Reboot a guest into the Idera Bare Metal Restore image. 
 

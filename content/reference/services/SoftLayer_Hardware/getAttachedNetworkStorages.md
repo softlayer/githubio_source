@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getAttachedNetworkStorages
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getAttachedNetworkStorages
+
+Return a list of SoftLayer_Network_Storage volumes authorized to this device. 
+
+
 ## Overview 
 This method is retrieve a list of SoftLayer_Network_Storage volumes that are authorized access to this SoftLayer_Hardware. 
 

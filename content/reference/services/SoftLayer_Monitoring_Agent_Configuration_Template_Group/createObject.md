@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent_Configuration_Template_Group"
 ---
-# SoftLayer_Monitoring_Agent_Configuration_Template_Group::createObject
+# [SoftLayer_Monitoring_Agent_Configuration_Template_Group](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group)::createObject
+
+Creates a SoftLayer_Monitoring_Agent_Configuration_Template_Group.
+
+
 ## Overview 
 This method creates a SoftLayer_Monitoring_Agent_Configuration_Template_Group using the values provided in the template object. The template objects accountId will be overridden to use the active user's accountId as it shows on their associated SoftLayer_User_Customer object. 
 

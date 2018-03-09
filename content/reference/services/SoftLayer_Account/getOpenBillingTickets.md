@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getOpenBillingTickets
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getOpenBillingTickets
+
+Retrieve the open billing tickets associated with an account.
+
+
 ## Overview 
 Retrieve the open billing tickets associated with an account.
 

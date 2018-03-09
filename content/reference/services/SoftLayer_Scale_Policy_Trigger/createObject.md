@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy_Trigger"
 ---
-# SoftLayer_Scale_Policy_Trigger::createObject
+# [SoftLayer_Scale_Policy_Trigger](/reference/services/SoftLayer_Scale_Policy_Trigger)::createObject
+
+Create a policy trigger.
+
+
 ## Overview 
 
 

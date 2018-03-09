@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_MassDataMigration_Request"
 ---
-# SoftLayer_Network_Storage_MassDataMigration_Request::getAddress
+# [SoftLayer_Network_Storage_MassDataMigration_Request](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request)::getAddress
+
+Retrieve the customer address where the device is shipped to.
+
+
 ## Overview 
 Retrieve the customer address where the device is shipped to.
 

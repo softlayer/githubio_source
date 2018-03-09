@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getAttachedFiles
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getAttachedFiles
+
+Retrieve the files attached to a ticket.
+
+
 ## Overview 
 Retrieve the files attached to a ticket.
 

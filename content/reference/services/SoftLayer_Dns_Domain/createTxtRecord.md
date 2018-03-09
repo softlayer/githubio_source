@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain"
 ---
-# SoftLayer_Dns_Domain::createTxtRecord
+# [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::createTxtRecord
+
+Create a TXT record on a domain.
+
+
 ## Overview 
 Create a TXT record on a SoftLayer domain. This is a shortcut method, meant to take the work out of creating a SoftLayer_Dns_Domain_ResourceRecord if you already have a domain record available. createARecord returns the newly created SoftLayer_Dns_Domain_ResourceRecord_TxtType. 
 

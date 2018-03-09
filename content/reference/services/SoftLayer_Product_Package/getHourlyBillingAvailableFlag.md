@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getHourlyBillingAvailableFlag
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getHourlyBillingAvailableFlag
+
+Retrieve determines whether the package contains prices that can be ordered hourly.
+
+
 ## Overview 
 Retrieve determines whether the package contains prices that can be ordered hourly.
 

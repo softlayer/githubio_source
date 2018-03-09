@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Certificate_Request_ServerType"
 ---
-# SoftLayer_Security_Certificate_Request_ServerType::getObject
+# [SoftLayer_Security_Certificate_Request_ServerType](/reference/services/SoftLayer_Security_Certificate_Request_ServerType)::getObject
+
+Retrieve a SoftLayer_Security_Certificate_Request_ServerType record.
+
+
 ## Overview 
 
 

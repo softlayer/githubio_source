@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getSecurityScanRequests
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getSecurityScanRequests
+
+Retrieve information regarding a piece of hardware's vulnerability scan requests.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's vulnerability scan requests.
 

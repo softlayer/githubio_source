@@ -15,7 +15,11 @@ tags:
 classes:
     - "SoftLayer_Network"
 ---
-# SoftLayer_Network::createObject
+# [SoftLayer_Network](/reference/services/SoftLayer_Network)::createObject
+
+Create a Network
+
+
 ## Overview 
 Provide a template containing the following properties to create a Network: 
 * networkIdentifier

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Auxiliary_Marketing_Event"
 ---
-# SoftLayer_Auxiliary_Marketing_Event::getMarketingEvents
+# [SoftLayer_Auxiliary_Marketing_Event](/reference/services/SoftLayer_Auxiliary_Marketing_Event)::getMarketingEvents
+
+This method retrieves marketing events.
+
+
 ## Overview 
 This method will return a collection of SoftLayer_Auxiliary_Marketing_Event objects ordered in ascending order by start date. 
 

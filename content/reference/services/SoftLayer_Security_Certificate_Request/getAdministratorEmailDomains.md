@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Certificate_Request"
 ---
-# SoftLayer_Security_Certificate_Request::getAdministratorEmailDomains
+# [SoftLayer_Security_Certificate_Request](/reference/services/SoftLayer_Security_Certificate_Request)::getAdministratorEmailDomains
+
+
+
+
 ## Overview 
 Gets the email domains that can be used to validate a certificate to a domain. 
 

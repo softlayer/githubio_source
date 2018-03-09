@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::changePassword
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::changePassword
+
+Change the password for a Storage/Virtual Server Storage account
+
+
 ## Overview 
 The method will change the password for the given Storage/Virtual Server Storage account. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getChildrenHardware
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getChildrenHardware
+
+Retrieve child hardware.
+
+
 ## Overview 
 Retrieve child hardware.
 

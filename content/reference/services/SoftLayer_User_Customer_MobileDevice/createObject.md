@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_MobileDevice"
 ---
-# SoftLayer_User_Customer_MobileDevice::createObject
+# [SoftLayer_User_Customer_MobileDevice](/reference/services/SoftLayer_User_Customer_MobileDevice)::createObject
+
+Create a new mobile device association for a user.
+
+
 ## Overview 
 Create a new mobile device association for a user. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::getTokenAuthenticationDirectories
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getTokenAuthenticationDirectories
+
+Returns token authentication directories
+
+
 ## Overview 
 This method returns all token authentication directories. 
 

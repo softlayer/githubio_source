@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Contact"
 ---
-# SoftLayer_Account_Contact::editObject
+# [SoftLayer_Account_Contact](/reference/services/SoftLayer_Account_Contact)::editObject
+
+Edit an existing account contact.
+
+
 ## Overview 
 This method allows you to modify an account contact. Only master users are permitted to modify an account contact. 
 

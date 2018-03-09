@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Category"
 ---
-# SoftLayer_Product_Item_Category::getSubnetCategories
+# [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category)::getSubnetCategories
+
+Returns a list of subnet categories.
+
+
 ## Overview 
 This method returns a list of subnet categories.
 

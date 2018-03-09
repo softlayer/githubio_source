@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getSnapshotDeletionThresholdPercentage
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getSnapshotDeletionThresholdPercentage
+
+Retrieve the percentage of used snapshot space after which to delete automated snapshots.
+
+
 ## Overview 
 Retrieve the percentage of used snapshot space after which to delete automated snapshots.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Monitor_Version1_Query_Host"
 ---
-# SoftLayer_Network_Monitor_Version1_Query_Host::findByHardwareId
+# [SoftLayer_Network_Monitor_Version1_Query_Host](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host)::findByHardwareId
+
+Return all monitoring instances associated with the passed hardware ID
+
+
 ## Overview 
 This method returns all Query_Host objects associated with the passed in hardware ID as long as that hardware ID is owned by the current user's account. 
 

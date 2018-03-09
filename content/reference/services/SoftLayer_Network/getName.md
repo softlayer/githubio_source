@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network"
 ---
-# SoftLayer_Network::getName
+# [SoftLayer_Network](/reference/services/SoftLayer_Network)::getName
+
+Retrieve a name for the Network. This is required during creation of a Network and is entirely user defined.
+
+
 ## Overview 
 Retrieve a name for the Network. This is required during creation of a Network and is entirely user defined.
 

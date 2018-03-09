@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getFirewallGuestNetworkComponents
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getFirewallGuestNetworkComponents
+
+Retrieve a firewalled Vlan's network components.
+
+
 ## Overview 
 Retrieve a firewalled Vlan's network components.
 

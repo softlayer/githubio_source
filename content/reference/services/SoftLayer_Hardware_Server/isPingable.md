@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::isPingable
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::isPingable
+
+Verifies if server is pingable.
+
+
 ## Overview 
 Issues a ping command and returns the success (true) or failure (false) of the ping command. 
 

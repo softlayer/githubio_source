@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Configuration_Template_Section"
 ---
-# SoftLayer_Configuration_Template_Section::hasSubSections
+# [SoftLayer_Configuration_Template_Section](/reference/services/SoftLayer_Configuration_Template_Section)::hasSubSections
+
+Check if object has sub-sections
+
+
 ## Overview 
 Returns true if the object has sub-sections 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getNextInvoiceTotalOneTimeAmount
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getNextInvoiceTotalOneTimeAmount
+
+Retrieve a Billing Item's total, including any child billing items if they exist.'
+
+
 ## Overview 
 Retrieve a Billing Item's total, including any child billing items if they exist.'
 

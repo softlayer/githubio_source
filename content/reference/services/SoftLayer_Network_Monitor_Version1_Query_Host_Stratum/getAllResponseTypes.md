@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Monitor_Version1_Query_Host_Stratum"
 ---
-# SoftLayer_Network_Monitor_Version1_Query_Host_Stratum::getAllResponseTypes
+# [SoftLayer_Network_Monitor_Version1_Query_Host_Stratum](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum)::getAllResponseTypes
+
+Return all ResponseType objects.
+
+
 ## Overview 
 Calling this function returns all possible response type objects. These objects are to be used to set the values on the SoftLayer_Network_Monitor_Version1_Query_Host when creating new monitoring instances. 
 

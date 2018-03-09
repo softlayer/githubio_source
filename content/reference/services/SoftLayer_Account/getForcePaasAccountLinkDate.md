@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getForcePaasAccountLinkDate
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getForcePaasAccountLinkDate
+
+Retrieve timestamp representing the point in time when an account is required to link with PaaS.
+
+
 ## Overview 
 Retrieve timestamp representing the point in time when an account is required to link with PaaS.
 

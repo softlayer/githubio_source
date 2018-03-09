@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location_Datacenter"
 ---
-# SoftLayer_Location_Datacenter::getViewablePopsAndDataCenters
+# [SoftLayer_Location_Datacenter](/reference/services/SoftLayer_Location_Datacenter)::getViewablePopsAndDataCenters
+
+Retrieve viewable pops and datacenters in a combined list.
+
+
 ## Overview 
 Retrieve all viewable pop and datacenter locations. 
 

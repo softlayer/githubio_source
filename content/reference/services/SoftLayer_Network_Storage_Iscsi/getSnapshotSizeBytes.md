@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getSnapshotSizeBytes
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getSnapshotSizeBytes
+
+Retrieve the snapshot size in bytes.
+
+
 ## Overview 
 Retrieve the snapshot size in bytes.
 

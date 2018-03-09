@@ -39,29 +39,49 @@ classes:
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#createDate" name=createDate>createDate</a></span>
+            <span class='views-field-title'>
+                <a href="#createDate" name=createDate>createDate</a>
+            </span>
             <div class='views-field-body'>The creation date </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#publicNotes" name=publicNotes>publicNotes</a></span>
+            <span class='views-field-title'>
+                <a href="#publicNotes" name=publicNotes>publicNotes</a>
+            </span>
             <div class='views-field-body'>The note created by system </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#transcodeJobId" name=transcodeJobId>transcodeJobId</a></span>
+            <span class='views-field-title'>
+                <a href="#transcodeJobId" name=transcodeJobId>transcodeJobId</a>
+            </span>
             <div class='views-field-body'>The internal identifier of a transcode job </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#transcodeStatusName" name=transcodeStatusName>transcodeStatusName</a></span>
+            <span class='views-field-title'>
+                <a href="#transcodeStatusName" name=transcodeStatusName>transcodeStatusName</a>
+            </span>
             <div class='views-field-body'>The status of a transcode job </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

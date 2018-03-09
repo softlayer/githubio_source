@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getNetworkSpace
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getNetworkSpace
+
+Retrieve identifier to denote whether a VLAN is used for public or private connectivity.
+
+
 ## Overview 
 Retrieve identifier to denote whether a VLAN is used for public or private connectivity.
 

@@ -39,28 +39,43 @@ Retrieve identifier cross-reference information.  SoftLayer_Notification_User_Su
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#notificationUserSubscriberId" name=notificationUserSubscriberId>notificationUserSubscriberId</a></span>
+            <span class='views-field-title'>
+                <a href="#notificationUserSubscriberId" name=notificationUserSubscriberId>notificationUserSubscriberId</a>
+            </span>
             <div class='views-field-body'>Unique identifier of the subscriber that will receive the alerts for the resource subscribed to a notification.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#resourceTableId" name=resourceTableId>resourceTableId</a></span>
+            <span class='views-field-title'>
+                <a href="#resourceTableId" name=resourceTableId>resourceTableId</a>
+            </span>
             <div class='views-field-body'>Unique identifier for a SoftLayer service that is subscribed to a notification.  Currently, the SoftLayer services that can be subscribed to notifications are: 
 
 Storage EVault CDN Global Load Balancer 
 
  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#notificationUserSubscriber" name=notificationUserSubscriber>notificationUserSubscriber</a></span>
+            <span class='views-field-title'>
+                <a href="#notificationUserSubscriber" name=notificationUserSubscriber>notificationUserSubscriber</a>
+            </span>
             <div class='views-field-body'>The Subscriber information tied to the resource service. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

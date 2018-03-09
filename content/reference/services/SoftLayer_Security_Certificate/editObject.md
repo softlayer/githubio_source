@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Certificate"
 ---
-# SoftLayer_Security_Certificate::editObject
+# [SoftLayer_Security_Certificate](/reference/services/SoftLayer_Security_Certificate)::editObject
+
+
+
+
 ## Overview 
 Update a certificate. Modifications are restricted to the note and CSR if the are any services associated with the certificate. There are no modification restrictions for a certificate with no associated services. 
 

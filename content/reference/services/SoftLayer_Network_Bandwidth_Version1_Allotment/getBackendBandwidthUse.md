@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
-# SoftLayer_Network_Bandwidth_Version1_Allotment::getBackendBandwidthUse
+# [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getBackendBandwidthUse
+
+return a collection of private usage objects that contain hourly incoming and outgoing network traffic amounts for a customer date period. 
+
+
 ## Overview 
 This method recurses through all servers on a Bandwidth Pool between the given start and end dates to retrieve public bandwidth data. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getLegacyIscsiCapacityGB
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getLegacyIscsiCapacityGB
+
+Retrieve the total capacity of Legacy iSCSI Volumes on an account, in GB.
+
+
 ## Overview 
 Retrieve the total capacity of Legacy iSCSI Volumes on an account, in GB.
 

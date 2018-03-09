@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller_Configuration_History"
 ---
-# SoftLayer_Network_Application_Delivery_Controller_Configuration_History::getController
+# [SoftLayer_Network_Application_Delivery_Controller_Configuration_History](/reference/services/SoftLayer_Network_Application_Delivery_Controller_Configuration_History)::getController
+
+Retrieve the application delivery controller that a configuration history record belongs to.
+
+
 ## Overview 
 Retrieve the application delivery controller that a configuration history record belongs to.
 

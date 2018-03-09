@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::getEligibleAlarmSubscibers
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::getEligibleAlarmSubscibers
+
+Returns all users that are eligible to receive alarm notifications.
+
+
 ## Overview 
 This method returns an array of SoftLayer_User_Customer objects, representing those who are allowed to be used as alarm subscribers. 
 

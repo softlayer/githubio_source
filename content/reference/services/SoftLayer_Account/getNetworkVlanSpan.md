@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getNetworkVlanSpan
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNetworkVlanSpan
+
+Retrieve whether or not an account has automatic private VLAN spanning enabled.
+
+
 ## Overview 
 Retrieve whether or not an account has automatic private VLAN spanning enabled.
 

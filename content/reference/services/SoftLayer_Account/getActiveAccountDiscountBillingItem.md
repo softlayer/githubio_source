@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getActiveAccountDiscountBillingItem
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getActiveAccountDiscountBillingItem
+
+Retrieve the billing item associated with an account's monthly discount.
+
+
 ## Overview 
 Retrieve the billing item associated with an account's monthly discount.
 

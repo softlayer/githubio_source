@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice"
 ---
-# SoftLayer_Billing_Invoice::getLocalCurrencyExchangeRate
+# [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getLocalCurrencyExchangeRate
+
+Retrieve exchange rate used for billing this invoice.
+
+
 ## Overview 
 Retrieve exchange rate used for billing this invoice.
 

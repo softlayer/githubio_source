@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy"
 ---
-# SoftLayer_Scale_Policy::getOneTimeTriggers
+# [SoftLayer_Scale_Policy](/reference/services/SoftLayer_Scale_Policy)::getOneTimeTriggers
+
+Retrieve the one-time triggers to check for this group.
+
+
 ## Overview 
 Retrieve the one-time triggers to check for this group.
 

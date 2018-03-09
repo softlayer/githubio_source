@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getHardwareFunctionDescription
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getHardwareFunctionDescription
+
+Retrieve a hardware's function.
+
+
 ## Overview 
 Retrieve a hardware's function.
 

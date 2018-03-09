@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Permission_Action"
 ---
-# SoftLayer_User_Permission_Action::getAllObjects
+# [SoftLayer_User_Permission_Action](/reference/services/SoftLayer_User_Permission_Action)::getAllObjects
+
+
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getSubscribers
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getSubscribers
+
+Retrieve a user's notification subscription records.
+
+
 ## Overview 
 Retrieve a user's notification subscription records.
 

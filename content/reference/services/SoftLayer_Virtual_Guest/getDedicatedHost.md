@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getDedicatedHost
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getDedicatedHost
+
+Retrieve the dedicated host associated with this guest.
+
+
 ## Overview 
 Retrieve the dedicated host associated with this guest.
 

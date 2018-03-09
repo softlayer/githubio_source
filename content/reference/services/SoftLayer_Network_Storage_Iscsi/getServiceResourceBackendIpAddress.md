@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getServiceResourceBackendIpAddress
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getServiceResourceBackendIpAddress
+
+Retrieve the IP address of a Storage resource.
+
+
 ## Overview 
 Retrieve the IP address of a Storage resource.
 

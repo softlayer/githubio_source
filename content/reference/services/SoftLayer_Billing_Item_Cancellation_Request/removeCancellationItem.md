@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item_Cancellation_Request"
 ---
-# SoftLayer_Billing_Item_Cancellation_Request::removeCancellationItem
+# [SoftLayer_Billing_Item_Cancellation_Request](/reference/services/SoftLayer_Billing_Item_Cancellation_Request)::removeCancellationItem
+
+Removes a cancellation item
+
+
 ## Overview 
 This method removes a cancellation item from a cancellation request that is in "Pending" or "Approved" status. 
 

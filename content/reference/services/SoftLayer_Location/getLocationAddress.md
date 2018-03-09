@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location"
 ---
-# SoftLayer_Location::getLocationAddress
+# [SoftLayer_Location](/reference/services/SoftLayer_Location)::getLocationAddress
+
+Retrieve a location's physical address.
+
+
 ## Overview 
 Retrieve a location's physical address.
 

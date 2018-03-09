@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_Mobile"
 ---
-# SoftLayer_Notification_Mobile::getObject
+# [SoftLayer_Notification_Mobile](/reference/services/SoftLayer_Notification_Mobile)::getObject
+
+Retrieve a SoftLayer_Notification_Mobile record.
+
+
 ## Overview 
 
 

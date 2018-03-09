@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getManagedResourceFlag
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getManagedResourceFlag
+
+Retrieve a flag indicating that the hardware is a managed resource.
+
+
 ## Overview 
 Retrieve a flag indicating that the hardware is a managed resource.
 

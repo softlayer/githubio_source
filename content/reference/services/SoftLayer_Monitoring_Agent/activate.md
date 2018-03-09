@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::activate
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::activate
+
+Activates a monitoring agent
+
+
 ## Overview 
 This method activates a SoftLayer_Monitoring_Agent.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getAssociatedBillingItemHistory
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getAssociatedBillingItemHistory
+
+Retrieve a history of billing items which a billing item has been associated with.
+
+
 ## Overview 
 Retrieve a history of billing items which a billing item has been associated with.
 

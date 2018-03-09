@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Firewall_Update_Request"
 ---
-# SoftLayer_Network_Firewall_Update_Request::getHardware
+# [SoftLayer_Network_Firewall_Update_Request](/reference/services/SoftLayer_Network_Firewall_Update_Request)::getHardware
+
+Retrieve the downstream server that the rule set will be applied to.
+
+
 ## Overview 
 Retrieve the downstream server that the rule set will be applied to.
 

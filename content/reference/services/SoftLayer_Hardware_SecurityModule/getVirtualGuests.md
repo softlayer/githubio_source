@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getVirtualGuests
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getVirtualGuests
+
+Retrieve a hardware server's virtual servers.
+
+
 ## Overview 
 Retrieve a hardware server's virtual servers.
 

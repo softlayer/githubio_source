@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getScaledFlag
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getScaledFlag
+
+Retrieve whether or not this guest is a member of a scale group and was automatically created as part of a scale group action.
+
+
 ## Overview 
 Retrieve whether or not this guest is a member of a scale group and was automatically created as part of a scale group action.
 

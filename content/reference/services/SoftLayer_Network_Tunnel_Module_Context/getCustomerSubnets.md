@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::getCustomerSubnets
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getCustomerSubnets
+
+Retrieve remote subnets that are allowed access through a network tunnel.
+
+
 ## Overview 
 Retrieve remote subnets that are allowed access through a network tunnel.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getCustomBandwidthDataByDate
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getCustomBandwidthDataByDate
+
+Retrieve bandwidth graph by date.
+
+
 ## Overview 
 Retrieve bandwidth graph by date. 
 

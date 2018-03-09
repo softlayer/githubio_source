@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::editCredential
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::editCredential
+
+This method will change the password of a credential created using the 'addNewCredential' method.
+
+
 ## Overview 
 This method will change the password of a credential created using the 'addNewCredential' method. If the credential exists on multiple storage volumes it will change for those volumes as well. 
 

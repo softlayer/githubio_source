@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package_Preset"
 ---
-# SoftLayer_Product_Package_Preset::getStorageGroupTemplateArrays
+# [SoftLayer_Product_Package_Preset](/reference/services/SoftLayer_Product_Package_Preset)::getStorageGroupTemplateArrays
+
+Retrieve describes how all disks in this preset will be configured.
+
+
 ## Overview 
 Retrieve describes how all disks in this preset will be configured.
 

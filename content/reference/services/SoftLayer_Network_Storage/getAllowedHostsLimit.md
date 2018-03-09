@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getAllowedHostsLimit
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getAllowedHostsLimit
+
+Retrieves the total number of allowed hosts limit per volume.
+
+
 ## Overview 
 Retrieves the total number of allowed hosts limit per volume. 
 

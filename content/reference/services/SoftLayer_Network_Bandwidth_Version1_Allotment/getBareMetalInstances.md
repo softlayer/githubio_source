@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
-# SoftLayer_Network_Bandwidth_Version1_Allotment::getBareMetalInstances
+# [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getBareMetalInstances
+
+Retrieve the bare metal server instances contained within a virtual rack.
+
+
 ## Overview 
 Retrieve the bare metal server instances contained within a virtual rack.
 

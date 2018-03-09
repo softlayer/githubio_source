@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getActiveOutletPackages
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getActiveOutletPackages
+
+DEPRECATED. This method will return nothing.
+
+
 ## Overview 
 This is deprecated and will not return any results. 
 

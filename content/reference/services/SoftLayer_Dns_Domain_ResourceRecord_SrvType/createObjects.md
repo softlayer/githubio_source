@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_ResourceRecord_SrvType"
 ---
-# SoftLayer_Dns_Domain_ResourceRecord_SrvType::createObjects
+# [SoftLayer_Dns_Domain_ResourceRecord_SrvType](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType)::createObjects
+
+Create multiple SRV records.
+
+
 ## Overview 
 Create multiple SRV records on a domain. This follows the same logic as ''createObject'. The serial number of the domain associated with this SRV record is updated upon creation. 
 

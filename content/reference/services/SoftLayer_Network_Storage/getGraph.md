@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getGraph
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getGraph
+
+Retrieve a graph representing the bandwidth used by a Storage account.
+
+
 ## Overview 
 {{CloudLayerOnlyMethod}} 
 

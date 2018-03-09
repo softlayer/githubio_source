@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getBandwidthAllocation
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getBandwidthAllocation
+
+Retrieve a hardware's allotted bandwidth (measured in GB).
+
+
 ## Overview 
 Retrieve a hardware's allotted bandwidth (measured in GB).
 

@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Account_Shipment_Resource_Type
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Shipment_Resource_Type' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Account_Shipment_Resource_Type' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_Shipment_Resource_Type' >Datatype</a></li>
     </ul>
 </div>
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getMonitoringAgents
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getMonitoringAgents
+
+Retrieve information regarding the monitoring agents associated with a piece of hardware.
+
+
 ## Overview 
 Retrieve information regarding the monitoring agents associated with a piece of hardware.
 

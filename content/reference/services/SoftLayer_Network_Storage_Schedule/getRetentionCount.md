@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Schedule"
 ---
-# SoftLayer_Network_Storage_Schedule::getRetentionCount
+# [SoftLayer_Network_Storage_Schedule](/reference/services/SoftLayer_Network_Storage_Schedule)::getRetentionCount
+
+Retrieve the number of snapshots this schedule is configured to retain.
+
+
 ## Overview 
 Retrieve the number of snapshots this schedule is configured to retain.
 

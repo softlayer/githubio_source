@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getDownstreamHardwareBindings
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getDownstreamHardwareBindings
+
+Retrieve all hardware downstream from a network device.
+
+
 ## Overview 
 Retrieve all hardware downstream from a network device.
 

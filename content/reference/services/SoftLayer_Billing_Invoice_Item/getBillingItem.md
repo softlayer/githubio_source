@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice_Item"
 ---
-# SoftLayer_Billing_Invoice_Item::getBillingItem
+# [SoftLayer_Billing_Invoice_Item](/reference/services/SoftLayer_Billing_Invoice_Item)::getBillingItem
+
+Retrieve an Invoice Item's billing item, from which this item was generated.
+
+
 ## Overview 
 Retrieve an Invoice Item's billing item, from which this item was generated.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component"
 ---
-# SoftLayer_Software_Component::getObject
+# [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component)::getObject
+
+Retrieve a SoftLayer_Software_Component record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Software_Component object whose ID corresponds to the ID number of the init parameter passed to the SoftLayer_Software_Component service. 
 

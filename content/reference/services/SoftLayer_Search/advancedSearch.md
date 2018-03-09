@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Search"
 ---
-# SoftLayer_Search::advancedSearch
+# [SoftLayer_Search](/reference/services/SoftLayer_Search)::advancedSearch
+
+Search for SoftLayer Resources by simple terms.
+
+
 ## Overview 
 This method allows for searching for SoftLayer resources by simple terms and operators.  Fields that are used for searching will be available at sldn.softlayer.com. It returns a collection or array of <b>[[SoftLayer_Container_Search_Result (type)|SoftLayer_Container_Search_Result]]</b> objects that have search metadata for each result and the resulting resource found. 
 

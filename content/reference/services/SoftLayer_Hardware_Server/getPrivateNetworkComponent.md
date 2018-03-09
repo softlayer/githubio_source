@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getPrivateNetworkComponent
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getPrivateNetworkComponent
+
+Retrieve a server's private network component.
+
+
 ## Overview 
 Retrieve the private network component attached with this server. 
 

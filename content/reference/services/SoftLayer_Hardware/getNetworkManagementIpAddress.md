@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getNetworkManagementIpAddress
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getNetworkManagementIpAddress
+
+Retrieve a piece of hardware's network management IP address.
+
+
 ## Overview 
 Retrieve a piece of hardware's network management IP address.
 

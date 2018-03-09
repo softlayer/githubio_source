@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Authentication_Saml"
 ---
-# SoftLayer_Account_Authentication_Saml::getObject
+# [SoftLayer_Account_Authentication_Saml](/reference/services/SoftLayer_Account_Authentication_Saml)::getObject
+
+Retrieve a SoftLayer_Account_Authentication_Saml record.
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item_Virtual_DedicatedHost"
 ---
-# SoftLayer_Billing_Item_Virtual_DedicatedHost::getPendingOrderItem
+# [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getPendingOrderItem
+
+Retrieve the new order item that will replace this billing item.
+
+
 ## Overview 
 Retrieve the new order item that will replace this billing item.
 

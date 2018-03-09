@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_IpAddress"
 ---
-# SoftLayer_Network_Subnet_IpAddress::removeAccessToNetworkStorageList
+# [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::removeAccessToNetworkStorageList
+
+Remove access to multiple SoftLayer_Network_Storage volumes from this device. 
+
+
 ## Overview 
 This method is used to remove access to multiple SoftLayer_Network_Storage volumes 
 

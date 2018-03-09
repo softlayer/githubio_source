@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getEvaultNetworkStorage
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getEvaultNetworkStorage
+
+Retrieve information regarding a piece of hardware's associated EVault network storage service account.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's associated EVault network storage service account.
 

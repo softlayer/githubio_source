@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::isDuplicateReadyForSnapshot
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::isDuplicateReadyForSnapshot
+
+Displays the if clone snapshots can be ordered.
+
+
 ## Overview 
 This method returns a boolean indicating whether the clone volume is ready for snapshot. 
 

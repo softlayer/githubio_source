@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getHourlyBillingFlag
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getHourlyBillingFlag
+
+Retrieve a server's hourly billing status.
+
+
 ## Overview 
 Retrieve a server's hourly billing status.
 

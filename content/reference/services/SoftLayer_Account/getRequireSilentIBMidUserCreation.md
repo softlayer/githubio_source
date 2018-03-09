@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getRequireSilentIBMidUserCreation
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getRequireSilentIBMidUserCreation
+
+Retrieve indicates whether newly created users under this account will be associated with IBMid via an email requiring a response, or not.
+
+
 ## Overview 
 Retrieve indicates whether newly created users under this account will be associated with IBMid via an email requiring a response, or not.
 

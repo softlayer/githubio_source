@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_Occurrence_Event"
 ---
-# SoftLayer_Notification_Occurrence_Event::getImpactedResources
+# [SoftLayer_Notification_Occurrence_Event](/reference/services/SoftLayer_Notification_Occurrence_Event)::getImpactedResources
+
+Retrieve a collection of resources impacted by this event. Each record will relate to some physical resource that the user has access to such as [[SoftLayer_Hardware]] or [[SoftLayer_Virtual_Guest]].
+
+
 ## Overview 
 Retrieve a collection of resources impacted by this event. Each record will relate to some physical resource that the user has access to such as [[SoftLayer_Hardware]] or [[SoftLayer_Virtual_Guest]].
 

@@ -45,29 +45,49 @@ Represents the association between a Network_Component and Network_Vlan in the m
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#networkComponentId" name=networkComponentId>networkComponentId</a></span>
+            <span class='views-field-title'>
+                <a href="#networkComponentId" name=networkComponentId>networkComponentId</a>
+            </span>
             <div class='views-field-body'>The network component's identifier. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#networkVlanId" name=networkVlanId>networkVlanId</a></span>
+            <span class='views-field-title'>
+                <a href="#networkVlanId" name=networkVlanId>networkVlanId</a>
+            </span>
             <div class='views-field-body'>The identifier of the network VLAN that is a trunk on the network component. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#networkComponent" name=networkComponent>networkComponent</a></span>
+            <span class='views-field-title'>
+                <a href="#networkComponent" name=networkComponent>networkComponent</a>
+            </span>
             <div class='views-field-body'>The network component that the VLAN is being trunked to. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#networkVlan" name=networkVlan>networkVlan</a></span>
+            <span class='views-field-title'>
+                <a href="#networkVlan" name=networkVlan>networkVlan</a>
+            </span>
             <div class='views-field-body'>The VLAN that is being trunked to the network component. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

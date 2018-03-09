@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getFileNetworkMountAddress
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getFileNetworkMountAddress
+
+Retrieve retrieves the NFS Network Mount Address Name for a given File Storage Volume.
+
+
 ## Overview 
 Retrieve retrieves the NFS Network Mount Address Name for a given File Storage Volume.
 

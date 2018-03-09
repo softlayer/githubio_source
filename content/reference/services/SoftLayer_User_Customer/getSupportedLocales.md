@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getSupportedLocales
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getSupportedLocales
+
+Returns all supported locales for the current user
+
+
 ## Overview 
 
 

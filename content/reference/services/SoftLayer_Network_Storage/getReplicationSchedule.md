@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getReplicationSchedule
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getReplicationSchedule
+
+Retrieve the Replication Schedule associated with a network storage volume.
+
+
 ## Overview 
 Retrieve the Replication Schedule associated with a network storage volume.
 

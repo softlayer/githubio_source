@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getNetworkMonitorRecoveringVirtualGuests
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNetworkMonitorRecoveringVirtualGuests
+
+Retrieve virtual guest which is currently recovering from a service failure.
+
+
 ## Overview 
 Retrieve virtual guest which is currently recovering from a service failure.
 

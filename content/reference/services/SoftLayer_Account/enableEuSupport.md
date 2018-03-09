@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::enableEuSupport
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::enableEuSupport
+
+Turn on the EU Supported account flag.
+
+
 ## Overview 
 <p> If you select the EU Supported option, the most common Support issues will be limited to IBM Cloud staff located in the EU.  In the event your issue requires non-EU expert assistance, it will be reviewed and approval given prior to any non-EU intervention.  Additionally, in order to support and update the services, cross-border Processing of your data may still occur.  Please ensure you take the necessary actions to allow this Processing, as detailed in the <strong><a href="http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm-6605-12">Cloud Service Terms</a></strong>. A standard Data Processing Addendum is available <strong><a href="https://www-05.ibm.com/support/operations/zz/en/dpa.html">here</a></strong>. </p> 
 

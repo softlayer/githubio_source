@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getVirtualRackId
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getVirtualRackId
+
+Retrieve the name of the bandwidth allotment belonging to a piece of hardware.
+
+
 ## Overview 
 Retrieve the name of the bandwidth allotment belonging to a piece of hardware.
 

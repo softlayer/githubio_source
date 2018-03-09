@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getSubnets
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getSubnets
+
+Retrieve a network component's subnets. A subnet is a group of IP addresses
+
+
 ## Overview 
 Retrieve a network component's subnets. A subnet is a group of IP addresses
 

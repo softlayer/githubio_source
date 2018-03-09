@@ -39,19 +39,34 @@ OpenStack domain creation details
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#domainId" name=domainId>domainId</a></span>
+            <span class='views-field-title'>
+                <a href="#domainId" name=domainId>domainId</a>
+            </span>
             <div class='views-field-body'>Id for the domain this user was added to.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#userId" name=userId>userId</a></span>
+            <span class='views-field-title'>
+                <a href="#userId" name=userId>userId</a>
+            </span>
             <div class='views-field-body'>Id for the user given the Cloud Admin role for this domain.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#userName" name=userName>userName</a></span>
+            <span class='views-field-title'>
+                <a href="#userName" name=userName>userName</a>
+            </span>
             <div class='views-field-body'>Name for the user given the Cloud Admin role for this domain.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

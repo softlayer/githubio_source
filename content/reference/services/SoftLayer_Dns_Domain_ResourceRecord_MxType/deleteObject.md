@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_ResourceRecord_MxType"
 ---
-# SoftLayer_Dns_Domain_ResourceRecord_MxType::deleteObject
+# [SoftLayer_Dns_Domain_ResourceRecord_MxType](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType)::deleteObject
+
+Delete a domain's MX record.
+
+
 ## Overview 
 Delete a domain's MX record. '''This cannot be undone.''' Be wary of running this method. If you remove a resource record in error you will need to re-create it by creating a new SoftLayer_Dns_Domain_ResourceRecord_MxType object. The serial number of the domain associated with this MX record is updated upon deletion. 
 

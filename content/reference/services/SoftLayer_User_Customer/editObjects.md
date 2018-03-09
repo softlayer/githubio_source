@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::editObjects
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::editObjects
+
+Update a collection of users' information
+
+
 ## Overview 
 Account master users and sub-users who have the User Manage permission in the SoftLayer customer portal can update other user's information. Use editObjects() if you wish to edit multiple users at once. Users who do not have the User Manage permission can only update their own information. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller"
 ---
-# SoftLayer_Network_Application_Delivery_Controller::getManagementIpAddress
+# [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getManagementIpAddress
+
+Retrieve an application delivery controller's management ip address.
+
+
 ## Overview 
 Retrieve an application delivery controller's management ip address.
 

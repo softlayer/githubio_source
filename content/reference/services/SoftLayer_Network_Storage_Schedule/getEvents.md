@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Schedule"
 ---
-# SoftLayer_Network_Storage_Schedule::getEvents
+# [SoftLayer_Network_Storage_Schedule](/reference/services/SoftLayer_Network_Storage_Schedule)::getEvents
+
+Retrieve events which have been created as the result of a schedule execution.
+
+
 ## Overview 
 Retrieve events which have been created as the result of a schedule execution.
 

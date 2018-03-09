@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::setPublicNetworkInterfaceSpeed
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::setPublicNetworkInterfaceSpeed
+
+Updates the public network interface (eth1) speed.
+
+
 ## Overview 
 Sets the public network interface speed to the new speed. Speed values can only be 0 (Disconnect), 10, 100, 1000, and 10000. The new speed must be equal to or less than the max speed of the interface. 
 

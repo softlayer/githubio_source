@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getReplicatingVolume
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getReplicatingVolume
+
+Retrieve the network storage volume being replicated by a volume.
+
+
 ## Overview 
 Retrieve the network storage volume being replicated by a volume.
 

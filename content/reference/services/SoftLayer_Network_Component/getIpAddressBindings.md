@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getIpAddressBindings
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getIpAddressBindings
+
+Retrieve the records of all IP addresses bound to a network component.
+
+
 ## Overview 
 Retrieve the records of all IP addresses bound to a network component.
 

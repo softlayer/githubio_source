@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy_Trigger_ResourceUse"
 ---
-# SoftLayer_Scale_Policy_Trigger_ResourceUse::getScalePolicy
+# [SoftLayer_Scale_Policy_Trigger_ResourceUse](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse)::getScalePolicy
+
+Retrieve the policy this trigger is on.
+
+
 ## Overview 
 Retrieve the policy this trigger is on.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getAttributes
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getAttributes
+
+Retrieve information regarding a piece of hardware's specific attributes.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's specific attributes.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Price"
 ---
-# SoftLayer_Product_Item_Price::getPriceType
+# [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getPriceType
+
+Retrieve the type keyname of this price which can be STANDARD or TIERED.
+
+
 ## Overview 
 Retrieve the type keyname of this price which can be STANDARD or TIERED.
 

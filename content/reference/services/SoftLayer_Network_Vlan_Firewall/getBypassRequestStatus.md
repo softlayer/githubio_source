@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan_Firewall"
 ---
-# SoftLayer_Network_Vlan_Firewall::getBypassRequestStatus
+# [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getBypassRequestStatus
+
+Retrieve administrative bypass request status.
+
+
 ## Overview 
 Retrieve administrative bypass request status.
 

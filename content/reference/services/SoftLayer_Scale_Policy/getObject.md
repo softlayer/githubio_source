@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy"
 ---
-# SoftLayer_Scale_Policy::getObject
+# [SoftLayer_Scale_Policy](/reference/services/SoftLayer_Scale_Policy)::getObject
+
+Retrieve a SoftLayer_Scale_Policy record.
+
+
 ## Overview 
 
 

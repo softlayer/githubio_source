@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Billing_Item_Cancellation_Reason_Category
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason_Category' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Billing_Item_Cancellation_Reason_Category' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason_Category' >Datatype</a></li>
     </ul>
 </div>
 
@@ -39,28 +39,48 @@ The SoftLayer_Billing_Item_Cancellation_Reason_Category data type contains cance
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>A category internal identifier. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>The description of the category </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#billingCancellationReasons" name=billingCancellationReasons>billingCancellationReasons</a></span>
+            <span class='views-field-title'>
+                <a href="#billingCancellationReasons" name=billingCancellationReasons>billingCancellationReasons</a>
+            </span>
             <div class='views-field-body'>The corresponding billing cancellation reasons having the specific billing cancellation reason category. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason'>SoftLayer_Billing_Item_Cancellation_Reason[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason'>SoftLayer_Billing_Item_Cancellation_Reason[] </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#billingCancellationReasonCount" name=billingCancellationReasonCount>billingCancellationReasonCount</a></span>
+            <span class='views-field-title'>
+                <a href="#billingCancellationReasonCount" name=billingCancellationReasonCount>billingCancellationReasonCount</a>
+            </span>
             <div class='views-field-body'>A count of the corresponding billing cancellation reasons having the specific billing cancellation reason category. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
         </div>
             </div>
 </div>

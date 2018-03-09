@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Metric_Tracking_Object"
 ---
-# SoftLayer_Metric_Tracking_Object::getObject
+# [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getObject
+
+Retrieve a SoftLayer_Metric_Tracking_Object record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Metric_Tracking_Object object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Metric_Tracking_Object service. You can only tracking objects that are associated with your SoftLayer account or services. 
 

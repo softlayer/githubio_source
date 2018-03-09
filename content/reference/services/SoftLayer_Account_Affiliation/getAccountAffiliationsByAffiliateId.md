@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Affiliation"
 ---
-# SoftLayer_Account_Affiliation::getAccountAffiliationsByAffiliateId
+# [SoftLayer_Account_Affiliation](/reference/services/SoftLayer_Account_Affiliation)::getAccountAffiliationsByAffiliateId
+
+Get account affiliation information associated with affiliate id.
+
+
 ## Overview 
 Get account affiliation information associated with affiliate id. 
 

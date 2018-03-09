@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Certificate_Request"
 ---
-# SoftLayer_Security_Certificate_Request::getOrderItem
+# [SoftLayer_Security_Certificate_Request](/reference/services/SoftLayer_Security_Certificate_Request)::getOrderItem
+
+Retrieve the associated order item for this SSL certificate request.
+
+
 ## Overview 
 Retrieve the associated order item for this SSL certificate request.
 

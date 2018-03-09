@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Notification_User_Subscriber_Billing"
 ---
-# SoftLayer_Notification_User_Subscriber_Billing::editObject
+# [SoftLayer_Notification_User_Subscriber_Billing](/reference/services/SoftLayer_Notification_User_Subscriber_Billing)::editObject
+
+Edit a notification subscriber active status
+
+
 ## Overview 
 The subscriber's subscription status can be "turned off" or "turned on" if the subscription is not required. 
 

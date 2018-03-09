@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getMobileDevices
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getMobileDevices
+
+Retrieve a portal user's associated mobile device profiles.
+
+
 ## Overview 
 Retrieve a portal user's associated mobile device profiles.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component"
 ---
-# SoftLayer_Software_Component::getPasswordHistory
+# [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component)::getPasswordHistory
+
+Retrieve history Records for Software Passwords.
+
+
 ## Overview 
 Retrieve history Records for Software Passwords.
 

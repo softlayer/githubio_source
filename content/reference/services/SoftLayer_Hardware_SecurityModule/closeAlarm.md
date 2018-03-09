@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::closeAlarm
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::closeAlarm
+
+Returns monitoring alarm detailed history
+
+
 ## Overview 
 Returns monitoring alarm detailed history 
 

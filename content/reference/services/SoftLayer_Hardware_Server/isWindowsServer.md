@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::isWindowsServer
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::isWindowsServer
+
+Determine if a server runs the Microsoft Windows operating system.
+
+
 ## Overview 
 Determine if the server runs any version of the Microsoft Windows operating systems. Return ''true'' if it does and ''false if otherwise. 
 

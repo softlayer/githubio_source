@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_Notification_Hardware"
 ---
-# SoftLayer_User_Customer_Notification_Hardware::getObject
+# [SoftLayer_User_Customer_Notification_Hardware](/reference/services/SoftLayer_User_Customer_Notification_Hardware)::getObject
+
+Retrieve a SoftLayer_User_Customer_Notification_Hardware record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_User_Customer_Notification_Hardware object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_User_Customer_Notification_Hardware service. You can only retrieve hardware notifications attached to hardware and users that belong to your account 
 

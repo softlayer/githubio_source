@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getNetworkVlans
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getNetworkVlans
+
+Retrieve the network virtual LANs (VLANs) associated with a piece of hardware's network components.
+
+
 ## Overview 
 Retrieve the network virtual LANs (VLANs) associated with a piece of hardware's network components.
 

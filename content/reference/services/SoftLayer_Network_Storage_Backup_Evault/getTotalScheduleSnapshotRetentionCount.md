@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getTotalScheduleSnapshotRetentionCount
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getTotalScheduleSnapshotRetentionCount
+
+Retrieve the total snapshot retention count of all schedules on this network storage volume.
+
+
 ## Overview 
 Retrieve the total snapshot retention count of all schedules on this network storage volume.
 

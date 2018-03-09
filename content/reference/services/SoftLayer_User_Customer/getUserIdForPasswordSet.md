@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getUserIdForPasswordSet
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getUserIdForPasswordSet
+
+Retrieve a user object using a password request key
+
+
 ## Overview 
 Retrieve a user object using a password token. When a new user is created or when a user has requested a password change using initiatePortalPasswordChange, they will have received an email that contains a url with a token.  That token is used as the parameter for getUserIdForPasswordSet. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getNonEuCompliantFlag
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getNonEuCompliantFlag
+
+Retrieve whether the package is not in compliance with EU support.
+
+
 ## Overview 
 Retrieve whether the package is not in compliance with EU support.
 

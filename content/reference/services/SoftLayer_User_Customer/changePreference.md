@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::changePreference
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::changePreference
+
+Change preference values for the current user
+
+
 ## Overview 
 Select a type of preference you would like to modify using [[SoftLayer_User_Customer::getPreferenceTypes|getPreferenceTypes]] and invoke this method using that preference type key name. 
 

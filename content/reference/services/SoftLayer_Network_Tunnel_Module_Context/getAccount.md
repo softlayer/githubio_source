@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::getAccount
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getAccount
+
+Retrieve the account that a network tunnel belongs to.
+
+
 ## Overview 
 Retrieve the account that a network tunnel belongs to.
 

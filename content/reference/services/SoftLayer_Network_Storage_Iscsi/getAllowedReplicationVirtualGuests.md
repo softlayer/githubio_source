@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getAllowedReplicationVirtualGuests
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getAllowedReplicationVirtualGuests
+
+Retrieve the SoftLayer_Hardware objects which are allowed access to this storage volume's Replicant.
+
+
 ## Overview 
 Retrieve the SoftLayer_Hardware objects which are allowed access to this storage volume's Replicant.
 

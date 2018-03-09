@@ -10,7 +10,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::createObject
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::createObject
+
+Create a new server
+
+
 ## Overview 
 
 <style type="text/css">.create_object > li > div { padding-top: .5em; padding-bottom: .5em}</style> 

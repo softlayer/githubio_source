@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Media_Transcode_Account"
 ---
-# SoftLayer_Network_Media_Transcode_Account::createTranscodeJob
+# [SoftLayer_Network_Media_Transcode_Account](/reference/services/SoftLayer_Network_Media_Transcode_Account)::createTranscodeJob
+
+Creates a transcode job
+
+
 ## Overview 
 '''Note'''. This method is obsolete. Please use the [[SoftLayer_Network_Media_Transcode_Job::createObject|createObject]] method on SoftLayer_Network_Media_Transcode_Job object instead. SoftLayer_Network_Media_Transcode_Job::createObject returns an object of a newly created Transcode Job. 
 

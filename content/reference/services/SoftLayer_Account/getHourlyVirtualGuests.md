@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHourlyVirtualGuests
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHourlyVirtualGuests
+
+Retrieve an account's associated hourly virtual guest objects.
+
+
 ## Overview 
 Retrieve an account's associated hourly virtual guest objects.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy_Action"
 ---
-# SoftLayer_Scale_Policy_Action::getType
+# [SoftLayer_Scale_Policy_Action](/reference/services/SoftLayer_Scale_Policy_Action)::getType
+
+Retrieve the type of action.
+
+
 ## Overview 
 Retrieve the type of action.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Certificate_Request_ServerType"
 ---
-# SoftLayer_Security_Certificate_Request_ServerType::getAllObjects
+# [SoftLayer_Security_Certificate_Request_ServerType](/reference/services/SoftLayer_Security_Certificate_Request_ServerType)::getAllObjects
+
+Returns all SSL certificate server types
+
+
 ## Overview 
 Returns all SSL certificate server types, which are passed in on a [[SoftLayer_Container_Product_Order_Security_Certificate|certificate order]]. 
 

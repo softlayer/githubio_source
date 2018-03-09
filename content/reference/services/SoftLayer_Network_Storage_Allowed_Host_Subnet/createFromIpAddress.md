@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host_Subnet"
 ---
-# SoftLayer_Network_Storage_Allowed_Host_Subnet::createFromIpAddress
+# [SoftLayer_Network_Storage_Allowed_Host_Subnet](/reference/services/SoftLayer_Network_Storage_Allowed_Host_Subnet)::createFromIpAddress
+
+Creates and returns a new SoftLayer_Network_Storage_Allowed_Host.
+
+
 ## Overview 
 This method is used to create a new SoftLayer_Network_Storage_Allowed_Host using an existing SoftLayer_Network_Subnet_IpAddress object's id. 
 

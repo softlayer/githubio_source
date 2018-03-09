@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getReverseDomainRecords
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getReverseDomainRecords
+
+Retrieve all reverse DNS records associated with a VLAN.
+
+
 ## Overview 
 Retrieve all reverse DNS records associated with the subnets assigned to a VLAN. 
 

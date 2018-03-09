@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getAllowsBluemixAccountLinkingFlag
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAllowsBluemixAccountLinkingFlag
+
+Retrieve flag indicating if this account can be linked with Bluemix.
+
+
 ## Overview 
 Retrieve flag indicating if this account can be linked with Bluemix.
 

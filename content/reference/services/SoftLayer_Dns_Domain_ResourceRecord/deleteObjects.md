@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_ResourceRecord"
 ---
-# SoftLayer_Dns_Domain_ResourceRecord::deleteObjects
+# [SoftLayer_Dns_Domain_ResourceRecord](/reference/services/SoftLayer_Dns_Domain_ResourceRecord)::deleteObjects
+
+Delete multiple resource records from a domain.
+
+
 ## Overview 
 Remove multiple resource records from a domain. This follows the same logic as ''deleteObject'' and '''cannot be undone'''. The serial number of the domain associated with this resource record is updated upon deletion. You may not delete SOA records, PTR records, or NS resource records that point to ns1.softlayer.com or ns2.softlayer.com. 
 

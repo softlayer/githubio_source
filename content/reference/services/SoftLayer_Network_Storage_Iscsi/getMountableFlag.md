@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getMountableFlag
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getMountableFlag
+
+Retrieve whether or not a network storage volume may be mounted.
+
+
 ## Overview 
 Retrieve whether or not a network storage volume may be mounted.
 

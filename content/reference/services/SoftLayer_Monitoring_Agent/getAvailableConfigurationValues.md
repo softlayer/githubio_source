@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::getAvailableConfigurationValues
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::getAvailableConfigurationValues
+
+Returns an array of available configuration values that are specific to a server or a Virtual that this monitoring agent is running on. 
+
+
 ## Overview 
 Returns an array of available configuration values that are specific to a server or a Virtual that this monitoring agent is running on. For example, invoking this method against "Network Traffic Monitoring Agent" will return all available network adapters on your system. 
 

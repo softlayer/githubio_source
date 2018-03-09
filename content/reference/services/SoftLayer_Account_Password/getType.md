@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Password"
 ---
-# SoftLayer_Account_Password::getType
+# [SoftLayer_Account_Password](/reference/services/SoftLayer_Account_Password)::getType
+
+Retrieve the service that an account/password combination is tied to.
+
+
 ## Overview 
 Retrieve the service that an account/password combination is tied to.
 

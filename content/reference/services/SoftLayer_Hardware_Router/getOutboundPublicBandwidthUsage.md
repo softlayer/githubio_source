@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getOutboundPublicBandwidthUsage
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getOutboundPublicBandwidthUsage
+
+Retrieve the total public outbound bandwidth for this hardware for the current billing cycle.
+
+
 ## Overview 
 Retrieve the total public outbound bandwidth for this hardware for the current billing cycle.
 

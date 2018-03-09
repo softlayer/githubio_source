@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getNetworkMonitorUpHardware
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNetworkMonitorUpHardware
+
+Retrieve hardware which is currently online.
+
+
 ## Overview 
 Retrieve hardware which is currently online.
 

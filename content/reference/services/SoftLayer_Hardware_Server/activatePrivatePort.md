@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::activatePrivatePort
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::activatePrivatePort
+
+Activates the private port
+
+
 ## Overview 
 Activates the private network port
 

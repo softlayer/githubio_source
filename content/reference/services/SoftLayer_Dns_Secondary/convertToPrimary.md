@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Secondary"
 ---
-# SoftLayer_Dns_Secondary::convertToPrimary
+# [SoftLayer_Dns_Secondary](/reference/services/SoftLayer_Dns_Secondary)::convertToPrimary
+
+Convert a secondary DNS record into a primary DNS record.
+
+
 ## Overview 
 A secondary DNS record may be converted to a primary DNS record. By converting a secondary DNS record, the SoftLayer name servers will be the authoritative nameserver for this domain and will be directly editable in the SoftLayer API and Portal. 
 

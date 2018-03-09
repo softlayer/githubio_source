@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getReplicationPartners
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getReplicationPartners
+
+Retrieve the network storage volumes configured to be replicants of a volume.
+
+
 ## Overview 
 Retrieve the network storage volumes configured to be replicants of a volume.
 

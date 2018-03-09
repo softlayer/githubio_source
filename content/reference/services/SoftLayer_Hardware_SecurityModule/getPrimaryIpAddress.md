@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getPrimaryIpAddress
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getPrimaryIpAddress
+
+Retrieve the hardware's primary public IP address.
+
+
 ## Overview 
 Retrieve the hardware's primary public IP address.
 

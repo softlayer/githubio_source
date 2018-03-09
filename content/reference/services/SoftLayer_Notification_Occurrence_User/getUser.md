@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_Occurrence_User"
 ---
-# SoftLayer_Notification_Occurrence_User::getUser
+# [SoftLayer_Notification_Occurrence_User](/reference/services/SoftLayer_Notification_Occurrence_User)::getUser
+
+Retrieve the impacted user.
+
+
 ## Overview 
 Retrieve the impacted user.
 

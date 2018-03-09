@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::linkExternalAccount
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::linkExternalAccount
+
+This method will link this SoftLayer account with the provided external account. 
+
+
 ## Overview 
 This method will link this SoftLayer account with the provided external account. 
 

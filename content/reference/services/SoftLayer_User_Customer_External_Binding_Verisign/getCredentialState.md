@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Verisign"
 ---
-# SoftLayer_User_Customer_External_Binding_Verisign::getCredentialState
+# [SoftLayer_User_Customer_External_Binding_Verisign](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign)::getCredentialState
+
+Retrieve the current state of a VeriSign credential. This can be 'Enabled', 'Disabled', or 'Locked'.
+
+
 ## Overview 
 Retrieve the current state of a VeriSign credential. This can be 'Enabled', 'Disabled', or 'Locked'.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Reports_Request"
 ---
-# SoftLayer_Account_Reports_Request::getRequestByRequestKey
+# [SoftLayer_Account_Reports_Request](/reference/services/SoftLayer_Account_Reports_Request)::getRequestByRequestKey
+
+
+
+
 ## Overview 
 
 

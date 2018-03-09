@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getDomains
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getDomains
+
+Retrieve the DNS domains associated with an account.
+
+
 ## Overview 
 Retrieve the DNS domains associated with an account.
 

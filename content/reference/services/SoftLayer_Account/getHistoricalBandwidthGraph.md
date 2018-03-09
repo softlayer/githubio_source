@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHistoricalBandwidthGraph
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHistoricalBandwidthGraph
+
+This method returns a line graph of bandwidth statistics.
+
+
 ## Overview 
 This method will return a SoftLayer_Container_Account_Graph_Outputs object containing a base64 string PNG image of a line graph of bandwidth statistics given the start and end dates. The start and end dates should be valid ISO 8601 date formatted strings. 
 

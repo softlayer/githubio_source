@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getActiveSparePoolBundledItems
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getActiveSparePoolBundledItems
+
+Retrieve a Billing Item's spare pool bundled billing items.
+
+
 ## Overview 
 Retrieve a Billing Item's spare pool bundled billing items.
 

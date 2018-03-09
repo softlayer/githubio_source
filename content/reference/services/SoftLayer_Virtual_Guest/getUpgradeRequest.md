@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getUpgradeRequest
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getUpgradeRequest
+
+Retrieve a computing instance's associated upgrade request object if any.
+
+
 ## Overview 
 Retrieve a computing instance's associated upgrade request object if any.
 

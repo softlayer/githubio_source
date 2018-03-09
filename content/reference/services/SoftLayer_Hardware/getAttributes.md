@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getAttributes
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getAttributes
+
+Retrieve information regarding a piece of hardware's specific attributes.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's specific attributes.
 

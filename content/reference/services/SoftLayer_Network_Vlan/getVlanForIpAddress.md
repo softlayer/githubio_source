@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getVlanForIpAddress
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getVlanForIpAddress
+
+Retrieve an IP addresses's associated VLAN.
+
+
 ## Overview 
 Retrieve the VLAN associated with an IP address via the IP's associated subnet. 
 

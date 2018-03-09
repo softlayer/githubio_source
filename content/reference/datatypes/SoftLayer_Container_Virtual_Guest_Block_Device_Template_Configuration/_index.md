@@ -44,45 +44,80 @@ The SoftLayer_Container_Virtual_Guest_Block_Device_Template_Configuration data t
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#bootMode" name=bootMode>bootMode</a></span>
+            <span class='views-field-title'>
+                <a href="#bootMode" name=bootMode>bootMode</a>
+            </span>
             <div class='views-field-body'>
 Optional virtualization boot mode parameter, if set, can mark a template to boot specifically into PV or HVM.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#byol" name=byol>byol</a></span>
+            <span class='views-field-title'>
+                <a href="#byol" name=byol>byol</a>
+            </span>
             <div class='views-field-body'>
 Specifies if image is using a customer's software license.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#cloudInit" name=cloudInit>cloudInit</a></span>
+            <span class='views-field-title'>
+                <a href="#cloudInit" name=cloudInit>cloudInit</a>
+            </span>
             <div class='views-field-body'>
 Specifies if image requires cloud-init.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>The group name to be applied to the imported template </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#note" name=note>note</a></span>
+            <span class='views-field-title'>
+                <a href="#note" name=note>note</a>
+            </span>
             <div class='views-field-body'>The note to be applied to the imported template </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#operatingSystemReferenceCode" name=operatingSystemReferenceCode>operatingSystemReferenceCode</a></span>
+            <span class='views-field-title'>
+                <a href="#operatingSystemReferenceCode" name=operatingSystemReferenceCode>operatingSystemReferenceCode</a>
+            </span>
             <div class='views-field-body'>
 The referenceCode of the operating system software description for the imported VHD  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#uri" name=uri>uri</a></span>
+            <span class='views-field-title'>
+                <a href="#uri" name=uri>uri</a>
+            </span>
             <div class='views-field-body'>
 The URI for an object storage object (.vhd/.iso file) 
 <code>swift://<ObjectStorageAccountName>@<clusterName>/<containerName>/<fileName.(vhd|iso)></code>  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

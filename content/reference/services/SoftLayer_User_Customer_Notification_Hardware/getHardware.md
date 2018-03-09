@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_Notification_Hardware"
 ---
-# SoftLayer_User_Customer_Notification_Hardware::getHardware
+# [SoftLayer_User_Customer_Notification_Hardware](/reference/services/SoftLayer_User_Customer_Notification_Hardware)::getHardware
+
+Retrieve the hardware object that will be monitored.
+
+
 ## Overview 
 Retrieve the hardware object that will be monitored.
 

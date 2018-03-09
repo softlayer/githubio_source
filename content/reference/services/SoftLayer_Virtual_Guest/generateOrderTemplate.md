@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::generateOrderTemplate
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::generateOrderTemplate
+
+Obtain an order container for a given template object
+
+
 ## Overview 
 
 Obtain an [[SoftLayer_Container_Product_Order_Virtual_Guest (type)|order container]] that can be sent to [[SoftLayer_Product_Order/verifyOrder|verifyOrder]] or [[SoftLayer_Product_Order/placeOrder|placeOrder]]. 

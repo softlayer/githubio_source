@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Cart"
 ---
-# SoftLayer_Billing_Order_Cart::getPdf
+# [SoftLayer_Billing_Order_Cart](/reference/services/SoftLayer_Billing_Order_Cart)::getPdf
+
+Retrieve a PDF copy of the cart.
+
+
 ## Overview 
 Retrieve a PDF copy of the cart. 
 

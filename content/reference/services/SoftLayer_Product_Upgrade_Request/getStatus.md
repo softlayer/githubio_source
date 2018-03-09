@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Upgrade_Request"
 ---
-# SoftLayer_Product_Upgrade_Request::getStatus
+# [SoftLayer_Product_Upgrade_Request](/reference/services/SoftLayer_Product_Upgrade_Request)::getStatus
+
+Retrieve the current status of the upgrade request.
+
+
 ## Overview 
 Retrieve the current status of the upgrade request.
 

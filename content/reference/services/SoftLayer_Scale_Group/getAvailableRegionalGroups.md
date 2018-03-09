@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Group"
 ---
-# SoftLayer_Scale_Group::getAvailableRegionalGroups
+# [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::getAvailableRegionalGroups
+
+Get the regional groups available for use by scaling groups. This also includes datacenter children that are available. 
+
+
 ## Overview 
 
 

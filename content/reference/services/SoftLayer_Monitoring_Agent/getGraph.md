@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::getGraph
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::getGraph
+
+Retrieves a graph for configuration values within the date range.
+
+
 ## Overview 
 This method returns a SoftLayer_Container_Bandwidth_GraphOutputs object containing a base64 PNG string graph of the provided configuration values for the given begin and end dates. 
 

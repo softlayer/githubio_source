@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Shipment"
 ---
-# SoftLayer_Account_Shipment::getTrackingData
+# [SoftLayer_Account_Shipment](/reference/services/SoftLayer_Account_Shipment)::getTrackingData
+
+Retrieve the tracking data for the shipment.
+
+
 ## Overview 
 Retrieve the tracking data for the shipment.
 

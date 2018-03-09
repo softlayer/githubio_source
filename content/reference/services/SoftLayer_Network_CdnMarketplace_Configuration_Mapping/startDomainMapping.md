@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_CdnMarketplace_Configuration_Mapping"
 ---
-# SoftLayer_Network_CdnMarketplace_Configuration_Mapping::startDomainMapping
+# [SoftLayer_Network_CdnMarketplace_Configuration_Mapping](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Mapping)::startDomainMapping
+
+SOAP API will start CDN domain mapping for a particular customer. 
+
+
 ## Overview 
 
 

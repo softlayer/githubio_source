@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Description"
 ---
-# SoftLayer_Software_Description::getFeatures
+# [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description)::getFeatures
+
+Retrieve the feature attributes of a software description.
+
+
 ## Overview 
 Retrieve the feature attributes of a software description.
 

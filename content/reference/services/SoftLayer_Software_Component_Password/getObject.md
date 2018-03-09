@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_Password"
 ---
-# SoftLayer_Software_Component_Password::getObject
+# [SoftLayer_Software_Component_Password](/reference/services/SoftLayer_Software_Component_Password)::getObject
+
+Retrieve a SoftLayer_Software_Component_Password record.
+
+
 ## Overview 
 
 

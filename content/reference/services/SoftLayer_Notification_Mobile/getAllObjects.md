@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_Mobile"
 ---
-# SoftLayer_Notification_Mobile::getAllObjects
+# [SoftLayer_Notification_Mobile](/reference/services/SoftLayer_Notification_Mobile)::getAllObjects
+
+Retrieve all Notifications that can be subscribed to.
+
+
 ## Overview 
 Use this method to retrieve all active notifications that can be subscribed to. 
 

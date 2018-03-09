@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::isPingable
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::isPingable
+
+Verifies whether or not a server is pingable.
+
+
 ## Overview 
 The '''isPingable''' method issues a ping command to the selected server and returns the result of the ping command. This boolean return value displays ''true'' upon successful ping or ''false'' for a failed ping. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getActiveComponents
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getActiveComponents
+
+Retrieve a piece of hardware's active physical components.
+
+
 ## Overview 
 Retrieve a piece of hardware's active physical components.
 

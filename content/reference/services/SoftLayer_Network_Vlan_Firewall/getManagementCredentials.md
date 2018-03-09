@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan_Firewall"
 ---
-# SoftLayer_Network_Vlan_Firewall::getManagementCredentials
+# [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getManagementCredentials
+
+Retrieve the credentials to log in to a firewall device. This is only present for dedicated appliances.
+
+
 ## Overview 
 Retrieve the credentials to log in to a firewall device. This is only present for dedicated appliances.
 

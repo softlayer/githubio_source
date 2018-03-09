@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getPrivateVlanByIpAddress
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getPrivateVlanByIpAddress
+
+Retrieve a backend network VLAN by searching for an IP address.
+
+
 ## Overview 
 Retrieve a backend network VLAN by searching for an IP address 
 

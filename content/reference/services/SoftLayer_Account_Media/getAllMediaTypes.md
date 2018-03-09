@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Media"
 ---
-# SoftLayer_Account_Media::getAllMediaTypes
+# [SoftLayer_Account_Media](/reference/services/SoftLayer_Account_Media)::getAllMediaTypes
+
+Retrieve a list supported media types.
+
+
 ## Overview 
 Retrieve a list supported media types for SoftLayer's Data Transfer Service.
 

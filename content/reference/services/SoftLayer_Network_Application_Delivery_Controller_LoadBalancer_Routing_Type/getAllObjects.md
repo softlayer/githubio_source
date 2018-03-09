@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type"
 ---
-# SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type::getAllObjects
+# [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type)::getAllObjects
+
+
+
+
 ## Overview 
 
 

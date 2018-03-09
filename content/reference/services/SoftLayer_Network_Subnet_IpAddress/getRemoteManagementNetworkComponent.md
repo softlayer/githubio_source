@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_IpAddress"
 ---
-# SoftLayer_Network_Subnet_IpAddress::getRemoteManagementNetworkComponent
+# [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::getRemoteManagementNetworkComponent
+
+Retrieve an IPMI-based management network component of the IP address.
+
+
 ## Overview 
 Retrieve an IPMI-based management network component of the IP address.
 

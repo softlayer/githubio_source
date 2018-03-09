@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getFirewallProtectableSubnets
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getFirewallProtectableSubnets
+
+Get the subnets associated with this server that are protectable by a network component firewall.
+
+
 ## Overview 
 Get the subnets associated with this server that are protectable by a network component firewall. 
 

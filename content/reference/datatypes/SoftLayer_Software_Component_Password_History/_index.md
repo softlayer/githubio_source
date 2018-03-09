@@ -24,7 +24,7 @@ This object allows you to find the history of password changes for a specific So
 
 ### seeAlso
 
-* [SoftLayer_Software_Component](/reference/datatypes/SoftLayer_Software_Component )
+* [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component )
 
 
 * [SoftLayer_Software_Password](/reference/datatypes/SoftLayer_Software_Password )
@@ -47,39 +47,69 @@ This object allows you to find the history of password changes for a specific So
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#createDate" name=createDate>createDate</a></span>
+            <span class='views-field-title'>
+                <a href="#createDate" name=createDate>createDate</a>
+            </span>
             <div class='views-field-body'>The date this username/password pair was created. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#notes" name=notes>notes</a></span>
+            <span class='views-field-title'>
+                <a href="#notes" name=notes>notes</a>
+            </span>
             <div class='views-field-body'>A note string stored for this username/password pair. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#password" name=password>password</a></span>
+            <span class='views-field-title'>
+                <a href="#password" name=password>password</a>
+            </span>
             <div class='views-field-body'>The password part of this specific password history instance. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#softwareComponentId" name=softwareComponentId>softwareComponentId</a></span>
+            <span class='views-field-title'>
+                <a href="#softwareComponentId" name=softwareComponentId>softwareComponentId</a>
+            </span>
             <div class='views-field-body'>The id number for the Software Component this username/password pair is for. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#username" name=username>username</a></span>
+            <span class='views-field-title'>
+                <a href="#username" name=username>username</a>
+            </span>
             <div class='views-field-body'>The username part of this specific password history instance. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#softwareComponent" name=softwareComponent>softwareComponent</a></span>
+            <span class='views-field-title'>
+                <a href="#softwareComponent" name=softwareComponent>softwareComponent</a>
+            </span>
             <div class='views-field-body'>An installed and licensed instance of a piece of software </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

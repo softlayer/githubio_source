@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getRouters
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getRouters
+
+Retrieve a hardware's routers.
+
+
 ## Overview 
 Retrieve a hardware's routers.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Internal_Ibm"
 ---
-# SoftLayer_Account_Internal_Ibm::getAccountTypes
+# [SoftLayer_Account_Internal_Ibm](/reference/services/SoftLayer_Account_Internal_Ibm)::getAccountTypes
+
+Retrieves allowed internal IBM account categories
+
+
 ## Overview 
 Validates request and, if the request is approved, returns a list of allowed uses for an automatically created IBMer IaaS account. 
 

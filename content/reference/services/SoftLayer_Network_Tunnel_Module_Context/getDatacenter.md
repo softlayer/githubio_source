@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::getDatacenter
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getDatacenter
+
+Retrieve the datacenter location for one end of the network tunnel that allows access to account's private subnets.
+
+
 ## Overview 
 Retrieve the datacenter location for one end of the network tunnel that allows access to account's private subnets.
 

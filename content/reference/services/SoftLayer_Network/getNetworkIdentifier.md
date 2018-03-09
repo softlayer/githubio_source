@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network"
 ---
-# SoftLayer_Network::getNetworkIdentifier
+# [SoftLayer_Network](/reference/services/SoftLayer_Network)::getNetworkIdentifier
+
+Retrieve the starting IP address of the Network. Specified in conjunction with the ``cidr`` property to specify the bounding IP address space for the Network. Required for creation. See [[SoftLayer_Network/createObject]] documentation for creation details.
+
+
 ## Overview 
 Retrieve the starting IP address of the Network. Specified in conjunction with the ``cidr`` property to specify the bounding IP address space for the Network. Required for creation. See [[SoftLayer_Network/createObject]] documentation for creation details.
 

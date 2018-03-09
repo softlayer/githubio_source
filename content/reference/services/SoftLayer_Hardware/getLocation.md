@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getLocation
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getLocation
+
+Retrieve where a piece of hardware is located within SoftLayer's location hierarchy.
+
+
 ## Overview 
 Retrieve where a piece of hardware is located within SoftLayer's location hierarchy.
 

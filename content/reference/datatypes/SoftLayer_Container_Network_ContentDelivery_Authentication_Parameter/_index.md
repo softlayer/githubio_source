@@ -35,7 +35,7 @@ This container is used for CDN content authentication service.
 
 ### seeAlso
 
-* [SoftLayer_Network_ContentDelivery_Account](/reference/datatypes/SoftLayer_Network_ContentDelivery_Account )
+* [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account )
 
 
 
@@ -55,29 +55,54 @@ This container is used for CDN content authentication service.
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#cdnAccountName" name=cdnAccountName>cdnAccountName</a></span>
+            <span class='views-field-title'>
+                <a href="#cdnAccountName" name=cdnAccountName>cdnAccountName</a>
+            </span>
             <div class='views-field-body'>A CDN account name </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#clientIp" name=clientIp>clientIp</a></span>
+            <span class='views-field-title'>
+                <a href="#clientIp" name=clientIp>clientIp</a>
+            </span>
             <div class='views-field-body'>A client IP address </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#referrer" name=referrer>referrer</a></span>
+            <span class='views-field-title'>
+                <a href="#referrer" name=referrer>referrer</a>
+            </span>
             <div class='views-field-body'>A client referrer information </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#sourceUrl" name=sourceUrl>sourceUrl</a></span>
+            <span class='views-field-title'>
+                <a href="#sourceUrl" name=sourceUrl>sourceUrl</a>
+            </span>
             <div class='views-field-body'>A source URL </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#token" name=token>token</a></span>
+            <span class='views-field-title'>
+                <a href="#token" name=token>token</a>
+            </span>
             <div class='views-field-body'>An authentication token string </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

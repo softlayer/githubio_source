@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getBandwidthImage
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getBandwidthImage
+
+Retrieve a bandwidth image and textual description of that image for this server.
+
+
 ## Overview 
 Use this method when needing a bandwidth image for a single server.  It will gather the correct input parameters for the generic graphing utility automatically based on the snapshot specified.  Use the $draw flag to suppress the generation of the actual binary PNG image. 
 

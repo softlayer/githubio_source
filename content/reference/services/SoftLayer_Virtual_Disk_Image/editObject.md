@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Disk_Image"
 ---
-# SoftLayer_Virtual_Disk_Image::editObject
+# [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::editObject
+
+
+
+
 ## Overview 
 
 

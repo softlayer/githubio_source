@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Policy_Assignment"
 ---
-# SoftLayer_Product_Item_Policy_Assignment::getPolicyDocumentContents
+# [SoftLayer_Product_Item_Policy_Assignment](/reference/services/SoftLayer_Product_Item_Policy_Assignment)::getPolicyDocumentContents
+
+Retrieve the binary content of the policy document.
+
+
 ## Overview 
 Retrieve the binary contents of the associated PDF policy document. 
 

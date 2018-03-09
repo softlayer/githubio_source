@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Media_Data_Transfer_Request"
 ---
-# SoftLayer_Account_Media_Data_Transfer_Request::editObject
+# [SoftLayer_Account_Media_Data_Transfer_Request](/reference/services/SoftLayer_Account_Media_Data_Transfer_Request)::editObject
+
+Edit a data transfer request.
+
+
 ## Overview 
 Edit the properties of a data transfer request record by passing in a modified instance of a SoftLayer_Account_Media_Data_Transfer_Request object. 
 

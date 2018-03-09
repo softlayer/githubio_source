@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact"
 ---
-# SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact::getAccount
+# [SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact)::getAccount
+
+Retrieve the request this key contact belongs to.
+
+
 ## Overview 
 Retrieve the request this key contact belongs to.
 

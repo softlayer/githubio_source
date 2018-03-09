@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Media"
 ---
-# SoftLayer_Account_Media::getObject
+# [SoftLayer_Account_Media](/reference/services/SoftLayer_Account_Media)::getObject
+
+Retrieve a SoftLayer_Account_Media record.
+
+
 ## Overview 
 
 

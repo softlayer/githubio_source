@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch"
 ---
-# SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch::deleteObject
+# [SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch)::deleteObject
+
+Delete this watch from the trigger. You cannot delete the last watch on a trigger. 
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::rebootHard
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::rebootHard
+
+Power cycle a guest.
+
+
 ## Overview 
 Power cycle a guest. 
 

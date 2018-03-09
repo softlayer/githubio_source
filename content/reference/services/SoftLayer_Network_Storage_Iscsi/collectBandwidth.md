@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::collectBandwidth
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::collectBandwidth
+
+Retrieve the bandwidth usage for the current billing cycle.
+
+
 ## Overview 
 {{CloudLayerOnlyMethod}} 
 

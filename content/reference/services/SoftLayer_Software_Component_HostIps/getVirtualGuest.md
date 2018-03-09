@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_HostIps"
 ---
-# SoftLayer_Software_Component_HostIps::getVirtualGuest
+# [SoftLayer_Software_Component_HostIps](/reference/services/SoftLayer_Software_Component_HostIps)::getVirtualGuest
+
+Retrieve the virtual guest this software component is installed upon.
+
+
 ## Overview 
 Retrieve the virtual guest this software component is installed upon.
 

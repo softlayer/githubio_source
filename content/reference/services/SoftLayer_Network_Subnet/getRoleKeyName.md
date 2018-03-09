@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getRoleKeyName
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getRoleKeyName
+
+Retrieve an identifier of the role the subnet is within. Roles dictate how a subnet may be used.
+
+
 ## Overview 
 Retrieve an identifier of the role the subnet is within. Roles dictate how a subnet may be used.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getBackendRouters
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getBackendRouters
+
+Retrieve a hardware's backend or private router.
+
+
 ## Overview 
 Retrieve a hardware's backend or private router.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Media_Transcode_Job_Status"
 ---
-# SoftLayer_Network_Media_Transcode_Job_Status::getAllStatuses
+# [SoftLayer_Network_Media_Transcode_Job_Status](/reference/services/SoftLayer_Network_Media_Transcode_Job_Status)::getAllStatuses
+
+Returns all transcode job statuses
+
+
 ## Overview 
 This method returns all transcode job statuses. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Group"
 ---
-# SoftLayer_Scale_Group::getObject
+# [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::getObject
+
+Retrieve a SoftLayer_Scale_Group record.
+
+
 ## Overview 
 
 

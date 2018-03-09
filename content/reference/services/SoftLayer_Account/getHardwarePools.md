@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHardwarePools
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardwarePools
+
+Get a collection of managed hardware pools.
+
+
 ## Overview 
 Return a collection of managed hardware pools.
 

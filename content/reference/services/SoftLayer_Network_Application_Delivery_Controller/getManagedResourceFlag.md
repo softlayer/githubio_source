@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller"
 ---
-# SoftLayer_Network_Application_Delivery_Controller::getManagedResourceFlag
+# [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getManagedResourceFlag
+
+Retrieve a flag indicating that this Application Delivery Controller is a managed resource.
+
+
 ## Overview 
 Retrieve a flag indicating that this Application Delivery Controller is a managed resource.
 

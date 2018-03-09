@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Service_Vpn_Overrides"
 ---
-# SoftLayer_Network_Service_Vpn_Overrides::getUser
+# [SoftLayer_Network_Service_Vpn_Overrides](/reference/services/SoftLayer_Network_Service_Vpn_Overrides)::getUser
+
+Retrieve softLayer VPN portal user.
+
+
 ## Overview 
 Retrieve softLayer VPN portal user.
 

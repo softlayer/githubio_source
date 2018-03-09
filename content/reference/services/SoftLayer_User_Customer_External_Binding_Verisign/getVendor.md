@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Verisign"
 ---
-# SoftLayer_User_Customer_External_Binding_Verisign::getVendor
+# [SoftLayer_User_Customer_External_Binding_Verisign](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign)::getVendor
+
+Retrieve the vendor of an external authentication binding.
+
+
 ## Overview 
 Retrieve the vendor of an external authentication binding.
 

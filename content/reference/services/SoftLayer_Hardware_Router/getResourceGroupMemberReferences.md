@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getResourceGroupMemberReferences
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getResourceGroupMemberReferences
+
+
+
+
 ## Overview 
 
 

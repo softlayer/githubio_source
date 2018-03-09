@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getSnapshotSpaceAvailable
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getSnapshotSpaceAvailable
+
+Retrieve a volume's available snapshot reservation space.
+
+
 ## Overview 
 Retrieve a volume's available snapshot reservation space.
 

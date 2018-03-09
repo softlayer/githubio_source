@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::hourlyInstanceLimit
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::hourlyInstanceLimit
+
+Retrieve the number of hourly services that an account is allowed to have 
+
+
 ## Overview 
 This method will return the limit (number) of hourly services the account is allowed to have. 
 

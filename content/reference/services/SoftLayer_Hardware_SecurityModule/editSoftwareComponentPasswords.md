@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::editSoftwareComponentPasswords
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::editSoftwareComponentPasswords
+
+Edit the properties of software component passwords.
+
+
 ## Overview 
 Edit the properties of a software component password such as the username, password, and notes. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::removeAccessToNetworkStorage
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::removeAccessToNetworkStorage
+
+Remove access to a SoftLayer_Network_Storage volume from this device. 
+
+
 ## Overview 
 This method is used to remove access to s SoftLayer_Network_Storage volumes that supports host- or network-level access control. 
 

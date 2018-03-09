@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getAllowedHardware
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getAllowedHardware
+
+Retrieve the SoftLayer_Hardware objects which are allowed access to this storage volume.
+
+
 ## Overview 
 Retrieve the SoftLayer_Hardware objects which are allowed access to this storage volume.
 

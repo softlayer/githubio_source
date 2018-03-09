@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice"
 ---
-# SoftLayer_Billing_Invoice::getInvoiceTotalRecurringAmount
+# [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getInvoiceTotalRecurringAmount
+
+Retrieve the total Recurring amount of this invoice. This amount does not include taxes or one time charges.
+
+
 ## Overview 
 Retrieve the total Recurring amount of this invoice. This amount does not include taxes or one time charges.
 

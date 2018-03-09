@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getDaysInSparePool
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getDaysInSparePool
+
+Retrieve number of day(s) a server have been in spare pool.
+
+
 ## Overview 
 Retrieve number of day(s) a server have been in spare pool.
 

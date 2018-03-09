@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand"
 ---
-# SoftLayer_Brand::getBusinessPartner
+# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getBusinessPartner
+
+Retrieve business Partner details for the brand. Country Enterprise Code, Channel, Segment, Reseller Level.
+
+
 ## Overview 
 Retrieve business Partner details for the brand. Country Enterprise Code, Channel, Segment, Reseller Level.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy_Trigger_ResourceUse"
 ---
-# SoftLayer_Scale_Policy_Trigger_ResourceUse::deleteObject
+# [SoftLayer_Scale_Policy_Trigger_ResourceUse](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse)::deleteObject
+
+Delete this trigger.
+
+
 ## Overview 
 
 

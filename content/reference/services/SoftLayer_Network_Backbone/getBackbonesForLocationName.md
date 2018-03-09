@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Backbone"
 ---
-# SoftLayer_Network_Backbone::getBackbonesForLocationName
+# [SoftLayer_Network_Backbone](/reference/services/SoftLayer_Network_Backbone)::getBackbonesForLocationName
+
+Retrieve a list of all SoftLayer Backbones for a location name
+
+
 ## Overview 
 Retrieve a list of all SoftLayer backbone connections for a location name. 
 

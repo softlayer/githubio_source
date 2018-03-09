@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_DirectLink_Location"
 ---
-# SoftLayer_Network_DirectLink_Location::getAllObjects
+# [SoftLayer_Network_DirectLink_Location](/reference/services/SoftLayer_Network_DirectLink_Location)::getAllObjects
+
+Get all existing Direct Link location. 
+
+
 ## Overview 
 Return all existing Direct Link location. 
 

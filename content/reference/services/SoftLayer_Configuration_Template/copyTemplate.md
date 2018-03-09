@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Configuration_Template"
 ---
-# SoftLayer_Configuration_Template::copyTemplate
+# [SoftLayer_Configuration_Template](/reference/services/SoftLayer_Configuration_Template)::copyTemplate
+
+Copy a configuration template and returns a newly created template copy
+
+
 ## Overview 
 Copy a configuration template and returns a newly created template copy 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Configuration_Template_Section_Reference"
 ---
-# SoftLayer_Configuration_Template_Section_Reference::getTemplate
+# [SoftLayer_Configuration_Template_Section_Reference](/reference/services/SoftLayer_Configuration_Template_Section_Reference)::getTemplate
+
+
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getActiveTransactions
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getActiveTransactions
+
+Retrieve any active transaction(s) that are currently running for the server (example: os reload).
+
+
 ## Overview 
 Retrieve any active transaction(s) that are currently running for the server (example: os reload).
 

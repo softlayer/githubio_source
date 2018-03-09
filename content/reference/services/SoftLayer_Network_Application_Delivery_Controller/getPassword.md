@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller"
 ---
-# SoftLayer_Network_Application_Delivery_Controller::getPassword
+# [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getPassword
+
+Retrieve the password used to connect to an application delivery controller's management interface when it is operating in advanced view mode.
+
+
 ## Overview 
 Retrieve the password used to connect to an application delivery controller's management interface when it is operating in advanced view mode.
 

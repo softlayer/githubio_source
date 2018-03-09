@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getUpdates
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getUpdates
+
+Retrieve a ticket's updates.
+
+
 ## Overview 
 Retrieve a ticket's updates.
 

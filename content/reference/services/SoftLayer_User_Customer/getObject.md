@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getObject
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getObject
+
+Retrieve a SoftLayer_User_Customer record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_User_Customer object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_User_Customer service. You can only retrieve users that are assigned to the customer account belonging to the user making the API call. 
 

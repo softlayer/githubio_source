@@ -32,7 +32,7 @@ Using this API, SoftLayer Customers are able to initiate, monitor, update, and r
 
 ### seeAlso
 
-* [SoftLayer_Network_Subnet_Rwhois_Data](/reference/datatypes/SoftLayer_Network_Subnet_Rwhois_Data )
+* [SoftLayer_Network_Subnet_Rwhois_Data](/reference/services/SoftLayer_Network_Subnet_Rwhois_Data )
 
 
         

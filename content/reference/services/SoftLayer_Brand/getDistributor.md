@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand"
 ---
-# SoftLayer_Brand::getDistributor
+# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getDistributor
+
+
+
+
 ## Overview 
 
 

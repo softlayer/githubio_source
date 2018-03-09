@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order"
 ---
-# SoftLayer_Billing_Order::getPdfFilename
+# [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getPdfFilename
+
+Retrieve the default name of the PDF
+
+
 ## Overview 
 Retrieve the default filename of an order PDF. 
 

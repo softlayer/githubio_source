@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::deleteSoftwareComponentPasswords
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::deleteSoftwareComponentPasswords
+
+Delete software component passwords.
+
+
 ## Overview 
 Delete software component passwords. 
 

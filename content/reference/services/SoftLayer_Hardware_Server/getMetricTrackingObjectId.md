@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getMetricTrackingObjectId
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getMetricTrackingObjectId
+
+Retrieve the metric tracking object id for this server.
+
+
 ## Overview 
 Retrieve the metric tracking object id for this server.
 

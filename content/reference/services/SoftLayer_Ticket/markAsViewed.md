@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::markAsViewed
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::markAsViewed
+
+
+
+
 ## Overview 
 Mark a ticket as viewed.  All currently posted updates will be marked as viewed. The lastViewedDate property will be updated to the current time. 
 

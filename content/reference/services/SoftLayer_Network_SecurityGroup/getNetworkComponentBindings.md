@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_SecurityGroup"
 ---
-# SoftLayer_Network_SecurityGroup::getNetworkComponentBindings
+# [SoftLayer_Network_SecurityGroup](/reference/services/SoftLayer_Network_SecurityGroup)::getNetworkComponentBindings
+
+Retrieve the network component bindings for this security group.
+
+
 ## Overview 
 Retrieve the network component bindings for this security group.
 

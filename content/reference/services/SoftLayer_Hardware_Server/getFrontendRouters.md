@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getFrontendRouters
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getFrontendRouters
+
+Retrieve a hardware's frontend or public router.
+
+
 ## Overview 
 Retrieve a hardware's frontend or public router.
 

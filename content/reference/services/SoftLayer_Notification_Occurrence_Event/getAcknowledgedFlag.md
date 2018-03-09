@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_Occurrence_Event"
 ---
-# SoftLayer_Notification_Occurrence_Event::getAcknowledgedFlag
+# [SoftLayer_Notification_Occurrence_Event](/reference/services/SoftLayer_Notification_Occurrence_Event)::getAcknowledgedFlag
+
+Retrieve indicates whether or not this event has been acknowledged by the user.
+
+
 ## Overview 
 Retrieve indicates whether or not this event has been acknowledged by the user.
 

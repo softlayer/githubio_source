@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getUpgradeItem
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getUpgradeItem
+
+Retrieve billing items whose product item has an upgrade path defined in our system will return the next product item in the upgrade path.
+
+
 ## Overview 
 Retrieve billing items whose product item has an upgrade path defined in our system will return the next product item in the upgrade path.
 

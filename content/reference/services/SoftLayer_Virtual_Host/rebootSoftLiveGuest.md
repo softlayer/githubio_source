@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Host"
 ---
-# SoftLayer_Virtual_Host::rebootSoftLiveGuest
+# [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::rebootSoftLiveGuest
+
+Attempt to complete a soft reboot of a guest by shutting down the operating system.
+
+
 ## Overview 
 Attempt to complete a soft reboot of a guest by shutting down the operating system. 
 

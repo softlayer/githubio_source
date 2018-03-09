@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_External_Setup"
 ---
-# SoftLayer_Account_External_Setup::getVerifyCardTransaction
+# [SoftLayer_Account_External_Setup](/reference/services/SoftLayer_Account_External_Setup)::getVerifyCardTransaction
+
+Retrieve the transaction information related to verifying the customer credit card.
+
+
 ## Overview 
 Retrieve the transaction information related to verifying the customer credit card.
 

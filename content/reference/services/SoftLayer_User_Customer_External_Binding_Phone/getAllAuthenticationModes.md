@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Phone"
 ---
-# SoftLayer_User_Customer_External_Binding_Phone::getAllAuthenticationModes
+# [SoftLayer_User_Customer_External_Binding_Phone](/reference/services/SoftLayer_User_Customer_External_Binding_Phone)::getAllAuthenticationModes
+
+Returns available authentication modes
+
+
 ## Overview 
 This service returns key names of all available authentication modes. See [[SoftLayer_Container_User_Customer_External_Binding_Phone_Mode|authentication mode]] container for details. 
 

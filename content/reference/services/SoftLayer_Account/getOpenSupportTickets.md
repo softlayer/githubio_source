@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getOpenSupportTickets
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getOpenSupportTickets
+
+Retrieve the open support tickets associated with an account.
+
+
 ## Overview 
 Retrieve the open support tickets associated with an account.
 

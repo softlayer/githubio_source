@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::createSnapshot
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::createSnapshot
+
+Manually create a new snapshot of a storage volume.
+
+
 ## Overview 
 
 

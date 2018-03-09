@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getValidBlockDeviceTemplateGroups
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getValidBlockDeviceTemplateGroups
+
+Return a list of valid block device template groups based on this host
+
+
 ## Overview 
 This method will return the list of block device template groups that are valid to the host. For instance, it will only retrieve FLEX images. 
 

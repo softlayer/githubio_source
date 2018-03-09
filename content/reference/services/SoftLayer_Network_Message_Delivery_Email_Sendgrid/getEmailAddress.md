@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Message_Delivery_Email_Sendgrid"
 ---
-# SoftLayer_Network_Message_Delivery_Email_Sendgrid::getEmailAddress
+# [SoftLayer_Network_Message_Delivery_Email_Sendgrid](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid)::getEmailAddress
+
+Retrieve the contact e-mail address used by SendGrid.
+
+
 ## Overview 
 Retrieve the contact e-mail address used by SendGrid.
 

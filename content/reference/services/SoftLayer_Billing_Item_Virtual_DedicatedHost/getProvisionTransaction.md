@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item_Virtual_DedicatedHost"
 ---
-# SoftLayer_Billing_Item_Virtual_DedicatedHost::getProvisionTransaction
+# [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getProvisionTransaction
+
+Retrieve provisioning transaction for this billing item
+
+
 ## Overview 
 Retrieve provisioning transaction for this billing item
 

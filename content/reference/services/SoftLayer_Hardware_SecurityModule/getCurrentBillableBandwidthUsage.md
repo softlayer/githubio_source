@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getCurrentBillableBandwidthUsage
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getCurrentBillableBandwidthUsage
+
+Retrieve the current billable public outbound bandwidth for this hardware for the current billing cycle.
+
+
 ## Overview 
 Retrieve the current billable public outbound bandwidth for this hardware for the current billing cycle.
 

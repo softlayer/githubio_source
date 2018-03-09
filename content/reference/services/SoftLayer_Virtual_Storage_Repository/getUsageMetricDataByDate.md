@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Storage_Repository"
 ---
-# SoftLayer_Virtual_Storage_Repository::getUsageMetricDataByDate
+# [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getUsageMetricDataByDate
+
+Retrieve the metric data for disk space usage for a storage repository. 
+
+
 ## Overview 
 Retrieve disk usage data on a [[SoftLayer_Virtual_Guest|Cloud Computing Instance]] image for the time range you provide.  Each data entry objects contain ''dateTime'' and ''counter'' properties. ''dateTime'' property indicates the time that the disk usage data was measured and ''counter'' property holds the disk usage in bytes. 
 

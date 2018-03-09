@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getNetworkStorage
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getNetworkStorage
+
+Retrieve information regarding a piece of hardware's associated network storage service account.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's associated network storage service account.
 

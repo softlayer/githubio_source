@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::hasAttribute
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::hasAttribute
+
+Determine if an account has a given attribute.
+
+
 ## Overview 
 Determine if an account has an [[SoftLayer_Account_Attribute|attribute]] associated with it. hasAttribute() returns false if the attribute does not exist or if it does not have a value. 
 

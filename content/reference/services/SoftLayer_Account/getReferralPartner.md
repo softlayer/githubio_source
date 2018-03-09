@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getReferralPartner
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getReferralPartner
+
+Retrieve the Referral Partner for this account, if any.
+
+
 ## Overview 
 Retrieve the Referral Partner for this account, if any.
 

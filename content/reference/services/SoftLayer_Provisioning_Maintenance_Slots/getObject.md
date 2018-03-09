@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Provisioning_Maintenance_Slots"
 ---
-# SoftLayer_Provisioning_Maintenance_Slots::getObject
+# [SoftLayer_Provisioning_Maintenance_Slots](/reference/services/SoftLayer_Provisioning_Maintenance_Slots)::getObject
+
+Retrieve a SoftLayer_Provisioning_Maintenance_Slots record.
+
+
 ## Overview 
 
 

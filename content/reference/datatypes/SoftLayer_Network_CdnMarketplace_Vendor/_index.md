@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Network_CdnMarketplace_Vendor
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Vendor' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Network_CdnMarketplace_Vendor' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Vendor' >Datatype</a></li>
     </ul>
 </div>
 

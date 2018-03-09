@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getNetworkGateways
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNetworkGateways
+
+Retrieve all network gateway devices on this account.
+
+
 ## Overview 
 Retrieve all network gateway devices on this account.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_Occurrence_Event"
 ---
-# SoftLayer_Notification_Occurrence_Event::getFirstUpdate
+# [SoftLayer_Notification_Occurrence_Event](/reference/services/SoftLayer_Notification_Occurrence_Event)::getFirstUpdate
+
+Retrieve the first update for this event.
+
+
 ## Overview 
 Retrieve the first update for this event.
 

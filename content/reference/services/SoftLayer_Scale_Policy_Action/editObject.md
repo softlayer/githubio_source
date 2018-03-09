@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy_Action"
 ---
-# SoftLayer_Scale_Policy_Action::editObject
+# [SoftLayer_Scale_Policy_Action](/reference/services/SoftLayer_Scale_Policy_Action)::editObject
+
+Edit this action.
+
+
 ## Overview 
 
 

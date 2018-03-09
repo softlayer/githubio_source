@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::configureMetadataDisk
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::configureMetadataDisk
+
+Configures the guest's metadata disk.
+
+
 ## Overview 
 Creates a transaction to configure the guest's metadata disk. If the guest has user data associated with it, the transaction will create a small virtual drive and write the metadata to a file on the drive; if the drive already exists, the metadata will be rewritten. If the guest has no user data associated with it, the transaction will remove the virtual drive if it exists. 
 

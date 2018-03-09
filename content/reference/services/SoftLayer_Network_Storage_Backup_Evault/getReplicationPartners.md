@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getReplicationPartners
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getReplicationPartners
+
+Retrieve the network storage volumes configured to be replicants of a volume.
+
+
 ## Overview 
 Retrieve the network storage volumes configured to be replicants of a volume.
 

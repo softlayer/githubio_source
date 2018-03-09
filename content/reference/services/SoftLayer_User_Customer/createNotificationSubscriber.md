@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::createNotificationSubscriber
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::createNotificationSubscriber
+
+Create a new subscriber for a given resource.
+
+
 ## Overview 
 Create a new subscriber for a given resource. 
 

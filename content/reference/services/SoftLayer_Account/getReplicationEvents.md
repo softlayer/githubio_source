@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getReplicationEvents
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getReplicationEvents
+
+Retrieve the Replication events for all Network Storage volumes on an account.
+
+
 ## Overview 
 Retrieve the Replication events for all Network Storage volumes on an account.
 

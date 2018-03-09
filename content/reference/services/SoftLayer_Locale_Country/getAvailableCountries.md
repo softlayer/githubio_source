@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Locale_Country"
 ---
-# SoftLayer_Locale_Country::getAvailableCountries
+# [SoftLayer_Locale_Country](/reference/services/SoftLayer_Locale_Country)::getAvailableCountries
+
+
+
+
 ## Overview 
 Use this method to retrieve a list of countries and locale information available to the current user. 
 

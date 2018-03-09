@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getLastCanceledBillingItem
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getLastCanceledBillingItem
+
+Retrieve the most recently canceled billing item.
+
+
 ## Overview 
 Retrieve the most recently canceled billing item.
 

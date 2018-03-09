@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::assignNewCredential
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::assignNewCredential
+
+This method will set up a new credential for the remote storage volume.
+
+
 ## Overview 
 This method will set up a new credential for the remote storage volume. The storage volume must support an additional credential. Once created, the credential will be automatically assigned to the current volume. If there are no volumes assigned to the credential it will be automatically deleted. 
 

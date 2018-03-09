@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getSslVpnUsers
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSslVpnUsers
+
+Retrieve an account's associated portal users with SSL VPN access.
+
+
 ## Overview 
 Retrieve an account's associated portal users with SSL VPN access.
 

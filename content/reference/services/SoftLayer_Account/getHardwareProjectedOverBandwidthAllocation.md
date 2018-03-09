@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHardwareProjectedOverBandwidthAllocation
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardwareProjectedOverBandwidthAllocation
+
+Retrieve an account's associated hardware objects projected to go over bandwidth allocation.
+
+
 ## Overview 
 Retrieve an account's associated hardware objects projected to go over bandwidth allocation.
 

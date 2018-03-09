@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getRoutingTypeName
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getRoutingTypeName
+
+Retrieve the name for the type of route then subnet is currently configured for.
+
+
 ## Overview 
 Retrieve the name for the type of route then subnet is currently configured for.
 

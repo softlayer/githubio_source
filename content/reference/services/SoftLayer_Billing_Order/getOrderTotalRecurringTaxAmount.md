@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order"
 ---
-# SoftLayer_Billing_Order::getOrderTotalRecurringTaxAmount
+# [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getOrderTotalRecurringTaxAmount
+
+Retrieve the total tax amount of the recurring fees, if the SoftLayer_Account tied to a SoftLayer_Billing_Order is a taxable account.
+
+
 ## Overview 
 Retrieve the total tax amount of the recurring fees, if the SoftLayer_Account tied to a SoftLayer_Billing_Order is a taxable account.
 

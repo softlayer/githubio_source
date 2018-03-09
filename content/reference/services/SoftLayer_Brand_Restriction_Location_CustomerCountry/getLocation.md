@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand_Restriction_Location_CustomerCountry"
 ---
-# SoftLayer_Brand_Restriction_Location_CustomerCountry::getLocation
+# [SoftLayer_Brand_Restriction_Location_CustomerCountry](/reference/services/SoftLayer_Brand_Restriction_Location_CustomerCountry)::getLocation
+
+Retrieve this references the datacenter that has a brand-location-country restriction setup. For example, if a datacenter is listed with a restriction for Canada, a Canadian customer may not be eligible to order services at that location.
+
+
 ## Overview 
 Retrieve this references the datacenter that has a brand-location-country restriction setup. For example, if a datacenter is listed with a restriction for Canada, a Canadian customer may not be eligible to order services at that location.
 

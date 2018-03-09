@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getSnapshotCreationTimestamp
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getSnapshotCreationTimestamp
+
+Retrieve the creation timestamp of the snapshot on the storage platform.
+
+
 ## Overview 
 Retrieve the creation timestamp of the snapshot on the storage platform.
 

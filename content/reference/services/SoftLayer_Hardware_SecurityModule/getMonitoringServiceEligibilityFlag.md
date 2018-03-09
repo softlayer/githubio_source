@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getMonitoringServiceEligibilityFlag
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getMonitoringServiceEligibilityFlag
+
+Retrieve the monitoring service flag eligibility status for a piece of hardware.
+
+
 ## Overview 
 Retrieve the monitoring service flag eligibility status for a piece of hardware.
 

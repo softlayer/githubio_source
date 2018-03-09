@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getDownstreamNetworkHardware
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getDownstreamNetworkHardware
+
+Retrieve all network hardware downstream from the selected piece of hardware.
+
+
 ## Overview 
 Retrieve all network hardware downstream from the selected piece of hardware.
 

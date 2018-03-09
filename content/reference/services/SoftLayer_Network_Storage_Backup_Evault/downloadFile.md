@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::downloadFile
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::downloadFile
+
+Download a file from a Storage account.
+
+
 ## Overview 
 {{CloudLayerOnlyMethod}} Download a file from a Storage account. This method returns a file's details including the file's raw content. 
 

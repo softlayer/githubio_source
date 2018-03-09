@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_Swip_Transaction"
 ---
-# SoftLayer_Network_Subnet_Swip_Transaction::resendSwipData
+# [SoftLayer_Network_Subnet_Swip_Transaction](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction)::resendSwipData
+
+Sends updated RWHOIS information to ARIN for a single subnet.
+
+
 ## Overview 
 This function will allow you to update ARIN's registration data for a subnet to your current RWHOIS data. 
 

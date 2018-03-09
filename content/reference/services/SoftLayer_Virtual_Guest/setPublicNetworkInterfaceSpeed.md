@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::setPublicNetworkInterfaceSpeed
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::setPublicNetworkInterfaceSpeed
+
+Updates the public network interface (eth1) speed.
+
+
 ## Overview 
 Sets the public network interface speed to the new speed. Speed values can only be 0 (Disconnect), 10, 100, or 1000. The new speed must be equal to or less than the max speed of the interface. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package_Preset"
 ---
-# SoftLayer_Product_Package_Preset::getConfiguration
+# [SoftLayer_Product_Package_Preset](/reference/services/SoftLayer_Product_Package_Preset)::getConfiguration
+
+Retrieve the preset configuration (category and price).
+
+
 ## Overview 
 Retrieve the preset configuration (category and price).
 

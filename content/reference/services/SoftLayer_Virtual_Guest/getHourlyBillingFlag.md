@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getHourlyBillingFlag
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getHourlyBillingFlag
+
+Retrieve whether or not a computing instance is billed hourly instead of monthly.
+
+
 ## Overview 
 Retrieve whether or not a computing instance is billed hourly instead of monthly.
 

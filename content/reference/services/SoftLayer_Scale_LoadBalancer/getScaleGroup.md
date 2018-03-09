@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_LoadBalancer"
 ---
-# SoftLayer_Scale_LoadBalancer::getScaleGroup
+# [SoftLayer_Scale_LoadBalancer](/reference/services/SoftLayer_Scale_LoadBalancer)::getScaleGroup
+
+Retrieve the group this load balancer configuration is for.
+
+
 ## Overview 
 Retrieve the group this load balancer configuration is for.
 

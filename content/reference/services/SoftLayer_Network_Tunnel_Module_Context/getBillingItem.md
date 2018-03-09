@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::getBillingItem
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getBillingItem
+
+Retrieve the current billing item for network tunnel.
+
+
 ## Overview 
 Retrieve the current billing item for network tunnel.
 

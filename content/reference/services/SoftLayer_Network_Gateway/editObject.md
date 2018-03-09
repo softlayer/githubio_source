@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Gateway"
 ---
-# SoftLayer_Network_Gateway::editObject
+# [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::editObject
+
+Edit Gateway
+
+
 ## Overview 
 Edit this gateway. Currently, the only value that can be edited is the name. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getLastTransaction
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getLastTransaction
+
+Retrieve information regarding the last transaction a server performed.
+
+
 ## Overview 
 Retrieve information regarding the last transaction a server performed.
 

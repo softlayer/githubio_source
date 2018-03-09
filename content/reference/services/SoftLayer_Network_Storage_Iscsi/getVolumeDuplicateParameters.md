@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getVolumeDuplicateParameters
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getVolumeDuplicateParameters
+
+
+
+
 ## Overview 
 This method returns the parameters for cloning a volume 
 

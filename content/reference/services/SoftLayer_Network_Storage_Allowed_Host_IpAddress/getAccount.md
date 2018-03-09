@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host_IpAddress"
 ---
-# SoftLayer_Network_Storage_Allowed_Host_IpAddress::getAccount
+# [SoftLayer_Network_Storage_Allowed_Host_IpAddress](/reference/services/SoftLayer_Network_Storage_Allowed_Host_IpAddress)::getAccount
+
+Retrieve the SoftLayer_Account object which this SoftLayer_Network_Storage_Allowed_Host belongs to.
+
+
 ## Overview 
 Retrieve the SoftLayer_Account object which this SoftLayer_Network_Storage_Allowed_Host belongs to.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand_Restriction_Location_CustomerCountry"
 ---
-# SoftLayer_Brand_Restriction_Location_CustomerCountry::getBrand
+# [SoftLayer_Brand_Restriction_Location_CustomerCountry](/reference/services/SoftLayer_Brand_Restriction_Location_CustomerCountry)::getBrand
+
+Retrieve this references the brand that has a brand-location-country restriction setup.
+
+
 ## Overview 
 Retrieve this references the brand that has a brand-location-country restriction setup.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_ResourceRecord_MxType"
 ---
-# SoftLayer_Dns_Domain_ResourceRecord_MxType::editObject
+# [SoftLayer_Dns_Domain_ResourceRecord_MxType](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType)::editObject
+
+Edit a domain's MX record.
+
+
 ## Overview 
 editObject edits an existing MX resource record. The ''host'' property of the templateObject parameter is scrubbed to remove all non-alpha numeric characters except for "@", "_", ".", "*", and "-". The ''data'' property of the templateObject parameter is scrubbed to remove all non-alphanumeric characters for "." and "-". Editing an MX record updates the serial number of the domain the record is associated with. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Resource_Metadata"
 ---
-# SoftLayer_Resource_Metadata::getHostname
+# [SoftLayer_Resource_Metadata](/reference/services/SoftLayer_Resource_Metadata)::getHostname
+
+A resource's hostname
+
+
 ## Overview 
 The getHostname method retrieves the hostname for the resource.
 

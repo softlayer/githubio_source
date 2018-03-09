@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Media"
 ---
-# SoftLayer_Account_Media::removeMediaFromList
+# [SoftLayer_Account_Media](/reference/services/SoftLayer_Account_Media)::removeMediaFromList
+
+Remove a media from a SoftLayer account's list of media.
+
+
 ## Overview 
 Remove a media from a SoftLayer account's list of media. The media record is not deleted. 
 

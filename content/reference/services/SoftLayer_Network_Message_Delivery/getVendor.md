@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Message_Delivery"
 ---
-# SoftLayer_Network_Message_Delivery::getVendor
+# [SoftLayer_Network_Message_Delivery](/reference/services/SoftLayer_Network_Message_Delivery)::getVendor
+
+Retrieve the vendor for a network message delivery account.
+
+
 ## Overview 
 Retrieve the vendor for a network message delivery account.
 

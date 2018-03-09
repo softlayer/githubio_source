@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Locale_Timezone"
 ---
-# SoftLayer_Locale_Timezone::getObject
+# [SoftLayer_Locale_Timezone](/reference/services/SoftLayer_Locale_Timezone)::getObject
+
+Retrieve a SoftLayer_Locale_Timezone record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Locale_Timezone object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Locale_Timezone service. 
 

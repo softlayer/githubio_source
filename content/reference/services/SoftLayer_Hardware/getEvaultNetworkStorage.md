@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getEvaultNetworkStorage
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getEvaultNetworkStorage
+
+Retrieve information regarding a piece of hardware's associated EVault network storage service account.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's associated EVault network storage service account.
 

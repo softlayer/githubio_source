@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain"
 ---
-# SoftLayer_Dns_Domain::getSecondary
+# [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::getSecondary
+
+Retrieve the secondary DNS record that defines this domain as being managed through zone transfers.
+
+
 ## Overview 
 Retrieve the secondary DNS record that defines this domain as being managed through zone transfers.
 

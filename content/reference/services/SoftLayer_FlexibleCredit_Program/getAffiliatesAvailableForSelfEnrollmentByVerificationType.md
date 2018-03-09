@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_FlexibleCredit_Program"
 ---
-# SoftLayer_FlexibleCredit_Program::getAffiliatesAvailableForSelfEnrollmentByVerificationType
+# [SoftLayer_FlexibleCredit_Program](/reference/services/SoftLayer_FlexibleCredit_Program)::getAffiliatesAvailableForSelfEnrollmentByVerificationType
+
+
+
+
 ## Overview 
 
 

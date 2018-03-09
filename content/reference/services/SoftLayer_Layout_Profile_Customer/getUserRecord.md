@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Layout_Profile_Customer"
 ---
-# SoftLayer_Layout_Profile_Customer::getUserRecord
+# [SoftLayer_Layout_Profile_Customer](/reference/services/SoftLayer_Layout_Profile_Customer)::getUserRecord
+
+
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getHardwareChassis
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getHardwareChassis
+
+Retrieve the chassis that a piece of hardware is housed in.
+
+
 ## Overview 
 Retrieve the chassis that a piece of hardware is housed in.
 

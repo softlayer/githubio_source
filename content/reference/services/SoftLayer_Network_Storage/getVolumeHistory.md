@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getVolumeHistory
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getVolumeHistory
+
+Retrieve the username and password history for a Storage service.
+
+
 ## Overview 
 Retrieve the username and password history for a Storage service.
 

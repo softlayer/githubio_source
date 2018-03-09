@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getActiveChildren
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getActiveChildren
+
+Retrieve a Billing Item's active child billing items.
+
+
 ## Overview 
 Retrieve a Billing Item's active child billing items.
 

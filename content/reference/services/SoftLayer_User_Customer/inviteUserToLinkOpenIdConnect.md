@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::inviteUserToLinkOpenIdConnect
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::inviteUserToLinkOpenIdConnect
+
+Send email invitation to a user to join a SoftLayer account and authenticate with OpenIdConnect.
+
+
 ## Overview 
 Send email invitation to a user to join a SoftLayer account and authenticate with OpenIdConnect. Throws an exception on error. 
 

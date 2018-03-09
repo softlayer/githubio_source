@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getBillingItem
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getBillingItem
+
+Retrieve the current billing item for a Storage volume.
+
+
 ## Overview 
 Retrieve the current billing item for a Storage volume.
 

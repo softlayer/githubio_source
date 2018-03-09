@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getItem
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getItem
+
+Retrieve the entry in the SoftLayer product catalog that a billing item is based upon.
+
+
 ## Overview 
 Retrieve the entry in the SoftLayer product catalog that a billing item is based upon.
 

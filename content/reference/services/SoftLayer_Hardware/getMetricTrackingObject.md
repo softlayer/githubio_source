@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getMetricTrackingObject
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getMetricTrackingObject
+
+Retrieve a piece of hardware's metric tracking object.
+
+
 ## Overview 
 Retrieve a piece of hardware's metric tracking object.
 

@@ -30,10 +30,10 @@ The SoftLayer_Dns_Domain_ResourceRecord_SrvType service controls the creation, m
 
 ### seeAlso
 
-* [SoftLayer_Dns_Domain](/reference/datatypes/SoftLayer_Dns_Domain )
+* [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain )
 
 
-* [SoftLayer_Dns_Domain_ResourceRecord](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord )
+* [SoftLayer_Dns_Domain_ResourceRecord](/reference/services/SoftLayer_Dns_Domain_ResourceRecord )
 
 
         

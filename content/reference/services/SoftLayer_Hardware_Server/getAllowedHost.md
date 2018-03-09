@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getAllowedHost
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getAllowedHost
+
+Retrieve the SoftLayer_Network_Storage_Allowed_Host information to connect this server to Network Storage volumes that require access control lists.
+
+
 ## Overview 
 Retrieve the SoftLayer_Network_Storage_Allowed_Host information to connect this server to Network Storage volumes that require access control lists.
 

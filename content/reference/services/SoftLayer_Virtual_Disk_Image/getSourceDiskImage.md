@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Disk_Image"
 ---
-# SoftLayer_Virtual_Disk_Image::getSourceDiskImage
+# [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::getSourceDiskImage
+
+Retrieve the original disk image that the current disk image was cloned from.
+
+
 ## Overview 
 Retrieve the original disk image that the current disk image was cloned from.
 

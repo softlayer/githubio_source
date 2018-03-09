@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getBillingItem
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getBillingItem
+
+Retrieve the current billing item for a Storage volume.
+
+
 ## Overview 
 Retrieve the current billing item for a Storage volume.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order"
 ---
-# SoftLayer_Billing_Order::getOrderTotalRecurring
+# [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getOrderTotalRecurring
+
+Retrieve an order's total recurring amount. Taxes will be applied for non-tax-exempt. This amount represents the fees that will be charged on a recurring (usually monthly) basis.
+
+
 ## Overview 
 Retrieve an order's total recurring amount. Taxes will be applied for non-tax-exempt. This amount represents the fees that will be charged on a recurring (usually monthly) basis.
 

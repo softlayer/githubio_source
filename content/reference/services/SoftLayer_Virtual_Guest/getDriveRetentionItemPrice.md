@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getDriveRetentionItemPrice
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getDriveRetentionItemPrice
+
+Return a drive retention SoftLayer_Item_Price object for a guest.
+
+
 ## Overview 
 Return a drive retention SoftLayer_Item_Price object for a guest.
 

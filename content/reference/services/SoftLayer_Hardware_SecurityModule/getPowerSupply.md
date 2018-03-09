@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getPowerSupply
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getPowerSupply
+
+Retrieve a server's power supply.
+
+
 ## Overview 
 Retrieve a server's power supply.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getChildUsers
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getChildUsers
+
+Retrieve a portal user's child users. Some portal users may not have child users.
+
+
 ## Overview 
 Retrieve a portal user's child users. Some portal users may not have child users.
 

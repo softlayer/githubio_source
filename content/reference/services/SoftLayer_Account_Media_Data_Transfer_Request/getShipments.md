@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Media_Data_Transfer_Request"
 ---
-# SoftLayer_Account_Media_Data_Transfer_Request::getShipments
+# [SoftLayer_Account_Media_Data_Transfer_Request](/reference/services/SoftLayer_Account_Media_Data_Transfer_Request)::getShipments
+
+Retrieve the shipments of the request.
+
+
 ## Overview 
 Retrieve the shipments of the request.
 

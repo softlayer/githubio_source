@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Category"
 ---
-# SoftLayer_Product_Item_Category::getPresetConfigurations
+# [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category)::getPresetConfigurations
+
+Retrieve a list of preset configurations this category is used in.'
+
+
 ## Overview 
 Retrieve a list of preset configurations this category is used in.'
 

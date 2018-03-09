@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Host"
 ---
-# SoftLayer_Virtual_Host::getLiveGuestRecentMetricData
+# [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::getLiveGuestRecentMetricData
+
+Query a virtualization platform directly to retrieve recent metric data for a guest. 
+
+
 ## Overview 
 Query a virtualization platform directly to retrieve recent metric data for a guest. 
 

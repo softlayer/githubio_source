@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Media"
 ---
-# SoftLayer_Account_Media::editObject
+# [SoftLayer_Account_Media](/reference/services/SoftLayer_Account_Media)::editObject
+
+Edit a media.
+
+
 ## Overview 
 Edit the properties of a media record by passing in a modified instance of a SoftLayer_Account_Media object. 
 

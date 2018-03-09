@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Cart"
 ---
-# SoftLayer_Billing_Order_Cart::deleteCart
+# [SoftLayer_Billing_Order_Cart](/reference/services/SoftLayer_Billing_Order_Cart)::deleteCart
+
+Delete an existing cart
+
+
 ## Overview 
 If a cart is no longer needed, it can be deleted using this service. Once a cart has been deleted, it cannot be retrieved again. 
 

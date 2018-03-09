@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Group_Iscsi"
 ---
-# SoftLayer_Network_Storage_Group_Iscsi::getServiceResource
+# [SoftLayer_Network_Storage_Group_Iscsi](/reference/services/SoftLayer_Network_Storage_Group_Iscsi)::getServiceResource
+
+Retrieve the network resource this group is created on.
+
+
 ## Overview 
 Retrieve the network resource this group is created on.
 

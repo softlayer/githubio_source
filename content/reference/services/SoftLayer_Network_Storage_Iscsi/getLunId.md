@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getLunId
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getLunId
+
+Retrieve the ID of the LUN volume.
+
+
 ## Overview 
 Retrieve the ID of the LUN volume.
 

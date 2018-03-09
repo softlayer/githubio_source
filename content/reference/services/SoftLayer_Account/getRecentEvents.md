@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getRecentEvents
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getRecentEvents
+
+
+
+
 ## Overview 
 
 

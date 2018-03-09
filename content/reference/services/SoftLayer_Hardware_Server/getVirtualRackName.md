@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getVirtualRackName
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getVirtualRackName
+
+Retrieve the name of the bandwidth allotment belonging to a piece of hardware.
+
+
 ## Overview 
 Retrieve the name of the bandwidth allotment belonging to a piece of hardware.
 

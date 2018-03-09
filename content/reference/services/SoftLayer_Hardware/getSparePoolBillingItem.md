@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getSparePoolBillingItem
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getSparePoolBillingItem
+
+Retrieve information regarding the billing item for a spare pool server.
+
+
 ## Overview 
 Retrieve information regarding the billing item for a spare pool server.
 

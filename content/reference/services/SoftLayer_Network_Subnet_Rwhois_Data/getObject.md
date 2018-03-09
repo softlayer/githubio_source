@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_Rwhois_Data"
 ---
-# SoftLayer_Network_Subnet_Rwhois_Data::getObject
+# [SoftLayer_Network_Subnet_Rwhois_Data](/reference/services/SoftLayer_Network_Subnet_Rwhois_Data)::getObject
+
+Retrieve a SoftLayer_Network_Subnet_Rwhois_Data record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Network_Subnet_Rwhois_Data object whose ID corresponds to the ID number of the init parameter passed to the SoftLayer_Network_Subnet_Rwhois_Data service. 
 

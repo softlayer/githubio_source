@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getParentVolume
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getParentVolume
+
+Retrieve the volume on which this iSCSI LUN is provisioned.
+
+
 ## Overview 
 Retrieve the volume on which this iSCSI LUN is provisioned.
 

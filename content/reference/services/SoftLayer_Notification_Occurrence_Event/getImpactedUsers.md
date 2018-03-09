@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_Occurrence_Event"
 ---
-# SoftLayer_Notification_Occurrence_Event::getImpactedUsers
+# [SoftLayer_Notification_Occurrence_Event](/reference/services/SoftLayer_Notification_Occurrence_Event)::getImpactedUsers
+
+Retrieve a collection of users impacted by this event. Each impacted user record relates directly to a [[SoftLayer_User_Customer]].
+
+
 ## Overview 
 Retrieve a collection of users impacted by this event. Each impacted user record relates directly to a [[SoftLayer_User_Customer]].
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Gateway"
 ---
-# SoftLayer_Network_Gateway::getAccount
+# [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::getAccount
+
+Retrieve the account for this gateway.
+
+
 ## Overview 
 Retrieve the account for this gateway.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getAccountTraitValue
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAccountTraitValue
+
+Get the specific trait by its key
+
+
 ## Overview 
 This method pulls an account trait by its key. 
 

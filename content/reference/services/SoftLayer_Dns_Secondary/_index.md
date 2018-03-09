@@ -37,7 +37,7 @@ Secondary DNS transfers may periodically generate notification or error messages
 
 ### seeAlso
 
-* [SoftLayer_Dns_Domain](/reference/datatypes/SoftLayer_Dns_Domain )
+* [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain )
 
 
 * [SoftLayer_Dns_Message](/reference/datatypes/SoftLayer_Dns_Message )

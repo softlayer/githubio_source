@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy_Trigger_ResourceUse"
 ---
-# SoftLayer_Scale_Policy_Trigger_ResourceUse::getType
+# [SoftLayer_Scale_Policy_Trigger_ResourceUse](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse)::getType
+
+Retrieve the type of trigger.
+
+
 ## Overview 
 Retrieve the type of trigger.
 

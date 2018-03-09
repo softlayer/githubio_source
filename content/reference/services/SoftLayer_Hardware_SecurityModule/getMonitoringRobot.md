@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getMonitoringRobot
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getMonitoringRobot
+
+Retrieve information regarding the hardware's monitoring robot.
+
+
 ## Overview 
 Retrieve information regarding the hardware's monitoring robot.
 

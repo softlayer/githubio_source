@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getBillingCycleBandwidthUsage
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getBillingCycleBandwidthUsage
+
+Retrieve the raw bandwidth usage data for the current billing cycle. One object will be returned for each network this server is attached to.
+
+
 ## Overview 
 Retrieve the raw bandwidth usage data for the current billing cycle. One object will be returned for each network this server is attached to.
 

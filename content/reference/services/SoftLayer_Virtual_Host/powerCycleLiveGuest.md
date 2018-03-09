@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Host"
 ---
-# SoftLayer_Virtual_Host::powerCycleLiveGuest
+# [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::powerCycleLiveGuest
+
+Power cycle a guest.
+
+
 ## Overview 
 Power cycle a virtual guest 
 

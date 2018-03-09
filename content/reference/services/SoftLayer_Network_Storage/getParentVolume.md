@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getParentVolume
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getParentVolume
+
+Retrieve the parent volume of a volume in a complex storage relationship.
+
+
 ## Overview 
 Retrieve the parent volume of a volume in a complex storage relationship.
 

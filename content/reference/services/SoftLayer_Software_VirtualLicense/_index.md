@@ -28,10 +28,10 @@ You can also retrieve the subnet that the IP to which a software virtual license
 
 ### seeAlso
 
-* [SoftLayer_Software_Description](/reference/datatypes/SoftLayer_Software_Description )
+* [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description )
 
 
-* [SoftLayer_Network_Subnet](/reference/datatypes/SoftLayer_Network_Subnet )
+* [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet )
 
 
         

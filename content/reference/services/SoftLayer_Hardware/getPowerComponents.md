@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getPowerComponents
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getPowerComponents
+
+Retrieve the power components for a hardware object.
+
+
 ## Overview 
 Retrieve the power components for a hardware object.
 

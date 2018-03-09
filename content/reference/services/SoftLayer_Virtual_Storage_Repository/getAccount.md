@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Storage_Repository"
 ---
-# SoftLayer_Virtual_Storage_Repository::getAccount
+# [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getAccount
+
+Retrieve the [[SoftLayer_Account|account]] that a storage repository belongs to.
+
+
 ## Overview 
 Retrieve the [[SoftLayer_Account|account]] that a storage repository belongs to.
 

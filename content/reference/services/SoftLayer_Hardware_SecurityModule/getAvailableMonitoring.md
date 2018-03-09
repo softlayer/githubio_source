@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getAvailableMonitoring
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getAvailableMonitoring
+
+Retrieve an object that stores the maximum level for the monitoring query types and response types.
+
+
 ## Overview 
 Retrieve an object that stores the maximum level for the monitoring query types and response types.
 

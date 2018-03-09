@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Item"
 ---
-# SoftLayer_Billing_Order_Item::getItemCategoryAnswers
+# [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getItemCategoryAnswers
+
+Retrieve this is an item's category answers.
+
+
 ## Overview 
 Retrieve this is an item's category answers.
 

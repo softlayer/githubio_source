@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Gateway_Vlan"
 ---
-# SoftLayer_Network_Gateway_Vlan::bypass
+# [SoftLayer_Network_Gateway_Vlan](/reference/services/SoftLayer_Network_Gateway_Vlan)::bypass
+
+Bypass VLAN
+
+
 ## Overview 
 Start the asynchronous process to bypass/unroute the VLAN from this gateway. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Gateway"
 ---
-# SoftLayer_Network_Gateway::getMembers
+# [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::getMembers
+
+Retrieve the members for this gateway.
+
+
 ## Overview 
 Retrieve the members for this gateway.
 

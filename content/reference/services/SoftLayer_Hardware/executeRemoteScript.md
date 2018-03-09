@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::executeRemoteScript
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::executeRemoteScript
+
+Download and run remote script from uri on the hardware. Requires https for script to be executed after download. 
+
+
 ## Overview 
 Download and run remote script from uri on the hardware.
 

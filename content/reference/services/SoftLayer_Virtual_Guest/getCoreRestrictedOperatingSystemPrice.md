@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getCoreRestrictedOperatingSystemPrice
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getCoreRestrictedOperatingSystemPrice
+
+Return the associated core-restricted operating system item price for the virtual server.
+
+
 ## Overview 
 If the virtual server currently has an operating system that has a core capacity restriction, return the associated core-restricted operating system item price. Some operating systems (e.g., Red Hat Enterprise Linux) may be billed by the number of processor cores, so therefore require that a certain number of cores be present on the server. 
 

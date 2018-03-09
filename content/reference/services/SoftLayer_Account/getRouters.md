@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getRouters
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getRouters
+
+Retrieve all Routers that an accounts VLANs reside on
+
+
 ## Overview 
 Retrieve all Routers that an accounts VLANs reside on
 

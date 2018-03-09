@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::getEncryptionOptions
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getEncryptionOptions
+
+Returns the encryption options.
+
+
 ## Overview 
 Encryption options available for both phases of the negotiation process. 
 

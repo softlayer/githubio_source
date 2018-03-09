@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Shipment"
 ---
-# SoftLayer_Account_Shipment::getOriginationAddress
+# [SoftLayer_Account_Shipment](/reference/services/SoftLayer_Account_Shipment)::getOriginationAddress
+
+Retrieve the address from which the shipment is sent.
+
+
 ## Overview 
 Retrieve the address from which the shipment is sent.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getAllTicketStatuses
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getAllTicketStatuses
+
+Retrieve all available ticket statuses. 
+
+
 ## Overview 
 getAllTicketStatuses() retrieves a list of all statuses that a ticket may exist in. Ticket status represent the current state of a ticket, usually "open", "assigned", and "closed". 
 

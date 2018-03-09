@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getFlexibleCreditEnrollments
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getFlexibleCreditEnrollments
+
+Retrieve all of the account's current and former Flexible Credit enrollments.
+
+
 ## Overview 
 Retrieve all of the account's current and former Flexible Credit enrollments.
 

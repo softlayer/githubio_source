@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::updateNotificationSubscriber
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::updateNotificationSubscriber
+
+Update the active status for a notification subscription.
+
+
 ## Overview 
 Update the active status for a notification that the user is subscribed to. A notification along with an active flag can be supplied to update the active status for a particular notification subscription. 
 

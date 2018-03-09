@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getUplinkComponent
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getUplinkComponent
+
+Retrieve the network component linking this object to parent
+
+
 ## Overview 
 Retrieve the network component linking this object to parent
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item_Virtual_DedicatedHost"
 ---
-# SoftLayer_Billing_Item_Virtual_DedicatedHost::getLocation
+# [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getLocation
+
+Retrieve the location of the billing item. Some billing items have physical properties such as the server itself. For items such as these, we provide location information.
+
+
 ## Overview 
 Retrieve the location of the billing item. Some billing items have physical properties such as the server itself. For items such as these, we provide location information.
 

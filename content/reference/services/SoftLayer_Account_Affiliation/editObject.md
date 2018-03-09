@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Affiliation"
 ---
-# SoftLayer_Account_Affiliation::editObject
+# [SoftLayer_Account_Affiliation](/reference/services/SoftLayer_Account_Affiliation)::editObject
+
+Update an account affiliation information.
+
+
 ## Overview 
 Edit an affiliation that is associated to an existing account. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location_Group_Pricing"
 ---
-# SoftLayer_Location_Group_Pricing::getLocations
+# [SoftLayer_Location_Group_Pricing](/reference/services/SoftLayer_Location_Group_Pricing)::getLocations
+
+Retrieve the locations that this pricing location group is applicable for. This limits the locations that the prices referenced by this pricing location group can be used with.
+
+
 ## Overview 
 Retrieve the locations that this pricing location group is applicable for. This limits the locations that the prices referenced by this pricing location group can be used with.
 

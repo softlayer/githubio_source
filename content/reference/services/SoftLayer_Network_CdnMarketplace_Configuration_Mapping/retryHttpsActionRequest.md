@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_CdnMarketplace_Configuration_Mapping"
 ---
-# SoftLayer_Network_CdnMarketplace_Configuration_Mapping::retryHttpsActionRequest
+# [SoftLayer_Network_CdnMarketplace_Configuration_Mapping](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Mapping)::retryHttpsActionRequest
+
+For specific mappings in HTTPS-related error states, this SOAP API will determine whether it needs to re-attempt an enable or disable HTTPS. 
+
+
 ## Overview 
 
 

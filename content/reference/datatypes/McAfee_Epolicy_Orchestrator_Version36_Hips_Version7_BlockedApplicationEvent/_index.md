@@ -39,19 +39,34 @@ The McAfee_Epolicy_Orchestrator_Version36_Hips_Version7_BlockedApplicationEvent 
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#applicationDescription" name=applicationDescription>applicationDescription</a></span>
+            <span class='views-field-title'>
+                <a href="#applicationDescription" name=applicationDescription>applicationDescription</a>
+            </span>
             <div class='views-field-body'>A brief description of the application that is blocked. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#incidentTime" name=incidentTime>incidentTime</a></span>
+            <span class='views-field-title'>
+                <a href="#incidentTime" name=incidentTime>incidentTime</a>
+            </span>
             <div class='views-field-body'>The time that an application is blocked. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#processName" name=processName>processName</a></span>
+            <span class='views-field-title'>
+                <a href="#processName" name=processName>processName</a>
+            </span>
             <div class='views-field-body'>The name of a process that is blocked. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

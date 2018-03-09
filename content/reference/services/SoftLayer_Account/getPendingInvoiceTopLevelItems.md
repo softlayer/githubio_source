@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getPendingInvoiceTopLevelItems
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPendingInvoiceTopLevelItems
+
+Retrieve a list of top-level invoice items that are on an account's currently pending invoice.
+
+
 ## Overview 
 Retrieve a list of top-level invoice items that are on an account's currently pending invoice.
 

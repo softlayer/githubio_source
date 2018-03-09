@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Network_Component"
 ---
-# SoftLayer_Virtual_Guest_Network_Component::getPrimarySubnet
+# [SoftLayer_Virtual_Guest_Network_Component](/reference/services/SoftLayer_Virtual_Guest_Network_Component)::getPrimarySubnet
+
+Retrieve a network component's subnet for its primary IP address
+
+
 ## Overview 
 Retrieve a network component's subnet for its primary IP address
 

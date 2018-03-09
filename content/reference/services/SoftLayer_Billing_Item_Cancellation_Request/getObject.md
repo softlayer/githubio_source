@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item_Cancellation_Request"
 ---
-# SoftLayer_Billing_Item_Cancellation_Request::getObject
+# [SoftLayer_Billing_Item_Cancellation_Request](/reference/services/SoftLayer_Billing_Item_Cancellation_Request)::getObject
+
+Retrieve a SoftLayer_Billing_Item_Cancellation_Request record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Billing_Item_Cancellation_Request object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Billing_Item_Cancellation_Request service. You can only retrieve cancellation request records that are assigned to your SoftLayer account. 
 

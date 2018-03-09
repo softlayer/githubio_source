@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_LoadBalancer"
 ---
-# SoftLayer_Scale_LoadBalancer::getAllocationPercent
+# [SoftLayer_Scale_LoadBalancer](/reference/services/SoftLayer_Scale_LoadBalancer)::getAllocationPercent
+
+Retrieve the percentage of connections allocated to this virtual server.
+
+
 ## Overview 
 Retrieve the percentage of connections allocated to this virtual server.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_MobileDevice"
 ---
-# SoftLayer_User_Customer_MobileDevice::editObject
+# [SoftLayer_User_Customer_MobileDevice](/reference/services/SoftLayer_User_Customer_MobileDevice)::editObject
+
+Edit the object by passing in a modified instance of the object.
+
+
 ## Overview 
 Edit the object by passing in a modified instance of the object 
 

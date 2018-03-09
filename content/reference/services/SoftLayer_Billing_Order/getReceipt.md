@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order"
 ---
-# SoftLayer_Billing_Order::getReceipt
+# [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getReceipt
+
+Generate and return an order receipt.
+
+
 ## Overview 
 Generate a [[SoftLayer_Container_Product_Order_Receipt]] object with all the order information. 
 

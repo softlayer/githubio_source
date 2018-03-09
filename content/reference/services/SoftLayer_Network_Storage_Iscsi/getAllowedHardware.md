@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getAllowedHardware
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getAllowedHardware
+
+Retrieve the SoftLayer_Hardware objects which are allowed access to this storage volume.
+
+
 ## Overview 
 Retrieve the SoftLayer_Hardware objects which are allowed access to this storage volume.
 

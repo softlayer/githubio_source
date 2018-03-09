@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Phone"
 ---
-# SoftLayer_User_Customer_External_Binding_Phone::getNote
+# [SoftLayer_User_Customer_External_Binding_Phone](/reference/services/SoftLayer_User_Customer_External_Binding_Phone)::getNote
+
+Retrieve an optional note for identifying the external binding.
+
+
 ## Overview 
 Retrieve an optional note for identifying the external binding.
 

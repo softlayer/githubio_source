@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Info"
 ---
-# SoftLayer_Billing_Info::getObject
+# [SoftLayer_Billing_Info](/reference/services/SoftLayer_Billing_Info)::getObject
+
+Retrieve a SoftLayer_Billing_Info record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Billing_Info object whose data corresponds to the account to which your portal user is tied. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Upgrade_Request"
 ---
-# SoftLayer_Product_Upgrade_Request::getOrder
+# [SoftLayer_Product_Upgrade_Request](/reference/services/SoftLayer_Product_Upgrade_Request)::getOrder
+
+Retrieve an order record associated to the upgrade request
+
+
 ## Overview 
 Retrieve an order record associated to the upgrade request
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LBaaS_LoadBalancer"
 ---
-# SoftLayer_Network_LBaaS_LoadBalancer::getLoadBalancerStatistics
+# [SoftLayer_Network_LBaaS_LoadBalancer](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer)::getLoadBalancerStatistics
+
+Return load balancers statistics
+
+
 ## Overview 
 Return load balancers statistics such as total number of current sessions and total number of accumulated connections. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getSoftwareGuardExtensionEnabled
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getSoftwareGuardExtensionEnabled
+
+Retrieve determine if hardware object has Software Guard Extension (SGX) enabled.
+
+
 ## Overview 
 Retrieve determine if hardware object has Software Guard Extension (SGX) enabled.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Address"
 ---
-# SoftLayer_Account_Address::getAllDataCenters
+# [SoftLayer_Account_Address](/reference/services/SoftLayer_Account_Address)::getAllDataCenters
+
+Retrieve a list of SoftLayer datacenter addresses.
+
+
 ## Overview 
 Retrieve a list of SoftLayer datacenter addresses.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_Registration"
 ---
-# SoftLayer_Network_Subnet_Registration::getDetailReferences
+# [SoftLayer_Network_Subnet_Registration](/reference/services/SoftLayer_Network_Subnet_Registration)::getDetailReferences
+
+Retrieve the cross-reference records that tie the [[SoftLayer_Account_Regional_Registry_Detail]] objects to the registration object.
+
+
 ## Overview 
 Retrieve the cross-reference records that tie the [[SoftLayer_Account_Regional_Registry_Detail]] objects to the registration object.
 

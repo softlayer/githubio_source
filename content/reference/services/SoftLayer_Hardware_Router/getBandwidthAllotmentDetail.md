@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getBandwidthAllotmentDetail
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getBandwidthAllotmentDetail
+
+Retrieve a hardware's allotted detail record. Allotment details link bandwidth allocation with allotments.
+
+
 ## Overview 
 Retrieve a hardware's allotted detail record. Allotment details link bandwidth allocation with allotments.
 

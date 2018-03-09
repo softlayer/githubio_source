@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getMetricTrackingObject
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getMetricTrackingObject
+
+Retrieve a network storage volume's metric tracking object. This object records all periodic polled data available to this volume.
+
+
 ## Overview 
 Retrieve a network storage volume's metric tracking object. This object records all periodic polled data available to this volume.
 

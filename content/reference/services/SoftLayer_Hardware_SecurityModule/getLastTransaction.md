@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getLastTransaction
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getLastTransaction
+
+Retrieve information regarding the last transaction a server performed.
+
+
 ## Overview 
 Retrieve information regarding the last transaction a server performed.
 

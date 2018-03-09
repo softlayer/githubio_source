@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Group_Iscsi"
 ---
-# SoftLayer_Network_Storage_Group_Iscsi::getObject
+# [SoftLayer_Network_Storage_Group_Iscsi](/reference/services/SoftLayer_Network_Storage_Group_Iscsi)::getObject
+
+Retrieve a SoftLayer_Network_Storage_Group_Iscsi record.
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getTopLevelItemCategoryCode
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getTopLevelItemCategoryCode
+
+Retrieve the top level category code for this service offering.
+
+
 ## Overview 
 Retrieve the top level category code for this service offering.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location"
 ---
-# SoftLayer_Location::getViewableDatacenters
+# [SoftLayer_Location](/reference/services/SoftLayer_Location)::getViewableDatacenters
+
+Retrieve all datacenter locations
+
+
 ## Overview 
 Retrieve all datacenter locations. SoftLayer's datacenters exist in various cities and each contain one or more server rooms which house network and server infrastructure. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getVirtualGuestsWithMcafee
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualGuestsWithMcafee
+
+Retrieve all virtual guests associated with an account that have McAfee Secure software components.
+
+
 ## Overview 
 Retrieve all virtual guests associated with an account that have McAfee Secure software components.
 

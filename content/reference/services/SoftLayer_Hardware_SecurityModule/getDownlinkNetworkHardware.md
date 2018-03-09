@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getDownlinkNetworkHardware
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getDownlinkNetworkHardware
+
+Retrieve all hardware that has uplink network connections to a piece of hardware.
+
+
 ## Overview 
 Retrieve all hardware that has uplink network connections to a piece of hardware.
 

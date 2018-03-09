@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Shipment_Tracking_Data"
 ---
-# SoftLayer_Account_Shipment_Tracking_Data::getCreateUser
+# [SoftLayer_Account_Shipment_Tracking_Data](/reference/services/SoftLayer_Account_Shipment_Tracking_Data)::getCreateUser
+
+Retrieve the customer user who created the tracking datum.
+
+
 ## Overview 
 Retrieve the customer user who created the tracking datum.
 

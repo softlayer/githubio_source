@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getLegacyBandwidthAllotments
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getLegacyBandwidthAllotments
+
+Retrieve the legacy bandwidth allotments for an account.
+
+
 ## Overview 
 Retrieve the legacy bandwidth allotments for an account.
 

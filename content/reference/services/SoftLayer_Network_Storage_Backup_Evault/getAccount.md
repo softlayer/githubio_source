@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getAccount
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getAccount
+
+Retrieve the account that a Storage services belongs to.
+
+
 ## Overview 
 Retrieve the account that a Storage services belongs to.
 

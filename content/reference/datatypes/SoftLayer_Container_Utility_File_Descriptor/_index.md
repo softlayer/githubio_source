@@ -44,19 +44,34 @@ Used to describe a document in the file system on the file server
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#fileName" name=fileName>fileName</a></span>
+            <span class='views-field-title'>
+                <a href="#fileName" name=fileName>fileName</a>
+            </span>
             <div class='views-field-body'>The name of a file as it exists on the file server. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#friendlyName" name=friendlyName>friendlyName</a></span>
+            <span class='views-field-title'>
+                <a href="#friendlyName" name=friendlyName>friendlyName</a>
+            </span>
             <div class='views-field-body'>The friendly name of a file as it exists on the file server. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#modifyDate" name=modifyDate>modifyDate</a></span>
+            <span class='views-field-title'>
+                <a href="#modifyDate" name=modifyDate>modifyDate</a>
+            </span>
             <div class='views-field-body'>The date the file was last modified on the file server. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
             </div>
     </div>

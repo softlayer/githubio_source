@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getSamlAuthentication
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSamlAuthentication
+
+Retrieve the SAML configuration for this account.
+
+
 ## Overview 
 Retrieve the SAML configuration for this account.
 

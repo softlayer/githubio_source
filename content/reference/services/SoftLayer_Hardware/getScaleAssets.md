@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getScaleAssets
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getScaleAssets
+
+Retrieve collection of scale assets this hardware corresponds to.
+
+
 ## Overview 
 Retrieve collection of scale assets this hardware corresponds to.
 

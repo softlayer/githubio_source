@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getDatacentersWithSubnetAllocations
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getDatacentersWithSubnetAllocations
+
+Retrieve datacenters which contain subnets that the account has access to route.
+
+
 ## Overview 
 Retrieve datacenters which contain subnets that the account has access to route.
 

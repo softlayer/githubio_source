@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice"
 ---
-# SoftLayer_Billing_Invoice::getObject
+# [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getObject
+
+Retrieve a SoftLayer_Billing_Invoice record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Billing_Invoice object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Billing_Invoice service. You can only retrieve invoices that are assigned to your portal user's account. 
 

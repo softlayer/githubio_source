@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getHardware
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getHardware
+
+Retrieve when applicable, the hardware associated with a Storage service.
+
+
 ## Overview 
 Retrieve when applicable, the hardware associated with a Storage service.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getSubnets
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getSubnets
+
+Retrieve all of the subnets that exist as VLAN interfaces.
+
+
 ## Overview 
 Retrieve all of the subnets that exist as VLAN interfaces.
 

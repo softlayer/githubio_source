@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Shipment"
 ---
-# SoftLayer_Account_Shipment::getCreateEmployee
+# [SoftLayer_Account_Shipment](/reference/services/SoftLayer_Account_Shipment)::getCreateEmployee
+
+Retrieve the employee who created the shipment.
+
+
 ## Overview 
 Retrieve the employee who created the shipment.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
-# SoftLayer_Network_Bandwidth_Version1_Allotment::getMetricTrackingObject
+# [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getMetricTrackingObject
+
+Retrieve a virtual rack's metric tracking object. This object records all periodic polled data available to this rack.
+
+
 ## Overview 
 Retrieve a virtual rack's metric tracking object. This object records all periodic polled data available to this rack.
 

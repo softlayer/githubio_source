@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::removeScheduledAutoClose
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::removeScheduledAutoClose
+
+
+
+
 ## Overview 
 
 

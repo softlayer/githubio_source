@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getHourlyBillingFlag
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getHourlyBillingFlag
+
+Retrieve a server's hourly billing status.
+
+
 ## Overview 
 Retrieve a server's hourly billing status.
 

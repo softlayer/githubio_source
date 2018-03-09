@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Info"
 ---
-# SoftLayer_Billing_Info::getCurrency
+# [SoftLayer_Billing_Info](/reference/services/SoftLayer_Billing_Info)::getCurrency
+
+Retrieve currency to be used by this customer account.
+
+
 ## Overview 
 Retrieve currency to be used by this customer account.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Component_Partition_Template"
 ---
-# SoftLayer_Hardware_Component_Partition_Template::getExpireDate
+# [SoftLayer_Hardware_Component_Partition_Template](/reference/services/SoftLayer_Hardware_Component_Partition_Template)::getExpireDate
+
+
+
+
 ## Overview 
 
 

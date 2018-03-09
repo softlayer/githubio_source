@@ -10,7 +10,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getPortStatistics
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getPortStatistics
+
+Retrieve various network statistics for the specific port.
+
+
 ## Overview 
 
 **DEPRECATED - This operation will cease to function after April 4th, 2016 and will be removed from v3.2**

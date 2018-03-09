@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getVirtualGuests
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getVirtualGuests
+
+Retrieve the Virtual Servers using IP addresses on this subnet.
+
+
 ## Overview 
 Retrieve the Virtual Servers using IP addresses on this subnet.
 

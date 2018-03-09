@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getTotalPrimaryIpAddressCount
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getTotalPrimaryIpAddressCount
+
+Retrieve the number of primary IP addresses in a VLAN.
+
+
 ## Overview 
 Retrieve the number of primary IP addresses in a VLAN.
 

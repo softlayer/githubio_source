@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getSubnetRegistrationDetails
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSubnetRegistrationDetails
+
+
+
+
 ## Overview 
 
 

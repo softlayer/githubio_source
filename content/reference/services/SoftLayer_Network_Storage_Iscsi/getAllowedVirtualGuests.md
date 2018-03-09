@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getAllowedVirtualGuests
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getAllowedVirtualGuests
+
+Retrieve the SoftLayer_Virtual_Guest objects which are allowed access to this storage volume.
+
+
 ## Overview 
 Retrieve the SoftLayer_Virtual_Guest objects which are allowed access to this storage volume.
 

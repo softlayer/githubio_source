@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Hub_Cleversafe_Account"
 ---
-# SoftLayer_Network_Storage_Hub_Cleversafe_Account::credentialDelete
+# [SoftLayer_Network_Storage_Hub_Cleversafe_Account](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account)::credentialDelete
+
+
+
+
 ## Overview 
 Delete a credential 
 

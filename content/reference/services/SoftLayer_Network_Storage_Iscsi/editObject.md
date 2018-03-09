@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::editObject
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::editObject
+
+Edit the password and/or notes for the Storage service
+
+
 ## Overview 
 The password and/or notes may be modified for the Storage service except evault passwords and notes. 
 

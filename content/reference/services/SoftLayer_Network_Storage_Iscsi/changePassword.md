@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::changePassword
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::changePassword
+
+Change the password for a Storage/Virtual Server Storage account
+
+
 ## Overview 
 The method will change the password for the given Storage/Virtual Server Storage account. 
 

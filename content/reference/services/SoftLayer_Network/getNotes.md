@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network"
 ---
-# SoftLayer_Network::getNotes
+# [SoftLayer_Network](/reference/services/SoftLayer_Network)::getNotes
+
+Retrieve notes, or a description of the Network. This is entirely user defined.
+
+
 ## Overview 
 Retrieve notes, or a description of the Network. This is entirely user defined.
 

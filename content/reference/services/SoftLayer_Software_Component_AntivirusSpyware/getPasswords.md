@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_AntivirusSpyware"
 ---
-# SoftLayer_Software_Component_AntivirusSpyware::getPasswords
+# [SoftLayer_Software_Component_AntivirusSpyware](/reference/services/SoftLayer_Software_Component_AntivirusSpyware)::getPasswords
+
+Retrieve username/Password pairs used for access to this Software Installation.
+
+
 ## Overview 
 Retrieve username/Password pairs used for access to this Software Installation.
 

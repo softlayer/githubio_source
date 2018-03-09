@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component"
 ---
-# SoftLayer_Software_Component::getHardware
+# [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component)::getHardware
+
+Retrieve the hardware this Software Component is installed upon.
+
+
 ## Overview 
 Retrieve the hardware this Software Component is installed upon.
 

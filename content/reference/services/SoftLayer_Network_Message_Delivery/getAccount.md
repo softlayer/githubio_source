@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Message_Delivery"
 ---
-# SoftLayer_Network_Message_Delivery::getAccount
+# [SoftLayer_Network_Message_Delivery](/reference/services/SoftLayer_Network_Message_Delivery)::getAccount
+
+Retrieve the SoftLayer customer account that a network message delivery account belongs to.
+
+
 ## Overview 
 Retrieve the SoftLayer customer account that a network message delivery account belongs to.
 

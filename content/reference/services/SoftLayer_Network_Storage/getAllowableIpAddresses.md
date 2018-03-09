@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getAllowableIpAddresses
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getAllowableIpAddresses
+
+Return a list of SoftLayer_Network_Subnet_IpAddress that can be authorized to this volume. 
+
+
 ## Overview 
 This method retrieves a list of SoftLayer_Network_Subnet_IpAddress that can be authorized to this SoftLayer_Network_Storage. 
 

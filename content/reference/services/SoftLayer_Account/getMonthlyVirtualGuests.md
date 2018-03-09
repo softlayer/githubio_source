@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getMonthlyVirtualGuests
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getMonthlyVirtualGuests
+
+Retrieve an account's associated monthly virtual guest objects.
+
+
 ## Overview 
 Retrieve an account's associated monthly virtual guest objects.
 

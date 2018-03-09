@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Order"
 ---
-# SoftLayer_Product_Order::getVlans
+# [SoftLayer_Product_Order](/reference/services/SoftLayer_Product_Order)::getVlans
+
+Get the VLANs that are available during ordering
+
+
 ## Overview 
 Return collections of public and private VLANs that are available during ordering. If a location ID is provided, the resulting VLANs will be limited to that location. If the Virtual Server package id (46) is provided, the VLANs will be narrowed down to those locations that contain routers with the VIRTUAL_IMAGE_STORE data attribute. 
 

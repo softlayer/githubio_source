@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Item"
 ---
-# SoftLayer_Billing_Order_Item::getRedundantPowerSupplyCount
+# [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getRedundantPowerSupplyCount
+
+Retrieve a count of power supplies contained within this SoftLayer_Billing_Order
+
+
 ## Overview 
 Retrieve a count of power supplies contained within this SoftLayer_Billing_Order
 

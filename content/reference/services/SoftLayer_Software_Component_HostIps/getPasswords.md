@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_HostIps"
 ---
-# SoftLayer_Software_Component_HostIps::getPasswords
+# [SoftLayer_Software_Component_HostIps](/reference/services/SoftLayer_Software_Component_HostIps)::getPasswords
+
+Retrieve username/Password pairs used for access to this Software Installation.
+
+
 ## Overview 
 Retrieve username/Password pairs used for access to this Software Installation.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getOrderItem
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getOrderItem
+
+Retrieve a billing item's original order item. Simply a reference to the original order from which this billing item was created.
+
+
 ## Overview 
 Retrieve a billing item's original order item. Simply a reference to the original order from which this billing item was created.
 

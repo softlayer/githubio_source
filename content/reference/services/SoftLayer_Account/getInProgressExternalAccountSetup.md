@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getInProgressExternalAccountSetup
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getInProgressExternalAccountSetup
+
+Retrieve an in progress request to switch billing systems.
+
+
 ## Overview 
 Retrieve an in progress request to switch billing systems.
 

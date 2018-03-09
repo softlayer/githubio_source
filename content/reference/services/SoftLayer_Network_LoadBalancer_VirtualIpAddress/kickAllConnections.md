@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LoadBalancer_VirtualIpAddress"
 ---
-# SoftLayer_Network_LoadBalancer_VirtualIpAddress::kickAllConnections
+# [SoftLayer_Network_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress)::kickAllConnections
+
+Kick all active connections off a Virtual IP Address.
+
+
 ## Overview 
 Quickly remove all active external connections to a Virtual IP Address. 
 

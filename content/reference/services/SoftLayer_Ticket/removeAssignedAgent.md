@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::removeAssignedAgent
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::removeAssignedAgent
+
+Remove an assigned agent from a ticket.
+
+
 ## Overview 
 
 

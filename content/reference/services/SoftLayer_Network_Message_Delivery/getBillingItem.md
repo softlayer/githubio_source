@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Message_Delivery"
 ---
-# SoftLayer_Network_Message_Delivery::getBillingItem
+# [SoftLayer_Network_Message_Delivery](/reference/services/SoftLayer_Network_Message_Delivery)::getBillingItem
+
+Retrieve the billing item for a network message delivery account.
+
+
 ## Overview 
 Retrieve the billing item for a network message delivery account.
 

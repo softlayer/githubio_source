@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_ApiAuthentication"
 ---
-# SoftLayer_User_Customer_ApiAuthentication::editObject
+# [SoftLayer_User_Customer_ApiAuthentication](/reference/services/SoftLayer_User_Customer_ApiAuthentication)::editObject
+
+
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_SecurityGroup"
 ---
-# SoftLayer_Network_SecurityGroup::getSupportedDataCenters
+# [SoftLayer_Network_SecurityGroup](/reference/services/SoftLayer_Network_SecurityGroup)::getSupportedDataCenters
+
+List the data centers that currently support the use of security groups. 
+
+
 ## Overview 
 List the data centers that currently support the use of security groups. 
 

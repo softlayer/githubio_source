@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi_OS_Type"
 ---
-# SoftLayer_Network_Storage_Iscsi_OS_Type::getAllObjects
+# [SoftLayer_Network_Storage_Iscsi_OS_Type](/reference/services/SoftLayer_Network_Storage_Iscsi_OS_Type)::getAllObjects
+
+Returns all iSCSI OS Types
+
+
 ## Overview 
 Use this method to retrieve all iSCSI OS Types. 
 

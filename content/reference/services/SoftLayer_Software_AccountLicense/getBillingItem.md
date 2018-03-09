@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_AccountLicense"
 ---
-# SoftLayer_Software_AccountLicense::getBillingItem
+# [SoftLayer_Software_AccountLicense](/reference/services/SoftLayer_Software_AccountLicense)::getBillingItem
+
+Retrieve the billing item for a software account license.
+
+
 ## Overview 
 Retrieve the billing item for a software account license.
 

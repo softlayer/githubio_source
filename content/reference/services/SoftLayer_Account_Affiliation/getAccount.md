@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Affiliation"
 ---
-# SoftLayer_Account_Affiliation::getAccount
+# [SoftLayer_Account_Affiliation](/reference/services/SoftLayer_Account_Affiliation)::getAccount
+
+Retrieve the account that an affiliation belongs to.
+
+
 ## Overview 
 Retrieve the account that an affiliation belongs to.
 

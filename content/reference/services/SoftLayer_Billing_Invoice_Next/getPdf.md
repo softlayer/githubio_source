@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice_Next"
 ---
-# SoftLayer_Billing_Invoice_Next::getPdf
+# [SoftLayer_Billing_Invoice_Next](/reference/services/SoftLayer_Billing_Invoice_Next)::getPdf
+
+Retrieve the next billing period's invoice as a PDF.
+
+
 ## Overview 
 Return an account's next invoice in PDF format.
 

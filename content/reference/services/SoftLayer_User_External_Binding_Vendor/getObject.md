@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_External_Binding_Vendor"
 ---
-# SoftLayer_User_External_Binding_Vendor::getObject
+# [SoftLayer_User_External_Binding_Vendor](/reference/services/SoftLayer_User_External_Binding_Vendor)::getObject
+
+Retrieve a SoftLayer_User_External_Binding_Vendor record.
+
+
 ## Overview 
 
 

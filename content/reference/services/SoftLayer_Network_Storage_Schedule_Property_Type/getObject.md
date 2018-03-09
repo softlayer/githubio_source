@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Schedule_Property_Type"
 ---
-# SoftLayer_Network_Storage_Schedule_Property_Type::getObject
+# [SoftLayer_Network_Storage_Schedule_Property_Type](/reference/services/SoftLayer_Network_Storage_Schedule_Property_Type)::getObject
+
+Retrieve a SoftLayer_Network_Storage_Schedule_Property_Type record.
+
+
 ## Overview 
 
 

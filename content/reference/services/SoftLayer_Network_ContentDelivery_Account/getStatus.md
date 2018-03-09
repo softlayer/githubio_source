@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::getStatus
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getStatus
+
+Retrieve a CDN account's status presented in a more detailed data type.
+
+
 ## Overview 
 Retrieve a CDN account's status presented in a more detailed data type.
 

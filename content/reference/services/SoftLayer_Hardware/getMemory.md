@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getMemory
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getMemory
+
+Retrieve information regarding a piece of hardware's memory.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's memory.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getEvaultMasterUsers
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getEvaultMasterUsers
+
+Retrieve an account's master EVault user. This is only used when an account has EVault service.
+
+
 ## Overview 
 Retrieve an account's master EVault user. This is only used when an account has EVault service.
 

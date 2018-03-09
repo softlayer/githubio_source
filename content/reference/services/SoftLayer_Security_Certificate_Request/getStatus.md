@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Certificate_Request"
 ---
-# SoftLayer_Security_Certificate_Request::getStatus
+# [SoftLayer_Security_Certificate_Request](/reference/services/SoftLayer_Security_Certificate_Request)::getStatus
+
+Retrieve the status of a SSL certificate request.
+
+
 ## Overview 
 Retrieve the status of a SSL certificate request.
 

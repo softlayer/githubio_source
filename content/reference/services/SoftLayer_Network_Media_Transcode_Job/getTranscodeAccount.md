@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Media_Transcode_Job"
 ---
-# SoftLayer_Network_Media_Transcode_Job::getTranscodeAccount
+# [SoftLayer_Network_Media_Transcode_Job](/reference/services/SoftLayer_Network_Media_Transcode_Job)::getTranscodeAccount
+
+Retrieve the transcode service account
+
+
 ## Overview 
 Retrieve the transcode service account
 

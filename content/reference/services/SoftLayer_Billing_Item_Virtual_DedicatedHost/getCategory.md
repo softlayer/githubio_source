@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item_Virtual_DedicatedHost"
 ---
-# SoftLayer_Billing_Item_Virtual_DedicatedHost::getCategory
+# [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getCategory
+
+Retrieve the item category to which the billing item's item belongs. 
+
+
 ## Overview 
 Retrieve the item category to which the billing item's item belongs. 
 

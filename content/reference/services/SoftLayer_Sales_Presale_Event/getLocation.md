@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Sales_Presale_Event"
 ---
-# SoftLayer_Sales_Presale_Event::getLocation
+# [SoftLayer_Sales_Presale_Event](/reference/services/SoftLayer_Sales_Presale_Event)::getLocation
+
+Retrieve the [[SoftLayer_Location]] associated with the presale event.
+
+
 ## Overview 
 Retrieve the [[SoftLayer_Location]] associated with the presale event.
 

@@ -39,14 +39,24 @@ classes:
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#status" name=status>status</a></span>
+            <span class='views-field-title'>
+                <a href="#status" name=status>status</a>
+            </span>
             <div class='views-field-body'>The current status of the verification. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status'>SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status'>SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#verificationDeadlineDate" name=verificationDeadlineDate>verificationDeadlineDate</a></span>
+            <span class='views-field-title'>
+                <a href="#verificationDeadlineDate" name=verificationDeadlineDate>verificationDeadlineDate</a>
+            </span>
             <div class='views-field-body'>The adate when the domain will be suspended. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
             </div>
     </div>

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Description"
 ---
-# SoftLayer_Software_Description::getProvisionTransactionGroup
+# [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description)::getProvisionTransactionGroup
+
+Retrieve this details the provisioning transaction group for this software. This is only valid for Operating System software.
+
+
 ## Overview 
 Retrieve this details the provisioning transaction group for this software. This is only valid for Operating System software.
 

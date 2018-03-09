@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::checkHostDiskAvailability
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::checkHostDiskAvailability
+
+
+
+
 ## Overview 
 Checks the associated host for available disk space to determine if guest migration is necessary. This method is only used with local disks. If this method returns false, calling attachDiskImage($imageId) will automatically migrate the destination guest to a new host before attaching the portable volume. 
 

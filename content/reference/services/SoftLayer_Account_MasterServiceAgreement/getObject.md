@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_MasterServiceAgreement"
 ---
-# SoftLayer_Account_MasterServiceAgreement::getObject
+# [SoftLayer_Account_MasterServiceAgreement](/reference/services/SoftLayer_Account_MasterServiceAgreement)::getObject
+
+Retrieve a SoftLayer_Account_MasterServiceAgreement record.
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Shipment_Item"
 ---
-# SoftLayer_Account_Shipment_Item::editObject
+# [SoftLayer_Account_Shipment_Item](/reference/services/SoftLayer_Account_Shipment_Item)::editObject
+
+Edit a shipment record.
+
+
 ## Overview 
 Edit the properties of a shipment record by passing in a modified instance of a SoftLayer_Account_Shipment_Item object. 
 

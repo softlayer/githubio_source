@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::removeExternalBinding
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::removeExternalBinding
+
+Remove an external binding from this user.
+
+
 ## Overview 
 
 

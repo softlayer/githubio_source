@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Network_Component"
 ---
-# SoftLayer_Virtual_Guest_Network_Component::disable
+# [SoftLayer_Virtual_Guest_Network_Component](/reference/services/SoftLayer_Virtual_Guest_Network_Component)::disable
+
+Disable a network component to restrict network traffic
+
+
 ## Overview 
 Completely restrict all incoming and outgoing bandwidth traffic to a network component 
 

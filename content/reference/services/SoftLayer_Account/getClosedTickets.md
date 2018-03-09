@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getClosedTickets
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getClosedTickets
+
+Retrieve all closed tickets associated with an account.
+
+
 ## Overview 
 Retrieve all closed tickets associated with an account.
 

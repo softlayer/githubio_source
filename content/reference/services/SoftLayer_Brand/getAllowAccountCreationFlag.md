@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand"
 ---
-# SoftLayer_Brand::getAllowAccountCreationFlag
+# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getAllowAccountCreationFlag
+
+Retrieve this flag indicates if creation of accounts is allowed.
+
+
 ## Overview 
 Retrieve this flag indicates if creation of accounts is allowed.
 

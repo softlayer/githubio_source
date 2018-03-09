@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Upgrade_Request"
 ---
-# SoftLayer_Product_Upgrade_Request::getInvoice
+# [SoftLayer_Product_Upgrade_Request](/reference/services/SoftLayer_Product_Upgrade_Request)::getInvoice
+
+Retrieve this is the invoice associated with the upgrade request. For hourly servers or services, an invoice will not be available.
+
+
 ## Overview 
 Retrieve this is the invoice associated with the upgrade request. For hourly servers or services, an invoice will not be available.
 

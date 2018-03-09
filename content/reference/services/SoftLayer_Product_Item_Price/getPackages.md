@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Price"
 ---
-# SoftLayer_Product_Item_Price::getPackages
+# [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getPackages
+
+Retrieve a price's packages under which this item is sold.
+
+
 ## Overview 
 Retrieve a price's packages under which this item is sold.
 

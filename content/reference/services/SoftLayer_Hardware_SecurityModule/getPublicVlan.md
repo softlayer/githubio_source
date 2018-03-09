@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getPublicVlan
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getPublicVlan
+
+Retrieve the frontend VLAN for the primary IP address of the server
+
+
 ## Overview 
 Retrieve the frontend VLAN for the primary IP address of the server 
 

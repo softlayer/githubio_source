@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Robot"
 ---
-# SoftLayer_Monitoring_Robot::getSoftwareComponent
+# [SoftLayer_Monitoring_Robot](/reference/services/SoftLayer_Monitoring_Robot)::getSoftwareComponent
+
+Retrieve the SoftLayer_Software_Component that corresponds to the robot installation on the server.
+
+
 ## Overview 
 Retrieve the SoftLayer_Software_Component that corresponds to the robot installation on the server.
 

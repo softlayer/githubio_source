@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package_Preset"
 ---
-# SoftLayer_Product_Package_Preset::getFixedConfigurationFlag
+# [SoftLayer_Product_Package_Preset](/reference/services/SoftLayer_Product_Package_Preset)::getFixedConfigurationFlag
+
+Retrieve a package preset with this flag set will not allow the price's defined in the preset configuration to be overriden during order placement.
+
+
 ## Overview 
 Retrieve a package preset with this flag set will not allow the price's defined in the preset configuration to be overriden during order placement.
 

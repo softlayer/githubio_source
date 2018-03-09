@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Sales_Presale_Event"
 ---
-# SoftLayer_Sales_Presale_Event::getOrders
+# [SoftLayer_Sales_Presale_Event](/reference/services/SoftLayer_Sales_Presale_Event)::getOrders
+
+Retrieve the orders ([[SoftLayer_Billing_Order]]) associated with this presale event that were created for the customer's account.
+
+
 ## Overview 
 Retrieve the orders ([[SoftLayer_Billing_Order]]) associated with this presale event that were created for the customer's account.
 

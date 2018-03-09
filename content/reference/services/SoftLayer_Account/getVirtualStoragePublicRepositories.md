@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getVirtualStoragePublicRepositories
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualStoragePublicRepositories
+
+Retrieve an account's associated virtual server public storage repositories.
+
+
 ## Overview 
 Retrieve an account's associated virtual server public storage repositories.
 

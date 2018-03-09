@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Host"
 ---
-# SoftLayer_Virtual_Host::getBilledPerGuestFlag
+# [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::getBilledPerGuestFlag
+
+Retrieve boolean flag indicating whether this virtualization platform gets billed per guest rather than at a fixed rate.
+
+
 ## Overview 
 Retrieve boolean flag indicating whether this virtualization platform gets billed per guest rather than at a fixed rate.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getLockboxCapacityGB
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getLockboxCapacityGB
+
+Retrieve the total capacity of Legacy lockbox Volumes on an account, in GB.
+
+
 ## Overview 
 Retrieve the total capacity of Legacy lockbox Volumes on an account, in GB.
 

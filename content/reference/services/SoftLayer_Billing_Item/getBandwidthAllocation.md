@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getBandwidthAllocation
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getBandwidthAllocation
+
+Retrieve the bandwidth allocation for a billing item.
+
+
 ## Overview 
 Retrieve the bandwidth allocation for a billing item.
 

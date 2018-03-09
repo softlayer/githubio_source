@@ -39,14 +39,24 @@ The SoftLayer_Container_Exception data type represents a SoftLayer_Exception.
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#exceptionClass" name=exceptionClass>exceptionClass</a></span>
+            <span class='views-field-title'>
+                <a href="#exceptionClass" name=exceptionClass>exceptionClass</a>
+            </span>
             <div class='views-field-body'>The SoftLayer_Exception class that the error is. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#exceptionMessage" name=exceptionMessage>exceptionMessage</a></span>
+            <span class='views-field-title'>
+                <a href="#exceptionMessage" name=exceptionMessage>exceptionMessage</a>
+            </span>
             <div class='views-field-body'>The exception message. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

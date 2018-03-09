@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getBackendNetworkComponents
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getBackendNetworkComponents
+
+Retrieve a piece of hardware's back-end or private network components.
+
+
 ## Overview 
 Retrieve a piece of hardware's back-end or private network components.
 

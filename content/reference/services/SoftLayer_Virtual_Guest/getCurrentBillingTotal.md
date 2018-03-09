@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getCurrentBillingTotal
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getCurrentBillingTotal
+
+Get the total billing price for this instance's hourly usage up to this point. This includes total includes all bandwidth charges.
+
+
 ## Overview 
 Get the total billing price in US Dollars ($) for this instance. This includes all bandwidth used up to this point for this instance. 
 

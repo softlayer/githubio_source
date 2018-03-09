@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::setAbuseEmails
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::setAbuseEmails
+
+Set this account's abuse emails.
+
+
 ## Overview 
 Set this account's abuse emails. Takes an array of email addresses as strings. 
 

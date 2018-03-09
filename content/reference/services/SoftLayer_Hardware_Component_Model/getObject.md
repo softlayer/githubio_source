@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Component_Model"
 ---
-# SoftLayer_Hardware_Component_Model::getObject
+# [SoftLayer_Hardware_Component_Model](/reference/services/SoftLayer_Hardware_Component_Model)::getObject
+
+Retrieve a SoftLayer_Hardware_Component_Model record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Hardware_Component_Model object. 
 

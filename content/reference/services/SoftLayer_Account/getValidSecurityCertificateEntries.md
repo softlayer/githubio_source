@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getValidSecurityCertificateEntries
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getValidSecurityCertificateEntries
+
+
+
+
 ## Overview 
 Retrieve a list of valid (non-expired) security certificates without the sensitive certificate information. This allows non-privileged users to view and select security certificates when configuring associated services. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component"
 ---
-# SoftLayer_Software_Component::getAverageInstallationDuration
+# [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component)::getAverageInstallationDuration
+
+Retrieve the average amount of time that a software component takes to install.
+
+
 ## Overview 
 Retrieve the average amount of time that a software component takes to install.
 

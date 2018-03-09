@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LoadBalancer_VirtualIpAddress"
 ---
-# SoftLayer_Network_LoadBalancer_VirtualIpAddress::getServices
+# [SoftLayer_Network_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress)::getServices
+
+Retrieve the services on this load balancer.
+
+
 ## Overview 
 Retrieve the services on this load balancer.
 

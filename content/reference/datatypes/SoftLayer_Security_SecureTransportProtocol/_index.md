@@ -44,14 +44,24 @@ Protocol intended for use in secure communications
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#keyName" name=keyName>keyName</a></span>
+            <span class='views-field-title'>
+                <a href="#keyName" name=keyName>keyName</a>
+            </span>
             <div class='views-field-body'>Unique identifier for the protocol </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#supportedSecureTransportCiphers" name=supportedSecureTransportCiphers>supportedSecureTransportCiphers</a></span>
+            <span class='views-field-title'>
+                <a href="#supportedSecureTransportCiphers" name=supportedSecureTransportCiphers>supportedSecureTransportCiphers</a>
+            </span>
             <div class='views-field-body'>List of the supported encryption ciphers </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Security_SecureTransportCipher'>SoftLayer_Security_SecureTransportCipher[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Security_SecureTransportCipher'>SoftLayer_Security_SecureTransportCipher[] </a></p>
+            </div>
         </div>
             </div>
     </div>

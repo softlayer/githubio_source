@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::getAddressTranslations
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getAddressTranslations
+
+Retrieve a network tunnel's address translations.
+
+
 ## Overview 
 Retrieve a network tunnel's address translations.
 

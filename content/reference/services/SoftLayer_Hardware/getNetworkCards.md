@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getNetworkCards
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getNetworkCards
+
+Retrieve information regarding a piece of hardware's network cards.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's network cards.
 

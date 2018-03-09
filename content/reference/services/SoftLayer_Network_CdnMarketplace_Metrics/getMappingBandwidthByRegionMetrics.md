@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_CdnMarketplace_Metrics"
 ---
-# SoftLayer_Network_CdnMarketplace_Metrics::getMappingBandwidthByRegionMetrics
+# [SoftLayer_Network_CdnMarketplace_Metrics](/reference/services/SoftLayer_Network_CdnMarketplace_Metrics)::getMappingBandwidthByRegionMetrics
+
+Get the total number of predetermined statistics for direct display (no graph) for a customer's account over a given period of time 
+
+
 ## Overview 
 
 

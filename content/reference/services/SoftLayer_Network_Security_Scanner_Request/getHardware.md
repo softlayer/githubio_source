@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Security_Scanner_Request"
 ---
-# SoftLayer_Network_Security_Scanner_Request::getHardware
+# [SoftLayer_Network_Security_Scanner_Request](/reference/services/SoftLayer_Network_Security_Scanner_Request)::getHardware
+
+Retrieve the hardware a security scan is run against.
+
+
 ## Overview 
 Retrieve the hardware a security scan is run against.
 

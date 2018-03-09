@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_User_Subscriber_Billing"
 ---
-# SoftLayer_Notification_User_Subscriber_Billing::getResourceRecord
+# [SoftLayer_Notification_User_Subscriber_Billing](/reference/services/SoftLayer_Notification_User_Subscriber_Billing)::getResourceRecord
+
+Retrieve the subscriber id to resource id mapping.
+
+
 ## Overview 
 Retrieve the subscriber id to resource id mapping.
 

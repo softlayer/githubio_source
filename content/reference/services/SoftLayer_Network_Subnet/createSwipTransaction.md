@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::createSwipTransaction
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::createSwipTransaction
+
+create a SWIP transaction for a subnet
+
+
 ## Overview 
 This function is used to create a new SoftLayer SWIP transaction to register your RWHOIS data with ARIN. SWIP transactions can only be initiated on subnets that contain more than 8 IP addresses. 
 

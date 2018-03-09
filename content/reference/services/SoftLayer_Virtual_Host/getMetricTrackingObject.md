@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Host"
 ---
-# SoftLayer_Virtual_Host::getMetricTrackingObject
+# [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::getMetricTrackingObject
+
+Retrieve the metric tracking object for this virtual host.
+
+
 ## Overview 
 Retrieve the metric tracking object for this virtual host.
 

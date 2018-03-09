@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Firewall_Template"
 ---
-# SoftLayer_Network_Firewall_Template::getObject
+# [SoftLayer_Network_Firewall_Template](/reference/services/SoftLayer_Network_Firewall_Template)::getObject
+
+Retrieve a SoftLayer_Network_Firewall_Template record.
+
+
 ## Overview 
 getObject returns a SoftLayer_Network_Firewall_Template object. You can retrieve all available firewall templates. getAllObjects returns an array of all available SoftLayer_Network_Firewall_Template objects. You can use these templates to generate a [[SoftLayer Network Firewall Update Request]]. 
 

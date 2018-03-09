@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getSwipTransaction
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getSwipTransaction
+
+Retrieve all the swip transactions associated with a subnet.
+
+
 ## Overview 
 Retrieve all the swip transactions associated with a subnet.
 

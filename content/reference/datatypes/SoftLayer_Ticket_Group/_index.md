@@ -24,10 +24,10 @@ SoftLayer tickets have the ability to be assigned to one of SoftLayer's internal
 
 ### seeAlso
 
-* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+* [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket )
 
 
-* [SoftLayer_Ticket_Subject](/reference/datatypes/SoftLayer_Ticket_Subject )
+* [SoftLayer_Ticket_Subject](/reference/services/SoftLayer_Ticket_Subject )
 
 
 
@@ -47,29 +47,49 @@ SoftLayer tickets have the ability to be assigned to one of SoftLayer's internal
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>A ticket group's internal identifier. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>A ticket group's name. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#ticketGroupCategoryId" name=ticketGroupCategoryId>ticketGroupCategoryId</a></span>
+            <span class='views-field-title'>
+                <a href="#ticketGroupCategoryId" name=ticketGroupCategoryId>ticketGroupCategoryId</a>
+            </span>
             <div class='views-field-body'>The internal identifier for the category that a ticket group belongs to.. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#category" name=category>category</a></span>
+            <span class='views-field-title'>
+                <a href="#category" name=category>category</a>
+            </span>
             <div class='views-field-body'>The category that a ticket group belongs to. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Ticket_Group_Category'>SoftLayer_Ticket_Group_Category </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Ticket_Group_Category'>SoftLayer_Ticket_Group_Category </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

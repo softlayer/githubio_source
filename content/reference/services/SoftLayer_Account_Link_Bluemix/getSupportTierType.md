@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Link_Bluemix"
 ---
-# SoftLayer_Account_Link_Bluemix::getSupportTierType
+# [SoftLayer_Account_Link_Bluemix](/reference/services/SoftLayer_Account_Link_Bluemix)::getSupportTierType
+
+
+
+
 ## Overview 
 
 

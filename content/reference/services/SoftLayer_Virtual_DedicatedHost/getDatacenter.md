@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_DedicatedHost"
 ---
-# SoftLayer_Virtual_DedicatedHost::getDatacenter
+# [SoftLayer_Virtual_DedicatedHost](/reference/services/SoftLayer_Virtual_DedicatedHost)::getDatacenter
+
+Retrieve the datacenter that the dedicated host resides in.
+
+
 ## Overview 
 Retrieve the datacenter that the dedicated host resides in.
 

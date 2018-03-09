@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package_Preset"
 ---
-# SoftLayer_Product_Package_Preset::getTotalMinimumRecurringFee
+# [SoftLayer_Product_Package_Preset](/reference/services/SoftLayer_Product_Package_Preset)::getTotalMinimumRecurringFee
+
+Retrieve the starting monthly price for this configuration. Additional options not defined in the preset may increase the cost.
+
+
 ## Overview 
 Retrieve the starting monthly price for this configuration. Additional options not defined in the preset may increase the cost.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getDownstreamNetworkHardware
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getDownstreamNetworkHardware
+
+Retrieve all network hardware downstream from the selected piece of hardware.
+
+
 ## Overview 
 Retrieve all network hardware downstream from the selected piece of hardware.
 

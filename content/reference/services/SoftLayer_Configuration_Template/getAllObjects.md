@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Configuration_Template"
 ---
-# SoftLayer_Configuration_Template::getAllObjects
+# [SoftLayer_Configuration_Template](/reference/services/SoftLayer_Configuration_Template)::getAllObjects
+
+Retrieves all available configuration templates.
+
+
 ## Overview 
 Retrieves all available configuration templates 
 

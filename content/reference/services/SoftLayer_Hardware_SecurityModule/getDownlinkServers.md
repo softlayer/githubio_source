@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getDownlinkServers
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getDownlinkServers
+
+Retrieve information regarding all servers attached to a piece of network hardware.
+
+
 ## Overview 
 Retrieve information regarding all servers attached to a piece of network hardware.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getPartnerships
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getPartnerships
+
+Retrieve the volumes or snapshots partnered with a network storage volume.
+
+
 ## Overview 
 Retrieve the volumes or snapshots partnered with a network storage volume.
 

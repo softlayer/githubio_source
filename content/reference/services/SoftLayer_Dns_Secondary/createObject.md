@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Secondary"
 ---
-# SoftLayer_Dns_Secondary::createObject
+# [SoftLayer_Dns_Secondary](/reference/services/SoftLayer_Dns_Secondary)::createObject
+
+Create a secondary DNS record.
+
+
 ## Overview 
 Create a secondary DNS record. The ''zoneName'', ''masterIpAddress'', and ''transferFrequency'' properties in the templateObject parameter are required parameters to create a secondary DNS record. 
 

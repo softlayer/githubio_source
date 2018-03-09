@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Layout_Profile_Preference"
 ---
-# SoftLayer_Layout_Profile_Preference::getLayoutItem
+# [SoftLayer_Layout_Profile_Preference](/reference/services/SoftLayer_Layout_Profile_Preference)::getLayoutItem
+
+
+
+
 ## Overview 
 
 

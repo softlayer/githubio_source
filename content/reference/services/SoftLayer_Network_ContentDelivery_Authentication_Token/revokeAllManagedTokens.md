@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Authentication_Token"
 ---
-# SoftLayer_Network_ContentDelivery_Authentication_Token::revokeAllManagedTokens
+# [SoftLayer_Network_ContentDelivery_Authentication_Token](/reference/services/SoftLayer_Network_ContentDelivery_Authentication_Token)::revokeAllManagedTokens
+
+(DEPRECATED) Revokes all managed tokens belong to a CDN account.
+
+
 ## Overview 
 This method is deprecated! 
 

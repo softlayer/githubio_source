@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::downloadFile
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::downloadFile
+
+Download a file from a Storage account.
+
+
 ## Overview 
 {{CloudLayerOnlyMethod}} Download a file from a Storage account. This method returns a file's details including the file's raw content. 
 

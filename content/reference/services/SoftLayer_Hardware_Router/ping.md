@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::ping
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::ping
+
+Issues ping command.
+
+
 ## Overview 
 Issues a ping command to the server and returns the ping response. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getAvailableMonitoring
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getAvailableMonitoring
+
+Retrieve an object that stores the maximum level for the monitoring query types and response types.
+
+
 ## Overview 
 Retrieve an object that stores the maximum level for the monitoring query types and response types.
 

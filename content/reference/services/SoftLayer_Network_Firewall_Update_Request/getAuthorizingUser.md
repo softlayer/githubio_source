@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Firewall_Update_Request"
 ---
-# SoftLayer_Network_Firewall_Update_Request::getAuthorizingUser
+# [SoftLayer_Network_Firewall_Update_Request](/reference/services/SoftLayer_Network_Firewall_Update_Request)::getAuthorizingUser
+
+Retrieve the user that authorized this firewall update request.
+
+
 ## Overview 
 Retrieve the user that authorized this firewall update request.
 

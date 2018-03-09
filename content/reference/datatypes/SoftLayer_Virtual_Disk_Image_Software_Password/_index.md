@@ -44,24 +44,39 @@ This SoftLayer_Virtual_Disk_Image_Software_Password data type contains a passwor
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#password" name=password>password</a></span>
+            <span class='views-field-title'>
+                <a href="#password" name=password>password</a>
+            </span>
             <div class='views-field-body'>A virtual disk images' password. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#username" name=username>username</a></span>
+            <span class='views-field-title'>
+                <a href="#username" name=username>username</a>
+            </span>
             <div class='views-field-body'>A virtual disk images' username. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#software" name=software>software</a></span>
+            <span class='views-field-title'>
+                <a href="#software" name=software>software</a>
+            </span>
             <div class='views-field-body'>The instance that this username/password pair is valid for. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Software'>SoftLayer_Virtual_Disk_Image_Software </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Software'>SoftLayer_Virtual_Disk_Image_Software </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

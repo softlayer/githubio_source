@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::getAllAvailableServiceSubnets
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getAllAvailableServiceSubnets
+
+Retrieve subnets that provide access to SoftLayer services such as the management portal and the SoftLayer API.
+
+
 ## Overview 
 Retrieve subnets that provide access to SoftLayer services such as the management portal and the SoftLayer API.
 

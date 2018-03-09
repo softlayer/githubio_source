@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getCreationScheduleId
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getCreationScheduleId
+
+Retrieve the schedule id which was executed to create a snapshot.
+
+
 ## Overview 
 Retrieve the schedule id which was executed to create a snapshot.
 

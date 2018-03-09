@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Auxiliary_Press_Release"
 ---
-# SoftLayer_Auxiliary_Press_Release::getAllObjects
+# [SoftLayer_Auxiliary_Press_Release](/reference/services/SoftLayer_Auxiliary_Press_Release)::getAllObjects
+
+Retrieve all press releases.
+
+
 ## Overview 
 Retrieve an array of SoftLayer_Auxiliary_Press_Release data types, which contain all press releases. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getStorageType
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getStorageType
+
+Retrieve a description of the Storage object.
+
+
 ## Overview 
 Retrieve a description of the Storage object.
 

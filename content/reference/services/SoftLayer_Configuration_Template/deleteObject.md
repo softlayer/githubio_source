@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Configuration_Template"
 ---
-# SoftLayer_Configuration_Template::deleteObject
+# [SoftLayer_Configuration_Template](/reference/services/SoftLayer_Configuration_Template)::deleteObject
+
+Deletes a customer configuration template.
+
+
 ## Overview 
 Deletes a customer configuration template. 
 

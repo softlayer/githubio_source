@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getSnapshotCapacityGb
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getSnapshotCapacityGb
+
+Retrieve a volume's configured snapshot space size.
+
+
 ## Overview 
 Retrieve a volume's configured snapshot space size.
 

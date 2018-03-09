@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getOsType
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getOsType
+
+Retrieve a volume's configured SoftLayer_Network_Storage_Iscsi_OS_Type.
+
+
 ## Overview 
 Retrieve a volume's configured SoftLayer_Network_Storage_Iscsi_OS_Type.
 

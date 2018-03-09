@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order"
 ---
-# SoftLayer_Billing_Order::getOrderTotalRecurringAmount
+# [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getOrderTotalRecurringAmount
+
+Retrieve an order's total recurring amount. This amount represents the fees that will be charged on a recurring (usually monthly) basis.
+
+
 ## Overview 
 Retrieve an order's total recurring amount. This amount represents the fees that will be charged on a recurring (usually monthly) basis.
 

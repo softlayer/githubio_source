@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Auxiliary_Press_Release"
 ---
-# SoftLayer_Auxiliary_Press_Release::getContacts
+# [SoftLayer_Auxiliary_Press_Release](/reference/services/SoftLayer_Auxiliary_Press_Release)::getContacts
+
+
+
+
 ## Overview 
 
 

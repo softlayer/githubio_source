@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getFirstAttachedResource
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getFirstAttachedResource
+
+Retrieve the first physical or virtual server attached to a ticket.
+
+
 ## Overview 
 Retrieve the first physical or virtual server attached to a ticket.
 

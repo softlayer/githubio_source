@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Component_Model"
 ---
-# SoftLayer_Hardware_Component_Model::getHardwareComponents
+# [SoftLayer_Hardware_Component_Model](/reference/services/SoftLayer_Hardware_Component_Model)::getHardwareComponents
+
+Retrieve a hardware component model's physical components in inventory.
+
+
 ## Overview 
 Retrieve a hardware component model's physical components in inventory.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_Notification_Virtual_Guest"
 ---
-# SoftLayer_User_Customer_Notification_Virtual_Guest::createObject
+# [SoftLayer_User_Customer_Notification_Virtual_Guest](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest)::createObject
+
+Create a user virtual guest notification entry
+
+
 ## Overview 
 Passing in an unsaved instance of a SoftLayer_Customer_Notification_Virtual_Guest object into this function will create the object and return the results to the user. 
 

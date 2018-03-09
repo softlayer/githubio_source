@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Firewall_Template"
 ---
-# SoftLayer_Network_Firewall_Template::getRules
+# [SoftLayer_Network_Firewall_Template](/reference/services/SoftLayer_Network_Firewall_Template)::getRules
+
+Retrieve the rule set that belongs to this firewall rules template.
+
+
 ## Overview 
 Retrieve the rule set that belongs to this firewall rules template.
 

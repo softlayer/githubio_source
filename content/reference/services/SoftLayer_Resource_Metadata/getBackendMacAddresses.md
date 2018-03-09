@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Resource_Metadata"
 ---
-# SoftLayer_Resource_Metadata::getBackendMacAddresses
+# [SoftLayer_Resource_Metadata](/reference/services/SoftLayer_Resource_Metadata)::getBackendMacAddresses
+
+A list of backend MAC addresses
+
+
 ## Overview 
 The getBackendMacAddresses method retrieves a list of backend MAC addresses for the resource
 

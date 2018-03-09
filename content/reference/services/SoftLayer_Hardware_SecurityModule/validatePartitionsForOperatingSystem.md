@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::validatePartitionsForOperatingSystem
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::validatePartitionsForOperatingSystem
+
+Validates a collection of partitions for an operating system
+
+
 ## Overview 
 Validates a collection of partitions for an operating system
 

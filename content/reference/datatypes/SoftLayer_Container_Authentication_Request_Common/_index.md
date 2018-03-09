@@ -39,14 +39,24 @@ The SoftLayer_Container_Authentication_Request_Common data type contains common 
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#securityQuestionAnswer" name=securityQuestionAnswer>securityQuestionAnswer</a></span>
+            <span class='views-field-title'>
+                <a href="#securityQuestionAnswer" name=securityQuestionAnswer>securityQuestionAnswer</a>
+            </span>
             <div class='views-field-body'>The answer to your security question. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#securityQuestionId" name=securityQuestionId>securityQuestionId</a></span>
+            <span class='views-field-title'>
+                <a href="#securityQuestionId" name=securityQuestionId>securityQuestionId</a>
+            </span>
             <div class='views-field-body'>A security question you wish to answer when authenticating to the SoftLayer customer portal. This parameter isn't required if no security questions are set on your portal account or if your account is configured to not require answering a security account upon login. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
     </div>

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::getGraphData
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::getGraphData
+
+This method returns the metric data for each of the configuration values provided during the given time range.
+
+
 ## Overview 
 This method returns the metric data for each of the configuration values provided during the given time range. 
 

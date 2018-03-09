@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Utility_Network"
 ---
-# SoftLayer_Utility_Network::nsLookup
+# [SoftLayer_Utility_Network](/reference/services/SoftLayer_Utility_Network)::nsLookup
+
+Perform a nameserver lookup on given address.
+
+
 ## Overview 
 A method used to return the nameserver information for a given address
 

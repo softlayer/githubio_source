@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getDatacenter
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getDatacenter
+
+Retrieve information regarding the datacenter in which a piece of hardware resides.
+
+
 ## Overview 
 Retrieve information regarding the datacenter in which a piece of hardware resides.
 

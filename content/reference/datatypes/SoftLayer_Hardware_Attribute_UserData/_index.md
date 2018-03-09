@@ -42,11 +42,16 @@ classes:
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#hardwareAttributeType" name=hardwareAttributeType>hardwareAttributeType</a></span>
+            <span class='views-field-title'>
+                <a href="#hardwareAttributeType" name=hardwareAttributeType>hardwareAttributeType</a>
+            </span>
             <div class='views-field-body'>The type of hardware attribute that this represents. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Attribute_Type'>SoftLayer_Hardware_Attribute_Type </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Hardware_Attribute_Type'>SoftLayer_Hardware_Attribute_Type </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

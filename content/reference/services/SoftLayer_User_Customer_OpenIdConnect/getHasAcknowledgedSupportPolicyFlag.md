@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getHasAcknowledgedSupportPolicyFlag
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getHasAcknowledgedSupportPolicyFlag
+
+Retrieve whether or not a user has acknowledged the support policy.
+
+
 ## Overview 
 Retrieve whether or not a user has acknowledged the support policy.
 

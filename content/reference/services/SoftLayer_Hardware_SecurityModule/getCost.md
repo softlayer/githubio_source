@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getCost
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getCost
+
+Retrieve the total cost of a server, measured in US Dollars ($USD).
+
+
 ## Overview 
 Retrieve the total cost of a server, measured in US Dollars ($USD).
 

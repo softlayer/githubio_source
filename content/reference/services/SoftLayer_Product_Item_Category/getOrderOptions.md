@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Category"
 ---
-# SoftLayer_Product_Item_Category::getOrderOptions
+# [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category)::getOrderOptions
+
+Retrieve any unique options associated with an item category.
+
+
 ## Overview 
 Retrieve any unique options associated with an item category.
 

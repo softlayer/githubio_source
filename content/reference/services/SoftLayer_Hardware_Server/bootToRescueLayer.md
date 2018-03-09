@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::bootToRescueLayer
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::bootToRescueLayer
+
+Initiates the Rescue Kernel to bring a server online to troubleshoot system problems.
+
+
 ## Overview 
 The Rescue Kernel is designed to provide you with the ability to bring a server online in order to troubleshoot system problems that would normally only be resolved by an OS Reload. The correct Rescue Kernel will be selected based upon the currently installed operating system. When the rescue kernel process is initiated, the server will shutdown and reboot on to the public network with the same IP's assigned to the server to allow for remote connections. It will bring your server offline for approximately 10 minutes while the rescue is in progress. The root/administrator password will be the same as what is listed in the portal for the server. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getMediaDataTransferRequests
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getMediaDataTransferRequests
+
+Retrieve an account's media transfer service requests.
+
+
 ## Overview 
 Retrieve an account's media transfer service requests.
 

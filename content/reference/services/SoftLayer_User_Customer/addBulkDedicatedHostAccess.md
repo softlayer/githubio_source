@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::addBulkDedicatedHostAccess
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::addBulkDedicatedHostAccess
+
+Grant access to the user for one or more dedicated hosts devices.
+
+
 ## Overview 
 Grants the user access to one or more dedicated host devices.  The user will only be allowed to see and access devices in both the portal and the API to which they have been granted access.  If the user's account has devices to which the user has not been granted access, then "not found" exceptions are thrown if the user attempts to access any of these devices. 
 

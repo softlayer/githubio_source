@@ -44,34 +44,64 @@ SoftLayer_Container_Bandwidth_Projection models projected bandwidth use over a t
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#allowedUsage" name=allowedUsage>allowedUsage</a></span>
+            <span class='views-field-title'>
+                <a href="#allowedUsage" name=allowedUsage>allowedUsage</a>
+            </span>
             <div class='views-field-body'>Bandwidth limit for this hardware. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#estimatedUsage" name=estimatedUsage>estimatedUsage</a></span>
+            <span class='views-field-title'>
+                <a href="#estimatedUsage" name=estimatedUsage>estimatedUsage</a>
+            </span>
             <div class='views-field-body'>Estimated bandwidth usage so far this billing cycle. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#hardwareId" name=hardwareId>hardwareId</a></span>
+            <span class='views-field-title'>
+                <a href="#hardwareId" name=hardwareId>hardwareId</a>
+            </span>
             <div class='views-field-body'>Hardware ID of server to monitor. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#projectedUsage" name=projectedUsage>projectedUsage</a></span>
+            <span class='views-field-title'>
+                <a href="#projectedUsage" name=projectedUsage>projectedUsage</a>
+            </span>
             <div class='views-field-body'>Projected usage for this hardware based on previous usage this billing cycle. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#serverName" name=serverName>serverName</a></span>
+            <span class='views-field-title'>
+                <a href="#serverName" name=serverName>serverName</a>
+            </span>
             <div class='views-field-body'>the text name of the server being monitored. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#startDate" name=startDate>startDate</a></span>
+            <span class='views-field-title'>
+                <a href="#startDate" name=startDate>startDate</a>
+            </span>
             <div class='views-field-body'>The minimum date included in this list. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
             </div>
     </div>

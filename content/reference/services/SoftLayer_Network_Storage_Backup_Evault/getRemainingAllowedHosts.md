@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getRemainingAllowedHosts
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getRemainingAllowedHosts
+
+Retrieves the remaining number of allowed hosts per volume.
+
+
 ## Overview 
 Retrieves the remaining number of allowed hosts per volume. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getActiveAssociatedChildren
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getActiveAssociatedChildren
+
+Retrieve a billing item's active associated child billing items. This includes "floating" items that are not necessarily child items of this billing item.
+
+
 ## Overview 
 Retrieve a billing item's active associated child billing items. This includes "floating" items that are not necessarily child items of this billing item.
 

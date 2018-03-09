@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket_Subject"
 ---
-# SoftLayer_Ticket_Subject::getObject
+# [SoftLayer_Ticket_Subject](/reference/services/SoftLayer_Ticket_Subject)::getObject
+
+Retrieve a SoftLayer_Ticket_Subject record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Ticket_Subject object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Ticket_Subject service. 
 

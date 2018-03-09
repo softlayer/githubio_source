@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getUplinkHardware
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getUplinkHardware
+
+Retrieve the network device connected to a piece of hardware.
+
+
 ## Overview 
 Retrieve the network device connected to a piece of hardware.
 

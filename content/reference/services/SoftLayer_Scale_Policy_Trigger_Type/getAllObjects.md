@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy_Trigger_Type"
 ---
-# SoftLayer_Scale_Policy_Trigger_Type::getAllObjects
+# [SoftLayer_Scale_Policy_Trigger_Type](/reference/services/SoftLayer_Scale_Policy_Trigger_Type)::getAllObjects
+
+Get all trigger types
+
+
 ## Overview 
 
 

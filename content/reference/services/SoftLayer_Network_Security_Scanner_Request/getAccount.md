@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Security_Scanner_Request"
 ---
-# SoftLayer_Network_Security_Scanner_Request::getAccount
+# [SoftLayer_Network_Security_Scanner_Request](/reference/services/SoftLayer_Network_Security_Scanner_Request)::getAccount
+
+Retrieve the account associated with a security scan request.
+
+
 ## Overview 
 Retrieve the account associated with a security scan request.
 

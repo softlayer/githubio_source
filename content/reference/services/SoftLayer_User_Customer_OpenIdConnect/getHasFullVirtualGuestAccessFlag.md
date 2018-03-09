@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getHasFullVirtualGuestAccessFlag
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getHasFullVirtualGuestAccessFlag
+
+Retrieve whether or not a portal user has access to all hardware on their account.
+
+
 ## Overview 
 Retrieve whether or not a portal user has access to all hardware on their account.
 

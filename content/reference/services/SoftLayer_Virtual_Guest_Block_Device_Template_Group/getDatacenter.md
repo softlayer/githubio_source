@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Block_Device_Template_Group"
 ---
-# SoftLayer_Virtual_Guest_Block_Device_Template_Group::getDatacenter
+# [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::getDatacenter
+
+Retrieve the location containing this image template group. Will only be populated for child template group objects.
+
+
 ## Overview 
 Retrieve the location containing this image template group. Will only be populated for child template group objects.
 

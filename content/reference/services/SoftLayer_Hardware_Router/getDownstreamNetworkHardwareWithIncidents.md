@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getDownstreamNetworkHardwareWithIncidents
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getDownstreamNetworkHardwareWithIncidents
+
+Retrieve all network hardware with monitoring warnings or errors that are downstream from the selected piece of hardware.
+
+
 ## Overview 
 Retrieve all network hardware with monitoring warnings or errors that are downstream from the selected piece of hardware.
 

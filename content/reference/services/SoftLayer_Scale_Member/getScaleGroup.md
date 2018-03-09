@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Member"
 ---
-# SoftLayer_Scale_Member::getScaleGroup
+# [SoftLayer_Scale_Member](/reference/services/SoftLayer_Scale_Member)::getScaleGroup
+
+Retrieve the group this member belongs to.
+
+
 ## Overview 
 Retrieve the group this member belongs to.
 

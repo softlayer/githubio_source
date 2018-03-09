@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::addBulkPortalPermission
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::addBulkPortalPermission
+
+Add multiple permissions to a portal user's permission set.
+
+
 ## Overview 
 Add multiple permissions to a portal user's permission set. [[Permissions]] control which features in the SoftLayer customer portal and API a user may use. addBulkPortalPermission() does not attempt to add permissions already assigned to the user. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Monitor_Version1_Query_Host"
 ---
-# SoftLayer_Network_Monitor_Version1_Query_Host::getResponseAction
+# [SoftLayer_Network_Monitor_Version1_Query_Host](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host)::getResponseAction
+
+Retrieve the action taken when a monitor fails.
+
+
 ## Overview 
 Retrieve the action taken when a monitor fails.
 

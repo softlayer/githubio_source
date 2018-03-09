@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Contact"
 ---
-# SoftLayer_Account_Contact::deleteObject
+# [SoftLayer_Account_Contact](/reference/services/SoftLayer_Account_Contact)::deleteObject
+
+Delete an account contact
+
+
 ## Overview 
 deleteObject permanently removes an account contact 
 

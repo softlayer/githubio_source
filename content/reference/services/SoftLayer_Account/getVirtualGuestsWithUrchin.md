@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getVirtualGuestsWithUrchin
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualGuestsWithUrchin
+
+Retrieve all virtual guests associated with an account that has the Urchin web traffic analytics package installed.
+
+
 ## Overview 
 Retrieve all virtual guests associated with an account that has the Urchin web traffic analytics package installed.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getLockboxNetworkStorage
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getLockboxNetworkStorage
+
+Retrieve an account's associated Lockbox storage volumes.
+
+
 ## Overview 
 Retrieve an account's associated Lockbox storage volumes.
 

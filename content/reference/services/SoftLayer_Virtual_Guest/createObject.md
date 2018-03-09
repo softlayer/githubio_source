@@ -10,7 +10,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::createObject
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::createObject
+
+Create a new computing instance
+
+
 ## Overview 
 
 <style type="text/css">.create_object > li > div { padding-top: .5em; padding-bottom: .5em}</style> 

@@ -39,14 +39,24 @@ The McAfee_Epolicy_Orchestrator_Version45_Agent_Details data type represents a v
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#agentVersion" name=agentVersion>agentVersion</a></span>
+            <span class='views-field-title'>
+                <a href="#agentVersion" name=agentVersion>agentVersion</a>
+            </span>
             <div class='views-field-body'>Version number of the anti-virus scan agent. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#lastUpdate" name=lastUpdate>lastUpdate</a></span>
+            <span class='views-field-title'>
+                <a href="#lastUpdate" name=lastUpdate>lastUpdate</a>
+            </span>
             <div class='views-field-body'>The date of the last time the anti-virus agent checked in. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
             </div>
     </div>

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Affiliation"
 ---
-# SoftLayer_Account_Affiliation::createObject
+# [SoftLayer_Account_Affiliation](/reference/services/SoftLayer_Account_Affiliation)::createObject
+
+Create a new affiliation.
+
+
 ## Overview 
 Create a new affiliation to associate with an existing account. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_Registration"
 ---
-# SoftLayer_Dns_Domain_Registration::sendAuthenticationCode
+# [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration)::sendAuthenticationCode
+
+Sends the authentication code
+
+
 ## Overview 
 The sendAuthenticationCode method sends the authentication code to the administrative contact for the domain. 
 

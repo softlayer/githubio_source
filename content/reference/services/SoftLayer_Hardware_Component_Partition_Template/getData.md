@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Component_Partition_Template"
 ---
-# SoftLayer_Hardware_Component_Partition_Template::getData
+# [SoftLayer_Hardware_Component_Partition_Template](/reference/services/SoftLayer_Hardware_Component_Partition_Template)::getData
+
+Retrieve an individual partition for a partition template. This is identical to 'partitionTemplatePartition' except this will sort unix partitions.
+
+
 ## Overview 
 Retrieve an individual partition for a partition template. This is identical to 'partitionTemplatePartition' except this will sort unix partitions.
 

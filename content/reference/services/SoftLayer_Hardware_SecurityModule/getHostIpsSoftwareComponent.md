@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getHostIpsSoftwareComponent
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getHostIpsSoftwareComponent
+
+Retrieve information regarding a host IPS software component object.
+
+
 ## Overview 
 Retrieve information regarding a host IPS software component object.
 

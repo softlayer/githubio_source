@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getUplinkNetworkComponents
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getUplinkNetworkComponents
+
+Retrieve information regarding the network component that is one level higher than a piece of hardware on the network infrastructure.
+
+
 ## Overview 
 Retrieve information regarding the network component that is one level higher than a piece of hardware on the network infrastructure.
 

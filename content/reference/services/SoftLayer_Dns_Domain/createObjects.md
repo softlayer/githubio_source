@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain"
 ---
-# SoftLayer_Dns_Domain::createObjects
+# [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::createObjects
+
+Create multiple domains at once.
+
+
 ## Overview 
 Create multiple domains on the SoftLayer name servers. Each domain record passed to ''createObjects'' follows the logic in the SoftLayer_Dns_Domain ''createObject'' method. 
 

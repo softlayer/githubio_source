@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch"
 ---
-# SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch::editObject
+# [SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch)::editObject
+
+Edit this watch.
+
+
 ## Overview 
 
 

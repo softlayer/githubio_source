@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getIntervalSchedule
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getIntervalSchedule
+
+Retrieve the Interval Schedule which is associated with this network storage volume.
+
+
 ## Overview 
 Retrieve the Interval Schedule which is associated with this network storage volume.
 

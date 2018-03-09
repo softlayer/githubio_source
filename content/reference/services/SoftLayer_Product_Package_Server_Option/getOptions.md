@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package_Server_Option"
 ---
-# SoftLayer_Product_Package_Server_Option::getOptions
+# [SoftLayer_Product_Package_Server_Option](/reference/services/SoftLayer_Product_Package_Server_Option)::getOptions
+
+Get all the package server options of a particular type
+
+
 ## Overview 
 This method will grab all the package server options for the specified type. 
 

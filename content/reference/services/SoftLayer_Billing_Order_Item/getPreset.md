@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Item"
 ---
-# SoftLayer_Billing_Order_Item::getPreset
+# [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getPreset
+
+Retrieve the SoftLayer_Product_Package_Preset related to this order item.
+
+
 ## Overview 
 Retrieve the SoftLayer_Product_Package_Preset related to this order item.
 

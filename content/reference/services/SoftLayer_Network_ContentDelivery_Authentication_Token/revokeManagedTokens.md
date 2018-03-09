@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Authentication_Token"
 ---
-# SoftLayer_Network_ContentDelivery_Authentication_Token::revokeManagedTokens
+# [SoftLayer_Network_ContentDelivery_Authentication_Token](/reference/services/SoftLayer_Network_ContentDelivery_Authentication_Token)::revokeManagedTokens
+
+(DEPRECATED) Deletes multiple managed tokens
+
+
 ## Overview 
 This method is deprecated! 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Block_Device_Template_Group"
 ---
-# SoftLayer_Virtual_Guest_Block_Device_Template_Group::getPublicCustomerOwnedImages
+# [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::getPublicCustomerOwnedImages
+
+Gets all public customer owned image templates that the user is allowed to see. 
+
+
 ## Overview 
 This method gets all public customer owned image templates that the user is allowed to see. 
 

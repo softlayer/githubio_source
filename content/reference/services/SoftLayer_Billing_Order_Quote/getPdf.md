@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Quote"
 ---
-# SoftLayer_Billing_Order_Quote::getPdf
+# [SoftLayer_Billing_Order_Quote](/reference/services/SoftLayer_Billing_Order_Quote)::getPdf
+
+Retrieve a PDF copy of a quote.
+
+
 ## Overview 
 Retrieve a PDF record of a SoftLayer quoted order. SoftLayer keeps PDF records of all quoted orders for customer retrieval from the portal and API. You must have a PDF reader installed in order to view these quoted order files. 
 

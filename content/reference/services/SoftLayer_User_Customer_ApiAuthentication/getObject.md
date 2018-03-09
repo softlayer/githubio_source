@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_ApiAuthentication"
 ---
-# SoftLayer_User_Customer_ApiAuthentication::getObject
+# [SoftLayer_User_Customer_ApiAuthentication](/reference/services/SoftLayer_User_Customer_ApiAuthentication)::getObject
+
+Retrieve a SoftLayer_User_Customer_ApiAuthentication record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_User_Customer_ApiAuthentication object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_User_Customer_ApiAuthentication service. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Price"
 ---
-# SoftLayer_Product_Item_Price::getCapacityRestrictionType
+# [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getCapacityRestrictionType
+
+Retrieve the type of capacity restriction by which this price must abide.
+
+
 ## Overview 
 Retrieve the type of capacity restriction by which this price must abide.
 

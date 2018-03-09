@@ -39,14 +39,24 @@ classes:
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#brandKeyName" name=brandKeyName>brandKeyName</a></span>
+            <span class='views-field-title'>
+                <a href="#brandKeyName" name=brandKeyName>brandKeyName</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#softLayerBrandMoveDate" name=softLayerBrandMoveDate>softLayerBrandMoveDate</a></span>
+            <span class='views-field-title'>
+                <a href="#softLayerBrandMoveDate" name=softLayerBrandMoveDate>softLayerBrandMoveDate</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
             </div>
     </div>

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getSecurityGroups
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSecurityGroups
+
+Retrieve the security groups belonging to this account.
+
+
 ## Overview 
 Retrieve the security groups belonging to this account.
 

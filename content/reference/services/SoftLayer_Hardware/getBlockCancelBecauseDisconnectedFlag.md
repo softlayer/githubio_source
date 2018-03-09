@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getBlockCancelBecauseDisconnectedFlag
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getBlockCancelBecauseDisconnectedFlag
+
+Retrieve determines whether the hardware is ineligible for cancellation because it is disconnected.
+
+
 ## Overview 
 Retrieve determines whether the hardware is ineligible for cancellation because it is disconnected.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getEvents
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getEvents
+
+Retrieve the events which have taken place on a network storage volume.
+
+
 ## Overview 
 Retrieve the events which have taken place on a network storage volume.
 

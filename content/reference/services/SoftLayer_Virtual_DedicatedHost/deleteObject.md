@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_DedicatedHost"
 ---
-# SoftLayer_Virtual_DedicatedHost::deleteObject
+# [SoftLayer_Virtual_DedicatedHost](/reference/services/SoftLayer_Virtual_DedicatedHost)::deleteObject
+
+Reclaim a dedicated host to cancel it's use. 
+
+
 ## Overview 
 This method will cancel a dedicated host immediately. 
 

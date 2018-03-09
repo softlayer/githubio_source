@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::updateVpnUser
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::updateVpnUser
+
+Creates or updates a user's VPN access privileges.
+
+
 ## Overview 
 Always call this function to enable changes when manually configuring VPN subnet access. 
 

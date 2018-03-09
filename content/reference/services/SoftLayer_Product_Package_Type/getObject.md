@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package_Type"
 ---
-# SoftLayer_Product_Package_Type::getObject
+# [SoftLayer_Product_Package_Type](/reference/services/SoftLayer_Product_Package_Type)::getObject
+
+Retrieve a SoftLayer_Product_Package_Type record.
+
+
 ## Overview 
 
 

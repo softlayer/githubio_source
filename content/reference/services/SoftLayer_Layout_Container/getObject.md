@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Layout_Container"
 ---
-# SoftLayer_Layout_Container::getObject
+# [SoftLayer_Layout_Container](/reference/services/SoftLayer_Layout_Container)::getObject
+
+Retrieve a SoftLayer_Layout_Container record.
+
+
 ## Overview 
 
 

@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Layout_Container
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Layout_Container' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Layout_Container' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Layout_Container' >Datatype</a></li>
     </ul>
 </div>
 
@@ -39,43 +39,78 @@ The SoftLayer_Layout_Container contains definitions for default page layouts
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>The internal identifier of a layout container </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#keyname" name=keyname>keyname</a></span>
+            <span class='views-field-title'>
+                <a href="#keyname" name=keyname>keyname</a>
+            </span>
             <div class='views-field-body'>The unique key name of the layout container, used primarily for programmatic purposes </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#layoutContainerTypeId" name=layoutContainerTypeId>layoutContainerTypeId</a></span>
+            <span class='views-field-title'>
+                <a href="#layoutContainerTypeId" name=layoutContainerTypeId>layoutContainerTypeId</a>
+            </span>
             <div class='views-field-body'>The internal identifier of the related [[SoftLayer_Layout_Container_Type]] </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>The friendly name of the layout container </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#layoutContainerType" name=layoutContainerType>layoutContainerType</a></span>
+            <span class='views-field-title'>
+                <a href="#layoutContainerType" name=layoutContainerType>layoutContainerType</a>
+            </span>
             <div class='views-field-body'>The type of the layout container object </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Layout_Container_Type'>SoftLayer_Layout_Container_Type </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Layout_Container_Type'>SoftLayer_Layout_Container_Type </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#layoutItems" name=layoutItems>layoutItems</a></span>
+            <span class='views-field-title'>
+                <a href="#layoutItems" name=layoutItems>layoutItems</a>
+            </span>
             <div class='views-field-body'>The layout items assigned to this layout container </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Layout_Item'>SoftLayer_Layout_Item[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Layout_Item'>SoftLayer_Layout_Item[] </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#layoutItemCount" name=layoutItemCount>layoutItemCount</a></span>
+            <span class='views-field-title'>
+                <a href="#layoutItemCount" name=layoutItemCount>layoutItemCount</a>
+            </span>
             <div class='views-field-body'>A count of the layout items assigned to this layout container </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
         </div>
             </div>
 </div>

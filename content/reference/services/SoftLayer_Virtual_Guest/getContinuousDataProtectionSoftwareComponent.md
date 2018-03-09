@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getContinuousDataProtectionSoftwareComponent
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getContinuousDataProtectionSoftwareComponent
+
+Retrieve a continuous data protection software component object.
+
+
 ## Overview 
 Retrieve a continuous data protection software component object.
 

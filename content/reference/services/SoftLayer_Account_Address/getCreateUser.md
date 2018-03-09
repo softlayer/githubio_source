@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Address"
 ---
-# SoftLayer_Account_Address::getCreateUser
+# [SoftLayer_Account_Address](/reference/services/SoftLayer_Account_Address)::getCreateUser
+
+Retrieve the customer user who created this address.
+
+
 ## Overview 
 Retrieve the customer user who created this address.
 

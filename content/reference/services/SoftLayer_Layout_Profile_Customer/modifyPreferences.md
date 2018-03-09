@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Layout_Profile_Customer"
 ---
-# SoftLayer_Layout_Profile_Customer::modifyPreferences
+# [SoftLayer_Layout_Profile_Customer](/reference/services/SoftLayer_Layout_Profile_Customer)::modifyPreferences
+
+Modifies a collection of associated preferences
+
+
 ## Overview 
 Using this method, multiple [[SoftLayer_Layout_Profile_Preference]] objects may be updated at once. 
 

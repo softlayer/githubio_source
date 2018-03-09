@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package_Preset"
 ---
-# SoftLayer_Product_Package_Preset::getPackage
+# [SoftLayer_Product_Package_Preset](/reference/services/SoftLayer_Product_Package_Preset)::getPackage
+
+Retrieve the package this preset belongs to.
+
+
 ## Overview 
 Retrieve the package this preset belongs to.
 

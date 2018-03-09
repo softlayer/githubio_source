@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_User_Subscriber"
 ---
-# SoftLayer_Notification_User_Subscriber::createObject
+# [SoftLayer_Notification_User_Subscriber](/reference/services/SoftLayer_Notification_User_Subscriber)::createObject
+
+Create a new notification subscriber.
+
+
 ## Overview 
 Use the method to create a new subscription for a notification.  This method is the entry method to the notification system. Certain properties are required to create a subscription while others are optional. 
 

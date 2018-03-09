@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getFixedConfigurationPreset
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getFixedConfigurationPreset
+
+Retrieve defines the fixed components in a fixed configuration bare metal server.
+
+
 ## Overview 
 Retrieve defines the fixed components in a fixed configuration bare metal server.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getBlockCancelBecauseDisconnectedFlag
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBlockCancelBecauseDisconnectedFlag
+
+Retrieve determines whether the instance is ineligible for cancellation because it is disconnected.
+
+
 ## Overview 
 Retrieve determines whether the instance is ineligible for cancellation because it is disconnected.
 

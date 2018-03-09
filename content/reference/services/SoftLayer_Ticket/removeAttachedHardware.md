@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::removeAttachedHardware
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::removeAttachedHardware
+
+detach hardware from a ticket.
+
+
 ## Overview 
 detach the given hardware from a SoftLayer ticket. Removing a hardware attachment may delay ticket processing time if the hardware removed is relevant to the ticket's issue. Return a boolean true upon successful hardware detachment. 
 

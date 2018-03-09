@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_Notification_Hardware"
 ---
-# SoftLayer_User_Customer_Notification_Hardware::deleteObjects
+# [SoftLayer_User_Customer_Notification_Hardware](/reference/services/SoftLayer_User_Customer_Notification_Hardware)::deleteObjects
+
+Delete a group of Customer_Notification_Hardware objects by passing in a collection of them
+
+
 ## Overview 
 Like any other API object, the customer notification objects can be deleted by passing an instance of them into this function.  The ID on the object must be set. 
 

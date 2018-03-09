@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getStorageGroups
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getStorageGroups
+
+Retrieve the network storage groups this volume is attached to.
+
+
 ## Overview 
 Retrieve the network storage groups this volume is attached to.
 

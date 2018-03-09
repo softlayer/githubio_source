@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getOrders
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getOrders
+
+Retrieve an account's associated billing orders excluding upgrades.
+
+
 ## Overview 
 Retrieve an account's associated billing orders excluding upgrades.
 

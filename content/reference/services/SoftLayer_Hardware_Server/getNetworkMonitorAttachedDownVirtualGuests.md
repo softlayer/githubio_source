@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getNetworkMonitorAttachedDownVirtualGuests
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getNetworkMonitorAttachedDownVirtualGuests
+
+Retrieve virtual guests that are attached downstream to a hardware that have failed monitoring
+
+
 ## Overview 
 Retrieve virtual guests that are attached downstream to a hardware that have failed monitoring
 

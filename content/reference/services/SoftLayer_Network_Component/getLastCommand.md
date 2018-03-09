@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getLastCommand
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getLastCommand
+
+Retrieve last reboot/power (rebootDefault, rebootSoft, rebootHard, powerOn, powerOff and powerCycle) command issued to the server's remote management card.
+
+
 ## Overview 
 Retrieve last reboot/power (rebootDefault, rebootSoft, rebootHard, powerOn, powerOff and powerCycle) command issued to the server's remote management card.
 

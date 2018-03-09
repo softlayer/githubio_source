@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Media_Data_Transfer_Request"
 ---
-# SoftLayer_Account_Media_Data_Transfer_Request::getAllRequestStatuses
+# [SoftLayer_Account_Media_Data_Transfer_Request](/reference/services/SoftLayer_Account_Media_Data_Transfer_Request)::getAllRequestStatuses
+
+Retrieves a list of all the possible statuses to which a request may be set.
+
+
 ## Overview 
 Retrieves a list of all the possible statuses to which a request may be set.
 

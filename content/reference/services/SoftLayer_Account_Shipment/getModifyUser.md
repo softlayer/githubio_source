@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Shipment"
 ---
-# SoftLayer_Account_Shipment::getModifyUser
+# [SoftLayer_Account_Shipment](/reference/services/SoftLayer_Account_Shipment)::getModifyUser
+
+Retrieve the customer user who last modified the shipment.
+
+
 ## Overview 
 Retrieve the customer user who last modified the shipment.
 

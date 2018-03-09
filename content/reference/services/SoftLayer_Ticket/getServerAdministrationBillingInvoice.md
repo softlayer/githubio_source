@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getServerAdministrationBillingInvoice
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getServerAdministrationBillingInvoice
+
+Retrieve the invoice associated with a ticket. Only tickets with an associated administrative charge have an invoice.
+
+
 ## Overview 
 Retrieve the invoice associated with a ticket. Only tickets with an associated administrative charge have an invoice.
 

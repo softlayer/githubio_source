@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::edit
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::edit
+
+Edit or update a SoftLayer ticket.
+
+
 ## Overview 
 Edit a SoftLayer ticket. The edit method is two-fold. You may either edit a ticket itself, add an update to a ticket, attach up to two files to a ticket, or perform all of these tasks. The SoftLayer API ignores changes made to the ''userEditableFlag''  and ''accountId'' properties. You may not assign a ticket to a user that your API account does not have access to. You may not enter a custom title for standard support tickets, buy may do so when editing an administrative ticket. Finally, you may not close a ticket using this method. Please contact SoftLayer if you need a ticket closed. 
 

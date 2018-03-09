@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain"
 ---
-# SoftLayer_Dns_Domain::getSoaResourceRecord
+# [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::getSoaResourceRecord
+
+Retrieve the start of authority (SOA) record contains authoritative and propagation details for a DNS zone. This property is not considered in requests to createObject and editObject.
+
+
 ## Overview 
 Retrieve the start of authority (SOA) record contains authoritative and propagation details for a DNS zone. This property is not considered in requests to createObject and editObject.
 

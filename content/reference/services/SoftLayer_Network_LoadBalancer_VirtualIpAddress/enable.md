@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LoadBalancer_VirtualIpAddress"
 ---
-# SoftLayer_Network_LoadBalancer_VirtualIpAddress::enable
+# [SoftLayer_Network_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress)::enable
+
+Enable a Virtual IP Address
+
+
 ## Overview 
 Enable a disabled Virtual IP Address, allowing connections back to the IP address. 
 

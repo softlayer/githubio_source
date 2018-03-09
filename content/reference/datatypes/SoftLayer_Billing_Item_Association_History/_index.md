@@ -31,7 +31,7 @@ The SoftLayer_Billing_Item_Association_History type keeps a record of which serv
 
 ### seeAlso
 
-* [SoftLayer_Billing_Item](/reference/datatypes/SoftLayer_Billing_Item )
+* [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item )
 
 
 
@@ -51,39 +51,69 @@ The SoftLayer_Billing_Item_Association_History type keeps a record of which serv
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#associatedBillingItemId" name=associatedBillingItemId>associatedBillingItemId</a></span>
+            <span class='views-field-title'>
+                <a href="#associatedBillingItemId" name=associatedBillingItemId>associatedBillingItemId</a>
+            </span>
             <div class='views-field-body'>The internal identifier of the server billing item that an orphaned billing item was associated with. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#billingItemId" name=billingItemId>billingItemId</a></span>
+            <span class='views-field-title'>
+                <a href="#billingItemId" name=billingItemId>billingItemId</a>
+            </span>
             <div class='views-field-body'>The internal identifier of the billing item that was associated with a server billing item. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#createDate" name=createDate>createDate</a></span>
+            <span class='views-field-title'>
+                <a href="#createDate" name=createDate>createDate</a>
+            </span>
             <div class='views-field-body'>The date that a billing item association was last changed. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>A billing item association history's internal identifier. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#associatedBillingItem" name=associatedBillingItem>associatedBillingItem</a></span>
+            <span class='views-field-title'>
+                <a href="#associatedBillingItem" name=associatedBillingItem>associatedBillingItem</a>
+            </span>
             <div class='views-field-body'>The server billing item that an orphaned billing item was associated with. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#billingItem" name=billingItem>billingItem</a></span>
+            <span class='views-field-title'>
+                <a href="#billingItem" name=billingItem>billingItem</a>
+            </span>
             <div class='views-field-body'>The billing item that was associated with a server billing item. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

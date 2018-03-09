@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getIbmIdMigrationExpirationTimestamp
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getIbmIdMigrationExpirationTimestamp
+
+Retrieve timestamp representing the point in time when an account is required to use IBMid authentication.
+
+
 ## Overview 
 Retrieve timestamp representing the point in time when an account is required to use IBMid authentication.
 

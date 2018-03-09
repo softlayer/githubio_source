@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getPreventVlanSelectionFlag
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getPreventVlanSelectionFlag
+
+Retrieve whether the package prevents the user from specifying a Vlan.
+
+
 ## Overview 
 Retrieve whether the package prevents the user from specifying a Vlan.
 

@@ -39,34 +39,64 @@ SoftLayer_Network_LBaaS_LoadBalancerStatistics is a collection of metrics retrie
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#connectionRate" name=connectionRate>connectionRate</a></span>
+            <span class='views-field-title'>
+                <a href="#connectionRate" name=connectionRate>connectionRate</a>
+            </span>
             <div class='views-field-body'>Number of connections seen at the </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#dataProcessedByMonth" name=dataProcessedByMonth>dataProcessedByMonth</a></span>
+            <span class='views-field-title'>
+                <a href="#dataProcessedByMonth" name=dataProcessedByMonth>dataProcessedByMonth</a>
+            </span>
             <div class='views-field-body'>Data processed by month is the total of bin and bout </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#numberOfMembersDown" name=numberOfMembersDown>numberOfMembersDown</a></span>
+            <span class='views-field-title'>
+                <a href="#numberOfMembersDown" name=numberOfMembersDown>numberOfMembersDown</a>
+            </span>
             <div class='views-field-body'>Number of members in DOWN health state </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#numberOfMembersUp" name=numberOfMembersUp>numberOfMembersUp</a></span>
+            <span class='views-field-title'>
+                <a href="#numberOfMembersUp" name=numberOfMembersUp>numberOfMembersUp</a>
+            </span>
             <div class='views-field-body'>Number of members in UP health state </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#throughput" name=throughput>throughput</a></span>
+            <span class='views-field-title'>
+                <a href="#throughput" name=throughput>throughput</a>
+            </span>
             <div class='views-field-body'>Throughput measures the total number of bits </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>float</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>float</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#totalConnections" name=totalConnections>totalConnections</a></span>
+            <span class='views-field-title'>
+                <a href="#totalConnections" name=totalConnections>totalConnections</a>
+            </span>
             <div class='views-field-body'>Number of total active established connections </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
     </div>

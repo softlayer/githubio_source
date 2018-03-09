@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getRemoteManagementAccounts
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getRemoteManagementAccounts
+
+Retrieve user credentials to issue commands and/or interact with the server's remote management card.
+
+
 ## Overview 
 Retrieve user credentials to issue commands and/or interact with the server's remote management card.
 

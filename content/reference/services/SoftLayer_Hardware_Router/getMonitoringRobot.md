@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getMonitoringRobot
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getMonitoringRobot
+
+Retrieve information regarding the hardware's monitoring robot.
+
+
 ## Overview 
 Retrieve information regarding the hardware's monitoring robot.
 

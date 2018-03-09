@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getBillingItem
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBillingItem
+
+Retrieve the billing item for a CloudLayer Compute Instance.
+
+
 ## Overview 
 Retrieve the billing item for a CloudLayer Compute Instance.
 

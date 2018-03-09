@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Verisign"
 ---
-# SoftLayer_User_Customer_External_Binding_Verisign::getBillingItem
+# [SoftLayer_User_Customer_External_Binding_Verisign](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign)::getBillingItem
+
+Retrieve the current billing item for an external binding.
+
+
 ## Overview 
 Retrieve the current billing item for an external binding.
 

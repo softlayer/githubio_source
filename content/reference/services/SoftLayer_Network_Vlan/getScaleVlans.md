@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getScaleVlans
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getScaleVlans
+
+Retrieve collection of scale VLANs this VLAN applies to.
+
+
 ## Overview 
 Retrieve collection of scale VLANs this VLAN applies to.
 

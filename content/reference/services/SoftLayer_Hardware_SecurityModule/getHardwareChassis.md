@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getHardwareChassis
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getHardwareChassis
+
+Retrieve the chassis that a piece of hardware is housed in.
+
+
 ## Overview 
 Retrieve the chassis that a piece of hardware is housed in.
 

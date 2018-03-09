@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Authentication_Token"
 ---
-# SoftLayer_Network_ContentDelivery_Authentication_Token::getObject
+# [SoftLayer_Network_ContentDelivery_Authentication_Token](/reference/services/SoftLayer_Network_ContentDelivery_Authentication_Token)::getObject
+
+Retrieve a SoftLayer_Network_ContentDelivery_Authentication_Token record.
+
+
 ## Overview 
 This method is deprecated! 
 

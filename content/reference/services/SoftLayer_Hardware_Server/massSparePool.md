@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::massSparePool
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::massSparePool
+
+Allows multiple servers to be added to or removed from the spare pool.
+
+
 ## Overview 
 The ability to place multiple bare metal servers in a state where they are powered down and ports closed yet still allocated to the customer as a part of the Spare Pool program. 
 

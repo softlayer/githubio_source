@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy_Action"
 ---
-# SoftLayer_Scale_Policy_Action::getScalePolicy
+# [SoftLayer_Scale_Policy_Action](/reference/services/SoftLayer_Scale_Policy_Action)::getScalePolicy
+
+Retrieve the policy this action is on.
+
+
 ## Overview 
 Retrieve the policy this action is on.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Secondary"
 ---
-# SoftLayer_Dns_Secondary::createObjects
+# [SoftLayer_Dns_Secondary](/reference/services/SoftLayer_Dns_Secondary)::createObjects
+
+Create multiple secondary DNS records.
+
+
 ## Overview 
 Create multiple secondary DNS records. Each record passed to ''createObjects'' follows the logic in the SoftLayer_Dns_Secondary [[SoftLayer_Dns_Secondary::createObject|createObject]] method. 
 

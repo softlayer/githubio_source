@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref"
 ---
-# SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref::getObject
+# [SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref](/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref)::getObject
+
+Retrieve a SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref record.
+
+
 ## Overview 
 
 

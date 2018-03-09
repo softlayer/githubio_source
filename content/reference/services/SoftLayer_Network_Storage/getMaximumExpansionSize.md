@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getMaximumExpansionSize
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getMaximumExpansionSize
+
+Returns the maximum volume expansion size in GB.
+
+
 ## Overview 
 
 

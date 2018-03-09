@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand"
 ---
-# SoftLayer_Brand::getDistributorChildFlag
+# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getDistributorChildFlag
+
+
+
+
 ## Overview 
 
 

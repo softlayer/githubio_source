@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getOpenTickets
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getOpenTickets
+
+Retrieve an user's associated open tickets.
+
+
 ## Overview 
 Retrieve an user's associated open tickets.
 

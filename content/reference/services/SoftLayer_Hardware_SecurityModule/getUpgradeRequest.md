@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getUpgradeRequest
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getUpgradeRequest
+
+Retrieve an account's associated upgrade request object, if any.
+
+
 ## Overview 
 Retrieve an account's associated upgrade request object, if any.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LBaaS_LoadBalancer"
 ---
-# SoftLayer_Network_LBaaS_LoadBalancer::getLoadBalancer
+# [SoftLayer_Network_LBaaS_LoadBalancer](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer)::getLoadBalancer
+
+Get a specific load balancer. 
+
+
 ## Overview 
 Get the load balancer object with given uuid. 
 

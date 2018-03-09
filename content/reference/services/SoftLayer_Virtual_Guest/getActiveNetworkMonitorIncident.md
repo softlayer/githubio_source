@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getActiveNetworkMonitorIncident
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getActiveNetworkMonitorIncident
+
+Retrieve a virtual guest's currently active network monitoring incidents.
+
+
 ## Overview 
 Retrieve a virtual guest's currently active network monitoring incidents.
 

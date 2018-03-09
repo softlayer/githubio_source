@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Auxiliary_Press_Release_About
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_About' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Auxiliary_Press_Release_About' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_About' >Datatype</a></li>
     </ul>
 </div>
 
@@ -29,7 +29,7 @@ classes:
 
 ### seeAlso
 
-* [SoftLayer_Auxiliary_Press_Release_About](/reference/datatypes/SoftLayer_Auxiliary_Press_Release_About )
+* [SoftLayer_Auxiliary_Press_Release_About](/reference/services/SoftLayer_Auxiliary_Press_Release_About )
 
 
 
@@ -49,19 +49,34 @@ classes:
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#content" name=content>content</a></span>
+            <span class='views-field-title'>
+                <a href="#content" name=content>content</a>
+            </span>
             <div class='views-field-body'>A press release about's content. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>A press release about's internal </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#title" name=title>title</a></span>
+            <span class='views-field-title'>
+                <a href="#title" name=title>title</a>
+            </span>
             <div class='views-field-body'>A press release about's title. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

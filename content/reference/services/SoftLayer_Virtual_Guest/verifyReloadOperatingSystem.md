@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::verifyReloadOperatingSystem
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::verifyReloadOperatingSystem
+
+Verify that a virtual server can go through the operating system reload process.
+
+
 ## Overview 
 Verify that a virtual server can go through the operating system reload process. It may be useful to call this method before attempting to actually reload the operating system just to verify that the reload will go smoothly. If the server configuration is not setup correctly or there is some other issue, an exception will be thrown indicating the error. If there were no issues, this will just return true. 
 

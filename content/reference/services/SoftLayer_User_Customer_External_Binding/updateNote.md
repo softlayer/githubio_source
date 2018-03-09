@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding"
 ---
-# SoftLayer_User_Customer_External_Binding::updateNote
+# [SoftLayer_User_Customer_External_Binding](/reference/services/SoftLayer_User_Customer_External_Binding)::updateNote
+
+Update the note of an external binding.
+
+
 ## Overview 
 Update the note of an external binding.  The note is an optional property that is used to store information about a binding. 
 

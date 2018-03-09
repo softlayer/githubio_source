@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getManagementNetworkComponent
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getManagementNetworkComponent
+
+Retrieve a server's management network component.
+
+
 ## Overview 
 Retrieve the remote management network component attached with this server. 
 

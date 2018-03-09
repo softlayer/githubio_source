@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getAllowedReplicationVirtualGuests
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getAllowedReplicationVirtualGuests
+
+Retrieve the SoftLayer_Hardware objects which are allowed access to this storage volume's Replicant.
+
+
 ## Overview 
 Retrieve the SoftLayer_Hardware objects which are allowed access to this storage volume's Replicant.
 

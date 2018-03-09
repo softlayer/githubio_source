@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getVirtualRackName
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getVirtualRackName
+
+Retrieve the name of the bandwidth allotment that a computing instance belongs too.
+
+
 ## Overview 
 Retrieve the name of the bandwidth allotment that a computing instance belongs too.
 

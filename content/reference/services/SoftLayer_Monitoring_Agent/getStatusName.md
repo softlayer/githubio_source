@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::getStatusName
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::getStatusName
+
+Retrieve monitoring agent status name.
+
+
 ## Overview 
 Retrieve monitoring agent status name.
 

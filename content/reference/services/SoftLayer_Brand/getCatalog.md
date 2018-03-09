@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand"
 ---
-# SoftLayer_Brand::getCatalog
+# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getCatalog
+
+Retrieve the Product Catalog for the Brand
+
+
 ## Overview 
 Retrieve the Product Catalog for the Brand
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component_Firewall"
 ---
-# SoftLayer_Network_Component_Firewall::getNetworkFirewallUpdateRequest
+# [SoftLayer_Network_Component_Firewall](/reference/services/SoftLayer_Network_Component_Firewall)::getNetworkFirewallUpdateRequest
+
+Retrieve the update requests made for this firewall.
+
+
 ## Overview 
 Retrieve the update requests made for this firewall.
 

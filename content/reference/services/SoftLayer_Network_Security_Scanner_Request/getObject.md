@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Security_Scanner_Request"
 ---
-# SoftLayer_Network_Security_Scanner_Request::getObject
+# [SoftLayer_Network_Security_Scanner_Request](/reference/services/SoftLayer_Network_Security_Scanner_Request)::getObject
+
+Retrieve a SoftLayer_Network_Security_Scanner_Request record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Network_Security_Scanner_Request object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Network_Security_Scanner_Request service. You can only retrieve requests and reports that are assigned to your SoftLayer account. 
 

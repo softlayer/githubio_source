@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Media"
 ---
-# SoftLayer_Account_Media::getAccount
+# [SoftLayer_Account_Media](/reference/services/SoftLayer_Account_Media)::getAccount
+
+Retrieve the account to which the media belongs.
+
+
 ## Overview 
 Retrieve the account to which the media belongs.
 

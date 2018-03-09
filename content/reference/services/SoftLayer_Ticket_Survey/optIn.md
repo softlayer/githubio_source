@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket_Survey"
 ---
-# SoftLayer_Ticket_Survey::optIn
+# [SoftLayer_Ticket_Survey](/reference/services/SoftLayer_Ticket_Survey)::optIn
+
+*DEPRICATED* Opt in for the ticket survey
+
+
 ## Overview 
 You will not receive a ticket survey if you are opted out. Use this method to opt back in if you wish to provide feedback to our support team. You may use the [[SoftLayer_Ticket_Survey::getPreference|getPreference]] method to check your current opt status. 
 

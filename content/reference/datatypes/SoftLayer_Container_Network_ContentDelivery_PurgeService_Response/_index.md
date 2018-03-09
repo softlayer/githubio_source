@@ -52,14 +52,24 @@ Status code can be "SUCCESS", "FAILED", or "INVALID_URL" "INVALID_URL" code is r
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#statusCode" name=statusCode>statusCode</a></span>
+            <span class='views-field-title'>
+                <a href="#statusCode" name=statusCode>statusCode</a>
+            </span>
             <div class='views-field-body'>A status code indicates whether your request was successful or not </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#url" name=url>url</a></span>
+            <span class='views-field-title'>
+                <a href="#url" name=url>url</a>
+            </span>
             <div class='views-field-body'>A URL that you wish to purge its cache object </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

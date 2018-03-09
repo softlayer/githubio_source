@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::getBandwidthDataWithTypes
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getBandwidthDataWithTypes
+
+Returns bandwidth data for a time range, separated by types and regions
+
+
 ## Overview 
 This method returns bandwidth data for a given time range.  It returns an array of [[SoftLayer_Container_Network_ContentDelivery_Report_Usage|bandwidth usage report]] objects. 
 

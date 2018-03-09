@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Catalyst_Company_Type"
 ---
-# SoftLayer_Catalyst_Company_Type::getAllObjects
+# [SoftLayer_Catalyst_Company_Type](/reference/services/SoftLayer_Catalyst_Company_Type)::getAllObjects
+
+Get all catalyst company types
+
+
 ## Overview 
 <<<EOT
 

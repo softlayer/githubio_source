@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Resource_Group"
 ---
-# SoftLayer_Resource_Group::getRootResourceGroup
+# [SoftLayer_Resource_Group](/reference/services/SoftLayer_Resource_Group)::getRootResourceGroup
+
+Retrieve a resource group's associated root resource group.
+
+
 ## Overview 
 Retrieve a resource group's associated root resource group.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component"
 ---
-# SoftLayer_Software_Component::getVendorSetUpConfiguration
+# [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component)::getVendorSetUpConfiguration
+
+
+
+
 ## Overview 
 
 

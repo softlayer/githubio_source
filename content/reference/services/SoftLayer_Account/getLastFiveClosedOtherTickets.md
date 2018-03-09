@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getLastFiveClosedOtherTickets
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getLastFiveClosedOtherTickets
+
+Retrieve the five most recently closed tickets that do not belong to the abuse, accounting, sales, or support groups associated with an account.
+
+
 ## Overview 
 Retrieve the five most recently closed tickets that do not belong to the abuse, accounting, sales, or support groups associated with an account.
 

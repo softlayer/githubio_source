@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Hub_Cleversafe_Account"
 ---
-# SoftLayer_Network_Storage_Hub_Cleversafe_Account::getBillingItem
+# [SoftLayer_Network_Storage_Hub_Cleversafe_Account](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account)::getBillingItem
+
+Retrieve an associated parent billing item which is active. Includes billing items which are scheduled to be cancelled in the future.
+
+
 ## Overview 
 Retrieve an associated parent billing item which is active. Includes billing items which are scheduled to be cancelled in the future.
 

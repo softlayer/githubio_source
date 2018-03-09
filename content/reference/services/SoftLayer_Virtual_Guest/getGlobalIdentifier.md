@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getGlobalIdentifier
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getGlobalIdentifier
+
+Retrieve a guest's universally unique identifier.
+
+
 ## Overview 
 Retrieve a guest's universally unique identifier.
 

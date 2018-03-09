@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Internal_Ibm"
 ---
-# SoftLayer_Account_Internal_Ibm::requestAccount
+# [SoftLayer_Account_Internal_Ibm](/reference/services/SoftLayer_Account_Internal_Ibm)::requestAccount
+
+Processes IBMer requests for new IaaS/PaaS accounts
+
+
 ## Overview 
 Validates request and kicks off the approval process. 
 

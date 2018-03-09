@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_Notification_Hardware"
 ---
-# SoftLayer_User_Customer_Notification_Hardware::createObject
+# [SoftLayer_User_Customer_Notification_Hardware](/reference/services/SoftLayer_User_Customer_Notification_Hardware)::createObject
+
+Create a user hardware notification entry
+
+
 ## Overview 
 Passing in an unsaved instances of a Customer_Notification_Hardware object into this function will create the object and return the results to the user. 
 

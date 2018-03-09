@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Customer_Subnet"
 ---
-# SoftLayer_Network_Customer_Subnet::getIpAddresses
+# [SoftLayer_Network_Customer_Subnet](/reference/services/SoftLayer_Network_Customer_Subnet)::getIpAddresses
+
+Retrieve all ip addresses associated with a subnet.
+
+
 ## Overview 
 Retrieve all ip addresses associated with a subnet.
 

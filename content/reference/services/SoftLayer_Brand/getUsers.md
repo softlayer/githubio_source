@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand"
 ---
-# SoftLayer_Brand::getUsers
+# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getUsers
+
+
+
+
 ## Overview 
 
 

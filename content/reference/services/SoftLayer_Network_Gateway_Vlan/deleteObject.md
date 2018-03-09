@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Gateway_Vlan"
 ---
-# SoftLayer_Network_Gateway_Vlan::deleteObject
+# [SoftLayer_Network_Gateway_Vlan](/reference/services/SoftLayer_Network_Gateway_Vlan)::deleteObject
+
+Detach VLAN
+
+
 ## Overview 
 Start the asynchronous process to detach this VLANs from the gateway. 
 

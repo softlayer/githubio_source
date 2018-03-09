@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::allowAccessToNetworkStorageList
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::allowAccessToNetworkStorageList
+
+Allow access to multiple SoftLayer_Network_Storage volumes from this device. 
+
+
 ## Overview 
 This method is used to allow access to multiple SoftLayer_Network_Storage volumes that support host- or network-level access control. 
 

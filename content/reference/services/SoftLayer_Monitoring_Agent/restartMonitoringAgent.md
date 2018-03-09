@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent"
 ---
-# SoftLayer_Monitoring_Agent::restartMonitoringAgent
+# [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::restartMonitoringAgent
+
+This method restarts a monitoring agent.
+
+
 ## Overview 
 This method restarts a monitoring agent and sets the agent's status to 'ACTIVE'. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getVirtualChassisSiblings
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getVirtualChassisSiblings
+
+Retrieve information regarding the virtual chassis siblings for a piece of hardware.
+
+
 ## Overview 
 Retrieve information regarding the virtual chassis siblings for a piece of hardware.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LBaaS_Member"
 ---
-# SoftLayer_Network_LBaaS_Member::getObject
+# [SoftLayer_Network_LBaaS_Member](/reference/services/SoftLayer_Network_LBaaS_Member)::getObject
+
+Retrieve a SoftLayer_Network_LBaaS_Member record.
+
+
 ## Overview 
 
 

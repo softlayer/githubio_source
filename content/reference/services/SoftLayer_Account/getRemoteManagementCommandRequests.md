@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getRemoteManagementCommandRequests
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getRemoteManagementCommandRequests
+
+Retrieve remote management command requests for an account
+
+
 ## Overview 
 Retrieve remote management command requests for an account
 

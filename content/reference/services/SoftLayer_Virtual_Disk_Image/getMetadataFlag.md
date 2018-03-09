@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Disk_Image"
 ---
-# SoftLayer_Virtual_Disk_Image::getMetadataFlag
+# [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::getMetadataFlag
+
+Retrieve whether this disk image is meant for storage of custom user data supplied with a Cloud Computing Instance order.
+
+
 ## Overview 
 Retrieve whether this disk image is meant for storage of custom user data supplied with a Cloud Computing Instance order.
 

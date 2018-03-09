@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getActiveUsageRatePrices
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getActiveUsageRatePrices
+
+Return the active usage rate prices for the current package. 
+
+
 ## Overview 
 This method returns a collection of active usage rate [[SoftLayer_Product_Item_Price]] objects for the current package and specified datacenter. Optionally you can retrieve the active usage rate prices for a particular [[SoftLayer_Product_Item_Category]] by specifying a category code as the first parameter. This information is useful so that you can see "pay as you go" rates (if any) for the current package, location and optionally category. 
 

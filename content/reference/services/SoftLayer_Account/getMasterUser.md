@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getMasterUser
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getMasterUser
+
+Retrieve an account's master user.
+
+
 ## Overview 
 Retrieve an account's master user.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::initiatePortalPasswordChangeByBrandAgent
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::initiatePortalPasswordChangeByBrandAgent
+
+Allows a Brand Agent to request password reset email to be sent to
+
+
 ## Overview 
 A Brand Agent that has permissions to Add Customer Accounts will be able to request the password email be sent to the Master User of a Customer Account created by the same Brand as the agent making the request. Due to security reasons, the number of reset requests are limited within an undisclosed timeframe. 
 

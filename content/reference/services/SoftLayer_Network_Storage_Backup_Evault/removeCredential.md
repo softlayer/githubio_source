@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::removeCredential
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::removeCredential
+
+This method will remove a credential from the current volume.
+
+
 ## Overview 
 This method will remove a credential from the current volume. The credential must have been created using the 'addNewCredential' method. 
 

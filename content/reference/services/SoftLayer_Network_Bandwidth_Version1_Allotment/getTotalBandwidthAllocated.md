@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
-# SoftLayer_Network_Bandwidth_Version1_Allotment::getTotalBandwidthAllocated
+# [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getTotalBandwidthAllocated
+
+Retrieve the combined allocated bandwidth for all servers in a virtual rack.
+
+
 ## Overview 
 Retrieve the combined allocated bandwidth for all servers in a virtual rack.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getUserData
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getUserData
+
+Retrieve a string containing custom user data for a hardware order.
+
+
 ## Overview 
 Retrieve a string containing custom user data for a hardware order.
 

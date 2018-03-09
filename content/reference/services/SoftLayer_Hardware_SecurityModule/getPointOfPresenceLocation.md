@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getPointOfPresenceLocation
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getPointOfPresenceLocation
+
+Retrieve information regarding the Point of Presence (PoP) location in which a piece of hardware resides.
+
+
 ## Overview 
 Retrieve information regarding the Point of Presence (PoP) location in which a piece of hardware resides.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getBandwidthTotal
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBandwidthTotal
+
+Retrieve total amount of network traffic that was in use during the time specified by the input parameters for a computing instance. 
+
+
 ## Overview 
 Returns the total amount of bandwidth used during the time specified for a computing instance. 
 

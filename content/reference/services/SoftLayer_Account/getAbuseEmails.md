@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getAbuseEmails
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAbuseEmails
+
+Retrieve email addresses that are responsible for abuse and legal inquiries on behalf of an account. For instance, new legal and abuse tickets are sent to these addresses.
+
+
 ## Overview 
 Retrieve email addresses that are responsible for abuse and legal inquiries on behalf of an account. For instance, new legal and abuse tickets are sent to these addresses.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getPowerState
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getPowerState
+
+Retrieve the current power state of a virtual guest.
+
+
 ## Overview 
 Retrieve the current power state of a virtual guest.
 

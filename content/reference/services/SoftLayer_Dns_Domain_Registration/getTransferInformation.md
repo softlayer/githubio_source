@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_Registration"
 ---
-# SoftLayer_Dns_Domain_Registration::getTransferInformation
+# [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration)::getTransferInformation
+
+Retrieve domain transfer information.
+
+
 ## Overview 
 The getTransferInformation method checks to see if the domain can be transferred and also can be used to check the status of the last transfer request. 
 

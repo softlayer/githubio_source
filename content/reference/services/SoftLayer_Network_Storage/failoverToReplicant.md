@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::failoverToReplicant
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::failoverToReplicant
+
+Failover to a volume replicant.
+
+
 ## Overview 
 Failover to a volume replicant.  During the time which the replicant is in use the local nas volume will not be available. 
 

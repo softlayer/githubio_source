@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_Swip_Transaction"
 ---
-# SoftLayer_Network_Subnet_Swip_Transaction::swipAllSubnets
+# [SoftLayer_Network_Subnet_Swip_Transaction](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction)::swipAllSubnets
+
+create SWIP transactions for all subnets that do not already have a SWIP transaction in progress.
+
+
 ## Overview 
 swipAllSubnets finds all subnets attached to your account and attempts to create a SWIP transaction for all subnets that do not already have a SWIP transaction in progress. 
 

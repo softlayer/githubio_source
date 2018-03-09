@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_LoadBalancer"
 ---
-# SoftLayer_Scale_LoadBalancer::getHealthCheck
+# [SoftLayer_Scale_LoadBalancer](/reference/services/SoftLayer_Scale_LoadBalancer)::getHealthCheck
+
+Retrieve the health check for this configuration.
+
+
 ## Overview 
 Retrieve the health check for this configuration.
 

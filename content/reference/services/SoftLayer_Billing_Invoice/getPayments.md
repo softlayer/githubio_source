@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice"
 ---
-# SoftLayer_Billing_Invoice::getPayments
+# [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getPayments
+
+Retrieve the payments for the invoice.
+
+
 ## Overview 
 Retrieve the payments for the invoice.
 

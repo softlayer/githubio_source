@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location"
 ---
-# SoftLayer_Location::getRegions
+# [SoftLayer_Location](/reference/services/SoftLayer_Location)::getRegions
+
+Retrieve a location can be a member of 1 or more regions. This will show which regions to which a location belongs.
+
+
 ## Overview 
 Retrieve a location can be a member of 1 or more regions. This will show which regions to which a location belongs.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_AntivirusSpyware"
 ---
-# SoftLayer_Software_Component_AntivirusSpyware::getVirtualGuest
+# [SoftLayer_Software_Component_AntivirusSpyware](/reference/services/SoftLayer_Software_Component_AntivirusSpyware)::getVirtualGuest
+
+Retrieve the virtual guest this software component is installed upon.
+
+
 ## Overview 
 Retrieve the virtual guest this software component is installed upon.
 

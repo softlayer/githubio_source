@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Gateway"
 ---
-# SoftLayer_Network_Gateway::getInsideVlans
+# [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::getInsideVlans
+
+Retrieve all VLANs trunked to this gateway.
+
+
 ## Overview 
 Retrieve all VLANs trunked to this gateway.
 

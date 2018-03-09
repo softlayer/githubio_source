@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host_IpAddress"
 ---
-# SoftLayer_Network_Storage_Allowed_Host_IpAddress::getAssignedReplicationVolumes
+# [SoftLayer_Network_Storage_Allowed_Host_IpAddress](/reference/services/SoftLayer_Network_Storage_Allowed_Host_IpAddress)::getAssignedReplicationVolumes
+
+Retrieve the SoftLayer_Network_Storage primary volumes whose replicas are allowed access.
+
+
 ## Overview 
 Retrieve the SoftLayer_Network_Storage primary volumes whose replicas are allowed access.
 

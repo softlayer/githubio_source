@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getActiveCommand
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getActiveCommand
+
+Retrieve reboot/power (rebootDefault, rebootSoft, rebootHard, powerOn, powerOff and powerCycle) command currently executing by the server's remote management card.
+
+
 ## Overview 
 Retrieve reboot/power (rebootDefault, rebootSoft, rebootHard, powerOn, powerOff and powerCycle) command currently executing by the server's remote management card.
 

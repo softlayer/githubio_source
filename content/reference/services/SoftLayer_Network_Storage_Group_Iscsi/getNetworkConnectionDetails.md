@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Group_Iscsi"
 ---
-# SoftLayer_Network_Storage_Group_Iscsi::getNetworkConnectionDetails
+# [SoftLayer_Network_Storage_Group_Iscsi](/reference/services/SoftLayer_Network_Storage_Group_Iscsi)::getNetworkConnectionDetails
+
+Retrieve network connection information for SoftLayer_Network_Storage_Allowed_Host objects to connect to the Network Storage Volumes within this group 
+
+
 ## Overview 
 Use this method to retrieve network connection information for SoftLayer_Network_Storage_Allowed_Host objects within this group. 
 

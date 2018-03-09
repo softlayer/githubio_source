@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy"
 ---
-# SoftLayer_Scale_Policy::getRepeatingTriggers
+# [SoftLayer_Scale_Policy](/reference/services/SoftLayer_Scale_Policy)::getRepeatingTriggers
+
+Retrieve the repeating triggers to check for this group.
+
+
 ## Overview 
 Retrieve the repeating triggers to check for this group.
 

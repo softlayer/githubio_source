@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_ResourceRecord_MxType"
 ---
-# SoftLayer_Dns_Domain_ResourceRecord_MxType::editObjects
+# [SoftLayer_Dns_Domain_ResourceRecord_MxType](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType)::editObjects
+
+Edit multiple domain MX records.
+
+
 ## Overview 
 Edit multiple MX records on a domain. This follows the same logic as ''createObject'. The serial number of the domain associated with this MX record is updated upon creation. 
 

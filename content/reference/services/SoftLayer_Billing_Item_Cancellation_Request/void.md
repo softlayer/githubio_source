@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item_Cancellation_Request"
 ---
-# SoftLayer_Billing_Item_Cancellation_Request::void
+# [SoftLayer_Billing_Item_Cancellation_Request](/reference/services/SoftLayer_Billing_Item_Cancellation_Request)::void
+
+Voids a pending or approved cancellation request
+
+
 ## Overview 
 This method voids a service cancellation request in "Pending" or "Approved" status. 
 

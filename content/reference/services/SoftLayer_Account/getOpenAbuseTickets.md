@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getOpenAbuseTickets
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getOpenAbuseTickets
+
+Retrieve the open abuse tickets associated with an account.
+
+
 ## Overview 
 Retrieve the open abuse tickets associated with an account.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_ResourceRecord"
 ---
-# SoftLayer_Dns_Domain_ResourceRecord::getDomain
+# [SoftLayer_Dns_Domain_ResourceRecord](/reference/services/SoftLayer_Dns_Domain_ResourceRecord)::getDomain
+
+Retrieve the domain that a resource record belongs to.
+
+
 ## Overview 
 Retrieve the domain that a resource record belongs to.
 

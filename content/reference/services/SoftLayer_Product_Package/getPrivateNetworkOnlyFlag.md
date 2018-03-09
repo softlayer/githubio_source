@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getPrivateNetworkOnlyFlag
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getPrivateNetworkOnlyFlag
+
+Retrieve whether the package only has access to the private network.
+
+
 ## Overview 
 Retrieve whether the package only has access to the private network.
 

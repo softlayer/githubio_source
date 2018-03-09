@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket_Update_Employee"
 ---
-# SoftLayer_Ticket_Update_Employee::getFileAttachment
+# [SoftLayer_Ticket_Update_Employee](/reference/services/SoftLayer_Ticket_Update_Employee)::getFileAttachment
+
+Retrieve the files attached to a ticket update.
+
+
 ## Overview 
 Retrieve the files attached to a ticket update.
 

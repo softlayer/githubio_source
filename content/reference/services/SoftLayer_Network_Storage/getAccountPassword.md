@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getAccountPassword
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getAccountPassword
+
+Retrieve other usernames and passwords associated with a Storage volume.
+
+
 ## Overview 
 Retrieve other usernames and passwords associated with a Storage volume.
 

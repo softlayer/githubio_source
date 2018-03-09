@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::isValidForumPassword
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::isValidForumPassword
+
+Determine if a string is a user's forum password.
+
+
 ## Overview 
 This method is deprecated! SoftLayer Community Forums no longer exist, therefore, any password verified will return false. 
 

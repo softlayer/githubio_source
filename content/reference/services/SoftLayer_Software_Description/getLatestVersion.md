@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Description"
 ---
-# SoftLayer_Software_Description::getLatestVersion
+# [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description)::getLatestVersion
+
+Retrieve the latest version of a software description.
+
+
 ## Overview 
 Retrieve the latest version of a software description.
 

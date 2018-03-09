@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getPendingInvoiceTotalOneTimeAmount
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPendingInvoiceTotalOneTimeAmount
+
+Retrieve the total one-time charges for an account's pending invoice, if one exists. In other words, it is the sum of one-time charges, setup fees, and labor fees. It does not include taxes.
+
+
 ## Overview 
 Retrieve the total one-time charges for an account's pending invoice, if one exists. In other words, it is the sum of one-time charges, setup fees, and labor fees. It does not include taxes.
 

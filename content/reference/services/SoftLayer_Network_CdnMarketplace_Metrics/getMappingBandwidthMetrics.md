@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_CdnMarketplace_Metrics"
 ---
-# SoftLayer_Network_CdnMarketplace_Metrics::getMappingBandwidthMetrics
+# [SoftLayer_Network_CdnMarketplace_Metrics](/reference/services/SoftLayer_Network_CdnMarketplace_Metrics)::getMappingBandwidthMetrics
+
+Get the amount of edge hits for an individual mapping. 
+
+
 ## Overview 
 
 

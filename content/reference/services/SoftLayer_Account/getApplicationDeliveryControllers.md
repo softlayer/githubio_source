@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getApplicationDeliveryControllers
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getApplicationDeliveryControllers
+
+Retrieve an account's associated application delivery controller records.
+
+
 ## Overview 
 Retrieve an account's associated application delivery controller records.
 

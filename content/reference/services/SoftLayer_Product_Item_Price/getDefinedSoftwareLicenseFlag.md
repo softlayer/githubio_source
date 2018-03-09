@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Price"
 ---
-# SoftLayer_Product_Item_Price::getDefinedSoftwareLicenseFlag
+# [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getDefinedSoftwareLicenseFlag
+
+Retrieve whether this price defines a software license for its product item.
+
+
 ## Overview 
 Retrieve whether this price defines a software license for its product item.
 

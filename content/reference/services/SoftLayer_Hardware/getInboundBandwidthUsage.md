@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getInboundBandwidthUsage
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getInboundBandwidthUsage
+
+Retrieve the sum of all the inbound network traffic data for the last 30 days.
+
+
 ## Overview 
 Retrieve the sum of all the inbound network traffic data for the last 30 days.
 

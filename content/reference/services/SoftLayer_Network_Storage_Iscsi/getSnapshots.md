@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getSnapshots
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getSnapshots
+
+Retrieve the snapshots associated with this iSCSI LUN's container volume, if applicable
+
+
 ## Overview 
 Retrieve the snapshots associated with this iSCSI LUN's container volume, if applicable
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getGlobalLoadBalancerAccounts
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getGlobalLoadBalancerAccounts
+
+Retrieve the global load balancer accounts for a softlayer customer account.
+
+
 ## Overview 
 Retrieve the global load balancer accounts for a softlayer customer account.
 

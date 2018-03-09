@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Order"
 ---
-# SoftLayer_Product_Order::getExternalPaymentAuthorizationReceipt
+# [SoftLayer_Product_Order](/reference/services/SoftLayer_Product_Order)::getExternalPaymentAuthorizationReceipt
+
+Returns an order receipt for a completed external (PayPal) payment authorization.
+
+
 ## Overview 
 This method simply returns a receipt for a previously finalized payment authorization from PayPal. The response matches the response returned from placeOrder when the order was originally placed with PayPal as the payment type. 
 

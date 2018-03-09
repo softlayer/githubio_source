@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::addAttachedAdditionalEmails
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::addAttachedAdditionalEmails
+
+Add non-user email addresses to a ticket's email notify list.
+
+
 ## Overview 
 Creates new additional emails for assigned user if new emails are provided. Attaches any newly created additional emails to ticket. 
 

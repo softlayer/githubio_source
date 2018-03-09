@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::reloadOperatingSystem
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::reloadOperatingSystem
+
+Reloads operating system configuration.
+
+
 ## Overview 
 Reloads current operating system configuration. 
 

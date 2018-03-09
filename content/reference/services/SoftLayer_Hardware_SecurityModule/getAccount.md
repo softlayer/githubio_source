@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getAccount
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getAccount
+
+Retrieve the account associated with a piece of hardware.
+
+
 ## Overview 
 Retrieve the account associated with a piece of hardware.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getSupportPolicyAcknowledgementRequiredFlag
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getSupportPolicyAcknowledgementRequiredFlag
+
+Retrieve whether or not a user is required to acknowledge the support policy for portal access.
+
+
 ## Overview 
 Retrieve whether or not a user is required to acknowledge the support policy for portal access.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getAllowableHardware
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getAllowableHardware
+
+Return a list of SoftLayer_Hardware that can be authorized to this volume. 
+
+
 ## Overview 
 This method retrieves a list of SoftLayer_Hardware that can be authorized to this SoftLayer_Network_Storage. 
 

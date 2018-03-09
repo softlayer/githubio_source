@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getProcessorCoreAmount
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getProcessorCoreAmount
+
+Retrieve the total number of processor cores, summed from all processors that are attached to a piece of hardware
+
+
 ## Overview 
 Retrieve the total number of processor cores, summed from all processors that are attached to a piece of hardware
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getDownlinkServers
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getDownlinkServers
+
+Retrieve information regarding all servers attached to a piece of network hardware.
+
+
 ## Overview 
 Retrieve information regarding all servers attached to a piece of network hardware.
 

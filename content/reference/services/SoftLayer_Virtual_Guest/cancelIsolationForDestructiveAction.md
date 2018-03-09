@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::cancelIsolationForDestructiveAction
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::cancelIsolationForDestructiveAction
+
+
+
+
 ## Overview 
 Reopens the public and/or private ports to reverse the changes made when the server was isolated for a destructive action. 
 

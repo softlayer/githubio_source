@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Historical_Report"
 ---
-# SoftLayer_Account_Historical_Report::getHostUptimeDetail
+# [SoftLayer_Account_Historical_Report](/reference/services/SoftLayer_Account_Historical_Report)::getHostUptimeDetail
+
+
+
+
 ## Overview 
 
 

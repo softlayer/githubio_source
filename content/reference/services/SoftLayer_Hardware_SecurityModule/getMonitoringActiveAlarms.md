@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getMonitoringActiveAlarms
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getMonitoringActiveAlarms
+
+Returns open monitoring alarms for a given time period
+
+
 ## Overview 
 Returns open monitoring alarms for a given time period 
 

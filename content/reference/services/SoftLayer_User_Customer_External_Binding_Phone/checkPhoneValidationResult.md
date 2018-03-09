@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Phone"
 ---
-# SoftLayer_User_Customer_External_Binding_Phone::checkPhoneValidationResult
+# [SoftLayer_User_Customer_External_Binding_Phone](/reference/services/SoftLayer_User_Customer_External_Binding_Phone)::checkPhoneValidationResult
+
+Return a phone validation result
+
+
 ## Overview 
 Return a phone validation result. 
 

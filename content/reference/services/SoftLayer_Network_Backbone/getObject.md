@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Backbone"
 ---
-# SoftLayer_Network_Backbone::getObject
+# [SoftLayer_Network_Backbone](/reference/services/SoftLayer_Network_Backbone)::getObject
+
+Retrieve a SoftLayer_Network_Backbone record.
+
+
 ## Overview 
 Retrieve an individual SoftLayer_Network_Backbone record. Use the getAllBackbones() method to retrieve a list of all SoftLayer network backbones.
 

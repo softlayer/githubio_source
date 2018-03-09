@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getExternalBindings
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getExternalBindings
+
+Retrieve the external authentication bindings that link an external identifier to a SoftLayer user.
+
+
 ## Overview 
 Retrieve the external authentication bindings that link an external identifier to a SoftLayer user.
 

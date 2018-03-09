@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller"
 ---
-# SoftLayer_Network_Application_Delivery_Controller::saveCurrentConfiguration
+# [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::saveCurrentConfiguration
+
+Save an application delivery controller's configuration state.
+
+
 ## Overview 
 Save an application delivery controller's configuration state. The notes property for this method is optional. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getAvailableNetworkStorages
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getAvailableNetworkStorages
+
+Return a list of SoftLayer_Network_Storage volumes that can be authorized to this device. 
+
+
 ## Overview 
 This method retrieves a list of SoftLayer_Network_Storage volumes that can be authorized to this SoftLayer_Virtual_Guest. 
 

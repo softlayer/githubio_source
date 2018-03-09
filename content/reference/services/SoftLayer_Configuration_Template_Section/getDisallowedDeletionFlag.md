@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Configuration_Template_Section"
 ---
-# SoftLayer_Configuration_Template_Section::getDisallowedDeletionFlag
+# [SoftLayer_Configuration_Template_Section](/reference/services/SoftLayer_Configuration_Template_Section)::getDisallowedDeletionFlag
+
+
+
+
 ## Overview 
 
 

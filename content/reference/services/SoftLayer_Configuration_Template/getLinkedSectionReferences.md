@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Configuration_Template"
 ---
-# SoftLayer_Configuration_Template::getLinkedSectionReferences
+# [SoftLayer_Configuration_Template](/reference/services/SoftLayer_Configuration_Template)::getLinkedSectionReferences
+
+
+
+
 ## Overview 
 
 

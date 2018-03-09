@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getOutboundBandwidthUsage
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getOutboundBandwidthUsage
+
+Retrieve the sum of all the outbound network traffic data for the last 30 days.
+
+
 ## Overview 
 Retrieve the sum of all the outbound network traffic data for the last 30 days.
 

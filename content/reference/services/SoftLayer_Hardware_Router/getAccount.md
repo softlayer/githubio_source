@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getAccount
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getAccount
+
+Retrieve the account associated with a piece of hardware.
+
+
 ## Overview 
 Retrieve the account associated with a piece of hardware.
 

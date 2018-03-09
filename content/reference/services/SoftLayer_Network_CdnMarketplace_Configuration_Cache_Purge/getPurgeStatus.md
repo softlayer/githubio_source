@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge"
 ---
-# SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge::getPurgeStatus
+# [SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge)::getPurgeStatus
+
+This method gets the status of a given purge path. 
+
+
 ## Overview 
 
 

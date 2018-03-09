@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order"
 ---
-# SoftLayer_Billing_Order::getBrand
+# [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getBrand
+
+
+
+
 ## Overview 
 
 

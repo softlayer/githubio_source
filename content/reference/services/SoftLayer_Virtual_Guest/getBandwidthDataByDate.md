@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getBandwidthDataByDate
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBandwidthDataByDate
+
+Retrieve the amount of network traffic that occurred for the specified time frame for a computing instance. 
+
+
 ## Overview 
 Use this method when needing the metric data for bandwidth for a single guest.  It will gather the correct input parameters based on the date ranges 
 

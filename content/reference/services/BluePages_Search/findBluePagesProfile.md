@@ -9,7 +9,11 @@ tags:
 classes:
     - "BluePages_Search"
 ---
-# BluePages_Search::findBluePagesProfile
+# [BluePages_Search](/reference/services/BluePages_Search)::findBluePagesProfile
+
+
+
+
 ## Overview 
 Given an IBM email address, searches BluePages and returns the employee's details 
 

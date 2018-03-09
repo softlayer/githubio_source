@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::isolateInstanceForDestructiveAction
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::isolateInstanceForDestructiveAction
+
+
+
+
 ## Overview 
 Closes the public or private ports to isolate the instance before a destructive action. 
 

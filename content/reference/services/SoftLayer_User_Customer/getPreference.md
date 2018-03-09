@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getPreference
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getPreference
+
+Get a preference value for the current user
+
+
 ## Overview 
 Select a type of preference you would like to get using [[SoftLayer_User_Customer::getPreferenceTypes|getPreferenceTypes]] and invoke this method using that preference type key name. 
 

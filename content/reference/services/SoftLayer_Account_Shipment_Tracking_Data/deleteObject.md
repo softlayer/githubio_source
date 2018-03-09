@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Shipment_Tracking_Data"
 ---
-# SoftLayer_Account_Shipment_Tracking_Data::deleteObject
+# [SoftLayer_Account_Shipment_Tracking_Data](/reference/services/SoftLayer_Account_Shipment_Tracking_Data)::deleteObject
+
+Delete a shipment tracking datum (number)
+
+
 ## Overview 
 deleteObject permanently removes a shipment tracking datum (number) 
 

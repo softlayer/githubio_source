@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::uploadFile
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::uploadFile
+
+Upload a file to a Storage account's root directory.
+
+
 ## Overview 
 {{CloudLayerOnlyMethod}} Upload a file to a Storage account's root directory. Once uploaded, this method returns new file entity identifier for the upload file. 
 

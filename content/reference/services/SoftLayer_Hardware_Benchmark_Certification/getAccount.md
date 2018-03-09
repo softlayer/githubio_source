@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Benchmark_Certification"
 ---
-# SoftLayer_Hardware_Benchmark_Certification::getAccount
+# [SoftLayer_Hardware_Benchmark_Certification](/reference/services/SoftLayer_Hardware_Benchmark_Certification)::getAccount
+
+Retrieve information regarding a benchmark certification result's associated SoftLayer customer account.
+
+
 ## Overview 
 Retrieve information regarding a benchmark certification result's associated SoftLayer customer account.
 

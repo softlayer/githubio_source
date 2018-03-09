@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_Registration_Status"
 ---
-# SoftLayer_Network_Subnet_Registration_Status::getObject
+# [SoftLayer_Network_Subnet_Registration_Status](/reference/services/SoftLayer_Network_Subnet_Registration_Status)::getObject
+
+Retrieve a SoftLayer_Network_Subnet_Registration_Status record.
+
+
 ## Overview 
 
 

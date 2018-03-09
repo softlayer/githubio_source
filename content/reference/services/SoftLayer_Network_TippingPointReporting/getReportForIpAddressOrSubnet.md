@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_TippingPointReporting"
 ---
-# SoftLayer_Network_TippingPointReporting::getReportForIpAddressOrSubnet
+# [SoftLayer_Network_TippingPointReporting](/reference/services/SoftLayer_Network_TippingPointReporting)::getReportForIpAddressOrSubnet
+
+Returns a point-by-point breakdown of all attacks on a particular IP or subnet in the given time period.
+
+
 ## Overview 
 This method expands on the getSubnetReportForEntireAccount method by offering the ability to filter by subnet or IP address. This method is identical to getSubnetReportForEntireAccount, but allows filtering by subnet.  Like in the getSubnetReportForEntireAccount method, CVE and BugTraq IDs are provided, if available. 
 

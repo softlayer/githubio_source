@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::shutdownPrivatePort
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::shutdownPrivatePort
+
+Shuts down the private port
+
+
 ## Overview 
 Shuts down the private network port
 

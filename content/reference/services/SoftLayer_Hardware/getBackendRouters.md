@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getBackendRouters
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getBackendRouters
+
+Retrieve a hardware's backend or private router.
+
+
 ## Overview 
 Retrieve a hardware's backend or private router.
 

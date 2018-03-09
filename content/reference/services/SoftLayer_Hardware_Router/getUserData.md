@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getUserData
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getUserData
+
+Retrieve a string containing custom user data for a hardware order.
+
+
 ## Overview 
 Retrieve a string containing custom user data for a hardware order.
 

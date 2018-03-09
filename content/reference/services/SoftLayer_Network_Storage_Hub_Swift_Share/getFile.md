@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Hub_Swift_Share"
 ---
-# SoftLayer_Network_Storage_Hub_Swift_Share::getFile
+# [SoftLayer_Network_Storage_Hub_Swift_Share](/reference/services/SoftLayer_Network_Storage_Hub_Swift_Share)::getFile
+
+Download a file.
+
+
 ## Overview 
 This method returns a file object given the file's full name. 
 

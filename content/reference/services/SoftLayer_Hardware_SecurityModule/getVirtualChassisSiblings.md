@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getVirtualChassisSiblings
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getVirtualChassisSiblings
+
+Retrieve information regarding the virtual chassis siblings for a piece of hardware.
+
+
 ## Overview 
 Retrieve information regarding the virtual chassis siblings for a piece of hardware.
 

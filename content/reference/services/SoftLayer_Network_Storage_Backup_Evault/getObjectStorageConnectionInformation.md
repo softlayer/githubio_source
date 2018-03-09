@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getObjectStorageConnectionInformation
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getObjectStorageConnectionInformation
+
+Retrieve all object storage details for connection
+
+
 ## Overview 
 
 

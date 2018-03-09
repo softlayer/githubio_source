@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Block_Device_Template_Group"
 ---
-# SoftLayer_Virtual_Guest_Block_Device_Template_Group::getBlockDevicesDiskSpaceTotal
+# [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::getBlockDevicesDiskSpaceTotal
+
+Retrieve the total disk space of all images in a image template group.
+
+
 ## Overview 
 Retrieve the total disk space of all images in a image template group.
 

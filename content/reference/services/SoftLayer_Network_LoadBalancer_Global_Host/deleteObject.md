@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LoadBalancer_Global_Host"
 ---
-# SoftLayer_Network_LoadBalancer_Global_Host::deleteObject
+# [SoftLayer_Network_LoadBalancer_Global_Host](/reference/services/SoftLayer_Network_LoadBalancer_Global_Host)::deleteObject
+
+Remove a host from the load balancing pool of a global load balancer account.
+
+
 ## Overview 
 Remove a host from the load balancing pool of a global load balancer account. 
 

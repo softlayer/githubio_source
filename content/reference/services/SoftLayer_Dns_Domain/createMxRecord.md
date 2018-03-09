@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain"
 ---
-# SoftLayer_Dns_Domain::createMxRecord
+# [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::createMxRecord
+
+Create an MX record on a domain.
+
+
 ## Overview 
 Create an MX record on a SoftLayer domain. This is a shortcut method, meant to take the work out of creating a SoftLayer_Dns_Domain_ResourceRecord if you already have a domain record available. MX records are created with a default priority of 10. createMxRecord returns the newly created SoftLayer_Dns_Domain_ResourceRecord_MxType. 
 

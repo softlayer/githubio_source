@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Currency_ExchangeRate"
 ---
-# SoftLayer_Billing_Currency_ExchangeRate::getFundingCurrency
+# [SoftLayer_Billing_Currency_ExchangeRate](/reference/services/SoftLayer_Billing_Currency_ExchangeRate)::getFundingCurrency
+
+
+
+
 ## Overview 
 
 

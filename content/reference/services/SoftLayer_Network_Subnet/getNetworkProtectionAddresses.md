@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getNetworkProtectionAddresses
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getNetworkProtectionAddresses
+
+
+
+
 ## Overview 
 
 

@@ -39,44 +39,84 @@ classes:
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#poolThreshold" name=poolThreshold>poolThreshold</a></span>
+            <span class='views-field-title'>
+                <a href="#poolThreshold" name=poolThreshold>poolThreshold</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#routerId" name=routerId>routerId</a></span>
+            <span class='views-field-title'>
+                <a href="#routerId" name=routerId>routerId</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#routerName" name=routerName>routerName</a></span>
+            <span class='views-field-title'>
+                <a href="#routerName" name=routerName>routerName</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#totalHardware" name=totalHardware>totalHardware</a></span>
+            <span class='views-field-title'>
+                <a href="#totalHardware" name=totalHardware>totalHardware</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#totalInventoryHardware" name=totalInventoryHardware>totalInventoryHardware</a></span>
+            <span class='views-field-title'>
+                <a href="#totalInventoryHardware" name=totalInventoryHardware>totalInventoryHardware</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#totalProvisionedHardware" name=totalProvisionedHardware>totalProvisionedHardware</a></span>
+            <span class='views-field-title'>
+                <a href="#totalProvisionedHardware" name=totalProvisionedHardware>totalProvisionedHardware</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#totalTestedHardware" name=totalTestedHardware>totalTestedHardware</a></span>
+            <span class='views-field-title'>
+                <a href="#totalTestedHardware" name=totalTestedHardware>totalTestedHardware</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#totalTestingHardware" name=totalTestingHardware>totalTestingHardware</a></span>
+            <span class='views-field-title'>
+                <a href="#totalTestingHardware" name=totalTestingHardware>totalTestingHardware</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
     </div>

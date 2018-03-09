@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding"
 ---
-# SoftLayer_User_Customer_External_Binding::getType
+# [SoftLayer_User_Customer_External_Binding](/reference/services/SoftLayer_User_Customer_External_Binding)::getType
+
+Retrieve the type of external authentication binding.
+
+
 ## Overview 
 Retrieve the type of external authentication binding.
 

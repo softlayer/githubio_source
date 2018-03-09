@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Layout_Profile"
 ---
-# SoftLayer_Layout_Profile::editObject
+# [SoftLayer_Layout_Profile](/reference/services/SoftLayer_Layout_Profile)::editObject
+
+Edit the layout profile object
+
+
 ## Overview 
 This method edits an existing layout profile object by passing in a modified instance of the object. 
 

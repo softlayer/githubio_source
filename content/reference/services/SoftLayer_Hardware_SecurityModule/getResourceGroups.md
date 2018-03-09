@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getResourceGroups
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getResourceGroups
+
+Retrieve the resource groups in which this hardware is a member.
+
+
 ## Overview 
 Retrieve the resource groups in which this hardware is a member.
 

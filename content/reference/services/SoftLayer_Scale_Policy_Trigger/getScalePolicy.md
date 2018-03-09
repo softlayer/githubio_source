@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy_Trigger"
 ---
-# SoftLayer_Scale_Policy_Trigger::getScalePolicy
+# [SoftLayer_Scale_Policy_Trigger](/reference/services/SoftLayer_Scale_Policy_Trigger)::getScalePolicy
+
+Retrieve the policy this trigger is on.
+
+
 ## Overview 
 Retrieve the policy this trigger is on.
 

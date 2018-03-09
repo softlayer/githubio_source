@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getManagedResourceFlag
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getManagedResourceFlag
+
+Retrieve a flag indicating that the hardware is a managed resource.
+
+
 ## Overview 
 Retrieve a flag indicating that the hardware is a managed resource.
 

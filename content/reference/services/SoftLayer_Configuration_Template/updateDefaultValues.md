@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Configuration_Template"
 ---
-# SoftLayer_Configuration_Template::updateDefaultValues
+# [SoftLayer_Configuration_Template](/reference/services/SoftLayer_Configuration_Template)::updateDefaultValues
+
+Updates default configuration values.
+
+
 ## Overview 
 Updates default configuration values. 
 

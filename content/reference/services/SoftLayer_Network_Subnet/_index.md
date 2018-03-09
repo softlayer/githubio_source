@@ -37,7 +37,7 @@ SoftLayer customers can order and manage subnets through the customer portal. If
 
 ### seeAlso
 
-* [SoftLayer_Network_Vlan](/reference/datatypes/SoftLayer_Network_Vlan )
+* [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan )
 
 
 * [SoftLayer_Network_IpAddress](/reference/datatypes/SoftLayer_Network_IpAddress )

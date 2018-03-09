@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Order"
 ---
-# SoftLayer_Product_Order::verifyOrder
+# [SoftLayer_Product_Order](/reference/services/SoftLayer_Product_Order)::verifyOrder
+
+Verify that an order may be successfully placed with the details provided.
+
+
 ## Overview 
 This service is used to verify that an order meets all the necessary requirements to purchase a server, virtual server or service from SoftLayer. It will verify that the products requested do not conflict. For example, you cannot order a Windows firewall with a Linux operating system. It will also check to make sure you have provided all the products that are required for the [[SoftLayer_Product_Package_Order_Configuration (type)|package configuration]] associated with the [[SoftLayer_Product_Package|package id]] on each of the [[SoftLayer_Container_Product_Order (type)|order containers]] specified.<br/><br/> 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getDedicatedHosts
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getDedicatedHosts
+
+Retrieve the dedicated hosts to which the user has been granted access.
+
+
 ## Overview 
 Retrieve the dedicated hosts to which the user has been granted access.
 

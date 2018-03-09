@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getNetworkMonitorUpVirtualGuests
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNetworkMonitorUpVirtualGuests
+
+Retrieve virtual guest which is currently online.
+
+
 ## Overview 
 Retrieve virtual guest which is currently online.
 

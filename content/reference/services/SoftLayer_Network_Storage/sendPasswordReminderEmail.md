@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::sendPasswordReminderEmail
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::sendPasswordReminderEmail
+
+Email the password for the Storage account to the master user.
+
+
 ## Overview 
 The method will retrieve the password for the StorageLayer or Virtual Server Storage Account and email the password.  The Storage Account passwords will be emailed to the master user.  For Virtual Server Storage, the password will be sent to the email address used as the username. 
 

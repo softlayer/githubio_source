@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Disk_Image"
 ---
-# SoftLayer_Virtual_Disk_Image::getStorageRepository
+# [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::getStorageRepository
+
+Retrieve the storage repository that a disk image resides in.
+
+
 ## Overview 
 Retrieve the storage repository that a disk image resides in.
 

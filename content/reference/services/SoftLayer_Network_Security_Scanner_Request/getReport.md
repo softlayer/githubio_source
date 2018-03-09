@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Security_Scanner_Request"
 ---
-# SoftLayer_Network_Security_Scanner_Request::getReport
+# [SoftLayer_Network_Security_Scanner_Request](/reference/services/SoftLayer_Network_Security_Scanner_Request)::getReport
+
+Get the vulnerability report for a scan request.
+
+
 ## Overview 
 Get the vulnerability report for a scan request, formatted as HTML string. Previous scan reports are held indefinitely. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Group"
 ---
-# SoftLayer_Scale_Group::getRegionalGroup
+# [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::getRegionalGroup
+
+Retrieve the regional group for this scale group.
+
+
 ## Overview 
 Retrieve the regional group for this scale group.
 

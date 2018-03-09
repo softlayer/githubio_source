@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getActiveTransactions
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getActiveTransactions
+
+Retrieve any active transaction(s) that are currently running for the server (example: os reload).
+
+
 ## Overview 
 Retrieve any active transaction(s) that are currently running for the server (example: os reload).
 

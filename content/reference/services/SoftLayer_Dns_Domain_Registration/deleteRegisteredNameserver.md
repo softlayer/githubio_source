@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_Registration"
 ---
-# SoftLayer_Dns_Domain_Registration::deleteRegisteredNameserver
+# [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration)::deleteRegisteredNameserver
+
+Deletes a registered nameserver.
+
+
 ## Overview 
 The deleteRegisteredNameserver method deletes a nameserver that was registered, provided it is not currently serving a domain 
 

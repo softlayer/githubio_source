@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getInterface
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getInterface
+
+Retrieve a hardware switch's interface to the bandwidth pod.
+
+
 ## Overview 
 Retrieve a hardware switch's interface to the bandwidth pod.
 

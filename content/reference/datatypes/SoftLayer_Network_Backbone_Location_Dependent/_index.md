@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Network_Backbone_Location_Dependent
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Backbone_Location_Dependent' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Network_Backbone_Location_Dependent' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Backbone_Location_Dependent' >Datatype</a></li>
     </ul>
 </div>
 
@@ -39,34 +39,59 @@ classes:
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#dependentLocationId" name=dependentLocationId>dependentLocationId</a></span>
+            <span class='views-field-title'>
+                <a href="#dependentLocationId" name=dependentLocationId>dependentLocationId</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#sourceLocationId" name=sourceLocationId>sourceLocationId</a></span>
+            <span class='views-field-title'>
+                <a href="#sourceLocationId" name=sourceLocationId>sourceLocationId</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#dependentLocation" name=dependentLocation>dependentLocation</a></span>
+            <span class='views-field-title'>
+                <a href="#dependentLocation" name=dependentLocation>dependentLocation</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#sourceLocation" name=sourceLocation>sourceLocation</a></span>
+            <span class='views-field-title'>
+                <a href="#sourceLocation" name=sourceLocation>sourceLocation</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

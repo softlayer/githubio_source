@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Gateway_Member"
 ---
-# SoftLayer_Network_Gateway_Member::getHardware
+# [SoftLayer_Network_Gateway_Member](/reference/services/SoftLayer_Network_Gateway_Member)::getHardware
+
+Retrieve the device for this member.
+
+
 ## Overview 
 Retrieve the device for this member.
 

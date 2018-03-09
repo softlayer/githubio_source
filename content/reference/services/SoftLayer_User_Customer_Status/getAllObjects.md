@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_Status"
 ---
-# SoftLayer_User_Customer_Status::getAllObjects
+# [SoftLayer_User_Customer_Status](/reference/services/SoftLayer_User_Customer_Status)::getAllObjects
+
+Retrieve all user status objects.
+
+
 ## Overview 
 Retrieve all user status objects.
 

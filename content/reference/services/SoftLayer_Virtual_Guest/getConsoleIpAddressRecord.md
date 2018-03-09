@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getConsoleIpAddressRecord
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getConsoleIpAddressRecord
+
+Retrieve a record containing information about a computing instance's console IP and port number.
+
+
 ## Overview 
 Retrieve a record containing information about a computing instance's console IP and port number.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getUsers
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getUsers
+
+Retrieve a list of users that have access to this computing instance.
+
+
 ## Overview 
 Retrieve a list of users that have access to this computing instance.
 

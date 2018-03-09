@@ -10,7 +10,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::createObjects
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::createObjects
+
+Create new computing instances
+
+
 ## Overview 
 
 createObjects() enables the creation of multiple computing instances on an account in a single call. This 

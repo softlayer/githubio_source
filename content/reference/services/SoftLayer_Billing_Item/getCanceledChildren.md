@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getCanceledChildren
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getCanceledChildren
+
+Retrieve a Billing Item's active child billing items.
+
+
 ## Overview 
 Retrieve a Billing Item's active child billing items.
 

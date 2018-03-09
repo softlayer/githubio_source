@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Gateway_Vlan"
 ---
-# SoftLayer_Network_Gateway_Vlan::getNetworkGateway
+# [SoftLayer_Network_Gateway_Vlan](/reference/services/SoftLayer_Network_Gateway_Vlan)::getNetworkGateway
+
+Retrieve the gateway this VLAN is attached to.
+
+
 ## Overview 
 Retrieve the gateway this VLAN is attached to.
 

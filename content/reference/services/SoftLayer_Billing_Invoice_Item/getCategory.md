@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice_Item"
 ---
-# SoftLayer_Billing_Invoice_Item::getCategory
+# [SoftLayer_Billing_Invoice_Item](/reference/services/SoftLayer_Billing_Invoice_Item)::getCategory
+
+Retrieve this invoice item's "item category". 
+
+
 ## Overview 
 Retrieve this invoice item's "item category". 
 

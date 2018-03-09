@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Category"
 ---
-# SoftLayer_Product_Item_Category::getGroups
+# [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category)::getGroups
+
+Retrieve a collection of service offering category groups. Each group contains a collection of items associated with this category.
+
+
 ## Overview 
 Retrieve a collection of service offering category groups. Each group contains a collection of items associated with this category.
 

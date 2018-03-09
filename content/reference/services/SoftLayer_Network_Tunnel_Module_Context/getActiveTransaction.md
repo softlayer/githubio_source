@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::getActiveTransaction
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getActiveTransaction
+
+Retrieve the transaction that is currently applying configurations for the network tunnel.
+
+
 ## Overview 
 Retrieve the transaction that is currently applying configurations for the network tunnel.
 

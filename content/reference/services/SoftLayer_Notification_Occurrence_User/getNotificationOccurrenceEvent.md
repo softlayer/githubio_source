@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_Occurrence_User"
 ---
-# SoftLayer_Notification_Occurrence_User::getNotificationOccurrenceEvent
+# [SoftLayer_Notification_Occurrence_User](/reference/services/SoftLayer_Notification_Occurrence_User)::getNotificationOccurrenceEvent
+
+Retrieve the associated event.
+
+
 ## Overview 
 Retrieve the associated event.
 

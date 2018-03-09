@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location_Reservation"
 ---
-# SoftLayer_Location_Reservation::getAccountReservations
+# [SoftLayer_Location_Reservation](/reference/services/SoftLayer_Location_Reservation)::getAccountReservations
+
+
+
+
 ## Overview 
 
 

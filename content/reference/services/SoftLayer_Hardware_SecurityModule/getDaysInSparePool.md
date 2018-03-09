@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getDaysInSparePool
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getDaysInSparePool
+
+Retrieve number of day(s) a server have been in spare pool.
+
+
 ## Overview 
 Retrieve number of day(s) a server have been in spare pool.
 

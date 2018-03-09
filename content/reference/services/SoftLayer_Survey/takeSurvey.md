@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Survey"
 ---
-# SoftLayer_Survey::takeSurvey
+# [SoftLayer_Survey](/reference/services/SoftLayer_Survey)::takeSurvey
+
+Respond to the questions that a survey has.
+
+
 ## Overview 
 Response to a SoftLayer survey's questions. 
 

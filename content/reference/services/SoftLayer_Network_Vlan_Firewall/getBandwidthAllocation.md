@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan_Firewall"
 ---
-# SoftLayer_Network_Vlan_Firewall::getBandwidthAllocation
+# [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getBandwidthAllocation
+
+Retrieve a firewall's allotted bandwidth (measured in GB).
+
+
 ## Overview 
 Retrieve a firewall's allotted bandwidth (measured in GB).
 

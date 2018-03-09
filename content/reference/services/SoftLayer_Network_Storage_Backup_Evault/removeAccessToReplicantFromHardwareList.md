@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::removeAccessToReplicantFromHardwareList
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::removeAccessToReplicantFromHardwareList
+
+Remove access to this volume's replica from multiple SoftLayer_Hardware objects.
+
+
 ## Overview 
 This method is used to modify the access control list for this Storage volume's replica.  The SoftLayer_Hardware objects which have been allowed access to this storage volume's replica will be listed in the allowedReplicationHardware property of this storage volume. 
 

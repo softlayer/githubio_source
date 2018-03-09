@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_CdnMarketplace_Configuration_Mapping"
 ---
-# SoftLayer_Network_CdnMarketplace_Configuration_Mapping::listDomainMappings
+# [SoftLayer_Network_CdnMarketplace_Configuration_Mapping](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Mapping)::listDomainMappings
+
+SOAP API will return all domains for a particular customer. 
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order"
 ---
-# SoftLayer_Billing_Order::getUserRecord
+# [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getUserRecord
+
+Retrieve the SoftLayer_User_Customer object tied to an order.
+
+
 ## Overview 
 Retrieve the SoftLayer_User_Customer object tied to an order.
 

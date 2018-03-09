@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getDatacenter
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getDatacenter
+
+Retrieve the data center this subnet may be routed within.
+
+
 ## Overview 
 Retrieve the data center this subnet may be routed within.
 

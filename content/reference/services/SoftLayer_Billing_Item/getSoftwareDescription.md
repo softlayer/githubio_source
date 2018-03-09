@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getSoftwareDescription
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getSoftwareDescription
+
+Retrieve a friendly description of software component
+
+
 ## Overview 
 Retrieve a friendly description of software component
 

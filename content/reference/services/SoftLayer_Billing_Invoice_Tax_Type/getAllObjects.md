@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice_Tax_Type"
 ---
-# SoftLayer_Billing_Invoice_Tax_Type::getAllObjects
+# [SoftLayer_Billing_Invoice_Tax_Type](/reference/services/SoftLayer_Billing_Invoice_Tax_Type)::getAllObjects
+
+
+
+
 ## Overview 
 
 

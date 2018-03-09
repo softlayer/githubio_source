@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Partner_Referral_Prospect"
 ---
-# SoftLayer_Account_Partner_Referral_Prospect::getQuotes
+# [SoftLayer_Account_Partner_Referral_Prospect](/reference/services/SoftLayer_Account_Partner_Referral_Prospect)::getQuotes
+
+
+
+
 ## Overview 
 
 

@@ -39,29 +39,54 @@ OpenStack project creation details
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#domainId" name=domainId>domainId</a></span>
+            <span class='views-field-title'>
+                <a href="#domainId" name=domainId>domainId</a>
+            </span>
             <div class='views-field-body'>Id for the domain this project was added to.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#projectId" name=projectId>projectId</a></span>
+            <span class='views-field-title'>
+                <a href="#projectId" name=projectId>projectId</a>
+            </span>
             <div class='views-field-body'>Id for this project.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#projectName" name=projectName>projectName</a></span>
+            <span class='views-field-title'>
+                <a href="#projectName" name=projectName>projectName</a>
+            </span>
             <div class='views-field-body'>Name for this project.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#userId" name=userId>userId</a></span>
+            <span class='views-field-title'>
+                <a href="#userId" name=userId>userId</a>
+            </span>
             <div class='views-field-body'>Id for the user given the Project Admin role for this project.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#userName" name=userName>userName</a></span>
+            <span class='views-field-title'>
+                <a href="#userName" name=userName>userName</a>
+            </span>
             <div class='views-field-body'>Name for the user given the Project Admin role for this project.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

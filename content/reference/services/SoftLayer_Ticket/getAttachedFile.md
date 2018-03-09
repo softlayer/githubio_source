@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getAttachedFile
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getAttachedFile
+
+Retrieve a file attached to a ticket.
+
+
 ## Overview 
 Retrieve the file attached to a SoftLayer ticket by it's given identifier. To retrieve a list of files attached to a ticket either call the SoftLayer_Ticket::getAttachedFiles method or call SoftLayer_Ticket::getObject with ''attachedFiles'' defined in an object mask. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getDisplaySupportRepresentativeAssignments
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getDisplaySupportRepresentativeAssignments
+
+Retrieve the SoftLayer employees that an account is assigned to.
+
+
 ## Overview 
 Retrieve the SoftLayer employees that an account is assigned to.
 

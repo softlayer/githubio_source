@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getConsoleAccessLog
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getConsoleAccessLog
+
+get console access logs
+
+
 ## Overview 
 Gets the console access logs for a computing instance 
 

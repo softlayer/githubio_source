@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Message_Delivery_Email_Sendgrid"
 ---
-# SoftLayer_Network_Message_Delivery_Email_Sendgrid::sendEmail
+# [SoftLayer_Network_Message_Delivery_Email_Sendgrid](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid)::sendEmail
+
+
+
+
 ## Overview 
 
 

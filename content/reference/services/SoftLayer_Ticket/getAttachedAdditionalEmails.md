@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getAttachedAdditionalEmails
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getAttachedAdditionalEmails
+
+Retrieve the list of additional emails to notify when a ticket update is made.
+
+
 ## Overview 
 Retrieve the list of additional emails to notify when a ticket update is made.
 

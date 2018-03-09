@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getSupportSubscriptions
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSupportSubscriptions
+
+Retrieve the active support subscriptions for this account.
+
+
 ## Overview 
 Retrieve the active support subscriptions for this account.
 

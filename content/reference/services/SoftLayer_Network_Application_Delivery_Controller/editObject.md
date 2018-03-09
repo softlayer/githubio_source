@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller"
 ---
-# SoftLayer_Network_Application_Delivery_Controller::editObject
+# [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::editObject
+
+Edit an application delivery controller record
+
+
 ## Overview 
 Edit an applications delivery controller record. Currently only a controller's notes property is editable. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::getMediaUrls
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getMediaUrls
+
+Returns CDN supported URLs
+
+
 ## Overview 
 This method returns CDN URLs for static file (http), Flash streaming (rtmp) and Window Media (mms) streaming services. You can generate your CDN URLs based on the information retrieved by this method. 
 

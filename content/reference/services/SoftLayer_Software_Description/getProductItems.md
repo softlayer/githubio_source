@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Description"
 ---
-# SoftLayer_Software_Description::getProductItems
+# [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description)::getProductItems
+
+Retrieve the various product items to which this software description is linked.
+
+
 ## Overview 
 Retrieve the various product items to which this software description is linked.
 

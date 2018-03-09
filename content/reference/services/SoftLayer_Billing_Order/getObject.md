@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order"
 ---
-# SoftLayer_Billing_Order::getObject
+# [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getObject
+
+Retrieve a SoftLayer_Billing_Order record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Billing_Order object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Billing_Order service. You can only retrieve orders that are assigned to your portal user's account. 
 

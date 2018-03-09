@@ -39,24 +39,39 @@ The SoftLayer_Hardware_Component_Motherboard_Reboot_Time contains the average re
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#withRaid" name=withRaid>withRaid</a></span>
+            <span class='views-field-title'>
+                <a href="#withRaid" name=withRaid>withRaid</a>
+            </span>
             <div class='views-field-body'>Average reboot time in seconds for the motherboard when raid is installed. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#withoutRaid" name=withoutRaid>withoutRaid</a></span>
+            <span class='views-field-title'>
+                <a href="#withoutRaid" name=withoutRaid>withoutRaid</a>
+            </span>
             <div class='views-field-body'>Average reboot time in seconds for the motherboard when NO raid is installed. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#hardwareComponentModel" name=hardwareComponentModel>hardwareComponentModel</a></span>
+            <span class='views-field-title'>
+                <a href="#hardwareComponentModel" name=hardwareComponentModel>hardwareComponentModel</a>
+            </span>
             <div class='views-field-body'>Motherboard's specifications (manufacturer, version, etc....) </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

@@ -56,7 +56,9 @@ The [[SoftLayer_Hardware/getCreateObjectOptions|getCreateObjectOptions]] method 
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#datacenters" name=datacenters>datacenters</a></span>
+            <span class='views-field-title'>
+                <a href="#datacenters" name=datacenters>datacenters</a>
+            </span>
             <div class='views-field-body'>
 <div style="width: 200%"> 
 Available datacenter options. 
@@ -64,10 +66,15 @@ Available datacenter options.
 
 The <code>datacenter.name</code> value in the template represents which datacenter the server will be provisioned in. 
 </div>  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#fixedConfigurationPresets" name=fixedConfigurationPresets>fixedConfigurationPresets</a></span>
+            <span class='views-field-title'>
+                <a href="#fixedConfigurationPresets" name=fixedConfigurationPresets>fixedConfigurationPresets</a>
+            </span>
             <div class='views-field-body'>
 <div style="width: 200%"> 
 Available fixed configuration preset options. 
@@ -78,10 +85,15 @@ The <code>fixedConfigurationPreset.keyName</code> value in the template is an id
 
 When providing a <code>fixedConfigurationPreset.keyName</code> while ordering a server the <code>processors</code> and <code>hardDrives</code> configuration options cannot be used. 
 </div>  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#hardDrives" name=hardDrives>hardDrives</a></span>
+            <span class='views-field-title'>
+                <a href="#hardDrives" name=hardDrives>hardDrives</a>
+            </span>
             <div class='views-field-body'>
 <div style="width: 200%"> 
 Available hard drive options. 
@@ -92,10 +104,15 @@ A server will have at least one hard drive.
 
 The <code>hardDrives.capacity</code> value in the template represents the size, in gigabytes, of the disk. 
 </div>  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#networkComponents" name=networkComponents>networkComponents</a></span>
+            <span class='views-field-title'>
+                <a href="#networkComponents" name=networkComponents>networkComponents</a>
+            </span>
             <div class='views-field-body'>
 <div style="width: 200%"> 
 Available network component options. 
@@ -103,10 +120,15 @@ Available network component options.
 
 The <code>networkComponent.maxSpeed</code> value in the template represents the link speed, in megabits per second, of the network connections for a server. 
 </div>  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#operatingSystems" name=operatingSystems>operatingSystems</a></span>
+            <span class='views-field-title'>
+                <a href="#operatingSystems" name=operatingSystems>operatingSystems</a>
+            </span>
             <div class='views-field-body'>
 <div style="width: 200%"> 
 Available operating system options. 
@@ -126,10 +148,15 @@ Providing the value of 'LATEST' for a version will select the latest release of 
 
 For Windows based operating systems the version will represent both the release version (2008, 2012, etc) and the edition (Standard, Enterprise, etc). For all other operating systems the version will represent the major version (Centos 6, Ubuntu 12, etc) of that operating system, minor versions are represented in few reference codes where they are significant. 
 </div>  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#processors" name=processors>processors</a></span>
+            <span class='views-field-title'>
+                <a href="#processors" name=processors>processors</a>
+            </span>
             <div class='views-field-body'>
 <div style="width: 200%"> 
 Available processor options. 
@@ -138,7 +165,10 @@ Available processor options.
 The <code>processorCoreAmount</code> value in the template represents the number of cores allocated to the server. 
 The <code>memoryCapacity</code> value in the template represents the amount of memory, in gigabytes, allocated to the server. 
 </div>  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a></p>
+            </div>
         </div>
             </div>
     </div>

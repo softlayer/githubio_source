@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_External_Binding"
 ---
-# SoftLayer_User_External_Binding::deleteObject
+# [SoftLayer_User_External_Binding](/reference/services/SoftLayer_User_External_Binding)::deleteObject
+
+Delete an external authentication binding.
+
+
 ## Overview 
 Delete an external authentication binding.  If the external binding currently has an active billing item associated you will be prevented from deleting the binding.  The alternative method to remove an external authentication binding is to use the service cancellation form. 
 

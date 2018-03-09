@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getManualPaymentsUnderReview
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getManualPaymentsUnderReview
+
+
+
+
 ## Overview 
 
 

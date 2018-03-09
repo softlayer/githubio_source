@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getPublicBandwidthTotal
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getPublicBandwidthTotal
+
+Retrieve total number of public bytes used by a server over time period specified.
+
+
 ## Overview 
 Retrieve the total number of bytes used by a server over a specified time period via the data warehouse tracking objects for this hardware. 
 

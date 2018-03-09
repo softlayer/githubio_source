@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::activatePublicPort
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::activatePublicPort
+
+Activates the public port
+
+
 ## Overview 
 Activates the public network port
 

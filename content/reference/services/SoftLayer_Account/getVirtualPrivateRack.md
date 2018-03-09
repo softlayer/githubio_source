@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getVirtualPrivateRack
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualPrivateRack
+
+Retrieve the bandwidth pooling for this account.
+
+
 ## Overview 
 Retrieve the bandwidth pooling for this account.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LBaaS_Member"
 ---
-# SoftLayer_Network_LBaaS_Member::addLoadBalancerMembers
+# [SoftLayer_Network_LBaaS_Member](/reference/services/SoftLayer_Network_LBaaS_Member)::addLoadBalancerMembers
+
+Add load balancer members
+
+
 ## Overview 
 Add server instances as members to load balancer and return it with listeners, pools and members populated 
 

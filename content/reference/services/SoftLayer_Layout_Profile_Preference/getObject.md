@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Layout_Profile_Preference"
 ---
-# SoftLayer_Layout_Profile_Preference::getObject
+# [SoftLayer_Layout_Profile_Preference](/reference/services/SoftLayer_Layout_Profile_Preference)::getObject
+
+Retrieve a SoftLayer_Layout_Profile_Preference record.
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Shipment"
 ---
-# SoftLayer_Account_Shipment::getCreateUser
+# [SoftLayer_Account_Shipment](/reference/services/SoftLayer_Account_Shipment)::getCreateUser
+
+Retrieve the customer user who created the shipment.
+
+
 ## Overview 
 Retrieve the customer user who created the shipment.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getIscsiLuns
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getIscsiLuns
+
+Retrieve relationship between a container volume and iSCSI LUNs.
+
+
 ## Overview 
 Retrieve relationship between a container volume and iSCSI LUNs.
 

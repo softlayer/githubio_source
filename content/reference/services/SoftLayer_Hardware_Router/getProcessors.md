@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getProcessors
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getProcessors
+
+Retrieve information regarding a piece of hardware's processors.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's processors.
 

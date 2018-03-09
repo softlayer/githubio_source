@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getActiveRegistration
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getActiveRegistration
+
+Retrieve if present, the active registration for this subnet.
+
+
 ## Overview 
 Retrieve if present, the active registration for this subnet.
 

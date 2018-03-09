@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getCurrentBillingDetail
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getCurrentBillingDetail
+
+Get the detail billing data for this instance's current billing period. This excludes bandwidth usage.
+
+
 ## Overview 
 Get the billing detail for this instance for the current billing period. This does not include bandwidth usage. 
 

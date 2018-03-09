@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Interconnect_Tenant"
 ---
-# SoftLayer_Network_Interconnect_Tenant::getAllObjects
+# [SoftLayer_Network_Interconnect_Tenant](/reference/services/SoftLayer_Network_Interconnect_Tenant)::getAllObjects
+
+
+
+
 ## Overview 
 
 

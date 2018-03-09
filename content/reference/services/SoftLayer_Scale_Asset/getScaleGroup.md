@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Asset"
 ---
-# SoftLayer_Scale_Asset::getScaleGroup
+# [SoftLayer_Scale_Asset](/reference/services/SoftLayer_Scale_Asset)::getScaleGroup
+
+Retrieve the group this asset belongs to.
+
+
 ## Overview 
 Retrieve the group this asset belongs to.
 

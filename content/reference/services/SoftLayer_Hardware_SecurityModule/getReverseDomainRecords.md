@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getReverseDomainRecords
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getReverseDomainRecords
+
+Retrieve the reverse domain records associated with a server.
+
+
 ## Overview 
 Retrieve the reverse domain records associated with this server. 
 

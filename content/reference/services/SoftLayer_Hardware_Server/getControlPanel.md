@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getControlPanel
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getControlPanel
+
+Retrieve a server's control panel.
+
+
 ## Overview 
 Retrieve a server's control panel.
 

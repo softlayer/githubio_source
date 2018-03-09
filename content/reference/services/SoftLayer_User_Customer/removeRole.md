@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::removeRole
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::removeRole
+
+
+
+
 ## Overview 
 
 

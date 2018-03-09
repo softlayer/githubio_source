@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Upgrade_Request"
 ---
-# SoftLayer_Product_Upgrade_Request::getCompletedFlag
+# [SoftLayer_Product_Upgrade_Request](/reference/services/SoftLayer_Product_Upgrade_Request)::getCompletedFlag
+
+Retrieve indicates that the upgrade request has completed or has been cancelled.
+
+
 ## Overview 
 Retrieve indicates that the upgrade request has completed or has been cancelled.
 

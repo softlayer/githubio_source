@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_LoadBalancer"
 ---
-# SoftLayer_Scale_LoadBalancer::getVirtualServerPort
+# [SoftLayer_Scale_LoadBalancer](/reference/services/SoftLayer_Scale_LoadBalancer)::getVirtualServerPort
+
+Retrieve the port on the virtual server.
+
+
 ## Overview 
 Retrieve the port on the virtual server.
 

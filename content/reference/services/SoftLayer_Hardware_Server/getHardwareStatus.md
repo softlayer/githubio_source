@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getHardwareStatus
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getHardwareStatus
+
+Retrieve a hardware's status.
+
+
 ## Overview 
 Retrieve a hardware's status.
 

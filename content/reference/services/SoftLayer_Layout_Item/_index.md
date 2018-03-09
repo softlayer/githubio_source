@@ -28,10 +28,10 @@ Each [[SoftLayer_Layout_Container|container]] in the portal contains one or more
 
 ### seeAlso
 
-* [SoftLayer_Layout_Profile](/reference/datatypes/SoftLayer_Layout_Profile )
+* [SoftLayer_Layout_Profile](/reference/services/SoftLayer_Layout_Profile )
 
 
-* [SoftLayer_Layout_Container](/reference/datatypes/SoftLayer_Layout_Container )
+* [SoftLayer_Layout_Container](/reference/services/SoftLayer_Layout_Container )
 
 
 * [SoftLayer_Layout_Preference](/reference/datatypes/SoftLayer_Layout_Preference )

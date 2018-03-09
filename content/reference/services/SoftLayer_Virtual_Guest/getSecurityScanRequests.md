@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getSecurityScanRequests
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getSecurityScanRequests
+
+Retrieve a guest's vulnerability scan requests.
+
+
 ## Overview 
 Retrieve a guest's vulnerability scan requests.
 

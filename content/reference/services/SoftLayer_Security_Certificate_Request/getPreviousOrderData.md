@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Certificate_Request"
 ---
-# SoftLayer_Security_Certificate_Request::getPreviousOrderData
+# [SoftLayer_Security_Certificate_Request](/reference/services/SoftLayer_Security_Certificate_Request)::getPreviousOrderData
+
+Returns previous SSL certificate order data.
+
+
 ## Overview 
 Returns previous SSL certificate order data. You can use this data for to place a renewal order for a completed SSL certificate. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::createCancelServiceTicket
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::createCancelServiceTicket
+
+Create a sales cancel service ticket.
+
+
 ## Overview 
 A cancel service request creates a sales ticket. The hardware ID parameter is required to determine which server is to be cancelled. 
 

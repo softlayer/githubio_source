@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Verisign"
 ---
-# SoftLayer_User_Customer_External_Binding_Verisign::getAttributes
+# [SoftLayer_User_Customer_External_Binding_Verisign](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign)::getAttributes
+
+Retrieve attributes of an external authentication binding.
+
+
 ## Overview 
 Retrieve attributes of an external authentication binding.
 

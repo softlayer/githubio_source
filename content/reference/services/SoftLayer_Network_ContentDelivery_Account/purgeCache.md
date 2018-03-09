@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::purgeCache
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::purgeCache
+
+Purges content on POP
+
+
 ## Overview 
 CDN's cache mechanism works similar to that of web browsers. When CDN pulls a file from your origin server or from your CDN FTP directory for the first time, it creates a cache file on itself. CDN re-uses cache files to save trips to the origin server and thus it speeds up delivering content to visitors. This method removes cached objects on every server in the CDN network. If you see a stale content or a file that send an incorrect header, purging cache will correct the issue. CDN will pull a fresh content from your origin server or your CDN FTP. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan_Firewall"
 ---
-# SoftLayer_Network_Vlan_Firewall::approveBypassRequest
+# [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::approveBypassRequest
+
+Approve a request from technical support to bypass the firewall.
+
+
 ## Overview 
 Approve a request from technical support to bypass the firewall. Once approved, support will be able to route and unroute the VLAN on the firewall. 
 

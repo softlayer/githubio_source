@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::getVendorFtpAttributes
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getVendorFtpAttributes
+
+Returns login credentials to CDN FTP server
+
+
 ## Overview 
 This method returns your login credentials to the public CDN FTP. 
 

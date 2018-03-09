@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Provisioning_Maintenance_Ticket
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Ticket' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Provisioning_Maintenance_Ticket' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Ticket' >Datatype</a></li>
     </ul>
 </div>
 
@@ -39,44 +39,79 @@ classes:
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#maintClassId" name=maintClassId>maintClassId</a></span>
+            <span class='views-field-title'>
+                <a href="#maintClassId" name=maintClassId>maintClassId</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#maintWindowId" name=maintWindowId>maintWindowId</a></span>
+            <span class='views-field-title'>
+                <a href="#maintWindowId" name=maintWindowId>maintWindowId</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#maintenanceDate" name=maintenanceDate>maintenanceDate</a></span>
+            <span class='views-field-title'>
+                <a href="#maintenanceDate" name=maintenanceDate>maintenanceDate</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#ticketId" name=ticketId>ticketId</a></span>
+            <span class='views-field-title'>
+                <a href="#ticketId" name=ticketId>ticketId</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#availableSlots" name=availableSlots>availableSlots</a></span>
+            <span class='views-field-title'>
+                <a href="#availableSlots" name=availableSlots>availableSlots</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Slots'>SoftLayer_Provisioning_Maintenance_Slots </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Slots'>SoftLayer_Provisioning_Maintenance_Slots </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#maintenanceClass" name=maintenanceClass>maintenanceClass</a></span>
+            <span class='views-field-title'>
+                <a href="#maintenanceClass" name=maintenanceClass>maintenanceClass</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification'>SoftLayer_Provisioning_Maintenance_Classification </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification'>SoftLayer_Provisioning_Maintenance_Classification </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#ticket" name=ticket>ticket</a></span>
+            <span class='views-field-title'>
+                <a href="#ticket" name=ticket>ticket</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

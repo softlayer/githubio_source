@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Contact"
 ---
-# SoftLayer_Account_Contact::getAllContactTypes
+# [SoftLayer_Account_Contact](/reference/services/SoftLayer_Account_Contact)::getAllContactTypes
+
+This method retrieves available contact types.
+
+
 ## Overview 
 This method will return an array of SoftLayer_Account_Contact_Type objects which can be used when creating or editing an account contact. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_Occurrence_User"
 ---
-# SoftLayer_Notification_Occurrence_User::acknowledge
+# [SoftLayer_Notification_Occurrence_User](/reference/services/SoftLayer_Notification_Occurrence_User)::acknowledge
+
+Acknowledge the associated [[SoftLayer_Notification_Occurrence_Event]] for this impacted user. 
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getVirtualChassis
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getVirtualChassis
+
+Retrieve information regarding the virtual chassis for a piece of hardware.
+
+
 ## Overview 
 Retrieve information regarding the virtual chassis for a piece of hardware.
 

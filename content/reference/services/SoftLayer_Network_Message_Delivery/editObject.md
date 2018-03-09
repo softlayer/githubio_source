@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Message_Delivery"
 ---
-# SoftLayer_Network_Message_Delivery::editObject
+# [SoftLayer_Network_Message_Delivery](/reference/services/SoftLayer_Network_Message_Delivery)::editObject
+
+
+
+
 ## Overview 
 
 

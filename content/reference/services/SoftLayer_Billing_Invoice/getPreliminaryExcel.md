@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice"
 ---
-# SoftLayer_Billing_Invoice::getPreliminaryExcel
+# [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getPreliminaryExcel
+
+Retrieve a Microsoft Excel copy of an invoice.
+
+
 ## Overview 
 Retrieve a Microsoft Excel record of a SoftLayer invoice. SoftLayer generates Microsoft Excel records of all closed invoices for customer retrieval from the portal and API. You must have a Microsoft Excel reader installed in order to view these invoice files. 
 

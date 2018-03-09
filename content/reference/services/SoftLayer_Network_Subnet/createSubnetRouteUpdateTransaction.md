@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::createSubnetRouteUpdateTransaction
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::createSubnetRouteUpdateTransaction
+
+create a new transaction to modify a subnet route.
+
+
 ## Overview 
 This function is used to create a new transaction to modify a subnet route. Routes are updated in one to two minutes depending on the number of transactions that are pending for a router. 
 

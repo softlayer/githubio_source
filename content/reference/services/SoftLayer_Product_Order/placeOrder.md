@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Order"
 ---
-# SoftLayer_Product_Order::placeOrder
+# [SoftLayer_Product_Order](/reference/services/SoftLayer_Product_Order)::placeOrder
+
+Place an order using the [[SoftLayer_Container_Product_Order]] data type.
+
+
 ## Overview 
 
 Use this method to place bare metal server, virtual server and additional service orders with SoftLayer. Upon success, your credit card or PayPal account will incur charges for the monthly order total (or prorated value if ordered mid billing cycle). If all products on the order are only billed hourly, you will be charged on your billing anniversary date, which occurs monthly on the day you ordered your first service with SoftLayer. For new customers, you are required to provide billing information when you place an order. For existing customers, the credit card on file will be charged. If you're a PayPal customer, a URL will be returned from the call to [[SoftLayer_Product_Order/placeOrder|placeOrder]] which is to be used to finish the authorization process. This authorization tells PayPal that you indeed want to place an order with SoftLayer. From PayPal's web site, you will be redirected back to SoftLayer for your order receipt.<br/><br/> 

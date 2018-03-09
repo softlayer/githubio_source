@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getIops
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getIops
+
+Retrieve the maximum number of IOPs guaranteed for this LUN.
+
+
 ## Overview 
 Retrieve the maximum number of IOPs guaranteed for this LUN.
 

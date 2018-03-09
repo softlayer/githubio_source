@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getRemoteManagementComponent
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getRemoteManagementComponent
+
+Retrieve a hardware's associated remote management component. This is normally IPMI.
+
+
 ## Overview 
 Retrieve a hardware's associated remote management component. This is normally IPMI.
 

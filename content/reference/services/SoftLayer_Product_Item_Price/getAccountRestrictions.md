@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Price"
 ---
-# SoftLayer_Product_Item_Price::getAccountRestrictions
+# [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getAccountRestrictions
+
+Retrieve the account that the item price is restricted to.
+
+
 ## Overview 
 Retrieve the account that the item price is restricted to.
 

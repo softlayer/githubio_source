@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getPrimaryNetworkComponent
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getPrimaryNetworkComponent
+
+Retrieve a guest's primary public network component.
+
+
 ## Overview 
 Retrieve a guest's primary public network component.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::isDuplicateReadyToMount
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::isDuplicateReadyToMount
+
+Displays the status of a clone mount.
+
+
 ## Overview 
 This method returns a boolean indicating whether the clone volume is ready to mount. 
 

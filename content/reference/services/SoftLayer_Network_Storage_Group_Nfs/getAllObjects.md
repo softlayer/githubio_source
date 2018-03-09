@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Group_Nfs"
 ---
-# SoftLayer_Network_Storage_Group_Nfs::getAllObjects
+# [SoftLayer_Network_Storage_Group_Nfs](/reference/services/SoftLayer_Network_Storage_Group_Nfs)::getAllObjects
+
+Returns all network storage groups
+
+
 ## Overview 
 Use this method to retrieve all network storage groups. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getAllowableSubnets
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getAllowableSubnets
+
+Return a list of SoftLayer_Network_Subnet that can be authorized to this volume. 
+
+
 ## Overview 
 This method retrieves a list of SoftLayer_Network_Subnet that can be authorized to this SoftLayer_Network_Storage. 
 

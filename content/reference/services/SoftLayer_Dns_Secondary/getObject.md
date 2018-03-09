@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Secondary"
 ---
-# SoftLayer_Dns_Secondary::getObject
+# [SoftLayer_Dns_Secondary](/reference/services/SoftLayer_Dns_Secondary)::getObject
+
+Retrieve a SoftLayer_Dns_Secondary record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Dns_Secondary object whose ID number corresponds to the ID number of the init paramater passed to the SoftLayer_Dns_Secondary service. You can only retrieve a secondary DNS record that is assigned to your SoftLayer customer account. 
 

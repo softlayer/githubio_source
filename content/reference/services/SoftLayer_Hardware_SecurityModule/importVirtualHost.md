@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::importVirtualHost
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::importVirtualHost
+
+attempt to import the host record for the virtualization platform running on a server
+
+
 ## Overview 
 The '''importVirtualHost''' method attempts to import the host record for the virtualization platform running on a server.
 

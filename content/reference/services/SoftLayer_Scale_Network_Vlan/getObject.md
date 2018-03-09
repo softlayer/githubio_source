@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Network_Vlan"
 ---
-# SoftLayer_Scale_Network_Vlan::getObject
+# [SoftLayer_Scale_Network_Vlan](/reference/services/SoftLayer_Scale_Network_Vlan)::getObject
+
+Retrieve a SoftLayer_Scale_Network_Vlan record.
+
+
 ## Overview 
 
 

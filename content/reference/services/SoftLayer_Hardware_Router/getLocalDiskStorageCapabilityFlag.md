@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getLocalDiskStorageCapabilityFlag
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getLocalDiskStorageCapabilityFlag
+
+Retrieve a flag indicating that a VLAN on the router can be assigned to a host that has local disk functionality.
+
+
 ## Overview 
 Retrieve a flag indicating that a VLAN on the router can be assigned to a host that has local disk functionality.
 

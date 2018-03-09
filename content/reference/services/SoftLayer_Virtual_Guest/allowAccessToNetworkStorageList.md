@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::allowAccessToNetworkStorageList
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::allowAccessToNetworkStorageList
+
+Allow access to multiple SoftLayer_Network_Storage volumes from this device. 
+
+
 ## Overview 
 This method is used to allow access to multiple SoftLayer_Network_Storage volumes that support host- or network-level access control. 
 

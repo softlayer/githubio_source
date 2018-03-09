@@ -24,7 +24,7 @@ Every standard support ticket submitted to SoftLayer contains a relationship to 
 
 ### seeAlso
 
-* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+* [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket )
 
 
 * [SoftLayer_Ticket_Subject (type)](/reference/datatypes/SoftLayer_Ticket_Subject (type) )

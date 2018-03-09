@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getVirtualGuestsWithQuantastor
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualGuestsWithQuantastor
+
+Retrieve all virtual guests associated with an account that have the QuantaStor storage system installed.
+
+
 ## Overview 
 Retrieve all virtual guests associated with an account that have the QuantaStor storage system installed.
 

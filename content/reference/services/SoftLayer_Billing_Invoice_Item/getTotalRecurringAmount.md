@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice_Item"
 ---
-# SoftLayer_Billing_Invoice_Item::getTotalRecurringAmount
+# [SoftLayer_Billing_Invoice_Item](/reference/services/SoftLayer_Billing_Invoice_Item)::getTotalRecurringAmount
+
+Retrieve an invoice Item's total, including any child invoice items if they exist.
+
+
 ## Overview 
 Retrieve an invoice Item's total, including any child invoice items if they exist.
 

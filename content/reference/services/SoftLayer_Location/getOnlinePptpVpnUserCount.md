@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location"
 ---
-# SoftLayer_Location::getOnlinePptpVpnUserCount
+# [SoftLayer_Location](/reference/services/SoftLayer_Location)::getOnlinePptpVpnUserCount
+
+Retrieve the total number of users online using SoftLayer's PPTP VPN service for a location.
+
+
 ## Overview 
 Retrieve the total number of users online using SoftLayer's PPTP VPN service for a location.
 

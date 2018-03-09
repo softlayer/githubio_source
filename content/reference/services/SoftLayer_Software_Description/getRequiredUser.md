@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Description"
 ---
-# SoftLayer_Software_Description::getRequiredUser
+# [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description)::getRequiredUser
+
+Retrieve the default user created for a given a software description.
+
+
 ## Overview 
 Retrieve the default user created for a given a software description.
 

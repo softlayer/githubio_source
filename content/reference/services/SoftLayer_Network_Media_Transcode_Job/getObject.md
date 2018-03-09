@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Media_Transcode_Job"
 ---
-# SoftLayer_Network_Media_Transcode_Job::getObject
+# [SoftLayer_Network_Media_Transcode_Job](/reference/services/SoftLayer_Network_Media_Transcode_Job)::getObject
+
+Retrieve a SoftLayer_Network_Media_Transcode_Job record.
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::generateOrderTemplate
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::generateOrderTemplate
+
+Obtain an order container for a given template object
+
+
 ## Overview 
 
 Obtain an [[SoftLayer_Container_Product_Order_Hardware_Server (type)|order container]] that can be sent to [[SoftLayer_Product_Order/verifyOrder|verifyOrder]] or [[SoftLayer_Product_Order/placeOrder|placeOrder]]. 

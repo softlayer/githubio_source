@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getFileByIdentifier
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getFileByIdentifier
+
+Retrieve an individual file's details.
+
+
 ## Overview 
 {{CloudLayerOnlyMethod}} Retrieve details such as id, name, size, create date of a file within a Storage account. This does not download file content. 
 

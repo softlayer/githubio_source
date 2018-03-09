@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getGlobalIdentifier
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getGlobalIdentifier
+
+Retrieve a hardware's universally unique identifier.
+
+
 ## Overview 
 Retrieve a hardware's universally unique identifier.
 

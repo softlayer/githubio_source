@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan_Firewall"
 ---
-# SoftLayer_Network_Vlan_Firewall::getBillingCyclePublicBandwidthUsage
+# [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getBillingCyclePublicBandwidthUsage
+
+Retrieve the raw public bandwidth usage data for the current billing cycle.
+
+
 ## Overview 
 Retrieve the raw public bandwidth usage data for the current billing cycle.
 

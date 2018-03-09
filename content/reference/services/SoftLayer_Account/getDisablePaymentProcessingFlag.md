@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getDisablePaymentProcessingFlag
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getDisablePaymentProcessingFlag
+
+Retrieve a flag indicating whether payments are processed for this account.
+
+
 ## Overview 
 Retrieve a flag indicating whether payments are processed for this account.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Locale_Country"
 ---
-# SoftLayer_Locale_Country::getAllVatCountryCodesAndVatIdRegexes
+# [SoftLayer_Locale_Country](/reference/services/SoftLayer_Locale_Country)::getAllVatCountryCodesAndVatIdRegexes
+
+
+
+
 ## Overview 
 This method is to get the collection of VAT country codes and VAT ID Regexes. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_DirectLink_Location"
 ---
-# SoftLayer_Network_DirectLink_Location::getCloudExchangeProvider
+# [SoftLayer_Network_DirectLink_Location](/reference/services/SoftLayer_Network_DirectLink_Location)::getCloudExchangeProvider
+
+Retrieve the Id of Direct Link cloud exchange provider.
+
+
 ## Overview 
 Retrieve the Id of Direct Link cloud exchange provider.
 

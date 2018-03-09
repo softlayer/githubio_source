@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getTicketsClosedToday
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getTicketsClosedToday
+
+Retrieve tickets closed today associated with an account.
+
+
 ## Overview 
 Retrieve tickets closed today associated with an account.
 

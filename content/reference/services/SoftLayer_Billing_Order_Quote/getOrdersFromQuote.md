@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Quote"
 ---
-# SoftLayer_Billing_Order_Quote::getOrdersFromQuote
+# [SoftLayer_Billing_Order_Quote](/reference/services/SoftLayer_Billing_Order_Quote)::getOrdersFromQuote
+
+Retrieve these are all the orders that were created from this quote.
+
+
 ## Overview 
 Retrieve these are all the orders that were created from this quote.
 

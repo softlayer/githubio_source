@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getHasAcknowledgedSupportPolicyFlag
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getHasAcknowledgedSupportPolicyFlag
+
+Retrieve whether or not a user has acknowledged the support policy.
+
+
 ## Overview 
 Retrieve whether or not a user has acknowledged the support policy.
 

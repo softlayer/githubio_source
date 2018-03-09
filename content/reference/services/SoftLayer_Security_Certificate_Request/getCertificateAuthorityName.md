@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Certificate_Request"
 ---
-# SoftLayer_Security_Certificate_Request::getCertificateAuthorityName
+# [SoftLayer_Security_Certificate_Request](/reference/services/SoftLayer_Security_Certificate_Request)::getCertificateAuthorityName
+
+Retrieve the Certificate Authority name
+
+
 ## Overview 
 Retrieve the Certificate Authority name
 

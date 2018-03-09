@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getOutboundBandwidthUsage
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getOutboundBandwidthUsage
+
+Retrieve the sum of all the outbound network traffic data for the last 30 days.
+
+
 ## Overview 
 Retrieve the sum of all the outbound network traffic data for the last 30 days.
 

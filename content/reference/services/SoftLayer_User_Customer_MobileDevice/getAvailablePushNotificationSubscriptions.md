@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_MobileDevice"
 ---
-# SoftLayer_User_Customer_MobileDevice::getAvailablePushNotificationSubscriptions
+# [SoftLayer_User_Customer_MobileDevice](/reference/services/SoftLayer_User_Customer_MobileDevice)::getAvailablePushNotificationSubscriptions
+
+Retrieve notification subscriptions available to a mobile device.
+
+
 ## Overview 
 Retrieve notification subscriptions available to a mobile device.
 

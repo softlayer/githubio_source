@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getProvisionTransaction
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getProvisionTransaction
+
+Retrieve provisioning transaction for this billing item
+
+
 ## Overview 
 Retrieve provisioning transaction for this billing item
 

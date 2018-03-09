@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getNetworkVlan
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getNetworkVlan
+
+Retrieve the VLAN object that a subnet is associated with.
+
+
 ## Overview 
 Retrieve the VLAN object that a subnet is associated with.
 

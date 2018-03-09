@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getOpenIdRegistrationInfoFromCode
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getOpenIdRegistrationInfoFromCode
+
+Get OpenId User Registration details from the provided email code
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Storage_Repository"
 ---
-# SoftLayer_Virtual_Storage_Repository::getPublicImageDiskUsageRatePerGb
+# [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getPublicImageDiskUsageRatePerGb
+
+The rate that is charged for publishing every 1 gigabyte of data for an image template 
+
+
 ## Overview 
 Returns the public image storage disk usage fee rate per gigabyte. 
 

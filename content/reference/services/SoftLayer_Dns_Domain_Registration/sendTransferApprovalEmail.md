@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_Registration"
 ---
-# SoftLayer_Dns_Domain_Registration::sendTransferApprovalEmail
+# [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration)::sendTransferApprovalEmail
+
+Resends a transfer approval email message.
+
+
 ## Overview 
 The sendTransferApprovalEmail method resends a transfer approval email message for a transfer that is in 'pending owner approval' state, to the admin contact listed for the domain at the time that the transfer request was submitted 
 

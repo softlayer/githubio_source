@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getInvoices
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getInvoices
+
+Retrieve an account's associated billing invoices.
+
+
 ## Overview 
 Retrieve an account's associated billing invoices.
 

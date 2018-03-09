@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
-# SoftLayer_Network_Bandwidth_Version1_Allotment::getProjectedOverBandwidthAllocationFlag
+# [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getProjectedOverBandwidthAllocationFlag
+
+Retrieve whether the bandwidth usage for this bandwidth pool for the current billing cycle is projected to exceed the allocation.
+
+
 ## Overview 
 Retrieve whether the bandwidth usage for this bandwidth pool for the current billing cycle is projected to exceed the allocation.
 

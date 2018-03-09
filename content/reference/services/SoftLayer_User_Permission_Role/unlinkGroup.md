@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Permission_Role"
 ---
-# SoftLayer_User_Permission_Role::unlinkGroup
+# [SoftLayer_User_Permission_Role](/reference/services/SoftLayer_User_Permission_Role)::unlinkGroup
+
+
+
+
 ## Overview 
 
 

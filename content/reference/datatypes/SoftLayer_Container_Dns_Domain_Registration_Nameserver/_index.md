@@ -39,9 +39,14 @@ Nameserver container for domain registration
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#nameservers" name=nameservers>nameservers</a></span>
+            <span class='views-field-title'>
+                <a href="#nameservers" name=nameservers>nameservers</a>
+            </span>
             <div class='views-field-body'>The list of fully qualified names of the nameserver. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Nameserver_List'>SoftLayer_Container_Dns_Domain_Registration_Nameserver_List[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Nameserver_List'>SoftLayer_Container_Dns_Domain_Registration_Nameserver_List[] </a></p>
+            </div>
         </div>
             </div>
     </div>

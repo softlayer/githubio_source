@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand"
 ---
-# SoftLayer_Brand::getContactInformation
+# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getContactInformation
+
+Retrieve the contact information for the customer account brand.
+
+
 ## Overview 
 Retrieve the contact information for the brand such as the corporate or support contact.  This will include the contact name, telephone number, fax number, email address, and mailing address of the contact. 
 

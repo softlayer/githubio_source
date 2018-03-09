@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getFrontendNetworkComponents
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getFrontendNetworkComponents
+
+Retrieve a piece of hardware's front-end or public network components.
+
+
 ## Overview 
 Retrieve a piece of hardware's front-end or public network components.
 

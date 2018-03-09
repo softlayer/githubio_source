@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy"
 ---
-# SoftLayer_Scale_Policy::getScaleGroup
+# [SoftLayer_Scale_Policy](/reference/services/SoftLayer_Scale_Policy)::getScaleGroup
+
+Retrieve the group this policy is on.
+
+
 ## Overview 
 Retrieve the group this policy is on.
 

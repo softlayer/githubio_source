@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getMemoryCapacity
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getMemoryCapacity
+
+Retrieve the amount of memory a piece of hardware has, measured in gigabytes.
+
+
 ## Overview 
 Retrieve the amount of memory a piece of hardware has, measured in gigabytes.
 

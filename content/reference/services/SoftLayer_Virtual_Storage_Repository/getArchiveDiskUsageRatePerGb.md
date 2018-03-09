@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Storage_Repository"
 ---
-# SoftLayer_Virtual_Storage_Repository::getArchiveDiskUsageRatePerGb
+# [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getArchiveDiskUsageRatePerGb
+
+The rate that is charged for archiving every 1 gigabyte of data for a computing instance 
+
+
 ## Overview 
 Returns the archive storage disk usage fee rate per gigabyte. 
 

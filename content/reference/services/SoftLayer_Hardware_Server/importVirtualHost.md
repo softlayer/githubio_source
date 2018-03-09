@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::importVirtualHost
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::importVirtualHost
+
+attempt to import the host record for the virtualization platform running on a server
+
+
 ## Overview 
 The '''importVirtualHost''' method attempts to import the host record for the virtualization platform running on a server.
 

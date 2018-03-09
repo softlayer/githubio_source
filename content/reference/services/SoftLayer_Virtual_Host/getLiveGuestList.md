@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Host"
 ---
-# SoftLayer_Virtual_Host::getLiveGuestList
+# [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::getLiveGuestList
+
+Query a virtualization platform directly to retrieve a list of known guests. 
+
+
 ## Overview 
 Query a virtualization platform directly to retrieve a list of known guests. 
 

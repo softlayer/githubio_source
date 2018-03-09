@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::clearNetworkVlanTrunks
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::clearNetworkVlanTrunks
+
+Remove all VLANs trunked to this port.
+
+
 ## Overview 
 This method will remove all VLANs trunked to this network component. The native VLAN (networkVlanId/networkVlan) will remain active, and cannot be removed via the API. Returns a list of SoftLayer_Network_Vlan objects for which the trunks were removed. 
 

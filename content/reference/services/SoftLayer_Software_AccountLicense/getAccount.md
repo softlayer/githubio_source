@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_AccountLicense"
 ---
-# SoftLayer_Software_AccountLicense::getAccount
+# [SoftLayer_Software_AccountLicense](/reference/services/SoftLayer_Software_AccountLicense)::getAccount
+
+Retrieve the customer account this Account License belongs to.
+
+
 ## Overview 
 Retrieve the customer account this Account License belongs to.
 

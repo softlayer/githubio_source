@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHourlyServiceBillingItems
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHourlyServiceBillingItems
+
+Retrieve hourly service billing items that will be on an account's next invoice.
+
+
 ## Overview 
 Retrieve hourly service billing items that will be on an account's next invoice.
 

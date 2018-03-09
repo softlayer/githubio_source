@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Certificate"
 ---
-# SoftLayer_Security_Certificate::getAssociatedServiceCount
+# [SoftLayer_Security_Certificate](/reference/services/SoftLayer_Security_Certificate)::getAssociatedServiceCount
+
+Retrieve the number of services currently associated with the certificate.
+
+
 ## Overview 
 Retrieve the number of services currently associated with the certificate.
 

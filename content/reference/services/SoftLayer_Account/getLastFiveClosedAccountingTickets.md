@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getLastFiveClosedAccountingTickets
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getLastFiveClosedAccountingTickets
+
+Retrieve the five most recently closed accounting tickets associated with an account.
+
+
 ## Overview 
 Retrieve the five most recently closed accounting tickets associated with an account.
 

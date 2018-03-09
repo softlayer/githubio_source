@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_CdnMarketplace_Vendor"
 ---
-# SoftLayer_Network_CdnMarketplace_Vendor::getObject
+# [SoftLayer_Network_CdnMarketplace_Vendor](/reference/services/SoftLayer_Network_CdnMarketplace_Vendor)::getObject
+
+Retrieve a SoftLayer_Network_CdnMarketplace_Vendor record.
+
+
 ## Overview 
 
 

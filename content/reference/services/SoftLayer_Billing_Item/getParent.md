@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getParent
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getParent
+
+Retrieve a billing item's parent item. If a billing item has no parent item then this value is null.
+
+
 ## Overview 
 Retrieve a billing item's parent item. If a billing item has no parent item then this value is null.
 

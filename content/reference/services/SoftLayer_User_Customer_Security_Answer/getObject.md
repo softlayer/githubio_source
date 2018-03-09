@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_Security_Answer"
 ---
-# SoftLayer_User_Customer_Security_Answer::getObject
+# [SoftLayer_User_Customer_Security_Answer](/reference/services/SoftLayer_User_Customer_Security_Answer)::getObject
+
+Retrieve a SoftLayer_User_Customer_Security_Answer record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_User_Customer_Security_Answer object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_User_Customer_Security_Answer service. 
 

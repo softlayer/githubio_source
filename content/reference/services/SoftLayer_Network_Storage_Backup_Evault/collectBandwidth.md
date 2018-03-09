@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::collectBandwidth
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::collectBandwidth
+
+Retrieve the bandwidth usage for the current billing cycle.
+
+
 ## Overview 
 {{CloudLayerOnlyMethod}} 
 

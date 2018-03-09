@@ -50,29 +50,54 @@ SoftLayer_Container_Bandwidth_GraphInputs models a single inbound object for a g
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#endDate" name=endDate>endDate</a></span>
+            <span class='views-field-title'>
+                <a href="#endDate" name=endDate>endDate</a>
+            </span>
             <div class='views-field-body'>This is a unix timestamp that represents the stop date/time for a graph. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#networkInterfaceId" name=networkInterfaceId>networkInterfaceId</a></span>
+            <span class='views-field-title'>
+                <a href="#networkInterfaceId" name=networkInterfaceId>networkInterfaceId</a>
+            </span>
             <div class='views-field-body'>The front-end or back-end network uplink interface associated with this server. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#pod" name=pod>pod</a></span>
+            <span class='views-field-title'>
+                <a href="#pod" name=pod>pod</a>
+            </span>
             <div class='views-field-body'>* </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#serverName" name=serverName>serverName</a></span>
+            <span class='views-field-title'>
+                <a href="#serverName" name=serverName>serverName</a>
+            </span>
             <div class='views-field-body'>This is a human readable name for the server or rack being graphed. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#startDate" name=startDate>startDate</a></span>
+            <span class='views-field-title'>
+                <a href="#startDate" name=startDate>startDate</a>
+            </span>
             <div class='views-field-body'>This is a unix timestamp that represents the begin date/time for a graph. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>dateTime</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
         </div>
             </div>
     </div>

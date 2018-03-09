@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getProcessorPhysicalCoreAmount
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getProcessorPhysicalCoreAmount
+
+Retrieve the total number of physical processor cores, summed from all processors that are attached to a piece of hardware
+
+
 ## Overview 
 Retrieve the total number of physical processor cores, summed from all processors that are attached to a piece of hardware
 

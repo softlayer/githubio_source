@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Monitor_Version1_Query_Host"
 ---
-# SoftLayer_Network_Monitor_Version1_Query_Host::getLastResult
+# [SoftLayer_Network_Monitor_Version1_Query_Host](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host)::getLastResult
+
+Retrieve the most recent result for this particular monitoring instance.
+
+
 ## Overview 
 Retrieve the most recent result for this particular monitoring instance.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
-# SoftLayer_Network_Bandwidth_Version1_Allotment::getMetricTrackingObjectId
+# [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getMetricTrackingObjectId
+
+Retrieve the metric tracking object id for this allotment.
+
+
 ## Overview 
 Retrieve the metric tracking object id for this allotment.
 

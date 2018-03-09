@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::removeAccessToNetworkStorageList
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::removeAccessToNetworkStorageList
+
+Remove access to multiple SoftLayer_Network_Storage volumes from this device. 
+
+
 ## Overview 
 This method is used to allow access to multiple SoftLayer_Network_Storage volumes that support host- or network-level access control. 
 

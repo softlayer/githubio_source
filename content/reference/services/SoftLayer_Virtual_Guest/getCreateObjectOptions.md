@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getCreateObjectOptions
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getCreateObjectOptions
+
+Determine options available when creating a computing instance
+
+
 ## Overview 
 
 There are many options that may be provided while ordering a computing instance, this method can be used to determine what these options are. 

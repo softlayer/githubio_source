@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getSecurityAnswers
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getSecurityAnswers
+
+Retrieve a portal user's security question answers. Some portal users may not have security answers or may not be configured to require answering a security question on login.
+
+
 ## Overview 
 Retrieve a portal user's security question answers. Some portal users may not have security answers or may not be configured to require answering a security question on login.
 

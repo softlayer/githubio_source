@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::checkPhoneFactorAuthenticationForPasswordSet
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::checkPhoneFactorAuthenticationForPasswordSet
+
+Check the status of an outstanding Phone Factor Authentication for Password Set
+
+
 ## Overview 
 Add a description here 
 

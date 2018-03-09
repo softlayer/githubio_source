@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getSurveyRequiredFlag
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getSurveyRequiredFlag
+
+Retrieve whether or not a user must take a brief survey the next time they log into the SoftLayer customer portal.
+
+
 ## Overview 
 Retrieve whether or not a user must take a brief survey the next time they log into the SoftLayer customer portal.
 

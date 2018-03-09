@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getHardDrives
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getHardDrives
+
+Retrieve the hard drives contained within a piece of hardware.
+
+
 ## Overview 
 Retrieve the hard drives contained within a piece of hardware.
 

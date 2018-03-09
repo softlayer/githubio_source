@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::getDiffieHellmanGroupOptions
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getDiffieHellmanGroupOptions
+
+Returns the diffie-hellman group options.
+
+
 ## Overview 
 The Diffie-Hellman group options used for both phases of the negotiation process. 
 

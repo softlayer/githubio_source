@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::findByIpAddress
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::findByIpAddress
+
+Find CCI by its primary public or private IP (ipv4) address.
+
+
 ## Overview 
 Find CCI by only its primary public or private IP address. IP addresses within secondary subnets tied to the CCI will not return the CCI. If no CCI is found, no errors are generated and no data is returned. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getUpgradeItemPrices
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getUpgradeItemPrices
+
+Retrieve a list of upgradable items available to a piece of hardware.
+
+
 ## Overview 
 Retrieve a list of upgradeable items available to this piece of hardware. Currently, getUpgradeItemPrices retrieves upgrades available for a server's memory, hard drives, network port speed, bandwidth allocation and GPUs. 
 

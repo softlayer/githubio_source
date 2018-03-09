@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::removeAssociationId
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::removeAssociationId
+
+Remove an association from an orphan billing item.
+
+
 ## Overview 
 Remove the association from a billing item. 
 

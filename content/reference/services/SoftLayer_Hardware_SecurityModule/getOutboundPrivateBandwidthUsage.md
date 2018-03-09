@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getOutboundPrivateBandwidthUsage
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getOutboundPrivateBandwidthUsage
+
+Retrieve the total private outbound bandwidth for this hardware for the current billing cycle.
+
+
 ## Overview 
 Retrieve the total private outbound bandwidth for this hardware for the current billing cycle.
 

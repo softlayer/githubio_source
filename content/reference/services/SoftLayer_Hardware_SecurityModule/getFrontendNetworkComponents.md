@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getFrontendNetworkComponents
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getFrontendNetworkComponents
+
+Retrieve a piece of hardware's front-end or public network components.
+
+
 ## Overview 
 Retrieve a piece of hardware's front-end or public network components.
 

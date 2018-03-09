@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getServerRoom
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getServerRoom
+
+Retrieve information regarding the server room in which the hardware is located.
+
+
 ## Overview 
 Retrieve information regarding the server room in which the hardware is located.
 

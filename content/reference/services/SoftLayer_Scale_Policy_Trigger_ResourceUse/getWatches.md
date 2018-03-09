@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy_Trigger_ResourceUse"
 ---
-# SoftLayer_Scale_Policy_Trigger_ResourceUse::getWatches
+# [SoftLayer_Scale_Policy_Trigger_ResourceUse](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse)::getWatches
+
+Retrieve the resource watches for this trigger.
+
+
 ## Overview 
 Retrieve the resource watches for this trigger.
 

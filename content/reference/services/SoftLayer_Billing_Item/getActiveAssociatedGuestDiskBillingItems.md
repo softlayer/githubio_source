@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getActiveAssociatedGuestDiskBillingItems
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getActiveAssociatedGuestDiskBillingItems
+
+
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getHardware
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getHardware
+
+Retrieve the hardware that a network component resides in.
+
+
 ## Overview 
 Retrieve the hardware that a network component resides in.
 

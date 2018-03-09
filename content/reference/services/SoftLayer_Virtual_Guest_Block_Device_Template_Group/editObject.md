@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Block_Device_Template_Group"
 ---
-# SoftLayer_Virtual_Guest_Block_Device_Template_Group::editObject
+# [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::editObject
+
+Edit an image template group's name and note.
+
+
 ## Overview 
 Edit an image template group's associated name and note. All other properties in the SoftLayer_Virtual_Guest_Block_Device_Template_Group data type are read-only. 
 

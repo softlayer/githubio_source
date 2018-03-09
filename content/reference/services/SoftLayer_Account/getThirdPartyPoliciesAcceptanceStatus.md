@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getThirdPartyPoliciesAcceptanceStatus
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getThirdPartyPoliciesAcceptanceStatus
+
+Get the acceptance status of the applicable third-party policies.
+
+
 ## Overview 
 Returns multiple [[SoftLayer_Container_Policy_Acceptance]] that represent the acceptance status of the applicable third-party policies for this account. 
 

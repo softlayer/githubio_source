@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getObject
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getObject
+
+Retrieve a SoftLayer_Hardware_Server record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Hardware_Server object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Hardware service. You can only retrieve servers from the account that your portal user is assigned to. 
 

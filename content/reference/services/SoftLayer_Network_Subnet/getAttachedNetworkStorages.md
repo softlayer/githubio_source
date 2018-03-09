@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getAttachedNetworkStorages
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getAttachedNetworkStorages
+
+Return a list of SoftLayer_Network_Storage volumes authorized to this device. 
+
+
 ## Overview 
 This method is retrieve a list of SoftLayer_Network_Storage volumes that are authorized access to this SoftLayer_Network_Subnet. 
 

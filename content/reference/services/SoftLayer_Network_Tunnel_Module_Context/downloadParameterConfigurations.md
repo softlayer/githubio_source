@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::downloadParameterConfigurations
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::downloadParameterConfigurations
+
+Returns IPSec VPN tunnel configurations in a text file.
+
+
 ## Overview 
 Provides all of the configurations for an IPSec VPN network tunnel in a text file 
 

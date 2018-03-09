@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getTranscodeAccounts
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getTranscodeAccounts
+
+Retrieve an account's associated Transcode account.
+
+
 ## Overview 
 Retrieve an account's associated Transcode account.
 

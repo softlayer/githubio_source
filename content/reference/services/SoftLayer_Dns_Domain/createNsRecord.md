@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain"
 ---
-# SoftLayer_Dns_Domain::createNsRecord
+# [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::createNsRecord
+
+Create an NS record on a domain.
+
+
 ## Overview 
 Create an NS record on a SoftLayer domain. This is a shortcut method, meant to take the work out of creating a SoftLayer_Dns_Domain_ResourceRecord if you already have a domain record available. createNsRecord returns the newly created SoftLayer_Dns_Domain_ResourceRecord_NsType. 
 

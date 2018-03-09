@@ -45,24 +45,44 @@ SoftLayer_Container_Network_Bandwidth_Data_Summary models an interface's overall
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#allowedUsage" name=allowedUsage>allowedUsage</a></span>
+            <span class='views-field-title'>
+                <a href="#allowedUsage" name=allowedUsage>allowedUsage</a>
+            </span>
             <div class='views-field-body'>The amount of bandwidth a server has allocated to it in it's current billing period. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>float</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>float</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#estimatedUsage" name=estimatedUsage>estimatedUsage</a></span>
+            <span class='views-field-title'>
+                <a href="#estimatedUsage" name=estimatedUsage>estimatedUsage</a>
+            </span>
             <div class='views-field-body'>The amount of bandwidth that a server has used within it's current billing period. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>float</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>float</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#projectedUsage" name=projectedUsage>projectedUsage</a></span>
+            <span class='views-field-title'>
+                <a href="#projectedUsage" name=projectedUsage>projectedUsage</a>
+            </span>
             <div class='views-field-body'>The amount of bandwidth a server is projected to use within its billing period, based on it's current usage. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>float</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>float</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#usageUnits" name=usageUnits>usageUnits</a></span>
+            <span class='views-field-title'>
+                <a href="#usageUnits" name=usageUnits>usageUnits</a>
+            </span>
             <div class='views-field-body'>The unit of measurement used in a bandwidth data summary. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

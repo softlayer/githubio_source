@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getCancellationRequests
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getCancellationRequests
+
+Retrieve this will return any cancellation requests that are associated with this billing item.
+
+
 ## Overview 
 Retrieve this will return any cancellation requests that are associated with this billing item.
 

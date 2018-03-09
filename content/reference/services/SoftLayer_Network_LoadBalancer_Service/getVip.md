@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LoadBalancer_Service"
 ---
-# SoftLayer_Network_LoadBalancer_Service::getVip
+# [SoftLayer_Network_LoadBalancer_Service](/reference/services/SoftLayer_Network_LoadBalancer_Service)::getVip
+
+Retrieve the load balancer that this service belongs to.
+
+
 ## Overview 
 Retrieve the load balancer that this service belongs to.
 

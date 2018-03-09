@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item_Virtual_DedicatedHost"
 ---
-# SoftLayer_Billing_Item_Virtual_DedicatedHost::cancelServiceOnAnniversaryDate
+# [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::cancelServiceOnAnniversaryDate
+
+Cancel a service or resource on the next bill date
+
+
 ## Overview 
 Cancel the resource or service for a billing Item 
 

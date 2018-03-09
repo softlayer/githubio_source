@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location"
 ---
-# SoftLayer_Location::getActivePresaleEvents
+# [SoftLayer_Location](/reference/services/SoftLayer_Location)::getActivePresaleEvents
+
+
+
+
 ## Overview 
 
 

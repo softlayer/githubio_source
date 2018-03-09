@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller"
 ---
-# SoftLayer_Network_Application_Delivery_Controller::restoreBaseConfiguration
+# [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::restoreBaseConfiguration
+
+Restore an application delivery controller's base configuration state.
+
+
 ## Overview 
 Restore an application delivery controller's base configuration state. The configuration will be set to what it was when initially provisioned. 
 

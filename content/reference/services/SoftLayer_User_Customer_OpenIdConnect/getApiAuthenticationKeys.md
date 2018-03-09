@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getApiAuthenticationKeys
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getApiAuthenticationKeys
+
+Retrieve a portal user's API Authentication keys. There is a max limit of two API keys per user.
+
+
 ## Overview 
 Retrieve a portal user's API Authentication keys. There is a max limit of two API keys per user.
 

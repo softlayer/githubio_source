@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getMonitoringAgents
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getMonitoringAgents
+
+Retrieve information regarding the monitoring agents associated with a piece of hardware.
+
+
 ## Overview 
 Retrieve information regarding the monitoring agents associated with a piece of hardware.
 

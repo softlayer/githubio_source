@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getDatacenter
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getDatacenter
+
+Retrieve information regarding the datacenter in which a piece of hardware resides.
+
+
 ## Overview 
 Retrieve information regarding the datacenter in which a piece of hardware resides.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Media"
 ---
-# SoftLayer_Account_Media::getCreateUser
+# [SoftLayer_Account_Media](/reference/services/SoftLayer_Account_Media)::getCreateUser
+
+Retrieve the customer user who created the media object.
+
+
 ## Overview 
 Retrieve the customer user who created the media object.
 

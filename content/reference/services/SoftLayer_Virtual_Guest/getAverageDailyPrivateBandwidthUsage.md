@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getAverageDailyPrivateBandwidthUsage
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getAverageDailyPrivateBandwidthUsage
+
+Retrieve the average daily private bandwidth usage for the current billing cycle.
+
+
 ## Overview 
 Retrieve the average daily private bandwidth usage for the current billing cycle.
 

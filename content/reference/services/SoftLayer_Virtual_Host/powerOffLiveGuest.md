@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Host"
 ---
-# SoftLayer_Virtual_Host::powerOffLiveGuest
+# [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::powerOffLiveGuest
+
+Power off a guest.
+
+
 ## Overview 
 Power off a virtual guest 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Category"
 ---
-# SoftLayer_Product_Item_Category::getTopLevelCategories
+# [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category)::getTopLevelCategories
+
+Returns a collection of top-level categories.
+
+
 ## Overview 
 This method returns a collection of computing categories. These categories are also top level items in a service offering. 
 

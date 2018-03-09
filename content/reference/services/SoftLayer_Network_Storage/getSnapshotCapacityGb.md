@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getSnapshotCapacityGb
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getSnapshotCapacityGb
+
+Retrieve a volume's configured snapshot space size.
+
+
 ## Overview 
 Retrieve a volume's configured snapshot space size.
 

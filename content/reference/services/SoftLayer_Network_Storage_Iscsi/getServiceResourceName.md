@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getServiceResourceName
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getServiceResourceName
+
+Retrieve the name of a Storage's network resource.
+
+
 ## Overview 
 Retrieve the name of a Storage's network resource.
 

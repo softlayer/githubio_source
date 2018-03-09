@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_Registration"
 ---
-# SoftLayer_Dns_Domain_Registration::removeNameserversFromDomain
+# [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration)::removeNameserversFromDomain
+
+Removes nameservers from a domain.
+
+
 ## Overview 
 The removeNameserversFromDomain method removes nameservers from a domain for a domain that already has nameservers assigned to it. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getCustomerOwnedFlag
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getCustomerOwnedFlag
+
+Retrieve indicates if a server is a customer owned device.
+
+
 ## Overview 
 Retrieve indicates if a server is a customer owned device.
 

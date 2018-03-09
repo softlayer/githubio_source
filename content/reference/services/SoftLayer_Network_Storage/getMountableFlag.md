@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getMountableFlag
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getMountableFlag
+
+Retrieve whether or not a network storage volume may be mounted.
+
+
 ## Overview 
 Retrieve whether or not a network storage volume may be mounted.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Group_Iscsi"
 ---
-# SoftLayer_Network_Storage_Group_Iscsi::getOsType
+# [SoftLayer_Network_Storage_Group_Iscsi](/reference/services/SoftLayer_Network_Storage_Group_Iscsi)::getOsType
+
+Retrieve the OS Type this group is configured for.
+
+
 ## Overview 
 Retrieve the OS Type this group is configured for.
 

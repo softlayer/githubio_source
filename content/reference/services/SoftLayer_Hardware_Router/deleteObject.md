@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::deleteObject
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::deleteObject
+
+Delete a server
+
+
 ## Overview 
 
 This method will cancel a server effective immediately. For servers billed hourly, the charges will stop immediately after the method returns. 

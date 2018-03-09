@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getIbmIdAuthenticationRequiredFlag
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getIbmIdAuthenticationRequiredFlag
+
+Retrieve indicates whether this account requires IBMid authentication.
+
+
 ## Overview 
 Retrieve indicates whether this account requires IBMid authentication.
 

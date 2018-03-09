@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan_Firewall"
 ---
-# SoftLayer_Network_Vlan_Firewall::isHighAvailabilityUpgradeAvailable
+# [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::isHighAvailabilityUpgradeAvailable
+
+
+
+
 ## Overview 
 Whether this firewall qualifies for High Availability upgrade. 
 

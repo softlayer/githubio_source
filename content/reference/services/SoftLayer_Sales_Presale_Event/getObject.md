@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Sales_Presale_Event"
 ---
-# SoftLayer_Sales_Presale_Event::getObject
+# [SoftLayer_Sales_Presale_Event](/reference/services/SoftLayer_Sales_Presale_Event)::getObject
+
+Retrieve a SoftLayer_Sales_Presale_Event record.
+
+
 ## Overview 
 '''getObject''' retrieves the [[SoftLayer_Sales_Presale_Event]] object whose id number corresponds to the id number of the init parameter passed to the SoftLayer_Sales_Presale_Event service. Customers may only retrieve presale events that are currently active. 
 

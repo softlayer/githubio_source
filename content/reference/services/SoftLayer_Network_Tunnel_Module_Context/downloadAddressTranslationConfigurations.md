@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::downloadAddressTranslationConfigurations
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::downloadAddressTranslationConfigurations
+
+Returns IPSec VPN tunnel address translation configurations in a text file.
+
+
 ## Overview 
 Provides all of the address translation configurations for an IPSec VPN tunnel in a text file 
 

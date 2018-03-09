@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getTagReferences
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getTagReferences
+
+Retrieve references to all tags for this VLAN.
+
+
 ## Overview 
 Retrieve references to all tags for this VLAN.
 

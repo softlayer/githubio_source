@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Metric_Tracking_Object"
 ---
-# SoftLayer_Metric_Tracking_Object::getMetricDataTypes
+# [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getMetricDataTypes
+
+Returns valid metric data types for a tracking object
+
+
 ## Overview 
 Returns a collection of metric data types that can be retrieved for a metric tracking object. 
 

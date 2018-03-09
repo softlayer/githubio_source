@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getActiveSoftwareItems
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getActiveSoftwareItems
+
+Retrieve a collection of valid software items available for purchase in this package.
+
+
 ## Overview 
 Retrieve a collection of valid software items available for purchase in this package.
 

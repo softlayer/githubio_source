@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_DirectLink_CloudExchangeProvider"
 ---
-# SoftLayer_Network_DirectLink_CloudExchangeProvider::getObject
+# [SoftLayer_Network_DirectLink_CloudExchangeProvider](/reference/services/SoftLayer_Network_DirectLink_CloudExchangeProvider)::getObject
+
+Retrieve a SoftLayer_Network_DirectLink_CloudExchangeProvider record.
+
+
 ## Overview 
 
 

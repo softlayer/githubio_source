@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_DedicatedHost"
 ---
-# SoftLayer_Virtual_DedicatedHost::editObject
+# [SoftLayer_Virtual_DedicatedHost](/reference/services/SoftLayer_Virtual_DedicatedHost)::editObject
+
+Edit a dedicated host's properties. 
+
+
 ## Overview 
 Edit a dedicated host's properties. 
 

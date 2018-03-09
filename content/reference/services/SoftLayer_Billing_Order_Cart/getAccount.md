@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Cart"
 ---
-# SoftLayer_Billing_Order_Cart::getAccount
+# [SoftLayer_Billing_Order_Cart](/reference/services/SoftLayer_Billing_Order_Cart)::getAccount
+
+Retrieve a quote's corresponding account.
+
+
 ## Overview 
 Retrieve a quote's corresponding account.
 

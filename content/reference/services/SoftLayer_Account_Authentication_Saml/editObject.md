@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Authentication_Saml"
 ---
-# SoftLayer_Account_Authentication_Saml::editObject
+# [SoftLayer_Account_Authentication_Saml](/reference/services/SoftLayer_Account_Authentication_Saml)::editObject
+
+Edit the object by passing in a modified instance of the object.
+
+
 ## Overview 
 Edit the object by passing in a modified instance of the object 
 

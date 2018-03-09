@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_Notification_Hardware"
 ---
-# SoftLayer_User_Customer_Notification_Hardware::getUser
+# [SoftLayer_User_Customer_Notification_Hardware](/reference/services/SoftLayer_User_Customer_Notification_Hardware)::getUser
+
+Retrieve the user that will be notified when the associated hardware object fails a monitoring instance.
+
+
 ## Overview 
 Retrieve the user that will be notified when the associated hardware object fails a monitoring instance.
 

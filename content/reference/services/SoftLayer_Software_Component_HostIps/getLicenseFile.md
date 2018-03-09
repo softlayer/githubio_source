@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_HostIps"
 ---
-# SoftLayer_Software_Component_HostIps::getLicenseFile
+# [SoftLayer_Software_Component_HostIps](/reference/services/SoftLayer_Software_Component_HostIps)::getLicenseFile
+
+Get the license file for a software component if it is supported.
+
+
 ## Overview 
 Attempt to retrieve the file associated with a software component.  If the software component does not support downloading license files an exception will be thrown. 
 

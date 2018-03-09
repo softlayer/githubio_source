@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getLastTransaction
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getLastTransaction
+
+Retrieve the last transaction a cloud server had performed.
+
+
 ## Overview 
 Retrieve the last transaction a cloud server had performed.
 

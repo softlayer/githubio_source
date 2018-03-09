@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain"
 ---
-# SoftLayer_Dns_Domain::getAccount
+# [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::getAccount
+
+Retrieve the SoftLayer customer account that owns a domain.
+
+
 ## Overview 
 Retrieve the SoftLayer customer account that owns a domain.
 

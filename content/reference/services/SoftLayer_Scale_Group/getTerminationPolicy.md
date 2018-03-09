@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Group"
 ---
-# SoftLayer_Scale_Group::getTerminationPolicy
+# [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::getTerminationPolicy
+
+Retrieve the termination policy for this scaling group.
+
+
 ## Overview 
 Retrieve the termination policy for this scaling group.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Group_Nfs"
 ---
-# SoftLayer_Network_Storage_Group_Nfs::getAccount
+# [SoftLayer_Network_Storage_Group_Nfs](/reference/services/SoftLayer_Network_Storage_Group_Nfs)::getAccount
+
+Retrieve the SoftLayer_Account which owns this group.
+
+
 ## Overview 
 Retrieve the SoftLayer_Account which owns this group.
 

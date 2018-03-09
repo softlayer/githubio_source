@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Authentication_Token"
 ---
-# SoftLayer_Network_ContentDelivery_Authentication_Token::getTimedToken
+# [SoftLayer_Network_ContentDelivery_Authentication_Token](/reference/services/SoftLayer_Network_ContentDelivery_Authentication_Token)::getTimedToken
+
+Returns an authentication token that expires after a certain amount of time
+
+
 ## Overview 
 This method returns an authentication token that expires after the seconds you specify. You can provide number of seconds to manage the token life.  This parameter sets the expiration time for a token. A valid life time must be an integer between 60 and 604800 (1 week). A customer can also provide client ip and (or) referrer information.  If used, a client from the same IP and referrer can view the protected contents. 
 

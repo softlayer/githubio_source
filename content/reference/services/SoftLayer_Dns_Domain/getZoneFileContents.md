@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain"
 ---
-# SoftLayer_Dns_Domain::getZoneFileContents
+# [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::getZoneFileContents
+
+Return a domain's data formatted as zone file text.
+
+
 ## Overview 
 Return a SoftLayer hosted domain and resource records' data formatted as zone file. 
 

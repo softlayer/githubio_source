@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location_Group_Regional"
 ---
-# SoftLayer_Location_Group_Regional::getLocationGroupType
+# [SoftLayer_Location_Group_Regional](/reference/services/SoftLayer_Location_Group_Regional)::getLocationGroupType
+
+Retrieve the type for this location group.
+
+
 ## Overview 
 Retrieve the type for this location group.
 

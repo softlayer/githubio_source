@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHardwareWithWindows
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardwareWithWindows
+
+Retrieve all hardware associated with an account that is running a version of the Microsoft Windows operating system.
+
+
 ## Overview 
 Retrieve all hardware associated with an account that is running a version of the Microsoft Windows operating system.
 

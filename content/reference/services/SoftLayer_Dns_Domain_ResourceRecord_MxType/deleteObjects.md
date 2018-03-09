@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_ResourceRecord_MxType"
 ---
-# SoftLayer_Dns_Domain_ResourceRecord_MxType::deleteObjects
+# [SoftLayer_Dns_Domain_ResourceRecord_MxType](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType)::deleteObjects
+
+Delete multiple MX records from a domain.
+
+
 ## Overview 
 Remove multiple MX records from a domain. This follows the same logic as ''deleteObject'' and '''cannot be undone'''. The serial number of the domain associated with this MX record is updated upon deletion. 
 

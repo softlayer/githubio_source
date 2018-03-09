@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Group"
 ---
-# SoftLayer_Scale_Group::resume
+# [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::resume
+
+Resume this group. The group must be in a suspended status to do this. By doing this, the group's status will become active. 
+
+
 ## Overview 
 
 

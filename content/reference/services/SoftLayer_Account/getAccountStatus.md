@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getAccountStatus
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAccountStatus
+
+Retrieve an account's status presented in a more detailed data type.
+
+
 ## Overview 
 Retrieve an account's status presented in a more detailed data type.
 

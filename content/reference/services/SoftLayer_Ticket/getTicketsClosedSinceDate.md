@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getTicketsClosedSinceDate
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getTicketsClosedSinceDate
+
+Retrieve tickets closed since a given date. 
+
+
 ## Overview 
 Retrieve all tickets closed since a given date. 
 

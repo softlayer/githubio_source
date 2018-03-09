@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Currency_Country"
 ---
-# SoftLayer_Billing_Currency_Country::getCountriesWithListOfEligibleCurrencies
+# [SoftLayer_Billing_Currency_Country](/reference/services/SoftLayer_Billing_Currency_Country)::getCountriesWithListOfEligibleCurrencies
+
+Get map between countries and what currencies can be supported for customers in that country. 
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getMonitoringClosedAlarms
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getMonitoringClosedAlarms
+
+Returns closed monitoring alarms for a given time period
+
+
 ## Overview 
 Returns closed monitoring alarms for a given time period 
 

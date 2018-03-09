@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Network_Component"
 ---
-# SoftLayer_Virtual_Guest_Network_Component::getGuest
+# [SoftLayer_Virtual_Guest_Network_Component](/reference/services/SoftLayer_Virtual_Guest_Network_Component)::getGuest
+
+Retrieve the computing instance that this network component exists on.
+
+
 ## Overview 
 Retrieve the computing instance that this network component exists on.
 

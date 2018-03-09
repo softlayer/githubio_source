@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Metric_Tracking_Object"
 ---
-# SoftLayer_Metric_Tracking_Object::getCustomGraphData
+# [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getCustomGraphData
+
+Fetch metric data using the graph container class.
+
+
 ## Overview 
 Returns a graph container instance that is populated with metric data for the tracking object. 
 

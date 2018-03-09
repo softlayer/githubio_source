@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getBandwidthAllotmentDetail
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBandwidthAllotmentDetail
+
+Retrieve a computing instance's allotted detail record. Allotment details link bandwidth allocation with allotments.
+
+
 ## Overview 
 Retrieve a computing instance's allotted detail record. Allotment details link bandwidth allocation with allotments.
 

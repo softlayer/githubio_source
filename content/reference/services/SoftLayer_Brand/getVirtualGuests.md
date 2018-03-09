@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand"
 ---
-# SoftLayer_Brand::getVirtualGuests
+# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getVirtualGuests
+
+Retrieve an account's associated virtual guest objects.
+
+
 ## Overview 
 Retrieve an account's associated virtual guest objects.
 

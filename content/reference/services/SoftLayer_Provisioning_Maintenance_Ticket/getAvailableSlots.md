@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Provisioning_Maintenance_Ticket"
 ---
-# SoftLayer_Provisioning_Maintenance_Ticket::getAvailableSlots
+# [SoftLayer_Provisioning_Maintenance_Ticket](/reference/services/SoftLayer_Provisioning_Maintenance_Ticket)::getAvailableSlots
+
+
+
+
 ## Overview 
 
 

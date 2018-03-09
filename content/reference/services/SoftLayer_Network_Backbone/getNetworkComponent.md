@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Backbone"
 ---
-# SoftLayer_Network_Backbone::getNetworkComponent
+# [SoftLayer_Network_Backbone](/reference/services/SoftLayer_Network_Backbone)::getNetworkComponent
+
+Retrieve a backbone's primary network component.
+
+
 ## Overview 
 Retrieve a backbone's primary network component.
 

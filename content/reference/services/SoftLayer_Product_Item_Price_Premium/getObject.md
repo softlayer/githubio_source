@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Price_Premium"
 ---
-# SoftLayer_Product_Item_Price_Premium::getObject
+# [SoftLayer_Product_Item_Price_Premium](/reference/services/SoftLayer_Product_Item_Price_Premium)::getObject
+
+Retrieve a SoftLayer_Product_Item_Price_Premium record.
+
+
 ## Overview 
 
 

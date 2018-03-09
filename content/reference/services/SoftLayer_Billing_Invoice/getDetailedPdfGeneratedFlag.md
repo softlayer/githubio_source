@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice"
 ---
-# SoftLayer_Billing_Invoice::getDetailedPdfGeneratedFlag
+# [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getDetailedPdfGeneratedFlag
+
+Retrieve a flag that will reflect whether the detailed version of the pdf has been generated.
+
+
 ## Overview 
 Retrieve a flag that will reflect whether the detailed version of the pdf has been generated.
 

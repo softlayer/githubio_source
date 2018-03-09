@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::getBillingItem
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getBillingItem
+
+Retrieve the current billing item for a CDN account.
+
+
 ## Overview 
 Retrieve the current billing item for a CDN account.
 

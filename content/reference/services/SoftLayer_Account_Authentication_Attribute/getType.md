@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Authentication_Attribute"
 ---
-# SoftLayer_Account_Authentication_Attribute::getType
+# [SoftLayer_Account_Authentication_Attribute](/reference/services/SoftLayer_Account_Authentication_Attribute)::getType
+
+Retrieve the type of attribute assigned to a SoftLayer account authentication.
+
+
 ## Overview 
 Retrieve the type of attribute assigned to a SoftLayer account authentication.
 

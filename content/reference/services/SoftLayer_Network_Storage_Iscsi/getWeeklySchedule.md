@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getWeeklySchedule
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getWeeklySchedule
+
+Retrieve the Weekly Schedule which is associated with this network storage volume.
+
+
 ## Overview 
 Retrieve the Weekly Schedule which is associated with this network storage volume.
 

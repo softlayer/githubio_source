@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Internal_Ibm"
 ---
-# SoftLayer_Account_Internal_Ibm::getEmployeeAccessToken
+# [SoftLayer_Account_Internal_Ibm](/reference/services/SoftLayer_Account_Internal_Ibm)::getEmployeeAccessToken
+
+Exchanges a token
+
+
 ## Overview 
 Exchanges a code for a token during manager validation. 
 

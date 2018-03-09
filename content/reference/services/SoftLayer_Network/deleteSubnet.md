@@ -12,7 +12,11 @@ tags:
 classes:
     - "SoftLayer_Network"
 ---
-# SoftLayer_Network::deleteSubnet
+# [SoftLayer_Network](/reference/services/SoftLayer_Network)::deleteSubnet
+
+Remove a Subnet from the Network
+
+
 ## Overview 
 
 

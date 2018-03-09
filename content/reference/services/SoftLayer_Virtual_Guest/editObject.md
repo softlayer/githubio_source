@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::editObject
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::editObject
+
+Edit a computing instance's properties
+
+
 ## Overview 
 Edit a computing instance's properties 
 

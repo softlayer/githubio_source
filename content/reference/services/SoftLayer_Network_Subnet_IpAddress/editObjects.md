@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_IpAddress"
 ---
-# SoftLayer_Network_Subnet_IpAddress::editObjects
+# [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::editObjects
+
+Edit multiple objects by passing in modified instances of the object.
+
+
 ## Overview 
 This function is used to edit multiple objects at the same time. 
 

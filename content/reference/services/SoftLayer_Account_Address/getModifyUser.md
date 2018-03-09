@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Address"
 ---
-# SoftLayer_Account_Address::getModifyUser
+# [SoftLayer_Account_Address](/reference/services/SoftLayer_Account_Address)::getModifyUser
+
+Retrieve the customer user who last modified this address.
+
+
 ## Overview 
 Retrieve the customer user who last modified this address.
 

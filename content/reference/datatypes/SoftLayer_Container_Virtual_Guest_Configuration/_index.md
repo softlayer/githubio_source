@@ -56,7 +56,9 @@ The [[SoftLayer_Virtual_Guest/getCreateObjectOptions|getCreateObjectOptions]] me
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#blockDevices" name=blockDevices>blockDevices</a></span>
+            <span class='views-field-title'>
+                <a href="#blockDevices" name=blockDevices>blockDevices</a>
+            </span>
             <div class='views-field-body'>
 <div style="width: 200%"> 
 Available block device options. 
@@ -72,10 +74,15 @@ The <code>localDiskFlag</code> value in the template represents whether the opti
 
 Note: The block device number <code>'1'</code> is reserved for the SWAP disk attached to the computing instance. 
 </div>  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#datacenters" name=datacenters>datacenters</a></span>
+            <span class='views-field-title'>
+                <a href="#datacenters" name=datacenters>datacenters</a>
+            </span>
             <div class='views-field-body'>
 <div style="width: 200%"> 
 Available datacenter options. 
@@ -83,10 +90,15 @@ Available datacenter options.
 
 The <code>datacenter.name</code> value in the template represents which datacenter the computing instance will be provisioned in. 
 </div>  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#flavors" name=flavors>flavors</a></span>
+            <span class='views-field-title'>
+                <a href="#flavors" name=flavors>flavors</a>
+            </span>
             <div class='views-field-body'>
 <div style="width: 200%"> 
 
@@ -99,10 +111,15 @@ The <code>supplementalCreateObjectOptions.flavorKeyName</code> value in the temp
 
 When providing a <code>supplementalCreateObjectOptions.flavorKeyName</code> option the core, ram, and primary disk options are not needed. If those options are provided they are validated against the flavor. 
 </div>  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#memory" name=memory>memory</a></span>
+            <span class='views-field-title'>
+                <a href="#memory" name=memory>memory</a>
+            </span>
             <div class='views-field-body'>
 <div style="width: 200%"> 
 Available memory options. 
@@ -110,10 +127,15 @@ Available memory options.
 
 The <code>maxMemory</code> value in the template represents the amount of memory, in megabytes, allocated to the computing instance. 
 </div>  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#networkComponents" name=networkComponents>networkComponents</a></span>
+            <span class='views-field-title'>
+                <a href="#networkComponents" name=networkComponents>networkComponents</a>
+            </span>
             <div class='views-field-body'>
 <div style="width: 200%"> 
 Available network component options. 
@@ -121,10 +143,15 @@ Available network component options.
 
 The <code>networkComponent.maxSpeed</code> value in the template represents the link speed, in megabits per second, of the network connections for a computing instance. 
 </div>  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#operatingSystems" name=operatingSystems>operatingSystems</a></span>
+            <span class='views-field-title'>
+                <a href="#operatingSystems" name=operatingSystems>operatingSystems</a>
+            </span>
             <div class='views-field-body'>
 <div style="width: 200%"> 
 Available operating system options. 
@@ -147,10 +174,15 @@ For Windows based operating systems the version will represent both the release 
 
 <b>Notice</b> - Some operating systems are charged based on the value specified in <code>startCpus</code>. The price which is used can be determined by calling [[SoftLayer_Virtual_Guest/generateOrderTemplate|generateOrderTemplate]] with your desired device specifications. 
 </div>  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#processors" name=processors>processors</a></span>
+            <span class='views-field-title'>
+                <a href="#processors" name=processors>processors</a>
+            </span>
             <div class='views-field-body'>
 <div style="width: 200%"> 
 Available processor options. 
@@ -159,7 +191,10 @@ Available processor options.
 The <code>startCpus</code> value in the template represents the number of cores allocated to the computing instance. 
 The <code>dedicatedAccountHostOnlyFlag</code> value in the template represents whether the instance will run on hosts with instances belonging to other accounts. 
 </div>  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a></p>
+            </div>
         </div>
             </div>
     </div>

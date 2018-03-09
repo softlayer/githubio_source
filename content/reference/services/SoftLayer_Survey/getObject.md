@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Survey"
 ---
-# SoftLayer_Survey::getObject
+# [SoftLayer_Survey](/reference/services/SoftLayer_Survey)::getObject
+
+Retrieve a SoftLayer_Survey record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Survey object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Survey service. You can only retrieve the survey that your portal user has taken. 
 

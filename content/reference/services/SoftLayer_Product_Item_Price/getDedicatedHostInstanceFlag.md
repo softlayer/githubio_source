@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Price"
 ---
-# SoftLayer_Product_Item_Price::getDedicatedHostInstanceFlag
+# [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getDedicatedHostInstanceFlag
+
+Retrieve signifies pricing that is only available on a dedicated host virtual server order.
+
+
 ## Overview 
 Retrieve signifies pricing that is only available on a dedicated host virtual server order.
 

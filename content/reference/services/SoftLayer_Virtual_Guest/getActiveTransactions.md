@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getActiveTransactions
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getActiveTransactions
+
+Retrieve any active transaction(s) that are currently running for the server (example: os reload).
+
+
 ## Overview 
 Retrieve any active transaction(s) that are currently running for the server (example: os reload).
 

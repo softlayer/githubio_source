@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getContinuousDataProtectionSoftwareComponent
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getContinuousDataProtectionSoftwareComponent
+
+Retrieve a continuous data protection/server backup software component object.
+
+
 ## Overview 
 Retrieve a continuous data protection/server backup software component object.
 

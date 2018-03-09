@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getDedicatedHosts
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getDedicatedHosts
+
+Retrieve an account's associated virtual dedicated host objects.
+
+
 ## Overview 
 Retrieve an account's associated virtual dedicated host objects.
 

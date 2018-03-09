@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Note_Type"
 ---
-# SoftLayer_Account_Note_Type::getObject
+# [SoftLayer_Account_Note_Type](/reference/services/SoftLayer_Account_Note_Type)::getObject
+
+Retrieve a SoftLayer_Account_Note_Type record.
+
+
 ## Overview 
 
 

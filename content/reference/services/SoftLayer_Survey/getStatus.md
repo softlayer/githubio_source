@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Survey"
 ---
-# SoftLayer_Survey::getStatus
+# [SoftLayer_Survey](/reference/services/SoftLayer_Survey)::getStatus
+
+Retrieve the status of the survey
+
+
 ## Overview 
 Retrieve the status of the survey
 

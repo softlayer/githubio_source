@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHardwareWithHelm
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardwareWithHelm
+
+Retrieve all hardware associated with an account that has the Helm web hosting control panel installed.
+
+
 ## Overview 
 Retrieve all hardware associated with an account that has the Helm web hosting control panel installed.
 

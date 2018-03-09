@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_Occurrence_User"
 ---
-# SoftLayer_Notification_Occurrence_User::getObject
+# [SoftLayer_Notification_Occurrence_User](/reference/services/SoftLayer_Notification_Occurrence_User)::getObject
+
+Retrieve a SoftLayer_Notification_Occurrence_User record.
+
+
 ## Overview 
 
 

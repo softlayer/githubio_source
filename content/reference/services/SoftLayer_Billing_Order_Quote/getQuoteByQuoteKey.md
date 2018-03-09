@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Quote"
 ---
-# SoftLayer_Billing_Order_Quote::getQuoteByQuoteKey
+# [SoftLayer_Billing_Order_Quote](/reference/services/SoftLayer_Billing_Order_Quote)::getQuoteByQuoteKey
+
+Retrieve a [[SoftLayer_Billing_Order_Quote]] by the quote key specified.
+
+
 ## Overview 
 This method will return a [[SoftLayer_Billing_Order_Quote]] that is identified by the quote key specified. If you do not have access to the quote or it does not exist, an exception will be thrown indicating so. 
 

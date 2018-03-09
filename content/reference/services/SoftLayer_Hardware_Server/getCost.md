@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getCost
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getCost
+
+Retrieve the total cost of a server, measured in US Dollars ($USD).
+
+
 ## Overview 
 Retrieve the total cost of a server, measured in US Dollars ($USD).
 

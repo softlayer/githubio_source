@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::removeAuthenticationDirectory
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::removeAuthenticationDirectory
+
+Deletes a token authentication directory
+
+
 ## Overview 
 If you want to turn off the token authentication, use this method to remove a directory from the token authentication directory. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getProvisionedIops
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getProvisionedIops
+
+Retrieve the number of IOPs provisioned for this volume.
+
+
 ## Overview 
 Retrieve the number of IOPs provisioned for this volume.
 

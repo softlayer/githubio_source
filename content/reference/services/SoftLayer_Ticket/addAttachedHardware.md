@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::addAttachedHardware
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::addAttachedHardware
+
+Attach hardware to a ticket.
+
+
 ## Overview 
 Attach the given hardware to a SoftLayer ticket. A hardware attachment provides an easy way for SoftLayer's employees to quickly look up your hardware records in the case of hardware-specific issues. 
 

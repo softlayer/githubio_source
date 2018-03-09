@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getCurrentUser
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getCurrentUser
+
+Retrieve the current API user's record.
+
+
 ## Overview 
 Retrieve the user record of the user calling the SoftLayer API. 
 

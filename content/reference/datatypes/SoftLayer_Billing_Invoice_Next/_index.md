@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Billing_Invoice_Next
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Invoice_Next' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Billing_Invoice_Next' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Invoice_Next' >Datatype</a></li>
     </ul>
 </div>
 

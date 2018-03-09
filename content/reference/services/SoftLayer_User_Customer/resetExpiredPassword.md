@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::resetExpiredPassword
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::resetExpiredPassword
+
+Reset a users expired password.
+
+
 ## Overview 
 <strong>This method is deprecated.  Please see documentation for initiatePortalPasswordChange</strong> Attempt to authenticate a username and password to the SoftLayer customer portal and reset there password. If authentication and password reset is successful then the API returns true. 
 

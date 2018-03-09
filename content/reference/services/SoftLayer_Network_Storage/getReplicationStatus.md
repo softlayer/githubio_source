@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getReplicationStatus
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getReplicationStatus
+
+Retrieve the current replication status of a network storage volume. Indicates Failover or Failback status.
+
+
 ## Overview 
 Retrieve the current replication status of a network storage volume. Indicates Failover or Failback status.
 

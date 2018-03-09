@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getRemainingAllowedHosts
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getRemainingAllowedHosts
+
+Retrieves the remaining number of allowed hosts per volume.
+
+
 ## Overview 
 Retrieves the remaining number of allowed hosts per volume. 
 

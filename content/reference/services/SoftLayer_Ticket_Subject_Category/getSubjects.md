@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket_Subject_Category"
 ---
-# SoftLayer_Ticket_Subject_Category::getSubjects
+# [SoftLayer_Ticket_Subject_Category](/reference/services/SoftLayer_Ticket_Subject_Category)::getSubjects
+
+
+
+
 ## Overview 
 
 

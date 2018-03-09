@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::updateSubscriberDeliveryMethod
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::updateSubscriberDeliveryMethod
+
+Update a delivery method for the subscriber.
+
+
 ## Overview 
 Update a delivery method for a notification that the user is subscribed to. A delivery method keyName along with an active flag can be supplied to update the active status of the delivery methods for the specified notification. Available delivery methods - 'EMAIL'. Available notifications - 'PLANNED_MAINTENANCE', 'UNPLANNED_INCIDENT'. 
 

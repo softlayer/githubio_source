@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getObject
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getObject
+
+Retrieve a SoftLayer_Ticket record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Ticket object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Ticket service. You can only retrieve tickets that are associated with your SoftLayer customer account. 
 

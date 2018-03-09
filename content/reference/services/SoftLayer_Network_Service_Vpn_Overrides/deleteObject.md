@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Service_Vpn_Overrides"
 ---
-# SoftLayer_Network_Service_Vpn_Overrides::deleteObject
+# [SoftLayer_Network_Service_Vpn_Overrides](/reference/services/SoftLayer_Network_Service_Vpn_Overrides)::deleteObject
+
+Delete single override.
+
+
 ## Overview 
 Use this method to delete a single SoftLayer portal VPN user subnet override. 
 

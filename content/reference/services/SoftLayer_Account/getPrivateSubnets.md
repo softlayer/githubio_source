@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getPrivateSubnets
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPrivateSubnets
+
+Retrieve all private subnets associated with an account.
+
+
 ## Overview 
 Retrieve all private subnets associated with an account.
 

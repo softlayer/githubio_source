@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getPrimarySubnet
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getPrimarySubnet
+
+Retrieve the subnet of the primary IP address assigned to this network component.
+
+
 ## Overview 
 Retrieve the subnet of the primary IP address assigned to this network component.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Provisioning_Maintenance_Window"
 ---
-# SoftLayer_Provisioning_Maintenance_Window::getMaintenanceWindows
+# [SoftLayer_Provisioning_Maintenance_Window](/reference/services/SoftLayer_Provisioning_Maintenance_Window)::getMaintenanceWindows
+
+Returns available maintenance windows
+
+
 ## Overview 
 This method returns a list of available maintenance windows 
 

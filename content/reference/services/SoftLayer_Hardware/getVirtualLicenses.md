@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getVirtualLicenses
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getVirtualLicenses
+
+Retrieve information regarding a piece of hardware's virtual software licenses.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's virtual software licenses.
 

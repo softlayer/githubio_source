@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Group"
 ---
-# SoftLayer_Scale_Group::getLogs
+# [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::getLogs
+
+Retrieve collection of log entries for this group.
+
+
 ## Overview 
 Retrieve collection of log entries for this group.
 

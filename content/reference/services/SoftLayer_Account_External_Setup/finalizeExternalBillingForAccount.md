@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_External_Setup"
 ---
-# SoftLayer_Account_External_Setup::finalizeExternalBillingForAccount
+# [SoftLayer_Account_External_Setup](/reference/services/SoftLayer_Account_External_Setup)::finalizeExternalBillingForAccount
+
+
+
+
 ## Overview 
 Calling this method signals that the account with the provided account id is ready to be billed by the external billing system. 
 

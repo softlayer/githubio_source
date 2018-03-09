@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Category"
 ---
-# SoftLayer_Product_Item_Category::getQuestionReferences
+# [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category)::getQuestionReferences
+
+Retrieve the question references that are associated with an item category.
+
+
 ## Overview 
 Retrieve the question references that are associated with an item category.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Item"
 ---
-# SoftLayer_Billing_Order_Item::getOldBillingItem
+# [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getOldBillingItem
+
+Retrieve this is only populated when an upgrade order is placed. The old billing item represents what the billing was before the upgrade happened.
+
+
 ## Overview 
 Retrieve this is only populated when an upgrade order is placed. The old billing item represents what the billing was before the upgrade happened.
 

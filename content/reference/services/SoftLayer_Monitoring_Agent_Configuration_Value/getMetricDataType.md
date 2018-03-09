@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Agent_Configuration_Value"
 ---
-# SoftLayer_Monitoring_Agent_Configuration_Value::getMetricDataType
+# [SoftLayer_Monitoring_Agent_Configuration_Value](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Value)::getMetricDataType
+
+Retrieve the metric data type used to retrieve metric data currently being tracked.
+
+
 ## Overview 
 Retrieve the metric data type used to retrieve metric data currently being tracked.
 

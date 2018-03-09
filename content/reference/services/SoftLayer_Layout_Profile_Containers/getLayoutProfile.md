@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Layout_Profile_Containers"
 ---
-# SoftLayer_Layout_Profile_Containers::getLayoutProfile
+# [SoftLayer_Layout_Profile_Containers](/reference/services/SoftLayer_Layout_Profile_Containers)::getLayoutProfile
+
+Retrieve the profile containing this container
+
+
 ## Overview 
 Retrieve the profile containing this container
 

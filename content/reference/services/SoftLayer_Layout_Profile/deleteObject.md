@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Layout_Profile"
 ---
-# SoftLayer_Layout_Profile::deleteObject
+# [SoftLayer_Layout_Profile](/reference/services/SoftLayer_Layout_Profile)::deleteObject
+
+Delete a layout profile
+
+
 ## Overview 
 This method deletes an existing layout profile and associated custom preferences 
 

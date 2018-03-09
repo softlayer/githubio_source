@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_IpAddress"
 ---
-# SoftLayer_Network_Subnet_IpAddress::getSyslogEventsSevenDays
+# [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::getSyslogEventsSevenDays
+
+Retrieve all events for this IP address stored in the datacenter syslogs from the last 7 days
+
+
 ## Overview 
 Retrieve all events for this IP address stored in the datacenter syslogs from the last 7 days
 

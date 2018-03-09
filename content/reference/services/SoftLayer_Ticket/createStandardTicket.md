@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::createStandardTicket
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::createStandardTicket
+
+Create a standard support ticket.
+
+
 ## Overview 
 Create a standard support ticket. Use a standard support ticket if you need to work out a problem related to SoftLayer's hardware, network, or services. If you require SoftLayer's assistance managing your server or content then please open an administrative ticket. 
 

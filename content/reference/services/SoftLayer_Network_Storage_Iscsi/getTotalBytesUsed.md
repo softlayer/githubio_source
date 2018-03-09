@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getTotalBytesUsed
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getTotalBytesUsed
+
+Retrieve the amount of space used by the volume.
+
+
 ## Overview 
 Retrieve the amount of space used by the volume.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getHardwareFunction
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getHardwareFunction
+
+Retrieve a hardware's function.
+
+
 ## Overview 
 Retrieve a hardware's function.
 

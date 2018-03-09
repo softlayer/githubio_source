@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Message_Delivery_Email_Sendgrid"
 ---
-# SoftLayer_Network_Message_Delivery_Email_Sendgrid::getAccount
+# [SoftLayer_Network_Message_Delivery_Email_Sendgrid](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid)::getAccount
+
+Retrieve the SoftLayer customer account that a network message delivery account belongs to.
+
+
 ## Overview 
 Retrieve the SoftLayer customer account that a network message delivery account belongs to.
 

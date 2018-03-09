@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Phone"
 ---
-# SoftLayer_User_Customer_External_Binding_Phone::getUser
+# [SoftLayer_User_Customer_External_Binding_Phone](/reference/services/SoftLayer_User_Customer_External_Binding_Phone)::getUser
+
+Retrieve the SoftLayer user that the external authentication binding belongs to.
+
+
 ## Overview 
 Retrieve the SoftLayer user that the external authentication binding belongs to.
 

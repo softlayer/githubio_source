@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getAccount
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getAccount
+
+Retrieve the account that a billing item belongs to.
+
+
 ## Overview 
 Retrieve the account that a billing item belongs to.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Resource_Group"
 ---
-# SoftLayer_Resource_Group::getAttributes
+# [SoftLayer_Resource_Group](/reference/services/SoftLayer_Resource_Group)::getAttributes
+
+Retrieve a resource group's associated attributes.
+
+
 ## Overview 
 Retrieve a resource group's associated attributes.
 

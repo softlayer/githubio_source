@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Lockdown_Request"
 ---
-# SoftLayer_Account_Lockdown_Request::getAccountHistory
+# [SoftLayer_Account_Lockdown_Request](/reference/services/SoftLayer_Account_Lockdown_Request)::getAccountHistory
+
+Provides a history of an account's lockdown requests and their status.
+
+
 ## Overview 
 Provides a history of an account's lockdown requests and their status.
 

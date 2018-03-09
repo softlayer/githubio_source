@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_LoadBalancer"
 ---
-# SoftLayer_Scale_LoadBalancer::getRoutingMethod
+# [SoftLayer_Scale_LoadBalancer](/reference/services/SoftLayer_Scale_LoadBalancer)::getRoutingMethod
+
+Retrieve the routing method.
+
+
 ## Overview 
 Retrieve the routing method.
 

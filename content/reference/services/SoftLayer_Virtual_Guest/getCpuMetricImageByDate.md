@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getCpuMetricImageByDate
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getCpuMetricImageByDate
+
+Retrieve a visual representation of the percentage of the amount of time that a cpu was in use for the specified time frame for a computing instance. 
+
+
 ## Overview 
 Use this method when needing a CPU usage image for a single guest.  It will gather the correct input parameters for the generic graphing utility based on the date ranges 
 

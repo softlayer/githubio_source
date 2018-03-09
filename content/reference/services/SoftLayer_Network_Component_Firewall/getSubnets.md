@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component_Firewall"
 ---
-# SoftLayer_Network_Component_Firewall::getSubnets
+# [SoftLayer_Network_Component_Firewall](/reference/services/SoftLayer_Network_Component_Firewall)::getSubnets
+
+Retrieve the additional subnets linked to this network component firewall.
+
+
 ## Overview 
 Retrieve the additional subnets linked to this network component firewall.
 

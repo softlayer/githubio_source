@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component_Firewall"
 ---
-# SoftLayer_Network_Component_Firewall::getNetworkComponent
+# [SoftLayer_Network_Component_Firewall](/reference/services/SoftLayer_Network_Component_Firewall)::getNetworkComponent
+
+Retrieve the network component of the switch interface that this network component firewall belongs to.
+
+
 ## Overview 
 Retrieve the network component of the switch interface that this network component firewall belongs to.
 

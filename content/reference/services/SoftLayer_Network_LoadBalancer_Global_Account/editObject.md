@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LoadBalancer_Global_Account"
 ---
-# SoftLayer_Network_LoadBalancer_Global_Account::editObject
+# [SoftLayer_Network_LoadBalancer_Global_Account](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account)::editObject
+
+Edit a global load balancer account and the hosts that make up the load balancing pool.
+
+
 ## Overview 
 Edit the properties of a global load balancer account by passing in a modified instance of the object. The global load balancer account properties you are able to edit are: fallback ip, load balance type id, and notes. Hosts that belong to your SoftLayer global load balancer account are created and modified through this method. An example templateObject that updates global load balancer account properties, updates the properties of a host, and adds a new host is shown below: 
 

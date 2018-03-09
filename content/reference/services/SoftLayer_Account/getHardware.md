@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHardware
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardware
+
+Retrieve an account's associated hardware objects.
+
+
 ## Overview 
 Retrieve an account's associated hardware objects.
 

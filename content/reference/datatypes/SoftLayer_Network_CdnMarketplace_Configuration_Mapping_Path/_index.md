@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path' >Datatype</a></li>
     </ul>
 </div>
 

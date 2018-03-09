@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getType
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getType
+
+Retrieve the type of service offering. This property can be used to help filter packages.
+
+
 ## Overview 
 Retrieve the type of service offering. This property can be used to help filter packages.
 

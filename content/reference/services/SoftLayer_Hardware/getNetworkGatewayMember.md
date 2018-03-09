@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getNetworkGatewayMember
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getNetworkGatewayMember
+
+Retrieve the gateway member if this device is part of a network gateway.
+
+
 ## Overview 
 Retrieve the gateway member if this device is part of a network gateway.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Agreement"
 ---
-# SoftLayer_Account_Agreement::getAgreementType
+# [SoftLayer_Account_Agreement](/reference/services/SoftLayer_Account_Agreement)::getAgreementType
+
+Retrieve the type of agreement.
+
+
 ## Overview 
 Retrieve the type of agreement.
 

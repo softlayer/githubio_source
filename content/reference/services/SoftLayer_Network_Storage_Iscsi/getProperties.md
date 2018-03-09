@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getProperties
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getProperties
+
+Retrieve the properties used to provide additional details about a network storage volume.
+
+
 ## Overview 
 Retrieve the properties used to provide additional details about a network storage volume.
 

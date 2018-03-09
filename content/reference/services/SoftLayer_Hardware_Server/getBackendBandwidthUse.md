@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getBackendBandwidthUse
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getBackendBandwidthUse
+
+Retrieves private bandwidth usage records.
+
+
 ## Overview 
 Use this method to return an array of private bandwidth utilization records between a given date range. 
 

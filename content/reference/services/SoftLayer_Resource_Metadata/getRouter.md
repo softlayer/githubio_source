@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Resource_Metadata"
 ---
-# SoftLayer_Resource_Metadata::getRouter
+# [SoftLayer_Resource_Metadata](/reference/services/SoftLayer_Resource_Metadata)::getRouter
+
+The router associated with a network component
+
+
 ## Overview 
 The getRouter method will return the router associated with a network component. When the router is redundant, the hostname of the redundant group will be returned, rather than the router hostname. 
 

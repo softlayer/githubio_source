@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Certificate_Request"
 ---
-# SoftLayer_Security_Certificate_Request::resendEmail
+# [SoftLayer_Security_Certificate_Request](/reference/services/SoftLayer_Security_Certificate_Request)::resendEmail
+
+Have the Certificate Authority send various emails
+
+
 ## Overview 
 A Certificate Authority sends out various emails to your domain administrator or your technical contact. Use this service to have these emails re-sent. 
 

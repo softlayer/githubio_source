@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Certificate_Request_Status"
 ---
-# SoftLayer_Security_Certificate_Request_Status::getObject
+# [SoftLayer_Security_Certificate_Request_Status](/reference/services/SoftLayer_Security_Certificate_Request_Status)::getObject
+
+Retrieve a SoftLayer_Security_Certificate_Request_Status record.
+
+
 ## Overview 
 
 

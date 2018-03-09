@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Group_Nfs"
 ---
-# SoftLayer_Network_Storage_Group_Nfs::getOsType
+# [SoftLayer_Network_Storage_Group_Nfs](/reference/services/SoftLayer_Network_Storage_Group_Nfs)::getOsType
+
+Retrieve the OS Type this group is configured for.
+
+
 ## Overview 
 Retrieve the OS Type this group is configured for.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan"
 ---
-# SoftLayer_Network_Vlan::getAttachedNetworkGatewayFlag
+# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getAttachedNetworkGatewayFlag
+
+Retrieve whether or not this VLAN is inside a gateway.
+
+
 ## Overview 
 Retrieve whether or not this VLAN is inside a gateway.
 

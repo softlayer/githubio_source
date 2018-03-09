@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Phone"
 ---
-# SoftLayer_User_Customer_External_Binding_Phone::getAttributes
+# [SoftLayer_User_Customer_External_Binding_Phone](/reference/services/SoftLayer_User_Customer_External_Binding_Phone)::getAttributes
+
+Retrieve attributes of an external authentication binding.
+
+
 ## Overview 
 Retrieve attributes of an external authentication binding.
 

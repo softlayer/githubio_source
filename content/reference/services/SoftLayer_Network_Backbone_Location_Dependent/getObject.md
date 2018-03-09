@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Backbone_Location_Dependent"
 ---
-# SoftLayer_Network_Backbone_Location_Dependent::getObject
+# [SoftLayer_Network_Backbone_Location_Dependent](/reference/services/SoftLayer_Network_Backbone_Location_Dependent)::getObject
+
+Retrieve a SoftLayer_Network_Backbone_Location_Dependent record.
+
+
 ## Overview 
 
 

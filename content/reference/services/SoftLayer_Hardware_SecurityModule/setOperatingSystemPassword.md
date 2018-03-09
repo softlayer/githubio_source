@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::setOperatingSystemPassword
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::setOperatingSystemPassword
+
+Changes the password stored in our system for a servers' Operating System
+
+
 ## Overview 
 Changes the password that we have stored in our database for a servers' Operating System
 

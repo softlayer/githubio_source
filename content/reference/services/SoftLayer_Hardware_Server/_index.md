@@ -24,7 +24,7 @@ Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. Soft
 
 ### seeAlso
 
-* [SoftLayer_Hardware](/reference/datatypes/SoftLayer_Hardware )
+* [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware )
 
 
         

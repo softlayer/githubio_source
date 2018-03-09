@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Locale"
 ---
-# SoftLayer_Locale::getObject
+# [SoftLayer_Locale](/reference/services/SoftLayer_Locale)::getObject
+
+Retrieve a SoftLayer_Locale record.
+
+
 ## Overview 
 
 

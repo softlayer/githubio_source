@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Authentication_Token"
 ---
-# SoftLayer_Network_ContentDelivery_Authentication_Token::revokeAllTokens
+# [SoftLayer_Network_ContentDelivery_Authentication_Token](/reference/services/SoftLayer_Network_ContentDelivery_Authentication_Token)::revokeAllTokens
+
+Revokes all tokens belong to a CDN account.
+
+
 ## Overview 
 This method revokes all tokens belong to a CDN account.  Valid media types are "HTTP", "FLASH" and "WM". 
 

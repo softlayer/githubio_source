@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_Password"
 ---
-# SoftLayer_Software_Component_Password::getSshKeys
+# [SoftLayer_Software_Component_Password](/reference/services/SoftLayer_Software_Component_Password)::getSshKeys
+
+Retrieve sSH keys to be installed on the server during provisioning or an OS reload.
+
+
 ## Overview 
 Retrieve sSH keys to be installed on the server during provisioning or an OS reload.
 

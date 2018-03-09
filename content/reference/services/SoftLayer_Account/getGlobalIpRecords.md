@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getGlobalIpRecords
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getGlobalIpRecords
+
+
+
+
 ## Overview 
 
 

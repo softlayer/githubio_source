@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getAttributes
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getAttributes
+
+Retrieve information regarding a piece of hardware's specific attributes.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's specific attributes.
 

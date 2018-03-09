@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getItemPriceReferences
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getItemPriceReferences
+
+Retrieve cross reference for item prices
+
+
 ## Overview 
 Retrieve cross reference for item prices
 

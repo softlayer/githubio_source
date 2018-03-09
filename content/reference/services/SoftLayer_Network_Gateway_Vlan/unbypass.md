@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Gateway_Vlan"
 ---
-# SoftLayer_Network_Gateway_Vlan::unbypass
+# [SoftLayer_Network_Gateway_Vlan](/reference/services/SoftLayer_Network_Gateway_Vlan)::unbypass
+
+Unbypass VLAN
+
+
 ## Overview 
 Start the asynchronous process to route the VLAN to this gateway. 
 

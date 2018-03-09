@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_HostIps"
 ---
-# SoftLayer_Software_Component_HostIps::getCurrentHostIpsPolicies
+# [SoftLayer_Software_Component_HostIps](/reference/services/SoftLayer_Software_Component_HostIps)::getCurrentHostIpsPolicies
+
+Get the current Host IPS policies.
+
+
 ## Overview 
 Get the current Host IPS policies. 
 

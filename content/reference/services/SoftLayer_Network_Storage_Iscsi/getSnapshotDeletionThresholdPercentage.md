@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getSnapshotDeletionThresholdPercentage
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getSnapshotDeletionThresholdPercentage
+
+Retrieve the percentage of used snapshot space after which to delete automated snapshots.
+
+
 ## Overview 
 Retrieve the percentage of used snapshot space after which to delete automated snapshots.
 

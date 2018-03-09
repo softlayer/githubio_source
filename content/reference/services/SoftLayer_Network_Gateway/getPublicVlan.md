@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Gateway"
 ---
-# SoftLayer_Network_Gateway::getPublicVlan
+# [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::getPublicVlan
+
+Retrieve the public VLAN for accessing this gateway.
+
+
 ## Overview 
 Retrieve the public VLAN for accessing this gateway.
 

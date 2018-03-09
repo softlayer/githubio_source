@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Component"
 ---
-# SoftLayer_Network_Component::getNetworkVlanTrunks
+# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getNetworkVlanTrunks
+
+Retrieve the VLANs that are trunked to this network component.
+
+
 ## Overview 
 Retrieve the VLANs that are trunked to this network component.
 

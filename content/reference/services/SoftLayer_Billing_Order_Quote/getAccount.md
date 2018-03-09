@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Order_Quote"
 ---
-# SoftLayer_Billing_Order_Quote::getAccount
+# [SoftLayer_Billing_Order_Quote](/reference/services/SoftLayer_Billing_Order_Quote)::getAccount
+
+Retrieve a quote's corresponding account.
+
+
 ## Overview 
 Retrieve a quote's corresponding account.
 

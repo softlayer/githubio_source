@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Monitoring_Robot"
 ---
-# SoftLayer_Monitoring_Robot::resetStatus
+# [SoftLayer_Monitoring_Robot](/reference/services/SoftLayer_Monitoring_Robot)::resetStatus
+
+Resets monitoring robot status to "Active"
+
+
 ## Overview 
 If our monitoring management system is not able to connect to your monitoring robot, it sets the robot status to "Limited Connectivity". Robots in this status will not be process by our monitoring management system. You cannot manage monitoring agents either. 
 

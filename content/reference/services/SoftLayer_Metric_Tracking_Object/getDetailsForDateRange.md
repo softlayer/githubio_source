@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Metric_Tracking_Object"
 ---
-# SoftLayer_Metric_Tracking_Object::getDetailsForDateRange
+# [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getDetailsForDateRange
+
+Retrieve metric detail data over a date range.
+
+
 ## Overview 
 Retrieve a collection of detailed metric data over a date range. Ideal if you want to employ your own graphing systems.  Note not all metrics support this method.  Those that do not return null. 
 

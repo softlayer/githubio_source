@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_VirtualLicense"
 ---
-# SoftLayer_Software_VirtualLicense::getObject
+# [SoftLayer_Software_VirtualLicense](/reference/services/SoftLayer_Software_VirtualLicense)::getObject
+
+Retrieve a SoftLayer_Software_VirtualLicense record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Software_VirtualLicense object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Software_VirtualLicense service. You can only retrieve Virtual Licenses assigned to your account number. 
 

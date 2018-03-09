@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_Registration"
 ---
-# SoftLayer_Dns_Domain_Registration::lookupDomain
+# [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration)::lookupDomain
+
+Lookup available domains and suggests other similar domain names
+
+
 ## Overview 
 The lookupDomain method checks whether a specified domain name is available for registration in TLD's, and suggests other similar domain names, and checks whether they are available as well. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getBillingAgreements
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getBillingAgreements
+
+Retrieve all billing agreements for an account
+
+
 ## Overview 
 Retrieve all billing agreements for an account
 

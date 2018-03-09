@@ -43,14 +43,24 @@ It is returned exclusively by the getStatus method on the [[SoftLayer_Network_Lo
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#content" name=content>content</a></span>
+            <span class='views-field-title'>
+                <a href="#content" name=content>content</a>
+            </span>
             <div class='views-field-body'>The value of the entry. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#label" name=label>label</a></span>
+            <span class='views-field-title'>
+                <a href="#label" name=label>label</a>
+            </span>
             <div class='views-field-body'>Text description of the status entry </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

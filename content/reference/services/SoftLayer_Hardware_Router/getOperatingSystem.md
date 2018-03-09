@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getOperatingSystem
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getOperatingSystem
+
+Retrieve information regarding a piece of hardware's operating system.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's operating system.
 

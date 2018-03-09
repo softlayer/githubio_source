@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Gateway"
 ---
-# SoftLayer_Network_Gateway::getPrivateIpAddress
+# [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::getPrivateIpAddress
+
+Retrieve the private gateway IP address.
+
+
 ## Overview 
 Retrieve the private gateway IP address.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Network_Component"
 ---
-# SoftLayer_Virtual_Guest_Network_Component::getPrimaryIpAddress
+# [SoftLayer_Virtual_Guest_Network_Component](/reference/services/SoftLayer_Virtual_Guest_Network_Component)::getPrimaryIpAddress
+
+Retrieve a computing instance network component's primary IP address.
+
+
 ## Overview 
 Retrieve a computing instance network component's primary IP address.
 

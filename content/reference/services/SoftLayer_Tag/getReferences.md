@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Tag"
 ---
-# SoftLayer_Tag::getReferences
+# [SoftLayer_Tag](/reference/services/SoftLayer_Tag)::getReferences
+
+Retrieve references that tie object to the tag.
+
+
 ## Overview 
 Retrieve references that tie object to the tag.
 

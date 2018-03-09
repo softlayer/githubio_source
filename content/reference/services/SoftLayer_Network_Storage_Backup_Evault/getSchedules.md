@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getSchedules
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getSchedules
+
+Retrieve the schedules which are associated with a network storage volume.
+
+
 ## Overview 
 Retrieve the schedules which are associated with a network storage volume.
 

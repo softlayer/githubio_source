@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::restoreFile
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::restoreFile
+
+Restore access to an individual file in a Storage account.
+
+
 ## Overview 
 {{CloudLayerOnlyMethod}} Restore an individual file so that it may be used as it was before it was deleted. 
 

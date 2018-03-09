@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::setUserMetadata
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::setUserMetadata
+
+Configures the guest's metadata disk.
+
+
 ## Overview 
 Sets the data that will be written to the configuration drive. 
 

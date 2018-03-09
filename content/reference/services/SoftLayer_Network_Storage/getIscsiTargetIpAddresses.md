@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getIscsiTargetIpAddresses
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getIscsiTargetIpAddresses
+
+Retrieve returns the target IP addresses of an iSCSI volume.
+
+
 ## Overview 
 Retrieve returns the target IP addresses of an iSCSI volume.
 

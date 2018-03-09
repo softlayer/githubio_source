@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getObject
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getObject
+
+Retrieve a SoftLayer_Network_Storage record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Network_Storage object whose ID corresponds to the ID number of the init parameter passed to the SoftLayer_Network_Storage service. 
 

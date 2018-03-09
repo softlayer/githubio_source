@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getAllowedNetworkStorage
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getAllowedNetworkStorage
+
+Retrieve the SoftLayer_Network_Storage objects that this SoftLayer_Hardware has access to.
+
+
 ## Overview 
 Retrieve the SoftLayer_Network_Storage objects that this SoftLayer_Hardware has access to.
 

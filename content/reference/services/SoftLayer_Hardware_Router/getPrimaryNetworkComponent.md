@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getPrimaryNetworkComponent
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getPrimaryNetworkComponent
+
+Retrieve information regarding the hardware's primary public network component.
+
+
 ## Overview 
 Retrieve information regarding the hardware's primary public network component.
 

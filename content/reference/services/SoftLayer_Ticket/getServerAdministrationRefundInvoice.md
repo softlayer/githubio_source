@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getServerAdministrationRefundInvoice
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getServerAdministrationRefundInvoice
+
+Retrieve the refund invoice associated with a ticket. Only tickets with a refund applied in them have an associated refund invoice.
+
+
 ## Overview 
 Retrieve the refund invoice associated with a ticket. Only tickets with a refund applied in them have an associated refund invoice.
 

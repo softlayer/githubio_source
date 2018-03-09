@@ -39,14 +39,24 @@ This class is used to contain a datacenter location and its associated active us
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#location" name=location>location</a></span>
+            <span class='views-field-title'>
+                <a href="#location" name=location>location</a>
+            </span>
             <div class='views-field-body'>The datacenter location where object storage is available. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#usageRatePrices" name=usageRatePrices>usageRatePrices</a></span>
+            <span class='views-field-title'>
+                <a href="#usageRatePrices" name=usageRatePrices>usageRatePrices</a>
+            </span>
             <div class='views-field-body'>The collection of active usage rate item prices. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a></p>
+            </div>
         </div>
             </div>
     </div>

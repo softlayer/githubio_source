@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getMaximumExpansionSize
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getMaximumExpansionSize
+
+Returns the maximum volume expansion size in GB.
+
+
 ## Overview 
 
 

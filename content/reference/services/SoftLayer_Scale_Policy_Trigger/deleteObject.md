@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy_Trigger"
 ---
-# SoftLayer_Scale_Policy_Trigger::deleteObject
+# [SoftLayer_Scale_Policy_Trigger](/reference/services/SoftLayer_Scale_Policy_Trigger)::deleteObject
+
+Delete this trigger.
+
+
 ## Overview 
 
 

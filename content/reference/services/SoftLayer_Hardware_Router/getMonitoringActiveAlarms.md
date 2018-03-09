@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getMonitoringActiveAlarms
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getMonitoringActiveAlarms
+
+Returns open monitoring alarms for a given time period
+
+
 ## Overview 
 Returns open monitoring alarms for a given time period 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LBaaS_HealthMonitor"
 ---
-# SoftLayer_Network_LBaaS_HealthMonitor::getObject
+# [SoftLayer_Network_LBaaS_HealthMonitor](/reference/services/SoftLayer_Network_LBaaS_HealthMonitor)::getObject
+
+Retrieve a SoftLayer_Network_LBaaS_HealthMonitor record.
+
+
 ## Overview 
 
 

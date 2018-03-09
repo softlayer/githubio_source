@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getIntervalSchedule
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getIntervalSchedule
+
+Retrieve the Interval Schedule which is associated with this network storage volume.
+
+
 ## Overview 
 Retrieve the Interval Schedule which is associated with this network storage volume.
 

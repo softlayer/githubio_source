@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Boot_Parameter_Type"
 ---
-# SoftLayer_Virtual_Guest_Boot_Parameter_Type::getAllObjects
+# [SoftLayer_Virtual_Guest_Boot_Parameter_Type](/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter_Type)::getAllObjects
+
+
+
+
 ## Overview 
 
 

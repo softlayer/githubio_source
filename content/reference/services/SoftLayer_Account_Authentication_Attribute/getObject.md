@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Authentication_Attribute"
 ---
-# SoftLayer_Account_Authentication_Attribute::getObject
+# [SoftLayer_Account_Authentication_Attribute](/reference/services/SoftLayer_Account_Authentication_Attribute)::getObject
+
+Retrieve a SoftLayer_Account_Authentication_Attribute record.
+
+
 ## Overview 
 
 

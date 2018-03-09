@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getOriginalSnapshotName
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getOriginalSnapshotName
+
+Retrieve the name of the snapshot that this volume was duplicated from.
+
+
 ## Overview 
 Retrieve the name of the snapshot that this volume was duplicated from.
 

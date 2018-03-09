@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getItemPricesFromSoftwareDescriptions
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getItemPricesFromSoftwareDescriptions
+
+Returns a collection of SoftLayer_Item_Price objects from a collection of SoftLayer_Software_Description that are available for the service offering (package). 
+
+
 ## Overview 
 Return a collection of SoftLayer_Item_Price objects from a collection of SoftLayer_Software_Description 
 

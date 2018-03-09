@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getPublicBandwidthData
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getPublicBandwidthData
+
+Retrieve a graph of a server's public network usage.
+
+
 ## Overview 
 Retrieve a graph of a server's public network bandwidth usage over the specified timeframe. If no timeframe is specified then getPublicBandwidthGraphImage retrieves the last 24 hours of public bandwidth usage. getPublicBandwidthGraphImage returns a PNG image measuring 827 pixels by 293 pixels. 
 

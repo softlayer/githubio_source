@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::getTransactionHistory
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getTransactionHistory
+
+Retrieve the transaction history for this network tunnel.
+
+
 ## Overview 
 Retrieve the transaction history for this network tunnel.
 

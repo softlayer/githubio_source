@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location"
 ---
-# SoftLayer_Location::getDatacentersWithVirtualImageStoreServiceResourceRecord
+# [SoftLayer_Location](/reference/services/SoftLayer_Location)::getDatacentersWithVirtualImageStoreServiceResourceRecord
+
+
+
+
 ## Overview 
 
 

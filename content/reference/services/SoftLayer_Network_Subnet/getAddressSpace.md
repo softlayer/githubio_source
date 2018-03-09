@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getAddressSpace
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getAddressSpace
+
+Retrieve identifier which distinguishes whether the subnet is public or private address space.
+
+
 ## Overview 
 Retrieve identifier which distinguishes whether the subnet is public or private address space.
 

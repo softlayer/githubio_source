@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getCurrentBillableBandwidthUsage
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getCurrentBillableBandwidthUsage
+
+Retrieve the current billable public outbound bandwidth for this hardware for the current billing cycle.
+
+
 ## Overview 
 Retrieve the current billable public outbound bandwidth for this hardware for the current billing cycle.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getPrivateNetworkOnlyFlag
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getPrivateNetworkOnlyFlag
+
+Retrieve whether the hardware only has access to the private network.
+
+
 ## Overview 
 Retrieve whether the hardware only has access to the private network.
 

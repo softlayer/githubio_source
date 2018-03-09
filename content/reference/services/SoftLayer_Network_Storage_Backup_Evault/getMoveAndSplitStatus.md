@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getMoveAndSplitStatus
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getMoveAndSplitStatus
+
+Retrieve the current status of split or move operation as a part of volume duplication.
+
+
 ## Overview 
 Retrieve the current status of split or move operation as a part of volume duplication.
 

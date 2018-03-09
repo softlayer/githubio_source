@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Backbone"
 ---
-# SoftLayer_Network_Backbone::getLocation
+# [SoftLayer_Network_Backbone](/reference/services/SoftLayer_Network_Backbone)::getLocation
+
+Retrieve which of the SoftLayer datacenters a backbone is connected to.
+
+
 ## Overview 
 Retrieve which of the SoftLayer datacenters a backbone is connected to.
 

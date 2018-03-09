@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Group"
 ---
-# SoftLayer_Network_Storage_Group::getObject
+# [SoftLayer_Network_Storage_Group](/reference/services/SoftLayer_Network_Storage_Group)::getObject
+
+Retrieve a SoftLayer_Network_Storage_Group record.
+
+
 ## Overview 
 
 

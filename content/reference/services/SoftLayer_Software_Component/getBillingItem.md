@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component"
 ---
-# SoftLayer_Software_Component::getBillingItem
+# [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component)::getBillingItem
+
+Retrieve the billing item for a software component.
+
+
 ## Overview 
 Retrieve the billing item for a software component.
 

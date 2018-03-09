@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getRemoteManagement
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getRemoteManagement
+
+Retrieve a server's remote management card.
+
+
 ## Overview 
 Retrieve a server's remote management card.
 

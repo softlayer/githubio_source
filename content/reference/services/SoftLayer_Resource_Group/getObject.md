@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Resource_Group"
 ---
-# SoftLayer_Resource_Group::getObject
+# [SoftLayer_Resource_Group](/reference/services/SoftLayer_Resource_Group)::getObject
+
+Retrieve a SoftLayer_Resource_Group record.
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getStatus
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getStatus
+
+Retrieve a ticket's status.
+
+
 ## Overview 
 Retrieve a ticket's status.
 

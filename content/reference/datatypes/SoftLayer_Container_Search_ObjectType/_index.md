@@ -51,14 +51,24 @@ This data type is a container that stores information about a single indexed obj
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>Name of object type.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#properties" name=properties>properties</a></span>
+            <span class='views-field-title'>
+                <a href="#properties" name=properties>properties</a>
+            </span>
             <div class='views-field-body'>A collection of [[SoftLayer_Container_Search_ObjectType_Property|object properties]].  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Search_ObjectType_Property'>SoftLayer_Container_Search_ObjectType_Property[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Search_ObjectType_Property'>SoftLayer_Container_Search_ObjectType_Property[] </a></p>
+            </div>
         </div>
             </div>
     </div>

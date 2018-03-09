@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Schedule"
 ---
-# SoftLayer_Network_Storage_Schedule::getProperties
+# [SoftLayer_Network_Storage_Schedule](/reference/services/SoftLayer_Network_Storage_Schedule)::getProperties
+
+Retrieve properties used for configuration of a schedule.
+
+
 ## Overview 
 Retrieve properties used for configuration of a schedule.
 

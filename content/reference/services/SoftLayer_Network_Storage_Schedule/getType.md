@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Schedule"
 ---
-# SoftLayer_Network_Storage_Schedule::getType
+# [SoftLayer_Network_Storage_Schedule](/reference/services/SoftLayer_Network_Storage_Schedule)::getType
+
+Retrieve the type provides a standardized definition for a schedule.
+
+
 ## Overview 
 Retrieve the type provides a standardized definition for a schedule.
 

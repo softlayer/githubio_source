@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Category"
 ---
-# SoftLayer_Product_Item_Category::getGroup
+# [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category)::getGroup
+
+Retrieve this invoice item's "item category group". 
+
+
 ## Overview 
 Retrieve this invoice item's "item category group". 
 

@@ -33,7 +33,7 @@ Flash streaming, Windows Media streaming and HTTP protocols are supported: Flash
 
 ### seeAlso
 
-* [SoftLayer_Network_ContentDelivery_Account](/reference/datatypes/SoftLayer_Network_ContentDelivery_Account )
+* [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account )
 
 
 
@@ -53,24 +53,44 @@ Flash streaming, Windows Media streaming and HTTP protocols are supported: Flash
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#host" name=host>host</a></span>
+            <span class='views-field-title'>
+                <a href="#host" name=host>host</a>
+            </span>
             <div class='views-field-body'>The host name related to CDN supported media, and is represented in the hostname portion of a CDN URL. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#mediaType" name=mediaType>mediaType</a></span>
+            <span class='views-field-title'>
+                <a href="#mediaType" name=mediaType>mediaType</a>
+            </span>
             <div class='views-field-body'>The type of a media supported by CDN such as "FLASH", "WINDOWSMEDIA" or "HTTP" </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#platform" name=platform>platform</a></span>
+            <span class='views-field-title'>
+                <a href="#platform" name=platform>platform</a>
+            </span>
             <div class='views-field-body'>The platform name. It's a friendly name of media type. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#protocol" name=protocol>protocol</a></span>
+            <span class='views-field-title'>
+                <a href="#protocol" name=protocol>protocol</a>
+            </span>
             <div class='views-field-body'>The media protocol supported by CDN. This represents the media portion of a CDN URL.  Currently supported protocols are: rtmp, mms and http </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

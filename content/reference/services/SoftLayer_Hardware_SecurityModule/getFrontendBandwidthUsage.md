@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getFrontendBandwidthUsage
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getFrontendBandwidthUsage
+
+Retrieves public bandwidth usage records.
+
+
 ## Overview 
 Use this method to return an array of public bandwidth utilization records between a given date range. 
 

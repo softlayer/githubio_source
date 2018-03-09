@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getMonitoringServiceComponent
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getMonitoringServiceComponent
+
+Retrieve information regarding a piece of hardware's network monitoring services.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's network monitoring services.
 

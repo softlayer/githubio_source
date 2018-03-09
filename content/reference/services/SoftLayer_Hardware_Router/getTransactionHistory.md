@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getTransactionHistory
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getTransactionHistory
+
+Get transaction history for a piece of hardware.
+
+
 ## Overview 
 
 This method will query transaction history for a piece of hardware. 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getMonitoringServiceEligibilityFlag
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getMonitoringServiceEligibilityFlag
+
+Retrieve the monitoring service flag eligibility status for a piece of hardware.
+
+
 ## Overview 
 Retrieve the monitoring service flag eligibility status for a piece of hardware.
 

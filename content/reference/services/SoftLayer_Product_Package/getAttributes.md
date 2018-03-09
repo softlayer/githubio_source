@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getAttributes
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getAttributes
+
+
+
+
 ## Overview 
 
 

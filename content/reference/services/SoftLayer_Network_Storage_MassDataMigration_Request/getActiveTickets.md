@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_MassDataMigration_Request"
 ---
-# SoftLayer_Network_Storage_MassDataMigration_Request::getActiveTickets
+# [SoftLayer_Network_Storage_MassDataMigration_Request](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request)::getActiveTickets
+
+Retrieve the active tickets that are attached to the MDMS request.
+
+
 ## Overview 
 Retrieve the active tickets that are attached to the MDMS request.
 

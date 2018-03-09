@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getMonitoringServiceComponent
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getMonitoringServiceComponent
+
+Retrieve a virtual guest's network monitoring services.
+
+
 ## Overview 
 Retrieve a virtual guest's network monitoring services.
 

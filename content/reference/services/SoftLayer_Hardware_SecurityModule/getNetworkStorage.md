@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getNetworkStorage
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getNetworkStorage
+
+Retrieve information regarding a piece of hardware's associated network storage service account.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's associated network storage service account.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Dns_Domain_Registration"
 ---
-# SoftLayer_Dns_Domain_Registration::registerNameserver
+# [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration)::registerNameserver
+
+Creates a nameserver.
+
+
 ## Overview 
 The registerNameserver method creates a nameserver for the domain. 
 

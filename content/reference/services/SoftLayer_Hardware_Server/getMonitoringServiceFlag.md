@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getMonitoringServiceFlag
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getMonitoringServiceFlag
+
+Retrieve the service flag status for a piece of hardware.
+
+
 ## Overview 
 Retrieve the service flag status for a piece of hardware.
 

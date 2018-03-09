@@ -15,7 +15,7 @@ classes:
 # SoftLayer_Network_Firewall_Template
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Firewall_Template' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Network_Firewall_Template' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Firewall_Template' >Datatype</a></li>
     </ul>
 </div>
 
@@ -49,28 +49,48 @@ Firewall templates are recommend rule sets for use with SoftLayer Hardware Firew
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>A Firewall template's internal identifier. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#name" name=name>name</a></span>
+            <span class='views-field-title'>
+                <a href="#name" name=name>name</a>
+            </span>
             <div class='views-field-body'>The name of the firewall rules template. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#rules" name=rules>rules</a></span>
+            <span class='views-field-title'>
+                <a href="#rules" name=rules>rules</a>
+            </span>
             <div class='views-field-body'>The rule set that belongs to this firewall rules template. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Firewall_Template_Rule'>SoftLayer_Network_Firewall_Template_Rule[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_Firewall_Template_Rule'>SoftLayer_Network_Firewall_Template_Rule[] </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#ruleCount" name=ruleCount>ruleCount</a></span>
+            <span class='views-field-title'>
+                <a href="#ruleCount" name=ruleCount>ruleCount</a>
+            </span>
             <div class='views-field-body'>A count of the rule set that belongs to this firewall rules template. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
         </div>
             </div>
 </div>

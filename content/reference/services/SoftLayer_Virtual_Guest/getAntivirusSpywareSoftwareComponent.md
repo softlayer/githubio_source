@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getAntivirusSpywareSoftwareComponent
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getAntivirusSpywareSoftwareComponent
+
+Retrieve a antivirus / spyware software component object.
+
+
 ## Overview 
 Retrieve a antivirus / spyware software component object.
 

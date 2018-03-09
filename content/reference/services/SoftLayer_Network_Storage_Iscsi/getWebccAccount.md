@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getWebccAccount
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getWebccAccount
+
+Retrieve the account username and password for the EVault webCC interface.
+
+
 ## Overview 
 Retrieve the account username and password for the EVault webCC interface.
 

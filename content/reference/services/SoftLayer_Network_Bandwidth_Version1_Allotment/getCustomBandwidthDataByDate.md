@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
-# SoftLayer_Network_Bandwidth_Version1_Allotment::getCustomBandwidthDataByDate
+# [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getCustomBandwidthDataByDate
+
+Retrieve bandwidth graph by date.
+
+
 ## Overview 
 Retrieve bandwidth graph by date. 
 

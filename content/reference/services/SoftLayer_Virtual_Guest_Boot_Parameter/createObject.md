@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Boot_Parameter"
 ---
-# SoftLayer_Virtual_Guest_Boot_Parameter::createObject
+# [SoftLayer_Virtual_Guest_Boot_Parameter](/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter)::createObject
+
+Create a boot parameter record to be used at next boot
+
+
 ## Overview 
 
 

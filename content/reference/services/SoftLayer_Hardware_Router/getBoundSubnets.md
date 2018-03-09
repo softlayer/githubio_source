@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getBoundSubnets
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getBoundSubnets
+
+Retrieve associated subnets for a router object.
+
+
 ## Overview 
 Retrieve associated subnets for a router object.
 

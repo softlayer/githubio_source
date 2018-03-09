@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getPermissions
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getPermissions
+
+Retrieve a portal user's permissions. These permissions control that user's access to functions within the SoftLayer customer portal and API.
+
+
 ## Overview 
 Retrieve a portal user's permissions. These permissions control that user's access to functions within the SoftLayer customer portal and API.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Schedule"
 ---
-# SoftLayer_Network_Storage_Schedule::getDayOfMonth
+# [SoftLayer_Network_Storage_Schedule](/reference/services/SoftLayer_Network_Storage_Schedule)::getDayOfMonth
+
+Retrieve the day of the month parameter of this schedule.
+
+
 ## Overview 
 Retrieve the day of the month parameter of this schedule.
 

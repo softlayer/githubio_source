@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Storage_Repository"
 ---
-# SoftLayer_Virtual_Storage_Repository::getType
+# [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getType
+
+Retrieve a storage repository's [[SoftLayer_Virtual_Storage_Repository_Type|type]].
+
+
 ## Overview 
 Retrieve a storage repository's [[SoftLayer_Virtual_Storage_Repository_Type|type]].
 

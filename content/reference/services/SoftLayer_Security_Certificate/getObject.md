@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Security_Certificate"
 ---
-# SoftLayer_Security_Certificate::getObject
+# [SoftLayer_Security_Certificate](/reference/services/SoftLayer_Security_Certificate)::getObject
+
+Retrieve a SoftLayer_Security_Certificate record.
+
+
 ## Overview 
 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package_Preset"
 ---
-# SoftLayer_Product_Package_Preset::getComputeGroup
+# [SoftLayer_Product_Package_Preset](/reference/services/SoftLayer_Product_Package_Preset)::getComputeGroup
+
+Retrieve the compute family this configuration belongs to.
+
+
 ## Overview 
 Retrieve the compute family this configuration belongs to.
 

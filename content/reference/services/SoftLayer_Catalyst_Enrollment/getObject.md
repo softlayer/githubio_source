@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Catalyst_Enrollment"
 ---
-# SoftLayer_Catalyst_Enrollment::getObject
+# [SoftLayer_Catalyst_Enrollment](/reference/services/SoftLayer_Catalyst_Enrollment)::getObject
+
+Retrieve a SoftLayer_Catalyst_Enrollment record.
+
+
 ## Overview 
 
 

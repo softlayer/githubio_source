@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Scale_Policy_Trigger_Repeating"
 ---
-# SoftLayer_Scale_Policy_Trigger_Repeating::createObject
+# [SoftLayer_Scale_Policy_Trigger_Repeating](/reference/services/SoftLayer_Scale_Policy_Trigger_Repeating)::createObject
+
+Create a repeating policy trigger.
+
+
 ## Overview 
 
 

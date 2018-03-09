@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host_VirtualGuest"
 ---
-# SoftLayer_Network_Storage_Allowed_Host_VirtualGuest::getObject
+# [SoftLayer_Network_Storage_Allowed_Host_VirtualGuest](/reference/services/SoftLayer_Network_Storage_Allowed_Host_VirtualGuest)::getObject
+
+Retrieve a SoftLayer_Network_Storage_Allowed_Host_VirtualGuest record.
+
+
 ## Overview 
 
 

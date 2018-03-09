@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package_Preset"
 ---
-# SoftLayer_Product_Package_Preset::getDisallowedComputeGroupUpgradeFlag
+# [SoftLayer_Product_Package_Preset](/reference/services/SoftLayer_Product_Package_Preset)::getDisallowedComputeGroupUpgradeFlag
+
+Retrieve when true this preset is only allowed to upgrade/downgrade to other presets in the same compute family.
+
+
 ## Overview 
 Retrieve when true this preset is only allowed to upgrade/downgrade to other presets in the same compute family.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Order"
 ---
-# SoftLayer_Product_Order::getTaxCalculationResult
+# [SoftLayer_Product_Order](/reference/services/SoftLayer_Product_Order)::getTaxCalculationResult
+
+Get the results of a tax calculation.
+
+
 ## Overview 
 Sometimes taxes cannot be calculated immediately, so we start the calculations and let them run in the background. This method will return the current progress and information related to a specific tax calculation, which allows real-time progress updates on tax calculations. 
 

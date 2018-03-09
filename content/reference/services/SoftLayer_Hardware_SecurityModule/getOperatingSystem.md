@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getOperatingSystem
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getOperatingSystem
+
+Retrieve information regarding a piece of hardware's operating system.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's operating system.
 

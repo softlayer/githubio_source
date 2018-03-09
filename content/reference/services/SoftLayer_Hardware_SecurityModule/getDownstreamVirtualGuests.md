@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getDownstreamVirtualGuests
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getDownstreamVirtualGuests
+
+Retrieve information regarding all virtual guests attached to a piece of network hardware.
+
+
 ## Overview 
 Retrieve information regarding all virtual guests attached to a piece of network hardware.
 

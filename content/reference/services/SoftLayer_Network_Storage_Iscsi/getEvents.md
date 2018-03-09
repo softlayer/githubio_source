@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getEvents
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getEvents
+
+Retrieve the events which have taken place on a network storage volume.
+
+
 ## Overview 
 Retrieve the events which have taken place on a network storage volume.
 

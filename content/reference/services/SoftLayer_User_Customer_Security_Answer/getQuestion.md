@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_Security_Answer"
 ---
-# SoftLayer_User_Customer_Security_Answer::getQuestion
+# [SoftLayer_User_Customer_Security_Answer](/reference/services/SoftLayer_User_Customer_Security_Answer)::getQuestion
+
+Retrieve the question the security answer is associated with.
+
+
 ## Overview 
 Retrieve the question the security answer is associated with.
 

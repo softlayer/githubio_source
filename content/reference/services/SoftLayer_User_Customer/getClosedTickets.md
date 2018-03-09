@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getClosedTickets
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getClosedTickets
+
+Retrieve an user's associated closed tickets.
+
+
 ## Overview 
 Retrieve an user's associated closed tickets.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Vlan_Firewall"
 ---
-# SoftLayer_Network_Vlan_Firewall::getMetricTrackingObject
+# [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getMetricTrackingObject
+
+Retrieve a firewall's metric tracking object.
+
+
 ## Overview 
 Retrieve a firewall's metric tracking object.
 

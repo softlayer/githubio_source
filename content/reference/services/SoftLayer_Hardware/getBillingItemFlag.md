@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getBillingItemFlag
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getBillingItemFlag
+
+Retrieve a flag indicating that a billing item exists.
+
+
 ## Overview 
 Retrieve a flag indicating that a billing item exists.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::addNotificationSubscriber
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::addNotificationSubscriber
+
+Create a notification subscription record for the user.
+
+
 ## Overview 
 Create a notification subscription record for the user. If a subscription record exists for the notification, the record will be set to active, if currently inactive. 
 

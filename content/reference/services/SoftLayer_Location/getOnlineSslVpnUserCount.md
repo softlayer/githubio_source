@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location"
 ---
-# SoftLayer_Location::getOnlineSslVpnUserCount
+# [SoftLayer_Location](/reference/services/SoftLayer_Location)::getOnlineSslVpnUserCount
+
+Retrieve the total number of users online using SoftLayer's SSL VPN service for a location.
+
+
 ## Overview 
 Retrieve the total number of users online using SoftLayer's SSL VPN service for a location.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getQuantaStorPackageFlag
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getQuantaStorPackageFlag
+
+Retrieve whether the package is a specialized mass storage QuantaStor package. (Deprecated)
+
+
 ## Overview 
 Retrieve whether the package is a specialized mass storage QuantaStor package. (Deprecated)
 

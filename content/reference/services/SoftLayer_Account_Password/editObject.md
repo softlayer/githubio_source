@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Password"
 ---
-# SoftLayer_Account_Password::editObject
+# [SoftLayer_Account_Password](/reference/services/SoftLayer_Account_Password)::editObject
+
+Edit the password and/or notes for an account password.
+
+
 ## Overview 
 The password and/or notes may be modified.  Modifying the EVault passwords here will also update the password the Webcc interface will use. 
 

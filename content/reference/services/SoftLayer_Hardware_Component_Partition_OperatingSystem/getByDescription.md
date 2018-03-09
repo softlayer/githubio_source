@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Component_Partition_OperatingSystem"
 ---
-# SoftLayer_Hardware_Component_Partition_OperatingSystem::getByDescription
+# [SoftLayer_Hardware_Component_Partition_OperatingSystem](/reference/services/SoftLayer_Hardware_Component_Partition_OperatingSystem)::getByDescription
+
+Retrieves a list of all partition templates that match a certain description.
+
+
 ## Overview 
 The '''getByDescription''' method retrieves all possible partition templates based on the description (required parameter) entered when calling the method. The description is typically the operating system's name. Current recognized values include 'linux', 'windows', 'freebsd', and 'Debian'. 
 

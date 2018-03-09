@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::isBackendPingable
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::isBackendPingable
+
+Verifies if a guest's backend ip address is pingable.
+
+
 ## Overview 
 Issues a ping command and returns the success (true) or failure (false) of the ping command. 
 

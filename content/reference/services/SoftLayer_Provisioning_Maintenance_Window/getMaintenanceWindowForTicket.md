@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Provisioning_Maintenance_Window"
 ---
-# SoftLayer_Provisioning_Maintenance_Window::getMaintenanceWindowForTicket
+# [SoftLayer_Provisioning_Maintenance_Window](/reference/services/SoftLayer_Provisioning_Maintenance_Window)::getMaintenanceWindowForTicket
+
+Returns a specific maintenance window
+
+
 ## Overview 
 getMaintenceWindowForTicket() returns a specific maintenance window 
 

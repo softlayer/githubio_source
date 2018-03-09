@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHardwareWithMcafee
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardwareWithMcafee
+
+Retrieve all hardware associated with an account that has McAfee Secure software components.
+
+
 ## Overview 
 Retrieve all hardware associated with an account that has McAfee Secure software components.
 

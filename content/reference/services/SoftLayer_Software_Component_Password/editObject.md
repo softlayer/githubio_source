@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_Password"
 ---
-# SoftLayer_Software_Component_Password::editObject
+# [SoftLayer_Software_Component_Password](/reference/services/SoftLayer_Software_Component_Password)::editObject
+
+Edit the properties of a software component password.
+
+
 ## Overview 
 Edit the properties of a software component password such as the username, password, port, and notes. 
 

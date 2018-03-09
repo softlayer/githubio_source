@@ -39,29 +39,54 @@ This contains the four tax rates, one for each fee type.
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#laborTaxRate" name=laborTaxRate>laborTaxRate</a></span>
+            <span class='views-field-title'>
+                <a href="#laborTaxRate" name=laborTaxRate>laborTaxRate</a>
+            </span>
             <div class='views-field-body'>The tax rate associated with the labor fee. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>decimal</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>decimal</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#locationId" name=locationId>locationId</a></span>
+            <span class='views-field-title'>
+                <a href="#locationId" name=locationId>locationId</a>
+            </span>
             <div class='views-field-body'>A reference to a location. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>decimal</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>decimal</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#oneTimeTaxRate" name=oneTimeTaxRate>oneTimeTaxRate</a></span>
+            <span class='views-field-title'>
+                <a href="#oneTimeTaxRate" name=oneTimeTaxRate>oneTimeTaxRate</a>
+            </span>
             <div class='views-field-body'>The tax rate associated with the one-time fee. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>decimal</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>decimal</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#recurringTaxRate" name=recurringTaxRate>recurringTaxRate</a></span>
+            <span class='views-field-title'>
+                <a href="#recurringTaxRate" name=recurringTaxRate>recurringTaxRate</a>
+            </span>
             <div class='views-field-body'>The tax rate associated with the recurring fee. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>decimal</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>decimal</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#setupTaxRate" name=setupTaxRate>setupTaxRate</a></span>
+            <span class='views-field-title'>
+                <a href="#setupTaxRate" name=setupTaxRate>setupTaxRate</a>
+            </span>
             <div class='views-field-body'>The tax rate associated with the setup fee. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>decimal</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>decimal</p>
+            </div>
         </div>
             </div>
     </div>

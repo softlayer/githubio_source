@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::getNetworkMonitorAttachedDownHardware
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getNetworkMonitorAttachedDownHardware
+
+Retrieve all servers with failed monitoring that are attached downstream to a piece of hardware.
+
+
 ## Overview 
 Retrieve all servers with failed monitoring that are attached downstream to a piece of hardware.
 

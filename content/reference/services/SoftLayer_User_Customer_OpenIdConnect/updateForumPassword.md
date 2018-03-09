@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::updateForumPassword
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::updateForumPassword
+
+Update a user's forum password
+
+
 ## Overview 
 This method is deprecated! SoftLayer Community Forums no longer exist, therefore, this method will return false. 
 

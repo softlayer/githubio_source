@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Catalyst_Enrollment"
 ---
-# SoftLayer_Catalyst_Enrollment::getIsActiveFlag
+# [SoftLayer_Catalyst_Enrollment](/reference/services/SoftLayer_Catalyst_Enrollment)::getIsActiveFlag
+
+
+
+
 ## Overview 
 
 

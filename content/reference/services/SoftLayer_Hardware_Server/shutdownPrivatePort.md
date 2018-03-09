@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::shutdownPrivatePort
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::shutdownPrivatePort
+
+Shuts down the public port
+
+
 ## Overview 
 Shuts down the public network port
 

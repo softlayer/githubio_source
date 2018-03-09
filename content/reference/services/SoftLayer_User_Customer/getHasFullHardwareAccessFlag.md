@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getHasFullHardwareAccessFlag
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getHasFullHardwareAccessFlag
+
+Retrieve whether or not a portal user has access to all hardware on their account.
+
+
 ## Overview 
 Retrieve whether or not a portal user has access to all hardware on their account.
 

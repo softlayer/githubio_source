@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_External_Binding_Totp"
 ---
-# SoftLayer_User_Customer_External_Binding_Totp::getBillingItem
+# [SoftLayer_User_Customer_External_Binding_Totp](/reference/services/SoftLayer_User_Customer_External_Binding_Totp)::getBillingItem
+
+Retrieve information regarding the billing item for external authentication.
+
+
 ## Overview 
 Retrieve information regarding the billing item for external authentication.
 

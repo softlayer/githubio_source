@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Resource_Group"
 ---
-# SoftLayer_Resource_Group::getVlanMembers
+# [SoftLayer_Resource_Group](/reference/services/SoftLayer_Resource_Group)::getVlanMembers
+
+Retrieve a resource group's associated VLAN members.
+
+
 ## Overview 
 Retrieve a resource group's associated VLAN members.
 

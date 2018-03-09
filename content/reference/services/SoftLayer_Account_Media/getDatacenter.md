@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Media"
 ---
-# SoftLayer_Account_Media::getDatacenter
+# [SoftLayer_Account_Media](/reference/services/SoftLayer_Account_Media)::getDatacenter
+
+Retrieve the datacenter where the media resides.
+
+
 ## Overview 
 Retrieve the datacenter where the media resides.
 

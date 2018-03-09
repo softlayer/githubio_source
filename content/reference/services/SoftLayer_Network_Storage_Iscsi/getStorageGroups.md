@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getStorageGroups
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getStorageGroups
+
+Retrieve the network storage groups this volume is attached to.
+
+
 ## Overview 
 Retrieve the network storage groups this volume is attached to.
 

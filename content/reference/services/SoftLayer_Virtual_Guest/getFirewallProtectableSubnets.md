@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getFirewallProtectableSubnets
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getFirewallProtectableSubnets
+
+Get the subnets associated with this CloudLayer computing instance that are protectable by a network component firewall.
+
+
 ## Overview 
 Get the subnets associated with this CloudLayer computing instance that are protectable by a network component firewall. 
 

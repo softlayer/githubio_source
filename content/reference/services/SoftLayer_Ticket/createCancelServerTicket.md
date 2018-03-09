@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::createCancelServerTicket
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::createCancelServerTicket
+
+Create a sales cancel server ticket to be cancelled on next bill date.
+
+
 ## Overview 
 A cancel server request creates a ticket to cancel the resource on next bill date. The hardware ID parameter is required to determine which server is to be cancelled. NOTE: Hourly bare metal servers will be cancelled on next bill date. 
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getOpenSalesTickets
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getOpenSalesTickets
+
+Retrieve the open sales tickets associated with an account.
+
+
 ## Overview 
 Retrieve the open sales tickets associated with an account.
 

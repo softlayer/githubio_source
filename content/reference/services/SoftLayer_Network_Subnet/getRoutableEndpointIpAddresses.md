@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet"
 ---
-# SoftLayer_Network_Subnet::getRoutableEndpointIpAddresses
+# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getRoutableEndpointIpAddresses
+
+Retrieve valid routable endpoint addresses for a subnet.
+
+
 ## Overview 
 getRoutableEndpointAddresses retrieves valid routable endpoint addresses for a subnet. You may use any IP address in a portable subnet, but may not use the network identifier, gateway, or broadcast address for primary and secondary on VLAN subnets. 
 

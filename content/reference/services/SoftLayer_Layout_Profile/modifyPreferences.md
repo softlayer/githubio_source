@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Layout_Profile"
 ---
-# SoftLayer_Layout_Profile::modifyPreferences
+# [SoftLayer_Layout_Profile](/reference/services/SoftLayer_Layout_Profile)::modifyPreferences
+
+Modifies a collection of associated preferences
+
+
 ## Overview 
 Using this method, multiple [[SoftLayer_Layout_Profile_Preference]] objects may be updated at once. 
 

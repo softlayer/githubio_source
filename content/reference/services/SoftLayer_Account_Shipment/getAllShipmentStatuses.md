@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Shipment"
 ---
-# SoftLayer_Account_Shipment::getAllShipmentStatuses
+# [SoftLayer_Account_Shipment](/reference/services/SoftLayer_Account_Shipment)::getAllShipmentStatuses
+
+Retrieve a list of shipment statuses.
+
+
 ## Overview 
 Retrieve a a list of shipment statuses.
 

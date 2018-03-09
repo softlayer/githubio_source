@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getPowerSupply
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getPowerSupply
+
+Retrieve a server's power supply.
+
+
 ## Overview 
 Retrieve a server's power supply.
 

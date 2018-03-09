@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Gateway"
 ---
-# SoftLayer_Network_Gateway::bypassVlans
+# [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::bypassVlans
+
+Bypass VLANs
+
+
 ## Overview 
 Start the asynchronous process to bypass the provided VLANs. The VLANs must already be attached. Any VLANs that are already bypassed will be ignored. The status field can be checked for progress. 
 

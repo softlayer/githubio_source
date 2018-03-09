@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::getMobileDevices
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getMobileDevices
+
+Retrieve a portal user's associated mobile device profiles.
+
+
 ## Overview 
 Retrieve a portal user's associated mobile device profiles.
 

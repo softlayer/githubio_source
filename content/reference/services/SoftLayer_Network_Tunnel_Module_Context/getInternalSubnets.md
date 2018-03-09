@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# SoftLayer_Network_Tunnel_Module_Context::getInternalSubnets
+# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getInternalSubnets
+
+Retrieve private subnets that can be accessed through the network tunnel.
+
+
 ## Overview 
 Retrieve private subnets that can be accessed through the network tunnel.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getCredentials
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getCredentials
+
+
+
+
 ## Overview 
 
 

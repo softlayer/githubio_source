@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Monitor_Version1_Query_Host"
 ---
-# SoftLayer_Network_Monitor_Version1_Query_Host::getQueryType
+# [SoftLayer_Network_Monitor_Version1_Query_Host](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host)::getQueryType
+
+Retrieve the type of monitoring query that is executed when this hardware is monitored.
+
+
 ## Overview 
 Retrieve the type of monitoring query that is executed when this hardware is monitored.
 

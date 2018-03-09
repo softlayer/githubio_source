@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::getOriginPullSupportedMediaUrls
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getOriginPullSupportedMediaUrls
+
+Returns media URLs that support Origin Pull mapping
+
+
 ## Overview 
 This method returns CDN URLs that supports Origin Pull mappings. 
 

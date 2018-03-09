@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Contact"
 ---
-# SoftLayer_Account_Contact::getType
+# [SoftLayer_Account_Contact](/reference/services/SoftLayer_Account_Contact)::getType
+
+
+
+
 ## Overview 
 
 

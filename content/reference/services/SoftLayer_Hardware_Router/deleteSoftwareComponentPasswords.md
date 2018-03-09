@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Router"
 ---
-# SoftLayer_Hardware_Router::deleteSoftwareComponentPasswords
+# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::deleteSoftwareComponentPasswords
+
+Delete software component passwords.
+
+
 ## Overview 
 Delete software component passwords. 
 

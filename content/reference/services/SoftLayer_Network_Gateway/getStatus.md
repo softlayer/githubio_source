@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Gateway"
 ---
-# SoftLayer_Network_Gateway::getStatus
+# [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::getStatus
+
+Retrieve the current status of the gateway.
+
+
 ## Overview 
 Retrieve the current status of the gateway.
 

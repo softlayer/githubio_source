@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
 ---
-# SoftLayer_Network_ContentDelivery_Account::manageHttpCompression
+# [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::manageHttpCompression
+
+Enable or disable CDN edge compression
+
+
 ## Overview 
 HTTP Compression is used to reduce the bandwidth used to deliver an object. You can specify list of content types that needs to be compressed. If you omit the content type parameter, these values will be used by default: 
 * text/plain

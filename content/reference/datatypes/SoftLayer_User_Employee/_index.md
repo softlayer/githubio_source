@@ -29,7 +29,7 @@ A SoftLayer_User_Employee models a single SoftLayer employee for the purposes of
 
 ### seeAlso
 
-* [SoftLayer_Ticket_Update_Employee](/reference/datatypes/SoftLayer_Ticket_Update_Employee )
+* [SoftLayer_Ticket_Update_Employee](/reference/services/SoftLayer_Ticket_Update_Employee )
 
 
 
@@ -49,113 +49,218 @@ A SoftLayer_User_Employee models a single SoftLayer employee for the purposes of
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#displayName" name=displayName>displayName</a></span>
+            <span class='views-field-title'>
+                <a href="#displayName" name=displayName>displayName</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#email" name=email>email</a></span>
+            <span class='views-field-title'>
+                <a href="#email" name=email>email</a>
+            </span>
             <div class='views-field-body'>A SoftLayer employee's email address. Email addresses are only visible to [[SoftLayer_Account|SoftLayer Accounts]] that are assigned to an employee  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#employeeDepartmentId" name=employeeDepartmentId>employeeDepartmentId</a></span>
+            <span class='views-field-title'>
+                <a href="#employeeDepartmentId" name=employeeDepartmentId>employeeDepartmentId</a>
+            </span>
             <div class='views-field-body'>A SoftLayer employee's [[SoftLayer_User_Employee_Department|department]] id.  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#firstName" name=firstName>firstName</a></span>
+            <span class='views-field-title'>
+                <a href="#firstName" name=firstName>firstName</a>
+            </span>
             <div class='views-field-body'>A SoftLayer employee's first name. First names are only visible to [[SoftLayer_Account|SoftLayer Accounts]] that are assigned to an employee  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#lastName" name=lastName>lastName</a></span>
+            <span class='views-field-title'>
+                <a href="#lastName" name=lastName>lastName</a>
+            </span>
             <div class='views-field-body'>A SoftLayer employee's last name. Last names are only visible to [[SoftLayer_Account|SoftLayer Accounts]] that are assigned to an employee  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#officePhone" name=officePhone>officePhone</a></span>
+            <span class='views-field-title'>
+                <a href="#officePhone" name=officePhone>officePhone</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#username" name=username>username</a></span>
+            <span class='views-field-title'>
+                <a href="#username" name=username>username</a>
+            </span>
             <div class='views-field-body'>A representation of a SoftLayer employee's username. In all cases this should simply state "Employee". </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#actions" name=actions>actions</a></span>
+            <span class='views-field-title'>
+                <a href="#actions" name=actions>actions</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Permission_Action'>SoftLayer_User_Permission_Action[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_User_Permission_Action'>SoftLayer_User_Permission_Action[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#chatTranscript" name=chatTranscript>chatTranscript</a></span>
+            <span class='views-field-title'>
+                <a href="#chatTranscript" name=chatTranscript>chatTranscript</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Ticket_Chat'>SoftLayer_Ticket_Chat[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Ticket_Chat'>SoftLayer_Ticket_Chat[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#employeeDepartment" name=employeeDepartment>employeeDepartment</a></span>
+            <span class='views-field-title'>
+                <a href="#employeeDepartment" name=employeeDepartment>employeeDepartment</a>
+            </span>
             <div class='views-field-body'>The department that a SoftLayer employee belongs to. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Employee_Department'>SoftLayer_User_Employee_Department </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_User_Employee_Department'>SoftLayer_User_Employee_Department </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#layoutProfiles" name=layoutProfiles>layoutProfiles</a></span>
+            <span class='views-field-title'>
+                <a href="#layoutProfiles" name=layoutProfiles>layoutProfiles</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Layout_Profile'>SoftLayer_Layout_Profile[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Layout_Profile'>SoftLayer_Layout_Profile[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#metricTrackingObject" name=metricTrackingObject>metricTrackingObject</a></span>
+            <span class='views-field-title'>
+                <a href="#metricTrackingObject" name=metricTrackingObject>metricTrackingObject</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#roles" name=roles>roles</a></span>
+            <span class='views-field-title'>
+                <a href="#roles" name=roles>roles</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_User_Permission_Role'>SoftLayer_User_Permission_Role[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_User_Permission_Role'>SoftLayer_User_Permission_Role[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#ticketActivities" name=ticketActivities>ticketActivities</a></span>
+            <span class='views-field-title'>
+                <a href="#ticketActivities" name=ticketActivities>ticketActivities</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Ticket_Activity'>SoftLayer_Ticket_Activity[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Ticket_Activity'>SoftLayer_Ticket_Activity[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#ticketAttachmentReferences" name=ticketAttachmentReferences>ticketAttachmentReferences</a></span>
+            <span class='views-field-title'>
+                <a href="#ticketAttachmentReferences" name=ticketAttachmentReferences>ticketAttachmentReferences</a>
+            </span>
             <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Ticket_Attachment'>SoftLayer_Ticket_Attachment[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Ticket_Attachment'>SoftLayer_Ticket_Attachment[] </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#actionCount" name=actionCount>actionCount</a></span>
+            <span class='views-field-title'>
+                <a href="#actionCount" name=actionCount>actionCount</a>
+            </span>
             <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#chatTranscriptCount" name=chatTranscriptCount>chatTranscriptCount</a></span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#layoutProfileCount" name=layoutProfileCount>layoutProfileCount</a></span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#roleCount" name=roleCount>roleCount</a></span>
+            <span class='views-field-title'>
+                <a href="#chatTranscriptCount" name=chatTranscriptCount>chatTranscriptCount</a>
+            </span>
             <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#ticketActivityCount" name=ticketActivityCount>ticketActivityCount</a></span>
+            <span class='views-field-title'>
+                <a href="#layoutProfileCount" name=layoutProfileCount>layoutProfileCount</a>
+            </span>
             <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#ticketAttachmentReferenceCount" name=ticketAttachmentReferenceCount>ticketAttachmentReferenceCount</a></span>
+            <span class='views-field-title'>
+                <a href="#roleCount" name=roleCount>roleCount</a>
+            </span>
             <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>unsignedLong</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#ticketActivityCount" name=ticketActivityCount>ticketActivityCount</a>
+            </span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#ticketAttachmentReferenceCount" name=ticketAttachmentReferenceCount>ticketAttachmentReferenceCount</a>
+            </span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
         </div>
             </div>
 </div>

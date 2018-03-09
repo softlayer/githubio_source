@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component_Password"
 ---
-# SoftLayer_Software_Component_Password::createObjects
+# [SoftLayer_Software_Component_Password](/reference/services/SoftLayer_Software_Component_Password)::createObjects
+
+Create more than one password for a software component.
+
+
 ## Overview 
 Create more than one password for a software component. 
 

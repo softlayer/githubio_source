@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Brand"
 ---
-# SoftLayer_Brand::getContacts
+# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getContacts
+
+Retrieve the contacts for the brand.
+
+
 ## Overview 
 Retrieve the contacts for the brand.
 

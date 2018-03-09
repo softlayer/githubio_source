@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Notification_User_Subscriber"
 ---
-# SoftLayer_Notification_User_Subscriber::getDeliveryMethods
+# [SoftLayer_Notification_User_Subscriber](/reference/services/SoftLayer_Notification_User_Subscriber)::getDeliveryMethods
+
+Retrieve the delivery methods used to send the subscribed notification.
+
+
 ## Overview 
 Retrieve the delivery methods used to send the subscribed notification.
 

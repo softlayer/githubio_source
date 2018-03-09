@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getBytesUsed
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getBytesUsed
+
+Retrieve the amount of space used by the volume, in bytes.
+
+
 ## Overview 
 Retrieve the amount of space used by the volume, in bytes.
 

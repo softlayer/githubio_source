@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getReplicationStatus
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getReplicationStatus
+
+Retrieve the current replication status of a network storage volume. Indicates Failover or Failback status.
+
+
 ## Overview 
 Retrieve the current replication status of a network storage volume. Indicates Failover or Failback status.
 

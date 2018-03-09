@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::createNotificationSubscriber
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::createNotificationSubscriber
+
+Create a new subscriber for a given resource.
+
+
 ## Overview 
 Create a new subscriber for a given resource. 
 

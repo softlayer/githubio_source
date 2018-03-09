@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getPrimaryNetworkComponent
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getPrimaryNetworkComponent
+
+Retrieve information regarding the hardware's primary public network component.
+
+
 ## Overview 
 Retrieve information regarding the hardware's primary public network component.
 

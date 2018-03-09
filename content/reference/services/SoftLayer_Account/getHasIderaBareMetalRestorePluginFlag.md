@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHasIderaBareMetalRestorePluginFlag
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHasIderaBareMetalRestorePluginFlag
+
+Retrieve return 1 if one of the account's hardware has an installation of Idera Server Backup otherwise 0.
+
+
 ## Overview 
 Retrieve return 1 if one of the account's hardware has an installation of Idera Server Backup otherwise 0.
 

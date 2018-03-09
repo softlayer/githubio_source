@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getInboundPrivateBandwidthUsage
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getInboundPrivateBandwidthUsage
+
+Retrieve the total private inbound bandwidth for this computing instance for the current billing cycle.
+
+
 ## Overview 
 Retrieve the total private inbound bandwidth for this computing instance for the current billing cycle.
 

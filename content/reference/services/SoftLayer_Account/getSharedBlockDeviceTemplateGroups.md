@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getSharedBlockDeviceTemplateGroups
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSharedBlockDeviceTemplateGroups
+
+Get the collection of template group objects that have been shared with this account.
+
+
 ## Overview 
 This method returns the [[SoftLayer_Virtual_Guest_Block_Device_Template_Group]] objects that have been shared with this account 
 

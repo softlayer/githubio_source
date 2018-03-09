@@ -35,7 +35,7 @@ SoftLayer's CDN allows for multiple origin pull domains and CNAME records. This 
 
 ### seeAlso
 
-* [SoftLayer_Network_ContentDelivery_Account](/reference/datatypes/SoftLayer_Network_ContentDelivery_Account )
+* [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account )
 
 
 
@@ -55,29 +55,54 @@ SoftLayer's CDN allows for multiple origin pull domains and CNAME records. This 
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#cname" name=cname>cname</a></span>
+            <span class='views-field-title'>
+                <a href="#cname" name=cname>cname</a>
+            </span>
             <div class='views-field-body'>The CNAME record. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>The unique identifier of an origin pull configuration </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#isSecureContent" name=isSecureContent>isSecureContent</a></span>
+            <span class='views-field-title'>
+                <a href="#isSecureContent" name=isSecureContent>isSecureContent</a>
+            </span>
             <div class='views-field-body'>This indicates if an origin pull mapping is for the secure content or not. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>boolean</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#mediaType" name=mediaType>mediaType</a></span>
+            <span class='views-field-title'>
+                <a href="#mediaType" name=mediaType>mediaType</a>
+            </span>
             <div class='views-field-body'>The type of a media supported by CDN. Supported media types are: "HTTP", "FLASH" and "WM" </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#originUrl" name=originUrl>originUrl</a></span>
+            <span class='views-field-title'>
+                <a href="#originUrl" name=originUrl>originUrl</a>
+            </span>
             <div class='views-field-body'>The URL of a origin server.  A URL can contain a directory path. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

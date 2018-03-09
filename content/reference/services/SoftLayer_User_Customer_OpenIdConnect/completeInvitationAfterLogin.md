@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# SoftLayer_User_Customer_OpenIdConnect::completeInvitationAfterLogin
+# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::completeInvitationAfterLogin
+
+Completes invitation processing after logging on an existing OpenIdConnect user identity and return an access token
+
+
 ## Overview 
 
 

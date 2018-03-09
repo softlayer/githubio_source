@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getFrontendRouters
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getFrontendRouters
+
+Retrieve a guest's frontend or public router.
+
+
 ## Overview 
 Retrieve a guest's frontend or public router.
 

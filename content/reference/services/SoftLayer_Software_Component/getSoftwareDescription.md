@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Software_Component"
 ---
-# SoftLayer_Software_Component::getSoftwareDescription
+# [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component)::getSoftwareDescription
+
+Retrieve the Software Description of this Software Component.
+
+
 ## Overview 
 Retrieve the Software Description of this Software Component.
 

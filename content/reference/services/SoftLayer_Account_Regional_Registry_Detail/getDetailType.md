@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account_Regional_Registry_Detail"
 ---
-# SoftLayer_Account_Regional_Registry_Detail::getDetailType
+# [SoftLayer_Account_Regional_Registry_Detail](/reference/services/SoftLayer_Account_Regional_Registry_Detail)::getDetailType
+
+Retrieve the associated type of this detail object.
+
+
 ## Overview 
 Retrieve the associated type of this detail object.
 

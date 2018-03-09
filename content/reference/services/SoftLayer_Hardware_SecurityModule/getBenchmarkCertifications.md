@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getBenchmarkCertifications
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getBenchmarkCertifications
+
+Retrieve information regarding a piece of hardware's benchmark certifications.
+
+
 ## Overview 
 Retrieve information regarding a piece of hardware's benchmark certifications.
 

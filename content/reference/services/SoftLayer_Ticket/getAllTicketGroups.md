@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getAllTicketGroups
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getAllTicketGroups
+
+Retrieve all available ticket groups. 
+
+
 ## Overview 
 getAllTicketGroups() retrieves a list of all groups that a ticket may be assigned to. Ticket groups represent the internal department at SoftLayer who a ticket is assigned to. 
 

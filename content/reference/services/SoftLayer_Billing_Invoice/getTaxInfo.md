@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Invoice"
 ---
-# SoftLayer_Billing_Invoice::getTaxInfo
+# [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getTaxInfo
+
+Retrieve this is the tax information that applies to tax auditing. This is the official tax record for this invoice.
+
+
 ## Overview 
 Retrieve this is the tax information that applies to tax auditing. This is the official tax record for this invoice.
 

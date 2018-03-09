@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Item_Price"
 ---
-# SoftLayer_Product_Item_Price::getBigDataOsJournalDiskFlag
+# [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getBigDataOsJournalDiskFlag
+
+Retrieve whether the price is for Big Data OS/Journal disks only. (Deprecated)
+
+
 ## Overview 
 Retrieve whether the price is for Big Data OS/Journal disks only. (Deprecated)
 

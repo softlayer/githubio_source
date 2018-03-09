@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::collectBytesUsed
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::collectBytesUsed
+
+Retrieve the number of bytes capacity currently in use on a Storage account.
+
+
 ## Overview 
 {{CloudLayerOnlyMethod}} 
 

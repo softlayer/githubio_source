@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item_Virtual_DedicatedHost"
 ---
-# SoftLayer_Billing_Item_Virtual_DedicatedHost::getNextInvoiceTotalRecurringAmount
+# [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getNextInvoiceTotalRecurringAmount
+
+Retrieve a Billing Item's total, including any child billing items and associated billing items if they exist.'
+
+
 ## Overview 
 Retrieve a Billing Item's total, including any child billing items and associated billing items if they exist.'
 

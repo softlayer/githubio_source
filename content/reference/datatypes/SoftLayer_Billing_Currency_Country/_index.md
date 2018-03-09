@@ -13,7 +13,7 @@ classes:
 # SoftLayer_Billing_Currency_Country
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Currency_Country' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Billing_Currency_Country' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Billing_Currency_Country' >Datatype</a></li>
     </ul>
 </div>
 
@@ -39,19 +39,34 @@ The SoftLayer_Billing_Currency_Country data type maps what currencies are valid 
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#countryId" name=countryId>countryId</a></span>
+            <span class='views-field-title'>
+                <a href="#countryId" name=countryId>countryId</a>
+            </span>
             <div class='views-field-body'>A unique identifier for the related country. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#currencyId" name=currencyId>currencyId</a></span>
+            <span class='views-field-title'>
+                <a href="#currencyId" name=currencyId>currencyId</a>
+            </span>
             <div class='views-field-body'>A unique identifier for the related currency. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#id" name=id>id</a></span>
+            <span class='views-field-title'>
+                <a href="#id" name=id>id</a>
+            </span>
             <div class='views-field-body'>A unique identifier for a map between a country and currency. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>integer</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
         </div>
             </div>
     </div>

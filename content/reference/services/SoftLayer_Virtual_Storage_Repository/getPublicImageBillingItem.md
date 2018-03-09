@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Storage_Repository"
 ---
-# SoftLayer_Virtual_Storage_Repository::getPublicImageBillingItem
+# [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getPublicImageBillingItem
+
+Retrieve the current billing item for a public storage repository.
+
+
 ## Overview 
 Retrieve the current billing item for a public storage repository.
 

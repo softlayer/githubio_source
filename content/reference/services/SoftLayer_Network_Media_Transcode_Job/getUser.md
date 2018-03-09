@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Media_Transcode_Job"
 ---
-# SoftLayer_Network_Media_Transcode_Job::getUser
+# [SoftLayer_Network_Media_Transcode_Job](/reference/services/SoftLayer_Network_Media_Transcode_Job)::getUser
+
+Retrieve the SoftLayer user that created the transcode job
+
+
 ## Overview 
 Retrieve the SoftLayer user that created the transcode job
 

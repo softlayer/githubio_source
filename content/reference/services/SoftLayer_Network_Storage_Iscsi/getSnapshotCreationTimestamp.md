@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 ---
-# SoftLayer_Network_Storage_Iscsi::getSnapshotCreationTimestamp
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getSnapshotCreationTimestamp
+
+Retrieve the creation timestamp of the snapshot on the storage platform.
+
+
 ## Overview 
 Retrieve the creation timestamp of the snapshot on the storage platform.
 

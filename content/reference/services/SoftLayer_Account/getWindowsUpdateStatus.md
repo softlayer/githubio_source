@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getWindowsUpdateStatus
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getWindowsUpdateStatus
+
+Retrieve a list of an account's hardware's Windows Update status.
+
+
 ## Overview 
 Retrieve a list of an account's hardware's Windows Update status. This list includes which servers have available updates, which servers require rebooting due to updates, which servers have failed retrieving updates, and which servers have failed to communicate with the SoftLayer private Windows Software Update Services server. 
 

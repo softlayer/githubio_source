@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::migrateDedicatedHost
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::migrateDedicatedHost
+
+Migrate a dedicated instance from one dedicated host to another dedicated host 
+
+
 ## Overview 
 Create a transaction to migrate an instance from one dedicated host to another dedicated host 
 

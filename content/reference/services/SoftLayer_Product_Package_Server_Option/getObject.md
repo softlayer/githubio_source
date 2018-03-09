@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package_Server_Option"
 ---
-# SoftLayer_Product_Package_Server_Option::getObject
+# [SoftLayer_Product_Package_Server_Option](/reference/services/SoftLayer_Product_Package_Server_Option)::getObject
+
+Retrieve a SoftLayer_Product_Package_Server_Option record.
+
+
 ## Overview 
 
 

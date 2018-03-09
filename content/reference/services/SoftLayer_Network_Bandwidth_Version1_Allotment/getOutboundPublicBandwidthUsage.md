@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
-# SoftLayer_Network_Bandwidth_Version1_Allotment::getOutboundPublicBandwidthUsage
+# [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getOutboundPublicBandwidthUsage
+
+Retrieve the total public outbound bandwidth used in this virtual rack for an account's current billing cycle.
+
+
 ## Overview 
 Retrieve the total public outbound bandwidth used in this virtual rack for an account's current billing cycle.
 

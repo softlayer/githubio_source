@@ -39,24 +39,44 @@ These are the results of a tax calculation. The tax calculation was kicked off b
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#effectiveTaxRate" name=effectiveTaxRate>effectiveTaxRate</a></span>
+            <span class='views-field-title'>
+                <a href="#effectiveTaxRate" name=effectiveTaxRate>effectiveTaxRate</a>
+            </span>
             <div class='views-field-body'>The percentage of the final total that should be tax. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>decimal</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>decimal</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#items" name=items>items</a></span>
+            <span class='views-field-title'>
+                <a href="#items" name=items>items</a>
+            </span>
             <div class='views-field-body'>The container that holds the four actual tax rates, one for each fee type. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Container_Tax_Cache_Item'>SoftLayer_Container_Tax_Cache_Item[] </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Tax_Cache_Item'>SoftLayer_Container_Tax_Cache_Item[] </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#status" name=status>status</a></span>
+            <span class='views-field-title'>
+                <a href="#status" name=status>status</a>
+            </span>
             <div class='views-field-body'>The status of the tax request. This should be PENDING, FAILED, or COMPLETED. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#totalTaxAmount" name=totalTaxAmount>totalTaxAmount</a></span>
+            <span class='views-field-title'>
+                <a href="#totalTaxAmount" name=totalTaxAmount>totalTaxAmount</a>
+            </span>
             <div class='views-field-body'>The final amount of tax for the order. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>decimal</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>decimal</p>
+            </div>
         </div>
             </div>
     </div>

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_User_Customer"
 ---
-# SoftLayer_User_Customer::getTickets
+# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getTickets
+
+Retrieve an user's associated tickets.
+
+
 ## Overview 
 Retrieve an user's associated tickets.
 

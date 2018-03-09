@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getProjectedPublicBandwidthUsage
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getProjectedPublicBandwidthUsage
+
+Retrieve the projected public outbound bandwidth for this computing instance for the current billing cycle.
+
+
 ## Overview 
 Retrieve the projected public outbound bandwidth for this computing instance for the current billing cycle.
 

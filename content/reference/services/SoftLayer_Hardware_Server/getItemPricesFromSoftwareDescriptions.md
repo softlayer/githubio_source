@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getItemPricesFromSoftwareDescriptions
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getItemPricesFromSoftwareDescriptions
+
+Return a collection of SoftLayer_Item_Price objects from a collection of SoftLayer_Software_Description
+
+
 ## Overview 
 Return a collection of SoftLayer_Item_Price objects from a collection of SoftLayer_Software_Description
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Compliance_Report_Type"
 ---
-# SoftLayer_Compliance_Report_Type::getObject
+# [SoftLayer_Compliance_Report_Type](/reference/services/SoftLayer_Compliance_Report_Type)::getObject
+
+Retrieve a SoftLayer_Compliance_Report_Type record.
+
+
 ## Overview 
 
 

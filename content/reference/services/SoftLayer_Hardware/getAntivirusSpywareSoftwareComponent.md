@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getAntivirusSpywareSoftwareComponent
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getAntivirusSpywareSoftwareComponent
+
+Retrieve information regarding an antivirus/spyware software component object.
+
+
 ## Overview 
 Retrieve information regarding an antivirus/spyware software component object.
 

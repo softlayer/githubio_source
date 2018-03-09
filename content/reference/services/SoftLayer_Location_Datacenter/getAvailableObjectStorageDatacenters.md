@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location_Datacenter"
 ---
-# SoftLayer_Location_Datacenter::getAvailableObjectStorageDatacenters
+# [SoftLayer_Location_Datacenter](/reference/services/SoftLayer_Location_Datacenter)::getAvailableObjectStorageDatacenters
+
+Get the datacenters where object storage is available
+
+
 ## Overview 
 Object Storage is only available in select datacenters. This method will return all the datacenters where object storage is available. 
 

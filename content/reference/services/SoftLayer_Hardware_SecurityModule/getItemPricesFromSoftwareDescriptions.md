@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_SecurityModule"
 ---
-# SoftLayer_Hardware_SecurityModule::getItemPricesFromSoftwareDescriptions
+# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getItemPricesFromSoftwareDescriptions
+
+Return a collection of SoftLayer_Item_Price objects from a collection of SoftLayer_Software_Description
+
+
 ## Overview 
 Return a collection of SoftLayer_Item_Price objects from a collection of SoftLayer_Software_Description
 

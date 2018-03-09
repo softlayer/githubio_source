@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHasPendingOrder
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHasPendingOrder
+
+Retrieve the number of orders in a PENDING status for a SoftLayer customer account.
+
+
 ## Overview 
 Retrieve the number of orders in a PENDING status for a SoftLayer customer account.
 

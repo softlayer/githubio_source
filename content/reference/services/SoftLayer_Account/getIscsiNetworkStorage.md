@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getIscsiNetworkStorage
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getIscsiNetworkStorage
+
+Retrieve an account's associated iSCSI storage volumes.
+
+
 ## Overview 
 Retrieve an account's associated iSCSI storage volumes.
 

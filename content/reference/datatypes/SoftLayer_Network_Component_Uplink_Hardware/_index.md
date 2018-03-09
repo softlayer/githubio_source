@@ -28,10 +28,10 @@ It is populated via triggers on the network_connection table (SoftLayer_Network_
 
 ### seeAlso
 
-* [SoftLayer_Hardware](/reference/datatypes/SoftLayer_Hardware )
+* [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware )
 
 
-* [SoftLayer_Network_Component](/reference/datatypes/SoftLayer_Network_Component )
+* [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component )
 
 
 
@@ -54,16 +54,26 @@ It is populated via triggers on the network_connection table (SoftLayer_Network_
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#hardware" name=hardware>hardware</a></span>
+            <span class='views-field-title'>
+                <a href="#hardware" name=hardware>hardware</a>
+            </span>
             <div class='views-field-body'>A network component uplink's connected [[SoftLayer_Hardware|Hardware]]. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a></p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#networkComponent" name=networkComponent>networkComponent</a></span>
+            <span class='views-field-title'>
+                <a href="#networkComponent" name=networkComponent>networkComponent</a>
+            </span>
             <div class='views-field-body'>The [[SoftLayer_Network_Component|Network Component]] that a uplink connection belongs to.. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p><a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a></p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a></p>
+            </div>
         </div>
-                <h2>Relational</h2>
+                <h2>Count</h2>
             </div>
 </div>
 

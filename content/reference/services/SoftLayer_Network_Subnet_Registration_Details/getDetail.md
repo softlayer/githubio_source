@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_Registration_Details"
 ---
-# SoftLayer_Network_Subnet_Registration_Details::getDetail
+# [SoftLayer_Network_Subnet_Registration_Details](/reference/services/SoftLayer_Network_Subnet_Registration_Details)::getDetail
+
+Retrieve the related [[SoftLayer_Account_Regional_Registry_Detail|detail object]].
+
+
 ## Overview 
 Retrieve the related [[SoftLayer_Account_Regional_Registry_Detail|detail object]].
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware"
 ---
-# SoftLayer_Hardware::getInboundPublicBandwidthUsage
+# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getInboundPublicBandwidthUsage
+
+Retrieve the total public inbound bandwidth for this hardware for the current billing cycle.
+
+
 ## Overview 
 Retrieve the total public inbound bandwidth for this hardware for the current billing cycle.
 

@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Subnet_Swip_Transaction"
 ---
-# SoftLayer_Network_Subnet_Swip_Transaction::removeSwipData
+# [SoftLayer_Network_Subnet_Swip_Transaction](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction)::removeSwipData
+
+Deletes registration information from ARIN for a single subnet
+
+
 ## Overview 
 This function, when called on an instantiated SWIP transaction, will allow you to start a "DELETE" transaction with ARIN, allowing you to remove your SWIP registration information. 
 

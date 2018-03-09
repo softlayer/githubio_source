@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest_Network_Component"
 ---
-# SoftLayer_Virtual_Guest_Network_Component::isPingable
+# [SoftLayer_Virtual_Guest_Network_Component](/reference/services/SoftLayer_Virtual_Guest_Network_Component)::isPingable
+
+Verifies if network component is pingable.
+
+
 ## Overview 
 Issues a ping command and returns the success (true) or failure (false) of the ping command. 
 

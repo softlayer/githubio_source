@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Email_Subscription"
 ---
-# SoftLayer_Email_Subscription::getEnabled
+# [SoftLayer_Email_Subscription](/reference/services/SoftLayer_Email_Subscription)::getEnabled
+
+
+
+
 ## Overview 
 
 

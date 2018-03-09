@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getVolumeStatus
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getVolumeStatus
+
+Retrieve the current status of a network storage volume.
+
+
 ## Overview 
 Retrieve the current status of a network storage volume.
 

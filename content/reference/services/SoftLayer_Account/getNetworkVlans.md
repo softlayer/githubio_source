@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getNetworkVlans
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNetworkVlans
+
+Retrieve all network VLANs assigned to an account.
+
+
 ## Overview 
 Retrieve all network VLANs assigned to an account.
 

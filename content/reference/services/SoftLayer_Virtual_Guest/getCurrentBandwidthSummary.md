@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Virtual_Guest"
 ---
-# SoftLayer_Virtual_Guest::getCurrentBandwidthSummary
+# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getCurrentBandwidthSummary
+
+Retrieve an object that provides commonly used bandwidth summary components for the current billing cycle.
+
+
 ## Overview 
 Retrieve an object that provides commonly used bandwidth summary components for the current billing cycle.
 

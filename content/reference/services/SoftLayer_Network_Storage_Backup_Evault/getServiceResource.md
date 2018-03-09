@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# SoftLayer_Network_Storage_Backup_Evault::getServiceResource
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getServiceResource
+
+Retrieve the network resource a Storage service is connected to.
+
+
 ## Overview 
 Retrieve the network resource a Storage service is connected to.
 

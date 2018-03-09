@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_LBaaS_HealthMonitor"
 ---
-# SoftLayer_Network_LBaaS_HealthMonitor::updateLoadBalancerHealthMonitors
+# [SoftLayer_Network_LBaaS_HealthMonitor](/reference/services/SoftLayer_Network_LBaaS_HealthMonitor)::updateLoadBalancerHealthMonitors
+
+Update load balancer health monitors
+
+
 ## Overview 
 Update load balancers health monitor and return load balancer object with listeners (frontend), pools (backend), health monitor server instances (members) and datacenter populated 
 

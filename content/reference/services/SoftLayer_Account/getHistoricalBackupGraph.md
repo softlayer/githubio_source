@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getHistoricalBackupGraph
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHistoricalBackupGraph
+
+
+
+
 ## Overview 
 
 

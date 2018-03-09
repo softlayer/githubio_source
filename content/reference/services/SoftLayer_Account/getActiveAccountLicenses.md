@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getActiveAccountLicenses
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getActiveAccountLicenses
+
+Retrieve the active account software licenses owned by an account
+
+
 ## Overview 
 Retrieve the active account software licenses owned by an account
 

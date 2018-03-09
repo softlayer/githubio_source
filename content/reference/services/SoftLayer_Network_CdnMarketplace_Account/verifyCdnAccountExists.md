@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_CdnMarketplace_Account"
 ---
-# SoftLayer_Network_CdnMarketplace_Account::verifyCdnAccountExists
+# [SoftLayer_Network_CdnMarketplace_Account](/reference/services/SoftLayer_Network_CdnMarketplace_Account)::verifyCdnAccountExists
+
+Wrapper for UI to verify whether or not an account exists for user under specified vendor. Returns true if account exists, else false. 
+
+
 ## Overview 
 
 

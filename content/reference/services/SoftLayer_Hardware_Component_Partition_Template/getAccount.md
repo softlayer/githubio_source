@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Component_Partition_Template"
 ---
-# SoftLayer_Hardware_Component_Partition_Template::getAccount
+# [SoftLayer_Hardware_Component_Partition_Template](/reference/services/SoftLayer_Hardware_Component_Partition_Template)::getAccount
+
+Retrieve a partition template's associated [[SoftLayer_Account|Account]].
+
+
 ## Overview 
 Retrieve a partition template's associated [[SoftLayer_Account|Account]].
 

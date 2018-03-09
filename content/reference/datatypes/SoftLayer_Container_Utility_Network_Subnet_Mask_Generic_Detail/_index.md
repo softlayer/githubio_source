@@ -39,19 +39,34 @@ The SoftLayer_Container_Utility_Network_Subnet_Mask_Generic_Detail data type con
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#cidr" name=cidr>cidr</a></span>
+            <span class='views-field-title'>
+                <a href="#cidr" name=cidr>cidr</a>
+            </span>
             <div class='views-field-body'>The subnet cidr prefix. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#description" name=description>description</a></span>
+            <span class='views-field-title'>
+                <a href="#description" name=description>description</a>
+            </span>
             <div class='views-field-body'>The subnet mask description. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
                 <div class='prop-row views-row'>
-            <span class='views-field-title'><a href="#mask" name=mask>mask</a></span>
+            <span class='views-field-title'>
+                <a href="#mask" name=mask>mask</a>
+            </span>
             <div class='views-field-body'>The subnet mask. </div>
-            <span class="type-label">Type:</span> <div class='type-content'><p>string</p></div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
         </div>
             </div>
     </div>

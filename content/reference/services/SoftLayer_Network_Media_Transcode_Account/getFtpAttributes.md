@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Network_Media_Transcode_Account"
 ---
-# SoftLayer_Network_Media_Transcode_Account::getFtpAttributes
+# [SoftLayer_Network_Media_Transcode_Account](/reference/services/SoftLayer_Network_Media_Transcode_Account)::getFtpAttributes
+
+Returns Transcode FTP login credentials
+
+
 ## Overview 
 This method returns your Transcode FTP login credentials to the transcode.service.softlayer.com server. 
 

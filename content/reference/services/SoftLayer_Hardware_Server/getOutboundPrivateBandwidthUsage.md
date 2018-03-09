@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getOutboundPrivateBandwidthUsage
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getOutboundPrivateBandwidthUsage
+
+Retrieve the total private outbound bandwidth for this hardware for the current billing cycle.
+
+
 ## Overview 
 Retrieve the total private outbound bandwidth for this hardware for the current billing cycle.
 

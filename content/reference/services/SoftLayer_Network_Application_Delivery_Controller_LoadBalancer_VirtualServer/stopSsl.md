@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer"
 ---
-# SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer::stopSsl
+# [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer)::stopSsl
+
+
+
+
 ## Overview 
 Stop SSL acceleration on all SSL virtual services (those with a type of HTTPS). 
 

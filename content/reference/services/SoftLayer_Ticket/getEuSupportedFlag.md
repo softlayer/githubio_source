@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Ticket"
 ---
-# SoftLayer_Ticket::getEuSupportedFlag
+# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getEuSupportedFlag
+
+Retrieve a ticket's associated EU compliant record
+
+
 ## Overview 
 Retrieve a ticket's associated EU compliant record
 

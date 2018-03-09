@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Auxiliary_Notification_Emergency"
 ---
-# SoftLayer_Auxiliary_Notification_Emergency::getSignature
+# [SoftLayer_Auxiliary_Notification_Emergency](/reference/services/SoftLayer_Auxiliary_Notification_Emergency)::getSignature
+
+Retrieve the signature of the SoftLayer employee department associated with this notification.
+
+
 ## Overview 
 Retrieve the signature of the SoftLayer employee department associated with this notification.
 

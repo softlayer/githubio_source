@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Benchmark_Certification"
 ---
-# SoftLayer_Hardware_Benchmark_Certification::getObject
+# [SoftLayer_Hardware_Benchmark_Certification](/reference/services/SoftLayer_Hardware_Benchmark_Certification)::getObject
+
+Retrieve a SoftLayer_Hardware_Benchmark_Certification record.
+
+
 ## Overview 
 getObject retrieves the SoftLayer_Hardware_Benchmark_Certification object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Hardware_Benchmark_Certification service. 
 

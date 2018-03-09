@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_MassDataMigration_Request"
 ---
-# SoftLayer_Network_Storage_MassDataMigration_Request::getBillingItem
+# [SoftLayer_Network_Storage_MassDataMigration_Request](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request)::getBillingItem
+
+Retrieve an associated parent billing item which is active. Includes billing items which are scheduled to be cancelled in the future.
+
+
 ## Overview 
 Retrieve an associated parent billing item which is active. Includes billing items which are scheduled to be cancelled in the future.
 

@@ -11,7 +11,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::reloadOperatingSystem
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::reloadOperatingSystem
+
+Reloads operating system configuration.
+
+
 ## Overview 
 Reloads current or customer specified operating system configuration. 
 

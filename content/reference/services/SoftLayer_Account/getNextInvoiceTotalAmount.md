@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Account"
 ---
-# SoftLayer_Account::getNextInvoiceTotalAmount
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNextInvoiceTotalAmount
+
+Retrieve the pre-tax total amount of an account's next invoice measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing.
+
+
 ## Overview 
 Retrieve the pre-tax total amount of an account's next invoice measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing.
 

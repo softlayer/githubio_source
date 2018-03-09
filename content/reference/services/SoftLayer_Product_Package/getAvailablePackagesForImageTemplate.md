@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Product_Package"
 ---
-# SoftLayer_Product_Package::getAvailablePackagesForImageTemplate
+# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getAvailablePackagesForImageTemplate
+
+
+
+
 ## Overview 
 
 

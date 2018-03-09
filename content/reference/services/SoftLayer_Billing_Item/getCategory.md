@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getCategory
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getCategory
+
+Retrieve the item category to which the billing item's item belongs. 
+
+
 ## Overview 
 Retrieve the item category to which the billing item's item belongs. 
 

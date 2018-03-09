@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Hardware_Server"
 ---
-# SoftLayer_Hardware_Server::getUpgradeRequest
+# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getUpgradeRequest
+
+Retrieve an account's associated upgrade request object, if any.
+
+
 ## Overview 
 Retrieve an account's associated upgrade request object, if any.
 

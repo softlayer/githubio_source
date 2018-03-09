@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
-# SoftLayer_Network_Bandwidth_Version1_Allotment::getBandwidthAllotmentType
+# [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getBandwidthAllotmentType
+
+Retrieve the bandwidth allotment type of this virtual rack.
+
+
 ## Overview 
 Retrieve the bandwidth allotment type of this virtual rack.
 

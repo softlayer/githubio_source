@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage"
 ---
-# SoftLayer_Network_Storage::getReplicationEvents
+# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getReplicationEvents
+
+Retrieve the volume replication events.
+
+
 ## Overview 
 Retrieve the volume replication events.
 

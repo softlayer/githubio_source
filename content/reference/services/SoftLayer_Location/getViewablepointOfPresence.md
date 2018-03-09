@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Location"
 ---
-# SoftLayer_Location::getViewablepointOfPresence
+# [SoftLayer_Location](/reference/services/SoftLayer_Location)::getViewablepointOfPresence
+
+Retrieve viewable network locations
+
+
 ## Overview 
 Retrieve all viewable network locations. 
 

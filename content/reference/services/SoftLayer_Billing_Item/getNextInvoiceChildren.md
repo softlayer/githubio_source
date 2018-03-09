@@ -9,7 +9,11 @@ tags:
 classes:
     - "SoftLayer_Billing_Item"
 ---
-# SoftLayer_Billing_Item::getNextInvoiceChildren
+# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getNextInvoiceChildren
+
+Retrieve a Billing Item's child billing items and associated items'
+
+
 ## Overview 
 Retrieve a Billing Item's child billing items and associated items'
 
