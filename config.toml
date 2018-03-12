@@ -8,6 +8,8 @@ pluralizelisttitles = "false"
 paginate = 10
 googleAnalytics = "UA-88235803-1"
 disablePathToLower = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
 
 
 [params]
