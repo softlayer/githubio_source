@@ -8,6 +8,8 @@ tags:
     - "Hardware"
 classes:
     - "SoftLayer_Hardware"
+aliases:
+    - "/reference/services/softlayer_hardware/getUpgradeItemPrices"
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getUpgradeItemPrices
 

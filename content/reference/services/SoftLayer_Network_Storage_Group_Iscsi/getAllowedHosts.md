@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Group_Iscsi"
+aliases:
+    - "/reference/services/softlayer_network_storage_group_iscsi/getAllowedHosts"
 ---
 # [SoftLayer_Network_Storage_Group_Iscsi](/reference/services/SoftLayer_Network_Storage_Group_Iscsi)::getAllowedHosts
 

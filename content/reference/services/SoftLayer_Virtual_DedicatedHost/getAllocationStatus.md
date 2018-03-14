@@ -8,6 +8,8 @@ tags:
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_DedicatedHost"
+aliases:
+    - "/reference/services/softlayer_virtual_dedicatedhost/getAllocationStatus"
 ---
 # [SoftLayer_Virtual_DedicatedHost](/reference/services/SoftLayer_Virtual_DedicatedHost)::getAllocationStatus
 

@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Internal_Ibm"
+aliases:
+    - "/reference/services/softlayer_account_internal_ibm/getManagerPreview"
 ---
 # [SoftLayer_Account_Internal_Ibm](/reference/services/SoftLayer_Account_Internal_Ibm)::getManagerPreview
 

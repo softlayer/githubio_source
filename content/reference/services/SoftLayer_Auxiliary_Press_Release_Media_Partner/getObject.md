@@ -8,6 +8,8 @@ tags:
     - "Auxiliary"
 classes:
     - "SoftLayer_Auxiliary_Press_Release_Media_Partner"
+aliases:
+    - "/reference/services/softlayer_auxiliary_press_release_media_partner/getObject"
 ---
 # [SoftLayer_Auxiliary_Press_Release_Media_Partner](/reference/services/SoftLayer_Auxiliary_Press_Release_Media_Partner)::getObject
 

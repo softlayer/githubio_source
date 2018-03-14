@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Group_Nfs"
+aliases:
+    - "/reference/services/softlayer_network_storage_group_nfs/removeAllowedHost"
 ---
 # [SoftLayer_Network_Storage_Group_Nfs](/reference/services/SoftLayer_Network_Storage_Group_Nfs)::removeAllowedHost
 

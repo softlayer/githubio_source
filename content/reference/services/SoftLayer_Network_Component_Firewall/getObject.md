@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Component_Firewall"
+aliases:
+    - "/reference/services/softlayer_network_component_firewall/getObject"
 ---
 # [SoftLayer_Network_Component_Firewall](/reference/services/SoftLayer_Network_Component_Firewall)::getObject
 

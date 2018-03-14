@@ -8,6 +8,8 @@ tags:
     - "Software"
 classes:
     - "SoftLayer_Software_Component_HostIps"
+aliases:
+    - "/reference/services/softlayer_software_component_hostips/getLicenseFile"
 ---
 # [SoftLayer_Software_Component_HostIps](/reference/services/SoftLayer_Software_Component_HostIps)::getLicenseFile
 

@@ -8,6 +8,8 @@ tags:
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest_Boot_Parameter_Type"
+aliases:
+    - "/reference/services/softlayer_virtual_guest_boot_parameter_type/getObject"
 ---
 # [SoftLayer_Virtual_Guest_Boot_Parameter_Type](/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter_Type)::getObject
 

@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Firewall_Update_Request"
+aliases:
+    - "/reference/services/softlayer_network_firewall_update_request/getRules"
 ---
 # [SoftLayer_Network_Firewall_Update_Request](/reference/services/SoftLayer_Network_Firewall_Update_Request)::getRules
 

@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Group"
+aliases:
+    - "/reference/services/softlayer_network_storage_group/editObject"
 ---
 # [SoftLayer_Network_Storage_Group](/reference/services/SoftLayer_Network_Storage_Group)::editObject
 

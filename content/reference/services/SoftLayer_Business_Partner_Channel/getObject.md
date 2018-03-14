@@ -8,6 +8,8 @@ tags:
     - "Business"
 classes:
     - "SoftLayer_Business_Partner_Channel"
+aliases:
+    - "/reference/services/softlayer_business_partner_channel/getObject"
 ---
 # [SoftLayer_Business_Partner_Channel](/reference/services/SoftLayer_Business_Partner_Channel)::getObject
 

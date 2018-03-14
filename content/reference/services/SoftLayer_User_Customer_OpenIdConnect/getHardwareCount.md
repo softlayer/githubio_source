@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
+aliases:
+    - "/reference/services/softlayer_user_customer_openidconnect/getHardwareCount"
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getHardwareCount
 

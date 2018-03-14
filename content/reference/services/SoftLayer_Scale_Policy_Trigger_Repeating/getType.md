@@ -8,6 +8,8 @@ tags:
     - "Scale"
 classes:
     - "SoftLayer_Scale_Policy_Trigger_Repeating"
+aliases:
+    - "/reference/services/softlayer_scale_policy_trigger_repeating/getType"
 ---
 # [SoftLayer_Scale_Policy_Trigger_Repeating](/reference/services/SoftLayer_Scale_Policy_Trigger_Repeating)::getType
 

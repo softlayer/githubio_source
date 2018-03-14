@@ -8,6 +8,8 @@ tags:
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_SecurityModule"
+aliases:
+    - "/reference/services/softlayer_hardware_securitymodule/getVirtualChassisSiblings"
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getVirtualChassisSiblings
 

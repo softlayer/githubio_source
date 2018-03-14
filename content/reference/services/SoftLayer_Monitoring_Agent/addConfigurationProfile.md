@@ -8,6 +8,8 @@ tags:
     - "Monitoring"
 classes:
     - "SoftLayer_Monitoring_Agent"
+aliases:
+    - "/reference/services/softlayer_monitoring_agent/addConfigurationProfile"
 ---
 # [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::addConfigurationProfile
 

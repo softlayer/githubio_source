@@ -8,6 +8,8 @@ tags:
     - "Auxiliary"
 classes:
     - "SoftLayer_Auxiliary_Marketing_Event"
+aliases:
+    - "/reference/services/softlayer_auxiliary_marketing_event/getObject"
 ---
 # [SoftLayer_Auxiliary_Marketing_Event](/reference/services/SoftLayer_Auxiliary_Marketing_Event)::getObject
 

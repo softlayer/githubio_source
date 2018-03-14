@@ -8,6 +8,8 @@ tags:
     - "Billing"
 classes:
     - "SoftLayer_Billing_Invoice_Next"
+aliases:
+    - "/reference/services/softlayer_billing_invoice_next/getExcel"
 ---
 # [SoftLayer_Billing_Invoice_Next](/reference/services/SoftLayer_Billing_Invoice_Next)::getExcel
 

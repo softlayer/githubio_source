@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Hub_Cleversafe_Account"
+aliases:
+    - "/reference/services/softlayer_network_storage_hub_cleversafe_account/getAllObjects"
 ---
 # [SoftLayer_Network_Storage_Hub_Cleversafe_Account](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account)::getAllObjects
 

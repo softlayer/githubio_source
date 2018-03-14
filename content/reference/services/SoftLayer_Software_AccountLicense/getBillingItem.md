@@ -8,6 +8,8 @@ tags:
     - "Software"
 classes:
     - "SoftLayer_Software_AccountLicense"
+aliases:
+    - "/reference/services/softlayer_software_accountlicense/getBillingItem"
 ---
 # [SoftLayer_Software_AccountLicense](/reference/services/SoftLayer_Software_AccountLicense)::getBillingItem
 

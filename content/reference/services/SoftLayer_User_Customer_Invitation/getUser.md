@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Customer_Invitation"
+aliases:
+    - "/reference/services/softlayer_user_customer_invitation/getUser"
 ---
 # [SoftLayer_User_Customer_Invitation](/reference/services/SoftLayer_User_Customer_Invitation)::getUser
 

@@ -8,6 +8,8 @@ tags:
     - "Ticket"
 classes:
     - "SoftLayer_Ticket_Priority"
+aliases:
+    - "/reference/services/softlayer_ticket_priority/getPriorities"
 ---
 # [SoftLayer_Ticket_Priority](/reference/services/SoftLayer_Ticket_Priority)::getPriorities
 

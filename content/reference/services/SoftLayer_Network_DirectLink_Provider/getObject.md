@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_DirectLink_Provider"
+aliases:
+    - "/reference/services/softlayer_network_directlink_provider/getObject"
 ---
 # [SoftLayer_Network_DirectLink_Provider](/reference/services/SoftLayer_Network_DirectLink_Provider)::getObject
 

@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Shipment_Status"
+aliases:
+    - "/reference/services/softlayer_account_shipment_status/getObject"
 ---
 # [SoftLayer_Account_Shipment_Status](/reference/services/SoftLayer_Account_Shipment_Status)::getObject
 

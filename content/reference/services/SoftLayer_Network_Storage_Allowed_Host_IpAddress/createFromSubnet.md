@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host_IpAddress"
+aliases:
+    - "/reference/services/softlayer_network_storage_allowed_host_ipaddress/createFromSubnet"
 ---
 # [SoftLayer_Network_Storage_Allowed_Host_IpAddress](/reference/services/SoftLayer_Network_Storage_Allowed_Host_IpAddress)::createFromSubnet
 

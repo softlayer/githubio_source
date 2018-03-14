@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer"
+aliases:
+    - "/reference/services/softlayer_network_application_delivery_controller_loadbalancer_virtualserver/getScaleLoadBalancers"
 ---
 # [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer)::getScaleLoadBalancers
 

@@ -8,6 +8,8 @@ tags:
     - "Location"
 classes:
     - "SoftLayer_Location_Reservation"
+aliases:
+    - "/reference/services/softlayer_location_reservation/getAccount"
 ---
 # [SoftLayer_Location_Reservation](/reference/services/SoftLayer_Location_Reservation)::getAccount
 

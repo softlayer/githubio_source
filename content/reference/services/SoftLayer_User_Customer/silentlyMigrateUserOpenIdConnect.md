@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Customer"
+aliases:
+    - "/reference/services/softlayer_user_customer/silentlyMigrateUserOpenIdConnect"
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::silentlyMigrateUserOpenIdConnect
 

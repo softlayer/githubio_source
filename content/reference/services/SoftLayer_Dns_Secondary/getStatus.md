@@ -8,6 +8,8 @@ tags:
     - "Dns"
 classes:
     - "SoftLayer_Dns_Secondary"
+aliases:
+    - "/reference/services/softlayer_dns_secondary/getStatus"
 ---
 # [SoftLayer_Dns_Secondary](/reference/services/SoftLayer_Dns_Secondary)::getStatus
 

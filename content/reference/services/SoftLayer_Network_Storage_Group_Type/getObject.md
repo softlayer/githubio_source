@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Group_Type"
+aliases:
+    - "/reference/services/softlayer_network_storage_group_type/getObject"
 ---
 # [SoftLayer_Network_Storage_Group_Type](/reference/services/SoftLayer_Network_Storage_Group_Type)::getObject
 

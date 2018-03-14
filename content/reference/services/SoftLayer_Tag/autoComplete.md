@@ -8,6 +8,8 @@ tags:
     - "Tag"
 classes:
     - "SoftLayer_Tag"
+aliases:
+    - "/reference/services/softlayer_tag/autoComplete"
 ---
 # [SoftLayer_Tag](/reference/services/SoftLayer_Tag)::autoComplete
 

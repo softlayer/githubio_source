@@ -8,6 +8,8 @@ tags:
     - "Dns"
 classes:
     - "SoftLayer_Dns_Domain_ResourceRecord"
+aliases:
+    - "/reference/services/softlayer_dns_domain_resourcerecord/editObject"
 ---
 # [SoftLayer_Dns_Domain_ResourceRecord](/reference/services/SoftLayer_Dns_Domain_ResourceRecord)::editObject
 

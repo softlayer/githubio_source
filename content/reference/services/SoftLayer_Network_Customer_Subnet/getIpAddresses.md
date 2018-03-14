@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Customer_Subnet"
+aliases:
+    - "/reference/services/softlayer_network_customer_subnet/getIpAddresses"
 ---
 # [SoftLayer_Network_Customer_Subnet](/reference/services/SoftLayer_Network_Customer_Subnet)::getIpAddresses
 

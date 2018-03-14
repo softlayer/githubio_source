@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller_Configuration_History"
+aliases:
+    - "/reference/services/softlayer_network_application_delivery_controller_configuration_history/deleteObject"
 ---
 # [SoftLayer_Network_Application_Delivery_Controller_Configuration_History](/reference/services/SoftLayer_Network_Application_Delivery_Controller_Configuration_History)::deleteObject
 

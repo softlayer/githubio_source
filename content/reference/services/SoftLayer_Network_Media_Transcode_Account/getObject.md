@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Media_Transcode_Account"
+aliases:
+    - "/reference/services/softlayer_network_media_transcode_account/getObject"
 ---
 # [SoftLayer_Network_Media_Transcode_Account](/reference/services/SoftLayer_Network_Media_Transcode_Account)::getObject
 

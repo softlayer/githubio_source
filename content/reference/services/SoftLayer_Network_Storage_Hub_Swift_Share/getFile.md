@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Hub_Swift_Share"
+aliases:
+    - "/reference/services/softlayer_network_storage_hub_swift_share/getFile"
 ---
 # [SoftLayer_Network_Storage_Hub_Swift_Share](/reference/services/SoftLayer_Network_Storage_Hub_Swift_Share)::getFile
 

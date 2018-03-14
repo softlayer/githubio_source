@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Vlan_Type"
+aliases:
+    - "/reference/services/softlayer_network_vlan_type/getObject"
 ---
 # [SoftLayer_Network_Vlan_Type](/reference/services/SoftLayer_Network_Vlan_Type)::getObject
 

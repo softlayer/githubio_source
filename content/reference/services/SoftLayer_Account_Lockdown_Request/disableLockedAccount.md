@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Lockdown_Request"
+aliases:
+    - "/reference/services/softlayer_account_lockdown_request/disableLockedAccount"
 ---
 # [SoftLayer_Account_Lockdown_Request](/reference/services/SoftLayer_Account_Lockdown_Request)::disableLockedAccount
 

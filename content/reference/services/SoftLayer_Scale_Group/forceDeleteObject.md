@@ -8,6 +8,8 @@ tags:
     - "Scale"
 classes:
     - "SoftLayer_Scale_Group"
+aliases:
+    - "/reference/services/softlayer_scale_group/forceDeleteObject"
 ---
 # [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::forceDeleteObject
 

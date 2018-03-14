@@ -8,6 +8,8 @@ tags:
     - "Configuration"
 classes:
     - "SoftLayer_Configuration_Template_Section_Profile"
+aliases:
+    - "/reference/services/softlayer_configuration_template_section_profile/getConfigurationSection"
 ---
 # [SoftLayer_Configuration_Template_Section_Profile](/reference/services/SoftLayer_Configuration_Template_Section_Profile)::getConfigurationSection
 

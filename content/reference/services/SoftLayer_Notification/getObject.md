@@ -8,6 +8,8 @@ tags:
     - "Notification"
 classes:
     - "SoftLayer_Notification"
+aliases:
+    - "/reference/services/softlayer_notification/getObject"
 ---
 # [SoftLayer_Notification](/reference/services/SoftLayer_Notification)::getObject
 

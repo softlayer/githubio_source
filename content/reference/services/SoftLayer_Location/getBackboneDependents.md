@@ -8,6 +8,8 @@ tags:
     - "Location"
 classes:
     - "SoftLayer_Location"
+aliases:
+    - "/reference/services/softlayer_location/getBackboneDependents"
 ---
 # [SoftLayer_Location](/reference/services/SoftLayer_Location)::getBackboneDependents
 

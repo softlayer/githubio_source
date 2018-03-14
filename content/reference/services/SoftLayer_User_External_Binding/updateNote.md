@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_External_Binding"
+aliases:
+    - "/reference/services/softlayer_user_external_binding/updateNote"
 ---
 # [SoftLayer_User_External_Binding](/reference/services/SoftLayer_User_External_Binding)::updateNote
 

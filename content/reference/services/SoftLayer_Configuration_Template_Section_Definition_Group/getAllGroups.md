@@ -10,6 +10,8 @@ tags:
     - "Configuration"
 classes:
     - "SoftLayer_Configuration_Template_Section_Definition_Group"
+aliases:
+    - "/reference/services/softlayer_configuration_template_section_definition_group/getAllGroups"
 ---
 # [SoftLayer_Configuration_Template_Section_Definition_Group](/reference/services/SoftLayer_Configuration_Template_Section_Definition_Group)::getAllGroups
 

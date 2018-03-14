@@ -8,6 +8,8 @@ tags:
     - "Locale"
 classes:
     - "SoftLayer_Locale_Timezone"
+aliases:
+    - "/reference/services/softlayer_locale_timezone/getAllObjects"
 ---
 # [SoftLayer_Locale_Timezone](/reference/services/SoftLayer_Locale_Timezone)::getAllObjects
 

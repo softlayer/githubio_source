@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Authentication_Saml"
+aliases:
+    - "/reference/services/softlayer_account_authentication_saml/getMetadata"
 ---
 # [SoftLayer_Account_Authentication_Saml](/reference/services/SoftLayer_Account_Authentication_Saml)::getMetadata
 

@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_LBaaS_HealthMonitor"
+aliases:
+    - "/reference/services/softlayer_network_lbaas_healthmonitor/updateLoadBalancerHealthMonitors"
 ---
 # [SoftLayer_Network_LBaaS_HealthMonitor](/reference/services/SoftLayer_Network_LBaaS_HealthMonitor)::updateLoadBalancerHealthMonitors
 

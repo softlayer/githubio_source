@@ -8,6 +8,8 @@ tags:
     - "Catalyst"
 classes:
     - "SoftLayer_Catalyst_Company_Type"
+aliases:
+    - "/reference/services/softlayer_catalyst_company_type/getObject"
 ---
 # [SoftLayer_Catalyst_Company_Type](/reference/services/SoftLayer_Catalyst_Company_Type)::getObject
 

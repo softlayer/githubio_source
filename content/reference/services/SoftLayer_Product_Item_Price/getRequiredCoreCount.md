@@ -8,6 +8,8 @@ tags:
     - "Product"
 classes:
     - "SoftLayer_Product_Item_Price"
+aliases:
+    - "/reference/services/softlayer_product_item_price/getRequiredCoreCount"
 ---
 # [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getRequiredCoreCount
 

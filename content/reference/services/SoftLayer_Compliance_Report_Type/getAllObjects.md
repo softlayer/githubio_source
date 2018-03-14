@@ -8,6 +8,8 @@ tags:
     - "Compliance"
 classes:
     - "SoftLayer_Compliance_Report_Type"
+aliases:
+    - "/reference/services/softlayer_compliance_report_type/getAllObjects"
 ---
 # [SoftLayer_Compliance_Report_Type](/reference/services/SoftLayer_Compliance_Report_Type)::getAllObjects
 

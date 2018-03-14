@@ -8,6 +8,8 @@ tags:
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Disk_Image"
+aliases:
+    - "/reference/services/softlayer_virtual_disk_image/getStorageRepositoryType"
 ---
 # [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::getStorageRepositoryType
 

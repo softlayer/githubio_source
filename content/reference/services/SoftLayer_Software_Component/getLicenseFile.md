@@ -8,6 +8,8 @@ tags:
     - "Software"
 classes:
     - "SoftLayer_Software_Component"
+aliases:
+    - "/reference/services/softlayer_software_component/getLicenseFile"
 ---
 # [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component)::getLicenseFile
 

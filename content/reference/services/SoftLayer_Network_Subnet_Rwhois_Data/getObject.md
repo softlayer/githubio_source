@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Subnet_Rwhois_Data"
+aliases:
+    - "/reference/services/softlayer_network_subnet_rwhois_data/getObject"
 ---
 # [SoftLayer_Network_Subnet_Rwhois_Data](/reference/services/SoftLayer_Network_Subnet_Rwhois_Data)::getObject
 

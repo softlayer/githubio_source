@@ -8,6 +8,8 @@ tags:
     - "Billing"
 classes:
     - "SoftLayer_Billing_Item_Cancellation_Reason_Category"
+aliases:
+    - "/reference/services/softlayer_billing_item_cancellation_reason_category/getObject"
 ---
 # [SoftLayer_Billing_Item_Cancellation_Reason_Category](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason_Category)::getObject
 

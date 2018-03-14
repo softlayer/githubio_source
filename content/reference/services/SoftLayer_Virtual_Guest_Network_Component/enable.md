@@ -8,6 +8,8 @@ tags:
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest_Network_Component"
+aliases:
+    - "/reference/services/softlayer_virtual_guest_network_component/enable"
 ---
 # [SoftLayer_Virtual_Guest_Network_Component](/reference/services/SoftLayer_Virtual_Guest_Network_Component)::enable
 

@@ -8,6 +8,8 @@ tags:
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_Router"
+aliases:
+    - "/reference/services/softlayer_hardware_router/getVirtualChassis"
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getVirtualChassis
 

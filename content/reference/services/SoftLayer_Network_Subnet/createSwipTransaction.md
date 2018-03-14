@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Subnet"
+aliases:
+    - "/reference/services/softlayer_network_subnet/createSwipTransaction"
 ---
 # [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::createSwipTransaction
 

@@ -8,6 +8,8 @@ tags:
     - "Security"
 classes:
     - "SoftLayer_Security_Certificate"
+aliases:
+    - "/reference/services/softlayer_security_certificate/findByCommonName"
 ---
 # [SoftLayer_Security_Certificate](/reference/services/SoftLayer_Security_Certificate)::findByCommonName
 

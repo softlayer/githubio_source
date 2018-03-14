@@ -8,6 +8,8 @@ tags:
     - "Ticket"
 classes:
     - "SoftLayer_Ticket"
+aliases:
+    - "/reference/services/softlayer_ticket/getServiceProvider"
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getServiceProvider
 

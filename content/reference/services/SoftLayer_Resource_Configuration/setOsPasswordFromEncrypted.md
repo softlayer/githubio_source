@@ -8,6 +8,8 @@ tags:
     - "Resource"
 classes:
     - "SoftLayer_Resource_Configuration"
+aliases:
+    - "/reference/services/softlayer_resource_configuration/setOsPasswordFromEncrypted"
 ---
 # [SoftLayer_Resource_Configuration](/reference/services/SoftLayer_Resource_Configuration)::setOsPasswordFromEncrypted
 

@@ -8,6 +8,8 @@ tags:
     - "Dns"
 classes:
     - "SoftLayer_Dns_Domain_ResourceRecord_SrvType"
+aliases:
+    - "/reference/services/softlayer_dns_domain_resourcerecord_srvtype/createObject"
 ---
 # [SoftLayer_Dns_Domain_ResourceRecord_SrvType](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType)::createObject
 

@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
+aliases:
+    - "/reference/services/softlayer_network_storage_backup_evault/getObjectsByCredential"
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getObjectsByCredential
 

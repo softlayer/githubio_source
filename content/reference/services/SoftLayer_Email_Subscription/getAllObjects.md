@@ -8,6 +8,8 @@ tags:
     - "Email"
 classes:
     - "SoftLayer_Email_Subscription"
+aliases:
+    - "/reference/services/softlayer_email_subscription/getAllObjects"
 ---
 # [SoftLayer_Email_Subscription](/reference/services/SoftLayer_Email_Subscription)::getAllObjects
 

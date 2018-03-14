@@ -8,6 +8,8 @@ tags:
     - "Ticket"
 classes:
     - "SoftLayer_Ticket_Subject_Category"
+aliases:
+    - "/reference/services/softlayer_ticket_subject_category/getObject"
 ---
 # [SoftLayer_Ticket_Subject_Category](/reference/services/SoftLayer_Ticket_Subject_Category)::getObject
 

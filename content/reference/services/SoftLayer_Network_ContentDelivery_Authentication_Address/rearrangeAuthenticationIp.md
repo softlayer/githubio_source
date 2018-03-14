@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_ContentDelivery_Authentication_Address"
+aliases:
+    - "/reference/services/softlayer_network_contentdelivery_authentication_address/rearrangeAuthenticationIp"
 ---
 # [SoftLayer_Network_ContentDelivery_Authentication_Address](/reference/services/SoftLayer_Network_ContentDelivery_Authentication_Address)::rearrangeAuthenticationIp
 

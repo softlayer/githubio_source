@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host_Subnet"
+aliases:
+    - "/reference/services/softlayer_network_storage_allowed_host_subnet/getAssignedGroups"
 ---
 # [SoftLayer_Network_Storage_Allowed_Host_Subnet](/reference/services/SoftLayer_Network_Storage_Allowed_Host_Subnet)::getAssignedGroups
 

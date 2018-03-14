@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Shipment_Item"
+aliases:
+    - "/reference/services/softlayer_account_shipment_item/editObject"
 ---
 # [SoftLayer_Account_Shipment_Item](/reference/services/SoftLayer_Account_Shipment_Item)::editObject
 

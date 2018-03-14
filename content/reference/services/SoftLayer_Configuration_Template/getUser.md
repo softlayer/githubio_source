@@ -8,6 +8,8 @@ tags:
     - "Configuration"
 classes:
     - "SoftLayer_Configuration_Template"
+aliases:
+    - "/reference/services/softlayer_configuration_template/getUser"
 ---
 # [SoftLayer_Configuration_Template](/reference/services/SoftLayer_Configuration_Template)::getUser
 

@@ -8,6 +8,8 @@ tags:
     - "Billing"
 classes:
     - "SoftLayer_Billing_Order_Quote"
+aliases:
+    - "/reference/services/softlayer_billing_order_quote/getObject"
 ---
 # [SoftLayer_Billing_Order_Quote](/reference/services/SoftLayer_Billing_Order_Quote)::getObject
 

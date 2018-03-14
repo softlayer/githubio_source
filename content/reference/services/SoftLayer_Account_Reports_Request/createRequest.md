@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Reports_Request"
+aliases:
+    - "/reference/services/softlayer_account_reports_request/createRequest"
 ---
 # [SoftLayer_Account_Reports_Request](/reference/services/SoftLayer_Account_Reports_Request)::createRequest
 

@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact"
+aliases:
+    - "/reference/services/softlayer_network_storage_massdatamigration_request_keycontact/getObject"
 ---
 # [SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact)::getObject
 

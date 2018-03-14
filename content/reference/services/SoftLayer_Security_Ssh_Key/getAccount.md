@@ -8,6 +8,8 @@ tags:
     - "Security"
 classes:
     - "SoftLayer_Security_Ssh_Key"
+aliases:
+    - "/reference/services/softlayer_security_ssh_key/getAccount"
 ---
 # [SoftLayer_Security_Ssh_Key](/reference/services/SoftLayer_Security_Ssh_Key)::getAccount
 

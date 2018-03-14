@@ -8,6 +8,8 @@ tags:
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_Component_Model"
+aliases:
+    - "/reference/services/softlayer_hardware_component_model/getIsFlexSkuCompatible"
 ---
 # [SoftLayer_Hardware_Component_Model](/reference/services/SoftLayer_Hardware_Component_Model)::getIsFlexSkuCompatible
 

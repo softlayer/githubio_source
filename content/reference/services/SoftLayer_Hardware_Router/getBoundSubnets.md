@@ -8,6 +8,8 @@ tags:
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_Router"
+aliases:
+    - "/reference/services/softlayer_hardware_router/getBoundSubnets"
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getBoundSubnets
 

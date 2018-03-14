@@ -8,6 +8,8 @@ tags:
     - "Utility"
 classes:
     - "SoftLayer_Utility_Network"
+aliases:
+    - "/reference/services/softlayer_utility_network/whois"
 ---
 # [SoftLayer_Utility_Network](/reference/services/SoftLayer_Utility_Network)::whois
 

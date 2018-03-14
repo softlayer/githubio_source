@@ -8,6 +8,8 @@ tags:
     - "Security"
 classes:
     - "SoftLayer_Security_Certificate_Request_Status"
+aliases:
+    - "/reference/services/softlayer_security_certificate_request_status/getSslRequestStatuses"
 ---
 # [SoftLayer_Security_Certificate_Request_Status](/reference/services/SoftLayer_Security_Certificate_Request_Status)::getSslRequestStatuses
 

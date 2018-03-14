@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Address_Type"
+aliases:
+    - "/reference/services/softlayer_account_address_type/getObject"
 ---
 # [SoftLayer_Account_Address_Type](/reference/services/SoftLayer_Account_Address_Type)::getObject
 

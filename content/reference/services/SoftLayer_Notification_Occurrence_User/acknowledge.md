@@ -8,6 +8,8 @@ tags:
     - "Notification"
 classes:
     - "SoftLayer_Notification_Occurrence_User"
+aliases:
+    - "/reference/services/softlayer_notification_occurrence_user/acknowledge"
 ---
 # [SoftLayer_Notification_Occurrence_User](/reference/services/SoftLayer_Notification_Occurrence_User)::acknowledge
 

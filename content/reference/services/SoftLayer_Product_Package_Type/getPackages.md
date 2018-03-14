@@ -8,6 +8,8 @@ tags:
     - "Product"
 classes:
     - "SoftLayer_Product_Package_Type"
+aliases:
+    - "/reference/services/softlayer_product_package_type/getPackages"
 ---
 # [SoftLayer_Product_Package_Type](/reference/services/SoftLayer_Product_Package_Type)::getPackages
 

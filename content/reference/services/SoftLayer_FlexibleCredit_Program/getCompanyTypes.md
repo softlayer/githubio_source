@@ -8,6 +8,8 @@ tags:
     - "FlexibleCredit"
 classes:
     - "SoftLayer_FlexibleCredit_Program"
+aliases:
+    - "/reference/services/softlayer_flexiblecredit_program/getCompanyTypes"
 ---
 # [SoftLayer_FlexibleCredit_Program](/reference/services/SoftLayer_FlexibleCredit_Program)::getCompanyTypes
 

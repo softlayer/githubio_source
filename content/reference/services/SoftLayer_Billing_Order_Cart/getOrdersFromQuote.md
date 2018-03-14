@@ -8,6 +8,8 @@ tags:
     - "Billing"
 classes:
     - "SoftLayer_Billing_Order_Cart"
+aliases:
+    - "/reference/services/softlayer_billing_order_cart/getOrdersFromQuote"
 ---
 # [SoftLayer_Billing_Order_Cart](/reference/services/SoftLayer_Billing_Order_Cart)::getOrdersFromQuote
 

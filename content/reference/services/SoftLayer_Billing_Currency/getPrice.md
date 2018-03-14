@@ -8,6 +8,8 @@ tags:
     - "Billing"
 classes:
     - "SoftLayer_Billing_Currency"
+aliases:
+    - "/reference/services/softlayer_billing_currency/getPrice"
 ---
 # [SoftLayer_Billing_Currency](/reference/services/SoftLayer_Billing_Currency)::getPrice
 

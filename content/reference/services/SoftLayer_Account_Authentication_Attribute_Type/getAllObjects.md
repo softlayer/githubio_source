@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Authentication_Attribute_Type"
+aliases:
+    - "/reference/services/softlayer_account_authentication_attribute_type/getAllObjects"
 ---
 # [SoftLayer_Account_Authentication_Attribute_Type](/reference/services/SoftLayer_Account_Authentication_Attribute_Type)::getAllObjects
 

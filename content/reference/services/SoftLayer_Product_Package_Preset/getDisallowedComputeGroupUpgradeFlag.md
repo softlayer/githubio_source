@@ -8,6 +8,8 @@ tags:
     - "Product"
 classes:
     - "SoftLayer_Product_Package_Preset"
+aliases:
+    - "/reference/services/softlayer_product_package_preset/getDisallowedComputeGroupUpgradeFlag"
 ---
 # [SoftLayer_Product_Package_Preset](/reference/services/SoftLayer_Product_Package_Preset)::getDisallowedComputeGroupUpgradeFlag
 

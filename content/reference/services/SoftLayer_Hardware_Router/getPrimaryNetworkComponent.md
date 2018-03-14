@@ -8,6 +8,8 @@ tags:
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_Router"
+aliases:
+    - "/reference/services/softlayer_hardware_router/getPrimaryNetworkComponent"
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getPrimaryNetworkComponent
 

@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Customer_CustomerPermission_Permission"
+aliases:
+    - "/reference/services/softlayer_user_customer_customerpermission_permission/getObject"
 ---
 # [SoftLayer_User_Customer_CustomerPermission_Permission](/reference/services/SoftLayer_User_Customer_CustomerPermission_Permission)::getObject
 

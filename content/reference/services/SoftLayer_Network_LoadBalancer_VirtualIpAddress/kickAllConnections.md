@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_LoadBalancer_VirtualIpAddress"
+aliases:
+    - "/reference/services/softlayer_network_loadbalancer_virtualipaddress/kickAllConnections"
 ---
 # [SoftLayer_Network_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress)::kickAllConnections
 

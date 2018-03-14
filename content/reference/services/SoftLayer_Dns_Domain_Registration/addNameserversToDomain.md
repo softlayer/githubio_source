@@ -8,6 +8,8 @@ tags:
     - "Dns"
 classes:
     - "SoftLayer_Dns_Domain_Registration"
+aliases:
+    - "/reference/services/softlayer_dns_domain_registration/addNameserversToDomain"
 ---
 # [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration)::addNameserversToDomain
 

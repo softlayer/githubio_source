@@ -8,6 +8,8 @@ tags:
     - "Provisioning"
 classes:
     - "SoftLayer_Provisioning_Hook"
+aliases:
+    - "/reference/services/softlayer_provisioning_hook/getAccount"
 ---
 # [SoftLayer_Provisioning_Hook](/reference/services/SoftLayer_Provisioning_Hook)::getAccount
 

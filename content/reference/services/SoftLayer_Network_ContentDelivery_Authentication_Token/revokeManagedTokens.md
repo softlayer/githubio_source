@@ -10,6 +10,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_ContentDelivery_Authentication_Token"
+aliases:
+    - "/reference/services/softlayer_network_contentdelivery_authentication_token/revokeManagedTokens"
 ---
 # [SoftLayer_Network_ContentDelivery_Authentication_Token](/reference/services/SoftLayer_Network_ContentDelivery_Authentication_Token)::revokeManagedTokens
 

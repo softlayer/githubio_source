@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Link_Bluemix"
+aliases:
+    - "/reference/services/softlayer_account_link_bluemix/getObject"
 ---
 # [SoftLayer_Account_Link_Bluemix](/reference/services/SoftLayer_Account_Link_Bluemix)::getObject
 

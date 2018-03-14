@@ -8,6 +8,8 @@ tags:
     - "Software"
 classes:
     - "SoftLayer_Software_Description"
+aliases:
+    - "/reference/services/softlayer_software_description/getCompatibleSoftwareDescriptions"
 ---
 # [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description)::getCompatibleSoftwareDescriptions
 

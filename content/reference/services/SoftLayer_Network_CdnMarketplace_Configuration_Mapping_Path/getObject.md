@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path"
+aliases:
+    - "/reference/services/softlayer_network_cdnmarketplace_configuration_mapping_path/getObject"
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path)::getObject
 

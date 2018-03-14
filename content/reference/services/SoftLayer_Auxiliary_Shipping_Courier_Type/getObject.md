@@ -8,6 +8,8 @@ tags:
     - "Auxiliary"
 classes:
     - "SoftLayer_Auxiliary_Shipping_Courier_Type"
+aliases:
+    - "/reference/services/softlayer_auxiliary_shipping_courier_type/getObject"
 ---
 # [SoftLayer_Auxiliary_Shipping_Courier_Type](/reference/services/SoftLayer_Auxiliary_Shipping_Courier_Type)::getObject
 

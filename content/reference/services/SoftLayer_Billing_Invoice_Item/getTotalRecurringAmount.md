@@ -8,6 +8,8 @@ tags:
     - "Billing"
 classes:
     - "SoftLayer_Billing_Invoice_Item"
+aliases:
+    - "/reference/services/softlayer_billing_invoice_item/getTotalRecurringAmount"
 ---
 # [SoftLayer_Billing_Invoice_Item](/reference/services/SoftLayer_Billing_Invoice_Item)::getTotalRecurringAmount
 

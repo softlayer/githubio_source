@@ -8,6 +8,8 @@ tags:
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_Component_Partition_Template"
+aliases:
+    - "/reference/services/softlayer_hardware_component_partition_template/getExpireDate"
 ---
 # [SoftLayer_Hardware_Component_Partition_Template](/reference/services/SoftLayer_Hardware_Component_Partition_Template)::getExpireDate
 

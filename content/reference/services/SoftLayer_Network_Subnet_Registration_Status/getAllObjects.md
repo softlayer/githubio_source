@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Subnet_Registration_Status"
+aliases:
+    - "/reference/services/softlayer_network_subnet_registration_status/getAllObjects"
 ---
 # [SoftLayer_Network_Subnet_Registration_Status](/reference/services/SoftLayer_Network_Subnet_Registration_Status)::getAllObjects
 

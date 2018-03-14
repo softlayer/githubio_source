@@ -8,6 +8,8 @@ tags:
     - "Brand"
 classes:
     - "SoftLayer_Brand_Restriction_Location_CustomerCountry"
+aliases:
+    - "/reference/services/softlayer_brand_restriction_location_customercountry/getObject"
 ---
 # [SoftLayer_Brand_Restriction_Location_CustomerCountry](/reference/services/SoftLayer_Brand_Restriction_Location_CustomerCountry)::getObject
 

@@ -8,6 +8,8 @@ tags:
     - "Survey"
 classes:
     - "SoftLayer_Survey"
+aliases:
+    - "/reference/services/softlayer_survey/takeSurvey"
 ---
 # [SoftLayer_Survey](/reference/services/SoftLayer_Survey)::takeSurvey
 

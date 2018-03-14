@@ -8,6 +8,8 @@ tags:
     - "Auxiliary"
 classes:
     - "SoftLayer_Auxiliary_Press_Release"
+aliases:
+    - "/reference/services/softlayer_auxiliary_press_release/getRenderedPressRelease"
 ---
 # [SoftLayer_Auxiliary_Press_Release](/reference/services/SoftLayer_Auxiliary_Press_Release)::getRenderedPressRelease
 

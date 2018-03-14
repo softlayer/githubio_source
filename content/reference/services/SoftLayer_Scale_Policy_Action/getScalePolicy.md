@@ -8,6 +8,8 @@ tags:
     - "Scale"
 classes:
     - "SoftLayer_Scale_Policy_Action"
+aliases:
+    - "/reference/services/softlayer_scale_policy_action/getScalePolicy"
 ---
 # [SoftLayer_Scale_Policy_Action](/reference/services/SoftLayer_Scale_Policy_Action)::getScalePolicy
 

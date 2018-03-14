@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Password"
+aliases:
+    - "/reference/services/softlayer_account_password/getObject"
 ---
 # [SoftLayer_Account_Password](/reference/services/SoftLayer_Account_Password)::getObject
 

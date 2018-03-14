@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_LBaaS_LoadBalancer"
+aliases:
+    - "/reference/services/softlayer_network_lbaas_loadbalancer/getLoadBalancer"
 ---
 # [SoftLayer_Network_LBaaS_LoadBalancer](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer)::getLoadBalancer
 

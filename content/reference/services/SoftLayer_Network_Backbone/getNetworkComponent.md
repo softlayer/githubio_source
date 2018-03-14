@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Backbone"
+aliases:
+    - "/reference/services/softlayer_network_backbone/getNetworkComponent"
 ---
 # [SoftLayer_Network_Backbone](/reference/services/SoftLayer_Network_Backbone)::getNetworkComponent
 

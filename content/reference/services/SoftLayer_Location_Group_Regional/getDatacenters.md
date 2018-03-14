@@ -8,6 +8,8 @@ tags:
     - "Location"
 classes:
     - "SoftLayer_Location_Group_Regional"
+aliases:
+    - "/reference/services/softlayer_location_group_regional/getDatacenters"
 ---
 # [SoftLayer_Location_Group_Regional](/reference/services/SoftLayer_Location_Group_Regional)::getDatacenters
 

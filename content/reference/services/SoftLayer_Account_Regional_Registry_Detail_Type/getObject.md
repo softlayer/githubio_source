@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Regional_Registry_Detail_Type"
+aliases:
+    - "/reference/services/softlayer_account_regional_registry_detail_type/getObject"
 ---
 # [SoftLayer_Account_Regional_Registry_Detail_Type](/reference/services/SoftLayer_Account_Regional_Registry_Detail_Type)::getObject
 

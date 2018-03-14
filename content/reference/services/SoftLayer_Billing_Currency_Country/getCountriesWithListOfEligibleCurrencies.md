@@ -8,6 +8,8 @@ tags:
     - "Billing"
 classes:
     - "SoftLayer_Billing_Currency_Country"
+aliases:
+    - "/reference/services/softlayer_billing_currency_country/getCountriesWithListOfEligibleCurrencies"
 ---
 # [SoftLayer_Billing_Currency_Country](/reference/services/SoftLayer_Billing_Currency_Country)::getCountriesWithListOfEligibleCurrencies
 

@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Backbone_Location_Dependent"
+aliases:
+    - "/reference/services/softlayer_network_backbone_location_dependent/getDependentLocation"
 ---
 # [SoftLayer_Network_Backbone_Location_Dependent](/reference/services/SoftLayer_Network_Backbone_Location_Dependent)::getDependentLocation
 

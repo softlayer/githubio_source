@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge"
+aliases:
+    - "/reference/services/softlayer_network_cdnmarketplace_configuration_cache_purge/createPurge"
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge)::createPurge
 

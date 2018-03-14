@@ -8,6 +8,8 @@ tags:
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_Component_Partition_OperatingSystem"
+aliases:
+    - "/reference/services/softlayer_hardware_component_partition_operatingsystem/getObject"
 ---
 # [SoftLayer_Hardware_Component_Partition_OperatingSystem](/reference/services/SoftLayer_Hardware_Component_Partition_OperatingSystem)::getObject
 

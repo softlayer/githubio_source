@@ -8,6 +8,8 @@ tags:
     - "Notification"
 classes:
     - "SoftLayer_Notification_User_Subscriber_Mobile"
+aliases:
+    - "/reference/services/softlayer_notification_user_subscriber_mobile/createObject"
 ---
 # [SoftLayer_Notification_User_Subscriber_Mobile](/reference/services/SoftLayer_Notification_User_Subscriber_Mobile)::createObject
 

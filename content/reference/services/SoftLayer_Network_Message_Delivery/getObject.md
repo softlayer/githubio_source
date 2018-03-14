@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Message_Delivery"
+aliases:
+    - "/reference/services/softlayer_network_message_delivery/getObject"
 ---
 # [SoftLayer_Network_Message_Delivery](/reference/services/SoftLayer_Network_Message_Delivery)::getObject
 

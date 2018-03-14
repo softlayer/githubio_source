@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Customer"
+aliases:
+    - "/reference/services/softlayer_user_customer/addHardwareAccess"
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::addHardwareAccess
 

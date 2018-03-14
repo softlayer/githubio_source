@@ -8,6 +8,8 @@ tags:
     - "Provisioning"
 classes:
     - "SoftLayer_Provisioning_Maintenance_Slots"
+aliases:
+    - "/reference/services/softlayer_provisioning_maintenance_slots/getObject"
 ---
 # [SoftLayer_Provisioning_Maintenance_Slots](/reference/services/SoftLayer_Provisioning_Maintenance_Slots)::getObject
 

@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Note"
+aliases:
+    - "/reference/services/softlayer_account_note/createObject"
 ---
 # [SoftLayer_Account_Note](/reference/services/SoftLayer_Account_Note)::createObject
 

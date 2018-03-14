@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_LoadBalancer_Global_Account"
+aliases:
+    - "/reference/services/softlayer_network_loadbalancer_global_account/addNsRecord"
 ---
 # [SoftLayer_Network_LoadBalancer_Global_Account](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account)::addNsRecord
 

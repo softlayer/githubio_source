@@ -8,6 +8,8 @@ tags:
     - "Location"
 classes:
     - "SoftLayer_Location_Group_Regional"
+aliases:
+    - "/reference/services/softlayer_location_group_regional/getLocationGroupType"
 ---
 # [SoftLayer_Location_Group_Regional](/reference/services/SoftLayer_Location_Group_Regional)::getLocationGroupType
 

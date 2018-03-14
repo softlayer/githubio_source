@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Subnet_IpAddress"
+aliases:
+    - "/reference/services/softlayer_network_subnet_ipaddress/getGuestNetworkComponentBinding"
 ---
 # [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::getGuestNetworkComponentBinding
 

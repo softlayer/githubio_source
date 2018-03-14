@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Shipment"
+aliases:
+    - "/reference/services/softlayer_account_shipment/getObject"
 ---
 # [SoftLayer_Account_Shipment](/reference/services/SoftLayer_Account_Shipment)::getObject
 

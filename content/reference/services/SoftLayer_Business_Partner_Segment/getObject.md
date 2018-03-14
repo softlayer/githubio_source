@@ -8,6 +8,8 @@ tags:
     - "Business"
 classes:
     - "SoftLayer_Business_Partner_Segment"
+aliases:
+    - "/reference/services/softlayer_business_partner_segment/getObject"
 ---
 # [SoftLayer_Business_Partner_Segment](/reference/services/SoftLayer_Business_Partner_Segment)::getObject
 

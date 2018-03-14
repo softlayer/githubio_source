@@ -8,6 +8,8 @@ tags:
     - "Layout"
 classes:
     - "SoftLayer_Layout_Profile"
+aliases:
+    - "/reference/services/softlayer_layout_profile/getLayoutPreferences"
 ---
 # [SoftLayer_Layout_Profile](/reference/services/SoftLayer_Layout_Profile)::getLayoutPreferences
 

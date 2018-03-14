@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host"
+aliases:
+    - "/reference/services/softlayer_network_storage_allowed_host/getObject"
 ---
 # [SoftLayer_Network_Storage_Allowed_Host](/reference/services/SoftLayer_Network_Storage_Allowed_Host)::getObject
 

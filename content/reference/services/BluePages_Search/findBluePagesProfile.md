@@ -8,6 +8,8 @@ tags:
     - "Search"
 classes:
     - "BluePages_Search"
+aliases:
+    - "/reference/services/bluepages_search/findBluePagesProfile"
 ---
 # [BluePages_Search](/reference/services/BluePages_Search)::findBluePagesProfile
 

@@ -8,6 +8,8 @@ tags:
     - "Scale"
 classes:
     - "SoftLayer_Scale_Member"
+aliases:
+    - "/reference/services/softlayer_scale_member/deleteObject"
 ---
 # [SoftLayer_Scale_Member](/reference/services/SoftLayer_Scale_Member)::deleteObject
 

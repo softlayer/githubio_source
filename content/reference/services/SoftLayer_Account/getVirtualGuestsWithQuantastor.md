@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account"
+aliases:
+    - "/reference/services/softlayer_account/getVirtualGuestsWithQuantastor"
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualGuestsWithQuantastor
 

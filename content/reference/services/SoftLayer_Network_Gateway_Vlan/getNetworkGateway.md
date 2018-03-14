@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Gateway_Vlan"
+aliases:
+    - "/reference/services/softlayer_network_gateway_vlan/getNetworkGateway"
 ---
 # [SoftLayer_Network_Gateway_Vlan](/reference/services/SoftLayer_Network_Gateway_Vlan)::getNetworkGateway
 

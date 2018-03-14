@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Lockdown_Request"
+aliases:
+    - "/reference/services/softlayer_account_lockdown_request/reconnectCompute"
 ---
 # [SoftLayer_Account_Lockdown_Request](/reference/services/SoftLayer_Account_Lockdown_Request)::reconnectCompute
 

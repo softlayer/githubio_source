@@ -8,6 +8,8 @@ tags:
     - "Dns"
 classes:
     - "SoftLayer_Dns_Domain_ResourceRecord_MxType"
+aliases:
+    - "/reference/services/softlayer_dns_domain_resourcerecord_mxtype/createObject"
 ---
 # [SoftLayer_Dns_Domain_ResourceRecord_MxType](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType)::createObject
 

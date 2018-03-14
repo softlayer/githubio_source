@@ -8,6 +8,8 @@ tags:
     - "Locale"
 classes:
     - "SoftLayer_Locale_Country"
+aliases:
+    - "/reference/services/softlayer_locale_country/getAllVatCountryCodesAndVatIdRegexes"
 ---
 # [SoftLayer_Locale_Country](/reference/services/SoftLayer_Locale_Country)::getAllVatCountryCodesAndVatIdRegexes
 

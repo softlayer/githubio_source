@@ -8,6 +8,8 @@ tags:
     - "Scale"
 classes:
     - "SoftLayer_Scale_Termination_Policy"
+aliases:
+    - "/reference/services/softlayer_scale_termination_policy/getAllObjects"
 ---
 # [SoftLayer_Scale_Termination_Policy](/reference/services/SoftLayer_Scale_Termination_Policy)::getAllObjects
 

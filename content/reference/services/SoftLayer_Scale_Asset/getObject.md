@@ -8,6 +8,8 @@ tags:
     - "Scale"
 classes:
     - "SoftLayer_Scale_Asset"
+aliases:
+    - "/reference/services/softlayer_scale_asset/getObject"
 ---
 # [SoftLayer_Scale_Asset](/reference/services/SoftLayer_Scale_Asset)::getObject
 

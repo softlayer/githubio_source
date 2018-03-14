@@ -8,6 +8,8 @@ tags:
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_Server"
+aliases:
+    - "/reference/services/softlayer_hardware_server/getPrivateNetworkOnlyFlag"
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getPrivateNetworkOnlyFlag
 

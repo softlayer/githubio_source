@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Firewall_AccessControlList"
+aliases:
+    - "/reference/services/softlayer_network_firewall_accesscontrollist/getRules"
 ---
 # [SoftLayer_Network_Firewall_AccessControlList](/reference/services/SoftLayer_Network_Firewall_AccessControlList)::getRules
 

@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Security_Question"
+aliases:
+    - "/reference/services/softlayer_user_security_question/getAllObjects"
 ---
 # [SoftLayer_User_Security_Question](/reference/services/SoftLayer_User_Security_Question)::getAllObjects
 

@@ -8,6 +8,8 @@ tags:
     - "Scale"
 classes:
     - "SoftLayer_Scale_Member_Virtual_Guest"
+aliases:
+    - "/reference/services/softlayer_scale_member_virtual_guest/getObject"
 ---
 # [SoftLayer_Scale_Member_Virtual_Guest](/reference/services/SoftLayer_Scale_Member_Virtual_Guest)::getObject
 

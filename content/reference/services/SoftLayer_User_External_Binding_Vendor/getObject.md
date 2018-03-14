@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_External_Binding_Vendor"
+aliases:
+    - "/reference/services/softlayer_user_external_binding_vendor/getObject"
 ---
 # [SoftLayer_User_External_Binding_Vendor](/reference/services/SoftLayer_User_External_Binding_Vendor)::getObject
 

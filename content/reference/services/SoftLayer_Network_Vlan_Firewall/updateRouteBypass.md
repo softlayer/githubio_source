@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Vlan_Firewall"
+aliases:
+    - "/reference/services/softlayer_network_vlan_firewall/updateRouteBypass"
 ---
 # [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::updateRouteBypass
 

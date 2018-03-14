@@ -8,6 +8,8 @@ tags:
     - "Billing"
 classes:
     - "SoftLayer_Billing_Info"
+aliases:
+    - "/reference/services/softlayer_billing_info/getAchInformation"
 ---
 # [SoftLayer_Billing_Info](/reference/services/SoftLayer_Billing_Info)::getAchInformation
 

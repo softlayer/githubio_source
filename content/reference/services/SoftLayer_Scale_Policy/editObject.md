@@ -8,6 +8,8 @@ tags:
     - "Scale"
 classes:
     - "SoftLayer_Scale_Policy"
+aliases:
+    - "/reference/services/softlayer_scale_policy/editObject"
 ---
 # [SoftLayer_Scale_Policy](/reference/services/SoftLayer_Scale_Policy)::editObject
 

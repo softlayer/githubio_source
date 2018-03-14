@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Media_Transcode_Job_Status"
+aliases:
+    - "/reference/services/softlayer_network_media_transcode_job_status/getAllStatuses"
 ---
 # [SoftLayer_Network_Media_Transcode_Job_Status](/reference/services/SoftLayer_Network_Media_Transcode_Job_Status)::getAllStatuses
 

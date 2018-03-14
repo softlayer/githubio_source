@@ -8,6 +8,8 @@ tags:
     - "Provisioning"
 classes:
     - "SoftLayer_Provisioning_Maintenance_Ticket"
+aliases:
+    - "/reference/services/softlayer_provisioning_maintenance_ticket/getMaintenanceClass"
 ---
 # [SoftLayer_Provisioning_Maintenance_Ticket](/reference/services/SoftLayer_Provisioning_Maintenance_Ticket)::getMaintenanceClass
 

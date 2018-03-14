@@ -10,6 +10,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Media_Transcode_Job"
+aliases:
+    - "/reference/services/softlayer_network_media_transcode_job/createObject"
 ---
 # [SoftLayer_Network_Media_Transcode_Job](/reference/services/SoftLayer_Network_Media_Transcode_Job)::createObject
 

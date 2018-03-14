@@ -8,6 +8,8 @@ tags:
     - "Auxiliary"
 classes:
     - "SoftLayer_Auxiliary_Press_Release_Contact"
+aliases:
+    - "/reference/services/softlayer_auxiliary_press_release_contact/getObject"
 ---
 # [SoftLayer_Auxiliary_Press_Release_Contact](/reference/services/SoftLayer_Auxiliary_Press_Release_Contact)::getObject
 

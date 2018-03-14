@@ -8,6 +8,8 @@ tags:
     - "Hardware"
 classes:
     - "SoftLayer_Hardware"
+aliases:
+    - "/reference/services/softlayer_hardware/getHardDrives"
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getHardDrives
 

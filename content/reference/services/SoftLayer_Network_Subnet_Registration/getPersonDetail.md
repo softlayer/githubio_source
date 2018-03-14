@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Subnet_Registration"
+aliases:
+    - "/reference/services/softlayer_network_subnet_registration/getPersonDetail"
 ---
 # [SoftLayer_Network_Subnet_Registration](/reference/services/SoftLayer_Network_Subnet_Registration)::getPersonDetail
 

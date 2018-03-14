@@ -8,6 +8,8 @@ tags:
     - "Event"
 classes:
     - "SoftLayer_Event_Log"
+aliases:
+    - "/reference/services/softlayer_event_log/getAllObjects"
 ---
 # [SoftLayer_Event_Log](/reference/services/SoftLayer_Event_Log)::getAllObjects
 

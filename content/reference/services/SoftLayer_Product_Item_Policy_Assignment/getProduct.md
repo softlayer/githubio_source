@@ -8,6 +8,8 @@ tags:
     - "Product"
 classes:
     - "SoftLayer_Product_Item_Policy_Assignment"
+aliases:
+    - "/reference/services/softlayer_product_item_policy_assignment/getProduct"
 ---
 # [SoftLayer_Product_Item_Policy_Assignment](/reference/services/SoftLayer_Product_Item_Policy_Assignment)::getProduct
 

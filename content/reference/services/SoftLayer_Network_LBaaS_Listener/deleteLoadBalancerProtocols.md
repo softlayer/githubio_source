@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_LBaaS_Listener"
+aliases:
+    - "/reference/services/softlayer_network_lbaas_listener/deleteLoadBalancerProtocols"
 ---
 # [SoftLayer_Network_LBaaS_Listener](/reference/services/SoftLayer_Network_LBaaS_Listener)::deleteLoadBalancerProtocols
 

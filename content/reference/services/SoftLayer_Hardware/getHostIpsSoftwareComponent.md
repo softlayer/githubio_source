@@ -8,6 +8,8 @@ tags:
     - "Hardware"
 classes:
     - "SoftLayer_Hardware"
+aliases:
+    - "/reference/services/softlayer_hardware/getHostIpsSoftwareComponent"
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getHostIpsSoftwareComponent
 

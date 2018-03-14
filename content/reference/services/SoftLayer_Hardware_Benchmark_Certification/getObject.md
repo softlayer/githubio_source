@@ -8,6 +8,8 @@ tags:
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_Benchmark_Certification"
+aliases:
+    - "/reference/services/softlayer_hardware_benchmark_certification/getObject"
 ---
 # [SoftLayer_Hardware_Benchmark_Certification](/reference/services/SoftLayer_Hardware_Benchmark_Certification)::getObject
 

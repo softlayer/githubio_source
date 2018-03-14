@@ -8,6 +8,8 @@ tags:
     - "Layout"
 classes:
     - "SoftLayer_Layout_Profile_Containers"
+aliases:
+    - "/reference/services/softlayer_layout_profile_containers/getObject"
 ---
 # [SoftLayer_Layout_Profile_Containers](/reference/services/SoftLayer_Layout_Profile_Containers)::getObject
 

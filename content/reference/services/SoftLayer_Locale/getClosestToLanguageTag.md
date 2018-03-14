@@ -8,6 +8,8 @@ tags:
     - "Locale"
 classes:
     - "SoftLayer_Locale"
+aliases:
+    - "/reference/services/softlayer_locale/getClosestToLanguageTag"
 ---
 # [SoftLayer_Locale](/reference/services/SoftLayer_Locale)::getClosestToLanguageTag
 

@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Customer_Security_Answer"
+aliases:
+    - "/reference/services/softlayer_user_customer_security_answer/getUser"
 ---
 # [SoftLayer_User_Customer_Security_Answer](/reference/services/SoftLayer_User_Customer_Security_Answer)::getUser
 

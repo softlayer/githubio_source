@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Address"
+aliases:
+    - "/reference/services/softlayer_account_address/getAllDataCenters"
 ---
 # [SoftLayer_Account_Address](/reference/services/SoftLayer_Account_Address)::getAllDataCenters
 

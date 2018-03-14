@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Permission_Group"
+aliases:
+    - "/reference/services/softlayer_user_permission_group/removeBulkResourceObjects"
 ---
 # [SoftLayer_User_Permission_Group](/reference/services/SoftLayer_User_Permission_Group)::removeBulkResourceObjects
 

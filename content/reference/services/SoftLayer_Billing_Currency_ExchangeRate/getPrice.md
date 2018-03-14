@@ -8,6 +8,8 @@ tags:
     - "Billing"
 classes:
     - "SoftLayer_Billing_Currency_ExchangeRate"
+aliases:
+    - "/reference/services/softlayer_billing_currency_exchangerate/getPrice"
 ---
 # [SoftLayer_Billing_Currency_ExchangeRate](/reference/services/SoftLayer_Billing_Currency_ExchangeRate)::getPrice
 

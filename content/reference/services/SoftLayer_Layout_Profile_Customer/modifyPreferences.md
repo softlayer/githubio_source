@@ -10,6 +10,8 @@ tags:
     - "Layout"
 classes:
     - "SoftLayer_Layout_Profile_Customer"
+aliases:
+    - "/reference/services/softlayer_layout_profile_customer/modifyPreferences"
 ---
 # [SoftLayer_Layout_Profile_Customer](/reference/services/SoftLayer_Layout_Profile_Customer)::modifyPreferences
 

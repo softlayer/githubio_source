@@ -8,6 +8,8 @@ tags:
     - "Billing"
 classes:
     - "SoftLayer_Billing_Invoice_Tax_Type"
+aliases:
+    - "/reference/services/softlayer_billing_invoice_tax_type/getObject"
 ---
 # [SoftLayer_Billing_Invoice_Tax_Type](/reference/services/SoftLayer_Billing_Invoice_Tax_Type)::getObject
 

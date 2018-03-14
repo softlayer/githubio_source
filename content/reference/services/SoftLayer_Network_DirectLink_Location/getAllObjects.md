@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_DirectLink_Location"
+aliases:
+    - "/reference/services/softlayer_network_directlink_location/getAllObjects"
 ---
 # [SoftLayer_Network_DirectLink_Location](/reference/services/SoftLayer_Network_DirectLink_Location)::getAllObjects
 

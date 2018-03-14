@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_LoadBalancer_Global_Host"
+aliases:
+    - "/reference/services/softlayer_network_loadbalancer_global_host/deleteObject"
 ---
 # [SoftLayer_Network_LoadBalancer_Global_Host](/reference/services/SoftLayer_Network_LoadBalancer_Global_Host)::deleteObject
 

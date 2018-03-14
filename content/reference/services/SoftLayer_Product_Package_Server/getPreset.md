@@ -8,6 +8,8 @@ tags:
     - "Product"
 classes:
     - "SoftLayer_Product_Package_Server"
+aliases:
+    - "/reference/services/softlayer_product_package_server/getPreset"
 ---
 # [SoftLayer_Product_Package_Server](/reference/services/SoftLayer_Product_Package_Server)::getPreset
 

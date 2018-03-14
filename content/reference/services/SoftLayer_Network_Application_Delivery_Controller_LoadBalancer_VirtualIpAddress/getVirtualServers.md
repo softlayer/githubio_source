@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress"
+aliases:
+    - "/reference/services/softlayer_network_application_delivery_controller_loadbalancer_virtualipaddress/getVirtualServers"
 ---
 # [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress)::getVirtualServers
 

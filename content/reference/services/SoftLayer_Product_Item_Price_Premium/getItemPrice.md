@@ -8,6 +8,8 @@ tags:
     - "Product"
 classes:
     - "SoftLayer_Product_Item_Price_Premium"
+aliases:
+    - "/reference/services/softlayer_product_item_price_premium/getItemPrice"
 ---
 # [SoftLayer_Product_Item_Price_Premium](/reference/services/SoftLayer_Product_Item_Price_Premium)::getItemPrice
 

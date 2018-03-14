@@ -14,6 +14,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network"
+aliases:
+    - "/reference/services/softlayer_network/createObject"
 ---
 # [SoftLayer_Network](/reference/services/SoftLayer_Network)::createObject
 

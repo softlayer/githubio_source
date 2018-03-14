@@ -8,6 +8,8 @@ tags:
     - "Provisioning"
 classes:
     - "SoftLayer_Provisioning_Maintenance_Window"
+aliases:
+    - "/reference/services/softlayer_provisioning_maintenance_window/getMaintenanceWindowTicketsByTicketId"
 ---
 # [SoftLayer_Provisioning_Maintenance_Window](/reference/services/SoftLayer_Provisioning_Maintenance_Window)::getMaintenanceWindowTicketsByTicketId
 

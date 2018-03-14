@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute_Type"
+aliases:
+    - "/reference/services/softlayer_network_application_delivery_controller_loadbalancer_health_attribute_type/getObject"
 ---
 # [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute_Type](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute_Type)::getObject
 

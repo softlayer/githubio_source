@@ -10,6 +10,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
+aliases:
+    - "/reference/services/softlayer_network_tunnel_module_context/getDiffieHellmanGroupOptions"
 ---
 # [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getDiffieHellmanGroupOptions
 

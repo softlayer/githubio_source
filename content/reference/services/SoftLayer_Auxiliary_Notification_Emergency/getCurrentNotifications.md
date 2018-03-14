@@ -8,6 +8,8 @@ tags:
     - "Auxiliary"
 classes:
     - "SoftLayer_Auxiliary_Notification_Emergency"
+aliases:
+    - "/reference/services/softlayer_auxiliary_notification_emergency/getCurrentNotifications"
 ---
 # [SoftLayer_Auxiliary_Notification_Emergency](/reference/services/SoftLayer_Auxiliary_Notification_Emergency)::getCurrentNotifications
 

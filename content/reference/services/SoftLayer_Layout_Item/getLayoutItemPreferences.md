@@ -8,6 +8,8 @@ tags:
     - "Layout"
 classes:
     - "SoftLayer_Layout_Item"
+aliases:
+    - "/reference/services/softlayer_layout_item/getLayoutItemPreferences"
 ---
 # [SoftLayer_Layout_Item](/reference/services/SoftLayer_Layout_Item)::getLayoutItemPreferences
 

@@ -8,6 +8,8 @@ tags:
     - "Resource"
 classes:
     - "SoftLayer_Resource_Group_Template"
+aliases:
+    - "/reference/services/softlayer_resource_group_template/getChildren"
 ---
 # [SoftLayer_Resource_Group_Template](/reference/services/SoftLayer_Resource_Group_Template)::getChildren
 

@@ -10,6 +10,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Storage"
+aliases:
+    - "/reference/services/softlayer_network_storage/collectBandwidth"
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::collectBandwidth
 

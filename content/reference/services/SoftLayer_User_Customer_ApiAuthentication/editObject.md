@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Customer_ApiAuthentication"
+aliases:
+    - "/reference/services/softlayer_user_customer_apiauthentication/editObject"
 ---
 # [SoftLayer_User_Customer_ApiAuthentication](/reference/services/SoftLayer_User_Customer_ApiAuthentication)::editObject
 

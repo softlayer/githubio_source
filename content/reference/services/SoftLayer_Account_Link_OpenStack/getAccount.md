@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Link_OpenStack"
+aliases:
+    - "/reference/services/softlayer_account_link_openstack/getAccount"
 ---
 # [SoftLayer_Account_Link_OpenStack](/reference/services/SoftLayer_Account_Link_OpenStack)::getAccount
 

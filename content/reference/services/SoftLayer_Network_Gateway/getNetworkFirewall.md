@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Gateway"
+aliases:
+    - "/reference/services/softlayer_network_gateway/getNetworkFirewall"
 ---
 # [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::getNetworkFirewall
 

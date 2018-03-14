@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Iscsi_OS_Type"
+aliases:
+    - "/reference/services/softlayer_network_storage_iscsi_os_type/getObject"
 ---
 # [SoftLayer_Network_Storage_Iscsi_OS_Type](/reference/services/SoftLayer_Network_Storage_Iscsi_OS_Type)::getObject
 

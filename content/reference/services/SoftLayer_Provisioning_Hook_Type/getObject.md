@@ -8,6 +8,8 @@ tags:
     - "Provisioning"
 classes:
     - "SoftLayer_Provisioning_Hook_Type"
+aliases:
+    - "/reference/services/softlayer_provisioning_hook_type/getObject"
 ---
 # [SoftLayer_Provisioning_Hook_Type](/reference/services/SoftLayer_Provisioning_Hook_Type)::getObject
 

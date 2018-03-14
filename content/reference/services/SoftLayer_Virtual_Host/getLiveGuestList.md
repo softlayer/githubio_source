@@ -8,6 +8,8 @@ tags:
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Host"
+aliases:
+    - "/reference/services/softlayer_virtual_host/getLiveGuestList"
 ---
 # [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::getLiveGuestList
 

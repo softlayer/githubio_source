@@ -8,6 +8,8 @@ tags:
     - "Catalyst"
 classes:
     - "SoftLayer_Catalyst_Enrollment"
+aliases:
+    - "/reference/services/softlayer_catalyst_enrollment/getEnrollmentRequestYearsInOperationOptions"
 ---
 # [SoftLayer_Catalyst_Enrollment](/reference/services/SoftLayer_Catalyst_Enrollment)::getEnrollmentRequestYearsInOperationOptions
 

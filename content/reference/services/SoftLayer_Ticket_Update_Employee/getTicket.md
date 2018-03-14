@@ -8,6 +8,8 @@ tags:
     - "Ticket"
 classes:
     - "SoftLayer_Ticket_Update_Employee"
+aliases:
+    - "/reference/services/softlayer_ticket_update_employee/getTicket"
 ---
 # [SoftLayer_Ticket_Update_Employee](/reference/services/SoftLayer_Ticket_Update_Employee)::getTicket
 

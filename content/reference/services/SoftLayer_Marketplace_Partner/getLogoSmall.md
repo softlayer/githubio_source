@@ -8,6 +8,8 @@ tags:
     - "Marketplace"
 classes:
     - "SoftLayer_Marketplace_Partner"
+aliases:
+    - "/reference/services/softlayer_marketplace_partner/getLogoSmall"
 ---
 # [SoftLayer_Marketplace_Partner](/reference/services/SoftLayer_Marketplace_Partner)::getLogoSmall
 

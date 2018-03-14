@@ -8,6 +8,8 @@ tags:
     - "Scale"
 classes:
     - "SoftLayer_Scale_LoadBalancer"
+aliases:
+    - "/reference/services/softlayer_scale_loadbalancer/getVirtualIpAddressId"
 ---
 # [SoftLayer_Scale_LoadBalancer](/reference/services/SoftLayer_Scale_LoadBalancer)::getVirtualIpAddressId
 

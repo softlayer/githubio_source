@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Gateway_Status"
+aliases:
+    - "/reference/services/softlayer_network_gateway_status/getObject"
 ---
 # [SoftLayer_Network_Gateway_Status](/reference/services/SoftLayer_Network_Gateway_Status)::getObject
 

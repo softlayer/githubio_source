@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Business_Partner"
+aliases:
+    - "/reference/services/softlayer_account_business_partner/getAccount"
 ---
 # [SoftLayer_Account_Business_Partner](/reference/services/SoftLayer_Account_Business_Partner)::getAccount
 

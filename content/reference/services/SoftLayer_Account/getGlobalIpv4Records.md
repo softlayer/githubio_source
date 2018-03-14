@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account"
+aliases:
+    - "/reference/services/softlayer_account/getGlobalIpv4Records"
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getGlobalIpv4Records
 

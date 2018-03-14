@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Media_Data_Transfer_Request"
+aliases:
+    - "/reference/services/softlayer_account_media_data_transfer_request/getModifyUser"
 ---
 # [SoftLayer_Account_Media_Data_Transfer_Request](/reference/services/SoftLayer_Account_Media_Data_Transfer_Request)::getModifyUser
 

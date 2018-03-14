@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network"
+aliases:
+    - "/reference/services/softlayer_network/createSubnet"
 ---
 # [SoftLayer_Network](/reference/services/SoftLayer_Network)::createSubnet
 

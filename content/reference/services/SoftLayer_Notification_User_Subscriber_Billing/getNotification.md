@@ -8,6 +8,8 @@ tags:
     - "Notification"
 classes:
     - "SoftLayer_Notification_User_Subscriber_Billing"
+aliases:
+    - "/reference/services/softlayer_notification_user_subscriber_billing/getNotification"
 ---
 # [SoftLayer_Notification_User_Subscriber_Billing](/reference/services/SoftLayer_Notification_User_Subscriber_Billing)::getNotification
 

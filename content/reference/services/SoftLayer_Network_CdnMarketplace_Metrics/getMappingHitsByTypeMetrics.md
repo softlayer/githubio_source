@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_CdnMarketplace_Metrics"
+aliases:
+    - "/reference/services/softlayer_network_cdnmarketplace_metrics/getMappingHitsByTypeMetrics"
 ---
 # [SoftLayer_Network_CdnMarketplace_Metrics](/reference/services/SoftLayer_Network_CdnMarketplace_Metrics)::getMappingHitsByTypeMetrics
 

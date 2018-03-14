@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type"
+aliases:
+    - "/reference/services/softlayer_network_application_delivery_controller_loadbalancer_routing_type/getObject"
 ---
 # [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type)::getObject
 

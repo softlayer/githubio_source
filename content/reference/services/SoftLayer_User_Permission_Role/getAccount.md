@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Permission_Role"
+aliases:
+    - "/reference/services/softlayer_user_permission_role/getAccount"
 ---
 # [SoftLayer_User_Permission_Role](/reference/services/SoftLayer_User_Permission_Role)::getAccount
 

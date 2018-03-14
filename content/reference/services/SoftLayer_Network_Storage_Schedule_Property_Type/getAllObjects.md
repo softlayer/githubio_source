@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Schedule_Property_Type"
+aliases:
+    - "/reference/services/softlayer_network_storage_schedule_property_type/getAllObjects"
 ---
 # [SoftLayer_Network_Storage_Schedule_Property_Type](/reference/services/SoftLayer_Network_Storage_Schedule_Property_Type)::getAllObjects
 

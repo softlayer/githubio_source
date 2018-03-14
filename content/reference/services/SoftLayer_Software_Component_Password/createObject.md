@@ -8,6 +8,8 @@ tags:
     - "Software"
 classes:
     - "SoftLayer_Software_Component_Password"
+aliases:
+    - "/reference/services/softlayer_software_component_password/createObject"
 ---
 # [SoftLayer_Software_Component_Password](/reference/services/SoftLayer_Software_Component_Password)::createObject
 

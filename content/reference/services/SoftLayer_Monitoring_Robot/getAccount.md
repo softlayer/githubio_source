@@ -8,6 +8,8 @@ tags:
     - "Monitoring"
 classes:
     - "SoftLayer_Monitoring_Robot"
+aliases:
+    - "/reference/services/softlayer_monitoring_robot/getAccount"
 ---
 # [SoftLayer_Monitoring_Robot](/reference/services/SoftLayer_Monitoring_Robot)::getAccount
 

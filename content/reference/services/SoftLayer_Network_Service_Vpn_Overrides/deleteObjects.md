@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Service_Vpn_Overrides"
+aliases:
+    - "/reference/services/softlayer_network_service_vpn_overrides/deleteObjects"
 ---
 # [SoftLayer_Network_Service_Vpn_Overrides](/reference/services/SoftLayer_Network_Service_Vpn_Overrides)::deleteObjects
 

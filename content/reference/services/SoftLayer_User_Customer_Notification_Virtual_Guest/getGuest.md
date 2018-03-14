@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Customer_Notification_Virtual_Guest"
+aliases:
+    - "/reference/services/softlayer_user_customer_notification_virtual_guest/getGuest"
 ---
 # [SoftLayer_User_Customer_Notification_Virtual_Guest](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest)::getGuest
 

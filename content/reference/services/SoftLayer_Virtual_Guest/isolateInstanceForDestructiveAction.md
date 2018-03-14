@@ -8,6 +8,8 @@ tags:
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest"
+aliases:
+    - "/reference/services/softlayer_virtual_guest/isolateInstanceForDestructiveAction"
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::isolateInstanceForDestructiveAction
 

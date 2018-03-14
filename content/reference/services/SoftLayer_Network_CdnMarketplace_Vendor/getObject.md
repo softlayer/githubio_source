@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_CdnMarketplace_Vendor"
+aliases:
+    - "/reference/services/softlayer_network_cdnmarketplace_vendor/getObject"
 ---
 # [SoftLayer_Network_CdnMarketplace_Vendor](/reference/services/SoftLayer_Network_CdnMarketplace_Vendor)::getObject
 

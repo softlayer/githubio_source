@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Gateway"
+aliases:
+    - "/reference/services/softlayer_network_gateway/getPublicIpAddress"
 ---
 # [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::getPublicIpAddress
 

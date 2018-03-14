@@ -8,6 +8,8 @@ tags:
     - "Monitoring"
 classes:
     - "SoftLayer_Monitoring_Agent_Status"
+aliases:
+    - "/reference/services/softlayer_monitoring_agent_status/getObject"
 ---
 # [SoftLayer_Monitoring_Agent_Status](/reference/services/SoftLayer_Monitoring_Agent_Status)::getObject
 

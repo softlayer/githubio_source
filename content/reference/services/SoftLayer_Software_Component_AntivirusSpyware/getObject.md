@@ -8,6 +8,8 @@ tags:
     - "Software"
 classes:
     - "SoftLayer_Software_Component_AntivirusSpyware"
+aliases:
+    - "/reference/services/softlayer_software_component_antivirusspyware/getObject"
 ---
 # [SoftLayer_Software_Component_AntivirusSpyware](/reference/services/SoftLayer_Software_Component_AntivirusSpyware)::getObject
 

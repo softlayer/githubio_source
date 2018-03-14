@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_DirectLink_CloudExchangeProvider"
+aliases:
+    - "/reference/services/softlayer_network_directlink_cloudexchangeprovider/getObject"
 ---
 # [SoftLayer_Network_DirectLink_CloudExchangeProvider](/reference/services/SoftLayer_Network_DirectLink_CloudExchangeProvider)::getObject
 

@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Affiliation"
+aliases:
+    - "/reference/services/softlayer_account_affiliation/deleteObject"
 ---
 # [SoftLayer_Account_Affiliation](/reference/services/SoftLayer_Account_Affiliation)::deleteObject
 

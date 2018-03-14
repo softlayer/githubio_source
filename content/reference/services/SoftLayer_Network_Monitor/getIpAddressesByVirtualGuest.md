@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Monitor"
+aliases:
+    - "/reference/services/softlayer_network_monitor/getIpAddressesByVirtualGuest"
 ---
 # [SoftLayer_Network_Monitor](/reference/services/SoftLayer_Network_Monitor)::getIpAddressesByVirtualGuest
 

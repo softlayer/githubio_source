@@ -8,6 +8,8 @@ tags:
     - "Brand"
 classes:
     - "SoftLayer_Brand"
+aliases:
+    - "/reference/services/softlayer_brand/getToken"
 ---
 # [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getToken
 

@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Pod"
+aliases:
+    - "/reference/services/softlayer_network_pod/getCapabilities"
 ---
 # [SoftLayer_Network_Pod](/reference/services/SoftLayer_Network_Pod)::getCapabilities
 

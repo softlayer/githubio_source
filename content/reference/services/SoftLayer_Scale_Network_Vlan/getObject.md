@@ -8,6 +8,8 @@ tags:
     - "Scale"
 classes:
     - "SoftLayer_Scale_Network_Vlan"
+aliases:
+    - "/reference/services/softlayer_scale_network_vlan/getObject"
 ---
 # [SoftLayer_Scale_Network_Vlan](/reference/services/SoftLayer_Scale_Network_Vlan)::getObject
 

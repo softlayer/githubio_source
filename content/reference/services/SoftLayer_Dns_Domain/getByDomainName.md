@@ -8,6 +8,8 @@ tags:
     - "Dns"
 classes:
     - "SoftLayer_Dns_Domain"
+aliases:
+    - "/reference/services/softlayer_dns_domain/getByDomainName"
 ---
 # [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::getByDomainName
 

@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Customer_MobileDevice_Type"
+aliases:
+    - "/reference/services/softlayer_user_customer_mobiledevice_type/getObject"
 ---
 # [SoftLayer_User_Customer_MobileDevice_Type](/reference/services/SoftLayer_User_Customer_MobileDevice_Type)::getObject
 

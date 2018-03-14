@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Media"
+aliases:
+    - "/reference/services/softlayer_account_media/getCreateUser"
 ---
 # [SoftLayer_Account_Media](/reference/services/SoftLayer_Account_Media)::getCreateUser
 

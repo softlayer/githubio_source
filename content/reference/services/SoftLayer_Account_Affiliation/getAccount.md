@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Affiliation"
+aliases:
+    - "/reference/services/softlayer_account_affiliation/getAccount"
 ---
 # [SoftLayer_Account_Affiliation](/reference/services/SoftLayer_Account_Affiliation)::getAccount
 

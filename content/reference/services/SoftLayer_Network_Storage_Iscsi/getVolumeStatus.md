@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
+aliases:
+    - "/reference/services/softlayer_network_storage_iscsi/getVolumeStatus"
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getVolumeStatus
 

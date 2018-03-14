@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Bandwidth_Version1_Allotment"
+aliases:
+    - "/reference/services/softlayer_network_bandwidth_version1_allotment/getManagedBareMetalInstances"
 ---
 # [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getManagedBareMetalInstances
 

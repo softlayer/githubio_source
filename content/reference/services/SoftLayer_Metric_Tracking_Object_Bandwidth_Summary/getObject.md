@@ -8,6 +8,8 @@ tags:
     - "Metric"
 classes:
     - "SoftLayer_Metric_Tracking_Object_Bandwidth_Summary"
+aliases:
+    - "/reference/services/softlayer_metric_tracking_object_bandwidth_summary/getObject"
 ---
 # [SoftLayer_Metric_Tracking_Object_Bandwidth_Summary](/reference/services/SoftLayer_Metric_Tracking_Object_Bandwidth_Summary)::getObject
 

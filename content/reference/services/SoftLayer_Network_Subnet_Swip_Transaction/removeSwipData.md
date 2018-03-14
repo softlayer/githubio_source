@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Subnet_Swip_Transaction"
+aliases:
+    - "/reference/services/softlayer_network_subnet_swip_transaction/removeSwipData"
 ---
 # [SoftLayer_Network_Subnet_Swip_Transaction](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction)::removeSwipData
 

@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Customer_External_Binding_Verisign"
+aliases:
+    - "/reference/services/softlayer_user_customer_external_binding_verisign/getCredentialType"
 ---
 # [SoftLayer_User_Customer_External_Binding_Verisign](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign)::getCredentialType
 

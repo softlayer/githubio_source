@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Permission_Action"
+aliases:
+    - "/reference/services/softlayer_user_permission_action/getObject"
 ---
 # [SoftLayer_User_Permission_Action](/reference/services/SoftLayer_User_Permission_Action)::getObject
 

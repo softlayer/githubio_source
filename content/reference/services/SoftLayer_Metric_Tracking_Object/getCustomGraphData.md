@@ -8,6 +8,8 @@ tags:
     - "Metric"
 classes:
     - "SoftLayer_Metric_Tracking_Object"
+aliases:
+    - "/reference/services/softlayer_metric_tracking_object/getCustomGraphData"
 ---
 # [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getCustomGraphData
 

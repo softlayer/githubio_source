@@ -8,6 +8,8 @@ tags:
     - "Billing"
 classes:
     - "SoftLayer_Billing_Item_Cancellation_Request"
+aliases:
+    - "/reference/services/softlayer_billing_item_cancellation_request/getStatus"
 ---
 # [SoftLayer_Billing_Item_Cancellation_Request](/reference/services/SoftLayer_Billing_Item_Cancellation_Request)::getStatus
 

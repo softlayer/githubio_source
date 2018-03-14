@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account"
+aliases:
+    - "/reference/services/softlayer_account/getHardwareOverBandwidthAllocation"
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardwareOverBandwidthAllocation
 

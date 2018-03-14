@@ -8,6 +8,8 @@ tags:
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_Server"
+aliases:
+    - "/reference/services/softlayer_hardware_server/getSshKeys"
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getSshKeys
 

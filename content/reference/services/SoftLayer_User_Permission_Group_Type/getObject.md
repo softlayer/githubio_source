@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Permission_Group_Type"
+aliases:
+    - "/reference/services/softlayer_user_permission_group_type/getObject"
 ---
 # [SoftLayer_User_Permission_Group_Type](/reference/services/SoftLayer_User_Permission_Group_Type)::getObject
 

@@ -8,6 +8,8 @@ tags:
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_Router"
+aliases:
+    - "/reference/services/softlayer_hardware_router/getDailyAverage"
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getDailyAverage
 

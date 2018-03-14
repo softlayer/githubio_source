@@ -8,6 +8,8 @@ tags:
     - "Software"
 classes:
     - "SoftLayer_Software_VirtualLicense"
+aliases:
+    - "/reference/services/softlayer_software_virtuallicense/getHostHardware"
 ---
 # [SoftLayer_Software_VirtualLicense](/reference/services/SoftLayer_Software_VirtualLicense)::getHostHardware
 

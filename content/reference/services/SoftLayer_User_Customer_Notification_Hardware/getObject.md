@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Customer_Notification_Hardware"
+aliases:
+    - "/reference/services/softlayer_user_customer_notification_hardware/getObject"
 ---
 # [SoftLayer_User_Customer_Notification_Hardware](/reference/services/SoftLayer_User_Customer_Notification_Hardware)::getObject
 

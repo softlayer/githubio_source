@@ -9,6 +9,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Component"
+aliases:
+    - "/reference/services/softlayer_network_component/getPortStatistics"
 ---
 # [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getPortStatistics
 

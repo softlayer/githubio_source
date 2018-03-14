@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account"
+aliases:
+    - "/reference/services/softlayer_account/disableEuSupport"
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::disableEuSupport
 

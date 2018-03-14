@@ -8,6 +8,8 @@ tags:
     - "Security"
 classes:
     - "SoftLayer_Security_Certificate_Request_ServerType"
+aliases:
+    - "/reference/services/softlayer_security_certificate_request_servertype/getAllObjects"
 ---
 # [SoftLayer_Security_Certificate_Request_ServerType](/reference/services/SoftLayer_Security_Certificate_Request_ServerType)::getAllObjects
 

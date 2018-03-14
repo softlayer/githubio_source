@@ -8,6 +8,8 @@ tags:
     - "Utility"
 classes:
     - "SoftLayer_Utility_Network"
+aliases:
+    - "/reference/services/softlayer_utility_network/nsLookup"
 ---
 # [SoftLayer_Utility_Network](/reference/services/SoftLayer_Utility_Network)::nsLookup
 

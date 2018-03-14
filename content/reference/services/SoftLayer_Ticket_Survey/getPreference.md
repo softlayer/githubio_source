@@ -8,6 +8,8 @@ tags:
     - "Ticket"
 classes:
     - "SoftLayer_Ticket_Survey"
+aliases:
+    - "/reference/services/softlayer_ticket_survey/getPreference"
 ---
 # [SoftLayer_Ticket_Survey](/reference/services/SoftLayer_Ticket_Survey)::getPreference
 

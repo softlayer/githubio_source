@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller"
+aliases:
+    - "/reference/services/softlayer_network_application_delivery_controller/restoreConfiguration"
 ---
 # [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::restoreConfiguration
 

@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Storage"
+aliases:
+    - "/reference/services/softlayer_network_storage/getLunId"
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getLunId
 

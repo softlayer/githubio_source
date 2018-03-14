@@ -8,6 +8,8 @@ tags:
     - "Ticket"
 classes:
     - "SoftLayer_Ticket_Subject"
+aliases:
+    - "/reference/services/softlayer_ticket_subject/getParent"
 ---
 # [SoftLayer_Ticket_Subject](/reference/services/SoftLayer_Ticket_Subject)::getParent
 

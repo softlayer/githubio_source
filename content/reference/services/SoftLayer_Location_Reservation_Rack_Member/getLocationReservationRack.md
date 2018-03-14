@@ -8,6 +8,8 @@ tags:
     - "Location"
 classes:
     - "SoftLayer_Location_Reservation_Rack_Member"
+aliases:
+    - "/reference/services/softlayer_location_reservation_rack_member/getLocationReservationRack"
 ---
 # [SoftLayer_Location_Reservation_Rack_Member](/reference/services/SoftLayer_Location_Reservation_Rack_Member)::getLocationReservationRack
 

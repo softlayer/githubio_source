@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Contact"
+aliases:
+    - "/reference/services/softlayer_account_contact/editObject"
 ---
 # [SoftLayer_Account_Contact](/reference/services/SoftLayer_Account_Contact)::editObject
 

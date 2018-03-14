@@ -8,6 +8,8 @@ tags:
     - "Scale"
 classes:
     - "SoftLayer_Scale_Group_Status"
+aliases:
+    - "/reference/services/softlayer_scale_group_status/getAllObjects"
 ---
 # [SoftLayer_Scale_Group_Status](/reference/services/SoftLayer_Scale_Group_Status)::getAllObjects
 

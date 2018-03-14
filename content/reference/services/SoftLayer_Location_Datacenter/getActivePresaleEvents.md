@@ -8,6 +8,8 @@ tags:
     - "Location"
 classes:
     - "SoftLayer_Location_Datacenter"
+aliases:
+    - "/reference/services/softlayer_location_datacenter/getActivePresaleEvents"
 ---
 # [SoftLayer_Location_Datacenter](/reference/services/SoftLayer_Location_Datacenter)::getActivePresaleEvents
 

@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_CdnMarketplace_Configuration_Mapping"
+aliases:
+    - "/reference/services/softlayer_network_cdnmarketplace_configuration_mapping/verifyDomainMapping"
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Mapping](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Mapping)::verifyDomainMapping
 

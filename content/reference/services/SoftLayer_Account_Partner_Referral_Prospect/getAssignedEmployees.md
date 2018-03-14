@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Partner_Referral_Prospect"
+aliases:
+    - "/reference/services/softlayer_account_partner_referral_prospect/getAssignedEmployees"
 ---
 # [SoftLayer_Account_Partner_Referral_Prospect](/reference/services/SoftLayer_Account_Partner_Referral_Prospect)::getAssignedEmployees
 

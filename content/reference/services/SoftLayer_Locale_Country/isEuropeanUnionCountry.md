@@ -8,6 +8,8 @@ tags:
     - "Locale"
 classes:
     - "SoftLayer_Locale_Country"
+aliases:
+    - "/reference/services/softlayer_locale_country/isEuropeanUnionCountry"
 ---
 # [SoftLayer_Locale_Country](/reference/services/SoftLayer_Locale_Country)::isEuropeanUnionCountry
 

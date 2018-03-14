@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_SecurityGroup"
+aliases:
+    - "/reference/services/softlayer_network_securitygroup/deleteObject"
 ---
 # [SoftLayer_Network_SecurityGroup](/reference/services/SoftLayer_Network_SecurityGroup)::deleteObject
 

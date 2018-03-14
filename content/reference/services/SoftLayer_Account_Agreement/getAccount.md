@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Agreement"
+aliases:
+    - "/reference/services/softlayer_account_agreement/getAccount"
 ---
 # [SoftLayer_Account_Agreement](/reference/services/SoftLayer_Account_Agreement)::getAccount
 

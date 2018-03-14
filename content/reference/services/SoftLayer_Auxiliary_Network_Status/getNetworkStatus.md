@@ -8,6 +8,8 @@ tags:
     - "Auxiliary"
 classes:
     - "SoftLayer_Auxiliary_Network_Status"
+aliases:
+    - "/reference/services/softlayer_auxiliary_network_status/getNetworkStatus"
 ---
 # [SoftLayer_Auxiliary_Network_Status](/reference/services/SoftLayer_Auxiliary_Network_Status)::getNetworkStatus
 

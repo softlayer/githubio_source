@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_ContentDelivery_Account"
+aliases:
+    - "/reference/services/softlayer_network_contentdelivery_account/getAllPopsBandwidthData"
 ---
 # [SoftLayer_Network_ContentDelivery_Account](/reference/services/SoftLayer_Network_ContentDelivery_Account)::getAllPopsBandwidthData
 

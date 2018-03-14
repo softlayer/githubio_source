@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Schedule"
+aliases:
+    - "/reference/services/softlayer_network_storage_schedule/getObject"
 ---
 # [SoftLayer_Network_Storage_Schedule](/reference/services/SoftLayer_Network_Storage_Schedule)::getObject
 

@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_LBaaS_Member"
+aliases:
+    - "/reference/services/softlayer_network_lbaas_member/getObject"
 ---
 # [SoftLayer_Network_LBaaS_Member](/reference/services/SoftLayer_Network_LBaaS_Member)::getObject
 

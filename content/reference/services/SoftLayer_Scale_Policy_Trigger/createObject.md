@@ -8,6 +8,8 @@ tags:
     - "Scale"
 classes:
     - "SoftLayer_Scale_Policy_Trigger"
+aliases:
+    - "/reference/services/softlayer_scale_policy_trigger/createObject"
 ---
 # [SoftLayer_Scale_Policy_Trigger](/reference/services/SoftLayer_Scale_Policy_Trigger)::createObject
 

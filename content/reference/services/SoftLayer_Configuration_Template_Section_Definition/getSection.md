@@ -8,6 +8,8 @@ tags:
     - "Configuration"
 classes:
     - "SoftLayer_Configuration_Template_Section_Definition"
+aliases:
+    - "/reference/services/softlayer_configuration_template_section_definition/getSection"
 ---
 # [SoftLayer_Configuration_Template_Section_Definition](/reference/services/SoftLayer_Configuration_Template_Section_Definition)::getSection
 

@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Shipment_Tracking_Data"
+aliases:
+    - "/reference/services/softlayer_account_shipment_tracking_data/getCreateUser"
 ---
 # [SoftLayer_Account_Shipment_Tracking_Data](/reference/services/SoftLayer_Account_Shipment_Tracking_Data)::getCreateUser
 

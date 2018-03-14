@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Message_Delivery_Email_Sendgrid"
+aliases:
+    - "/reference/services/softlayer_network_message_delivery_email_sendgrid/getVendor"
 ---
 # [SoftLayer_Network_Message_Delivery_Email_Sendgrid](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid)::getVendor
 

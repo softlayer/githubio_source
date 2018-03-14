@@ -8,6 +8,8 @@ tags:
     - "Monitoring"
 classes:
     - "SoftLayer_Monitoring_Agent"
+aliases:
+    - "/reference/services/softlayer_monitoring_agent/applyConfigurationValues"
 ---
 # [SoftLayer_Monitoring_Agent](/reference/services/SoftLayer_Monitoring_Agent)::applyConfigurationValues
 

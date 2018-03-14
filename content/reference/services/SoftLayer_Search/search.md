@@ -8,6 +8,8 @@ tags:
     - "Search"
 classes:
     - "SoftLayer_Search"
+aliases:
+    - "/reference/services/softlayer_search/search"
 ---
 # [SoftLayer_Search](/reference/services/SoftLayer_Search)::search
 

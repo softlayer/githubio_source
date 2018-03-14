@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_LoadBalancer_Service"
+aliases:
+    - "/reference/services/softlayer_network_loadbalancer_service/getVip"
 ---
 # [SoftLayer_Network_LoadBalancer_Service](/reference/services/SoftLayer_Network_LoadBalancer_Service)::getVip
 

@@ -8,6 +8,8 @@ tags:
     - "Billing"
 classes:
     - "SoftLayer_Billing_Item"
+aliases:
+    - "/reference/services/softlayer_billing_item/getSoftwareDescription"
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getSoftwareDescription
 

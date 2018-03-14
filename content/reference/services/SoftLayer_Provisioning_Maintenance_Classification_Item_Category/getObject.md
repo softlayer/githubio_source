@@ -8,6 +8,8 @@ tags:
     - "Provisioning"
 classes:
     - "SoftLayer_Provisioning_Maintenance_Classification_Item_Category"
+aliases:
+    - "/reference/services/softlayer_provisioning_maintenance_classification_item_category/getObject"
 ---
 # [SoftLayer_Provisioning_Maintenance_Classification_Item_Category](/reference/services/SoftLayer_Provisioning_Maintenance_Classification_Item_Category)::getObject
 

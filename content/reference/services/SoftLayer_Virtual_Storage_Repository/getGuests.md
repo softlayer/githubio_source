@@ -8,6 +8,8 @@ tags:
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Storage_Repository"
+aliases:
+    - "/reference/services/softlayer_virtual_storage_repository/getGuests"
 ---
 # [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getGuests
 

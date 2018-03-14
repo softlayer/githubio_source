@@ -8,6 +8,8 @@ tags:
     - "Dns"
 classes:
     - "SoftLayer_Dns_Domain_Registration_Status"
+aliases:
+    - "/reference/services/softlayer_dns_domain_registration_status/getObject"
 ---
 # [SoftLayer_Dns_Domain_Registration_Status](/reference/services/SoftLayer_Dns_Domain_Registration_Status)::getObject
 

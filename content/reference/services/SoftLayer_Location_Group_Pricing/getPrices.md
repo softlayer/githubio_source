@@ -8,6 +8,8 @@ tags:
     - "Location"
 classes:
     - "SoftLayer_Location_Group_Pricing"
+aliases:
+    - "/reference/services/softlayer_location_group_pricing/getPrices"
 ---
 # [SoftLayer_Location_Group_Pricing](/reference/services/SoftLayer_Location_Group_Pricing)::getPrices
 

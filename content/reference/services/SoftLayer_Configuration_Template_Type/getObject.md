@@ -8,6 +8,8 @@ tags:
     - "Configuration"
 classes:
     - "SoftLayer_Configuration_Template_Type"
+aliases:
+    - "/reference/services/softlayer_configuration_template_type/getObject"
 ---
 # [SoftLayer_Configuration_Template_Type](/reference/services/SoftLayer_Configuration_Template_Type)::getObject
 

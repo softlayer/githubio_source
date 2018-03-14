@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Vlan"
+aliases:
+    - "/reference/services/softlayer_network_vlan/getCancelFailureReasons"
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getCancelFailureReasons
 

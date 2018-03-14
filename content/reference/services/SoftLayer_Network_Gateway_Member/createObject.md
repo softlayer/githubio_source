@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Gateway_Member"
+aliases:
+    - "/reference/services/softlayer_network_gateway_member/createObject"
 ---
 # [SoftLayer_Network_Gateway_Member](/reference/services/SoftLayer_Network_Gateway_Member)::createObject
 

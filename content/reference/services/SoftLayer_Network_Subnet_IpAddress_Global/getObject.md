@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Subnet_IpAddress_Global"
+aliases:
+    - "/reference/services/softlayer_network_subnet_ipaddress_global/getObject"
 ---
 # [SoftLayer_Network_Subnet_IpAddress_Global](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global)::getObject
 

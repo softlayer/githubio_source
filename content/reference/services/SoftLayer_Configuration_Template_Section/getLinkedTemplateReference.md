@@ -8,6 +8,8 @@ tags:
     - "Configuration"
 classes:
     - "SoftLayer_Configuration_Template_Section"
+aliases:
+    - "/reference/services/softlayer_configuration_template_section/getLinkedTemplateReference"
 ---
 # [SoftLayer_Configuration_Template_Section](/reference/services/SoftLayer_Configuration_Template_Section)::getLinkedTemplateReference
 

@@ -8,6 +8,8 @@ tags:
     - "Monitoring"
 classes:
     - "SoftLayer_Monitoring_Agent_Configuration_Value"
+aliases:
+    - "/reference/services/softlayer_monitoring_agent_configuration_value/getDefinition"
 ---
 # [SoftLayer_Monitoring_Agent_Configuration_Value](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Value)::getDefinition
 

@@ -8,6 +8,8 @@ tags:
     - "Notification"
 classes:
     - "SoftLayer_Notification_Occurrence_Event"
+aliases:
+    - "/reference/services/softlayer_notification_occurrence_event/getObject"
 ---
 # [SoftLayer_Notification_Occurrence_Event](/reference/services/SoftLayer_Notification_Occurrence_Event)::getObject
 

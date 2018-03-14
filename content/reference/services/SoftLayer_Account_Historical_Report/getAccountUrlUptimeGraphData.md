@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_Historical_Report"
+aliases:
+    - "/reference/services/softlayer_account_historical_report/getAccountUrlUptimeGraphData"
 ---
 # [SoftLayer_Account_Historical_Report](/reference/services/SoftLayer_Account_Historical_Report)::getAccountUrlUptimeGraphData
 

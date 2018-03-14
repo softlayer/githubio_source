@@ -8,6 +8,8 @@ tags:
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_Blade"
+aliases:
+    - "/reference/services/softlayer_hardware_blade/getHardwareChild"
 ---
 # [SoftLayer_Hardware_Blade](/reference/services/SoftLayer_Hardware_Blade)::getHardwareChild
 

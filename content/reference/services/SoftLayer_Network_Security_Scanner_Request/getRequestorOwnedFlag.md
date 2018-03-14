@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Security_Scanner_Request"
+aliases:
+    - "/reference/services/softlayer_network_security_scanner_request/getRequestorOwnedFlag"
 ---
 # [SoftLayer_Network_Security_Scanner_Request](/reference/services/SoftLayer_Network_Security_Scanner_Request)::getRequestorOwnedFlag
 

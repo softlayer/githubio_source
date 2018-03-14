@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Firewall_Template"
+aliases:
+    - "/reference/services/softlayer_network_firewall_template/getRules"
 ---
 # [SoftLayer_Network_Firewall_Template](/reference/services/SoftLayer_Network_Firewall_Template)::getRules
 

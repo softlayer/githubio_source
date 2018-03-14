@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Customer"
+aliases:
+    - "/reference/services/softlayer_user_customer/addRole"
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::addRole
 

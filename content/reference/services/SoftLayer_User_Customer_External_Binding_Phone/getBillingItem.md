@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Customer_External_Binding_Phone"
+aliases:
+    - "/reference/services/softlayer_user_customer_external_binding_phone/getBillingItem"
 ---
 # [SoftLayer_User_Customer_External_Binding_Phone](/reference/services/SoftLayer_User_Customer_External_Binding_Phone)::getBillingItem
 

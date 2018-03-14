@@ -8,6 +8,8 @@ tags:
     - "Billing"
 classes:
     - "SoftLayer_Billing_Order"
+aliases:
+    - "/reference/services/softlayer_billing_order/getCoreRestrictedItems"
 ---
 # [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getCoreRestrictedItems
 

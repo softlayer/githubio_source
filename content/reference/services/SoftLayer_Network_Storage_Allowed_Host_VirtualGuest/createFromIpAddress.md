@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Allowed_Host_VirtualGuest"
+aliases:
+    - "/reference/services/softlayer_network_storage_allowed_host_virtualguest/createFromIpAddress"
 ---
 # [SoftLayer_Network_Storage_Allowed_Host_VirtualGuest](/reference/services/SoftLayer_Network_Storage_Allowed_Host_VirtualGuest)::createFromIpAddress
 

@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_TippingPointReporting"
+aliases:
+    - "/reference/services/softlayer_network_tippingpointreporting/drillDownAttack"
 ---
 # [SoftLayer_Network_TippingPointReporting](/reference/services/SoftLayer_Network_TippingPointReporting)::drillDownAttack
 

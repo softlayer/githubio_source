@@ -8,6 +8,8 @@ tags:
     - "Product"
 classes:
     - "SoftLayer_Product_Order"
+aliases:
+    - "/reference/services/softlayer_product_order/checkItemConflicts"
 ---
 # [SoftLayer_Product_Order](/reference/services/SoftLayer_Product_Order)::checkItemConflicts
 

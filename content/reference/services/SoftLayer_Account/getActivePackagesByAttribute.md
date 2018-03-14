@@ -10,6 +10,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account"
+aliases:
+    - "/reference/services/softlayer_account/getActivePackagesByAttribute"
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getActivePackagesByAttribute
 

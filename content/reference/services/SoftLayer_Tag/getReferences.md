@@ -8,6 +8,8 @@ tags:
     - "Tag"
 classes:
     - "SoftLayer_Tag"
+aliases:
+    - "/reference/services/softlayer_tag/getReferences"
 ---
 # [SoftLayer_Tag](/reference/services/SoftLayer_Tag)::getReferences
 

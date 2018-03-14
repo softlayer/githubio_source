@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Interconnect_Tenant"
+aliases:
+    - "/reference/services/softlayer_network_interconnect_tenant/getDatacenterName"
 ---
 # [SoftLayer_Network_Interconnect_Tenant](/reference/services/SoftLayer_Network_Interconnect_Tenant)::getDatacenterName
 

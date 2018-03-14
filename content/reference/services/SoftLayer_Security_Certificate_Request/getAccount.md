@@ -8,6 +8,8 @@ tags:
     - "Security"
 classes:
     - "SoftLayer_Security_Certificate_Request"
+aliases:
+    - "/reference/services/softlayer_security_certificate_request/getAccount"
 ---
 # [SoftLayer_Security_Certificate_Request](/reference/services/SoftLayer_Security_Certificate_Request)::getAccount
 

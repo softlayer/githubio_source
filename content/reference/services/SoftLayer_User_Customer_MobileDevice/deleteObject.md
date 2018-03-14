@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Customer_MobileDevice"
+aliases:
+    - "/reference/services/softlayer_user_customer_mobiledevice/deleteObject"
 ---
 # [SoftLayer_User_Customer_MobileDevice](/reference/services/SoftLayer_User_Customer_MobileDevice)::deleteObject
 

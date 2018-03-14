@@ -8,6 +8,8 @@ tags:
     - "Monitoring"
 classes:
     - "SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference"
+aliases:
+    - "/reference/services/softlayer_monitoring_agent_configuration_template_group_reference/getConfigurationTemplate"
 ---
 # [SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference)::getConfigurationTemplate
 

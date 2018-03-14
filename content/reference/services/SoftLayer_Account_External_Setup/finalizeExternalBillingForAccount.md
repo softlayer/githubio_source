@@ -8,6 +8,8 @@ tags:
     - "Account"
 classes:
     - "SoftLayer_Account_External_Setup"
+aliases:
+    - "/reference/services/softlayer_account_external_setup/finalizeExternalBillingForAccount"
 ---
 # [SoftLayer_Account_External_Setup](/reference/services/SoftLayer_Account_External_Setup)::finalizeExternalBillingForAccount
 

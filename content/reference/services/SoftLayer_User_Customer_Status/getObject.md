@@ -8,6 +8,8 @@ tags:
     - "User"
 classes:
     - "SoftLayer_User_Customer_Status"
+aliases:
+    - "/reference/services/softlayer_user_customer_status/getObject"
 ---
 # [SoftLayer_User_Customer_Status](/reference/services/SoftLayer_User_Customer_Status)::getObject
 

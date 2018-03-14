@@ -8,6 +8,8 @@ tags:
     - "Sales"
 classes:
     - "SoftLayer_Sales_Presale_Event"
+aliases:
+    - "/reference/services/softlayer_sales_presale_event/getOrders"
 ---
 # [SoftLayer_Sales_Presale_Event](/reference/services/SoftLayer_Sales_Presale_Event)::getOrders
 

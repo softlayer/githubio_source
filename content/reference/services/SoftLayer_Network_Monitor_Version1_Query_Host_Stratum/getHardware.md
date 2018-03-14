@@ -8,6 +8,8 @@ tags:
     - "Network"
 classes:
     - "SoftLayer_Network_Monitor_Version1_Query_Host_Stratum"
+aliases:
+    - "/reference/services/softlayer_network_monitor_version1_query_host_stratum/getHardware"
 ---
 # [SoftLayer_Network_Monitor_Version1_Query_Host_Stratum](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum)::getHardware
 

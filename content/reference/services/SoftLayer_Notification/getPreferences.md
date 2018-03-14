@@ -8,6 +8,8 @@ tags:
     - "Notification"
 classes:
     - "SoftLayer_Notification"
+aliases:
+    - "/reference/services/softlayer_notification/getPreferences"
 ---
 # [SoftLayer_Notification](/reference/services/SoftLayer_Notification)::getPreferences
 

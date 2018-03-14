@@ -8,6 +8,8 @@ tags:
     - "Product"
 classes:
     - "SoftLayer_Product_Package"
+aliases:
+    - "/reference/services/softlayer_product_package/getItemAvailabilityTypes"
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getItemAvailabilityTypes
 

@@ -8,6 +8,8 @@ tags:
     - "Provisioning"
 classes:
     - "SoftLayer_Provisioning_Version1_Transaction_Group"
+aliases:
+    - "/reference/services/softlayer_provisioning_version1_transaction_group/getObject"
 ---
 # [SoftLayer_Provisioning_Version1_Transaction_Group](/reference/services/SoftLayer_Provisioning_Version1_Transaction_Group)::getObject
 

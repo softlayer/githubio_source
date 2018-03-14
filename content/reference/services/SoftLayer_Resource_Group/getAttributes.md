@@ -8,6 +8,8 @@ tags:
     - "Resource"
 classes:
     - "SoftLayer_Resource_Group"
+aliases:
+    - "/reference/services/softlayer_resource_group/getAttributes"
 ---
 # [SoftLayer_Resource_Group](/reference/services/SoftLayer_Resource_Group)::getAttributes
 

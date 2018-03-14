@@ -8,6 +8,8 @@ tags:
     - "Resource"
 classes:
     - "SoftLayer_Resource_Metadata"
+aliases:
+    - "/reference/services/softlayer_resource_metadata/getFrontendMacAddresses"
 ---
 # [SoftLayer_Resource_Metadata](/reference/services/SoftLayer_Resource_Metadata)::getFrontendMacAddresses
 
