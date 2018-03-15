@@ -1,6 +1,6 @@
 ---
 title: "createObject"
-description: ""
+description: "Create a load balancer for a scale group. Once created, the configuration will be used to configure the load balancers f... "
 layout: "method"
 tags:
     - "method"
@@ -13,13 +13,13 @@ aliases:
 ---
 # [SoftLayer_Scale_LoadBalancer](/reference/services/SoftLayer_Scale_LoadBalancer)::createObject
 
-Create a load balancer for a scale group. Once created, the configuration will be used to configure the load balancers for autoscaled members. 
-
-If the given virtual server port exists for the given virtual IP address, it is reused here if all the other values match. Otherwise, the virtual server port will be created. 
+Create a load balancer for a scale group. 
 
 
 ## Overview 
+Create a load balancer for a scale group. Once created, the configuration will be used to configure the load balancers for autoscaled members. 
 
+If the given virtual server port exists for the given virtual IP address, it is reused here if all the other values match. Otherwise, the virtual server port will be created. 
 
 ### Parameters 
 |Name | Type | Description |

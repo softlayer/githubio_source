@@ -113,6 +113,16 @@ classes:
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#attributes" name=attributes>attributes</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware_Attribute'>SoftLayer_Hardware_Component_Firmware_Attribute[] </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#hardwareComponentModel" name=hardwareComponentModel>hardwareComponentModel</a>
             </span>
             <div class='views-field-body'>The Hardware Component Model this Firmware applies to. </div>
@@ -122,6 +132,16 @@ classes:
             </div>
         </div>
                 <h2>Count</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#attributeCount" name=attributeCount>attributeCount</a>
+            </span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
             </div>
 </div>
 

@@ -369,6 +369,16 @@ The SoftLayer_Product_Package data type contains information about packages from
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#hourlyOnlyOrders" name=hourlyOnlyOrders>hourlyOnlyOrders</a>
+            </span>
+            <div class='views-field-body'>Packages with this flag do not allow monthly orders. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#itemConflicts" name=itemConflicts>itemConflicts</a>
             </span>
             <div class='views-field-body'>The item-item conflicts associated with a package. </div>

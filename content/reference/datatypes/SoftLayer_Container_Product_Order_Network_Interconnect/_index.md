@@ -196,6 +196,16 @@ This is the datatype that needs to be populated and sent to SoftLayer_Product_Or
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#interconnectId" name=interconnectId>interconnectId</a>
+            </span>
+            <div class='views-field-body'>The [[SoftLayer_Network_Interconnect]] for this order, ID must be provided. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#interconnectLocation" name=interconnectLocation>interconnectLocation</a>
             </span>
             <div class='views-field-body'>The [[SoftLayer_Network_DirectLink_Location]] for this order, ID must be provided. </div>

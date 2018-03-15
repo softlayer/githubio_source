@@ -1,6 +1,6 @@
 ---
 title: "editObject"
-description: ""
+description: "Edit this load balancer configuration. Note, this does not affect existing scaled members. Once edited however, future s... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Scale_LoadBalancer](/reference/services/SoftLayer_Scale_LoadBalancer)::editObject
 
-Delete this load balancer configuration. Note, this does not affect existing scaled members. Once edited however, future scaled members will be load balanced with this configuration. 
+Edit this load balancer configuration. 
 
 
 ## Overview 
-
+Edit this load balancer configuration. Note, this does not affect existing scaled members. Once edited however, future scaled members will be load balanced with this configuration. 
 
 ### Parameters 
 |Name | Type | Description |

@@ -163,6 +163,10 @@ Every SoftLayer_Product_Package contains information related products and servic
             <div class='views-field-body'>Retrieve determines whether the package contains prices that can be ordered hourly.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Product_Package/getHourlyOnlyOrders'> getHourlyOnlyOrders</a> </span>
+            <div class='views-field-body'>Retrieve packages with this flag do not allow monthly orders.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Product_Package/getItemAvailabilityTypes'> getItemAvailabilityTypes</a> </span>
             <div class='views-field-body'>Returns a collection of SoftLayer_Product_Item_Attribute_Type objects.</div>
         </div>

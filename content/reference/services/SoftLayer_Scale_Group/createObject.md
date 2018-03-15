@@ -1,6 +1,6 @@
 ---
 title: "createObject"
-description: ""
+description: "Create a scale group. If minimumMemberCount is greater than zero or desiredMemberCount is present, guest members will be... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::createObject
 
-Create a scale group. If minimumMemberCount is greater than zero or desiredMemberCount is present, guest members will be created right away. 
+Create a scale group. 
 
 
 ## Overview 
-
+Create a scale group. If minimumMemberCount is greater than zero or desiredMemberCount is present, guest members will be created right away. 
 
 ### Parameters 
 |Name | Type | Description |

@@ -82,7 +82,7 @@ The SoftLayer_Network_LBaaS_LoadBalancer type presents a structure containing at
             <span class='views-field-title'>
                 <a href="#id" name=id>id</a>
             </span>
-            <div class='views-field-body'> </div>
+            <div class='views-field-body'>The unique identifier of a load balancer. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>integer</p>
@@ -221,6 +221,16 @@ The SoftLayer_Network_LBaaS_LoadBalancer type presents a structure containing at
                 <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_Member'>SoftLayer_Network_LBaaS_Member[] </a></p>
             </div>
         </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#sslCiphers" name=sslCiphers>sslCiphers</a>
+            </span>
+            <div class='views-field-body'>list of preferred custom ciphers configured for the load balancer. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_SSLCipher'>SoftLayer_Network_LBaaS_SSLCipher[] </a></p>
+            </div>
+        </div>
                 <h2>Count</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
@@ -247,6 +257,16 @@ The SoftLayer_Network_LBaaS_LoadBalancer type presents a structure containing at
                 <a href="#memberCount" name=memberCount>memberCount</a>
             </span>
             <div class='views-field-body'>A count of members assigned to load balancer. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#sslCipherCount" name=sslCipherCount>sslCipherCount</a>
+            </span>
+            <div class='views-field-body'>A count of list of preferred custom ciphers configured for the load balancer. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>

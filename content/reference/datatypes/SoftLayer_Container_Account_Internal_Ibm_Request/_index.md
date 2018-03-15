@@ -58,7 +58,7 @@ Contains data required to both request a new IaaS account for active IBM employe
             <span class='views-field-title'>
                 <a href="#address1" name=address1>address1</a>
             </span>
-            <div class='views-field-body'>If no address information is available in BluePages, will use this </div>
+            <div class='views-field-body'>If not provided, will attempt to retrieve from BluePages </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>
@@ -68,7 +68,7 @@ Contains data required to both request a new IaaS account for active IBM employe
             <span class='views-field-title'>
                 <a href="#address2" name=address2>address2</a>
             </span>
-            <div class='views-field-body'>If no address information is available in BluePages, will use this </div>
+            <div class='views-field-body'>If no address provided, will attempt to retrieve from BluePages </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>
@@ -78,7 +78,7 @@ Contains data required to both request a new IaaS account for active IBM employe
             <span class='views-field-title'>
                 <a href="#city" name=city>city</a>
             </span>
-            <div class='views-field-body'>If no address information is available in BluePages, will use this </div>
+            <div class='views-field-body'>If not provided, will attempt to retrieve from BluePages </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>
@@ -98,7 +98,7 @@ Contains data required to both request a new IaaS account for active IBM employe
             <span class='views-field-title'>
                 <a href="#country" name=country>country</a>
             </span>
-            <div class='views-field-body'>If no address information is available in BluePages, will use this </div>
+            <div class='views-field-body'>If not provided, will attempt to retrieve from BluePages </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>
@@ -218,7 +218,7 @@ Contains data required to both request a new IaaS account for active IBM employe
             <span class='views-field-title'>
                 <a href="#postalCode" name=postalCode>postalCode</a>
             </span>
-            <div class='views-field-body'>If no address information is available in BluePages, will use this </div>
+            <div class='views-field-body'>If not provided, will attempt to retrieve from BluePages </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>
@@ -268,7 +268,7 @@ Contains data required to both request a new IaaS account for active IBM employe
             <span class='views-field-title'>
                 <a href="#state" name=state>state</a>
             </span>
-            <div class='views-field-body'>If no address information is available in BluePages, will use this </div>
+            <div class='views-field-body'>If required for chosen country and not provided, will attempt </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>

@@ -13,7 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::setAvailableLocations
 
-[[SoftLayer_Virtual_Guest_Block_Devices|Block Devices]] can be made available in all storage locations. This method generates the necessary transaction(s) to set available locations for archived block devices. WARNING - Any existing image template location(s) not sent in as a parameter will be deleted.  If you wish to keep your existing locations and add some new location(s), you must send in all of the locations as parameters. 
+This method generates the necessary transaction(s) to set available locations for archived block devices. 
 
 
 ## Overview 

@@ -422,7 +422,7 @@ API users have full access to their own portal user account and they could also 
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/performExternalAuthentication'> performExternalAuthentication</a> </span>
-            <div class='views-field-body'>Perform an external authentication using the given authentication container.</div>
+            <div class='views-field-body'>Perform an external authentication using the given authentication container. </div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/processPasswordSetRequest'> processPasswordSetRequest</a> </span>

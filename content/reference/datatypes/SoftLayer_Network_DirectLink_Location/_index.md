@@ -121,6 +121,16 @@ The SoftLayer_Network_DirectLink_Location presents a structure containing attrib
                 <p><a href='/reference/datatypes/SoftLayer_Network_DirectLink_Provider'>SoftLayer_Network_DirectLink_Provider </a></p>
             </div>
         </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#serviceType" name=serviceType>serviceType</a>
+            </span>
+            <div class='views-field-body'>The Id of Direct Link service type. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_DirectLink_ServiceType'>SoftLayer_Network_DirectLink_ServiceType </a></p>
+            </div>
+        </div>
                 <h2>Count</h2>
             </div>
 </div>

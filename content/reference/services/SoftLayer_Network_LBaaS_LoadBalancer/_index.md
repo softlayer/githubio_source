@@ -51,6 +51,10 @@ The SoftLayer_Network_LBaaS_LoadBalancer service allows customers to create, edi
             <div class='views-field-body'>Retrieve health monitors for the backend members.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getListenerTimeSeriesData'> getListenerTimeSeriesData</a> </span>
+            <div class='views-field-body'>Return time series datapoints</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getListeners'> getListeners</a> </span>
             <div class='views-field-body'>Retrieve listeners assigned to load balancer.</div>
         </div>
@@ -75,12 +79,20 @@ The SoftLayer_Network_LBaaS_LoadBalancer service allows customers to create, edi
             <div class='views-field-body'>Retrieve a SoftLayer_Network_LBaaS_LoadBalancer record.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getSslCiphers'> getSslCiphers</a> </span>
+            <div class='views-field-body'>Retrieve list of preferred custom ciphers configured for the load balancer.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/serviceLoadBalancer'> serviceLoadBalancer</a> </span>
             <div class='views-field-body'>Service function for a load balancer. </div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/updateLoadBalancer'> updateLoadBalancer</a> </span>
             <div class='views-field-body'>Update a load balancer's description.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/updateSslCiphers'> updateSslCiphers</a> </span>
+            <div class='views-field-body'>Updates the cipher list of the load balancer</div>
         </div>
         </div>
 </div>

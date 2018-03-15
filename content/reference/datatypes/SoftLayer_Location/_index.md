@@ -47,16 +47,6 @@ Every piece of hardware and network connection owned by SoftLayer is tracked phy
         <h2>Local</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#euCompliantFlag" name=euCompliantFlag>euCompliantFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#id" name=id>id</a>
             </span>
             <div class='views-field-body'>The unique identifier of a specific location. </div>
@@ -116,6 +106,16 @@ Every piece of hardware and network connection owned by SoftLayer is tracked phy
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Network_Backbone_Location_Dependent'>SoftLayer_Network_Backbone_Location_Dependent[] </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#euCompliantFlag" name=euCompliantFlag>euCompliantFlag</a>
+            </span>
+            <div class='views-field-body'>A flag indicating whether or not the datacenter/location is EU compliant. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
             </div>
         </div>
                 <div class='prop-row views-row'>

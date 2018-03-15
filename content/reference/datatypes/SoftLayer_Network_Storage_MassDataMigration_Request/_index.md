@@ -253,6 +253,16 @@ The SoftLayer_Network_Storage_MassDataMigration_Request data type contains infor
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#ticket" name=ticket>ticket</a>
+            </span>
+            <div class='views-field-body'>Ticket that is attached to this mass data migration request. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#tickets" name=tickets>tickets</a>
             </span>
             <div class='views-field-body'>All tickets that are attached to the mass data migration request. </div>

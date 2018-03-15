@@ -55,6 +55,10 @@ The SoftLayer_Location API service queries SoftLayer's location tree to find loc
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Location/getEuCompliantFlag'> getEuCompliantFlag</a> </span>
+            <div class='views-field-body'>Retrieve a flag indicating whether or not the datacenter/location is EU compliant.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Location/getGroups'> getGroups</a> </span>
             <div class='views-field-body'>Retrieve a location can be a member of 1 or more groups. This will show which groups to which a location belongs.</div>
         </div>

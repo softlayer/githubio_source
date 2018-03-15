@@ -36,7 +36,7 @@ A guest member is a scaled guest on a scale group. It is added either automatica
     <div id="method-div">
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Member_Virtual_Guest/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Delete this group member. Note, this can only be done on an active group when it wont cause the group to go below its minimumMemberCount. This is not the recommended way to delete members. Instead, users should invoke scale(-1) on SoftLayer_Scale_Group so it can choose the best guest member to remove. </div>
+            <div class='views-field-body'>Delete this group member. </div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Member_Virtual_Guest/getObject'> getObject</a> </span>
