@@ -80,7 +80,7 @@ A scale policy is a combination of triggers and actions that can occur on a scal
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy/trigger'> trigger</a> </span>
-            <div class='views-field-body'>Manually trigger the actions on this policy. Returns members if the trigger has an effect, or an empty set of members if there is no effect. Sometimes this may not have an effect if the group is not active, in cooldown, or the result would violate the group range. If this call fails, the group is suspended, the failure logged, and a ticket is created. </div>
+            <div class='views-field-body'>Manually trigger the actions on this policy. </div>
         </div>
         </div>
 </div>

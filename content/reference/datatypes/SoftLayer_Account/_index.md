@@ -2151,6 +2151,16 @@ SoftLayer customers are unable to change their company account information in th
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#proofOfConceptAccountFlag" name=proofOfConceptAccountFlag>proofOfConceptAccountFlag</a>
+            </span>
+            <div class='views-field-body'>Boolean flag indicating whether or not this account is a Proof of Concept account. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#publicAllotmentHardwareBandwidthDetails" name=publicAllotmentHardwareBandwidthDetails>publicAllotmentHardwareBandwidthDetails</a>
             </span>
             <div class='views-field-body'>DEPRECATED - This information can be pulled directly through tapping keys now - DEPRECATED. The allotments for this account and their servers. The public inbound and outbound bandwidth is calculated for each server in addition to the daily average network traffic since the last billing date. </div>

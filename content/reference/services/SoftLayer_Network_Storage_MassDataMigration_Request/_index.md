@@ -103,6 +103,10 @@ Mass Data Migration Request Service allows users to request Massive storage devi
             <div class='views-field-body'>Retrieve the status of the request.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getTicket'> getTicket</a> </span>
+            <div class='views-field-body'>Retrieve ticket that is attached to this mass data migration request.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getTickets'> getTickets</a> </span>
             <div class='views-field-body'>Retrieve all tickets that are attached to the mass data migration request.</div>
         </div>

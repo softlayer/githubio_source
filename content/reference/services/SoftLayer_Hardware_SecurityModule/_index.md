@@ -1028,7 +1028,7 @@ classes:
             <div class='views-field-body'>Issues ping command.</div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/populateServer'> populateServer</a> </span>
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/populateServerRam'> populateServerRam</a> </span>
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">

@@ -76,6 +76,10 @@ SoftLayer_Location_Datacenter exposes functionality to access datacenter-specifi
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Location_Datacenter/getEuCompliantFlag'> getEuCompliantFlag</a> </span>
+            <div class='views-field-body'>Retrieve a flag indicating whether or not the datacenter/location is EU compliant.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Location_Datacenter/getFrontendHardwareRouters'> getFrontendHardwareRouters</a> </span>
             <div class='views-field-body'></div>
         </div>

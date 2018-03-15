@@ -452,7 +452,7 @@ classes:
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/performExternalAuthentication'> performExternalAuthentication</a> </span>
-            <div class='views-field-body'>Perform an external authentication using the given authentication container.</div>
+            <div class='views-field-body'>Perform an external authentication using the given authentication container. </div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/processPasswordSetRequest'> processPasswordSetRequest</a> </span>

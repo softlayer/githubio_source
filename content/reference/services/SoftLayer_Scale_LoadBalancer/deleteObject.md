@@ -1,6 +1,6 @@
 ---
 title: "deleteObject"
-description: ""
+description: "Delete this load balancer configuration. Note, this does not affect existing scaled members. Once deleted however, futur... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Scale_LoadBalancer](/reference/services/SoftLayer_Scale_LoadBalancer)::deleteObject
 
-Delete this load balancer configuration. Note, this does not affect existing scaled members. Once deleted however, future scaled members will not be load balanced with this configuration. 
+Delete this load balancer configuration. 
 
 
 ## Overview 
-
+Delete this load balancer configuration. Note, this does not affect existing scaled members. Once deleted however, future scaled members will not be load balanced with this configuration. 
 
 ### Parameters 
 |Name | Type | Description |

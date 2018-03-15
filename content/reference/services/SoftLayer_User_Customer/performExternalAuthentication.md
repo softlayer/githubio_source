@@ -13,7 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::performExternalAuthentication
 
-Perform an external authentication using the given authentication container.
+Perform an external authentication using the given authentication container. 
 
 
 ## Overview 
@@ -22,7 +22,7 @@ The perform external authentication method will authenticate the given external 
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|authenticationContainer| <a href='/reference/datatypes/SoftLayer_Container_User_Customer_External_Binding'>SoftLayer_Container_User_Customer_External_Binding </a>| The authentication container with the external authentication information.|
+|authenticationContainer| <a href='/reference/datatypes/SoftLayer_Container_User_Customer_External_Binding'>SoftLayer_Container_User_Customer_External_Binding </a>| |
 
 
 ### Required Headers

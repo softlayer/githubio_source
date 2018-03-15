@@ -271,6 +271,10 @@ The virtual guest service provides a common interface to any virtualization plat
             <div class='views-field-body'>Retrieve a computing instance's block devices. Block devices link [[SoftLayer_Virtual_Disk_Image|disk images]] to computing instances.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getBootMode'> getBootMode</a> </span>
+            <div class='views-field-body'>Retrieves the boot mode of the VSI.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getBootOrder'> getBootOrder</a> </span>
             <div class='views-field-body'></div>
         </div>

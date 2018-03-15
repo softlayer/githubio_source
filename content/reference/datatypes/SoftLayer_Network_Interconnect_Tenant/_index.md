@@ -180,6 +180,16 @@ classes:
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#serviceTypeId" name=serviceTypeId>serviceTypeId</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#status" name=status>status</a>
             </span>
             <div class='views-field-body'>The direct link connection status. IN_PROGRESS, PROVISIONING, CONNECTION_UP, CONNECTION_DOWN  </div>
@@ -219,6 +229,16 @@ classes:
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#serviceType" name=serviceType>serviceType</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_DirectLink_ServiceType'>SoftLayer_Network_DirectLink_ServiceType </a></p>
             </div>
         </div>
                 <div class='prop-row views-row'>

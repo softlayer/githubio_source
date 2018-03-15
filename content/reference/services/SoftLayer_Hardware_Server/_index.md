@@ -1036,7 +1036,7 @@ Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. Soft
             <div class='views-field-body'>Issues ping command.</div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/populateServer'> populateServer</a> </span>
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/populateServerRam'> populateServerRam</a> </span>
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">

@@ -58,6 +58,10 @@ The SoftLayer_Network_DirectLink_Location service allows users to create, update
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_DirectLink_Location/getProvider'> getProvider</a> </span>
             <div class='views-field-body'>Retrieve the Id of Direct Link provider.</div>
         </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_DirectLink_Location/getServiceType'> getServiceType</a> </span>
+            <div class='views-field-body'>Retrieve the Id of Direct Link service type.</div>
+        </div>
         </div>
 </div>
 
