@@ -2371,6 +2371,16 @@ SoftLayer customers are unable to change their company account information in th
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#securityLevel" name=securityLevel>securityLevel</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Security_Level'>SoftLayer_Security_Level </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#securityScanRequests" name=securityScanRequests>securityScanRequests</a>
             </span>
             <div class='views-field-body'>An account's vulnerability scan requests. </div>
