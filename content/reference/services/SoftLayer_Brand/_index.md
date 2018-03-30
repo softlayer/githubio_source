@@ -123,6 +123,10 @@ SoftLayer customers are unable to change their brand information in the portal o
             <div class='views-field-body'>Retrieve active accounts owned by the brand.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Brand/getSecurityLevel'> getSecurityLevel</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Brand/getTicketGroups'> getTicketGroups</a> </span>
             <div class='views-field-body'></div>
         </div>

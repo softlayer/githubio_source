@@ -39,6 +39,10 @@ classes:
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getAvailableBootModes'> getAvailableBootModes</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getBillingItem'> getBillingItem</a> </span>
             <div class='views-field-body'>Retrieve the billing item for a virtual disk image.</div>
         </div>

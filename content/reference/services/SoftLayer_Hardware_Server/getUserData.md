@@ -31,9 +31,8 @@ Retrieve a string containing custom user data for a hardware order.
 ### Optional Headers
 * SoftLayer_Hardware_ServerObjectMask
 * SoftLayer_Hardware_ServerObjectFilter
-* resultLimit
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware_Attribute'>SoftLayer_Hardware_Attribute[] </a>
+<a href='/reference/datatypes/SoftLayer_Hardware_Attribute_UserData'>SoftLayer_Hardware_Attribute_UserData </a>
 
