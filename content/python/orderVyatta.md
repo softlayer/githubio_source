@@ -1,7 +1,7 @@
 ---
 title: "Ordering Vyatta Network Gateways"
 description: "Ordering Vyattas"
-date: "2016-04-28"
+date: "2018-04-05"
 classes: 
     - "SoftLayer_Product_Package"
     - "SoftLayer_Product_Item"
