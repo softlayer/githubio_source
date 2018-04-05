@@ -107,3 +107,25 @@ slcli --really order place --verify --preset D2620V4_64GB_2X1TB_SATA_RAID_1 BARE
      --complex-type SoftLayer_Container_Product_Order_Hardware_Server
 ```
 
+
+An example without using a preset
+```bash
+slcli order place --verify --billing monthly DUAL_E52600_V4_4_DRIVES DALLAS13 \
+    BANDWIDTH_500_GB \
+    HARD_DRIVE_1_00_TB_SATA_2 \
+    DISK_CONTROLLER_NONRAID \
+    MONITORING_HOST_PING \
+    NOTIFICATION_EMAIL_AND_TICKET \
+    OS_CENTOS_7_X_64_BIT \
+    1_GBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS \
+    1_IP_ADDRESS \
+    1_IPV6_ADDRESS  \
+    RAM_128_GB_DDR4_2133_ECC_REG \
+    REBOOT_KVM_OVER_IP \
+    AUTOMATED_NOTIFICATION \
+    INTEL_INTEL_XEON_E52690_V4_2_60 \
+    UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT \
+    NESSUS_VULNERABILITY_ASSESSMENT_REPORTING \
+    --extras '{"hardware": [{"hostname" : "testOrder1", "domain": "cgallo.com"}], "sshKeys" : [87634], "tags": "cgallo, test"}'  \
+    --complex-type SoftLayer_Container_Product_Order_Hardware_Server
+```
