@@ -183,6 +183,16 @@ A SoftLayer_User_Employee models a single SoftLayer employee for the purposes of
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#securityLevels" name=securityLevels>securityLevels</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Security_Level'>SoftLayer_Security_Level[] </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#ticketActivities" name=ticketActivities>ticketActivities</a>
             </span>
             <div class='views-field-body'> </div>
@@ -235,6 +245,16 @@ A SoftLayer_User_Employee models a single SoftLayer employee for the purposes of
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
                 <a href="#roleCount" name=roleCount>roleCount</a>
+            </span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#securityLevelCount" name=securityLevelCount>securityLevelCount</a>
             </span>
             <div class='views-field-body'>A count of  </div>
             <span class="type-label">Type:</span> 

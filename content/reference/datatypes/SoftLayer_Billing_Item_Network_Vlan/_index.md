@@ -809,7 +809,7 @@ These item categories denote that the billing item has network vlan information 
             <span class='views-field-title'>
                 <a href="#resource" name=resource>resource</a>
             </span>
-            <div class='views-field-body'>The resource for a network vlan related billing item. </div>
+            <div class='views-field-body'>The network vlan resource for this billing item. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a></p>

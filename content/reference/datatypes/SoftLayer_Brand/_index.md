@@ -247,6 +247,16 @@ SoftLayer customers are unable to change their brand information in the portal o
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#securityLevel" name=securityLevel>securityLevel</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Security_Level'>SoftLayer_Security_Level </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#ticketGroups" name=ticketGroups>ticketGroups</a>
             </span>
             <div class='views-field-body'> </div>
