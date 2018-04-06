@@ -17,7 +17,7 @@ Determine if a string is a user's forum password.
 
 
 ## Overview 
-This method is deprecated! SoftLayer Community Forums no longer exist, therefore, any password verified will return false. 
+This method is deprecated! SoftLayer Community Forums no longer exist, therefore, any password verified will return false. In the future, this method will be completely removed. 
 
 Determine if a string is the given user's login password to the SoftLayer community forums. 
 
@@ -34,11 +34,5 @@ Determine if a string is the given user's login password to the SoftLayer commun
 ### Optional Headers
 
 ### Return Values
-boolean
-
-### External Links
-
-
-* [The SoftLayer Community Forums](http://forums.softlayer.com)
-
+void
 

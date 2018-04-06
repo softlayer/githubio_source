@@ -1727,7 +1727,7 @@ The SoftLayer_Hardware_Server data type contains general information relating to
             <div class='views-field-body'>A string containing custom user data for a hardware order. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Attribute_UserData'>SoftLayer_Hardware_Attribute_UserData </a></p>
+                <p><a href='/reference/datatypes/SoftLayer_Hardware_Attribute'>SoftLayer_Hardware_Attribute[] </a></p>
             </div>
         </div>
                 <div class='prop-row views-row'>
@@ -2446,6 +2446,16 @@ The SoftLayer_Hardware_Server data type contains general information relating to
                 <a href="#userCount" name=userCount>userCount</a>
             </span>
             <div class='views-field-body'>A count of a list of users that have access to this computing instance. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#userDataCount" name=userDataCount>userDataCount</a>
+            </span>
+            <div class='views-field-body'>A count of a string containing custom user data for a hardware order. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>

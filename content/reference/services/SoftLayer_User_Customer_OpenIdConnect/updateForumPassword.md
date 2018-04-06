@@ -1,8 +1,6 @@
 ---
 title: "updateForumPassword"
-description: "This method is deprecated! SoftLayer Community Forums no longer exist, therefore, this method will return false. 
-
-Updat... "
+description: "This method is deprecated! SoftLayer Community Forums no longer exist, therefore, this method will return false. In the... "
 layout: "method"
 tags:
     - "method"
@@ -19,7 +17,7 @@ Update a user's forum password
 
 
 ## Overview 
-This method is deprecated! SoftLayer Community Forums no longer exist, therefore, this method will return false. 
+This method is deprecated! SoftLayer Community Forums no longer exist, therefore, this method will return false. In the future, this method will be completely removed. 
 
 Update a user's password on the SoftLayer community forums. As with portal passwords, user forum passwords must match the following restrictions. Forum passwords must... 
 * ...be over eight characters long.
@@ -45,13 +43,7 @@ Finally, users can only update their own password.
 ### Optional Headers
 
 ### Return Values
-boolean
-
-### External Links
-
-
-* [The SoftLayer Community Forums](http://forums.softlayer.com)
-
+void
 
 
 ### associatedMethods

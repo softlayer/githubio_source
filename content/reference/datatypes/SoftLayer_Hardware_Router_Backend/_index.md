@@ -1398,7 +1398,7 @@ The SoftLayer_Hardware_Router_Backend data type contains general information rel
             <div class='views-field-body'>A string containing custom user data for a hardware order. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Attribute_UserData'>SoftLayer_Hardware_Attribute_UserData </a></p>
+                <p><a href='/reference/datatypes/SoftLayer_Hardware_Attribute'>SoftLayer_Hardware_Attribute[] </a></p>
             </div>
         </div>
                 <div class='prop-row views-row'>
@@ -2017,6 +2017,16 @@ The SoftLayer_Hardware_Router_Backend data type contains general information rel
                 <a href="#uplinkNetworkComponentCount" name=uplinkNetworkComponentCount>uplinkNetworkComponentCount</a>
             </span>
             <div class='views-field-body'>A count of information regarding the network component that is one level higher than a piece of hardware on the network infrastructure. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#userDataCount" name=userDataCount>userDataCount</a>
+            </span>
+            <div class='views-field-body'>A count of a string containing custom user data for a hardware order. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>
