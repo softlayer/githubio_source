@@ -101,7 +101,7 @@ Some Object Filters require `options` to be passed in addition the operation. Op
     operation = 'isDate'
     options = [{
         'name': 'date',
-        'value': '01/01/01'
+        'value': ['01/01/01']
         }
     ]
 
@@ -109,7 +109,7 @@ Some Object Filters require `options` to be passed in addition the operation. Op
     operation = 'lessThanDate'
     options = [{
         'name': 'date',
-        'value: '01/01/01'
+        'value: ['01/01/01']
         }
     ]
 
@@ -117,7 +117,7 @@ Some Object Filters require `options` to be passed in addition the operation. Op
     operation = 'greaterThanDate'
     options = [{
         'name': 'date',
-        'value: '01/01/01'
+        'value: ['01/01/01']
         }
     ]
 
@@ -125,11 +125,11 @@ Some Object Filters require `options` to be passed in addition the operation. Op
     operation = 'betweenDate'
     options = [{
         'name': 'startDate',
-        'value: '01/01/01'
+        'value: ['01/01/01']
         },
         {
         'name': 'endDate',
-        'value': '01/02/01
+        'value': ['01/02/01]
         }
     ]
 
