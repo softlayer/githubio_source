@@ -47,10 +47,12 @@ To find all the open events, look for statusCode = ACTIVE
 
 statusCode = COMPLETED is also an option.
 
+```
 https://api.softlayer.com/rest/v3.1/SoftLayer_Notification_Occurrence_Event/getAllObjects.json?
 objectMask=mask[notificationOccurrenceEventType]
 resultLimit=0,10
 objectFilter={"statusCode":+{"keyName":+{"operation":+"ACTIVE"}}}'
+```
 
 ```
 curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress"  'https://api.softlayer.com/rest/v3.1/SoftLayer_Notification_Occurrence_Event/getAllObjects.json?objectMask=mask%5BnotificationOccurrenceEventType%5D&resultLimit=0%2C10&objectFilter=%7B%22statusCode%22%3A+%7B%22keyName%22%3A+%7B%22operation%22%3A+%22ACTIVE%22%7D%7D%7D'
@@ -105,11 +107,12 @@ Events can be PLANNED, UNPLANNED_INCIDENT, or ANNOUNCEMENT.
 Planned events are usually announced a few weeks in advanced, and cover things like router upgrades, VSI reboots, and other work that needs to be done to improve our products.
 
 This will get all the PLANNED and ACTIVE events going on.
-https://api.softlayer.com/rest/v3.1/SoftLayer_Notification_Occurrence_Event/getAllObjects.json?
-objectMask=mask[notificationOccurrenceEventType]&
-objectFilter={
-    "notificationOccurrenceEventType":{"keyName":{"operation":+"PLANNED"}},
-    "statusCode":{"keyName":{"operation":"ACTIVE"}}}'
+
+    https://api.softlayer.com/rest/v3.1/SoftLayer_Notification_Occurrence_Event/getAllObjects.json?
+    objectMask=mask[notificationOccurrenceEventType]&
+    objectFilter={
+        "notificationOccurrenceEventType":{"keyName":{"operation":+"PLANNED"}},
+        "statusCode":{"keyName":{"operation":"ACTIVE"}}}'
 
 ```
 curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress"  'https://api.softlayer.com/rest/v3.1/SoftLayer_Notification_Occurrence_Event/getAllObjects.json?objectMask=mask%5BnotificationOccurrenceEventType%5D&objectFilter=%7B%22notificationOccurrenceEventType%22%3A+%7B%22keyName%22%3A+%7B%22operation%22%3A+%22PLANNED%22%7D%7D%2C+%22statusCode%22%3A+%7B%22keyName%22%3A+%7B%22operation%22%3A+%22ACTIVE%22%7D%7D%7D'
@@ -143,17 +146,17 @@ Unplanned incidents are a whole variety of things that might impact services.
 
 This query will get all the UNPLANNED_INCIDENTS that were created AFTER  04/01/2018 01:00:00. https://softlayer.github.io/article/object-filters/ has more details on other date time operations you can use.
 
-https://api.softlayer.com/rest/v3.1/SoftLayer_Notification_Occurrence_Event/getAllObjects.json?
-objectMask=mask[id,+startDate,+notificationOccurrenceEventType]&
-objectFilter={
-    "notificationOccurrenceEventType":
-        {"keyName":{"operation":"UNPLANNED_INCIDENT"}
+    https://api.softlayer.com/rest/v3.1/SoftLayer_Notification_Occurrence_Event/getAllObjects.json?
+    objectMask=mask[id,+startDate,+notificationOccurrenceEventType]&
+    objectFilter={
+        "notificationOccurrenceEventType":
+            {"keyName":{"operation":"UNPLANNED_INCIDENT"}
+        }
+        "startDate":
+            {"operation":"greaterThanDate",
+             "options":[{"name":"date","value":["04/01/2018 01:00:00"]}]
+        }
     }
-    "startDate":
-        {"operation":"greaterThanDate",
-         "options":[{"name":"date","value":["04/01/2018 01:00:00"]}]
-    }
-}
 
 ```
 curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress"  'https://api.softlayer.com/rest/v3.1/SoftLayer_Notification_Occurrence_Event/getAllObjects.json?objectMask=mask%5Bid%2C+startDate%2C+notificationOccurrenceEventType%5D&objectFilter=%7B%22notificationOccurrenceEventType%22%3A+%7B%22keyName%22%3A+%7B%22operation%22%3A+%22UNPLANNED_INCIDENT%22%7D%7D%2C+%22startDate%22%3A+%7B%22operation%22%3A+%22greaterThanDate%22%2C+%22options%22%3A+%5B%7B%22name%22%3A+%22date%22%2C+%22value%22%3A+%5B%2204%2F01%2F2018+01%3A00%3A00%22%5D%7D%5D%7D%7D'
@@ -184,14 +187,14 @@ Announcements are the 'everything else' category. Not usually disruptive, will u
 This time I've changed the objectMask to include the lastUpdate and restrict other local fields to limit the amount of information we get back to fields I care about at the moment.
 
 
-https://api.softlayer.com/rest/v3.1/SoftLayer_Notification_Occurrence_Event/getAllObjects.json?
-objectMask=mask[
-    id, startDate, subject, lastUpdate ,notificationOccurrenceEventType
-]&
-objectFilter=
-    {"notificationOccurrenceEventType":
-        {"keyName":{"operation":"ANNOUNCEMENT"}}
-    }'
+    https://api.softlayer.com/rest/v3.1/SoftLayer_Notification_Occurrence_Event/getAllObjects.json?
+    objectMask=mask[
+        id, startDate, subject, lastUpdate ,notificationOccurrenceEventType
+    ]&
+    objectFilter=
+        {"notificationOccurrenceEventType":
+            {"keyName":{"operation":"ANNOUNCEMENT"}}
+        }'
 
 
 ```
