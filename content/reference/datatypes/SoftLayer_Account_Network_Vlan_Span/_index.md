@@ -23,7 +23,7 @@ The SoftLayer_Account_Network_Vlan_Span data type exposes the setting which cont
 
 ### associatedMethods
 
-*  [SoftLayer_Account::setNetworkVlanSpan](/reference/services/SoftLayer_Account/setNetworkVlanSpan )
+*  [SoftLayer_Account::setVlanSpan](/reference/services/SoftLayer_Account/setVlanSpan )
 
 
 

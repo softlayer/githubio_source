@@ -1,6 +1,6 @@
 ---
 title: "getUserData"
-description: "Retrieve a string containing custom user data for a hardware order."
+description: "Retrieve an array containing a single string of custom user data for a hardware order."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getUserData
 
-Retrieve a string containing custom user data for a hardware order.
+Retrieve an array containing a single string of custom user data for a hardware order.
 
 
 ## Overview 
-Retrieve a string containing custom user data for a hardware order.
+Retrieve an array containing a single string of custom user data for a hardware order.
 
 ### Parameters 
 |Name | Type | Description |

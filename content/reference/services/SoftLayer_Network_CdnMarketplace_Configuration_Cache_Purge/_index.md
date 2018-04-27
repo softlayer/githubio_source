@@ -36,7 +36,7 @@ This service manages purges associated with a CDN mapping Configuration.
     <div id="method-div">
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge/createPurge'> createPurge</a> </span>
-            <div class='views-field-body'>This method creates a purge record in the purge table, and also initiates the create purge workflow. </div>
+            <div class='views-field-body'>This method creates a purge record in the purge table, and also initiates the create purge call. </div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge/getObject'> getObject</a> </span>

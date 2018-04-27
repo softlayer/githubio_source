@@ -1229,6 +1229,10 @@ The use of $locationId has been deprecated. </div>
             <div class='views-field-body'>Get a collection of active VMware software account license keys.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getVpcVirtualGuests'> getVpcVirtualGuests</a> </span>
+            <div class='views-field-body'>Retrieve an account's associated VPC configured virtual guest objects.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getWindowsUpdateStatus'> getWindowsUpdateStatus</a> </span>
             <div class='views-field-body'>Retrieve a list of an account's hardware's Windows Update status.</div>
         </div>

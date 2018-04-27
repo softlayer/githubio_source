@@ -668,7 +668,7 @@ Every SoftLayer hardware is defined in the SoftLayer_Hardware service. SoftLayer
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware/getUserData'> getUserData</a> </span>
-            <div class='views-field-body'>Retrieve a string containing custom user data for a hardware order.</div>
+            <div class='views-field-body'>Retrieve an array containing a single string of custom user data for a hardware order.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware/getVirtualChassis'> getVirtualChassis</a> </span>

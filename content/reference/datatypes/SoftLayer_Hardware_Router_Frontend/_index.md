@@ -1395,7 +1395,7 @@ The SoftLayer_Hardware_Router_Frontend data type contains general information re
             <span class='views-field-title'>
                 <a href="#userData" name=userData>userData</a>
             </span>
-            <div class='views-field-body'>A string containing custom user data for a hardware order. </div>
+            <div class='views-field-body'>An array containing a single string of custom user data for a hardware order. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Hardware_Attribute'>SoftLayer_Hardware_Attribute[] </a></p>
@@ -2026,7 +2026,7 @@ The SoftLayer_Hardware_Router_Frontend data type contains general information re
             <span class='views-field-title'>
                 <a href="#userDataCount" name=userDataCount>userDataCount</a>
             </span>
-            <div class='views-field-body'>A count of a string containing custom user data for a hardware order. </div>
+            <div class='views-field-body'>A count of an array containing a single string of custom user data for a hardware order. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>

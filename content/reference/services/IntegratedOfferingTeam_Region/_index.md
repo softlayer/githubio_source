@@ -38,6 +38,10 @@ This class represents an Integrated Offering Team region.
                         <span class='view-field-title'><a href='/reference/services/IntegratedOfferingTeam_Region/getAllObjects'> getAllObjects</a> </span>
             <div class='views-field-body'></div>
         </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/IntegratedOfferingTeam_Region/getRegionLeads'> getRegionLeads</a> </span>
+            <div class='views-field-body'></div>
+        </div>
         </div>
 </div>
 

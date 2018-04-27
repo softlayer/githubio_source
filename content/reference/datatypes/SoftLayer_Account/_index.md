@@ -2759,6 +2759,16 @@ SoftLayer customers are unable to change their company account information in th
                 <p><a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository'>SoftLayer_Virtual_Storage_Repository[] </a></p>
             </div>
         </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#vpcVirtualGuests" name=vpcVirtualGuests>vpcVirtualGuests</a>
+            </span>
+            <div class='views-field-body'>An account's associated VPC configured virtual guest objects. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
+            </div>
+        </div>
                 <h2>Count</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
@@ -4545,6 +4555,16 @@ SoftLayer customers are unable to change their company account information in th
                 <a href="#virtualStoragePublicRepositoryCount" name=virtualStoragePublicRepositoryCount>virtualStoragePublicRepositoryCount</a>
             </span>
             <div class='views-field-body'>A count of an account's associated virtual server public storage repositories. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#vpcVirtualGuestCount" name=vpcVirtualGuestCount>vpcVirtualGuestCount</a>
+            </span>
+            <div class='views-field-body'>A count of an account's associated VPC configured virtual guest objects. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>

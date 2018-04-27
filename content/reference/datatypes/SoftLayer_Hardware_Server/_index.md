@@ -462,6 +462,16 @@ The SoftLayer_Hardware_Server data type contains general information relating to
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#biosPasswordNullFlag" name=biosPasswordNullFlag>biosPasswordNullFlag</a>
+            </span>
+            <div class='views-field-body'>Determine if BIOS password should be left as null. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#blockCancelBecauseDisconnectedFlag" name=blockCancelBecauseDisconnectedFlag>blockCancelBecauseDisconnectedFlag</a>
             </span>
             <div class='views-field-body'>Determines whether the hardware is ineligible for cancellation because it is disconnected. </div>
@@ -818,6 +828,16 @@ The SoftLayer_Hardware_Server data type contains general information relating to
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Hardware_Status'>SoftLayer_Hardware_Status </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#hasSingleRootVirtualizationBillingItemFlag" name=hasSingleRootVirtualizationBillingItemFlag>hasSingleRootVirtualizationBillingItemFlag</a>
+            </span>
+            <div class='views-field-body'>Determine if hardware has Single Root IO VIrtualization (SR-IOV) billing item. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
             </div>
         </div>
                 <div class='prop-row views-row'>
@@ -1724,7 +1744,7 @@ The SoftLayer_Hardware_Server data type contains general information relating to
             <span class='views-field-title'>
                 <a href="#userData" name=userData>userData</a>
             </span>
-            <div class='views-field-body'>A string containing custom user data for a hardware order. </div>
+            <div class='views-field-body'>An array containing a single string of custom user data for a hardware order. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Hardware_Attribute'>SoftLayer_Hardware_Attribute[] </a></p>
@@ -2455,7 +2475,7 @@ The SoftLayer_Hardware_Server data type contains general information relating to
             <span class='views-field-title'>
                 <a href="#userDataCount" name=userDataCount>userDataCount</a>
             </span>
-            <div class='views-field-body'>A count of a string containing custom user data for a hardware order. </div>
+            <div class='views-field-body'>A count of an array containing a single string of custom user data for a hardware order. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>

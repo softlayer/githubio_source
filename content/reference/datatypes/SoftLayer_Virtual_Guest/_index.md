@@ -1210,6 +1210,16 @@ A guest, also known as a virtual server, represents an allocation of resources o
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#transientWebhookURI" name=transientWebhookURI>transientWebhookURI</a>
+            </span>
+            <div class='views-field-body'>The endpoint used to notify customers their transient guest is terminating. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Attribute'>SoftLayer_Virtual_Guest_Attribute </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#type" name=type>type</a>
             </span>
             <div class='views-field-body'>The type of this virtual guest. </div>

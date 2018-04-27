@@ -95,6 +95,10 @@ The virtual guest service provides a common interface to any virtualization plat
             <div class='views-field-body'>Delete a computing instance</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/deleteTransientWebhook'> deleteTransientWebhook</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/detachDiskImage'> detachDiskImage</a> </span>
             <div class='views-field-body'>Detaches a disk image.</div>
         </div>
@@ -663,6 +667,10 @@ The virtual guest service provides a common interface to any virtualization plat
             <div class='views-field-body'>Retrieve whether or not a computing instance is a Transient Instance.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getTransientWebhookURI'> getTransientWebhookURI</a> </span>
+            <div class='views-field-body'>Retrieve the endpoint used to notify customers their transient guest is terminating.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getType'> getType</a> </span>
             <div class='views-field-body'>Retrieve the type of this virtual guest.</div>
         </div>
@@ -784,6 +792,10 @@ The virtual guest service provides a common interface to any virtualization plat
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/setTags'> setTags</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/setTransientWebhook'> setTransientWebhook</a> </span>
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
