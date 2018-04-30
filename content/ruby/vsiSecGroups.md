@@ -43,7 +43,7 @@ productOrder = {
     	'localDiskFlag' => false, # Use a SAN disk
     	'public_security_groups' => [43507],
     	'private_security_groups' => [43511],
-    	'hourly' => false # Charge me for hourly use, rather than monthly.
+    	'hourlyBillingFlag' => false # Charge me for hourly use, rather than monthly.
 }
 
 order = client['Virtual_Guest'].createObject(productOrder)
