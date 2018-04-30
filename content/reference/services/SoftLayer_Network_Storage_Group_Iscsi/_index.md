@@ -1,0 +1,103 @@
+---
+title: "SoftLayer_Network_Storage_Group_Iscsi"
+description: ""
+date: "2018-02-12"
+layout: "service"
+tags:
+    - "service"
+    - "sldn"
+    - "Network"
+classes:
+    - "SoftLayer_Network_Storage_Group_Iscsi"
+---
+# SoftLayer_Network_Storage_Group_Iscsi
+<div id='service-datatype'>
+    <ul id='sldn-reference-tabs'>
+    <li id='service'> <a href='/reference/services/SoftLayer_Network_Storage_Group_Iscsi' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Storage_Group_Iscsi' >Datatype</a></li>
+    </ul>
+</div>
+
+## Description
+
+
+
+
+        
+<div id="properties" class="content">
+    <h2>Methods</h2>
+    <div class="view-filters">
+        <div class="clearfix">
+            <div class="search-input-box">
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
+            </div>
+        </div>
+    </div>
+    <div id="method-div">
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Group_Iscsi/addAllowedHost'> addAllowedHost</a> </span>
+            <div class='views-field-body'>Attach a SoftLayer_Network_Storage_Allowed_Host object to this group</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Group_Iscsi/attachToVolume'> attachToVolume</a> </span>
+            <div class='views-field-body'>Attach a SoftLayer_Network_Storage volume to this group</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Group_Iscsi/createObject'> createObject</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Group_Iscsi/deleteObject'> deleteObject</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Group_Iscsi/editObject'> editObject</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Group_Iscsi/getAccount'> getAccount</a> </span>
+            <div class='views-field-body'>Retrieve the SoftLayer_Account which owns this group.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Group_Iscsi/getAllObjects'> getAllObjects</a> </span>
+            <div class='views-field-body'>Returns all network storage groups</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Group_Iscsi/getAllowedHosts'> getAllowedHosts</a> </span>
+            <div class='views-field-body'>Retrieve the allowed hosts list for this group.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Group_Iscsi/getAttachedVolumes'> getAttachedVolumes</a> </span>
+            <div class='views-field-body'>Retrieve the network storage volumes this group is attached to.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Group_Iscsi/getGroupType'> getGroupType</a> </span>
+            <div class='views-field-body'>Retrieve the type which defines this group.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Group_Iscsi/getNetworkConnectionDetails'> getNetworkConnectionDetails</a> </span>
+            <div class='views-field-body'>Retrieve network connection information for SoftLayer_Network_Storage_Allowed_Host objects to connect to the Network Storage Volumes within this group </div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Group_Iscsi/getObject'> getObject</a> </span>
+            <div class='views-field-body'>Retrieve a SoftLayer_Network_Storage_Group_Iscsi record.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Group_Iscsi/getOsType'> getOsType</a> </span>
+            <div class='views-field-body'>Retrieve the OS Type this group is configured for.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Group_Iscsi/getServiceResource'> getServiceResource</a> </span>
+            <div class='views-field-body'>Retrieve the network resource this group is created on.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Group_Iscsi/removeAllowedHost'> removeAllowedHost</a> </span>
+            <div class='views-field-body'>Remove a SoftLayer_Network_Storage_Allowed_Host object from this group</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Group_Iscsi/removeFromVolume'> removeFromVolume</a> </span>
+            <div class='views-field-body'>Remove a SoftLayer_Network_Storage volume from this group</div>
+        </div>
+        </div>
+</div>
+

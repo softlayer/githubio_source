@@ -1,0 +1,25 @@
+{{ partial "header.html" . }}
+<body>
+
+{{ partial "navbar.html" . }}
+<div class="container">
+    {{ partial "title.html" . }}
+    <hr>
+
+    <div class="row">
+        <div class="col-md-3">
+                {{ partial "datatype-bar.html" . }}
+        </div>
+        <div class="col-md-9">
+
+                {{ .Content }}
+        </div>
+
+    </div>
+    <hr>
+
+{{ partial "footer.copyright.html" . }}
+</div>
+{{ partial "footer.html" . }}
+
+{{.URL}}

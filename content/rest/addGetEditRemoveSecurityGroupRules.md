@@ -18,9 +18,27 @@ URL: `SoftLayer_Network_SecurityGroup/{securitygroup_id}/addRules`
 
 Example CURL:
 ```
-$ curl --user "$SOFTLAYER_USERNAME:$SOFTLAYER_API_KEY" -X POST 'https://api.softlayer.com/rest/v3/SoftLayer_Network_SecurityGroup/136741/addRules' -d '{"parameters": [[{"direction": "ingress","portRangeMin":100,"portRangeMax":101,"protocol":"tcp"}]]}'
+$ curl --user "$SOFTLAYER_USERNAME:$SOFTLAYER_API_KEY" -X POST 'https://api.softlayer.com/rest/v3/SoftLayer_Network_SecurityGroup/461903/addRules' -d '{"parameters": [[{"direction": "ingress","portRangeMin":100,"portRangeMax":101,"protocol":"tcp"}]]}'
 ```
 
+Example Response:
+```
+{
+    "requestId": "c0796ae700a8fad97170168",
+    "rules": [
+        {
+            "direction": "ingress",
+            "ethertype": "IPv4",
+            "id": 789953,
+            "portRangeMax": 101,
+            "portRangeMin": 100,
+            "protocol": "tcp",
+            "remoteGroupId": null,
+            "securityGroupId": 461903
+        }
+    ]
+}
+```
 ---
 
 ### Get rules
@@ -58,6 +76,7 @@ Example Response:
 
 ```
 ---
+
 ### Edit Rules
 
 Operation: `PUT`
@@ -66,9 +85,37 @@ URL: `SoftLayer_Network_SecurityGroup/{securitygroup_id}/editRules`
 
 Example CURL:
 ```
-$ curl --user "$SOFTLAYER_USERNAME:$SOFTLAYER_API_KEY" -X PUT 'https://api.softlayer.com/rest/v3/SoftLayer_Network_SecurityGroup/123456/editRules' -d '{"parameters": [[{"id": 11111,"portRangeMin": 99},{"id": 22222,"portRangeMin": 199}]]}'
+$ curl --user "$SOFTLAYER_USERNAME:$SOFTLAYER_API_KEY" -X PUT 'https://api.softlayer.com/rest/v3/SoftLayer_Network_SecurityGroup/461903/editRules' -d '{"parameters": [[{"id": 789953,"portRangeMax": 110},{"id": 790219,"portRangeMax": 199}]]}'
 ```
 
+Example Response:
+```
+{
+    "requestId": "fd56048502cc26e659aacff",
+    "rules": [
+        {
+            "direction": "ingress",
+            "ethertype": "IPv4",
+            "id": 789953,
+            "portRangeMax": 110,
+            "portRangeMin": 100,
+            "protocol": "tcp",
+            "remoteGroupId": null,
+            "securityGroupId": 461903
+        },
+        {
+            "direction": "ingress",
+            "ethertype": "IPv4",
+            "id": 790219,
+            "portRangeMax": 199,
+            "portRangeMin": 100,
+            "protocol": "tcp",
+            "remoteGroupId": null,
+            "securityGroupId": 461903
+        }
+    ]
+}
+```
 ---
 
 ### Remove Rules
@@ -79,6 +126,24 @@ URL: `SoftLayer_Network_SecurityGroup/{securitygroup_id}/removeRules`
 
 Example CURL:
 ```
-$ curl --user "$SOFTLAYER_USERNAME:$SOFTLAYER_API_KEY" -X PUT 'https://api.softlayer.com/rest/v3/SoftLayer_Network_SecurityGroup/123456/removeRules' -d '{"parameters": [[11111]]}'
+$ curl --user "$SOFTLAYER_USERNAME:$SOFTLAYER_API_KEY" -X PUT 'https://api.softlayer.com/rest/v3/SoftLayer_Network_SecurityGroup/461903/removeRules' -d '{"parameters": [[789953]]}'
 ```
 
+Example Response:
+```
+{
+    "requestId": "66cb42be41a2d6a1f82a24b",
+    "rules": [
+        {
+            "direction": "ingress",
+            "ethertype": "IPv4",
+            "id": 789953,
+            "portRangeMax": 110,
+            "portRangeMin": 100,
+            "protocol": "tcp",
+            "remoteGroupId": null,
+            "securityGroupId": 461903
+        }
+    ]
+}
+```

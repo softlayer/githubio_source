@@ -1,0 +1,38 @@
+<div id="leftsidebar">
+
+        <div id="block-views-data_types_list-block">
+            <h2>Datatypes</h2>
+            <div class="content">
+                <div class="view view-data-types-list">
+                    <div class="view-header">
+                        <strong>"SoftLayer_"</strong> prefix removed for readability.    
+                    </div>
+                </div>
+
+<!-- Service Filer BEGIN -->
+                        <div class="view-filters">
+
+                            <div class="clearfix">
+                                <div class="search-input-box">
+                                    <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='list-input', divId='sidebar-list', elementClass='list-row')" 
+                                        type="text" id="list-input" value="" size="20" maxlength="128" class="form-text">
+                                </div>
+                            </div>
+
+                        </div>
+
+<!-- Service Filer END -->
+                <div id="sidebar-list" >
+                    <div class="list-row">
+                        Services or Datatypes go here
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</div>
+<script> 
+    $(function(){
+        $("#sidebar-list").load("/reference/datatypes/list/index.html"); 
+    });
+</script> 

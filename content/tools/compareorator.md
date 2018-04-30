@@ -1,17 +1,17 @@
 ---
-title: "IBM Bluemix for AWS professionals"
-description: "This article will hopefully help anyone coming from the AWS ecosystem translate their workloads into IBM Bluemix. "
+title: "IBM Cloud for AWS professionals"
+description: "This article will hopefully help anyone coming from the AWS ecosystem translate their workloads into IBM Cloud. "
 date: "2017-07-17"
 tags:
     - "tools"
 ---
 
 
-## IBM Bluemix for AWS professionals
-This article will hopefully help anyone coming from the AWS ecosystem translate their workloads into IBM Bluemix. 
+## IBM Cloud for AWS professionals
+This article will hopefully help anyone coming from the AWS ecosystem translate their workloads into IBM Cloud. 
  
 ## Basic Concepts
-[Bluemix](https://console.ng.bluemix.net/docs/overview/whatisbluemix.html#bluemixoverview) has three main silos. [Infrastructure](https://console.ng.bluemix.net/catalog/?category=infrastructure) , [Applications](https://console.ng.bluemix.net/catalog/?category=applications) , and [Services](https://console.ng.bluemix.net/catalog/?category=services). 
+[IBM Cloud](https://console.ng.bluemix.net/docs/overview/whatisbluemix.html#bluemixoverview) has three main silos. [Infrastructure](https://console.ng.bluemix.net/catalog/?category=infrastructure) , [Applications](https://console.ng.bluemix.net/catalog/?category=applications) , and [Services](https://console.ng.bluemix.net/catalog/?category=services). 
 
 _Infrastructure_ is built on [SoftLayer](htts://www.softlayer.com) and is available in over 30 [SoftLayer Datacenters](http://www.softlayer.com/data-centers) across the world. All of which are interconnect with our unmetered [private network](http://www.softlayer.com/network).
 
@@ -21,7 +21,7 @@ _Applications_ can be either [Cloud Foundry](https://www.ibm.com/cloud-computing
 
 
 ## [Network](http://www.softlayer.com/network)
-On Bluemix Infrastructure (SoftLayer) you are only charged for bandwidth that leaves your account. Incoming traffic, and everything on the private network is unmetered, allowing you to take full advantage of our worldwide private network for shipping data between locations. For more information on bandwidth costs see our [pricing page](http://www.softlayer.com/info/pricing).
+On IBM Cloud Infrastructure (SoftLayer) you are only charged for bandwidth that leaves your account. Incoming traffic, and everything on the private network is unmetered, allowing you to take full advantage of our worldwide private network for shipping data between locations. For more information on bandwidth costs see our [pricing page](http://www.softlayer.com/info/pricing).
 
 See [Deconstructing SoftLayer's Three Tiered Network](http://blog.softlayer.com/2013/deconstructing-softlayers-three-tiered-network) for some more information on how it all works.
 
@@ -29,22 +29,22 @@ See [Deconstructing SoftLayer's Three Tiered Network](http://blog.softlayer.com/
 Standard-configuration servers available within 20-30 minutes, and fully customizable servers available within 4 hours. [Power8 servers](http://www.softlayer.com/power-servers) are available as well, built on IBM OpenPOWER architecture. [GPU](http://www.softlayer.com/GPU%20) cards and [SAP certified servers](https://www.ibm.com/cloud-computing/bluemix/sap-bare-metal-servers) are also available
 
 ## [Watson](https://www.ibm.com/cloud-computing/bluemix/watson)
-With Watson on Bluemix, you have access to the widest range of cognitive technologies available today to quickly and securely build smart applications. From analyzing images and video to understanding sentiment, keywords and entities from text, our Watson services enable cognitive within your applications.
+With Watson on IBM Cloud, you have access to the widest range of cognitive technologies available today to quickly and securely build smart applications. From analyzing images and video to understanding sentiment, keywords and entities from text, our Watson services enable cognitive within your applications.
 
 ## API
-Everything in Bluemix can be managed with an API, for infrastructure this is done through the [SoftLayer API](http://sldn.softlayer.com/) and Bluemix Apps and Services can be managed through the [Bluemix CLI](https://console.ng.bluemix.net/docs/cli/reference/cfcommands/index.html) which is an implementation of the [Cloud Foundry API](https://apidocs.cloudfoundry.org/247/)
+Everything in IBM Cloud can be managed with an API, for infrastructure this is done through the [SoftLayer API](http://sldn.softlayer.com/) and IBM Cloud Apps and Services can be managed through the [IBM Cloud CLI](https://console.ng.bluemix.net/docs/cli/reference/cfcommands/index.html) which is an implementation of the [Cloud Foundry API](https://apidocs.cloudfoundry.org/247/)
 
 ## [Pricing](https://www.ibm.com/cloud-computing/bluemix/pricing)
-Most Bluemix services have a very aggressive free trail / tier to get you started, and transparent pricing plans for when you need to scale up. More information on [Bluemix Pricing](https://console.ng.bluemix.net/docs/pricing/index.html#pricing) and [SoftLayer Pricing Calculator](http://www.softlayer.com/tco/)
+Most IBM Cloud services have a very aggressive free trail / tier to get you started, and transparent pricing plans for when you need to scale up. More information on [IBM Cloud Pricing](https://console.ng.bluemix.net/docs/pricing/index.html#pricing) and [SoftLayer Pricing Calculator](http://www.softlayer.com/tco/)
 
 ------------
 
-What follows is a rough comparison between Bluemix, AWS and Azure. Not all of these services will line up 1:1, but most of them are fairly close. Of course, if you have questions about anything in here, please [Contact Us](https://www.ibm.com/cloud-computing/bluemix/contact-us)
+What follows is a rough comparison between IBM Cloud, AWS and Azure. Not all of these services will line up 1:1, but most of them are fairly close. Of course, if you have questions about anything in here, please [Contact Us](https://www.ibm.com/cloud-computing/bluemix/contact-us)
 
 ## Infrastructure
 ### Compute
 
-Bluemix | AWS | Azure 
+IBM Cloud | AWS | Azure 
  ------ | ----- | ----- 
  [Virtual Server](https://console.ng.bluemix.net/catalog/infrastructure/virtual-server-hourly/) | EC2   |  Virtual Machines   
  [Dedicated Virtual Serviers](https://www.ibm.com/cloud-computing/bluemix/virtual-servers) | Dedicated EC2 | N/A
@@ -54,12 +54,12 @@ Bluemix | AWS | Azure
  [SAP HANA](https://www.ibm.com/cloud-computing/bluemix/sap-bare-metal-servers) | SAP HANA | SAP HANA
  [Hardware Security Module](https://www.ibm.com/cloud-computing/bluemix/hardware-security-module) | Cloud HSM | Azure Key Vault
  [Intel TXT](https://www.ibm.com/cloud-computing/bluemix/intel-txt) | N/A | N/A
- [Bluemix Private Cloud](https://www.ibm.com/cloud-computing/bluemix/bluemix-private-cloud) | N/A | N/A
+ [IBM CloudPrivate Cloud](https://www.ibm.com/cloud-computing/bluemix/bluemix-private-cloud) | N/A | N/A
 
 
 
 ### Storage
-Bluemix | AWS | Azure 
+IBM Cloud | AWS | Azure 
  ------ | --- | ----- 
  [Block Storage](https://console.ng.bluemix.net/catalog/infrastructure/block-storage---performance/) | Elastic Block Storage|  Page Blog Premium Storage 
  [File Storage](https://console.ng.bluemix.net/catalog/infrastructure/file-storage---performance/) | Elastic File System | File Storage  
@@ -69,14 +69,14 @@ Bluemix | AWS | Azure
  [Quantastor](https://www.ibm.com/cloud-computing/bluemix/quantastor) | N/A | N/A
 
 ### Backup
-Bluemix | AWS | Azure 
+IBM Cloud| AWS | Azure 
 ------ | --- | -----   
  [Veeam](https://www.ibm.com/cloud-computing/bluemix/veeam) | N/A | N/A
  [Evault](https://knowledgelayer.softlayer.com/topic/evault-backup) | Backup and Recovery | Cloud Backup
  [r1soft](https://knowledgelayer.softlayer.com/topic/r1soft-cdp) | N/A | N/A
 
 ### Network
-Bluemix | AWS | Azure 
+IBM Cloud| AWS | Azure 
 ------ | --- | -----   
 [Local Load Balancing](https://console.ng.bluemix.net/catalog/infrastructure/local-load-balancing/) | Elastic Load Balancing | Load balancer Application Gateway 
 [Dedicated Netscaler VPX/MPX](https://console.ng.bluemix.net/catalog/infrastructure/citrix-netscaler-vpx-dedicated-load-balancer/)| N/A | N/A 
@@ -87,7 +87,7 @@ Bluemix | AWS | Azure
 
 ### Network Security  
 
-Bluemix | AWS | Azure  
+IBM Cloud| AWS | Azure  
  ------ | --- | -----   
  [Fortigate Security Appliance](https://console.ng.bluemix.net/catalog/infrastructure/fortigate-security-appliance/) | N/A  | N/A 
  [Dedicated Hardware Firewall](https://console.ng.bluemix.net/catalog/infrastructure/hardware-firewall-dedicated/) | N/A  | N/A 
@@ -96,14 +96,14 @@ Bluemix | AWS | Azure
 
 ## Applications
 
-Bluemix | AWS | Azure 
+IBM Cloud| AWS | Azure 
  ------ | --- | ----- 
  [Cloud Foundry](https://console.ng.bluemix.net/catalog/?category=runtimes)| Elastic Beanstalk | Web Apps Cloud Services
  [Kubernetes](https://console.ng.bluemix.net/docs/containers/container_index.html) | EC2 Container Service/ Blox  | Container Service 
  [OpenWhisk ](https://console.ng.bluemix.net/openwhisk/)| Lambda | Functions Web Jobs Logic Apps 
 
 ### Mobile
-Bluemix | AWS | Azure  
+IBM Cloud| AWS | Azure  
  ------ | --- | ----- 
  [Mobile Foundation](https://console.ng.bluemix.net/catalog/services/mobile-foundation/) | Mobile Hub | Mobile Apps 
  [Mobile Analytics](https://console.ng.bluemix.net/catalog/services/mobile-analytics/) |Mobile Analytics | Mobile Engagement
@@ -113,7 +113,7 @@ Bluemix | AWS | Azure
 ## Services
 
 ### Data and Analytics
-Bluemix | AWS | Azure 
+IBM Cloud| AWS | Azure 
  ------ | --- | -----
  [Apache Spark ](https://console.ng.bluemix.net/catalog/services/apache-spark/)| N/A | N/A |
  [BigInsights for Hadoop](https://console.ng.bluemix.net/catalog/services/biginsights-for-apache-hadoop/) | N/A |N/A 
@@ -147,7 +147,7 @@ Bluemix | AWS | Azure
  [API Connect](https://console.ng.bluemix.net/catalog/services/api-connect/) |API Gateway | API Management
 
 ### Watson
-Bluemix | AWS | Azure 
+IBM Cloud| AWS | Azure 
  ------ | --- | ----- 
  [Conversation](https://console.ng.bluemix.net/catalog/services/conversation/)  | Lex | Bing Speech API
  [Discovery](https://console.bluemix.net/catalog/services/discovery) | N/A | Bing Autosuggest API
@@ -162,7 +162,7 @@ Bluemix | AWS | Azure
  [Visual Recognition](https://console.ng.bluemix.net/catalog/services/visual-recognition/) | Rekognition | Computer Vision API
 
 ### Internet of Things (IoT)
-Bluemix | AWS | Azure
+IBM Cloud| AWS | Azure
  ------ | --- | ----- 
  [IoT Platform ](https://console.ng.bluemix.net/catalog/services/internet-of-things-platform/) | IoT (Preview)/ Kinesis Firehose | IoT Hub / Event Hubs 
  [Context Mapping](https://console.ng.bluemix.net/catalog/services/context-mapping/) | N/A | N/A 
@@ -171,7 +171,7 @@ Bluemix | AWS | Azure
  [IoT for Insurance](https://console.ng.bluemix.net/catalog/services/iot-for-insurance/) | N/A | N/A 
 
 ### Application Security
-Bluemix | AWS | Azure 
+IBM Cloud| AWS | Azure 
  ------ | --- | ----- 
  [Activity Tracker](https://console.bluemix.net/catalog/services/activity-tracker) | N/A | N/A 
  [App ID](https://console.bluemix.net/catalog/services/app-id) | Identity and Access Management  | Azure AD/Role-based access control 
@@ -180,11 +180,11 @@ Bluemix | AWS | Azure
  [Single Sign On](https://console.ng.bluemix.net/catalog/services/single-sign-on/) | Directory Service | Azure Active Directory  
 
 ### DevOps
-Bluemix | AWS | Azure  
+IBM Cloud| AWS | Azure  
  ------ | --- | ----- 
  [Auto-Scaling](https://console.ng.bluemix.net/catalog/services/auto-scaling/) | Autoscaling | Autoscaling 
  [Availability Monitoring](https://console.ng.bluemix.net/catalog/services/availability-monitoring/) | CloudWatch / CloudTrail | Log Analytics Application Insights 
- [Continuous Delivery](https://console.ng.bluemix.net/catalog/services/continuous-delivery/) | OpsWorks CloudFormation |Resource Manager Automation 
+ [Continuous Delivery](https://console.ng.bluemix.net/catalog/services/continuous-delivery/) | AWS CodeDeploy / OpsWorks CloudFormation< |Resource Manager Automation 
  [Continous Release](https://console.bluemix.net/catalog/services/continuous-release) | AWS Config | N/A 
  [DevOps Insights](https://console.bluemix.net/catalog/services/devops-insights?env_id=ibm:yp:us-south) | N/A | N/A
  [Globalization Pipeline](https://console.ng.bluemix.net/catalog/services/globalization-pipeline/) | N/A | N/A 
@@ -192,7 +192,7 @@ Bluemix | AWS | Azure
  [Monitoring and Analytics](https://console.ng.bluemix.net/catalog/services/monitoring-and-analytics/) | CloudWatch / CloudTrail | Log Analytics Application Insights 
 
 ### Application Services
-Bluemix | AWS | Azure  
+IBM Cloud| AWS | Azure  
  ------ | --- | -----  
  [Blockchain](https://console.ng.bluemix.net/catalog/services/blockchain/) | N/A | Blockchain as a Service
  [Business Rules](https://console.ng.bluemix.net/catalog/services/business-rules/) | N/A | N/A 

@@ -1,13 +1,15 @@
 baseurl = "https://softlayer.github.io/"
 languageCode = "en-us"
-title = "SoftLayer API Examples"
+title = "SoftLayer API"
 canonifyurls = true
 SectionPagesMenu = "sections"
 pygmentsuseclasses = false
 pluralizelisttitles = "false"
 paginate = 10
 googleAnalytics = "UA-88235803-1"
-disablePathToLower = false
+disablePathToLower = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
 
 
 [params]
@@ -22,30 +24,38 @@ disablePathToLower = false
 pluralizeListTitles = false
 
 [[menu.main]]
-    name = "go"
+    name = "Documentation"
+    identifier = "sldn"
+    url = "/reference/softlayerapi"
+[[menu.main]]
+    name = "Articles"
+    identifier = "article"
+    url ="/article/"
+[[menu.main]]
+    name = "Go"
     identifier = "go"
     url = "/go/"
 [[menu.main]]
-    name = "perl"
+    name = "Perl"
     identifier = "perl"
     url = "/perl/"
 [[menu.main]]
-    name = "php"
+    name = "PHP"
     identifier = "php"
     url = "/php/"
 [[menu.main]]
-    name = "python"
+    name = "Python"
     identifier = "python"
     url = "/python/"
 [[menu.main]]
-    name = "ruby"
+    name = "Ruby"
     identifier = "ruby"
     url = "/ruby/"
 [[menu.main]]
-	name = "rest"
+	name = "Rest"
 	identifier = "rest"
 	url = "/rest/"
 [[menu.main]]
-    name = "tools"
+    name = "Tools"
     identifier = "tools"
     url = "/tools/"

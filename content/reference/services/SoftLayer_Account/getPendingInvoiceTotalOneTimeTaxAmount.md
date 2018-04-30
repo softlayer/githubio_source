@@ -1,0 +1,37 @@
+---
+title: "getPendingInvoiceTotalOneTimeTaxAmount"
+description: "Retrieve the sum of all the taxes related to one time charges for an account's pending invoice, if one exists."
+layout: "method"
+tags:
+    - "method"
+    - "sldn"
+    - "Account"
+classes:
+    - "SoftLayer_Account"
+aliases:
+    - "/reference/services/softlayer_account/getPendingInvoiceTotalOneTimeTaxAmount"
+---
+# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPendingInvoiceTotalOneTimeTaxAmount
+
+Retrieve the sum of all the taxes related to one time charges for an account's pending invoice, if one exists.
+
+
+## Overview 
+Retrieve the sum of all the taxes related to one time charges for an account's pending invoice, if one exists.
+
+### Parameters 
+|Name | Type | Description |
+| --- | --- | --- |
+
+
+### Required Headers
+* authenticate
+
+### Optional Headers
+* SoftLayer_AccountObjectMask
+* SoftLayer_AccountObjectFilter
+* SoftLayer_ObjectMask
+
+### Return Values
+decimal
+
