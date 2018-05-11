@@ -484,6 +484,10 @@ Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. Soft
             <div class='views-field-body'>Retrieve the total public inbound bandwidth for this hardware for the current billing cycle.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/getIsCloudReadyNodeCertified'> getIsCloudReadyNodeCertified</a> </span>
+            <div class='views-field-body'>Retrieve determine if hardware object has the IBM_CLOUD_READY_NODE_CERTIFIED attribute.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/getItemPricesFromSoftwareDescriptions'> getItemPricesFromSoftwareDescriptions</a> </span>
             <div class='views-field-body'>Return a collection of SoftLayer_Item_Price objects from a collection of SoftLayer_Software_Description</div>
         </div>

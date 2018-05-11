@@ -13,7 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Lockdown_Request](/reference/services/SoftLayer_Account_Lockdown_Request)::disableLockedAccount
 
-Disabling an account is a PERMANENT action. All billable items under the
+Disabling an account is a PERMANENT action. All billable items associated
 
 
 ## Overview 

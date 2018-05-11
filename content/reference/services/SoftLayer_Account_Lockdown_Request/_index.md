@@ -46,7 +46,7 @@ Disabling an account is a PERMANENT action. All billable items under the account
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Lockdown_Request/disableLockedAccount'> disableLockedAccount</a> </span>
-            <div class='views-field-body'>Disabling an account is a PERMANENT action. All billable items under the</div>
+            <div class='views-field-body'>Disabling an account is a PERMANENT action. All billable items associated</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Lockdown_Request/disconnectCompute'> disconnectCompute</a> </span>
