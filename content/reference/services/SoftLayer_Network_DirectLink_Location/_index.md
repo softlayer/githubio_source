@@ -39,14 +39,6 @@ The SoftLayer_Network_DirectLink_Location service allows users to create, update
             <div class='views-field-body'>Get all existing Direct Link location. </div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_DirectLink_Location/getCloudExchangeProvider'> getCloudExchangeProvider</a> </span>
-            <div class='views-field-body'>Retrieve the Id of Direct Link cloud exchange provider.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_DirectLink_Location/getCloudExchangeProviderLocations'> getCloudExchangeProviderLocations</a> </span>
-            <div class='views-field-body'>Retrieve all locations</div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_DirectLink_Location/getLocation'> getLocation</a> </span>
             <div class='views-field-body'>Retrieve the location of Direct Link facility.</div>
         </div>

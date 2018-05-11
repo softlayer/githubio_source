@@ -673,6 +673,10 @@ The use of $locationId has been deprecated. </div>
             <div class='views-field-body'>Retrieve an account's associated NAS storage volumes.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getNetAppActiveAccountLicenseKeys'> getNetAppActiveAccountLicenseKeys</a> </span>
+            <div class='views-field-body'>Get a collection of active NetApp software account license keys.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getNetworkCreationFlag'> getNetworkCreationFlag</a> </span>
             <div class='views-field-body'>Retrieve whether or not this account can define their own networks.</div>
         </div>
@@ -1291,6 +1295,10 @@ The use of $locationId has been deprecated. </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/swapCreditCards'> swapCreditCards</a> </span>
             <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/syncCurrentUserPopulationWithPaas'> syncCurrentUserPopulationWithPaas</a> </span>
+            <div class='views-field-body'>This method manually  for the current user population of an account. </div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/updateVpnUsersForResource'> updateVpnUsersForResource</a> </span>

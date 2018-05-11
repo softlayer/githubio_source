@@ -1,5 +1,5 @@
 ---
-title: "SoftLayer_Container_Billing_Currency_Country"
+title: "SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_NetworkInterface"
 description: ""
 layout: "datatype"
 tags:
@@ -7,13 +7,13 @@ tags:
     - "sldn"
     - "Container"
 classes:
-    - "SoftLayer_Container_Billing_Currency_Country"
+    - "SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_NetworkInterface"
 ---
 
-# SoftLayer_Container_Billing_Currency_Country
+# SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_NetworkInterface
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Container_Billing_Currency_Country' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_NetworkInterface' >Datatype</a></li>
     </ul>
 </div>
 
@@ -40,32 +40,22 @@ classes:
         <h2>Local</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#availableCurrencies" name=availableCurrencies>availableCurrencies</a>
+                <a href="#ipAllocationId" name=ipAllocationId>ipAllocationId</a>
             </span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency[] </a></p>
+                <p>string</p>
             </div>
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#country" name=country>country</a>
+                <a href="#subnetId" name=subnetId>subnetId</a>
             </span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Locale_Country'>SoftLayer_Locale_Country </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#currencyCountryLocales" name=currencyCountryLocales>currencyCountryLocales</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Currency_Country'>SoftLayer_Billing_Currency_Country[] </a></p>
+                <p>string</p>
             </div>
         </div>
             </div>

@@ -22,7 +22,6 @@ aliases:
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|hardwareId| integer| Hardware to which the components with the ram serial numbers will be assigned.|
 |ramSerialString| string| Ram serial numbers separated by commas|
 
 

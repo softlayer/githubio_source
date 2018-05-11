@@ -23,6 +23,7 @@ Attach the given CloudLayer Computing Instance to a SoftLayer ticket. An attachm
 |Name | Type | Description |
 | --- | --- | --- |
 |guestId| integer| The internal identifier of the virtual guest record to attach.|
+|callCommit| boolean| call commit or not|
 
 
 ### Required Headers

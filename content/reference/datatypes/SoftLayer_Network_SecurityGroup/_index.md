@@ -70,6 +70,16 @@ The SoftLayer_Network_SecurityGroup data type contains general information for a
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#metadata" name=metadata>metadata</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#modifyDate" name=modifyDate>modifyDate</a>
             </span>
             <div class='views-field-body'>The date a security group was last modified. </div>
