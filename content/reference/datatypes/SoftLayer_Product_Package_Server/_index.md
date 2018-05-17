@@ -408,6 +408,16 @@ The SoftLayer_Product_Package_Server data type contains summarized information f
                 <p>integer</p>
             </div>
         </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#vmwareVsanNodeFlag" name=vmwareVsanNodeFlag>vmwareVsanNodeFlag</a>
+            </span>
+            <div class='views-field-body'>Flag to indicate if the server is a VMware vSAN Node configuration. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
+        </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
