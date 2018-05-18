@@ -207,6 +207,39 @@ _filter = {
         }
     ]
 
+
+## Sorting
+The sort option accepts an array. ASC or DESC can be provided to set the sort direction. Since a query can contain many orderBy options, the API allows the developer to set the precedence with a sortOrder option which takes a single-value array of an integer. The lower integer has higher sort priority.  This example will sort the virtual guests by `maxMemory` ASC, then by `provisionDate` DESC.
+
+It is not possible to SORT and SEARCH on the same property.
+
+```python
+_filter = {
+    'virtualGuests': {
+        'provisionDate': {
+            'operation': 'orderBy',
+            'options': [{
+                'name': 'sort',
+                'value': ['DESC']
+            }, {
+                'name': 'sortOrder',
+                'value': [1]
+            }]
+        },
+        'maxMemory': {
+            'operation': 'orderBy',
+            'options': [{
+                'name': 'sort',
+                'value': ['ASC']
+            }, {
+                'name': 'sortOrder',
+                'value': [0]
+            }]
+        },
+    }
+}
+```
+
 ## Examples
 ### REST
 #### List the ID and hostname of all servers in dal05
