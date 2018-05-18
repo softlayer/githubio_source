@@ -10,7 +10,7 @@ tags:
 
 
 
-Object filters can be used to limit the results returned by the API. They differ from object masks in that they determine what Data Type objects are returned while Object Masks define what properties to retrieve from the returned objects.
+Object filters can be used to limit the results returned by the API. They differ from objectMasks in that they determine which objects are returned while objectMasks define what properties to retrieve from the returned objects.
 
 ## Structure
 An object filter is created by defining a property hierarchy through the relational and local properties. The property to be filtered will be a structure that represents the object filters conditional.
@@ -20,14 +20,19 @@ Each filter object will have at least an 'operation' property and may contain on
 To pull a list of all virtual machines in the Dallas 5 datacenter we would start with SoftLayer_Account::getVirtualGuests. We will augment this call with an Object Filter to limit the objects returned to those in the Dallas 5 datacenter.
 
 ```python
-    object_filter = {
-        'virtualGuests': {
-            'datacenter': {
-                'name': {'operation': 'dal05'}
-            }
+object_filter = {
+    # https://softlayer.github.io/reference/datatypes/SoftLayer_Account/#virtualGuests
+    'virtualGuests': { 
+        # https://softlayer.github.io/reference/datatypes/SoftLayer_Virtual_Guest/#datacenter
+        'datacenter': { 
+            # https://softlayer.github.io/reference/datatypes/SoftLayer_Location/#name
+            'name': {'operation': 'dal05'} 
         }
     }
+}
 ```
+
+*NOTE* objectFilters generally start at the Service's datatype, which is why the SoftLayer_Account::getVirtualGuests's objectFilter starts with the 'virtualGuests' property, and not the datacenter property.
 
 We have given the target property a value of a json object with one element named `operation`. the operation element has a string value of `dal05`. The value of the operation element determines the conditional that will be used. The above is an example of the `Equals` conditional. 
 
@@ -44,58 +49,127 @@ object_filter = {
 ```
 
 
+An objectFilter can have multiple operations as well.
+
+```python
+object_filter = {
+    'virtualGuests': {
+        'datacenter': {
+            'name': {'operation': '!=dal05'}
+        }, 
+        'domain': {
+            'operation': 'test.com'
+        }
+    }
+}
+```
+
 ## Operations
 An operation is the conditional added to the Object Filter to define what Data Type objects will be returned by the API. 
 
-## General Filters
-### Equals
-***Value can be int or string***
+## Literal Operators
++ `value` - Checks that the column matches value
++ `!= value` - Checks that the column does not match value
++ `> value` - Checks that the column is greater than value
++ `>= value` - Checks that the column is greater than or equal to value
++ `< value` - Checks that the column is less than value
++ `<= value` - Checks that the column is less than or equal to value
++ `^= value` - Checks that the column starts with value
++ `!^= value` - Checks that the column does not start with value
++ `$= value` - Checks that the column ends with value
++ `!$= value` - Checks that the column does not end with value
++ `*= value` - Checks that the column contains value
++ `!*= value` - Checks that the column does not contain with value
++ `_= value` - Checks that the lowercased column equals value
++ `~ value` - Checks that the column matches the regular expression value
++ `!~ value` - Checks that the column does not match the regular expression value
++ `not null` - Checks that the column is not null
++ `is null` - Checks that the column is null
 
-    operation = 'baz'
-    operation = 1234
 
-### Not Equal
-***Value can be int or string***
-
-    operation = '!= example string'
-    operation = '!= 1234'
-
-### Greater Than or Equal to
-    operation = '>= 1234'
-
-### Greater Than
-    operation = '> 1234'
-
-### Less Than or Equal to
-    operation = '<= 1234'
-
-### Less Than
-    operation = '< 1234' 
-
-### Not Null
-    operation = 'not null'
-
-### Is Null
-    operation = 'is null' 
-
-## String Filters
-### Contains
-    operation = '*= wibble wobble'
-
-### Does not Contain
-    operation = '!*= corge'
-
-### Starts With
-    operation = '^= qux'
-
-### Ends With
-    operation = '$= baz'
-
-## Date filters
+## Advanced Operators
 Some Object Filters require `options` to be passed in addition the operation. Options are passed as an array of json objects.
 
+*WARNING* If you don't properly define these operators, the API tends to just ignore the filter and return the normal results. 
+
+### IN, NOT IN
+The in operation can be used to require the column to match only one of the values. It only supports integer values. For example:
+
+```python
+object_filter = {
+    'virtualGuests': {
+        'datacenter': {
+            'name': {
+                'operation': 'in', 
+                'options': [{
+                    'name': 'data',
+                    'value': ['dal09', 'tor01']
+                }]
+            }
+        }
+    }
+}
+```
+
+### OR
+There is also an or operation but the in version is recommended when it can be used. Unlike the in operation, the or operation supports literal operators in the values and should therefore be used when needing more than just normal equality. For example
+
+```python
+_filter = {
+    'virtualGuests': {
+        'datacenter': {
+            'name': {
+                'operation': 'or', 
+                'options': [{
+                    'name': 'data',
+                    'value': ['^= tor', '^= sjc']
+                }]
+            }
+        }
+    }
+}
+```
+
+
+### AND
+The and operation lets a column match multiple possibilities. For example this will get all virtualGuests with maxMemory between 1G and 16G
+
+```python
+_filter = {
+    'virtualGuests': {
+        'maxMemory': {
+            'operation': 'and', 
+            'options': [{
+                'name': 'data',
+                'value': ['>= 1024', '<= 16384']
+            }]
+        }
+    }
+}
+```
+
+
+## Date filters
+Date filters need to be used on fields that contain a date object. Usually the date string format is in the `MM/DD/YYYY HH24:MI:SS` form (using Oracle notation here), usually. If your filter isn't working, try matching the date format to the format returned by the API.
+
 ### X days past
-    operation = '>= currentDate - 01/01/01'
+A simple way to get dates a few days in the past is this format.
+
+    operation = '>= currentDate - 30'
+
+alternatively 
+
+    'operation': '> sysdate - 30'
+
+```python
+_filter = {
+    'virtualGuests': {
+        'provisionDate': {
+            'operation': '> sysdate - 30'
+        }
+    }
+}
+```
 
 ### Exact Date
     operation = 'isDate'
@@ -125,19 +199,13 @@ Some Object Filters require `options` to be passed in addition the operation. Op
     operation = 'betweenDate'
     options = [{
         'name': 'startDate',
-        'value: ['01/01/01']
+        'value: ['01/01/2015']
         },
         {
         'name': 'endDate',
-        'value': ['01/02/01]
+        'value': ['01/31/2015]
         }
     ]
-
-## Regex Filters
-### Like
-    operation = '~ value'
-### Not Like
-    operation = '!~ value'
 
 ## Examples
 ### REST
