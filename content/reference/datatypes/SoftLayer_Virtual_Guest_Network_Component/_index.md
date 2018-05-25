@@ -185,6 +185,16 @@ A guest, also known as a virtual server, represents an allocation of resources o
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#icpBinding" name=icpBinding>icpBinding</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component_IcpBinding'>SoftLayer_Virtual_Guest_Network_Component_IcpBinding </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#ipAddressBindings" name=ipAddressBindings>ipAddressBindings</a>
             </span>
             <div class='views-field-body'>The records of all IP addresses bound to a computing instance's network component. </div>

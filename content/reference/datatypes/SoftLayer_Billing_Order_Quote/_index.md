@@ -163,6 +163,16 @@ The SoftLayer_Billing_Oder_Quote data type contains general information relating
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#doNotContactFlag" name=doNotContactFlag>doNotContactFlag</a>
+            </span>
+            <div class='views-field-body'>Indicates whether the owner of the quote chosen to no longer be contacted. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#order" name=order>order</a>
             </span>
             <div class='views-field-body'>This order contains the records for which products were selected for this quote. </div>

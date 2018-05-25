@@ -59,6 +59,10 @@ The [[SoftLayer_Billing_Order_Cart]] service allows customers to save their orde
             <div class='views-field-body'>Retrieve a cart.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Cart/getDoNotContactFlag'> getDoNotContactFlag</a> </span>
+            <div class='views-field-body'>Retrieve indicates whether the owner of the quote chosen to no longer be contacted.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Cart/getObject'> getObject</a> </span>
             <div class='views-field-body'>Retrieve a SoftLayer_Billing_Order_Cart record.</div>
         </div>
@@ -101,6 +105,10 @@ The [[SoftLayer_Billing_Order_Cart]] service allows customers to save their orde
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Cart/verifyOrder'> verifyOrder</a> </span>
             <div class='views-field-body'>Verify an order</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Cart/withdrawGdprAcceptance'> withdrawGdprAcceptance</a> </span>
+            <div class='views-field-body'>Withdraws the users acceptance of the GDPR terms.</div>
         </div>
         </div>
 </div>

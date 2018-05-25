@@ -808,6 +808,10 @@ Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. Soft
             <div class='views-field-body'>Retrieve the RAID controllers contained within a piece of hardware.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/getReadyNodeFlag'> getReadyNodeFlag</a> </span>
+            <div class='views-field-body'>Retrieve determine if hardware object is vSan Ready Node.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/getRecentEvents'> getRecentEvents</a> </span>
             <div class='views-field-body'>Retrieve recent events that impact this hardware.</div>
         </div>

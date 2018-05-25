@@ -51,6 +51,10 @@ The virtual guest network component service provides a common interface to a [[S
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Network_Component/getIcpBinding'> getIcpBinding</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Network_Component/getIpAddressBindings'> getIpAddressBindings</a> </span>
             <div class='views-field-body'>Retrieve the records of all IP addresses bound to a computing instance's network component.</div>
         </div>

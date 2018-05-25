@@ -55,6 +55,10 @@ Query the [[SoftLayer_Account]] service to get a list of quotes for your account
             <div class='views-field-body'>Retrieve a quote's corresponding account.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/getDoNotContactFlag'> getDoNotContactFlag</a> </span>
+            <div class='views-field-body'>Retrieve indicates whether the owner of the quote chosen to no longer be contacted.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/getObject'> getObject</a> </span>
             <div class='views-field-body'>Retrieve a SoftLayer_Billing_Order_Quote record.</div>
         </div>
@@ -93,6 +97,10 @@ Query the [[SoftLayer_Account]] service to get a list of quotes for your account
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/verifyOrder'> verifyOrder</a> </span>
             <div class='views-field-body'>Verify an order</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/withdrawGdprAcceptance'> withdrawGdprAcceptance</a> </span>
+            <div class='views-field-body'>Withdraws the users acceptance of the GDPR terms.</div>
         </div>
         </div>
 </div>

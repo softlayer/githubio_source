@@ -203,10 +203,6 @@ classes:
             <div class='views-field-body'>Retrieve the default account for the current for the OpenIdConnect identity that is linked to the current SoftLayer user identity</div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/getDefaultSecurityQuestions'> getDefaultSecurityQuestions</a> </span>
-            <div class='views-field-body'>Retrieve default security questions.</div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/getExternalBindings'> getExternalBindings</a> </span>
             <div class='views-field-body'>Retrieve the external authentication bindings that link an external identifier to a SoftLayer user.</div>
         </div>
@@ -387,10 +383,6 @@ classes:
             <div class='views-field-body'>Get the IMS User Object for the provided OpenIdConnect User ID, or</div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/getUserFromLostPasswordRequest'> getUserFromLostPasswordRequest</a> </span>
-            <div class='views-field-body'>Retrieve a user object using a lost password request key</div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/getUserIdForPasswordSet'> getUserIdForPasswordSet</a> </span>
             <div class='views-field-body'>Retrieve a user object using a password request key</div>
         </div>
@@ -445,10 +437,6 @@ classes:
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/isValidPortalPassword'> isValidPortalPassword</a> </span>
             <div class='views-field-body'>Determine if a string is a user's portal password.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/lostPassword'> lostPassword</a> </span>
-            <div class='views-field-body'>Generate a lost password request</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/performExternalAuthentication'> performExternalAuthentication</a> </span>
@@ -519,10 +507,6 @@ classes:
             <div class='views-field-body'>Remove a CloudLayer Computing Instance from a portal user's access list.</div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/resetExpiredPassword'> resetExpiredPassword</a> </span>
-            <div class='views-field-body'>Reset a users expired password.</div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/samlAuthenticate'> samlAuthenticate</a> </span>
             <div class='views-field-body'></div>
         </div>
@@ -543,10 +527,6 @@ classes:
             <div class='views-field-body'>Sets the default account for the OpenIdConnect identity that is linked to the current SoftLayer user identity.</div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/setPasswordFromLostPasswordRequest'> setPasswordFromLostPasswordRequest</a> </span>
-            <div class='views-field-body'>Set a user's password using a password recovery key</div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/silentlyMigrateUserOpenIdConnect'> silentlyMigrateUserOpenIdConnect</a> </span>
             <div class='views-field-body'>This api is used to migrate a user to IBMid without sending an invitation.</div>
         </div>
@@ -557,10 +537,6 @@ classes:
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/updateNotificationSubscriber'> updateNotificationSubscriber</a> </span>
             <div class='views-field-body'>Update the active status for a notification subscription.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/updatePassword'> updatePassword</a> </span>
-            <div class='views-field-body'>Update a user's portal password</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/updateSecurityAnswers'> updateSecurityAnswers</a> </span>

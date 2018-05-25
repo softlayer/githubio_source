@@ -1492,6 +1492,16 @@ The SoftLayer_Hardware_Server data type contains general information relating to
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#readyNodeFlag" name=readyNodeFlag>readyNodeFlag</a>
+            </span>
+            <div class='views-field-body'>Determine if hardware object is vSan Ready Node. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#recentEvents" name=recentEvents>recentEvents</a>
             </span>
             <div class='views-field-body'>Recent events that impact this hardware. </div>

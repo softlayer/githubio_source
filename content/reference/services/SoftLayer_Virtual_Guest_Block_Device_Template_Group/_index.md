@@ -83,6 +83,10 @@ The virtual guest block device template group service provides a common interfac
             <div class='views-field-body'>Edit an image template group's name and note.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/findGcImagesByCurrentUser'> findGcImagesByCurrentUser</a> </span>
+            <div class='views-field-body'>Fetch collection of GC enabled images for the account of the current active customer user. </div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getAccount'> getAccount</a> </span>
             <div class='views-field-body'>Retrieve a block device template group's [[SoftLayer_Account|account]].</div>
         </div>
@@ -121,6 +125,10 @@ The virtual guest block device template group service provides a common interfac
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getDatacenters'> getDatacenters</a> </span>
             <div class='views-field-body'>Retrieve a collection of locations containing a copy of this image template group. Will only be populated for parent template group objects.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getDefaultBootMode'> getDefaultBootMode</a> </span>
+            <div class='views-field-body'></div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getFlexImageFlag'> getFlexImageFlag</a> </span>

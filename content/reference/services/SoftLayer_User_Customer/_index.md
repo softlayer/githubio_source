@@ -189,10 +189,6 @@ API users have full access to their own portal user account and they could also 
             <div class='views-field-body'>Retrieve the default account for the current for the OpenIdConnect identity that is linked to the current SoftLayer user identity</div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/getDefaultSecurityQuestions'> getDefaultSecurityQuestions</a> </span>
-            <div class='views-field-body'>Retrieve default security questions.</div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/getExternalBindings'> getExternalBindings</a> </span>
             <div class='views-field-body'>Retrieve the external authentication bindings that link an external identifier to a SoftLayer user.</div>
         </div>
@@ -357,10 +353,6 @@ API users have full access to their own portal user account and they could also 
             <div class='views-field-body'>Retrieve a user's unsuccessful attempts to log into the SoftLayer customer portal.</div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/getUserFromLostPasswordRequest'> getUserFromLostPasswordRequest</a> </span>
-            <div class='views-field-body'>Retrieve a user object using a lost password request key</div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/getUserIdForPasswordSet'> getUserIdForPasswordSet</a> </span>
             <div class='views-field-body'>Retrieve a user object using a password request key</div>
         </div>
@@ -415,10 +407,6 @@ API users have full access to their own portal user account and they could also 
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/isValidPortalPassword'> isValidPortalPassword</a> </span>
             <div class='views-field-body'>Determine if a string is a user's portal password.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/lostPassword'> lostPassword</a> </span>
-            <div class='views-field-body'>Generate a lost password request</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/performExternalAuthentication'> performExternalAuthentication</a> </span>
@@ -489,10 +477,6 @@ API users have full access to their own portal user account and they could also 
             <div class='views-field-body'>Remove a CloudLayer Computing Instance from a portal user's access list.</div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/resetExpiredPassword'> resetExpiredPassword</a> </span>
-            <div class='views-field-body'>Reset a users expired password.</div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/samlAuthenticate'> samlAuthenticate</a> </span>
             <div class='views-field-body'></div>
         </div>
@@ -513,10 +497,6 @@ API users have full access to their own portal user account and they could also 
             <div class='views-field-body'>Sets the default account for the OpenIdConnect identity that is linked to the current SoftLayer user identity.</div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/setPasswordFromLostPasswordRequest'> setPasswordFromLostPasswordRequest</a> </span>
-            <div class='views-field-body'>Set a user's password using a password recovery key</div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/silentlyMigrateUserOpenIdConnect'> silentlyMigrateUserOpenIdConnect</a> </span>
             <div class='views-field-body'>This api is used to migrate a user to IBMid without sending an invitation.</div>
         </div>
@@ -527,10 +507,6 @@ API users have full access to their own portal user account and they could also 
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/updateNotificationSubscriber'> updateNotificationSubscriber</a> </span>
             <div class='views-field-body'>Update the active status for a notification subscription.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/updatePassword'> updatePassword</a> </span>
-            <div class='views-field-body'>Update a user's portal password</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/updateSecurityAnswers'> updateSecurityAnswers</a> </span>
