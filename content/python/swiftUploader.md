@@ -74,8 +74,11 @@ import argparse
 import os
 import math
 import http.client
+import time
+import datetime
 from urllib.parse import urlparse
 from urllib.parse import quote
+
 
 
 def main():
@@ -232,17 +235,27 @@ def upload_file(filename, swift_target_path, storage_url, auth_token):
     print("Reading in file")
     file = open(filename, 'rb')
     print("Uploading {} to \"{}\"".format(filename, swift_target_path))
-    for i in range(0, chunks):
-        data = file.read(chunk_size)
-        print("Uploading part {} of {}".format(i + 1, chunks))
-        chunk_name = "chunk-{0:0>5}".format(i)
-        object_storage_request(
-            url_tuple.netloc,
-            "{}/{}/{}".format(url_tuple.path, swift_target_path, chunk_name),
-            headers,
-            "PUT",
-            data
-        )
+    retry = 0
+    i = 0
+    while i < chunks:
+        try:
+            data = file.read(chunk_size)
+            ts = time.time()
+            st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
+            print("Uploading part {} of {} at {}".format(i + 1, chunks, st))
+            chunk_name = "chunk-{0:0>5}".format(i)
+            object_storage_request(
+                url_tuple.netloc,
+                "{}/{}/{}".format(url_tuple.path, swift_target_path, chunk_name),
+                headers,
+                "PUT",
+                data)
+            i += 1
+        except Exception as e:
+            print ('failed to upload chunk with exception ' + str(e))
+            retry += 1
+            if retry == 4:
+                return
 
     try:
         print("Writing manifest file")
