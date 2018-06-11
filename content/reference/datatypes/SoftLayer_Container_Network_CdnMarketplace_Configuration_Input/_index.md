@@ -100,6 +100,16 @@ classes:
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#geoblockingRule" name=geoblockingRule>geoblockingRule</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking'>SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#header" name=header>header</a>
             </span>
             <div class='views-field-body'> </div>

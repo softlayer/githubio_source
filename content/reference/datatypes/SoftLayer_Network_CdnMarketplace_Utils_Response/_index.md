@@ -1,19 +1,19 @@
 ---
-title: "SoftLayer_User_Customer_Link_VerifiedIBMidLinkCollection"
+title: "SoftLayer_Network_CdnMarketplace_Utils_Response"
 description: ""
 layout: "datatype"
 tags:
     - "datatype"
     - "sldn"
-    - "User"
+    - "Network"
 classes:
-    - "SoftLayer_User_Customer_Link_VerifiedIBMidLinkCollection"
+    - "SoftLayer_Network_CdnMarketplace_Utils_Response"
 ---
 
-# SoftLayer_User_Customer_Link_VerifiedIBMidLinkCollection
+# SoftLayer_Network_CdnMarketplace_Utils_Response
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_User_Customer_Link_VerifiedIBMidLinkCollection' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Utils_Response' >Datatype</a></li>
     </ul>
 </div>
 
@@ -40,32 +40,22 @@ classes:
         <h2>Local</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#badLinksDifferentIUI" name=badLinksDifferentIUI>badLinksDifferentIUI</a>
+                <a href="#code" name=code>code</a>
             </span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link[] </a></p>
+                <p>integer</p>
             </div>
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#badLinksDifferentUsername" name=badLinksDifferentUsername>badLinksDifferentUsername</a>
+                <a href="#message" name=message>message</a>
             </span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#goodLinks" name=goodLinks>goodLinks</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link[] </a></p>
+                <p>string</p>
             </div>
         </div>
             </div>
