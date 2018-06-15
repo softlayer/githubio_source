@@ -203,6 +203,16 @@ This data type presents the structure for a dedicated host. The data type contai
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#pciDeviceAllocationStatus" name=pciDeviceAllocationStatus>pciDeviceAllocationStatus</a>
+            </span>
+            <div class='views-field-body'>The container that represents PCI device allocations on the dedicated host. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Virtual_DedicatedHost_Pci_Device_AllocationStatus'>SoftLayer_Container_Virtual_DedicatedHost_Pci_Device_AllocationStatus </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#tagReferences" name=tagReferences>tagReferences</a>
             </span>
             <div class='views-field-body'> </div>

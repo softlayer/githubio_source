@@ -1,6 +1,6 @@
 ---
 title: "getUserData"
-description: "Retrieve an array containing a single string of custom user data for a hardware order."
+description: "Retrieve an array containing a single string of custom user data for a hardware order. Max size is 16 kb."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getUserData
 
-Retrieve an array containing a single string of custom user data for a hardware order.
+Retrieve an array containing a single string of custom user data for a hardware order. Max size is 16 kb.
 
 
 ## Overview 
-Retrieve an array containing a single string of custom user data for a hardware order.
+Retrieve an array containing a single string of custom user data for a hardware order. Max size is 16 kb.
 
 ### Parameters 
 |Name | Type | Description |

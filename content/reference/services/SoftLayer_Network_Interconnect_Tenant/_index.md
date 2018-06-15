@@ -63,6 +63,10 @@ A network interconnect tenant defines an IP routing path through a network inter
             <div class='views-field-body'>Retrieve a SoftLayer_Network_Interconnect_Tenant record.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Interconnect_Tenant/getPortLabel'> getPortLabel</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Interconnect_Tenant/getServiceType'> getServiceType</a> </span>
             <div class='views-field-body'></div>
         </div>

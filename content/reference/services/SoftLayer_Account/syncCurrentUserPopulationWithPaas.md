@@ -13,7 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::syncCurrentUserPopulationWithPaas
 
-This method manually  for the current user population of an account. 
+This method manually starts a synchronize operation for the current IBMid-authenticated user population of a linked account pair. "Manually" means "independent of an account link operation". 
 
 
 ## Overview 

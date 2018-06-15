@@ -945,7 +945,7 @@ classes:
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule750/getUserData'> getUserData</a> </span>
-            <div class='views-field-body'>Retrieve an array containing a single string of custom user data for a hardware order.</div>
+            <div class='views-field-body'>Retrieve an array containing a single string of custom user data for a hardware order. Max size is 16 kb.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule750/getUsers'> getUsers</a> </span>
