@@ -131,6 +131,10 @@ The virtual guest block device template group service provides a common interfac
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getEncryptionAttributes'> getEncryptionAttributes</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getFlexImageFlag'> getFlexImageFlag</a> </span>
             <div class='views-field-body'>Retrieve a flag indicating if this is a flex image.</div>
         </div>
@@ -212,6 +216,10 @@ The virtual guest block device template group service provides a common interfac
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/isCloudInitOnlyOperatingSystem'> isCloudInitOnlyOperatingSystem</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/isEncrypted'> isEncrypted</a> </span>
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">

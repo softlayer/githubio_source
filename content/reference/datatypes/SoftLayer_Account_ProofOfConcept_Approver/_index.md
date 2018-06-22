@@ -50,6 +50,16 @@ This class represents a Proof of Concept account approver.
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#bluepagesUid" name=bluepagesUid>bluepagesUid</a>
+            </span>
+            <div class='views-field-body'>Internal identifier. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#email" name=email>email</a>
             </span>
             <div class='views-field-body'>Email of the approver. </div>

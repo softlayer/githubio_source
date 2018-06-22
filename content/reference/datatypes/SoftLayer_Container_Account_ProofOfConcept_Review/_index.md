@@ -135,6 +135,16 @@ Full details presented to reviewers when determining whether or not to accept a 
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#iotRegionName" name=iotRegionName>iotRegionName</a>
+            </span>
+            <div class='views-field-body'>Name of the integrated offering team region </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#managerName" name=managerName>managerName</a>
             </span>
             <div class='views-field-body'>Name of requesting IBMer's manager </div>

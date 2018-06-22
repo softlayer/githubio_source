@@ -65,6 +65,46 @@ Summary presented to reviewers when determining whether or not to accept a proof
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#amount" name=amount>amount</a>
+            </span>
+            <div class='views-field-body'>Dollar amount requested </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>float</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#createDate" name=createDate>createDate</a>
+            </span>
+            <div class='views-field-body'>Date the request was submitted </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#customerEmail" name=customerEmail>customerEmail</a>
+            </span>
+            <div class='views-field-body'>Email of the customer receiving the proof of concept account </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#customerName" name=customerName>customerName</a>
+            </span>
+            <div class='views-field-body'>Name of the customer receiving the proof of concept account </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#id" name=id>id</a>
             </span>
             <div class='views-field-body'>Request record's id </div>
@@ -88,6 +128,16 @@ Summary presented to reviewers when determining whether or not to accept a proof
                 <a href="#nextApproverEmail" name=nextApproverEmail>nextApproverEmail</a>
             </span>
             <div class='views-field-body'>Email address of the reviewer, if any, currently reviewing the request </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#requesterEmail" name=requesterEmail>requesterEmail</a>
+            </span>
+            <div class='views-field-body'>Email address of the requester </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>

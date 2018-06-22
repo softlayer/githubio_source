@@ -35,6 +35,10 @@ This class represents a Proof of Concept account approver.
     </div>
     <div id="method-div">
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_ProofOfConcept_Approver/getAllObjects'> getAllObjects</a> </span>
+            <div class='views-field-body'>Retrieves a list of reviewers</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_ProofOfConcept_Approver/getObject'> getObject</a> </span>
             <div class='views-field-body'>Retrieve a SoftLayer_Account_ProofOfConcept_Approver record.</div>
         </div>

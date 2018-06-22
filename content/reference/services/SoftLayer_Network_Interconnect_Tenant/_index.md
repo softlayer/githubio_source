@@ -47,6 +47,10 @@ A network interconnect tenant defines an IP routing path through a network inter
             <div class='views-field-body'>Retrieve the billing item for a network interconnect.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Interconnect_Tenant/getConnection'> getConnection</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Interconnect_Tenant/getDatacenterName'> getDatacenterName</a> </span>
             <div class='views-field-body'></div>
         </div>
@@ -64,6 +68,10 @@ A network interconnect tenant defines an IP routing path through a network inter
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Interconnect_Tenant/getPortLabel'> getPortLabel</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Interconnect_Tenant/getPorts'> getPorts</a> </span>
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">

@@ -40,6 +40,16 @@ classes:
         <h2>Local</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#interfaceId" name=interfaceId>interfaceId</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#ipAllocationId" name=ipAllocationId>ipAllocationId</a>
             </span>
             <div class='views-field-body'> </div>
@@ -61,6 +71,16 @@ classes:
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
                 <a href="#subnetId" name=subnetId>subnetId</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#vpcId" name=vpcId>vpcId</a>
             </span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> 
