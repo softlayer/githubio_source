@@ -1,6 +1,6 @@
 ---
 title: "cancelItem"
-description: "Cancel the resource or service for a billing Item. By default the billing item will be cancelled immediately and reclaim... "
+description: "Cancel the resource or service for a billing Item. By default the billing item will be canceled on the next bill date an... "
 layout: "method"
 tags:
     - "method"
@@ -17,10 +17,9 @@ Cancel a service or resource.
 
 
 ## Overview 
-Cancel the resource or service for a billing Item. By default the billing item will be cancelled immediately and reclaim of the resource will begin shortly. Setting the "cancelImmediately" property to false will delay the cancellation until the next bill date. 
+Cancel the resource or service for a billing Item. By default the billing item will be canceled on the next bill date and reclaim of the resource will begin shortly after the cancellation. Setting the "cancelImmediately" property to true will start the cancellation immediately if the item is eligible to be canceled immediately. 
 
-
-* The reason parameter could be from the list below:
+The reason parameter could be from the list below: 
 * "No longer needed"
 * "Business closing down"
 * "Server / Upgrade Costs"

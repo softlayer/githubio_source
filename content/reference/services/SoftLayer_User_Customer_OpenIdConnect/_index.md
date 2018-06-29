@@ -260,7 +260,7 @@ classes:
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/getMappedAccounts'> getMappedAccounts</a> </span>
-            <div class='views-field-body'>Retrieve a list of all the accounts that belong to this customer.</div>
+            <div class='views-field-body'>Retrieve a list of all active accounts that belong to this customer.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/getMobileDevices'> getMobileDevices</a> </span>
@@ -500,6 +500,10 @@ classes:
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/removeRole'> removeRole</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/removeSecurityAnswers'> removeSecurityAnswers</a> </span>
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">

@@ -75,6 +75,10 @@ The virtual host service provides a common interface to any virtualization platf
             <div class='views-field-body'>Retrieve a SoftLayer_Virtual_Host record.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/getPciDevices'> getPciDevices</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/pauseLiveGuest'> pauseLiveGuest</a> </span>
             <div class='views-field-body'>Pause a guest.</div>
         </div>

@@ -83,6 +83,10 @@ SoftLayer_Virtual_DedicatedHost models a single tenant virtual host dedicated to
             <div class='views-field-body'>Retrieve the container that represents PCI device allocations on the dedicated host.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_DedicatedHost/getPciDevices'> getPciDevices</a> </span>
+            <div class='views-field-body'>Retrieve a collection of SoftLayer_Virtual_Host_PciDevice objects on the host.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_DedicatedHost/getTagReferences'> getTagReferences</a> </span>
             <div class='views-field-body'></div>
         </div>

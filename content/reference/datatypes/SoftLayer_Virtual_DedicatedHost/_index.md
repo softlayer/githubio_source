@@ -213,6 +213,16 @@ This data type presents the structure for a dedicated host. The data type contai
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#pciDevices" name=pciDevices>pciDevices</a>
+            </span>
+            <div class='views-field-body'>A collection of SoftLayer_Virtual_Host_PciDevice objects on the host. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Virtual_Host_PciDevice'>SoftLayer_Virtual_Host_PciDevice[] </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#tagReferences" name=tagReferences>tagReferences</a>
             </span>
             <div class='views-field-body'> </div>
@@ -237,6 +247,16 @@ This data type presents the structure for a dedicated host. The data type contai
                 <a href="#internalTagReferenceCount" name=internalTagReferenceCount>internalTagReferenceCount</a>
             </span>
             <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#pciDeviceCount" name=pciDeviceCount>pciDeviceCount</a>
+            </span>
+            <div class='views-field-body'>A count of a collection of SoftLayer_Virtual_Host_PciDevice objects on the host. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>

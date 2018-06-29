@@ -201,12 +201,32 @@ The virtual host represents the platform on which virtual guests reside. At time
                 <p><a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a></p>
             </div>
         </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#pciDevices" name=pciDevices>pciDevices</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Virtual_Host_PciDevice'>SoftLayer_Virtual_Host_PciDevice[] </a></p>
+            </div>
+        </div>
                 <h2>Count</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
                 <a href="#guestCount" name=guestCount>guestCount</a>
             </span>
             <div class='views-field-body'>A count of the guests associated with a virtual host. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#pciDeviceCount" name=pciDeviceCount>pciDeviceCount</a>
+            </span>
+            <div class='views-field-body'>A count of  </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>

@@ -349,6 +349,10 @@ SoftLayer customers are unable to change their company account information in th
             <div class='views-field-body'>Retrieve an account's associated virtual dedicated host objects.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getDedicatedHostsForImageTemplate'> getDedicatedHostsForImageTemplate</a> </span>
+            <div class='views-field-body'>Get a collection of dedicated hosts that are valid for a given image template. </div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getDisablePaymentProcessingFlag'> getDisablePaymentProcessingFlag</a> </span>
             <div class='views-field-body'>Retrieve a flag indicating whether payments are processed for this account.</div>
         </div>

@@ -35,10 +35,6 @@ Mass Data Migration Request Service allows users to request Massive storage devi
     </div>
     <div id="method-div">
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit a Mass Data Migration request.</div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getAccount'> getAccount</a> </span>
             <div class='views-field-body'>Retrieve the account to which the request belongs.</div>
         </div>

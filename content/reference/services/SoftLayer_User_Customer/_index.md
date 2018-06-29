@@ -473,6 +473,10 @@ API users have full access to their own portal user account and they could also 
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/removeSecurityAnswers'> removeSecurityAnswers</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/removeVirtualGuestAccess'> removeVirtualGuestAccess</a> </span>
             <div class='views-field-body'>Remove a CloudLayer Computing Instance from a portal user's access list.</div>
         </div>
