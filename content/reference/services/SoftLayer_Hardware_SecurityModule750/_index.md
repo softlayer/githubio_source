@@ -488,6 +488,10 @@ classes:
             <div class='views-field-body'>Retrieve determine if hardware object has the IBM_CLOUD_READY_NODE_CERTIFIED attribute.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule750/getIsIpmiDisabled'> getIsIpmiDisabled</a> </span>
+            <div class='views-field-body'>Retrieve determine if remote management has been disabled due to port speed.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule750/getItemPricesFromSoftwareDescriptions'> getItemPricesFromSoftwareDescriptions</a> </span>
             <div class='views-field-body'>Return a collection of SoftLayer_Item_Price objects from a collection of SoftLayer_Software_Description</div>
         </div>

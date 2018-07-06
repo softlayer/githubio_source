@@ -29,7 +29,9 @@ aliases:
 * authenticate
 
 ### Optional Headers
+* SoftLayer_Network_CdnMarketplace_Configuration_Behavior_GeoblockingObjectMask
+* SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Utils_Response'>SoftLayer_Network_CdnMarketplace_Utils_Response </a>
+<a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking'>SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking </a>
 

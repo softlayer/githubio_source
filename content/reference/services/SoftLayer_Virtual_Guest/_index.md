@@ -379,6 +379,10 @@ The virtual guest service provides a common interface to any virtualization plat
             <div class='views-field-body'>Retrieve a guest's frontend or public router.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getGcPassword'> getGcPassword</a> </span>
+            <div class='views-field-body'>Retrieve the encrypted Windows user password.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getGlobalIdentifier'> getGlobalIdentifier</a> </span>
             <div class='views-field-body'>Retrieve a guest's universally unique identifier.</div>
         </div>

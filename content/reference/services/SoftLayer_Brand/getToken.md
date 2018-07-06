@@ -1,6 +1,6 @@
 ---
 title: "getToken"
-description: ""
+description: "(DEPRECATED) Use [[SoftLayer_User_Customer::getImpersonationToken]] method."
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ aliases:
 
 
 ## Overview 
-
+(DEPRECATED) Use [[SoftLayer_User_Customer::getImpersonationToken]] method. 
 
 ### Parameters 
 |Name | Type | Description |

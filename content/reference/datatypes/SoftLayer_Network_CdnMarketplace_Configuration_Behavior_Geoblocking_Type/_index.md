@@ -60,7 +60,7 @@ classes:
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#country" name=country>country</a>
+                <a href="#countryOrRegion" name=countryOrRegion>countryOrRegion</a>
             </span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> 
