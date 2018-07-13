@@ -250,6 +250,16 @@ Contains user information for Catalyst self-enrollment.
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#ibmIdUsername" name=ibmIdUsername>ibmIdUsername</a>
+            </span>
+            <div class='views-field-body'>Master user's IBMId username </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#incubatorName" name=incubatorName>incubatorName</a>
             </span>
             <div class='views-field-body'>Name of accelerator or incubator startup belongs to, if any </div>

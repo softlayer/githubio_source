@@ -59,6 +59,10 @@ A network gateway is a set of members which have a configurable set of VLANs tru
             <div class='views-field-body'>Retrieve all VLANs trunked to this gateway.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getManufacturer'> getManufacturer</a> </span>
+            <div class='views-field-body'>manufacturer name</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getMembers'> getMembers</a> </span>
             <div class='views-field-body'>Retrieve the members for this gateway.</div>
         </div>

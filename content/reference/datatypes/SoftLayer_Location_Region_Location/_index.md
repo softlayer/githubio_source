@@ -38,6 +38,16 @@ The SoftLayer_Location_Region_Location is very specific to the location where se
 <div id="properties" class="content">
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#locationId" name=locationId>locationId</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
+        </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>

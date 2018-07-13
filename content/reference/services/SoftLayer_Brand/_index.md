@@ -146,6 +146,14 @@ SoftLayer customers are unable to change their brand information in the portal o
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Brand/getVirtualGuests'> getVirtualGuests</a> </span>
             <div class='views-field-body'>Retrieve an account's associated virtual guest objects.</div>
         </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Brand/isIbmSlicBrand'> isIbmSlicBrand</a> </span>
+            <div class='views-field-body'>Check if the brand is IBM SLIC top level brand or sub brand.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Brand/isPlatformServicesBrand'> isPlatformServicesBrand</a> </span>
+            <div class='views-field-body'>Check if the alternate billing system of brand is Bluemix.</div>
+        </div>
         </div>
 </div>
 

@@ -1,6 +1,6 @@
 ---
 title: "getAvailableBootModes"
-description: ""
+description: "Returns a collection of boot modes that are supported for primary disks."
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ aliases:
 
 
 ## Overview 
-
+Returns a collection of boot modes that are supported for primary disks. 
 
 ### Parameters 
 |Name | Type | Description |
