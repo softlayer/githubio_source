@@ -1136,6 +1136,10 @@ Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. Soft
             <div class='views-field-body'>Allows servers to be added to or removed from the spare pool.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/toggleManagementInterface'> toggleManagementInterface</a> </span>
+            <div class='views-field-body'>Toggle the IPMI interface on and off.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/updateIpmiPassword'> updateIpmiPassword</a> </span>
             <div class='views-field-body'>Update the root IPMI user password </div>
         </div>
