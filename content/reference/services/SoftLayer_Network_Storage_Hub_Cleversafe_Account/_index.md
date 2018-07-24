@@ -67,6 +67,10 @@ This class provides an interface for the management of IBM Cloud Object Storage 
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account/getCloudObjectStorageMetrics'> getCloudObjectStorageMetrics</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account/getCredentialLimit'> getCredentialLimit</a> </span>
             <div class='views-field-body'></div>
         </div>

@@ -1128,6 +1128,10 @@ classes:
             <div class='views-field-body'>Allows servers to be added to or removed from the spare pool.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/toggleManagementInterface'> toggleManagementInterface</a> </span>
+            <div class='views-field-body'>Toggle the IPMI interface on and off.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/updateIpmiPassword'> updateIpmiPassword</a> </span>
             <div class='views-field-body'>Update the root IPMI user password </div>
         </div>
