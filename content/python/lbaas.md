@@ -15,12 +15,9 @@ This example covers a variety of API calls that you might want to use when inter
 
 ```python
 """
-Cancel a Load Balancer as a Service
+Manages LBaaS instances.
 
-This sample shows how to cancel a LBaaS throuth its UUID, ID or Name, 
-just uncomment the methods you want to use.
-
-Author: SoftLayer Technologies, Inc. <sldn@softlayer.com>
+This sample shows how to use a variety of the common methods when working with LBaaS instances. This example is more a proof of concept to show basically how it all works, and not really intended to be used as is.
 """
 
 import SoftLayer
