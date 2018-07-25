@@ -38,7 +38,7 @@ public class EditDnsRecord {
         // Declare username and apiKey
         String username = "";
         String apiKey = "apikey_goes_here";
-        String endPoint = "http://stable.application.qadal0501.softlayer.local/v3.1/sldn/rest";
+        String endPoint = "http://api.softlayer.com/v3.1/sldn/rest";
 
         // The id of Resource Record you wish to edit
         Long recordId = new Long(44584900);

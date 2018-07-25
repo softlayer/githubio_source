@@ -12,7 +12,7 @@ tags:
 ```
 import SoftLayer
 # client configuration
-ENDPOINT = "http://stable.application.qadal0501.softlayer.local/v3/sldn/xmlrpc/"
+ENDPOINT = "http://api.softlayer.com/v3/sldn/xmlrpc/"
 # Your SoftLayer API username.
 USERNAME = ''
 # Generate one at https://manage.softlayer.com/Administrative/apiKeychain

@@ -17,7 +17,7 @@ user = ""
 
 api_key  = "apikey_goes_here"
 
-endpoint_url = "http://stable.application.qadal0501.softlayer.local/v3/sldn/xmlrpc/"
+endpoint_url = "http://api.softlayer.com/v3/sldn/xmlrpc/"
 
 
 # Declare the API client to use the SoftLayer_Product_Package API service

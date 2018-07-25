@@ -15,7 +15,7 @@ tags:
     "link": "no link",
     "priority": "critical",
     "type": "[POST][GET][PUT]",
-    "url": "https://USERNAME:apikey_goes_here@stable.application.qadal0501.softlayer.local/v3/sldn/rest/SoftLayer_Virtual_Guest/87777/setUserMetadata.json",
+    "url": "https://USERNAME:apikey_goes_here@api.softlayer.com/v3/sldn/rest/SoftLayer_Virtual_Guest/87777/setUserMetadata.json",
     "parameters": [
         [
             "userMetadata1"
