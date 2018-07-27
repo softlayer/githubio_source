@@ -44,7 +44,6 @@ Every piece of hardware running in SoftLayer's datacenters connected to the publ
 *  [SoftLayer_Hardware_Server::getPrivateIpAddress](/reference/services/SoftLayer_Hardware_Server/getPrivateIpAddress )
 *  [SoftLayer_Hardware_Server::setPublicPortSpeed](/reference/services/SoftLayer_Hardware_Server/setPublicPortSpeed )
 *  [SoftLayer_Hardware_Server::setPrivatePortSpeed](/reference/services/SoftLayer_Hardware_Server/setPrivatePortSpeed )
-*  [SoftLayer_Network_Subnet::getNetworkComponent](/reference/services/SoftLayer_Network_Subnet/getNetworkComponent )
 *  [SoftLayer_Network_Vlan::getNetworkComponents](/reference/services/SoftLayer_Network_Vlan/getNetworkComponents )
 
 

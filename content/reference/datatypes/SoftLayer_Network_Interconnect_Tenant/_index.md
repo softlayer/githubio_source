@@ -40,6 +40,16 @@ classes:
         <h2>Local</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#accountId" name=accountId>accountId</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#bgpAsn" name=bgpAsn>bgpAsn</a>
             </span>
             <div class='views-field-body'>Specifies ASN used for BGP. </div>
@@ -90,6 +100,16 @@ classes:
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#interconnectType" name=interconnectType>interconnectType</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#linkSpeed" name=linkSpeed>linkSpeed</a>
             </span>
             <div class='views-field-body'>Link speed of a Direct Link connection. </div>
@@ -103,6 +123,16 @@ classes:
                 <a href="#localIpAddress" name=localIpAddress>localIpAddress</a>
             </span>
             <div class='views-field-body'>IP address (v4 or v6) of "near" router serial interface. No check/update of IP Address table.  </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#location" name=location>location</a>
+            </span>
+            <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>
@@ -130,6 +160,16 @@ classes:
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#newLinkSpeed" name=newLinkSpeed>newLinkSpeed</a>
+            </span>
+            <div class='views-field-body'>Updated Link speed of a Direct Link connection. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#note" name=note>note</a>
             </span>
             <div class='views-field-body'>This field will have the ticket id if the tenant workflow fails  </div>
@@ -146,6 +186,26 @@ classes:
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>integer</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#port" name=port>port</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#provider" name=provider>provider</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
             </div>
         </div>
                 <div class='prop-row views-row'>

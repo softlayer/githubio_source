@@ -173,6 +173,16 @@ A SoftLayer_User_Employee models a single SoftLayer employee for the purposes of
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#permissions" name=permissions>permissions</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_User_Permission_Action'>SoftLayer_User_Permission_Action[] </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#roles" name=roles>roles</a>
             </span>
             <div class='views-field-body'> </div>
@@ -235,6 +245,16 @@ A SoftLayer_User_Employee models a single SoftLayer employee for the purposes of
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
                 <a href="#layoutProfileCount" name=layoutProfileCount>layoutProfileCount</a>
+            </span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#permissionCount" name=permissionCount>permissionCount</a>
             </span>
             <div class='views-field-body'>A count of  </div>
             <span class="type-label">Type:</span> 
