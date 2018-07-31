@@ -14,6 +14,30 @@ tags:
     - "provisionScripts"
 ---
 
+## Quotes
+
+Quotes are a way to save an order, and then easily duplicate the order later. You can create a quote from the control portal by going through the normal order process, and then instead of hitting "Order" at the end, there will be a button that says "Save Quote", which will save the order for later. You can then use the quote service to pull down the information about it from the API. `listQuotes` in the example below does exactly this.
+
+To order from a quote you will need the following bits of information
+- Quote ID
+- Datacenter ID where you want the order to end up
+- Other bits of optional data, like SSH keys, vlan ids, image ids, etc.
+
+### REST API Call
+`curl -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getActiveQuotes.json?objectMask=mask%5Border%5Bid%2C+orderTotalAmount%2C+orderTopLevelItems%5Bid%2C+description%5D%5D%2C+ordersFromQuoteCount%5D'`
+
+### Python Output
+The sample code will output something like this. Quotes can be PENDING, which means they might expire if you don't call [SoftLayer_Billing_Order_Quote::saveQuote(id=quoteId)](https://softlayer.github.io/reference/services/SoftLayer_Billing_Order_Quote/saveQuote/) before its expiration date. SAVED quotes will stick around until you call [SoftLayer_Billing_Order_Quote::deleteQuote(id=quoteId)](https://softlayer.github.io/reference/services/SoftLayer_Billing_Order_Quote/deleteQuote/)
+The quoteId in the first column is what will be used for placing the order. Description is just the topLevelBillingItem for the quote.
+
+```shell
+ID, createDate, name, status, order count, description
+2460465, 2018-07-23T14:20:59-06:00, Ruber, SAVED, 0, Single Intel Xeon E3-1270 v3 (4 Cores, 3.50 GHz)
+2457385, 2018-07-17T14:23:54-06:00, AJCB-TESTWITHSSHKEYS, PENDING, 0, Single Intel Xeon E3-1270 v3 (4 Cores, 3.50 GHz)
+1528487, 2015-09-25T15:37:27-06:00, test-quote, SAVED, 3, 1 x 2.0 GHz Core
+```
+
+## 
 
 ```python
 import SoftLayer
@@ -23,6 +47,8 @@ class example():
 
     def __init__(self):
         self.client = SoftLayer.Client()
+        debugger = SoftLayer.DebugTransport(self.client.transport)
+        self.client.transport = debugger
 
     def orderQuote(self, quote_id, dc_id = None, image_id = None, private_vlan = None, public_vlan = None):
         # If you have more than 1 server in the quote, you will need to append
@@ -57,16 +83,28 @@ class example():
         if dc_id is not None:
             container['location'] = dc_id
 
-        # result = self.client['Product_Order'].verifyOrder(container)
-        result = self.client['Product_Order'].placeOrder(container)
+        result = self.client['Product_Order'].verifyOrder(container)
+        # result = self.client['Product_Order'].placeOrder(container)
         pp(result)
 
     def listQuotes(self):
-        quotes = self.client['SoftLayer_Account'].getActiveQuotes()
-        pp(quotes)
+        # https://softlayer.github.io/reference/datatypes/SoftLayer_Billing_Order_Quote/
+        mask = "mask[order[id, orderTotalAmount, orderTopLevelItems[id, description]], ordersFromQuoteCount]"
+        quotes = self.client['SoftLayer_Account'].getActiveQuotes(mask=mask)
+        print("ID, createDate, name, status, order count, description")
+        for quote in quotes:
+            print("{}, {}, {}, {}, {}, {}".format(
+                quote['id'], quote['createDate'], quote['name'], quote['status'], 
+                quote['ordersFromQuoteCount'], quote['order']['orderTopLevelItems'][0]['description'])
+            )
 
     def listLocations(self):
         locations = self.client['SoftLayer_Location'].getDatacenters()
+        pp(locations)
+
+    def listLocationsForQuote(self, quoteId):
+        mask="mask[id, order[id, orderTopLevelItems[id, package[id, availableLocations]]]]"
+        locations = self.client['Billing_Order_Quote'].getObject(id=quoteId, mask=mask)
         pp(locations)
 
     def listSshKeys(self):
@@ -94,12 +132,17 @@ class example():
         for subnet in subnets:
             print("%s, %s, %s" % ( subnet['id'], subnet['vlanNumber'], subnet['primaryRouter']['hostname']))
 
+    def debug(self):
+        for call in self.client.transport.get_last_calls():
+            print(self.client.transport.print_reproduceable(call))
+
 
 if __name__ == "__main__":
-    quote_id = 1234
+    quote_id = 1528487
     main = example()
     # main.listImageTemplates()
     # main.listQuotes()
+    main.listLocationsForQuote(quote_id)
     # main.listLocations()
     dal13 = 1854895
     ams03 = 814994
@@ -108,6 +151,7 @@ if __name__ == "__main__":
     # main.listVlansInLocation(dal13)
     backend_vlan = 1400000 # 123, bcr06a.dal09
     front_vlan = 1400001 # 456, fcr06a.dal09
-    main.orderQuote(quote_id, dc_id=dal09, private_vlan=backend_vlan,public_vlan=front_vlan )
+    # main.orderQuote(quote_id, dc_id=dal09, private_vlan=backend_vlan,public_vlan=front_vlan )
+    main.debug()
 
 ```
