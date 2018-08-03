@@ -51,6 +51,10 @@ The SoftLayer_Network_LBaaS_LoadBalancer service allows customers to create, edi
             <div class='views-field-body'>Retrieve health monitors for the backend members.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getL7Pools'> getL7Pools</a> </span>
+            <div class='views-field-body'>Retrieve l7Pools for load balancer.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getListenerTimeSeriesData'> getListenerTimeSeriesData</a> </span>
             <div class='views-field-body'>Return time series datapoints</div>
         </div>
