@@ -92,6 +92,7 @@ guests = {
 quote = self.client['Billing_Order_Quote']
 quote_container = quote.getRecalculatedOrderContainer(id=quote_id)
 container = quote_container
+container['complexType'] = "SoftLayer_Container_Product_Order_Virtual_Guest"
 container['quantity'] = 2
 container['virtualGuests'] = []
 container['virtualGuests'].append(guests)
@@ -99,6 +100,18 @@ container['virtualGuests'].append(guests)
 container['location'] = dc_id
 ```
 The `container['virtualGuests']` array should have 1 entry for each server you want to order. Since I am ordering 2 servers, I appeneded 2 entries to the array. 
+
+### Complex Types
+`getRecalculatedOrderContainer` will return a generic Container_Product_Order type, so you will need to specify the correct type to be able to actually place an order. Orders can occasionally work without specifying this complexType, but its better to be sure. There are quite a lot of container types, the full list can be found here: https://softlayer.github.io/reference/softlayerapi/ , and search for `Container_Product_Order` to see all the options.
+
+The most common are:
++ https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_Hardware_Server
++ https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_Hardware_Server_Gateway_Appliance
++ https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_Network_LoadBalancer_AsAService
++ https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_Network_Storage_AsAService
++ https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_Network_Vlan
++ https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest
+
 
 ### SSH keys
 To have SSH keys installed on a server at order time, we need to specify them in the [sshKeys]https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_SshKeys/) property. This property is at the container level, NOT the guest level, even though guests have a sshKey property. 
@@ -186,15 +199,20 @@ class example():
 
         quote = self.client['Billing_Order_Quote']
         quote_container = quote.getRecalculatedOrderContainer(id=quote_id)
+        print("================= QUOTE CONTAINER =================")
         pp(quote_container)
+        print("================= QUOTE CONTAINER =================")
 
         container = quote_container
-        container['quantity'] = 1
+        container['complexType'] = "SoftLayer_Container_Product_Order_Virtual_Guest"
+        container['quantity'] = 2
         container['virtualGuests'] = []
+        container['virtualGuests'].append(guests)
         container['virtualGuests'].append(guests)
 
         # container['provisionScripts'] = ['https://gist.githubusercontent.com/myscript.py']
-        # container['sshKeys'] = [{'sshKeyIds': [660791]} ]
+        sshKeys = {'sshKeyIds': [395515, 87634]}
+        container['sshKeys'] = [sshKeys, sshKeys]
 
         if image_id is not None:
             container['imageTemplateId'] = image_id
@@ -203,8 +221,10 @@ class example():
             container['location'] = dc_id
 
         # result = self.client['Product_Order'].verifyOrder(container)
-        # result = self.client['Product_Order'].placeOrder(container)
-        # pp(result)
+        result = self.client['Product_Order'].placeOrder(container)
+        print("================= RECEIPT CONTAINER =================")
+        pp(result)
+        print("================= RECEIPT CONTAINER =================")
 
     def listQuotes(self):
         # https://softlayer.github.io/reference/datatypes/SoftLayer_Billing_Order_Quote/
@@ -272,10 +292,8 @@ if __name__ == "__main__":
     dal09 = 449494
     # main.listSshKeys()
     # main.listVlansInLocation(dal13)
-    backend_vlan = 1400000 # 123, bcr06a.dal09
-    front_vlan = 1400001 # 456, fcr06a.dal09
-    main.orderQuote(quote_id, dc_id=dal09)
+    backend_vlan = 2068355 #951, bcr01a.dal13
+    front_vlan = 2068353 # 907, fcr01a.dal13
+    main.orderQuote(quote_id, dc_id=dal13, public_vlan=front_vlan,private_vlan=backend_vlan)
     main.debug()
-
-
 ```
