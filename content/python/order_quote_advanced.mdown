@@ -1,7 +1,7 @@
 ---
 title: "Advanced Quote Ordering"
 description: "Place an order using a quote with SSH keys and post provisioning scripts. Along with a few examples of how to get the needed data."
-date: "2016-10-05"
+date: "2018-08-07"
 classes: 
     - "SoftLayer_Billing_Order_Quote"
     - "SoftLayer_Account"
@@ -14,6 +14,161 @@ tags:
     - "provisionScripts"
 ---
 
+## Quotes
+
+Quotes are a way to save an order, and then easily duplicate the order later. You can create a quote from the control portal by going through the normal order process, and then instead of hitting "Order" at the end, there will be a button that says "Save Quote", which will save the order for later. You can then use the quote service to pull down the information about it from the API. `listQuotes` in the example below does exactly this.
+
+To order from a quote you will need the following bits of information
+- Quote ID
+- Datacenter ID where you want the order to end up
+- Other bits of optional data, like SSH keys, vlan ids, image ids, etc.
+
+### REST API Call
+`curl -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getActiveQuotes.json?objectMask=mask%5Border%5Bid%2C+orderTotalAmount%2C+orderTopLevelItems%5Bid%2C+description%5D%5D%2C+ordersFromQuoteCount%5D'`
+
+### Python Output
+The sample code will output something like this. Quotes can be PENDING, which means they might expire if you don't call [SoftLayer_Billing_Order_Quote::saveQuote(id=quoteId)](https://softlayer.github.io/reference/services/SoftLayer_Billing_Order_Quote/saveQuote/) before its expiration date. SAVED quotes will stick around until you call [SoftLayer_Billing_Order_Quote::deleteQuote(id=quoteId)](https://softlayer.github.io/reference/services/SoftLayer_Billing_Order_Quote/deleteQuote/)
+The quoteId in the first column is what will be used for placing the order. Description is just the topLevelBillingItem for the quote.
+
+```shell
+ID, createDate, name, status, order count, description
+2460465, 2018-07-23T14:20:59-06:00, Ruber, SAVED, 0, Single Intel Xeon E3-1270 v3 (4 Cores, 3.50 GHz)
+2457385, 2018-07-17T14:23:54-06:00, AJCB-TESTWITHSSHKEYS, PENDING, 0, Single Intel Xeon E3-1270 v3 (4 Cores, 3.50 GHz)
+1528487, 2015-09-25T15:37:27-06:00, test-quote, SAVED, 3, 1 x 2.0 GHz Core
+```
+
+## Finding the DC id
+Now we need to figure out which DC we want to place the order in. 
+The way we are going to do this, is by checking the quote's top level item, and see what DCs that package is available in. Using [SoftLayer_Location::getDatacenters()](https://softlayer.github.io/reference/services/SoftLayer_Location/getDatacenters/) would show you all datacenters, and not all packages are available in all datacenters.
+
+### REST Call
+`'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Order_Quote/<QUOTEID>/getObject.json?objectMask=mask[id,+order[id,orderTopLevelItems[id,package[id,availableLocations[location[longName,id]]]]]]'`
+
+### Python
+```python
+def listLocationsForQuote(self, quoteId):
+    mask="mask[id, order[id, orderTopLevelItems[id, package[id, availableLocations[location[longName, id]]]]]]"
+    locations = self.client['Billing_Order_Quote'].getObject(id=quoteId, mask=mask)
+    
+    package_id = locations['order']['orderTopLevelItems'][0]['package']['id']
+    print("Package {} is available in the following locations...".format(package_id))
+    for dc in locations['order']['orderTopLevelItems'][0]['package']['availableLocations']:
+        print("{}, id={}".format(dc['location']['longName'], dc['location']['id']))
+```
+
+```shell
+Package 46 is available in the following locations...
+Seattle 1, id=18171
+Dallas 5, id=138124
+Houston 2, id=142775
+Dallas 7, id=142776
+San Jose 1, id=168642
+...
+```
+
+## Building our new order
+Ok, now we have a quote, a dc, now we just need to build our order out.
+
+### [SoftLayer_Billing_Order_Quote::getRecalculatedOrderContainer()](https://softlayer.github.io/reference/services/SoftLayer_Billing_Order_Quote/getRecalculatedOrderContainer/)
+
+`'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Order_Quote/<QUOTEID>/getRecalculatedOrderContainer.json`
+
+This function takes a quote, and returns an order container with all the proper price ids filled in, which are required to place the actual order.
+
+With this order container, all we need to do is fill out some extra information (basically anything that would be on the last page of the order form).
+
+### [Order containers](https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order/)
+
+The object you send in to the placeOrder method, is going to be a SoftLayer_Container_Product_Order, or possibly one of its child classes, like [Hardware_Server](https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_Hardware_Server/) or [Virtual_Guest](https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest/)
+
+The only data you have to change here is the hostname and domain for your servers, the location, and the quantity. 
+>If you are ordering baremetal, you need to change container['hardware'], if you are ordering virtual guests, you need to change container['virtualGuests']
+
+```python
+guests = {
+    'hostname': 'quotetest', 
+    'domain': 'example.com'
+}
+quote = self.client['Billing_Order_Quote']
+quote_container = quote.getRecalculatedOrderContainer(id=quote_id)
+container = quote_container
+container['complexType'] = "SoftLayer_Container_Product_Order_Virtual_Guest"
+container['quantity'] = 2
+container['virtualGuests'] = []
+container['virtualGuests'].append(guests)
+container['virtualGuests'].append(guests)
+container['location'] = dc_id
+```
+The `container['virtualGuests']` array should have 1 entry for each server you want to order. Since I am ordering 2 servers, I appeneded 2 entries to the array. 
+
+### Complex Types
+`getRecalculatedOrderContainer` will return a generic Container_Product_Order type, so you will need to specify the correct type to be able to actually place an order. Orders can occasionally work without specifying this complexType, but its better to be sure. There are quite a lot of container types, the full list can be found here: https://softlayer.github.io/reference/softlayerapi/ , and search for `Container_Product_Order` to see all the options.
+
+The most common are:
++ https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_Hardware_Server
++ https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_Hardware_Server_Gateway_Appliance
++ https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_Network_LoadBalancer_AsAService
++ https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_Network_Storage_AsAService
++ https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_Network_Vlan
++ https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest
+
+
+### SSH keys
+To have SSH keys installed on a server at order time, we need to specify them in the [sshKeys]https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_SshKeys/) property. This property is at the container level, NOT the guest level, even though guests have a sshKey property. 
+This propety is an array of sshKeys, which itself is an array of ids. This means that there needs to be 1 array of keys per server you are ordering, and the order they are applied should match the order they are listed in the virtualGuests propety. `sshKeys[0] => virtualGuests[0]`, `sshKeys[1] => virtualGuests[1]` and so on.
+
+An sshKey itself should look like this
+```
+sshKey = {
+    'sshKeyIds' : [1234, 456, 11111]
+}
+container['sshKeys'].append(sshKey)
+container['sshKeys'].append(sshKey)
+```
+
+
+This is a bit combersome, but it does allow you the flexibility to order different sshKeys on different servers if you need to.
+
+### Post Provision Scripts
+[provisionScripts](https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest/#provisionScripts) are simply an array of strings (urls) to apply to each server in order. Like sshKeys, the order these provision scripts are listed match up with their virtualGuests. Each guest will only have 1 provision script run on it. 
+
+>Post provision scripts need to be HTTPS to be executed, HTTP scripts just get downloaded
+
+```
+scriptUrl = 'https://somesite.com/script.sh'
+container['provisionScripts'] = [scriptUrl, scriptUrl]
+```
+
+### Vlans and Subnets
+Vlans and Subnets need to be specified at the guest level, not the container level. You will also need the VLAN/Subnet ID, which is different than the vlan number which can be a bit confusing to new api users.
+
+Public Vlans and Public Subnets need to be added to the [primaryNetworkComponent](https://softlayer.github.io/reference/datatypes/SoftLayer_Virtual_Guest/#primaryNetworkComponent).
+Private Vlans and Private Subnets need to be added to the [primaryBackendNetworkComponent](https://softlayer.github.io/reference/datatypes/SoftLayer_Virtual_Guest/#primaryBackendNetworkComponent)
+
+This example selects a specific VLAN for the primaryNetwork, and a specific Subnet for the primaryBackendNetwork. You can have both a specific vlan and specific network, assuming the subnet is already routed to the vlan you specified.
+```
+guest = {
+    'hostname': 'tester',
+    'domain': 'example.com',
+    'primaryNetworkComponent': {
+        "networkVlan": {"id": int(public_vlan)}},
+    "primaryBackendNetworkComponent": {
+        "primarySubnet": {"id": int(private_subnet)}}
+
+}
+```
+
+### Image Templates
+Instead of specifying a fresh operating system, you can have a server provisioned from a imageTemplate by specifying its ID.
+
+```
+container['imageTemplateId'] = image_id
+```
+
+This ISN'T an array, so the imageTemplate here will get applied to all guests in the order.
+
+## The Whole Script
+This is the script I use when testing out bits of the ordering API, and hopefully it will be helpful in building your own way to order image templates.
 
 ```python
 import SoftLayer
@@ -23,6 +178,8 @@ class example():
 
     def __init__(self):
         self.client = SoftLayer.Client()
+        debugger = SoftLayer.DebugTransport(self.client.transport)
+        self.client.transport = debugger
 
     def orderQuote(self, quote_id, dc_id = None, image_id = None, private_vlan = None, public_vlan = None):
         # If you have more than 1 server in the quote, you will need to append
@@ -42,14 +199,20 @@ class example():
 
         quote = self.client['Billing_Order_Quote']
         quote_container = quote.getRecalculatedOrderContainer(id=quote_id)
+        print("================= QUOTE CONTAINER =================")
+        pp(quote_container)
+        print("================= QUOTE CONTAINER =================")
 
         container = quote_container
-        container['quantity'] = 1
+        container['complexType'] = "SoftLayer_Container_Product_Order_Virtual_Guest"
+        container['quantity'] = 2
         container['virtualGuests'] = []
+        container['virtualGuests'].append(guests)
         container['virtualGuests'].append(guests)
 
         # container['provisionScripts'] = ['https://gist.githubusercontent.com/myscript.py']
-        # container['sshKeys'] = [{'sshKeyIds': [660791]} ]
+        sshKeys = {'sshKeyIds': [395515, 87634]}
+        container['sshKeys'] = [sshKeys, sshKeys]
 
         if image_id is not None:
             container['imageTemplateId'] = image_id
@@ -59,15 +222,33 @@ class example():
 
         # result = self.client['Product_Order'].verifyOrder(container)
         result = self.client['Product_Order'].placeOrder(container)
+        print("================= RECEIPT CONTAINER =================")
         pp(result)
+        print("================= RECEIPT CONTAINER =================")
 
     def listQuotes(self):
-        quotes = self.client['SoftLayer_Account'].getActiveQuotes()
-        pp(quotes)
+        # https://softlayer.github.io/reference/datatypes/SoftLayer_Billing_Order_Quote/
+        mask = "mask[order[id, orderTotalAmount, orderTopLevelItems[id, description]], ordersFromQuoteCount]"
+        quotes = self.client['SoftLayer_Account'].getActiveQuotes(mask=mask)
+        print("ID, createDate, name, status, order count, description")
+        for quote in quotes:
+            print("{}, {}, {}, {}, {}, {}".format(
+                quote['id'], quote['createDate'], quote['name'], quote['status'], 
+                quote['ordersFromQuoteCount'], quote['order']['orderTopLevelItems'][0]['description'])
+            )
 
     def listLocations(self):
         locations = self.client['SoftLayer_Location'].getDatacenters()
         pp(locations)
+
+    def listLocationsForQuote(self, quoteId):
+        mask="mask[id, order[id, orderTopLevelItems[id, package[id, availableLocations[location[longName, id]]]]]]"
+        locations = self.client['Billing_Order_Quote'].getObject(id=quoteId, mask=mask)
+
+        package_id = locations['order']['orderTopLevelItems'][0]['package']['id']
+        print("Package {} is available in the following locations...".format(package_id))
+        for dc in locations['order']['orderTopLevelItems'][0]['package']['availableLocations']:
+            print("{}, id={}".format(dc['location']['longName'], dc['location']['id']))
 
     def listSshKeys(self):
         keys = self.client['SoftLayer_Account'].getSshKeys()
@@ -94,20 +275,25 @@ class example():
         for subnet in subnets:
             print("%s, %s, %s" % ( subnet['id'], subnet['vlanNumber'], subnet['primaryRouter']['hostname']))
 
+    def debug(self):
+        for call in self.client.transport.get_last_calls():
+            print(self.client.transport.print_reproduceable(call))
+
 
 if __name__ == "__main__":
-    quote_id = 1234
+    quote_id = 1528487
     main = example()
     # main.listImageTemplates()
     # main.listQuotes()
+    # main.listLocationsForQuote(quote_id)
     # main.listLocations()
     dal13 = 1854895
     ams03 = 814994
     dal09 = 449494
     # main.listSshKeys()
     # main.listVlansInLocation(dal13)
-    backend_vlan = 1400000 # 123, bcr06a.dal09
-    front_vlan = 1400001 # 456, fcr06a.dal09
-    main.orderQuote(quote_id, dc_id=dal09, private_vlan=backend_vlan,public_vlan=front_vlan )
-
+    backend_vlan = 2068355 #951, bcr01a.dal13
+    front_vlan = 2068353 # 907, fcr01a.dal13
+    main.orderQuote(quote_id, dc_id=dal13, public_vlan=front_vlan,private_vlan=backend_vlan)
+    main.debug()
 ```
