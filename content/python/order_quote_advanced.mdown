@@ -101,19 +101,62 @@ container['location'] = dc_id
 The `container['virtualGuests']` array should have 1 entry for each server you want to order. Since I am ordering 2 servers, I appeneded 2 entries to the array. 
 
 ### SSH keys
-From here, the options are broken out into Container options, and Server options. Container options apply to the whole order, and 
+To have SSH keys installed on a server at order time, we need to specify them in the [sshKeys]https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_SshKeys/) property. This property is at the container level, NOT the guest level, even though guests have a sshKey property. 
+This propety is an array of sshKeys, which itself is an array of ids. This means that there needs to be 1 array of keys per server you are ordering, and the order they are applied should match the order they are listed in the virtualGuests propety. `sshKeys[0] => virtualGuests[0]`, `sshKeys[1] => virtualGuests[1]` and so on.
+
+An sshKey itself should look like this
+```
+sshKey = {
+    'sshKeyIds' : [1234, 456, 11111]
+}
+container['sshKeys'].append(sshKey)
+container['sshKeys'].append(sshKey)
+```
+
+
+This is a bit combersome, but it does allow you the flexibility to order different sshKeys on different servers if you need to.
 
 ### Post Provision Scripts
+[provisionScripts](https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest/#provisionScripts) are simply an array of strings (urls) to apply to each server in order. Like sshKeys, the order these provision scripts are listed match up with their virtualGuests. Each guest will only have 1 provision script run on it. 
+
+>Post provision scripts need to be HTTPS to be executed, HTTP scripts just get downloaded
+
+```
+scriptUrl = 'https://somesite.com/script.sh'
+container['provisionScripts'] = [scriptUrl, scriptUrl]
+```
 
 ### Vlans and Subnets
+Vlans and Subnets need to be specified at the guest level, not the container level. You will also need the VLAN/Subnet ID, which is different than the vlan number which can be a bit confusing to new api users.
+
+Public Vlans and Public Subnets need to be added to the [primaryNetworkComponent](https://softlayer.github.io/reference/datatypes/SoftLayer_Virtual_Guest/#primaryNetworkComponent).
+Private Vlans and Private Subnets need to be added to the [primaryBackendNetworkComponent](https://softlayer.github.io/reference/datatypes/SoftLayer_Virtual_Guest/#primaryBackendNetworkComponent)
+
+This example selects a specific VLAN for the primaryNetwork, and a specific Subnet for the primaryBackendNetwork. You can have both a specific vlan and specific network, assuming the subnet is already routed to the vlan you specified.
+```
+guest = {
+    'hostname': 'tester',
+    'domain': 'example.com',
+    'primaryNetworkComponent': {
+        "networkVlan": {"id": int(public_vlan)}},
+    "primaryBackendNetworkComponent": {
+        "primarySubnet": {"id": int(private_subnet)}}
+
+}
+```
 
 ### Image Templates
+Instead of specifying a fresh operating system, you can have a server provisioned from a imageTemplate by specifying its ID.
 
-### 
+```
+container['imageTemplateId'] = image_id
+```
 
-
+This ISN'T an array, so the imageTemplate here will get applied to all guests in the order.
 
 ## The Whole Script
+This is the script I use when testing out bits of the ordering API, and hopefully it will be helpful in building your own way to order image templates.
+
 ```python
 import SoftLayer
 from pprint import pprint as pp
