@@ -55,6 +55,10 @@ A network gateway is a set of members which have a configurable set of VLANs tru
             <div class='views-field-body'>Retrieve the account for this gateway.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getCapacity'> getCapacity</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getInsideVlans'> getInsideVlans</a> </span>
             <div class='views-field-body'>Retrieve all VLANs trunked to this gateway.</div>
         </div>

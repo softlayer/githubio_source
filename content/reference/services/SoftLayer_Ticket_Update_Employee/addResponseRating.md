@@ -23,6 +23,7 @@ As part of the customer service process SoftLayer has provided a quick feedback 
 |Name | Type | Description |
 | --- | --- | --- |
 |responseRating| integer| An integer value from 1 to 5, worst to best, that rates a SoftLayer employee's ticket response.|
+|responseIndex| integer| An integer value, that refers to the unique update Number.|
 
 
 ### Required Headers

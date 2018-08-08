@@ -1,6 +1,6 @@
 ---
 title: "getCurrentBillingTotal"
-description: "The '''getCurrentBillingTotal''' method retrieves the total bill amount in US Dollars ($) for the current billing period... "
+description: "Get the total bill amount in US Dollars ($) for this hardware in the current billing period. This includes all bandwidth... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getCurrentBillingTotal
 
-Get the total billing price for this instance's hourly usage up to this point. This includes total includes all bandwidth charges.
+Get the billing total for this instance's usage up to this point. This total includes all bandwidth charges. 
 
 
 ## Overview 
-The '''getCurrentBillingTotal''' method retrieves the total bill amount in US Dollars ($) for the current billing period. In addition to the total bill amount, the billing detail also includes all bandwidth used up to the point the method is called on the piece of hardware. 
+Get the total bill amount in US Dollars ($) for this hardware in the current billing period. This includes all bandwidth used up to the point the method is called on the hardware. 
 
 ### Parameters 
 |Name | Type | Description |

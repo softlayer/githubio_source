@@ -1,6 +1,6 @@
 ---
 title: "getCurrentBillingDetail"
-description: "Get the billing detail for this instance for the current billing period. This does not include bandwidth usage."
+description: "Get the billing detail for this hardware for the current billing period. This does not include bandwidth usage."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getCurrentBillingDetail
 
-Get the detail billing data for this instance's current billing period. This excludes bandwidth usage.
+<< EOT
 
 
 ## Overview 
-Get the billing detail for this instance for the current billing period. This does not include bandwidth usage. 
+Get the billing detail for this hardware for the current billing period. This does not include bandwidth usage. 
 
 ### Parameters 
 |Name | Type | Description |

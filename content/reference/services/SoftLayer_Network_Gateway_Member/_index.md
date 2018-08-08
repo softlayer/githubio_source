@@ -43,6 +43,10 @@ A network gateway member is a device that serves as a gateway. Once the hardware
             <div class='views-field-body'>Add a member to a gateway</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway_Member/getAttributes'> getAttributes</a> </span>
+            <div class='views-field-body'>Retrieve the attributes for this member.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway_Member/getHardware'> getHardware</a> </span>
             <div class='views-field-body'>Retrieve the device for this member.</div>
         </div>

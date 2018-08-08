@@ -13,7 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Pod](/reference/services/SoftLayer_Network_Pod)::getObject
 
-Retrieve the Pod by name.
+Retrieve a Pod by name.
 
 
 ## Overview 

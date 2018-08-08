@@ -1,5 +1,5 @@
 ---
-title: "SoftLayer_Network_Gateway_Member"
+title: "SoftLayer_Network_Gateway_Member_Attribute"
 description: ""
 layout: "datatype"
 tags:
@@ -7,13 +7,13 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "SoftLayer_Network_Gateway_Member"
+    - "SoftLayer_Network_Gateway_Member_Attribute"
 ---
 
-# SoftLayer_Network_Gateway_Member
+# SoftLayer_Network_Gateway_Member_Attribute
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_Gateway_Member' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Gateway_Member' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Network_Gateway_Member_Attribute' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_Gateway_Member_Attribute' >Datatype</a></li>
     </ul>
 </div>
 
@@ -40,16 +40,6 @@ classes:
         <h2>Local</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#hardwareId" name=hardwareId>hardwareId</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of the hardware for this member.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#id" name=id>id</a>
             </span>
             <div class='views-field-body'>A gateway member's internal identifier.  </div>
@@ -60,9 +50,9 @@ classes:
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#networkGatewayId" name=networkGatewayId>networkGatewayId</a>
+                <a href="#memberId" name=memberId>memberId</a>
             </span>
-            <div class='views-field-body'>The internal identifier of the gateway this member belongs to.  </div>
+            <div class='views-field-body'>The gateway member for this attribute.  </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>integer</p>
@@ -70,12 +60,42 @@ classes:
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#priority" name=priority>priority</a>
+                <a href="#password" name=password>password</a>
             </span>
-            <div class='views-field-body'>The priority for this gateway member. This is set internally and cannot be provided on create.  </div>
+            <div class='views-field-body'>Password of the user name. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#statusId" name=statusId>statusId</a>
+            </span>
+            <div class='views-field-body'>The Gateway Status Id for the attribute.  </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>integer</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#username" name=username>username</a>
+            </span>
+            <div class='views-field-body'>Username associated with the gateway. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#version" name=version>version</a>
+            </span>
+            <div class='views-field-body'>The version of the gateway software </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
             </div>
         </div>
             </div>
@@ -83,32 +103,22 @@ classes:
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#attributes" name=attributes>attributes</a>
+                <a href="#gatewayMember" name=gatewayMember>gatewayMember</a>
             </span>
-            <div class='views-field-body'>The attributes for this member. </div>
+            <div class='views-field-body'>The gateway member has these attributes. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Gateway_Member_Attribute'>SoftLayer_Network_Gateway_Member_Attribute </a></p>
+                <p><a href='/reference/datatypes/SoftLayer_Network_Gateway_Member'>SoftLayer_Network_Gateway_Member </a></p>
             </div>
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#hardware" name=hardware>hardware</a>
+                <a href="#gatewayStatus" name=gatewayStatus>gatewayStatus</a>
             </span>
-            <div class='views-field-body'>The device for this member. </div>
+            <div class='views-field-body'>The gateway status for this attribute. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkGateway" name=networkGateway>networkGateway</a>
-            </span>
-            <div class='views-field-body'>The gateway this member belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a></p>
+                <p><a href='/reference/datatypes/SoftLayer_Network_Gateway_Status'>SoftLayer_Network_Gateway_Status </a></p>
             </div>
         </div>
                 <h2>Count</h2>
