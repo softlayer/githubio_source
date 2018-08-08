@@ -1,7 +1,7 @@
 ---
 title: "Manage Users"
 description: "A script to create users and a script to disable users. Used mostly for setting up lab users and then cleaning up after."
-date: "2016-03-01"
+date: "2018-08-08"
 classes: 
     - "SoftLayer_User_Customer"
     - "SoftLayer_Virtual_Guest"
@@ -12,9 +12,16 @@ tags:
   - "permissions"
 ---
 
+This example is a set of scripts I've used for creating and disabling users. This will ONLY create SoftLayer users, and does not work for Bluemix/IbmCloud type accounts. 
+
+Some of this functionality is also in the [SLCLI](https://softlayer-python.readthedocs.io/en/latest/cli/users.html) now.
+
+## Create Users
 
 Creates a user, sets up proper permissions, sets up devices access restrictions, creates API keys and orders the user a server.
-```
+
+
+```python
 import SoftLayer.API
 from pprint import pprint as pp
 
@@ -134,9 +141,10 @@ if __name__ == "__main__":
 
 ```
 
+## Disable Users
 Disable user, changes their password, cancels their servers, and removes any sshKeys
 
-```
+```python
 import SoftLayer.API
 from pprint import pprint as pp
 
