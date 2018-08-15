@@ -141,7 +141,27 @@ The SoftLayer_Network_LBaaS_Listener type presents a data structure for a load b
                 <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_Pool'>SoftLayer_Network_LBaaS_Pool </a></p>
             </div>
         </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#l7Policies" name=l7Policies>l7Policies</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Policy'>SoftLayer_Network_LBaaS_L7Policy[] </a></p>
+            </div>
+        </div>
                 <h2>Count</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#l7PolicyCount" name=l7PolicyCount>l7PolicyCount</a>
+            </span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
             </div>
 </div>
 

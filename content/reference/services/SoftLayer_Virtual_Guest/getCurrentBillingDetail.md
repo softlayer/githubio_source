@@ -1,6 +1,6 @@
 ---
 title: "getCurrentBillingDetail"
-description: "getUpgradeItemPrices() retrieves a list of all upgrades available to a CloudLayer Computing Instance. Upgradeable items... "
+description: "Get the billing detail for this instance for the current billing period. This does not include bandwidth usage."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getCurrentBillingDetail
 
-Retrieve a computing instance's upgradeable items.
+<< EOT
 
 
 ## Overview 
-getUpgradeItemPrices() retrieves a list of all upgrades available to a CloudLayer Computing Instance. Upgradeable items include, but are not limited to, number of cores, amount of RAM, storage configuration, and network port speed. 
+Get the billing detail for this instance for the current billing period. This does not include bandwidth usage. 
 
 ### Parameters 
 |Name | Type | Description |

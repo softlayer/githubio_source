@@ -200,11 +200,11 @@ Every SoftLayer hardware is defined in the SoftLayer_Hardware service. SoftLayer
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware/getCurrentBillingDetail'> getCurrentBillingDetail</a> </span>
-            <div class='views-field-body'>Get the detail billing data for this instance's current billing period. This excludes bandwidth usage.</div>
+            <div class='views-field-body'><< EOT</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware/getCurrentBillingTotal'> getCurrentBillingTotal</a> </span>
-            <div class='views-field-body'>Get the total billing price for this instance's hourly usage up to this point. This includes total includes all bandwidth charges.</div>
+            <div class='views-field-body'>Get the billing total for this instance's usage up to this point. This total includes all bandwidth charges. </div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware/getDailyAverage'> getDailyAverage</a> </span>

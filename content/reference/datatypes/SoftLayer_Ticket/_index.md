@@ -673,6 +673,16 @@ To create a support ticket execute the [[SoftLayer_Ticket::createStandardTicket|
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#updateRatingFlag" name=updateRatingFlag>updateRatingFlag</a>
+            </span>
+            <div class='views-field-body'>Wether employees' updates of this ticket could be rated by customer </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#updates" name=updates>updates</a>
             </span>
             <div class='views-field-body'>A ticket's updates. </div>

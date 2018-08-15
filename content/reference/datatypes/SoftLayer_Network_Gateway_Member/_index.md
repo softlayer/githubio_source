@@ -83,6 +83,16 @@ classes:
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#attributes" name=attributes>attributes</a>
+            </span>
+            <div class='views-field-body'>The attributes for this member. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_Gateway_Member_Attribute'>SoftLayer_Network_Gateway_Member_Attribute </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#hardware" name=hardware>hardware</a>
             </span>
             <div class='views-field-body'>The device for this member. </div>

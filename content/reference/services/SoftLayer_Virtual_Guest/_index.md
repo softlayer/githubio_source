@@ -328,11 +328,11 @@ The virtual guest service provides a common interface to any virtualization plat
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getCurrentBillingDetail'> getCurrentBillingDetail</a> </span>
-            <div class='views-field-body'>Retrieve a computing instance's upgradeable items.</div>
+            <div class='views-field-body'><< EOT</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getCurrentBillingTotal'> getCurrentBillingTotal</a> </span>
-            <div class='views-field-body'>Get the total billing price for this instance's hourly usage up to this point. This includes total includes all bandwidth charges.</div>
+            <div class='views-field-body'>Get the billing total for this instance's usage up to this point. This total includes all bandwidth charges. </div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getCustomBandwidthDataByDate'> getCustomBandwidthDataByDate</a> </span>
@@ -377,6 +377,10 @@ The virtual guest service provides a common interface to any virtualization plat
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getFrontendRouters'> getFrontendRouters</a> </span>
             <div class='views-field-body'>Retrieve a guest's frontend or public router.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getGcPassword'> getGcPassword</a> </span>
+            <div class='views-field-body'>Retrieve the encrypted Windows user password.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getGlobalIdentifier'> getGlobalIdentifier</a> </span>

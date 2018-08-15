@@ -185,6 +185,16 @@ Full details presented to reviewers when determining whether or not to accept a 
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#reviewHistory" name=reviewHistory>reviewHistory</a>
+            </span>
+            <div class='views-field-body'>Summary of request's review activity </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Review_History'>SoftLayer_Container_Account_ProofOfConcept_Review_History </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#startDate" name=startDate>startDate</a>
             </span>
             <div class='views-field-body'>Expected start date of the proof of concept period </div>

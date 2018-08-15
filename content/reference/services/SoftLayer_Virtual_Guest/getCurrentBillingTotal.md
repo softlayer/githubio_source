@@ -1,6 +1,6 @@
 ---
 title: "getCurrentBillingTotal"
-description: "Get the total billing price in US Dollars ($) for this instance. This includes all bandwidth used up to this point for t... "
+description: "Get the total bill amount in US Dollars ($) for this instance in the current billing period. This includes all bandwidth... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getCurrentBillingTotal
 
-Get the total billing price for this instance's hourly usage up to this point. This includes total includes all bandwidth charges.
+Get the billing total for this instance's usage up to this point. This total includes all bandwidth charges. 
 
 
 ## Overview 
-Get the total billing price in US Dollars ($) for this instance. This includes all bandwidth used up to this point for this instance. 
+Get the total bill amount in US Dollars ($) for this instance in the current billing period. This includes all bandwidth used up to the point this method is called on the instance. 
 
 ### Parameters 
 |Name | Type | Description |

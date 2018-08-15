@@ -47,10 +47,6 @@ A network interconnect tenant defines an IP routing path through a network inter
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Interconnect_Tenant/findDirectLinkLocationForProvider'> findDirectLinkLocationForProvider</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Interconnect_Tenant/getAllConnections'> getAllConnections</a> </span>
             <div class='views-field-body'></div>
         </div>
@@ -108,6 +104,10 @@ A network interconnect tenant defines an IP routing path through a network inter
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Interconnect_Tenant/isAdnAccount'> isAdnAccount</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Interconnect_Tenant/rejectApprovalRequests'> rejectApprovalRequests</a> </span>
             <div class='views-field-body'></div>
         </div>
         </div>

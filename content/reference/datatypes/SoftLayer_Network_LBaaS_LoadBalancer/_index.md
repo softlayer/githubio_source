@@ -203,6 +203,16 @@ The SoftLayer_Network_LBaaS_LoadBalancer type presents a structure containing at
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#l7Pools" name=l7Pools>l7Pools</a>
+            </span>
+            <div class='views-field-body'>L7Pools for load balancer. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Pool'>SoftLayer_Network_LBaaS_L7Pool[] </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#listeners" name=listeners>listeners</a>
             </span>
             <div class='views-field-body'>Listeners assigned to load balancer. </div>
@@ -237,6 +247,16 @@ The SoftLayer_Network_LBaaS_LoadBalancer type presents a structure containing at
                 <a href="#healthMonitorCount" name=healthMonitorCount>healthMonitorCount</a>
             </span>
             <div class='views-field-body'>A count of health monitors for the backend members. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#l7PoolCount" name=l7PoolCount>l7PoolCount</a>
+            </span>
+            <div class='views-field-body'>A count of l7Pools for load balancer. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>

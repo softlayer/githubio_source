@@ -43,6 +43,10 @@ The SoftLayer_Network_LBaaS_Listener API service allows consumers to add, edit a
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_Listener/getL7Policies'> getL7Policies</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_Listener/getObject'> getObject</a> </span>
             <div class='views-field-body'>Retrieve a SoftLayer_Network_LBaaS_Listener record.</div>
         </div>
