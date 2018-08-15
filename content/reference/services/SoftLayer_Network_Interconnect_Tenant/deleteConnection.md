@@ -22,7 +22,7 @@ aliases:
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|serviceKey| string| |
+|receivedObject| <a href='/reference/datatypes/SoftLayer_Network_Interconnect_Tenant'>SoftLayer_Network_Interconnect_Tenant </a>| |
 
 
 ### Required Headers

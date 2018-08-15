@@ -1,6 +1,6 @@
 ---
 title: "getEncryptionAttributes"
-description: "This method returns an array of encryption values"
+description: "This method returns an array of encryption values, or empty array if none are found"
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ aliases:
 
 
 ## Overview 
-This method returns an array of encryption values 
+This method returns an array of encryption values, or empty array if none are found 
 
 ### Parameters 
 |Name | Type | Description |
