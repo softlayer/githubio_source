@@ -1,6 +1,6 @@
 ---
 title: "isEncrypted"
-description: "This method indicates whether or not encrypted attributes are set on the primary disk."
+description: "This method indicates whether this image template contains an encrypted disk image."
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ aliases:
 
 
 ## Overview 
-This method indicates whether or not encrypted attributes are set on the primary disk. 
+This method indicates whether this image template contains an encrypted disk image. 
 
 ### Parameters 
 |Name | Type | Description |
