@@ -31,10 +31,9 @@ monitoring order and pass it to the SoftLayer_Product_Order API service to order
 In this care we'll order a Basic (Hardware and OS) package with Basic Monitoring Package - Linux configuration.
 
 Important manual pages:
-+ https://sldn.softlayer.com/reference/datatypes/SoftLayer_Container_Product_Order_Monitoring_Package
-+ http://sldn.softlayer.com/reference/datatypes/SoftLayer_Product_Item_Price
+
++ https://softlayer.github.io/reference/datatypes/SoftLayer_Container_Product_Order_Monitoring_Package
 + http://sldn.softlayer.com/reference/services/SoftLayer_Product_Order/verifyOrder
-+ http://sldn.softlayer.com/reference/services/SoftLayer_Product_Order/placeOrder
 + http://sldn.softlayer.com/reference/datatypes/SoftLayer_Monitoring_Agent_Configuration_Template_Group
 
 ```python
@@ -82,11 +81,10 @@ print(order)
 ```
 
 
-
-
 ### Activate Monitoring Agent
 
 Important manual pages:
+
 + https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/findByIpAddress
 + https://softlayer.github.io/reference/services/SoftLayer_Monitoring_Agent/activate
 
@@ -129,14 +127,10 @@ print(json.dumps(result, sort_keys=True, indent=2, separators=(',', ': ')))
 The scripts adds subscribers to an arbitrary VSI machine.
 
 Important manual pages:
-+ http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest
+
 + http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/getMonitoringAgents
-+ http://sldn.softlayer.com/reference/services/SoftLayer_Monitoring_Agent
 + http://sldn.softlayer.com/reference/services/SoftLayer_Monitoring_Agent/getEligibleAlarmSubscibers
 + http://sldn.softlayer.com/reference/services/SoftLayer_Monitoring_Agent/setActiveAlarmSubscriber
-+ http://sldn.softlayer.com/reference/services/SoftLayer_Monitoring_Agent/SoftLayer_User_Customer
-+ http://sldn.softlayer.com/reference/services/SoftLayer_Monitoring_Agent/SoftLayer_User_Customer/getObject
-+ http://sldn.softlayer.com/reference/datatypes/SoftLayer_Monitoring_Agent/SoftLayer_User_Customer
 
 ```python
 """
@@ -184,11 +178,12 @@ configuration template, then creates a template group and adds the created
 configuration template to the new template group.
 
 Important manual pages:
+
 + https://softlayer.github.io/reference/services/SoftLayer_Configuration_Template
 + https://softlayer.github.io/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group
 + https://softlayer.github.io/reference/services/SoftLayer_Product_Package
 
-```
+```python
 """
 Create a monitoring configuration template and a template group
 
@@ -605,6 +600,7 @@ except SoftLayer.SoftLayerAPIError as e:
 
 ### Edit Agent Profile
 Important manual pages
+
 + http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/findByIpAddress
 + http://sldn.softlayer.com/reference/services/SoftLayer_Hardware_Server/findByIpAddress
 + http://sldn.softlayer.com/reference/services/SoftLayer_Monitoring_Agent/addConfigurationProfile
@@ -704,6 +700,7 @@ except SoftLayer.SoftLayerAPIError as e:
 
 ### Deactive Agent
 Important manual pages:
+
 + http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/findByIpAddress
 + http://sldn.softlayer.com/reference/services/SoftLayer_Monitoring_Agent/deactivate
 
@@ -830,6 +827,7 @@ The script gets the CPU usage in a selected date range.
 Important manual pages.
 + http://sldn.softlayer.com/reference/services/SoftLayer_Monitoring_Agent
 + http://sldn.softlayer.com/reference/services/SoftLayer_Monitoring_Agent/getGraphData
+
 ```python
 """
 Get the graph data from a monitoring agent
@@ -876,7 +874,7 @@ Important manual pages
 + http://sldn.softlayer.com/reference/services/SoftLayer_Monitoring_Agent/getGraphData
 + http://sldn.softlayer.com/reference/services/Monitoring_Agent_Configuration_Value/getMetricDataType
 
-```
+```python
 """
 View the reports for the  "CPU" section from the
 'Cpu, Disk, and Memory Monitoring Agent' monitor agent.
