@@ -304,6 +304,7 @@ except SoftLayer.SoftLayerAPIError as e:
 ### Configure Monitoring Agent
 
 Important manual pages
+
 + http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/findByIpAddress
 + http://sldn.softlayer.com/reference/services/SoftLayer_Hardware_Server/findByIpAddress
 + http://sldn.softlayer.com/reference/services/SoftLayer_Monitoring_Agent/applyConfigurationValues
@@ -397,6 +398,7 @@ except SoftLayer.SoftLayerAPIError as e:
 ### Configure new agent disk profile
 
 Important manual pages
+
 + http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/findByIpAddress
 + http://sldn.softlayer.com/reference/services/SoftLayer_Hardware_Server/findByIpAddress
 + http://sldn.softlayer.com/reference/services/SoftLayer_Monitoring_Agent/addConfigurationProfile
@@ -495,7 +497,9 @@ except SoftLayer.SoftLayerAPIError as e:
 ```
 
 ### Configure Agent Memory Profile
+
 Important manual pages
+
 + http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/findByIpAddress
 + http://sldn.softlayer.com/reference/services/SoftLayer_Hardware_Server/findByIpAddress
 + http://sldn.softlayer.com/reference/services/SoftLayer_Monitoring_Agent/applyConfigurationValues
@@ -869,6 +873,7 @@ print(result)
 ```
 ### View Agent Report
 Important manual pages
+
 + http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/findByIpAddress
 + http://sldn.softlayer.com/reference/services/SoftLayer_Hardware_Server/findByIpAddress
 + http://sldn.softlayer.com/reference/services/SoftLayer_Monitoring_Agent/getGraphData
