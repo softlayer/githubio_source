@@ -1,7 +1,7 @@
 ---
 title: "Exception Handling in the SoftLayer API"
 description: "How to handle Exceptions provided by the SoftLayer API"
-date: "2011-06-20"
+date: "2018-08-23"
 tags:
     - "article"
     - "sldn"
@@ -9,20 +9,24 @@ tags:
 author: "sldn"
 ---
 
+Like any programming interface the SoftLayer API at times needs to return error messages to its users. The SoftLayer API brings these exceptions forward to the user so their application can handle the unexpected result. Exceptions are returned as SOAP, REST, or XML-RPC faults depending on the RPC method used to execute your API method call. Programming and scripting languages with SOAP and XML-RPC support usually have built-in methods for handling faults.
 
+## Exceptions by Endpoint
 
-Like any programming interface the SoftLayer API at times needs to return error messages to its users. The SoftLayer API brings these exceptions forward to the user so their application can handle the unexpected result. Exceptions are returned as SOAP or XML-RPC faults depending on the RPC method used to execute your API method call. Programming and scripting languages with SOAP and XML-RPC support usually have built-in methods for handling faults.
+#### SOAP Style Exceptions
 
-If you are manually processing your API response a SOAP Fault is akin to this:
+```xml
 <xml>
 <SOAP-ENV:Fault>
     <faultcode>MY_FAULT_CODE</faultcode>
     <faultstring>MY_EXCEPTION</faultstring>
 </SOAP-ENV:Fault>
 </xml>
+```
 
-Its XML-RPC counterpart resembles this:
+#### XML-RPC Style Exceptions
 
+```xml
 <xml>
 <?xml version="1.0"?>
 <methodResponse>
@@ -46,49 +50,51 @@ Its XML-RPC counterpart resembles this:
      </fault>
 </methodResponse>
 </xml>
+```
+#### REST Style Exceptions
 
-The REST responses vary based on the requested output type.  An example REST response that you might find looks like this:
+Rest API calls can have the results returned as XML, or JSON, depending on how you end your api call.
 
-XML:
-<xml>
+https://api.softlayer.com/rest/v3.1/SoftLayer_Account/BlockDeviceTemplateGroups1.xml:
+```xml
 <root>
-    <error>faultString</error>
+    <error>Function (&quot;BlockDeviceTemplateGroups1&quot;) is not a valid method for this service.</error>
+    <code>SoftLayer_Exception_Public</code>
 </root>
-</xml>
+```
 
-JSON:
-<javascript>
+https://api.softlayer.com/rest/v3.1/SoftLayer_Account/BlockDeviceTemplateGroups1.json:
+```
+<json>
 {
-    error: "faultString"
+    "code": "SoftLayer_Exception_Public",
+    "error": "Function (\"BlockDeviceTemplateGroups1\") is not a valid method for this service."
 }
-</javascript>
-
+</json>
+```
 Method calls are halted if exceptions are encountered during their execution.  The specialized exceptions that a method can throw are listed on that method's manual page.
 
-## Common Exceptions ##
-Though the exceptions that each method can throw are listed on that method's manual page, the SoftLayer API throws a number of more common exceptions in the case of a general failure. These exceptions include:
-<ul>
-<li>'''<code>An error has occurred while processing your request.  Please try again later.</code>'''
-A generic message for an internal error.  Upon encountering this error, please open a Support Ticket in the SoftLayer Customer Portal with the following information:
-<ul>
-<li>Note that error was received through the API</li>
-<li>API call that is generating the error</li>
-</ul>
-</li>
-<li>'''<code>No valid authentication found</code>'''
-[[Authenticate]] header was not passed to the method call</li>
-<li>'''<code>Invalid API token</code>'''
-Username of API key passed to the  method call are incorrect</li>
-<li>'''<code>SOAP-ERROR: Encoding: Violation of encoding rules</code>'''
-SOAP API call is passing an incorrect data type in its request
-'''Example:''' A string where an integer is expected.</li>
+## Common Exceptions 
 
-<li>'''<code>This feature is managed by SoftLayer support.</code>'''
-The resource you are trying to access is a managed service of your SoftLayer account and can only be changed by SoftLayer support.</li>
-<li>'''<code>Unable to find object with id of ‘<id>’</code>'''
-A resource could not be found for the provided identifier.</li>
-</ul>
-## External Links ##
+- SoftLayer_Exception_Public
+This is the base exception class, and most exceptions will fall into this code. Generally you will need to read the error code to understand what exactly went wrong.
 
-* [http://www.w3schools.com/soap/soap_fault.asp SOAP Fault Element] at [http://www.w3schools.com/ w3schools.com]
-* [http://www.xmlrpc.com/spec XML-RPC Specification] at [http://www.xmlrpc.com/ xmlrpc.com]
+`{"error":"Access Denied. ","code":"SoftLayer_Exception_Public"}`
+Check your username and API key to make sure they are still valid. 
+
+`{"error":"Internal Error","code":"SoftLayer_Exception_Public"}`
+Generally this indicates you are requesting too much data. Try limiting your objectMask to only the local and relational properties you need, or use a resultLimit. 
+
+- SoftLayer_Exception_InvalidValue
+`{"error": The character @ must appear once and only once in an email address.","code":"SoftLayer_Exception_InvalidValue"}`
+Check the methods manual page to make sure the data you are sending matches the type expected.
+
+- SoftLayer_Exception_ObjectNotFound
+`{"error":"Unable to find object with id of '1'.","code":"SoftLayer_Exception_ObjectNotFound"}`
+Either the ID you are looking for doesn't exist, or you don't have access to it.
+
+- SoftLayer_Exception_WebService_BadRequest
+`{"error":"Bad request","code":"SoftLayer_Exception_WebService_BadRequest"}`
+The API endpoint wasn't able to figure out your request. Could be the result of trying to POST to a method that only accepts GET requests, or some other badly formed data.
+
+
