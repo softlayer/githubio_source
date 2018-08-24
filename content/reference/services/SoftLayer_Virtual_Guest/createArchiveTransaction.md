@@ -22,9 +22,9 @@ Create a transaction to archive a computing instance's block devices
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|groupName| string| the group name for the archive|
-|blockDevices| <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device'>SoftLayer_Virtual_Guest_Block_Device[] </a>| The block devices to archive|
-|note| string| A long note describing the image template|
+|groupName| string| The group name for the archive.|
+|blockDevices| <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device'>SoftLayer_Virtual_Guest_Block_Device[] </a>| The block devices to archive.|
+|note| string| A long note describing the image template.|
 
 
 ### Required Headers

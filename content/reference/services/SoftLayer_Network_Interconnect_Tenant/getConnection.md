@@ -23,6 +23,7 @@ aliases:
 |Name | Type | Description |
 | --- | --- | --- |
 |serviceKey| string| |
+|provider| string| |
 
 
 ### Required Headers

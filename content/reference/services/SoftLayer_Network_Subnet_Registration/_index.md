@@ -18,9 +18,9 @@ classes:
 </div>
 
 ## Description
-Subnet registration objects are used to request and track registration of the subnet with the appropriate Regional Internet Registry (RIR). Subnet registration is executed automatically for RIRs that require registration upon assignment, but this registration can be modified at any time. 
+Subnet registration objects are used to request and track registration of the subnet with the appropriate Regional Internet Registry (RIR). Registration for public subnets can be requested any time after assignment of the subnet. 
 
-Subnet Registration objects can be updated after they are created. This will result in the information being submitted to the RIR and the records on their end being refreshed. 
+Subnet Registration objects can be updated any time after they are created. This will result in the information being submitted to the RIR and the records on their end being refreshed. 
 
 
 
@@ -42,7 +42,11 @@ Subnet Registration objects can be updated after they are created. This will res
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Subnet_Registration/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create a new subnet registration object</div>
+            <div class='views-field-body'>Create a new subnet registration</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Subnet_Registration/createObjects'> createObjects</a> </span>
+            <div class='views-field-body'>Create registrations for multiple subnets</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Subnet_Registration/editObject'> editObject</a> </span>

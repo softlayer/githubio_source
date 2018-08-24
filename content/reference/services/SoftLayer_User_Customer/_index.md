@@ -221,6 +221,10 @@ API users have full access to their own portal user account and they could also 
             <div class='views-field-body'>Retrieve whether or not a portal user has access to all hardware on their account.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/getIbmIdLink'> getIbmIdLink</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/getImpersonationToken'> getImpersonationToken</a> </span>
             <div class='views-field-body'></div>
         </div>

@@ -689,6 +689,16 @@ The SoftLayer_User_Customer data type contains general information relating to a
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#ibmIdLink" name=ibmIdLink>ibmIdLink</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#layoutProfiles" name=layoutProfiles>layoutProfiles</a>
             </span>
             <div class='views-field-body'> </div>
