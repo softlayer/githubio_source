@@ -1,6 +1,6 @@
 ---
 title: "getBillingItem"
-description: "Retrieve the billing item for a network interconnect."
+description: "Retrieve the active billing item for a network interconnect."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Network_Interconnect_Tenant](/reference/services/SoftLayer_Network_Interconnect_Tenant)::getBillingItem
 
-Retrieve the billing item for a network interconnect.
+Retrieve the active billing item for a network interconnect.
 
 
 ## Overview 
-Retrieve the billing item for a network interconnect.
+Retrieve the active billing item for a network interconnect.
 
 ### Parameters 
 |Name | Type | Description |

@@ -285,7 +285,7 @@ classes:
             <span class='views-field-title'>
                 <a href="#billingItem" name=billingItem>billingItem</a>
             </span>
-            <div class='views-field-body'>The billing item for a network interconnect. </div>
+            <div class='views-field-body'>The active billing item for a network interconnect. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Billing_Item_Network_Interconnect'>SoftLayer_Billing_Item_Network_Interconnect </a></p>

@@ -400,7 +400,7 @@ The virtual guest service provides a common interface to any virtualization plat
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getHourlyBillingFlag'> getHourlyBillingFlag</a> </span>
-            <div class='views-field-body'>Retrieve whether or not a computing instance is billed hourly instead of monthly.</div>
+            <div class='views-field-body'>Retrieve a guest's hourly billing status.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getInboundPrivateBandwidthUsage'> getInboundPrivateBandwidthUsage</a> </span>

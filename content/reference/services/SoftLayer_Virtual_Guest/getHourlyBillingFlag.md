@@ -1,6 +1,6 @@
 ---
 title: "getHourlyBillingFlag"
-description: "Retrieve whether or not a computing instance is billed hourly instead of monthly."
+description: "Retrieve a guest's hourly billing status."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getHourlyBillingFlag
 
-Retrieve whether or not a computing instance is billed hourly instead of monthly.
+Retrieve a guest's hourly billing status.
 
 
 ## Overview 
-Retrieve whether or not a computing instance is billed hourly instead of monthly.
+Retrieve a guest's hourly billing status.
 
 ### Parameters 
 |Name | Type | Description |

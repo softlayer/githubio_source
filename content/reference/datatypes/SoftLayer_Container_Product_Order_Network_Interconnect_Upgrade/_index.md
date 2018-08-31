@@ -1,24 +1,30 @@
 ---
-title: "SoftLayer_Container_Product_Order_Virtual_Guest_Vpc"
-description: ""
+title: "SoftLayer_Container_Product_Order_Network_Interconnect_Upgrade"
+description: "This is the datatype that needs to be populated and sent to SoftLayer_Product_Order::placeOrder. This datatype has every... "
 layout: "datatype"
 tags:
     - "datatype"
     - "sldn"
     - "Container"
 classes:
-    - "SoftLayer_Container_Product_Order_Virtual_Guest_Vpc"
+    - "SoftLayer_Container_Product_Order_Network_Interconnect_Upgrade"
 ---
 
-# SoftLayer_Container_Product_Order_Virtual_Guest_Vpc
+# SoftLayer_Container_Product_Order_Network_Interconnect_Upgrade
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest_Vpc' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Container_Product_Order_Network_Interconnect_Upgrade' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
+This is the datatype that needs to be populated and sent to SoftLayer_Product_Order::placeOrder. This datatype has everything required to place an upgrade order for Direct Link. 
 
+
+### associatedMethods
+
+*  [SoftLayer_Product_Order::verifyOrder](/reference/services/SoftLayer_Product_Order/verifyOrder )
+*  [SoftLayer_Product_Order::placeOrder](/reference/services/SoftLayer_Product_Order/placeOrder )
 
 
 
@@ -40,12 +46,12 @@ classes:
         <h2>Local</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#additionalNetworkInterfaces" name=additionalNetworkInterfaces>additionalNetworkInterfaces</a>
+                <a href="#bgpAsn" name=bgpAsn>bgpAsn</a>
             </span>
-            <div class='views-field-body'> </div>
+            <div class='views-field-body'>The BGP ASN. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_NetworkInterface'>SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_NetworkInterface[] </a></p>
+                <p>string</p>
             </div>
         </div>
                 <div class='prop-row views-row'>
@@ -80,62 +86,12 @@ classes:
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#bootMode" name=bootMode>bootMode</a>
-            </span>
-            <div class='views-field-body'>The mode used to boot the [[SoftLayer_Virtual_Guest]].  Supported values are 'PV' and 'HVM'. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bootableDiskId" name=bootableDiskId>bootableDiskId</a>
-            </span>
-            <div class='views-field-body'>Identifier of the [[SoftLayer_Virtual_Disk_Image]] to boot from. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#cancelUrl" name=cancelUrl>cancelUrl</a>
             </span>
             <div class='views-field-body'>The URL to which PayPal redirects browser after checkout has been canceled before completion of a payment. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#clusterIdentifier" name=clusterIdentifier>clusterIdentifier</a>
-            </span>
-            <div class='views-field-body'>Used to identify which items on an order belong in the same cluster. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#clusterOrderType" name=clusterOrderType>clusterOrderType</a>
-            </span>
-            <div class='views-field-body'>Indicates what type of cluster order is being placed (HA, Provision). </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#clusterResourceId" name=clusterResourceId>clusterResourceId</a>
-            </span>
-            <div class='views-field-body'>Used to identify which gateway is being upgraded to HA. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
             </div>
         </div>
                 <div class='prop-row views-row'>
@@ -230,16 +186,6 @@ classes:
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#hostId" name=hostId>hostId</a>
-            </span>
-            <div class='views-field-body'>Identifier of [[SoftLayer_Virtual_DedicatedHost]] to order </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#imageTemplateGlobalIdentifier" name=imageTemplateGlobalIdentifier>imageTemplateGlobalIdentifier</a>
             </span>
             <div class='views-field-body'>An optional virtual disk image template identifier to be used as an installation base for a computing instance order </div>
@@ -260,22 +206,32 @@ classes:
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#instanceProfile" name=instanceProfile>instanceProfile</a>
+                <a href="#interconnectId" name=interconnectId>interconnectId</a>
             </span>
-            <div class='views-field-body'> </div>
+            <div class='views-field-body'>The [[SoftLayer_Network_Interconnect]] for this order, ID must be provided. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
-                <p>string</p>
+                <p>integer</p>
             </div>
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#ipAllocations" name=ipAllocations>ipAllocations</a>
+                <a href="#interconnectLocation" name=interconnectLocation>interconnectLocation</a>
             </span>
-            <div class='views-field-body'> </div>
+            <div class='views-field-body'>The [[SoftLayer_Network_DirectLink_Location]] for this order, ID must be provided. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_IpAllocation'>SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_IpAllocation[] </a></p>
+                <p><a href='/reference/datatypes/SoftLayer_Network_DirectLink_Location'>SoftLayer_Network_DirectLink_Location </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#interconnectTenant" name=interconnectTenant>interconnectTenant</a>
+            </span>
+            <div class='views-field-body'>The [[SoftLayer_Network_Interconnect_Tenant]] being modified. Only the ID is required.  </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_Interconnect_Tenant'>SoftLayer_Network_Interconnect_Tenant </a></p>
             </div>
         </div>
                 <div class='prop-row views-row'>
@@ -330,12 +286,22 @@ classes:
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#monitoringAgentConfigurationTemplateGroupId" name=monitoringAgentConfigurationTemplateGroupId>monitoringAgentConfigurationTemplateGroupId</a>
+                <a href="#name" name=name>name</a>
             </span>
-            <div class='views-field-body'>Id of the [[SoftLayer_Monitoring_Agent_Configuration_Template_Group]] to be used with the monitoring package </div>
+            <div class='views-field-body'>A name to identify this Direct Link resource. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
-                <p>integer</p>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#networkIdentifier" name=networkIdentifier>networkIdentifier</a>
+            </span>
+            <div class='views-field-body'>Optional network identifier for this link. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
             </div>
         </div>
                 <div class='prop-row views-row'>
@@ -542,16 +508,6 @@ If <code>orderContainers</code> is populated on the base order container, most o
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#privateCloudServerRole" name=privateCloudServerRole>privateCloudServerRole</a>
-            </span>
-            <div class='views-field-body'>When ordering Virtual Server (Private Node), this variable specifies the role of the server configuration. (Deprecated) </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#promotionCode" name=promotionCode>promotionCode</a>
             </span>
             <div class='views-field-body'>Optional promotion code for an order. </div>
@@ -636,26 +592,6 @@ If a regional group is provided and VLANs are specified (within the <code>hardwa
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#requiredUpstreamDeviceId" name=requiredUpstreamDeviceId>requiredUpstreamDeviceId</a>
-            </span>
-            <div class='views-field-body'>Used to identify which device the new server should be attached to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#resourceGroup" name=resourceGroup>resourceGroup</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#resourceGroupId" name=resourceGroupId>resourceGroupId</a>
             </span>
             <div class='views-field-body'>An optional resource group identifier specifying the resource group to attach the order to </div>
@@ -716,46 +652,6 @@ If a regional group is provided and VLANs are specified (within the <code>hardwa
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#serverId" name=serverId>serverId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#servicePortInterfaceId" name=servicePortInterfaceId>servicePortInterfaceId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#servicePortIpAllocationId" name=servicePortIpAllocationId>servicePortIpAllocationId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#servicePortVpcId" name=servicePortVpcId>servicePortVpcId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#serviceToken" name=serviceToken>serviceToken</a>
             </span>
             <div class='views-field-body'>The token of a requesting service. Do not set. </div>
@@ -808,36 +704,6 @@ The first storage group in this array will be considered the primary storage gro
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order_Storage_Group'>SoftLayer_Container_Product_Order_Storage_Group[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#storageVolumes" name=storageVolumes>storageVolumes</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_StorageVolume'>SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_StorageVolume[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnets" name=subnets>subnets</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_Subnet'>SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_Subnet[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#tags" name=tags>tags</a>
-            </span>
-            <div class='views-field-body'>tags (used in MongoDB deployments). (Deprecated) </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order_Property'>SoftLayer_Container_Product_Order_Property[] </a></p>
             </div>
         </div>
                 <div class='prop-row views-row'>
@@ -908,16 +774,6 @@ The first storage group in this array will be considered the primary storage gro
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#zone" name=zone>zone</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
             </div>
         </div>
             </div>

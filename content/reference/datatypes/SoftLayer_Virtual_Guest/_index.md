@@ -682,7 +682,7 @@ A guest, also known as a virtual server, represents an allocation of resources o
             <span class='views-field-title'>
                 <a href="#hourlyBillingFlag" name=hourlyBillingFlag>hourlyBillingFlag</a>
             </span>
-            <div class='views-field-body'>Whether or not a computing instance is billed hourly instead of monthly. </div>
+            <div class='views-field-body'>A guest's hourly billing status. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>boolean</p>
