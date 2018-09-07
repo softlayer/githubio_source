@@ -55,10 +55,6 @@ Mass Data Migration Request Service allows users to request Massive storage devi
             <div class='views-field-body'>Retrieves a list of all the possible statuses</div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getAssignedDeviceModel'> getAssignedDeviceModel</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getBillingItem'> getBillingItem</a> </span>
             <div class='views-field-body'>Retrieve an associated parent billing item which is active. Includes billing items which are scheduled to be cancelled in the future.</div>
         </div>
@@ -73,6 +69,10 @@ Mass Data Migration Request Service allows users to request Massive storage devi
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getDeviceConfiguration'> getDeviceConfiguration</a> </span>
             <div class='views-field-body'>Retrieve the device configurations.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getDeviceModel'> getDeviceModel</a> </span>
+            <div class='views-field-body'>Retrieve the model of device assigned to this request.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getKeyContacts'> getKeyContacts</a> </span>

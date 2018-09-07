@@ -95,6 +95,10 @@ The virtual guest service provides a common interface to any virtualization plat
             <div class='views-field-body'>Delete a computing instance</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/deleteTag'> deleteTag</a> </span>
+            <div class='views-field-body'>Delete a tag</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/deleteTransientWebhook'> deleteTransientWebhook</a> </span>
             <div class='views-field-body'></div>
         </div>
@@ -783,8 +787,16 @@ The virtual guest service provides a common interface to any virtualization plat
             <div class='views-field-body'>Remove access to multiple SoftLayer_Network_Storage volumes from this device. </div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/removeTags'> removeTags</a> </span>
+            <div class='views-field-body'>Remove a tag reference</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/resume'> resume</a> </span>
             <div class='views-field-body'>Resume a guest.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/sendTestReclaimScheduledAlert'> sendTestReclaimScheduledAlert</a> </span>
+            <div class='views-field-body'></div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/setPrivateNetworkInterfaceSpeed'> setPrivateNetworkInterfaceSpeed</a> </span>

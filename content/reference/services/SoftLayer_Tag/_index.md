@@ -39,6 +39,10 @@ SoftLayer's tagging service gives customers the ability to tag devices with keyw
             <div class='views-field-body'>Autocomplete tag inputted by a user</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Tag/deleteTag'> deleteTag</a> </span>
+            <div class='views-field-body'>delete tag for a given object.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Tag/getAccount'> getAccount</a> </span>
             <div class='views-field-body'>Retrieve the account to which the tag is tied.</div>
         </div>

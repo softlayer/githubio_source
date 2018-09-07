@@ -88,6 +88,10 @@ Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. Soft
             <div class='views-field-body'>Delete software component passwords.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/deleteTag'> deleteTag</a> </span>
+            <div class='views-field-body'>Delete a tag</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/editObject'> editObject</a> </span>
             <div class='views-field-body'>Edit a server's properties</div>
         </div>
@@ -1098,6 +1102,10 @@ Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. Soft
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/removeAccessToNetworkStorageList'> removeAccessToNetworkStorageList</a> </span>
             <div class='views-field-body'>Remove access to multiple SoftLayer_Network_Storage volumes from this device. </div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/removeTags'> removeTags</a> </span>
+            <div class='views-field-body'>Remove a tag reference</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/runPassmarkCertificationBenchmark'> runPassmarkCertificationBenchmark</a> </span>

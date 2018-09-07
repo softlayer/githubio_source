@@ -68,6 +68,10 @@ This service provides access to the device responsible for routing a particular 
             <div class='views-field-body'>Delete software component passwords.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Router/deleteTag'> deleteTag</a> </span>
+            <div class='views-field-body'>Delete a tag</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Router/editSoftwareComponentPasswords'> editSoftwareComponentPasswords</a> </span>
             <div class='views-field-body'>Edit the properties of software component passwords.</div>
         </div>
@@ -746,6 +750,10 @@ This service provides access to the device responsible for routing a particular 
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Router/removeAccessToNetworkStorageList'> removeAccessToNetworkStorageList</a> </span>
             <div class='views-field-body'>Remove access to multiple SoftLayer_Network_Storage volumes from this device. </div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Router/removeTags'> removeTags</a> </span>
+            <div class='views-field-body'>Remove a tag reference</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Router/setTags'> setTags</a> </span>
