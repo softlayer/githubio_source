@@ -50,6 +50,10 @@ MassDataMigration_CrossRegion_Country_Xref provides a list of countries where Ma
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref/getObject'> getObject</a> </span>
             <div class='views-field-body'>Retrieve a SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref record.</div>
         </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref/getValidCountriesForRegion'> getValidCountriesForRegion</a> </span>
+            <div class='views-field-body'>return countries assigned to the region having pricing info set.</div>
+        </div>
         </div>
 </div>
 

@@ -60,12 +60,32 @@ classes:
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#networkModel" name=networkModel>networkModel</a>
+            </span>
+            <div class='views-field-body'>Network model of the gateway. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#password" name=password>password</a>
             </span>
             <div class='views-field-body'>Password of the user name. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#sshKeyId" name=sshKeyId>sshKeyId</a>
+            </span>
+            <div class='views-field-body'>The SSH key id of key assigned to Gateway.  </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
             </div>
         </div>
                 <div class='prop-row views-row'>
@@ -83,6 +103,16 @@ classes:
                 <a href="#username" name=username>username</a>
             </span>
             <div class='views-field-body'>Username associated with the gateway. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#vSRXVersion" name=vSRXVersion>vSRXVersion</a>
+            </span>
+            <div class='views-field-body'>The vSRX version of the gateway software  </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>
@@ -119,6 +149,16 @@ classes:
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Network_Gateway_Status'>SoftLayer_Network_Gateway_Status </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#sshKey" name=sshKey>sshKey</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Security_Ssh_Key'>SoftLayer_Security_Ssh_Key </a></p>
             </div>
         </div>
                 <h2>Count</h2>
