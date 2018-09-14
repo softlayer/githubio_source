@@ -83,18 +83,29 @@ This is the base exception class, and most exceptions will fall into this code. 
 Check your username and API key to make sure they are still valid. 
 
 `{"error":"Internal Error","code":"SoftLayer_Exception_Public"}`
+
 Generally this indicates you are requesting too much data. Try limiting your objectMask to only the local and relational properties you need, or use a resultLimit. 
 
 - SoftLayer_Exception_InvalidValue
+
 `{"error": The character @ must appear once and only once in an email address.","code":"SoftLayer_Exception_InvalidValue"}`
+
 Check the methods manual page to make sure the data you are sending matches the type expected.
 
 - SoftLayer_Exception_ObjectNotFound
+
 `{"error":"Unable to find object with id of '1'.","code":"SoftLayer_Exception_ObjectNotFound"}`
+
 Either the ID you are looking for doesn't exist, or you don't have access to it.
 
 - SoftLayer_Exception_WebService_BadRequest
+
 `{"error":"Bad request","code":"SoftLayer_Exception_WebService_BadRequest"}`
+
 The API endpoint wasn't able to figure out your request. Could be the result of trying to POST to a method that only accepts GET requests, or some other badly formed data.
+
+- SoftLayer_Exception_NotImplemented
+
+Generally not an error you should encounter, but can be seen when trying to do some actions on resources that have not fully provisioned. If you get this exception on a resource that is fully provisioned, opening a ticket is recommended. 
 
 
