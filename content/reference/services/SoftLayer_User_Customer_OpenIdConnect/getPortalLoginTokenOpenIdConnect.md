@@ -22,7 +22,7 @@ Attempt to authenticate a supplied OpenIdConnect access token to the SoftLayer c
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|providerType| string| A value representing the OpenID Connect provider type. Currently "IBMid" is the only supported provider.|
+|providerType| string| A value representing the OpenID Connect provider type.|
 |accessToken| string| The OpenID Connect access token which provides temporary access to a resource by the|
 |accountId| integer| The preferred Softlayer account to query, if not provided a default will be used.|
 |securityQuestionId| integer| A security question you wish to answer when authenticating to the SoftLayer customer portal. This parameter isn't required if no security questions are set on your portal account or if your account is configured to not require answering a security account upon login.|

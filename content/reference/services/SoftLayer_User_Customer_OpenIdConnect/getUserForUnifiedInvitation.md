@@ -23,7 +23,7 @@ Returns an IMS User Object from the provided OpenIdConnect User ID or IBMid Uniq
 |Name | Type | Description |
 | --- | --- | --- |
 |openIdConnectUserId| string| The OpenId Connect user id to use for the IMS User lookup|
-|ibmIdUniqueIdentifier| string| The Optional IUI to use for the IMS user lookup, when provided as a second|
+|uniqueIdentifier| string| The Optional unique identifier (in IAMid format) to use for the IMS user lookup,|
 
 
 ### Required Headers

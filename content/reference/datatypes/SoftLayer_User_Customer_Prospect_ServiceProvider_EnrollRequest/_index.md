@@ -270,6 +270,16 @@ Contains user information for Service Provider Enrollment.
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#ibmIdUsername" name=ibmIdUsername>ibmIdUsername</a>
+            </span>
+            <div class='views-field-body'>Service provider IBMid username, if different than the email. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#ibmPartnerWorldId" name=ibmPartnerWorldId>ibmPartnerWorldId</a>
             </span>
             <div class='views-field-body'>IBM partner world id </div>

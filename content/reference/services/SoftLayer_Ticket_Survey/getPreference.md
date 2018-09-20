@@ -1,6 +1,6 @@
 ---
 title: "getPreference"
-description: "Use this method to retrieve the ticket survey preferences. It will return your [[SoftLayer_Container_Ticket_Survey_Prefe... "
+description: "(DEPRECATED) To opt in or out of future surveys, please follow the link found in the email survey."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Ticket_Survey](/reference/services/SoftLayer_Ticket_Survey)::getPreference
 
-Returns ticket survey preferences 
+
 
 
 ## Overview 
-Use this method to retrieve the ticket survey preferences. It will return your [[SoftLayer_Container_Ticket_Survey_Preference|survey preference]] which indicates if your account is applicable to receive a survey and if you're opted in. You can control the survey opt via the [[SoftLayer_Ticket_Survey::optIn|opt-in]] or [[SoftLayer_Ticket_Survey::optOut|opt-out]] method. 
+(DEPRECATED) To opt in or out of future surveys, please follow the link found in the email survey. 
 
 ### Parameters 
 |Name | Type | Description |
@@ -30,5 +30,5 @@ Use this method to retrieve the ticket survey preferences. It will return your [
 ### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Ticket_Survey_Preference'>SoftLayer_Container_Ticket_Survey_Preference </a>
+void
 

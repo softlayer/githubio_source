@@ -121,6 +121,10 @@ SoftLayer customers are unable to change their company account information in th
             <div class='views-field-body'>Retrieve the active address(es) that belong to an account.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getActiveAgreements'> getActiveAgreements</a> </span>
+            <div class='views-field-body'>Retrieve all active agreements for an account</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getActiveAlarms'> getActiveAlarms</a> </span>
             <div class='views-field-body'>Get all active alarms on this account.</div>
         </div>
@@ -163,6 +167,10 @@ SoftLayer customers are unable to change their company account information in th
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getActiveQuotes'> getActiveQuotes</a> </span>
             <div class='views-field-body'>Retrieve an account's non-expired quotes.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getActiveReservedCapacityAgreements'> getActiveReservedCapacityAgreements</a> </span>
+            <div class='views-field-body'>Retrieve active reserved capacity agreements for an account</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getActiveVirtualLicenses'> getActiveVirtualLicenses</a> </span>
@@ -761,6 +769,10 @@ The use of $locationId has been deprecated. </div>
             <div class='views-field-body'>Retrieve the next billing period's detailed invoice. Note, this should be considered preliminary as you may add, remove, change billing items on your account.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getNextInvoiceRecurringAmountEligibleForAccountDiscount'> getNextInvoiceRecurringAmountEligibleForAccountDiscount</a> </span>
+            <div class='views-field-body'>Retrieve the total recurring charge amount of an account's next invoice eligible for account discount measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getNextInvoiceTopLevelBillingItems'> getNextInvoiceTopLevelBillingItems</a> </span>
             <div class='views-field-body'>Retrieve the billing items that will be on an account's next invoice.</div>
         </div>
@@ -1031,6 +1043,14 @@ The use of $locationId has been deprecated. </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getRequireSilentIBMidUserCreation'> getRequireSilentIBMidUserCreation</a> </span>
             <div class='views-field-body'>Retrieve indicates whether newly created users under this account will be associated with IBMid via an email requiring a response, or not.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getReservedCapacityAgreements'> getReservedCapacityAgreements</a> </span>
+            <div class='views-field-body'>Retrieve all reserved capacity agreements for an account</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getReservedCapacityGroups'> getReservedCapacityGroups</a> </span>
+            <div class='views-field-body'>Retrieve the reserved capacity groups owned by this account.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getResourceGroups'> getResourceGroups</a> </span>

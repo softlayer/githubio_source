@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network"
-description: "A SoftLayer_Network represents a container for which subnetting is managed by the Account and not SoftLayer's automated... "
+description: "Provides services oriented to network-centric discovery and manipulation."
 date: "2018-02-12"
 layout: "service"
 tags:
@@ -18,29 +18,7 @@ classes:
 </div>
 
 ## Description
-A SoftLayer_Network represents a container for which subnetting is managed by the Account and not SoftLayer's automated network management. It provides an isolated network segment on the backend network in which a portion of RFC 1918 IP address space must be used. This feature replaces SoftLayer's automated network management on the backend network, but retains automated management on the frontend network. Thus, public IP assignment will remain dynamic and on-demand. This service and related operations are only available to Accounts with no existing network or compute resources. 
-
-A Network consists of a root subnet specification which defines the bounds of all Subnets within the Network. Subnets created within the Network must not exceed the Network's bounds nor overlap with one another. However, multiple Networks may specify identical or overlapping root subnets. 
-
-The following constraints apply to Network creation: 
-* The Network's size must only be between CIDR /16 and /24, inclusive.
-* The Network's IP address space must be within that defined by RFC 1918.
-* All RFC 1918 is available, but only a subset is available per Network.
-The following range of blocks are valid: 
-* 192.168.0.0 - 192.168.255.0 /16 - 24
-* 172.16.0.0 - 172.31.255.0 /16 - 24
-* 10.0.0.0 - 10.255.255.0 /16 - 24
-
-
-Management of a Network occurs entirely via the SoftLayer_Network service. This includes the addition and removal of Subnets. Subnets are required before compute resources may be provisioned. A subnet defines the portion of a Network that is available within a [[SoftLayer_Network_Pod|Pods]]. 
-
-See [[SoftLayer_Network/createObject]] and [[SoftLayer_Network/createSubnet]]. 
-
-### External Links
-
-
-* [RFC 1918](https://tools.ietf.org/html/rfc1918)
-
+Provides services oriented to network-centric discovery and manipulation. 
 
 
 
@@ -103,6 +81,10 @@ See [[SoftLayer_Network/createObject]] and [[SoftLayer_Network/createSubnet]].
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/getSubnets'> getSubnets</a> </span>
             <div class='views-field-body'>Retrieve the Subnets within the Network. These represent the realized segments of the Network and reside within a [[SoftLayer_Network_Pod|Pod]]. A Subnet must be specified when provisioning a compute resource within a Network.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/isConnectedToPrivateEndpointService'> isConnectedToPrivateEndpointService</a> </span>
+            <div class='views-field-body'></div>
         </div>
         </div>
 </div>

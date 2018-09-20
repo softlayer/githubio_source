@@ -1,0 +1,35 @@
+---
+title: "allowDeleteConnection"
+description: ""
+layout: "method"
+tags:
+    - "method"
+    - "sldn"
+    - "Network"
+classes:
+    - "SoftLayer_Network_Interconnect_Tenant"
+aliases:
+    - "/reference/services/softlayer_network_interconnect_tenant/allowDeleteConnection"
+---
+# [SoftLayer_Network_Interconnect_Tenant](/reference/services/SoftLayer_Network_Interconnect_Tenant)::allowDeleteConnection
+
+
+
+
+## Overview 
+
+
+### Parameters 
+|Name | Type | Description |
+| --- | --- | --- |
+|serviceKey| string| |
+
+
+### Required Headers
+* authenticate
+
+### Optional Headers
+
+### Return Values
+boolean
+

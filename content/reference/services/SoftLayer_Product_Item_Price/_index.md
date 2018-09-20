@@ -111,6 +111,10 @@ The SoftLayer_Product_Item_Price contains general information relating to a sing
             <div class='views-field-body'>Retrieve the number of server cores required to order this item. This is deprecated. Use [[SoftLayer_Product_Item_Price/getCapacityRestrictionMinimum|getCapacityRestrictionMinimum]] and [[SoftLayer_Product_Item_Price/getCapacityRestrictionMaximum|getCapacityRestrictionMaximum]]</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Product_Item_Price/getReservedCapacityInstanceFlag'> getReservedCapacityInstanceFlag</a> </span>
+            <div class='views-field-body'>Retrieve signifies pricing that is only available on a reserved capacity virtual server order.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Product_Item_Price/getUsageRatePrices'> getUsageRatePrices</a> </span>
             <div class='views-field-body'>Get all the rate-based prices for the location and items specified. </div>
         </div>

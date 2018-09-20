@@ -323,6 +323,16 @@ The SoftLayer_Product_Item data type contains general information relating to a 
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#ineligibleForAccountDiscountFlag" name=ineligibleForAccountDiscountFlag>ineligibleForAccountDiscountFlag</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#inventory" name=inventory>inventory</a>
             </span>
             <div class='views-field-body'>DEPRECATED. An item's inventory status per datacenter. </div>
