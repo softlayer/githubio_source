@@ -43,6 +43,8 @@ In these examples, <code>"<serviceName>"</code> would be replaced with the name 
 Each WSDL defines that specific service's available methods and includes an XSD file that defines every complex type available to the SoftLayer API. Once a WSDL is imported by your consuming service,  every data type and API service method should be available in your project.
 ## Sending API Call Headers
 Important API headers, such as authentication, initialization parameters, and object masks are sent to the SoftLayer API as SOAP headers. Each call header has an associated complex type. This sample header contains authentication information and an initialization parameter for the [[SoftLayer_Hardware_Server]] API service.
+
+```
 <xml>
 <SOAP-ENV:Header>
     <ns1:authenticate>
@@ -54,6 +56,8 @@ Important API headers, such as authentication, initialization parameters, and ob
     </ns1:SoftLayer_Hardware_ServerInitParameters>
 </SOAP-ENV:Header>
 </xml>
+```
+
 ## Using Object Masks
 Add an [[object mask]] to your API call by adding an object mask complex type which corresponds to the API service you are calling. Object masks are named according to your API servicewith a "<code><serviceName></code>ObjectMask" format, where <code><serviceName></code> corresponds to the name of the API service you're calling. For instance, an object mask for the SoftLayer_Account API service has the name <code>SoftLayer_AccountObjectMask</code> and the SoftLayer_Hardware_Server service's corresponding object mask class name is <code>SoftLayer_Hardware_ServerObjectMask</code>.
 Declare a <code><mask></code> inside your object with the name "mask" of the type defined by your API service containing the relational and count properties you wish to retrieve along with your API call result. Each item in your object mask is an empty XML value.
@@ -66,6 +70,8 @@ This example retrieves the following information:
 * Network components 
 * Datacenter in which the hardware is located 
 * Number of processors in each hardware:
+
+```xml
 <xml>
 <SoftLayer_Hardware_ServerObjectMask xsi:type="v3:SoftLayer_Hardware_ServerObjectMask">
     <mask xsi:type="slt:SoftLayer_Hardware_Server" xmlns:slt="https://api.softlayer.com/soap/v3/SLTypes/">
@@ -77,18 +83,24 @@ This example retrieves the following information:
     </mask>
 </SoftLayer_Hardware_ServerObjectMask>
 </xml>
+```
+
 ## Using Result Limits
 Place a result limit in your API call by adding a <code>resultLimit</code> complex type to your call headers. The resultLimit object has two properties:
 
 * "limit", an integer representing the number of results to limit your call.
 * "offset", an integer offset to begin your result set.
 This resultLimit header represents a result with a limit of 2, starting at offset 0.
+
+```xml
 <xml>
 <resultLimit xsi:type="slt:resultLimit" xmlns:slt="http://api.service.softlayer.com/soap/v3/SLTypes/">
     <limit xsi:type="xsd:int">2</limit>
     <offset xsi:type="xsd:int">0</offset>
 </resultLimit>
 </xml>
+```
+
 ## Error Handling
 The SOAP API returns SOAP faults if your call encounters an error. The fault's <code>faultcode</code> corresponds to the type of exception thrown by your error, while the fault's <code>faultstring</code> contains your error message.
 ## Caveats
