@@ -2041,6 +2041,16 @@ SoftLayer customers are unable to change their company account information in th
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#placementGroups" name=placementGroups>placementGroups</a>
+            </span>
+            <div class='views-field-body'>An account's associated virtual placement groups. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Virtual_PlacementGroup'>SoftLayer_Virtual_PlacementGroup[] </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#portableStorageVolumes" name=portableStorageVolumes>portableStorageVolumes</a>
             </span>
             <div class='views-field-body'> </div>
@@ -3965,6 +3975,16 @@ SoftLayer customers are unable to change their company account information in th
                 <a href="#permissionRoleCount" name=permissionRoleCount>permissionRoleCount</a>
             </span>
             <div class='views-field-body'>A count of an account's user roles. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#placementGroupCount" name=placementGroupCount>placementGroupCount</a>
+            </span>
+            <div class='views-field-body'>A count of an account's associated virtual placement groups. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>

@@ -917,6 +917,10 @@ The use of $locationId has been deprecated. </div>
             <div class='views-field-body'>Retrieve an account's user roles.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getPlacementGroups'> getPlacementGroups</a> </span>
+            <div class='views-field-body'>Retrieve an account's associated virtual placement groups.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getPortableStorageVolumes'> getPortableStorageVolumes</a> </span>
             <div class='views-field-body'></div>
         </div>
