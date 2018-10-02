@@ -100,6 +100,16 @@ The SoftLayer_Network_LBaaS_L7Policy represents the policy for a listener.
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#redirectL7PoolId" name=redirectL7PoolId>redirectL7PoolId</a>
+            </span>
+            <div class='views-field-body'>The L7 pool id to which traffic is redirected  </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#redirectL7PoolUuid" name=redirectL7PoolUuid>redirectL7PoolUuid</a>
             </span>
             <div class='views-field-body'>The UUID of the L7 pool object referenced by the policy when the policy action is set to REDIRECT_POOL  </div>

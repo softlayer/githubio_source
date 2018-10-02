@@ -567,6 +567,10 @@ The virtual guest service provides a common interface to any virtualization plat
             <div class='views-field-body'>Retrieve when true this virtual guest must be migrated using SoftLayer_Virtual_Guest::migrate.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getPlacementGroup'> getPlacementGroup</a> </span>
+            <div class='views-field-body'>Retrieve the placement group that a virtual guest belongs to.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getPowerState'> getPowerState</a> </span>
             <div class='views-field-body'>Retrieve the current power state of a virtual guest.</div>
         </div>
