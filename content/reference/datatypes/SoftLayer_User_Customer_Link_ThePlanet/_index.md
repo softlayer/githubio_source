@@ -80,16 +80,6 @@ classes:
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#ibmIdUniqueIdentifier" name=ibmIdUniqueIdentifier>ibmIdUniqueIdentifier</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#id" name=id>id</a>
             </span>
             <div class='views-field-body'> </div>

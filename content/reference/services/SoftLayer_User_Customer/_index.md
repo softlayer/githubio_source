@@ -93,6 +93,10 @@ API users have full access to their own portal user account and they could also 
             <div class='views-field-body'>Add a CloudLayer Computing Instance to a portal user's access list.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/assignNewParentId'> assignNewParentId</a> </span>
+            <div class='views-field-body'>Assign a different parent to this user. </div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/changePreference'> changePreference</a> </span>
             <div class='views-field-body'>Change preference values for the current user</div>
         </div>

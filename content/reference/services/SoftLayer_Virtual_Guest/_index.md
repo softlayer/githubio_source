@@ -383,10 +383,6 @@ The virtual guest service provides a common interface to any virtualization plat
             <div class='views-field-body'>Retrieve a guest's frontend or public router.</div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getGcPassword'> getGcPassword</a> </span>
-            <div class='views-field-body'>Retrieve the encrypted Windows user password.</div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getGlobalIdentifier'> getGlobalIdentifier</a> </span>
             <div class='views-field-body'>Retrieve a guest's universally unique identifier.</div>
         </div>
@@ -571,6 +567,10 @@ The virtual guest service provides a common interface to any virtualization plat
             <div class='views-field-body'>Retrieve when true this virtual guest must be migrated using SoftLayer_Virtual_Guest::migrate.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getPlacementGroup'> getPlacementGroup</a> </span>
+            <div class='views-field-body'>Retrieve the placement group that a virtual guest belongs to.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getPowerState'> getPowerState</a> </span>
             <div class='views-field-body'>Retrieve the current power state of a virtual guest.</div>
         </div>
@@ -629,6 +629,14 @@ The virtual guest service provides a common interface to any virtualization plat
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getRemoteMonitoringClosedAlarms'> getRemoteMonitoringClosedAlarms</a> </span>
             <div class='views-field-body'>Returns closed monitoring alarms for a given time period</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getReservedCapacityGroup'> getReservedCapacityGroup</a> </span>
+            <div class='views-field-body'>Retrieve the reserved capacity group the guest is associated with.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getReservedCapacityGroupInstance'> getReservedCapacityGroupInstance</a> </span>
+            <div class='views-field-body'>Retrieve the reserved capacity group instance the guest is associated with.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getReverseDomainRecords'> getReverseDomainRecords</a> </span>

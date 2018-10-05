@@ -66,6 +66,10 @@ classes:
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getReviewerEmailFromAccessToken'> getReviewerEmailFromAccessToken</a> </span>
             <div class='views-field-body'>Fetches an email address using a token</div>
         </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getTotalPendingRequests'> getTotalPendingRequests</a> </span>
+            <div class='views-field-body'></div>
+        </div>
         </div>
 </div>
 

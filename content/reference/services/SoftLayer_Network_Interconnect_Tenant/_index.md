@@ -35,6 +35,10 @@ A network interconnect tenant defines an IP routing path through a network inter
     </div>
     <div id="method-div">
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Interconnect_Tenant/allowDeleteConnection'> allowDeleteConnection</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Interconnect_Tenant/createConnection'> createConnection</a> </span>
             <div class='views-field-body'></div>
         </div>

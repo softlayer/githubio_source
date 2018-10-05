@@ -197,6 +197,16 @@ A guest, also known as a virtual server, represents an allocation of resources o
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#placementGroupId" name=placementGroupId>placementGroupId</a>
+            </span>
+            <div class='views-field-body'>The placement group ID that the virtual guest belongs to.  </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#postInstallScriptUri" name=postInstallScriptUri>postInstallScriptUri</a>
             </span>
             <div class='views-field-body'>URI of the script to be downloaded and executed after installation is complete. This is deprecated in favor of supplementalCreateObjectOptions' postInstallScriptUri.  </div>
@@ -1000,6 +1010,16 @@ A guest, also known as a virtual server, represents an allocation of resources o
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#placementGroup" name=placementGroup>placementGroup</a>
+            </span>
+            <div class='views-field-body'>The placement group that a virtual guest belongs to. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Virtual_PlacementGroup'>SoftLayer_Virtual_PlacementGroup </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#powerState" name=powerState>powerState</a>
             </span>
             <div class='views-field-body'>The current power state of a virtual guest. </div>
@@ -1106,6 +1126,26 @@ A guest, also known as a virtual server, represents an allocation of resources o
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Network_Regional_Internet_Registry'>SoftLayer_Network_Regional_Internet_Registry </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#reservedCapacityGroup" name=reservedCapacityGroup>reservedCapacityGroup</a>
+            </span>
+            <div class='views-field-body'>The reserved capacity group the guest is associated with. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup'>SoftLayer_Virtual_ReservedCapacityGroup </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#reservedCapacityGroupInstance" name=reservedCapacityGroupInstance>reservedCapacityGroupInstance</a>
+            </span>
+            <div class='views-field-body'>The reserved capacity group instance the guest is associated with. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance </a></p>
             </div>
         </div>
                 <div class='prop-row views-row'>

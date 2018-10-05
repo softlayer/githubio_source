@@ -77,6 +77,14 @@ This service is unavailable to users outside of IBM and is not applicable to the
             <div class='views-field-body'>Gets email address users can use to ask for help/support</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_ProofOfConcept/getTotalRequestsPendingIntegratedOfferingTeamReview'> getTotalRequestsPendingIntegratedOfferingTeamReview</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_ProofOfConcept/getTotalRequestsPendingOverThresholdReviewCount'> getTotalRequestsPendingOverThresholdReviewCount</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_ProofOfConcept/isCurrentReviewer'> isCurrentReviewer</a> </span>
             <div class='views-field-body'>Determines if the user is one of the reviewers currently able to act</div>
         </div>

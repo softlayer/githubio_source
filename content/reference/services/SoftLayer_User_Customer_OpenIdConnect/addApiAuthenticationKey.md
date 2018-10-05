@@ -17,7 +17,7 @@ Create a user's API authentication key.
 
 
 ## Overview 
-Create a user's API authentication key, allowing that user access to query the SoftLayer API. addApiAuthenticationKey() returns the users new API key. Each portal user is allowed a maximum of two API keys. 
+Create a user's API authentication key, allowing that user access to query the SoftLayer API. addApiAuthenticationKey() returns the user's new API key. Each portal user is allowed only one API key. 
 
 ### Parameters 
 |Name | Type | Description |
