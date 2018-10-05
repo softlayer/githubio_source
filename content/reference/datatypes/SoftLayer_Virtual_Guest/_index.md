@@ -1140,6 +1140,16 @@ A guest, also known as a virtual server, represents an allocation of resources o
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#reservedCapacityGroupFlag" name=reservedCapacityGroupFlag>reservedCapacityGroupFlag</a>
+            </span>
+            <div class='views-field-body'>Flag to indicate whether or not a guest is part of a reserved capacity group. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#reservedCapacityGroupInstance" name=reservedCapacityGroupInstance>reservedCapacityGroupInstance</a>
             </span>
             <div class='views-field-body'>The reserved capacity group instance the guest is associated with. </div>

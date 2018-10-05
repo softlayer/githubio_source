@@ -635,6 +635,10 @@ The virtual guest service provides a common interface to any virtualization plat
             <div class='views-field-body'>Retrieve the reserved capacity group the guest is associated with.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getReservedCapacityGroupFlag'> getReservedCapacityGroupFlag</a> </span>
+            <div class='views-field-body'>Retrieve flag to indicate whether or not a guest is part of a reserved capacity group.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest/getReservedCapacityGroupInstance'> getReservedCapacityGroupInstance</a> </span>
             <div class='views-field-body'>Retrieve the reserved capacity group instance the guest is associated with.</div>
         </div>
