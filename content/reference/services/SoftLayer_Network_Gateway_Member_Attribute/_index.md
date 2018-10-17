@@ -39,10 +39,6 @@ A network gateway member attribute is the attributes associated with a network g
             <div class='views-field-body'>Retrieve the gateway member has these attributes.</div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway_Member_Attribute/getGatewayStatus'> getGatewayStatus</a> </span>
-            <div class='views-field-body'>Retrieve the gateway status for this attribute.</div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway_Member_Attribute/getObject'> getObject</a> </span>
             <div class='views-field-body'>Retrieve a SoftLayer_Network_Gateway_Member_Attribute record.</div>
         </div>

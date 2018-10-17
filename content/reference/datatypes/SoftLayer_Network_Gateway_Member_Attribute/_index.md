@@ -90,16 +90,6 @@ classes:
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#statusId" name=statusId>statusId</a>
-            </span>
-            <div class='views-field-body'>The Gateway Status Id for the attribute.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#username" name=username>username</a>
             </span>
             <div class='views-field-body'>Username associated with the gateway. </div>
@@ -118,16 +108,6 @@ classes:
                 <p>string</p>
             </div>
         </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#version" name=version>version</a>
-            </span>
-            <div class='views-field-body'>The version of the gateway software </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
@@ -139,16 +119,6 @@ classes:
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Network_Gateway_Member'>SoftLayer_Network_Gateway_Member </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#gatewayStatus" name=gatewayStatus>gatewayStatus</a>
-            </span>
-            <div class='views-field-body'>The gateway status for this attribute. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Gateway_Status'>SoftLayer_Network_Gateway_Status </a></p>
             </div>
         </div>
                 <div class='prop-row views-row'>

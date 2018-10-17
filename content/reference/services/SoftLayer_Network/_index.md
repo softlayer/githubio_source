@@ -35,6 +35,10 @@ Provides services oriented to network-centric discovery and manipulation.
     </div>
     <div id="method-div">
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/connectPrivateEndpointService'> connectPrivateEndpointService</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/createObject'> createObject</a> </span>
             <div class='views-field-body'>Create a Network</div>
         </div>
@@ -49,6 +53,10 @@ Provides services oriented to network-centric discovery and manipulation.
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/deleteSubnet'> deleteSubnet</a> </span>
             <div class='views-field-body'>Remove a Subnet from the Network</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/disconnectPrivateEndpointService'> disconnectPrivateEndpointService</a> </span>
+            <div class='views-field-body'></div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/editObject'> editObject</a> </span>
