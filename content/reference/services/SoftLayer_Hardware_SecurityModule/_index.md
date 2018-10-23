@@ -41,11 +41,11 @@ classes:
     <div id="method-div">
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/activatePrivatePort'> activatePrivatePort</a> </span>
-            <div class='views-field-body'>Activates the private port</div>
+            <div class='views-field-body'>Activate a server's private network interface.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/activatePublicPort'> activatePublicPort</a> </span>
-            <div class='views-field-body'>Activates the public port</div>
+            <div class='views-field-body'>Activate a server's public network interface.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/allowAccessToNetworkStorage'> allowAccessToNetworkStorage</a> </span>
@@ -936,6 +936,10 @@ classes:
             <div class='views-field-body'>Get transaction history for a piece of hardware.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/getUefiBootFlag'> getUefiBootFlag</a> </span>
+            <div class='views-field-body'>Retrieve whether to use UEFI boot instead of BIOS.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/getUpgradeItemPrices'> getUpgradeItemPrices</a> </span>
             <div class='views-field-body'>Retrieve a list of upgradable items available to a piece of hardware.</div>
         </div>
@@ -1109,11 +1113,11 @@ classes:
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/setPrivateNetworkInterfaceSpeed'> setPrivateNetworkInterfaceSpeed</a> </span>
-            <div class='views-field-body'>Updates the private network interface (eth0) speed.</div>
+            <div class='views-field-body'>Set the speed and redundancy configuration of a server's private network interface.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/setPublicNetworkInterfaceSpeed'> setPublicNetworkInterfaceSpeed</a> </span>
-            <div class='views-field-body'>Updates the public network interface (eth1) speed.</div>
+            <div class='views-field-body'>Set the speed and redundancy configuration of a server's public network interface.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/setTags'> setTags</a> </span>
@@ -1125,11 +1129,11 @@ classes:
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/shutdownPrivatePort'> shutdownPrivatePort</a> </span>
-            <div class='views-field-body'>Shuts down the public port</div>
+            <div class='views-field-body'>Disconnect a server's private network interface.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/shutdownPublicPort'> shutdownPublicPort</a> </span>
-            <div class='views-field-body'>Shuts down the public port</div>
+            <div class='views-field-body'>Disconnect a server's public network interface.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/sparePool'> sparePool</a> </span>

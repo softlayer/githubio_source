@@ -1,6 +1,8 @@
 ---
 title: "shutdownPublicPort"
-description: "Shuts down the public network port"
+description: "<b>Note:</b> All error handling and parameter documentation is referencing behavior available on August 27th, 2018. 
+
+<h... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +15,23 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::shutdownPublicPort
 
-Shuts down the public port
+Disconnect a server's public network interface.
 
 
 ## Overview 
-Shuts down the public network port
+<b>Note:</b> All error handling and parameter documentation is referencing behavior available on August 27th, 2018. 
+
+<h3>Behavior deprecated on August 27th, 2018</h3> 
+
+Shuts down the public network port 
+
+<h3>NEW! Behavior on August 27th, 2018</h3> 
+
+Disconnect a server's public network interface. This operation is an alias for [[SoftLayer_Hardware_Server/setPublicNetworkInterfaceSpeed]] with a $newSpeed of 0 and default $redundancy. 
+
+Receipt of a response does not indicate completion of the configuration change. Any subsequent attempts to request the interface change speed or state, while changes are pending, will result in a busy error. 
+
+A response of true indicates a change was required to disconnect the interface; thus changes are pending. A response of false indicates the interface was already disconnected, and thus no changes are pending. 
 
 ### Parameters 
 |Name | Type | Description |
@@ -32,4 +46,11 @@ Shuts down the public network port
 
 ### Return Values
 boolean
+
+
+### associatedMethods
+
+*  [SoftLayer_Hardware_Server::setPublicNetworkInterfaceSpeed](/reference/services/SoftLayer_Hardware_Server/setPublicNetworkInterfaceSpeed )
+*  [SoftLayer_Hardware_Server::activatePublicPort](/reference/services/SoftLayer_Hardware_Server/activatePublicPort )
+*  [SoftLayer_Hardware_Server::shutdownPrivatePort](/reference/services/SoftLayer_Hardware_Server/shutdownPrivatePort )
 

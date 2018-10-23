@@ -41,11 +41,11 @@ Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. Soft
     <div id="method-div">
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/activatePrivatePort'> activatePrivatePort</a> </span>
-            <div class='views-field-body'>Activates the private port</div>
+            <div class='views-field-body'>Activate a server's private network interface.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/activatePublicPort'> activatePublicPort</a> </span>
-            <div class='views-field-body'>Activates the public port</div>
+            <div class='views-field-body'>Activate a server's public network interface.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/allowAccessToNetworkStorage'> allowAccessToNetworkStorage</a> </span>
@@ -944,6 +944,10 @@ Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. Soft
             <div class='views-field-body'>Get transaction history for a piece of hardware.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/getUefiBootFlag'> getUefiBootFlag</a> </span>
+            <div class='views-field-body'>Retrieve whether to use UEFI boot instead of BIOS.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/getUpgradeItemPrices'> getUpgradeItemPrices</a> </span>
             <div class='views-field-body'>Retrieve a list of upgradable items available to a piece of hardware.</div>
         </div>
@@ -1117,11 +1121,11 @@ Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. Soft
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/setPrivateNetworkInterfaceSpeed'> setPrivateNetworkInterfaceSpeed</a> </span>
-            <div class='views-field-body'>Updates the private network interface (eth0) speed.</div>
+            <div class='views-field-body'>Set the speed and redundancy configuration of a server's private network interface.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/setPublicNetworkInterfaceSpeed'> setPublicNetworkInterfaceSpeed</a> </span>
-            <div class='views-field-body'>Updates the public network interface (eth1) speed.</div>
+            <div class='views-field-body'>Set the speed and redundancy configuration of a server's public network interface.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/setTags'> setTags</a> </span>
@@ -1133,11 +1137,11 @@ Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. Soft
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/shutdownPrivatePort'> shutdownPrivatePort</a> </span>
-            <div class='views-field-body'>Shuts down the public port</div>
+            <div class='views-field-body'>Disconnect a server's private network interface.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/shutdownPublicPort'> shutdownPublicPort</a> </span>
-            <div class='views-field-body'>Shuts down the public port</div>
+            <div class='views-field-body'>Disconnect a server's public network interface.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/sparePool'> sparePool</a> </span>
