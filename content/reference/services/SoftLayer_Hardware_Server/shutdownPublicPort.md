@@ -1,6 +1,6 @@
 ---
 title: "shutdownPublicPort"
-description: "<b>Note:</b> All error handling and parameter documentation is referencing behavior available on August 27th, 2018. 
+description: "<b>Note:</b> All error handling and parameter documentation is referencing behavior available on January 4th, 2019. 
 
 <h... "
 layout: "method"
@@ -19,13 +19,13 @@ Disconnect a server's public network interface.
 
 
 ## Overview 
-<b>Note:</b> All error handling and parameter documentation is referencing behavior available on August 27th, 2018. 
+<b>Note:</b> All error handling and parameter documentation is referencing behavior available on January 4th, 2019. 
 
-<h3>Behavior deprecated on August 27th, 2018</h3> 
+<h3>Behavior deprecated on January 4th, 2019</h3> 
 
 Shuts down the public network port 
 
-<h3>NEW! Behavior on August 27th, 2018</h3> 
+<h3>NEW! Behavior on January 4th, 2019</h3> 
 
 Disconnect a server's public network interface. This operation is an alias for [[SoftLayer_Hardware_Server/setPublicNetworkInterfaceSpeed]] with a $newSpeed of 0 and default $redundancy. 
 

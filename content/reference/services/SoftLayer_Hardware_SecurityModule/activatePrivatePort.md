@@ -1,6 +1,6 @@
 ---
 title: "activatePrivatePort"
-description: "<b>Note:</b> All error handling and parameter documentation is referencing behavior available on August 27th, 2018. 
+description: "<b>Note:</b> All error handling and parameter documentation is referencing behavior available on January 4th, 2019. 
 
 <h... "
 layout: "method"
@@ -19,13 +19,13 @@ Activate a server's private network interface.
 
 
 ## Overview 
-<b>Note:</b> All error handling and parameter documentation is referencing behavior available on August 27th, 2018. 
+<b>Note:</b> All error handling and parameter documentation is referencing behavior available on January 4th, 2019. 
 
-<h3>Behavior deprecated on August 27th, 2018</h3> 
+<h3>Behavior deprecated on January 4th, 2019</h3> 
 
 Activates the private network port 
 
-<h3>NEW! Behavior on August 27th, 2018</h3> 
+<h3>NEW! Behavior on January 4th, 2019</h3> 
 
 Activate a server's private network interface to the maximum available speed. This operation is an alias for [[SoftLayer_Hardware_Server/setPrivateNetworkInterfaceSpeed]] with a $newSpeed of -1 and a $redundancy of "redundant". 
 
