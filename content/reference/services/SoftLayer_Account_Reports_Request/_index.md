@@ -63,6 +63,10 @@ classes:
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Reports_Request/getRequestorContact'> getRequestorContact</a> </span>
+            <div class='views-field-body'>Retrieve a request's corresponding requestor contact, if one exists.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Reports_Request/getTicket'> getTicket</a> </span>
             <div class='views-field-body'></div>
         </div>

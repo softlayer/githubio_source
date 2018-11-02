@@ -35,6 +35,10 @@ classes:
     </div>
     <div id="method-div">
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Contact/createComplianceReportRequestorContact'> createComplianceReportRequestorContact</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Contact/createObject'> createObject</a> </span>
             <div class='views-field-body'>This method creates an account contact.</div>
         </div>

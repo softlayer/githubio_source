@@ -150,6 +150,16 @@ classes:
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#requestorContactId" name=requestorContactId>requestorContactId</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#status" name=status>status</a>
             </span>
             <div class='views-field-body'> </div>
@@ -209,6 +219,16 @@ classes:
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Compliance_Report_Type'>SoftLayer_Compliance_Report_Type </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#requestorContact" name=requestorContact>requestorContact</a>
+            </span>
+            <div class='views-field-body'>A request's corresponding requestor contact, if one exists. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Account_Contact'>SoftLayer_Account_Contact </a></p>
             </div>
         </div>
                 <div class='prop-row views-row'>
