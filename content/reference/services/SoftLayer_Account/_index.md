@@ -566,7 +566,7 @@ SoftLayer customers are unable to change their company account information in th
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getIbmIdMigrationExpirationTimestamp'> getIbmIdMigrationExpirationTimestamp</a> </span>
-            <div class='views-field-body'>Retrieve timestamp representing the point in time when an account is required to use IBMid authentication.</div>
+            <div class='views-field-body'>Retrieve this key is deprecated and should not be used.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getInProgressExternalAccountSetup'> getInProgressExternalAccountSetup</a> </span>

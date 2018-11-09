@@ -1,6 +1,6 @@
 ---
 title: "getIbmIdMigrationExpirationTimestamp"
-description: "Retrieve timestamp representing the point in time when an account is required to use IBMid authentication."
+description: "Retrieve this key is deprecated and should not be used."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getIbmIdMigrationExpirationTimestamp
 
-Retrieve timestamp representing the point in time when an account is required to use IBMid authentication.
+Retrieve this key is deprecated and should not be used.
 
 
 ## Overview 
-Retrieve timestamp representing the point in time when an account is required to use IBMid authentication.
+Retrieve this key is deprecated and should not be used.
 
 ### Parameters 
 |Name | Type | Description |
