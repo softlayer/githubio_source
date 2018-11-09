@@ -40,6 +40,16 @@ The SoftLayer_Network_SecurityGroup_Rule data type contains general information 
         <h2>Local</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#createDate" name=createDate>createDate</a>
+            </span>
+            <div class='views-field-body'>The createDate field for a rule. It is essentially the date and time that the security group rule was created. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#direction" name=direction>direction</a>
             </span>
             <div class='views-field-body'>The direction of traffic (ingress or egress). </div>
@@ -66,6 +76,16 @@ The SoftLayer_Network_SecurityGroup_Rule data type contains general information 
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>integer</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#modifyDate" name=modifyDate>modifyDate</a>
+            </span>
+            <div class='views-field-body'>The modifyDate field for a rule. It is essentially the date and time that the security group rule was last changed. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>dateTime</p>
             </div>
         </div>
                 <div class='prop-row views-row'>

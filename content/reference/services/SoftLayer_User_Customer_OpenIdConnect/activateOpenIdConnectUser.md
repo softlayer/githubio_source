@@ -24,6 +24,7 @@ Completes invitation process for an OpenIdConnect user created by Bluemix Unifie
 | --- | --- | --- |
 |verificationCode| string| : invitation code used to create the user|
 |userInfo| <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>| : user object fields to be updated|
+|iamId| string| Fully qualified (realm-id format) IAMid for the user (optional)|
 
 
 ### Required Headers
