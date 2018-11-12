@@ -1253,7 +1253,7 @@ SoftLayer customers are unable to change their company account information in th
             <span class='views-field-title'>
                 <a href="#ibmIdMigrationExpirationTimestamp" name=ibmIdMigrationExpirationTimestamp>ibmIdMigrationExpirationTimestamp</a>
             </span>
-            <div class='views-field-body'>Timestamp representing the point in time when an account is required to use IBMid authentication. </div>
+            <div class='views-field-body'>This key is deprecated and should not be used. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>

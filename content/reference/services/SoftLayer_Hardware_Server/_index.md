@@ -264,6 +264,10 @@ Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. Soft
             <div class='views-field-body'>Retrieve determines whether the hardware is ineligible for cancellation because it is disconnected.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/getBootModeOptions'> getBootModeOptions</a> </span>
+            <div class='views-field-body'>Retrieve the valid boot modes for this server.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/getBusinessContinuanceInsuranceFlag'> getBusinessContinuanceInsuranceFlag</a> </span>
             <div class='views-field-body'>Retrieve status indicating whether or not a piece of hardware has business continuance insurance.</div>
         </div>
@@ -494,6 +498,10 @@ Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. Soft
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/getIsIpmiDisabled'> getIsIpmiDisabled</a> </span>
             <div class='views-field-body'>Retrieve determine if remote management has been disabled due to port speed.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/getIsVirtualPrivateCloudNode'> getIsVirtualPrivateCloudNode</a> </span>
+            <div class='views-field-body'>Retrieve determine if hardware object is a Virtual Private Cloud node.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/getItemPricesFromSoftwareDescriptions'> getItemPricesFromSoftwareDescriptions</a> </span>

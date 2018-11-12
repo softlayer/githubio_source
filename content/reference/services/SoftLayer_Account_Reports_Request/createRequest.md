@@ -22,9 +22,10 @@ aliases:
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|contact| <a href='/reference/datatypes/SoftLayer_Account_Contact'>SoftLayer_Account_Contact </a>| The external party for which the request may be created|
+|recipientContact| <a href='/reference/datatypes/SoftLayer_Account_Contact'>SoftLayer_Account_Contact </a>| The external party for which the request may be created|
 |reason| string| The reason the external party is requesting the report|
 |reportType| string| type of the report customer is requesting|
+|requestorContact| <a href='/reference/datatypes/SoftLayer_Account_Contact'>SoftLayer_Account_Contact </a>| The external party for who requested the report|
 
 
 ### Required Headers
