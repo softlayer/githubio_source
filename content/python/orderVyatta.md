@@ -194,6 +194,7 @@ class vyattaOrderer():
             'NESSUS_VULNERABILITY_ASSESSMENT_REPORTING',
             'UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT',
             'REDUNDANT_POWER_SUPPLY',
+            'SRIOV_ENABLED'
         ]
 
         # 20000GB is recommended. 
