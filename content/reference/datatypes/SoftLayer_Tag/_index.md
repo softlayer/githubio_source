@@ -72,7 +72,7 @@ The SoftLayer_Tag data type is an optional type associated with hardware. The ac
             <span class='views-field-title'>
                 <a href="#name" name=name>name</a>
             </span>
-            <div class='views-field-body'>Name of the tag. The characters permitted are A-Z, 0-9, whitespace, _ (underscore), </div>
+            <div class='views-field-body'>Name of the tag. The characters permitted are A-Z, 0-9, whitespace, </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>

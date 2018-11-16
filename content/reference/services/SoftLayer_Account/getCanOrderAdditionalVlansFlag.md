@@ -1,6 +1,6 @@
 ---
 title: "getCanOrderAdditionalVlansFlag"
-description: "Retrieve indicating whether this account can order additional Vlans."
+description: "Retrieve [DEPRECATED] All accounts may order VLANs."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getCanOrderAdditionalVlansFlag
 
-Retrieve indicating whether this account can order additional Vlans.
+Retrieve [DEPRECATED] All accounts may order VLANs.
 
 
 ## Overview 
-Retrieve indicating whether this account can order additional Vlans.
+Retrieve [DEPRECATED] All accounts may order VLANs.
 
 ### Parameters 
 |Name | Type | Description |
