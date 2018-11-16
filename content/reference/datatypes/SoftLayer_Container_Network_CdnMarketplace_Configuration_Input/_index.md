@@ -120,6 +120,16 @@ classes:
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#hotlinkProtection" name=hotlinkProtection>hotlinkProtection</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection'>SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#httpPort" name=httpPort>httpPort</a>
             </span>
             <div class='views-field-body'> </div>

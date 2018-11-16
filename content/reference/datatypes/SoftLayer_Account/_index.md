@@ -783,7 +783,7 @@ SoftLayer customers are unable to change their company account information in th
             <span class='views-field-title'>
                 <a href="#canOrderAdditionalVlansFlag" name=canOrderAdditionalVlansFlag>canOrderAdditionalVlansFlag</a>
             </span>
-            <div class='views-field-body'>Indicating whether this account can order additional Vlans. </div>
+            <div class='views-field-body'>[DEPRECATED] All accounts may order VLANs. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>boolean</p>

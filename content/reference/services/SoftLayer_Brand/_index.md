@@ -47,6 +47,10 @@ SoftLayer customers are unable to change their brand information in the portal o
             <div class='views-field-body'>Create a new brand record.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Brand/disableAccount'> disableAccount</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Brand/getAccount'> getAccount</a> </span>
             <div class='views-field-body'></div>
         </div>
@@ -153,6 +157,10 @@ SoftLayer customers are unable to change their brand information in the portal o
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Brand/isPlatformServicesBrand'> isPlatformServicesBrand</a> </span>
             <div class='views-field-body'>Check if the alternate billing system of brand is Bluemix.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Brand/verifyCanDisableAccount'> verifyCanDisableAccount</a> </span>
+            <div class='views-field-body'></div>
         </div>
         </div>
 </div>

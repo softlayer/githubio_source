@@ -13,7 +13,7 @@ aliases:
 ---
 # [SoftLayer_Tag](/reference/services/SoftLayer_Tag)::autoComplete
 
-Autocomplete tag inputted by a user
+Autocomplete tag inputted by a user.
 
 
 ## Overview 
@@ -22,7 +22,7 @@ This function is responsible for setting the Tags values. The internal flag is s
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|tag| string| tag inputted|
+|tag| string| Tag inputted by the user.|
 
 
 ### Required Headers

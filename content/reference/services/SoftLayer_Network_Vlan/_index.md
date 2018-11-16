@@ -246,6 +246,10 @@ The SoftLayer_Network_Vlan service controls these VLANs and provides relationshi
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/updateFirewallIntraVlanCommunication'> updateFirewallIntraVlanCommunication</a> </span>
             <div class='views-field-body'>Update a VLAN's firewall to allow or disallow intra-VLAN communication.</div>
         </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/upgrade'> upgrade</a> </span>
+            <div class='views-field-body'></div>
+        </div>
         </div>
 </div>
 

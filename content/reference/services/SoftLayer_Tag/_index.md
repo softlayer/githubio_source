@@ -36,7 +36,7 @@ SoftLayer's tagging service gives customers the ability to tag devices with keyw
     <div id="method-div">
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Tag/autoComplete'> autoComplete</a> </span>
-            <div class='views-field-body'>Autocomplete tag inputted by a user</div>
+            <div class='views-field-body'>Autocomplete tag inputted by a user.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Tag/deleteTag'> deleteTag</a> </span>
@@ -48,7 +48,7 @@ SoftLayer's tagging service gives customers the ability to tag devices with keyw
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Tag/getAllTagTypes'> getAllTagTypes</a> </span>
-            <div class='views-field-body'>get all valid tag types</div>
+            <div class='views-field-body'>Get all valid tag types.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Tag/getObject'> getObject</a> </span>
@@ -60,7 +60,7 @@ SoftLayer's tagging service gives customers the ability to tag devices with keyw
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Tag/getTagByTagName'> getTagByTagName</a> </span>
-            <div class='views-field-body'>get the tag object based on what the user inputs</div>
+            <div class='views-field-body'>Get the tag object based on what the user inputs.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Tag/setTags'> setTags</a> </span>

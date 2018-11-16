@@ -13,7 +13,7 @@ aliases:
 ---
 # [SoftLayer_Tag](/reference/services/SoftLayer_Tag)::getTagByTagName
 
-get the tag object based on what the user inputs
+Get the tag object based on what the user inputs.
 
 
 ## Overview 
@@ -22,7 +22,7 @@ Returns the Tag object with a given name. The user types in the tag name and thi
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|tagList| string| tag single or comma separated|
+|tagList| string| A single tag or a comma separated list.|
 
 
 ### Required Headers
