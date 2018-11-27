@@ -108,3 +108,37 @@ if __name__ == "__main__":
 
     main.debug()
 ```
+
+
+### Actual API calls
+
+Resolves the DC shortname, `dal13` to its locationId.
+```sh
+curl -u $SL_USER:$SL_APIKEY -X GET -H  'https://api.softlayer.com/rest/v3.1/SoftLayer_Location_Datacenter/getDatacenters.json?objectMask=mask%5BlongName%2Cid%2Cname%5D'
+```
+
+Gets the storage package information used in ordering
+```sh
+curl -u $SL_USER:$SL_APIKEY -X GET -H   'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Package/getAllObjects.json?objectMask=mask%5Bid%2Cname%2Citems%5Bprices%5Bcategories%5D%2Cattributes%5D%5D&objectFilter=%7B%22categories%22%3A+%7B%22categoryCode%22%3A+%7B%22operation%22%3A+%22_%3D+storage_as_a_service%22%7D%7D%2C+%22statusCode%22%3A+%7B%22operation%22%3A+%22_%3D+ACTIVE%22%7D%7D'
+```
+
+Orders the storage volume
+```sh
+curl -u $SL_USER:$SL_APIKEY -X POST -H -d '{"parameters": [{"complexType": "SoftLayer_Container_Product_Order_Network_Storage_AsAService", "packageId": 759, "prices": [{"id": 189433}, {"id": 189443}, {"id": 194763}, {"id": 194703}], "quantity": 1, "location":1854895, "useHourlyPricing": true, "volumeSize": 100, "osFormatType": {"keyName": "LINUX"}}]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Order/placeOrder.json'
+```
+
+Searches network storage volumes for one with a matching orderId. Will return a list of storage volumes. The number of volumes in this list should match how many you requested in the initial order.
+```sh
+curl -u $SL_USER:$SL_APIKEY -X GET -H  'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getNetworkStorage.json?objectMask=mask%5Bid%2C+capacityGb%2C+username%2C+notes%5D&objectFilter=%7B%22networkStorage%22%3A+%7B%22billingItem%22%3A+%7B%22orderItem%22%3A+%7B%22order%22%3A+%7B%22id%22%3A+%7B%22operation%22%3A+31324259%7D%7D%7D%7D%7D%7D'
+```
+
+Sets the notes for the the storage volume 123456789
+```sh
+curl -u $SL_USER:$SL_APIKEY -X POST -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress" -d '{"parameters": [{"notes": "This is a test note"}]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Storage/123456789/editObject.json'
+```
+
+Gets the object for storage volume 123456789
+```sh
+
+curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress"  'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Storage/123456789/getObject.json'
+```
