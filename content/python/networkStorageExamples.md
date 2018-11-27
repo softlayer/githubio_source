@@ -14,6 +14,7 @@ tags:
 
 ```python
 import SoftLayer
+import time
 from pprint import pprint as pp
 
 class example():
@@ -101,6 +102,8 @@ class example():
 if __name__ == "__main__":
     main = example()
     orderId = main.main()
+    print("Sleeping for 60s to wait for volume to be ready")
+    time.sleep(60)
     volumes = main.getStorageFromOrder(orderId)
     for storage in volumes:
         main.setStorageNote(storage['id'], 'This is a test note')
