@@ -24,6 +24,7 @@ Returns an IMS User Object from the provided OpenIdConnect User ID or IBMid Uniq
 | --- | --- | --- |
 |openIdConnectUserId| string| The OpenId Connect user id to use for the IMS User lookup|
 |uniqueIdentifier| string| The Optional unique identifier (in IAMid format) to use for the IMS user lookup,|
+|searchInvitationsNotLinksFlag| string| Optional,|
 
 
 ### Required Headers

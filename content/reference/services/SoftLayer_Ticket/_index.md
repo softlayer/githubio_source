@@ -279,7 +279,7 @@ Typically the only tickets an account user may create are technical support tick
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Ticket/getUpdateRatingFlag'> getUpdateRatingFlag</a> </span>
-            <div class='views-field-body'>Retrieve wether employees' updates of this ticket could be rated by customer</div>
+            <div class='views-field-body'>Retrieve whether employees' updates of this ticket could be rated by customer</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Ticket/getUpdates'> getUpdates</a> </span>

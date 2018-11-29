@@ -36,7 +36,7 @@ Provides services oriented to network-centric discovery and manipulation.
     <div id="method-div">
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/connectPrivateEndpointService'> connectPrivateEndpointService</a> </span>
-            <div class='views-field-body'></div>
+            <div class='views-field-body'>Establishes a connection between the account and Service Endpoint networks.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/createObject'> createObject</a> </span>
@@ -56,7 +56,7 @@ Provides services oriented to network-centric discovery and manipulation.
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/disconnectPrivateEndpointService'> disconnectPrivateEndpointService</a> </span>
-            <div class='views-field-body'></div>
+            <div class='views-field-body'>Terminates the connection between the account and Service Endpoint networks.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/editObject'> editObject</a> </span>
@@ -92,7 +92,7 @@ Provides services oriented to network-centric discovery and manipulation.
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/isConnectedToPrivateEndpointService'> isConnectedToPrivateEndpointService</a> </span>
-            <div class='views-field-body'></div>
+            <div class='views-field-body'>Checks the current Service Endpoint network connection status.</div>
         </div>
         </div>
 </div>

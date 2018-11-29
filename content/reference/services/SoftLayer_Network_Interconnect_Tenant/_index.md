@@ -63,6 +63,10 @@ A network interconnect tenant defines an IP routing path through a network inter
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Interconnect_Tenant/getBgpIpRange'> getBgpIpRange</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Interconnect_Tenant/getBillingItem'> getBillingItem</a> </span>
             <div class='views-field-body'>Retrieve the active billing item for a network interconnect.</div>
         </div>
