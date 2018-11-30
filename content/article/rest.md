@@ -15,7 +15,9 @@ SoftLayer provides a RESTful API in addition to RPC-style API services. Use the 
 REST API URLs are structured to easily traverse SoftLayer's object hierarchy. A basic REST request is structured as follows:
 
 ```
-curl -u [username]:[apiKey]  -d '{"parameters": ["fisrt", "second"]}'  https://api.[service.]softlayer.com/rest/v3.1/[serviceName]/[initializationParameter]/[methodName].[json|xml|txt]?objectMask=mask[]&objectFilter={}&resultLimit=0,1
+curl -u [username]:[apiKey]  -d '{"parameters": ["fisrt", "second"]}'
+https://api.[service.]softlayer.com/rest/v3.1/[serviceName]/[initializationParameter]/[methodName].[json|xml|txt]?
+objectMask=mask[]&objectFilter={}&resultLimit=0,1
 ```
 
 * All REST requests, even private network requests, must be passed through HTTP SSL.
@@ -85,14 +87,18 @@ As a general rule, you can use a `GET` request UNLESS you need to send in option
 
 ### DELETE
 A `DELETE` request assume you want to use the `deleteObject()` method. 
-`curl -X DELETE https://api.softlayer.com/rest/v3/SoftLayer_Dns_Domain/1234.json`
+```
+curl -X DELETE https://api.softlayer.com/rest/v3/SoftLayer_Dns_Domain/1234.json
+```
 
 > Using `curl -X GET https://api.softlayer.com/rest/v3/SoftLayer_Dns_Domain/1234/deleteObject.json` will get you the same result
 
 ### GET
 Use a `GET` request for method that doesn't have optional parameters that need to be sent in. a `GET` request will assume `getObject` if you don't specify a method.
 
-`https://api.softlayer.com/rest/v3/SoftLayer_Dns_Domain/1234.json`
+```
+https://api.softlayer.com/rest/v3/SoftLayer_Dns_Domain/1234.json
+```
 
 
 ### POST
@@ -100,7 +106,8 @@ A `POST` request is needed for optional parameters. `POST` assums the `createObj
 
 This method takes in a single Boolean parameter.
 ```
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": ["1"]} 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_Server/12345/toggleManagementInterface.json'`
+curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": ["1"]} 
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_Server/12345/toggleManagementInterface.json'`
 ```
 
 This method takes in a single SoftLayer_Dns_Domain object.
@@ -131,7 +138,8 @@ There are 2 main ways to pass in parameters. The most consistent, and what I rec
 For example [SoftLayer_Monitoring_Agent::setActiveAlarmSubscriber](/reference/services/SoftLayer_Monitoring_Agent/setActiveAlarmSubscribe) requires the userRecordId parameter:
 
 ```
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [5678]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Monitoring_Agent/1234/setActiveAlarmSubscriber/'
+curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [5678]}'
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Monitoring_Agent/1234/setActiveAlarmSubscriber/'
 ```
 
 Alternatively, you can put the paramters in the URL for simple types like string, int, and bool. 
