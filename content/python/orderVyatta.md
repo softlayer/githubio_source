@@ -144,10 +144,12 @@ class vyattaOrderer():
         return hardware
 
     def generateRaidEntry(self):
+        # TODO add a way to calculate arraySize based on raidType and drives chosen.
         storage = {
                 'arrayTypeId': 2,
                 'hardDrives': [0,1],
-                'partitionTemplateId': 1
+                'partitionTemplateId': 1,
+                'arraySize': 500 
         }
         return storage
 

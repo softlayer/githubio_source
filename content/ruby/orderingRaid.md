@@ -6,7 +6,9 @@ author: 'hansKristian'
 classes:
     - "SoftLayer_Product_Order"
     - "SoftLayer_Configuration_Storage_Group_Array_Type"
+    - "SoftLayer_Hardware_Component_Partition_OperatingSystem"
     - "SoftLayer_Product_Package"
+    - "SoftLayer_Hardware_Server"
 tags:
     - "order"
     - "bare-metal"
@@ -120,7 +122,8 @@ So for the first disk that we want to be on its own we will use arrayTypeId 9, w
 {
         :arrayTypeId => 9, # JBOD -- Other types available from SoftLayer_Configuration_Storage_Group_Array_Type::getAllObjects
         :hardDrives => [0], # First Hard Drive (50GB SSD)
-        :partitionTemplateId => 226 # Custom partition template - 12GB Swap
+        :partitionTemplateId => 226, # Custom partition template - 12GB Swap
+        :arraySize => 50
 },
 ```
 
@@ -129,7 +132,8 @@ For the second group we specify arrayTypeId 1, which is RAID 0 - Striped
 ```ruby
 {
         :arrayTypeId => 1, # RAID 0 -- Other types available from SoftLayer_Configuration_Storage_Group_Array_Type::getAllObjects
-        :hardDrives => [1,2,3] # Second, third and fourth hard drives (147GB SAS)
+        :hardDrives => [1,2,3] # Second, third and fourth hard drives (147GB SAS),
+        :arraySize => 147
 }
 ```
 All together, the order will look like this:
@@ -172,11 +176,13 @@ order = {
      { # RAID Array 1
         :arrayTypeId => 9, # JBOD
         :hardDrives => [0], # First Hard Drive (50GB SSD)
-        :partitionTemplateId => 226 # Custom partition template - 12GB Swap
+        :partitionTemplateId => 226 # Custom partition template - 12GB Swap,
+        :arraySize => 50
      },
      { # RAID Array 2
         :arrayTypeId => 1, # RAID 0
-        :hardDrives => [1,2,3] # Second, third and fourth hard drives (147GB SAS)
+        :hardDrives => [1,2,3] # Second, third and fourth hard drives (147GB SAS),
+        :arraySize => 147
      }
   ]
 }
@@ -191,5 +197,104 @@ order_single_raid_group.rb
 get_package_options.rb (command line tool)
 ```
 //hansKristian
+
+
+## Another Example
+
+```ruby
+# Order a server with RAID.
+#
+# The script orders a server wich contains a RAID configuration.
+# For more information see below.
+
+require 'softlayer_api'
+require 'pp'
+
+# Your SoftLayer API username and key.
+USERNAME = 'set me'
+API_KEY  = 'set me'
+
+# Declaring the API client
+client = SoftLayer::Client.new(username: USERNAME, api_key: API_KEY)
+product_order_service = client.service_named('SoftLayer_Product_Order')
+
+product_order = {
+  'orderContainers' => [
+    {
+      'hardware' => [
+        {
+          'domain' => 'imdemocloud.com',
+          'hostname' => 'sl-provisioner-node'
+        }
+      ],
+      'sshKeys' => [{ 'sshKeyIds' => [13_101] }],
+      'location' => 265_592,
+      'packageId' => 158,
+      'prices' => [
+        { 'id' => 35_323 },
+        { 'id' => 30_308 },
+        { 'id' => 25_663 },
+        { 'id' => 27_597 },
+        { 'id' => 33_867 },
+        { 'id' => 25_014 },
+        { 'id' => 34_807 },
+        { 'id' => 27_023 },
+        { 'id' => 32_627 },
+        { 'id' => 32_500 },
+        { 'id' => 33_483 },
+        { 'id' => 35_310 },
+        { 'id' => 24_259 },
+        { 'id' => 24_259 },
+        { 'id' => 30_728 },
+        { 'id' => 30_728 },
+        { 'id' => 30_728 },
+        { 'id' => 30_728 },
+        { 'id' => 30_728 },
+        { 'id' => 30_728 },
+        { 'id' => 30_728 },
+        { 'id' => 30_728 },
+        { 'id' => 30_728 },
+        { 'id' => 30_728 },
+        { 'id' => 30_728 },
+        { 'id' => 30_728 },
+        { 'id' => 30_728 },
+        { 'id' => 30_728 },
+        { 'id' => 30_728 },
+        { 'id' => 30_728 },
+        { 'id' => 33_644 },
+        { 'id' => 36_037 }
+      ],
+      'primaryDiskPartitionId' => 1,
+      'quantity' => 1,
+      'storageGroups' => [
+        {
+          'arraySize' => 2000,
+          'arrayTypeId' => 2,
+          'hardDrives' => [
+            0, 1
+          ],
+          'partitionTemplateId' => 1
+        },
+        {
+          'arraySize' => 32_000,
+          'arrayTypeId' => 5,
+          'hardDrives' => [
+            2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+begin
+  result = product_order_service.placeOrder(product_order)
+  pp result
+rescue StandardError => exception
+  puts "There was an error in your order: #{exception}"
+end
+
+```
+
 
 [^1]: These getAllObjects() calls don't show up in the documentation on SLDN, however they do still work. 
