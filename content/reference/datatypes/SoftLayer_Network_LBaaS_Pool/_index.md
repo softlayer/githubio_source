@@ -77,7 +77,7 @@ The SoftLayer_Network_LBaaS_Pool type presents a structure containing attributes
             <span class='views-field-title'>
                 <a href="#protocol" name=protocol>protocol</a>
             </span>
-            <div class='views-field-body'>Backends protocol, supported protocols are "TCP", "HTTP" </div>
+            <div class='views-field-body'>Backends protocol, supported protocols are "TCP", "HTTP" and "HTTPS" </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>
