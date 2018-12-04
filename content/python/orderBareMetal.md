@@ -75,8 +75,8 @@ class ordering():
             'HARD_DRIVE_2_00_TB_SATA_2',
             'HARD_DRIVE_2_00_TB_SATA_2',
             'RAM_128_GB_DDR3_1333_REG_2',
-            'OS_VSPHERE_ENTERPRISE_PLUS_6_0',
-            'INTEL_XEON_2620_2_00'
+            'OS_CENTOS_7_X_64_BIT',
+            'INTEL_XEON_2650_2_30'
         ]
 
         all_items = required_items + network_items + physical_items
@@ -88,7 +88,7 @@ class ordering():
                             'domain': u'cgallo.com',
                             'hostname': u'vmware-testing01',
                             'primaryBackendNetworkComponent': {'networkVlan': {'id' : int(priv_vlan_id)}},
-                            'primaryNetworkComponent': {'networkVlan': {'id' : int(priv_vlan_id)}}
+                            'primaryNetworkComponent': {'networkVlan': {'id' : int(pub_vlan_id)}}
                         }
                     ],
                     'location': location_id,
@@ -98,6 +98,7 @@ class ordering():
                     'storageGroups' : [
                         {
                             'arrayTypeId': 2,
+                            'arraySize': 2000,
                             'hardDrives': [0,1],
                             'partitionTemplateId' : 1
                         },
@@ -116,6 +117,7 @@ class ordering():
                         },
                         {
                             'arrayTypeId': 9,
+                            'arraySize': 2000,
                             'hardDrives': [3]
                         }
                     ],
@@ -248,15 +250,21 @@ class ordering():
 
         for item in items['items']:
             for price in item['prices']:
-                if price['locationGroupId'] is '': 
+                if not price['locationGroupId']: 
                     sorted_items[item['keyName']] = price['id']
         for item in items['activeServerItems']:
             for price in item['prices']:
-                if price['locationGroupId'] is '': 
+                if not price['locationGroupId']: 
                     sorted_items[item['keyName']] = price['id']
 
         for keyName in keyNames:
-            prices.append({'id': int(sorted_items.get(keyName))})
+            try:
+                prices.append({'id': int(sorted_items.get(keyName))})
+            # Usually you will get this error if a keyName isn't in the package 
+            except TypeError:
+                print("Couldn't find {}".format(keyName))
+                raise
+
         return prices
 
 if __name__ == "__main__":
@@ -265,10 +273,10 @@ if __name__ == "__main__":
 
     """
     Step 1, find the processor type you want
-    269 - Quad E7-4800  Series (6 Drives) - 2U_QUAD_E74800_6_DRIVES : BARE_METAL_CPU
+    253   Dual E5-2600 v3 Series (4 Drives)  DUAL_E52600_4_DRIVES  BARE_METAL_CPU
     """
-    main.listServerPackages()
-    package_id = 263
+    # main.listServerPackages()
+    package_id = 253
 
     """
     Step 2, collect all the pieces you want to order
@@ -277,18 +285,17 @@ if __name__ == "__main__":
     server is available in.
     """
     main.getServerPrices(package_id)
-    location_id = 142776
+    location_id = 1854895
 
     """
     Step 3, customize and place the order
     """
     main.listAvailableVlans(location_id)
-    pub_vlan_id  = 2137279
-    priv_vlan_id = 2137281
-    main.listPartitionTemplates()
+    pub_vlan_id  = 2068353
+    priv_vlan_id = 2068355
+    # main.listPartitionTemplates()
     main.listRaidArrayTypes()
     main.main(package_id,location_id,pub_vlan_id,priv_vlan_id)
-
 ```
 
 
