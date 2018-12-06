@@ -666,6 +666,10 @@ SoftLayer provides the EVault backup system as a part of it's Storage service of
             <div class='views-field-body'>Displays the status of a clone mount.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Backup_Evault/isVolumeActive'> isVolumeActive</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Backup_Evault/removeAccessFromHardware'> removeAccessFromHardware</a> </span>
             <div class='views-field-body'>Remove access to this volume from a specified SoftLayer_Hardware object.</div>
         </div>

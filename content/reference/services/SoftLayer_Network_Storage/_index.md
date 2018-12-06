@@ -643,6 +643,10 @@ For the EVault Storage services, the username and passwords in the SoftLayer_Net
             <div class='views-field-body'>Displays the status of a clone mount.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage/isVolumeActive'> isVolumeActive</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage/removeAccessFromHardware'> removeAccessFromHardware</a> </span>
             <div class='views-field-body'>Remove access to this volume from a specified SoftLayer_Hardware object.</div>
         </div>

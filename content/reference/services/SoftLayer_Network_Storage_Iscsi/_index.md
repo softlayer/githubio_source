@@ -627,6 +627,10 @@ SoftLayer's iscsi product extends upon the base functionality of SoftLayer offer
             <div class='views-field-body'>Displays the status of a clone mount.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Iscsi/isVolumeActive'> isVolumeActive</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Iscsi/removeAccessFromHardware'> removeAccessFromHardware</a> </span>
             <div class='views-field-body'>Remove access to this volume from a specified SoftLayer_Hardware object.</div>
         </div>
