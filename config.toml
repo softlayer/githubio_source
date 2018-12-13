@@ -40,9 +40,9 @@ pluralizeListTitles = false
     identifier = "perl"
     url = "/perl/"
 [[menu.main]]
-    name = "PHP"
-    identifier = "php"
-    url = "/php/"
+    name = "Java"
+    identifier = "java"
+    url = "/java/"
 [[menu.main]]
     name = "Python"
     identifier = "python"

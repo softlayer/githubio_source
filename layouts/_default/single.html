@@ -13,12 +13,12 @@
 
                 <strong>Classes <span class="fa fa-book"/></strong>
                 {{ range .Params.classes }}
-                    <a class="label label-primary" href="/classes/{{ . | urlize }}">{{ . }}</a>
+                    <a class="label label-primary" href="/reference/services/{{ . | urlize | lower  }}">{{ . }}</a>
                 {{ end }}
                 <br>
                 <strong>Tags <span class="fa fa-tags"/></strong>
                 {{ range .Params.tags }}
-                    <a class="label label-danger" href="/tags/{{ . | urlize }}">{{ . }}</a>
+                    <a class="label label-danger" href="/tags/{{ . | urlize | lower}}">{{ . }}</a>
                 {{ end }}          
         </div>
     </div>
@@ -61,5 +61,3 @@
 {{ partial "footer.copyright.html" . }}
 </div>
 {{ partial "footer.html" . }}
-
-{{.URL}}

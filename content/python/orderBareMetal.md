@@ -9,7 +9,7 @@ classes:
 tags:
     - "order"
     - "vlan"
-    - "bare-metal"
+    - "baremetalservers"
     - "create"
     - "filter"
     - "hardware"
@@ -75,8 +75,8 @@ class ordering():
             'HARD_DRIVE_2_00_TB_SATA_2',
             'HARD_DRIVE_2_00_TB_SATA_2',
             'RAM_128_GB_DDR3_1333_REG_2',
-            'OS_VSPHERE_ENTERPRISE_PLUS_6_0',
-            'INTEL_XEON_2620_2_00'
+            'OS_CENTOS_7_X_64_BIT',
+            'INTEL_XEON_2650_2_30'
         ]
 
         all_items = required_items + network_items + physical_items
@@ -88,7 +88,7 @@ class ordering():
                             'domain': u'cgallo.com',
                             'hostname': u'vmware-testing01',
                             'primaryBackendNetworkComponent': {'networkVlan': {'id' : int(priv_vlan_id)}},
-                            'primaryNetworkComponent': {'networkVlan': {'id' : int(priv_vlan_id)}}
+                            'primaryNetworkComponent': {'networkVlan': {'id' : int(pub_vlan_id)}}
                         }
                     ],
                     'location': location_id,
@@ -98,6 +98,7 @@ class ordering():
                     'storageGroups' : [
                         {
                             'arrayTypeId': 2,
+                            'arraySize': 2000,
                             'hardDrives': [0,1],
                             'partitionTemplateId' : 1
                         },
@@ -116,6 +117,7 @@ class ordering():
                         },
                         {
                             'arrayTypeId': 9,
+                            'arraySize': 2000,
                             'hardDrives': [3]
                         }
                     ],
@@ -248,15 +250,21 @@ class ordering():
 
         for item in items['items']:
             for price in item['prices']:
-                if price['locationGroupId'] is '': 
+                if not price['locationGroupId']: 
                     sorted_items[item['keyName']] = price['id']
         for item in items['activeServerItems']:
             for price in item['prices']:
-                if price['locationGroupId'] is '': 
+                if not price['locationGroupId']: 
                     sorted_items[item['keyName']] = price['id']
 
         for keyName in keyNames:
-            prices.append({'id': int(sorted_items.get(keyName))})
+            try:
+                prices.append({'id': int(sorted_items.get(keyName))})
+            # Usually you will get this error if a keyName isn't in the package 
+            except TypeError:
+                print("Couldn't find {}".format(keyName))
+                raise
+
         return prices
 
 if __name__ == "__main__":
@@ -265,10 +273,10 @@ if __name__ == "__main__":
 
     """
     Step 1, find the processor type you want
-    269 - Quad E7-4800  Series (6 Drives) - 2U_QUAD_E74800_6_DRIVES : BARE_METAL_CPU
+    253   Dual E5-2600 v3 Series (4 Drives)  DUAL_E52600_4_DRIVES  BARE_METAL_CPU
     """
-    main.listServerPackages()
-    package_id = 263
+    # main.listServerPackages()
+    package_id = 253
 
     """
     Step 2, collect all the pieces you want to order
@@ -277,18 +285,17 @@ if __name__ == "__main__":
     server is available in.
     """
     main.getServerPrices(package_id)
-    location_id = 142776
+    location_id = 1854895
 
     """
     Step 3, customize and place the order
     """
     main.listAvailableVlans(location_id)
-    pub_vlan_id  = 2137279
-    priv_vlan_id = 2137281
-    main.listPartitionTemplates()
+    pub_vlan_id  = 2068353
+    priv_vlan_id = 2068355
+    # main.listPartitionTemplates()
     main.listRaidArrayTypes()
     main.main(package_id,location_id,pub_vlan_id,priv_vlan_id)
-
 ```
 
 
@@ -318,5 +325,118 @@ if __name__ == "__main__":
 >>You forgot to assign an arraySize. 
 
 
+
+## Another Example
+>This is an older example that hard codes priceIds, which can be a bad practice as priceIds can change without notice.
+
+```python
+import SoftLayer
+import json
+
+quantity = 1
+location = 'AMSTERDAM'
+packageId = 259
+lvmFlag = True
+# Building a skeleton SoftLayer_Hardware_Server object to model the hostname and
+# domain we want for our server. If you set quantity greater then 1 then you
+# need to define one hostname/domain pair per server you wish to order.
+hardware = [
+    {
+        'hostname': 'test',
+        'domain': 'example.org'
+    }
+]
+
+# Building a skeleton SoftLayer_Product_Item_Price objects. These objects contain
+# much more than ids, but SoftLayer's ordering system only needs the price's id
+# to know what you want to order.
+# Every item in SoftLayer's product catalog is assigned an id. Use these ids
+# to tell the SoftLayer API which options you want in your new server. Use
+# the getActivePackages() method in the SoftLayer_Account API service to get
+# a list of available item and price options per available package.
+prices = [
+    {'id': 179861},  # server: Single  Intel  Xeon  E5-2620 (6 Cores, 2.00 GHz)
+    {'id': 76165},  # ram: 8 GB RAM
+    {'id': 44988},  # os: CentOS 7.x (64 bit)
+    {'id': 74995},  # disk_controller: RAID
+    {'id': 64769},  # disk0: 2.00 TB SATA
+    {'id': 69535},  # disk1: 500 GB SATA
+    {'id': 69535},  # disk2: 500 GB SATA
+    {'id': 50357},  # bandwidth: 500 GB Bandwidth
+    {'id': 273},  # port_speed: 100 Mbps Public & Private Network Uplinks
+    {'id': 55},  # monitoring: Host Ping
+    {'id': 58},  # response: Automated Notification
+    {'id': 420},  # vpn_management: Unlimited SSL VPN Users & 1 PPTP VPN User per account
+    {'id': 418},  # vulnerability_scanner: Nessus Vulnerability Assessment & Reporting
+    {'id': 21},  # pri_ip_addresses: 1 IP Address
+    {'id': 57},  # notification: Email and Ticket
+    {'id': 906}  # remote_management: Reboot / KVM over IP
+]
+
+# Building a skeleton SoftLayer_Container_Product_Order_Storage_Group object
+# Storage groups will only be used if the 'RAID' disk controller price is selected.
+# Any other disk controller types will ignore the storage groups set here.
+# The first storage group in this array will be considered the primary storage group,
+# which is used for the OS. Any other storage groups will act as data storage.
+storageGroups = [
+    {
+         "arraySize": 1000,
+         "arrayTypeId": 3,  # RAID_5
+         "hardDrives": [
+            0,
+            1,
+            2
+         ],
+         "partitionTemplateId": 6
+     },
+    {
+         "arraySize": 500,
+         "arrayTypeId": 9,
+         "hardDrives": [
+             0
+         ],
+         # The custom partitions only work on other storage groups
+         # different from the primary one
+         "partitions": [
+             {
+                 "isGrow": False,
+                 "name": "/test",
+                 "size": 100
+             },
+             {
+                 "isGrow": True,
+                 "name": "/test2",
+                 "size": 200
+             }
+         ]
+     },
+]
+
+# Building a skeleton SoftLayer_Container_Product_Order_Hardware_Server object
+# containing the order you wish to place.
+orderTemplate = {
+    'quantity': quantity,
+    'location': location,
+    'packageId': packageId,
+    'prices': prices,
+    'hardware': hardware,
+    'storageGroups': storageGroups,
+    'lvmFlag': lvmFlag
+}
+
+# Creating a SoftLayer API client object
+client = SoftLayer.create_client_from_env()
+# verifyOrder() will check your order for errors. Replace this with a call
+# to placeOrder() when you're ready to order. Both calls return a receipt
+# object that you can use for your records.
+# Once your order is placed it'll go through SoftLayer's approval and
+# provisioning process. When it's done you'll have a new
+# SoftLayer_Hardware_Server object and server ready to use.
+receipt = client['Product_Order'].verifyOrder(orderTemplate)
+print(json.dumps(receipt, sort_keys=True, indent=2, separators=(',', ': ')))
+
+```
+
+```
 
 [^1]:https://sldn.softlayer.com/reference/datatypes/SoftLayer_Container_Product_Order_Storage_Group

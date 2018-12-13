@@ -155,6 +155,16 @@ Summary presented to reviewers when determining whether or not to accept a proof
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#reviewUrl" name=reviewUrl>reviewUrl</a>
+            </span>
+            <div class='views-field-body'>URL for the individual review </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#status" name=status>status</a>
             </span>
             <div class='views-field-body'>Request's current status (Pending, Denied, or Approved) </div>

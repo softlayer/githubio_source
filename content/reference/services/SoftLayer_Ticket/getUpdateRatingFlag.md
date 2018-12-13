@@ -1,6 +1,6 @@
 ---
 title: "getUpdateRatingFlag"
-description: "Retrieve wether employees' updates of this ticket could be rated by customer"
+description: "Retrieve whether employees' updates of this ticket could be rated by customer"
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getUpdateRatingFlag
 
-Retrieve wether employees' updates of this ticket could be rated by customer
+Retrieve whether employees' updates of this ticket could be rated by customer
 
 
 ## Overview 
-Retrieve wether employees' updates of this ticket could be rated by customer
+Retrieve whether employees' updates of this ticket could be rated by customer
 
 ### Parameters 
 |Name | Type | Description |
