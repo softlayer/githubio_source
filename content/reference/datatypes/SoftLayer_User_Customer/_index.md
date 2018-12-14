@@ -206,12 +206,12 @@ The SoftLayer_User_Customer data type contains general information relating to a
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#iamAuthorizationFlag" name=iamAuthorizationFlag>iamAuthorizationFlag</a>
+                <a href="#iamAuthorizationStatus" name=iamAuthorizationStatus>iamAuthorizationStatus</a>
             </span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
-                <p>boolean</p>
+                <p>integer</p>
             </div>
         </div>
                 <div class='prop-row views-row'>
