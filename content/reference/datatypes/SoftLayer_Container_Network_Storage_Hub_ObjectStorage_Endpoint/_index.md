@@ -40,6 +40,16 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Endpoint provides specific
         <h2>Local</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#legacy" name=legacy>legacy</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#location" name=location>location</a>
             </span>
             <div class='views-field-body'> </div>
