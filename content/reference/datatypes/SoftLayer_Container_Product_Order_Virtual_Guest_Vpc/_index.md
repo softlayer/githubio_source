@@ -285,7 +285,7 @@ classes:
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_IpAllocation'>SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_IpAllocation[] </a></p>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order_Vpc_IpAllocation'>SoftLayer_Container_Product_Order_Vpc_IpAllocation[] </a></p>
             </div>
         </div>
                 <div class='prop-row views-row'>
@@ -887,7 +887,7 @@ The first storage group in this array will be considered the primary storage gro
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_Subnet'>SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_Subnet[] </a></p>
+                <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order_Vpc_Subnet'>SoftLayer_Container_Product_Order_Vpc_Subnet[] </a></p>
             </div>
         </div>
                 <div class='prop-row views-row'>

@@ -40,6 +40,16 @@ The SoftLayer_Container_Authentication_Request_Native_External_Totp data type co
         <h2>Local</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#auxiliaryClaimsMiniToken" name=auxiliaryClaimsMiniToken>auxiliaryClaimsMiniToken</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#password" name=password>password</a>
             </span>
             <div class='views-field-body'>Your SoftLayer customer portal user's portal password. </div>

@@ -110,6 +110,16 @@ The SoftLayer_Container_Authentication_Response_Account data type contains accou
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#ipAddressCheckRequired" name=ipAddressCheckRequired>ipAddressCheckRequired</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#isMasterUserFlag" name=isMasterUserFlag>isMasterUserFlag</a>
             </span>
             <div class='views-field-body'> </div>

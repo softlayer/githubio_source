@@ -1,8 +1,6 @@
 ---
 title: "activatePublicPort"
-description: "<b>Note:</b> All error handling and parameter documentation is referencing behavior available on January 4th, 2019. 
-
-<h... "
+description: "Activate a server's public network interface to the maximum available speed. This operation is an alias for [[SoftLayer_... "
 layout: "method"
 tags:
     - "method"
@@ -19,14 +17,6 @@ Activate a server's public network interface.
 
 
 ## Overview 
-<b>Note:</b> All error handling and parameter documentation is referencing behavior available on January 4th, 2019. 
-
-<h3>Behavior deprecated on January 4th, 2019</h3> 
-
-Activates the public network port 
-
-<h3>NEW! Behavior on January 4th, 2019</h3> 
-
 Activate a server's public network interface to the maximum available speed. This operation is an alias for [[SoftLayer_Hardware_Server/setPublicNetworkInterfaceSpeed]] with a $newSpeed of -1 and a $redundancy of "redundant". 
 
 Receipt of a response does not indicate completion of the configuration change. Any subsequent attempts to request the interface change speed or state, while changes are pending, will result in a busy error. 

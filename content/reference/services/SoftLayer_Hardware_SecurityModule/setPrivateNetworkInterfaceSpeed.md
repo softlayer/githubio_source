@@ -1,8 +1,8 @@
 ---
 title: "setPrivateNetworkInterfaceSpeed"
-description: "<b>Note:</b> All error handling and parameter documentation is referencing behavior available on January 4th, 2019. 
+description: "Set the private network interface speed and redundancy configuration. 
 
-<h... "
+Possible $newSpeed values are -1 (maximum availa... "
 layout: "method"
 tags:
     - "method"
@@ -19,16 +19,6 @@ Set the speed and redundancy configuration of a server's private network interfa
 
 
 ## Overview 
-<b>Note:</b> All error handling and parameter documentation is referencing behavior available on January 4th, 2019. 
-
-<h3>Behavior deprecated on January 4th, 2019</h3> 
-
-Sets the private network interface speed to the new speed. Speed values can only be 0 (Disconnect), 10, 100, 1000, and 10000. The new speed must be equal to or less than the max speed of the interface. 
-
-It will take less than a minute to update the switch port speed. The server uplink will not be operational again until the server interface speed is updated. 
-
-<h3>NEW! Behavior on January 4th, 2019</h3> 
-
 Set the private network interface speed and redundancy configuration. 
 
 Possible $newSpeed values are -1 (maximum available), 0 (disconnect), 10, 100, 1000, and 10000; not all values are available to every server. The maximum speed is limited by the speed requested during provisioning. All intermediate speeds are limited by the capability of the pod the server is deployed in. No guarantee is made that a speed other than what was requested during provisioning will be available. 
@@ -47,6 +37,7 @@ In order to provide a period of transition to the new API, some backwards compat
 |Name | Type | Description |
 | --- | --- | --- |
 |newSpeed| integer| Desired speed or -1 for maximum available, 0 for disconnect|
+|redundancy| string| The desired state of redundancy for the interface(s)|
 
 
 ### Required Headers

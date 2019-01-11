@@ -1,5 +1,5 @@
 ---
-title: "SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_Upgrade"
+title: "SoftLayer_Container_Product_Order_Hardware_Server_Vpc"
 description: ""
 layout: "datatype"
 tags:
@@ -7,13 +7,13 @@ tags:
     - "sldn"
     - "Container"
 classes:
-    - "SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_Upgrade"
+    - "SoftLayer_Container_Product_Order_Hardware_Server_Vpc"
 ---
 
-# SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_Upgrade
+# SoftLayer_Container_Product_Order_Hardware_Server_Vpc
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_Upgrade' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Container_Product_Order_Hardware_Server_Vpc' >Datatype</a></li>
     </ul>
 </div>
 
@@ -40,16 +40,6 @@ classes:
         <h2>Local</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#additionalNetworkInterfaces" name=additionalNetworkInterfaces>additionalNetworkInterfaces</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_NetworkInterface'>SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_NetworkInterface[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#bigDataOrderFlag" name=bigDataOrderFlag>bigDataOrderFlag</a>
             </span>
             <div class='views-field-body'>Flag for identifying an order for Big Data Deployment. </div>
@@ -73,26 +63,6 @@ classes:
                 <a href="#billingOrderItemId" name=billingOrderItemId>billingOrderItemId</a>
             </span>
             <div class='views-field-body'>This is the ID of the [[SoftLayer_Billing_Order_Item]] of this configuration/container. It is used for rebuilding an order container from a quote and is set automatically.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bootMode" name=bootMode>bootMode</a>
-            </span>
-            <div class='views-field-body'>The mode used to boot the [[SoftLayer_Virtual_Guest]].  Supported values are 'PV' and 'HVM'. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bootableDiskId" name=bootableDiskId>bootableDiskId</a>
-            </span>
-            <div class='views-field-body'>Identifier of the [[SoftLayer_Virtual_Disk_Image]] to boot from. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>integer</p>
@@ -236,16 +206,6 @@ classes:
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hostId" name=hostId>hostId</a>
-            </span>
-            <div class='views-field-body'>Identifier of [[SoftLayer_Virtual_DedicatedHost]] to order </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
             </div>
         </div>
                 <div class='prop-row views-row'>
@@ -656,16 +616,6 @@ If a regional group is provided and VLANs are specified (within the <code>hardwa
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#reservedCapacityId" name=reservedCapacityId>reservedCapacityId</a>
-            </span>
-            <div class='views-field-body'>Identifier of [[SoftLayer_Virtual_ReservedCapacityGroup]] to order </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#resourceGroup" name=resourceGroup>resourceGroup</a>
             </span>
             <div class='views-field-body'> </div>
@@ -746,47 +696,7 @@ If a regional group is provided and VLANs are specified (within the <code>hardwa
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#servicePortCidr" name=servicePortCidr>servicePortCidr</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#servicePortDns" name=servicePortDns>servicePortDns</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>array of strings</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#servicePortGateway" name=servicePortGateway>servicePortGateway</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#servicePortInterfaceId" name=servicePortInterfaceId>servicePortInterfaceId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#servicePortIpAddress" name=servicePortIpAddress>servicePortIpAddress</a>
             </span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> 
@@ -868,16 +778,6 @@ The first storage group in this array will be considered the primary storage gro
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order_Storage_Group'>SoftLayer_Container_Product_Order_Storage_Group[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#storageVolumes" name=storageVolumes>storageVolumes</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_StorageVolume'>SoftLayer_Container_Product_Order_Virtual_Guest_Vpc_StorageVolume[] </a></p>
             </div>
         </div>
                 <div class='prop-row views-row'>

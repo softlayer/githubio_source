@@ -1,24 +1,24 @@
 ---
-title: "SoftLayer_Container_Authentication_Request_Native"
-description: "The SoftLayer_Container_Authentication_Request_Native data type contains information for requests to the getPortalLogin... "
+title: "SoftLayer_Container_Product_Order_Vpc_Subnet"
+description: ""
 layout: "datatype"
 tags:
     - "datatype"
     - "sldn"
     - "Container"
 classes:
-    - "SoftLayer_Container_Authentication_Request_Native"
+    - "SoftLayer_Container_Product_Order_Vpc_Subnet"
 ---
 
-# SoftLayer_Container_Authentication_Request_Native
+# SoftLayer_Container_Product_Order_Vpc_Subnet
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Container_Authentication_Request_Native' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Container_Product_Order_Vpc_Subnet' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
-The SoftLayer_Container_Authentication_Request_Native data type contains information for requests to the getPortalLogin API. This class is specific to the SoftLayer Native login (username/password). The request information will be verified to ensure it is valid, and then there will be an attempt to obtain a portal login token in authenticating the user with the provided information. 
+
 
 
 
@@ -40,7 +40,7 @@ The SoftLayer_Container_Authentication_Request_Native data type contains informa
         <h2>Local</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#auxiliaryClaimsMiniToken" name=auxiliaryClaimsMiniToken>auxiliaryClaimsMiniToken</a>
+                <a href="#cidr" name=cidr>cidr</a>
             </span>
             <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> 
@@ -50,9 +50,9 @@ The SoftLayer_Container_Authentication_Request_Native data type contains informa
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#password" name=password>password</a>
+                <a href="#dns" name=dns>dns</a>
             </span>
-            <div class='views-field-body'>Your SoftLayer customer portal user's portal password. </div>
+            <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>
@@ -60,9 +60,9 @@ The SoftLayer_Container_Authentication_Request_Native data type contains informa
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#securityQuestionAnswer" name=securityQuestionAnswer>securityQuestionAnswer</a>
+                <a href="#gateway" name=gateway>gateway</a>
             </span>
-            <div class='views-field-body'>The answer to your security question. </div>
+            <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>
@@ -70,22 +70,22 @@ The SoftLayer_Container_Authentication_Request_Native data type contains informa
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#securityQuestionId" name=securityQuestionId>securityQuestionId</a>
+                <a href="#id" name=id>id</a>
             </span>
-            <div class='views-field-body'>A security question you wish to answer when authenticating to the SoftLayer customer portal. This parameter isn't required if no security questions are set on your portal account or if your account is configured to not require answering a security account upon login. </div>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#vlan" name=vlan>vlan</a>
+            </span>
+            <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#username" name=username>username</a>
-            </span>
-            <div class='views-field-body'>The username you wish to authenticate to the SoftLayer customer portal with. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
             </div>
         </div>
             </div>
