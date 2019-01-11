@@ -34,7 +34,7 @@ container['virtualGuests'] = []
 # if quantity was 5, you would need to add 5 guests here
 container['virtualGuests'].append(guests)
 container['presetId'] = None
-result = client['Product_Order'].verifyOrder(container)
+result = client['Billing_Order_Quote'].verifyOrder(container, id=quote_id)
 
 pp(result)
 

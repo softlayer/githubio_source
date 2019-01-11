@@ -220,8 +220,8 @@ class example():
         if dc_id is not None:
             container['location'] = dc_id
 
-        # result = self.client['Product_Order'].verifyOrder(container)
-        result = self.client['Product_Order'].placeOrder(container)
+        # result = self.client['Billing_Order_Quote'].verifyOrder(container, id=quote_id)
+        result = self.client['Billing_Order_Quote'].placeOrder(container, id=quote_id)
         print("================= RECEIPT CONTAINER =================")
         pp(result)
         print("================= RECEIPT CONTAINER =================")
