@@ -1,7 +1,7 @@
 ---
 title: "Working with placement groups"
 description: "A few examples on interacting with placement group"
-date: "2018-12-14"
+date: "2019-01-11"
 classes: 
     - "SoftLayer_Virtual_PlacementGroup"
     - "SoftLayer_Virtual_Guest"
@@ -29,18 +29,21 @@ import (
 
 func main() {
 
-	username := "set me"
-	apikey := "set me"
+	// Create a session
+	sess := session.New()
 	
-	sess := session.New(username, apikey)
+	// Get SoftLayer_Virtual_PlacementGroup service.
 	service := services.GetVirtualPlacementGroupService(sess)
 
+	// A Virtual_PlacementGroup template
 	templateObject := datatypes.Virtual_PlacementGroup{
 
 		Name:            sl.String("test"),
 		BackendRouterId: sl.Int(12345),
 		RuleId:          sl.Int(1),
 	}
+	
+	// Get SoftLayer_Virtual_PlacementGroup service.
 	receipt, err := service.CreateObject(&templateObject)
 	if err != nil {
 		fmt.Printf("%s\n", err)
@@ -72,13 +75,14 @@ import (
 
 func main() {
 
-	username := "set me"
-	apikey := "set me"
-	
+
+	//Placement group's associated unique ID.
 	placementId := 12345
-
-	sess := session.New(username, apikey)
-
+	
+    // Create a session
+	sess := session.New()
+	
+    // Get SoftLayer_Virtual_PlacementGroup service.
 	service := services.GetVirtualPlacementGroupService(sess)
 
 	receipt, err := service.Id(placementId).DeleteObject()
@@ -111,13 +115,13 @@ import (
 
 func main() {
 
-	username := "set me"
-	apikey := "set me"
-
+    //Placement group's associated unique ID.
 	placementId := 12345
+	
+    // Create a session
+	sess := session.New()
 
-	sess := session.New(username, apikey)
-
+    // Get SoftLayer_Virtual_PlacementGroup service.
 	service := services.GetVirtualPlacementGroupService(sess)
 
 	receipt, err := service.Id(placementId).GetGuests()
@@ -150,10 +154,10 @@ import (
 
 func main() {
 
-	username := "set me"
-	apikey := "set me"
+	// Create a session
+	sess := session.New()
 	
-	sess := session.New(username, apikey)
+	// Get SoftLayer_Account service.
 	accountService := services.GetAccountService(sess)
 
 	receipt, err := accountService.GetPlacementGroups()
@@ -188,75 +192,125 @@ import (
 
 func main() {
 
-	username := "set me"
-	apikey := "set me"
+    // Create a session
+    	sess := session.New()
+    
+    	quantity := 1
+    	location := "TORONTO"
+    	packageId := 835
+    	presetId := 215
+    	hostname := "test"
+    	domain := "example.com"
+    	placementId := 12345
+    
+    	virtualGuests := []datatypes.Virtual_Guest{
+    		{
+    			Hostname:         sl.String(hostname),
+    			Domain:           sl.String(domain),
+    			PlacementGroupId: sl.Int(placementId),
+    		},
+    	}
+    
+    	/*
+    	List of minimal required items for ordering VSI:
+    		 -Computing Instance
+    		 -RAM
+    		 -First Disk
+    		 -Remote Management
+    		 -Uplink Port Speeds
+    		 -Public Bandwidth
+    		 -Primary IP Addresses
+    		 -Operating System
+    		 -Monitoring
+    		 -Notification
+    		 -Response
+    		 -VPN Management - Private Network
+    		 -Vulnerability Assessments & Management
+    	Computing Instance, RAM, First Hard Drive are covered by the preset.
+    	*/
+    
+    	orderItems := [] string{
+    		"REBOOT_REMOTE_CONSOLE",
+    		"100_MBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS",
+    		"BANDWIDTH_20000_GB",
+    		"1_IP_ADDRESS",
+    		"OS_CENTOS_7_X_MINIMAL_64_BIT",
+    		"MONITORING_HOST_PING_AND_TCP_SERVICE",
+    		"NOTIFICATION_EMAIL_AND_TICKET",
+    		"AUTOMATED_REBOOT_FROM_MONITORING",
+    		"UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT",
+    		"NESSUS_VULNERABILITY_ASSESSMENT_REPORTING",
+    	}
+    	// Build a skeleton SoftLayer_Product_Item_Price objects.
+    	prices := getItemPriceList(sess, packageId, orderItems)
+    
+    	// Build a container_Product_Order object.
+    	orderTemplate := datatypes.Container_Product_Order{
+    		Quantity:      sl.Int(quantity),
+    		Location:      sl.String(location),
+    		PackageId:     sl.Int(packageId),
+    		PresetId:      sl.Int(presetId),
+    		Prices:        prices,
+    		VirtualGuests: virtualGuests,
+    	}
+    	// Get SoftLayer_Product_Order service.
+    	service := services.GetProductOrderService(sess)
+    
+    	// Use verifyOrder() method to check for errors. Replace this with placeOrder() when
+    	// you are ready to order.
+    	receipt, err := service.VerifyOrder(&orderTemplate)
+    	if err != nil {
+    		fmt.Printf("\n Unable to place order:\n - %s\n", err)
+    		return
+    	}
+    
+    	jsonFormat, jsonErr := json.MarshalIndent(receipt, "", "    ")
+    	if jsonErr != nil {
+    		fmt.Println(jsonErr)
+    		return
+    	}
+    
+    	fmt.Println(string(jsonFormat))
+    
+    }
+    
+    /**
+    Converts a list of item keyNames to a list of item prices
+    given package associated with the prices and a list itemsKeyNames.
+     */
+    func getItemPriceList(sess *session.Session, packageId int, itemKeyNames [] string) (resp []datatypes.Product_Item_Price) {
+    
+    	items := listPackageItems(sess, packageId)
+    	var prices []datatypes.Product_Item_Price
+    	for _, itemKeyName := range itemKeyNames {
+    		for _, item := range items {
+    			if (*item.KeyName) == itemKeyName {
+    				for _, itemPrice := range item.Prices {
+    					if itemPrice.LocationGroupId == nil {
+    						prices = append(prices, itemPrice)
+    						break
+    					}
+    				}
+    
+    			}
+    		}
+    	}
+    	return prices
+    }
+    
+    //List the items for the given package.
+    func listPackageItems(sess *session.Session, packageId int) (resp []datatypes.Product_Item) {
+    	var mask = "id, itemCategory, keyName, prices[id,categories]"
+    	var service = services.GetProductPackageService(sess)
+    	receipt, err := service.Id(packageId).Mask(mask).GetItems()
+    	if err != nil {
+    		fmt.Printf("\n Unable to get Items:\n - %s\n", err)
+    		return
+    	}
+    
+    	return receipt
+    }
 
-	sess := session.New(username, apikey)
-
-	quantity := 1
-	location := "448994"
-	packageId := 835
-	presetId := 215
-	hostname := "softlayer"
-	domain := "example.com"
-	placementId := 12345
-
-	virtualGuests := []datatypes.Virtual_Guest{
-		{
-			Hostname:         sl.String(hostname),
-			Domain:           sl.String(domain),
-			PlacementGroupId: sl.Int(placementId),
-		},
-	}
-
-	// Build a skeleton SoftLayer_Product_Item_Price objects. To get the list of valid
-	// prices for the package use the SoftLayer_Product_Package:getItems method
-	prices := []datatypes.Product_Item_Price{
-		{Id: sl.Int(203967)},
-		{Id: sl.Int(204135)},
-		{Id: sl.Int(45466)},
-		{Id: sl.Int(2202)},
-		{Id: sl.Int(204853)},
-		{Id: sl.Int(1800)},
-		{Id: sl.Int(273)},
-		{Id: sl.Int(17129)},
-		{Id: sl.Int(28)},
-		{Id: sl.Int(55)},
-		{Id: sl.Int(58)},
-		{Id: sl.Int(420)},
-		{Id: sl.Int(418)},
-		{Id: sl.Int(21)},
-		{Id: sl.Int(57)},
-		{Id: sl.Int(905)},
-	}
-
-	orderTemplate := datatypes.Container_Product_Order{
-		Quantity:      sl.Int(quantity),
-		Location:      sl.String(location),
-		PackageId:     sl.Int(packageId),
-		PresetId:      sl.Int(presetId),
-		Prices:        prices,
-		VirtualGuests: virtualGuests,
-	}
-
-	service := services.GetProductOrderService(sess)
-
-	// Use verifyOrder() method to check for errors. Replace this with placeOrder() when
-	// you are ready to order.
-	receipt, err := service.VerifyOrder(&orderTemplate)
-	if err != nil {
-		fmt.Printf("\n Unable to place order:\n - %s\n", err)
-		return
-	}
-
-	jsonFormat, jsonErr := json.MarshalIndent(receipt, "", "    ")
-	if jsonErr != nil {
-		fmt.Println(jsonErr)
-		return
-	}
-
-	fmt.Println(string(jsonFormat))
-}
 
 ```
 
@@ -274,12 +328,13 @@ import (
 
 func main() {
 
-	username := "set me"
-	apikey := "set me"
-	
+    // Unique ID for a computing instance.
 	guestId := 12345678
-	sess := session.New(username, apikey)
+	
+	// Create a session		
+	sess := session.New()
 
+    // Get SoftLayer_Virtual_Guest service.
 	service := services.GetVirtualGuestService(sess)
 
 	receipt, err := service.Id(guestId).GetPlacementGroup()
