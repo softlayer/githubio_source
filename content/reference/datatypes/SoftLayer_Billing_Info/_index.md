@@ -215,6 +215,16 @@ Every SoftLayer customer account has billing specific information which is kept 
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#taxCertificateId" name=taxCertificateId>taxCertificateId</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#vatId" name=vatId>vatId</a>
             </span>
             <div class='views-field-body'> </div>
