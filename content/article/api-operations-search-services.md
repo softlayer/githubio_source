@@ -1,12 +1,30 @@
 ---
 title: "Searching SoftLayer Object Storage"
-description: "Unique to SoftLayer Object Storage is a comprehensive search tool unlike any you have seen before.  SoftLayer’s integrated search service allows users to search the index based on account, container or path and provides numerous parameters to assist in filtering the search results. The Search Service API is built on top of the existing Object Storage API and indexes metadata on accounts, containers, and objects while providing a familiar interface to search the index."
+description: "(DEPRECIATED) Unique to SoftLayer Object Storage is a comprehensive search tool unlike any you have seen before.  SoftLayer’s integrated search service allows users to search the index based on account, container or path and provides numerous parameters to assist in filtering the search results. The Search Service API is built on top of the existing Object Storage API and indexes metadata on accounts, containers, and objects while providing a familiar interface to search the index."
 date: "2012-02-08"
 tags:
     - "article"
     - "sldn"
     - "storage"
+    - "deprecated"
 ---
+
+## Search EOS Message
+
+Subject: Event 72839777 - End of Support for Object Storage OpenStack Swift (Infrastructure) select features and datacenter locations- Action Required
+Severity: Major
+
+Effective March 31st, 2019, IBM Cloud will no longer support the following Object Storage OpenStack Swift (infrastructure) features:
+
+-Static Site Access
+-Content Delivery Network (CDN)
+-Search
+-Image Templates import/export  
+
+#### Migration Assistance
+Need migration help? Refer to the IBM Cloud Object Storage documentation for migration instructions and how to use the data migration tool to efficiently migrate your data
+- https://cloud.ibm.com/docs/services/cloud-object-storage/tutorials/migrate.html#migrating-data-from-openstack-swift
+
 
 ## Requests
 Search requests can be made to search an entire account, a particular container or a specified path, based on the URL entered at the time of search.  Utilize one of the following examples and your authentication code to perform the desired search.
