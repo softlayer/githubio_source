@@ -226,6 +226,26 @@ This is the datatype that needs to be populated and sent to SoftLayer_Product_Or
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#interconnectTenant" name=interconnectTenant>interconnectTenant</a>
+            </span>
+            <div class='views-field-body'>The [[SoftLayer_Network_Interconnect_Tenant]] being ordered. Only the ID is required. If this ID is specified, then properties such as networkIdentifier, ipAddressRange, and interconnectId do not need to be specified.  </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_Interconnect_Tenant'>SoftLayer_Network_Interconnect_Tenant </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#ipAddressRange" name=ipAddressRange>ipAddressRange</a>
+            </span>
+            <div class='views-field-body'>Optional IP address for this link. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#isManagedOrder" name=isManagedOrder>isManagedOrder</a>
             </span>
             <div class='views-field-body'>Flag to identify a "managed" order. This value is set internally. </div>

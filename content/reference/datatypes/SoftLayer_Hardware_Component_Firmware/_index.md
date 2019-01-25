@@ -133,6 +133,16 @@ classes:
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#qualificationType" name=qualificationType>qualificationType</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware_QualificationTypes'>SoftLayer_Hardware_Component_Firmware_QualificationTypes </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#revisions" name=revisions>revisions</a>
             </span>
             <div class='views-field-body'>All revisions of this firmware. </div>

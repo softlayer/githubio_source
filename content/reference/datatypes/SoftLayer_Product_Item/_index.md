@@ -60,6 +60,16 @@ The SoftLayer_Product_Item data type contains general information relating to a 
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#hardwareGenericComponentId" name=hardwareGenericComponentId>hardwareGenericComponentId</a>
+            </span>
+            <div class='views-field-body'>The hardware generic component model ID of the product. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#id" name=id>id</a>
             </span>
             <div class='views-field-body'>A product's internal identification number </div>
