@@ -236,6 +236,16 @@ This is the datatype that needs to be populated and sent to SoftLayer_Product_Or
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#ipAddressRange" name=ipAddressRange>ipAddressRange</a>
+            </span>
+            <div class='views-field-body'>Optional IP address for this link. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#isManagedOrder" name=isManagedOrder>isManagedOrder</a>
             </span>
             <div class='views-field-body'>Flag to identify a "managed" order. This value is set internally. </div>
