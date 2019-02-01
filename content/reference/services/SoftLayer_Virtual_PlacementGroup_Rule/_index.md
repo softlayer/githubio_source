@@ -35,6 +35,10 @@ SoftLayer_Virtual_PlacementGroup_Rule is the placement rule that a virtual guest
     </div>
     <div id="method-div">
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_PlacementGroup_Rule/getAllObjects'> getAllObjects</a> </span>
+            <div class='views-field-body'>Get all placement group rules.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_PlacementGroup_Rule/getObject'> getObject</a> </span>
             <div class='views-field-body'>Retrieve a SoftLayer_Virtual_PlacementGroup_Rule record.</div>
         </div>

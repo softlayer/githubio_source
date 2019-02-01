@@ -295,7 +295,7 @@ The SoftLayer_Network_Storage_Backup_Evault contains general information regardi
             <span class='views-field-title'>
                 <a href="#billingItem" name=billingItem>billingItem</a>
             </span>
-            <div class='views-field-body'>The current billing item for a Storage volume. </div>
+            <div class='views-field-body'>The current billing item for the Storage volume. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a></p>

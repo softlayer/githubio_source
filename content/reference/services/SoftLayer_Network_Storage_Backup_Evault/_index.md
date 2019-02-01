@@ -275,7 +275,7 @@ SoftLayer provides the EVault backup system as a part of it's Storage service of
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Backup_Evault/getBillingItem'> getBillingItem</a> </span>
-            <div class='views-field-body'>Retrieve the current billing item for a Storage volume.</div>
+            <div class='views-field-body'>Retrieve the current billing item for the Storage volume.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Backup_Evault/getBillingItemCategory'> getBillingItemCategory</a> </span>
