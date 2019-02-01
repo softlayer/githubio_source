@@ -12,7 +12,7 @@ tags:
 
 ```
 """
-Add permissions to user
+Add bulk permissions to user
 
 The script adds permissions to an arbitrary user by making a
 single call to the SoftLayer_User_Customer::addBulkPortalPermission method.
@@ -22,14 +22,8 @@ http://sldn.softlayer.com/reference/services/SoftLayer_User_Customer/
 http://sldn.softlayer.com/reference/services/SoftLayer_User_Customer/addBulkPortalPermission
 http://sldn.softlayer.com/reference/datatypes/SoftLayer_User_Customer_CustomerPermission_Permission
 
-License: http://sldn.softlayer.com/article/License
-Author: SoftLayer Technologies, Inc. <sldn@softlayer.com>
 """
 import SoftLayer
-
-# Your SoftLayer API username and key.
-USERNAME = 'set me'
-API_KEY = 'set me'
 
 # The user id you wish to add permissions
 userId = 213758
@@ -76,7 +70,7 @@ permissions = [
 ]
 
 # Declare the API client
-client = SoftLayer.Client(username=USERNAME, api_key=API_KEY)
+client = SoftLayer.Client)
 userCustomerService = client['SoftLayer_User_Customer']
 
 try:
@@ -90,5 +84,28 @@ except SoftLayer.SoftLayerAPIError as e:
     """
     print("Unable to add permissions. "
           % (e.faultCode, e.faultString))
+
+```
+
+
+```
+"""
+Add single user permission.
+"""
+
+import SoftLayer
+client = SoftLayer.Client()
+userId = 111922
+
+permissionsTemplate = {
+    'keyName': 'TICKET_ADD'
+}
+try:
+    client['SoftLayer_User_Customer'].addPortalPermission(permissionsTemplate, id=userId)
+    print("User permission updated!")
+except SoftLayer.SoftLayerAPIError as e:
+    print("Error to add permission to user faultCode=%s, faultString=%s"
+          % (e.faultCode, e.faultString))
+    exit(1)
 
 ```

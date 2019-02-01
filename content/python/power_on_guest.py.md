@@ -1,6 +1,6 @@
 ---
-title: "power_on_guest.py"
-description: "power_on_guest.py"
+title: "Change power settings on a VSI"
+description: "PowerOn, PowerOFf"
 date: "2017-11-23"
 classes: 
     - "SoftLayer_Virtual_Guest"
@@ -63,6 +63,9 @@ try:
     # Power off the virtual guest
     virtualMachines = client['SoftLayer_Virtual_Guest'].powerOn(id=virtualGuestId)
     print ("powered ON")
+
+    # PowerOFF
+    # virtualMachines = client['SoftLayer_Virtual_Guest'].powerOff(id=virtualGuestId)
 except SoftLayer.SoftLayerAPIError as e:
     """
     If there was an error returned from the SoftLayer API then bomb out with the
