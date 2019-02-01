@@ -13,7 +13,7 @@
 
                 <strong>Classes <span class="fa fa-book"/></strong>
                 {{ range .Params.classes }}
-                    <a class="label label-primary" href="/reference/services/{{ . | urlize | lower  }}">{{ . }}</a>
+                    <a class="label label-primary" href="/reference/services/{{ . | urlize }}">{{ . }}</a>
                 {{ end }}
                 <br>
                 <strong>Tags <span class="fa fa-tags"/></strong>
