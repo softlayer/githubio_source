@@ -31,7 +31,7 @@ The password parameter is ignored for VPN_ONLY users or for IBMid authenticated 
 
 vpnPassword If the vpnPassword is provided, then the user's vpnPassword will be set to the provided password.  When creating a vpn only user, the vpnPassword MUST be supplied.  If the vpnPassword is not provided, then the user will need to use the portal to edit their profile and set the vpnPassword. 
 
-
+IBMid considerations When a SoftLayer account is linked to a Platform Services (PaaS, formerly Bluemix) account, AND the trait on the SoftLayer Account indicating IBMid authentication is set, then SoftLayer will delegate the creation of the user to PaaS.  The Platform Services "invite user" API call is asynchronous, and so no user object can be returned from this API call.  In this specific case, this API will throw a SoftLayer_Exception_User_Customer_DelegateIamIdInvitationToPaas exception, with text indicating that the call was at least accepted by Platform Services.  The Platform Services API is the preferred API for creating users based on IBMid in a linked account pair.  If you have automation using this API that depends on getting a synchronous response with a user object with an id, you should contact SoftLayer Support to have the "IBMid authentication" trait set to 0 on this account.  In that case, a normal SoftLayer user will be created (no IBMid association set up) and the createObject call will return synchronously as before. 
 
 ### Parameters 
 |Name | Type | Description |

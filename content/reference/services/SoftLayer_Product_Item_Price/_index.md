@@ -75,6 +75,10 @@ The SoftLayer_Product_Item_Price contains general information relating to a sing
             <div class='views-field-body'>Retrieve whether this price defines a software license for its product item.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Product_Item_Price/getEligibilityStrategy'> getEligibilityStrategy</a> </span>
+            <div class='views-field-body'>Retrieve eligibility strategy to assess if a customer can order using this price.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Product_Item_Price/getItem'> getItem</a> </span>
             <div class='views-field-body'>Retrieve the product item a price is tied to.</div>
         </div>
