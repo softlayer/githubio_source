@@ -137,9 +137,22 @@ class example():
 def main(start, end):
     main = example(start, end)
     main.main()
+    # Uncomment this to print out the API calls made.
+    #main.debug()
  
 if __name__ == "__main__":
     main()
-    # Uncomment this to print out the API calls made.
-    #main.debug()
+
+```
+
+
+### REST Calls made
+Get server list, with tracking object Ids
+```
+curl -u $SL_USER:$SL_APIKEY -X GET 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getHardware.json?objectMask=mask%5Bid%2Chostname%2CfullyQualifiedDomainName%2CmetricTrackingObject%5Bid%5D%5D&resultLimit=0%2C2'
+```
+
+Get bandwidth data
+```
+curl -u $SL_USER:$SL_APIKEY -X POST  -d '{"parameters": [1546300800, 1548979200, "public", 86400]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Metric_Tracking_Object/26570093/getBandwidthData.json'
 ```
