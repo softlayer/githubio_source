@@ -1,6 +1,6 @@
 ---
-title: "disable_cloudinit_image_template.py"
-description: "disable_cloudinit_image_template.py"
+title: "Toggle cloudinit on an image template"
+description: "Toggle cloudinit on an image template"
 date: "2017-11-23"
 classes: 
     - "SoftLayer_Virtual_Guest_Block_Device_Template_Group"
@@ -22,30 +22,30 @@ http://sldn.softlayer.com/reference/datatypes/SoftLayer_Virtual_Guest_Block_Devi
 http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group
 http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/deleteCloudInitAttribute
 
-License: http://sldn.softlayer.com/article/License
-Author: SoftLayer Technologies, Inc. <sldn@softlayer.com>
 """
 
 import SoftLayer
 
 from pprint import pprint as pp
 
-# Your SoftLayer API username and key.
-API_USERNAME = 'set me'
-
-# Generate one at https://control.softlayer.com/account/users
-API_KEY = 'set me'
-
 # The image template which you wish more details
 imageTemplateId = 1796623
 
 # Declaring the API client
-client = SoftLayer.create_client_from_env(username=USERNAME, api_key=API_KEY)
+client = SoftLayer.create_client_from_env()
 blockDeviceTemplateGroupService = client['SoftLayer_Virtual_Guest_Block_Device_Template_Group']
 
 try:
     # calling the deleteCloudInitAttribute to disable cloudInit, this will return a boolean.
-    result = blockDeviceTemplateGroupService.deleteCloudInitAttribute(id=imageTemplateId)
+
+    # DISABLE
+    result = blockDeviceTemplateGroupService.deleteCloudInitAttribute(
+        id=imageTemplateId)
+
+    # ENABLE
+    result = blockDeviceTemplateGroupService.addCloudInitAttribute(
+        id=imageTemplateId)
+
     pp(result)
 except SoftLayer.SoftLayerAPIError as e:
     """

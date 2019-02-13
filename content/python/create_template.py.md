@@ -33,11 +33,6 @@ import SoftLayer
 
 from pprint import pprint as pp
 
-# Your SoftLayer API username and key.
-API_USERNAME = 'set me'
-
-# Generate one at https://control.softlayer.com/account/users
-API_KEY = 'set me'
 
 # The virtual guest ID you want to create a template
 virtualGuestId = 39202937
@@ -64,12 +59,12 @@ blockDevices = [
 ]
 
 # Declare a new API service object
-client = SoftLayer.create_client_from_env(username=API_USERNAME, api_key=API_KEY)
+client = SoftLayer.create_client_from_env()
 
 try:
     # Creating the transaction for the image template
-    response = client['SoftLayer_Virtual_Guest'].createArchiveTransaction(groupName,
-                                                                          blockDevices, note, id=virtualGuestId)
+    response = client['SoftLayer_Virtual_Guest'].createArchiveTransaction(
+        groupName, blockDevices, note, id=virtualGuestId)
     pp(response)
 except SoftLayer.SoftLayerAPIError as e:
     """

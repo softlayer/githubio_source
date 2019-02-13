@@ -1,6 +1,6 @@
 ---
 title: "getBillingItem"
-description: "Retrieve the current billing item for a Storage volume."
+description: "Retrieve the current billing item for the Storage volume."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getBillingItem
 
-Retrieve the current billing item for a Storage volume.
+Retrieve the current billing item for the Storage volume.
 
 
 ## Overview 
-Retrieve the current billing item for a Storage volume.
+Retrieve the current billing item for the Storage volume.
 
 ### Parameters 
 |Name | Type | Description |

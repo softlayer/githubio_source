@@ -1,6 +1,6 @@
 ---
-title: "disable_require_security_questions_on_log_in.py"
-description: "disable_require_security_questions_on_log_in.py"
+title: "Toggle Security Questions"
+description: "Shows how to Enable or Disable security questions on a user account"
 date: "2017-11-23"
 classes: 
     - "SoftLayer_User_Customer"
@@ -26,12 +26,10 @@ Author: SoftLayer Technologies, Inc. <sldn@softlayer.com>
 import SoftLayer
 import json
 
-USERNAME = 'set me'
-API_KEY = 'set me'
 
 userName = "myusernaetest0235"
 
-client = SoftLayer.Client(username=USERNAME, api_key=API_KEY)
+client = SoftLayer.Client()
 accountService = client['SoftLayer_Account']
 userService = client['SoftLayer_User_Customer']
 
@@ -39,7 +37,10 @@ objectFilterUser = {"users": {"username": {"operation": userName}}}
 
 try:
     users = accountService.getUsers(filter=objectFilterUser)
-    users[0]['secondaryLoginRequiredFlag'] = False
+    # DISABLE
+    # users[0]['secondaryLoginRequiredFlag'] = False
+    # ENABLE
+    users[0]['secondaryLoginRequiredFlag'] = True
     result = userService.editObject(users[0], id=users[0]['id'])
     print(json.dumps(result, sort_keys=True, indent=2, separators=(',', ': ')))
 
