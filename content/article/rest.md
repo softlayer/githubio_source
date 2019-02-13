@@ -15,7 +15,7 @@ SoftLayer provides a RESTful API in addition to RPC-style API services. Use the 
 REST API URLs are structured to easily traverse SoftLayer's object hierarchy. A basic REST request is structured as follows:
 
 ```
-curl -u [username]:[apiKey]  -d '{"parameters": ["fisrt", "second"]}'
+curl -u [username]:[apiKey]  -d '{"parameters": ["first", "second"]}'
 https://api.[service.]softlayer.com/rest/v3.1/[serviceName]/[initializationParameter]/[methodName].[json|xml|txt]?
 objectMask=mask[]&objectFilter={}&resultLimit=0,1
 ```
