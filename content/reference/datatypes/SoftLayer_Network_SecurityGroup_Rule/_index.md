@@ -92,7 +92,7 @@ The SoftLayer_Network_SecurityGroup_Rule data type contains general information 
             <span class='views-field-title'>
                 <a href="#portRangeMax" name=portRangeMax>portRangeMax</a>
             </span>
-            <div class='views-field-body'>The end of the port range for allowed traffic.  When the protocol is icmp, this value specifies the icmp code to permit.  When icmp code is specified, icmp type is required.  </div>
+            <div class='views-field-body'>The end of the port range for allowed traffic.  When the protocol is icmp, this value specifies the icmp code to permit.  When icmp code is specified, icmp type is required. When the protocol is vrrp, ports cannot be specified.  </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>integer</p>
@@ -112,7 +112,7 @@ The SoftLayer_Network_SecurityGroup_Rule data type contains general information 
             <span class='views-field-title'>
                 <a href="#protocol" name=protocol>protocol</a>
             </span>
-            <div class='views-field-body'>The protocol of packets (icmp, tcp, or udp). </div>
+            <div class='views-field-body'>The protocol of packets (icmp, tcp, udp, or vrrp). </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>
@@ -132,7 +132,7 @@ The SoftLayer_Network_SecurityGroup_Rule data type contains general information 
             <span class='views-field-title'>
                 <a href="#remoteIp" name=remoteIp>remoteIp</a>
             </span>
-            <div class='views-field-body'>CIDR or IP address for allowed connections. This property is mutually exclusive with the remoteGroupId property.  </div>
+            <div class='views-field-body'>CIDR or IP address for allowed connections. This property is mutually exclusive with the remoteGroupId property. When the protocol is vrrp, ports cannot be specified.  </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>

@@ -43,6 +43,10 @@ Storage Repositories are storage systems that are accessible through the interne
             <div class='views-field-body'>The rate that is charged for archiving every 1 gigabyte of data for a computing instance </div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Storage_Repository/getAverageDiskUsageMetricDataFromInfluxByDate'> getAverageDiskUsageMetricDataFromInfluxByDate</a> </span>
+            <div class='views-field-body'>Returns the average disk usage for the timeframe based on the parameters provided. </div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Storage_Repository/getAverageUsageMetricDataByDate'> getAverageUsageMetricDataByDate</a> </span>
             <div class='views-field-body'>Returns the average disk usage for the timeframe based on the parameters provided. </div>
         </div>

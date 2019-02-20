@@ -43,6 +43,10 @@ The SoftLayer_Product_Item_Price contains general information relating to a sing
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Product_Item_Price/getBareMetalReservedCapacityFlag'> getBareMetalReservedCapacityFlag</a> </span>
+            <div class='views-field-body'>Retrieve signifies pricing that is only available on a bare metal reserved capacity order.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Product_Item_Price/getBigDataOsJournalDiskFlag'> getBigDataOsJournalDiskFlag</a> </span>
             <div class='views-field-body'>Retrieve whether the price is for Big Data OS/Journal disks only. (Deprecated)</div>
         </div>
