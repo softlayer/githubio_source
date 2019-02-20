@@ -7,6 +7,6 @@ tags:
     - "sldn"
 ---
 
-SoftLayer Object Storage is built from [Open Stack Swift](https://docs.openstack.org/swift/latest/)
+For information about the Object Storage API, please see [About the IBM Cloud Object Storage API](https://console.bluemix.net/docs/services/cloud-object-storage/api-reference/about-api.html#about-the-ibm-cloud-object-storage-api)                                                                                                   
 
 

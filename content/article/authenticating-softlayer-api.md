@@ -95,13 +95,17 @@ For users with an IBM email, you will need to use the SSO endpoint (the above ex
 Tokens are retrieved from https://iam-id-1.ng.bluemix.net/identity/passcode
 ```
 TOKEN=qwe124cxzv
-curl -s -u 'bx:bx' -k -X POST --header 'Content-Type: application/x-www-form-urlencoded' --header 'Accept: application/json' -d "grant_type=urn:ibm:params:oauth:grant-type:passcode&passcode=$PASSCODE0&response_type=cloud_iam,ims_portal" https://iam.ng.bluemix.net/oidc/token
+curl -s -u 'bx:bx' -k -X POST --header 'Content-Type: application/x-www-form-urlencoded' --header 'Accept: application/json' -d "grant_type=urn:ibm:params:oauth:grant-type:passcode&passcode=$TOKEN&response_type=cloud_iam,ims_portal" https://iam.ng.bluemix.net/oidc/token
 ```
 
 In the response, will be a data field call `ims_token` which will let you authenticate to the SoftLayer API until the token expires (which should also be in the returned data)
 
 
-The REST endpoint doesn't support authenticating with tokens, so you will need to use the SOAP/XML endpoints.
+The REST endpoint doesn't support authenticating with tokens, but the MOBILE endpoint works, along with the SOAP/XML endpoints.
+
+```
+curl -u USERID:IMS_TOKEN 'https://api.softlayer.com/mobile/v3.1/SoftLayer_Account/getObject'
+```
 
 In the authentication header, you will set `userId` and `authToken`,  instead of `username` and `apiKey`. A call to SoftLayer_Customer::getObject would look like this in XML.
 
@@ -178,4 +182,119 @@ In the authentication header, you will set `userId` and `authToken`,  instead of
     </param>
   </params>
 </methodCall>
+```
+
+## Using the SoftLayer Python Library with IMS_TOKEN
+
+The following is a short example of how to get an IMS_TOKEN, and use it to make API calls with the SoftLayer Python library.
+
+
+```python
+"""
+Uses an IBM ID username/password to make SoftLayer API calls. 
+
+Using this method, you MUST use the xmlrpc endpoint in your ~/.softlayer file
+`endpoint_url = https://api.softlayer.com/xmlrpc/v3.1/`
+
+To use a rest endpoint, you will ahve to use https://api.softlayer.com/mobile/v3.1/, 
+which isn't supported by the softlayer python library
+"""
+ 
+
+from pprint import pprint as pp
+import logging
+import click
+import requests
+import json
+import SoftLayer
+from SoftLayer.auth import TokenAuthentication as TokenAuthentication
+
+class example():
+ 
+    def __init__(self, token, user, password):
+        if token is not None:
+            ims_token = self.get_ims_token_sso(token)
+        else:
+            ims_token = self.get_ims_token_password(user, password)
+        authObject = TokenAuthentication(ims_token['ims_user_id'], ims_token['ims_token'])
+        self.client = SoftLayer.create_client_from_env(auth=authObject)
+        debugger = SoftLayer.DebugTransport(self.client.transport)
+        self.client.transport = debugger
+        # logger = logging.getLogger()
+        # logger.addHandler(logging.StreamHandler())
+   
+    def debug(self):
+        """
+        Useful for printing out the exact API calls that were used. If using the rest transport, will print cure-able commands.
+        """
+        for call in self.client.transport.get_last_calls():
+            print(self.client.transport.print_reproduceable(call))
+ 
+
+    def get_ims_token_sso(self, token):
+        """
+        For accounts controlled by SSO, use this method.
+        """
+        url = 'https://iam.ng.bluemix.net/oidc/token'
+        payload = {
+            'grant_type': 'urn:ibm:params:oauth:grant-type:passcode', 
+            'passcode': token,
+            'response_type': 'cloud_iam,ims_portal'
+        }
+        headers = {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'Accept': 'application/json'
+        }
+        result = requests.post(url, data=payload, auth=('bx','bx'), headers=headers)
+
+        # This is what your token should look like.
+        # Once you use an SSO token to get an IMS_TOKEN, it expires 
+        # so I use this as an easy way to save the IMS token response.
+
+        # test_token = {
+        #     'access_token': 'REALLY LONG STRING GOES HERE',
+        #     'expiration': 1550699632,
+        #     'expires_in': 3600,
+        #     'ims_token': 'ANOTHER-REALLY-LONG_TOKEN_THING',
+        #     'ims_user_id': 244956,
+        #     'refresh_token': 'REALLYLONGTOKENGOESHERE',
+        #     'scope': 'ibm openid',
+        #     'token_type': 'Bearer'
+        # }
+        # return test_token
+        return json.loads(result.text)
+
+    def get_ims_token_password(self, username, password):
+        url = 'https://iam.ng.bluemix.net/oidc/token'
+        payload = {
+            'grant_type': 'password', 
+            'username': username,
+            'password': password,
+            'response_type': 'cloud_iam,ims_portal'
+        }
+        headers = {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'Accept': 'application/json'
+        }
+        result = requests.post(url, data=payload, auth=('bx','bx'), headers=headers)
+        pp(result.text)
+        return json.load(result.text)
+
+    def main(self):
+        account = self.client.call('Account', 'getObject')
+        pp(account)
+
+@click.command()
+@click.option('--sso', help='SSO token from https://iam-id-1.ng.bluemix.net/identity/passcode')
+@click.option('--username', help='IBM Id Username')
+@click.option('--password', help='IBM Id Password')
+def main(sso=None, username=None, password=None):
+
+    main = example(sso, username, password)
+    main.main()
+    # Uncomment this to print out the API calls made.
+    main.debug()
+ 
+if __name__ == "__main__":
+    main()
 ```
