@@ -21,6 +21,8 @@ Effective March 31st, 2019, IBM Cloud will no longer support the following Objec
 -Search
 -Image Templates import/export  
 
+See [Getting started with IBM CLoud Object Storage](https://cloud.ibm.com/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started-cli-#getting-started-cli-) for more information about the current Object Storage offerings.
+
 #### Migration Assistance
 Need migration help? Refer to the IBM Cloud Object Storage documentation for migration instructions and how to use the data migration tool to efficiently migrate your data
 - https://cloud.ibm.com/docs/services/cloud-object-storage/tutorials/migrate.html#migrating-data-from-openstack-swift

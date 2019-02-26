@@ -7,6 +7,7 @@ tags:
     - "sldn"
 ---
 
-For information about the Object Storage API, please see [About the IBM Cloud Object Storage API](https://console.bluemix.net/docs/services/cloud-object-storage/api-reference/about-api.html#about-the-ibm-cloud-object-storage-api)                                                                                                   
+See [Getting started with IBM CLoud Object Storage](https://cloud.ibm.com/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started-cli-#getting-started-cli-) for more information about the current Object Storage offerings.
+                                                                                      
 
 
