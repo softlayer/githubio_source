@@ -19,6 +19,8 @@ Add non-user email addresses to a ticket's email notify list.
 ## Overview 
 Creates new additional emails for assigned user if new emails are provided. Attaches any newly created additional emails to ticket. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,13 +31,26 @@ Creates new additional emails for assigned user if new emails are provided. Atta
 * authenticate
 * SoftLayer_TicketInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Ticket::removeAttachedAdditionalEmails](/reference/services/SoftLayer_Ticket/removeAttachedAdditionalEmails )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "This ticket does not have an assigned user. Could not add additional emails." if the given ticket is not assigned to a user. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Invalid email address(es) found: {list of invalid email addreses}" if one or more email addresses are invalid. 
+
+
 

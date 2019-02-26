@@ -19,6 +19,8 @@ Retrieve the Id of Direct Link service type.
 ## Overview 
 Retrieve the Id of Direct Link service type.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the Id of Direct Link service type.
 * SoftLayer_Network_DirectLink_LocationInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_DirectLink_LocationObjectMask
 * SoftLayer_Network_DirectLink_LocationObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_DirectLink_ServiceType'>SoftLayer_Network_DirectLink_ServiceType </a>
+* <a href='/reference/datatypes/SoftLayer_Network_DirectLink_ServiceType'>SoftLayer_Network_DirectLink_ServiceType </a>
+
+
+
 

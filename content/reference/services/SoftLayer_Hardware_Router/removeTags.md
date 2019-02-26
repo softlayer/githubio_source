@@ -19,6 +19,8 @@ Remove a tag reference
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Remove a tag reference
 * authenticate
 * SoftLayer_Hardware_RouterInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

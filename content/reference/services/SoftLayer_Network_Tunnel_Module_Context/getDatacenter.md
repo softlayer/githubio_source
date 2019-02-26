@@ -19,6 +19,8 @@ Retrieve the datacenter location for one end of the network tunnel that allows a
 ## Overview 
 Retrieve the datacenter location for one end of the network tunnel that allows access to account's private subnets.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the datacenter location for one end of the network tunnel that allows a
 * SoftLayer_Network_Tunnel_Module_ContextInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Tunnel_Module_ContextObjectMask
 * SoftLayer_Network_Tunnel_Module_ContextObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+
+
+
 

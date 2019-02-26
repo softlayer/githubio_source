@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Gets the email accounts that can be used to validate a certificate to a domain. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ Gets the email accounts that can be used to validate a certificate to a domain.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-array of strings
+* array of strings
+
+
+
 

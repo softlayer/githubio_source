@@ -19,6 +19,8 @@ attempt to import the host record for the virtualization platform running on a s
 ## Overview 
 The '''importVirtualHost''' method attempts to import the host record for the virtualization platform running on a server.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,25 @@ The '''importVirtualHost''' method attempts to import the host record for the vi
 * authenticate
 * SoftLayer_Hardware_SecurityModuleInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModuleObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Host'>SoftLayer_Virtual_Host </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Host'>SoftLayer_Virtual_Host </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> "This hardware device does not have a virtualization platform installed." 
+
+* SoftLayer_Exception_Public 
+
+> "Unable to import virtual host." 
+
+
 

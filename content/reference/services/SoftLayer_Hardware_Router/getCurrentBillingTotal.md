@@ -19,6 +19,8 @@ Get the billing total for this instance's usage up to this point. This total inc
 ## Overview 
 Get the total bill amount in US Dollars ($) for this hardware in the current billing period. This includes all bandwidth used up to the point the method is called on the hardware. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Get the total bill amount in US Dollars ($) for this hardware in the current bil
 * authenticate
 * SoftLayer_Hardware_RouterInitParameters
 
-### Optional Headers
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

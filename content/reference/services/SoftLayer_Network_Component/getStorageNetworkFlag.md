@@ -19,6 +19,8 @@ Retrieve whether a network component's primary ip address is from a storage netw
 ## Overview 
 Retrieve whether a network component's primary ip address is from a storage network subnet or not.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve whether a network component's primary ip address is from a storage netw
 * SoftLayer_Network_ComponentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_ComponentObjectMask
 * SoftLayer_Network_ComponentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

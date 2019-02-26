@@ -19,6 +19,8 @@ Retrieve the number of orders in a PENDING status for a SoftLayer customer accou
 ## Overview 
 Retrieve the number of orders in a PENDING status for a SoftLayer customer account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve the number of orders in a PENDING status for a SoftLayer customer accou
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-unsigned integer
+* unsigned integer
+
+
+
 

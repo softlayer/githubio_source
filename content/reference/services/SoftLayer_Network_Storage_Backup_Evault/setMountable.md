@@ -23,6 +23,8 @@ For Virtual Server volumes, disabling mounting will deny access to the Virtual S
 
 Enabling or disabling mounting for Storage volumes is not possible if mounting has been disabled by SoftLayer or a parent account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -33,8 +35,10 @@ Enabling or disabling mounting for Storage volumes is not possible if mounting h
 * authenticate
 * SoftLayer_Network_Storage_Backup_EvaultInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

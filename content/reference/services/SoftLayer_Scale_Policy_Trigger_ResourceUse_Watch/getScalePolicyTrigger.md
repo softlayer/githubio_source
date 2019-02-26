@@ -19,6 +19,8 @@ Retrieve the trigger this watch is on.
 ## Overview 
 Retrieve the trigger this watch is on.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the trigger this watch is on.
 * SoftLayer_Scale_Policy_Trigger_ResourceUse_WatchInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Policy_Trigger_ResourceUse_WatchObjectMask
 * SoftLayer_Scale_Policy_Trigger_ResourceUse_WatchObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_ResourceUse'>SoftLayer_Scale_Policy_Trigger_ResourceUse </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_ResourceUse'>SoftLayer_Scale_Policy_Trigger_ResourceUse </a>
+
+
+
 

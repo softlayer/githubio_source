@@ -19,6 +19,8 @@ Generate an [[SoftLayer_Container_Product_Order|order container]] from a billing
 ## Overview 
 Generate an [[SoftLayer_Container_Product_Order|order container]] from a billing order. This will take into account promotions, reseller status, estimated taxes and all other standard order verification processes. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ Generate an [[SoftLayer_Container_Product_Order|order container]] from a billing
 * authenticate
 * SoftLayer_Billing_OrderInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>
+
+
+
 

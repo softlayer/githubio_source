@@ -19,6 +19,8 @@ Create a new address record.
 ## Overview 
 Create a new address record. The ''typeId'', ''accountId'', ''description'', ''address1'', ''city'', ''state'', ''country'', and ''postalCode'' properties in the templateObject parameter are required properties and may not be null or empty. Users will be restricted to creating addresses for their account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Create a new address record. The ''typeId'', ''accountId'', ''description'', ''a
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_AddressObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a>
+
+
+
 

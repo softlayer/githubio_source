@@ -19,6 +19,8 @@ Retrieve valid routable endpoint addresses for a subnet.
 ## Overview 
 getRoutableEndpointAddresses retrieves valid routable endpoint addresses for a subnet. You may use any IP address in a portable subnet, but may not use the network identifier, gateway, or broadcast address for primary and secondary on VLAN subnets. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,21 @@ getRoutableEndpointAddresses retrieves valid routable endpoint addresses for a s
 * authenticate
 * SoftLayer_Network_SubnetInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Network_SubnetObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "Unable to find the VLAN for this subnet" if this subnet is a "PRIMARY" type subnet with no associated VLAN. 
+
+
 

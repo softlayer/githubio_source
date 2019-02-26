@@ -19,6 +19,8 @@ Retrieve references that tie object to the tag.
 ## Overview 
 Retrieve references that tie object to the tag.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve references that tie object to the tag.
 * SoftLayer_TagInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TagObjectMask
 * SoftLayer_TagObjectFilter
@@ -35,5 +38,8 @@ Retrieve references that tie object to the tag.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>
+* <a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>
+
+
+
 

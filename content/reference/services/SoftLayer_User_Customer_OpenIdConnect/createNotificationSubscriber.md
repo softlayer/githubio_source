@@ -19,6 +19,8 @@ Create a new subscriber for a given resource.
 ## Overview 
 Create a new subscriber for a given resource. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ Create a new subscriber for a given resource.
 * authenticate
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

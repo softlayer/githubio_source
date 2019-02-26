@@ -19,6 +19,8 @@ Unlocks a domain.
 ## Overview 
 The unlockDomain method unlocks a domain 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ The unlockDomain method unlocks a domain
 * authenticate
 * SoftLayer_Dns_Domain_RegistrationInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

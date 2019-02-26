@@ -19,6 +19,8 @@ Modifies contact information for a domain.
 ## Overview 
 The modifyContact method modifies contact information (admin, billing, owner, technical) for a domain. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ The modifyContact method modifies contact information (admin, billing, owner, te
 * authenticate
 * SoftLayer_Dns_Domain_RegistrationInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

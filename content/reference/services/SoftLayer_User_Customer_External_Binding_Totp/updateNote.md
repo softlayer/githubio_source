@@ -19,6 +19,8 @@ Update the note of an external binding.
 ## Overview 
 Update the note of an external binding.  The note is an optional property that is used to store information about a binding. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Update the note of an external binding.  The note is an optional property that i
 * authenticate
 * SoftLayer_User_Customer_External_Binding_TotpInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

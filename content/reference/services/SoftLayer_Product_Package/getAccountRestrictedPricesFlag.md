@@ -19,6 +19,8 @@ Retrieve the flag to indicate if there are any restricted prices in a package fo
 ## Overview 
 Retrieve the flag to indicate if there are any restricted prices in a package for the currently-active account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the flag to indicate if there are any restricted prices in a package fo
 * SoftLayer_Product_PackageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_Product_PackageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -27,6 +27,8 @@ List Pods in a geographical area. <pre> datacenterName.operation = '^= dal' </pr
 
 List Pods in a region fulfilling capabilities. <pre> datacenterName.operation = '^= dal' capabilities.operation = 'in' capabilities.options = [ { name = data, value = [SOME_CAPABILITY, ANOTHER_CAPABILITY] } ] </pre> 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -35,11 +37,15 @@ List Pods in a region fulfilling capabilities. <pre> datacenterName.operation = 
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_PodObjectMask
 * SoftLayer_ObjectMask
 * SoftLayer_Network_PodObjectFilter
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Pod'>SoftLayer_Network_Pod[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Pod'>SoftLayer_Network_Pod[] </a>
+
+
+
 

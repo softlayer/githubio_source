@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network record.
 * SoftLayer_NetworkInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_NetworkObjectMask
 * SoftLayer_NetworkObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network'>SoftLayer_Network </a>
+* <a href='/reference/datatypes/SoftLayer_Network'>SoftLayer_Network </a>
+
+
+
 

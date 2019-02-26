@@ -21,6 +21,8 @@ This method is deprecated! SoftLayer Community Forums no longer exist, therefore
 
 Determine if a string is the given user's login password to the SoftLayer community forums. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,8 +33,10 @@ Determine if a string is the given user's login password to the SoftLayer commun
 * authenticate
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

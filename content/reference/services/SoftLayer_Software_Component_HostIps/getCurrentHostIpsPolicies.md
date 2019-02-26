@@ -19,6 +19,8 @@ Get the current Host IPS policies.
 ## Overview 
 Get the current Host IPS policies. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Get the current Host IPS policies.
 * authenticate
 * SoftLayer_Software_Component_HostIpsInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Software_Component_HostIps_Policy'>SoftLayer_Container_Software_Component_HostIps_Policy[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Software_Component_HostIps_Policy'>SoftLayer_Container_Software_Component_HostIps_Policy[] </a>
+
+
+
 

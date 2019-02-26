@@ -19,6 +19,8 @@ Retrieve flag whether the requestor owns the hardware the scan was run on. This 
 ## Overview 
 Retrieve flag whether the requestor owns the hardware the scan was run on. This flag will  return for hardware servers only, virtual servers will result in a null return even if you have  a request out for them.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve flag whether the requestor owns the hardware the scan was run on. This 
 * SoftLayer_Network_Security_Scanner_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Security_Scanner_RequestObjectMask
 * SoftLayer_Network_Security_Scanner_RequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

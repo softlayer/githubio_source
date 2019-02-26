@@ -19,6 +19,8 @@ Retrieve the employee who last modified this address.
 ## Overview 
 Retrieve the employee who last modified this address.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the employee who last modified this address.
 * SoftLayer_Account_AddressInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_AddressObjectMask
 * SoftLayer_Account_AddressObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>
+* <a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>
+
+
+
 

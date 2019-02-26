@@ -21,6 +21,8 @@ Remove an assigned agent from a ticket.
 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,8 +33,10 @@ Remove an assigned agent from a ticket.
 * authenticate
 * SoftLayer_TicketInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

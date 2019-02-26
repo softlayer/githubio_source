@@ -19,6 +19,8 @@ Retrieve the preset configurations available only for the authenticated account 
 ## Overview 
 Retrieve the preset configurations available only for the authenticated account and this package.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the preset configurations available only for the authenticated account 
 * SoftLayer_Product_PackageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_Product_PackageObjectFilter
@@ -35,5 +38,8 @@ Retrieve the preset configurations available only for the authenticated account 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the public gateway IPv6 address.
 ## Overview 
 Retrieve the public gateway IPv6 address.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the public gateway IPv6 address.
 * SoftLayer_Network_GatewayInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_GatewayObjectMask
 * SoftLayer_Network_GatewayObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>
+
+
+
 

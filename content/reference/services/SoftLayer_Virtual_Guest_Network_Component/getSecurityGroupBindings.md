@@ -19,6 +19,8 @@ Retrieve the bindings associating security groups to this network component
 ## Overview 
 Retrieve the bindings associating security groups to this network component
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the bindings associating security groups to this network component
 * SoftLayer_Virtual_Guest_Network_ComponentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Guest_Network_ComponentObjectMask
 * SoftLayer_Virtual_Guest_Network_ComponentObjectFilter
@@ -35,5 +38,8 @@ Retrieve the bindings associating security groups to this network component
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding'>SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding'>SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding[] </a>
+
+
+
 

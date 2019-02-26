@@ -19,6 +19,8 @@ Retrieve a network component's primary IPv6 IP address record.
 ## Overview 
 Retrieve a network component's primary IPv6 IP address record.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a network component's primary IPv6 IP address record.
 * SoftLayer_Virtual_Guest_Network_ComponentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Guest_Network_ComponentObjectMask
 * SoftLayer_Virtual_Guest_Network_ComponentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>
+
+
+
 

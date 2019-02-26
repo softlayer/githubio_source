@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Billing_Item_Cancellation_Reason record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Billing_Item_Cancellation_Reason record.
 * SoftLayer_Billing_Item_Cancellation_ReasonInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Item_Cancellation_ReasonObjectMask
 * SoftLayer_Billing_Item_Cancellation_ReasonObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason'>SoftLayer_Billing_Item_Cancellation_Reason </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason'>SoftLayer_Billing_Item_Cancellation_Reason </a>
+
+
+
 

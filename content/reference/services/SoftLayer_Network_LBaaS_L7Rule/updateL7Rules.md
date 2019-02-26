@@ -19,6 +19,8 @@ Update one or more rules associated with the same policy.
 ## Overview 
 This function updates multiple Rules to a given policy with all the details for rules. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ This function updates multiple Rules to a given policy with all the details for 
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_LBaaS_L7RuleObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancer'>SoftLayer_Network_LBaaS_LoadBalancer </a>
+* <a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancer'>SoftLayer_Network_LBaaS_LoadBalancer </a>
+
+
+
 

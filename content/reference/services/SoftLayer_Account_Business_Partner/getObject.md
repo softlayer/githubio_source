@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Account_Business_Partner record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Account_Business_Partner record.
 * SoftLayer_Account_Business_PartnerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Business_PartnerObjectMask
 * SoftLayer_Account_Business_PartnerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Business_Partner'>SoftLayer_Account_Business_Partner </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Business_Partner'>SoftLayer_Account_Business_Partner </a>
+
+
+
 

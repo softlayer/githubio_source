@@ -19,6 +19,8 @@ Turn off the EU Supported account flag.
 ## Overview 
 <p style="color:red"><strong>Warning</strong>: If you remove the EU Supported account flag, you are removing the restriction that limits Processing activities to EU personnel.</p> 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,13 +29,26 @@ Turn off the EU Supported account flag.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-void
+* void
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Account::enableEuSupport](/reference/services/SoftLayer_Account/enableEuSupport )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_AccessDenied 
+
+> <<< EOT 
+
+* SoftLayer_Exception_Public 
+
+> <<< EOT 
+
+
 

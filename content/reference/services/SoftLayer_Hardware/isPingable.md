@@ -19,6 +19,8 @@ Verifies whether or not a server is pingable.
 ## Overview 
 The '''isPingable''' method issues a ping command to the selected server and returns the result of the ping command. This boolean return value displays ''true'' upon successful ping or ''false'' for a failed ping. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,17 @@ The '''isPingable''' method issues a ping command to the selected server and ret
 * authenticate
 * SoftLayer_HardwareInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> "Method has not been implemented for this object type." 
+
+
 

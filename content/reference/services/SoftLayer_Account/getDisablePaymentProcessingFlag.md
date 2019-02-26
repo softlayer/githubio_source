@@ -19,6 +19,8 @@ Retrieve a flag indicating whether payments are processed for this account.
 ## Overview 
 Retrieve a flag indicating whether payments are processed for this account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve a flag indicating whether payments are processed for this account.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

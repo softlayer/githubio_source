@@ -19,6 +19,8 @@ Retrieve whether or not this VLAN is inside a gateway.
 ## Overview 
 Retrieve whether or not this VLAN is inside a gateway.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve whether or not this VLAN is inside a gateway.
 * SoftLayer_Network_VlanInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_VlanObjectMask
 * SoftLayer_Network_VlanObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

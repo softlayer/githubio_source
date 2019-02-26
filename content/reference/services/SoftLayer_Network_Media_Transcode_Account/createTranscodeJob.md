@@ -45,6 +45,8 @@ Once a job is complete, the Transcode server will place the output file into the
 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -55,8 +57,17 @@ Once a job is complete, the Transcode server will place the output file into the
 * authenticate
 * SoftLayer_Network_Media_Transcode_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception if an invalid parameter is passed. 
+
+
 

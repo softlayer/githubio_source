@@ -19,6 +19,8 @@ Retrieve the resource groups in which this hardware is a member.
 ## Overview 
 Retrieve the resource groups in which this hardware is a member.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the resource groups in which this hardware is a member.
 * SoftLayer_HardwareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_HardwareObjectMask
 * SoftLayer_HardwareObjectFilter
@@ -35,5 +38,8 @@ Retrieve the resource groups in which this hardware is a member.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group[] </a>
+* <a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group[] </a>
+
+
+
 

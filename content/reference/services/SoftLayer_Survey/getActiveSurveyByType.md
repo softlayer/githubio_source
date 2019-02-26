@@ -19,6 +19,8 @@ Provides survey details for the given type
 ## Overview 
 Provides survey details for the given type 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Provides survey details for the given type
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_SurveyObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Survey'>SoftLayer_Survey </a>
+* <a href='/reference/datatypes/SoftLayer_Survey'>SoftLayer_Survey </a>
+
+
+
 

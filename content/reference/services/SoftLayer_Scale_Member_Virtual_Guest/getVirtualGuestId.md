@@ -19,6 +19,8 @@ Retrieve the identifier of the guest for this member.
 ## Overview 
 Retrieve the identifier of the guest for this member.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the identifier of the guest for this member.
 * SoftLayer_Scale_Member_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Member_Virtual_GuestObjectMask
 * SoftLayer_Scale_Member_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-integer
+* integer
+
+
+
 

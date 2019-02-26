@@ -19,6 +19,8 @@ Retrieve the accounts which may have read-only access to an image template group
 ## Overview 
 Retrieve the accounts which may have read-only access to an image template group. Will only be populated for parent template group objects.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the accounts which may have read-only access to an image template group
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupObjectMask
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupObjectFilter
@@ -35,5 +38,8 @@ Retrieve the accounts which may have read-only access to an image template group
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group_Accounts'>SoftLayer_Virtual_Guest_Block_Device_Template_Group_Accounts[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group_Accounts'>SoftLayer_Virtual_Guest_Block_Device_Template_Group_Accounts[] </a>
+
+
+
 

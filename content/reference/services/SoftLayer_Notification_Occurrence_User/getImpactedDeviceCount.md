@@ -19,6 +19,8 @@ A count representing the number of the user's devices currently impacted by the 
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ A count representing the number of the user's devices currently impacted by the 
 * authenticate
 * SoftLayer_Notification_Occurrence_UserInitParameters
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

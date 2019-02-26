@@ -19,6 +19,8 @@ Retrieve the total amount of the recurring taxes on an account's pending invoice
 ## Overview 
 Retrieve the total amount of the recurring taxes on an account's pending invoice, if one exists.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve the total amount of the recurring taxes on an account's pending invoice
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

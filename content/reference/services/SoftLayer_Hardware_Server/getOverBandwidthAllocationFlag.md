@@ -19,6 +19,8 @@ Retrieve whether the bandwidth usage for this hardware for the current billing c
 ## Overview 
 Retrieve whether the bandwidth usage for this hardware for the current billing cycle exceeds the allocation.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve whether the bandwidth usage for this hardware for the current billing c
 * SoftLayer_Hardware_ServerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_ServerObjectMask
 * SoftLayer_Hardware_ServerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-integer
+* integer
+
+
+
 

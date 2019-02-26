@@ -19,6 +19,8 @@ Check if object has sub-sections
 ## Overview 
 Returns true if the object has sub-sections 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Returns true if the object has sub-sections
 * authenticate
 * SoftLayer_Configuration_Template_SectionInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

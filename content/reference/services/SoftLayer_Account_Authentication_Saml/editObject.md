@@ -19,6 +19,8 @@ Edit the object by passing in a modified instance of the object.
 ## Overview 
 Edit the object by passing in a modified instance of the object 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit the object by passing in a modified instance of the object
 * authenticate
 * SoftLayer_Account_Authentication_SamlInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a collection of resources impacted by this event. Each record will rela
 ## Overview 
 Retrieve a collection of resources impacted by this event. Each record will relate to some physical resource that the user has access to such as [[SoftLayer_Hardware]] or [[SoftLayer_Virtual_Guest]].
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a collection of resources impacted by this event. Each record will rela
 * SoftLayer_Notification_Occurrence_EventInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Notification_Occurrence_EventObjectMask
 * SoftLayer_Notification_Occurrence_EventObjectFilter
@@ -35,5 +38,8 @@ Retrieve a collection of resources impacted by this event. Each record will rela
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Resource'>SoftLayer_Notification_Occurrence_Resource[] </a>
+* <a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Resource'>SoftLayer_Notification_Occurrence_Resource[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the [[SoftLayer_Virtual_Disk_Image|disk images]] that are in a storage 
 ## Overview 
 Retrieve the [[SoftLayer_Virtual_Disk_Image|disk images]] that are in a storage repository. Disk images are the virtual hard drives for a virtual guest.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the [[SoftLayer_Virtual_Disk_Image|disk images]] that are in a storage 
 * SoftLayer_Virtual_Storage_RepositoryInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Storage_RepositoryObjectMask
 * SoftLayer_Virtual_Storage_RepositoryObjectFilter
@@ -35,5 +38,8 @@ Retrieve the [[SoftLayer_Virtual_Disk_Image|disk images]] that are in a storage 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image[] </a>
+
+
+
 

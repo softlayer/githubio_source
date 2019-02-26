@@ -19,6 +19,8 @@ Retrieve a virtual rack's raw bandwidth usage data for an account's current bill
 ## Overview 
 Retrieve a virtual rack's raw bandwidth usage data for an account's current billing cycle. One object is returned for each network this server is attached to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a virtual rack's raw bandwidth usage data for an account's current bill
 * SoftLayer_Network_Bandwidth_Version1_AllotmentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Bandwidth_Version1_AllotmentObjectMask
 * SoftLayer_Network_Bandwidth_Version1_AllotmentObjectFilter
@@ -35,5 +38,8 @@ Retrieve a virtual rack's raw bandwidth usage data for an account's current bill
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage[] </a>
+
+
+
 

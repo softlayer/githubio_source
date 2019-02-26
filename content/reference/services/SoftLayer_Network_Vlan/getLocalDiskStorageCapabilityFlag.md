@@ -19,6 +19,8 @@ Retrieve a flag indicating that a vlan can be assigned to a host that has local 
 ## Overview 
 Retrieve a flag indicating that a vlan can be assigned to a host that has local disk functionality.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a flag indicating that a vlan can be assigned to a host that has local 
 * SoftLayer_Network_VlanInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_VlanObjectMask
 * SoftLayer_Network_VlanObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

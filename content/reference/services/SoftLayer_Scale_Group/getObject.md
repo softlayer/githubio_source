@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Scale_Group record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Scale_Group record.
 * SoftLayer_Scale_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_GroupObjectMask
 * SoftLayer_Scale_GroupObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>
+
+
+
 

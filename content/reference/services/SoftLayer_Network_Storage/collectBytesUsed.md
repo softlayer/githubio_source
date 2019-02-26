@@ -23,6 +23,8 @@ Retrieve the number of bytes capacity currently in use on a Storage account.
 
 collectBytesUsed() retrieves the number of bytes capacity currently in use on a Storage account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,8 +34,17 @@ collectBytesUsed() retrieves the number of bytes capacity currently in use on a 
 * authenticate
 * SoftLayer_Network_StorageInitParameters
 
-### Optional Headers
 
 ### Return Values
-unsigned long
+* unsigned long
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "The <nasType> Storage type is not supported for bytes used collection.  Please contact development." if the storage volume's type does not support usage collection. Currently, only Virtual Server storage is supported. 
+
+
 

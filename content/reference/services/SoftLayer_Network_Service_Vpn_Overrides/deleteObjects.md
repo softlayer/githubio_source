@@ -19,6 +19,8 @@ Delete multiple entries in the overrides 'white list' for a SoftLayer portal VPN
 ## Overview 
 Use this method to delete a collection of SoftLayer portal VPN user subnet overrides. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,13 +30,15 @@ Use this method to delete a collection of SoftLayer portal VPN user subnet overr
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_Service_Vpn_Overrides::deleteObject](/reference/services/SoftLayer_Network_Service_Vpn_Overrides/deleteObject )
+
+
+
 

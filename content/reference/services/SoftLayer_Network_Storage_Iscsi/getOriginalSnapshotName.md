@@ -19,6 +19,8 @@ Retrieve the name of the snapshot that this volume was duplicated from.
 ## Overview 
 Retrieve the name of the snapshot that this volume was duplicated from.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the name of the snapshot that this volume was duplicated from.
 * SoftLayer_Network_Storage_IscsiInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_IscsiObjectMask
 * SoftLayer_Network_Storage_IscsiObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

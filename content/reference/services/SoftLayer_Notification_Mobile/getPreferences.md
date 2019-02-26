@@ -19,6 +19,8 @@ Retrieve the preferences related to the notification. These are preferences are 
 ## Overview 
 Retrieve the preferences related to the notification. These are preferences are configurable and optional for subscribers to use.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the preferences related to the notification. These are preferences are 
 * SoftLayer_Notification_MobileInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Notification_MobileObjectMask
 * SoftLayer_Notification_MobileObjectFilter
@@ -35,5 +38,8 @@ Retrieve the preferences related to the notification. These are preferences are 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference[] </a>
+* <a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference[] </a>
+
+
+
 

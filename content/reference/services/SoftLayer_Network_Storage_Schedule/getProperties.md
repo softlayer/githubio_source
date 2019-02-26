@@ -19,6 +19,8 @@ Retrieve properties used for configuration of a schedule.
 ## Overview 
 Retrieve properties used for configuration of a schedule.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve properties used for configuration of a schedule.
 * SoftLayer_Network_Storage_ScheduleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_ScheduleObjectMask
 * SoftLayer_Network_Storage_ScheduleObjectFilter
@@ -35,5 +38,8 @@ Retrieve properties used for configuration of a schedule.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule_Property'>SoftLayer_Network_Storage_Schedule_Property[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule_Property'>SoftLayer_Network_Storage_Schedule_Property[] </a>
+
+
+
 

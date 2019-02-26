@@ -19,6 +19,8 @@ Displays the if clone snapshots can be ordered.
 ## Overview 
 This method returns a boolean indicating whether the clone volume is ready for snapshot. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method returns a boolean indicating whether the clone volume is ready for s
 * authenticate
 * SoftLayer_Network_Storage_Backup_EvaultInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

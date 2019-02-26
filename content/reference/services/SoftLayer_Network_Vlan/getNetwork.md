@@ -19,6 +19,8 @@ Retrieve the network in which this VLAN resides.
 ## Overview 
 Retrieve the network in which this VLAN resides.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the network in which this VLAN resides.
 * SoftLayer_Network_VlanInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_VlanObjectMask
 * SoftLayer_Network_VlanObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network'>SoftLayer_Network </a>
+* <a href='/reference/datatypes/SoftLayer_Network'>SoftLayer_Network </a>
+
+
+
 

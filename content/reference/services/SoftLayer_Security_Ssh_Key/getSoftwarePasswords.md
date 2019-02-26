@@ -19,6 +19,8 @@ Retrieve the OS root users that are linked to an SSH key.
 ## Overview 
 Retrieve the OS root users that are linked to an SSH key.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the OS root users that are linked to an SSH key.
 * SoftLayer_Security_Ssh_KeyInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Security_Ssh_KeyObjectMask
 * SoftLayer_Security_Ssh_KeyObjectFilter
@@ -35,5 +38,8 @@ Retrieve the OS root users that are linked to an SSH key.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password[] </a>
+* <a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password[] </a>
+
+
+
 

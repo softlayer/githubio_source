@@ -19,6 +19,8 @@ Retrieve user record for the subscription.
 ## Overview 
 Retrieve user record for the subscription.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve user record for the subscription.
 * SoftLayer_Notification_User_Subscriber_MobileInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Notification_User_Subscriber_MobileObjectMask
 * SoftLayer_Notification_User_Subscriber_MobileObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+
+
+
 

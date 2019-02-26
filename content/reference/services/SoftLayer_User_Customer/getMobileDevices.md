@@ -19,6 +19,8 @@ Retrieve a portal user's associated mobile device profiles.
 ## Overview 
 Retrieve a portal user's associated mobile device profiles.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a portal user's associated mobile device profiles.
 * SoftLayer_User_CustomerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_CustomerObjectMask
 * SoftLayer_User_CustomerObjectFilter
@@ -35,5 +38,8 @@ Retrieve a portal user's associated mobile device profiles.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice'>SoftLayer_User_Customer_MobileDevice[] </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice'>SoftLayer_User_Customer_MobileDevice[] </a>
+
+
+
 

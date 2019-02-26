@@ -19,6 +19,8 @@ Retrieve the network VLAN record.
 ## Overview 
 Retrieve the network VLAN record.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the network VLAN record.
 * SoftLayer_Network_Gateway_VlanInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Gateway_VlanObjectMask
 * SoftLayer_Network_Gateway_VlanObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>
+
+
+
 

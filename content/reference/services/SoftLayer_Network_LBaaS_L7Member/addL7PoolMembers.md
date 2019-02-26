@@ -19,6 +19,8 @@ Add load balancer L7 members
 ## Overview 
 Add server instances as members to a L7pool and return the LoadBalancer Object with listeners, pools and members populated 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Add server instances as members to a L7pool and return the LoadBalancer Object w
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_LBaaS_L7MemberObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancer'>SoftLayer_Network_LBaaS_LoadBalancer </a>
+* <a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancer'>SoftLayer_Network_LBaaS_LoadBalancer </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve network connection details for complex network storage volumes.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Retrieve network connection details for complex network storage volumes.
 * authenticate
 * SoftLayer_Network_Storage_IscsiInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_Storage_NetworkConnectionInformation'>SoftLayer_Container_Network_Storage_NetworkConnectionInformation </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_Storage_NetworkConnectionInformation'>SoftLayer_Container_Network_Storage_NetworkConnectionInformation </a>
+
+
+
 

@@ -23,6 +23,8 @@ Checks if a monitoring robot can communicate with SoftLayer monitoring managemen
 
 TCP port 48000 - 48002 must be open on your server or your virtual server in order for this test to succeed. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,8 +34,10 @@ TCP port 48000 - 48002 must be open on your server or your virtual server in ord
 * authenticate
 * SoftLayer_Monitoring_RobotInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the location of Direct Link facility.
 ## Overview 
 Retrieve the location of Direct Link facility.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the location of Direct Link facility.
 * SoftLayer_Network_DirectLink_LocationInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_DirectLink_LocationObjectMask
 * SoftLayer_Network_DirectLink_LocationObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+
+
+
 

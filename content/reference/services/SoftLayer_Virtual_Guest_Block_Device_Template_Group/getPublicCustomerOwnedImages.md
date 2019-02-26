@@ -19,6 +19,8 @@ Gets all public customer owned image templates that the user is allowed to see.
 ## Overview 
 This method gets all public customer owned image templates that the user is allowed to see. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ This method gets all public customer owned image templates that the user is allo
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupObjectMask
 * SoftLayer_ObjectMask
@@ -34,5 +37,8 @@ This method gets all public customer owned image templates that the user is allo
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group[] </a>
+
+
+
 

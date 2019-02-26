@@ -19,6 +19,8 @@ Retrieve the account to which the media belongs.
 ## Overview 
 Retrieve the account to which the media belongs.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the account to which the media belongs.
 * SoftLayer_Account_MediaInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_MediaObjectMask
 * SoftLayer_Account_MediaObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

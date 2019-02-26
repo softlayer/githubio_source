@@ -19,6 +19,8 @@ Remove a SoftLayer_Network_Storage_Allowed_Host object from this group
 ## Overview 
 Use this method to remove a SoftLayer_Network_Storage_Allowed_Host object from this group.  This will automatically disable access from this host to any SoftLayer_Network_Storage volumes currently attached to this group. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Use this method to remove a SoftLayer_Network_Storage_Allowed_Host object from t
 * authenticate
 * SoftLayer_Network_Storage_Group_NfsInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

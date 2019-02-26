@@ -21,6 +21,8 @@ This method modifies an existing associated [[SoftLayer_Layout_Profile_Preferenc
 
 Only preferences that are assigned to a profile may be updated. Attempts to update a non-existent preference object will result in an exception being thrown. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,10 +33,14 @@ Only preferences that are assigned to a profile may be updated. Attempts to upda
 * authenticate
 * SoftLayer_Layout_Profile_CustomerInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Layout_Profile_CustomerObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Layout_Profile_Preference'>SoftLayer_Layout_Profile_Preference </a>
+* <a href='/reference/datatypes/SoftLayer_Layout_Profile_Preference'>SoftLayer_Layout_Profile_Preference </a>
+
+
+
 

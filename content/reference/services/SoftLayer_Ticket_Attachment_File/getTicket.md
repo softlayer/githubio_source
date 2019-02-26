@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Ticket_Attachment_FileInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Ticket_Attachment_FileObjectMask
 * SoftLayer_Ticket_Attachment_FileObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>
+
+
+
 

@@ -37,6 +37,8 @@ Initiate the automated process to establish connectivity granting the account pr
 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -45,14 +47,23 @@ Initiate the automated process to establish connectivity granting the account pr
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network::isConnectedToPrivateEndpointService](/reference/services/SoftLayer_Network/isConnectedToPrivateEndpointService )
 *  [SoftLayer_Network::disconnectPrivateEndpointService](/reference/services/SoftLayer_Network/disconnectPrivateEndpointService )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_NotReady 
+
+> <<< EOT 
+
+
 

@@ -19,6 +19,8 @@ Retrieve the total capacity of Legacy EVault Volumes on an account, in GB.
 ## Overview 
 Retrieve the total capacity of Legacy EVault Volumes on an account, in GB.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve the total capacity of Legacy EVault Volumes on an account, in GB.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-unsigned integer
+* unsigned integer
+
+
+
 

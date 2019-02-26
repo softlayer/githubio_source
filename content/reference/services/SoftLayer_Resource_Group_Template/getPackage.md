@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Resource_Group_TemplateInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Resource_Group_TemplateObjectMask
 * SoftLayer_Resource_Group_TemplateObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the SoftLayer_Account which owns this group.
 ## Overview 
 Retrieve the SoftLayer_Account which owns this group.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the SoftLayer_Account which owns this group.
 * SoftLayer_Network_Storage_Group_NfsInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Group_NfsObjectMask
 * SoftLayer_Network_Storage_Group_NfsObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

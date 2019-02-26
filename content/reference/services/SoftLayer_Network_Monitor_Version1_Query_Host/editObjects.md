@@ -19,6 +19,8 @@ Edit a group of Query_Host objects by passing in a collection of them.
 ## Overview 
 Like any other API object, the monitoring objects can have their exposed properties edited by passing in a modified version of the object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Like any other API object, the monitoring objects can have their exposed propert
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

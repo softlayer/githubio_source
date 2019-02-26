@@ -31,6 +31,8 @@ The ``id`` must identify a Subnet in the Network. If the ``id`` is provided, the
 
 Subnets may only be removed when no compute resources are utilizing them. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -41,8 +43,21 @@ Subnets may only be removed when no compute resources are utilizing them.
 * authenticate
 * SoftLayer_NetworkInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_NotFound 
+
+> <<< EOT 
+
+* SoftLayer_Exception_NotReady 
+
+> <<< EOT 
+
+
 

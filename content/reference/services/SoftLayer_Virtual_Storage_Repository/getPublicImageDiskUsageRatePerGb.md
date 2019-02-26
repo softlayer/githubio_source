@@ -19,6 +19,8 @@ The rate that is charged for publishing every 1 gigabyte of data for an image te
 ## Overview 
 Returns the public image storage disk usage fee rate per gigabyte. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Returns the public image storage disk usage fee rate per gigabyte.
 * authenticate
 * SoftLayer_Virtual_Storage_RepositoryInitParameters
 
-### Optional Headers
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

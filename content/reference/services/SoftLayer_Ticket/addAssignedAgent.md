@@ -21,6 +21,8 @@ Assign an Agent to a ticket.
 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,8 +33,10 @@ Assign an Agent to a ticket.
 * authenticate
 * SoftLayer_TicketInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

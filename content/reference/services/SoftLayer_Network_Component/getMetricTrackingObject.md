@@ -19,6 +19,8 @@ Retrieve the metric tracking object for this network component.
 ## Overview 
 Retrieve the metric tracking object for this network component.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the metric tracking object for this network component.
 * SoftLayer_Network_ComponentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_ComponentObjectMask
 * SoftLayer_Network_ComponentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>
+* <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>
+
+
+
 

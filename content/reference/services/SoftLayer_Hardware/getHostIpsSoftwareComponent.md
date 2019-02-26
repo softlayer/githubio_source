@@ -19,6 +19,8 @@ Retrieve information regarding a host IPS software component object.
 ## Overview 
 Retrieve information regarding a host IPS software component object.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve information regarding a host IPS software component object.
 * SoftLayer_HardwareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_HardwareObjectMask
 * SoftLayer_HardwareObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>
+* <a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>
+
+
+
 

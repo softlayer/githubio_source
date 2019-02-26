@@ -21,6 +21,8 @@ Rebuild a vSRX gateway with HA cluster by destroying existing vSRX and installin
 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ Rebuild a vSRX gateway with HA cluster by destroying existing vSRX and installin
 * authenticate
 * SoftLayer_Network_GatewayInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

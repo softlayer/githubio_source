@@ -19,6 +19,8 @@ Retrieve the Account whose RWHOIS data was used to SWIP this subnet
 ## Overview 
 Retrieve the Account whose RWHOIS data was used to SWIP this subnet
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the Account whose RWHOIS data was used to SWIP this subnet
 * SoftLayer_Network_Subnet_Swip_TransactionInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_Swip_TransactionObjectMask
 * SoftLayer_Network_Subnet_Swip_TransactionObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

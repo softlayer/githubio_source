@@ -19,6 +19,8 @@ Returns media URLs that support Origin Pull mapping
 ## Overview 
 This method returns CDN URLs that supports Origin Pull mappings. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method returns CDN URLs that supports Origin Pull mappings.
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_ContentDelivery_SupportedProtocol'>SoftLayer_Container_Network_ContentDelivery_SupportedProtocol[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_ContentDelivery_SupportedProtocol'>SoftLayer_Container_Network_ContentDelivery_SupportedProtocol[] </a>
+
+
+
 

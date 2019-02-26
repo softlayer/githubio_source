@@ -19,6 +19,8 @@ Retrieve the number of hourly services that an account is allowed to have
 ## Overview 
 This method will return the limit (number) of hourly services the account is allowed to have. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ This method will return the limit (number) of hourly services the account is all
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

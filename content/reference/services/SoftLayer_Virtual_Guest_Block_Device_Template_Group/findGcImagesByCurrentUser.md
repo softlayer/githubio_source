@@ -19,6 +19,8 @@ Fetch a sorted collection of GC enabled images for the account of the current ac
 ## Overview 
 Find block device template groups containing a GC enabled image for the current active user. A sorted collection of groups is returned. The Caller can optionally specify data center names to retrieve GC images only from those data centers. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Find block device template groups containing a GC enabled image for the current 
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group[] </a>
+
+
+
 

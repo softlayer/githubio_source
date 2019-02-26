@@ -19,6 +19,8 @@ Returns maintenance window ticket
 ## Overview 
 getMaintenanceWindowTicketsByTicketId() returns a list maintenance window ticket records by ticket id 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ getMaintenanceWindowTicketsByTicketId() returns a list maintenance window ticket
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Provisioning_Maintenance_WindowObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Ticket'>SoftLayer_Provisioning_Maintenance_Ticket[] </a>
+* <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Ticket'>SoftLayer_Provisioning_Maintenance_Ticket[] </a>
+
+
+
 

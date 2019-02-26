@@ -19,6 +19,8 @@ Retrieve the type of this virtual guest.
 ## Overview 
 Retrieve the type of this virtual guest.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the type of this virtual guest.
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Type'>SoftLayer_Virtual_Guest_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Type'>SoftLayer_Virtual_Guest_Type </a>
+
+
+
 

@@ -19,6 +19,8 @@ Attach a SoftLayer_Network_Storage volume to this group
 ## Overview 
 Use this method to attach a SoftLayer_Network_Storage volume to this group.  This will automatically enable access to this volume for any SoftLayer_Network_Storage_Allowed_Host objects currently attached to this group. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Use this method to attach a SoftLayer_Network_Storage volume to this group.  Thi
 * authenticate
 * SoftLayer_Network_Storage_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

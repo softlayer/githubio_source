@@ -19,6 +19,8 @@ Retrieve the drive controllers contained within a piece of hardware.
 ## Overview 
 Retrieve the drive controllers contained within a piece of hardware.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the drive controllers contained within a piece of hardware.
 * SoftLayer_HardwareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_HardwareObjectMask
 * SoftLayer_HardwareObjectFilter
@@ -35,5 +38,8 @@ Retrieve the drive controllers contained within a piece of hardware.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>
+
+
+
 

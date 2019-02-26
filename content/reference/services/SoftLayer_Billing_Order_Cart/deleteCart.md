@@ -19,6 +19,8 @@ Delete an existing cart
 ## Overview 
 If a cart is no longer needed, it can be deleted using this service. Once a cart has been deleted, it cannot be retrieved again. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ If a cart is no longer needed, it can be deleted using this service. Once a cart
 * authenticate
 * SoftLayer_Billing_Order_CartInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the total number of users online using SoftLayer's PPTP VPN service for
 ## Overview 
 Retrieve the total number of users online using SoftLayer's PPTP VPN service for a location.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the total number of users online using SoftLayer's PPTP VPN service for
 * SoftLayer_Location_DatacenterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_DatacenterObjectMask
 * SoftLayer_Location_DatacenterObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-integer
+* integer
+
+
+
 

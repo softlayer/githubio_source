@@ -19,6 +19,8 @@ Retrieve the user that will be notified when the associated virtual guest object
 ## Overview 
 Retrieve the user that will be notified when the associated virtual guest object fails a monitoring instance.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the user that will be notified when the associated virtual guest object
 * SoftLayer_User_Customer_Notification_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_Notification_Virtual_GuestObjectMask
 * SoftLayer_User_Customer_Notification_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+
+
+
 

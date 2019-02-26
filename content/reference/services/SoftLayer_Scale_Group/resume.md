@@ -19,6 +19,8 @@ Resume this group.
 ## Overview 
 Resume this group. The group must be in a suspended status to do this. By doing this, the group's status will become active. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Resume this group. The group must be in a suspended status to do this. By doing 
 * authenticate
 * SoftLayer_Scale_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the locations in a group.
 ## Overview 
 Retrieve the locations in a group.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the locations in a group.
 * SoftLayer_Location_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_GroupObjectMask
 * SoftLayer_Location_GroupObjectFilter
@@ -35,5 +38,8 @@ Retrieve the locations in a group.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+
+
+
 

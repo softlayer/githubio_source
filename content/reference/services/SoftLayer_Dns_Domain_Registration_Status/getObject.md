@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Dns_Domain_Registration_Status record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Dns_Domain_Registration_Status record.
 * SoftLayer_Dns_Domain_Registration_StatusInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Dns_Domain_Registration_StatusObjectMask
 * SoftLayer_Dns_Domain_Registration_StatusObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Status'>SoftLayer_Dns_Domain_Registration_Status </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Status'>SoftLayer_Dns_Domain_Registration_Status </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the type of this shipment item.
 ## Overview 
 Retrieve the type of this shipment item.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the type of this shipment item.
 * SoftLayer_Account_Shipment_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Shipment_ItemObjectMask
 * SoftLayer_Account_Shipment_ItemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Shipment_Item_Type'>SoftLayer_Account_Shipment_Item_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Shipment_Item_Type'>SoftLayer_Account_Shipment_Item_Type </a>
+
+
+
 

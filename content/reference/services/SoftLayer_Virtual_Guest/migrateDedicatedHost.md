@@ -19,6 +19,8 @@ Migrate a dedicated instance from one dedicated host to another dedicated host
 ## Overview 
 Create a transaction to migrate an instance from one dedicated host to another dedicated host 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Create a transaction to migrate an instance from one dedicated host to another d
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

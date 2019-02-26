@@ -19,6 +19,8 @@ Retrieve the shipments of the request.
 ## Overview 
 Retrieve the shipments of the request.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the shipments of the request.
 * SoftLayer_Network_Storage_MassDataMigration_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_MassDataMigration_RequestObjectMask
 * SoftLayer_Network_Storage_MassDataMigration_RequestObjectFilter
@@ -35,5 +38,8 @@ Retrieve the shipments of the request.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Shipment'>SoftLayer_Account_Shipment[] </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Shipment'>SoftLayer_Account_Shipment[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the gateways this VLAN is the private VLAN of.
 ## Overview 
 Retrieve the gateways this VLAN is the private VLAN of.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the gateways this VLAN is the private VLAN of.
 * SoftLayer_Network_VlanInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_VlanObjectMask
 * SoftLayer_Network_VlanObjectFilter
@@ -35,5 +38,8 @@ Retrieve the gateways this VLAN is the private VLAN of.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway[] </a>
+
+
+
 

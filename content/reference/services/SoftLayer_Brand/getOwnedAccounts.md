@@ -19,6 +19,8 @@ Retrieve active accounts owned by the brand.
 ## Overview 
 Retrieve active accounts owned by the brand.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve active accounts owned by the brand.
 * SoftLayer_BrandInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_BrandObjectMask
 * SoftLayer_BrandObjectFilter
@@ -35,5 +38,8 @@ Retrieve active accounts owned by the brand.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account[] </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account[] </a>
+
+
+
 

@@ -23,6 +23,8 @@ Get all configuration definition group objects.
 
 ''getAllGroups'' returns an array of SoftLayer_Configuration_Template_Section_Definition_Group objects upon success. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,6 +33,7 @@ Get all configuration definition group objects.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Configuration_Template_Section_Definition_GroupObjectMask
 * SoftLayer_ObjectMask
@@ -38,5 +41,8 @@ Get all configuration definition group objects.
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Group'>SoftLayer_Configuration_Template_Section_Definition_Group[] </a>
+* <a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Group'>SoftLayer_Configuration_Template_Section_Definition_Group[] </a>
+
+
+
 

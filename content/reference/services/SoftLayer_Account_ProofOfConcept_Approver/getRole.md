@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Account_ProofOfConcept_ApproverInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_ProofOfConcept_ApproverObjectMask
 * SoftLayer_Account_ProofOfConcept_ApproverObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver_Role'>SoftLayer_Account_ProofOfConcept_Approver_Role </a>
+* <a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver_Role'>SoftLayer_Account_ProofOfConcept_Approver_Role </a>
+
+
+
 

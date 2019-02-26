@@ -19,6 +19,8 @@ Get a list of all available external binding vendors that SoftLayer supports.
 ## Overview 
 getAllObjects() will return a list of the available external binding vendors that SoftLayer supports.  Use this list to select the appropriate vendor when creating a new external binding. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ getAllObjects() will return a list of the available external binding vendors tha
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_External_Binding_VendorObjectMask
 * SoftLayer_ObjectMask
 * SoftLayer_User_External_Binding_VendorObjectFilter
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_External_Binding_Vendor'>SoftLayer_User_External_Binding_Vendor[] </a>
+* <a href='/reference/datatypes/SoftLayer_User_External_Binding_Vendor'>SoftLayer_User_External_Binding_Vendor[] </a>
+
+
+
 

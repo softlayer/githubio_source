@@ -19,6 +19,8 @@ Retrieve the name of the datacenter in which a piece of hardware resides.
 ## Overview 
 Retrieve the name of the datacenter in which a piece of hardware resides.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the name of the datacenter in which a piece of hardware resides.
 * SoftLayer_Hardware_SecurityModule750InitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModule750ObjectMask
 * SoftLayer_Hardware_SecurityModule750ObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 This method allows you to mark this image's supported boot modes as 'HVM' or 'PV'. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method allows you to mark this image's supported boot modes as 'HVM' or 'PV
 * authenticate
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

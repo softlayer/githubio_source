@@ -19,6 +19,8 @@ Sets up an Origin Pull domain rule
 ## Overview 
 This method is deprecated, please use [[[[SoftLayer_Network_ContentDelivery_Account::createOriginPullMapping|createOriginPullMapping]] method instead. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,41 @@ This method is deprecated, please use [[[[SoftLayer_Network_ContentDelivery_Acco
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a user does not have CDN_ACCOUNT_MANAGE privilege. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if an Origin Pull domain name is not provided. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if an Origin Pull rule is already set up. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a connection to the CDN FTP server failed. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if nslookup failed on an Origin Pull domain. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a CNAME is provided and nslookup failed on CNAME record. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a CNAME is provided and CNAME does not point to "<CDN_AcccountName>.http.cdn.softlayer.net.". 
+
+
 

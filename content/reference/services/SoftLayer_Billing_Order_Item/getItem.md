@@ -19,6 +19,8 @@ Retrieve the SoftLayer_Product_Item tied to an order item. The item is the actua
 ## Overview 
 Retrieve the SoftLayer_Product_Item tied to an order item. The item is the actual definition of the product being sold.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the SoftLayer_Product_Item tied to an order item. The item is the actua
 * SoftLayer_Billing_Order_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Order_ItemObjectMask
 * SoftLayer_Billing_Order_ItemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>
+
+
+
 

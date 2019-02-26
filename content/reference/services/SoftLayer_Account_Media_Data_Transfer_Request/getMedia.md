@@ -19,6 +19,8 @@ Retrieve the media of the request.
 ## Overview 
 Retrieve the media of the request.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the media of the request.
 * SoftLayer_Account_Media_Data_Transfer_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Media_Data_Transfer_RequestObjectMask
 * SoftLayer_Account_Media_Data_Transfer_RequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Media'>SoftLayer_Account_Media </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Media'>SoftLayer_Account_Media </a>
+
+
+
 

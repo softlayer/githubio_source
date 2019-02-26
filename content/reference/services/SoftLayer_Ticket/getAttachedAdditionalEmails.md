@@ -19,6 +19,8 @@ Retrieve the list of additional emails to notify when a ticket update is made.
 ## Overview 
 Retrieve the list of additional emails to notify when a ticket update is made.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the list of additional emails to notify when a ticket update is made.
 * SoftLayer_TicketInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TicketObjectMask
 * SoftLayer_TicketObjectFilter
@@ -35,5 +38,8 @@ Retrieve the list of additional emails to notify when a ticket update is made.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_AdditionalEmail'>SoftLayer_User_Customer_AdditionalEmail[] </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_AdditionalEmail'>SoftLayer_User_Customer_AdditionalEmail[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Returns an object with bandwidth graph data for each POP
 ## Overview 
 This method returns a bandwidth graph for every POP wrapped in [[SoftLayer_Container_Bandwidth_GraphOutputsExtended|Bandwidth Graph]] object. A POP bandwidth graph shows bandwidth consumption per each POP in a bar graph. [[SoftLayer_Container_Bandwidth_GraphOutputsExtended|Bandwidth Graph]] object contains a begin time, end time, title of the graph, binary date, in and outbound total bandwidth in bytes 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,14 +34,35 @@ This method returns a bandwidth graph for every POP wrapped in [[SoftLayer_Conta
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputsExtended'>SoftLayer_Container_Bandwidth_GraphOutputsExtended </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputsExtended'>SoftLayer_Container_Bandwidth_GraphOutputsExtended </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_ContentDelivery_Account::getBandwidthData](/reference/services/SoftLayer_Network_ContentDelivery_Account/getBandwidthData )
 *  [SoftLayer_Network_ContentDelivery_Account::getAllPopsBandwidthData](/reference/services/SoftLayer_Network_ContentDelivery_Account/getAllPopsBandwidthData )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a user does not have CDN_BANDWIDTH_VIEW privilege. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if the $beginDateTime is not a valid date value. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if the $endDateTime is not a valid date value. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if an invalid $unit is passed.  B, MB and GB are supported. 
+
+
 

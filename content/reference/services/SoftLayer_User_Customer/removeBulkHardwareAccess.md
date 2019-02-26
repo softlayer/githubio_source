@@ -23,6 +23,8 @@ Users can assign hardware access to their child users, but not to themselves. An
 
 If the user has full hardware access, then it will provide access to "ALL but passed in" hardware ids. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -33,15 +35,40 @@ If the user has full hardware access, then it will provide access to "ALL but pa
 * authenticate
 * SoftLayer_User_CustomerInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_User_Customer::addHardwareAccess](/reference/services/SoftLayer_User_Customer/addHardwareAccess )
 *  [SoftLayer_User_Customer::addBulkHardwareAccess](/reference/services/SoftLayer_User_Customer/addBulkHardwareAccess )
 *  [SoftLayer_User_Customer::removeHardwareAccess](/reference/services/SoftLayer_User_Customer/removeHardwareAccess )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throw the exception "You may not grant or deny Master User device access." when trying to remove hardware access to a master user. 
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throw the exception "You may not grant or deny yourself device access." when trying to remove hardware access to the user making the call to the SoftLayer API. 
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throw the exception "You may not grant or deny device access to other users." when trying to remove hardware access the user making the API call is not their account's master user or does not have the "USER_MANAGE" portal permission. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Please specify a valid hardware id." if the given hardware id is not a valid hardware id. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Unable to remove user hardware access." if the API was unable to remove hardware access from the given portal user. 
+
+
 

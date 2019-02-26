@@ -19,6 +19,8 @@ Creates records in the appropriate
 ## Overview 
 getMaintenceWindowForTicket() returns a boolean 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ getMaintenceWindowForTicket() returns a boolean
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

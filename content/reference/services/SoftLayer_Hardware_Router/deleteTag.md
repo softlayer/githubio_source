@@ -19,6 +19,8 @@ Delete a tag
 ## Overview 
 Delete an existing tag.  If there are any references on the tag, an exception will be thrown. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Delete an existing tag.  If there are any references on the tag, an exception wi
 * authenticate
 * SoftLayer_Hardware_RouterInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

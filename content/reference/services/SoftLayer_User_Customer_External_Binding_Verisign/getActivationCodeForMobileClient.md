@@ -19,6 +19,8 @@ Get an activation code that is used for provisioning a mobile credential.
 ## Overview 
 An activation code is required when provisioning a new mobile credential from Verisign.  This method will return the required activation code. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ An activation code is required when provisioning a new mobile credential from Ve
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

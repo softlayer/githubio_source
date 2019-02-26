@@ -19,6 +19,8 @@ Remove the Network
 ## Overview 
 Remove the specified Network along with any Subnets. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,21 @@ Remove the specified Network along with any Subnets.
 * authenticate
 * SoftLayer_NetworkInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_NotReady 
+
+> <<< EOT 
+
+* SoftLayer_Exception_Resource_InUse 
+
+> <<< EOT 
+
+
 

@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Layout_Item record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Layout_Item record.
 * SoftLayer_Layout_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Layout_ItemObjectMask
 * SoftLayer_Layout_ItemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Layout_Item'>SoftLayer_Layout_Item </a>
+* <a href='/reference/datatypes/SoftLayer_Layout_Item'>SoftLayer_Layout_Item </a>
+
+
+
 

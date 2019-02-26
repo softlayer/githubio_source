@@ -19,6 +19,8 @@ Disabling an account is a PERMANENT action. All billable items associated
 ## Overview 
 Takes the original lockdown request ID, and an optional disable date. If no date is passed with the API call, the account will be disabled immediately. Otherwise, the account will be disabled on the date given. All hardware will be reclaimed and all accounts permanently disabled. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Takes the original lockdown request ID, and an optional disable date. If no date
 * authenticate
 * SoftLayer_Account_Lockdown_RequestInitParameters
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

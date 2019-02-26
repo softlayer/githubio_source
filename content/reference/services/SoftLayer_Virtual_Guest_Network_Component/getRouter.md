@@ -19,6 +19,8 @@ Retrieve a network component's routers.
 ## Overview 
 Retrieve a network component's routers.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a network component's routers.
 * SoftLayer_Virtual_Guest_Network_ComponentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Guest_Network_ComponentObjectMask
 * SoftLayer_Virtual_Guest_Network_ComponentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware_Router'>SoftLayer_Hardware_Router </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware_Router'>SoftLayer_Hardware_Router </a>
+
+
+
 

@@ -20,6 +20,8 @@ Delete a computing instance
 
 This method will cancel a computing instance effective immediately. For instances billed hourly, the charges will stop immediately after the method returns. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method will cancel a computing instance effective immediately. For instance
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

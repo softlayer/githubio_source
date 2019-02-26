@@ -19,6 +19,8 @@ Create a password for a software component.
 ## Overview 
 Create a password for a software component. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Create a password for a software component.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_Component_PasswordObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password </a>
+* <a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password </a>
+
+
+
 

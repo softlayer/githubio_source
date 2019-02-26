@@ -21,6 +21,8 @@ Delete a VeriSign external binding.  The only VeriSign external binding that can
 
 When a VeriSign external binding is deleted the credential is deactivated in VeriSign's system for use on the SoftLayer site and the $0 billing item associated with the free VeriSign external binding is cancelled. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,17 @@ When a VeriSign external binding is deleted the credential is deactivated in Ver
 * authenticate
 * SoftLayer_User_Customer_External_Binding_VerisignInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the error "You do not have permission 
+
+
 

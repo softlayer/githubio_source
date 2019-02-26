@@ -19,6 +19,8 @@ Initiate a zone transfer for a secondary DNS record.
 ## Overview 
 Force a secondary DNS zone transfer by setting it's status "Transfer Now".  A zone transfer will be initiated within a minute of receiving this API call. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Force a secondary DNS zone transfer by setting it's status "Transfer Now".  A zo
 * authenticate
 * SoftLayer_Dns_SecondaryInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Retrieves public bandwidth usage records.
 ## Overview 
 Use this method to return an array of public bandwidth utilization records between a given date range. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,10 +32,14 @@ Use this method to return an array of public bandwidth utilization records betwe
 * authenticate
 * SoftLayer_Hardware_ServerInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Hardware_ServerObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve determine if hardware object has Software Guard Extension (SGX) enabled
 ## Overview 
 Retrieve determine if hardware object has Software Guard Extension (SGX) enabled.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve determine if hardware object has Software Guard Extension (SGX) enabled
 * SoftLayer_Hardware_SecurityModuleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModuleObjectMask
 * SoftLayer_Hardware_SecurityModuleObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

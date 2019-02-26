@@ -19,6 +19,8 @@ Retrieve the network virtual LANs (VLANs) associated with a piece of hardware's 
 ## Overview 
 Retrieve the network virtual LANs (VLANs) associated with a piece of hardware's network components.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the network virtual LANs (VLANs) associated with a piece of hardware's 
 * SoftLayer_Hardware_SecurityModule750InitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModule750ObjectMask
 * SoftLayer_Hardware_SecurityModule750ObjectFilter
@@ -35,5 +38,8 @@ Retrieve the network virtual LANs (VLANs) associated with a piece of hardware's 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a>
+
+
+
 

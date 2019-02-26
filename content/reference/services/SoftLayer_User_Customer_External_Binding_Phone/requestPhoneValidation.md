@@ -19,6 +19,8 @@ Initiates a phone validation requests and returns a unique token
 ## Overview 
 Initiates a phone validation requests and returns a unique token. Use [[SoftLayer_User_Customer_External_Binding_Phone::checkPhoneValidationResult|checkPhoneValidationResult]] to find the phone validation result. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,17 @@ Initiates a phone validation requests and returns a unique token. Use [[SoftLaye
 * authenticate
 * SoftLayer_User_Customer_External_Binding_PhoneInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the error "You have exceeded the maximum phone validation requests. Please try again later." when you submitted too many phone validation requests. 
+
+
 

@@ -19,6 +19,8 @@ Determine if a string is a user's portal password.
 ## Overview 
 Determine if a string is the given user's login password to the SoftLayer customer portal. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,14 +31,16 @@ Determine if a string is the given user's login password to the SoftLayer custom
 * authenticate
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 ### External Links
 
 
 * [The SoftLayer Customer Portal](https://manage.softlayer.com)
+
+
+
 
 

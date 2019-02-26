@@ -19,6 +19,8 @@ Create a new affiliation.
 ## Overview 
 Create a new affiliation to associate with an existing account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Create a new affiliation to associate with an existing account.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_AffiliationObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Affiliation'>SoftLayer_Account_Affiliation </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Affiliation'>SoftLayer_Account_Affiliation </a>
+
+
+
 

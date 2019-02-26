@@ -19,6 +19,8 @@ Retrieve the Application Delivery Controller contained within a virtual rack.
 ## Overview 
 Retrieve the Application Delivery Controller contained within a virtual rack.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the Application Delivery Controller contained within a virtual rack.
 * SoftLayer_Network_Bandwidth_Version1_AllotmentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Bandwidth_Version1_AllotmentObjectMask
 * SoftLayer_Network_Bandwidth_Version1_AllotmentObjectFilter
@@ -35,5 +38,8 @@ Retrieve the Application Delivery Controller contained within a virtual rack.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller[] </a>
+
+
+
 

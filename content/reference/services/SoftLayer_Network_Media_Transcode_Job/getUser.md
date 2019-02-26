@@ -19,6 +19,8 @@ Retrieve the SoftLayer user that created the transcode job
 ## Overview 
 Retrieve the SoftLayer user that created the transcode job
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the SoftLayer user that created the transcode job
 * SoftLayer_Network_Media_Transcode_JobInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Media_Transcode_JobObjectMask
 * SoftLayer_Network_Media_Transcode_JobObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+
+
+
 

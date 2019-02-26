@@ -19,6 +19,8 @@ Ensure the amount requested for a manual payment is valid.
 ## Overview 
 This method checks global and account specific requirements and returns true if the dollar amount entered is acceptable for this account and false otherwise. Please note the dollar amount is in USD. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method checks global and account specific requirements and returns true if 
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

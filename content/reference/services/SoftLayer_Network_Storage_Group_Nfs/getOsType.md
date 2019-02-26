@@ -19,6 +19,8 @@ Retrieve the OS Type this group is configured for.
 ## Overview 
 Retrieve the OS Type this group is configured for.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the OS Type this group is configured for.
 * SoftLayer_Network_Storage_Group_NfsInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Group_NfsObjectMask
 * SoftLayer_Network_Storage_Group_NfsObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Iscsi_OS_Type'>SoftLayer_Network_Storage_Iscsi_OS_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Iscsi_OS_Type'>SoftLayer_Network_Storage_Iscsi_OS_Type </a>
+
+
+
 

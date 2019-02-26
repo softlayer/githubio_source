@@ -19,6 +19,8 @@ Retrieve the network component firewall that the rule set will be applied to.
 ## Overview 
 Retrieve the network component firewall that the rule set will be applied to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the network component firewall that the rule set will be applied to.
 * SoftLayer_Network_Firewall_Update_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Firewall_Update_RequestObjectMask
 * SoftLayer_Network_Firewall_Update_RequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall </a>
+
+
+
 

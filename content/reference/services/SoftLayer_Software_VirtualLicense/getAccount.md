@@ -19,6 +19,8 @@ Retrieve the customer account this Virtual License belongs to.
 ## Overview 
 Retrieve the customer account this Virtual License belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the customer account this Virtual License belongs to.
 * SoftLayer_Software_VirtualLicenseInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_VirtualLicenseObjectMask
 * SoftLayer_Software_VirtualLicenseObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

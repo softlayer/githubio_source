@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Notification_Occurrence_User record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Notification_Occurrence_User record.
 * SoftLayer_Notification_Occurrence_UserInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Notification_Occurrence_UserObjectMask
 * SoftLayer_Notification_Occurrence_UserObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_User'>SoftLayer_Notification_Occurrence_User </a>
+* <a href='/reference/datatypes/SoftLayer_Notification_Occurrence_User'>SoftLayer_Notification_Occurrence_User </a>
+
+
+
 

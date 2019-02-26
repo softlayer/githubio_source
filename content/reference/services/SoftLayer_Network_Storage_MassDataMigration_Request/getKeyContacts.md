@@ -19,6 +19,8 @@ Retrieve the key contacts for this requests.
 ## Overview 
 Retrieve the key contacts for this requests.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the key contacts for this requests.
 * SoftLayer_Network_Storage_MassDataMigration_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_MassDataMigration_RequestObjectMask
 * SoftLayer_Network_Storage_MassDataMigration_RequestObjectFilter
@@ -35,5 +38,8 @@ Retrieve the key contacts for this requests.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact'>SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact'>SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact[] </a>
+
+
+
 

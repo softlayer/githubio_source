@@ -19,6 +19,8 @@ Retrieve the current replication status of a network storage volume. Indicates F
 ## Overview 
 Retrieve the current replication status of a network storage volume. Indicates Failover or Failback status.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the current replication status of a network storage volume. Indicates F
 * SoftLayer_Network_Storage_Backup_EvaultInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Backup_EvaultObjectMask
 * SoftLayer_Network_Storage_Backup_EvaultObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

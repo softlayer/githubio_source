@@ -21,6 +21,8 @@ Convert the VLAN to a paid resource. This can be done for any VLAN which was aut
 
 This operation is a convenience for utilizing the SoftLayer_Product_Order.placeOrder operation. It will place an order to upgrade the VLAN it is executed against. It will take a few moments for the order to be processed and the upgrade to complete. Note that the order is placed in such a way that any account state which prevents automatic order approval will prevent the order from being placed. Thus, if no error is received, the order was placed and approved, and the VLAN will be upgraded shortly. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,21 @@ This operation is a convenience for utilizing the SoftLayer_Product_Order.placeO
 * authenticate
 * SoftLayer_Network_VlanInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Product_Order_Network_Vlan'>SoftLayer_Container_Product_Order_Network_Vlan </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Product_Order_Network_Vlan'>SoftLayer_Container_Product_Order_Network_Vlan </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> If the VLAN is already considered purchased. 
+
+* SoftLayer_Exception 
+
+> If the VLAN is ineligible for purchase, such as a Transit VLAN. 
+
+
 

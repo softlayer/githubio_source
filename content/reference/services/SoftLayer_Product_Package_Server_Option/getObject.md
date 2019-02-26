@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Product_Package_Server_Option record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Product_Package_Server_Option record.
 * SoftLayer_Product_Package_Server_OptionInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Package_Server_OptionObjectMask
 * SoftLayer_Product_Package_Server_OptionObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Package_Server_Option'>SoftLayer_Product_Package_Server_Option </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Package_Server_Option'>SoftLayer_Product_Package_Server_Option </a>
+
+
+
 

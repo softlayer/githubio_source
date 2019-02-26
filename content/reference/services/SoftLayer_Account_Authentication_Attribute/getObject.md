@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Account_Authentication_Attribute record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Account_Authentication_Attribute record.
 * SoftLayer_Account_Authentication_AttributeInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Authentication_AttributeObjectMask
 * SoftLayer_Account_Authentication_AttributeObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute'>SoftLayer_Account_Authentication_Attribute </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute'>SoftLayer_Account_Authentication_Attribute </a>
+
+
+
 

@@ -19,6 +19,8 @@ Kick all active connections off a Virtual IP Address.
 ## Overview 
 Quickly remove all active external connections to a Virtual IP Address. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Quickly remove all active external connections to a Virtual IP Address.
 * authenticate
 * SoftLayer_Network_LoadBalancer_VirtualIpAddressInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

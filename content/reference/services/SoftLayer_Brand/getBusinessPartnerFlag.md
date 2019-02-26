@@ -19,6 +19,8 @@ Retrieve flag indicating if the brand is a business partner.
 ## Overview 
 Retrieve flag indicating if the brand is a business partner.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve flag indicating if the brand is a business partner.
 * SoftLayer_BrandInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_BrandObjectMask
 * SoftLayer_BrandObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

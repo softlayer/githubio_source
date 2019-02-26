@@ -19,6 +19,8 @@ Create a repeating policy trigger.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Create a repeating policy trigger.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Policy_Trigger_RepeatingObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_Repeating'>SoftLayer_Scale_Policy_Trigger_Repeating </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_Repeating'>SoftLayer_Scale_Policy_Trigger_Repeating </a>
+
+
+
 

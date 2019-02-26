@@ -19,6 +19,8 @@ Edit the password and/or notes for an account password.
 ## Overview 
 The password and/or notes may be modified.  Modifying the EVault passwords here will also update the password the Webcc interface will use. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ The password and/or notes may be modified.  Modifying the EVault passwords here 
 * authenticate
 * SoftLayer_Account_PasswordInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a user's unsuccessful attempts to log into the SoftLayer customer porta
 ## Overview 
 Retrieve a user's unsuccessful attempts to log into the SoftLayer customer portal.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a user's unsuccessful attempts to log into the SoftLayer customer porta
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_OpenIdConnectObjectMask
 * SoftLayer_User_Customer_OpenIdConnectObjectFilter
@@ -35,5 +38,8 @@ Retrieve a user's unsuccessful attempts to log into the SoftLayer customer porta
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_Access_Authentication'>SoftLayer_User_Customer_Access_Authentication[] </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_Access_Authentication'>SoftLayer_User_Customer_Access_Authentication[] </a>
+
+
+
 

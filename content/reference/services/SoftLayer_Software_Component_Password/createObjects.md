@@ -19,6 +19,8 @@ Create more than one password for a software component.
 ## Overview 
 Create more than one password for a software component. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Create more than one password for a software component.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

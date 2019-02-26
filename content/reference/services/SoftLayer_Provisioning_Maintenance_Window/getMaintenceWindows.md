@@ -19,6 +19,8 @@ Returns available maintenance windows
 ## Overview 
 (DEPRECATED) Use [[SoftLayer_Provisioning_Maintenance_Window::getMaintenanceWindows|getMaintenanceWindows]] method. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,10 +33,14 @@ Returns available maintenance windows
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Provisioning_Maintenance_WindowObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Window'>SoftLayer_Provisioning_Maintenance_Window[] </a>
+* <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Window'>SoftLayer_Provisioning_Maintenance_Window[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Configuration_Template record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Configuration_Template record.
 * SoftLayer_Configuration_TemplateInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Configuration_TemplateObjectMask
 * SoftLayer_Configuration_TemplateObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>
+* <a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>
+
+
+
 

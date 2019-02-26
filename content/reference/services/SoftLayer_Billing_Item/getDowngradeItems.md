@@ -19,6 +19,8 @@ Retrieve for product items which have a downgrade path defined, this will return
 ## Overview 
 Retrieve for product items which have a downgrade path defined, this will return those product items.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve for product items which have a downgrade path defined, this will return
 * SoftLayer_Billing_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_ItemObjectMask
 * SoftLayer_Billing_ItemObjectFilter
@@ -35,5 +38,8 @@ Retrieve for product items which have a downgrade path defined, this will return
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>
+
+
+
 

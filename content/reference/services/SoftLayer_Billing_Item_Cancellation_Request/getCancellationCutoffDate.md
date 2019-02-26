@@ -21,6 +21,8 @@ Services can be canceled 2 or 3 days prior to your next bill date. This service 
 
 Available category codes are: service, server 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,8 +33,10 @@ Available category codes are: service, server
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-dateTime
+* dateTime
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the SoftLayer_Network_Subnet_IpAddress object which this SoftLayer_Netw
 ## Overview 
 Retrieve the SoftLayer_Network_Subnet_IpAddress object which this SoftLayer_Network_Storage_Allowed_Host is referencing.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the SoftLayer_Network_Subnet_IpAddress object which this SoftLayer_Netw
 * SoftLayer_Network_Storage_Allowed_Host_IpAddressInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Allowed_Host_IpAddressObjectMask
 * SoftLayer_Network_Storage_Allowed_Host_IpAddressObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>
+
+
+
 

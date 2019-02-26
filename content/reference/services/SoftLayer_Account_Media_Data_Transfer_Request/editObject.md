@@ -19,6 +19,8 @@ Edit a data transfer request.
 ## Overview 
 Edit the properties of a data transfer request record by passing in a modified instance of a SoftLayer_Account_Media_Data_Transfer_Request object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit the properties of a data transfer request record by passing in a modified i
 * authenticate
 * SoftLayer_Account_Media_Data_Transfer_RequestInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

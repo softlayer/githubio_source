@@ -19,6 +19,8 @@ Activates a monitoring agent
 ## Overview 
 This method activates a SoftLayer_Monitoring_Agent.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,14 +30,23 @@ This method activates a SoftLayer_Monitoring_Agent.
 * authenticate
 * SoftLayer_Monitoring_AgentInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Monitoring_Agent::restart](/reference/services/SoftLayer_Monitoring_Agent/restart )
 *  [SoftLayer_Monitoring_Agent::deactivate](/reference/services/SoftLayer_Monitoring_Agent/deactivate )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throws 'Failed to activate monitoring agent "{monitoringAgentName}".' if an error occurred while trying to activate the SoftLayer_Monitoring_Agent and the active user is an instance of SoftLayer_User_Interface. 
+
+
 

@@ -19,6 +19,8 @@ Retrieve collection of guests that have been scaled with the group. When this gr
 ## Overview 
 Retrieve collection of guests that have been scaled with the group. When this group is active, the count of guests here is guaranteed to be between minimumMemberCount and maximumMemberCount inclusively.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve collection of guests that have been scaled with the group. When this gr
 * SoftLayer_Scale_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_GroupObjectMask
 * SoftLayer_Scale_GroupObjectFilter
@@ -35,5 +38,8 @@ Retrieve collection of guests that have been scaled with the group. When this gr
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Member'>SoftLayer_Scale_Member[] </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Member'>SoftLayer_Scale_Member[] </a>
+
+
+
 

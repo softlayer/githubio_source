@@ -19,6 +19,8 @@ Retrieve all custom configuration profiles associated with the corresponding age
 ## Overview 
 Retrieve all custom configuration profiles associated with the corresponding agent
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve all custom configuration profiles associated with the corresponding age
 * SoftLayer_Monitoring_AgentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Monitoring_AgentObjectMask
 * SoftLayer_Monitoring_AgentObjectFilter
@@ -35,5 +38,8 @@ Retrieve all custom configuration profiles associated with the corresponding age
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Profile'>SoftLayer_Configuration_Template_Section_Profile[] </a>
+* <a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Profile'>SoftLayer_Configuration_Template_Section_Profile[] </a>
+
+
+
 

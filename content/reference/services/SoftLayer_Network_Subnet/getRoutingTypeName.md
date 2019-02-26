@@ -19,6 +19,8 @@ Retrieve the name for the type of route then subnet is currently configured for.
 ## Overview 
 Retrieve the name for the type of route then subnet is currently configured for.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the name for the type of route then subnet is currently configured for.
 * SoftLayer_Network_SubnetInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_SubnetObjectMask
 * SoftLayer_Network_SubnetObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

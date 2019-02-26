@@ -19,6 +19,8 @@ Retrieve information regarding the network component that is one level higher th
 ## Overview 
 Retrieve information regarding the network component that is one level higher than a piece of hardware on the network infrastructure.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve information regarding the network component that is one level higher th
 * SoftLayer_Hardware_SecurityModule750InitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModule750ObjectMask
 * SoftLayer_Hardware_SecurityModule750ObjectFilter
@@ -35,5 +38,8 @@ Retrieve information regarding the network component that is one level higher th
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Returns true if this account is eligible for the local currency program, false otherwise. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ Returns true if this account is eligible for the local currency program, false o
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

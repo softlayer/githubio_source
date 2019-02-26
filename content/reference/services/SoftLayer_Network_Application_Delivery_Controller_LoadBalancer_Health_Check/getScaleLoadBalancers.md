@@ -19,6 +19,8 @@ Retrieve collection of scale load balancers that use this health check.
 ## Overview 
 Retrieve collection of scale load balancers that use this health check.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve collection of scale load balancers that use this health check.
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_CheckInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_CheckObjectMask
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_CheckObjectFilter
@@ -35,5 +38,8 @@ Retrieve collection of scale load balancers that use this health check.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_LoadBalancer'>SoftLayer_Scale_LoadBalancer[] </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_LoadBalancer'>SoftLayer_Scale_LoadBalancer[] </a>
+
+
+
 

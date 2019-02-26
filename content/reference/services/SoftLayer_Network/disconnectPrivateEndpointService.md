@@ -37,6 +37,8 @@ Initiate the automated process to revoke mutual connectivity from the account ne
 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -45,14 +47,23 @@ Initiate the automated process to revoke mutual connectivity from the account ne
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network::isConnectedToPrivateEndpointService](/reference/services/SoftLayer_Network/isConnectedToPrivateEndpointService )
 *  [SoftLayer_Network::connectPrivateEndpointService](/reference/services/SoftLayer_Network/connectPrivateEndpointService )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_NotReady 
+
+> <<< EOT 
+
+
 

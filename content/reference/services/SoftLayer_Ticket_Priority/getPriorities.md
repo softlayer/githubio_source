@@ -19,6 +19,8 @@ Obtain a container of valid ticket priority values with value/name key pairs.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ Obtain a container of valid ticket priority values with value/name key pairs.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Ticket_Priority'>SoftLayer_Container_Ticket_Priority[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Ticket_Priority'>SoftLayer_Container_Ticket_Priority[] </a>
+
+
+
 

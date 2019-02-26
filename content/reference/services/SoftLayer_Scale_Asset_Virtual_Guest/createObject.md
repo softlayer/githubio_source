@@ -19,6 +19,8 @@ Pin a guest on a group. This can be done at anytime, whether the group is active
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Pin a guest on a group. This can be done at anytime, whether the group is active
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Asset_Virtual_GuestObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Asset_Virtual_Guest'>SoftLayer_Scale_Asset_Virtual_Guest </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Asset_Virtual_Guest'>SoftLayer_Scale_Asset_Virtual_Guest </a>
+
+
+
 

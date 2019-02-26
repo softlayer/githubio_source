@@ -19,6 +19,8 @@ Validates a reviewer
 ## Overview 
 Verifies that a potential reviewer is an approved internal IBM employee 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Verifies that a potential reviewer is an approved internal IBM employee
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

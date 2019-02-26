@@ -19,6 +19,8 @@ Query a virtualization platform directly to retrieve details regarding a guest.
 ## Overview 
 Query a virtualization platform directly to retrieve details regarding a guest. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Query a virtualization platform directly to retrieve details regarding a guest.
 * authenticate
 * SoftLayer_Virtual_HostInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Virtual_HostObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
+
+
+
 

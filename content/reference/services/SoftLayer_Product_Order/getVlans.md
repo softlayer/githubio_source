@@ -29,6 +29,8 @@ This parameter is used to narrow the available results down even further. It's n
 
 For most customers, it's sufficient to only provide the first 2 parameters. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -45,8 +47,10 @@ For most customers, it's sufficient to only provide the first 2 parameters.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Product_Order_Network_Vlans'>SoftLayer_Container_Product_Order_Network_Vlans </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Product_Order_Network_Vlans'>SoftLayer_Container_Product_Order_Network_Vlans </a>
+
+
+
 

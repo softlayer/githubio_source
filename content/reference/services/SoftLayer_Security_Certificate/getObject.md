@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Security_Certificate record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Security_Certificate record.
 * SoftLayer_Security_CertificateInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Security_CertificateObjectMask
 * SoftLayer_Security_CertificateObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Security_Certificate'>SoftLayer_Security_Certificate </a>
+* <a href='/reference/datatypes/SoftLayer_Security_Certificate'>SoftLayer_Security_Certificate </a>
+
+
+
 

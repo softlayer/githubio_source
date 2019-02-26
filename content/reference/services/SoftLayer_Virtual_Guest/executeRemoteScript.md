@@ -19,6 +19,8 @@ Download and run remote script from uri on the virtual guest. Requires https for
 ## Overview 
 Download and run remote script from uri on virtual guests.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Download and run remote script from uri on virtual guests.
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve preference details such as description, minimum and maximum limits, def
 ## Overview 
 Retrieve preference details such as description, minimum and maximum limits, default value and unit of measure.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve preference details such as description, minimum and maximum limits, def
 * SoftLayer_Notification_User_Subscriber_MobileInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Notification_User_Subscriber_MobileObjectMask
 * SoftLayer_Notification_User_Subscriber_MobileObjectFilter
@@ -35,5 +38,8 @@ Retrieve preference details such as description, minimum and maximum limits, def
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference[] </a>
+* <a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference[] </a>
+
+
+
 

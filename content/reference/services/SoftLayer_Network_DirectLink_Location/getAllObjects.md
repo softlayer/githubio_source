@@ -19,6 +19,8 @@ Get all existing Direct Link location.
 ## Overview 
 Return all existing Direct Link location. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Return all existing Direct Link location.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_DirectLink_LocationObjectMask
 * SoftLayer_ObjectMask
@@ -34,5 +37,8 @@ Return all existing Direct Link location.
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_DirectLink_Location'>SoftLayer_Network_DirectLink_Location[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_DirectLink_Location'>SoftLayer_Network_DirectLink_Location[] </a>
+
+
+
 

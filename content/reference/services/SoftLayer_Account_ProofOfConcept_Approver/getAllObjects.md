@@ -19,6 +19,8 @@ Retrieves a list of reviewers
 ## Overview 
 Retrieves a list of reviewers 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieves a list of reviewers
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_ProofOfConcept_ApproverObjectMask
 * SoftLayer_ObjectMask
@@ -34,5 +37,8 @@ Retrieves a list of reviewers
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver'>SoftLayer_Account_ProofOfConcept_Approver[] </a>
+* <a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver'>SoftLayer_Account_ProofOfConcept_Approver[] </a>
+
+
+
 

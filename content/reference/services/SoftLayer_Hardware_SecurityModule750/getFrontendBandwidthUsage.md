@@ -23,6 +23,8 @@ Use this method to return an array of public bandwidth utilization records betwe
 
 This method represents the NEW version of getFrontendBandwidthUse 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -34,8 +36,10 @@ This method represents the NEW version of getFrontendBandwidthUse
 * authenticate
 * SoftLayer_Hardware_SecurityModule750InitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
+* <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
+
+
+
 

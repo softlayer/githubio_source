@@ -19,6 +19,8 @@ Retrieve the current status of the gateway.
 ## Overview 
 Retrieve the current status of the gateway.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the current status of the gateway.
 * SoftLayer_Network_GatewayInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_GatewayObjectMask
 * SoftLayer_Network_GatewayObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Gateway_Status'>SoftLayer_Network_Gateway_Status </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Gateway_Status'>SoftLayer_Network_Gateway_Status </a>
+
+
+
 

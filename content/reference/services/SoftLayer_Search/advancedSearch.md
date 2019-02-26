@@ -31,6 +31,8 @@ A search string can specify multiple properties, separated with spaces. Example:
 
 A collection of available object types and their properties can be retrieved by calling the <b>[[SoftLayer_Search/getObjectTypes|getObjectTypes()]]</b> method. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -40,9 +42,13 @@ A collection of available object types and their properties can be retrieved by 
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Search_Result'>SoftLayer_Container_Search_Result[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Search_Result'>SoftLayer_Container_Search_Result[] </a>
+
+
+
 

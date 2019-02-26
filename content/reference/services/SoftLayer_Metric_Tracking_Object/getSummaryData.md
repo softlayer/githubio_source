@@ -19,6 +19,8 @@ Returns the metric data for the date range provided
 ## Overview 
 Returns summarized metric data for the date range, metric type and summary period provided. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,8 +34,10 @@ Returns summarized metric data for the date range, metric type and summary perio
 * authenticate
 * SoftLayer_Metric_Tracking_ObjectInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
+* <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
+
+
+
 

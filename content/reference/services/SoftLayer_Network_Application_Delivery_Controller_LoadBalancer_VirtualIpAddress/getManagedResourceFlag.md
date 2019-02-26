@@ -19,6 +19,8 @@ Retrieve a flag indicating that the load balancer is a managed resource.
 ## Overview 
 Retrieve a flag indicating that the load balancer is a managed resource.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a flag indicating that the load balancer is a managed resource.
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddressInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddressObjectMask
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddressObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

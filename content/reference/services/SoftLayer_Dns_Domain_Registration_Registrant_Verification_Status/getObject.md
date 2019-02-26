@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status reco
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status reco
 * SoftLayer_Dns_Domain_Registration_Registrant_Verification_StatusInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Dns_Domain_Registration_Registrant_Verification_StatusObjectMask
 * SoftLayer_Dns_Domain_Registration_Registrant_Verification_StatusObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status'>SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status'>SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status </a>
+
+
+
 

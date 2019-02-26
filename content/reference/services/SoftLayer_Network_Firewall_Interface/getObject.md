@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_Firewall_Interface record.
 ## Overview 
 getObject returns a SoftLayer_Network_Firewall_Interface object. You can only get objects for servers attached to your account that have a network firewall enabled. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ getObject returns a SoftLayer_Network_Firewall_Interface object. You can only ge
 * SoftLayer_Network_Firewall_InterfaceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Firewall_InterfaceObjectMask
 * SoftLayer_Network_Firewall_InterfaceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Firewall_Interface'>SoftLayer_Network_Firewall_Interface </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Firewall_Interface'>SoftLayer_Network_Firewall_Interface </a>
+
+
+
 

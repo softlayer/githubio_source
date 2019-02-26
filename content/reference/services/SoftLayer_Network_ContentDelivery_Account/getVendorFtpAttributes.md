@@ -19,6 +19,8 @@ Returns login credentials to CDN FTP server
 ## Overview 
 This method returns your login credentials to the public CDN FTP. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,21 @@ This method returns your login credentials to the public CDN FTP.
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_Authentication_Data'>SoftLayer_Container_Network_Authentication_Data </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_Authentication_Data'>SoftLayer_Container_Network_Authentication_Data </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a user does not have CDN_FILE_MANAGE privilege. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a CDN account is disabled. 
+
+
 

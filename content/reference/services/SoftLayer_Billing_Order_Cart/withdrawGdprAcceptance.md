@@ -19,6 +19,8 @@ Withdraws the users acceptance of the GDPR terms.
 ## Overview 
 Withdraws the users acceptance of the GDPR terms. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Withdraws the users acceptance of the GDPR terms.
 * authenticate
 * SoftLayer_Billing_Order_CartInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

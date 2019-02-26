@@ -19,6 +19,8 @@ Retrieve a computing instance's allotted bandwidth (measured in GB).
 ## Overview 
 Retrieve a computing instance's allotted bandwidth (measured in GB).
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a computing instance's allotted bandwidth (measured in GB).
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

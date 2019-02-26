@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Servic
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Servic
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_ServiceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_ServiceObjectMask
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_ServiceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service </a>
+
+
+
 

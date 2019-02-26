@@ -19,6 +19,8 @@ Retrieve the SoftLayer_Network_Subnet objects which are allowed access to this s
 ## Overview 
 Retrieve the SoftLayer_Network_Subnet objects which are allowed access to this storage volume's Replicant.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the SoftLayer_Network_Subnet objects which are allowed access to this s
 * SoftLayer_Network_Storage_Backup_EvaultInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Backup_EvaultObjectMask
 * SoftLayer_Network_Storage_Backup_EvaultObjectFilter
@@ -35,5 +38,8 @@ Retrieve the SoftLayer_Network_Subnet objects which are allowed access to this s
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+
+
+
 

@@ -21,6 +21,8 @@ Create a new association between a [[SoftLayer_Network_Subnet_Registration]] obj
 
 <b>Input</b> - [[SoftLayer_Network_Subnet_Registration_Details (type)|SoftLayer_Network_Subnet_Registration_Details]] <ul class="create_object"> <li><code>detailId</code> <div> The numeric ID of the [[SoftLayer_Account_Regional_Registry_Detail|detail]] object to relate. </div> <ul> <li><b>Required</b></li> <li><b>Type</b> - integer</li> </ul> </li> <li><code>registrationId</code> <div> The numeric ID of the [[SoftLayer_Network_Subnet_Registration|registration]] object to relate. </div> <ul> <li><b>Required</b></li> <li><b>Type</b> - integer</li> </ul> </li> </ul> 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,10 +32,14 @@ Create a new association between a [[SoftLayer_Network_Subnet_Registration]] obj
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_Registration_DetailsObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Details'>SoftLayer_Network_Subnet_Registration_Details </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Details'>SoftLayer_Network_Subnet_Registration_Details </a>
+
+
+
 

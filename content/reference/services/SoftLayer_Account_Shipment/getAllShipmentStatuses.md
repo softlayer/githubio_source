@@ -19,6 +19,8 @@ Retrieve a list of shipment statuses.
 ## Overview 
 Retrieve a a list of shipment statuses.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Retrieve a a list of shipment statuses.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_ShipmentObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Shipment_Status'>SoftLayer_Account_Shipment_Status[] </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Shipment_Status'>SoftLayer_Account_Shipment_Status[] </a>
+
+
+
 

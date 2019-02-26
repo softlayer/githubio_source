@@ -19,6 +19,8 @@ Retrieve ticket is waiting on a response from a customer flag.
 ## Overview 
 Retrieve ticket is waiting on a response from a customer flag.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve ticket is waiting on a response from a customer flag.
 * SoftLayer_TicketInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TicketObjectMask
 * SoftLayer_TicketObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

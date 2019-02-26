@@ -19,6 +19,8 @@ Search for an IP address record by IPv4 address.
 ## Overview 
 Search for an IP address record by IPv4 address.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,21 @@ Search for an IP address record by IPv4 address.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_IpAddressObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "The IP address provided (ipAddress) is not a valid IPv4 address." if the ipAddress parameter is not a valid IPv4 address. 
+
+
 

@@ -19,6 +19,8 @@ SOAP API will list origin path for an existing mapping and for a particular cust
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ SOAP API will list origin path for an existing mapping and for a particular cust
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping_Path'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping_Path[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping_Path'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping_Path[] </a>
+
+
+
 

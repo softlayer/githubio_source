@@ -19,6 +19,8 @@ Edit the object by passing in a modified instance of the object
 ## Overview 
 Edit the object by passing in a modified instance of the object. Use this method to modify configuration template name or description. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit the object by passing in a modified instance of the object. Use this method
 * authenticate
 * SoftLayer_Configuration_TemplateInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

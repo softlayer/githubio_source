@@ -19,6 +19,8 @@ Retrieve an optional note for identifying the external binding.
 ## Overview 
 Retrieve an optional note for identifying the external binding.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve an optional note for identifying the external binding.
 * SoftLayer_User_Customer_External_Binding_VerisignInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_External_Binding_VerisignObjectMask
 * SoftLayer_User_Customer_External_Binding_VerisignObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

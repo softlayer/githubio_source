@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_Media_Transcode_Job record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_Media_Transcode_Job record.
 * SoftLayer_Network_Media_Transcode_JobInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Media_Transcode_JobObjectMask
 * SoftLayer_Network_Media_Transcode_JobObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Job'>SoftLayer_Network_Media_Transcode_Job </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Job'>SoftLayer_Network_Media_Transcode_Job </a>
+
+
+
 

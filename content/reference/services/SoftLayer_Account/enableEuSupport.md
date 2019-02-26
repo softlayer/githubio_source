@@ -23,6 +23,8 @@ Turn on the EU Supported account flag.
 
 <p> If PPTP has been selected as an option for any users in your account by itself (or in combination with another VPN offering), you will need to disable PPTP before selecting the EU Supported account feature. For more information on VPN changes, click <strong><a href="http://knowledgelayer.softlayer.com/procedure/activate-or-deactivate-pptp-vpn-access-user"> here</a></strong>. </p> 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,13 +33,26 @@ Turn on the EU Supported account flag.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-void
+* void
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Account::disableEuSupport](/reference/services/SoftLayer_Account/disableEuSupport )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_AccessDenied 
+
+> <<< EOT 
+
+* SoftLayer_Exception_Public 
+
+> <<< EOT 
+
+
 

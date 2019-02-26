@@ -19,6 +19,8 @@ Retrieve information related to an account's current and previous billing cycles
 ## Overview 
 Retrieve information related to an account's current and previous billing cycles.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve information related to an account's current and previous billing cycles
 * SoftLayer_Billing_InfoInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_InfoObjectMask
 * SoftLayer_Billing_InfoObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Info_Cycle'>SoftLayer_Billing_Info_Cycle </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Info_Cycle'>SoftLayer_Billing_Info_Cycle </a>
+
+
+
 

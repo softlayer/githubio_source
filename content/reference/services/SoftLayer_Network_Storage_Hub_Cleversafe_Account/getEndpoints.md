@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Returns a collection of endpoint URLs available to this IBM Cloud Object Storage account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Returns a collection of endpoint URLs available to this IBM Cloud Object Storage
 * authenticate
 * SoftLayer_Network_Storage_Hub_Cleversafe_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Endpoint'>SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Endpoint[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Endpoint'>SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Endpoint[] </a>
+
+
+
 

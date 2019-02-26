@@ -23,6 +23,8 @@ This method creates a service cancellation request.
 
 You need to have "Cancel Services" privilege to create a cancellation request. You have to provide at least one SoftLayer_Billing_Item_Cancellation_Request_Item in the "items" property. Make sure billing item's category code belongs to the cancelable product codes. You can retrieve the cancelable product category by the [[SoftLayer_Product_Item_Category::getValidCancelableServiceItemCategories|product category]] service. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,10 +34,21 @@ You need to have "Cancel Services" privilege to create a cancellation request. Y
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Item_Cancellation_RequestObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request'>SoftLayer_Billing_Item_Cancellation_Request </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request'>SoftLayer_Billing_Item_Cancellation_Request </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "A cancellation request should have at least one billing item to cancel." if no cancellation item is proviced. 
+
+
 

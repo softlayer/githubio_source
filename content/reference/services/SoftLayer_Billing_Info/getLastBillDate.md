@@ -19,6 +19,8 @@ Retrieve the date on which an account was last billed.
 ## Overview 
 Retrieve the date on which an account was last billed.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the date on which an account was last billed.
 * SoftLayer_Billing_InfoInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_InfoObjectMask
 * SoftLayer_Billing_InfoObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-dateTime
+* dateTime
+
+
+
 

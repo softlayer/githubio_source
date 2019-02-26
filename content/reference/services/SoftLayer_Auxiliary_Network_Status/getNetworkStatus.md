@@ -30,6 +30,8 @@ Return the current network status of and latency information for a given target 
 * NETWORK_PRIVATE_SEATTLE
 * NETWORK_PRIVATE_WDC
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -39,8 +41,10 @@ Return the current network status of and latency information for a given target 
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Auxiliary_Network_Status_Reading'>SoftLayer_Container_Auxiliary_Network_Status_Reading[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Auxiliary_Network_Status_Reading'>SoftLayer_Container_Auxiliary_Network_Status_Reading[] </a>
+
+
+
 

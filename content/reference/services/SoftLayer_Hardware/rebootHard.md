@@ -25,6 +25,8 @@ rebootSoft rebootHard powerOn powerOff powerCycle
 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -34,8 +36,17 @@ rebootSoft rebootHard powerOn powerOff powerCycle
 * authenticate
 * SoftLayer_HardwareInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> "Method has not been implemented for this object type." 
+
+
 

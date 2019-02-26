@@ -19,6 +19,8 @@ Retrieve collection of log entries for this group.
 ## Overview 
 Retrieve collection of log entries for this group.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve collection of log entries for this group.
 * SoftLayer_Scale_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_GroupObjectMask
 * SoftLayer_Scale_GroupObjectFilter
@@ -35,5 +38,8 @@ Retrieve collection of log entries for this group.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Group_Log'>SoftLayer_Scale_Group_Log[] </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Group_Log'>SoftLayer_Scale_Group_Log[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the metric data type used to retrieve metric data currently being track
 ## Overview 
 Retrieve the metric data type used to retrieve metric data currently being tracked.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the metric data type used to retrieve metric data currently being track
 * SoftLayer_Monitoring_Agent_Configuration_ValueInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Monitoring_Agent_Configuration_ValueObjectMask
 * SoftLayer_Monitoring_Agent_Configuration_ValueObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Metric_Data_Type'>SoftLayer_Container_Metric_Data_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Metric_Data_Type'>SoftLayer_Container_Metric_Data_Type </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the most recent result for this particular monitoring instance.
 ## Overview 
 Retrieve the most recent result for this particular monitoring instance.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the most recent result for this particular monitoring instance.
 * SoftLayer_Network_Monitor_Version1_Query_HostInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Monitor_Version1_Query_HostObjectMask
 * SoftLayer_Network_Monitor_Version1_Query_HostObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Result'>SoftLayer_Network_Monitor_Version1_Query_Result </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Result'>SoftLayer_Network_Monitor_Version1_Query_Result </a>
+
+
+
 

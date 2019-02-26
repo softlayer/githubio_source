@@ -19,6 +19,8 @@ Retrieve whether or not a portal user has access to all hardware on their accoun
 ## Overview 
 Retrieve whether or not a portal user has access to all hardware on their account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve whether or not a portal user has access to all hardware on their accoun
 * SoftLayer_User_CustomerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_CustomerObjectMask
 * SoftLayer_User_CustomerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

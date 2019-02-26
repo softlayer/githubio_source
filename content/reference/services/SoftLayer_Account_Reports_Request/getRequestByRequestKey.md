@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ aliases:
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Reports_RequestObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Reports_Request'>SoftLayer_Account_Reports_Request </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Reports_Request'>SoftLayer_Account_Reports_Request </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Location_Reservation_Rack record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Location_Reservation_Rack record.
 * SoftLayer_Location_Reservation_RackInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_Reservation_RackObjectMask
 * SoftLayer_Location_Reservation_RackObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location_Reservation_Rack'>SoftLayer_Location_Reservation_Rack </a>
+* <a href='/reference/datatypes/SoftLayer_Location_Reservation_Rack'>SoftLayer_Location_Reservation_Rack </a>
+
+
+
 

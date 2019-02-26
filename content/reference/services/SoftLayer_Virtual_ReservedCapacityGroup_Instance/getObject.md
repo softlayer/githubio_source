@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Virtual_ReservedCapacityGroup_Instance record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Virtual_ReservedCapacityGroup_Instance record.
 * SoftLayer_Virtual_ReservedCapacityGroup_InstanceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_ReservedCapacityGroup_InstanceObjectMask
 * SoftLayer_Virtual_ReservedCapacityGroup_InstanceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance </a>
+
+
+
 

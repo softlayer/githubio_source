@@ -19,6 +19,8 @@ Retrieve stored security certificates that are expired (ie. SSL)
 ## Overview 
 Retrieve stored security certificates that are expired (ie. SSL)
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve stored security certificates that are expired (ie. SSL)
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve stored security certificates that are expired (ie. SSL)
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Security_Certificate'>SoftLayer_Security_Certificate[] </a>
+* <a href='/reference/datatypes/SoftLayer_Security_Certificate'>SoftLayer_Security_Certificate[] </a>
+
+
+
 

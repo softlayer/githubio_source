@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ aliases:
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_CurrencyObjectMask
 * SoftLayer_ObjectMask
 * SoftLayer_Billing_CurrencyObjectFilter
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency[] </a>
+
+
+
 

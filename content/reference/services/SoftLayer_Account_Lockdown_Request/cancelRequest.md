@@ -19,6 +19,8 @@ Allows approved brands to cancel a previously scheduled lockdown request.
 ## Overview 
 Will cancel a lockdown request scheduled in the future. Once canceled, the lockdown request cannot be reconciled and new requests must be made for subsequent actions on the account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Will cancel a lockdown request scheduled in the future. Once canceled, the lockd
 * authenticate
 * SoftLayer_Account_Lockdown_RequestInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

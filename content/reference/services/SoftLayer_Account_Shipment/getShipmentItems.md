@@ -19,6 +19,8 @@ Retrieve the items in the shipment.
 ## Overview 
 Retrieve the items in the shipment.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the items in the shipment.
 * SoftLayer_Account_ShipmentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_ShipmentObjectMask
 * SoftLayer_Account_ShipmentObjectFilter
@@ -35,5 +38,8 @@ Retrieve the items in the shipment.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Shipment_Item'>SoftLayer_Account_Shipment_Item[] </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Shipment_Item'>SoftLayer_Account_Shipment_Item[] </a>
+
+
+
 

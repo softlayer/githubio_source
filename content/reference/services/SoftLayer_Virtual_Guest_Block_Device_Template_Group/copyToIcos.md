@@ -19,6 +19,8 @@ This method generates a transaction to export/copy a template to IBM Cloud Objec
 ## Overview 
 Create a transaction to export/copy a template to an ICOS.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Create a transaction to export/copy a template to an ICOS.
 * authenticate
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

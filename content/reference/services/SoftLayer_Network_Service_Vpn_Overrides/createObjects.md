@@ -19,6 +19,8 @@ Create Softlayer portal user VPN overrides.
 ## Overview 
 Create Softlayer portal user VPN overrides. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,13 +30,30 @@ Create Softlayer portal user VPN overrides.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_Service_Vpn_Overrides::createObject](/reference/services/SoftLayer_Network_Service_Vpn_Overrides/createObject )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_NotFound 
+
+> Thrown if the requested user or subnet records could not be retrieved. 
+
+* SoftLayer_Exception_NotSupported 
+
+> <<<EOT 
+
+* SoftLayer_Exception_NotSupported 
+
+> Thrown if subnet is ineligible for manual route assignments. 
+
+
 

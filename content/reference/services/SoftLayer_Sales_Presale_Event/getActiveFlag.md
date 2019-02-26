@@ -19,6 +19,8 @@ Retrieve a flag to indicate that the presale event is currently active. A presal
 ## Overview 
 Retrieve a flag to indicate that the presale event is currently active. A presale event is active if the current time is between the start and end dates.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a flag to indicate that the presale event is currently active. A presal
 * SoftLayer_Sales_Presale_EventInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Sales_Presale_EventObjectMask
 * SoftLayer_Sales_Presale_EventObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

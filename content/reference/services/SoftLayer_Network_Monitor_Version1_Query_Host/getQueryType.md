@@ -19,6 +19,8 @@ Retrieve the type of monitoring query that is executed when this hardware is mon
 ## Overview 
 Retrieve the type of monitoring query that is executed when this hardware is monitored.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the type of monitoring query that is executed when this hardware is mon
 * SoftLayer_Network_Monitor_Version1_Query_HostInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Monitor_Version1_Query_HostObjectMask
 * SoftLayer_Network_Monitor_Version1_Query_HostObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Type'>SoftLayer_Network_Monitor_Version1_Query_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Type'>SoftLayer_Network_Monitor_Version1_Query_Type </a>
+
+
+
 

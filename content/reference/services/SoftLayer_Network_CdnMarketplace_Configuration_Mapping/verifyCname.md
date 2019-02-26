@@ -19,6 +19,8 @@ This method will verify the CNAME given is unique.
 ## Overview 
 Verifies the CNAME is Unique in the domain. The method will return true if CNAME is unique else returns false 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Verifies the CNAME is Unique in the domain. The method will return true if CNAME
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

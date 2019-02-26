@@ -19,6 +19,8 @@ Create multiple property objects.
 ## Overview 
 Edit multiple [[SoftLayer_Account_Regional_Registry_Detail_Property]] objects. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,15 +30,19 @@ Edit multiple [[SoftLayer_Account_Regional_Registry_Detail_Property]] objects.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Regional_Registry_Detail_PropertyObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property'>SoftLayer_Account_Regional_Registry_Detail_Property[] </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property'>SoftLayer_Account_Regional_Registry_Detail_Property[] </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Account_Regional_Registry_Detail_Property::createObject](/reference/services/SoftLayer_Account_Regional_Registry_Detail_Property/createObject )
+
+
+
 

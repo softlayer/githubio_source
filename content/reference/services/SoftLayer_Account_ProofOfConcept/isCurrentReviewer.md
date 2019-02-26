@@ -19,6 +19,8 @@ Determines if the user is one of the reviewers currently able to act
 ## Overview 
 Determines if the user is one of the reviewers currently able to act 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Determines if the user is one of the reviewers currently able to act
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

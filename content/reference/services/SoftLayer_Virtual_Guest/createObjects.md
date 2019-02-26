@@ -104,6 +104,8 @@ See [[SoftLayer_Virtual_Guest/createObject|createObject]] for specifics on the r
 ] 
 </http> 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -113,16 +115,20 @@ See [[SoftLayer_Virtual_Guest/createObject|createObject]] for specifics on the r
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Virtual_Guest::createObject](/reference/services/SoftLayer_Virtual_Guest/createObject )
 *  [SoftLayer_Virtual_Guest::getCreateObjectOptions](/reference/services/SoftLayer_Virtual_Guest/getCreateObjectOptions )
+
+
+
 

@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 This method will create transaction(s) to remove available locations from an archive image template.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method will create transaction(s) to remove available locations from an arc
 * authenticate
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

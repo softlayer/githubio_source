@@ -19,6 +19,8 @@ Edit a VLAN's properties
 ## Overview 
 Edit a VLAN's properties
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit a VLAN's properties
 * authenticate
 * SoftLayer_Network_VlanInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

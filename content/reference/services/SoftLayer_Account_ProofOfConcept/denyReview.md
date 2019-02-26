@@ -19,6 +19,8 @@ Allows reviewer to deny a request
 ## Overview 
 Allows verified reviewer to deny a request 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ Allows verified reviewer to deny a request
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

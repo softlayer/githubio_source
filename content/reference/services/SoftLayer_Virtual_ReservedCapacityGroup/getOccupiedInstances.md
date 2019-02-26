@@ -19,6 +19,8 @@ Retrieve the instances already occupied by a guest on this reserved capacity gro
 ## Overview 
 Retrieve the instances already occupied by a guest on this reserved capacity group.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the instances already occupied by a guest on this reserved capacity gro
 * SoftLayer_Virtual_ReservedCapacityGroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_ReservedCapacityGroupObjectMask
 * SoftLayer_Virtual_ReservedCapacityGroupObjectFilter
@@ -35,5 +38,8 @@ Retrieve the instances already occupied by a guest on this reserved capacity gro
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance[] </a>
+
+
+
 

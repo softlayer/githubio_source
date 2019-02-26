@@ -19,6 +19,8 @@ Delete more than one passwords from a software component.
 ## Overview 
 Delete more than one passwords from a software component. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Delete more than one passwords from a software component.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge record.
 * SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeObjectMask
 * SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge'>SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge </a>
+* <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge'>SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge </a>
+
+
+
 

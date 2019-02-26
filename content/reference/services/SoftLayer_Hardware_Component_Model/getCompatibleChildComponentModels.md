@@ -19,6 +19,8 @@ Retrieve all the component models that are compatible with a hardware component 
 ## Overview 
 Retrieve all the component models that are compatible with a hardware component model.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve all the component models that are compatible with a hardware component 
 * SoftLayer_Hardware_Component_ModelInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_Component_ModelObjectMask
 * SoftLayer_Hardware_Component_ModelObjectFilter
@@ -35,5 +38,8 @@ Retrieve all the component models that are compatible with a hardware component 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model[] </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model[] </a>
+
+
+
 

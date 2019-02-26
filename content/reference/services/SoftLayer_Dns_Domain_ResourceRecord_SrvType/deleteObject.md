@@ -21,6 +21,8 @@ Delete a domain's SRV record. '''This cannot be undone.''' Be wary of running th
 
 ''deleteObject'' returns Boolean ''true'' on successful deletion or ''false'' if it was unable to remove a resource record. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,15 +32,17 @@ Delete a domain's SRV record. '''This cannot be undone.''' Be wary of running th
 * authenticate
 * SoftLayer_Dns_Domain_ResourceRecord_SrvTypeInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Dns_Domain_ResourceRecord::deleteObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObject )
 *  [SoftLayer_Dns_Domain_ResourceRecord::deleteObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObjects )
 *  [SoftLayer_Dns_Domain_ResourceRecord_SrvType::deleteObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/deleteObjects )
+
+
+
 

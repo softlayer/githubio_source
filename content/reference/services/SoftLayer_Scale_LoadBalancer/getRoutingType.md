@@ -19,6 +19,8 @@ Retrieve the routing type.
 ## Overview 
 Retrieve the routing type.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the routing type.
 * SoftLayer_Scale_LoadBalancerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_LoadBalancerObjectMask
 * SoftLayer_Scale_LoadBalancerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type </a>
+
+
+
 

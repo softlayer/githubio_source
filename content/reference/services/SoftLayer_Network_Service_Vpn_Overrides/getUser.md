@@ -19,6 +19,8 @@ Retrieve softLayer VPN portal user.
 ## Overview 
 Retrieve softLayer VPN portal user.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve softLayer VPN portal user.
 * SoftLayer_Network_Service_Vpn_OverridesInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Service_Vpn_OverridesObjectMask
 * SoftLayer_Network_Service_Vpn_OverridesObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+
+
+
 

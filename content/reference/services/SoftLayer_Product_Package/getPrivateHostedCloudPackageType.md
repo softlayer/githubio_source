@@ -19,6 +19,8 @@ Retrieve the server role of the private hosted cloud deployment. (Deprecated)
 ## Overview 
 Retrieve the server role of the private hosted cloud deployment. (Deprecated)
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the server role of the private hosted cloud deployment. (Deprecated)
 * SoftLayer_Product_PackageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_Product_PackageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

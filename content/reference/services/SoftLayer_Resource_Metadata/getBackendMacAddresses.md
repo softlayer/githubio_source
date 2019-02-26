@@ -19,6 +19,8 @@ A list of backend MAC addresses
 ## Overview 
 The getBackendMacAddresses method retrieves a list of backend MAC addresses for the resource
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -26,8 +28,10 @@ The getBackendMacAddresses method retrieves a list of backend MAC addresses for 
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-array of strings
+* array of strings
+
+
+
 

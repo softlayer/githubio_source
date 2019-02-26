@@ -19,6 +19,8 @@ Retrieve the additional subnets linked to this network component firewall.
 ## Overview 
 Retrieve the additional subnets linked to this network component firewall.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the additional subnets linked to this network component firewall.
 * SoftLayer_Network_Component_FirewallInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Component_FirewallObjectMask
 * SoftLayer_Network_Component_FirewallObjectFilter
@@ -35,5 +38,8 @@ Retrieve the additional subnets linked to this network component firewall.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Delete single override.
 ## Overview 
 Use this method to delete a single SoftLayer portal VPN user subnet override. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Use this method to delete a single SoftLayer portal VPN user subnet override.
 * authenticate
 * SoftLayer_Network_Service_Vpn_OverridesInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

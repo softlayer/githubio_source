@@ -23,6 +23,8 @@ A valid IP address must be an IPv4 format or an IP block. if you want to block a
 
 The referrer is the URL of the previous webpage from which a link was followed.  A referrer should not include "http://" prefix and it can be maximum of 30 characters. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -36,8 +38,10 @@ The referrer is the URL of the previous webpage from which a link was followed. 
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

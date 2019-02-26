@@ -19,6 +19,8 @@ Creates a nameserver.
 ## Overview 
 The registerNameserver method creates a nameserver for the domain. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ The registerNameserver method creates a nameserver for the domain.
 * authenticate
 * SoftLayer_Dns_Domain_RegistrationInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

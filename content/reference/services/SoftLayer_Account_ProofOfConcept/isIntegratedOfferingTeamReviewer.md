@@ -19,6 +19,8 @@ Retrieves Verifies a reviewer
 ## Overview 
 Indicates whether or not a reviewer belongs to the integrated offering team 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Indicates whether or not a reviewer belongs to the integrated offering team
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

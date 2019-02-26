@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Account_Authentication_Saml record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Account_Authentication_Saml record.
 * SoftLayer_Account_Authentication_SamlInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Authentication_SamlObjectMask
 * SoftLayer_Account_Authentication_SamlObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Authentication_Saml'>SoftLayer_Account_Authentication_Saml </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Authentication_Saml'>SoftLayer_Account_Authentication_Saml </a>
+
+
+
 

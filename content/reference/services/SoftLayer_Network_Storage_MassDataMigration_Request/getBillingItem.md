@@ -19,6 +19,8 @@ Retrieve an associated parent billing item which is active. Includes billing ite
 ## Overview 
 Retrieve an associated parent billing item which is active. Includes billing items which are scheduled to be cancelled in the future.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve an associated parent billing item which is active. Includes billing ite
 * SoftLayer_Network_Storage_MassDataMigration_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_MassDataMigration_RequestObjectMask
 * SoftLayer_Network_Storage_MassDataMigration_RequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+
+
+
 

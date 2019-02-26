@@ -19,6 +19,8 @@ Delete a group of SoftLayer_Customer_Notification_Virtual_Guest objects by passi
 ## Overview 
 Like any other API object, the customer notification objects can be deleted by passing an instance of them into this function.  The ID on the object must be set. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Like any other API object, the customer notification objects can be deleted by p
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

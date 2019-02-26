@@ -19,6 +19,8 @@ Returns a CDN FTP disk space usage
 ## Overview 
 This method returns disk space usage data for your CDN FTP. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,25 @@ This method returns disk space usage data for your CDN FTP.
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
+* <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if the $beginDateTime is not a valid date value. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if the $endDateTime is not a valid date value. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if an invalid $unit is passed.  B, MB and GB are supported. 
+
+
 

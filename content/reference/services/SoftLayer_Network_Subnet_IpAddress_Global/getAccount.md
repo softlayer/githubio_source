@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Network_Subnet_IpAddress_GlobalInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_IpAddress_GlobalObjectMask
 * SoftLayer_Network_Subnet_IpAddress_GlobalObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

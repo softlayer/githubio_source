@@ -19,6 +19,8 @@ Creates or updates a user's VPN access privileges.
 ## Overview 
 Always call this function to enable changes when manually configuring VPN subnet access. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Always call this function to enable changes when manually configuring VPN subnet
 * authenticate
 * SoftLayer_User_CustomerInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

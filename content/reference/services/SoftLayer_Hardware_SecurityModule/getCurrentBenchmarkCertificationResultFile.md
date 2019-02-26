@@ -19,6 +19,8 @@ Get the file for the current benchmark certification result, if it exists.
 ## Overview 
 Attempt to retrieve the file associated with the current benchmark certification result, if such a file exists.  If there is no file for this benchmark certification result, calling this method throws an exception. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,17 @@ Attempt to retrieve the file associated with the current benchmark certification
 * authenticate
 * SoftLayer_Hardware_SecurityModuleInitParameters
 
-### Optional Headers
 
 ### Return Values
-binary data
+* binary data
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception 'This hardware currently does not have a benchmark certification.' when a benchmark certification test has not been performed for this hardware. 
+
+
 

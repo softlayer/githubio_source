@@ -19,6 +19,8 @@ Delete an existing property object
 ## Overview 
 This method will delete an existing SoftLayer_Account_Regional_Registry_Detail_Property object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method will delete an existing SoftLayer_Account_Regional_Registry_Detail_P
 * authenticate
 * SoftLayer_Account_Regional_Registry_Detail_PropertyInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

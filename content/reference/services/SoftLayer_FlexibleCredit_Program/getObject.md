@@ -19,6 +19,8 @@ Retrieve a SoftLayer_FlexibleCredit_Program record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_FlexibleCredit_Program record.
 * SoftLayer_FlexibleCredit_ProgramInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_FlexibleCredit_ProgramObjectMask
 * SoftLayer_FlexibleCredit_ProgramObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_FlexibleCredit_Program'>SoftLayer_FlexibleCredit_Program </a>
+* <a href='/reference/datatypes/SoftLayer_FlexibleCredit_Program'>SoftLayer_FlexibleCredit_Program </a>
+
+
+
 

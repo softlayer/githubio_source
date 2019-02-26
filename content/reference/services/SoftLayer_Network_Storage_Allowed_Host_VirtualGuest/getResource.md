@@ -19,6 +19,8 @@ Retrieve the SoftLayer_Virtual_Guest object which this SoftLayer_Network_Storage
 ## Overview 
 Retrieve the SoftLayer_Virtual_Guest object which this SoftLayer_Network_Storage_Allowed_Host is referencing.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the SoftLayer_Virtual_Guest object which this SoftLayer_Network_Storage
 * SoftLayer_Network_Storage_Allowed_Host_VirtualGuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Allowed_Host_VirtualGuestObjectMask
 * SoftLayer_Network_Storage_Allowed_Host_VirtualGuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
+
+
+
 

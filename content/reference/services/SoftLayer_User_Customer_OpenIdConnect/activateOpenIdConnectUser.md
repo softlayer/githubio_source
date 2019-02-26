@@ -19,6 +19,8 @@ Completes invitation process for an OIDC user initiated by the
 ## Overview 
 Completes invitation process for an OpenIdConnect user created by Bluemix Unified User Console. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,17 @@ Completes invitation process for an OpenIdConnect user created by Bluemix Unifie
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "Error completing activation." if there was an error completing activation. 
+
+
 

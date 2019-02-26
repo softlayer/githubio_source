@@ -21,6 +21,8 @@ The lockDomain method locks a domain to prevent unauthorized, unwanted or accide
 * Transferring of the domain name
 * Deletion of the domain name
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ The lockDomain method locks a domain to prevent unauthorized, unwanted or accide
 * authenticate
 * SoftLayer_Dns_Domain_RegistrationInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

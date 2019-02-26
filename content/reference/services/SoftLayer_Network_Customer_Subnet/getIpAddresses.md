@@ -19,6 +19,8 @@ Retrieve all ip addresses associated with a subnet.
 ## Overview 
 Retrieve all ip addresses associated with a subnet.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve all ip addresses associated with a subnet.
 * SoftLayer_Network_Customer_SubnetInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Customer_SubnetObjectMask
 * SoftLayer_Network_Customer_SubnetObjectFilter
@@ -35,5 +38,8 @@ Retrieve all ip addresses associated with a subnet.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet_IpAddress'>SoftLayer_Network_Customer_Subnet_IpAddress[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet_IpAddress'>SoftLayer_Network_Customer_Subnet_IpAddress[] </a>
+
+
+
 

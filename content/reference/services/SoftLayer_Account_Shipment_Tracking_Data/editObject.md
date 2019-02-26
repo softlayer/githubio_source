@@ -19,6 +19,8 @@ Edit a tracking data.
 ## Overview 
 Edit the properties of a tracking data record by passing in a modified instance of a SoftLayer_Account_Shipment_Tracking_Data object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit the properties of a tracking data record by passing in a modified instance 
 * authenticate
 * SoftLayer_Account_Shipment_Tracking_DataInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

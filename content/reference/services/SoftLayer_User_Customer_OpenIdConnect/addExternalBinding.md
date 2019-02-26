@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ aliases:
 * authenticate
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_OpenIdConnectObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_External_Binding'>SoftLayer_User_Customer_External_Binding </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_External_Binding'>SoftLayer_User_Customer_External_Binding </a>
+
+
+
 

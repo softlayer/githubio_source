@@ -19,6 +19,8 @@ returns SWIP transaction objects that are currently in transaction with ARIN.
 ## Overview 
 This function will return an array of SoftLayer_Network_Subnet_Swip_Transaction objects, one for each SWIP that is currently in transaction with ARIN.  This includes all swip registrations, swip removal requests, and SWIP objects that are currently OK. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,21 @@ This function will return an array of SoftLayer_Network_Subnet_Swip_Transaction 
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_Swip_TransactionObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet_Swip_Transaction'>SoftLayer_Network_Subnet_Swip_Transaction[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet_Swip_Transaction'>SoftLayer_Network_Subnet_Swip_Transaction[] </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_AccessDenied 
+
+> Exception thrown if this method is attempted on a subnet not owned by the user. 
+
+
 

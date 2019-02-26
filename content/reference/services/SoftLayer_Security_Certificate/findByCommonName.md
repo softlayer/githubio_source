@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Locate certificates by their common name, traditionally a domain name. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Locate certificates by their common name, traditionally a domain name.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Security_CertificateObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Security_Certificate'>SoftLayer_Security_Certificate[] </a>
+* <a href='/reference/datatypes/SoftLayer_Security_Certificate'>SoftLayer_Security_Certificate[] </a>
+
+
+
 

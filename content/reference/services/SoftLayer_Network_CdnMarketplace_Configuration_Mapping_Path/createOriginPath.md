@@ -19,6 +19,8 @@ SOAP API will create Origin Path for an existing CDN mapping and for a particula
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ SOAP API will create Origin Path for an existing CDN mapping and for a particula
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping_Path'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping_Path[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping_Path'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping_Path[] </a>
+
+
+
 

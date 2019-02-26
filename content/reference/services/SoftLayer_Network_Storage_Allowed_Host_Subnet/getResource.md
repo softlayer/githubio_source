@@ -19,6 +19,8 @@ Retrieve the SoftLayer_Network_Subnet object which this SoftLayer_Network_Storag
 ## Overview 
 Retrieve the SoftLayer_Network_Subnet object which this SoftLayer_Network_Storage_Allowed_Host is referencing.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the SoftLayer_Network_Subnet object which this SoftLayer_Network_Storag
 * SoftLayer_Network_Storage_Allowed_Host_SubnetInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Allowed_Host_SubnetObjectMask
 * SoftLayer_Network_Storage_Allowed_Host_SubnetObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
+
+
+
 

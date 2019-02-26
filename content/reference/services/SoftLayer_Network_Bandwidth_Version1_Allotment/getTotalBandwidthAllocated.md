@@ -19,6 +19,8 @@ Retrieve the combined allocated bandwidth for all servers in a virtual rack.
 ## Overview 
 Retrieve the combined allocated bandwidth for all servers in a virtual rack.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the combined allocated bandwidth for all servers in a virtual rack.
 * SoftLayer_Network_Bandwidth_Version1_AllotmentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Bandwidth_Version1_AllotmentObjectMask
 * SoftLayer_Network_Bandwidth_Version1_AllotmentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-unsigned long
+* unsigned long
+
+
+
 

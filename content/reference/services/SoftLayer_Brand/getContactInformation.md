@@ -19,6 +19,8 @@ Retrieve the contact information for the customer account brand.
 ## Overview 
 Retrieve the contact information for the brand such as the corporate or support contact.  This will include the contact name, telephone number, fax number, email address, and mailing address of the contact. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Retrieve the contact information for the brand such as the corporate or support 
 * authenticate
 * SoftLayer_BrandInitParameters
 
+
 ### Optional Headers
 * SoftLayer_BrandObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Brand_Contact'>SoftLayer_Brand_Contact[] </a>
+* <a href='/reference/datatypes/SoftLayer_Brand_Contact'>SoftLayer_Brand_Contact[] </a>
+
+
+
 

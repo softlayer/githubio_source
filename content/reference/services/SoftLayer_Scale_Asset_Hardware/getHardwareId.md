@@ -19,6 +19,8 @@ Retrieve the identifier of the hardware for this asset.
 ## Overview 
 Retrieve the identifier of the hardware for this asset.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the identifier of the hardware for this asset.
 * SoftLayer_Scale_Asset_HardwareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Asset_HardwareObjectMask
 * SoftLayer_Scale_Asset_HardwareObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-integer
+* integer
+
+
+
 

@@ -19,6 +19,8 @@ Query a virtualization platform directly to retrieve recent metric data for a gu
 ## Overview 
 Query a virtualization platform directly to retrieve recent metric data for a guest. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,10 +34,14 @@ Query a virtualization platform directly to retrieve recent metric data for a gu
 * authenticate
 * SoftLayer_Virtual_HostInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Virtual_HostObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object[] </a>
+* <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object[] </a>
+
+
+
 

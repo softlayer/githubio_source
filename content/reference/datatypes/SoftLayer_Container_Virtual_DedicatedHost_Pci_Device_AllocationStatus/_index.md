@@ -50,6 +50,16 @@ This data type represents PCI device allocation properties of a [[SoftLayer_Virt
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#deviceName" name=deviceName>deviceName</a>
+            </span>
+            <div class='views-field-body'>The name of the PCI devices on the host. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#devicesAllocated" name=devicesAllocated>devicesAllocated</a>
             </span>
             <div class='views-field-body'>The number of PCI devices currently allocated to guests. </div>

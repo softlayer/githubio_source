@@ -19,6 +19,8 @@ Retrieve the type of trigger.
 ## Overview 
 Retrieve the type of trigger.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the type of trigger.
 * SoftLayer_Scale_Policy_Trigger_ResourceUseInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Policy_Trigger_ResourceUseObjectMask
 * SoftLayer_Scale_Policy_Trigger_ResourceUseObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_Type'>SoftLayer_Scale_Policy_Trigger_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_Type'>SoftLayer_Scale_Policy_Trigger_Type </a>
+
+
+
 

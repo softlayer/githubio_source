@@ -21,6 +21,8 @@ Edit this group. The name can be edited at any time. The minimumMemberCount and 
 
 When editing an active group, a special field can be provided: desiredMemberCount. When given, the group members are automatically scaled up or down to reach that number. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,8 +33,10 @@ When editing an active group, a special field can be provided: desiredMemberCoun
 * authenticate
 * SoftLayer_Scale_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

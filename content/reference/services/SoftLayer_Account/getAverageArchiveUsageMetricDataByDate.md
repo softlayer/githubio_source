@@ -19,6 +19,8 @@ Returns the average disk usage for all archive repositories for the timeframe ba
 ## Overview 
 Returns the average disk space usage for all archive repositories. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Returns the average disk space usage for all archive repositories.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-float
+* float
+
+
+
 

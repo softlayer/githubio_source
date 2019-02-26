@@ -19,6 +19,8 @@ Retrieve a description for a specific installation of a Software Component
 ## Overview 
 Retrieve a description for a specific installation of a Software Component
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a description for a specific installation of a Software Component
 * SoftLayer_Monitoring_AgentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Monitoring_AgentObjectMask
 * SoftLayer_Monitoring_AgentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>
+* <a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>
+
+
+
 

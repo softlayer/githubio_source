@@ -19,6 +19,8 @@ Retrieve all points of presence locations
 ## Overview 
 Retrieve all point of presence locations. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Retrieve all point of presence locations.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_LocationObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+
+
+
 

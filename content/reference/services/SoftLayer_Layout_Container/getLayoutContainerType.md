@@ -19,6 +19,8 @@ Retrieve the type of the layout container object
 ## Overview 
 Retrieve the type of the layout container object
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the type of the layout container object
 * SoftLayer_Layout_ContainerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Layout_ContainerObjectMask
 * SoftLayer_Layout_ContainerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Layout_Container_Type'>SoftLayer_Layout_Container_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Layout_Container_Type'>SoftLayer_Layout_Container_Type </a>
+
+
+
 

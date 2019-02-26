@@ -19,6 +19,8 @@ Edit the layout profile object
 ## Overview 
 This method edits an existing layout profile object by passing in a modified instance of the object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method edits an existing layout profile object by passing in a modified ins
 * authenticate
 * SoftLayer_Layout_Profile_CustomerInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

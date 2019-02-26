@@ -19,6 +19,8 @@ Retrieve the load balancers virtual IP addresses currently associated with the c
 ## Overview 
 Retrieve the load balancers virtual IP addresses currently associated with the certificate.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the load balancers virtual IP addresses currently associated with the c
 * SoftLayer_Security_CertificateInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Security_CertificateObjectMask
 * SoftLayer_Security_CertificateObjectFilter
@@ -35,5 +38,8 @@ Retrieve the load balancers virtual IP addresses currently associated with the c
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress[] </a>
+
+
+
 

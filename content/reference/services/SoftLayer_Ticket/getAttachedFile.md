@@ -19,6 +19,8 @@ Retrieve a file attached to a ticket.
 ## Overview 
 Retrieve the file attached to a SoftLayer ticket by it's given identifier. To retrieve a list of files attached to a ticket either call the SoftLayer_Ticket::getAttachedFiles method or call SoftLayer_Ticket::getObject with ''attachedFiles'' defined in an object mask. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,15 +31,32 @@ Retrieve the file attached to a SoftLayer ticket by it's given identifier. To re
 * authenticate
 * SoftLayer_TicketInitParameters
 
-### Optional Headers
 
 ### Return Values
-binary data
+* binary data
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Ticket::getAttachedFiles](/reference/services/SoftLayer_Ticket/getAttachedFiles )
 *  [SoftLayer_Ticket::getAttachedFiles](/reference/services/SoftLayer_Ticket/getAttachedFiles )
 *  [SoftLayer_Ticket::addAttachedFile](/reference/services/SoftLayer_Ticket/addAttachedFile )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "File {attachmentId} is not attached to ticket {ticketId}." if the given file is not attached to the given ticket. 
+
+* SoftLayer_Exception 
+
+> Throw the exception "File does not exist: file not found." if the given file is attached to the ticket, but not present in SoftLayer's attachment backend filesystem. 
+
+* SoftLayer_Exception 
+
+> Throw the exception "Unable to load a valid ticket file attachment." exists but is not retrievable by the API. 
+
+
 

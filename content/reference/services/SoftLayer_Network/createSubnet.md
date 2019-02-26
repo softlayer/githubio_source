@@ -36,6 +36,8 @@ utilized Network will have a minimum of two Subnets.
 * The Pod must support the ability to create Networks by having the
 SUPPORTS_CUSTOMER_DEFINED_NETWORK capability. See [[SoftLayer_Network_Pod/getCapabilities]]. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -47,10 +49,29 @@ SUPPORTS_CUSTOMER_DEFINED_NETWORK capability. See [[SoftLayer_Network_Pod/getCap
 * authenticate
 * SoftLayer_NetworkInitParameters
 
+
 ### Optional Headers
 * SoftLayer_NetworkObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_NotReady 
+
+> <<< EOT 
+
+* SoftLayer_Exception_Account_Limit 
+
+> <<< EOT 
+
+* SoftLayer_Exception_NotSupported 
+
+> <<< EOT 
+
+
 

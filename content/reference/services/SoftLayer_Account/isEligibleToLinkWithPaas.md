@@ -19,6 +19,8 @@ Returns true if this account is eligible to link with PaaS. False otherwise.
 ## Overview 
 Returns true if this account is eligible to link with PaaS. False otherwise. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ Returns true if this account is eligible to link with PaaS. False otherwise.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Delete this watch from the trigger. You cannot delete the last watch on a trigge
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Delete this watch from the trigger. You cannot delete the last watch on a trigge
 * authenticate
 * SoftLayer_Scale_Policy_Trigger_ResourceUse_WatchInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

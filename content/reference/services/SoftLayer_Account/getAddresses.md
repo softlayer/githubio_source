@@ -19,6 +19,8 @@ Retrieve all the address(es) that belong to an account.
 ## Overview 
 Retrieve all the address(es) that belong to an account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve all the address(es) that belong to an account.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve all the address(es) that belong to an account.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address[] </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address[] </a>
+
+
+
 

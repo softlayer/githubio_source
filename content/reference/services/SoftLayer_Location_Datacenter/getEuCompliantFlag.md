@@ -19,6 +19,8 @@ Retrieve a flag indicating whether or not the datacenter/location is EU complian
 ## Overview 
 Retrieve a flag indicating whether or not the datacenter/location is EU compliant.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a flag indicating whether or not the datacenter/location is EU complian
 * SoftLayer_Location_DatacenterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_DatacenterObjectMask
 * SoftLayer_Location_DatacenterObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

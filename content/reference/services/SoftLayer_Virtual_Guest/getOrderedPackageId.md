@@ -19,6 +19,8 @@ Retrieve the original package id provided with the order for a Cloud Computing I
 ## Overview 
 Retrieve the original package id provided with the order for a Cloud Computing Instance.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the original package id provided with the order for a Cloud Computing I
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

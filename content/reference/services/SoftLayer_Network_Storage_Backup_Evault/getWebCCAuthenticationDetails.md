@@ -19,6 +19,8 @@ Retrieve WebCC authentication details value. This value is required for the logi
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ Retrieve WebCC authentication details value. This value is required for the logi
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_Storage_Backup_Evault_WebCc_Authentication_Details'>SoftLayer_Container_Network_Storage_Backup_Evault_WebCc_Authentication_Details </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_Storage_Backup_Evault_WebCc_Authentication_Details'>SoftLayer_Container_Network_Storage_Backup_Evault_WebCc_Authentication_Details </a>
+
+
+
 

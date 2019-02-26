@@ -19,6 +19,8 @@ Update the root IPMI user password
 ## Overview 
 This method will update the root IPMI password on this SoftLayer_Hardware. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method will update the root IPMI password on this SoftLayer_Hardware.
 * authenticate
 * SoftLayer_Hardware_RouterInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -27,6 +27,8 @@ Update an anti-virus/spyware policy. The policy options that it accepts are the 
 *4 - High
 *5 - Ultimate
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -38,8 +40,21 @@ Update an anti-virus/spyware policy. The policy options that it accepts are the 
 * authenticate
 * SoftLayer_Software_Component_AntivirusSpywareInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Software_Component_Mcafee_InvalidPolicyUpdateResponseCode 
+
+> Throws the error "The host ips policy update page returned a failed response code." 
+
+* SoftLayer_Exception_Software_Component_Mcafee_PolicyUpdateFailure 
+
+> Throws the error "The host ips policies could not be updated at this time." 
+
+
 

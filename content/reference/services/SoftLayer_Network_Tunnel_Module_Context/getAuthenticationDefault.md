@@ -19,6 +19,8 @@ Returns the authentication default.
 ## Overview 
 The default authentication type used for both phases of the negotiation process.  The default value is set to MD5. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ The default authentication type used for both phases of the negotiation process.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

@@ -19,6 +19,8 @@ Returns a collection of SoftLayer_Item_Price objects from a collection of SoftLa
 ## Overview 
 Return a collection of SoftLayer_Item_Price objects from a collection of SoftLayer_Software_Description 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,10 +33,21 @@ Return a collection of SoftLayer_Item_Price objects from a collection of SoftLay
 * authenticate
 * SoftLayer_Product_PackageInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> <<< EOT 
+
+
 

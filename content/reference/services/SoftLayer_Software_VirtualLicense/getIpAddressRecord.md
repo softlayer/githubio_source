@@ -19,6 +19,8 @@ Retrieve the IP Address record associated with a virtual license.
 ## Overview 
 Retrieve the IP Address record associated with a virtual license.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the IP Address record associated with a virtual license.
 * SoftLayer_Software_VirtualLicenseInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_VirtualLicenseObjectMask
 * SoftLayer_Software_VirtualLicenseObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>
+
+
+
 

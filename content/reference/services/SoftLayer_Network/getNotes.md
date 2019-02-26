@@ -19,6 +19,8 @@ Retrieve notes, or a description of the Network. This is entirely user defined.
 ## Overview 
 Retrieve notes, or a description of the Network. This is entirely user defined.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve notes, or a description of the Network. This is entirely user defined.
 * SoftLayer_NetworkInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_NetworkObjectMask
 * SoftLayer_NetworkObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

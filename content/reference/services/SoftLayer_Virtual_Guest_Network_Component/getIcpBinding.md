@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Virtual_Guest_Network_ComponentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Guest_Network_ComponentObjectMask
 * SoftLayer_Virtual_Guest_Network_ComponentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component_IcpBinding'>SoftLayer_Virtual_Guest_Network_Component_IcpBinding </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component_IcpBinding'>SoftLayer_Virtual_Guest_Network_Component_IcpBinding </a>
+
+
+
 

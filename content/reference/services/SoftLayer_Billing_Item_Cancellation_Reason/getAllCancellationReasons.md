@@ -19,6 +19,8 @@ Retrieve all available cancellation reasons.
 ## Overview 
 getAllCancellationReasons() retrieves a list of all cancellation reasons that a server/service may be assigned to. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ getAllCancellationReasons() retrieves a list of all cancellation reasons that a 
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Item_Cancellation_ReasonObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason'>SoftLayer_Billing_Item_Cancellation_Reason[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason'>SoftLayer_Billing_Item_Cancellation_Reason[] </a>
+
+
+
 

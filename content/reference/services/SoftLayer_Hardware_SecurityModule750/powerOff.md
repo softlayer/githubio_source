@@ -19,6 +19,8 @@ Power off server.
 ## Overview 
 This method will power off the server via the server's remote management card. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method will power off the server via the server's remote management card.
 * authenticate
 * SoftLayer_Hardware_SecurityModule750InitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

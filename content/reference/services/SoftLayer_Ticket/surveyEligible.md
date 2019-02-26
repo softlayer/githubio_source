@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 (DEPRECATED) Use [[SoftLayer_Ticket_Survey::getPreference]] method. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ aliases:
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

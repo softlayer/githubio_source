@@ -19,6 +19,8 @@ Retrieve a ticket's status.
 ## Overview 
 Retrieve a ticket's status.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a ticket's status.
 * SoftLayer_TicketInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TicketObjectMask
 * SoftLayer_TicketObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket_Status'>SoftLayer_Ticket_Status </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket_Status'>SoftLayer_Ticket_Status </a>
+
+
+
 

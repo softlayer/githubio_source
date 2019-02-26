@@ -21,6 +21,8 @@ Get the graph image for a load balancer service group based on the supplied grap
 
 This method returns the raw binary image data. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,8 +34,25 @@ This method returns the raw binary image data.
 * authenticate
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-binary data
+* binary data
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "The graphType can only be 'connections'." when an invalid graphType is supplied. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "The metric can only be 'day', 'week', or 'month'." when an invalid metric is supplied. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Unable to load the <graphType> graph for the <groupType>-<virtualPort> service group." when the graph could not be found or is returned in an incorrect image format. 
+
+
 

@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 This method indicates which boot modes are supported by the image. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method indicates which boot modes are supported by the image.
 * authenticate
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-array of strings
+* array of strings
+
+
+
 

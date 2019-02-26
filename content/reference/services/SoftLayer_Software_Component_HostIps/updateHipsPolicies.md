@@ -19,6 +19,8 @@ Update the Host IPS policies.
 ## Overview 
 Update the Host IPS policies. To retrieve valid policy options you must use the provided relationships. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -35,8 +37,25 @@ Update the Host IPS policies. To retrieve valid policy options you must use the 
 * authenticate
 * SoftLayer_Software_Component_HostIpsInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Software_Component_Mcafee_AntivirusPolicyUpdateInProgress 
+
+> Throws the error "A host ips policy update may only take place if a previous anti-virus/spyware policy update has finished." 
+
+* SoftLayer_Exception_Software_Component_Mcafee_InvalidPolicyUpdateResponseCode 
+
+> Throws the error "The host ips policy update page returned a failed response code." 
+
+* SoftLayer_Exception_Software_Component_Mcafee_PolicyUpdateFailure 
+
+> Throws the error "The host ips policies could not be updated at this time." 
+
+
 

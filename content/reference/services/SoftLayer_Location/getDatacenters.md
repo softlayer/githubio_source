@@ -19,6 +19,8 @@ Retrieve all datacenter locations
 ## Overview 
 Retrieve all datacenter locations. SoftLayer's datacenters exist in various cities and each contain one or more server rooms which house network and server infrastructure. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve all datacenter locations. SoftLayer's datacenters exist in various citi
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_LocationObjectMask
 * SoftLayer_ObjectMask
 * SoftLayer_LocationObjectFilter
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+
+
+
 

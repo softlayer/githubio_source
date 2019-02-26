@@ -19,6 +19,8 @@ Retrieve logs of who entered a colocation area which is assigned to this account
 ## Overview 
 Retrieve logs of who entered a colocation area which is assigned to this account, or when a user under this account enters a datacenter.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve logs of who entered a colocation area which is assigned to this account
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve logs of who entered a colocation area which is assigned to this account
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Access_Facility_Log'>SoftLayer_User_Access_Facility_Log[] </a>
+* <a href='/reference/datatypes/SoftLayer_User_Access_Facility_Log'>SoftLayer_User_Access_Facility_Log[] </a>
+
+
+
 

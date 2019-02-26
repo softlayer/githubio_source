@@ -21,6 +21,8 @@ Add a certificate to your account for your records, or for use with various serv
 
 The certificate signing request is not required, but can be provided for your records. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,10 +32,14 @@ The certificate signing request is not required, but can be provided for your re
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Security_CertificateObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Security_Certificate'>SoftLayer_Security_Certificate </a>
+* <a href='/reference/datatypes/SoftLayer_Security_Certificate'>SoftLayer_Security_Certificate </a>
+
+
+
 

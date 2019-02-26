@@ -19,6 +19,8 @@ Retrieve an associated parent billing item which is active.
 ## Overview 
 Retrieve an associated parent billing item which is active.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve an associated parent billing item which is active.
 * SoftLayer_Network_CdnMarketplace_AccountInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_CdnMarketplace_AccountObjectMask
 * SoftLayer_Network_CdnMarketplace_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Account_Media record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Account_Media record.
 * SoftLayer_Account_MediaInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_MediaObjectMask
 * SoftLayer_Account_MediaObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Media'>SoftLayer_Account_Media </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Media'>SoftLayer_Account_Media </a>
+
+
+
 

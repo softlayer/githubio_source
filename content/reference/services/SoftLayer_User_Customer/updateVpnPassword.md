@@ -28,6 +28,8 @@ Update a user's VPN password on the SoftLayer customer portal. As with portal pa
 * ...not match your forum password
 Finally, users can only update their own VPN password. An account's master user can update any of their account users' VPN passwords. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -38,10 +40,9 @@ Finally, users can only update their own VPN password. An account's master user 
 * authenticate
 * SoftLayer_User_CustomerInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 ### External Links
 
@@ -50,7 +51,21 @@ boolean
 
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_User_Customer::updatePassword](/reference/services/SoftLayer_User_Customer/updatePassword )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Access is denied." if a user tries to change another user's VPN password and is not the account's master user. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Your VPN password must" followed by a list of violated password rules if the given password fails to match any of the above restrictions. 
+
+
 

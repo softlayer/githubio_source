@@ -21,6 +21,8 @@ This method expands on the getSubnetReportForEntireAccount method by offering th
 
 This method should be called once an attack has been identified using getSubnetReportForEntireAccount (in which case "All Subnets" is the subnet) or getReportForIpAddressOrSubnet. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -34,10 +36,9 @@ This method should be called once an attack has been identified using getSubnetR
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_IntrusionProtection_SubnetReport'>SoftLayer_Container_Network_IntrusionProtection_SubnetReport[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_IntrusionProtection_SubnetReport'>SoftLayer_Container_Network_IntrusionProtection_SubnetReport[] </a>
 
 ### External Links
 
@@ -46,5 +47,35 @@ This method should be called once an attack has been identified using getSubnetR
 
 
 * [http://cve.mitre.org/find/index.html]()
+
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Parameter 'OrderBy' not valid in SoftLayer_Network_TippingPointReporting getReportForIpAddressOrSubnet.  Valid values are AttackName, SourceIp, AttackCount, Classification, Protocol, Platform" If an invalid argument was passed for the "OrderBy" value 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Parameter 'OrderDirection' not valid in SoftLayer_Network_TippingPointReporting getReportForIpAddressOrSubnet.  Valid values are ASC, DESC" If an invalid argument was passed for the "OrderDirection" value 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Parameter 'timeFrame' not valid in SoftLayer_Network_TippingPointReporting getReportForIpAddressOrSubnet.  Valid values are positive integers less than or equal to 1440" If an invalid  argument was passed for the "timeFrame" value 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "IP address not assigned to this account: {Address}" If the supplied IP or subnet does not belong to this account 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Invalid IP Address: {Address}" If the supplied IP or subnet was not formatted correctly. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "There was a problem with the IP address you entered {Address}.  Make sure the IP entered belongs to the current account." If there was an unrecoverable error with the passed IP Address 
+
 
 

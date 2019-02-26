@@ -19,6 +19,8 @@ SOAP API will return all CDN vendors available.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ SOAP API will return all CDN vendors available.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Vendor'>SoftLayer_Container_Network_CdnMarketplace_Vendor[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Vendor'>SoftLayer_Container_Network_CdnMarketplace_Vendor[] </a>
+
+
+
 

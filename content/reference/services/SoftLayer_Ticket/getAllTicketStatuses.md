@@ -21,6 +21,8 @@ getAllTicketStatuses() retrieves a list of all statuses that a ticket may exist 
 
 Every SoftLayer ticket has statusId and status properties that correspond to one of the statuses returned by getAllTicketStatuses(). 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Every SoftLayer ticket has statusId and status properties that correspond to one
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TicketObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket_Status'>SoftLayer_Ticket_Status[] </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket_Status'>SoftLayer_Ticket_Status[] </a>
+
+
+
 

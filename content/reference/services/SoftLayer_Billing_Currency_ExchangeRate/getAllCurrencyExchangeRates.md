@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ aliases:
 * authenticate
 * SoftLayer_Billing_Currency_ExchangeRateInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Billing_Currency_ExchangeRateObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Currency_ExchangeRate'>SoftLayer_Billing_Currency_ExchangeRate[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Currency_ExchangeRate'>SoftLayer_Billing_Currency_ExchangeRate[] </a>
+
+
+
 

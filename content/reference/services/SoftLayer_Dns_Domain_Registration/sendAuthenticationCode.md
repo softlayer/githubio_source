@@ -19,6 +19,8 @@ Sends the authentication code
 ## Overview 
 The sendAuthenticationCode method sends the authentication code to the administrative contact for the domain. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ The sendAuthenticationCode method sends the authentication code to the administr
 * authenticate
 * SoftLayer_Dns_Domain_RegistrationInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

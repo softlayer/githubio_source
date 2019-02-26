@@ -143,6 +143,16 @@ This data type presents the structure for a virtual reserved capacity group.
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#instancesCount" name=instancesCount>instancesCount</a>
+            </span>
+            <div class='views-field-body'>The number of instances that are members of this reserved capacity group. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsigned integer</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#occupiedInstances" name=occupiedInstances>occupiedInstances</a>
             </span>
             <div class='views-field-body'>The instances already occupied by a guest on this reserved capacity group. </div>

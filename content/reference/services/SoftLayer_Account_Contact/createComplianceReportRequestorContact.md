@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 <<EOT
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ aliases:
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_ContactObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Contact'>SoftLayer_Account_Contact </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Contact'>SoftLayer_Account_Contact </a>
+
+
+
 

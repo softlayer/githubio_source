@@ -19,6 +19,8 @@ Change preference values for the current user
 ## Overview 
 Select a type of preference you would like to modify using [[SoftLayer_User_Customer::getPreferenceTypes|getPreferenceTypes]] and invoke this method using that preference type key name. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,10 +32,14 @@ Select a type of preference you would like to modify using [[SoftLayer_User_Cust
 * authenticate
 * SoftLayer_User_CustomerInitParameters
 
+
 ### Optional Headers
 * SoftLayer_User_CustomerObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Preference'>SoftLayer_User_Preference[] </a>
+* <a href='/reference/datatypes/SoftLayer_User_Preference'>SoftLayer_User_Preference[] </a>
+
+
+
 

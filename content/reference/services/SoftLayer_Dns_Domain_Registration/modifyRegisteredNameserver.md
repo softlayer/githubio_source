@@ -19,6 +19,8 @@ Modifies a registered nameserver.
 ## Overview 
 The modifyRegisteredNameserver method modifies a nameserver that was registered. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,8 +33,10 @@ The modifyRegisteredNameserver method modifies a nameserver that was registered.
 * authenticate
 * SoftLayer_Dns_Domain_RegistrationInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

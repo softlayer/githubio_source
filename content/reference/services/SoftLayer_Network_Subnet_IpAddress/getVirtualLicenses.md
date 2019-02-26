@@ -19,6 +19,8 @@ Retrieve virtual licenses allocated for an IP Address.
 ## Overview 
 Retrieve virtual licenses allocated for an IP Address.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve virtual licenses allocated for an IP Address.
 * SoftLayer_Network_Subnet_IpAddressInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_IpAddressObjectMask
 * SoftLayer_Network_Subnet_IpAddressObjectFilter
@@ -35,5 +38,8 @@ Retrieve virtual licenses allocated for an IP Address.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_VirtualLicense'>SoftLayer_Software_VirtualLicense[] </a>
+* <a href='/reference/datatypes/SoftLayer_Software_VirtualLicense'>SoftLayer_Software_VirtualLicense[] </a>
+
+
+
 

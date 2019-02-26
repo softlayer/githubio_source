@@ -19,6 +19,8 @@ Get a set of reasons why this VLAN may not be cancelled.
 ## Overview 
 Get a set of reasons why this VLAN may not be cancelled. If the result is empty, this VLAN may be cancelled. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Get a set of reasons why this VLAN may not be cancelled. If the result is empty,
 * authenticate
 * SoftLayer_Network_VlanInitParameters
 
-### Optional Headers
 
 ### Return Values
-array of strings
+* array of strings
+
+
+
 

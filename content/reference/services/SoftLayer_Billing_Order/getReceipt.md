@@ -19,6 +19,8 @@ Generate and return an order receipt.
 ## Overview 
 Generate a [[SoftLayer_Container_Product_Order_Receipt]] object with all the order information. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Generate a [[SoftLayer_Container_Product_Order_Receipt]] object with all the ord
 * authenticate
 * SoftLayer_Billing_OrderInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Product_Order_Receipt'>SoftLayer_Container_Product_Order_Receipt </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Product_Order_Receipt'>SoftLayer_Container_Product_Order_Receipt </a>
+
+
+
 

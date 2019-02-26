@@ -19,6 +19,8 @@ Returns the encryption default.
 ## Overview 
 The default encryption type used for both phases of the negotiation process.  The default value is set to 3DES. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ The default encryption type used for both phases of the negotiation process.  Th
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the current billing item for the Load Balancer.
 ## Overview 
 Retrieve the current billing item for the Load Balancer.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the current billing item for the Load Balancer.
 * SoftLayer_Network_LoadBalancer_VirtualIpAddressInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_LoadBalancer_VirtualIpAddressObjectMask
 * SoftLayer_Network_LoadBalancer_VirtualIpAddressObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+
+
+
 

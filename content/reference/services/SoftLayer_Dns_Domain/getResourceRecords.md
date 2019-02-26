@@ -19,6 +19,8 @@ Retrieve the individual records contained within a domain record. These include 
 ## Overview 
 Retrieve the individual records contained within a domain record. These include but are not limited to A, AAAA, MX, CTYPE, SPF and TXT records.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the individual records contained within a domain record. These include 
 * SoftLayer_Dns_DomainInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Dns_DomainObjectMask
 * SoftLayer_Dns_DomainObjectFilter
@@ -35,5 +38,8 @@ Retrieve the individual records contained within a domain record. These include 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord'>SoftLayer_Dns_Domain_ResourceRecord[] </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord'>SoftLayer_Dns_Domain_ResourceRecord[] </a>
+
+
+
 

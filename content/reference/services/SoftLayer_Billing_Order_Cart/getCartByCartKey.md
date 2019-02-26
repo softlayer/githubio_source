@@ -19,6 +19,8 @@ Retrieve a cart.
 ## Overview 
 Retrieve a valid cart record of a SoftLayer order. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,25 @@ Retrieve a valid cart record of a SoftLayer order.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Order_CartObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Order_Cart'>SoftLayer_Billing_Order_Cart </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Order_Cart'>SoftLayer_Billing_Order_Cart </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public. 
+
+> Throw the exception "No cart found" 
+
+* SoftLayer_Exception_Public. 
+
+> Throw the exception "You do not have permissions to access this cart." 
+
+
 

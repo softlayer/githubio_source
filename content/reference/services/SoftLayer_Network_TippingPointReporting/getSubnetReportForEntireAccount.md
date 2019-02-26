@@ -29,6 +29,8 @@ The data returned includes Attack Count, attack name, extended attack descriptio
 
 For more detailed information, use the getReportForIpAddressOrSubnet method 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -41,10 +43,9 @@ For more detailed information, use the getReportForIpAddressOrSubnet method
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_IntrusionProtection_SubnetReport'>SoftLayer_Container_Network_IntrusionProtection_SubnetReport[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_IntrusionProtection_SubnetReport'>SoftLayer_Container_Network_IntrusionProtection_SubnetReport[] </a>
 
 ### External Links
 
@@ -53,5 +54,15 @@ For more detailed information, use the getReportForIpAddressOrSubnet method
 
 
 * [The MITRE (CVE) database](http://cve.mitre.org/find/index.html)
+
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Could not retrieve Account ID in SoftLayer_Network_TippingPointReporting getSubnetReportForEntireAccount" if the current user's account ID could not be retrieved. 
+
 
 

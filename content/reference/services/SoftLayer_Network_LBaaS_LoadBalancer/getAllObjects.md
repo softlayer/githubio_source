@@ -19,6 +19,8 @@ Get all existing load balancers.
 ## Overview 
 Return all existing load balancers 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Return all existing load balancers
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_LBaaS_LoadBalancerObjectMask
 * SoftLayer_ObjectMask
@@ -34,5 +37,8 @@ Return all existing load balancers
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancer'>SoftLayer_Network_LBaaS_LoadBalancer[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancer'>SoftLayer_Network_LBaaS_LoadBalancer[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 (DEPRECATED) Use [[SoftLayer_Ticket_Subject::getAllObjects]] method. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ aliases:
 * authenticate
 * SoftLayer_BrandInitParameters
 
+
 ### Optional Headers
 * SoftLayer_BrandObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject[] </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject[] </a>
+
+
+
 

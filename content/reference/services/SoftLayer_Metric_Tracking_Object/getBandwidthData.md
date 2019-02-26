@@ -19,6 +19,8 @@ Retrieve raw bandwidth data from a tracking object.
 ## Overview 
 Retrieve a collection of raw bandwidth data from an individual public or private network tracking object. Raw data is ideal if you with to employ your own traffic storage and graphing systems. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,14 +34,16 @@ Retrieve a collection of raw bandwidth data from an individual public or private
 * authenticate
 * SoftLayer_Metric_Tracking_ObjectInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
+* <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Metric_Tracking_Object::getBandwidthGraph](/reference/services/SoftLayer_Metric_Tracking_Object/getBandwidthGraph )
 *  [SoftLayer_Metric_Tracking_Object::getBandwidthTotal](/reference/services/SoftLayer_Metric_Tracking_Object/getBandwidthTotal )
+
+
+
 

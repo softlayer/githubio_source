@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtec
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtec
 * SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtectionInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtectionObjectMask
 * SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtectionObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection'>SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection </a>
+* <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection'>SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection </a>
+
+
+
 

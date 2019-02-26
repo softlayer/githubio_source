@@ -19,6 +19,8 @@ Retrieve returns true if this account is linked to IBM Bluemix, false if not.
 ## Overview 
 Retrieve returns true if this account is linked to IBM Bluemix, false if not.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve returns true if this account is linked to IBM Bluemix, false if not.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

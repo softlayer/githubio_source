@@ -19,6 +19,8 @@ Retrieve a security scan request's status.
 ## Overview 
 Retrieve a security scan request's status.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a security scan request's status.
 * SoftLayer_Network_Security_Scanner_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Security_Scanner_RequestObjectMask
 * SoftLayer_Network_Security_Scanner_RequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request_Status'>SoftLayer_Network_Security_Scanner_Request_Status </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request_Status'>SoftLayer_Network_Security_Scanner_Request_Status </a>
+
+
+
 

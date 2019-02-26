@@ -19,6 +19,8 @@ Void a service cancellation that was previously made.
 ## Overview 
 Void a previously made cancellation for a service 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,25 @@ Void a previously made cancellation for a service
 * authenticate
 * SoftLayer_Billing_Item_Virtual_DedicatedHostInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Cannot void cancellation for this service through the API." If a billing items service type cannot have a cancellation voided through the API. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Cannot void cancellation.  This billing item is not set to cancel." If a service is not cancelled. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Cannot void cancellation.  The void cnacellation period has expired." If the void cancellation period has expired 
+
+
 

@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Configuration_Template_Section_DefinitionInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Configuration_Template_Section_DefinitionObjectMask
 * SoftLayer_Configuration_Template_Section_DefinitionObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

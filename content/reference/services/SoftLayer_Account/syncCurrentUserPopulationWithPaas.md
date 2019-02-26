@@ -19,6 +19,8 @@ This method manually starts a synchronize operation for the current IBMid-authen
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,25 @@ This method manually starts a synchronize operation for the current IBMid-authen
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
+### Error Handling
+
+* Throws 
+
+> SoftLayer_Exception_Public, 'Only Employees or Account master users may manually sync existing user populations.', if the active user is not an Employee or the master user of the account. 
+
+* Throws 
+
+> SoftLayer_Exception_Public, 'Account must be linked before user population can be synced.', if the account attempting to be synced is not linked. 
+
+* Throws 
+
+> SoftLayer_Exception_Public, 'There was an error syncing users in this account.', if an error is encountered during the execution of the user sync 
+
+
 

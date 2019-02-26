@@ -19,6 +19,8 @@ Retrieve the RIR handle that this registration object belongs to. This field may
 ## Overview 
 Retrieve the RIR handle that this registration object belongs to. This field may not be populated until the registration is complete.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the RIR handle that this registration object belongs to. This field may
 * SoftLayer_Network_Subnet_RegistrationInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_RegistrationObjectMask
 * SoftLayer_Network_Subnet_RegistrationObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Rwhois_Handle'>SoftLayer_Account_Rwhois_Handle </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Rwhois_Handle'>SoftLayer_Account_Rwhois_Handle </a>
+
+
+
 

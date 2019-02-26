@@ -19,6 +19,8 @@ Retrieve ticket that is attached to this mass data migration request.
 ## Overview 
 Retrieve ticket that is attached to this mass data migration request.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve ticket that is attached to this mass data migration request.
 * SoftLayer_Network_Storage_MassDataMigration_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_MassDataMigration_RequestObjectMask
 * SoftLayer_Network_Storage_MassDataMigration_RequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>
+
+
+
 

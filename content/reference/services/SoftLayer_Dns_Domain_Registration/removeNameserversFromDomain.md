@@ -19,6 +19,8 @@ Removes nameservers from a domain.
 ## Overview 
 The removeNameserversFromDomain method removes nameservers from a domain for a domain that already has nameservers assigned to it. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ The removeNameserversFromDomain method removes nameservers from a domain for a d
 * authenticate
 * SoftLayer_Dns_Domain_RegistrationInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

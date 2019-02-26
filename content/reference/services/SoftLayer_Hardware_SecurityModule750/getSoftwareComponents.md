@@ -19,6 +19,8 @@ Retrieve information regarding a piece of hardware's installed software.
 ## Overview 
 Retrieve information regarding a piece of hardware's installed software.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve information regarding a piece of hardware's installed software.
 * SoftLayer_Hardware_SecurityModule750InitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModule750ObjectMask
 * SoftLayer_Hardware_SecurityModule750ObjectFilter
@@ -35,5 +38,8 @@ Retrieve information regarding a piece of hardware's installed software.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component[] </a>
+* <a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component[] </a>
+
+
+
 

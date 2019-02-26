@@ -19,6 +19,8 @@ Retrieve the port on the virtual server.
 ## Overview 
 Retrieve the port on the virtual server.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the port on the virtual server.
 * SoftLayer_Scale_LoadBalancerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_LoadBalancerObjectMask
 * SoftLayer_Scale_LoadBalancerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-integer
+* integer
+
+
+
 

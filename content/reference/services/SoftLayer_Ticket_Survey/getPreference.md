@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 (DEPRECATED) To opt in or out of future surveys, please follow the link found in the email survey. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ aliases:
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

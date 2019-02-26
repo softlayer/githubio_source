@@ -19,6 +19,8 @@ Retrieve a billing item's active associated child billing items. This includes "
 ## Overview 
 Retrieve a billing item's active associated child billing items. This includes "floating" items that are not necessarily child items of this billing item.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a billing item's active associated child billing items. This includes "
 * SoftLayer_Billing_Item_Virtual_DedicatedHostInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Item_Virtual_DedicatedHostObjectMask
 * SoftLayer_Billing_Item_Virtual_DedicatedHostObjectFilter
@@ -35,5 +38,8 @@ Retrieve a billing item's active associated child billing items. This includes "
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+
+
+
 

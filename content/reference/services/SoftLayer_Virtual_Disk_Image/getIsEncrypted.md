@@ -19,6 +19,8 @@ Retrieve return if image is encrypted
 ## Overview 
 Retrieve return if image is encrypted
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve return if image is encrypted
 * SoftLayer_Virtual_Disk_ImageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Disk_ImageObjectMask
 * SoftLayer_Virtual_Disk_ImageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

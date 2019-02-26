@@ -19,6 +19,8 @@ Retrieve catalyst company types.
 ## Overview 
 Retrieve catalyst company types.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve catalyst company types.
 * SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequestObjectMask
 * SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Catalyst_Company_Type'>SoftLayer_Catalyst_Company_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Catalyst_Company_Type'>SoftLayer_Catalyst_Company_Type </a>
+
+
+
 

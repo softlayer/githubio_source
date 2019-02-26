@@ -19,6 +19,8 @@ Updates default configuration values.
 ## Overview 
 Updates default configuration values. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Updates default configuration values.
 * authenticate
 * SoftLayer_Configuration_TemplateInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

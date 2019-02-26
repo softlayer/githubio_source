@@ -19,6 +19,8 @@ Retrieve the billing item for the reserved capacity group instance.
 ## Overview 
 Retrieve the billing item for the reserved capacity group instance.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the billing item for the reserved capacity group instance.
 * SoftLayer_Virtual_ReservedCapacityGroup_InstanceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_ReservedCapacityGroup_InstanceObjectMask
 * SoftLayer_Virtual_ReservedCapacityGroup_InstanceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+
+
+
 

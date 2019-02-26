@@ -19,6 +19,8 @@ Retrieve the Type of update to this ticket
 ## Overview 
 Retrieve the Type of update to this ticket
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the Type of update to this ticket
 * SoftLayer_Ticket_Update_EmployeeInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Ticket_Update_EmployeeObjectMask
 * SoftLayer_Ticket_Update_EmployeeObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket_Update_Type'>SoftLayer_Ticket_Update_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket_Update_Type'>SoftLayer_Ticket_Update_Type </a>
+
+
+
 

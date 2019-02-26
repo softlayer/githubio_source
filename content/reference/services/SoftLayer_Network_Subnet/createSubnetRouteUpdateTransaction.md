@@ -21,6 +21,8 @@ This function is used to create a new transaction to modify a subnet route. Rout
 
 Usage of this function is restricted and may only be called from authorized accounts. It is not available for general API users without justification and consent from a SoftLayer representative. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,8 +33,10 @@ Usage of this function is restricted and may only be called from authorized acco
 * authenticate
 * SoftLayer_Network_SubnetInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

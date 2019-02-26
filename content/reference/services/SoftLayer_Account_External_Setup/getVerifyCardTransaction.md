@@ -19,6 +19,8 @@ Retrieve the transaction information related to verifying the customer credit ca
 ## Overview 
 Retrieve the transaction information related to verifying the customer credit card.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the transaction information related to verifying the customer credit ca
 * SoftLayer_Account_External_SetupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_External_SetupObjectMask
 * SoftLayer_Account_External_SetupObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_Transaction'>SoftLayer_Billing_Payment_Card_Transaction </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_Transaction'>SoftLayer_Billing_Payment_Card_Transaction </a>
+
+
+
 

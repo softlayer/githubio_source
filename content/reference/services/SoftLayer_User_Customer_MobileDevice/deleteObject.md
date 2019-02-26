@@ -19,6 +19,8 @@ Delete a mobile device association for a user.
 ## Overview 
 Delete a mobile device association for a user. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Delete a mobile device association for a user.
 * authenticate
 * SoftLayer_User_Customer_MobileDeviceInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

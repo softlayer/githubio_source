@@ -19,6 +19,8 @@ Approve a request from technical support to bypass the firewall.
 ## Overview 
 Approve a request from technical support to bypass the firewall. Once approved, support will be able to route and unroute the VLAN on the firewall. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,21 @@ Approve a request from technical support to bypass the firewall. Once approved, 
 * authenticate
 * SoftLayer_Network_Vlan_FirewallInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_InvalidStatus 
+
+> Throw the exception "Bypass request is already approved" 
+
+* SoftLayer_Exception_InvalidStatus 
+
+> Throw the exception "There is no bypass request pending approval" 
+
+
 

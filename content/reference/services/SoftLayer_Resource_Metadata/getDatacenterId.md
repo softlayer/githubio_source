@@ -19,6 +19,8 @@ The id for the datacenter which the resource is in
 ## Overview 
 The getDatacenterId retrieves the ID for the datacenter in which the resource is located.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -26,8 +28,10 @@ The getDatacenterId retrieves the ID for the datacenter in which the resource is
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

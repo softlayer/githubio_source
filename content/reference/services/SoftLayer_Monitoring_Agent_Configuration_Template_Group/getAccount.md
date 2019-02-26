@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Monitoring_Agent_Configuration_Template_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Monitoring_Agent_Configuration_Template_GroupObjectMask
 * SoftLayer_Monitoring_Agent_Configuration_Template_GroupObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

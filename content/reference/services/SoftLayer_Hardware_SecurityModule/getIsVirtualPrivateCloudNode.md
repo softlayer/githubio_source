@@ -19,6 +19,8 @@ Retrieve determine if hardware object is a Virtual Private Cloud node.
 ## Overview 
 Retrieve determine if hardware object is a Virtual Private Cloud node.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve determine if hardware object is a Virtual Private Cloud node.
 * SoftLayer_Hardware_SecurityModuleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModuleObjectMask
 * SoftLayer_Hardware_SecurityModuleObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

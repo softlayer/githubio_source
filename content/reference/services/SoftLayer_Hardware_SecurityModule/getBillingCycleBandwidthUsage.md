@@ -19,6 +19,8 @@ Retrieve the raw bandwidth usage data for the current billing cycle. One object 
 ## Overview 
 Retrieve the raw bandwidth usage data for the current billing cycle. One object will be returned for each network this server is attached to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the raw bandwidth usage data for the current billing cycle. One object 
 * SoftLayer_Hardware_SecurityModuleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModuleObjectMask
 * SoftLayer_Hardware_SecurityModuleObjectFilter
@@ -35,5 +38,8 @@ Retrieve the raw bandwidth usage data for the current billing cycle. One object 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the current billable public outbound bandwidth for this hardware for th
 ## Overview 
 Retrieve the current billable public outbound bandwidth for this hardware for the current billing cycle.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the current billable public outbound bandwidth for this hardware for th
 * SoftLayer_HardwareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_HardwareObjectMask
 * SoftLayer_HardwareObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

@@ -19,6 +19,8 @@ Gets information removal requests to review.
 ## Overview 
 Gets information removal requests to review.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Gets information removal requests to review.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_PersonalData_RemoveRequestReviewObjectMask
 * SoftLayer_ObjectMask
@@ -35,5 +38,8 @@ Gets information removal requests to review.
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Account_PersonalInformation'>SoftLayer_Container_Account_PersonalInformation[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Account_PersonalInformation'>SoftLayer_Container_Account_PersonalInformation[] </a>
+
+
+
 

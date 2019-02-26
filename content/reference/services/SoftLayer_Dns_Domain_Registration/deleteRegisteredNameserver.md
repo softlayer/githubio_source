@@ -19,6 +19,8 @@ Deletes a registered nameserver.
 ## Overview 
 The deleteRegisteredNameserver method deletes a nameserver that was registered, provided it is not currently serving a domain 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ The deleteRegisteredNameserver method deletes a nameserver that was registered, 
 * authenticate
 * SoftLayer_Dns_Domain_RegistrationInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Enable a network component to allow network traffic
 ## Overview 
 Allow incoming and outgoing bandwidth traffic to a network component 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Allow incoming and outgoing bandwidth traffic to a network component
 * authenticate
 * SoftLayer_Virtual_Guest_Network_ComponentInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

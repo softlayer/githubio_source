@@ -19,6 +19,8 @@ Reclaim a dedicated host to cancel it's use.
 ## Overview 
 This method will cancel a dedicated host immediately. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method will cancel a dedicated host immediately.
 * authenticate
 * SoftLayer_Virtual_DedicatedHostInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Returns URL uptime data for your account
 ## Overview 
 Returns URL uptime data for your account 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Returns URL uptime data for your account
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Graph'>SoftLayer_Container_Graph </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Graph'>SoftLayer_Container_Graph </a>
+
+
+
 

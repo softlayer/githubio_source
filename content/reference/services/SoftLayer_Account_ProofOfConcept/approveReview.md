@@ -19,6 +19,8 @@ Allows a reviewer to approve a request
 ## Overview 
 Allows a verified reviewer to approve a request 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Allows a verified reviewer to approve a request
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

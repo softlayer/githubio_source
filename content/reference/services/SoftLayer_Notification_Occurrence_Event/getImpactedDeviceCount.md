@@ -19,6 +19,8 @@ Get the number of impacted devices.
 ## Overview 
 This method will return the number of impacted devices associated with this event for the current user. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method will return the number of impacted devices associated with this even
 * authenticate
 * SoftLayer_Notification_Occurrence_EventInitParameters
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

@@ -19,6 +19,8 @@ Create a scale group.
 ## Overview 
 Create a scale group. If minimumMemberCount is greater than zero or desiredMemberCount is present, guest members will be created right away. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Create a scale group. If minimumMemberCount is greater than zero or desiredMembe
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_GroupObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>
+
+
+
 

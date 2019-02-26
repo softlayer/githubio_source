@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_Gateway_VersionUpgrade record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_Gateway_VersionUpgrade record.
 * SoftLayer_Network_Gateway_VersionUpgradeInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Gateway_VersionUpgradeObjectMask
 * SoftLayer_Network_Gateway_VersionUpgradeObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Gateway_VersionUpgrade'>SoftLayer_Network_Gateway_VersionUpgrade </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Gateway_VersionUpgrade'>SoftLayer_Network_Gateway_VersionUpgrade </a>
+
+
+
 

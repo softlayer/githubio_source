@@ -19,6 +19,8 @@ Retrieve a quote's corresponding account.
 ## Overview 
 Retrieve a quote's corresponding account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a quote's corresponding account.
 * SoftLayer_Billing_Order_QuoteInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Order_QuoteObjectMask
 * SoftLayer_Billing_Order_QuoteObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

@@ -19,6 +19,8 @@ Get the tag object based on what the user inputs.
 ## Overview 
 Returns the Tag object with a given name. The user types in the tag name and this method returns the tag with that name. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Returns the Tag object with a given name. The user types in the tag name and thi
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TagObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Tag'>SoftLayer_Tag[] </a>
+* <a href='/reference/datatypes/SoftLayer_Tag'>SoftLayer_Tag[] </a>
+
+
+
 

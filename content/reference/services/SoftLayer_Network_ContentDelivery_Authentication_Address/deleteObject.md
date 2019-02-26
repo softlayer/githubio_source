@@ -19,6 +19,8 @@ Deletes an authentication IP address.
 ## Overview 
 This method deletes an authentication IP address. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method deletes an authentication IP address.
 * authenticate
 * SoftLayer_Network_ContentDelivery_Authentication_AddressInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve flag to indecate whether or not the reserved instance is available or n
 ## Overview 
 Retrieve flag to indecate whether or not the reserved instance is available or not.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve flag to indecate whether or not the reserved instance is available or n
 * SoftLayer_Virtual_ReservedCapacityGroup_InstanceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_ReservedCapacityGroup_InstanceObjectMask
 * SoftLayer_Virtual_ReservedCapacityGroup_InstanceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the related registration events.
 ## Overview 
 Retrieve the related registration events.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the related registration events.
 * SoftLayer_Network_Subnet_RegistrationInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_RegistrationObjectMask
 * SoftLayer_Network_Subnet_RegistrationObjectFilter
@@ -35,5 +38,8 @@ Retrieve the related registration events.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Event'>SoftLayer_Network_Subnet_Registration_Event[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Event'>SoftLayer_Network_Subnet_Registration_Event[] </a>
+
+
+
 

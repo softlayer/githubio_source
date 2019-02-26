@@ -19,6 +19,8 @@ Retrieve the network component of the guest virtual server that this network com
 ## Overview 
 Retrieve the network component of the guest virtual server that this network component firewall belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the network component of the guest virtual server that this network com
 * SoftLayer_Network_Component_FirewallInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Component_FirewallObjectMask
 * SoftLayer_Network_Component_FirewallObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a>
+
+
+
 

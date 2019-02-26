@@ -19,6 +19,8 @@ Disable a network component to restrict network traffic
 ## Overview 
 Completely restrict all incoming and outgoing bandwidth traffic to a network component 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Completely restrict all incoming and outgoing bandwidth traffic to a network com
 * authenticate
 * SoftLayer_Virtual_Guest_Network_ComponentInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

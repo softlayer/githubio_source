@@ -19,6 +19,8 @@ Retrieves a list of requests pending IOT review in the specified regions
 ## Overview 
 Retrieves a list of requests that are pending review in the specified regions 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,9 +30,13 @@ Retrieves a list of requests that are pending review in the specified regions
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Review_Summary'>SoftLayer_Container_Account_ProofOfConcept_Review_Summary[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Review_Summary'>SoftLayer_Container_Account_ProofOfConcept_Review_Summary[] </a>
+
+
+
 

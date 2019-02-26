@@ -19,6 +19,8 @@ Remove an association from an orphan billing item.
 ## Overview 
 Remove the association from a billing item. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,13 +30,22 @@ Remove the association from a billing item.
 * authenticate
 * SoftLayer_Billing_ItemInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Billing_Item::setAssociationId](/reference/services/SoftLayer_Billing_Item/setAssociationId )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "This billing item is not an orphan billing item." if the given billing item has a parent billing item. 
+
+
 

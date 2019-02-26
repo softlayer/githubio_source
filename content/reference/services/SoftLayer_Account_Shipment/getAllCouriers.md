@@ -19,6 +19,8 @@ Retrieve a list of available shipping couriers.
 ## Overview 
 Retrieve a list of available shipping couriers.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Retrieve a list of available shipping couriers.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_ShipmentObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Auxiliary_Shipping_Courier'>SoftLayer_Auxiliary_Shipping_Courier[] </a>
+* <a href='/reference/datatypes/SoftLayer_Auxiliary_Shipping_Courier'>SoftLayer_Auxiliary_Shipping_Courier[] </a>
+
+
+
 

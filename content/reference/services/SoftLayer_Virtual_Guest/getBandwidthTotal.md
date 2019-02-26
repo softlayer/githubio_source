@@ -19,6 +19,8 @@ Retrieve total amount of network traffic that was in use during the time specifi
 ## Overview 
 Returns the total amount of bandwidth used during the time specified for a computing instance. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,8 +34,10 @@ Returns the total amount of bandwidth used during the time specified for a compu
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-unsigned long
+* unsigned long
+
+
+
 

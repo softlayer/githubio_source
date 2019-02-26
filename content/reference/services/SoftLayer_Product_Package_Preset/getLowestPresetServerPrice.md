@@ -19,6 +19,8 @@ Retrieve the lowest server prices related to this package preset.
 ## Overview 
 Retrieve the lowest server prices related to this package preset.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the lowest server prices related to this package preset.
 * SoftLayer_Product_Package_PresetInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Package_PresetObjectMask
 * SoftLayer_Product_Package_PresetObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>
+
+
+
 

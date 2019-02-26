@@ -21,6 +21,8 @@ editObject edits an existing domain resource record. The ''host'' property of th
 
 ''editObject'' returns Boolean ''true'' on a successful edit or ''false'' if it was unable to edit the resource record. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,13 +33,15 @@ editObject edits an existing domain resource record. The ''host'' property of th
 * authenticate
 * SoftLayer_Dns_Domain_ResourceRecordInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Dns_ResourceRecord::editObjects](/reference/services/SoftLayer_Dns_ResourceRecord/editObjects )
+
+
+
 

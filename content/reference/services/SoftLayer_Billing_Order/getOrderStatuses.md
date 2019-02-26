@@ -19,6 +19,8 @@ Get a list of SoftLayer_Container_Billing_Order_Status objects.
 ## Overview 
 Get a list of [[SoftLayer_Container_Billing_Order_Status]] objects. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ Get a list of [[SoftLayer_Container_Billing_Order_Status]] objects.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Billing_Order_Status'>SoftLayer_Container_Billing_Order_Status[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Billing_Order_Status'>SoftLayer_Container_Billing_Order_Status[] </a>
+
+
+
 

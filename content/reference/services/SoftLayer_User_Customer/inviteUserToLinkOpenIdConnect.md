@@ -19,6 +19,8 @@ Send email invitation to a user to join a SoftLayer account and authenticate wit
 ## Overview 
 Send email invitation to a user to join a SoftLayer account and authenticate with OpenIdConnect. Throws an exception on error. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Send email invitation to a user to join a SoftLayer account and authenticate wit
 * authenticate
 * SoftLayer_User_CustomerInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

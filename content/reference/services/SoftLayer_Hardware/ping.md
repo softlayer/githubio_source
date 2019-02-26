@@ -19,6 +19,8 @@ Issues ping command.
 ## Overview 
 Issues a ping command to the server and returns the ping response. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,17 @@ Issues a ping command to the server and returns the ping response.
 * authenticate
 * SoftLayer_HardwareInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> "Method has not been implemented for this object type." 
+
+
 

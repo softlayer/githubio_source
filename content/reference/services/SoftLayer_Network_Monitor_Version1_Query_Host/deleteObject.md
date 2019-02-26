@@ -19,6 +19,8 @@ Delete a Query_Host object by passing in a version of it
 ## Overview 
 Like any other API object, the monitoring objects can be deleted by passing an instance of them into this function.  The ID on the object must be set. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Like any other API object, the monitoring objects can be deleted by passing an i
 * authenticate
 * SoftLayer_Network_Monitor_Version1_Query_HostInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

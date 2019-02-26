@@ -19,6 +19,8 @@ Change the password for a Storage/Virtual Server Storage account
 ## Overview 
 The method will change the password for the given Storage/Virtual Server Storage account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ The method will change the password for the given Storage/Virtual Server Storage
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

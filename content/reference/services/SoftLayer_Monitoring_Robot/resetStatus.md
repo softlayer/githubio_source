@@ -21,6 +21,8 @@ If our monitoring management system is not able to connect to your monitoring ro
 
 Use this method to resets monitoring robot status to "Active" to indicate the connection issue is resolved. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ Use this method to resets monitoring robot status to "Active" to indicate the co
 * authenticate
 * SoftLayer_Monitoring_RobotInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

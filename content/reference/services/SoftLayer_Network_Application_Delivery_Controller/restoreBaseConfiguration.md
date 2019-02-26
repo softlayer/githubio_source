@@ -19,6 +19,8 @@ Restore an application delivery controller's base configuration state.
 ## Overview 
 Restore an application delivery controller's base configuration state. The configuration will be set to what it was when initially provisioned. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,14 +30,16 @@ Restore an application delivery controller's base configuration state. The confi
 * authenticate
 * SoftLayer_Network_Application_Delivery_ControllerInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_Application_Delivery_Controller::saveCurrentConfiguration](/reference/services/SoftLayer_Network_Application_Delivery_Controller/saveCurrentConfiguration )
 *  [SoftLayer_Network_Application_Delivery_Controller::restoreConfiguration](/reference/services/SoftLayer_Network_Application_Delivery_Controller/restoreConfiguration )
+
+
+
 

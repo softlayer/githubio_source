@@ -35,6 +35,8 @@ A template containing the following properties will create a subnet registration
 
 ``networkIdentifier`` is the base address of the public, SoftLayer owned subnet which is being registered. ``cidr`` must be an integer representing the CIDR of the subnet to be registered. The ``networkIdentifier``/``cidr`` must represent an assigned subnet. ``detailReferences`` tie the registration to SoftLayer_Account_Regional_Registry_Detail objects. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -44,16 +46,39 @@ A template containing the following properties will create a subnet registration
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_RegistrationObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration'>SoftLayer_Network_Subnet_Registration </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration'>SoftLayer_Network_Subnet_Registration </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_Subnet_Registration::createObjects](/reference/services/SoftLayer_Network_Subnet_Registration/createObjects )
 *  [SoftLayer_Account_Regional_Registry_Detail::createObject](/reference/services/SoftLayer_Account_Regional_Registry_Detail/createObject )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_AlreadyExists 
+
+> <<< EOT 
+
+* SoftLayer_Exception_NotSupported 
+
+> <<< EOT 
+
+* SoftLayer_Exception_InvalidValue 
+
+> <<< EOT 
+
+* SoftLayer_Exception_NotFound 
+
+> <<< EOT 
+
+
 

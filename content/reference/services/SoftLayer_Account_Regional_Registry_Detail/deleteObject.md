@@ -19,6 +19,8 @@ Delete an existing detail object
 ## Overview 
 This method will delete an existing SoftLayer_Account_Regional_Registry_Detail object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method will delete an existing SoftLayer_Account_Regional_Registry_Detail o
 * authenticate
 * SoftLayer_Account_Regional_Registry_DetailInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

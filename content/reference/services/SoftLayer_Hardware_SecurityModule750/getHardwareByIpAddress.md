@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Hardware_Server object by IP address.
 ## Overview 
 Retrieve a server by searching for the primary IP address. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Retrieve a server by searching for the primary IP address.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModule750ObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware_SecurityModule750'>SoftLayer_Hardware_SecurityModule750 </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware_SecurityModule750'>SoftLayer_Hardware_SecurityModule750 </a>
+
+
+
 

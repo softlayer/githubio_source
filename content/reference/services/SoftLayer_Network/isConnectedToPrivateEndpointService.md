@@ -37,6 +37,8 @@ Accessing select IBM Cloud services attached to the private back-end network is 
 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -45,14 +47,23 @@ Accessing select IBM Cloud services attached to the private back-end network is 
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network::connectPrivateEndpointService](/reference/services/SoftLayer_Network/connectPrivateEndpointService )
 *  [SoftLayer_Network::disconnectPrivateEndpointService](/reference/services/SoftLayer_Network/disconnectPrivateEndpointService )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_NotReady 
+
+> <<< EOT 
+
+
 

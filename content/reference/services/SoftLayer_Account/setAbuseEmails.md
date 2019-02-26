@@ -19,6 +19,8 @@ Set this account's abuse emails.
 ## Overview 
 Set this account's abuse emails. Takes an array of email addresses as strings. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Set this account's abuse emails. Takes an array of email addresses as strings.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

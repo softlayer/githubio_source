@@ -19,6 +19,8 @@ Retrieve the saml attribute values for a SoftLayer customer account.
 ## Overview 
 Retrieve the saml attribute values for a SoftLayer customer account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the saml attribute values for a SoftLayer customer account.
 * SoftLayer_Account_Authentication_SamlInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Authentication_SamlObjectMask
 * SoftLayer_Account_Authentication_SamlObjectFilter
@@ -35,5 +38,8 @@ Retrieve the saml attribute values for a SoftLayer customer account.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute'>SoftLayer_Account_Authentication_Attribute[] </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute'>SoftLayer_Account_Authentication_Attribute[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve boolean flag indicating whether or not this account is a Proof of Conce
 ## Overview 
 Retrieve boolean flag indicating whether or not this account is a Proof of Concept account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve boolean flag indicating whether or not this account is a Proof of Conce
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

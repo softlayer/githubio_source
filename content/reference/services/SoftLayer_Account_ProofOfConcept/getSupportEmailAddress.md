@@ -19,6 +19,8 @@ Gets email address users can use to ask for help/support
 ## Overview 
 Gets email address users can use to ask for help/support 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ Gets email address users can use to ask for help/support
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

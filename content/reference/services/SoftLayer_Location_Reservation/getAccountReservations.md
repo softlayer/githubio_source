@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ aliases:
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_ReservationObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location_Reservation'>SoftLayer_Location_Reservation[] </a>
+* <a href='/reference/datatypes/SoftLayer_Location_Reservation'>SoftLayer_Location_Reservation[] </a>
+
+
+
 

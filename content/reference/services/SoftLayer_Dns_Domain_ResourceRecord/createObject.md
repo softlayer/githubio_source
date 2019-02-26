@@ -21,6 +21,8 @@ createObject creates a new domain resource record. The ''host'' property of the 
 
 ''createObject'' returns Boolean ''true'' on successful create or ''false'' if it was unable to create a resource record. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,15 +32,19 @@ createObject creates a new domain resource record. The ''host'' property of the 
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Dns_Domain_ResourceRecordObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord'>SoftLayer_Dns_Domain_ResourceRecord </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord'>SoftLayer_Dns_Domain_ResourceRecord </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Dns_Domain_ResourceRecord::createObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObjects )
+
+
+
 

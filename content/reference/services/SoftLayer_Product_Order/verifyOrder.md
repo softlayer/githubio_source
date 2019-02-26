@@ -25,6 +25,8 @@ This service returns the same container that was provided, but with additional i
 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -34,15 +36,17 @@ This service returns the same container that was provided, but with additional i
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Product_Order::placeOrder](/reference/services/SoftLayer_Product_Order/placeOrder )
 *  [SoftLayer_Product_Order::placeQuote](/reference/services/SoftLayer_Product_Order/placeQuote )
 *  [SoftLayer_Product_Order::getVlans](/reference/services/SoftLayer_Product_Order/getVlans )
+
+
+
 

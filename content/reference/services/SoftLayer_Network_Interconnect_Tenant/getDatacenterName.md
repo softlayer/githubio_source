@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Network_Interconnect_TenantInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Interconnect_TenantObjectMask
 * SoftLayer_Network_Interconnect_TenantObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

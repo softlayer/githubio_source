@@ -19,6 +19,8 @@ Retrieve a representation of the SoftLayer employee who created a ticket update.
 ## Overview 
 Retrieve a representation of the SoftLayer employee who created a ticket update.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a representation of the SoftLayer employee who created a ticket update.
 * SoftLayer_Ticket_Update_EmployeeInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Ticket_Update_EmployeeObjectMask
 * SoftLayer_Ticket_Update_EmployeeObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>
+* <a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>
+
+
+
 

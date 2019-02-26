@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Returns credential limits for this IBM Cloud Object Storage account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Returns credential limits for this IBM Cloud Object Storage account.
 * authenticate
 * SoftLayer_Network_Storage_Hub_Cleversafe_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a flag indicating that this Application Delivery Controller is a manage
 ## Overview 
 Retrieve a flag indicating that this Application Delivery Controller is a managed resource.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a flag indicating that this Application Delivery Controller is a manage
 * SoftLayer_Network_Application_Delivery_ControllerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Application_Delivery_ControllerObjectMask
 * SoftLayer_Network_Application_Delivery_ControllerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

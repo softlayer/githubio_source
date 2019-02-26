@@ -19,6 +19,8 @@ Retrieve the current power state of a virtual guest.
 ## Overview 
 Retrieve the current power state of a virtual guest.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the current power state of a virtual guest.
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Power_State'>SoftLayer_Virtual_Guest_Power_State </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Power_State'>SoftLayer_Virtual_Guest_Power_State </a>
+
+
+
 

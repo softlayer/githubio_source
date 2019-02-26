@@ -19,6 +19,8 @@ Retrieve the image template groups that are linked to an SSH key.
 ## Overview 
 Retrieve the image template groups that are linked to an SSH key.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the image template groups that are linked to an SSH key.
 * SoftLayer_Security_Ssh_KeyInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Security_Ssh_KeyObjectMask
 * SoftLayer_Security_Ssh_KeyObjectFilter
@@ -35,5 +38,8 @@ Retrieve the image template groups that are linked to an SSH key.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group[] </a>
+
+
+
 

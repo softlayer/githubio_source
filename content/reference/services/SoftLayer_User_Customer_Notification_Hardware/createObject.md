@@ -19,6 +19,8 @@ Create a user hardware notification entry
 ## Overview 
 Passing in an unsaved instances of a Customer_Notification_Hardware object into this function will create the object and return the results to the user. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Passing in an unsaved instances of a Customer_Notification_Hardware object into 
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_Notification_HardwareObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Hardware'>SoftLayer_User_Customer_Notification_Hardware </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Hardware'>SoftLayer_User_Customer_Notification_Hardware </a>
+
+
+
 

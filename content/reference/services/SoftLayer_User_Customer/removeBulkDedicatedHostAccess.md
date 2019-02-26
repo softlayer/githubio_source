@@ -23,6 +23,8 @@ Users can assign device access to their child users, but not to themselves. An a
 
 If the user has full dedicatedHost access, then it will provide access to "ALL but passed in" dedicatedHost ids. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -33,15 +35,40 @@ If the user has full dedicatedHost access, then it will provide access to "ALL b
 * authenticate
 * SoftLayer_User_CustomerInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_User_Customer::addDedicatedHostAccess](/reference/services/SoftLayer_User_Customer/addDedicatedHostAccess )
 *  [SoftLayer_User_Customer::addBulkDedicatedHostAccess](/reference/services/SoftLayer_User_Customer/addBulkDedicatedHostAccess )
 *  [SoftLayer_User_Customer::removeDedicatedHostAccess](/reference/services/SoftLayer_User_Customer/removeDedicatedHostAccess )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throw the exception "You may not grant or deny Master User device access." when trying to remove dedicated host access to a master user. 
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throw the exception "You may not grant or deny yourself device access." when trying to remove dedicated host access to the user making the call to the SoftLayer API. 
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throw the exception "You may not grant or deny device access to other users." when trying to remove dedicated host access the user making the API call is not their account's master user or does not have the "USER_MANAGE" portal permission. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Please specify a valid dedicated host id." if the given dedicated host id is not a valid dedicated host id. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Unable to remove user dedicated host access." if the API was unable to remove dedicated host access from the given portal user. 
+
+
 

@@ -19,6 +19,8 @@ Retrieve a billing item's associated parent billing item. This object will be th
 ## Overview 
 Retrieve a billing item's associated parent billing item. This object will be the same as the parent billing item if parentId is set.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a billing item's associated parent billing item. This object will be th
 * SoftLayer_Billing_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_ItemObjectMask
 * SoftLayer_Billing_ItemObjectFilter
@@ -35,5 +38,8 @@ Retrieve a billing item's associated parent billing item. This object will be th
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+
+
+
 

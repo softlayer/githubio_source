@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Create credentials for an IBM Cloud Object Storage Account 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Create credentials for an IBM Cloud Object Storage Account
 * authenticate
 * SoftLayer_Network_Storage_Hub_Cleversafe_AccountInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Hub_Cleversafe_AccountObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Credential'>SoftLayer_Network_Storage_Credential[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Credential'>SoftLayer_Network_Storage_Credential[] </a>
+
+
+
 

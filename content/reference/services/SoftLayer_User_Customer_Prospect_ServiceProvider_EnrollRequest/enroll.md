@@ -19,6 +19,8 @@ Creates a new Service Provider Enrollment
 ## Overview 
 Create a new Service Provider Enrollment 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Create a new Service Provider Enrollment
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequestObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest'>SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest'>SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest </a>
+
+
+
 

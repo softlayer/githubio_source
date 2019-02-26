@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Virtual_PlacementGroup_Rule record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Virtual_PlacementGroup_Rule record.
 * SoftLayer_Virtual_PlacementGroup_RuleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_PlacementGroup_RuleObjectMask
 * SoftLayer_Virtual_PlacementGroup_RuleObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_PlacementGroup_Rule'>SoftLayer_Virtual_PlacementGroup_Rule </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_PlacementGroup_Rule'>SoftLayer_Virtual_PlacementGroup_Rule </a>
+
+
+
 

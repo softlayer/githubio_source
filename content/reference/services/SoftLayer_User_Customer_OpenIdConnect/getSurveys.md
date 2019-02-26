@@ -19,6 +19,8 @@ Retrieve the surveys that a user has taken in the SoftLayer customer portal.
 ## Overview 
 Retrieve the surveys that a user has taken in the SoftLayer customer portal.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the surveys that a user has taken in the SoftLayer customer portal.
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_OpenIdConnectObjectMask
 * SoftLayer_User_Customer_OpenIdConnectObjectFilter
@@ -35,5 +38,8 @@ Retrieve the surveys that a user has taken in the SoftLayer customer portal.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Survey'>SoftLayer_Survey[] </a>
+* <a href='/reference/datatypes/SoftLayer_Survey'>SoftLayer_Survey[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieves the boot mode of the VSI.
 ## Overview 
 Retrieves the boot mode of the VSI. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Retrieves the boot mode of the VSI.
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

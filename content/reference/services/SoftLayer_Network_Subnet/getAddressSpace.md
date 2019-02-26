@@ -19,6 +19,8 @@ Retrieve identifier which distinguishes whether the subnet is public or private 
 ## Overview 
 Retrieve identifier which distinguishes whether the subnet is public or private address space.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve identifier which distinguishes whether the subnet is public or private 
 * SoftLayer_Network_SubnetInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_SubnetObjectMask
 * SoftLayer_Network_SubnetObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

@@ -21,6 +21,8 @@ Whether you are using Origin Pull or POP Pull, your content will be transferred 
 
 You can only specify 5 URLs at a time. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,8 +33,10 @@ You can only specify 5 URLs at a time.
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

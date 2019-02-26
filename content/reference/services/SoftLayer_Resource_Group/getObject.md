@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Resource_Group record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Resource_Group record.
 * SoftLayer_Resource_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Resource_GroupObjectMask
 * SoftLayer_Resource_GroupObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group </a>
+* <a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group </a>
+
+
+
 

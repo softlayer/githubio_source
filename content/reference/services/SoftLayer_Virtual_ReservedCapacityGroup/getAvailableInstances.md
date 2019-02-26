@@ -19,6 +19,8 @@ Retrieve the instances available for guest provisions on this reserved capacity 
 ## Overview 
 Retrieve the instances available for guest provisions on this reserved capacity group.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the instances available for guest provisions on this reserved capacity 
 * SoftLayer_Virtual_ReservedCapacityGroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_ReservedCapacityGroupObjectMask
 * SoftLayer_Virtual_ReservedCapacityGroupObjectFilter
@@ -35,5 +38,8 @@ Retrieve the instances available for guest provisions on this reserved capacity 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance[] </a>
+
+
+
 

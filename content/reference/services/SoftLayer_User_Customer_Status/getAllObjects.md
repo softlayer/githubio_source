@@ -19,6 +19,8 @@ Retrieve all user status objects.
 ## Overview 
 Retrieve all user status objects.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Retrieve all user status objects.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_StatusObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_Status'>SoftLayer_User_Customer_Status[] </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_Status'>SoftLayer_User_Customer_Status[] </a>
+
+
+
 

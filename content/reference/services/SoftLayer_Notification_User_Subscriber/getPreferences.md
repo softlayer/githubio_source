@@ -19,6 +19,8 @@ Retrieve associated subscriber preferences used for the notification subscriptio
 ## Overview 
 Retrieve associated subscriber preferences used for the notification subscription. For example, preferences include number of deliveries (limit) and threshold.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve associated subscriber preferences used for the notification subscriptio
 * SoftLayer_Notification_User_SubscriberInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Notification_User_SubscriberObjectMask
 * SoftLayer_Notification_User_SubscriberObjectFilter
@@ -35,5 +38,8 @@ Retrieve associated subscriber preferences used for the notification subscriptio
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber_Preference'>SoftLayer_Notification_User_Subscriber_Preference[] </a>
+* <a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber_Preference'>SoftLayer_Notification_User_Subscriber_Preference[] </a>
+
+
+
 

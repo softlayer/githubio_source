@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Update a certificate. Modifications are restricted to the note and CSR if the are any services associated with the certificate. There are no modification restrictions for a certificate with no associated services. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Update a certificate. Modifications are restricted to the note and CSR if the ar
 * authenticate
 * SoftLayer_Security_CertificateInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Get the number of impacted owned accounts for the current user.
 ## Overview 
 This method will return the number of impacted owned accounts associated with this event for the current user. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method will return the number of impacted owned accounts associated with th
 * authenticate
 * SoftLayer_Notification_Occurrence_EventInitParameters
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

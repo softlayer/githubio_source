@@ -19,6 +19,8 @@ The rate that is charged for archiving every 1 gigabyte of data for a computing 
 ## Overview 
 Returns the archive storage disk usage fee rate per gigabyte. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Returns the archive storage disk usage fee rate per gigabyte.
 * authenticate
 * SoftLayer_Virtual_Storage_RepositoryInitParameters
 
-### Optional Headers
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

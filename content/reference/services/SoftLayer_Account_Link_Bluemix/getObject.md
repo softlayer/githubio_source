@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Account_Link_Bluemix record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Account_Link_Bluemix record.
 * SoftLayer_Account_Link_BluemixInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Link_BluemixObjectMask
 * SoftLayer_Account_Link_BluemixObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Link_Bluemix'>SoftLayer_Account_Link_Bluemix </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Link_Bluemix'>SoftLayer_Account_Link_Bluemix </a>
+
+
+
 

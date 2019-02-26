@@ -19,6 +19,8 @@ Retrieve the required preferences related to the notification. While configurabl
 ## Overview 
 Retrieve the required preferences related to the notification. While configurable, the subscriber does not have the option whether to use the preference.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the required preferences related to the notification. While configurabl
 * SoftLayer_Notification_MobileInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Notification_MobileObjectMask
 * SoftLayer_Notification_MobileObjectFilter
@@ -35,5 +38,8 @@ Retrieve the required preferences related to the notification. While configurabl
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference[] </a>
+* <a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference[] </a>
+
+
+
 

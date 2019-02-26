@@ -19,6 +19,8 @@ The primary backend IP address for the resource
 ## Overview 
 The getPrimaryBackendIpAddress method retrieves the primary backend IP address for the resource
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -26,8 +28,10 @@ The getPrimaryBackendIpAddress method retrieves the primary backend IP address f
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

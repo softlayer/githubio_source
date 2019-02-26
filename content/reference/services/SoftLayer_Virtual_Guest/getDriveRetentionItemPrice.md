@@ -19,6 +19,8 @@ Return a drive retention SoftLayer_Item_Price object for a guest.
 ## Overview 
 Return a drive retention SoftLayer_Item_Price object for a guest.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,21 @@ Return a drive retention SoftLayer_Item_Price object for a guest.
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception 'Unable to locate billing item.' when the billing item cannot be determined. 
+
+
 

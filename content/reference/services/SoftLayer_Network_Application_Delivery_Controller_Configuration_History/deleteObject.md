@@ -19,6 +19,8 @@ Remove a configuration history record.
 ## Overview 
 deleteObject permanently removes a configuration history record 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ deleteObject permanently removes a configuration history record
 * authenticate
 * SoftLayer_Network_Application_Delivery_Controller_Configuration_HistoryInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

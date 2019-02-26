@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking r
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking r
 * SoftLayer_Network_CdnMarketplace_Configuration_Behavior_GeoblockingInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_CdnMarketplace_Configuration_Behavior_GeoblockingObjectMask
 * SoftLayer_Network_CdnMarketplace_Configuration_Behavior_GeoblockingObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking'>SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking </a>
+* <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking'>SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking </a>
+
+
+
 

@@ -19,6 +19,8 @@ Attach a VLAN to a gateway
 ## Overview 
 Create a new VLAN attachment. If the bypassFlag is false, this will also create an asynchronous process to route the VLAN through the gateway. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Create a new VLAN attachment. If the bypassFlag is false, this will also create 
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Gateway_VlanObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Gateway_Vlan'>SoftLayer_Network_Gateway_Vlan </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Gateway_Vlan'>SoftLayer_Network_Gateway_Vlan </a>
+
+
+
 

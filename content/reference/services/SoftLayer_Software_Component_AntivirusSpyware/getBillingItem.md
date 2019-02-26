@@ -19,6 +19,8 @@ Retrieve the billing item for a software component.
 ## Overview 
 Retrieve the billing item for a software component.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the billing item for a software component.
 * SoftLayer_Software_Component_AntivirusSpywareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_Component_AntivirusSpywareObjectMask
 * SoftLayer_Software_Component_AntivirusSpywareObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+
+
+
 

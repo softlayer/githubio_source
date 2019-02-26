@@ -19,6 +19,8 @@ Retrieve a flag that determines if a SendGrid e-mail delivery account has access
 ## Overview 
 Retrieve a flag that determines if a SendGrid e-mail delivery account has access to send mail through the SendGrid SMTP server.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a flag that determines if a SendGrid e-mail delivery account has access
 * SoftLayer_Network_Message_Delivery_Email_SendgridInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Message_Delivery_Email_SendgridObjectMask
 * SoftLayer_Network_Message_Delivery_Email_SendgridObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

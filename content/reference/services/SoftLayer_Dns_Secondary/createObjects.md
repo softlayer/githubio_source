@@ -19,6 +19,8 @@ Create multiple secondary DNS records.
 ## Overview 
 Create multiple secondary DNS records. Each record passed to ''createObjects'' follows the logic in the SoftLayer_Dns_Secondary [[SoftLayer_Dns_Secondary::createObject|createObject]] method. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,15 +30,19 @@ Create multiple secondary DNS records. Each record passed to ''createObjects'' f
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Dns_SecondaryObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Secondary'>SoftLayer_Dns_Secondary[] </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Secondary'>SoftLayer_Dns_Secondary[] </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Dns_Secondary::createObject](/reference/services/SoftLayer_Dns_Secondary/createObject )
+
+
+
 

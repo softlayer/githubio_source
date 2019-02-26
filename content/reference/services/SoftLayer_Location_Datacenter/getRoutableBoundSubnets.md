@@ -19,6 +19,8 @@ Retrieve retrieve all subnets that are eligible to be routed; those which the ac
 ## Overview 
 Retrieve retrieve all subnets that are eligible to be routed; those which the account has permission to associate with a vlan.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve retrieve all subnets that are eligible to be routed; those which the ac
 * SoftLayer_Location_DatacenterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_DatacenterObjectMask
 * SoftLayer_Location_DatacenterObjectFilter
@@ -35,5 +38,8 @@ Retrieve retrieve all subnets that are eligible to be routed; those which the ac
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+
+
+
 

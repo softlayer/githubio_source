@@ -19,6 +19,8 @@ Retrieve the domain that a resource record belongs to.
 ## Overview 
 Retrieve the domain that a resource record belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the domain that a resource record belongs to.
 * SoftLayer_Dns_Domain_ResourceRecord_SrvTypeInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Dns_Domain_ResourceRecord_SrvTypeObjectMask
 * SoftLayer_Dns_Domain_ResourceRecord_SrvTypeObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a>
+
+
+
 

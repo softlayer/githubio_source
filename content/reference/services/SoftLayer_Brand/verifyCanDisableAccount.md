@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Verify that an account may be disabled by a Brand Agent.  Anything that would disqualify the account from being disabled will cause an exception to be raised. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Verify that an account may be disabled by a Brand Agent.  Anything that would di
 * authenticate
 * SoftLayer_BrandInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

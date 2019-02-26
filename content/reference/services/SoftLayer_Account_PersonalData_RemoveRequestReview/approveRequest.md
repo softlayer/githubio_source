@@ -19,6 +19,8 @@ Approve a personal information removal request.
 ## Overview 
 Approve a personal information removal request.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Approve a personal information removal request.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

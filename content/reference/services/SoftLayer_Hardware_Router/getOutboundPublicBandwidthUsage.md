@@ -19,6 +19,8 @@ Retrieve the total public outbound bandwidth for this hardware for the current b
 ## Overview 
 Retrieve the total public outbound bandwidth for this hardware for the current billing cycle.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the total public outbound bandwidth for this hardware for the current b
 * SoftLayer_Hardware_RouterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_RouterObjectMask
 * SoftLayer_Hardware_RouterObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

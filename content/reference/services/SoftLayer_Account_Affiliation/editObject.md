@@ -19,6 +19,8 @@ Update an account affiliation information.
 ## Overview 
 Edit an affiliation that is associated to an existing account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit an affiliation that is associated to an existing account.
 * authenticate
 * SoftLayer_Account_AffiliationInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

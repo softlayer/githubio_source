@@ -19,6 +19,8 @@ Retrieve whether the package prevents the user from specifying a Vlan.
 ## Overview 
 Retrieve whether the package prevents the user from specifying a Vlan.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve whether the package prevents the user from specifying a Vlan.
 * SoftLayer_Product_PackageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_Product_PackageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

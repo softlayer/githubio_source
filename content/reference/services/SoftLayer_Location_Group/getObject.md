@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Location_Group record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Location_Group record.
 * SoftLayer_Location_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_GroupObjectMask
 * SoftLayer_Location_GroupObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group </a>
+* <a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group </a>
+
+
+
 

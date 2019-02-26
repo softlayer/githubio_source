@@ -19,6 +19,8 @@ Retrieve the hardware object that these monitoring permissions applies to.
 ## Overview 
 Retrieve the hardware object that these monitoring permissions applies to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the hardware object that these monitoring permissions applies to.
 * SoftLayer_Network_Monitor_Version1_Query_Host_StratumInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Monitor_Version1_Query_Host_StratumObjectMask
 * SoftLayer_Network_Monitor_Version1_Query_Host_StratumObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+
+
+
 

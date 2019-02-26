@@ -19,6 +19,8 @@ Disable a Virtual IP Address
 ## Overview 
 Disable a Virtual IP Address, removing it from load balancer rotation and denying all connections to that IP address. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,13 +30,15 @@ Disable a Virtual IP Address, removing it from load balancer rotation and denyin
 * authenticate
 * SoftLayer_Network_LoadBalancer_VirtualIpAddressInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_LoadBalancer_VirtualIpAddress::enable](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/enable )
+
+
+
 

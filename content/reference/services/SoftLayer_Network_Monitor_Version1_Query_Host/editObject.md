@@ -19,6 +19,8 @@ Edit the object by passing in a modified instance of the object
 ## Overview 
 Like any other API object, the monitoring objects can have their exposed properties edited by passing in a modified version of the object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Like any other API object, the monitoring objects can have their exposed propert
 * authenticate
 * SoftLayer_Network_Monitor_Version1_Query_HostInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

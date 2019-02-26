@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Monitoring_Robot record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Monitoring_Robot record.
 * SoftLayer_Monitoring_RobotInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Monitoring_RobotObjectMask
 * SoftLayer_Monitoring_RobotObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Monitoring_Robot'>SoftLayer_Monitoring_Robot </a>
+* <a href='/reference/datatypes/SoftLayer_Monitoring_Robot'>SoftLayer_Monitoring_Robot </a>
+
+
+
 

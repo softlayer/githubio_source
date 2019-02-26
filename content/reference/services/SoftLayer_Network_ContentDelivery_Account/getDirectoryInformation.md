@@ -19,6 +19,8 @@ Returns a directory list
 ## Overview 
 This method returns an array of [[SoftLayer_Container_Network_Directory_Listing|Directory Listing]] objects. You must have CDN_FILE_MANAGE privilege and you can only retrieve directory information within <b>/media</b> directory. A [[SoftLayer_Container_Network_Directory_Listing|Directory Listing]] object contains type (indicating whether it is a file or a directory), name and file count if it is a directory. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,21 @@ This method returns an array of [[SoftLayer_Container_Network_Directory_Listing|
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_Directory_Listing'>SoftLayer_Container_Network_Directory_Listing[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_Directory_Listing'>SoftLayer_Container_Network_Directory_Listing[] </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a user does not have CDN_FILE_MANAGE privilege. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a directory is not in /media folder. 
+
+
 

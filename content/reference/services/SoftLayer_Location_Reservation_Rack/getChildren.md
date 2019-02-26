@@ -19,6 +19,8 @@ Retrieve members of the rack.
 ## Overview 
 Retrieve members of the rack.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve members of the rack.
 * SoftLayer_Location_Reservation_RackInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_Reservation_RackObjectMask
 * SoftLayer_Location_Reservation_RackObjectFilter
@@ -35,5 +38,8 @@ Retrieve members of the rack.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location_Reservation_Rack_Member'>SoftLayer_Location_Reservation_Rack_Member[] </a>
+* <a href='/reference/datatypes/SoftLayer_Location_Reservation_Rack_Member'>SoftLayer_Location_Reservation_Rack_Member[] </a>
+
+
+
 

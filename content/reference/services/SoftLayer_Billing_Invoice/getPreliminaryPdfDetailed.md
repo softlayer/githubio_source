@@ -19,6 +19,8 @@ Retrieve a PDF copy of the detailed version of an invoice.
 ## Overview 
 Retrieve a PDF record of the detailed version of a SoftLayer invoice. SoftLayer keeps PDF records of all closed invoices for customer retrieval from the portal and API. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Retrieve a PDF record of the detailed version of a SoftLayer invoice. SoftLayer 
 * authenticate
 * SoftLayer_Billing_InvoiceInitParameters
 
-### Optional Headers
 
 ### Return Values
-binary data
+* binary data
+
+
+
 

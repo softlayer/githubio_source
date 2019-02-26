@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Brand record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Brand record.
 * SoftLayer_BrandInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_BrandObjectMask
 * SoftLayer_BrandObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>
+* <a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>
+
+
+
 

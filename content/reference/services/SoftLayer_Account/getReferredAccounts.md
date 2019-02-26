@@ -19,6 +19,8 @@ Retrieve if this is a account is a referral partner, the accounts this referral 
 ## Overview 
 Retrieve if this is a account is a referral partner, the accounts this referral partner has referred
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve if this is a account is a referral partner, the accounts this referral 
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve if this is a account is a referral partner, the accounts this referral 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account[] </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account[] </a>
+
+
+
 

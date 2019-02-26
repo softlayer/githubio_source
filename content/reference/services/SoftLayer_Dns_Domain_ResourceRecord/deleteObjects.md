@@ -21,6 +21,8 @@ Remove multiple resource records from a domain. This follows the same logic as '
 
 ''deleteObjects'' returns Boolean ''true'' on successful deletion or ''false'' if it was unable to remove a resource record. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,13 +32,30 @@ Remove multiple resource records from a domain. This follows the same logic as '
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Dns_ResourceRecord::deleteObject](/reference/services/SoftLayer_Dns_ResourceRecord/deleteObject )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "SOA records may not be removed." when attempting to remove an SOA resource record. 
+
+* SoftLayer_Exception 
+
+> Throw the exception "NS records for ns1.softlayer.com or ns2.softlayer.com may not be removed." when attempting to remove an NS resource record that points to ns1.softlayer.com or ns2.softlayer.com. 
+
+* SoftLayer_Exception 
+
+> Throw the exception "PTR records may not be removed." when attempting to remove a PTR resource record. 
+
+
 

@@ -19,6 +19,8 @@ Retrieve [DEPRECATED] All accounts may order VLANs.
 ## Overview 
 Retrieve [DEPRECATED] All accounts may order VLANs.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve [DEPRECATED] All accounts may order VLANs.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

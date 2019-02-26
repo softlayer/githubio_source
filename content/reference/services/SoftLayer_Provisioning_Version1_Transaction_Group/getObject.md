@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Provisioning_Version1_Transaction_Group record.
 ## Overview 
 getObject retrieves the SoftLayer_Provisioning_Version1_Transaction_Group object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Provisioning_Version1_Transaction_Group service. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ getObject retrieves the SoftLayer_Provisioning_Version1_Transaction_Group object
 * SoftLayer_Provisioning_Version1_Transaction_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Provisioning_Version1_Transaction_GroupObjectMask
 * SoftLayer_Provisioning_Version1_Transaction_GroupObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_Group'>SoftLayer_Provisioning_Version1_Transaction_Group </a>
+* <a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_Group'>SoftLayer_Provisioning_Version1_Transaction_Group </a>
+
+
+
 

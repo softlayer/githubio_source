@@ -19,6 +19,8 @@ Retrieve the account to which this address belongs.
 ## Overview 
 Retrieve the account to which this address belongs.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the account to which this address belongs.
 * SoftLayer_Account_AddressInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_AddressObjectMask
 * SoftLayer_Account_AddressObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

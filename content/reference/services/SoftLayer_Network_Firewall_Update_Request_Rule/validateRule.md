@@ -21,6 +21,8 @@ Validate the supplied firewall request rule against the object it will apply to.
 
 If validation is successful, nothing is returned. If validation is unsuccessful, an exception is thrown explaining the nature of the validation error. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,8 +34,17 @@ If validation is successful, nothing is returned. If validation is unsuccessful,
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throws an exception for any validation failure 
+
+
 

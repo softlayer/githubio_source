@@ -34,6 +34,8 @@ Possible values for "Label" are:
 
 Not all labels are guaranteed to be returned. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -43,8 +45,17 @@ Not all labels are guaranteed to be returned.
 * authenticate
 * SoftLayer_Network_LoadBalancer_ServiceInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_LoadBalancer_StatusEntry'>SoftLayer_Container_Network_LoadBalancer_StatusEntry[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_LoadBalancer_StatusEntry'>SoftLayer_Container_Network_LoadBalancer_StatusEntry[] </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Bad data received from load balancer, no status could be determined." If no data could be retrieved from the load balancer 
+
+
 

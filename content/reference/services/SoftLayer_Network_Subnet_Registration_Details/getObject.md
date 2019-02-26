@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_Subnet_Registration_Details record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_Subnet_Registration_Details record.
 * SoftLayer_Network_Subnet_Registration_DetailsInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_Registration_DetailsObjectMask
 * SoftLayer_Network_Subnet_Registration_DetailsObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Details'>SoftLayer_Network_Subnet_Registration_Details </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Details'>SoftLayer_Network_Subnet_Registration_Details </a>
+
+
+
 

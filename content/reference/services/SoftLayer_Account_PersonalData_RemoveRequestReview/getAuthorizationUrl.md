@@ -19,6 +19,8 @@ Gets the redirect URL for GDPR removal review.
 ## Overview 
 Gets the redirect URL for GDPR removal review.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ Gets the redirect URL for GDPR removal review.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Returns a collection of boot modes that are supported for primary disks. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ Returns a collection of boot modes that are supported for primary disks.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-array of strings
+* array of strings
+
+
+
 

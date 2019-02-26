@@ -19,6 +19,8 @@ Get the specific trait by its key
 ## Overview 
 This method pulls an account trait by its key. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method pulls an account trait by its key.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

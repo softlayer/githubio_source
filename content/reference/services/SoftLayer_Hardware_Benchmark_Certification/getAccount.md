@@ -19,6 +19,8 @@ Retrieve information regarding a benchmark certification result's associated Sof
 ## Overview 
 Retrieve information regarding a benchmark certification result's associated SoftLayer customer account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve information regarding a benchmark certification result's associated Sof
 * SoftLayer_Hardware_Benchmark_CertificationInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_Benchmark_CertificationObjectMask
 * SoftLayer_Hardware_Benchmark_CertificationObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

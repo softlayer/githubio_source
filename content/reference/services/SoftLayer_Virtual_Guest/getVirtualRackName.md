@@ -19,6 +19,8 @@ Retrieve the name of the bandwidth allotment that a computing instance belongs t
 ## Overview 
 Retrieve the name of the bandwidth allotment that a computing instance belongs too.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the name of the bandwidth allotment that a computing instance belongs t
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

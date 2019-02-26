@@ -19,6 +19,8 @@ Retrieve an account's master EVault user. This is only used when an account has 
 ## Overview 
 Retrieve an account's master EVault user. This is only used when an account has EVault service.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve an account's master EVault user. This is only used when an account has 
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve an account's master EVault user. This is only used when an account has 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Password'>SoftLayer_Account_Password[] </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Password'>SoftLayer_Account_Password[] </a>
+
+
+
 

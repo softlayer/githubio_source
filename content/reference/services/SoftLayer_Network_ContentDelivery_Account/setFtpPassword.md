@@ -23,6 +23,8 @@ CDN supports three protocols: Flash streaming (rtmp), Window Media streaming (mm
 
 This method updates the password for your CDN FTP account on the ftp.cdnlayer.service.softlayer.com server. You must provide an alphanumeric value for a new password.  - _ ! % # $ ^ & * characters are allowed beside an alphanumeric string. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -33,14 +35,35 @@ This method updates the password for your CDN FTP account on the ftp.cdnlayer.se
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_ContentDelivery_Account::createFtpUser](/reference/services/SoftLayer_Network_ContentDelivery_Account/createFtpUser )
 *  [SoftLayer_Network_ContentDelivery_Account::getFtpAttributes](/reference/services/SoftLayer_Network_ContentDelivery_Account/getFtpAttributes )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a user does not have CDN_FILE_MANAGE privilege. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a new password is empty. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a CDN account is disabled. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a new password contains invalid characters. 
+
+
 

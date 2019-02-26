@@ -19,6 +19,8 @@ Register acceptance of this assignment linking this record to a Ticket.
 ## Overview 
 Register the acceptance of the associated policy to product assignment, and link the created record to a Ticket. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Register the acceptance of the associated policy to product assignment, and link
 * authenticate
 * SoftLayer_Product_Item_Policy_AssignmentInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the valid boot modes for this server.
 ## Overview 
 Retrieve the valid boot modes for this server 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,17 @@ Retrieve the valid boot modes for this server
 * authenticate
 * SoftLayer_Hardware_SecurityModuleInitParameters
 
-### Optional Headers
 
 ### Return Values
-array of strings
+* array of strings
+
+
+
+### Error Handling
+
+* Return 
+
+> an empty array if the hardware is not a server. 
+
+
 

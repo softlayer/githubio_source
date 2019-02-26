@@ -19,6 +19,8 @@ This method will link this SoftLayer account with the provided external account.
 ## Overview 
 This method will link this SoftLayer account with the provided external account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,25 @@ This method will link this SoftLayer account with the provided external account.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
+### Error Handling
+
+* Throws 
+
+> SoftLayer_Exception_Public if a link between either of the accounts already exists. 
+
+* Throws 
+
+> SoftLayer_Exception_Public, 'Unable to authenticate request.' if authentication of the request fails. 
+
+* Throws 
+
+> SoftLayer_Exception_Public, 'Unable to link external account to SoftLayer account.', if the attempt to link the accounts fails. 
+
+
 

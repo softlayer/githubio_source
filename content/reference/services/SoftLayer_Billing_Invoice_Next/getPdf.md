@@ -19,6 +19,8 @@ Retrieve the next billing period's invoice as a PDF.
 ## Overview 
 Return an account's next invoice in PDF format.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Return an account's next invoice in PDF format.
 * authenticate
 * SoftLayer_Billing_Invoice_NextInitParameters
 
-### Optional Headers
 
 ### Return Values
-binary data
+* binary data
+
+
+
 

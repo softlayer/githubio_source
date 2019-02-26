@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Start SSL acceleration on all SSL virtual services (those with a type of HTTPS). This action should be taken only after configuring an SSL certificate for the virtual IP. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Start SSL acceleration on all SSL virtual services (those with a type of HTTPS).
 * authenticate
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddressInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

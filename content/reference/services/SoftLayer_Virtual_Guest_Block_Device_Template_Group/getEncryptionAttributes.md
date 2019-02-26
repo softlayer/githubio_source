@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 This method returns an array of encryption values, or empty array if none are found 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method returns an array of encryption values, or empty array if none are fo
 * authenticate
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-array of strings
+* array of strings
+
+
+
 

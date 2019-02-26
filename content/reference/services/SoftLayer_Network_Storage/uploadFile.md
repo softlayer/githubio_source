@@ -24,6 +24,8 @@ The following properties are required in the ''file'' parameter.
 *'''content''': The raw contents of the file you wish to upload.
 *'''contentType''': The MIME-type of content that you wish to upload.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -34,10 +36,9 @@ The following properties are required in the ''file'' parameter.
 * authenticate
 * SoftLayer_Network_StorageInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Utility_File_Entity'>SoftLayer_Container_Utility_File_Entity </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Utility_File_Entity'>SoftLayer_Container_Utility_File_Entity </a>
 
 ### External Links
 
@@ -46,7 +47,17 @@ The following properties are required in the ''file'' parameter.
 
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_Storage::downloadFile](/reference/services/SoftLayer_Network_Storage/downloadFile )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Not yet implemented for this Storage type." if the Storage type is not supported. 
+
+
 

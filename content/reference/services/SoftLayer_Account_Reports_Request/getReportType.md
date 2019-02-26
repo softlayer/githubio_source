@@ -19,6 +19,8 @@ Retrieve type of the report customer is requesting for.
 ## Overview 
 Retrieve type of the report customer is requesting for.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve type of the report customer is requesting for.
 * SoftLayer_Account_Reports_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Reports_RequestObjectMask
 * SoftLayer_Account_Reports_RequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Compliance_Report_Type'>SoftLayer_Compliance_Report_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Compliance_Report_Type'>SoftLayer_Compliance_Report_Type </a>
+
+
+
 

@@ -19,6 +19,8 @@ Suspend this group.
 ## Overview 
 Suspend this group. The group must be in an active status to do this. While suspended, a group cannot add or remove guest members for any reason. Changes to group settings that will cause a member to be added or deleted is also not allowed. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Suspend this group. The group must be in an active status to do this. While susp
 * authenticate
 * SoftLayer_Scale_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

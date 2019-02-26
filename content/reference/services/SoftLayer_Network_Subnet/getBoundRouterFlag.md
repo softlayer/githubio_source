@@ -19,6 +19,8 @@ Retrieve whether or not this subnet is associated with a router. Subnets that ar
 ## Overview 
 Retrieve whether or not this subnet is associated with a router. Subnets that are not associated with a router cannot be routed.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve whether or not this subnet is associated with a router. Subnets that ar
 * SoftLayer_Network_SubnetInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_SubnetObjectMask
 * SoftLayer_Network_SubnetObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

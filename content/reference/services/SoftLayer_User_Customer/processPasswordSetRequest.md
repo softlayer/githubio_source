@@ -29,6 +29,8 @@ User portal passwords must match the following restrictions. Portal passwords mu
 * ...not match your username
 * ...not match your forum password
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -39,16 +41,57 @@ User portal passwords must match the following restrictions. Portal passwords mu
 ### Required Headers
 * SoftLayer_User_CustomerInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_User_Customer::initiatePortalPasswordChange](/reference/services/SoftLayer_User_Customer/initiatePortalPasswordChange )
 *  [SoftLayer_User_Customer::getUserIdForPasswordSet](/reference/services/SoftLayer_User_Customer/getUserIdForPasswordSet )
 *  [SoftLayer_User_Customer::getRequirementsForPasswordSet](/reference/services/SoftLayer_User_Customer/getRequirementsForPasswordSet )
 *  [SoftLayer_User_Customer::checkPhoneFactorAuthenticationForPasswordSet](/reference/services/SoftLayer_User_Customer/checkPhoneFactorAuthenticationForPasswordSet )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> <<< EOT 
+
+* SoftLayer_Exception_Public 
+
+> <<< EOT 
+
+* SoftLayer_Exception_InvalidValue 
+
+> <<< EOT 
+
+* SoftLayer_Exception_User_Customer_InvalidSecurityQuestionAnswer 
+
+> <<< EOT 
+
+* SoftLayer_Exception_User_Customer_AccountLocked 
+
+> <<< EOT 
+
+* SoftLayer_Exception_User_Customer_External_Binding_SecurityCodeRequired 
+
+> <<< EOT 
+
+* SoftLayer_Exception_User_Customer_External_Binding_TotpAuthenticationRequired 
+
+> <<< EOT 
+
+* SoftLayer_Exception_User_Customer_External_Binding_PhoneAuthenticationRequired 
+
+> <<< EOT 
+
+* SoftLayer_Exception_User_Customer_External_Binding_AwaitingResponse 
+
+> <<< EOT 
+
+
 

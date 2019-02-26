@@ -19,6 +19,8 @@ Retrieve a block device template group's [[SoftLayer_Account|account]].
 ## Overview 
 Retrieve a block device template group's [[SoftLayer_Account|account]].
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a block device template group's [[SoftLayer_Account|account]].
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupObjectMask
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the scale actions to perform upon any trigger hit. Currently this must 
 ## Overview 
 Retrieve the scale actions to perform upon any trigger hit. Currently this must be a single value.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the scale actions to perform upon any trigger hit. Currently this must 
 * SoftLayer_Scale_PolicyInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_PolicyObjectMask
 * SoftLayer_Scale_PolicyObjectFilter
@@ -35,5 +38,8 @@ Retrieve the scale actions to perform upon any trigger hit. Currently this must 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Policy_Action'>SoftLayer_Scale_Policy_Action[] </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Policy_Action'>SoftLayer_Scale_Policy_Action[] </a>
+
+
+
 

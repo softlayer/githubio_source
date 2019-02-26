@@ -19,6 +19,8 @@ Modifies linked Paas user data based on changes initiated by Bluemix.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Modifies linked Paas user data based on changes initiated by Bluemix.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

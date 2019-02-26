@@ -19,6 +19,8 @@ Retrieve the SoftLayer customer account that owns a domain.
 ## Overview 
 Retrieve the SoftLayer customer account that owns a domain.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the SoftLayer customer account that owns a domain.
 * SoftLayer_Dns_DomainInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Dns_DomainObjectMask
 * SoftLayer_Dns_DomainObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

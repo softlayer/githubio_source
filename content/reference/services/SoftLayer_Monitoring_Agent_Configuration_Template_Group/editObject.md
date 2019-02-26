@@ -19,6 +19,8 @@ This method edits an existing SoftLayer_Monitoring_Agent_Configuration_Template_
 ## Overview 
 This method edits an existing SoftLayer_Monitoring_Agent_Configuration_Template_Group using the values passed in the $object parameter. The $object parameter should use the same structure as a SoftLayer_Monitoring_Agent_Configuration_Template_Group object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,16 +31,18 @@ This method edits an existing SoftLayer_Monitoring_Agent_Configuration_Template_
 * authenticate
 * SoftLayer_Monitoring_Agent_Configuration_Template_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Monitoring_Agent_Configuration_Template_Group::getObject](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getObject )
 *  [SoftLayer_Monitoring_Agent_Configuration_Template_Group::getAllObjects ](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getAllObjects  )
 *  [SoftLayer_Monitoring_Agent_Configuration_Template_Group::createObject](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/createObject )
 *  [SoftLayer_Monitoring_Agent_Configuration_Template_Group::getConfigurationGroups ](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getConfigurationGroups  )
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the virtual disk image type keyname (e.g. SYSTEM, DISK_CAPTURE, ISO, et
 ## Overview 
 Retrieve the virtual disk image type keyname (e.g. SYSTEM, DISK_CAPTURE, ISO, etc) of this template. Value will be populated on parent and child, but only supports object filtering on the parent.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the virtual disk image type keyname (e.g. SYSTEM, DISK_CAPTURE, ISO, et
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupObjectMask
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

@@ -33,6 +33,8 @@ After the DNS records are converted, the following restrictions will apply to th
 
 This change can not be undone, and the record can not be converted back into a secondary DNS record once the conversion is complete. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -42,8 +44,10 @@ This change can not be undone, and the record can not be converted back into a s
 * authenticate
 * SoftLayer_Dns_SecondaryInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

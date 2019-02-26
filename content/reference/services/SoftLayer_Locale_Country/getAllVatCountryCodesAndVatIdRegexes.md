@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 This method is to get the collection of VAT country codes and VAT ID Regexes. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ This method is to get the collection of VAT country codes and VAT ID Regexes.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Collection_Locale_VatCountryCodeAndFormat'>SoftLayer_Container_Collection_Locale_VatCountryCodeAndFormat[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Collection_Locale_VatCountryCodeAndFormat'>SoftLayer_Container_Collection_Locale_VatCountryCodeAndFormat[] </a>
+
+
+
 

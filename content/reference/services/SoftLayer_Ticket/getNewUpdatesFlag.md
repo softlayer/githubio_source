@@ -19,6 +19,8 @@ Retrieve true if there are new, unread updates to this ticket for the current us
 ## Overview 
 Retrieve true if there are new, unread updates to this ticket for the current user, False otherwise.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve true if there are new, unread updates to this ticket for the current us
 * SoftLayer_TicketInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TicketObjectMask
 * SoftLayer_TicketObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

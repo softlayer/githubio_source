@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_Gateway_Member_Attribute record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_Gateway_Member_Attribute record.
 * SoftLayer_Network_Gateway_Member_AttributeInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Gateway_Member_AttributeObjectMask
 * SoftLayer_Network_Gateway_Member_AttributeObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Gateway_Member_Attribute'>SoftLayer_Network_Gateway_Member_Attribute </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Gateway_Member_Attribute'>SoftLayer_Network_Gateway_Member_Attribute </a>
+
+
+
 

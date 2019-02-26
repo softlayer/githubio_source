@@ -19,6 +19,8 @@ Retrieve the location containing this image template group. Will only be populat
 ## Overview 
 Retrieve the location containing this image template group. Will only be populated for child template group objects.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the location containing this image template group. Will only be populat
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupObjectMask
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+
+
+
 

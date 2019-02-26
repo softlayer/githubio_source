@@ -19,6 +19,8 @@ Retrieve these are all the orders that were created from this quote.
 ## Overview 
 Retrieve these are all the orders that were created from this quote.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve these are all the orders that were created from this quote.
 * SoftLayer_Billing_Order_CartInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Order_CartObjectMask
 * SoftLayer_Billing_Order_CartObjectFilter
@@ -35,5 +38,8 @@ Retrieve these are all the orders that were created from this quote.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order[] </a>
+
+
+
 

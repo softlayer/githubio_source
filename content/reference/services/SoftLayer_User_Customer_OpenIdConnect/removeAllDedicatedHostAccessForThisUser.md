@@ -21,6 +21,8 @@ Revoke access to all dedicated hosts on the account for this user. The user will
 
 Users can call this function on child users, but not to themselves. An account's master has access to all users permissions on their account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,15 +32,28 @@ Users can call this function on child users, but not to themselves. An account's
 * authenticate
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_User_Customer::addDedicatedHostAccess](/reference/services/SoftLayer_User_Customer/addDedicatedHostAccess )
 *  [SoftLayer_User_Customer::addBulkDedicatedHostAccess](/reference/services/SoftLayer_User_Customer/addBulkDedicatedHostAccess )
 *  [SoftLayer_User_Customer::removeDedicatedHostAccess](/reference/services/SoftLayer_User_Customer/removeDedicatedHostAccess )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Unable to remove user dedicated host access." if the API was unable to remove dedicated host access from the given portal user. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Inadequate permissions." if the active user permissions do allow for access to the userId in question. 
+
+
 

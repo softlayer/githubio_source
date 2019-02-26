@@ -19,6 +19,8 @@ Retrieve this flag indicates the package does not allow different disks with RAI
 ## Overview 
 Retrieve this flag indicates the package does not allow different disks with RAID.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve this flag indicates the package does not allow different disks with RAI
 * SoftLayer_Product_PackageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_Product_PackageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

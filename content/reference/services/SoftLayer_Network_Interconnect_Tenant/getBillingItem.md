@@ -19,6 +19,8 @@ Retrieve the active billing item for a network interconnect.
 ## Overview 
 Retrieve the active billing item for a network interconnect.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the active billing item for a network interconnect.
 * SoftLayer_Network_Interconnect_TenantInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Interconnect_TenantObjectMask
 * SoftLayer_Network_Interconnect_TenantObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item_Network_Interconnect'>SoftLayer_Billing_Item_Network_Interconnect </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item_Network_Interconnect'>SoftLayer_Billing_Item_Network_Interconnect </a>
+
+
+
 

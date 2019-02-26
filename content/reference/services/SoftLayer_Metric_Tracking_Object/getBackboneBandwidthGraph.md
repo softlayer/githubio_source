@@ -19,6 +19,8 @@ Retrieve a graph of a SoftLayer backbone's recent traffic activity.
 ## Overview 
 Retrieve a PNG image of the last 24 hours of bandwidth usage of one of SoftLayer's network backbones. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Retrieve a PNG image of the last 24 hours of bandwidth usage of one of SoftLayer
 * authenticate
 * SoftLayer_Metric_Tracking_ObjectInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+
+
+
 

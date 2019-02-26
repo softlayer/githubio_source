@@ -19,6 +19,8 @@ Retrieve flag to indicate whether or not a guest is part of a reserved capacity 
 ## Overview 
 Retrieve flag to indicate whether or not a guest is part of a reserved capacity group.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve flag to indicate whether or not a guest is part of a reserved capacity 
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

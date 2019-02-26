@@ -19,6 +19,8 @@ Returns all transcode job statuses
 ## Overview 
 This method returns all transcode job statuses. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ This method returns all transcode job statuses.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Media_Transcode_Job_StatusObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Job_Status'>SoftLayer_Network_Media_Transcode_Job_Status[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Job_Status'>SoftLayer_Network_Media_Transcode_Job_Status[] </a>
+
+
+
 

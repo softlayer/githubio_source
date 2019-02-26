@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 This method returns the parameters for cloning a volume 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method returns the parameters for cloning a volume
 * authenticate
 * SoftLayer_Network_Storage_IscsiInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_Storage_VolumeDuplicateParameters'>SoftLayer_Container_Network_Storage_VolumeDuplicateParameters </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_Storage_VolumeDuplicateParameters'>SoftLayer_Container_Network_Storage_VolumeDuplicateParameters </a>
+
+
+
 

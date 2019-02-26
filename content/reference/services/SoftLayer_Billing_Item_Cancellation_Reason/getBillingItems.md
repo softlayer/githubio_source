@@ -19,6 +19,8 @@ Retrieve the corresponding billing items having the specific cancellation reason
 ## Overview 
 Retrieve the corresponding billing items having the specific cancellation reason.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the corresponding billing items having the specific cancellation reason
 * SoftLayer_Billing_Item_Cancellation_ReasonInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Item_Cancellation_ReasonObjectMask
 * SoftLayer_Billing_Item_Cancellation_ReasonObjectFilter
@@ -35,5 +38,8 @@ Retrieve the corresponding billing items having the specific cancellation reason
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+
+
+
 

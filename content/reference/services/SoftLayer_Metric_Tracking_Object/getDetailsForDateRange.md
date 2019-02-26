@@ -19,6 +19,8 @@ Retrieve metric detail data over a date range.
 ## Overview 
 Retrieve a collection of detailed metric data over a date range. Ideal if you want to employ your own graphing systems.  Note not all metrics support this method.  Those that do not return null. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,13 +33,15 @@ Retrieve a collection of detailed metric data over a date range. Ideal if you wa
 * authenticate
 * SoftLayer_Metric_Tracking_ObjectInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Metric_Tracking_Object_Details'>SoftLayer_Container_Metric_Tracking_Object_Details[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Metric_Tracking_Object_Details'>SoftLayer_Container_Metric_Tracking_Object_Details[] </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Metric_Tracking_Object::getSummary](/reference/services/SoftLayer_Metric_Tracking_Object/getSummary )
+
+
+
 

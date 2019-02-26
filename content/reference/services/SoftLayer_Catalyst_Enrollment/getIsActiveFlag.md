@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Catalyst_EnrollmentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Catalyst_EnrollmentObjectMask
 * SoftLayer_Catalyst_EnrollmentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

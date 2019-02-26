@@ -27,6 +27,8 @@ Each one of these lists can contain any number of items, the default is 5.  The 
 
 The data is returned as a collection of SoftLayer_Container_Network_IntrusionProtection_Statistics objects. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -36,8 +38,17 @@ The data is returned as a collection of SoftLayer_Container_Network_IntrusionPro
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_IntrusionProtection_Statistics'>SoftLayer_Container_Network_IntrusionProtection_Statistics[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_IntrusionProtection_Statistics'>SoftLayer_Container_Network_IntrusionProtection_Statistics[] </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Could not retrieve Account ID in SoftLayer_Network_TippingPointReporting getMainStatistics" if the current user's account ID could not be retrieved. 
+
+
 

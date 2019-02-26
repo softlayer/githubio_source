@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Account_Note record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Account_Note record.
 * SoftLayer_Account_NoteInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_NoteObjectMask
 * SoftLayer_Account_NoteObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Note'>SoftLayer_Account_Note </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Note'>SoftLayer_Account_Note </a>
+
+
+
 

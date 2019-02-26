@@ -19,6 +19,8 @@ Retrieve the address at which the shipment is received.
 ## Overview 
 Retrieve the address at which the shipment is received.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the address at which the shipment is received.
 * SoftLayer_Account_ShipmentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_ShipmentObjectMask
 * SoftLayer_Account_ShipmentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a>
+
+
+
 

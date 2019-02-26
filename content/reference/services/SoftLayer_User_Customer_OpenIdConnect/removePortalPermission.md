@@ -27,6 +27,8 @@ If the cascadePermissionsFlag is not set or is set to false and the user has chi
 
 Use the [[SoftLayer_User_Customer_CustomerPermission_Permission::getAllObjects]] method to retrieve a list of all permissions available in the SoftLayer customer portal and API. Permissions are removed based on the keyName property of the permission parameter. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -38,15 +40,40 @@ Use the [[SoftLayer_User_Customer_CustomerPermission_Permission::getAllObjects]]
 * authenticate
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_User_Customer::addPortalPermission](/reference/services/SoftLayer_User_Customer/addPortalPermission )
 *  [SoftLayer_User_Customer::addBulkPortalPermission](/reference/services/SoftLayer_User_Customer/addBulkPortalPermission )
 *  [SoftLayer_User_Customer::removeBulkPortalPermission](/reference/services/SoftLayer_User_Customer/removeBulkPortalPermission )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "You may not remove permissions from your account." when trying to remove permissions from the user making calling the SoftLayer API. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "You may not remove permissions from this account." the user making the API call is not their account's master user or does not have the "Add New User" portal permission. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Please specify a permission key name." if the keyName property of the permission parameter is empty. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Unable to locate a permission with the key name {key name}." when trying to remove an unknown permission from a user. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Unable to remove user permission {key name}." if the API was unable to remove the given permission from the given portal user. 
+
+
 

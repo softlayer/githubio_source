@@ -19,6 +19,8 @@ Return all indexed event object names.
 ## Overview 
 This all indexed event object names. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ This all indexed event object names.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-array of strings
+* array of strings
+
+
+
 

@@ -19,6 +19,8 @@ Enable a Virtual IP Address
 ## Overview 
 Enable a disabled Virtual IP Address, allowing connections back to the IP address. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,13 +30,15 @@ Enable a disabled Virtual IP Address, allowing connections back to the IP addres
 * authenticate
 * SoftLayer_Network_LoadBalancer_VirtualIpAddressInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_LoadBalancer_VirtualIpAddress::disable](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/disable )
+
+
+
 

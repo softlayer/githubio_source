@@ -19,6 +19,8 @@ Returns a collection of top-level categories.
 ## Overview 
 This method returns a collection of computing categories. These categories are also top level items in a service offering. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ This method returns a collection of computing categories. These categories are a
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Item_CategoryObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>
+
+
+
 

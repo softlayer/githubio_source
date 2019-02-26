@@ -19,6 +19,8 @@ Get a preference value for the current user
 ## Overview 
 Select a type of preference you would like to get using [[SoftLayer_User_Customer::getPreferenceTypes|getPreferenceTypes]] and invoke this method using that preference type key name. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Select a type of preference you would like to get using [[SoftLayer_User_Custome
 * authenticate
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_OpenIdConnectObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Preference'>SoftLayer_User_Preference </a>
+* <a href='/reference/datatypes/SoftLayer_User_Preference'>SoftLayer_User_Preference </a>
+
+
+
 

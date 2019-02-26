@@ -27,6 +27,8 @@ This method creates an authentication IP record.  Required parameters are
 * ipAddress - An IP address or a IP range
 * accessType- It can be "ALLOW" or "DENY"
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -36,10 +38,14 @@ This method creates an authentication IP record.  Required parameters are
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_ContentDelivery_Authentication_AddressObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Authentication_Address'>SoftLayer_Network_ContentDelivery_Authentication_Address </a>
+* <a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Authentication_Address'>SoftLayer_Network_ContentDelivery_Authentication_Address </a>
+
+
+
 

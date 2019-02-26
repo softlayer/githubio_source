@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ aliases:
 * authenticate
 * SoftLayer_Billing_Currency_ExchangeRateInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

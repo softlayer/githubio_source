@@ -19,6 +19,8 @@ Retrieve the group this policy is on.
 ## Overview 
 Retrieve the group this policy is on.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the group this policy is on.
 * SoftLayer_Scale_PolicyInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_PolicyObjectMask
 * SoftLayer_Scale_PolicyObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>
+
+
+
 

@@ -21,6 +21,8 @@ Edit multiple resource records on a domain. This follows the same logic as ''cre
 
 ''createObjects'' returns Boolean ''true'' on successful creation or ''false'' if it was unable to create a resource record. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,13 +32,15 @@ Edit multiple resource records on a domain. This follows the same logic as ''cre
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Dns_ResourceRecord::editObject](/reference/services/SoftLayer_Dns_ResourceRecord/editObject )
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the Networks for your Account.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve the Networks for your Account.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_NetworkObjectMask
 * SoftLayer_ObjectMask
 * SoftLayer_NetworkObjectFilter
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network'>SoftLayer_Network[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network'>SoftLayer_Network[] </a>
+
+
+
 

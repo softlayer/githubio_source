@@ -19,6 +19,8 @@ Retrieve denotes whether the virtual IP is configured within a high availability
 ## Overview 
 Retrieve denotes whether the virtual IP is configured within a high availability cluster.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve denotes whether the virtual IP is configured within a high availability
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddressInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddressObjectMask
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddressObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

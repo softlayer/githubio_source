@@ -19,6 +19,8 @@ Immediate Failover to a volume replicant.
 ## Overview 
 Immediate Failover to a volume replicant.  During the time which the replicant is in use the local nas volume will not be available. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Immediate Failover to a volume replicant.  During the time which the replicant i
 * authenticate
 * SoftLayer_Network_Storage_IscsiInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

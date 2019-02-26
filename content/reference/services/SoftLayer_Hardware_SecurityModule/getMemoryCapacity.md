@@ -19,6 +19,8 @@ Retrieve the amount of memory a piece of hardware has, measured in gigabytes.
 ## Overview 
 Retrieve the amount of memory a piece of hardware has, measured in gigabytes.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the amount of memory a piece of hardware has, measured in gigabytes.
 * SoftLayer_Hardware_SecurityModuleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModuleObjectMask
 * SoftLayer_Hardware_SecurityModuleObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-unsigned integer
+* unsigned integer
+
+
+
 

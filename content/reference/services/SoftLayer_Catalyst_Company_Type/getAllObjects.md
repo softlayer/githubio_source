@@ -19,6 +19,8 @@ Get all catalyst company types
 ## Overview 
 <<<EOT
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Get all catalyst company types
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Catalyst_Company_TypeObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Catalyst_Company_Type'>SoftLayer_Catalyst_Company_Type[] </a>
+* <a href='/reference/datatypes/SoftLayer_Catalyst_Company_Type'>SoftLayer_Catalyst_Company_Type[] </a>
+
+
+
 

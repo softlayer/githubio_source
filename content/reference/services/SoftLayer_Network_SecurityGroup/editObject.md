@@ -19,6 +19,8 @@ Edit a security group.
 ## Overview 
 Edit a security group.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit a security group.
 * authenticate
 * SoftLayer_Network_SecurityGroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

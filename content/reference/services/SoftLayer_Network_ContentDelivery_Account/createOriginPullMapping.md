@@ -36,6 +36,8 @@ There are 2 types of origin pull mappings.  The one with a CNAME record or the o
 
 gzip is supported if your web server sends a proper gzip header. For more details, visit our [http://knowledgelayer.softlayer.com/topic/cdn KnowledgeLayer] 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -46,8 +48,41 @@ gzip is supported if your web server sends a proper gzip header. For more detail
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a user does not have CDN_ACCOUNT_MANAGE privilege. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if an Origin Pull domain name is not provided. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if an Origin Pull rule is already set up. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a connection to the CDN FTP server failed. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if nslookup failed on an Origin Pull domain. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a CNAME is provided and nslookup failed on CNAME record. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a CNAME is provided and CNAME does not point to "<CDN_AcccountName>.http.cdn.softlayer.net.". 
+
+
 

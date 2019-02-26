@@ -19,6 +19,8 @@ Cancels a pending SSL certificate order at the Certificate Authority
 ## Overview 
 Cancels a pending SSL certificate order at the Certificate Authority 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Cancels a pending SSL certificate order at the Certificate Authority
 * authenticate
 * SoftLayer_Security_Certificate_RequestInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

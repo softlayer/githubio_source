@@ -19,6 +19,8 @@ Retrieve determines whether the hardware is ineligible for cancellation because 
 ## Overview 
 Retrieve determines whether the hardware is ineligible for cancellation because it is disconnected.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve determines whether the hardware is ineligible for cancellation because 
 * SoftLayer_HardwareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_HardwareObjectMask
 * SoftLayer_HardwareObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

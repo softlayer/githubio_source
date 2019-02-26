@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Account_ProofOfConcept_Approver record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Account_ProofOfConcept_Approver record.
 * SoftLayer_Account_ProofOfConcept_ApproverInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_ProofOfConcept_ApproverObjectMask
 * SoftLayer_Account_ProofOfConcept_ApproverObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver'>SoftLayer_Account_ProofOfConcept_Approver </a>
+* <a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver'>SoftLayer_Account_ProofOfConcept_Approver </a>
+
+
+
 

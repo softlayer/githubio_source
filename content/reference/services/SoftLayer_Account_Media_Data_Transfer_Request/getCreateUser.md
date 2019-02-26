@@ -19,6 +19,8 @@ Retrieve the customer user who created the request.
 ## Overview 
 Retrieve the customer user who created the request.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the customer user who created the request.
 * SoftLayer_Account_Media_Data_Transfer_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Media_Data_Transfer_RequestObjectMask
 * SoftLayer_Account_Media_Data_Transfer_RequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+
+
+
 

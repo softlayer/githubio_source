@@ -19,6 +19,8 @@ Return a list of SoftLayer_Network_Storage volumes authorized to this device.
 ## Overview 
 This method is retrieve a list of SoftLayer_Network_Storage volumes that are authorized access to this SoftLayer_Network_Subnet_IpAddress. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,11 +31,15 @@ This method is retrieve a list of SoftLayer_Network_Storage volumes that are aut
 * authenticate
 * SoftLayer_Network_Subnet_IpAddressInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_IpAddressObjectMask
 * SoftLayer_ObjectMask
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+
+
+
 

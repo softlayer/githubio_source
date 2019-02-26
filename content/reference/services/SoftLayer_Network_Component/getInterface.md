@@ -19,6 +19,8 @@ Retrieve a hardware switch's interface to the bandwidth pod.
 ## Overview 
 Retrieve a hardware switch's interface to the bandwidth pod.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a hardware switch's interface to the bandwidth pod.
 * SoftLayer_Network_ComponentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_ComponentObjectMask
 * SoftLayer_Network_ComponentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Interface'>SoftLayer_Network_Bandwidth_Version1_Interface </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Interface'>SoftLayer_Network_Bandwidth_Version1_Interface </a>
+
+
+
 

@@ -19,6 +19,8 @@ Edit this policy's name.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit this policy's name.
 * authenticate
 * SoftLayer_Scale_PolicyInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

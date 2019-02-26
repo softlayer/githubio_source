@@ -19,6 +19,8 @@ Retrieve the locations this preset configuration is available in. If empty the p
 ## Overview 
 Retrieve the locations this preset configuration is available in. If empty the preset is available in all locations the package is available in.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the locations this preset configuration is available in. If empty the p
 * SoftLayer_Product_Package_PresetInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Package_PresetObjectMask
 * SoftLayer_Product_Package_PresetObjectFilter
@@ -35,5 +38,8 @@ Retrieve the locations this preset configuration is available in. If empty the p
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+
+
+
 

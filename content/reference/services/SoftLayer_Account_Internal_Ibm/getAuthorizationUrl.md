@@ -19,6 +19,8 @@ Gets the redirect URL for manager validation
 ## Overview 
 Gets the URL used to perform manager validation. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Gets the URL used to perform manager validation.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

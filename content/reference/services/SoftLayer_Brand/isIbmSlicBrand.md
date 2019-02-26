@@ -19,6 +19,8 @@ Check if the brand is IBM SLIC top level brand or sub brand.
 ## Overview 
 Check if the brand is IBM SLIC top level brand or sub brand. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Check if the brand is IBM SLIC top level brand or sub brand.
 * authenticate
 * SoftLayer_BrandInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

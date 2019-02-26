@@ -19,6 +19,8 @@ Retrieve whether employees' updates of this ticket could be rated by customer
 ## Overview 
 Retrieve whether employees' updates of this ticket could be rated by customer
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve whether employees' updates of this ticket could be rated by customer
 * SoftLayer_TicketInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TicketObjectMask
 * SoftLayer_TicketObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

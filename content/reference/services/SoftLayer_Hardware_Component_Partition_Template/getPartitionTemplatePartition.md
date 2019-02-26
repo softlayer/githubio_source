@@ -19,6 +19,8 @@ Retrieve an individual partition for a partition template.
 ## Overview 
 Retrieve an individual partition for a partition template.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve an individual partition for a partition template.
 * SoftLayer_Hardware_Component_Partition_TemplateInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_Component_Partition_TemplateObjectMask
 * SoftLayer_Hardware_Component_Partition_TemplateObjectFilter
@@ -35,5 +38,8 @@ Retrieve an individual partition for a partition template.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template_Partition'>SoftLayer_Hardware_Component_Partition_Template_Partition[] </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template_Partition'>SoftLayer_Hardware_Component_Partition_Template_Partition[] </a>
+
+
+
 

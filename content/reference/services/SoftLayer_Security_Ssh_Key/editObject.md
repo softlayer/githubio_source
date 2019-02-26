@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Update a ssh key. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Update a ssh key.
 * authenticate
 * SoftLayer_Security_Ssh_KeyInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

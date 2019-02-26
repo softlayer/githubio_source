@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Account_External_Setup record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Account_External_Setup record.
 * SoftLayer_Account_External_SetupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_External_SetupObjectMask
 * SoftLayer_Account_External_SetupObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_External_Setup'>SoftLayer_Account_External_Setup </a>
+* <a href='/reference/datatypes/SoftLayer_Account_External_Setup'>SoftLayer_Account_External_Setup </a>
+
+
+
 

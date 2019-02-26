@@ -19,6 +19,8 @@ The router associated with a network component
 ## Overview 
 The getRouter method will return the router associated with a network component. When the router is redundant, the hostname of the redundant group will be returned, rather than the router hostname. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,25 @@ The getRouter method will return the router associated with a network component.
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_NotFound 
+
+> Thrown when a network component is not found for the provided MAC address 
+
+* SoftLayer_Exception_NotFound 
+
+> Thrown when a router is not found for the network component 
+
+* SoftLayer_Exception_InvalidValue 
+
+> Thrown when the MAC address provided is invalid 
+
+
 

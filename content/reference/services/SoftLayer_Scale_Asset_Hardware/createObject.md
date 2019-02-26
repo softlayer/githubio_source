@@ -19,6 +19,8 @@ Pin hardware on a group. This can be done at anytime, whether the group is activ
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Pin hardware on a group. This can be done at anytime, whether the group is activ
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Asset_HardwareObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Asset_Hardware'>SoftLayer_Scale_Asset_Hardware </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Asset_Hardware'>SoftLayer_Scale_Asset_Hardware </a>
+
+
+
 

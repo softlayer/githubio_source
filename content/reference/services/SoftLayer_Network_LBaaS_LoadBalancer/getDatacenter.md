@@ -19,6 +19,8 @@ Retrieve datacenter, where load balancer is located.
 ## Overview 
 Retrieve datacenter, where load balancer is located.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve datacenter, where load balancer is located.
 * SoftLayer_Network_LBaaS_LoadBalancerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_LBaaS_LoadBalancerObjectMask
 * SoftLayer_Network_LBaaS_LoadBalancerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+
+
+
 

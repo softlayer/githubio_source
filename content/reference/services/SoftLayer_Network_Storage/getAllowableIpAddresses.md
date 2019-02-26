@@ -19,6 +19,8 @@ Return a list of SoftLayer_Network_Subnet_IpAddress that can be authorized to th
 ## Overview 
 This method retrieves a list of SoftLayer_Network_Subnet_IpAddress that can be authorized to this SoftLayer_Network_Storage. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,11 +32,15 @@ This method retrieves a list of SoftLayer_Network_Subnet_IpAddress that can be a
 * authenticate
 * SoftLayer_Network_StorageInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Network_StorageObjectMask
 * SoftLayer_ObjectMask
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Returns all network storage groups
 ## Overview 
 Use this method to retrieve all network storage groups. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Use this method to retrieve all network storage groups.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Group_NfsObjectMask
 * SoftLayer_ObjectMask
@@ -34,5 +37,8 @@ Use this method to retrieve all network storage groups.
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Group'>SoftLayer_Network_Storage_Group[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Group'>SoftLayer_Network_Storage_Group[] </a>
+
+
+
 

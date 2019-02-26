@@ -26,6 +26,8 @@ This is primarily useful when there is a necessity to confirm the price which wi
 
 See [[SoftLayer_Virtual_Guest/createObject|createObject]] for specifics on the requirements of the template object parameter. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -35,14 +37,16 @@ See [[SoftLayer_Virtual_Guest/createObject|createObject]] for specifics on the r
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Virtual_Guest::createObject](/reference/services/SoftLayer_Virtual_Guest/createObject )
 *  [SoftLayer_Virtual_Guest::getCreateObjectOptions](/reference/services/SoftLayer_Virtual_Guest/getCreateObjectOptions )
+
+
+
 

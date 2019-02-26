@@ -19,6 +19,8 @@ Retrieve determines whether the package contains prices that can be ordered hour
 ## Overview 
 Retrieve determines whether the package contains prices that can be ordered hourly.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve determines whether the package contains prices that can be ordered hour
 * SoftLayer_Product_PackageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_Product_PackageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

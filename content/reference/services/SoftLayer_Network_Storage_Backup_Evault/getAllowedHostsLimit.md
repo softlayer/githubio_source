@@ -19,6 +19,8 @@ Retrieves the total number of allowed hosts limit per volume.
 ## Overview 
 Retrieves the total number of allowed hosts limit per volume. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Retrieves the total number of allowed hosts limit per volume.
 * authenticate
 * SoftLayer_Network_Storage_Backup_EvaultInitParameters
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

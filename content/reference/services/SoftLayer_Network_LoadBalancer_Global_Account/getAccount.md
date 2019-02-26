@@ -19,6 +19,8 @@ Retrieve your SoftLayer customer account.
 ## Overview 
 Retrieve your SoftLayer customer account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve your SoftLayer customer account.
 * SoftLayer_Network_LoadBalancer_Global_AccountInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_LoadBalancer_Global_AccountObjectMask
 * SoftLayer_Network_LoadBalancer_Global_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

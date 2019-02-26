@@ -19,6 +19,8 @@ create a new allotment by passing in a allotment object.
 ## Overview 
 Create a allotment for servers to pool bandwidth and avoid overages in billing if they use more than there allocated bandwidth. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Create a allotment for servers to pool bandwidth and avoid overages in billing i
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Bandwidth_Version1_AllotmentObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment </a>
+
+
+
 

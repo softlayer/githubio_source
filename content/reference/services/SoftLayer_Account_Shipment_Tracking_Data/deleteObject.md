@@ -19,6 +19,8 @@ Delete a shipment tracking datum (number)
 ## Overview 
 deleteObject permanently removes a shipment tracking datum (number) 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ deleteObject permanently removes a shipment tracking datum (number)
 * authenticate
 * SoftLayer_Account_Shipment_Tracking_DataInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

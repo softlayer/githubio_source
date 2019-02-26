@@ -19,6 +19,8 @@ Retrieve the amount of network traffic that occurred for the specified time fram
 ## Overview 
 Use this method when needing the metric data for bandwidth for a single guest.  It will gather the correct input parameters based on the date ranges 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,8 +33,10 @@ Use this method when needing the metric data for bandwidth for a single guest.  
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
+* <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
+
+
+
 

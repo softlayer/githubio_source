@@ -19,6 +19,8 @@ Get the datacenters where object storage is available
 ## Overview 
 Object Storage is only available in select datacenters. This method will return all the datacenters where object storage is available. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Object Storage is only available in select datacenters. This method will return 
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_LocationObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+
+
+
 

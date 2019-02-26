@@ -19,6 +19,8 @@ Retrieve the average amount of time that a software description takes to install
 ## Overview 
 Retrieve the average amount of time that a software description takes to install.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the average amount of time that a software description takes to install
 * SoftLayer_Software_DescriptionInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_DescriptionObjectMask
 * SoftLayer_Software_DescriptionObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-integer
+* integer
+
+
+
 

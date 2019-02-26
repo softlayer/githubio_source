@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 <<<< EOT
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ aliases:
 * authenticate
 * SoftLayer_Notification_Occurrence_EventInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

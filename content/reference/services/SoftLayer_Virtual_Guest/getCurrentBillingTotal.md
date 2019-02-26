@@ -19,6 +19,8 @@ Get the billing total for this instance's usage up to this point. This total inc
 ## Overview 
 Get the total bill amount in US Dollars ($) for this instance in the current billing period. This includes all bandwidth used up to the point this method is called on the instance. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Get the total bill amount in US Dollars ($) for this instance in the current bil
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

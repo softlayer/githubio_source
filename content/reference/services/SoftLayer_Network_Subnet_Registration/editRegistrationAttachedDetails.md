@@ -19,6 +19,8 @@ Modify the link between a [[SoftLayer_Network_Subnet_Registration]] object and t
 ## Overview 
 This method modifies a single registration by modifying the current [[SoftLayer_Network_Subnet_Registration_Details]] objects that are linked to that registration. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method modifies a single registration by modifying the current [[SoftLayer_
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

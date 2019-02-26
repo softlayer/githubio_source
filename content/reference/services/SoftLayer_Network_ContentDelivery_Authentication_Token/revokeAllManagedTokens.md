@@ -23,6 +23,8 @@ This method is deprecated!
 
 This method revokes all managed tokens belong to a CDN account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,8 +34,10 @@ This method revokes all managed tokens belong to a CDN account.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

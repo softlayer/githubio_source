@@ -19,6 +19,8 @@ Retrieve the account that an affiliation belongs to.
 ## Overview 
 Retrieve the account that an affiliation belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the account that an affiliation belongs to.
 * SoftLayer_Account_AffiliationInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_AffiliationObjectMask
 * SoftLayer_Account_AffiliationObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

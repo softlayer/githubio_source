@@ -19,6 +19,8 @@ Remove an existing association between a [[SoftLayer_Network_Subnet_Registration
 ## Overview 
 This method will delete an existing SoftLayer_Account_Regional_Registry_Detail object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method will delete an existing SoftLayer_Account_Regional_Registry_Detail o
 * authenticate
 * SoftLayer_Network_Subnet_Registration_DetailsInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

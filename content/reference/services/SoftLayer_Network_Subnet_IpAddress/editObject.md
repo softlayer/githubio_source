@@ -19,6 +19,8 @@ Edit the object by passing in a modified instance of the object
 ## Overview 
 Edit a subnet IP address. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit a subnet IP address.
 * authenticate
 * SoftLayer_Network_Subnet_IpAddressInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

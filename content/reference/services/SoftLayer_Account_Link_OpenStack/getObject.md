@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Account_Link_OpenStack record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Account_Link_OpenStack record.
 * SoftLayer_Account_Link_OpenStackInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Link_OpenStackObjectMask
 * SoftLayer_Account_Link_OpenStackObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Link_OpenStack'>SoftLayer_Account_Link_OpenStack </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Link_OpenStack'>SoftLayer_Account_Link_OpenStack </a>
+
+
+
 

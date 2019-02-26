@@ -19,6 +19,8 @@ Retrieve the date that a VeriSign credential expires.
 ## Overview 
 Retrieve the date that a VeriSign credential expires.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the date that a VeriSign credential expires.
 * SoftLayer_User_Customer_External_Binding_VerisignInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_External_Binding_VerisignObjectMask
 * SoftLayer_User_Customer_External_Binding_VerisignObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

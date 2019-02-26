@@ -19,6 +19,8 @@ Retrieve this invoice item's "item category group".
 ## Overview 
 Retrieve this invoice item's "item category group". 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve this invoice item's "item category group".
 * SoftLayer_Product_Item_CategoryInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Item_CategoryObjectMask
 * SoftLayer_Product_Item_CategoryObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Group'>SoftLayer_Product_Item_Category_Group </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item_Category_Group'>SoftLayer_Product_Item_Category_Group </a>
+
+
+
 

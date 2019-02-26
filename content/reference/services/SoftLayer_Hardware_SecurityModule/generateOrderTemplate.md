@@ -26,6 +26,8 @@ This is primarily useful when there is a necessity to confirm the price which wi
 
 See [[SoftLayer_Hardware/createObject|createObject]] for specifics on the requirements of the template object parameter. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -35,14 +37,16 @@ See [[SoftLayer_Hardware/createObject|createObject]] for specifics on the requir
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Hardware::createObject](/reference/services/SoftLayer_Hardware/createObject )
 *  [SoftLayer_Hardware::getCreateObjectOptions](/reference/services/SoftLayer_Hardware/getCreateObjectOptions )
+
+
+
 

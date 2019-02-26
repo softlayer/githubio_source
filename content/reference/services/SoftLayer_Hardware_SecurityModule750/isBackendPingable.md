@@ -19,6 +19,8 @@ Verifies if a server's backend ip address is pingable.
 ## Overview 
 Issues a ping command and returns the success (true) or failure (false) of the ping command. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Issues a ping command and returns the success (true) or failure (false) of the p
 * authenticate
 * SoftLayer_Hardware_SecurityModule750InitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve all timezone objects.
 ## Overview 
 Retrieve all timezone objects.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Retrieve all timezone objects.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Locale_TimezoneObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Locale_Timezone'>SoftLayer_Locale_Timezone[] </a>
+* <a href='/reference/datatypes/SoftLayer_Locale_Timezone'>SoftLayer_Locale_Timezone[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the current number of CloudLayer Computing Instances a portal user has 
 ## Overview 
 Retrieve the number of CloudLayer Computing Instances that a portal user has access to. Portal users can have restrictions set to limit services for and to perform actions on CloudLayer Computing Instances. You can set these permissions in the portal by clicking the "administrative" then "user admin" links. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Retrieve the number of CloudLayer Computing Instances that a portal user has acc
 * authenticate
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

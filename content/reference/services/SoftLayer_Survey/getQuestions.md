@@ -19,6 +19,8 @@ Retrieve the questions for a survey.
 ## Overview 
 Retrieve the questions for a survey.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the questions for a survey.
 * SoftLayer_SurveyInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_SurveyObjectMask
 * SoftLayer_SurveyObjectFilter
@@ -35,5 +38,8 @@ Retrieve the questions for a survey.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Survey_Question'>SoftLayer_Survey_Question[] </a>
+* <a href='/reference/datatypes/SoftLayer_Survey_Question'>SoftLayer_Survey_Question[] </a>
+
+
+
 

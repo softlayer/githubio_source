@@ -19,6 +19,8 @@ Retrieve a list supported media types.
 ## Overview 
 Retrieve a list supported media types for SoftLayer's Data Transfer Service.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Retrieve a list supported media types for SoftLayer's Data Transfer Service.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_MediaObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Media_Type'>SoftLayer_Account_Media_Type[] </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Media_Type'>SoftLayer_Account_Media_Type[] </a>
+
+
+
 

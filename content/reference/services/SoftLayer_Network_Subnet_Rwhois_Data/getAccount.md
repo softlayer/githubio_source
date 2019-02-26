@@ -19,6 +19,8 @@ Retrieve the SoftLayer customer account associated with this reverse WHOIS data.
 ## Overview 
 Retrieve the SoftLayer customer account associated with this reverse WHOIS data.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the SoftLayer customer account associated with this reverse WHOIS data.
 * SoftLayer_Network_Subnet_Rwhois_DataInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_Rwhois_DataObjectMask
 * SoftLayer_Network_Subnet_Rwhois_DataObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

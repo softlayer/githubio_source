@@ -19,6 +19,8 @@ Retrieve an order's top level items. This normally includes the server line item
 ## Overview 
 Retrieve an order's top level items. This normally includes the server line item and any non-server additional services such as NAS or ISCSI.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve an order's top level items. This normally includes the server line item
 * SoftLayer_Billing_OrderInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_OrderObjectMask
 * SoftLayer_Billing_OrderObjectFilter
@@ -35,5 +38,8 @@ Retrieve an order's top level items. This normally includes the server line item
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item[] </a>
+
+
+
 

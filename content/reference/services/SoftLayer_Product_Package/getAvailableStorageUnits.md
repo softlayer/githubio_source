@@ -19,6 +19,8 @@ Retrieve the maximum number of available disk storage units associated with the 
 ## Overview 
 Retrieve the maximum number of available disk storage units associated with the servers in a package.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the maximum number of available disk storage units associated with the 
 * SoftLayer_Product_PackageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_Product_PackageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-unsigned integer
+* unsigned integer
+
+
+
 

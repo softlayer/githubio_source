@@ -19,6 +19,8 @@ Retrieve all available cancellation reason categories.
 ## Overview 
 getAllCancellationReasonCategories() retrieves a list of all cancellation reason categories 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ getAllCancellationReasonCategories() retrieves a list of all cancellation reason
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Item_Cancellation_Reason_CategoryObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason_Category'>SoftLayer_Billing_Item_Cancellation_Reason_Category[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason_Category'>SoftLayer_Billing_Item_Cancellation_Reason_Category[] </a>
+
+
+
 

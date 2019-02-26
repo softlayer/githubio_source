@@ -19,6 +19,8 @@ Retrieve l7Pools for load balancer.
 ## Overview 
 Retrieve l7Pools for load balancer.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve l7Pools for load balancer.
 * SoftLayer_Network_LBaaS_LoadBalancerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_LBaaS_LoadBalancerObjectMask
 * SoftLayer_Network_LBaaS_LoadBalancerObjectFilter
@@ -35,5 +38,8 @@ Retrieve l7Pools for load balancer.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Pool'>SoftLayer_Network_LBaaS_L7Pool[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Pool'>SoftLayer_Network_LBaaS_L7Pool[] </a>
+
+
+
 

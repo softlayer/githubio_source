@@ -21,6 +21,8 @@ Associates a remote subnet to the network tunnel.  When a remote subnet is assoc
 
 NOTE:  A network tunnel's configurations must be applied to the network device in order for the association described above to take effect. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,13 +33,12 @@ NOTE:  A network tunnel's configurations must be applied to the network device i
 * authenticate
 * SoftLayer_Network_Tunnel_Module_ContextInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_Tunnel_Module_Context::addPrivateSubnetToNetworkTunnel](/reference/services/SoftLayer_Network_Tunnel_Module_Context/addPrivateSubnetToNetworkTunnel )
 *  [SoftLayer_Network_Tunnel_Module_Context::addServiceSubnetToNetworkTunnel](/reference/services/SoftLayer_Network_Tunnel_Module_Context/addServiceSubnetToNetworkTunnel )
@@ -46,4 +47,7 @@ boolean
 *  [SoftLayer_Network_Tunnel_Module_Context::removeServiceSubnetFromNetworkTunnel](/reference/services/SoftLayer_Network_Tunnel_Module_Context/removeServiceSubnetFromNetworkTunnel )
 *  [SoftLayer_Network_Tunnel_Module_Context::applyConfigurationsToDevice](/reference/services/SoftLayer_Network_Tunnel_Module_Context/applyConfigurationsToDevice )
 *  [SoftLayer_Network_Customer_Subnet::createObject](/reference/services/SoftLayer_Network_Customer_Subnet/createObject )
+
+
+
 

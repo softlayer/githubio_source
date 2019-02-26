@@ -19,6 +19,8 @@ Edit the properties of a software component password.
 ## Overview 
 Edit the properties of a software component password such as the username, password, port, and notes. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit the properties of a software component password such as the username, passw
 * authenticate
 * SoftLayer_Software_Component_PasswordInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Security_Certificate_Request_Status record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Security_Certificate_Request_Status record.
 * SoftLayer_Security_Certificate_Request_StatusInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Security_Certificate_Request_StatusObjectMask
 * SoftLayer_Security_Certificate_Request_StatusObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Security_Certificate_Request_Status'>SoftLayer_Security_Certificate_Request_Status </a>
+* <a href='/reference/datatypes/SoftLayer_Security_Certificate_Request_Status'>SoftLayer_Security_Certificate_Request_Status </a>
+
+
+
 

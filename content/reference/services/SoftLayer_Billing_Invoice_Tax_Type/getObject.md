@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Billing_Invoice_Tax_Type record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Billing_Invoice_Tax_Type record.
 * SoftLayer_Billing_Invoice_Tax_TypeInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Invoice_Tax_TypeObjectMask
 * SoftLayer_Billing_Invoice_Tax_TypeObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Type'>SoftLayer_Billing_Invoice_Tax_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Type'>SoftLayer_Billing_Invoice_Tax_Type </a>
+
+
+
 

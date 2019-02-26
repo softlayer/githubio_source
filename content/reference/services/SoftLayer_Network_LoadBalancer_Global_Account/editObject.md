@@ -44,6 +44,8 @@ The first section contains the properties of the global load balancer account th
 
 There is a limit to the maximum number of hosts that you are allowed to add, and is defined by the allowedNumberOfHosts property on the global load balancer account.  The destination IP address of a host must be an IP address that belongs to your SoftLayer Account, or a local load balancer virtual IP address that belongs to your account.  The destination IP address and destination port are required and must be provided when creating a host. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -54,8 +56,65 @@ There is a limit to the maximum number of hosts that you are allowed to add, and
 * authenticate
 * SoftLayer_Network_LoadBalancer_Global_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "You are not allowed to change the hostname of this account." when trying to edit the hostname property of a global load balancer account. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "You are not allowed to change the load balancer id." when trying to edit the loadBalancerId property of a global load balancer account. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "You are not allowed to change the number of hosts." when trying to edit the allowedNumberOfHosts property of a global load balancer account. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "You are not allowed to change the connections per second." when trying to edit the connectionsPerSecond property of a global load balancer account. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "You are not allowed to change the average connections per second." when trying to edit the averageConnectionsPerSecond property of a global load balancer account. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "You have already reached the maximum allowed hosts for this account." when trying to add a new when you have already reached the maximum allowed number of hosts limit. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "The IP address you supplied does not belong to your account or a local load balancer." when trying to add or edit a host whose destination ip does not belong to your softlayer customer account, or a local load balancer virtual ip that belongs to your account. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "The host could not be created on the global load balancers." when adding a new host and the global load balancers return an error. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "The host could not be updated on the global load balancers." when editing a host and the global load balancers return an error. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "The host could not be removed from the global load balancers." when deleteing a host and the global load balancers return an error. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "A location could not be determined for the given ip: <destination ip>." when adding a new host that does not have a valid location. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "The health check type only accepts the folowing values: none, http, or tcp." when changing the health check type of a host. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "The destination IP and port are required and can not be null." when creating or editing a host with a blank destination ip or destination port. 
+
+
 

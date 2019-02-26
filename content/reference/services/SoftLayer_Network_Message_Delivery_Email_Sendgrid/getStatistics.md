@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ aliases:
 * authenticate
 * SoftLayer_Network_Message_Delivery_Email_SendgridInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_Message_Delivery_Email_Sendgrid_Statistics'>SoftLayer_Container_Network_Message_Delivery_Email_Sendgrid_Statistics[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_Message_Delivery_Email_Sendgrid_Statistics'>SoftLayer_Container_Network_Message_Delivery_Email_Sendgrid_Statistics[] </a>
+
+
+
 

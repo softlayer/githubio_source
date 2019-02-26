@@ -19,6 +19,8 @@ Returns phase two keylife default.
 ## Overview 
 The default phase 2 keylife used if a value is not provided.  The default value is set to 28800. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ The default phase 2 keylife used if a value is not provided.  The default value 
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

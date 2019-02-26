@@ -19,6 +19,8 @@ Retrieve the name of the bandwidth allotment belonging to a piece of hardware.
 ## Overview 
 Retrieve the name of the bandwidth allotment belonging to a piece of hardware.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the name of the bandwidth allotment belonging to a piece of hardware.
 * SoftLayer_Hardware_SecurityModule750InitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModule750ObjectMask
 * SoftLayer_Hardware_SecurityModule750ObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-integer
+* integer
+
+
+
 

@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Update a reserved capacity group. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Update a reserved capacity group.
 * authenticate
 * SoftLayer_Virtual_ReservedCapacityGroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

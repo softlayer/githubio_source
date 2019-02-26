@@ -19,6 +19,8 @@ Edit an existing detail object
 ## Overview 
 This method will edit an existing SoftLayer_Account_Regional_Registry_Detail object. For more detail, see [[SoftLayer_Account_Regional_Registry_Detail::createObject|createObject]]. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method will edit an existing SoftLayer_Account_Regional_Registry_Detail obj
 * authenticate
 * SoftLayer_Account_Regional_Registry_DetailInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

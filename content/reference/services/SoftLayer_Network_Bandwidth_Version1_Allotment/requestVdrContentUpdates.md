@@ -19,6 +19,8 @@ Move servers into our out of a bandwidth pool.
 ## Overview 
 This will move servers into a bandwidth pool, removing them from their previous bandwidth pool and optionally remove the bandwidth pool on completion. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -35,8 +37,25 @@ This will move servers into a bandwidth pool, removing them from their previous 
 * authenticate
 * SoftLayer_Network_Bandwidth_Version1_AllotmentInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_NotFound 
+
+> <<< EOT 
+
+* SoftLayer_Exception_NotReady 
+
+> <<< EOT 
+
+* SoftLayer_Exception_NotSupported 
+
+> <<< EOT 
+
+
 

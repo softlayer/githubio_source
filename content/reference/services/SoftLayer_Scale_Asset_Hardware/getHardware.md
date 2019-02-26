@@ -19,6 +19,8 @@ Retrieve the hardware for this asset.
 ## Overview 
 Retrieve the hardware for this asset.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the hardware for this asset.
 * SoftLayer_Scale_Asset_HardwareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Asset_HardwareObjectMask
 * SoftLayer_Scale_Asset_HardwareObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+
+
+
 

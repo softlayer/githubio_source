@@ -19,6 +19,8 @@ Retrieve the virtual guests that are members of the placement group.
 ## Overview 
 Retrieve the virtual guests that are members of the placement group.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the virtual guests that are members of the placement group.
 * SoftLayer_Virtual_PlacementGroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_PlacementGroupObjectMask
 * SoftLayer_Virtual_PlacementGroupObjectFilter
@@ -35,5 +38,8 @@ Retrieve the virtual guests that are members of the placement group.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+
+
+
 

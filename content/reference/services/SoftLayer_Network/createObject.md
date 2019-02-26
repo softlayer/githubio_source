@@ -45,6 +45,8 @@ Example networkIdentifier/CIDR combinations:
 * 10.0.0.0/16
 * 10.255.0.0/16
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -54,10 +56,25 @@ Example networkIdentifier/CIDR combinations:
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_NetworkObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network'>SoftLayer_Network </a>
+* <a href='/reference/datatypes/SoftLayer_Network'>SoftLayer_Network </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_NotReady 
+
+> <<< EOT 
+
+* SoftLayer_Exception_Account_Limit 
+
+> <<< EOT 
+
+
 

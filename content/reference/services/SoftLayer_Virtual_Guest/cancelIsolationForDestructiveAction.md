@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Reopens the public and/or private ports to reverse the changes made when the server was isolated for a destructive action. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Reopens the public and/or private ports to reverse the changes made when the ser
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

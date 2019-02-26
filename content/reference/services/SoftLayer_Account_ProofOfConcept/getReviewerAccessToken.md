@@ -19,6 +19,8 @@ Exchanges a token
 ## Overview 
 Exchanges a code for a token during reviewer validation. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Exchanges a code for a token during reviewer validation.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

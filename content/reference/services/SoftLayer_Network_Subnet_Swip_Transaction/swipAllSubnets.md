@@ -19,6 +19,8 @@ create SWIP transactions for all subnets that do not already have a SWIP transac
 ## Overview 
 swipAllSubnets finds all subnets attached to your account and attempts to create a SWIP transaction for all subnets that do not already have a SWIP transaction in progress. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ swipAllSubnets finds all subnets attached to your account and attempts to create
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

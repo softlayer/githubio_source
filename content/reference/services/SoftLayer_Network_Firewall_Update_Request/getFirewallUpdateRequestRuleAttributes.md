@@ -21,6 +21,8 @@ Get the possible attribute values for a firewall update request rule.  These are
 
 ''getFirewallUpdateRequestRuleAttributes'' returns a SoftLayer_Container_Utility_Network_Firewall_Rule_Attribute object upon success. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Get the possible attribute values for a firewall update request rule.  These are
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Utility_Network_Firewall_Rule_Attribute'>SoftLayer_Container_Utility_Network_Firewall_Rule_Attribute </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Utility_Network_Firewall_Rule_Attribute'>SoftLayer_Container_Utility_Network_Firewall_Rule_Attribute </a>
+
+
+
 

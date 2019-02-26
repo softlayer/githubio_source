@@ -19,6 +19,8 @@ Retrieve user(s) credentials to issue commands and/or interact with the server's
 ## Overview 
 Retrieve user(s) credentials to issue commands and/or interact with the server's remote management card.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve user(s) credentials to issue commands and/or interact with the server's
 * SoftLayer_Network_ComponentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_ComponentObjectMask
 * SoftLayer_Network_ComponentObjectFilter
@@ -35,5 +38,8 @@ Retrieve user(s) credentials to issue commands and/or interact with the server's
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware_Component_RemoteManagement_User'>SoftLayer_Hardware_Component_RemoteManagement_User[] </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware_Component_RemoteManagement_User'>SoftLayer_Hardware_Component_RemoteManagement_User[] </a>
+
+
+
 

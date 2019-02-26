@@ -19,6 +19,8 @@ Approve the changes of a modified order
 ## Overview 
 When an order has been modified, the customer will need to approve the changes. This method will allow the customer to approve the changes. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ When an order has been modified, the customer will need to approve the changes. 
 * authenticate
 * SoftLayer_Billing_OrderInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

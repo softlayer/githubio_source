@@ -19,6 +19,8 @@ Retrieve the type of the layout item object
 ## Overview 
 Retrieve the type of the layout item object
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the type of the layout item object
 * SoftLayer_Layout_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Layout_ItemObjectMask
 * SoftLayer_Layout_ItemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Layout_Item_Type'>SoftLayer_Layout_Item_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Layout_Item_Type'>SoftLayer_Layout_Item_Type </a>
+
+
+
 

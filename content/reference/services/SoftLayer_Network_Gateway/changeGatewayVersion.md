@@ -21,6 +21,8 @@ Used to create a transaction to upgrade or rollback the vSRX version for Juniper
 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,8 +33,10 @@ Used to create a transaction to upgrade or rollback the vSRX version for Juniper
 * authenticate
 * SoftLayer_Network_GatewayInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

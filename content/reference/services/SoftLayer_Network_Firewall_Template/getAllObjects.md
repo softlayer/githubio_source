@@ -23,6 +23,8 @@ Get all available firewall template objects.
 
 ''getAllObjects'' returns an array of SoftLayer_Network_Firewall_Template objects upon success. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,10 +33,14 @@ Get all available firewall template objects.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Firewall_TemplateObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Firewall_Template'>SoftLayer_Network_Firewall_Template[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Firewall_Template'>SoftLayer_Network_Firewall_Template[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve whether this disk image is meant for storage of custom user data suppli
 ## Overview 
 Retrieve whether this disk image is meant for storage of custom user data supplied with a Cloud Computing Instance order.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve whether this disk image is meant for storage of custom user data suppli
 * SoftLayer_Virtual_Disk_ImageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Disk_ImageObjectMask
 * SoftLayer_Virtual_Disk_ImageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -21,6 +21,8 @@ Allows authorized IBMer's to apply for a proof of concept account using account 
 
 Note that the proof of concept system is for internal IBM employees only and is not applicable to users outside the IBM organization. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ Note that the proof of concept system is for internal IBM employees only and is 
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Review_Summary'>SoftLayer_Container_Account_ProofOfConcept_Review_Summary </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Review_Summary'>SoftLayer_Container_Account_ProofOfConcept_Review_Summary </a>
+
+
+
 

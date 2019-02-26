@@ -19,6 +19,8 @@ Respond to the questions that a survey has.
 ## Overview 
 Response to a SoftLayer survey's questions. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Response to a SoftLayer survey's questions.
 * authenticate
 * SoftLayer_SurveyInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

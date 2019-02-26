@@ -19,6 +19,8 @@ Get the vulnerability report for a scan request.
 ## Overview 
 Get the vulnerability report for a scan request, formatted as HTML string. Previous scan reports are held indefinitely. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,17 @@ Get the vulnerability report for a scan request, formatted as HTML string. Previ
 * authenticate
 * SoftLayer_Network_Security_Scanner_RequestInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Network_Security_Scanner_Request_ReportNotFound 
+
+> Throws the error "The selected vulnerability report could not be found." when the report file could not be located. 
+
+
 

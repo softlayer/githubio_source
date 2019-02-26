@@ -19,6 +19,8 @@ cancel a bandwidth pooling and assign contents, if any, to bandwidth pool.
 ## Overview 
 This will remove a bandwidth pooling from a customer's allotments by cancelling the billing item.  All servers in that allotment will get moved to the account's vpr. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This will remove a bandwidth pooling from a customer's allotments by cancelling 
 * authenticate
 * SoftLayer_Network_Bandwidth_Version1_AllotmentInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

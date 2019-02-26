@@ -19,6 +19,8 @@ Retrieve the billing item for the original request.
 ## Overview 
 Retrieve the billing item for the original request.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the billing item for the original request.
 * SoftLayer_Account_Media_Data_Transfer_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Media_Data_Transfer_RequestObjectMask
 * SoftLayer_Account_Media_Data_Transfer_RequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+
+
+
 

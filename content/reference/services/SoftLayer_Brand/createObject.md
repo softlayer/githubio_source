@@ -19,6 +19,8 @@ Create a new brand record.
 ## Overview 
 Create a new brand record. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Create a new brand record.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_BrandObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>
+* <a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>
+
+
+
 

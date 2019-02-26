@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Whether this firewall qualifies for High Availability upgrade. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Whether this firewall qualifies for High Availability upgrade.
 * authenticate
 * SoftLayer_Network_Vlan_FirewallInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

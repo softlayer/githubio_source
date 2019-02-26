@@ -19,6 +19,8 @@ Retrieve the virtual guest object that will be monitored.
 ## Overview 
 Retrieve the virtual guest object that will be monitored.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the virtual guest object that will be monitored.
 * SoftLayer_User_Customer_Notification_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_Notification_Virtual_GuestObjectMask
 * SoftLayer_User_Customer_Notification_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
+
+
+
 

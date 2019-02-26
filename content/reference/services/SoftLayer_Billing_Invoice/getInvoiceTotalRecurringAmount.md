@@ -19,6 +19,8 @@ Retrieve the total Recurring amount of this invoice. This amount does not includ
 ## Overview 
 Retrieve the total Recurring amount of this invoice. This amount does not include taxes or one time charges.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the total Recurring amount of this invoice. This amount does not includ
 * SoftLayer_Billing_InvoiceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_InvoiceObjectMask
 * SoftLayer_Billing_InvoiceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

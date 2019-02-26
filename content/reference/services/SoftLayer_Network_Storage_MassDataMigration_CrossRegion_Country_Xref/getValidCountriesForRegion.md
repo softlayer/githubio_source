@@ -19,6 +19,8 @@ return countries assigned to the region having pricing info set.
 ## Overview 
 Returns countries assigned to the region having pricing info set. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Returns countries assigned to the region having pricing info set.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_XrefObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref'>SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref'>SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref[] </a>
+
+
+
 

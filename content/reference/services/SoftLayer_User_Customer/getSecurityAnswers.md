@@ -19,6 +19,8 @@ Retrieve a portal user's security question answers. Some portal users may not ha
 ## Overview 
 Retrieve a portal user's security question answers. Some portal users may not have security answers or may not be configured to require answering a security question on login.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a portal user's security question answers. Some portal users may not ha
 * SoftLayer_User_CustomerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_CustomerObjectMask
 * SoftLayer_User_CustomerObjectFilter
@@ -35,5 +38,8 @@ Retrieve a portal user's security question answers. Some portal users may not ha
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_Security_Answer'>SoftLayer_User_Customer_Security_Answer[] </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_Security_Answer'>SoftLayer_User_Customer_Security_Answer[] </a>
+
+
+
 

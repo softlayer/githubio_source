@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Scale_Termination_Policy record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Scale_Termination_Policy record.
 * SoftLayer_Scale_Termination_PolicyInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Termination_PolicyObjectMask
 * SoftLayer_Scale_Termination_PolicyObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Termination_Policy'>SoftLayer_Scale_Termination_Policy </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Termination_Policy'>SoftLayer_Scale_Termination_Policy </a>
+
+
+
 

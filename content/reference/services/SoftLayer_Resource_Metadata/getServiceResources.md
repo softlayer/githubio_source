@@ -19,6 +19,8 @@ Obtain service resources associated with the resource
 ## Overview 
 The getServiceResources method retrieves all service resources associated with the resource. Service resources are additional resources that may be used by this resource. The output format is <type>=<address> for each service resource. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -26,8 +28,10 @@ The getServiceResources method retrieves all service resources associated with t
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Resource_Metadata_ServiceResource'>SoftLayer_Container_Resource_Metadata_ServiceResource[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Resource_Metadata_ServiceResource'>SoftLayer_Container_Resource_Metadata_ServiceResource[] </a>
+
+
+
 

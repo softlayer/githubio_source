@@ -19,6 +19,8 @@ Create an upgrade request ticket for the SoftLayer sales team.
 ## Overview 
 Create a ticket for the SoftLayer sales team to perform a hardware or service upgrade. Our sales team will work with you on upgrade feasibility and pricing and then send the upgrade ticket to the proper department to perform the actual upgrade. Service affecting upgrades, such as server hardware or CloudLayer Computing Instance upgrades that require the server powered down must have a two hour maintenance specified for our datacenter engineers to perform your upgrade. Account level upgrades, such as adding PPTP VPN users, CDNLayer accounts, and monitoring services are processed much faster and do not require a maintenance window. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -33,10 +35,29 @@ Create a ticket for the SoftLayer sales team to perform a hardware or service up
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TicketObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "Unable to open an upgrade ticket on hardware id <$attachmentId>" when the given hardware or CloudLayer Computing Instance id does not exist or if the user accessing the API doesn't have access to that piece of hardware or instance. 
+
+* SoftLayer_Exception 
+
+> Throw the exception "Please provide an upgrade maintenance window." when a maintenace window is not provided. 
+
+* SoftLayer_Exception 
+
+> Throw the exception "Please provide upgrade details." when upgrade details are not provided. 
+
+
 

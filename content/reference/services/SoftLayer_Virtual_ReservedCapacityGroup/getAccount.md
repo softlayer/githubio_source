@@ -19,6 +19,8 @@ Retrieve the account that the reserved capacity group is implemented on.
 ## Overview 
 Retrieve the account that the reserved capacity group is implemented on.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the account that the reserved capacity group is implemented on.
 * SoftLayer_Virtual_ReservedCapacityGroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_ReservedCapacityGroupObjectMask
 * SoftLayer_Virtual_ReservedCapacityGroupObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

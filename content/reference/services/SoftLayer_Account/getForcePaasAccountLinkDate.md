@@ -19,6 +19,8 @@ Retrieve timestamp representing the point in time when an account is required to
 ## Overview 
 Retrieve timestamp representing the point in time when an account is required to link with PaaS.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve timestamp representing the point in time when an account is required to
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a CDN account's status presented in a more detailed data type.
 ## Overview 
 Retrieve a CDN account's status presented in a more detailed data type.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a CDN account's status presented in a more detailed data type.
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_ContentDelivery_AccountObjectMask
 * SoftLayer_Network_ContentDelivery_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Account_Status'>SoftLayer_Network_ContentDelivery_Account_Status </a>
+* <a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Account_Status'>SoftLayer_Network_ContentDelivery_Account_Status </a>
+
+
+
 

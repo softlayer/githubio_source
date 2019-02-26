@@ -19,6 +19,8 @@ Removes a boot parameter
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Removes a boot parameter
 * authenticate
 * SoftLayer_Virtual_Guest_Boot_ParameterInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve location Group ID of CleverSafe cross region.
 ## Overview 
 Retrieve location Group ID of CleverSafe cross region.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve location Group ID of CleverSafe cross region.
 * SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_XrefInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_XrefObjectMask
 * SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_XrefObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group </a>
+* <a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group </a>
+
+
+
 

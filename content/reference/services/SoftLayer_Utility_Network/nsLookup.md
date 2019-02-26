@@ -19,6 +19,8 @@ Perform a nameserver lookup on given address.
 ## Overview 
 A method used to return the nameserver information for a given address
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,9 @@ A method used to return the nameserver information for a given address
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-string
+* string
 
 ### External Links
 
@@ -41,9 +42,23 @@ string
 
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Utility_Network::ping](/reference/services/SoftLayer_Utility_Network/ping )
 *  [SoftLayer_Utility_Network::traceroute](/reference/services/SoftLayer_Utility_Network/traceroute )
 *  [SoftLayer_Utility_Network::whois](/reference/services/SoftLayer_Utility_Network/whois )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Please provide an address to nslookup." if the address parameter is empty. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Please provide a valid IP address or hostname." if the address parameter is not a valid IP address or hostname. 
+
+
 

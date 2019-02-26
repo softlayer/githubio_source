@@ -19,6 +19,8 @@ Returns the authentication mode
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Returns the authentication mode
 * authenticate
 * SoftLayer_User_Customer_External_Binding_PhoneInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_User_Customer_External_Binding_Phone_Mode'>SoftLayer_Container_User_Customer_External_Binding_Phone_Mode </a>
+* <a href='/reference/datatypes/SoftLayer_Container_User_Customer_External_Binding_Phone_Mode'>SoftLayer_Container_User_Customer_External_Binding_Phone_Mode </a>
+
+
+
 

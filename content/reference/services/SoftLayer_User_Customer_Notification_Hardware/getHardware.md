@@ -19,6 +19,8 @@ Retrieve the hardware object that will be monitored.
 ## Overview 
 Retrieve the hardware object that will be monitored.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the hardware object that will be monitored.
 * SoftLayer_User_Customer_Notification_HardwareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_Notification_HardwareObjectMask
 * SoftLayer_User_Customer_Notification_HardwareObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+
+
+
 

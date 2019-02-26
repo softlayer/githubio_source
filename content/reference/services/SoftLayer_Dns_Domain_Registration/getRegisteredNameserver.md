@@ -19,6 +19,8 @@ Retrieves a registered nameserver.
 ## Overview 
 The getRegisteredNameserver method retrieves registered nameservers. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ The getRegisteredNameserver method retrieves registered nameservers.
 * authenticate
 * SoftLayer_Dns_Domain_RegistrationInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Nameserver'>SoftLayer_Container_Dns_Domain_Registration_Nameserver </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Nameserver'>SoftLayer_Container_Dns_Domain_Registration_Nameserver </a>
+
+
+
 

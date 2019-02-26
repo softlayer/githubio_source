@@ -27,6 +27,8 @@ Edit the RWHOIS record by passing in a modified version of the record object. Al
 ## Overview 
 Edit the RWHOIS record by passing in a modified version of the record object.  All fields are editable.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -37,8 +39,10 @@ Edit the RWHOIS record by passing in a modified version of the record object.  A
 * authenticate
 * SoftLayer_Network_Subnet_Rwhois_DataInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

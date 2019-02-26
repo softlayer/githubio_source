@@ -19,6 +19,8 @@ Retrieve the update request that this rule belongs to.
 ## Overview 
 Retrieve the update request that this rule belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the update request that this rule belongs to.
 * SoftLayer_Network_Firewall_Update_Request_RuleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Firewall_Update_Request_RuleObjectMask
 * SoftLayer_Network_Firewall_Update_Request_RuleObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request'>SoftLayer_Network_Firewall_Update_Request </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request'>SoftLayer_Network_Firewall_Update_Request </a>
+
+
+
 

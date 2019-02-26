@@ -19,6 +19,8 @@ Processes IBMer requests for new IaaS/PaaS accounts
 ## Overview 
 Validates request and kicks off the approval process. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Validates request and kicks off the approval process.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

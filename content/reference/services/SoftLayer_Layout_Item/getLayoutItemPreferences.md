@@ -19,6 +19,8 @@ Retrieve the layout preferences assigned to this layout item
 ## Overview 
 Retrieve the layout preferences assigned to this layout item
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the layout preferences assigned to this layout item
 * SoftLayer_Layout_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Layout_ItemObjectMask
 * SoftLayer_Layout_ItemObjectFilter
@@ -35,5 +38,8 @@ Retrieve the layout preferences assigned to this layout item
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Layout_Preference'>SoftLayer_Layout_Preference[] </a>
+* <a href='/reference/datatypes/SoftLayer_Layout_Preference'>SoftLayer_Layout_Preference[] </a>
+
+
+
 

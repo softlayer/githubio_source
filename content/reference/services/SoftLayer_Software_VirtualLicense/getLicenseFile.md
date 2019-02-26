@@ -19,6 +19,8 @@ Get the file for a virtual license, if it exists
 ## Overview 
 Attempt to retrieve the file associated with a virtual license, if such a file exists.  If there is no file for this virtual license, calling this method will either throw an exception or return false. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Attempt to retrieve the file associated with a virtual license, if such a file e
 * authenticate
 * SoftLayer_Software_VirtualLicenseInitParameters
 
-### Optional Headers
 
 ### Return Values
-binary data
+* binary data
+
+
+
 

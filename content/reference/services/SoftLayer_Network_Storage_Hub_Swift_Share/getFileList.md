@@ -19,6 +19,8 @@ Get a list of the files in a container and path.
 ## Overview 
 This method returns a collection of the file objects within a container and the given path. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,9 +31,13 @@ This method returns a collection of the file objects within a container and the 
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Utility_File_Entity'>SoftLayer_Container_Utility_File_Entity[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Utility_File_Entity'>SoftLayer_Container_Utility_File_Entity[] </a>
+
+
+
 

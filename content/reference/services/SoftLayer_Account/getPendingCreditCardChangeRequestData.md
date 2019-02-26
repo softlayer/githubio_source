@@ -19,6 +19,8 @@ Retrieve details of all credit card change requests which have not been processe
 ## Overview 
 Before being approved for general use, a credit card must be approved by a SoftLayer agent. Once a credit card change request has been either approved or denied, the change request will no longer appear in the list of pending change requests. This method will return a list of all pending change requests as well as a portion of the data from the original request. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ Before being approved for general use, a credit card must be approved by a SoftL
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Account_Payment_Method_CreditCard'>SoftLayer_Container_Account_Payment_Method_CreditCard[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Account_Payment_Method_CreditCard'>SoftLayer_Container_Account_Payment_Method_CreditCard[] </a>
+
+
+
 

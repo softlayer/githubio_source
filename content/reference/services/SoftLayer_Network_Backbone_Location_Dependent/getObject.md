@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_Backbone_Location_Dependent record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_Backbone_Location_Dependent record.
 * SoftLayer_Network_Backbone_Location_DependentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Backbone_Location_DependentObjectMask
 * SoftLayer_Network_Backbone_Location_DependentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Backbone_Location_Dependent'>SoftLayer_Network_Backbone_Location_Dependent </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Backbone_Location_Dependent'>SoftLayer_Network_Backbone_Location_Dependent </a>
+
+
+
 

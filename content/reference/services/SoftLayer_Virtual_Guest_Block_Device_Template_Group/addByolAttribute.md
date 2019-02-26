@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 This method allows you to mark this image template as customer managed software license (BYOL) 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method allows you to mark this image template as customer managed software 
 * authenticate
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

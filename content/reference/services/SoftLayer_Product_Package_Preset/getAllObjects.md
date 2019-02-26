@@ -19,6 +19,8 @@ Get all active package presets
 ## Overview 
 This method returns all the active package presets.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ This method returns all the active package presets.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Package_PresetObjectMask
 * SoftLayer_ObjectMask
@@ -34,5 +37,8 @@ This method returns all the active package presets.
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset[] </a>
+
+
+
 

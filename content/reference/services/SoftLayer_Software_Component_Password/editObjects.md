@@ -19,6 +19,8 @@ Edit more than one password from a software component.
 ## Overview 
 Edit more than one password from a software component. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Edit more than one password from a software component.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

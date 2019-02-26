@@ -19,6 +19,8 @@ Retrieve all ticket subjects.
 ## Overview 
 Retrieve all possible ticket subjects. The SoftLayer customer portal uses this method in the add standard support ticket form.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve all possible ticket subjects. The SoftLayer customer portal uses this m
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Ticket_SubjectObjectMask
 * SoftLayer_ObjectMask
@@ -34,5 +37,8 @@ Retrieve all possible ticket subjects. The SoftLayer customer portal uses this m
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject[] </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Returns the keylife min and max limits.
 ## Overview 
 The keylife limits.  Keylife max limit is set to 120.  Keylife min limit is set to 172800.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ The keylife limits.  Keylife max limit is set to 120.  Keylife min limit is set 
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-array of integers
+* array of integers
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Account_Lockdown_Request record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Account_Lockdown_Request record.
 * SoftLayer_Account_Lockdown_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Lockdown_RequestObjectMask
 * SoftLayer_Account_Lockdown_RequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Lockdown_Request'>SoftLayer_Account_Lockdown_Request </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Lockdown_Request'>SoftLayer_Account_Lockdown_Request </a>
+
+
+
 

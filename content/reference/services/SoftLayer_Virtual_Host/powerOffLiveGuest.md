@@ -19,6 +19,8 @@ Power off a guest.
 ## Overview 
 Power off a virtual guest 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Power off a virtual guest
 * authenticate
 * SoftLayer_Virtual_HostInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

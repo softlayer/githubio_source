@@ -19,6 +19,8 @@ Get all supported ciphers.
 ## Overview 
 Returns all supported cipher list 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Returns all supported cipher list
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_LBaaS_SSLCipherObjectMask
 * SoftLayer_ObjectMask
@@ -34,5 +37,8 @@ Returns all supported cipher list
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_LBaaS_SSLCipher'>SoftLayer_Network_LBaaS_SSLCipher[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_LBaaS_SSLCipher'>SoftLayer_Network_LBaaS_SSLCipher[] </a>
+
+
+
 

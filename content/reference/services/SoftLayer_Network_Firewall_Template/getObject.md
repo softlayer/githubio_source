@@ -21,6 +21,8 @@ getObject returns a SoftLayer_Network_Firewall_Template object. You can retrieve
 
 @SLDNDocumentation Service See Also SoftLayer_Network_Firewall_Update_Request 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,11 +32,26 @@ getObject returns a SoftLayer_Network_Firewall_Template object. You can retrieve
 * SoftLayer_Network_Firewall_TemplateInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Firewall_TemplateObjectMask
 * SoftLayer_Network_Firewall_TemplateObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Firewall_Template'>SoftLayer_Network_Firewall_Template </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Firewall_Template'>SoftLayer_Network_Firewall_Template </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_ObjectNotFound 
+
+> Throw the error "Unable to find object with id of {id}." if the given initialization parameter has an invalid id field. 
+
+* SoftLayer_Exception_AccessDenied 
+
+> Throw the error "Access Denied." if the given initialization parameter id field is not the account id of the user making the API call. 
+
+
 

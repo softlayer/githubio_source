@@ -19,6 +19,8 @@ Retrieve the hardware that is being monitored by this monitoring instance
 ## Overview 
 Retrieve the hardware that is being monitored by this monitoring instance
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the hardware that is being monitored by this monitoring instance
 * SoftLayer_Network_Monitor_Version1_Query_HostInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Monitor_Version1_Query_HostObjectMask
 * SoftLayer_Network_Monitor_Version1_Query_HostObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+
+
+
 

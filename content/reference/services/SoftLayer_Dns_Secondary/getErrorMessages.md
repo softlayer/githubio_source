@@ -19,6 +19,8 @@ Retrieve the error messages created during secondary DNS record transfer.
 ## Overview 
 Retrieve the error messages created during secondary DNS record transfer.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the error messages created during secondary DNS record transfer.
 * SoftLayer_Dns_SecondaryInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Dns_SecondaryObjectMask
 * SoftLayer_Dns_SecondaryObjectFilter
@@ -35,5 +38,8 @@ Retrieve the error messages created during secondary DNS record transfer.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Message'>SoftLayer_Dns_Message[] </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Message'>SoftLayer_Dns_Message[] </a>
+
+
+
 

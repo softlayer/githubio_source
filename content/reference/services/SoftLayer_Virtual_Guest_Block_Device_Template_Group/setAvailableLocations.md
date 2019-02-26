@@ -19,6 +19,8 @@ This method generates the necessary transaction(s) to set available locations fo
 ## Overview 
 Create transaction(s) to set the archived block device available locations
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Create transaction(s) to set the archived block device available locations
 * authenticate
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

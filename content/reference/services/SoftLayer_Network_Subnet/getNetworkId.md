@@ -19,6 +19,8 @@ Retrieve the Private Network identifier this subnet is within, if applicable.
 ## Overview 
 Retrieve the Private Network identifier this subnet is within, if applicable.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the Private Network identifier this subnet is within, if applicable.
 * SoftLayer_Network_SubnetInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_SubnetObjectMask
 * SoftLayer_Network_SubnetObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-integer
+* integer
+
+
+
 
