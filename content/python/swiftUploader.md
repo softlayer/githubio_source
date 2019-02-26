@@ -9,6 +9,7 @@ tags:
     - "swift"
     - "tools"
     - "template"
+    - "deprecated"
 ---
 
 ## Overview
