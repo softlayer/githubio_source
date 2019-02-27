@@ -19,6 +19,8 @@ Retrieve the inside VLAN record if this VLAN is inside a network gateway.
 ## Overview 
 Retrieve the inside VLAN record if this VLAN is inside a network gateway.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the inside VLAN record if this VLAN is inside a network gateway.
 * SoftLayer_Network_VlanInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_VlanObjectMask
 * SoftLayer_Network_VlanObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Gateway_Vlan'>SoftLayer_Network_Gateway_Vlan </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Gateway_Vlan'>SoftLayer_Network_Gateway_Vlan </a>
+
+
+
 

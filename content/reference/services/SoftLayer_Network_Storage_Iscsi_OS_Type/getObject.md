@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_Storage_Iscsi_OS_Type record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_Storage_Iscsi_OS_Type record.
 * SoftLayer_Network_Storage_Iscsi_OS_TypeInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Iscsi_OS_TypeObjectMask
 * SoftLayer_Network_Storage_Iscsi_OS_TypeObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Iscsi_OS_Type'>SoftLayer_Network_Storage_Iscsi_OS_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Iscsi_OS_Type'>SoftLayer_Network_Storage_Iscsi_OS_Type </a>
+
+
+
 

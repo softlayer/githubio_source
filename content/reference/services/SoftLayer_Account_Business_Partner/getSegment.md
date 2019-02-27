@@ -19,6 +19,8 @@ Retrieve segment indicator used to categorize business partner revenue.
 ## Overview 
 Retrieve segment indicator used to categorize business partner revenue.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve segment indicator used to categorize business partner revenue.
 * SoftLayer_Account_Business_PartnerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Business_PartnerObjectMask
 * SoftLayer_Account_Business_PartnerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Business_Partner_Segment'>SoftLayer_Business_Partner_Segment </a>
+* <a href='/reference/datatypes/SoftLayer_Business_Partner_Segment'>SoftLayer_Business_Partner_Segment </a>
+
+
+
 

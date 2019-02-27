@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ aliases:
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Invoice_Tax_StatusObjectMask
 * SoftLayer_ObjectMask
@@ -34,5 +37,8 @@ aliases:
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Status'>SoftLayer_Billing_Invoice_Tax_Status[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Status'>SoftLayer_Billing_Invoice_Tax_Status[] </a>
+
+
+
 

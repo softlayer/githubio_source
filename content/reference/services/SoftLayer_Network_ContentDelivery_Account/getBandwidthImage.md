@@ -19,6 +19,8 @@ Returns an object with bandwidth graph data
 ## Overview 
 This method returns a bandwidth graph wrapped in [[SoftLayer_Container_Bandwidth_GraphOutputsExtended|Bandwidth Graph]] object. [[SoftLayer_Container_Bandwidth_GraphOutputsExtended|Bandwidth Graph]] object contains a starting time, ending time, graph title, graph binary data, and in and outbound total bytes. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,13 +33,30 @@ This method returns a bandwidth graph wrapped in [[SoftLayer_Container_Bandwidth
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputsExtended'>SoftLayer_Container_Bandwidth_GraphOutputsExtended </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputsExtended'>SoftLayer_Container_Bandwidth_GraphOutputsExtended </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_ContentDelivery_Account::getBandwidthData](/reference/services/SoftLayer_Network_ContentDelivery_Account/getBandwidthData )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a user does not have CDN_BANDWIDTH_VIEW privilege. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if the $beginDateTime is not a valid date value. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if the $endDateTime is not a valid date value. 
+
+
 

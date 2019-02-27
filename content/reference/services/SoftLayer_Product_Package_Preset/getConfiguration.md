@@ -19,6 +19,8 @@ Retrieve the preset configuration (category and price).
 ## Overview 
 Retrieve the preset configuration (category and price).
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the preset configuration (category and price).
 * SoftLayer_Product_Package_PresetInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Package_PresetObjectMask
 * SoftLayer_Product_Package_PresetObjectFilter
@@ -35,5 +38,8 @@ Retrieve the preset configuration (category and price).
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Package_Preset_Configuration'>SoftLayer_Product_Package_Preset_Configuration[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Package_Preset_Configuration'>SoftLayer_Product_Package_Preset_Configuration[] </a>
+
+
+
 

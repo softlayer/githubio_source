@@ -19,6 +19,8 @@ Retrieve business Partner details for the brand. Country Enterprise Code, Channe
 ## Overview 
 Retrieve business Partner details for the brand. Country Enterprise Code, Channel, Segment, Reseller Level.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve business Partner details for the brand. Country Enterprise Code, Channe
 * SoftLayer_BrandInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_BrandObjectMask
 * SoftLayer_BrandObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Brand_Business_Partner'>SoftLayer_Brand_Business_Partner </a>
+* <a href='/reference/datatypes/SoftLayer_Brand_Business_Partner'>SoftLayer_Brand_Business_Partner </a>
+
+
+
 

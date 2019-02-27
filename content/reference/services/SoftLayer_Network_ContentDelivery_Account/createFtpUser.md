@@ -24,6 +24,8 @@ Optionally, you can provide a new password when invoking this method and a new p
 * ...must be an alphanumeric value
 * ...can contain these characters: - _ ! % # $ ^ & *
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -34,13 +36,30 @@ Optionally, you can provide a new password when invoking this method and a new p
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_ContentDelivery_Account::createFtpUser](/reference/services/SoftLayer_Network_ContentDelivery_Account/createFtpUser )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a user does not have CDN_FILE_MANAGE privilege. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception If a user tries to create another CDN FTP account. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a new password does not follow the password rule. 
+
+
 

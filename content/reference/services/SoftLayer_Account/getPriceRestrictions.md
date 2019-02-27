@@ -19,6 +19,8 @@ Retrieve the item price that an account is restricted to.
 ## Overview 
 Retrieve the item price that an account is restricted to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve the item price that an account is restricted to.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve the item price that an account is restricted to.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item_Price_Account_Restriction'>SoftLayer_Product_Item_Price_Account_Restriction[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item_Price_Account_Restriction'>SoftLayer_Product_Item_Price_Account_Restriction[] </a>
+
+
+
 

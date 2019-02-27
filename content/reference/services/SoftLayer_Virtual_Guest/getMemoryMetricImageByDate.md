@@ -19,6 +19,8 @@ Retrieve a visual representation of the amount of memory used for the specified 
 ## Overview 
 Use this method when needing a image displaying the amount of memory used over time for a single computing instance. It will gather the correct input parameters for the generic graphing utility based on the date ranges 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ Use this method when needing a image displaying the amount of memory used over t
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+
+
+
 

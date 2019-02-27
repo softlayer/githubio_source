@@ -19,6 +19,8 @@ Gets a container representing the pending request
 ## Overview 
 After validating the requesting user through the access token, generates a container with the relevant request information and returns it. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ After validating the requesting user through the access token, generates a conta
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Account_Internal_Ibm_Request'>SoftLayer_Container_Account_Internal_Ibm_Request </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Account_Internal_Ibm_Request'>SoftLayer_Container_Account_Internal_Ibm_Request </a>
+
+
+
 

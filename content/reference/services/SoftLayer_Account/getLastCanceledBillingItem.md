@@ -19,6 +19,8 @@ Retrieve the most recently canceled billing item.
 ## Overview 
 Retrieve the most recently canceled billing item.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve the most recently canceled billing item.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+
+
+
 

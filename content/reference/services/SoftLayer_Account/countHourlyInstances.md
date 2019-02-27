@@ -19,6 +19,8 @@ Retrieve the number of hourly services on an account that are active, plus any p
 ## Overview 
 Retrieve the number of hourly services on an account that are active, plus any pending orders with hourly services attached. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ Retrieve the number of hourly services on an account that are active, plus any p
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

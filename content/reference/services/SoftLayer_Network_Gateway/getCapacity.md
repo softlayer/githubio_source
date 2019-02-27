@@ -21,6 +21,8 @@ Returns the Gbps capacity of the gateway object
 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ Returns the Gbps capacity of the gateway object
 * authenticate
 * SoftLayer_Network_GatewayInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

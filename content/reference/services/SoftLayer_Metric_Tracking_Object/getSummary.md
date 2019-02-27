@@ -19,6 +19,8 @@ Retrieve metric summary.
 ## Overview 
 Retrieve a metric summary. Ideal if you want to employ your own graphing systems.  Note not all metric types contain a summary.  These return null. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,13 +31,15 @@ Retrieve a metric summary. Ideal if you want to employ your own graphing systems
 * authenticate
 * SoftLayer_Metric_Tracking_ObjectInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Metric_Tracking_Object_Summary'>SoftLayer_Container_Metric_Tracking_Object_Summary </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Metric_Tracking_Object_Summary'>SoftLayer_Container_Metric_Tracking_Object_Summary </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Metric_Tracking_Object::getDetailsForDateRange](/reference/services/SoftLayer_Metric_Tracking_Object/getDetailsForDateRange )
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Virtua
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Virtua
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServerObjectMask
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer </a>
+
+
+
 

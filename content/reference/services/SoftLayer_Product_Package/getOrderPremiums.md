@@ -19,6 +19,8 @@ Retrieve the premium price modifiers associated with the [[SoftLayer_Product_Ite
 ## Overview 
 Retrieve the premium price modifiers associated with the [[SoftLayer_Product_Item_Price]] and [[SoftLayer_Location]] objects in a package.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the premium price modifiers associated with the [[SoftLayer_Product_Ite
 * SoftLayer_Product_PackageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_Product_PackageObjectFilter
@@ -35,5 +38,8 @@ Retrieve the premium price modifiers associated with the [[SoftLayer_Product_Ite
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item_Price_Premium'>SoftLayer_Product_Item_Price_Premium[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item_Price_Premium'>SoftLayer_Product_Item_Price_Premium[] </a>
+
+
+
 

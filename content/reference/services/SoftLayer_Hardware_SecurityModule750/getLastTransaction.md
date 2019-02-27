@@ -19,6 +19,8 @@ Retrieve information regarding the last transaction a server performed.
 ## Overview 
 Retrieve information regarding the last transaction a server performed.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve information regarding the last transaction a server performed.
 * SoftLayer_Hardware_SecurityModule750InitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModule750ObjectMask
 * SoftLayer_Hardware_SecurityModule750ObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>
+* <a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>
+
+
+
 

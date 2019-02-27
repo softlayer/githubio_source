@@ -19,6 +19,8 @@ Retrieve a server's public bandwidth usage summary
 ## Overview 
 Retrieve a brief summary of a server's public network bandwidth usage. getPublicBandwidthDataSummary retrieves a server's bandwidth allocation for its billing period, its estimated usage during its billing period, and an estimation of how much bandwidth it will use during its billing period based on its current usage. A server's projected bandwidth usage increases in accuracy as it progresses through its billing period. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,17 @@ Retrieve a brief summary of a server's public network bandwidth usage. getPublic
 * authenticate
 * SoftLayer_Hardware_SecurityModule750InitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_Bandwidth_Data_Summary'>SoftLayer_Container_Network_Bandwidth_Data_Summary </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_Bandwidth_Data_Summary'>SoftLayer_Container_Network_Bandwidth_Data_Summary </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "Unable to load the public bandwidth data summary for the server {id}." if the API is unable to retrieve a server's public bandwidth data. 
+
+
 

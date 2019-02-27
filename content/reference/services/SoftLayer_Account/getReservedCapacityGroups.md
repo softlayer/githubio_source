@@ -19,6 +19,8 @@ Retrieve the reserved capacity groups owned by this account.
 ## Overview 
 Retrieve the reserved capacity groups owned by this account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve the reserved capacity groups owned by this account.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve the reserved capacity groups owned by this account.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup'>SoftLayer_Virtual_ReservedCapacityGroup[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup'>SoftLayer_Virtual_ReservedCapacityGroup[] </a>
+
+
+
 

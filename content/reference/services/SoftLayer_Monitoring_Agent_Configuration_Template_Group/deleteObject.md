@@ -19,6 +19,8 @@ Deletes a customer configuration template group.
 ## Overview 
 Deletes a customer configuration template group. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Deletes a customer configuration template group.
 * authenticate
 * SoftLayer_Monitoring_Agent_Configuration_Template_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

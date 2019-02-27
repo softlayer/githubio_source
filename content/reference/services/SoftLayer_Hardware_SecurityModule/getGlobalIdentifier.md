@@ -19,6 +19,8 @@ Retrieve a hardware's universally unique identifier.
 ## Overview 
 Retrieve a hardware's universally unique identifier.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a hardware's universally unique identifier.
 * SoftLayer_Hardware_SecurityModuleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModuleObjectMask
 * SoftLayer_Hardware_SecurityModuleObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

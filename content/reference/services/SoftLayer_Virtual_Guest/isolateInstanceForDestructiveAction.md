@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Closes the public or private ports to isolate the instance before a destructive action. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Closes the public or private ports to isolate the instance before a destructive 
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

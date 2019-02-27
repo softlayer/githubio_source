@@ -19,6 +19,8 @@ Retrieve sSH keys to be installed on the server during provisioning or an OS rel
 ## Overview 
 Retrieve sSH keys to be installed on the server during provisioning or an OS reload.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve sSH keys to be installed on the server during provisioning or an OS rel
 * SoftLayer_Software_Component_PasswordInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_Component_PasswordObjectMask
 * SoftLayer_Software_Component_PasswordObjectFilter
@@ -35,5 +38,8 @@ Retrieve sSH keys to be installed on the server during provisioning or an OS rel
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Security_Ssh_Key'>SoftLayer_Security_Ssh_Key[] </a>
+* <a href='/reference/datatypes/SoftLayer_Security_Ssh_Key'>SoftLayer_Security_Ssh_Key[] </a>
+
+
+
 

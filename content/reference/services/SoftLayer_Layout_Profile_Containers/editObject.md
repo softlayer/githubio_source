@@ -19,6 +19,8 @@ Edit the object by passing in a modified instance of the object
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit the object by passing in a modified instance of the object
 * authenticate
 * SoftLayer_Layout_Profile_ContainersInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

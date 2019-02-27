@@ -19,6 +19,8 @@ Retrieve the total public outbound bandwidth for the current billing cycle.
 ## Overview 
 Retrieve the total public outbound bandwidth for the current billing cycle.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the total public outbound bandwidth for the current billing cycle.
 * SoftLayer_Network_Application_Delivery_ControllerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Application_Delivery_ControllerObjectMask
 * SoftLayer_Network_Application_Delivery_ControllerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

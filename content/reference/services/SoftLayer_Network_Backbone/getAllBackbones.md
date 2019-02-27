@@ -19,6 +19,8 @@ Retrieve a list of all SoftLayer Backbones
 ## Overview 
 Retrieve a list of all SoftLayer backbone connections. Use this method if you need all backbones or don't know the id number of a specific backbone. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve a list of all SoftLayer backbone connections. Use this method if you ne
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_BackboneObjectMask
 * SoftLayer_ObjectMask
@@ -34,10 +37,13 @@ Retrieve a list of all SoftLayer backbone connections. Use this method if you ne
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Backbone'>SoftLayer_Network_Backbone[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Backbone'>SoftLayer_Network_Backbone[] </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_Backbone::getObject](/reference/services/SoftLayer_Network_Backbone/getObject )
+
+
+
 

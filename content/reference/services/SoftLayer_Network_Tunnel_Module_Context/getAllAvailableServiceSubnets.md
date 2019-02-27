@@ -19,6 +19,8 @@ Retrieve subnets that provide access to SoftLayer services such as the managemen
 ## Overview 
 Retrieve subnets that provide access to SoftLayer services such as the management portal and the SoftLayer API.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve subnets that provide access to SoftLayer services such as the managemen
 * SoftLayer_Network_Tunnel_Module_ContextInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Tunnel_Module_ContextObjectMask
 * SoftLayer_Network_Tunnel_Module_ContextObjectFilter
@@ -35,5 +38,8 @@ Retrieve subnets that provide access to SoftLayer services such as the managemen
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+
+
+
 

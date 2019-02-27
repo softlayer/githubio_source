@@ -19,6 +19,8 @@ Retrieve the sum of all the taxes related to one time charges for an account's p
 ## Overview 
 Retrieve the sum of all the taxes related to one time charges for an account's pending invoice, if one exists.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve the sum of all the taxes related to one time charges for an account's p
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

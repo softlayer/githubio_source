@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Delete a credential 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Delete a credential
 * authenticate
 * SoftLayer_Network_Storage_Hub_Cleversafe_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

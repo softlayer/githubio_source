@@ -19,6 +19,8 @@ Retrieve the metric tracking object id for this guest.
 ## Overview 
 Retrieve the metric tracking object id for this guest.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the metric tracking object id for this guest.
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-integer
+* integer
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the contact e-mail address used by SendGrid.
 ## Overview 
 Retrieve the contact e-mail address used by SendGrid.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the contact e-mail address used by SendGrid.
 * SoftLayer_Network_Message_Delivery_Email_SendgridInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Message_Delivery_Email_SendgridObjectMask
 * SoftLayer_Network_Message_Delivery_Email_SendgridObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

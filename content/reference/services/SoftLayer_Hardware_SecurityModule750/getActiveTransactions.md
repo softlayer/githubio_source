@@ -19,6 +19,8 @@ Retrieve any active transaction(s) that are currently running for the server (ex
 ## Overview 
 Retrieve any active transaction(s) that are currently running for the server (example: os reload).
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve any active transaction(s) that are currently running for the server (ex
 * SoftLayer_Hardware_SecurityModule750InitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModule750ObjectMask
 * SoftLayer_Hardware_SecurityModule750ObjectFilter
@@ -35,5 +38,8 @@ Retrieve any active transaction(s) that are currently running for the server (ex
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a>
+* <a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a>
+
+
+
 

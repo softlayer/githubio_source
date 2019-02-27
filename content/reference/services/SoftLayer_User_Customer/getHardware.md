@@ -19,6 +19,8 @@ Retrieve a portal user's accessible hardware. These permissions control which ha
 ## Overview 
 Retrieve a portal user's accessible hardware. These permissions control which hardware a user has access to in the SoftLayer customer portal.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a portal user's accessible hardware. These permissions control which ha
 * SoftLayer_User_CustomerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_CustomerObjectMask
 * SoftLayer_User_CustomerObjectFilter
@@ -35,5 +38,8 @@ Retrieve a portal user's accessible hardware. These permissions control which ha
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+
+
+
 

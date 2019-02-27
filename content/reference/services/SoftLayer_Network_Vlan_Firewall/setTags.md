@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 This method will associate a comma separated list of tags with this object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method will associate a comma separated list of tags with this object.
 * authenticate
 * SoftLayer_Network_Vlan_FirewallInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

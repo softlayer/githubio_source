@@ -19,6 +19,8 @@ Retrieve an object that stores the maximum level for the monitoring query types 
 ## Overview 
 Retrieve an object that stores the maximum level for the monitoring query types and response types.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve an object that stores the maximum level for the monitoring query types 
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
@@ -35,5 +38,8 @@ Retrieve an object that stores the maximum level for the monitoring query types 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum'>SoftLayer_Network_Monitor_Version1_Query_Host_Stratum[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum'>SoftLayer_Network_Monitor_Version1_Query_Host_Stratum[] </a>
+
+
+
 

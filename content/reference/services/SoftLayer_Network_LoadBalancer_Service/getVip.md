@@ -19,6 +19,8 @@ Retrieve the load balancer that this service belongs to.
 ## Overview 
 Retrieve the load balancer that this service belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the load balancer that this service belongs to.
 * SoftLayer_Network_LoadBalancer_ServiceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_LoadBalancer_ServiceObjectMask
 * SoftLayer_Network_LoadBalancer_ServiceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_LoadBalancer_VirtualIpAddress </a>
+* <a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_LoadBalancer_VirtualIpAddress </a>
+
+
+
 

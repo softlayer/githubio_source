@@ -19,6 +19,8 @@ Retrieve the status of a transcode job
 ## Overview 
 Retrieve the status of a transcode job
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the status of a transcode job
 * SoftLayer_Network_Media_Transcode_JobInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Media_Transcode_JobObjectMask
 * SoftLayer_Network_Media_Transcode_JobObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

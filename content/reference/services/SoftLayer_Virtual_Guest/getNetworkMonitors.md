@@ -19,6 +19,8 @@ Retrieve a guests's network monitors.
 ## Overview 
 Retrieve a guests's network monitors.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a guests's network monitors.
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
@@ -35,5 +38,8 @@ Retrieve a guests's network monitors.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host'>SoftLayer_Network_Monitor_Version1_Query_Host[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host'>SoftLayer_Network_Monitor_Version1_Query_Host[] </a>
+
+
+
 

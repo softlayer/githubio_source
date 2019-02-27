@@ -19,6 +19,8 @@ Retrieve the members for this gateway.
 ## Overview 
 Retrieve the members for this gateway.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the members for this gateway.
 * SoftLayer_Network_GatewayInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_GatewayObjectMask
 * SoftLayer_Network_GatewayObjectFilter
@@ -35,5 +38,8 @@ Retrieve the members for this gateway.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Gateway_Member'>SoftLayer_Network_Gateway_Member[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Gateway_Member'>SoftLayer_Network_Gateway_Member[] </a>
+
+
+
 

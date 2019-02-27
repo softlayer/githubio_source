@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ aliases:
 * SoftLayer_Hardware_RouterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_RouterObjectMask
 * SoftLayer_Hardware_RouterObjectFilter
@@ -35,5 +38,8 @@ aliases:
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>
+* <a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>
+
+
+
 

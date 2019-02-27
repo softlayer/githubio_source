@@ -19,6 +19,8 @@ Delete a password from a software component.
 ## Overview 
 Delete a password from a software component. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Delete a password from a software component.
 * authenticate
 * SoftLayer_Software_Component_PasswordInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

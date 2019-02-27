@@ -19,6 +19,8 @@ Retrieve a location's Dedicated Rack member
 ## Overview 
 Retrieve a location's Dedicated Rack member
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a location's Dedicated Rack member
 * SoftLayer_Location_DatacenterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_DatacenterObjectMask
 * SoftLayer_Location_DatacenterObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location_Reservation_Rack_Member'>SoftLayer_Location_Reservation_Rack_Member </a>
+* <a href='/reference/datatypes/SoftLayer_Location_Reservation_Rack_Member'>SoftLayer_Location_Reservation_Rack_Member </a>
+
+
+
 

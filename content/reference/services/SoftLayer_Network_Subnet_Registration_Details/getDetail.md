@@ -19,6 +19,8 @@ Retrieve the related [[SoftLayer_Account_Regional_Registry_Detail|detail object]
 ## Overview 
 Retrieve the related [[SoftLayer_Account_Regional_Registry_Detail|detail object]].
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the related [[SoftLayer_Account_Regional_Registry_Detail|detail object]
 * SoftLayer_Network_Subnet_Registration_DetailsInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_Registration_DetailsObjectMask
 * SoftLayer_Network_Subnet_Registration_DetailsObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail'>SoftLayer_Account_Regional_Registry_Detail </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail'>SoftLayer_Account_Regional_Registry_Detail </a>
+
+
+
 

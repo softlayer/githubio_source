@@ -19,6 +19,8 @@ Reboot a Linux guest into the Xen rescue image.
 ## Overview 
 Reboot a Linux guest into the Xen rescue image. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Reboot a Linux guest into the Xen rescue image.
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

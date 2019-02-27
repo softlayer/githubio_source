@@ -19,6 +19,8 @@ Retrieve the individual properties that define this detail object's values.
 ## Overview 
 Retrieve the individual properties that define this detail object's values.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the individual properties that define this detail object's values.
 * SoftLayer_Account_Regional_Registry_DetailInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Regional_Registry_DetailObjectMask
 * SoftLayer_Account_Regional_Registry_DetailObjectFilter
@@ -35,5 +38,8 @@ Retrieve the individual properties that define this detail object's values.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property'>SoftLayer_Account_Regional_Registry_Detail_Property[] </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property'>SoftLayer_Account_Regional_Registry_Detail_Property[] </a>
+
+
+
 

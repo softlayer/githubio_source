@@ -19,6 +19,8 @@ Power cycle a guest.
 ## Overview 
 Power cycle a virtual guest 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Power cycle a virtual guest
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

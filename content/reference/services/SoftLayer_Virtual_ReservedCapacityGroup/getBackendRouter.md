@@ -19,6 +19,8 @@ Retrieve the router the reserved capacity group is implemented on.
 ## Overview 
 Retrieve the router the reserved capacity group is implemented on.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the router the reserved capacity group is implemented on.
 * SoftLayer_Virtual_ReservedCapacityGroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_ReservedCapacityGroupObjectMask
 * SoftLayer_Virtual_ReservedCapacityGroupObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware_Router_Backend'>SoftLayer_Hardware_Router_Backend </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware_Router_Backend'>SoftLayer_Hardware_Router_Backend </a>
+
+
+
 

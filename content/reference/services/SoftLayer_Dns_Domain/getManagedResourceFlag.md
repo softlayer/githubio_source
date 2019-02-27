@@ -19,6 +19,8 @@ Retrieve a flag indicating that the dns domain record is a managed resource.
 ## Overview 
 Retrieve a flag indicating that the dns domain record is a managed resource.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a flag indicating that the dns domain record is a managed resource.
 * SoftLayer_Dns_DomainInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Dns_DomainObjectMask
 * SoftLayer_Dns_DomainObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

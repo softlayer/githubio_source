@@ -19,6 +19,8 @@ Create a new folder in the root directory.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Create a new folder in the root directory.
 * authenticate
 * SoftLayer_Network_StorageInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

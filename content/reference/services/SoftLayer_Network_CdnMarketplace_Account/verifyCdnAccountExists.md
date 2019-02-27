@@ -19,6 +19,8 @@ Wrapper for UI to verify whether or not an account exists for user under specifi
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Wrapper for UI to verify whether or not an account exists for user under specifi
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

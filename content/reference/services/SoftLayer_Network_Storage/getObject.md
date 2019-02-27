@@ -21,6 +21,8 @@ getObject retrieves the SoftLayer_Network_Storage object whose ID corresponds to
 
 Please use the associated methods in the [[SoftLayer_Network_Storage]] service to retrieve a Storage account's id. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,11 +32,26 @@ Please use the associated methods in the [[SoftLayer_Network_Storage]] service t
 * SoftLayer_Network_StorageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_StorageObjectMask
 * SoftLayer_Network_StorageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_ObjectNotFound 
+
+> Throw the error "Unable to find object with id of {id}." if the given initialization parameter has an invalid id field. 
+
+* SoftLayer_Exception_AccessDenied 
+
+> Throw the error "Access Denied." if the given initialization parameter id field is not the account id of the user making the API call. 
+
+
 

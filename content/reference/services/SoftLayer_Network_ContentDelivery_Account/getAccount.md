@@ -19,6 +19,8 @@ Retrieve the customer account that a CDN account belongs to.
 ## Overview 
 Retrieve the customer account that a CDN account belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the customer account that a CDN account belongs to.
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_ContentDelivery_AccountObjectMask
 * SoftLayer_Network_ContentDelivery_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

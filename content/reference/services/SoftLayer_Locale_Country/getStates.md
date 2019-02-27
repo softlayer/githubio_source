@@ -19,6 +19,8 @@ Retrieve states that belong to this country.
 ## Overview 
 Retrieve states that belong to this country.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve states that belong to this country.
 * SoftLayer_Locale_CountryInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Locale_CountryObjectMask
 * SoftLayer_Locale_CountryObjectFilter
@@ -35,5 +38,8 @@ Retrieve states that belong to this country.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Locale_StateProvince'>SoftLayer_Locale_StateProvince[] </a>
+* <a href='/reference/datatypes/SoftLayer_Locale_StateProvince'>SoftLayer_Locale_StateProvince[] </a>
+
+
+
 

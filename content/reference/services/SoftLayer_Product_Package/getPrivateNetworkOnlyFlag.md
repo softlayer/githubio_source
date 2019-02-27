@@ -19,6 +19,8 @@ Retrieve whether the package only has access to the private network.
 ## Overview 
 Retrieve whether the package only has access to the private network.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve whether the package only has access to the private network.
 * SoftLayer_Product_PackageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_Product_PackageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

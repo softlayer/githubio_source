@@ -19,6 +19,8 @@ Retrieve an order's total recurring amount. Taxes will be applied for non-tax-ex
 ## Overview 
 Retrieve an order's total recurring amount. Taxes will be applied for non-tax-exempt. This amount represents the fees that will be charged on a recurring (usually monthly) basis.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve an order's total recurring amount. Taxes will be applied for non-tax-ex
 * SoftLayer_Billing_OrderInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_OrderObjectMask
 * SoftLayer_Billing_OrderObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

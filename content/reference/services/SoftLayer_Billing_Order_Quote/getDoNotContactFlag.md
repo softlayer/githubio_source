@@ -19,6 +19,8 @@ Retrieve indicates whether the owner of the quote chosen to no longer be contact
 ## Overview 
 Retrieve indicates whether the owner of the quote chosen to no longer be contacted.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve indicates whether the owner of the quote chosen to no longer be contact
 * SoftLayer_Billing_Order_QuoteInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Order_QuoteObjectMask
 * SoftLayer_Billing_Order_QuoteObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

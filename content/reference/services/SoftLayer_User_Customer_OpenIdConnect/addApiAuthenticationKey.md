@@ -19,6 +19,8 @@ Create a user's API authentication key.
 ## Overview 
 Create a user's API authentication key, allowing that user access to query the SoftLayer API. addApiAuthenticationKey() returns the user's new API key. Each portal user is allowed only one API key. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,13 +30,22 @@ Create a user's API authentication key, allowing that user access to query the S
 * authenticate
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_User_Customer::removeApiAuthenticationKey](/reference/services/SoftLayer_User_Customer/removeApiAuthenticationKey )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception <<< EOT 
+
+
 

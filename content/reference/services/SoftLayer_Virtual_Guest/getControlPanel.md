@@ -19,6 +19,8 @@ Retrieve a guest's control panel.
 ## Overview 
 Retrieve a guest's control panel.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a guest's control panel.
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>
+* <a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>
+
+
+
 

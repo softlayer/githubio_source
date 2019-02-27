@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_CdnMarketplace_Vendor record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_CdnMarketplace_Vendor record.
 * SoftLayer_Network_CdnMarketplace_VendorInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_CdnMarketplace_VendorObjectMask
 * SoftLayer_Network_CdnMarketplace_VendorObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Vendor'>SoftLayer_Network_CdnMarketplace_Vendor </a>
+* <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Vendor'>SoftLayer_Network_CdnMarketplace_Vendor </a>
+
+
+
 

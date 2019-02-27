@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ aliases:
 * authenticate
 * SoftLayer_Hardware_SecurityModule750InitParameters
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

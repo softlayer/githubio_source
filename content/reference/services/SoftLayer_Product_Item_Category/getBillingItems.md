@@ -19,6 +19,8 @@ Retrieve the billing items associated with an account that share a category code
 ## Overview 
 Retrieve the billing items associated with an account that share a category code with an item category's category code.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the billing items associated with an account that share a category code
 * SoftLayer_Product_Item_CategoryInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Item_CategoryObjectMask
 * SoftLayer_Product_Item_CategoryObjectFilter
@@ -35,5 +38,8 @@ Retrieve the billing items associated with an account that share a category code
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+
+
+
 

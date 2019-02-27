@@ -19,6 +19,8 @@ Retrieve the storage repository that a disk image resides in.
 ## Overview 
 Retrieve the storage repository that a disk image resides in.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the storage repository that a disk image resides in.
 * SoftLayer_Virtual_Disk_ImageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Disk_ImageObjectMask
 * SoftLayer_Virtual_Disk_ImageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository'>SoftLayer_Virtual_Storage_Repository </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository'>SoftLayer_Virtual_Storage_Repository </a>
+
+
+
 

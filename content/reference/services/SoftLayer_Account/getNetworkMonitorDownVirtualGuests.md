@@ -19,6 +19,8 @@ Retrieve virtual guest which is currently experiencing a service failure.
 ## Overview 
 Retrieve virtual guest which is currently experiencing a service failure.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve virtual guest which is currently experiencing a service failure.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve virtual guest which is currently experiencing a service failure.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+
+
+
 

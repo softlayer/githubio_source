@@ -19,6 +19,8 @@ Retrieve the invoice to which this item belongs.
 ## Overview 
 Retrieve the invoice to which this item belongs.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the invoice to which this item belongs.
 * SoftLayer_Billing_Invoice_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Invoice_ItemObjectMask
 * SoftLayer_Billing_Invoice_ItemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a>
+
+
+
 

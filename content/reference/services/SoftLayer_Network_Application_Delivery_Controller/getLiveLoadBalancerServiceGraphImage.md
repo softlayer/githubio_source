@@ -21,6 +21,8 @@ Get the graph image for an application delivery controller service based on the 
 
 This method returns the raw binary image data. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -33,8 +35,10 @@ This method returns the raw binary image data.
 * authenticate
 * SoftLayer_Network_Application_Delivery_ControllerInitParameters
 
-### Optional Headers
 
 ### Return Values
-binary data
+* binary data
+
+
+
 

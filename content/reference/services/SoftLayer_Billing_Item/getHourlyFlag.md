@@ -19,6 +19,8 @@ Retrieve a flag that will reflect whether this billing item is billed on an hour
 ## Overview 
 Retrieve a flag that will reflect whether this billing item is billed on an hourly basis or not.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a flag that will reflect whether this billing item is billed on an hour
 * SoftLayer_Billing_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_ItemObjectMask
 * SoftLayer_Billing_ItemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

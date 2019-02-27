@@ -19,6 +19,8 @@ Retrieve the Replication events for all Network Storage volumes on an account.
 ## Overview 
 Retrieve the Replication events for all Network Storage volumes on an account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve the Replication events for all Network Storage volumes on an account.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve the Replication events for all Network Storage volumes on an account.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Event'>SoftLayer_Network_Storage_Event[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Event'>SoftLayer_Network_Storage_Event[] </a>
+
+
+
 

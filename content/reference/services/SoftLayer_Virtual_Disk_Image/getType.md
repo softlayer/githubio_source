@@ -19,6 +19,8 @@ Retrieve a virtual disk image's type.
 ## Overview 
 Retrieve a virtual disk image's type.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a virtual disk image's type.
 * SoftLayer_Virtual_Disk_ImageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Disk_ImageObjectMask
 * SoftLayer_Virtual_Disk_ImageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Type'>SoftLayer_Virtual_Disk_Image_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Type'>SoftLayer_Virtual_Disk_Image_Type </a>
+
+
+
 

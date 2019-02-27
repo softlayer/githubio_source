@@ -19,6 +19,8 @@ Delete an account affiliation
 ## Overview 
 deleteObject permanently removes an account affiliation 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ deleteObject permanently removes an account affiliation
 * authenticate
 * SoftLayer_Account_AffiliationInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

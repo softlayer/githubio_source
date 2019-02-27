@@ -21,6 +21,8 @@ Add hardware to a portal user's hardware access list. A user's hardware access l
 
 Users can assign hardware access to their child users, but not to themselves. An account's master has access to all hardware on their customer account and can set hardware access for any of the other users on their account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,15 +33,44 @@ Users can assign hardware access to their child users, but not to themselves. An
 * authenticate
 * SoftLayer_User_CustomerInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_User_Customer::addBulkHardwareAccess](/reference/services/SoftLayer_User_Customer/addBulkHardwareAccess )
 *  [SoftLayer_User_Customer::removeHardwareAccess](/reference/services/SoftLayer_User_Customer/removeHardwareAccess )
 *  [SoftLayer_User_Customer::removeBulkHardwareAccess](/reference/services/SoftLayer_User_Customer/removeBulkHardwareAccess )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throw the exception "You may not grant or deny Master User device access." when trying to add hardware access to a master user. 
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throw the exception "You may not grant or deny yourself device access." when trying to add hardware access to the user making the call to the SoftLayer API. 
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throw the exception "You may not grant or deny device access to other users." when trying to add hardware access the user making the API call is not their account's master user or does not have the "USER_MANAGE" portal permission. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "You may not add hardware permissions that the parent does not possess to this account." when trying to add hardware access to the user and the parent user does not possess that access to that hardware. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Please specify a valid hardware id." if the given hardware id is not a valid hardware id. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Unable to add user hardware access." if the API was unable to assign hardware access to the given portal user. 
+
+
 

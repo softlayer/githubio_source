@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Mapping record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Mapping record.
 * SoftLayer_Network_CdnMarketplace_Configuration_MappingInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_CdnMarketplace_Configuration_MappingObjectMask
 * SoftLayer_Network_CdnMarketplace_Configuration_MappingObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Mapping'>SoftLayer_Network_CdnMarketplace_Configuration_Mapping </a>
+* <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Mapping'>SoftLayer_Network_CdnMarketplace_Configuration_Mapping </a>
+
+
+
 

@@ -19,6 +19,8 @@ Delete a folder in the root directory.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Delete a folder in the root directory.
 * authenticate
 * SoftLayer_Network_Storage_IscsiInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

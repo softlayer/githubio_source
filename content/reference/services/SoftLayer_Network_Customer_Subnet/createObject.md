@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 For IPSec network tunnels, customers can create their local subnets using this method.  After the customer is created successfully, the customer subnet can then be added to the IPSec network tunnel. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,15 +30,19 @@ For IPSec network tunnels, customers can create their local subnets using this m
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Customer_SubnetObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet'>SoftLayer_Network_Customer_Subnet </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet'>SoftLayer_Network_Customer_Subnet </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_Tunnel_Module_Context::addCustomerSubnetToNetworkTunnel](/reference/services/SoftLayer_Network_Tunnel_Module_Context/addCustomerSubnetToNetworkTunnel )
+
+
+
 

@@ -19,6 +19,8 @@ Search for an IP address record.
 ## Overview 
 Search for an IP address record by IP address.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,21 @@ Search for an IP address record by IP address.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_IpAddressObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_InvalidValue 
+
+> <<< EOT 
+
+
 

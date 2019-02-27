@@ -19,6 +19,8 @@ Retrieve this is an item's category answers.
 ## Overview 
 Retrieve this is an item's category answers.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve this is an item's category answers.
 * SoftLayer_Billing_Order_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Order_ItemObjectMask
 * SoftLayer_Billing_Order_ItemObjectFilter
@@ -35,5 +38,8 @@ Retrieve this is an item's category answers.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Order_Item_Category_Answer'>SoftLayer_Billing_Order_Item_Category_Answer[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Order_Item_Category_Answer'>SoftLayer_Billing_Order_Item_Category_Answer[] </a>
+
+
+
 

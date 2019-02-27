@@ -21,6 +21,8 @@ Create a new firewall update request. The SoftLayer_Network_Firewall_Update_Requ
 
 ''createObject'' returns a Boolean ''true'' on successful object creation or ''false'' if your firewall update request was unable to be created.. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,10 +32,21 @@ Create a new firewall update request. The SoftLayer_Network_Firewall_Update_Requ
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Firewall_Update_Request_RuleObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request_Rule'>SoftLayer_Network_Firewall_Update_Request_Rule </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request_Rule'>SoftLayer_Network_Firewall_Update_Request_Rule </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "At least one valid rule is required to create a a firewall update request." if the firewall update request in the templateObject parameter doesn't have at least one rule record. 
+
+
 

@@ -19,6 +19,8 @@ Retrieve the creation timestamp of the snapshot on the storage platform.
 ## Overview 
 Retrieve the creation timestamp of the snapshot on the storage platform.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the creation timestamp of the snapshot on the storage platform.
 * SoftLayer_Network_StorageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_StorageObjectMask
 * SoftLayer_Network_StorageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

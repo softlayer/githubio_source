@@ -19,6 +19,8 @@ Return load balancer members health
 ## Overview 
 Return load balancer members health 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Return load balancer members health
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_LBaaS_PoolMembersHealth'>SoftLayer_Network_LBaaS_PoolMembersHealth[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_LBaaS_PoolMembersHealth'>SoftLayer_Network_LBaaS_PoolMembersHealth[] </a>
+
+
+
 

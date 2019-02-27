@@ -31,6 +31,8 @@ Retrieve various network statistics.  The network statistics are retrieved from 
 * In Multicast Packets
 * Out Multicast Packets
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -40,8 +42,10 @@ Retrieve various network statistics.  The network statistics are retrieved from 
 * authenticate
 * SoftLayer_Network_ComponentInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_Port_Statistic'>SoftLayer_Container_Network_Port_Statistic </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_Port_Statistic'>SoftLayer_Container_Network_Port_Statistic </a>
+
+
+
 

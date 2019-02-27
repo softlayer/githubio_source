@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Marketplace_Partner record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Marketplace_Partner record.
 * SoftLayer_Marketplace_PartnerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Marketplace_PartnerObjectMask
 * SoftLayer_Marketplace_PartnerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Marketplace_Partner'>SoftLayer_Marketplace_Partner </a>
+* <a href='/reference/datatypes/SoftLayer_Marketplace_Partner'>SoftLayer_Marketplace_Partner </a>
+
+
+
 

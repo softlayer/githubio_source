@@ -19,6 +19,8 @@ A resource's hostname
 ## Overview 
 The getHostname method retrieves the hostname for the resource.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -26,8 +28,10 @@ The getHostname method retrieves the hostname for the resource.
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

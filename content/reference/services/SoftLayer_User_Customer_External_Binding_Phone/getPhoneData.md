@@ -19,6 +19,8 @@ Returns the authentication phone data.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Returns the authentication phone data.
 * authenticate
 * SoftLayer_User_Customer_External_Binding_PhoneInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_User_Data_Phone'>SoftLayer_Container_User_Data_Phone[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_User_Data_Phone'>SoftLayer_Container_User_Data_Phone[] </a>
+
+
+
 

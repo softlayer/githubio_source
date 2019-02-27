@@ -23,6 +23,8 @@ Retrieve a graph representing the bandwidth used by a Storage account.
 
 getGraph() retrieves a Storage account's usage and returns a PNG graph image, title, and the minimum and maximum dates included in the graphed date range. Virtual Server storage accounts can also graph upload and download bandwidth usage. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -35,8 +37,17 @@ getGraph() retrieves a Storage account's usage and returns a PNG graph image, ti
 * authenticate
 * SoftLayer_Network_Storage_IscsiInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Not yet implemented for this Storage type." if the Storage type is not supported. 
+
+
 

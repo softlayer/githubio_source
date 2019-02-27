@@ -19,6 +19,8 @@ A resource's domain
 ## Overview 
 The getDomain method retrieves the hostname for the resource.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -26,8 +28,10 @@ The getDomain method retrieves the hostname for the resource.
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

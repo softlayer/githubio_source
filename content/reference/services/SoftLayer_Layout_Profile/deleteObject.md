@@ -19,6 +19,8 @@ Delete a layout profile
 ## Overview 
 This method deletes an existing layout profile and associated custom preferences 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method deletes an existing layout profile and associated custom preferences
 * authenticate
 * SoftLayer_Layout_ProfileInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

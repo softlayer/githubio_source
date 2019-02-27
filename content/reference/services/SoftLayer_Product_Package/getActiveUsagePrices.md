@@ -19,6 +19,8 @@ Retrieve a collection of [[SoftLayer_Product_Item_Price]] objects for pay-as-you
 ## Overview 
 Retrieve a collection of [[SoftLayer_Product_Item_Price]] objects for pay-as-you-go usage.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a collection of [[SoftLayer_Product_Item_Price]] objects for pay-as-you
 * SoftLayer_Product_PackageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_Product_PackageObjectFilter
@@ -35,5 +38,8 @@ Retrieve a collection of [[SoftLayer_Product_Item_Price]] objects for pay-as-you
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>
+
+
+
 

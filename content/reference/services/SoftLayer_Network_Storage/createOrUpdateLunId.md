@@ -19,6 +19,8 @@ Creates or updates the LUN ID property on a volume.
 ## Overview 
 The LUN ID only takes effect during the Host Authorization process. It is required to de-authorize all hosts before using this method. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ The LUN ID only takes effect during the Host Authorization process. It is requir
 * authenticate
 * SoftLayer_Network_StorageInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Network_StorageObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Property'>SoftLayer_Network_Storage_Property </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Property'>SoftLayer_Network_Storage_Property </a>
+
+
+
 

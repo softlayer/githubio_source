@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Location_Group_Pricing record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Location_Group_Pricing record.
 * SoftLayer_Location_Group_PricingInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_Group_PricingObjectMask
 * SoftLayer_Location_Group_PricingObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location_Group_Pricing'>SoftLayer_Location_Group_Pricing </a>
+* <a href='/reference/datatypes/SoftLayer_Location_Group_Pricing'>SoftLayer_Location_Group_Pricing </a>
+
+
+
 

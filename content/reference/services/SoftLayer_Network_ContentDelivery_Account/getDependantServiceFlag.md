@@ -19,6 +19,8 @@ Retrieve indicates if CDN account is dependent on other service. If set, this CD
 ## Overview 
 Retrieve indicates if CDN account is dependent on other service. If set, this CDN account is limited to these services: createOriginPullMapping, deleteOriginPullRule, getOriginPullMappingInformation, getCdnUrls, purgeCache, loadContent, manageHttpCompression
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve indicates if CDN account is dependent on other service. If set, this CD
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_ContentDelivery_AccountObjectMask
 * SoftLayer_Network_ContentDelivery_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

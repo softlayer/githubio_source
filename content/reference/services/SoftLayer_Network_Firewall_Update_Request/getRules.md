@@ -19,6 +19,8 @@ Retrieve the group of rules contained within the update request.
 ## Overview 
 Retrieve the group of rules contained within the update request.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the group of rules contained within the update request.
 * SoftLayer_Network_Firewall_Update_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Firewall_Update_RequestObjectMask
 * SoftLayer_Network_Firewall_Update_RequestObjectFilter
@@ -35,5 +38,8 @@ Retrieve the group of rules contained within the update request.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request_Rule'>SoftLayer_Network_Firewall_Update_Request_Rule[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request_Rule'>SoftLayer_Network_Firewall_Update_Request_Rule[] </a>
+
+
+
 

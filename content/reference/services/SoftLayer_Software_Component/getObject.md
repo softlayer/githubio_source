@@ -21,6 +21,8 @@ getObject retrieves the SoftLayer_Software_Component object whose ID corresponds
 
 The best way to get software components is through getSoftwareComponents from the Hardware service. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,11 +32,15 @@ The best way to get software components is through getSoftwareComponents from th
 * SoftLayer_Software_ComponentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_ComponentObjectMask
 * SoftLayer_Software_ComponentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>
+* <a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>
+
+
+
 

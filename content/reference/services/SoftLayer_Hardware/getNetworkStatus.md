@@ -19,6 +19,8 @@ Retrieve the value of a hardware's network status attribute.
 ## Overview 
 Retrieve the value of a hardware's network status attribute.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the value of a hardware's network status attribute.
 * SoftLayer_HardwareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_HardwareObjectMask
 * SoftLayer_HardwareObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Catalyst_Company_Type record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Catalyst_Company_Type record.
 * SoftLayer_Catalyst_Company_TypeInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Catalyst_Company_TypeObjectMask
 * SoftLayer_Catalyst_Company_TypeObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Catalyst_Company_Type'>SoftLayer_Catalyst_Company_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Catalyst_Company_Type'>SoftLayer_Catalyst_Company_Type </a>
+
+
+
 

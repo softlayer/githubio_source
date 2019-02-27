@@ -19,6 +19,8 @@ Retrieve whether or not a computing instance is a Transient Instance.
 ## Overview 
 Retrieve whether or not a computing instance is a Transient Instance.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve whether or not a computing instance is a Transient Instance.
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

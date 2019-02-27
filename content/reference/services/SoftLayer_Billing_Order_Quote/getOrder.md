@@ -19,6 +19,8 @@ Retrieve this order contains the records for which products were selected for th
 ## Overview 
 Retrieve this order contains the records for which products were selected for this quote.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve this order contains the records for which products were selected for th
 * SoftLayer_Billing_Order_QuoteInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Order_QuoteObjectMask
 * SoftLayer_Billing_Order_QuoteObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>
+
+
+
 

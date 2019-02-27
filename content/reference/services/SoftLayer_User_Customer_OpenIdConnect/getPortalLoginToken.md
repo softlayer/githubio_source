@@ -19,6 +19,8 @@ Authenticate a user for the SoftLayer customer portal
 ## Overview 
 Attempt to authenticate a username and password to the SoftLayer customer portal. Many portal user accounts are configured to require answering a security question on login. In this case getPortalLoginToken() also verifies the given security question ID and answer. If authentication is successful then the API returns a token containing the ID of the authenticated user and a hash key used by the SoftLayer customer portal to maintain authentication. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,41 @@ Attempt to authenticate a username and password to the SoftLayer customer portal
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_User_Customer_Portal_Token'>SoftLayer_Container_User_Customer_Portal_Token </a>
+* <a href='/reference/datatypes/SoftLayer_Container_User_Customer_Portal_Token'>SoftLayer_Container_User_Customer_Portal_Token </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Invalid login credentials provided." if the given username and password combination is incorrect. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Account has been locked for 30 minutes." if there have been at least ten unsuccessful login attempts for the given username in the past 30 minutes. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Account has been locked for 30 minutes." if there have been at least ten unsuccessful login attempts from the IP address making the API call in the past 30 minutes. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Invalid answer provided for security question." if the given security question and answer are invalid and the user is required to answer security questions on portal login. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Unauthorized IP Address!" if the given user has an IP whitelist defined and the IP address of the user making the api call is not within this user's IP address whitelist. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Unauthorized IP Address!" if the given user has an IP blacklist defined and the IP address of the user making the api call is within this user's IP address blacklist. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "User account is currently {state}" if the given user is not an active portal user account. In this case {state} contains the current state of the given user account. 
+
+
 

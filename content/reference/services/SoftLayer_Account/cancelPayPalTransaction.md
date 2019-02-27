@@ -19,6 +19,8 @@ Cancel the PayPal Payment Request process.
 ## Overview 
 Cancel the PayPal Payment Request process. During the process of submitting a PayPal payment request, the customer is redirected to PayPal to confirm the request.  If the customer elects to cancel the payment from PayPal, they are returned to SoftLayer where the manual payment record is updated to a status of canceled. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Cancel the PayPal Payment Request process. During the process of submitting a Pa
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

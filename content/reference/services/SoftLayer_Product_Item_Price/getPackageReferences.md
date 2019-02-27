@@ -19,6 +19,8 @@ Retrieve cross reference for packages
 ## Overview 
 Retrieve cross reference for packages
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve cross reference for packages
 * SoftLayer_Product_Item_PriceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Item_PriceObjectMask
 * SoftLayer_Product_Item_PriceObjectFilter
@@ -35,5 +38,8 @@ Retrieve cross reference for packages
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Package_Item_Prices'>SoftLayer_Product_Package_Item_Prices[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Package_Item_Prices'>SoftLayer_Product_Package_Item_Prices[] </a>
+
+
+
 

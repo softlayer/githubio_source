@@ -21,6 +21,8 @@ When creating a new cart, the order data is sent through SoftLayer_Product_Order
 
 The response is the new cart id. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ The response is the new cart id.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

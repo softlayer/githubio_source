@@ -19,6 +19,8 @@ Retrieve the subnet this Virtual License's IP address belongs to.
 ## Overview 
 Retrieve the subnet this Virtual License's IP address belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the subnet this Virtual License's IP address belongs to.
 * SoftLayer_Software_VirtualLicenseInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_VirtualLicenseObjectMask
 * SoftLayer_Software_VirtualLicenseObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
+
+
+
 

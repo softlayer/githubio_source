@@ -19,6 +19,8 @@ Retrieve collection of scale assets this guest corresponds to.
 ## Overview 
 Retrieve collection of scale assets this guest corresponds to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve collection of scale assets this guest corresponds to.
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
@@ -35,5 +38,8 @@ Retrieve collection of scale assets this guest corresponds to.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Asset'>SoftLayer_Scale_Asset[] </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Asset'>SoftLayer_Scale_Asset[] </a>
+
+
+
 

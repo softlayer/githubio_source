@@ -19,6 +19,8 @@ Retrieve a file attached to an event.
 ## Overview 
 Retrieve the contents of the file attached to a SoftLayer event by it's given identifier. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Retrieve the contents of the file attached to a SoftLayer event by it's given id
 * authenticate
 * SoftLayer_Notification_Occurrence_EventInitParameters
 
-### Optional Headers
 
 ### Return Values
-binary data
+* binary data
+
+
+
 

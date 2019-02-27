@@ -27,6 +27,8 @@ As a precaution, we strongly  recommend backing up all data before reloading the
 
 The reload will take AT MINIMUM 66 minutes. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -37,8 +39,29 @@ The reload will take AT MINIMUM 66 minutes.
 * authenticate
 * SoftLayer_Hardware_SecurityModuleInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception 'You do not have permission to this service.' when a user does not have permission to Issue OS Reloads. 
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception 'There is currently an outstanding transaction for this server.' when there is a current hardware update. 
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception 'This server currently does not have an operating system.' when the server does not have an operating system in its current configuration. 
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception 'Invalid token provided.' when an invalid token is provided. 
+
+
 

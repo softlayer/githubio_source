@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Software_Component_Password record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,22 @@ Retrieve a SoftLayer_Software_Component_Password record.
 * SoftLayer_Software_Component_PasswordInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_Component_PasswordObjectMask
 * SoftLayer_Software_Component_PasswordObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password </a>
+* <a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the error "Maximum of 3 passwords per software title." if three passwords are already being stored. 
+
+
 

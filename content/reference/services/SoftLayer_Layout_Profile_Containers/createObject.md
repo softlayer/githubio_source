@@ -19,6 +19,8 @@ Associate a layout container with a profile
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Associate a layout container with a profile
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

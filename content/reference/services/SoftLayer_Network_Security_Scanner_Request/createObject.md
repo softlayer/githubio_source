@@ -19,6 +19,8 @@ Create a new vulnerability scan request.
 ## Overview 
 Create a new vulnerability scan request. New scan requests are picked up every five minutes, and the time to complete an actual scan may vary. Once the scan is finished, it can take up to another five minutes for the report to be generated and accessible. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Create a new vulnerability scan request. New scan requests are picked up every f
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Security_Scanner_RequestObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request'>SoftLayer_Network_Security_Scanner_Request </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request'>SoftLayer_Network_Security_Scanner_Request </a>
+
+
+
 

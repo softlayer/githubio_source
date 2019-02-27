@@ -19,6 +19,8 @@ Retrieve the network component bindings for this security group.
 ## Overview 
 Retrieve the network component bindings for this security group.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the network component bindings for this security group.
 * SoftLayer_Network_SecurityGroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_SecurityGroupObjectMask
 * SoftLayer_Network_SecurityGroupObjectFilter
@@ -35,5 +38,8 @@ Retrieve the network component bindings for this security group.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding'>SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding'>SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding[] </a>
+
+
+
 

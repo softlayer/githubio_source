@@ -19,6 +19,8 @@ Power off server.
 ## Overview 
 This method will power off the server via the server's remote management card. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,17 @@ This method will power off the server via the server's remote management card.
 * authenticate
 * SoftLayer_HardwareInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> "Method has not been implemented for this object type." 
+
+
 

@@ -19,6 +19,8 @@ Retrieve the current locations status.
 ## Overview 
 Retrieve the current locations status.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the current locations status.
 * SoftLayer_Location_DatacenterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_DatacenterObjectMask
 * SoftLayer_Location_DatacenterObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location_Status'>SoftLayer_Location_Status </a>
+* <a href='/reference/datatypes/SoftLayer_Location_Status'>SoftLayer_Location_Status </a>
+
+
+
 

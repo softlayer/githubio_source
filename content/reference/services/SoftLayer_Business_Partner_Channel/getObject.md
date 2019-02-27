@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Business_Partner_Channel record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Business_Partner_Channel record.
 * SoftLayer_Business_Partner_ChannelInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Business_Partner_ChannelObjectMask
 * SoftLayer_Business_Partner_ChannelObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Business_Partner_Channel'>SoftLayer_Business_Partner_Channel </a>
+* <a href='/reference/datatypes/SoftLayer_Business_Partner_Channel'>SoftLayer_Business_Partner_Channel </a>
+
+
+
 

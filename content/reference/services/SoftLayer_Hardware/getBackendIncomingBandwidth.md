@@ -19,6 +19,8 @@ Retrieve the amount of incoming private network bandwidth used by a server over 
 ## Overview 
 The '''getBackendIncomingBandwidth''' method retrieves the amount of incoming private network traffic used between the given start date and end date parameters. When entering start and end dates, only the month, day and year are used to calculate bandwidth totals - the time (HH:MM:SS) is ignored and defaults to midnight. The amount of bandwidth retrieved is measured in gigabytes. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,21 @@ The '''getBackendIncomingBandwidth''' method retrieves the amount of incoming pr
 * authenticate
 * SoftLayer_HardwareInitParameters
 
-### Optional Headers
 
 ### Return Values
-float
+* float
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> "Please provide a start date." 
+
+* SoftLayer_Exception_Public 
+
+> "Please provide an end date." 
+
+
 

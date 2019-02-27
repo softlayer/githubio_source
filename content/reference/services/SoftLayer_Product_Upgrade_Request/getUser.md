@@ -19,6 +19,8 @@ Retrieve the user that placed the order.
 ## Overview 
 Retrieve the user that placed the order.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the user that placed the order.
 * SoftLayer_Product_Upgrade_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Upgrade_RequestObjectMask
 * SoftLayer_Product_Upgrade_RequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+
+
+
 

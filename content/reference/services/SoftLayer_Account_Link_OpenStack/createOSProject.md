@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ aliases:
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Link_OpenStack_ProjectCreationDetails'>SoftLayer_Account_Link_OpenStack_ProjectCreationDetails </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Link_OpenStack_ProjectCreationDetails'>SoftLayer_Account_Link_OpenStack_ProjectCreationDetails </a>
+
+
+
 

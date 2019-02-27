@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_DirectLink_ServiceType record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_DirectLink_ServiceType record.
 * SoftLayer_Network_DirectLink_ServiceTypeInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_DirectLink_ServiceTypeObjectMask
 * SoftLayer_Network_DirectLink_ServiceTypeObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_DirectLink_ServiceType'>SoftLayer_Network_DirectLink_ServiceType </a>
+* <a href='/reference/datatypes/SoftLayer_Network_DirectLink_ServiceType'>SoftLayer_Network_DirectLink_ServiceType </a>
+
+
+
 

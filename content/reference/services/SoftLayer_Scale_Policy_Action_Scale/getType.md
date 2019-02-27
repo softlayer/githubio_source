@@ -19,6 +19,8 @@ Retrieve the type of action.
 ## Overview 
 Retrieve the type of action.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the type of action.
 * SoftLayer_Scale_Policy_Action_ScaleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Policy_Action_ScaleObjectMask
 * SoftLayer_Scale_Policy_Action_ScaleObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Policy_Action_Type'>SoftLayer_Scale_Policy_Action_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Policy_Action_Type'>SoftLayer_Scale_Policy_Action_Type </a>
+
+
+
 

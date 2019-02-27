@@ -19,6 +19,8 @@ Get all security groups.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Get all security groups.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_SecurityGroupObjectMask
 * SoftLayer_ObjectMask
@@ -34,5 +37,8 @@ Get all security groups.
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup[] </a>
+
+
+
 

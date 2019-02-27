@@ -19,6 +19,8 @@ Retrieve all network devices in SoftLayer's network hierarchy that this device i
 ## Overview 
 Retrieve all network devices in SoftLayer's network hierarchy that this device is connected to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve all network devices in SoftLayer's network hierarchy that this device i
 * SoftLayer_Network_ComponentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_ComponentObjectMask
 * SoftLayer_Network_ComponentObjectFilter
@@ -35,5 +38,8 @@ Retrieve all network devices in SoftLayer's network hierarchy that this device i
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+
+
+
 

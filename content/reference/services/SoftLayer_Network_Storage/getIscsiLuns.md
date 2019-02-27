@@ -19,6 +19,8 @@ Retrieve relationship between a container volume and iSCSI LUNs.
 ## Overview 
 Retrieve relationship between a container volume and iSCSI LUNs.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve relationship between a container volume and iSCSI LUNs.
 * SoftLayer_Network_StorageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_StorageObjectMask
 * SoftLayer_Network_StorageObjectFilter
@@ -35,5 +38,8 @@ Retrieve relationship between a container volume and iSCSI LUNs.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+
+
+
 

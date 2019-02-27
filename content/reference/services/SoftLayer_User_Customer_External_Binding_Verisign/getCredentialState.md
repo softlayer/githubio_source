@@ -19,6 +19,8 @@ Retrieve the current state of a VeriSign credential. This can be 'Enabled', 'Dis
 ## Overview 
 Retrieve the current state of a VeriSign credential. This can be 'Enabled', 'Disabled', or 'Locked'.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the current state of a VeriSign credential. This can be 'Enabled', 'Dis
 * SoftLayer_User_Customer_External_Binding_VerisignInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_External_Binding_VerisignObjectMask
 * SoftLayer_User_Customer_External_Binding_VerisignObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

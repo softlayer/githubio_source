@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_LBaaS_L7Policy record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_LBaaS_L7Policy record.
 * SoftLayer_Network_LBaaS_L7PolicyInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_LBaaS_L7PolicyObjectMask
 * SoftLayer_Network_LBaaS_L7PolicyObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Policy'>SoftLayer_Network_LBaaS_L7Policy </a>
+* <a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Policy'>SoftLayer_Network_LBaaS_L7Policy </a>
+
+
+
 

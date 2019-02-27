@@ -21,6 +21,8 @@ Delete a network storage volume. '''This cannot be undone.''' At this time only 
 
 ''deleteObject'' returns Boolean ''true'' on successful deletion or ''false'' if it was unable to remove a volume; 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,17 @@ Delete a network storage volume. '''This cannot be undone.''' At this time only 
 * authenticate
 * SoftLayer_Network_StorageInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "Only snapshots may be deleted with this method." when attempting to remove anything other than a snapshot. 
+
+
 

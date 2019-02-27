@@ -23,6 +23,8 @@ The use of $locationId has been deprecated.
 ## Overview 
 Computes the number of available public secondary IP addresses, aligned to a subnet size. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -33,8 +35,10 @@ Computes the number of available public secondary IP addresses, aligned to a sub
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

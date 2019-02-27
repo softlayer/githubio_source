@@ -19,6 +19,8 @@ Returns token authentication directories
 ## Overview 
 This method returns all token authentication directories. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method returns all token authentication directories.
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_Directory_Listing'>SoftLayer_Container_Network_Directory_Listing[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_Directory_Listing'>SoftLayer_Container_Network_Directory_Listing[] </a>
+
+
+
 

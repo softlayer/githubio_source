@@ -19,6 +19,8 @@ SOAP API will delete Origin Path for an existing mapping and for a particular cu
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ SOAP API will delete Origin Path for an existing mapping and for a particular cu
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

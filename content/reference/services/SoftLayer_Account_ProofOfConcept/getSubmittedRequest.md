@@ -19,6 +19,8 @@ Retrieves full details of one PoC request submitted by an IBMer.
 ## Overview 
 Allows authorized IBMer to pull all the details of a single proof of concept account request. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Allows authorized IBMer to pull all the details of a single proof of concept acc
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Review'>SoftLayer_Container_Account_ProofOfConcept_Review </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Review'>SoftLayer_Container_Account_ProofOfConcept_Review </a>
+
+
+
 

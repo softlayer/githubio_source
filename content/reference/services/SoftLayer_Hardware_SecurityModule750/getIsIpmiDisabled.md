@@ -19,6 +19,8 @@ Retrieve determine if remote management has been disabled due to port speed.
 ## Overview 
 Retrieve determine if remote management has been disabled due to port speed.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve determine if remote management has been disabled due to port speed.
 * SoftLayer_Hardware_SecurityModule750InitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModule750ObjectMask
 * SoftLayer_Hardware_SecurityModule750ObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

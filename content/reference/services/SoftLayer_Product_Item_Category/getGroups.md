@@ -19,6 +19,8 @@ Retrieve a collection of service offering category groups. Each group contains a
 ## Overview 
 Retrieve a collection of service offering category groups. Each group contains a collection of items associated with this category.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a collection of service offering category groups. Each group contains a
 * SoftLayer_Product_Item_CategoryInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Item_CategoryObjectMask
 * SoftLayer_Product_Item_CategoryObjectFilter
@@ -35,5 +38,8 @@ Retrieve a collection of service offering category groups. Each group contains a
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Package_Item_Category_Group'>SoftLayer_Product_Package_Item_Category_Group[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Package_Item_Category_Group'>SoftLayer_Product_Package_Item_Category_Group[] </a>
+
+
+
 

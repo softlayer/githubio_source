@@ -19,6 +19,8 @@ Retrieve the impacted user.
 ## Overview 
 Retrieve the impacted user.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the impacted user.
 * SoftLayer_Notification_Occurrence_UserInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Notification_Occurrence_UserObjectMask
 * SoftLayer_Notification_Occurrence_UserObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+
+
+
 

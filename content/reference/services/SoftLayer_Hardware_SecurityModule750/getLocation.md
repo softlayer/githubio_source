@@ -19,6 +19,8 @@ Retrieve where a piece of hardware is located within SoftLayer's location hierar
 ## Overview 
 Retrieve where a piece of hardware is located within SoftLayer's location hierarchy.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve where a piece of hardware is located within SoftLayer's location hierar
 * SoftLayer_Hardware_SecurityModule750InitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModule750ObjectMask
 * SoftLayer_Hardware_SecurityModule750ObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+
+
+
 

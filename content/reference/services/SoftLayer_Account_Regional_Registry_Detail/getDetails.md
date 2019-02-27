@@ -19,6 +19,8 @@ Retrieve references to the [[SoftLayer_Network_Subnet_Registration|registration 
 ## Overview 
 Retrieve references to the [[SoftLayer_Network_Subnet_Registration|registration objects]] that consume this detail object.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve references to the [[SoftLayer_Network_Subnet_Registration|registration 
 * SoftLayer_Account_Regional_Registry_DetailInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Regional_Registry_DetailObjectMask
 * SoftLayer_Account_Regional_Registry_DetailObjectFilter
@@ -35,5 +38,8 @@ Retrieve references to the [[SoftLayer_Network_Subnet_Registration|registration 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Details'>SoftLayer_Network_Subnet_Registration_Details[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Details'>SoftLayer_Network_Subnet_Registration_Details[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve whether this price defines a software license for its product item.
 ## Overview 
 Retrieve whether this price defines a software license for its product item.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve whether this price defines a software license for its product item.
 * SoftLayer_Product_Item_PriceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Item_PriceObjectMask
 * SoftLayer_Product_Item_PriceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

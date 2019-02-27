@@ -19,6 +19,8 @@ Retrieve listeners assigned to load balancer.
 ## Overview 
 Retrieve listeners assigned to load balancer.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve listeners assigned to load balancer.
 * SoftLayer_Network_LBaaS_LoadBalancerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_LBaaS_LoadBalancerObjectMask
 * SoftLayer_Network_LBaaS_LoadBalancerObjectFilter
@@ -35,5 +38,8 @@ Retrieve listeners assigned to load balancer.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_LBaaS_Listener'>SoftLayer_Network_LBaaS_Listener[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_LBaaS_Listener'>SoftLayer_Network_LBaaS_Listener[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve this references the brand that has a brand-location-country restriction
 ## Overview 
 Retrieve this references the brand that has a brand-location-country restriction setup.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve this references the brand that has a brand-location-country restriction
 * SoftLayer_Brand_Restriction_Location_CustomerCountryInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Brand_Restriction_Location_CustomerCountryObjectMask
 * SoftLayer_Brand_Restriction_Location_CustomerCountryObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>
+* <a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>
+
+
+
 

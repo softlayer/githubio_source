@@ -23,6 +23,8 @@ This method returns an array of SoftLayer_Network_Vlans which were added as trun
 
 Configuration of network hardware is done asynchronously, do not depend on the return of this call as an indication that the newly trunked VLANs will be accessible. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -33,10 +35,14 @@ Configuration of network hardware is done asynchronously, do not depend on the r
 * authenticate
 * SoftLayer_Network_ComponentInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Network_ComponentObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a>
+
+
+
 

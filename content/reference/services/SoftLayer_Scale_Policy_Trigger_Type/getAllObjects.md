@@ -19,6 +19,8 @@ Get all trigger types
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Get all trigger types
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Policy_Trigger_TypeObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_Type'>SoftLayer_Scale_Policy_Trigger_Type[] </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_Type'>SoftLayer_Scale_Policy_Trigger_Type[] </a>
+
+
+
 

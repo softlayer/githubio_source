@@ -19,6 +19,8 @@ Retrieve a network component's subnet for its primary IP address
 ## Overview 
 Retrieve a network component's subnet for its primary IP address
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a network component's subnet for its primary IP address
 * SoftLayer_Virtual_Guest_Network_ComponentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Guest_Network_ComponentObjectMask
 * SoftLayer_Virtual_Guest_Network_ComponentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
+
+
+
 

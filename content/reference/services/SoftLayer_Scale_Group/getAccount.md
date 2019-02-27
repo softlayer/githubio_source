@@ -19,6 +19,8 @@ Retrieve the account for this scaling group.
 ## Overview 
 Retrieve the account for this scaling group.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the account for this scaling group.
 * SoftLayer_Scale_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_GroupObjectMask
 * SoftLayer_Scale_GroupObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

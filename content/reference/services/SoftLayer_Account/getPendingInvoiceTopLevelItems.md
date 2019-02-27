@@ -19,6 +19,8 @@ Retrieve a list of top-level invoice items that are on an account's currently pe
 ## Overview 
 Retrieve a list of top-level invoice items that are on an account's currently pending invoice.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve a list of top-level invoice items that are on an account's currently pe
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve a list of top-level invoice items that are on an account's currently pe
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a>
+
+
+
 

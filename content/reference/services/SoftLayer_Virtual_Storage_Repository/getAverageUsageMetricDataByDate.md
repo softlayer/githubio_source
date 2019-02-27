@@ -19,6 +19,8 @@ Returns the average disk usage for the timeframe based on the parameters provide
 ## Overview 
 Returns the average disk space usage for a storage repository. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ Returns the average disk space usage for a storage repository.
 * authenticate
 * SoftLayer_Virtual_Storage_RepositoryInitParameters
 
-### Optional Headers
 
 ### Return Values
-float
+* float
+
+
+
 

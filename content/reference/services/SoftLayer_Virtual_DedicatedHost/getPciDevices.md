@@ -19,6 +19,8 @@ Retrieve a collection of SoftLayer_Virtual_Host_PciDevice objects on the host.
 ## Overview 
 Retrieve a collection of SoftLayer_Virtual_Host_PciDevice objects on the host.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a collection of SoftLayer_Virtual_Host_PciDevice objects on the host.
 * SoftLayer_Virtual_DedicatedHostInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_DedicatedHostObjectMask
 * SoftLayer_Virtual_DedicatedHostObjectFilter
@@ -35,5 +38,8 @@ Retrieve a collection of SoftLayer_Virtual_Host_PciDevice objects on the host.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Host_PciDevice'>SoftLayer_Virtual_Host_PciDevice[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Host_PciDevice'>SoftLayer_Virtual_Host_PciDevice[] </a>
+
+
+
 

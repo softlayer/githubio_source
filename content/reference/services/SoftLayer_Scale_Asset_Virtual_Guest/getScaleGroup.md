@@ -19,6 +19,8 @@ Retrieve the group this asset belongs to.
 ## Overview 
 Retrieve the group this asset belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the group this asset belongs to.
 * SoftLayer_Scale_Asset_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Asset_Virtual_GuestObjectMask
 * SoftLayer_Scale_Asset_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>
+
+
+
 

@@ -19,6 +19,8 @@ Bypass VLAN
 ## Overview 
 Start the asynchronous process to bypass/unroute the VLAN from this gateway. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Start the asynchronous process to bypass/unroute the VLAN from this gateway.
 * authenticate
 * SoftLayer_Network_Gateway_VlanInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

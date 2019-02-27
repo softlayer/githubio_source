@@ -23,6 +23,8 @@ Format:
 
 {address translation SoftLayer IP Address}        {address translation name} 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,13 +34,15 @@ Format:
 * authenticate
 * SoftLayer_Network_Tunnel_Module_ContextInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_Tunnel_Module_Context::downloadAddressTranslationConfigurations](/reference/services/SoftLayer_Network_Tunnel_Module_Context/downloadAddressTranslationConfigurations )
+
+
+
 

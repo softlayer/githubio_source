@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_DirectLink_Provider record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_DirectLink_Provider record.
 * SoftLayer_Network_DirectLink_ProviderInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_DirectLink_ProviderObjectMask
 * SoftLayer_Network_DirectLink_ProviderObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_DirectLink_Provider'>SoftLayer_Network_DirectLink_Provider </a>
+* <a href='/reference/datatypes/SoftLayer_Network_DirectLink_Provider'>SoftLayer_Network_DirectLink_Provider </a>
+
+
+
 

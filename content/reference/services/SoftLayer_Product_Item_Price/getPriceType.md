@@ -19,6 +19,8 @@ Retrieve the type keyname of this price which can be STANDARD or TIERED.
 ## Overview 
 Retrieve the type keyname of this price which can be STANDARD or TIERED.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the type keyname of this price which can be STANDARD or TIERED.
 * SoftLayer_Product_Item_PriceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Item_PriceObjectMask
 * SoftLayer_Product_Item_PriceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ aliases:
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_MobileDevice_TypeObjectMask
 * SoftLayer_ObjectMask
 * SoftLayer_User_Customer_MobileDevice_TypeObjectFilter
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice_Type'>SoftLayer_User_Customer_MobileDevice_Type[] </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice_Type'>SoftLayer_User_Customer_MobileDevice_Type[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve tickets closed within the last 72 hours or last 10 tickets, whichever i
 ## Overview 
 Retrieve tickets closed within the last 72 hours or last 10 tickets, whichever is less, associated with an account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve tickets closed within the last 72 hours or last 10 tickets, whichever i
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve tickets closed within the last 72 hours or last 10 tickets, whichever i
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>
+
+
+
 

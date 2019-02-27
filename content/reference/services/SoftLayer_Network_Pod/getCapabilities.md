@@ -19,6 +19,8 @@ Retrieve capabilities for the Pod.
 ## Overview 
 Provides the list of capabilities a Pod fulfills. See [[SoftLayer_Network_Pod/listCapabilities]] for more information on capabilities. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Provides the list of capabilities a Pod fulfills. See [[SoftLayer_Network_Pod/li
 * authenticate
 * SoftLayer_Network_PodInitParameters
 
-### Optional Headers
 
 ### Return Values
-array of strings
+* array of strings
+
+
+
 

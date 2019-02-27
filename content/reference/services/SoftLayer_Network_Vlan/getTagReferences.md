@@ -19,6 +19,8 @@ Retrieve references to all tags for this VLAN.
 ## Overview 
 Retrieve references to all tags for this VLAN.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve references to all tags for this VLAN.
 * SoftLayer_Network_VlanInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_VlanObjectMask
 * SoftLayer_Network_VlanObjectFilter
@@ -35,5 +38,8 @@ Retrieve references to all tags for this VLAN.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>
+* <a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>
+
+
+
 

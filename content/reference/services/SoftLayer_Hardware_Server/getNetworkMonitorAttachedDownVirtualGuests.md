@@ -19,6 +19,8 @@ Retrieve virtual guests that are attached downstream to a hardware that have fai
 ## Overview 
 Retrieve virtual guests that are attached downstream to a hardware that have failed monitoring
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve virtual guests that are attached downstream to a hardware that have fai
 * SoftLayer_Hardware_ServerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_ServerObjectMask
 * SoftLayer_Hardware_ServerObjectFilter
@@ -35,5 +38,8 @@ Retrieve virtual guests that are attached downstream to a hardware that have fai
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the total recurring amount for an accounts previous revenue.
 ## Overview 
 Retrieve the total recurring amount for an accounts previous revenue.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve the total recurring amount for an accounts previous revenue.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

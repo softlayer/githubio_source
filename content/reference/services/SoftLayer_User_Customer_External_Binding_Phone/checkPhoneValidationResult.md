@@ -19,6 +19,8 @@ Return a phone validation result
 ## Overview 
 Return a phone validation result. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,29 @@ Return a phone validation result.
 * authenticate
 * SoftLayer_User_Customer_External_Binding_PhoneInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> <<< EOT 
+
+* SoftLayer_Exception_Public 
+
+> <<< EOT 
+
+* SoftLayer_Exception_User_Customer_External_Binding_PhoneValidationFailed 
+
+> <<< EOT 
+
+* SoftLayer_Exception_User_Customer_External_Binding_AwaitingResponse 
+
+> <<< EOT 
+
+
 

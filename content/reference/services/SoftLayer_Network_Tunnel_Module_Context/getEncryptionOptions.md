@@ -28,6 +28,8 @@ The valid encryption options are as follows:
 * AES192
 * AES256
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -36,8 +38,10 @@ The valid encryption options are as follows:
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-array of strings
+* array of strings
+
+
+
 

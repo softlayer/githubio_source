@@ -19,6 +19,8 @@ Save an application delivery controller's configuration state.
 ## Overview 
 Save an application delivery controller's configuration state. The notes property for this method is optional. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,16 +31,20 @@ Save an application delivery controller's configuration state. The notes propert
 * authenticate
 * SoftLayer_Network_Application_Delivery_ControllerInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Network_Application_Delivery_ControllerObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_Configuration_History'>SoftLayer_Network_Application_Delivery_Controller_Configuration_History </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_Configuration_History'>SoftLayer_Network_Application_Delivery_Controller_Configuration_History </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_Application_Delivery_Controller::restoreConfiguration](/reference/services/SoftLayer_Network_Application_Delivery_Controller/restoreConfiguration )
 *  [SoftLayer_Network_Application_Delivery_Controller::restoreBaseConfiguration](/reference/services/SoftLayer_Network_Application_Delivery_Controller/restoreBaseConfiguration )
+
+
+
 

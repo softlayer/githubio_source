@@ -19,6 +19,8 @@ Retrieve the Hardware Firewall (Dedicated) for a network vlan.
 ## Overview 
 Retrieve the Hardware Firewall (Dedicated) for a network vlan.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the Hardware Firewall (Dedicated) for a network vlan.
 * SoftLayer_Network_VlanInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_VlanObjectMask
 * SoftLayer_Network_VlanObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Vlan_Firewall'>SoftLayer_Network_Vlan_Firewall </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Vlan_Firewall'>SoftLayer_Network_Vlan_Firewall </a>
+
+
+
 

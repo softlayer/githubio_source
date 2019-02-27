@@ -19,6 +19,8 @@ Retrieve the amount of incoming public network bandwidth used by a server over a
 ## Overview 
 The '''getFrontendIncomingBandwidth''' method retrieves the amount of incoming public network traffic used by a server between the given start and end date parameters. When entering the ''dateTime'' parameter, only the month, day and year of the start and end dates are required - the time (hour, minute and second) are set to midnight by default and cannot be changed. The amount of bandwidth retrieved is measured in gigabytes (GB). 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,21 @@ The '''getFrontendIncomingBandwidth''' method retrieves the amount of incoming p
 * authenticate
 * SoftLayer_Hardware_ServerInitParameters
 
-### Optional Headers
 
 ### Return Values
-float
+* float
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> <<< EOT 
+
+* SoftLayer_Exception_Public 
+
+> <<< EOT 
+
+
 

@@ -19,6 +19,8 @@ Retrieve an account's associated virtual guest objects.
 ## Overview 
 Retrieve an account's associated virtual guest objects.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve an account's associated virtual guest objects.
 * SoftLayer_BrandInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_BrandObjectMask
 * SoftLayer_BrandObjectFilter
@@ -35,5 +38,8 @@ Retrieve an account's associated virtual guest objects.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+
+
+
 

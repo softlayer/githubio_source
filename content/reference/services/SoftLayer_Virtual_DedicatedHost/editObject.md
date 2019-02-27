@@ -19,6 +19,8 @@ Edit a dedicated host's properties.
 ## Overview 
 Edit a dedicated host's properties. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit a dedicated host's properties.
 * authenticate
 * SoftLayer_Virtual_DedicatedHostInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

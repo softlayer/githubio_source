@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_LBaaS_L7Member record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_LBaaS_L7Member record.
 * SoftLayer_Network_LBaaS_L7MemberInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_LBaaS_L7MemberObjectMask
 * SoftLayer_Network_LBaaS_L7MemberObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Member'>SoftLayer_Network_LBaaS_L7Member </a>
+* <a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Member'>SoftLayer_Network_LBaaS_L7Member </a>
+
+
+
 

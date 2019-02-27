@@ -19,6 +19,8 @@ This method restarts a monitoring agent.
 ## Overview 
 This method restarts a monitoring agent and sets the agent's status to 'ACTIVE'. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,14 +30,23 @@ This method restarts a monitoring agent and sets the agent's status to 'ACTIVE'.
 * authenticate
 * SoftLayer_Monitoring_AgentInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Monitoring_Agent::activate](/reference/services/SoftLayer_Monitoring_Agent/activate )
 *  [SoftLayer_Monitoring_Agent::deactivate](/reference/services/SoftLayer_Monitoring_Agent/deactivate )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throws 'Failed to restart the monitoring agent. Please contact development.' if an error occurred when restarting the SoftLayer_Monitoring_Agent. 
+
+
 

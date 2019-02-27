@@ -19,6 +19,8 @@ Edit this trigger.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit this trigger.
 * authenticate
 * SoftLayer_Scale_Policy_Trigger_RepeatingInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

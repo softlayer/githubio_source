@@ -19,6 +19,8 @@ Retrieve the date in which the license for this application delivery controller 
 ## Overview 
 Retrieve the date in which the license for this application delivery controller will expire.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the date in which the license for this application delivery controller 
 * SoftLayer_Network_Application_Delivery_ControllerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Application_Delivery_ControllerObjectMask
 * SoftLayer_Network_Application_Delivery_ControllerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-dateTime
+* dateTime
+
+
+
 

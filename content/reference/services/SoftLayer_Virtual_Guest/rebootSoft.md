@@ -19,6 +19,8 @@ Attempt to complete a soft reboot of a guest by shutting down the operating syst
 ## Overview 
 Attempt to complete a soft reboot of a guest by shutting down the operating system. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Attempt to complete a soft reboot of a guest by shutting down the operating syst
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

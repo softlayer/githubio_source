@@ -19,6 +19,8 @@ Retrieve this flag indicates if the package may be available in PoP locations in
 ## Overview 
 Retrieve this flag indicates if the package may be available in PoP locations in addition to Datacenters.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve this flag indicates if the package may be available in PoP locations in
 * SoftLayer_Product_PackageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_Product_PackageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

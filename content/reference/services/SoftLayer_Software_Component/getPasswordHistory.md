@@ -19,6 +19,8 @@ Retrieve history Records for Software Passwords.
 ## Overview 
 Retrieve history Records for Software Passwords.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve history Records for Software Passwords.
 * SoftLayer_Software_ComponentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_ComponentObjectMask
 * SoftLayer_Software_ComponentObjectFilter
@@ -35,5 +38,8 @@ Retrieve history Records for Software Passwords.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_Component_Password_History'>SoftLayer_Software_Component_Password_History[] </a>
+* <a href='/reference/datatypes/SoftLayer_Software_Component_Password_History'>SoftLayer_Software_Component_Password_History[] </a>
+
+
+
 

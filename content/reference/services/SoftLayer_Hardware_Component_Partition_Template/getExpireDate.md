@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Hardware_Component_Partition_TemplateInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_Component_Partition_TemplateObjectMask
 * SoftLayer_Hardware_Component_Partition_TemplateObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

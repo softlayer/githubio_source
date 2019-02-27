@@ -19,6 +19,8 @@ Retrieve the upstream network component firewall.
 ## Overview 
 Retrieve the upstream network component firewall.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the upstream network component firewall.
 * SoftLayer_Network_SubnetInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_SubnetObjectMask
 * SoftLayer_Network_SubnetObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall </a>
+
+
+
 

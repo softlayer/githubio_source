@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Update a placement group. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Update a placement group.
 * authenticate
 * SoftLayer_Virtual_PlacementGroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

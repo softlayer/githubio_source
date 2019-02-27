@@ -19,6 +19,8 @@ Revokes all tokens belong to a CDN account.
 ## Overview 
 This method revokes all tokens belong to a CDN account.  Valid media types are "HTTP", "FLASH" and "WM". 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method revokes all tokens belong to a CDN account.  Valid media types are "
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

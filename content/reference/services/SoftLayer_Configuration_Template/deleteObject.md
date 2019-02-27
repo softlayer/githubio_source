@@ -19,6 +19,8 @@ Deletes a customer configuration template.
 ## Overview 
 Deletes a customer configuration template. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Deletes a customer configuration template.
 * authenticate
 * SoftLayer_Configuration_TemplateInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

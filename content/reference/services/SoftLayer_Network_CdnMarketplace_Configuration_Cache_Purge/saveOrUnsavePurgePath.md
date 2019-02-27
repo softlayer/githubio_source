@@ -19,6 +19,8 @@ Creates a new saved purge if a purge path is saved. Deletes a saved purge record
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,17 @@ Creates a new saved purge if a purge path is saved. Deletes a saved purge record
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Cache_Purge'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Cache_Purge[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Cache_Purge'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Cache_Purge[] </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> <<< EOT 
+
+
 

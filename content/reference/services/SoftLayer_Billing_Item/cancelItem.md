@@ -31,6 +31,8 @@ The reason parameter could be from the list below:
 * "Sales process / upgrades"
 * "Moving to competitor"
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -44,8 +46,17 @@ The reason parameter could be from the list below:
 * authenticate
 * SoftLayer_Billing_ItemInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "This type of service cannot be cancelled through the API.  Please submit a cancellation ticket" If a billing items service type cannot be cancelled through the API. 
+
+
 

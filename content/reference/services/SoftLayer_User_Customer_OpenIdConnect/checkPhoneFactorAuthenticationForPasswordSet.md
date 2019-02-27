@@ -21,6 +21,8 @@ Add a description here
 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,16 +33,37 @@ Add a description here
 ### Required Headers
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_User_Customer::initiatePortalPasswordChange](/reference/services/SoftLayer_User_Customer/initiatePortalPasswordChange )
 *  [SoftLayer_User_Customer::getUserIdForPasswordSet](/reference/services/SoftLayer_User_Customer/getUserIdForPasswordSet )
 *  [SoftLayer_User_Customer::getRequirementsForPasswordSet](/reference/services/SoftLayer_User_Customer/getRequirementsForPasswordSet )
 *  [SoftLayer_User_Customer::processPasswordSetRequest](/reference/services/SoftLayer_User_Customer/processPasswordSetRequest )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> <<< EOT 
+
+* SoftLayer_Exception_Public 
+
+> <<< EOT 
+
+* SoftLayer_Exception_User_Customer_External_Binding_AwaitingResponse 
+
+> <<< EOT 
+
+* SoftLayer_Exception_User_Customer_External_Binding_AuthenticationFailed 
+
+> <<< EOT 
+
+
 

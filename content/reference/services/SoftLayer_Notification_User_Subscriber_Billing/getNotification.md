@@ -19,6 +19,8 @@ Retrieve notification subscribed to.
 ## Overview 
 Retrieve notification subscribed to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve notification subscribed to.
 * SoftLayer_Notification_User_Subscriber_BillingInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Notification_User_Subscriber_BillingObjectMask
 * SoftLayer_Notification_User_Subscriber_BillingObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Notification'>SoftLayer_Notification </a>
+* <a href='/reference/datatypes/SoftLayer_Notification'>SoftLayer_Notification </a>
+
+
+
 

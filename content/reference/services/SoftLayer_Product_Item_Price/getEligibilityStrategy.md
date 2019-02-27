@@ -19,6 +19,8 @@ Retrieve eligibility strategy to assess if a customer can order using this price
 ## Overview 
 Retrieve eligibility strategy to assess if a customer can order using this price.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve eligibility strategy to assess if a customer can order using this price
 * SoftLayer_Product_Item_PriceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Item_PriceObjectMask
 * SoftLayer_Product_Item_PriceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

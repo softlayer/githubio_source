@@ -19,6 +19,8 @@ Retrieve a list of the software descriptions that are compatible with this softw
 ## Overview 
 Retrieve a list of the software descriptions that are compatible with this software description.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a list of the software descriptions that are compatible with this softw
 * SoftLayer_Software_DescriptionInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_DescriptionObjectMask
 * SoftLayer_Software_DescriptionObjectFilter
@@ -35,5 +38,8 @@ Retrieve a list of the software descriptions that are compatible with this softw
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description[] </a>
+* <a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description[] </a>
+
+
+
 

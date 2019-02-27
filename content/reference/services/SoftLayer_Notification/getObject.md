@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Notification record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Notification record.
 * SoftLayer_NotificationInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_NotificationObjectMask
 * SoftLayer_NotificationObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Notification'>SoftLayer_Notification </a>
+* <a href='/reference/datatypes/SoftLayer_Notification'>SoftLayer_Notification </a>
+
+
+
 

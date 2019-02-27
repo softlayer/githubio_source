@@ -19,6 +19,8 @@ Retrieve all hardware associated with an account that has McAfee Secure Intrusio
 ## Overview 
 Retrieve all hardware associated with an account that has McAfee Secure Intrusion Detection System software components.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve all hardware associated with an account that has McAfee Secure Intrusio
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve all hardware associated with an account that has McAfee Secure Intrusio
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+
+
+
 

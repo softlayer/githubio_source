@@ -19,6 +19,8 @@ Set the tags for this template group.
 ## Overview 
 Set the tags for this template group.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Set the tags for this template group.
 * authenticate
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

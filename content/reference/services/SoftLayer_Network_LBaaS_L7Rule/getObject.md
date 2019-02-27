@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_LBaaS_L7Rule record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_LBaaS_L7Rule record.
 * SoftLayer_Network_LBaaS_L7RuleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_LBaaS_L7RuleObjectMask
 * SoftLayer_Network_LBaaS_L7RuleObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Rule'>SoftLayer_Network_LBaaS_L7Rule </a>
+* <a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Rule'>SoftLayer_Network_LBaaS_L7Rule </a>
+
+
+
 

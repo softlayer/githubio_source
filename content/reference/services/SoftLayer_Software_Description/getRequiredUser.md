@@ -19,6 +19,8 @@ Retrieve the default user created for a given a software description.
 ## Overview 
 Retrieve the default user created for a given a software description.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the default user created for a given a software description.
 * SoftLayer_Software_DescriptionInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_DescriptionObjectMask
 * SoftLayer_Software_DescriptionObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

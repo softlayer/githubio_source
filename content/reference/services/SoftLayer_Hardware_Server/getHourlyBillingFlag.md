@@ -19,6 +19,8 @@ Retrieve a server's hourly billing status.
 ## Overview 
 Retrieve a server's hourly billing status.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a server's hourly billing status.
 * SoftLayer_Hardware_ServerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_ServerObjectMask
 * SoftLayer_Hardware_ServerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Remove a virtual IP address from a load balancer
 ## Overview 
 Remove a virtual IP address from an application delivery controller based load balancer. Only the ''name'' property in the loadBalancer parameter must be populated. Changes are reflected immediately in the application delivery controller. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,15 +31,24 @@ Remove a virtual IP address from an application delivery controller based load b
 * authenticate
 * SoftLayer_Network_Application_Delivery_ControllerInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_Application_Delivery_Controller::updateLiveLoadBalancer](/reference/services/SoftLayer_Network_Application_Delivery_Controller/updateLiveLoadBalancer )
 *  [SoftLayer_Network_Application_Delivery_Controller::createLiveLoadBalancer](/reference/services/SoftLayer_Network_Application_Delivery_Controller/createLiveLoadBalancer )
 *  [SoftLayer_Network_Application_Delivery_Controller::deleteLiveLoadBalancerService](/reference/services/SoftLayer_Network_Application_Delivery_Controller/deleteLiveLoadBalancerService )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_ObjectNotFound 
+
+> Throw the exception "''name''" if the API is unable to locate a virtual IP address on the load balancer with the name specified in the ''name'' property in the loadBalancer parameter. 
+
+
 

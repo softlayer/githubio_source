@@ -19,6 +19,8 @@ Retrieve the ID of the virtual IP address.
 ## Overview 
 Retrieve the ID of the virtual IP address.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the ID of the virtual IP address.
 * SoftLayer_Scale_LoadBalancerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_LoadBalancerObjectMask
 * SoftLayer_Scale_LoadBalancerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-integer
+* integer
+
+
+
 

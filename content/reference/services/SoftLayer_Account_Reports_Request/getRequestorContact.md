@@ -19,6 +19,8 @@ Retrieve a request's corresponding requestor contact, if one exists.
 ## Overview 
 Retrieve a request's corresponding requestor contact, if one exists.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a request's corresponding requestor contact, if one exists.
 * SoftLayer_Account_Reports_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Reports_RequestObjectMask
 * SoftLayer_Account_Reports_RequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Contact'>SoftLayer_Account_Contact </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Contact'>SoftLayer_Account_Contact </a>
+
+
+
 

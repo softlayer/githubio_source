@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_Vlan_Type record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_Vlan_Type record.
 * SoftLayer_Network_Vlan_TypeInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Vlan_TypeObjectMask
 * SoftLayer_Network_Vlan_TypeObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Vlan_Type'>SoftLayer_Network_Vlan_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Vlan_Type'>SoftLayer_Network_Vlan_Type </a>
+
+
+
 

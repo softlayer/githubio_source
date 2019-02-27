@@ -19,6 +19,8 @@ Retrieve the location of an ordered item. This is usually the same as the server
 ## Overview 
 Retrieve the location of an ordered item. This is usually the same as the server it is being ordered with. Otherwise it describes the location of the additional service being ordered.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the location of an ordered item. This is usually the same as the server
 * SoftLayer_Billing_Order_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Order_ItemObjectMask
 * SoftLayer_Billing_Order_ItemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+
+
+
 

@@ -21,6 +21,8 @@ editObject edits an existing MX resource record. The ''host'' property of the te
 
 ''editObject'' returns Boolean ''true'' on a successful edit or ''false'' if it was unable to edit the resource record. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,15 +33,17 @@ editObject edits an existing MX resource record. The ''host'' property of the te
 * authenticate
 * SoftLayer_Dns_Domain_ResourceRecord_MxTypeInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Dns_Domain_ResourceRecord::editObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/editObject )
 *  [SoftLayer_Dns_Domain_ResourceRecord::editObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/editObjects )
 *  [SoftLayer_Dns_Domain_ResourceRecord_MxType::editObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/editObjects )
+
+
+
 

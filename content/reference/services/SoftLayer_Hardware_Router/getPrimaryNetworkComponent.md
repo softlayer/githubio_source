@@ -19,6 +19,8 @@ Retrieve information regarding the hardware's primary public network component.
 ## Overview 
 Retrieve information regarding the hardware's primary public network component.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve information regarding the hardware's primary public network component.
 * SoftLayer_Hardware_RouterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_RouterObjectMask
 * SoftLayer_Hardware_RouterObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>
+
+
+
 

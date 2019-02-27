@@ -19,6 +19,8 @@ Get all placement group rules.
 ## Overview 
 Get all placement group rules.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Get all placement group rules.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_PlacementGroup_RuleObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_PlacementGroup_Rule'>SoftLayer_Virtual_PlacementGroup_Rule[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_PlacementGroup_Rule'>SoftLayer_Virtual_PlacementGroup_Rule[] </a>
+
+
+
 

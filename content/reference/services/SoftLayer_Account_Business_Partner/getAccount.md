@@ -19,6 +19,8 @@ Retrieve account associated with the business partner data
 ## Overview 
 Retrieve account associated with the business partner data
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve account associated with the business partner data
 * SoftLayer_Account_Business_PartnerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Business_PartnerObjectMask
 * SoftLayer_Account_Business_PartnerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

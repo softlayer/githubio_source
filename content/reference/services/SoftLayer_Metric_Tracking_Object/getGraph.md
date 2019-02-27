@@ -19,6 +19,8 @@ Retrieve a graph of a virtual hosting platform's per instance use.
 ## Overview 
 Retrieve a PNG image of a metric in graph form. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,8 +33,10 @@ Retrieve a PNG image of a metric in graph form.
 * authenticate
 * SoftLayer_Metric_Tracking_ObjectInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+
+
+
 

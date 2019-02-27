@@ -19,6 +19,8 @@ Retrieve a graph of a SoftLayer backbone's last 24 hours of activity.
 ## Overview 
 Retrieve a graph of a SoftLayer backbone's last 24 hours of activity. getGraphImage returns a PNG image measuring 827 pixels by 293 pixels.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,14 +30,23 @@ Retrieve a graph of a SoftLayer backbone's last 24 hours of activity. getGraphIm
 * authenticate
 * SoftLayer_Network_BackboneInitParameters
 
-### Optional Headers
 
 ### Return Values
-binary data
+* binary data
 
 ### External Links
 
 
 * [Portable Network Graphics at Wikipedia](http://en.wikipedia.org/wiki/Portable_Network_Graphics)
+
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "Unable to load the image for the <backbone name> backbone graph" if the API is unable to retrieve a valid PNG image for the backbone. 
+
 
 

@@ -19,6 +19,8 @@ Retrieve whether the package is a specialized network gateway appliance package.
 ## Overview 
 Retrieve whether the package is a specialized network gateway appliance package.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve whether the package is a specialized network gateway appliance package.
 * SoftLayer_Product_PackageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_Product_PackageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

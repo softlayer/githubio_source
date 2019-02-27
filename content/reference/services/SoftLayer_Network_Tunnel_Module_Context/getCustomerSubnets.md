@@ -19,6 +19,8 @@ Retrieve remote subnets that are allowed access through a network tunnel.
 ## Overview 
 Retrieve remote subnets that are allowed access through a network tunnel.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve remote subnets that are allowed access through a network tunnel.
 * SoftLayer_Network_Tunnel_Module_ContextInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Tunnel_Module_ContextObjectMask
 * SoftLayer_Network_Tunnel_Module_ContextObjectFilter
@@ -35,5 +38,8 @@ Retrieve remote subnets that are allowed access through a network tunnel.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet'>SoftLayer_Network_Customer_Subnet[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet'>SoftLayer_Network_Customer_Subnet[] </a>
+
+
+
 

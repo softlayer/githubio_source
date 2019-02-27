@@ -19,6 +19,8 @@ Unbypass VLAN
 ## Overview 
 Start the asynchronous process to route the VLAN to this gateway. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Start the asynchronous process to route the VLAN to this gateway.
 * authenticate
 * SoftLayer_Network_Gateway_VlanInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the sum of all the outbound network traffic data for the last 30 days.
 ## Overview 
 Retrieve the sum of all the outbound network traffic data for the last 30 days.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the sum of all the outbound network traffic data for the last 30 days.
 * SoftLayer_HardwareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_HardwareObjectMask
 * SoftLayer_HardwareObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

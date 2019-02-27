@@ -19,6 +19,8 @@ Delete a group of Query_Host objects by passing in a collection of them
 ## Overview 
 Like any other API object, the monitoring objects can be deleted by passing an instance of them into this function.  The ID on the object must be set. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Like any other API object, the monitoring objects can be deleted by passing an i
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

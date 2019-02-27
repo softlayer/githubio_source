@@ -19,6 +19,8 @@ Retrieve a partition template's associated [[SoftLayer_Account|Account]].
 ## Overview 
 Retrieve a partition template's associated [[SoftLayer_Account|Account]].
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a partition template's associated [[SoftLayer_Account|Account]].
 * SoftLayer_Hardware_Component_Partition_TemplateInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_Component_Partition_TemplateObjectMask
 * SoftLayer_Hardware_Component_Partition_TemplateObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

@@ -19,6 +19,8 @@ Edit an application delivery controller record
 ## Overview 
 Edit an applications delivery controller record. Currently only a controller's notes property is editable. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit an applications delivery controller record. Currently only a controller's n
 * authenticate
 * SoftLayer_Network_Application_Delivery_ControllerInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

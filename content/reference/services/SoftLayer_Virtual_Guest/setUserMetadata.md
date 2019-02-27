@@ -19,6 +19,8 @@ Configures the guest's metadata disk.
 ## Overview 
 Sets the data that will be written to the configuration drive. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Sets the data that will be written to the configuration drive.
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

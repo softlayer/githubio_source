@@ -285,6 +285,8 @@ Location: https://api.softlayer.com/rest/v3/SoftLayer_Hardware/f5a3fcff-db1d-4b7
 } 
 </http> 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -294,17 +296,21 @@ Location: https://api.softlayer.com/rest/v3/SoftLayer_Hardware/f5a3fcff-db1d-4b7
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModuleObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware_SecurityModule'>SoftLayer_Hardware_SecurityModule </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware_SecurityModule'>SoftLayer_Hardware_SecurityModule </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Hardware::createObjects](/reference/services/SoftLayer_Hardware/createObjects )
 *  [SoftLayer_Hardware::generateOrderTemplate](/reference/services/SoftLayer_Hardware/generateOrderTemplate )
 *  [SoftLayer_Hardware::getCreateObjectOptions](/reference/services/SoftLayer_Hardware/getCreateObjectOptions )
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve whether to use UEFI boot instead of BIOS.
 ## Overview 
 Retrieve whether to use UEFI boot instead of BIOS.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve whether to use UEFI boot instead of BIOS.
 * SoftLayer_Hardware_SecurityModuleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModuleObjectMask
 * SoftLayer_Hardware_SecurityModuleObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

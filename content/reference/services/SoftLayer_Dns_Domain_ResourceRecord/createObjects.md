@@ -21,6 +21,8 @@ Create multiple resource records on a domain. This follows the same logic as ''c
 
 ''createObjects'' returns Boolean ''true'' on successful creation or ''false'' if it was unable to create a resource record. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,15 +32,19 @@ Create multiple resource records on a domain. This follows the same logic as ''c
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Dns_Domain_ResourceRecordObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord'>SoftLayer_Dns_Domain_ResourceRecord[] </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord'>SoftLayer_Dns_Domain_ResourceRecord[] </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Dns_Domain_ResourceRecord::createObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObject )
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve credentials used for generating an AWS signature. Max of 2.
 ## Overview 
 Retrieve credentials used for generating an AWS signature. Max of 2.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve credentials used for generating an AWS signature. Max of 2.
 * SoftLayer_Network_Storage_Hub_Cleversafe_AccountInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Hub_Cleversafe_AccountObjectMask
 * SoftLayer_Network_Storage_Hub_Cleversafe_AccountObjectFilter
@@ -35,5 +38,8 @@ Retrieve credentials used for generating an AWS signature. Max of 2.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Credential'>SoftLayer_Network_Storage_Credential[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Credential'>SoftLayer_Network_Storage_Credential[] </a>
+
+
+
 

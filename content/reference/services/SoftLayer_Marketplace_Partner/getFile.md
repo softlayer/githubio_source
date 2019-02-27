@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ aliases:
 * authenticate
 * SoftLayer_Marketplace_PartnerInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_File'>SoftLayer_Marketplace_Partner_File </a>
+* <a href='/reference/datatypes/SoftLayer_Marketplace_Partner_File'>SoftLayer_Marketplace_Partner_File </a>
+
+
+
 

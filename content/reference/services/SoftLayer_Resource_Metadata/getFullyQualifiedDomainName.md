@@ -19,6 +19,8 @@ A resource's fully qualified domain name
 ## Overview 
 The getFullyQualifiedDomainName method provides the user with a combined return which includes the hostname and domain for the resource. Because this method returns multiple pieces of information, it avoids the need to use multiple methods to return the desired information. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -26,8 +28,10 @@ The getFullyQualifiedDomainName method provides the user with a combined return 
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

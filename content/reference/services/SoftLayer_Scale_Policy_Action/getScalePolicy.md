@@ -19,6 +19,8 @@ Retrieve the policy this action is on.
 ## Overview 
 Retrieve the policy this action is on.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the policy this action is on.
 * SoftLayer_Scale_Policy_ActionInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Policy_ActionObjectMask
 * SoftLayer_Scale_Policy_ActionObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Policy'>SoftLayer_Scale_Policy </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Policy'>SoftLayer_Scale_Policy </a>
+
+
+
 

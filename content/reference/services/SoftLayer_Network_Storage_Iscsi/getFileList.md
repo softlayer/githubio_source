@@ -19,6 +19,8 @@ Retrieve list of files in a given folder for this account.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ Retrieve list of files in a given folder for this account.
 * authenticate
 * SoftLayer_Network_Storage_IscsiInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Utility_File_Entity'>SoftLayer_Container_Utility_File_Entity[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Utility_File_Entity'>SoftLayer_Container_Utility_File_Entity[] </a>
+
+
+
 

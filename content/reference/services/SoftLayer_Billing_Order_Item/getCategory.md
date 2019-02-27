@@ -19,6 +19,8 @@ Retrieve the item category tied to an order item.
 ## Overview 
 Retrieve the item category tied to an order item.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the item category tied to an order item.
 * SoftLayer_Billing_Order_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Order_ItemObjectMask
 * SoftLayer_Billing_Order_ItemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>
+
+
+
 

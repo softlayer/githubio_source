@@ -19,6 +19,8 @@ Retrieve boolean flag dictating whether or not this account supports PPTP VPN Ac
 ## Overview 
 Retrieve boolean flag dictating whether or not this account supports PPTP VPN Access.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve boolean flag dictating whether or not this account supports PPTP VPN Ac
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

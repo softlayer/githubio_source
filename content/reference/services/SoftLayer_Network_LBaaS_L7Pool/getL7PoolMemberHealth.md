@@ -19,6 +19,8 @@ Return load balancer's all L7 pools members health
 ## Overview 
 Returns the health of all L7 pool's members which are created under load balancer. L7 members health status is available only after a L7 pool is associated with the L7 policy and that L7 policy has at least one L7 rule. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Returns the health of all L7 pool's members which are created under load balance
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7PoolMembersHealth'>SoftLayer_Network_LBaaS_L7PoolMembersHealth[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7PoolMembersHealth'>SoftLayer_Network_LBaaS_L7PoolMembersHealth[] </a>
+
+
+
 

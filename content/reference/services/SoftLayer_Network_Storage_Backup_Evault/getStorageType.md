@@ -19,6 +19,8 @@ Retrieve a description of the Storage object.
 ## Overview 
 Retrieve a description of the Storage object.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a description of the Storage object.
 * SoftLayer_Network_Storage_Backup_EvaultInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Backup_EvaultObjectMask
 * SoftLayer_Network_Storage_Backup_EvaultObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Type'>SoftLayer_Network_Storage_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Type'>SoftLayer_Network_Storage_Type </a>
+
+
+
 

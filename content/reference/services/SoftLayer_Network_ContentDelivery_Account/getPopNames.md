@@ -19,6 +19,8 @@ Returns all CDN POPs (Points of Presence).
 ## Overview 
 This method returns an array of CDN POPs (Points of Presence) object. [[SoftLayer_Container_Network_ContentDelivery_PointsOfPresence|POP object]] object contains the POP id and name. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,17 @@ This method returns an array of CDN POPs (Points of Presence) object. [[SoftLaye
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_ContentDelivery_PointsOfPresence'>SoftLayer_Container_Network_ContentDelivery_PointsOfPresence[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_ContentDelivery_PointsOfPresence'>SoftLayer_Container_Network_ContentDelivery_PointsOfPresence[] </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a user does not have CDN_BANDWIDTH_VIEW privilege. 
+
+
 

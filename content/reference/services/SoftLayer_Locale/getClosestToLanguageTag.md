@@ -19,6 +19,8 @@ Get the closest locale for the language tag (ISO 639-1 & 3166-1) format.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Get the closest locale for the language tag (ISO 639-1 & 3166-1) format.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_LocaleObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Locale'>SoftLayer_Locale </a>
+* <a href='/reference/datatypes/SoftLayer_Locale'>SoftLayer_Locale </a>
+
+
+
 

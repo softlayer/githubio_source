@@ -19,6 +19,8 @@ Retrieve all permissions group(s) this volume is in.
 ## Overview 
 Retrieve all permissions group(s) this volume is in.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve all permissions group(s) this volume is in.
 * SoftLayer_Network_Storage_IscsiInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_IscsiObjectMask
 * SoftLayer_Network_Storage_IscsiObjectFilter
@@ -35,5 +38,8 @@ Retrieve all permissions group(s) this volume is in.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Group'>SoftLayer_Network_Storage_Group[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Group'>SoftLayer_Network_Storage_Group[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve an account's virtual guest objects that are hosted on a user provisione
 ## Overview 
 Retrieve an account's virtual guest objects that are hosted on a user provisioned hypervisor.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve an account's virtual guest objects that are hosted on a user provisione
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve an account's virtual guest objects that are hosted on a user provisione
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+
+
+
 

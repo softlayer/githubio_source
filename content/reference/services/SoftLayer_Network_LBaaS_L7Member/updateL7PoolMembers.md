@@ -19,6 +19,8 @@ Update l7 members weight and port
 ## Overview 
 Update L7 members weight and port. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Update L7 members weight and port.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_LBaaS_L7MemberObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancer'>SoftLayer_Network_LBaaS_LoadBalancer </a>
+* <a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancer'>SoftLayer_Network_LBaaS_LoadBalancer </a>
+
+
+
 

@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Remove a ssh key from your account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Remove a ssh key from your account.
 * authenticate
 * SoftLayer_Security_Ssh_KeyInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

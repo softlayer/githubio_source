@@ -19,6 +19,8 @@ Edit an existing registration object
 ## Overview 
 This method will edit an existing SoftLayer_Network_Subnet_Registration object. For more detail, see [[SoftLayer_Network_Subnet_Registration::createObject|createObject]]. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method will edit an existing SoftLayer_Network_Subnet_Registration object. 
 * authenticate
 * SoftLayer_Network_Subnet_RegistrationInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

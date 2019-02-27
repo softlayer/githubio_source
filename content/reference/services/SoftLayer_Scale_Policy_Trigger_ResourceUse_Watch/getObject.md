@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch record.
 * SoftLayer_Scale_Policy_Trigger_ResourceUse_WatchInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Policy_Trigger_ResourceUse_WatchObjectMask
 * SoftLayer_Scale_Policy_Trigger_ResourceUse_WatchObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch'>SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch'>SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch </a>
+
+
+
 

@@ -19,6 +19,8 @@ Removes an Origin Pull domain rule
 ## Overview 
 This method removes an Origin Pull domain rule.  Once an Origin Pull rule is removed, you will be able to access the /media/http directory. It will take 10 to 15 minutes for this to take effect after you remove your Origin Pull rule.  Cached contents on CDN POPs may live longer than 15 minutes. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,13 +31,30 @@ This method removes an Origin Pull domain rule.  Once an Origin Pull rule is rem
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_ContentDelivery_Account::createOriginPullRule](/reference/services/SoftLayer_Network_ContentDelivery_Account/createOriginPullRule )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a user does not have CDN_ACCOUNT_MANAGE privilege. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a connection to the CDN FTP server failed. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if an Origin Pull rule is not set up. 
+
+
 

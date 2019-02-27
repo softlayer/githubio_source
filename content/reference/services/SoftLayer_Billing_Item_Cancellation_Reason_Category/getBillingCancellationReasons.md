@@ -19,6 +19,8 @@ Retrieve the corresponding billing cancellation reasons having the specific bill
 ## Overview 
 Retrieve the corresponding billing cancellation reasons having the specific billing cancellation reason category.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the corresponding billing cancellation reasons having the specific bill
 * SoftLayer_Billing_Item_Cancellation_Reason_CategoryInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Item_Cancellation_Reason_CategoryObjectMask
 * SoftLayer_Billing_Item_Cancellation_Reason_CategoryObjectFilter
@@ -35,5 +38,8 @@ Retrieve the corresponding billing cancellation reasons having the specific bill
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason'>SoftLayer_Billing_Item_Cancellation_Reason[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason'>SoftLayer_Billing_Item_Cancellation_Reason[] </a>
+
+
+
 

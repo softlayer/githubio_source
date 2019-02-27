@@ -19,6 +19,8 @@ Retrieve peak number of bytes used in the vault for the current billing cycle.
 ## Overview 
 Retrieve peak number of bytes used in the vault for the current billing cycle.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve peak number of bytes used in the vault for the current billing cycle.
 * SoftLayer_Network_Storage_Backup_EvaultInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Backup_EvaultObjectMask
 * SoftLayer_Network_Storage_Backup_EvaultObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-unsigned integer
+* unsigned integer
+
+
+
 

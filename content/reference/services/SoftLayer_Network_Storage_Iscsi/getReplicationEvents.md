@@ -19,6 +19,8 @@ Retrieve the volume replication events.
 ## Overview 
 Retrieve the volume replication events.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the volume replication events.
 * SoftLayer_Network_Storage_IscsiInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_IscsiObjectMask
 * SoftLayer_Network_Storage_IscsiObjectFilter
@@ -35,5 +38,8 @@ Retrieve the volume replication events.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Event'>SoftLayer_Network_Storage_Event[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Event'>SoftLayer_Network_Storage_Event[] </a>
+
+
+
 

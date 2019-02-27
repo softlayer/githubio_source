@@ -19,6 +19,8 @@ Retrieve the billing items that have no parent billing item. These are items tha
 ## Overview 
 Retrieve the billing items that have no parent billing item. These are items that don't necessarily belong to a single server.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve the billing items that have no parent billing item. These are items tha
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve the billing items that have no parent billing item. These are items tha
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+
+
+
 

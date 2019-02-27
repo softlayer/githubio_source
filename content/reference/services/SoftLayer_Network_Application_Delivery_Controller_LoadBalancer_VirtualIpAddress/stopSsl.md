@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Stop SSL acceleration on all SSL virtual services (those with a type of HTTPS). 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Stop SSL acceleration on all SSL virtual services (those with a type of HTTPS).
 * authenticate
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddressInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

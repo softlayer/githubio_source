@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Hardware_Component_Partition_OperatingSystem record.
 ## Overview 
 getObject retrieves the SoftLayer_Hardware_Component_Partition_OperatingSystem object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Hardware_Component_Partition_OperatingSystem service.s 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ getObject retrieves the SoftLayer_Hardware_Component_Partition_OperatingSystem o
 * SoftLayer_Hardware_Component_Partition_OperatingSystemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_Component_Partition_OperatingSystemObjectMask
 * SoftLayer_Hardware_Component_Partition_OperatingSystemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_OperatingSystem'>SoftLayer_Hardware_Component_Partition_OperatingSystem </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_OperatingSystem'>SoftLayer_Hardware_Component_Partition_OperatingSystem </a>
+
+
+
 

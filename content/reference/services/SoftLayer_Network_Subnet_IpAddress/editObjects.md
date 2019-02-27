@@ -19,6 +19,8 @@ Edit multiple objects by passing in modified instances of the object.
 ## Overview 
 This function is used to edit multiple objects at the same time. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This function is used to edit multiple objects at the same time.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

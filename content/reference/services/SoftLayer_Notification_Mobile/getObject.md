@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Notification_Mobile record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Notification_Mobile record.
 * SoftLayer_Notification_MobileInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Notification_MobileObjectMask
 * SoftLayer_Notification_MobileObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Notification_Mobile'>SoftLayer_Notification_Mobile </a>
+* <a href='/reference/datatypes/SoftLayer_Notification_Mobile'>SoftLayer_Notification_Mobile </a>
+
+
+
 

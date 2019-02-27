@@ -19,6 +19,8 @@ Reboot a guest into the Idera Bare Metal Restore image.
 ## Overview 
 Reboot a guest into the Idera Bare Metal Restore image. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Reboot a guest into the Idera Bare Metal Restore image.
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

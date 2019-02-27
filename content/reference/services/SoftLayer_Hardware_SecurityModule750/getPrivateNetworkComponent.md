@@ -19,6 +19,8 @@ Retrieve a server's private network component.
 ## Overview 
 Retrieve the private network component attached with this server. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,21 @@ Retrieve the private network component attached with this server.
 * authenticate
 * SoftLayer_Hardware_SecurityModule750InitParameters
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModule750ObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "Unable to locate this server's private networking component." if the API is unable to locate a management component for this server. 
+
+
 

@@ -19,6 +19,8 @@ Get the acceptance status of the applicable third-party policies.
 ## Overview 
 Returns multiple [[SoftLayer_Container_Policy_Acceptance]] that represent the acceptance status of the applicable third-party policies for this account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ Returns multiple [[SoftLayer_Container_Policy_Acceptance]] that represent the ac
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Policy_Acceptance'>SoftLayer_Container_Policy_Acceptance[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Policy_Acceptance'>SoftLayer_Container_Policy_Acceptance[] </a>
+
+
+
 

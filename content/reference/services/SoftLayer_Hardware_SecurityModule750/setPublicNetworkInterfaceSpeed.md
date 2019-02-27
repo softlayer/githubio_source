@@ -33,6 +33,8 @@ A response of true indicates a change was required to achieve the desired interf
 
 In order to provide a period of transition to the new API, some backwards compatible behaviors will be active during this period. <ul> <li> A "doubled" (eg. 200) speed value will be translated to a redundancy value of "redundant". If a redundancy value is specified, it is assumed no translation is needed and will result in an error due to doubled speeds no longer being valid.</li> <li> A non-doubled (eg. 100) speed value <i>without</i> a redundancy value will be translated to a redundancy value of "degraded".</li> </ul> After the compatibility period, a doubled speed value will result in an error, and a non-doubled speed value without a redundancy value specified will result in the best available redundancy state. An exception is made for the new relative speed value -1. When using -1 without a redundancy value, the best possible redundancy will be used. Please transition away from using doubled speed values in favor of specifying redundancy (when applicable) or using relative speed values 0 and -1. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -44,15 +46,52 @@ In order to provide a period of transition to the new API, some backwards compat
 * authenticate
 * SoftLayer_Hardware_SecurityModule750InitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Hardware_Server::setPrivateNetworkInterfaceSpeed](/reference/services/SoftLayer_Hardware_Server/setPrivateNetworkInterfaceSpeed )
 *  [SoftLayer_Hardware_Server::activatePublicPort](/reference/services/SoftLayer_Hardware_Server/activatePublicPort )
 *  [SoftLayer_Hardware_Server::shutdownPublicPort](/reference/services/SoftLayer_Hardware_Server/shutdownPublicPort )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_InvalidValue 
+
+> Throws If speed is not a sane value 
+
+* SoftLayer_Exception_InvalidValue 
+
+> Throws If a specified redundancy mode is not 'redundant' or 'degraded' 
+
+* SoftLayer_Exception_NotSupported 
+
+> Throws If the requested speed is not available to the server 
+
+* SoftLayer_Exception_NotSupported 
+
+> Throws If the requested redundancy mode is not available to the server 
+
+* SoftLayer_Exception_Unavailable 
+
+> Throws If the requested network is not available to the server 
+
+* SoftLayer_Exception_NotReady 
+
+> Throws If a change, not necessarily a speed change, is pending against the server 
+
+* SoftLayer_Exception_NotReady 
+
+> Throws If the server is not yet available for interface speed changes 
+
+* SoftLayer_Exception_AccessDenied 
+
+> Throws If the user requesting the change lacks the Port Control permission 
+
+
 

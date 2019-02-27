@@ -19,6 +19,8 @@ Retrieve the total number of physical processor cores, summed from all processor
 ## Overview 
 Retrieve the total number of physical processor cores, summed from all processors that are attached to a piece of hardware
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the total number of physical processor cores, summed from all processor
 * SoftLayer_HardwareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_HardwareObjectMask
 * SoftLayer_HardwareObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-unsigned integer
+* unsigned integer
+
+
+
 

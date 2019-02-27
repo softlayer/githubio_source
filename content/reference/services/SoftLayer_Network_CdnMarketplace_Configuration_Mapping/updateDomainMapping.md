@@ -21,6 +21,8 @@ Additionally, bucketName and fileExtension if OriginType is Object Store
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ Additionally, bucketName and fileExtension if OriginType is Object Store
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping[] </a>
+
+
+
 

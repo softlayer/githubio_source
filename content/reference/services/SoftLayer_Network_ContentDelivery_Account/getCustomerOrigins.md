@@ -19,6 +19,8 @@ Returns customer origins
 ## Overview 
 An origin pull mapping is a combination of your customer origin record and a CNAME (optional) record. You can now keep track of your customer origin records separate from your CNAME records. This service returns your customer origin records. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ An origin pull mapping is a combination of your customer origin record and a CNA
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_ContentDelivery_OriginPull_Mapping'>SoftLayer_Container_Network_ContentDelivery_OriginPull_Mapping[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_ContentDelivery_OriginPull_Mapping'>SoftLayer_Container_Network_ContentDelivery_OriginPull_Mapping[] </a>
+
+
+
 

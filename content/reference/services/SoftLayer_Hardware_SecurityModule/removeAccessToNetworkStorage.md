@@ -19,6 +19,8 @@ Remove access to a SoftLayer_Network_Storage volume from this device.
 ## Overview 
 This method is used to remove access to s SoftLayer_Network_Storage volumes that supports host- or network-level access control. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method is used to remove access to s SoftLayer_Network_Storage volumes that
 * authenticate
 * SoftLayer_Hardware_SecurityModuleInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

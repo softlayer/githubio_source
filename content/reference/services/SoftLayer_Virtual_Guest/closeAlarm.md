@@ -19,6 +19,8 @@ Returns monitoring alarm detailed history
 ## Overview 
 Returns monitoring alarm detailed history 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,9 +31,13 @@ Returns monitoring alarm detailed history
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
+
 ### Optional Headers
 * resultLimit
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

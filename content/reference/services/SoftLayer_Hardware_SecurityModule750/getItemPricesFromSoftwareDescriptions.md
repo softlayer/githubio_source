@@ -19,6 +19,8 @@ Return a collection of SoftLayer_Item_Price objects from a collection of SoftLay
 ## Overview 
 Return a collection of SoftLayer_Item_Price objects from a collection of SoftLayer_Software_Description
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,10 +33,21 @@ Return a collection of SoftLayer_Item_Price objects from a collection of SoftLay
 * authenticate
 * SoftLayer_Hardware_SecurityModule750InitParameters
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModule750ObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception 'Unable to locate billing item.' when the billing item cannot be determined. 
+
+
 

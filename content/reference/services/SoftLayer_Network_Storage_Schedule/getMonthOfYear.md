@@ -19,6 +19,8 @@ Retrieve the month of the year parameter of this schedule.
 ## Overview 
 Retrieve the month of the year parameter of this schedule.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the month of the year parameter of this schedule.
 * SoftLayer_Network_Storage_ScheduleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_ScheduleObjectMask
 * SoftLayer_Network_Storage_ScheduleObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

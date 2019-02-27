@@ -19,6 +19,8 @@ Retrieve a flag that will reflect whether the detailed version of the pdf has be
 ## Overview 
 Retrieve a flag that will reflect whether the detailed version of the pdf has been generated.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a flag that will reflect whether the detailed version of the pdf has be
 * SoftLayer_Billing_InvoiceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_InvoiceObjectMask
 * SoftLayer_Billing_InvoiceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

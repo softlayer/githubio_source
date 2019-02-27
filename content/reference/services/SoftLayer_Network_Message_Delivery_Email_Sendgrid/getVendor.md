@@ -19,6 +19,8 @@ Retrieve the vendor for a network message delivery account.
 ## Overview 
 Retrieve the vendor for a network message delivery account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the vendor for a network message delivery account.
 * SoftLayer_Network_Message_Delivery_Email_SendgridInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Message_Delivery_Email_SendgridObjectMask
 * SoftLayer_Network_Message_Delivery_Email_SendgridObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Message_Delivery_Vendor'>SoftLayer_Network_Message_Delivery_Vendor </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Message_Delivery_Vendor'>SoftLayer_Network_Message_Delivery_Vendor </a>
+
+
+
 

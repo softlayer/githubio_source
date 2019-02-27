@@ -21,6 +21,8 @@ You can launch firmware updates by selecting from your server list. It will brin
 
 In the event of a hardware failure during this test our datacenter engineers will be notified of the problem automatically. They will then replace any failed components to bring your server back online, and will be contacting you to ensure that impact on your server is minimal. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -34,8 +36,21 @@ In the event of a hardware failure during this test our datacenter engineers wil
 * authenticate
 * SoftLayer_Hardware_ServerInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception 'You do not have permission to this service.' when a user does not have permission to Issue OS Reloads. 
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception 'There is currently an outstanding transaction for this server.' when there is a current hardware update. 
+
+
 

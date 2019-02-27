@@ -19,6 +19,8 @@ Modify the Network.
 ## Overview 
 Modify either the ``name`` or ``notes`` properties of a Network. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Modify either the ``name`` or ``notes`` properties of a Network.
 * authenticate
 * SoftLayer_NetworkInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

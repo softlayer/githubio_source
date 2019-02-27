@@ -19,6 +19,8 @@ Retrieves a server's power state.
 ## Overview 
 The '''getPowerState''' method retrieves the power state for the selected server. The server's power status is retrieved from its remote management card. This method returns "on", for a server that has been powered on, or "off" for servers powered off. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,17 @@ The '''getPowerState''' method retrieves the power state for the selected server
 * authenticate
 * SoftLayer_Hardware_RouterInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> "Method has not been implemented for this object type." 
+
+
 

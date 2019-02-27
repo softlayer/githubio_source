@@ -19,6 +19,8 @@ Get a collection of active NetApp software account license keys.
 ## Overview 
 This returns a collection of active NetApp software account license keys.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ This returns a collection of active NetApp software account license keys.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-array of strings
+* array of strings
+
+
+
 

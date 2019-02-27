@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Ticket_Update_EmployeeInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Ticket_Update_EmployeeObjectMask
 * SoftLayer_Ticket_Update_EmployeeObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

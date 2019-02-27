@@ -19,6 +19,8 @@ Retrieve a resource group's associated attributes.
 ## Overview 
 Retrieve a resource group's associated attributes.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a resource group's associated attributes.
 * SoftLayer_Resource_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Resource_GroupObjectMask
 * SoftLayer_Resource_GroupObjectFilter
@@ -35,5 +38,8 @@ Retrieve a resource group's associated attributes.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Resource_Group_Attribute'>SoftLayer_Resource_Group_Attribute[] </a>
+* <a href='/reference/datatypes/SoftLayer_Resource_Group_Attribute'>SoftLayer_Resource_Group_Attribute[] </a>
+
+
+
 

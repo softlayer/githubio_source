@@ -19,6 +19,8 @@ Retrieve information regarding a piece of hardware's associated network storage 
 ## Overview 
 Retrieve information regarding a piece of hardware's associated network storage service account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve information regarding a piece of hardware's associated network storage 
 * SoftLayer_Hardware_ServerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_ServerObjectMask
 * SoftLayer_Hardware_ServerObjectFilter
@@ -35,5 +38,8 @@ Retrieve information regarding a piece of hardware's associated network storage 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Network_Storage_Backup_EvaultInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Backup_EvaultObjectMask
 * SoftLayer_Network_Storage_Backup_EvaultObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>
+
+
+
 

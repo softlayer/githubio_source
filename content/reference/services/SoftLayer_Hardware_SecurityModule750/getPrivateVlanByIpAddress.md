@@ -19,6 +19,8 @@ Retrieve a backend network VLAN by searching for an IP address.
 ## Overview 
 Retrieve a backend network VLAN by searching for an IP address 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,29 @@ Retrieve a backend network VLAN by searching for an IP address
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModule750ObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "You must provide a valid IP address." if an invalid IPV4 IP address was provided. 
+
+* SoftLayer_Exception 
+
+> Throw the exception "Unable to find a subnet." if there is no subnet for the IP address provided. 
+
+* SoftLayer_Exception 
+
+> Throw the exception "Unable to find a valid network component for this IP address." if a network component with the primary IP address the same as the one provided could not be found. 
+
+
 

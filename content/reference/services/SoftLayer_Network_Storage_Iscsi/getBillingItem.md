@@ -19,6 +19,8 @@ Retrieve the current billing item for a Storage volume.
 ## Overview 
 Retrieve the current billing item for a Storage volume.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the current billing item for a Storage volume.
 * SoftLayer_Network_Storage_IscsiInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_IscsiObjectMask
 * SoftLayer_Network_Storage_IscsiObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+
+
+
 

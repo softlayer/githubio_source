@@ -19,6 +19,8 @@ Retrieve a flag indicating that the virtual guest is a managed resource.
 ## Overview 
 Retrieve a flag indicating that the virtual guest is a managed resource.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a flag indicating that the virtual guest is a managed resource.
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the next billing period's detailed invoice. Note, this should be consid
 ## Overview 
 Return an account's next invoice detailed portion in PDF format. The "next invoice" is what a customer will be billed on their next invoice, assuming no changes are made. Currently this does not include Bandwidth Pooling charges.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Return an account's next invoice detailed portion in PDF format. The "next invoi
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-binary data
+* binary data
+
+
+
 

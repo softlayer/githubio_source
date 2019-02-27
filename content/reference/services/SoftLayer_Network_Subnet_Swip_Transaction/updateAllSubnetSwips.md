@@ -19,6 +19,8 @@ Update all subnets on the account with an "OK" status.
 ## Overview 
 This method finds all subnets attached to your account that are in "OK" status and updates their data with ARIN.  Use this function after you have updated your RWHOIS data if you want to keep SWIP up to date. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ This method finds all subnets attached to your account that are in "OK" status a
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

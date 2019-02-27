@@ -19,6 +19,8 @@ Retrieve unique identifier for a customer used throughout IBM.
 ## Overview 
 Retrieve unique identifier for a customer used throughout IBM.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve unique identifier for a customer used throughout IBM.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the properties used to provide additional details about a network stora
 ## Overview 
 Retrieve the properties used to provide additional details about a network storage volume.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the properties used to provide additional details about a network stora
 * SoftLayer_Network_Storage_IscsiInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_IscsiObjectMask
 * SoftLayer_Network_Storage_IscsiObjectFilter
@@ -35,5 +38,8 @@ Retrieve the properties used to provide additional details about a network stora
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Property'>SoftLayer_Network_Storage_Property[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Property'>SoftLayer_Network_Storage_Property[] </a>
+
+
+
 

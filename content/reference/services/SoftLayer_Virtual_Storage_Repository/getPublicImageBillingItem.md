@@ -19,6 +19,8 @@ Retrieve the current billing item for a public storage repository.
 ## Overview 
 Retrieve the current billing item for a public storage repository.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the current billing item for a public storage repository.
 * SoftLayer_Virtual_Storage_RepositoryInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Storage_RepositoryObjectMask
 * SoftLayer_Virtual_Storage_RepositoryObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+
+
+
 

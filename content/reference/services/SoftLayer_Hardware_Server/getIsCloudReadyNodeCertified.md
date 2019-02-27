@@ -19,6 +19,8 @@ Retrieve determine if hardware object has the IBM_CLOUD_READY_NODE_CERTIFIED att
 ## Overview 
 Retrieve determine if hardware object has the IBM_CLOUD_READY_NODE_CERTIFIED attribute.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve determine if hardware object has the IBM_CLOUD_READY_NODE_CERTIFIED att
 * SoftLayer_Hardware_ServerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_ServerObjectMask
 * SoftLayer_Hardware_ServerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve brand associated with the business partner data
 ## Overview 
 Retrieve brand associated with the business partner data
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve brand associated with the business partner data
 * SoftLayer_Brand_Business_PartnerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Brand_Business_PartnerObjectMask
 * SoftLayer_Brand_Business_PartnerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>
+* <a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>
+
+
+
 

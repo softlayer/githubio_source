@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routin
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routin
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_TypeInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_TypeObjectMask
 * SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_TypeObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type </a>
+
+
+
 

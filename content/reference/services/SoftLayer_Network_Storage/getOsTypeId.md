@@ -19,6 +19,8 @@ Retrieve a volume's configured SoftLayer_Network_Storage_Iscsi_OS_Type ID.
 ## Overview 
 Retrieve a volume's configured SoftLayer_Network_Storage_Iscsi_OS_Type ID.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a volume's configured SoftLayer_Network_Storage_Iscsi_OS_Type ID.
 * SoftLayer_Network_StorageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_StorageObjectMask
 * SoftLayer_Network_StorageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

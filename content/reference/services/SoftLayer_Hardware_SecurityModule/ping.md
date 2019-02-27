@@ -19,6 +19,8 @@ Issues ping command.
 ## Overview 
 Issues a ping command to the server and returns the ping response. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Issues a ping command to the server and returns the ping response.
 * authenticate
 * SoftLayer_Hardware_SecurityModuleInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

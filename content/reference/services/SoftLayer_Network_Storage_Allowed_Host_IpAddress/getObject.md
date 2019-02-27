@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_Storage_Allowed_Host_IpAddress record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_Storage_Allowed_Host_IpAddress record.
 * SoftLayer_Network_Storage_Allowed_Host_IpAddressInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Allowed_Host_IpAddressObjectMask
 * SoftLayer_Network_Storage_Allowed_Host_IpAddressObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Allowed_Host_IpAddress'>SoftLayer_Network_Storage_Allowed_Host_IpAddress </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Allowed_Host_IpAddress'>SoftLayer_Network_Storage_Allowed_Host_IpAddress </a>
+
+
+
 

@@ -23,6 +23,8 @@ Support tickets may only be created in the open state. The SoftLayer API default
 
 Once your ticket is created it is placed in a queue for SoftLayer employees to work. As they update the ticket new [[SoftLayer_Ticket_Update]] entries are added to the ticket object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -39,10 +41,29 @@ Once your ticket is created it is placed in a queue for SoftLayer employees to w
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TicketObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "Please provide a subject when creating a standard support ticket." If the $templateObject parameter does not have a subjectId set. See [[SoftLayer_Ticket_Subject]] for more information. 
+
+* SoftLayer_Exception 
+
+> Throw the exception "Please provide ticket contents." if no contents are provided to the method. 
+
+* SoftLayer_Exception 
+
+> Throw the exception "Please provide a root/admin password." if a hardware id was passed to the method, but a root password wasn't. 
+
+
 

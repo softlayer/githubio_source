@@ -19,6 +19,8 @@ Retrieve a Billing Item's total, including any child billing items and associate
 ## Overview 
 Retrieve a Billing Item's total, including any child billing items and associated billing items if they exist.'
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a Billing Item's total, including any child billing items and associate
 * SoftLayer_Billing_Item_Virtual_DedicatedHostInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Item_Virtual_DedicatedHostObjectMask
 * SoftLayer_Billing_Item_Virtual_DedicatedHostObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-float
+* float
+
+
+
 

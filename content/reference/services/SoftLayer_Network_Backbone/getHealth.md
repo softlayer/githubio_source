@@ -19,6 +19,8 @@ Retrieve a backbone's status.
 ## Overview 
 Retrieve a backbone's status.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a backbone's status.
 * SoftLayer_Network_BackboneInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_BackboneObjectMask
 * SoftLayer_Network_BackboneObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

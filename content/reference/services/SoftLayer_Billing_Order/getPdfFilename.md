@@ -19,6 +19,8 @@ Retrieve the default name of the PDF
 ## Overview 
 Retrieve the default filename of an order PDF. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Retrieve the default filename of an order PDF.
 * authenticate
 * SoftLayer_Billing_OrderInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

@@ -19,6 +19,8 @@ create a SWIP transaction for a subnet
 ## Overview 
 This function is used to create a new SoftLayer SWIP transaction to register your RWHOIS data with ARIN. SWIP transactions can only be initiated on subnets that contain more than 8 IP addresses. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,29 @@ This function is used to create a new SoftLayer SWIP transaction to register you
 * authenticate
 * SoftLayer_Network_SubnetInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_PrivateSubnet 
+
+> Exception thrown if a SWIP is attempted on a private network subnet. 
+
+* SoftLayer_Exception_SubnetTooSmall 
+
+> Exception thrown if a SWIP is attempted on a subnet smaller than 8 IP addresses. 
+
+* SoftLayer_Exception_PreexistingTransaction 
+
+> Exception thrown if a SWIP is attempted on a subnet that already has a SWIP transaction in progress. 
+
+* SoftLayer_Exception_Network_Subnet_Registration 
+
+> Exception thrown if an active registration already exists 
+
+
 

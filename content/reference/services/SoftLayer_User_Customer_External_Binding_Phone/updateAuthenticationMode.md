@@ -19,6 +19,8 @@ Updates the authentication mode
 ## Overview 
 This service allow you to change your phone authentication mode. See [[SoftLayer_Container_User_Customer_External_Binding_Phone_Mode|authentication mode]] container for available modes. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This service allow you to change your phone authentication mode. See [[SoftLayer
 * authenticate
 * SoftLayer_User_Customer_External_Binding_PhoneInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

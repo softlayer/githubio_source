@@ -19,6 +19,8 @@ Delete software component passwords.
 ## Overview 
 Delete software component passwords. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Delete software component passwords.
 * authenticate
 * SoftLayer_Hardware_ServerInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

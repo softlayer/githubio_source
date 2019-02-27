@@ -19,6 +19,8 @@ Retrieve this flag indicates whether a billing item is scheduled to be canceled 
 ## Overview 
 Retrieve this flag indicates whether a billing item is scheduled to be canceled or not.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve this flag indicates whether a billing item is scheduled to be canceled 
 * SoftLayer_Billing_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_ItemObjectMask
 * SoftLayer_Billing_ItemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

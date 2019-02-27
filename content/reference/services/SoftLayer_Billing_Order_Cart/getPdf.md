@@ -19,6 +19,8 @@ Retrieve a PDF copy of the cart.
 ## Overview 
 Retrieve a PDF copy of the cart. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Retrieve a PDF copy of the cart.
 * authenticate
 * SoftLayer_Billing_Order_CartInitParameters
 
-### Optional Headers
 
 ### Return Values
-binary data
+* binary data
+
+
+
 

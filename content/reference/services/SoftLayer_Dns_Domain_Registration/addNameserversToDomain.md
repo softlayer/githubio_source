@@ -19,6 +19,8 @@ Adds nameservers to a domain.
 ## Overview 
 The addNameserversToDomain method adds nameservers to a domain for a domain that already has nameservers assigned to it. This method does not create a nameserver; the nameserver must already exist. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ The addNameserversToDomain method adds nameservers to a domain for a domain that
 * authenticate
 * SoftLayer_Dns_Domain_RegistrationInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

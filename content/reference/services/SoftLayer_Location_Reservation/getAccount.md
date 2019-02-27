@@ -19,6 +19,8 @@ Retrieve the account that a billing item belongs to.
 ## Overview 
 Retrieve the account that a billing item belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the account that a billing item belongs to.
 * SoftLayer_Location_ReservationInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_ReservationObjectMask
 * SoftLayer_Location_ReservationObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

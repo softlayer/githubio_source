@@ -19,6 +19,8 @@ Retrieve the downstream virtual server that the rule set will be applied to.
 ## Overview 
 Retrieve the downstream virtual server that the rule set will be applied to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the downstream virtual server that the rule set will be applied to.
 * SoftLayer_Network_Firewall_Update_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Firewall_Update_RequestObjectMask
 * SoftLayer_Network_Firewall_Update_RequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
+
+
+
 

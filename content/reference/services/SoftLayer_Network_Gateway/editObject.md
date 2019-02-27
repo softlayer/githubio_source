@@ -19,6 +19,8 @@ Edit Gateway
 ## Overview 
 Edit this gateway. Currently, the only value that can be edited is the name. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit this gateway. Currently, the only value that can be edited is the name.
 * authenticate
 * SoftLayer_Network_GatewayInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

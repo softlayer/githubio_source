@@ -19,6 +19,8 @@ Retrieve notification subscription records for the user.
 ## Overview 
 Retrieve notification subscription records for the user.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve notification subscription records for the user.
 * SoftLayer_User_CustomerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_CustomerObjectMask
 * SoftLayer_User_CustomerObjectFilter
@@ -35,5 +38,8 @@ Retrieve notification subscription records for the user.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Notification_Subscriber'>SoftLayer_Notification_Subscriber[] </a>
+* <a href='/reference/datatypes/SoftLayer_Notification_Subscriber'>SoftLayer_Notification_Subscriber[] </a>
+
+
+
 

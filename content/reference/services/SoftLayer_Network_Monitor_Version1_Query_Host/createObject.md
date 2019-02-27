@@ -19,6 +19,8 @@ Create a monitoring entry
 ## Overview 
 Passing in an unsaved instances of a Query_Host object into this function will create the object and return the results to the user. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Passing in an unsaved instances of a Query_Host object into this function will c
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Monitor_Version1_Query_HostObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host'>SoftLayer_Network_Monitor_Version1_Query_Host </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host'>SoftLayer_Network_Monitor_Version1_Query_Host </a>
+
+
+
 

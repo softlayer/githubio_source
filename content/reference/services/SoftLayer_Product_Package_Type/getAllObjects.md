@@ -19,6 +19,8 @@ Get all the package types.
 ## Overview 
 This method will return all of the available package types. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ This method will return all of the available package types.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Package_TypeObjectMask
 * SoftLayer_ObjectMask
@@ -34,5 +37,8 @@ This method will return all of the available package types.
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Package_Type'>SoftLayer_Product_Package_Type[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Package_Type'>SoftLayer_Product_Package_Type[] </a>
+
+
+
 

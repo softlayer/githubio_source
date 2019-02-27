@@ -19,6 +19,8 @@ Retrieve indicating whether this invoice item is billed on an hourly basis.
 ## Overview 
 Retrieve indicating whether this invoice item is billed on an hourly basis.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve indicating whether this invoice item is billed on an hourly basis.
 * SoftLayer_Billing_Invoice_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Invoice_ItemObjectMask
 * SoftLayer_Billing_Invoice_ItemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

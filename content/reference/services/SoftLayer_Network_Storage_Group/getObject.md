@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_Storage_Group record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_Storage_Group record.
 * SoftLayer_Network_Storage_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_GroupObjectMask
 * SoftLayer_Network_Storage_GroupObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Group'>SoftLayer_Network_Storage_Group </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Group'>SoftLayer_Network_Storage_Group </a>
+
+
+
 

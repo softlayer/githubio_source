@@ -19,6 +19,8 @@ Creates a directory on the CDN FTP server
 ## Overview 
 You can further organize your contents on the CDN FTP server by creating sub directories.  This method creates a directory on the CDN FTP server. A user must have CDN_FILE_MANAGE privilege to use this method. A directory name must be an absolute path and you can only create sub directories in /media folder. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,25 @@ You can further organize your contents on the CDN FTP server by creating sub dir
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a user does not have CDN_FILE_MANAGE privilege. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a directory name is empty. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a user attempts to create a directory outside of /media folder. 
+
+
 

@@ -19,6 +19,8 @@ Check if the alternate billing system of brand is Bluemix.
 ## Overview 
 Check if the alternate billing system of brand is Bluemix. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Check if the alternate billing system of brand is Bluemix.
 * authenticate
 * SoftLayer_BrandInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

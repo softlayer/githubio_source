@@ -19,6 +19,8 @@ Retrieve the SoftLayer_Software_Description that this account license is for.
 ## Overview 
 Retrieve the SoftLayer_Software_Description that this account license is for.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the SoftLayer_Software_Description that this account license is for.
 * SoftLayer_Software_AccountLicenseInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_AccountLicenseObjectMask
 * SoftLayer_Software_AccountLicenseObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>
+* <a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>
+
+
+
 

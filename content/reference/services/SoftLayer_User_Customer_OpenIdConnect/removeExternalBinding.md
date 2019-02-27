@@ -19,6 +19,8 @@ Remove an external binding from this user.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Remove an external binding from this user.
 * authenticate
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

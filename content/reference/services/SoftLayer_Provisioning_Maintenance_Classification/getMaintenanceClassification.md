@@ -19,6 +19,8 @@ Retrieve a maintenance classification.
 ## Overview 
 Retrieve an array of SoftLayer_Provisioning_Maintenance_Classification data types, which contain all maintenance classifications. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve an array of SoftLayer_Provisioning_Maintenance_Classification data type
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Provisioning_Maintenance_ClassificationObjectMask
 * SoftLayer_ObjectMask
 * SoftLayer_Provisioning_Maintenance_ClassificationObjectFilter
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification'>SoftLayer_Provisioning_Maintenance_Classification[] </a>
+* <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification'>SoftLayer_Provisioning_Maintenance_Classification[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve information regarding a lockbox account associated with a server.
 ## Overview 
 Retrieve information regarding a lockbox account associated with a server.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve information regarding a lockbox account associated with a server.
 * SoftLayer_Hardware_RouterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_RouterObjectMask
 * SoftLayer_Hardware_RouterObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>
+
+
+
 

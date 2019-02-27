@@ -19,6 +19,8 @@ Retrieve return 1 if one of the account's hardware has an installation of R1Soft
 ## Overview 
 Retrieve return 1 if one of the account's hardware has an installation of R1Soft CDP otherwise 0.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve return 1 if one of the account's hardware has an installation of R1Soft
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

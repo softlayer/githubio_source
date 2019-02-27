@@ -19,6 +19,8 @@ Retrieve the item categories that are included in this package preset configurat
 ## Overview 
 Retrieve the item categories that are included in this package preset configuration.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the item categories that are included in this package preset configurat
 * SoftLayer_Product_Package_PresetInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Package_PresetObjectMask
 * SoftLayer_Product_Package_PresetObjectFilter
@@ -35,5 +38,8 @@ Retrieve the item categories that are included in this package preset configurat
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>
+
+
+
 

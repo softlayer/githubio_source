@@ -19,6 +19,8 @@ Returns customizable layout containers
 ## Overview 
 Use this method to retrieve all active layout containers that can be customized. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Use this method to retrieve all active layout containers that can be customized.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Layout_ContainerObjectMask
 * SoftLayer_ObjectMask
 * SoftLayer_Layout_ContainerObjectFilter
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Layout_Container'>SoftLayer_Layout_Container[] </a>
+* <a href='/reference/datatypes/SoftLayer_Layout_Container'>SoftLayer_Layout_Container[] </a>
+
+
+
 

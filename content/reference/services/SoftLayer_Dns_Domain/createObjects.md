@@ -19,6 +19,8 @@ Create multiple domains at once.
 ## Overview 
 Create multiple domains on the SoftLayer name servers. Each domain record passed to ''createObjects'' follows the logic in the SoftLayer_Dns_Domain ''createObject'' method. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,15 +30,19 @@ Create multiple domains on the SoftLayer name servers. Each domain record passed
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Dns_DomainObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain[] </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain[] </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Dns_Domain::createObject](/reference/services/SoftLayer_Dns_Domain/createObject )
+
+
+
 

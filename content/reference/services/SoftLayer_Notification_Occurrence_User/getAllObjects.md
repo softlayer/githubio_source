@@ -19,6 +19,8 @@ Returns a collection of impacted users, an account master user has the ability t
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Returns a collection of impacted users, an account master user has the ability t
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Notification_Occurrence_UserObjectMask
 * SoftLayer_ObjectMask
 * SoftLayer_Notification_Occurrence_UserObjectFilter
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_User'>SoftLayer_Notification_Occurrence_User[] </a>
+* <a href='/reference/datatypes/SoftLayer_Notification_Occurrence_User'>SoftLayer_Notification_Occurrence_User[] </a>
+
+
+
 

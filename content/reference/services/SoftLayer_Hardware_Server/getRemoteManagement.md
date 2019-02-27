@@ -19,6 +19,8 @@ Retrieve a server's remote management card.
 ## Overview 
 Retrieve a server's remote management card.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a server's remote management card.
 * SoftLayer_Hardware_ServerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_ServerObjectMask
 * SoftLayer_Hardware_ServerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware_Component_RemoteManagement'>SoftLayer_Hardware_Component_RemoteManagement </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware_Component_RemoteManagement'>SoftLayer_Hardware_Component_RemoteManagement </a>
+
+
+
 

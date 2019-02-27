@@ -19,6 +19,8 @@ Retrieve a PDF copy of a quote.
 ## Overview 
 Retrieve a PDF record of a SoftLayer quote. If the order is not a quote, an error will be thrown. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,13 +30,15 @@ Retrieve a PDF record of a SoftLayer quote. If the order is not a quote, an erro
 * authenticate
 * SoftLayer_Billing_OrderInitParameters
 
-### Optional Headers
 
 ### Return Values
-binary data
+* binary data
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Billing_Order_Quote::getPdf](/reference/services/SoftLayer_Billing_Order_Quote/getPdf )
+
+
+
 

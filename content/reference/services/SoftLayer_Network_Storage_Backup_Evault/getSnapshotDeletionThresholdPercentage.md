@@ -19,6 +19,8 @@ Retrieve the percentage of used snapshot space after which to delete automated s
 ## Overview 
 Retrieve the percentage of used snapshot space after which to delete automated snapshots.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the percentage of used snapshot space after which to delete automated s
 * SoftLayer_Network_Storage_Backup_EvaultInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Backup_EvaultObjectMask
 * SoftLayer_Network_Storage_Backup_EvaultObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

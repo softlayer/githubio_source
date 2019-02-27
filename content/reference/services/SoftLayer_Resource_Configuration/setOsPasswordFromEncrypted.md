@@ -19,6 +19,8 @@ Set resource operating system password from an encrypted password
 ## Overview 
 The setOsPasswordFromEncrypted method is used to set the operating system password from a key/pair encrypted password signed by SoftLayer. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ The setOsPasswordFromEncrypted method is used to set the operating system passwo
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

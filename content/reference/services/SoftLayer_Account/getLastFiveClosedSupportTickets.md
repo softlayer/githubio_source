@@ -19,6 +19,8 @@ Retrieve the five most recently closed support tickets associated with an accoun
 ## Overview 
 Retrieve the five most recently closed support tickets associated with an account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve the five most recently closed support tickets associated with an accoun
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve the five most recently closed support tickets associated with an accoun
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>
+
+
+
 

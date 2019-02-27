@@ -21,6 +21,8 @@ This method, when given an attack signature ID (available in the return values o
 
 CVE and Bugtraq information is not available at this level. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -34,8 +36,33 @@ CVE and Bugtraq information is not available at this level.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_IntrusionProtection_SubnetReport'>SoftLayer_Container_Network_IntrusionProtection_SubnetReport </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_IntrusionProtection_SubnetReport'>SoftLayer_Container_Network_IntrusionProtection_SubnetReport </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Parameter 'timeFrame' not valid in SoftLayer_Network_TippingPointReporting getReportForIpAddressOrSubnet.  Valid values are positive integers less than or equal to 1440" If an invalid  argument was passed for the "timeFrame" value 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Parameter 'direction' not valid in SoftLayer_Network_TippingPointReporting getReportForIpAddressOrSubnet.  Valid values are Inbound, Outbound" If an invalid attack direction has been specified 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "IP address not assigned to this account: {Address}" If the supplied IP or subnet does not belong to this account 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Invalid IP Address: {Address}" If the supplied IP or subnet was not formatted correctly. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "There was a problem with the IP address you entered {Address}.  Make sure the IP entered belongs to the current account." If there was an unrecoverable error with the passed IP Address 
+
+
 

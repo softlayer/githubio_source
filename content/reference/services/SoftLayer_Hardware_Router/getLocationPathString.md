@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Hardware_RouterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_RouterObjectMask
 * SoftLayer_Hardware_RouterObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

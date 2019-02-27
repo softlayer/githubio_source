@@ -19,6 +19,8 @@ Returns the maintenance classifications
 ## Overview 
 getMaintenanceClassifications() returns an object of maintenance classifications 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ getMaintenanceClassifications() returns an object of maintenance classifications
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Provisioning_Maintenance_WindowObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification'>SoftLayer_Provisioning_Maintenance_Classification[] </a>
+* <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification'>SoftLayer_Provisioning_Maintenance_Classification[] </a>
+
+
+
 

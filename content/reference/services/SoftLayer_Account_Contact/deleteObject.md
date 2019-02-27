@@ -19,6 +19,8 @@ Delete an account contact
 ## Overview 
 deleteObject permanently removes an account contact 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ deleteObject permanently removes an account contact
 * authenticate
 * SoftLayer_Account_ContactInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

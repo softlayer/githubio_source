@@ -19,6 +19,8 @@ A list of frontend MAC addresses
 ## Overview 
 The getFrontendMacAddresses method retrieves a list of frontend MAC addresses for the resource
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -26,8 +28,10 @@ The getFrontendMacAddresses method retrieves a list of frontend MAC addresses fo
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-array of strings
+* array of strings
+
+
+
 

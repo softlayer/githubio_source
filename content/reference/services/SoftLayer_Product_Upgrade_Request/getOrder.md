@@ -19,6 +19,8 @@ Retrieve an order record associated to the upgrade request
 ## Overview 
 Retrieve an order record associated to the upgrade request
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve an order record associated to the upgrade request
 * SoftLayer_Product_Upgrade_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Upgrade_RequestObjectMask
 * SoftLayer_Product_Upgrade_RequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>
+
+
+
 

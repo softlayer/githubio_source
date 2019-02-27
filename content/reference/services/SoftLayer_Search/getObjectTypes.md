@@ -21,6 +21,8 @@ This method returns a collection of <b>[[SoftLayer_Container_Search_ObjectType (
 
 <p> Refer to the <b>[[SoftLayer_Search/search|search()]]</b> and <b>[[SoftLayer_Search/advancedSearch|advancedSearch()]]</b> methods for information on using object types and properties in search strings. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method returns a collection of <b>[[SoftLayer_Container_Search_ObjectType (
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Search_ObjectType'>SoftLayer_Container_Search_ObjectType[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Search_ObjectType'>SoftLayer_Container_Search_ObjectType[] </a>
+
+
+
 

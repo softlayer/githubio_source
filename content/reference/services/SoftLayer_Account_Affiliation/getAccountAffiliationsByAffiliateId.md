@@ -19,6 +19,8 @@ Get account affiliation information associated with affiliate id.
 ## Overview 
 Get account affiliation information associated with affiliate id. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Get account affiliation information associated with affiliate id.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_AffiliationObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Affiliation'>SoftLayer_Account_Affiliation[] </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Affiliation'>SoftLayer_Account_Affiliation[] </a>
+
+
+
 

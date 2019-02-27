@@ -19,6 +19,8 @@ Retrieve the associated volume for a schedule.
 ## Overview 
 Retrieve the associated volume for a schedule.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the associated volume for a schedule.
 * SoftLayer_Network_Storage_ScheduleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_ScheduleObjectMask
 * SoftLayer_Network_Storage_ScheduleObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>
+
+
+
 

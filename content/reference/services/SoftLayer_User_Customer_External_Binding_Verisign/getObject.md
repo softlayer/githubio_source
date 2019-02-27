@@ -19,6 +19,8 @@ Retrieve a SoftLayer_User_Customer_External_Binding_Verisign record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_User_Customer_External_Binding_Verisign record.
 * SoftLayer_User_Customer_External_Binding_VerisignInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_External_Binding_VerisignObjectMask
 * SoftLayer_User_Customer_External_Binding_VerisignObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_External_Binding_Verisign'>SoftLayer_User_Customer_External_Binding_Verisign </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_External_Binding_Verisign'>SoftLayer_User_Customer_External_Binding_Verisign </a>
+
+
+
 

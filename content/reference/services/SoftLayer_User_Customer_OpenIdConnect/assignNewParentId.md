@@ -25,6 +25,8 @@ The new parent must be a user on the same account, and must not be a child of th
 
 If the cascadeFlag is set to false, then an exception will be thrown if the new parent does not have all of the permissions that this user possesses.  If the cascadeFlag is set to true, then permissions will be removed from this user and the descendants of this user as necessary so that no children of the parent will have permissions that the parent does not possess. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -36,10 +38,14 @@ If the cascadeFlag is set to false, then an exception will be thrown if the new 
 * authenticate
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_OpenIdConnectObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_OpenIdConnect'>SoftLayer_User_Customer_OpenIdConnect </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_OpenIdConnect'>SoftLayer_User_Customer_OpenIdConnect </a>
+
+
+
 

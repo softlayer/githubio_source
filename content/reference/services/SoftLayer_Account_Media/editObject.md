@@ -19,6 +19,8 @@ Edit a media.
 ## Overview 
 Edit the properties of a media record by passing in a modified instance of a SoftLayer_Account_Media object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit the properties of a media record by passing in a modified instance of a Sof
 * authenticate
 * SoftLayer_Account_MediaInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

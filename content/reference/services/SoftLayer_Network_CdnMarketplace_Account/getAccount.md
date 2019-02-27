@@ -19,6 +19,8 @@ Retrieve softLayer account to which the CDN account belongs.
 ## Overview 
 Retrieve softLayer account to which the CDN account belongs.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve softLayer account to which the CDN account belongs.
 * SoftLayer_Network_CdnMarketplace_AccountInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_CdnMarketplace_AccountObjectMask
 * SoftLayer_Network_CdnMarketplace_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

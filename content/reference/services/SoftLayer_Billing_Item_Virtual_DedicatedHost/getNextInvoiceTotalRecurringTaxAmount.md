@@ -19,6 +19,8 @@ Retrieve this is deprecated and will always be zero. Because tax is calculated i
 ## Overview 
 Retrieve this is deprecated and will always be zero. Because tax is calculated in real-time, previewing the next recurring invoice is pre-tax only.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve this is deprecated and will always be zero. Because tax is calculated i
 * SoftLayer_Billing_Item_Virtual_DedicatedHostInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Item_Virtual_DedicatedHostObjectMask
 * SoftLayer_Billing_Item_Virtual_DedicatedHostObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-float
+* float
+
+
+
 

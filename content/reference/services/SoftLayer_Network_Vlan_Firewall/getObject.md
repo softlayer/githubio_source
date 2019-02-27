@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_Vlan_Firewall record.
 ## Overview 
 getObject returns a SoftLayer_Network_Vlan_Firewall object. You can only get objects for vlans attached to your account that have a network firewall enabled. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ getObject returns a SoftLayer_Network_Vlan_Firewall object. You can only get obj
 * SoftLayer_Network_Vlan_FirewallInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Vlan_FirewallObjectMask
 * SoftLayer_Network_Vlan_FirewallObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Vlan_Firewall'>SoftLayer_Network_Vlan_Firewall </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Vlan_Firewall'>SoftLayer_Network_Vlan_Firewall </a>
+
+
+
 

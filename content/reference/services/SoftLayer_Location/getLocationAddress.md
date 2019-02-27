@@ -19,6 +19,8 @@ Retrieve a location's physical address.
 ## Overview 
 Retrieve a location's physical address.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a location's physical address.
 * SoftLayer_LocationInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_LocationObjectMask
 * SoftLayer_LocationObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a>
+
+
+
 

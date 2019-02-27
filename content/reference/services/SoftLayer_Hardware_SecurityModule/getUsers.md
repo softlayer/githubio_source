@@ -19,6 +19,8 @@ Retrieve a list of users that have access to this computing instance.
 ## Overview 
 Retrieve a list of users that have access to this computing instance.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a list of users that have access to this computing instance.
 * SoftLayer_Hardware_SecurityModuleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModuleObjectMask
 * SoftLayer_Hardware_SecurityModuleObjectFilter
@@ -35,5 +38,8 @@ Retrieve a list of users that have access to this computing instance.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ aliases:
 * SoftLayer_Layout_Profile_CustomerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Layout_Profile_CustomerObjectMask
 * SoftLayer_Layout_Profile_CustomerObjectFilter
@@ -35,5 +38,8 @@ aliases:
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Layout_Container'>SoftLayer_Layout_Container[] </a>
+* <a href='/reference/datatypes/SoftLayer_Layout_Container'>SoftLayer_Layout_Container[] </a>
+
+
+
 

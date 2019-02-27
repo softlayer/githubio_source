@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Delete a placement group from your account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Delete a placement group from your account.
 * authenticate
 * SoftLayer_Virtual_PlacementGroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

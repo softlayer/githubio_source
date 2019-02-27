@@ -35,6 +35,8 @@ Notes: 1) When no data is found for a particular triplet (resource_id, storage_l
 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -49,8 +51,10 @@ Notes: 1) When no data is found for a particular triplet (resource_id, storage_l
 * authenticate
 * SoftLayer_Network_Storage_Hub_Cleversafe_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-array of strings
+* array of strings
+
+
+
 

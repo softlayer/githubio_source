@@ -21,6 +21,8 @@ Returns manufacturer name for a given gateway object
 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ Returns manufacturer name for a given gateway object
 * authenticate
 * SoftLayer_Network_GatewayInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

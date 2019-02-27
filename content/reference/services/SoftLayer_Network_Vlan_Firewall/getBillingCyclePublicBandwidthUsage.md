@@ -19,6 +19,8 @@ Retrieve the raw public bandwidth usage data for the current billing cycle.
 ## Overview 
 Retrieve the raw public bandwidth usage data for the current billing cycle.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the raw public bandwidth usage data for the current billing cycle.
 * SoftLayer_Network_Vlan_FirewallInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Vlan_FirewallObjectMask
 * SoftLayer_Network_Vlan_FirewallObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage </a>
+
+
+
 

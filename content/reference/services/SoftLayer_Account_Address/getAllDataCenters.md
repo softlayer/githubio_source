@@ -19,6 +19,8 @@ Retrieve a list of SoftLayer datacenter addresses.
 ## Overview 
 Retrieve a list of SoftLayer datacenter addresses.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Retrieve a list of SoftLayer datacenter addresses.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_AddressObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address[] </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address[] </a>
+
+
+
 

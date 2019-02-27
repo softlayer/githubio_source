@@ -21,6 +21,8 @@ Edit multiple MX records on a domain. This follows the same logic as ''createObj
 
 ''createObjects'' returns Boolean ''true'' on successful creation or ''false'' if it was unable to create a resource record. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,15 +32,17 @@ Edit multiple MX records on a domain. This follows the same logic as ''createObj
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Dns_Domain_ResourceRecord::editObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/editObject )
 *  [SoftLayer_Dns_Domain_ResourceRecord::editObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/editObjects )
 *  [SoftLayer_Dns_Domain_ResourceRecord_MxType::editObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/editObject )
+
+
+
 

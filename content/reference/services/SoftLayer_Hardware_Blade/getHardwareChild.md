@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Hardware_BladeInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_BladeObjectMask
 * SoftLayer_Hardware_BladeObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+
+
+
 

@@ -19,6 +19,8 @@ Gets authentication URL
 ## Overview 
 Returns URL used to authenticate reviewers 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Returns URL used to authenticate reviewers
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

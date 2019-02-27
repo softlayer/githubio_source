@@ -25,6 +25,8 @@ results in a return of all bandwidth data for the entire day of February 1, 2008
 
 For data spanning more than a single 24-hour period, refer to the getBandwidthData function on the metricTrackingObject for the piece of hardware. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -36,8 +38,10 @@ For data spanning more than a single 24-hour period, refer to the getBandwidthDa
 * authenticate
 * SoftLayer_Hardware_SecurityModuleInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
+* <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Adds a token authentication directory
 ## Overview 
 You need to specify a directory on your CDN FTP or on your origin host in which your secure content resides to enable the token authentication . It will take about about 30 minutes for a newly configured token authentication directory to take effect. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ You need to specify a directory on your CDN FTP or on your origin host in which 
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

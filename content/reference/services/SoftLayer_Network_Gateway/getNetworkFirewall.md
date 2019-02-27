@@ -19,6 +19,8 @@ Retrieve the firewall associated with this gateway, if any.
 ## Overview 
 Retrieve the firewall associated with this gateway, if any.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the firewall associated with this gateway, if any.
 * SoftLayer_Network_GatewayInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_GatewayObjectMask
 * SoftLayer_Network_GatewayObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Vlan_Firewall'>SoftLayer_Network_Vlan_Firewall </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Vlan_Firewall'>SoftLayer_Network_Vlan_Firewall </a>
+
+
+
 

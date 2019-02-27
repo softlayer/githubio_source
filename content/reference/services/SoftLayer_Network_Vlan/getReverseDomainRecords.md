@@ -19,6 +19,8 @@ Retrieve all reverse DNS records associated with a VLAN.
 ## Overview 
 Retrieve all reverse DNS records associated with the subnets assigned to a VLAN. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,15 +30,19 @@ Retrieve all reverse DNS records associated with the subnets assigned to a VLAN.
 * authenticate
 * SoftLayer_Network_VlanInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Network_VlanObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain[] </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain[] </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_Subnet::getReverseDomainRecords](/reference/services/SoftLayer_Network_Subnet/getReverseDomainRecords )
+
+
+
 

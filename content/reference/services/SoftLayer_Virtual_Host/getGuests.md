@@ -19,6 +19,8 @@ Retrieve the guests associated with a virtual host.
 ## Overview 
 Retrieve the guests associated with a virtual host.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the guests associated with a virtual host.
 * SoftLayer_Virtual_HostInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_HostObjectMask
 * SoftLayer_Virtual_HostObjectFilter
@@ -35,5 +38,8 @@ Retrieve the guests associated with a virtual host.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+
+
+
 

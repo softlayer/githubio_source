@@ -19,6 +19,8 @@ Retrieve the type of network storage service.
 ## Overview 
 Retrieve the type of network storage service.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the type of network storage service.
 * SoftLayer_Network_Storage_IscsiInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_IscsiObjectMask
 * SoftLayer_Network_Storage_IscsiObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

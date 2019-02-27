@@ -19,6 +19,8 @@ Retrieve the total private inbound bandwidth for this computing instance for the
 ## Overview 
 Retrieve the total private inbound bandwidth for this computing instance for the current billing cycle.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the total private inbound bandwidth for this computing instance for the
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

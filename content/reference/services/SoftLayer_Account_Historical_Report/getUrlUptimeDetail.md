@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ aliases:
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Account_Historical_Summary_Detail'>SoftLayer_Container_Account_Historical_Summary_Detail </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Account_Historical_Summary_Detail'>SoftLayer_Container_Account_Historical_Summary_Detail </a>
+
+
+
 

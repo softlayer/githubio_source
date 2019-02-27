@@ -19,6 +19,8 @@ Retrieve a portal user's additional email addresses. These email addresses are c
 ## Overview 
 Retrieve a portal user's additional email addresses. These email addresses are contacted when updates are made to support tickets.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a portal user's additional email addresses. These email addresses are c
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_OpenIdConnectObjectMask
 * SoftLayer_User_Customer_OpenIdConnectObjectFilter
@@ -35,5 +38,8 @@ Retrieve a portal user's additional email addresses. These email addresses are c
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_AdditionalEmail'>SoftLayer_User_Customer_AdditionalEmail[] </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_AdditionalEmail'>SoftLayer_User_Customer_AdditionalEmail[] </a>
+
+
+
 

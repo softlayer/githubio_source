@@ -19,6 +19,8 @@ Return a list of valid block device template groups based on this host
 ## Overview 
 This method will return the list of block device template groups that are valid to the host. For instance, it will validate that the template groups returned are compatible with the size and number of disks on the host. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,6 +31,7 @@ This method will return the list of block device template groups that are valid 
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_ObjectMask
@@ -36,5 +39,8 @@ This method will return the list of block device template groups that are valid 
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group[] </a>
+
+
+
 

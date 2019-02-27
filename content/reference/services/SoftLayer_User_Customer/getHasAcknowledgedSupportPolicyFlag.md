@@ -19,6 +19,8 @@ Retrieve whether or not a user has acknowledged the support policy.
 ## Overview 
 Retrieve whether or not a user has acknowledged the support policy.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve whether or not a user has acknowledged the support policy.
 * SoftLayer_User_CustomerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_CustomerObjectMask
 * SoftLayer_User_CustomerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

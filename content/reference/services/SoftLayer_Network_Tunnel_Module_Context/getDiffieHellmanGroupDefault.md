@@ -19,6 +19,8 @@ Returns the diffie hellman group default.
 ## Overview 
 The default Diffie-Hellman group used for both phases of the negotiation process.  The default value is set to 2. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ The default Diffie-Hellman group used for both phases of the negotiation process
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

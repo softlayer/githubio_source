@@ -19,6 +19,8 @@ Remove a user's API authentication key.
 ## Overview 
 Remove a user's API authentication key, removing that user's access to query the SoftLayer API. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,13 +30,22 @@ Remove a user's API authentication key, removing that user's access to query the
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_User_Customer::addApiAuthenticationKey](/reference/services/SoftLayer_User_Customer/addApiAuthenticationKey )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Please provide an API Authentication key ID." when not passing or passing an invalid API authentication key ID. 
+
+
 

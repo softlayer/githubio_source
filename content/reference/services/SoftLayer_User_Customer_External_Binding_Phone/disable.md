@@ -25,6 +25,8 @@ You may supply one of the following reason when you disable an external binding:
 *Lost
 *Stolen
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -35,8 +37,17 @@ You may supply one of the following reason when you disable an external binding:
 * authenticate
 * SoftLayer_User_Customer_External_Binding_PhoneInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the error "The provided disable reason must be one of the following: Unspecified, TemporarilyUnavailable, Lost, or Stolen." when the provided reason does not match an acceptable option. 
+
+
 

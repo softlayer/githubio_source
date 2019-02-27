@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Product_Item_Policy_Assignment record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Product_Item_Policy_Assignment record.
 * SoftLayer_Product_Item_Policy_AssignmentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Item_Policy_AssignmentObjectMask
 * SoftLayer_Product_Item_Policy_AssignmentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item_Policy_Assignment'>SoftLayer_Product_Item_Policy_Assignment </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item_Policy_Assignment'>SoftLayer_Product_Item_Policy_Assignment </a>
+
+
+
 

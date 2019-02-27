@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Software_AccountLicense record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Software_AccountLicense record.
 * SoftLayer_Software_AccountLicenseInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_AccountLicenseObjectMask
 * SoftLayer_Software_AccountLicenseObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_AccountLicense'>SoftLayer_Software_AccountLicense </a>
+* <a href='/reference/datatypes/SoftLayer_Software_AccountLicense'>SoftLayer_Software_AccountLicense </a>
+
+
+
 

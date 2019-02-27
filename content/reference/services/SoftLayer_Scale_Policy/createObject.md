@@ -19,6 +19,8 @@ Add a policy to a group.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Add a policy to a group.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_PolicyObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Policy'>SoftLayer_Scale_Policy </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Policy'>SoftLayer_Scale_Policy </a>
+
+
+
 

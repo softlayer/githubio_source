@@ -19,6 +19,8 @@ Edits an authentication IP
 ## Overview 
 This method let you edit an authentication IP object by passing a modified object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method let you edit an authentication IP object by passing a modified objec
 * authenticate
 * SoftLayer_Network_ContentDelivery_Authentication_AddressInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

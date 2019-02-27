@@ -19,6 +19,8 @@ Updates the maintenance window
 ## Overview 
 In case an upgrade cannot be performed, the maintenance window needs to be updated to a future date. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ In case an upgrade cannot be performed, the maintenance window needs to be updat
 * authenticate
 * SoftLayer_Product_Upgrade_RequestInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

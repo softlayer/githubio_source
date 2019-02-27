@@ -19,6 +19,8 @@ Acknowledge the associated [[SoftLayer_Notification_Occurrence_Event]] for this 
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Acknowledge the associated [[SoftLayer_Notification_Occurrence_Event]] for this 
 * authenticate
 * SoftLayer_Notification_Occurrence_UserInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

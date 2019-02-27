@@ -19,6 +19,8 @@ Retrieve information regarding the billing item for external authentication.
 ## Overview 
 Retrieve information regarding the billing item for external authentication.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve information regarding the billing item for external authentication.
 * SoftLayer_User_Customer_External_Binding_TotpInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_External_Binding_TotpObjectMask
 * SoftLayer_User_Customer_External_Binding_TotpObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+
+
+
 

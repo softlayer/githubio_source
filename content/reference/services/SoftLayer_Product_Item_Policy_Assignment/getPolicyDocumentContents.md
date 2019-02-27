@@ -19,6 +19,8 @@ Retrieve the binary content of the policy document.
 ## Overview 
 Retrieve the binary contents of the associated PDF policy document. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Retrieve the binary contents of the associated PDF policy document.
 * authenticate
 * SoftLayer_Product_Item_Policy_AssignmentInitParameters
 
-### Optional Headers
 
 ### Return Values
-binary data
+* binary data
+
+
+
 

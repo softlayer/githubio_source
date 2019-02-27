@@ -27,6 +27,8 @@ As a precaution, we strongly  recommend backing up all data before reloading the
 
 The reload will take AT MINIMUM 66 minutes. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -38,8 +40,41 @@ The reload will take AT MINIMUM 66 minutes.
 * authenticate
 * SoftLayer_Hardware_SecurityModuleInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Hardware_Server_OperatingSystemReloadPermissionDenied 
+
+> Throws the exception 'You do not have permission to this service.' when a user does not have permission to Issue OS Reloads. 
+
+* SoftLayer_Exception_Hardware_Server_ActiveTransactionExists 
+
+> Throws the exception 'There is currently an outstanding transaction for this server.' when a server has a currently running transaction. 
+
+* SoftLayer_Exception_Hardware_Server_InvalidStatus 
+
+> Throws the exception 'This server status(STATUS) is not valid for this action.' when the server status is not active. 
+
+* SoftLayer_Exception_Hardware_Server_InvalidReloadToken 
+
+> Throws the exception 'Invalid token provided.' when a token that is either expired or invalid is provided. 
+
+* SoftLayer_Exception_Hardware_Server_MissingBillingItem 
+
+> Throws the exception 'Couldn't find BillingItem for this server.' when there is no billing item that exists for a server. 
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception 'Unable to cancel current billing item.  Please contact support.' when a billing item for software that is not reing reloaded can not be cancelled. 
+
+* SoftLayer_Exception_Hardware_Component_HardDrive_PartitionsExceedDriveSize 
+
+> Throws the exception 'Partitions provided (PARTITION_SUM GB) exceed primary drive capacity (DRIVE_SIZE GB).' when the partition configuration provided exceeds the size of the drive. 
+
+
 

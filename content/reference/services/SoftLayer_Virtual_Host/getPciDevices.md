@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ aliases:
 * SoftLayer_Virtual_HostInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_HostObjectMask
 * SoftLayer_Virtual_HostObjectFilter
@@ -35,5 +38,8 @@ aliases:
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Host_PciDevice'>SoftLayer_Virtual_Host_PciDevice[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Host_PciDevice'>SoftLayer_Virtual_Host_PciDevice[] </a>
+
+
+
 

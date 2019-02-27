@@ -19,6 +19,8 @@ Retrieve a list of configuration available in this category.'
 ## Overview 
 Retrieve a list of configuration available in this category.'
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a list of configuration available in this category.'
 * SoftLayer_Product_Item_CategoryInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Item_CategoryObjectMask
 * SoftLayer_Product_Item_CategoryObjectFilter
@@ -35,5 +38,8 @@ Retrieve a list of configuration available in this category.'
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Package_Order_Configuration'>SoftLayer_Product_Package_Order_Configuration[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Package_Order_Configuration'>SoftLayer_Product_Package_Order_Configuration[] </a>
+
+
+
 

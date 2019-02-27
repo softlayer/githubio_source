@@ -19,6 +19,8 @@ Retrieve the signature of the SoftLayer employee department associated with this
 ## Overview 
 Retrieve the signature of the SoftLayer employee department associated with this notification.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the signature of the SoftLayer employee department associated with this
 * SoftLayer_Auxiliary_Notification_EmergencyInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Auxiliary_Notification_EmergencyObjectMask
 * SoftLayer_Auxiliary_Notification_EmergencyObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency_Signature'>SoftLayer_Auxiliary_Notification_Emergency_Signature </a>
+* <a href='/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency_Signature'>SoftLayer_Auxiliary_Notification_Emergency_Signature </a>
+
+
+
 

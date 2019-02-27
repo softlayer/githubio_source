@@ -28,6 +28,8 @@ This method creates a managed authentication token. When passing a parameter, th
 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -37,10 +39,14 @@ This method creates a managed authentication token. When passing a parameter, th
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_ContentDelivery_Authentication_TokenObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Authentication_Token'>SoftLayer_Network_ContentDelivery_Authentication_Token </a>
+* <a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Authentication_Token'>SoftLayer_Network_ContentDelivery_Authentication_Token </a>
+
+
+
 

@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ aliases:
 * SoftLayer_User_Permission_Group_TypeInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Permission_Group_TypeObjectMask
 * SoftLayer_User_Permission_Group_TypeObjectFilter
@@ -35,5 +38,8 @@ aliases:
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Permission_Group'>SoftLayer_User_Permission_Group[] </a>
+* <a href='/reference/datatypes/SoftLayer_User_Permission_Group'>SoftLayer_User_Permission_Group[] </a>
+
+
+
 

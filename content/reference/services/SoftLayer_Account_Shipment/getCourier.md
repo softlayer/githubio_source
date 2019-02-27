@@ -19,6 +19,8 @@ Retrieve the courier handling the shipment.
 ## Overview 
 Retrieve the courier handling the shipment.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the courier handling the shipment.
 * SoftLayer_Account_ShipmentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_ShipmentObjectMask
 * SoftLayer_Account_ShipmentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Auxiliary_Shipping_Courier'>SoftLayer_Auxiliary_Shipping_Courier </a>
+* <a href='/reference/datatypes/SoftLayer_Auxiliary_Shipping_Courier'>SoftLayer_Auxiliary_Shipping_Courier </a>
+
+
+
 

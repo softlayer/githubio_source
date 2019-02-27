@@ -19,6 +19,8 @@ Retrieve a SoftLayer_User_Security_Question record.
 ## Overview 
 getAllObjects retrieves all the SoftLayer_User_Security_Question objects where it is set to be viewable. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ getAllObjects retrieves all the SoftLayer_User_Security_Question objects where i
 * SoftLayer_User_Security_QuestionInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Security_QuestionObjectMask
 * SoftLayer_User_Security_QuestionObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Security_Question'>SoftLayer_User_Security_Question </a>
+* <a href='/reference/datatypes/SoftLayer_User_Security_Question'>SoftLayer_User_Security_Question </a>
+
+
+
 

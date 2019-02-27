@@ -19,6 +19,8 @@ Retrieve an account's reverse WHOIS data. This data is used when making SWIP req
 ## Overview 
 Retrieve an account's reverse WHOIS data. This data is used when making SWIP requests.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve an account's reverse WHOIS data. This data is used when making SWIP req
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet_Rwhois_Data'>SoftLayer_Network_Subnet_Rwhois_Data </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet_Rwhois_Data'>SoftLayer_Network_Subnet_Rwhois_Data </a>
+
+
+
 

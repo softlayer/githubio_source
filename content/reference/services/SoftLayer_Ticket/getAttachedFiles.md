@@ -19,6 +19,8 @@ Retrieve the files attached to a ticket.
 ## Overview 
 Retrieve the files attached to a ticket.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the files attached to a ticket.
 * SoftLayer_TicketInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TicketObjectMask
 * SoftLayer_TicketObjectFilter
@@ -35,5 +38,8 @@ Retrieve the files attached to a ticket.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket_Attachment_File'>SoftLayer_Ticket_Attachment_File[] </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket_Attachment_File'>SoftLayer_Ticket_Attachment_File[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the start of authority (SOA) record contains authoritative and propagat
 ## Overview 
 Retrieve the start of authority (SOA) record contains authoritative and propagation details for a DNS zone. This property is not considered in requests to createObject and editObject.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the start of authority (SOA) record contains authoritative and propagat
 * SoftLayer_Dns_DomainInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Dns_DomainObjectMask
 * SoftLayer_Dns_DomainObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SoaType'>SoftLayer_Dns_Domain_ResourceRecord_SoaType </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SoaType'>SoftLayer_Dns_Domain_ResourceRecord_SoaType </a>
+
+
+
 

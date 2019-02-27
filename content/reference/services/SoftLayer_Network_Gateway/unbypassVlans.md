@@ -19,6 +19,8 @@ Bypass VLANs
 ## Overview 
 Start the asynchronous process to unbypass the provided VLANs. The VLANs must already be attached. Any VLANs that are already unbypassed will be ignored. The status field can be checked for progress. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Start the asynchronous process to unbypass the provided VLANs. The VLANs must al
 * authenticate
 * SoftLayer_Network_GatewayInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

@@ -33,6 +33,8 @@ Subscriber preferences may also be edited.  To edit the preferences, you must pa
 **id = 12
 **value = 20
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -43,8 +45,10 @@ Subscriber preferences may also be edited.  To edit the preferences, you must pa
 * authenticate
 * SoftLayer_Notification_User_Subscriber_MobileInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

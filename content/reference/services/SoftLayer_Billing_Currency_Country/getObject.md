@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Billing_Currency_Country record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Billing_Currency_Country record.
 * SoftLayer_Billing_Currency_CountryInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Currency_CountryObjectMask
 * SoftLayer_Billing_Currency_CountryObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Currency_Country'>SoftLayer_Billing_Currency_Country </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Currency_Country'>SoftLayer_Billing_Currency_Country </a>
+
+
+
 

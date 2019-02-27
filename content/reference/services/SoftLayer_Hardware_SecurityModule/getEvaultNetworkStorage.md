@@ -19,6 +19,8 @@ Retrieve information regarding a piece of hardware's associated EVault network s
 ## Overview 
 Retrieve information regarding a piece of hardware's associated EVault network storage service account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve information regarding a piece of hardware's associated EVault network s
 * SoftLayer_Hardware_SecurityModuleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModuleObjectMask
 * SoftLayer_Hardware_SecurityModuleObjectFilter
@@ -35,5 +38,8 @@ Retrieve information regarding a piece of hardware's associated EVault network s
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+
+
+
 

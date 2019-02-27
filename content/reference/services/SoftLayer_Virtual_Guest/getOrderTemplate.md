@@ -19,6 +19,8 @@ Obtain an order container that is ready to be sent to the [[SoftLayer_Product_Or
 ## Overview 
 Obtain an order container that is ready to be sent to the [[SoftLayer_Product_Order#placeOrder|SoftLayer_Product_Order::placeOrder]] method. This container will include all services that the selected computing instance has. If desired you may remove prices which were returned. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ Obtain an order container that is ready to be sent to the [[SoftLayer_Product_Or
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>
+
+
+
 

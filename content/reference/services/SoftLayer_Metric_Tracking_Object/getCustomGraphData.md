@@ -19,6 +19,8 @@ Fetch metric data using the graph container class.
 ## Overview 
 Returns a graph container instance that is populated with metric data for the tracking object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Returns a graph container instance that is populated with metric data for the tr
 * authenticate
 * SoftLayer_Metric_Tracking_ObjectInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Graph'>SoftLayer_Container_Graph </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Graph'>SoftLayer_Container_Graph </a>
+
+
+
 

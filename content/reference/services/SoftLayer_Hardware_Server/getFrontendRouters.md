@@ -19,6 +19,8 @@ Retrieve a hardware's frontend or public router.
 ## Overview 
 Retrieve a hardware's frontend or public router.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a hardware's frontend or public router.
 * SoftLayer_Hardware_ServerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_ServerObjectMask
 * SoftLayer_Hardware_ServerObjectFilter
@@ -35,5 +38,8 @@ Retrieve a hardware's frontend or public router.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+
+
+
 

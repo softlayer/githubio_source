@@ -19,6 +19,8 @@ Deletes a token authentication directory
 ## Overview 
 If you want to turn off the token authentication, use this method to remove a directory from the token authentication directory. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ If you want to turn off the token authentication, use this method to remove a di
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

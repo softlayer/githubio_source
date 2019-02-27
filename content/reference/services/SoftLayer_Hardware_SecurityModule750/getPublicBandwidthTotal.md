@@ -19,6 +19,8 @@ Retrieve total number of public bytes used by a server over time period specifie
 ## Overview 
 Retrieve the total number of bytes used by a server over a specified time period via the data warehouse tracking objects for this hardware. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ Retrieve the total number of bytes used by a server over a specified time period
 * authenticate
 * SoftLayer_Hardware_SecurityModule750InitParameters
 
-### Optional Headers
 
 ### Return Values
-unsigned long
+* unsigned long
+
+
+
 

@@ -19,6 +19,8 @@ Create a policy trigger.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Create a policy trigger.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Policy_TriggerObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger'>SoftLayer_Scale_Policy_Trigger </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger'>SoftLayer_Scale_Policy_Trigger </a>
+
+
+
 

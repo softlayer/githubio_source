@@ -19,6 +19,8 @@ Retrieve the group this member belongs to.
 ## Overview 
 Retrieve the group this member belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the group this member belongs to.
 * SoftLayer_Scale_MemberInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_MemberObjectMask
 * SoftLayer_Scale_MemberObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>
+
+
+
 

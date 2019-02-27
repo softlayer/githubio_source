@@ -19,6 +19,8 @@ Retrieve a list of all the accounts that belong to this customer.
 ## Overview 
 An OpenIdConnect identity, for example an IBMid, can be linked or mapped to one or more individual SoftLayer users, but no more than one SoftLayer user per account. This effectively links the OpenIdConnect identity to those accounts. This API returns a list of all the accounts for which there is a link between the OpenIdConnect identity and a SoftLayer user. Invoke this only on IBMid-authenticated users. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ An OpenIdConnect identity, for example an IBMid, can be linked or mapped to one 
 * authenticate
 * SoftLayer_User_CustomerInitParameters
 
+
 ### Optional Headers
 * SoftLayer_User_CustomerObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account[] </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account[] </a>
+
+
+
 

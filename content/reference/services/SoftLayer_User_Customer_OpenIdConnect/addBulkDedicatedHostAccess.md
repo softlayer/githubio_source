@@ -21,6 +21,8 @@ Grants the user access to one or more dedicated host devices.  The user will onl
 
 Users can assign device access to their child users, but not to themselves. An account's master has access to all devices on their customer account and can set dedicated host access for any of the other users on their account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,15 +33,40 @@ Users can assign device access to their child users, but not to themselves. An a
 * authenticate
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_User_Customer::addDedicatedHostAccess](/reference/services/SoftLayer_User_Customer/addDedicatedHostAccess )
 *  [SoftLayer_User_Customer::removeDedicatedHostAcces](/reference/services/SoftLayer_User_Customer/removeDedicatedHostAcces )
 *  [SoftLayer_User_Customer::removeBulkHDedicatedHostAccess](/reference/services/SoftLayer_User_Customer/removeBulkHDedicatedHostAccess )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throw the exception "You may not grant or deny Master User device access." when trying to add dedicated host access to a master user. 
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throw the exception "You may not grant or deny yourself device access." when trying to add dedicated host access to the user making the call to the SoftLayer API. 
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throw the exception "You may not grant or deny device access to other users." when trying to add dedicated host access the user making the API call is not their account's master user or does not have the "USER_MANAGE" portal permission. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Please specify a valid dedicated host id." if the given dedicated host id is not valid. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Unable to add user dedicated host access." if the API was unable to assign dedicated host access to the given portal user. 
+
+
 

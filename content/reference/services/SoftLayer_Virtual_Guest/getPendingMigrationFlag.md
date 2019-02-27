@@ -19,6 +19,8 @@ Retrieve when true this virtual guest must be migrated using SoftLayer_Virtual_G
 ## Overview 
 Retrieve when true this virtual guest must be migrated using SoftLayer_Virtual_Guest::migrate.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve when true this virtual guest must be migrated using SoftLayer_Virtual_G
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

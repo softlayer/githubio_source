@@ -19,6 +19,8 @@ Retrieves all available configuration templates.
 ## Overview 
 Retrieves all available configuration templates 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieves all available configuration templates
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Configuration_TemplateObjectMask
 * SoftLayer_ObjectMask
@@ -34,5 +37,8 @@ Retrieves all available configuration templates
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template[] </a>
+* <a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template[] </a>
+
+
+
 

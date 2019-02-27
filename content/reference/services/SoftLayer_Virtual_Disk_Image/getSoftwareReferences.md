@@ -19,6 +19,8 @@ Retrieve references to the software that resides on a disk image.
 ## Overview 
 Retrieve references to the software that resides on a disk image.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve references to the software that resides on a disk image.
 * SoftLayer_Virtual_Disk_ImageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Disk_ImageObjectMask
 * SoftLayer_Virtual_Disk_ImageObjectFilter
@@ -35,5 +38,8 @@ Retrieve references to the software that resides on a disk image.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Software'>SoftLayer_Virtual_Disk_Image_Software[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Software'>SoftLayer_Virtual_Disk_Image_Software[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve softLayer hardware related to the agent.
 ## Overview 
 Retrieve softLayer hardware related to the agent.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve softLayer hardware related to the agent.
 * SoftLayer_Monitoring_AgentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Monitoring_AgentObjectMask
 * SoftLayer_Monitoring_AgentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+
+
+
 

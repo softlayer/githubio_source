@@ -19,6 +19,8 @@ Edit an existing account contact.
 ## Overview 
 This method allows you to modify an account contact. Only master users are permitted to modify an account contact. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,17 @@ This method allows you to modify an account contact. Only master users are permi
 * authenticate
 * SoftLayer_Account_ContactInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the error 'Only the master user for an account may modify account contact information.' if a user other than the master user attempts to modify an account contact. 
+
+
 

@@ -19,6 +19,8 @@ Retrieve a guest's associated EVault network storage service account.
 ## Overview 
 Retrieve a guest's associated EVault network storage service account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a guest's associated EVault network storage service account.
 * SoftLayer_Account_MediaInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_MediaObjectMask
 * SoftLayer_Account_MediaObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>
+
+
+
 

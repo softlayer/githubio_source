@@ -19,6 +19,8 @@ Returns IPSec VPN tunnel configurations in a text file.
 ## Overview 
 Provides all of the configurations for an IPSec VPN network tunnel in a text file 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,13 +30,15 @@ Provides all of the configurations for an IPSec VPN network tunnel in a text fil
 * authenticate
 * SoftLayer_Network_Tunnel_Module_ContextInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Utility_File_Entity'>SoftLayer_Container_Utility_File_Entity </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Utility_File_Entity'>SoftLayer_Container_Utility_File_Entity </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_Tunnel_Module_Context::getParameterConfigurationsForCustomerView](/reference/services/SoftLayer_Network_Tunnel_Module_Context/getParameterConfigurationsForCustomerView )
+
+
+
 

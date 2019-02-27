@@ -19,6 +19,8 @@ Retrieve information regarding a piece of hardware's vulnerability scan requests
 ## Overview 
 Retrieve information regarding a piece of hardware's vulnerability scan requests.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve information regarding a piece of hardware's vulnerability scan requests
 * SoftLayer_Hardware_SecurityModuleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModuleObjectMask
 * SoftLayer_Hardware_SecurityModuleObjectFilter
@@ -35,5 +38,8 @@ Retrieve information regarding a piece of hardware's vulnerability scan requests
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request'>SoftLayer_Network_Security_Scanner_Request[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request'>SoftLayer_Network_Security_Scanner_Request[] </a>
+
+
+
 

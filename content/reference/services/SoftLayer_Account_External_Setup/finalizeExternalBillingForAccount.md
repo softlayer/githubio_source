@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Calling this method signals that the account with the provided account id is ready to be billed by the external billing system. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Calling this method signals that the account with the provided account id is rea
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Account_External_Setup_ProvisioningHoldLifted'>SoftLayer_Container_Account_External_Setup_ProvisioningHoldLifted </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Account_External_Setup_ProvisioningHoldLifted'>SoftLayer_Container_Account_External_Setup_ProvisioningHoldLifted </a>
+
+
+
 

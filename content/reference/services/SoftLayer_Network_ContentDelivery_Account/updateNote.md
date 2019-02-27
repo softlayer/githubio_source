@@ -19,6 +19,8 @@ Updates CDN account note
 ## Overview 
 This method allows you to edit CDN account note. The maximum length for CDN account note is 30 characters. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method allows you to edit CDN account note. The maximum length for CDN acco
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

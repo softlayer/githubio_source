@@ -19,6 +19,8 @@ Retrieve all PayPal transactions associated with this order. If this order was n
 ## Overview 
 Retrieve all PayPal transactions associated with this order. If this order was not placed with PayPal, this will be empty.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve all PayPal transactions associated with this order. If this order was n
 * SoftLayer_Billing_OrderInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_OrderObjectMask
 * SoftLayer_Billing_OrderObjectFilter
@@ -35,5 +38,8 @@ Retrieve all PayPal transactions associated with this order. If this order was n
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Payment_PayPal_Transaction'>SoftLayer_Billing_Payment_PayPal_Transaction[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Payment_PayPal_Transaction'>SoftLayer_Billing_Payment_PayPal_Transaction[] </a>
+
+
+
 

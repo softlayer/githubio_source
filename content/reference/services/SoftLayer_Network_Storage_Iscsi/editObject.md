@@ -19,6 +19,8 @@ Edit the password and/or notes for the Storage service
 ## Overview 
 The password and/or notes may be modified for the Storage service except evault passwords and notes. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ The password and/or notes may be modified for the Storage service except evault 
 * authenticate
 * SoftLayer_Network_Storage_IscsiInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

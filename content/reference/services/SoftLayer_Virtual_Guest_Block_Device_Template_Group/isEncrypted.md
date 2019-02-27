@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 This method indicates whether this image template contains an encrypted disk image. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method indicates whether this image template contains an encrypted disk ima
 * authenticate
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

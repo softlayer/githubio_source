@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Network_Firewall_Module_Context_InterfaceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Firewall_Module_Context_InterfaceObjectMask
 * SoftLayer_Network_Firewall_Module_Context_InterfaceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>
+
+
+
 

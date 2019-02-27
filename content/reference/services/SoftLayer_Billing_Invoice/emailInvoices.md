@@ -19,6 +19,8 @@ Create a transaction to email invoice links.
 ## Overview 
 Create a transaction to email PDF and/or Excel invoice links to the requesting user's email address. You must have a PDF reader installed in order to view these files. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Create a transaction to email PDF and/or Excel invoice links to the requesting u
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

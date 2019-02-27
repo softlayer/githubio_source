@@ -19,6 +19,8 @@ Retrieve the application delivery controller that a configuration history record
 ## Overview 
 Retrieve the application delivery controller that a configuration history record belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the application delivery controller that a configuration history record
 * SoftLayer_Network_Application_Delivery_Controller_Configuration_HistoryInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Application_Delivery_Controller_Configuration_HistoryObjectMask
 * SoftLayer_Network_Application_Delivery_Controller_Configuration_HistoryObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller </a>
+
+
+
 

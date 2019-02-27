@@ -19,6 +19,8 @@ Retrieve this flag indicates if creation of accounts is allowed.
 ## Overview 
 Retrieve this flag indicates if creation of accounts is allowed.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve this flag indicates if creation of accounts is allowed.
 * SoftLayer_BrandInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_BrandObjectMask
 * SoftLayer_BrandObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

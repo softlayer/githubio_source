@@ -19,6 +19,8 @@ Retrieve a collection of accounts impacted by this event. Each impacted account 
 ## Overview 
 Retrieve a collection of accounts impacted by this event. Each impacted account record relates directly to a [[SoftLayer_Account]].
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a collection of accounts impacted by this event. Each impacted account 
 * SoftLayer_Notification_Occurrence_EventInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Notification_Occurrence_EventObjectMask
 * SoftLayer_Notification_Occurrence_EventObjectFilter
@@ -35,5 +38,8 @@ Retrieve a collection of accounts impacted by this event. Each impacted account 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Account'>SoftLayer_Notification_Occurrence_Account[] </a>
+* <a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Account'>SoftLayer_Notification_Occurrence_Account[] </a>
+
+
+
 

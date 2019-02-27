@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Layout_Profile_Customer record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Layout_Profile_Customer record.
 * SoftLayer_Layout_Profile_CustomerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Layout_Profile_CustomerObjectMask
 * SoftLayer_Layout_Profile_CustomerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Layout_Profile_Customer'>SoftLayer_Layout_Profile_Customer </a>
+* <a href='/reference/datatypes/SoftLayer_Layout_Profile_Customer'>SoftLayer_Layout_Profile_Customer </a>
+
+
+
 

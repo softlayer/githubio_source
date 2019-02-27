@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Provisioning_Maintenance_Slots record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Provisioning_Maintenance_Slots record.
 * SoftLayer_Provisioning_Maintenance_SlotsInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Provisioning_Maintenance_SlotsObjectMask
 * SoftLayer_Provisioning_Maintenance_SlotsObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Slots'>SoftLayer_Provisioning_Maintenance_Slots </a>
+* <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Slots'>SoftLayer_Provisioning_Maintenance_Slots </a>
+
+
+
 

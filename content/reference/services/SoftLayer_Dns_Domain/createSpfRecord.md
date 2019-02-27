@@ -19,6 +19,8 @@ Create an SPF record on a domain.
 ## Overview 
 Create an SPF record on a SoftLayer domain. This is a shortcut method, meant to take the work out of creating a SoftLayer_Dns_Domain_ResourceRecord if you already have a domain record available. createARecord returns the newly created SoftLayer_Dns_Domain_ResourceRecord_SpfType. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,12 +33,13 @@ Create an SPF record on a SoftLayer domain. This is a shortcut method, meant to 
 * authenticate
 * SoftLayer_Dns_DomainInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Dns_DomainObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SpfType'>SoftLayer_Dns_Domain_ResourceRecord_SpfType </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SpfType'>SoftLayer_Dns_Domain_ResourceRecord_SpfType </a>
 
 ### External Links
 
@@ -45,5 +48,8 @@ Create an SPF record on a SoftLayer domain. This is a shortcut method, meant to 
 
 
 * [Sender Policy Framework](http://www.openspf.org/Project_Overview)
+
+
+
 
 

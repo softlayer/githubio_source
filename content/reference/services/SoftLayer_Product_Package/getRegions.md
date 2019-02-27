@@ -19,6 +19,8 @@ Retrieve the regional locations that a package is available in.
 ## Overview 
 Retrieve the regional locations that a package is available in.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the regional locations that a package is available in.
 * SoftLayer_Product_PackageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_Product_PackageObjectFilter
@@ -35,5 +38,8 @@ Retrieve the regional locations that a package is available in.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location_Region'>SoftLayer_Location_Region[] </a>
+* <a href='/reference/datatypes/SoftLayer_Location_Region'>SoftLayer_Location_Region[] </a>
+
+
+
 

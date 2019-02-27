@@ -19,6 +19,8 @@ Retrieve an user's associated closed tickets.
 ## Overview 
 Retrieve an user's associated closed tickets.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve an user's associated closed tickets.
 * SoftLayer_User_CustomerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_CustomerObjectMask
 * SoftLayer_User_CustomerObjectFilter
@@ -35,5 +38,8 @@ Retrieve an user's associated closed tickets.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>
+
+
+
 

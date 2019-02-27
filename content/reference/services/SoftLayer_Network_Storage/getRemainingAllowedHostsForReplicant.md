@@ -19,6 +19,8 @@ Retrieves the remaining number of allowed hosts for a volume's replicant.
 ## Overview 
 Retrieves the remaining number of allowed hosts for a volume's replicant. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Retrieves the remaining number of allowed hosts for a volume's replicant.
 * authenticate
 * SoftLayer_Network_StorageInitParameters
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

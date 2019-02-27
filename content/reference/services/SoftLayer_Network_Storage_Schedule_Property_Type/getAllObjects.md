@@ -19,6 +19,8 @@ Returns all network storage schedule property types
 ## Overview 
 Use this method to retrieve all network storage schedule property types. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Use this method to retrieve all network storage schedule property types.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Schedule_Property_TypeObjectMask
 * SoftLayer_ObjectMask
 * SoftLayer_Network_Storage_Schedule_Property_TypeObjectFilter
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule_Property_Type'>SoftLayer_Network_Storage_Schedule_Property_Type[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule_Property_Type'>SoftLayer_Network_Storage_Schedule_Property_Type[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Get account for an active user logging into the SoftLayer customer portal
 ## Overview 
 Validates a supplied OpenIdConnect access token to the SoftLayer customer portal and returns the default account name and id for the active user. An exception will be thrown if no matching customer is found. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Validates a supplied OpenIdConnect access token to the SoftLayer customer portal
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_User_Customer_OpenIdConnect_LoginAccountInfo'>SoftLayer_Container_User_Customer_OpenIdConnect_LoginAccountInfo </a>
+* <a href='/reference/datatypes/SoftLayer_Container_User_Customer_OpenIdConnect_LoginAccountInfo'>SoftLayer_Container_User_Customer_OpenIdConnect_LoginAccountInfo </a>
+
+
+
 

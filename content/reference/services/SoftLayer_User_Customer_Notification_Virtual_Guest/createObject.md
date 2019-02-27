@@ -19,6 +19,8 @@ Create a user virtual guest notification entry
 ## Overview 
 Passing in an unsaved instance of a SoftLayer_Customer_Notification_Virtual_Guest object into this function will create the object and return the results to the user. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Passing in an unsaved instance of a SoftLayer_Customer_Notification_Virtual_Gues
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_Notification_Virtual_GuestObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Virtual_Guest'>SoftLayer_User_Customer_Notification_Virtual_Guest </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Virtual_Guest'>SoftLayer_User_Customer_Notification_Virtual_Guest </a>
+
+
+
 

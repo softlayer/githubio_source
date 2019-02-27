@@ -19,6 +19,8 @@ Retrieve the secondary router that a VLAN is associated with. Every SoftLayer VL
 ## Overview 
 Retrieve the secondary router that a VLAN is associated with. Every SoftLayer VLAN is connected to more than one router for greater network redundancy.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the secondary router that a VLAN is associated with. Every SoftLayer VL
 * SoftLayer_Network_VlanInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_VlanObjectMask
 * SoftLayer_Network_VlanObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+
+
+
 

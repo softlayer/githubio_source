@@ -19,6 +19,8 @@ Retrieve the CDN account id that this CDN account is associated with.
 ## Overview 
 Retrieve the CDN account id that this CDN account is associated with.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the CDN account id that this CDN account is associated with.
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_ContentDelivery_AccountObjectMask
 * SoftLayer_Network_ContentDelivery_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

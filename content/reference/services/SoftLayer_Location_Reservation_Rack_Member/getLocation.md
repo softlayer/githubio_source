@@ -19,6 +19,8 @@ Retrieve location relation for the rack member
 ## Overview 
 Retrieve location relation for the rack member
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve location relation for the rack member
 * SoftLayer_Location_Reservation_Rack_MemberInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_Reservation_Rack_MemberObjectMask
 * SoftLayer_Location_Reservation_Rack_MemberObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+
+
+
 

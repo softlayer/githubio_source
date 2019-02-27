@@ -19,6 +19,8 @@ Get the service provider meta data.
 ## Overview 
 This method will return the service provider metadata in XML format. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method will return the service provider metadata in XML format.
 * authenticate
 * SoftLayer_Account_Authentication_SamlInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

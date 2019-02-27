@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ aliases:
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Auxiliary_Shipping_Courier_TypeObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Auxiliary_Shipping_Courier_Type'>SoftLayer_Auxiliary_Shipping_Courier_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Auxiliary_Shipping_Courier_Type'>SoftLayer_Auxiliary_Shipping_Courier_Type </a>
+
+
+
 

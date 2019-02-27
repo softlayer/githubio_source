@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Brand_Restriction_Location_CustomerCountry record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Brand_Restriction_Location_CustomerCountry record.
 * SoftLayer_Brand_Restriction_Location_CustomerCountryInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Brand_Restriction_Location_CustomerCountryObjectMask
 * SoftLayer_Brand_Restriction_Location_CustomerCountryObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Brand_Restriction_Location_CustomerCountry'>SoftLayer_Brand_Restriction_Location_CustomerCountry </a>
+* <a href='/reference/datatypes/SoftLayer_Brand_Restriction_Location_CustomerCountry'>SoftLayer_Brand_Restriction_Location_CustomerCountry </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the user this mobile device belongs to.
 ## Overview 
 Retrieve the user this mobile device belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the user this mobile device belongs to.
 * SoftLayer_User_Customer_MobileDeviceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_MobileDeviceObjectMask
 * SoftLayer_User_Customer_MobileDeviceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+
+
+
 

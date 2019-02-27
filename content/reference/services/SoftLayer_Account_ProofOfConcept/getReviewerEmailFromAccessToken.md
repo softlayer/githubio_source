@@ -19,6 +19,8 @@ Fetches an email address using a token
 ## Overview 
 Finds a reviewer's email using the access token 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Finds a reviewer's email using the access token
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

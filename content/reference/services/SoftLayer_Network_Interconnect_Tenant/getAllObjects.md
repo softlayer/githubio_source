@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ aliases:
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Interconnect_TenantObjectMask
 * SoftLayer_ObjectMask
@@ -34,5 +37,8 @@ aliases:
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Interconnect_Tenant'>SoftLayer_Network_Interconnect_Tenant[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Interconnect_Tenant'>SoftLayer_Network_Interconnect_Tenant[] </a>
+
+
+
 

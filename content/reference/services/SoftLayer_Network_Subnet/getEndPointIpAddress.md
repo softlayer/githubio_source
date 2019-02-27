@@ -19,6 +19,8 @@ Retrieve a static routed ip address
 ## Overview 
 Retrieve a static routed ip address
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a static routed ip address
 * SoftLayer_Network_SubnetInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_SubnetObjectMask
 * SoftLayer_Network_SubnetObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>
+
+
+
 

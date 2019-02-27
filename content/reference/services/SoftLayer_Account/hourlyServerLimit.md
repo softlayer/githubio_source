@@ -19,6 +19,8 @@ Retrieve the number of hourly bare metal servers that an account is allowed to h
 ## Overview 
 This method will return the limit (number) of hourly bare metal servers the account is allowed to have. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ This method will return the limit (number) of hourly bare metal servers the acco
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

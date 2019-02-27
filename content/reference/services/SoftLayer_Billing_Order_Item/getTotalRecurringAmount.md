@@ -19,6 +19,8 @@ Retrieve the recurring fee of an ordered item. This amount represents the fees t
 ## Overview 
 Retrieve the recurring fee of an ordered item. This amount represents the fees that will be charged on a recurring (usually monthly) basis.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the recurring fee of an ordered item. This amount represents the fees t
 * SoftLayer_Billing_Order_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Order_ItemObjectMask
 * SoftLayer_Billing_Order_ItemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-float
+* float
+
+
+
 

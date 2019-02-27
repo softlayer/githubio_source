@@ -19,6 +19,8 @@ Returns available configuration template groups for this monitoring agent.
 ## Overview 
 Returns available configuration template groups for this monitoring agent. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Returns available configuration template groups for this monitoring agent.
 * authenticate
 * SoftLayer_Monitoring_RobotInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Monitoring_RobotObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Configuration_Template_Group'>SoftLayer_Monitoring_Agent_Configuration_Template_Group[] </a>
+* <a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Configuration_Template_Group'>SoftLayer_Monitoring_Agent_Configuration_Template_Group[] </a>
+
+
+
 

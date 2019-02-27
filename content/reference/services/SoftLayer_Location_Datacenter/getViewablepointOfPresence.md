@@ -19,6 +19,8 @@ Retrieve viewable network locations
 ## Overview 
 Retrieve all viewable network locations. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Retrieve all viewable network locations.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_DatacenterObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+
+
+
 

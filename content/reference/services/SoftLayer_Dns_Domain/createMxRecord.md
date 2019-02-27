@@ -19,6 +19,8 @@ Create an MX record on a domain.
 ## Overview 
 Create an MX record on a SoftLayer domain. This is a shortcut method, meant to take the work out of creating a SoftLayer_Dns_Domain_ResourceRecord if you already have a domain record available. MX records are created with a default priority of 10. createMxRecord returns the newly created SoftLayer_Dns_Domain_ResourceRecord_MxType. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,16 +34,20 @@ Create an MX record on a SoftLayer domain. This is a shortcut method, meant to t
 * authenticate
 * SoftLayer_Dns_DomainInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Dns_DomainObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_MxType'>SoftLayer_Dns_Domain_ResourceRecord_MxType </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_MxType'>SoftLayer_Dns_Domain_ResourceRecord_MxType </a>
 
 ### External Links
 
 
 * [MX record at Wikipedia](http://en.wikipedia.org/wiki/MX_record)
+
+
+
 
 

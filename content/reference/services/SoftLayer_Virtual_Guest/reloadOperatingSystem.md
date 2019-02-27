@@ -27,6 +27,8 @@ As a precaution, we strongly  recommend backing up all data before reloading the
 
 If reloading from an image template, we recommend first getting the list of valid private block device template groups, by calling the getOperatingSystemReloadImages method. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -38,13 +40,42 @@ If reloading from an image template, we recommend first getting the list of vali
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Account::getOperatingSystemReloadImages](/reference/services/SoftLayer_Account/getOperatingSystemReloadImages )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Hardware_Server_OperatingSystemReloadPermissionDenied 
+
+> Throws the exception 'You do not have permission to this service.' when a user does not have permission to Issue OS Reloads. 
+
+* SoftLayer_Exception_Hardware_Server_ActiveTransactionExists 
+
+> Throws the exception 'There is currently an outstanding transaction for this server.' when a server has a currently running transaction. 
+
+* SoftLayer_Exception_Hardware_Server_InvalidReloadToken 
+
+> Throws the exception 'Invalid token provided.' when a token that is either expired or invalid is provided. 
+
+* SoftLayer_Exception_Hardware_Server_MissingBillingItem 
+
+> Throws the exception 'Couldn't find BillingItem for this server.' when there is no billing item that exists for a server. 
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception 'Unable to cancel current billing item.  Please contact support.' when a billing item for software that is not being reloaded can not be cancelled. 
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception 'Partitions provided are to large for the servers primary hard drive.' when the partition configuration provided exceeds the size of the drive. 
+
+
 

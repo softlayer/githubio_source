@@ -19,6 +19,8 @@ Get all action types
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Get all action types
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Policy_Action_TypeObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Policy_Action_Type'>SoftLayer_Scale_Policy_Action_Type[] </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Policy_Action_Type'>SoftLayer_Scale_Policy_Action_Type[] </a>
+
+
+
 

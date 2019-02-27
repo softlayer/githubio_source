@@ -23,6 +23,8 @@ There are many options that may be provided while ordering a computing instance,
 
 Detailed information on the return value can be found on the data type page for [[SoftLayer_Container_Virtual_Guest_Configuration (type)]]. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,8 +33,10 @@ Detailed information on the return value can be found on the data type page for 
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration'>SoftLayer_Container_Virtual_Guest_Configuration </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration'>SoftLayer_Container_Virtual_Guest_Configuration </a>
+
+
+
 

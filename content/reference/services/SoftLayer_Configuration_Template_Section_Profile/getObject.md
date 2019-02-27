@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Configuration_Template_Section_Profile record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Configuration_Template_Section_Profile record.
 * SoftLayer_Configuration_Template_Section_ProfileInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Configuration_Template_Section_ProfileObjectMask
 * SoftLayer_Configuration_Template_Section_ProfileObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Profile'>SoftLayer_Configuration_Template_Section_Profile </a>
+* <a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Profile'>SoftLayer_Configuration_Template_Section_Profile </a>
+
+
+
 

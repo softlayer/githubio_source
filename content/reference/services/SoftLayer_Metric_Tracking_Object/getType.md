@@ -19,6 +19,8 @@ Retrieve the type of data that a tracking object polls.
 ## Overview 
 Retrieve the type of data that a tracking object polls.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the type of data that a tracking object polls.
 * SoftLayer_Metric_Tracking_ObjectInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Metric_Tracking_ObjectObjectMask
 * SoftLayer_Metric_Tracking_ObjectObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Type'>SoftLayer_Metric_Tracking_Object_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Type'>SoftLayer_Metric_Tracking_Object_Type </a>
+
+
+
 

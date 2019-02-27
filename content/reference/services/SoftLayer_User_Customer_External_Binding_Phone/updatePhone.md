@@ -30,6 +30,8 @@ If omitted, it will be considered to be the primary phone number. If you are pas
 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -40,8 +42,10 @@ If omitted, it will be considered to be the primary phone number. If you are pas
 * authenticate
 * SoftLayer_User_Customer_External_Binding_PhoneInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

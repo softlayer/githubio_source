@@ -19,6 +19,8 @@ Get the authentication code for a domain.
 ## Overview 
 The getAuthenticationCode method retrieves the authentication code for the domain. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ The getAuthenticationCode method retrieves the authentication code for the domai
 * authenticate
 * SoftLayer_Dns_Domain_RegistrationInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

@@ -39,6 +39,8 @@ For example to create a subscriber for a Storage EVault service to be notified 1
 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -48,8 +50,10 @@ For example to create a subscriber for a Storage EVault service to be notified 1
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

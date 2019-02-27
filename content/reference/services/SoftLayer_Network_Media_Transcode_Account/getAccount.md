@@ -19,6 +19,8 @@ Retrieve the SoftLayer account information
 ## Overview 
 Retrieve the SoftLayer account information
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the SoftLayer account information
 * SoftLayer_Network_Media_Transcode_AccountInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Media_Transcode_AccountObjectMask
 * SoftLayer_Network_Media_Transcode_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

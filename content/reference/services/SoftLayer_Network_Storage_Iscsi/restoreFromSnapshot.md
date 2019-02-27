@@ -19,6 +19,8 @@ Restore from a volume snapshot.
 ## Overview 
 Restore the volume from a snapshot that was previously taken. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,14 +31,16 @@ Restore the volume from a snapshot that was previously taken.
 * authenticate
 * SoftLayer_Network_Storage_IscsiInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 ### External Links
 
 
 * [In depth details on storage snapshots at Wikipedia](http://en.wikipedia.org/wiki/Snapshot_(computer_storage))
+
+
+
 
 

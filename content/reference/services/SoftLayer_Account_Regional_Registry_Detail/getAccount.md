@@ -19,6 +19,8 @@ Retrieve the account that this detail object belongs to.
 ## Overview 
 Retrieve the account that this detail object belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the account that this detail object belongs to.
 * SoftLayer_Account_Regional_Registry_DetailInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Regional_Registry_DetailObjectMask
 * SoftLayer_Account_Regional_Registry_DetailObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

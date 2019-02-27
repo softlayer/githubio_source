@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_TicketInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TicketObjectMask
 * SoftLayer_TicketObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>
+* <a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>
+
+
+
 

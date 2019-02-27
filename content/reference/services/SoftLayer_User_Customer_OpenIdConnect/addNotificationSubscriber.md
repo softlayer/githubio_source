@@ -19,6 +19,8 @@ Create a notification subscription record for the user.
 ## Overview 
 Create a notification subscription record for the user. If a subscription record exists for the notification, the record will be set to active, if currently inactive. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Create a notification subscription record for the user. If a subscription record
 * authenticate
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

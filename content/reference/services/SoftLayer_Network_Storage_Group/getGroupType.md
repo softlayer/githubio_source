@@ -19,6 +19,8 @@ Retrieve the type which defines this group.
 ## Overview 
 Retrieve the type which defines this group.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the type which defines this group.
 * SoftLayer_Network_Storage_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_GroupObjectMask
 * SoftLayer_Network_Storage_GroupObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Group_Type'>SoftLayer_Network_Storage_Group_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Group_Type'>SoftLayer_Network_Storage_Group_Type </a>
+
+
+
 

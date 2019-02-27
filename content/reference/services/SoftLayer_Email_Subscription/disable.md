@@ -19,6 +19,8 @@ Disable email subscription.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Disable email subscription.
 * authenticate
 * SoftLayer_Email_SubscriptionInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

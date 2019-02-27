@@ -19,6 +19,8 @@ Return all Query_Type objects.
 ## Overview 
 Calling this function returns all possible query type objects. These objects are to be used to set the values on the SoftLayer_Network_Monitor_Version1_Query_Host when creating new monitoring instances. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Calling this function returns all possible query type objects. These objects are
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Monitor_Version1_Query_Host_StratumObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Type'>SoftLayer_Network_Monitor_Version1_Query_Type[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Type'>SoftLayer_Network_Monitor_Version1_Query_Type[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Update bandwidth pool.
 ## Overview 
 This will update the bandwidth pool to the servers provided.  Servers currently in the bandwidth pool not provided on update will be removed. Servers provided on update not currently in the bandwidth pool will be added. If all servers are removed, this removes the bandwidth pool on completion. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -33,8 +35,10 @@ This will update the bandwidth pool to the servers provided.  Servers currently 
 * authenticate
 * SoftLayer_Network_Bandwidth_Version1_AllotmentInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

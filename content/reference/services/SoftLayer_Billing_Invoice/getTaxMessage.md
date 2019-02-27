@@ -19,6 +19,8 @@ Retrieve this is a message explaining the tax treatment for this invoice.
 ## Overview 
 Retrieve this is a message explaining the tax treatment for this invoice.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve this is a message explaining the tax treatment for this invoice.
 * SoftLayer_Billing_InvoiceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_InvoiceObjectMask
 * SoftLayer_Billing_InvoiceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

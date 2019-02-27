@@ -19,6 +19,8 @@ Returns the average disk usage for all public repositories for the timeframe bas
 ## Overview 
 Returns the average disk space usage for all public repositories. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Returns the average disk space usage for all public repositories.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-float
+* float
+
+
+
 

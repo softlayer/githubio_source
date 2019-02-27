@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Retrieve the certificate in PEM (Privacy Enhanced Mail) format, which is a string containing all base64 encoded (DER) certificates delimited by -----BEGIN/END *----- clauses. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Retrieve the certificate in PEM (Privacy Enhanced Mail) format, which is a strin
 * authenticate
 * SoftLayer_Security_CertificateInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

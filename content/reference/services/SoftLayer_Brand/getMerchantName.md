@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Get the payment processor merchant name.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Get the payment processor merchant name.
 * authenticate
 * SoftLayer_BrandInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

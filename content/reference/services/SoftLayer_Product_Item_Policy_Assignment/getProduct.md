@@ -19,6 +19,8 @@ Retrieve the [[SoftLayer_Product_Item]] for this policy assignment.
 ## Overview 
 Retrieve the [[SoftLayer_Product_Item]] for this policy assignment.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the [[SoftLayer_Product_Item]] for this policy assignment.
 * SoftLayer_Product_Item_Policy_AssignmentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Item_Policy_AssignmentObjectMask
 * SoftLayer_Product_Item_Policy_AssignmentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>
+
+
+
 

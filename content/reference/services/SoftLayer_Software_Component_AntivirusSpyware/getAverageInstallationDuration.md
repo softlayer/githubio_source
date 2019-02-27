@@ -19,6 +19,8 @@ Retrieve the average amount of time that a software component takes to install.
 ## Overview 
 Retrieve the average amount of time that a software component takes to install.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the average amount of time that a software component takes to install.
 * SoftLayer_Software_Component_AntivirusSpywareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_Component_AntivirusSpywareObjectMask
 * SoftLayer_Software_Component_AntivirusSpywareObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-unsigned long
+* unsigned long
+
+
+
 

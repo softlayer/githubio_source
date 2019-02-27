@@ -19,6 +19,8 @@ Retrieve indicates whether the network component is participating in a group of 
 ## Overview 
 Retrieve indicates whether the network component is participating in a group of two or more components which is actively providing link redundancy.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve indicates whether the network component is participating in a group of 
 * SoftLayer_Network_ComponentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_ComponentObjectMask
 * SoftLayer_Network_ComponentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

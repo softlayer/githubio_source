@@ -19,6 +19,8 @@ Retrieve a backbone's primary network component.
 ## Overview 
 Retrieve a backbone's primary network component.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a backbone's primary network component.
 * SoftLayer_Network_BackboneInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_BackboneObjectMask
 * SoftLayer_Network_BackboneObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>
+
+
+
 

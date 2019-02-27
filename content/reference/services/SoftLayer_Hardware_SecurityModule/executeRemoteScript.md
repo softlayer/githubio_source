@@ -19,6 +19,8 @@ Download and run remote script from uri on the hardware. Requires https for scri
 ## Overview 
 Download and run remote script from uri on the hardware.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Download and run remote script from uri on the hardware.
 * authenticate
 * SoftLayer_Hardware_SecurityModuleInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

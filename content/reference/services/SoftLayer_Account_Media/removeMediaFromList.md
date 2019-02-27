@@ -19,6 +19,8 @@ Remove a media from a SoftLayer account's list of media.
 ## Overview 
 Remove a media from a SoftLayer account's list of media. The media record is not deleted. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Remove a media from a SoftLayer account's list of media. The media record is not
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

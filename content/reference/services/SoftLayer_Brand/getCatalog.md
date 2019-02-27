@@ -19,6 +19,8 @@ Retrieve the Product Catalog for the Brand
 ## Overview 
 Retrieve the Product Catalog for the Brand
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the Product Catalog for the Brand
 * SoftLayer_BrandInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_BrandObjectMask
 * SoftLayer_BrandObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Catalog'>SoftLayer_Product_Catalog </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Catalog'>SoftLayer_Product_Catalog </a>
+
+
+
 

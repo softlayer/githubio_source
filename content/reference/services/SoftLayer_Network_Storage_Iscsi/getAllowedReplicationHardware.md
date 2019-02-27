@@ -19,6 +19,8 @@ Retrieve the SoftLayer_Hardware objects which are allowed access to this storage
 ## Overview 
 Retrieve the SoftLayer_Hardware objects which are allowed access to this storage volume's Replicant.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the SoftLayer_Hardware objects which are allowed access to this storage
 * SoftLayer_Network_Storage_IscsiInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_IscsiObjectMask
 * SoftLayer_Network_Storage_IscsiObjectFilter
@@ -35,5 +38,8 @@ Retrieve the SoftLayer_Hardware objects which are allowed access to this storage
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+
+
+
 

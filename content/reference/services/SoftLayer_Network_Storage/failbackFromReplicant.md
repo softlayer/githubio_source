@@ -19,6 +19,8 @@ Failback from a volume replicant.
 ## Overview 
 Failback from a volume replicant. In order to failback the volume must have already been failed over to a replicant. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,14 +30,16 @@ Failback from a volume replicant. In order to failback the volume must have alre
 * authenticate
 * SoftLayer_Network_StorageInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 ### External Links
 
 
 * [In depth details on storage replication at Wikipedia](http://en.wikipedia.org/wiki/Storage_replication#Disk_storage_replication)
+
+
+
 
 

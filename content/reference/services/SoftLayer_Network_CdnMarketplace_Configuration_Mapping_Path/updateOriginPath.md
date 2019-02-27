@@ -23,6 +23,8 @@ Out of the properties listed above only the following path properties are allowe
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,8 +34,10 @@ Out of the properties listed above only the following path properties are allowe
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping_Path'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping_Path[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping_Path'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping_Path[] </a>
+
+
+
 

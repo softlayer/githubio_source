@@ -19,6 +19,8 @@ Retrieve the type of capacity restriction by which this price must abide.
 ## Overview 
 Retrieve the type of capacity restriction by which this price must abide.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the type of capacity restriction by which this price must abide.
 * SoftLayer_Product_Item_PriceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Item_PriceObjectMask
 * SoftLayer_Product_Item_PriceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

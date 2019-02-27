@@ -19,6 +19,8 @@ Retrieve a firewalled Vlan's network components.
 ## Overview 
 Retrieve a firewalled Vlan's network components.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a firewalled Vlan's network components.
 * SoftLayer_Network_VlanInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_VlanObjectMask
 * SoftLayer_Network_VlanObjectFilter
@@ -35,5 +38,8 @@ Retrieve a firewalled Vlan's network components.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a location can be a member of 1 or more groups. This will show which gr
 ## Overview 
 Retrieve a location can be a member of 1 or more groups. This will show which groups to which a location belongs.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a location can be a member of 1 or more groups. This will show which gr
 * SoftLayer_Location_DatacenterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_DatacenterObjectMask
 * SoftLayer_Location_DatacenterObjectFilter
@@ -35,5 +38,8 @@ Retrieve a location can be a member of 1 or more groups. This will show which gr
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group[] </a>
+* <a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group[] </a>
+
+
+
 

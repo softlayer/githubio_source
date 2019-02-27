@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Given an IBM email address, searches BluePages and returns the employee's details 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Given an IBM email address, searches BluePages and returns the employee's detail
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-BluePages_Container_EmployeeProfile
+* BluePages_Container_EmployeeProfile
+
+
+
 

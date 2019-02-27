@@ -23,6 +23,8 @@ Retrieve the bandwidth usage for the current billing cycle.
 
 collectBandwidth() Retrieve the bandwidth usage for the current billing cycle. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -35,8 +37,17 @@ collectBandwidth() Retrieve the bandwidth usage for the current billing cycle.
 * authenticate
 * SoftLayer_Network_StorageInitParameters
 
-### Optional Headers
 
 ### Return Values
-unsigned long
+* unsigned long
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "The <nasType> Storage type is not supported for bandwidth used collection.  Please contact development." 
+
+
 

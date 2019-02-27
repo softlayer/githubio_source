@@ -35,6 +35,8 @@ If your domain doesn't contain NS resource records for ns1.softlayer.com or ns2.
 
 ''createObject'' returns a Boolean ''true'' on successful object creation or ''false'' if your domain was unable to be created.. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -44,15 +46,26 @@ If your domain doesn't contain NS resource records for ns1.softlayer.com or ns2.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Dns_DomainObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Dns_Domain::createObjects](/reference/services/SoftLayer_Dns_Domain/createObjects )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "At least one valid 'A' or 'AAAA' resource record is required to create a domain." if the domain in the templateObject parameter doesn't have at least one A or AAAA resource record. 
+
+
 

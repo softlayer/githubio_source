@@ -19,6 +19,8 @@ Retrieve the status of all of a piece of hardware's network monitoring incidents
 ## Overview 
 Retrieve the status of all of a piece of hardware's network monitoring incidents.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the status of all of a piece of hardware's network monitoring incidents
 * SoftLayer_Hardware_RouterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_RouterObjectMask
 * SoftLayer_Hardware_RouterObjectFilter
@@ -35,5 +38,8 @@ Retrieve the status of all of a piece of hardware's network monitoring incidents
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Incident'>SoftLayer_Network_Monitor_Version1_Incident[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Incident'>SoftLayer_Network_Monitor_Version1_Incident[] </a>
+
+
+
 

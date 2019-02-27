@@ -19,6 +19,8 @@ Retrieve a firewall's metric tracking object.
 ## Overview 
 Retrieve a firewall's metric tracking object.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a firewall's metric tracking object.
 * SoftLayer_Network_Vlan_FirewallInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Vlan_FirewallObjectMask
 * SoftLayer_Network_Vlan_FirewallObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>
+* <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>
+
+
+
 

@@ -25,6 +25,8 @@ If a package id is supplied, the list of public VLANs and subnets will be trimme
 
 The account id is for internal use only and will be ignored when supplied by customers. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -36,8 +38,10 @@ The account id is for internal use only and will be ignored when supplied by cus
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Product_Order_Network'>SoftLayer_Container_Product_Order_Network[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Product_Order_Network'>SoftLayer_Container_Product_Order_Network[] </a>
+
+
+
 

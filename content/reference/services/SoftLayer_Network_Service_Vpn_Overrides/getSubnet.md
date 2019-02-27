@@ -19,6 +19,8 @@ Retrieve subnet components accessible by a SoftLayer VPN portal user.
 ## Overview 
 Retrieve subnet components accessible by a SoftLayer VPN portal user.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve subnet components accessible by a SoftLayer VPN portal user.
 * SoftLayer_Network_Service_Vpn_OverridesInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Service_Vpn_OverridesObjectMask
 * SoftLayer_Network_Service_Vpn_OverridesObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
+
+
+
 

@@ -19,6 +19,8 @@ The available locations for public image storage.
 ## Overview 
 Returns the image storage locations. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Returns the image storage locations.
 * authenticate
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_User_Customer_InvitationInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_InvitationObjectMask
 * SoftLayer_User_Customer_InvitationObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve determines whether the instance is ineligible for cancellation because 
 ## Overview 
 Retrieve determines whether the instance is ineligible for cancellation because it is disconnected.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve determines whether the instance is ineligible for cancellation because 
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

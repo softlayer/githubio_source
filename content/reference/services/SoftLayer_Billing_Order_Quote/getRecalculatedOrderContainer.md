@@ -19,6 +19,8 @@ Generate an [[SoftLayer_Container_Product_Order|order container]] from the previ
 ## Overview 
 Generate an [[SoftLayer_Container_Product_Order|order container]] from the previously-created quote. This will take into account promotions, reseller status, estimated taxes and all other standard order verification processes. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ Generate an [[SoftLayer_Container_Product_Order|order container]] from the previ
 * authenticate
 * SoftLayer_Billing_Order_QuoteInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>
+
+
+
 

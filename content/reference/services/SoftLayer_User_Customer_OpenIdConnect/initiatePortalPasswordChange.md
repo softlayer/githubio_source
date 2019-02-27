@@ -23,6 +23,8 @@ If this is a new master user who has never logged into the portal, then password
 
 Due to security reasons, the number reset requests per username are limited within a undisclosed timeframe. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,16 +33,25 @@ Due to security reasons, the number reset requests per username are limited with
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_User_Customer::getUserIdForPasswordSet](/reference/services/SoftLayer_User_Customer/getUserIdForPasswordSet )
 *  [SoftLayer_User_Customer::getRequirementsForPasswordSet](/reference/services/SoftLayer_User_Customer/getRequirementsForPasswordSet )
 *  [SoftLayer_User_Customer::processPasswordSetRequest](/reference/services/SoftLayer_User_Customer/processPasswordSetRequest )
 *  [SoftLayer_User_Customer::checkPhoneFactorAuthenticationForPasswordSet](/reference/services/SoftLayer_User_Customer/checkPhoneFactorAuthenticationForPasswordSet )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_InvalidValue 
+
+> <<< EOT 
+
+
 

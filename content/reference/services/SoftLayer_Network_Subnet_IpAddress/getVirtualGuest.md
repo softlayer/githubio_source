@@ -19,6 +19,8 @@ Retrieve a virtual guest that this IP address is routed to.
 ## Overview 
 Retrieve a virtual guest that this IP address is routed to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a virtual guest that this IP address is routed to.
 * SoftLayer_Network_Subnet_IpAddressInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_IpAddressObjectMask
 * SoftLayer_Network_Subnet_IpAddressObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
+
+
+
 

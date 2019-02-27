@@ -19,6 +19,8 @@ Retrieve the item categories associated with a package, including information de
 ## Overview 
 Retrieve the item categories associated with a package, including information detailing which item categories are required as part of a SoftLayer product order.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the item categories associated with a package, including information de
 * SoftLayer_Product_PackageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_Product_PackageObjectFilter
@@ -35,5 +38,8 @@ Retrieve the item categories associated with a package, including information de
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Package_Order_Configuration'>SoftLayer_Product_Package_Order_Configuration[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Package_Order_Configuration'>SoftLayer_Product_Package_Order_Configuration[] </a>
+
+
+
 

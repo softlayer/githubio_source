@@ -19,6 +19,8 @@ Delete a network storage schedule
 ## Overview 
 Delete a network storage schedule. '''This cannot be undone.''' ''deleteObject'' returns Boolean ''true'' on successful deletion or ''false'' if it was unable to remove a schedule; 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Delete a network storage schedule. '''This cannot be undone.''' ''deleteObject''
 * authenticate
 * SoftLayer_Network_Storage_ScheduleInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

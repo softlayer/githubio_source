@@ -19,6 +19,8 @@ Get all possible values for "algorithm".
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Get all possible values for "algorithm".
 * authenticate
 * SoftLayer_Scale_Policy_Trigger_ResourceUse_WatchInitParameters
 
-### Optional Headers
 
 ### Return Values
-array of strings
+* array of strings
+
+
+
 

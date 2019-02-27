@@ -19,6 +19,8 @@ Create a new customer account record.
 ## Overview 
 Create a new customer account record. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Create a new customer account record.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_BrandObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

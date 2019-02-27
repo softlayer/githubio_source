@@ -19,6 +19,8 @@ Return a list of SoftLayer_Virtual_Guest that can be authorized to this volume.
 ## Overview 
 This method retrieves a list of SoftLayer_Virtual_Guest that can be authorized to this SoftLayer_Network_Storage. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,11 +31,15 @@ This method retrieves a list of SoftLayer_Virtual_Guest that can be authorized t
 * authenticate
 * SoftLayer_Network_Storage_Backup_EvaultInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Backup_EvaultObjectMask
 * SoftLayer_ObjectMask
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+
+
+
 

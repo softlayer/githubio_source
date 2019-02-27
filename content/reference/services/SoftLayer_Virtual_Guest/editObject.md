@@ -19,6 +19,8 @@ Edit a computing instance's properties
 ## Overview 
 Edit a computing instance's properties 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit a computing instance's properties
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

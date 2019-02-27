@@ -19,6 +19,8 @@ Retrieve a resource group's associated group ancestors.
 ## Overview 
 Retrieve a resource group's associated group ancestors.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a resource group's associated group ancestors.
 * SoftLayer_Resource_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Resource_GroupObjectMask
 * SoftLayer_Resource_GroupObjectFilter
@@ -35,5 +38,8 @@ Retrieve a resource group's associated group ancestors.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group[] </a>
+* <a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Edit an image template group's name and note.
 ## Overview 
 Edit an image template group's associated name and note. All other properties in the SoftLayer_Virtual_Guest_Block_Device_Template_Group data type are read-only. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit an image template group's associated name and note. All other properties in
 * authenticate
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

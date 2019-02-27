@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Returns all routers available for use with placement groups. If a datacenter location ID is provided, this method will further restrict the list of routers to ones contained within that datacenter. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Returns all routers available for use with placement groups. If a datacenter loc
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_PlacementGroupObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+
+
+
 

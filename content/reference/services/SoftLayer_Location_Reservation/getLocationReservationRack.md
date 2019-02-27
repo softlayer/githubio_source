@@ -19,6 +19,8 @@ Retrieve rack information for the reservation
 ## Overview 
 Retrieve rack information for the reservation
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve rack information for the reservation
 * SoftLayer_Location_ReservationInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_ReservationObjectMask
 * SoftLayer_Location_ReservationObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location_Reservation_Rack'>SoftLayer_Location_Reservation_Rack </a>
+* <a href='/reference/datatypes/SoftLayer_Location_Reservation_Rack'>SoftLayer_Location_Reservation_Rack </a>
+
+
+
 

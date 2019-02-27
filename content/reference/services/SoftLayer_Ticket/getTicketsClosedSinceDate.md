@@ -19,6 +19,8 @@ Retrieve tickets closed since a given date.
 ## Overview 
 Retrieve all tickets closed since a given date. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Retrieve all tickets closed since a given date.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TicketObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>
+
+
+
 

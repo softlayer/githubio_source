@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 This method returns the default boot mode set by the software description 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method returns the default boot mode set by the software description
 * authenticate
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

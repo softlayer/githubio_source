@@ -19,6 +19,8 @@ Create a network VLAN for a scale group. Once created, the VLAN will be used to 
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Create a network VLAN for a scale group. Once created, the VLAN will be used to 
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Network_VlanObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Network_Vlan'>SoftLayer_Scale_Network_Vlan </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Network_Vlan'>SoftLayer_Scale_Network_Vlan </a>
+
+
+
 

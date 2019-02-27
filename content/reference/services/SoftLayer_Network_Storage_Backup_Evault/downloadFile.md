@@ -19,6 +19,8 @@ Download a file from a Storage account.
 ## Overview 
 {{CloudLayerOnlyMethod}} Download a file from a Storage account. This method returns a file's details including the file's raw content. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,14 +31,23 @@ Download a file from a Storage account.
 * authenticate
 * SoftLayer_Network_Storage_Backup_EvaultInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Utility_File_Entity'>SoftLayer_Container_Utility_File_Entity </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Utility_File_Entity'>SoftLayer_Container_Utility_File_Entity </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_Storage::uploadFile](/reference/services/SoftLayer_Network_Storage/uploadFile )
 *  [SoftLayer_Network_Storage::getFileByIdentifier](/reference/services/SoftLayer_Network_Storage/getFileByIdentifier )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Not yet implemented for this Storage type." if the Storage type is not supported. 
+
+
 

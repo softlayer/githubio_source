@@ -19,6 +19,8 @@ Retrieve a Billing Item's associated child billing items, excluding ALL items wi
 ## Overview 
 Retrieve a Billing Item's associated child billing items, excluding ALL items with a $0.00 recurring fee.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a Billing Item's associated child billing items, excluding ALL items wi
 * SoftLayer_Billing_Item_Virtual_DedicatedHostInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Item_Virtual_DedicatedHostObjectMask
 * SoftLayer_Billing_Item_Virtual_DedicatedHostObjectFilter
@@ -35,5 +38,8 @@ Retrieve a Billing Item's associated child billing items, excluding ALL items wi
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+
+
+
 

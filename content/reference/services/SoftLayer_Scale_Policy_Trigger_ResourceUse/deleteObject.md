@@ -19,6 +19,8 @@ Delete this trigger.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Delete this trigger.
 * authenticate
 * SoftLayer_Scale_Policy_Trigger_ResourceUseInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

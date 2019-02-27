@@ -19,6 +19,8 @@ Retrieve a name for the Network. This is required during creation of a Network a
 ## Overview 
 Retrieve a name for the Network. This is required during creation of a Network and is entirely user defined.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a name for the Network. This is required during creation of a Network a
 * SoftLayer_NetworkInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_NetworkObjectMask
 * SoftLayer_NetworkObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

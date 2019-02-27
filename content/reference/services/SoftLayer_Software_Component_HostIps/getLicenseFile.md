@@ -19,6 +19,8 @@ Get the license file for a software component if it is supported.
 ## Overview 
 Attempt to retrieve the file associated with a software component.  If the software component does not support downloading license files an exception will be thrown. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Attempt to retrieve the file associated with a software component.  If the softw
 * authenticate
 * SoftLayer_Software_Component_HostIpsInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

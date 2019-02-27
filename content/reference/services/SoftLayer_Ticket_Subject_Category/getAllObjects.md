@@ -19,6 +19,8 @@ Retrieve all ticket subject categories.
 ## Overview 
 Retrieve all ticket subject categories.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve all ticket subject categories.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Ticket_Subject_CategoryObjectMask
 * SoftLayer_ObjectMask
@@ -34,5 +37,8 @@ Retrieve all ticket subject categories.
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket_Subject_Category'>SoftLayer_Ticket_Subject_Category[] </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket_Subject_Category'>SoftLayer_Ticket_Subject_Category[] </a>
+
+
+
 

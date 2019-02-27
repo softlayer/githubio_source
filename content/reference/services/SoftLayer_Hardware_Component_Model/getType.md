@@ -19,6 +19,8 @@ Retrieve a hardware component model's type.
 ## Overview 
 Retrieve a hardware component model's type.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a hardware component model's type.
 * SoftLayer_Hardware_Component_ModelInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_Component_ModelObjectMask
 * SoftLayer_Hardware_Component_ModelObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

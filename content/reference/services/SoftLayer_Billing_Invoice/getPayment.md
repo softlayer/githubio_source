@@ -19,6 +19,8 @@ Retrieve this is the total payment made on this invoice.
 ## Overview 
 Retrieve this is the total payment made on this invoice.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve this is the total payment made on this invoice.
 * SoftLayer_Billing_InvoiceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_InvoiceObjectMask
 * SoftLayer_Billing_InvoiceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

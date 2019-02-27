@@ -19,6 +19,8 @@ Returns the software descriptions supported for VHD imports.
 ## Overview 
 Returns an array of SoftLayer_Software_Description that are supported for VHD imports. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Returns an array of SoftLayer_Software_Description that are supported for VHD im
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description[] </a>
+* <a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description[] </a>
+
+
+
 

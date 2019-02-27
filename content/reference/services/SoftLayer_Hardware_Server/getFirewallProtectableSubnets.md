@@ -19,6 +19,8 @@ Get the subnets associated with this server that are protectable by a network co
 ## Overview 
 Get the subnets associated with this server that are protectable by a network component firewall. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Get the subnets associated with this server that are protectable by a network co
 * authenticate
 * SoftLayer_Hardware_ServerInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Hardware_ServerObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+
+
+
 

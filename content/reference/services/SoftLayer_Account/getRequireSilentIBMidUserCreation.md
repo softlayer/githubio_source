@@ -19,6 +19,8 @@ Retrieve indicates whether newly created users under this account will be associ
 ## Overview 
 Retrieve indicates whether newly created users under this account will be associated with IBMid via an email requiring a response, or not.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve indicates whether newly created users under this account will be associ
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

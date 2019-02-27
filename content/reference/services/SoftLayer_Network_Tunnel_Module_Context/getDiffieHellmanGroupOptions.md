@@ -27,6 +27,8 @@ The diffie-hellman group options are as follows:
 * 2
 * 5
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -35,8 +37,10 @@ The diffie-hellman group options are as follows:
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-array of integers
+* array of integers
+
+
+
 

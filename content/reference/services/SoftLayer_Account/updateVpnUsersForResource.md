@@ -21,6 +21,8 @@ Some larger SoftLayer customer accounts may have servers and virtual servers on 
 
 Always call this method to enable changes when manually configuring VPN subnet access. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,8 +33,21 @@ Always call this method to enable changes when manually configuring VPN subnet a
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Unable to instantiate ''objectType'' with an ID of ''objectId''." if the API is unable to locate the server or virtual server that you wish to add VPN routes to. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Unknown object type parameter (''objectType'')." if objectType is a string other than "SoftLayer_Hardware" or "SoftLayer_Virtual_Guest". 
+
+
 

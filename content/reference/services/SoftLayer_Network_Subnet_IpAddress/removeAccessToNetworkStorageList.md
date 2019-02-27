@@ -19,6 +19,8 @@ Remove access to multiple SoftLayer_Network_Storage volumes from this device.
 ## Overview 
 This method is used to remove access to multiple SoftLayer_Network_Storage volumes 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method is used to remove access to multiple SoftLayer_Network_Storage volum
 * authenticate
 * SoftLayer_Network_Subnet_IpAddressInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

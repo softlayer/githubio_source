@@ -25,6 +25,8 @@ Once your ticket is created it is placed in a queue for SoftLayer employees to w
 
 Administrative support tickets add a one-time $3USD charge to your account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -41,10 +43,29 @@ Administrative support tickets add a one-time $3USD charge to your account.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TicketObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "Please provide a title when creating an administrative support ticket." If the $templateObject parameter does not have a title set. 
+
+* SoftLayer_Exception 
+
+> Throw the exception "Please provide ticket contents." if no contents are provided to the method. 
+
+* SoftLayer_Exception 
+
+> Throw the exception "Please provide a root/admin password." if a hardware id was passed to the method, but a root password wasn't. 
+
+
 

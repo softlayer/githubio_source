@@ -19,6 +19,8 @@ Delete this load balancer configuration.
 ## Overview 
 Delete this load balancer configuration. Note, this does not affect existing scaled members. Once deleted however, future scaled members will not be load balanced with this configuration. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Delete this load balancer configuration. Note, this does not affect existing sca
 * authenticate
 * SoftLayer_Scale_LoadBalancerInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

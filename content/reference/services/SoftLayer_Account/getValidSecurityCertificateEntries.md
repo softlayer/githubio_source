@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Retrieve a list of valid (non-expired) security certificates without the sensitive certificate information. This allows non-privileged users to view and select security certificates when configuring associated services. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ Retrieve a list of valid (non-expired) security certificates without the sensiti
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Security_Certificate_Entry'>SoftLayer_Security_Certificate_Entry[] </a>
+* <a href='/reference/datatypes/SoftLayer_Security_Certificate_Entry'>SoftLayer_Security_Certificate_Entry[] </a>
+
+
+
 

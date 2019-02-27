@@ -19,6 +19,8 @@ Retrieve an order's non-server items total monthly fee.
 ## Overview 
 Retrieve an order's non-server items total monthly fee.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve an order's non-server items total monthly fee.
 * SoftLayer_Billing_OrderInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_OrderObjectMask
 * SoftLayer_Billing_OrderObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

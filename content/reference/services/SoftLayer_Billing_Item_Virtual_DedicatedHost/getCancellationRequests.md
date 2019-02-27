@@ -19,6 +19,8 @@ Retrieve this will return any cancellation requests that are associated with thi
 ## Overview 
 Retrieve this will return any cancellation requests that are associated with this billing item.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve this will return any cancellation requests that are associated with thi
 * SoftLayer_Billing_Item_Virtual_DedicatedHostInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Item_Virtual_DedicatedHostObjectMask
 * SoftLayer_Billing_Item_Virtual_DedicatedHostObjectFilter
@@ -35,5 +38,8 @@ Retrieve this will return any cancellation requests that are associated with thi
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request'>SoftLayer_Billing_Item_Cancellation_Request[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request'>SoftLayer_Billing_Item_Cancellation_Request[] </a>
+
+
+
 

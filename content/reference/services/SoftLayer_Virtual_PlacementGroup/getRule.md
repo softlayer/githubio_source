@@ -19,6 +19,8 @@ Retrieve the placement rule that the placement group is implementing.
 ## Overview 
 Retrieve the placement rule that the placement group is implementing.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the placement rule that the placement group is implementing.
 * SoftLayer_Virtual_PlacementGroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_PlacementGroupObjectMask
 * SoftLayer_Virtual_PlacementGroupObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_PlacementGroup_Rule'>SoftLayer_Virtual_PlacementGroup_Rule </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_PlacementGroup_Rule'>SoftLayer_Virtual_PlacementGroup_Rule </a>
+
+
+
 

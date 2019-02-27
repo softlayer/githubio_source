@@ -19,6 +19,8 @@ Retrieve this flag indicates an order is an upgrade.
 ## Overview 
 Retrieve this flag indicates an order is an upgrade.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve this flag indicates an order is an upgrade.
 * SoftLayer_Billing_OrderInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_OrderObjectMask
 * SoftLayer_Billing_OrderObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

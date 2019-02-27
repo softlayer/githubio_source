@@ -21,6 +21,8 @@ Add a CloudLayer Computing Instance to a portal user's access list. A user's Clo
 
 Users can assign CloudLayer Computing Instance access to their child users, but not to themselves. An account's master has access to all CloudLayer Computing Instances on their customer account and can set CloudLayer Computing Instance access for any of the other users on their account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,15 +33,44 @@ Users can assign CloudLayer Computing Instance access to their child users, but 
 * authenticate
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_User_Customer::addBulkVirtualGuestAccess](/reference/services/SoftLayer_User_Customer/addBulkVirtualGuestAccess )
 *  [SoftLayer_User_Customer::removeVirtualGuestAccess](/reference/services/SoftLayer_User_Customer/removeVirtualGuestAccess )
 *  [SoftLayer_User_Customer::removeBulkVirtualGuestAccess](/reference/services/SoftLayer_User_Customer/removeBulkVirtualGuestAccess )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throw the exception "You may not grant or deny Master User device access." when trying to add virtual guest access to a master user. 
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throw the exception "You may not grant or deny yourself device access." when trying to add virtual guest access to the user making the call to the SoftLayer API. 
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throw the exception "You may not grant or deny device access to other users." when trying to add virtual guest access the user making the API call is not their account's master user or does not have the "USER_MANAGE" portal permission. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "You may not add Virtual Server permissions that the parent does not possess to this account." when trying to add Virtual Server access to the user and the parent user does not possess that access to that Virtual Server. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Please specify a valid Virtual Server id." if the given Virtual Server id is not a valid id. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Unable to add user Virtual Server access." if the API was unable to assign Virtual Server access to the given portal user. 
+
+
 

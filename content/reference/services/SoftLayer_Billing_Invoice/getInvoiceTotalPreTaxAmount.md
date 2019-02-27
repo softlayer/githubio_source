@@ -19,6 +19,8 @@ Retrieve the total amount of this invoice. This does not include taxes.
 ## Overview 
 Retrieve the total amount of this invoice. This does not include taxes.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the total amount of this invoice. This does not include taxes.
 * SoftLayer_Billing_InvoiceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_InvoiceObjectMask
 * SoftLayer_Billing_InvoiceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the user that authorized this firewall update request.
 ## Overview 
 Retrieve the user that authorized this firewall update request.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the user that authorized this firewall update request.
 * SoftLayer_Network_Firewall_Update_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Firewall_Update_RequestObjectMask
 * SoftLayer_Network_Firewall_Update_RequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Interface'>SoftLayer_User_Interface </a>
+* <a href='/reference/datatypes/SoftLayer_User_Interface'>SoftLayer_User_Interface </a>
+
+
+
 

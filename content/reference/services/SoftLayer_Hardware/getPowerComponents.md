@@ -19,6 +19,8 @@ Retrieve the power components for a hardware object.
 ## Overview 
 Retrieve the power components for a hardware object.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the power components for a hardware object.
 * SoftLayer_HardwareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_HardwareObjectMask
 * SoftLayer_HardwareObjectFilter
@@ -35,5 +38,8 @@ Retrieve the power components for a hardware object.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware_Power_Component'>SoftLayer_Hardware_Power_Component[] </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware_Power_Component'>SoftLayer_Hardware_Power_Component[] </a>
+
+
+
 

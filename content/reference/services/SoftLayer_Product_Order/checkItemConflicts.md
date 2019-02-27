@@ -19,6 +19,8 @@ Check order items for conflicts
 ## Overview 
 Check order items for conflicts
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,17 @@ Check order items for conflicts
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Order_Item_Conflict 
+
+> Throws the exception 'You cannot order (item description) with (item description)'. 
+
+
 

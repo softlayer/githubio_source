@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Scale_Policy_Action_Scale record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Scale_Policy_Action_Scale record.
 * SoftLayer_Scale_Policy_Action_ScaleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Policy_Action_ScaleObjectMask
 * SoftLayer_Scale_Policy_Action_ScaleObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Policy_Action_Scale'>SoftLayer_Scale_Policy_Action_Scale </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Policy_Action_Scale'>SoftLayer_Scale_Policy_Action_Scale </a>
+
+
+
 

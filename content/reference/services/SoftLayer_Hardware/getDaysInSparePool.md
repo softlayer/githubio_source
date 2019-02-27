@@ -19,6 +19,8 @@ Retrieve number of day(s) a server have been in spare pool.
 ## Overview 
 Retrieve number of day(s) a server have been in spare pool.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve number of day(s) a server have been in spare pool.
 * SoftLayer_HardwareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_HardwareObjectMask
 * SoftLayer_HardwareObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-integer
+* integer
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the SoftLayer customer account that the domain is registered to.
 ## Overview 
 Retrieve the SoftLayer customer account that the domain is registered to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the SoftLayer customer account that the domain is registered to.
 * SoftLayer_Dns_Domain_RegistrationInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Dns_Domain_RegistrationObjectMask
 * SoftLayer_Dns_Domain_RegistrationObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

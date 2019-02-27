@@ -19,6 +19,8 @@ Returns a specific maintenance window
 ## Overview 
 getMaintenanceStartEndTime() returns a specific maintenance window 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ getMaintenanceStartEndTime() returns a specific maintenance window
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Provisioning_Maintenance_WindowObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Window'>SoftLayer_Provisioning_Maintenance_Window </a>
+* <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Window'>SoftLayer_Provisioning_Maintenance_Window </a>
+
+
+
 

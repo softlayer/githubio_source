@@ -19,6 +19,8 @@ Retrieve flag indicating if this account can be linked with Bluemix.
 ## Overview 
 Retrieve flag indicating if this account can be linked with Bluemix.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve flag indicating if this account can be linked with Bluemix.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

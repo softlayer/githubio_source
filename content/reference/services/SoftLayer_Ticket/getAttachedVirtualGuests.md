@@ -19,6 +19,8 @@ Retrieve the virtual guests associated with a ticket. This is used in cases wher
 ## Overview 
 Retrieve the virtual guests associated with a ticket. This is used in cases where a ticket is directly associated with one or more virtualized guests installations or Virtual Servers.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the virtual guests associated with a ticket. This is used in cases wher
 * SoftLayer_TicketInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TicketObjectMask
 * SoftLayer_TicketObjectFilter
@@ -35,5 +38,8 @@ Retrieve the virtual guests associated with a ticket. This is used in cases wher
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+
+
+
 

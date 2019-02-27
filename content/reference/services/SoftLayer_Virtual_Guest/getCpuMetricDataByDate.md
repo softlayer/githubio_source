@@ -19,6 +19,8 @@ Retrieve records containing the percentage of the amount of time that a cpu was 
 ## Overview 
 Use this method when needing the metric data for a single guest's CPUs.  It will gather the correct input parameters based on the date ranges 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,8 +33,10 @@ Use this method when needing the metric data for a single guest's CPUs.  It will
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
+* <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
+
+
+
 

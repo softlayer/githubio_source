@@ -19,6 +19,8 @@ Removes a cancellation item
 ## Overview 
 This method removes a cancellation item from a cancellation request that is in "Pending" or "Approved" status. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method removes a cancellation item from a cancellation request that is in "
 * authenticate
 * SoftLayer_Billing_Item_Cancellation_RequestInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

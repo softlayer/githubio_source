@@ -19,6 +19,8 @@ Validates a collection of partitions for an operating system
 ## Overview 
 Validates a collection of partitions for an operating system
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,25 @@ Validates a collection of partitions for an operating system
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception 'Invalid operating system provided.' when the operating system description that was provided does not exist. 
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception '<partition> partition is too small...' when the partition that was provided does not meet the minimum requirements 
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception 'Missing required partitions:...' when partitions that are required for the operating system indicated are not provided. 
+
+
 

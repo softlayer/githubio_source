@@ -21,6 +21,8 @@ Like SoftLayer_Billing_Order_Cart::createCart, the order data will be sent throu
 
 This will return the cart id. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,8 +33,10 @@ This will return the cart id.
 * authenticate
 * SoftLayer_Billing_Order_CartInitParameters
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

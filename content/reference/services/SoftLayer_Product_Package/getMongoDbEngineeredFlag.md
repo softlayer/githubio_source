@@ -19,6 +19,8 @@ Retrieve this flag indicates that this is a MongoDB engineered package. (Depreca
 ## Overview 
 Retrieve this flag indicates that this is a MongoDB engineered package. (Deprecated)
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve this flag indicates that this is a MongoDB engineered package. (Depreca
 * SoftLayer_Product_PackageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_Product_PackageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

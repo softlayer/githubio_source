@@ -19,6 +19,8 @@ Retrieve the dedicated hosts to which the user has been granted access.
 ## Overview 
 Retrieve the dedicated hosts to which the user has been granted access.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the dedicated hosts to which the user has been granted access.
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_OpenIdConnectObjectMask
 * SoftLayer_User_Customer_OpenIdConnectObjectFilter
@@ -35,5 +38,8 @@ Retrieve the dedicated hosts to which the user has been granted access.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_DedicatedHost'>SoftLayer_Virtual_DedicatedHost[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_DedicatedHost'>SoftLayer_Virtual_DedicatedHost[] </a>
+
+
+
 

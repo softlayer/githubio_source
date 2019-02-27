@@ -19,6 +19,8 @@ Retrieve provides an interface to various metrics relating to the usage of an IB
 ## Overview 
 Retrieve provides an interface to various metrics relating to the usage of an IBM Cloud Object Storage account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve provides an interface to various metrics relating to the usage of an IB
 * SoftLayer_Network_Storage_Hub_Cleversafe_AccountInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Hub_Cleversafe_AccountObjectMask
 * SoftLayer_Network_Storage_Hub_Cleversafe_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>
+* <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>
+
+
+
 

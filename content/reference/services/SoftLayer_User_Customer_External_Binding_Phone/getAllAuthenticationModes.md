@@ -19,6 +19,8 @@ Returns available authentication modes
 ## Overview 
 This service returns key names of all available authentication modes. See [[SoftLayer_Container_User_Customer_External_Binding_Phone_Mode|authentication mode]] container for details. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This service returns key names of all available authentication modes. See [[Soft
 * authenticate
 * SoftLayer_User_Customer_External_Binding_PhoneInitParameters
 
-### Optional Headers
 
 ### Return Values
-array of strings
+* array of strings
+
+
+
 

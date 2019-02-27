@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_User_Customer_External_Binding_PhoneInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_External_Binding_PhoneObjectMask
 * SoftLayer_User_Customer_External_Binding_PhoneObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

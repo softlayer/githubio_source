@@ -19,6 +19,8 @@ Return a domain's data formatted as zone file text.
 ## Overview 
 Return a SoftLayer hosted domain and resource records' data formatted as zone file. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,14 +30,16 @@ Return a SoftLayer hosted domain and resource records' data formatted as zone fi
 * authenticate
 * SoftLayer_Dns_DomainInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
 
 ### External Links
 
 
 * [Zone file at Wikipedia](http://en.wikipedia.org/wiki/Zone_file)
+
+
+
 
 

@@ -21,6 +21,8 @@ This service returns billing items of a specified category code. This service sh
 
 In order to find billing items for cancellation, use [[SoftLayer_Product_Item_Category::getValidCancelableServiceItemCategories|product categories]] service to retrieve category codes that are eligible for cancellation. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,10 +33,14 @@ In order to find billing items for cancellation, use [[SoftLayer_Product_Item_Ca
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_ItemObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the currently running rule set of this context access control list fire
 ## Overview 
 Retrieve the currently running rule set of this context access control list firewall.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the currently running rule set of this context access control list fire
 * SoftLayer_Network_Firewall_AccessControlListInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Firewall_AccessControlListObjectMask
 * SoftLayer_Network_Firewall_AccessControlListObjectFilter
@@ -35,5 +38,8 @@ Retrieve the currently running rule set of this context access control list fire
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Vlan_Firewall_Rule'>SoftLayer_Network_Vlan_Firewall_Rule[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Vlan_Firewall_Rule'>SoftLayer_Network_Vlan_Firewall_Rule[] </a>
+
+
+
 

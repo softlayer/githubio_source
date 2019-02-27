@@ -19,6 +19,8 @@ Remove rules from a security group.
 ## Overview 
 Remove rules from a security group.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Remove rules from a security group.
 * authenticate
 * SoftLayer_Network_SecurityGroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_RequestRules'>SoftLayer_Network_SecurityGroup_RequestRules </a>
+* <a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_RequestRules'>SoftLayer_Network_SecurityGroup_RequestRules </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a portal user's vpn accessible subnets.
 ## Overview 
 Retrieve a portal user's vpn accessible subnets.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a portal user's vpn accessible subnets.
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_OpenIdConnectObjectMask
 * SoftLayer_User_Customer_OpenIdConnectObjectFilter
@@ -35,5 +38,8 @@ Retrieve a portal user's vpn accessible subnets.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Service_Vpn_Overrides'>SoftLayer_Network_Service_Vpn_Overrides[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Service_Vpn_Overrides'>SoftLayer_Network_Service_Vpn_Overrides[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Allow access to multiple SoftLayer_Network_Storage volumes from this device.
 ## Overview 
 This method is used to allow access to multiple SoftLayer_Network_Storage volumes that support host- or network-level access control. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method is used to allow access to multiple SoftLayer_Network_Storage volume
 * authenticate
 * SoftLayer_Hardware_RouterInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

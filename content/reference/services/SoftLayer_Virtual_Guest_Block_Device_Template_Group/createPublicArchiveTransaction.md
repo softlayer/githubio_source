@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Create a transaction to copy archived block devices into public repository
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,8 +34,10 @@ Create a transaction to copy archived block devices into public repository
 * authenticate
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

@@ -19,6 +19,8 @@ Edit this watch.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit this watch.
 * authenticate
 * SoftLayer_Scale_Policy_Trigger_ResourceUse_WatchInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

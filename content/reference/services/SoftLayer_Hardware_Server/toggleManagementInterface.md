@@ -19,6 +19,8 @@ Toggle the IPMI interface on and off.
 ## Overview 
 Attempt to toggle the IPMI interface.  If there is an active transaction on the server, it will throw an exception. This method creates a transaction to toggle the interface.  It is not instant. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Attempt to toggle the IPMI interface.  If there is an active transaction on the 
 * authenticate
 * SoftLayer_Hardware_ServerInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

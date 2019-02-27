@@ -19,6 +19,8 @@ Retrieve a collection of users impacted by this event. Each impacted user record
 ## Overview 
 Retrieve a collection of users impacted by this event. Each impacted user record relates directly to a [[SoftLayer_User_Customer]].
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a collection of users impacted by this event. Each impacted user record
 * SoftLayer_Notification_Occurrence_EventInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Notification_Occurrence_EventObjectMask
 * SoftLayer_Notification_Occurrence_EventObjectFilter
@@ -35,5 +38,8 @@ Retrieve a collection of users impacted by this event. Each impacted user record
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_User'>SoftLayer_Notification_Occurrence_User[] </a>
+* <a href='/reference/datatypes/SoftLayer_Notification_Occurrence_User'>SoftLayer_Notification_Occurrence_User[] </a>
+
+
+
 

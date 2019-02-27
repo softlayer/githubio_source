@@ -19,6 +19,8 @@ Delete this policy from the group.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Delete this policy from the group.
 * authenticate
 * SoftLayer_Scale_PolicyInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

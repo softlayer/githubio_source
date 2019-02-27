@@ -19,6 +19,8 @@ Updates an existing Time To Live object. If the old and new inputs are equal, ex
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,8 +34,10 @@ Updates an existing Time To Live object. If the old and new inputs are equal, ex
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

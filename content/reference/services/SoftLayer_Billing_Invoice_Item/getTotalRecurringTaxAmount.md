@@ -19,6 +19,8 @@ Retrieve a Billing Item's total, including any child billing items if they exist
 ## Overview 
 Retrieve a Billing Item's total, including any child billing items if they exist.'
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a Billing Item's total, including any child billing items if they exist
 * SoftLayer_Billing_Invoice_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Invoice_ItemObjectMask
 * SoftLayer_Billing_Invoice_ItemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-float
+* float
+
+
+
 

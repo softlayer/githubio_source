@@ -19,6 +19,8 @@ Retrieve the [[SoftLayer_Account|account]] that a storage repository belongs to.
 ## Overview 
 Retrieve the [[SoftLayer_Account|account]] that a storage repository belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the [[SoftLayer_Account|account]] that a storage repository belongs to.
 * SoftLayer_Virtual_Storage_RepositoryInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Storage_RepositoryObjectMask
 * SoftLayer_Virtual_Storage_RepositoryObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

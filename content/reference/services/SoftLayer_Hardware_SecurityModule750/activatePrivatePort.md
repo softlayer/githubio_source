@@ -23,6 +23,8 @@ Receipt of a response does not indicate completion of the configuration change. 
 
 A response of true indicates a change was required to activate the interface; thus changes are pending. A response of false indicates the interface was already active, and thus no changes are pending. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,15 +34,36 @@ A response of true indicates a change was required to activate the interface; th
 * authenticate
 * SoftLayer_Hardware_SecurityModule750InitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Hardware_Server::setPrivateNetworkInterfaceSpeed](/reference/services/SoftLayer_Hardware_Server/setPrivateNetworkInterfaceSpeed )
 *  [SoftLayer_Hardware_Server::shutdownPrivatePort](/reference/services/SoftLayer_Hardware_Server/shutdownPrivatePort )
 *  [SoftLayer_Hardware_Server::activatePublicPort](/reference/services/SoftLayer_Hardware_Server/activatePublicPort )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Unavailable 
+
+> Throws If the requested network is not available to the server 
+
+* SoftLayer_Exception_NotReady 
+
+> Throws If a change, not necessarily a speed change, is pending against the server 
+
+* SoftLayer_Exception_NotReady 
+
+> Throws If the server is not yet available for interface speed changes 
+
+* SoftLayer_Exception_AccessDenied 
+
+> Throws If the user requesting the change lacks the Port Control permission 
+
+
 

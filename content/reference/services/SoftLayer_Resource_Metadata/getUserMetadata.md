@@ -19,6 +19,8 @@ Obtain user data associated with the resource
 ## Overview 
 The getUserMetadata method retrieves metadata completed by users who interact with the resource. Metadata gathered using this method is unique to parameters set using the '''setUserMetadata''' method, which must be executed prior to completing this method. User metadata may also be provided while placing an order for a resource. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -26,8 +28,10 @@ The getUserMetadata method retrieves metadata completed by users who interact wi
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

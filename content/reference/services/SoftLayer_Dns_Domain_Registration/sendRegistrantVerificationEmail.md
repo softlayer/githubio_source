@@ -19,6 +19,8 @@ Sends verification email to the registrant.
 ## Overview 
 When a domain is registered or transferred, or when the registrant contact information is changed, the registrant must reply to an email requesting them to confirm that the submitted contact information is correct. This method sends the verification email to the registrant. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ When a domain is registered or transferred, or when the registrant contact infor
 * authenticate
 * SoftLayer_Dns_Domain_RegistrationInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

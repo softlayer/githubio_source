@@ -68,6 +68,8 @@ Configurations cannot be modified if a network tunnel's requires complex manual 
 
 NOTE:  A network tunnel's configurations must be applied to the network device in order for the modifications made to take effect. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -78,13 +80,15 @@ NOTE:  A network tunnel's configurations must be applied to the network device i
 * authenticate
 * SoftLayer_Network_Tunnel_Module_ContextInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_Tunnel_Module_Context::applyConfigurationsToDevice](/reference/services/SoftLayer_Network_Tunnel_Module_Context/applyConfigurationsToDevice )
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve domain transfer information.
 ## Overview 
 The getTransferInformation method checks to see if the domain can be transferred and also can be used to check the status of the last transfer request. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ The getTransferInformation method checks to see if the domain can be transferred
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Transfer_Information'>SoftLayer_Container_Dns_Domain_Registration_Transfer_Information </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Transfer_Information'>SoftLayer_Container_Dns_Domain_Registration_Transfer_Information </a>
+
+
+
 

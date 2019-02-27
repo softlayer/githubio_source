@@ -19,6 +19,8 @@ Retrieve the Virtual Servers using IP addresses on this subnet.
 ## Overview 
 Retrieve the Virtual Servers using IP addresses on this subnet.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the Virtual Servers using IP addresses on this subnet.
 * SoftLayer_Network_SubnetInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_SubnetObjectMask
 * SoftLayer_Network_SubnetObjectFilter
@@ -35,5 +38,8 @@ Retrieve the Virtual Servers using IP addresses on this subnet.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+
+
+
 

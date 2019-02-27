@@ -19,6 +19,8 @@ Creates a Time To Live object and inserts it into the database
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ Creates a Time To Live object and inserts it into the database
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

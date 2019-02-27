@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ aliases:
 * SoftLayer_Location_DatacenterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_DatacenterObjectMask
 * SoftLayer_Location_DatacenterObjectFilter
@@ -35,5 +38,8 @@ aliases:
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 (DEPRECATED) Use [[SoftLayer_User_Customer::getImpersonationToken]] method. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ aliases:
 * authenticate
 * SoftLayer_BrandInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

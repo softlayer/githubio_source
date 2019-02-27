@@ -19,6 +19,8 @@ Retrieve a ticket's associated EU compliant record
 ## Overview 
 Retrieve a ticket's associated EU compliant record
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a ticket's associated EU compliant record
 * SoftLayer_TicketInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TicketObjectMask
 * SoftLayer_TicketObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Ticket_Attachment_File record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Ticket_Attachment_File record.
 * SoftLayer_Ticket_Attachment_FileInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Ticket_Attachment_FileObjectMask
 * SoftLayer_Ticket_Attachment_FileObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket_Attachment_File'>SoftLayer_Ticket_Attachment_File </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket_Attachment_File'>SoftLayer_Ticket_Attachment_File </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the server room that a guest is located at. There may be more than one 
 ## Overview 
 Retrieve the server room that a guest is located at. There may be more than one server room for every data center.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the server room that a guest is located at. There may be more than one 
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+
+
+
 

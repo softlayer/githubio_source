@@ -19,6 +19,8 @@ Retrieve the shipment to which this item belongs.
 ## Overview 
 Retrieve the shipment to which this item belongs.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the shipment to which this item belongs.
 * SoftLayer_Account_Shipment_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Shipment_ItemObjectMask
 * SoftLayer_Account_Shipment_ItemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Shipment'>SoftLayer_Account_Shipment </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Shipment'>SoftLayer_Account_Shipment </a>
+
+
+
 

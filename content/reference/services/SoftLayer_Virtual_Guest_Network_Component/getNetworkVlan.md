@@ -19,6 +19,8 @@ Retrieve the VLAN that a computing instance network component's subnet is associ
 ## Overview 
 Retrieve the VLAN that a computing instance network component's subnet is associated with.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the VLAN that a computing instance network component's subnet is associ
 * SoftLayer_Virtual_Guest_Network_ComponentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Guest_Network_ComponentObjectMask
 * SoftLayer_Virtual_Guest_Network_ComponentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>
+
+
+
 

@@ -23,6 +23,8 @@ Users can assign permissions to their child users, but not to themselves. An acc
 
 Use the [[SoftLayer_User_Customer_CustomerPermission_Permission::getAllObjects]] method to retrieve a list of all permissions available in the SoftLayer customer portal and API. Permissions are removed based on the keyName property of the permission objects within the permissions parameter. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -33,15 +35,36 @@ Use the [[SoftLayer_User_Customer_CustomerPermission_Permission::getAllObjects]]
 * authenticate
 * SoftLayer_User_CustomerInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_User_Customer::addPortalPermission](/reference/services/SoftLayer_User_Customer/addPortalPermission )
 *  [SoftLayer_User_Customer::removePortalPermission](/reference/services/SoftLayer_User_Customer/removePortalPermission )
 *  [SoftLayer_User_Customer::removeBulkPortalPermission](/reference/services/SoftLayer_User_Customer/removeBulkPortalPermission )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "You may not add permissions to your account." when trying to add permissions to the user making calling the SoftLayer API. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Please specify a permission key name." if the keyName property of the permission parameter is empty. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Unable to locate a permission with the key name {key name}." when trying to assign an unknown permission to a user. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Unable to add user permission {key name}." if the API was unable to assign the given permission to the given portal user. 
+
+
 

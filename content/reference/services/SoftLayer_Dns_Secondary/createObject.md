@@ -19,6 +19,8 @@ Create a secondary DNS record.
 ## Overview 
 Create a secondary DNS record. The ''zoneName'', ''masterIpAddress'', and ''transferFrequency'' properties in the templateObject parameter are required parameters to create a secondary DNS record. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,15 +30,30 @@ Create a secondary DNS record. The ''zoneName'', ''masterIpAddress'', and ''tran
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Dns_SecondaryObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Secondary'>SoftLayer_Dns_Secondary </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Secondary'>SoftLayer_Dns_Secondary </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Dns_Secondary::createObjects](/reference/services/SoftLayer_Dns_Secondary/createObjects )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "The master IP address is not a valid IP address." if the supplied master IP address is not in a valid IPv4 format. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "The transfer frequency must be numeric." if the transfer frequency is blank or not a valid number. 
+
+
 

@@ -19,6 +19,8 @@ Retrieve the SoftLayer account that owns a secondary DNS record.
 ## Overview 
 Retrieve the SoftLayer account that owns a secondary DNS record.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the SoftLayer account that owns a secondary DNS record.
 * SoftLayer_Dns_SecondaryInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Dns_SecondaryObjectMask
 * SoftLayer_Dns_SecondaryObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

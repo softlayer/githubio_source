@@ -21,6 +21,8 @@ This method returns your login credentials to the CDN FTP server (ftp.cdnlayer.s
 
 If you want to download raw log files, prefix the username with "LOGS-" (without quotes) when logging in. SoftLayer designed CDN accounts so they can have multiple CDN FTP users. However, this method returns the default CDN FTP user information: multi user support may be implemented in the future. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,14 +32,27 @@ If you want to download raw log files, prefix the username with "LOGS-" (without
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_Authentication_Data'>SoftLayer_Container_Network_Authentication_Data </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_Authentication_Data'>SoftLayer_Container_Network_Authentication_Data </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_ContentDelivery_Account::createFtpUser](/reference/services/SoftLayer_Network_ContentDelivery_Account/createFtpUser )
 *  [SoftLayer_Network_ContentDelivery_Account::setFtpPassword](/reference/services/SoftLayer_Network_ContentDelivery_Account/setFtpPassword )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a user does not have CDN_FILE_MANAGE privilege. 
+
+* SoftLayer_Exception_Public 
+
+> Throws an exception if a CDN account is disabled. 
+
+
 

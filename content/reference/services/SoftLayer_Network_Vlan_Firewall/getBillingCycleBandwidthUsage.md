@@ -19,6 +19,8 @@ Retrieve the raw bandwidth usage data for the current billing cycle. One object 
 ## Overview 
 Retrieve the raw bandwidth usage data for the current billing cycle. One object will be returned for each network this firewall is attached to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the raw bandwidth usage data for the current billing cycle. One object 
 * SoftLayer_Network_Vlan_FirewallInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Vlan_FirewallObjectMask
 * SoftLayer_Network_Vlan_FirewallObjectFilter
@@ -35,5 +38,8 @@ Retrieve the raw bandwidth usage data for the current billing cycle. One object 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage[] </a>
+
+
+
 

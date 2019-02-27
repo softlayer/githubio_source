@@ -19,6 +19,8 @@ Determines if the account is considered an active VMware customer and as such el
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ Determines if the account is considered an active VMware customer and as such el
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the network storage volumes configured to be replicants of a volume.
 ## Overview 
 Retrieve the network storage volumes configured to be replicants of a volume.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the network storage volumes configured to be replicants of a volume.
 * SoftLayer_Network_Storage_Backup_EvaultInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Backup_EvaultObjectMask
 * SoftLayer_Network_Storage_Backup_EvaultObjectFilter
@@ -35,5 +38,8 @@ Retrieve the network storage volumes configured to be replicants of a volume.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+
+
+
 

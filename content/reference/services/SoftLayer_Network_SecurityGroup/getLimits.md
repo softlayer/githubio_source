@@ -19,6 +19,8 @@ List the current security group limits
 ## Overview 
 List the current security group limits 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ List the current security group limits
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_SecurityGroup_Limit'>SoftLayer_Container_Network_SecurityGroup_Limit[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_SecurityGroup_Limit'>SoftLayer_Container_Network_SecurityGroup_Limit[] </a>
+
+
+
 

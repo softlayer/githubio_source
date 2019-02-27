@@ -19,6 +19,8 @@ Retrieve the status for this scale group.
 ## Overview 
 Retrieve the status for this scale group.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the status for this scale group.
 * SoftLayer_Scale_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_GroupObjectMask
 * SoftLayer_Scale_GroupObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Group_Status'>SoftLayer_Scale_Group_Status </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Group_Status'>SoftLayer_Scale_Group_Status </a>
+
+
+
 

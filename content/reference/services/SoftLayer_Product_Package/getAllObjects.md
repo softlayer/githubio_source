@@ -19,6 +19,8 @@ Get the Active SoftLayer_Product_Packages
 ## Overview 
 This method pulls all the active packages. This will give you a basic description of the packages that are currently active 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ This method pulls all the active packages. This will give you a basic descriptio
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_ObjectMask
@@ -34,5 +37,8 @@ This method pulls all the active packages. This will give you a basic descriptio
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package[] </a>
+
+
+
 

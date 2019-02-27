@@ -19,6 +19,8 @@ Retrieve provisioning transaction for this billing item
 ## Overview 
 Retrieve provisioning transaction for this billing item
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve provisioning transaction for this billing item
 * SoftLayer_Billing_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_ItemObjectMask
 * SoftLayer_Billing_ItemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>
+* <a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>
+
+
+
 

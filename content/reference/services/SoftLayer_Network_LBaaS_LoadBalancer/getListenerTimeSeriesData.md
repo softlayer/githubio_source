@@ -21,6 +21,8 @@ Return listener time series datapoints. The time series data is available for Th
 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -33,8 +35,10 @@ Return listener time series datapoints. The time series data is available for Th
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancerMonitoringMetricDataPoint'>SoftLayer_Network_LBaaS_LoadBalancerMonitoringMetricDataPoint[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancerMonitoringMetricDataPoint'>SoftLayer_Network_LBaaS_LoadBalancerMonitoringMetricDataPoint[] </a>
+
+
+
 

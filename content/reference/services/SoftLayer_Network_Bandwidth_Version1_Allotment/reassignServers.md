@@ -19,6 +19,8 @@ reassign a collection of servers to a different allotment.
 ## Overview 
 This method will reassign a collection of SoftLayer hardware to a bandwidth allotment Bandwidth Pool. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method will reassign a collection of SoftLayer hardware to a bandwidth allo
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

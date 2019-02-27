@@ -19,6 +19,8 @@ Retrieve a flag indicating that a VLAN on the router can be assigned to a host t
 ## Overview 
 Retrieve a flag indicating that a VLAN on the router can be assigned to a host that has local disk functionality.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a flag indicating that a VLAN on the router can be assigned to a host t
 * SoftLayer_Hardware_RouterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_RouterObjectMask
 * SoftLayer_Hardware_RouterObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

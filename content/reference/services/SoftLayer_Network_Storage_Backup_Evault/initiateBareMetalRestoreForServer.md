@@ -19,6 +19,8 @@ Initiate a bare metal restore for the specified server
 ## Overview 
 This method operates the same as the initiateBareMetalRestore() method.  However, using this method, the Bare Metal Restore can be initiated on any Windows server under the account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method operates the same as the initiateBareMetalRestore() method.  However
 * authenticate
 * SoftLayer_Network_Storage_Backup_EvaultInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

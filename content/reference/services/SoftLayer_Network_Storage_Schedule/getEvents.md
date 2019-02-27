@@ -19,6 +19,8 @@ Retrieve events which have been created as the result of a schedule execution.
 ## Overview 
 Retrieve events which have been created as the result of a schedule execution.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve events which have been created as the result of a schedule execution.
 * SoftLayer_Network_Storage_ScheduleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_ScheduleObjectMask
 * SoftLayer_Network_Storage_ScheduleObjectFilter
@@ -35,5 +38,8 @@ Retrieve events which have been created as the result of a schedule execution.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Event'>SoftLayer_Network_Storage_Event[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Event'>SoftLayer_Network_Storage_Event[] </a>
+
+
+
 

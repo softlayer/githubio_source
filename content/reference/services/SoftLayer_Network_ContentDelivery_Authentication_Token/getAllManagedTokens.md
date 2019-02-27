@@ -23,6 +23,8 @@ This method is deprecated!
 
 This method returns all managed tokens for a CDN account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,11 +34,15 @@ This method returns all managed tokens for a CDN account.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_ContentDelivery_Authentication_TokenObjectMask
 * SoftLayer_ObjectMask
 * SoftLayer_Network_ContentDelivery_Authentication_TokenObjectFilter
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Authentication_Token'>SoftLayer_Network_ContentDelivery_Authentication_Token[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Authentication_Token'>SoftLayer_Network_ContentDelivery_Authentication_Token[] </a>
+
+
+
 

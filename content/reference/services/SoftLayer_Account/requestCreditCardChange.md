@@ -21,6 +21,8 @@ Retrieve the record data associated with the submission of a Credit Card Change 
 
 If the onlyChangeNicknameFlag parameter is set to true, the nickname of the credit card will be changed immediately without requiring approval by an agent.  To change the nickname of the active payment method, pass the empty string for paymentRoleName.  To change the nickname for the alternate credit card, pass ALTERNATE_CREDIT_CARD as the paymentRoleName.  vatId must be set, but the value will not be used and the empty string is acceptable. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -33,10 +35,14 @@ If the onlyChangeNicknameFlag parameter is set to true, the nickname of the cred
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_ChangeRequest'>SoftLayer_Billing_Payment_Card_ChangeRequest </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_ChangeRequest'>SoftLayer_Billing_Payment_Card_ChangeRequest </a>
+
+
+
 

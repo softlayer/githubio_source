@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Tag record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Tag record.
 * SoftLayer_TagInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TagObjectMask
 * SoftLayer_TagObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Tag'>SoftLayer_Tag </a>
+* <a href='/reference/datatypes/SoftLayer_Tag'>SoftLayer_Tag </a>
+
+
+
 

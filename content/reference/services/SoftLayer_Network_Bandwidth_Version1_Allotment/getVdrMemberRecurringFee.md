@@ -19,6 +19,8 @@ Gets the monthly recurring fee of a pooled server.
 ## Overview 
 Gets the monthly recurring fee of a pooled server. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Gets the monthly recurring fee of a pooled server.
 * authenticate
 * SoftLayer_Network_Bandwidth_Version1_AllotmentInitParameters
 
-### Optional Headers
 
 ### Return Values
-float
+* float
+
+
+
 

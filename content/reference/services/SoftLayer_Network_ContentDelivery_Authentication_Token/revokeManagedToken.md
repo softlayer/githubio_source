@@ -23,6 +23,8 @@ This method is deprecated!
 
 Revokes a managed token. If you revoke a token, the token will be removed from SoftLayer's system but it will not remove your content on CDN FTP. The content that requires token validation will not be available to the visitor who is using a revoked token. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -33,8 +35,10 @@ Revokes a managed token. If you revoke a token, the token will be removed from S
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

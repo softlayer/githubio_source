@@ -19,6 +19,8 @@ Retrieve all scale groups on this account.
 ## Overview 
 Retrieve all scale groups on this account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve all scale groups on this account.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve all scale groups on this account.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group[] </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group[] </a>
+
+
+
 

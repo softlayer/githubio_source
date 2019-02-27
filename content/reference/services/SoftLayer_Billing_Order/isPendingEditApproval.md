@@ -19,6 +19,8 @@ Determine if the existing order is pending edit approval
 ## Overview 
 When an order has been modified, it will contain a status indicating so. This method checks that status and also verifies that the active user's account is the same as the account on the order. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ When an order has been modified, it will contain a status indicating so. This me
 * authenticate
 * SoftLayer_Billing_OrderInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

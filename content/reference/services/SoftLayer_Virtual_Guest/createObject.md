@@ -343,6 +343,8 @@ Location: https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/1301396/getO
 } 
 </http> 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -352,17 +354,21 @@ Location: https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/1301396/getO
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Virtual_Guest::createObjects](/reference/services/SoftLayer_Virtual_Guest/createObjects )
 *  [SoftLayer_Virtual_Guest::generateOrderTemplate](/reference/services/SoftLayer_Virtual_Guest/generateOrderTemplate )
 *  [SoftLayer_Virtual_Guest::getCreateObjectOptions](/reference/services/SoftLayer_Virtual_Guest/getCreateObjectOptions )
+
+
+
 

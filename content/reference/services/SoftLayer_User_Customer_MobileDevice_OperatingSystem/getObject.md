@@ -19,6 +19,8 @@ Retrieve a SoftLayer_User_Customer_MobileDevice_OperatingSystem record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_User_Customer_MobileDevice_OperatingSystem record.
 * SoftLayer_User_Customer_MobileDevice_OperatingSystemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_MobileDevice_OperatingSystemObjectMask
 * SoftLayer_User_Customer_MobileDevice_OperatingSystemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice_OperatingSystem'>SoftLayer_User_Customer_MobileDevice_OperatingSystem </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice_OperatingSystem'>SoftLayer_User_Customer_MobileDevice_OperatingSystem </a>
+
+
+
 

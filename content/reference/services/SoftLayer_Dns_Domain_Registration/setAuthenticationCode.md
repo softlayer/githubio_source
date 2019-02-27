@@ -19,6 +19,8 @@ Sets the authentication code for a domain.
 ## Overview 
 The setAuthenticationCode method sets the authentication code for the domain. The authentication code is a transfer key and provides an extra level of security, safeguarding domain names from unauthorized transfers. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ The setAuthenticationCode method sets the authentication code for the domain. Th
 * authenticate
 * SoftLayer_Dns_Domain_RegistrationInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

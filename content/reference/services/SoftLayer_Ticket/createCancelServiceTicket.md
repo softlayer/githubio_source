@@ -34,6 +34,8 @@ The reason parameter could be from the list below:
 
 The content parameter describes further the reason for cancelling service. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -46,10 +48,33 @@ The content parameter describes further the reason for cancelling service.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TicketObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throws the exception "Attachment id must be provided." when attachment id parameter is not provided. 
+
+* SoftLayer_Exception 
+
+> Throws the exception "Cancellation reason must be provided." when reason parameter is not provided. 
+
+* SoftLayer_Exception 
+
+> Throws the exception "Cancellation content description must be provided." when content parameter is not provided. 
+
+* SoftLayer_Exception 
+
+> Throws the exception "You do not have permission to this service." when a portal user does not have permission to cancel service. 
+
+
 

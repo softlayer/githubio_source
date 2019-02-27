@@ -19,6 +19,8 @@ Return a collection of [[SoftLayer_Product_Item]] objects from a [[SoftLayer_Vir
 ## Overview 
 Return a collection of [[SoftLayer_Product_Item]] objects from a [[SoftLayer_Virtual_Guest_Block_Device_Template_Group]] object
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,21 @@ Return a collection of [[SoftLayer_Product_Item]] objects from a [[SoftLayer_Vir
 * authenticate
 * SoftLayer_Product_PackageInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception 'Software description is not available with the the service offering on this server.' when the product item cannot be determined. 
+
+
 

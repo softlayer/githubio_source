@@ -19,6 +19,8 @@ Retrieve transcode jobs
 ## Overview 
 Retrieve transcode jobs
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve transcode jobs
 * SoftLayer_Network_Media_Transcode_AccountInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Media_Transcode_AccountObjectMask
 * SoftLayer_Network_Media_Transcode_AccountObjectFilter
@@ -35,5 +38,8 @@ Retrieve transcode jobs
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Job'>SoftLayer_Network_Media_Transcode_Job[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Job'>SoftLayer_Network_Media_Transcode_Job[] </a>
+
+
+
 

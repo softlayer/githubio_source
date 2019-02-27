@@ -19,6 +19,8 @@ Retrieve all VLANs trunked to this gateway.
 ## Overview 
 Retrieve all VLANs trunked to this gateway.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve all VLANs trunked to this gateway.
 * SoftLayer_Network_GatewayInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_GatewayObjectMask
 * SoftLayer_Network_GatewayObjectFilter
@@ -35,5 +38,8 @@ Retrieve all VLANs trunked to this gateway.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Gateway_Vlan'>SoftLayer_Network_Gateway_Vlan[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Gateway_Vlan'>SoftLayer_Network_Gateway_Vlan[] </a>
+
+
+
 

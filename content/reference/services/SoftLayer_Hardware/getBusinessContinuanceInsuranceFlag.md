@@ -19,6 +19,8 @@ Retrieve status indicating whether or not a piece of hardware has business conti
 ## Overview 
 Retrieve status indicating whether or not a piece of hardware has business continuance insurance.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve status indicating whether or not a piece of hardware has business conti
 * SoftLayer_HardwareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_HardwareObjectMask
 * SoftLayer_HardwareObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

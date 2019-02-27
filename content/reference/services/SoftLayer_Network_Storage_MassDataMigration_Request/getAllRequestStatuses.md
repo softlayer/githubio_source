@@ -19,6 +19,8 @@ Retrieves a list of all the possible statuses
 ## Overview 
 Retrieves a list of all the possible statuses to which a request may be set.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Retrieves a list of all the possible statuses to which a request may be set.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_MassDataMigration_RequestObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request_Status'>SoftLayer_Network_Storage_MassDataMigration_Request_Status[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request_Status'>SoftLayer_Network_Storage_MassDataMigration_Request_Status[] </a>
+
+
+
 

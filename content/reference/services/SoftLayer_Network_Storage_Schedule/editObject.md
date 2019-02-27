@@ -19,6 +19,8 @@ Edit a nas volume schedule
 ## Overview 
 Edit a nas volume schedule 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit a nas volume schedule
 * authenticate
 * SoftLayer_Network_Storage_ScheduleInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

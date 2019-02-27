@@ -19,6 +19,8 @@ Create registrations for multiple subnets
 ## Overview 
 Create registrations with respective registrars to associate multiple assigned subnets with the provided contact details. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,15 +30,19 @@ Create registrations with respective registrars to associate multiple assigned s
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_RegistrationObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration'>SoftLayer_Network_Subnet_Registration[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration'>SoftLayer_Network_Subnet_Registration[] </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_Subnet_Registration::createObject](/reference/services/SoftLayer_Network_Subnet_Registration/createObject )
+
+
+
 

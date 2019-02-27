@@ -19,6 +19,8 @@ Retrieve the SoftLayer account that a service cancellation request belongs to.
 ## Overview 
 Retrieve the SoftLayer account that a service cancellation request belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the SoftLayer account that a service cancellation request belongs to.
 * SoftLayer_Billing_Item_Cancellation_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Item_Cancellation_RequestObjectMask
 * SoftLayer_Billing_Item_Cancellation_RequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

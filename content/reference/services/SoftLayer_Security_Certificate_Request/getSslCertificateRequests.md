@@ -19,6 +19,8 @@ Returns all the SSL certificate requests
 ## Overview 
 Returns all the SSL certificate requests. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Returns all the SSL certificate requests.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Security_Certificate_RequestObjectMask
 * SoftLayer_ObjectMask
 * SoftLayer_Security_Certificate_RequestObjectFilter
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Security_Certificate_Request'>SoftLayer_Security_Certificate_Request[] </a>
+* <a href='/reference/datatypes/SoftLayer_Security_Certificate_Request'>SoftLayer_Security_Certificate_Request[] </a>
+
+
+
 

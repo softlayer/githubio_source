@@ -19,6 +19,8 @@ Get all regional groups.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Get all regional groups.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_Group_RegionalObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group[] </a>
+* <a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group[] </a>
+
+
+
 

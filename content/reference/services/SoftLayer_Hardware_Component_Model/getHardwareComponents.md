@@ -19,6 +19,8 @@ Retrieve a hardware component model's physical components in inventory.
 ## Overview 
 Retrieve a hardware component model's physical components in inventory.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a hardware component model's physical components in inventory.
 * SoftLayer_Hardware_Component_ModelInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_Component_ModelObjectMask
 * SoftLayer_Hardware_Component_ModelObjectFilter
@@ -35,5 +38,8 @@ Retrieve a hardware component model's physical components in inventory.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Notification_Occurrence_Event record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Notification_Occurrence_Event record.
 * SoftLayer_Notification_Occurrence_EventInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Notification_Occurrence_EventObjectMask
 * SoftLayer_Notification_Occurrence_EventObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event </a>
+* <a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event </a>
+
+
+
 

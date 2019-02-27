@@ -19,6 +19,8 @@ Retrieves registrant verification status.
 ## Overview 
 When a domain is registered or transferred, or when the registrant contact information is changed, the registrant must reply to an email requesting them to confirm that the submitted contact information is correct. This method returns the current state of the verification request. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ When a domain is registered or transferred, or when the registrant contact infor
 * authenticate
 * SoftLayer_Dns_Domain_RegistrationInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Registrant_Verification_StatusDetail'>SoftLayer_Container_Dns_Domain_Registration_Registrant_Verification_StatusDetail </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Registrant_Verification_StatusDetail'>SoftLayer_Container_Dns_Domain_Registration_Registrant_Verification_StatusDetail </a>
+
+
+
 

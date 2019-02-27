@@ -19,6 +19,8 @@ Examined if a billing item can be canceled or not.
 ## Overview 
 This method examined if a billing item is eligible for cancellation. It checks if the billing item you provided is already in your existing cancellation request. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method examined if a billing item is eligible for cancellation. It checks i
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the projected public outbound bandwidth for this virtual server for the
 ## Overview 
 Retrieve the projected public outbound bandwidth for this virtual server for the current billing cycle.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the projected public outbound bandwidth for this virtual server for the
 * SoftLayer_Network_Bandwidth_Version1_AllotmentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Bandwidth_Version1_AllotmentObjectMask
 * SoftLayer_Network_Bandwidth_Version1_AllotmentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-float
+* float
+
+
+
 

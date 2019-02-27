@@ -19,6 +19,8 @@ Get all billing orders for your account
 ## Overview 
 This will get all billing orders for your account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ This will get all billing orders for your account.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_OrderObjectMask
 * SoftLayer_ObjectMask
@@ -34,5 +37,8 @@ This will get all billing orders for your account.
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order[] </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Edit multiple property objects.
 ## Overview 
 Edit multiple [[SoftLayer_Account_Regional_Registry_Detail_Property]] objects. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,13 +30,15 @@ Edit multiple [[SoftLayer_Account_Regional_Registry_Detail_Property]] objects.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Account_Regional_Registry_Detail_Property::editObject](/reference/services/SoftLayer_Account_Regional_Registry_Detail_Property/editObject )
+
+
+
 

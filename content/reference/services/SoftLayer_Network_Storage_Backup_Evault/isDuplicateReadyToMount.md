@@ -19,6 +19,8 @@ Displays the status of a clone mount.
 ## Overview 
 This method returns a boolean indicating whether the clone volume is ready to mount. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method returns a boolean indicating whether the clone volume is ready to mo
 * authenticate
 * SoftLayer_Network_Storage_Backup_EvaultInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Delete this group and destroy all members of it.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Delete this group and destroy all members of it.
 * authenticate
 * SoftLayer_Scale_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ A resource's globalIdentifier
 ## Overview 
 The getId getGlobalIdentifier retrieves the globalIdentifier for the resource
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -26,8 +28,10 @@ The getId getGlobalIdentifier retrieves the globalIdentifier for the resource
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

@@ -19,6 +19,8 @@ A resource's id
 ## Overview 
 The getId method retrieves the ID for the resource
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -26,8 +28,10 @@ The getId method retrieves the ID for the resource
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Network_Backbone_Location_DependentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Backbone_Location_DependentObjectMask
 * SoftLayer_Network_Backbone_Location_DependentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+
+
+
 

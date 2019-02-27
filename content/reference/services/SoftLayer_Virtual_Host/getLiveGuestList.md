@@ -19,6 +19,8 @@ Query a virtualization platform directly to retrieve a list of known guests.
 ## Overview 
 Query a virtualization platform directly to retrieve a list of known guests. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Query a virtualization platform directly to retrieve a list of known guests.
 * authenticate
 * SoftLayer_Virtual_HostInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Virtual_HostObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+
+
+
 

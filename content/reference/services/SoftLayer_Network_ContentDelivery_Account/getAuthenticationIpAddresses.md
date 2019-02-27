@@ -19,6 +19,8 @@ Retrieve the IP addresses that are used for the content authentication service.
 ## Overview 
 Retrieve the IP addresses that are used for the content authentication service.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the IP addresses that are used for the content authentication service.
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_ContentDelivery_AccountObjectMask
 * SoftLayer_Network_ContentDelivery_AccountObjectFilter
@@ -35,5 +38,8 @@ Retrieve the IP addresses that are used for the content authentication service.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Authentication_Address'>SoftLayer_Network_ContentDelivery_Authentication_Address[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Authentication_Address'>SoftLayer_Network_ContentDelivery_Authentication_Address[] </a>
+
+
+
 

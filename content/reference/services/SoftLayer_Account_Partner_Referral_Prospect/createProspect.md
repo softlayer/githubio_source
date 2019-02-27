@@ -19,6 +19,8 @@ Creates a new Referral Partner Prospect
 ## Overview 
 Create a new Referral Partner Prospect 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Create a new Referral Partner Prospect
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Partner_Referral_ProspectObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Partner_Referral_Prospect'>SoftLayer_Account_Partner_Referral_Prospect </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Partner_Referral_Prospect'>SoftLayer_Account_Partner_Referral_Prospect </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the total amount of an account's pending invoice, if one exists.
 ## Overview 
 Retrieve the total amount of an account's pending invoice, if one exists.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve the total amount of an account's pending invoice, if one exists.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

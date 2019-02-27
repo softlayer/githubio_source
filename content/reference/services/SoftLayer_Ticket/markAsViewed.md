@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Mark a ticket as viewed.  All currently posted updates will be marked as viewed. The lastViewedDate property will be updated to the current time. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Mark a ticket as viewed.  All currently posted updates will be marked as viewed.
 * authenticate
 * SoftLayer_TicketInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

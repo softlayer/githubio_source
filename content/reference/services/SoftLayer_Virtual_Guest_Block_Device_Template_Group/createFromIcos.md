@@ -19,6 +19,8 @@ This method generates a process instance to import a disk image from ICOS and cr
 ## Overview 
 Create a process to import a disk image from ICOS and create a standard
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Create a process to import a disk image from ICOS and create a standard
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group </a>
+
+
+
 

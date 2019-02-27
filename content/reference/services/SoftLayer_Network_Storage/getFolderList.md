@@ -19,6 +19,8 @@ Retrieve a list of level 1 folders for this account.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Retrieve a list of level 1 folders for this account.
 * authenticate
 * SoftLayer_Network_StorageInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Folder'>SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Folder[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Folder'>SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Folder[] </a>
+
+
+
 

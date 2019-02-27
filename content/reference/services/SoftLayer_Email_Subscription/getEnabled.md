@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Email_SubscriptionInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Email_SubscriptionObjectMask
 * SoftLayer_Email_SubscriptionObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

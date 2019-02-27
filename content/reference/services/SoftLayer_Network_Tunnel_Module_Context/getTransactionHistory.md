@@ -19,6 +19,8 @@ Retrieve the transaction history for this network tunnel.
 ## Overview 
 Retrieve the transaction history for this network tunnel.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the transaction history for this network tunnel.
 * SoftLayer_Network_Tunnel_Module_ContextInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Tunnel_Module_ContextObjectMask
 * SoftLayer_Network_Tunnel_Module_ContextObjectFilter
@@ -35,5 +38,8 @@ Retrieve the transaction history for this network tunnel.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a>
+* <a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a>
+
+
+
 

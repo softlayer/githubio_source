@@ -19,6 +19,8 @@ Allow access to a SoftLayer_Network_Storage volume from this device.
 ## Overview 
 This method is used to allow access to a SoftLayer_Network_Storage volume that supports host- or network-level access control. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method is used to allow access to a SoftLayer_Network_Storage volume that s
 * authenticate
 * SoftLayer_Network_SubnetInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

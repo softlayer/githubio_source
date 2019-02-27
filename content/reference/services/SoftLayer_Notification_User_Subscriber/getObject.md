@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Notification_User_Subscriber record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Notification_User_Subscriber record.
 * SoftLayer_Notification_User_SubscriberInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Notification_User_SubscriberObjectMask
 * SoftLayer_Notification_User_SubscriberObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber </a>
+* <a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber </a>
+
+
+
 

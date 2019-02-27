@@ -19,6 +19,8 @@ Retrieve a user object using a password request key
 ## Overview 
 Retrieve a user object using a password token. When a new user is created or when a user has requested a password change using initiatePortalPasswordChange, they will have received an email that contains a url with a token.  That token is used as the parameter for getUserIdForPasswordSet. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,16 +29,25 @@ Retrieve a user object using a password token. When a new user is created or whe
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_User_Customer::initiatePortalPasswordChange](/reference/services/SoftLayer_User_Customer/initiatePortalPasswordChange )
 *  [SoftLayer_User_Customer::getRequirementsForPasswordSet](/reference/services/SoftLayer_User_Customer/getRequirementsForPasswordSet )
 *  [SoftLayer_User_Customer::processPasswordSetRequest](/reference/services/SoftLayer_User_Customer/processPasswordSetRequest )
 *  [SoftLayer_User_Customer::checkPhoneFactorAuthenticationForPasswordSet](/reference/services/SoftLayer_User_Customer/checkPhoneFactorAuthenticationForPasswordSet )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> <<< EOT 
+
+
 

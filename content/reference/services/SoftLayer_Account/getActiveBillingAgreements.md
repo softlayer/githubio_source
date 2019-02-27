@@ -19,6 +19,8 @@ Retrieve all billing agreements for an account
 ## Overview 
 Retrieve all billing agreements for an account
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve all billing agreements for an account
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve all billing agreements for an account
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Agreement'>SoftLayer_Account_Agreement[] </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Agreement'>SoftLayer_Account_Agreement[] </a>
+
+
+
 

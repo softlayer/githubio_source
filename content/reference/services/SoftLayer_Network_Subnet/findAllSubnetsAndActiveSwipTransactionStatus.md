@@ -21,6 +21,8 @@ Retrieve a list of a SoftLayer customer's subnets along with their SWIP transact
 
 This is a special function built for SoftLayer's use on the SWIP section of the customer portal, but may also be useful for API users looking for the same data. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,6 +31,7 @@ This is a special function built for SoftLayer's use on the SWIP section of the 
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_SubnetObjectMask
 * SoftLayer_ObjectMask
@@ -36,5 +39,8 @@ This is a special function built for SoftLayer's use on the SWIP section of the 
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+
+
+
 

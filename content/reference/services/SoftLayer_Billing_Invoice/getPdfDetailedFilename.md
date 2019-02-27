@@ -19,6 +19,8 @@ Get the name of the detailed version of the PDF.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Get the name of the detailed version of the PDF.
 * authenticate
 * SoftLayer_Billing_InvoiceInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

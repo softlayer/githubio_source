@@ -19,6 +19,8 @@ Returns monitoring alarm detailed history
 ## Overview 
 The '''getAlarmHistory''' method retrieves a detailed history for the monitoring alarm. When calling this method, a start and end date for the history to be retrieved must be entered. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,8 +33,17 @@ The '''getAlarmHistory''' method retrieves a detailed history for the monitoring
 * authenticate
 * SoftLayer_Hardware_SecurityModuleInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Monitoring_Alarm_History'>SoftLayer_Container_Monitoring_Alarm_History[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Monitoring_Alarm_History'>SoftLayer_Container_Monitoring_Alarm_History[] </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> "Monitoring service is not enabled on [domain name]. 
+
+
 

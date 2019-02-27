@@ -19,6 +19,8 @@ return a collection of public usage objects that contain hourly incoming and out
 ## Overview 
 This method recurses through all servers on a Bandwidth Pool between the given start and end dates to retrieve private bandwidth data. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,10 +32,14 @@ This method recurses through all servers on a Bandwidth Pool between the given s
 * authenticate
 * SoftLayer_Network_Bandwidth_Version1_AllotmentInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Network_Bandwidth_Version1_AllotmentObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail[] </a>
+
+
+
 

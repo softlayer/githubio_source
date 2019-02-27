@@ -19,6 +19,8 @@ This method provides an executive summary PDF for managed hosting services.
 ## Overview 
 This method will return a PDF of the specified report, with the specified period within the start and end dates. The pdfType must be one of 'snapshot', or 'historical'. Possible historicalType parameters are 'monthly', 'yearly', and 'quarterly'. Start and end dates should be in ISO 8601 date format. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,8 +33,21 @@ This method will return a PDF of the specified report, with the specified period
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-binary data
+* binary data
+
+
+
+### Error Handling
+
+* Throws 
+
+> SoftLayer_Exception, 'Unable to load a valid order PDF.', if there is a problem validating the generated PDF. 
+
+* Throws 
+
+> SoftLayer_Exception_Public, 'Invalid Pdf Type provided.', if the type provided is not 'snapshot' or 'historical'. 
+
+
 

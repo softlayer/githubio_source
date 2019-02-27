@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ aliases:
 * authenticate
 * SoftLayer_User_Permission_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

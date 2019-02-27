@@ -19,6 +19,8 @@ Create multiple user hardware notification entries at once
 ## Overview 
 Passing in a collection of unsaved instances of Customer_Notification_Hardware objects into this function will create all objects and return the results to the user. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Passing in a collection of unsaved instances of Customer_Notification_Hardware o
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_Notification_HardwareObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain[] </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain[] </a>
+
+
+
 

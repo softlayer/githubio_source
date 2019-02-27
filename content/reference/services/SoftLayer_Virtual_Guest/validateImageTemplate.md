@@ -19,6 +19,8 @@ Validates an image template for OS Reload
 ## Overview 
 Validate an image template for OS Reload 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Validate an image template for OS Reload
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

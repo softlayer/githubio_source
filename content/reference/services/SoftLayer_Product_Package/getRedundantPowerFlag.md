@@ -19,6 +19,8 @@ Retrieve this flag determines if the package contains a redundant power supply p
 ## Overview 
 Retrieve this flag determines if the package contains a redundant power supply product.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve this flag determines if the package contains a redundant power supply p
 * SoftLayer_Product_PackageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_Product_PackageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

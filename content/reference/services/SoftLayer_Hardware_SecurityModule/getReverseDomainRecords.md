@@ -19,6 +19,8 @@ Retrieve the reverse domain records associated with a server.
 ## Overview 
 Retrieve the reverse domain records associated with this server. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Retrieve the reverse domain records associated with this server.
 * authenticate
 * SoftLayer_Hardware_SecurityModuleInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModuleObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain[] </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain[] </a>
+
+
+
 

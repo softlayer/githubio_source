@@ -19,6 +19,8 @@ Returns monitoring alarm detailed history
 ## Overview 
 Returns monitoring alarm detailed history 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,9 +31,20 @@ Returns monitoring alarm detailed history
 * authenticate
 * SoftLayer_HardwareInitParameters
 
+
 ### Optional Headers
 * resultLimit
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> "Monitoring service is not enabled on [domain name]." 
+
+
 

@@ -19,6 +19,8 @@ Retrieve the current status of the corresponding agent
 ## Overview 
 Retrieve the current status of the corresponding agent
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the current status of the corresponding agent
 * SoftLayer_Monitoring_AgentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Monitoring_AgentObjectMask
 * SoftLayer_Monitoring_AgentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Status'>SoftLayer_Monitoring_Agent_Status </a>
+* <a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Status'>SoftLayer_Monitoring_Agent_Status </a>
+
+
+
 

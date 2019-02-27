@@ -19,6 +19,8 @@ Retrieve the active tickets that are attached to the MDMS request.
 ## Overview 
 Retrieve the active tickets that are attached to the MDMS request.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the active tickets that are attached to the MDMS request.
 * SoftLayer_Network_Storage_MassDataMigration_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_MassDataMigration_RequestObjectMask
 * SoftLayer_Network_Storage_MassDataMigration_RequestObjectFilter
@@ -35,5 +38,8 @@ Retrieve the active tickets that are attached to the MDMS request.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>
+
+
+
 

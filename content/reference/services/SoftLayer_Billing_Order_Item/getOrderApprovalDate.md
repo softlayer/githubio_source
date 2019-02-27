@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Billing_Order_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Order_ItemObjectMask
 * SoftLayer_Billing_Order_ItemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-dateTime
+* dateTime
+
+
+
 

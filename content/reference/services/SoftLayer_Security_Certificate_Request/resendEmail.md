@@ -19,6 +19,8 @@ Have the Certificate Authority send various emails
 ## Overview 
 A Certificate Authority sends out various emails to your domain administrator or your technical contact. Use this service to have these emails re-sent. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ A Certificate Authority sends out various emails to your domain administrator or
 * authenticate
 * SoftLayer_Security_Certificate_RequestInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

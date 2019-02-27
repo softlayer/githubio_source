@@ -19,6 +19,8 @@ Retrieve the related Regional Internet Registry.
 ## Overview 
 Retrieve the related Regional Internet Registry.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the related Regional Internet Registry.
 * SoftLayer_Network_Subnet_RegistrationInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_RegistrationObjectMask
 * SoftLayer_Network_Subnet_RegistrationObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Regional_Internet_Registry'>SoftLayer_Network_Regional_Internet_Registry </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Regional_Internet_Registry'>SoftLayer_Network_Regional_Internet_Registry </a>
+
+
+
 

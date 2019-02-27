@@ -21,6 +21,8 @@ Create a load balancer for a scale group. Once created, the configuration will b
 
 If the given virtual server port exists for the given virtual IP address, it is reused here if all the other values match. Otherwise, the virtual server port will be created. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,10 +33,14 @@ If the given virtual server port exists for the given virtual IP address, it is 
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_LoadBalancerObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_LoadBalancer'>SoftLayer_Scale_LoadBalancer </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_LoadBalancer'>SoftLayer_Scale_LoadBalancer </a>
+
+
+
 

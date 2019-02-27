@@ -19,6 +19,8 @@ Get a collection of managed hardware pools.
 ## Overview 
 Return a collection of managed hardware pools.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ Return a collection of managed hardware pools.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Hardware_Pool_Details'>SoftLayer_Container_Hardware_Pool_Details[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Hardware_Pool_Details'>SoftLayer_Container_Hardware_Pool_Details[] </a>
+
+
+
 

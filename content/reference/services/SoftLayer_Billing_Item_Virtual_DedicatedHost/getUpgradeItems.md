@@ -19,6 +19,8 @@ Retrieve billing items whose product item has an upgrade path defined in our sys
 ## Overview 
 Retrieve billing items whose product item has an upgrade path defined in our system will return all the product items in the upgrade path.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve billing items whose product item has an upgrade path defined in our sys
 * SoftLayer_Billing_Item_Virtual_DedicatedHostInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Item_Virtual_DedicatedHostObjectMask
 * SoftLayer_Billing_Item_Virtual_DedicatedHostObjectFilter
@@ -35,5 +38,8 @@ Retrieve billing items whose product item has an upgrade path defined in our sys
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>
+
+
+
 

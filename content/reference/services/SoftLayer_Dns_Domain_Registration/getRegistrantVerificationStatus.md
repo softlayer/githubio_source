@@ -19,6 +19,8 @@ Retrieve the registrant verification status.
 ## Overview 
 Retrieve the registrant verification status.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the registrant verification status.
 * SoftLayer_Dns_Domain_RegistrationInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Dns_Domain_RegistrationObjectMask
 * SoftLayer_Dns_Domain_RegistrationObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status'>SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status'>SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status </a>
+
+
+
 

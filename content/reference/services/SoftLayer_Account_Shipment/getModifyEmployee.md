@@ -19,6 +19,8 @@ Retrieve the employee who last modified the shipment.
 ## Overview 
 Retrieve the employee who last modified the shipment.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the employee who last modified the shipment.
 * SoftLayer_Account_ShipmentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_ShipmentObjectMask
 * SoftLayer_Account_ShipmentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>
+* <a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>
+
+
+
 

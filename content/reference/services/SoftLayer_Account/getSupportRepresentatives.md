@@ -19,6 +19,8 @@ Retrieve the SoftLayer employees that an account is assigned to.
 ## Overview 
 Retrieve the SoftLayer employees that an account is assigned to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve the SoftLayer employees that an account is assigned to.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve the SoftLayer employees that an account is assigned to.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee[] </a>
+* <a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee[] </a>
+
+
+
 

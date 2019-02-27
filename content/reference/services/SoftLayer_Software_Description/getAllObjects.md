@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ aliases:
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_DescriptionObjectMask
 * SoftLayer_ObjectMask
 * SoftLayer_Software_DescriptionObjectFilter
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description[] </a>
+* <a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description[] </a>
+
+
+
 

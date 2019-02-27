@@ -19,6 +19,8 @@ Retrieve the endpoint used to notify customers their transient guest is terminat
 ## Overview 
 Retrieve the endpoint used to notify customers their transient guest is terminating.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the endpoint used to notify customers their transient guest is terminat
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Attribute'>SoftLayer_Virtual_Guest_Attribute </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Attribute'>SoftLayer_Virtual_Guest_Attribute </a>
+
+
+
 

@@ -19,6 +19,8 @@ List the data centers that currently support the use of security groups.
 ## Overview 
 List the data centers that currently support the use of security groups. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ List the data centers that currently support the use of security groups.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_SecurityGroupObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+
+
+
 

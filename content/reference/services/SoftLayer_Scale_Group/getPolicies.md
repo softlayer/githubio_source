@@ -19,6 +19,8 @@ Retrieve collection of policies for this group. This can be empty.
 ## Overview 
 Retrieve collection of policies for this group. This can be empty.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve collection of policies for this group. This can be empty.
 * SoftLayer_Scale_GroupInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_GroupObjectMask
 * SoftLayer_Scale_GroupObjectFilter
@@ -35,5 +38,8 @@ Retrieve collection of policies for this group. This can be empty.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Policy'>SoftLayer_Scale_Policy[] </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Policy'>SoftLayer_Scale_Policy[] </a>
+
+
+
 

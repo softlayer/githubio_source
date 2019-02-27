@@ -19,6 +19,8 @@ Retrieve a flag indicating that a network vlan is on a Hardware Firewall (Dedica
 ## Overview 
 Retrieve a flag indicating that a network vlan is on a Hardware Firewall (Dedicated).
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a flag indicating that a network vlan is on a Hardware Firewall (Dedica
 * SoftLayer_Network_VlanInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_VlanObjectMask
 * SoftLayer_Network_VlanObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-integer
+* integer
+
+
+
 

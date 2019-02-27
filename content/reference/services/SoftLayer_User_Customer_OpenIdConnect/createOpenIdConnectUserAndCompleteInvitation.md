@@ -19,6 +19,8 @@ Completes invitation processing when a new OpenIdConnect user must be created an
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,17 @@ Completes invitation processing when a new OpenIdConnect user must be created an
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "Error completing registration." if there was an error completing registration. 
+
+
 

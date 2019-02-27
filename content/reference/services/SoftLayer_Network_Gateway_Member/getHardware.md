@@ -19,6 +19,8 @@ Retrieve the device for this member.
 ## Overview 
 Retrieve the device for this member.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the device for this member.
 * SoftLayer_Network_Gateway_MemberInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Gateway_MemberObjectMask
 * SoftLayer_Network_Gateway_MemberObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+
+
+
 

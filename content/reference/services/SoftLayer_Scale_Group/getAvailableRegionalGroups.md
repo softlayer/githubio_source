@@ -19,6 +19,8 @@ Get the regional groups available for use by scaling groups. This also includes 
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Get the regional groups available for use by scaling groups. This also includes 
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_GroupObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group[] </a>
+* <a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group[] </a>
+
+
+
 

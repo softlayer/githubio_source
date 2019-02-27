@@ -19,6 +19,8 @@ Retrieve the License this Software Component uses.
 ## Overview 
 Retrieve the License this Software Component uses.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the License this Software Component uses.
 * SoftLayer_Software_Component_AntivirusSpywareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_Component_AntivirusSpywareObjectMask
 * SoftLayer_Software_Component_AntivirusSpywareObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_License'>SoftLayer_Software_License </a>
+* <a href='/reference/datatypes/SoftLayer_Software_License'>SoftLayer_Software_License </a>
+
+
+
 

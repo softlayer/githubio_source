@@ -26,6 +26,8 @@ The authentication options are as follows:
 * SHA1
 * SHA256
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -34,8 +36,10 @@ The authentication options are as follows:
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-array of strings
+* array of strings
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the customer user that initiated a report request.
 ## Overview 
 Retrieve the customer user that initiated a report request.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the customer user that initiated a report request.
 * SoftLayer_Account_Reports_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_Reports_RequestObjectMask
 * SoftLayer_Account_Reports_RequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve signifies pricing that is only available on a reserved capacity virtual
 ## Overview 
 Retrieve signifies pricing that is only available on a reserved capacity virtual server order.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve signifies pricing that is only available on a reserved capacity virtual
 * SoftLayer_Product_Item_PriceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Item_PriceObjectMask
 * SoftLayer_Product_Item_PriceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

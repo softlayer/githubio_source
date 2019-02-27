@@ -19,6 +19,8 @@ Retrieve the file number of files in a Virtual Server Storage account's root dir
 ## Overview 
 {{CloudLayerOnlyMethod}} Retrieve the file number of files in a Virtual Server Storage account's root directory. This does not include the files stored in the recycle bin. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,14 +30,23 @@ Retrieve the file number of files in a Virtual Server Storage account's root dir
 * authenticate
 * SoftLayer_Network_Storage_Backup_EvaultInitParameters
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_Storage::getAllFiles](/reference/services/SoftLayer_Network_Storage/getAllFiles )
 *  [SoftLayer_Network_Storage::getFilePendingDeleteCount](/reference/services/SoftLayer_Network_Storage/getFilePendingDeleteCount )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Not yet implemented for this Storage type." if the Storage type is not supported. 
+
+
 

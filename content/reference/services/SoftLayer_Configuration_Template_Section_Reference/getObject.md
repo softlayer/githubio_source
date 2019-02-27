@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Configuration_Template_Section_Reference record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Configuration_Template_Section_Reference record.
 * SoftLayer_Configuration_Template_Section_ReferenceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Configuration_Template_Section_ReferenceObjectMask
 * SoftLayer_Configuration_Template_Section_ReferenceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Reference'>SoftLayer_Configuration_Template_Section_Reference </a>
+* <a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Reference'>SoftLayer_Configuration_Template_Section_Reference </a>
+
+
+
 

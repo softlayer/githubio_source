@@ -19,6 +19,8 @@ Delete this group member. This is not the recommended way to delete members. Ins
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Delete this group member. This is not the recommended way to delete members. Ins
 * authenticate
 * SoftLayer_Scale_MemberInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

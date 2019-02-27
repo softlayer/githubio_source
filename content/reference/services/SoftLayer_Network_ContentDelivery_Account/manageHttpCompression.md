@@ -27,6 +27,8 @@ HTTP Compression is used to reduce the bandwidth used to deliver an object. You 
 
 Note that files larger than 1MB will never be served with compression regardless of whether their content-type is enabled for compression. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -38,8 +40,10 @@ Note that files larger than 1MB will never be served with compression regardless
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Return all account licenses
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Return all account licenses
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_AccountLicenseObjectMask
 * SoftLayer_ObjectMask
@@ -34,5 +37,8 @@ Return all account licenses
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_AccountLicense'>SoftLayer_Software_AccountLicense[] </a>
+* <a href='/reference/datatypes/SoftLayer_Software_AccountLicense'>SoftLayer_Software_AccountLicense[] </a>
+
+
+
 

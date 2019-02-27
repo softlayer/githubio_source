@@ -19,6 +19,8 @@ This method will change the password of a credential created using the 'addNewCr
 ## Overview 
 This method will change the password of a credential created using the 'addNewCredential' method. If the credential exists on multiple storage volumes it will change for those volumes as well. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,25 @@ This method will change the password of a credential created using the 'addNewCr
 * authenticate
 * SoftLayer_Network_Storage_IscsiInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Network_Storage_EditCredential 
+
+> "Problem editing a credential assigned to the volume. The network storage type is not supported for credential editing in this manner." 
+
+* SoftLayer_Exception_Network_Storage_Iscsi_EqualLogic_Version3_EditCredential_NotAssigned 
+
+> "Username is not currently assigned to volume , or was not created using the 'addNewCredential' method" 
+
+* SoftLayer_Exception_Network_Storage_Iscsi_EqualLogic_Version3_EditCredential_NotFound 
+
+> "Sorry, we have no record of username our database, please try again." 
+
+
 

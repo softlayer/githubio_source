@@ -19,6 +19,8 @@ Retrieve a string representing the name of parent level product group of an invo
 ## Overview 
 Retrieve a string representing the name of parent level product group of an invoice item.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a string representing the name of parent level product group of an invo
 * SoftLayer_Billing_Invoice_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Invoice_ItemObjectMask
 * SoftLayer_Billing_Invoice_ItemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

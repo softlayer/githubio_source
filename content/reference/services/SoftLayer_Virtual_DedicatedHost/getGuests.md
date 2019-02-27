@@ -19,6 +19,8 @@ Retrieve the guests associated with the dedicated host.
 ## Overview 
 Retrieve the guests associated with the dedicated host.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the guests associated with the dedicated host.
 * SoftLayer_Virtual_DedicatedHostInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_DedicatedHostObjectMask
 * SoftLayer_Virtual_DedicatedHostObjectFilter
@@ -35,5 +38,8 @@ Retrieve the guests associated with the dedicated host.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+
+
+
 

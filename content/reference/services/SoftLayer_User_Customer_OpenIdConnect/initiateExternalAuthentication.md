@@ -21,6 +21,8 @@ The service initiates an external authentication with the given external authent
 
 This service returns a unique authentication request token. You can use [[SoftLayer_User_Customer::checkExternalAuthenticationStatus|checkExternalAuthenticationStatus]] service to check if the authentication request is complete or not. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,21 @@ This service returns a unique authentication request token. You can use [[SoftLa
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the error "Invalid external authentication container is provided." when you have provide an invalid authentication container. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the error "Invalid login credentials provided." when you have provide incorrect authentication information. 
+
+
 

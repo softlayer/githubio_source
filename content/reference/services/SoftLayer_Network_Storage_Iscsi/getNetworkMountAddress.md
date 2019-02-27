@@ -19,6 +19,8 @@ Displays the mount path of a storage volume.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Displays the mount path of a storage volume.
 * authenticate
 * SoftLayer_Network_Storage_IscsiInitParameters
 
-### Optional Headers
 
 ### Return Values
-string
+* string
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve an image of the disk usage data on a [[SoftLayer_Virtual_Guest|Cloud Co
 ## Overview 
 Returns a disk usage image based on disk usage specified by the input parameters. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Returns a disk usage image based on disk usage specified by the input parameters
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Account_Graph_Outputs'>SoftLayer_Container_Account_Graph_Outputs </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Account_Graph_Outputs'>SoftLayer_Container_Account_Graph_Outputs </a>
+
+
+
 

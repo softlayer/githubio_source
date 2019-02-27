@@ -19,6 +19,8 @@ Creates and returns a new SoftLayer_Network_Storage_Allowed_Host.
 ## Overview 
 This method is used to create a new SoftLayer_Network_Storage_Allowed_Host using an existing SoftLayer_Hardware object's id. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ This method is used to create a new SoftLayer_Network_Storage_Allowed_Host using
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Allowed_HostObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Allowed_Host'>SoftLayer_Network_Storage_Allowed_Host </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Allowed_Host'>SoftLayer_Network_Storage_Allowed_Host </a>
+
+
+
 

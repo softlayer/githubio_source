@@ -19,6 +19,8 @@ Retrieve a visual representation of the amount of network traffic that occurred 
 ## Overview 
 Use this method when needing a bandwidth image for a single guest.  It will gather the correct input parameters for the generic graphing utility automatically based on the snapshot specified. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,8 +34,10 @@ Use this method when needing a bandwidth image for a single guest.  It will gath
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Bandwidth_GraphOutputs'>SoftLayer_Container_Bandwidth_GraphOutputs </a>
+
+
+
 

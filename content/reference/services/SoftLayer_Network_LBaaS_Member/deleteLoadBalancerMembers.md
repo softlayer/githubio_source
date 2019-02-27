@@ -19,6 +19,8 @@ Delete load balancer members
 ## Overview 
 Delete given members from load balancer and return load balancer object with listeners, pools and members populated 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Delete given members from load balancer and return load balancer object with lis
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_LBaaS_MemberObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancer'>SoftLayer_Network_LBaaS_LoadBalancer </a>
+* <a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancer'>SoftLayer_Network_LBaaS_LoadBalancer </a>
+
+
+
 

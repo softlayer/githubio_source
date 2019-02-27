@@ -19,6 +19,8 @@ Retrieve an array containing a single string of custom user data for a hardware 
 ## Overview 
 Retrieve an array containing a single string of custom user data for a hardware order. Max size is 16 kb.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve an array containing a single string of custom user data for a hardware 
 * SoftLayer_Hardware_RouterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_RouterObjectMask
 * SoftLayer_Hardware_RouterObjectFilter
@@ -35,5 +38,8 @@ Retrieve an array containing a single string of custom user data for a hardware 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware_Attribute'>SoftLayer_Hardware_Attribute[] </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware_Attribute'>SoftLayer_Hardware_Attribute[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Scale_Asset record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Scale_Asset record.
 * SoftLayer_Scale_AssetInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_AssetObjectMask
 * SoftLayer_Scale_AssetObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Asset'>SoftLayer_Scale_Asset </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Asset'>SoftLayer_Scale_Asset </a>
+
+
+
 

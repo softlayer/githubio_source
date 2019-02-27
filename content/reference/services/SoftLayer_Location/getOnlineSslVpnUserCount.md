@@ -19,6 +19,8 @@ Retrieve the total number of users online using SoftLayer's SSL VPN service for 
 ## Overview 
 Retrieve the total number of users online using SoftLayer's SSL VPN service for a location.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the total number of users online using SoftLayer's SSL VPN service for 
 * SoftLayer_LocationInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_LocationObjectMask
 * SoftLayer_LocationObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-integer
+* integer
+
+
+
 

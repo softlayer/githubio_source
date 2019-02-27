@@ -19,6 +19,8 @@ Retrieve the starting IP address of the Network. Specified in conjunction with t
 ## Overview 
 Retrieve the starting IP address of the Network. Specified in conjunction with the ``cidr`` property to specify the bounding IP address space for the Network. Required for creation. See [[SoftLayer_Network/createObject]] documentation for creation details.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the starting IP address of the Network. Specified in conjunction with t
 * SoftLayer_NetworkInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_NetworkObjectMask
 * SoftLayer_NetworkObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

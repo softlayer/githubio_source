@@ -55,6 +55,10 @@ SoftLayer_Virtual_ReservedCapacityGroup reserves capacity for a group of guests 
             <div class='views-field-body'>Retrieve the guest instances that are members of this reserved capacity group.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_ReservedCapacityGroup/getInstancesCount'> getInstancesCount</a> </span>
+            <div class='views-field-body'>Retrieve the number of instances that are members of this reserved capacity group.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_ReservedCapacityGroup/getObject'> getObject</a> </span>
             <div class='views-field-body'>Retrieve a SoftLayer_Virtual_ReservedCapacityGroup record.</div>
         </div>

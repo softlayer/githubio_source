@@ -19,6 +19,8 @@ Create a one-time policy trigger.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,14 @@ Create a one-time policy trigger.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Policy_Action_ScaleObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Policy_Action_Scale'>SoftLayer_Scale_Policy_Action_Scale </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Policy_Action_Scale'>SoftLayer_Scale_Policy_Action_Scale </a>
+
+
+
 

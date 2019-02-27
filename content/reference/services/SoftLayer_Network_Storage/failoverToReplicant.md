@@ -19,6 +19,8 @@ Failover to a volume replicant.
 ## Overview 
 Failover to a volume replicant.  During the time which the replicant is in use the local nas volume will not be available. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,14 +31,16 @@ Failover to a volume replicant.  During the time which the replicant is in use t
 * authenticate
 * SoftLayer_Network_StorageInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 ### External Links
 
 
 * [In depth details on storage replication at Wikipedia](http://en.wikipedia.org/wiki/Storage_replication#Disk_storage_replication)
+
+
+
 
 

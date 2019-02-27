@@ -19,6 +19,8 @@ Attach a VLAN to a gateway
 ## Overview 
 Detach several VLANs. This will not detach them right away, but rather start an asynchronous process to detach. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Detach several VLANs. This will not detach them right away, but rather start an 
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

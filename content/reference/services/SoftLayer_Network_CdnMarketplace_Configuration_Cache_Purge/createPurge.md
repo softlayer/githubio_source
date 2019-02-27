@@ -19,6 +19,8 @@ This method creates a purge record in the purge table, and also initiates the cr
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,17 @@ This method creates a purge record in the purge table, and also initiates the cr
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Cache_Purge'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Cache_Purge[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Cache_Purge'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Cache_Purge[] </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_InvalidValue 
+
+> <<< EOT 
+
+
 

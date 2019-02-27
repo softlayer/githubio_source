@@ -19,6 +19,8 @@ Retrieve monitoring agent status name.
 ## Overview 
 Retrieve monitoring agent status name.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve monitoring agent status name.
 * SoftLayer_Monitoring_AgentInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Monitoring_AgentObjectMask
 * SoftLayer_Monitoring_AgentObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

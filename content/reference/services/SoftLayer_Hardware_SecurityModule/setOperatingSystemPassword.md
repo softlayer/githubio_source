@@ -19,6 +19,8 @@ Changes the password stored in our system for a servers' Operating System
 ## Overview 
 Changes the password that we have stored in our database for a servers' Operating System
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,17 @@ Changes the password that we have stored in our database for a servers' Operatin
 * authenticate
 * SoftLayer_Hardware_SecurityModuleInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception 'No operating system could be found for this server.' When there is no operating system installed on a server. 
+
+
 

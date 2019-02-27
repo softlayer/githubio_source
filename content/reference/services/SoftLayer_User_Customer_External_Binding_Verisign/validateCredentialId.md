@@ -19,6 +19,8 @@ Validate a VeriSign credential id.
 ## Overview 
 Validate the user id and VeriSign credential id used to create an external authentication binding. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Validate the user id and VeriSign credential id used to create an external authe
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

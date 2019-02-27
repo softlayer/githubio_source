@@ -19,6 +19,8 @@ Removes the selected user from receiving the alarms for this monitoring agent.
 ## Overview 
 Use of this method will allow removing active subscribers from the monitoring agent. The agent subscribers can be managed within the portal from the "Alarm Subscribers" tab of the monitoring agent configuration. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,16 +31,25 @@ Use of this method will allow removing active subscribers from the monitoring ag
 * authenticate
 * SoftLayer_Monitoring_AgentInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Monitoring_Agent::getEligibleAlarmSubscibers](/reference/services/SoftLayer_Monitoring_Agent/getEligibleAlarmSubscibers )
 *  [SoftLayer_Monitoring_Agent::setActiveAlarmSubscriber](/reference/services/SoftLayer_Monitoring_Agent/setActiveAlarmSubscriber )
 *  [SoftLayer_Monitoring_Agent::removeAllAlarmSubscribers](/reference/services/SoftLayer_Monitoring_Agent/removeAllAlarmSubscribers )
 *  [SoftLayer_Monitoring_Agent::getActiveAlarmSubscribers](/reference/services/SoftLayer_Monitoring_Agent/getActiveAlarmSubscribers )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws 'You do not have permission to set this user as an alarm messages recipient.' if no SoftLayer_User_Customer is found, using the provided $userRecordId, associated with the active user's account. 
+
+
 

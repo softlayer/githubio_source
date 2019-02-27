@@ -19,6 +19,8 @@ Get OpenId User Registration details from the provided email code
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Get OpenId User Registration details from the provided email code
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Authentication_OpenIdConnect_RegistrationInformation'>SoftLayer_Account_Authentication_OpenIdConnect_RegistrationInformation </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Authentication_OpenIdConnect_RegistrationInformation'>SoftLayer_Account_Authentication_OpenIdConnect_RegistrationInformation </a>
+
+
+
 

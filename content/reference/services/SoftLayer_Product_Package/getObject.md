@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Product_Package record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Product_Package record.
 * SoftLayer_Product_PackageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_PackageObjectMask
 * SoftLayer_Product_PackageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>
+
+
+
 

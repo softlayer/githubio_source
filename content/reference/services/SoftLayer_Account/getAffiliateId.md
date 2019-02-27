@@ -19,6 +19,8 @@ Retrieve an affiliate identifier associated with the customer account.
 ## Overview 
 Retrieve an affiliate identifier associated with the customer account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve an affiliate identifier associated with the customer account.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

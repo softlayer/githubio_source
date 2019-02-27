@@ -19,6 +19,8 @@ Retrieve information regarding the monitoring agents associated with a piece of 
 ## Overview 
 Retrieve information regarding the monitoring agents associated with a piece of hardware.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve information regarding the monitoring agents associated with a piece of 
 * SoftLayer_Hardware_ServerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_ServerObjectMask
 * SoftLayer_Hardware_ServerObjectFilter
@@ -35,5 +38,8 @@ Retrieve information regarding the monitoring agents associated with a piece of 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Monitoring_Agent'>SoftLayer_Monitoring_Agent[] </a>
+* <a href='/reference/datatypes/SoftLayer_Monitoring_Agent'>SoftLayer_Monitoring_Agent[] </a>
+
+
+
 

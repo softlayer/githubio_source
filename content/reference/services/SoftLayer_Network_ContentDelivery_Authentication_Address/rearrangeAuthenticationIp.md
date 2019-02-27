@@ -21,6 +21,8 @@ The authentication IP address match occurs from the higher priority IP to the lo
 
 You can retrieve authentication IP address using [[SoftLayer_Network_ContentDelivery_Account::getAuthenticationIpAddresses|getAuthenticationIpAddresses]] method. Then, rearrange the authentication IP addresses and pass them to this method. When creating template objects as parameter, make sure to include the id of each authentication IP addresses. You must provide every authentication IP address.  New priorities will be assigned to each authentication IP addresses in the order of they are passed. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,8 +33,10 @@ You can retrieve authentication IP address using [[SoftLayer_Network_ContentDeli
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

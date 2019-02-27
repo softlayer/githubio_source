@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Account_Agreement record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Account_Agreement record.
 * SoftLayer_Account_AgreementInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_AgreementObjectMask
 * SoftLayer_Account_AgreementObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Agreement'>SoftLayer_Account_Agreement </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Agreement'>SoftLayer_Account_Agreement </a>
+
+
+
 

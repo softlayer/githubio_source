@@ -21,6 +21,8 @@ Remove multiple SRV records from a domain. This follows the same logic as ''dele
 
 ''deleteObjects'' returns Boolean ''true'' on successful deletion or ''false'' if it was unable to remove a resource record. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,15 +32,17 @@ Remove multiple SRV records from a domain. This follows the same logic as ''dele
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Dns_Domain_ResourceRecord::deleteObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObject )
 *  [SoftLayer_Dns_Domain_ResourceRecord::deleteObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObjects )
 *  [SoftLayer_Dns_Domain_ResourceRecord_SrvType::deleteObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/deleteObject )
+
+
+
 

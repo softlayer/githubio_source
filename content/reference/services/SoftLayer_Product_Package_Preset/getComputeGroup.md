@@ -19,6 +19,8 @@ Retrieve the compute family this configuration belongs to.
 ## Overview 
 Retrieve the compute family this configuration belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the compute family this configuration belongs to.
 * SoftLayer_Product_Package_PresetInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Package_PresetObjectMask
 * SoftLayer_Product_Package_PresetObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item_Server_Group'>SoftLayer_Product_Item_Server_Group </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item_Server_Group'>SoftLayer_Product_Item_Server_Group </a>
+
+
+
 

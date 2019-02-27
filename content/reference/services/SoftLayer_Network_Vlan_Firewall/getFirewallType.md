@@ -19,6 +19,8 @@ Retrieve the firewall device type.
 ## Overview 
 Retrieve the firewall device type.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the firewall device type.
 * SoftLayer_Network_Vlan_FirewallInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Vlan_FirewallObjectMask
 * SoftLayer_Network_Vlan_FirewallObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

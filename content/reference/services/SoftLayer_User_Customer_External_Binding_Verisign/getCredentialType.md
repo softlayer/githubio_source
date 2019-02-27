@@ -19,6 +19,8 @@ Retrieve the type of VeriSign credential. This can be either 'Hardware' or 'Soft
 ## Overview 
 Retrieve the type of VeriSign credential. This can be either 'Hardware' or 'Software'.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the type of VeriSign credential. This can be either 'Hardware' or 'Soft
 * SoftLayer_User_Customer_External_Binding_VerisignInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_External_Binding_VerisignObjectMask
 * SoftLayer_User_Customer_External_Binding_VerisignObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

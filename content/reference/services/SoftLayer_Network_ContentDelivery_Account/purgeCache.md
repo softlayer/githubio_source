@@ -29,6 +29,8 @@ If you created a CNAME that points to CDN host, use your CNAME URL instead.
 
 It takes approximately 3-5 minutes for the system to delete the requested object on every CDN server from submission . 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -39,8 +41,10 @@ It takes approximately 3-5 minutes for the system to delete the requested object
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_ContentDelivery_PurgeService_Response'>SoftLayer_Container_Network_ContentDelivery_PurgeService_Response[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_ContentDelivery_PurgeService_Response'>SoftLayer_Container_Network_ContentDelivery_PurgeService_Response[] </a>
+
+
+
 

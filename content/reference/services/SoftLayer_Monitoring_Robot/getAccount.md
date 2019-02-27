@@ -19,6 +19,8 @@ Retrieve the account associated with the corresponding robot.
 ## Overview 
 Retrieve the account associated with the corresponding robot.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the account associated with the corresponding robot.
 * SoftLayer_Monitoring_RobotInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Monitoring_RobotObjectMask
 * SoftLayer_Monitoring_RobotObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

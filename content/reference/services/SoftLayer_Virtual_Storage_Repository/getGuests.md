@@ -19,6 +19,8 @@ Retrieve the computing instances that have disk images in a storage repository.
 ## Overview 
 Retrieve the computing instances that have disk images in a storage repository.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the computing instances that have disk images in a storage repository.
 * SoftLayer_Virtual_Storage_RepositoryInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Storage_RepositoryObjectMask
 * SoftLayer_Virtual_Storage_RepositoryObjectFilter
@@ -35,5 +38,8 @@ Retrieve the computing instances that have disk images in a storage repository.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Applies manager denial to a pending request
 ## Overview 
 Denies a pending request and prevents additional requests from the same applicant for as long as the manager remains the same. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Denies a pending request and prevents additional requests from the same applican
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

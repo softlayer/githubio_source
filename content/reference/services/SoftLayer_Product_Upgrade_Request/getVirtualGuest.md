@@ -19,6 +19,8 @@ Retrieve a virtual server object associated with the upgrade request if any.
 ## Overview 
 Retrieve a virtual server object associated with the upgrade request if any.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a virtual server object associated with the upgrade request if any.
 * SoftLayer_Product_Upgrade_RequestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Upgrade_RequestObjectMask
 * SoftLayer_Product_Upgrade_RequestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
+
+
+
 

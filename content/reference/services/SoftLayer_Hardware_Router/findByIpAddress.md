@@ -19,6 +19,8 @@ Find hardware by its primary public or private IP (ipv4) address.
 ## Overview 
 The '''findByIpAddress''' method finds hardware using its primary public or private IP address. IP addresses that have a secondary subnet tied to the hardware will not return the hardware - alternate means of locating the hardware must be used (see '''Associated Methods'''). If no hardware is found, no errors are generated and no data is returned. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,21 @@ The '''findByIpAddress''' method finds hardware using its primary public or priv
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_RouterObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware_Router'>SoftLayer_Hardware_Router </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware_Router'>SoftLayer_Hardware_Router </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> "Invalid IP address of [ip address] defined." 
+
+
 

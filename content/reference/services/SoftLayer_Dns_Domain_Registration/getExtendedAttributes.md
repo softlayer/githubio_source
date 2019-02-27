@@ -19,6 +19,8 @@ Retrieves extended attributes.
 ## Overview 
 The getExtendedAttributes method determines if a country code top level domain requires extended attributes. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ The getExtendedAttributes method determines if a country code top level domain r
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute'>SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute'>SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute[] </a>
+
+
+
 

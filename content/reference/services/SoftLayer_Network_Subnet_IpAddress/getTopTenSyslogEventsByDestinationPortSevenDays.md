@@ -19,6 +19,8 @@ Retrieve top Ten network datacenter syslog events, grouped by destination port, 
 ## Overview 
 Retrieve top Ten network datacenter syslog events, grouped by destination port, for the last 7 days
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve top Ten network datacenter syslog events, grouped by destination port, 
 * SoftLayer_Network_Subnet_IpAddressInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_IpAddressObjectMask
 * SoftLayer_Network_Subnet_IpAddressObjectFilter
@@ -35,5 +38,8 @@ Retrieve top Ten network datacenter syslog events, grouped by destination port, 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>
+
+
+
 

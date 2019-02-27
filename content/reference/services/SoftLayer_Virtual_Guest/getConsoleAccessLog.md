@@ -19,6 +19,8 @@ get console access logs
 ## Overview 
 Gets the console access logs for a computing instance 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Gets the console access logs for a computing instance
 * authenticate
 * SoftLayer_Virtual_GuestInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_ObjectMask
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>
+
+
+
 

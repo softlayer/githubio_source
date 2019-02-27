@@ -19,6 +19,8 @@ Create a new mobile device association for a user.
 ## Overview 
 Create a new mobile device association for a user. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Create a new mobile device association for a user.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_MobileDeviceObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice'>SoftLayer_User_Customer_MobileDevice </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice'>SoftLayer_User_Customer_MobileDevice </a>
+
+
+
 

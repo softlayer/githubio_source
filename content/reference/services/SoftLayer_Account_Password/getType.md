@@ -19,6 +19,8 @@ Retrieve the service that an account/password combination is tied to.
 ## Overview 
 Retrieve the service that an account/password combination is tied to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the service that an account/password combination is tied to.
 * SoftLayer_Account_PasswordInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Account_PasswordObjectMask
 * SoftLayer_Account_PasswordObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account_Password_Type'>SoftLayer_Account_Password_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Account_Password_Type'>SoftLayer_Account_Password_Type </a>
+
+
+
 

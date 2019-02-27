@@ -21,6 +21,8 @@ This method returns all SoftLayer_User_Customer_Notification_Virtual_Guest objec
 
 This behavior can also be accomplished by simply tapping monitoringUserNotification on the Virtual_Guest object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,10 +32,14 @@ This behavior can also be accomplished by simply tapping monitoringUserNotificat
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_Notification_Virtual_GuestObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Virtual_Guest'>SoftLayer_User_Customer_Notification_Virtual_Guest[] </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Virtual_Guest'>SoftLayer_User_Customer_Notification_Virtual_Guest[] </a>
+
+
+
 

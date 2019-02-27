@@ -27,6 +27,8 @@ Results are only returned for hardware belonging to the account of the user maki
 
 This method drives the backup page of the SoftLayer customer portal. It serves a very specific function, but we have exposed it as it may prove useful for API developers too. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -39,17 +41,21 @@ This method drives the backup page of the SoftLayer customer portal. It serves a
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Backup_EvaultObjectMask
 * SoftLayer_ObjectMask
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
 
 ### External Links
 
 
 * [Backup management on the SoftLayer customer portal](http://maange.softlayer.com/backup/index.html)
+
+
+
 
 

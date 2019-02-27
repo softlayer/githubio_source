@@ -19,6 +19,8 @@ Retrieve when true this preset is only allowed to upgrade/downgrade to other pre
 ## Overview 
 Retrieve when true this preset is only allowed to upgrade/downgrade to other presets in the same compute family.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve when true this preset is only allowed to upgrade/downgrade to other pre
 * SoftLayer_Product_Package_PresetInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Package_PresetObjectMask
 * SoftLayer_Product_Package_PresetObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

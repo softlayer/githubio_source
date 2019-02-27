@@ -19,6 +19,8 @@ Retrieve this amount represents the order's initial charge including set up fee 
 ## Overview 
 Retrieve this amount represents the order's initial charge including set up fee and taxes.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve this amount represents the order's initial charge including set up fee 
 * SoftLayer_Billing_OrderInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_OrderObjectMask
 * SoftLayer_Billing_OrderObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

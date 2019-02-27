@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 This method allows you to remove cloud init attribute for a given image template. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method allows you to remove cloud init attribute for a given image template
 * authenticate
 * SoftLayer_Virtual_Guest_Block_Device_Template_GroupInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

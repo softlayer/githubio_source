@@ -19,6 +19,8 @@ Retrieve the current status of the secondary DNS zone.
 ## Overview 
 Retrieve the current status of the secondary DNS zone.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the current status of the secondary DNS zone.
 * SoftLayer_Dns_SecondaryInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Dns_SecondaryObjectMask
 * SoftLayer_Dns_SecondaryObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Status'>SoftLayer_Dns_Status </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Status'>SoftLayer_Dns_Status </a>
+
+
+
 

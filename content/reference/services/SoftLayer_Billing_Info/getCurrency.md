@@ -19,6 +19,8 @@ Retrieve currency to be used by this customer account.
 ## Overview 
 Retrieve currency to be used by this customer account.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve currency to be used by this customer account.
 * SoftLayer_Billing_InfoInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_InfoObjectMask
 * SoftLayer_Billing_InfoObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a>
+
+
+
 

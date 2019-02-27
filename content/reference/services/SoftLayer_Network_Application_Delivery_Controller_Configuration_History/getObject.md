@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_Application_Delivery_Controller_Configuration_Histo
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_Application_Delivery_Controller_Configuration_Histo
 * SoftLayer_Network_Application_Delivery_Controller_Configuration_HistoryInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Application_Delivery_Controller_Configuration_HistoryObjectMask
 * SoftLayer_Network_Application_Delivery_Controller_Configuration_HistoryObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_Configuration_History'>SoftLayer_Network_Application_Delivery_Controller_Configuration_History </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_Configuration_History'>SoftLayer_Network_Application_Delivery_Controller_Configuration_History </a>
+
+
+
 

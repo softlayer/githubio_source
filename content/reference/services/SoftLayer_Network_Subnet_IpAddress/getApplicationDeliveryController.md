@@ -19,6 +19,8 @@ Retrieve the application delivery controller using this address.
 ## Overview 
 Retrieve the application delivery controller using this address.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the application delivery controller using this address.
 * SoftLayer_Network_Subnet_IpAddressInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_IpAddressObjectMask
 * SoftLayer_Network_Subnet_IpAddressObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller </a>
+
+
+
 

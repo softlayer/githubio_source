@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Layout_Container record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Layout_Container record.
 * SoftLayer_Layout_ContainerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Layout_ContainerObjectMask
 * SoftLayer_Layout_ContainerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Layout_Container'>SoftLayer_Layout_Container </a>
+* <a href='/reference/datatypes/SoftLayer_Layout_Container'>SoftLayer_Layout_Container </a>
+
+
+
 

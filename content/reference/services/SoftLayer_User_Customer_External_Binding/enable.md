@@ -21,6 +21,8 @@ Enabling an external binding will activate the binding on your account and requi
 
 Please note that API access will be disabled for users that have an active external binding. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ Please note that API access will be disabled for users that have an active exter
 * authenticate
 * SoftLayer_User_Customer_External_BindingInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

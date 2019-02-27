@@ -19,6 +19,8 @@ Creates a new transcode account
 ## Overview 
 With this method, you can create a transcode account.  Individual SoftLayer account can have a single Transcode account. You have to pass your SoftLayer account id as a parameter. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,21 @@ With this method, you can create a transcode account.  Individual SoftLayer acco
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception if a SoftLayer account is inactive or disabled. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception if a user already has a Transcode account. 
+
+
 

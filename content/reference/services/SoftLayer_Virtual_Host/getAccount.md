@@ -19,6 +19,8 @@ Retrieve the account which a virtual host belongs to.
 ## Overview 
 Retrieve the account which a virtual host belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the account which a virtual host belongs to.
 * SoftLayer_Virtual_HostInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_HostObjectMask
 * SoftLayer_Virtual_HostObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

@@ -21,6 +21,8 @@ Edit a SoftLayer ticket. The edit method is two-fold. You may either edit a tick
 
 If you need to only add an update to a ticket then please use the [[SoftLayer_Ticket::addUpdate|addUpdate]] method in this service. Likewise if you need to only attach a file to a ticket then use the [[SoftLayer_Ticket::addAttachedFile|addAttachedFile]] method. The edit method exists as a convenience if you need to perform all these tasks at once. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -33,16 +35,35 @@ If you need to only add an update to a ticket then please use the [[SoftLayer_Ti
 * authenticate
 * SoftLayer_TicketInitParameters
 
+
 ### Optional Headers
 * SoftLayer_TicketObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Ticket::addUpdate](/reference/services/SoftLayer_Ticket/addUpdate )
 *  [SoftLayer_Ticket::addAttachedFile](/reference/services/SoftLayer_Ticket/addAttachedFile )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "Please provide a subject when creating a standard support ticket." If the $templateObject parameter does not have a subjectId set. See [[SoftLayer_Ticket_Subject]] for more information. 
+
+* SoftLayer_Exception 
+
+> Throw the exception "Please provide ticket update contents." if no update contents are provided to the method. 
+
+* SoftLayer_Exception 
+
+> Throw the exception "You may not attach more than two files when updating a ticket." If the ''attachedFiles'' parameter contains more than two files. 
+
+
 

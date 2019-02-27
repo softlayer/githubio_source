@@ -19,6 +19,8 @@ Retrieve boolean flag indicating whether this virtualization platform gets bille
 ## Overview 
 Retrieve boolean flag indicating whether this virtualization platform gets billed per guest rather than at a fixed rate.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve boolean flag indicating whether this virtualization platform gets bille
 * SoftLayer_Virtual_HostInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_HostObjectMask
 * SoftLayer_Virtual_HostObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

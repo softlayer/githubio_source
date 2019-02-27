@@ -19,6 +19,8 @@ Edit a shipment record.
 ## Overview 
 Edit the properties of a shipment record by passing in a modified instance of a SoftLayer_Account_Shipment object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit the properties of a shipment record by passing in a modified instance of a 
 * authenticate
 * SoftLayer_Account_ShipmentInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

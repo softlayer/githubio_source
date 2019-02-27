@@ -19,6 +19,8 @@ Delete this network VLAN reference. Note, this does not affect existing scaled m
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Delete this network VLAN reference. Note, this does not affect existing scaled m
 * authenticate
 * SoftLayer_Scale_Network_VlanInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

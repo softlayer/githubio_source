@@ -19,6 +19,8 @@ Retrieve the resource watches for this trigger.
 ## Overview 
 Retrieve the resource watches for this trigger.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the resource watches for this trigger.
 * SoftLayer_Scale_Policy_Trigger_ResourceUseInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Scale_Policy_Trigger_ResourceUseObjectMask
 * SoftLayer_Scale_Policy_Trigger_ResourceUseObjectFilter
@@ -35,5 +38,8 @@ Retrieve the resource watches for this trigger.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch'>SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch[] </a>
+* <a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch'>SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch[] </a>
+
+
+
 

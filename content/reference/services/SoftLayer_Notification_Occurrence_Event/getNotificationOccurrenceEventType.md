@@ -19,6 +19,8 @@ Retrieve the type of event such as planned or unplanned maintenance.
 ## Overview 
 Retrieve the type of event such as planned or unplanned maintenance.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the type of event such as planned or unplanned maintenance.
 * SoftLayer_Notification_Occurrence_EventInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Notification_Occurrence_EventObjectMask
 * SoftLayer_Notification_Occurrence_EventObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event_Type'>SoftLayer_Notification_Occurrence_Event_Type </a>
+* <a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event_Type'>SoftLayer_Notification_Occurrence_Event_Type </a>
+
+
+
 

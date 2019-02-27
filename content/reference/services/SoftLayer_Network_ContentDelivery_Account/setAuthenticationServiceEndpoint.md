@@ -19,6 +19,8 @@ Sets the token validation web service endpoint
 ## Overview 
 CDN servers will invoke a Web Service method to validate a content authentication token. CDN uses the default Web Service provided by SoftLayer to validate a token. A customer can use their own implementation of the token authentication Web Service. A valid SOAP WSDL will look similar [https://manage.softlayer.com/CdnService/authenticationWsdlExample/wsdl this]. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,10 @@ CDN servers will invoke a Web Service method to validate a content authenticatio
 * authenticate
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

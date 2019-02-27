@@ -19,6 +19,8 @@ Retrieve all the packages associated with the given package type.
 ## Overview 
 Retrieve all the packages associated with the given package type.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve all the packages associated with the given package type.
 * SoftLayer_Product_Package_TypeInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Product_Package_TypeObjectMask
 * SoftLayer_Product_Package_TypeObjectFilter
@@ -35,5 +38,8 @@ Retrieve all the packages associated with the given package type.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a ticket's subject. Only standard support tickets have an associated su
 ## Overview 
 Retrieve a ticket's subject. Only standard support tickets have an associated subject. A standard support ticket's title corresponds with it's subject's name.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a ticket's subject. Only standard support tickets have an associated su
 * SoftLayer_TicketInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_TicketObjectMask
 * SoftLayer_TicketObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject </a>
+
+
+
 

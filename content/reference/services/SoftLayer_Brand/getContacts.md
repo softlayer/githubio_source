@@ -19,6 +19,8 @@ Retrieve the contacts for the brand.
 ## Overview 
 Retrieve the contacts for the brand.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the contacts for the brand.
 * SoftLayer_BrandInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_BrandObjectMask
 * SoftLayer_BrandObjectFilter
@@ -35,5 +38,8 @@ Retrieve the contacts for the brand.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Brand_Contact'>SoftLayer_Brand_Contact[] </a>
+* <a href='/reference/datatypes/SoftLayer_Brand_Contact'>SoftLayer_Brand_Contact[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Sets a customer invitation as declined.
 ## Overview 
 Declines an invitation to link an OpenIdConnect identity to a SoftLayer (Atlas) identity and account. Note that this uses a registration code that is likely a one-time-use-only token, so if an invitation has already been processed (accepted or previously declined) it will not be possible to process it a second time. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,17 @@ Declines an invitation to link an OpenIdConnect identity to a SoftLayer (Atlas) 
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "Failed to decline registration." if the endpoint failed to decline the invitation. 
+
+
 

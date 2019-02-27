@@ -19,6 +19,8 @@ Retrieve an IP addresses's associated subnet.
 ## Overview 
 Retrieve the subnet associated with an IP address. You may only retrieve subnets assigned to your SoftLayer customer account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,15 +30,30 @@ Retrieve the subnet associated with an IP address. You may only retrieve subnets
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_SubnetObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Network_Vlan::getPrivateVlanByIpAddress](/reference/services/SoftLayer_Network_Vlan/getPrivateVlanByIpAddress )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "You must provide a valid IP address." if the ''ipAddress'' parameter is not a valid IPv4 address. 
+
+* SoftLayer_Exception 
+
+> Throw the exception "Unable to determine a subnet for the specified address of {ipAddress}" if the API is unable to locate a subnet associated with the given IP address. 
+
+
 

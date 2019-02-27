@@ -19,6 +19,8 @@ Retrieve an order's total one time amount. This amount represents the initial fe
 ## Overview 
 Retrieve an order's total one time amount. This amount represents the initial fees before tax.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve an order's total one time amount. This amount represents the initial fe
 * SoftLayer_Billing_OrderInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_OrderObjectMask
 * SoftLayer_Billing_OrderObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

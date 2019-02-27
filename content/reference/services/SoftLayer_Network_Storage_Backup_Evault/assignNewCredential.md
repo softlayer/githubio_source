@@ -19,6 +19,8 @@ This method will set up a new credential for the remote storage volume.
 ## Overview 
 This method will set up a new credential for the remote storage volume. The storage volume must support an additional credential. Once created, the credential will be automatically assigned to the current volume. If there are no volumes assigned to the credential it will be automatically deleted. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,10 +31,25 @@ This method will set up a new credential for the remote storage volume. The stor
 * authenticate
 * SoftLayer_Network_Storage_Backup_EvaultInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Backup_EvaultObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage_Credential'>SoftLayer_Network_Storage_Credential </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage_Credential'>SoftLayer_Network_Storage_Credential </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Network_Storage_AddNewCredential 
+
+> "Problem adding a new credential to the volume. The network storage type is not supported for credential creation in this manner." 
+
+* SoftLayer_Exception_Network_Storage_Iscsi_EqualLogic_Version3_AddNewCredential_InvalidCredentialType 
+
+> "The type provided is not a valid credential type" 
+
+
 

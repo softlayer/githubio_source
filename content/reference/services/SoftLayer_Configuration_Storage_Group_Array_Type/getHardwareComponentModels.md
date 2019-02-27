@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ aliases:
 * SoftLayer_Configuration_Storage_Group_Array_TypeInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Configuration_Storage_Group_Array_TypeObjectMask
 * SoftLayer_Configuration_Storage_Group_Array_TypeObjectFilter
@@ -35,5 +38,8 @@ aliases:
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model[] </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Software_Component_AntivirusSpyware record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Software_Component_AntivirusSpyware record.
 * SoftLayer_Software_Component_AntivirusSpywareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_Component_AntivirusSpywareObjectMask
 * SoftLayer_Software_Component_AntivirusSpywareObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_Component_AntivirusSpyware'>SoftLayer_Software_Component_AntivirusSpyware </a>
+* <a href='/reference/datatypes/SoftLayer_Software_Component_AntivirusSpyware'>SoftLayer_Software_Component_AntivirusSpyware </a>
+
+
+
 

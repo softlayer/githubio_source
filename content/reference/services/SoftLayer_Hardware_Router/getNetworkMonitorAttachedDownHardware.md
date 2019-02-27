@@ -19,6 +19,8 @@ Retrieve all servers with failed monitoring that are attached downstream to a pi
 ## Overview 
 Retrieve all servers with failed monitoring that are attached downstream to a piece of hardware.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve all servers with failed monitoring that are attached downstream to a pi
 * SoftLayer_Hardware_RouterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_RouterObjectMask
 * SoftLayer_Hardware_RouterObjectFilter
@@ -35,5 +38,8 @@ Retrieve all servers with failed monitoring that are attached downstream to a pi
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the locations that this pricing location group is applicable for. This 
 ## Overview 
 Retrieve the locations that this pricing location group is applicable for. This limits the locations that the prices referenced by this pricing location group can be used with.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the locations that this pricing location group is applicable for. This 
 * SoftLayer_Location_Group_PricingInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_Group_PricingObjectMask
 * SoftLayer_Location_Group_PricingObjectFilter
@@ -35,5 +38,8 @@ Retrieve the locations that this pricing location group is applicable for. This 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
+
+
+
 

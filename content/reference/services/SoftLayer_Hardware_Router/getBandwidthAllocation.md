@@ -19,6 +19,8 @@ Retrieve a hardware's allotted bandwidth (measured in GB).
 ## Overview 
 Retrieve a hardware's allotted bandwidth (measured in GB).
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a hardware's allotted bandwidth (measured in GB).
 * SoftLayer_Hardware_RouterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_RouterObjectMask
 * SoftLayer_Hardware_RouterObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

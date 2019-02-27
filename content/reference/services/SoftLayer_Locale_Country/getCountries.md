@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Use this method to retrieve a list of countries and locale information such as country code and state/provinces. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,10 +29,14 @@ Use this method to retrieve a list of countries and locale information such as c
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Locale_CountryObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Locale_Country'>SoftLayer_Locale_Country[] </a>
+* <a href='/reference/datatypes/SoftLayer_Locale_Country'>SoftLayer_Locale_Country[] </a>
+
+
+
 

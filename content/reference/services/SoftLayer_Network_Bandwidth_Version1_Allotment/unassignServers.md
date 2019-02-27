@@ -19,6 +19,8 @@ unassign a collection of servers from an allotment and insert them into the acco
 ## Overview 
 This method will reassign a collection of SoftLayer hardware to the virtual private rack 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method will reassign a collection of SoftLayer hardware to the virtual priv
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

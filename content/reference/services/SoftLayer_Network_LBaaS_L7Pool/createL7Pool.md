@@ -19,6 +19,8 @@ create L7 pools
 ## Overview 
 Create a backend to be used for L7 load balancing. This L7 pool has backend protocol, L7 members, L7 health monitor and session affinity. L7 pool is associated with L7 policies. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,10 +34,14 @@ Create a backend to be used for L7 load balancing. This L7 pool has backend prot
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_LBaaS_L7PoolObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancer'>SoftLayer_Network_LBaaS_LoadBalancer </a>
+* <a href='/reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancer'>SoftLayer_Network_LBaaS_LoadBalancer </a>
+
+
+
 

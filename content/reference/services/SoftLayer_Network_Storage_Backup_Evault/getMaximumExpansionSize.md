@@ -19,6 +19,8 @@ Returns the maximum volume expansion size in GB.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Returns the maximum volume expansion size in GB.
 * authenticate
 * SoftLayer_Network_Storage_Backup_EvaultInitParameters
 
-### Optional Headers
 
 ### Return Values
-integer
+* integer
+
+
+
 

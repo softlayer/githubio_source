@@ -19,6 +19,8 @@ Retrieve indicates if it is a legacy CDN or not
 ## Overview 
 Retrieve indicates if it is a legacy CDN or not
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve indicates if it is a legacy CDN or not
 * SoftLayer_Network_ContentDelivery_AccountInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_ContentDelivery_AccountObjectMask
 * SoftLayer_Network_ContentDelivery_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

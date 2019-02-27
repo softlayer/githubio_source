@@ -19,6 +19,8 @@ Completes invitation processing after logging on an existing OpenIdConnect user 
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,21 @@ Completes invitation processing after logging on an existing OpenIdConnect user 
 
 ### Required Headers
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_NotFound 
+
+> Throw the exception "BlueID email code not found in state parameter." if no BlueID email code is provided. 
+
+* SoftLayer_Exception_NotFound 
+
+> Throw the exception "No invitation record for BlueID email code found." if no invitation record is found. 
+
+
 

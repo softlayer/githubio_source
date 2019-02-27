@@ -19,6 +19,8 @@ Retrieve the network storage volumes this group is attached to.
 ## Overview 
 Retrieve the network storage volumes this group is attached to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the network storage volumes this group is attached to.
 * SoftLayer_Network_Storage_Group_IscsiInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Storage_Group_IscsiObjectMask
 * SoftLayer_Network_Storage_Group_IscsiObjectFilter
@@ -35,5 +38,8 @@ Retrieve the network storage volumes this group is attached to.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+
+
+
 

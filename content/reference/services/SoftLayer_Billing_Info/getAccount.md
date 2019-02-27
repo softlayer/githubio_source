@@ -19,6 +19,8 @@ Retrieve the SoftLayer customer account associated with this billing information
 ## Overview 
 Retrieve the SoftLayer customer account associated with this billing information.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the SoftLayer customer account associated with this billing information
 * SoftLayer_Billing_InfoInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_InfoObjectMask
 * SoftLayer_Billing_InfoObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve the customer account this Account License belongs to.
 ## Overview 
 Retrieve the customer account this Account License belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the customer account this Account License belongs to.
 * SoftLayer_Software_AccountLicenseInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_AccountLicenseObjectMask
 * SoftLayer_Software_AccountLicenseObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
+
+
+
 

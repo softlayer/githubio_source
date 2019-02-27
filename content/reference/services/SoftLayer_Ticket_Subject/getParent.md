@@ -19,6 +19,8 @@ Retrieve a parent subject
 ## Overview 
 Retrieve a parent subject
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a parent subject
 * SoftLayer_Ticket_SubjectInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Ticket_SubjectObjectMask
 * SoftLayer_Ticket_SubjectObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject </a>
+* <a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject </a>
+
+
+
 

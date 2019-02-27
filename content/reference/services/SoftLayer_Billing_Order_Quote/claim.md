@@ -21,6 +21,8 @@ This method is used to transfer an anonymous quote to the active user and associ
 
 To claim a quote, both the quote id and the quote key (the 32-character random string) must be provided. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,10 +33,14 @@ To claim a quote, both the quote id and the quote key (the 32-character random s
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Order_QuoteObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Order_Quote'>SoftLayer_Billing_Order_Quote </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Order_Quote'>SoftLayer_Billing_Order_Quote </a>
+
+
+
 

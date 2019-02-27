@@ -21,6 +21,8 @@ Get the graph image for a load balancer service based on the supplied graph type
 
 This method returns the raw binary image data. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,8 +34,25 @@ This method returns the raw binary image data.
 * authenticate
 * SoftLayer_Network_LoadBalancer_ServiceInitParameters
 
-### Optional Headers
 
 ### Return Values
-binary data
+* binary data
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "The graphType can only be 'connections' or 'status'." when an invalid graphType is supplied. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "The metric can only be 'day', 'week', or 'month'." when an invalid metric is supplied. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Unable to load the <graphType> graph for the <destinationIpAddress> service." when the graph could not be found or is returned in an incorrect image format. 
+
+
 

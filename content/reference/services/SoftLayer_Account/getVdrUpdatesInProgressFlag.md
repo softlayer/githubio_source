@@ -19,6 +19,8 @@ Retrieve return 0 if vpn updates are currently in progress on this account other
 ## Overview 
 Retrieve return 0 if vpn updates are currently in progress on this account otherwise 1.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve return 0 if vpn updates are currently in progress on this account other
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

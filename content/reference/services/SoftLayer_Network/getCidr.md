@@ -19,6 +19,8 @@ Retrieve the size of the Network specified in CIDR notation. Specified in conjun
 ## Overview 
 Retrieve the size of the Network specified in CIDR notation. Specified in conjunction with the ``networkIdentifier`` to describe the bounding subnet size for the Network. Required for creation. See [[SoftLayer_Network/createObject]] documentation for creation details.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the size of the Network specified in CIDR notation. Specified in conjun
 * SoftLayer_NetworkInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_NetworkObjectMask
 * SoftLayer_NetworkObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-integer
+* integer
+
+
+
 

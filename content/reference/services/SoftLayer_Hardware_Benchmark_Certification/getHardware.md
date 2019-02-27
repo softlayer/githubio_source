@@ -19,6 +19,8 @@ Retrieve information regarding the piece of hardware on which a benchmark certif
 ## Overview 
 Retrieve information regarding the piece of hardware on which a benchmark certification test was performed.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve information regarding the piece of hardware on which a benchmark certif
 * SoftLayer_Hardware_Benchmark_CertificationInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_Benchmark_CertificationObjectMask
 * SoftLayer_Hardware_Benchmark_CertificationObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
+
+
+
 

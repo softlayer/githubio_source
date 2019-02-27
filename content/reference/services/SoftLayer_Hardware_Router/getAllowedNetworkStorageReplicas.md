@@ -19,6 +19,8 @@ Retrieve the SoftLayer_Network_Storage objects whose Replica that this SoftLayer
 ## Overview 
 Retrieve the SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Hardware has access to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the SoftLayer_Network_Storage objects whose Replica that this SoftLayer
 * SoftLayer_Hardware_RouterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_RouterObjectMask
 * SoftLayer_Hardware_RouterObjectFilter
@@ -35,5 +38,8 @@ Retrieve the SoftLayer_Network_Storage objects whose Replica that this SoftLayer
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+
+
+
 

@@ -21,6 +21,8 @@ Remove all hardware from a portal user's hardware access list. A user's hardware
 
 Users can call this function on child users, but not to themselves. An account's master has access to all users permissions on their account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,15 +32,28 @@ Users can call this function on child users, but not to themselves. An account's
 * authenticate
 * SoftLayer_User_CustomerInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_User_Customer::addHardwareAccess](/reference/services/SoftLayer_User_Customer/addHardwareAccess )
 *  [SoftLayer_User_Customer::addBulkHardwareAccess](/reference/services/SoftLayer_User_Customer/addBulkHardwareAccess )
 *  [SoftLayer_User_Customer::removeHardwareAccess](/reference/services/SoftLayer_User_Customer/removeHardwareAccess )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Unable to remove user hardware access." if the API was unable to remove hardware access from the given portal user. 
+
+* SoftLayer_Exception_Public 
+
+> Throw the exception "Inadequate permissions." if the active user permissions do allow for access to the userId in question. 
+
+
 

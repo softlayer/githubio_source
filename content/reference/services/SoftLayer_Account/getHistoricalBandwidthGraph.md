@@ -19,6 +19,8 @@ This method returns a line graph of bandwidth statistics.
 ## Overview 
 This method will return a SoftLayer_Container_Account_Graph_Outputs object containing a base64 string PNG image of a line graph of bandwidth statistics given the start and end dates. The start and end dates should be valid ISO 8601 date formatted strings. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,13 +31,15 @@ This method will return a SoftLayer_Container_Account_Graph_Outputs object conta
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Account_Graph_Outputs'>SoftLayer_Container_Account_Graph_Outputs </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Account_Graph_Outputs'>SoftLayer_Container_Account_Graph_Outputs </a>
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Account::getBandwidthList](/reference/services/SoftLayer_Account/getBandwidthList )
+
+
+
 

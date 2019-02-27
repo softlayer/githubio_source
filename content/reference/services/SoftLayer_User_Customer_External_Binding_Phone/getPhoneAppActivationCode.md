@@ -19,6 +19,8 @@ Return a mobile phone app activation code
 ## Overview 
 Some vendor's mobile app requires an activation code. Use this method to get an activation data. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Some vendor's mobile app requires an activation code. Use this method to get an 
 * authenticate
 * SoftLayer_User_Customer_External_Binding_PhoneInitParameters
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_External_Binding_PhoneObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_External_Binding_Attribute'>SoftLayer_User_External_Binding_Attribute[] </a>
+* <a href='/reference/datatypes/SoftLayer_User_External_Binding_Attribute'>SoftLayer_User_External_Binding_Attribute[] </a>
+
+
+
 

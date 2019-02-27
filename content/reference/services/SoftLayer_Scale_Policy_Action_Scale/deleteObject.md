@@ -19,6 +19,8 @@ Delete this action.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Delete this action.
 * authenticate
 * SoftLayer_Scale_Policy_Action_ScaleInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

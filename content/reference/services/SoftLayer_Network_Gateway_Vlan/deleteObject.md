@@ -19,6 +19,8 @@ Detach VLAN
 ## Overview 
 Start the asynchronous process to detach this VLANs from the gateway. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Start the asynchronous process to detach this VLANs from the gateway.
 * authenticate
 * SoftLayer_Network_Gateway_VlanInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

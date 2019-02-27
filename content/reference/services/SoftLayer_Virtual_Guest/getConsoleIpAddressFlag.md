@@ -19,6 +19,8 @@ Retrieve a flag indicating a computing instance's console IP address is assigned
 ## Overview 
 Retrieve a flag indicating a computing instance's console IP address is assigned.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a flag indicating a computing instance's console IP address is assigned
 * SoftLayer_Virtual_GuestInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_GuestObjectMask
 * SoftLayer_Virtual_GuestObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

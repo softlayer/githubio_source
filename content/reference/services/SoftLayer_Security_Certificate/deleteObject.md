@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 Remove a certificate from your account. You may not remove a certificate with associated services. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Remove a certificate from your account. You may not remove a certificate with as
 * authenticate
 * SoftLayer_Security_CertificateInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

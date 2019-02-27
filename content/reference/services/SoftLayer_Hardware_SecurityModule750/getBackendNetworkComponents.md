@@ -19,6 +19,8 @@ Retrieve a piece of hardware's back-end or private network components.
 ## Overview 
 Retrieve a piece of hardware's back-end or private network components.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve a piece of hardware's back-end or private network components.
 * SoftLayer_Hardware_SecurityModule750InitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModule750ObjectMask
 * SoftLayer_Hardware_SecurityModule750ObjectFilter
@@ -35,5 +38,8 @@ Retrieve a piece of hardware's back-end or private network components.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>
+
+
+
 

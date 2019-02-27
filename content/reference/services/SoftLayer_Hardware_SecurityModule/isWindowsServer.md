@@ -19,6 +19,8 @@ Determine if a server runs the Microsoft Windows operating system.
 ## Overview 
 Determine if the server runs any version of the Microsoft Windows operating systems. Return ''true'' if it does and ''false if otherwise. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Determine if the server runs any version of the Microsoft Windows operating syst
 * authenticate
 * SoftLayer_Hardware_SecurityModuleInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

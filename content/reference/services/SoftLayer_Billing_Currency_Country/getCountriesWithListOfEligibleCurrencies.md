@@ -19,6 +19,8 @@ Get map between countries and what currencies can be supported for customers in 
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ Get map between countries and what currencies can be supported for customers in 
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Billing_Currency_Country'>SoftLayer_Container_Billing_Currency_Country[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Billing_Currency_Country'>SoftLayer_Container_Billing_Currency_Country[] </a>
+
+
+
 

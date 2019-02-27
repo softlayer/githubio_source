@@ -19,6 +19,8 @@ Retrieve the program (monitoring agent) that gets details of a system or applica
 ## Overview 
 Retrieve the program (monitoring agent) that gets details of a system or application and reporting of the metric data and triggers alarms for predefined events.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the program (monitoring agent) that gets details of a system or applica
 * SoftLayer_Monitoring_RobotInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Monitoring_RobotObjectMask
 * SoftLayer_Monitoring_RobotObjectFilter
@@ -35,5 +38,8 @@ Retrieve the program (monitoring agent) that gets details of a system or applica
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Monitoring_Agent'>SoftLayer_Monitoring_Agent[] </a>
+* <a href='/reference/datatypes/SoftLayer_Monitoring_Agent'>SoftLayer_Monitoring_Agent[] </a>
+
+
+
 

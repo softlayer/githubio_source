@@ -19,6 +19,8 @@ Retrieve details of the subscriber tied to the preference.
 ## Overview 
 Retrieve details of the subscriber tied to the preference.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve details of the subscriber tied to the preference.
 * SoftLayer_Notification_User_Subscriber_PreferenceInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Notification_User_Subscriber_PreferenceObjectMask
 * SoftLayer_Notification_User_Subscriber_PreferenceObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber </a>
+* <a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber </a>
+
+
+
 

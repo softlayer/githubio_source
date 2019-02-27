@@ -23,6 +23,8 @@ Using this method, multiple [[SoftLayer_Layout_Profile_Preference]] objects may 
 
 Refer to [[SoftLayer_Layout_Profile::modifyPreference()]] for more information. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -33,10 +35,14 @@ Refer to [[SoftLayer_Layout_Profile::modifyPreference()]] for more information.
 * authenticate
 * SoftLayer_Layout_ProfileInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Layout_ProfileObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Layout_Profile_Preference'>SoftLayer_Layout_Profile_Preference[] </a>
+* <a href='/reference/datatypes/SoftLayer_Layout_Profile_Preference'>SoftLayer_Layout_Profile_Preference[] </a>
+
+
+
 

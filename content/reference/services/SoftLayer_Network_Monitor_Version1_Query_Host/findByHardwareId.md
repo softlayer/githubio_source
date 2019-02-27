@@ -21,6 +21,8 @@ This method returns all Query_Host objects associated with the passed in hardwar
 
 This behavior can also be accomplished by simply tapping networkMonitors on the Hardware_Server object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,10 +32,14 @@ This behavior can also be accomplished by simply tapping networkMonitors on the 
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Monitor_Version1_Query_HostObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host'>SoftLayer_Network_Monitor_Version1_Query_Host[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host'>SoftLayer_Network_Monitor_Version1_Query_Host[] </a>
+
+
+
 

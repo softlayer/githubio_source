@@ -19,6 +19,8 @@ Get a list of the file containers for a brand.
 ## Overview 
 This method returns a collection of container objects. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,8 +29,10 @@ This method returns a collection of container objects.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Folder'>SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Folder[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Folder'>SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Folder[] </a>
+
+
+
 

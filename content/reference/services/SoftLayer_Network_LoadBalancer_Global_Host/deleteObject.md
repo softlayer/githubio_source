@@ -19,6 +19,8 @@ Remove a host from the load balancing pool of a global load balancer account.
 ## Overview 
 Remove a host from the load balancing pool of a global load balancer account. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Remove a host from the load balancing pool of a global load balancer account.
 * authenticate
 * SoftLayer_Network_LoadBalancer_Global_HostInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

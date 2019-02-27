@@ -19,6 +19,8 @@ Retrieve hardware notifications associated with this user. A hardware notificati
 ## Overview 
 Retrieve hardware notifications associated with this user. A hardware notification links a user to a piece of hardware, and that user will be notified if any monitors on that hardware fail, if the monitors have a status of 'Notify User'.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve hardware notifications associated with this user. A hardware notificati
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_OpenIdConnectObjectMask
 * SoftLayer_User_Customer_OpenIdConnectObjectFilter
@@ -35,5 +38,8 @@ Retrieve hardware notifications associated with this user. A hardware notificati
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Hardware'>SoftLayer_User_Customer_Notification_Hardware[] </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Hardware'>SoftLayer_User_Customer_Notification_Hardware[] </a>
+
+
+
 

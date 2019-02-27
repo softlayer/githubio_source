@@ -19,6 +19,8 @@ Edit this load balancer configuration.
 ## Overview 
 Edit this load balancer configuration. Note, this does not affect existing scaled members. Once edited however, future scaled members will be load balanced with this configuration. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit this load balancer configuration. Note, this does not affect existing scale
 * authenticate
 * SoftLayer_Scale_LoadBalancerInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

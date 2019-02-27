@@ -19,6 +19,8 @@ Validate a CRON expression.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Validate a CRON expression.
 * authenticate
 * SoftLayer_Scale_Policy_Trigger_RepeatingInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

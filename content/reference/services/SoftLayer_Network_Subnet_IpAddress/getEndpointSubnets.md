@@ -19,6 +19,8 @@ Retrieve all the subnets routed to an IP address.
 ## Overview 
 Retrieve all the subnets routed to an IP address.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve all the subnets routed to an IP address.
 * SoftLayer_Network_Subnet_IpAddressInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Subnet_IpAddressObjectMask
 * SoftLayer_Network_Subnet_IpAddressObjectFilter
@@ -35,5 +38,8 @@ Retrieve all the subnets routed to an IP address.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>
+
+
+
 

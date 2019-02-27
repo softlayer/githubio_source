@@ -19,6 +19,8 @@ Retrieve an account's most recent billing date.
 ## Overview 
 Retrieve an account's most recent billing date.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve an account's most recent billing date.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-dateTime
+* dateTime
+
+
+
 

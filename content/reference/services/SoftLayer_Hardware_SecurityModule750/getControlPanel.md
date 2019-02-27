@@ -19,6 +19,8 @@ Retrieve a server's control panel.
 ## Overview 
 Retrieve a server's control panel.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a server's control panel.
 * SoftLayer_Hardware_SecurityModule750InitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_SecurityModule750ObjectMask
 * SoftLayer_Hardware_SecurityModule750ObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_Component_ControlPanel'>SoftLayer_Software_Component_ControlPanel </a>
+* <a href='/reference/datatypes/SoftLayer_Software_Component_ControlPanel'>SoftLayer_Software_Component_ControlPanel </a>
+
+
+
 

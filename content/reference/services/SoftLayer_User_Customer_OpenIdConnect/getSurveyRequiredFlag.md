@@ -19,6 +19,8 @@ Retrieve whether or not a user must take a brief survey the next time they log i
 ## Overview 
 Retrieve whether or not a user must take a brief survey the next time they log into the SoftLayer customer portal.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve whether or not a user must take a brief survey the next time they log i
 * SoftLayer_User_Customer_OpenIdConnectInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_OpenIdConnectObjectMask
 * SoftLayer_User_Customer_OpenIdConnectObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

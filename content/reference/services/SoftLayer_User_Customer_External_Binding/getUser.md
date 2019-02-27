@@ -19,6 +19,8 @@ Retrieve the SoftLayer user that the external authentication binding belongs to.
 ## Overview 
 Retrieve the SoftLayer user that the external authentication binding belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the SoftLayer user that the external authentication binding belongs to.
 * SoftLayer_User_Customer_External_BindingInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_External_BindingObjectMask
 * SoftLayer_User_Customer_External_BindingObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>
+
+
+
 

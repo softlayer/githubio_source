@@ -19,6 +19,8 @@ Create an AAAA record on a domain.
 ## Overview 
 Create an AAAA record on a SoftLayer domain. This is a shortcut method, meant to take the work out of creating a SoftLayer_Dns_Domain_ResourceRecord if you already have a domain record available. createARecord returns the newly created SoftLayer_Dns_Domain_ResourceRecord_AaaaType. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -31,16 +33,20 @@ Create an AAAA record on a SoftLayer domain. This is a shortcut method, meant to
 * authenticate
 * SoftLayer_Dns_DomainInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Dns_DomainObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_AaaaType'>SoftLayer_Dns_Domain_ResourceRecord_AaaaType </a>
+* <a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_AaaaType'>SoftLayer_Dns_Domain_ResourceRecord_AaaaType </a>
 
 ### External Links
 
 
 * [List of DNS record types at Wikipedia](http://en.wikipedia.org/wiki/List_of_DNS_record_types)
+
+
+
 
 

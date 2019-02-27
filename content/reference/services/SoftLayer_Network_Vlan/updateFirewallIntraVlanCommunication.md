@@ -19,6 +19,8 @@ Update a VLAN's firewall to allow or disallow intra-VLAN communication.
 ## Overview 
 The '''getSensorData''' method updates a VLAN's firewall to allow or disallow intra-VLAN communication. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,17 @@ The '''getSensorData''' method updates a VLAN's firewall to allow or disallow in
 * authenticate
 * SoftLayer_Network_VlanInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "VLAN does not have an associated firewall context." if this VLAN does not have an associated firewall. 
+
+
 

@@ -19,6 +19,8 @@ Create a new notification preference for a subscriber.
 ## Overview 
 Use the method to create a new notification preference for a subscriber 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Use the method to create a new notification preference for a subscriber
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

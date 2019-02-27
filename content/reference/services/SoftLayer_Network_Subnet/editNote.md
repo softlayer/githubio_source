@@ -19,6 +19,8 @@ Edit the note for this subnet.
 ## Overview 
 Edit the note for this subnet.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ Edit the note for this subnet.
 * authenticate
 * SoftLayer_Network_SubnetInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

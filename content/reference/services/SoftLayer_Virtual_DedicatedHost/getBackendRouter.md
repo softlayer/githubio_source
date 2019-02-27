@@ -19,6 +19,8 @@ Retrieve the backend router behind dedicated host's pool of resources.
 ## Overview 
 Retrieve the backend router behind dedicated host's pool of resources.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the backend router behind dedicated host's pool of resources.
 * SoftLayer_Virtual_DedicatedHostInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_DedicatedHostObjectMask
 * SoftLayer_Virtual_DedicatedHostObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware_Router_Backend'>SoftLayer_Hardware_Router_Backend </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware_Router_Backend'>SoftLayer_Hardware_Router_Backend </a>
+
+
+
 

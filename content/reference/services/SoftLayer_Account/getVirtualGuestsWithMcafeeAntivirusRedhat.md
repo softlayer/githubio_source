@@ -19,6 +19,8 @@ Retrieve all virtual guests associated with an account that have McAfee Secure A
 ## Overview 
 Retrieve all virtual guests associated with an account that have McAfee Secure AntiVirus for Redhat software components.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,6 +29,7 @@ Retrieve all virtual guests associated with an account that have McAfee Secure A
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
@@ -34,5 +37,8 @@ Retrieve all virtual guests associated with an account that have McAfee Secure A
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>
+
+
+
 

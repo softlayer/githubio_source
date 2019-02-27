@@ -21,6 +21,8 @@ This method returns all Customer_Notification_Hardware objects associated with t
 
 This behavior can also be accomplished by simply tapping monitoringUserNotification on the Hardware_Server object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,10 +32,14 @@ This behavior can also be accomplished by simply tapping monitoringUserNotificat
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_Notification_HardwareObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Hardware'>SoftLayer_User_Customer_Notification_Hardware[] </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Hardware'>SoftLayer_User_Customer_Notification_Hardware[] </a>
+
+
+
 

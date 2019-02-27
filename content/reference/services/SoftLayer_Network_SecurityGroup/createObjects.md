@@ -19,6 +19,8 @@ Create new security groups.
 ## Overview 
 Create new security groups.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,10 +30,14 @@ Create new security groups.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_SecurityGroupObjectMask
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup[] </a>
+
+
+
 

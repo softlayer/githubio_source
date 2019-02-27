@@ -19,6 +19,8 @@ Retrieve an identifier of the role the subnet is within. Roles dictate how a sub
 ## Overview 
 Retrieve an identifier of the role the subnet is within. Roles dictate how a subnet may be used.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve an identifier of the role the subnet is within. Roles dictate how a sub
 * SoftLayer_Network_SubnetInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_SubnetObjectMask
 * SoftLayer_Network_SubnetObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

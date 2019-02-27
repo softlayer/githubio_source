@@ -19,6 +19,8 @@ Retrieve a SoftLayer_User_Customer_External_Binding_Totp record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_User_Customer_External_Binding_Totp record.
 * SoftLayer_User_Customer_External_Binding_TotpInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Customer_External_Binding_TotpObjectMask
 * SoftLayer_User_Customer_External_Binding_TotpObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Customer_External_Binding_Totp'>SoftLayer_User_Customer_External_Binding_Totp </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_External_Binding_Totp'>SoftLayer_User_Customer_External_Binding_Totp </a>
+
+
+
 

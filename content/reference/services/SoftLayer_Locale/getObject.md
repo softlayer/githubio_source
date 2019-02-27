@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Locale record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Locale record.
 * SoftLayer_LocaleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_LocaleObjectMask
 * SoftLayer_LocaleObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Locale'>SoftLayer_Locale </a>
+* <a href='/reference/datatypes/SoftLayer_Locale'>SoftLayer_Locale </a>
+
+
+
 

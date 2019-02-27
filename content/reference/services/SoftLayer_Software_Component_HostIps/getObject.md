@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Software_Component_HostIps record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Software_Component_HostIps record.
 * SoftLayer_Software_Component_HostIpsInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_Component_HostIpsObjectMask
 * SoftLayer_Software_Component_HostIpsObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Software_Component_HostIps'>SoftLayer_Software_Component_HostIps </a>
+* <a href='/reference/datatypes/SoftLayer_Software_Component_HostIps'>SoftLayer_Software_Component_HostIps </a>
+
+
+
 

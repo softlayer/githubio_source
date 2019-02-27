@@ -21,6 +21,8 @@ Delete a domain's resource record. '''This cannot be undone.''' Be wary of runni
 
 ''deleteObject'' returns Boolean ''true'' on successful deletion or ''false'' if it was unable to remove a resource record. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,13 +32,30 @@ Delete a domain's resource record. '''This cannot be undone.''' Be wary of runni
 * authenticate
 * SoftLayer_Dns_Domain_ResourceRecordInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
 
 
-### associatedMethods
+### Associated Methods
 
 *  [SoftLayer_Dns_ResourceRecord::deleteObjects](/reference/services/SoftLayer_Dns_ResourceRecord/deleteObjects )
+
+
+
+### Error Handling
+
+* SoftLayer_Exception 
+
+> Throw the exception "SOA records may not be removed." when attempting to remove an SOA resource record. 
+
+* SoftLayer_Exception 
+
+> Throw the exception "NS records may not be removed." when attempting to remove an NS resource record. 
+
+* SoftLayer_Exception 
+
+> Throw the exception "PTR records may not be removed." when attempting to remove a PTR resource record. 
+
+
 

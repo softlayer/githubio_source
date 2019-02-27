@@ -19,6 +19,8 @@ Voids a pending or approved cancellation request
 ## Overview 
 This method voids a service cancellation request in "Pending" or "Approved" status. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method voids a service cancellation request in "Pending" or "Approved" stat
 * authenticate
 * SoftLayer_Billing_Item_Cancellation_RequestInitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

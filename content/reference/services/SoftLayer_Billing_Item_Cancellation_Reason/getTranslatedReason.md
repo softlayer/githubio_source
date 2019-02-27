@@ -19,6 +19,8 @@ aliases:
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ aliases:
 * SoftLayer_Billing_Item_Cancellation_ReasonInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Item_Cancellation_ReasonObjectMask
 * SoftLayer_Billing_Item_Cancellation_ReasonObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

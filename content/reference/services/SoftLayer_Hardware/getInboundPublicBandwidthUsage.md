@@ -19,6 +19,8 @@ Retrieve the total public inbound bandwidth for this hardware for the current bi
 ## Overview 
 Retrieve the total public inbound bandwidth for this hardware for the current billing cycle.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the total public inbound bandwidth for this hardware for the current bi
 * SoftLayer_HardwareInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_HardwareObjectMask
 * SoftLayer_HardwareObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-decimal
+* decimal
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve a SoftLayer_Network_LBaaS_SSLCipher record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_Network_LBaaS_SSLCipher record.
 * SoftLayer_Network_LBaaS_SSLCipherInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_LBaaS_SSLCipherObjectMask
 * SoftLayer_Network_LBaaS_SSLCipherObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_LBaaS_SSLCipher'>SoftLayer_Network_LBaaS_SSLCipher </a>
+* <a href='/reference/datatypes/SoftLayer_Network_LBaaS_SSLCipher'>SoftLayer_Network_LBaaS_SSLCipher </a>
+
+
+
 

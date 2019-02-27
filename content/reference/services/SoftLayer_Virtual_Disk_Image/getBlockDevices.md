@@ -19,6 +19,8 @@ Retrieve the block devices that a disk image is attached to. Block devices conne
 ## Overview 
 Retrieve the block devices that a disk image is attached to. Block devices connect computing instances to disk images.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the block devices that a disk image is attached to. Block devices conne
 * SoftLayer_Virtual_Disk_ImageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Virtual_Disk_ImageObjectMask
 * SoftLayer_Virtual_Disk_ImageObjectFilter
@@ -35,5 +38,8 @@ Retrieve the block devices that a disk image is attached to. Block devices conne
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device'>SoftLayer_Virtual_Guest_Block_Device[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device'>SoftLayer_Virtual_Guest_Block_Device[] </a>
+
+
+
 

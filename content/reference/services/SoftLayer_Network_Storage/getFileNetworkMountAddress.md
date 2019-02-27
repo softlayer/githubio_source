@@ -19,6 +19,8 @@ Retrieve retrieves the NFS Network Mount Address Name for a given File Storage V
 ## Overview 
 Retrieve retrieves the NFS Network Mount Address Name for a given File Storage Volume.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve retrieves the NFS Network Mount Address Name for a given File Storage V
 * SoftLayer_Network_StorageInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_StorageObjectMask
 * SoftLayer_Network_StorageObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-string
+* string
+
+
+
 

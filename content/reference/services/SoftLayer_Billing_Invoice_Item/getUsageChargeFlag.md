@@ -19,6 +19,8 @@ Retrieve indicating whether this invoice item is for the usage charge.
 ## Overview 
 Retrieve indicating whether this invoice item is for the usage charge.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve indicating whether this invoice item is for the usage charge.
 * SoftLayer_Billing_Invoice_ItemInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Billing_Invoice_ItemObjectMask
 * SoftLayer_Billing_Invoice_ItemObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Bypass All VLANs
 ## Overview 
 Start the asynchronous process to bypass all VLANs. Any VLANs that are already bypassed will be ignored. The status field can be checked for progress. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ Start the asynchronous process to bypass all VLANs. Any VLANs that are already b
 * authenticate
 * SoftLayer_Network_GatewayInitParameters
 
-### Optional Headers
 
 ### Return Values
-void
+* void
+
+
+
 

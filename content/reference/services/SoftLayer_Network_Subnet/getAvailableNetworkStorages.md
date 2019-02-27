@@ -19,6 +19,8 @@ Return a list of SoftLayer_Network_Storage volumes that can be authorized to thi
 ## Overview 
 This method retrieves a list of SoftLayer_Network_Storage volumes that can be authorized to this SoftLayer_Network_Subnet. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,11 +31,15 @@ This method retrieves a list of SoftLayer_Network_Storage volumes that can be au
 * authenticate
 * SoftLayer_Network_SubnetInitParameters
 
+
 ### Optional Headers
 * SoftLayer_Network_SubnetObjectMask
 * SoftLayer_ObjectMask
 * resultLimit
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>
+
+
+
 

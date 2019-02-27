@@ -19,6 +19,8 @@ Retrieve the bandwidth allotment that the reservation belongs to.
 ## Overview 
 Retrieve the bandwidth allotment that the reservation belongs to.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the bandwidth allotment that the reservation belongs to.
 * SoftLayer_Location_ReservationInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Location_ReservationObjectMask
 * SoftLayer_Location_ReservationObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>
+
+
+
 

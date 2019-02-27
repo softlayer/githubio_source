@@ -19,6 +19,8 @@ Retrieve the average daily public bandwidth usage for the current billing cycle.
 ## Overview 
 Retrieve the average daily public bandwidth usage for the current billing cycle.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the average daily public bandwidth usage for the current billing cycle.
 * SoftLayer_Hardware_RouterInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Hardware_RouterObjectMask
 * SoftLayer_Hardware_RouterObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-float
+* float
+
+
+
 

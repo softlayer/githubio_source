@@ -19,6 +19,8 @@ Retrieve the various product items to which this software description is linked.
 ## Overview 
 Retrieve the various product items to which this software description is linked.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve the various product items to which this software description is linked.
 * SoftLayer_Software_DescriptionInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Software_DescriptionObjectMask
 * SoftLayer_Software_DescriptionObjectFilter
@@ -35,5 +38,8 @@ Retrieve the various product items to which this software description is linked.
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>
+* <a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>
+
+
+
 

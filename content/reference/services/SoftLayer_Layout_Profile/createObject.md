@@ -19,6 +19,8 @@ Create a new layout profile
 ## Overview 
 This method creates a new layout profile object. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,8 +30,10 @@ This method creates a new layout profile object.
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

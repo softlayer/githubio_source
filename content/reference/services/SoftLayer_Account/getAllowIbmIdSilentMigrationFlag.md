@@ -19,6 +19,8 @@ Retrieve indicates whether this account is allowed to silently migrate to use IB
 ## Overview 
 Retrieve indicates whether this account is allowed to silently migrate to use IBMid Authentication.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve indicates whether this account is allowed to silently migrate to use IB
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

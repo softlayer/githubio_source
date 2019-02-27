@@ -19,6 +19,8 @@ Allows multiple servers to be added to or removed from the spare pool.
 ## Overview 
 The ability to place multiple bare metal servers in a state where they are powered down and ports closed yet still allocated to the customer as a part of the Spare Pool program. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -30,8 +32,21 @@ The ability to place multiple bare metal servers in a state where they are power
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Container_Hardware_Server_Request'>SoftLayer_Container_Hardware_Server_Request[] </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Hardware_Server_Request'>SoftLayer_Container_Hardware_Server_Request[] </a>
+
+
+
+### Error Handling
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception 'You do not have permission to this service.' when a user does not have permission to Issue OS Reloads. 
+
+* SoftLayer_Exception_Public 
+
+> Throws the exception 'There is currently an outstanding transaction for this server.' when there is a current hardware update. 
+
+
 

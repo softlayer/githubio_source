@@ -20,6 +20,8 @@ Delete a server
 
 This method will cancel a server effective immediately. For servers billed hourly, the charges will stop immediately after the method returns. 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -29,8 +31,10 @@ This method will cancel a server effective immediately. For servers billed hourl
 * authenticate
 * SoftLayer_Hardware_SecurityModule750InitParameters
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

@@ -19,6 +19,8 @@ Retrieve indicates whether this account requires IBMid authentication.
 ## Overview 
 Retrieve indicates whether this account requires IBMid authentication.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -27,11 +29,15 @@ Retrieve indicates whether this account requires IBMid authentication.
 ### Required Headers
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

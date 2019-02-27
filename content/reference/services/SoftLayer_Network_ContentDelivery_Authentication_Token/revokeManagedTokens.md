@@ -23,6 +23,8 @@ This method is deprecated!
 
 Deletes multiple managed tokens 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -32,8 +34,10 @@ Deletes multiple managed tokens
 ### Required Headers
 * authenticate
 
-### Optional Headers
 
 ### Return Values
-boolean
+* boolean
+
+
+
 

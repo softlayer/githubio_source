@@ -19,6 +19,8 @@ Retrieve all of the hardware that exists on a VLAN. Hardware is associated with 
 ## Overview 
 Retrieve all of the hardware that exists on a VLAN. Hardware is associated with a VLAN by its networking components.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,6 +30,7 @@ Retrieve all of the hardware that exists on a VLAN. Hardware is associated with 
 * SoftLayer_Network_VlanInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_VlanObjectMask
 * SoftLayer_Network_VlanObjectFilter
@@ -35,5 +38,8 @@ Retrieve all of the hardware that exists on a VLAN. Hardware is associated with 
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
+
+
+
 

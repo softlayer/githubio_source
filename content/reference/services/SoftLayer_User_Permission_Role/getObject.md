@@ -19,6 +19,8 @@ Retrieve a SoftLayer_User_Permission_Role record.
 ## Overview 
 
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve a SoftLayer_User_Permission_Role record.
 * SoftLayer_User_Permission_RoleInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_User_Permission_RoleObjectMask
 * SoftLayer_User_Permission_RoleObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_User_Permission_Role'>SoftLayer_User_Permission_Role </a>
+* <a href='/reference/datatypes/SoftLayer_User_Permission_Role'>SoftLayer_User_Permission_Role </a>
+
+
+
 

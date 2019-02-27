@@ -19,6 +19,8 @@ Retrieve the datacenter that the application delivery controller resides in.
 ## Overview 
 Retrieve the datacenter that the application delivery controller resides in.
 
+-----
+
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
@@ -28,11 +30,15 @@ Retrieve the datacenter that the application delivery controller resides in.
 * SoftLayer_Network_Application_Delivery_ControllerInitParameters
 * authenticate
 
+
 ### Optional Headers
 * SoftLayer_Network_Application_Delivery_ControllerObjectMask
 * SoftLayer_Network_Application_Delivery_ControllerObjectFilter
 * SoftLayer_ObjectMask
 
 ### Return Values
-<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
+
+
+
 
