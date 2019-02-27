@@ -68,6 +68,10 @@ Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. Soft
             <div class='views-field-body'>Returns monitoring alarm detailed history</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/createFirmwareReflashTransaction'> createFirmwareReflashTransaction</a> </span>
+            <div class='views-field-body'>Runs firmware reflash on the servers components.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/createFirmwareUpdateTransaction'> createFirmwareUpdateTransaction</a> </span>
             <div class='views-field-body'>Runs firmware updates on the servers components.</div>
         </div>
@@ -1054,6 +1058,10 @@ Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. Soft
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/isWindowsServer'> isWindowsServer</a> </span>
             <div class='views-field-body'>Determine if a server runs the Microsoft Windows operating system.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/massFirmwareReflash'> massFirmwareReflash</a> </span>
+            <div class='views-field-body'>Runs firmware reflashes on the servers components.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/massFirmwareUpdate'> massFirmwareUpdate</a> </span>
