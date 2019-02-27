@@ -68,6 +68,10 @@ classes:
             <div class='views-field-body'>Returns monitoring alarm detailed history</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule750/createFirmwareReflashTransaction'> createFirmwareReflashTransaction</a> </span>
+            <div class='views-field-body'>Runs firmware reflash on the servers components.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule750/createFirmwareUpdateTransaction'> createFirmwareUpdateTransaction</a> </span>
             <div class='views-field-body'>Runs firmware updates on the servers components.</div>
         </div>
@@ -1046,6 +1050,10 @@ classes:
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule750/isWindowsServer'> isWindowsServer</a> </span>
             <div class='views-field-body'>Determine if a server runs the Microsoft Windows operating system.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule750/massFirmwareReflash'> massFirmwareReflash</a> </span>
+            <div class='views-field-body'>Runs firmware reflashes on the servers components.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule750/massFirmwareUpdate'> massFirmwareUpdate</a> </span>
