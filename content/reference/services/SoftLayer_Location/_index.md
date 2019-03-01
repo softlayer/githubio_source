@@ -71,6 +71,10 @@ The SoftLayer_Location API service queries SoftLayer's location tree to find loc
             <div class='views-field-body'>Retrieve a location's physical address.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Location/getLocationAddresses'> getLocationAddresses</a> </span>
+            <div class='views-field-body'>Retrieve a location's physical addresses.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Location/getLocationReservationMember'> getLocationReservationMember</a> </span>
             <div class='views-field-body'>Retrieve a location's Dedicated Rack member</div>
         </div>

@@ -214,6 +214,16 @@ SoftLayer_Location_Datacenter extends the [[SoftLayer_Location]] data type to in
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#locationAddresses" name=locationAddresses>locationAddresses</a>
+            </span>
+            <div class='views-field-body'>A location's physical addresses. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address[] </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#locationReservationMember" name=locationReservationMember>locationReservationMember</a>
             </span>
             <div class='views-field-body'>A location's Dedicated Rack member </div>
@@ -448,6 +458,16 @@ SoftLayer_Location_Datacenter extends the [[SoftLayer_Location]] data type to in
                 <a href="#hardwareRouterCount" name=hardwareRouterCount>hardwareRouterCount</a>
             </span>
             <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#locationAddressCount" name=locationAddressCount>locationAddressCount</a>
+            </span>
+            <div class='views-field-body'>A count of a location's physical addresses. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>
