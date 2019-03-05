@@ -33,6 +33,8 @@ Retrieve all user status objects.
 ### Optional Headers
 * SoftLayer_User_Customer_StatusObjectMask
 * SoftLayer_ObjectMask
+* SoftLayer_User_Customer_StatusObjectFilter
+* resultLimit
 
 ### Return Values
 * <a href='/reference/datatypes/SoftLayer_User_Customer_Status'>SoftLayer_User_Customer_Status[] </a>

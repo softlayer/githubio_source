@@ -107,6 +107,10 @@ The virtual guest block device template group service provides a common interfac
             <div class='views-field-body'>Retrieve the accounts which may have read-only access to an image template group. Will only be populated for parent template group objects.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getAllAvailableCompatiblePlatformNames'> getAllAvailableCompatiblePlatformNames</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getBlockDevices'> getBlockDevices</a> </span>
             <div class='views-field-body'>Retrieve the block devices that are part of an image template group</div>
         </div>
@@ -125,6 +129,10 @@ The virtual guest block device template group service provides a common interfac
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getChildren'> getChildren</a> </span>
             <div class='views-field-body'>Retrieve the image template groups that are clones of an image template group.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getCurrentCompatiblePlatformNames'> getCurrentCompatiblePlatformNames</a> </span>
+            <div class='views-field-body'></div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getDatacenter'> getDatacenter</a> </span>
@@ -248,6 +256,10 @@ The virtual guest block device template group service provides a common interfac
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/setBootMode'> setBootMode</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/setCompatiblePlatforms'> setCompatiblePlatforms</a> </span>
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">

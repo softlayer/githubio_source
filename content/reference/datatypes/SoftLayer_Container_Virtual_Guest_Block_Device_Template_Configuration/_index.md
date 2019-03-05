@@ -89,6 +89,17 @@ CRN to customer root key  </div>
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#environmentType" name=environmentType>environmentType</a>
+            </span>
+            <div class='views-field-body'>
+For future use; not currently defined.  </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>array of strings</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#ibmAccessKey" name=ibmAccessKey>ibmAccessKey</a>
             </span>
             <div class='views-field-body'>
