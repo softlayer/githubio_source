@@ -1,4 +1,4 @@
-baseurl = "https://softlayer.github.io/"
+baseurl = "https://sldn.softlayer.com/"
 languageCode = "en-us"
 title = "SoftLayer API"
 canonifyurls = true
@@ -59,3 +59,9 @@ pluralizeListTitles = false
     name = "Tools"
     identifier = "tools"
     url = "/tools/"
+
+[outputs]
+  home     = ["HTML", "RSS"]
+  section  = ["HTML"]
+  taxonomyTerm = ["HTML"]
+  taxonomy = ["HTML"]
