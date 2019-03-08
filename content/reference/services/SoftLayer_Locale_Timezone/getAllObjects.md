@@ -33,6 +33,8 @@ Retrieve all timezone objects.
 ### Optional Headers
 * SoftLayer_Locale_TimezoneObjectMask
 * SoftLayer_ObjectMask
+* SoftLayer_Locale_TimezoneObjectFilter
+* resultLimit
 
 ### Return Values
 * <a href='/reference/datatypes/SoftLayer_Locale_Timezone'>SoftLayer_Locale_Timezone[] </a>

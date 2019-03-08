@@ -43,6 +43,10 @@ classes:
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Product_Package_Preset/getBareMetalReservedFlag'> getBareMetalReservedFlag</a> </span>
+            <div class='views-field-body'>Retrieve when true this preset is for ordering a Bare Metal Reserved server.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Product_Package_Preset/getCategories'> getCategories</a> </span>
             <div class='views-field-body'>Retrieve the item categories that are included in this package preset configuration.</div>
         </div>

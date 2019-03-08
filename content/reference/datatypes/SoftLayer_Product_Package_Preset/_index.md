@@ -117,6 +117,16 @@ Orders submitted with a preset id defined will use the prices included in the pa
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#bareMetalReservedFlag" name=bareMetalReservedFlag>bareMetalReservedFlag</a>
+            </span>
+            <div class='views-field-body'>When true this preset is for ordering a Bare Metal Reserved server. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#categories" name=categories>categories</a>
             </span>
             <div class='views-field-body'>The item categories that are included in this package preset configuration. </div>
