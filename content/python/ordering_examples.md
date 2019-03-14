@@ -1,7 +1,7 @@
 ---
 title: "Various Place Order Examples"
 description: "place_order_cdn.py"
-date: "2017-11-23"
+date: "2019-03-14"
 classes: 
     - "SoftLayer_Product_Item_Price"
     - "SoftLayer_Network_ContentDelivery_Account"
@@ -11,7 +11,7 @@ tags:
     - "order"
 ---
 
-*NOTICE* Be careful using hard coded price IDs, as they can change at any time without notice. For a better way of building orders, see https://softlayer.github.io/article/understanding-ordering/
+*NOTICE:* Be careful using hard coded price IDs, as they can change at any time without notice. For a better way of building orders, see https://softlayer.github.io/article/understanding-ordering/
 
 ### CDN
 
@@ -551,64 +551,67 @@ except SoftLayer.SoftLayerAPIError as e:
 
 
 ### VLAN
+*NOTICE:* From March 8, 2019 the VLAN orders with a subnet item specified will begin emitting an error, see [Release Notes](https://sldn.softlayer.com/release_notes/2019/20190308/).
+
+To add subnet/ipaddress to the new vlan, see:
+
+[Order static subnet]()
+
+[Order portable subnet]()
+
+[Order ipv6 subnet]()
 
 ```python
-"""
-Example to create a new VLAN.
-
-The script uses the placeOrder method to order
-a new VLAN with 32 static IP address
-"""
 import SoftLayer
+from pprint import pprint
 
-"""
-Build a skeleton SoftLayer_Container_Product_Order_Network_Vlan object
-to model the order for the new VLAN
-"""
-orderData = {
-    "complexType": "SoftLayer_Container_Product_Order_Network_Vlan",
-    "location": "AMSTERDAM",
-    "packageId": 0,
-    # Build a skeleton SoftLayer_Product_Item_Price objects. These objects contain
-    # much more than ids, but SoftLayer's ordering system only needs the price's id
-    # to know what you want to order.
-    # to get the list of valid prices for the package
-    # use the SoftLayer_Product_Package:getItems method
-    # e.g.
-    # productPackageService = client['SoftLayer_Product_Package']
-    # prices = productPackageService.getItems(id = packageID)
-    "prices":
-    [
-        {
-            "complexType": "SoftLayer_Product_Item_Price",
-            # The pice for the new Public Network Vlan
-            "id": 2018
-        },
-        {
-            "complexType": "SoftLayer_Product_Item_Price",
-            # The price for 32 Static Public IP Addresses
-            "id": 36716
+class Network:
+    def __init__(self):
+        self.client = SoftLayer.Client()
+
+    def _get_package_id(self, keyname):
+        _filter = {"type":{"keyName":{"operation":keyname}}}
+    
+        package = self.client['Product_Package'].getAllObjects(filter=_filter)
+        return package[0]['id']
+        
+    def _get_price_id(self, package_id, item_keyname):
+        _filter = {"items":{"keyName":{"operation":item_keyname}}}
+        
+        items = self.client['Product_Package'].getItems(filter=_filter, id=package_id)
+
+        price_id = [p["id"] for p in items[0]["prices"]
+                   if not p["locationGroupId"]][0]
+        return price_id
+    
+    def order_vlan(self, package, location, item_keyname, name=None):
+        packageId = self._get_package_id(package)
+        priceId = self._get_price_id(packageId, item_keyname)
+
+        orderData = {
+            "complexType": "SoftLayer_Container_Product_Order_Network_Vlan",
+            "packageId": packageId,
+            "location": location,
+            "prices": [{"id": priceId}],
+            "quantity": 1, # for vlans each configuration quantity is restricted to 1
+            "name": name
         }
-    ],
-    "quantity": 1,
-    "sendQuoteEmailFlag": True,
-    "name": "myVLANnew",
-    # The router ID where the VLAN will be created
-    # to get the list of routers in your account
-    # use the SoftLayer_Account::getRouters method
-    "routerId": 117960
-    }
 
+        try:
+            return self.client['Product_Order'].placeOrder(orderData)            
+        except SoftLayer.SoftLayerAPIError as e:
+            print("Unable to order: %s - %s" % (e.faultCode, e.faultString))
+    
+if __name__ == "__main__":
+    package = "ADDITIONAL_SERVICES_NETWORK_VLAN"
+    location = "AMSTERDAM"
+    # set PRIVATE_NETWORK_VLAN if you want a private vlan
+    network_type = "PUBLIC_NETWORK_VLAN"
+    vlan_name = "Vlan Name"
+    
+    network = Network()
 
-client = SoftLayer.Client()
-productOrderService = client['SoftLayer_Product_Order']
-
-try:
-    response = productOrderService.verifyOrder(orderData)
-    print(response)
-except SoftLayer.SoftLayerAPIError as e:
-
-    print("Unable to verify the order. faultCode=%s, faultString=%s"
-          % (e.faultCode, e.faultString))
-
+    # The new Vlan comes with a primary subnet which have 8 ip addresses
+    receipt = network.order_vlan(package, location, network_type, name=vlan_name)
+    pprint(receipt)
 ```
