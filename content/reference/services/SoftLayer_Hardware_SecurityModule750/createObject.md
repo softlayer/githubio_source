@@ -291,6 +291,7 @@ Location: https://api.softlayer.com/rest/v3/SoftLayer_Hardware/f5a3fcff-db1d-4b7
 |Name | Type | Description |
 | --- | --- | --- |
 |templateObject| <a href='/reference/datatypes/SoftLayer_Hardware_SecurityModule750'>SoftLayer_Hardware_SecurityModule750 </a>| The SoftLayer_Hardware_SecurityModule750 object that you wish to create.|
+|templateObject| <a href='/reference/datatypes/SoftLayer_Hardware_SecurityModule750'>SoftLayer_Hardware_SecurityModule750 </a>| The SoftLayer_Hardware_SecurityModule750 object that you wish to create.|
 
 
 ### Required Headers
