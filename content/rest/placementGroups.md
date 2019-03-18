@@ -36,7 +36,7 @@ This is always the hardest part, sadly we don't have an API to generate a name f
 
 Next, create the instance.
 
-[SoftLayer_Virtual_PlacementGroup::createObject()](reference/services/SoftLayer_Virtual_PlacementGroup/createObject/) takes as an argument a [SoftLayer_Virtual_PlacementGroup](reference/datatypes/SoftLayer_Virtual_PlacementGroup/) datatype. You only need to supply `backendRouterId`, `name`, `ruleId`. 
+[SoftLayer_Virtual_PlacementGroup::createObject()](/reference/services/SoftLayer_Virtual_PlacementGroup/createObject/) takes as an argument a [SoftLayer_Virtual_PlacementGroup](/reference/datatypes/SoftLayer_Virtual_PlacementGroup/) datatype. You only need to supply `backendRouterId`, `name`, `ruleId`. 
 
 `slcli vs placementgroup create --name test1234 -b bcr01.wdc01 -r SPREAD`
 

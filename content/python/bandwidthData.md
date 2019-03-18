@@ -10,7 +10,7 @@ tags:
 
 ### Data Time Alignment 
 
-The [SoftLayer_Metric_TrackingObject](reference/services/SoftLayer_Metric_Tracking_Object/) class will auto-align your requested time to its nearest data collection boundary. 
+The [SoftLayer_Metric_TrackingObject](/reference/services/SoftLayer_Metric_Tracking_Object/) class will auto-align your requested time to its nearest data collection boundary. 
 
 For example, if you wanted bandwidth data from `2019-02-03T00:30:00` to `2019-02-04T00:30:01` with a 3600s rollup, you would get data back from `2019-02-03T01:00:00` to `2019-02-04T00:00:00`
 
