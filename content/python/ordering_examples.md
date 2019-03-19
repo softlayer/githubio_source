@@ -555,11 +555,10 @@ except SoftLayer.SoftLayerAPIError as e:
 
 To add subnet/ipaddress to the new vlan, see:
 
-[Order static subnet]()
+[Order static subnet](/python/order_static_subnet)
 
-[Order portable subnet]()
+[Order portable subnet](/python/order_portable_subnet)
 
-[Order ipv6 subnet]()
 
 ```python
 import SoftLayer
