@@ -19,7 +19,7 @@ Tickets are how SoftLayer and you communicate and resolve problems. They can be 
 
 
 ## Viewing Tickets
-To start off, lets see how to go about getting tickets that already exist on our account. There are a variety of helper functions on the [SoftLayer_Account](/reference/services/SoftLayer_Account/) service that deal with tickets, and they all work basically the same way.  [SoftLayer_Account::getTickets](reference/services/SoftLayer_Account/getTickets/) and [SoftLayer_Account::getOpenTickets](reference/services/SoftLayer_Account/getOpenTickets/) are the most basic of these. 
+To start off, lets see how to go about getting tickets that already exist on our account. There are a variety of helper functions on the [SoftLayer_Account](/reference/services/SoftLayer_Account/) service that deal with tickets, and they all work basically the same way.  [SoftLayer_Account::getTickets](/reference/services/SoftLayer_Account/getTickets/) and [SoftLayer_Account::getOpenTickets](/reference/services/SoftLayer_Account/getOpenTickets/) are the most basic of these. 
 
 ```
 curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress"  'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getOpenTickets.json'
@@ -97,7 +97,7 @@ curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, d
 ```
 
 ## Creating Tickets
-There are a few create options in the SoftLayer_Ticket service, the only difference being which internal group they get routed to, and should be obvious based on the method name which one you need. If in doubt, use the standard ticket, [SoftLayer_Ticket::createStandardTicket](reference/services/SoftLayer_Ticket/createStandardTicket/)
+There are a few create options in the SoftLayer_Ticket service, the only difference being which internal group they get routed to, and should be obvious based on the method name which one you need. If in doubt, use the standard ticket, [SoftLayer_Ticket::createStandardTicket](/reference/services/SoftLayer_Ticket/createStandardTicket/)
 
 The bare minimum to create a ticket is the following command:
 ```
