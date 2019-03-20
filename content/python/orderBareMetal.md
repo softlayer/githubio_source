@@ -1,7 +1,7 @@
 ---
 title: "Advanced Bare Metal Server Ordering"
-description: "Explains how to build a bare metal order, includes how to get packages, prices, raid setup and vlans"
-date: "2017-09-13"
+description: "Explains how to build a bare metal order, includes how to get packages, prices (including pcie and gpu items), raid setup and vlans"
+date: "2019-03-20"
 classes:
     - "SoftLayer_Product_Order"
     - "SoftLayer_Configuration_Storage_Group_Array_Type"
@@ -38,8 +38,6 @@ Places an order for a Bare Metal Server
 import SoftLayer
 from pprint import pprint as pp
 
-
-
 class ordering():
 
     def __init__(self):
@@ -74,9 +72,11 @@ class ordering():
             'HARD_DRIVE_2_00_TB_SATA_2',
             'HARD_DRIVE_2_00_TB_SATA_2',
             'HARD_DRIVE_2_00_TB_SATA_2',
-            'RAM_128_GB_DDR3_1333_REG_2',
+            'RAM_64_GB_DDR4_2133_ECC_NON_REG',
             'OS_CENTOS_7_X_64_BIT',
-            'INTEL_XEON_2650_2_30'
+            'INTEL_INTEL_XEON_E52620_V4_2_10',
+            'HARD_DRIVE_NVME_375_GB_PCIE',    # PCIe component slot0
+            'HARD_DRIVE_NVME_375_GB_PCIE'     # PCIe component slot1
         ]
 
         all_items = required_items + network_items + physical_items
@@ -129,7 +129,6 @@ class ordering():
         # order = self.client['Product_Order'].placeOrder(productOrder)
         pp(order)
 
-
     def listServerPackages(self):
         mask = "mask[type]"
         _filter = {
@@ -147,7 +146,6 @@ class ordering():
                  product['type']['keyName'])
             )
             
-
     def listPartitionTemplates(self):
         mask = "mask[partitionTemplates[data]]"
         result = self.client['SoftLayer_Hardware_Component_Partition_OperatingSystem'].getAllObjects(mask=mask)
@@ -239,32 +237,36 @@ class ordering():
                          item['keyName'])
                     )
 
-
     def gatherPriceIds(self,package_id,keyNames):
         # This wont work for prices that have core requirements
-        mask = "mask[items[prices],activeServerItems[prices]]"
-        items = self.client['Product_Package'].getObject(mask=mask,id=package_id)
+        mask = 'mask[id,itemCategory,keyName,prices[categories]]'
+        items = self.client['Product_Package'].getItems(mask=mask, id=package_id)
 
         prices = []
-        sorted_items = {}
+        category_dict = {"gpu0": -1, "pcie_slot0": -1}
+        
+        for item_keyname in keyNames:
+            try:                
+                matching_item = [i for i in items if i['keyName'] == item_keyname][0]
+            except IndexError:
+                raise SoftLayer.SoftLayerError(
+                    "Item {} does not exist for package {}".format(item_keyname,
+                                                                   package_id))
 
-        for item in items['items']:
-            for price in item['prices']:
-                if not price['locationGroupId']: 
-                    sorted_items[item['keyName']] = price['id']
-        for item in items['activeServerItems']:
-            for price in item['prices']:
-                if not price['locationGroupId']: 
-                    sorted_items[item['keyName']] = price['id']
+            item_category = matching_item['itemCategory']['categoryCode']
+            
+            if item_category not in category_dict:
+                price_id = [p['id'] for p in matching_item['prices']
+                            if not p['locationGroupId']][0]
+            else:
+                category_dict[item_category] += 1
+                category_code = item_category[:-1] + str(category_dict[item_category])
+                price_id = [p['id'] for p in matching_item['prices']
+                                if not p['locationGroupId']
+                                and p['categories'][0]['categoryCode'] == category_code][0]
 
-        for keyName in keyNames:
-            try:
-                prices.append({'id': int(sorted_items.get(keyName))})
-            # Usually you will get this error if a keyName isn't in the package 
-            except TypeError:
-                print("Couldn't find {}".format(keyName))
-                raise
-
+            prices.append({"id": price_id})
+        
         return prices
 
 if __name__ == "__main__":
@@ -272,11 +274,11 @@ if __name__ == "__main__":
     main = ordering()
 
     """
-    Step 1, find the processor type you want
-    253   Dual E5-2600 v3 Series (4 Drives)  DUAL_E52600_4_DRIVES  BARE_METAL_CPU
+    Step 1, find the processor type you want    
+    553  Dual E5-2600 v4 Series (12 Drives)  DUAL_E52600_V4_12_DRIVES  BARE_METAL_CPU
     """
     # main.listServerPackages()
-    package_id = 253
+    package_id = 553
 
     """
     Step 2, collect all the pieces you want to order
@@ -285,14 +287,14 @@ if __name__ == "__main__":
     server is available in.
     """
     main.getServerPrices(package_id)
-    location_id = 1854895
+    location_id = 814994 #"AMSTERDAM03"
 
     """
     Step 3, customize and place the order
     """
     main.listAvailableVlans(location_id)
-    pub_vlan_id  = 2068353
-    priv_vlan_id = 2068355
+    pub_vlan_id  = 2439425
+    priv_vlan_id = 2207425
     # main.listPartitionTemplates()
     main.listRaidArrayTypes()
     main.main(package_id,location_id,pub_vlan_id,priv_vlan_id)
