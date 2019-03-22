@@ -26,7 +26,7 @@ Users can assign hardware access to their child users, but not to themselves. An
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|hardwareId| integer| Hardware ID|
+|hardwareId| integer| Hardware ID.|
 
 
 ### Required Headers
@@ -50,23 +50,23 @@ Users can assign hardware access to their child users, but not to themselves. An
 
 * SoftLayer_Exception_PermissionDenied 
 
-> Throw the exception "You may not grant or deny Master User device access." when trying to remove hardware access to a master user. 
+> <<< EOT 
 
 * SoftLayer_Exception_PermissionDenied 
 
-> Throw the exception "You may not grant or deny yourself device access." when trying to remove hardware access to the user making the call to the SoftLayer API. 
+> <<< EOT 
 
 * SoftLayer_Exception_PermissionDenied 
 
-> Throw the exception "You may not grant or deny device access to other users." when trying to remove hardware access the user making the API call is not their account's master user or does not have the "USER_MANAGE" portal permission. 
+> <<< EOT 
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception "Please specify a valid hardware id." if the given hardware id is not a valid hardware id. 
+> <<< EOT 
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception "Unable to remove user hardware access." if the API was unable to remove hardware access from the given portal user. 
+> <<< EOT 
 
 
 

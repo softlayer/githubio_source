@@ -49,11 +49,11 @@ Users can call this function on child users, but not to themselves. An account's
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception "Unable to remove user hardware access." if the API was unable to remove hardware access from the given portal user. 
+> <<< EOT 
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception "Inadequate permissions." if the active user permissions do allow for access to the userId in question. 
+> <<< EOT 
 
 
 

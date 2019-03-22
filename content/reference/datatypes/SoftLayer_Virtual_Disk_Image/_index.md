@@ -217,6 +217,16 @@ Virtual block devices are assigned to disk images.
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#importedDiskType" name=importedDiskType>importedDiskType</a>
+            </span>
+            <div class='views-field-body'>Return imported disk type </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#isEncrypted" name=isEncrypted>isEncrypted</a>
             </span>
             <div class='views-field-body'>Return if image is encrypted </div>

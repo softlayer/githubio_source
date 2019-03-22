@@ -63,6 +63,10 @@ classes:
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getImportedDiskType'> getImportedDiskType</a> </span>
+            <div class='views-field-body'>Retrieve return imported disk type</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getIsEncrypted'> getIsEncrypted</a> </span>
             <div class='views-field-body'>Retrieve return if image is encrypted</div>
         </div>
