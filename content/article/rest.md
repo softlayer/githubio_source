@@ -66,7 +66,7 @@ If you wanted a specific hardware object, you could do
 * `https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getHardware/365112/`
 > You could also do SoftLayer_Hardware_Server/35112/getObject of course. This format is more useful when you want to get a specific data bit that doens't have a corresponding service.
 
-And you can go deeper, if you wanted to get just the hardwares [networkComponents](/reference/datatypes/SoftLayer_Hardware_SErver/#networkComponents) you can do this:
+And you can go deeper, if you wanted to get just the hardware [networkComponents](/reference/datatypes/SoftLayer_Hardware_Server/#networkComponents) you can do this:
 
 ```
 https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getHardware/365112/getNetworkComponents
@@ -124,7 +124,7 @@ curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters" : [
 
 
 ### PUT
-Use an HTTP PUT request to edit an object instead of a service's `editObject() `method. PUT a single JSON or XML structure containing a single element called "parameters" containing your object's skeleton structure and any orther parameters required by your API service's `editObject()` method. For instance, pass an HTTP PUT request with the following data to the following URL in order to edit domain resource record 5678 within domain record 1234 on SoftLayer's DNS servers, changing its `data` to "10.0.0.1".
+Use an HTTP PUT request to edit an object instead of a service's `editObject() `method. PUT a single JSON or XML structure containing a single element called "parameters" containing your object's skeleton structure and any other parameters required by your API service's `editObject()` method. For instance, pass an HTTP PUT request with the following data to the following URL in order to edit domain resource record 5678 within domain record 1234 on SoftLayer's DNS servers, changing its `data` to "10.0.0.1".
 
 ```
 curl -u $SL_USER:$SL_APIKEY -X PUT -d '{"parameters": [{"data": "10.0.0.1",}]}'
@@ -133,18 +133,18 @@ https://api.softlayer.com/rest/v3/SoftLayer_Dns_Domain/1234/ResourceRecords/5678
 
 ## Passing Method Parameters
 
-The order (top to bottom) you send in parameters needs to match the order they are listed in the documentation. For example, [SoftLayer_Account::createUser()](/reference/services/SoftLayer_Account/createUser/) takes in 4 parameters, first would be the `templateObject`, then `password`, then `vpnPassword`, then `silentlyCreateFlag`. The data passed in the parameters are treated like an array, so you don't need to include the paramter name anywhere.
+The order (top to bottom) you send in parameters needs to match the order they are listed in the documentation. For example, [SoftLayer_Account::createUser()](/reference/services/SoftLayer_Account/createUser/) takes in 4 parameters, first would be the `templateObject`, then `password`, then `vpnPassword`, then `silentlyCreateFlag`. The data passed in the parameters are treated like an array, so you don't need to include the parameter name anywhere.
 
 There are 2 main ways to pass in parameters. The most consistent, and what I recommend, is by using a `POST` request and sending the parameters as part of the data.
 
-For example [SoftLayer_Monitoring_Agent::setActiveAlarmSubscriber](/reference/services/SoftLayer_Monitoring_Agent/setActiveAlarmSubscribe) requires the userRecordId parameter:
+For example [SoftLayer_Monitoring_Agent::setActiveAlarmSubscriber](/reference/services/SoftLayer_Monitoring_Agent/setActiveAlarmSubscriber) requires the userRecordId parameter:
 
 ```
 curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [5678]}'
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Monitoring_Agent/1234/setActiveAlarmSubscriber/'
 ```
 
-Alternatively, you can put the paramters in the URL for simple types like string, int, and bool. 
+Alternatively, you can put the parameters in the URL for simple types like string, int, and bool. 
 
 ```
 curl -u $SL_USER:$SL_APIKEY https://api.softlayer.com/rest/v3/SoftLayer_Monitoring_Agent/1234/setActiveAlarmSubscriber/5678.json
@@ -167,7 +167,7 @@ Some methods will request a single parameter which is an array such as [SoftLaye
 
 
 ## Using Object Masks
-Create an [object mask](/article/object mask) in your API call URL by adding an `objectMask` variable to your query string. Object masks are a nested array of relational or local properties. 
+Create an [object mask](/article/object-masks) in your API call URL by adding an `objectMask` variable to your query string. Object masks are a nested array of relational or local properties. 
 
 The following URL creates an object mask that retrieves an account's hardware records along with the datacenters that hardware is located in. Note that the object mask only contains the relational property we want to retrieve related to hardware, not our account.
 
