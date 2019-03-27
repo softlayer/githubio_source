@@ -19,7 +19,7 @@ REST API URLs are structured to easily traverse SoftLayer's object hierarchy. A 
 ```
 curl -u [username]:[apiKey]  -d '{"parameters": ["first", "second"]}'
 https://api.[service.]softlayer.com/rest/v3.1/[serviceName]/[initializationParameter]/[methodName].[json|xml|txt]?
-objectMask=mask[]&objectFilter={}&resultLimit=0,1
+objectMask=mask[]&objectFilter={}&resultLimit=[offsetValue],[limitValue]
 ```
 
 * All REST requests, even private network requests, must be passed through HTTP SSL.
@@ -194,10 +194,9 @@ https://api.softlayer.com/rest/v3/SoftLayer_Account/Hardware.json?objectMask=mas
 Selecting a `local` property in your objectMask will remove all other local properties on that level of your objectMask. 
 
 ## Using Result Limits
-Any method that returns an array of values can make use of a resultLimit to page through the results. This is useful if not including the resultLimit makes an API call timeout. 
+Any method that returns an array of values can make use of a [resultLimit](/article/using-result-limits-softlayer-api/) to page through the results. This is useful if not including the resultLimit makes an API call timeout. 
 
-For example, [SoftLayer_Account::getOpenTickets](/reference/services/SoftLayer_Account/getOpenTickets) returns an array of SoftLayer_Ticket[] (if the return type ends with [] the method is returning an array).
-
+For example, [SoftLayer_Account::getOpenTickets](/reference/services/SoftLayer_Account/getOpenTickets) returns an array of SoftLayer_Ticket[] (if the return type ends with [] the method is returning an array). The following URL creates a `resultLimit` with "0" as an `offset` value, and "2" as a `limit` value, retrieving only 2 items starting at item 0 of the result set.
 ```
 https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getOpenTickets.json?resultLimit=0,2
 ```
