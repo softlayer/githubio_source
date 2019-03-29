@@ -39,6 +39,10 @@ The SoftLayer_Network_LBaaS_LoadBalancer service allows customers to create, edi
             <div class='views-field-body'>Cancel the specified load balancer. </div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/enableOrDisableDataLogs'> enableOrDisableDataLogs</a> </span>
+            <div class='views-field-body'>Enable or disable data logs forwarding. </div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getAllObjects'> getAllObjects</a> </span>
             <div class='views-field-body'>Get all existing load balancers. </div>
         </div>

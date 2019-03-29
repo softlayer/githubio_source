@@ -1,6 +1,6 @@
 ---
 title: "getTrackingData"
-description: "Retrieve the tracking data for the shipment."
+description: "Retrieve all tracking data for the shipment and packages."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Account_Shipment](/reference/services/SoftLayer_Account_Shipment)::getTrackingData
 
-Retrieve the tracking data for the shipment.
+Retrieve all tracking data for the shipment and packages.
 
 
 ## Overview 
-Retrieve the tracking data for the shipment.
+Retrieve all tracking data for the shipment and packages.
 
 -----
 

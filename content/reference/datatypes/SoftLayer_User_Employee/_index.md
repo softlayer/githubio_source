@@ -123,16 +123,6 @@ A SoftLayer_User_Employee models a single SoftLayer employee for the purposes of
         <h2>Relational</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#actions" name=actions>actions</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Permission_Action'>SoftLayer_User_Permission_Action[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#chatTranscript" name=chatTranscript>chatTranscript</a>
             </span>
             <div class='views-field-body'> </div>
@@ -173,26 +163,6 @@ A SoftLayer_User_Employee models a single SoftLayer employee for the purposes of
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#permissions" name=permissions>permissions</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Permission_Action'>SoftLayer_User_Permission_Action[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#roles" name=roles>roles</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Permission_Role'>SoftLayer_User_Permission_Role[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#securityLevels" name=securityLevels>securityLevels</a>
             </span>
             <div class='views-field-body'> </div>
@@ -224,16 +194,6 @@ A SoftLayer_User_Employee models a single SoftLayer employee for the purposes of
                 <h2>Count</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#actionCount" name=actionCount>actionCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#chatTranscriptCount" name=chatTranscriptCount>chatTranscriptCount</a>
             </span>
             <div class='views-field-body'>A count of  </div>
@@ -245,26 +205,6 @@ A SoftLayer_User_Employee models a single SoftLayer employee for the purposes of
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
                 <a href="#layoutProfileCount" name=layoutProfileCount>layoutProfileCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#permissionCount" name=permissionCount>permissionCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#roleCount" name=roleCount>roleCount</a>
             </span>
             <div class='views-field-body'>A count of  </div>
             <span class="type-label">Type:</span> 

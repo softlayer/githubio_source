@@ -59,10 +59,6 @@ classes:
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Note/getNoteType'> getNoteType</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Note/getObject'> getObject</a> </span>
             <div class='views-field-body'>Retrieve a SoftLayer_Account_Note record.</div>
         </div>

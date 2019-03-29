@@ -71,8 +71,16 @@ SoftLayer's shipment service allows the user to access information pertaining to
             <div class='views-field-body'>Retrieve the customer user who created the shipment.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getCurrency'> getCurrency</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getDestinationAddress'> getDestinationAddress</a> </span>
             <div class='views-field-body'>Retrieve the address at which the shipment is received.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getMasterTrackingData'> getMasterTrackingData</a> </span>
+            <div class='views-field-body'>Retrieve the one master tracking data for the shipment.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getModifyEmployee'> getModifyEmployee</a> </span>
@@ -100,7 +108,7 @@ SoftLayer's shipment service allows the user to access information pertaining to
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getTrackingData'> getTrackingData</a> </span>
-            <div class='views-field-body'>Retrieve the tracking data for the shipment.</div>
+            <div class='views-field-body'>Retrieve all tracking data for the shipment and packages.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getType'> getType</a> </span>

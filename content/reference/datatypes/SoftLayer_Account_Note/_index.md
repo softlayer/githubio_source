@@ -141,16 +141,6 @@ classes:
                 <p><a href='/reference/datatypes/SoftLayer_Account_Note_History'>SoftLayer_Account_Note_History[] </a></p>
             </div>
         </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#noteType" name=noteType>noteType</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Note_Type'>SoftLayer_Account_Note_Type </a></p>
-            </div>
-        </div>
                 <h2>Count</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>

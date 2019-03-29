@@ -509,6 +509,16 @@ Billing items exist in a tree relationship. Items are associated with each other
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#promoCode" name=promoCode>promoCode</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Product_Promotion'>SoftLayer_Product_Promotion </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#redundantPowerSupplyCount" name=redundantPowerSupplyCount>redundantPowerSupplyCount</a>
             </span>
             <div class='views-field-body'>A count of power supplies contained within this SoftLayer_Billing_Order </div>

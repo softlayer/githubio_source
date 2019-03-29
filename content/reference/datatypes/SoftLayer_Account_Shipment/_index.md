@@ -213,12 +213,32 @@ The SoftLayer_Account_Shipment data type contains information relating to a ship
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#currency" name=currency>currency</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#destinationAddress" name=destinationAddress>destinationAddress</a>
             </span>
             <div class='views-field-body'>The address at which the shipment is received. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#masterTrackingData" name=masterTrackingData>masterTrackingData</a>
+            </span>
+            <div class='views-field-body'>The one master tracking data for the shipment. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Account_Shipment_Tracking_Data'>SoftLayer_Account_Shipment_Tracking_Data </a></p>
             </div>
         </div>
                 <div class='prop-row views-row'>
@@ -275,7 +295,7 @@ The SoftLayer_Account_Shipment data type contains information relating to a ship
             <span class='views-field-title'>
                 <a href="#trackingData" name=trackingData>trackingData</a>
             </span>
-            <div class='views-field-body'>The tracking data for the shipment. </div>
+            <div class='views-field-body'>All tracking data for the shipment and packages. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Account_Shipment_Tracking_Data'>SoftLayer_Account_Shipment_Tracking_Data[] </a></p>
@@ -306,7 +326,7 @@ The SoftLayer_Account_Shipment data type contains information relating to a ship
             <span class='views-field-title'>
                 <a href="#trackingDataCount" name=trackingDataCount>trackingDataCount</a>
             </span>
-            <div class='views-field-body'>A count of the tracking data for the shipment. </div>
+            <div class='views-field-body'>A count of all tracking data for the shipment and packages. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>
