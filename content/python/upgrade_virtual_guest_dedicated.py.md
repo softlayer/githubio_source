@@ -1,28 +1,30 @@
 ---
 title: "Working with upgrade virtual guest dedicated and families"
 description: "A few examples on interacting with upgrade virtual guest dedicated and families."
-date: "2019-03-27"
+date: "2019-03-29"
 classes:
     - "SoftLayer_Virtual_Guest"
     - "SoftLayer_Product_Order"
     - "SoftLayer_Container_Product_Order_Virtual_Guest_Upgrade"
 tags:
     - "virtualserver"
+    - "upgrade"
+    - "upgradevirtualguest"
 ---
 
-Upgrade CPU, RAM for VSI dedicated.
+### Upgrade CPU, RAM for VSI dedicated.
 
 To get the items KeyNames available to upgrade your VSI, you can use the service
 SoftLayer_Virtual_Guest::getUpgradeItemPrices. Add to your request a mask as the below to retrieve the items KeyNames.
 
-mask[id,item[id,keyName,description]
+```mask[id,item[id,keyName,description]```
 
 I suggest you to search the items comparing with the control portal, use the description and search in the response,
 then use the keyName of that item.
 
 Change the "items" variable with the cpu and ram keyNames you want to upgrade your vs.
 e.g. I am upgrading the cpu from 2 x 2.0 GHz to 8 x 2.0 GHz and the ram from 4 GB to 12 GB.
-```
+```python
 import json
 
 import SoftLayer
@@ -89,7 +91,7 @@ except SoftLayer.SoftLayerAPIError as e:
 
 ```
 
-Upgrade a flavor(cpu, ram) for a VSI families.
+### Upgrade a flavor(cpu, ram) for VSI families.
 
 Change the "preset_keyName" variable with the flavor keyNames you want to upgrade your vs.
 
@@ -97,7 +99,7 @@ e.g. I am upgrading the flavor BL2_4X8X100(cpu 4, ram 8 GB, first disk 100 GB) t
 BL2_4X16X100(cpu 4, ram 16 GB, first disk 100 GB).
 
 The flavor keyName you can get through SoftLayer_Product_Package::getActivePresets.
-```
+```python
 import json
 
 import SoftLayer
@@ -170,14 +172,16 @@ except SoftLayer.SoftLayerAPIError as e:
 
 ```
 
-Adding two new disks (This script works for both options VSI dedicated and families).
+### Adding two new disks (This script works for both options, VSI dedicated and families).
 
 Replace the "virtualGuestId" variable with your vsId and set the "items" data with the keyName of the disk size you
 choose.
+
 You can set the "guest_disk" depend of the position of the disk you want e.g. guest_disk1, guest_disk2, guest_disk3,
 guest_disk4.
+
 The disk0 is added when you create your vs and you can only change this disk from SAN to LOCAL.
-```
+```python
 import json
 
 import SoftLayer
@@ -252,11 +256,12 @@ except SoftLayer.SoftLayerAPIError as e:
 
 ```
 
-Upgrade the size of a specific disk (This script works for both options VSI dedicated and families).
+### Upgrade the size of a specific disk (This script works for both options, VSI dedicated and families).
 
 Change the "item_keyName" variable with the disk keyName you want to upgrade the specific disk on your vs.
+
 e.g. I am upgrading the first disk from 10 GB to 20 GB.
-```
+```python
 import json
 
 import SoftLayer
@@ -327,13 +332,14 @@ except SoftLayer.SoftLayerAPIError as e:
 
 ```
 
-Upgrade the BANDWIDTH (This script works for both options VSI dedicated and families Monthly).
+### Upgrade the BANDWIDTH (This script works for both options, VSI dedicated and families Monthly).
 
 This option is only available for a vs monthly.
 
 Change the "items" variable with the item keyName you want to upgrade your vs.
+
 e.g. I am upgrading the Bandwidth from 250 GB to 1000 GB.
-```
+```python
 import json
 
 import SoftLayer
@@ -397,11 +403,12 @@ except SoftLayer.SoftLayerAPIError as e:
 
 ```
 
-Upgrade the  Uplink Port Speeds (This script works for both options VSI dedicated and families).
+### Upgrade the  Uplink Port Speeds (This script works for both options VSI dedicated and families).
 
 Change the "items" variable with the item keyName you want to upgrade your vs.
+
 e.g. I am upgrading the Uplink Port Speeds from 1 Gbps to 100 Mbps.
-```
+```python
 import json
 
 import SoftLayer
