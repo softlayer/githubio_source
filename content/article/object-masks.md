@@ -106,4 +106,4 @@ tags:
 <p>The REST interface will accept the object mask via the <span class="geshifilter"><code class="text geshifilter-text">objectMask</code></span> GET parameter.</p>
 <p>Our SLAPI bindings found in our github projects have been updated to support this new form of string object mask.</p>
 <h2 id="Legacy_Object_Masks_"> Legacy Object Masks </h2>
-<p>Please see <a href="/article/Legacy-Object-Masks">Legacy-Object-Masks</a> for usage information on the legacy object mask syntax</p>
+<p>Please see <a href="/article/legacy-object-masks">Legacy-Object-Masks</a> for usage information on the legacy object mask syntax</p>

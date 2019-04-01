@@ -200,6 +200,7 @@ For example, [SoftLayer_Account::getOpenTickets](/reference/services/SoftLayer_A
 ```
 https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getOpenTickets.json?resultLimit=0,2
 ```
+**Note:** In the example the offset is 0 and the limit is 2, and in this case we can remove the offset to get the same response (resultLimit=2).
 
 As part of the HTTP return headers, there is a header called `SoftLayer-Total-Items` that will show you how many total results you can expect. 
 
