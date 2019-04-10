@@ -15,14 +15,14 @@ tags:
 In order to create the roles and assign them the permissions these are the steps you could to follow:
 
 * Working with roles
-  1.  Create a Role 
-  2.  Create a Group 
-  3. Assign actions to the Group
-  4. Link the Group to the Role
-  5. Add user to the Role
-* Adding resources
-* Edit Role
-* Delete Role
+  1.  [Create a Role](#step-1-create-a-role) 
+  2.  [Create a Group](#step-2-create-a-group) 
+  3. [Assign actions to the Group](#step-3-assign-actions-to-the-group)
+  4. [Link the Group to the Role](#step-4-link-the-group-to-the-role)
+  5. [Add user to the Role](#step-5-add-user-to-the-role)
+* [Adding resources]( #adding-resources )
+* [Edit Role](#edit-role)
+* [Delete Role](#delete-role)
 
 ## Working with Roles
 ### Step 1: Create a Role
