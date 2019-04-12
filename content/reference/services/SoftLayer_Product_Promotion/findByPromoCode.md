@@ -31,6 +31,10 @@ Retrieves a promotion using its code.
 * authenticate
 
 
+### Optional Headers
+* SoftLayer_Product_PromotionObjectMask
+* SoftLayer_ObjectMask
+
 ### Return Values
 * <a href='/reference/datatypes/SoftLayer_Container_Product_Promotion'>SoftLayer_Container_Product_Promotion </a>
 

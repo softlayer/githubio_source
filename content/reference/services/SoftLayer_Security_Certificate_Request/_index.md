@@ -53,10 +53,6 @@ To create an SSL certificate order, pass a completed [[SoftLayer_Container_Produ
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate_Request/getCertificateAuthorityName'> getCertificateAuthorityName</a> </span>
-            <div class='views-field-body'>Retrieve the Certificate Authority name</div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate_Request/getObject'> getObject</a> </span>
             <div class='views-field-body'>Retrieve a SoftLayer_Security_Certificate_Request record.</div>
         </div>

@@ -435,16 +435,6 @@ The SoftLayer_Network_Subnet data type contains general information relating to 
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#networkId" name=networkId>networkId</a>
-            </span>
-            <div class='views-field-body'>The Private Network identifier this subnet is within, if applicable. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#networkProtectionAddresses" name=networkProtectionAddresses>networkProtectionAddresses</a>
             </span>
             <div class='views-field-body'> </div>

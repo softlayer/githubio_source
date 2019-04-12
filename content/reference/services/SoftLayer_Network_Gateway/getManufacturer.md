@@ -1,6 +1,6 @@
 ---
 title: "getManufacturer"
-description: "Returns manufacturer name for a given gateway object"
+description: "Returns manufacturer name for a given gateway object."
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ manufacturer name
 
 
 ## Overview 
-Returns manufacturer name for a given gateway object 
+Returns manufacturer name for a given gateway object. 
 
 
 
@@ -26,6 +26,7 @@ Returns manufacturer name for a given gateway object
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
+|checkSameOs| boolean| |
 
 
 ### Required Headers

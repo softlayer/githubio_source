@@ -39,32 +39,8 @@ Provides services oriented to network-centric discovery and manipulation.
             <div class='views-field-body'>Establishes a connection between the account and Service Endpoint networks.</div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create a Network</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/createSubnet'> createSubnet</a> </span>
-            <div class='views-field-body'>Add a Subnet to the Network.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Remove the Network</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/deleteSubnet'> deleteSubnet</a> </span>
-            <div class='views-field-body'>Remove a Subnet from the Network</div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/disconnectPrivateEndpointService'> disconnectPrivateEndpointService</a> </span>
             <div class='views-field-body'>Terminates the connection between the account and Service Endpoint networks.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Modify the Network.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/getAllObjects'> getAllObjects</a> </span>
-            <div class='views-field-body'>Retrieve the Networks for your Account.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network/getCidr'> getCidr</a> </span>

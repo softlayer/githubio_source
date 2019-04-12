@@ -176,10 +176,6 @@ SoftLayer customers can order and manage subnets through the customer portal. If
             <div class='views-field-body'>Retrieve the upstream network component firewall.</div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Subnet/getNetworkId'> getNetworkId</a> </span>
-            <div class='views-field-body'>Retrieve the Private Network identifier this subnet is within, if applicable.</div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Subnet/getNetworkProtectionAddresses'> getNetworkProtectionAddresses</a> </span>
             <div class='views-field-body'></div>
         </div>
