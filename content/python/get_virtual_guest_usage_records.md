@@ -7,8 +7,6 @@ classes:
     - "SoftLayer_Metric_Tracking_Object"
 tags:
     - "metric"
-    - "metrics"
-    - "virtual server"
     - "virtualguest"
 ---
 ```py
@@ -40,11 +38,12 @@ class Virtual:
 
     def get_cpu_usage(self, guest_id, start_date, end_date):
         metric_object_id = self._get_metric_tracking_object(guest_id)
+        guest = self.virtual_service.getObject(mask='id,startCpus', id=guest_id)
 
         # build the SoftLayer_Container_Metric_Data_Type array
         valid_types = []
-        # set range according number of cpu items you want to retrieve the metric data
-        for i in range(16):
+        # it sets the valid types list according number of cpu items in the virtual server
+        for i in range(guest['startCpus']):
             valid_type = {"keyName": "CPU" + str(i), "name": "cpu" + str(i), "summaryType": "max"}
             valid_types.append(valid_type)
 
@@ -82,13 +81,13 @@ if __name__ == "__main__":
     for record in cpu_records: print(record)
 
     print("\nCPU AVERAGES:")
-    print(cpu_averages)
+    for cpu in cpu_averages: print(cpu + ": " + str(cpu_averages[cpu]))
 
     # print records and memory usage
     print("\nMEMORY USAGE RECORDS:")
     for record in memory_records: print(record)
-    
-    # there is only 1 memory and its value must be divided by 2 to convert it to GB
+
+    # there is only 1 memory and its value must be divided by 2^30 to convert it to GB
     print("\nMEMORY AVERAGE: " + str(memory_averages['memory_usage']/(2**30)) + " GB")
 ```
 
