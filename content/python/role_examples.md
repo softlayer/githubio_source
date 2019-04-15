@@ -8,7 +8,6 @@ classes:
     - "SoftLayer_User_Permission_Action"
 tags:
     - "user"
-    - "users"
     - "usercustomer"
 ---
 
@@ -42,7 +41,7 @@ client = SoftLayer.create_client_from_env()
 try:
 
     createRole = client['User_Permission_Role'].createObject(templateObject)
-    print(createRole)
+    pprint(createRole)
 
 except SoftLayer.SoftLayerAPIError as e:
     pprint('Unable to create a user permission role :{}, {}'
@@ -86,9 +85,9 @@ class Group:
     def __init__(self):
         self.client = SoftLayer.create_client_from_env()
 
-    def add_permission(self, group_id):
-        actions = self.gather_actions(self.actions_keynames())
-        result = self.client['User_Permission_Group'].addBulkActions(actions, id=group_id)
+    def add_permission(self, group_init, keynames):
+        bulk_actions = self.gather_actions(keynames)
+        result = self.client['User_Permission_Group'].addBulkActions(bulk_actions, id=group_init)
         pprint(result)
 
     def gather_actions(self, keynames):
@@ -101,25 +100,19 @@ class Group:
                 actions_list.append({'id': permission['id']})
         return actions_list
 
-    def actions_keynames(self):
-        """Builds a list of actions keyNames"""
-        # slcli call-api User_Permission_Action  getAllObjects --mask=keyName,description
-        # Will get you available actions keynames
-        actions = [
-            'TICKET_VIEW',
-            'TICKET_EDIT',
-            'TICKET_ADD',
-            'HARDWARE_VIEW'
-        ]
-        return actions
-
 
 if __name__ == "__main__":
     main = Group()
+    actions = [
+        'TICKET_VIEW',
+        'TICKET_EDIT',
+        'TICKET_ADD',
+        'HARDWARE_VIEW'
+    ]
     # The user permission group id on which will be added permissions.
-    group_id = 12345678
-    main.add_permission(group_id)
-
+    group_id =  16727456
+    main.add_permission(group_id, actions)
+    
 ```
 ### Step 4: Link the Group to the Role
 
