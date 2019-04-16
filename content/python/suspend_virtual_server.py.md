@@ -10,15 +10,60 @@ classes:
 tags:
     - "Virtualserver"
     - "Placeorder"
-    - "Package"
-    - "Location"  
 ---
 
 ###Create Suspend Virtual Server
+####SLCLI
 
-To get the items KeyNames available to order your VSI, you can use the service 
-SoftLayer_Product_Package::getItemPrices. Add to your request a mask as the below to retrieve the items KeyNames.
+```
+slcli order place --verify --billing hourly SUSPEND_CLOUD_SERVER DALLAS12 --preset B1_8X16X100 
+BANDWIDTH_0_GB_2 1_GBPS_PRIVATE_NETWORK_UPLINK REBOOT_REMOTE_CONSOLE 1_IP_ADDRESS 
+UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT OS_WINDOWS_2012_R2_FULL_STD_64_BIT 
+MONITORING_HOST_PING NOTIFICATION_EMAIL_AND_TICKET AUTOMATED_NOTIFICATION 
+NESSUS_VULNERABILITY_ASSESSMENT_REPORTING --complex-type SoftLayer_Container_Product_Order_Virtual_Guest 
+--extras "{"virtualGuests": [{"hostname":"test", "domain":"softlayer.com"}]}"
+```
 
+####Ordering Manager
+
+To get the items KeyNames available to order your VSI, you can use the service SoftLayer_Product_Package::getItemPrices.
+
+```python
+import json
+
+import SoftLayer
+
+# Declare the API client
+client = SoftLayer.create_client_from_env()
+
+order_manager = SoftLayer.OrderingManager(client)
+
+package_keyname = 'SUSPEND_CLOUD_SERVER'
+location = 'DALLAS12'
+item_keynames = ['BANDWIDTH_0_GB_2', '1_GBPS_PRIVATE_NETWORK_UPLINK', 'REBOOT_REMOTE_CONSOLE', '1_IP_ADDRESS',
+                 'UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT', 'OS_WINDOWS_2012_R2_FULL_STD_64_BIT',
+                 'MONITORING_HOST_PING', 'NOTIFICATION_EMAIL_AND_TICKET', 'AUTOMATED_NOTIFICATION',
+                 'NESSUS_VULNERABILITY_ASSESSMENT_REPORTING']
+
+complex_type = 'SoftLayer_Container_Product_Order_Virtual_Guest'
+hourly = True
+preset_keyname = 'B1_8X16X100'
+extras = {"virtualGuests": [{"hostname": "test", "domain": "softlayer.com"}]}
+quantity = 1
+
+try:
+    result = order_manager.verify_order(package_keyname, location, item_keynames, complex_type=complex_type,
+                                        hourly=hourly, preset_keyname=preset_keyname, extras=extras, quantity=quantity)
+                                        
+    print(json.dumps(result, sort_keys=False, indent=4, separators=(',', ': ')))
+    
+except SoftLayer.SoftLayerAPIError as e:
+    print("Unable to order a Suspend Cloud Server. " % (e.faultCode, e.faultString))
+    
+```
+
+####Advanced
+To get the items KeyNames available to order your VSI, you can use the service SoftLayer_Product_Package::getItemPrices.
 ```python
 import json
 
@@ -123,22 +168,35 @@ client = SoftLayer.create_client_from_env()
 
 virtualGuestId = 11111
 
-disk_capacity = 100
+block_devices = client['SoftLayer_Virtual_Guest'].getBlockDevices(mask='mask[id,device,diskImage[id,capacity,units]]',
+                                                                  id=virtualGuestId)
+print(json.dumps(block_devices, sort_keys=False, indent=4, separators=(',', ': ')))
 
-block_devices = client['SoftLayer_Virtual_Guest'].getBlockDevices(mask='mask[diskImage]', id=virtualGuestId)
+device_list = []
+device_num = len(block_devices)
+count = 0
+while count < len(block_devices):
+    print(
+        'You have ' + str(device_num) + ' devices to add to your image template, select the "device" number from above'
+                                        ' e.g. if "device":"0", enter 0, Or to exit please enter -1')
+    devide_data = input()
+    if devide_data == "-1":
+        break
+    else:
+        device_list.append(devide_data)
+    count = count + 1
+    device_num = device_num - 1
 
-deviceId = 0
-for device in block_devices:
-    if disk_capacity == device['diskImage']['capacity']:
-        deviceId = device['id']
+block_device_list = []
+for data in device_list:
+    for device in block_devices:
+        if data == device['device']:
+            deviceId = device['id']
+            block_device_list.append(deviceId)
 
 groupName = "test suspend vs"
 
-blockDevices = [
-    {
-        'id': deviceId
-    }
-]
+blockDevices = [{'id': device_id} for device_id in block_device_list]
 
 note = "test"
 
@@ -343,15 +401,19 @@ try:
     # Get the cost related to a suspended virtual server.
     # Virtual Server is suspended, when it is powerOff. 
     if state_response['keyName'] == "HALTED":
-        table = PrettyTable(['hoursUsed', 'hourlyRecurringFee', 'currentHourlyCharge'])
-        table.add_row([
-            billing_response['hoursUsed'],
-            billing_response['hourlyRecurringFee'],
-            billing_response['currentHourlyCharge']
-        ])
-        print(table)
+        print("The virtual server is suspended in this case, the usage billing stops here, until the vs is "
+              "turned on again. See the billing information below")
     else:
-        print("The virtual server is not SUSPENDED")
+        print("The virtual server is not SUSPENDED in this case, will continue with the billing of use. "
+              "See the billing information below until now")
+        
+    table = PrettyTable(['hoursUsed', 'hourlyRecurringFee', 'currentHourlyCharge'])
+    table.add_row([
+        billing_response['hoursUsed'],
+        billing_response['hourlyRecurringFee'],
+        billing_response['currentHourlyCharge']
+    ])
+    print(table)
 
 except SoftLayer.SoftLayerAPIError as e:
     """ 
