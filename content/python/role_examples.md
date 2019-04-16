@@ -110,7 +110,7 @@ if __name__ == "__main__":
         'HARDWARE_VIEW'
     ]
     # The user permission group id on which will be added permissions.
-    group_id =  16727456
+    group_id =  12345678
     main.add_permission(group_id, actions)
     
 ```
