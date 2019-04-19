@@ -425,6 +425,10 @@ SoftLayer customers are unable to change their company account information in th
             <div class='views-field-body'>Retrieve logs of who entered a colocation area which is assigned to this account, or when a user under this account enters a datacenter.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getFileBlockBetaAccessFlag'> getFileBlockBetaAccessFlag</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getFlexibleCreditEnrollments'> getFlexibleCreditEnrollments</a> </span>
             <div class='views-field-body'>Retrieve all of the account's current and former Flexible Credit enrollments.</div>
         </div>

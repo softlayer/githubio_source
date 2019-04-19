@@ -961,6 +961,16 @@ SoftLayer customers are unable to change their company account information in th
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#fileBlockBetaAccessFlag" name=fileBlockBetaAccessFlag>fileBlockBetaAccessFlag</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#flexibleCreditEnrollments" name=flexibleCreditEnrollments>flexibleCreditEnrollments</a>
             </span>
             <div class='views-field-body'>All of the account's current and former Flexible Credit enrollments. </div>
