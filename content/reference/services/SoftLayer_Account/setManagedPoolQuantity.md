@@ -34,7 +34,7 @@ Set the total number of servers that are to be maintained in the given pool. Whe
 
 
 ### Return Values
-* binary data
+* integer
 
 
 

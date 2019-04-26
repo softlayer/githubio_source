@@ -243,6 +243,10 @@ The virtual guest block device template group service provides a common interfac
             <div class='views-field-body'>Permit another SoftLayer customer account access to provision CloudLayer Computing Instances from an image template group. Template access should only be given to the parent template group object, not the child. </div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/removeCompatiblePlatforms'> removeCompatiblePlatforms</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/removeLocations'> removeLocations</a> </span>
             <div class='views-field-body'>[[SoftLayer_Virtual_Guest_Block_Devices|Block Devices]] can be made available in all storage locations. This method will create transaction(s) to remove available locations from an archive image template. </div>
         </div>

@@ -168,6 +168,16 @@ The SoftLayer_Account_Shipment data type contains information relating to a ship
                 <p>integer</p>
             </div>
         </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#viaAddressId" name=viaAddressId>viaAddressId</a>
+            </span>
+            <div class='views-field-body'>The via address id of the shipment. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
+        </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
@@ -309,6 +319,16 @@ The SoftLayer_Account_Shipment data type contains information relating to a ship
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Account_Shipment_Type'>SoftLayer_Account_Shipment_Type </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#viaAddress" name=viaAddress>viaAddress</a>
+            </span>
+            <div class='views-field-body'>The address at which the shipment is received. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a></p>
             </div>
         </div>
                 <h2>Count</h2>

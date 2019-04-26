@@ -159,7 +159,15 @@ SoftLayer customers are unable to change their brand information in the portal o
             <div class='views-field-body'>Check if the alternate billing system of brand is Bluemix.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Brand/reactivateAccount'> reactivateAccount</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Brand/verifyCanDisableAccount'> verifyCanDisableAccount</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Brand/verifyCanReactivateAccount'> verifyCanReactivateAccount</a> </span>
             <div class='views-field-body'></div>
         </div>
         </div>
