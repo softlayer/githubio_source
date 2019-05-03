@@ -73,6 +73,10 @@ SoftLayer customers are unable to change their company account information in th
             <div class='views-field-body'>Turn off the EU Supported account flag.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/editAccount'> editAccount</a> </span>
+            <div class='views-field-body'>Edit an account's information.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/enableEuSupport'> enableEuSupport</a> </span>
             <div class='views-field-body'>Turn on the EU Supported account flag.</div>
         </div>
@@ -1067,10 +1071,6 @@ The use of $locationId has been deprecated. </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getRwhoisData'> getRwhoisData</a> </span>
             <div class='views-field-body'>Retrieve an account's reverse WHOIS data. This data is used when making SWIP requests.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getSalesforceAccountLink'> getSalesforceAccountLink</a> </span>
-            <div class='views-field-body'></div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getSamlAuthentication'> getSamlAuthentication</a> </span>

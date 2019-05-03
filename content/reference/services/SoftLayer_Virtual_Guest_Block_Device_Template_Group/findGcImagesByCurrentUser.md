@@ -1,6 +1,6 @@
 ---
 title: "findGcImagesByCurrentUser"
-description: "Find block device template groups containing a GC enabled image for the current active user. A sorted collection of grou... "
+description: "Find block device template groups containing a GC enabled cloudinit image for the current active user. A sorted collecti... "
 layout: "method"
 tags:
     - "method"
@@ -13,18 +13,19 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::findGcImagesByCurrentUser
 
-Fetch a sorted collection of GC enabled images for the account of the current active customer user. 
+Fetch a sorted collection of GC enabled cloudinit images for the account of the current active customer user. 
 
 
 ## Overview 
-Find block device template groups containing a GC enabled image for the current active user. A sorted collection of groups is returned. The Caller can optionally specify data center names to retrieve GC images only from those data centers. 
+Find block device template groups containing a GC enabled cloudinit image for the current active user. A sorted collection of groups is returned. The Caller can optionally specify data center or region names to retrieve GC images from only those locations. 
 
 -----
 
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|dataCenters| array of strings| |
+|dataCenters| array of strings| The name of the data center containing the images|
+|regions| array of strings| The name of the region containing the images|
 
 
 ### Required Headers
