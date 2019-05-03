@@ -2391,16 +2391,6 @@ SoftLayer customers are unable to change their company account information in th
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#salesforceAccountLink" name=salesforceAccountLink>salesforceAccountLink</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Link'>SoftLayer_Account_Link </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#samlAuthentication" name=samlAuthentication>samlAuthentication</a>
             </span>
             <div class='views-field-body'>The SAML configuration for this account. </div>
