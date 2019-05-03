@@ -8,8 +8,8 @@ classes:
     - "SoftLayer_Product_Item_Price"
     - "SoftLayer_Virtual_Guest"    
 tags:
-	- "virtualguest"
-	- "order"
+    - "virtualguest"
+    - "order"
 ---
 
 **Note:** See the `Parameters` struct to know what data you can set at order time.
