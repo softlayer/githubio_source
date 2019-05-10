@@ -76,6 +76,10 @@ classes:
             <div class='views-field-body'>Runs firmware updates on the servers components.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/createHyperThreadingUpdateTransaction'> createHyperThreadingUpdateTransaction</a> </span>
+            <div class='views-field-body'>Runs BIOS update on the server to change the hyper-threading configuration.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/createObject'> createObject</a> </span>
             <div class='views-field-body'>Create a new server</div>
         </div>
@@ -1058,6 +1062,10 @@ classes:
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/massFirmwareUpdate'> massFirmwareUpdate</a> </span>
             <div class='views-field-body'>Runs firmware updates on the servers components.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/massHyperThreadingUpdate'> massHyperThreadingUpdate</a> </span>
+            <div class='views-field-body'>Runs firmware reflashes on the servers components.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_SecurityModule/massReloadOperatingSystem'> massReloadOperatingSystem</a> </span>

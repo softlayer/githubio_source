@@ -333,10 +333,6 @@ SoftLayer customers are unable to change their company account information in th
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getCdnAccounts'> getCdnAccounts</a> </span>
-            <div class='views-field-body'>Retrieve an account's associated CDN accounts.</div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getClosedTickets'> getClosedTickets</a> </span>
             <div class='views-field-body'>Retrieve all closed tickets associated with an account.</div>
         </div>

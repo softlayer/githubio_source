@@ -811,16 +811,6 @@ SoftLayer customers are unable to change their company account information in th
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#cdnAccounts" name=cdnAccounts>cdnAccounts</a>
-            </span>
-            <div class='views-field-body'>An account's associated CDN accounts. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Account'>SoftLayer_Network_ContentDelivery_Account[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#closedTickets" name=closedTickets>closedTickets</a>
             </span>
             <div class='views-field-body'>All closed tickets associated with an account. </div>
@@ -3155,16 +3145,6 @@ SoftLayer customers are unable to change their company account information in th
                 <a href="#catalystEnrollmentCount" name=catalystEnrollmentCount>catalystEnrollmentCount</a>
             </span>
             <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cdnAccountCount" name=cdnAccountCount>cdnAccountCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated CDN accounts. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>
