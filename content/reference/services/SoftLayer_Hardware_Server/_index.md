@@ -76,6 +76,10 @@ Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. Soft
             <div class='views-field-body'>Runs firmware updates on the servers components.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/createHyperThreadingUpdateTransaction'> createHyperThreadingUpdateTransaction</a> </span>
+            <div class='views-field-body'>Runs BIOS update on the server to change the hyper-threading configuration.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/createObject'> createObject</a> </span>
             <div class='views-field-body'>Create a new server</div>
         </div>
@@ -1066,6 +1070,10 @@ Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. Soft
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/massFirmwareUpdate'> massFirmwareUpdate</a> </span>
             <div class='views-field-body'>Runs firmware updates on the servers components.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/massHyperThreadingUpdate'> massHyperThreadingUpdate</a> </span>
+            <div class='views-field-body'>Runs firmware reflashes on the servers components.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/massReloadOperatingSystem'> massReloadOperatingSystem</a> </span>

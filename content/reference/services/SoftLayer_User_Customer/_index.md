@@ -173,10 +173,6 @@ API users have full access to their own portal user account and they could also 
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/getCdnAccounts'> getCdnAccounts</a> </span>
-            <div class='views-field-body'>Retrieve the CDN accounts associated with a portal user.</div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/getChildUsers'> getChildUsers</a> </span>
             <div class='views-field-body'>Retrieve a portal user's child users. Some portal users may not have child users.</div>
         </div>

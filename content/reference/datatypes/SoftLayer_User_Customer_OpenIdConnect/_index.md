@@ -593,16 +593,6 @@ classes:
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#cdnAccounts" name=cdnAccounts>cdnAccounts</a>
-            </span>
-            <div class='views-field-body'>The CDN accounts associated with a portal user. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_ContentDelivery_Account'>SoftLayer_Network_ContentDelivery_Account[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#childUsers" name=childUsers>childUsers</a>
             </span>
             <div class='views-field-body'>A portal user's child users. Some portal users may not have child users. </div>
@@ -977,16 +967,6 @@ classes:
                 <a href="#apiAuthenticationKeyCount" name=apiAuthenticationKeyCount>apiAuthenticationKeyCount</a>
             </span>
             <div class='views-field-body'>A count of a portal user's API Authentication keys. There is a max limit of two API keys per user. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cdnAccountCount" name=cdnAccountCount>cdnAccountCount</a>
-            </span>
-            <div class='views-field-body'>A count of the CDN accounts associated with a portal user. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>
