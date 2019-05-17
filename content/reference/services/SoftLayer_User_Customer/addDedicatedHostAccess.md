@@ -21,6 +21,8 @@ Grants the user access to a single dedicated host device.  The user will only be
 
 Users can assign device access to their child users, but not to themselves. An account's master has access to all devices on their customer account and can set dedicated host access for any of the other users on their account. 
 
+Only the USER_MANAGE permission is required to execute this. 
+
 -----
 
 ### Parameters 

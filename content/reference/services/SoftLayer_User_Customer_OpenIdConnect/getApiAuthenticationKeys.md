@@ -1,6 +1,6 @@
 ---
 title: "getApiAuthenticationKeys"
-description: "Retrieve a portal user's API Authentication keys. There is a max limit of two API keys per user."
+description: "Retrieve a portal user's API Authentication keys. There is a max limit of one API key per user."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getApiAuthenticationKeys
 
-Retrieve a portal user's API Authentication keys. There is a max limit of two API keys per user.
+Retrieve a portal user's API Authentication keys. There is a max limit of one API key per user.
 
 
 ## Overview 
-Retrieve a portal user's API Authentication keys. There is a max limit of two API keys per user.
+Retrieve a portal user's API Authentication keys. There is a max limit of one API key per user.
 
 -----
 

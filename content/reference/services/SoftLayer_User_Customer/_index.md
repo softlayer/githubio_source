@@ -166,7 +166,7 @@ API users have full access to their own portal user account and they could also 
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/getApiAuthenticationKeys'> getApiAuthenticationKeys</a> </span>
-            <div class='views-field-body'>Retrieve a portal user's API Authentication keys. There is a max limit of two API keys per user.</div>
+            <div class='views-field-body'>Retrieve a portal user's API Authentication keys. There is a max limit of one API key per user.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/getAuthenticationToken'> getAuthenticationToken</a> </span>

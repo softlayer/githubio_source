@@ -27,6 +27,7 @@ Used to create a transaction to upgrade or rollback the vSRX version for Juniper
 |Name | Type | Description |
 | --- | --- | --- |
 |versionId| integer| Version Id found in SoftLayer_Network_Gateway_ServiceVariables|
+|rollbackVersion| boolean| false] If true, then rollback version.  If false, then Upgrade version|
 
 
 ### Required Headers

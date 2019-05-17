@@ -180,7 +180,7 @@ classes:
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/getApiAuthenticationKeys'> getApiAuthenticationKeys</a> </span>
-            <div class='views-field-body'>Retrieve a portal user's API Authentication keys. There is a max limit of two API keys per user.</div>
+            <div class='views-field-body'>Retrieve a portal user's API Authentication keys. There is a max limit of one API key per user.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/getAuthenticationToken'> getAuthenticationToken</a> </span>
