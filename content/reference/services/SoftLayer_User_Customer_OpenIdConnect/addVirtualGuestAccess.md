@@ -21,6 +21,8 @@ Add a CloudLayer Computing Instance to a portal user's access list. A user's Clo
 
 Users can assign CloudLayer Computing Instance access to their child users, but not to themselves. An account's master has access to all CloudLayer Computing Instances on their customer account and can set CloudLayer Computing Instance access for any of the other users on their account. 
 
+Only the USER_MANAGE permission is required to execute this. 
+
 -----
 
 ### Parameters 

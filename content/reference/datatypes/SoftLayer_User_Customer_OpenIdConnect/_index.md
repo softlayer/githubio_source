@@ -585,7 +585,7 @@ classes:
             <span class='views-field-title'>
                 <a href="#apiAuthenticationKeys" name=apiAuthenticationKeys>apiAuthenticationKeys</a>
             </span>
-            <div class='views-field-body'>A portal user's API Authentication keys. There is a max limit of two API keys per user. </div>
+            <div class='views-field-body'>A portal user's API Authentication keys. There is a max limit of one API key per user. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_User_Customer_ApiAuthentication'>SoftLayer_User_Customer_ApiAuthentication[] </a></p>
@@ -966,7 +966,7 @@ classes:
             <span class='views-field-title'>
                 <a href="#apiAuthenticationKeyCount" name=apiAuthenticationKeyCount>apiAuthenticationKeyCount</a>
             </span>
-            <div class='views-field-body'>A count of a portal user's API Authentication keys. There is a max limit of two API keys per user. </div>
+            <div class='views-field-body'>A count of a portal user's API Authentication keys. There is a max limit of one API key per user. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>

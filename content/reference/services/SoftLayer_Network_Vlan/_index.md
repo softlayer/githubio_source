@@ -248,7 +248,7 @@ The SoftLayer_Network_Vlan service controls these VLANs and provides relationshi
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/upgrade'> upgrade</a> </span>
-            <div class='views-field-body'></div>
+            <div class='views-field-body'>Convert the VLAN to a paid resource. That is, from an Automatic to a Premium VLAN.</div>
         </div>
         </div>
 </div>

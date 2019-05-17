@@ -30,7 +30,7 @@ Each SoftLayer portal account is assigned a series of permissions that determine
 
 ### seeAlso
 
-* [SoftLayer_User_Permission_Action](/reference/services/SoftLayer_User_Permission_Action)
+* [Permissions](/reference/datatypes/Permissions )
 
 
 * [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer )

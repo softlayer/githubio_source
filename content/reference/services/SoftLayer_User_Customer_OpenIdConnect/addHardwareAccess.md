@@ -21,6 +21,8 @@ Add hardware to a portal user's hardware access list. A user's hardware access l
 
 Users can assign hardware access to their child users, but not to themselves. An account's master has access to all hardware on their customer account and can set hardware access for any of the other users on their account. 
 
+Only the USER_MANAGE permission is required to execute this. 
+
 -----
 
 ### Parameters 
