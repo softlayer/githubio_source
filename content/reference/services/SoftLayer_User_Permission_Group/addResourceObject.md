@@ -25,7 +25,7 @@ aliases:
 |Name | Type | Description |
 | --- | --- | --- |
 |resourceObject| <a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a>| The object of the resource you want to add to this group.|
-|resourceTypeKeyName| string| An optional keyname for the type of resource being passed.|
+|resourceTypeKeyName| string| $resourceTypeKeyName An optional keyname for the type of resource being passed.|
 
 
 ### Required Headers

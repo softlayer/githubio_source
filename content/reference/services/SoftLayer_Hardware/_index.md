@@ -379,6 +379,10 @@ Every SoftLayer hardware is defined in the SoftLayer_Hardware service. SoftLayer
             <div class='views-field-body'>Retrieve a piece of hardware's metric tracking object.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware/getModules'> getModules</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware/getMonitoringActiveAlarms'> getMonitoringActiveAlarms</a> </span>
             <div class='views-field-body'>Returns open monitoring alarms for a given time period</div>
         </div>

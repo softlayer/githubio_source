@@ -183,6 +183,16 @@ The SoftLayer_Hardware_Component_HardDrive data type abstracts information relat
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#isChildModule" name=isChildModule>isChildModule</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#m2SataSlotCapacity" name=m2SataSlotCapacity>m2SataSlotCapacity</a>
             </span>
             <div class='views-field-body'>A component's M.2 SATA capacity. </div>
@@ -216,6 +226,16 @@ The SoftLayer_Hardware_Component_HardDrive data type abstracts information relat
                 <a href="#moduleNetworkComponents" name=moduleNetworkComponents>moduleNetworkComponents</a>
             </span>
             <div class='views-field-body'>The module's network components </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#modules" name=modules>modules</a>
+            </span>
+            <div class='views-field-body'> </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a></p>
@@ -347,6 +367,16 @@ The SoftLayer_Hardware_Component_HardDrive data type abstracts information relat
                 <a href="#moduleComponentCount" name=moduleComponentCount>moduleComponentCount</a>
             </span>
             <div class='views-field-body'>A count of the module's hardware components </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#moduleCount" name=moduleCount>moduleCount</a>
+            </span>
+            <div class='views-field-body'>A count of  </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>

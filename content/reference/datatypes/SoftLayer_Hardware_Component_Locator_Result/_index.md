@@ -62,7 +62,7 @@ This object holds a generic component model id and the list of datacenter names 
             <span class='views-field-title'>
                 <a href="#serverPackageId" name=serverPackageId>serverPackageId</a>
             </span>
-            <div class='views-field-body'>server package id </div>
+            <div class='views-field-body'>Id of SoftLayer_Product_Package_Server </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>integer</p>

@@ -25,6 +25,7 @@ Create more than one password for a software component.
 |Name | Type | Description |
 | --- | --- | --- |
 |templateObjects| <a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password[] </a>| An array of SoftLayer_Software_Component_Password objects that you wish to create.|
+|templateObjects| <a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password[] </a>| An array of SoftLayer_Software_Component_Password objects that you wish to create.|
 
 
 ### Required Headers
