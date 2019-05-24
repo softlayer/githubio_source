@@ -39,6 +39,10 @@ SoftLayer public API to determine the availability of generic hardware component
             <div class='views-field-body'>An API to retrieve Generic Components Model availability at data centers</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Locator/getPackageItemsAvailability'> getPackageItemsAvailability</a> </span>
+            <div class='views-field-body'>Retrieve availability of specified product package's GPUs and drives</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Locator/getServerPackageAvailability'> getServerPackageAvailability</a> </span>
             <div class='views-field-body'>An API to retrieve server package availability at data centers</div>
         </div>

@@ -813,6 +813,16 @@ The SoftLayer_Hardware_Router data type contains general information relating to
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#modules" name=modules>modules</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#monitoringAgents" name=monitoringAgents>monitoringAgents</a>
             </span>
             <div class='views-field-body'>Information regarding the monitoring agents associated with a piece of hardware. </div>
@@ -1747,6 +1757,16 @@ The SoftLayer_Hardware_Router data type contains general information relating to
                 <a href="#memoryCount" name=memoryCount>memoryCount</a>
             </span>
             <div class='views-field-body'>A count of information regarding a piece of hardware's memory. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#moduleCount" name=moduleCount>moduleCount</a>
+            </span>
+            <div class='views-field-body'>A count of  </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>

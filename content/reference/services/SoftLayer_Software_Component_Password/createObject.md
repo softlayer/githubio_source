@@ -25,6 +25,7 @@ Create a password for a software component.
 |Name | Type | Description |
 | --- | --- | --- |
 |templateObject| <a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password </a>| The SoftLayer_Software_Component_Password object that you wish to create.|
+|templateObject| <a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password </a>| The SoftLayer_Software_Component_Password object that you wish to create.|
 
 
 ### Required Headers

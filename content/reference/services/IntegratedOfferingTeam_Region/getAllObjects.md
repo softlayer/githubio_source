@@ -1,6 +1,6 @@
 ---
 title: "getAllObjects"
-description: ""
+description: "Returns a list of all Integrated Offering Team regions. Note that this method, despite being visible, is not accessible... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ aliases:
 
 
 ## Overview 
-
+Returns a list of all Integrated Offering Team regions. Note that this method, despite being visible, is not accessible by customers and attempting to use it will result in an error response. 
 
 -----
 
