@@ -35,6 +35,10 @@ This service provides summarization functionality for Swift based accounts. It u
     </div>
     <div id="method-div">
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Hub_Swift_Metrics/getMetricData'> getMetricData</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Hub_Swift_Metrics/getSummaryData'> getSummaryData</a> </span>
             <div class='views-field-body'></div>
         </div>
