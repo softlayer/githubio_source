@@ -25,7 +25,7 @@ aliases:
 |Name | Type | Description |
 | --- | --- | --- |
 |gatewayId| integer| - id of gateway having version change|
-|upgradePkgUrlId| integer| -  id of upgradePkgUrl for version change.|
+|versionUpgradeId| integer| id of VersionUpgrade record to use.|
 
 
 ### Required Headers
