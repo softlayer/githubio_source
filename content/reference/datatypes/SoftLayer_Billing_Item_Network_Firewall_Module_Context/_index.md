@@ -24,7 +24,7 @@ The SoftLayer_Billing_Item_Network_Firewall_Module_Context data type describes t
 
 ### seeAlso
 
-* [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item )
+* [SoftLayer_Billing_Item](/reference/datatypes/SoftLayer_Billing_Item )
 
 
 * [SoftLayer_Network_Firewall_Module_Context](/reference/datatypes/SoftLayer_Network_Firewall_Module_Context )

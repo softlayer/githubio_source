@@ -40,7 +40,7 @@ DNS entries defined by CNAME should not be used as the data field for an MX reco
 * [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain )
 
 
-* [SoftLayer_Dns_Domain_ResourceRecord](/reference/services/SoftLayer_Dns_Domain_ResourceRecord )
+* [SoftLayer_Dns_Domain_ResourceRecord](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord )
 
 
 

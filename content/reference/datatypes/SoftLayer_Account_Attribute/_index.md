@@ -29,7 +29,7 @@ Many SoftLayer customer accounts have individual attributes assigned to them tha
 
 ### seeAlso
 
-* [SoftLayer_Account](/reference/services/SoftLayer_Account )
+* [SoftLayer_Account](/reference/datatypes/SoftLayer_Account )
 
 
 * [SoftLayer_Account_Attribute_Type](/reference/datatypes/SoftLayer_Account_Attribute_Type )

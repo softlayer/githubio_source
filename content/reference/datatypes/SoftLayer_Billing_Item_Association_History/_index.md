@@ -31,7 +31,7 @@ The SoftLayer_Billing_Item_Association_History type keeps a record of which serv
 
 ### seeAlso
 
-* [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item )
+* [SoftLayer_Billing_Item](/reference/datatypes/SoftLayer_Billing_Item )
 
 
 

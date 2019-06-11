@@ -24,7 +24,7 @@ The SoftLayer_Billing_Info_Cycle data type models basic information concerning a
 
 ### seeAlso
 
-* [SoftLayer_Billing_Info](/reference/services/SoftLayer_Billing_Info )
+* [SoftLayer_Billing_Info](/reference/datatypes/SoftLayer_Billing_Info )
 
 
 

@@ -43,7 +43,7 @@ TXT records are commonly used in email verification methods such as Sender Polic
 * [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain )
 
 
-* [SoftLayer_Dns_Domain_ResourceRecord](/reference/services/SoftLayer_Dns_Domain_ResourceRecord )
+* [SoftLayer_Dns_Domain_ResourceRecord](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord )
 
 
 
