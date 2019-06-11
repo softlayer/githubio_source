@@ -24,7 +24,7 @@ The SoftLayer_Billing_Item_Network_Message_Delivery data describes the related b
 
 ### seeAlso
 
-* [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item )
+* [SoftLayer_Billing_Item](/reference/datatypes/SoftLayer_Billing_Item )
 
 
 * [SoftLayer_Network_Message_Delivery](/reference/services/SoftLayer_Network_Message_Delivery )

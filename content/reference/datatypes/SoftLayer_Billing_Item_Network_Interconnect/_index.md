@@ -24,7 +24,7 @@ A SoftLayer_Billing_Item_Network_Interconnect represents the [[SoftLayer_Billing
 
 ### seeAlso
 
-* [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item )
+* [SoftLayer_Billing_Item](/reference/datatypes/SoftLayer_Billing_Item )
 
 
 

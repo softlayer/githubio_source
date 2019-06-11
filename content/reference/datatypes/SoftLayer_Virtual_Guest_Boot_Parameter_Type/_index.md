@@ -24,7 +24,7 @@ Describes a virtual guest boot parameter. In this the word class is used in the 
 
 ### seeAlso
 
-* [SoftLayer_Virtual_Guest_Boot_Parameter](/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter )
+* [SoftLayer_Virtual_Guest_Boot_Parameter](/reference/datatypes/SoftLayer_Virtual_Guest_Boot_Parameter )
 
 
 

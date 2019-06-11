@@ -24,8 +24,8 @@ Find block device template groups containing a GC enabled cloudinit image for th
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|dataCenters| array of strings| The name of the data center containing the images|
-|regions| array of strings| The name of the region containing the images|
+|dataCenters| array of strings| The name of the region containing the images|
+|regions| array of strings| The name of the data center containing the images|
 
 
 ### Required Headers

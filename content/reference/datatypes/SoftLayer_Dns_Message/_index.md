@@ -29,7 +29,7 @@ The SoftLayer_Dns_Message data type contains information for a single message ge
 
 ### seeAlso
 
-* [SoftLayer_Dns_Secondary](/reference/services/SoftLayer_Dns_Secondary )
+* [SoftLayer_Dns_Secondary](/reference/datatypes/SoftLayer_Dns_Secondary )
 
 
 

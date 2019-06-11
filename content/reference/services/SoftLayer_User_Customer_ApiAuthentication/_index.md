@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description
-An account's user may obtain access to SoftLayer's API through this authentication service.
+An account's user may obtain access to SoftLayer's API through this authentication service. 
 
 
 
