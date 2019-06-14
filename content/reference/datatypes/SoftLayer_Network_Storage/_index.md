@@ -40,13 +40,13 @@ The SoftLayer_Network_Storage data type contains general information regarding a
 * [SoftLayer_Network_Storage_Nas](/reference/datatypes/SoftLayer_Network_Storage_Nas )
 
 
-* [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi )
+* [SoftLayer_Network_Storage_Iscsi](/reference/datatypes/SoftLayer_Network_Storage_Iscsi )
 
 
 * [SoftLayer_Network_Storage_Hub](/reference/datatypes/SoftLayer_Network_Storage_Hub )
 
 
-* [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault )
+* [SoftLayer_Network_Storage_Backup_Evault](/reference/datatypes/SoftLayer_Network_Storage_Backup_Evault )
 
 
 

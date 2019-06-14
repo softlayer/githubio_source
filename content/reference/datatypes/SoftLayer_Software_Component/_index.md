@@ -36,7 +36,7 @@ SoftLayer_Software_Component works with SoftLayer_Software_License and SoftLayer
 * [SoftLayer_Software_License](/reference/datatypes/SoftLayer_Software_License )
 
 
-* [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description )
+* [SoftLayer_Software_Description](/reference/datatypes/SoftLayer_Software_Description )
 
 
 

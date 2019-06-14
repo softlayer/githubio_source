@@ -29,7 +29,7 @@ A SoftLayer_User_Employee models a single SoftLayer employee for the purposes of
 
 ### seeAlso
 
-* [SoftLayer_Ticket_Update_Employee](/reference/services/SoftLayer_Ticket_Update_Employee )
+* [SoftLayer_Ticket_Update_Employee](/reference/datatypes/SoftLayer_Ticket_Update_Employee )
 
 
 

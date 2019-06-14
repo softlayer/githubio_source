@@ -28,7 +28,7 @@ A single page in the portal can be thought of as a layout container. The contain
 
 ### seeAlso
 
-* [SoftLayer_Layout_Profile](/reference/services/SoftLayer_Layout_Profile )
+* [SoftLayer_Layout_Profile](/reference/datatypes/SoftLayer_Layout_Profile )
 
 
 * [SoftLayer_Layout_Item](/reference/services/SoftLayer_Layout_Item )

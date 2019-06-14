@@ -24,10 +24,10 @@ SoftLayer_Software_AccountLicense is the application class that handles a specia
 
 ### seeAlso
 
-* [SoftLayer_Account](/reference/services/SoftLayer_Account )
+* [SoftLayer_Account](/reference/datatypes/SoftLayer_Account )
 
 
-* [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description )
+* [SoftLayer_Software_Description](/reference/datatypes/SoftLayer_Software_Description )
 
 
         

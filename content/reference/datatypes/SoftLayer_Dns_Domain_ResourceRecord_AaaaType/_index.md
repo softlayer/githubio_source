@@ -38,7 +38,7 @@ SoftLayer_Dns_Domain_ResourceRecord_AaaaType is a SoftLayer_Dns_Domain_ResourceR
 * [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain )
 
 
-* [SoftLayer_Dns_Domain_ResourceRecord](/reference/services/SoftLayer_Dns_Domain_ResourceRecord )
+* [SoftLayer_Dns_Domain_ResourceRecord](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord )
 
 
 * [SoftLayer_Dns_Domain_ResourceRecord_AType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_AType )
