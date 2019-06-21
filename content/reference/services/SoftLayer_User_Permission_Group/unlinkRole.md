@@ -24,7 +24,7 @@ aliases:
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|role| <a href='/reference/datatypes/SoftLayer_User_Permission_Role'>SoftLayer_User_Permission_Role </a>| |
+|role| <a href='/reference/datatypes/SoftLayer_User_Permission_Role'>SoftLayer_User_Permission_Role </a>| Permission Role to be unlinked.|
 
 
 ### Required Headers

@@ -24,7 +24,7 @@ Every SoftLayer_Auxiliary_Notification_Emergency has a statusId that references 
 
 ### seeAlso
 
-* [SoftLayer_Auxiliary_Notification_Emergency](/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency )
+* [SoftLayer_Auxiliary_Notification_Emergency](/reference/services/SoftLayer_Auxiliary_Notification_Emergency )
 
 
 

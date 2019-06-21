@@ -24,7 +24,7 @@ aliases:
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|actions| <a href='/reference/datatypes/SoftLayer_User_Permission_Action'>SoftLayer_User_Permission_Action[] </a>| |
+|actions| <a href='/reference/datatypes/SoftLayer_User_Permission_Action'>SoftLayer_User_Permission_Action[] </a>| Permission Actions to be removed.|
 
 
 ### Required Headers

@@ -43,7 +43,7 @@ MX records must be defined for hosts with accompanying A or AAAA resource record
 * [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain )
 
 
-* [SoftLayer_Dns_Domain_ResourceRecord](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord )
+* [SoftLayer_Dns_Domain_ResourceRecord](/reference/services/SoftLayer_Dns_Domain_ResourceRecord )
 
 
 

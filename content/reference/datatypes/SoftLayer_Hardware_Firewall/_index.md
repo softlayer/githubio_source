@@ -1003,6 +1003,26 @@ The SoftLayer_Hardware_Firewall data type contains general information relating 
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#nvRamCapacity" name=nvRamCapacity>nvRamCapacity</a>
+            </span>
+            <div class='views-field-body'>The amount of non-volatile memory a piece of hardware has, measured in gigabytes. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsigned integer</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#nvRamComponentModels" name=nvRamComponentModels>nvRamComponentModels</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model[] </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#operatingSystemReferenceCode" name=operatingSystemReferenceCode>operatingSystemReferenceCode</a>
             </span>
             <div class='views-field-body'>A hardware's operating system software description. </div>
@@ -1825,6 +1845,16 @@ The SoftLayer_Hardware_Firewall data type contains general information relating 
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
                 <a href="#notesHistoryCount" name=notesHistoryCount>notesHistoryCount</a>
+            </span>
+            <div class='views-field-body'>A count of  </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#nvRamComponentModelCount" name=nvRamComponentModelCount>nvRamComponentModelCount</a>
             </span>
             <div class='views-field-body'>A count of  </div>
             <span class="type-label">Type:</span> 
