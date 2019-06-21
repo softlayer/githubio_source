@@ -31,7 +31,7 @@ SoftLayer customers are unable to change their hardware transactions.
 
 ### seeAlso
 
-* [SoftLayer_Provisioning_Version1_Transaction_Group](/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_Group )
+* [SoftLayer_Provisioning_Version1_Transaction_Group](/reference/services/SoftLayer_Provisioning_Version1_Transaction_Group )
 
 
 * [SoftLayer_Provisioning_Version1_Transaction_Status](/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_Status )

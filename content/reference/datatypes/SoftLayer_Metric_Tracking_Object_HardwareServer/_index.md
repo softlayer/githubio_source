@@ -27,7 +27,7 @@ SoftLayer_Metric_Tracking_Object_HardwareServer models tracking objects specific
 * [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object )
 
 
-* [SoftLayer_Hardware_Server](/reference/datatypes/SoftLayer_Hardware_Server )
+* [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server )
 
 
 

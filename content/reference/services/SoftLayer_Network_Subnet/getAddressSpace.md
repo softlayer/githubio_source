@@ -1,6 +1,6 @@
 ---
 title: "getAddressSpace"
-description: "Retrieve identifier which distinguishes whether the subnet is public or private address space."
+description: "Retrieve identifier which distinguishes what classification of addresses the subnet represents."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getAddressSpace
 
-Retrieve identifier which distinguishes whether the subnet is public or private address space.
+Retrieve identifier which distinguishes what classification of addresses the subnet represents.
 
 
 ## Overview 
-Retrieve identifier which distinguishes whether the subnet is public or private address space.
+Retrieve identifier which distinguishes what classification of addresses the subnet represents.
 
 -----
 

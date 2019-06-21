@@ -668,6 +668,14 @@ Every SoftLayer server is defined in the SoftLayer_Hardware_Server service. Soft
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/getNvRamCapacity'> getNvRamCapacity</a> </span>
+            <div class='views-field-body'>Retrieve the amount of non-volatile memory a piece of hardware has, measured in gigabytes.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/getNvRamComponentModels'> getNvRamComponentModels</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Server/getObject'> getObject</a> </span>
             <div class='views-field-body'>Retrieve a SoftLayer_Hardware_Server record.</div>
         </div>

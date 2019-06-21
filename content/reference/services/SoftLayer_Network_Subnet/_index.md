@@ -37,7 +37,7 @@ SoftLayer customers can order and manage subnets through the customer portal. If
 
 ### seeAlso
 
-* [SoftLayer_Network_Vlan](/reference/datatypes/SoftLayer_Network_Vlan )
+* [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan )
 
 
 * [SoftLayer_Network_IpAddress](/reference/datatypes/SoftLayer_Network_IpAddress )
@@ -101,7 +101,7 @@ SoftLayer customers can order and manage subnets through the customer portal. If
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Subnet/getAddressSpace'> getAddressSpace</a> </span>
-            <div class='views-field-body'>Retrieve identifier which distinguishes whether the subnet is public or private address space.</div>
+            <div class='views-field-body'>Retrieve identifier which distinguishes what classification of addresses the subnet represents.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Subnet/getAllowedHost'> getAllowedHost</a> </span>

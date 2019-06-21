@@ -35,13 +35,13 @@ Typically the only tickets an account user may create are technical support tick
 * [SoftLayer_Ticket_Update_Customer](/reference/datatypes/SoftLayer_Ticket_Update_Customer )
 
 
-* [SoftLayer_Ticket_Update_Employee](/reference/datatypes/SoftLayer_Ticket_Update_Employee )
+* [SoftLayer_Ticket_Update_Employee](/reference/services/SoftLayer_Ticket_Update_Employee )
 
 
 * [SoftLayer_Ticket_Attachment_Hardware](/reference/datatypes/SoftLayer_Ticket_Attachment_Hardware )
 
 
-* [SoftLayer_Ticket_Attachment_File](/reference/datatypes/SoftLayer_Ticket_Attachment_File )
+* [SoftLayer_Ticket_Attachment_File](/reference/services/SoftLayer_Ticket_Attachment_File )
 
 
 * [SoftLayer_Ticket_Group](/reference/datatypes/SoftLayer_Ticket_Group )
@@ -50,7 +50,7 @@ Typically the only tickets an account user may create are technical support tick
 * [SoftLayer_Ticket_Status](/reference/datatypes/SoftLayer_Ticket_Status )
 
 
-* [SoftLayer_Ticket_Subject](/reference/datatypes/SoftLayer_Ticket_Subject )
+* [SoftLayer_Ticket_Subject](/reference/services/SoftLayer_Ticket_Subject )
 
 
         

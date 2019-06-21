@@ -36,7 +36,7 @@ SoftLayer_Dns_Domain_Registration_Status models the state of domain name. Here a
 
 ### seeAlso
 
-* [SoftLayer_Dns_Domain_Registration](/reference/datatypes/SoftLayer_Dns_Domain_Registration )
+* [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration )
 
 
 
