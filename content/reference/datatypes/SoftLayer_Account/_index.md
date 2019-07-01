@@ -1301,6 +1301,16 @@ SoftLayer customers are unable to change their company account information in th
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#iscsiIsolationDisabled" name=iscsiIsolationDisabled>iscsiIsolationDisabled</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#iscsiNetworkStorage" name=iscsiNetworkStorage>iscsiNetworkStorage</a>
             </span>
             <div class='views-field-body'>An account's associated iSCSI storage volumes. </div>
