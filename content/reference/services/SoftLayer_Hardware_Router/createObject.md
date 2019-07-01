@@ -291,7 +291,6 @@ Location: https://api.softlayer.com/rest/v3/SoftLayer_Hardware/f5a3fcff-db1d-4b7
 |Name | Type | Description |
 | --- | --- | --- |
 |templateObject| <a href='/reference/datatypes/SoftLayer_Hardware_Router'>SoftLayer_Hardware_Router </a>| The SoftLayer_Hardware_Router object that you wish to create.|
-|templateObject| <a href='/reference/datatypes/SoftLayer_Hardware_Router'>SoftLayer_Hardware_Router </a>| The SoftLayer_Hardware_Router object that you wish to create.|
 
 
 ### Required Headers
