@@ -1511,6 +1511,16 @@ SoftLayer customers are unable to change their company account information in th
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#migratedToIbmCloudPortalFlag" name=migratedToIbmCloudPortalFlag>migratedToIbmCloudPortalFlag</a>
+            </span>
+            <div class='views-field-body'>Flag indicating whether this account is restricted to the IBM Cloud portal. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#monthlyBareMetalInstances" name=monthlyBareMetalInstances>monthlyBareMetalInstances</a>
             </span>
             <div class='views-field-body'>An account's associated monthly bare metal server objects. </div>
