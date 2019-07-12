@@ -167,6 +167,10 @@ The virtual guest block device template group service provides a common interfac
             <div class='views-field-body'>Retrieve the virtual disk image type keyname (e.g. SYSTEM, DISK_CAPTURE, ISO, etc) of this template. Value will be populated on parent and child, but only supports object filtering on the parent.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getNextGenFlag'> getNextGenFlag</a> </span>
+            <div class='views-field-body'>Retrieve a flag indicating if this is a next generation image.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getObject'> getObject</a> </span>
             <div class='views-field-body'>Retrieve a SoftLayer_Virtual_Guest_Block_Device_Template_Group record.</div>
         </div>

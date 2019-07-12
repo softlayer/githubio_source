@@ -171,6 +171,16 @@ classes:
                 <p>string</p>
             </div>
         </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#subnetsInAcl" name=subnetsInAcl>subnetsInAcl</a>
+            </span>
+            <div class='views-field-body'>The SoftLayer_Network_Subnet records assigned to the ACL for this allowed host. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a></p>
+            </div>
+        </div>
                 <h2>Count</h2>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
@@ -217,6 +227,16 @@ classes:
                 <a href="#assignedVolumeCount" name=assignedVolumeCount>assignedVolumeCount</a>
             </span>
             <div class='views-field-body'>A count of the SoftLayer_Network_Storage volumes to which this SoftLayer_Network_Storage_Allowed_Host is allowed access. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#subnetsInAclCount" name=subnetsInAclCount>subnetsInAclCount</a>
+            </span>
+            <div class='views-field-body'>A count of the SoftLayer_Network_Subnet records assigned to the ACL for this allowed host. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>
