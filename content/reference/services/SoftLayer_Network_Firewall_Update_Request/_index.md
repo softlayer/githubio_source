@@ -30,16 +30,16 @@ The SoftLayer_Network_Firewall_Update_Request service can be used to create Soft
 
 ### seeAlso
 
-* [SoftLayer_Network_Component_Firewall](/reference/datatypes/SoftLayer_Network_Component_Firewall )
+* [SoftLayer_Network_Component_Firewall](/reference/services/SoftLayer_Network_Component_Firewall )
 
 
-* [SoftLayer_Network_Firewall_Template](/reference/datatypes/SoftLayer_Network_Firewall_Template )
+* [SoftLayer_Network_Firewall_Template](/reference/services/SoftLayer_Network_Firewall_Template )
 
 
-* [SoftLayer_Network_Component_Firewall](/reference/datatypes/SoftLayer_Network_Component_Firewall )
+* [SoftLayer_Network_Component_Firewall](/reference/services/SoftLayer_Network_Component_Firewall )
 
 
-* [SoftLayer_Network_Firewall_Template](/reference/datatypes/SoftLayer_Network_Firewall_Template )
+* [SoftLayer_Network_Firewall_Template](/reference/services/SoftLayer_Network_Firewall_Template )
 
 
         

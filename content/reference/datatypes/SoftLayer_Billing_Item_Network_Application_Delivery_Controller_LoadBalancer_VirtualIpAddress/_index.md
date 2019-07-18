@@ -24,7 +24,7 @@ A SoftLayer_Billing_Item_Network_Application_Delivery_Controller_LoadBalancer re
 
 ### seeAlso
 
-* [SoftLayer_Billing_Item](/reference/datatypes/SoftLayer_Billing_Item )
+* [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item )
 
 
 * [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress )

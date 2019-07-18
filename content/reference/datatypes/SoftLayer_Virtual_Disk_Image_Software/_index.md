@@ -24,7 +24,7 @@ A SoftLayer_Virtual_Disk_Image_Software record connects a computing instance's v
 
 ### seeAlso
 
-* [SoftLayer_Virtual_Disk_Image](/reference/datatypes/SoftLayer_Virtual_Disk_Image )
+* [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image )
 
 
 * [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description )

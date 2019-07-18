@@ -29,7 +29,7 @@ classes:
 
 ### seeAlso
 
-* [SoftLayer_Auxiliary_Press_Release_About](/reference/datatypes/SoftLayer_Auxiliary_Press_Release_About )
+* [SoftLayer_Auxiliary_Press_Release_About](/reference/services/SoftLayer_Auxiliary_Press_Release_About )
 
 
 

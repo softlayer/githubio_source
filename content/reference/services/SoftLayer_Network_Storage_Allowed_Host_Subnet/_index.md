@@ -35,6 +35,10 @@ classes:
     </div>
     <div id="method-div">
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Allowed_Host_Subnet/assignSubnetsToAcl'> assignSubnetsToAcl</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Allowed_Host_Subnet/createFromHardware'> createFromHardware</a> </span>
             <div class='views-field-body'>Creates and returns a new SoftLayer_Network_Storage_Allowed_Host.</div>
         </div>
@@ -97,6 +101,14 @@ classes:
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Allowed_Host_Subnet/getSourceSubnet'> getSourceSubnet</a> </span>
             <div class='views-field-body'>Retrieve connections to a target with a source IP in this subnet prefix are allowed.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Allowed_Host_Subnet/getSubnetsInAcl'> getSubnetsInAcl</a> </span>
+            <div class='views-field-body'>Retrieve the SoftLayer_Network_Subnet records assigned to the ACL for this allowed host.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Allowed_Host_Subnet/removeSubnetsFromAcl'> removeSubnetsFromAcl</a> </span>
+            <div class='views-field-body'></div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Allowed_Host_Subnet/setCredentialPassword'> setCredentialPassword</a> </span>

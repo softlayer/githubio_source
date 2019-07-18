@@ -475,6 +475,14 @@ Every SoftLayer hardware is defined in the SoftLayer_Hardware service. SoftLayer
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware/getNvRamCapacity'> getNvRamCapacity</a> </span>
+            <div class='views-field-body'>Retrieve the amount of non-volatile memory a piece of hardware has, measured in gigabytes.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware/getNvRamComponentModels'> getNvRamComponentModels</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware/getObject'> getObject</a> </span>
             <div class='views-field-body'>Retrieve a SoftLayer_Hardware record.</div>
         </div>

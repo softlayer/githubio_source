@@ -589,6 +589,10 @@ SoftLayer customers are unable to change their company account information in th
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getIscsiIsolationDisabled'> getIscsiIsolationDisabled</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getIscsiNetworkStorage'> getIscsiNetworkStorage</a> </span>
             <div class='views-field-body'>Retrieve an account's associated iSCSI storage volumes.</div>
         </div>
@@ -675,6 +679,10 @@ The use of $locationId has been deprecated. </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getMediaDataTransferRequests'> getMediaDataTransferRequests</a> </span>
             <div class='views-field-body'>Retrieve an account's media transfer service requests.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getMigratedToIbmCloudPortalFlag'> getMigratedToIbmCloudPortalFlag</a> </span>
+            <div class='views-field-body'>Retrieve flag indicating whether this account is restricted to the IBM Cloud portal.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getMonthlyBareMetalInstances'> getMonthlyBareMetalInstances</a> </span>

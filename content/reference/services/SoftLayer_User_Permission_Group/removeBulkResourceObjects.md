@@ -25,7 +25,7 @@ aliases:
 |Name | Type | Description |
 | --- | --- | --- |
 |resourceObjects| <a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity[] </a>| The objects of the resources you want to remove from this group.|
-|resourceTypeKeyName| string| An optional keyname for the type of resources being passed.|
+|resourceTypeKeyName| string| $resourceTypeKeyName An optional keyname for the type of resources being passed.|
 
 
 ### Required Headers

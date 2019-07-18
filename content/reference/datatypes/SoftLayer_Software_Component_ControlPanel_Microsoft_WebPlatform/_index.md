@@ -24,7 +24,7 @@ This object specifies a specific Software Component:  A WebPlatform instance. We
 
 ### seeAlso
 
-* [SoftLayer_Software_Component](/reference/datatypes/SoftLayer_Software_Component )
+* [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component )
 
 
 
