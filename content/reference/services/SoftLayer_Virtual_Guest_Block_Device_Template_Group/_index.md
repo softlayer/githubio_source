@@ -211,6 +211,10 @@ The virtual guest block device template group service provides a common interfac
             <div class='views-field-body'>Retrieve the tags associated with this image template group.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getTemplateDataCenterName'> getTemplateDataCenterName</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getTransaction'> getTransaction</a> </span>
             <div class='views-field-body'>Retrieve a transaction that is being performed on a image template group.</div>
         </div>
