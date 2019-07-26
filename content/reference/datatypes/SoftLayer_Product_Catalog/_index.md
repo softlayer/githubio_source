@@ -38,6 +38,16 @@ A Catalog is defined as a set of prices for products that SoftLayer offers for s
 <div id="properties" class="content">
     <div id="localProperties" class="prop-content" >
         <h2>Local</h2>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#keyName" name=keyName>keyName</a>
+            </span>
+            <div class='views-field-body'>The Key Name of the Catalog, used for direct references </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
             </div>
         <div id="relationalProperties"  class="prop-content" >
         <h2>Relational</h2>
