@@ -17,13 +17,18 @@ tags:
 To get the items KeyNames available to upgrade your VSI, you can use the service
 SoftLayer_Virtual_Guest::getUpgradeItemPrices. Add to your request a mask as the below to retrieve the items KeyNames.
 
-```mask[id,item[id,keyName,description]```
+```
+mask[id,item[id,keyName,description]
+```
+
 
 I suggest you to search the items comparing with the control portal, use the description and search in the response,
 then use the keyName of that item.
 
 Change the "items" variable with the cpu and ram keyNames you want to upgrade your vs.
 e.g. I am upgrading the cpu from 2 x 2.0 GHz to 8 x 2.0 GHz and the ram from 4 GB to 12 GB.
+
+
 ```python
 import json
 
