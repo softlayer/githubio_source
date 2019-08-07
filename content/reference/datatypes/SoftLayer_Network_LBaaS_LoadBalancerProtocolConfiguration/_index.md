@@ -122,7 +122,7 @@ SoftLayer_Network_LBaaS_LoadBalancerProtocolConfiguration specifies the protocol
             <span class='views-field-title'>
                 <a href="#sessionType" name=sessionType>sessionType</a>
             </span>
-            <div class='views-field-body'>Session stickiness type. Valid values are "SOURCE_IP" </div>
+            <div class='views-field-body'>Session stickiness type. Valid values are "SOURCE_IP" "HTTP_COOKIE" </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>string</p>
