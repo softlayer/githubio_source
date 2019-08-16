@@ -37,12 +37,14 @@ Places an order for a Bare Metal Server
 """
 import SoftLayer
 from pprint import pprint as pp
+from prettytable import PrettyTable
 
-class ordering():
+
+class Ordering:
 
     def __init__(self):
 
-        self.client = SoftLayer.Client()
+        self.client = SoftLayer.create_client_from_env()
 
     def main(self, package_id, location_id, pub_vlan_id='', priv_vlan_id=''):
         """
@@ -73,56 +75,59 @@ class ordering():
             'HARD_DRIVE_2_00_TB_SATA_2',
             'HARD_DRIVE_2_00_TB_SATA_2',
             'RAM_64_GB_DDR4_2133_ECC_NON_REG',
-            'OS_CENTOS_7_X_64_BIT',
+            # 'OS_CENTOS_7_X_64_BIT',
+            'OS_WINDOWS_2012_FULL_STD_64_BIT',
             'INTEL_INTEL_XEON_E52620_V4_2_10',
-            'HARD_DRIVE_NVME_375_GB_PCIE',    # PCIe component slot0
-            'HARD_DRIVE_NVME_375_GB_PCIE'     # PCIe component slot1
+            'HARD_DRIVE_NVME_375_GB_PCIE',  # PCIe component slot0
+            'HARD_DRIVE_NVME_375_GB_PCIE'  # PCIe component slot1
         ]
 
         all_items = required_items + network_items + physical_items
         prices = self.gatherPriceIds(package_id, all_items)
         productOrder = {'orderContainers': [
-                {'hardware': 
-                    [
-                        {
-                            'domain': u'cgallo.com',
-                            'hostname': u'vmware-testing01',
-                            'primaryBackendNetworkComponent': {'networkVlan': {'id' : int(priv_vlan_id)}},
-                            'primaryNetworkComponent': {'networkVlan': {'id' : int(pub_vlan_id)}}
-                        }
-                    ],
-                    'location': location_id,
-                    'packageId': package_id,
-                    'prices': prices,
-                    'quantity': 1,
-                    'storageGroups' : [
-                        {
-                            'arrayTypeId': 2,
-                            'arraySize': 2000,
-                            'hardDrives': [0,1],
-                            'partitionTemplateId' : 1
-                        },
-                        {
-                            'arrayTypeId': 9,
-                            'arraySize' : 2000,
-                            'hardDrives': [2],
-                            'partitions' : [
-                                {'name' : '/', 'size': 200, 'isGrow': 0},
-                                {'name' : '/boot', 'size': 100},
-                                {'name' : '/usr', 'size': 200},
-                                {'name' : '/mine', 'size': 200},
-                                {'name' : '/media', 'size': 1, 'isGrow': 1},
-                            ]
+            {'hardware':
+                [
+                    {
+                        'domain': u'cgallo.com',
+                        'hostname': u'vmware-testing01',
+                        'primaryBackendNetworkComponent': {'networkVlan': {'id': int(priv_vlan_id)}},
+                        'primaryNetworkComponent': {'networkVlan': {'id': int(pub_vlan_id)}}
+                    }
+                ],
+                'location': location_id,
+                'packageId': package_id,
+                'prices': prices,
+                'quantity': 1,
+                'storageGroups': [
+                    {
+                        'arrayTypeId': 2,
+                        'arraySize': 2000,
+                        'hardDrives': [0, 1],
+                        'partitionTemplateId': 1
+                    },
+                    {
+                        'arrayTypeId': 9,
+                        'arraySize': 2000,
+                        'hardDrives': [2],
+                        # Defining partitions on secondary storage groups is only allowed for CentOS
+                        # and Red Hat operating systems.
+                        # 'partitions': [
+                        #     {'name': '/', 'size': 200, 'isGrow': 0},
+                        #     {'name': '/boot', 'size': 100},
+                        #     {'name': '/usr', 'size': 200},
+                        #     {'name': '/mine', 'size': 200},
+                        #     {'name': '/media', 'size': 1, 'isGrow': 1},
+                        # ]
 
-                        },
-                        {
-                            'arrayTypeId': 9,
-                            'arraySize': 2000,
-                            'hardDrives': [3]
-                        }
-                    ],
-                }
-            ]
+                    },
+                    {
+                        'arrayTypeId': 9,
+                        'arraySize': 2000,
+                        'hardDrives': [3]
+                    }
+                ],
+            }
+        ]
         }
         pp(productOrder)
         order = self.client['Product_Order'].verifyOrder(productOrder)
@@ -137,116 +142,158 @@ class ordering():
             },
         }
         result = self.client['Product_Package'].getAllObjects(mask=mask, filter=_filter)
+        table = PrettyTable()
+        table.title = "Server Packages"
+        table.field_names = ["id", "name", "keyName", "type"]
 
         for product in result:
-            print("%s - %s - %s - %s" % 
-                (product['id'],
-                 product['name'],
-                 product['keyName'],
-                 product['type']['keyName'])
-            )
-            
+            table.add_row([product['id'],
+                           product['name'],
+                           product['keyName'],
+                           product['type']['keyName']]
+                          )
+        print(table)
+
     def listPartitionTemplates(self):
         mask = "mask[partitionTemplates[data]]"
         result = self.client['SoftLayer_Hardware_Component_Partition_OperatingSystem'].getAllObjects(mask=mask)
         print("OS Type, Notes")
+        table = PrettyTable()
+        table.title = "Partition Templates"
+        table.field_names = ["OS Type - Notes"]
         for os_type in result:
-            print("%s - %s" % (os_type['description'],os_type['notes']))
-            print("\tTemplate id, Description")
+            table_os = PrettyTable()
+            table_os.title = "{} - {}".format(os_type['description'], os_type['notes'])
+            table_os.field_names = ["Template id", "Description"]
             for template in os_type['partitionTemplates']:
-                print("\t%s - %s " % (template['id'],template['description']))
+                template_data = []
+                table_partition = PrettyTable()
+                table_partition.field_names = [template['description']]
+                table_partition.align[template['description']] = "l"
                 for partition in template['data']:
-                    print("\t\t%s - %s %s" % 
-                        (partition['partitionName'], 
-                         partition['partitionSize'], 
-                         'Grow' if partition['isGrow'] else '')
-                    )
+                    template_data.append("{} - {} {}"
+                                         .format(partition['partitionName'],
+                                                 partition['partitionSize'],
+                                                 'Grow' if partition['isGrow'] else ''))
+                table_partition.add_row(['\n'.join(template_data)])
+                table_os.add_row([template['id'], table_partition])
+            table.add_row([table_os])
+
+        print(table)
 
     def listRaidArrayTypes(self):
         result = self.client['SoftLayer_Configuration_Storage_Group_Array_Type'].getAllObjects()
+        table = PrettyTable()
+        table.title = "Raid Array Types"
+        table.field_names = ["id", "keyName", "description", "Min", 'Max']
         for raid in result:
-            print("%s - %s - %s Min:%s Max:%s" % 
-                (raid['id'], 
-                 raid['keyName'], 
-                 raid['description'], 
-                 raid['minimumDrives'], 
-                 raid['maximumDrives'])
-            ) 
+            table.add_row([raid['id'],
+                           raid['keyName'],
+                           raid['description'],
+                           raid['minimumDrives'],
+                           raid['maximumDrives']]
+                          )
+        print(table)
 
     def listAvailableVlans(self, dc_id):
         mask = "mask[network,type,primaryRouter[datacenter]]"
         _filter = {
-            'networkVlans' : {
+            'networkVlans': {
                 'primaryRouter': {
-                    'datacenter' : { 'id': {'operation': dc_id} }
+                    'datacenter': {'id': {'operation': dc_id}}
                 }
             }
         }
-        result = self.client['SoftLayer_Account'].getNetworkVlans(mask=mask,filter=_filter)
+        result = self.client['SoftLayer_Account'].getNetworkVlans(mask=mask, filter=_filter)
+        table = PrettyTable()
+        table.title = "Available Vlans"
+        table.field_names = ["id", "VLAN", "type", "primaryRouter"]
         for vlan in result:
-            print("%s - VLAN: %s - Type: %s - %s " % 
-                (vlan['id'], 
-                 vlan['vlanNumber'],
-                 vlan['type']['keyName'], 
-                 vlan['primaryRouter']['hostname'])
-            )
+            table.add_row([vlan['id'],
+                           vlan['vlanNumber'],
+                           vlan['type']['keyName'],
+                           vlan['primaryRouter']['hostname']]
+                          )
+        print(table)
 
     def getServerPrices(self, package_id):
         mask = "mask[regions,items[prices],activeServerItems[prices]]"
         # locations = self.client['Product_Package'].getLocations(id=package_id)
-        result = self.client['Product_Package'].getObject(mask=mask,id=package_id)
-        print("Location ID, Location Name")
+        result = self.client['Product_Package'].getObject(mask=mask, id=package_id)
+
+        table = PrettyTable()
+        table.title = "Locations"
+        table.field_names = ["Location ID", "Location Name"]
         for location in result['regions']:
-            print("%s - %s " % (location['location']['location']['id'],location['description']))
-        print("Price ID, description, Monthly Fee, KeyName")
+            table.add_row([location['location']['location']['id'], location['description']])
+        print(table)
+
+        table = PrettyTable()
+        table.title = "Items Prices"
+        table.field_names = ["Price ID", "description", "cores", "Monthly Fee", "KeyName"]
         for item in result['items']:
             for prices in item['prices']:
-                # only print the Default location price. 
+                # only print the Default location price.
                 # The ordering system will replace the default price id for you if ordering in a non-usa region.
-                if prices['locationGroupId'] is '':
+                if prices['locationGroupId'] is None:
                     # Some software has core restrictions that effect prices
                     if 'capacityRestrictionType' in prices:
                         cores = "%s - %s" % (
-                             prices['capacityRestrictionMinimum'], 
-                             prices['capacityRestrictionMaximum'])
-                        print("%s, %s - %s cores, $%s, %s " % 
-                            (prices['id'],
-                             item['description'],
-                             cores,prices.get('recurringFee','?'),
-                             item['keyName'])
-                        )
+                            prices['capacityRestrictionMinimum'],
+                            prices['capacityRestrictionMaximum'])
+                        table.add_row([prices['id'],
+                                       str(item['description']).replace(" - ", "\n"),
+                                       cores, prices.get('recurringFee', '?'),
+                                       item['keyName']])
+
                     else:
-                        print("%s, %s, $%s, %s " % 
-                            (prices['id'],
-                              item['description'],
-                              prices.get('recurringFee','?'),
-                              item['keyName'])
-                        )
-        print("======= SERVER ITEMS =======")
+                        table.add_row([prices['id'],
+                                       str(item['description']).replace(" - ", "\n"),
+                                       "", prices.get('recurringFee', '?'),
+                                       item['keyName']])
+        print(table)
+
         # serverItems = self.client['Product_Package'].getActiveServerItems(id=package_id)
-        print("Price ID, description, Monthly Fee, KeyName")
+        table = PrettyTable()
+        table.title = "SERVER ITEMS"
+        table.field_names = ["Price ID", "description", "Monthly Fee", "KeyName"]
         for item in result['activeServerItems']:
             for prices in item['prices']:
-                # only print the Default location price. 
+                # only print the Default location price.
                 # The ordering system will replace the default price id for you if ordering in a non-usa region.
-                if prices['locationGroupId'] is '':
-                    print("%s, %s, $%s, %s " % 
-                        (prices['id'],
-                         item['description'],
-                         prices.get('recurringFee','?'),
-                         item['keyName'])
-                    )
+                if prices['locationGroupId'] is None:
+                    table.add_row([prices['id'],
+                                   str(item['description']).replace(" - ", "\n"),
+                                   prices.get('recurringFee', '?'),
+                                   item['keyName']])
+        print(table)
 
-    def gatherPriceIds(self,package_id,keyNames):
-        # This wont work for prices that have core requirements
-        mask = 'mask[id,itemCategory,keyName,prices[categories]]'
+    def gatherPriceIds(self, package_id, keyNames):
+        # This will work for prices that have core requirements
+        mask = 'mask[id,itemCategory,keyName,prices[categories],' \
+               'capacityRestrictedProductFlag,totalPhysicalCoreCapacity]'
         items = self.client['Product_Package'].getItems(mask=mask, id=package_id)
+
+        items_restricted_by_capacity = [item for item in items if item['capacityRestrictedProductFlag'] is True]
 
         prices = []
         category_dict = {"gpu0": -1, "pcie_slot0": -1}
-        
+        core_capacity = 0
+
         for item_keyname in keyNames:
-            try:                
+            try:
+                matching_item = [i for i in items if i['keyName'] == item_keyname][0]
+            except IndexError:
+                raise SoftLayer.SoftLayerError(
+                    "Item {} does not exist for package {}".format(item_keyname,
+                                                                   package_id))
+            item_category = matching_item['itemCategory']['categoryCode']
+            if item_category == 'server':
+                core_capacity = int(matching_item['totalPhysicalCoreCapacity'])
+                break
+
+        for item_keyname in keyNames:
+            try:
                 matching_item = [i for i in items if i['keyName'] == item_keyname][0]
             except IndexError:
                 raise SoftLayer.SoftLayerError(
@@ -254,24 +301,32 @@ class ordering():
                                                                    package_id))
 
             item_category = matching_item['itemCategory']['categoryCode']
-            
+
             if item_category not in category_dict:
-                price_id = [p['id'] for p in matching_item['prices']
-                            if not p['locationGroupId']][0]
+
+                if matching_item in items_restricted_by_capacity:
+                    price_id = [p['id'] for p in matching_item['prices']
+                                if not p['locationGroupId']
+                                and core_capacity <= int(p['capacityRestrictionMaximum'])][0]
+
+                else:
+                    price_id = [p['id'] for p in matching_item['prices']
+                                if not p['locationGroupId']][0]
+
             else:
                 category_dict[item_category] += 1
                 category_code = item_category[:-1] + str(category_dict[item_category])
                 price_id = [p['id'] for p in matching_item['prices']
-                                if not p['locationGroupId']
-                                and p['categories'][0]['categoryCode'] == category_code][0]
+                            if not p['locationGroupId']
+                            and p['categories'][0]['categoryCode'] == category_code][0]
 
             prices.append({"id": price_id})
-        
+
         return prices
 
-if __name__ == "__main__":
 
-    main = ordering()
+if __name__ == "__main__":
+    main = Ordering()
 
     """
     Step 1, find the processor type you want    
@@ -287,17 +342,17 @@ if __name__ == "__main__":
     server is available in.
     """
     main.getServerPrices(package_id)
-    location_id = 814994 #"AMSTERDAM03"
+    location_id = 814994  # "AMSTERDAM03"
 
     """
     Step 3, customize and place the order
     """
     main.listAvailableVlans(location_id)
-    pub_vlan_id  = 2439425
+    pub_vlan_id = 2439425
     priv_vlan_id = 2207425
     # main.listPartitionTemplates()
     main.listRaidArrayTypes()
-    main.main(package_id,location_id,pub_vlan_id,priv_vlan_id)
+    main.main(package_id, location_id, pub_vlan_id, priv_vlan_id)
 ```
 
 
