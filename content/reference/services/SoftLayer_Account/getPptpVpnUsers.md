@@ -1,6 +1,6 @@
 ---
 title: "getPptpVpnUsers"
-description: "Retrieve an account's associated portal users with PPTP VPN access."
+description: "Retrieve an account's associated portal users with PPTP VPN access. (Deprecated)"
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPptpVpnUsers
 
-Retrieve an account's associated portal users with PPTP VPN access.
+Retrieve an account's associated portal users with PPTP VPN access. (Deprecated)
 
 
 ## Overview 
-Retrieve an account's associated portal users with PPTP VPN access.
+Retrieve an account's associated portal users with PPTP VPN access. (Deprecated)
 
 -----
 

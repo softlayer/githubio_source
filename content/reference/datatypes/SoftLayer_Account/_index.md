@@ -2133,7 +2133,7 @@ SoftLayer customers are unable to change their company account information in th
             <span class='views-field-title'>
                 <a href="#pptpVpnUsers" name=pptpVpnUsers>pptpVpnUsers</a>
             </span>
-            <div class='views-field-body'>An account's associated portal users with PPTP VPN access. </div>
+            <div class='views-field-body'>An account's associated portal users with PPTP VPN access. (Deprecated) </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a></p>
@@ -4084,7 +4084,7 @@ SoftLayer customers are unable to change their company account information in th
             <span class='views-field-title'>
                 <a href="#pptpVpnUserCount" name=pptpVpnUserCount>pptpVpnUserCount</a>
             </span>
-            <div class='views-field-body'>A count of an account's associated portal users with PPTP VPN access. </div>
+            <div class='views-field-body'>A count of an account's associated portal users with PPTP VPN access. (Deprecated) </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>
