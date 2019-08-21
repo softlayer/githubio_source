@@ -958,7 +958,7 @@ The use of $locationId has been deprecated. </div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getPptpVpnUsers'> getPptpVpnUsers</a> </span>
-            <div class='views-field-body'>Retrieve an account's associated portal users with PPTP VPN access.</div>
+            <div class='views-field-body'>Retrieve an account's associated portal users with PPTP VPN access. (Deprecated)</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getPreviousRecurringRevenue'> getPreviousRecurringRevenue</a> </span>
