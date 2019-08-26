@@ -27,6 +27,7 @@ Returns manufacturer name for a given gateway object.
 |Name | Type | Description |
 | --- | --- | --- |
 |checkSameOs| boolean| |
+|checkOsReloadMember| boolean| |
 
 
 ### Required Headers
