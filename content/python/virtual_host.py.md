@@ -552,7 +552,7 @@ class CreateVirtualHost:
 
 
 if __name__ == "__main__":
-    main = Ordering()
+    main = CreateVirtualHost()
 
     # main.listServerPackages()
     package_id = 1051
