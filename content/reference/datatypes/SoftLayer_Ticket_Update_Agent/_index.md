@@ -124,6 +124,16 @@ A SoftLayer_Ticket_Update_Agent type models an update to a ticket made by an age
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#chat" name=chat>chat</a>
+            </span>
+            <div class='views-field-body'>The chat between the Customer and Agent </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Ticket_Chat_Liveperson'>SoftLayer_Ticket_Chat_Liveperson </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#fileAttachment" name=fileAttachment>fileAttachment</a>
             </span>
             <div class='views-field-body'>The files attached to a ticket update. </div>

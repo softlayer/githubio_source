@@ -134,6 +134,16 @@ The SoftLayer_Ticket_Update_Employee data type models an update to a ticket made
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#chat" name=chat>chat</a>
+            </span>
+            <div class='views-field-body'>The chat between the Customer and Agent </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Ticket_Chat_Liveperson'>SoftLayer_Ticket_Chat_Liveperson </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#editor" name=editor>editor</a>
             </span>
             <div class='views-field-body'>A representation of the SoftLayer employee who created a ticket update. </div>

@@ -51,6 +51,10 @@ Retrieve an update to a ticket made by a SoftLayer employee. Ticket updates crea
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Ticket_Update_Employee/getChat'> getChat</a> </span>
+            <div class='views-field-body'>Retrieve the chat between the Customer and Agent</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Ticket_Update_Employee/getEditor'> getEditor</a> </span>
             <div class='views-field-body'>Retrieve a representation of the SoftLayer employee who created a ticket update.</div>
         </div>
