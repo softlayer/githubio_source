@@ -121,6 +121,16 @@ A SoftLayer_Ticket_Update_Customer is a single update made by a customer to a ti
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#chat" name=chat>chat</a>
+            </span>
+            <div class='views-field-body'>The chat between the Customer and Agent </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_Ticket_Chat_Liveperson'>SoftLayer_Ticket_Chat_Liveperson </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#editor" name=editor>editor</a>
             </span>
             <div class='views-field-body'>The portal or API user who created a ticket update. </div>
