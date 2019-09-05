@@ -1,11 +1,12 @@
 ---
-title: "get_bandwidth_data.py"
-description: "get_bandwidth_data.py"
+title: "CDN Bandwidth Data"
+description: "getBandwidthData"
 date: "2017-11-23"
 classes: 
     - "SoftLayer_Network_ContentDelivery_Account"
 tags:
     - "cdn"
+    - "bandwidth"
 ---
 
 

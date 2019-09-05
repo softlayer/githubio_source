@@ -4,6 +4,7 @@ description: "Lists each server and virtual guest on an account, and their bandw
 date: "2019-02-13"
 classes: 
     - "SoftLayer_Metric_Tracking_Object"
+    - "SoftLayer_Container_Bandwidth_GraphOutputs"
 tags:
     - "bandwidth"
 ---
@@ -18,6 +19,8 @@ This is especially problematic when requesting rollups for 12 and 24 hour period
 
 So if you are interested in daily values of your bandwidth, make sure to understand you should send in your requests in UTC so everything aligns to what you requested. This script does this for you, which should hopefully help.
 
+
+*NOTE* Bandwidth from the Metric_TrackingObject is going to be in `octets`, or bytes. 
 
 ```python
 """
@@ -126,8 +129,7 @@ class example():
         data = self.client.call('Metric_Tracking_Object', 'getBandwidthData', start, end, 'public', 86400, id=tracking_id)
         # pp(data)
         return data
- 
- 
+
     def convert(self, bytes):
         return  round(int(bytes) / (1024 **3 ),2)
  
@@ -155,4 +157,234 @@ curl -u $SL_USER:$SL_APIKEY -X GET 'https://api.softlayer.com/rest/v3.1/SoftLaye
 Get bandwidth data
 ```
 curl -u $SL_USER:$SL_APIKEY -X POST  -d '{"parameters": [1546300800, 1548979200, "public", 86400]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Metric_Tracking_Object/26570093/getBandwidthData.json'
+```
+
+### Summary Reports
+
+Possible values for [Metric_Data_Type](https://sldn.softlayer.com/reference/datatypes/SoftLayer_Container_Metric_Data_Type/). All summaryTypes must be the same for each request.
+
+#### KeyName
+* PUBLICIN
+* PUBLICOUT
+* PRIVATEIN
+* PRIVATEOUT
+
+#### summaryType
+* items
+* min
+* max
+* average
+* sum
+* timeaverage
+
+*NOTE* When sending in a string time to the API, it is assumed the time is in CST/CDT. Use epoch time if you specifically want the data from a different timezone. 
+
+```python
+import SoftLayer
+from pprint import pprint as pp
+import datetime
+
+class example():
+    def __init__(self):
+        self.client = SoftLayer.Client()
+
+    def getSummaryReport(self, tracking_id, start_date, end_date, types=None, summaryPeriod=3600):
+        """Gets a nice summary bandwidth report"""
+        if types is None:
+            types = [{
+                'keyName': 'PUBLICIN',
+                'summaryType': 'sum'
+            }]
+        data = self.client.call('SoftLayer_Metric_Tracking_Object', 'getSummaryData', start_date, end_date, types, summaryPeriod, id=tracking_id)
+        return data
+
+    def getHardwareTrackingId(self, hardware_id):
+        return self.client.call('Hardware_Server', 'getMetricTrackingObject', id=hardware_id)
+    def getVirtualTrackingId(self, vsi_id):
+        return self.client.call('Virtual_Guest', 'getMetricTrackingObject', id=vsi_id)
+    def convert(self, bytes):
+        return  round(int(bytes) / (1024 **3 ),2)
+
+if __name__ == "__main__":
+    vsi_id = 75764043
+    main = example()
+    trackingObject = main.getVirtualTrackingId(vsi_id)
+    print("Tracking ID is {}".format(trackingObject.get('id')))
+
+    start_date = datetime.datetime.today()
+    end_date = start_date + datetime.timedelta(days=1)
+    time_format = "%Y-%m-%d"
+    # image = main.getGraph(trackingObject.get('id'), start_date.strftime(time_format), end_date.strftime(time_format))
+
+    # print("Graph Title: {}".format(image.get('graphTitle')))
+    # main.saveImage(image)
+    summary_types = [
+        {"keyName": "PUBLICIN", "summaryType": "sum"},
+        {"keyName": "PUBLICOUT", "summaryType": "sum"}
+    ]
+    summary = main.getSummaryReport(trackingObject.get('id'), start_date.strftime(time_format), end_date.strftime(time_format), summary_types)
+
+    # Print out a daily summary of the summary...
+    i = 0
+    while i < len(summary):
+        # Get the time, convert to UTC to avoid confusion.
+        # %z only works in py3.7+. You may have to mangle the TZ data otherwise.
+        the_date = datetime.datetime.strptime(summary[i]['dateTime'], '%Y-%m-%dT%H:%M:%S%z').astimezone(datetime.timezone.utc)
+        print(the_date.strftime("%Y-%m-%d %H:%M"))
+        output = []
+        for sum_type in summary_types:
+            text = "{}: {} MB".format(sum_type['keyName'], main.convert(summary[i]['counter']))
+            output.append(text)
+            i = i + 1
+        print(", ".join(output))
+
+```
+
+### Simple Server Bandwidth
+This example just gets the current billing cycle usage for a given server.
+
+```python
+import SoftLayer
+import pprint
+
+class example():
+
+    def __init__(self):
+        self.client = SoftLayer.Client()
+
+    def main(self):
+        pp = pprint.PrettyPrinter(indent=2)
+        theMask = "mask[inboundPrivateBandwidthUsage,inboundPublicBandwidthUsage,outboundPrivateBandwidthUsage,outboundPublicBandwidthUsage]"
+        result = self.client['SoftLayer_Account'].getHardware()
+        print "server_name,public_in,public_out,private_in,private_out"
+        
+        for server in result:
+            #getHardware() only returns SoftLayer_Hardware, which doesn't have the private bw usage metrics, for some reason.
+            # So we just use SoftLayer_Hardware_Server here, which has more detailed information
+            serverInfo = self.client['SoftLayer_Hardware_Server'].getObject(id=server['id'],mask=theMask)
+
+            # use .get() to avoid exceptions
+            pubin = serverInfo.get('inboundPublicBandwidthUsage', '--')
+            pubout = serverInfo.get('outboundPublicBandwidthUsage', '--')
+            privin =serverInfo.get('inboundPrivateBandwidthUsage', '--')
+            privout = serverInfo.get('outboundPrivateBandwidthUsage', '--')
+
+            print(serverInfo['fullyQualifiedDomainName'] + ","),
+            print(pubin + ","),
+            print(pubout + ","),
+            print(privin + ","),
+            print(privout)
+
+
+if __name__ == "__main__":
+    main = example()
+    main.main()
+```
+
+
+### Virtual Guest getCurrentBandwidthSummary and getBandwidthDataByDate
+
+[getBandwidthDataByDate](https://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/getBandwidthDataByDate/)
+[getCurrentBandwidthSummary](http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/getCurrentBandwidthSummary)
+
+```python
+import SoftLayer
+import datetime
+
+from pprint import pprint as pp
+class example():
+
+    def __init__(self):
+        self.client = SoftLayer.Client()
+
+    def getCurrentBandwidthSummary(self, vsi_id):
+        summary = self.client.call('Virtual_Guest', 'getCurrentBandwidthSummary', id=serverId)
+        return summary
+
+    def getBandwidthDataByDate(self, vsi_id, start_date, end_date, direction)
+        """direction should be 'public', 'private', 'both'"""
+        template = {
+            'startDateTime': start_date,
+            'endDateTime': end_date,
+            'networkType': direction
+        }
+        bandwidth = self.client.call('Virtual_Guest').getBandwidthDataByDate(template, id=vsi_id)
+        return bandwidth
+
+
+if __name__ == "__main__":
+    vsi_id = 12345667
+    main = example()
+    summary = main.getCurrentBandwidthSummary(vsi_id)
+    print("Summary")
+    pp(summary)
+
+    start_date = datetime.datetime.today()
+    end_date = start_date + datetime.timedelta(days=1)
+    bw_by_date = main.getBandwidthDataByDate(vsi_id, start_date, end_date)
+    print("Bandwidth By Date")
+    pp(bw_by_date)
+```
+
+
+### Get the Bandwidth Graph
+
+[getBandwidthGraph](https://sldn.softlayer.com/reference/services/SoftLayer_Metric_Tracking_Object/getBandwidthGraph/)
+
+```python
+import SoftLayer
+from pprint import pprint as pp
+import datetime
+import base64
+
+class example():
+
+    def __init__(self):
+        self.client = SoftLayer.Client()
+
+    def getGraph(self, tracking_id, startDateTime, endDateTime, graphType='public',
+                 fontSize=8, graphWidth=800, graphHeight=300, doNotShowTimeZone=False):
+        """Returns a bandwidth graph"""
+        image = self.client.call('SoftLayer_Metric_Tracking_Object', 'getBandwidthGraph',
+                                 startDateTime, endDateTime, graphType, fontSize, graphWidth,
+                                 graphHeight, doNotShowTimeZone, id=tracking_id)
+        # pp(image)
+        return image
+
+    def saveImage(self, image):
+        """image should be data returned from getBandwidthGraph"""
+        # Graph title will usually be the FQDN of the server
+        path = '{}.png'.format(image.get('graphTitle'))
+        # open the file in write+binary mode
+        file = open(path, 'wb')
+        image_data = image.get('graphImage')
+
+        # REST API returns a '' encapsulated string, so we need to remove those, and then base64decode
+        if isinstance(image_data, str):
+            png = base64.b64decode(image_data.replace("'",""))
+        # XML-RPC returns raw binary, so we just need to get its data out.
+        else:
+            png = image_data.data
+
+        file.write(png)
+        file.close()
+
+    def getHardwareTrackingId(self, hardware_id):
+        return self.client.call('Hardware_Server', 'getMetricTrackingObject', id=hardware_id)
+    def getVirtualTrackingId(self, vsi_id):
+        return self.client.call('Virtual_Guest', 'getMetricTrackingObject', id=vsi_id)
+
+if __name__ == "__main__":
+    vsi_id = 75764043
+    main = example()
+    trackingObject = main.getVirtualTrackingId(vsi_id)
+    print("Tracking ID is {}".format(trackingObject.get('id')))
+
+    start_date = datetime.datetime.today()
+    end_date = start_date + datetime.timedelta(days=1)
+    time_format = "%Y-%m-%d"
+    image = main.getGraph(trackingObject.get('id'), start_date.strftime(time_format), end_date.strftime(time_format))
+
+    print("Graph Title: {}".format(image.get('graphTitle')))
+    main.saveImage(image)
 ```
