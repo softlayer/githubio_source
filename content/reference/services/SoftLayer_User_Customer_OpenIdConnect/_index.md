@@ -388,7 +388,7 @@ classes:
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/getUserIdForPasswordSet'> getUserIdForPasswordSet</a> </span>
-            <div class='views-field-body'>Retrieve a user object using a password request key</div>
+            <div class='views-field-body'>Retrieve a user id using a password request key</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/getUserLinks'> getUserLinks</a> </span>
@@ -528,6 +528,10 @@ classes:
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/samlLogout'> samlLogout</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/selfPasswordChange'> selfPasswordChange</a> </span>
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">

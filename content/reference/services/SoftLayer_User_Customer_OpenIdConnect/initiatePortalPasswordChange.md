@@ -21,7 +21,7 @@ Sends password change email to the user containing url that allows the user the 
 
 If this is a new master user who has never logged into the portal, then password reset will be initiated. Once a master user has logged into the portal, they must setup their security questions prior to logging out because master users are required to answer a security question during the password reset process.  Should a master user not have security questions defined and not remember their password in order to define the security questions, then they will need to contact support at live chat or Revenue Services for assistance. 
 
-Due to security reasons, the number reset requests per username are limited within a undisclosed timeframe. 
+Due to security reasons, the number of reset requests per username are limited within a undisclosed timeframe. 
 
 -----
 

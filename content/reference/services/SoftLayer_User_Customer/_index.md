@@ -358,7 +358,7 @@ API users have full access to their own portal user account and they could also 
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/getUserIdForPasswordSet'> getUserIdForPasswordSet</a> </span>
-            <div class='views-field-body'>Retrieve a user object using a password request key</div>
+            <div class='views-field-body'>Retrieve a user id using a password request key</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/getUserLinks'> getUserLinks</a> </span>
@@ -498,6 +498,10 @@ API users have full access to their own portal user account and they could also 
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/samlLogout'> samlLogout</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/selfPasswordChange'> selfPasswordChange</a> </span>
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
