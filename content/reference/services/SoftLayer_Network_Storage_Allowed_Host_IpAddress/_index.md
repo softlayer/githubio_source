@@ -39,22 +39,6 @@ classes:
             <div class='views-field-body'></div>
         </div>
             <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Allowed_Host_IpAddress/createFromHardware'> createFromHardware</a> </span>
-            <div class='views-field-body'>Creates and returns a new SoftLayer_Network_Storage_Allowed_Host.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Allowed_Host_IpAddress/createFromIpAddress'> createFromIpAddress</a> </span>
-            <div class='views-field-body'>Creates and returns a new SoftLayer_Network_Storage_Allowed_Host.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Allowed_Host_IpAddress/createFromSubnet'> createFromSubnet</a> </span>
-            <div class='views-field-body'>Creates and returns a new SoftLayer_Network_Storage_Allowed_Host.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Allowed_Host_IpAddress/createFromVirtualGuest'> createFromVirtualGuest</a> </span>
-            <div class='views-field-body'>Creates and returns a new SoftLayer_Network_Storage_Allowed_Host.</div>
-        </div>
-            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Allowed_Host_IpAddress/editObject'> editObject</a> </span>
             <div class='views-field-body'></div>
         </div>
