@@ -1,6 +1,6 @@
 ---
 title: "resume"
-description: "Resume a virtual guest"
+description: "Resume a virtual guest, this can only be called when a VSI is in Suspended state."
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Resume a guest.
 
 
 ## Overview 
-Resume a virtual guest 
+Resume a virtual guest, this can only be called when a VSI is in Suspended state. 
 
 -----
 

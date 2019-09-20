@@ -353,6 +353,16 @@ The iscsi EqualLogic Version 3 data type provides access to additional informati
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#dependentDuplicate" name=dependentDuplicate>dependentDuplicate</a>
+            </span>
+            <div class='views-field-body'>Whether or not a network storage volume is a dependent duplicate. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#events" name=events>events</a>
             </span>
             <div class='views-field-body'>The events which have taken place on a network storage volume. </div>

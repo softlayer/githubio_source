@@ -1,6 +1,6 @@
 ---
 title: "pause"
-description: "Pause a virtual guest"
+description: "Pause a virtual guest. This can only be called when the specified VM is in the Running state."
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Pause a guest.
 
 
 ## Overview 
-Pause a virtual guest 
+Pause a virtual guest. This can only be called when the specified VM is in the Running state. 
 
 -----
 

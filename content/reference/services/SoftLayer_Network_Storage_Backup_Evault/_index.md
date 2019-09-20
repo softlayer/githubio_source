@@ -314,6 +314,10 @@ SoftLayer provides the EVault backup system as a part of it's Storage service of
             <div class='views-field-body'>Retrieve the Daily Schedule which is associated with this network storage volume.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Backup_Evault/getDependentDuplicate'> getDependentDuplicate</a> </span>
+            <div class='views-field-body'>Retrieve whether or not a network storage volume is a dependent duplicate.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Backup_Evault/getEvents'> getEvents</a> </span>
             <div class='views-field-body'>Retrieve the events which have taken place on a network storage volume.</div>
         </div>
