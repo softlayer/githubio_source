@@ -295,6 +295,10 @@ SoftLayer's iscsi product extends upon the base functionality of SoftLayer offer
             <div class='views-field-body'>Retrieve the Daily Schedule which is associated with this network storage volume.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Iscsi/getDependentDuplicate'> getDependentDuplicate</a> </span>
+            <div class='views-field-body'>Retrieve whether or not a network storage volume is a dependent duplicate.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Iscsi/getEvents'> getEvents</a> </span>
             <div class='views-field-body'>Retrieve the events which have taken place on a network storage volume.</div>
         </div>

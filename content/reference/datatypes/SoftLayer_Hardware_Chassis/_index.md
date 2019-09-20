@@ -194,6 +194,16 @@ Every piece of hardware in SoftLayer's datacenters, including customer servers, 
                 <p>string</p>
             </div>
         </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#u2Capacity" name=u2Capacity>u2Capacity</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>string</p>
+            </div>
+        </div>
                 <h2>Count</h2>
             </div>
 </div>
