@@ -217,6 +217,16 @@ SoftLayer customers are unable to change their brand information in the portal o
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#hasAgentAdvancedSupportFlag" name=hasAgentAdvancedSupportFlag>hasAgentAdvancedSupportFlag</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#hasAgentSupportFlag" name=hasAgentSupportFlag>hasAgentSupportFlag</a>
             </span>
             <div class='views-field-body'> </div>

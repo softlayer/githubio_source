@@ -107,6 +107,10 @@ SoftLayer customers are unable to change their brand information in the portal o
             <div class='views-field-body'>Retrieve an account's associated hardware objects.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Brand/getHasAgentAdvancedSupportFlag'> getHasAgentAdvancedSupportFlag</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Brand/getHasAgentSupportFlag'> getHasAgentSupportFlag</a> </span>
             <div class='views-field-body'></div>
         </div>
