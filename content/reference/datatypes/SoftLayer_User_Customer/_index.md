@@ -406,6 +406,16 @@ The SoftLayer_User_Customer data type contains general information relating to a
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#preventPreviousPasswords" name=preventPreviousPasswords>preventPreviousPasswords</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>integer</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#savedId" name=savedId>savedId</a>
             </span>
             <div class='views-field-body'> </div>
