@@ -143,16 +143,6 @@ The SoftLayer_Software_Component_HostIps_Mcafee_Epo_Version45_Hips_Version8 data
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#blockedApplicationEvents" name=blockedApplicationEvents>blockedApplicationEvents</a>
-            </span>
-            <div class='views-field-body'>The blocked application events for this software component. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>McAfee_Epolicy_Orchestrator_Version45_Event[]</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#enforcementPolicyNames" name=enforcementPolicyNames>enforcementPolicyNames</a>
             </span>
             <div class='views-field-body'>The names of the possible options for the enforcement policy setting. </div>
@@ -189,16 +179,6 @@ The SoftLayer_Software_Component_HostIps_Mcafee_Epo_Version45_Hips_Version8 data
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ipsEvents" name=ipsEvents>ipsEvents</a>
-            </span>
-            <div class='views-field-body'>The host IPS events for this software component. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>McAfee_Epolicy_Orchestrator_Version45_Event[]</p>
             </div>
         </div>
                 <div class='prop-row views-row'>
@@ -304,16 +284,6 @@ The SoftLayer_Software_Component_HostIps_Mcafee_Epo_Version45_Hips_Version8 data
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
-                <a href="#blockedApplicationEventCount" name=blockedApplicationEventCount>blockedApplicationEventCount</a>
-            </span>
-            <div class='views-field-body'>A count of the blocked application events for this software component. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
                 <a href="#enforcementPolicyNameCount" name=enforcementPolicyNameCount>enforcementPolicyNameCount</a>
             </span>
             <div class='views-field-body'>A count of the names of the possible options for the enforcement policy setting. </div>
@@ -337,16 +307,6 @@ The SoftLayer_Software_Component_HostIps_Mcafee_Epo_Version45_Hips_Version8 data
                 <a href="#firewallRuleSetPolicyNameCount" name=firewallRuleSetPolicyNameCount>firewallRuleSetPolicyNameCount</a>
             </span>
             <div class='views-field-body'>A count of the names of the possible policy options for the firewall rule set setting. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ipsEventCount" name=ipsEventCount>ipsEventCount</a>
-            </span>
-            <div class='views-field-body'>A count of the host IPS events for this software component. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>

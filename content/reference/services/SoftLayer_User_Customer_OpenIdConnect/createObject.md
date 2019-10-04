@@ -1,6 +1,6 @@
 ---
 title: "createObject"
-description: "Create a new user in the SoftLayer customer portal. createObject() creates a user's portal record and adds them into the... "
+description: "Create a new user in the SoftLayer customer portal. It is not possible to set up SLL enable flags during object creation... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,13 @@ Create a new user record.
 
 
 ## Overview 
-Create a new user in the SoftLayer customer portal. createObject() creates a user's portal record and adds them into the SoftLayer community forums. It is not possible to set up SLL or PPTP enable flags during object creation. These flags are ignored during object creation. You will need to make a subsequent call to edit object in order to enable VPN access. An account's master user and sub-users who have the User Manage permission can add new users. createObject() creates users with a default permission set. After adding a user it may be helpful to set their permissions and hardware access. 
+Create a new user in the SoftLayer customer portal. It is not possible to set up SLL enable flags during object creation. These flags are ignored during object creation. You will need to make a subsequent call to edit object in order to enable VPN access. 
+
+An account's master user and sub-users who have the User Manage permission can add new users. 
+
+Users are created with a default permission set. After adding a user it may be helpful to set their permissions and device access. 
+
+secondaryPasswordTimeoutDays will be set to the system configured default value if the attribute is not provided or the attribute is not a valid value. 
 
 Note, neither password nor vpnPassword parameters are required. 
 
