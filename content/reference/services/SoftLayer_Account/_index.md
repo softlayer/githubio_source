@@ -146,7 +146,11 @@ SoftLayer customers are unable to change their company account information in th
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getActiveFlexibleCreditEnrollment'> getActiveFlexibleCreditEnrollment</a> </span>
-            <div class='views-field-body'>Retrieve account's currently active Flexible Credit enrollment.</div>
+            <div class='views-field-body'>Retrieve [Deprecated] Please use SoftLayer_Account::activeFlexibleCreditEnrollments.</div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getActiveFlexibleCreditEnrollments'> getActiveFlexibleCreditEnrollments</a> </span>
+            <div class='views-field-body'></div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getActiveNotificationSubscribers'> getActiveNotificationSubscribers</a> </span>
@@ -434,7 +438,11 @@ SoftLayer customers are unable to change their company account information in th
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getFlexibleCreditProgramInfo'> getFlexibleCreditProgramInfo</a> </span>
-            <div class='views-field-body'>This method retrieves the Flexible Credit Program information for your account. </div>
+            <div class='views-field-body'>[DEPRECATED] Please use SoftLayer_Account::getFlexibleCreditProgramsInfo. This is no longer an accurate representation of discounts. </div>
+        </div>
+            <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getFlexibleCreditProgramsInfo'> getFlexibleCreditProgramsInfo</a> </span>
+            <div class='views-field-body'>This method retrieves information on all of your Flexible Credit Program enrollments for your account. </div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getForcePaasAccountLinkDate'> getForcePaasAccountLinkDate</a> </span>
