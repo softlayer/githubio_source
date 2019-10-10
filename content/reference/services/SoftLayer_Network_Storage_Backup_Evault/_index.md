@@ -382,6 +382,10 @@ SoftLayer provides the EVault backup system as a part of it's Storage service of
             <div class='views-field-body'>Retrieve the maximum number of IOPs selected for this volume.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Backup_Evault/getIsDependentDuplicateProvisionCompleted'> getIsDependentDuplicateProvisionCompleted</a> </span>
+            <div class='views-field-body'>Retrieve determines whether dependent volume provision is completed on background.</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Backup_Evault/getIsReadyForSnapshot'> getIsReadyForSnapshot</a> </span>
             <div class='views-field-body'>Retrieve determines whether a volume is ready to order snapshot space, or, if snapshot space is already available, to assign a snapshot schedule, or to take a manual snapshot.</div>
         </div>
