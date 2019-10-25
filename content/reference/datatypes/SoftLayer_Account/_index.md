@@ -443,10 +443,20 @@ SoftLayer customers are unable to change their company account information in th
             <span class='views-field-title'>
                 <a href="#activeFlexibleCreditEnrollment" name=activeFlexibleCreditEnrollment>activeFlexibleCreditEnrollment</a>
             </span>
-            <div class='views-field-body'>Account's currently active Flexible Credit enrollment. </div>
+            <div class='views-field-body'>[Deprecated] Please use SoftLayer_Account::activeFlexibleCreditEnrollments. </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_FlexibleCredit_Enrollment'>SoftLayer_FlexibleCredit_Enrollment </a></p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#activeFlexibleCreditEnrollments" name=activeFlexibleCreditEnrollments>activeFlexibleCreditEnrollments</a>
+            </span>
+            <div class='views-field-body'> </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p><a href='/reference/datatypes/SoftLayer_FlexibleCredit_Enrollment'>SoftLayer_FlexibleCredit_Enrollment[] </a></p>
             </div>
         </div>
                 <div class='prop-row views-row'>
@@ -2935,6 +2945,16 @@ SoftLayer customers are unable to change their company account information in th
                 <a href="#activeColocationContainerCount" name=activeColocationContainerCount>activeColocationContainerCount</a>
             </span>
             <div class='views-field-body'>A count of the account's active top level colocation containers. </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>unsignedLong</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
+                <a href="#activeFlexibleCreditEnrollmentCount" name=activeFlexibleCreditEnrollmentCount>activeFlexibleCreditEnrollmentCount</a>
+            </span>
+            <div class='views-field-body'>A count of  </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p>unsignedLong</p>

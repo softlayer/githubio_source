@@ -1,6 +1,6 @@
 ---
 title: "getActiveFlexibleCreditEnrollment"
-description: "Retrieve account's currently active Flexible Credit enrollment."
+description: "Retrieve [Deprecated] Please use SoftLayer_Account::activeFlexibleCreditEnrollments."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getActiveFlexibleCreditEnrollment
 
-Retrieve account's currently active Flexible Credit enrollment.
+Retrieve [Deprecated] Please use SoftLayer_Account::activeFlexibleCreditEnrollments.
 
 
 ## Overview 
-Retrieve account's currently active Flexible Credit enrollment.
+Retrieve [Deprecated] Please use SoftLayer_Account::activeFlexibleCreditEnrollments.
 
 -----
 
