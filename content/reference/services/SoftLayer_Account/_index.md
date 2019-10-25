@@ -170,7 +170,7 @@ SoftLayer customers are unable to change their company account information in th
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getActivePrivateHostedCloudPackages'> getActivePrivateHostedCloudPackages</a> </span>
-            <div class='views-field-body'>Get the Active SoftLayer_Product_Packages from which one can order private hosted cloud configurations.</div>
+            <div class='views-field-body'></div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getActiveQuotes'> getActiveQuotes</a> </span>
