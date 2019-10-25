@@ -60,7 +60,7 @@ Every SoftLayer_Product_Package contains information related products and servic
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Product_Package/getActivePrivateHostedCloudPackages'> getActivePrivateHostedCloudPackages</a> </span>
-            <div class='views-field-body'>Get the Active SoftLayer_Product_Packages from which one can order private hosted cloud configurations.</div>
+            <div class='views-field-body'>[DEPRECATED] Get the Active SoftLayer_Product_Packages from which one can order private hosted cloud configurations.</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Product_Package/getActiveRamItems'> getActiveRamItems</a> </span>

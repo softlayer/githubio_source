@@ -1,8 +1,8 @@
 ---
 title: "SoftLayer_Brand"
-description: "Every SoftLayer customer account is associated to a brand 
+description: "Every IBM Cloud Infrastructure customer account is associated to a brand. 
 
-SoftLayer customers are unable to change their brand informa... "
+IBM Cloud Infrastructure customers are unabl... "
 date: "2018-02-12"
 layout: "service"
 tags:
@@ -20,9 +20,9 @@ classes:
 </div>
 
 ## Description
-Every SoftLayer customer account is associated to a brand 
+Every IBM Cloud Infrastructure customer account is associated to a brand. 
 
-SoftLayer customers are unable to change their brand information in the portal or the API. 
+IBM Cloud Infrastructure customers are unable to change their brand information in the portal or the API. 
 
 
 
