@@ -299,6 +299,10 @@ classes:
             <div class='views-field-body'>Retrieve a portal user's parent user. If a SoftLayer_User_Customer has a null parentId property then it doesn't have a parent user.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/getPasswordRequirements'> getPasswordRequirements</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/getPermissions'> getPermissions</a> </span>
             <div class='views-field-body'>Retrieve a portal user's permissions. These permissions control that user's access to functions within the SoftLayer customer portal and API.</div>
         </div>
@@ -332,7 +336,7 @@ classes:
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/getSalesforceUserLink'> getSalesforceUserLink</a> </span>
-            <div class='views-field-body'></div>
+            <div class='views-field-body'>Retrieve [DEPRECATED]</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_OpenIdConnect/getSecurityAnswers'> getSecurityAnswers</a> </span>

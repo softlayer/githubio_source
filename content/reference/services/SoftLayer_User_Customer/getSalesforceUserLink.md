@@ -1,6 +1,6 @@
 ---
 title: "getSalesforceUserLink"
-description: ""
+description: "Retrieve [DEPRECATED]"
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getSalesforceUserLink
 
-
+Retrieve [DEPRECATED]
 
 
 ## Overview 
-
+Retrieve [DEPRECATED]
 
 -----
 
