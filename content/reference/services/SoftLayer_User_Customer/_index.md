@@ -277,6 +277,10 @@ API users have full access to their own portal user account and they could also 
             <div class='views-field-body'>Retrieve a portal user's parent user. If a SoftLayer_User_Customer has a null parentId property then it doesn't have a parent user.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/getPasswordRequirements'> getPasswordRequirements</a> </span>
+            <div class='views-field-body'></div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/getPermissions'> getPermissions</a> </span>
             <div class='views-field-body'>Retrieve a portal user's permissions. These permissions control that user's access to functions within the SoftLayer customer portal and API.</div>
         </div>
@@ -306,7 +310,7 @@ API users have full access to their own portal user account and they could also 
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/getSalesforceUserLink'> getSalesforceUserLink</a> </span>
-            <div class='views-field-body'></div>
+            <div class='views-field-body'>Retrieve [DEPRECATED]</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer/getSecurityAnswers'> getSecurityAnswers</a> </span>

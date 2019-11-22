@@ -841,7 +841,7 @@ The SoftLayer_User_Customer data type contains general information relating to a
             <span class='views-field-title'>
                 <a href="#salesforceUserLink" name=salesforceUserLink>salesforceUserLink</a>
             </span>
-            <div class='views-field-body'> </div>
+            <div class='views-field-body'>[DEPRECATED] </div>
             <span class="type-label">Type:</span> 
             <div class='type-content'>
                 <p><a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link </a></p>

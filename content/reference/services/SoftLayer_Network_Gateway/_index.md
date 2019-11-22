@@ -119,6 +119,10 @@ A network gateway is a set of members which have a configurable set of VLANs tru
             <div class='views-field-body'>Retrieve the current status of the gateway.</div>
         </div>
             <div class="method-row">
+                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getUpgradeItemPrices'> getUpgradeItemPrices</a> </span>
+            <div class='views-field-body'>Retrieve available upgrade prices</div>
+        </div>
+            <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/rebuildvSRXHACluster'> rebuildvSRXHACluster</a> </span>
             <div class='views-field-body'>Rebuild Juniper vSRX HA Gateway</div>
         </div>
