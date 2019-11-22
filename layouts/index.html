@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 <body>
 {{ partial "navbar.html" . }}
-{{ $paginator := .Paginate (where .Data.Pages "Section" "release_notes") }}
+{{ $paginator := .Paginate (where site.RegularPages "Section" "release_notes") }}
 
 
     <div class="container">
