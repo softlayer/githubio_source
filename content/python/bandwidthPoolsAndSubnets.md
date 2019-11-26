@@ -14,10 +14,11 @@ tags:
     - "bandwidthpools"
 ---
 
-### [VDR](reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment/)
+### [VDR](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment/)
 
 SoftLayer allotments are a collection of servers that share all of the servers allocated bandwidth together.
 
+This example below lists a few of the common ways of interacting with Bandwidth pools/allotments/Virtual Dedicated Racks.
 
 ```python
 import SoftLayer
@@ -58,6 +59,7 @@ class example():
         bareMetalInstances and privateNetworkOnlyHardware
         may need to be included in the mask if applicable. 
         """
+
         mask = "mask[hardware,virtualGuests]"
         pool = self.client['Account'].getVirtualDedicatedRacks(mask=mask)
         pp(pool)
@@ -68,6 +70,7 @@ class example():
             pool_id is the id from getVirtualDedicatedRacks
             the add/remove hardware/guest are lists IP strings.  
         """
+
         to_do = ('add_hardware', 'del_hardware', 'add_guest', 'del_guest')
         # Ordered parameters for requestVdrContentUpdates
         params = [[],[],[],[]]
@@ -104,6 +107,7 @@ class example():
 
     def printPoolServerDetails(self, pool_id):
         """Prints out info about Hardware_Server in a specific pool"""
+
         objectMask = "mask(SoftLayer_Hardware_Server)[projectedPublicBandwidthUsage, datacenter, outboundPublicBandwidthUsage, bandwidthAllocation, virtualRackId]"
         objectFilter = {"hardware": {"virtualRackId": {"operation": pool_id}}}
         # For virtual guests
@@ -122,12 +126,14 @@ class example():
 
     def getVDRLocations(self):
         """Get lists of locations where you can setup a VDR"""
+        
         objectFilter = {"locationGroupType": {"name": {"operation": "VDR"}}}
         locations = self.client.call('SoftLayer_Location_Group', 'getAllObjects', filter=objectFilter)
         pp(locations)
 
     def getBandwidthAllotments(self):
         """Very similar to getVirtualDedicatedRacks"""
+
         objectMask = "mask[id, name, serviceProviderId, locationGroup[name], locationGroup, hardwareCount, privateNetworkOnlyHardwareCount, virtualGuestCount, bareMetalInstanceCount, applicationDeliveryControllerCount, totalBandwidthAllocated, outboundPublicBandwidthUsage, bandwidthAllotmentTypeId, projectedPublicBandwidthUsage]"
         objectFilter = {"bandwidthAllotments": {"bandwidthAllotmentTypeId": {"operation": "!= 1"}}}
         pools = []
