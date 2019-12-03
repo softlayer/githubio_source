@@ -65,3 +65,23 @@ pluralizeListTitles = false
   section  = ["HTML"]
   taxonomyTerm = ["HTML"]
   taxonomy = ["HTML"]
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      # required to allow for raw HTML in reference files
+      unsafe = true 
+      xHTML = false
