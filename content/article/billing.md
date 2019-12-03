@@ -24,12 +24,17 @@ curl -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Accou
 Anything that is newly ordered will appear as a `NEW` type invoice. After the billing cycle ends, these will roll into the `RECURRING` type of invoice.
 
 #### RECURRING
-Usually each month you will have one recurring invoice, containing everything that was billed to the account, excepting `NEW` and `ONE-TIME-CHARGE`
+Usually each month you will have one recurring invoice, containing everything that was billed to the account, outside of any charges that appear on `NEW` and `ONE-TIME-CHARGE` invoices. 
+
+>*NOTE*:  
+>Recurring invoices may still have `ITEMS` that are billed as a one-time-charge, which are different than  `ONE-TIME-CHARGE` Invoices. Items that show up on recurring invoices that are one-time-charge include consumption based billing item, like bandwidth overages for example.
 
 #### ONE-TIME-CHARGE
-These will usually be related to upgrade charges or similar. They are incurred once and don't roll into a `RECURRING` invoice.
+These will usually be related to upgrade charges or similar. They are incurred once and don't roll into a `RECURRING` invoice. 
 
 There are several ways to get invoice data from the API.
+
+-----------------------------
 
 #### [SoftLayer_Account::getInvoices](/reference/services/SoftLayer_Account/getInvoices/)
 
@@ -51,6 +56,8 @@ curl -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Accou
 
 There also exists the [SoftLayer_Account::getLatestRecurringPendingInvoice](/reference/services/SoftLayer_Account/getLatestRecurringPendingInvoice/) method, which will only return the latest recurring invoice if it's status is `OPEN`, meaning it has yet to be paid off fully yet. If the latest invoice is open, these will return the same invoice.
 
+-----------------------------
+
 
 ## The [Billing_Invoice](/reference/datatypes/SoftLayer_Billing_Invoice/) Itself
 
@@ -69,7 +76,7 @@ Top Level items that are included on this invoice. This will be things like your
 #### items
 Everything billed to this invoice, including top level items and their children.
 
-#### Pdf / Excel
+#### PDF / Excel
 
 The invoice can also be retrieved in Excel or PDF format directly from the API.
 Of note though, is the data returned from the API is going to be base64 Encoded, so you will need to decode it first before that data is usable.
@@ -78,12 +85,14 @@ Of note though, is the data returned from the API is going to be base64 Encoded,
 + [SoftLayer_Billing_Invoice::getPdfDetailed](/reference/services/SoftLayer_Billing_Invoice/getPdfDetailed/)
 + [SoftLayer_Billing_Invoice::getExcel](/reference/services/SoftLayer_Billing_Invoice/getExcel/)
 
-> The API result is encapsulated in "", and escapes the /es, both of which are invalid and need to removed, which is why the `tr` command is used below. Otherwise `base64` will return the error `Invalid character in input stream.`
+> The API result is encapsulated in "", and escapes the `/` characters, both of which are invalid and need to removed, which is why the `tr` command is used below. Otherwise `base64` will return the error `Invalid character in input stream.` 
 
 ```
 curl -s -u $SL_USER:$SL_APIKEY  'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Invoice/<INVOICE_ID>/getPdf.json' | tr -d '"\' > invoice.base64
 base64 -D  -i invoice.base64 -o invoice.pdf
 ```
+
+-----------------------------
 
 
 ## [Billing_Invoice_Item](/reference/datatypes/SoftLayer_Billing_Invoice_Item/)
@@ -92,13 +101,14 @@ Each[SoftLayer_Billing_Item](/reference/datatypes/SoftLayer_Billing_Item/) on an
 
 The `resourceTableId` property will contain the Id of the actual resource being billed, but there is no programmatic way to translating that id to the appropriate service directly. You would need to use the `category->categoryCode` to determine which type of resource this Item represents.
 
+-----------------------------
 
 ## [Billing_Item](/reference/datatypes/SoftLayer_Billing_Item/)
 
-Every resource will have a Billing_Item that lets you know how much the resource will cost as either an hourly cost (`hourlyRecurringFee`) or  monthly cost (`recurringFee`). There are a few other fee types on the Billing_Item datatype as well that may need to be taken into account, depending on the resource. 
+Every resource will have a Billing_Item that lets you know how much the resource will cost as either an hourly cost (`hourlyRecurringFee`),  monthly cost (`recurringFee`) or one-time cost (`oneTimeFee`). There are a few other fee types (like taxes and setup fees) on the Billing_Item datatype as well that may need to be taken into account, depending on the resource. 
 
 #### children
-Some Billing_Items will have children that may account for some of the total cost of the resource, but might not be reflected directly on this item. For example Hardware_Server resources will usually have several child items that represent the cost of RAM/Disks/Port speed and such. The `recurringFee` of the parent item will not be the full cost of the server, but only the cost of the chassis itself. To find the full cost of a server, you would need to add up the child `recurringFee` with the parent's `recurringFee`.
+Some Billing_Items will have children that may account for some of the total cost of the resource, but might not be reflected directly on this item. For example Hardware_Server resources will usually have several child items that represent the cost of RAM/Disks/Port Speed and such. The `recurringFee` of the parent item will not be the full cost of the server, but only the cost of the chassis itself. To find the full cost of a server, you would need to add up the child `recurringFee` with the parent's `recurringFee`, or simply refer to the `nextInvoiceTotal` relations.
 
 #### filteredNextInvoiceChildren
 Handy for finding the true cost of an item with all its children. Excludes any item that has no cost.
@@ -108,7 +118,21 @@ This property will reflect the true recurring cost of the resource that will sho
 
 #### orderItem
 A link to the [SoftLayer_Billing_Order_Item](/reference/datatypes/SoftLayer_Billing_Order_Item/), which can link to the actual [SoftLayer_Billing_Order](/reference/datatypes/SoftLayer_Billing_Order/), which will contain information about who ordered the resource, and when.
+ 
+#### resourceTableId
+This is the `id` of the actual resource being billed for. There is not programatic way to relate this `id` with a specific service, but here is a partial mapping for reference.
 
+|Item CategoryCode | Service |
+| ---------------  | ------- |
+| guest_core | SoftLayer_Virtual_Guest | 
+| load_balancer_as_a_service | SoftLayer_Network_LBaaS_LoadBalancer |
+| network_vlan | SoftLayer_Network_Vlan | 
+| server | SoftLayer_Hardware_Server | 
+| vlan_firewall | SoftLayer_Network_Firewall | 
+| storage_as_a_service | SoftLayer_Network_Storage |
+
+
+-----------------------------
 
 ## Resource Billing
 
@@ -119,10 +143,16 @@ While the invoice is a great way to get a high level view of what you are being 
 + [Network_Application_Delivery_Controller](/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller/#billingItem)
 + [Network_CdnMarketplace_Account](/reference/datatypes/SoftLayer_Network_CdnMarketplace_Account/#billingItem)
 + [Hardware_Server](/reference/datatypes/SoftLayer_Hardware_Server/#billingItem)
-
 + [Network_Storage](/reference/datatypes/SoftLayer_Network_Storage/#billingItem)
 + [Network_Subnet](/reference/datatypes/SoftLayer_Network_Subnet/#billingItem)
 + [Network_Vlan](/reference/datatypes/SoftLayer_Network_Vlan/#billingItem)
 + [Network_Vlan_Firewall](/reference/datatypes/SoftLayer_Network_Vlan_Firewall/#billingItem)
 + [Virtual_Guest](/reference/datatypes/SoftLayer_Virtual_Guest/#billingItem)
 
+-----------------------------
+
+## Other Link
+
++ [Billing Overview](https://cloud.ibm.com/docs/billing-usage?topic=billing-usage-overview)
++ [Consolidated Billing](https://cloud.ibm.com/docs/customer-portal?topic=customer-portal-unifybillaccounts)
++ [Managing Billing Items](https://cloud.ibm.com/docs/customer-portal?topic=customer-portal-manage-billing)
