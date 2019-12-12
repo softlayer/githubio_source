@@ -28,7 +28,7 @@ This method will return a [[SoftLayer_Container_Account_Discount_Program]] objec
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|forNextBillCycle| boolean| Flag indicating whether the information in the container should be in the next bill cycle.|
+|forNextBillCycle| boolean| <<< EOT|
 
 
 ### Required Headers

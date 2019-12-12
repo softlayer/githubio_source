@@ -346,7 +346,7 @@ SoftLayer customers are unable to change their company account information in th
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getCurrentTicketStatisticsGraph'> getCurrentTicketStatisticsGraph</a> </span>
-            <div class='views-field-body'></div>
+            <div class='views-field-body'>(Deprecated)</div>
         </div>
             <div class="method-row">
                         <span class='view-field-title'><a href='/reference/services/SoftLayer_Account/getCurrentUser'> getCurrentUser</a> </span>

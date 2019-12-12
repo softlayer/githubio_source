@@ -226,6 +226,16 @@ This is the datatype that needs to be populated and sent to SoftLayer_Product_Or
         </div>
                 <div class='prop-row views-row'>
             <span class='views-field-title'>
+                <a href="#isDependentDuplicateFlag" name=isDependentDuplicateFlag>isDependentDuplicateFlag</a>
+            </span>
+            <div class='views-field-body'>This can be optionally populated only for duplicate volume ordering. When set, this flag denotes that the duplicate volume being ordered can refresh its data using snapshots from the specified origin volume.  </div>
+            <span class="type-label">Type:</span> 
+            <div class='type-content'>
+                <p>boolean</p>
+            </div>
+        </div>
+                <div class='prop-row views-row'>
+            <span class='views-field-title'>
                 <a href="#isManagedOrder" name=isManagedOrder>isManagedOrder</a>
             </span>
             <div class='views-field-body'>Flag to identify a "managed" order. This value is set internally. </div>
