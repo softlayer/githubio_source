@@ -136,7 +136,8 @@ code {
     box-sizing: border-box;
     border-top: 1px dotted #B5B5B5;
     margin: 0px;
-    padding: 4px 6px;
+    padding: 4px 0px;
+
 }
 
 .service-content > p {
@@ -145,4 +146,5 @@ code {
     margin: 4px 0;
     display: block;
     color: #222222;
+    padding: 4px 0px;
 }
