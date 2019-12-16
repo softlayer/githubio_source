@@ -10,12 +10,12 @@ tags:
 
 ## Before You Start
 ### Choosing a Protocol
-SoftLayer's API can be accessed by [[SOAP]], [[XML-RPC]], or [[REST|RESTful]] means. Choose the best protocol for your preferred language and situation. We generally recommend using our SOAP interface, as it's the most comprehensive and most easily models the API's services and data types.
+SoftLayer's API can be accessed by [SOAP](/article/soap/), [XML-RPC](/article/xml-rpc), or [REST](/article/rest/) means. Choose the best protocol for your preferred language and situation. We generally recommend using our SOAP interface, as it's the most comprehensive and most easily models the API's services and data types.
 
 |Protocol |Advantages |Disadvantages | Recommended For | Recommended Languages|
-| ---       |   ---        |       ---       |  ----                |
+| ---       |   ---        |       ---       |  ----     |----     |
 |[SOAP](/article/soap/)| It's the fastest of the three protocols and allows you to make direct calls against SoftLayer's API services and data types. | Initial WSDL consumption may take some time. | Calling SoftLayer API services as code local to your project. | [C-Sharp](/csharp/), [Perl](/perl), [PHP](/php)|
-|[XML-RPC](/article/xml-rpc) | Wide support amongst programming languages. | Lack of complex type specifications may require extra work when working with specific data types. |  Making API calls in languages without proper SOAP support. | [PHP](/php), [Python](/python)) |
+|[XML-RPC](/article/xml-rpc) | Wide support amongst programming languages. | Lack of complex type specifications may require extra work when working with specific data types. |  Making API calls in languages without proper SOAP support. | [PHP](/php), [Python](/python) |
 | [REST](/article/rest/) | Most programming languages support standard HTTP protocol operations if they don't have explicit support for SOAP or XML-RPC. |  REST URLs can become complex, especially when working with complex data structures. | Quickly calling get*() methods and retrieving data with a minimum amount of hierarchy. | [Ruby](/ruby), [Go](/go), [Java](/java), Any language that supports standard HTTP protocol operations, JSON parsing, and XML parsing
 
 ### Getting Your API Key
@@ -32,8 +32,6 @@ The [SoftLayer_Account/getObject|getObject()](/reference/services/SoftLayer_Acco
 
 ### Raw SOAP
 ```xml
-<xml>
-<?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://api.softlayer.com/soap/v3/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
     <SOAP-ENV:Header>
         <ns1:authenticate>
@@ -45,12 +43,10 @@ The [SoftLayer_Account/getObject|getObject()](/reference/services/SoftLayer_Acco
         <ns1:getObject/>
     </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
-</xml>
 ```
 ### Raw XML-RPC
 
 ```xml
-<xml>
 <?xml version="1.0" encoding="iso-8859-1"?>
 <methodCall>
     <methodName>getObject</methodName>
@@ -89,7 +85,6 @@ The [SoftLayer_Account/getObject|getObject()](/reference/services/SoftLayer_Acco
         </param>
     </params>
 </methodCall>
-</xml>
 ```
 ### REST URL
 `https://<username>:<apiKey>@api.service.softlayer.com/rest/v3/SoftLayer_Account`
