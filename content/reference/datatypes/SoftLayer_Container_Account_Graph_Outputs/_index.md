@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Account_Graph_Outputs"
-description: "SoftLayer_Container_Account_Graph_Outputs <<< EOT"
+description: "Models a single outbound object for a graph of given data sets."
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-SoftLayer_Container_Account_Graph_Outputs <<< EOT
+Models a single outbound object for a graph of given data sets.
 
 
 
