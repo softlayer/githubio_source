@@ -36,39 +36,30 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#badLinksDifferentIUI" name=badLinksDifferentIUI>badLinksDifferentIUI</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#badLinksDifferentUsername" name=badLinksDifferentUsername>badLinksDifferentUsername</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#goodLinks" name=goodLinks>goodLinks</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link[] </a></p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[badLinksDifferentIUI]: #badlinksdifferentiui
+#### [badLinksDifferentIUI]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link[] </a>**
+
+-----
+[badLinksDifferentUsername]: #badlinksdifferentusername
+#### [badLinksDifferentUsername]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link[] </a>**
+
+-----
+[goodLinks]: #goodlinks
+#### [goodLinks]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link[] </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

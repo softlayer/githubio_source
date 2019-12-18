@@ -36,99 +36,66 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cidr" name=cidr>cidr</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#dns" name=dns>dns</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>array of strings</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#gateway" name=gateway>gateway</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#interfaceId" name=interfaceId>interfaceId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ipAddress" name=ipAddress>ipAddress</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ipAllocationId" name=ipAllocationId>ipAllocationId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityGroupIds" name=securityGroupIds>securityGroupIds</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>array of integers</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnetId" name=subnetId>subnetId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#vpcId" name=vpcId>vpcId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[cidr]: #cidr
+#### [cidr]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[dns]: #dns
+#### [dns]
+  
+<span class="type-label">Type: </span>**array of strings**
+
+-----
+[gateway]: #gateway
+#### [gateway]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[interfaceId]: #interfaceid
+#### [interfaceId]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[ipAddress]: #ipaddress
+#### [ipAddress]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[ipAllocationId]: #ipallocationid
+#### [ipAllocationId]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[securityGroupIds]: #securitygroupids
+#### [securityGroupIds]
+  
+<span class="type-label">Type: </span>**array of integers**
+
+-----
+[subnetId]: #subnetid
+#### [subnetId]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[vpcId]: #vpcid
+#### [vpcId]
+  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -36,49 +36,36 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#additionalAttributes" name=additionalAttributes>additionalAttributes</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Account_External_Setup_ProvisioningHoldLifted_Attributes'>SoftLayer_Container_Account_External_Setup_ProvisioningHoldLifted_Attributes </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#code" name=code>code</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#error" name=error>error</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#state" name=state>state</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[additionalAttributes]: #additionalattributes
+#### [additionalAttributes]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_External_Setup_ProvisioningHoldLifted_Attributes'>SoftLayer_Container_Account_External_Setup_ProvisioningHoldLifted_Attributes </a>**
+
+-----
+[code]: #code
+#### [code]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[error]: #error
+#### [error]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[state]: #state
+#### [state]
+  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

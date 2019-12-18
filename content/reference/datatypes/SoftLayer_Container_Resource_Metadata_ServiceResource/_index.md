@@ -36,29 +36,24 @@ The metadata service resource container is used to store information about a sin
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#backendIpAddress" name=backendIpAddress>backendIpAddress</a>
-            </span>
-            <div class='views-field-body'>The backend IP address for this resource  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#type" name=type>type</a>
-            </span>
-            <div class='views-field-body'>The type for this resource  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Service_Resource_Type'>SoftLayer_Network_Service_Resource_Type </a></p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[backendIpAddress]: #backendipaddress
+#### [backendIpAddress]
+The backend IP address for this resource   
+<span class="type-label">Type: </span>**string**
+
+-----
+[type]: #type
+#### [type]
+The type for this resource   
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Resource_Type'>SoftLayer_Network_Service_Resource_Type </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

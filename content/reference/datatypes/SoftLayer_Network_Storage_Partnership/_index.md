@@ -36,83 +36,59 @@ A network storage partnership is used to link multiple volumes to each other. Th
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date a partnership was created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>The date a partnership was last modified. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#partnerVolumeId" name=partnerVolumeId>partnerVolumeId</a>
-            </span>
-            <div class='views-field-body'>The child volume id which a partnership is associated with. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#volumeId" name=volumeId>volumeId</a>
-            </span>
-            <div class='views-field-body'>The volume id which a partnership is associated with. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#partnerVolume" name=partnerVolume>partnerVolume</a>
-            </span>
-            <div class='views-field-body'>The associated child volume for a partnership. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#type" name=type>type</a>
-            </span>
-            <div class='views-field-body'>The type provides a standardized definition for a partnership. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Storage_Partnership_Type'>SoftLayer_Network_Storage_Partnership_Type </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#volume" name=volume>volume</a>
-            </span>
-            <div class='views-field-body'>The associated parent volume for a partnership. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[createDate]: #createdate
+#### [createDate]
+The date a partnership was created.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+The date a partnership was last modified.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[partnerVolumeId]: #partnervolumeid
+#### [partnerVolumeId]
+The child volume id which a partnership is associated with.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[volumeId]: #volumeid
+#### [volumeId]
+The volume id which a partnership is associated with.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[partnerVolume]: #partnervolume
+#### [partnerVolume]
+The associated child volume for a partnership.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**
+
+-----
+[type]: #type
+#### [type]
+The type provides a standardized definition for a partnership.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Partnership_Type'>SoftLayer_Network_Storage_Partnership_Type </a>**
+
+-----
+[volume]: #volume
+#### [volume]
+The associated parent volume for a partnership.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**
+
+
+## Count
 </div>
 
 

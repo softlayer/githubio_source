@@ -11,6 +11,8 @@ disablePathToLower = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
+refLinksErrorLevel = "WARNING"
+refLinksNotFoundURL = '#'
 
 [params]
   description = "SoftLayer API Examples, implementations, and release notes."

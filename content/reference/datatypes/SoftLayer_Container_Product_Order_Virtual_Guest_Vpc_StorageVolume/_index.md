@@ -36,109 +36,72 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attachmentName" name=attachmentName>attachmentName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#capacity" name=capacity>capacity</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#deleteOnReclaim" name=deleteOnReclaim>deleteOnReclaim</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#index" name=index>index</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#iops" name=iops>iops</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#profile" name=profile>profile</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#resourceGroup" name=resourceGroup>resourceGroup</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#rootKeyCrn" name=rootKeyCrn>rootKeyCrn</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[attachmentName]: #attachmentname
+#### [attachmentName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[capacity]: #capacity
+#### [capacity]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[deleteOnReclaim]: #deleteonreclaim
+#### [deleteOnReclaim]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[id]: #id
+#### [id]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[index]: #index
+#### [index]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[iops]: #iops
+#### [iops]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[name]: #name
+#### [name]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[profile]: #profile
+#### [profile]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[resourceGroup]: #resourcegroup
+#### [resourceGroup]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[rootKeyCrn]: #rootkeycrn
+#### [rootKeyCrn]
+  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

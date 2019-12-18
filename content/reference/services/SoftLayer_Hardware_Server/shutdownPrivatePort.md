@@ -1,6 +1,6 @@
 ---
 title: "shutdownPrivatePort"
-description: "Disconnect a server's private network interface. This operation is an alias for calling [[SoftLayer_Hardware_Server/setP... "
+description: "Disconnect a server's private network interface. This operation is an alias for calling [SoftLayer_Hardware_Server::setP... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Disconnect a server's private network interface.
 
 
 ## Overview 
-Disconnect a server's private network interface. This operation is an alias for calling [[SoftLayer_Hardware_Server/setPrivateNetworkInterfaceSpeed]] with a $newSpeed of 0 and unspecified $redundancy. 
+Disconnect a server's private network interface. This operation is an alias for calling [SoftLayer_Hardware_Server::setPrivateNetworkInterfaceSpeed]({{<ref "reference/services/SoftLayer_Hardware_Server/setPrivateNetworkInterfaceSpeed">}}) with a $newSpeed of 0 and unspecified $redundancy. 
 
 Receipt of a response does not indicate completion of the configuration change. Any subsequent attempts to request the interface change speed or state, while changes are pending, will result in a busy error. 
 

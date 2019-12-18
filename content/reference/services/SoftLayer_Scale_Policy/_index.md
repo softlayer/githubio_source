@@ -23,65 +23,54 @@ A scale policy is a combination of triggers and actions that can occur on a scal
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Add a policy to a group.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Delete this policy from the group.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit this policy's name.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy/getActions'> getActions</a> </span>
-            <div class='views-field-body'>Retrieve the actions to perform upon any trigger hit. Currently this must be a single value.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Scale_Policy record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy/getOneTimeTriggers'> getOneTimeTriggers</a> </span>
-            <div class='views-field-body'>Retrieve the one-time triggers to check for this group.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy/getRepeatingTriggers'> getRepeatingTriggers</a> </span>
-            <div class='views-field-body'>Retrieve the repeating triggers to check for this group.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy/getResourceUseTriggers'> getResourceUseTriggers</a> </span>
-            <div class='views-field-body'>Retrieve the resource-use triggers to check for this group.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy/getScaleActions'> getScaleActions</a> </span>
-            <div class='views-field-body'>Retrieve the scale actions to perform upon any trigger hit. Currently this must be a single value.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy/getScaleGroup'> getScaleGroup</a> </span>
-            <div class='views-field-body'>Retrieve the group this policy is on.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy/getTriggers'> getTriggers</a> </span>
-            <div class='views-field-body'>Retrieve the triggers to check for this group.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy/trigger'> trigger</a> </span>
-            <div class='views-field-body'>Manually trigger the actions on this policy. </div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Scale_Policy/createObject)
+Add a policy to a group.
+
+#### [deleteObject](/reference/services/SoftLayer_Scale_Policy/deleteObject)
+Delete this policy from the group.
+
+#### [editObject](/reference/services/SoftLayer_Scale_Policy/editObject)
+Edit this policy's name.
+
+#### [getActions](/reference/services/SoftLayer_Scale_Policy/getActions)
+Retrieve the actions to perform upon any trigger hit. Currently this must be a single value.
+
+#### [getObject](/reference/services/SoftLayer_Scale_Policy/getObject)
+Retrieve a SoftLayer_Scale_Policy record.
+
+#### [getOneTimeTriggers](/reference/services/SoftLayer_Scale_Policy/getOneTimeTriggers)
+Retrieve the one-time triggers to check for this group.
+
+#### [getRepeatingTriggers](/reference/services/SoftLayer_Scale_Policy/getRepeatingTriggers)
+Retrieve the repeating triggers to check for this group.
+
+#### [getResourceUseTriggers](/reference/services/SoftLayer_Scale_Policy/getResourceUseTriggers)
+Retrieve the resource-use triggers to check for this group.
+
+#### [getScaleActions](/reference/services/SoftLayer_Scale_Policy/getScaleActions)
+Retrieve the scale actions to perform upon any trigger hit. Currently this must be a single value.
+
+#### [getScaleGroup](/reference/services/SoftLayer_Scale_Policy/getScaleGroup)
+Retrieve the group this policy is on.
+
+#### [getTriggers](/reference/services/SoftLayer_Scale_Policy/getTriggers)
+Retrieve the triggers to check for this group.
+
+#### [trigger](/reference/services/SoftLayer_Scale_Policy/trigger)
+Manually trigger the actions on this policy. 
+
 </div>
 

@@ -36,49 +36,36 @@ Nameservers list container for domain registration
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ipv4Address" name=ipv4Address>ipv4Address</a>
-            </span>
-            <div class='views-field-body'>The IPv4 address of the nameserver. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ipv6Address" name=ipv6Address>ipv6Address</a>
-            </span>
-            <div class='views-field-body'>The IPv6 address of the nameserver. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>The fully qualified name of the nameserver </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sortOrder" name=sortOrder>sortOrder</a>
-            </span>
-            <div class='views-field-body'>The sort order of the nameserver </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[ipv4Address]: #ipv4address
+#### [ipv4Address]
+The IPv4 address of the nameserver.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[ipv6Address]: #ipv6address
+#### [ipv6Address]
+The IPv6 address of the nameserver.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[name]: #name
+#### [name]
+The fully qualified name of the nameserver  
+<span class="type-label">Type: </span>**string**
+
+-----
+[sortOrder]: #sortorder
+#### [sortOrder]
+The sort order of the nameserver  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

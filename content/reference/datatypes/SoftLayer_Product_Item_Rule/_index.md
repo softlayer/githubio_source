@@ -36,193 +36,130 @@ The item rule data type represents a rule that must be followed when the item as
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#itemId" name=itemId>itemId</a>
-            </span>
-            <div class='views-field-body'>The unique identifier of the item that the rule applies to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#message" name=message>message</a>
-            </span>
-            <div class='views-field-body'>An optional message shown for when the rule is found to be invalid when ordering. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#operation" name=operation>operation</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#packageId" name=packageId>packageId</a>
-            </span>
-            <div class='views-field-body'>The unique identifier of the service offering that is associated with the rule. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#typeId" name=typeId>typeId</a>
-            </span>
-            <div class='views-field-body'>The unique identifier of the type of resource rule. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#item" name=item>item</a>
-            </span>
-            <div class='views-field-body'>The product item that a rule applies to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#itemCategoryResources" name=itemCategoryResources>itemCategoryResources</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#itemResources" name=itemResources>itemResources</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationResources" name=locationResources>locationResources</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#package" name=package>package</a>
-            </span>
-            <div class='views-field-body'>The package that a rule is applicable to when ordering. If no package exists, the rule applies to any package. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#permissionResources" name=permissionResources>permissionResources</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#resources" name=resources>resources</a>
-            </span>
-            <div class='views-field-body'>Resources for this rule that are validated when ordering. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#type" name=type>type</a>
-            </span>
-            <div class='views-field-body'>The type a rule is. The type affects how the rule is validated when ordering. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Type'>SoftLayer_Product_Item_Rule_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#itemCategoryResourceCount" name=itemCategoryResourceCount>itemCategoryResourceCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#itemResourceCount" name=itemResourceCount>itemResourceCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationResourceCount" name=locationResourceCount>locationResourceCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#permissionResourceCount" name=permissionResourceCount>permissionResourceCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#resourceCount" name=resourceCount>resourceCount</a>
-            </span>
-            <div class='views-field-body'>A count of resources for this rule that are validated when ordering. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[itemId]: #itemid
+#### [itemId]
+The unique identifier of the item that the rule applies to.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[message]: #message
+#### [message]
+An optional message shown for when the rule is found to be invalid when ordering.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[operation]: #operation
+#### [operation]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[packageId]: #packageid
+#### [packageId]
+The unique identifier of the service offering that is associated with the rule.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[typeId]: #typeid
+#### [typeId]
+The unique identifier of the type of resource rule.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[item]: #item
+#### [item]
+The product item that a rule applies to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+
+-----
+[itemCategoryResources]: #itemcategoryresources
+#### [itemCategoryResources]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a>**
+
+-----
+[itemResources]: #itemresources
+#### [itemResources]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a>**
+
+-----
+[locationResources]: #locationresources
+#### [locationResources]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a>**
+
+-----
+[package]: #package
+#### [package]
+The package that a rule is applicable to when ordering. If no package exists, the rule applies to any package.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**
+
+-----
+[permissionResources]: #permissionresources
+#### [permissionResources]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a>**
+
+-----
+[resources]: #resources
+#### [resources]
+Resources for this rule that are validated when ordering.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a>**
+
+-----
+[type]: #type
+#### [type]
+The type a rule is. The type affects how the rule is validated when ordering.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Type'>SoftLayer_Product_Item_Rule_Type </a>**
+
+
+## Count
+
+-----
+[itemCategoryResourceCount]: #itemcategoryresourcecount
+#### [itemCategoryResourceCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[itemResourceCount]: #itemresourcecount
+#### [itemResourceCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[locationResourceCount]: #locationresourcecount
+#### [locationResourceCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[permissionResourceCount]: #permissionresourcecount
+#### [permissionResourceCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[resourceCount]: #resourcecount
+#### [resourceCount]
+A count of resources for this rule that are validated when ordering.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

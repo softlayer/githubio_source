@@ -36,73 +36,53 @@ This datatype contains tickets referenced from card change request
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attachmentId" name=attachmentId>attachmentId</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of an item that is attached to a ticket. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date that an item was attached to a ticket. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A ticket attachment's internal identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ticketId" name=ticketId>ticketId</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of the ticket that an item is attached to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#resource" name=resource>resource</a>
-            </span>
-            <div class='views-field-body'>The card change request that is attached to a ticket. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_ChangeRequest'>SoftLayer_Billing_Payment_Card_ChangeRequest </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ticket" name=ticket>ticket</a>
-            </span>
-            <div class='views-field-body'>The ticket that an item is attached to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[attachmentId]: #attachmentid
+#### [attachmentId]
+The internal identifier of an item that is attached to a ticket.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+The date that an item was attached to a ticket.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+A ticket attachment's internal identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[ticketId]: #ticketid
+#### [ticketId]
+The internal identifier of the ticket that an item is attached to.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[resource]: #resource
+#### [resource]
+The card change request that is attached to a ticket.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_ChangeRequest'>SoftLayer_Billing_Payment_Card_ChangeRequest </a>**
+
+-----
+[ticket]: #ticket
+#### [ticket]
+The ticket that an item is attached to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+
+
+## Count
 </div>
 
 

@@ -1,6 +1,6 @@
 ---
 title: "getItemsFromImageTemplate"
-description: "Return a collection of [[SoftLayer_Product_Item]] objects from a [[SoftLayer_Virtual_Guest_Block_Device_Template_Group]]... "
+description: "Return a collection of [SoftLayer_Product_Item]({{<ref 'reference/datatypes/SoftLayer_Product_Item'>}}) objects from a [... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getItemsFromImageTemplate
 
-Return a collection of [[SoftLayer_Product_Item]] objects from a [[SoftLayer_Virtual_Guest_Block_Device_Template_Group]] object
+Return a collection of [SoftLayer_Product_Item]({{<ref "reference/datatypes/SoftLayer_Product_Item">}}) objects from a [SoftLayer_Virtual_Guest_Block_Device_Template_Group]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group">}}) object
 
 
 ## Overview 
-Return a collection of [[SoftLayer_Product_Item]] objects from a [[SoftLayer_Virtual_Guest_Block_Device_Template_Group]] object
+Return a collection of [SoftLayer_Product_Item]({{<ref "reference/datatypes/SoftLayer_Product_Item">}}) objects from a [SoftLayer_Virtual_Guest_Block_Device_Template_Group]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group">}}) object
 
 -----
 

@@ -41,49 +41,36 @@ The SoftLayer_User_Security_Question data type contains questions.
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#displayOrder" name=displayOrder>displayOrder</a>
-            </span>
-            <div class='views-field-body'>A security question's display order. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A security question's internal identifying number. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#question" name=question>question</a>
-            </span>
-            <div class='views-field-body'>A security question's question. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#viewable" name=viewable>viewable</a>
-            </span>
-            <div class='views-field-body'>A security question's viewable flag. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[displayOrder]: #displayorder
+#### [displayOrder]
+A security question's display order.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+A security question's internal identifying number.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[question]: #question
+#### [question]
+A security question's question.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[viewable]: #viewable
+#### [viewable]
+A security question's viewable flag.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

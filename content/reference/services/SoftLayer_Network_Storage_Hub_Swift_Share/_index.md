@@ -23,29 +23,27 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Hub_Swift_Share/getContainerList'> getContainerList</a> </span>
-            <div class='views-field-body'>Get a list of the file containers for a brand.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Hub_Swift_Share/getFile'> getFile</a> </span>
-            <div class='views-field-body'>Download a file.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_Hub_Swift_Share/getFileList'> getFileList</a> </span>
-            <div class='views-field-body'>Get a list of the files in a container and path.</div>
-        </div>
-        </div>
+</div>
+
+#### [getContainerList](/reference/services/SoftLayer_Network_Storage_Hub_Swift_Share/getContainerList)
+Get a list of the file containers for a brand.
+
+#### [getFile](/reference/services/SoftLayer_Network_Storage_Hub_Swift_Share/getFile)
+Download a file.
+
+#### [getFileList](/reference/services/SoftLayer_Network_Storage_Hub_Swift_Share/getFileList)
+Get a list of the files in a container and path.
+
 </div>
 

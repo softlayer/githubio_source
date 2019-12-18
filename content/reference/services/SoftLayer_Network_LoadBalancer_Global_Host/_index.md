@@ -20,36 +20,34 @@ classes:
 ## Description
 Every global load balancer account contains hosts that make up the load balancing pool.  The global load balancers select hosts from this pool and return the destination IP in the DNS response.  The SoftLayer_Network_LoadBalancer_Global_Host service represent these hosts. 
 
-Hosts can only be created or modified by using the [[SoftLayer_Network_LoadBalancer_Global_Account::editObject]] method. 
+Hosts can only be created or modified by using the [SoftLayer_Network_LoadBalancer_Global_Account::editObject]({{<ref "reference/services/SoftLayer_Network_LoadBalancer_Global_Account/editObject">}}) method. 
 
 Each account has a limited number of hosts that can be added to the load balancing pool, which is defined by the allowedNumberOfHosts property on a global load balancer account. 
 
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_Global_Host/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Remove a host from the load balancing pool of a global load balancer account.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_Global_Host/getLoadBalancerAccount'> getLoadBalancerAccount</a> </span>
-            <div class='views-field-body'>Retrieve the global load balancer account a host belongs to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_Global_Host/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_LoadBalancer_Global_Host record.</div>
-        </div>
-        </div>
+</div>
+
+#### [deleteObject](/reference/services/SoftLayer_Network_LoadBalancer_Global_Host/deleteObject)
+Remove a host from the load balancing pool of a global load balancer account.
+
+#### [getLoadBalancerAccount](/reference/services/SoftLayer_Network_LoadBalancer_Global_Host/getLoadBalancerAccount)
+Retrieve the global load balancer account a host belongs to.
+
+#### [getObject](/reference/services/SoftLayer_Network_LoadBalancer_Global_Host/getObject)
+Retrieve a SoftLayer_Network_LoadBalancer_Global_Host record.
+
 </div>
 

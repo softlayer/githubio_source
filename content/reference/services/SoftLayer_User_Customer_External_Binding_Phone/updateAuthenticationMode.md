@@ -1,6 +1,6 @@
 ---
 title: "updateAuthenticationMode"
-description: "This service allow you to change your phone authentication mode. See [[SoftLayer_Container_User_Customer_External_Bindin... "
+description: "This service allow you to change your phone authentication mode. See [SoftLayer_Container_User_Customer_External_Binding... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Updates the authentication mode
 
 
 ## Overview 
-This service allow you to change your phone authentication mode. See [[SoftLayer_Container_User_Customer_External_Binding_Phone_Mode|authentication mode]] container for available modes. 
+This service allow you to change your phone authentication mode. See [SoftLayer_Container_User_Customer_External_Binding_Phone_Mode]({{<ref "reference/datatypes/SoftLayer_Container_User_Customer_External_Binding_Phone_Mode">}}) container for available modes. 
 
 -----
 

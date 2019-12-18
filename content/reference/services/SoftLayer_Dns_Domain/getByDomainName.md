@@ -1,6 +1,6 @@
 ---
 title: "getByDomainName"
-description: "Search for [[SoftLayer_Dns_Domain]] records by domain name. getByDomainName() performs an inclusive search for domain re... "
+description: "Search for [SoftLayer_Dns_Domain]({{<ref 'reference/datatypes/SoftLayer_Dns_Domain'>}}) records by domain name. getByDom... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Search for domains by name.
 
 
 ## Overview 
-Search for [[SoftLayer_Dns_Domain]] records by domain name. getByDomainName() performs an inclusive search for domain records, returning multiple records based on partial name matches. Use this method to locate domain records if you don't have access to their id numbers. 
+Search for [SoftLayer_Dns_Domain]({{<ref "reference/datatypes/SoftLayer_Dns_Domain">}}) records by domain name. getByDomainName() performs an inclusive search for domain records, returning multiple records based on partial name matches. Use this method to locate domain records if you don't have access to their id numbers. 
 
 -----
 

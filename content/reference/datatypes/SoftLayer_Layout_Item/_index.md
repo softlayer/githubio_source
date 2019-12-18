@@ -36,83 +36,60 @@ The SoftLayer_Layout_Item contains definitions for default layout items
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of a layout item </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#keyname" name=keyname>keyname</a>
-            </span>
-            <div class='views-field-body'>The unique key name of the layout item, used primarily for programmatic purposes </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#layoutItemTypeId" name=layoutItemTypeId>layoutItemTypeId</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of the related [[SoftLayer_Layout_Item_Type]] </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>The friendly name of the layout item </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#layoutItemPreferences" name=layoutItemPreferences>layoutItemPreferences</a>
-            </span>
-            <div class='views-field-body'>The layout preferences assigned to this layout item </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Layout_Preference'>SoftLayer_Layout_Preference[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#layoutItemType" name=layoutItemType>layoutItemType</a>
-            </span>
-            <div class='views-field-body'>The type of the layout item object </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Layout_Item_Type'>SoftLayer_Layout_Item_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#layoutItemPreferenceCount" name=layoutItemPreferenceCount>layoutItemPreferenceCount</a>
-            </span>
-            <div class='views-field-body'>A count of the layout preferences assigned to this layout item </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[id]: #id
+#### [id]
+The internal identifier of a layout item  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[keyname]: #keyname
+#### [keyname]
+The unique key name of the layout item, used primarily for programmatic purposes  
+<span class="type-label">Type: </span>**string**
+
+-----
+[layoutItemTypeId]: #layoutitemtypeid
+#### [layoutItemTypeId]
+The internal identifier of the related [SoftLayer_Layout_Item_Type]({{<ref "reference/datatypes/SoftLayer_Layout_Item_Type">}})  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[name]: #name
+#### [name]
+The friendly name of the layout item  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[layoutItemPreferences]: #layoutitempreferences
+#### [layoutItemPreferences]
+The layout preferences assigned to this layout item  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Preference'>SoftLayer_Layout_Preference[] </a>**
+
+-----
+[layoutItemType]: #layoutitemtype
+#### [layoutItemType]
+The type of the layout item object  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Item_Type'>SoftLayer_Layout_Item_Type </a>**
+
+
+## Count
+
+-----
+[layoutItemPreferenceCount]: #layoutitempreferencecount
+#### [layoutItemPreferenceCount]
+A count of the layout preferences assigned to this layout item   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

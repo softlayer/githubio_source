@@ -29,7 +29,7 @@ Many SoftLayer customer accounts have individual attributes assigned to them tha
 
 ### seeAlso
 
-* [SoftLayer_Account](/reference/services/SoftLayer_Account )
+* [SoftLayer_Account](/reference/datatypes/SoftLayer_Account )
 
 
 * [SoftLayer_Account_Attribute_Type](/reference/datatypes/SoftLayer_Account_Attribute_Type )
@@ -49,73 +49,53 @@ Many SoftLayer customer accounts have individual attributes assigned to them tha
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountAttributeTypeId" name=accountAttributeTypeId>accountAttributeTypeId</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of the type of attribute that a SoftLayer customer account attribute belongs to.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of the SoftLayer customer account that is assigned an account attribute.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A SoftLayer customer account attribute's internal identifier.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#value" name=value>value</a>
-            </span>
-            <div class='views-field-body'>A SoftLayer account attribute's value.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The SoftLayer customer account that has an attribute. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountAttributeType" name=accountAttributeType>accountAttributeType</a>
-            </span>
-            <div class='views-field-body'>The type of attribute assigned to a SoftLayer customer account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Attribute_Type'>SoftLayer_Account_Attribute_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountAttributeTypeId]: #accountattributetypeid
+#### [accountAttributeTypeId]
+The internal identifier of the type of attribute that a SoftLayer customer account attribute belongs to.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[accountId]: #accountid
+#### [accountId]
+The internal identifier of the SoftLayer customer account that is assigned an account attribute.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+A SoftLayer customer account attribute's internal identifier.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[value]: #value
+#### [value]
+A SoftLayer account attribute's value.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The SoftLayer customer account that has an attribute.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[accountAttributeType]: #accountattributetype
+#### [accountAttributeType]
+The type of attribute assigned to a SoftLayer customer account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Attribute_Type'>SoftLayer_Account_Attribute_Type </a>**
+
+
+## Count
 </div>
 
 

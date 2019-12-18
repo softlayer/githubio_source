@@ -36,83 +36,60 @@ The SoftLayer_Network_Customer_Subnet_IpAddress data type contains general infor
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Unique identifier for an ip address. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ipAddress" name=ipAddress>ipAddress</a>
-            </span>
-            <div class='views-field-body'>An IP address expressed in dotted quad format. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#notes" name=notes>notes</a>
-            </span>
-            <div class='views-field-body'>An IP address' user defined note. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnetId" name=subnetId>subnetId</a>
-            </span>
-            <div class='views-field-body'>The unique identifier for the customer subnet (remote) the ip address belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnet" name=subnet>subnet</a>
-            </span>
-            <div class='views-field-body'>The customer subnet (remote) that the ip address belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet'>SoftLayer_Network_Customer_Subnet </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#translations" name=translations>translations</a>
-            </span>
-            <div class='views-field-body'>All the address translations that are tied to an IP address. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Tunnel_Module_Context_Address_Translation'>SoftLayer_Network_Tunnel_Module_Context_Address_Translation[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#translationCount" name=translationCount>translationCount</a>
-            </span>
-            <div class='views-field-body'>A count of all the address translations that are tied to an IP address. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[id]: #id
+#### [id]
+Unique identifier for an ip address.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[ipAddress]: #ipaddress
+#### [ipAddress]
+An IP address expressed in dotted quad format.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[notes]: #notes
+#### [notes]
+An IP address' user defined note.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[subnetId]: #subnetid
+#### [subnetId]
+The unique identifier for the customer subnet (remote) the ip address belongs to.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[subnet]: #subnet
+#### [subnet]
+The customer subnet (remote) that the ip address belongs to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet'>SoftLayer_Network_Customer_Subnet </a>**
+
+-----
+[translations]: #translations
+#### [translations]
+All the address translations that are tied to an IP address.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Tunnel_Module_Context_Address_Translation'>SoftLayer_Network_Tunnel_Module_Context_Address_Translation[] </a>**
+
+
+## Count
+
+-----
+[translationCount]: #translationcount
+#### [translationCount]
+A count of all the address translations that are tied to an IP address.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

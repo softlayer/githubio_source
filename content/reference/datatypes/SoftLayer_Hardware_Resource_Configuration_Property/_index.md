@@ -36,63 +36,47 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#configurationId" name=configurationId>configurationId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#configurationPropertyTypeId" name=configurationPropertyTypeId>configurationPropertyTypeId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#value" name=value>value</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#configuration" name=configuration>configuration</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Resource_Configuration'>SoftLayer_Hardware_Resource_Configuration </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#type" name=type>type</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Resource_Configuration_Property_Type'>SoftLayer_Hardware_Resource_Configuration_Property_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[configurationId]: #configurationid
+#### [configurationId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[configurationPropertyTypeId]: #configurationpropertytypeid
+#### [configurationPropertyTypeId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[value]: #value
+#### [value]
+  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[configuration]: #configuration
+#### [configuration]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Resource_Configuration'>SoftLayer_Hardware_Resource_Configuration </a>**
+
+-----
+[type]: #type
+#### [type]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Resource_Configuration_Property_Type'>SoftLayer_Hardware_Resource_Configuration_Property_Type </a>**
+
+
+## Count
 </div>
 
 

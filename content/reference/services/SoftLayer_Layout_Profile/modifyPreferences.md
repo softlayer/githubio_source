@@ -1,8 +1,6 @@
 ---
 title: "modifyPreferences"
-description: "Using this method, multiple [[SoftLayer_Layout_Profile_Preference]] objects may be updated at once. 
-
-Refer to [[SoftLay... "
+description: "Using this method, multiple [SoftLayer_Layout_Profile_Preference]({{<ref 'reference/datatypes/SoftLayer_Layout_Profile_P... "
 layout: "method"
 tags:
     - "method"
@@ -19,7 +17,7 @@ Modifies a collection of associated preferences
 
 
 ## Overview 
-Using this method, multiple [[SoftLayer_Layout_Profile_Preference]] objects may be updated at once. 
+Using this method, multiple [SoftLayer_Layout_Profile_Preference]({{<ref "reference/datatypes/SoftLayer_Layout_Profile_Preference">}}) objects may be updated at once. 
 
 Refer to [[SoftLayer_Layout_Profile::modifyPreference()]] for more information. 
 

@@ -36,43 +36,35 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Primary ID for the affiliate </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>Name of this affiliate </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#flexibleCreditProgram" name=flexibleCreditProgram>flexibleCreditProgram</a>
-            </span>
-            <div class='views-field-body'>Flexible Credit Program the affiliate belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_FlexibleCredit_Program'>SoftLayer_FlexibleCredit_Program </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[id]: #id
+#### [id]
+Primary ID for the affiliate  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[name]: #name
+#### [name]
+Name of this affiliate  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[flexibleCreditProgram]: #flexiblecreditprogram
+#### [flexibleCreditProgram]
+Flexible Credit Program the affiliate belongs to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_FlexibleCredit_Program'>SoftLayer_FlexibleCredit_Program </a>**
+
+
+## Count
 </div>
 
 

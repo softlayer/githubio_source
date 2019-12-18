@@ -1,6 +1,6 @@
 ---
 title: "editObject"
-description: "This method will edit an existing SoftLayer_Account_Regional_Registry_Detail object. For more detail, see [[SoftLayer_Ac... "
+description: "This method will edit an existing SoftLayer_Account_Regional_Registry_Detail object. For more detail, see [SoftLayer_Acc... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Edit an existing detail object
 
 
 ## Overview 
-This method will edit an existing SoftLayer_Account_Regional_Registry_Detail object. For more detail, see [[SoftLayer_Account_Regional_Registry_Detail::createObject|createObject]]. 
+This method will edit an existing SoftLayer_Account_Regional_Registry_Detail object. For more detail, see [SoftLayer_Account_Regional_Registry_Detail::createObject]({{<ref "reference/services/SoftLayer_Account_Regional_Registry_Detail/createObject">}}). 
 
 -----
 

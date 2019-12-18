@@ -1,6 +1,6 @@
 ---
 title: "getAllTicketSubjects"
-description: "(DEPRECATED) Use [[SoftLayer_Ticket_Subject::getAllObjects]] method."
+description: "(DEPRECATED) Use [SoftLayer_Ticket_Subject::getAllObjects]({{<ref 'reference/services/SoftLayer_Ticket_Subject/getAllObj... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ aliases:
 
 
 ## Overview 
-(DEPRECATED) Use [[SoftLayer_Ticket_Subject::getAllObjects]] method. 
+(DEPRECATED) Use [SoftLayer_Ticket_Subject::getAllObjects]({{<ref "reference/services/SoftLayer_Ticket_Subject/getAllObjects">}}) method. 
 
 -----
 

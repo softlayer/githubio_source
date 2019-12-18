@@ -1,6 +1,6 @@
 ---
 title: "getRecalculatedOrderContainer"
-description: "Generate an [[SoftLayer_Container_Product_Order|order container]] from the previously-created quote. This will take into... "
+description: "Generate an [SoftLayer_Container_Product_Order]({{<ref 'reference/datatypes/SoftLayer_Container_Product_Order'>}}) from... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Quote](/reference/services/SoftLayer_Billing_Order_Quote)::getRecalculatedOrderContainer
 
-Generate an [[SoftLayer_Container_Product_Order|order container]] from the previously-created quote. 
+Generate an [SoftLayer_Container_Product_Order]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order">}}) from the previously-created quote. 
 
 
 ## Overview 
-Generate an [[SoftLayer_Container_Product_Order|order container]] from the previously-created quote. This will take into account promotions, reseller status, estimated taxes and all other standard order verification processes. 
+Generate an [SoftLayer_Container_Product_Order]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order">}}) from the previously-created quote. This will take into account promotions, reseller status, estimated taxes and all other standard order verification processes. 
 
 -----
 

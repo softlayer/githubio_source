@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Account_Regional_Registry_Detail_Property"
-description: "Subnet registration properties are used to define various attributes of the [[SoftLayer_Account_Regional_Registry_Detail... "
+description: "Subnet registration properties are used to define various attributes of the [SoftLayer_Account_Regional_Registry_Detail]... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-Subnet registration properties are used to define various attributes of the [[SoftLayer_Account_Regional_Registry_Detail|detail objects]]. These properties are defined by the [[SoftLayer_Account_Regional_Registry_Detail_Property_Type]] objects, which describe the available value formats. 
+Subnet registration properties are used to define various attributes of the [SoftLayer_Account_Regional_Registry_Detail]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail">}}) objects, which describe the available value formats. 
 
 
 
@@ -36,103 +36,71 @@ Subnet registration properties are used to define various attributes of the [[So
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Unique ID of the property object  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#propertyTypeId" name=propertyTypeId>propertyTypeId</a>
-            </span>
-            <div class='views-field-body'>The numeric ID of the related [[SoftLayer_Account_Regional_Registry_Detail_Property_Type|property type object]]  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#registrationDetailId" name=registrationDetailId>registrationDetailId</a>
-            </span>
-            <div class='views-field-body'>The numeric ID of the related [[SoftLayer_Account_Regional_Registry_Detail|detail object]]  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sequencePosition" name=sequencePosition>sequencePosition</a>
-            </span>
-            <div class='views-field-body'>When multiple properties exist for a property type, defines the position in the sequence of those properties  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#value" name=value>value</a>
-            </span>
-            <div class='views-field-body'>The value of the property  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#detail" name=detail>detail</a>
-            </span>
-            <div class='views-field-body'>The [[SoftLayer_Account_Regional_Registry_Detail]] object this property belongs to </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail'>SoftLayer_Account_Regional_Registry_Detail </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#propertyType" name=propertyType>propertyType</a>
-            </span>
-            <div class='views-field-body'>The [[SoftLayer_Account_Regional_Registry_Detail_Property_Type]] object this property belongs to </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property_Type'>SoftLayer_Account_Regional_Registry_Detail_Property_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[createDate]: #createdate
+#### [createDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+Unique ID of the property object   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[propertyTypeId]: #propertytypeid
+#### [propertyTypeId]
+The numeric ID of the related [SoftLayer_Account_Regional_Registry_Detail_Property_Type]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property_Type">}})   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[registrationDetailId]: #registrationdetailid
+#### [registrationDetailId]
+The numeric ID of the related [SoftLayer_Account_Regional_Registry_Detail]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail">}})   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[sequencePosition]: #sequenceposition
+#### [sequencePosition]
+When multiple properties exist for a property type, defines the position in the sequence of those properties   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[value]: #value
+#### [value]
+The value of the property   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[detail]: #detail
+#### [detail]
+The [SoftLayer_Account_Regional_Registry_Detail]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail">}}) object this property belongs to  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail'>SoftLayer_Account_Regional_Registry_Detail </a>**
+
+-----
+[propertyType]: #propertytype
+#### [propertyType]
+The [SoftLayer_Account_Regional_Registry_Detail_Property_Type]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property_Type">}}) object this property belongs to  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property_Type'>SoftLayer_Account_Regional_Registry_Detail_Property_Type </a>**
+
+
+## Count
 </div>
 
 

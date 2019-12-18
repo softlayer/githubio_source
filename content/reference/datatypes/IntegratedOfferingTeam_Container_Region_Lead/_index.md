@@ -36,59 +36,42 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#emailAddress" name=emailAddress>emailAddress</a>
-            </span>
-            <div class='views-field-body'>Regional lead's email address </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#firstName" name=firstName>firstName</a>
-            </span>
-            <div class='views-field-body'>Regional lead's first name </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastName" name=lastName>lastName</a>
-            </span>
-            <div class='views-field-body'>Regional lead's last name </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#regionKeyName" name=regionKeyName>regionKeyName</a>
-            </span>
-            <div class='views-field-body'>Key name of the region this lead is in charge of </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#regionName" name=regionName>regionName</a>
-            </span>
-            <div class='views-field-body'>Full name of the region this lead is in charge of </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[emailAddress]: #emailaddress
+#### [emailAddress]
+Regional lead's email address  
+<span class="type-label">Type: </span>**string**
+
+-----
+[firstName]: #firstname
+#### [firstName]
+Regional lead's first name  
+<span class="type-label">Type: </span>**string**
+
+-----
+[lastName]: #lastname
+#### [lastName]
+Regional lead's last name  
+<span class="type-label">Type: </span>**string**
+
+-----
+[regionKeyName]: #regionkeyname
+#### [regionKeyName]
+Key name of the region this lead is in charge of  
+<span class="type-label">Type: </span>**string**
+
+-----
+[regionName]: #regionname
+#### [regionName]
+Full name of the region this lead is in charge of  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

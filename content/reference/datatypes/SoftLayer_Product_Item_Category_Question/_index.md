@@ -36,113 +36,78 @@ The SoftLayer_Product_Item_Category_Question data type represents a single quest
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#answerValueExpression" name=answerValueExpression>answerValueExpression</a>
-            </span>
-            <div class='views-field-body'>The type of answer expected. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>The description for the question. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#fieldTypeId" name=fieldTypeId>fieldTypeId</a>
-            </span>
-            <div class='views-field-body'>The type of field to use. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>identifier for category. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#keyName" name=keyName>keyName</a>
-            </span>
-            <div class='views-field-body'>The keyname for the question. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#question" name=question>question</a>
-            </span>
-            <div class='views-field-body'>The question for the category. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#valueExample" name=valueExample>valueExample</a>
-            </span>
-            <div class='views-field-body'>An example and/or explanation of what the answer for the question is expected to look like. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#fieldType" name=fieldType>fieldType</a>
-            </span>
-            <div class='views-field-body'>The type of field that should be used in an HTML form to accept an answer from an end user. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question_Field_Type'>SoftLayer_Product_Item_Category_Question_Field_Type </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#itemCategoryReferences" name=itemCategoryReferences>itemCategoryReferences</a>
-            </span>
-            <div class='views-field-body'>The link between an item category and an item category question. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question_Xref'>SoftLayer_Product_Item_Category_Question_Xref[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#itemCategoryReferenceCount" name=itemCategoryReferenceCount>itemCategoryReferenceCount</a>
-            </span>
-            <div class='views-field-body'>A count of the link between an item category and an item category question. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[answerValueExpression]: #answervalueexpression
+#### [answerValueExpression]
+The type of answer expected.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[description]: #description
+#### [description]
+The description for the question.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[fieldTypeId]: #fieldtypeid
+#### [fieldTypeId]
+The type of field to use.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+identifier for category.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[keyName]: #keyname
+#### [keyName]
+The keyname for the question.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[question]: #question
+#### [question]
+The question for the category.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[valueExample]: #valueexample
+#### [valueExample]
+An example and/or explanation of what the answer for the question is expected to look like.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[fieldType]: #fieldtype
+#### [fieldType]
+The type of field that should be used in an HTML form to accept an answer from an end user.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question_Field_Type'>SoftLayer_Product_Item_Category_Question_Field_Type </a>**
+
+-----
+[itemCategoryReferences]: #itemcategoryreferences
+#### [itemCategoryReferences]
+The link between an item category and an item category question.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question_Xref'>SoftLayer_Product_Item_Category_Question_Xref[] </a>**
+
+
+## Count
+
+-----
+[itemCategoryReferenceCount]: #itemcategoryreferencecount
+#### [itemCategoryReferenceCount]
+A count of the link between an item category and an item category question.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

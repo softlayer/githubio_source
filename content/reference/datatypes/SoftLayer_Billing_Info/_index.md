@@ -41,273 +41,174 @@ Every SoftLayer customer account has billing specific information which is kept 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>A SoftLayer account's identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#anniversaryDayOfMonth" name=anniversaryDayOfMonth>anniversaryDayOfMonth</a>
-            </span>
-            <div class='views-field-body'>The day of the month that a SoftLayer customer is billed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cardAccountNumber" name=cardAccountNumber>cardAccountNumber</a>
-            </span>
-            <div class='views-field-body'>This value doesn't persist to this object. It's used as part of the account creation process only; </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cardExpirationMonth" name=cardExpirationMonth>cardExpirationMonth</a>
-            </span>
-            <div class='views-field-body'>the expiration month of the credit card on file </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cardExpirationYear" name=cardExpirationYear>cardExpirationYear</a>
-            </span>
-            <div class='views-field-body'>the expiration year of the credit card on file </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cardNickname" name=cardNickname>cardNickname</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cardType" name=cardType>cardType</a>
-            </span>
-            <div class='views-field-body'>the type of the credit card on file </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cardVerificationNumber" name=cardVerificationNumber>cardVerificationNumber</a>
-            </span>
-            <div class='views-field-body'>This value doesn't persist to this object. It's used as part of the account creation process only. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date a customer's billing information was created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A SoftLayer customer's billing information identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastFourPaymentCardDigits" name=lastFourPaymentCardDigits>lastFourPaymentCardDigits</a>
-            </span>
-            <div class='views-field-body'>The last four digits of the credit card currently on the account. This is the only portion of the card that we store. For Paypal customers, this value will be empty. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastPaymentDate" name=lastPaymentDate>lastPaymentDate</a>
-            </span>
-            <div class='views-field-body'>The date of the last payment received by SoftLayer from the account holder. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>The date a customer's billing information was last modified. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#paymentTerms" name=paymentTerms>paymentTerms</a>
-            </span>
-            <div class='views-field-body'>The payment terms for an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#percentDiscountOnetime" name=percentDiscountOnetime>percentDiscountOnetime</a>
-            </span>
-            <div class='views-field-body'>The percentage discount received on all one-time charges on a customer's monthly bill. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#percentDiscountRecurring" name=percentDiscountRecurring>percentDiscountRecurring</a>
-            </span>
-            <div class='views-field-body'>The percentage discount received on all recurring charges on a customer's monthly bill. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sparePoolAmount" name=sparePoolAmount>sparePoolAmount</a>
-            </span>
-            <div class='views-field-body'>The total recurring fee amount for servers that are in the spare pool status. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#taxCertificateId" name=taxCertificateId>taxCertificateId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#vatId" name=vatId>vatId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The SoftLayer customer account associated with this billing information. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#achInformation" name=achInformation>achInformation</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Info_Ach'>SoftLayer_Billing_Info_Ach[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#currency" name=currency>currency</a>
-            </span>
-            <div class='views-field-body'>Currency to be used by this customer account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#currentBillingCycle" name=currentBillingCycle>currentBillingCycle</a>
-            </span>
-            <div class='views-field-body'>Information related to an account's current and previous billing cycles. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Info_Cycle'>SoftLayer_Billing_Info_Cycle </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastBillDate" name=lastBillDate>lastBillDate</a>
-            </span>
-            <div class='views-field-body'>The date on which an account was last billed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nextBillDate" name=nextBillDate>nextBillDate</a>
-            </span>
-            <div class='views-field-body'>The date on which an account will be billed next. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#achInformationCount" name=achInformationCount>achInformationCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+A SoftLayer account's identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[anniversaryDayOfMonth]: #anniversarydayofmonth
+#### [anniversaryDayOfMonth]
+The day of the month that a SoftLayer customer is billed.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[cardAccountNumber]: #cardaccountnumber
+#### [cardAccountNumber]
+This value doesn't persist to this object. It's used as part of the account creation process only;  
+<span class="type-label">Type: </span>**string**
+
+-----
+[cardExpirationMonth]: #cardexpirationmonth
+#### [cardExpirationMonth]
+the expiration month of the credit card on file  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[cardExpirationYear]: #cardexpirationyear
+#### [cardExpirationYear]
+the expiration year of the credit card on file  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[cardNickname]: #cardnickname
+#### [cardNickname]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[cardType]: #cardtype
+#### [cardType]
+the type of the credit card on file  
+<span class="type-label">Type: </span>**string**
+
+-----
+[cardVerificationNumber]: #cardverificationnumber
+#### [cardVerificationNumber]
+This value doesn't persist to this object. It's used as part of the account creation process only.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+The date a customer's billing information was created.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+A SoftLayer customer's billing information identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[lastFourPaymentCardDigits]: #lastfourpaymentcarddigits
+#### [lastFourPaymentCardDigits]
+The last four digits of the credit card currently on the account. This is the only portion of the card that we store. For Paypal customers, this value will be empty.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[lastPaymentDate]: #lastpaymentdate
+#### [lastPaymentDate]
+The date of the last payment received by SoftLayer from the account holder.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+The date a customer's billing information was last modified.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[paymentTerms]: #paymentterms
+#### [paymentTerms]
+The payment terms for an account.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[percentDiscountOnetime]: #percentdiscountonetime
+#### [percentDiscountOnetime]
+The percentage discount received on all one-time charges on a customer's monthly bill.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[percentDiscountRecurring]: #percentdiscountrecurring
+#### [percentDiscountRecurring]
+The percentage discount received on all recurring charges on a customer's monthly bill.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[sparePoolAmount]: #sparepoolamount
+#### [sparePoolAmount]
+The total recurring fee amount for servers that are in the spare pool status.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[taxCertificateId]: #taxcertificateid
+#### [taxCertificateId]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[vatId]: #vatid
+#### [vatId]
+  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The SoftLayer customer account associated with this billing information.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[achInformation]: #achinformation
+#### [achInformation]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Info_Ach'>SoftLayer_Billing_Info_Ach[] </a>**
+
+-----
+[currency]: #currency
+#### [currency]
+Currency to be used by this customer account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a>**
+
+-----
+[currentBillingCycle]: #currentbillingcycle
+#### [currentBillingCycle]
+Information related to an account's current and previous billing cycles.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Info_Cycle'>SoftLayer_Billing_Info_Cycle </a>**
+
+-----
+[lastBillDate]: #lastbilldate
+#### [lastBillDate]
+The date on which an account was last billed.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[nextBillDate]: #nextbilldate
+#### [nextBillDate]
+The date on which an account will be billed next.  
+<span class="type-label">Type: </span>**dateTime**
+
+
+## Count
+
+-----
+[achInformationCount]: #achinformationcount
+#### [achInformationCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

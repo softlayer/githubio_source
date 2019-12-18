@@ -23,33 +23,30 @@ This class represents a Proof of Concept account approver.
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_ProofOfConcept_Approver/getAllObjects'> getAllObjects</a> </span>
-            <div class='views-field-body'>Retrieves a list of reviewers</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_ProofOfConcept_Approver/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Account_ProofOfConcept_Approver record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_ProofOfConcept_Approver/getRole'> getRole</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_ProofOfConcept_Approver/getType'> getType</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-        </div>
+</div>
+
+#### [getAllObjects](/reference/services/SoftLayer_Account_ProofOfConcept_Approver/getAllObjects)
+Retrieves a list of reviewers
+
+#### [getObject](/reference/services/SoftLayer_Account_ProofOfConcept_Approver/getObject)
+Retrieve a SoftLayer_Account_ProofOfConcept_Approver record.
+
+#### [getRole](/reference/services/SoftLayer_Account_ProofOfConcept_Approver/getRole)
+
+
+#### [getType](/reference/services/SoftLayer_Account_ProofOfConcept_Approver/getType)
+
+
 </div>
 

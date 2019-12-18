@@ -39,217 +39,168 @@ The SoftLayer_Network_Vlan service controls these VLANs and provides relationshi
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit a VLAN's properties</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve the SoftLayer customer account associated with a VLAN.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getAdditionalPrimarySubnets'> getAdditionalPrimarySubnets</a> </span>
-            <div class='views-field-body'>Retrieve a VLAN's additional primary subnets. These are used to extend the number of servers attached to the VLAN by adding more ip addresses to the primary IP address pool.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getAttachedNetworkGateway'> getAttachedNetworkGateway</a> </span>
-            <div class='views-field-body'>Retrieve the gateway this VLAN is inside of.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getAttachedNetworkGatewayFlag'> getAttachedNetworkGatewayFlag</a> </span>
-            <div class='views-field-body'>Retrieve whether or not this VLAN is inside a gateway.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getAttachedNetworkGatewayVlan'> getAttachedNetworkGatewayVlan</a> </span>
-            <div class='views-field-body'>Retrieve the inside VLAN record if this VLAN is inside a network gateway.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getBillingItem'> getBillingItem</a> </span>
-            <div class='views-field-body'>Retrieve the billing item for a network vlan.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getCancelFailureReasons'> getCancelFailureReasons</a> </span>
-            <div class='views-field-body'>Get a set of reasons why this VLAN may not be cancelled.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getDedicatedFirewallFlag'> getDedicatedFirewallFlag</a> </span>
-            <div class='views-field-body'>Retrieve a flag indicating that a network vlan is on a Hardware Firewall (Dedicated).</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getExtensionRouter'> getExtensionRouter</a> </span>
-            <div class='views-field-body'>Retrieve the extension router that a VLAN is associated with.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getFirewallGuestNetworkComponents'> getFirewallGuestNetworkComponents</a> </span>
-            <div class='views-field-body'>Retrieve a firewalled Vlan's network components.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getFirewallInterfaces'> getFirewallInterfaces</a> </span>
-            <div class='views-field-body'>Retrieve a firewalled vlan's inbound/outbound interfaces.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getFirewallNetworkComponents'> getFirewallNetworkComponents</a> </span>
-            <div class='views-field-body'>Retrieve a firewalled Vlan's network components.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getFirewallProtectableIpAddresses'> getFirewallProtectableIpAddresses</a> </span>
-            <div class='views-field-body'>Get the IP addresses associated with this server that are protectable by a network component firewall.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getFirewallProtectableSubnets'> getFirewallProtectableSubnets</a> </span>
-            <div class='views-field-body'>Get the subnets associated with this server that are protectable by a network component firewall.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getFirewallRules'> getFirewallRules</a> </span>
-            <div class='views-field-body'>Retrieve the currently running rule set of a firewalled VLAN.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getGuestNetworkComponents'> getGuestNetworkComponents</a> </span>
-            <div class='views-field-body'>Retrieve the networking components that are connected to a VLAN.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getHardware'> getHardware</a> </span>
-            <div class='views-field-body'>Retrieve all of the hardware that exists on a VLAN. Hardware is associated with a VLAN by its networking components.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getHighAvailabilityFirewallFlag'> getHighAvailabilityFirewallFlag</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getLocalDiskStorageCapabilityFlag'> getLocalDiskStorageCapabilityFlag</a> </span>
-            <div class='views-field-body'>Retrieve a flag indicating that a vlan can be assigned to a host that has local disk functionality.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getNetwork'> getNetwork</a> </span>
-            <div class='views-field-body'>Retrieve the network in which this VLAN resides.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getNetworkComponentTrunks'> getNetworkComponentTrunks</a> </span>
-            <div class='views-field-body'>Retrieve the network components that are connected to this VLAN through a trunk.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getNetworkComponents'> getNetworkComponents</a> </span>
-            <div class='views-field-body'>Retrieve the networking components that are connected to a VLAN.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getNetworkSpace'> getNetworkSpace</a> </span>
-            <div class='views-field-body'>Retrieve identifier to denote whether a VLAN is used for public or private connectivity.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getNetworkVlanFirewall'> getNetworkVlanFirewall</a> </span>
-            <div class='views-field-body'>Retrieve the Hardware Firewall (Dedicated) for a network vlan.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_Vlan record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getPrimaryRouter'> getPrimaryRouter</a> </span>
-            <div class='views-field-body'>Retrieve the primary router that a VLAN is associated with. Every SoftLayer VLAN is connected to more than one router for greater network redundancy.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getPrimarySubnet'> getPrimarySubnet</a> </span>
-            <div class='views-field-body'>Retrieve a VLAN's primary subnet. Each VLAN has at least one subnet, usually the subnet that is assigned to a server or new IP address block when it's purchased.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getPrimarySubnetVersion6'> getPrimarySubnetVersion6</a> </span>
-            <div class='views-field-body'>Retrieve a VLAN's primary IPv6 subnet. Some VLAN's may not have a primary IPv6 subnet.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getPrimarySubnets'> getPrimarySubnets</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getPrivateNetworkGateways'> getPrivateNetworkGateways</a> </span>
-            <div class='views-field-body'>Retrieve the gateways this VLAN is the private VLAN of.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getPrivateVlan'> getPrivateVlan</a> </span>
-            <div class='views-field-body'>Retrieve a VLAN's associated private network VLAN.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getPrivateVlanByIpAddress'> getPrivateVlanByIpAddress</a> </span>
-            <div class='views-field-body'>Retrieve the private network VLAN associated with an IP address.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getProtectedIpAddresses'> getProtectedIpAddresses</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getPublicNetworkGateways'> getPublicNetworkGateways</a> </span>
-            <div class='views-field-body'>Retrieve the gateways this VLAN is the public VLAN of.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getPublicVlanByFqdn'> getPublicVlanByFqdn</a> </span>
-            <div class='views-field-body'>Retrieve a server's public VLAN based on it's fully-qualified domain name</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getReverseDomainRecords'> getReverseDomainRecords</a> </span>
-            <div class='views-field-body'>Retrieve all reverse DNS records associated with a VLAN.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getSanStorageCapabilityFlag'> getSanStorageCapabilityFlag</a> </span>
-            <div class='views-field-body'>Retrieve a flag indicating that a vlan can be assigned to a host that has SAN disk functionality.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getScaleVlans'> getScaleVlans</a> </span>
-            <div class='views-field-body'>Retrieve collection of scale VLANs this VLAN applies to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getSecondaryRouter'> getSecondaryRouter</a> </span>
-            <div class='views-field-body'>Retrieve the secondary router that a VLAN is associated with. Every SoftLayer VLAN is connected to more than one router for greater network redundancy.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getSecondarySubnets'> getSecondarySubnets</a> </span>
-            <div class='views-field-body'>Retrieve the subnets that exist as secondary interfaces on a VLAN</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getSubnets'> getSubnets</a> </span>
-            <div class='views-field-body'>Retrieve all of the subnets that exist as VLAN interfaces.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getTagReferences'> getTagReferences</a> </span>
-            <div class='views-field-body'>Retrieve references to all tags for this VLAN.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getTotalPrimaryIpAddressCount'> getTotalPrimaryIpAddressCount</a> </span>
-            <div class='views-field-body'>Retrieve the number of primary IP addresses in a VLAN.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getType'> getType</a> </span>
-            <div class='views-field-body'>Retrieve the type of this VLAN.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getVirtualGuests'> getVirtualGuests</a> </span>
-            <div class='views-field-body'>Retrieve all of the Virtual Servers that are connected to a VLAN.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/getVlanForIpAddress'> getVlanForIpAddress</a> </span>
-            <div class='views-field-body'>Retrieve an IP addresses's associated VLAN.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/setTags'> setTags</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/updateFirewallIntraVlanCommunication'> updateFirewallIntraVlanCommunication</a> </span>
-            <div class='views-field-body'>Update a VLAN's firewall to allow or disallow intra-VLAN communication.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Vlan/upgrade'> upgrade</a> </span>
-            <div class='views-field-body'>Convert the VLAN to a paid resource. That is, from an Automatic to a Premium VLAN.</div>
-        </div>
-        </div>
+</div>
+
+#### [editObject](/reference/services/SoftLayer_Network_Vlan/editObject)
+Edit a VLAN's properties
+
+#### [getAccount](/reference/services/SoftLayer_Network_Vlan/getAccount)
+Retrieve the SoftLayer customer account associated with a VLAN.
+
+#### [getAdditionalPrimarySubnets](/reference/services/SoftLayer_Network_Vlan/getAdditionalPrimarySubnets)
+Retrieve a VLAN's additional primary subnets. These are used to extend the number of servers attached to the VLAN by adding more ip addresses to the primary IP address pool.
+
+#### [getAttachedNetworkGateway](/reference/services/SoftLayer_Network_Vlan/getAttachedNetworkGateway)
+Retrieve the gateway this VLAN is inside of.
+
+#### [getAttachedNetworkGatewayFlag](/reference/services/SoftLayer_Network_Vlan/getAttachedNetworkGatewayFlag)
+Retrieve whether or not this VLAN is inside a gateway.
+
+#### [getAttachedNetworkGatewayVlan](/reference/services/SoftLayer_Network_Vlan/getAttachedNetworkGatewayVlan)
+Retrieve the inside VLAN record if this VLAN is inside a network gateway.
+
+#### [getBillingItem](/reference/services/SoftLayer_Network_Vlan/getBillingItem)
+Retrieve the billing item for a network vlan.
+
+#### [getCancelFailureReasons](/reference/services/SoftLayer_Network_Vlan/getCancelFailureReasons)
+Get a set of reasons why this VLAN may not be cancelled.
+
+#### [getDedicatedFirewallFlag](/reference/services/SoftLayer_Network_Vlan/getDedicatedFirewallFlag)
+Retrieve a flag indicating that a network vlan is on a Hardware Firewall (Dedicated).
+
+#### [getExtensionRouter](/reference/services/SoftLayer_Network_Vlan/getExtensionRouter)
+Retrieve the extension router that a VLAN is associated with.
+
+#### [getFirewallGuestNetworkComponents](/reference/services/SoftLayer_Network_Vlan/getFirewallGuestNetworkComponents)
+Retrieve a firewalled Vlan's network components.
+
+#### [getFirewallInterfaces](/reference/services/SoftLayer_Network_Vlan/getFirewallInterfaces)
+Retrieve a firewalled vlan's inbound/outbound interfaces.
+
+#### [getFirewallNetworkComponents](/reference/services/SoftLayer_Network_Vlan/getFirewallNetworkComponents)
+Retrieve a firewalled Vlan's network components.
+
+#### [getFirewallProtectableIpAddresses](/reference/services/SoftLayer_Network_Vlan/getFirewallProtectableIpAddresses)
+Get the IP addresses associated with this server that are protectable by a network component firewall.
+
+#### [getFirewallProtectableSubnets](/reference/services/SoftLayer_Network_Vlan/getFirewallProtectableSubnets)
+Get the subnets associated with this server that are protectable by a network component firewall.
+
+#### [getFirewallRules](/reference/services/SoftLayer_Network_Vlan/getFirewallRules)
+Retrieve the currently running rule set of a firewalled VLAN.
+
+#### [getGuestNetworkComponents](/reference/services/SoftLayer_Network_Vlan/getGuestNetworkComponents)
+Retrieve the networking components that are connected to a VLAN.
+
+#### [getHardware](/reference/services/SoftLayer_Network_Vlan/getHardware)
+Retrieve all of the hardware that exists on a VLAN. Hardware is associated with a VLAN by its networking components.
+
+#### [getHighAvailabilityFirewallFlag](/reference/services/SoftLayer_Network_Vlan/getHighAvailabilityFirewallFlag)
+
+
+#### [getLocalDiskStorageCapabilityFlag](/reference/services/SoftLayer_Network_Vlan/getLocalDiskStorageCapabilityFlag)
+Retrieve a flag indicating that a vlan can be assigned to a host that has local disk functionality.
+
+#### [getNetwork](/reference/services/SoftLayer_Network_Vlan/getNetwork)
+Retrieve the network in which this VLAN resides.
+
+#### [getNetworkComponentTrunks](/reference/services/SoftLayer_Network_Vlan/getNetworkComponentTrunks)
+Retrieve the network components that are connected to this VLAN through a trunk.
+
+#### [getNetworkComponents](/reference/services/SoftLayer_Network_Vlan/getNetworkComponents)
+Retrieve the networking components that are connected to a VLAN.
+
+#### [getNetworkSpace](/reference/services/SoftLayer_Network_Vlan/getNetworkSpace)
+Retrieve identifier to denote whether a VLAN is used for public or private connectivity.
+
+#### [getNetworkVlanFirewall](/reference/services/SoftLayer_Network_Vlan/getNetworkVlanFirewall)
+Retrieve the Hardware Firewall (Dedicated) for a network vlan.
+
+#### [getObject](/reference/services/SoftLayer_Network_Vlan/getObject)
+Retrieve a SoftLayer_Network_Vlan record.
+
+#### [getPrimaryRouter](/reference/services/SoftLayer_Network_Vlan/getPrimaryRouter)
+Retrieve the primary router that a VLAN is associated with. Every SoftLayer VLAN is connected to more than one router for greater network redundancy.
+
+#### [getPrimarySubnet](/reference/services/SoftLayer_Network_Vlan/getPrimarySubnet)
+Retrieve a VLAN's primary subnet. Each VLAN has at least one subnet, usually the subnet that is assigned to a server or new IP address block when it's purchased.
+
+#### [getPrimarySubnetVersion6](/reference/services/SoftLayer_Network_Vlan/getPrimarySubnetVersion6)
+Retrieve a VLAN's primary IPv6 subnet. Some VLAN's may not have a primary IPv6 subnet.
+
+#### [getPrimarySubnets](/reference/services/SoftLayer_Network_Vlan/getPrimarySubnets)
+
+
+#### [getPrivateNetworkGateways](/reference/services/SoftLayer_Network_Vlan/getPrivateNetworkGateways)
+Retrieve the gateways this VLAN is the private VLAN of.
+
+#### [getPrivateVlan](/reference/services/SoftLayer_Network_Vlan/getPrivateVlan)
+Retrieve a VLAN's associated private network VLAN.
+
+#### [getPrivateVlanByIpAddress](/reference/services/SoftLayer_Network_Vlan/getPrivateVlanByIpAddress)
+Retrieve the private network VLAN associated with an IP address.
+
+#### [getProtectedIpAddresses](/reference/services/SoftLayer_Network_Vlan/getProtectedIpAddresses)
+
+
+#### [getPublicNetworkGateways](/reference/services/SoftLayer_Network_Vlan/getPublicNetworkGateways)
+Retrieve the gateways this VLAN is the public VLAN of.
+
+#### [getPublicVlanByFqdn](/reference/services/SoftLayer_Network_Vlan/getPublicVlanByFqdn)
+Retrieve a server's public VLAN based on it's fully-qualified domain name
+
+#### [getReverseDomainRecords](/reference/services/SoftLayer_Network_Vlan/getReverseDomainRecords)
+Retrieve all reverse DNS records associated with a VLAN.
+
+#### [getSanStorageCapabilityFlag](/reference/services/SoftLayer_Network_Vlan/getSanStorageCapabilityFlag)
+Retrieve a flag indicating that a vlan can be assigned to a host that has SAN disk functionality.
+
+#### [getScaleVlans](/reference/services/SoftLayer_Network_Vlan/getScaleVlans)
+Retrieve collection of scale VLANs this VLAN applies to.
+
+#### [getSecondaryRouter](/reference/services/SoftLayer_Network_Vlan/getSecondaryRouter)
+Retrieve the secondary router that a VLAN is associated with. Every SoftLayer VLAN is connected to more than one router for greater network redundancy.
+
+#### [getSecondarySubnets](/reference/services/SoftLayer_Network_Vlan/getSecondarySubnets)
+Retrieve the subnets that exist as secondary interfaces on a VLAN
+
+#### [getSubnets](/reference/services/SoftLayer_Network_Vlan/getSubnets)
+Retrieve all of the subnets that exist as VLAN interfaces.
+
+#### [getTagReferences](/reference/services/SoftLayer_Network_Vlan/getTagReferences)
+Retrieve references to all tags for this VLAN.
+
+#### [getTotalPrimaryIpAddressCount](/reference/services/SoftLayer_Network_Vlan/getTotalPrimaryIpAddressCount)
+Retrieve the number of primary IP addresses in a VLAN.
+
+#### [getType](/reference/services/SoftLayer_Network_Vlan/getType)
+Retrieve the type of this VLAN.
+
+#### [getVirtualGuests](/reference/services/SoftLayer_Network_Vlan/getVirtualGuests)
+Retrieve all of the Virtual Servers that are connected to a VLAN.
+
+#### [getVlanForIpAddress](/reference/services/SoftLayer_Network_Vlan/getVlanForIpAddress)
+Retrieve an IP addresses's associated VLAN.
+
+#### [setTags](/reference/services/SoftLayer_Network_Vlan/setTags)
+
+
+#### [updateFirewallIntraVlanCommunication](/reference/services/SoftLayer_Network_Vlan/updateFirewallIntraVlanCommunication)
+Update a VLAN's firewall to allow or disallow intra-VLAN communication.
+
+#### [upgrade](/reference/services/SoftLayer_Network_Vlan/upgrade)
+Convert the VLAN to a paid resource. That is, from an Automatic to a Premium VLAN.
+
 </div>
 

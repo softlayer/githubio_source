@@ -1,6 +1,6 @@
 ---
 title: "getNetworks"
-description: "This method returns a collection of [[SoftLayer_Container_Product_Order_Network]] objects. This will contain the availab... "
+description: "This method returns a collection of [SoftLayer_Container_Product_Order_Network]({{<ref 'reference/datatypes/SoftLayer_Co... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Retrieve the networks that are available during ordering.
 
 
 ## Overview 
-This method returns a collection of [[SoftLayer_Container_Product_Order_Network]] objects. This will contain the available networks that can be used when ordering services. 
+This method returns a collection of [SoftLayer_Container_Product_Order_Network]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network">}}) objects. This will contain the available networks that can be used when ordering services. 
 
 If a location id is supplied, the list of networks will be trimmed down to only those that are available at that particular datacenter. 
 

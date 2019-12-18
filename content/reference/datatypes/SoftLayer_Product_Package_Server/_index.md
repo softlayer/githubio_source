@@ -36,453 +36,281 @@ The SoftLayer_Product_Package_Server data type contains summarized information f
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bareMetalReservedFlag" name=bareMetalReservedFlag>bareMetalReservedFlag</a>
-            </span>
-            <div class='views-field-body'>Flag to indicate if the server a Bare Metal Reserved offering. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#catalogId" name=catalogId>catalogId</a>
-            </span>
-            <div class='views-field-body'>The unique identifier of a [[SoftLayer_Product_Catalog]]. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#datacenters" name=datacenters>datacenters</a>
-            </span>
-            <div class='views-field-body'>Comma-separated list of datacenter names this server is available in </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#defaultRamCapacity" name=defaultRamCapacity>defaultRamCapacity</a>
-            </span>
-            <div class='views-field-body'>The minimum amount of RAM the server is configured with. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#dualPathNetworkFlag" name=dualPathNetworkFlag>dualPathNetworkFlag</a>
-            </span>
-            <div class='views-field-body'>Flag to indicate if the server configuration supports dual path network routing. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#flexCoreServerFlag" name=flexCoreServerFlag>flexCoreServerFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#gpuFlag" name=gpuFlag>gpuFlag</a>
-            </span>
-            <div class='views-field-body'>Indicates whether or not the server contains a GPU. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hourlyBillingFlag" name=hourlyBillingFlag>hourlyBillingFlag</a>
-            </span>
-            <div class='views-field-body'>Flag to determine if a server is available for hourly billing. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The unique identifier of a [[SoftLayer_Product_Package_Server]]. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#itemId" name=itemId>itemId</a>
-            </span>
-            <div class='views-field-body'>The unique identifier of a [[SoftLayer_Product_Item]]. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#itemPriceId" name=itemPriceId>itemPriceId</a>
-            </span>
-            <div class='views-field-body'>The unique identifier of a [[SoftLayer_Product_Item_Price]]. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maximumDriveCount" name=maximumDriveCount>maximumDriveCount</a>
-            </span>
-            <div class='views-field-body'>The maximum number of hard drives the server can support. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maximumPortSpeed" name=maximumPortSpeed>maximumPortSpeed</a>
-            </span>
-            <div class='views-field-body'>The maximum available network speed for the server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maximumRamCapacity" name=maximumRamCapacity>maximumRamCapacity</a>
-            </span>
-            <div class='views-field-body'>The maximum amount of RAM the server can support. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#minimumPortSpeed" name=minimumPortSpeed>minimumPortSpeed</a>
-            </span>
-            <div class='views-field-body'>The minimum available network speed for the server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkGatewayApplianceRoleFlag" name=networkGatewayApplianceRoleFlag>networkGatewayApplianceRoleFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#outletFlag" name=outletFlag>outletFlag</a>
-            </span>
-            <div class='views-field-body'>DEPRECATED. Indicates whether or not the server is being sold as part of an outlet package. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#packageId" name=packageId>packageId</a>
-            </span>
-            <div class='views-field-body'>The unique identifier of a [[SoftLayer_Product_Package]]. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#packageType" name=packageType>packageType</a>
-            </span>
-            <div class='views-field-body'>The type of service offering/package. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#powerServerFlag" name=powerServerFlag>powerServerFlag</a>
-            </span>
-            <div class='views-field-body'>Flag to indicate if the server is an IBM Power server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#presetId" name=presetId>presetId</a>
-            </span>
-            <div class='views-field-body'>The unique identifier of a [[SoftLayer_Product_Package_Preset]]. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#privateNetworkOnlyFlag" name=privateNetworkOnlyFlag>privateNetworkOnlyFlag</a>
-            </span>
-            <div class='views-field-body'>Indicates whether or not the server can only be configured with a private network. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#processorBusSpeed" name=processorBusSpeed>processorBusSpeed</a>
-            </span>
-            <div class='views-field-body'>The processor's bus speed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#processorCache" name=processorCache>processorCache</a>
-            </span>
-            <div class='views-field-body'>The amount of cache the processor has. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#processorCores" name=processorCores>processorCores</a>
-            </span>
-            <div class='views-field-body'>The number of cores in each processor. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#processorCount" name=processorCount>processorCount</a>
-            </span>
-            <div class='views-field-body'>The number of processors the server has. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#processorManufacturer" name=processorManufacturer>processorManufacturer</a>
-            </span>
-            <div class='views-field-body'>The manufacturer of the server's processor. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#processorModel" name=processorModel>processorModel</a>
-            </span>
-            <div class='views-field-body'>The model of the server's processor. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#processorName" name=processorName>processorName</a>
-            </span>
-            <div class='views-field-body'>The name of the server's processor. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#processorSpeed" name=processorSpeed>processorSpeed</a>
-            </span>
-            <div class='views-field-body'>The processor speed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#productName" name=productName>productName</a>
-            </span>
-            <div class='views-field-body'>The name of the server product. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#redundantPowerFlag" name=redundantPowerFlag>redundantPowerFlag</a>
-            </span>
-            <div class='views-field-body'>Indicates whether or not the server has the capability to support a redundant power supply. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sapCertifiedServerFlag" name=sapCertifiedServerFlag>sapCertifiedServerFlag</a>
-            </span>
-            <div class='views-field-body'>Flag to indicate if the server is SAP certified. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#startingHourlyPrice" name=startingHourlyPrice>startingHourlyPrice</a>
-            </span>
-            <div class='views-field-body'>The hourly starting price for the server. This includes a sum of all the minimum required items, including RAM and hard drives. Not all servers are available hourly.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#startingMonthlyPrice" name=startingMonthlyPrice>startingMonthlyPrice</a>
-            </span>
-            <div class='views-field-body'>The monthly starting price for the server. This includes a sum of all the minimum required items, including RAM and hard drives. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#totalCoreCount" name=totalCoreCount>totalCoreCount</a>
-            </span>
-            <div class='views-field-body'>The total number of processor cores available for the server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#txtTpmFlag" name=txtTpmFlag>txtTpmFlag</a>
-            </span>
-            <div class='views-field-body'>Flag to indicate if the server configuration supports TXT/TPM. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#unitSize" name=unitSize>unitSize</a>
-            </span>
-            <div class='views-field-body'>The size of the server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#vmwareVsanNodeFlag" name=vmwareVsanNodeFlag>vmwareVsanNodeFlag</a>
-            </span>
-            <div class='views-field-body'>Flag to indicate if the server is a VMware vSAN Node configuration. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#catalog" name=catalog>catalog</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Catalog'>SoftLayer_Product_Catalog </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#item" name=item>item</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#itemPrice" name=itemPrice>itemPrice</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#package" name=package>package</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#preset" name=preset>preset</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[bareMetalReservedFlag]: #baremetalreservedflag
+#### [bareMetalReservedFlag]
+Flag to indicate if the server a Bare Metal Reserved offering.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[catalogId]: #catalogid
+#### [catalogId]
+The unique identifier of a [SoftLayer_Product_Catalog]({{<ref "reference/datatypes/SoftLayer_Product_Catalog">}}).  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[datacenters]: #datacenters
+#### [datacenters]
+Comma-separated list of datacenter names this server is available in  
+<span class="type-label">Type: </span>**string**
+
+-----
+[defaultRamCapacity]: #defaultramcapacity
+#### [defaultRamCapacity]
+The minimum amount of RAM the server is configured with.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[dualPathNetworkFlag]: #dualpathnetworkflag
+#### [dualPathNetworkFlag]
+Flag to indicate if the server configuration supports dual path network routing.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[flexCoreServerFlag]: #flexcoreserverflag
+#### [flexCoreServerFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[gpuFlag]: #gpuflag
+#### [gpuFlag]
+Indicates whether or not the server contains a GPU.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[hourlyBillingFlag]: #hourlybillingflag
+#### [hourlyBillingFlag]
+Flag to determine if a server is available for hourly billing.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[id]: #id
+#### [id]
+The unique identifier of a [SoftLayer_Product_Package_Server]({{<ref "reference/datatypes/SoftLayer_Product_Package_Server">}}).  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[itemId]: #itemid
+#### [itemId]
+The unique identifier of a [SoftLayer_Product_Item]({{<ref "reference/datatypes/SoftLayer_Product_Item">}}).  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[itemPriceId]: #itempriceid
+#### [itemPriceId]
+The unique identifier of a [SoftLayer_Product_Item_Price]({{<ref "reference/datatypes/SoftLayer_Product_Item_Price">}}).  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[maximumDriveCount]: #maximumdrivecount
+#### [maximumDriveCount]
+The maximum number of hard drives the server can support.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[maximumPortSpeed]: #maximumportspeed
+#### [maximumPortSpeed]
+The maximum available network speed for the server.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[maximumRamCapacity]: #maximumramcapacity
+#### [maximumRamCapacity]
+The maximum amount of RAM the server can support.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[minimumPortSpeed]: #minimumportspeed
+#### [minimumPortSpeed]
+The minimum available network speed for the server.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[networkGatewayApplianceRoleFlag]: #networkgatewayapplianceroleflag
+#### [networkGatewayApplianceRoleFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[outletFlag]: #outletflag
+#### [outletFlag]
+DEPRECATED. Indicates whether or not the server is being sold as part of an outlet package.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[packageId]: #packageid
+#### [packageId]
+The unique identifier of a [SoftLayer_Product_Package]({{<ref "reference/datatypes/SoftLayer_Product_Package">}}).  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[packageType]: #packagetype
+#### [packageType]
+The type of service offering/package.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[powerServerFlag]: #powerserverflag
+#### [powerServerFlag]
+Flag to indicate if the server is an IBM Power server.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[presetId]: #presetid
+#### [presetId]
+The unique identifier of a [SoftLayer_Product_Package_Preset]({{<ref "reference/datatypes/SoftLayer_Product_Package_Preset">}}).  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[privateNetworkOnlyFlag]: #privatenetworkonlyflag
+#### [privateNetworkOnlyFlag]
+Indicates whether or not the server can only be configured with a private network.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[processorBusSpeed]: #processorbusspeed
+#### [processorBusSpeed]
+The processor's bus speed.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[processorCache]: #processorcache
+#### [processorCache]
+The amount of cache the processor has.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[processorCores]: #processorcores
+#### [processorCores]
+The number of cores in each processor.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[processorCount]: #processorcount
+#### [processorCount]
+The number of processors the server has.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[processorManufacturer]: #processormanufacturer
+#### [processorManufacturer]
+The manufacturer of the server's processor.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[processorModel]: #processormodel
+#### [processorModel]
+The model of the server's processor.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[processorName]: #processorname
+#### [processorName]
+The name of the server's processor.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[processorSpeed]: #processorspeed
+#### [processorSpeed]
+The processor speed.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[productName]: #productname
+#### [productName]
+The name of the server product.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[redundantPowerFlag]: #redundantpowerflag
+#### [redundantPowerFlag]
+Indicates whether or not the server has the capability to support a redundant power supply.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[sapCertifiedServerFlag]: #sapcertifiedserverflag
+#### [sapCertifiedServerFlag]
+Flag to indicate if the server is SAP certified.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[startingHourlyPrice]: #startinghourlyprice
+#### [startingHourlyPrice]
+The hourly starting price for the server. This includes a sum of all the minimum required items, including RAM and hard drives. Not all servers are available hourly.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[startingMonthlyPrice]: #startingmonthlyprice
+#### [startingMonthlyPrice]
+The monthly starting price for the server. This includes a sum of all the minimum required items, including RAM and hard drives.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[totalCoreCount]: #totalcorecount
+#### [totalCoreCount]
+The total number of processor cores available for the server.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[txtTpmFlag]: #txttpmflag
+#### [txtTpmFlag]
+Flag to indicate if the server configuration supports TXT/TPM.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[unitSize]: #unitsize
+#### [unitSize]
+The size of the server.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[vmwareVsanNodeFlag]: #vmwarevsannodeflag
+#### [vmwareVsanNodeFlag]
+Flag to indicate if the server is a VMware vSAN Node configuration.  
+<span class="type-label">Type: </span>**boolean**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[catalog]: #catalog
+#### [catalog]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Catalog'>SoftLayer_Product_Catalog </a>**
+
+-----
+[item]: #item
+#### [item]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+
+-----
+[itemPrice]: #itemprice
+#### [itemPrice]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>**
+
+-----
+[package]: #package
+#### [package]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**
+
+-----
+[preset]: #preset
+#### [preset]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset </a>**
+
+
+## Count
 </div>
 
 

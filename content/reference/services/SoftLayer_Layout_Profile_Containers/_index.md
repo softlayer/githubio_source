@@ -23,37 +23,33 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Containers/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Associate a layout container with a profile</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Containers/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit the object by passing in a modified instance of the object</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Containers/getLayoutContainerType'> getLayoutContainerType</a> </span>
-            <div class='views-field-body'>Retrieve the container to be contained</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Containers/getLayoutProfile'> getLayoutProfile</a> </span>
-            <div class='views-field-body'>Retrieve the profile containing this container</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Containers/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Layout_Profile_Containers record.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Layout_Profile_Containers/createObject)
+Associate a layout container with a profile
+
+#### [editObject](/reference/services/SoftLayer_Layout_Profile_Containers/editObject)
+Edit the object by passing in a modified instance of the object
+
+#### [getLayoutContainerType](/reference/services/SoftLayer_Layout_Profile_Containers/getLayoutContainerType)
+Retrieve the container to be contained
+
+#### [getLayoutProfile](/reference/services/SoftLayer_Layout_Profile_Containers/getLayoutProfile)
+Retrieve the profile containing this container
+
+#### [getObject](/reference/services/SoftLayer_Layout_Profile_Containers/getObject)
+Retrieve a SoftLayer_Layout_Profile_Containers record.
+
 </div>
 

@@ -36,133 +36,90 @@ The SoftLayer_Network_LBaaS_Listener type presents a data structure for a load b
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#connectionLimit" name=connectionLimit>connectionLimit</a>
-            </span>
-            <div class='views-field-body'>Limit of connections a listener can accept </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>Specifies when the listener was created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>Specifies when the listener was updated previously. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#protocol" name=protocol>protocol</a>
-            </span>
-            <div class='views-field-body'>Listeners protocol, one of "TCP", "HTTP", "HTTPS". </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#protocolPort" name=protocolPort>protocolPort</a>
-            </span>
-            <div class='views-field-body'>Listeners protocol port number. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#provisioningStatus" name=provisioningStatus>provisioningStatus</a>
-            </span>
-            <div class='views-field-body'>The provisioning status of listener. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#tlsCertificateId" name=tlsCertificateId>tlsCertificateId</a>
-            </span>
-            <div class='views-field-body'>This references to SSL/TLS certificate (optional) for a listener </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#uuid" name=uuid>uuid</a>
-            </span>
-            <div class='views-field-body'>The UUID of a listener. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#defaultPool" name=defaultPool>defaultPool</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_Pool'>SoftLayer_Network_LBaaS_Pool </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#l7Policies" name=l7Policies>l7Policies</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Policy'>SoftLayer_Network_LBaaS_L7Policy[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#l7PolicyCount" name=l7PolicyCount>l7PolicyCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[connectionLimit]: #connectionlimit
+#### [connectionLimit]
+Limit of connections a listener can accept  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+Specifies when the listener was created.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+Specifies when the listener was updated previously.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[protocol]: #protocol
+#### [protocol]
+Listeners protocol, one of "TCP", "HTTP", "HTTPS".  
+<span class="type-label">Type: </span>**string**
+
+-----
+[protocolPort]: #protocolport
+#### [protocolPort]
+Listeners protocol port number.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[provisioningStatus]: #provisioningstatus
+#### [provisioningStatus]
+The provisioning status of listener.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[tlsCertificateId]: #tlscertificateid
+#### [tlsCertificateId]
+This references to SSL/TLS certificate (optional) for a listener  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[uuid]: #uuid
+#### [uuid]
+The UUID of a listener.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[defaultPool]: #defaultpool
+#### [defaultPool]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_Pool'>SoftLayer_Network_LBaaS_Pool </a>**
+
+-----
+[l7Policies]: #l7policies
+#### [l7Policies]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Policy'>SoftLayer_Network_LBaaS_L7Policy[] </a>**
+
+
+## Count
+
+-----
+[l7PolicyCount]: #l7policycount
+#### [l7PolicyCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

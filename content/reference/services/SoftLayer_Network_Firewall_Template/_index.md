@@ -35,42 +35,40 @@ The provided firewall templates are recommend rule sets for use with SoftLayer H
 * [SoftLayer_Network_Component_Firewall](/reference/services/SoftLayer_Network_Component_Firewall )
 
 
-* [SoftLayer_Network_Firewall_Update_Request](/reference/services/SoftLayer_Network_Firewall_Update_Request )
+* [SoftLayer_Network_Firewall_Update_Request](/reference/datatypes/SoftLayer_Network_Firewall_Update_Request )
 
 
 * [SoftLayer_Network_Component_Firewall](/reference/services/SoftLayer_Network_Component_Firewall )
 
 
-* [SoftLayer_Network_Firewall_Update_Request](/reference/services/SoftLayer_Network_Firewall_Update_Request )
+* [SoftLayer_Network_Firewall_Update_Request](/reference/datatypes/SoftLayer_Network_Firewall_Update_Request )
 
 
-* [SoftLayer_Network_Firewall_Update_Request](/reference/services/SoftLayer_Network_Firewall_Update_Request )
+* [SoftLayer_Network_Firewall_Update_Request](/reference/datatypes/SoftLayer_Network_Firewall_Update_Request )
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Firewall_Template/getAllObjects'> getAllObjects</a> </span>
-            <div class='views-field-body'>Get all available firewall template objects.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Firewall_Template/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_Firewall_Template record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Firewall_Template/getRules'> getRules</a> </span>
-            <div class='views-field-body'>Retrieve the rule set that belongs to this firewall rules template.</div>
-        </div>
-        </div>
+</div>
+
+#### [getAllObjects](/reference/services/SoftLayer_Network_Firewall_Template/getAllObjects)
+Get all available firewall template objects.
+
+#### [getObject](/reference/services/SoftLayer_Network_Firewall_Template/getObject)
+Retrieve a SoftLayer_Network_Firewall_Template record.
+
+#### [getRules](/reference/services/SoftLayer_Network_Firewall_Template/getRules)
+Retrieve the rule set that belongs to this firewall rules template.
+
 </div>
 

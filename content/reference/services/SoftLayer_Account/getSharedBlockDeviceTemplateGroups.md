@@ -1,6 +1,6 @@
 ---
 title: "getSharedBlockDeviceTemplateGroups"
-description: "This method returns the [[SoftLayer_Virtual_Guest_Block_Device_Template_Group]] objects that have been shared with this... "
+description: "This method returns the [SoftLayer_Virtual_Guest_Block_Device_Template_Group]({{<ref 'reference/datatypes/SoftLayer_Virt... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Get the collection of template group objects that have been shared with this acc
 
 
 ## Overview 
-This method returns the [[SoftLayer_Virtual_Guest_Block_Device_Template_Group]] objects that have been shared with this account 
+This method returns the [SoftLayer_Virtual_Guest_Block_Device_Template_Group]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group">}}) objects that have been shared with this account 
 
 -----
 

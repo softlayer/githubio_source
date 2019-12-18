@@ -36,53 +36,42 @@ The SoftLayer_Billing_Item_Cancellation_Reason_Category data type contains cance
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A category internal identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>The description of the category </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingCancellationReasons" name=billingCancellationReasons>billingCancellationReasons</a>
-            </span>
-            <div class='views-field-body'>The corresponding billing cancellation reasons having the specific billing cancellation reason category. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason'>SoftLayer_Billing_Item_Cancellation_Reason[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingCancellationReasonCount" name=billingCancellationReasonCount>billingCancellationReasonCount</a>
-            </span>
-            <div class='views-field-body'>A count of the corresponding billing cancellation reasons having the specific billing cancellation reason category. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[id]: #id
+#### [id]
+A category internal identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[name]: #name
+#### [name]
+The description of the category  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[billingCancellationReasons]: #billingcancellationreasons
+#### [billingCancellationReasons]
+The corresponding billing cancellation reasons having the specific billing cancellation reason category.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason'>SoftLayer_Billing_Item_Cancellation_Reason[] </a>**
+
+
+## Count
+
+-----
+[billingCancellationReasonCount]: #billingcancellationreasoncount
+#### [billingCancellationReasonCount]
+A count of the corresponding billing cancellation reasons having the specific billing cancellation reason category.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

@@ -36,109 +36,72 @@ Container classed used to hold portal token
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#authenticationToken" name=authenticationToken>authenticationToken</a>
-            </span>
-            <div class='views-field-body'>The unique token that is created by an external authentication request. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openIdConnectAccessToken" name=openIdConnectAccessToken>openIdConnectAccessToken</a>
-            </span>
-            <div class='views-field-body'>The OpenID Connect access token which provides access to a resource by the OpenID Connect provider. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openIdConnectAccountId" name=openIdConnectAccountId>openIdConnectAccountId</a>
-            </span>
-            <div class='views-field-body'>The account to login to, if not provided a default will be used. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openIdConnectProvider" name=openIdConnectProvider>openIdConnectProvider</a>
-            </span>
-            <div class='views-field-body'>The OpenID Connect provider type, as a string. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#password" name=password>password</a>
-            </span>
-            <div class='views-field-body'>Your SoftLayer customer portal user's portal password. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityCode" name=securityCode>securityCode</a>
-            </span>
-            <div class='views-field-body'>The security code used to validate a Totp credential. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityQuestionAnswer" name=securityQuestionAnswer>securityQuestionAnswer</a>
-            </span>
-            <div class='views-field-body'>The answer to your security question. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityQuestionId" name=securityQuestionId>securityQuestionId</a>
-            </span>
-            <div class='views-field-body'>A security question you wish to answer when authenticating to the SoftLayer customer portal. This parameter isn't required if no security questions are set on your portal account or if your account is configured to not require answering a security account upon login. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#username" name=username>username</a>
-            </span>
-            <div class='views-field-body'>The username you wish to authenticate to the SoftLayer customer portal with. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#vendor" name=vendor>vendor</a>
-            </span>
-            <div class='views-field-body'>The name of the vendor that will be used for external authentication </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[authenticationToken]: #authenticationtoken
+#### [authenticationToken]
+The unique token that is created by an external authentication request.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[openIdConnectAccessToken]: #openidconnectaccesstoken
+#### [openIdConnectAccessToken]
+The OpenID Connect access token which provides access to a resource by the OpenID Connect provider.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[openIdConnectAccountId]: #openidconnectaccountid
+#### [openIdConnectAccountId]
+The account to login to, if not provided a default will be used.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[openIdConnectProvider]: #openidconnectprovider
+#### [openIdConnectProvider]
+The OpenID Connect provider type, as a string.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[password]: #password
+#### [password]
+Your SoftLayer customer portal user's portal password.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[securityCode]: #securitycode
+#### [securityCode]
+The security code used to validate a Totp credential.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[securityQuestionAnswer]: #securityquestionanswer
+#### [securityQuestionAnswer]
+The answer to your security question.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[securityQuestionId]: #securityquestionid
+#### [securityQuestionId]
+A security question you wish to answer when authenticating to the SoftLayer customer portal. This parameter isn't required if no security questions are set on your portal account or if your account is configured to not require answering a security account upon login.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[username]: #username
+#### [username]
+The username you wish to authenticate to the SoftLayer customer portal with.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[vendor]: #vendor
+#### [vendor]
+The name of the vendor that will be used for external authentication  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

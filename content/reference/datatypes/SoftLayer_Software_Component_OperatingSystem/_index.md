@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Software_Component_OperatingSystem"
-description: "SoftLayer_Software_Component_OperatingSystem extends the [[SoftLayer_Software_Component]] data type to include operating... "
+description: "SoftLayer_Software_Component_OperatingSystem extends the [SoftLayer_Software_Component]({{<ref 'reference/datatypes/Soft... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-SoftLayer_Software_Component_OperatingSystem extends the [[SoftLayer_Software_Component]] data type to include operating system specific properties. 
+SoftLayer_Software_Component_OperatingSystem extends the [SoftLayer_Software_Component]({{<ref "reference/datatypes/SoftLayer_Software_Component">}}) data type to include operating system specific properties. 
 
 
 
@@ -41,193 +41,128 @@ SoftLayer_Software_Component_OperatingSystem extends the [[SoftLayer_Software_Co
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareId" name=hardwareId>hardwareId</a>
-            </span>
-            <div class='views-field-body'>Hardware Identification Number for the server this Software Component is installed upon. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>An ID number identifying this Software Component (Software Installation) </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#manufacturerActivationCode" name=manufacturerActivationCode>manufacturerActivationCode</a>
-            </span>
-            <div class='views-field-body'>The manufacturer code that is needed to activate a license. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#manufacturerLicenseInstance" name=manufacturerLicenseInstance>manufacturerLicenseInstance</a>
-            </span>
-            <div class='views-field-body'>A license key for this specific installation of software, if it is needed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#averageInstallationDuration" name=averageInstallationDuration>averageInstallationDuration</a>
-            </span>
-            <div class='views-field-body'>The expected amount of time in minutes that an operating system can be installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned long</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingItem" name=billingItem>billingItem</a>
-            </span>
-            <div class='views-field-body'>The billing item for a software component. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardware" name=hardware>hardware</a>
-            </span>
-            <div class='views-field-body'>The hardware this Software Component is installed upon. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#licenseExpirationDate" name=licenseExpirationDate>licenseExpirationDate</a>
-            </span>
-            <div class='views-field-body'>The date in which the license for this software expires. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#partitionTemplates" name=partitionTemplates>partitionTemplates</a>
-            </span>
-            <div class='views-field-body'>An operating system's associated [[SoftLayer_Hardware_Component_Partition_Template|Partition Templates]] that can be used to configure a hardware drive. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template'>SoftLayer_Hardware_Component_Partition_Template[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#passwordHistory" name=passwordHistory>passwordHistory</a>
-            </span>
-            <div class='views-field-body'>History Records for Software Passwords. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Software_Component_Password_History'>SoftLayer_Software_Component_Password_History[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#passwords" name=passwords>passwords</a>
-            </span>
-            <div class='views-field-body'>Username/Password pairs used for access to this Software Installation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#reloadTransactionGroup" name=reloadTransactionGroup>reloadTransactionGroup</a>
-            </span>
-            <div class='views-field-body'>An operating systems associated [[SoftLayer_Provisioning_Version1_Transaction_Group|Transaction Group]]. A transaction group is a list of operations that will occur during the installment of an operating system. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_Group'>SoftLayer_Provisioning_Version1_Transaction_Group </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#softwareDescription" name=softwareDescription>softwareDescription</a>
-            </span>
-            <div class='views-field-body'>The Software Description of this Software Component. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#softwareLicense" name=softwareLicense>softwareLicense</a>
-            </span>
-            <div class='views-field-body'>The License this Software Component uses. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Software_License'>SoftLayer_Software_License </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuest" name=virtualGuest>virtualGuest</a>
-            </span>
-            <div class='views-field-body'>The virtual guest this software component is installed upon. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#partitionTemplateCount" name=partitionTemplateCount>partitionTemplateCount</a>
-            </span>
-            <div class='views-field-body'>A count of an operating system's associated [[SoftLayer_Hardware_Component_Partition_Template|Partition Templates]] that can be used to configure a hardware drive. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#passwordCount" name=passwordCount>passwordCount</a>
-            </span>
-            <div class='views-field-body'>A count of username/Password pairs used for access to this Software Installation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#passwordHistoryCount" name=passwordHistoryCount>passwordHistoryCount</a>
-            </span>
-            <div class='views-field-body'>A count of history Records for Software Passwords. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[hardwareId]: #hardwareid
+#### [hardwareId]
+Hardware Identification Number for the server this Software Component is installed upon.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+An ID number identifying this Software Component (Software Installation)  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[manufacturerActivationCode]: #manufactureractivationcode
+#### [manufacturerActivationCode]
+The manufacturer code that is needed to activate a license.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[manufacturerLicenseInstance]: #manufacturerlicenseinstance
+#### [manufacturerLicenseInstance]
+A license key for this specific installation of software, if it is needed.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[averageInstallationDuration]: #averageinstallationduration
+#### [averageInstallationDuration]
+The expected amount of time in minutes that an operating system can be installed.  
+<span class="type-label">Type: </span>**unsigned long**
+
+-----
+[billingItem]: #billingitem
+#### [billingItem]
+The billing item for a software component.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+
+-----
+[hardware]: #hardware
+#### [hardware]
+The hardware this Software Component is installed upon.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+
+-----
+[licenseExpirationDate]: #licenseexpirationdate
+#### [licenseExpirationDate]
+The date in which the license for this software expires.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[partitionTemplates]: #partitiontemplates
+#### [partitionTemplates]
+An operating system's associated [SoftLayer_Hardware_Component_Partition_Template]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_Template">}}) that can be used to configure a hardware drive.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template'>SoftLayer_Hardware_Component_Partition_Template[] </a>**
+
+-----
+[passwordHistory]: #passwordhistory
+#### [passwordHistory]
+History Records for Software Passwords.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_Password_History'>SoftLayer_Software_Component_Password_History[] </a>**
+
+-----
+[passwords]: #passwords
+#### [passwords]
+Username/Password pairs used for access to this Software Installation.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password[] </a>**
+
+-----
+[reloadTransactionGroup]: #reloadtransactiongroup
+#### [reloadTransactionGroup]
+An operating systems associated [SoftLayer_Provisioning_Version1_Transaction_Group]({{<ref "reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_Group">}}). A transaction group is a list of operations that will occur during the installment of an operating system.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_Group'>SoftLayer_Provisioning_Version1_Transaction_Group </a>**
+
+-----
+[softwareDescription]: #softwaredescription
+#### [softwareDescription]
+The Software Description of this Software Component.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**
+
+-----
+[softwareLicense]: #softwarelicense
+#### [softwareLicense]
+The License this Software Component uses.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_License'>SoftLayer_Software_License </a>**
+
+-----
+[virtualGuest]: #virtualguest
+#### [virtualGuest]
+The virtual guest this software component is installed upon.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+
+
+## Count
+
+-----
+[partitionTemplateCount]: #partitiontemplatecount
+#### [partitionTemplateCount]
+A count of an operating system's associated [SoftLayer_Hardware_Component_Partition_Template]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_Template">}}) that can be used to configure a hardware drive.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[passwordCount]: #passwordcount
+#### [passwordCount]
+A count of username/Password pairs used for access to this Software Installation.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[passwordHistoryCount]: #passwordhistorycount
+#### [passwordHistoryCount]
+A count of history Records for Software Passwords.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

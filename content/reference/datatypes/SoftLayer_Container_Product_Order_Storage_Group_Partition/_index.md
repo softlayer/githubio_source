@@ -40,39 +40,30 @@ This object describes the partitions for a single storage group that can be adde
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#isGrow" name=isGrow>isGrow</a>
-            </span>
-            <div class='views-field-body'>Is this a grow partition </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>The name of this partition </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#size" name=size>size</a>
-            </span>
-            <div class='views-field-body'>The size of this partition </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[isGrow]: #isgrow
+#### [isGrow]
+Is this a grow partition  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[name]: #name
+#### [name]
+The name of this partition  
+<span class="type-label">Type: </span>**string**
+
+-----
+[size]: #size
+#### [size]
+The size of this partition  
+<span class="type-label">Type: </span>**decimal**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

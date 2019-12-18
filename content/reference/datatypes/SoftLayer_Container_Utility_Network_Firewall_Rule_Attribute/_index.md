@@ -36,49 +36,36 @@ The SoftLayer_Container_Utility_Network_Firewall_Rule_Attribute data type contai
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#actions" name=actions>actions</a>
-            </span>
-            <div class='views-field-body'>The valid actions for use with rules. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>array of strings</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maximumRuleCount" name=maximumRuleCount>maximumRuleCount</a>
-            </span>
-            <div class='views-field-body'>Maximum allowed number of rules. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#protocols" name=protocols>protocols</a>
-            </span>
-            <div class='views-field-body'>The valid protocols for use with rules. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>array of strings</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sourceIpSubnetMasks" name=sourceIpSubnetMasks>sourceIpSubnetMasks</a>
-            </span>
-            <div class='views-field-body'>The valid source ip subnet masks for use with rules. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Utility_Network_Subnet_Mask_Generic_Detail'>SoftLayer_Container_Utility_Network_Subnet_Mask_Generic_Detail[] </a></p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[actions]: #actions
+#### [actions]
+The valid actions for use with rules.  
+<span class="type-label">Type: </span>**array of strings**
+
+-----
+[maximumRuleCount]: #maximumrulecount
+#### [maximumRuleCount]
+Maximum allowed number of rules.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[protocols]: #protocols
+#### [protocols]
+The valid protocols for use with rules.  
+<span class="type-label">Type: </span>**array of strings**
+
+-----
+[sourceIpSubnetMasks]: #sourceipsubnetmasks
+#### [sourceIpSubnetMasks]
+The valid source ip subnet masks for use with rules.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Utility_Network_Subnet_Mask_Generic_Detail'>SoftLayer_Container_Utility_Network_Subnet_Mask_Generic_Detail[] </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

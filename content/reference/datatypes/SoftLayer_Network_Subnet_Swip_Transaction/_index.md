@@ -58,63 +58,47 @@ The SoftLayer_Network_Subnet_Swip_Transaction data type contains basic informati
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A SWIP transaction's unique identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#statusName" name=statusName>statusName</a>
-            </span>
-            <div class='views-field-body'>A Name describing which state a SWIP  transaction is in. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnetId" name=subnetId>subnetId</a>
-            </span>
-            <div class='views-field-body'>ID Number of the Subnet for this SWIP transaction. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The Account whose RWHOIS data was used to SWIP this subnet </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnet" name=subnet>subnet</a>
-            </span>
-            <div class='views-field-body'>The subnet that this SWIP transaction was created for. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[id]: #id
+#### [id]
+A SWIP transaction's unique identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[statusName]: #statusname
+#### [statusName]
+A Name describing which state a SWIP  transaction is in.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[subnetId]: #subnetid
+#### [subnetId]
+ID Number of the Subnet for this SWIP transaction.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The Account whose RWHOIS data was used to SWIP this subnet  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[subnet]: #subnet
+#### [subnet]
+The subnet that this SWIP transaction was created for.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**
+
+
+## Count
 </div>
 
 

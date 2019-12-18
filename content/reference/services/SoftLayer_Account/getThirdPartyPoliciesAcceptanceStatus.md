@@ -1,6 +1,6 @@
 ---
 title: "getThirdPartyPoliciesAcceptanceStatus"
-description: "Returns multiple [[SoftLayer_Container_Policy_Acceptance]] that represent the acceptance status of the applicable third-... "
+description: "Returns multiple [SoftLayer_Container_Policy_Acceptance]({{<ref 'reference/datatypes/SoftLayer_Container_Policy_Acceptan... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Get the acceptance status of the applicable third-party policies.
 
 
 ## Overview 
-Returns multiple [[SoftLayer_Container_Policy_Acceptance]] that represent the acceptance status of the applicable third-party policies for this account. 
+Returns multiple [SoftLayer_Container_Policy_Acceptance]({{<ref "reference/datatypes/SoftLayer_Container_Policy_Acceptance">}}) that represent the acceptance status of the applicable third-party policies for this account. 
 
 -----
 

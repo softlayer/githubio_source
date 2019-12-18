@@ -23,49 +23,42 @@ The SoftLayer_Provisioning_Maintenance_Window service returns available maintena
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Provisioning_Maintenance_Window/addCustomerUpgradeWindow'> addCustomerUpgradeWindow</a> </span>
-            <div class='views-field-body'>Updates or creates records in the</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceClassifications'> getMaintenanceClassifications</a> </span>
-            <div class='views-field-body'>Returns the maintenance classifications</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceStartEndTime'> getMaintenanceStartEndTime</a> </span>
-            <div class='views-field-body'>Returns a specific maintenance window</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceWindowForTicket'> getMaintenanceWindowForTicket</a> </span>
-            <div class='views-field-body'>Returns a specific maintenance window</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceWindowTicketsByTicketId'> getMaintenanceWindowTicketsByTicketId</a> </span>
-            <div class='views-field-body'>Returns maintenance window ticket</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceWindows'> getMaintenanceWindows</a> </span>
-            <div class='views-field-body'>Returns available maintenance windows</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenceWindows'> getMaintenceWindows</a> </span>
-            <div class='views-field-body'>Returns available maintenance windows</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Provisioning_Maintenance_Window/updateCustomerUpgradeWindow'> updateCustomerUpgradeWindow</a> </span>
-            <div class='views-field-body'>Creates records in the appropriate</div>
-        </div>
-        </div>
+</div>
+
+#### [addCustomerUpgradeWindow](/reference/services/SoftLayer_Provisioning_Maintenance_Window/addCustomerUpgradeWindow)
+Updates or creates records in the
+
+#### [getMaintenanceClassifications](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceClassifications)
+Returns the maintenance classifications
+
+#### [getMaintenanceStartEndTime](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceStartEndTime)
+Returns a specific maintenance window
+
+#### [getMaintenanceWindowForTicket](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceWindowForTicket)
+Returns a specific maintenance window
+
+#### [getMaintenanceWindowTicketsByTicketId](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceWindowTicketsByTicketId)
+Returns maintenance window ticket
+
+#### [getMaintenanceWindows](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceWindows)
+Returns available maintenance windows
+
+#### [getMaintenceWindows](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenceWindows)
+Returns available maintenance windows
+
+#### [updateCustomerUpgradeWindow](/reference/services/SoftLayer_Provisioning_Maintenance_Window/updateCustomerUpgradeWindow)
+Creates records in the appropriate
+
 </div>
 

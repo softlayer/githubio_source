@@ -1,6 +1,6 @@
 ---
 title: "getOrderStatuses"
-description: "Get a list of [[SoftLayer_Container_Billing_Order_Status]] objects."
+description: "Get a list of [SoftLayer_Container_Billing_Order_Status]({{<ref 'reference/datatypes/SoftLayer_Container_Billing_Order_S... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Get a list of SoftLayer_Container_Billing_Order_Status objects.
 
 
 ## Overview 
-Get a list of [[SoftLayer_Container_Billing_Order_Status]] objects. 
+Get a list of [SoftLayer_Container_Billing_Order_Status]({{<ref "reference/datatypes/SoftLayer_Container_Billing_Order_Status">}}) objects. 
 
 -----
 

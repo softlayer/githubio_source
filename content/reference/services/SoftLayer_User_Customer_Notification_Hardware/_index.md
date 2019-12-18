@@ -27,45 +27,39 @@ When a monitoring service on that hardware instance fails and the monitor is set
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_Notification_Hardware/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create a user hardware notification entry</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_Notification_Hardware/createObjects'> createObjects</a> </span>
-            <div class='views-field-body'>Create multiple user hardware notification entries at once</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_Notification_Hardware/deleteObjects'> deleteObjects</a> </span>
-            <div class='views-field-body'>Delete a group of Customer_Notification_Hardware objects by passing in a collection of them</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_Notification_Hardware/findByHardwareId'> findByHardwareId</a> </span>
-            <div class='views-field-body'>Return all hardware notifications associated with the passed hardware ID</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_Notification_Hardware/getHardware'> getHardware</a> </span>
-            <div class='views-field-body'>Retrieve the hardware object that will be monitored.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_Notification_Hardware/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_User_Customer_Notification_Hardware record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_Notification_Hardware/getUser'> getUser</a> </span>
-            <div class='views-field-body'>Retrieve the user that will be notified when the associated hardware object fails a monitoring instance.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_User_Customer_Notification_Hardware/createObject)
+Create a user hardware notification entry
+
+#### [createObjects](/reference/services/SoftLayer_User_Customer_Notification_Hardware/createObjects)
+Create multiple user hardware notification entries at once
+
+#### [deleteObjects](/reference/services/SoftLayer_User_Customer_Notification_Hardware/deleteObjects)
+Delete a group of Customer_Notification_Hardware objects by passing in a collection of them
+
+#### [findByHardwareId](/reference/services/SoftLayer_User_Customer_Notification_Hardware/findByHardwareId)
+Return all hardware notifications associated with the passed hardware ID
+
+#### [getHardware](/reference/services/SoftLayer_User_Customer_Notification_Hardware/getHardware)
+Retrieve the hardware object that will be monitored.
+
+#### [getObject](/reference/services/SoftLayer_User_Customer_Notification_Hardware/getObject)
+Retrieve a SoftLayer_User_Customer_Notification_Hardware record.
+
+#### [getUser](/reference/services/SoftLayer_User_Customer_Notification_Hardware/getUser)
+Retrieve the user that will be notified when the associated hardware object fails a monitoring instance.
+
 </div>
 

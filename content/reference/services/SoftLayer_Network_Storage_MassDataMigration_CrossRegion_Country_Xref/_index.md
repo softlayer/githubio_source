@@ -23,37 +23,33 @@ MassDataMigration_CrossRegion_Country_Xref provides a list of countries where Ma
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref/getAllObjects'> getAllObjects</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref/getCountry'> getCountry</a> </span>
-            <div class='views-field-body'>Retrieve softLayer_Locale_Country Id.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref/getLocationGroup'> getLocationGroup</a> </span>
-            <div class='views-field-body'>Retrieve location Group ID of CleverSafe cross region.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref/getValidCountriesForRegion'> getValidCountriesForRegion</a> </span>
-            <div class='views-field-body'>return countries assigned to the region having pricing info set.</div>
-        </div>
-        </div>
+</div>
+
+#### [getAllObjects](/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref/getAllObjects)
+
+
+#### [getCountry](/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref/getCountry)
+Retrieve softLayer_Locale_Country Id.
+
+#### [getLocationGroup](/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref/getLocationGroup)
+Retrieve location Group ID of CleverSafe cross region.
+
+#### [getObject](/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref/getObject)
+Retrieve a SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref record.
+
+#### [getValidCountriesForRegion](/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref/getValidCountriesForRegion)
+return countries assigned to the region having pricing info set.
+
 </div>
 

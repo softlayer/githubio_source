@@ -36,69 +36,48 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#aggregatesOnly" name=aggregatesOnly>aggregatesOnly</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#category" name=category>category</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#days" name=days>days</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#endDate" name=endDate>endDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#selectedStatistics" name=selectedStatistics>selectedStatistics</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>array of strings</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#startDate" name=startDate>startDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[aggregatesOnly]: #aggregatesonly
+#### [aggregatesOnly]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[category]: #category
+#### [category]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[days]: #days
+#### [days]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[endDate]: #enddate
+#### [endDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[selectedStatistics]: #selectedstatistics
+#### [selectedStatistics]
+  
+<span class="type-label">Type: </span>**array of strings**
+
+-----
+[startDate]: #startdate
+#### [startDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -36,203 +36,134 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#agreementTypeId" name=agreementTypeId>agreementTypeId</a>
-            </span>
-            <div class='views-field-body'>The type of agreement identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#autoRenew" name=autoRenew>autoRenew</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cancellationFee" name=cancellationFee>cancellationFee</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date an agreement was created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#durationMonths" name=durationMonths>durationMonths</a>
-            </span>
-            <div class='views-field-body'>The duration in months of an agreement. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#endDate" name=endDate>endDate</a>
-            </span>
-            <div class='views-field-body'>The end date of an agreement. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>An agreement's internal identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#startDate" name=startDate>startDate</a>
-            </span>
-            <div class='views-field-body'>The effective start date of an agreement. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#statusId" name=statusId>statusId</a>
-            </span>
-            <div class='views-field-body'>The status identifier for an agreement. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#title" name=title>title</a>
-            </span>
-            <div class='views-field-body'>The title of an agreement. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#agreementType" name=agreementType>agreementType</a>
-            </span>
-            <div class='views-field-body'>The type of agreement. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Agreement_Type'>SoftLayer_Account_Agreement_Type </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attachedBillingAgreementFiles" name=attachedBillingAgreementFiles>attachedBillingAgreementFiles</a>
-            </span>
-            <div class='views-field-body'>The files attached to an agreement. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_MasterServiceAgreement'>SoftLayer_Account_MasterServiceAgreement[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingItems" name=billingItems>billingItems</a>
-            </span>
-            <div class='views-field-body'>The billing items associated with an agreement. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#status" name=status>status</a>
-            </span>
-            <div class='views-field-body'>The status of the agreement. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Agreement_Status'>SoftLayer_Account_Agreement_Status </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#topLevelBillingItems" name=topLevelBillingItems>topLevelBillingItems</a>
-            </span>
-            <div class='views-field-body'>The top level billing item associated with an agreement. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attachedBillingAgreementFileCount" name=attachedBillingAgreementFileCount>attachedBillingAgreementFileCount</a>
-            </span>
-            <div class='views-field-body'>A count of the files attached to an agreement. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingItemCount" name=billingItemCount>billingItemCount</a>
-            </span>
-            <div class='views-field-body'>A count of the billing items associated with an agreement. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#topLevelBillingItemCount" name=topLevelBillingItemCount>topLevelBillingItemCount</a>
-            </span>
-            <div class='views-field-body'>A count of the top level billing item associated with an agreement. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[agreementTypeId]: #agreementtypeid
+#### [agreementTypeId]
+The type of agreement identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[autoRenew]: #autorenew
+#### [autoRenew]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[cancellationFee]: #cancellationfee
+#### [cancellationFee]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+The date an agreement was created.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[durationMonths]: #durationmonths
+#### [durationMonths]
+The duration in months of an agreement.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[endDate]: #enddate
+#### [endDate]
+The end date of an agreement.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+An agreement's internal identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[startDate]: #startdate
+#### [startDate]
+The effective start date of an agreement.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[statusId]: #statusid
+#### [statusId]
+The status identifier for an agreement.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[title]: #title
+#### [title]
+The title of an agreement.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[agreementType]: #agreementtype
+#### [agreementType]
+The type of agreement.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Agreement_Type'>SoftLayer_Account_Agreement_Type </a>**
+
+-----
+[attachedBillingAgreementFiles]: #attachedbillingagreementfiles
+#### [attachedBillingAgreementFiles]
+The files attached to an agreement.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_MasterServiceAgreement'>SoftLayer_Account_MasterServiceAgreement[] </a>**
+
+-----
+[billingItems]: #billingitems
+#### [billingItems]
+The billing items associated with an agreement.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+
+-----
+[status]: #status
+#### [status]
+The status of the agreement.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Agreement_Status'>SoftLayer_Account_Agreement_Status </a>**
+
+-----
+[topLevelBillingItems]: #toplevelbillingitems
+#### [topLevelBillingItems]
+The top level billing item associated with an agreement.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+
+
+## Count
+
+-----
+[attachedBillingAgreementFileCount]: #attachedbillingagreementfilecount
+#### [attachedBillingAgreementFileCount]
+A count of the files attached to an agreement.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[billingItemCount]: #billingitemcount
+#### [billingItemCount]
+A count of the billing items associated with an agreement.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[topLevelBillingItemCount]: #toplevelbillingitemcount
+#### [topLevelBillingItemCount]
+A count of the top level billing item associated with an agreement.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

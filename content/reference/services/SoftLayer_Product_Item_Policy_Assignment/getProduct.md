@@ -1,6 +1,6 @@
 ---
 title: "getProduct"
-description: "Retrieve the [[SoftLayer_Product_Item]] for this policy assignment."
+description: "Retrieve the [SoftLayer_Product_Item]({{<ref 'reference/datatypes/SoftLayer_Product_Item'>}}) for this policy assignment... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Policy_Assignment](/reference/services/SoftLayer_Product_Item_Policy_Assignment)::getProduct
 
-Retrieve the [[SoftLayer_Product_Item]] for this policy assignment.
+Retrieve the [SoftLayer_Product_Item]({{<ref "reference/datatypes/SoftLayer_Product_Item">}}) for this policy assignment.
 
 
 ## Overview 
-Retrieve the [[SoftLayer_Product_Item]] for this policy assignment.
+Retrieve the [SoftLayer_Product_Item]({{<ref "reference/datatypes/SoftLayer_Product_Item">}}) for this policy assignment.
 
 -----
 

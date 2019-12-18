@@ -36,153 +36,101 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#affiliateId" name=affiliateId>affiliateId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#agreementCompleteFlag" name=agreementCompleteFlag>agreementCompleteFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#companyDescription" name=companyDescription>companyDescription</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#companyTypeId" name=companyTypeId>companyTypeId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#enrollmentDate" name=enrollmentDate>enrollmentDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#graduationDate" name=graduationDate>graduationDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monthlyCreditAmount" name=monthlyCreditAmount>monthlyCreditAmount</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#representativeEmployeeId" name=representativeEmployeeId>representativeEmployeeId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#affiliate" name=affiliate>affiliate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Catalyst_Affiliate'>SoftLayer_Catalyst_Affiliate </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#companyType" name=companyType>companyType</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Catalyst_Company_Type'>SoftLayer_Catalyst_Company_Type </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#isActiveFlag" name=isActiveFlag>isActiveFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#representative" name=representative>representative</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[affiliateId]: #affiliateid
+#### [affiliateId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[agreementCompleteFlag]: #agreementcompleteflag
+#### [agreementCompleteFlag]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[companyDescription]: #companydescription
+#### [companyDescription]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[companyTypeId]: #companytypeid
+#### [companyTypeId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[enrollmentDate]: #enrollmentdate
+#### [enrollmentDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[graduationDate]: #graduationdate
+#### [graduationDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[monthlyCreditAmount]: #monthlycreditamount
+#### [monthlyCreditAmount]
+  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[representativeEmployeeId]: #representativeemployeeid
+#### [representativeEmployeeId]
+  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[affiliate]: #affiliate
+#### [affiliate]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Catalyst_Affiliate'>SoftLayer_Catalyst_Affiliate </a>**
+
+-----
+[companyType]: #companytype
+#### [companyType]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Catalyst_Company_Type'>SoftLayer_Catalyst_Company_Type </a>**
+
+-----
+[isActiveFlag]: #isactiveflag
+#### [isActiveFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[representative]: #representative
+#### [representative]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**
+
+
+## Count
 </div>
 
 

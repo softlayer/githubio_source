@@ -36,99 +36,66 @@ The SoftLayer_Network_LBaaS_L7Rule represents the Rules that can be attached to 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#comparisonType" name=comparisonType>comparisonType</a>
-            </span>
-            <div class='views-field-body'>Comparision type for the Rule, It should any of the following values : REGEX, STARTS_WITH, ENDS_WITH, CONTAINS, EQUAL_TO.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>Specifies when a Rule was created </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The ID of a Rule. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#invert" name=invert>invert</a>
-            </span>
-            <div class='views-field-body'>Inverts the result of the value if set, i.e. True will be inverted to False and vice-versa  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#key" name=key>key</a>
-            </span>
-            <div class='views-field-body'>Key for Rule type HEADER and COOKIE. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>Specifies when a Rule was updated previously. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#type" name=type>type</a>
-            </span>
-            <div class='views-field-body'>Type of the Rule. It  should have any of the following values: HOST_NAME, FILE_TYPE, HEADER, COOKIE, PATH.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#uuid" name=uuid>uuid</a>
-            </span>
-            <div class='views-field-body'>The UUID of a Rule. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#value" name=value>value</a>
-            </span>
-            <div class='views-field-body'>Value for Rule . For type HEADER and COOKIE, this value is compared against the value of the key from HEADER or COOKIE.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[comparisonType]: #comparisontype
+#### [comparisonType]
+Comparision type for the Rule, It should any of the following values : REGEX, STARTS_WITH, ENDS_WITH, CONTAINS, EQUAL_TO.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+Specifies when a Rule was created  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+The ID of a Rule.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[invert]: #invert
+#### [invert]
+Inverts the result of the value if set, i.e. True will be inverted to False and vice-versa   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[key]: #key
+#### [key]
+Key for Rule type HEADER and COOKIE.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+Specifies when a Rule was updated previously.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[type]: #type
+#### [type]
+Type of the Rule. It  should have any of the following values: HOST_NAME, FILE_TYPE, HEADER, COOKIE, PATH.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[uuid]: #uuid
+#### [uuid]
+The UUID of a Rule.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[value]: #value
+#### [value]
+Value for Rule . For type HEADER and COOKIE, this value is compared against the value of the key from HEADER or COOKIE.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

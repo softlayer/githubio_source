@@ -36,115 +36,79 @@ Monitoring agent configuration value
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#agentId" name=agentId>agentId</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of a monitoring Agent that this configuration value </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#configurationDefinitionId" name=configurationDefinitionId>configurationDefinitionId</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of a monitoring configuration definition by which </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>User-friendly description of a configuration value. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of a monitoring configuration value. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#profileId" name=profileId>profileId</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of a configuration profile. Configuration profile is associated with a configuration section type of "Template section". 
+<div id="localProperties" class="prop-content" >
 
-A "Template section" defines skeleton configuration definitions. For instance, if you want to monitor additional hard disks with "CPU/Memory/Disk Monitoring Agent", you will have to add a new configuration profiles.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#value" name=value>value</a>
-            </span>
-            <div class='views-field-body'>Configuration value </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#definition" name=definition>definition</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition'>SoftLayer_Configuration_Template_Section_Definition </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#metricDataType" name=metricDataType>metricDataType</a>
-            </span>
-            <div class='views-field-body'>The metric data type used to retrieve metric data currently being tracked. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Metric_Data_Type'>SoftLayer_Container_Metric_Data_Type </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monitoringAgent" name=monitoringAgent>monitoringAgent</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Monitoring_Agent'>SoftLayer_Monitoring_Agent </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#profile" name=profile>profile</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Profile'>SoftLayer_Configuration_Template_Section_Profile </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+## Local
+-----
+[agentId]: #agentid
+#### [agentId]
+Internal identifier of a monitoring Agent that this configuration value  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[configurationDefinitionId]: #configurationdefinitionid
+#### [configurationDefinitionId]
+Internal identifier of a monitoring configuration definition by which  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[description]: #description
+#### [description]
+User-friendly description of a configuration value.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+Internal identifier of a monitoring configuration value.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[profileId]: #profileid
+#### [profileId]
+Internal identifier of a configuration profile. Configuration profile is associated with a configuration section type of "Template section". 
+
+A "Template section" defines skeleton configuration definitions. For instance, if you want to monitor additional hard disks with "CPU/Memory/Disk Monitoring Agent", you will have to add a new configuration profiles.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[value]: #value
+#### [value]
+Configuration value  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[definition]: #definition
+#### [definition]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition'>SoftLayer_Configuration_Template_Section_Definition </a>**
+
+-----
+[metricDataType]: #metricdatatype
+#### [metricDataType]
+The metric data type used to retrieve metric data currently being tracked.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Metric_Data_Type'>SoftLayer_Container_Metric_Data_Type </a>**
+
+-----
+[monitoringAgent]: #monitoringagent
+#### [monitoringAgent]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Monitoring_Agent'>SoftLayer_Monitoring_Agent </a>**
+
+-----
+[profile]: #profile
+#### [profile]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Profile'>SoftLayer_Configuration_Template_Section_Profile </a>**
+
+
+## Count
 </div>
 
 

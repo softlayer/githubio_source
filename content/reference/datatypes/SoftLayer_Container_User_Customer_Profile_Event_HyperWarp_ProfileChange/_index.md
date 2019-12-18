@@ -36,89 +36,60 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account_id" name=account_id>account_id</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#context" name=context>context</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_User_Customer_Profile_Event_HyperWarp_ProfileChange_Context'>SoftLayer_Container_User_Customer_Profile_Event_HyperWarp_ProfileChange_Context </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#event_id" name=event_id>event_id</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#event_properties" name=event_properties>event_properties</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_User_Customer_Profile_Event_HyperWarp_ProfileChange_EventProperties'>SoftLayer_Container_User_Customer_Profile_Event_HyperWarp_ProfileChange_EventProperties </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#event_type" name=event_type>event_type</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#publisher" name=publisher>publisher</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#timestamp" name=timestamp>timestamp</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#version" name=version>version</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[account_id]: #account_id
+#### [account_id]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[context]: #context
+#### [context]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_User_Customer_Profile_Event_HyperWarp_ProfileChange_Context'>SoftLayer_Container_User_Customer_Profile_Event_HyperWarp_ProfileChange_Context </a>**
+
+-----
+[event_id]: #event_id
+#### [event_id]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[event_properties]: #event_properties
+#### [event_properties]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_User_Customer_Profile_Event_HyperWarp_ProfileChange_EventProperties'>SoftLayer_Container_User_Customer_Profile_Event_HyperWarp_ProfileChange_EventProperties </a>**
+
+-----
+[event_type]: #event_type
+#### [event_type]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[publisher]: #publisher
+#### [publisher]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[timestamp]: #timestamp
+#### [timestamp]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[version]: #version
+#### [version]
+  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

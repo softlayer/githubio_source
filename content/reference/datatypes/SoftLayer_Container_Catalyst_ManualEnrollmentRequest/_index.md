@@ -36,59 +36,42 @@ Contains user information used to request a manual Catalyst enrollment.
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#customerEmail" name=customerEmail>customerEmail</a>
-            </span>
-            <div class='views-field-body'>Applicant's email address </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#customerName" name=customerName>customerName</a>
-            </span>
-            <div class='views-field-body'>Applicant's first and last name </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#startupName" name=startupName>startupName</a>
-            </span>
-            <div class='views-field-body'>Name of applicant's startup company </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ventureAffiliationFlag" name=ventureAffiliationFlag>ventureAffiliationFlag</a>
-            </span>
-            <div class='views-field-body'>Flag indicating whether (true) or not (false) and applicant is </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ventureFundName" name=ventureFundName>ventureFundName</a>
-            </span>
-            <div class='views-field-body'>Name of the venture capital fund, if any, applicant is affiliated with </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[customerEmail]: #customeremail
+#### [customerEmail]
+Applicant's email address  
+<span class="type-label">Type: </span>**string**
+
+-----
+[customerName]: #customername
+#### [customerName]
+Applicant's first and last name  
+<span class="type-label">Type: </span>**string**
+
+-----
+[startupName]: #startupname
+#### [startupName]
+Name of applicant's startup company  
+<span class="type-label">Type: </span>**string**
+
+-----
+[ventureAffiliationFlag]: #ventureaffiliationflag
+#### [ventureAffiliationFlag]
+Flag indicating whether (true) or not (false) and applicant is  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[ventureFundName]: #venturefundname
+#### [ventureFundName]
+Name of the venture capital fund, if any, applicant is affiliated with  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

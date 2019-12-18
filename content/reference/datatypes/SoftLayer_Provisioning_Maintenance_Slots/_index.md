@@ -41,19 +41,18 @@ The SoftLayer_Provisioning_Maintenance_Slots represent the available slots for a
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#availableSlots" name=availableSlots>availableSlots</a>
-            </span>
-            <div class='views-field-body'>The available slots for a maintenance window. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[availableSlots]: #availableslots
+#### [availableSlots]
+The available slots for a maintenance window.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

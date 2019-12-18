@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Network_Subnet_Registration_SubnetReference"
-description: "SoftLayer_Container_Network_Subnet_Registration_SubnetReference is provided to reference [[SoftLayer_Network_Subnet_Regi... "
+description: "SoftLayer_Container_Network_Subnet_Registration_SubnetReference is provided to reference [SoftLayer_Network_Subnet_Regis... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-SoftLayer_Container_Network_Subnet_Registration_SubnetReference is provided to reference [[SoftLayer_Network_Subnet_Registration]] object and the [[SoftLayer_Network_Subnet]] it references, in CIDR form. 
+SoftLayer_Container_Network_Subnet_Registration_SubnetReference is provided to reference [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}) object and the [SoftLayer_Network_Subnet]({{<ref "reference/datatypes/SoftLayer_Network_Subnet">}}) it references, in CIDR form. 
 
 
 
@@ -36,29 +36,24 @@ SoftLayer_Container_Network_Subnet_Registration_SubnetReference is provided to r
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#registrationId" name=registrationId>registrationId</a>
-            </span>
-            <div class='views-field-body'>The ID of the [[SoftLayer_Network_Subnet_Registration]] object. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnetCidr" name=subnetCidr>subnetCidr</a>
-            </span>
-            <div class='views-field-body'>The subnet address in CIDR form. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[registrationId]: #registrationid
+#### [registrationId]
+The ID of the [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}) object.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[subnetCidr]: #subnetcidr
+#### [subnetCidr]
+The subnet address in CIDR form.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

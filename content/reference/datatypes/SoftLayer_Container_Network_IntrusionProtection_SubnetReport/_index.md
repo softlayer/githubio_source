@@ -43,49 +43,36 @@ The IntrusionProtection_SubnetReport object is the container that holds the Soft
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cidr" name=cidr>cidr</a>
-            </span>
-            <div class='views-field-body'>cidr for this report.  If the subnetIpAddress is "All Subnets", this is set to 32 and should be ignored. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#direction" name=direction>direction</a>
-            </span>
-            <div class='views-field-body'>Direction of the attack, either 'Inbound' or 'Outbound' </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#events" name=events>events</a>
-            </span>
-            <div class='views-field-body'>The class SoftLayer_Container_Network_IntrusionProtection_Event objects on this report. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Network_IntrusionProtection_Event'>SoftLayer_Container_Network_IntrusionProtection_Event[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnetIpAddress" name=subnetIpAddress>subnetIpAddress</a>
-            </span>
-            <div class='views-field-body'>The "target" of this report, could be an IP address, a subnet's network identifier, or "All Subnets" </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[cidr]: #cidr
+#### [cidr]
+cidr for this report.  If the subnetIpAddress is "All Subnets", this is set to 32 and should be ignored.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[direction]: #direction
+#### [direction]
+Direction of the attack, either 'Inbound' or 'Outbound'  
+<span class="type-label">Type: </span>**string**
+
+-----
+[events]: #events
+#### [events]
+The class SoftLayer_Container_Network_IntrusionProtection_Event objects on this report.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Network_IntrusionProtection_Event'>SoftLayer_Container_Network_IntrusionProtection_Event[] </a>**
+
+-----
+[subnetIpAddress]: #subnetipaddress
+#### [subnetIpAddress]
+The "target" of this report, could be an IP address, a subnet's network identifier, or "All Subnets"  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

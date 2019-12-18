@@ -42,53 +42,41 @@ A SoftLayer_Network_Component_Firewall_Subnets object type represents the curren
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#applyServerRulesFlag" name=applyServerRulesFlag>applyServerRulesFlag</a>
-            </span>
-            <div class='views-field-body'>A boolean flag that indicates whether the subnet should receive all the rules intended for the host on this context slot. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnetId" name=subnetId>subnetId</a>
-            </span>
-            <div class='views-field-body'>The unique identifier of the subnet being linked to the network component firewall. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkComponentFirewall" name=networkComponentFirewall>networkComponentFirewall</a>
-            </span>
-            <div class='views-field-body'>The network component firewall that write rules for this subnet. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnet" name=subnet>subnet</a>
-            </span>
-            <div class='views-field-body'>The subnet that this link binds to the network component firewall. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[applyServerRulesFlag]: #applyserverrulesflag
+#### [applyServerRulesFlag]
+A boolean flag that indicates whether the subnet should receive all the rules intended for the host on this context slot.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[subnetId]: #subnetid
+#### [subnetId]
+The unique identifier of the subnet being linked to the network component firewall.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[networkComponentFirewall]: #networkcomponentfirewall
+#### [networkComponentFirewall]
+The network component firewall that write rules for this subnet.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall </a>**
+
+-----
+[subnet]: #subnet
+#### [subnet]
+The subnet that this link binds to the network component firewall.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**
+
+
+## Count
 </div>
 
 

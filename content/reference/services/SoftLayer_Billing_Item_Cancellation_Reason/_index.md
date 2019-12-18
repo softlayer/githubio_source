@@ -23,37 +23,33 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Item_Cancellation_Reason/getAllCancellationReasons'> getAllCancellationReasons</a> </span>
-            <div class='views-field-body'>Retrieve all available cancellation reasons. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Item_Cancellation_Reason/getBillingCancellationReasonCategory'> getBillingCancellationReasonCategory</a> </span>
-            <div class='views-field-body'>Retrieve an billing cancellation reason category.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Item_Cancellation_Reason/getBillingItems'> getBillingItems</a> </span>
-            <div class='views-field-body'>Retrieve the corresponding billing items having the specific cancellation reason.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Item_Cancellation_Reason/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Billing_Item_Cancellation_Reason record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Item_Cancellation_Reason/getTranslatedReason'> getTranslatedReason</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-        </div>
+</div>
+
+#### [getAllCancellationReasons](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason/getAllCancellationReasons)
+Retrieve all available cancellation reasons. 
+
+#### [getBillingCancellationReasonCategory](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason/getBillingCancellationReasonCategory)
+Retrieve an billing cancellation reason category.
+
+#### [getBillingItems](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason/getBillingItems)
+Retrieve the corresponding billing items having the specific cancellation reason.
+
+#### [getObject](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason/getObject)
+Retrieve a SoftLayer_Billing_Item_Cancellation_Reason record.
+
+#### [getTranslatedReason](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason/getTranslatedReason)
+
+
 </div>
 

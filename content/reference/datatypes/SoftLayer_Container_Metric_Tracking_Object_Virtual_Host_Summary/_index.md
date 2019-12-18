@@ -41,119 +41,78 @@ SoftLayer_Container_Metric_Tracking_Object_Virtual_Host_Summary This container s
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#avgMemoryUsageInBillingCycle" name=avgMemoryUsageInBillingCycle>avgMemoryUsageInBillingCycle</a>
-            </span>
-            <div class='views-field-body'>The average amount of memory usage thus far in this billing cycle. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#currentBillCycleEnd" name=currentBillCycleEnd>currentBillCycleEnd</a>
-            </span>
-            <div class='views-field-body'>Current bill cycle end date. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#currentBillCycleStart" name=currentBillCycleStart>currentBillCycleStart</a>
-            </span>
-            <div class='views-field-body'>Current bill cycle start date. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastInstanceCount" name=lastInstanceCount>lastInstanceCount</a>
-            </span>
-            <div class='views-field-body'>The last count of instances this platform was hosting. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastMemoryUsageAmount" name=lastMemoryUsageAmount>lastMemoryUsageAmount</a>
-            </span>
-            <div class='views-field-body'>The last amount of memory this platform was using. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastPollTime" name=lastPollTime>lastPollTime</a>
-            </span>
-            <div class='views-field-body'>The last time this virtual host was polled for metrics. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maxInstanceInBillingCycle" name=maxInstanceInBillingCycle>maxInstanceInBillingCycle</a>
-            </span>
-            <div class='views-field-body'>The max number of instances hosted thus far in this billing cycle. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#metricName" name=metricName>metricName</a>
-            </span>
-            <div class='views-field-body'>The name that best describes the metric being collected. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#previousBillCycleEnd" name=previousBillCycleEnd>previousBillCycleEnd</a>
-            </span>
-            <div class='views-field-body'>Previous bill cycle end date. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#previousBillCycleStart" name=previousBillCycleStart>previousBillCycleStart</a>
-            </span>
-            <div class='views-field-body'>Previous bill cycle start date. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualPlatformName" name=virtualPlatformName>virtualPlatformName</a>
-            </span>
-            <div class='views-field-body'>This virtual hosting platform name. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[avgMemoryUsageInBillingCycle]: #avgmemoryusageinbillingcycle
+#### [avgMemoryUsageInBillingCycle]
+The average amount of memory usage thus far in this billing cycle.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[currentBillCycleEnd]: #currentbillcycleend
+#### [currentBillCycleEnd]
+Current bill cycle end date.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[currentBillCycleStart]: #currentbillcyclestart
+#### [currentBillCycleStart]
+Current bill cycle start date.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[lastInstanceCount]: #lastinstancecount
+#### [lastInstanceCount]
+The last count of instances this platform was hosting.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[lastMemoryUsageAmount]: #lastmemoryusageamount
+#### [lastMemoryUsageAmount]
+The last amount of memory this platform was using.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[lastPollTime]: #lastpolltime
+#### [lastPollTime]
+The last time this virtual host was polled for metrics.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[maxInstanceInBillingCycle]: #maxinstanceinbillingcycle
+#### [maxInstanceInBillingCycle]
+The max number of instances hosted thus far in this billing cycle.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[metricName]: #metricname
+#### [metricName]
+The name that best describes the metric being collected.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[previousBillCycleEnd]: #previousbillcycleend
+#### [previousBillCycleEnd]
+Previous bill cycle end date.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[previousBillCycleStart]: #previousbillcyclestart
+#### [previousBillCycleStart]
+Previous bill cycle start date.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[virtualPlatformName]: #virtualplatformname
+#### [virtualPlatformName]
+This virtual hosting platform name.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Virtual_Guest_Configuration_Option"
-description: "An option found within a [[SoftLayer_Container_Virtual_Guest_Configuration (type)]] structure."
+description: "An option found within a [SoftLayer_Container_Virtual_Guest_Configuration]({{<ref 'reference/datatypes/SoftLayer_Contain... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-An option found within a [[SoftLayer_Container_Virtual_Guest_Configuration (type)]] structure. 
+An option found within a [SoftLayer_Container_Virtual_Guest_Configuration]({{<ref "reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration">}}) structure. 
 
 
 
@@ -36,42 +36,33 @@ An option found within a [[SoftLayer_Container_Virtual_Guest_Configuration (type
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#flavor" name=flavor>flavor</a>
-            </span>
-            <div class='views-field-body'>
-Provides a description of a pre-defined configuration with monthly and hourly costs.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#itemPrice" name=itemPrice>itemPrice</a>
-            </span>
-            <div class='views-field-body'>
-Provides hourly and monthly costs (if either are applicable), and a description of the option.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#template" name=template>template</a>
-            </span>
-            <div class='views-field-body'>
-Provides a fragment of the request with the properties and values that must be sent when creating a computing instance with the option.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a></p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[flavor]: #flavor
+#### [flavor]
+
+Provides a description of a pre-defined configuration with monthly and hourly costs.   
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset </a>**
+
+-----
+[itemPrice]: #itemprice
+#### [itemPrice]
+
+Provides hourly and monthly costs (if either are applicable), and a description of the option.   
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>**
+
+-----
+[template]: #template
+#### [template]
+
+Provides a fragment of the request with the properties and values that must be sent when creating a computing instance with the option.   
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

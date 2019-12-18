@@ -36,363 +36,227 @@ Contains user information for Catalyst self-enrollment.
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#address1" name=address1>address1</a>
-            </span>
-            <div class='views-field-body'>Applicant's address </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#address2" name=address2>address2</a>
-            </span>
-            <div class='views-field-body'>Additional field for extended address </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#affiliateId" name=affiliateId>affiliateId</a>
-            </span>
-            <div class='views-field-body'>Id of the affiliate who referred applicant's </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#agreementCompleteFlag" name=agreementCompleteFlag>agreementCompleteFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#applyToGepFlag" name=applyToGepFlag>applyToGepFlag</a>
-            </span>
-            <div class='views-field-body'>Determines whether or not to also apply to the GEP program </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cardAccountNumber" name=cardAccountNumber>cardAccountNumber</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cardExpirationMonth" name=cardExpirationMonth>cardExpirationMonth</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cardExpirationYear" name=cardExpirationYear>cardExpirationYear</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cardType" name=cardType>cardType</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cardVerificationNumber" name=cardVerificationNumber>cardVerificationNumber</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#city" name=city>city</a>
-            </span>
-            <div class='views-field-body'>Applicant's city </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#companyDescription" name=companyDescription>companyDescription</a>
-            </span>
-            <div class='views-field-body'>Brief description of Startup's product and key differentiators </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#companyName" name=companyName>companyName</a>
-            </span>
-            <div class='views-field-body'>Name of the applicant's company </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#companyTypeId" name=companyTypeId>companyTypeId</a>
-            </span>
-            <div class='views-field-body'>Id of the company type which best describes applicant's company </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#companyUrl" name=companyUrl>companyUrl</a>
-            </span>
-            <div class='views-field-body'>URL to the Startup's site </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#country" name=country>country</a>
-            </span>
-            <div class='views-field-body'>Applicant's country code </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#currentUserChoice" name=currentUserChoice>currentUserChoice</a>
-            </span>
-            <div class='views-field-body'>Index of answer chosen for how many current users question </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#deviceFingerprintId" name=deviceFingerprintId>deviceFingerprintId</a>
-            </span>
-            <div class='views-field-body'>Id of the fingerprint </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#email" name=email>email</a>
-            </span>
-            <div class='views-field-body'>Applicant's email address </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#firstName" name=firstName>firstName</a>
-            </span>
-            <div class='views-field-body'>Applicant's first name </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#futureUserChoice" name=futureUserChoice>futureUserChoice</a>
-            </span>
-            <div class='views-field-body'>Index of answer chosen for how many future users question </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ibmIdUsername" name=ibmIdUsername>ibmIdUsername</a>
-            </span>
-            <div class='views-field-body'>Master user's IBMId username </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#incubatorName" name=incubatorName>incubatorName</a>
-            </span>
-            <div class='views-field-body'>Name of accelerator or incubator startup belongs to, if any </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#investorName" name=investorName>investorName</a>
-            </span>
-            <div class='views-field-body'>Name of the investor, if any </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastName" name=lastName>lastName</a>
-            </span>
-            <div class='views-field-body'>Applicant's last name </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#officePhone" name=officePhone>officePhone</a>
-            </span>
-            <div class='views-field-body'>Applicant's primary phone number </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#overFiveYearsOldFlag" name=overFiveYearsOldFlag>overFiveYearsOldFlag</a>
-            </span>
-            <div class='views-field-body'>Whether or not the startup has been operating for more than five years </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#postalCode" name=postalCode>postalCode</a>
-            </span>
-            <div class='views-field-body'>Applicant's postal code </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#referralCode" name=referralCode>referralCode</a>
-            </span>
-            <div class='views-field-body'>IBM referral code, if any </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#revenueOverOneMillionFlag" name=revenueOverOneMillionFlag>revenueOverOneMillionFlag</a>
-            </span>
-            <div class='views-field-body'>Whether or not the startup has over one million in annual revenue </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#skipCatalystApplicationFlag" name=skipCatalystApplicationFlag>skipCatalystApplicationFlag</a>
-            </span>
-            <div class='views-field-body'>Determines whether or not to apply to the Catalyst program </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#state" name=state>state</a>
-            </span>
-            <div class='views-field-body'>Applicant's state/region code </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#vatId" name=vatId>vatId</a>
-            </span>
-            <div class='views-field-body'>Applicant's vatId, if one exists </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#affiliate" name=affiliate>affiliate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Catalyst_Affiliate'>SoftLayer_Catalyst_Affiliate </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#companyType" name=companyType>companyType</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Catalyst_Company_Type'>SoftLayer_Catalyst_Company_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[address1]: #address1
+#### [address1]
+Applicant's address  
+<span class="type-label">Type: </span>**string**
+
+-----
+[address2]: #address2
+#### [address2]
+Additional field for extended address  
+<span class="type-label">Type: </span>**string**
+
+-----
+[affiliateId]: #affiliateid
+#### [affiliateId]
+Id of the affiliate who referred applicant's  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[agreementCompleteFlag]: #agreementcompleteflag
+#### [agreementCompleteFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[applyToGepFlag]: #applytogepflag
+#### [applyToGepFlag]
+Determines whether or not to also apply to the GEP program  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[cardAccountNumber]: #cardaccountnumber
+#### [cardAccountNumber]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[cardExpirationMonth]: #cardexpirationmonth
+#### [cardExpirationMonth]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[cardExpirationYear]: #cardexpirationyear
+#### [cardExpirationYear]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[cardType]: #cardtype
+#### [cardType]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[cardVerificationNumber]: #cardverificationnumber
+#### [cardVerificationNumber]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[city]: #city
+#### [city]
+Applicant's city  
+<span class="type-label">Type: </span>**string**
+
+-----
+[companyDescription]: #companydescription
+#### [companyDescription]
+Brief description of Startup's product and key differentiators  
+<span class="type-label">Type: </span>**string**
+
+-----
+[companyName]: #companyname
+#### [companyName]
+Name of the applicant's company  
+<span class="type-label">Type: </span>**string**
+
+-----
+[companyTypeId]: #companytypeid
+#### [companyTypeId]
+Id of the company type which best describes applicant's company  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[companyUrl]: #companyurl
+#### [companyUrl]
+URL to the Startup's site  
+<span class="type-label">Type: </span>**string**
+
+-----
+[country]: #country
+#### [country]
+Applicant's country code  
+<span class="type-label">Type: </span>**string**
+
+-----
+[currentUserChoice]: #currentuserchoice
+#### [currentUserChoice]
+Index of answer chosen for how many current users question  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[deviceFingerprintId]: #devicefingerprintid
+#### [deviceFingerprintId]
+Id of the fingerprint  
+<span class="type-label">Type: </span>**string**
+
+-----
+[email]: #email
+#### [email]
+Applicant's email address  
+<span class="type-label">Type: </span>**string**
+
+-----
+[firstName]: #firstname
+#### [firstName]
+Applicant's first name  
+<span class="type-label">Type: </span>**string**
+
+-----
+[futureUserChoice]: #futureuserchoice
+#### [futureUserChoice]
+Index of answer chosen for how many future users question  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[ibmIdUsername]: #ibmidusername
+#### [ibmIdUsername]
+Master user's IBMId username  
+<span class="type-label">Type: </span>**string**
+
+-----
+[incubatorName]: #incubatorname
+#### [incubatorName]
+Name of accelerator or incubator startup belongs to, if any  
+<span class="type-label">Type: </span>**string**
+
+-----
+[investorName]: #investorname
+#### [investorName]
+Name of the investor, if any  
+<span class="type-label">Type: </span>**string**
+
+-----
+[lastName]: #lastname
+#### [lastName]
+Applicant's last name  
+<span class="type-label">Type: </span>**string**
+
+-----
+[officePhone]: #officephone
+#### [officePhone]
+Applicant's primary phone number  
+<span class="type-label">Type: </span>**string**
+
+-----
+[overFiveYearsOldFlag]: #overfiveyearsoldflag
+#### [overFiveYearsOldFlag]
+Whether or not the startup has been operating for more than five years  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[postalCode]: #postalcode
+#### [postalCode]
+Applicant's postal code  
+<span class="type-label">Type: </span>**string**
+
+-----
+[referralCode]: #referralcode
+#### [referralCode]
+IBM referral code, if any  
+<span class="type-label">Type: </span>**string**
+
+-----
+[revenueOverOneMillionFlag]: #revenueoveronemillionflag
+#### [revenueOverOneMillionFlag]
+Whether or not the startup has over one million in annual revenue  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[skipCatalystApplicationFlag]: #skipcatalystapplicationflag
+#### [skipCatalystApplicationFlag]
+Determines whether or not to apply to the Catalyst program  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[state]: #state
+#### [state]
+Applicant's state/region code  
+<span class="type-label">Type: </span>**string**
+
+-----
+[vatId]: #vatid
+#### [vatId]
+Applicant's vatId, if one exists  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[affiliate]: #affiliate
+#### [affiliate]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Catalyst_Affiliate'>SoftLayer_Catalyst_Affiliate </a>**
+
+-----
+[companyType]: #companytype
+#### [companyType]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Catalyst_Company_Type'>SoftLayer_Catalyst_Company_Type </a>**
+
+
+## Count
 </div>
 
 

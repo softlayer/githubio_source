@@ -17,7 +17,7 @@ Returns a directory listing
 
 
 ## Overview 
-This method returns a collection of SoftLayer_Container_Network_Ftp_Directory objects. You can retrieve directory information for /in and /out directories. A [[SoftLayer_Container_Network_Directory_Listing|Directory Listing]] object contains a type (indicating whether it is a file or a directory), name and file count if it is a directory. 
+This method returns a collection of SoftLayer_Container_Network_Ftp_Directory objects. You can retrieve directory information for /in and /out directories. A [SoftLayer_Container_Network_Directory_Listing]({{<ref "reference/datatypes/SoftLayer_Container_Network_Directory_Listing">}}) object contains a type (indicating whether it is a file or a directory), name and file count if it is a directory. 
 
 -----
 

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Virtual_DedicatedHost_Pci_Device_AllocationStatus"
-description: "This data type represents PCI device allocation properties of a [[SoftLayer_Virtual_DedicatedHost]]."
+description: "This data type represents PCI device allocation properties of a [SoftLayer_Virtual_DedicatedHost]({{<ref 'reference/data... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-This data type represents PCI device allocation properties of a [[SoftLayer_Virtual_DedicatedHost]]. 
+This data type represents PCI device allocation properties of a [SoftLayer_Virtual_DedicatedHost]({{<ref "reference/datatypes/SoftLayer_Virtual_DedicatedHost">}}). 
 
 
 
@@ -36,69 +36,48 @@ This data type represents PCI device allocation properties of a [[SoftLayer_Virt
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#deviceCount" name=deviceCount>deviceCount</a>
-            </span>
-            <div class='views-field-body'>The number of PCI devices on the host. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#deviceName" name=deviceName>deviceName</a>
-            </span>
-            <div class='views-field-body'>The name of the PCI devices on the host. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#devicesAllocated" name=devicesAllocated>devicesAllocated</a>
-            </span>
-            <div class='views-field-body'>The number of PCI devices currently allocated to guests. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#devicesAvailable" name=devicesAvailable>devicesAvailable</a>
-            </span>
-            <div class='views-field-body'>The number of PCI devices available for allocation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareComponentModelGenericId" name=hardwareComponentModelGenericId>hardwareComponentModelGenericId</a>
-            </span>
-            <div class='views-field-body'>The generic component model ID of the PCI device. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hostId" name=hostId>hostId</a>
-            </span>
-            <div class='views-field-body'>The ID of the host that the dedicated host is on. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[deviceCount]: #devicecount
+#### [deviceCount]
+The number of PCI devices on the host.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[deviceName]: #devicename
+#### [deviceName]
+The name of the PCI devices on the host.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[devicesAllocated]: #devicesallocated
+#### [devicesAllocated]
+The number of PCI devices currently allocated to guests.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[devicesAvailable]: #devicesavailable
+#### [devicesAvailable]
+The number of PCI devices available for allocation.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[hardwareComponentModelGenericId]: #hardwarecomponentmodelgenericid
+#### [hardwareComponentModelGenericId]
+The generic component model ID of the PCI device.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[hostId]: #hostid
+#### [hostId]
+The ID of the host that the dedicated host is on.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

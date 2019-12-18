@@ -36,79 +36,54 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#certificateId" name=certificateId>certificateId</a>
-            </span>
-            <div class='views-field-body'>The ID of the certificate record.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#commonName" name=commonName>commonName</a>
-            </span>
-            <div class='views-field-body'>The common name (usually a domain name) encoded within the certificate.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#keySize" name=keySize>keySize</a>
-            </span>
-            <div class='views-field-body'>The size (number of bits) of the public key represented by the certificate.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#organizationName" name=organizationName>organizationName</a>
-            </span>
-            <div class='views-field-body'>The organizational name encoded in the certificate.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#validityBegin" name=validityBegin>validityBegin</a>
-            </span>
-            <div class='views-field-body'>The UTC timestamp representing the beginning of the certificate's validity  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#validityDays" name=validityDays>validityDays</a>
-            </span>
-            <div class='views-field-body'>The number of days remaining in the validity period for the certificate.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#validityEnd" name=validityEnd>validityEnd</a>
-            </span>
-            <div class='views-field-body'>The UTC timestamp representing the end of the certificate's validity period.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[certificateId]: #certificateid
+#### [certificateId]
+The ID of the certificate record.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[commonName]: #commonname
+#### [commonName]
+The common name (usually a domain name) encoded within the certificate.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[keySize]: #keysize
+#### [keySize]
+The size (number of bits) of the public key represented by the certificate.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[organizationName]: #organizationname
+#### [organizationName]
+The organizational name encoded in the certificate.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[validityBegin]: #validitybegin
+#### [validityBegin]
+The UTC timestamp representing the beginning of the certificate's validity   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[validityDays]: #validitydays
+#### [validityDays]
+The number of days remaining in the validity period for the certificate.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[validityEnd]: #validityend
+#### [validityEnd]
+The UTC timestamp representing the end of the certificate's validity period.   
+<span class="type-label">Type: </span>**dateTime**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

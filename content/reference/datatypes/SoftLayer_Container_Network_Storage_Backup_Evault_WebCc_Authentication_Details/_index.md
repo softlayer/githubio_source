@@ -36,69 +36,48 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#eventValidation" name=eventValidation>eventValidation</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#viewState" name=viewState>viewState</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#webCcFormName" name=webCcFormName>webCcFormName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#webCcUrl" name=webCcUrl>webCcUrl</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#webCcUserId" name=webCcUserId>webCcUserId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#webCcUserPassword" name=webCcUserPassword>webCcUserPassword</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[eventValidation]: #eventvalidation
+#### [eventValidation]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[viewState]: #viewstate
+#### [viewState]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[webCcFormName]: #webccformname
+#### [webCcFormName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[webCcUrl]: #webccurl
+#### [webCcUrl]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[webCcUserId]: #webccuserid
+#### [webCcUserId]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[webCcUserPassword]: #webccuserpassword
+#### [webCcUserPassword]
+  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

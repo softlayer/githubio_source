@@ -1,6 +1,6 @@
 ---
 title: "getDiskUsageMetricDataFromLegacyByDate"
-description: "Retrieve disk usage data on a [[SoftLayer_Virtual_Guest|Cloud Computing Instance]] image for the time range you provide... "
+description: "Retrieve disk usage data on a [SoftLayer_Virtual_Guest]({{<ref 'reference/datatypes/SoftLayer_Virtual_Guest'>}}) image f... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Retrieve the metric data for disk space usage for a storage repository from the 
 
 
 ## Overview 
-Retrieve disk usage data on a [[SoftLayer_Virtual_Guest|Cloud Computing Instance]] image for the time range you provide from the Legacy Data Warehouse.  Each data entry objects contain ''dateTime'' and ''counter'' properties. ''dateTime'' property indicates the time that the disk usage data was measured and ''counter'' property holds the disk usage in bytes. 
+Retrieve disk usage data on a [SoftLayer_Virtual_Guest]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest">}}) image for the time range you provide from the Legacy Data Warehouse.  Each data entry objects contain ''dateTime'' and ''counter'' properties. ''dateTime'' property indicates the time that the disk usage data was measured and ''counter'' property holds the disk usage in bytes. 
 
 -----
 

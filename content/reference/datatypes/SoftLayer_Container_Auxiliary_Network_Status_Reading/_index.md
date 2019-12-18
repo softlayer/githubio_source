@@ -41,169 +41,108 @@ The SoftLayer_Container_Auxiliary_Network_Status_Reading data type contains info
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#averagePing" name=averagePing>averagePing</a>
-            </span>
-            <div class='views-field-body'>Average packet round-trip time. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#fails" name=fails>fails</a>
-            </span>
-            <div class='views-field-body'>Number of failures since the target was last detected to be working properly. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#frequency" name=frequency>frequency</a>
-            </span>
-            <div class='views-field-body'>Monitoring frequency in minutes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#label" name=label>label</a>
-            </span>
-            <div class='views-field-body'>The target babel. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastCheckDate" name=lastCheckDate>lastCheckDate</a>
-            </span>
-            <div class='views-field-body'>Last check date and time. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastDownDate" name=lastDownDate>lastDownDate</a>
-            </span>
-            <div class='views-field-body'>Date and time of the last problem detected. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#latency" name=latency>latency</a>
-            </span>
-            <div class='views-field-body'>The total response time in seconds calculated during the last check. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#location" name=location>location</a>
-            </span>
-            <div class='views-field-body'>The monitoring location name. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maximumPing" name=maximumPing>maximumPing</a>
-            </span>
-            <div class='views-field-body'>Maximum packet round-trip time. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#minimumPing" name=minimumPing>minimumPing</a>
-            </span>
-            <div class='views-field-body'>Minimum packet round-trip time. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pingLoss" name=pingLoss>pingLoss</a>
-            </span>
-            <div class='views-field-body'>Packet loss percentage. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#startDate" name=startDate>startDate</a>
-            </span>
-            <div class='views-field-body'>The date monitoring first began </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#statusCode" name=statusCode>statusCode</a>
-            </span>
-            <div class='views-field-body'>Status Code - one of UP, Down, Test pending. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#statusMessage" name=statusMessage>statusMessage</a>
-            </span>
-            <div class='views-field-body'>The status message from the last effective check. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#target" name=target>target</a>
-            </span>
-            <div class='views-field-body'>The target object. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#targetType" name=targetType>targetType</a>
-            </span>
-            <div class='views-field-body'>A letter indicating the target type. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[averagePing]: #averageping
+#### [averagePing]
+Average packet round-trip time.  
+<span class="type-label">Type: </span>**float**
+
+-----
+[fails]: #fails
+#### [fails]
+Number of failures since the target was last detected to be working properly.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[frequency]: #frequency
+#### [frequency]
+Monitoring frequency in minutes.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[label]: #label
+#### [label]
+The target babel.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[lastCheckDate]: #lastcheckdate
+#### [lastCheckDate]
+Last check date and time.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[lastDownDate]: #lastdowndate
+#### [lastDownDate]
+Date and time of the last problem detected.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[latency]: #latency
+#### [latency]
+The total response time in seconds calculated during the last check.  
+<span class="type-label">Type: </span>**float**
+
+-----
+[location]: #location
+#### [location]
+The monitoring location name.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[maximumPing]: #maximumping
+#### [maximumPing]
+Maximum packet round-trip time.  
+<span class="type-label">Type: </span>**float**
+
+-----
+[minimumPing]: #minimumping
+#### [minimumPing]
+Minimum packet round-trip time.  
+<span class="type-label">Type: </span>**float**
+
+-----
+[pingLoss]: #pingloss
+#### [pingLoss]
+Packet loss percentage.  
+<span class="type-label">Type: </span>**float**
+
+-----
+[startDate]: #startdate
+#### [startDate]
+The date monitoring first began  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[statusCode]: #statuscode
+#### [statusCode]
+Status Code - one of UP, Down, Test pending.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[statusMessage]: #statusmessage
+#### [statusMessage]
+The status message from the last effective check.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[target]: #target
+#### [target]
+The target object.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[targetType]: #targettype
+#### [targetType]
+A letter indicating the target type.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

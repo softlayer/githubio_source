@@ -36,123 +36,83 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A gateway member's internal identifier.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastvSRXVersion" name=lastvSRXVersion>lastvSRXVersion</a>
-            </span>
-            <div class='views-field-body'>The previous vSRX version of the gateway software  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#licenseKey" name=licenseKey>licenseKey</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#memberId" name=memberId>memberId</a>
-            </span>
-            <div class='views-field-body'>The gateway member for this attribute.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkModel" name=networkModel>networkModel</a>
-            </span>
-            <div class='views-field-body'>Network model of the gateway. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#password" name=password>password</a>
-            </span>
-            <div class='views-field-body'>Password of the user name. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sshKeyId" name=sshKeyId>sshKeyId</a>
-            </span>
-            <div class='views-field-body'>The SSH key id of key assigned to Gateway.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#username" name=username>username</a>
-            </span>
-            <div class='views-field-body'>Username associated with the gateway. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#vSRXVersion" name=vSRXVersion>vSRXVersion</a>
-            </span>
-            <div class='views-field-body'>The vSRX version of the gateway software  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#gatewayMember" name=gatewayMember>gatewayMember</a>
-            </span>
-            <div class='views-field-body'>The gateway member has these attributes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Gateway_Member'>SoftLayer_Network_Gateway_Member </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sshKey" name=sshKey>sshKey</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Security_Ssh_Key'>SoftLayer_Security_Ssh_Key </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[id]: #id
+#### [id]
+A gateway member's internal identifier.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[lastvSRXVersion]: #lastvsrxversion
+#### [lastvSRXVersion]
+The previous vSRX version of the gateway software   
+<span class="type-label">Type: </span>**string**
+
+-----
+[licenseKey]: #licensekey
+#### [licenseKey]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[memberId]: #memberid
+#### [memberId]
+The gateway member for this attribute.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[networkModel]: #networkmodel
+#### [networkModel]
+Network model of the gateway.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[password]: #password
+#### [password]
+Password of the user name.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[sshKeyId]: #sshkeyid
+#### [sshKeyId]
+The SSH key id of key assigned to Gateway.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[username]: #username
+#### [username]
+Username associated with the gateway.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[vSRXVersion]: #vsrxversion
+#### [vSRXVersion]
+The vSRX version of the gateway software   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[gatewayMember]: #gatewaymember
+#### [gatewayMember]
+The gateway member has these attributes.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway_Member'>SoftLayer_Network_Gateway_Member </a>**
+
+-----
+[sshKey]: #sshkey
+#### [sshKey]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Ssh_Key'>SoftLayer_Security_Ssh_Key </a>**
+
+
+## Count
 </div>
 
 

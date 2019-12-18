@@ -23,101 +23,81 @@ SoftLayer's shipment service allows the user to access information pertaining to
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit a shipment record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve the account to which the shipment belongs.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getAllCouriers'> getAllCouriers</a> </span>
-            <div class='views-field-body'>Retrieve a list of available shipping couriers.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getAllCouriersByType'> getAllCouriersByType</a> </span>
-            <div class='views-field-body'>Retrieve a list of couriers for a given courier type</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getAllShipmentStatuses'> getAllShipmentStatuses</a> </span>
-            <div class='views-field-body'>Retrieve a list of shipment statuses.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getAllShipmentTypes'> getAllShipmentTypes</a> </span>
-            <div class='views-field-body'>Retrieve a list of shipment types.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getCourier'> getCourier</a> </span>
-            <div class='views-field-body'>Retrieve the courier handling the shipment.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getCreateEmployee'> getCreateEmployee</a> </span>
-            <div class='views-field-body'>Retrieve the employee who created the shipment.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getCreateUser'> getCreateUser</a> </span>
-            <div class='views-field-body'>Retrieve the customer user who created the shipment.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getCurrency'> getCurrency</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getDestinationAddress'> getDestinationAddress</a> </span>
-            <div class='views-field-body'>Retrieve the address at which the shipment is received.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getMasterTrackingData'> getMasterTrackingData</a> </span>
-            <div class='views-field-body'>Retrieve the one master tracking data for the shipment.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getModifyEmployee'> getModifyEmployee</a> </span>
-            <div class='views-field-body'>Retrieve the employee who last modified the shipment.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getModifyUser'> getModifyUser</a> </span>
-            <div class='views-field-body'>Retrieve the customer user who last modified the shipment.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Account_Shipment record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getOriginationAddress'> getOriginationAddress</a> </span>
-            <div class='views-field-body'>Retrieve the address from which the shipment is sent.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getShipmentItems'> getShipmentItems</a> </span>
-            <div class='views-field-body'>Retrieve the items in the shipment.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getStatus'> getStatus</a> </span>
-            <div class='views-field-body'>Retrieve the status of the shipment.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getTrackingData'> getTrackingData</a> </span>
-            <div class='views-field-body'>Retrieve all tracking data for the shipment and packages.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getType'> getType</a> </span>
-            <div class='views-field-body'>Retrieve the type of shipment (e.g. for Data Transfer Service or Colocation Service).</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Shipment/getViaAddress'> getViaAddress</a> </span>
-            <div class='views-field-body'>Retrieve the address at which the shipment is received.</div>
-        </div>
-        </div>
+</div>
+
+#### [editObject](/reference/services/SoftLayer_Account_Shipment/editObject)
+Edit a shipment record.
+
+#### [getAccount](/reference/services/SoftLayer_Account_Shipment/getAccount)
+Retrieve the account to which the shipment belongs.
+
+#### [getAllCouriers](/reference/services/SoftLayer_Account_Shipment/getAllCouriers)
+Retrieve a list of available shipping couriers.
+
+#### [getAllCouriersByType](/reference/services/SoftLayer_Account_Shipment/getAllCouriersByType)
+Retrieve a list of couriers for a given courier type
+
+#### [getAllShipmentStatuses](/reference/services/SoftLayer_Account_Shipment/getAllShipmentStatuses)
+Retrieve a list of shipment statuses.
+
+#### [getAllShipmentTypes](/reference/services/SoftLayer_Account_Shipment/getAllShipmentTypes)
+Retrieve a list of shipment types.
+
+#### [getCourier](/reference/services/SoftLayer_Account_Shipment/getCourier)
+Retrieve the courier handling the shipment.
+
+#### [getCreateEmployee](/reference/services/SoftLayer_Account_Shipment/getCreateEmployee)
+Retrieve the employee who created the shipment.
+
+#### [getCreateUser](/reference/services/SoftLayer_Account_Shipment/getCreateUser)
+Retrieve the customer user who created the shipment.
+
+#### [getCurrency](/reference/services/SoftLayer_Account_Shipment/getCurrency)
+
+
+#### [getDestinationAddress](/reference/services/SoftLayer_Account_Shipment/getDestinationAddress)
+Retrieve the address at which the shipment is received.
+
+#### [getMasterTrackingData](/reference/services/SoftLayer_Account_Shipment/getMasterTrackingData)
+Retrieve the one master tracking data for the shipment.
+
+#### [getModifyEmployee](/reference/services/SoftLayer_Account_Shipment/getModifyEmployee)
+Retrieve the employee who last modified the shipment.
+
+#### [getModifyUser](/reference/services/SoftLayer_Account_Shipment/getModifyUser)
+Retrieve the customer user who last modified the shipment.
+
+#### [getObject](/reference/services/SoftLayer_Account_Shipment/getObject)
+Retrieve a SoftLayer_Account_Shipment record.
+
+#### [getOriginationAddress](/reference/services/SoftLayer_Account_Shipment/getOriginationAddress)
+Retrieve the address from which the shipment is sent.
+
+#### [getShipmentItems](/reference/services/SoftLayer_Account_Shipment/getShipmentItems)
+Retrieve the items in the shipment.
+
+#### [getStatus](/reference/services/SoftLayer_Account_Shipment/getStatus)
+Retrieve the status of the shipment.
+
+#### [getTrackingData](/reference/services/SoftLayer_Account_Shipment/getTrackingData)
+Retrieve all tracking data for the shipment and packages.
+
+#### [getType](/reference/services/SoftLayer_Account_Shipment/getType)
+Retrieve the type of shipment (e.g. for Data Transfer Service or Colocation Service).
+
+#### [getViaAddress](/reference/services/SoftLayer_Account_Shipment/getViaAddress)
+Retrieve the address at which the shipment is received.
+
 </div>
 

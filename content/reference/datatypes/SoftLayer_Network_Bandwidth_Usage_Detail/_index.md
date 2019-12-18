@@ -36,73 +36,53 @@ The SoftLayer_Network_Bandwidth_Usage_Detail data type contains specific informa
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#amountIn" name=amountIn>amountIn</a>
-            </span>
-            <div class='views-field-body'>Incoming bandwidth utilization. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#amountOut" name=amountOut>amountOut</a>
-            </span>
-            <div class='views-field-body'>Outgoing bandwidth utilization. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bandwidthUsageDetailTypeId" name=bandwidthUsageDetailTypeId>bandwidthUsageDetailTypeId</a>
-            </span>
-            <div class='views-field-body'>ID of the bandwidth usage detail type for this record. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The account tied to this tracking object </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#trackingObject" name=trackingObject>trackingObject</a>
-            </span>
-            <div class='views-field-body'>The tracking object this bandwidth usage record describes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#type" name=type>type</a>
-            </span>
-            <div class='views-field-body'>In and out bandwidth utilization for a specified time stamp. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[amountIn]: #amountin
+#### [amountIn]
+Incoming bandwidth utilization.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[amountOut]: #amountout
+#### [amountOut]
+Outgoing bandwidth utilization.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[bandwidthUsageDetailTypeId]: #bandwidthusagedetailtypeid
+#### [bandwidthUsageDetailTypeId]
+ID of the bandwidth usage detail type for this record.  
+<span class="type-label">Type: </span>**decimal**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The account tied to this tracking object  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[trackingObject]: #trackingobject
+#### [trackingObject]
+The tracking object this bandwidth usage record describes.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>**
+
+-----
+[type]: #type
+#### [type]
+In and out bandwidth utilization for a specified time stamp.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type </a>**
+
+
+## Count
 </div>
 
 

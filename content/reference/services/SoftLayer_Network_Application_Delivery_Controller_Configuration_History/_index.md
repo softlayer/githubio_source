@@ -23,29 +23,27 @@ SoftLayer_Network_Application_Delivery_Controller_Configuration_History provides
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Application_Delivery_Controller_Configuration_History/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Remove a configuration history record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Application_Delivery_Controller_Configuration_History/getController'> getController</a> </span>
-            <div class='views-field-body'>Retrieve the application delivery controller that a configuration history record belongs to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Application_Delivery_Controller_Configuration_History/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_Application_Delivery_Controller_Configuration_History record.</div>
-        </div>
-        </div>
+</div>
+
+#### [deleteObject](/reference/services/SoftLayer_Network_Application_Delivery_Controller_Configuration_History/deleteObject)
+Remove a configuration history record.
+
+#### [getController](/reference/services/SoftLayer_Network_Application_Delivery_Controller_Configuration_History/getController)
+Retrieve the application delivery controller that a configuration history record belongs to.
+
+#### [getObject](/reference/services/SoftLayer_Network_Application_Delivery_Controller_Configuration_History/getObject)
+Retrieve a SoftLayer_Network_Application_Delivery_Controller_Configuration_History record.
+
 </div>
 

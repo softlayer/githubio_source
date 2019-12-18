@@ -46,39 +46,30 @@ SoftLayer_Container_Network_Bandwidth_Version1_Usage models an hourly bandwidth 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#incomingAmount" name=incomingAmount>incomingAmount</a>
-            </span>
-            <div class='views-field-body'>The amount of incoming bandwidth that a server has used within the hour of the recordedDate. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#outgoingAmount" name=outgoingAmount>outgoingAmount</a>
-            </span>
-            <div class='views-field-body'>The amount of outgoing bandwidth that a server has used within the hour of the recordedDate. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#recordedDate" name=recordedDate>recordedDate</a>
-            </span>
-            <div class='views-field-body'>The date and time that the bandwidth was used by a piece of hardware </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[incomingAmount]: #incomingamount
+#### [incomingAmount]
+The amount of incoming bandwidth that a server has used within the hour of the recordedDate.  
+<span class="type-label">Type: </span>**float**
+
+-----
+[outgoingAmount]: #outgoingamount
+#### [outgoingAmount]
+The amount of outgoing bandwidth that a server has used within the hour of the recordedDate.  
+<span class="type-label">Type: </span>**float**
+
+-----
+[recordedDate]: #recordeddate
+#### [recordedDate]
+The date and time that the bandwidth was used by a piece of hardware  
+<span class="type-label">Type: </span>**dateTime**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

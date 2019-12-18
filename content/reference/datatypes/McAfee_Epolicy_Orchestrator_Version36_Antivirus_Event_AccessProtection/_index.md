@@ -36,59 +36,42 @@ The McAfee_Epolicy_Orchestrator_Version36_Antivirus_Event_AccessProtection data 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#eventLocalDateTime" name=eventLocalDateTime>eventLocalDateTime</a>
-            </span>
-            <div class='views-field-body'>The date that an access protection event occurs. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#filename" name=filename>filename</a>
-            </span>
-            <div class='views-field-body'>The name of the file that was protected from access. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#processName" name=processName>processName</a>
-            </span>
-            <div class='views-field-body'>The name of the process that was protected from access. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ruleName" name=ruleName>ruleName</a>
-            </span>
-            <div class='views-field-body'>The name of the rule that triggered an access protection event. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#source" name=source>source</a>
-            </span>
-            <div class='views-field-body'>The IP address that caused an access protection event. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[eventLocalDateTime]: #eventlocaldatetime
+#### [eventLocalDateTime]
+The date that an access protection event occurs.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[filename]: #filename
+#### [filename]
+The name of the file that was protected from access.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[processName]: #processname
+#### [processName]
+The name of the process that was protected from access.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[ruleName]: #rulename
+#### [ruleName]
+The name of the rule that triggered an access protection event.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[source]: #source
+#### [source]
+The IP address that caused an access protection event.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

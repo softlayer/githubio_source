@@ -36,29 +36,24 @@ The SoftLayer_Container_Software_Component_HostIps_Policy container holds the ti
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#policy" name=policy>policy</a>
-            </span>
-            <div class='views-field-body'>The value of a host ips category. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#policyTitle" name=policyTitle>policyTitle</a>
-            </span>
-            <div class='views-field-body'>The category title of a host ips policy. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[policy]: #policy
+#### [policy]
+The value of a host ips category.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[policyTitle]: #policytitle
+#### [policyTitle]
+The category title of a host ips policy.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

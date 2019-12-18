@@ -36,113 +36,77 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>A Global IP Address' associated description  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#destinationIpAddressId" name=destinationIpAddressId>destinationIpAddressId</a>
-            </span>
-            <div class='views-field-body'>A Global IP Address' associated [[SoftLayer_Network_Subnet_IpAddress|ipAddress]] ID  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A Global IP Address' unique identifier  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ipAddressId" name=ipAddressId>ipAddressId</a>
-            </span>
-            <div class='views-field-body'>A Global IP Address' associated [[SoftLayer_Account|account]] ID  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#typeId" name=typeId>typeId</a>
-            </span>
-            <div class='views-field-body'>A Global IP Address' associated type [[SoftLayer_Network_Subnet_IpAddress_Global_Type|id]] ID  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeTransaction" name=activeTransaction>activeTransaction</a>
-            </span>
-            <div class='views-field-body'>The active transaction associated with this Global IP. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingItem" name=billingItem>billingItem</a>
-            </span>
-            <div class='views-field-body'>The billing item for this Global IP. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item_Network_Subnet_IpAddress_Global'>SoftLayer_Billing_Item_Network_Subnet_IpAddress_Global </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#destinationIpAddress" name=destinationIpAddress>destinationIpAddress</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ipAddress" name=ipAddress>ipAddress</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[description]: #description
+#### [description]
+A Global IP Address' associated description   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[destinationIpAddressId]: #destinationipaddressid
+#### [destinationIpAddressId]
+A Global IP Address' associated [SoftLayer_Network_Subnet_IpAddress]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_IpAddress">}}) ID   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+A Global IP Address' unique identifier   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[ipAddressId]: #ipaddressid
+#### [ipAddressId]
+A Global IP Address' associated [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) ID   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[typeId]: #typeid
+#### [typeId]
+A Global IP Address' associated type [SoftLayer_Network_Subnet_IpAddress_Global_Type]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_IpAddress_Global_Type">}}) ID   
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[activeTransaction]: #activetransaction
+#### [activeTransaction]
+The active transaction associated with this Global IP.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**
+
+-----
+[billingItem]: #billingitem
+#### [billingItem]
+The billing item for this Global IP.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Network_Subnet_IpAddress_Global'>SoftLayer_Billing_Item_Network_Subnet_IpAddress_Global </a>**
+
+-----
+[destinationIpAddress]: #destinationipaddress
+#### [destinationIpAddress]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>**
+
+-----
+[ipAddress]: #ipaddress
+#### [ipAddress]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>**
+
+
+## Count
 </div>
 
 

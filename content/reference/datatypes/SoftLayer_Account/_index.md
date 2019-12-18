@@ -44,4673 +44,2998 @@ SoftLayer customers are unable to change their company account information in th
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountManagedResourcesFlag" name=accountManagedResourcesFlag>accountManagedResourcesFlag</a>
-            </span>
-            <div class='views-field-body'>A flag indicating that the account has a managed resource. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountStatusId" name=accountStatusId>accountStatusId</a>
-            </span>
-            <div class='views-field-body'>A number reflecting the state of an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#address1" name=address1>address1</a>
-            </span>
-            <div class='views-field-body'>The first line of the mailing address belonging to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#address2" name=address2>address2</a>
-            </span>
-            <div class='views-field-body'>The second line of the mailing address belonging to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allowedPptpVpnQuantity" name=allowedPptpVpnQuantity>allowedPptpVpnQuantity</a>
-            </span>
-            <div class='views-field-body'>The number of PPTP VPN users allowed on an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#alternatePhone" name=alternatePhone>alternatePhone</a>
-            </span>
-            <div class='views-field-body'>A secondary phone number assigned to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#brandId" name=brandId>brandId</a>
-            </span>
-            <div class='views-field-body'>The Brand tied to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#city" name=city>city</a>
-            </span>
-            <div class='views-field-body'>The city of the mailing address belonging to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#claimedTaxExemptTxFlag" name=claimedTaxExemptTxFlag>claimedTaxExemptTxFlag</a>
-            </span>
-            <div class='views-field-body'>Whether an account is exempt from taxes on their invoices. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#companyName" name=companyName>companyName</a>
-            </span>
-            <div class='views-field-body'>The company name associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#country" name=country>country</a>
-            </span>
-            <div class='views-field-body'>A two-letter abbreviation of the country in the mailing address belonging to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date an account was created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#deviceFingerprintId" name=deviceFingerprintId>deviceFingerprintId</a>
-            </span>
-            <div class='views-field-body'>Device Fingerprint Identifier - Used internally and can safely be ignored. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#email" name=email>email</a>
-            </span>
-            <div class='views-field-body'>A general email address assigned to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#faxPhone" name=faxPhone>faxPhone</a>
-            </span>
-            <div class='views-field-body'>A fax phone number assigned to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#firstName" name=firstName>firstName</a>
-            </span>
-            <div class='views-field-body'>Each customer account is listed under a single individual. This is that individual's first name. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A customer account's internal identifier. Account numbers are typically preceded by the string "SL" in the customer portal. Every SoftLayer account has at least one portal user whose username follows the "SL" + account number naming scheme.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#isReseller" name=isReseller>isReseller</a>
-            </span>
-            <div class='views-field-body'>A flag indicating if an account belongs to a reseller or not. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastName" name=lastName>lastName</a>
-            </span>
-            <div class='views-field-body'>Each customer account is listed under a single individual. This is that individual's last name. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lateFeeProtectionFlag" name=lateFeeProtectionFlag>lateFeeProtectionFlag</a>
-            </span>
-            <div class='views-field-body'>Whether an account has late fee protection. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>The date an account was last modified. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#officePhone" name=officePhone>officePhone</a>
-            </span>
-            <div class='views-field-body'>An office phone number assigned to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#postalCode" name=postalCode>postalCode</a>
-            </span>
-            <div class='views-field-body'>The postal code of the mailing address belonging to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#resellerLevel" name=resellerLevel>resellerLevel</a>
-            </span>
-            <div class='views-field-body'>The Reseller level of the account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#state" name=state>state</a>
-            </span>
-            <div class='views-field-body'>A two-letter abbreviation of the state in the mailing address belonging to an account. If an account does not reside in a province then this is typically blank. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#statusDate" name=statusDate>statusDate</a>
-            </span>
-            <div class='views-field-body'>The date of an account's last status change. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#abuseEmail" name=abuseEmail>abuseEmail</a>
-            </span>
-            <div class='views-field-body'>An email address that is responsible for abuse and legal inquiries on behalf of an account. For instance, new legal and abuse tickets are sent to this address. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#abuseEmails" name=abuseEmails>abuseEmails</a>
-            </span>
-            <div class='views-field-body'>Email addresses that are responsible for abuse and legal inquiries on behalf of an account. For instance, new legal and abuse tickets are sent to these addresses. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_AbuseEmail'>SoftLayer_Account_AbuseEmail[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountContacts" name=accountContacts>accountContacts</a>
-            </span>
-            <div class='views-field-body'>The account contacts on an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Contact'>SoftLayer_Account_Contact[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountLicenses" name=accountLicenses>accountLicenses</a>
-            </span>
-            <div class='views-field-body'>The account software licenses owned by an account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Software_AccountLicense'>SoftLayer_Software_AccountLicense[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountLinks" name=accountLinks>accountLinks</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Link'>SoftLayer_Account_Link[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountStatus" name=accountStatus>accountStatus</a>
-            </span>
-            <div class='views-field-body'>An account's status presented in a more detailed data type. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Status'>SoftLayer_Account_Status </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeAccountDiscountBillingItem" name=activeAccountDiscountBillingItem>activeAccountDiscountBillingItem</a>
-            </span>
-            <div class='views-field-body'>The billing item associated with an account's monthly discount. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeAccountLicenses" name=activeAccountLicenses>activeAccountLicenses</a>
-            </span>
-            <div class='views-field-body'>The active account software licenses owned by an account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Software_AccountLicense'>SoftLayer_Software_AccountLicense[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeAddresses" name=activeAddresses>activeAddresses</a>
-            </span>
-            <div class='views-field-body'>The active address(es) that belong to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeAgreements" name=activeAgreements>activeAgreements</a>
-            </span>
-            <div class='views-field-body'>All active agreements for an account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Agreement'>SoftLayer_Account_Agreement[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeBillingAgreements" name=activeBillingAgreements>activeBillingAgreements</a>
-            </span>
-            <div class='views-field-body'>All billing agreements for an account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Agreement'>SoftLayer_Account_Agreement[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeCatalystEnrollment" name=activeCatalystEnrollment>activeCatalystEnrollment</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Catalyst_Enrollment'>SoftLayer_Catalyst_Enrollment </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeColocationContainers" name=activeColocationContainers>activeColocationContainers</a>
-            </span>
-            <div class='views-field-body'>The account's active top level colocation containers. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeFlexibleCreditEnrollment" name=activeFlexibleCreditEnrollment>activeFlexibleCreditEnrollment</a>
-            </span>
-            <div class='views-field-body'>[Deprecated] Please use SoftLayer_Account::activeFlexibleCreditEnrollments. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_FlexibleCredit_Enrollment'>SoftLayer_FlexibleCredit_Enrollment </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeFlexibleCreditEnrollments" name=activeFlexibleCreditEnrollments>activeFlexibleCreditEnrollments</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_FlexibleCredit_Enrollment'>SoftLayer_FlexibleCredit_Enrollment[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeNotificationSubscribers" name=activeNotificationSubscribers>activeNotificationSubscribers</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Notification_Subscriber'>SoftLayer_Notification_Subscriber[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeQuotes" name=activeQuotes>activeQuotes</a>
-            </span>
-            <div class='views-field-body'>An account's non-expired quotes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Order_Quote'>SoftLayer_Billing_Order_Quote[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeReservedCapacityAgreements" name=activeReservedCapacityAgreements>activeReservedCapacityAgreements</a>
-            </span>
-            <div class='views-field-body'>Active reserved capacity agreements for an account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Agreement'>SoftLayer_Account_Agreement[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeVirtualLicenses" name=activeVirtualLicenses>activeVirtualLicenses</a>
-            </span>
-            <div class='views-field-body'>The virtual software licenses controlled by an account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Software_VirtualLicense'>SoftLayer_Software_VirtualLicense[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#adcLoadBalancers" name=adcLoadBalancers>adcLoadBalancers</a>
-            </span>
-            <div class='views-field-body'>An account's associated load balancers. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#addresses" name=addresses>addresses</a>
-            </span>
-            <div class='views-field-body'>All the address(es) that belong to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#affiliateId" name=affiliateId>affiliateId</a>
-            </span>
-            <div class='views-field-body'>An affiliate identifier associated with the customer account.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allBillingItems" name=allBillingItems>allBillingItems</a>
-            </span>
-            <div class='views-field-body'>The billing items that will be on an account's next invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allCommissionBillingItems" name=allCommissionBillingItems>allCommissionBillingItems</a>
-            </span>
-            <div class='views-field-body'>The billing items that will be on an account's next invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allRecurringTopLevelBillingItems" name=allRecurringTopLevelBillingItems>allRecurringTopLevelBillingItems</a>
-            </span>
-            <div class='views-field-body'>The billing items that will be on an account's next invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allRecurringTopLevelBillingItemsUnfiltered" name=allRecurringTopLevelBillingItemsUnfiltered>allRecurringTopLevelBillingItemsUnfiltered</a>
-            </span>
-            <div class='views-field-body'>The billing items that will be on an account's next invoice. Does not consider associated items. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allSubnetBillingItems" name=allSubnetBillingItems>allSubnetBillingItems</a>
-            </span>
-            <div class='views-field-body'>The billing items that will be on an account's next invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allTopLevelBillingItems" name=allTopLevelBillingItems>allTopLevelBillingItems</a>
-            </span>
-            <div class='views-field-body'>All billing items of an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allTopLevelBillingItemsUnfiltered" name=allTopLevelBillingItemsUnfiltered>allTopLevelBillingItemsUnfiltered</a>
-            </span>
-            <div class='views-field-body'>The billing items that will be on an account's next invoice. Does not consider associated items. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allowIbmIdSilentMigrationFlag" name=allowIbmIdSilentMigrationFlag>allowIbmIdSilentMigrationFlag</a>
-            </span>
-            <div class='views-field-body'>Indicates whether this account is allowed to silently migrate to use IBMid Authentication. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allowsBluemixAccountLinkingFlag" name=allowsBluemixAccountLinkingFlag>allowsBluemixAccountLinkingFlag</a>
-            </span>
-            <div class='views-field-body'>Flag indicating if this account can be linked with Bluemix. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#applicationDeliveryControllers" name=applicationDeliveryControllers>applicationDeliveryControllers</a>
-            </span>
-            <div class='views-field-body'>An account's associated application delivery controller records. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributes" name=attributes>attributes</a>
-            </span>
-            <div class='views-field-body'>The account attribute values for a SoftLayer customer account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Attribute'>SoftLayer_Account_Attribute[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#availablePublicNetworkVlans" name=availablePublicNetworkVlans>availablePublicNetworkVlans</a>
-            </span>
-            <div class='views-field-body'>The public network VLANs assigned to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#balance" name=balance>balance</a>
-            </span>
-            <div class='views-field-body'>The account balance of a SoftLayer customer account. An account's balance is the amount of money owed to SoftLayer by the account holder, returned as a floating point number with two decimal places, measured in US Dollars ($USD). A negative account balance means the account holder has overpaid and is owed money by SoftLayer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bandwidthAllotments" name=bandwidthAllotments>bandwidthAllotments</a>
-            </span>
-            <div class='views-field-body'>The bandwidth allotments for an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bandwidthAllotmentsOverAllocation" name=bandwidthAllotmentsOverAllocation>bandwidthAllotmentsOverAllocation</a>
-            </span>
-            <div class='views-field-body'>The bandwidth allotments for an account currently over allocation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bandwidthAllotmentsProjectedOverAllocation" name=bandwidthAllotmentsProjectedOverAllocation>bandwidthAllotmentsProjectedOverAllocation</a>
-            </span>
-            <div class='views-field-body'>The bandwidth allotments for an account projected to go over allocation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bareMetalInstances" name=bareMetalInstances>bareMetalInstances</a>
-            </span>
-            <div class='views-field-body'>An account's associated bare metal server objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingAgreements" name=billingAgreements>billingAgreements</a>
-            </span>
-            <div class='views-field-body'>All billing agreements for an account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Agreement'>SoftLayer_Account_Agreement[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingInfo" name=billingInfo>billingInfo</a>
-            </span>
-            <div class='views-field-body'>An account's billing information. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Info'>SoftLayer_Billing_Info </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#blockDeviceTemplateGroups" name=blockDeviceTemplateGroups>blockDeviceTemplateGroups</a>
-            </span>
-            <div class='views-field-body'>Private template group objects (parent and children) and the shared template group objects (parent only) for an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bluemixAccountLink" name=bluemixAccountLink>bluemixAccountLink</a>
-            </span>
-            <div class='views-field-body'>The Bluemix account link associated with this SoftLayer account, if one exists. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Link_Bluemix'>SoftLayer_Account_Link_Bluemix </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bluemixLinkedFlag" name=bluemixLinkedFlag>bluemixLinkedFlag</a>
-            </span>
-            <div class='views-field-body'>Returns true if this account is linked to IBM Bluemix, false if not. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#brand" name=brand>brand</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#brandAccountFlag" name=brandAccountFlag>brandAccountFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#brandKeyName" name=brandKeyName>brandKeyName</a>
-            </span>
-            <div class='views-field-body'>The brand keyName. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#businessPartner" name=businessPartner>businessPartner</a>
-            </span>
-            <div class='views-field-body'>The Business Partner details for the account. Country Enterprise Code, Channel, Segment, Reseller Level. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Business_Partner'>SoftLayer_Account_Business_Partner </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#canOrderAdditionalVlansFlag" name=canOrderAdditionalVlansFlag>canOrderAdditionalVlansFlag</a>
-            </span>
-            <div class='views-field-body'>[DEPRECATED] All accounts may order VLANs. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#carts" name=carts>carts</a>
-            </span>
-            <div class='views-field-body'>An account's active carts. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Order_Quote'>SoftLayer_Billing_Order_Quote[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#catalystEnrollments" name=catalystEnrollments>catalystEnrollments</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Catalyst_Enrollment'>SoftLayer_Catalyst_Enrollment[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#closedTickets" name=closedTickets>closedTickets</a>
-            </span>
-            <div class='views-field-body'>All closed tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#datacentersWithSubnetAllocations" name=datacentersWithSubnetAllocations>datacentersWithSubnetAllocations</a>
-            </span>
-            <div class='views-field-body'>Datacenters which contain subnets that the account has access to route. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#dedicatedHosts" name=dedicatedHosts>dedicatedHosts</a>
-            </span>
-            <div class='views-field-body'>An account's associated virtual dedicated host objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_DedicatedHost'>SoftLayer_Virtual_DedicatedHost[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#disablePaymentProcessingFlag" name=disablePaymentProcessingFlag>disablePaymentProcessingFlag</a>
-            </span>
-            <div class='views-field-body'>A flag indicating whether payments are processed for this account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#displaySupportRepresentativeAssignments" name=displaySupportRepresentativeAssignments>displaySupportRepresentativeAssignments</a>
-            </span>
-            <div class='views-field-body'>The SoftLayer employees that an account is assigned to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Attachment_Employee'>SoftLayer_Account_Attachment_Employee[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#domainRegistrations" name=domainRegistrations>domainRegistrations</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration'>SoftLayer_Dns_Domain_Registration[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#domains" name=domains>domains</a>
-            </span>
-            <div class='views-field-body'>The DNS domains associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#domainsWithoutSecondaryDnsRecords" name=domainsWithoutSecondaryDnsRecords>domainsWithoutSecondaryDnsRecords</a>
-            </span>
-            <div class='views-field-body'>The DNS domains associated with an account that were not created as a result of a secondary DNS zone transfer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#euSupportedFlag" name=euSupportedFlag>euSupportedFlag</a>
-            </span>
-            <div class='views-field-body'>Boolean flag dictating whether or not this account has the EU Supported flag. This flag indicates that this account uses IBM Cloud services to process EU citizen's personal data. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#evaultCapacityGB" name=evaultCapacityGB>evaultCapacityGB</a>
-            </span>
-            <div class='views-field-body'>The total capacity of Legacy EVault Volumes on an account, in GB. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#evaultMasterUsers" name=evaultMasterUsers>evaultMasterUsers</a>
-            </span>
-            <div class='views-field-body'>An account's master EVault user. This is only used when an account has EVault service. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Password'>SoftLayer_Account_Password[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#evaultNetworkStorage" name=evaultNetworkStorage>evaultNetworkStorage</a>
-            </span>
-            <div class='views-field-body'>An account's associated EVault storage volumes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#expiredSecurityCertificates" name=expiredSecurityCertificates>expiredSecurityCertificates</a>
-            </span>
-            <div class='views-field-body'>Stored security certificates that are expired (ie. SSL) </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Security_Certificate'>SoftLayer_Security_Certificate[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#facilityLogs" name=facilityLogs>facilityLogs</a>
-            </span>
-            <div class='views-field-body'>Logs of who entered a colocation area which is assigned to this account, or when a user under this account enters a datacenter. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Access_Facility_Log'>SoftLayer_User_Access_Facility_Log[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#fileBlockBetaAccessFlag" name=fileBlockBetaAccessFlag>fileBlockBetaAccessFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#flexibleCreditEnrollments" name=flexibleCreditEnrollments>flexibleCreditEnrollments</a>
-            </span>
-            <div class='views-field-body'>All of the account's current and former Flexible Credit enrollments. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_FlexibleCredit_Enrollment'>SoftLayer_FlexibleCredit_Enrollment[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#forcePaasAccountLinkDate" name=forcePaasAccountLinkDate>forcePaasAccountLinkDate</a>
-            </span>
-            <div class='views-field-body'>Timestamp representing the point in time when an account is required to link with PaaS. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#globalIpRecords" name=globalIpRecords>globalIpRecords</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress_Global'>SoftLayer_Network_Subnet_IpAddress_Global[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#globalIpv4Records" name=globalIpv4Records>globalIpv4Records</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress_Global'>SoftLayer_Network_Subnet_IpAddress_Global[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#globalIpv6Records" name=globalIpv6Records>globalIpv6Records</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress_Global'>SoftLayer_Network_Subnet_IpAddress_Global[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#globalLoadBalancerAccounts" name=globalLoadBalancerAccounts>globalLoadBalancerAccounts</a>
-            </span>
-            <div class='views-field-body'>The global load balancer accounts for a softlayer customer account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Account'>SoftLayer_Network_LoadBalancer_Global_Account[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardware" name=hardware>hardware</a>
-            </span>
-            <div class='views-field-body'>An account's associated hardware objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareOverBandwidthAllocation" name=hardwareOverBandwidthAllocation>hardwareOverBandwidthAllocation</a>
-            </span>
-            <div class='views-field-body'>An account's associated hardware objects currently over bandwidth allocation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareProjectedOverBandwidthAllocation" name=hardwareProjectedOverBandwidthAllocation>hardwareProjectedOverBandwidthAllocation</a>
-            </span>
-            <div class='views-field-body'>An account's associated hardware objects projected to go over bandwidth allocation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithCpanel" name=hardwareWithCpanel>hardwareWithCpanel</a>
-            </span>
-            <div class='views-field-body'>All hardware associated with an account that has the cPanel web hosting control panel installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithHelm" name=hardwareWithHelm>hardwareWithHelm</a>
-            </span>
-            <div class='views-field-body'>All hardware associated with an account that has the Helm web hosting control panel installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithMcafee" name=hardwareWithMcafee>hardwareWithMcafee</a>
-            </span>
-            <div class='views-field-body'>All hardware associated with an account that has McAfee Secure software components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithMcafeeAntivirusRedhat" name=hardwareWithMcafeeAntivirusRedhat>hardwareWithMcafeeAntivirusRedhat</a>
-            </span>
-            <div class='views-field-body'>All hardware associated with an account that has McAfee Secure AntiVirus for Redhat software components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithMcafeeAntivirusWindows" name=hardwareWithMcafeeAntivirusWindows>hardwareWithMcafeeAntivirusWindows</a>
-            </span>
-            <div class='views-field-body'>All hardware associated with an account that has McAfee Secure AntiVirus for Windows software components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithMcafeeIntrusionDetectionSystem" name=hardwareWithMcafeeIntrusionDetectionSystem>hardwareWithMcafeeIntrusionDetectionSystem</a>
-            </span>
-            <div class='views-field-body'>All hardware associated with an account that has McAfee Secure Intrusion Detection System software components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithPlesk" name=hardwareWithPlesk>hardwareWithPlesk</a>
-            </span>
-            <div class='views-field-body'>All hardware associated with an account that has the Plesk web hosting control panel installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithQuantastor" name=hardwareWithQuantastor>hardwareWithQuantastor</a>
-            </span>
-            <div class='views-field-body'>All hardware associated with an account that has the QuantaStor storage system installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithUrchin" name=hardwareWithUrchin>hardwareWithUrchin</a>
-            </span>
-            <div class='views-field-body'>All hardware associated with an account that has the Urchin web traffic analytics package installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithWindows" name=hardwareWithWindows>hardwareWithWindows</a>
-            </span>
-            <div class='views-field-body'>All hardware associated with an account that is running a version of the Microsoft Windows operating system. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hasEvaultBareMetalRestorePluginFlag" name=hasEvaultBareMetalRestorePluginFlag>hasEvaultBareMetalRestorePluginFlag</a>
-            </span>
-            <div class='views-field-body'>Return 1 if one of the account's hardware has the EVault Bare Metal Server Restore Plugin otherwise 0. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hasIderaBareMetalRestorePluginFlag" name=hasIderaBareMetalRestorePluginFlag>hasIderaBareMetalRestorePluginFlag</a>
-            </span>
-            <div class='views-field-body'>Return 1 if one of the account's hardware has an installation of Idera Server Backup otherwise 0. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hasPendingOrder" name=hasPendingOrder>hasPendingOrder</a>
-            </span>
-            <div class='views-field-body'>The number of orders in a PENDING status for a SoftLayer customer account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hasR1softBareMetalRestorePluginFlag" name=hasR1softBareMetalRestorePluginFlag>hasR1softBareMetalRestorePluginFlag</a>
-            </span>
-            <div class='views-field-body'>Return 1 if one of the account's hardware has an installation of R1Soft CDP otherwise 0. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hourlyBareMetalInstances" name=hourlyBareMetalInstances>hourlyBareMetalInstances</a>
-            </span>
-            <div class='views-field-body'>An account's associated hourly bare metal server objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hourlyServiceBillingItems" name=hourlyServiceBillingItems>hourlyServiceBillingItems</a>
-            </span>
-            <div class='views-field-body'>Hourly service billing items that will be on an account's next invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hourlyVirtualGuests" name=hourlyVirtualGuests>hourlyVirtualGuests</a>
-            </span>
-            <div class='views-field-body'>An account's associated hourly virtual guest objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hubNetworkStorage" name=hubNetworkStorage>hubNetworkStorage</a>
-            </span>
-            <div class='views-field-body'>An account's associated Virtual Storage volumes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ibmCustomerNumber" name=ibmCustomerNumber>ibmCustomerNumber</a>
-            </span>
-            <div class='views-field-body'>Unique identifier for a customer used throughout IBM. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ibmIdAuthenticationRequiredFlag" name=ibmIdAuthenticationRequiredFlag>ibmIdAuthenticationRequiredFlag</a>
-            </span>
-            <div class='views-field-body'>Indicates whether this account requires IBMid authentication. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ibmIdMigrationExpirationTimestamp" name=ibmIdMigrationExpirationTimestamp>ibmIdMigrationExpirationTimestamp</a>
-            </span>
-            <div class='views-field-body'>This key is deprecated and should not be used. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#inProgressExternalAccountSetup" name=inProgressExternalAccountSetup>inProgressExternalAccountSetup</a>
-            </span>
-            <div class='views-field-body'>An in progress request to switch billing systems. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_External_Setup'>SoftLayer_Account_External_Setup </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#internalNotes" name=internalNotes>internalNotes</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Note'>SoftLayer_Account_Note[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#invoices" name=invoices>invoices</a>
-            </span>
-            <div class='views-field-body'>An account's associated billing invoices. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ipAddresses" name=ipAddresses>ipAddresses</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#iscsiIsolationDisabled" name=iscsiIsolationDisabled>iscsiIsolationDisabled</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#iscsiNetworkStorage" name=iscsiNetworkStorage>iscsiNetworkStorage</a>
-            </span>
-            <div class='views-field-body'>An account's associated iSCSI storage volumes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastCanceledBillingItem" name=lastCanceledBillingItem>lastCanceledBillingItem</a>
-            </span>
-            <div class='views-field-body'>The most recently canceled billing item. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastCancelledServerBillingItem" name=lastCancelledServerBillingItem>lastCancelledServerBillingItem</a>
-            </span>
-            <div class='views-field-body'>The most recent cancelled server billing item. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastFiveClosedAbuseTickets" name=lastFiveClosedAbuseTickets>lastFiveClosedAbuseTickets</a>
-            </span>
-            <div class='views-field-body'>The five most recently closed abuse tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastFiveClosedAccountingTickets" name=lastFiveClosedAccountingTickets>lastFiveClosedAccountingTickets</a>
-            </span>
-            <div class='views-field-body'>The five most recently closed accounting tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastFiveClosedOtherTickets" name=lastFiveClosedOtherTickets>lastFiveClosedOtherTickets</a>
-            </span>
-            <div class='views-field-body'>The five most recently closed tickets that do not belong to the abuse, accounting, sales, or support groups associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastFiveClosedSalesTickets" name=lastFiveClosedSalesTickets>lastFiveClosedSalesTickets</a>
-            </span>
-            <div class='views-field-body'>The five most recently closed sales tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastFiveClosedSupportTickets" name=lastFiveClosedSupportTickets>lastFiveClosedSupportTickets</a>
-            </span>
-            <div class='views-field-body'>The five most recently closed support tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastFiveClosedTickets" name=lastFiveClosedTickets>lastFiveClosedTickets</a>
-            </span>
-            <div class='views-field-body'>The five most recently closed tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#latestBillDate" name=latestBillDate>latestBillDate</a>
-            </span>
-            <div class='views-field-body'>An account's most recent billing date. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#latestRecurringInvoice" name=latestRecurringInvoice>latestRecurringInvoice</a>
-            </span>
-            <div class='views-field-body'>An account's latest recurring invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#latestRecurringPendingInvoice" name=latestRecurringPendingInvoice>latestRecurringPendingInvoice</a>
-            </span>
-            <div class='views-field-body'>An account's latest recurring pending invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#legacyBandwidthAllotments" name=legacyBandwidthAllotments>legacyBandwidthAllotments</a>
-            </span>
-            <div class='views-field-body'>The legacy bandwidth allotments for an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#legacyIscsiCapacityGB" name=legacyIscsiCapacityGB>legacyIscsiCapacityGB</a>
-            </span>
-            <div class='views-field-body'>The total capacity of Legacy iSCSI Volumes on an account, in GB. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#loadBalancers" name=loadBalancers>loadBalancers</a>
-            </span>
-            <div class='views-field-body'>An account's associated load balancers. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_LoadBalancer_VirtualIpAddress[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lockboxCapacityGB" name=lockboxCapacityGB>lockboxCapacityGB</a>
-            </span>
-            <div class='views-field-body'>The total capacity of Legacy lockbox Volumes on an account, in GB. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lockboxNetworkStorage" name=lockboxNetworkStorage>lockboxNetworkStorage</a>
-            </span>
-            <div class='views-field-body'>An account's associated Lockbox storage volumes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#manualPaymentsUnderReview" name=manualPaymentsUnderReview>manualPaymentsUnderReview</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_ManualPayment'>SoftLayer_Billing_Payment_Card_ManualPayment[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#masterUser" name=masterUser>masterUser</a>
-            </span>
-            <div class='views-field-body'>An account's master user. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#mediaDataTransferRequests" name=mediaDataTransferRequests>mediaDataTransferRequests</a>
-            </span>
-            <div class='views-field-body'>An account's media transfer service requests. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Media_Data_Transfer_Request'>SoftLayer_Account_Media_Data_Transfer_Request[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#migratedToIbmCloudPortalFlag" name=migratedToIbmCloudPortalFlag>migratedToIbmCloudPortalFlag</a>
-            </span>
-            <div class='views-field-body'>Flag indicating whether this account is restricted to the IBM Cloud portal. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monthlyBareMetalInstances" name=monthlyBareMetalInstances>monthlyBareMetalInstances</a>
-            </span>
-            <div class='views-field-body'>An account's associated monthly bare metal server objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monthlyVirtualGuests" name=monthlyVirtualGuests>monthlyVirtualGuests</a>
-            </span>
-            <div class='views-field-body'>An account's associated monthly virtual guest objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nasNetworkStorage" name=nasNetworkStorage>nasNetworkStorage</a>
-            </span>
-            <div class='views-field-body'>An account's associated NAS storage volumes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkCreationFlag" name=networkCreationFlag>networkCreationFlag</a>
-            </span>
-            <div class='views-field-body'>Whether or not this account can define their own networks. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkGateways" name=networkGateways>networkGateways</a>
-            </span>
-            <div class='views-field-body'>All network gateway devices on this account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkHardware" name=networkHardware>networkHardware</a>
-            </span>
-            <div class='views-field-body'>An account's associated network hardware. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkMessageDeliveryAccounts" name=networkMessageDeliveryAccounts>networkMessageDeliveryAccounts</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Message_Delivery'>SoftLayer_Network_Message_Delivery[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkMonitorDownHardware" name=networkMonitorDownHardware>networkMonitorDownHardware</a>
-            </span>
-            <div class='views-field-body'>Hardware which is currently experiencing a service failure. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkMonitorDownVirtualGuests" name=networkMonitorDownVirtualGuests>networkMonitorDownVirtualGuests</a>
-            </span>
-            <div class='views-field-body'>Virtual guest which is currently experiencing a service failure. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkMonitorRecoveringHardware" name=networkMonitorRecoveringHardware>networkMonitorRecoveringHardware</a>
-            </span>
-            <div class='views-field-body'>Hardware which is currently recovering from a service failure. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkMonitorRecoveringVirtualGuests" name=networkMonitorRecoveringVirtualGuests>networkMonitorRecoveringVirtualGuests</a>
-            </span>
-            <div class='views-field-body'>Virtual guest which is currently recovering from a service failure. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkMonitorUpHardware" name=networkMonitorUpHardware>networkMonitorUpHardware</a>
-            </span>
-            <div class='views-field-body'>Hardware which is currently online. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkMonitorUpVirtualGuests" name=networkMonitorUpVirtualGuests>networkMonitorUpVirtualGuests</a>
-            </span>
-            <div class='views-field-body'>Virtual guest which is currently online. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkStorage" name=networkStorage>networkStorage</a>
-            </span>
-            <div class='views-field-body'>An account's associated storage volumes. This includes Lockbox, NAS, EVault, and iSCSI volumes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkStorageGroups" name=networkStorageGroups>networkStorageGroups</a>
-            </span>
-            <div class='views-field-body'>An account's Network Storage groups. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Storage_Group'>SoftLayer_Network_Storage_Group[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkTunnelContexts" name=networkTunnelContexts>networkTunnelContexts</a>
-            </span>
-            <div class='views-field-body'>IPSec network tunnels for an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Tunnel_Module_Context'>SoftLayer_Network_Tunnel_Module_Context[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkVlanSpan" name=networkVlanSpan>networkVlanSpan</a>
-            </span>
-            <div class='views-field-body'>Whether or not an account has automatic private VLAN spanning enabled. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Network_Vlan_Span'>SoftLayer_Account_Network_Vlan_Span </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkVlans" name=networkVlans>networkVlans</a>
-            </span>
-            <div class='views-field-body'>All network VLANs assigned to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nextBillingPublicAllotmentHardwareBandwidthDetails" name=nextBillingPublicAllotmentHardwareBandwidthDetails>nextBillingPublicAllotmentHardwareBandwidthDetails</a>
-            </span>
-            <div class='views-field-body'>DEPRECATED - This information can be pulled directly through tapping keys now - DEPRECATED. The allotments for this account and their servers for the next billing cycle. The public inbound and outbound bandwidth is calculated for each server in addition to the daily average network traffic since the last billing date. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nextInvoiceIncubatorExemptTotal" name=nextInvoiceIncubatorExemptTotal>nextInvoiceIncubatorExemptTotal</a>
-            </span>
-            <div class='views-field-body'>The pre-tax total amount exempt from incubator credit for the account's next invoice. This field is now deprecated and will soon be removed. Please update all references to instead use nextInvoiceTotalAmount </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nextInvoiceRecurringAmountEligibleForAccountDiscount" name=nextInvoiceRecurringAmountEligibleForAccountDiscount>nextInvoiceRecurringAmountEligibleForAccountDiscount</a>
-            </span>
-            <div class='views-field-body'>The total recurring charge amount of an account's next invoice eligible for account discount measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nextInvoiceTopLevelBillingItems" name=nextInvoiceTopLevelBillingItems>nextInvoiceTopLevelBillingItems</a>
-            </span>
-            <div class='views-field-body'>The billing items that will be on an account's next invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nextInvoiceTotalAmount" name=nextInvoiceTotalAmount>nextInvoiceTotalAmount</a>
-            </span>
-            <div class='views-field-body'>The pre-tax total amount of an account's next invoice measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nextInvoiceTotalOneTimeAmount" name=nextInvoiceTotalOneTimeAmount>nextInvoiceTotalOneTimeAmount</a>
-            </span>
-            <div class='views-field-body'>The total one-time charge amount of an account's next invoice measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nextInvoiceTotalOneTimeTaxAmount" name=nextInvoiceTotalOneTimeTaxAmount>nextInvoiceTotalOneTimeTaxAmount</a>
-            </span>
-            <div class='views-field-body'>The total one-time tax amount of an account's next invoice measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nextInvoiceTotalRecurringAmount" name=nextInvoiceTotalRecurringAmount>nextInvoiceTotalRecurringAmount</a>
-            </span>
-            <div class='views-field-body'>The total recurring charge amount of an account's next invoice measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nextInvoiceTotalRecurringAmountBeforeAccountDiscount" name=nextInvoiceTotalRecurringAmountBeforeAccountDiscount>nextInvoiceTotalRecurringAmountBeforeAccountDiscount</a>
-            </span>
-            <div class='views-field-body'>The total recurring charge amount of an account's next invoice measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nextInvoiceTotalRecurringTaxAmount" name=nextInvoiceTotalRecurringTaxAmount>nextInvoiceTotalRecurringTaxAmount</a>
-            </span>
-            <div class='views-field-body'>The total recurring tax amount of an account's next invoice measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nextInvoiceTotalTaxableRecurringAmount" name=nextInvoiceTotalTaxableRecurringAmount>nextInvoiceTotalTaxableRecurringAmount</a>
-            </span>
-            <div class='views-field-body'>The total recurring charge amount of an account's next invoice measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#notificationSubscribers" name=notificationSubscribers>notificationSubscribers</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Notification_Subscriber'>SoftLayer_Notification_Subscriber[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openAbuseTickets" name=openAbuseTickets>openAbuseTickets</a>
-            </span>
-            <div class='views-field-body'>The open abuse tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openAccountingTickets" name=openAccountingTickets>openAccountingTickets</a>
-            </span>
-            <div class='views-field-body'>The open accounting tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openBillingTickets" name=openBillingTickets>openBillingTickets</a>
-            </span>
-            <div class='views-field-body'>The open billing tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openCancellationRequests" name=openCancellationRequests>openCancellationRequests</a>
-            </span>
-            <div class='views-field-body'>An open ticket requesting cancellation of this server, if one exists. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request'>SoftLayer_Billing_Item_Cancellation_Request[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openOtherTickets" name=openOtherTickets>openOtherTickets</a>
-            </span>
-            <div class='views-field-body'>The open tickets that do not belong to the abuse, accounting, sales, or support groups associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openRecurringInvoices" name=openRecurringInvoices>openRecurringInvoices</a>
-            </span>
-            <div class='views-field-body'>An account's recurring invoices. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openSalesTickets" name=openSalesTickets>openSalesTickets</a>
-            </span>
-            <div class='views-field-body'>The open sales tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openStackAccountLinks" name=openStackAccountLinks>openStackAccountLinks</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Link'>SoftLayer_Account_Link[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openStackObjectStorage" name=openStackObjectStorage>openStackObjectStorage</a>
-            </span>
-            <div class='views-field-body'>An account's associated Openstack related Object Storage accounts. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openSupportTickets" name=openSupportTickets>openSupportTickets</a>
-            </span>
-            <div class='views-field-body'>The open support tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openTickets" name=openTickets>openTickets</a>
-            </span>
-            <div class='views-field-body'>All open tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openTicketsWaitingOnCustomer" name=openTicketsWaitingOnCustomer>openTicketsWaitingOnCustomer</a>
-            </span>
-            <div class='views-field-body'>All open tickets associated with an account last edited by an employee. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#orders" name=orders>orders</a>
-            </span>
-            <div class='views-field-body'>An account's associated billing orders excluding upgrades. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#orphanBillingItems" name=orphanBillingItems>orphanBillingItems</a>
-            </span>
-            <div class='views-field-body'>The billing items that have no parent billing item. These are items that don't necessarily belong to a single server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ownedBrands" name=ownedBrands>ownedBrands</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ownedHardwareGenericComponentModels" name=ownedHardwareGenericComponentModels>ownedHardwareGenericComponentModels</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#paymentProcessors" name=paymentProcessors>paymentProcessors</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Payment_Processor'>SoftLayer_Billing_Payment_Processor[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pendingEvents" name=pendingEvents>pendingEvents</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pendingInvoice" name=pendingInvoice>pendingInvoice</a>
-            </span>
-            <div class='views-field-body'>An account's latest open (pending) invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pendingInvoiceTopLevelItems" name=pendingInvoiceTopLevelItems>pendingInvoiceTopLevelItems</a>
-            </span>
-            <div class='views-field-body'>A list of top-level invoice items that are on an account's currently pending invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pendingInvoiceTotalAmount" name=pendingInvoiceTotalAmount>pendingInvoiceTotalAmount</a>
-            </span>
-            <div class='views-field-body'>The total amount of an account's pending invoice, if one exists. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pendingInvoiceTotalOneTimeAmount" name=pendingInvoiceTotalOneTimeAmount>pendingInvoiceTotalOneTimeAmount</a>
-            </span>
-            <div class='views-field-body'>The total one-time charges for an account's pending invoice, if one exists. In other words, it is the sum of one-time charges, setup fees, and labor fees. It does not include taxes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pendingInvoiceTotalOneTimeTaxAmount" name=pendingInvoiceTotalOneTimeTaxAmount>pendingInvoiceTotalOneTimeTaxAmount</a>
-            </span>
-            <div class='views-field-body'>The sum of all the taxes related to one time charges for an account's pending invoice, if one exists. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pendingInvoiceTotalRecurringAmount" name=pendingInvoiceTotalRecurringAmount>pendingInvoiceTotalRecurringAmount</a>
-            </span>
-            <div class='views-field-body'>The total recurring amount of an account's pending invoice, if one exists. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pendingInvoiceTotalRecurringTaxAmount" name=pendingInvoiceTotalRecurringTaxAmount>pendingInvoiceTotalRecurringTaxAmount</a>
-            </span>
-            <div class='views-field-body'>The total amount of the recurring taxes on an account's pending invoice, if one exists. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#permissionGroups" name=permissionGroups>permissionGroups</a>
-            </span>
-            <div class='views-field-body'>An account's permission groups. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Permission_Group'>SoftLayer_User_Permission_Group[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#permissionRoles" name=permissionRoles>permissionRoles</a>
-            </span>
-            <div class='views-field-body'>An account's user roles. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Permission_Role'>SoftLayer_User_Permission_Role[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#placementGroups" name=placementGroups>placementGroups</a>
-            </span>
-            <div class='views-field-body'>An account's associated virtual placement groups. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_PlacementGroup'>SoftLayer_Virtual_PlacementGroup[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#portableStorageVolumes" name=portableStorageVolumes>portableStorageVolumes</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#postProvisioningHooks" name=postProvisioningHooks>postProvisioningHooks</a>
-            </span>
-            <div class='views-field-body'>Customer specified URIs that are downloaded onto a newly provisioned or reloaded server. If the URI is sent over https it will be executed directly on the server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Provisioning_Hook'>SoftLayer_Provisioning_Hook[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pptpVpnAllowedFlag" name=pptpVpnAllowedFlag>pptpVpnAllowedFlag</a>
-            </span>
-            <div class='views-field-body'>Boolean flag dictating whether or not this account supports PPTP VPN Access. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pptpVpnUsers" name=pptpVpnUsers>pptpVpnUsers</a>
-            </span>
-            <div class='views-field-body'>An account's associated portal users with PPTP VPN access. (Deprecated) </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#previousRecurringRevenue" name=previousRecurringRevenue>previousRecurringRevenue</a>
-            </span>
-            <div class='views-field-body'>The total recurring amount for an accounts previous revenue. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#priceRestrictions" name=priceRestrictions>priceRestrictions</a>
-            </span>
-            <div class='views-field-body'>The item price that an account is restricted to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Price_Account_Restriction'>SoftLayer_Product_Item_Price_Account_Restriction[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#priorityOneTickets" name=priorityOneTickets>priorityOneTickets</a>
-            </span>
-            <div class='views-field-body'>All priority one tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#privateAllotmentHardwareBandwidthDetails" name=privateAllotmentHardwareBandwidthDetails>privateAllotmentHardwareBandwidthDetails</a>
-            </span>
-            <div class='views-field-body'>DEPRECATED - This information can be pulled directly through tapping keys now - DEPRECATED. The allotments for this account and their servers. The private inbound and outbound bandwidth is calculated for each server in addition to the daily average network traffic since the last billing date. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#privateBlockDeviceTemplateGroups" name=privateBlockDeviceTemplateGroups>privateBlockDeviceTemplateGroups</a>
-            </span>
-            <div class='views-field-body'>Private and shared template group objects (parent only) for an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#privateIpAddresses" name=privateIpAddresses>privateIpAddresses</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#privateNetworkVlans" name=privateNetworkVlans>privateNetworkVlans</a>
-            </span>
-            <div class='views-field-body'>The private network VLANs assigned to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#privateSubnets" name=privateSubnets>privateSubnets</a>
-            </span>
-            <div class='views-field-body'>All private subnets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#proofOfConceptAccountFlag" name=proofOfConceptAccountFlag>proofOfConceptAccountFlag</a>
-            </span>
-            <div class='views-field-body'>Boolean flag indicating whether or not this account is a Proof of Concept account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#publicAllotmentHardwareBandwidthDetails" name=publicAllotmentHardwareBandwidthDetails>publicAllotmentHardwareBandwidthDetails</a>
-            </span>
-            <div class='views-field-body'>DEPRECATED - This information can be pulled directly through tapping keys now - DEPRECATED. The allotments for this account and their servers. The public inbound and outbound bandwidth is calculated for each server in addition to the daily average network traffic since the last billing date. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#publicIpAddresses" name=publicIpAddresses>publicIpAddresses</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#publicNetworkVlans" name=publicNetworkVlans>publicNetworkVlans</a>
-            </span>
-            <div class='views-field-body'>The public network VLANs assigned to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#publicSubnets" name=publicSubnets>publicSubnets</a>
-            </span>
-            <div class='views-field-body'>All public network subnets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#quotes" name=quotes>quotes</a>
-            </span>
-            <div class='views-field-body'>An account's quotes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Order_Quote'>SoftLayer_Billing_Order_Quote[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#recentEvents" name=recentEvents>recentEvents</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#referralPartner" name=referralPartner>referralPartner</a>
-            </span>
-            <div class='views-field-body'>The Referral Partner for this account, if any. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#referredAccounts" name=referredAccounts>referredAccounts</a>
-            </span>
-            <div class='views-field-body'>If this is a account is a referral partner, the accounts this referral partner has referred </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#regulatedWorkloads" name=regulatedWorkloads>regulatedWorkloads</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Legal_RegulatedWorkload'>SoftLayer_Legal_RegulatedWorkload[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#remoteManagementCommandRequests" name=remoteManagementCommandRequests>remoteManagementCommandRequests</a>
-            </span>
-            <div class='views-field-body'>Remote management command requests for an account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component_RemoteManagement_Command_Request'>SoftLayer_Hardware_Component_RemoteManagement_Command_Request[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#replicationEvents" name=replicationEvents>replicationEvents</a>
-            </span>
-            <div class='views-field-body'>The Replication events for all Network Storage volumes on an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Storage_Event'>SoftLayer_Network_Storage_Event[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#requireSilentIBMidUserCreation" name=requireSilentIBMidUserCreation>requireSilentIBMidUserCreation</a>
-            </span>
-            <div class='views-field-body'>Indicates whether newly created users under this account will be associated with IBMid via an email requiring a response, or not. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#reservedCapacityAgreements" name=reservedCapacityAgreements>reservedCapacityAgreements</a>
-            </span>
-            <div class='views-field-body'>All reserved capacity agreements for an account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Agreement'>SoftLayer_Account_Agreement[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#reservedCapacityGroups" name=reservedCapacityGroups>reservedCapacityGroups</a>
-            </span>
-            <div class='views-field-body'>The reserved capacity groups owned by this account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup'>SoftLayer_Virtual_ReservedCapacityGroup[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#resourceGroups" name=resourceGroups>resourceGroups</a>
-            </span>
-            <div class='views-field-body'>An account's associated top-level resource groups. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#routers" name=routers>routers</a>
-            </span>
-            <div class='views-field-body'>All Routers that an accounts VLANs reside on </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#rwhoisData" name=rwhoisData>rwhoisData</a>
-            </span>
-            <div class='views-field-body'>An account's reverse WHOIS data. This data is used when making SWIP requests. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet_Rwhois_Data'>SoftLayer_Network_Subnet_Rwhois_Data </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#samlAuthentication" name=samlAuthentication>samlAuthentication</a>
-            </span>
-            <div class='views-field-body'>The SAML configuration for this account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Authentication_Saml'>SoftLayer_Account_Authentication_Saml </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#scaleGroups" name=scaleGroups>scaleGroups</a>
-            </span>
-            <div class='views-field-body'>All scale groups on this account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#secondaryDomains" name=secondaryDomains>secondaryDomains</a>
-            </span>
-            <div class='views-field-body'>The secondary DNS records for a SoftLayer customer account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Dns_Secondary'>SoftLayer_Dns_Secondary[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityCertificates" name=securityCertificates>securityCertificates</a>
-            </span>
-            <div class='views-field-body'>Stored security certificates (ie. SSL) </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Security_Certificate'>SoftLayer_Security_Certificate[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityGroups" name=securityGroups>securityGroups</a>
-            </span>
-            <div class='views-field-body'>The security groups belonging to this account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityLevel" name=securityLevel>securityLevel</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Security_Level'>SoftLayer_Security_Level </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityScanRequests" name=securityScanRequests>securityScanRequests</a>
-            </span>
-            <div class='views-field-body'>An account's vulnerability scan requests. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request'>SoftLayer_Network_Security_Scanner_Request[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#serviceBillingItems" name=serviceBillingItems>serviceBillingItems</a>
-            </span>
-            <div class='views-field-body'>The service billing items that will be on an account's next invoice.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#shipments" name=shipments>shipments</a>
-            </span>
-            <div class='views-field-body'>Shipments that belong to the customer's account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Shipment'>SoftLayer_Account_Shipment[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sshKeys" name=sshKeys>sshKeys</a>
-            </span>
-            <div class='views-field-body'>Customer specified SSH keys that can be implemented onto a newly provisioned or reloaded server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Security_Ssh_Key'>SoftLayer_Security_Ssh_Key[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sslVpnUsers" name=sslVpnUsers>sslVpnUsers</a>
-            </span>
-            <div class='views-field-body'>An account's associated portal users with SSL VPN access. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#standardPoolVirtualGuests" name=standardPoolVirtualGuests>standardPoolVirtualGuests</a>
-            </span>
-            <div class='views-field-body'>An account's virtual guest objects that are hosted on a user provisioned hypervisor. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnetRegistrationDetails" name=subnetRegistrationDetails>subnetRegistrationDetails</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail'>SoftLayer_Account_Regional_Registry_Detail[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnetRegistrations" name=subnetRegistrations>subnetRegistrations</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration'>SoftLayer_Network_Subnet_Registration[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnets" name=subnets>subnets</a>
-            </span>
-            <div class='views-field-body'>All network subnets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#supportRepresentatives" name=supportRepresentatives>supportRepresentatives</a>
-            </span>
-            <div class='views-field-body'>The SoftLayer employees that an account is assigned to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#supportSubscriptions" name=supportSubscriptions>supportSubscriptions</a>
-            </span>
-            <div class='views-field-body'>The active support subscriptions for this account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#supportTier" name=supportTier>supportTier</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#suppressInvoicesFlag" name=suppressInvoicesFlag>suppressInvoicesFlag</a>
-            </span>
-            <div class='views-field-body'>A flag indicating to suppress invoices. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#tags" name=tags>tags</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Tag'>SoftLayer_Tag[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#tickets" name=tickets>tickets</a>
-            </span>
-            <div class='views-field-body'>An account's associated tickets. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ticketsClosedInTheLastThreeDays" name=ticketsClosedInTheLastThreeDays>ticketsClosedInTheLastThreeDays</a>
-            </span>
-            <div class='views-field-body'>Tickets closed within the last 72 hours or last 10 tickets, whichever is less, associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ticketsClosedToday" name=ticketsClosedToday>ticketsClosedToday</a>
-            </span>
-            <div class='views-field-body'>Tickets closed today associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#transcodeAccounts" name=transcodeAccounts>transcodeAccounts</a>
-            </span>
-            <div class='views-field-body'>An account's associated Transcode account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Account'>SoftLayer_Network_Media_Transcode_Account[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#upgradeRequests" name=upgradeRequests>upgradeRequests</a>
-            </span>
-            <div class='views-field-body'>An account's associated upgrade requests. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Upgrade_Request'>SoftLayer_Product_Upgrade_Request[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#users" name=users>users</a>
-            </span>
-            <div class='views-field-body'>An account's portal users. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#validSecurityCertificates" name=validSecurityCertificates>validSecurityCertificates</a>
-            </span>
-            <div class='views-field-body'>Stored security certificates that are not expired (ie. SSL) </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Security_Certificate'>SoftLayer_Security_Certificate[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#vdrUpdatesInProgressFlag" name=vdrUpdatesInProgressFlag>vdrUpdatesInProgressFlag</a>
-            </span>
-            <div class='views-field-body'>Return 0 if vpn updates are currently in progress on this account otherwise 1. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualDedicatedRacks" name=virtualDedicatedRacks>virtualDedicatedRacks</a>
-            </span>
-            <div class='views-field-body'>The bandwidth pooling for this account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualDiskImages" name=virtualDiskImages>virtualDiskImages</a>
-            </span>
-            <div class='views-field-body'>An account's associated virtual server virtual disk images. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuests" name=virtualGuests>virtualGuests</a>
-            </span>
-            <div class='views-field-body'>An account's associated virtual guest objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsOverBandwidthAllocation" name=virtualGuestsOverBandwidthAllocation>virtualGuestsOverBandwidthAllocation</a>
-            </span>
-            <div class='views-field-body'>An account's associated virtual guest objects currently over bandwidth allocation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsProjectedOverBandwidthAllocation" name=virtualGuestsProjectedOverBandwidthAllocation>virtualGuestsProjectedOverBandwidthAllocation</a>
-            </span>
-            <div class='views-field-body'>An account's associated virtual guest objects currently over bandwidth allocation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsWithCpanel" name=virtualGuestsWithCpanel>virtualGuestsWithCpanel</a>
-            </span>
-            <div class='views-field-body'>All virtual guests associated with an account that has the cPanel web hosting control panel installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsWithMcafee" name=virtualGuestsWithMcafee>virtualGuestsWithMcafee</a>
-            </span>
-            <div class='views-field-body'>All virtual guests associated with an account that have McAfee Secure software components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsWithMcafeeAntivirusRedhat" name=virtualGuestsWithMcafeeAntivirusRedhat>virtualGuestsWithMcafeeAntivirusRedhat</a>
-            </span>
-            <div class='views-field-body'>All virtual guests associated with an account that have McAfee Secure AntiVirus for Redhat software components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsWithMcafeeAntivirusWindows" name=virtualGuestsWithMcafeeAntivirusWindows>virtualGuestsWithMcafeeAntivirusWindows</a>
-            </span>
-            <div class='views-field-body'>All virtual guests associated with an account that has McAfee Secure AntiVirus for Windows software components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsWithMcafeeIntrusionDetectionSystem" name=virtualGuestsWithMcafeeIntrusionDetectionSystem>virtualGuestsWithMcafeeIntrusionDetectionSystem</a>
-            </span>
-            <div class='views-field-body'>All virtual guests associated with an account that has McAfee Secure Intrusion Detection System software components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsWithPlesk" name=virtualGuestsWithPlesk>virtualGuestsWithPlesk</a>
-            </span>
-            <div class='views-field-body'>All virtual guests associated with an account that has the Plesk web hosting control panel installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsWithQuantastor" name=virtualGuestsWithQuantastor>virtualGuestsWithQuantastor</a>
-            </span>
-            <div class='views-field-body'>All virtual guests associated with an account that have the QuantaStor storage system installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsWithUrchin" name=virtualGuestsWithUrchin>virtualGuestsWithUrchin</a>
-            </span>
-            <div class='views-field-body'>All virtual guests associated with an account that has the Urchin web traffic analytics package installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualPrivateRack" name=virtualPrivateRack>virtualPrivateRack</a>
-            </span>
-            <div class='views-field-body'>The bandwidth pooling for this account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualStorageArchiveRepositories" name=virtualStorageArchiveRepositories>virtualStorageArchiveRepositories</a>
-            </span>
-            <div class='views-field-body'>An account's associated virtual server archived storage repositories. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository'>SoftLayer_Virtual_Storage_Repository[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualStoragePublicRepositories" name=virtualStoragePublicRepositories>virtualStoragePublicRepositories</a>
-            </span>
-            <div class='views-field-body'>An account's associated virtual server public storage repositories. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository'>SoftLayer_Virtual_Storage_Repository[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#vpcVirtualGuests" name=vpcVirtualGuests>vpcVirtualGuests</a>
-            </span>
-            <div class='views-field-body'>An account's associated VPC configured virtual guest objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#abuseEmailCount" name=abuseEmailCount>abuseEmailCount</a>
-            </span>
-            <div class='views-field-body'>A count of email addresses that are responsible for abuse and legal inquiries on behalf of an account. For instance, new legal and abuse tickets are sent to these addresses. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountContactCount" name=accountContactCount>accountContactCount</a>
-            </span>
-            <div class='views-field-body'>A count of the account contacts on an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountLicenseCount" name=accountLicenseCount>accountLicenseCount</a>
-            </span>
-            <div class='views-field-body'>A count of the account software licenses owned by an account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountLinkCount" name=accountLinkCount>accountLinkCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeAccountLicenseCount" name=activeAccountLicenseCount>activeAccountLicenseCount</a>
-            </span>
-            <div class='views-field-body'>A count of the active account software licenses owned by an account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeAddressCount" name=activeAddressCount>activeAddressCount</a>
-            </span>
-            <div class='views-field-body'>A count of the active address(es) that belong to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeAgreementCount" name=activeAgreementCount>activeAgreementCount</a>
-            </span>
-            <div class='views-field-body'>A count of all active agreements for an account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeBillingAgreementCount" name=activeBillingAgreementCount>activeBillingAgreementCount</a>
-            </span>
-            <div class='views-field-body'>A count of all billing agreements for an account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeColocationContainerCount" name=activeColocationContainerCount>activeColocationContainerCount</a>
-            </span>
-            <div class='views-field-body'>A count of the account's active top level colocation containers. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeFlexibleCreditEnrollmentCount" name=activeFlexibleCreditEnrollmentCount>activeFlexibleCreditEnrollmentCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeNotificationSubscriberCount" name=activeNotificationSubscriberCount>activeNotificationSubscriberCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeQuoteCount" name=activeQuoteCount>activeQuoteCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's non-expired quotes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeReservedCapacityAgreementCount" name=activeReservedCapacityAgreementCount>activeReservedCapacityAgreementCount</a>
-            </span>
-            <div class='views-field-body'>A count of active reserved capacity agreements for an account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeVirtualLicenseCount" name=activeVirtualLicenseCount>activeVirtualLicenseCount</a>
-            </span>
-            <div class='views-field-body'>A count of the virtual software licenses controlled by an account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#adcLoadBalancerCount" name=adcLoadBalancerCount>adcLoadBalancerCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated load balancers. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#addressCount" name=addressCount>addressCount</a>
-            </span>
-            <div class='views-field-body'>A count of all the address(es) that belong to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allCommissionBillingItemCount" name=allCommissionBillingItemCount>allCommissionBillingItemCount</a>
-            </span>
-            <div class='views-field-body'>A count of the billing items that will be on an account's next invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allRecurringTopLevelBillingItemCount" name=allRecurringTopLevelBillingItemCount>allRecurringTopLevelBillingItemCount</a>
-            </span>
-            <div class='views-field-body'>A count of the billing items that will be on an account's next invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allRecurringTopLevelBillingItemsUnfilteredCount" name=allRecurringTopLevelBillingItemsUnfilteredCount>allRecurringTopLevelBillingItemsUnfilteredCount</a>
-            </span>
-            <div class='views-field-body'>A count of the billing items that will be on an account's next invoice. Does not consider associated items. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allSubnetBillingItemCount" name=allSubnetBillingItemCount>allSubnetBillingItemCount</a>
-            </span>
-            <div class='views-field-body'>A count of the billing items that will be on an account's next invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allTopLevelBillingItemCount" name=allTopLevelBillingItemCount>allTopLevelBillingItemCount</a>
-            </span>
-            <div class='views-field-body'>A count of all billing items of an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allTopLevelBillingItemsUnfilteredCount" name=allTopLevelBillingItemsUnfilteredCount>allTopLevelBillingItemsUnfilteredCount</a>
-            </span>
-            <div class='views-field-body'>A count of the billing items that will be on an account's next invoice. Does not consider associated items. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#applicationDeliveryControllerCount" name=applicationDeliveryControllerCount>applicationDeliveryControllerCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated application delivery controller records. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributeCount" name=attributeCount>attributeCount</a>
-            </span>
-            <div class='views-field-body'>A count of the account attribute values for a SoftLayer customer account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#availablePublicNetworkVlanCount" name=availablePublicNetworkVlanCount>availablePublicNetworkVlanCount</a>
-            </span>
-            <div class='views-field-body'>A count of the public network VLANs assigned to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bandwidthAllotmentCount" name=bandwidthAllotmentCount>bandwidthAllotmentCount</a>
-            </span>
-            <div class='views-field-body'>A count of the bandwidth allotments for an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bandwidthAllotmentsOverAllocationCount" name=bandwidthAllotmentsOverAllocationCount>bandwidthAllotmentsOverAllocationCount</a>
-            </span>
-            <div class='views-field-body'>A count of the bandwidth allotments for an account currently over allocation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bandwidthAllotmentsProjectedOverAllocationCount" name=bandwidthAllotmentsProjectedOverAllocationCount>bandwidthAllotmentsProjectedOverAllocationCount</a>
-            </span>
-            <div class='views-field-body'>A count of the bandwidth allotments for an account projected to go over allocation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bareMetalInstanceCount" name=bareMetalInstanceCount>bareMetalInstanceCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated bare metal server objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingAgreementCount" name=billingAgreementCount>billingAgreementCount</a>
-            </span>
-            <div class='views-field-body'>A count of all billing agreements for an account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#blockDeviceTemplateGroupCount" name=blockDeviceTemplateGroupCount>blockDeviceTemplateGroupCount</a>
-            </span>
-            <div class='views-field-body'>A count of private template group objects (parent and children) and the shared template group objects (parent only) for an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cartCount" name=cartCount>cartCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's active carts. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#catalystEnrollmentCount" name=catalystEnrollmentCount>catalystEnrollmentCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#closedTicketCount" name=closedTicketCount>closedTicketCount</a>
-            </span>
-            <div class='views-field-body'>A count of all closed tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#datacentersWithSubnetAllocationCount" name=datacentersWithSubnetAllocationCount>datacentersWithSubnetAllocationCount</a>
-            </span>
-            <div class='views-field-body'>A count of datacenters which contain subnets that the account has access to route. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#dedicatedHostCount" name=dedicatedHostCount>dedicatedHostCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated virtual dedicated host objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#displaySupportRepresentativeAssignmentCount" name=displaySupportRepresentativeAssignmentCount>displaySupportRepresentativeAssignmentCount</a>
-            </span>
-            <div class='views-field-body'>A count of the SoftLayer employees that an account is assigned to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#domainCount" name=domainCount>domainCount</a>
-            </span>
-            <div class='views-field-body'>A count of the DNS domains associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#domainRegistrationCount" name=domainRegistrationCount>domainRegistrationCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#domainsWithoutSecondaryDnsRecordCount" name=domainsWithoutSecondaryDnsRecordCount>domainsWithoutSecondaryDnsRecordCount</a>
-            </span>
-            <div class='views-field-body'>A count of the DNS domains associated with an account that were not created as a result of a secondary DNS zone transfer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#evaultMasterUserCount" name=evaultMasterUserCount>evaultMasterUserCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's master EVault user. This is only used when an account has EVault service. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#evaultNetworkStorageCount" name=evaultNetworkStorageCount>evaultNetworkStorageCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated EVault storage volumes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#expiredSecurityCertificateCount" name=expiredSecurityCertificateCount>expiredSecurityCertificateCount</a>
-            </span>
-            <div class='views-field-body'>A count of stored security certificates that are expired (ie. SSL) </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#facilityLogCount" name=facilityLogCount>facilityLogCount</a>
-            </span>
-            <div class='views-field-body'>A count of logs of who entered a colocation area which is assigned to this account, or when a user under this account enters a datacenter. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#flexibleCreditEnrollmentCount" name=flexibleCreditEnrollmentCount>flexibleCreditEnrollmentCount</a>
-            </span>
-            <div class='views-field-body'>A count of all of the account's current and former Flexible Credit enrollments. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#globalIpRecordCount" name=globalIpRecordCount>globalIpRecordCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#globalIpv4RecordCount" name=globalIpv4RecordCount>globalIpv4RecordCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#globalIpv6RecordCount" name=globalIpv6RecordCount>globalIpv6RecordCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#globalLoadBalancerAccountCount" name=globalLoadBalancerAccountCount>globalLoadBalancerAccountCount</a>
-            </span>
-            <div class='views-field-body'>A count of the global load balancer accounts for a softlayer customer account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareCount" name=hardwareCount>hardwareCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated hardware objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareOverBandwidthAllocationCount" name=hardwareOverBandwidthAllocationCount>hardwareOverBandwidthAllocationCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated hardware objects currently over bandwidth allocation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareProjectedOverBandwidthAllocationCount" name=hardwareProjectedOverBandwidthAllocationCount>hardwareProjectedOverBandwidthAllocationCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated hardware objects projected to go over bandwidth allocation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithCpanelCount" name=hardwareWithCpanelCount>hardwareWithCpanelCount</a>
-            </span>
-            <div class='views-field-body'>A count of all hardware associated with an account that has the cPanel web hosting control panel installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithHelmCount" name=hardwareWithHelmCount>hardwareWithHelmCount</a>
-            </span>
-            <div class='views-field-body'>A count of all hardware associated with an account that has the Helm web hosting control panel installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithMcafeeAntivirusRedhatCount" name=hardwareWithMcafeeAntivirusRedhatCount>hardwareWithMcafeeAntivirusRedhatCount</a>
-            </span>
-            <div class='views-field-body'>A count of all hardware associated with an account that has McAfee Secure AntiVirus for Redhat software components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithMcafeeAntivirusWindowCount" name=hardwareWithMcafeeAntivirusWindowCount>hardwareWithMcafeeAntivirusWindowCount</a>
-            </span>
-            <div class='views-field-body'>A count of all hardware associated with an account that has McAfee Secure AntiVirus for Windows software components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithMcafeeCount" name=hardwareWithMcafeeCount>hardwareWithMcafeeCount</a>
-            </span>
-            <div class='views-field-body'>A count of all hardware associated with an account that has McAfee Secure software components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithMcafeeIntrusionDetectionSystemCount" name=hardwareWithMcafeeIntrusionDetectionSystemCount>hardwareWithMcafeeIntrusionDetectionSystemCount</a>
-            </span>
-            <div class='views-field-body'>A count of all hardware associated with an account that has McAfee Secure Intrusion Detection System software components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithPleskCount" name=hardwareWithPleskCount>hardwareWithPleskCount</a>
-            </span>
-            <div class='views-field-body'>A count of all hardware associated with an account that has the Plesk web hosting control panel installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithQuantastorCount" name=hardwareWithQuantastorCount>hardwareWithQuantastorCount</a>
-            </span>
-            <div class='views-field-body'>A count of all hardware associated with an account that has the QuantaStor storage system installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithUrchinCount" name=hardwareWithUrchinCount>hardwareWithUrchinCount</a>
-            </span>
-            <div class='views-field-body'>A count of all hardware associated with an account that has the Urchin web traffic analytics package installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareWithWindowCount" name=hardwareWithWindowCount>hardwareWithWindowCount</a>
-            </span>
-            <div class='views-field-body'>A count of all hardware associated with an account that is running a version of the Microsoft Windows operating system. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hourlyBareMetalInstanceCount" name=hourlyBareMetalInstanceCount>hourlyBareMetalInstanceCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated hourly bare metal server objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hourlyServiceBillingItemCount" name=hourlyServiceBillingItemCount>hourlyServiceBillingItemCount</a>
-            </span>
-            <div class='views-field-body'>A count of hourly service billing items that will be on an account's next invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hourlyVirtualGuestCount" name=hourlyVirtualGuestCount>hourlyVirtualGuestCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated hourly virtual guest objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hubNetworkStorageCount" name=hubNetworkStorageCount>hubNetworkStorageCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated Virtual Storage volumes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#internalNoteCount" name=internalNoteCount>internalNoteCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#invoiceCount" name=invoiceCount>invoiceCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated billing invoices. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ipAddressCount" name=ipAddressCount>ipAddressCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#iscsiNetworkStorageCount" name=iscsiNetworkStorageCount>iscsiNetworkStorageCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated iSCSI storage volumes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastFiveClosedAbuseTicketCount" name=lastFiveClosedAbuseTicketCount>lastFiveClosedAbuseTicketCount</a>
-            </span>
-            <div class='views-field-body'>A count of the five most recently closed abuse tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastFiveClosedAccountingTicketCount" name=lastFiveClosedAccountingTicketCount>lastFiveClosedAccountingTicketCount</a>
-            </span>
-            <div class='views-field-body'>A count of the five most recently closed accounting tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastFiveClosedOtherTicketCount" name=lastFiveClosedOtherTicketCount>lastFiveClosedOtherTicketCount</a>
-            </span>
-            <div class='views-field-body'>A count of the five most recently closed tickets that do not belong to the abuse, accounting, sales, or support groups associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastFiveClosedSalesTicketCount" name=lastFiveClosedSalesTicketCount>lastFiveClosedSalesTicketCount</a>
-            </span>
-            <div class='views-field-body'>A count of the five most recently closed sales tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastFiveClosedSupportTicketCount" name=lastFiveClosedSupportTicketCount>lastFiveClosedSupportTicketCount</a>
-            </span>
-            <div class='views-field-body'>A count of the five most recently closed support tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastFiveClosedTicketCount" name=lastFiveClosedTicketCount>lastFiveClosedTicketCount</a>
-            </span>
-            <div class='views-field-body'>A count of the five most recently closed tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#legacyBandwidthAllotmentCount" name=legacyBandwidthAllotmentCount>legacyBandwidthAllotmentCount</a>
-            </span>
-            <div class='views-field-body'>A count of the legacy bandwidth allotments for an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#loadBalancerCount" name=loadBalancerCount>loadBalancerCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated load balancers. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lockboxNetworkStorageCount" name=lockboxNetworkStorageCount>lockboxNetworkStorageCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated Lockbox storage volumes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#manualPaymentsUnderReviewCount" name=manualPaymentsUnderReviewCount>manualPaymentsUnderReviewCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#mediaDataTransferRequestCount" name=mediaDataTransferRequestCount>mediaDataTransferRequestCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's media transfer service requests. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monthlyBareMetalInstanceCount" name=monthlyBareMetalInstanceCount>monthlyBareMetalInstanceCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated monthly bare metal server objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monthlyVirtualGuestCount" name=monthlyVirtualGuestCount>monthlyVirtualGuestCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated monthly virtual guest objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nasNetworkStorageCount" name=nasNetworkStorageCount>nasNetworkStorageCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated NAS storage volumes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkGatewayCount" name=networkGatewayCount>networkGatewayCount</a>
-            </span>
-            <div class='views-field-body'>A count of all network gateway devices on this account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkHardwareCount" name=networkHardwareCount>networkHardwareCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated network hardware. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkMessageDeliveryAccountCount" name=networkMessageDeliveryAccountCount>networkMessageDeliveryAccountCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkMonitorDownHardwareCount" name=networkMonitorDownHardwareCount>networkMonitorDownHardwareCount</a>
-            </span>
-            <div class='views-field-body'>A count of hardware which is currently experiencing a service failure. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkMonitorDownVirtualGuestCount" name=networkMonitorDownVirtualGuestCount>networkMonitorDownVirtualGuestCount</a>
-            </span>
-            <div class='views-field-body'>A count of virtual guest which is currently experiencing a service failure. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkMonitorRecoveringHardwareCount" name=networkMonitorRecoveringHardwareCount>networkMonitorRecoveringHardwareCount</a>
-            </span>
-            <div class='views-field-body'>A count of hardware which is currently recovering from a service failure. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkMonitorRecoveringVirtualGuestCount" name=networkMonitorRecoveringVirtualGuestCount>networkMonitorRecoveringVirtualGuestCount</a>
-            </span>
-            <div class='views-field-body'>A count of virtual guest which is currently recovering from a service failure. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkMonitorUpHardwareCount" name=networkMonitorUpHardwareCount>networkMonitorUpHardwareCount</a>
-            </span>
-            <div class='views-field-body'>A count of hardware which is currently online. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkMonitorUpVirtualGuestCount" name=networkMonitorUpVirtualGuestCount>networkMonitorUpVirtualGuestCount</a>
-            </span>
-            <div class='views-field-body'>A count of virtual guest which is currently online. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkStorageCount" name=networkStorageCount>networkStorageCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated storage volumes. This includes Lockbox, NAS, EVault, and iSCSI volumes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkStorageGroupCount" name=networkStorageGroupCount>networkStorageGroupCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's Network Storage groups. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkTunnelContextCount" name=networkTunnelContextCount>networkTunnelContextCount</a>
-            </span>
-            <div class='views-field-body'>A count of iPSec network tunnels for an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkVlanCount" name=networkVlanCount>networkVlanCount</a>
-            </span>
-            <div class='views-field-body'>A count of all network VLANs assigned to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nextBillingPublicAllotmentHardwareBandwidthDetailCount" name=nextBillingPublicAllotmentHardwareBandwidthDetailCount>nextBillingPublicAllotmentHardwareBandwidthDetailCount</a>
-            </span>
-            <div class='views-field-body'>A count of dEPRECATED - This information can be pulled directly through tapping keys now - DEPRECATED. The allotments for this account and their servers for the next billing cycle. The public inbound and outbound bandwidth is calculated for each server in addition to the daily average network traffic since the last billing date. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nextInvoiceTopLevelBillingItemCount" name=nextInvoiceTopLevelBillingItemCount>nextInvoiceTopLevelBillingItemCount</a>
-            </span>
-            <div class='views-field-body'>A count of the billing items that will be on an account's next invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#notificationSubscriberCount" name=notificationSubscriberCount>notificationSubscriberCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openAbuseTicketCount" name=openAbuseTicketCount>openAbuseTicketCount</a>
-            </span>
-            <div class='views-field-body'>A count of the open abuse tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openAccountingTicketCount" name=openAccountingTicketCount>openAccountingTicketCount</a>
-            </span>
-            <div class='views-field-body'>A count of the open accounting tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openBillingTicketCount" name=openBillingTicketCount>openBillingTicketCount</a>
-            </span>
-            <div class='views-field-body'>A count of the open billing tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openCancellationRequestCount" name=openCancellationRequestCount>openCancellationRequestCount</a>
-            </span>
-            <div class='views-field-body'>A count of an open ticket requesting cancellation of this server, if one exists. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openOtherTicketCount" name=openOtherTicketCount>openOtherTicketCount</a>
-            </span>
-            <div class='views-field-body'>A count of the open tickets that do not belong to the abuse, accounting, sales, or support groups associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openRecurringInvoiceCount" name=openRecurringInvoiceCount>openRecurringInvoiceCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's recurring invoices. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openSalesTicketCount" name=openSalesTicketCount>openSalesTicketCount</a>
-            </span>
-            <div class='views-field-body'>A count of the open sales tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openStackAccountLinkCount" name=openStackAccountLinkCount>openStackAccountLinkCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openStackObjectStorageCount" name=openStackObjectStorageCount>openStackObjectStorageCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated Openstack related Object Storage accounts. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openSupportTicketCount" name=openSupportTicketCount>openSupportTicketCount</a>
-            </span>
-            <div class='views-field-body'>A count of the open support tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openTicketCount" name=openTicketCount>openTicketCount</a>
-            </span>
-            <div class='views-field-body'>A count of all open tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openTicketsWaitingOnCustomerCount" name=openTicketsWaitingOnCustomerCount>openTicketsWaitingOnCustomerCount</a>
-            </span>
-            <div class='views-field-body'>A count of all open tickets associated with an account last edited by an employee. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#orderCount" name=orderCount>orderCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated billing orders excluding upgrades. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#orphanBillingItemCount" name=orphanBillingItemCount>orphanBillingItemCount</a>
-            </span>
-            <div class='views-field-body'>A count of the billing items that have no parent billing item. These are items that don't necessarily belong to a single server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ownedBrandCount" name=ownedBrandCount>ownedBrandCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ownedHardwareGenericComponentModelCount" name=ownedHardwareGenericComponentModelCount>ownedHardwareGenericComponentModelCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#paymentProcessorCount" name=paymentProcessorCount>paymentProcessorCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pendingEventCount" name=pendingEventCount>pendingEventCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pendingInvoiceTopLevelItemCount" name=pendingInvoiceTopLevelItemCount>pendingInvoiceTopLevelItemCount</a>
-            </span>
-            <div class='views-field-body'>A count of a list of top-level invoice items that are on an account's currently pending invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#permissionGroupCount" name=permissionGroupCount>permissionGroupCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's permission groups. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#permissionRoleCount" name=permissionRoleCount>permissionRoleCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's user roles. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#placementGroupCount" name=placementGroupCount>placementGroupCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated virtual placement groups. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#portableStorageVolumeCount" name=portableStorageVolumeCount>portableStorageVolumeCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#postProvisioningHookCount" name=postProvisioningHookCount>postProvisioningHookCount</a>
-            </span>
-            <div class='views-field-body'>A count of customer specified URIs that are downloaded onto a newly provisioned or reloaded server. If the URI is sent over https it will be executed directly on the server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pptpVpnUserCount" name=pptpVpnUserCount>pptpVpnUserCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated portal users with PPTP VPN access. (Deprecated) </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#priceRestrictionCount" name=priceRestrictionCount>priceRestrictionCount</a>
-            </span>
-            <div class='views-field-body'>A count of the item price that an account is restricted to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#priorityOneTicketCount" name=priorityOneTicketCount>priorityOneTicketCount</a>
-            </span>
-            <div class='views-field-body'>A count of all priority one tickets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#privateAllotmentHardwareBandwidthDetailCount" name=privateAllotmentHardwareBandwidthDetailCount>privateAllotmentHardwareBandwidthDetailCount</a>
-            </span>
-            <div class='views-field-body'>A count of dEPRECATED - This information can be pulled directly through tapping keys now - DEPRECATED. The allotments for this account and their servers. The private inbound and outbound bandwidth is calculated for each server in addition to the daily average network traffic since the last billing date. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#privateBlockDeviceTemplateGroupCount" name=privateBlockDeviceTemplateGroupCount>privateBlockDeviceTemplateGroupCount</a>
-            </span>
-            <div class='views-field-body'>A count of private and shared template group objects (parent only) for an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#privateIpAddressCount" name=privateIpAddressCount>privateIpAddressCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#privateNetworkVlanCount" name=privateNetworkVlanCount>privateNetworkVlanCount</a>
-            </span>
-            <div class='views-field-body'>A count of the private network VLANs assigned to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#privateSubnetCount" name=privateSubnetCount>privateSubnetCount</a>
-            </span>
-            <div class='views-field-body'>A count of all private subnets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#publicAllotmentHardwareBandwidthDetailCount" name=publicAllotmentHardwareBandwidthDetailCount>publicAllotmentHardwareBandwidthDetailCount</a>
-            </span>
-            <div class='views-field-body'>A count of dEPRECATED - This information can be pulled directly through tapping keys now - DEPRECATED. The allotments for this account and their servers. The public inbound and outbound bandwidth is calculated for each server in addition to the daily average network traffic since the last billing date. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#publicIpAddressCount" name=publicIpAddressCount>publicIpAddressCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#publicNetworkVlanCount" name=publicNetworkVlanCount>publicNetworkVlanCount</a>
-            </span>
-            <div class='views-field-body'>A count of the public network VLANs assigned to an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#publicSubnetCount" name=publicSubnetCount>publicSubnetCount</a>
-            </span>
-            <div class='views-field-body'>A count of all public network subnets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#quoteCount" name=quoteCount>quoteCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's quotes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#recentEventCount" name=recentEventCount>recentEventCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#referredAccountCount" name=referredAccountCount>referredAccountCount</a>
-            </span>
-            <div class='views-field-body'>A count of if this is a account is a referral partner, the accounts this referral partner has referred </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#regulatedWorkloadCount" name=regulatedWorkloadCount>regulatedWorkloadCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#remoteManagementCommandRequestCount" name=remoteManagementCommandRequestCount>remoteManagementCommandRequestCount</a>
-            </span>
-            <div class='views-field-body'>A count of remote management command requests for an account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#replicationEventCount" name=replicationEventCount>replicationEventCount</a>
-            </span>
-            <div class='views-field-body'>A count of the Replication events for all Network Storage volumes on an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#reservedCapacityAgreementCount" name=reservedCapacityAgreementCount>reservedCapacityAgreementCount</a>
-            </span>
-            <div class='views-field-body'>A count of all reserved capacity agreements for an account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#reservedCapacityGroupCount" name=reservedCapacityGroupCount>reservedCapacityGroupCount</a>
-            </span>
-            <div class='views-field-body'>A count of the reserved capacity groups owned by this account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#resourceGroupCount" name=resourceGroupCount>resourceGroupCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated top-level resource groups. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#routerCount" name=routerCount>routerCount</a>
-            </span>
-            <div class='views-field-body'>A count of all Routers that an accounts VLANs reside on </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#scaleGroupCount" name=scaleGroupCount>scaleGroupCount</a>
-            </span>
-            <div class='views-field-body'>A count of all scale groups on this account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#secondaryDomainCount" name=secondaryDomainCount>secondaryDomainCount</a>
-            </span>
-            <div class='views-field-body'>A count of the secondary DNS records for a SoftLayer customer account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityCertificateCount" name=securityCertificateCount>securityCertificateCount</a>
-            </span>
-            <div class='views-field-body'>A count of stored security certificates (ie. SSL) </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityGroupCount" name=securityGroupCount>securityGroupCount</a>
-            </span>
-            <div class='views-field-body'>A count of the security groups belonging to this account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityScanRequestCount" name=securityScanRequestCount>securityScanRequestCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's vulnerability scan requests. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#serviceBillingItemCount" name=serviceBillingItemCount>serviceBillingItemCount</a>
-            </span>
-            <div class='views-field-body'>A count of the service billing items that will be on an account's next invoice.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#shipmentCount" name=shipmentCount>shipmentCount</a>
-            </span>
-            <div class='views-field-body'>A count of shipments that belong to the customer's account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sshKeyCount" name=sshKeyCount>sshKeyCount</a>
-            </span>
-            <div class='views-field-body'>A count of customer specified SSH keys that can be implemented onto a newly provisioned or reloaded server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sslVpnUserCount" name=sslVpnUserCount>sslVpnUserCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated portal users with SSL VPN access. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#standardPoolVirtualGuestCount" name=standardPoolVirtualGuestCount>standardPoolVirtualGuestCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's virtual guest objects that are hosted on a user provisioned hypervisor. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnetCount" name=subnetCount>subnetCount</a>
-            </span>
-            <div class='views-field-body'>A count of all network subnets associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnetRegistrationCount" name=subnetRegistrationCount>subnetRegistrationCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnetRegistrationDetailCount" name=subnetRegistrationDetailCount>subnetRegistrationDetailCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#supportRepresentativeCount" name=supportRepresentativeCount>supportRepresentativeCount</a>
-            </span>
-            <div class='views-field-body'>A count of the SoftLayer employees that an account is assigned to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#supportSubscriptionCount" name=supportSubscriptionCount>supportSubscriptionCount</a>
-            </span>
-            <div class='views-field-body'>A count of the active support subscriptions for this account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#tagCount" name=tagCount>tagCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ticketCount" name=ticketCount>ticketCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated tickets. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ticketsClosedInTheLastThreeDaysCount" name=ticketsClosedInTheLastThreeDaysCount>ticketsClosedInTheLastThreeDaysCount</a>
-            </span>
-            <div class='views-field-body'>A count of tickets closed within the last 72 hours or last 10 tickets, whichever is less, associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ticketsClosedTodayCount" name=ticketsClosedTodayCount>ticketsClosedTodayCount</a>
-            </span>
-            <div class='views-field-body'>A count of tickets closed today associated with an account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#transcodeAccountCount" name=transcodeAccountCount>transcodeAccountCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated Transcode account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#upgradeRequestCount" name=upgradeRequestCount>upgradeRequestCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated upgrade requests. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#userCount" name=userCount>userCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's portal users. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#validSecurityCertificateCount" name=validSecurityCertificateCount>validSecurityCertificateCount</a>
-            </span>
-            <div class='views-field-body'>A count of stored security certificates that are not expired (ie. SSL) </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualDedicatedRackCount" name=virtualDedicatedRackCount>virtualDedicatedRackCount</a>
-            </span>
-            <div class='views-field-body'>A count of the bandwidth pooling for this account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualDiskImageCount" name=virtualDiskImageCount>virtualDiskImageCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated virtual server virtual disk images. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestCount" name=virtualGuestCount>virtualGuestCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated virtual guest objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsOverBandwidthAllocationCount" name=virtualGuestsOverBandwidthAllocationCount>virtualGuestsOverBandwidthAllocationCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated virtual guest objects currently over bandwidth allocation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsProjectedOverBandwidthAllocationCount" name=virtualGuestsProjectedOverBandwidthAllocationCount>virtualGuestsProjectedOverBandwidthAllocationCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated virtual guest objects currently over bandwidth allocation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsWithCpanelCount" name=virtualGuestsWithCpanelCount>virtualGuestsWithCpanelCount</a>
-            </span>
-            <div class='views-field-body'>A count of all virtual guests associated with an account that has the cPanel web hosting control panel installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsWithMcafeeAntivirusRedhatCount" name=virtualGuestsWithMcafeeAntivirusRedhatCount>virtualGuestsWithMcafeeAntivirusRedhatCount</a>
-            </span>
-            <div class='views-field-body'>A count of all virtual guests associated with an account that have McAfee Secure AntiVirus for Redhat software components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsWithMcafeeAntivirusWindowCount" name=virtualGuestsWithMcafeeAntivirusWindowCount>virtualGuestsWithMcafeeAntivirusWindowCount</a>
-            </span>
-            <div class='views-field-body'>A count of all virtual guests associated with an account that has McAfee Secure AntiVirus for Windows software components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsWithMcafeeCount" name=virtualGuestsWithMcafeeCount>virtualGuestsWithMcafeeCount</a>
-            </span>
-            <div class='views-field-body'>A count of all virtual guests associated with an account that have McAfee Secure software components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsWithMcafeeIntrusionDetectionSystemCount" name=virtualGuestsWithMcafeeIntrusionDetectionSystemCount>virtualGuestsWithMcafeeIntrusionDetectionSystemCount</a>
-            </span>
-            <div class='views-field-body'>A count of all virtual guests associated with an account that has McAfee Secure Intrusion Detection System software components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsWithPleskCount" name=virtualGuestsWithPleskCount>virtualGuestsWithPleskCount</a>
-            </span>
-            <div class='views-field-body'>A count of all virtual guests associated with an account that has the Plesk web hosting control panel installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsWithQuantastorCount" name=virtualGuestsWithQuantastorCount>virtualGuestsWithQuantastorCount</a>
-            </span>
-            <div class='views-field-body'>A count of all virtual guests associated with an account that have the QuantaStor storage system installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuestsWithUrchinCount" name=virtualGuestsWithUrchinCount>virtualGuestsWithUrchinCount</a>
-            </span>
-            <div class='views-field-body'>A count of all virtual guests associated with an account that has the Urchin web traffic analytics package installed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualStorageArchiveRepositoryCount" name=virtualStorageArchiveRepositoryCount>virtualStorageArchiveRepositoryCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated virtual server archived storage repositories. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualStoragePublicRepositoryCount" name=virtualStoragePublicRepositoryCount>virtualStoragePublicRepositoryCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated virtual server public storage repositories. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#vpcVirtualGuestCount" name=vpcVirtualGuestCount>vpcVirtualGuestCount</a>
-            </span>
-            <div class='views-field-body'>A count of an account's associated VPC configured virtual guest objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountManagedResourcesFlag]: #accountmanagedresourcesflag
+#### [accountManagedResourcesFlag]
+A flag indicating that the account has a managed resource.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[accountStatusId]: #accountstatusid
+#### [accountStatusId]
+A number reflecting the state of an account.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[address1]: #address1
+#### [address1]
+The first line of the mailing address belonging to an account.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[address2]: #address2
+#### [address2]
+The second line of the mailing address belonging to an account.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[allowedPptpVpnQuantity]: #allowedpptpvpnquantity
+#### [allowedPptpVpnQuantity]
+The number of PPTP VPN users allowed on an account.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[alternatePhone]: #alternatephone
+#### [alternatePhone]
+A secondary phone number assigned to an account.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[brandId]: #brandid
+#### [brandId]
+The Brand tied to an account.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[city]: #city
+#### [city]
+The city of the mailing address belonging to an account.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[claimedTaxExemptTxFlag]: #claimedtaxexempttxflag
+#### [claimedTaxExemptTxFlag]
+Whether an account is exempt from taxes on their invoices.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[companyName]: #companyname
+#### [companyName]
+The company name associated with an account.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[country]: #country
+#### [country]
+A two-letter abbreviation of the country in the mailing address belonging to an account.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+The date an account was created.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[deviceFingerprintId]: #devicefingerprintid
+#### [deviceFingerprintId]
+Device Fingerprint Identifier - Used internally and can safely be ignored.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[email]: #email
+#### [email]
+A general email address assigned to an account.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[faxPhone]: #faxphone
+#### [faxPhone]
+A fax phone number assigned to an account.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[firstName]: #firstname
+#### [firstName]
+Each customer account is listed under a single individual. This is that individual's first name.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+A customer account's internal identifier. Account numbers are typically preceded by the string "SL" in the customer portal. Every SoftLayer account has at least one portal user whose username follows the "SL" + account number naming scheme.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[isReseller]: #isreseller
+#### [isReseller]
+A flag indicating if an account belongs to a reseller or not.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[lastName]: #lastname
+#### [lastName]
+Each customer account is listed under a single individual. This is that individual's last name.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[lateFeeProtectionFlag]: #latefeeprotectionflag
+#### [lateFeeProtectionFlag]
+Whether an account has late fee protection.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+The date an account was last modified.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[officePhone]: #officephone
+#### [officePhone]
+An office phone number assigned to an account.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[postalCode]: #postalcode
+#### [postalCode]
+The postal code of the mailing address belonging to an account.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[resellerLevel]: #resellerlevel
+#### [resellerLevel]
+The Reseller level of the account.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[state]: #state
+#### [state]
+A two-letter abbreviation of the state in the mailing address belonging to an account. If an account does not reside in a province then this is typically blank.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[statusDate]: #statusdate
+#### [statusDate]
+The date of an account's last status change.  
+<span class="type-label">Type: </span>**dateTime**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[abuseEmail]: #abuseemail
+#### [abuseEmail]
+An email address that is responsible for abuse and legal inquiries on behalf of an account. For instance, new legal and abuse tickets are sent to this address.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[abuseEmails]: #abuseemails
+#### [abuseEmails]
+Email addresses that are responsible for abuse and legal inquiries on behalf of an account. For instance, new legal and abuse tickets are sent to these addresses.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_AbuseEmail'>SoftLayer_Account_AbuseEmail[] </a>**
+
+-----
+[accountContacts]: #accountcontacts
+#### [accountContacts]
+The account contacts on an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Contact'>SoftLayer_Account_Contact[] </a>**
+
+-----
+[accountLicenses]: #accountlicenses
+#### [accountLicenses]
+The account software licenses owned by an account  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_AccountLicense'>SoftLayer_Software_AccountLicense[] </a>**
+
+-----
+[accountLinks]: #accountlinks
+#### [accountLinks]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Link'>SoftLayer_Account_Link[] </a>**
+
+-----
+[accountStatus]: #accountstatus
+#### [accountStatus]
+An account's status presented in a more detailed data type.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Status'>SoftLayer_Account_Status </a>**
+
+-----
+[activeAccountDiscountBillingItem]: #activeaccountdiscountbillingitem
+#### [activeAccountDiscountBillingItem]
+The billing item associated with an account's monthly discount.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+
+-----
+[activeAccountLicenses]: #activeaccountlicenses
+#### [activeAccountLicenses]
+The active account software licenses owned by an account  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_AccountLicense'>SoftLayer_Software_AccountLicense[] </a>**
+
+-----
+[activeAddresses]: #activeaddresses
+#### [activeAddresses]
+The active address(es) that belong to an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address[] </a>**
+
+-----
+[activeAgreements]: #activeagreements
+#### [activeAgreements]
+All active agreements for an account  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Agreement'>SoftLayer_Account_Agreement[] </a>**
+
+-----
+[activeBillingAgreements]: #activebillingagreements
+#### [activeBillingAgreements]
+All billing agreements for an account  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Agreement'>SoftLayer_Account_Agreement[] </a>**
+
+-----
+[activeCatalystEnrollment]: #activecatalystenrollment
+#### [activeCatalystEnrollment]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Catalyst_Enrollment'>SoftLayer_Catalyst_Enrollment </a>**
+
+-----
+[activeColocationContainers]: #activecolocationcontainers
+#### [activeColocationContainers]
+The account's active top level colocation containers.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+
+-----
+[activeFlexibleCreditEnrollment]: #activeflexiblecreditenrollment
+#### [activeFlexibleCreditEnrollment]
+[Deprecated] Please use SoftLayer_Account::activeFlexibleCreditEnrollments.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_FlexibleCredit_Enrollment'>SoftLayer_FlexibleCredit_Enrollment </a>**
+
+-----
+[activeFlexibleCreditEnrollments]: #activeflexiblecreditenrollments
+#### [activeFlexibleCreditEnrollments]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_FlexibleCredit_Enrollment'>SoftLayer_FlexibleCredit_Enrollment[] </a>**
+
+-----
+[activeNotificationSubscribers]: #activenotificationsubscribers
+#### [activeNotificationSubscribers]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Subscriber'>SoftLayer_Notification_Subscriber[] </a>**
+
+-----
+[activeQuotes]: #activequotes
+#### [activeQuotes]
+An account's non-expired quotes.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Quote'>SoftLayer_Billing_Order_Quote[] </a>**
+
+-----
+[activeReservedCapacityAgreements]: #activereservedcapacityagreements
+#### [activeReservedCapacityAgreements]
+Active reserved capacity agreements for an account  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Agreement'>SoftLayer_Account_Agreement[] </a>**
+
+-----
+[activeVirtualLicenses]: #activevirtuallicenses
+#### [activeVirtualLicenses]
+The virtual software licenses controlled by an account  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_VirtualLicense'>SoftLayer_Software_VirtualLicense[] </a>**
+
+-----
+[adcLoadBalancers]: #adcloadbalancers
+#### [adcLoadBalancers]
+An account's associated load balancers.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress[] </a>**
+
+-----
+[addresses]: #addresses
+#### [addresses]
+All the address(es) that belong to an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address[] </a>**
+
+-----
+[affiliateId]: #affiliateid
+#### [affiliateId]
+An affiliate identifier associated with the customer account.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[allBillingItems]: #allbillingitems
+#### [allBillingItems]
+The billing items that will be on an account's next invoice.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+
+-----
+[allCommissionBillingItems]: #allcommissionbillingitems
+#### [allCommissionBillingItems]
+The billing items that will be on an account's next invoice.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+
+-----
+[allRecurringTopLevelBillingItems]: #allrecurringtoplevelbillingitems
+#### [allRecurringTopLevelBillingItems]
+The billing items that will be on an account's next invoice.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+
+-----
+[allRecurringTopLevelBillingItemsUnfiltered]: #allrecurringtoplevelbillingitemsunfiltered
+#### [allRecurringTopLevelBillingItemsUnfiltered]
+The billing items that will be on an account's next invoice. Does not consider associated items.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+
+-----
+[allSubnetBillingItems]: #allsubnetbillingitems
+#### [allSubnetBillingItems]
+The billing items that will be on an account's next invoice.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+
+-----
+[allTopLevelBillingItems]: #alltoplevelbillingitems
+#### [allTopLevelBillingItems]
+All billing items of an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+
+-----
+[allTopLevelBillingItemsUnfiltered]: #alltoplevelbillingitemsunfiltered
+#### [allTopLevelBillingItemsUnfiltered]
+The billing items that will be on an account's next invoice. Does not consider associated items.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+
+-----
+[allowIbmIdSilentMigrationFlag]: #allowibmidsilentmigrationflag
+#### [allowIbmIdSilentMigrationFlag]
+Indicates whether this account is allowed to silently migrate to use IBMid Authentication.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[allowsBluemixAccountLinkingFlag]: #allowsbluemixaccountlinkingflag
+#### [allowsBluemixAccountLinkingFlag]
+Flag indicating if this account can be linked with Bluemix.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[applicationDeliveryControllers]: #applicationdeliverycontrollers
+#### [applicationDeliveryControllers]
+An account's associated application delivery controller records.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller[] </a>**
+
+-----
+[attributes]: #attributes
+#### [attributes]
+The account attribute values for a SoftLayer customer account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Attribute'>SoftLayer_Account_Attribute[] </a>**
+
+-----
+[availablePublicNetworkVlans]: #availablepublicnetworkvlans
+#### [availablePublicNetworkVlans]
+The public network VLANs assigned to an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a>**
+
+-----
+[balance]: #balance
+#### [balance]
+The account balance of a SoftLayer customer account. An account's balance is the amount of money owed to SoftLayer by the account holder, returned as a floating point number with two decimal places, measured in US Dollars ($USD). A negative account balance means the account holder has overpaid and is owed money by SoftLayer.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[bandwidthAllotments]: #bandwidthallotments
+#### [bandwidthAllotments]
+The bandwidth allotments for an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment[] </a>**
+
+-----
+[bandwidthAllotmentsOverAllocation]: #bandwidthallotmentsoverallocation
+#### [bandwidthAllotmentsOverAllocation]
+The bandwidth allotments for an account currently over allocation.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment[] </a>**
+
+-----
+[bandwidthAllotmentsProjectedOverAllocation]: #bandwidthallotmentsprojectedoverallocation
+#### [bandwidthAllotmentsProjectedOverAllocation]
+The bandwidth allotments for an account projected to go over allocation.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment[] </a>**
+
+-----
+[bareMetalInstances]: #baremetalinstances
+#### [bareMetalInstances]
+An account's associated bare metal server objects.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[billingAgreements]: #billingagreements
+#### [billingAgreements]
+All billing agreements for an account  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Agreement'>SoftLayer_Account_Agreement[] </a>**
+
+-----
+[billingInfo]: #billinginfo
+#### [billingInfo]
+An account's billing information.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Info'>SoftLayer_Billing_Info </a>**
+
+-----
+[blockDeviceTemplateGroups]: #blockdevicetemplategroups
+#### [blockDeviceTemplateGroups]
+Private template group objects (parent and children) and the shared template group objects (parent only) for an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group[] </a>**
+
+-----
+[bluemixAccountLink]: #bluemixaccountlink
+#### [bluemixAccountLink]
+The Bluemix account link associated with this SoftLayer account, if one exists.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Link_Bluemix'>SoftLayer_Account_Link_Bluemix </a>**
+
+-----
+[bluemixLinkedFlag]: #bluemixlinkedflag
+#### [bluemixLinkedFlag]
+Returns true if this account is linked to IBM Bluemix, false if not.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[brand]: #brand
+#### [brand]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>**
+
+-----
+[brandAccountFlag]: #brandaccountflag
+#### [brandAccountFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[brandKeyName]: #brandkeyname
+#### [brandKeyName]
+The brand keyName.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[businessPartner]: #businesspartner
+#### [businessPartner]
+The Business Partner details for the account. Country Enterprise Code, Channel, Segment, Reseller Level.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Business_Partner'>SoftLayer_Account_Business_Partner </a>**
+
+-----
+[canOrderAdditionalVlansFlag]: #canorderadditionalvlansflag
+#### [canOrderAdditionalVlansFlag]
+[DEPRECATED] All accounts may order VLANs.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[carts]: #carts
+#### [carts]
+An account's active carts.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Quote'>SoftLayer_Billing_Order_Quote[] </a>**
+
+-----
+[catalystEnrollments]: #catalystenrollments
+#### [catalystEnrollments]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Catalyst_Enrollment'>SoftLayer_Catalyst_Enrollment[] </a>**
+
+-----
+[closedTickets]: #closedtickets
+#### [closedTickets]
+All closed tickets associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[datacentersWithSubnetAllocations]: #datacenterswithsubnetallocations
+#### [datacentersWithSubnetAllocations]
+Datacenters which contain subnets that the account has access to route.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>**
+
+-----
+[dedicatedHosts]: #dedicatedhosts
+#### [dedicatedHosts]
+An account's associated virtual dedicated host objects.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_DedicatedHost'>SoftLayer_Virtual_DedicatedHost[] </a>**
+
+-----
+[disablePaymentProcessingFlag]: #disablepaymentprocessingflag
+#### [disablePaymentProcessingFlag]
+A flag indicating whether payments are processed for this account.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[displaySupportRepresentativeAssignments]: #displaysupportrepresentativeassignments
+#### [displaySupportRepresentativeAssignments]
+The SoftLayer employees that an account is assigned to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Attachment_Employee'>SoftLayer_Account_Attachment_Employee[] </a>**
+
+-----
+[domainRegistrations]: #domainregistrations
+#### [domainRegistrations]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration'>SoftLayer_Dns_Domain_Registration[] </a>**
+
+-----
+[domains]: #domains
+#### [domains]
+The DNS domains associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain[] </a>**
+
+-----
+[domainsWithoutSecondaryDnsRecords]: #domainswithoutsecondarydnsrecords
+#### [domainsWithoutSecondaryDnsRecords]
+The DNS domains associated with an account that were not created as a result of a secondary DNS zone transfer.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain[] </a>**
+
+-----
+[euSupportedFlag]: #eusupportedflag
+#### [euSupportedFlag]
+Boolean flag dictating whether or not this account has the EU Supported flag. This flag indicates that this account uses IBM Cloud services to process EU citizen's personal data.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[evaultCapacityGB]: #evaultcapacitygb
+#### [evaultCapacityGB]
+The total capacity of Legacy EVault Volumes on an account, in GB.  
+<span class="type-label">Type: </span>**unsigned integer**
+
+-----
+[evaultMasterUsers]: #evaultmasterusers
+#### [evaultMasterUsers]
+An account's master EVault user. This is only used when an account has EVault service.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Password'>SoftLayer_Account_Password[] </a>**
+
+-----
+[evaultNetworkStorage]: #evaultnetworkstorage
+#### [evaultNetworkStorage]
+An account's associated EVault storage volumes.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+
+-----
+[expiredSecurityCertificates]: #expiredsecuritycertificates
+#### [expiredSecurityCertificates]
+Stored security certificates that are expired (ie. SSL)  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Certificate'>SoftLayer_Security_Certificate[] </a>**
+
+-----
+[facilityLogs]: #facilitylogs
+#### [facilityLogs]
+Logs of who entered a colocation area which is assigned to this account, or when a user under this account enters a datacenter.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Access_Facility_Log'>SoftLayer_User_Access_Facility_Log[] </a>**
+
+-----
+[fileBlockBetaAccessFlag]: #fileblockbetaaccessflag
+#### [fileBlockBetaAccessFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[flexibleCreditEnrollments]: #flexiblecreditenrollments
+#### [flexibleCreditEnrollments]
+All of the account's current and former Flexible Credit enrollments.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_FlexibleCredit_Enrollment'>SoftLayer_FlexibleCredit_Enrollment[] </a>**
+
+-----
+[forcePaasAccountLinkDate]: #forcepaasaccountlinkdate
+#### [forcePaasAccountLinkDate]
+Timestamp representing the point in time when an account is required to link with PaaS.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[globalIpRecords]: #globaliprecords
+#### [globalIpRecords]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress_Global'>SoftLayer_Network_Subnet_IpAddress_Global[] </a>**
+
+-----
+[globalIpv4Records]: #globalipv4records
+#### [globalIpv4Records]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress_Global'>SoftLayer_Network_Subnet_IpAddress_Global[] </a>**
+
+-----
+[globalIpv6Records]: #globalipv6records
+#### [globalIpv6Records]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress_Global'>SoftLayer_Network_Subnet_IpAddress_Global[] </a>**
+
+-----
+[globalLoadBalancerAccounts]: #globalloadbalanceraccounts
+#### [globalLoadBalancerAccounts]
+The global load balancer accounts for a softlayer customer account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Account'>SoftLayer_Network_LoadBalancer_Global_Account[] </a>**
+
+-----
+[hardware]: #hardware
+#### [hardware]
+An account's associated hardware objects.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[hardwareOverBandwidthAllocation]: #hardwareoverbandwidthallocation
+#### [hardwareOverBandwidthAllocation]
+An account's associated hardware objects currently over bandwidth allocation.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[hardwareProjectedOverBandwidthAllocation]: #hardwareprojectedoverbandwidthallocation
+#### [hardwareProjectedOverBandwidthAllocation]
+An account's associated hardware objects projected to go over bandwidth allocation.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[hardwareWithCpanel]: #hardwarewithcpanel
+#### [hardwareWithCpanel]
+All hardware associated with an account that has the cPanel web hosting control panel installed.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[hardwareWithHelm]: #hardwarewithhelm
+#### [hardwareWithHelm]
+All hardware associated with an account that has the Helm web hosting control panel installed.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[hardwareWithMcafee]: #hardwarewithmcafee
+#### [hardwareWithMcafee]
+All hardware associated with an account that has McAfee Secure software components.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[hardwareWithMcafeeAntivirusRedhat]: #hardwarewithmcafeeantivirusredhat
+#### [hardwareWithMcafeeAntivirusRedhat]
+All hardware associated with an account that has McAfee Secure AntiVirus for Redhat software components.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[hardwareWithMcafeeAntivirusWindows]: #hardwarewithmcafeeantiviruswindows
+#### [hardwareWithMcafeeAntivirusWindows]
+All hardware associated with an account that has McAfee Secure AntiVirus for Windows software components.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[hardwareWithMcafeeIntrusionDetectionSystem]: #hardwarewithmcafeeintrusiondetectionsystem
+#### [hardwareWithMcafeeIntrusionDetectionSystem]
+All hardware associated with an account that has McAfee Secure Intrusion Detection System software components.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[hardwareWithPlesk]: #hardwarewithplesk
+#### [hardwareWithPlesk]
+All hardware associated with an account that has the Plesk web hosting control panel installed.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[hardwareWithQuantastor]: #hardwarewithquantastor
+#### [hardwareWithQuantastor]
+All hardware associated with an account that has the QuantaStor storage system installed.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[hardwareWithUrchin]: #hardwarewithurchin
+#### [hardwareWithUrchin]
+All hardware associated with an account that has the Urchin web traffic analytics package installed.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[hardwareWithWindows]: #hardwarewithwindows
+#### [hardwareWithWindows]
+All hardware associated with an account that is running a version of the Microsoft Windows operating system.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[hasEvaultBareMetalRestorePluginFlag]: #hasevaultbaremetalrestorepluginflag
+#### [hasEvaultBareMetalRestorePluginFlag]
+Return 1 if one of the account's hardware has the EVault Bare Metal Server Restore Plugin otherwise 0.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[hasIderaBareMetalRestorePluginFlag]: #hasiderabaremetalrestorepluginflag
+#### [hasIderaBareMetalRestorePluginFlag]
+Return 1 if one of the account's hardware has an installation of Idera Server Backup otherwise 0.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[hasPendingOrder]: #haspendingorder
+#### [hasPendingOrder]
+The number of orders in a PENDING status for a SoftLayer customer account.  
+<span class="type-label">Type: </span>**unsigned integer**
+
+-----
+[hasR1softBareMetalRestorePluginFlag]: #hasr1softbaremetalrestorepluginflag
+#### [hasR1softBareMetalRestorePluginFlag]
+Return 1 if one of the account's hardware has an installation of R1Soft CDP otherwise 0.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[hourlyBareMetalInstances]: #hourlybaremetalinstances
+#### [hourlyBareMetalInstances]
+An account's associated hourly bare metal server objects.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[hourlyServiceBillingItems]: #hourlyservicebillingitems
+#### [hourlyServiceBillingItems]
+Hourly service billing items that will be on an account's next invoice.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+
+-----
+[hourlyVirtualGuests]: #hourlyvirtualguests
+#### [hourlyVirtualGuests]
+An account's associated hourly virtual guest objects.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[hubNetworkStorage]: #hubnetworkstorage
+#### [hubNetworkStorage]
+An account's associated Virtual Storage volumes.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+
+-----
+[ibmCustomerNumber]: #ibmcustomernumber
+#### [ibmCustomerNumber]
+Unique identifier for a customer used throughout IBM.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[ibmIdAuthenticationRequiredFlag]: #ibmidauthenticationrequiredflag
+#### [ibmIdAuthenticationRequiredFlag]
+Indicates whether this account requires IBMid authentication.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[ibmIdMigrationExpirationTimestamp]: #ibmidmigrationexpirationtimestamp
+#### [ibmIdMigrationExpirationTimestamp]
+This key is deprecated and should not be used.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[inProgressExternalAccountSetup]: #inprogressexternalaccountsetup
+#### [inProgressExternalAccountSetup]
+An in progress request to switch billing systems.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_External_Setup'>SoftLayer_Account_External_Setup </a>**
+
+-----
+[internalNotes]: #internalnotes
+#### [internalNotes]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Note'>SoftLayer_Account_Note[] </a>**
+
+-----
+[invoices]: #invoices
+#### [invoices]
+An account's associated billing invoices.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice[] </a>**
+
+-----
+[ipAddresses]: #ipaddresses
+#### [ipAddresses]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>**
+
+-----
+[iscsiIsolationDisabled]: #iscsiisolationdisabled
+#### [iscsiIsolationDisabled]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[iscsiNetworkStorage]: #iscsinetworkstorage
+#### [iscsiNetworkStorage]
+An account's associated iSCSI storage volumes.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+
+-----
+[lastCanceledBillingItem]: #lastcanceledbillingitem
+#### [lastCanceledBillingItem]
+The most recently canceled billing item.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+
+-----
+[lastCancelledServerBillingItem]: #lastcancelledserverbillingitem
+#### [lastCancelledServerBillingItem]
+The most recent cancelled server billing item.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+
+-----
+[lastFiveClosedAbuseTickets]: #lastfiveclosedabusetickets
+#### [lastFiveClosedAbuseTickets]
+The five most recently closed abuse tickets associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[lastFiveClosedAccountingTickets]: #lastfiveclosedaccountingtickets
+#### [lastFiveClosedAccountingTickets]
+The five most recently closed accounting tickets associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[lastFiveClosedOtherTickets]: #lastfiveclosedothertickets
+#### [lastFiveClosedOtherTickets]
+The five most recently closed tickets that do not belong to the abuse, accounting, sales, or support groups associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[lastFiveClosedSalesTickets]: #lastfiveclosedsalestickets
+#### [lastFiveClosedSalesTickets]
+The five most recently closed sales tickets associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[lastFiveClosedSupportTickets]: #lastfiveclosedsupporttickets
+#### [lastFiveClosedSupportTickets]
+The five most recently closed support tickets associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[lastFiveClosedTickets]: #lastfiveclosedtickets
+#### [lastFiveClosedTickets]
+The five most recently closed tickets associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[latestBillDate]: #latestbilldate
+#### [latestBillDate]
+An account's most recent billing date.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[latestRecurringInvoice]: #latestrecurringinvoice
+#### [latestRecurringInvoice]
+An account's latest recurring invoice.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a>**
+
+-----
+[latestRecurringPendingInvoice]: #latestrecurringpendinginvoice
+#### [latestRecurringPendingInvoice]
+An account's latest recurring pending invoice.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a>**
+
+-----
+[legacyBandwidthAllotments]: #legacybandwidthallotments
+#### [legacyBandwidthAllotments]
+The legacy bandwidth allotments for an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment[] </a>**
+
+-----
+[legacyIscsiCapacityGB]: #legacyiscsicapacitygb
+#### [legacyIscsiCapacityGB]
+The total capacity of Legacy iSCSI Volumes on an account, in GB.  
+<span class="type-label">Type: </span>**unsigned integer**
+
+-----
+[loadBalancers]: #loadbalancers
+#### [loadBalancers]
+An account's associated load balancers.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_LoadBalancer_VirtualIpAddress[] </a>**
+
+-----
+[lockboxCapacityGB]: #lockboxcapacitygb
+#### [lockboxCapacityGB]
+The total capacity of Legacy lockbox Volumes on an account, in GB.  
+<span class="type-label">Type: </span>**unsigned integer**
+
+-----
+[lockboxNetworkStorage]: #lockboxnetworkstorage
+#### [lockboxNetworkStorage]
+An account's associated Lockbox storage volumes.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+
+-----
+[manualPaymentsUnderReview]: #manualpaymentsunderreview
+#### [manualPaymentsUnderReview]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_ManualPayment'>SoftLayer_Billing_Payment_Card_ManualPayment[] </a>**
+
+-----
+[masterUser]: #masteruser
+#### [masterUser]
+An account's master user.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+
+-----
+[mediaDataTransferRequests]: #mediadatatransferrequests
+#### [mediaDataTransferRequests]
+An account's media transfer service requests.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Media_Data_Transfer_Request'>SoftLayer_Account_Media_Data_Transfer_Request[] </a>**
+
+-----
+[migratedToIbmCloudPortalFlag]: #migratedtoibmcloudportalflag
+#### [migratedToIbmCloudPortalFlag]
+Flag indicating whether this account is restricted to the IBM Cloud portal.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[monthlyBareMetalInstances]: #monthlybaremetalinstances
+#### [monthlyBareMetalInstances]
+An account's associated monthly bare metal server objects.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[monthlyVirtualGuests]: #monthlyvirtualguests
+#### [monthlyVirtualGuests]
+An account's associated monthly virtual guest objects.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[nasNetworkStorage]: #nasnetworkstorage
+#### [nasNetworkStorage]
+An account's associated NAS storage volumes.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+
+-----
+[networkCreationFlag]: #networkcreationflag
+#### [networkCreationFlag]
+Whether or not this account can define their own networks.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[networkGateways]: #networkgateways
+#### [networkGateways]
+All network gateway devices on this account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway[] </a>**
+
+-----
+[networkHardware]: #networkhardware
+#### [networkHardware]
+An account's associated network hardware.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[networkMessageDeliveryAccounts]: #networkmessagedeliveryaccounts
+#### [networkMessageDeliveryAccounts]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Message_Delivery'>SoftLayer_Network_Message_Delivery[] </a>**
+
+-----
+[networkMonitorDownHardware]: #networkmonitordownhardware
+#### [networkMonitorDownHardware]
+Hardware which is currently experiencing a service failure.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[networkMonitorDownVirtualGuests]: #networkmonitordownvirtualguests
+#### [networkMonitorDownVirtualGuests]
+Virtual guest which is currently experiencing a service failure.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[networkMonitorRecoveringHardware]: #networkmonitorrecoveringhardware
+#### [networkMonitorRecoveringHardware]
+Hardware which is currently recovering from a service failure.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[networkMonitorRecoveringVirtualGuests]: #networkmonitorrecoveringvirtualguests
+#### [networkMonitorRecoveringVirtualGuests]
+Virtual guest which is currently recovering from a service failure.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[networkMonitorUpHardware]: #networkmonitoruphardware
+#### [networkMonitorUpHardware]
+Hardware which is currently online.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[networkMonitorUpVirtualGuests]: #networkmonitorupvirtualguests
+#### [networkMonitorUpVirtualGuests]
+Virtual guest which is currently online.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[networkStorage]: #networkstorage
+#### [networkStorage]
+An account's associated storage volumes. This includes Lockbox, NAS, EVault, and iSCSI volumes.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+
+-----
+[networkStorageGroups]: #networkstoragegroups
+#### [networkStorageGroups]
+An account's Network Storage groups.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Group'>SoftLayer_Network_Storage_Group[] </a>**
+
+-----
+[networkTunnelContexts]: #networktunnelcontexts
+#### [networkTunnelContexts]
+IPSec network tunnels for an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Tunnel_Module_Context'>SoftLayer_Network_Tunnel_Module_Context[] </a>**
+
+-----
+[networkVlanSpan]: #networkvlanspan
+#### [networkVlanSpan]
+Whether or not an account has automatic private VLAN spanning enabled.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Network_Vlan_Span'>SoftLayer_Account_Network_Vlan_Span </a>**
+
+-----
+[networkVlans]: #networkvlans
+#### [networkVlans]
+All network VLANs assigned to an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a>**
+
+-----
+[nextBillingPublicAllotmentHardwareBandwidthDetails]: #nextbillingpublicallotmenthardwarebandwidthdetails
+#### [nextBillingPublicAllotmentHardwareBandwidthDetails]
+DEPRECATED - This information can be pulled directly through tapping keys now - DEPRECATED. The allotments for this account and their servers for the next billing cycle. The public inbound and outbound bandwidth is calculated for each server in addition to the daily average network traffic since the last billing date.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment[] </a>**
+
+-----
+[nextInvoiceIncubatorExemptTotal]: #nextinvoiceincubatorexempttotal
+#### [nextInvoiceIncubatorExemptTotal]
+The pre-tax total amount exempt from incubator credit for the account's next invoice. This field is now deprecated and will soon be removed. Please update all references to instead use nextInvoiceTotalAmount  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[nextInvoiceRecurringAmountEligibleForAccountDiscount]: #nextinvoicerecurringamounteligibleforaccountdiscount
+#### [nextInvoiceRecurringAmountEligibleForAccountDiscount]
+The total recurring charge amount of an account's next invoice eligible for account discount measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[nextInvoiceTopLevelBillingItems]: #nextinvoicetoplevelbillingitems
+#### [nextInvoiceTopLevelBillingItems]
+The billing items that will be on an account's next invoice.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+
+-----
+[nextInvoiceTotalAmount]: #nextinvoicetotalamount
+#### [nextInvoiceTotalAmount]
+The pre-tax total amount of an account's next invoice measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing.  
+<span class="type-label">Type: </span>**float**
+
+-----
+[nextInvoiceTotalOneTimeAmount]: #nextinvoicetotalonetimeamount
+#### [nextInvoiceTotalOneTimeAmount]
+The total one-time charge amount of an account's next invoice measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[nextInvoiceTotalOneTimeTaxAmount]: #nextinvoicetotalonetimetaxamount
+#### [nextInvoiceTotalOneTimeTaxAmount]
+The total one-time tax amount of an account's next invoice measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[nextInvoiceTotalRecurringAmount]: #nextinvoicetotalrecurringamount
+#### [nextInvoiceTotalRecurringAmount]
+The total recurring charge amount of an account's next invoice measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[nextInvoiceTotalRecurringAmountBeforeAccountDiscount]: #nextinvoicetotalrecurringamountbeforeaccountdiscount
+#### [nextInvoiceTotalRecurringAmountBeforeAccountDiscount]
+The total recurring charge amount of an account's next invoice measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[nextInvoiceTotalRecurringTaxAmount]: #nextinvoicetotalrecurringtaxamount
+#### [nextInvoiceTotalRecurringTaxAmount]
+The total recurring tax amount of an account's next invoice measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing.  
+<span class="type-label">Type: </span>**float**
+
+-----
+[nextInvoiceTotalTaxableRecurringAmount]: #nextinvoicetotaltaxablerecurringamount
+#### [nextInvoiceTotalTaxableRecurringAmount]
+The total recurring charge amount of an account's next invoice measured in US Dollars ($USD), assuming no changes or charges occur between now and time of billing.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[notificationSubscribers]: #notificationsubscribers
+#### [notificationSubscribers]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Subscriber'>SoftLayer_Notification_Subscriber[] </a>**
+
+-----
+[openAbuseTickets]: #openabusetickets
+#### [openAbuseTickets]
+The open abuse tickets associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[openAccountingTickets]: #openaccountingtickets
+#### [openAccountingTickets]
+The open accounting tickets associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[openBillingTickets]: #openbillingtickets
+#### [openBillingTickets]
+The open billing tickets associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[openCancellationRequests]: #opencancellationrequests
+#### [openCancellationRequests]
+An open ticket requesting cancellation of this server, if one exists.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request'>SoftLayer_Billing_Item_Cancellation_Request[] </a>**
+
+-----
+[openOtherTickets]: #openothertickets
+#### [openOtherTickets]
+The open tickets that do not belong to the abuse, accounting, sales, or support groups associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[openRecurringInvoices]: #openrecurringinvoices
+#### [openRecurringInvoices]
+An account's recurring invoices.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice[] </a>**
+
+-----
+[openSalesTickets]: #opensalestickets
+#### [openSalesTickets]
+The open sales tickets associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[openStackAccountLinks]: #openstackaccountlinks
+#### [openStackAccountLinks]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Link'>SoftLayer_Account_Link[] </a>**
+
+-----
+[openStackObjectStorage]: #openstackobjectstorage
+#### [openStackObjectStorage]
+An account's associated Openstack related Object Storage accounts.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+
+-----
+[openSupportTickets]: #opensupporttickets
+#### [openSupportTickets]
+The open support tickets associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[openTickets]: #opentickets
+#### [openTickets]
+All open tickets associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[openTicketsWaitingOnCustomer]: #openticketswaitingoncustomer
+#### [openTicketsWaitingOnCustomer]
+All open tickets associated with an account last edited by an employee.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[orders]: #orders
+#### [orders]
+An account's associated billing orders excluding upgrades.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order[] </a>**
+
+-----
+[orphanBillingItems]: #orphanbillingitems
+#### [orphanBillingItems]
+The billing items that have no parent billing item. These are items that don't necessarily belong to a single server.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+
+-----
+[ownedBrands]: #ownedbrands
+#### [ownedBrands]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand[] </a>**
+
+-----
+[ownedHardwareGenericComponentModels]: #ownedhardwaregenericcomponentmodels
+#### [ownedHardwareGenericComponentModels]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic[] </a>**
+
+-----
+[paymentProcessors]: #paymentprocessors
+#### [paymentProcessors]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Processor'>SoftLayer_Billing_Payment_Processor[] </a>**
+
+-----
+[pendingEvents]: #pendingevents
+#### [pendingEvents]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event[] </a>**
+
+-----
+[pendingInvoice]: #pendinginvoice
+#### [pendingInvoice]
+An account's latest open (pending) invoice.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a>**
+
+-----
+[pendingInvoiceTopLevelItems]: #pendinginvoicetoplevelitems
+#### [pendingInvoiceTopLevelItems]
+A list of top-level invoice items that are on an account's currently pending invoice.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a>**
+
+-----
+[pendingInvoiceTotalAmount]: #pendinginvoicetotalamount
+#### [pendingInvoiceTotalAmount]
+The total amount of an account's pending invoice, if one exists.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[pendingInvoiceTotalOneTimeAmount]: #pendinginvoicetotalonetimeamount
+#### [pendingInvoiceTotalOneTimeAmount]
+The total one-time charges for an account's pending invoice, if one exists. In other words, it is the sum of one-time charges, setup fees, and labor fees. It does not include taxes.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[pendingInvoiceTotalOneTimeTaxAmount]: #pendinginvoicetotalonetimetaxamount
+#### [pendingInvoiceTotalOneTimeTaxAmount]
+The sum of all the taxes related to one time charges for an account's pending invoice, if one exists.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[pendingInvoiceTotalRecurringAmount]: #pendinginvoicetotalrecurringamount
+#### [pendingInvoiceTotalRecurringAmount]
+The total recurring amount of an account's pending invoice, if one exists.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[pendingInvoiceTotalRecurringTaxAmount]: #pendinginvoicetotalrecurringtaxamount
+#### [pendingInvoiceTotalRecurringTaxAmount]
+The total amount of the recurring taxes on an account's pending invoice, if one exists.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[permissionGroups]: #permissiongroups
+#### [permissionGroups]
+An account's permission groups.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Group'>SoftLayer_User_Permission_Group[] </a>**
+
+-----
+[permissionRoles]: #permissionroles
+#### [permissionRoles]
+An account's user roles.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Role'>SoftLayer_User_Permission_Role[] </a>**
+
+-----
+[placementGroups]: #placementgroups
+#### [placementGroups]
+An account's associated virtual placement groups.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_PlacementGroup'>SoftLayer_Virtual_PlacementGroup[] </a>**
+
+-----
+[portableStorageVolumes]: #portablestoragevolumes
+#### [portableStorageVolumes]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image[] </a>**
+
+-----
+[postProvisioningHooks]: #postprovisioninghooks
+#### [postProvisioningHooks]
+Customer specified URIs that are downloaded onto a newly provisioned or reloaded server. If the URI is sent over https it will be executed directly on the server.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Hook'>SoftLayer_Provisioning_Hook[] </a>**
+
+-----
+[pptpVpnAllowedFlag]: #pptpvpnallowedflag
+#### [pptpVpnAllowedFlag]
+Boolean flag dictating whether or not this account supports PPTP VPN Access.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[pptpVpnUsers]: #pptpvpnusers
+#### [pptpVpnUsers]
+An account's associated portal users with PPTP VPN access. (Deprecated)  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a>**
+
+-----
+[previousRecurringRevenue]: #previousrecurringrevenue
+#### [previousRecurringRevenue]
+The total recurring amount for an accounts previous revenue.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[priceRestrictions]: #pricerestrictions
+#### [priceRestrictions]
+The item price that an account is restricted to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price_Account_Restriction'>SoftLayer_Product_Item_Price_Account_Restriction[] </a>**
+
+-----
+[priorityOneTickets]: #priorityonetickets
+#### [priorityOneTickets]
+All priority one tickets associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[privateAllotmentHardwareBandwidthDetails]: #privateallotmenthardwarebandwidthdetails
+#### [privateAllotmentHardwareBandwidthDetails]
+DEPRECATED - This information can be pulled directly through tapping keys now - DEPRECATED. The allotments for this account and their servers. The private inbound and outbound bandwidth is calculated for each server in addition to the daily average network traffic since the last billing date.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment[] </a>**
+
+-----
+[privateBlockDeviceTemplateGroups]: #privateblockdevicetemplategroups
+#### [privateBlockDeviceTemplateGroups]
+Private and shared template group objects (parent only) for an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group[] </a>**
+
+-----
+[privateIpAddresses]: #privateipaddresses
+#### [privateIpAddresses]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>**
+
+-----
+[privateNetworkVlans]: #privatenetworkvlans
+#### [privateNetworkVlans]
+The private network VLANs assigned to an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a>**
+
+-----
+[privateSubnets]: #privatesubnets
+#### [privateSubnets]
+All private subnets associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+
+-----
+[proofOfConceptAccountFlag]: #proofofconceptaccountflag
+#### [proofOfConceptAccountFlag]
+Boolean flag indicating whether or not this account is a Proof of Concept account.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[publicAllotmentHardwareBandwidthDetails]: #publicallotmenthardwarebandwidthdetails
+#### [publicAllotmentHardwareBandwidthDetails]
+DEPRECATED - This information can be pulled directly through tapping keys now - DEPRECATED. The allotments for this account and their servers. The public inbound and outbound bandwidth is calculated for each server in addition to the daily average network traffic since the last billing date.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment[] </a>**
+
+-----
+[publicIpAddresses]: #publicipaddresses
+#### [publicIpAddresses]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>**
+
+-----
+[publicNetworkVlans]: #publicnetworkvlans
+#### [publicNetworkVlans]
+The public network VLANs assigned to an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a>**
+
+-----
+[publicSubnets]: #publicsubnets
+#### [publicSubnets]
+All public network subnets associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+
+-----
+[quotes]: #quotes
+#### [quotes]
+An account's quotes.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Quote'>SoftLayer_Billing_Order_Quote[] </a>**
+
+-----
+[recentEvents]: #recentevents
+#### [recentEvents]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event[] </a>**
+
+-----
+[referralPartner]: #referralpartner
+#### [referralPartner]
+The Referral Partner for this account, if any.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[referredAccounts]: #referredaccounts
+#### [referredAccounts]
+If this is a account is a referral partner, the accounts this referral partner has referred  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account[] </a>**
+
+-----
+[regulatedWorkloads]: #regulatedworkloads
+#### [regulatedWorkloads]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Legal_RegulatedWorkload'>SoftLayer_Legal_RegulatedWorkload[] </a>**
+
+-----
+[remoteManagementCommandRequests]: #remotemanagementcommandrequests
+#### [remoteManagementCommandRequests]
+Remote management command requests for an account  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_RemoteManagement_Command_Request'>SoftLayer_Hardware_Component_RemoteManagement_Command_Request[] </a>**
+
+-----
+[replicationEvents]: #replicationevents
+#### [replicationEvents]
+The Replication events for all Network Storage volumes on an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Event'>SoftLayer_Network_Storage_Event[] </a>**
+
+-----
+[requireSilentIBMidUserCreation]: #requiresilentibmidusercreation
+#### [requireSilentIBMidUserCreation]
+Indicates whether newly created users under this account will be associated with IBMid via an email requiring a response, or not.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[reservedCapacityAgreements]: #reservedcapacityagreements
+#### [reservedCapacityAgreements]
+All reserved capacity agreements for an account  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Agreement'>SoftLayer_Account_Agreement[] </a>**
+
+-----
+[reservedCapacityGroups]: #reservedcapacitygroups
+#### [reservedCapacityGroups]
+The reserved capacity groups owned by this account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup'>SoftLayer_Virtual_ReservedCapacityGroup[] </a>**
+
+-----
+[resourceGroups]: #resourcegroups
+#### [resourceGroups]
+An account's associated top-level resource groups.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group[] </a>**
+
+-----
+[routers]: #routers
+#### [routers]
+All Routers that an accounts VLANs reside on  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[rwhoisData]: #rwhoisdata
+#### [rwhoisData]
+An account's reverse WHOIS data. This data is used when making SWIP requests.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Rwhois_Data'>SoftLayer_Network_Subnet_Rwhois_Data </a>**
+
+-----
+[samlAuthentication]: #samlauthentication
+#### [samlAuthentication]
+The SAML configuration for this account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Authentication_Saml'>SoftLayer_Account_Authentication_Saml </a>**
+
+-----
+[scaleGroups]: #scalegroups
+#### [scaleGroups]
+All scale groups on this account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group[] </a>**
+
+-----
+[secondaryDomains]: #secondarydomains
+#### [secondaryDomains]
+The secondary DNS records for a SoftLayer customer account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Secondary'>SoftLayer_Dns_Secondary[] </a>**
+
+-----
+[securityCertificates]: #securitycertificates
+#### [securityCertificates]
+Stored security certificates (ie. SSL)  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Certificate'>SoftLayer_Security_Certificate[] </a>**
+
+-----
+[securityGroups]: #securitygroups
+#### [securityGroups]
+The security groups belonging to this account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup[] </a>**
+
+-----
+[securityLevel]: #securitylevel
+#### [securityLevel]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Level'>SoftLayer_Security_Level </a>**
+
+-----
+[securityScanRequests]: #securityscanrequests
+#### [securityScanRequests]
+An account's vulnerability scan requests.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request'>SoftLayer_Network_Security_Scanner_Request[] </a>**
+
+-----
+[serviceBillingItems]: #servicebillingitems
+#### [serviceBillingItems]
+The service billing items that will be on an account's next invoice.   
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+
+-----
+[shipments]: #shipments
+#### [shipments]
+Shipments that belong to the customer's account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment'>SoftLayer_Account_Shipment[] </a>**
+
+-----
+[sshKeys]: #sshkeys
+#### [sshKeys]
+Customer specified SSH keys that can be implemented onto a newly provisioned or reloaded server.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Ssh_Key'>SoftLayer_Security_Ssh_Key[] </a>**
+
+-----
+[sslVpnUsers]: #sslvpnusers
+#### [sslVpnUsers]
+An account's associated portal users with SSL VPN access.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a>**
+
+-----
+[standardPoolVirtualGuests]: #standardpoolvirtualguests
+#### [standardPoolVirtualGuests]
+An account's virtual guest objects that are hosted on a user provisioned hypervisor.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[subnetRegistrationDetails]: #subnetregistrationdetails
+#### [subnetRegistrationDetails]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail'>SoftLayer_Account_Regional_Registry_Detail[] </a>**
+
+-----
+[subnetRegistrations]: #subnetregistrations
+#### [subnetRegistrations]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration'>SoftLayer_Network_Subnet_Registration[] </a>**
+
+-----
+[subnets]: #subnets
+#### [subnets]
+All network subnets associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+
+-----
+[supportRepresentatives]: #supportrepresentatives
+#### [supportRepresentatives]
+The SoftLayer employees that an account is assigned to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee[] </a>**
+
+-----
+[supportSubscriptions]: #supportsubscriptions
+#### [supportSubscriptions]
+The active support subscriptions for this account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+
+-----
+[supportTier]: #supporttier
+#### [supportTier]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[suppressInvoicesFlag]: #suppressinvoicesflag
+#### [suppressInvoicesFlag]
+A flag indicating to suppress invoices.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[tags]: #tags
+#### [tags]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag'>SoftLayer_Tag[] </a>**
+
+-----
+[tickets]: #tickets
+#### [tickets]
+An account's associated tickets.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[ticketsClosedInTheLastThreeDays]: #ticketsclosedinthelastthreedays
+#### [ticketsClosedInTheLastThreeDays]
+Tickets closed within the last 72 hours or last 10 tickets, whichever is less, associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[ticketsClosedToday]: #ticketsclosedtoday
+#### [ticketsClosedToday]
+Tickets closed today associated with an account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[transcodeAccounts]: #transcodeaccounts
+#### [transcodeAccounts]
+An account's associated Transcode account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Account'>SoftLayer_Network_Media_Transcode_Account[] </a>**
+
+-----
+[upgradeRequests]: #upgraderequests
+#### [upgradeRequests]
+An account's associated upgrade requests.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Upgrade_Request'>SoftLayer_Product_Upgrade_Request[] </a>**
+
+-----
+[users]: #users
+#### [users]
+An account's portal users.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a>**
+
+-----
+[validSecurityCertificates]: #validsecuritycertificates
+#### [validSecurityCertificates]
+Stored security certificates that are not expired (ie. SSL)  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Certificate'>SoftLayer_Security_Certificate[] </a>**
+
+-----
+[vdrUpdatesInProgressFlag]: #vdrupdatesinprogressflag
+#### [vdrUpdatesInProgressFlag]
+Return 0 if vpn updates are currently in progress on this account otherwise 1.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[virtualDedicatedRacks]: #virtualdedicatedracks
+#### [virtualDedicatedRacks]
+The bandwidth pooling for this account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment[] </a>**
+
+-----
+[virtualDiskImages]: #virtualdiskimages
+#### [virtualDiskImages]
+An account's associated virtual server virtual disk images.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image[] </a>**
+
+-----
+[virtualGuests]: #virtualguests
+#### [virtualGuests]
+An account's associated virtual guest objects.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[virtualGuestsOverBandwidthAllocation]: #virtualguestsoverbandwidthallocation
+#### [virtualGuestsOverBandwidthAllocation]
+An account's associated virtual guest objects currently over bandwidth allocation.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[virtualGuestsProjectedOverBandwidthAllocation]: #virtualguestsprojectedoverbandwidthallocation
+#### [virtualGuestsProjectedOverBandwidthAllocation]
+An account's associated virtual guest objects currently over bandwidth allocation.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[virtualGuestsWithCpanel]: #virtualguestswithcpanel
+#### [virtualGuestsWithCpanel]
+All virtual guests associated with an account that has the cPanel web hosting control panel installed.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[virtualGuestsWithMcafee]: #virtualguestswithmcafee
+#### [virtualGuestsWithMcafee]
+All virtual guests associated with an account that have McAfee Secure software components.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[virtualGuestsWithMcafeeAntivirusRedhat]: #virtualguestswithmcafeeantivirusredhat
+#### [virtualGuestsWithMcafeeAntivirusRedhat]
+All virtual guests associated with an account that have McAfee Secure AntiVirus for Redhat software components.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[virtualGuestsWithMcafeeAntivirusWindows]: #virtualguestswithmcafeeantiviruswindows
+#### [virtualGuestsWithMcafeeAntivirusWindows]
+All virtual guests associated with an account that has McAfee Secure AntiVirus for Windows software components.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[virtualGuestsWithMcafeeIntrusionDetectionSystem]: #virtualguestswithmcafeeintrusiondetectionsystem
+#### [virtualGuestsWithMcafeeIntrusionDetectionSystem]
+All virtual guests associated with an account that has McAfee Secure Intrusion Detection System software components.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[virtualGuestsWithPlesk]: #virtualguestswithplesk
+#### [virtualGuestsWithPlesk]
+All virtual guests associated with an account that has the Plesk web hosting control panel installed.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[virtualGuestsWithQuantastor]: #virtualguestswithquantastor
+#### [virtualGuestsWithQuantastor]
+All virtual guests associated with an account that have the QuantaStor storage system installed.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[virtualGuestsWithUrchin]: #virtualguestswithurchin
+#### [virtualGuestsWithUrchin]
+All virtual guests associated with an account that has the Urchin web traffic analytics package installed.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[virtualPrivateRack]: #virtualprivaterack
+#### [virtualPrivateRack]
+The bandwidth pooling for this account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment </a>**
+
+-----
+[virtualStorageArchiveRepositories]: #virtualstoragearchiverepositories
+#### [virtualStorageArchiveRepositories]
+An account's associated virtual server archived storage repositories.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository'>SoftLayer_Virtual_Storage_Repository[] </a>**
+
+-----
+[virtualStoragePublicRepositories]: #virtualstoragepublicrepositories
+#### [virtualStoragePublicRepositories]
+An account's associated virtual server public storage repositories.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository'>SoftLayer_Virtual_Storage_Repository[] </a>**
+
+-----
+[vpcVirtualGuests]: #vpcvirtualguests
+#### [vpcVirtualGuests]
+An account's associated VPC configured virtual guest objects.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+
+## Count
+
+-----
+[abuseEmailCount]: #abuseemailcount
+#### [abuseEmailCount]
+A count of email addresses that are responsible for abuse and legal inquiries on behalf of an account. For instance, new legal and abuse tickets are sent to these addresses.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[accountContactCount]: #accountcontactcount
+#### [accountContactCount]
+A count of the account contacts on an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[accountLicenseCount]: #accountlicensecount
+#### [accountLicenseCount]
+A count of the account software licenses owned by an account   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[accountLinkCount]: #accountlinkcount
+#### [accountLinkCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[activeAccountLicenseCount]: #activeaccountlicensecount
+#### [activeAccountLicenseCount]
+A count of the active account software licenses owned by an account   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[activeAddressCount]: #activeaddresscount
+#### [activeAddressCount]
+A count of the active address(es) that belong to an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[activeAgreementCount]: #activeagreementcount
+#### [activeAgreementCount]
+A count of all active agreements for an account   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[activeBillingAgreementCount]: #activebillingagreementcount
+#### [activeBillingAgreementCount]
+A count of all billing agreements for an account   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[activeColocationContainerCount]: #activecolocationcontainercount
+#### [activeColocationContainerCount]
+A count of the account's active top level colocation containers.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[activeFlexibleCreditEnrollmentCount]: #activeflexiblecreditenrollmentcount
+#### [activeFlexibleCreditEnrollmentCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[activeNotificationSubscriberCount]: #activenotificationsubscribercount
+#### [activeNotificationSubscriberCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[activeQuoteCount]: #activequotecount
+#### [activeQuoteCount]
+A count of an account's non-expired quotes.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[activeReservedCapacityAgreementCount]: #activereservedcapacityagreementcount
+#### [activeReservedCapacityAgreementCount]
+A count of active reserved capacity agreements for an account   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[activeVirtualLicenseCount]: #activevirtuallicensecount
+#### [activeVirtualLicenseCount]
+A count of the virtual software licenses controlled by an account   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[adcLoadBalancerCount]: #adcloadbalancercount
+#### [adcLoadBalancerCount]
+A count of an account's associated load balancers.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[addressCount]: #addresscount
+#### [addressCount]
+A count of all the address(es) that belong to an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[allCommissionBillingItemCount]: #allcommissionbillingitemcount
+#### [allCommissionBillingItemCount]
+A count of the billing items that will be on an account's next invoice.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[allRecurringTopLevelBillingItemCount]: #allrecurringtoplevelbillingitemcount
+#### [allRecurringTopLevelBillingItemCount]
+A count of the billing items that will be on an account's next invoice.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[allRecurringTopLevelBillingItemsUnfilteredCount]: #allrecurringtoplevelbillingitemsunfilteredcount
+#### [allRecurringTopLevelBillingItemsUnfilteredCount]
+A count of the billing items that will be on an account's next invoice. Does not consider associated items.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[allSubnetBillingItemCount]: #allsubnetbillingitemcount
+#### [allSubnetBillingItemCount]
+A count of the billing items that will be on an account's next invoice.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[allTopLevelBillingItemCount]: #alltoplevelbillingitemcount
+#### [allTopLevelBillingItemCount]
+A count of all billing items of an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[allTopLevelBillingItemsUnfilteredCount]: #alltoplevelbillingitemsunfilteredcount
+#### [allTopLevelBillingItemsUnfilteredCount]
+A count of the billing items that will be on an account's next invoice. Does not consider associated items.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[applicationDeliveryControllerCount]: #applicationdeliverycontrollercount
+#### [applicationDeliveryControllerCount]
+A count of an account's associated application delivery controller records.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[attributeCount]: #attributecount
+#### [attributeCount]
+A count of the account attribute values for a SoftLayer customer account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[availablePublicNetworkVlanCount]: #availablepublicnetworkvlancount
+#### [availablePublicNetworkVlanCount]
+A count of the public network VLANs assigned to an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[bandwidthAllotmentCount]: #bandwidthallotmentcount
+#### [bandwidthAllotmentCount]
+A count of the bandwidth allotments for an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[bandwidthAllotmentsOverAllocationCount]: #bandwidthallotmentsoverallocationcount
+#### [bandwidthAllotmentsOverAllocationCount]
+A count of the bandwidth allotments for an account currently over allocation.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[bandwidthAllotmentsProjectedOverAllocationCount]: #bandwidthallotmentsprojectedoverallocationcount
+#### [bandwidthAllotmentsProjectedOverAllocationCount]
+A count of the bandwidth allotments for an account projected to go over allocation.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[bareMetalInstanceCount]: #baremetalinstancecount
+#### [bareMetalInstanceCount]
+A count of an account's associated bare metal server objects.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[billingAgreementCount]: #billingagreementcount
+#### [billingAgreementCount]
+A count of all billing agreements for an account   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[blockDeviceTemplateGroupCount]: #blockdevicetemplategroupcount
+#### [blockDeviceTemplateGroupCount]
+A count of private template group objects (parent and children) and the shared template group objects (parent only) for an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[cartCount]: #cartcount
+#### [cartCount]
+A count of an account's active carts.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[catalystEnrollmentCount]: #catalystenrollmentcount
+#### [catalystEnrollmentCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[closedTicketCount]: #closedticketcount
+#### [closedTicketCount]
+A count of all closed tickets associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[datacentersWithSubnetAllocationCount]: #datacenterswithsubnetallocationcount
+#### [datacentersWithSubnetAllocationCount]
+A count of datacenters which contain subnets that the account has access to route.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[dedicatedHostCount]: #dedicatedhostcount
+#### [dedicatedHostCount]
+A count of an account's associated virtual dedicated host objects.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[displaySupportRepresentativeAssignmentCount]: #displaysupportrepresentativeassignmentcount
+#### [displaySupportRepresentativeAssignmentCount]
+A count of the SoftLayer employees that an account is assigned to.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[domainCount]: #domaincount
+#### [domainCount]
+A count of the DNS domains associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[domainRegistrationCount]: #domainregistrationcount
+#### [domainRegistrationCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[domainsWithoutSecondaryDnsRecordCount]: #domainswithoutsecondarydnsrecordcount
+#### [domainsWithoutSecondaryDnsRecordCount]
+A count of the DNS domains associated with an account that were not created as a result of a secondary DNS zone transfer.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[evaultMasterUserCount]: #evaultmasterusercount
+#### [evaultMasterUserCount]
+A count of an account's master EVault user. This is only used when an account has EVault service.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[evaultNetworkStorageCount]: #evaultnetworkstoragecount
+#### [evaultNetworkStorageCount]
+A count of an account's associated EVault storage volumes.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[expiredSecurityCertificateCount]: #expiredsecuritycertificatecount
+#### [expiredSecurityCertificateCount]
+A count of stored security certificates that are expired (ie. SSL)   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[facilityLogCount]: #facilitylogcount
+#### [facilityLogCount]
+A count of logs of who entered a colocation area which is assigned to this account, or when a user under this account enters a datacenter.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[flexibleCreditEnrollmentCount]: #flexiblecreditenrollmentcount
+#### [flexibleCreditEnrollmentCount]
+A count of all of the account's current and former Flexible Credit enrollments.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[globalIpRecordCount]: #globaliprecordcount
+#### [globalIpRecordCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[globalIpv4RecordCount]: #globalipv4recordcount
+#### [globalIpv4RecordCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[globalIpv6RecordCount]: #globalipv6recordcount
+#### [globalIpv6RecordCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[globalLoadBalancerAccountCount]: #globalloadbalanceraccountcount
+#### [globalLoadBalancerAccountCount]
+A count of the global load balancer accounts for a softlayer customer account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hardwareCount]: #hardwarecount
+#### [hardwareCount]
+A count of an account's associated hardware objects.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hardwareOverBandwidthAllocationCount]: #hardwareoverbandwidthallocationcount
+#### [hardwareOverBandwidthAllocationCount]
+A count of an account's associated hardware objects currently over bandwidth allocation.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hardwareProjectedOverBandwidthAllocationCount]: #hardwareprojectedoverbandwidthallocationcount
+#### [hardwareProjectedOverBandwidthAllocationCount]
+A count of an account's associated hardware objects projected to go over bandwidth allocation.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hardwareWithCpanelCount]: #hardwarewithcpanelcount
+#### [hardwareWithCpanelCount]
+A count of all hardware associated with an account that has the cPanel web hosting control panel installed.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hardwareWithHelmCount]: #hardwarewithhelmcount
+#### [hardwareWithHelmCount]
+A count of all hardware associated with an account that has the Helm web hosting control panel installed.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hardwareWithMcafeeAntivirusRedhatCount]: #hardwarewithmcafeeantivirusredhatcount
+#### [hardwareWithMcafeeAntivirusRedhatCount]
+A count of all hardware associated with an account that has McAfee Secure AntiVirus for Redhat software components.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hardwareWithMcafeeAntivirusWindowCount]: #hardwarewithmcafeeantiviruswindowcount
+#### [hardwareWithMcafeeAntivirusWindowCount]
+A count of all hardware associated with an account that has McAfee Secure AntiVirus for Windows software components.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hardwareWithMcafeeCount]: #hardwarewithmcafeecount
+#### [hardwareWithMcafeeCount]
+A count of all hardware associated with an account that has McAfee Secure software components.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hardwareWithMcafeeIntrusionDetectionSystemCount]: #hardwarewithmcafeeintrusiondetectionsystemcount
+#### [hardwareWithMcafeeIntrusionDetectionSystemCount]
+A count of all hardware associated with an account that has McAfee Secure Intrusion Detection System software components.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hardwareWithPleskCount]: #hardwarewithpleskcount
+#### [hardwareWithPleskCount]
+A count of all hardware associated with an account that has the Plesk web hosting control panel installed.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hardwareWithQuantastorCount]: #hardwarewithquantastorcount
+#### [hardwareWithQuantastorCount]
+A count of all hardware associated with an account that has the QuantaStor storage system installed.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hardwareWithUrchinCount]: #hardwarewithurchincount
+#### [hardwareWithUrchinCount]
+A count of all hardware associated with an account that has the Urchin web traffic analytics package installed.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hardwareWithWindowCount]: #hardwarewithwindowcount
+#### [hardwareWithWindowCount]
+A count of all hardware associated with an account that is running a version of the Microsoft Windows operating system.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hourlyBareMetalInstanceCount]: #hourlybaremetalinstancecount
+#### [hourlyBareMetalInstanceCount]
+A count of an account's associated hourly bare metal server objects.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hourlyServiceBillingItemCount]: #hourlyservicebillingitemcount
+#### [hourlyServiceBillingItemCount]
+A count of hourly service billing items that will be on an account's next invoice.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hourlyVirtualGuestCount]: #hourlyvirtualguestcount
+#### [hourlyVirtualGuestCount]
+A count of an account's associated hourly virtual guest objects.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hubNetworkStorageCount]: #hubnetworkstoragecount
+#### [hubNetworkStorageCount]
+A count of an account's associated Virtual Storage volumes.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[internalNoteCount]: #internalnotecount
+#### [internalNoteCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[invoiceCount]: #invoicecount
+#### [invoiceCount]
+A count of an account's associated billing invoices.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[ipAddressCount]: #ipaddresscount
+#### [ipAddressCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[iscsiNetworkStorageCount]: #iscsinetworkstoragecount
+#### [iscsiNetworkStorageCount]
+A count of an account's associated iSCSI storage volumes.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[lastFiveClosedAbuseTicketCount]: #lastfiveclosedabuseticketcount
+#### [lastFiveClosedAbuseTicketCount]
+A count of the five most recently closed abuse tickets associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[lastFiveClosedAccountingTicketCount]: #lastfiveclosedaccountingticketcount
+#### [lastFiveClosedAccountingTicketCount]
+A count of the five most recently closed accounting tickets associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[lastFiveClosedOtherTicketCount]: #lastfiveclosedotherticketcount
+#### [lastFiveClosedOtherTicketCount]
+A count of the five most recently closed tickets that do not belong to the abuse, accounting, sales, or support groups associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[lastFiveClosedSalesTicketCount]: #lastfiveclosedsalesticketcount
+#### [lastFiveClosedSalesTicketCount]
+A count of the five most recently closed sales tickets associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[lastFiveClosedSupportTicketCount]: #lastfiveclosedsupportticketcount
+#### [lastFiveClosedSupportTicketCount]
+A count of the five most recently closed support tickets associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[lastFiveClosedTicketCount]: #lastfiveclosedticketcount
+#### [lastFiveClosedTicketCount]
+A count of the five most recently closed tickets associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[legacyBandwidthAllotmentCount]: #legacybandwidthallotmentcount
+#### [legacyBandwidthAllotmentCount]
+A count of the legacy bandwidth allotments for an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[loadBalancerCount]: #loadbalancercount
+#### [loadBalancerCount]
+A count of an account's associated load balancers.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[lockboxNetworkStorageCount]: #lockboxnetworkstoragecount
+#### [lockboxNetworkStorageCount]
+A count of an account's associated Lockbox storage volumes.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[manualPaymentsUnderReviewCount]: #manualpaymentsunderreviewcount
+#### [manualPaymentsUnderReviewCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[mediaDataTransferRequestCount]: #mediadatatransferrequestcount
+#### [mediaDataTransferRequestCount]
+A count of an account's media transfer service requests.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[monthlyBareMetalInstanceCount]: #monthlybaremetalinstancecount
+#### [monthlyBareMetalInstanceCount]
+A count of an account's associated monthly bare metal server objects.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[monthlyVirtualGuestCount]: #monthlyvirtualguestcount
+#### [monthlyVirtualGuestCount]
+A count of an account's associated monthly virtual guest objects.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[nasNetworkStorageCount]: #nasnetworkstoragecount
+#### [nasNetworkStorageCount]
+A count of an account's associated NAS storage volumes.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkGatewayCount]: #networkgatewaycount
+#### [networkGatewayCount]
+A count of all network gateway devices on this account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkHardwareCount]: #networkhardwarecount
+#### [networkHardwareCount]
+A count of an account's associated network hardware.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkMessageDeliveryAccountCount]: #networkmessagedeliveryaccountcount
+#### [networkMessageDeliveryAccountCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkMonitorDownHardwareCount]: #networkmonitordownhardwarecount
+#### [networkMonitorDownHardwareCount]
+A count of hardware which is currently experiencing a service failure.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkMonitorDownVirtualGuestCount]: #networkmonitordownvirtualguestcount
+#### [networkMonitorDownVirtualGuestCount]
+A count of virtual guest which is currently experiencing a service failure.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkMonitorRecoveringHardwareCount]: #networkmonitorrecoveringhardwarecount
+#### [networkMonitorRecoveringHardwareCount]
+A count of hardware which is currently recovering from a service failure.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkMonitorRecoveringVirtualGuestCount]: #networkmonitorrecoveringvirtualguestcount
+#### [networkMonitorRecoveringVirtualGuestCount]
+A count of virtual guest which is currently recovering from a service failure.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkMonitorUpHardwareCount]: #networkmonitoruphardwarecount
+#### [networkMonitorUpHardwareCount]
+A count of hardware which is currently online.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkMonitorUpVirtualGuestCount]: #networkmonitorupvirtualguestcount
+#### [networkMonitorUpVirtualGuestCount]
+A count of virtual guest which is currently online.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkStorageCount]: #networkstoragecount
+#### [networkStorageCount]
+A count of an account's associated storage volumes. This includes Lockbox, NAS, EVault, and iSCSI volumes.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkStorageGroupCount]: #networkstoragegroupcount
+#### [networkStorageGroupCount]
+A count of an account's Network Storage groups.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkTunnelContextCount]: #networktunnelcontextcount
+#### [networkTunnelContextCount]
+A count of iPSec network tunnels for an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkVlanCount]: #networkvlancount
+#### [networkVlanCount]
+A count of all network VLANs assigned to an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[nextBillingPublicAllotmentHardwareBandwidthDetailCount]: #nextbillingpublicallotmenthardwarebandwidthdetailcount
+#### [nextBillingPublicAllotmentHardwareBandwidthDetailCount]
+A count of dEPRECATED - This information can be pulled directly through tapping keys now - DEPRECATED. The allotments for this account and their servers for the next billing cycle. The public inbound and outbound bandwidth is calculated for each server in addition to the daily average network traffic since the last billing date.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[nextInvoiceTopLevelBillingItemCount]: #nextinvoicetoplevelbillingitemcount
+#### [nextInvoiceTopLevelBillingItemCount]
+A count of the billing items that will be on an account's next invoice.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[notificationSubscriberCount]: #notificationsubscribercount
+#### [notificationSubscriberCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[openAbuseTicketCount]: #openabuseticketcount
+#### [openAbuseTicketCount]
+A count of the open abuse tickets associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[openAccountingTicketCount]: #openaccountingticketcount
+#### [openAccountingTicketCount]
+A count of the open accounting tickets associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[openBillingTicketCount]: #openbillingticketcount
+#### [openBillingTicketCount]
+A count of the open billing tickets associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[openCancellationRequestCount]: #opencancellationrequestcount
+#### [openCancellationRequestCount]
+A count of an open ticket requesting cancellation of this server, if one exists.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[openOtherTicketCount]: #openotherticketcount
+#### [openOtherTicketCount]
+A count of the open tickets that do not belong to the abuse, accounting, sales, or support groups associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[openRecurringInvoiceCount]: #openrecurringinvoicecount
+#### [openRecurringInvoiceCount]
+A count of an account's recurring invoices.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[openSalesTicketCount]: #opensalesticketcount
+#### [openSalesTicketCount]
+A count of the open sales tickets associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[openStackAccountLinkCount]: #openstackaccountlinkcount
+#### [openStackAccountLinkCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[openStackObjectStorageCount]: #openstackobjectstoragecount
+#### [openStackObjectStorageCount]
+A count of an account's associated Openstack related Object Storage accounts.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[openSupportTicketCount]: #opensupportticketcount
+#### [openSupportTicketCount]
+A count of the open support tickets associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[openTicketCount]: #openticketcount
+#### [openTicketCount]
+A count of all open tickets associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[openTicketsWaitingOnCustomerCount]: #openticketswaitingoncustomercount
+#### [openTicketsWaitingOnCustomerCount]
+A count of all open tickets associated with an account last edited by an employee.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[orderCount]: #ordercount
+#### [orderCount]
+A count of an account's associated billing orders excluding upgrades.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[orphanBillingItemCount]: #orphanbillingitemcount
+#### [orphanBillingItemCount]
+A count of the billing items that have no parent billing item. These are items that don't necessarily belong to a single server.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[ownedBrandCount]: #ownedbrandcount
+#### [ownedBrandCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[ownedHardwareGenericComponentModelCount]: #ownedhardwaregenericcomponentmodelcount
+#### [ownedHardwareGenericComponentModelCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[paymentProcessorCount]: #paymentprocessorcount
+#### [paymentProcessorCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[pendingEventCount]: #pendingeventcount
+#### [pendingEventCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[pendingInvoiceTopLevelItemCount]: #pendinginvoicetoplevelitemcount
+#### [pendingInvoiceTopLevelItemCount]
+A count of a list of top-level invoice items that are on an account's currently pending invoice.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[permissionGroupCount]: #permissiongroupcount
+#### [permissionGroupCount]
+A count of an account's permission groups.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[permissionRoleCount]: #permissionrolecount
+#### [permissionRoleCount]
+A count of an account's user roles.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[placementGroupCount]: #placementgroupcount
+#### [placementGroupCount]
+A count of an account's associated virtual placement groups.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[portableStorageVolumeCount]: #portablestoragevolumecount
+#### [portableStorageVolumeCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[postProvisioningHookCount]: #postprovisioninghookcount
+#### [postProvisioningHookCount]
+A count of customer specified URIs that are downloaded onto a newly provisioned or reloaded server. If the URI is sent over https it will be executed directly on the server.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[pptpVpnUserCount]: #pptpvpnusercount
+#### [pptpVpnUserCount]
+A count of an account's associated portal users with PPTP VPN access. (Deprecated)   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[priceRestrictionCount]: #pricerestrictioncount
+#### [priceRestrictionCount]
+A count of the item price that an account is restricted to.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[priorityOneTicketCount]: #priorityoneticketcount
+#### [priorityOneTicketCount]
+A count of all priority one tickets associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[privateAllotmentHardwareBandwidthDetailCount]: #privateallotmenthardwarebandwidthdetailcount
+#### [privateAllotmentHardwareBandwidthDetailCount]
+A count of dEPRECATED - This information can be pulled directly through tapping keys now - DEPRECATED. The allotments for this account and their servers. The private inbound and outbound bandwidth is calculated for each server in addition to the daily average network traffic since the last billing date.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[privateBlockDeviceTemplateGroupCount]: #privateblockdevicetemplategroupcount
+#### [privateBlockDeviceTemplateGroupCount]
+A count of private and shared template group objects (parent only) for an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[privateIpAddressCount]: #privateipaddresscount
+#### [privateIpAddressCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[privateNetworkVlanCount]: #privatenetworkvlancount
+#### [privateNetworkVlanCount]
+A count of the private network VLANs assigned to an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[privateSubnetCount]: #privatesubnetcount
+#### [privateSubnetCount]
+A count of all private subnets associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[publicAllotmentHardwareBandwidthDetailCount]: #publicallotmenthardwarebandwidthdetailcount
+#### [publicAllotmentHardwareBandwidthDetailCount]
+A count of dEPRECATED - This information can be pulled directly through tapping keys now - DEPRECATED. The allotments for this account and their servers. The public inbound and outbound bandwidth is calculated for each server in addition to the daily average network traffic since the last billing date.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[publicIpAddressCount]: #publicipaddresscount
+#### [publicIpAddressCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[publicNetworkVlanCount]: #publicnetworkvlancount
+#### [publicNetworkVlanCount]
+A count of the public network VLANs assigned to an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[publicSubnetCount]: #publicsubnetcount
+#### [publicSubnetCount]
+A count of all public network subnets associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[quoteCount]: #quotecount
+#### [quoteCount]
+A count of an account's quotes.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[recentEventCount]: #recenteventcount
+#### [recentEventCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[referredAccountCount]: #referredaccountcount
+#### [referredAccountCount]
+A count of if this is a account is a referral partner, the accounts this referral partner has referred   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[regulatedWorkloadCount]: #regulatedworkloadcount
+#### [regulatedWorkloadCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[remoteManagementCommandRequestCount]: #remotemanagementcommandrequestcount
+#### [remoteManagementCommandRequestCount]
+A count of remote management command requests for an account   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[replicationEventCount]: #replicationeventcount
+#### [replicationEventCount]
+A count of the Replication events for all Network Storage volumes on an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[reservedCapacityAgreementCount]: #reservedcapacityagreementcount
+#### [reservedCapacityAgreementCount]
+A count of all reserved capacity agreements for an account   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[reservedCapacityGroupCount]: #reservedcapacitygroupcount
+#### [reservedCapacityGroupCount]
+A count of the reserved capacity groups owned by this account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[resourceGroupCount]: #resourcegroupcount
+#### [resourceGroupCount]
+A count of an account's associated top-level resource groups.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[routerCount]: #routercount
+#### [routerCount]
+A count of all Routers that an accounts VLANs reside on   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[scaleGroupCount]: #scalegroupcount
+#### [scaleGroupCount]
+A count of all scale groups on this account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[secondaryDomainCount]: #secondarydomaincount
+#### [secondaryDomainCount]
+A count of the secondary DNS records for a SoftLayer customer account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[securityCertificateCount]: #securitycertificatecount
+#### [securityCertificateCount]
+A count of stored security certificates (ie. SSL)   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[securityGroupCount]: #securitygroupcount
+#### [securityGroupCount]
+A count of the security groups belonging to this account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[securityScanRequestCount]: #securityscanrequestcount
+#### [securityScanRequestCount]
+A count of an account's vulnerability scan requests.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[serviceBillingItemCount]: #servicebillingitemcount
+#### [serviceBillingItemCount]
+A count of the service billing items that will be on an account's next invoice.    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[shipmentCount]: #shipmentcount
+#### [shipmentCount]
+A count of shipments that belong to the customer's account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[sshKeyCount]: #sshkeycount
+#### [sshKeyCount]
+A count of customer specified SSH keys that can be implemented onto a newly provisioned or reloaded server.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[sslVpnUserCount]: #sslvpnusercount
+#### [sslVpnUserCount]
+A count of an account's associated portal users with SSL VPN access.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[standardPoolVirtualGuestCount]: #standardpoolvirtualguestcount
+#### [standardPoolVirtualGuestCount]
+A count of an account's virtual guest objects that are hosted on a user provisioned hypervisor.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[subnetCount]: #subnetcount
+#### [subnetCount]
+A count of all network subnets associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[subnetRegistrationCount]: #subnetregistrationcount
+#### [subnetRegistrationCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[subnetRegistrationDetailCount]: #subnetregistrationdetailcount
+#### [subnetRegistrationDetailCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[supportRepresentativeCount]: #supportrepresentativecount
+#### [supportRepresentativeCount]
+A count of the SoftLayer employees that an account is assigned to.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[supportSubscriptionCount]: #supportsubscriptioncount
+#### [supportSubscriptionCount]
+A count of the active support subscriptions for this account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[tagCount]: #tagcount
+#### [tagCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[ticketCount]: #ticketcount
+#### [ticketCount]
+A count of an account's associated tickets.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[ticketsClosedInTheLastThreeDaysCount]: #ticketsclosedinthelastthreedayscount
+#### [ticketsClosedInTheLastThreeDaysCount]
+A count of tickets closed within the last 72 hours or last 10 tickets, whichever is less, associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[ticketsClosedTodayCount]: #ticketsclosedtodaycount
+#### [ticketsClosedTodayCount]
+A count of tickets closed today associated with an account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[transcodeAccountCount]: #transcodeaccountcount
+#### [transcodeAccountCount]
+A count of an account's associated Transcode account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[upgradeRequestCount]: #upgraderequestcount
+#### [upgradeRequestCount]
+A count of an account's associated upgrade requests.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[userCount]: #usercount
+#### [userCount]
+A count of an account's portal users.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[validSecurityCertificateCount]: #validsecuritycertificatecount
+#### [validSecurityCertificateCount]
+A count of stored security certificates that are not expired (ie. SSL)   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[virtualDedicatedRackCount]: #virtualdedicatedrackcount
+#### [virtualDedicatedRackCount]
+A count of the bandwidth pooling for this account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[virtualDiskImageCount]: #virtualdiskimagecount
+#### [virtualDiskImageCount]
+A count of an account's associated virtual server virtual disk images.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[virtualGuestCount]: #virtualguestcount
+#### [virtualGuestCount]
+A count of an account's associated virtual guest objects.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[virtualGuestsOverBandwidthAllocationCount]: #virtualguestsoverbandwidthallocationcount
+#### [virtualGuestsOverBandwidthAllocationCount]
+A count of an account's associated virtual guest objects currently over bandwidth allocation.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[virtualGuestsProjectedOverBandwidthAllocationCount]: #virtualguestsprojectedoverbandwidthallocationcount
+#### [virtualGuestsProjectedOverBandwidthAllocationCount]
+A count of an account's associated virtual guest objects currently over bandwidth allocation.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[virtualGuestsWithCpanelCount]: #virtualguestswithcpanelcount
+#### [virtualGuestsWithCpanelCount]
+A count of all virtual guests associated with an account that has the cPanel web hosting control panel installed.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[virtualGuestsWithMcafeeAntivirusRedhatCount]: #virtualguestswithmcafeeantivirusredhatcount
+#### [virtualGuestsWithMcafeeAntivirusRedhatCount]
+A count of all virtual guests associated with an account that have McAfee Secure AntiVirus for Redhat software components.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[virtualGuestsWithMcafeeAntivirusWindowCount]: #virtualguestswithmcafeeantiviruswindowcount
+#### [virtualGuestsWithMcafeeAntivirusWindowCount]
+A count of all virtual guests associated with an account that has McAfee Secure AntiVirus for Windows software components.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[virtualGuestsWithMcafeeCount]: #virtualguestswithmcafeecount
+#### [virtualGuestsWithMcafeeCount]
+A count of all virtual guests associated with an account that have McAfee Secure software components.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[virtualGuestsWithMcafeeIntrusionDetectionSystemCount]: #virtualguestswithmcafeeintrusiondetectionsystemcount
+#### [virtualGuestsWithMcafeeIntrusionDetectionSystemCount]
+A count of all virtual guests associated with an account that has McAfee Secure Intrusion Detection System software components.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[virtualGuestsWithPleskCount]: #virtualguestswithpleskcount
+#### [virtualGuestsWithPleskCount]
+A count of all virtual guests associated with an account that has the Plesk web hosting control panel installed.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[virtualGuestsWithQuantastorCount]: #virtualguestswithquantastorcount
+#### [virtualGuestsWithQuantastorCount]
+A count of all virtual guests associated with an account that have the QuantaStor storage system installed.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[virtualGuestsWithUrchinCount]: #virtualguestswithurchincount
+#### [virtualGuestsWithUrchinCount]
+A count of all virtual guests associated with an account that has the Urchin web traffic analytics package installed.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[virtualStorageArchiveRepositoryCount]: #virtualstoragearchiverepositorycount
+#### [virtualStorageArchiveRepositoryCount]
+A count of an account's associated virtual server archived storage repositories.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[virtualStoragePublicRepositoryCount]: #virtualstoragepublicrepositorycount
+#### [virtualStoragePublicRepositoryCount]
+A count of an account's associated virtual server public storage repositories.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[vpcVirtualGuestCount]: #vpcvirtualguestcount
+#### [vpcVirtualGuestCount]
+A count of an account's associated VPC configured virtual guest objects.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

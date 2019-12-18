@@ -30,65 +30,54 @@ The SoftLayer_Metric_Tracking_Object service contains methods that allow users t
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Metric_Tracking_Object/getBackboneBandwidthGraph'> getBackboneBandwidthGraph</a> </span>
-            <div class='views-field-body'>Retrieve a graph of a SoftLayer backbone's recent traffic activity.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Metric_Tracking_Object/getBandwidthData'> getBandwidthData</a> </span>
-            <div class='views-field-body'>Retrieve raw bandwidth data from a tracking object.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Metric_Tracking_Object/getBandwidthGraph'> getBandwidthGraph</a> </span>
-            <div class='views-field-body'>Retrieve a bandwidth graph.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Metric_Tracking_Object/getBandwidthTotal'> getBandwidthTotal</a> </span>
-            <div class='views-field-body'>Retrieve the total bandwidth used within a given time frame.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Metric_Tracking_Object/getCustomGraphData'> getCustomGraphData</a> </span>
-            <div class='views-field-body'>Fetch metric data using the graph container class.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Metric_Tracking_Object/getDetailsForDateRange'> getDetailsForDateRange</a> </span>
-            <div class='views-field-body'>Retrieve metric detail data over a date range.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Metric_Tracking_Object/getGraph'> getGraph</a> </span>
-            <div class='views-field-body'>Retrieve a graph of a virtual hosting platform's per instance use.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Metric_Tracking_Object/getMetricDataTypes'> getMetricDataTypes</a> </span>
-            <div class='views-field-body'>Returns valid metric data types for a tracking object</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Metric_Tracking_Object/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Metric_Tracking_Object record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Metric_Tracking_Object/getSummary'> getSummary</a> </span>
-            <div class='views-field-body'>Retrieve metric summary.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Metric_Tracking_Object/getSummaryData'> getSummaryData</a> </span>
-            <div class='views-field-body'>Returns the metric data for the date range provided</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Metric_Tracking_Object/getType'> getType</a> </span>
-            <div class='views-field-body'>Retrieve the type of data that a tracking object polls.</div>
-        </div>
-        </div>
+</div>
+
+#### [getBackboneBandwidthGraph](/reference/services/SoftLayer_Metric_Tracking_Object/getBackboneBandwidthGraph)
+Retrieve a graph of a SoftLayer backbone's recent traffic activity.
+
+#### [getBandwidthData](/reference/services/SoftLayer_Metric_Tracking_Object/getBandwidthData)
+Retrieve raw bandwidth data from a tracking object.
+
+#### [getBandwidthGraph](/reference/services/SoftLayer_Metric_Tracking_Object/getBandwidthGraph)
+Retrieve a bandwidth graph.
+
+#### [getBandwidthTotal](/reference/services/SoftLayer_Metric_Tracking_Object/getBandwidthTotal)
+Retrieve the total bandwidth used within a given time frame.
+
+#### [getCustomGraphData](/reference/services/SoftLayer_Metric_Tracking_Object/getCustomGraphData)
+Fetch metric data using the graph container class.
+
+#### [getDetailsForDateRange](/reference/services/SoftLayer_Metric_Tracking_Object/getDetailsForDateRange)
+Retrieve metric detail data over a date range.
+
+#### [getGraph](/reference/services/SoftLayer_Metric_Tracking_Object/getGraph)
+Retrieve a graph of a virtual hosting platform's per instance use.
+
+#### [getMetricDataTypes](/reference/services/SoftLayer_Metric_Tracking_Object/getMetricDataTypes)
+Returns valid metric data types for a tracking object
+
+#### [getObject](/reference/services/SoftLayer_Metric_Tracking_Object/getObject)
+Retrieve a SoftLayer_Metric_Tracking_Object record.
+
+#### [getSummary](/reference/services/SoftLayer_Metric_Tracking_Object/getSummary)
+Retrieve metric summary.
+
+#### [getSummaryData](/reference/services/SoftLayer_Metric_Tracking_Object/getSummaryData)
+Returns the metric data for the date range provided
+
+#### [getType](/reference/services/SoftLayer_Metric_Tracking_Object/getType)
+Retrieve the type of data that a tracking object polls.
+
 </div>
 

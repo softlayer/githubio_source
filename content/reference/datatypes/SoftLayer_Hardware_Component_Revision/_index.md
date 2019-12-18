@@ -36,83 +36,59 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#firmwareVersionId" name=firmwareVersionId>firmwareVersionId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareComponentId" name=hardwareComponentId>hardwareComponentId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#biosDate" name=biosDate>biosDate</a>
-            </span>
-            <div class='views-field-body'>The firmware build date </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#firmware" name=firmware>firmware</a>
-            </span>
-            <div class='views-field-body'>The Firmware installed on this record's Hardware Component. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware'>SoftLayer_Hardware_Component_Firmware </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareComponent" name=hardwareComponent>hardwareComponent</a>
-            </span>
-            <div class='views-field-body'>The Hardware Component this revision record applies to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#revision" name=revision>revision</a>
-            </span>
-            <div class='views-field-body'>The firmware revision </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[firmwareVersionId]: #firmwareversionid
+#### [firmwareVersionId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[hardwareComponentId]: #hardwarecomponentid
+#### [hardwareComponentId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[biosDate]: #biosdate
+#### [biosDate]
+The firmware build date  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[firmware]: #firmware
+#### [firmware]
+The Firmware installed on this record's Hardware Component.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware'>SoftLayer_Hardware_Component_Firmware </a>**
+
+-----
+[hardwareComponent]: #hardwarecomponent
+#### [hardwareComponent]
+The Hardware Component this revision record applies to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>**
+
+-----
+[revision]: #revision
+#### [revision]
+The firmware revision  
+<span class="type-label">Type: </span>**string**
+
+
+## Count
 </div>
 
 

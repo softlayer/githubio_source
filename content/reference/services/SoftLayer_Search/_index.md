@@ -23,29 +23,27 @@ SoftLayer's account historical service allows users to access a broad overview o
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Search/advancedSearch'> advancedSearch</a> </span>
-            <div class='views-field-body'>Search for SoftLayer Resources by simple terms.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Search/getObjectTypes'> getObjectTypes</a> </span>
-            <div class='views-field-body'>Return a collection of indexed object types. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Search/search'> search</a> </span>
-            <div class='views-field-body'>Search for SoftLayer Resources by simple phrase.</div>
-        </div>
-        </div>
+</div>
+
+#### [advancedSearch](/reference/services/SoftLayer_Search/advancedSearch)
+Search for SoftLayer Resources by simple terms.
+
+#### [getObjectTypes](/reference/services/SoftLayer_Search/getObjectTypes)
+Return a collection of indexed object types. 
+
+#### [search](/reference/services/SoftLayer_Search/search)
+Search for SoftLayer Resources by simple phrase.
+
 </div>
 

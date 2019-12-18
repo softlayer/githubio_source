@@ -36,63 +36,48 @@ The SoftLayer_Hardware_Component_Partition_OperatingSystem data type contains ge
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>A partition template operating system's description.  Typically the title of the Operating System. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A partition template operating system's id. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#notes" name=notes>notes</a>
-            </span>
-            <div class='views-field-body'>Information about the kinds of partition templates assigned to this operating system. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#partitionTemplates" name=partitionTemplates>partitionTemplates</a>
-            </span>
-            <div class='views-field-body'>Information regarding an operating system's [[SoftLayer_Hardware_Component_Partition_Template|Partition Templates]]. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template'>SoftLayer_Hardware_Component_Partition_Template[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#partitionTemplateCount" name=partitionTemplateCount>partitionTemplateCount</a>
-            </span>
-            <div class='views-field-body'>A count of information regarding an operating system's [[SoftLayer_Hardware_Component_Partition_Template|Partition Templates]]. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[description]: #description
+#### [description]
+A partition template operating system's description.  Typically the title of the Operating System.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+A partition template operating system's id.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[notes]: #notes
+#### [notes]
+Information about the kinds of partition templates assigned to this operating system.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[partitionTemplates]: #partitiontemplates
+#### [partitionTemplates]
+Information regarding an operating system's [SoftLayer_Hardware_Component_Partition_Template]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_Template">}}).  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template'>SoftLayer_Hardware_Component_Partition_Template[] </a>**
+
+
+## Count
+
+-----
+[partitionTemplateCount]: #partitiontemplatecount
+#### [partitionTemplateCount]
+A count of information regarding an operating system's [SoftLayer_Hardware_Component_Partition_Template]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_Template">}}).   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

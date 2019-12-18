@@ -1,6 +1,6 @@
 ---
 title: "getPreferenceTypes"
-description: "Use any of the preference types to fetch or modify user preferences using [[SoftLayer_User_Customer::getPreference|getPr... "
+description: "Use any of the preference types to fetch or modify user preferences using [SoftLayer_User_Customer::getPreference]({{<re... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Get all available preference types
 
 
 ## Overview 
-Use any of the preference types to fetch or modify user preferences using [[SoftLayer_User_Customer::getPreference|getPreference]] or [[SoftLayer_User_Customer::changePreference|changePreference]], respectively. 
+Use any of the preference types to fetch or modify user preferences using [SoftLayer_User_Customer::getPreference]({{<ref "reference/services/SoftLayer_User_Customer/getPreference">}}), respectively. 
 
 -----
 

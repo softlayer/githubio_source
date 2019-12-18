@@ -24,56 +24,49 @@ Retrieve an update to a ticket made by a SoftLayer employee. Ticket updates crea
 
 ### seeAlso
 
-* [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket )
+* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
 
 
 * [SoftLayer_Ticket_Update](/reference/datatypes/SoftLayer_Ticket_Update )
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Ticket_Update_Employee/addResponseRating'> addResponseRating</a> </span>
-            <div class='views-field-body'>Set an update's response rating.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Ticket_Update_Employee/getChangeOwnerActivity'> getChangeOwnerActivity</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Ticket_Update_Employee/getChat'> getChat</a> </span>
-            <div class='views-field-body'>Retrieve the chat between the Customer and Agent</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Ticket_Update_Employee/getEditor'> getEditor</a> </span>
-            <div class='views-field-body'>Retrieve a representation of the SoftLayer employee who created a ticket update.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Ticket_Update_Employee/getFileAttachment'> getFileAttachment</a> </span>
-            <div class='views-field-body'>Retrieve the files attached to a ticket update.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Ticket_Update_Employee/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Ticket_Update_Employee record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Ticket_Update_Employee/getTicket'> getTicket</a> </span>
-            <div class='views-field-body'>Retrieve the ticket that a ticket update belongs to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Ticket_Update_Employee/getType'> getType</a> </span>
-            <div class='views-field-body'>Retrieve the Type of update to this ticket</div>
-        </div>
-        </div>
+</div>
+
+#### [addResponseRating](/reference/services/SoftLayer_Ticket_Update_Employee/addResponseRating)
+Set an update's response rating.
+
+#### [getChangeOwnerActivity](/reference/services/SoftLayer_Ticket_Update_Employee/getChangeOwnerActivity)
+
+
+#### [getChat](/reference/services/SoftLayer_Ticket_Update_Employee/getChat)
+Retrieve the chat between the Customer and Agent
+
+#### [getEditor](/reference/services/SoftLayer_Ticket_Update_Employee/getEditor)
+Retrieve a representation of the SoftLayer employee who created a ticket update.
+
+#### [getFileAttachment](/reference/services/SoftLayer_Ticket_Update_Employee/getFileAttachment)
+Retrieve the files attached to a ticket update.
+
+#### [getObject](/reference/services/SoftLayer_Ticket_Update_Employee/getObject)
+Retrieve a SoftLayer_Ticket_Update_Employee record.
+
+#### [getTicket](/reference/services/SoftLayer_Ticket_Update_Employee/getTicket)
+Retrieve the ticket that a ticket update belongs to.
+
+#### [getType](/reference/services/SoftLayer_Ticket_Update_Employee/getType)
+Retrieve the Type of update to this ticket
+
 </div>
 

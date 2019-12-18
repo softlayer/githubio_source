@@ -23,33 +23,30 @@ The SoftLayer_Network_LBaaS_Member service allows consumers to manage (backend) 
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_Member/addLoadBalancerMembers'> addLoadBalancerMembers</a> </span>
-            <div class='views-field-body'>Add load balancer members</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_Member/deleteLoadBalancerMembers'> deleteLoadBalancerMembers</a> </span>
-            <div class='views-field-body'>Delete load balancer members</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_Member/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_LBaaS_Member record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_Member/updateLoadBalancerMembers'> updateLoadBalancerMembers</a> </span>
-            <div class='views-field-body'>Update members weight</div>
-        </div>
-        </div>
+</div>
+
+#### [addLoadBalancerMembers](/reference/services/SoftLayer_Network_LBaaS_Member/addLoadBalancerMembers)
+Add load balancer members
+
+#### [deleteLoadBalancerMembers](/reference/services/SoftLayer_Network_LBaaS_Member/deleteLoadBalancerMembers)
+Delete load balancer members
+
+#### [getObject](/reference/services/SoftLayer_Network_LBaaS_Member/getObject)
+Retrieve a SoftLayer_Network_LBaaS_Member record.
+
+#### [updateLoadBalancerMembers](/reference/services/SoftLayer_Network_LBaaS_Member/updateLoadBalancerMembers)
+Update members weight
+
 </div>
 

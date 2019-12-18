@@ -36,39 +36,30 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareId" name=hardwareId>hardwareId</a>
-            </span>
-            <div class='views-field-body'>The hardwares updated by the mass update tool </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#message" name=message>message</a>
-            </span>
-            <div class='views-field-body'>Errors encountered while mass updating hardwares </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#successFlag" name=successFlag>successFlag</a>
-            </span>
-            <div class='views-field-body'>The hardwares that failed to update </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[hardwareId]: #hardwareid
+#### [hardwareId]
+The hardwares updated by the mass update tool  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[message]: #message
+#### [message]
+Errors encountered while mass updating hardwares  
+<span class="type-label">Type: </span>**string**
+
+-----
+[successFlag]: #successflag
+#### [successFlag]
+The hardwares that failed to update  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

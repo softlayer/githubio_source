@@ -36,103 +36,71 @@ This is deprecated.
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#availableInventoryCount" name=availableInventoryCount>availableInventoryCount</a>
-            </span>
-            <div class='views-field-body'>DEPRECATED. The number of units available for purchase in inventory for a single item in a single datacenter.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#itemId" name=itemId>itemId</a>
-            </span>
-            <div class='views-field-body'>DEPRECATED. The unique identifier of the product item that an inventory record is associated with.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationId" name=locationId>locationId</a>
-            </span>
-            <div class='views-field-body'>DEPRECATED. The unique identifier of the datacenter that an inventory record is located in.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>DEPRECATED. The date that an inventory record was last updated.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#overstockFlag" name=overstockFlag>overstockFlag</a>
-            </span>
-            <div class='views-field-body'>DEPRECATED. Whether an inventory record is marked as "overstock".  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#packageId" name=packageId>packageId</a>
-            </span>
-            <div class='views-field-body'>DEPRECATED. The unique identifier of the product package that an inventory record is associated with.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#item" name=item>item</a>
-            </span>
-            <div class='views-field-body'>The product package item that is associated with an inventory record. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#location" name=location>location</a>
-            </span>
-            <div class='views-field-body'>The datacenter that an inventory record is located in. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#package" name=package>package</a>
-            </span>
-            <div class='views-field-body'>The product package that is associated with an inventory record. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[availableInventoryCount]: #availableinventorycount
+#### [availableInventoryCount]
+DEPRECATED. The number of units available for purchase in inventory for a single item in a single datacenter.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[itemId]: #itemid
+#### [itemId]
+DEPRECATED. The unique identifier of the product item that an inventory record is associated with.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[locationId]: #locationid
+#### [locationId]
+DEPRECATED. The unique identifier of the datacenter that an inventory record is located in.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+DEPRECATED. The date that an inventory record was last updated.   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[overstockFlag]: #overstockflag
+#### [overstockFlag]
+DEPRECATED. Whether an inventory record is marked as "overstock".   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[packageId]: #packageid
+#### [packageId]
+DEPRECATED. The unique identifier of the product package that an inventory record is associated with.   
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[item]: #item
+#### [item]
+The product package item that is associated with an inventory record.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+
+-----
+[location]: #location
+#### [location]
+The datacenter that an inventory record is located in.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+-----
+[package]: #package
+#### [package]
+The product package that is associated with an inventory record.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**
+
+
+## Count
 </div>
 
 

@@ -23,41 +23,36 @@ Every SoftLayer Partition Template is defined in the SoftLayer_Hardware_Componen
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Partition_Template/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve a partition template's associated [[SoftLayer_Account|Account]].</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Partition_Template/getData'> getData</a> </span>
-            <div class='views-field-body'>Retrieve an individual partition for a partition template. This is identical to 'partitionTemplatePartition' except this will sort unix partitions.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Partition_Template/getExpireDate'> getExpireDate</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Partition_Template/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Hardware_Component_Partition_Template record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Partition_Template/getPartitionOperatingSystem'> getPartitionOperatingSystem</a> </span>
-            <div class='views-field-body'>Retrieve a partition template's associated [[SoftLayer_Hardware_Component_Partition_OperatingSystem|Operating System]].</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Partition_Template/getPartitionTemplatePartition'> getPartitionTemplatePartition</a> </span>
-            <div class='views-field-body'>Retrieve an individual partition for a partition template.</div>
-        </div>
-        </div>
+</div>
+
+#### [getAccount](/reference/services/SoftLayer_Hardware_Component_Partition_Template/getAccount)
+Retrieve a partition template's associated [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}).
+
+#### [getData](/reference/services/SoftLayer_Hardware_Component_Partition_Template/getData)
+Retrieve an individual partition for a partition template. This is identical to 'partitionTemplatePartition' except this will sort unix partitions.
+
+#### [getExpireDate](/reference/services/SoftLayer_Hardware_Component_Partition_Template/getExpireDate)
+
+
+#### [getObject](/reference/services/SoftLayer_Hardware_Component_Partition_Template/getObject)
+Retrieve a SoftLayer_Hardware_Component_Partition_Template record.
+
+#### [getPartitionOperatingSystem](/reference/services/SoftLayer_Hardware_Component_Partition_Template/getPartitionOperatingSystem)
+Retrieve a partition template's associated [SoftLayer_Hardware_Component_Partition_OperatingSystem]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_OperatingSystem">}}).
+
+#### [getPartitionTemplatePartition](/reference/services/SoftLayer_Hardware_Component_Partition_Template/getPartitionTemplatePartition)
+Retrieve an individual partition for a partition template.
+
 </div>
 

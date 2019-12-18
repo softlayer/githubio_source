@@ -36,103 +36,75 @@ A Catalog is defined as a set of prices for products that SoftLayer offers for s
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#keyName" name=keyName>keyName</a>
-            </span>
-            <div class='views-field-body'>The Key Name of the Catalog, used for direct references </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#brands" name=brands>brands</a>
-            </span>
-            <div class='views-field-body'>Brands using this Catalog </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#packages" name=packages>packages</a>
-            </span>
-            <div class='views-field-body'>Packages available in this catalog </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#prices" name=prices>prices</a>
-            </span>
-            <div class='views-field-body'>Prices available in this catalog </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#products" name=products>products</a>
-            </span>
-            <div class='views-field-body'>Products available in catalog </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#brandCount" name=brandCount>brandCount</a>
-            </span>
-            <div class='views-field-body'>A count of brands using this Catalog </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#packageCount" name=packageCount>packageCount</a>
-            </span>
-            <div class='views-field-body'>A count of packages available in this catalog </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#priceCount" name=priceCount>priceCount</a>
-            </span>
-            <div class='views-field-body'>A count of prices available in this catalog </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#productCount" name=productCount>productCount</a>
-            </span>
-            <div class='views-field-body'>A count of products available in catalog </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[keyName]: #keyname
+#### [keyName]
+The Key Name of the Catalog, used for direct references  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[brands]: #brands
+#### [brands]
+Brands using this Catalog  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand[] </a>**
+
+-----
+[packages]: #packages
+#### [packages]
+Packages available in this catalog  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package[] </a>**
+
+-----
+[prices]: #prices
+#### [prices]
+Prices available in this catalog  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**
+
+-----
+[products]: #products
+#### [products]
+Products available in catalog  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>**
+
+
+## Count
+
+-----
+[brandCount]: #brandcount
+#### [brandCount]
+A count of brands using this Catalog   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[packageCount]: #packagecount
+#### [packageCount]
+A count of packages available in this catalog   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[priceCount]: #pricecount
+#### [priceCount]
+A count of prices available in this catalog   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[productCount]: #productcount
+#### [productCount]
+A count of products available in catalog   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

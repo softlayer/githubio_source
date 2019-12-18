@@ -25,29 +25,27 @@ For example, customer subnets are tracked for proper management of network tunne
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Customer_Subnet/createObject'> createObject</a> </span>
-            <div class='views-field-body'>*</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Customer_Subnet/getIpAddresses'> getIpAddresses</a> </span>
-            <div class='views-field-body'>Retrieve all ip addresses associated with a subnet.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Customer_Subnet/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_Customer_Subnet record.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Network_Customer_Subnet/createObject)
+*
+
+#### [getIpAddresses](/reference/services/SoftLayer_Network_Customer_Subnet/getIpAddresses)
+Retrieve all ip addresses associated with a subnet.
+
+#### [getObject](/reference/services/SoftLayer_Network_Customer_Subnet/getObject)
+Retrieve a SoftLayer_Network_Customer_Subnet record.
+
 </div>
 

@@ -17,11 +17,11 @@ Search for SoftLayer Resources by simple terms.
 
 
 ## Overview 
-This method allows for searching for SoftLayer resources by simple terms and operators.  Fields that are used for searching will be available at sldn.softlayer.com. It returns a collection or array of <b>[[SoftLayer_Container_Search_Result (type)|SoftLayer_Container_Search_Result]]</b> objects that have search metadata for each result and the resulting resource found. 
+This method allows for searching for SoftLayer resources by simple terms and operators.  Fields that are used for searching will be available at sldn.softlayer.com. It returns a collection or array of <b>[SoftLayer_Container_Search_Result]({{<ref "reference/datatypes/SoftLayer_Container_Search_Result">}})</b> objects that have search metadata for each result and the resulting resource found. 
 
-The advancedSearch() method recognizes the special <b><code>_objectType:</code></b> quantifier in search strings.  See the documentation for the <b>[[SoftLayer_Search/search|search()]]</b> method on how to restrict searches using object types. 
+The advancedSearch() method recognizes the special <b><code>_objectType:</code></b> quantifier in search strings.  See the documentation for the <b>[SoftLayer_Search::search]({{<ref "reference/services/SoftLayer_Search/search">}})</b> method on how to restrict searches using object types. 
 
-The advancedSearch() method recognizes <b>[[SoftLayer_Container_Search_ObjectType_Property (type)|object properties]]</b>, which can also be used to limit searches.  Example: 
+The advancedSearch() method recognizes <b>[SoftLayer_Container_Search_ObjectType_Property]({{<ref "reference/datatypes/SoftLayer_Container_Search_ObjectType_Property">}})</b>, which can also be used to limit searches.  Example: 
 
 <code>_objectType:Type_1 propertyA:</code><i><code>value</code></i> 
 
@@ -29,7 +29,7 @@ A search string can specify multiple properties, separated with spaces. Example:
 
 <code>_objectType:Type_1 propertyA:</code><i><code>value</code></i> <code>propertyB:</code><i><code>value</code></i> 
 
-A collection of available object types and their properties can be retrieved by calling the <b>[[SoftLayer_Search/getObjectTypes|getObjectTypes()]]</b> method. 
+A collection of available object types and their properties can be retrieved by calling the <b>[SoftLayer_Search::getObjectTypes]({{<ref "reference/services/SoftLayer_Search/getObjectTypes">}})</b> method. 
 
 -----
 

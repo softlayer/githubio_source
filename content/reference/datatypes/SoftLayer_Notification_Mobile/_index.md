@@ -36,83 +36,61 @@ This is an extension of the SoftLayer_Notification class.  These are implementat
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Unique identifier for the notification.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#keyName" name=keyName>keyName</a>
-            </span>
-            <div class='views-field-body'>Name that can be used by external systems to refer to a notification.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>Friendly name for the notification.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#preferences" name=preferences>preferences</a>
-            </span>
-            <div class='views-field-body'>The preferences related to the notification. These are preferences are configurable and optional for subscribers to use. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#requiredPreferences" name=requiredPreferences>requiredPreferences</a>
-            </span>
-            <div class='views-field-body'>The required preferences related to the notification. While configurable, the subscriber does not have the option whether to use the preference. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#preferenceCount" name=preferenceCount>preferenceCount</a>
-            </span>
-            <div class='views-field-body'>A count of the preferences related to the notification. These are preferences are configurable and optional for subscribers to use. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#requiredPreferenceCount" name=requiredPreferenceCount>requiredPreferenceCount</a>
-            </span>
-            <div class='views-field-body'>A count of the required preferences related to the notification. While configurable, the subscriber does not have the option whether to use the preference. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[id]: #id
+#### [id]
+Unique identifier for the notification.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[keyName]: #keyname
+#### [keyName]
+Name that can be used by external systems to refer to a notification.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[name]: #name
+#### [name]
+Friendly name for the notification.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[preferences]: #preferences
+#### [preferences]
+The preferences related to the notification. These are preferences are configurable and optional for subscribers to use.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference[] </a>**
+
+-----
+[requiredPreferences]: #requiredpreferences
+#### [requiredPreferences]
+The required preferences related to the notification. While configurable, the subscriber does not have the option whether to use the preference.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference[] </a>**
+
+
+## Count
+
+-----
+[preferenceCount]: #preferencecount
+#### [preferenceCount]
+A count of the preferences related to the notification. These are preferences are configurable and optional for subscribers to use.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[requiredPreferenceCount]: #requiredpreferencecount
+#### [requiredPreferenceCount]
+A count of the required preferences related to the notification. While configurable, the subscriber does not have the option whether to use the preference.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

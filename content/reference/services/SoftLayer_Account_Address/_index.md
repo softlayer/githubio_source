@@ -23,61 +23,51 @@ SoftLayer's address service allows you to access and manage addresses associated
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Address/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create a new address record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Address/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit an address record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Address/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve the account to which this address belongs.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Address/getAllDataCenters'> getAllDataCenters</a> </span>
-            <div class='views-field-body'>Retrieve a list of SoftLayer datacenter addresses.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Address/getCreateUser'> getCreateUser</a> </span>
-            <div class='views-field-body'>Retrieve the customer user who created this address.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Address/getLocation'> getLocation</a> </span>
-            <div class='views-field-body'>Retrieve the location of this address.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Address/getModifyEmployee'> getModifyEmployee</a> </span>
-            <div class='views-field-body'>Retrieve the employee who last modified this address.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Address/getModifyUser'> getModifyUser</a> </span>
-            <div class='views-field-body'>Retrieve the customer user who last modified this address.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Address/getNetworkAddress'> getNetworkAddress</a> </span>
-            <div class='views-field-body'>Retrieve a list of SoftLayer datacenter addresses.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Address/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Account_Address record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Address/getType'> getType</a> </span>
-            <div class='views-field-body'>Retrieve an account address' type.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Account_Address/createObject)
+Create a new address record.
+
+#### [editObject](/reference/services/SoftLayer_Account_Address/editObject)
+Edit an address record.
+
+#### [getAccount](/reference/services/SoftLayer_Account_Address/getAccount)
+Retrieve the account to which this address belongs.
+
+#### [getAllDataCenters](/reference/services/SoftLayer_Account_Address/getAllDataCenters)
+Retrieve a list of SoftLayer datacenter addresses.
+
+#### [getCreateUser](/reference/services/SoftLayer_Account_Address/getCreateUser)
+Retrieve the customer user who created this address.
+
+#### [getLocation](/reference/services/SoftLayer_Account_Address/getLocation)
+Retrieve the location of this address.
+
+#### [getModifyEmployee](/reference/services/SoftLayer_Account_Address/getModifyEmployee)
+Retrieve the employee who last modified this address.
+
+#### [getModifyUser](/reference/services/SoftLayer_Account_Address/getModifyUser)
+Retrieve the customer user who last modified this address.
+
+#### [getNetworkAddress](/reference/services/SoftLayer_Account_Address/getNetworkAddress)
+Retrieve a list of SoftLayer datacenter addresses.
+
+#### [getObject](/reference/services/SoftLayer_Account_Address/getObject)
+Retrieve a SoftLayer_Account_Address record.
+
+#### [getType](/reference/services/SoftLayer_Account_Address/getType)
+Retrieve an account address' type.
+
 </div>
 

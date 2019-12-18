@@ -46,49 +46,36 @@ SoftLayer_Container_Monitoring_Graph_Outputs models a single outbound object for
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#endDate" name=endDate>endDate</a>
-            </span>
-            <div class='views-field-body'>The maximum date included in this graph. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#graphError" name=graphError>graphError</a>
-            </span>
-            <div class='views-field-body'>Error message encountered during graphing </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#graphImage" name=graphImage>graphImage</a>
-            </span>
-            <div class='views-field-body'>The raw PNG binary data to be displayed once the graph is drawn. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>binary data</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#startDate" name=startDate>startDate</a>
-            </span>
-            <div class='views-field-body'>The minimum date included in this graph. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[endDate]: #enddate
+#### [endDate]
+The maximum date included in this graph.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[graphError]: #grapherror
+#### [graphError]
+Error message encountered during graphing  
+<span class="type-label">Type: </span>**string**
+
+-----
+[graphImage]: #graphimage
+#### [graphImage]
+The raw PNG binary data to be displayed once the graph is drawn.  
+<span class="type-label">Type: </span>**binary data**
+
+-----
+[startDate]: #startdate
+#### [startDate]
+The minimum date included in this graph.  
+<span class="type-label">Type: </span>**dateTime**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

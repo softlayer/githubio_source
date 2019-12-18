@@ -49,163 +49,107 @@ Every piece of hardware in SoftLayer's datacenters, including customer servers, 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#formFactorId" name=formFactorId>formFactorId</a>
-            </span>
-            <div class='views-field-body'>A hardware form factor internal identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A hardware chassis' internal identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#manufacturer" name=manufacturer>manufacturer</a>
-            </span>
-            <div class='views-field-body'>A hardware chassis' manufacturer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>A hardware chassis' name. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#unitSize" name=unitSize>unitSize</a>
-            </span>
-            <div class='views-field-body'>The physical size of a hardware chassis.  Currently this relates to the 'U' size of a chassis buy default. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#version" name=version>version</a>
-            </span>
-            <div class='views-field-body'>A hardware chassis' revision number. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#backplaneCapacity" name=backplaneCapacity>backplaneCapacity</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bayCapacity" name=bayCapacity>bayCapacity</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#driveCapacity" name=driveCapacity>driveCapacity</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#driveControllerCapacity" name=driveControllerCapacity>driveControllerCapacity</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#gpuCapacity" name=gpuCapacity>gpuCapacity</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareFunction" name=hardwareFunction>hardwareFunction</a>
-            </span>
-            <div class='views-field-body'>A hardware's function. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Function'>SoftLayer_Hardware_Function </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#moduleCapacity" name=moduleCapacity>moduleCapacity</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#powerCapacity" name=powerCapacity>powerCapacity</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#u2Capacity" name=u2Capacity>u2Capacity</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[formFactorId]: #formfactorid
+#### [formFactorId]
+A hardware form factor internal identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+A hardware chassis' internal identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[manufacturer]: #manufacturer
+#### [manufacturer]
+A hardware chassis' manufacturer.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[name]: #name
+#### [name]
+A hardware chassis' name.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[unitSize]: #unitsize
+#### [unitSize]
+The physical size of a hardware chassis.  Currently this relates to the 'U' size of a chassis buy default.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[version]: #version
+#### [version]
+A hardware chassis' revision number.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[backplaneCapacity]: #backplanecapacity
+#### [backplaneCapacity]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[bayCapacity]: #baycapacity
+#### [bayCapacity]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[driveCapacity]: #drivecapacity
+#### [driveCapacity]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[driveControllerCapacity]: #drivecontrollercapacity
+#### [driveControllerCapacity]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[gpuCapacity]: #gpucapacity
+#### [gpuCapacity]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[hardwareFunction]: #hardwarefunction
+#### [hardwareFunction]
+A hardware's function.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Function'>SoftLayer_Hardware_Function </a>**
+
+-----
+[moduleCapacity]: #modulecapacity
+#### [moduleCapacity]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[powerCapacity]: #powercapacity
+#### [powerCapacity]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[u2Capacity]: #u2capacity
+#### [u2Capacity]
+  
+<span class="type-label">Type: </span>**string**
+
+
+## Count
 </div>
 
 

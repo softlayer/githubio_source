@@ -23,41 +23,36 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Message_Delivery/editObject'> editObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Message_Delivery/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve the SoftLayer customer account that a network message delivery account belongs to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Message_Delivery/getBillingItem'> getBillingItem</a> </span>
-            <div class='views-field-body'>Retrieve the billing item for a network message delivery account.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Message_Delivery/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_Message_Delivery record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Message_Delivery/getType'> getType</a> </span>
-            <div class='views-field-body'>Retrieve the message delivery type of a network message delivery account.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Message_Delivery/getVendor'> getVendor</a> </span>
-            <div class='views-field-body'>Retrieve the vendor for a network message delivery account.</div>
-        </div>
-        </div>
+</div>
+
+#### [editObject](/reference/services/SoftLayer_Network_Message_Delivery/editObject)
+
+
+#### [getAccount](/reference/services/SoftLayer_Network_Message_Delivery/getAccount)
+Retrieve the SoftLayer customer account that a network message delivery account belongs to.
+
+#### [getBillingItem](/reference/services/SoftLayer_Network_Message_Delivery/getBillingItem)
+Retrieve the billing item for a network message delivery account.
+
+#### [getObject](/reference/services/SoftLayer_Network_Message_Delivery/getObject)
+Retrieve a SoftLayer_Network_Message_Delivery record.
+
+#### [getType](/reference/services/SoftLayer_Network_Message_Delivery/getType)
+Retrieve the message delivery type of a network message delivery account.
+
+#### [getVendor](/reference/services/SoftLayer_Network_Message_Delivery/getVendor)
+Retrieve the vendor for a network message delivery account.
+
 </div>
 

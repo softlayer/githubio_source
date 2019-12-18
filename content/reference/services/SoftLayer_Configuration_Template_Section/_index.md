@@ -23,61 +23,51 @@ Configuration section allow you to divide a large configuration values into a sm
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Configuration_Template_Section/getDefinitions'> getDefinitions</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Configuration_Template_Section/getDisallowedDeletionFlag'> getDisallowedDeletionFlag</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Configuration_Template_Section/getLinkedTemplate'> getLinkedTemplate</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Configuration_Template_Section/getLinkedTemplateReference'> getLinkedTemplateReference</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Configuration_Template_Section/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Configuration_Template_Section record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Configuration_Template_Section/getProfiles'> getProfiles</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Configuration_Template_Section/getSectionType'> getSectionType</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Configuration_Template_Section/getSectionTypeName'> getSectionTypeName</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Configuration_Template_Section/getSubSections'> getSubSections</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Configuration_Template_Section/getTemplate'> getTemplate</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Configuration_Template_Section/hasSubSections'> hasSubSections</a> </span>
-            <div class='views-field-body'>Check if object has sub-sections</div>
-        </div>
-        </div>
+</div>
+
+#### [getDefinitions](/reference/services/SoftLayer_Configuration_Template_Section/getDefinitions)
+
+
+#### [getDisallowedDeletionFlag](/reference/services/SoftLayer_Configuration_Template_Section/getDisallowedDeletionFlag)
+
+
+#### [getLinkedTemplate](/reference/services/SoftLayer_Configuration_Template_Section/getLinkedTemplate)
+
+
+#### [getLinkedTemplateReference](/reference/services/SoftLayer_Configuration_Template_Section/getLinkedTemplateReference)
+
+
+#### [getObject](/reference/services/SoftLayer_Configuration_Template_Section/getObject)
+Retrieve a SoftLayer_Configuration_Template_Section record.
+
+#### [getProfiles](/reference/services/SoftLayer_Configuration_Template_Section/getProfiles)
+
+
+#### [getSectionType](/reference/services/SoftLayer_Configuration_Template_Section/getSectionType)
+
+
+#### [getSectionTypeName](/reference/services/SoftLayer_Configuration_Template_Section/getSectionTypeName)
+
+
+#### [getSubSections](/reference/services/SoftLayer_Configuration_Template_Section/getSubSections)
+
+
+#### [getTemplate](/reference/services/SoftLayer_Configuration_Template_Section/getTemplate)
+
+
+#### [hasSubSections](/reference/services/SoftLayer_Configuration_Template_Section/hasSubSections)
+Check if object has sub-sections
+
 </div>
 

@@ -23,93 +23,75 @@ Mass Data Migration Request Service allows users to request Massive storage devi
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve the account to which the request belongs.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getActiveTickets'> getActiveTickets</a> </span>
-            <div class='views-field-body'>Retrieve the active tickets that are attached to the MDMS request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getAddress'> getAddress</a> </span>
-            <div class='views-field-body'>Retrieve the customer address where the device is shipped to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getAllObjects'> getAllObjects</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getAllRequestStatuses'> getAllRequestStatuses</a> </span>
-            <div class='views-field-body'>Retrieves a list of all the possible statuses</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getBillingItem'> getBillingItem</a> </span>
-            <div class='views-field-body'>Retrieve an associated parent billing item which is active. Includes billing items which are scheduled to be cancelled in the future.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getCreateEmployee'> getCreateEmployee</a> </span>
-            <div class='views-field-body'>Retrieve the employee user who created the request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getCreateUser'> getCreateUser</a> </span>
-            <div class='views-field-body'>Retrieve the customer user who created the request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getDeviceConfiguration'> getDeviceConfiguration</a> </span>
-            <div class='views-field-body'>Retrieve the device configurations.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getDeviceModel'> getDeviceModel</a> </span>
-            <div class='views-field-body'>Retrieve the model of device assigned to this request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getKeyContacts'> getKeyContacts</a> </span>
-            <div class='views-field-body'>Retrieve the key contacts for this requests.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getModifyEmployee'> getModifyEmployee</a> </span>
-            <div class='views-field-body'>Retrieve the employee who last modified the request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getModifyUser'> getModifyUser</a> </span>
-            <div class='views-field-body'>Retrieve the customer user who last modified the request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_Storage_MassDataMigration_Request record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getPendingRequests'> getPendingRequests</a> </span>
-            <div class='views-field-body'>Returns placeholder MDMS requests for any MDMS order pending approval.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getShipments'> getShipments</a> </span>
-            <div class='views-field-body'>Retrieve the shipments of the request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getStatus'> getStatus</a> </span>
-            <div class='views-field-body'>Retrieve the status of the request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getTicket'> getTicket</a> </span>
-            <div class='views-field-body'>Retrieve ticket that is attached to this mass data migration request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getTickets'> getTickets</a> </span>
-            <div class='views-field-body'>Retrieve all tickets that are attached to the mass data migration request.</div>
-        </div>
-        </div>
+</div>
+
+#### [getAccount](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getAccount)
+Retrieve the account to which the request belongs.
+
+#### [getActiveTickets](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getActiveTickets)
+Retrieve the active tickets that are attached to the MDMS request.
+
+#### [getAddress](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getAddress)
+Retrieve the customer address where the device is shipped to.
+
+#### [getAllObjects](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getAllObjects)
+
+
+#### [getAllRequestStatuses](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getAllRequestStatuses)
+Retrieves a list of all the possible statuses
+
+#### [getBillingItem](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getBillingItem)
+Retrieve an associated parent billing item which is active. Includes billing items which are scheduled to be cancelled in the future.
+
+#### [getCreateEmployee](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getCreateEmployee)
+Retrieve the employee user who created the request.
+
+#### [getCreateUser](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getCreateUser)
+Retrieve the customer user who created the request.
+
+#### [getDeviceConfiguration](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getDeviceConfiguration)
+Retrieve the device configurations.
+
+#### [getDeviceModel](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getDeviceModel)
+Retrieve the model of device assigned to this request.
+
+#### [getKeyContacts](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getKeyContacts)
+Retrieve the key contacts for this requests.
+
+#### [getModifyEmployee](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getModifyEmployee)
+Retrieve the employee who last modified the request.
+
+#### [getModifyUser](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getModifyUser)
+Retrieve the customer user who last modified the request.
+
+#### [getObject](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getObject)
+Retrieve a SoftLayer_Network_Storage_MassDataMigration_Request record.
+
+#### [getPendingRequests](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getPendingRequests)
+Returns placeholder MDMS requests for any MDMS order pending approval.
+
+#### [getShipments](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getShipments)
+Retrieve the shipments of the request.
+
+#### [getStatus](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getStatus)
+Retrieve the status of the request.
+
+#### [getTicket](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getTicket)
+Retrieve ticket that is attached to this mass data migration request.
+
+#### [getTickets](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request/getTickets)
+Retrieve all tickets that are attached to the mass data migration request.
+
 </div>
 

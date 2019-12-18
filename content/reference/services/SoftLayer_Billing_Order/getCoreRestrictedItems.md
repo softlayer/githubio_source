@@ -1,6 +1,6 @@
 ---
 title: "getCoreRestrictedItems"
-description: "Retrieve the [[SoftLayer_Billing_Order_Item (type)|order items]] that are core restricted"
+description: "Retrieve the [SoftLayer_Billing_Order_Item]({{<ref 'reference/datatypes/SoftLayer_Billing_Order_Item'>}}) that are core... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getCoreRestrictedItems
 
-Retrieve the [[SoftLayer_Billing_Order_Item (type)|order items]] that are core restricted
+Retrieve the [SoftLayer_Billing_Order_Item]({{<ref "reference/datatypes/SoftLayer_Billing_Order_Item">}}) that are core restricted
 
 
 ## Overview 
-Retrieve the [[SoftLayer_Billing_Order_Item (type)|order items]] that are core restricted
+Retrieve the [SoftLayer_Billing_Order_Item]({{<ref "reference/datatypes/SoftLayer_Billing_Order_Item">}}) that are core restricted
 
 -----
 

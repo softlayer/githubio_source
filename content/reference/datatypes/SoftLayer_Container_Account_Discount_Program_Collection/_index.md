@@ -41,189 +41,120 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountLevelAppliedCredit" name=accountLevelAppliedCredit>accountLevelAppliedCredit</a>
-            </span>
-            <div class='views-field-body'>The amount of credit that has been used by all account level enrollments in the billing cycle.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountLevelLifetimeAppliedCredit" name=accountLevelLifetimeAppliedCredit>accountLevelLifetimeAppliedCredit</a>
-            </span>
-            <div class='views-field-body'>Account level credit allowance applied over the course of entire active program enrollments. For enrollments without a lifetime restriction, this property will not be populated as credit will be tracked on a purely monthly basis.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountLevelLifetimeCredit" name=accountLevelLifetimeCredit>accountLevelLifetimeCredit</a>
-            </span>
-            <div class='views-field-body'>The total account level credit over the course of an entire program enrollment. This value may be null, in which case the enrollment credit is applied on a monthly basis and there is no lifetime maximum.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountLevelLifetimeRemainingCredit" name=accountLevelLifetimeRemainingCredit>accountLevelLifetimeRemainingCredit</a>
-            </span>
-            <div class='views-field-body'>Remaining account level credit allowance available over the remaining duration of the program enrollments. If null, enrollment credit is applied on a strictly monthly basis and there is no lifetime maximum. Enrollments with non-null remaining lifetime credit will receive the lesser of the remaining monthly credit or the remaining lifetime credit.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountLevelMonthlyCredit" name=accountLevelMonthlyCredit>accountLevelMonthlyCredit</a>
-            </span>
-            <div class='views-field-body'>The total account level monthly credit allowance available at the beginning of a billing cycle.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountLevelRemainingCredit" name=accountLevelRemainingCredit>accountLevelRemainingCredit</a>
-            </span>
-            <div class='views-field-body'>The total account level credit allowance still available during the current billing cycle.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#enrollments" name=enrollments>enrollments</a>
-            </span>
-            <div class='views-field-body'>The active enrollments for this account.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_FlexibleCredit_Enrollment'>SoftLayer_FlexibleCredit_Enrollment[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#isAccountLevelParticipantFlag" name=isAccountLevelParticipantFlag>isAccountLevelParticipantFlag</a>
-            </span>
-            <div class='views-field-body'>Indicates whether or not the account is participating in any account level Flexible Credit programs.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#isParticipantFlag" name=isParticipantFlag>isParticipantFlag</a>
-            </span>
-            <div class='views-field-body'>Indicates whether or not the account is participating in any Flexible Credit programs.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#isProductSpecificParticipantFlag" name=isProductSpecificParticipantFlag>isProductSpecificParticipantFlag</a>
-            </span>
-            <div class='views-field-body'>Indicates whether or not the account is participating in any product specific level Flexible Credit programs.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#productSpecificAppliedCredit" name=productSpecificAppliedCredit>productSpecificAppliedCredit</a>
-            </span>
-            <div class='views-field-body'>The amount of credit that has been used by all product specific enrollments in the billing cycle.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#productSpecificLifetimeAppliedCredit" name=productSpecificLifetimeAppliedCredit>productSpecificLifetimeAppliedCredit</a>
-            </span>
-            <div class='views-field-body'>Product specific credit allowance applied over the course of entire active program enrollments. For enrollments without a lifetime restriction, this property will not be populated as credit will be tracked on a purely monthly basis.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#productSpecificLifetimeCredit" name=productSpecificLifetimeCredit>productSpecificLifetimeCredit</a>
-            </span>
-            <div class='views-field-body'>The total product specific credit over the course of an entire program enrollment. This value may be null, in which case the enrollment credit is applied on a monthly basis and there is no lifetime maximum.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#productSpecificLifetimeRemainingCredit" name=productSpecificLifetimeRemainingCredit>productSpecificLifetimeRemainingCredit</a>
-            </span>
-            <div class='views-field-body'>Remaining product specific level credit allowance available over the remaining duration of the program enrollments. If null, enrollment credit is applied on a strictly monthly basis and there is no lifetime maximum. Enrollments with non-null remaining lifetime credit will receive the lesser of the remaining monthly credit or the remaining lifetime credit.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#productSpecificMonthlyCredit" name=productSpecificMonthlyCredit>productSpecificMonthlyCredit</a>
-            </span>
-            <div class='views-field-body'>The total product specific monthly credit allowance available at the beginning of a billing cycle.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#productSpecificRemainingCredit" name=productSpecificRemainingCredit>productSpecificRemainingCredit</a>
-            </span>
-            <div class='views-field-body'>The total product specific credit allowance still available during the current billing cycle.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#totalAppliedCredit" name=totalAppliedCredit>totalAppliedCredit</a>
-            </span>
-            <div class='views-field-body'>The credit allowance that has already been applied during the current billing cycle from all enrollments. If the lifetime limit has been or soon will be reached, this amount may included credit applied in previous billing cycles.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#totalRemainingCredit" name=totalRemainingCredit>totalRemainingCredit</a>
-            </span>
-            <div class='views-field-body'>The credit allowance that is available during the current billing cycle from all enrollments. If the lifetime limit has been or soon will be reached, this amount may be reduced by credit applied in previous billing cycles.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountLevelAppliedCredit]: #accountlevelappliedcredit
+#### [accountLevelAppliedCredit]
+The amount of credit that has been used by all account level enrollments in the billing cycle.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[accountLevelLifetimeAppliedCredit]: #accountlevellifetimeappliedcredit
+#### [accountLevelLifetimeAppliedCredit]
+Account level credit allowance applied over the course of entire active program enrollments. For enrollments without a lifetime restriction, this property will not be populated as credit will be tracked on a purely monthly basis.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[accountLevelLifetimeCredit]: #accountlevellifetimecredit
+#### [accountLevelLifetimeCredit]
+The total account level credit over the course of an entire program enrollment. This value may be null, in which case the enrollment credit is applied on a monthly basis and there is no lifetime maximum.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[accountLevelLifetimeRemainingCredit]: #accountlevellifetimeremainingcredit
+#### [accountLevelLifetimeRemainingCredit]
+Remaining account level credit allowance available over the remaining duration of the program enrollments. If null, enrollment credit is applied on a strictly monthly basis and there is no lifetime maximum. Enrollments with non-null remaining lifetime credit will receive the lesser of the remaining monthly credit or the remaining lifetime credit.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[accountLevelMonthlyCredit]: #accountlevelmonthlycredit
+#### [accountLevelMonthlyCredit]
+The total account level monthly credit allowance available at the beginning of a billing cycle.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[accountLevelRemainingCredit]: #accountlevelremainingcredit
+#### [accountLevelRemainingCredit]
+The total account level credit allowance still available during the current billing cycle.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[enrollments]: #enrollments
+#### [enrollments]
+The active enrollments for this account.   
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_FlexibleCredit_Enrollment'>SoftLayer_FlexibleCredit_Enrollment[] </a>**
+
+-----
+[isAccountLevelParticipantFlag]: #isaccountlevelparticipantflag
+#### [isAccountLevelParticipantFlag]
+Indicates whether or not the account is participating in any account level Flexible Credit programs.   
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[isParticipantFlag]: #isparticipantflag
+#### [isParticipantFlag]
+Indicates whether or not the account is participating in any Flexible Credit programs.   
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[isProductSpecificParticipantFlag]: #isproductspecificparticipantflag
+#### [isProductSpecificParticipantFlag]
+Indicates whether or not the account is participating in any product specific level Flexible Credit programs.   
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[productSpecificAppliedCredit]: #productspecificappliedcredit
+#### [productSpecificAppliedCredit]
+The amount of credit that has been used by all product specific enrollments in the billing cycle.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[productSpecificLifetimeAppliedCredit]: #productspecificlifetimeappliedcredit
+#### [productSpecificLifetimeAppliedCredit]
+Product specific credit allowance applied over the course of entire active program enrollments. For enrollments without a lifetime restriction, this property will not be populated as credit will be tracked on a purely monthly basis.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[productSpecificLifetimeCredit]: #productspecificlifetimecredit
+#### [productSpecificLifetimeCredit]
+The total product specific credit over the course of an entire program enrollment. This value may be null, in which case the enrollment credit is applied on a monthly basis and there is no lifetime maximum.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[productSpecificLifetimeRemainingCredit]: #productspecificlifetimeremainingcredit
+#### [productSpecificLifetimeRemainingCredit]
+Remaining product specific level credit allowance available over the remaining duration of the program enrollments. If null, enrollment credit is applied on a strictly monthly basis and there is no lifetime maximum. Enrollments with non-null remaining lifetime credit will receive the lesser of the remaining monthly credit or the remaining lifetime credit.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[productSpecificMonthlyCredit]: #productspecificmonthlycredit
+#### [productSpecificMonthlyCredit]
+The total product specific monthly credit allowance available at the beginning of a billing cycle.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[productSpecificRemainingCredit]: #productspecificremainingcredit
+#### [productSpecificRemainingCredit]
+The total product specific credit allowance still available during the current billing cycle.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[totalAppliedCredit]: #totalappliedcredit
+#### [totalAppliedCredit]
+The credit allowance that has already been applied during the current billing cycle from all enrollments. If the lifetime limit has been or soon will be reached, this amount may included credit applied in previous billing cycles.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[totalRemainingCredit]: #totalremainingcredit
+#### [totalRemainingCredit]
+The credit allowance that is available during the current billing cycle from all enrollments. If the lifetime limit has been or soon will be reached, this amount may be reduced by credit applied in previous billing cycles.   
+<span class="type-label">Type: </span>**decimal**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

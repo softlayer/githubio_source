@@ -36,163 +36,107 @@ SoftLayer_Security_Certificate_Request data type is used to harness your SSL cer
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>This is a reference to your SoftLayer account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#approverEmailAddress" name=approverEmailAddress>approverEmailAddress</a>
-            </span>
-            <div class='views-field-body'>The email address of a person who will approve your SSL certificate order. This is usually an email address of your domain administrator. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#certificateSigningRequest" name=certificateSigningRequest>certificateSigningRequest</a>
-            </span>
-            <div class='views-field-body'>A Certificate Signing Request (CSR) string </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#commonName" name=commonName>commonName</a>
-            </span>
-            <div class='views-field-body'>A domain name of a SSL certificate request </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date a SSL certificate request was created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#effectiveDate" name=effectiveDate>effectiveDate</a>
-            </span>
-            <div class='views-field-body'>The date of your SSL certificate went into effect </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#expirationDate" name=expirationDate>expirationDate</a>
-            </span>
-            <div class='views-field-body'>The expiration date of your SSL certificate </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of an SSL certificate request </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>The date a SSL certificate request was last modified. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#statusId" name=statusId>statusId</a>
-            </span>
-            <div class='views-field-body'>A status id reflecting the state of a SSL certificate request </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#technicalContactEmailAddress" name=technicalContactEmailAddress>technicalContactEmailAddress</a>
-            </span>
-            <div class='views-field-body'>The technical contact email address. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The account to which a SSL certificate request belongs. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#order" name=order>order</a>
-            </span>
-            <div class='views-field-body'>The order contains the information related to a SSL certificate request. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#orderItem" name=orderItem>orderItem</a>
-            </span>
-            <div class='views-field-body'>The associated order item for this SSL certificate request. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#status" name=status>status</a>
-            </span>
-            <div class='views-field-body'>The status of a SSL certificate request. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Security_Certificate_Request_Status'>SoftLayer_Security_Certificate_Request_Status </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+This is a reference to your SoftLayer account.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[approverEmailAddress]: #approveremailaddress
+#### [approverEmailAddress]
+The email address of a person who will approve your SSL certificate order. This is usually an email address of your domain administrator.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[certificateSigningRequest]: #certificatesigningrequest
+#### [certificateSigningRequest]
+A Certificate Signing Request (CSR) string  
+<span class="type-label">Type: </span>**string**
+
+-----
+[commonName]: #commonname
+#### [commonName]
+A domain name of a SSL certificate request  
+<span class="type-label">Type: </span>**string**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+The date a SSL certificate request was created.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[effectiveDate]: #effectivedate
+#### [effectiveDate]
+The date of your SSL certificate went into effect  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[expirationDate]: #expirationdate
+#### [expirationDate]
+The expiration date of your SSL certificate  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+The internal identifier of an SSL certificate request  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+The date a SSL certificate request was last modified.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[statusId]: #statusid
+#### [statusId]
+A status id reflecting the state of a SSL certificate request  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[technicalContactEmailAddress]: #technicalcontactemailaddress
+#### [technicalContactEmailAddress]
+The technical contact email address.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The account to which a SSL certificate request belongs.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[order]: #order
+#### [order]
+The order contains the information related to a SSL certificate request.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**
+
+-----
+[orderItem]: #orderitem
+#### [orderItem]
+The associated order item for this SSL certificate request.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item </a>**
+
+-----
+[status]: #status
+#### [status]
+The status of a SSL certificate request.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Certificate_Request_Status'>SoftLayer_Security_Certificate_Request_Status </a>**
+
+
+## Count
 </div>
 
 

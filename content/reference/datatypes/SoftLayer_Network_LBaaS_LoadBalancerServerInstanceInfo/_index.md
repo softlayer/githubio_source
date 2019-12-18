@@ -36,39 +36,30 @@ SoftLayer_Network_LBaaS_LoadBalancerServerInstanceInfo specifies the application
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#privateIpAddress" name=privateIpAddress>privateIpAddress</a>
-            </span>
-            <div class='views-field-body'>Servers private IP address </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#publicIpAddress" name=publicIpAddress>publicIpAddress</a>
-            </span>
-            <div class='views-field-body'>Servers public IP address </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#weight" name=weight>weight</a>
-            </span>
-            <div class='views-field-body'>Load balancing weight for a server </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[privateIpAddress]: #privateipaddress
+#### [privateIpAddress]
+Servers private IP address  
+<span class="type-label">Type: </span>**string**
+
+-----
+[publicIpAddress]: #publicipaddress
+#### [publicIpAddress]
+Servers public IP address  
+<span class="type-label">Type: </span>**string**
+
+-----
+[weight]: #weight
+#### [weight]
+Load balancing weight for a server  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

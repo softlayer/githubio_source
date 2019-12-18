@@ -36,113 +36,79 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationGroupTypeId" name=locationGroupTypeId>locationGroupTypeId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityLevelId" name=securityLevelId>securityLevelId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationGroupType" name=locationGroupType>locationGroupType</a>
-            </span>
-            <div class='views-field-body'>The type for this location group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location_Group_Type'>SoftLayer_Location_Group_Type </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locations" name=locations>locations</a>
-            </span>
-            <div class='views-field-body'>The locations that this pricing location group is applicable for. This limits the locations that the prices referenced by this pricing location group can be used with. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#prices" name=prices>prices</a>
-            </span>
-            <div class='views-field-body'>The prices that this pricing location group limits. All of these prices will only be available in the locations defined by this pricing location group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationCount" name=locationCount>locationCount</a>
-            </span>
-            <div class='views-field-body'>A count of the locations that this pricing location group is applicable for. This limits the locations that the prices referenced by this pricing location group can be used with. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#priceCount" name=priceCount>priceCount</a>
-            </span>
-            <div class='views-field-body'>A count of the prices that this pricing location group limits. All of these prices will only be available in the locations defined by this pricing location group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[description]: #description
+#### [description]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[locationGroupTypeId]: #locationgrouptypeid
+#### [locationGroupTypeId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[name]: #name
+#### [name]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[securityLevelId]: #securitylevelid
+#### [securityLevelId]
+  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[locationGroupType]: #locationgrouptype
+#### [locationGroupType]
+The type for this location group.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group_Type'>SoftLayer_Location_Group_Type </a>**
+
+-----
+[locations]: #locations
+#### [locations]
+The locations that this pricing location group is applicable for. This limits the locations that the prices referenced by this pricing location group can be used with.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>**
+
+-----
+[prices]: #prices
+#### [prices]
+The prices that this pricing location group limits. All of these prices will only be available in the locations defined by this pricing location group.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**
+
+
+## Count
+
+-----
+[locationCount]: #locationcount
+#### [locationCount]
+A count of the locations that this pricing location group is applicable for. This limits the locations that the prices referenced by this pricing location group can be used with.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[priceCount]: #pricecount
+#### [priceCount]
+A count of the prices that this pricing location group limits. All of these prices will only be available in the locations defined by this pricing location group.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

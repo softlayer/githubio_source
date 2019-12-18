@@ -20,70 +20,59 @@ classes:
 ## Description
 SoftLayer_Security_Certificate_Request holds your SSL certificate request data. This data is used to place an SSL certificate order with a Certificate Authority. 
 
-To create an SSL certificate order, pass a completed [[SoftLayer_Container_Product_Order_Security_Certificate|SSL order container]] to the [[SoftLayer_Product_Order::placeOrder|SoftLayer ordering service]]. 
+To create an SSL certificate order, pass a completed [SoftLayer_Container_Product_Order_Security_Certificate]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Security_Certificate">}}). 
 
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate_Request/cancelSslOrder'> cancelSslOrder</a> </span>
-            <div class='views-field-body'>Cancels a pending SSL certificate order at the Certificate Authority</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate_Request/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve the account to which a SSL certificate request belongs.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate_Request/getAdministratorEmailDomains'> getAdministratorEmailDomains</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate_Request/getAdministratorEmailPrefixes'> getAdministratorEmailPrefixes</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate_Request/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Security_Certificate_Request record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate_Request/getOrder'> getOrder</a> </span>
-            <div class='views-field-body'>Retrieve the order contains the information related to a SSL certificate request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate_Request/getOrderItem'> getOrderItem</a> </span>
-            <div class='views-field-body'>Retrieve the associated order item for this SSL certificate request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate_Request/getPreviousOrderData'> getPreviousOrderData</a> </span>
-            <div class='views-field-body'>Returns previous SSL certificate order data.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate_Request/getSslCertificateRequests'> getSslCertificateRequests</a> </span>
-            <div class='views-field-body'>Returns all the SSL certificate requests</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate_Request/getStatus'> getStatus</a> </span>
-            <div class='views-field-body'>Retrieve the status of a SSL certificate request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate_Request/resendEmail'> resendEmail</a> </span>
-            <div class='views-field-body'>Have the Certificate Authority send various emails</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate_Request/validateCsr'> validateCsr</a> </span>
-            <div class='views-field-body'>Validates a Certificate Signing Request (CSR) with the certificate authority (CA). </div>
-        </div>
-        </div>
+</div>
+
+#### [cancelSslOrder](/reference/services/SoftLayer_Security_Certificate_Request/cancelSslOrder)
+Cancels a pending SSL certificate order at the Certificate Authority
+
+#### [getAccount](/reference/services/SoftLayer_Security_Certificate_Request/getAccount)
+Retrieve the account to which a SSL certificate request belongs.
+
+#### [getAdministratorEmailDomains](/reference/services/SoftLayer_Security_Certificate_Request/getAdministratorEmailDomains)
+
+
+#### [getAdministratorEmailPrefixes](/reference/services/SoftLayer_Security_Certificate_Request/getAdministratorEmailPrefixes)
+
+
+#### [getObject](/reference/services/SoftLayer_Security_Certificate_Request/getObject)
+Retrieve a SoftLayer_Security_Certificate_Request record.
+
+#### [getOrder](/reference/services/SoftLayer_Security_Certificate_Request/getOrder)
+Retrieve the order contains the information related to a SSL certificate request.
+
+#### [getOrderItem](/reference/services/SoftLayer_Security_Certificate_Request/getOrderItem)
+Retrieve the associated order item for this SSL certificate request.
+
+#### [getPreviousOrderData](/reference/services/SoftLayer_Security_Certificate_Request/getPreviousOrderData)
+Returns previous SSL certificate order data.
+
+#### [getSslCertificateRequests](/reference/services/SoftLayer_Security_Certificate_Request/getSslCertificateRequests)
+Returns all the SSL certificate requests
+
+#### [getStatus](/reference/services/SoftLayer_Security_Certificate_Request/getStatus)
+Retrieve the status of a SSL certificate request.
+
+#### [resendEmail](/reference/services/SoftLayer_Security_Certificate_Request/resendEmail)
+Have the Certificate Authority send various emails
+
+#### [validateCsr](/reference/services/SoftLayer_Security_Certificate_Request/validateCsr)
+Validates a Certificate Signing Request (CSR) with the certificate authority (CA). 
+
 </div>
 

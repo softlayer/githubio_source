@@ -1,6 +1,6 @@
 ---
 title: "getLowestServerPrice"
-description: "Retrieve the lowest server [[SoftLayer_Product_Item_Price]] related to this package."
+description: "Retrieve the lowest server [SoftLayer_Product_Item_Price]({{<ref 'reference/datatypes/SoftLayer_Product_Item_Price'>}})... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getLowestServerPrice
 
-Retrieve the lowest server [[SoftLayer_Product_Item_Price]] related to this package.
+Retrieve the lowest server [SoftLayer_Product_Item_Price]({{<ref "reference/datatypes/SoftLayer_Product_Item_Price">}}) related to this package.
 
 
 ## Overview 
-Retrieve the lowest server [[SoftLayer_Product_Item_Price]] related to this package.
+Retrieve the lowest server [SoftLayer_Product_Item_Price]({{<ref "reference/datatypes/SoftLayer_Product_Item_Price">}}) related to this package.
 
 -----
 

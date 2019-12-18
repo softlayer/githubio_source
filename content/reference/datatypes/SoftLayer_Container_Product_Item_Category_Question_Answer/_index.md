@@ -36,49 +36,36 @@ The SoftLayer_Container_Product_Item_Category_Question_Answer data type represen
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#answer" name=answer>answer</a>
-            </span>
-            <div class='views-field-body'>The answer to the question. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#categoryCode" name=categoryCode>categoryCode</a>
-            </span>
-            <div class='views-field-body'>The product item category code. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#categoryId" name=categoryId>categoryId</a>
-            </span>
-            <div class='views-field-body'>The product item category id. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#questionId" name=questionId>questionId</a>
-            </span>
-            <div class='views-field-body'>The product item category question id. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[answer]: #answer
+#### [answer]
+The answer to the question.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[categoryCode]: #categorycode
+#### [categoryCode]
+The product item category code.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[categoryId]: #categoryid
+#### [categoryId]
+The product item category id.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[questionId]: #questionid
+#### [questionId]
+The product item category question id.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

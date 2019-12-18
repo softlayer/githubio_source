@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Location_Datacenter"
-description: "SoftLayer_Location_Datacenter extends the [[SoftLayer_Location]] data type to include datacenter-specific properties."
+description: "SoftLayer_Location_Datacenter extends the [SoftLayer_Location]({{<ref 'reference/datatypes/SoftLayer_Location'>}}) data... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-SoftLayer_Location_Datacenter extends the [[SoftLayer_Location]] data type to include datacenter-specific properties. 
+SoftLayer_Location_Datacenter extends the [SoftLayer_Location]({{<ref "reference/datatypes/SoftLayer_Location">}}) data type to include datacenter-specific properties. 
 
 
 ### associatedMethods
@@ -47,473 +47,308 @@ SoftLayer_Location_Datacenter extends the [[SoftLayer_Location]] data type to in
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The unique identifier of a specific location. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#longName" name=longName>longName</a>
-            </span>
-            <div class='views-field-body'>A longer location description. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>A short location description. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#statusId" name=statusId>statusId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeItemPresaleEvents" name=activeItemPresaleEvents>activeItemPresaleEvents</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Sales_Presale_Event'>SoftLayer_Sales_Presale_Event[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activePresaleEvents" name=activePresaleEvents>activePresaleEvents</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Sales_Presale_Event'>SoftLayer_Sales_Presale_Event[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#backboneDependents" name=backboneDependents>backboneDependents</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Backbone_Location_Dependent'>SoftLayer_Network_Backbone_Location_Dependent[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#backendHardwareRouters" name=backendHardwareRouters>backendHardwareRouters</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#boundSubnets" name=boundSubnets>boundSubnets</a>
-            </span>
-            <div class='views-field-body'>Subnets which are directly bound to one or more routers in a given datacenter, and currently allow routing. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#brandCountryRestrictions" name=brandCountryRestrictions>brandCountryRestrictions</a>
-            </span>
-            <div class='views-field-body'>This references relationship between brands, locations and countries associated with a user's account that are ineligible when ordering products. For example, the India datacenter may not be available on this brand for customers that live in Great Britain. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Brand_Restriction_Location_CustomerCountry'>SoftLayer_Brand_Restriction_Location_CustomerCountry[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#euCompliantFlag" name=euCompliantFlag>euCompliantFlag</a>
-            </span>
-            <div class='views-field-body'>A flag indicating whether or not the datacenter/location is EU compliant. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#frontendHardwareRouters" name=frontendHardwareRouters>frontendHardwareRouters</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#groups" name=groups>groups</a>
-            </span>
-            <div class='views-field-body'>A location can be a member of 1 or more groups. This will show which groups to which a location belongs. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareFirewalls" name=hardwareFirewalls>hardwareFirewalls</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareRouters" name=hardwareRouters>hardwareRouters</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationAddress" name=locationAddress>locationAddress</a>
-            </span>
-            <div class='views-field-body'>A location's physical address. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationAddresses" name=locationAddresses>locationAddresses</a>
-            </span>
-            <div class='views-field-body'>A location's physical addresses. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationReservationMember" name=locationReservationMember>locationReservationMember</a>
-            </span>
-            <div class='views-field-body'>A location's Dedicated Rack member </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location_Reservation_Rack_Member'>SoftLayer_Location_Reservation_Rack_Member </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationStatus" name=locationStatus>locationStatus</a>
-            </span>
-            <div class='views-field-body'>The current locations status. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location_Status'>SoftLayer_Location_Status </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkConfigurationAttribute" name=networkConfigurationAttribute>networkConfigurationAttribute</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Attribute'>SoftLayer_Hardware_Attribute </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#onlinePptpVpnUserCount" name=onlinePptpVpnUserCount>onlinePptpVpnUserCount</a>
-            </span>
-            <div class='views-field-body'>The total number of users online using SoftLayer's PPTP VPN service for a location. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#onlineSslVpnUserCount" name=onlineSslVpnUserCount>onlineSslVpnUserCount</a>
-            </span>
-            <div class='views-field-body'>The total number of users online using SoftLayer's SSL VPN service for a location. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pathString" name=pathString>pathString</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#presaleEvents" name=presaleEvents>presaleEvents</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Sales_Presale_Event'>SoftLayer_Sales_Presale_Event[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#priceGroups" name=priceGroups>priceGroups</a>
-            </span>
-            <div class='views-field-body'>A location can be a member of 1 or more Price Groups. This will show which groups to which a location belongs. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#regionalGroup" name=regionalGroup>regionalGroup</a>
-            </span>
-            <div class='views-field-body'>The regional group this datacenter belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location_Group_Regional'>SoftLayer_Location_Group_Regional </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#regionalInternetRegistry" name=regionalInternetRegistry>regionalInternetRegistry</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Regional_Internet_Registry'>SoftLayer_Network_Regional_Internet_Registry </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#regions" name=regions>regions</a>
-            </span>
-            <div class='views-field-body'>A location can be a member of 1 or more regions. This will show which regions to which a location belongs. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location_Region'>SoftLayer_Location_Region[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#routableBoundSubnets" name=routableBoundSubnets>routableBoundSubnets</a>
-            </span>
-            <div class='views-field-body'>Retrieve all subnets that are eligible to be routed; those which the account has permission to associate with a vlan. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#timezone" name=timezone>timezone</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Locale_Timezone'>SoftLayer_Locale_Timezone </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#vdrGroup" name=vdrGroup>vdrGroup</a>
-            </span>
-            <div class='views-field-body'>A location can be a member of 1 Bandwidth Pooling Group. This will show which group to which a location belongs. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location_Group_Location_CrossReference'>SoftLayer_Location_Group_Location_CrossReference </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeItemPresaleEventCount" name=activeItemPresaleEventCount>activeItemPresaleEventCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activePresaleEventCount" name=activePresaleEventCount>activePresaleEventCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#backboneDependentCount" name=backboneDependentCount>backboneDependentCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#backendHardwareRouterCount" name=backendHardwareRouterCount>backendHardwareRouterCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#boundSubnetCount" name=boundSubnetCount>boundSubnetCount</a>
-            </span>
-            <div class='views-field-body'>A count of subnets which are directly bound to one or more routers in a given datacenter, and currently allow routing. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#brandCountryRestrictionCount" name=brandCountryRestrictionCount>brandCountryRestrictionCount</a>
-            </span>
-            <div class='views-field-body'>A count of this references relationship between brands, locations and countries associated with a user's account that are ineligible when ordering products. For example, the India datacenter may not be available on this brand for customers that live in Great Britain. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#frontendHardwareRouterCount" name=frontendHardwareRouterCount>frontendHardwareRouterCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#groupCount" name=groupCount>groupCount</a>
-            </span>
-            <div class='views-field-body'>A count of a location can be a member of 1 or more groups. This will show which groups to which a location belongs. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareFirewallCount" name=hardwareFirewallCount>hardwareFirewallCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareRouterCount" name=hardwareRouterCount>hardwareRouterCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationAddressCount" name=locationAddressCount>locationAddressCount</a>
-            </span>
-            <div class='views-field-body'>A count of a location's physical addresses. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#presaleEventCount" name=presaleEventCount>presaleEventCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#priceGroupCount" name=priceGroupCount>priceGroupCount</a>
-            </span>
-            <div class='views-field-body'>A count of a location can be a member of 1 or more Price Groups. This will show which groups to which a location belongs. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#regionCount" name=regionCount>regionCount</a>
-            </span>
-            <div class='views-field-body'>A count of a location can be a member of 1 or more regions. This will show which regions to which a location belongs. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#routableBoundSubnetCount" name=routableBoundSubnetCount>routableBoundSubnetCount</a>
-            </span>
-            <div class='views-field-body'>A count of retrieve all subnets that are eligible to be routed; those which the account has permission to associate with a vlan. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[id]: #id
+#### [id]
+The unique identifier of a specific location.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[longName]: #longname
+#### [longName]
+A longer location description.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[name]: #name
+#### [name]
+A short location description.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[statusId]: #statusid
+#### [statusId]
+  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[activeItemPresaleEvents]: #activeitempresaleevents
+#### [activeItemPresaleEvents]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Sales_Presale_Event'>SoftLayer_Sales_Presale_Event[] </a>**
+
+-----
+[activePresaleEvents]: #activepresaleevents
+#### [activePresaleEvents]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Sales_Presale_Event'>SoftLayer_Sales_Presale_Event[] </a>**
+
+-----
+[backboneDependents]: #backbonedependents
+#### [backboneDependents]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Backbone_Location_Dependent'>SoftLayer_Network_Backbone_Location_Dependent[] </a>**
+
+-----
+[backendHardwareRouters]: #backendhardwarerouters
+#### [backendHardwareRouters]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[boundSubnets]: #boundsubnets
+#### [boundSubnets]
+Subnets which are directly bound to one or more routers in a given datacenter, and currently allow routing.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+
+-----
+[brandCountryRestrictions]: #brandcountryrestrictions
+#### [brandCountryRestrictions]
+This references relationship between brands, locations and countries associated with a user's account that are ineligible when ordering products. For example, the India datacenter may not be available on this brand for customers that live in Great Britain.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand_Restriction_Location_CustomerCountry'>SoftLayer_Brand_Restriction_Location_CustomerCountry[] </a>**
+
+-----
+[euCompliantFlag]: #eucompliantflag
+#### [euCompliantFlag]
+A flag indicating whether or not the datacenter/location is EU compliant.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[frontendHardwareRouters]: #frontendhardwarerouters
+#### [frontendHardwareRouters]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[groups]: #groups
+#### [groups]
+A location can be a member of 1 or more groups. This will show which groups to which a location belongs.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group[] </a>**
+
+-----
+[hardwareFirewalls]: #hardwarefirewalls
+#### [hardwareFirewalls]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[hardwareRouters]: #hardwarerouters
+#### [hardwareRouters]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[locationAddress]: #locationaddress
+#### [locationAddress]
+A location's physical address.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a>**
+
+-----
+[locationAddresses]: #locationaddresses
+#### [locationAddresses]
+A location's physical addresses.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address[] </a>**
+
+-----
+[locationReservationMember]: #locationreservationmember
+#### [locationReservationMember]
+A location's Dedicated Rack member  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Reservation_Rack_Member'>SoftLayer_Location_Reservation_Rack_Member </a>**
+
+-----
+[locationStatus]: #locationstatus
+#### [locationStatus]
+The current locations status.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Status'>SoftLayer_Location_Status </a>**
+
+-----
+[networkConfigurationAttribute]: #networkconfigurationattribute
+#### [networkConfigurationAttribute]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Attribute'>SoftLayer_Hardware_Attribute </a>**
+
+-----
+[onlinePptpVpnUserCount]: #onlinepptpvpnusercount
+#### [onlinePptpVpnUserCount]
+The total number of users online using SoftLayer's PPTP VPN service for a location.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[onlineSslVpnUserCount]: #onlinesslvpnusercount
+#### [onlineSslVpnUserCount]
+The total number of users online using SoftLayer's SSL VPN service for a location.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[pathString]: #pathstring
+#### [pathString]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[presaleEvents]: #presaleevents
+#### [presaleEvents]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Sales_Presale_Event'>SoftLayer_Sales_Presale_Event[] </a>**
+
+-----
+[priceGroups]: #pricegroups
+#### [priceGroups]
+A location can be a member of 1 or more Price Groups. This will show which groups to which a location belongs.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group[] </a>**
+
+-----
+[regionalGroup]: #regionalgroup
+#### [regionalGroup]
+The regional group this datacenter belongs to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group_Regional'>SoftLayer_Location_Group_Regional </a>**
+
+-----
+[regionalInternetRegistry]: #regionalinternetregistry
+#### [regionalInternetRegistry]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Regional_Internet_Registry'>SoftLayer_Network_Regional_Internet_Registry </a>**
+
+-----
+[regions]: #regions
+#### [regions]
+A location can be a member of 1 or more regions. This will show which regions to which a location belongs.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Region'>SoftLayer_Location_Region[] </a>**
+
+-----
+[routableBoundSubnets]: #routableboundsubnets
+#### [routableBoundSubnets]
+Retrieve all subnets that are eligible to be routed; those which the account has permission to associate with a vlan.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+
+-----
+[timezone]: #timezone
+#### [timezone]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Locale_Timezone'>SoftLayer_Locale_Timezone </a>**
+
+-----
+[vdrGroup]: #vdrgroup
+#### [vdrGroup]
+A location can be a member of 1 Bandwidth Pooling Group. This will show which group to which a location belongs.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group_Location_CrossReference'>SoftLayer_Location_Group_Location_CrossReference </a>**
+
+
+## Count
+
+-----
+[activeItemPresaleEventCount]: #activeitempresaleeventcount
+#### [activeItemPresaleEventCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[activePresaleEventCount]: #activepresaleeventcount
+#### [activePresaleEventCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[backboneDependentCount]: #backbonedependentcount
+#### [backboneDependentCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[backendHardwareRouterCount]: #backendhardwareroutercount
+#### [backendHardwareRouterCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[boundSubnetCount]: #boundsubnetcount
+#### [boundSubnetCount]
+A count of subnets which are directly bound to one or more routers in a given datacenter, and currently allow routing.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[brandCountryRestrictionCount]: #brandcountryrestrictioncount
+#### [brandCountryRestrictionCount]
+A count of this references relationship between brands, locations and countries associated with a user's account that are ineligible when ordering products. For example, the India datacenter may not be available on this brand for customers that live in Great Britain.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[frontendHardwareRouterCount]: #frontendhardwareroutercount
+#### [frontendHardwareRouterCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[groupCount]: #groupcount
+#### [groupCount]
+A count of a location can be a member of 1 or more groups. This will show which groups to which a location belongs.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hardwareFirewallCount]: #hardwarefirewallcount
+#### [hardwareFirewallCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[hardwareRouterCount]: #hardwareroutercount
+#### [hardwareRouterCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[locationAddressCount]: #locationaddresscount
+#### [locationAddressCount]
+A count of a location's physical addresses.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[presaleEventCount]: #presaleeventcount
+#### [presaleEventCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[priceGroupCount]: #pricegroupcount
+#### [priceGroupCount]
+A count of a location can be a member of 1 or more Price Groups. This will show which groups to which a location belongs.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[regionCount]: #regioncount
+#### [regionCount]
+A count of a location can be a member of 1 or more regions. This will show which regions to which a location belongs.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[routableBoundSubnetCount]: #routableboundsubnetcount
+#### [routableBoundSubnetCount]
+A count of retrieve all subnets that are eligible to be routed; those which the account has permission to associate with a vlan.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

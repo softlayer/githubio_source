@@ -29,10 +29,10 @@ Account authentication has many different settings that can be set. This class a
 
 ### seeAlso
 
-* [SoftLayer_Account_Authentication_Saml](/reference/services/SoftLayer_Account_Authentication_Saml )
+* [SoftLayer_Account_Authentication_Saml](/reference/datatypes/SoftLayer_Account_Authentication_Saml )
 
 
-* [SoftLayer_Account_Authentication_Attribute_Type](/reference/services/SoftLayer_Account_Authentication_Attribute_Type )
+* [SoftLayer_Account_Authentication_Attribute_Type](/reference/datatypes/SoftLayer_Account_Authentication_Attribute_Type )
 
 
 
@@ -49,83 +49,59 @@ Account authentication has many different settings that can be set. This class a
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of the SoftLayer customer account that is assigned an account authenction attribute.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A SoftLayer account authenction attribute's internal identifier.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#typeId" name=typeId>typeId</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of the type of attribute that a SoftLayer account authenction attribute belongs to.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#value" name=value>value</a>
-            </span>
-            <div class='views-field-body'>A SoftLayer account authenction attribute's value.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The SoftLayer customer account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#authenticationRecord" name=authenticationRecord>authenticationRecord</a>
-            </span>
-            <div class='views-field-body'>The SoftLayer account authentication that has an attribute. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Authentication_Saml'>SoftLayer_Account_Authentication_Saml </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#type" name=type>type</a>
-            </span>
-            <div class='views-field-body'>The type of attribute assigned to a SoftLayer account authentication. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute_Type'>SoftLayer_Account_Authentication_Attribute_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+The internal identifier of the SoftLayer customer account that is assigned an account authenction attribute.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+A SoftLayer account authenction attribute's internal identifier.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[typeId]: #typeid
+#### [typeId]
+The internal identifier of the type of attribute that a SoftLayer account authenction attribute belongs to.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[value]: #value
+#### [value]
+A SoftLayer account authenction attribute's value.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The SoftLayer customer account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[authenticationRecord]: #authenticationrecord
+#### [authenticationRecord]
+The SoftLayer account authentication that has an attribute.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Authentication_Saml'>SoftLayer_Account_Authentication_Saml </a>**
+
+-----
+[type]: #type
+#### [type]
+The type of attribute assigned to a SoftLayer account authentication.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute_Type'>SoftLayer_Account_Authentication_Attribute_Type </a>**
+
+
+## Count
 </div>
 
 

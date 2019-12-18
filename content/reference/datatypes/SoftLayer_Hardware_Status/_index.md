@@ -39,7 +39,7 @@ Servers in production and in use should stay in the ACTIVE state. If a server's 
 
 ### seeAlso
 
-* [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware )
+* [SoftLayer_Hardware](/reference/datatypes/SoftLayer_Hardware )
 
 
 
@@ -56,29 +56,24 @@ Servers in production and in use should stay in the ACTIVE state. If a server's 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A hardware status' internal identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#status" name=status>status</a>
-            </span>
-            <div class='views-field-body'>A hardware's status code. See the SoftLayer_Hardware_Status Overview for ''status''' possible values. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[id]: #id
+#### [id]
+A hardware status' internal identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[status]: #status
+#### [status]
+A hardware's status code. See the SoftLayer_Hardware_Status Overview for ''status''' possible values.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

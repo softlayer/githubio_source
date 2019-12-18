@@ -1,6 +1,6 @@
 ---
 title: "getRegistration"
-description: "Retrieve the related [[SoftLayer_Network_Subnet_Registration|registration object]]."
+description: "Retrieve the related [SoftLayer_Network_Subnet_Registration]({{<ref 'reference/datatypes/SoftLayer_Network_Subnet_Regist... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_Registration_Details](/reference/services/SoftLayer_Network_Subnet_Registration_Details)::getRegistration
 
-Retrieve the related [[SoftLayer_Network_Subnet_Registration|registration object]].
+Retrieve the related [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}).
 
 
 ## Overview 
-Retrieve the related [[SoftLayer_Network_Subnet_Registration|registration object]].
+Retrieve the related [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}).
 
 -----
 

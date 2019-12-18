@@ -36,53 +36,41 @@ All bandwidth tracking is maintained through the switch that the bandwidth is us
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hostId" name=hostId>hostId</a>
-            </span>
-            <div class='views-field-body'>A interface's host.  The host stores the pod number for the bandwidth data. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkComponentId" name=networkComponentId>networkComponentId</a>
-            </span>
-            <div class='views-field-body'>The network component for this interface. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#host" name=host>host</a>
-            </span>
-            <div class='views-field-body'>The host for an interface. This is not to be confused with a SoftLayer hardware </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Host'>SoftLayer_Network_Bandwidth_Version1_Host </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkComponent" name=networkComponent>networkComponent</a>
-            </span>
-            <div class='views-field-body'>The switch for an interface. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[hostId]: #hostid
+#### [hostId]
+A interface's host.  The host stores the pod number for the bandwidth data.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[networkComponentId]: #networkcomponentid
+#### [networkComponentId]
+The network component for this interface.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[host]: #host
+#### [host]
+The host for an interface. This is not to be confused with a SoftLayer hardware  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Host'>SoftLayer_Network_Bandwidth_Version1_Host </a>**
+
+-----
+[networkComponent]: #networkcomponent
+#### [networkComponent]
+The switch for an interface.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
+
+
+## Count
 </div>
 
 

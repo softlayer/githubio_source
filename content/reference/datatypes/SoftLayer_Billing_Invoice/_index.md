@@ -47,513 +47,321 @@ The SoftLayer_Billing_Invoice data type contains general information relating to
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>The SoftLayer customer account that an invoice belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#address1" name=address1>address1</a>
-            </span>
-            <div class='views-field-body'>The first line of an address belonging to an account at the time an invoice is created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#address2" name=address2>address2</a>
-            </span>
-            <div class='views-field-body'>The second line of an address belonging to an account at the time an invoice is created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#city" name=city>city</a>
-            </span>
-            <div class='views-field-body'>The city portion of an address belonging to an account at the time an invoice is created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#claimedTaxExemptTxFlag" name=claimedTaxExemptTxFlag>claimedTaxExemptTxFlag</a>
-            </span>
-            <div class='views-field-body'>Whether an account was exempt from taxes on their invoices at the time an invoice is created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#closedDate" name=closedDate>closedDate</a>
-            </span>
-            <div class='views-field-body'>The date an invoice was closed. Open invoices have a null closed date. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#companyName" name=companyName>companyName</a>
-            </span>
-            <div class='views-field-body'>The company name belonging to an account at the time an invoice is created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#country" name=country>country</a>
-            </span>
-            <div class='views-field-body'>A two-letter abbreviation of the country portion of an address belonging to an account at the time an invoice is created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date an invoice was created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#documentsGeneratedFlag" name=documentsGeneratedFlag>documentsGeneratedFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#email" name=email>email</a>
-            </span>
-            <div class='views-field-body'>The email address belonging to an account at the time an invoice is created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#endingBalance" name=endingBalance>endingBalance</a>
-            </span>
-            <div class='views-field-body'>An SoftLayer account's balance at the time an invoice is closed. This value is measured in US Dollar ($USD) currency. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#faxPhone" name=faxPhone>faxPhone</a>
-            </span>
-            <div class='views-field-body'>The fax telephone number belonging to an account at the time an invoice is created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#firstName" name=firstName>firstName</a>
-            </span>
-            <div class='views-field-body'>The first name of the account holder at the time an invoice is created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>An invoice's internal identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastName" name=lastName>lastName</a>
-            </span>
-            <div class='views-field-body'>The last name of the account holder at the time an invoice is created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>The date an invoice was last modified. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#officePhone" name=officePhone>officePhone</a>
-            </span>
-            <div class='views-field-body'>The telephone number belonging to an account at the time an invoice is created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#postalCode" name=postalCode>postalCode</a>
-            </span>
-            <div class='views-field-body'>The postal code portion of an address belonging to an account at the time an invoice is created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#purchaseOrderNumber" name=purchaseOrderNumber>purchaseOrderNumber</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#startingBalance" name=startingBalance>startingBalance</a>
-            </span>
-            <div class='views-field-body'>An SoftLayer account's balance at the time an invoice is created. This value is measured in US Dollar ($USD) currency. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#state" name=state>state</a>
-            </span>
-            <div class='views-field-body'>A two-letter abbreviation of the state portion of an address belonging to an account at the time an invoice is created. If the account that the invoice was generated for resides outside a province then this is set to "other". </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#statusCode" name=statusCode>statusCode</a>
-            </span>
-            <div class='views-field-body'>An invoice's status. The "OPEN" status means SoftLayer has not yet received payment for this invoice. "CLOSED" status means that SoftLayer has received payment and closed the invoice. The "CLOSED_FAILED" status code means SoftLayer closed the invoice without receiving a payment. Invoices are usually set to CLOSED_FAILED status in cases where customer accounts are terminated for non-payment.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#taxStatusId" name=taxStatusId>taxStatusId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#taxTypeId" name=taxTypeId>taxTypeId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#typeCode" name=typeCode>typeCode</a>
-            </span>
-            <div class='views-field-body'>An invoice's type. SoftLayer invoices and service credits are differentiated by their type. The "NEW" type code signifies an invoice for new service. A SoftLayer customer's first invoice has the NEW type code. "RECURRING" invoices are generated on a SoftLayer customer's anniversary billing date for monthly services. "ONE-TIME-CHARGE" invoices are generated when one-time charges are applied to an account. "CREDIT" invoices are generated whenever SoftLayer applies a credit against an account's balance. There are two special types of service credits. "REFUND" type credits are applied against a customer's account balance along with the receivables on their account. "MANUAL_PAYMENT_CREDIT" invoice credits are generated whenever a customer makes an unscheduled payment.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The account that an invoice belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#amount" name=amount>amount</a>
-            </span>
-            <div class='views-field-body'>This is the amount of this invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#brandAtInvoiceCreation" name=brandAtInvoiceCreation>brandAtInvoiceCreation</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#detailedPdfGeneratedFlag" name=detailedPdfGeneratedFlag>detailedPdfGeneratedFlag</a>
-            </span>
-            <div class='views-field-body'>A flag that will reflect whether the detailed version of the pdf has been generated. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#invoiceTopLevelItems" name=invoiceTopLevelItems>invoiceTopLevelItems</a>
-            </span>
-            <div class='views-field-body'>A list of top-level invoice items that are on the currently pending invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#invoiceTotalAmount" name=invoiceTotalAmount>invoiceTotalAmount</a>
-            </span>
-            <div class='views-field-body'>The total amount of this invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#invoiceTotalOneTimeAmount" name=invoiceTotalOneTimeAmount>invoiceTotalOneTimeAmount</a>
-            </span>
-            <div class='views-field-body'>The total one-time charges for this invoice. This is the sum of one-time charges + setup fees + labor fees. This does not include taxes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#invoiceTotalOneTimeTaxAmount" name=invoiceTotalOneTimeTaxAmount>invoiceTotalOneTimeTaxAmount</a>
-            </span>
-            <div class='views-field-body'>A sum of all the taxes related to one time charges for this invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#invoiceTotalPreTaxAmount" name=invoiceTotalPreTaxAmount>invoiceTotalPreTaxAmount</a>
-            </span>
-            <div class='views-field-body'>The total amount of this invoice. This does not include taxes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#invoiceTotalRecurringAmount" name=invoiceTotalRecurringAmount>invoiceTotalRecurringAmount</a>
-            </span>
-            <div class='views-field-body'>The total Recurring amount of this invoice. This amount does not include taxes or one time charges. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#invoiceTotalRecurringTaxAmount" name=invoiceTotalRecurringTaxAmount>invoiceTotalRecurringTaxAmount</a>
-            </span>
-            <div class='views-field-body'>The total amount of the recurring taxes on this invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#items" name=items>items</a>
-            </span>
-            <div class='views-field-body'>The items that belong to this invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#localCurrencyExchangeRate" name=localCurrencyExchangeRate>localCurrencyExchangeRate</a>
-            </span>
-            <div class='views-field-body'>Exchange rate used for billing this invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Currency_ExchangeRate'>SoftLayer_Billing_Currency_ExchangeRate </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#payment" name=payment>payment</a>
-            </span>
-            <div class='views-field-body'>This is the total payment made on this invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#payments" name=payments>payments</a>
-            </span>
-            <div class='views-field-body'>The payments for the invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Invoice_Receivable_Payment'>SoftLayer_Billing_Invoice_Receivable_Payment[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sellerRegistration" name=sellerRegistration>sellerRegistration</a>
-            </span>
-            <div class='views-field-body'>This is the seller's tax registration. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#taxInfo" name=taxInfo>taxInfo</a>
-            </span>
-            <div class='views-field-body'>This is the tax information that applies to tax auditing. This is the official tax record for this invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Info'>SoftLayer_Billing_Invoice_Tax_Info </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#taxInfoHistory" name=taxInfoHistory>taxInfoHistory</a>
-            </span>
-            <div class='views-field-body'>This is the set of tax information for any tax calculation for this invoice. Note that not all of these are necessarily official, so use the taxInfo key to get the final information. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Info'>SoftLayer_Billing_Invoice_Tax_Info[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#taxMessage" name=taxMessage>taxMessage</a>
-            </span>
-            <div class='views-field-body'>This is a message explaining the tax treatment for this invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#taxType" name=taxType>taxType</a>
-            </span>
-            <div class='views-field-body'>This is the strategy used to calculate tax on this invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Type'>SoftLayer_Billing_Invoice_Tax_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#invoiceTopLevelItemCount" name=invoiceTopLevelItemCount>invoiceTopLevelItemCount</a>
-            </span>
-            <div class='views-field-body'>A count of a list of top-level invoice items that are on the currently pending invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#itemCount" name=itemCount>itemCount</a>
-            </span>
-            <div class='views-field-body'>A count of the items that belong to this invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#paymentCount" name=paymentCount>paymentCount</a>
-            </span>
-            <div class='views-field-body'>A count of the payments for the invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#taxInfoHistoryCount" name=taxInfoHistoryCount>taxInfoHistoryCount</a>
-            </span>
-            <div class='views-field-body'>A count of this is the set of tax information for any tax calculation for this invoice. Note that not all of these are necessarily official, so use the taxInfo key to get the final information. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+The SoftLayer customer account that an invoice belongs to.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[address1]: #address1
+#### [address1]
+The first line of an address belonging to an account at the time an invoice is created.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[address2]: #address2
+#### [address2]
+The second line of an address belonging to an account at the time an invoice is created.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[city]: #city
+#### [city]
+The city portion of an address belonging to an account at the time an invoice is created.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[claimedTaxExemptTxFlag]: #claimedtaxexempttxflag
+#### [claimedTaxExemptTxFlag]
+Whether an account was exempt from taxes on their invoices at the time an invoice is created.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[closedDate]: #closeddate
+#### [closedDate]
+The date an invoice was closed. Open invoices have a null closed date.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[companyName]: #companyname
+#### [companyName]
+The company name belonging to an account at the time an invoice is created.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[country]: #country
+#### [country]
+A two-letter abbreviation of the country portion of an address belonging to an account at the time an invoice is created.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+The date an invoice was created.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[documentsGeneratedFlag]: #documentsgeneratedflag
+#### [documentsGeneratedFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[email]: #email
+#### [email]
+The email address belonging to an account at the time an invoice is created.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[endingBalance]: #endingbalance
+#### [endingBalance]
+An SoftLayer account's balance at the time an invoice is closed. This value is measured in US Dollar ($USD) currency.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[faxPhone]: #faxphone
+#### [faxPhone]
+The fax telephone number belonging to an account at the time an invoice is created.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[firstName]: #firstname
+#### [firstName]
+The first name of the account holder at the time an invoice is created.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+An invoice's internal identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[lastName]: #lastname
+#### [lastName]
+The last name of the account holder at the time an invoice is created.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+The date an invoice was last modified.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[officePhone]: #officephone
+#### [officePhone]
+The telephone number belonging to an account at the time an invoice is created.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[postalCode]: #postalcode
+#### [postalCode]
+The postal code portion of an address belonging to an account at the time an invoice is created.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[purchaseOrderNumber]: #purchaseordernumber
+#### [purchaseOrderNumber]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[startingBalance]: #startingbalance
+#### [startingBalance]
+An SoftLayer account's balance at the time an invoice is created. This value is measured in US Dollar ($USD) currency.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[state]: #state
+#### [state]
+A two-letter abbreviation of the state portion of an address belonging to an account at the time an invoice is created. If the account that the invoice was generated for resides outside a province then this is set to "other".  
+<span class="type-label">Type: </span>**string**
+
+-----
+[statusCode]: #statuscode
+#### [statusCode]
+An invoice's status. The "OPEN" status means SoftLayer has not yet received payment for this invoice. "CLOSED" status means that SoftLayer has received payment and closed the invoice. The "CLOSED_FAILED" status code means SoftLayer closed the invoice without receiving a payment. Invoices are usually set to CLOSED_FAILED status in cases where customer accounts are terminated for non-payment.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[taxStatusId]: #taxstatusid
+#### [taxStatusId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[taxTypeId]: #taxtypeid
+#### [taxTypeId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[typeCode]: #typecode
+#### [typeCode]
+An invoice's type. SoftLayer invoices and service credits are differentiated by their type. The "NEW" type code signifies an invoice for new service. A SoftLayer customer's first invoice has the NEW type code. "RECURRING" invoices are generated on a SoftLayer customer's anniversary billing date for monthly services. "ONE-TIME-CHARGE" invoices are generated when one-time charges are applied to an account. "CREDIT" invoices are generated whenever SoftLayer applies a credit against an account's balance. There are two special types of service credits. "REFUND" type credits are applied against a customer's account balance along with the receivables on their account. "MANUAL_PAYMENT_CREDIT" invoice credits are generated whenever a customer makes an unscheduled payment.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The account that an invoice belongs to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[amount]: #amount
+#### [amount]
+This is the amount of this invoice.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[brandAtInvoiceCreation]: #brandatinvoicecreation
+#### [brandAtInvoiceCreation]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>**
+
+-----
+[detailedPdfGeneratedFlag]: #detailedpdfgeneratedflag
+#### [detailedPdfGeneratedFlag]
+A flag that will reflect whether the detailed version of the pdf has been generated.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[invoiceTopLevelItems]: #invoicetoplevelitems
+#### [invoiceTopLevelItems]
+A list of top-level invoice items that are on the currently pending invoice.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a>**
+
+-----
+[invoiceTotalAmount]: #invoicetotalamount
+#### [invoiceTotalAmount]
+The total amount of this invoice.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[invoiceTotalOneTimeAmount]: #invoicetotalonetimeamount
+#### [invoiceTotalOneTimeAmount]
+The total one-time charges for this invoice. This is the sum of one-time charges + setup fees + labor fees. This does not include taxes.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[invoiceTotalOneTimeTaxAmount]: #invoicetotalonetimetaxamount
+#### [invoiceTotalOneTimeTaxAmount]
+A sum of all the taxes related to one time charges for this invoice.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[invoiceTotalPreTaxAmount]: #invoicetotalpretaxamount
+#### [invoiceTotalPreTaxAmount]
+The total amount of this invoice. This does not include taxes.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[invoiceTotalRecurringAmount]: #invoicetotalrecurringamount
+#### [invoiceTotalRecurringAmount]
+The total Recurring amount of this invoice. This amount does not include taxes or one time charges.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[invoiceTotalRecurringTaxAmount]: #invoicetotalrecurringtaxamount
+#### [invoiceTotalRecurringTaxAmount]
+The total amount of the recurring taxes on this invoice.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[items]: #items
+#### [items]
+The items that belong to this invoice.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a>**
+
+-----
+[localCurrencyExchangeRate]: #localcurrencyexchangerate
+#### [localCurrencyExchangeRate]
+Exchange rate used for billing this invoice.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency_ExchangeRate'>SoftLayer_Billing_Currency_ExchangeRate </a>**
+
+-----
+[payment]: #payment
+#### [payment]
+This is the total payment made on this invoice.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[payments]: #payments
+#### [payments]
+The payments for the invoice.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Receivable_Payment'>SoftLayer_Billing_Invoice_Receivable_Payment[] </a>**
+
+-----
+[sellerRegistration]: #sellerregistration
+#### [sellerRegistration]
+This is the seller's tax registration.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[taxInfo]: #taxinfo
+#### [taxInfo]
+This is the tax information that applies to tax auditing. This is the official tax record for this invoice.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Info'>SoftLayer_Billing_Invoice_Tax_Info </a>**
+
+-----
+[taxInfoHistory]: #taxinfohistory
+#### [taxInfoHistory]
+This is the set of tax information for any tax calculation for this invoice. Note that not all of these are necessarily official, so use the taxInfo key to get the final information.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Info'>SoftLayer_Billing_Invoice_Tax_Info[] </a>**
+
+-----
+[taxMessage]: #taxmessage
+#### [taxMessage]
+This is a message explaining the tax treatment for this invoice.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[taxType]: #taxtype
+#### [taxType]
+This is the strategy used to calculate tax on this invoice.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Type'>SoftLayer_Billing_Invoice_Tax_Type </a>**
+
+
+## Count
+
+-----
+[invoiceTopLevelItemCount]: #invoicetoplevelitemcount
+#### [invoiceTopLevelItemCount]
+A count of a list of top-level invoice items that are on the currently pending invoice.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[itemCount]: #itemcount
+#### [itemCount]
+A count of the items that belong to this invoice.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[paymentCount]: #paymentcount
+#### [paymentCount]
+A count of the payments for the invoice.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[taxInfoHistoryCount]: #taxinfohistorycount
+#### [taxInfoHistoryCount]
+A count of this is the set of tax information for any tax calculation for this invoice. Note that not all of these are necessarily official, so use the taxInfo key to get the final information.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

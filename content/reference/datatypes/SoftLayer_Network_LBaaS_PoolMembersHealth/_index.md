@@ -36,29 +36,24 @@ SoftLayer_Network_LBaaS_PoolMembersHealth provides statistics of members belongi
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#membersHealth" name=membersHealth>membersHealth</a>
-            </span>
-            <div class='views-field-body'>Members statistics of the pool </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_MemberHealth'>SoftLayer_Network_LBaaS_MemberHealth[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#poolUuid" name=poolUuid>poolUuid</a>
-            </span>
-            <div class='views-field-body'>Instance uuid of the pool </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[membersHealth]: #membershealth
+#### [membersHealth]
+Members statistics of the pool  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_MemberHealth'>SoftLayer_Network_LBaaS_MemberHealth[] </a>**
+
+-----
+[poolUuid]: #pooluuid
+#### [poolUuid]
+Instance uuid of the pool  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

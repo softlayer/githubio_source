@@ -36,89 +36,60 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#active" name=active>active</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#emailAddress" name=emailAddress>emailAddress</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#federated" name=federated>federated</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#foundAs" name=foundAs>foundAs</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#numberOfIbmIdsWithEmailAddress" name=numberOfIbmIdsWithEmailAddress>numberOfIbmIdsWithEmailAddress</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#realm" name=realm>realm</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#uniqueId" name=uniqueId>uniqueId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#username" name=username>username</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[active]: #active
+#### [active]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[emailAddress]: #emailaddress
+#### [emailAddress]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[federated]: #federated
+#### [federated]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[foundAs]: #foundas
+#### [foundAs]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[numberOfIbmIdsWithEmailAddress]: #numberofibmidswithemailaddress
+#### [numberOfIbmIdsWithEmailAddress]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[realm]: #realm
+#### [realm]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[uniqueId]: #uniqueid
+#### [uniqueId]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[username]: #username
+#### [username]
+  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -1,6 +1,6 @@
 ---
 title: "detachNetworkComponents"
-description: "Detach virtual guest network components from a security group by deleting its [[SoftLayer_Virtual_Network_SecurityGroup_... "
+description: "Detach virtual guest network components from a security group by deleting its [SoftLayer_Virtual_Network_SecurityGroup_N... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Detach network components from a security group by deleting its network componen
 
 
 ## Overview 
-Detach virtual guest network components from a security group by deleting its [[SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding (type)]]. 
+Detach virtual guest network components from a security group by deleting its [SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding]({{<ref "reference/datatypes/SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding">}}). 
 
 -----
 

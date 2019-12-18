@@ -36,39 +36,30 @@ Review event within proof of concept request review period.
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>Explanation of the event. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#reviewerEmail" name=reviewerEmail>reviewerEmail</a>
-            </span>
-            <div class='views-field-body'>Reviewer's email address. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#reviewerUid" name=reviewerUid>reviewerUid</a>
-            </span>
-            <div class='views-field-body'>Reviewer's BluePages UID. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[description]: #description
+#### [description]
+Explanation of the event.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[reviewerEmail]: #revieweremail
+#### [reviewerEmail]
+Reviewer's email address.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[reviewerUid]: #revieweruid
+#### [reviewerUid]
+Reviewer's BluePages UID.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

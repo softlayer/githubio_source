@@ -23,89 +23,72 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Permission_Group/addAction'> addAction</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Permission_Group/addBulkActions'> addBulkActions</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Permission_Group/addBulkResourceObjects'> addBulkResourceObjects</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Permission_Group/addResourceObject'> addResourceObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Permission_Group/createObject'> createObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Permission_Group/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Permission_Group/editObject'> editObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Permission_Group/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Permission_Group/getActions'> getActions</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Permission_Group/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_User_Permission_Group record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Permission_Group/getRoles'> getRoles</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Permission_Group/getType'> getType</a> </span>
-            <div class='views-field-body'>Retrieve the type of the permission group.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Permission_Group/linkRole'> linkRole</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Permission_Group/removeAction'> removeAction</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Permission_Group/removeBulkActions'> removeBulkActions</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Permission_Group/removeBulkResourceObjects'> removeBulkResourceObjects</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Permission_Group/removeResourceObject'> removeResourceObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Permission_Group/unlinkRole'> unlinkRole</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-        </div>
+</div>
+
+#### [addAction](/reference/services/SoftLayer_User_Permission_Group/addAction)
+
+
+#### [addBulkActions](/reference/services/SoftLayer_User_Permission_Group/addBulkActions)
+
+
+#### [addBulkResourceObjects](/reference/services/SoftLayer_User_Permission_Group/addBulkResourceObjects)
+
+
+#### [addResourceObject](/reference/services/SoftLayer_User_Permission_Group/addResourceObject)
+
+
+#### [createObject](/reference/services/SoftLayer_User_Permission_Group/createObject)
+
+
+#### [deleteObject](/reference/services/SoftLayer_User_Permission_Group/deleteObject)
+
+
+#### [editObject](/reference/services/SoftLayer_User_Permission_Group/editObject)
+
+
+#### [getAccount](/reference/services/SoftLayer_User_Permission_Group/getAccount)
+
+
+#### [getActions](/reference/services/SoftLayer_User_Permission_Group/getActions)
+
+
+#### [getObject](/reference/services/SoftLayer_User_Permission_Group/getObject)
+Retrieve a SoftLayer_User_Permission_Group record.
+
+#### [getRoles](/reference/services/SoftLayer_User_Permission_Group/getRoles)
+
+
+#### [getType](/reference/services/SoftLayer_User_Permission_Group/getType)
+Retrieve the type of the permission group.
+
+#### [linkRole](/reference/services/SoftLayer_User_Permission_Group/linkRole)
+
+
+#### [removeAction](/reference/services/SoftLayer_User_Permission_Group/removeAction)
+
+
+#### [removeBulkActions](/reference/services/SoftLayer_User_Permission_Group/removeBulkActions)
+
+
+#### [removeBulkResourceObjects](/reference/services/SoftLayer_User_Permission_Group/removeBulkResourceObjects)
+
+
+#### [removeResourceObject](/reference/services/SoftLayer_User_Permission_Group/removeResourceObject)
+
+
+#### [unlinkRole](/reference/services/SoftLayer_User_Permission_Group/unlinkRole)
+
+
 </div>
 

@@ -23,37 +23,33 @@ SoftLayer customers can use this service to manage or view all of the available 
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Email_Subscription/disable'> disable</a> </span>
-            <div class='views-field-body'>Disable email subscription.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Email_Subscription/enable'> enable</a> </span>
-            <div class='views-field-body'>Enable email subscription.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Email_Subscription/getAllObjects'> getAllObjects</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Email_Subscription/getEnabled'> getEnabled</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Email_Subscription/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Email_Subscription record.</div>
-        </div>
-        </div>
+</div>
+
+#### [disable](/reference/services/SoftLayer_Email_Subscription/disable)
+Disable email subscription.
+
+#### [enable](/reference/services/SoftLayer_Email_Subscription/enable)
+Enable email subscription.
+
+#### [getAllObjects](/reference/services/SoftLayer_Email_Subscription/getAllObjects)
+
+
+#### [getEnabled](/reference/services/SoftLayer_Email_Subscription/getEnabled)
+
+
+#### [getObject](/reference/services/SoftLayer_Email_Subscription/getObject)
+Retrieve a SoftLayer_Email_Subscription record.
+
 </div>
 

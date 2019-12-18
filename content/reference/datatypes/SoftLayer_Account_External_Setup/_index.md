@@ -36,93 +36,65 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>The SoftLayer customer account the request belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#currencyId" name=currencyId>currencyId</a>
-            </span>
-            <div class='views-field-body'>The currency requested after the billing switch. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The unique identifier for this setup request. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#serviceProviderId" name=serviceProviderId>serviceProviderId</a>
-            </span>
-            <div class='views-field-body'>The external system that will handle billing. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#statusCode" name=statusCode>statusCode</a>
-            </span>
-            <div class='views-field-body'>The status of the account setup request. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#typeCode" name=typeCode>typeCode</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#verifyCardTransactionId" name=verifyCardTransactionId>verifyCardTransactionId</a>
-            </span>
-            <div class='views-field-body'>The related credit card transaction record for card verification. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#verifyCardTransaction" name=verifyCardTransaction>verifyCardTransaction</a>
-            </span>
-            <div class='views-field-body'>The transaction information related to verifying the customer credit card. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_Transaction'>SoftLayer_Billing_Payment_Card_Transaction </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+The SoftLayer customer account the request belongs to.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[currencyId]: #currencyid
+#### [currencyId]
+The currency requested after the billing switch.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+The unique identifier for this setup request.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[serviceProviderId]: #serviceproviderid
+#### [serviceProviderId]
+The external system that will handle billing.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[statusCode]: #statuscode
+#### [statusCode]
+The status of the account setup request.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[typeCode]: #typecode
+#### [typeCode]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[verifyCardTransactionId]: #verifycardtransactionid
+#### [verifyCardTransactionId]
+The related credit card transaction record for card verification.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[verifyCardTransaction]: #verifycardtransaction
+#### [verifyCardTransaction]
+The transaction information related to verifying the customer credit card.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_Transaction'>SoftLayer_Billing_Payment_Card_Transaction </a>**
+
+
+## Count
 </div>
 
 

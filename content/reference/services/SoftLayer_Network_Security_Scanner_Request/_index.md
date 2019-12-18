@@ -45,49 +45,42 @@ If you have a firewall, SoftLayer's administrative networks need to be allowed f
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Security_Scanner_Request/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create a new vulnerability scan request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Security_Scanner_Request/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve the account associated with a security scan request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Security_Scanner_Request/getGuest'> getGuest</a> </span>
-            <div class='views-field-body'>Retrieve the virtual guest a security scan is run against.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Security_Scanner_Request/getHardware'> getHardware</a> </span>
-            <div class='views-field-body'>Retrieve the hardware a security scan is run against.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Security_Scanner_Request/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_Security_Scanner_Request record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Security_Scanner_Request/getReport'> getReport</a> </span>
-            <div class='views-field-body'>Get the vulnerability report for a scan request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Security_Scanner_Request/getRequestorOwnedFlag'> getRequestorOwnedFlag</a> </span>
-            <div class='views-field-body'>Retrieve flag whether the requestor owns the hardware the scan was run on. This flag will  return for hardware servers only, virtual servers will result in a null return even if you have  a request out for them.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Security_Scanner_Request/getStatus'> getStatus</a> </span>
-            <div class='views-field-body'>Retrieve a security scan request's status.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Network_Security_Scanner_Request/createObject)
+Create a new vulnerability scan request.
+
+#### [getAccount](/reference/services/SoftLayer_Network_Security_Scanner_Request/getAccount)
+Retrieve the account associated with a security scan request.
+
+#### [getGuest](/reference/services/SoftLayer_Network_Security_Scanner_Request/getGuest)
+Retrieve the virtual guest a security scan is run against.
+
+#### [getHardware](/reference/services/SoftLayer_Network_Security_Scanner_Request/getHardware)
+Retrieve the hardware a security scan is run against.
+
+#### [getObject](/reference/services/SoftLayer_Network_Security_Scanner_Request/getObject)
+Retrieve a SoftLayer_Network_Security_Scanner_Request record.
+
+#### [getReport](/reference/services/SoftLayer_Network_Security_Scanner_Request/getReport)
+Get the vulnerability report for a scan request.
+
+#### [getRequestorOwnedFlag](/reference/services/SoftLayer_Network_Security_Scanner_Request/getRequestorOwnedFlag)
+Retrieve flag whether the requestor owns the hardware the scan was run on. This flag will  return for hardware servers only, virtual servers will result in a null return even if you have  a request out for them.
+
+#### [getStatus](/reference/services/SoftLayer_Network_Security_Scanner_Request/getStatus)
+Retrieve a security scan request's status.
+
 </div>
 

@@ -1,6 +1,6 @@
 ---
 title: "getAllObjects"
-description: "Returns all SSL certificate server types, which are passed in on a [[SoftLayer_Container_Product_Order_Security_Certific... "
+description: "Returns all SSL certificate server types, which are passed in on a [SoftLayer_Container_Product_Order_Security_Certifica... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Returns all SSL certificate server types
 
 
 ## Overview 
-Returns all SSL certificate server types, which are passed in on a [[SoftLayer_Container_Product_Order_Security_Certificate|certificate order]]. 
+Returns all SSL certificate server types, which are passed in on a [SoftLayer_Container_Product_Order_Security_Certificate]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Security_Certificate">}}). 
 
 -----
 

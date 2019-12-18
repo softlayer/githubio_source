@@ -23,81 +23,66 @@ Every hardware component is associated with a model. A hardware component model 
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Model/getArchitectureType'> getArchitectureType</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Model/getAttributes'> getAttributes</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Model/getCompatibleArrayTypes'> getCompatibleArrayTypes</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Model/getCompatibleChildComponentModels'> getCompatibleChildComponentModels</a> </span>
-            <div class='views-field-body'>Retrieve all the component models that are compatible with a hardware component model.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Model/getCompatibleParentComponentModels'> getCompatibleParentComponentModels</a> </span>
-            <div class='views-field-body'>Retrieve all the component models that a hardware component model is compatible with.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Model/getFirmwareQuantity'> getFirmwareQuantity</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Model/getFirmwares'> getFirmwares</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Model/getHardwareComponents'> getHardwareComponents</a> </span>
-            <div class='views-field-body'>Retrieve a hardware component model's physical components in inventory.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Model/getHardwareGenericComponentModel'> getHardwareGenericComponentModel</a> </span>
-            <div class='views-field-body'>Retrieve the non-vendor specific generic component model for a hardware component model.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Model/getInfinibandCompatibleAttribute'> getInfinibandCompatibleAttribute</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Model/getIsFlexSkuCompatible'> getIsFlexSkuCompatible</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Model/getIsInfinibandCompatible'> getIsInfinibandCompatible</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Model/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Hardware_Component_Model record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Model/getRebootTime'> getRebootTime</a> </span>
-            <div class='views-field-body'>Retrieve a motherboard's average reboot time.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Model/getType'> getType</a> </span>
-            <div class='views-field-body'>Retrieve a hardware component model's type.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Model/getValidAttributeTypes'> getValidAttributeTypes</a> </span>
-            <div class='views-field-body'>Retrieve the types of attributes that are allowed for a given hardware component model.</div>
-        </div>
-        </div>
+</div>
+
+#### [getArchitectureType](/reference/services/SoftLayer_Hardware_Component_Model/getArchitectureType)
+
+
+#### [getAttributes](/reference/services/SoftLayer_Hardware_Component_Model/getAttributes)
+
+
+#### [getCompatibleArrayTypes](/reference/services/SoftLayer_Hardware_Component_Model/getCompatibleArrayTypes)
+
+
+#### [getCompatibleChildComponentModels](/reference/services/SoftLayer_Hardware_Component_Model/getCompatibleChildComponentModels)
+Retrieve all the component models that are compatible with a hardware component model.
+
+#### [getCompatibleParentComponentModels](/reference/services/SoftLayer_Hardware_Component_Model/getCompatibleParentComponentModels)
+Retrieve all the component models that a hardware component model is compatible with.
+
+#### [getFirmwareQuantity](/reference/services/SoftLayer_Hardware_Component_Model/getFirmwareQuantity)
+
+
+#### [getFirmwares](/reference/services/SoftLayer_Hardware_Component_Model/getFirmwares)
+
+
+#### [getHardwareComponents](/reference/services/SoftLayer_Hardware_Component_Model/getHardwareComponents)
+Retrieve a hardware component model's physical components in inventory.
+
+#### [getHardwareGenericComponentModel](/reference/services/SoftLayer_Hardware_Component_Model/getHardwareGenericComponentModel)
+Retrieve the non-vendor specific generic component model for a hardware component model.
+
+#### [getInfinibandCompatibleAttribute](/reference/services/SoftLayer_Hardware_Component_Model/getInfinibandCompatibleAttribute)
+
+
+#### [getIsFlexSkuCompatible](/reference/services/SoftLayer_Hardware_Component_Model/getIsFlexSkuCompatible)
+
+
+#### [getIsInfinibandCompatible](/reference/services/SoftLayer_Hardware_Component_Model/getIsInfinibandCompatible)
+
+
+#### [getObject](/reference/services/SoftLayer_Hardware_Component_Model/getObject)
+Retrieve a SoftLayer_Hardware_Component_Model record.
+
+#### [getRebootTime](/reference/services/SoftLayer_Hardware_Component_Model/getRebootTime)
+Retrieve a motherboard's average reboot time.
+
+#### [getType](/reference/services/SoftLayer_Hardware_Component_Model/getType)
+Retrieve a hardware component model's type.
+
+#### [getValidAttributeTypes](/reference/services/SoftLayer_Hardware_Component_Model/getValidAttributeTypes)
+Retrieve the types of attributes that are allowed for a given hardware component model.
+
 </div>
 

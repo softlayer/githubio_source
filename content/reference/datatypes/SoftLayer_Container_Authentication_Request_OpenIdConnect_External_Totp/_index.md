@@ -36,89 +36,60 @@ The SoftLayer_Container_Authentication_Request_OpenIdConnect_External_Totp data 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openIdConnectAccessToken" name=openIdConnectAccessToken>openIdConnectAccessToken</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openIdConnectAccountId" name=openIdConnectAccountId>openIdConnectAccountId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openIdConnectProvider" name=openIdConnectProvider>openIdConnectProvider</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#secondSecurityCode" name=secondSecurityCode>secondSecurityCode</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityCode" name=securityCode>securityCode</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityQuestionAnswer" name=securityQuestionAnswer>securityQuestionAnswer</a>
-            </span>
-            <div class='views-field-body'>The answer to your security question. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityQuestionId" name=securityQuestionId>securityQuestionId</a>
-            </span>
-            <div class='views-field-body'>A security question you wish to answer when authenticating to the SoftLayer customer portal. This parameter isn't required if no security questions are set on your portal account or if your account is configured to not require answering a security account upon login. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#vendor" name=vendor>vendor</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[openIdConnectAccessToken]: #openidconnectaccesstoken
+#### [openIdConnectAccessToken]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[openIdConnectAccountId]: #openidconnectaccountid
+#### [openIdConnectAccountId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[openIdConnectProvider]: #openidconnectprovider
+#### [openIdConnectProvider]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[secondSecurityCode]: #secondsecuritycode
+#### [secondSecurityCode]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[securityCode]: #securitycode
+#### [securityCode]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[securityQuestionAnswer]: #securityquestionanswer
+#### [securityQuestionAnswer]
+The answer to your security question.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[securityQuestionId]: #securityquestionid
+#### [securityQuestionId]
+A security question you wish to answer when authenticating to the SoftLayer customer portal. This parameter isn't required if no security questions are set on your portal account or if your account is configured to not require answering a security account upon login.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[vendor]: #vendor
+#### [vendor]
+  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

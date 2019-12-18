@@ -36,19 +36,18 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#previous_values" name=previous_values>previous_values</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_User_Customer_Profile_Event_HyperWarp_ProfileChange_EventProperties'>SoftLayer_Container_User_Customer_Profile_Event_HyperWarp_ProfileChange_EventProperties </a></p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[previous_values]: #previous_values
+#### [previous_values]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_User_Customer_Profile_Event_HyperWarp_ProfileChange_EventProperties'>SoftLayer_Container_User_Customer_Profile_Event_HyperWarp_ProfileChange_EventProperties </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

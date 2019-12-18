@@ -24,10 +24,10 @@ SoftLayer_Software_AccountLicense is a class that represents software licenses t
 
 ### seeAlso
 
-* [SoftLayer_Account](/reference/services/SoftLayer_Account )
+* [SoftLayer_Account](/reference/datatypes/SoftLayer_Account )
 
 
-* [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description )
+* [SoftLayer_Software_Description](/reference/datatypes/SoftLayer_Software_Description )
 
 
 
@@ -44,83 +44,59 @@ SoftLayer_Software_AccountLicense is a class that represents software licenses t
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>The ID of the SoftLayer Account to which this Account License belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#capacity" name=capacity>capacity</a>
-            </span>
-            <div class='views-field-body'>Some Account Licenses have capacity information such as CPU specified in the units key. This provides the numerical representation of the capacity of the units.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#key" name=key>key</a>
-            </span>
-            <div class='views-field-body'>The License Key for this specific Account License. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#units" name=units>units</a>
-            </span>
-            <div class='views-field-body'>The unit of measurement that an account license has the capacity of. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The customer account this Account License belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingItem" name=billingItem>billingItem</a>
-            </span>
-            <div class='views-field-body'>The billing item for a software account license. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#softwareDescription" name=softwareDescription>softwareDescription</a>
-            </span>
-            <div class='views-field-body'>The SoftLayer_Software_Description that this account license is for. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+The ID of the SoftLayer Account to which this Account License belongs to.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[capacity]: #capacity
+#### [capacity]
+Some Account Licenses have capacity information such as CPU specified in the units key. This provides the numerical representation of the capacity of the units.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[key]: #key
+#### [key]
+The License Key for this specific Account License.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[units]: #units
+#### [units]
+The unit of measurement that an account license has the capacity of.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The customer account this Account License belongs to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[billingItem]: #billingitem
+#### [billingItem]
+The billing item for a software account license.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+
+-----
+[softwareDescription]: #softwaredescription
+#### [softwareDescription]
+The SoftLayer_Software_Description that this account license is for.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**
+
+
+## Count
 </div>
 
 

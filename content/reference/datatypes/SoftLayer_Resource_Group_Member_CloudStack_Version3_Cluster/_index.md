@@ -36,133 +36,92 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>A resource group member's creation date. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A resource group member's ID. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#status" name=status>status</a>
-            </span>
-            <div class='views-field-body'>A resource group member's status. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributes" name=attributes>attributes</a>
-            </span>
-            <div class='views-field-body'>A resource group member's associated attributes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Attribute'>SoftLayer_Resource_Group_Member_Attribute[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#descendantMembers" name=descendantMembers>descendantMembers</a>
-            </span>
-            <div class='views-field-body'>A resource group member's associated member descendants. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#group" name=group>group</a>
-            </span>
-            <div class='views-field-body'>A resource group member's resource group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#resource" name=resource>resource</a>
-            </span>
-            <div class='views-field-body'>A resource group member's associated cluster. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#roles" name=roles>roles</a>
-            </span>
-            <div class='views-field-body'>A resource group member's associated roles. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Resource_Group_Role'>SoftLayer_Resource_Group_Role[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#type" name=type>type</a>
-            </span>
-            <div class='views-field-body'>A resource group member's type. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Type'>SoftLayer_Resource_Group_Member_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributeCount" name=attributeCount>attributeCount</a>
-            </span>
-            <div class='views-field-body'>A count of a resource group member's associated attributes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#descendantMemberCount" name=descendantMemberCount>descendantMemberCount</a>
-            </span>
-            <div class='views-field-body'>A count of a resource group member's associated member descendants. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#roleCount" name=roleCount>roleCount</a>
-            </span>
-            <div class='views-field-body'>A count of a resource group member's associated roles. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[createDate]: #createdate
+#### [createDate]
+A resource group member's creation date.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+A resource group member's ID.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[status]: #status
+#### [status]
+A resource group member's status.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[attributes]: #attributes
+#### [attributes]
+A resource group member's associated attributes.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Attribute'>SoftLayer_Resource_Group_Member_Attribute[] </a>**
+
+-----
+[descendantMembers]: #descendantmembers
+#### [descendantMembers]
+A resource group member's associated member descendants.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member[] </a>**
+
+-----
+[group]: #group
+#### [group]
+A resource group member's resource group.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group </a>**
+
+-----
+[resource]: #resource
+#### [resource]
+A resource group member's associated cluster.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group </a>**
+
+-----
+[roles]: #roles
+#### [roles]
+A resource group member's associated roles.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Role'>SoftLayer_Resource_Group_Role[] </a>**
+
+-----
+[type]: #type
+#### [type]
+A resource group member's type.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Type'>SoftLayer_Resource_Group_Member_Type </a>**
+
+
+## Count
+
+-----
+[attributeCount]: #attributecount
+#### [attributeCount]
+A count of a resource group member's associated attributes.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[descendantMemberCount]: #descendantmembercount
+#### [descendantMemberCount]
+A count of a resource group member's associated member descendants.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[roleCount]: #rolecount
+#### [roleCount]
+A count of a resource group member's associated roles.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

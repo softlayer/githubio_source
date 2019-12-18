@@ -33,7 +33,7 @@ Each SoftLayer portal account is assigned a series of permissions that determine
 * [Permissions](/reference/datatypes/Permissions )
 
 
-* [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer )
+* [SoftLayer_User_Customer](/reference/datatypes/SoftLayer_User_Customer )
 
 
 
@@ -50,39 +50,30 @@ Each SoftLayer portal account is assigned a series of permissions that determine
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#key" name=key>key</a>
-            </span>
-            <div class='views-field-body'>A user permission's short name. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#keyName" name=keyName>keyName</a>
-            </span>
-            <div class='views-field-body'>A user permission's key name. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>A user permission's name. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[key]: #key
+#### [key]
+A user permission's short name.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[keyName]: #keyname
+#### [keyName]
+A user permission's key name.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[name]: #name
+#### [name]
+A user permission's name.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

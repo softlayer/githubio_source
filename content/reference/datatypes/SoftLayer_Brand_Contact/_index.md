@@ -36,163 +36,107 @@ SoftLayer_Brand_Contact contains the contact information for the brand such as C
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#address1" name=address1>address1</a>
-            </span>
-            <div class='views-field-body'>The contact's address 1. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#address2" name=address2>address2</a>
-            </span>
-            <div class='views-field-body'>The contact's address 2. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#alternatePhone" name=alternatePhone>alternatePhone</a>
-            </span>
-            <div class='views-field-body'>The contact's alternate phone number. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#brandContactTypeId" name=brandContactTypeId>brandContactTypeId</a>
-            </span>
-            <div class='views-field-body'>The contact's type identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#city" name=city>city</a>
-            </span>
-            <div class='views-field-body'>The contact's city. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#country" name=country>country</a>
-            </span>
-            <div class='views-field-body'>The contact's country. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#email" name=email>email</a>
-            </span>
-            <div class='views-field-body'>The contact's email address. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#faxPhone" name=faxPhone>faxPhone</a>
-            </span>
-            <div class='views-field-body'>The contact's fax number. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#firstName" name=firstName>firstName</a>
-            </span>
-            <div class='views-field-body'>The contact's first name. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastName" name=lastName>lastName</a>
-            </span>
-            <div class='views-field-body'>The contact's last name. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#officePhone" name=officePhone>officePhone</a>
-            </span>
-            <div class='views-field-body'>The contact's phone number. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#postalCode" name=postalCode>postalCode</a>
-            </span>
-            <div class='views-field-body'>The contact's postal code. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#state" name=state>state</a>
-            </span>
-            <div class='views-field-body'>The contact's state. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#brand" name=brand>brand</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#brandContactType" name=brandContactType>brandContactType</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Brand_Contact_Type'>SoftLayer_Brand_Contact_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[address1]: #address1
+#### [address1]
+The contact's address 1.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[address2]: #address2
+#### [address2]
+The contact's address 2.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[alternatePhone]: #alternatephone
+#### [alternatePhone]
+The contact's alternate phone number.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[brandContactTypeId]: #brandcontacttypeid
+#### [brandContactTypeId]
+The contact's type identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[city]: #city
+#### [city]
+The contact's city.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[country]: #country
+#### [country]
+The contact's country.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[email]: #email
+#### [email]
+The contact's email address.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[faxPhone]: #faxphone
+#### [faxPhone]
+The contact's fax number.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[firstName]: #firstname
+#### [firstName]
+The contact's first name.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[lastName]: #lastname
+#### [lastName]
+The contact's last name.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[officePhone]: #officephone
+#### [officePhone]
+The contact's phone number.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[postalCode]: #postalcode
+#### [postalCode]
+The contact's postal code.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[state]: #state
+#### [state]
+The contact's state.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[brand]: #brand
+#### [brand]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>**
+
+-----
+[brandContactType]: #brandcontacttype
+#### [brandContactType]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand_Contact_Type'>SoftLayer_Brand_Contact_Type </a>**
+
+
+## Count
 </div>
 
 

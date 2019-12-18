@@ -36,263 +36,168 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attachedFiles" name=attachedFiles>attachedFiles</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#companyDescription" name=companyDescription>companyDescription</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#companyName" name=companyName>companyName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#headlineDescription" name=headlineDescription>headlineDescription</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#linkFreeTrial" name=linkFreeTrial>linkFreeTrial</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#linkOrderPage" name=linkOrderPage>linkOrderPage</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#linkWebsite" name=linkWebsite>linkWebsite</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#metaDescription" name=metaDescription>metaDescription</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#metaKeywords" name=metaKeywords>metaKeywords</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#productBenefits" name=productBenefits>productBenefits</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#productCategoryId" name=productCategoryId>productCategoryId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#productDescriptionLong" name=productDescriptionLong>productDescriptionLong</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#productDescriptionShort" name=productDescriptionShort>productDescriptionShort</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#productFeatures" name=productFeatures>productFeatures</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#productName" name=productName>productName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#productTitle" name=productTitle>productTitle</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#urlIdentifier" name=urlIdentifier>urlIdentifier</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attachments" name=attachments>attachments</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#logoMedium" name=logoMedium>logoMedium</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#logoMediumTemp" name=logoMediumTemp>logoMediumTemp</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#logoSmall" name=logoSmall>logoSmall</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#logoSmallTemp" name=logoSmallTemp>logoSmallTemp</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attachmentCount" name=attachmentCount>attachmentCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[attachedFiles]: #attachedfiles
+#### [attachedFiles]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment[] </a>**
+
+-----
+[companyDescription]: #companydescription
+#### [companyDescription]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[companyName]: #companyname
+#### [companyName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[headlineDescription]: #headlinedescription
+#### [headlineDescription]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[linkFreeTrial]: #linkfreetrial
+#### [linkFreeTrial]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[linkOrderPage]: #linkorderpage
+#### [linkOrderPage]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[linkWebsite]: #linkwebsite
+#### [linkWebsite]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[metaDescription]: #metadescription
+#### [metaDescription]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[metaKeywords]: #metakeywords
+#### [metaKeywords]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[productBenefits]: #productbenefits
+#### [productBenefits]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[productCategoryId]: #productcategoryid
+#### [productCategoryId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[productDescriptionLong]: #productdescriptionlong
+#### [productDescriptionLong]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[productDescriptionShort]: #productdescriptionshort
+#### [productDescriptionShort]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[productFeatures]: #productfeatures
+#### [productFeatures]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[productName]: #productname
+#### [productName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[productTitle]: #producttitle
+#### [productTitle]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[urlIdentifier]: #urlidentifier
+#### [urlIdentifier]
+  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[attachments]: #attachments
+#### [attachments]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment[] </a>**
+
+-----
+[logoMedium]: #logomedium
+#### [logoMedium]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment </a>**
+
+-----
+[logoMediumTemp]: #logomediumtemp
+#### [logoMediumTemp]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment </a>**
+
+-----
+[logoSmall]: #logosmall
+#### [logoSmall]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment </a>**
+
+-----
+[logoSmallTemp]: #logosmalltemp
+#### [logoSmallTemp]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment </a>**
+
+
+## Count
+
+-----
+[attachmentCount]: #attachmentcount
+#### [attachmentCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

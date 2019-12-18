@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Billing_Invoice_Email"
-description: "This container is used to provide all the options for [[SoftLayer_Billing_Invoice/emailInvoices|emailInvoices]] in order... "
+description: "This container is used to provide all the options for [SoftLayer_Billing_Invoice::emailInvoices]({{<ref 'reference/servi... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-This container is used to provide all the options for [[SoftLayer_Billing_Invoice/emailInvoices|emailInvoices]] in order to have the necessary invoices generated and links sent to the user's email. 
+This container is used to provide all the options for [SoftLayer_Billing_Invoice::emailInvoices]({{<ref "reference/services/SoftLayer_Billing_Invoice/emailInvoices">}}) in order to have the necessary invoices generated and links sent to the user's email. 
 
 
 
@@ -36,49 +36,36 @@ This container is used to provide all the options for [[SoftLayer_Billing_Invoic
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#excelInvoiceIds" name=excelInvoiceIds>excelInvoiceIds</a>
-            </span>
-            <div class='views-field-body'>Excel Invoices to email </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>array of integers</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pdfDetailedInvoiceIds" name=pdfDetailedInvoiceIds>pdfDetailedInvoiceIds</a>
-            </span>
-            <div class='views-field-body'>PDF Invoice Details to email </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>array of integers</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pdfInvoiceIds" name=pdfInvoiceIds>pdfInvoiceIds</a>
-            </span>
-            <div class='views-field-body'>PDF Invoices to email </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>array of integers</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#type" name=type>type</a>
-            </span>
-            <div class='views-field-body'>The type of Invoices to be emailed [current|next]. If next is selected, the account id will be used. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[excelInvoiceIds]: #excelinvoiceids
+#### [excelInvoiceIds]
+Excel Invoices to email  
+<span class="type-label">Type: </span>**array of integers**
+
+-----
+[pdfDetailedInvoiceIds]: #pdfdetailedinvoiceids
+#### [pdfDetailedInvoiceIds]
+PDF Invoice Details to email  
+<span class="type-label">Type: </span>**array of integers**
+
+-----
+[pdfInvoiceIds]: #pdfinvoiceids
+#### [pdfInvoiceIds]
+PDF Invoices to email  
+<span class="type-label">Type: </span>**array of integers**
+
+-----
+[type]: #type
+#### [type]
+The type of Invoices to be emailed [current|next]. If next is selected, the account id will be used.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -36,89 +36,60 @@ This is the datatype that needs to be populated and sent to SoftLayer_Product_Or
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#address" name=address>address</a>
-            </span>
-            <div class='views-field-body'>The address information of the contact. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order_Attribute_Address'>SoftLayer_Container_Product_Order_Attribute_Address </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#emailAddress" name=emailAddress>emailAddress</a>
-            </span>
-            <div class='views-field-body'>The email address of the contact. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#faxNumber" name=faxNumber>faxNumber</a>
-            </span>
-            <div class='views-field-body'>The fax number associated with a contact. This is an optional value. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#firstName" name=firstName>firstName</a>
-            </span>
-            <div class='views-field-body'>The first name of the contact. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastName" name=lastName>lastName</a>
-            </span>
-            <div class='views-field-body'>The last name of the contact. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#organizationName" name=organizationName>organizationName</a>
-            </span>
-            <div class='views-field-body'>The organization name of the contact. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#phoneNumber" name=phoneNumber>phoneNumber</a>
-            </span>
-            <div class='views-field-body'>The phone number associated with a contact. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#title" name=title>title</a>
-            </span>
-            <div class='views-field-body'>The title of the contact. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[address]: #address
+#### [address]
+The address information of the contact.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order_Attribute_Address'>SoftLayer_Container_Product_Order_Attribute_Address </a>**
+
+-----
+[emailAddress]: #emailaddress
+#### [emailAddress]
+The email address of the contact.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[faxNumber]: #faxnumber
+#### [faxNumber]
+The fax number associated with a contact. This is an optional value.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[firstName]: #firstname
+#### [firstName]
+The first name of the contact.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[lastName]: #lastname
+#### [lastName]
+The last name of the contact.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[organizationName]: #organizationname
+#### [organizationName]
+The organization name of the contact.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[phoneNumber]: #phonenumber
+#### [phoneNumber]
+The phone number associated with a contact.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[title]: #title
+#### [title]
+The title of the contact.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

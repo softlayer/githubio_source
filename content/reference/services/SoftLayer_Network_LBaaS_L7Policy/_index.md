@@ -23,37 +23,33 @@ The SoftLayer_Network_LBaaS_L7Policy service allows consumers to manage the Poli
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_L7Policy/addL7Policies'> addL7Policies</a> </span>
-            <div class='views-field-body'>Create layer 7 policies with rules for the given listener. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_L7Policy/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Deletes a l7 policy instance and the rules associated with the policy</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_L7Policy/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit a l7 policy instance's properties</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_L7Policy/getL7Rules'> getL7Rules</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_L7Policy/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_LBaaS_L7Policy record.</div>
-        </div>
-        </div>
+</div>
+
+#### [addL7Policies](/reference/services/SoftLayer_Network_LBaaS_L7Policy/addL7Policies)
+Create layer 7 policies with rules for the given listener. 
+
+#### [deleteObject](/reference/services/SoftLayer_Network_LBaaS_L7Policy/deleteObject)
+Deletes a l7 policy instance and the rules associated with the policy
+
+#### [editObject](/reference/services/SoftLayer_Network_LBaaS_L7Policy/editObject)
+Edit a l7 policy instance's properties
+
+#### [getL7Rules](/reference/services/SoftLayer_Network_LBaaS_L7Policy/getL7Rules)
+
+
+#### [getObject](/reference/services/SoftLayer_Network_LBaaS_L7Policy/getObject)
+Retrieve a SoftLayer_Network_LBaaS_L7Policy record.
+
 </div>
 

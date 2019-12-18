@@ -36,83 +36,59 @@ The SoftLayer_Network_SecurityGroup_OrderBinding data type contains links betwee
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#guestId" name=guestId>guestId</a>
-            </span>
-            <div class='views-field-body'>The ID of the Virtual Guest associated with the security group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The unique ID for a security group, order, binding </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#orderId" name=orderId>orderId</a>
-            </span>
-            <div class='views-field-body'>The ID of the order associated with the security group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityGroupId" name=securityGroupId>securityGroupId</a>
-            </span>
-            <div class='views-field-body'>The ID of the security group that is associated with the order. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#guest" name=guest>guest</a>
-            </span>
-            <div class='views-field-body'>The virtual guest associated with the binding </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#order" name=order>order</a>
-            </span>
-            <div class='views-field-body'>The order associated with the binding </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityGroup" name=securityGroup>securityGroup</a>
-            </span>
-            <div class='views-field-body'>The security group associated with the order </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[guestId]: #guestid
+#### [guestId]
+The ID of the Virtual Guest associated with the security group.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+The unique ID for a security group, order, binding  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[orderId]: #orderid
+#### [orderId]
+The ID of the order associated with the security group.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[securityGroupId]: #securitygroupid
+#### [securityGroupId]
+The ID of the security group that is associated with the order.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[guest]: #guest
+#### [guest]
+The virtual guest associated with the binding  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+
+-----
+[order]: #order
+#### [order]
+The order associated with the binding  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**
+
+-----
+[securityGroup]: #securitygroup
+#### [securityGroup]
+The security group associated with the order  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a>**
+
+
+## Count
 </div>
 
 

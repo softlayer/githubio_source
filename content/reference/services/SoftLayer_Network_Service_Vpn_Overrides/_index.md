@@ -26,48 +26,43 @@ Use to manually decide which subnets within your virtual private address space a
 
 ### seeAlso
 
-* [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet )
+* [SoftLayer_Network_Subnet](/reference/datatypes/SoftLayer_Network_Subnet )
 
 
-* [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer )
+* [SoftLayer_User_Customer](/reference/datatypes/SoftLayer_User_Customer )
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Service_Vpn_Overrides/createObjects'> createObjects</a> </span>
-            <div class='views-field-body'>Create Softlayer portal user VPN overrides.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Service_Vpn_Overrides/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Delete single override.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Service_Vpn_Overrides/deleteObjects'> deleteObjects</a> </span>
-            <div class='views-field-body'>Delete multiple entries in the overrides 'white list' for a SoftLayer portal VPN user.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Service_Vpn_Overrides/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_Service_Vpn_Overrides record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Service_Vpn_Overrides/getSubnet'> getSubnet</a> </span>
-            <div class='views-field-body'>Retrieve subnet components accessible by a SoftLayer VPN portal user.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Service_Vpn_Overrides/getUser'> getUser</a> </span>
-            <div class='views-field-body'>Retrieve softLayer VPN portal user.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObjects](/reference/services/SoftLayer_Network_Service_Vpn_Overrides/createObjects)
+Create Softlayer portal user VPN overrides.
+
+#### [deleteObject](/reference/services/SoftLayer_Network_Service_Vpn_Overrides/deleteObject)
+Delete single override.
+
+#### [deleteObjects](/reference/services/SoftLayer_Network_Service_Vpn_Overrides/deleteObjects)
+Delete multiple entries in the overrides 'white list' for a SoftLayer portal VPN user.
+
+#### [getObject](/reference/services/SoftLayer_Network_Service_Vpn_Overrides/getObject)
+Retrieve a SoftLayer_Network_Service_Vpn_Overrides record.
+
+#### [getSubnet](/reference/services/SoftLayer_Network_Service_Vpn_Overrides/getSubnet)
+Retrieve subnet components accessible by a SoftLayer VPN portal user.
+
+#### [getUser](/reference/services/SoftLayer_Network_Service_Vpn_Overrides/getUser)
+Retrieve softLayer VPN portal user.
+
 </div>
 

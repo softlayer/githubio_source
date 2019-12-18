@@ -41,59 +41,42 @@ The SoftLayer_Container_Network_Storage_Evault_WebCc_BackupResults will contain 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#beginTime" name=beginTime>beginTime</a>
-            </span>
-            <div class='views-field-body'>Timestamp of begin time </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#conflict" name=conflict>conflict</a>
-            </span>
-            <div class='views-field-body'>Count of backups with conflicts.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#endTime" name=endTime>endTime</a>
-            </span>
-            <div class='views-field-body'>Timestamp of end time </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#failed" name=failed>failed</a>
-            </span>
-            <div class='views-field-body'>Count of failed backups.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#success" name=success>success</a>
-            </span>
-            <div class='views-field-body'>Count of successfull backups.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[beginTime]: #begintime
+#### [beginTime]
+Timestamp of begin time  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[conflict]: #conflict
+#### [conflict]
+Count of backups with conflicts.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[endTime]: #endtime
+#### [endTime]
+Timestamp of end time  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[failed]: #failed
+#### [failed]
+Count of failed backups.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[success]: #success
+#### [success]
+Count of successfull backups.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -23,93 +23,75 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/editObject'> editObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getAvailableBootModes'> getAvailableBootModes</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getBillingItem'> getBillingItem</a> </span>
-            <div class='views-field-body'>Retrieve the billing item for a virtual disk image.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getBlockDevices'> getBlockDevices</a> </span>
-            <div class='views-field-body'>Retrieve the block devices that a disk image is attached to. Block devices connect computing instances to disk images.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getBootableVolumeFlag'> getBootableVolumeFlag</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getCoalescedDiskImages'> getCoalescedDiskImages</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getCopyOnWriteFlag'> getCopyOnWriteFlag</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getImportedDiskType'> getImportedDiskType</a> </span>
-            <div class='views-field-body'>Retrieve return imported disk type</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getIsEncrypted'> getIsEncrypted</a> </span>
-            <div class='views-field-body'>Retrieve return if image is encrypted</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getLocalDiskFlag'> getLocalDiskFlag</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getMetadataFlag'> getMetadataFlag</a> </span>
-            <div class='views-field-body'>Retrieve whether this disk image is meant for storage of custom user data supplied with a Cloud Computing Instance order.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Virtual_Disk_Image record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getPublicIsoImages'> getPublicIsoImages</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getSoftwareReferences'> getSoftwareReferences</a> </span>
-            <div class='views-field-body'>Retrieve references to the software that resides on a disk image.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getSourceDiskImage'> getSourceDiskImage</a> </span>
-            <div class='views-field-body'>Retrieve the original disk image that the current disk image was cloned from.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getStorageRepository'> getStorageRepository</a> </span>
-            <div class='views-field-body'>Retrieve the storage repository that a disk image resides in.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getStorageRepositoryType'> getStorageRepositoryType</a> </span>
-            <div class='views-field-body'>Retrieve the type of storage repository that a disk image resides in.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getTemplateBlockDevice'> getTemplateBlockDevice</a> </span>
-            <div class='views-field-body'>Retrieve the template that attaches a disk image to a [[SoftLayer_Virtual_Guest_Block_Device_Template_Group|archive]].</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Disk_Image/getType'> getType</a> </span>
-            <div class='views-field-body'>Retrieve a virtual disk image's type.</div>
-        </div>
-        </div>
+</div>
+
+#### [editObject](/reference/services/SoftLayer_Virtual_Disk_Image/editObject)
+
+
+#### [getAvailableBootModes](/reference/services/SoftLayer_Virtual_Disk_Image/getAvailableBootModes)
+
+
+#### [getBillingItem](/reference/services/SoftLayer_Virtual_Disk_Image/getBillingItem)
+Retrieve the billing item for a virtual disk image.
+
+#### [getBlockDevices](/reference/services/SoftLayer_Virtual_Disk_Image/getBlockDevices)
+Retrieve the block devices that a disk image is attached to. Block devices connect computing instances to disk images.
+
+#### [getBootableVolumeFlag](/reference/services/SoftLayer_Virtual_Disk_Image/getBootableVolumeFlag)
+
+
+#### [getCoalescedDiskImages](/reference/services/SoftLayer_Virtual_Disk_Image/getCoalescedDiskImages)
+
+
+#### [getCopyOnWriteFlag](/reference/services/SoftLayer_Virtual_Disk_Image/getCopyOnWriteFlag)
+
+
+#### [getImportedDiskType](/reference/services/SoftLayer_Virtual_Disk_Image/getImportedDiskType)
+Retrieve return imported disk type
+
+#### [getIsEncrypted](/reference/services/SoftLayer_Virtual_Disk_Image/getIsEncrypted)
+Retrieve return if image is encrypted
+
+#### [getLocalDiskFlag](/reference/services/SoftLayer_Virtual_Disk_Image/getLocalDiskFlag)
+
+
+#### [getMetadataFlag](/reference/services/SoftLayer_Virtual_Disk_Image/getMetadataFlag)
+Retrieve whether this disk image is meant for storage of custom user data supplied with a Cloud Computing Instance order.
+
+#### [getObject](/reference/services/SoftLayer_Virtual_Disk_Image/getObject)
+Retrieve a SoftLayer_Virtual_Disk_Image record.
+
+#### [getPublicIsoImages](/reference/services/SoftLayer_Virtual_Disk_Image/getPublicIsoImages)
+
+
+#### [getSoftwareReferences](/reference/services/SoftLayer_Virtual_Disk_Image/getSoftwareReferences)
+Retrieve references to the software that resides on a disk image.
+
+#### [getSourceDiskImage](/reference/services/SoftLayer_Virtual_Disk_Image/getSourceDiskImage)
+Retrieve the original disk image that the current disk image was cloned from.
+
+#### [getStorageRepository](/reference/services/SoftLayer_Virtual_Disk_Image/getStorageRepository)
+Retrieve the storage repository that a disk image resides in.
+
+#### [getStorageRepositoryType](/reference/services/SoftLayer_Virtual_Disk_Image/getStorageRepositoryType)
+Retrieve the type of storage repository that a disk image resides in.
+
+#### [getTemplateBlockDevice](/reference/services/SoftLayer_Virtual_Disk_Image/getTemplateBlockDevice)
+Retrieve the template that attaches a disk image to a [SoftLayer_Virtual_Guest_Block_Device_Template_Group]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group">}}).
+
+#### [getType](/reference/services/SoftLayer_Virtual_Disk_Image/getType)
+Retrieve a virtual disk image's type.
+
 </div>
 

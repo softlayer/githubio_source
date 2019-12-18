@@ -41,29 +41,24 @@ At times,such as when attaching files to tickets, it is necessary to send files 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#data" name=data>data</a>
-            </span>
-            <div class='views-field-body'>The contents of a file that is uploaded to the SoftLayer API. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>binary data</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#filename" name=filename>filename</a>
-            </span>
-            <div class='views-field-body'>The name of a file that is uploaded to the SoftLayer API. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[data]: #data
+#### [data]
+The contents of a file that is uploaded to the SoftLayer API.  
+<span class="type-label">Type: </span>**binary data**
+
+-----
+[filename]: #filename
+#### [filename]
+The name of a file that is uploaded to the SoftLayer API.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

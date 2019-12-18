@@ -23,53 +23,45 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/approveRequest'> approveRequest</a> </span>
-            <div class='views-field-body'>Approve a personal information removal request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getApprovedFlag'> getApprovedFlag</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getAuthorizationUrl'> getAuthorizationUrl</a> </span>
-            <div class='views-field-body'>Gets the redirect URL for GDPR removal review.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Account_PersonalData_RemoveRequestReview record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getPendingRequests'> getPendingRequests</a> </span>
-            <div class='views-field-body'>Gets information removal requests to review.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getReviewerAccessToken'> getReviewerAccessToken</a> </span>
-            <div class='views-field-body'>Retrieves an access token.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getReviewerEmailFromAccessToken'> getReviewerEmailFromAccessToken</a> </span>
-            <div class='views-field-body'>Fetches an email address using a token</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getTotalPendingRequests'> getTotalPendingRequests</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-        </div>
+</div>
+
+#### [approveRequest](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/approveRequest)
+Approve a personal information removal request.
+
+#### [getAccount](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getAccount)
+
+
+#### [getApprovedFlag](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getApprovedFlag)
+
+
+#### [getAuthorizationUrl](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getAuthorizationUrl)
+Gets the redirect URL for GDPR removal review.
+
+#### [getObject](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getObject)
+Retrieve a SoftLayer_Account_PersonalData_RemoveRequestReview record.
+
+#### [getPendingRequests](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getPendingRequests)
+Gets information removal requests to review.
+
+#### [getReviewerAccessToken](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getReviewerAccessToken)
+Retrieves an access token.
+
+#### [getReviewerEmailFromAccessToken](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getReviewerEmailFromAccessToken)
+Fetches an email address using a token
+
+#### [getTotalPendingRequests](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getTotalPendingRequests)
+
+
 </div>
 

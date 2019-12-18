@@ -23,45 +23,39 @@ A trigger that will only execute only when all guests on the group (both static 
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create a resource-use policy trigger.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Delete this trigger.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit this trigger.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Scale_Policy_Trigger_ResourceUse record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/getScalePolicy'> getScalePolicy</a> </span>
-            <div class='views-field-body'>Retrieve the policy this trigger is on.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/getType'> getType</a> </span>
-            <div class='views-field-body'>Retrieve the type of trigger.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/getWatches'> getWatches</a> </span>
-            <div class='views-field-body'>Retrieve the resource watches for this trigger.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/createObject)
+Create a resource-use policy trigger.
+
+#### [deleteObject](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/deleteObject)
+Delete this trigger.
+
+#### [editObject](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/editObject)
+Edit this trigger.
+
+#### [getObject](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/getObject)
+Retrieve a SoftLayer_Scale_Policy_Trigger_ResourceUse record.
+
+#### [getScalePolicy](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/getScalePolicy)
+Retrieve the policy this trigger is on.
+
+#### [getType](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/getType)
+Retrieve the type of trigger.
+
+#### [getWatches](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/getWatches)
+Retrieve the resource watches for this trigger.
+
 </div>
 

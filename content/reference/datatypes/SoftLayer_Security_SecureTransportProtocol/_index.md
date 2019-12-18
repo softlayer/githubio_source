@@ -41,29 +41,24 @@ Protocol intended for use in secure communications
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#keyName" name=keyName>keyName</a>
-            </span>
-            <div class='views-field-body'>Unique identifier for the protocol </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#supportedSecureTransportCiphers" name=supportedSecureTransportCiphers>supportedSecureTransportCiphers</a>
-            </span>
-            <div class='views-field-body'>List of the supported encryption ciphers </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Security_SecureTransportCipher'>SoftLayer_Security_SecureTransportCipher[] </a></p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[keyName]: #keyname
+#### [keyName]
+Unique identifier for the protocol  
+<span class="type-label">Type: </span>**string**
+
+-----
+[supportedSecureTransportCiphers]: #supportedsecuretransportciphers
+#### [supportedSecureTransportCiphers]
+List of the supported encryption ciphers  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_SecureTransportCipher'>SoftLayer_Security_SecureTransportCipher[] </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

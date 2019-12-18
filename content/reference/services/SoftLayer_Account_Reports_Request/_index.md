@@ -23,65 +23,54 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Reports_Request/createRequest'> createRequest</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Reports_Request/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Reports_Request/getAccountContact'> getAccountContact</a> </span>
-            <div class='views-field-body'>Retrieve a request's corresponding external contact, if one exists.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Reports_Request/getAllObjects'> getAllObjects</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Reports_Request/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Account_Reports_Request record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Reports_Request/getReportType'> getReportType</a> </span>
-            <div class='views-field-body'>Retrieve type of the report customer is requesting for.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Reports_Request/getRequestByRequestKey'> getRequestByRequestKey</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Reports_Request/getRequestorContact'> getRequestorContact</a> </span>
-            <div class='views-field-body'>Retrieve a request's corresponding requestor contact, if one exists.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Reports_Request/getTicket'> getTicket</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Reports_Request/getUser'> getUser</a> </span>
-            <div class='views-field-body'>Retrieve the customer user that initiated a report request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Reports_Request/sendReportEmail'> sendReportEmail</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Reports_Request/updateTicketOnDecline'> updateTicketOnDecline</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-        </div>
+</div>
+
+#### [createRequest](/reference/services/SoftLayer_Account_Reports_Request/createRequest)
+
+
+#### [getAccount](/reference/services/SoftLayer_Account_Reports_Request/getAccount)
+
+
+#### [getAccountContact](/reference/services/SoftLayer_Account_Reports_Request/getAccountContact)
+Retrieve a request's corresponding external contact, if one exists.
+
+#### [getAllObjects](/reference/services/SoftLayer_Account_Reports_Request/getAllObjects)
+
+
+#### [getObject](/reference/services/SoftLayer_Account_Reports_Request/getObject)
+Retrieve a SoftLayer_Account_Reports_Request record.
+
+#### [getReportType](/reference/services/SoftLayer_Account_Reports_Request/getReportType)
+Retrieve type of the report customer is requesting for.
+
+#### [getRequestByRequestKey](/reference/services/SoftLayer_Account_Reports_Request/getRequestByRequestKey)
+
+
+#### [getRequestorContact](/reference/services/SoftLayer_Account_Reports_Request/getRequestorContact)
+Retrieve a request's corresponding requestor contact, if one exists.
+
+#### [getTicket](/reference/services/SoftLayer_Account_Reports_Request/getTicket)
+
+
+#### [getUser](/reference/services/SoftLayer_Account_Reports_Request/getUser)
+Retrieve the customer user that initiated a report request.
+
+#### [sendReportEmail](/reference/services/SoftLayer_Account_Reports_Request/sendReportEmail)
+
+
+#### [updateTicketOnDecline](/reference/services/SoftLayer_Account_Reports_Request/updateTicketOnDecline)
+
+
 </div>
 

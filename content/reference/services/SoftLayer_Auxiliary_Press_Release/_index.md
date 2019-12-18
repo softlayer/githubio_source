@@ -23,53 +23,45 @@ The SoftLayer_Auxiliary_Press_Release service is associated with all actions per
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Auxiliary_Press_Release/getAbout'> getAbout</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Auxiliary_Press_Release/getAllObjects'> getAllObjects</a> </span>
-            <div class='views-field-body'>Retrieve all press releases.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Auxiliary_Press_Release/getContacts'> getContacts</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Auxiliary_Press_Release/getMediaPartners'> getMediaPartners</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Auxiliary_Press_Release/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Auxiliary_Press_Release record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Auxiliary_Press_Release/getPressReleaseContent'> getPressReleaseContent</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Auxiliary_Press_Release/getRenderedPressRelease'> getRenderedPressRelease</a> </span>
-            <div class='views-field-body'>Retrieve a press release.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Auxiliary_Press_Release/getRenderedPressReleases'> getRenderedPressReleases</a> </span>
-            <div class='views-field-body'>Retrieve a press release for a</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Auxiliary_Press_Release/getWebsiteHighlightPressReleases'> getWebsiteHighlightPressReleases</a> </span>
-            <div class='views-field-body'>Retrieve press releases with the</div>
-        </div>
-        </div>
+</div>
+
+#### [getAbout](/reference/services/SoftLayer_Auxiliary_Press_Release/getAbout)
+
+
+#### [getAllObjects](/reference/services/SoftLayer_Auxiliary_Press_Release/getAllObjects)
+Retrieve all press releases.
+
+#### [getContacts](/reference/services/SoftLayer_Auxiliary_Press_Release/getContacts)
+
+
+#### [getMediaPartners](/reference/services/SoftLayer_Auxiliary_Press_Release/getMediaPartners)
+
+
+#### [getObject](/reference/services/SoftLayer_Auxiliary_Press_Release/getObject)
+Retrieve a SoftLayer_Auxiliary_Press_Release record.
+
+#### [getPressReleaseContent](/reference/services/SoftLayer_Auxiliary_Press_Release/getPressReleaseContent)
+
+
+#### [getRenderedPressRelease](/reference/services/SoftLayer_Auxiliary_Press_Release/getRenderedPressRelease)
+Retrieve a press release.
+
+#### [getRenderedPressReleases](/reference/services/SoftLayer_Auxiliary_Press_Release/getRenderedPressReleases)
+Retrieve a press release for a
+
+#### [getWebsiteHighlightPressReleases](/reference/services/SoftLayer_Auxiliary_Press_Release/getWebsiteHighlightPressReleases)
+Retrieve press releases with the
+
 </div>
 

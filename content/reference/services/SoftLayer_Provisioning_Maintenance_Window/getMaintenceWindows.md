@@ -1,6 +1,6 @@
 ---
 title: "getMaintenceWindows"
-description: "(DEPRECATED) Use [[SoftLayer_Provisioning_Maintenance_Window::getMaintenanceWindows|getMaintenanceWindows]] method."
+description: "(DEPRECATED) Use [SoftLayer_Provisioning_Maintenance_Window::getMaintenanceWindows]({{<ref 'reference/services/SoftLayer... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Returns available maintenance windows
 
 
 ## Overview 
-(DEPRECATED) Use [[SoftLayer_Provisioning_Maintenance_Window::getMaintenanceWindows|getMaintenanceWindows]] method. 
+(DEPRECATED) Use [SoftLayer_Provisioning_Maintenance_Window::getMaintenanceWindows]({{<ref "reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceWindows">}}) method. 
 
 -----
 

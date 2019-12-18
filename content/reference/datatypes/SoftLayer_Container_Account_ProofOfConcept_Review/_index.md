@@ -41,189 +41,120 @@ Full details presented to reviewers when determining whether or not to accept a 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountType" name=accountType>accountType</a>
-            </span>
-            <div class='views-field-body'>Type of brand the account will use </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#costRecoveryCodes" name=costRecoveryCodes>costRecoveryCodes</a>
-            </span>
-            <div class='views-field-body'>Internal billing codes </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Request_CostRecovery'>SoftLayer_Container_Account_ProofOfConcept_Request_CostRecovery </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#customer" name=customer>customer</a>
-            </span>
-            <div class='views-field-body'>Customer intended to take over billing after the proof of concept period </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Customer'>SoftLayer_Container_Account_ProofOfConcept_Contact_Customer </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>Describes the purpose and rationale of the request </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#endDate" name=endDate>endDate</a>
-            </span>
-            <div class='views-field-body'>Expected end date of the proof of concept period </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#fundingAmount" name=fundingAmount>fundingAmount</a>
-            </span>
-            <div class='views-field-body'>Dollar amount of funding requested </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#fundingType" name=fundingType>fundingType</a>
-            </span>
-            <div class='views-field-body'>Funding option chosen for the request </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>System id of the request </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#iotLeadName" name=iotLeadName>iotLeadName</a>
-            </span>
-            <div class='views-field-body'>Name of the integrated offering team lead reviewing the request </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#iotRegionName" name=iotRegionName>iotRegionName</a>
-            </span>
-            <div class='views-field-body'>Name of the integrated offering team region </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#managerName" name=managerName>managerName</a>
-            </span>
-            <div class='views-field-body'>Name of requesting IBMer's manager </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#opportunity" name=opportunity>opportunity</a>
-            </span>
-            <div class='views-field-body'>Internal opportunity tracking information </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity'>SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#projectName" name=projectName>projectName</a>
-            </span>
-            <div class='views-field-body'>Project name chosen by the requesting IBMer </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#requester" name=requester>requester</a>
-            </span>
-            <div class='views-field-body'>IBMer requesting the account on behalf of a customer </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Requester'>SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Requester </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#reviewHistory" name=reviewHistory>reviewHistory</a>
-            </span>
-            <div class='views-field-body'>Summary of request's review activity </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Review_History'>SoftLayer_Container_Account_ProofOfConcept_Review_History </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#reviewUrl" name=reviewUrl>reviewUrl</a>
-            </span>
-            <div class='views-field-body'>URL for the individual review </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#startDate" name=startDate>startDate</a>
-            </span>
-            <div class='views-field-body'>Expected start date of the proof of concept period </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#technicalContact" name=technicalContact>technicalContact</a>
-            </span>
-            <div class='views-field-body'>Additional IBMer responsible for configuring the cloud capabilities </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Technical'>SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Technical </a></p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountType]: #accounttype
+#### [accountType]
+Type of brand the account will use  
+<span class="type-label">Type: </span>**string**
+
+-----
+[costRecoveryCodes]: #costrecoverycodes
+#### [costRecoveryCodes]
+Internal billing codes  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Request_CostRecovery'>SoftLayer_Container_Account_ProofOfConcept_Request_CostRecovery </a>**
+
+-----
+[customer]: #customer
+#### [customer]
+Customer intended to take over billing after the proof of concept period  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Customer'>SoftLayer_Container_Account_ProofOfConcept_Contact_Customer </a>**
+
+-----
+[description]: #description
+#### [description]
+Describes the purpose and rationale of the request  
+<span class="type-label">Type: </span>**string**
+
+-----
+[endDate]: #enddate
+#### [endDate]
+Expected end date of the proof of concept period  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[fundingAmount]: #fundingamount
+#### [fundingAmount]
+Dollar amount of funding requested  
+<span class="type-label">Type: </span>**float**
+
+-----
+[fundingType]: #fundingtype
+#### [fundingType]
+Funding option chosen for the request  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+System id of the request  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[iotLeadName]: #iotleadname
+#### [iotLeadName]
+Name of the integrated offering team lead reviewing the request  
+<span class="type-label">Type: </span>**string**
+
+-----
+[iotRegionName]: #iotregionname
+#### [iotRegionName]
+Name of the integrated offering team region  
+<span class="type-label">Type: </span>**string**
+
+-----
+[managerName]: #managername
+#### [managerName]
+Name of requesting IBMer's manager  
+<span class="type-label">Type: </span>**string**
+
+-----
+[opportunity]: #opportunity
+#### [opportunity]
+Internal opportunity tracking information  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity'>SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity </a>**
+
+-----
+[projectName]: #projectname
+#### [projectName]
+Project name chosen by the requesting IBMer  
+<span class="type-label">Type: </span>**string**
+
+-----
+[requester]: #requester
+#### [requester]
+IBMer requesting the account on behalf of a customer  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Requester'>SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Requester </a>**
+
+-----
+[reviewHistory]: #reviewhistory
+#### [reviewHistory]
+Summary of request's review activity  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Review_History'>SoftLayer_Container_Account_ProofOfConcept_Review_History </a>**
+
+-----
+[reviewUrl]: #reviewurl
+#### [reviewUrl]
+URL for the individual review  
+<span class="type-label">Type: </span>**string**
+
+-----
+[startDate]: #startdate
+#### [startDate]
+Expected start date of the proof of concept period  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[technicalContact]: #technicalcontact
+#### [technicalContact]
+Additional IBMer responsible for configuring the cloud capabilities  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Technical'>SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Technical </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

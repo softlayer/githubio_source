@@ -23,117 +23,93 @@ A network gateway is a set of members which have a configurable set of VLANs tru
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/bypassAllVlans'> bypassAllVlans</a> </span>
-            <div class='views-field-body'>Bypass All VLANs</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/bypassVlans'> bypassVlans</a> </span>
-            <div class='views-field-body'>Bypass VLANs</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/canRollbackVersion'> canRollbackVersion</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/changeGatewayVersion'> changeGatewayVersion</a> </span>
-            <div class='views-field-body'>Change Juniper vSRX version on a Gateway</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create a new server gateway</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit Gateway</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve the account for this gateway.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getCapacity'> getCapacity</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getInsideVlans'> getInsideVlans</a> </span>
-            <div class='views-field-body'>Retrieve all VLANs trunked to this gateway.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getManufacturer'> getManufacturer</a> </span>
-            <div class='views-field-body'>manufacturer name</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getMembers'> getMembers</a> </span>
-            <div class='views-field-body'>Retrieve the members for this gateway.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getNetworkFirewall'> getNetworkFirewall</a> </span>
-            <div class='views-field-body'>Retrieve the firewall associated with this gateway, if any.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getNetworkFirewallFlag'> getNetworkFirewallFlag</a> </span>
-            <div class='views-field-body'>Retrieve whether or not there is a firewall associated with this gateway.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_Gateway record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getPossibleInsideVlans'> getPossibleInsideVlans</a> </span>
-            <div class='views-field-body'>Get Possible Inside VLANs</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getPrivateIpAddress'> getPrivateIpAddress</a> </span>
-            <div class='views-field-body'>Retrieve the private gateway IP address.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getPrivateVlan'> getPrivateVlan</a> </span>
-            <div class='views-field-body'>Retrieve the private VLAN for accessing this gateway.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getPublicIpAddress'> getPublicIpAddress</a> </span>
-            <div class='views-field-body'>Retrieve the public gateway IP address.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getPublicIpv6Address'> getPublicIpv6Address</a> </span>
-            <div class='views-field-body'>Retrieve the public gateway IPv6 address.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getPublicVlan'> getPublicVlan</a> </span>
-            <div class='views-field-body'>Retrieve the public VLAN for accessing this gateway.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getStatus'> getStatus</a> </span>
-            <div class='views-field-body'>Retrieve the current status of the gateway.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/getUpgradeItemPrices'> getUpgradeItemPrices</a> </span>
-            <div class='views-field-body'>Retrieve available upgrade prices</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/rebuildvSRXHACluster'> rebuildvSRXHACluster</a> </span>
-            <div class='views-field-body'>Rebuild Juniper vSRX HA Gateway</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/unbypassAllVlans'> unbypassAllVlans</a> </span>
-            <div class='views-field-body'>Bypass All VLANs</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway/unbypassVlans'> unbypassVlans</a> </span>
-            <div class='views-field-body'>Bypass VLANs</div>
-        </div>
-        </div>
+</div>
+
+#### [bypassAllVlans](/reference/services/SoftLayer_Network_Gateway/bypassAllVlans)
+Bypass All VLANs
+
+#### [bypassVlans](/reference/services/SoftLayer_Network_Gateway/bypassVlans)
+Bypass VLANs
+
+#### [canRollbackVersion](/reference/services/SoftLayer_Network_Gateway/canRollbackVersion)
+
+
+#### [changeGatewayVersion](/reference/services/SoftLayer_Network_Gateway/changeGatewayVersion)
+Change Juniper vSRX version on a Gateway
+
+#### [createObject](/reference/services/SoftLayer_Network_Gateway/createObject)
+Create a new server gateway
+
+#### [editObject](/reference/services/SoftLayer_Network_Gateway/editObject)
+Edit Gateway
+
+#### [getAccount](/reference/services/SoftLayer_Network_Gateway/getAccount)
+Retrieve the account for this gateway.
+
+#### [getCapacity](/reference/services/SoftLayer_Network_Gateway/getCapacity)
+
+
+#### [getInsideVlans](/reference/services/SoftLayer_Network_Gateway/getInsideVlans)
+Retrieve all VLANs trunked to this gateway.
+
+#### [getManufacturer](/reference/services/SoftLayer_Network_Gateway/getManufacturer)
+manufacturer name
+
+#### [getMembers](/reference/services/SoftLayer_Network_Gateway/getMembers)
+Retrieve the members for this gateway.
+
+#### [getNetworkFirewall](/reference/services/SoftLayer_Network_Gateway/getNetworkFirewall)
+Retrieve the firewall associated with this gateway, if any.
+
+#### [getNetworkFirewallFlag](/reference/services/SoftLayer_Network_Gateway/getNetworkFirewallFlag)
+Retrieve whether or not there is a firewall associated with this gateway.
+
+#### [getObject](/reference/services/SoftLayer_Network_Gateway/getObject)
+Retrieve a SoftLayer_Network_Gateway record.
+
+#### [getPossibleInsideVlans](/reference/services/SoftLayer_Network_Gateway/getPossibleInsideVlans)
+Get Possible Inside VLANs
+
+#### [getPrivateIpAddress](/reference/services/SoftLayer_Network_Gateway/getPrivateIpAddress)
+Retrieve the private gateway IP address.
+
+#### [getPrivateVlan](/reference/services/SoftLayer_Network_Gateway/getPrivateVlan)
+Retrieve the private VLAN for accessing this gateway.
+
+#### [getPublicIpAddress](/reference/services/SoftLayer_Network_Gateway/getPublicIpAddress)
+Retrieve the public gateway IP address.
+
+#### [getPublicIpv6Address](/reference/services/SoftLayer_Network_Gateway/getPublicIpv6Address)
+Retrieve the public gateway IPv6 address.
+
+#### [getPublicVlan](/reference/services/SoftLayer_Network_Gateway/getPublicVlan)
+Retrieve the public VLAN for accessing this gateway.
+
+#### [getStatus](/reference/services/SoftLayer_Network_Gateway/getStatus)
+Retrieve the current status of the gateway.
+
+#### [getUpgradeItemPrices](/reference/services/SoftLayer_Network_Gateway/getUpgradeItemPrices)
+Retrieve available upgrade prices
+
+#### [rebuildvSRXHACluster](/reference/services/SoftLayer_Network_Gateway/rebuildvSRXHACluster)
+Rebuild Juniper vSRX HA Gateway
+
+#### [unbypassAllVlans](/reference/services/SoftLayer_Network_Gateway/unbypassAllVlans)
+Bypass All VLANs
+
+#### [unbypassVlans](/reference/services/SoftLayer_Network_Gateway/unbypassVlans)
+Bypass VLANs
+
 </div>
 

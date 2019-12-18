@@ -41,69 +41,48 @@ This container data type contains extended attributes information for a domain o
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#childFlag" name=childFlag>childFlag</a>
-            </span>
-            <div class='views-field-body'>Indicates if this is a child of another extended attribute. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>The description of an extended attribute. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>The name of an extended attribute. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#options" name=options>options</a>
-            </span>
-            <div class='views-field-body'>The collection of options for an extended attribute. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute_Option'>SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute_Option[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#requiredFlag" name=requiredFlag>requiredFlag</a>
-            </span>
-            <div class='views-field-body'>Indicates if extended attribute is required. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#userDefinedFlag" name=userDefinedFlag>userDefinedFlag</a>
-            </span>
-            <div class='views-field-body'>User defined indicates that the value is required from outside sources. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[childFlag]: #childflag
+#### [childFlag]
+Indicates if this is a child of another extended attribute.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[description]: #description
+#### [description]
+The description of an extended attribute.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[name]: #name
+#### [name]
+The name of an extended attribute.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[options]: #options
+#### [options]
+The collection of options for an extended attribute.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute_Option'>SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute_Option[] </a>**
+
+-----
+[requiredFlag]: #requiredflag
+#### [requiredFlag]
+Indicates if extended attribute is required.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[userDefinedFlag]: #userdefinedflag
+#### [userDefinedFlag]
+User defined indicates that the value is required from outside sources.  
+<span class="type-label">Type: </span>**boolean**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

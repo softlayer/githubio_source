@@ -23,261 +23,201 @@ The virtual guest block device template group service provides a common interfac
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/addByolAttribute'> addByolAttribute</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/addCloudInitAttribute'> addCloudInitAttribute</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/addLocations'> addLocations</a> </span>
-            <div class='views-field-body'>[[SoftLayer_Virtual_Guest_Block_Devices|Block Devices]] can be made available in all storage locations. This method will create transaction(s) to add available locations to an archive image template. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/addSupportedBootMode'> addSupportedBootMode</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/copyToExternalSource'> copyToExternalSource</a> </span>
-            <div class='views-field-body'>This method generates a transaction to export/copy a template to an external source. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/copyToIcos'> copyToIcos</a> </span>
-            <div class='views-field-body'>This method generates a transaction to export/copy a template to IBM Cloud Object Storage (ICOS) </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/createFromExternalSource'> createFromExternalSource</a> </span>
-            <div class='views-field-body'>This method generates a transaction to import a disk image from an external source and create a standard image template. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/createFromIcos'> createFromIcos</a> </span>
-            <div class='views-field-body'>This method generates a process instance to import a disk image from ICOS and create a standard image template. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/createPublicArchiveTransaction'> createPublicArchiveTransaction</a> </span>
-            <div class='views-field-body'>[[SoftLayer_Virtual_Guest_Block_Devices|Block Devices]] can be published together in a public repository for use by everyone. This method generates a transaction to perform a public image of the provided archived block devices. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/deleteByolAttribute'> deleteByolAttribute</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/deleteCloudInitAttribute'> deleteCloudInitAttribute</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Create a transaction that will remove all block device templates from the group and delete the disk images associated with them. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/denySharingAccess'> denySharingAccess</a> </span>
-            <div class='views-field-body'>Deny another SoftLayer customer account's previously given access to provision CloudLayer Computing Instances from an image template group. Template access should only be removed from the parent template group object, not the child. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit an image template group's name and note.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/findGcImagesByCurrentUser'> findGcImagesByCurrentUser</a> </span>
-            <div class='views-field-body'>Fetch a sorted collection of GC enabled cloudinit images for the account of the current active customer user. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve a block device template group's [[SoftLayer_Account|account]].</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getAccountContacts'> getAccountContacts</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getAccountReferences'> getAccountReferences</a> </span>
-            <div class='views-field-body'>Retrieve the accounts which may have read-only access to an image template group. Will only be populated for parent template group objects.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getAllAvailableCompatiblePlatformNames'> getAllAvailableCompatiblePlatformNames</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getBlockDevices'> getBlockDevices</a> </span>
-            <div class='views-field-body'>Retrieve the block devices that are part of an image template group</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getBlockDevicesDiskSpaceTotal'> getBlockDevicesDiskSpaceTotal</a> </span>
-            <div class='views-field-body'>Retrieve the total disk space of all images in a image template group.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getBootMode'> getBootMode</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getByolFlag'> getByolFlag</a> </span>
-            <div class='views-field-body'>Retrieve a flag indicating that customer is providing the software licenses.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getChildren'> getChildren</a> </span>
-            <div class='views-field-body'>Retrieve the image template groups that are clones of an image template group.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getCurrentCompatiblePlatformNames'> getCurrentCompatiblePlatformNames</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getDatacenter'> getDatacenter</a> </span>
-            <div class='views-field-body'>Retrieve the location containing this image template group. Will only be populated for child template group objects.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getDatacenters'> getDatacenters</a> </span>
-            <div class='views-field-body'>Retrieve a collection of locations containing a copy of this image template group. Will only be populated for parent template group objects.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getDefaultBootMode'> getDefaultBootMode</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getEncryptionAttributes'> getEncryptionAttributes</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getFlexImageFlag'> getFlexImageFlag</a> </span>
-            <div class='views-field-body'>Retrieve a flag indicating if this is a flex image.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getGlobalIdentifier'> getGlobalIdentifier</a> </span>
-            <div class='views-field-body'>Retrieve an image template's universally unique identifier.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getImageType'> getImageType</a> </span>
-            <div class='views-field-body'>Retrieve the virtual disk image type of this template. Value will be populated on parent and child, but only supports object filtering on the parent.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getImageTypeKeyName'> getImageTypeKeyName</a> </span>
-            <div class='views-field-body'>Retrieve the virtual disk image type keyname (e.g. SYSTEM, DISK_CAPTURE, ISO, etc) of this template. Value will be populated on parent and child, but only supports object filtering on the parent.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getNextGenFlag'> getNextGenFlag</a> </span>
-            <div class='views-field-body'>Retrieve a flag indicating if this is a next generation image.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Virtual_Guest_Block_Device_Template_Group record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getParent'> getParent</a> </span>
-            <div class='views-field-body'>Retrieve the image template group that another image template group was cloned from.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getPublicCustomerOwnedImages'> getPublicCustomerOwnedImages</a> </span>
-            <div class='views-field-body'>Gets all public customer owned image templates that the user is allowed to see. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getPublicImages'> getPublicImages</a> </span>
-            <div class='views-field-body'>Gets all public image templates that the user is allowed to see. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getSshKeys'> getSshKeys</a> </span>
-            <div class='views-field-body'>Retrieve the ssh keys to be implemented on the server when provisioned or reloaded from an image template group.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getStatus'> getStatus</a> </span>
-            <div class='views-field-body'>Retrieve a template group's status.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getStorageLocations'> getStorageLocations</a> </span>
-            <div class='views-field-body'>The available locations for public image storage. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getStorageRepository'> getStorageRepository</a> </span>
-            <div class='views-field-body'>Retrieve the storage repository that an image template group resides on.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getSupportedBootModes'> getSupportedBootModes</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getTagReferences'> getTagReferences</a> </span>
-            <div class='views-field-body'>Retrieve the tags associated with this image template group.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getTemplateDataCenterName'> getTemplateDataCenterName</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getTransaction'> getTransaction</a> </span>
-            <div class='views-field-body'>Retrieve a transaction that is being performed on a image template group.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getVhdImportSoftwareDescriptions'> getVhdImportSoftwareDescriptions</a> </span>
-            <div class='views-field-body'>Returns the software descriptions supported for VHD imports.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/isByol'> isByol</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/isByolCapableOperatingSystem'> isByolCapableOperatingSystem</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/isByolOnlyOperatingSystem'> isByolOnlyOperatingSystem</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/isCloudInit'> isCloudInit</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/isCloudInitOnlyOperatingSystem'> isCloudInitOnlyOperatingSystem</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/isEncrypted'> isEncrypted</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/permitSharingAccess'> permitSharingAccess</a> </span>
-            <div class='views-field-body'>Permit another SoftLayer customer account access to provision CloudLayer Computing Instances from an image template group. Template access should only be given to the parent template group object, not the child. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/removeCompatiblePlatforms'> removeCompatiblePlatforms</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/removeLocations'> removeLocations</a> </span>
-            <div class='views-field-body'>[[SoftLayer_Virtual_Guest_Block_Devices|Block Devices]] can be made available in all storage locations. This method will create transaction(s) to remove available locations from an archive image template. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/removeSupportedBootMode'> removeSupportedBootMode</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/setAvailableLocations'> setAvailableLocations</a> </span>
-            <div class='views-field-body'>This method generates the necessary transaction(s) to set available locations for archived block devices. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/setBootMode'> setBootMode</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/setCompatiblePlatforms'> setCompatiblePlatforms</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/setTags'> setTags</a> </span>
-            <div class='views-field-body'>Set the tags for this template group.</div>
-        </div>
-        </div>
+</div>
+
+#### [addByolAttribute](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/addByolAttribute)
+
+
+#### [addCloudInitAttribute](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/addCloudInitAttribute)
+
+
+#### [addLocations](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/addLocations)
+[SoftLayer_Virtual_Guest_Block_Device]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Device">}}) can be made available in all storage locations. This method will create transaction(s) to add available locations to an archive image template. 
+
+#### [addSupportedBootMode](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/addSupportedBootMode)
+
+
+#### [copyToExternalSource](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/copyToExternalSource)
+This method generates a transaction to export/copy a template to an external source. 
+
+#### [copyToIcos](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/copyToIcos)
+This method generates a transaction to export/copy a template to IBM Cloud Object Storage (ICOS) 
+
+#### [createFromExternalSource](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/createFromExternalSource)
+This method generates a transaction to import a disk image from an external source and create a standard image template. 
+
+#### [createFromIcos](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/createFromIcos)
+This method generates a process instance to import a disk image from ICOS and create a standard image template. 
+
+#### [createPublicArchiveTransaction](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/createPublicArchiveTransaction)
+[SoftLayer_Virtual_Guest_Block_Device]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Device">}}) can be published together in a public repository for use by everyone. This method generates a transaction to perform a public image of the provided archived block devices. 
+
+#### [deleteByolAttribute](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/deleteByolAttribute)
+
+
+#### [deleteCloudInitAttribute](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/deleteCloudInitAttribute)
+
+
+#### [deleteObject](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/deleteObject)
+Create a transaction that will remove all block device templates from the group and delete the disk images associated with them. 
+
+#### [denySharingAccess](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/denySharingAccess)
+Deny another SoftLayer customer account's previously given access to provision CloudLayer Computing Instances from an image template group. Template access should only be removed from the parent template group object, not the child. 
+
+#### [editObject](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/editObject)
+Edit an image template group's name and note.
+
+#### [findGcImagesByCurrentUser](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/findGcImagesByCurrentUser)
+Fetch a sorted collection of GC enabled cloudinit images for the account of the current active customer user. 
+
+#### [getAccount](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getAccount)
+Retrieve a block device template group's [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}).
+
+#### [getAccountContacts](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getAccountContacts)
+
+
+#### [getAccountReferences](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getAccountReferences)
+Retrieve the accounts which may have read-only access to an image template group. Will only be populated for parent template group objects.
+
+#### [getAllAvailableCompatiblePlatformNames](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getAllAvailableCompatiblePlatformNames)
+
+
+#### [getBlockDevices](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getBlockDevices)
+Retrieve the block devices that are part of an image template group
+
+#### [getBlockDevicesDiskSpaceTotal](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getBlockDevicesDiskSpaceTotal)
+Retrieve the total disk space of all images in a image template group.
+
+#### [getBootMode](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getBootMode)
+
+
+#### [getByolFlag](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getByolFlag)
+Retrieve a flag indicating that customer is providing the software licenses.
+
+#### [getChildren](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getChildren)
+Retrieve the image template groups that are clones of an image template group.
+
+#### [getCurrentCompatiblePlatformNames](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getCurrentCompatiblePlatformNames)
+
+
+#### [getDatacenter](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getDatacenter)
+Retrieve the location containing this image template group. Will only be populated for child template group objects.
+
+#### [getDatacenters](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getDatacenters)
+Retrieve a collection of locations containing a copy of this image template group. Will only be populated for parent template group objects.
+
+#### [getDefaultBootMode](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getDefaultBootMode)
+
+
+#### [getEncryptionAttributes](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getEncryptionAttributes)
+
+
+#### [getFlexImageFlag](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getFlexImageFlag)
+Retrieve a flag indicating if this is a flex image.
+
+#### [getGlobalIdentifier](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getGlobalIdentifier)
+Retrieve an image template's universally unique identifier.
+
+#### [getImageType](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getImageType)
+Retrieve the virtual disk image type of this template. Value will be populated on parent and child, but only supports object filtering on the parent.
+
+#### [getImageTypeKeyName](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getImageTypeKeyName)
+Retrieve the virtual disk image type keyname (e.g. SYSTEM, DISK_CAPTURE, ISO, etc) of this template. Value will be populated on parent and child, but only supports object filtering on the parent.
+
+#### [getNextGenFlag](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getNextGenFlag)
+Retrieve a flag indicating if this is a next generation image.
+
+#### [getObject](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getObject)
+Retrieve a SoftLayer_Virtual_Guest_Block_Device_Template_Group record.
+
+#### [getParent](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getParent)
+Retrieve the image template group that another image template group was cloned from.
+
+#### [getPublicCustomerOwnedImages](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getPublicCustomerOwnedImages)
+Gets all public customer owned image templates that the user is allowed to see. 
+
+#### [getPublicImages](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getPublicImages)
+Gets all public image templates that the user is allowed to see. 
+
+#### [getSshKeys](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getSshKeys)
+Retrieve the ssh keys to be implemented on the server when provisioned or reloaded from an image template group.
+
+#### [getStatus](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getStatus)
+Retrieve a template group's status.
+
+#### [getStorageLocations](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getStorageLocations)
+The available locations for public image storage. 
+
+#### [getStorageRepository](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getStorageRepository)
+Retrieve the storage repository that an image template group resides on.
+
+#### [getSupportedBootModes](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getSupportedBootModes)
+
+
+#### [getTagReferences](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getTagReferences)
+Retrieve the tags associated with this image template group.
+
+#### [getTemplateDataCenterName](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getTemplateDataCenterName)
+
+
+#### [getTransaction](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getTransaction)
+Retrieve a transaction that is being performed on a image template group.
+
+#### [getVhdImportSoftwareDescriptions](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getVhdImportSoftwareDescriptions)
+Returns the software descriptions supported for VHD imports.
+
+#### [isByol](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/isByol)
+
+
+#### [isByolCapableOperatingSystem](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/isByolCapableOperatingSystem)
+
+
+#### [isByolOnlyOperatingSystem](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/isByolOnlyOperatingSystem)
+
+
+#### [isCloudInit](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/isCloudInit)
+
+
+#### [isCloudInitOnlyOperatingSystem](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/isCloudInitOnlyOperatingSystem)
+
+
+#### [isEncrypted](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/isEncrypted)
+
+
+#### [permitSharingAccess](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/permitSharingAccess)
+Permit another SoftLayer customer account access to provision CloudLayer Computing Instances from an image template group. Template access should only be given to the parent template group object, not the child. 
+
+#### [removeCompatiblePlatforms](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/removeCompatiblePlatforms)
+
+
+#### [removeLocations](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/removeLocations)
+[SoftLayer_Virtual_Guest_Block_Device]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Device">}}) can be made available in all storage locations. This method will create transaction(s) to remove available locations from an archive image template. 
+
+#### [removeSupportedBootMode](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/removeSupportedBootMode)
+
+
+#### [setAvailableLocations](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/setAvailableLocations)
+This method generates the necessary transaction(s) to set available locations for archived block devices. 
+
+#### [setBootMode](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/setBootMode)
+
+
+#### [setCompatiblePlatforms](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/setCompatiblePlatforms)
+
+
+#### [setTags](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/setTags)
+Set the tags for this template group.
+
 </div>
 

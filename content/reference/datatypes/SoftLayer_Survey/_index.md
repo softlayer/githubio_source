@@ -36,113 +36,78 @@ The SoftLayer_Survey data type contains general information relating to a single
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#active" name=active>active</a>
-            </span>
-            <div class='views-field-body'>A flag indicating if a survey can be taken. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date that a survey had originally started. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A survey's id. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>A survey's name or title. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#statusId" name=statusId>statusId</a>
-            </span>
-            <div class='views-field-body'>The status id of the survey. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#typeId" name=typeId>typeId</a>
-            </span>
-            <div class='views-field-body'>The type id of the survey. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#questions" name=questions>questions</a>
-            </span>
-            <div class='views-field-body'>The questions for a survey. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Survey_Question'>SoftLayer_Survey_Question[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#status" name=status>status</a>
-            </span>
-            <div class='views-field-body'>The status of the survey </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Survey_Status'>SoftLayer_Survey_Status </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#type" name=type>type</a>
-            </span>
-            <div class='views-field-body'>The type of survey </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Survey_Type'>SoftLayer_Survey_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#questionCount" name=questionCount>questionCount</a>
-            </span>
-            <div class='views-field-body'>A count of the questions for a survey. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[active]: #active
+#### [active]
+A flag indicating if a survey can be taken.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+The date that a survey had originally started.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+A survey's id.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[name]: #name
+#### [name]
+A survey's name or title.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[statusId]: #statusid
+#### [statusId]
+The status id of the survey.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[typeId]: #typeid
+#### [typeId]
+The type id of the survey.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[questions]: #questions
+#### [questions]
+The questions for a survey.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey_Question'>SoftLayer_Survey_Question[] </a>**
+
+-----
+[status]: #status
+#### [status]
+The status of the survey  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey_Status'>SoftLayer_Survey_Status </a>**
+
+-----
+[type]: #type
+#### [type]
+The type of survey  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey_Type'>SoftLayer_Survey_Type </a>**
+
+
+## Count
+
+-----
+[questionCount]: #questioncount
+#### [questionCount]
+A count of the questions for a survey.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

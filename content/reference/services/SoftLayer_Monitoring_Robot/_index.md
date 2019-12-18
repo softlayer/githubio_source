@@ -27,53 +27,45 @@ TCP ports from 48000 to 48020 should be open on your server or cloud instance fo
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Monitoring_Robot/checkConnection'> checkConnection</a> </span>
-            <div class='views-field-body'>Checks if a monitoring robot can communicate with SoftLayer monitoring management system </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Monitoring_Robot/deployMonitoringAgents'> deployMonitoringAgents</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Monitoring_Robot/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve the account associated with the corresponding robot.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Monitoring_Robot/getAvailableConfigurationGroups'> getAvailableConfigurationGroups</a> </span>
-            <div class='views-field-body'>Returns available configuration template groups for this monitoring agent.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Monitoring_Robot/getMonitoringAgents'> getMonitoringAgents</a> </span>
-            <div class='views-field-body'>Retrieve the program (monitoring agent) that gets details of a system or application and reporting of the metric data and triggers alarms for predefined events.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Monitoring_Robot/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Monitoring_Robot record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Monitoring_Robot/getRobotStatus'> getRobotStatus</a> </span>
-            <div class='views-field-body'>Retrieve the current status of the robot.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Monitoring_Robot/getSoftwareComponent'> getSoftwareComponent</a> </span>
-            <div class='views-field-body'>Retrieve the SoftLayer_Software_Component that corresponds to the robot installation on the server.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Monitoring_Robot/resetStatus'> resetStatus</a> </span>
-            <div class='views-field-body'>Resets monitoring robot status to "Active"</div>
-        </div>
-        </div>
+</div>
+
+#### [checkConnection](/reference/services/SoftLayer_Monitoring_Robot/checkConnection)
+Checks if a monitoring robot can communicate with SoftLayer monitoring management system 
+
+#### [deployMonitoringAgents](/reference/services/SoftLayer_Monitoring_Robot/deployMonitoringAgents)
+
+
+#### [getAccount](/reference/services/SoftLayer_Monitoring_Robot/getAccount)
+Retrieve the account associated with the corresponding robot.
+
+#### [getAvailableConfigurationGroups](/reference/services/SoftLayer_Monitoring_Robot/getAvailableConfigurationGroups)
+Returns available configuration template groups for this monitoring agent.
+
+#### [getMonitoringAgents](/reference/services/SoftLayer_Monitoring_Robot/getMonitoringAgents)
+Retrieve the program (monitoring agent) that gets details of a system or application and reporting of the metric data and triggers alarms for predefined events.
+
+#### [getObject](/reference/services/SoftLayer_Monitoring_Robot/getObject)
+Retrieve a SoftLayer_Monitoring_Robot record.
+
+#### [getRobotStatus](/reference/services/SoftLayer_Monitoring_Robot/getRobotStatus)
+Retrieve the current status of the robot.
+
+#### [getSoftwareComponent](/reference/services/SoftLayer_Monitoring_Robot/getSoftwareComponent)
+Retrieve the SoftLayer_Software_Component that corresponds to the robot installation on the server.
+
+#### [resetStatus](/reference/services/SoftLayer_Monitoring_Robot/resetStatus)
+Resets monitoring robot status to "Active"
+
 </div>
 

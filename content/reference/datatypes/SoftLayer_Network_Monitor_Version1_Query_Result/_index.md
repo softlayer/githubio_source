@@ -40,53 +40,41 @@ In general, only the responseStatus variable is needed, as it holds the informat
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#finishTime" name=finishTime>finishTime</a>
-            </span>
-            <div class='views-field-body'>The timestamp of when this monitor was co </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#responseStatus" name=responseStatus>responseStatus</a>
-            </span>
-            <div class='views-field-body'>The response status for this server.  The response status meanings are: 0:  Down/Critical: Server is down and/or has passed the critical response threshold (extremely long ping response, abnormal behavior, etc.) 1:  Warning - Server may be recovering from a previous down state, or may have taken too long to respond 2:  Up 3:  Not used 4:  Unknown - An unknown error has occurred.  If the problem persists, contact support. 5:  Unknown - An unknown error has occurred.  If the problem persists, contact support.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#responseTime" name=responseTime>responseTime</a>
-            </span>
-            <div class='views-field-body'>The length of time it took the server to respond </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#queryHost" name=queryHost>queryHost</a>
-            </span>
-            <div class='views-field-body'>References the queryHost that this response relates to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host'>SoftLayer_Network_Monitor_Version1_Query_Host </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[finishTime]: #finishtime
+#### [finishTime]
+The timestamp of when this monitor was co  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[responseStatus]: #responsestatus
+#### [responseStatus]
+The response status for this server.  The response status meanings are: 0:  Down/Critical: Server is down and/or has passed the critical response threshold (extremely long ping response, abnormal behavior, etc.) 1:  Warning - Server may be recovering from a previous down state, or may have taken too long to respond 2:  Up 3:  Not used 4:  Unknown - An unknown error has occurred.  If the problem persists, contact support. 5:  Unknown - An unknown error has occurred.  If the problem persists, contact support.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[responseTime]: #responsetime
+#### [responseTime]
+The length of time it took the server to respond  
+<span class="type-label">Type: </span>**float**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[queryHost]: #queryhost
+#### [queryHost]
+References the queryHost that this response relates to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host'>SoftLayer_Network_Monitor_Version1_Query_Host </a>**
+
+
+## Count
 </div>
 
 

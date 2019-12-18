@@ -30,56 +30,49 @@ The SoftLayer_Network_Component_Firewall service accesses general information re
 
 ### seeAlso
 
-* [SoftLayer_Network_Firewall_Template](/reference/services/SoftLayer_Network_Firewall_Template )
+* [SoftLayer_Network_Firewall_Template](/reference/datatypes/SoftLayer_Network_Firewall_Template )
 
 
-* [SoftLayer_Network_Firewall_Update_Request](/reference/services/SoftLayer_Network_Firewall_Update_Request )
+* [SoftLayer_Network_Firewall_Update_Request](/reference/datatypes/SoftLayer_Network_Firewall_Update_Request )
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Component_Firewall/getApplyServerRuleSubnets'> getApplyServerRuleSubnets</a> </span>
-            <div class='views-field-body'>Retrieve the additional subnets linked to this network component firewall, that inherit rules from the host that the context slot is attached to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Component_Firewall/getBillingItem'> getBillingItem</a> </span>
-            <div class='views-field-body'>Retrieve the billing item for a Hardware Firewall (Dedicated).</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Component_Firewall/getGuestNetworkComponent'> getGuestNetworkComponent</a> </span>
-            <div class='views-field-body'>Retrieve the network component of the guest virtual server that this network component firewall belongs to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Component_Firewall/getNetworkComponent'> getNetworkComponent</a> </span>
-            <div class='views-field-body'>Retrieve the network component of the switch interface that this network component firewall belongs to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Component_Firewall/getNetworkFirewallUpdateRequest'> getNetworkFirewallUpdateRequest</a> </span>
-            <div class='views-field-body'>Retrieve the update requests made for this firewall.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Component_Firewall/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_Component_Firewall record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Component_Firewall/getRules'> getRules</a> </span>
-            <div class='views-field-body'>Retrieve the currently running rule set of this network component firewall.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Component_Firewall/getSubnets'> getSubnets</a> </span>
-            <div class='views-field-body'>Retrieve the additional subnets linked to this network component firewall.</div>
-        </div>
-        </div>
+</div>
+
+#### [getApplyServerRuleSubnets](/reference/services/SoftLayer_Network_Component_Firewall/getApplyServerRuleSubnets)
+Retrieve the additional subnets linked to this network component firewall, that inherit rules from the host that the context slot is attached to.
+
+#### [getBillingItem](/reference/services/SoftLayer_Network_Component_Firewall/getBillingItem)
+Retrieve the billing item for a Hardware Firewall (Dedicated).
+
+#### [getGuestNetworkComponent](/reference/services/SoftLayer_Network_Component_Firewall/getGuestNetworkComponent)
+Retrieve the network component of the guest virtual server that this network component firewall belongs to.
+
+#### [getNetworkComponent](/reference/services/SoftLayer_Network_Component_Firewall/getNetworkComponent)
+Retrieve the network component of the switch interface that this network component firewall belongs to.
+
+#### [getNetworkFirewallUpdateRequest](/reference/services/SoftLayer_Network_Component_Firewall/getNetworkFirewallUpdateRequest)
+Retrieve the update requests made for this firewall.
+
+#### [getObject](/reference/services/SoftLayer_Network_Component_Firewall/getObject)
+Retrieve a SoftLayer_Network_Component_Firewall record.
+
+#### [getRules](/reference/services/SoftLayer_Network_Component_Firewall/getRules)
+Retrieve the currently running rule set of this network component firewall.
+
+#### [getSubnets](/reference/services/SoftLayer_Network_Component_Firewall/getSubnets)
+Retrieve the additional subnets linked to this network component firewall.
+
 </div>
 

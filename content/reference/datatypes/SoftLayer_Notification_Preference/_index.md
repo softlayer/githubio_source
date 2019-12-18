@@ -36,89 +36,60 @@ Retrieve details for preferences.  Preferences are used to allow the subscriber 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>A description of what the preference is used for.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Unique identifier for the notification preference.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#keyName" name=keyName>keyName</a>
-            </span>
-            <div class='views-field-body'>Name that can be used by external systems to refer to preference.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maximumValue" name=maximumValue>maximumValue</a>
-            </span>
-            <div class='views-field-body'>Largest value allowed for the preference.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#minimumValue" name=minimumValue>minimumValue</a>
-            </span>
-            <div class='views-field-body'>Smallest value allowed for the preference.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>Friendly name for the notification.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#units" name=units>units</a>
-            </span>
-            <div class='views-field-body'>The unit of measure used for the preference's value, minimum and maximum as well.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#value" name=value>value</a>
-            </span>
-            <div class='views-field-body'>Default value used when setting up preferences for a new subscriber.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[description]: #description
+#### [description]
+A description of what the preference is used for.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+Unique identifier for the notification preference.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[keyName]: #keyname
+#### [keyName]
+Name that can be used by external systems to refer to preference.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[maximumValue]: #maximumvalue
+#### [maximumValue]
+Largest value allowed for the preference.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[minimumValue]: #minimumvalue
+#### [minimumValue]
+Smallest value allowed for the preference.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[name]: #name
+#### [name]
+Friendly name for the notification.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[units]: #units
+#### [units]
+The unit of measure used for the preference's value, minimum and maximum as well.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[value]: #value
+#### [value]
+Default value used when setting up preferences for a new subscriber.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -30,10 +30,10 @@ The SoftLayer_User_Customer_Security_Answer type contains user's answers to secu
 
 ### seeAlso
 
-* [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer )
+* [SoftLayer_User_Customer](/reference/datatypes/SoftLayer_User_Customer )
 
 
-* [SoftLayer_User_Security_Question](/reference/services/SoftLayer_User_Security_Question )
+* [SoftLayer_User_Security_Question](/reference/datatypes/SoftLayer_User_Security_Question )
 
 
 
@@ -50,73 +50,53 @@ The SoftLayer_User_Customer_Security_Answer type contains user's answers to secu
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#answer" name=answer>answer</a>
-            </span>
-            <div class='views-field-body'>A user's answer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A user's answer identifying number. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#questionId" name=questionId>questionId</a>
-            </span>
-            <div class='views-field-body'>A user's question identifying number. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#userId" name=userId>userId</a>
-            </span>
-            <div class='views-field-body'>A user's identifying number. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#question" name=question>question</a>
-            </span>
-            <div class='views-field-body'>The question the security answer is associated with. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Security_Question'>SoftLayer_User_Security_Question </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#user" name=user>user</a>
-            </span>
-            <div class='views-field-body'>The user who the security answer belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[answer]: #answer
+#### [answer]
+A user's answer.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+A user's answer identifying number.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[questionId]: #questionid
+#### [questionId]
+A user's question identifying number.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[userId]: #userid
+#### [userId]
+A user's identifying number.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[question]: #question
+#### [question]
+The question the security answer is associated with.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Security_Question'>SoftLayer_User_Security_Question </a>**
+
+-----
+[user]: #user
+#### [user]
+The user who the security answer belongs to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+
+
+## Count
 </div>
 
 

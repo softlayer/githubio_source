@@ -23,85 +23,69 @@ The virtual host service provides a common interface to any virtualization platf
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve the account which a virtual host belongs to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/getBilledPerGuestFlag'> getBilledPerGuestFlag</a> </span>
-            <div class='views-field-body'>Retrieve boolean flag indicating whether this virtualization platform gets billed per guest rather than at a fixed rate.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/getBilledPerMemoryUsageFlag'> getBilledPerMemoryUsageFlag</a> </span>
-            <div class='views-field-body'>Retrieve boolean flag indicating whether this virtualization platform gets billed per memory usage rather than at a fixed rate.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/getGuests'> getGuests</a> </span>
-            <div class='views-field-body'>Retrieve the guests associated with a virtual host.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/getHardware'> getHardware</a> </span>
-            <div class='views-field-body'>Retrieve the hardware record which a virtual host resides on.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/getLiveGuestByUuid'> getLiveGuestByUuid</a> </span>
-            <div class='views-field-body'>Query a virtualization platform directly to retrieve details regarding a guest. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/getLiveGuestList'> getLiveGuestList</a> </span>
-            <div class='views-field-body'>Query a virtualization platform directly to retrieve a list of known guests. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/getLiveGuestRecentMetricData'> getLiveGuestRecentMetricData</a> </span>
-            <div class='views-field-body'>Query a virtualization platform directly to retrieve recent metric data for a guest. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/getMetricTrackingObject'> getMetricTrackingObject</a> </span>
-            <div class='views-field-body'>Retrieve the metric tracking object for this virtual host.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Virtual_Host record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/getPciDevices'> getPciDevices</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/pauseLiveGuest'> pauseLiveGuest</a> </span>
-            <div class='views-field-body'>Pause a guest.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/powerCycleLiveGuest'> powerCycleLiveGuest</a> </span>
-            <div class='views-field-body'>Power cycle a guest.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/powerOffLiveGuest'> powerOffLiveGuest</a> </span>
-            <div class='views-field-body'>Power off a guest.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/powerOnLiveGuest'> powerOnLiveGuest</a> </span>
-            <div class='views-field-body'>Power on a guest.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/rebootSoftLiveGuest'> rebootSoftLiveGuest</a> </span>
-            <div class='views-field-body'>Attempt to complete a soft reboot of a guest by shutting down the operating system.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Host/resumeLiveGuest'> resumeLiveGuest</a> </span>
-            <div class='views-field-body'>Resume a guest.</div>
-        </div>
-        </div>
+</div>
+
+#### [getAccount](/reference/services/SoftLayer_Virtual_Host/getAccount)
+Retrieve the account which a virtual host belongs to.
+
+#### [getBilledPerGuestFlag](/reference/services/SoftLayer_Virtual_Host/getBilledPerGuestFlag)
+Retrieve boolean flag indicating whether this virtualization platform gets billed per guest rather than at a fixed rate.
+
+#### [getBilledPerMemoryUsageFlag](/reference/services/SoftLayer_Virtual_Host/getBilledPerMemoryUsageFlag)
+Retrieve boolean flag indicating whether this virtualization platform gets billed per memory usage rather than at a fixed rate.
+
+#### [getGuests](/reference/services/SoftLayer_Virtual_Host/getGuests)
+Retrieve the guests associated with a virtual host.
+
+#### [getHardware](/reference/services/SoftLayer_Virtual_Host/getHardware)
+Retrieve the hardware record which a virtual host resides on.
+
+#### [getLiveGuestByUuid](/reference/services/SoftLayer_Virtual_Host/getLiveGuestByUuid)
+Query a virtualization platform directly to retrieve details regarding a guest. 
+
+#### [getLiveGuestList](/reference/services/SoftLayer_Virtual_Host/getLiveGuestList)
+Query a virtualization platform directly to retrieve a list of known guests. 
+
+#### [getLiveGuestRecentMetricData](/reference/services/SoftLayer_Virtual_Host/getLiveGuestRecentMetricData)
+Query a virtualization platform directly to retrieve recent metric data for a guest. 
+
+#### [getMetricTrackingObject](/reference/services/SoftLayer_Virtual_Host/getMetricTrackingObject)
+Retrieve the metric tracking object for this virtual host.
+
+#### [getObject](/reference/services/SoftLayer_Virtual_Host/getObject)
+Retrieve a SoftLayer_Virtual_Host record.
+
+#### [getPciDevices](/reference/services/SoftLayer_Virtual_Host/getPciDevices)
+
+
+#### [pauseLiveGuest](/reference/services/SoftLayer_Virtual_Host/pauseLiveGuest)
+Pause a guest.
+
+#### [powerCycleLiveGuest](/reference/services/SoftLayer_Virtual_Host/powerCycleLiveGuest)
+Power cycle a guest.
+
+#### [powerOffLiveGuest](/reference/services/SoftLayer_Virtual_Host/powerOffLiveGuest)
+Power off a guest.
+
+#### [powerOnLiveGuest](/reference/services/SoftLayer_Virtual_Host/powerOnLiveGuest)
+Power on a guest.
+
+#### [rebootSoftLiveGuest](/reference/services/SoftLayer_Virtual_Host/rebootSoftLiveGuest)
+Attempt to complete a soft reboot of a guest by shutting down the operating system.
+
+#### [resumeLiveGuest](/reference/services/SoftLayer_Virtual_Host/resumeLiveGuest)
+Resume a guest.
+
 </div>
 

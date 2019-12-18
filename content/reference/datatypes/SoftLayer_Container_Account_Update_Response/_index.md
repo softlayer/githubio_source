@@ -41,39 +41,30 @@ Contains data related to an account after editing its information.
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#acceptedFlag" name=acceptedFlag>acceptedFlag</a>
-            </span>
-            <div class='views-field-body'>Whether or not the update was accepted and applied. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The updated SoftLayer_Account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ticket" name=ticket>ticket</a>
-            </span>
-            <div class='views-field-body'>If a manual review is required, this will be populated with the SoftLayer_Ticket for that review. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a></p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[acceptedFlag]: #acceptedflag
+#### [acceptedFlag]
+Whether or not the update was accepted and applied.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[account]: #account
+#### [account]
+The updated SoftLayer_Account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[ticket]: #ticket
+#### [ticket]
+If a manual review is required, this will be populated with the SoftLayer_Ticket for that review.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

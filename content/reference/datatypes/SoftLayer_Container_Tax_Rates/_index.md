@@ -36,59 +36,42 @@ This contains the four tax rates, one for each fee type.
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#laborTaxRate" name=laborTaxRate>laborTaxRate</a>
-            </span>
-            <div class='views-field-body'>The tax rate associated with the labor fee. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationId" name=locationId>locationId</a>
-            </span>
-            <div class='views-field-body'>A reference to a location. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#oneTimeTaxRate" name=oneTimeTaxRate>oneTimeTaxRate</a>
-            </span>
-            <div class='views-field-body'>The tax rate associated with the one-time fee. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#recurringTaxRate" name=recurringTaxRate>recurringTaxRate</a>
-            </span>
-            <div class='views-field-body'>The tax rate associated with the recurring fee. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#setupTaxRate" name=setupTaxRate>setupTaxRate</a>
-            </span>
-            <div class='views-field-body'>The tax rate associated with the setup fee. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[laborTaxRate]: #labortaxrate
+#### [laborTaxRate]
+The tax rate associated with the labor fee.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[locationId]: #locationid
+#### [locationId]
+A reference to a location.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[oneTimeTaxRate]: #onetimetaxrate
+#### [oneTimeTaxRate]
+The tax rate associated with the one-time fee.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[recurringTaxRate]: #recurringtaxrate
+#### [recurringTaxRate]
+The tax rate associated with the recurring fee.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[setupTaxRate]: #setuptaxrate
+#### [setupTaxRate]
+The tax rate associated with the setup fee.  
+<span class="type-label">Type: </span>**decimal**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

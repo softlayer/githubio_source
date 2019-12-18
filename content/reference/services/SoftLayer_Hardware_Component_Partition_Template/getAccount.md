@@ -1,6 +1,6 @@
 ---
 title: "getAccount"
-description: "Retrieve a partition template's associated [[SoftLayer_Account|Account]]."
+description: "Retrieve a partition template's associated [SoftLayer_Account]({{<ref 'reference/datatypes/SoftLayer_Account'>}})."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Hardware_Component_Partition_Template](/reference/services/SoftLayer_Hardware_Component_Partition_Template)::getAccount
 
-Retrieve a partition template's associated [[SoftLayer_Account|Account]].
+Retrieve a partition template's associated [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}).
 
 
 ## Overview 
-Retrieve a partition template's associated [[SoftLayer_Account|Account]].
+Retrieve a partition template's associated [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}).
 
 -----
 

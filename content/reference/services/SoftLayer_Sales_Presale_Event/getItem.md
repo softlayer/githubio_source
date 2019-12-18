@@ -1,6 +1,6 @@
 ---
 title: "getItem"
-description: "Retrieve the [[SoftLayer_Product_Item]] associated with the presale event."
+description: "Retrieve the [SoftLayer_Product_Item]({{<ref 'reference/datatypes/SoftLayer_Product_Item'>}}) associated with the presal... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Sales_Presale_Event](/reference/services/SoftLayer_Sales_Presale_Event)::getItem
 
-Retrieve the [[SoftLayer_Product_Item]] associated with the presale event.
+Retrieve the [SoftLayer_Product_Item]({{<ref "reference/datatypes/SoftLayer_Product_Item">}}) associated with the presale event.
 
 
 ## Overview 
-Retrieve the [[SoftLayer_Product_Item]] associated with the presale event.
+Retrieve the [SoftLayer_Product_Item]({{<ref "reference/datatypes/SoftLayer_Product_Item">}}) associated with the presale event.
 
 -----
 

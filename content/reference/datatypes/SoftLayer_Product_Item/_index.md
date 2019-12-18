@@ -36,723 +36,459 @@ The SoftLayer_Product_Item data type contains general information relating to a 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#capacity" name=capacity>capacity</a>
-            </span>
-            <div class='views-field-body'>Some Product Items have capacity information such as RAM and bandwidth, and others. This provides the numerical representation of the capacity given in the description of this product item. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>A product's description </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareGenericComponentId" name=hardwareGenericComponentId>hardwareGenericComponentId</a>
-            </span>
-            <div class='views-field-body'>The hardware generic component model ID of the product. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A product's internal identification number </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#itemTaxCategoryId" name=itemTaxCategoryId>itemTaxCategoryId</a>
-            </span>
-            <div class='views-field-body'>A products tax category internal identification number </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#keyName" name=keyName>keyName</a>
-            </span>
-            <div class='views-field-body'>A unique key name for the product. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#longDescription" name=longDescription>longDescription</a>
-            </span>
-            <div class='views-field-body'>Detailed product description </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#softwareDescriptionId" name=softwareDescriptionId>softwareDescriptionId</a>
-            </span>
-            <div class='views-field-body'>The unique identifier of the SoftLayer_Software_Description tied to this item. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#units" name=units>units</a>
-            </span>
-            <div class='views-field-body'>The unit of measurement that a product item is measured in. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#upgradeItemId" name=upgradeItemId>upgradeItemId</a>
-            </span>
-            <div class='views-field-body'>A products upgrade item's internal identification number </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activePresaleEvents" name=activePresaleEvents>activePresaleEvents</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Sales_Presale_Event'>SoftLayer_Sales_Presale_Event[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeUsagePrices" name=activeUsagePrices>activeUsagePrices</a>
-            </span>
-            <div class='views-field-body'>Active usage based prices. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributes" name=attributes>attributes</a>
-            </span>
-            <div class='views-field-body'>The attribute values for a product item. These are additional properties that give extra information about the product being sold. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Attribute'>SoftLayer_Product_Item_Attribute[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#availabilityAttributes" name=availabilityAttributes>availabilityAttributes</a>
-            </span>
-            <div class='views-field-body'>Attributes that govern when an item may no longer be available. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Attribute'>SoftLayer_Product_Item_Attribute[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingType" name=billingType>billingType</a>
-            </span>
-            <div class='views-field-body'>An item's special billing type, if applicable. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bundle" name=bundle>bundle</a>
-            </span>
-            <div class='views-field-body'>An item's included product item references. Some items have other items included in them that we specifically detail. They are here called Bundled Items. An example is Plesk unlimited. It as a bundled item labeled 'SiteBuilder'. These are the SoftLayer_Product_Item_Bundles objects. See the SoftLayer_Product_Item::bundleItems property for bundle of SoftLayer_Product_Item of objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Bundles'>SoftLayer_Product_Item_Bundles[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bundleItems" name=bundleItems>bundleItems</a>
-            </span>
-            <div class='views-field-body'>An item's included products. Some items have other items included in them that we specifically detail. They are here called Bundled Items. An example is Plesk unlimited. It as a bundled item labeled 'SiteBuilder'. These are the SoftLayer_Product_Item objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#capacityMaximum" name=capacityMaximum>capacityMaximum</a>
-            </span>
-            <div class='views-field-body'>When the product capacity is best described as a range, this holds the ceiling of the range. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#capacityMinimum" name=capacityMinimum>capacityMinimum</a>
-            </span>
-            <div class='views-field-body'>When the product capacity is best described as a range, this holds the floor of the range. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#capacityRestrictedProductFlag" name=capacityRestrictedProductFlag>capacityRestrictedProductFlag</a>
-            </span>
-            <div class='views-field-body'>This flag indicates that this product is restricted by a capacity on a related product. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#categories" name=categories>categories</a>
-            </span>
-            <div class='views-field-body'>An item's associated item categories. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#configurationTemplates" name=configurationTemplates>configurationTemplates</a>
-            </span>
-            <div class='views-field-body'>Some product items have configuration templates which can be used to during provisioning of that product. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#conflicts" name=conflicts>conflicts</a>
-            </span>
-            <div class='views-field-body'>An item's conflicts. For example, McAfee LinuxShield cannot be ordered with Windows. It was not meant for that operating system and as such is a conflict. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Resource_Conflict'>SoftLayer_Product_Item_Resource_Conflict[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#coreRestrictedItemFlag" name=coreRestrictedItemFlag>coreRestrictedItemFlag</a>
-            </span>
-            <div class='views-field-body'>This flag indicates that this product is restricted by the number of cores on the compute instance. This is deprecated. Use [[SoftLayer_Product_Item/getCapacityRestrictedProductFlag|getCapacityRestrictedProductFlag]] </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#downgradeItem" name=downgradeItem>downgradeItem</a>
-            </span>
-            <div class='views-field-body'>Some product items have a downgrade path. This is the first product item in the downgrade path. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#downgradeItems" name=downgradeItems>downgradeItems</a>
-            </span>
-            <div class='views-field-body'>Some product items have a downgrade path. These are those product items. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#globalCategoryConflicts" name=globalCategoryConflicts>globalCategoryConflicts</a>
-            </span>
-            <div class='views-field-body'>An item's category conflicts. For example, 10 Gbps redundant network functionality cannot be ordered with a secondary GPU and as such is a conflict. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Resource_Conflict'>SoftLayer_Product_Item_Resource_Conflict[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareGenericComponentModel" name=hardwareGenericComponentModel>hardwareGenericComponentModel</a>
-            </span>
-            <div class='views-field-body'>The generic hardware component that this item represents. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hideFromPortalFlag" name=hideFromPortalFlag>hideFromPortalFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ineligibleForAccountDiscountFlag" name=ineligibleForAccountDiscountFlag>ineligibleForAccountDiscountFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#inventory" name=inventory>inventory</a>
-            </span>
-            <div class='views-field-body'>DEPRECATED. An item's inventory status per datacenter. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Package_Inventory'>SoftLayer_Product_Package_Inventory[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#isEngineeredServerProduct" name=isEngineeredServerProduct>isEngineeredServerProduct</a>
-            </span>
-            <div class='views-field-body'>Flag to indicate the server product is engineered for a multi-server solution. (Deprecated) </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#itemCategory" name=itemCategory>itemCategory</a>
-            </span>
-            <div class='views-field-body'>An item's primary item category. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#localDiskFlag" name=localDiskFlag>localDiskFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationConflicts" name=locationConflicts>locationConflicts</a>
-            </span>
-            <div class='views-field-body'>An item's location conflicts. For example, Dual Path network functionality cannot be ordered in WDC and as such is a conflict. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Resource_Conflict'>SoftLayer_Product_Item_Resource_Conflict[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#minimumNvmeBays" name=minimumNvmeBays>minimumNvmeBays</a>
-            </span>
-            <div class='views-field-body'>The minimum number of bays that support NVMe SSDs. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nvmeDiskFlag" name=nvmeDiskFlag>nvmeDiskFlag</a>
-            </span>
-            <div class='views-field-body'>Indicates whether an item is a NVMe SSD. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#objectStorageClusterGeolocationType" name=objectStorageClusterGeolocationType>objectStorageClusterGeolocationType</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#objectStorageItemFlag" name=objectStorageItemFlag>objectStorageItemFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#objectStorageServiceClass" name=objectStorageServiceClass>objectStorageServiceClass</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#packages" name=packages>packages</a>
-            </span>
-            <div class='views-field-body'>A collection of all the SoftLayer_Product_Package(s) in which this item exists. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#physicalCoreCapacity" name=physicalCoreCapacity>physicalCoreCapacity</a>
-            </span>
-            <div class='views-field-body'>The number of cores that a processor has. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#presaleEvents" name=presaleEvents>presaleEvents</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Sales_Presale_Event'>SoftLayer_Sales_Presale_Event[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#prices" name=prices>prices</a>
-            </span>
-            <div class='views-field-body'>A product item's prices. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#requirements" name=requirements>requirements</a>
-            </span>
-            <div class='views-field-body'>If an item must be ordered with another item, it will have a requirement item here. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Requirement'>SoftLayer_Product_Item_Requirement[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#rules" name=rules>rules</a>
-            </span>
-            <div class='views-field-body'>An item's rules. This includes the requirements and conflicts to resources that an item has. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Rule'>SoftLayer_Product_Item_Rule[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#softwareDescription" name=softwareDescription>softwareDescription</a>
-            </span>
-            <div class='views-field-body'>The SoftLayer_Software_Description tied to this item. This will only be populated for software items. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#taxCategory" name=taxCategory>taxCategory</a>
-            </span>
-            <div class='views-field-body'>An item's tax category, if applicable. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Tax_Category'>SoftLayer_Product_Item_Tax_Category </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#thirdPartyPolicyAssignments" name=thirdPartyPolicyAssignments>thirdPartyPolicyAssignments</a>
-            </span>
-            <div class='views-field-body'>Third-party policy assignments for this product. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Policy_Assignment'>SoftLayer_Product_Item_Policy_Assignment[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#thirdPartySupportVendor" name=thirdPartySupportVendor>thirdPartySupportVendor</a>
-            </span>
-            <div class='views-field-body'>The 3rd party vendor for a support subscription item. (Deprecated) </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#totalPhysicalCoreCapacity" name=totalPhysicalCoreCapacity>totalPhysicalCoreCapacity</a>
-            </span>
-            <div class='views-field-body'>The total number of physical processing cores (excluding virtual cores / hyperthreads) for this server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#totalPhysicalCoreCount" name=totalPhysicalCoreCount>totalPhysicalCoreCount</a>
-            </span>
-            <div class='views-field-body'>Shows the total number of cores. This is deprecated. Use [[SoftLayer_Product_Item/getCapacity|getCapacity]] for guest_core products and [[SoftLayer_Product_Item/getTotalPhysicalCoreCapacity|getTotalPhysicalCoreCapacity]] for server products </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#totalProcessorCapacity" name=totalProcessorCapacity>totalProcessorCapacity</a>
-            </span>
-            <div class='views-field-body'>The total number of processors for this server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#upgradeItem" name=upgradeItem>upgradeItem</a>
-            </span>
-            <div class='views-field-body'>Some product items have an upgrade path. This is the next product item in the upgrade path. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#upgradeItems" name=upgradeItems>upgradeItems</a>
-            </span>
-            <div class='views-field-body'>Some product items have an upgrade path. These are those upgrade product items. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activePresaleEventCount" name=activePresaleEventCount>activePresaleEventCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeUsagePriceCount" name=activeUsagePriceCount>activeUsagePriceCount</a>
-            </span>
-            <div class='views-field-body'>A count of active usage based prices. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributeCount" name=attributeCount>attributeCount</a>
-            </span>
-            <div class='views-field-body'>A count of the attribute values for a product item. These are additional properties that give extra information about the product being sold. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#availabilityAttributeCount" name=availabilityAttributeCount>availabilityAttributeCount</a>
-            </span>
-            <div class='views-field-body'>A count of attributes that govern when an item may no longer be available. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bundleCount" name=bundleCount>bundleCount</a>
-            </span>
-            <div class='views-field-body'>A count of an item's included product item references. Some items have other items included in them that we specifically detail. They are here called Bundled Items. An example is Plesk unlimited. It as a bundled item labeled 'SiteBuilder'. These are the SoftLayer_Product_Item_Bundles objects. See the SoftLayer_Product_Item::bundleItems property for bundle of SoftLayer_Product_Item of objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bundleItemCount" name=bundleItemCount>bundleItemCount</a>
-            </span>
-            <div class='views-field-body'>A count of an item's included products. Some items have other items included in them that we specifically detail. They are here called Bundled Items. An example is Plesk unlimited. It as a bundled item labeled 'SiteBuilder'. These are the SoftLayer_Product_Item objects. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#categoryCount" name=categoryCount>categoryCount</a>
-            </span>
-            <div class='views-field-body'>A count of an item's associated item categories. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#configurationTemplateCount" name=configurationTemplateCount>configurationTemplateCount</a>
-            </span>
-            <div class='views-field-body'>A count of some product items have configuration templates which can be used to during provisioning of that product. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#downgradeItemCount" name=downgradeItemCount>downgradeItemCount</a>
-            </span>
-            <div class='views-field-body'>A count of some product items have a downgrade path. These are those product items. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#inventoryCount" name=inventoryCount>inventoryCount</a>
-            </span>
-            <div class='views-field-body'>A count of dEPRECATED. An item's inventory status per datacenter. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#packageCount" name=packageCount>packageCount</a>
-            </span>
-            <div class='views-field-body'>A count of a collection of all the SoftLayer_Product_Package(s) in which this item exists. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#presaleEventCount" name=presaleEventCount>presaleEventCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#priceCount" name=priceCount>priceCount</a>
-            </span>
-            <div class='views-field-body'>A count of a product item's prices. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ruleCount" name=ruleCount>ruleCount</a>
-            </span>
-            <div class='views-field-body'>A count of an item's rules. This includes the requirements and conflicts to resources that an item has. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#thirdPartyPolicyAssignmentCount" name=thirdPartyPolicyAssignmentCount>thirdPartyPolicyAssignmentCount</a>
-            </span>
-            <div class='views-field-body'>A count of third-party policy assignments for this product. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#upgradeItemCount" name=upgradeItemCount>upgradeItemCount</a>
-            </span>
-            <div class='views-field-body'>A count of some product items have an upgrade path. These are those upgrade product items. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[capacity]: #capacity
+#### [capacity]
+Some Product Items have capacity information such as RAM and bandwidth, and others. This provides the numerical representation of the capacity given in the description of this product item.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[description]: #description
+#### [description]
+A product's description  
+<span class="type-label">Type: </span>**string**
+
+-----
+[hardwareGenericComponentId]: #hardwaregenericcomponentid
+#### [hardwareGenericComponentId]
+The hardware generic component model ID of the product.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+A product's internal identification number  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[itemTaxCategoryId]: #itemtaxcategoryid
+#### [itemTaxCategoryId]
+A products tax category internal identification number  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[keyName]: #keyname
+#### [keyName]
+A unique key name for the product.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[longDescription]: #longdescription
+#### [longDescription]
+Detailed product description  
+<span class="type-label">Type: </span>**string**
+
+-----
+[softwareDescriptionId]: #softwaredescriptionid
+#### [softwareDescriptionId]
+The unique identifier of the SoftLayer_Software_Description tied to this item.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[units]: #units
+#### [units]
+The unit of measurement that a product item is measured in.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[upgradeItemId]: #upgradeitemid
+#### [upgradeItemId]
+A products upgrade item's internal identification number  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[activePresaleEvents]: #activepresaleevents
+#### [activePresaleEvents]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Sales_Presale_Event'>SoftLayer_Sales_Presale_Event[] </a>**
+
+-----
+[activeUsagePrices]: #activeusageprices
+#### [activeUsagePrices]
+Active usage based prices.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**
+
+-----
+[attributes]: #attributes
+#### [attributes]
+The attribute values for a product item. These are additional properties that give extra information about the product being sold.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Attribute'>SoftLayer_Product_Item_Attribute[] </a>**
+
+-----
+[availabilityAttributes]: #availabilityattributes
+#### [availabilityAttributes]
+Attributes that govern when an item may no longer be available.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Attribute'>SoftLayer_Product_Item_Attribute[] </a>**
+
+-----
+[billingType]: #billingtype
+#### [billingType]
+An item's special billing type, if applicable.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[bundle]: #bundle
+#### [bundle]
+An item's included product item references. Some items have other items included in them that we specifically detail. They are here called Bundled Items. An example is Plesk unlimited. It as a bundled item labeled 'SiteBuilder'. These are the SoftLayer_Product_Item_Bundles objects. See the SoftLayer_Product_Item::bundleItems property for bundle of SoftLayer_Product_Item of objects.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Bundles'>SoftLayer_Product_Item_Bundles[] </a>**
+
+-----
+[bundleItems]: #bundleitems
+#### [bundleItems]
+An item's included products. Some items have other items included in them that we specifically detail. They are here called Bundled Items. An example is Plesk unlimited. It as a bundled item labeled 'SiteBuilder'. These are the SoftLayer_Product_Item objects.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>**
+
+-----
+[capacityMaximum]: #capacitymaximum
+#### [capacityMaximum]
+When the product capacity is best described as a range, this holds the ceiling of the range.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[capacityMinimum]: #capacityminimum
+#### [capacityMinimum]
+When the product capacity is best described as a range, this holds the floor of the range.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[capacityRestrictedProductFlag]: #capacityrestrictedproductflag
+#### [capacityRestrictedProductFlag]
+This flag indicates that this product is restricted by a capacity on a related product.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[categories]: #categories
+#### [categories]
+An item's associated item categories.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>**
+
+-----
+[configurationTemplates]: #configurationtemplates
+#### [configurationTemplates]
+Some product items have configuration templates which can be used to during provisioning of that product.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template[] </a>**
+
+-----
+[conflicts]: #conflicts
+#### [conflicts]
+An item's conflicts. For example, McAfee LinuxShield cannot be ordered with Windows. It was not meant for that operating system and as such is a conflict.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Resource_Conflict'>SoftLayer_Product_Item_Resource_Conflict[] </a>**
+
+-----
+[coreRestrictedItemFlag]: #corerestricteditemflag
+#### [coreRestrictedItemFlag]
+This flag indicates that this product is restricted by the number of cores on the compute instance. This is deprecated. Use [SoftLayer_Product_Item::getCapacityRestrictedProductFlag]({{<ref "reference/services/SoftLayer_Product_Item/getCapacityRestrictedProductFlag">}})  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[downgradeItem]: #downgradeitem
+#### [downgradeItem]
+Some product items have a downgrade path. This is the first product item in the downgrade path.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+
+-----
+[downgradeItems]: #downgradeitems
+#### [downgradeItems]
+Some product items have a downgrade path. These are those product items.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>**
+
+-----
+[globalCategoryConflicts]: #globalcategoryconflicts
+#### [globalCategoryConflicts]
+An item's category conflicts. For example, 10 Gbps redundant network functionality cannot be ordered with a secondary GPU and as such is a conflict.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Resource_Conflict'>SoftLayer_Product_Item_Resource_Conflict[] </a>**
+
+-----
+[hardwareGenericComponentModel]: #hardwaregenericcomponentmodel
+#### [hardwareGenericComponentModel]
+The generic hardware component that this item represents.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic </a>**
+
+-----
+[hideFromPortalFlag]: #hidefromportalflag
+#### [hideFromPortalFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[ineligibleForAccountDiscountFlag]: #ineligibleforaccountdiscountflag
+#### [ineligibleForAccountDiscountFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[inventory]: #inventory
+#### [inventory]
+DEPRECATED. An item's inventory status per datacenter.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Inventory'>SoftLayer_Product_Package_Inventory[] </a>**
+
+-----
+[isEngineeredServerProduct]: #isengineeredserverproduct
+#### [isEngineeredServerProduct]
+Flag to indicate the server product is engineered for a multi-server solution. (Deprecated)  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[itemCategory]: #itemcategory
+#### [itemCategory]
+An item's primary item category.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**
+
+-----
+[localDiskFlag]: #localdiskflag
+#### [localDiskFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[locationConflicts]: #locationconflicts
+#### [locationConflicts]
+An item's location conflicts. For example, Dual Path network functionality cannot be ordered in WDC and as such is a conflict.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Resource_Conflict'>SoftLayer_Product_Item_Resource_Conflict[] </a>**
+
+-----
+[minimumNvmeBays]: #minimumnvmebays
+#### [minimumNvmeBays]
+The minimum number of bays that support NVMe SSDs.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[nvmeDiskFlag]: #nvmediskflag
+#### [nvmeDiskFlag]
+Indicates whether an item is a NVMe SSD.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[objectStorageClusterGeolocationType]: #objectstorageclustergeolocationtype
+#### [objectStorageClusterGeolocationType]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[objectStorageItemFlag]: #objectstorageitemflag
+#### [objectStorageItemFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[objectStorageServiceClass]: #objectstorageserviceclass
+#### [objectStorageServiceClass]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[packages]: #packages
+#### [packages]
+A collection of all the SoftLayer_Product_Package(s) in which this item exists.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package[] </a>**
+
+-----
+[physicalCoreCapacity]: #physicalcorecapacity
+#### [physicalCoreCapacity]
+The number of cores that a processor has.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[presaleEvents]: #presaleevents
+#### [presaleEvents]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Sales_Presale_Event'>SoftLayer_Sales_Presale_Event[] </a>**
+
+-----
+[prices]: #prices
+#### [prices]
+A product item's prices.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**
+
+-----
+[requirements]: #requirements
+#### [requirements]
+If an item must be ordered with another item, it will have a requirement item here.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Requirement'>SoftLayer_Product_Item_Requirement[] </a>**
+
+-----
+[rules]: #rules
+#### [rules]
+An item's rules. This includes the requirements and conflicts to resources that an item has.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule'>SoftLayer_Product_Item_Rule[] </a>**
+
+-----
+[softwareDescription]: #softwaredescription
+#### [softwareDescription]
+The SoftLayer_Software_Description tied to this item. This will only be populated for software items.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**
+
+-----
+[taxCategory]: #taxcategory
+#### [taxCategory]
+An item's tax category, if applicable.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Tax_Category'>SoftLayer_Product_Item_Tax_Category </a>**
+
+-----
+[thirdPartyPolicyAssignments]: #thirdpartypolicyassignments
+#### [thirdPartyPolicyAssignments]
+Third-party policy assignments for this product.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Policy_Assignment'>SoftLayer_Product_Item_Policy_Assignment[] </a>**
+
+-----
+[thirdPartySupportVendor]: #thirdpartysupportvendor
+#### [thirdPartySupportVendor]
+The 3rd party vendor for a support subscription item. (Deprecated)  
+<span class="type-label">Type: </span>**string**
+
+-----
+[totalPhysicalCoreCapacity]: #totalphysicalcorecapacity
+#### [totalPhysicalCoreCapacity]
+The total number of physical processing cores (excluding virtual cores / hyperthreads) for this server.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[totalPhysicalCoreCount]: #totalphysicalcorecount
+#### [totalPhysicalCoreCount]
+Shows the total number of cores. This is deprecated. Use [SoftLayer_Product_Item::getCapacity]({{<ref "reference/services/SoftLayer_Product_Item/getCapacity">}}) for server products  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[totalProcessorCapacity]: #totalprocessorcapacity
+#### [totalProcessorCapacity]
+The total number of processors for this server.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[upgradeItem]: #upgradeitem
+#### [upgradeItem]
+Some product items have an upgrade path. This is the next product item in the upgrade path.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+
+-----
+[upgradeItems]: #upgradeitems
+#### [upgradeItems]
+Some product items have an upgrade path. These are those upgrade product items.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>**
+
+
+## Count
+
+-----
+[activePresaleEventCount]: #activepresaleeventcount
+#### [activePresaleEventCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[activeUsagePriceCount]: #activeusagepricecount
+#### [activeUsagePriceCount]
+A count of active usage based prices.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[attributeCount]: #attributecount
+#### [attributeCount]
+A count of the attribute values for a product item. These are additional properties that give extra information about the product being sold.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[availabilityAttributeCount]: #availabilityattributecount
+#### [availabilityAttributeCount]
+A count of attributes that govern when an item may no longer be available.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[bundleCount]: #bundlecount
+#### [bundleCount]
+A count of an item's included product item references. Some items have other items included in them that we specifically detail. They are here called Bundled Items. An example is Plesk unlimited. It as a bundled item labeled 'SiteBuilder'. These are the SoftLayer_Product_Item_Bundles objects. See the SoftLayer_Product_Item::bundleItems property for bundle of SoftLayer_Product_Item of objects.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[bundleItemCount]: #bundleitemcount
+#### [bundleItemCount]
+A count of an item's included products. Some items have other items included in them that we specifically detail. They are here called Bundled Items. An example is Plesk unlimited. It as a bundled item labeled 'SiteBuilder'. These are the SoftLayer_Product_Item objects.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[categoryCount]: #categorycount
+#### [categoryCount]
+A count of an item's associated item categories.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[configurationTemplateCount]: #configurationtemplatecount
+#### [configurationTemplateCount]
+A count of some product items have configuration templates which can be used to during provisioning of that product.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[downgradeItemCount]: #downgradeitemcount
+#### [downgradeItemCount]
+A count of some product items have a downgrade path. These are those product items.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[inventoryCount]: #inventorycount
+#### [inventoryCount]
+A count of dEPRECATED. An item's inventory status per datacenter.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[packageCount]: #packagecount
+#### [packageCount]
+A count of a collection of all the SoftLayer_Product_Package(s) in which this item exists.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[presaleEventCount]: #presaleeventcount
+#### [presaleEventCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[priceCount]: #pricecount
+#### [priceCount]
+A count of a product item's prices.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[ruleCount]: #rulecount
+#### [ruleCount]
+A count of an item's rules. This includes the requirements and conflicts to resources that an item has.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[thirdPartyPolicyAssignmentCount]: #thirdpartypolicyassignmentcount
+#### [thirdPartyPolicyAssignmentCount]
+A count of third-party policy assignments for this product.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[upgradeItemCount]: #upgradeitemcount
+#### [upgradeItemCount]
+A count of some product items have an upgrade path. These are those upgrade product items.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

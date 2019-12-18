@@ -23,25 +23,24 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Provisioning_Maintenance_Classification_Item_Category/getMaintenanceClassification'> getMaintenanceClassification</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Provisioning_Maintenance_Classification_Item_Category/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Provisioning_Maintenance_Classification_Item_Category record.</div>
-        </div>
-        </div>
+</div>
+
+#### [getMaintenanceClassification](/reference/services/SoftLayer_Provisioning_Maintenance_Classification_Item_Category/getMaintenanceClassification)
+
+
+#### [getObject](/reference/services/SoftLayer_Provisioning_Maintenance_Classification_Item_Category/getObject)
+Retrieve a SoftLayer_Provisioning_Maintenance_Classification_Item_Category record.
+
 </div>
 

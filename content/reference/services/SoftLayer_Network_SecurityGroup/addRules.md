@@ -1,6 +1,6 @@
 ---
 title: "addRules"
-description: "Add new rules to a security group by sending in an array of template [[SoftLayer_Network_SecurityGroup_Rule (type)]] obj... "
+description: "Add new rules to a security group by sending in an array of template [SoftLayer_Network_SecurityGroup_Rule]({{<ref 'refe... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Add new rules to a security group.
 
 
 ## Overview 
-Add new rules to a security group by sending in an array of template [[SoftLayer_Network_SecurityGroup_Rule (type)]] objects to be created. 
+Add new rules to a security group by sending in an array of template [SoftLayer_Network_SecurityGroup_Rule]({{<ref "reference/datatypes/SoftLayer_Network_SecurityGroup_Rule">}}) objects to be created. 
 
 -----
 

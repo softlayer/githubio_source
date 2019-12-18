@@ -36,19 +36,18 @@ The SoftLayer_Network_Bandwidth_Version1_Host type contains general information 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#podId" name=podId>podId</a>
-            </span>
-            <div class='views-field-body'>Pod ID for this host device. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[podId]: #podid
+#### [podId]
+Pod ID for this host device.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

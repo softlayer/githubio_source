@@ -23,37 +23,33 @@ A guest member is a scaled guest on a scale group. It is added either automatica
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Member_Virtual_Guest/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Delete this group member. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Member_Virtual_Guest/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Scale_Member_Virtual_Guest record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Member_Virtual_Guest/getScaleGroup'> getScaleGroup</a> </span>
-            <div class='views-field-body'>Retrieve the group this member belongs to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Member_Virtual_Guest/getVirtualGuest'> getVirtualGuest</a> </span>
-            <div class='views-field-body'>Retrieve the guest for this member.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Member_Virtual_Guest/getVirtualGuestId'> getVirtualGuestId</a> </span>
-            <div class='views-field-body'>Retrieve the identifier of the guest for this member.</div>
-        </div>
-        </div>
+</div>
+
+#### [deleteObject](/reference/services/SoftLayer_Scale_Member_Virtual_Guest/deleteObject)
+Delete this group member. 
+
+#### [getObject](/reference/services/SoftLayer_Scale_Member_Virtual_Guest/getObject)
+Retrieve a SoftLayer_Scale_Member_Virtual_Guest record.
+
+#### [getScaleGroup](/reference/services/SoftLayer_Scale_Member_Virtual_Guest/getScaleGroup)
+Retrieve the group this member belongs to.
+
+#### [getVirtualGuest](/reference/services/SoftLayer_Scale_Member_Virtual_Guest/getVirtualGuest)
+Retrieve the guest for this member.
+
+#### [getVirtualGuestId](/reference/services/SoftLayer_Scale_Member_Virtual_Guest/getVirtualGuestId)
+Retrieve the identifier of the guest for this member.
+
 </div>
 

@@ -36,49 +36,36 @@ The SoftLayer_Container_Search_Result data type represents a result row from an 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#matchedTerms" name=matchedTerms>matchedTerms</a>
-            </span>
-            <div class='views-field-body'>An array of terms that were matched in the resource object. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>array of strings</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#relevanceScore" name=relevanceScore>relevanceScore</a>
-            </span>
-            <div class='views-field-body'>The score ratio of the result for relevance to the search criteria. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#resource" name=resource>resource</a>
-            </span>
-            <div class='views-field-body'>A search results resource object that matched search criteria. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#resourceType" name=resourceType>resourceType</a>
-            </span>
-            <div class='views-field-body'>The type of the resource object that matched search criteria. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[matchedTerms]: #matchedterms
+#### [matchedTerms]
+An array of terms that were matched in the resource object.  
+<span class="type-label">Type: </span>**array of strings**
+
+-----
+[relevanceScore]: #relevancescore
+#### [relevanceScore]
+The score ratio of the result for relevance to the search criteria.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[resource]: #resource
+#### [resource]
+A search results resource object that matched search criteria.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a>**
+
+-----
+[resourceType]: #resourcetype
+#### [resourceType]
+The type of the resource object that matched search criteria.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -23,57 +23,48 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getGraphImage'> getGraphImage</a> </span>
-            <div class='views-field-body'>Get the connection or status graph image for a load balancer service.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getGroupReferences'> getGroupReferences</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getGroups'> getGroups</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getHealthCheck'> getHealthCheck</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getHealthChecks'> getHealthChecks</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getIpAddress'> getIpAddress</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getServiceGroup'> getServiceGroup</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/toggleStatus'> toggleStatus</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-        </div>
+</div>
+
+#### [deleteObject](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/deleteObject)
+
+
+#### [getGraphImage](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getGraphImage)
+Get the connection or status graph image for a load balancer service.
+
+#### [getGroupReferences](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getGroupReferences)
+
+
+#### [getGroups](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getGroups)
+
+
+#### [getHealthCheck](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getHealthCheck)
+
+
+#### [getHealthChecks](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getHealthChecks)
+
+
+#### [getIpAddress](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getIpAddress)
+
+
+#### [getObject](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getObject)
+Retrieve a SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service record.
+
+#### [getServiceGroup](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getServiceGroup)
+
+
+#### [toggleStatus](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/toggleStatus)
+
+
 </div>
 

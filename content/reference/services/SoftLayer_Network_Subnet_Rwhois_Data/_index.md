@@ -26,24 +26,25 @@ This service allows you to update your stored RWHOIS record.  Changing this reco
 
 ### seeAlso
 
-* [SoftLayer_Network_Subnet_Swip_Transaction](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction )
+* [SoftLayer_Network_Subnet_Swip_Transaction](/reference/datatypes/SoftLayer_Network_Subnet_Swip_Transaction )
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Subnet_Rwhois_Data/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit the RWHOIS record by passing in a modified version of the record object. All fields are editable. The fields are as follows: 
+</div>
+
+#### [editObject](/reference/services/SoftLayer_Network_Subnet_Rwhois_Data/editObject)
+Edit the RWHOIS record by passing in a modified version of the record object. All fields are editable. The fields are as follows: 
 * companyName
 * firstName
 * lastName
@@ -51,16 +52,13 @@ This service allows you to update your stored RWHOIS record.  Changing this reco
 * country
 * postalCode
 * abuseEmail
-* address1</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Subnet_Rwhois_Data/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve the SoftLayer customer account associated with this reverse WHOIS data.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Subnet_Rwhois_Data/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_Subnet_Rwhois_Data record.</div>
-        </div>
-        </div>
+* address1
+
+#### [getAccount](/reference/services/SoftLayer_Network_Subnet_Rwhois_Data/getAccount)
+Retrieve the SoftLayer customer account associated with this reverse WHOIS data.
+
+#### [getObject](/reference/services/SoftLayer_Network_Subnet_Rwhois_Data/getObject)
+Retrieve a SoftLayer_Network_Subnet_Rwhois_Data record.
+
 </div>
 

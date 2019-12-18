@@ -36,159 +36,102 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#blocks" name=blocks>blocks</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bounces" name=bounces>bounces</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#clicks" name=clicks>clicks</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#date" name=date>date</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#delivered" name=delivered>delivered</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#invalidEmail" name=invalidEmail>invalidEmail</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#opens" name=opens>opens</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#repeatBounces" name=repeatBounces>repeatBounces</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#repeatSpamReports" name=repeatSpamReports>repeatSpamReports</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#repeatUnsubscribes" name=repeatUnsubscribes>repeatUnsubscribes</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#requests" name=requests>requests</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#spamReports" name=spamReports>spamReports</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#uniqueClicks" name=uniqueClicks>uniqueClicks</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#uniqueOpens" name=uniqueOpens>uniqueOpens</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#unsubscribes" name=unsubscribes>unsubscribes</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[blocks]: #blocks
+#### [blocks]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[bounces]: #bounces
+#### [bounces]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[clicks]: #clicks
+#### [clicks]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[date]: #date
+#### [date]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[delivered]: #delivered
+#### [delivered]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[invalidEmail]: #invalidemail
+#### [invalidEmail]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[opens]: #opens
+#### [opens]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[repeatBounces]: #repeatbounces
+#### [repeatBounces]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[repeatSpamReports]: #repeatspamreports
+#### [repeatSpamReports]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[repeatUnsubscribes]: #repeatunsubscribes
+#### [repeatUnsubscribes]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[requests]: #requests
+#### [requests]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[spamReports]: #spamreports
+#### [spamReports]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[uniqueClicks]: #uniqueclicks
+#### [uniqueClicks]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[uniqueOpens]: #uniqueopens
+#### [uniqueOpens]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[unsubscribes]: #unsubscribes
+#### [unsubscribes]
+  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

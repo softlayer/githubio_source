@@ -1,6 +1,6 @@
 ---
 title: "generateOrderTemplate"
-description: "Obtain an [[SoftLayer_Container_Product_Order_Virtual_Guest (type)|order container]] that can be sent to [[SoftLayer_Pro... "
+description: "Obtain an [SoftLayer_Container_Product_Order_Virtual_Guest]({{<ref 'reference/datatypes/SoftLayer_Container_Product_Orde... "
 layout: "method"
 tags:
     - "method"
@@ -18,13 +18,13 @@ Obtain an order container for a given template object
 
 ## Overview 
 
-Obtain an [[SoftLayer_Container_Product_Order_Virtual_Guest (type)|order container]] that can be sent to [[SoftLayer_Product_Order/verifyOrder|verifyOrder]] or [[SoftLayer_Product_Order/placeOrder|placeOrder]]. 
+Obtain an [SoftLayer_Container_Product_Order_Virtual_Guest]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest">}}). 
 
 
 This is primarily useful when there is a necessity to confirm the price which will be charged for an order. 
 
 
-See [[SoftLayer_Virtual_Guest/createObject|createObject]] for specifics on the requirements of the template object parameter. 
+See [SoftLayer_Virtual_Guest::createObject]({{<ref "reference/services/SoftLayer_Virtual_Guest/createObject">}}) for specifics on the requirements of the template object parameter. 
 
 -----
 

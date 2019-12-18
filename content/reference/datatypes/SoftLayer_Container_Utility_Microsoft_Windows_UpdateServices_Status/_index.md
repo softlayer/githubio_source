@@ -52,69 +52,48 @@ SoftLayer customer servers that are purchased with the Microsoft Windows operati
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastRebootDate" name=lastRebootDate>lastRebootDate</a>
-            </span>
-            <div class='views-field-body'>The last time a server rebooted due to a Windows Update. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastStatusDate" name=lastStatusDate>lastStatusDate</a>
-            </span>
-            <div class='views-field-body'>The last time that SoftLayer's local WSUS server received a status update from a customer server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastSyncDate" name=lastSyncDate>lastSyncDate</a>
-            </span>
-            <div class='views-field-body'>The last time a server synchronized with SoftLayer's local WSUS server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#privateIPAddress" name=privateIPAddress>privateIPAddress</a>
-            </span>
-            <div class='views-field-body'>This is the private IP address for this server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#syncStatus" name=syncStatus>syncStatus</a>
-            </span>
-            <div class='views-field-body'>The status message returned from a server's last synchronization with SoftLayer's local WSUS server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#updateStatus" name=updateStatus>updateStatus</a>
-            </span>
-            <div class='views-field-body'>A server's update status, as retrieved form SoftLayer's local WSUS server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[lastRebootDate]: #lastrebootdate
+#### [lastRebootDate]
+The last time a server rebooted due to a Windows Update.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[lastStatusDate]: #laststatusdate
+#### [lastStatusDate]
+The last time that SoftLayer's local WSUS server received a status update from a customer server.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[lastSyncDate]: #lastsyncdate
+#### [lastSyncDate]
+The last time a server synchronized with SoftLayer's local WSUS server.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[privateIPAddress]: #privateipaddress
+#### [privateIPAddress]
+This is the private IP address for this server.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[syncStatus]: #syncstatus
+#### [syncStatus]
+The status message returned from a server's last synchronization with SoftLayer's local WSUS server.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[updateStatus]: #updatestatus
+#### [updateStatus]
+A server's update status, as retrieved form SoftLayer's local WSUS server.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

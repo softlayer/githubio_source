@@ -36,59 +36,42 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#daysToGracePeriodEnd" name=daysToGracePeriodEnd>daysToGracePeriodEnd</a>
-            </span>
-            <div class='views-field-body'>The number of days remaining in the grace period for this user's account to </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#emailAlreadyUsedForInvitationToAccount" name=emailAlreadyUsedForInvitationToAccount>emailAlreadyUsedForInvitationToAccount</a>
-            </span>
-            <div class='views-field-body'>Flag for whether the email address inside this SoftLayer_User_Customer object </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#emailAlreadyUsedForLinkToAccount" name=emailAlreadyUsedForLinkToAccount>emailAlreadyUsedForLinkToAccount</a>
-            </span>
-            <div class='views-field-body'>Flag for whether the email address inside this SoftLayer_User_Customer object </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#existingInvitationOpenIdConnectName" name=existingInvitationOpenIdConnectName>existingInvitationOpenIdConnectName</a>
-            </span>
-            <div class='views-field-body'>The IBMid email address where an invitation was sent. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#isAccountOpenIdConnectAuthenticated" name=isAccountOpenIdConnectAuthenticated>isAccountOpenIdConnectAuthenticated</a>
-            </span>
-            <div class='views-field-body'>Flag for whether the account is OpenIdConnect authenticated or not. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[daysToGracePeriodEnd]: #daystograceperiodend
+#### [daysToGracePeriodEnd]
+The number of days remaining in the grace period for this user's account to  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[emailAlreadyUsedForInvitationToAccount]: #emailalreadyusedforinvitationtoaccount
+#### [emailAlreadyUsedForInvitationToAccount]
+Flag for whether the email address inside this SoftLayer_User_Customer object  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[emailAlreadyUsedForLinkToAccount]: #emailalreadyusedforlinktoaccount
+#### [emailAlreadyUsedForLinkToAccount]
+Flag for whether the email address inside this SoftLayer_User_Customer object  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[existingInvitationOpenIdConnectName]: #existinginvitationopenidconnectname
+#### [existingInvitationOpenIdConnectName]
+The IBMid email address where an invitation was sent.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[isAccountOpenIdConnectAuthenticated]: #isaccountopenidconnectauthenticated
+#### [isAccountOpenIdConnectAuthenticated]
+Flag for whether the account is OpenIdConnect authenticated or not.  
+<span class="type-label">Type: </span>**boolean**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

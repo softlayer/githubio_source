@@ -36,69 +36,48 @@ Information container for domain registration
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#contacts" name=contacts>contacts</a>
-            </span>
-            <div class='views-field-body'>The information of the registered domain. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Contact'>SoftLayer_Container_Dns_Domain_Registration_Contact[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#expireDate" name=expireDate>expireDate</a>
-            </span>
-            <div class='views-field-body'>The date that a domain is set to expire. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nameservers" name=nameservers>nameservers</a>
-            </span>
-            <div class='views-field-body'>The list of nameservers for the domain. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Nameserver'>SoftLayer_Container_Dns_Domain_Registration_Nameserver[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#registryCreateDate" name=registryCreateDate>registryCreateDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#registryExpireDate" name=registryExpireDate>registryExpireDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#registryUpdateDate" name=registryUpdateDate>registryUpdateDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[contacts]: #contacts
+#### [contacts]
+The information of the registered domain.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Contact'>SoftLayer_Container_Dns_Domain_Registration_Contact[] </a>**
+
+-----
+[expireDate]: #expiredate
+#### [expireDate]
+The date that a domain is set to expire.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[nameservers]: #nameservers
+#### [nameservers]
+The list of nameservers for the domain.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Nameserver'>SoftLayer_Container_Dns_Domain_Registration_Nameserver[] </a>**
+
+-----
+[registryCreateDate]: #registrycreatedate
+#### [registryCreateDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[registryExpireDate]: #registryexpiredate
+#### [registryExpireDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[registryUpdateDate]: #registryupdatedate
+#### [registryUpdateDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

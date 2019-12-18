@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Media_Transcode_Job"
-description: "SoftLayer_Network_Media_Transcode_Job holds information on a transcode job. To create a transcode job, use a [[SoftLayer... "
+description: "SoftLayer_Network_Media_Transcode_Job holds information on a transcode job. To create a transcode job, use a [SoftLayer_... "
 date: "2018-02-12"
 layout: "service"
 tags:
@@ -18,50 +18,44 @@ classes:
 </div>
 
 ## Description
-SoftLayer_Network_Media_Transcode_Job holds information on a transcode job. To create a transcode job, use a [[SoftLayer_Network_Media_Transcode_Account|Transcode account]] object. 
+SoftLayer_Network_Media_Transcode_Job holds information on a transcode job. To create a transcode job, use a [SoftLayer_Network_Media_Transcode_Account]({{<ref "reference/datatypes/SoftLayer_Network_Media_Transcode_Account">}}) object. 
 
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Media_Transcode_Job/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Creates a transcode job</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Media_Transcode_Job/getHistory'> getHistory</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Media_Transcode_Job/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_Media_Transcode_Job record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Media_Transcode_Job/getTranscodeAccount'> getTranscodeAccount</a> </span>
-            <div class='views-field-body'>Retrieve the transcode service account</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Media_Transcode_Job/getTranscodeStatus'> getTranscodeStatus</a> </span>
-            <div class='views-field-body'>Retrieve the status information of a transcode job</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Media_Transcode_Job/getTranscodeStatusName'> getTranscodeStatusName</a> </span>
-            <div class='views-field-body'>Retrieve the status of a transcode job</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Media_Transcode_Job/getUser'> getUser</a> </span>
-            <div class='views-field-body'>Retrieve the SoftLayer user that created the transcode job</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Network_Media_Transcode_Job/createObject)
+Creates a transcode job
+
+#### [getHistory](/reference/services/SoftLayer_Network_Media_Transcode_Job/getHistory)
+
+
+#### [getObject](/reference/services/SoftLayer_Network_Media_Transcode_Job/getObject)
+Retrieve a SoftLayer_Network_Media_Transcode_Job record.
+
+#### [getTranscodeAccount](/reference/services/SoftLayer_Network_Media_Transcode_Job/getTranscodeAccount)
+Retrieve the transcode service account
+
+#### [getTranscodeStatus](/reference/services/SoftLayer_Network_Media_Transcode_Job/getTranscodeStatus)
+Retrieve the status information of a transcode job
+
+#### [getTranscodeStatusName](/reference/services/SoftLayer_Network_Media_Transcode_Job/getTranscodeStatusName)
+Retrieve the status of a transcode job
+
+#### [getUser](/reference/services/SoftLayer_Network_Media_Transcode_Job/getUser)
+Retrieve the SoftLayer user that created the transcode job
+
 </div>
 

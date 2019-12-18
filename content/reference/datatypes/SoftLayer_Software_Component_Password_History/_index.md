@@ -44,73 +44,53 @@ This object allows you to find the history of password changes for a specific So
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date this username/password pair was created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#notes" name=notes>notes</a>
-            </span>
-            <div class='views-field-body'>A note string stored for this username/password pair. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#password" name=password>password</a>
-            </span>
-            <div class='views-field-body'>The password part of this specific password history instance. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#softwareComponentId" name=softwareComponentId>softwareComponentId</a>
-            </span>
-            <div class='views-field-body'>The id number for the Software Component this username/password pair is for. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#username" name=username>username</a>
-            </span>
-            <div class='views-field-body'>The username part of this specific password history instance. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#softwareComponent" name=softwareComponent>softwareComponent</a>
-            </span>
-            <div class='views-field-body'>An installed and licensed instance of a piece of software </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[createDate]: #createdate
+#### [createDate]
+The date this username/password pair was created.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[notes]: #notes
+#### [notes]
+A note string stored for this username/password pair.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[password]: #password
+#### [password]
+The password part of this specific password history instance.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[softwareComponentId]: #softwarecomponentid
+#### [softwareComponentId]
+The id number for the Software Component this username/password pair is for.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[username]: #username
+#### [username]
+The username part of this specific password history instance.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[softwareComponent]: #softwarecomponent
+#### [softwareComponent]
+An installed and licensed instance of a piece of software  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>**
+
+
+## Count
 </div>
 
 

@@ -36,103 +36,72 @@ The SoftLayer_Monitoring_Robot data type contains general information relating t
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of a SoftLayer account that this robot belongs to </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of a monitoring robot </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>Robot name </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#statusId" name=statusId>statusId</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of a monitoring robot status </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The account associated with the corresponding robot. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monitoringAgents" name=monitoringAgents>monitoringAgents</a>
-            </span>
-            <div class='views-field-body'>The program (monitoring agent) that gets details of a system or application and reporting of the metric data and triggers alarms for predefined events. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Monitoring_Agent'>SoftLayer_Monitoring_Agent[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#robotStatus" name=robotStatus>robotStatus</a>
-            </span>
-            <div class='views-field-body'>The current status of the robot. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Monitoring_Robot_Status'>SoftLayer_Monitoring_Robot_Status </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#softwareComponent" name=softwareComponent>softwareComponent</a>
-            </span>
-            <div class='views-field-body'>The SoftLayer_Software_Component that corresponds to the robot installation on the server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monitoringAgentCount" name=monitoringAgentCount>monitoringAgentCount</a>
-            </span>
-            <div class='views-field-body'>A count of the program (monitoring agent) that gets details of a system or application and reporting of the metric data and triggers alarms for predefined events. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+Internal identifier of a SoftLayer account that this robot belongs to  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+Internal identifier of a monitoring robot  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[name]: #name
+#### [name]
+Robot name  
+<span class="type-label">Type: </span>**string**
+
+-----
+[statusId]: #statusid
+#### [statusId]
+Internal identifier of a monitoring robot status  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The account associated with the corresponding robot.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[monitoringAgents]: #monitoringagents
+#### [monitoringAgents]
+The program (monitoring agent) that gets details of a system or application and reporting of the metric data and triggers alarms for predefined events.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Monitoring_Agent'>SoftLayer_Monitoring_Agent[] </a>**
+
+-----
+[robotStatus]: #robotstatus
+#### [robotStatus]
+The current status of the robot.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Monitoring_Robot_Status'>SoftLayer_Monitoring_Robot_Status </a>**
+
+-----
+[softwareComponent]: #softwarecomponent
+#### [softwareComponent]
+The SoftLayer_Software_Component that corresponds to the robot installation on the server.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>**
+
+
+## Count
+
+-----
+[monitoringAgentCount]: #monitoringagentcount
+#### [monitoringAgentCount]
+A count of the program (monitoring agent) that gets details of a system or application and reporting of the metric data and triggers alarms for predefined events.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

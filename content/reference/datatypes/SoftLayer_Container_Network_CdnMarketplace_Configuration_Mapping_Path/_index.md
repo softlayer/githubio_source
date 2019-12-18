@@ -36,139 +36,90 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bucketName" name=bucketName>bucketName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cacheKeyQueryRule" name=cacheKeyQueryRule>cacheKeyQueryRule</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#dynamicContentAcceleration" name=dynamicContentAcceleration>dynamicContentAcceleration</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Performance_DynamicContentAcceleration'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Performance_DynamicContentAcceleration </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#fileExtension" name=fileExtension>fileExtension</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#header" name=header>header</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#httpPort" name=httpPort>httpPort</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#httpsPort" name=httpsPort>httpsPort</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#mappingUniqueId" name=mappingUniqueId>mappingUniqueId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#origin" name=origin>origin</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#originType" name=originType>originType</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#path" name=path>path</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#performanceConfiguration" name=performanceConfiguration>performanceConfiguration</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#status" name=status>status</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[bucketName]: #bucketname
+#### [bucketName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[cacheKeyQueryRule]: #cachekeyqueryrule
+#### [cacheKeyQueryRule]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[dynamicContentAcceleration]: #dynamiccontentacceleration
+#### [dynamicContentAcceleration]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Performance_DynamicContentAcceleration'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Performance_DynamicContentAcceleration </a>**
+
+-----
+[fileExtension]: #fileextension
+#### [fileExtension]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[header]: #header
+#### [header]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[httpPort]: #httpport
+#### [httpPort]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[httpsPort]: #httpsport
+#### [httpsPort]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[mappingUniqueId]: #mappinguniqueid
+#### [mappingUniqueId]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[origin]: #origin
+#### [origin]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[originType]: #origintype
+#### [originType]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[path]: #path
+#### [path]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[performanceConfiguration]: #performanceconfiguration
+#### [performanceConfiguration]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[status]: #status
+#### [status]
+  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

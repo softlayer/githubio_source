@@ -36,239 +36,150 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bucketName" name=bucketName>bucketName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cacheKeyQueryRule" name=cacheKeyQueryRule>cacheKeyQueryRule</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#certificateType" name=certificateType>certificateType</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cname" name=cname>cname</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#domain" name=domain>domain</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#dynamicContentAcceleration" name=dynamicContentAcceleration>dynamicContentAcceleration</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Performance_DynamicContentAcceleration'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Performance_DynamicContentAcceleration </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#fileExtension" name=fileExtension>fileExtension</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#geoblockingRule" name=geoblockingRule>geoblockingRule</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking'>SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#header" name=header>header</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hotlinkProtection" name=hotlinkProtection>hotlinkProtection</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection'>SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#httpPort" name=httpPort>httpPort</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#httpsPort" name=httpsPort>httpsPort</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#oldPath" name=oldPath>oldPath</a>
-            </span>
-            <div class='views-field-body'>Used by the following method: updateOriginPath(). This property will store the path of the path record to be saved. The $path attribute stores the new path.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#origin" name=origin>origin</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#originType" name=originType>originType</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#path" name=path>path</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#performanceConfiguration" name=performanceConfiguration>performanceConfiguration</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#protocol" name=protocol>protocol</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#respectHeaders" name=respectHeaders>respectHeaders</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#serveStale" name=serveStale>serveStale</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#status" name=status>status</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#uniqueId" name=uniqueId>uniqueId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#vendorName" name=vendorName>vendorName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[bucketName]: #bucketname
+#### [bucketName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[cacheKeyQueryRule]: #cachekeyqueryrule
+#### [cacheKeyQueryRule]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[certificateType]: #certificatetype
+#### [certificateType]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[cname]: #cname
+#### [cname]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[domain]: #domain
+#### [domain]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[dynamicContentAcceleration]: #dynamiccontentacceleration
+#### [dynamicContentAcceleration]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Performance_DynamicContentAcceleration'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Performance_DynamicContentAcceleration </a>**
+
+-----
+[fileExtension]: #fileextension
+#### [fileExtension]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[geoblockingRule]: #geoblockingrule
+#### [geoblockingRule]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking'>SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking </a>**
+
+-----
+[header]: #header
+#### [header]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[hotlinkProtection]: #hotlinkprotection
+#### [hotlinkProtection]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection'>SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection </a>**
+
+-----
+[httpPort]: #httpport
+#### [httpPort]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[httpsPort]: #httpsport
+#### [httpsPort]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[oldPath]: #oldpath
+#### [oldPath]
+Used by the following method: updateOriginPath(). This property will store the path of the path record to be saved. The $path attribute stores the new path.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[origin]: #origin
+#### [origin]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[originType]: #origintype
+#### [originType]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[path]: #path
+#### [path]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[performanceConfiguration]: #performanceconfiguration
+#### [performanceConfiguration]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[protocol]: #protocol
+#### [protocol]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[respectHeaders]: #respectheaders
+#### [respectHeaders]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[serveStale]: #servestale
+#### [serveStale]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[status]: #status
+#### [status]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[uniqueId]: #uniqueid
+#### [uniqueId]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[vendorName]: #vendorname
+#### [vendorName]
+  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

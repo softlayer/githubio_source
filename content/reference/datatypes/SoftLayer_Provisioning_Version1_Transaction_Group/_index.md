@@ -43,29 +43,24 @@ SoftLayer customers are unable to change their hardware transactions or the hard
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#averageTimeToComplete" name=averageTimeToComplete>averageTimeToComplete</a>
-            </span>
-            <div class='views-field-body'>Average time, in minutes, for this type of transaction to complete. Please note that this is only an estimate.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>A transaction group's name. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[averageTimeToComplete]: #averagetimetocomplete
+#### [averageTimeToComplete]
+Average time, in minutes, for this type of transaction to complete. Please note that this is only an estimate.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[name]: #name
+#### [name]
+A transaction group's name.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

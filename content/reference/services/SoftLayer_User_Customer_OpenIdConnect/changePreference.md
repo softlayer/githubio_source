@@ -1,6 +1,6 @@
 ---
 title: "changePreference"
-description: "Select a type of preference you would like to modify using [[SoftLayer_User_Customer::getPreferenceTypes|getPreferenceTy... "
+description: "Select a type of preference you would like to modify using [SoftLayer_User_Customer::getPreferenceTypes]({{<ref 'referen... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Change preference values for the current user
 
 
 ## Overview 
-Select a type of preference you would like to modify using [[SoftLayer_User_Customer::getPreferenceTypes|getPreferenceTypes]] and invoke this method using that preference type key name. 
+Select a type of preference you would like to modify using [SoftLayer_User_Customer::getPreferenceTypes]({{<ref "reference/services/SoftLayer_User_Customer/getPreferenceTypes">}}) and invoke this method using that preference type key name. 
 
 -----
 

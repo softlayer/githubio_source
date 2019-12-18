@@ -17,7 +17,7 @@ Updates the authentication phone numbers.
 
 
 ## Overview 
-Phone external binding supports a primary and a backup phone number. You can use this method to update your phone number used for the phone authentication. You can provide an array of [[SoftLayer_Container_User_Data_Phone|User Phone]] objects. You have to mark one as the primary phone number by setting "phoneType" to "PRIMARY". 
+Phone external binding supports a primary and a backup phone number. You can use this method to update your phone number used for the phone authentication. You can provide an array of [SoftLayer_Container_User_Data_Phone]({{<ref "reference/datatypes/SoftLayer_Container_User_Data_Phone">}}) objects. You have to mark one as the primary phone number by setting "phoneType" to "PRIMARY". 
 
 
 *countryCode: Country code number for the phone number. Default: 1 (United States & Canada +1)

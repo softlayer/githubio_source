@@ -37,49 +37,42 @@ The SoftLayer_Dns_Domain_ResourceRecord_SrvType service controls the creation, m
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create an SRV record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/createObjects'> createObjects</a> </span>
-            <div class='views-field-body'>Create multiple SRV records.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Delete a domain's SRV record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/deleteObjects'> deleteObjects</a> </span>
-            <div class='views-field-body'>Delete multiple SRV records from a domain.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit a domain's SRV record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/editObjects'> editObjects</a> </span>
-            <div class='views-field-body'>Edit multiple domain SRV records.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/getDomain'> getDomain</a> </span>
-            <div class='views-field-body'>Retrieve the domain that a resource record belongs to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Dns_Domain_ResourceRecord_SrvType record.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/createObject)
+Create an SRV record.
+
+#### [createObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/createObjects)
+Create multiple SRV records.
+
+#### [deleteObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/deleteObject)
+Delete a domain's SRV record.
+
+#### [deleteObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/deleteObjects)
+Delete multiple SRV records from a domain.
+
+#### [editObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/editObject)
+Edit a domain's SRV record.
+
+#### [editObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/editObjects)
+Edit multiple domain SRV records.
+
+#### [getDomain](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/getDomain)
+Retrieve the domain that a resource record belongs to.
+
+#### [getObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/getObject)
+Retrieve a SoftLayer_Dns_Domain_ResourceRecord_SrvType record.
+
 </div>
 
