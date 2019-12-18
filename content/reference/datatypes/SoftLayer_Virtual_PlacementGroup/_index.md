@@ -36,133 +36,90 @@ This data type presents the structure for a virtual guest placement group. The d
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>The unique ID of the account that created the placement group.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#backendRouterId" name=backendRouterId>backendRouterId</a>
-            </span>
-            <div class='views-field-body'>The placement group's backend router's associated unique ID.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The placement group's date of creation.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The placement group's associated unique ID.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>The placement group's date of most recent modification.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>The placement group's name.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ruleId" name=ruleId>ruleId</a>
-            </span>
-            <div class='views-field-body'>The associated unique ID of the placement group's rule.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The account that the placement group is implemented on. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#backendRouter" name=backendRouter>backendRouter</a>
-            </span>
-            <div class='views-field-body'>The router the placement group is implemented on. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Router_Backend'>SoftLayer_Hardware_Router_Backend </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#guests" name=guests>guests</a>
-            </span>
-            <div class='views-field-body'>The virtual guests that are members of the placement group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#rule" name=rule>rule</a>
-            </span>
-            <div class='views-field-body'>The placement rule that the placement group is implementing. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_PlacementGroup_Rule'>SoftLayer_Virtual_PlacementGroup_Rule </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#guestCount" name=guestCount>guestCount</a>
-            </span>
-            <div class='views-field-body'>A count of the virtual guests that are members of the placement group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+The unique ID of the account that created the placement group.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[backendRouterId]: #backendrouterid
+#### [backendRouterId]
+The placement group's backend router's associated unique ID.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+The placement group's date of creation.   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+The placement group's associated unique ID.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+The placement group's date of most recent modification.   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[name]: #name
+#### [name]
+The placement group's name.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[ruleId]: #ruleid
+#### [ruleId]
+The associated unique ID of the placement group's rule.   
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The account that the placement group is implemented on.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[backendRouter]: #backendrouter
+#### [backendRouter]
+The router the placement group is implemented on.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Router_Backend'>SoftLayer_Hardware_Router_Backend </a>**
+
+-----
+[guests]: #guests
+#### [guests]
+The virtual guests that are members of the placement group.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[rule]: #rule
+#### [rule]
+The placement rule that the placement group is implementing.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_PlacementGroup_Rule'>SoftLayer_Virtual_PlacementGroup_Rule </a>**
+
+
+## Count
+
+-----
+[guestCount]: #guestcount
+#### [guestCount]
+A count of the virtual guests that are members of the placement group.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

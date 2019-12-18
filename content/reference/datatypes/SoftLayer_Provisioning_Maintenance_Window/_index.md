@@ -46,69 +46,48 @@ The SoftLayer_Provisioning_Maintenance_Window represent a time window that SoftL
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#beginDate" name=beginDate>beginDate</a>
-            </span>
-            <div class='views-field-body'>The date and time a maintenance window is scheduled to begin. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#dayOfWeek" name=dayOfWeek>dayOfWeek</a>
-            </span>
-            <div class='views-field-body'>An ISO-8601 numeric representation of the day of the week that a maintenance window is performed. 1: Monday, 7: Sunday </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#endDate" name=endDate>endDate</a>
-            </span>
-            <div class='views-field-body'>The date and time a maintenance window is scheduled to end. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Id of the maintenance window </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationId" name=locationId>locationId</a>
-            </span>
-            <div class='views-field-body'>An internal identifier of the location (data center) record that a maintenance window takes place in. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#portalTzId" name=portalTzId>portalTzId</a>
-            </span>
-            <div class='views-field-body'>An internal identifier of the datacenter timezone. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[beginDate]: #begindate
+#### [beginDate]
+The date and time a maintenance window is scheduled to begin.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[dayOfWeek]: #dayofweek
+#### [dayOfWeek]
+An ISO-8601 numeric representation of the day of the week that a maintenance window is performed. 1: Monday, 7: Sunday  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[endDate]: #enddate
+#### [endDate]
+The date and time a maintenance window is scheduled to end.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+Id of the maintenance window  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[locationId]: #locationid
+#### [locationId]
+An internal identifier of the location (data center) record that a maintenance window takes place in.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[portalTzId]: #portaltzid
+#### [portalTzId]
+An internal identifier of the datacenter timezone.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -36,83 +36,59 @@ Provides details for the subscriber's delivery methods.
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#active" name=active>active</a>
-            </span>
-            <div class='views-field-body'>Indicates the subscriber's delivery method availability for notifications.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>Date the subscriber's delivery method was created.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>Date the subscriber's delivery method was last modified.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#notificationDeliveryMethodId" name=notificationDeliveryMethodId>notificationDeliveryMethodId</a>
-            </span>
-            <div class='views-field-body'>Identifier for the notification delivery method.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#notificationSubscriberId" name=notificationSubscriberId>notificationSubscriberId</a>
-            </span>
-            <div class='views-field-body'>Identifier for the subscriber.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#notificationDeliveryMethod" name=notificationDeliveryMethod>notificationDeliveryMethod</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Notification_Delivery_Method'>SoftLayer_Notification_Delivery_Method </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#notificationSubscriber" name=notificationSubscriber>notificationSubscriber</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Notification_Subscriber'>SoftLayer_Notification_Subscriber </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[active]: #active
+#### [active]
+Indicates the subscriber's delivery method availability for notifications.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+Date the subscriber's delivery method was created.   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+Date the subscriber's delivery method was last modified.   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[notificationDeliveryMethodId]: #notificationdeliverymethodid
+#### [notificationDeliveryMethodId]
+Identifier for the notification delivery method.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[notificationSubscriberId]: #notificationsubscriberid
+#### [notificationSubscriberId]
+Identifier for the subscriber.   
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[notificationDeliveryMethod]: #notificationdeliverymethod
+#### [notificationDeliveryMethod]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Delivery_Method'>SoftLayer_Notification_Delivery_Method </a>**
+
+-----
+[notificationSubscriber]: #notificationsubscriber
+#### [notificationSubscriber]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Subscriber'>SoftLayer_Notification_Subscriber </a>**
+
+
+## Count
 </div>
 
 

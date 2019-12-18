@@ -40,233 +40,152 @@ Configuration can contain sub-sections.
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>Created date </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>Configuration section description </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of a configuration section. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#linkedTemplateId" name=linkedTemplateId>linkedTemplateId</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of a sub configuration template that this section points to. Use this property if you wish to create a reference to a sub configuration template when creating a linked section.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>Last modified date </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>Configuration section name </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#parentId" name=parentId>parentId</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of the parent configuration section </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sort" name=sort>sort</a>
-            </span>
-            <div class='views-field-body'>Sort order </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#templateId" name=templateId>templateId</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of a configuration template that this section belongs to </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#typeId" name=typeId>typeId</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of the configuration section type </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#definitions" name=definitions>definitions</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition'>SoftLayer_Configuration_Template_Section_Definition[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#disallowedDeletionFlag" name=disallowedDeletionFlag>disallowedDeletionFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#linkedTemplate" name=linkedTemplate>linkedTemplate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#linkedTemplateReference" name=linkedTemplateReference>linkedTemplateReference</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Reference'>SoftLayer_Configuration_Template_Section_Reference </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#profiles" name=profiles>profiles</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Profile'>SoftLayer_Configuration_Template_Section_Profile[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sectionType" name=sectionType>sectionType</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Type'>SoftLayer_Configuration_Template_Section_Type </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sectionTypeName" name=sectionTypeName>sectionTypeName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subSections" name=subSections>subSections</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Configuration_Template_Section'>SoftLayer_Configuration_Template_Section[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#template" name=template>template</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#definitionCount" name=definitionCount>definitionCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#profileCount" name=profileCount>profileCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subSectionCount" name=subSectionCount>subSectionCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[createDate]: #createdate
+#### [createDate]
+Created date  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[description]: #description
+#### [description]
+Configuration section description  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+Internal identifier of a configuration section.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[linkedTemplateId]: #linkedtemplateid
+#### [linkedTemplateId]
+Internal identifier of a sub configuration template that this section points to. Use this property if you wish to create a reference to a sub configuration template when creating a linked section.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+Last modified date  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[name]: #name
+#### [name]
+Configuration section name  
+<span class="type-label">Type: </span>**string**
+
+-----
+[parentId]: #parentid
+#### [parentId]
+Internal identifier of the parent configuration section  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[sort]: #sort
+#### [sort]
+Sort order  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[templateId]: #templateid
+#### [templateId]
+Internal identifier of a configuration template that this section belongs to  
+<span class="type-label">Type: </span>**string**
+
+-----
+[typeId]: #typeid
+#### [typeId]
+Internal identifier of the configuration section type  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[definitions]: #definitions
+#### [definitions]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition'>SoftLayer_Configuration_Template_Section_Definition[] </a>**
+
+-----
+[disallowedDeletionFlag]: #disalloweddeletionflag
+#### [disallowedDeletionFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[linkedTemplate]: #linkedtemplate
+#### [linkedTemplate]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>**
+
+-----
+[linkedTemplateReference]: #linkedtemplatereference
+#### [linkedTemplateReference]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Reference'>SoftLayer_Configuration_Template_Section_Reference </a>**
+
+-----
+[profiles]: #profiles
+#### [profiles]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Profile'>SoftLayer_Configuration_Template_Section_Profile[] </a>**
+
+-----
+[sectionType]: #sectiontype
+#### [sectionType]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Type'>SoftLayer_Configuration_Template_Section_Type </a>**
+
+-----
+[sectionTypeName]: #sectiontypename
+#### [sectionTypeName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[subSections]: #subsections
+#### [subSections]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section'>SoftLayer_Configuration_Template_Section[] </a>**
+
+-----
+[template]: #template
+#### [template]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>**
+
+
+## Count
+
+-----
+[definitionCount]: #definitioncount
+#### [definitionCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[profileCount]: #profilecount
+#### [profileCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[subSectionCount]: #subsectioncount
+#### [subSectionCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

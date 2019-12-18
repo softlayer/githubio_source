@@ -36,39 +36,30 @@ Details required for OpenStack link request
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#desiredPassword" name=desiredPassword>desiredPassword</a>
-            </span>
-            <div class='views-field-body'>Optional password </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#desiredProjectName" name=desiredProjectName>desiredProjectName</a>
-            </span>
-            <div class='views-field-body'>Optional projectName </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#desiredUsername" name=desiredUsername>desiredUsername</a>
-            </span>
-            <div class='views-field-body'>Required username </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[desiredPassword]: #desiredpassword
+#### [desiredPassword]
+Optional password  
+<span class="type-label">Type: </span>**string**
+
+-----
+[desiredProjectName]: #desiredprojectname
+#### [desiredProjectName]
+Optional projectName  
+<span class="type-label">Type: </span>**string**
+
+-----
+[desiredUsername]: #desiredusername
+#### [desiredUsername]
+Required username  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

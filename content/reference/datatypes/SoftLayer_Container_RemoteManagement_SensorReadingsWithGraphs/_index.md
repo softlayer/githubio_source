@@ -36,39 +36,30 @@ The SoftLayer_Container_RemoteManagement_SensorReadingsWithGraphs contains the r
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#rawData" name=rawData>rawData</a>
-            </span>
-            <div class='views-field-body'>The raw data returned from the server's remote management card. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_RemoteManagement_SensorReading'>SoftLayer_Container_RemoteManagement_SensorReading[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#speedGraphs" name=speedGraphs>speedGraphs</a>
-            </span>
-            <div class='views-field-body'>The graph(s) to display the server's fan speeds. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_RemoteManagement_Graphs_SensorSpeed'>SoftLayer_Container_RemoteManagement_Graphs_SensorSpeed[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#temperatureGraphs" name=temperatureGraphs>temperatureGraphs</a>
-            </span>
-            <div class='views-field-body'>The graph(s) to display the server's cpu(s) and system temperatures. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_RemoteManagement_Graphs_SensorTemperature'>SoftLayer_Container_RemoteManagement_Graphs_SensorTemperature[] </a></p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[rawData]: #rawdata
+#### [rawData]
+The raw data returned from the server's remote management card.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_RemoteManagement_SensorReading'>SoftLayer_Container_RemoteManagement_SensorReading[] </a>**
+
+-----
+[speedGraphs]: #speedgraphs
+#### [speedGraphs]
+The graph(s) to display the server's fan speeds.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_RemoteManagement_Graphs_SensorSpeed'>SoftLayer_Container_RemoteManagement_Graphs_SensorSpeed[] </a>**
+
+-----
+[temperatureGraphs]: #temperaturegraphs
+#### [temperatureGraphs]
+The graph(s) to display the server's cpu(s) and system temperatures.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_RemoteManagement_Graphs_SensorTemperature'>SoftLayer_Container_RemoteManagement_Graphs_SensorTemperature[] </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

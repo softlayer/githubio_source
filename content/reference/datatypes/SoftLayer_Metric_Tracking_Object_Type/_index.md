@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Metric_Tracking_Object_Type"
-description: "SoftLayer [[SoftLayer_Metric_Tracking_Object|tracking objects]] can model various kinds of measured data, from server an... "
+description: "SoftLayer [SoftLayer_Metric_Tracking_Object]({{<ref 'reference/datatypes/SoftLayer_Metric_Tracking_Object'>}}) can model... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-SoftLayer [[SoftLayer_Metric_Tracking_Object|tracking objects]] can model various kinds of measured data, from server and virtual server bandwidth usage to CPU use to remote storage usage. SoftLayer_Metric_Tracking_Object_Type models one of these types and is referred to in tracking objects to reflect what type of data they track. 
+SoftLayer [SoftLayer_Metric_Tracking_Object]({{<ref "reference/datatypes/SoftLayer_Metric_Tracking_Object">}}) can model various kinds of measured data, from server and virtual server bandwidth usage to CPU use to remote storage usage. SoftLayer_Metric_Tracking_Object_Type models one of these types and is referred to in tracking objects to reflect what type of data they track. 
 
 
 
@@ -41,29 +41,24 @@ SoftLayer [[SoftLayer_Metric_Tracking_Object|tracking objects]] can model variou
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#keyname" name=keyname>keyname</a>
-            </span>
-            <div class='views-field-body'>Description A tracking object type's key name. This is a shorter description of what kind of data a tracking object group is polling.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>Description A tracking object type's name. This describes what kind of data a tracking object group is polling.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[keyname]: #keyname
+#### [keyname]
+Description A tracking object type's key name. This is a shorter description of what kind of data a tracking object group is polling.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[name]: #name
+#### [name]
+Description A tracking object type's name. This describes what kind of data a tracking object group is polling.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

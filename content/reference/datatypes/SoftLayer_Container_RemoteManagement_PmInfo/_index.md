@@ -36,29 +36,24 @@ The SoftLayer_Container_RemoteManagement_PmInfo contains pminfo information retr
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pmInfoId" name=pmInfoId>pmInfoId</a>
-            </span>
-            <div class='views-field-body'>PmInfo ID </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pmInfoReading" name=pmInfoReading>pmInfoReading</a>
-            </span>
-            <div class='views-field-body'>PmInfo Reading </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[pmInfoId]: #pminfoid
+#### [pmInfoId]
+PmInfo ID  
+<span class="type-label">Type: </span>**string**
+
+-----
+[pmInfoReading]: #pminforeading
+#### [pmInfoReading]
+PmInfo Reading  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

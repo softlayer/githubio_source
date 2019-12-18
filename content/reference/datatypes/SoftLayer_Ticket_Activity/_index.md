@@ -36,83 +36,59 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createTimestamp" name=createTimestamp>createTimestamp</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#value" name=value>value</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#editor" name=editor>editor</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Interface'>SoftLayer_User_Interface </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ticket" name=ticket>ticket</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ticketUpdate" name=ticketUpdate>ticketUpdate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket_Update'>SoftLayer_Ticket_Update </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[createDate]: #createdate
+#### [createDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[createTimestamp]: #createtimestamp
+#### [createTimestamp]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[value]: #value
+#### [value]
+  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[editor]: #editor
+#### [editor]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Interface'>SoftLayer_User_Interface </a>**
+
+-----
+[ticket]: #ticket
+#### [ticket]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+
+-----
+[ticketUpdate]: #ticketupdate
+#### [ticketUpdate]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Update'>SoftLayer_Ticket_Update </a>**
+
+
+## Count
 </div>
 
 

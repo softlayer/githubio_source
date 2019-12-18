@@ -36,39 +36,30 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareId" name=hardwareId>hardwareId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#message" name=message>message</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#successFlag" name=successFlag>successFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[hardwareId]: #hardwareid
+#### [hardwareId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[message]: #message
+#### [message]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[successFlag]: #successflag
+#### [successFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

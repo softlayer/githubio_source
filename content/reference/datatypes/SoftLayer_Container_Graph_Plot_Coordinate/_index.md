@@ -36,39 +36,30 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#xValue" name=xValue>xValue</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#yValue" name=yValue>yValue</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#zValue" name=zValue>zValue</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[xValue]: #xvalue
+#### [xValue]
+  
+<span class="type-label">Type: </span>**float**
+
+-----
+[yValue]: #yvalue
+#### [yValue]
+  
+<span class="type-label">Type: </span>**float**
+
+-----
+[zValue]: #zvalue
+#### [zValue]
+  
+<span class="type-label">Type: </span>**float**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -36,59 +36,42 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#body" name=body>body</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#containsHtml" name=containsHtml>containsHtml</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#from" name=from>from</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subject" name=subject>subject</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#to" name=to>to</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[body]: #body
+#### [body]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[containsHtml]: #containshtml
+#### [containsHtml]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[from]: #from
+#### [from]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[subject]: #subject
+#### [subject]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[to]: #to
+#### [to]
+  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -2,7 +2,7 @@
 title: "getActivePackagesByAttribute"
 description: "<strong>This method is deprecated and should not be used in production code.</strong> 
 
-This method will return the [[So... "
+This method will return the [Sof... "
 layout: "method"
 tags:
     - "method"
@@ -15,13 +15,13 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getActivePackagesByAttribute
 
-[<strong>DEPRECATED</strong>] Retrieve the active [[SoftLayer_Product_Package]] objects from which you can order a server, service or software filtered by an attribute type ([[SoftLayer_Product_Package_Attribute_Type]]) on the package. 
+[<strong>DEPRECATED</strong>] Retrieve the active [SoftLayer_Product_Package]({{<ref "reference/datatypes/SoftLayer_Product_Package">}}) objects from which you can order a server, service or software filtered by an attribute type ([SoftLayer_Product_Package_Attribute_Type]({{<ref "reference/datatypes/SoftLayer_Product_Package_Attribute_Type">}})) on the package. 
 
 
 ## Overview 
 <strong>This method is deprecated and should not be used in production code.</strong> 
 
-This method will return the [[SoftLayer_Product_Package]] objects from which you can order a bare metal server, virtual server, service (such as CDN or Object Storage) or other software filtered by an attribute type associated with the package. Once you have the package you want to order from, you may query one of various endpoints from that package to get specific information about its products and pricing. See [[SoftLayer_Product_Package/getCategories|getCategories]] or [[SoftLayer_Product_Package/getItems|getItems]] for more information. 
+This method will return the [SoftLayer_Product_Package]({{<ref "reference/datatypes/SoftLayer_Product_Package">}}) objects from which you can order a bare metal server, virtual server, service (such as CDN or Object Storage) or other software filtered by an attribute type associated with the package. Once you have the package you want to order from, you may query one of various endpoints from that package to get specific information about its products and pricing. See [SoftLayer_Product_Package::getCategories]({{<ref "reference/services/SoftLayer_Product_Package/getCategories">}}) for more information. 
 
 -----
 

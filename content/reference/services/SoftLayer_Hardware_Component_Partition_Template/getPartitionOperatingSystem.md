@@ -1,6 +1,6 @@
 ---
 title: "getPartitionOperatingSystem"
-description: "Retrieve a partition template's associated [[SoftLayer_Hardware_Component_Partition_OperatingSystem|Operating System]]."
+description: "Retrieve a partition template's associated [SoftLayer_Hardware_Component_Partition_OperatingSystem]({{<ref 'reference/da... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Hardware_Component_Partition_Template](/reference/services/SoftLayer_Hardware_Component_Partition_Template)::getPartitionOperatingSystem
 
-Retrieve a partition template's associated [[SoftLayer_Hardware_Component_Partition_OperatingSystem|Operating System]].
+Retrieve a partition template's associated [SoftLayer_Hardware_Component_Partition_OperatingSystem]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_OperatingSystem">}}).
 
 
 ## Overview 
-Retrieve a partition template's associated [[SoftLayer_Hardware_Component_Partition_OperatingSystem|Operating System]].
+Retrieve a partition template's associated [SoftLayer_Hardware_Component_Partition_OperatingSystem]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_OperatingSystem">}}).
 
 -----
 

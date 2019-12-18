@@ -36,133 +36,90 @@ The SoftLayer_Network_LBaaS_L7Policy represents the policy for a listener.
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#action" name=action>action</a>
-            </span>
-            <div class='views-field-body'>The Action to take if the rules belonging to this policy match. It can be set to any of the following values: REDIRECT_URL, REDIRECT_POOL, REJECT.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>Specifies when a L7 Policy was created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The unique identifier of a policy. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>Specifies when a L7 Policy was updated previously. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>Name of a Policy. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#priority" name=priority>priority</a>
-            </span>
-            <div class='views-field-body'>The order in which the policy is evaluated. Each policy should have a unique priority  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#redirectL7PoolId" name=redirectL7PoolId>redirectL7PoolId</a>
-            </span>
-            <div class='views-field-body'>The L7 pool id to which traffic is redirected  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#redirectL7PoolUuid" name=redirectL7PoolUuid>redirectL7PoolUuid</a>
-            </span>
-            <div class='views-field-body'>The UUID of the L7 pool object referenced by the policy when the policy action is set to REDIRECT_POOL  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#redirectUrl" name=redirectUrl>redirectUrl</a>
-            </span>
-            <div class='views-field-body'>The URL to which traffic is redirected when the action is set to REDIRECT_URL.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#uuid" name=uuid>uuid</a>
-            </span>
-            <div class='views-field-body'>The UUID of a Policy. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#l7Rules" name=l7Rules>l7Rules</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Rule'>SoftLayer_Network_LBaaS_L7Rule[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#l7RuleCount" name=l7RuleCount>l7RuleCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[action]: #action
+#### [action]
+The Action to take if the rules belonging to this policy match. It can be set to any of the following values: REDIRECT_URL, REDIRECT_POOL, REJECT.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+Specifies when a L7 Policy was created.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+The unique identifier of a policy.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+Specifies when a L7 Policy was updated previously.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[name]: #name
+#### [name]
+Name of a Policy.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[priority]: #priority
+#### [priority]
+The order in which the policy is evaluated. Each policy should have a unique priority   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[redirectL7PoolId]: #redirectl7poolid
+#### [redirectL7PoolId]
+The L7 pool id to which traffic is redirected   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[redirectL7PoolUuid]: #redirectl7pooluuid
+#### [redirectL7PoolUuid]
+The UUID of the L7 pool object referenced by the policy when the policy action is set to REDIRECT_POOL   
+<span class="type-label">Type: </span>**string**
+
+-----
+[redirectUrl]: #redirecturl
+#### [redirectUrl]
+The URL to which traffic is redirected when the action is set to REDIRECT_URL.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[uuid]: #uuid
+#### [uuid]
+The UUID of a Policy.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[l7Rules]: #l7rules
+#### [l7Rules]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Rule'>SoftLayer_Network_LBaaS_L7Rule[] </a>**
+
+
+## Count
+
+-----
+[l7RuleCount]: #l7rulecount
+#### [l7RuleCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

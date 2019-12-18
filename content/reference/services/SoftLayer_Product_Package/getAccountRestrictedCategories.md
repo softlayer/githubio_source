@@ -1,6 +1,6 @@
 ---
 title: "getAccountRestrictedCategories"
-description: "Retrieve the results from this call are similar to [[SoftLayer_Product_Package/getCategories|getCategories]], but these... "
+description: "Retrieve the results from this call are similar to [SoftLayer_Product_Package::getCategories]({{<ref 'reference/services... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getAccountRestrictedCategories
 
-Retrieve the results from this call are similar to [[SoftLayer_Product_Package/getCategories|getCategories]], but these ONLY include account-restricted prices. Not all accounts have restricted pricing.
+Retrieve the results from this call are similar to [SoftLayer_Product_Package::getCategories]({{<ref "reference/services/SoftLayer_Product_Package/getCategories">}}), but these ONLY include account-restricted prices. Not all accounts have restricted pricing.
 
 
 ## Overview 
-Retrieve the results from this call are similar to [[SoftLayer_Product_Package/getCategories|getCategories]], but these ONLY include account-restricted prices. Not all accounts have restricted pricing.
+Retrieve the results from this call are similar to [SoftLayer_Product_Package::getCategories]({{<ref "reference/services/SoftLayer_Product_Package/getCategories">}}), but these ONLY include account-restricted prices. Not all accounts have restricted pricing.
 
 -----
 

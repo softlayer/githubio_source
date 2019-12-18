@@ -24,44 +24,40 @@ SoftLayer_Software_AccountLicense is the application class that handles a specia
 
 ### seeAlso
 
-* [SoftLayer_Account](/reference/services/SoftLayer_Account )
+* [SoftLayer_Account](/reference/datatypes/SoftLayer_Account )
 
 
-* [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description )
+* [SoftLayer_Software_Description](/reference/datatypes/SoftLayer_Software_Description )
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Software_AccountLicense/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve the customer account this Account License belongs to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Software_AccountLicense/getAllObjects'> getAllObjects</a> </span>
-            <div class='views-field-body'>Return all account licenses</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Software_AccountLicense/getBillingItem'> getBillingItem</a> </span>
-            <div class='views-field-body'>Retrieve the billing item for a software account license.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Software_AccountLicense/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Software_AccountLicense record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Software_AccountLicense/getSoftwareDescription'> getSoftwareDescription</a> </span>
-            <div class='views-field-body'>Retrieve the SoftLayer_Software_Description that this account license is for.</div>
-        </div>
-        </div>
+</div>
+
+#### [getAccount](/reference/services/SoftLayer_Software_AccountLicense/getAccount)
+Retrieve the customer account this Account License belongs to.
+
+#### [getAllObjects](/reference/services/SoftLayer_Software_AccountLicense/getAllObjects)
+Return all account licenses
+
+#### [getBillingItem](/reference/services/SoftLayer_Software_AccountLicense/getBillingItem)
+Retrieve the billing item for a software account license.
+
+#### [getObject](/reference/services/SoftLayer_Software_AccountLicense/getObject)
+Retrieve a SoftLayer_Software_AccountLicense record.
+
+#### [getSoftwareDescription](/reference/services/SoftLayer_Software_AccountLicense/getSoftwareDescription)
+Retrieve the SoftLayer_Software_Description that this account license is for.
+
 </div>
 

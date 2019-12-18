@@ -1,6 +1,6 @@
 ---
 title: "generateOrderTemplate"
-description: "Obtain an [[SoftLayer_Container_Product_Order_Hardware_Server (type)|order container]] that can be sent to [[SoftLayer_P... "
+description: "Obtain an [SoftLayer_Container_Product_Order_Hardware_Server]({{<ref 'reference/datatypes/SoftLayer_Container_Product_Or... "
 layout: "method"
 tags:
     - "method"
@@ -18,13 +18,13 @@ Obtain an order container for a given template object
 
 ## Overview 
 
-Obtain an [[SoftLayer_Container_Product_Order_Hardware_Server (type)|order container]] that can be sent to [[SoftLayer_Product_Order/verifyOrder|verifyOrder]] or [[SoftLayer_Product_Order/placeOrder|placeOrder]]. 
+Obtain an [SoftLayer_Container_Product_Order_Hardware_Server]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Hardware_Server">}}). 
 
 
 This is primarily useful when there is a necessity to confirm the price which will be charged for an order. 
 
 
-See [[SoftLayer_Hardware/createObject|createObject]] for specifics on the requirements of the template object parameter. 
+See [SoftLayer_Hardware::createObject]({{<ref "reference/services/SoftLayer_Hardware/createObject">}}) for specifics on the requirements of the template object parameter. 
 
 -----
 

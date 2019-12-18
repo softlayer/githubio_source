@@ -41,139 +41,90 @@ Summary presented to reviewers when determining whether or not to accept a proof
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountName" name=accountName>accountName</a>
-            </span>
-            <div class='views-field-body'>Account's companyName </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountOwnerName" name=accountOwnerName>accountOwnerName</a>
-            </span>
-            <div class='views-field-body'>Current account owner </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#amount" name=amount>amount</a>
-            </span>
-            <div class='views-field-body'>Dollar amount requested </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>Date the request was submitted </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#customerEmail" name=customerEmail>customerEmail</a>
-            </span>
-            <div class='views-field-body'>Email of the customer receiving the proof of concept account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#customerName" name=customerName>customerName</a>
-            </span>
-            <div class='views-field-body'>Name of the customer receiving the proof of concept account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Request record's id </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastUpdate" name=lastUpdate>lastUpdate</a>
-            </span>
-            <div class='views-field-body'>Date of the last state change on the request </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nextApproverEmail" name=nextApproverEmail>nextApproverEmail</a>
-            </span>
-            <div class='views-field-body'>Email address of the reviewer, if any, currently reviewing the request </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#requesterEmail" name=requesterEmail>requesterEmail</a>
-            </span>
-            <div class='views-field-body'>Email address of the requester </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#requesterName" name=requesterName>requesterName</a>
-            </span>
-            <div class='views-field-body'>Requesting IBMer's full name </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#reviewUrl" name=reviewUrl>reviewUrl</a>
-            </span>
-            <div class='views-field-body'>URL for the individual review </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#status" name=status>status</a>
-            </span>
-            <div class='views-field-body'>Request's current status (Pending, Denied, or Approved) </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountName]: #accountname
+#### [accountName]
+Account's companyName  
+<span class="type-label">Type: </span>**string**
+
+-----
+[accountOwnerName]: #accountownername
+#### [accountOwnerName]
+Current account owner  
+<span class="type-label">Type: </span>**string**
+
+-----
+[amount]: #amount
+#### [amount]
+Dollar amount requested  
+<span class="type-label">Type: </span>**float**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+Date the request was submitted  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[customerEmail]: #customeremail
+#### [customerEmail]
+Email of the customer receiving the proof of concept account  
+<span class="type-label">Type: </span>**string**
+
+-----
+[customerName]: #customername
+#### [customerName]
+Name of the customer receiving the proof of concept account  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+Request record's id  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[lastUpdate]: #lastupdate
+#### [lastUpdate]
+Date of the last state change on the request  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[nextApproverEmail]: #nextapproveremail
+#### [nextApproverEmail]
+Email address of the reviewer, if any, currently reviewing the request  
+<span class="type-label">Type: </span>**string**
+
+-----
+[requesterEmail]: #requesteremail
+#### [requesterEmail]
+Email address of the requester  
+<span class="type-label">Type: </span>**string**
+
+-----
+[requesterName]: #requestername
+#### [requesterName]
+Requesting IBMer's full name  
+<span class="type-label">Type: </span>**string**
+
+-----
+[reviewUrl]: #reviewurl
+#### [reviewUrl]
+URL for the individual review  
+<span class="type-label">Type: </span>**string**
+
+-----
+[status]: #status
+#### [status]
+Request's current status (Pending, Denied, or Approved)  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -25,61 +25,51 @@ Load balancers can be upgraded by using the upgradeConnectionLimit function, but
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/disable'> disable</a> </span>
-            <div class='views-field-body'>Disable a Virtual IP Address</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit the object by passing in a modified instance of the object</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/enable'> enable</a> </span>
-            <div class='views-field-body'>Enable a Virtual IP Address</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve the account that owns this load balancer.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/getBillingItem'> getBillingItem</a> </span>
-            <div class='views-field-body'>Retrieve the current billing item for the Load Balancer.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/getCustomerManagedFlag'> getCustomerManagedFlag</a> </span>
-            <div class='views-field-body'>Retrieve if false, this VIP and associated services may be edited via the portal or the API. If true, you must configure this VIP manually on the device.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/getManagedResourceFlag'> getManagedResourceFlag</a> </span>
-            <div class='views-field-body'>Retrieve a flag indicating that the load balancer is a managed resource.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_LoadBalancer_VirtualIpAddress record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/getServices'> getServices</a> </span>
-            <div class='views-field-body'>Retrieve the services on this load balancer.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/kickAllConnections'> kickAllConnections</a> </span>
-            <div class='views-field-body'>Kick all active connections off a Virtual IP Address.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/upgradeConnectionLimit'> upgradeConnectionLimit</a> </span>
-            <div class='views-field-body'>Upgrades the connection limit on the Virtual IP Address and changes the billing item on your account to reflect the change.</div>
-        </div>
-        </div>
+</div>
+
+#### [disable](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/disable)
+Disable a Virtual IP Address
+
+#### [editObject](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/editObject)
+Edit the object by passing in a modified instance of the object
+
+#### [enable](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/enable)
+Enable a Virtual IP Address
+
+#### [getAccount](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/getAccount)
+Retrieve the account that owns this load balancer.
+
+#### [getBillingItem](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/getBillingItem)
+Retrieve the current billing item for the Load Balancer.
+
+#### [getCustomerManagedFlag](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/getCustomerManagedFlag)
+Retrieve if false, this VIP and associated services may be edited via the portal or the API. If true, you must configure this VIP manually on the device.
+
+#### [getManagedResourceFlag](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/getManagedResourceFlag)
+Retrieve a flag indicating that the load balancer is a managed resource.
+
+#### [getObject](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/getObject)
+Retrieve a SoftLayer_Network_LoadBalancer_VirtualIpAddress record.
+
+#### [getServices](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/getServices)
+Retrieve the services on this load balancer.
+
+#### [kickAllConnections](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/kickAllConnections)
+Kick all active connections off a Virtual IP Address.
+
+#### [upgradeConnectionLimit](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/upgradeConnectionLimit)
+Upgrades the connection limit on the Virtual IP Address and changes the billing item on your account to reflect the change.
+
 </div>
 

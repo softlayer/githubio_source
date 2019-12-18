@@ -36,63 +36,47 @@ This class represents a facility visitor that is not an active employee or custo
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#companyName" name=companyName>companyName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#firstName" name=firstName>firstName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastName" name=lastName>lastName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#typeId" name=typeId>typeId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#visitorType" name=visitorType>visitorType</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Access_Facility_Visitor_Type'>SoftLayer_User_Access_Facility_Visitor_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[companyName]: #companyname
+#### [companyName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[firstName]: #firstname
+#### [firstName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[lastName]: #lastname
+#### [lastName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[typeId]: #typeid
+#### [typeId]
+  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[visitorType]: #visitortype
+#### [visitorType]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Access_Facility_Visitor_Type'>SoftLayer_User_Access_Facility_Visitor_Type </a>**
+
+
+## Count
 </div>
 
 

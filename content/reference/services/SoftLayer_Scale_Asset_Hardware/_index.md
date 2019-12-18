@@ -23,41 +23,36 @@ A hardware asset is a fixed asset of scale group. It is not automatically scaled
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Asset_Hardware/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Pin hardware on a group. This can be done at anytime, whether the group is active or not. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Asset_Hardware/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Delete this group asset.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Asset_Hardware/getHardware'> getHardware</a> </span>
-            <div class='views-field-body'>Retrieve the hardware for this asset.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Asset_Hardware/getHardwareId'> getHardwareId</a> </span>
-            <div class='views-field-body'>Retrieve the identifier of the hardware for this asset.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Asset_Hardware/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Scale_Asset_Hardware record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Asset_Hardware/getScaleGroup'> getScaleGroup</a> </span>
-            <div class='views-field-body'>Retrieve the group this asset belongs to.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Scale_Asset_Hardware/createObject)
+Pin hardware on a group. This can be done at anytime, whether the group is active or not. 
+
+#### [deleteObject](/reference/services/SoftLayer_Scale_Asset_Hardware/deleteObject)
+Delete this group asset.
+
+#### [getHardware](/reference/services/SoftLayer_Scale_Asset_Hardware/getHardware)
+Retrieve the hardware for this asset.
+
+#### [getHardwareId](/reference/services/SoftLayer_Scale_Asset_Hardware/getHardwareId)
+Retrieve the identifier of the hardware for this asset.
+
+#### [getObject](/reference/services/SoftLayer_Scale_Asset_Hardware/getObject)
+Retrieve a SoftLayer_Scale_Asset_Hardware record.
+
+#### [getScaleGroup](/reference/services/SoftLayer_Scale_Asset_Hardware/getScaleGroup)
+Retrieve the group this asset belongs to.
+
 </div>
 

@@ -1,6 +1,6 @@
 ---
 title: "getRecalculatedOrderContainer"
-description: "Generate an [[SoftLayer_Container_Product_Order|order container]] from a billing order. This will take into account prom... "
+description: "Generate an [SoftLayer_Container_Product_Order]({{<ref 'reference/datatypes/SoftLayer_Container_Product_Order'>}}) from... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getRecalculatedOrderContainer
 
-Generate an [[SoftLayer_Container_Product_Order|order container]] from a billing order. 
+Generate an [SoftLayer_Container_Product_Order]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order">}}) from a billing order. 
 
 
 ## Overview 
-Generate an [[SoftLayer_Container_Product_Order|order container]] from a billing order. This will take into account promotions, reseller status, estimated taxes and all other standard order verification processes. 
+Generate an [SoftLayer_Container_Product_Order]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order">}}) from a billing order. This will take into account promotions, reseller status, estimated taxes and all other standard order verification processes. 
 
 -----
 

@@ -46,179 +46,114 @@ This container class holds information on a media file such as file name, codec,
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#audioBitRate" name=audioBitRate>audioBitRate</a>
-            </span>
-            <div class='views-field-body'>The audio bit rate </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#audioChannelMode" name=audioChannelMode>audioChannelMode</a>
-            </span>
-            <div class='views-field-body'>The audio channel mode </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#audioChannels" name=audioChannels>audioChannels</a>
-            </span>
-            <div class='views-field-body'>The number of audio channels </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#audioCodec" name=audioCodec>audioCodec</a>
-            </span>
-            <div class='views-field-body'>The audio codec name </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#audioSampleRate" name=audioSampleRate>audioSampleRate</a>
-            </span>
-            <div class='views-field-body'>The audio sample rate </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#duration" name=duration>duration</a>
-            </span>
-            <div class='views-field-body'>The duration of a media </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#errorMessage" name=errorMessage>errorMessage</a>
-            </span>
-            <div class='views-field-body'>The error message if any. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#file" name=file>file</a>
-            </span>
-            <div class='views-field-body'>The name of a media file </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#fileFormat" name=fileFormat>fileFormat</a>
-            </span>
-            <div class='views-field-body'>The file format </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#fileSize" name=fileSize>fileSize</a>
-            </span>
-            <div class='views-field-body'>The size of a media file in byte </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned long</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#frameRate" name=frameRate>frameRate</a>
-            </span>
-            <div class='views-field-body'>The frame rate </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sizeX" name=sizeX>sizeX</a>
-            </span>
-            <div class='views-field-body'>The width of a media in pixel </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sizeY" name=sizeY>sizeY</a>
-            </span>
-            <div class='views-field-body'>The height of a media in pixel </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#totalFrames" name=totalFrames>totalFrames</a>
-            </span>
-            <div class='views-field-body'>The total of frames </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned long</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#videoAspectX" name=videoAspectX>videoAspectX</a>
-            </span>
-            <div class='views-field-body'>The width in a video's width to height aspect ratio </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#videoAspectY" name=videoAspectY>videoAspectY</a>
-            </span>
-            <div class='views-field-body'>The height in a video's width to height aspect ratio </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#videoCodec" name=videoCodec>videoCodec</a>
-            </span>
-            <div class='views-field-body'>The video codec name </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[audioBitRate]: #audiobitrate
+#### [audioBitRate]
+The audio bit rate  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[audioChannelMode]: #audiochannelmode
+#### [audioChannelMode]
+The audio channel mode  
+<span class="type-label">Type: </span>**string**
+
+-----
+[audioChannels]: #audiochannels
+#### [audioChannels]
+The number of audio channels  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[audioCodec]: #audiocodec
+#### [audioCodec]
+The audio codec name  
+<span class="type-label">Type: </span>**string**
+
+-----
+[audioSampleRate]: #audiosamplerate
+#### [audioSampleRate]
+The audio sample rate  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[duration]: #duration
+#### [duration]
+The duration of a media  
+<span class="type-label">Type: </span>**float**
+
+-----
+[errorMessage]: #errormessage
+#### [errorMessage]
+The error message if any.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[file]: #file
+#### [file]
+The name of a media file  
+<span class="type-label">Type: </span>**string**
+
+-----
+[fileFormat]: #fileformat
+#### [fileFormat]
+The file format  
+<span class="type-label">Type: </span>**string**
+
+-----
+[fileSize]: #filesize
+#### [fileSize]
+The size of a media file in byte  
+<span class="type-label">Type: </span>**unsigned long**
+
+-----
+[frameRate]: #framerate
+#### [frameRate]
+The frame rate  
+<span class="type-label">Type: </span>**float**
+
+-----
+[sizeX]: #sizex
+#### [sizeX]
+The width of a media in pixel  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[sizeY]: #sizey
+#### [sizeY]
+The height of a media in pixel  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[totalFrames]: #totalframes
+#### [totalFrames]
+The total of frames  
+<span class="type-label">Type: </span>**unsigned long**
+
+-----
+[videoAspectX]: #videoaspectx
+#### [videoAspectX]
+The width in a video's width to height aspect ratio  
+<span class="type-label">Type: </span>**float**
+
+-----
+[videoAspectY]: #videoaspecty
+#### [videoAspectY]
+The height in a video's width to height aspect ratio  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[videoCodec]: #videocodec
+#### [videoCodec]
+The video codec name  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

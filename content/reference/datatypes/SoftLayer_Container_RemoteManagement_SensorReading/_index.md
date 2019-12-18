@@ -36,109 +36,72 @@ The SoftLayer_Container_RemoteManagement_SensorReadings contains sensor informat
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lowerCritical" name=lowerCritical>lowerCritical</a>
-            </span>
-            <div class='views-field-body'>Lower Non-Recoverable threshold </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lowerNonCritical" name=lowerNonCritical>lowerNonCritical</a>
-            </span>
-            <div class='views-field-body'>Lower Non-Critical threshold </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lowerNonRecoverable" name=lowerNonRecoverable>lowerNonRecoverable</a>
-            </span>
-            <div class='views-field-body'>Lower Non-Recoverable threshold </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sensorId" name=sensorId>sensorId</a>
-            </span>
-            <div class='views-field-body'>Sensor ID </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sensorReading" name=sensorReading>sensorReading</a>
-            </span>
-            <div class='views-field-body'>Sensor Reading </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sensorUnits" name=sensorUnits>sensorUnits</a>
-            </span>
-            <div class='views-field-body'>Sensor Units </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#status" name=status>status</a>
-            </span>
-            <div class='views-field-body'>Sensor Status </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#upperCritical" name=upperCritical>upperCritical</a>
-            </span>
-            <div class='views-field-body'>Upper Critical threshold </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#upperNonCritical" name=upperNonCritical>upperNonCritical</a>
-            </span>
-            <div class='views-field-body'>Upper Non-Critical threshold </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#upperNonRecoverable" name=upperNonRecoverable>upperNonRecoverable</a>
-            </span>
-            <div class='views-field-body'>Upper Non-Recoverable threshold </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[lowerCritical]: #lowercritical
+#### [lowerCritical]
+Lower Non-Recoverable threshold  
+<span class="type-label">Type: </span>**string**
+
+-----
+[lowerNonCritical]: #lowernoncritical
+#### [lowerNonCritical]
+Lower Non-Critical threshold  
+<span class="type-label">Type: </span>**string**
+
+-----
+[lowerNonRecoverable]: #lowernonrecoverable
+#### [lowerNonRecoverable]
+Lower Non-Recoverable threshold  
+<span class="type-label">Type: </span>**string**
+
+-----
+[sensorId]: #sensorid
+#### [sensorId]
+Sensor ID  
+<span class="type-label">Type: </span>**string**
+
+-----
+[sensorReading]: #sensorreading
+#### [sensorReading]
+Sensor Reading  
+<span class="type-label">Type: </span>**string**
+
+-----
+[sensorUnits]: #sensorunits
+#### [sensorUnits]
+Sensor Units  
+<span class="type-label">Type: </span>**string**
+
+-----
+[status]: #status
+#### [status]
+Sensor Status  
+<span class="type-label">Type: </span>**string**
+
+-----
+[upperCritical]: #uppercritical
+#### [upperCritical]
+Upper Critical threshold  
+<span class="type-label">Type: </span>**string**
+
+-----
+[upperNonCritical]: #uppernoncritical
+#### [upperNonCritical]
+Upper Non-Critical threshold  
+<span class="type-label">Type: </span>**string**
+
+-----
+[upperNonRecoverable]: #uppernonrecoverable
+#### [upperNonRecoverable]
+Upper Non-Recoverable threshold  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

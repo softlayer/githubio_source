@@ -1,6 +1,6 @@
 ---
 title: "getUsageRatePrices"
-description: "Returns a collection of rate-based [[SoftLayer_Product_Item_Price]] objects associated with the [[SoftLayer_Product_Item... "
+description: "Returns a collection of rate-based [SoftLayer_Product_Item_Price]({{<ref 'reference/datatypes/SoftLayer_Product_Item_Pri... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Get all the rate-based prices for the location and items specified.
 
 
 ## Overview 
-Returns a collection of rate-based [[SoftLayer_Product_Item_Price]] objects associated with the [[SoftLayer_Product_Item]] objects and the [[SoftLayer_Location]] specified. The location is required to get the appropriate rate-based prices because the usage rates may vary from datacenter to datacenter. 
+Returns a collection of rate-based [SoftLayer_Product_Item_Price]({{<ref "reference/datatypes/SoftLayer_Product_Item_Price">}}) objects associated with the [SoftLayer_Product_Item]({{<ref "reference/datatypes/SoftLayer_Product_Item">}}) objects and the [SoftLayer_Location]({{<ref "reference/datatypes/SoftLayer_Location">}}) specified. The location is required to get the appropriate rate-based prices because the usage rates may vary from datacenter to datacenter. 
 
 -----
 

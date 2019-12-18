@@ -36,243 +36,159 @@ This data type presents the structure for a dedicated host. The data type contai
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>The dedicated host's associated account id.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cpuCount" name=cpuCount>cpuCount</a>
-            </span>
-            <div class='views-field-body'>The capacity that the dedicated host's CPU allocation is restricted to.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date that the dedicated host was created.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#diskCapacity" name=diskCapacity>diskCapacity</a>
-            </span>
-            <div class='views-field-body'>The capacity that the dedicated host's disk allocation is restricted to.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The dedicated host's associated unique id.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#memoryCapacity" name=memoryCapacity>memoryCapacity</a>
-            </span>
-            <div class='views-field-body'>The capacity that the dedicated host's memory allocation is restricted to.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>The date that the dedicated host was last modified.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>The dedicated host's name.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#notes" name=notes>notes</a>
-            </span>
-            <div class='views-field-body'>A note of up to 1,000 characters about a dedicated host.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The account that the dedicated host belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allocationStatus" name=allocationStatus>allocationStatus</a>
-            </span>
-            <div class='views-field-body'>The container that represents allocations on the dedicated host. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Virtual_DedicatedHost_AllocationStatus'>SoftLayer_Container_Virtual_DedicatedHost_AllocationStatus </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#backendRouter" name=backendRouter>backendRouter</a>
-            </span>
-            <div class='views-field-body'>The backend router behind dedicated host's pool of resources. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Router_Backend'>SoftLayer_Hardware_Router_Backend </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingItem" name=billingItem>billingItem</a>
-            </span>
-            <div class='views-field-body'>The billing item for the dedicated host. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item_Virtual_DedicatedHost'>SoftLayer_Billing_Item_Virtual_DedicatedHost </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#datacenter" name=datacenter>datacenter</a>
-            </span>
-            <div class='views-field-body'>The datacenter that the dedicated host resides in. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#guests" name=guests>guests</a>
-            </span>
-            <div class='views-field-body'>The guests associated with the dedicated host. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#internalTagReferences" name=internalTagReferences>internalTagReferences</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pciDeviceAllocationStatus" name=pciDeviceAllocationStatus>pciDeviceAllocationStatus</a>
-            </span>
-            <div class='views-field-body'>The container that represents PCI device allocations on the dedicated host. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Virtual_DedicatedHost_Pci_Device_AllocationStatus'>SoftLayer_Container_Virtual_DedicatedHost_Pci_Device_AllocationStatus </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pciDevices" name=pciDevices>pciDevices</a>
-            </span>
-            <div class='views-field-body'>A collection of SoftLayer_Virtual_Host_PciDevice objects on the host. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Host_PciDevice'>SoftLayer_Virtual_Host_PciDevice[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#tagReferences" name=tagReferences>tagReferences</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#guestCount" name=guestCount>guestCount</a>
-            </span>
-            <div class='views-field-body'>A count of the guests associated with the dedicated host. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#internalTagReferenceCount" name=internalTagReferenceCount>internalTagReferenceCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pciDeviceCount" name=pciDeviceCount>pciDeviceCount</a>
-            </span>
-            <div class='views-field-body'>A count of a collection of SoftLayer_Virtual_Host_PciDevice objects on the host. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#tagReferenceCount" name=tagReferenceCount>tagReferenceCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+The dedicated host's associated account id.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[cpuCount]: #cpucount
+#### [cpuCount]
+The capacity that the dedicated host's CPU allocation is restricted to.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+The date that the dedicated host was created.   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[diskCapacity]: #diskcapacity
+#### [diskCapacity]
+The capacity that the dedicated host's disk allocation is restricted to.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+The dedicated host's associated unique id.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[memoryCapacity]: #memorycapacity
+#### [memoryCapacity]
+The capacity that the dedicated host's memory allocation is restricted to.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+The date that the dedicated host was last modified.   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[name]: #name
+#### [name]
+The dedicated host's name.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[notes]: #notes
+#### [notes]
+A note of up to 1,000 characters about a dedicated host.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The account that the dedicated host belongs to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[allocationStatus]: #allocationstatus
+#### [allocationStatus]
+The container that represents allocations on the dedicated host.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_DedicatedHost_AllocationStatus'>SoftLayer_Container_Virtual_DedicatedHost_AllocationStatus </a>**
+
+-----
+[backendRouter]: #backendrouter
+#### [backendRouter]
+The backend router behind dedicated host's pool of resources.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Router_Backend'>SoftLayer_Hardware_Router_Backend </a>**
+
+-----
+[billingItem]: #billingitem
+#### [billingItem]
+The billing item for the dedicated host.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Virtual_DedicatedHost'>SoftLayer_Billing_Item_Virtual_DedicatedHost </a>**
+
+-----
+[datacenter]: #datacenter
+#### [datacenter]
+The datacenter that the dedicated host resides in.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+-----
+[guests]: #guests
+#### [guests]
+The guests associated with the dedicated host.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[internalTagReferences]: #internaltagreferences
+#### [internalTagReferences]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**
+
+-----
+[pciDeviceAllocationStatus]: #pcideviceallocationstatus
+#### [pciDeviceAllocationStatus]
+The container that represents PCI device allocations on the dedicated host.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_DedicatedHost_Pci_Device_AllocationStatus'>SoftLayer_Container_Virtual_DedicatedHost_Pci_Device_AllocationStatus </a>**
+
+-----
+[pciDevices]: #pcidevices
+#### [pciDevices]
+A collection of SoftLayer_Virtual_Host_PciDevice objects on the host.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Host_PciDevice'>SoftLayer_Virtual_Host_PciDevice[] </a>**
+
+-----
+[tagReferences]: #tagreferences
+#### [tagReferences]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**
+
+
+## Count
+
+-----
+[guestCount]: #guestcount
+#### [guestCount]
+A count of the guests associated with the dedicated host.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[internalTagReferenceCount]: #internaltagreferencecount
+#### [internalTagReferenceCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[pciDeviceCount]: #pcidevicecount
+#### [pciDeviceCount]
+A count of a collection of SoftLayer_Virtual_Host_PciDevice objects on the host.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[tagReferenceCount]: #tagreferencecount
+#### [tagReferenceCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

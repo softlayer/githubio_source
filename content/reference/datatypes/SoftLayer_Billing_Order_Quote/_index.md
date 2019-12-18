@@ -46,163 +46,108 @@ The SoftLayer_Billing_Oder_Quote data type contains general information relating
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>Identification Number of the account record tied to the quote </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#completedPurchaseDataId" name=completedPurchaseDataId>completedPurchaseDataId</a>
-            </span>
-            <div class='views-field-body'>Identification Number of the order record tied to the quote. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>Holds the date the quote record was created </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#expirationDate" name=expirationDate>expirationDate</a>
-            </span>
-            <div class='views-field-body'>This property holds the date of expiration of a quote, after that date the quote would be deem expired </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The id use to identify a quote. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>Holds the date when the quote record was modified with reference to its creation date </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>The name given to quote by the initiator </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#publicNote" name=publicNote>publicNote</a>
-            </span>
-            <div class='views-field-body'>This property Holds system generated notes. In our case if a quote is tied to an order where one of the order item has an inactive promotion code, the quote will be considered invalid. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#quoteKey" name=quoteKey>quoteKey</a>
-            </span>
-            <div class='views-field-body'>Holds system generated hash password for the Quote </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#status" name=status>status</a>
-            </span>
-            <div class='views-field-body'>This property Holds the current status of a Quote: pending,expired, saved or deleted </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>A quote's corresponding account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#doNotContactFlag" name=doNotContactFlag>doNotContactFlag</a>
-            </span>
-            <div class='views-field-body'>Indicates whether the owner of the quote chosen to no longer be contacted. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#order" name=order>order</a>
-            </span>
-            <div class='views-field-body'>This order contains the records for which products were selected for this quote. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ordersFromQuote" name=ordersFromQuote>ordersFromQuote</a>
-            </span>
-            <div class='views-field-body'>These are all the orders that were created from this quote. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ordersFromQuoteCount" name=ordersFromQuoteCount>ordersFromQuoteCount</a>
-            </span>
-            <div class='views-field-body'>A count of these are all the orders that were created from this quote. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+Identification Number of the account record tied to the quote  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[completedPurchaseDataId]: #completedpurchasedataid
+#### [completedPurchaseDataId]
+Identification Number of the order record tied to the quote.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+Holds the date the quote record was created  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[expirationDate]: #expirationdate
+#### [expirationDate]
+This property holds the date of expiration of a quote, after that date the quote would be deem expired  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+The id use to identify a quote.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+Holds the date when the quote record was modified with reference to its creation date  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[name]: #name
+#### [name]
+The name given to quote by the initiator  
+<span class="type-label">Type: </span>**string**
+
+-----
+[publicNote]: #publicnote
+#### [publicNote]
+This property Holds system generated notes. In our case if a quote is tied to an order where one of the order item has an inactive promotion code, the quote will be considered invalid.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[quoteKey]: #quotekey
+#### [quoteKey]
+Holds system generated hash password for the Quote  
+<span class="type-label">Type: </span>**string**
+
+-----
+[status]: #status
+#### [status]
+This property Holds the current status of a Quote: pending,expired, saved or deleted  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+A quote's corresponding account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[doNotContactFlag]: #donotcontactflag
+#### [doNotContactFlag]
+Indicates whether the owner of the quote chosen to no longer be contacted.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[order]: #order
+#### [order]
+This order contains the records for which products were selected for this quote.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**
+
+-----
+[ordersFromQuote]: #ordersfromquote
+#### [ordersFromQuote]
+These are all the orders that were created from this quote.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order[] </a>**
+
+
+## Count
+
+-----
+[ordersFromQuoteCount]: #ordersfromquotecount
+#### [ordersFromQuoteCount]
+A count of these are all the orders that were created from this quote.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

@@ -1,6 +1,6 @@
 ---
 title: "getAccount"
-description: "Retrieve a block device template group's [[SoftLayer_Account|account]]."
+description: "Retrieve a block device template group's [SoftLayer_Account]({{<ref 'reference/datatypes/SoftLayer_Account'>}})."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::getAccount
 
-Retrieve a block device template group's [[SoftLayer_Account|account]].
+Retrieve a block device template group's [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}).
 
 
 ## Overview 
-Retrieve a block device template group's [[SoftLayer_Account|account]].
+Retrieve a block device template group's [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}).
 
 -----
 

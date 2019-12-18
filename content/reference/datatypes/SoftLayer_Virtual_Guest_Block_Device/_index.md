@@ -38,163 +38,107 @@ A guest, also known as a virtual server, represents an allocation of resources o
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bootableFlag" name=bootableFlag>bootableFlag</a>
-            </span>
-            <div class='views-field-body'>A flag indicating if a block device can be booted from.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date a block device was created.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#device" name=device>device</a>
-            </span>
-            <div class='views-field-body'>A name used to identify a block device.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#diskImageId" name=diskImageId>diskImageId</a>
-            </span>
-            <div class='views-field-body'>A block device [[SoftLayer_Virtual_Disk_Image|disk image]]'s unique ID.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#guestId" name=guestId>guestId</a>
-            </span>
-            <div class='views-field-body'>The [[SoftLayer_Virtual_Guest|computing instance]] that a block device is associated with.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hotPlugFlag" name=hotPlugFlag>hotPlugFlag</a>
-            </span>
-            <div class='views-field-body'>A flag indicating if a block device can be plugged into a computing instance without having to shut down the instance.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A computing instance block device's unique ID.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>The data a block device was last modified.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#mountMode" name=mountMode>mountMode</a>
-            </span>
-            <div class='views-field-body'>The writing mode that a virtual block device is mounted as, either "RO" for read-only mode or "RW" for read and write mode.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#mountType" name=mountType>mountType</a>
-            </span>
-            <div class='views-field-body'>The type of device that a virtual block device is mounted as, either "Disk" for a directly connected storage disk or "CD" for devices that are mounted as optical drives..  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#statusId" name=statusId>statusId</a>
-            </span>
-            <div class='views-field-body'>The status of the device, either disconnected or connected  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#uuid" name=uuid>uuid</a>
-            </span>
-            <div class='views-field-body'>A block device's unique ID on a virtualization platform.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#diskImage" name=diskImage>diskImage</a>
-            </span>
-            <div class='views-field-body'>The disk image that a block device connects to in a computing instance. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#guest" name=guest>guest</a>
-            </span>
-            <div class='views-field-body'>The computing instance that this block device is attached to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#status" name=status>status</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Status'>SoftLayer_Virtual_Guest_Block_Device_Status </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[bootableFlag]: #bootableflag
+#### [bootableFlag]
+A flag indicating if a block device can be booted from.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+The date a block device was created.   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[device]: #device
+#### [device]
+A name used to identify a block device.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[diskImageId]: #diskimageid
+#### [diskImageId]
+A block device [SoftLayer_Virtual_Disk_Image]({{<ref "reference/datatypes/SoftLayer_Virtual_Disk_Image">}})'s unique ID.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[guestId]: #guestid
+#### [guestId]
+The [SoftLayer_Virtual_Guest]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest">}}) that a block device is associated with.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[hotPlugFlag]: #hotplugflag
+#### [hotPlugFlag]
+A flag indicating if a block device can be plugged into a computing instance without having to shut down the instance.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+A computing instance block device's unique ID.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+The data a block device was last modified.   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[mountMode]: #mountmode
+#### [mountMode]
+The writing mode that a virtual block device is mounted as, either "RO" for read-only mode or "RW" for read and write mode.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[mountType]: #mounttype
+#### [mountType]
+The type of device that a virtual block device is mounted as, either "Disk" for a directly connected storage disk or "CD" for devices that are mounted as optical drives..   
+<span class="type-label">Type: </span>**string**
+
+-----
+[statusId]: #statusid
+#### [statusId]
+The status of the device, either disconnected or connected   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[uuid]: #uuid
+#### [uuid]
+A block device's unique ID on a virtualization platform.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[diskImage]: #diskimage
+#### [diskImage]
+The disk image that a block device connects to in a computing instance.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image </a>**
+
+-----
+[guest]: #guest
+#### [guest]
+The computing instance that this block device is attached to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+
+-----
+[status]: #status
+#### [status]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Status'>SoftLayer_Virtual_Guest_Block_Device_Status </a>**
+
+
+## Count
 </div>
 
 

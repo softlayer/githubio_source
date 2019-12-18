@@ -36,129 +36,84 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#currency" name=currency>currency</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#display" name=display>display</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#format" name=format>format</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locale" name=locale>locale</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#position" name=position>position</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#precision" name=precision>precision</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#script" name=script>script</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#service" name=service>service</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#symbol" name=symbol>symbol</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#tag" name=tag>tag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#value" name=value>value</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[currency]: #currency
+#### [currency]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[display]: #display
+#### [display]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[format]: #format
+#### [format]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[locale]: #locale
+#### [locale]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[name]: #name
+#### [name]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[position]: #position
+#### [position]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[precision]: #precision
+#### [precision]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[script]: #script
+#### [script]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[service]: #service
+#### [service]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[symbol]: #symbol
+#### [symbol]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[tag]: #tag
+#### [tag]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[value]: #value
+#### [value]
+  
+<span class="type-label">Type: </span>**float**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

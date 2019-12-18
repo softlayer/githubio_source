@@ -1,6 +1,6 @@
 ---
 title: "getRequiredCoreCount"
-description: "Retrieve the number of server cores required to order this item. This is deprecated. Use [[SoftLayer_Product_Item_Price/... "
+description: "Retrieve the number of server cores required to order this item. This is deprecated. Use [SoftLayer_Product_Item_Price::... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getRequiredCoreCount
 
-Retrieve the number of server cores required to order this item. This is deprecated. Use [[SoftLayer_Product_Item_Price/getCapacityRestrictionMinimum|getCapacityRestrictionMinimum]] and [[SoftLayer_Product_Item_Price/getCapacityRestrictionMaximum|getCapacityRestrictionMaximum]]
+Retrieve the number of server cores required to order this item. This is deprecated. Use [SoftLayer_Product_Item_Price::getCapacityRestrictionMinimum]({{<ref "reference/services/SoftLayer_Product_Item_Price/getCapacityRestrictionMinimum">}})
 
 
 ## Overview 
-Retrieve the number of server cores required to order this item. This is deprecated. Use [[SoftLayer_Product_Item_Price/getCapacityRestrictionMinimum|getCapacityRestrictionMinimum]] and [[SoftLayer_Product_Item_Price/getCapacityRestrictionMaximum|getCapacityRestrictionMaximum]]
+Retrieve the number of server cores required to order this item. This is deprecated. Use [SoftLayer_Product_Item_Price::getCapacityRestrictionMinimum]({{<ref "reference/services/SoftLayer_Product_Item_Price/getCapacityRestrictionMinimum">}})
 
 -----
 

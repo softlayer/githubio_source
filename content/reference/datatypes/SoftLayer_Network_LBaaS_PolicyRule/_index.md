@@ -40,29 +40,24 @@ This class contains layer 7 policy specifications and an array of associated rul
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#l7Policy" name=l7Policy>l7Policy</a>
-            </span>
-            <div class='views-field-body'>L7 Policy </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Policy'>SoftLayer_Network_LBaaS_L7Policy </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#l7Rules" name=l7Rules>l7Rules</a>
-            </span>
-            <div class='views-field-body'>L7 Rules </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Rule'>SoftLayer_Network_LBaaS_L7Rule[] </a></p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[l7Policy]: #l7policy
+#### [l7Policy]
+L7 Policy  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Policy'>SoftLayer_Network_LBaaS_L7Policy </a>**
+
+-----
+[l7Rules]: #l7rules
+#### [l7Rules]
+L7 Rules  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Rule'>SoftLayer_Network_LBaaS_L7Rule[] </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

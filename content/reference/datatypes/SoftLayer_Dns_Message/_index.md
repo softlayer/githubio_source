@@ -29,7 +29,7 @@ The SoftLayer_Dns_Message data type contains information for a single message ge
 
 ### seeAlso
 
-* [SoftLayer_Dns_Secondary](/reference/services/SoftLayer_Dns_Secondary )
+* [SoftLayer_Dns_Secondary](/reference/datatypes/SoftLayer_Dns_Secondary )
 
 
 
@@ -46,83 +46,59 @@ The SoftLayer_Dns_Message data type contains information for a single message ge
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date the message was created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The internal identifier for a DNS message. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#message" name=message>message</a>
-            </span>
-            <div class='views-field-body'>The message text. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#priority" name=priority>priority</a>
-            </span>
-            <div class='views-field-body'>The priority level for a DNS message.  The possible levels are 'notice' and 'error'. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#domain" name=domain>domain</a>
-            </span>
-            <div class='views-field-body'>The domain that is associated with a message. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#resourceRecord" name=resourceRecord>resourceRecord</a>
-            </span>
-            <div class='views-field-body'>The resource record that is associated with a message. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord'>SoftLayer_Dns_Domain_ResourceRecord </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#secondary" name=secondary>secondary</a>
-            </span>
-            <div class='views-field-body'>The secondary DNS record that a message belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Dns_Secondary'>SoftLayer_Dns_Secondary </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[createDate]: #createdate
+#### [createDate]
+The date the message was created.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+The internal identifier for a DNS message.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[message]: #message
+#### [message]
+The message text.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[priority]: #priority
+#### [priority]
+The priority level for a DNS message.  The possible levels are 'notice' and 'error'.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[domain]: #domain
+#### [domain]
+The domain that is associated with a message.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a>**
+
+-----
+[resourceRecord]: #resourcerecord
+#### [resourceRecord]
+The resource record that is associated with a message.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord'>SoftLayer_Dns_Domain_ResourceRecord </a>**
+
+-----
+[secondary]: #secondary
+#### [secondary]
+The secondary DNS record that a message belongs to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Secondary'>SoftLayer_Dns_Secondary </a>**
+
+
+## Count
 </div>
 
 

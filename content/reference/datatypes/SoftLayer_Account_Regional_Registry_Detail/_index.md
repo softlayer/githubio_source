@@ -40,143 +40,97 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>The detail object's associated [[SoftLayer_Account|account]] id  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date and time the detail object was created  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#detailTypeId" name=detailTypeId>detailTypeId</a>
-            </span>
-            <div class='views-field-body'>The detail object's associated [[SoftLayer_Account_Regional_Registry_Detail_Type|type]] id  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Unique ID of the detail object  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>The date and time the detail object was last modified  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#regionalInternetRegistryHandleId" name=regionalInternetRegistryHandleId>regionalInternetRegistryHandleId</a>
-            </span>
-            <div class='views-field-body'>The detail object's associated [[SoftLayer_Account_Rwhois_Handle|RIR handle]] id  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The account that this detail object belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#detailType" name=detailType>detailType</a>
-            </span>
-            <div class='views-field-body'>The associated type of this detail object. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Type'>SoftLayer_Account_Regional_Registry_Detail_Type </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#details" name=details>details</a>
-            </span>
-            <div class='views-field-body'>References to the [[SoftLayer_Network_Subnet_Registration|registration objects]] that consume this detail object. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Details'>SoftLayer_Network_Subnet_Registration_Details[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#properties" name=properties>properties</a>
-            </span>
-            <div class='views-field-body'>The individual properties that define this detail object's values. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property'>SoftLayer_Account_Regional_Registry_Detail_Property[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#regionalInternetRegistryHandle" name=regionalInternetRegistryHandle>regionalInternetRegistryHandle</a>
-            </span>
-            <div class='views-field-body'>The associated RWhois handle of this detail object. Used only when detailed reassignments are necessary. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Rwhois_Handle'>SoftLayer_Account_Rwhois_Handle </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#detailCount" name=detailCount>detailCount</a>
-            </span>
-            <div class='views-field-body'>A count of references to the [[SoftLayer_Network_Subnet_Registration|registration objects]] that consume this detail object. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#propertyCount" name=propertyCount>propertyCount</a>
-            </span>
-            <div class='views-field-body'>A count of the individual properties that define this detail object's values. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+The detail object's associated [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) id   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+The date and time the detail object was created   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[detailTypeId]: #detailtypeid
+#### [detailTypeId]
+The detail object's associated [SoftLayer_Account_Regional_Registry_Detail_Type]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Type">}}) id   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+Unique ID of the detail object   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+The date and time the detail object was last modified   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[regionalInternetRegistryHandleId]: #regionalinternetregistryhandleid
+#### [regionalInternetRegistryHandleId]
+The detail object's associated [SoftLayer_Account_Rwhois_Handle]({{<ref "reference/datatypes/SoftLayer_Account_Rwhois_Handle">}}) id   
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The account that this detail object belongs to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[detailType]: #detailtype
+#### [detailType]
+The associated type of this detail object.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Type'>SoftLayer_Account_Regional_Registry_Detail_Type </a>**
+
+-----
+[details]: #details
+#### [details]
+References to the [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}) that consume this detail object.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Details'>SoftLayer_Network_Subnet_Registration_Details[] </a>**
+
+-----
+[properties]: #properties
+#### [properties]
+The individual properties that define this detail object's values.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property'>SoftLayer_Account_Regional_Registry_Detail_Property[] </a>**
+
+-----
+[regionalInternetRegistryHandle]: #regionalinternetregistryhandle
+#### [regionalInternetRegistryHandle]
+The associated RWhois handle of this detail object. Used only when detailed reassignments are necessary.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Rwhois_Handle'>SoftLayer_Account_Rwhois_Handle </a>**
+
+
+## Count
+
+-----
+[detailCount]: #detailcount
+#### [detailCount]
+A count of references to the [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}) that consume this detail object.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[propertyCount]: #propertycount
+#### [propertyCount]
+A count of the individual properties that define this detail object's values.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

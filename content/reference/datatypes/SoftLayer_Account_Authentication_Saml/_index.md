@@ -36,203 +36,132 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>The saml account id. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#certificate" name=certificate>certificate</a>
-            </span>
-            <div class='views-field-body'>The identity provider x509 certificate. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#certificateFingerprint" name=certificateFingerprint>certificateFingerprint</a>
-            </span>
-            <div class='views-field-body'>The identity provider x509 certificate fingerprint. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#entityId" name=entityId>entityId</a>
-            </span>
-            <div class='views-field-body'>The identity provider entity ID. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The saml internal identifying number. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#serviceProviderCertificate" name=serviceProviderCertificate>serviceProviderCertificate</a>
-            </span>
-            <div class='views-field-body'>The service provider x509 certificate. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#serviceProviderEntityId" name=serviceProviderEntityId>serviceProviderEntityId</a>
-            </span>
-            <div class='views-field-body'>The service provider entity IDs. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#serviceProviderPublicKey" name=serviceProviderPublicKey>serviceProviderPublicKey</a>
-            </span>
-            <div class='views-field-body'>The service provider public key. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#serviceProviderSingleLogoutEncoding" name=serviceProviderSingleLogoutEncoding>serviceProviderSingleLogoutEncoding</a>
-            </span>
-            <div class='views-field-body'>The service provider signle logout encoding. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#serviceProviderSingleLogoutUrl" name=serviceProviderSingleLogoutUrl>serviceProviderSingleLogoutUrl</a>
-            </span>
-            <div class='views-field-body'>The service provider signle logout address. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#serviceProviderSingleSignOnEncoding" name=serviceProviderSingleSignOnEncoding>serviceProviderSingleSignOnEncoding</a>
-            </span>
-            <div class='views-field-body'>The service provider signle sign on encoding. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#serviceProviderSingleSignOnUrl" name=serviceProviderSingleSignOnUrl>serviceProviderSingleSignOnUrl</a>
-            </span>
-            <div class='views-field-body'>The service provider signle sign on address. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#singleLogoutEncoding" name=singleLogoutEncoding>singleLogoutEncoding</a>
-            </span>
-            <div class='views-field-body'>The identity provider single logout encoding. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#singleLogoutUrl" name=singleLogoutUrl>singleLogoutUrl</a>
-            </span>
-            <div class='views-field-body'>The identity provider sigle logout address. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#singleSignOnEncoding" name=singleSignOnEncoding>singleSignOnEncoding</a>
-            </span>
-            <div class='views-field-body'>The identity provider single sign on encoding. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#singleSignOnUrl" name=singleSignOnUrl>singleSignOnUrl</a>
-            </span>
-            <div class='views-field-body'>The identity provider signle sign on address. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The account associated with this saml configuration. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributes" name=attributes>attributes</a>
-            </span>
-            <div class='views-field-body'>The saml attribute values for a SoftLayer customer account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute'>SoftLayer_Account_Authentication_Attribute[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributeCount" name=attributeCount>attributeCount</a>
-            </span>
-            <div class='views-field-body'>A count of the saml attribute values for a SoftLayer customer account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+The saml account id.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[certificate]: #certificate
+#### [certificate]
+The identity provider x509 certificate.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[certificateFingerprint]: #certificatefingerprint
+#### [certificateFingerprint]
+The identity provider x509 certificate fingerprint.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[entityId]: #entityid
+#### [entityId]
+The identity provider entity ID.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+The saml internal identifying number.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[serviceProviderCertificate]: #serviceprovidercertificate
+#### [serviceProviderCertificate]
+The service provider x509 certificate.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[serviceProviderEntityId]: #serviceproviderentityid
+#### [serviceProviderEntityId]
+The service provider entity IDs.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[serviceProviderPublicKey]: #serviceproviderpublickey
+#### [serviceProviderPublicKey]
+The service provider public key.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[serviceProviderSingleLogoutEncoding]: #serviceprovidersinglelogoutencoding
+#### [serviceProviderSingleLogoutEncoding]
+The service provider signle logout encoding.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[serviceProviderSingleLogoutUrl]: #serviceprovidersinglelogouturl
+#### [serviceProviderSingleLogoutUrl]
+The service provider signle logout address.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[serviceProviderSingleSignOnEncoding]: #serviceprovidersinglesignonencoding
+#### [serviceProviderSingleSignOnEncoding]
+The service provider signle sign on encoding.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[serviceProviderSingleSignOnUrl]: #serviceprovidersinglesignonurl
+#### [serviceProviderSingleSignOnUrl]
+The service provider signle sign on address.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[singleLogoutEncoding]: #singlelogoutencoding
+#### [singleLogoutEncoding]
+The identity provider single logout encoding.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[singleLogoutUrl]: #singlelogouturl
+#### [singleLogoutUrl]
+The identity provider sigle logout address.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[singleSignOnEncoding]: #singlesignonencoding
+#### [singleSignOnEncoding]
+The identity provider single sign on encoding.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[singleSignOnUrl]: #singlesignonurl
+#### [singleSignOnUrl]
+The identity provider signle sign on address.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The account associated with this saml configuration.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[attributes]: #attributes
+#### [attributes]
+The saml attribute values for a SoftLayer customer account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute'>SoftLayer_Account_Authentication_Attribute[] </a>**
+
+
+## Count
+
+-----
+[attributeCount]: #attributecount
+#### [attributeCount]
+A count of the saml attribute values for a SoftLayer customer account.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

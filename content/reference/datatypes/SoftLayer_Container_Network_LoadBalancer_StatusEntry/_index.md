@@ -22,7 +22,7 @@ The LoadBalancer_StatusEntry object stores information about the current status 
 
 It is a data container that cannot be edited, deleted, or saved. 
 
-It is returned exclusively by the getStatus method on the [[SoftLayer_Network_LoadBalancer_Service]] service 
+It is returned exclusively by the getStatus method on the [SoftLayer_Network_LoadBalancer_Service]({{<ref "reference/datatypes/SoftLayer_Network_LoadBalancer_Service">}}) service 
 
 
 
@@ -40,29 +40,24 @@ It is returned exclusively by the getStatus method on the [[SoftLayer_Network_Lo
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#content" name=content>content</a>
-            </span>
-            <div class='views-field-body'>The value of the entry. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#label" name=label>label</a>
-            </span>
-            <div class='views-field-body'>Text description of the status entry </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[content]: #content
+#### [content]
+The value of the entry.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[label]: #label
+#### [label]
+Text description of the status entry  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

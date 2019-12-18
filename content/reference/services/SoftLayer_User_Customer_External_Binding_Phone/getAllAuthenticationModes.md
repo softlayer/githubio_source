@@ -1,6 +1,6 @@
 ---
 title: "getAllAuthenticationModes"
-description: "This service returns key names of all available authentication modes. See [[SoftLayer_Container_User_Customer_External_B... "
+description: "This service returns key names of all available authentication modes. See [SoftLayer_Container_User_Customer_External_Bi... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Returns available authentication modes
 
 
 ## Overview 
-This service returns key names of all available authentication modes. See [[SoftLayer_Container_User_Customer_External_Binding_Phone_Mode|authentication mode]] container for details. 
+This service returns key names of all available authentication modes. See [SoftLayer_Container_User_Customer_External_Binding_Phone_Mode]({{<ref "reference/datatypes/SoftLayer_Container_User_Customer_External_Binding_Phone_Mode">}}) container for details. 
 
 -----
 

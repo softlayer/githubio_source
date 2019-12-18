@@ -1,6 +1,6 @@
 ---
 title: "getReceipt"
-description: "Generate a [[SoftLayer_Container_Product_Order_Receipt]] object with all the order information."
+description: "Generate a [SoftLayer_Container_Product_Order_Receipt]({{<ref 'reference/datatypes/SoftLayer_Container_Product_Order_Rec... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Generate and return an order receipt.
 
 
 ## Overview 
-Generate a [[SoftLayer_Container_Product_Order_Receipt]] object with all the order information. 
+Generate a [SoftLayer_Container_Product_Order_Receipt]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Receipt">}}) object with all the order information. 
 
 -----
 

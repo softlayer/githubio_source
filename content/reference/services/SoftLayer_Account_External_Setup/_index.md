@@ -23,29 +23,27 @@ This service class allows the user to set up an account to be billed by an exter
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_External_Setup/finalizeExternalBillingForAccount'> finalizeExternalBillingForAccount</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_External_Setup/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Account_External_Setup record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_External_Setup/getVerifyCardTransaction'> getVerifyCardTransaction</a> </span>
-            <div class='views-field-body'>Retrieve the transaction information related to verifying the customer credit card.</div>
-        </div>
-        </div>
+</div>
+
+#### [finalizeExternalBillingForAccount](/reference/services/SoftLayer_Account_External_Setup/finalizeExternalBillingForAccount)
+
+
+#### [getObject](/reference/services/SoftLayer_Account_External_Setup/getObject)
+Retrieve a SoftLayer_Account_External_Setup record.
+
+#### [getVerifyCardTransaction](/reference/services/SoftLayer_Account_External_Setup/getVerifyCardTransaction)
+Retrieve the transaction information related to verifying the customer credit card.
+
 </div>
 

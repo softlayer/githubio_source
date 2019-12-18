@@ -23,65 +23,54 @@ A scale load balancer is a configuration for a load balancer virtual server that
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_LoadBalancer/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create a load balancer for a scale group. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_LoadBalancer/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Delete this load balancer configuration. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_LoadBalancer/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit this load balancer configuration. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_LoadBalancer/getAllocationPercent'> getAllocationPercent</a> </span>
-            <div class='views-field-body'>Retrieve the percentage of connections allocated to this virtual server.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_LoadBalancer/getHealthCheck'> getHealthCheck</a> </span>
-            <div class='views-field-body'>Retrieve the health check for this configuration.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_LoadBalancer/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Scale_LoadBalancer record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_LoadBalancer/getRoutingMethod'> getRoutingMethod</a> </span>
-            <div class='views-field-body'>Retrieve the routing method.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_LoadBalancer/getRoutingType'> getRoutingType</a> </span>
-            <div class='views-field-body'>Retrieve the routing type.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_LoadBalancer/getScaleGroup'> getScaleGroup</a> </span>
-            <div class='views-field-body'>Retrieve the group this load balancer configuration is for.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_LoadBalancer/getVirtualIpAddressId'> getVirtualIpAddressId</a> </span>
-            <div class='views-field-body'>Retrieve the ID of the virtual IP address.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_LoadBalancer/getVirtualServer'> getVirtualServer</a> </span>
-            <div class='views-field-body'>Retrieve the virtual server for this configuration.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_LoadBalancer/getVirtualServerPort'> getVirtualServerPort</a> </span>
-            <div class='views-field-body'>Retrieve the port on the virtual server.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Scale_LoadBalancer/createObject)
+Create a load balancer for a scale group. 
+
+#### [deleteObject](/reference/services/SoftLayer_Scale_LoadBalancer/deleteObject)
+Delete this load balancer configuration. 
+
+#### [editObject](/reference/services/SoftLayer_Scale_LoadBalancer/editObject)
+Edit this load balancer configuration. 
+
+#### [getAllocationPercent](/reference/services/SoftLayer_Scale_LoadBalancer/getAllocationPercent)
+Retrieve the percentage of connections allocated to this virtual server.
+
+#### [getHealthCheck](/reference/services/SoftLayer_Scale_LoadBalancer/getHealthCheck)
+Retrieve the health check for this configuration.
+
+#### [getObject](/reference/services/SoftLayer_Scale_LoadBalancer/getObject)
+Retrieve a SoftLayer_Scale_LoadBalancer record.
+
+#### [getRoutingMethod](/reference/services/SoftLayer_Scale_LoadBalancer/getRoutingMethod)
+Retrieve the routing method.
+
+#### [getRoutingType](/reference/services/SoftLayer_Scale_LoadBalancer/getRoutingType)
+Retrieve the routing type.
+
+#### [getScaleGroup](/reference/services/SoftLayer_Scale_LoadBalancer/getScaleGroup)
+Retrieve the group this load balancer configuration is for.
+
+#### [getVirtualIpAddressId](/reference/services/SoftLayer_Scale_LoadBalancer/getVirtualIpAddressId)
+Retrieve the ID of the virtual IP address.
+
+#### [getVirtualServer](/reference/services/SoftLayer_Scale_LoadBalancer/getVirtualServer)
+Retrieve the virtual server for this configuration.
+
+#### [getVirtualServerPort](/reference/services/SoftLayer_Scale_LoadBalancer/getVirtualServerPort)
+Retrieve the port on the virtual server.
+
 </div>
 

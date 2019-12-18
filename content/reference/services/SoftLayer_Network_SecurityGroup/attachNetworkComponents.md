@@ -1,6 +1,6 @@
 ---
 title: "attachNetworkComponents"
-description: "Attach virtual guest network components to a security group by creating [[SoftLayer_Virtual_Network_SecurityGroup_Networ... "
+description: "Attach virtual guest network components to a security group by creating [SoftLayer_Virtual_Network_SecurityGroup_Network... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Attach network components to a security group by creating a network component bi
 
 
 ## Overview 
-Attach virtual guest network components to a security group by creating [[SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding (type)]] objects. 
+Attach virtual guest network components to a security group by creating [SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding]({{<ref "reference/datatypes/SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding">}}) objects. 
 
 -----
 

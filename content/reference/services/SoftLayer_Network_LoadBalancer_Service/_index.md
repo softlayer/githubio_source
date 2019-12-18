@@ -60,41 +60,36 @@ The affect of other variables are listed in their individual documentation.
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_Service/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Delete this service, removing it from the load balancer.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_Service/getGraphImage'> getGraphImage</a> </span>
-            <div class='views-field-body'>Get the connection or status graph image for a load balancer service.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_Service/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_LoadBalancer_Service record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_Service/getStatus'> getStatus</a> </span>
-            <div class='views-field-body'>Returns various status entries for this service as an array of SoftLayer_Container_Network_LoadBalancer_StatusEntry objects</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_Service/getVip'> getVip</a> </span>
-            <div class='views-field-body'>Retrieve the load balancer that this service belongs to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_Service/resetPeakConnections'> resetPeakConnections</a> </span>
-            <div class='views-field-body'>Update the PeakConnections value on the service to zero.</div>
-        </div>
-        </div>
+</div>
+
+#### [deleteObject](/reference/services/SoftLayer_Network_LoadBalancer_Service/deleteObject)
+Delete this service, removing it from the load balancer.
+
+#### [getGraphImage](/reference/services/SoftLayer_Network_LoadBalancer_Service/getGraphImage)
+Get the connection or status graph image for a load balancer service.
+
+#### [getObject](/reference/services/SoftLayer_Network_LoadBalancer_Service/getObject)
+Retrieve a SoftLayer_Network_LoadBalancer_Service record.
+
+#### [getStatus](/reference/services/SoftLayer_Network_LoadBalancer_Service/getStatus)
+Returns various status entries for this service as an array of SoftLayer_Container_Network_LoadBalancer_StatusEntry objects
+
+#### [getVip](/reference/services/SoftLayer_Network_LoadBalancer_Service/getVip)
+Retrieve the load balancer that this service belongs to.
+
+#### [resetPeakConnections](/reference/services/SoftLayer_Network_LoadBalancer_Service/resetPeakConnections)
+Update the PeakConnections value on the service to zero.
+
 </div>
 

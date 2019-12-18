@@ -36,73 +36,53 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bytesUsed" name=bytesUsed>bytesUsed</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned long</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cdnHttpBandwidth" name=cdnHttpBandwidth>cdnHttpBandwidth</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned long</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nasVolumeId" name=nasVolumeId>nasVolumeId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#publicBandwidthOut" name=publicBandwidthOut>publicBandwidthOut</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned long</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nasVolume" name=nasVolume>nasVolume</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[bytesUsed]: #bytesused
+#### [bytesUsed]
+  
+<span class="type-label">Type: </span>**unsigned long**
+
+-----
+[cdnHttpBandwidth]: #cdnhttpbandwidth
+#### [cdnHttpBandwidth]
+  
+<span class="type-label">Type: </span>**unsigned long**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[nasVolumeId]: #nasvolumeid
+#### [nasVolumeId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[publicBandwidthOut]: #publicbandwidthout
+#### [publicBandwidthOut]
+  
+<span class="type-label">Type: </span>**unsigned long**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[nasVolume]: #nasvolume
+#### [nasVolume]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**
+
+
+## Count
 </div>
 
 

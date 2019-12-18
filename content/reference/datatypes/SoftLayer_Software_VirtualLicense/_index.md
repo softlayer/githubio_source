@@ -36,7 +36,7 @@ SoftLayer_Software_VirtualLicense is the application class that handles a specia
 * [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet )
 
 
-* [SoftLayer_Account](/reference/services/SoftLayer_Account )
+* [SoftLayer_Account](/reference/datatypes/SoftLayer_Account )
 
 
 
@@ -53,153 +53,101 @@ SoftLayer_Software_VirtualLicense is the application class that handles a specia
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>The ID of the SoftLayer Account to which this Virtual License belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hostHardwareId" name=hostHardwareId>hostHardwareId</a>
-            </span>
-            <div class='views-field-body'>The ID of the SoftLayer Hardware Server record to which this Virtual License belongs. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>An ID number for this Virtual License instance. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ipAddress" name=ipAddress>ipAddress</a>
-            </span>
-            <div class='views-field-body'>The specific IP address this Virtual License belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#key" name=key>key</a>
-            </span>
-            <div class='views-field-body'>The License Key for this specific Virtual License. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#notes" name=notes>notes</a>
-            </span>
-            <div class='views-field-body'>A "notes" string attached to this specific Virtual License. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#softwareDescriptionId" name=softwareDescriptionId>softwareDescriptionId</a>
-            </span>
-            <div class='views-field-body'>The Software Description ID this Virtual License is for. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnetId" name=subnetId>subnetId</a>
-            </span>
-            <div class='views-field-body'>The ID of the SoftLayer Network Subnet this Virtual License belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The customer account this Virtual License belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingItem" name=billingItem>billingItem</a>
-            </span>
-            <div class='views-field-body'>The billing item for a software virtual license. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hostHardware" name=hostHardware>hostHardware</a>
-            </span>
-            <div class='views-field-body'>The hardware record to which the software virtual license is assigned. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Server'>SoftLayer_Hardware_Server </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ipAddressRecord" name=ipAddressRecord>ipAddressRecord</a>
-            </span>
-            <div class='views-field-body'>The IP Address record associated with a virtual license. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#softwareDescription" name=softwareDescription>softwareDescription</a>
-            </span>
-            <div class='views-field-body'>The SoftLayer_Software_Description that this virtual license is for. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnet" name=subnet>subnet</a>
-            </span>
-            <div class='views-field-body'>The subnet this Virtual License's IP address belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+The ID of the SoftLayer Account to which this Virtual License belongs to.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[hostHardwareId]: #hosthardwareid
+#### [hostHardwareId]
+The ID of the SoftLayer Hardware Server record to which this Virtual License belongs.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+An ID number for this Virtual License instance.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[ipAddress]: #ipaddress
+#### [ipAddress]
+The specific IP address this Virtual License belongs to.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[key]: #key
+#### [key]
+The License Key for this specific Virtual License.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[notes]: #notes
+#### [notes]
+A "notes" string attached to this specific Virtual License.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[softwareDescriptionId]: #softwaredescriptionid
+#### [softwareDescriptionId]
+The Software Description ID this Virtual License is for.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[subnetId]: #subnetid
+#### [subnetId]
+The ID of the SoftLayer Network Subnet this Virtual License belongs to.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The customer account this Virtual License belongs to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[billingItem]: #billingitem
+#### [billingItem]
+The billing item for a software virtual license.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+
+-----
+[hostHardware]: #hosthardware
+#### [hostHardware]
+The hardware record to which the software virtual license is assigned.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Server'>SoftLayer_Hardware_Server </a>**
+
+-----
+[ipAddressRecord]: #ipaddressrecord
+#### [ipAddressRecord]
+The IP Address record associated with a virtual license.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>**
+
+-----
+[softwareDescription]: #softwaredescription
+#### [softwareDescription]
+The SoftLayer_Software_Description that this virtual license is for.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**
+
+-----
+[subnet]: #subnet
+#### [subnet]
+The subnet this Virtual License's IP address belongs to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**
+
+
+## Count
 </div>
 
 

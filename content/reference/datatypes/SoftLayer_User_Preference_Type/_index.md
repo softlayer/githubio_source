@@ -36,49 +36,36 @@ The SoftLayer_User_Preference_Type data type contains a single preference type i
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>A description of the preference type </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#keyName" name=keyName>keyName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>The name of the preference type </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#valueExample" name=valueExample>valueExample</a>
-            </span>
-            <div class='views-field-body'>An example of accepted preference values </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[description]: #description
+#### [description]
+A description of the preference type  
+<span class="type-label">Type: </span>**string**
+
+-----
+[keyName]: #keyname
+#### [keyName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[name]: #name
+#### [name]
+The name of the preference type  
+<span class="type-label">Type: </span>**string**
+
+-----
+[valueExample]: #valueexample
+#### [valueExample]
+An example of accepted preference values  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

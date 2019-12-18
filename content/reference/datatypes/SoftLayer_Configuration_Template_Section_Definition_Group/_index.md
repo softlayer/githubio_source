@@ -38,73 +38,53 @@ Configuration definition group gives you details of the definition and allows ex
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>Created date </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>Internal Description of a definition group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of a definition group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>Internal Definition group name. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sortOrder" name=sortOrder>sortOrder</a>
-            </span>
-            <div class='views-field-body'>Sort order </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#parent" name=parent>parent</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Group'>SoftLayer_Configuration_Template_Section_Definition_Group </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[createDate]: #createdate
+#### [createDate]
+Created date  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[description]: #description
+#### [description]
+Internal Description of a definition group.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+Internal identifier of a definition group.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[name]: #name
+#### [name]
+Internal Definition group name.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[sortOrder]: #sortorder
+#### [sortOrder]
+Sort order  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[parent]: #parent
+#### [parent]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Group'>SoftLayer_Configuration_Template_Section_Definition_Group </a>**
+
+
+## Count
 </div>
 
 

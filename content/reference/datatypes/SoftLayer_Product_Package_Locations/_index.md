@@ -36,73 +36,53 @@ Most packages are available in many locations. This object describes that availa
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#deliveryTimeInformation" name=deliveryTimeInformation>deliveryTimeInformation</a>
-            </span>
-            <div class='views-field-body'>This describes the availability of the package tied to this location. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#isAvailable" name=isAvailable>isAvailable</a>
-            </span>
-            <div class='views-field-body'>A simple flag which describes whether or not this location is available for this package. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationId" name=locationId>locationId</a>
-            </span>
-            <div class='views-field-body'>The location id tied to this object. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#packageId" name=packageId>packageId</a>
-            </span>
-            <div class='views-field-body'>The SoftLayer_Product_Package ID tied to this object. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#location" name=location>location</a>
-            </span>
-            <div class='views-field-body'>The location to which this object belongs. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#package" name=package>package</a>
-            </span>
-            <div class='views-field-body'>The package to which this object belongs. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[deliveryTimeInformation]: #deliverytimeinformation
+#### [deliveryTimeInformation]
+This describes the availability of the package tied to this location.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[isAvailable]: #isavailable
+#### [isAvailable]
+A simple flag which describes whether or not this location is available for this package.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[locationId]: #locationid
+#### [locationId]
+The location id tied to this object.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[packageId]: #packageid
+#### [packageId]
+The SoftLayer_Product_Package ID tied to this object.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[location]: #location
+#### [location]
+The location to which this object belongs.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+-----
+[package]: #package
+#### [package]
+The package to which this object belongs.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**
+
+
+## Count
 </div>
 
 

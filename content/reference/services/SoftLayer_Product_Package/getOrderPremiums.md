@@ -1,6 +1,6 @@
 ---
 title: "getOrderPremiums"
-description: "Retrieve the premium price modifiers associated with the [[SoftLayer_Product_Item_Price]] and [[SoftLayer_Location]] obj... "
+description: "Retrieve the premium price modifiers associated with the [SoftLayer_Product_Item_Price]({{<ref 'reference/datatypes/Soft... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getOrderPremiums
 
-Retrieve the premium price modifiers associated with the [[SoftLayer_Product_Item_Price]] and [[SoftLayer_Location]] objects in a package.
+Retrieve the premium price modifiers associated with the [SoftLayer_Product_Item_Price]({{<ref "reference/datatypes/SoftLayer_Product_Item_Price">}}) and [SoftLayer_Location]({{<ref "reference/datatypes/SoftLayer_Location">}}) objects in a package.
 
 
 ## Overview 
-Retrieve the premium price modifiers associated with the [[SoftLayer_Product_Item_Price]] and [[SoftLayer_Location]] objects in a package.
+Retrieve the premium price modifiers associated with the [SoftLayer_Product_Item_Price]({{<ref "reference/datatypes/SoftLayer_Product_Item_Price">}}) and [SoftLayer_Location]({{<ref "reference/datatypes/SoftLayer_Location">}}) objects in a package.
 
 -----
 

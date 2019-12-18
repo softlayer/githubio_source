@@ -17,7 +17,7 @@ Edit the PTR record for a single IP address.
 
 
 ## Overview 
-setPtrRecordForIpAddress() sets a single reverse DNS record for a single IP address and returns the newly created or edited [[SoftLayer_Dns_Domain_ResourceRecord]] record. Currently this method only supports IPv4 addresses and performs no operation when given an IPv6 address. 
+setPtrRecordForIpAddress() sets a single reverse DNS record for a single IP address and returns the newly created or edited [SoftLayer_Dns_Domain_ResourceRecord]({{<ref "reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord">}}) record. Currently this method only supports IPv4 addresses and performs no operation when given an IPv6 address. 
 
 -----
 

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Product_Item_Attribute_Type"
-description: "The [[SoftLayer_Product_Item_Attribute_Type]] data type defines the available type of product attributes that are availa... "
+description: "The [SoftLayer_Product_Item_Attribute_Type]({{<ref 'reference/datatypes/SoftLayer_Product_Item_Attribute_Type'>}}) data... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-The [[SoftLayer_Product_Item_Attribute_Type]] data type defines the available type of product attributes that are available. This allows for convenient reference to a [[SoftLayer_Product_Item_Attribute|product attribute]] by a unique key name value. 
+The [SoftLayer_Product_Item_Attribute_Type]({{<ref "reference/datatypes/SoftLayer_Product_Item_Attribute_Type">}}) data type defines the available type of product attributes that are available. This allows for convenient reference to a [SoftLayer_Product_Item_Attribute]({{<ref "reference/datatypes/SoftLayer_Product_Item_Attribute">}}) by a unique key name value. 
 
 
 
@@ -36,29 +36,24 @@ The [[SoftLayer_Product_Item_Attribute_Type]] data type defines the available ty
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#keyName" name=keyName>keyName</a>
-            </span>
-            <div class='views-field-body'>This is the unique identifier of the attribute type. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>This is the user-friendly readable name of the attribute type. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[keyName]: #keyname
+#### [keyName]
+This is the unique identifier of the attribute type.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[name]: #name
+#### [name]
+This is the user-friendly readable name of the attribute type.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

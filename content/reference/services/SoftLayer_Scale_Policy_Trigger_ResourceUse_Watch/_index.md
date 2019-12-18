@@ -23,49 +23,42 @@ This is a specific watch for a resource use policy trigger.
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create a watch on an existing resource trigger.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Delete this watch from the trigger. You cannot delete the last watch on a trigger. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit this watch.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/getAllPossibleAlgorithms'> getAllPossibleAlgorithms</a> </span>
-            <div class='views-field-body'>Get all possible values for "algorithm".</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/getAllPossibleMetrics'> getAllPossibleMetrics</a> </span>
-            <div class='views-field-body'>Get all possible values for "metric".</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/getAllPossibleOperators'> getAllPossibleOperators</a> </span>
-            <div class='views-field-body'>Get all possible values for "operator".</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/getScalePolicyTrigger'> getScalePolicyTrigger</a> </span>
-            <div class='views-field-body'>Retrieve the trigger this watch is on.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/createObject)
+Create a watch on an existing resource trigger.
+
+#### [deleteObject](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/deleteObject)
+Delete this watch from the trigger. You cannot delete the last watch on a trigger. 
+
+#### [editObject](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/editObject)
+Edit this watch.
+
+#### [getAllPossibleAlgorithms](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/getAllPossibleAlgorithms)
+Get all possible values for "algorithm".
+
+#### [getAllPossibleMetrics](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/getAllPossibleMetrics)
+Get all possible values for "metric".
+
+#### [getAllPossibleOperators](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/getAllPossibleOperators)
+Get all possible values for "operator".
+
+#### [getObject](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/getObject)
+Retrieve a SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch record.
+
+#### [getScalePolicyTrigger](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/getScalePolicyTrigger)
+Retrieve the trigger this watch is on.
+
 </div>
 

@@ -41,73 +41,53 @@ Many general services that SoftLayer provides are tracked on the customer portal
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date that a service's status was created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationId" name=locationId>locationId</a>
-            </span>
-            <div class='views-field-body'>A service's location identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>The date that a service's status was last changed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#statusId" name=statusId>statusId</a>
-            </span>
-            <div class='views-field-body'>A service's status identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#location" name=location>location</a>
-            </span>
-            <div class='views-field-body'>A service's location. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#status" name=status>status</a>
-            </span>
-            <div class='views-field-body'>The status portion of a service/status relationship. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Service_Health_Status'>SoftLayer_Network_Service_Health_Status </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[createDate]: #createdate
+#### [createDate]
+The date that a service's status was created.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[locationId]: #locationid
+#### [locationId]
+A service's location identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+The date that a service's status was last changed.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[statusId]: #statusid
+#### [statusId]
+A service's status identifier.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[location]: #location
+#### [location]
+A service's location.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+-----
+[status]: #status
+#### [status]
+The status portion of a service/status relationship.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Health_Status'>SoftLayer_Network_Service_Health_Status </a>**
+
+
+## Count
 </div>
 
 

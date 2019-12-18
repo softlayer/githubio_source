@@ -36,29 +36,24 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#groupMemberId" name=groupMemberId>groupMemberId</a>
-            </span>
-            <div class='views-field-body'>A resource group member's ID. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#groupTemplateRoleId" name=groupTemplateRoleId>groupTemplateRoleId</a>
-            </span>
-            <div class='views-field-body'>A resource group's template role ID. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[groupMemberId]: #groupmemberid
+#### [groupMemberId]
+A resource group member's ID.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[groupTemplateRoleId]: #grouptemplateroleid
+#### [groupTemplateRoleId]
+A resource group's template role ID.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -36,9 +36,12 @@ This data type models a purge event that occurs in caching server. It contains a
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -36,49 +36,36 @@ Summary of review activity for a proof of concept request.
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountCreatedFlag" name=accountCreatedFlag>accountCreatedFlag</a>
-            </span>
-            <div class='views-field-body'>True for approved requests associated with a new account and false otherwise. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#deniedFlag" name=deniedFlag>deniedFlag</a>
-            </span>
-            <div class='views-field-body'>True for denied requests and false otherwise. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#events" name=events>events</a>
-            </span>
-            <div class='views-field-body'>List of events occurring during the review. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Review_Event'>SoftLayer_Container_Account_ProofOfConcept_Review_Event[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#reviewCompleteFlag" name=reviewCompleteFlag>reviewCompleteFlag</a>
-            </span>
-            <div class='views-field-body'>True for fully reviewed requests and false otherwise. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountCreatedFlag]: #accountcreatedflag
+#### [accountCreatedFlag]
+True for approved requests associated with a new account and false otherwise.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[deniedFlag]: #deniedflag
+#### [deniedFlag]
+True for denied requests and false otherwise.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[events]: #events
+#### [events]
+List of events occurring during the review.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Review_Event'>SoftLayer_Container_Account_ProofOfConcept_Review_Event[] </a>**
+
+-----
+[reviewCompleteFlag]: #reviewcompleteflag
+#### [reviewCompleteFlag]
+True for fully reviewed requests and false otherwise.  
+<span class="type-label">Type: </span>**boolean**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

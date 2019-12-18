@@ -36,39 +36,30 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#applicable" name=applicable>applicable</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#optedOut" name=optedOut>optedOut</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#optedOutDate" name=optedOutDate>optedOutDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[applicable]: #applicable
+#### [applicable]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[optedOut]: #optedout
+#### [optedOut]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[optedOutDate]: #optedoutdate
+#### [optedOutDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

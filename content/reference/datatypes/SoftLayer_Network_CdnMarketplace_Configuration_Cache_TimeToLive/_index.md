@@ -36,39 +36,30 @@ This data type models a purge event that occurs repetitively and automatically i
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>date record is created  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#path" name=path>path</a>
-            </span>
-            <div class='views-field-body'>Path where purge will be executed after TTL  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#timeToLive" name=timeToLive>timeToLive</a>
-            </span>
-            <div class='views-field-body'>Time interval after which purge will occur repeatedly  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[createDate]: #createdate
+#### [createDate]
+date record is created   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[path]: #path
+#### [path]
+Path where purge will be executed after TTL   
+<span class="type-label">Type: </span>**string**
+
+-----
+[timeToLive]: #timetolive
+#### [timeToLive]
+Time interval after which purge will occur repeatedly   
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

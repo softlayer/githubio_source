@@ -36,123 +36,86 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#healthCheckTypeId" name=healthCheckTypeId>healthCheckTypeId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#notes" name=notes>notes</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributes" name=attributes>attributes</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#scaleLoadBalancers" name=scaleLoadBalancers>scaleLoadBalancers</a>
-            </span>
-            <div class='views-field-body'>Collection of scale load balancers that use this health check. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Scale_LoadBalancer'>SoftLayer_Scale_LoadBalancer[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#services" name=services>services</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#type" name=type>type</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check_Type'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributeCount" name=attributeCount>attributeCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#scaleLoadBalancerCount" name=scaleLoadBalancerCount>scaleLoadBalancerCount</a>
-            </span>
-            <div class='views-field-body'>A count of collection of scale load balancers that use this health check. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#serviceCount" name=serviceCount>serviceCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[healthCheckTypeId]: #healthchecktypeid
+#### [healthCheckTypeId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[name]: #name
+#### [name]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[notes]: #notes
+#### [notes]
+  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[attributes]: #attributes
+#### [attributes]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute[] </a>**
+
+-----
+[scaleLoadBalancers]: #scaleloadbalancers
+#### [scaleLoadBalancers]
+Collection of scale load balancers that use this health check.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_LoadBalancer'>SoftLayer_Scale_LoadBalancer[] </a>**
+
+-----
+[services]: #services
+#### [services]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service[] </a>**
+
+-----
+[type]: #type
+#### [type]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check_Type'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check_Type </a>**
+
+
+## Count
+
+-----
+[attributeCount]: #attributecount
+#### [attributeCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[scaleLoadBalancerCount]: #scaleloadbalancercount
+#### [scaleLoadBalancerCount]
+A count of collection of scale load balancers that use this health check.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[serviceCount]: #servicecount
+#### [serviceCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

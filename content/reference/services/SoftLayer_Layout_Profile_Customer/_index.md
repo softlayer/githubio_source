@@ -23,53 +23,45 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Customer/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create a new layout profile</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Customer/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Delete a layout profile</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Customer/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit the layout profile object</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Customer/getLayoutContainers'> getLayoutContainers</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Customer/getLayoutPreferences'> getLayoutPreferences</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Customer/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Layout_Profile_Customer record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Customer/getUserRecord'> getUserRecord</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Customer/modifyPreference'> modifyPreference</a> </span>
-            <div class='views-field-body'>Modifies an associated layout preference</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Customer/modifyPreferences'> modifyPreferences</a> </span>
-            <div class='views-field-body'>Modifies a collection of associated preferences</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Layout_Profile_Customer/createObject)
+Create a new layout profile
+
+#### [deleteObject](/reference/services/SoftLayer_Layout_Profile_Customer/deleteObject)
+Delete a layout profile
+
+#### [editObject](/reference/services/SoftLayer_Layout_Profile_Customer/editObject)
+Edit the layout profile object
+
+#### [getLayoutContainers](/reference/services/SoftLayer_Layout_Profile_Customer/getLayoutContainers)
+
+
+#### [getLayoutPreferences](/reference/services/SoftLayer_Layout_Profile_Customer/getLayoutPreferences)
+
+
+#### [getObject](/reference/services/SoftLayer_Layout_Profile_Customer/getObject)
+Retrieve a SoftLayer_Layout_Profile_Customer record.
+
+#### [getUserRecord](/reference/services/SoftLayer_Layout_Profile_Customer/getUserRecord)
+
+
+#### [modifyPreference](/reference/services/SoftLayer_Layout_Profile_Customer/modifyPreference)
+Modifies an associated layout preference
+
+#### [modifyPreferences](/reference/services/SoftLayer_Layout_Profile_Customer/modifyPreferences)
+Modifies a collection of associated preferences
+
 </div>
 

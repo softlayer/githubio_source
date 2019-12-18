@@ -36,93 +36,65 @@ The SoftLayer_Network_DirectLink_Location presents a structure containing attrib
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#buildingColocationOwner" name=buildingColocationOwner>buildingColocationOwner</a>
-            </span>
-            <div class='views-field-body'>The Direct Link specific location owner for POP/DC facilities. Like Equinix, Pacnet, Verizon etc.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The unique identifier of a Direct Link location. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#isRedundantXcr" name=isRedundantXcr>isRedundantXcr</a>
-            </span>
-            <div class='views-field-body'>Specifies if The Direct Link specific location has Redundancy:secondary XCR availability.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationId" name=locationId>locationId</a>
-            </span>
-            <div class='views-field-body'>The Direct Link specific location ie. Data Center & Network POP facility. Refer to location object Like Dallas in US, London in England etc.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#marketGeography" name=marketGeography>marketGeography</a>
-            </span>
-            <div class='views-field-body'>The Direct Link Market location used in Direct Link Order. Like Europe, North America, Asia pacific etc.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#location" name=location>location</a>
-            </span>
-            <div class='views-field-body'>The location of Direct Link facility. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#provider" name=provider>provider</a>
-            </span>
-            <div class='views-field-body'>The Id of Direct Link provider. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_DirectLink_Provider'>SoftLayer_Network_DirectLink_Provider </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#serviceType" name=serviceType>serviceType</a>
-            </span>
-            <div class='views-field-body'>The Id of Direct Link service type. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_DirectLink_ServiceType'>SoftLayer_Network_DirectLink_ServiceType </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[buildingColocationOwner]: #buildingcolocationowner
+#### [buildingColocationOwner]
+The Direct Link specific location owner for POP/DC facilities. Like Equinix, Pacnet, Verizon etc.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+The unique identifier of a Direct Link location.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[isRedundantXcr]: #isredundantxcr
+#### [isRedundantXcr]
+Specifies if The Direct Link specific location has Redundancy:secondary XCR availability.   
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[locationId]: #locationid
+#### [locationId]
+The Direct Link specific location ie. Data Center & Network POP facility. Refer to location object Like Dallas in US, London in England etc.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[marketGeography]: #marketgeography
+#### [marketGeography]
+The Direct Link Market location used in Direct Link Order. Like Europe, North America, Asia pacific etc.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[location]: #location
+#### [location]
+The location of Direct Link facility.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+-----
+[provider]: #provider
+#### [provider]
+The Id of Direct Link provider.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_DirectLink_Provider'>SoftLayer_Network_DirectLink_Provider </a>**
+
+-----
+[serviceType]: #servicetype
+#### [serviceType]
+The Id of Direct Link service type.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_DirectLink_ServiceType'>SoftLayer_Network_DirectLink_ServiceType </a>**
+
+
+## Count
 </div>
 
 

@@ -1,6 +1,6 @@
 ---
 title: "getPreference"
-description: "Select a type of preference you would like to get using [[SoftLayer_User_Customer::getPreferenceTypes|getPreferenceTypes... "
+description: "Select a type of preference you would like to get using [SoftLayer_User_Customer::getPreferenceTypes]({{<ref 'reference/... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Get a preference value for the current user
 
 
 ## Overview 
-Select a type of preference you would like to get using [[SoftLayer_User_Customer::getPreferenceTypes|getPreferenceTypes]] and invoke this method using that preference type key name. 
+Select a type of preference you would like to get using [SoftLayer_User_Customer::getPreferenceTypes]({{<ref "reference/services/SoftLayer_User_Customer/getPreferenceTypes">}}) and invoke this method using that preference type key name. 
 
 -----
 

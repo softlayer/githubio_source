@@ -1,6 +1,6 @@
 ---
 title: "getPartitionTemplates"
-description: "Retrieve information regarding an operating system's [[SoftLayer_Hardware_Component_Partition_Template|Partition Templat... "
+description: "Retrieve information regarding an operating system's [SoftLayer_Hardware_Component_Partition_Template]({{<ref 'reference... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Hardware_Component_Partition_OperatingSystem](/reference/services/SoftLayer_Hardware_Component_Partition_OperatingSystem)::getPartitionTemplates
 
-Retrieve information regarding an operating system's [[SoftLayer_Hardware_Component_Partition_Template|Partition Templates]].
+Retrieve information regarding an operating system's [SoftLayer_Hardware_Component_Partition_Template]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_Template">}}).
 
 
 ## Overview 
-Retrieve information regarding an operating system's [[SoftLayer_Hardware_Component_Partition_Template|Partition Templates]].
+Retrieve information regarding an operating system's [SoftLayer_Hardware_Component_Partition_Template]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_Template">}}).
 
 -----
 

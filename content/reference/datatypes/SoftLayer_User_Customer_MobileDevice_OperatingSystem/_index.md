@@ -36,89 +36,60 @@ This class represents the mobile operating system installed on a user's register
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#buildVersion" name=buildVersion>buildVersion</a>
-            </span>
-            <div class='views-field-body'>Build revision number of the operating system. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>Create date of the record. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>Description of the mobile operating system.. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Indentifier for the record. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#majorVersion" name=majorVersion>majorVersion</a>
-            </span>
-            <div class='views-field-body'>Major revision number of the operating system. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#minorVersion" name=minorVersion>minorVersion</a>
-            </span>
-            <div class='views-field-body'>Minor revision number of the operating system. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>Modify date of the record. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>Name of the mobile operating system. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[buildVersion]: #buildversion
+#### [buildVersion]
+Build revision number of the operating system.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+Create date of the record.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[description]: #description
+#### [description]
+Description of the mobile operating system..  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+Indentifier for the record.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[majorVersion]: #majorversion
+#### [majorVersion]
+Major revision number of the operating system.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[minorVersion]: #minorversion
+#### [minorVersion]
+Minor revision number of the operating system.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+Modify date of the record.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[name]: #name
+#### [name]
+Name of the mobile operating system.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

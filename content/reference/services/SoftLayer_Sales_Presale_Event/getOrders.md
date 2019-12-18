@@ -1,6 +1,6 @@
 ---
 title: "getOrders"
-description: "Retrieve the orders ([[SoftLayer_Billing_Order]]) associated with this presale event that were created for the customer'... "
+description: "Retrieve the orders ([SoftLayer_Billing_Order]({{<ref 'reference/datatypes/SoftLayer_Billing_Order'>}})) associated with... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Sales_Presale_Event](/reference/services/SoftLayer_Sales_Presale_Event)::getOrders
 
-Retrieve the orders ([[SoftLayer_Billing_Order]]) associated with this presale event that were created for the customer's account.
+Retrieve the orders ([SoftLayer_Billing_Order]({{<ref "reference/datatypes/SoftLayer_Billing_Order">}})) associated with this presale event that were created for the customer's account.
 
 
 ## Overview 
-Retrieve the orders ([[SoftLayer_Billing_Order]]) associated with this presale event that were created for the customer's account.
+Retrieve the orders ([SoftLayer_Billing_Order]({{<ref "reference/datatypes/SoftLayer_Billing_Order">}})) associated with this presale event that were created for the customer's account.
 
 -----
 

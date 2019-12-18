@@ -36,53 +36,41 @@ Represents the assignment of a policy to a product. The existence of a record me
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#productId" name=productId>productId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#policyName" name=policyName>policyName</a>
-            </span>
-            <div class='views-field-body'>The name of the assigned policy. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#product" name=product>product</a>
-            </span>
-            <div class='views-field-body'>The [[SoftLayer_Product_Item]] for this policy assignment. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[id]: #id
+#### [id]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[productId]: #productid
+#### [productId]
+  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[policyName]: #policyname
+#### [policyName]
+The name of the assigned policy.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[product]: #product
+#### [product]
+The [SoftLayer_Product_Item]({{<ref "reference/datatypes/SoftLayer_Product_Item">}}) for this policy assignment.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+
+
+## Count
 </div>
 
 

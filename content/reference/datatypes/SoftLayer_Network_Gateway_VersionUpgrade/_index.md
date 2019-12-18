@@ -36,39 +36,30 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#fromVersion" name=fromVersion>fromVersion</a>
-            </span>
-            <div class='views-field-body'>Gateway version being upgraded from.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A gateway status's internal identifier.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#toVersion" name=toVersion>toVersion</a>
-            </span>
-            <div class='views-field-body'>Gateway version available for upgrade.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[fromVersion]: #fromversion
+#### [fromVersion]
+Gateway version being upgraded from.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+A gateway status's internal identifier.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[toVersion]: #toversion
+#### [toVersion]
+Gateway version available for upgrade.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

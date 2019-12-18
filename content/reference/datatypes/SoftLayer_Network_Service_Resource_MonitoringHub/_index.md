@@ -41,233 +41,150 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#backendIpAddress" name=backendIpAddress>backendIpAddress</a>
-            </span>
-            <div class='views-field-body'>The backend IP address for this resource  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#frontendIpAddress" name=frontendIpAddress>frontendIpAddress</a>
-            </span>
-            <div class='views-field-body'>The frontend IP address for this resource  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>The name associated with this resource  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#adnServicesIp" name=adnServicesIp>adnServicesIp</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#apiHost" name=apiHost>apiHost</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#apiPassword" name=apiPassword>apiPassword</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#apiPath" name=apiPath>apiPath</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#apiPort" name=apiPort>apiPort</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#apiProtocol" name=apiProtocol>apiProtocol</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#apiUsername" name=apiUsername>apiUsername</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#apiVersion" name=apiVersion>apiVersion</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributes" name=attributes>attributes</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Service_Resource_Attribute'>SoftLayer_Network_Service_Resource_Attribute[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#datacenter" name=datacenter>datacenter</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hubAddress" name=hubAddress>hubAddress</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hubConnectionTimeout" name=hubConnectionTimeout>hubConnectionTimeout</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkDevice" name=networkDevice>networkDevice</a>
-            </span>
-            <div class='views-field-body'>The hardware information associated with this resource. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#robotsCount" name=robotsCount>robotsCount</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#robotsMax" name=robotsMax>robotsMax</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sshUsername" name=sshUsername>sshUsername</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#type" name=type>type</a>
-            </span>
-            <div class='views-field-body'>The network information associated with this resource. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Service_Resource_Type'>SoftLayer_Network_Service_Resource_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributeCount" name=attributeCount>attributeCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[backendIpAddress]: #backendipaddress
+#### [backendIpAddress]
+The backend IP address for this resource   
+<span class="type-label">Type: </span>**string**
+
+-----
+[frontendIpAddress]: #frontendipaddress
+#### [frontendIpAddress]
+The frontend IP address for this resource   
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[name]: #name
+#### [name]
+The name associated with this resource   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[adnServicesIp]: #adnservicesip
+#### [adnServicesIp]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[apiHost]: #apihost
+#### [apiHost]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[apiPassword]: #apipassword
+#### [apiPassword]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[apiPath]: #apipath
+#### [apiPath]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[apiPort]: #apiport
+#### [apiPort]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[apiProtocol]: #apiprotocol
+#### [apiProtocol]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[apiUsername]: #apiusername
+#### [apiUsername]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[apiVersion]: #apiversion
+#### [apiVersion]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[attributes]: #attributes
+#### [attributes]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Resource_Attribute'>SoftLayer_Network_Service_Resource_Attribute[] </a>**
+
+-----
+[datacenter]: #datacenter
+#### [datacenter]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+-----
+[hubAddress]: #hubaddress
+#### [hubAddress]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[hubConnectionTimeout]: #hubconnectiontimeout
+#### [hubConnectionTimeout]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[networkDevice]: #networkdevice
+#### [networkDevice]
+The hardware information associated with this resource.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+
+-----
+[robotsCount]: #robotscount
+#### [robotsCount]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[robotsMax]: #robotsmax
+#### [robotsMax]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[sshUsername]: #sshusername
+#### [sshUsername]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[type]: #type
+#### [type]
+The network information associated with this resource.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Resource_Type'>SoftLayer_Network_Service_Resource_Type </a>**
+
+
+## Count
+
+-----
+[attributeCount]: #attributecount
+#### [attributeCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

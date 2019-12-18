@@ -36,133 +36,89 @@ This class represents a login/logout sheet for facility visitors.
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>This is the account associated with a log record. For a customer logging into a datacenter, this is the customer's account. For a contractor or any other guest logging into a customer's cabinet or colocation cage, this is the customer's account.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>This is a short description of why the person is at the location.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareId" name=hardwareId>hardwareId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationId" name=locationId>locationId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#timeIn" name=timeIn>timeIn</a>
-            </span>
-            <div class='views-field-body'>This is the date and time the person arrived.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#timeOut" name=timeOut>timeOut</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>This is the account associated with the log entry. For users under a customer's account, it is the customer's account. For contractors and others visiting a colocation area, it is the account associated with the area they visited. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#datacenter" name=datacenter>datacenter</a>
-            </span>
-            <div class='views-field-body'>This is the location of the facility. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardware" name=hardware>hardware</a>
-            </span>
-            <div class='views-field-body'>This is the colocation hardware that was visited. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#logType" name=logType>logType</a>
-            </span>
-            <div class='views-field-body'>This is the type of person entering the facility. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Access_Facility_Log_Type'>SoftLayer_User_Access_Facility_Log_Type </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#visitor" name=visitor>visitor</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+This is the account associated with a log record. For a customer logging into a datacenter, this is the customer's account. For a contractor or any other guest logging into a customer's cabinet or colocation cage, this is the customer's account.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[description]: #description
+#### [description]
+This is a short description of why the person is at the location.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[hardwareId]: #hardwareid
+#### [hardwareId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[locationId]: #locationid
+#### [locationId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[timeIn]: #timein
+#### [timeIn]
+This is the date and time the person arrived.   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[timeOut]: #timeout
+#### [timeOut]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+This is the account associated with the log entry. For users under a customer's account, it is the customer's account. For contractors and others visiting a colocation area, it is the account associated with the area they visited.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[datacenter]: #datacenter
+#### [datacenter]
+This is the location of the facility.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+-----
+[hardware]: #hardware
+#### [hardware]
+This is the colocation hardware that was visited.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+
+-----
+[logType]: #logtype
+#### [logType]
+This is the type of person entering the facility.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Access_Facility_Log_Type'>SoftLayer_User_Access_Facility_Log_Type </a>**
+
+-----
+[visitor]: #visitor
+#### [visitor]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a>**
+
+
+## Count
 </div>
 
 

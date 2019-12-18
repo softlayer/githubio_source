@@ -13,7 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::createPublicArchiveTransaction
 
-[[SoftLayer_Virtual_Guest_Block_Devices|Block Devices]] can be published together in a public repository for use by everyone. This method generates a transaction to perform a public image of the provided archived block devices. 
+[SoftLayer_Virtual_Guest_Block_Device]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Device">}}) can be published together in a public repository for use by everyone. This method generates a transaction to perform a public image of the provided archived block devices. 
 
 
 ## Overview 

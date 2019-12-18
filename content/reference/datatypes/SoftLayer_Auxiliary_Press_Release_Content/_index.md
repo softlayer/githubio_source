@@ -41,39 +41,30 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>the id of a single press release </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pressReleaseId" name=pressReleaseId>pressReleaseId</a>
-            </span>
-            <div class='views-field-body'>the press release id that the content </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#text" name=text>text</a>
-            </span>
-            <div class='views-field-body'>the content of a press release </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[id]: #id
+#### [id]
+the id of a single press release  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[pressReleaseId]: #pressreleaseid
+#### [pressReleaseId]
+the press release id that the content  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[text]: #text
+#### [text]
+the content of a press release  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

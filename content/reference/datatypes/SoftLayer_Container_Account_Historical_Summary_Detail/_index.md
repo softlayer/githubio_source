@@ -36,29 +36,24 @@ Historical Summary Details Container for a resource's data
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#endDate" name=endDate>endDate</a>
-            </span>
-            <div class='views-field-body'>The maximum date included in the detail. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#startDate" name=startDate>startDate</a>
-            </span>
-            <div class='views-field-body'>The minimum date included in the detail. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[endDate]: #enddate
+#### [endDate]
+The maximum date included in the detail.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[startDate]: #startdate
+#### [startDate]
+The minimum date included in the detail.  
+<span class="type-label">Type: </span>**dateTime**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

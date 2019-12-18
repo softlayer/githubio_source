@@ -30,10 +30,10 @@ The SoftLayer_Network_Component_Firewall data type contains general information 
 
 ### seeAlso
 
-* [SoftLayer_Network_Firewall_Template](/reference/services/SoftLayer_Network_Firewall_Template )
+* [SoftLayer_Network_Firewall_Template](/reference/datatypes/SoftLayer_Network_Firewall_Template )
 
 
-* [SoftLayer_Network_Firewall_Update_Request](/reference/services/SoftLayer_Network_Firewall_Update_Request )
+* [SoftLayer_Network_Firewall_Update_Request](/reference/datatypes/SoftLayer_Network_Firewall_Update_Request )
 
 
 
@@ -50,163 +50,111 @@ The SoftLayer_Network_Component_Firewall data type contains general information 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#guestNetworkComponentId" name=guestNetworkComponentId>guestNetworkComponentId</a>
-            </span>
-            <div class='views-field-body'>Unique ID for the network component of the switch interface that this network component firewall is attached to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Unique ID for the network component firewall. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkComponentId" name=networkComponentId>networkComponentId</a>
-            </span>
-            <div class='views-field-body'>Unique ID for the network component of the switch interface that this network component firewall is attached to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#status" name=status>status</a>
-            </span>
-            <div class='views-field-body'>Current status of the network component firewall. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#applyServerRuleSubnets" name=applyServerRuleSubnets>applyServerRuleSubnets</a>
-            </span>
-            <div class='views-field-body'>The additional subnets linked to this network component firewall, that inherit rules from the host that the context slot is attached to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingItem" name=billingItem>billingItem</a>
-            </span>
-            <div class='views-field-body'>The billing item for a Hardware Firewall (Dedicated). </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#guestNetworkComponent" name=guestNetworkComponent>guestNetworkComponent</a>
-            </span>
-            <div class='views-field-body'>The network component of the guest virtual server that this network component firewall belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkComponent" name=networkComponent>networkComponent</a>
-            </span>
-            <div class='views-field-body'>The network component of the switch interface that this network component firewall belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkFirewallUpdateRequest" name=networkFirewallUpdateRequest>networkFirewallUpdateRequest</a>
-            </span>
-            <div class='views-field-body'>The update requests made for this firewall. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request'>SoftLayer_Network_Firewall_Update_Request[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#rules" name=rules>rules</a>
-            </span>
-            <div class='views-field-body'>The currently running rule set of this network component firewall. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Component_Firewall_Rule'>SoftLayer_Network_Component_Firewall_Rule[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnets" name=subnets>subnets</a>
-            </span>
-            <div class='views-field-body'>The additional subnets linked to this network component firewall. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#applyServerRuleSubnetCount" name=applyServerRuleSubnetCount>applyServerRuleSubnetCount</a>
-            </span>
-            <div class='views-field-body'>A count of the additional subnets linked to this network component firewall, that inherit rules from the host that the context slot is attached to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkFirewallUpdateRequestCount" name=networkFirewallUpdateRequestCount>networkFirewallUpdateRequestCount</a>
-            </span>
-            <div class='views-field-body'>A count of the update requests made for this firewall. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ruleCount" name=ruleCount>ruleCount</a>
-            </span>
-            <div class='views-field-body'>A count of the currently running rule set of this network component firewall. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnetCount" name=subnetCount>subnetCount</a>
-            </span>
-            <div class='views-field-body'>A count of the additional subnets linked to this network component firewall. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[guestNetworkComponentId]: #guestnetworkcomponentid
+#### [guestNetworkComponentId]
+Unique ID for the network component of the switch interface that this network component firewall is attached to.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+Unique ID for the network component firewall.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[networkComponentId]: #networkcomponentid
+#### [networkComponentId]
+Unique ID for the network component of the switch interface that this network component firewall is attached to.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[status]: #status
+#### [status]
+Current status of the network component firewall.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[applyServerRuleSubnets]: #applyserverrulesubnets
+#### [applyServerRuleSubnets]
+The additional subnets linked to this network component firewall, that inherit rules from the host that the context slot is attached to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+
+-----
+[billingItem]: #billingitem
+#### [billingItem]
+The billing item for a Hardware Firewall (Dedicated).  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+
+-----
+[guestNetworkComponent]: #guestnetworkcomponent
+#### [guestNetworkComponent]
+The network component of the guest virtual server that this network component firewall belongs to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a>**
+
+-----
+[networkComponent]: #networkcomponent
+#### [networkComponent]
+The network component of the switch interface that this network component firewall belongs to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
+
+-----
+[networkFirewallUpdateRequest]: #networkfirewallupdaterequest
+#### [networkFirewallUpdateRequest]
+The update requests made for this firewall.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request'>SoftLayer_Network_Firewall_Update_Request[] </a>**
+
+-----
+[rules]: #rules
+#### [rules]
+The currently running rule set of this network component firewall.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall_Rule'>SoftLayer_Network_Component_Firewall_Rule[] </a>**
+
+-----
+[subnets]: #subnets
+#### [subnets]
+The additional subnets linked to this network component firewall.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+
+
+## Count
+
+-----
+[applyServerRuleSubnetCount]: #applyserverrulesubnetcount
+#### [applyServerRuleSubnetCount]
+A count of the additional subnets linked to this network component firewall, that inherit rules from the host that the context slot is attached to.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkFirewallUpdateRequestCount]: #networkfirewallupdaterequestcount
+#### [networkFirewallUpdateRequestCount]
+A count of the update requests made for this firewall.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[ruleCount]: #rulecount
+#### [ruleCount]
+A count of the currently running rule set of this network component firewall.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[subnetCount]: #subnetcount
+#### [subnetCount]
+A count of the additional subnets linked to this network component firewall.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

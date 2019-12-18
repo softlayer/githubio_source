@@ -1,6 +1,6 @@
 ---
 title: "activatePublicPort"
-description: "Activate a server's public network interface to the maximum available speed. This operation is an alias for [[SoftLayer_... "
+description: "Activate a server's public network interface to the maximum available speed. This operation is an alias for [SoftLayer_H... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Activate a server's public network interface.
 
 
 ## Overview 
-Activate a server's public network interface to the maximum available speed. This operation is an alias for [[SoftLayer_Hardware_Server/setPublicNetworkInterfaceSpeed]] with a $newSpeed of -1 and a $redundancy of "redundant" or unspecified (which results in the best available redundancy state). 
+Activate a server's public network interface to the maximum available speed. This operation is an alias for [SoftLayer_Hardware_Server::setPublicNetworkInterfaceSpeed]({{<ref "reference/services/SoftLayer_Hardware_Server/setPublicNetworkInterfaceSpeed">}}) with a $newSpeed of -1 and a $redundancy of "redundant" or unspecified (which results in the best available redundancy state). 
 
 Receipt of a response does not indicate completion of the configuration change. Any subsequent attempts to request the interface change speed or state, while changes are pending, will result in a busy error. 
 

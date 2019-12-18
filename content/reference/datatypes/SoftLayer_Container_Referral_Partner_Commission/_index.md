@@ -36,79 +36,54 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#commissionAmount" name=commissionAmount>commissionAmount</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#commissionRate" name=commissionRate>commissionRate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#referralAccountId" name=referralAccountId>referralAccountId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#referralCompanyName" name=referralCompanyName>referralCompanyName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#referralPartnerAccountId" name=referralPartnerAccountId>referralPartnerAccountId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#referralRevenue" name=referralRevenue>referralRevenue</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[commissionAmount]: #commissionamount
+#### [commissionAmount]
+  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[commissionRate]: #commissionrate
+#### [commissionRate]
+  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[referralAccountId]: #referralaccountid
+#### [referralAccountId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[referralCompanyName]: #referralcompanyname
+#### [referralCompanyName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[referralPartnerAccountId]: #referralpartneraccountid
+#### [referralPartnerAccountId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[referralRevenue]: #referralrevenue
+#### [referralRevenue]
+  
+<span class="type-label">Type: </span>**decimal**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

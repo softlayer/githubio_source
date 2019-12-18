@@ -41,89 +41,60 @@ Describes a virtual guest boot parameter. In this the word class is used in the 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bootOption" name=bootOption>bootOption</a>
-            </span>
-            <div class='views-field-body'>Available boot options. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>A description of the boot parameter </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Indentifier for record. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#keyName" name=keyName>keyName</a>
-            </span>
-            <div class='views-field-body'>The key name of the boot parameter. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>The common name of the boot parameter. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#value" name=value>value</a>
-            </span>
-            <div class='views-field-body'>The virtual machine arguments </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[bootOption]: #bootoption
+#### [bootOption]
+Available boot options.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[description]: #description
+#### [description]
+A description of the boot parameter  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+Indentifier for record.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[keyName]: #keyname
+#### [keyName]
+The key name of the boot parameter.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[name]: #name
+#### [name]
+The common name of the boot parameter.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[value]: #value
+#### [value]
+The virtual machine arguments  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

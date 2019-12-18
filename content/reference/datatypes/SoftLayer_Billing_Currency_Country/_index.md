@@ -36,49 +36,36 @@ The SoftLayer_Billing_Currency_Country data type maps what currencies are valid 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#countryId" name=countryId>countryId</a>
-            </span>
-            <div class='views-field-body'>A unique identifier for the related country. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#currencyId" name=currencyId>currencyId</a>
-            </span>
-            <div class='views-field-body'>A unique identifier for the related currency. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A unique identifier for a map between a country and currency. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locale" name=locale>locale</a>
-            </span>
-            <div class='views-field-body'>The country currency locale. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[countryId]: #countryid
+#### [countryId]
+A unique identifier for the related country.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[currencyId]: #currencyid
+#### [currencyId]
+A unique identifier for the related currency.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+A unique identifier for a map between a country and currency.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[locale]: #locale
+#### [locale]
+The country currency locale.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

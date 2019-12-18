@@ -36,29 +36,24 @@ The SoftLayer_Network_SecurityGroup_RequestRules data type contains the ID of a 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#requestId" name=requestId>requestId</a>
-            </span>
-            <div class='views-field-body'>The unique ID for a request. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#rules" name=rules>rules</a>
-            </span>
-            <div class='views-field-body'>Whether the API call was valid or not. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_Rule'>SoftLayer_Network_SecurityGroup_Rule[] </a></p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[requestId]: #requestid
+#### [requestId]
+The unique ID for a request.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[rules]: #rules
+#### [rules]
+Whether the API call was valid or not.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_Rule'>SoftLayer_Network_SecurityGroup_Rule[] </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -23,57 +23,48 @@ SoftLayer's resource group service allows users to access a broad overview of th
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Resource_Group/editObject'> editObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Resource_Group/getAncestorGroups'> getAncestorGroups</a> </span>
-            <div class='views-field-body'>Retrieve a resource group's associated group ancestors.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Resource_Group/getAttributes'> getAttributes</a> </span>
-            <div class='views-field-body'>Retrieve a resource group's associated attributes.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Resource_Group/getHardwareMembers'> getHardwareMembers</a> </span>
-            <div class='views-field-body'>Retrieve a resource group's associated hardware members.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Resource_Group/getMembers'> getMembers</a> </span>
-            <div class='views-field-body'>Retrieve a resource group's associated members.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Resource_Group/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Resource_Group record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Resource_Group/getRootResourceGroup'> getRootResourceGroup</a> </span>
-            <div class='views-field-body'>Retrieve a resource group's associated root resource group.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Resource_Group/getSubnetMembers'> getSubnetMembers</a> </span>
-            <div class='views-field-body'>Retrieve a resource group's associated subnet members.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Resource_Group/getTemplate'> getTemplate</a> </span>
-            <div class='views-field-body'>Retrieve a resource group's associated template.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Resource_Group/getVlanMembers'> getVlanMembers</a> </span>
-            <div class='views-field-body'>Retrieve a resource group's associated VLAN members.</div>
-        </div>
-        </div>
+</div>
+
+#### [editObject](/reference/services/SoftLayer_Resource_Group/editObject)
+
+
+#### [getAncestorGroups](/reference/services/SoftLayer_Resource_Group/getAncestorGroups)
+Retrieve a resource group's associated group ancestors.
+
+#### [getAttributes](/reference/services/SoftLayer_Resource_Group/getAttributes)
+Retrieve a resource group's associated attributes.
+
+#### [getHardwareMembers](/reference/services/SoftLayer_Resource_Group/getHardwareMembers)
+Retrieve a resource group's associated hardware members.
+
+#### [getMembers](/reference/services/SoftLayer_Resource_Group/getMembers)
+Retrieve a resource group's associated members.
+
+#### [getObject](/reference/services/SoftLayer_Resource_Group/getObject)
+Retrieve a SoftLayer_Resource_Group record.
+
+#### [getRootResourceGroup](/reference/services/SoftLayer_Resource_Group/getRootResourceGroup)
+Retrieve a resource group's associated root resource group.
+
+#### [getSubnetMembers](/reference/services/SoftLayer_Resource_Group/getSubnetMembers)
+Retrieve a resource group's associated subnet members.
+
+#### [getTemplate](/reference/services/SoftLayer_Resource_Group/getTemplate)
+Retrieve a resource group's associated template.
+
+#### [getVlanMembers](/reference/services/SoftLayer_Resource_Group/getVlanMembers)
+Retrieve a resource group's associated VLAN members.
+
 </div>
 

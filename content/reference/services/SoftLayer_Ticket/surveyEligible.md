@@ -1,6 +1,6 @@
 ---
 title: "surveyEligible"
-description: "(DEPRECATED) Use [[SoftLayer_Ticket_Survey::getPreference]] method."
+description: "(DEPRECATED) Use [SoftLayer_Ticket_Survey::getPreference]({{<ref 'reference/services/SoftLayer_Ticket_Survey/getPreferen... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ aliases:
 
 
 ## Overview 
-(DEPRECATED) Use [[SoftLayer_Ticket_Survey::getPreference]] method. 
+(DEPRECATED) Use [SoftLayer_Ticket_Survey::getPreference]({{<ref "reference/services/SoftLayer_Ticket_Survey/getPreference">}}) method. 
 
 -----
 

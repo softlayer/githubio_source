@@ -36,103 +36,72 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#isEuropeanUnionFlag" name=isEuropeanUnionFlag>isEuropeanUnionFlag</a>
-            </span>
-            <div class='views-field-body'>Binary flag denoting if this country is part of the European Union </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#isoCodeAlphaThree" name=isoCodeAlphaThree>isoCodeAlphaThree</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#longName" name=longName>longName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#postalCodeFormat" name=postalCodeFormat>postalCodeFormat</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#postalCodeRequiredFlag" name=postalCodeRequiredFlag>postalCodeRequiredFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#shortName" name=shortName>shortName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#vatIdRegex" name=vatIdRegex>vatIdRegex</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#states" name=states>states</a>
-            </span>
-            <div class='views-field-body'>States that belong to this country. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Locale_StateProvince'>SoftLayer_Locale_StateProvince[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#stateCount" name=stateCount>stateCount</a>
-            </span>
-            <div class='views-field-body'>A count of states that belong to this country. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[isEuropeanUnionFlag]: #iseuropeanunionflag
+#### [isEuropeanUnionFlag]
+Binary flag denoting if this country is part of the European Union  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[isoCodeAlphaThree]: #isocodealphathree
+#### [isoCodeAlphaThree]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[longName]: #longname
+#### [longName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[postalCodeFormat]: #postalcodeformat
+#### [postalCodeFormat]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[postalCodeRequiredFlag]: #postalcoderequiredflag
+#### [postalCodeRequiredFlag]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[shortName]: #shortname
+#### [shortName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[vatIdRegex]: #vatidregex
+#### [vatIdRegex]
+  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[states]: #states
+#### [states]
+States that belong to this country.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Locale_StateProvince'>SoftLayer_Locale_StateProvince[] </a>**
+
+
+## Count
+
+-----
+[stateCount]: #statecount
+#### [stateCount]
+A count of states that belong to this country.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

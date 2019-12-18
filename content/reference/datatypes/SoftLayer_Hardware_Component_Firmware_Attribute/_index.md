@@ -36,73 +36,53 @@ The SoftLayer_Hardware_Component_Firmware_Attribute data type contains general i
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#firmwareId" name=firmwareId>firmwareId</a>
-            </span>
-            <div class='views-field-body'>A hardware component firmware attribute's firmware Id. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A hardware component firmware attribute's Id. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#typeId" name=typeId>typeId</a>
-            </span>
-            <div class='views-field-body'>A hardware component firmware attribute's type Id. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#value" name=value>value</a>
-            </span>
-            <div class='views-field-body'>A hardware component firmware attribute's value. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#firmware" name=firmware>firmware</a>
-            </span>
-            <div class='views-field-body'>A hardware component firmware attribute's associated [[SoftLayer_Hardware_Component_Firmware|firmware]]. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware'>SoftLayer_Hardware_Component_Firmware </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#type" name=type>type</a>
-            </span>
-            <div class='views-field-body'>A hardware component firmware attribute's associated [[SoftLayer_Hardware_Component_Firmware_Attribute_Type|type]]. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware_Attribute_Type'>SoftLayer_Hardware_Component_Firmware_Attribute_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[firmwareId]: #firmwareid
+#### [firmwareId]
+A hardware component firmware attribute's firmware Id.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+A hardware component firmware attribute's Id.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[typeId]: #typeid
+#### [typeId]
+A hardware component firmware attribute's type Id.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[value]: #value
+#### [value]
+A hardware component firmware attribute's value.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[firmware]: #firmware
+#### [firmware]
+A hardware component firmware attribute's associated [SoftLayer_Hardware_Component_Firmware]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Firmware">}}).  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware'>SoftLayer_Hardware_Component_Firmware </a>**
+
+-----
+[type]: #type
+#### [type]
+A hardware component firmware attribute's associated [SoftLayer_Hardware_Component_Firmware_Attribute_Type]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Firmware_Attribute_Type">}}).  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware_Attribute_Type'>SoftLayer_Hardware_Component_Firmware_Attribute_Type </a>**
+
+
+## Count
 </div>
 
 

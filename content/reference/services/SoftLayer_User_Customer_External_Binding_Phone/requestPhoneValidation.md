@@ -1,6 +1,6 @@
 ---
 title: "requestPhoneValidation"
-description: "Initiates a phone validation requests and returns a unique token. Use [[SoftLayer_User_Customer_External_Binding_Phone::... "
+description: "Initiates a phone validation requests and returns a unique token. Use [SoftLayer_User_Customer_External_Binding_Phone::c... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Initiates a phone validation requests and returns a unique token
 
 
 ## Overview 
-Initiates a phone validation requests and returns a unique token. Use [[SoftLayer_User_Customer_External_Binding_Phone::checkPhoneValidationResult|checkPhoneValidationResult]] to find the phone validation result. 
+Initiates a phone validation requests and returns a unique token. Use [SoftLayer_User_Customer_External_Binding_Phone::checkPhoneValidationResult]({{<ref "reference/services/SoftLayer_User_Customer_External_Binding_Phone/checkPhoneValidationResult">}}) to find the phone validation result. 
 
 -----
 

@@ -55,33 +55,30 @@ The SoftLayer_Network_Firewall_Update_Request_Rule service accesses information 
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create a new firewall update request rule.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule/getFirewallUpdateRequest'> getFirewallUpdateRequest</a> </span>
-            <div class='views-field-body'>Retrieve the update request that this rule belongs to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_Firewall_Update_Request_Rule record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule/validateRule'> validateRule</a> </span>
-            <div class='views-field-body'>Validate a firewall update request rule.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule/createObject)
+Create a new firewall update request rule.
+
+#### [getFirewallUpdateRequest](/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule/getFirewallUpdateRequest)
+Retrieve the update request that this rule belongs to.
+
+#### [getObject](/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule/getObject)
+Retrieve a SoftLayer_Network_Firewall_Update_Request_Rule record.
+
+#### [validateRule](/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule/validateRule)
+Validate a firewall update request rule.
+
 </div>
 

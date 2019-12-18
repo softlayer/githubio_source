@@ -23,33 +23,30 @@ The SoftLayer_Network_LBaaS_L7Member service allows consumers to manage (backend
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_L7Member/addL7PoolMembers'> addL7PoolMembers</a> </span>
-            <div class='views-field-body'>Add load balancer L7 members</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_L7Member/deleteL7PoolMembers'> deleteL7PoolMembers</a> </span>
-            <div class='views-field-body'>Delete load balancer members</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_L7Member/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_LBaaS_L7Member record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_L7Member/updateL7PoolMembers'> updateL7PoolMembers</a> </span>
-            <div class='views-field-body'>Update l7 members weight and port</div>
-        </div>
-        </div>
+</div>
+
+#### [addL7PoolMembers](/reference/services/SoftLayer_Network_LBaaS_L7Member/addL7PoolMembers)
+Add load balancer L7 members
+
+#### [deleteL7PoolMembers](/reference/services/SoftLayer_Network_LBaaS_L7Member/deleteL7PoolMembers)
+Delete load balancer members
+
+#### [getObject](/reference/services/SoftLayer_Network_LBaaS_L7Member/getObject)
+Retrieve a SoftLayer_Network_LBaaS_L7Member record.
+
+#### [updateL7PoolMembers](/reference/services/SoftLayer_Network_LBaaS_L7Member/updateL7PoolMembers)
+Update l7 members weight and port
+
 </div>
 

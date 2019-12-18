@@ -36,63 +36,47 @@ The SoftLayer_Hardware_Component_Attribute data type contains general informatio
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareComponentAttributeTypeId" name=hardwareComponentAttributeTypeId>hardwareComponentAttributeTypeId</a>
-            </span>
-            <div class='views-field-body'>A hardware component attribute's associated [[SoftLayer_Hardware_Component_Attribute_Type|type]] Id. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareComponentId" name=hardwareComponentId>hardwareComponentId</a>
-            </span>
-            <div class='views-field-body'>A hardware component attribute's associated [[SoftLayer_Hardware_Component|hardware component]] Id. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#value" name=value>value</a>
-            </span>
-            <div class='views-field-body'>A hardware component attribute's value.  A value can have many different values depending on the attributes [[SoftLayer_Hardware_Component_Attribute_Type|type]]. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareComponent" name=hardwareComponent>hardwareComponent</a>
-            </span>
-            <div class='views-field-body'>A hardware component attribute's associated [[SoftLayer_Hardware_Component|Hardware Component]]. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareComponentAttributeType" name=hardwareComponentAttributeType>hardwareComponentAttributeType</a>
-            </span>
-            <div class='views-field-body'>A hardware component attribute's associated [[SoftLayer_Hardware_Component_Attribute_Type|type]]. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Attribute_Type'>SoftLayer_Hardware_Component_Attribute_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[hardwareComponentAttributeTypeId]: #hardwarecomponentattributetypeid
+#### [hardwareComponentAttributeTypeId]
+A hardware component attribute's associated [SoftLayer_Hardware_Component_Attribute_Type]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Attribute_Type">}}) Id.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[hardwareComponentId]: #hardwarecomponentid
+#### [hardwareComponentId]
+A hardware component attribute's associated [SoftLayer_Hardware_Component]({{<ref "reference/datatypes/SoftLayer_Hardware_Component">}}) Id.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[value]: #value
+#### [value]
+A hardware component attribute's value.  A value can have many different values depending on the attributes [SoftLayer_Hardware_Component_Attribute_Type]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Attribute_Type">}}).  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[hardwareComponent]: #hardwarecomponent
+#### [hardwareComponent]
+A hardware component attribute's associated [SoftLayer_Hardware_Component]({{<ref "reference/datatypes/SoftLayer_Hardware_Component">}}).  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>**
+
+-----
+[hardwareComponentAttributeType]: #hardwarecomponentattributetype
+#### [hardwareComponentAttributeType]
+A hardware component attribute's associated [SoftLayer_Hardware_Component_Attribute_Type]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Attribute_Type">}}).  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Attribute_Type'>SoftLayer_Hardware_Component_Attribute_Type </a>**
+
+
+## Count
 </div>
 
 

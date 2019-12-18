@@ -36,203 +36,133 @@ The virtual host represents the platform on which virtual guests reside. At time
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>A virtual host's associated account id  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date a virtual host was created.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>A virtual host's description.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#enabledFlag" name=enabledFlag>enabledFlag</a>
-            </span>
-            <div class='views-field-body'>The enabled flag specifies whether a virtual host can run guests.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareId" name=hardwareId>hardwareId</a>
-            </span>
-            <div class='views-field-body'>A hardware device which a virtual host resides.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Unique ID for a virtual host.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>The date a virtual host was last modified.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>A virtual host's name.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#physicalMemoryCapacity" name=physicalMemoryCapacity>physicalMemoryCapacity</a>
-            </span>
-            <div class='views-field-body'>The amount of memory physically available for a virtual host.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#uuid" name=uuid>uuid</a>
-            </span>
-            <div class='views-field-body'>Unique ID for a virtual host's record on a virtualization platform.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The account which a virtual host belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billedPerGuestFlag" name=billedPerGuestFlag>billedPerGuestFlag</a>
-            </span>
-            <div class='views-field-body'>Boolean flag indicating whether this virtualization platform gets billed per guest rather than at a fixed rate. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billedPerMemoryUsageFlag" name=billedPerMemoryUsageFlag>billedPerMemoryUsageFlag</a>
-            </span>
-            <div class='views-field-body'>Boolean flag indicating whether this virtualization platform gets billed per memory usage rather than at a fixed rate. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#guests" name=guests>guests</a>
-            </span>
-            <div class='views-field-body'>The guests associated with a virtual host. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardware" name=hardware>hardware</a>
-            </span>
-            <div class='views-field-body'>The hardware record which a virtual host resides on. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Server'>SoftLayer_Hardware_Server </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#metricTrackingObject" name=metricTrackingObject>metricTrackingObject</a>
-            </span>
-            <div class='views-field-body'>The metric tracking object for this virtual host. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pciDevices" name=pciDevices>pciDevices</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Host_PciDevice'>SoftLayer_Virtual_Host_PciDevice[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#guestCount" name=guestCount>guestCount</a>
-            </span>
-            <div class='views-field-body'>A count of the guests associated with a virtual host. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pciDeviceCount" name=pciDeviceCount>pciDeviceCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+A virtual host's associated account id   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+The date a virtual host was created.   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[description]: #description
+#### [description]
+A virtual host's description.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[enabledFlag]: #enabledflag
+#### [enabledFlag]
+The enabled flag specifies whether a virtual host can run guests.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[hardwareId]: #hardwareid
+#### [hardwareId]
+A hardware device which a virtual host resides.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+Unique ID for a virtual host.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+The date a virtual host was last modified.   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[name]: #name
+#### [name]
+A virtual host's name.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[physicalMemoryCapacity]: #physicalmemorycapacity
+#### [physicalMemoryCapacity]
+The amount of memory physically available for a virtual host.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[uuid]: #uuid
+#### [uuid]
+Unique ID for a virtual host's record on a virtualization platform.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The account which a virtual host belongs to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[billedPerGuestFlag]: #billedperguestflag
+#### [billedPerGuestFlag]
+Boolean flag indicating whether this virtualization platform gets billed per guest rather than at a fixed rate.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[billedPerMemoryUsageFlag]: #billedpermemoryusageflag
+#### [billedPerMemoryUsageFlag]
+Boolean flag indicating whether this virtualization platform gets billed per memory usage rather than at a fixed rate.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[guests]: #guests
+#### [guests]
+The guests associated with a virtual host.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+-----
+[hardware]: #hardware
+#### [hardware]
+The hardware record which a virtual host resides on.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Server'>SoftLayer_Hardware_Server </a>**
+
+-----
+[metricTrackingObject]: #metrictrackingobject
+#### [metricTrackingObject]
+The metric tracking object for this virtual host.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>**
+
+-----
+[pciDevices]: #pcidevices
+#### [pciDevices]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Host_PciDevice'>SoftLayer_Virtual_Host_PciDevice[] </a>**
+
+
+## Count
+
+-----
+[guestCount]: #guestcount
+#### [guestCount]
+A count of the guests associated with a virtual host.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[pciDeviceCount]: #pcidevicecount
+#### [pciDeviceCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

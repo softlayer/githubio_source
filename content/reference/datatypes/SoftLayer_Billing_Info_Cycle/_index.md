@@ -41,73 +41,53 @@ The SoftLayer_Billing_Info_Cycle data type models basic information concerning a
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#currentCycleEndDate" name=currentCycleEndDate>currentCycleEndDate</a>
-            </span>
-            <div class='views-field-body'>The ending date of an account's current billing cycle. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#currentCycleStartDate" name=currentCycleStartDate>currentCycleStartDate</a>
-            </span>
-            <div class='views-field-body'>The starting date of an account's current billing cycle. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nextCycleStartDate" name=nextCycleStartDate>nextCycleStartDate</a>
-            </span>
-            <div class='views-field-body'>The start date of an account's next billing cycle. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#previousCycleEndDate" name=previousCycleEndDate>previousCycleEndDate</a>
-            </span>
-            <div class='views-field-body'>The ending date of an account's previous billing cycle. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#previousCycleStartDate" name=previousCycleStartDate>previousCycleStartDate</a>
-            </span>
-            <div class='views-field-body'>The starting date of an account's previous billing cycle. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The account that a current billing cycle is associated with. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[currentCycleEndDate]: #currentcycleenddate
+#### [currentCycleEndDate]
+The ending date of an account's current billing cycle.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[currentCycleStartDate]: #currentcyclestartdate
+#### [currentCycleStartDate]
+The starting date of an account's current billing cycle.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[nextCycleStartDate]: #nextcyclestartdate
+#### [nextCycleStartDate]
+The start date of an account's next billing cycle.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[previousCycleEndDate]: #previouscycleenddate
+#### [previousCycleEndDate]
+The ending date of an account's previous billing cycle.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[previousCycleStartDate]: #previouscyclestartdate
+#### [previousCycleStartDate]
+The starting date of an account's previous billing cycle.  
+<span class="type-label">Type: </span>**dateTime**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The account that a current billing cycle is associated with.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+
+## Count
 </div>
 
 

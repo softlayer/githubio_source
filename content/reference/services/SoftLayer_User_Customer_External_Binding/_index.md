@@ -23,61 +23,51 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_External_Binding/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Delete an external authentication binding.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_External_Binding/disable'> disable</a> </span>
-            <div class='views-field-body'>Disable an external binding.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_External_Binding/enable'> enable</a> </span>
-            <div class='views-field-body'>Enable an external binding.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_External_Binding/getAttributes'> getAttributes</a> </span>
-            <div class='views-field-body'>Retrieve attributes of an external authentication binding.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_External_Binding/getBillingItem'> getBillingItem</a> </span>
-            <div class='views-field-body'>Retrieve information regarding the billing item for external authentication.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_External_Binding/getNote'> getNote</a> </span>
-            <div class='views-field-body'>Retrieve an optional note for identifying the external binding.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_External_Binding/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_User_Customer_External_Binding record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_External_Binding/getType'> getType</a> </span>
-            <div class='views-field-body'>Retrieve the type of external authentication binding.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_External_Binding/getUser'> getUser</a> </span>
-            <div class='views-field-body'>Retrieve the SoftLayer user that the external authentication binding belongs to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_External_Binding/getVendor'> getVendor</a> </span>
-            <div class='views-field-body'>Retrieve the vendor of an external authentication binding.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_User_Customer_External_Binding/updateNote'> updateNote</a> </span>
-            <div class='views-field-body'>Update the note of an external binding.</div>
-        </div>
-        </div>
+</div>
+
+#### [deleteObject](/reference/services/SoftLayer_User_Customer_External_Binding/deleteObject)
+Delete an external authentication binding.
+
+#### [disable](/reference/services/SoftLayer_User_Customer_External_Binding/disable)
+Disable an external binding.
+
+#### [enable](/reference/services/SoftLayer_User_Customer_External_Binding/enable)
+Enable an external binding.
+
+#### [getAttributes](/reference/services/SoftLayer_User_Customer_External_Binding/getAttributes)
+Retrieve attributes of an external authentication binding.
+
+#### [getBillingItem](/reference/services/SoftLayer_User_Customer_External_Binding/getBillingItem)
+Retrieve information regarding the billing item for external authentication.
+
+#### [getNote](/reference/services/SoftLayer_User_Customer_External_Binding/getNote)
+Retrieve an optional note for identifying the external binding.
+
+#### [getObject](/reference/services/SoftLayer_User_Customer_External_Binding/getObject)
+Retrieve a SoftLayer_User_Customer_External_Binding record.
+
+#### [getType](/reference/services/SoftLayer_User_Customer_External_Binding/getType)
+Retrieve the type of external authentication binding.
+
+#### [getUser](/reference/services/SoftLayer_User_Customer_External_Binding/getUser)
+Retrieve the SoftLayer user that the external authentication binding belongs to.
+
+#### [getVendor](/reference/services/SoftLayer_User_Customer_External_Binding/getVendor)
+Retrieve the vendor of an external authentication binding.
+
+#### [updateNote](/reference/services/SoftLayer_User_Customer_External_Binding/updateNote)
+Update the note of an external binding.
+
 </div>
 

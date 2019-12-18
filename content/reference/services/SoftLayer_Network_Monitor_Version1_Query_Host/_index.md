@@ -27,65 +27,54 @@ If the user wishes to be notified, or have other users on the account notified w
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create a monitoring entry</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/createObjects'> createObjects</a> </span>
-            <div class='views-field-body'>Create multiple monitoring entries at once</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Delete a Query_Host object by passing in a version of it</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/deleteObjects'> deleteObjects</a> </span>
-            <div class='views-field-body'>Delete a group of Query_Host objects by passing in a collection of them</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit the object by passing in a modified instance of the object</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/editObjects'> editObjects</a> </span>
-            <div class='views-field-body'>Edit a group of Query_Host objects by passing in a collection of them.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/findByHardwareId'> findByHardwareId</a> </span>
-            <div class='views-field-body'>Return all monitoring instances associated with the passed hardware ID</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/getHardware'> getHardware</a> </span>
-            <div class='views-field-body'>Retrieve the hardware that is being monitored by this monitoring instance</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/getLastResult'> getLastResult</a> </span>
-            <div class='views-field-body'>Retrieve the most recent result for this particular monitoring instance.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_Monitor_Version1_Query_Host record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/getQueryType'> getQueryType</a> </span>
-            <div class='views-field-body'>Retrieve the type of monitoring query that is executed when this hardware is monitored.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/getResponseAction'> getResponseAction</a> </span>
-            <div class='views-field-body'>Retrieve the action taken when a monitor fails.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/createObject)
+Create a monitoring entry
+
+#### [createObjects](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/createObjects)
+Create multiple monitoring entries at once
+
+#### [deleteObject](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/deleteObject)
+Delete a Query_Host object by passing in a version of it
+
+#### [deleteObjects](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/deleteObjects)
+Delete a group of Query_Host objects by passing in a collection of them
+
+#### [editObject](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/editObject)
+Edit the object by passing in a modified instance of the object
+
+#### [editObjects](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/editObjects)
+Edit a group of Query_Host objects by passing in a collection of them.
+
+#### [findByHardwareId](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/findByHardwareId)
+Return all monitoring instances associated with the passed hardware ID
+
+#### [getHardware](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/getHardware)
+Retrieve the hardware that is being monitored by this monitoring instance
+
+#### [getLastResult](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/getLastResult)
+Retrieve the most recent result for this particular monitoring instance.
+
+#### [getObject](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/getObject)
+Retrieve a SoftLayer_Network_Monitor_Version1_Query_Host record.
+
+#### [getQueryType](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/getQueryType)
+Retrieve the type of monitoring query that is executed when this hardware is monitored.
+
+#### [getResponseAction](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host/getResponseAction)
+Retrieve the action taken when a monitor fails.
+
 </div>
 

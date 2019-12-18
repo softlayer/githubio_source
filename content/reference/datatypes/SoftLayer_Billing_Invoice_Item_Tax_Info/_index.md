@@ -36,213 +36,137 @@ Information about the tax rates that apply to a particular invoice item.
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date and time the tax information was recorded. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>The invoice description with special information about the invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#effectiveTaxRate" name=effectiveTaxRate>effectiveTaxRate</a>
-            </span>
-            <div class='views-field-body'>The tax rate that can be multiplied by the subtotal to get the </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#exemptAmount" name=exemptAmount>exemptAmount</a>
-            </span>
-            <div class='views-field-body'>The amount that is exempt from tax. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#feeProperty" name=feeProperty>feeProperty</a>
-            </span>
-            <div class='views-field-body'>The type of fee being tracked for this particular set of tax information. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>An invoice item's tax information internal identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#invoiceItemId" name=invoiceItemId>invoiceItemId</a>
-            </span>
-            <div class='views-field-body'>A reference to the related invoice item. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#invoiceTaxInfoId" name=invoiceTaxInfoId>invoiceTaxInfoId</a>
-            </span>
-            <div class='views-field-body'>A reference to the tax information for the parent invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>The date and time the tax information was modified. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nonTaxableBasis" name=nonTaxableBasis>nonTaxableBasis</a>
-            </span>
-            <div class='views-field-body'>The amount that is exempt from tax. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#reportedFlag" name=reportedFlag>reportedFlag</a>
-            </span>
-            <div class='views-field-body'>A flag to indicate whether this is the official record for this invoice item. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sellerRegistration" name=sellerRegistration>sellerRegistration</a>
-            </span>
-            <div class='views-field-body'>The registration that the seller will use to report the invoice. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#taxAmount" name=taxAmount>taxAmount</a>
-            </span>
-            <div class='views-field-body'>The tax amount associated with this line item. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#taxAmountToCurrency" name=taxAmountToCurrency>taxAmountToCurrency</a>
-            </span>
-            <div class='views-field-body'>The tax amount (converted to the 'to' currency) associated with this line item. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#taxRate" name=taxRate>taxRate</a>
-            </span>
-            <div class='views-field-body'>The tax rate used. Note that this might apply to only part of the </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#taxableBasis" name=taxableBasis>taxableBasis</a>
-            </span>
-            <div class='views-field-body'>The amount that is subject to tax. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#toCurrencyId" name=toCurrencyId>toCurrencyId</a>
-            </span>
-            <div class='views-field-body'>The currency code that the invoice is being converted to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#invoiceItem" name=invoiceItem>invoiceItem</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#invoiceTaxInfo" name=invoiceTaxInfo>invoiceTaxInfo</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Info'>SoftLayer_Billing_Invoice_Tax_Info </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#toCurrency" name=toCurrency>toCurrency</a>
-            </span>
-            <div class='views-field-body'>This is the currency the invoice will be converted to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[createDate]: #createdate
+#### [createDate]
+The date and time the tax information was recorded.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[description]: #description
+#### [description]
+The invoice description with special information about the invoice.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[effectiveTaxRate]: #effectivetaxrate
+#### [effectiveTaxRate]
+The tax rate that can be multiplied by the subtotal to get the  
+<span class="type-label">Type: </span>**float**
+
+-----
+[exemptAmount]: #exemptamount
+#### [exemptAmount]
+The amount that is exempt from tax.  
+<span class="type-label">Type: </span>**float**
+
+-----
+[feeProperty]: #feeproperty
+#### [feeProperty]
+The type of fee being tracked for this particular set of tax information.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+An invoice item's tax information internal identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[invoiceItemId]: #invoiceitemid
+#### [invoiceItemId]
+A reference to the related invoice item.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[invoiceTaxInfoId]: #invoicetaxinfoid
+#### [invoiceTaxInfoId]
+A reference to the tax information for the parent invoice.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+The date and time the tax information was modified.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[nonTaxableBasis]: #nontaxablebasis
+#### [nonTaxableBasis]
+The amount that is exempt from tax.  
+<span class="type-label">Type: </span>**float**
+
+-----
+[reportedFlag]: #reportedflag
+#### [reportedFlag]
+A flag to indicate whether this is the official record for this invoice item.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[sellerRegistration]: #sellerregistration
+#### [sellerRegistration]
+The registration that the seller will use to report the invoice.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[taxAmount]: #taxamount
+#### [taxAmount]
+The tax amount associated with this line item.  
+<span class="type-label">Type: </span>**float**
+
+-----
+[taxAmountToCurrency]: #taxamounttocurrency
+#### [taxAmountToCurrency]
+The tax amount (converted to the 'to' currency) associated with this line item.  
+<span class="type-label">Type: </span>**float**
+
+-----
+[taxRate]: #taxrate
+#### [taxRate]
+The tax rate used. Note that this might apply to only part of the  
+<span class="type-label">Type: </span>**float**
+
+-----
+[taxableBasis]: #taxablebasis
+#### [taxableBasis]
+The amount that is subject to tax.  
+<span class="type-label">Type: </span>**float**
+
+-----
+[toCurrencyId]: #tocurrencyid
+#### [toCurrencyId]
+The currency code that the invoice is being converted to.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[invoiceItem]: #invoiceitem
+#### [invoiceItem]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item </a>**
+
+-----
+[invoiceTaxInfo]: #invoicetaxinfo
+#### [invoiceTaxInfo]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Info'>SoftLayer_Billing_Invoice_Tax_Info </a>**
+
+-----
+[toCurrency]: #tocurrency
+#### [toCurrency]
+This is the currency the invoice will be converted to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a>**
+
+
+## Count
 </div>
 
 

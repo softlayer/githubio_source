@@ -23,49 +23,42 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate/createObject'> createObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate/editObject'> editObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate/findByCommonName'> findByCommonName</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate/getAssociatedServiceCount'> getAssociatedServiceCount</a> </span>
-            <div class='views-field-body'>Retrieve the number of services currently associated with the certificate.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate/getLoadBalancerVirtualIpAddresses'> getLoadBalancerVirtualIpAddresses</a> </span>
-            <div class='views-field-body'>Retrieve the load balancers virtual IP addresses currently associated with the certificate.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Security_Certificate record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Certificate/getPemFormat'> getPemFormat</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Security_Certificate/createObject)
+
+
+#### [deleteObject](/reference/services/SoftLayer_Security_Certificate/deleteObject)
+
+
+#### [editObject](/reference/services/SoftLayer_Security_Certificate/editObject)
+
+
+#### [findByCommonName](/reference/services/SoftLayer_Security_Certificate/findByCommonName)
+
+
+#### [getAssociatedServiceCount](/reference/services/SoftLayer_Security_Certificate/getAssociatedServiceCount)
+Retrieve the number of services currently associated with the certificate.
+
+#### [getLoadBalancerVirtualIpAddresses](/reference/services/SoftLayer_Security_Certificate/getLoadBalancerVirtualIpAddresses)
+Retrieve the load balancers virtual IP addresses currently associated with the certificate.
+
+#### [getObject](/reference/services/SoftLayer_Security_Certificate/getObject)
+Retrieve a SoftLayer_Security_Certificate record.
+
+#### [getPemFormat](/reference/services/SoftLayer_Security_Certificate/getPemFormat)
+
+
 </div>
 

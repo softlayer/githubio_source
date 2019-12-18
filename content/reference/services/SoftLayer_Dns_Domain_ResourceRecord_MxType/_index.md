@@ -37,49 +37,42 @@ The SoftLayer_Dns_Domain_ResourceRecord_MxType service controls the creation, mo
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create an MX record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/createObjects'> createObjects</a> </span>
-            <div class='views-field-body'>Create multiple MX records.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Delete a domain's MX record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/deleteObjects'> deleteObjects</a> </span>
-            <div class='views-field-body'>Delete multiple MX records from a domain.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit a domain's MX record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/editObjects'> editObjects</a> </span>
-            <div class='views-field-body'>Edit multiple domain MX records.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/getDomain'> getDomain</a> </span>
-            <div class='views-field-body'>Retrieve the domain that a resource record belongs to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Dns_Domain_ResourceRecord_MxType record.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/createObject)
+Create an MX record.
+
+#### [createObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/createObjects)
+Create multiple MX records.
+
+#### [deleteObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/deleteObject)
+Delete a domain's MX record.
+
+#### [deleteObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/deleteObjects)
+Delete multiple MX records from a domain.
+
+#### [editObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/editObject)
+Edit a domain's MX record.
+
+#### [editObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/editObjects)
+Edit multiple domain MX records.
+
+#### [getDomain](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/getDomain)
+Retrieve the domain that a resource record belongs to.
+
+#### [getObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/getObject)
+Retrieve a SoftLayer_Dns_Domain_ResourceRecord_MxType record.
+
 </div>
 

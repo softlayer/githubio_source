@@ -36,83 +36,59 @@ The SoftLayer_Product_Item_Category_Question_Xref data type represents a link be
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Identifier for category question xref record. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#itemCategoryId" name=itemCategoryId>itemCategoryId</a>
-            </span>
-            <div class='views-field-body'>Identifier for item category. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationId" name=locationId>locationId</a>
-            </span>
-            <div class='views-field-body'>Identifier for the question. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#questionId" name=questionId>questionId</a>
-            </span>
-            <div class='views-field-body'>Identifier for the question. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#required" name=required>required</a>
-            </span>
-            <div class='views-field-body'>Flag to indicate whether an answer is required for the question.. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#itemCategory" name=itemCategory>itemCategory</a>
-            </span>
-            <div class='views-field-body'>The product item category that this reference points to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#question" name=question>question</a>
-            </span>
-            <div class='views-field-body'>The item category question that this reference points to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question'>SoftLayer_Product_Item_Category_Question </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[id]: #id
+#### [id]
+Identifier for category question xref record.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[itemCategoryId]: #itemcategoryid
+#### [itemCategoryId]
+Identifier for item category.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[locationId]: #locationid
+#### [locationId]
+Identifier for the question.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[questionId]: #questionid
+#### [questionId]
+Identifier for the question.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[required]: #required
+#### [required]
+Flag to indicate whether an answer is required for the question..  
+<span class="type-label">Type: </span>**boolean**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[itemCategory]: #itemcategory
+#### [itemCategory]
+The product item category that this reference points to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**
+
+-----
+[question]: #question
+#### [question]
+The item category question that this reference points to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question'>SoftLayer_Product_Item_Category_Question </a>**
+
+
+## Count
 </div>
 
 

@@ -23,41 +23,36 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Affiliation/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create a new affiliation.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Affiliation/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Delete an account affiliation</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Affiliation/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Update an account affiliation information.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Affiliation/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve the account that an affiliation belongs to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Affiliation/getAccountAffiliationsByAffiliateId'> getAccountAffiliationsByAffiliateId</a> </span>
-            <div class='views-field-body'>Get account affiliation information associated with affiliate id.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Affiliation/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Account_Affiliation record.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Account_Affiliation/createObject)
+Create a new affiliation.
+
+#### [deleteObject](/reference/services/SoftLayer_Account_Affiliation/deleteObject)
+Delete an account affiliation
+
+#### [editObject](/reference/services/SoftLayer_Account_Affiliation/editObject)
+Update an account affiliation information.
+
+#### [getAccount](/reference/services/SoftLayer_Account_Affiliation/getAccount)
+Retrieve the account that an affiliation belongs to.
+
+#### [getAccountAffiliationsByAffiliateId](/reference/services/SoftLayer_Account_Affiliation/getAccountAffiliationsByAffiliateId)
+Get account affiliation information associated with affiliate id.
+
+#### [getObject](/reference/services/SoftLayer_Account_Affiliation/getObject)
+Retrieve a SoftLayer_Account_Affiliation record.
+
 </div>
 

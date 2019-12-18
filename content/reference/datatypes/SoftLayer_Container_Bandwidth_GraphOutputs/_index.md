@@ -21,12 +21,6 @@ classes:
 SoftLayer_Container_Bandwidth_GraphOutputs models a single outbound object for a given bandwidth graph.
 
 
-### associatedMethods
-
-*  [SoftLayer_Utility_Bandwidth_Graph::getBandwidthImage](/reference/services/SoftLayer_Utility_Bandwidth_Graph/getBandwidthImage )
-*  [SoftLayer_Utility_Bandwidth_Graph::getBandwidthGraphParameters](/reference/services/SoftLayer_Utility_Bandwidth_Graph/getBandwidthGraphParameters )
-
-
 
 ### seeAlso
 
@@ -47,49 +41,36 @@ SoftLayer_Container_Bandwidth_GraphOutputs models a single outbound object for a
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#graphImage" name=graphImage>graphImage</a>
-            </span>
-            <div class='views-field-body'>The raw PNG binary data to be displayed once the graph is drawn. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>binary data</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#graphTitle" name=graphTitle>graphTitle</a>
-            </span>
-            <div class='views-field-body'>The title that ended up being displayed as part of the graph image. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maxEndDate" name=maxEndDate>maxEndDate</a>
-            </span>
-            <div class='views-field-body'>The maximum date included in this graph. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#minStartDate" name=minStartDate>minStartDate</a>
-            </span>
-            <div class='views-field-body'>The minimum date included in this graph. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[graphImage]: #graphimage
+#### [graphImage]
+The raw PNG binary data to be displayed once the graph is drawn.  
+<span class="type-label">Type: </span>**binary data**
+
+-----
+[graphTitle]: #graphtitle
+#### [graphTitle]
+The title that ended up being displayed as part of the graph image.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[maxEndDate]: #maxenddate
+#### [maxEndDate]
+The maximum date included in this graph.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[minStartDate]: #minstartdate
+#### [minStartDate]
+The minimum date included in this graph.  
+<span class="type-label">Type: </span>**dateTime**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

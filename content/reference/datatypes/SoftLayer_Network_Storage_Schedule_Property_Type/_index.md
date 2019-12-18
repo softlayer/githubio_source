@@ -36,59 +36,42 @@ A schedule property type is used to allow for a standardized method of defining 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>A type's description, for example 'Date for the schedule to start.'. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A schedule property type's internal identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#keyname" name=keyname>keyname</a>
-            </span>
-            <div class='views-field-body'>A schedule property type's key name, for example 'START_DATE'. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>A schedule property type's name, for example 'Start Date'. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#nasType" name=nasType>nasType</a>
-            </span>
-            <div class='views-field-body'>The type of Storage volume type which a property type may be associated with. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[description]: #description
+#### [description]
+A type's description, for example 'Date for the schedule to start.'.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+A schedule property type's internal identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[keyname]: #keyname
+#### [keyname]
+A schedule property type's key name, for example 'START_DATE'.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[name]: #name
+#### [name]
+A schedule property type's name, for example 'Start Date'.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[nasType]: #nastype
+#### [nasType]
+The type of Storage volume type which a property type may be associated with.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

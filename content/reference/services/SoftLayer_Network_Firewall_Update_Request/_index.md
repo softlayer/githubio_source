@@ -43,53 +43,45 @@ The SoftLayer_Network_Firewall_Update_Request service can be used to create Soft
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Firewall_Update_Request/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create a new firewall update request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Firewall_Update_Request/getAuthorizingUser'> getAuthorizingUser</a> </span>
-            <div class='views-field-body'>Retrieve the user that authorized this firewall update request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Firewall_Update_Request/getFirewallUpdateRequestRuleAttributes'> getFirewallUpdateRequestRuleAttributes</a> </span>
-            <div class='views-field-body'>Get the possible attribute values for a firewall update request rule.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Firewall_Update_Request/getGuest'> getGuest</a> </span>
-            <div class='views-field-body'>Retrieve the downstream virtual server that the rule set will be applied to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Firewall_Update_Request/getHardware'> getHardware</a> </span>
-            <div class='views-field-body'>Retrieve the downstream server that the rule set will be applied to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Firewall_Update_Request/getNetworkComponentFirewall'> getNetworkComponentFirewall</a> </span>
-            <div class='views-field-body'>Retrieve the network component firewall that the rule set will be applied to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Firewall_Update_Request/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_Firewall_Update_Request record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Firewall_Update_Request/getRules'> getRules</a> </span>
-            <div class='views-field-body'>Retrieve the group of rules contained within the update request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Firewall_Update_Request/updateRuleNote'> updateRuleNote</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Network_Firewall_Update_Request/createObject)
+Create a new firewall update request.
+
+#### [getAuthorizingUser](/reference/services/SoftLayer_Network_Firewall_Update_Request/getAuthorizingUser)
+Retrieve the user that authorized this firewall update request.
+
+#### [getFirewallUpdateRequestRuleAttributes](/reference/services/SoftLayer_Network_Firewall_Update_Request/getFirewallUpdateRequestRuleAttributes)
+Get the possible attribute values for a firewall update request rule.
+
+#### [getGuest](/reference/services/SoftLayer_Network_Firewall_Update_Request/getGuest)
+Retrieve the downstream virtual server that the rule set will be applied to.
+
+#### [getHardware](/reference/services/SoftLayer_Network_Firewall_Update_Request/getHardware)
+Retrieve the downstream server that the rule set will be applied to.
+
+#### [getNetworkComponentFirewall](/reference/services/SoftLayer_Network_Firewall_Update_Request/getNetworkComponentFirewall)
+Retrieve the network component firewall that the rule set will be applied to.
+
+#### [getObject](/reference/services/SoftLayer_Network_Firewall_Update_Request/getObject)
+Retrieve a SoftLayer_Network_Firewall_Update_Request record.
+
+#### [getRules](/reference/services/SoftLayer_Network_Firewall_Update_Request/getRules)
+Retrieve the group of rules contained within the update request.
+
+#### [updateRuleNote](/reference/services/SoftLayer_Network_Firewall_Update_Request/updateRuleNote)
+
+
 </div>
 

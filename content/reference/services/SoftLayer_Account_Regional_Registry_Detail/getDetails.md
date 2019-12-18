@@ -1,6 +1,6 @@
 ---
 title: "getDetails"
-description: "Retrieve references to the [[SoftLayer_Network_Subnet_Registration|registration objects]] that consume this detail objec... "
+description: "Retrieve references to the [SoftLayer_Network_Subnet_Registration]({{<ref 'reference/datatypes/SoftLayer_Network_Subnet_... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Account_Regional_Registry_Detail](/reference/services/SoftLayer_Account_Regional_Registry_Detail)::getDetails
 
-Retrieve references to the [[SoftLayer_Network_Subnet_Registration|registration objects]] that consume this detail object.
+Retrieve references to the [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}) that consume this detail object.
 
 
 ## Overview 
-Retrieve references to the [[SoftLayer_Network_Subnet_Registration|registration objects]] that consume this detail object.
+Retrieve references to the [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}) that consume this detail object.
 
 -----
 

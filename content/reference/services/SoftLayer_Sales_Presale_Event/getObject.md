@@ -1,6 +1,6 @@
 ---
 title: "getObject"
-description: "'''getObject''' retrieves the [[SoftLayer_Sales_Presale_Event]] object whose id number corresponds to the id number of t... "
+description: "'''getObject''' retrieves the [SoftLayer_Sales_Presale_Event]({{<ref 'reference/datatypes/SoftLayer_Sales_Presale_Event'... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Retrieve a SoftLayer_Sales_Presale_Event record.
 
 
 ## Overview 
-'''getObject''' retrieves the [[SoftLayer_Sales_Presale_Event]] object whose id number corresponds to the id number of the init parameter passed to the SoftLayer_Sales_Presale_Event service. Customers may only retrieve presale events that are currently active. 
+'''getObject''' retrieves the [SoftLayer_Sales_Presale_Event]({{<ref "reference/datatypes/SoftLayer_Sales_Presale_Event">}}) object whose id number corresponds to the id number of the init parameter passed to the SoftLayer_Sales_Presale_Event service. Customers may only retrieve presale events that are currently active. 
 
 -----
 

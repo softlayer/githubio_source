@@ -40,33 +40,29 @@ The SoftLayer_User_External_Binding_Attribute data type contains the value for a
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#value" name=value>value</a>
-            </span>
-            <div class='views-field-body'>The value of an external binding attribute. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#externalBinding" name=externalBinding>externalBinding</a>
-            </span>
-            <div class='views-field-body'>The external authentication binding an attribute belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_External_Binding'>SoftLayer_User_External_Binding </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[value]: #value
+#### [value]
+The value of an external binding attribute.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[externalBinding]: #externalbinding
+#### [externalBinding]
+The external authentication binding an attribute belongs to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_External_Binding'>SoftLayer_User_External_Binding </a>**
+
+
+## Count
 </div>
 
 

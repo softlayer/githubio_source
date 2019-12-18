@@ -1,6 +1,6 @@
 ---
 title: "createObjects"
-description: "Edit multiple [[SoftLayer_Account_Regional_Registry_Detail_Property]] objects."
+description: "Edit multiple [SoftLayer_Account_Regional_Registry_Detail_Property]({{<ref 'reference/datatypes/SoftLayer_Account_Region... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Create multiple property objects.
 
 
 ## Overview 
-Edit multiple [[SoftLayer_Account_Regional_Registry_Detail_Property]] objects. 
+Edit multiple [SoftLayer_Account_Regional_Registry_Detail_Property]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property">}}) objects. 
 
 -----
 

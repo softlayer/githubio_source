@@ -29,7 +29,7 @@ Each User is assigned a timezone allowing for a precise local timestamp.
 
 ### seeAlso
 
-* [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer )
+* [SoftLayer_User_Customer](/reference/datatypes/SoftLayer_User_Customer )
 
 
 
@@ -46,59 +46,42 @@ Each User is assigned a timezone allowing for a precise local timestamp.
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A timezone's identifying number. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#longName" name=longName>longName</a>
-            </span>
-            <div class='views-field-body'>A timezone's long name. For example, "(GMT-06:00) America/Dallas - CST". </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>A timezone's name. For example, "America/Dallas". </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#offset" name=offset>offset</a>
-            </span>
-            <div class='views-field-body'>A timezone's offset based on the GMT standard. For example, Central Standard Time's offset is "-0600" from GMT=0000. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#shortName" name=shortName>shortName</a>
-            </span>
-            <div class='views-field-body'>A timezone's common abbreviation. For example, Central Standard Time's abbreviation is "CST". </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[id]: #id
+#### [id]
+A timezone's identifying number.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[longName]: #longname
+#### [longName]
+A timezone's long name. For example, "(GMT-06:00) America/Dallas - CST".  
+<span class="type-label">Type: </span>**string**
+
+-----
+[name]: #name
+#### [name]
+A timezone's name. For example, "America/Dallas".  
+<span class="type-label">Type: </span>**string**
+
+-----
+[offset]: #offset
+#### [offset]
+A timezone's offset based on the GMT standard. For example, Central Standard Time's offset is "-0600" from GMT=0000.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[shortName]: #shortname
+#### [shortName]
+A timezone's common abbreviation. For example, Central Standard Time's abbreviation is "CST".  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

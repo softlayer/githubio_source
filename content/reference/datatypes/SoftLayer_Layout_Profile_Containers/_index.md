@@ -36,83 +36,59 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>Timestamp of when the reference was created </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of the container reference </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#layoutContainerId" name=layoutContainerId>layoutContainerId</a>
-            </span>
-            <div class='views-field-body'>The id of the referenced [[SoftLayer_Layout_Container]] </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#layoutProfileId" name=layoutProfileId>layoutProfileId</a>
-            </span>
-            <div class='views-field-body'>The id of the referenced [[SoftLayer_Layout_Profile]] </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>Timestamp of when the reference was last updated </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#layoutContainerType" name=layoutContainerType>layoutContainerType</a>
-            </span>
-            <div class='views-field-body'>The container to be contained </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Layout_Container'>SoftLayer_Layout_Container </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#layoutProfile" name=layoutProfile>layoutProfile</a>
-            </span>
-            <div class='views-field-body'>The profile containing this container </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Layout_Profile'>SoftLayer_Layout_Profile </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[createDate]: #createdate
+#### [createDate]
+Timestamp of when the reference was created  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+The internal identifier of the container reference  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[layoutContainerId]: #layoutcontainerid
+#### [layoutContainerId]
+The id of the referenced [SoftLayer_Layout_Container]({{<ref "reference/datatypes/SoftLayer_Layout_Container">}})  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[layoutProfileId]: #layoutprofileid
+#### [layoutProfileId]
+The id of the referenced [SoftLayer_Layout_Profile]({{<ref "reference/datatypes/SoftLayer_Layout_Profile">}})  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+Timestamp of when the reference was last updated  
+<span class="type-label">Type: </span>**dateTime**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[layoutContainerType]: #layoutcontainertype
+#### [layoutContainerType]
+The container to be contained  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Container'>SoftLayer_Layout_Container </a>**
+
+-----
+[layoutProfile]: #layoutprofile
+#### [layoutProfile]
+The profile containing this container  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Profile'>SoftLayer_Layout_Profile </a>**
+
+
+## Count
 </div>
 
 

@@ -24,7 +24,7 @@ Configuration definition gives you details of the value that you're setting.
 
 Some monitoring agents requires values unique to your system. If value type is defined as "Resource Specific Values", you will have to make an additional API call to retrieve your system specific values. 
 
-See [[SoftLayer_Monitoring_Agent::getAvailableConfigurationValues|Monitoring Agent]] service to retrieve your system specific values. 
+See [SoftLayer_Monitoring_Agent::getAvailableConfigurationValues]({{<ref "reference/services/SoftLayer_Monitoring_Agent/getAvailableConfigurationValues">}}) service to retrieve your system specific values. 
 
 
 
@@ -42,233 +42,150 @@ See [[SoftLayer_Monitoring_Agent::getAvailableConfigurationValues|Monitoring Age
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>Created date </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>Description of a configuration definition. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#enumerationValues" name=enumerationValues>enumerationValues</a>
-            </span>
-            <div class='views-field-body'>Enumeration values separated by comma. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#groupId" name=groupId>groupId</a>
-            </span>
-            <div class='views-field-body'>Definition group id. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of a configuration definition. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maximumValue" name=maximumValue>maximumValue</a>
-            </span>
-            <div class='views-field-body'>Maximum value of a configuration definition. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#minimumValue" name=minimumValue>minimumValue</a>
-            </span>
-            <div class='views-field-body'>Minimum value of a configuration definition. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>Last modify date </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>Configuration definition name. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#path" name=path>path</a>
-            </span>
-            <div class='views-field-body'>Definition path. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#requireValueFlag" name=requireValueFlag>requireValueFlag</a>
-            </span>
-            <div class='views-field-body'>Indicates if a configuration value is required for this definition. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sectionId" name=sectionId>sectionId</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of a configuration section. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#shortName" name=shortName>shortName</a>
-            </span>
-            <div class='views-field-body'>Shortened configuration definition name. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sort" name=sort>sort</a>
-            </span>
-            <div class='views-field-body'>Sort order </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#typeId" name=typeId>typeId</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of a configuration definition type. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributes" name=attributes>attributes</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Attribute'>SoftLayer_Configuration_Template_Section_Definition_Attribute[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#defaultValue" name=defaultValue>defaultValue</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Value'>SoftLayer_Configuration_Template_Section_Definition_Value </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#group" name=group>group</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Group'>SoftLayer_Configuration_Template_Section_Definition_Group </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monitoringDataFlag" name=monitoringDataFlag>monitoringDataFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#section" name=section>section</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Configuration_Template_Section'>SoftLayer_Configuration_Template_Section </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#valueType" name=valueType>valueType</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Type'>SoftLayer_Configuration_Template_Section_Definition_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributeCount" name=attributeCount>attributeCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[createDate]: #createdate
+#### [createDate]
+Created date  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[description]: #description
+#### [description]
+Description of a configuration definition.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[enumerationValues]: #enumerationvalues
+#### [enumerationValues]
+Enumeration values separated by comma.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[groupId]: #groupid
+#### [groupId]
+Definition group id.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+Internal identifier of a configuration definition.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[maximumValue]: #maximumvalue
+#### [maximumValue]
+Maximum value of a configuration definition.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[minimumValue]: #minimumvalue
+#### [minimumValue]
+Minimum value of a configuration definition.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+Last modify date  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[name]: #name
+#### [name]
+Configuration definition name.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[path]: #path
+#### [path]
+Definition path.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[requireValueFlag]: #requirevalueflag
+#### [requireValueFlag]
+Indicates if a configuration value is required for this definition.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[sectionId]: #sectionid
+#### [sectionId]
+Internal identifier of a configuration section.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[shortName]: #shortname
+#### [shortName]
+Shortened configuration definition name.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[sort]: #sort
+#### [sort]
+Sort order  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[typeId]: #typeid
+#### [typeId]
+Internal identifier of a configuration definition type.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[attributes]: #attributes
+#### [attributes]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Attribute'>SoftLayer_Configuration_Template_Section_Definition_Attribute[] </a>**
+
+-----
+[defaultValue]: #defaultvalue
+#### [defaultValue]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Value'>SoftLayer_Configuration_Template_Section_Definition_Value </a>**
+
+-----
+[group]: #group
+#### [group]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Group'>SoftLayer_Configuration_Template_Section_Definition_Group </a>**
+
+-----
+[monitoringDataFlag]: #monitoringdataflag
+#### [monitoringDataFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[section]: #section
+#### [section]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section'>SoftLayer_Configuration_Template_Section </a>**
+
+-----
+[valueType]: #valuetype
+#### [valueType]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Type'>SoftLayer_Configuration_Template_Section_Definition_Type </a>**
+
+
+## Count
+
+-----
+[attributeCount]: #attributecount
+#### [attributeCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

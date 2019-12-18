@@ -36,109 +36,72 @@ The SoftLayer_Network_LBaaS_HealthMonitor type presents a structure containing a
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>Create date of the health monitor instance </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Health monitor's identifier </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#interval" name=interval>interval</a>
-            </span>
-            <div class='views-field-body'>Interval in seconds to perform health check </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maxRetries" name=maxRetries>maxRetries</a>
-            </span>
-            <div class='views-field-body'>Maximum number of health check retries in case of failure </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>Modify date of the health monitor instance </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monitorType" name=monitorType>monitorType</a>
-            </span>
-            <div class='views-field-body'>Type of health check, valid values are "TCP", "HTTP" and "HTTPS" </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#provisioningStatus" name=provisioningStatus>provisioningStatus</a>
-            </span>
-            <div class='views-field-body'>Provisioning status of the health monitor, supported values are "CREATE_PENDING", </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#timeout" name=timeout>timeout</a>
-            </span>
-            <div class='views-field-body'>Timeout in seconds to wait for health checks response </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#urlPath" name=urlPath>urlPath</a>
-            </span>
-            <div class='views-field-body'>If monitorType is "HTTP" this specifies the whole URL path </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#uuid" name=uuid>uuid</a>
-            </span>
-            <div class='views-field-body'>Health monitor's UUID </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[createDate]: #createdate
+#### [createDate]
+Create date of the health monitor instance  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+Health monitor's identifier  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[interval]: #interval
+#### [interval]
+Interval in seconds to perform health check  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[maxRetries]: #maxretries
+#### [maxRetries]
+Maximum number of health check retries in case of failure  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+Modify date of the health monitor instance  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[monitorType]: #monitortype
+#### [monitorType]
+Type of health check, valid values are "TCP", "HTTP" and "HTTPS"  
+<span class="type-label">Type: </span>**string**
+
+-----
+[provisioningStatus]: #provisioningstatus
+#### [provisioningStatus]
+Provisioning status of the health monitor, supported values are "CREATE_PENDING",  
+<span class="type-label">Type: </span>**string**
+
+-----
+[timeout]: #timeout
+#### [timeout]
+Timeout in seconds to wait for health checks response  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[urlPath]: #urlpath
+#### [urlPath]
+If monitorType is "HTTP" this specifies the whole URL path  
+<span class="type-label">Type: </span>**string**
+
+-----
+[uuid]: #uuid
+#### [uuid]
+Health monitor's UUID  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

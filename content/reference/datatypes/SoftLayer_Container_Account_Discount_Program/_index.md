@@ -41,129 +41,84 @@ SoftLayer_Container_Account_Discount_Program models a single outbound object for
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#appliedCredit" name=appliedCredit>appliedCredit</a>
-            </span>
-            <div class='views-field-body'>The credit allowance that has already been applied during the current billing cycle. If the lifetime limit has been or soon will be reached, this amount may included credit applied in previous billing cycles.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#isParticipant" name=isParticipant>isParticipant</a>
-            </span>
-            <div class='views-field-body'>Flag to signify whether the account is a participant in the discount program. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lifetimeAppliedCredit" name=lifetimeAppliedCredit>lifetimeAppliedCredit</a>
-            </span>
-            <div class='views-field-body'>Credit allowance applied over the course of the entire program enrollment. For enrollments without a lifetime restriction, this property will not be populated as credit will be tracked on a purely monthly basis.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lifetimeCredit" name=lifetimeCredit>lifetimeCredit</a>
-            </span>
-            <div class='views-field-body'>Credit allowance available over the course of the entire program enrollment. If null, enrollment credit is applied on a strictly monthly basis and there is no lifetime maximum. Enrollments with non-null lifetime credit will receive the lesser of the remaining monthly credit or the remaining lifetime credit.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lifetimeRemainingCredit" name=lifetimeRemainingCredit>lifetimeRemainingCredit</a>
-            </span>
-            <div class='views-field-body'>Remaining credit allowance available over the remaining duration of the program enrollment. If null, enrollment credit is applied on a strictly monthly basis and there is no lifetime maximum. Enrollments with non-null remaining lifetime credit will receive the lesser of the remaining monthly credit or the remaining lifetime credit.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maximumActiveOrders" name=maximumActiveOrders>maximumActiveOrders</a>
-            </span>
-            <div class='views-field-body'>Maximum number of orders the enrolled account is allowed to have open at one time. If null, then the Flexible Credit Program does not impose an order limit.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monthlyCredit" name=monthlyCredit>monthlyCredit</a>
-            </span>
-            <div class='views-field-body'>The monthly credit allowance that is available at the beginning of the billing cycle. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#postTaxRemainingCredit" name=postTaxRemainingCredit>postTaxRemainingCredit</a>
-            </span>
-            <div class='views-field-body'>DEPRECATED: Taxes are calculated in real time and discount amounts are shown pre-tax in all cases. Tax values in the SoftLayer_Container_Account_Discount_Program container are now populated with the related pre-tax values.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#programEndDate" name=programEndDate>programEndDate</a>
-            </span>
-            <div class='views-field-body'>The date at which the program expires in MM/DD/YYYY format. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#programName" name=programName>programName</a>
-            </span>
-            <div class='views-field-body'>Name of the Flexible Credit Program the account is enrolled in. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#remainingCredit" name=remainingCredit>remainingCredit</a>
-            </span>
-            <div class='views-field-body'>The credit allowance that is available during the current billing cycle. If the lifetime limit has been or soon will be reached, this amount may be reduced by credit applied in previous billing cycles.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#remainingCreditTax" name=remainingCreditTax>remainingCreditTax</a>
-            </span>
-            <div class='views-field-body'>DEPRECATED: Taxes are calculated in real time and discount amounts are shown pre-tax in all cases. Tax values in the SoftLayer_Container_Account_Discount_Program container are now populated with the related pre-tax values.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[appliedCredit]: #appliedcredit
+#### [appliedCredit]
+The credit allowance that has already been applied during the current billing cycle. If the lifetime limit has been or soon will be reached, this amount may included credit applied in previous billing cycles.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[isParticipant]: #isparticipant
+#### [isParticipant]
+Flag to signify whether the account is a participant in the discount program.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[lifetimeAppliedCredit]: #lifetimeappliedcredit
+#### [lifetimeAppliedCredit]
+Credit allowance applied over the course of the entire program enrollment. For enrollments without a lifetime restriction, this property will not be populated as credit will be tracked on a purely monthly basis.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[lifetimeCredit]: #lifetimecredit
+#### [lifetimeCredit]
+Credit allowance available over the course of the entire program enrollment. If null, enrollment credit is applied on a strictly monthly basis and there is no lifetime maximum. Enrollments with non-null lifetime credit will receive the lesser of the remaining monthly credit or the remaining lifetime credit.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[lifetimeRemainingCredit]: #lifetimeremainingcredit
+#### [lifetimeRemainingCredit]
+Remaining credit allowance available over the remaining duration of the program enrollment. If null, enrollment credit is applied on a strictly monthly basis and there is no lifetime maximum. Enrollments with non-null remaining lifetime credit will receive the lesser of the remaining monthly credit or the remaining lifetime credit.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[maximumActiveOrders]: #maximumactiveorders
+#### [maximumActiveOrders]
+Maximum number of orders the enrolled account is allowed to have open at one time. If null, then the Flexible Credit Program does not impose an order limit.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[monthlyCredit]: #monthlycredit
+#### [monthlyCredit]
+The monthly credit allowance that is available at the beginning of the billing cycle.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[postTaxRemainingCredit]: #posttaxremainingcredit
+#### [postTaxRemainingCredit]
+DEPRECATED: Taxes are calculated in real time and discount amounts are shown pre-tax in all cases. Tax values in the SoftLayer_Container_Account_Discount_Program container are now populated with the related pre-tax values.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[programEndDate]: #programenddate
+#### [programEndDate]
+The date at which the program expires in MM/DD/YYYY format.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[programName]: #programname
+#### [programName]
+Name of the Flexible Credit Program the account is enrolled in.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[remainingCredit]: #remainingcredit
+#### [remainingCredit]
+The credit allowance that is available during the current billing cycle. If the lifetime limit has been or soon will be reached, this amount may be reduced by credit applied in previous billing cycles.   
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[remainingCreditTax]: #remainingcredittax
+#### [remainingCreditTax]
+DEPRECATED: Taxes are calculated in real time and discount amounts are shown pre-tax in all cases. Tax values in the SoftLayer_Container_Account_Discount_Program container are now populated with the related pre-tax values.   
+<span class="type-label">Type: </span>**decimal**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

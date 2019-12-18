@@ -1,6 +1,6 @@
 ---
 title: "hasAttribute"
-description: "Determine if an account has an [[SoftLayer_Account_Attribute|attribute]] associated with it. hasAttribute() returns fals... "
+description: "Determine if an account has an [SoftLayer_Account_Attribute]({{<ref 'reference/datatypes/SoftLayer_Account_Attribute'>}}... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Determine if an account has a given attribute.
 
 
 ## Overview 
-Determine if an account has an [[SoftLayer_Account_Attribute|attribute]] associated with it. hasAttribute() returns false if the attribute does not exist or if it does not have a value. 
+Determine if an account has an [SoftLayer_Account_Attribute]({{<ref "reference/datatypes/SoftLayer_Account_Attribute">}}) associated with it. hasAttribute() returns false if the attribute does not exist or if it does not have a value. 
 
 -----
 

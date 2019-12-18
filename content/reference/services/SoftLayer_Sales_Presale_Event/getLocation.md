@@ -1,6 +1,6 @@
 ---
 title: "getLocation"
-description: "Retrieve the [[SoftLayer_Location]] associated with the presale event."
+description: "Retrieve the [SoftLayer_Location]({{<ref 'reference/datatypes/SoftLayer_Location'>}}) associated with the presale event."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Sales_Presale_Event](/reference/services/SoftLayer_Sales_Presale_Event)::getLocation
 
-Retrieve the [[SoftLayer_Location]] associated with the presale event.
+Retrieve the [SoftLayer_Location]({{<ref "reference/datatypes/SoftLayer_Location">}}) associated with the presale event.
 
 
 ## Overview 
-Retrieve the [[SoftLayer_Location]] associated with the presale event.
+Retrieve the [SoftLayer_Location]({{<ref "reference/datatypes/SoftLayer_Location">}}) associated with the presale event.
 
 -----
 

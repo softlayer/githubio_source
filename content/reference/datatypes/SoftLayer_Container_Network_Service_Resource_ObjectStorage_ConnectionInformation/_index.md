@@ -36,49 +36,36 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#datacenter" name=datacenter>datacenter</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#datacenterShortName" name=datacenterShortName>datacenterShortName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#privateEndpoint" name=privateEndpoint>privateEndpoint</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#publicEndpoint" name=publicEndpoint>publicEndpoint</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[datacenter]: #datacenter
+#### [datacenter]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[datacenterShortName]: #datacentershortname
+#### [datacenterShortName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[privateEndpoint]: #privateendpoint
+#### [privateEndpoint]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[publicEndpoint]: #publicendpoint
+#### [publicEndpoint]
+  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -41,63 +41,47 @@ SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference class holds th
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#configurationTemplateId" name=configurationTemplateId>configurationTemplateId</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of a configuration template </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of a configuration group reference record </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#templateGroupId" name=templateGroupId>templateGroupId</a>
-            </span>
-            <div class='views-field-body'>Internal identifier of a monitoring agent configuration group </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#configurationTemplate" name=configurationTemplate>configurationTemplate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#templateGroup" name=templateGroup>templateGroup</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Configuration_Template_Group'>SoftLayer_Monitoring_Agent_Configuration_Template_Group </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[configurationTemplateId]: #configurationtemplateid
+#### [configurationTemplateId]
+Internal identifier of a configuration template  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+Internal identifier of a configuration group reference record  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[templateGroupId]: #templategroupid
+#### [templateGroupId]
+Internal identifier of a monitoring agent configuration group  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[configurationTemplate]: #configurationtemplate
+#### [configurationTemplate]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>**
+
+-----
+[templateGroup]: #templategroup
+#### [templateGroup]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Configuration_Template_Group'>SoftLayer_Monitoring_Agent_Configuration_Template_Group </a>**
+
+
+## Count
 </div>
 
 

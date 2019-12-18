@@ -1,6 +1,6 @@
 ---
 title: "getType"
-description: "Retrieve a storage repository's [[SoftLayer_Virtual_Storage_Repository_Type|type]]."
+description: "Retrieve a storage repository's [SoftLayer_Virtual_Storage_Repository_Type]({{<ref 'reference/datatypes/SoftLayer_Virtua... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getType
 
-Retrieve a storage repository's [[SoftLayer_Virtual_Storage_Repository_Type|type]].
+Retrieve a storage repository's [SoftLayer_Virtual_Storage_Repository_Type]({{<ref "reference/datatypes/SoftLayer_Virtual_Storage_Repository_Type">}}).
 
 
 ## Overview 
-Retrieve a storage repository's [[SoftLayer_Virtual_Storage_Repository_Type|type]].
+Retrieve a storage repository's [SoftLayer_Virtual_Storage_Repository_Type]({{<ref "reference/datatypes/SoftLayer_Virtual_Storage_Repository_Type">}}).
 
 -----
 

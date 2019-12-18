@@ -46,39 +46,30 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#content" name=content>content</a>
-            </span>
-            <div class='views-field-body'>A press release about's content. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A press release about's internal </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#title" name=title>title</a>
-            </span>
-            <div class='views-field-body'>A press release about's title. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[content]: #content
+#### [content]
+A press release about's content.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+A press release about's internal  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[title]: #title
+#### [title]
+A press release about's title.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

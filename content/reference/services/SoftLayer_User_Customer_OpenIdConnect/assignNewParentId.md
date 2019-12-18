@@ -1,8 +1,6 @@
 ---
 title: "assignNewParentId"
-description: "This method can be used in place of [[SoftLayer_User_Customer::editObject]] to change the parent user of this user. 
-
-Th... "
+description: "This method can be used in place of [SoftLayer_User_Customer::editObject]({{<ref 'reference/services/SoftLayer_User_Cust... "
 layout: "method"
 tags:
     - "method"
@@ -19,7 +17,7 @@ Assign a different parent to this user.
 
 
 ## Overview 
-This method can be used in place of [[SoftLayer_User_Customer::editObject]] to change the parent user of this user. 
+This method can be used in place of [SoftLayer_User_Customer::editObject]({{<ref "reference/services/SoftLayer_User_Customer/editObject">}}) to change the parent user of this user. 
 
 The new parent must be a user on the same account, and must not be a child of this user.  A user is not allowed to change their own parent. 
 

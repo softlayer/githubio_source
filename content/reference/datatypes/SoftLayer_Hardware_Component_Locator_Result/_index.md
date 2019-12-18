@@ -36,39 +36,30 @@ This object holds a generic component model id and the list of datacenter names 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#datacenters" name=datacenters>datacenters</a>
-            </span>
-            <div class='views-field-body'>array of datacenter names where generic component model is available </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>array of strings</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#genericComponentModelId" name=genericComponentModelId>genericComponentModelId</a>
-            </span>
-            <div class='views-field-body'>generic component model id </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#serverPackageId" name=serverPackageId>serverPackageId</a>
-            </span>
-            <div class='views-field-body'>Id of SoftLayer_Product_Package_Server </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[datacenters]: #datacenters
+#### [datacenters]
+array of datacenter names where generic component model is available  
+<span class="type-label">Type: </span>**array of strings**
+
+-----
+[genericComponentModelId]: #genericcomponentmodelid
+#### [genericComponentModelId]
+generic component model id  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[serverPackageId]: #serverpackageid
+#### [serverPackageId]
+Id of SoftLayer_Product_Package_Server  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -36,73 +36,54 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#configurationTypeId" name=configurationTypeId>configurationTypeId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareId" name=hardwareId>hardwareId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardware" name=hardware>hardware</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#properties" name=properties>properties</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Resource_Configuration_Property'>SoftLayer_Hardware_Resource_Configuration_Property[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#type" name=type>type</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Resource_Configuration_Type'>SoftLayer_Hardware_Resource_Configuration_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#propertyCount" name=propertyCount>propertyCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[configurationTypeId]: #configurationtypeid
+#### [configurationTypeId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[hardwareId]: #hardwareid
+#### [hardwareId]
+  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[hardware]: #hardware
+#### [hardware]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+
+-----
+[properties]: #properties
+#### [properties]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Resource_Configuration_Property'>SoftLayer_Hardware_Resource_Configuration_Property[] </a>**
+
+-----
+[type]: #type
+#### [type]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Resource_Configuration_Type'>SoftLayer_Hardware_Resource_Configuration_Type </a>**
+
+
+## Count
+
+-----
+[propertyCount]: #propertycount
+#### [propertyCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

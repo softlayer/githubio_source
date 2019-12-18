@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Product_Package_Server_Option"
-description: "The [[SoftLayer_Product_Package_Server_Option]] data type contains various data points associated with package servers t... "
+description: "The [SoftLayer_Product_Package_Server_Option]({{<ref 'reference/datatypes/SoftLayer_Product_Package_Server_Option'>}}) d... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-The [[SoftLayer_Product_Package_Server_Option]] data type contains various data points associated with package servers that can be used in selection criteria. 
+The [SoftLayer_Product_Package_Server_Option]({{<ref "reference/datatypes/SoftLayer_Product_Package_Server_Option">}}) data type contains various data points associated with package servers that can be used in selection criteria. 
 
 
 
@@ -36,59 +36,42 @@ The [[SoftLayer_Product_Package_Server_Option]] data type contains various data 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#catalogId" name=catalogId>catalogId</a>
-            </span>
-            <div class='views-field-body'>The unique identifier of a Catalog. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>A description of the option. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The unique identifier of a Package Server Option. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#type" name=type>type</a>
-            </span>
-            <div class='views-field-body'>The type of option. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#value" name=value>value</a>
-            </span>
-            <div class='views-field-body'>The value of the the option. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[catalogId]: #catalogid
+#### [catalogId]
+The unique identifier of a Catalog.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[description]: #description
+#### [description]
+A description of the option.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+The unique identifier of a Package Server Option.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[type]: #type
+#### [type]
+The type of option.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[value]: #value
+#### [value]
+The value of the the option.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

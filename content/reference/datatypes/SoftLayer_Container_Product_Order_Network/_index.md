@@ -36,39 +36,30 @@ This type contains the structure of network-related objects that may be specifie
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#network" name=network>network</a>
-            </span>
-            <div class='views-field-body'>The [[SoftLayer_Network]] object. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network'>SoftLayer_Network </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#publicVlans" name=publicVlans>publicVlans</a>
-            </span>
-            <div class='views-field-body'>The list of public [[SoftLayer_Container_Product_Order_Network_Vlan|vlans]] available for ordering. Each VLAN will have list of public subnets that are accessible to the VLAN.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnets" name=subnets>subnets</a>
-            </span>
-            <div class='views-field-body'>The list of private [[SoftLayer_Container_Product_Order_Network_Subnet|subnets]] available for ordering with a description of their available IP space.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a></p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[network]: #network
+#### [network]
+The [SoftLayer_Network]({{<ref "reference/datatypes/SoftLayer_Network">}}) object.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network'>SoftLayer_Network </a>**
+
+-----
+[publicVlans]: #publicvlans
+#### [publicVlans]
+The list of public [SoftLayer_Container_Product_Order_Network_Vlan]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Vlan">}}) available for ordering. Each VLAN will have list of public subnets that are accessible to the VLAN.   
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a>**
+
+-----
+[subnets]: #subnets
+#### [subnets]
+The list of private [SoftLayer_Container_Product_Order_Network_Subnet]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Subnet">}}) available for ordering with a description of their available IP space.   
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

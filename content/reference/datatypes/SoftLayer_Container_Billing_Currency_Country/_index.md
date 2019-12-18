@@ -36,39 +36,30 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#availableCurrencies" name=availableCurrencies>availableCurrencies</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#country" name=country>country</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Locale_Country'>SoftLayer_Locale_Country </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#currencyCountryLocales" name=currencyCountryLocales>currencyCountryLocales</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Currency_Country'>SoftLayer_Billing_Currency_Country[] </a></p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[availableCurrencies]: #availablecurrencies
+#### [availableCurrencies]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency[] </a>**
+
+-----
+[country]: #country
+#### [country]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Locale_Country'>SoftLayer_Locale_Country </a>**
+
+-----
+[currencyCountryLocales]: #currencycountrylocales
+#### [currencyCountryLocales]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency_Country'>SoftLayer_Billing_Currency_Country[] </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -23,49 +23,42 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Contact/createComplianceReportRequestorContact'> createComplianceReportRequestorContact</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Contact/createObject'> createObject</a> </span>
-            <div class='views-field-body'>This method creates an account contact.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Contact/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Delete an account contact</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Contact/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit an existing account contact.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Contact/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Contact/getAllContactTypes'> getAllContactTypes</a> </span>
-            <div class='views-field-body'>This method retrieves available contact types.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Contact/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Account_Contact record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Contact/getType'> getType</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-        </div>
+</div>
+
+#### [createComplianceReportRequestorContact](/reference/services/SoftLayer_Account_Contact/createComplianceReportRequestorContact)
+
+
+#### [createObject](/reference/services/SoftLayer_Account_Contact/createObject)
+This method creates an account contact.
+
+#### [deleteObject](/reference/services/SoftLayer_Account_Contact/deleteObject)
+Delete an account contact
+
+#### [editObject](/reference/services/SoftLayer_Account_Contact/editObject)
+Edit an existing account contact.
+
+#### [getAccount](/reference/services/SoftLayer_Account_Contact/getAccount)
+
+
+#### [getAllContactTypes](/reference/services/SoftLayer_Account_Contact/getAllContactTypes)
+This method retrieves available contact types.
+
+#### [getObject](/reference/services/SoftLayer_Account_Contact/getObject)
+Retrieve a SoftLayer_Account_Contact record.
+
+#### [getType](/reference/services/SoftLayer_Account_Contact/getType)
+
+
 </div>
 

@@ -41,153 +41,101 @@ The Monitoring_Query_Host type represents a monitoring instance.  It consists of
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#arg1Value" name=arg1Value>arg1Value</a>
-            </span>
-            <div class='views-field-body'>The argument to be used for this monitor, if necessary.  The lowest monitoring levels (like ping) ignore this setting, but higher levels like HTTP custom use it. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#guestId" name=guestId>guestId</a>
-            </span>
-            <div class='views-field-body'>Virtual Guest Identification Number for the guest being monitored. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareId" name=hardwareId>hardwareId</a>
-            </span>
-            <div class='views-field-body'>The ID of the hardware being monitored </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hostId" name=hostId>hostId</a>
-            </span>
-            <div class='views-field-body'>Identification Number for the host being monitored. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The unique identifier for this object </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ipAddress" name=ipAddress>ipAddress</a>
-            </span>
-            <div class='views-field-body'>The IP address to be monitored.  Must be attached to the hardware on this object </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#queryTypeId" name=queryTypeId>queryTypeId</a>
-            </span>
-            <div class='views-field-body'>The ID of the query type to use. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#responseActionId" name=responseActionId>responseActionId</a>
-            </span>
-            <div class='views-field-body'>The ID of the response action to take when the monitor fails </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#status" name=status>status</a>
-            </span>
-            <div class='views-field-body'>The status of this monitoring instance.  Anything other than "ON" means that the monitor has been disabled </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#waitCycles" name=waitCycles>waitCycles</a>
-            </span>
-            <div class='views-field-body'>The number of 5-minute cycles to wait before the "responseAction" is taken.  If set to 0, the response action will be taken immediately </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardware" name=hardware>hardware</a>
-            </span>
-            <div class='views-field-body'>The hardware that is being monitored by this monitoring instance </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastResult" name=lastResult>lastResult</a>
-            </span>
-            <div class='views-field-body'>The most recent result for this particular monitoring instance. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Result'>SoftLayer_Network_Monitor_Version1_Query_Result </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#queryType" name=queryType>queryType</a>
-            </span>
-            <div class='views-field-body'>The type of monitoring query that is executed when this hardware is monitored. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Type'>SoftLayer_Network_Monitor_Version1_Query_Type </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#responseAction" name=responseAction>responseAction</a>
-            </span>
-            <div class='views-field-body'>The action taken when a monitor fails. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_ResponseType'>SoftLayer_Network_Monitor_Version1_Query_ResponseType </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[arg1Value]: #arg1value
+#### [arg1Value]
+The argument to be used for this monitor, if necessary.  The lowest monitoring levels (like ping) ignore this setting, but higher levels like HTTP custom use it.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[guestId]: #guestid
+#### [guestId]
+Virtual Guest Identification Number for the guest being monitored.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[hardwareId]: #hardwareid
+#### [hardwareId]
+The ID of the hardware being monitored  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[hostId]: #hostid
+#### [hostId]
+Identification Number for the host being monitored.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+The unique identifier for this object  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[ipAddress]: #ipaddress
+#### [ipAddress]
+The IP address to be monitored.  Must be attached to the hardware on this object  
+<span class="type-label">Type: </span>**string**
+
+-----
+[queryTypeId]: #querytypeid
+#### [queryTypeId]
+The ID of the query type to use.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[responseActionId]: #responseactionid
+#### [responseActionId]
+The ID of the response action to take when the monitor fails  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[status]: #status
+#### [status]
+The status of this monitoring instance.  Anything other than "ON" means that the monitor has been disabled  
+<span class="type-label">Type: </span>**string**
+
+-----
+[waitCycles]: #waitcycles
+#### [waitCycles]
+The number of 5-minute cycles to wait before the "responseAction" is taken.  If set to 0, the response action will be taken immediately  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[hardware]: #hardware
+#### [hardware]
+The hardware that is being monitored by this monitoring instance  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+
+-----
+[lastResult]: #lastresult
+#### [lastResult]
+The most recent result for this particular monitoring instance.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Result'>SoftLayer_Network_Monitor_Version1_Query_Result </a>**
+
+-----
+[queryType]: #querytype
+#### [queryType]
+The type of monitoring query that is executed when this hardware is monitored.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Type'>SoftLayer_Network_Monitor_Version1_Query_Type </a>**
+
+-----
+[responseAction]: #responseaction
+#### [responseAction]
+The action taken when a monitor fails.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_ResponseType'>SoftLayer_Network_Monitor_Version1_Query_ResponseType </a>**
+
+
+## Count
 </div>
 
 

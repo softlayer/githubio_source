@@ -36,83 +36,59 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareId" name=hardwareId>hardwareId</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of the hardware for this member.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A gateway member's internal identifier.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkGatewayId" name=networkGatewayId>networkGatewayId</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of the gateway this member belongs to.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#priority" name=priority>priority</a>
-            </span>
-            <div class='views-field-body'>The priority for this gateway member. This is set internally and cannot be provided on create.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributes" name=attributes>attributes</a>
-            </span>
-            <div class='views-field-body'>The attributes for this member. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Gateway_Member_Attribute'>SoftLayer_Network_Gateway_Member_Attribute </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardware" name=hardware>hardware</a>
-            </span>
-            <div class='views-field-body'>The device for this member. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkGateway" name=networkGateway>networkGateway</a>
-            </span>
-            <div class='views-field-body'>The gateway this member belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[hardwareId]: #hardwareid
+#### [hardwareId]
+The internal identifier of the hardware for this member.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+A gateway member's internal identifier.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[networkGatewayId]: #networkgatewayid
+#### [networkGatewayId]
+The internal identifier of the gateway this member belongs to.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[priority]: #priority
+#### [priority]
+The priority for this gateway member. This is set internally and cannot be provided on create.   
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[attributes]: #attributes
+#### [attributes]
+The attributes for this member.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway_Member_Attribute'>SoftLayer_Network_Gateway_Member_Attribute </a>**
+
+-----
+[hardware]: #hardware
+#### [hardware]
+The device for this member.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+
+-----
+[networkGateway]: #networkgateway
+#### [networkGateway]
+The gateway this member belongs to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a>**
+
+
+## Count
 </div>
 
 

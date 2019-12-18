@@ -23,25 +23,24 @@ The SoftLayer_Billing_Currency_Country service provides information about what c
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Currency_Country/getCountriesWithListOfEligibleCurrencies'> getCountriesWithListOfEligibleCurrencies</a> </span>
-            <div class='views-field-body'>Get map between countries and what currencies can be supported for customers in that country. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Currency_Country/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Billing_Currency_Country record.</div>
-        </div>
-        </div>
+</div>
+
+#### [getCountriesWithListOfEligibleCurrencies](/reference/services/SoftLayer_Billing_Currency_Country/getCountriesWithListOfEligibleCurrencies)
+Get map between countries and what currencies can be supported for customers in that country. 
+
+#### [getObject](/reference/services/SoftLayer_Billing_Currency_Country/getObject)
+Retrieve a SoftLayer_Billing_Currency_Country record.
+
 </div>
 

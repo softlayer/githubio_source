@@ -1,6 +1,6 @@
 ---
 title: "editObject"
-description: "This method will edit an existing SoftLayer_Network_Subnet_Registration object. For more detail, see [[SoftLayer_Network... "
+description: "This method will edit an existing SoftLayer_Network_Subnet_Registration object. For more detail, see [SoftLayer_Network_... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Edit an existing registration object
 
 
 ## Overview 
-This method will edit an existing SoftLayer_Network_Subnet_Registration object. For more detail, see [[SoftLayer_Network_Subnet_Registration::createObject|createObject]]. 
+This method will edit an existing SoftLayer_Network_Subnet_Registration object. For more detail, see [SoftLayer_Network_Subnet_Registration::createObject]({{<ref "reference/services/SoftLayer_Network_Subnet_Registration/createObject">}}). 
 
 -----
 

@@ -36,43 +36,36 @@ The SoftLayer_Network_Bandwidth_Version1_Usage data type contains general inform
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bandwidthAllotmentDetail" name=bandwidthAllotmentDetail>bandwidthAllotmentDetail</a>
-            </span>
-            <div class='views-field-body'>Bandwidth allotment detail for this hardware. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Detail'>SoftLayer_Network_Bandwidth_Version1_Allotment_Detail </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bandwidthUsageDetail" name=bandwidthUsageDetail>bandwidthUsageDetail</a>
-            </span>
-            <div class='views-field-body'>Bandwidth usage details for this hardware. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bandwidthUsageDetailCount" name=bandwidthUsageDetailCount>bandwidthUsageDetailCount</a>
-            </span>
-            <div class='views-field-body'>A count of bandwidth usage details for this hardware. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[bandwidthAllotmentDetail]: #bandwidthallotmentdetail
+#### [bandwidthAllotmentDetail]
+Bandwidth allotment detail for this hardware.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Detail'>SoftLayer_Network_Bandwidth_Version1_Allotment_Detail </a>**
+
+-----
+[bandwidthUsageDetail]: #bandwidthusagedetail
+#### [bandwidthUsageDetail]
+Bandwidth usage details for this hardware.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail[] </a>**
+
+
+## Count
+
+-----
+[bandwidthUsageDetailCount]: #bandwidthusagedetailcount
+#### [bandwidthUsageDetailCount]
+A count of bandwidth usage details for this hardware.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

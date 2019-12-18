@@ -23,85 +23,69 @@ The SoftLayer_Network_LBaaS_LoadBalancer service allows customers to create, edi
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/cancelLoadBalancer'> cancelLoadBalancer</a> </span>
-            <div class='views-field-body'>Cancel the specified load balancer. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/enableOrDisableDataLogs'> enableOrDisableDataLogs</a> </span>
-            <div class='views-field-body'>Enable or disable data logs forwarding. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getAllObjects'> getAllObjects</a> </span>
-            <div class='views-field-body'>Get all existing load balancers. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getDatacenter'> getDatacenter</a> </span>
-            <div class='views-field-body'>Retrieve datacenter, where load balancer is located.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getHealthMonitors'> getHealthMonitors</a> </span>
-            <div class='views-field-body'>Retrieve health monitors for the backend members.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getL7Pools'> getL7Pools</a> </span>
-            <div class='views-field-body'>Retrieve l7Pools for load balancer.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getListenerTimeSeriesData'> getListenerTimeSeriesData</a> </span>
-            <div class='views-field-body'>Return time series datapoints</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getListeners'> getListeners</a> </span>
-            <div class='views-field-body'>Retrieve listeners assigned to load balancer.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getLoadBalancer'> getLoadBalancer</a> </span>
-            <div class='views-field-body'>Get a specific load balancer. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getLoadBalancerMemberHealth'> getLoadBalancerMemberHealth</a> </span>
-            <div class='views-field-body'>Return load balancer members health</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getLoadBalancerStatistics'> getLoadBalancerStatistics</a> </span>
-            <div class='views-field-body'>Return load balancers statistics</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getMembers'> getMembers</a> </span>
-            <div class='views-field-body'>Retrieve members assigned to load balancer.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_LBaaS_LoadBalancer record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getSslCiphers'> getSslCiphers</a> </span>
-            <div class='views-field-body'>Retrieve list of preferred custom ciphers configured for the load balancer.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/serviceLoadBalancer'> serviceLoadBalancer</a> </span>
-            <div class='views-field-body'>Service function for a load balancer. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/updateLoadBalancer'> updateLoadBalancer</a> </span>
-            <div class='views-field-body'>Update a load balancer's description.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/updateSslCiphers'> updateSslCiphers</a> </span>
-            <div class='views-field-body'>Updates the cipher list of the load balancer</div>
-        </div>
-        </div>
+</div>
+
+#### [cancelLoadBalancer](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/cancelLoadBalancer)
+Cancel the specified load balancer. 
+
+#### [enableOrDisableDataLogs](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/enableOrDisableDataLogs)
+Enable or disable data logs forwarding. 
+
+#### [getAllObjects](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getAllObjects)
+Get all existing load balancers. 
+
+#### [getDatacenter](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getDatacenter)
+Retrieve datacenter, where load balancer is located.
+
+#### [getHealthMonitors](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getHealthMonitors)
+Retrieve health monitors for the backend members.
+
+#### [getL7Pools](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getL7Pools)
+Retrieve l7Pools for load balancer.
+
+#### [getListenerTimeSeriesData](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getListenerTimeSeriesData)
+Return time series datapoints
+
+#### [getListeners](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getListeners)
+Retrieve listeners assigned to load balancer.
+
+#### [getLoadBalancer](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getLoadBalancer)
+Get a specific load balancer. 
+
+#### [getLoadBalancerMemberHealth](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getLoadBalancerMemberHealth)
+Return load balancer members health
+
+#### [getLoadBalancerStatistics](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getLoadBalancerStatistics)
+Return load balancers statistics
+
+#### [getMembers](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getMembers)
+Retrieve members assigned to load balancer.
+
+#### [getObject](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getObject)
+Retrieve a SoftLayer_Network_LBaaS_LoadBalancer record.
+
+#### [getSslCiphers](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getSslCiphers)
+Retrieve list of preferred custom ciphers configured for the load balancer.
+
+#### [serviceLoadBalancer](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/serviceLoadBalancer)
+Service function for a load balancer. 
+
+#### [updateLoadBalancer](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/updateLoadBalancer)
+Update a load balancer's description.
+
+#### [updateSslCiphers](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/updateSslCiphers)
+Updates the cipher list of the load balancer
+
 </div>
 

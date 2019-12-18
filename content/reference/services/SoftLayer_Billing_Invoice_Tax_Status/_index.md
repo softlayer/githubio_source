@@ -27,29 +27,28 @@ Invoice tax status allows the SoftLayer system to track the status of an invoice
 * [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice )
 
 
-* [SoftLayer_Billing_Invoice_Tax_Type](/reference/services/SoftLayer_Billing_Invoice_Tax_Type )
+* [SoftLayer_Billing_Invoice_Tax_Type](/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Type )
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Invoice_Tax_Status/getAllObjects'> getAllObjects</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Invoice_Tax_Status/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Billing_Invoice_Tax_Status record.</div>
-        </div>
-        </div>
+</div>
+
+#### [getAllObjects](/reference/services/SoftLayer_Billing_Invoice_Tax_Status/getAllObjects)
+
+
+#### [getObject](/reference/services/SoftLayer_Billing_Invoice_Tax_Status/getObject)
+Retrieve a SoftLayer_Billing_Invoice_Tax_Status record.
+
 </div>
 

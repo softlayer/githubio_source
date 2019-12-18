@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-The SoftLayer_Product_Upgrade_Request data type contains general information relating to a hardware, virtual server, or service upgrade. It also relates a [[SoftLayer_Billing_Order]] to a [[SoftLayer_Ticket]]. 
+The SoftLayer_Product_Upgrade_Request data type contains general information relating to a hardware, virtual server, or service upgrade. It also relates a [SoftLayer_Billing_Order]({{<ref "reference/datatypes/SoftLayer_Billing_Order">}}) to a [SoftLayer_Ticket]({{<ref "reference/datatypes/SoftLayer_Ticket">}}). 
 
 
 
@@ -27,7 +27,7 @@ The SoftLayer_Product_Upgrade_Request data type contains general information rel
 * [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order )
 
 
-* [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket )
+* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
 
 
 
@@ -44,243 +44,155 @@ The SoftLayer_Product_Upgrade_Request data type contains general information rel
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>The unique internal id of a SoftLayer account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date an upgrade request was created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#employeeId" name=employeeId>employeeId</a>
-            </span>
-            <div class='views-field-body'>The unique internal id of the last modified user </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#guestId" name=guestId>guestId</a>
-            </span>
-            <div class='views-field-body'>The unique internal id of the virtual server that an upgrade will be done </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareId" name=hardwareId>hardwareId</a>
-            </span>
-            <div class='views-field-body'>The unique internal id of the hardware that an upgrade will be done </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>An upgrade request's internal identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maintenanceStartTimeUtc" name=maintenanceStartTimeUtc>maintenanceStartTimeUtc</a>
-            </span>
-            <div class='views-field-body'>The time that system admin starts working on the order item.  This is used for upgrade orders. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>The date an upgrade request was last modified. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#orderId" name=orderId>orderId</a>
-            </span>
-            <div class='views-field-body'>The unique internal id of the order that an upgrade request is related to </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#orderTotal" name=orderTotal>orderTotal</a>
-            </span>
-            <div class='views-field-body'>The total amount of fees </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#proratedTotal" name=proratedTotal>proratedTotal</a>
-            </span>
-            <div class='views-field-body'>The prorated total amount of recurring fees </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#statusId" name=statusId>statusId</a>
-            </span>
-            <div class='views-field-body'>The unique internal id of an upgrade status </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ticketId" name=ticketId>ticketId</a>
-            </span>
-            <div class='views-field-body'>The unique internal id of the ticket related to an upgrade request </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#userId" name=userId>userId</a>
-            </span>
-            <div class='views-field-body'>The unique internal id of the customer who place the order </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The account that an order belongs to </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#completedFlag" name=completedFlag>completedFlag</a>
-            </span>
-            <div class='views-field-body'>Indicates that the upgrade request has completed or has been cancelled. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#invoice" name=invoice>invoice</a>
-            </span>
-            <div class='views-field-body'>This is the invoice associated with the upgrade request. For hourly servers or services, an invoice will not be available. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#order" name=order>order</a>
-            </span>
-            <div class='views-field-body'>An order record associated to the upgrade request </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#server" name=server>server</a>
-            </span>
-            <div class='views-field-body'>A server object associated with the upgrade request if any. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#status" name=status>status</a>
-            </span>
-            <div class='views-field-body'>The current status of the upgrade request. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Upgrade_Request_Status'>SoftLayer_Product_Upgrade_Request_Status </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ticket" name=ticket>ticket</a>
-            </span>
-            <div class='views-field-body'>The ticket that is used to coordinate the upgrade process. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#user" name=user>user</a>
-            </span>
-            <div class='views-field-body'>The user that placed the order. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualGuest" name=virtualGuest>virtualGuest</a>
-            </span>
-            <div class='views-field-body'>A virtual server object associated with the upgrade request if any. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+The unique internal id of a SoftLayer account  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+The date an upgrade request was created.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[employeeId]: #employeeid
+#### [employeeId]
+The unique internal id of the last modified user  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[guestId]: #guestid
+#### [guestId]
+The unique internal id of the virtual server that an upgrade will be done  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[hardwareId]: #hardwareid
+#### [hardwareId]
+The unique internal id of the hardware that an upgrade will be done  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+An upgrade request's internal identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[maintenanceStartTimeUtc]: #maintenancestarttimeutc
+#### [maintenanceStartTimeUtc]
+The time that system admin starts working on the order item.  This is used for upgrade orders.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+The date an upgrade request was last modified.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[orderId]: #orderid
+#### [orderId]
+The unique internal id of the order that an upgrade request is related to  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[orderTotal]: #ordertotal
+#### [orderTotal]
+The total amount of fees  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[proratedTotal]: #proratedtotal
+#### [proratedTotal]
+The prorated total amount of recurring fees  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[statusId]: #statusid
+#### [statusId]
+The unique internal id of an upgrade status  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[ticketId]: #ticketid
+#### [ticketId]
+The unique internal id of the ticket related to an upgrade request  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[userId]: #userid
+#### [userId]
+The unique internal id of the customer who place the order  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The account that an order belongs to  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[completedFlag]: #completedflag
+#### [completedFlag]
+Indicates that the upgrade request has completed or has been cancelled.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[invoice]: #invoice
+#### [invoice]
+This is the invoice associated with the upgrade request. For hourly servers or services, an invoice will not be available.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a>**
+
+-----
+[order]: #order
+#### [order]
+An order record associated to the upgrade request  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**
+
+-----
+[server]: #server
+#### [server]
+A server object associated with the upgrade request if any.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+
+-----
+[status]: #status
+#### [status]
+The current status of the upgrade request.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Upgrade_Request_Status'>SoftLayer_Product_Upgrade_Request_Status </a>**
+
+-----
+[ticket]: #ticket
+#### [ticket]
+The ticket that is used to coordinate the upgrade process.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+
+-----
+[user]: #user
+#### [user]
+The user that placed the order.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+
+-----
+[virtualGuest]: #virtualguest
+#### [virtualGuest]
+A virtual server object associated with the upgrade request if any.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+
+
+## Count
 </div>
 
 

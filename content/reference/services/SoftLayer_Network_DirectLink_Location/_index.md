@@ -23,37 +23,33 @@ The SoftLayer_Network_DirectLink_Location service allows users to create, update
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_DirectLink_Location/getAllObjects'> getAllObjects</a> </span>
-            <div class='views-field-body'>Get all existing Direct Link location. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_DirectLink_Location/getLocation'> getLocation</a> </span>
-            <div class='views-field-body'>Retrieve the location of Direct Link facility.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_DirectLink_Location/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_DirectLink_Location record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_DirectLink_Location/getProvider'> getProvider</a> </span>
-            <div class='views-field-body'>Retrieve the Id of Direct Link provider.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_DirectLink_Location/getServiceType'> getServiceType</a> </span>
-            <div class='views-field-body'>Retrieve the Id of Direct Link service type.</div>
-        </div>
-        </div>
+</div>
+
+#### [getAllObjects](/reference/services/SoftLayer_Network_DirectLink_Location/getAllObjects)
+Get all existing Direct Link location. 
+
+#### [getLocation](/reference/services/SoftLayer_Network_DirectLink_Location/getLocation)
+Retrieve the location of Direct Link facility.
+
+#### [getObject](/reference/services/SoftLayer_Network_DirectLink_Location/getObject)
+Retrieve a SoftLayer_Network_DirectLink_Location record.
+
+#### [getProvider](/reference/services/SoftLayer_Network_DirectLink_Location/getProvider)
+Retrieve the Id of Direct Link provider.
+
+#### [getServiceType](/reference/services/SoftLayer_Network_DirectLink_Location/getServiceType)
+Retrieve the Id of Direct Link service type.
+
 </div>
 

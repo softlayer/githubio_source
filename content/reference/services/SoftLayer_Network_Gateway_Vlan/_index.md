@@ -23,53 +23,45 @@ An inside VLAN is a VLAN which is attached to a network gateway and can be route
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway_Vlan/bypass'> bypass</a> </span>
-            <div class='views-field-body'>Bypass VLAN</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway_Vlan/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Attach a VLAN to a gateway</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway_Vlan/createObjects'> createObjects</a> </span>
-            <div class='views-field-body'>Attach a VLAN to a gateway</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway_Vlan/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Detach VLAN</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway_Vlan/deleteObjects'> deleteObjects</a> </span>
-            <div class='views-field-body'>Attach a VLAN to a gateway</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway_Vlan/getNetworkGateway'> getNetworkGateway</a> </span>
-            <div class='views-field-body'>Retrieve the gateway this VLAN is attached to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway_Vlan/getNetworkVlan'> getNetworkVlan</a> </span>
-            <div class='views-field-body'>Retrieve the network VLAN record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway_Vlan/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_Gateway_Vlan record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Gateway_Vlan/unbypass'> unbypass</a> </span>
-            <div class='views-field-body'>Unbypass VLAN</div>
-        </div>
-        </div>
+</div>
+
+#### [bypass](/reference/services/SoftLayer_Network_Gateway_Vlan/bypass)
+Bypass VLAN
+
+#### [createObject](/reference/services/SoftLayer_Network_Gateway_Vlan/createObject)
+Attach a VLAN to a gateway
+
+#### [createObjects](/reference/services/SoftLayer_Network_Gateway_Vlan/createObjects)
+Attach a VLAN to a gateway
+
+#### [deleteObject](/reference/services/SoftLayer_Network_Gateway_Vlan/deleteObject)
+Detach VLAN
+
+#### [deleteObjects](/reference/services/SoftLayer_Network_Gateway_Vlan/deleteObjects)
+Attach a VLAN to a gateway
+
+#### [getNetworkGateway](/reference/services/SoftLayer_Network_Gateway_Vlan/getNetworkGateway)
+Retrieve the gateway this VLAN is attached to.
+
+#### [getNetworkVlan](/reference/services/SoftLayer_Network_Gateway_Vlan/getNetworkVlan)
+Retrieve the network VLAN record.
+
+#### [getObject](/reference/services/SoftLayer_Network_Gateway_Vlan/getObject)
+Retrieve a SoftLayer_Network_Gateway_Vlan record.
+
+#### [unbypass](/reference/services/SoftLayer_Network_Gateway_Vlan/unbypass)
+Unbypass VLAN
+
 </div>
 

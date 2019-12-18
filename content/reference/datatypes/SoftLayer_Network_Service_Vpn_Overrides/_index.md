@@ -23,7 +23,7 @@ The SoftLayer_Network_Service_Vpn_Overrides data type contains information relat
 
 ### associatedMethods
 
-*  [SoftLayer_User_Customer::updateVPNUser](/reference/services/SoftLayer_User_Customer/updateVPNUser )
+*  [SoftLayer_User_Customer::updateVpnUser](/reference/services/SoftLayer_User_Customer/updateVpnUser )
 
 
 
@@ -41,63 +41,47 @@ The SoftLayer_Network_Service_Vpn_Overrides data type contains information relat
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of the record. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnetId" name=subnetId>subnetId</a>
-            </span>
-            <div class='views-field-body'>The identifier of a subnet accessible by the SoftLayer portal VPN user. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#userId" name=userId>userId</a>
-            </span>
-            <div class='views-field-body'>The identifier of the SoftLayer portal VPN user. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#subnet" name=subnet>subnet</a>
-            </span>
-            <div class='views-field-body'>Subnet components accessible by a SoftLayer VPN portal user. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#user" name=user>user</a>
-            </span>
-            <div class='views-field-body'>SoftLayer VPN portal user. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[id]: #id
+#### [id]
+The internal identifier of the record.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[subnetId]: #subnetid
+#### [subnetId]
+The identifier of a subnet accessible by the SoftLayer portal VPN user.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[userId]: #userid
+#### [userId]
+The identifier of the SoftLayer portal VPN user.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[subnet]: #subnet
+#### [subnet]
+Subnet components accessible by a SoftLayer VPN portal user.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**
+
+-----
+[user]: #user
+#### [user]
+SoftLayer VPN portal user.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+
+
+## Count
 </div>
 
 

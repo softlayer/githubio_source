@@ -24,84 +24,70 @@ The SoftLayer_Billing_Order_Quote service controls the quoted orders that are cr
 
 Once an order is placed from a quote it moves from PENDING to EXPIRED state 2 days after its creation and it is removed from the system after 5 days unless otherwise the SoftLayer customer saved the quote. 
 
-Quotes could are created with contact information duplicated from the [[SoftLayer_Account (type)|SoftLayer_Account data type]] or by manual entry. We do this in order to maintain a history of an account's contact information as quotes are generated. 
+Quotes could are created with contact information duplicated from the [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) or by manual entry. We do this in order to maintain a history of an account's contact information as quotes are generated. 
 
-Query the [[SoftLayer_Account]] service to get a list of quotes for your account. 
+Query the [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) service to get a list of quotes for your account. 
 
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/claim'> claim</a> </span>
-            <div class='views-field-body'>Claim an anonymous quote</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/deleteQuote'> deleteQuote</a> </span>
-            <div class='views-field-body'>Delete the quote of an order</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve a quote's corresponding account.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/getDoNotContactFlag'> getDoNotContactFlag</a> </span>
-            <div class='views-field-body'>Retrieve indicates whether the owner of the quote chosen to no longer be contacted.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Billing_Order_Quote record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/getOrder'> getOrder</a> </span>
-            <div class='views-field-body'>Retrieve this order contains the records for which products were selected for this quote.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/getOrdersFromQuote'> getOrdersFromQuote</a> </span>
-            <div class='views-field-body'>Retrieve these are all the orders that were created from this quote.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/getPdf'> getPdf</a> </span>
-            <div class='views-field-body'>Retrieve a PDF copy of a quote.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/getQuoteByQuoteKey'> getQuoteByQuoteKey</a> </span>
-            <div class='views-field-body'>Retrieve a [[SoftLayer_Billing_Order_Quote]] by the quote key specified.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/getRecalculatedOrderContainer'> getRecalculatedOrderContainer</a> </span>
-            <div class='views-field-body'>Generate an [[SoftLayer_Container_Product_Order|order container]] from the previously-created quote. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/placeOrder'> placeOrder</a> </span>
-            <div class='views-field-body'>Place an order</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/placeQuote'> placeQuote</a> </span>
-            <div class='views-field-body'>Saves changes to a quote</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/saveQuote'> saveQuote</a> </span>
-            <div class='views-field-body'>Save the quote of an order</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/verifyOrder'> verifyOrder</a> </span>
-            <div class='views-field-body'>Verify an order</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Order_Quote/withdrawGdprAcceptance'> withdrawGdprAcceptance</a> </span>
-            <div class='views-field-body'>Withdraws the users acceptance of the GDPR terms.</div>
-        </div>
-        </div>
+</div>
+
+#### [claim](/reference/services/SoftLayer_Billing_Order_Quote/claim)
+Claim an anonymous quote
+
+#### [deleteQuote](/reference/services/SoftLayer_Billing_Order_Quote/deleteQuote)
+Delete the quote of an order
+
+#### [getAccount](/reference/services/SoftLayer_Billing_Order_Quote/getAccount)
+Retrieve a quote's corresponding account.
+
+#### [getDoNotContactFlag](/reference/services/SoftLayer_Billing_Order_Quote/getDoNotContactFlag)
+Retrieve indicates whether the owner of the quote chosen to no longer be contacted.
+
+#### [getObject](/reference/services/SoftLayer_Billing_Order_Quote/getObject)
+Retrieve a SoftLayer_Billing_Order_Quote record.
+
+#### [getOrder](/reference/services/SoftLayer_Billing_Order_Quote/getOrder)
+Retrieve this order contains the records for which products were selected for this quote.
+
+#### [getOrdersFromQuote](/reference/services/SoftLayer_Billing_Order_Quote/getOrdersFromQuote)
+Retrieve these are all the orders that were created from this quote.
+
+#### [getPdf](/reference/services/SoftLayer_Billing_Order_Quote/getPdf)
+Retrieve a PDF copy of a quote.
+
+#### [getQuoteByQuoteKey](/reference/services/SoftLayer_Billing_Order_Quote/getQuoteByQuoteKey)
+Retrieve a [SoftLayer_Billing_Order_Quote]({{<ref "reference/datatypes/SoftLayer_Billing_Order_Quote">}}) by the quote key specified.
+
+#### [getRecalculatedOrderContainer](/reference/services/SoftLayer_Billing_Order_Quote/getRecalculatedOrderContainer)
+Generate an [SoftLayer_Container_Product_Order]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order">}}) from the previously-created quote. 
+
+#### [placeOrder](/reference/services/SoftLayer_Billing_Order_Quote/placeOrder)
+Place an order
+
+#### [placeQuote](/reference/services/SoftLayer_Billing_Order_Quote/placeQuote)
+Saves changes to a quote
+
+#### [saveQuote](/reference/services/SoftLayer_Billing_Order_Quote/saveQuote)
+Save the quote of an order
+
+#### [verifyOrder](/reference/services/SoftLayer_Billing_Order_Quote/verifyOrder)
+Verify an order
+
+#### [withdrawGdprAcceptance](/reference/services/SoftLayer_Billing_Order_Quote/withdrawGdprAcceptance)
+Withdraws the users acceptance of the GDPR terms.
+
 </div>
 

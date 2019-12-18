@@ -13,7 +13,7 @@ aliases:
 ---
 # [SoftLayer_Notification_Occurrence_User](/reference/services/SoftLayer_Notification_Occurrence_User)::acknowledge
 
-Acknowledge the associated [[SoftLayer_Notification_Occurrence_Event]] for this impacted user. 
+Acknowledge the associated [SoftLayer_Notification_Occurrence_Event]({{<ref "reference/datatypes/SoftLayer_Notification_Occurrence_Event">}}) for this impacted user. 
 
 
 ## Overview 

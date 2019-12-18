@@ -29,7 +29,7 @@ classes:
 
 ### seeAlso
 
-* [SoftLayer_Auxiliary_Press_Release_Content](/reference/services/SoftLayer_Auxiliary_Press_Release_Content )
+* [SoftLayer_Auxiliary_Press_Release_Content](/reference/datatypes/SoftLayer_Auxiliary_Press_Release_Content )
 
 
 
@@ -46,69 +46,48 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#email" name=email>email</a>
-            </span>
-            <div class='views-field-body'>A press release contact's email </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#firstName" name=firstName>firstName</a>
-            </span>
-            <div class='views-field-body'>A press release contact's first name. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A press release contact's internal </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastName" name=lastName>lastName</a>
-            </span>
-            <div class='views-field-body'>A press release contact's last name. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#phone" name=phone>phone</a>
-            </span>
-            <div class='views-field-body'>A press release contact's phone </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#professionalTitle" name=professionalTitle>professionalTitle</a>
-            </span>
-            <div class='views-field-body'>A press release contact's </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[email]: #email
+#### [email]
+A press release contact's email  
+<span class="type-label">Type: </span>**string**
+
+-----
+[firstName]: #firstname
+#### [firstName]
+A press release contact's first name.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+A press release contact's internal  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[lastName]: #lastname
+#### [lastName]
+A press release contact's last name.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[phone]: #phone
+#### [phone]
+A press release contact's phone  
+<span class="type-label">Type: </span>**string**
+
+-----
+[professionalTitle]: #professionaltitle
+#### [professionalTitle]
+A press release contact's  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

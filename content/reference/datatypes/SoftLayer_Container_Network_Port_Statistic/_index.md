@@ -36,139 +36,90 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#administrativeStatus" name=administrativeStatus>administrativeStatus</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#inDiscardPackets" name=inDiscardPackets>inDiscardPackets</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned long</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#inErrorPackets" name=inErrorPackets>inErrorPackets</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned long</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#inOctets" name=inOctets>inOctets</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned long</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#inUnicastPackets" name=inUnicastPackets>inUnicastPackets</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned long</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maximumTransmissionUnit" name=maximumTransmissionUnit>maximumTransmissionUnit</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned long</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#operationalStatus" name=operationalStatus>operationalStatus</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#outDiscardPackets" name=outDiscardPackets>outDiscardPackets</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned long</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#outErrorPackets" name=outErrorPackets>outErrorPackets</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned long</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#outOctets" name=outOctets>outOctets</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned long</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#outUnicastPackets" name=outUnicastPackets>outUnicastPackets</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned long</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#portDuplex" name=portDuplex>portDuplex</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned long</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#speed" name=speed>speed</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned long</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[administrativeStatus]: #administrativestatus
+#### [administrativeStatus]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[inDiscardPackets]: #indiscardpackets
+#### [inDiscardPackets]
+  
+<span class="type-label">Type: </span>**unsigned long**
+
+-----
+[inErrorPackets]: #inerrorpackets
+#### [inErrorPackets]
+  
+<span class="type-label">Type: </span>**unsigned long**
+
+-----
+[inOctets]: #inoctets
+#### [inOctets]
+  
+<span class="type-label">Type: </span>**unsigned long**
+
+-----
+[inUnicastPackets]: #inunicastpackets
+#### [inUnicastPackets]
+  
+<span class="type-label">Type: </span>**unsigned long**
+
+-----
+[maximumTransmissionUnit]: #maximumtransmissionunit
+#### [maximumTransmissionUnit]
+  
+<span class="type-label">Type: </span>**unsigned long**
+
+-----
+[operationalStatus]: #operationalstatus
+#### [operationalStatus]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[outDiscardPackets]: #outdiscardpackets
+#### [outDiscardPackets]
+  
+<span class="type-label">Type: </span>**unsigned long**
+
+-----
+[outErrorPackets]: #outerrorpackets
+#### [outErrorPackets]
+  
+<span class="type-label">Type: </span>**unsigned long**
+
+-----
+[outOctets]: #outoctets
+#### [outOctets]
+  
+<span class="type-label">Type: </span>**unsigned long**
+
+-----
+[outUnicastPackets]: #outunicastpackets
+#### [outUnicastPackets]
+  
+<span class="type-label">Type: </span>**unsigned long**
+
+-----
+[portDuplex]: #portduplex
+#### [portDuplex]
+  
+<span class="type-label">Type: </span>**unsigned long**
+
+-----
+[speed]: #speed
+#### [speed]
+  
+<span class="type-label">Type: </span>**unsigned long**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

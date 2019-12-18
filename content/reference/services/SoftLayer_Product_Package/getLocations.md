@@ -1,6 +1,6 @@
 ---
 title: "getLocations"
-description: "Retrieve a collection of valid locations for this package. (Deprecated - Use [[SoftLayer_Product_Package/getRegions|getR... "
+description: "Retrieve a collection of valid locations for this package. (Deprecated - Use [SoftLayer_Product_Package::getRegions]({{<... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getLocations
 
-Retrieve a collection of valid locations for this package. (Deprecated - Use [[SoftLayer_Product_Package/getRegions|getRegions]])
+Retrieve a collection of valid locations for this package. (Deprecated - Use [SoftLayer_Product_Package::getRegions]({{<ref "reference/services/SoftLayer_Product_Package/getRegions">}}))
 
 
 ## Overview 
-Retrieve a collection of valid locations for this package. (Deprecated - Use [[SoftLayer_Product_Package/getRegions|getRegions]])
+Retrieve a collection of valid locations for this package. (Deprecated - Use [SoftLayer_Product_Package::getRegions]({{<ref "reference/services/SoftLayer_Product_Package/getRegions">}}))
 
 -----
 

@@ -23,49 +23,42 @@ SoftLayer's account historical report service allows users to access a broad ove
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Historical_Report/getAccountHostUptimeGraphData'> getAccountHostUptimeGraphData</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Historical_Report/getAccountHostUptimeSummary'> getAccountHostUptimeSummary</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Historical_Report/getAccountUrlUptimeGraphData'> getAccountUrlUptimeGraphData</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Historical_Report/getAccountUrlUptimeSummary'> getAccountUrlUptimeSummary</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Historical_Report/getHostUptimeDetail'> getHostUptimeDetail</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Historical_Report/getHostUptimeGraphData'> getHostUptimeGraphData</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Historical_Report/getUrlUptimeDetail'> getUrlUptimeDetail</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Historical_Report/getUrlUptimeGraphData'> getUrlUptimeGraphData</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-        </div>
+</div>
+
+#### [getAccountHostUptimeGraphData](/reference/services/SoftLayer_Account_Historical_Report/getAccountHostUptimeGraphData)
+
+
+#### [getAccountHostUptimeSummary](/reference/services/SoftLayer_Account_Historical_Report/getAccountHostUptimeSummary)
+
+
+#### [getAccountUrlUptimeGraphData](/reference/services/SoftLayer_Account_Historical_Report/getAccountUrlUptimeGraphData)
+
+
+#### [getAccountUrlUptimeSummary](/reference/services/SoftLayer_Account_Historical_Report/getAccountUrlUptimeSummary)
+
+
+#### [getHostUptimeDetail](/reference/services/SoftLayer_Account_Historical_Report/getHostUptimeDetail)
+
+
+#### [getHostUptimeGraphData](/reference/services/SoftLayer_Account_Historical_Report/getHostUptimeGraphData)
+
+
+#### [getUrlUptimeDetail](/reference/services/SoftLayer_Account_Historical_Report/getUrlUptimeDetail)
+
+
+#### [getUrlUptimeGraphData](/reference/services/SoftLayer_Account_Historical_Report/getUrlUptimeGraphData)
+
+
 </div>
 

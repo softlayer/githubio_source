@@ -42,63 +42,47 @@ The SoftLayer_Virtual_Guest_Network_Component_IpAddress data type contains gener
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ipAddressId" name=ipAddressId>ipAddressId</a>
-            </span>
-            <div class='views-field-body'>The unique ID of the [[SoftLayer_Network_Subnet_ipAddress|ip address]] this virtual IP address is associated with.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#port" name=port>port</a>
-            </span>
-            <div class='views-field-body'>The port that a network component has reserved.  This field is only required for some IP address types.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#type" name=type>type</a>
-            </span>
-            <div class='views-field-body'>The type of IP that this IP address record references.  Some examples are PRIMARY for the network component's primary IP address and CONSOLE_PROXY which represents the IP information for logging into a computing instance's console.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ipAddress" name=ipAddress>ipAddress</a>
-            </span>
-            <div class='views-field-body'>The IP address associated with this object's network component. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkComponent" name=networkComponent>networkComponent</a>
-            </span>
-            <div class='views-field-body'>The network component associated with this object's IP address. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[ipAddressId]: #ipaddressid
+#### [ipAddressId]
+The unique ID of the [SoftLayer_Network_Subnet_ipAddress]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_ipAddress">}}) this virtual IP address is associated with.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[port]: #port
+#### [port]
+The port that a network component has reserved.  This field is only required for some IP address types.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[type]: #type
+#### [type]
+The type of IP that this IP address record references.  Some examples are PRIMARY for the network component's primary IP address and CONSOLE_PROXY which represents the IP information for logging into a computing instance's console.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[ipAddress]: #ipaddress
+#### [ipAddress]
+The IP address associated with this object's network component.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>**
+
+-----
+[networkComponent]: #networkcomponent
+#### [networkComponent]
+The network component associated with this object's IP address.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a>**
+
+
+## Count
 </div>
 
 

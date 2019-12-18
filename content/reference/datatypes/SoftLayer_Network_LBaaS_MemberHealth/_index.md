@@ -36,29 +36,24 @@ SoftLayer_Network_LBaaS_MemberHealth is a collection member metrics retrieved fr
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#status" name=status>status</a>
-            </span>
-            <div class='views-field-body'>Members status (UP/DOWN). </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#uuid" name=uuid>uuid</a>
-            </span>
-            <div class='views-field-body'>Members UUID. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[status]: #status
+#### [status]
+Members status (UP/DOWN).  
+<span class="type-label">Type: </span>**string**
+
+-----
+[uuid]: #uuid
+#### [uuid]
+Members UUID.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

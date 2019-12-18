@@ -25,33 +25,30 @@ A ``Pod`` is identified by a ``name``, which is unique. A Pod name follows the f
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Pod/getAllObjects'> getAllObjects</a> </span>
-            <div class='views-field-body'>Retrieve a list of Pods; optionally filtered via datacenter and/or capabilities.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Pod/getCapabilities'> getCapabilities</a> </span>
-            <div class='views-field-body'>Retrieve capabilities for the Pod.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Pod/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a Pod by name.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_Pod/listCapabilities'> listCapabilities</a> </span>
-            <div class='views-field-body'>Retrieve a list of all possible capabilities Pods may fulfill.</div>
-        </div>
-        </div>
+</div>
+
+#### [getAllObjects](/reference/services/SoftLayer_Network_Pod/getAllObjects)
+Retrieve a list of Pods; optionally filtered via datacenter and/or capabilities.
+
+#### [getCapabilities](/reference/services/SoftLayer_Network_Pod/getCapabilities)
+Retrieve capabilities for the Pod.
+
+#### [getObject](/reference/services/SoftLayer_Network_Pod/getObject)
+Retrieve a Pod by name.
+
+#### [listCapabilities](/reference/services/SoftLayer_Network_Pod/listCapabilities)
+Retrieve a list of all possible capabilities Pods may fulfill.
+
 </div>
 

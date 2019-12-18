@@ -23,29 +23,27 @@ SoftLayer public API to determine the availability of generic hardware component
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Locator/getGenericComponentModelAvailability'> getGenericComponentModelAvailability</a> </span>
-            <div class='views-field-body'>An API to retrieve Generic Components Model availability at data centers</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Locator/getPackageItemsAvailability'> getPackageItemsAvailability</a> </span>
-            <div class='views-field-body'>Retrieve availability of specified product package's GPUs and drives</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Hardware_Component_Locator/getServerPackageAvailability'> getServerPackageAvailability</a> </span>
-            <div class='views-field-body'>An API to retrieve server package availability at data centers</div>
-        </div>
-        </div>
+</div>
+
+#### [getGenericComponentModelAvailability](/reference/services/SoftLayer_Hardware_Component_Locator/getGenericComponentModelAvailability)
+An API to retrieve Generic Components Model availability at data centers
+
+#### [getPackageItemsAvailability](/reference/services/SoftLayer_Hardware_Component_Locator/getPackageItemsAvailability)
+Retrieve availability of specified product package's GPUs and drives
+
+#### [getServerPackageAvailability](/reference/services/SoftLayer_Hardware_Component_Locator/getServerPackageAvailability)
+An API to retrieve server package availability at data centers
+
 </div>
 

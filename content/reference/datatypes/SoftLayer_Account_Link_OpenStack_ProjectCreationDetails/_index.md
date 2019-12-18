@@ -36,59 +36,42 @@ OpenStack project creation details
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#domainId" name=domainId>domainId</a>
-            </span>
-            <div class='views-field-body'>Id for the domain this project was added to.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#projectId" name=projectId>projectId</a>
-            </span>
-            <div class='views-field-body'>Id for this project.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#projectName" name=projectName>projectName</a>
-            </span>
-            <div class='views-field-body'>Name for this project.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#userId" name=userId>userId</a>
-            </span>
-            <div class='views-field-body'>Id for the user given the Project Admin role for this project.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#userName" name=userName>userName</a>
-            </span>
-            <div class='views-field-body'>Name for the user given the Project Admin role for this project.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[domainId]: #domainid
+#### [domainId]
+Id for the domain this project was added to.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[projectId]: #projectid
+#### [projectId]
+Id for this project.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[projectName]: #projectname
+#### [projectName]
+Name for this project.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[userId]: #userid
+#### [userId]
+Id for the user given the Project Admin role for this project.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[userName]: #username
+#### [userName]
+Name for the user given the Project Admin role for this project.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

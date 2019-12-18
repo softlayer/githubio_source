@@ -23,45 +23,39 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Agreement/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Agreement/getAgreementType'> getAgreementType</a> </span>
-            <div class='views-field-body'>Retrieve the type of agreement.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Agreement/getAttachedBillingAgreementFiles'> getAttachedBillingAgreementFiles</a> </span>
-            <div class='views-field-body'>Retrieve the files attached to an agreement.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Agreement/getBillingItems'> getBillingItems</a> </span>
-            <div class='views-field-body'>Retrieve the billing items associated with an agreement.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Agreement/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Account_Agreement record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Agreement/getStatus'> getStatus</a> </span>
-            <div class='views-field-body'>Retrieve the status of the agreement.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Agreement/getTopLevelBillingItems'> getTopLevelBillingItems</a> </span>
-            <div class='views-field-body'>Retrieve the top level billing item associated with an agreement.</div>
-        </div>
-        </div>
+</div>
+
+#### [getAccount](/reference/services/SoftLayer_Account_Agreement/getAccount)
+
+
+#### [getAgreementType](/reference/services/SoftLayer_Account_Agreement/getAgreementType)
+Retrieve the type of agreement.
+
+#### [getAttachedBillingAgreementFiles](/reference/services/SoftLayer_Account_Agreement/getAttachedBillingAgreementFiles)
+Retrieve the files attached to an agreement.
+
+#### [getBillingItems](/reference/services/SoftLayer_Account_Agreement/getBillingItems)
+Retrieve the billing items associated with an agreement.
+
+#### [getObject](/reference/services/SoftLayer_Account_Agreement/getObject)
+Retrieve a SoftLayer_Account_Agreement record.
+
+#### [getStatus](/reference/services/SoftLayer_Account_Agreement/getStatus)
+Retrieve the status of the agreement.
+
+#### [getTopLevelBillingItems](/reference/services/SoftLayer_Account_Agreement/getTopLevelBillingItems)
+Retrieve the top level billing item associated with an agreement.
+
 </div>
 

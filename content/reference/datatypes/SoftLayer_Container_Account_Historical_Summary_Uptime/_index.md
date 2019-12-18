@@ -36,39 +36,30 @@ Historical Summary Container for account host's resource uptime details
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#details" name=details>details</a>
-            </span>
-            <div class='views-field-body'>Array of server uptime detail containers </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Account_Historical_Summary_Detail'>SoftLayer_Container_Account_Historical_Summary_Detail[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#endDate" name=endDate>endDate</a>
-            </span>
-            <div class='views-field-body'>The maximum date included in the summary. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#startDate" name=startDate>startDate</a>
-            </span>
-            <div class='views-field-body'>The minimum date included in the summary. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[details]: #details
+#### [details]
+Array of server uptime detail containers  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_Historical_Summary_Detail'>SoftLayer_Container_Account_Historical_Summary_Detail[] </a>**
+
+-----
+[endDate]: #enddate
+#### [endDate]
+The maximum date included in the summary.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[startDate]: #startdate
+#### [startDate]
+The minimum date included in the summary.  
+<span class="type-label">Type: </span>**dateTime**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -49,49 +49,36 @@ Transcode preset is a set of configuration parameters that defines a Transcode o
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#GUID" name=GUID>GUID</a>
-            </span>
-            <div class='views-field-body'>The unique id that is used by a Transcode server </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#category" name=category>category</a>
-            </span>
-            <div class='views-field-body'>The category that a preset belongs to </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>The description of the preset </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>The friendly name of a preset </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[GUID]: #guid
+#### [GUID]
+The unique id that is used by a Transcode server  
+<span class="type-label">Type: </span>**string**
+
+-----
+[category]: #category
+#### [category]
+The category that a preset belongs to  
+<span class="type-label">Type: </span>**string**
+
+-----
+[description]: #description
+#### [description]
+The description of the preset  
+<span class="type-label">Type: </span>**string**
+
+-----
+[name]: #name
+#### [name]
+The friendly name of a preset  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

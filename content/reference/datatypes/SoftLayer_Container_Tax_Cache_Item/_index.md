@@ -36,49 +36,36 @@ This represents one order item in a tax calculation.
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#categoryCode" name=categoryCode>categoryCode</a>
-            </span>
-            <div class='views-field-body'>The category code for the referenced product. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#containerHash" name=containerHash>containerHash</a>
-            </span>
-            <div class='views-field-body'>This hash will match to the hash on an order container. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#itemPriceId" name=itemPriceId>itemPriceId</a>
-            </span>
-            <div class='views-field-body'>The reference to the price for this order item. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#taxRates" name=taxRates>taxRates</a>
-            </span>
-            <div class='views-field-body'>This is the container containing the individual tax rates. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Tax_Rates'>SoftLayer_Container_Tax_Rates </a></p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[categoryCode]: #categorycode
+#### [categoryCode]
+The category code for the referenced product.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[containerHash]: #containerhash
+#### [containerHash]
+This hash will match to the hash on an order container.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[itemPriceId]: #itempriceid
+#### [itemPriceId]
+The reference to the price for this order item.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[taxRates]: #taxrates
+#### [taxRates]
+This is the container containing the individual tax rates.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Tax_Rates'>SoftLayer_Container_Tax_Rates </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

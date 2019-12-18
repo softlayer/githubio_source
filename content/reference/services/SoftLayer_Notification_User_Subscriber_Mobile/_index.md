@@ -23,61 +23,51 @@ SoftLayer Customers can subscribe to receive notifications for various notificat
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/clearSnoozeTimer'> clearSnoozeTimer</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create a new notification subscriber.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit a notification subscriber active status</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/getDeliveryMethods'> getDeliveryMethods</a> </span>
-            <div class='views-field-body'>Retrieve the delivery methods used to send the subscribed notification.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/getNotification'> getNotification</a> </span>
-            <div class='views-field-body'>Retrieve notification subscribed to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Notification_User_Subscriber_Mobile record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/getPreferences'> getPreferences</a> </span>
-            <div class='views-field-body'>Retrieve associated subscriber preferences used for the notification subscription. For example, preferences include number of deliveries (limit) and threshold.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/getPreferencesDetails'> getPreferencesDetails</a> </span>
-            <div class='views-field-body'>Retrieve preference details such as description, minimum and maximum limits, default value and unit of measure.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/getResourceRecord'> getResourceRecord</a> </span>
-            <div class='views-field-body'>Retrieve the subscriber id to resource id mapping.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/getUserRecord'> getUserRecord</a> </span>
-            <div class='views-field-body'>Retrieve user record for the subscription.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/setSnoozeTimer'> setSnoozeTimer</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-        </div>
+</div>
+
+#### [clearSnoozeTimer](/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/clearSnoozeTimer)
+
+
+#### [createObject](/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/createObject)
+Create a new notification subscriber.
+
+#### [editObject](/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/editObject)
+Edit a notification subscriber active status
+
+#### [getDeliveryMethods](/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/getDeliveryMethods)
+Retrieve the delivery methods used to send the subscribed notification.
+
+#### [getNotification](/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/getNotification)
+Retrieve notification subscribed to.
+
+#### [getObject](/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/getObject)
+Retrieve a SoftLayer_Notification_User_Subscriber_Mobile record.
+
+#### [getPreferences](/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/getPreferences)
+Retrieve associated subscriber preferences used for the notification subscription. For example, preferences include number of deliveries (limit) and threshold.
+
+#### [getPreferencesDetails](/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/getPreferencesDetails)
+Retrieve preference details such as description, minimum and maximum limits, default value and unit of measure.
+
+#### [getResourceRecord](/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/getResourceRecord)
+Retrieve the subscriber id to resource id mapping.
+
+#### [getUserRecord](/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/getUserRecord)
+Retrieve user record for the subscription.
+
+#### [setSnoozeTimer](/reference/services/SoftLayer_Notification_User_Subscriber_Mobile/setSnoozeTimer)
+
+
 </div>
 

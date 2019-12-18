@@ -36,93 +36,65 @@ This type contains general information relating to any hardware or services that
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#active" name=active>active</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#filterLabel" name=filterLabel>filterLabel</a>
-            </span>
-            <div class='views-field-body'><<< EOT A label which gives some background as to what piece of </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#notificationOccurrenceEventId" name=notificationOccurrenceEventId>notificationOccurrenceEventId</a>
-            </span>
-            <div class='views-field-body'><<< EOT The unique identifier for the associated </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#resourceAccountId" name=resourceAccountId>resourceAccountId</a>
-            </span>
-            <div class='views-field-body'><<< EOT The unique identifier for the [[SoftLayer_Account]] associated with </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#resourceName" name=resourceName>resourceName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#resourceTableId" name=resourceTableId>resourceTableId</a>
-            </span>
-            <div class='views-field-body'><<< EOT The unique identifier for the physical resource that is associated </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#notificationOccurrenceEvent" name=notificationOccurrenceEvent>notificationOccurrenceEvent</a>
-            </span>
-            <div class='views-field-body'>The associated event. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#resource" name=resource>resource</a>
-            </span>
-            <div class='views-field-body'>The physical resource. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[active]: #active
+#### [active]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[filterLabel]: #filterlabel
+#### [filterLabel]
+<<< EOT A label which gives some background as to what piece of  
+<span class="type-label">Type: </span>**string**
+
+-----
+[notificationOccurrenceEventId]: #notificationoccurrenceeventid
+#### [notificationOccurrenceEventId]
+<<< EOT The unique identifier for the associated  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[resourceAccountId]: #resourceaccountid
+#### [resourceAccountId]
+<<< EOT The unique identifier for the [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) associated with  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[resourceName]: #resourcename
+#### [resourceName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[resourceTableId]: #resourcetableid
+#### [resourceTableId]
+<<< EOT The unique identifier for the physical resource that is associated  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[notificationOccurrenceEvent]: #notificationoccurrenceevent
+#### [notificationOccurrenceEvent]
+The associated event.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event </a>**
+
+-----
+[resource]: #resource
+#### [resource]
+The physical resource.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a>**
+
+
+## Count
 </div>
 
 

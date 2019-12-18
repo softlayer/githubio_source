@@ -36,83 +36,59 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maintClassId" name=maintClassId>maintClassId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maintWindowId" name=maintWindowId>maintWindowId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maintenanceDate" name=maintenanceDate>maintenanceDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ticketId" name=ticketId>ticketId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#availableSlots" name=availableSlots>availableSlots</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Slots'>SoftLayer_Provisioning_Maintenance_Slots </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maintenanceClass" name=maintenanceClass>maintenanceClass</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification'>SoftLayer_Provisioning_Maintenance_Classification </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ticket" name=ticket>ticket</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[maintClassId]: #maintclassid
+#### [maintClassId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[maintWindowId]: #maintwindowid
+#### [maintWindowId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[maintenanceDate]: #maintenancedate
+#### [maintenanceDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[ticketId]: #ticketid
+#### [ticketId]
+  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[availableSlots]: #availableslots
+#### [availableSlots]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Slots'>SoftLayer_Provisioning_Maintenance_Slots </a>**
+
+-----
+[maintenanceClass]: #maintenanceclass
+#### [maintenanceClass]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification'>SoftLayer_Provisioning_Maintenance_Classification </a>**
+
+-----
+[ticket]: #ticket
+#### [ticket]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+
+
+## Count
 </div>
 
 

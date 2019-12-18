@@ -23,41 +23,36 @@ A regional location group is a collection of datacenters for a region.
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Location_Group_Regional/getAllObjects'> getAllObjects</a> </span>
-            <div class='views-field-body'>Get all regional groups.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Location_Group_Regional/getDatacenters'> getDatacenters</a> </span>
-            <div class='views-field-body'>Retrieve the datacenters in a group.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Location_Group_Regional/getLocationGroupType'> getLocationGroupType</a> </span>
-            <div class='views-field-body'>Retrieve the type for this location group.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Location_Group_Regional/getLocations'> getLocations</a> </span>
-            <div class='views-field-body'>Retrieve the locations in a group.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Location_Group_Regional/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Location_Group_Regional record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Location_Group_Regional/getPreferredDatacenter'> getPreferredDatacenter</a> </span>
-            <div class='views-field-body'>Retrieve the preferred datacenters of a group.</div>
-        </div>
-        </div>
+</div>
+
+#### [getAllObjects](/reference/services/SoftLayer_Location_Group_Regional/getAllObjects)
+Get all regional groups.
+
+#### [getDatacenters](/reference/services/SoftLayer_Location_Group_Regional/getDatacenters)
+Retrieve the datacenters in a group.
+
+#### [getLocationGroupType](/reference/services/SoftLayer_Location_Group_Regional/getLocationGroupType)
+Retrieve the type for this location group.
+
+#### [getLocations](/reference/services/SoftLayer_Location_Group_Regional/getLocations)
+Retrieve the locations in a group.
+
+#### [getObject](/reference/services/SoftLayer_Location_Group_Regional/getObject)
+Retrieve a SoftLayer_Location_Group_Regional record.
+
+#### [getPreferredDatacenter](/reference/services/SoftLayer_Location_Group_Regional/getPreferredDatacenter)
+Retrieve the preferred datacenters of a group.
+
 </div>
 

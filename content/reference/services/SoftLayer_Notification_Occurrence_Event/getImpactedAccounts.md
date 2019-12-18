@@ -1,6 +1,6 @@
 ---
 title: "getImpactedAccounts"
-description: "Retrieve a collection of accounts impacted by this event. Each impacted account record relates directly to a [[SoftLayer... "
+description: "Retrieve a collection of accounts impacted by this event. Each impacted account record relates directly to a [SoftLayer_... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Notification_Occurrence_Event](/reference/services/SoftLayer_Notification_Occurrence_Event)::getImpactedAccounts
 
-Retrieve a collection of accounts impacted by this event. Each impacted account record relates directly to a [[SoftLayer_Account]].
+Retrieve a collection of accounts impacted by this event. Each impacted account record relates directly to a [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}).
 
 
 ## Overview 
-Retrieve a collection of accounts impacted by this event. Each impacted account record relates directly to a [[SoftLayer_Account]].
+Retrieve a collection of accounts impacted by this event. Each impacted account record relates directly to a [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}).
 
 -----
 

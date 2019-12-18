@@ -41,109 +41,72 @@ The customer and prospective owner of a proof of concept account established by 
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#address1" name=address1>address1</a>
-            </span>
-            <div class='views-field-body'>Customer's address </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#address2" name=address2>address2</a>
-            </span>
-            <div class='views-field-body'>Customer's address </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#city" name=city>city</a>
-            </span>
-            <div class='views-field-body'>Customer's city </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#country" name=country>country</a>
-            </span>
-            <div class='views-field-body'>Customer's ISO country code </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#email" name=email>email</a>
-            </span>
-            <div class='views-field-body'>Customer's email address </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#firstName" name=firstName>firstName</a>
-            </span>
-            <div class='views-field-body'>Customer's first name </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastName" name=lastName>lastName</a>
-            </span>
-            <div class='views-field-body'>Customer's last name </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#phone" name=phone>phone</a>
-            </span>
-            <div class='views-field-body'>Customer's primary phone number </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#postalCode" name=postalCode>postalCode</a>
-            </span>
-            <div class='views-field-body'>Customer's postal code </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#state" name=state>state</a>
-            </span>
-            <div class='views-field-body'>Customer's state </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[address1]: #address1
+#### [address1]
+Customer's address  
+<span class="type-label">Type: </span>**string**
+
+-----
+[address2]: #address2
+#### [address2]
+Customer's address  
+<span class="type-label">Type: </span>**string**
+
+-----
+[city]: #city
+#### [city]
+Customer's city  
+<span class="type-label">Type: </span>**string**
+
+-----
+[country]: #country
+#### [country]
+Customer's ISO country code  
+<span class="type-label">Type: </span>**string**
+
+-----
+[email]: #email
+#### [email]
+Customer's email address  
+<span class="type-label">Type: </span>**string**
+
+-----
+[firstName]: #firstname
+#### [firstName]
+Customer's first name  
+<span class="type-label">Type: </span>**string**
+
+-----
+[lastName]: #lastname
+#### [lastName]
+Customer's last name  
+<span class="type-label">Type: </span>**string**
+
+-----
+[phone]: #phone
+#### [phone]
+Customer's primary phone number  
+<span class="type-label">Type: </span>**string**
+
+-----
+[postalCode]: #postalcode
+#### [postalCode]
+Customer's postal code  
+<span class="type-label">Type: </span>**string**
+
+-----
+[state]: #state
+#### [state]
+Customer's state  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

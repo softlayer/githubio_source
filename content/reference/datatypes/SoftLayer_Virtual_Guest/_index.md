@@ -43,1613 +43,1006 @@ A guest, also known as a virtual server, represents an allocation of resources o
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>A computing instance's associated [[SoftLayer_Account|account]] id  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date a virtual computing instance was created.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#dedicatedAccountHostOnlyFlag" name=dedicatedAccountHostOnlyFlag>dedicatedAccountHostOnlyFlag</a>
-            </span>
-            <div class='views-field-body'>When true this flag specifies that a compute instance is to run on hosts that only have guests from the same account.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#domain" name=domain>domain</a>
-            </span>
-            <div class='views-field-body'>A computing instance's domain name  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#fullyQualifiedDomainName" name=fullyQualifiedDomainName>fullyQualifiedDomainName</a>
-            </span>
-            <div class='views-field-body'>A name reflecting the hostname and domain of the computing instance. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hostname" name=hostname>hostname</a>
-            </span>
-            <div class='views-field-body'>A virtual computing instance's hostname  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Unique ID for a computing instance.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastPowerStateId" name=lastPowerStateId>lastPowerStateId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastVerifiedDate" name=lastVerifiedDate>lastVerifiedDate</a>
-            </span>
-            <div class='views-field-body'>The last timestamp of when the guest was verified as a resident virtual machine on the host's hypervisor platform.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maxCpu" name=maxCpu>maxCpu</a>
-            </span>
-            <div class='views-field-body'>The maximum amount of CPU resources a computing instance may utilize.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maxCpuUnits" name=maxCpuUnits>maxCpuUnits</a>
-            </span>
-            <div class='views-field-body'>The unit of the maximum amount of CPU resources a computing instance may utilize.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#maxMemory" name=maxMemory>maxMemory</a>
-            </span>
-            <div class='views-field-body'>The maximum amount of memory a computing instance may utilize.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#metricPollDate" name=metricPollDate>metricPollDate</a>
-            </span>
-            <div class='views-field-body'>The date of the most recent metric tracking poll performed.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>The date a virtual computing instance was last modified.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#notes" name=notes>notes</a>
-            </span>
-            <div class='views-field-body'>A note of up to 1,000 characters about a virtual server.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#placementGroupId" name=placementGroupId>placementGroupId</a>
-            </span>
-            <div class='views-field-body'>The placement group ID that the virtual guest belongs to.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#postInstallScriptUri" name=postInstallScriptUri>postInstallScriptUri</a>
-            </span>
-            <div class='views-field-body'>URI of the script to be downloaded and executed after installation is complete. This is deprecated in favor of supplementalCreateObjectOptions' postInstallScriptUri.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#provisionDate" name=provisionDate>provisionDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#startCpus" name=startCpus>startCpus</a>
-            </span>
-            <div class='views-field-body'>The number of CPUs available to a computing instance upon startup.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#statusId" name=statusId>statusId</a>
-            </span>
-            <div class='views-field-body'>A computing instances [[SoftLayer_Virtual_Guest_Status|status]] ID  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#supplementalCreateObjectOptions" name=supplementalCreateObjectOptions>supplementalCreateObjectOptions</a>
-            </span>
-            <div class='views-field-body'>Extra options needed for [[SoftLayer_Virtual_Guest/createObject|createObject]] and [[SoftLayer_Virtual_Guest/createObjects|createObjects]].  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_SupplementalCreateObjectOptions'>SoftLayer_Virtual_Guest_SupplementalCreateObjectOptions </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#typeId" name=typeId>typeId</a>
-            </span>
-            <div class='views-field-body'>Gives the type of guest categorized as PUBLIC, DEDICATED or PRIVATE.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#uuid" name=uuid>uuid</a>
-            </span>
-            <div class='views-field-body'>Unique ID for a computing instance's record on a virtualization platform.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The account that a virtual guest belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountOwnedPoolFlag" name=accountOwnedPoolFlag>accountOwnedPoolFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeNetworkMonitorIncident" name=activeNetworkMonitorIncident>activeNetworkMonitorIncident</a>
-            </span>
-            <div class='views-field-body'>A virtual guest's currently active network monitoring incidents. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Incident'>SoftLayer_Network_Monitor_Version1_Incident[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeTickets" name=activeTickets>activeTickets</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeTransaction" name=activeTransaction>activeTransaction</a>
-            </span>
-            <div class='views-field-body'>A transaction that is still be performed on a cloud server. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeTransactions" name=activeTransactions>activeTransactions</a>
-            </span>
-            <div class='views-field-body'>Any active transaction(s) that are currently running for the server (example: os reload). </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allowedHost" name=allowedHost>allowedHost</a>
-            </span>
-            <div class='views-field-body'>The SoftLayer_Network_Storage_Allowed_Host information to connect this Virtual Guest to Network Storage volumes that require access control lists. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Storage_Allowed_Host'>SoftLayer_Network_Storage_Allowed_Host </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allowedNetworkStorage" name=allowedNetworkStorage>allowedNetworkStorage</a>
-            </span>
-            <div class='views-field-body'>The SoftLayer_Network_Storage objects that this SoftLayer_Virtual_Guest has access to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allowedNetworkStorageReplicas" name=allowedNetworkStorageReplicas>allowedNetworkStorageReplicas</a>
-            </span>
-            <div class='views-field-body'>The SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Virtual_Guest has access to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#antivirusSpywareSoftwareComponent" name=antivirusSpywareSoftwareComponent>antivirusSpywareSoftwareComponent</a>
-            </span>
-            <div class='views-field-body'>A antivirus / spyware software component object. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#applicationDeliveryController" name=applicationDeliveryController>applicationDeliveryController</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributes" name=attributes>attributes</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Attribute'>SoftLayer_Virtual_Guest_Attribute[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#availableMonitoring" name=availableMonitoring>availableMonitoring</a>
-            </span>
-            <div class='views-field-body'>An object that stores the maximum level for the monitoring query types and response types. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum'>SoftLayer_Network_Monitor_Version1_Query_Host_Stratum[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#averageDailyPrivateBandwidthUsage" name=averageDailyPrivateBandwidthUsage>averageDailyPrivateBandwidthUsage</a>
-            </span>
-            <div class='views-field-body'>The average daily private bandwidth usage for the current billing cycle. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#averageDailyPublicBandwidthUsage" name=averageDailyPublicBandwidthUsage>averageDailyPublicBandwidthUsage</a>
-            </span>
-            <div class='views-field-body'>The average daily public bandwidth usage for the current billing cycle. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#backendNetworkComponents" name=backendNetworkComponents>backendNetworkComponents</a>
-            </span>
-            <div class='views-field-body'>A guests's backend network components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#backendRouters" name=backendRouters>backendRouters</a>
-            </span>
-            <div class='views-field-body'>A guest's backend or private router. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bandwidthAllocation" name=bandwidthAllocation>bandwidthAllocation</a>
-            </span>
-            <div class='views-field-body'>A computing instance's allotted bandwidth (measured in GB). </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bandwidthAllotmentDetail" name=bandwidthAllotmentDetail>bandwidthAllotmentDetail</a>
-            </span>
-            <div class='views-field-body'>A computing instance's allotted detail record. Allotment details link bandwidth allocation with allotments. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Detail'>SoftLayer_Network_Bandwidth_Version1_Allotment_Detail </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingCycleBandwidthUsage" name=billingCycleBandwidthUsage>billingCycleBandwidthUsage</a>
-            </span>
-            <div class='views-field-body'>The raw bandwidth usage data for the current billing cycle. One object will be returned for each network this server is attached to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingCyclePrivateBandwidthUsage" name=billingCyclePrivateBandwidthUsage>billingCyclePrivateBandwidthUsage</a>
-            </span>
-            <div class='views-field-body'>The raw private bandwidth usage data for the current billing cycle. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingCyclePublicBandwidthUsage" name=billingCyclePublicBandwidthUsage>billingCyclePublicBandwidthUsage</a>
-            </span>
-            <div class='views-field-body'>The raw public bandwidth usage data for the current billing cycle. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingItem" name=billingItem>billingItem</a>
-            </span>
-            <div class='views-field-body'>The billing item for a CloudLayer Compute Instance. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item_Virtual_Guest'>SoftLayer_Billing_Item_Virtual_Guest </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#blockCancelBecauseDisconnectedFlag" name=blockCancelBecauseDisconnectedFlag>blockCancelBecauseDisconnectedFlag</a>
-            </span>
-            <div class='views-field-body'>Determines whether the instance is ineligible for cancellation because it is disconnected. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#blockDeviceTemplateGroup" name=blockDeviceTemplateGroup>blockDeviceTemplateGroup</a>
-            </span>
-            <div class='views-field-body'>The global identifier for the image template that was used to provision or reload a guest. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#blockDevices" name=blockDevices>blockDevices</a>
-            </span>
-            <div class='views-field-body'>A computing instance's block devices. Block devices link [[SoftLayer_Virtual_Disk_Image|disk images]] to computing instances. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device'>SoftLayer_Virtual_Guest_Block_Device[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#consoleIpAddressFlag" name=consoleIpAddressFlag>consoleIpAddressFlag</a>
-            </span>
-            <div class='views-field-body'>A flag indicating a computing instance's console IP address is assigned. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#consoleIpAddressRecord" name=consoleIpAddressRecord>consoleIpAddressRecord</a>
-            </span>
-            <div class='views-field-body'>A record containing information about a computing instance's console IP and port number. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component_IpAddress'>SoftLayer_Virtual_Guest_Network_Component_IpAddress </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#continuousDataProtectionSoftwareComponent" name=continuousDataProtectionSoftwareComponent>continuousDataProtectionSoftwareComponent</a>
-            </span>
-            <div class='views-field-body'>A continuous data protection software component object. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#controlPanel" name=controlPanel>controlPanel</a>
-            </span>
-            <div class='views-field-body'>A guest's control panel. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#currentBandwidthSummary" name=currentBandwidthSummary>currentBandwidthSummary</a>
-            </span>
-            <div class='views-field-body'>An object that provides commonly used bandwidth summary components for the current billing cycle. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Bandwidth_Summary'>SoftLayer_Metric_Tracking_Object_Bandwidth_Summary </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#datacenter" name=datacenter>datacenter</a>
-            </span>
-            <div class='views-field-body'>The datacenter that a virtual guest resides in. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#dedicatedHost" name=dedicatedHost>dedicatedHost</a>
-            </span>
-            <div class='views-field-body'>The dedicated host associated with this guest. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_DedicatedHost'>SoftLayer_Virtual_DedicatedHost </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#evaultNetworkStorage" name=evaultNetworkStorage>evaultNetworkStorage</a>
-            </span>
-            <div class='views-field-body'>A guest's associated EVault network storage service account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#firewallServiceComponent" name=firewallServiceComponent>firewallServiceComponent</a>
-            </span>
-            <div class='views-field-body'>A computing instance's hardware firewall services. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#frontendNetworkComponents" name=frontendNetworkComponents>frontendNetworkComponents</a>
-            </span>
-            <div class='views-field-body'>A guest's frontend network components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#frontendRouters" name=frontendRouters>frontendRouters</a>
-            </span>
-            <div class='views-field-body'>A guest's frontend or public router. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#globalIdentifier" name=globalIdentifier>globalIdentifier</a>
-            </span>
-            <div class='views-field-body'>A guest's universally unique identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#gpuCount" name=gpuCount>gpuCount</a>
-            </span>
-            <div class='views-field-body'>The number of GPUs attached to the guest. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#gpuType" name=gpuType>gpuType</a>
-            </span>
-            <div class='views-field-body'>The name of the GPU type attached to the guest. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#guestBootParameter" name=guestBootParameter>guestBootParameter</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Boot_Parameter'>SoftLayer_Virtual_Guest_Boot_Parameter </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#host" name=host>host</a>
-            </span>
-            <div class='views-field-body'>The virtual host on which a virtual guest resides (available only on private clouds). </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Host'>SoftLayer_Virtual_Host </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hostIpsSoftwareComponent" name=hostIpsSoftwareComponent>hostIpsSoftwareComponent</a>
-            </span>
-            <div class='views-field-body'>A host IPS software component object. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hourlyBillingFlag" name=hourlyBillingFlag>hourlyBillingFlag</a>
-            </span>
-            <div class='views-field-body'>A guest's hourly billing status. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#inboundPrivateBandwidthUsage" name=inboundPrivateBandwidthUsage>inboundPrivateBandwidthUsage</a>
-            </span>
-            <div class='views-field-body'>The total private inbound bandwidth for this computing instance for the current billing cycle. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#inboundPublicBandwidthUsage" name=inboundPublicBandwidthUsage>inboundPublicBandwidthUsage</a>
-            </span>
-            <div class='views-field-body'>The total public inbound bandwidth for this computing instance for the current billing cycle. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#internalTagReferences" name=internalTagReferences>internalTagReferences</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastKnownPowerState" name=lastKnownPowerState>lastKnownPowerState</a>
-            </span>
-            <div class='views-field-body'>The last known power state of a virtual guest in the event the guest is turned off outside of IMS or has gone offline. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Power_State'>SoftLayer_Virtual_Guest_Power_State </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastOperatingSystemReload" name=lastOperatingSystemReload>lastOperatingSystemReload</a>
-            </span>
-            <div class='views-field-body'>The last transaction that a cloud server's operating system was loaded. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lastTransaction" name=lastTransaction>lastTransaction</a>
-            </span>
-            <div class='views-field-body'>The last transaction a cloud server had performed. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#latestNetworkMonitorIncident" name=latestNetworkMonitorIncident>latestNetworkMonitorIncident</a>
-            </span>
-            <div class='views-field-body'>A virtual guest's latest network monitoring incident. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Incident'>SoftLayer_Network_Monitor_Version1_Incident </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#localDiskFlag" name=localDiskFlag>localDiskFlag</a>
-            </span>
-            <div class='views-field-body'>A flag indicating that the virtual guest has at least one disk which is local to the host it runs on. This does not include a SWAP device. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#location" name=location>location</a>
-            </span>
-            <div class='views-field-body'>Where guest is located within SoftLayer's location hierarchy. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#managedResourceFlag" name=managedResourceFlag>managedResourceFlag</a>
-            </span>
-            <div class='views-field-body'>A flag indicating that the virtual guest is a managed resource. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#metricTrackingObject" name=metricTrackingObject>metricTrackingObject</a>
-            </span>
-            <div class='views-field-body'>A guest's metric tracking object. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#metricTrackingObjectId" name=metricTrackingObjectId>metricTrackingObjectId</a>
-            </span>
-            <div class='views-field-body'>The metric tracking object id for this guest. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monitoringAgents" name=monitoringAgents>monitoringAgents</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Monitoring_Agent'>SoftLayer_Monitoring_Agent[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monitoringRobot" name=monitoringRobot>monitoringRobot</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Monitoring_Robot'>SoftLayer_Monitoring_Robot </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monitoringServiceComponent" name=monitoringServiceComponent>monitoringServiceComponent</a>
-            </span>
-            <div class='views-field-body'>A virtual guest's network monitoring services. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum'>SoftLayer_Network_Monitor_Version1_Query_Host_Stratum </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monitoringServiceEligibilityFlag" name=monitoringServiceEligibilityFlag>monitoringServiceEligibilityFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monitoringServiceFlag" name=monitoringServiceFlag>monitoringServiceFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monitoringUserNotification" name=monitoringUserNotification>monitoringUserNotification</a>
-            </span>
-            <div class='views-field-body'>The monitoring notification objects for this guest. Each object links this guest instance to a user account that will be notified if monitoring on this guest object fails </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Virtual_Guest'>SoftLayer_User_Customer_Notification_Virtual_Guest[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkComponents" name=networkComponents>networkComponents</a>
-            </span>
-            <div class='views-field-body'>A guests's network components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkMonitorIncidents" name=networkMonitorIncidents>networkMonitorIncidents</a>
-            </span>
-            <div class='views-field-body'>All of a virtual guest's network monitoring incidents. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Incident'>SoftLayer_Network_Monitor_Version1_Incident[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkMonitors" name=networkMonitors>networkMonitors</a>
-            </span>
-            <div class='views-field-body'>A guests's network monitors. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host'>SoftLayer_Network_Monitor_Version1_Query_Host[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkStorage" name=networkStorage>networkStorage</a>
-            </span>
-            <div class='views-field-body'>A guest's associated network storage accounts. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkVlans" name=networkVlans>networkVlans</a>
-            </span>
-            <div class='views-field-body'>The network Vlans that a guest's network components are associated with. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#openCancellationTicket" name=openCancellationTicket>openCancellationTicket</a>
-            </span>
-            <div class='views-field-body'>An open ticket requesting cancellation of this server, if one exists. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#operatingSystem" name=operatingSystem>operatingSystem</a>
-            </span>
-            <div class='views-field-body'>A guest's operating system. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Software_Component_OperatingSystem'>SoftLayer_Software_Component_OperatingSystem </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#operatingSystemReferenceCode" name=operatingSystemReferenceCode>operatingSystemReferenceCode</a>
-            </span>
-            <div class='views-field-body'>A guest's operating system software description. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#orderedPackageId" name=orderedPackageId>orderedPackageId</a>
-            </span>
-            <div class='views-field-body'>The original package id provided with the order for a Cloud Computing Instance. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#outboundPrivateBandwidthUsage" name=outboundPrivateBandwidthUsage>outboundPrivateBandwidthUsage</a>
-            </span>
-            <div class='views-field-body'>The total private outbound bandwidth for this computing instance for the current billing cycle. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#outboundPublicBandwidthUsage" name=outboundPublicBandwidthUsage>outboundPublicBandwidthUsage</a>
-            </span>
-            <div class='views-field-body'>The total public outbound bandwidth for this computing instance for the current billing cycle. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#overBandwidthAllocationFlag" name=overBandwidthAllocationFlag>overBandwidthAllocationFlag</a>
-            </span>
-            <div class='views-field-body'>Whether the bandwidth usage for this computing instance for the current billing cycle exceeds the allocation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pendingMigrationFlag" name=pendingMigrationFlag>pendingMigrationFlag</a>
-            </span>
-            <div class='views-field-body'>When true this virtual guest must be migrated using SoftLayer_Virtual_Guest::migrate. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#placementGroup" name=placementGroup>placementGroup</a>
-            </span>
-            <div class='views-field-body'>The placement group that a virtual guest belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_PlacementGroup'>SoftLayer_Virtual_PlacementGroup </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#powerState" name=powerState>powerState</a>
-            </span>
-            <div class='views-field-body'>The current power state of a virtual guest. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Power_State'>SoftLayer_Virtual_Guest_Power_State </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#primaryBackendIpAddress" name=primaryBackendIpAddress>primaryBackendIpAddress</a>
-            </span>
-            <div class='views-field-body'>A guest's primary private IP address. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#primaryBackendNetworkComponent" name=primaryBackendNetworkComponent>primaryBackendNetworkComponent</a>
-            </span>
-            <div class='views-field-body'>A guest's primary backend network component. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#primaryIpAddress" name=primaryIpAddress>primaryIpAddress</a>
-            </span>
-            <div class='views-field-body'>The guest's primary public IP address. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#primaryNetworkComponent" name=primaryNetworkComponent>primaryNetworkComponent</a>
-            </span>
-            <div class='views-field-body'>A guest's primary public network component. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#privateNetworkOnlyFlag" name=privateNetworkOnlyFlag>privateNetworkOnlyFlag</a>
-            </span>
-            <div class='views-field-body'>Whether the computing instance only has access to the private network. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#projectedOverBandwidthAllocationFlag" name=projectedOverBandwidthAllocationFlag>projectedOverBandwidthAllocationFlag</a>
-            </span>
-            <div class='views-field-body'>Whether the bandwidth usage for this computing instance for the current billing cycle is projected to exceed the allocation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#projectedPublicBandwidthUsage" name=projectedPublicBandwidthUsage>projectedPublicBandwidthUsage</a>
-            </span>
-            <div class='views-field-body'>The projected public outbound bandwidth for this computing instance for the current billing cycle. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#recentEvents" name=recentEvents>recentEvents</a>
-            </span>
-            <div class='views-field-body'>Recent events that impact this computing instance. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#regionalGroup" name=regionalGroup>regionalGroup</a>
-            </span>
-            <div class='views-field-body'>The regional group this guest is in. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location_Group_Regional'>SoftLayer_Location_Group_Regional </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#regionalInternetRegistry" name=regionalInternetRegistry>regionalInternetRegistry</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Regional_Internet_Registry'>SoftLayer_Network_Regional_Internet_Registry </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#reservedCapacityGroup" name=reservedCapacityGroup>reservedCapacityGroup</a>
-            </span>
-            <div class='views-field-body'>The reserved capacity group the guest is associated with. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup'>SoftLayer_Virtual_ReservedCapacityGroup </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#reservedCapacityGroupFlag" name=reservedCapacityGroupFlag>reservedCapacityGroupFlag</a>
-            </span>
-            <div class='views-field-body'>Flag to indicate whether or not a guest is part of a reserved capacity group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#reservedCapacityGroupInstance" name=reservedCapacityGroupInstance>reservedCapacityGroupInstance</a>
-            </span>
-            <div class='views-field-body'>The reserved capacity group instance the guest is associated with. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#scaleAssets" name=scaleAssets>scaleAssets</a>
-            </span>
-            <div class='views-field-body'>Collection of scale assets this guest corresponds to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Scale_Asset'>SoftLayer_Scale_Asset[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#scaleMember" name=scaleMember>scaleMember</a>
-            </span>
-            <div class='views-field-body'>The scale member for this guest, if applicable. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Scale_Member_Virtual_Guest'>SoftLayer_Scale_Member_Virtual_Guest </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#scaledFlag" name=scaledFlag>scaledFlag</a>
-            </span>
-            <div class='views-field-body'>Whether or not this guest is a member of a scale group and was automatically created as part of a scale group action. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityScanRequests" name=securityScanRequests>securityScanRequests</a>
-            </span>
-            <div class='views-field-body'>A guest's vulnerability scan requests. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request'>SoftLayer_Network_Security_Scanner_Request[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#serverRoom" name=serverRoom>serverRoom</a>
-            </span>
-            <div class='views-field-body'>The server room that a guest is located at. There may be more than one server room for every data center. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#softwareComponents" name=softwareComponents>softwareComponents</a>
-            </span>
-            <div class='views-field-body'>A guest's installed software. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sshKeys" name=sshKeys>sshKeys</a>
-            </span>
-            <div class='views-field-body'>SSH keys to be installed on the server during provisioning or an OS reload. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Security_Ssh_Key'>SoftLayer_Security_Ssh_Key[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#status" name=status>status</a>
-            </span>
-            <div class='views-field-body'>A computing instance's status. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Status'>SoftLayer_Virtual_Guest_Status </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#tagReferences" name=tagReferences>tagReferences</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#transientGuestFlag" name=transientGuestFlag>transientGuestFlag</a>
-            </span>
-            <div class='views-field-body'>Whether or not a computing instance is a Transient Instance. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#transientWebhookURI" name=transientWebhookURI>transientWebhookURI</a>
-            </span>
-            <div class='views-field-body'>The endpoint used to notify customers their transient guest is terminating. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Attribute'>SoftLayer_Virtual_Guest_Attribute </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#type" name=type>type</a>
-            </span>
-            <div class='views-field-body'>The type of this virtual guest. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Type'>SoftLayer_Virtual_Guest_Type </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#upgradeRequest" name=upgradeRequest>upgradeRequest</a>
-            </span>
-            <div class='views-field-body'>A computing instance's associated upgrade request object if any. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Upgrade_Request'>SoftLayer_Product_Upgrade_Request </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#userData" name=userData>userData</a>
-            </span>
-            <div class='views-field-body'>A base64 encoded string containing custom user data for a Cloud Computing Instance order. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Attribute'>SoftLayer_Virtual_Guest_Attribute[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#users" name=users>users</a>
-            </span>
-            <div class='views-field-body'>A list of users that have access to this computing instance. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualRack" name=virtualRack>virtualRack</a>
-            </span>
-            <div class='views-field-body'>The name of the bandwidth allotment that a hardware belongs too. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualRackId" name=virtualRackId>virtualRackId</a>
-            </span>
-            <div class='views-field-body'>The id of the bandwidth allotment that a computing instance belongs too. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#virtualRackName" name=virtualRackName>virtualRackName</a>
-            </span>
-            <div class='views-field-body'>The name of the bandwidth allotment that a computing instance belongs too. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeNetworkMonitorIncidentCount" name=activeNetworkMonitorIncidentCount>activeNetworkMonitorIncidentCount</a>
-            </span>
-            <div class='views-field-body'>A count of a virtual guest's currently active network monitoring incidents. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeTicketCount" name=activeTicketCount>activeTicketCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#activeTransactionCount" name=activeTransactionCount>activeTransactionCount</a>
-            </span>
-            <div class='views-field-body'>A count of any active transaction(s) that are currently running for the server (example: os reload). </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allowedNetworkStorageCount" name=allowedNetworkStorageCount>allowedNetworkStorageCount</a>
-            </span>
-            <div class='views-field-body'>A count of the SoftLayer_Network_Storage objects that this SoftLayer_Virtual_Guest has access to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allowedNetworkStorageReplicaCount" name=allowedNetworkStorageReplicaCount>allowedNetworkStorageReplicaCount</a>
-            </span>
-            <div class='views-field-body'>A count of the SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Virtual_Guest has access to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributeCount" name=attributeCount>attributeCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#availableMonitoringCount" name=availableMonitoringCount>availableMonitoringCount</a>
-            </span>
-            <div class='views-field-body'>A count of an object that stores the maximum level for the monitoring query types and response types. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#backendNetworkComponentCount" name=backendNetworkComponentCount>backendNetworkComponentCount</a>
-            </span>
-            <div class='views-field-body'>A count of a guests's backend network components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#backendRouterCount" name=backendRouterCount>backendRouterCount</a>
-            </span>
-            <div class='views-field-body'>A count of a guest's backend or private router. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingCycleBandwidthUsageCount" name=billingCycleBandwidthUsageCount>billingCycleBandwidthUsageCount</a>
-            </span>
-            <div class='views-field-body'>A count of the raw bandwidth usage data for the current billing cycle. One object will be returned for each network this server is attached to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#blockDeviceCount" name=blockDeviceCount>blockDeviceCount</a>
-            </span>
-            <div class='views-field-body'>A count of a computing instance's block devices. Block devices link [[SoftLayer_Virtual_Disk_Image|disk images]] to computing instances. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#evaultNetworkStorageCount" name=evaultNetworkStorageCount>evaultNetworkStorageCount</a>
-            </span>
-            <div class='views-field-body'>A count of a guest's associated EVault network storage service account. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#frontendNetworkComponentCount" name=frontendNetworkComponentCount>frontendNetworkComponentCount</a>
-            </span>
-            <div class='views-field-body'>A count of a guest's frontend network components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#internalTagReferenceCount" name=internalTagReferenceCount>internalTagReferenceCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monitoringAgentCount" name=monitoringAgentCount>monitoringAgentCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monitoringUserNotificationCount" name=monitoringUserNotificationCount>monitoringUserNotificationCount</a>
-            </span>
-            <div class='views-field-body'>A count of the monitoring notification objects for this guest. Each object links this guest instance to a user account that will be notified if monitoring on this guest object fails </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkComponentCount" name=networkComponentCount>networkComponentCount</a>
-            </span>
-            <div class='views-field-body'>A count of a guests's network components. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkMonitorCount" name=networkMonitorCount>networkMonitorCount</a>
-            </span>
-            <div class='views-field-body'>A count of a guests's network monitors. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkMonitorIncidentCount" name=networkMonitorIncidentCount>networkMonitorIncidentCount</a>
-            </span>
-            <div class='views-field-body'>A count of all of a virtual guest's network monitoring incidents. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkStorageCount" name=networkStorageCount>networkStorageCount</a>
-            </span>
-            <div class='views-field-body'>A count of a guest's associated network storage accounts. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkVlanCount" name=networkVlanCount>networkVlanCount</a>
-            </span>
-            <div class='views-field-body'>A count of the network Vlans that a guest's network components are associated with. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#recentEventCount" name=recentEventCount>recentEventCount</a>
-            </span>
-            <div class='views-field-body'>A count of recent events that impact this computing instance. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#scaleAssetCount" name=scaleAssetCount>scaleAssetCount</a>
-            </span>
-            <div class='views-field-body'>A count of collection of scale assets this guest corresponds to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityScanRequestCount" name=securityScanRequestCount>securityScanRequestCount</a>
-            </span>
-            <div class='views-field-body'>A count of a guest's vulnerability scan requests. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#softwareComponentCount" name=softwareComponentCount>softwareComponentCount</a>
-            </span>
-            <div class='views-field-body'>A count of a guest's installed software. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sshKeyCount" name=sshKeyCount>sshKeyCount</a>
-            </span>
-            <div class='views-field-body'>A count of sSH keys to be installed on the server during provisioning or an OS reload. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#tagReferenceCount" name=tagReferenceCount>tagReferenceCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#userCount" name=userCount>userCount</a>
-            </span>
-            <div class='views-field-body'>A count of a list of users that have access to this computing instance. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#userDataCount" name=userDataCount>userDataCount</a>
-            </span>
-            <div class='views-field-body'>A count of a base64 encoded string containing custom user data for a Cloud Computing Instance order. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+A computing instance's associated [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) id   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+The date a virtual computing instance was created.   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[dedicatedAccountHostOnlyFlag]: #dedicatedaccounthostonlyflag
+#### [dedicatedAccountHostOnlyFlag]
+When true this flag specifies that a compute instance is to run on hosts that only have guests from the same account.   
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[domain]: #domain
+#### [domain]
+A computing instance's domain name   
+<span class="type-label">Type: </span>**string**
+
+-----
+[fullyQualifiedDomainName]: #fullyqualifieddomainname
+#### [fullyQualifiedDomainName]
+A name reflecting the hostname and domain of the computing instance.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[hostname]: #hostname
+#### [hostname]
+A virtual computing instance's hostname   
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+Unique ID for a computing instance.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[lastPowerStateId]: #lastpowerstateid
+#### [lastPowerStateId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[lastVerifiedDate]: #lastverifieddate
+#### [lastVerifiedDate]
+The last timestamp of when the guest was verified as a resident virtual machine on the host's hypervisor platform.   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[maxCpu]: #maxcpu
+#### [maxCpu]
+The maximum amount of CPU resources a computing instance may utilize.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[maxCpuUnits]: #maxcpuunits
+#### [maxCpuUnits]
+The unit of the maximum amount of CPU resources a computing instance may utilize.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[maxMemory]: #maxmemory
+#### [maxMemory]
+The maximum amount of memory a computing instance may utilize.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[metricPollDate]: #metricpolldate
+#### [metricPollDate]
+The date of the most recent metric tracking poll performed.   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+The date a virtual computing instance was last modified.   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[notes]: #notes
+#### [notes]
+A note of up to 1,000 characters about a virtual server.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[placementGroupId]: #placementgroupid
+#### [placementGroupId]
+The placement group ID that the virtual guest belongs to.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[postInstallScriptUri]: #postinstallscripturi
+#### [postInstallScriptUri]
+URI of the script to be downloaded and executed after installation is complete. This is deprecated in favor of supplementalCreateObjectOptions' postInstallScriptUri.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[provisionDate]: #provisiondate
+#### [provisionDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[startCpus]: #startcpus
+#### [startCpus]
+The number of CPUs available to a computing instance upon startup.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[statusId]: #statusid
+#### [statusId]
+A computing instances [SoftLayer_Virtual_Guest_Status]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Status">}}) ID   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[supplementalCreateObjectOptions]: #supplementalcreateobjectoptions
+#### [supplementalCreateObjectOptions]
+Extra options needed for [SoftLayer_Virtual_Guest::createObject]({{<ref "reference/services/SoftLayer_Virtual_Guest/createObject">}}).   
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_SupplementalCreateObjectOptions'>SoftLayer_Virtual_Guest_SupplementalCreateObjectOptions </a>**
+
+-----
+[typeId]: #typeid
+#### [typeId]
+Gives the type of guest categorized as PUBLIC, DEDICATED or PRIVATE.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[uuid]: #uuid
+#### [uuid]
+Unique ID for a computing instance's record on a virtualization platform.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The account that a virtual guest belongs to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[accountOwnedPoolFlag]: #accountownedpoolflag
+#### [accountOwnedPoolFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[activeNetworkMonitorIncident]: #activenetworkmonitorincident
+#### [activeNetworkMonitorIncident]
+A virtual guest's currently active network monitoring incidents.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Incident'>SoftLayer_Network_Monitor_Version1_Incident[] </a>**
+
+-----
+[activeTickets]: #activetickets
+#### [activeTickets]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+
+-----
+[activeTransaction]: #activetransaction
+#### [activeTransaction]
+A transaction that is still be performed on a cloud server.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**
+
+-----
+[activeTransactions]: #activetransactions
+#### [activeTransactions]
+Any active transaction(s) that are currently running for the server (example: os reload).  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a>**
+
+-----
+[allowedHost]: #allowedhost
+#### [allowedHost]
+The SoftLayer_Network_Storage_Allowed_Host information to connect this Virtual Guest to Network Storage volumes that require access control lists.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Allowed_Host'>SoftLayer_Network_Storage_Allowed_Host </a>**
+
+-----
+[allowedNetworkStorage]: #allowednetworkstorage
+#### [allowedNetworkStorage]
+The SoftLayer_Network_Storage objects that this SoftLayer_Virtual_Guest has access to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+
+-----
+[allowedNetworkStorageReplicas]: #allowednetworkstoragereplicas
+#### [allowedNetworkStorageReplicas]
+The SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Virtual_Guest has access to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+
+-----
+[antivirusSpywareSoftwareComponent]: #antivirusspywaresoftwarecomponent
+#### [antivirusSpywareSoftwareComponent]
+A antivirus / spyware software component object.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>**
+
+-----
+[applicationDeliveryController]: #applicationdeliverycontroller
+#### [applicationDeliveryController]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller </a>**
+
+-----
+[attributes]: #attributes
+#### [attributes]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Attribute'>SoftLayer_Virtual_Guest_Attribute[] </a>**
+
+-----
+[availableMonitoring]: #availablemonitoring
+#### [availableMonitoring]
+An object that stores the maximum level for the monitoring query types and response types.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum'>SoftLayer_Network_Monitor_Version1_Query_Host_Stratum[] </a>**
+
+-----
+[averageDailyPrivateBandwidthUsage]: #averagedailyprivatebandwidthusage
+#### [averageDailyPrivateBandwidthUsage]
+The average daily private bandwidth usage for the current billing cycle.  
+<span class="type-label">Type: </span>**float**
+
+-----
+[averageDailyPublicBandwidthUsage]: #averagedailypublicbandwidthusage
+#### [averageDailyPublicBandwidthUsage]
+The average daily public bandwidth usage for the current billing cycle.  
+<span class="type-label">Type: </span>**float**
+
+-----
+[backendNetworkComponents]: #backendnetworkcomponents
+#### [backendNetworkComponents]
+A guests's backend network components.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component[] </a>**
+
+-----
+[backendRouters]: #backendrouters
+#### [backendRouters]
+A guest's backend or private router.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+-----
+[bandwidthAllocation]: #bandwidthallocation
+#### [bandwidthAllocation]
+A computing instance's allotted bandwidth (measured in GB).  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[bandwidthAllotmentDetail]: #bandwidthallotmentdetail
+#### [bandwidthAllotmentDetail]
+A computing instance's allotted detail record. Allotment details link bandwidth allocation with allotments.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Detail'>SoftLayer_Network_Bandwidth_Version1_Allotment_Detail </a>**
+
+-----
+[billingCycleBandwidthUsage]: #billingcyclebandwidthusage
+#### [billingCycleBandwidthUsage]
+The raw bandwidth usage data for the current billing cycle. One object will be returned for each network this server is attached to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage[] </a>**
+
+-----
+[billingCyclePrivateBandwidthUsage]: #billingcycleprivatebandwidthusage
+#### [billingCyclePrivateBandwidthUsage]
+The raw private bandwidth usage data for the current billing cycle.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage </a>**
+
+-----
+[billingCyclePublicBandwidthUsage]: #billingcyclepublicbandwidthusage
+#### [billingCyclePublicBandwidthUsage]
+The raw public bandwidth usage data for the current billing cycle.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage </a>**
+
+-----
+[billingItem]: #billingitem
+#### [billingItem]
+The billing item for a CloudLayer Compute Instance.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Virtual_Guest'>SoftLayer_Billing_Item_Virtual_Guest </a>**
+
+-----
+[blockCancelBecauseDisconnectedFlag]: #blockcancelbecausedisconnectedflag
+#### [blockCancelBecauseDisconnectedFlag]
+Determines whether the instance is ineligible for cancellation because it is disconnected.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[blockDeviceTemplateGroup]: #blockdevicetemplategroup
+#### [blockDeviceTemplateGroup]
+The global identifier for the image template that was used to provision or reload a guest.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group </a>**
+
+-----
+[blockDevices]: #blockdevices
+#### [blockDevices]
+A computing instance's block devices. Block devices link [SoftLayer_Virtual_Disk_Image]({{<ref "reference/datatypes/SoftLayer_Virtual_Disk_Image">}}) to computing instances.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device'>SoftLayer_Virtual_Guest_Block_Device[] </a>**
+
+-----
+[consoleIpAddressFlag]: #consoleipaddressflag
+#### [consoleIpAddressFlag]
+A flag indicating a computing instance's console IP address is assigned.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[consoleIpAddressRecord]: #consoleipaddressrecord
+#### [consoleIpAddressRecord]
+A record containing information about a computing instance's console IP and port number.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component_IpAddress'>SoftLayer_Virtual_Guest_Network_Component_IpAddress </a>**
+
+-----
+[continuousDataProtectionSoftwareComponent]: #continuousdataprotectionsoftwarecomponent
+#### [continuousDataProtectionSoftwareComponent]
+A continuous data protection software component object.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>**
+
+-----
+[controlPanel]: #controlpanel
+#### [controlPanel]
+A guest's control panel.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>**
+
+-----
+[currentBandwidthSummary]: #currentbandwidthsummary
+#### [currentBandwidthSummary]
+An object that provides commonly used bandwidth summary components for the current billing cycle.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Bandwidth_Summary'>SoftLayer_Metric_Tracking_Object_Bandwidth_Summary </a>**
+
+-----
+[datacenter]: #datacenter
+#### [datacenter]
+The datacenter that a virtual guest resides in.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+-----
+[dedicatedHost]: #dedicatedhost
+#### [dedicatedHost]
+The dedicated host associated with this guest.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_DedicatedHost'>SoftLayer_Virtual_DedicatedHost </a>**
+
+-----
+[evaultNetworkStorage]: #evaultnetworkstorage
+#### [evaultNetworkStorage]
+A guest's associated EVault network storage service account.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+
+-----
+[firewallServiceComponent]: #firewallservicecomponent
+#### [firewallServiceComponent]
+A computing instance's hardware firewall services.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall </a>**
+
+-----
+[frontendNetworkComponents]: #frontendnetworkcomponents
+#### [frontendNetworkComponents]
+A guest's frontend network components.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component[] </a>**
+
+-----
+[frontendRouters]: #frontendrouters
+#### [frontendRouters]
+A guest's frontend or public router.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+
+-----
+[globalIdentifier]: #globalidentifier
+#### [globalIdentifier]
+A guest's universally unique identifier.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[gpuCount]: #gpucount
+#### [gpuCount]
+The number of GPUs attached to the guest.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[gpuType]: #gputype
+#### [gpuType]
+The name of the GPU type attached to the guest.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[guestBootParameter]: #guestbootparameter
+#### [guestBootParameter]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Boot_Parameter'>SoftLayer_Virtual_Guest_Boot_Parameter </a>**
+
+-----
+[host]: #host
+#### [host]
+The virtual host on which a virtual guest resides (available only on private clouds).  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Host'>SoftLayer_Virtual_Host </a>**
+
+-----
+[hostIpsSoftwareComponent]: #hostipssoftwarecomponent
+#### [hostIpsSoftwareComponent]
+A host IPS software component object.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>**
+
+-----
+[hourlyBillingFlag]: #hourlybillingflag
+#### [hourlyBillingFlag]
+A guest's hourly billing status.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[inboundPrivateBandwidthUsage]: #inboundprivatebandwidthusage
+#### [inboundPrivateBandwidthUsage]
+The total private inbound bandwidth for this computing instance for the current billing cycle.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[inboundPublicBandwidthUsage]: #inboundpublicbandwidthusage
+#### [inboundPublicBandwidthUsage]
+The total public inbound bandwidth for this computing instance for the current billing cycle.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[internalTagReferences]: #internaltagreferences
+#### [internalTagReferences]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**
+
+-----
+[lastKnownPowerState]: #lastknownpowerstate
+#### [lastKnownPowerState]
+The last known power state of a virtual guest in the event the guest is turned off outside of IMS or has gone offline.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Power_State'>SoftLayer_Virtual_Guest_Power_State </a>**
+
+-----
+[lastOperatingSystemReload]: #lastoperatingsystemreload
+#### [lastOperatingSystemReload]
+The last transaction that a cloud server's operating system was loaded.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**
+
+-----
+[lastTransaction]: #lasttransaction
+#### [lastTransaction]
+The last transaction a cloud server had performed.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**
+
+-----
+[latestNetworkMonitorIncident]: #latestnetworkmonitorincident
+#### [latestNetworkMonitorIncident]
+A virtual guest's latest network monitoring incident.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Incident'>SoftLayer_Network_Monitor_Version1_Incident </a>**
+
+-----
+[localDiskFlag]: #localdiskflag
+#### [localDiskFlag]
+A flag indicating that the virtual guest has at least one disk which is local to the host it runs on. This does not include a SWAP device.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[location]: #location
+#### [location]
+Where guest is located within SoftLayer's location hierarchy.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+-----
+[managedResourceFlag]: #managedresourceflag
+#### [managedResourceFlag]
+A flag indicating that the virtual guest is a managed resource.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[metricTrackingObject]: #metrictrackingobject
+#### [metricTrackingObject]
+A guest's metric tracking object.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>**
+
+-----
+[metricTrackingObjectId]: #metrictrackingobjectid
+#### [metricTrackingObjectId]
+The metric tracking object id for this guest.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[monitoringAgents]: #monitoringagents
+#### [monitoringAgents]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Monitoring_Agent'>SoftLayer_Monitoring_Agent[] </a>**
+
+-----
+[monitoringRobot]: #monitoringrobot
+#### [monitoringRobot]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Monitoring_Robot'>SoftLayer_Monitoring_Robot </a>**
+
+-----
+[monitoringServiceComponent]: #monitoringservicecomponent
+#### [monitoringServiceComponent]
+A virtual guest's network monitoring services.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum'>SoftLayer_Network_Monitor_Version1_Query_Host_Stratum </a>**
+
+-----
+[monitoringServiceEligibilityFlag]: #monitoringserviceeligibilityflag
+#### [monitoringServiceEligibilityFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[monitoringServiceFlag]: #monitoringserviceflag
+#### [monitoringServiceFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[monitoringUserNotification]: #monitoringusernotification
+#### [monitoringUserNotification]
+The monitoring notification objects for this guest. Each object links this guest instance to a user account that will be notified if monitoring on this guest object fails  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Virtual_Guest'>SoftLayer_User_Customer_Notification_Virtual_Guest[] </a>**
+
+-----
+[networkComponents]: #networkcomponents
+#### [networkComponents]
+A guests's network components.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component[] </a>**
+
+-----
+[networkMonitorIncidents]: #networkmonitorincidents
+#### [networkMonitorIncidents]
+All of a virtual guest's network monitoring incidents.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Incident'>SoftLayer_Network_Monitor_Version1_Incident[] </a>**
+
+-----
+[networkMonitors]: #networkmonitors
+#### [networkMonitors]
+A guests's network monitors.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host'>SoftLayer_Network_Monitor_Version1_Query_Host[] </a>**
+
+-----
+[networkStorage]: #networkstorage
+#### [networkStorage]
+A guest's associated network storage accounts.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+
+-----
+[networkVlans]: #networkvlans
+#### [networkVlans]
+The network Vlans that a guest's network components are associated with.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a>**
+
+-----
+[openCancellationTicket]: #opencancellationticket
+#### [openCancellationTicket]
+An open ticket requesting cancellation of this server, if one exists.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+
+-----
+[operatingSystem]: #operatingsystem
+#### [operatingSystem]
+A guest's operating system.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_OperatingSystem'>SoftLayer_Software_Component_OperatingSystem </a>**
+
+-----
+[operatingSystemReferenceCode]: #operatingsystemreferencecode
+#### [operatingSystemReferenceCode]
+A guest's operating system software description.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[orderedPackageId]: #orderedpackageid
+#### [orderedPackageId]
+The original package id provided with the order for a Cloud Computing Instance.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[outboundPrivateBandwidthUsage]: #outboundprivatebandwidthusage
+#### [outboundPrivateBandwidthUsage]
+The total private outbound bandwidth for this computing instance for the current billing cycle.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[outboundPublicBandwidthUsage]: #outboundpublicbandwidthusage
+#### [outboundPublicBandwidthUsage]
+The total public outbound bandwidth for this computing instance for the current billing cycle.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[overBandwidthAllocationFlag]: #overbandwidthallocationflag
+#### [overBandwidthAllocationFlag]
+Whether the bandwidth usage for this computing instance for the current billing cycle exceeds the allocation.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[pendingMigrationFlag]: #pendingmigrationflag
+#### [pendingMigrationFlag]
+When true this virtual guest must be migrated using SoftLayer_Virtual_Guest::migrate.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[placementGroup]: #placementgroup
+#### [placementGroup]
+The placement group that a virtual guest belongs to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_PlacementGroup'>SoftLayer_Virtual_PlacementGroup </a>**
+
+-----
+[powerState]: #powerstate
+#### [powerState]
+The current power state of a virtual guest.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Power_State'>SoftLayer_Virtual_Guest_Power_State </a>**
+
+-----
+[primaryBackendIpAddress]: #primarybackendipaddress
+#### [primaryBackendIpAddress]
+A guest's primary private IP address.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[primaryBackendNetworkComponent]: #primarybackendnetworkcomponent
+#### [primaryBackendNetworkComponent]
+A guest's primary backend network component.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a>**
+
+-----
+[primaryIpAddress]: #primaryipaddress
+#### [primaryIpAddress]
+The guest's primary public IP address.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[primaryNetworkComponent]: #primarynetworkcomponent
+#### [primaryNetworkComponent]
+A guest's primary public network component.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a>**
+
+-----
+[privateNetworkOnlyFlag]: #privatenetworkonlyflag
+#### [privateNetworkOnlyFlag]
+Whether the computing instance only has access to the private network.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[projectedOverBandwidthAllocationFlag]: #projectedoverbandwidthallocationflag
+#### [projectedOverBandwidthAllocationFlag]
+Whether the bandwidth usage for this computing instance for the current billing cycle is projected to exceed the allocation.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[projectedPublicBandwidthUsage]: #projectedpublicbandwidthusage
+#### [projectedPublicBandwidthUsage]
+The projected public outbound bandwidth for this computing instance for the current billing cycle.  
+<span class="type-label">Type: </span>**float**
+
+-----
+[recentEvents]: #recentevents
+#### [recentEvents]
+Recent events that impact this computing instance.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event[] </a>**
+
+-----
+[regionalGroup]: #regionalgroup
+#### [regionalGroup]
+The regional group this guest is in.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group_Regional'>SoftLayer_Location_Group_Regional </a>**
+
+-----
+[regionalInternetRegistry]: #regionalinternetregistry
+#### [regionalInternetRegistry]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Regional_Internet_Registry'>SoftLayer_Network_Regional_Internet_Registry </a>**
+
+-----
+[reservedCapacityGroup]: #reservedcapacitygroup
+#### [reservedCapacityGroup]
+The reserved capacity group the guest is associated with.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup'>SoftLayer_Virtual_ReservedCapacityGroup </a>**
+
+-----
+[reservedCapacityGroupFlag]: #reservedcapacitygroupflag
+#### [reservedCapacityGroupFlag]
+Flag to indicate whether or not a guest is part of a reserved capacity group.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[reservedCapacityGroupInstance]: #reservedcapacitygroupinstance
+#### [reservedCapacityGroupInstance]
+The reserved capacity group instance the guest is associated with.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance </a>**
+
+-----
+[scaleAssets]: #scaleassets
+#### [scaleAssets]
+Collection of scale assets this guest corresponds to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Asset'>SoftLayer_Scale_Asset[] </a>**
+
+-----
+[scaleMember]: #scalemember
+#### [scaleMember]
+The scale member for this guest, if applicable.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Member_Virtual_Guest'>SoftLayer_Scale_Member_Virtual_Guest </a>**
+
+-----
+[scaledFlag]: #scaledflag
+#### [scaledFlag]
+Whether or not this guest is a member of a scale group and was automatically created as part of a scale group action.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[securityScanRequests]: #securityscanrequests
+#### [securityScanRequests]
+A guest's vulnerability scan requests.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request'>SoftLayer_Network_Security_Scanner_Request[] </a>**
+
+-----
+[serverRoom]: #serverroom
+#### [serverRoom]
+The server room that a guest is located at. There may be more than one server room for every data center.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+-----
+[softwareComponents]: #softwarecomponents
+#### [softwareComponents]
+A guest's installed software.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component[] </a>**
+
+-----
+[sshKeys]: #sshkeys
+#### [sshKeys]
+SSH keys to be installed on the server during provisioning or an OS reload.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Ssh_Key'>SoftLayer_Security_Ssh_Key[] </a>**
+
+-----
+[status]: #status
+#### [status]
+A computing instance's status.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Status'>SoftLayer_Virtual_Guest_Status </a>**
+
+-----
+[tagReferences]: #tagreferences
+#### [tagReferences]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**
+
+-----
+[transientGuestFlag]: #transientguestflag
+#### [transientGuestFlag]
+Whether or not a computing instance is a Transient Instance.  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[transientWebhookURI]: #transientwebhookuri
+#### [transientWebhookURI]
+The endpoint used to notify customers their transient guest is terminating.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Attribute'>SoftLayer_Virtual_Guest_Attribute </a>**
+
+-----
+[type]: #type
+#### [type]
+The type of this virtual guest.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Type'>SoftLayer_Virtual_Guest_Type </a>**
+
+-----
+[upgradeRequest]: #upgraderequest
+#### [upgradeRequest]
+A computing instance's associated upgrade request object if any.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Upgrade_Request'>SoftLayer_Product_Upgrade_Request </a>**
+
+-----
+[userData]: #userdata
+#### [userData]
+A base64 encoded string containing custom user data for a Cloud Computing Instance order.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Attribute'>SoftLayer_Virtual_Guest_Attribute[] </a>**
+
+-----
+[users]: #users
+#### [users]
+A list of users that have access to this computing instance.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a>**
+
+-----
+[virtualRack]: #virtualrack
+#### [virtualRack]
+The name of the bandwidth allotment that a hardware belongs too.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment </a>**
+
+-----
+[virtualRackId]: #virtualrackid
+#### [virtualRackId]
+The id of the bandwidth allotment that a computing instance belongs too.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[virtualRackName]: #virtualrackname
+#### [virtualRackName]
+The name of the bandwidth allotment that a computing instance belongs too.  
+<span class="type-label">Type: </span>**string**
+
+
+## Count
+
+-----
+[activeNetworkMonitorIncidentCount]: #activenetworkmonitorincidentcount
+#### [activeNetworkMonitorIncidentCount]
+A count of a virtual guest's currently active network monitoring incidents.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[activeTicketCount]: #activeticketcount
+#### [activeTicketCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[activeTransactionCount]: #activetransactioncount
+#### [activeTransactionCount]
+A count of any active transaction(s) that are currently running for the server (example: os reload).   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[allowedNetworkStorageCount]: #allowednetworkstoragecount
+#### [allowedNetworkStorageCount]
+A count of the SoftLayer_Network_Storage objects that this SoftLayer_Virtual_Guest has access to.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[allowedNetworkStorageReplicaCount]: #allowednetworkstoragereplicacount
+#### [allowedNetworkStorageReplicaCount]
+A count of the SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Virtual_Guest has access to.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[attributeCount]: #attributecount
+#### [attributeCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[availableMonitoringCount]: #availablemonitoringcount
+#### [availableMonitoringCount]
+A count of an object that stores the maximum level for the monitoring query types and response types.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[backendNetworkComponentCount]: #backendnetworkcomponentcount
+#### [backendNetworkComponentCount]
+A count of a guests's backend network components.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[backendRouterCount]: #backendroutercount
+#### [backendRouterCount]
+A count of a guest's backend or private router.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[billingCycleBandwidthUsageCount]: #billingcyclebandwidthusagecount
+#### [billingCycleBandwidthUsageCount]
+A count of the raw bandwidth usage data for the current billing cycle. One object will be returned for each network this server is attached to.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[blockDeviceCount]: #blockdevicecount
+#### [blockDeviceCount]
+A count of a computing instance's block devices. Block devices link [SoftLayer_Virtual_Disk_Image]({{<ref "reference/datatypes/SoftLayer_Virtual_Disk_Image">}}) to computing instances.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[evaultNetworkStorageCount]: #evaultnetworkstoragecount
+#### [evaultNetworkStorageCount]
+A count of a guest's associated EVault network storage service account.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[frontendNetworkComponentCount]: #frontendnetworkcomponentcount
+#### [frontendNetworkComponentCount]
+A count of a guest's frontend network components.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[internalTagReferenceCount]: #internaltagreferencecount
+#### [internalTagReferenceCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[monitoringAgentCount]: #monitoringagentcount
+#### [monitoringAgentCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[monitoringUserNotificationCount]: #monitoringusernotificationcount
+#### [monitoringUserNotificationCount]
+A count of the monitoring notification objects for this guest. Each object links this guest instance to a user account that will be notified if monitoring on this guest object fails   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkComponentCount]: #networkcomponentcount
+#### [networkComponentCount]
+A count of a guests's network components.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkMonitorCount]: #networkmonitorcount
+#### [networkMonitorCount]
+A count of a guests's network monitors.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkMonitorIncidentCount]: #networkmonitorincidentcount
+#### [networkMonitorIncidentCount]
+A count of all of a virtual guest's network monitoring incidents.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkStorageCount]: #networkstoragecount
+#### [networkStorageCount]
+A count of a guest's associated network storage accounts.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[networkVlanCount]: #networkvlancount
+#### [networkVlanCount]
+A count of the network Vlans that a guest's network components are associated with.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[recentEventCount]: #recenteventcount
+#### [recentEventCount]
+A count of recent events that impact this computing instance.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[scaleAssetCount]: #scaleassetcount
+#### [scaleAssetCount]
+A count of collection of scale assets this guest corresponds to.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[securityScanRequestCount]: #securityscanrequestcount
+#### [securityScanRequestCount]
+A count of a guest's vulnerability scan requests.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[softwareComponentCount]: #softwarecomponentcount
+#### [softwareComponentCount]
+A count of a guest's installed software.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[sshKeyCount]: #sshkeycount
+#### [sshKeyCount]
+A count of sSH keys to be installed on the server during provisioning or an OS reload.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[tagReferenceCount]: #tagreferencecount
+#### [tagReferenceCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[userCount]: #usercount
+#### [userCount]
+A count of a list of users that have access to this computing instance.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[userDataCount]: #userdatacount
+#### [userDataCount]
+A count of a base64 encoded string containing custom user data for a Cloud Computing Instance order.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

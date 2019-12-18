@@ -1,6 +1,6 @@
 ---
 title: "getCapabilities"
-description: "Provides the list of capabilities a Pod fulfills. See [[SoftLayer_Network_Pod/listCapabilities]] for more information on... "
+description: "Provides the list of capabilities a Pod fulfills. See [SoftLayer_Network_Pod::listCapabilities]({{<ref 'reference/servic... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Retrieve capabilities for the Pod.
 
 
 ## Overview 
-Provides the list of capabilities a Pod fulfills. See [[SoftLayer_Network_Pod/listCapabilities]] for more information on capabilities. 
+Provides the list of capabilities a Pod fulfills. See [SoftLayer_Network_Pod::listCapabilities]({{<ref "reference/services/SoftLayer_Network_Pod/listCapabilities">}}) for more information on capabilities. 
 
 -----
 

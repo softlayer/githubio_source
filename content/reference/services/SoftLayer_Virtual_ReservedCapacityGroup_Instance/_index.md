@@ -23,37 +23,33 @@ SoftLayer_Virtual_ReservedCapacityGroup_Instance reserves capacity for a single 
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getAvailableFlag'> getAvailableFlag</a> </span>
-            <div class='views-field-body'>Retrieve flag to indecate whether or not the reserved instance is available or not.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getBillingItem'> getBillingItem</a> </span>
-            <div class='views-field-body'>Retrieve the billing item for the reserved capacity group instance.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getGuest'> getGuest</a> </span>
-            <div class='views-field-body'>Retrieve the virtual guest associated with this reserved capacity group instance.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Virtual_ReservedCapacityGroup_Instance record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getReservedCapacityGroup'> getReservedCapacityGroup</a> </span>
-            <div class='views-field-body'>Retrieve the reserved instances that are members of this reserved capacity group.</div>
-        </div>
-        </div>
+</div>
+
+#### [getAvailableFlag](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getAvailableFlag)
+Retrieve flag to indecate whether or not the reserved instance is available or not.
+
+#### [getBillingItem](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getBillingItem)
+Retrieve the billing item for the reserved capacity group instance.
+
+#### [getGuest](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getGuest)
+Retrieve the virtual guest associated with this reserved capacity group instance.
+
+#### [getObject](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getObject)
+Retrieve a SoftLayer_Virtual_ReservedCapacityGroup_Instance record.
+
+#### [getReservedCapacityGroup](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getReservedCapacityGroup)
+Retrieve the reserved instances that are members of this reserved capacity group.
+
 </div>
 

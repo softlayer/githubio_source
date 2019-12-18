@@ -36,49 +36,36 @@ The SoftLayer_Container_Product_Promotion data type contains information about a
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#code" name=code>code</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#expirationDate" name=expirationDate>expirationDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locations" name=locations>locations</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#requirementGroups" name=requirementGroups>requirementGroups</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Product_Promotion_RequirementGroup'>SoftLayer_Container_Product_Promotion_RequirementGroup[] </a></p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[code]: #code
+#### [code]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[expirationDate]: #expirationdate
+#### [expirationDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[locations]: #locations
+#### [locations]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>**
+
+-----
+[requirementGroups]: #requirementgroups
+#### [requirementGroups]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Promotion_RequirementGroup'>SoftLayer_Container_Product_Promotion_RequirementGroup[] </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

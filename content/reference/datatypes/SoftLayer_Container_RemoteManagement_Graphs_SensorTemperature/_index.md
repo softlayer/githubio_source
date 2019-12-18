@@ -36,29 +36,24 @@ The SoftLayer_Container_RemoteManagement_Graphs_SensorTemperature contains graph
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#graph" name=graph>graph</a>
-            </span>
-            <div class='views-field-body'>The graph to display the server's cpu(s) and system temperatures. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>binary data</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#title" name=title>title</a>
-            </span>
-            <div class='views-field-body'>A title that may be used to display for the graph. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[graph]: #graph
+#### [graph]
+The graph to display the server's cpu(s) and system temperatures.  
+<span class="type-label">Type: </span>**binary data**
+
+-----
+[title]: #title
+#### [title]
+A title that may be used to display for the graph.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

@@ -23,57 +23,51 @@ Regional Registry Detail objects are used to specify the information you wish to
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Regional_Registry_Detail/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create a new detail object</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Regional_Registry_Detail/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Delete an existing detail object</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Regional_Registry_Detail/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit an existing detail object</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Regional_Registry_Detail/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve the account that this detail object belongs to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Regional_Registry_Detail/getDetailType'> getDetailType</a> </span>
-            <div class='views-field-body'>Retrieve the associated type of this detail object.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Regional_Registry_Detail/getDetails'> getDetails</a> </span>
-            <div class='views-field-body'>Retrieve references to the [[SoftLayer_Network_Subnet_Registration|registration objects]] that consume this detail object.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Regional_Registry_Detail/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Account_Regional_Registry_Detail record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Regional_Registry_Detail/getProperties'> getProperties</a> </span>
-            <div class='views-field-body'>Retrieve the individual properties that define this detail object's values.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Regional_Registry_Detail/getRegionalInternetRegistryHandle'> getRegionalInternetRegistryHandle</a> </span>
-            <div class='views-field-body'>Retrieve the associated RWhois handle of this detail object. Used only when detailed reassignments are necessary.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Regional_Registry_Detail/updateReferencedRegistrations'> updateReferencedRegistrations</a> </span>
-            <div class='views-field-body'>Create a transaction to update the registrations that reference this detail object.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Account_Regional_Registry_Detail/createObject)
+Create a new detail object
+
+#### [deleteObject](/reference/services/SoftLayer_Account_Regional_Registry_Detail/deleteObject)
+Delete an existing detail object
+
+#### [editObject](/reference/services/SoftLayer_Account_Regional_Registry_Detail/editObject)
+Edit an existing detail object
+
+#### [getAccount](/reference/services/SoftLayer_Account_Regional_Registry_Detail/getAccount)
+Retrieve the account that this detail object belongs to.
+
+#### [getDetailType](/reference/services/SoftLayer_Account_Regional_Registry_Detail/getDetailType)
+Retrieve the associated type of this detail object.
+
+#### [getDetails](/reference/services/SoftLayer_Account_Regional_Registry_Detail/getDetails)
+Retrieve references to the [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}) that consume this detail object.
+
+#### [getObject](/reference/services/SoftLayer_Account_Regional_Registry_Detail/getObject)
+Retrieve a SoftLayer_Account_Regional_Registry_Detail record.
+
+#### [getProperties](/reference/services/SoftLayer_Account_Regional_Registry_Detail/getProperties)
+Retrieve the individual properties that define this detail object's values.
+
+#### [getRegionalInternetRegistryHandle](/reference/services/SoftLayer_Account_Regional_Registry_Detail/getRegionalInternetRegistryHandle)
+Retrieve the associated RWhois handle of this detail object. Used only when detailed reassignments are necessary.
+
+#### [updateReferencedRegistrations](/reference/services/SoftLayer_Account_Regional_Registry_Detail/updateReferencedRegistrations)
+Create a transaction to update the registrations that reference this detail object.
+
+#### [validatePersonForAllRegistrars](/reference/services/SoftLayer_Account_Regional_Registry_Detail/validatePersonForAllRegistrars)
+Validate an existing person detail object.
+
 </div>
 

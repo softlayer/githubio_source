@@ -1,6 +1,6 @@
 ---
 title: "getAccount"
-description: "Retrieve the [[SoftLayer_Account|account]] to which an order belongs."
+description: "Retrieve the [SoftLayer_Account]({{<ref 'reference/datatypes/SoftLayer_Account'>}}) to which an order belongs."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getAccount
 
-Retrieve the [[SoftLayer_Account|account]] to which an order belongs.
+Retrieve the [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) to which an order belongs.
 
 
 ## Overview 
-Retrieve the [[SoftLayer_Account|account]] to which an order belongs.
+Retrieve the [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) to which an order belongs.
 
 -----
 

@@ -36,163 +36,110 @@ This data type presents the structure for a virtual reserved capacity group.
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>The unique ID of the account that created the reserved capacity group.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#backendRouterId" name=backendRouterId>backendRouterId</a>
-            </span>
-            <div class='views-field-body'>The reserved capacity group's backend router's associated unique ID.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date that the reserved capacity group was created.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The reserved capacity group's associated unique ID.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>The date that the reserved capacity group was last modified.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>The reserved capacity group's name.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The account that the reserved capacity group is implemented on. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#availableInstances" name=availableInstances>availableInstances</a>
-            </span>
-            <div class='views-field-body'>The instances available for guest provisions on this reserved capacity group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#backendRouter" name=backendRouter>backendRouter</a>
-            </span>
-            <div class='views-field-body'>The router the reserved capacity group is implemented on. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Router_Backend'>SoftLayer_Hardware_Router_Backend </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#instances" name=instances>instances</a>
-            </span>
-            <div class='views-field-body'>The guest instances that are members of this reserved capacity group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#instancesCount" name=instancesCount>instancesCount</a>
-            </span>
-            <div class='views-field-body'>The number of instances that are members of this reserved capacity group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsigned integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#occupiedInstances" name=occupiedInstances>occupiedInstances</a>
-            </span>
-            <div class='views-field-body'>The instances already occupied by a guest on this reserved capacity group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#availableInstanceCount" name=availableInstanceCount>availableInstanceCount</a>
-            </span>
-            <div class='views-field-body'>A count of the instances available for guest provisions on this reserved capacity group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#instanceCount" name=instanceCount>instanceCount</a>
-            </span>
-            <div class='views-field-body'>A count of the guest instances that are members of this reserved capacity group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#occupiedInstanceCount" name=occupiedInstanceCount>occupiedInstanceCount</a>
-            </span>
-            <div class='views-field-body'>A count of the instances already occupied by a guest on this reserved capacity group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+The unique ID of the account that created the reserved capacity group.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[backendRouterId]: #backendrouterid
+#### [backendRouterId]
+The reserved capacity group's backend router's associated unique ID.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+The date that the reserved capacity group was created.   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+The reserved capacity group's associated unique ID.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+The date that the reserved capacity group was last modified.   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[name]: #name
+#### [name]
+The reserved capacity group's name.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The account that the reserved capacity group is implemented on.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[availableInstances]: #availableinstances
+#### [availableInstances]
+The instances available for guest provisions on this reserved capacity group.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance[] </a>**
+
+-----
+[backendRouter]: #backendrouter
+#### [backendRouter]
+The router the reserved capacity group is implemented on.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Router_Backend'>SoftLayer_Hardware_Router_Backend </a>**
+
+-----
+[instances]: #instances
+#### [instances]
+The guest instances that are members of this reserved capacity group.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance[] </a>**
+
+-----
+[instancesCount]: #instancescount
+#### [instancesCount]
+The number of instances that are members of this reserved capacity group.  
+<span class="type-label">Type: </span>**unsigned integer**
+
+-----
+[occupiedInstances]: #occupiedinstances
+#### [occupiedInstances]
+The instances already occupied by a guest on this reserved capacity group.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance[] </a>**
+
+
+## Count
+
+-----
+[availableInstanceCount]: #availableinstancecount
+#### [availableInstanceCount]
+A count of the instances available for guest provisions on this reserved capacity group.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[instanceCount]: #instancecount
+#### [instanceCount]
+A count of the guest instances that are members of this reserved capacity group.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[occupiedInstanceCount]: #occupiedinstancecount
+#### [occupiedInstanceCount]
+A count of the instances already occupied by a guest on this reserved capacity group.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

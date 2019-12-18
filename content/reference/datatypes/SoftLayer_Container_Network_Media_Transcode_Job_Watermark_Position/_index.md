@@ -36,29 +36,24 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#x" name=x>x</a>
-            </span>
-            <div class='views-field-body'>X Coordinate of Watermark </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#y" name=y>y</a>
-            </span>
-            <div class='views-field-body'>vertical Coordinate of Watermark </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[x]: #x
+#### [x]
+X Coordinate of Watermark  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[y]: #y
+#### [y]
+vertical Coordinate of Watermark  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

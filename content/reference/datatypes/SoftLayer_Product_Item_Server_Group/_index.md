@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Product_Item_Server_Group"
-description: "The SoftLayer_Product_Item_Server_Group data type details the type of compute service a [[SoftLayer_Product_Item (type)|... "
+description: "The SoftLayer_Product_Item_Server_Group data type details the type of compute service a [SoftLayer_Product_Item]({{<ref... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-The SoftLayer_Product_Item_Server_Group data type details the type of compute service a [[SoftLayer_Product_Item (type)|SoftLayer_Product_Item]] or [[SoftLayer_Product_Package_Preset (type)|SoftLayer_Product_Package_Preset]] belongs to. 
+The SoftLayer_Product_Item_Server_Group data type details the type of compute service a [SoftLayer_Product_Item]({{<ref "reference/datatypes/SoftLayer_Product_Item">}}) belongs to. 
 
 
 
@@ -36,29 +36,24 @@ The SoftLayer_Product_Item_Server_Group data type details the type of compute se
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#keyName" name=keyName>keyName</a>
-            </span>
-            <div class='views-field-body'>The server group's string identifier </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>The server group's friendly name </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[keyName]: #keyname
+#### [keyName]
+The server group's string identifier  
+<span class="type-label">Type: </span>**string**
+
+-----
+[name]: #name
+#### [name]
+The server group's friendly name  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

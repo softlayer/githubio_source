@@ -41,39 +41,30 @@ Internal IBM opportunity codes required when applying for a proof of concept acc
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#monthlyRecurringRevenue" name=monthlyRecurringRevenue>monthlyRecurringRevenue</a>
-            </span>
-            <div class='views-field-body'>Expected monthly revenue </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#opportunityNumber" name=opportunityNumber>opportunityNumber</a>
-            </span>
-            <div class='views-field-body'>Internal system identifier </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#totalContractValue" name=totalContractValue>totalContractValue</a>
-            </span>
-            <div class='views-field-body'>Expected overall contract value </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>float</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[monthlyRecurringRevenue]: #monthlyrecurringrevenue
+#### [monthlyRecurringRevenue]
+Expected monthly revenue  
+<span class="type-label">Type: </span>**float**
+
+-----
+[opportunityNumber]: #opportunitynumber
+#### [opportunityNumber]
+Internal system identifier  
+<span class="type-label">Type: </span>**string**
+
+-----
+[totalContractValue]: #totalcontractvalue
+#### [totalContractValue]
+Expected overall contract value  
+<span class="type-label">Type: </span>**float**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

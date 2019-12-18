@@ -17,9 +17,9 @@ Returns billing item in a given category code. Use this method to retrieve servi
 
 
 ## Overview 
-This service returns billing items of a specified category code. This service should be used to retrieve billing items that you wish to cancel. Some billing items can be canceled via [[SoftLayer_Security_Certificate_Request|service cancellation]] service. 
+This service returns billing items of a specified category code. This service should be used to retrieve billing items that you wish to cancel. Some billing items can be canceled via [SoftLayer_Security_Certificate_Request]({{<ref "reference/datatypes/SoftLayer_Security_Certificate_Request">}}) service. 
 
-In order to find billing items for cancellation, use [[SoftLayer_Product_Item_Category::getValidCancelableServiceItemCategories|product categories]] service to retrieve category codes that are eligible for cancellation. 
+In order to find billing items for cancellation, use [SoftLayer_Product_Item_Category::getValidCancelableServiceItemCategories]({{<ref "reference/services/SoftLayer_Product_Item_Category/getValidCancelableServiceItemCategories">}}) service to retrieve category codes that are eligible for cancellation. 
 
 -----
 

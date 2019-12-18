@@ -36,69 +36,48 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#endTime" name=endTime>endTime</a>
-            </span>
-            <div class='views-field-body'>Time to stop showing watermark in milliseconds </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#fileName" name=fileName>fileName</a>
-            </span>
-            <div class='views-field-body'>Filename of image to use as watermark in transcoding job </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#position" name=position>position</a>
-            </span>
-            <div class='views-field-body'>Position to place watermark at </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Network_Media_Transcode_Job_Watermark_Position'>SoftLayer_Container_Network_Media_Transcode_Job_Watermark_Position </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#startTime" name=startTime>startTime</a>
-            </span>
-            <div class='views-field-body'>Time to start showing watermark in milliseconds </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#text" name=text>text</a>
-            </span>
-            <div class='views-field-body'>Text to Place in Watermark </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#transparencyPercentage" name=transparencyPercentage>transparencyPercentage</a>
-            </span>
-            <div class='views-field-body'>Percentage Transparent watermark should be </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[endTime]: #endtime
+#### [endTime]
+Time to stop showing watermark in milliseconds  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[fileName]: #filename
+#### [fileName]
+Filename of image to use as watermark in transcoding job  
+<span class="type-label">Type: </span>**string**
+
+-----
+[position]: #position
+#### [position]
+Position to place watermark at  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Network_Media_Transcode_Job_Watermark_Position'>SoftLayer_Container_Network_Media_Transcode_Job_Watermark_Position </a>**
+
+-----
+[startTime]: #starttime
+#### [startTime]
+Time to start showing watermark in milliseconds  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[text]: #text
+#### [text]
+Text to Place in Watermark  
+<span class="type-label">Type: </span>**string**
+
+-----
+[transparencyPercentage]: #transparencypercentage
+#### [transparencyPercentage]
+Percentage Transparent watermark should be  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

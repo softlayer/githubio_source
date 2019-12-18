@@ -30,7 +30,7 @@ SoftLayer tickets can have have files attached to them. Attaching a file to a ti
 
 ### seeAlso
 
-* [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket )
+* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
 
 
 * [SoftLayer_Ticket_Attachment_Hardware](/reference/datatypes/SoftLayer_Ticket_Attachment_Hardware )
@@ -50,123 +50,83 @@ SoftLayer tickets can have have files attached to them. Attaching a file to a ti
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The date a file was originally attached to a ticket. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#fileName" name=fileName>fileName</a>
-            </span>
-            <div class='views-field-body'>The name of a file attached to a ticket. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#fileSize" name=fileSize>fileSize</a>
-            </span>
-            <div class='views-field-body'>The size of a file attached to a ticket, measured in bytes. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A ticket file attachment's internal identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>The date that a file attachment record was last modified. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ticketId" name=ticketId>ticketId</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of the ticket that a file is attached to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#updateId" name=updateId>updateId</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of the ticket update the attached file is associated with.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#uploaderId" name=uploaderId>uploaderId</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of the user that uploaded a ticket file attachment. This is only used when A file attachment's ''uploaderType'' is set to "USER".  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#uploaderType" name=uploaderType>uploaderType</a>
-            </span>
-            <div class='views-field-body'>The type of user that attached a file to a ticket. This is either "USER" if the file was uploaded by a portal or API user or "EMPLOYEE" if the file was uploaded by a SoftLayer employee.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ticket" name=ticket>ticket</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#update" name=update>update</a>
-            </span>
-            <div class='views-field-body'>The ticket that a file is attached to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket_Update'>SoftLayer_Ticket_Update </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[createDate]: #createdate
+#### [createDate]
+The date a file was originally attached to a ticket.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[fileName]: #filename
+#### [fileName]
+The name of a file attached to a ticket.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[fileSize]: #filesize
+#### [fileSize]
+The size of a file attached to a ticket, measured in bytes.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+A ticket file attachment's internal identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+The date that a file attachment record was last modified.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[ticketId]: #ticketid
+#### [ticketId]
+The internal identifier of the ticket that a file is attached to.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[updateId]: #updateid
+#### [updateId]
+The internal identifier of the ticket update the attached file is associated with.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[uploaderId]: #uploaderid
+#### [uploaderId]
+The internal identifier of the user that uploaded a ticket file attachment. This is only used when A file attachment's ''uploaderType'' is set to "USER".   
+<span class="type-label">Type: </span>**string**
+
+-----
+[uploaderType]: #uploadertype
+#### [uploaderType]
+The type of user that attached a file to a ticket. This is either "USER" if the file was uploaded by a portal or API user or "EMPLOYEE" if the file was uploaded by a SoftLayer employee.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[ticket]: #ticket
+#### [ticket]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+
+-----
+[update]: #update
+#### [update]
+The ticket that a file is attached to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Update'>SoftLayer_Ticket_Update </a>**
+
+
+## Count
 </div>
 
 

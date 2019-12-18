@@ -23,45 +23,39 @@ This service provides methods to retrieve country locale information.
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Locale_Country/getAllVatCountryCodesAndVatIdRegexes'> getAllVatCountryCodesAndVatIdRegexes</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Locale_Country/getAvailableCountries'> getAvailableCountries</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Locale_Country/getCountries'> getCountries</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Locale_Country/getCountriesAndStates'> getCountriesAndStates</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Locale_Country/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Locale_Country record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Locale_Country/getStates'> getStates</a> </span>
-            <div class='views-field-body'>Retrieve states that belong to this country.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Locale_Country/isEuropeanUnionCountry'> isEuropeanUnionCountry</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-        </div>
+</div>
+
+#### [getAllVatCountryCodesAndVatIdRegexes](/reference/services/SoftLayer_Locale_Country/getAllVatCountryCodesAndVatIdRegexes)
+
+
+#### [getAvailableCountries](/reference/services/SoftLayer_Locale_Country/getAvailableCountries)
+
+
+#### [getCountries](/reference/services/SoftLayer_Locale_Country/getCountries)
+
+
+#### [getCountriesAndStates](/reference/services/SoftLayer_Locale_Country/getCountriesAndStates)
+
+
+#### [getObject](/reference/services/SoftLayer_Locale_Country/getObject)
+Retrieve a SoftLayer_Locale_Country record.
+
+#### [getStates](/reference/services/SoftLayer_Locale_Country/getStates)
+Retrieve states that belong to this country.
+
+#### [isEuropeanUnionCountry](/reference/services/SoftLayer_Locale_Country/isEuropeanUnionCountry)
+
+
 </div>
 

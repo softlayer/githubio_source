@@ -36,19 +36,18 @@ Lookup domain container for domain registration
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#items" name=items>items</a>
-            </span>
-            <div class='views-field-body'>The list of available and taken domain names. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Lookup_Items'>SoftLayer_Container_Dns_Domain_Registration_Lookup_Items[] </a></p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[items]: #items
+#### [items]
+The list of available and taken domain names.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Lookup_Items'>SoftLayer_Container_Dns_Domain_Registration_Lookup_Items[] </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

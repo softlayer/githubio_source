@@ -41,184 +41,123 @@ The SoftLayer_Container_Virtual_Guest_Block_Device_Template_Configuration data t
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#bootMode" name=bootMode>bootMode</a>
-            </span>
-            <div class='views-field-body'>
-Optional virtualization boot mode parameter, if set, can mark a template to boot specifically into PV or HVM.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#byol" name=byol>byol</a>
-            </span>
-            <div class='views-field-body'>
-Specifies if image is using a customer's software license.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#cloudInit" name=cloudInit>cloudInit</a>
-            </span>
-            <div class='views-field-body'>
-Specifies if image requires cloud-init.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#crkCrn" name=crkCrn>crkCrn</a>
-            </span>
-            <div class='views-field-body'>
-CRN to customer root key  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#environmentType" name=environmentType>environmentType</a>
-            </span>
-            <div class='views-field-body'>
-For future use; not currently defined.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>array of strings</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ibmAccessKey" name=ibmAccessKey>ibmAccessKey</a>
-            </span>
-            <div class='views-field-body'>
-IBM Cloud HMAC Access Key  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ibmApiKey" name=ibmApiKey>ibmApiKey</a>
-            </span>
-            <div class='views-field-body'>
-IBM Cloud (Bluemix) API Key  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ibmSecretKey" name=ibmSecretKey>ibmSecretKey</a>
-            </span>
-            <div class='views-field-body'>
-IBM HMAC Secret Key  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#isEncrypted" name=isEncrypted>isEncrypted</a>
-            </span>
-            <div class='views-field-body'>
-Specifies if image is encrypted or not.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>The group name to be applied to the imported template </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#note" name=note>note</a>
-            </span>
-            <div class='views-field-body'>The note to be applied to the imported template </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#operatingSystemReferenceCode" name=operatingSystemReferenceCode>operatingSystemReferenceCode</a>
-            </span>
-            <div class='views-field-body'>
-The referenceCode of the operating system software description for the imported VHD  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#rootKeyId" name=rootKeyId>rootKeyId</a>
-            </span>
-            <div class='views-field-body'>
-Name of the IBM Key Protect Key Name. Required if using an encrypted image.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#supportedBootModes" name=supportedBootModes>supportedBootModes</a>
-            </span>
-            <div class='views-field-body'>
-Optional Collection of modes that this template supports booting into.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>array of strings</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#uri" name=uri>uri</a>
-            </span>
-            <div class='views-field-body'>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[bootMode]: #bootmode
+#### [bootMode]
+
+Optional virtualization boot mode parameter, if set, can mark a template to boot specifically into PV or HVM.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[byol]: #byol
+#### [byol]
+
+Specifies if image is using a customer's software license.   
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[cloudInit]: #cloudinit
+#### [cloudInit]
+
+Specifies if image requires cloud-init.   
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[crkCrn]: #crkcrn
+#### [crkCrn]
+
+CRN to customer root key   
+<span class="type-label">Type: </span>**string**
+
+-----
+[environmentType]: #environmenttype
+#### [environmentType]
+
+For future use; not currently defined.   
+<span class="type-label">Type: </span>**array of strings**
+
+-----
+[ibmAccessKey]: #ibmaccesskey
+#### [ibmAccessKey]
+
+IBM Cloud HMAC Access Key   
+<span class="type-label">Type: </span>**string**
+
+-----
+[ibmApiKey]: #ibmapikey
+#### [ibmApiKey]
+
+IBM Cloud (Bluemix) API Key   
+<span class="type-label">Type: </span>**string**
+
+-----
+[ibmSecretKey]: #ibmsecretkey
+#### [ibmSecretKey]
+
+IBM HMAC Secret Key   
+<span class="type-label">Type: </span>**string**
+
+-----
+[isEncrypted]: #isencrypted
+#### [isEncrypted]
+
+Specifies if image is encrypted or not.   
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[name]: #name
+#### [name]
+The group name to be applied to the imported template  
+<span class="type-label">Type: </span>**string**
+
+-----
+[note]: #note
+#### [note]
+The note to be applied to the imported template  
+<span class="type-label">Type: </span>**string**
+
+-----
+[operatingSystemReferenceCode]: #operatingsystemreferencecode
+#### [operatingSystemReferenceCode]
+
+The referenceCode of the operating system software description for the imported VHD   
+<span class="type-label">Type: </span>**string**
+
+-----
+[rootKeyId]: #rootkeyid
+#### [rootKeyId]
+
+Name of the IBM Key Protect Key Name. Required if using an encrypted image.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[supportedBootModes]: #supportedbootmodes
+#### [supportedBootModes]
+
+Optional Collection of modes that this template supports booting into.   
+<span class="type-label">Type: </span>**array of strings**
+
+-----
+[uri]: #uri
+#### [uri]
+
 The URI for an object storage object (.vhd/.iso file) 
-<code>swift://<ObjectStorageAccountName>@<clusterName>/<containerName>/<fileName.(vhd|iso)></code>  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#wrappedDek" name=wrappedDek>wrappedDek</a>
-            </span>
-            <div class='views-field-body'>
-Wrapped Decryption Key provided by IBM Key Protect  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<code>swift://<ObjectStorageAccountName>@<clusterName>/<containerName>/<fileName.(vhd|iso)></code>   
+<span class="type-label">Type: </span>**string**
+
+-----
+[wrappedDek]: #wrappeddek
+#### [wrappedDek]
+
+Wrapped Decryption Key provided by IBM Key Protect   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

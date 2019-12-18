@@ -23,29 +23,27 @@ Service for an account's next invoice. The "next invoice" is what a customer wil
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Invoice_Next/getExcel'> getExcel</a> </span>
-            <div class='views-field-body'>Retrieve the next billing period's invoice as an Excel.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Invoice_Next/getPdf'> getPdf</a> </span>
-            <div class='views-field-body'>Retrieve the next billing period's invoice as a PDF.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Invoice_Next/getPdfDetailed'> getPdfDetailed</a> </span>
-            <div class='views-field-body'>Retrieve the next billing period's detailed invoice as a PDF.</div>
-        </div>
-        </div>
+</div>
+
+#### [getExcel](/reference/services/SoftLayer_Billing_Invoice_Next/getExcel)
+Retrieve the next billing period's invoice as an Excel.
+
+#### [getPdf](/reference/services/SoftLayer_Billing_Invoice_Next/getPdf)
+Retrieve the next billing period's invoice as a PDF.
+
+#### [getPdfDetailed](/reference/services/SoftLayer_Billing_Invoice_Next/getPdfDetailed)
+Retrieve the next billing period's detailed invoice as a PDF.
+
 </div>
 

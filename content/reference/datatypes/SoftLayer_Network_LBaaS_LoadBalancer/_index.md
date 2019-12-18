@@ -36,283 +36,184 @@ The SoftLayer_Network_LBaaS_LoadBalancer type presents a structure containing at
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#accountId" name=accountId>accountId</a>
-            </span>
-            <div class='views-field-body'>The account this load balancer belongs to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#address" name=address>address</a>
-            </span>
-            <div class='views-field-body'>Address (Host name) of a load balancer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>Specifies when a load balancer was created. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#description" name=description>description</a>
-            </span>
-            <div class='views-field-body'>Description of a load balancer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The unique identifier of a load balancer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#isDataLogEnabled" name=isDataLogEnabled>isDataLogEnabled</a>
-            </span>
-            <div class='views-field-body'>Specifies whether the data log is enabled for the load balancer.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#isPublic" name=isPublic>isPublic</a>
-            </span>
-            <div class='views-field-body'>Specifies whether the load balancer is a public or internal load balancer.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#locationId" name=locationId>locationId</a>
-            </span>
-            <div class='views-field-body'>This references to location with type datacenter </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>Specifies when a load balancer was updated last. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>The load balancer's name. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#operatingStatus" name=operatingStatus>operatingStatus</a>
-            </span>
-            <div class='views-field-body'>The operation status "ONLINE" or "OFFLINE" of a load balancer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#previousErrorText" name=previousErrorText>previousErrorText</a>
-            </span>
-            <div class='views-field-body'>Error message of previous API call in case of failure </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#provisioningStatus" name=provisioningStatus>provisioningStatus</a>
-            </span>
-            <div class='views-field-body'>The provisioning status of a load balancer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#type" name=type>type</a>
-            </span>
-            <div class='views-field-body'>Specifies the type of load balancer.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#useSystemPublicIpPool" name=useSystemPublicIpPool>useSystemPublicIpPool</a>
-            </span>
-            <div class='views-field-body'>Applicable for public load balancer only. It specifies whether the public IP addresses are allocated from system public IP pool (1, default) or public subnet (null | 0) from the account ordering the load balancer. For internal load balancer, useSystemPublicIpPool will be ignored, and it always defaults to 1.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#uuid" name=uuid>uuid</a>
-            </span>
-            <div class='views-field-body'>The UUID of a load balancer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#datacenter" name=datacenter>datacenter</a>
-            </span>
-            <div class='views-field-body'>Datacenter, where load balancer is located. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#healthMonitors" name=healthMonitors>healthMonitors</a>
-            </span>
-            <div class='views-field-body'>Health monitors for the backend members. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_HealthMonitor'>SoftLayer_Network_LBaaS_HealthMonitor[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#l7Pools" name=l7Pools>l7Pools</a>
-            </span>
-            <div class='views-field-body'>L7Pools for load balancer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Pool'>SoftLayer_Network_LBaaS_L7Pool[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#listeners" name=listeners>listeners</a>
-            </span>
-            <div class='views-field-body'>Listeners assigned to load balancer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_Listener'>SoftLayer_Network_LBaaS_Listener[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#members" name=members>members</a>
-            </span>
-            <div class='views-field-body'>Members assigned to load balancer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_Member'>SoftLayer_Network_LBaaS_Member[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sslCiphers" name=sslCiphers>sslCiphers</a>
-            </span>
-            <div class='views-field-body'>list of preferred custom ciphers configured for the load balancer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_SSLCipher'>SoftLayer_Network_LBaaS_SSLCipher[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#healthMonitorCount" name=healthMonitorCount>healthMonitorCount</a>
-            </span>
-            <div class='views-field-body'>A count of health monitors for the backend members. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#l7PoolCount" name=l7PoolCount>l7PoolCount</a>
-            </span>
-            <div class='views-field-body'>A count of l7Pools for load balancer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#listenerCount" name=listenerCount>listenerCount</a>
-            </span>
-            <div class='views-field-body'>A count of listeners assigned to load balancer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#memberCount" name=memberCount>memberCount</a>
-            </span>
-            <div class='views-field-body'>A count of members assigned to load balancer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sslCipherCount" name=sslCipherCount>sslCipherCount</a>
-            </span>
-            <div class='views-field-body'>A count of list of preferred custom ciphers configured for the load balancer. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[accountId]: #accountid
+#### [accountId]
+The account this load balancer belongs to.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[address]: #address
+#### [address]
+Address (Host name) of a load balancer.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+Specifies when a load balancer was created.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[description]: #description
+#### [description]
+Description of a load balancer.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[id]: #id
+#### [id]
+The unique identifier of a load balancer.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[isDataLogEnabled]: #isdatalogenabled
+#### [isDataLogEnabled]
+Specifies whether the data log is enabled for the load balancer.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[isPublic]: #ispublic
+#### [isPublic]
+Specifies whether the load balancer is a public or internal load balancer.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[locationId]: #locationid
+#### [locationId]
+This references to location with type datacenter  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+Specifies when a load balancer was updated last.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[name]: #name
+#### [name]
+The load balancer's name.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[operatingStatus]: #operatingstatus
+#### [operatingStatus]
+The operation status "ONLINE" or "OFFLINE" of a load balancer.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[previousErrorText]: #previouserrortext
+#### [previousErrorText]
+Error message of previous API call in case of failure  
+<span class="type-label">Type: </span>**string**
+
+-----
+[provisioningStatus]: #provisioningstatus
+#### [provisioningStatus]
+The provisioning status of a load balancer.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[type]: #type
+#### [type]
+Specifies the type of load balancer.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[useSystemPublicIpPool]: #usesystempublicippool
+#### [useSystemPublicIpPool]
+Applicable for public load balancer only. It specifies whether the public IP addresses are allocated from system public IP pool (1, default) or public subnet (null | 0) from the account ordering the load balancer. For internal load balancer, useSystemPublicIpPool will be ignored, and it always defaults to 1.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[uuid]: #uuid
+#### [uuid]
+The UUID of a load balancer.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[datacenter]: #datacenter
+#### [datacenter]
+Datacenter, where load balancer is located.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+-----
+[healthMonitors]: #healthmonitors
+#### [healthMonitors]
+Health monitors for the backend members.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_HealthMonitor'>SoftLayer_Network_LBaaS_HealthMonitor[] </a>**
+
+-----
+[l7Pools]: #l7pools
+#### [l7Pools]
+L7Pools for load balancer.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Pool'>SoftLayer_Network_LBaaS_L7Pool[] </a>**
+
+-----
+[listeners]: #listeners
+#### [listeners]
+Listeners assigned to load balancer.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_Listener'>SoftLayer_Network_LBaaS_Listener[] </a>**
+
+-----
+[members]: #members
+#### [members]
+Members assigned to load balancer.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_Member'>SoftLayer_Network_LBaaS_Member[] </a>**
+
+-----
+[sslCiphers]: #sslciphers
+#### [sslCiphers]
+list of preferred custom ciphers configured for the load balancer.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_SSLCipher'>SoftLayer_Network_LBaaS_SSLCipher[] </a>**
+
+
+## Count
+
+-----
+[healthMonitorCount]: #healthmonitorcount
+#### [healthMonitorCount]
+A count of health monitors for the backend members.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[l7PoolCount]: #l7poolcount
+#### [l7PoolCount]
+A count of l7Pools for load balancer.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[listenerCount]: #listenercount
+#### [listenerCount]
+A count of listeners assigned to load balancer.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[memberCount]: #membercount
+#### [memberCount]
+A count of members assigned to load balancer.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[sslCipherCount]: #sslciphercount
+#### [sslCipherCount]
+A count of list of preferred custom ciphers configured for the load balancer.   
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

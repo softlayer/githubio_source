@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Account_Regional_Registry_Detail_Type"
-description: "Subnet Registration Detail Type objects describe the nature of a [[SoftLayer_Account_Regional_Registry_Detail]] object.... "
+description: "Subnet Registration Detail Type objects describe the nature of a [SoftLayer_Account_Regional_Registry_Detail]({{<ref 're... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,9 +18,9 @@ classes:
 </div>
 
 ## Description 
-Subnet Registration Detail Type objects describe the nature of a [[SoftLayer_Account_Regional_Registry_Detail]] object. 
+Subnet Registration Detail Type objects describe the nature of a [SoftLayer_Account_Regional_Registry_Detail]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail">}}) object. 
 
-The standard values for these objects are as follows: <ul> <li><strong>NETWORK</strong> - The detail object represents the information for a [[SoftLayer_Network_Subnet|subnet]]</li> <li><strong>NETWORK6</strong> - The detail object represents the information for an [[SoftLayer_Network_Subnet_Version6|IPv6 subnet]]</li> <li><strong>PERSON</strong> - The detail object represents the information for a customer with the RIR</li> </ul> 
+The standard values for these objects are as follows: <ul> <li><strong>NETWORK</strong> - The detail object represents the information for a [SoftLayer_Network_Subnet]({{<ref "reference/datatypes/SoftLayer_Network_Subnet">}})</li> <li><strong>PERSON</strong> - The detail object represents the information for a customer with the RIR</li> </ul> 
 
 
 
@@ -38,59 +38,42 @@ The standard values for these objects are as follows: <ul> <li><strong>NETWORK</
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Unique numeric ID of the detail type object  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#keyName" name=keyName>keyName</a>
-            </span>
-            <div class='views-field-body'>Code-friendly string name of the detail type  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>Human-readable name of the detail type  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[createDate]: #createdate
+#### [createDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+Unique numeric ID of the detail type object   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[keyName]: #keyname
+#### [keyName]
+Code-friendly string name of the detail type   
+<span class="type-label">Type: </span>**string**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[name]: #name
+#### [name]
+Human-readable name of the detail type   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

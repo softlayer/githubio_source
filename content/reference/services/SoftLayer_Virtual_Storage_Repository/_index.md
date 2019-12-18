@@ -18,86 +18,71 @@ classes:
 </div>
 
 ## Description
-Storage Repositories are storage systems that are accessible through the internet and can be accessed through many types of devices, interfaces, and other resources such as NFS (Network File System).  They can contain 1 or more [[SoftLayer_Disk_Image|disk images]] and can be attached to more than one [[SoftLayer_Virtual_Host|host]]. 
+Storage Repositories are storage systems that are accessible through the internet and can be accessed through many types of devices, interfaces, and other resources such as NFS (Network File System).  They can contain 1 or more [SoftLayer_Virtual_Disk_Image]({{<ref "reference/datatypes/SoftLayer_Virtual_Disk_Image">}}) and can be attached to more than one [SoftLayer_Virtual_Host]({{<ref "reference/datatypes/SoftLayer_Virtual_Host">}}). 
 
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Storage_Repository/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve the [[SoftLayer_Account|account]] that a storage repository belongs to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Storage_Repository/getArchiveDiskUsageRatePerGb'> getArchiveDiskUsageRatePerGb</a> </span>
-            <div class='views-field-body'>The rate that is charged for archiving every 1 gigabyte of data for a computing instance </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Storage_Repository/getAverageDiskUsageMetricDataFromInfluxByDate'> getAverageDiskUsageMetricDataFromInfluxByDate</a> </span>
-            <div class='views-field-body'>Returns the average disk usage for the timeframe based on the parameters provided. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Storage_Repository/getAverageUsageMetricDataByDate'> getAverageUsageMetricDataByDate</a> </span>
-            <div class='views-field-body'>Returns the average disk usage for the timeframe based on the parameters provided. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Storage_Repository/getBillingItem'> getBillingItem</a> </span>
-            <div class='views-field-body'>Retrieve the current billing item for a storage repository.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Storage_Repository/getDatacenter'> getDatacenter</a> </span>
-            <div class='views-field-body'>Retrieve the datacenter that a virtual storage repository resides in.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Storage_Repository/getDiskImages'> getDiskImages</a> </span>
-            <div class='views-field-body'>Retrieve the [[SoftLayer_Virtual_Disk_Image|disk images]] that are in a storage repository. Disk images are the virtual hard drives for a virtual guest.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Storage_Repository/getGuests'> getGuests</a> </span>
-            <div class='views-field-body'>Retrieve the computing instances that have disk images in a storage repository.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Storage_Repository/getMetricTrackingObject'> getMetricTrackingObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Storage_Repository/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Virtual_Storage_Repository record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Storage_Repository/getPublicImageBillingItem'> getPublicImageBillingItem</a> </span>
-            <div class='views-field-body'>Retrieve the current billing item for a public storage repository.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Storage_Repository/getPublicImageDiskUsageRatePerGb'> getPublicImageDiskUsageRatePerGb</a> </span>
-            <div class='views-field-body'>The rate that is charged for publishing every 1 gigabyte of data for an image template </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Storage_Repository/getStorageLocations'> getStorageLocations</a> </span>
-            <div class='views-field-body'>The available locations for public image storage. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Storage_Repository/getType'> getType</a> </span>
-            <div class='views-field-body'>Retrieve a storage repository's [[SoftLayer_Virtual_Storage_Repository_Type|type]].</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Storage_Repository/getUsageMetricDataByDate'> getUsageMetricDataByDate</a> </span>
-            <div class='views-field-body'>Retrieve the metric data for disk space usage for a storage repository. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_Storage_Repository/getUsageMetricImageByDate'> getUsageMetricImageByDate</a> </span>
-            <div class='views-field-body'>Retrieve an image of the disk usage data on a [[SoftLayer_Virtual_Guest|Cloud Computing Instance]] image for the time range you provide. </div>
-        </div>
-        </div>
+</div>
+
+#### [getAccount](/reference/services/SoftLayer_Virtual_Storage_Repository/getAccount)
+Retrieve the [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) that a storage repository belongs to.
+
+#### [getArchiveDiskUsageRatePerGb](/reference/services/SoftLayer_Virtual_Storage_Repository/getArchiveDiskUsageRatePerGb)
+The rate that is charged for archiving every 1 gigabyte of data for a computing instance 
+
+#### [getAverageDiskUsageMetricDataFromInfluxByDate](/reference/services/SoftLayer_Virtual_Storage_Repository/getAverageDiskUsageMetricDataFromInfluxByDate)
+Returns the average disk usage for the timeframe based on the parameters provided. 
+
+#### [getAverageUsageMetricDataByDate](/reference/services/SoftLayer_Virtual_Storage_Repository/getAverageUsageMetricDataByDate)
+Returns the average disk usage for the timeframe based on the parameters provided. 
+
+#### [getBillingItem](/reference/services/SoftLayer_Virtual_Storage_Repository/getBillingItem)
+Retrieve the current billing item for a storage repository.
+
+#### [getDatacenter](/reference/services/SoftLayer_Virtual_Storage_Repository/getDatacenter)
+Retrieve the datacenter that a virtual storage repository resides in.
+
+#### [getDiskImages](/reference/services/SoftLayer_Virtual_Storage_Repository/getDiskImages)
+Retrieve the [SoftLayer_Virtual_Disk_Image]({{<ref "reference/datatypes/SoftLayer_Virtual_Disk_Image">}}) that are in a storage repository. Disk images are the virtual hard drives for a virtual guest.
+
+#### [getGuests](/reference/services/SoftLayer_Virtual_Storage_Repository/getGuests)
+Retrieve the computing instances that have disk images in a storage repository.
+
+#### [getMetricTrackingObject](/reference/services/SoftLayer_Virtual_Storage_Repository/getMetricTrackingObject)
+
+
+#### [getObject](/reference/services/SoftLayer_Virtual_Storage_Repository/getObject)
+Retrieve a SoftLayer_Virtual_Storage_Repository record.
+
+#### [getPublicImageBillingItem](/reference/services/SoftLayer_Virtual_Storage_Repository/getPublicImageBillingItem)
+Retrieve the current billing item for a public storage repository.
+
+#### [getPublicImageDiskUsageRatePerGb](/reference/services/SoftLayer_Virtual_Storage_Repository/getPublicImageDiskUsageRatePerGb)
+The rate that is charged for publishing every 1 gigabyte of data for an image template 
+
+#### [getStorageLocations](/reference/services/SoftLayer_Virtual_Storage_Repository/getStorageLocations)
+The available locations for public image storage. 
+
+#### [getType](/reference/services/SoftLayer_Virtual_Storage_Repository/getType)
+Retrieve a storage repository's [SoftLayer_Virtual_Storage_Repository_Type]({{<ref "reference/datatypes/SoftLayer_Virtual_Storage_Repository_Type">}}).
+
+#### [getUsageMetricDataByDate](/reference/services/SoftLayer_Virtual_Storage_Repository/getUsageMetricDataByDate)
+Retrieve the metric data for disk space usage for a storage repository. 
+
+#### [getUsageMetricImageByDate](/reference/services/SoftLayer_Virtual_Storage_Repository/getUsageMetricImageByDate)
+Retrieve an image of the disk usage data on a [SoftLayer_Virtual_Guest]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest">}}) image for the time range you provide. 
+
 </div>
 

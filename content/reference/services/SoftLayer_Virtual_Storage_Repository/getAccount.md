@@ -1,6 +1,6 @@
 ---
 title: "getAccount"
-description: "Retrieve the [[SoftLayer_Account|account]] that a storage repository belongs to."
+description: "Retrieve the [SoftLayer_Account]({{<ref 'reference/datatypes/SoftLayer_Account'>}}) that a storage repository belongs to... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getAccount
 
-Retrieve the [[SoftLayer_Account|account]] that a storage repository belongs to.
+Retrieve the [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) that a storage repository belongs to.
 
 
 ## Overview 
-Retrieve the [[SoftLayer_Account|account]] that a storage repository belongs to.
+Retrieve the [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) that a storage repository belongs to.
 
 -----
 

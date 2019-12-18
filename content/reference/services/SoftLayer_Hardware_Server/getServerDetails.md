@@ -17,7 +17,7 @@ Retrieve a server's hardware components, software, and network components.
 
 
 ## Overview 
-Retrieve a server's hardware components, software, and network components. getServerDetails is an aggregation function that combines the results of [[SoftLayer_Hardware_Server::getComponents]], [[SoftLayer_Hardware_Server::getSoftware]], and [[SoftLayer_Hardware_Server::getNetworkComponents]] in a single container. 
+Retrieve a server's hardware components, software, and network components. getServerDetails is an aggregation function that combines the results of [SoftLayer_Hardware_Server::getComponents]({{<ref "reference/services/SoftLayer_Hardware_Server/getComponents">}}), [SoftLayer_Hardware_Server::getSoftware]({{<ref "reference/services/SoftLayer_Hardware_Server/getSoftware">}}), and [SoftLayer_Hardware_Server::getNetworkComponents]({{<ref "reference/services/SoftLayer_Hardware_Server/getNetworkComponents">}}) in a single container. 
 
 -----
 

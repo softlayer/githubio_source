@@ -46,83 +46,61 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A press release media partner cross </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#mediaPartnerId" name=mediaPartnerId>mediaPartnerId</a>
-            </span>
-            <div class='views-field-body'>A press release media partner's </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pressReleaseId" name=pressReleaseId>pressReleaseId</a>
-            </span>
-            <div class='views-field-body'>A press release internal identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#mediaPartners" name=mediaPartners>mediaPartners</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_Media_Partner'>SoftLayer_Auxiliary_Press_Release_Media_Partner[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pressReleases" name=pressReleases>pressReleases</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release'>SoftLayer_Auxiliary_Press_Release[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#mediaPartnerCount" name=mediaPartnerCount>mediaPartnerCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pressReleaseCount" name=pressReleaseCount>pressReleaseCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[id]: #id
+#### [id]
+A press release media partner cross  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[mediaPartnerId]: #mediapartnerid
+#### [mediaPartnerId]
+A press release media partner's  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[pressReleaseId]: #pressreleaseid
+#### [pressReleaseId]
+A press release internal identifier.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[mediaPartners]: #mediapartners
+#### [mediaPartners]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_Media_Partner'>SoftLayer_Auxiliary_Press_Release_Media_Partner[] </a>**
+
+-----
+[pressReleases]: #pressreleases
+#### [pressReleases]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release'>SoftLayer_Auxiliary_Press_Release[] </a>**
+
+
+## Count
+
+-----
+[mediaPartnerCount]: #mediapartnercount
+#### [mediaPartnerCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[pressReleaseCount]: #pressreleasecount
+#### [pressReleaseCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

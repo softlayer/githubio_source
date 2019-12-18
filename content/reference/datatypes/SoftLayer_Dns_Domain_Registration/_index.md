@@ -30,7 +30,7 @@ The SoftLayer_Dns_Domain_Registration data type represents a domain registration
 
 ### seeAlso
 
-* [SoftLayer_Dns_Domain_Registration_Status](/reference/services/SoftLayer_Dns_Domain_Registration_Status )
+* [SoftLayer_Dns_Domain_Registration_Status](/reference/datatypes/SoftLayer_Dns_Domain_Registration_Status )
 
 
 
@@ -47,143 +47,95 @@ The SoftLayer_Dns_Domain_Registration data type represents a domain registration
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#domainRegistrationStatusId" name=domainRegistrationStatusId>domainRegistrationStatusId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#expireDate" name=expireDate>expireDate</a>
-            </span>
-            <div class='views-field-body'>The date that the domain registration will expire. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A domain record's internal identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#lockedFlag" name=lockedFlag>lockedFlag</a>
-            </span>
-            <div class='views-field-body'>Indicates whether a domain is locked or unlocked. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>A domain's name, for example "example.com". </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#registrantVerificationStatusId" name=registrantVerificationStatusId>registrantVerificationStatusId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#serviceProviderId" name=serviceProviderId>serviceProviderId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#account" name=account>account</a>
-            </span>
-            <div class='views-field-body'>The SoftLayer customer account that the domain is registered to. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#domainRegistrationStatus" name=domainRegistrationStatus>domainRegistrationStatus</a>
-            </span>
-            <div class='views-field-body'>The domain registration status. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Status'>SoftLayer_Dns_Domain_Registration_Status </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#registrantVerificationStatus" name=registrantVerificationStatus>registrantVerificationStatus</a>
-            </span>
-            <div class='views-field-body'>The registrant verification status. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status'>SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#serviceProvider" name=serviceProvider>serviceProvider</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[createDate]: #createdate
+#### [createDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[domainRegistrationStatusId]: #domainregistrationstatusid
+#### [domainRegistrationStatusId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[expireDate]: #expiredate
+#### [expireDate]
+The date that the domain registration will expire.  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+A domain record's internal identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[lockedFlag]: #lockedflag
+#### [lockedFlag]
+Indicates whether a domain is locked or unlocked.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[name]: #name
+#### [name]
+A domain's name, for example "example.com".  
+<span class="type-label">Type: </span>**string**
+
+-----
+[registrantVerificationStatusId]: #registrantverificationstatusid
+#### [registrantVerificationStatusId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[serviceProviderId]: #serviceproviderid
+#### [serviceProviderId]
+  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[account]: #account
+#### [account]
+The SoftLayer customer account that the domain is registered to.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+-----
+[domainRegistrationStatus]: #domainregistrationstatus
+#### [domainRegistrationStatus]
+The domain registration status.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Status'>SoftLayer_Dns_Domain_Registration_Status </a>**
+
+-----
+[registrantVerificationStatus]: #registrantverificationstatus
+#### [registrantVerificationStatus]
+The registrant verification status.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status'>SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status </a>**
+
+-----
+[serviceProvider]: #serviceprovider
+#### [serviceProvider]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>**
+
+
+## Count
 </div>
 
 

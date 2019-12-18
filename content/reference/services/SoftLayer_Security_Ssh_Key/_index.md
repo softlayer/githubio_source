@@ -23,45 +23,39 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Ssh_Key/createObject'> createObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Ssh_Key/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Ssh_Key/editObject'> editObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Ssh_Key/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Ssh_Key/getBlockDeviceTemplateGroups'> getBlockDeviceTemplateGroups</a> </span>
-            <div class='views-field-body'>Retrieve the image template groups that are linked to an SSH key.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Ssh_Key/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Security_Ssh_Key record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Security_Ssh_Key/getSoftwarePasswords'> getSoftwarePasswords</a> </span>
-            <div class='views-field-body'>Retrieve the OS root users that are linked to an SSH key.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Security_Ssh_Key/createObject)
+
+
+#### [deleteObject](/reference/services/SoftLayer_Security_Ssh_Key/deleteObject)
+
+
+#### [editObject](/reference/services/SoftLayer_Security_Ssh_Key/editObject)
+
+
+#### [getAccount](/reference/services/SoftLayer_Security_Ssh_Key/getAccount)
+
+
+#### [getBlockDeviceTemplateGroups](/reference/services/SoftLayer_Security_Ssh_Key/getBlockDeviceTemplateGroups)
+Retrieve the image template groups that are linked to an SSH key.
+
+#### [getObject](/reference/services/SoftLayer_Security_Ssh_Key/getObject)
+Retrieve a SoftLayer_Security_Ssh_Key record.
+
+#### [getSoftwarePasswords](/reference/services/SoftLayer_Security_Ssh_Key/getSoftwarePasswords)
+Retrieve the OS root users that are linked to an SSH key.
+
 </div>
 

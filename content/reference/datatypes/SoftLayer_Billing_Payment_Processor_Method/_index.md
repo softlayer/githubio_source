@@ -36,53 +36,41 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#methodKey" name=methodKey>methodKey</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#multipleCurrencyFlag" name=multipleCurrencyFlag>multipleCurrencyFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#paymentProcessor" name=paymentProcessor>paymentProcessor</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Payment_Processor'>SoftLayer_Billing_Payment_Processor </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#paymentType" name=paymentType>paymentType</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Payment_Type'>SoftLayer_Billing_Payment_Type </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[methodKey]: #methodkey
+#### [methodKey]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[multipleCurrencyFlag]: #multiplecurrencyflag
+#### [multipleCurrencyFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[paymentProcessor]: #paymentprocessor
+#### [paymentProcessor]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Processor'>SoftLayer_Billing_Payment_Processor </a>**
+
+-----
+[paymentType]: #paymenttype
+#### [paymentType]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Type'>SoftLayer_Billing_Payment_Type </a>**
+
+
+## Count
 </div>
 
 

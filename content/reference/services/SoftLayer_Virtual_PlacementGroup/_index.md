@@ -23,53 +23,45 @@ SoftLayer_Virtual_PlacementGroup is a collection of virtual guests to be placed 
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_PlacementGroup/createObject'> createObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_PlacementGroup/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_PlacementGroup/editObject'> editObject</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_PlacementGroup/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve the account that the placement group is implemented on.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_PlacementGroup/getAvailableRouters'> getAvailableRouters</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_PlacementGroup/getBackendRouter'> getBackendRouter</a> </span>
-            <div class='views-field-body'>Retrieve the router the placement group is implemented on.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_PlacementGroup/getGuests'> getGuests</a> </span>
-            <div class='views-field-body'>Retrieve the virtual guests that are members of the placement group.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_PlacementGroup/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Virtual_PlacementGroup record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Virtual_PlacementGroup/getRule'> getRule</a> </span>
-            <div class='views-field-body'>Retrieve the placement rule that the placement group is implementing.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Virtual_PlacementGroup/createObject)
+
+
+#### [deleteObject](/reference/services/SoftLayer_Virtual_PlacementGroup/deleteObject)
+
+
+#### [editObject](/reference/services/SoftLayer_Virtual_PlacementGroup/editObject)
+
+
+#### [getAccount](/reference/services/SoftLayer_Virtual_PlacementGroup/getAccount)
+Retrieve the account that the placement group is implemented on.
+
+#### [getAvailableRouters](/reference/services/SoftLayer_Virtual_PlacementGroup/getAvailableRouters)
+
+
+#### [getBackendRouter](/reference/services/SoftLayer_Virtual_PlacementGroup/getBackendRouter)
+Retrieve the router the placement group is implemented on.
+
+#### [getGuests](/reference/services/SoftLayer_Virtual_PlacementGroup/getGuests)
+Retrieve the virtual guests that are members of the placement group.
+
+#### [getObject](/reference/services/SoftLayer_Virtual_PlacementGroup/getObject)
+Retrieve a SoftLayer_Virtual_PlacementGroup record.
+
+#### [getRule](/reference/services/SoftLayer_Virtual_PlacementGroup/getRule)
+Retrieve the placement rule that the placement group is implementing.
+
 </div>
 

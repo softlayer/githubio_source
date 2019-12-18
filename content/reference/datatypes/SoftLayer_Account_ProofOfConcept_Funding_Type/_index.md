@@ -36,63 +36,49 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#keyName" name=keyName>keyName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#approverTypes" name=approverTypes>approverTypes</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver_Type'>SoftLayer_Account_ProofOfConcept_Approver_Type[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#approvers" name=approvers>approvers</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver'>SoftLayer_Account_ProofOfConcept_Approver[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#approverCount" name=approverCount>approverCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#approverTypeCount" name=approverTypeCount>approverTypeCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[keyName]: #keyname
+#### [keyName]
+  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[approverTypes]: #approvertypes
+#### [approverTypes]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver_Type'>SoftLayer_Account_ProofOfConcept_Approver_Type[] </a>**
+
+-----
+[approvers]: #approvers
+#### [approvers]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver'>SoftLayer_Account_ProofOfConcept_Approver[] </a>**
+
+
+## Count
+
+-----
+[approverCount]: #approvercount
+#### [approverCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[approverTypeCount]: #approvertypecount
+#### [approverTypeCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

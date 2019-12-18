@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-A SoftLayer_User_Interface represents a generic user instance within the SoftLayer API. The SoftLayer API uses SoftLayer_User_Interfaces in cases where a user object could be one of many types of users. Currently the [[SoftLayer_User_Customer]] and [[SoftLayer_User_Employee]] classes are abstracted by this type. 
+A SoftLayer_User_Interface represents a generic user instance within the SoftLayer API. The SoftLayer API uses SoftLayer_User_Interfaces in cases where a user object could be one of many types of users. Currently the [SoftLayer_User_Customer]({{<ref "reference/datatypes/SoftLayer_User_Customer">}}) and [SoftLayer_User_Employee]({{<ref "reference/datatypes/SoftLayer_User_Employee">}}) classes are abstracted by this type. 
 
 
 ### associatedMethods
@@ -29,7 +29,7 @@ A SoftLayer_User_Interface represents a generic user instance within the SoftLay
 
 ### seeAlso
 
-* [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer )
+* [SoftLayer_User_Customer](/reference/datatypes/SoftLayer_User_Customer )
 
 
 * [SoftLayer_User_Employee](/reference/datatypes/SoftLayer_User_Employee )
@@ -49,9 +49,12 @@ A SoftLayer_User_Interface represents a generic user instance within the SoftLay
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

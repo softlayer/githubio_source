@@ -46,93 +46,67 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A press release contact cross </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pressReleaseContactId" name=pressReleaseContactId>pressReleaseContactId</a>
-            </span>
-            <div class='views-field-body'>A press release contact's internal </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pressReleaseId" name=pressReleaseId>pressReleaseId</a>
-            </span>
-            <div class='views-field-body'>A press release internal identifier. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sortOrder" name=sortOrder>sortOrder</a>
-            </span>
-            <div class='views-field-body'>The number that associated a contact </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#contacts" name=contacts>contacts</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_Contact'>SoftLayer_Auxiliary_Press_Release_Contact[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pressReleases" name=pressReleases>pressReleases</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release'>SoftLayer_Auxiliary_Press_Release[] </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#contactCount" name=contactCount>contactCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pressReleaseCount" name=pressReleaseCount>pressReleaseCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[id]: #id
+#### [id]
+A press release contact cross  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[pressReleaseContactId]: #pressreleasecontactid
+#### [pressReleaseContactId]
+A press release contact's internal  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[pressReleaseId]: #pressreleaseid
+#### [pressReleaseId]
+A press release internal identifier.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[sortOrder]: #sortorder
+#### [sortOrder]
+The number that associated a contact  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[contacts]: #contacts
+#### [contacts]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_Contact'>SoftLayer_Auxiliary_Press_Release_Contact[] </a>**
+
+-----
+[pressReleases]: #pressreleases
+#### [pressReleases]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release'>SoftLayer_Auxiliary_Press_Release[] </a>**
+
+
+## Count
+
+-----
+[contactCount]: #contactcount
+#### [contactCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+-----
+[pressReleaseCount]: #pressreleasecount
+#### [pressReleaseCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

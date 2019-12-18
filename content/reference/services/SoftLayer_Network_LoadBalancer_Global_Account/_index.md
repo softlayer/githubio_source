@@ -22,64 +22,56 @@ A global load balancer account enables you to load balance traffic between serve
 
 A global load balancer account can be created by ordering it as an additional service through the SoftLayer customer portal.  You can modify your new global load balancer account once it's created and provisioned.  There is a delay before your global load balancer account is created because the purchase has to be approved by SoftLayer sales and provisioned. 
 
-Hosts are created and modified through the [[SoftLayer_Network_LoadBalancer_Global_Account::editObject|editObject]] method instead of directly through the [[SoftLayer_Network_LoadBalancer_Global_Host|global load balancer host service]].  This allows you to update the properties of a global load balancer account and the hosts that make up the load balancing pool in a single request. 
+Hosts are created and modified through the [SoftLayer_Network_LoadBalancer_Global_Account::editObject]({{<ref "reference/services/SoftLayer_Network_LoadBalancer_Global_Account/editObject">}}) method instead of directly through the [SoftLayer_Network_LoadBalancer_Global_Host]({{<ref "reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Host">}}).  This allows you to update the properties of a global load balancer account and the hosts that make up the load balancing pool in a single request. 
 
-To have SoftLayer's global load balancers respond to DNS requests, a nameserver resource record must be added for the hostname on your global load balancer account.  If your globally load balanced domain is hosted on the SoftLayer nameservers, the [[SoftLayer_Network_LoadBalancer_Global_Account::addNsRecord|addNsRecord]] method will create the required nameserver resource record in the zone file for you.  If your globally load balanced domain is hosted on any other nameservers, you will need to add the nameserver resource record yourself.  The SoftLayer Knowledge Layer contains information about [http://knowledgelayer.softlayer.com/questions/421/ configuring DNS] for a globally load balanced domain. 
+To have SoftLayer's global load balancers respond to DNS requests, a nameserver resource record must be added for the hostname on your global load balancer account.  If your globally load balanced domain is hosted on the SoftLayer nameservers, the [SoftLayer_Network_LoadBalancer_Global_Account::addNsRecord]({{<ref "reference/services/SoftLayer_Network_LoadBalancer_Global_Account/addNsRecord">}}) method will create the required nameserver resource record in the zone file for you.  If your globally load balanced domain is hosted on any other nameservers, you will need to add the nameserver resource record yourself.  The SoftLayer Knowledge Layer contains information about [http://knowledgelayer.softlayer.com/questions/421/ configuring DNS] for a globally load balanced domain. 
 
-Use the [[SoftLayer_Network_LoadBalancer_Global_Host::deleteObject]] method to remove a host from your global load balancing pool. 
+Use the [SoftLayer_Network_LoadBalancer_Global_Host::deleteObject]({{<ref "reference/services/SoftLayer_Network_LoadBalancer_Global_Host/deleteObject">}}) method to remove a host from your global load balancing pool. 
 
 Global load balancer accounts can only be removed by opening a ticket with the SoftLayer accounting team and request that the global load balancer service be canceled. 
 
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/addNsRecord'> addNsRecord</a> </span>
-            <div class='views-field-body'>Add the required nameserver resource record for a global load balancer account.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit a global load balancer account and the hosts that make up the load balancing pool.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getAccount'> getAccount</a> </span>
-            <div class='views-field-body'>Retrieve your SoftLayer customer account.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getBillingItem'> getBillingItem</a> </span>
-            <div class='views-field-body'>Retrieve the current billing item for a Global Load Balancer account.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getHosts'> getHosts</a> </span>
-            <div class='views-field-body'>Retrieve the hosts in the load balancing pool for a global load balancer account.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getLoadBalanceType'> getLoadBalanceType</a> </span>
-            <div class='views-field-body'>Retrieve the load balance method of a global load balancer account</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getManagedResourceFlag'> getManagedResourceFlag</a> </span>
-            <div class='views-field-body'>Retrieve a flag indicating that the global load balancer is a managed resource.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Network_LoadBalancer_Global_Account record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/removeNsRecord'> removeNsRecord</a> </span>
-            <div class='views-field-body'>Remove the required nameserver resource record for a global load balancer account.</div>
-        </div>
-        </div>
+</div>
+
+#### [addNsRecord](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/addNsRecord)
+Add the required nameserver resource record for a global load balancer account.
+
+#### [editObject](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/editObject)
+Edit a global load balancer account and the hosts that make up the load balancing pool.
+
+#### [getAccount](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getAccount)
+Retrieve your SoftLayer customer account.
+
+#### [getBillingItem](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getBillingItem)
+Retrieve the current billing item for a Global Load Balancer account.
+
+#### [getHosts](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getHosts)
+Retrieve the hosts in the load balancing pool for a global load balancer account.
+
+#### [getLoadBalanceType](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getLoadBalanceType)
+Retrieve the load balance method of a global load balancer account
+
+#### [getManagedResourceFlag](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getManagedResourceFlag)
+Retrieve a flag indicating that the global load balancer is a managed resource.
+
+#### [getObject](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getObject)
+Retrieve a SoftLayer_Network_LoadBalancer_Global_Account record.
+
+#### [removeNsRecord](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/removeNsRecord)
+Remove the required nameserver resource record for a global load balancer account.
+
 </div>
 

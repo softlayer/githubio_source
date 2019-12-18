@@ -2,7 +2,7 @@
 title: "SoftLayer_Layout_Profile_Preference"
 description: "The profile preferences are an aggregation of the default preferences and the customized preferences. 
 
-For each [[SoftL... "
+For each [SoftLa... "
 date: "2018-02-12"
 layout: "service"
 tags:
@@ -22,7 +22,7 @@ classes:
 ## Description
 The profile preferences are an aggregation of the default preferences and the customized preferences. 
 
-For each [[SoftLayer_Layout_Profile_Containers|associated container]] on a [[SoftLayer_Layout_Profile|profile]], the [[SoftLayer_Layout_Preference|default preferences]] are inherited through the profile preferences. However, any one of these may be overridden through the [[SoftLayer_Layout_Profile::modifyPreference()]] method. Rather than maintaining two different sets of preferences, all preferences are grouped together through the profile preferences, presenting the customized preferences in place of the default preferences they are overriding. 
+For each [SoftLayer_Layout_Profile_Containers]({{<ref "reference/datatypes/SoftLayer_Layout_Profile_Containers">}}) method. Rather than maintaining two different sets of preferences, all preferences are grouped together through the profile preferences, presenting the customized preferences in place of the default preferences they are overriding. 
 
 
 
@@ -38,37 +38,33 @@ For each [[SoftLayer_Layout_Profile_Containers|associated container]] on a [[Sof
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Preference/getLayoutContainer'> getLayoutContainer</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Preference/getLayoutItem'> getLayoutItem</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Preference/getLayoutPreference'> getLayoutPreference</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Preference/getLayoutProfile'> getLayoutProfile</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Layout_Profile_Preference/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Layout_Profile_Preference record.</div>
-        </div>
-        </div>
+</div>
+
+#### [getLayoutContainer](/reference/services/SoftLayer_Layout_Profile_Preference/getLayoutContainer)
+
+
+#### [getLayoutItem](/reference/services/SoftLayer_Layout_Profile_Preference/getLayoutItem)
+
+
+#### [getLayoutPreference](/reference/services/SoftLayer_Layout_Profile_Preference/getLayoutPreference)
+
+
+#### [getLayoutProfile](/reference/services/SoftLayer_Layout_Profile_Preference/getLayoutProfile)
+
+
+#### [getObject](/reference/services/SoftLayer_Layout_Profile_Preference/getObject)
+Retrieve a SoftLayer_Layout_Profile_Preference record.
+
 </div>
 

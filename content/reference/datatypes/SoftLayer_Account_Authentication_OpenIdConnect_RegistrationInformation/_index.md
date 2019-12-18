@@ -36,39 +36,30 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#existingBlueIdFlag" name=existingBlueIdFlag>existingBlueIdFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#federatedEmailDomainFlag" name=federatedEmailDomainFlag>federatedEmailDomainFlag</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>boolean</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#user" name=user>user</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[existingBlueIdFlag]: #existingblueidflag
+#### [existingBlueIdFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[federatedEmailDomainFlag]: #federatedemaildomainflag
+#### [federatedEmailDomainFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+-----
+[user]: #user
+#### [user]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

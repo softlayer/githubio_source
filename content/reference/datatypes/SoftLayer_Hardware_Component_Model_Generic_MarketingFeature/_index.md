@@ -36,43 +36,35 @@ The SoftLayer_Hardware_Component_Model_Generic_MarketingFeature data type contai
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#features" name=features>features</a>
-            </span>
-            <div class='views-field-body'>An html formatted list of all features. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#price" name=price>price</a>
-            </span>
-            <div class='views-field-body'>A hardware component's upgrade price. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#hardwareGenericComponentModel" name=hardwareGenericComponentModel>hardwareGenericComponentModel</a>
-            </span>
-            <div class='views-field-body'>The generic component model for a list of advertising or marketing features </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[features]: #features
+#### [features]
+An html formatted list of all features.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[price]: #price
+#### [price]
+A hardware component's upgrade price.  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[hardwareGenericComponentModel]: #hardwaregenericcomponentmodel
+#### [hardwareGenericComponentModel]
+The generic component model for a list of advertising or marketing features  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic </a>**
+
+
+## Count
 </div>
 
 

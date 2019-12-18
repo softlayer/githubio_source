@@ -41,123 +41,84 @@ The SoftLayer_Network_LBaaS_Pool type presents a structure containing attributes
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>Create date of the pool instance </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#loadBalancingAlgorithm" name=loadBalancingAlgorithm>loadBalancingAlgorithm</a>
-            </span>
-            <div class='views-field-body'>Load balancing algorithm: "ROUNDROBIN", "WEIGHTED_RR", "LEASTCONNECTION" </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>Last updated date of the pool </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#protocol" name=protocol>protocol</a>
-            </span>
-            <div class='views-field-body'>Backends protocol, supported protocols are "TCP", "HTTP" and "HTTPS" </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#protocolPort" name=protocolPort>protocolPort</a>
-            </span>
-            <div class='views-field-body'>Backends protocol port </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#provisioningStatus" name=provisioningStatus>provisioningStatus</a>
-            </span>
-            <div class='views-field-body'>Provisioning status of a load balancer pool. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#uuid" name=uuid>uuid</a>
-            </span>
-            <div class='views-field-body'>Instance uuid of the pool </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#healthMonitor" name=healthMonitor>healthMonitor</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_HealthMonitor'>SoftLayer_Network_LBaaS_HealthMonitor </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#members" name=members>members</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_Member'>SoftLayer_Network_LBaaS_Member[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#sessionAffinity" name=sessionAffinity>sessionAffinity</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_SessionAffinity'>SoftLayer_Network_LBaaS_SessionAffinity </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#memberCount" name=memberCount>memberCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[createDate]: #createdate
+#### [createDate]
+Create date of the pool instance  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[loadBalancingAlgorithm]: #loadbalancingalgorithm
+#### [loadBalancingAlgorithm]
+Load balancing algorithm: "ROUNDROBIN", "WEIGHTED_RR", "LEASTCONNECTION"  
+<span class="type-label">Type: </span>**string**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+Last updated date of the pool  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[protocol]: #protocol
+#### [protocol]
+Backends protocol, supported protocols are "TCP", "HTTP" and "HTTPS"  
+<span class="type-label">Type: </span>**string**
+
+-----
+[protocolPort]: #protocolport
+#### [protocolPort]
+Backends protocol port  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[provisioningStatus]: #provisioningstatus
+#### [provisioningStatus]
+Provisioning status of a load balancer pool.  
+<span class="type-label">Type: </span>**string**
+
+-----
+[uuid]: #uuid
+#### [uuid]
+Instance uuid of the pool  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[healthMonitor]: #healthmonitor
+#### [healthMonitor]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_HealthMonitor'>SoftLayer_Network_LBaaS_HealthMonitor </a>**
+
+-----
+[members]: #members
+#### [members]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_Member'>SoftLayer_Network_LBaaS_Member[] </a>**
+
+-----
+[sessionAffinity]: #sessionaffinity
+#### [sessionAffinity]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_SessionAffinity'>SoftLayer_Network_LBaaS_SessionAffinity </a>**
+
+
+## Count
+
+-----
+[memberCount]: #membercount
+#### [memberCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

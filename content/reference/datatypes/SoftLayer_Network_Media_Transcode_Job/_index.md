@@ -36,223 +36,144 @@ The SoftLayer_Network_Media_Transcode_Job contains information regarding a trans
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#autoDeleteDuration" name=autoDeleteDuration>autoDeleteDuration</a>
-            </span>
-            <div class='views-field-body'>The auto-deletion duration in seconds.  This value determines how long the input file will be kept on the storage. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#byteIn" name=byteIn>byteIn</a>
-            </span>
-            <div class='views-field-body'>The size of an input file in byte </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#createDate" name=createDate>createDate</a>
-            </span>
-            <div class='views-field-body'>The created date </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of a transcode job </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#inputFile" name=inputFile>inputFile</a>
-            </span>
-            <div class='views-field-body'>The input file name </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#modifyDate" name=modifyDate>modifyDate</a>
-            </span>
-            <div class='views-field-body'>The last modified date </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#name" name=name>name</a>
-            </span>
-            <div class='views-field-body'>The name of a transcode job </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#outputFile" name=outputFile>outputFile</a>
-            </span>
-            <div class='views-field-body'>The output file name </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#transcodeAccountId" name=transcodeAccountId>transcodeAccountId</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of SoftLayer account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#transcodeJobGuid" name=transcodeJobGuid>transcodeJobGuid</a>
-            </span>
-            <div class='views-field-body'>The unique id of a transcode job </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#transcodePresetGuid" name=transcodePresetGuid>transcodePresetGuid</a>
-            </span>
-            <div class='views-field-body'>The unique id of a pre-defined output format </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#transcodePresetName" name=transcodePresetName>transcodePresetName</a>
-            </span>
-            <div class='views-field-body'>The name of a transcode output preset </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#transcodeStatusId" name=transcodeStatusId>transcodeStatusId</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of a transcode status </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#userId" name=userId>userId</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of the user who created a transcode job </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#watermark" name=watermark>watermark</a>
-            </span>
-            <div class='views-field-body'>Watermark to apply to job </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Network_Media_Transcode_Job_Watermark'>SoftLayer_Container_Network_Media_Transcode_Job_Watermark </a></p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#history" name=history>history</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Job_History'>SoftLayer_Network_Media_Transcode_Job_History[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#transcodeAccount" name=transcodeAccount>transcodeAccount</a>
-            </span>
-            <div class='views-field-body'>The transcode service account </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Account'>SoftLayer_Network_Media_Transcode_Account </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#transcodeStatus" name=transcodeStatus>transcodeStatus</a>
-            </span>
-            <div class='views-field-body'>The status information of a transcode job </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Job_Status'>SoftLayer_Network_Media_Transcode_Job_Status </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#transcodeStatusName" name=transcodeStatusName>transcodeStatusName</a>
-            </span>
-            <div class='views-field-body'>The status of a transcode job </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#user" name=user>user</a>
-            </span>
-            <div class='views-field-body'>The SoftLayer user that created the transcode job </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#historyCount" name=historyCount>historyCount</a>
-            </span>
-            <div class='views-field-body'>A count of  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>unsignedLong</p>
-            </div>
-        </div>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[autoDeleteDuration]: #autodeleteduration
+#### [autoDeleteDuration]
+The auto-deletion duration in seconds.  This value determines how long the input file will be kept on the storage.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[byteIn]: #bytein
+#### [byteIn]
+The size of an input file in byte  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[createDate]: #createdate
+#### [createDate]
+The created date  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[id]: #id
+#### [id]
+The internal identifier of a transcode job  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[inputFile]: #inputfile
+#### [inputFile]
+The input file name  
+<span class="type-label">Type: </span>**string**
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+The last modified date  
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[name]: #name
+#### [name]
+The name of a transcode job  
+<span class="type-label">Type: </span>**string**
+
+-----
+[outputFile]: #outputfile
+#### [outputFile]
+The output file name  
+<span class="type-label">Type: </span>**string**
+
+-----
+[transcodeAccountId]: #transcodeaccountid
+#### [transcodeAccountId]
+The internal identifier of SoftLayer account  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[transcodeJobGuid]: #transcodejobguid
+#### [transcodeJobGuid]
+The unique id of a transcode job  
+<span class="type-label">Type: </span>**string**
+
+-----
+[transcodePresetGuid]: #transcodepresetguid
+#### [transcodePresetGuid]
+The unique id of a pre-defined output format  
+<span class="type-label">Type: </span>**string**
+
+-----
+[transcodePresetName]: #transcodepresetname
+#### [transcodePresetName]
+The name of a transcode output preset  
+<span class="type-label">Type: </span>**string**
+
+-----
+[transcodeStatusId]: #transcodestatusid
+#### [transcodeStatusId]
+The internal identifier of a transcode status  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[userId]: #userid
+#### [userId]
+The internal identifier of the user who created a transcode job  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[watermark]: #watermark
+#### [watermark]
+Watermark to apply to job  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Network_Media_Transcode_Job_Watermark'>SoftLayer_Container_Network_Media_Transcode_Job_Watermark </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[history]: #history
+#### [history]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Job_History'>SoftLayer_Network_Media_Transcode_Job_History[] </a>**
+
+-----
+[transcodeAccount]: #transcodeaccount
+#### [transcodeAccount]
+The transcode service account  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Account'>SoftLayer_Network_Media_Transcode_Account </a>**
+
+-----
+[transcodeStatus]: #transcodestatus
+#### [transcodeStatus]
+The status information of a transcode job  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Job_Status'>SoftLayer_Network_Media_Transcode_Job_Status </a>**
+
+-----
+[transcodeStatusName]: #transcodestatusname
+#### [transcodeStatusName]
+The status of a transcode job  
+<span class="type-label">Type: </span>**string**
+
+-----
+[user]: #user
+#### [user]
+The SoftLayer user that created the transcode job  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+
+
+## Count
+
+-----
+[historyCount]: #historycount
+#### [historyCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
 </div>
 
 

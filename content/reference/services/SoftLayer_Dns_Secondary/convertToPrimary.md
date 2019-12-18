@@ -26,7 +26,7 @@ Primary DNS record conversion performs the following steps:
 
 
 After the DNS records are converted, the following restrictions will apply to the new domain record: 
-* You will need to manage the zone record using the [[SoftLayer_Dns_Domain]] service.
+* You will need to manage the zone record using the [SoftLayer_Dns_Domain]({{<ref "reference/datatypes/SoftLayer_Dns_Domain">}}) service.
 * You may not edit the SOA or NS records.
 * You may only edit the following resource records: A, AAAA, CNAME, MX, TX, SRV.
 

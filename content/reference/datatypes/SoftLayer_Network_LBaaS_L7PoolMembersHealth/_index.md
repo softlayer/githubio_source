@@ -36,29 +36,24 @@ SoftLayer_Network_LBaaS_L7PoolMembersHealth provides statistics of members belon
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#l7PoolUuid" name=l7PoolUuid>l7PoolUuid</a>
-            </span>
-            <div class='views-field-body'>Instance uuid of the L7 pool </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#membersHealth" name=membersHealth>membersHealth</a>
-            </span>
-            <div class='views-field-body'>Members statistics of the L7 pool </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_LBaaS_MemberHealth'>SoftLayer_Network_LBaaS_MemberHealth[] </a></p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[l7PoolUuid]: #l7pooluuid
+#### [l7PoolUuid]
+Instance uuid of the L7 pool  
+<span class="type-label">Type: </span>**string**
+
+-----
+[membersHealth]: #membershealth
+#### [membersHealth]
+Members statistics of the L7 pool  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_MemberHealth'>SoftLayer_Network_LBaaS_MemberHealth[] </a>**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

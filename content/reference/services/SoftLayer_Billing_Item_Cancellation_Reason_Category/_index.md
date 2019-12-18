@@ -23,29 +23,27 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Item_Cancellation_Reason_Category/getAllCancellationReasonCategories'> getAllCancellationReasonCategories</a> </span>
-            <div class='views-field-body'>Retrieve all available cancellation reason categories. </div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Item_Cancellation_Reason_Category/getBillingCancellationReasons'> getBillingCancellationReasons</a> </span>
-            <div class='views-field-body'>Retrieve the corresponding billing cancellation reasons having the specific billing cancellation reason category.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Billing_Item_Cancellation_Reason_Category/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Billing_Item_Cancellation_Reason_Category record.</div>
-        </div>
-        </div>
+</div>
+
+#### [getAllCancellationReasonCategories](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason_Category/getAllCancellationReasonCategories)
+Retrieve all available cancellation reason categories. 
+
+#### [getBillingCancellationReasons](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason_Category/getBillingCancellationReasons)
+Retrieve the corresponding billing cancellation reasons having the specific billing cancellation reason category.
+
+#### [getObject](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason_Category/getObject)
+Retrieve a SoftLayer_Billing_Item_Cancellation_Reason_Category record.
+
 </div>
 

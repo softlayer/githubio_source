@@ -1,6 +1,6 @@
 ---
 title: "getAllAuthenticationPinModes"
-description: "This service returns key names of all available authentication modes. Refer to [[SoftLayer_User_Customer_External_Bindin... "
+description: "This service returns key names of all available authentication modes. Refer to [SoftLayer_User_Customer_External_Binding... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Returns available authentication pin modes
 
 
 ## Overview 
-This service returns key names of all available authentication modes. Refer to [[SoftLayer_User_Customer_External_Binding_Phone::getAllAuthenticationModes|getAllAuthenticationModes]] to retrieve authentication mode key names. 
+This service returns key names of all available authentication modes. Refer to [SoftLayer_User_Customer_External_Binding_Phone::getAllAuthenticationModes]({{<ref "reference/services/SoftLayer_User_Customer_External_Binding_Phone/getAllAuthenticationModes">}}) to retrieve authentication mode key names. 
 
 -----
 

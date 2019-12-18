@@ -58,7 +58,7 @@ As with domain changes, resource record changes happen immediately, but may take
 * [SoftLayer_Dns_Domain_ResourceRecord_CnameType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_CnameType )
 
 
-* [SoftLayer_Dns_Domain_ResourceRecord_MxType](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType )
+* [SoftLayer_Dns_Domain_ResourceRecord_MxType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_MxType )
 
 
 * [SoftLayer_Dns_Domain_ResourceRecord_NsType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_NsType )
@@ -73,56 +73,49 @@ As with domain changes, resource record changes happen immediately, but may take
 * [SoftLayer_Dns_Domain_ResourceRecord_SpfType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SpfType )
 
 
-* [SoftLayer_Dns_Domain_ResourceRecord_SrvType](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType )
+* [SoftLayer_Dns_Domain_ResourceRecord_SrvType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SrvType )
 
 
 * [SoftLayer_Dns_Domain_ResourceRecord_TxtType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_TxtType )
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create a domain's resource record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObjects'> createObjects</a> </span>
-            <div class='views-field-body'>Create multiple domain resource records.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObject'> deleteObject</a> </span>
-            <div class='views-field-body'>Delete a domain's resource record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObjects'> deleteObjects</a> </span>
-            <div class='views-field-body'>Delete multiple resource records from a domain.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord/editObject'> editObject</a> </span>
-            <div class='views-field-body'>Edit a domain's resource record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord/editObjects'> editObjects</a> </span>
-            <div class='views-field-body'>Edit multiple domain resource records.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord/getDomain'> getDomain</a> </span>
-            <div class='views-field-body'>Retrieve the domain that a resource record belongs to.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Dns_Domain_ResourceRecord/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Dns_Domain_ResourceRecord record.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObject)
+Create a domain's resource record.
+
+#### [createObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObjects)
+Create multiple domain resource records.
+
+#### [deleteObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObject)
+Delete a domain's resource record.
+
+#### [deleteObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObjects)
+Delete multiple resource records from a domain.
+
+#### [editObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/editObject)
+Edit a domain's resource record.
+
+#### [editObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/editObjects)
+Edit multiple domain resource records.
+
+#### [getDomain](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/getDomain)
+Retrieve the domain that a resource record belongs to.
+
+#### [getObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/getObject)
+Retrieve a SoftLayer_Dns_Domain_ResourceRecord record.
+
 </div>
 

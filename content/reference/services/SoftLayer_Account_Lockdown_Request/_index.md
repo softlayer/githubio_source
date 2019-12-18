@@ -29,41 +29,36 @@ Disabling an account is a PERMANENT action. All billable items under the account
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Lockdown_Request/cancelRequest'> cancelRequest</a> </span>
-            <div class='views-field-body'>Allows approved brands to cancel a previously scheduled lockdown request.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Lockdown_Request/disableLockedAccount'> disableLockedAccount</a> </span>
-            <div class='views-field-body'>Disabling an account is a PERMANENT action. All billable items associated</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Lockdown_Request/disconnectCompute'> disconnectCompute</a> </span>
-            <div class='views-field-body'>Disconnecting a customer will disable all hardware resources (servers and</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Lockdown_Request/getAccountHistory'> getAccountHistory</a> </span>
-            <div class='views-field-body'>Provides a history of an account's lockdown requests and their status.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Lockdown_Request/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Account_Lockdown_Request record.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Account_Lockdown_Request/reconnectCompute'> reconnectCompute</a> </span>
-            <div class='views-field-body'>Reconnecting a customer will reconnect all previously disconnected</div>
-        </div>
-        </div>
+</div>
+
+#### [cancelRequest](/reference/services/SoftLayer_Account_Lockdown_Request/cancelRequest)
+Allows approved brands to cancel a previously scheduled lockdown request.
+
+#### [disableLockedAccount](/reference/services/SoftLayer_Account_Lockdown_Request/disableLockedAccount)
+Disabling an account is a PERMANENT action. All billable items associated
+
+#### [disconnectCompute](/reference/services/SoftLayer_Account_Lockdown_Request/disconnectCompute)
+Disconnecting a customer will disable all hardware resources (servers and
+
+#### [getAccountHistory](/reference/services/SoftLayer_Account_Lockdown_Request/getAccountHistory)
+Provides a history of an account's lockdown requests and their status.
+
+#### [getObject](/reference/services/SoftLayer_Account_Lockdown_Request/getObject)
+Retrieve a SoftLayer_Account_Lockdown_Request record.
+
+#### [reconnectCompute](/reference/services/SoftLayer_Account_Lockdown_Request/reconnectCompute)
+Reconnecting a customer will reconnect all previously disconnected
+
 </div>
 

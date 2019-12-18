@@ -44,73 +44,53 @@ Package preset attributes contain supplementary information for a package preset
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributeTypeId" name=attributeTypeId>attributeTypeId</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of the type of attribute that a pacakge preset attribute belongs to.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>A package preset attribute's internal identifier.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#presetId" name=presetId>presetId</a>
-            </span>
-            <div class='views-field-body'>The internal identifier of the package preset an attribute belongs to.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#value" name=value>value</a>
-            </span>
-            <div class='views-field-body'>A package preset's attribute value.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#attributeType" name=attributeType>attributeType</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Package_Preset_Attribute_Type'>SoftLayer_Product_Package_Preset_Attribute_Type </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#preset" name=preset>preset</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[attributeTypeId]: #attributetypeid
+#### [attributeTypeId]
+The internal identifier of the type of attribute that a pacakge preset attribute belongs to.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[id]: #id
+#### [id]
+A package preset attribute's internal identifier.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[presetId]: #presetid
+#### [presetId]
+The internal identifier of the package preset an attribute belongs to.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[value]: #value
+#### [value]
+A package preset's attribute value.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[attributeType]: #attributetype
+#### [attributeType]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset_Attribute_Type'>SoftLayer_Product_Package_Preset_Attribute_Type </a>**
+
+-----
+[preset]: #preset
+#### [preset]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset </a>**
+
+
+## Count
 </div>
 
 

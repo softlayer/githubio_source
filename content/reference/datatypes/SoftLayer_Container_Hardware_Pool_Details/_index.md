@@ -36,119 +36,78 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pendingOrders" name=pendingOrders>pendingOrders</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#pendingTransactions" name=pendingTransactions>pendingTransactions</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#poolDescription" name=poolDescription>poolDescription</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#poolKeyName" name=poolKeyName>poolKeyName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#poolName" name=poolName>poolName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#routers" name=routers>routers</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Container_Hardware_Pool_Details_Router'>SoftLayer_Container_Hardware_Pool_Details_Router[] </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#totalHardware" name=totalHardware>totalHardware</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#totalInventoryHardware" name=totalInventoryHardware>totalInventoryHardware</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#totalProvisionedHardware" name=totalProvisionedHardware>totalProvisionedHardware</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#totalTestedHardware" name=totalTestedHardware>totalTestedHardware</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#totalTestingHardware" name=totalTestingHardware>totalTestingHardware</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[pendingOrders]: #pendingorders
+#### [pendingOrders]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[pendingTransactions]: #pendingtransactions
+#### [pendingTransactions]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[poolDescription]: #pooldescription
+#### [poolDescription]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[poolKeyName]: #poolkeyname
+#### [poolKeyName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[poolName]: #poolname
+#### [poolName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[routers]: #routers
+#### [routers]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Pool_Details_Router'>SoftLayer_Container_Hardware_Pool_Details_Router[] </a>**
+
+-----
+[totalHardware]: #totalhardware
+#### [totalHardware]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[totalInventoryHardware]: #totalinventoryhardware
+#### [totalInventoryHardware]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[totalProvisionedHardware]: #totalprovisionedhardware
+#### [totalProvisionedHardware]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[totalTestedHardware]: #totaltestedhardware
+#### [totalTestedHardware]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[totalTestingHardware]: #totaltestinghardware
+#### [totalTestingHardware]
+  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

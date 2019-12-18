@@ -36,89 +36,60 @@ classes:
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#poolThreshold" name=poolThreshold>poolThreshold</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#routerId" name=routerId>routerId</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#routerName" name=routerName>routerName</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#totalHardware" name=totalHardware>totalHardware</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#totalInventoryHardware" name=totalInventoryHardware>totalInventoryHardware</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#totalProvisionedHardware" name=totalProvisionedHardware>totalProvisionedHardware</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#totalTestedHardware" name=totalTestedHardware>totalTestedHardware</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#totalTestingHardware" name=totalTestingHardware>totalTestingHardware</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[poolThreshold]: #poolthreshold
+#### [poolThreshold]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[routerId]: #routerid
+#### [routerId]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[routerName]: #routername
+#### [routerName]
+  
+<span class="type-label">Type: </span>**string**
+
+-----
+[totalHardware]: #totalhardware
+#### [totalHardware]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[totalInventoryHardware]: #totalinventoryhardware
+#### [totalInventoryHardware]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[totalProvisionedHardware]: #totalprovisionedhardware
+#### [totalProvisionedHardware]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[totalTestedHardware]: #totaltestedhardware
+#### [totalTestedHardware]
+  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[totalTestingHardware]: #totaltestinghardware
+#### [totalTestingHardware]
+  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

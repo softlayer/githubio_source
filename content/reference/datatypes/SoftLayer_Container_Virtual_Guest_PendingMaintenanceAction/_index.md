@@ -36,71 +36,50 @@ The SoftLayer_Container_Virtual_Guest_PendingMaintenanceAction data type contain
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#actionId" name=actionId>actionId</a>
-            </span>
-            <div class='views-field-body'>The ID of the associated action.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#dueDate" name=dueDate>dueDate</a>
-            </span>
-            <div class='views-field-body'>The datetime at which this action will be initiated regardless of customer action (if it has not already been completed).  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>dateTime</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#status" name=status>status</a>
-            </span>
-            <div class='views-field-body'>User-friendly status. 
+<div id="localProperties" class="prop-content" >
 
-The <code>Completed</code> status means that it is done, no further action is required. The <code>Scheduled</code> status means that the action is pending and will start on the <code>dueDate</code> if no customer action is taken before such time. The <code>In Progress</code> status means the action is currently being executed.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#ticket" name=ticket>ticket</a>
-            </span>
-            <div class='views-field-body'>The ticket associated with this maintenance action.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#title" name=title>title</a>
-            </span>
-            <div class='views-field-body'>The Title for the associated action.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#triggerExplanation" name=triggerExplanation>triggerExplanation</a>
-            </span>
-            <div class='views-field-body'>The Trigger Explanation for the associated action.  </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+## Local
+-----
+[actionId]: #actionid
+#### [actionId]
+The ID of the associated action.   
+<span class="type-label">Type: </span>**integer**
+
+-----
+[dueDate]: #duedate
+#### [dueDate]
+The datetime at which this action will be initiated regardless of customer action (if it has not already been completed).   
+<span class="type-label">Type: </span>**dateTime**
+
+-----
+[status]: #status
+#### [status]
+User-friendly status. 
+
+The <code>Completed</code> status means that it is done, no further action is required. The <code>Scheduled</code> status means that the action is pending and will start on the <code>dueDate</code> if no customer action is taken before such time. The <code>In Progress</code> status means the action is currently being executed.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[ticket]: #ticket
+#### [ticket]
+The ticket associated with this maintenance action.   
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+
+-----
+[title]: #title
+#### [title]
+The Title for the associated action.   
+<span class="type-label">Type: </span>**string**
+
+-----
+[triggerExplanation]: #triggerexplanation
+#### [triggerExplanation]
+The Trigger Explanation for the associated action.   
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

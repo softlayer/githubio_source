@@ -41,39 +41,30 @@ Funding codes for the department paying for the proof of concept account.
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#countryCode" name=countryCode>countryCode</a>
-            </span>
-            <div class='views-field-body'>Internal billing system country code </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#departmentCode" name=departmentCode>departmentCode</a>
-            </span>
-            <div class='views-field-body'>Customer's Internal billing system department code </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#divisionCode" name=divisionCode>divisionCode</a>
-            </span>
-            <div class='views-field-body'>Internal billing system division code </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>string</p>
-            </div>
-        </div>
-            </div>
-    </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[countryCode]: #countrycode
+#### [countryCode]
+Internal billing system country code  
+<span class="type-label">Type: </span>**string**
+
+-----
+[departmentCode]: #departmentcode
+#### [departmentCode]
+Customer's Internal billing system department code  
+<span class="type-label">Type: </span>**string**
+
+-----
+[divisionCode]: #divisioncode
+#### [divisionCode]
+Internal billing system division code  
+<span class="type-label">Type: </span>**string**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+</div>
 
 

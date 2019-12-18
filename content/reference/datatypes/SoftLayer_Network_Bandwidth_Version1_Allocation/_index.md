@@ -36,53 +36,41 @@ The SoftLayer_Network_Bandwidth_Version1_Allocation data type contains general i
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#amount" name=amount>amount</a>
-            </span>
-            <div class='views-field-body'>The amount of bandwidth allocated. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>decimal</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>Internal ID associated with this allocation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#allotmentDetail" name=allotmentDetail>allotmentDetail</a>
-            </span>
-            <div class='views-field-body'>A bandwidth allotment detail. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Detail'>SoftLayer_Network_Bandwidth_Version1_Allotment_Detail </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#billingItem" name=billingItem>billingItem</a>
-            </span>
-            <div class='views-field-body'>Billing item associated with this hardware allocation. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Billing_Item_Hardware'>SoftLayer_Billing_Item_Hardware </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[amount]: #amount
+#### [amount]
+The amount of bandwidth allocated.  
+<span class="type-label">Type: </span>**decimal**
+
+-----
+[id]: #id
+#### [id]
+Internal ID associated with this allocation.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[allotmentDetail]: #allotmentdetail
+#### [allotmentDetail]
+A bandwidth allotment detail.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Detail'>SoftLayer_Network_Bandwidth_Version1_Allotment_Detail </a>**
+
+-----
+[billingItem]: #billingitem
+#### [billingItem]
+Billing item associated with this hardware allocation.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Hardware'>SoftLayer_Billing_Item_Hardware </a>**
+
+
+## Count
 </div>
 
 

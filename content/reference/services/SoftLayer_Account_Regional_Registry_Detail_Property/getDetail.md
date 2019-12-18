@@ -1,6 +1,6 @@
 ---
 title: "getDetail"
-description: "Retrieve the [[SoftLayer_Account_Regional_Registry_Detail]] object this property belongs to"
+description: "Retrieve the [SoftLayer_Account_Regional_Registry_Detail]({{<ref 'reference/datatypes/SoftLayer_Account_Regional_Registr... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Account_Regional_Registry_Detail_Property](/reference/services/SoftLayer_Account_Regional_Registry_Detail_Property)::getDetail
 
-Retrieve the [[SoftLayer_Account_Regional_Registry_Detail]] object this property belongs to
+Retrieve the [SoftLayer_Account_Regional_Registry_Detail]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail">}}) object this property belongs to
 
 
 ## Overview 
-Retrieve the [[SoftLayer_Account_Regional_Registry_Detail]] object this property belongs to
+Retrieve the [SoftLayer_Account_Regional_Registry_Detail]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail">}}) object this property belongs to
 
 -----
 

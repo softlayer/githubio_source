@@ -23,37 +23,33 @@ classes:
 
 
         
-<div id="properties" class="content">
-    <h2>Methods</h2>
-    <div class="view-filters">
-        <div class="clearfix">
-            <div class="search-input-box">
-                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                    type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-            </div>
+<div id="properties" class="content service-content">
+
+## Methods
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
-    <div id="method-div">
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Notification_User_Subscriber_Preference/createObject'> createObject</a> </span>
-            <div class='views-field-body'>Create a new notification preference for a subscriber.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Notification_User_Subscriber_Preference/editObjects'> editObjects</a> </span>
-            <div class='views-field-body'></div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Notification_User_Subscriber_Preference/getDefaultPreference'> getDefaultPreference</a> </span>
-            <div class='views-field-body'>Retrieve details such name, keyname, minimum and maximum values for the preference.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Notification_User_Subscriber_Preference/getNotificationUserSubscriber'> getNotificationUserSubscriber</a> </span>
-            <div class='views-field-body'>Retrieve details of the subscriber tied to the preference.</div>
-        </div>
-            <div class="method-row">
-                        <span class='view-field-title'><a href='/reference/services/SoftLayer_Notification_User_Subscriber_Preference/getObject'> getObject</a> </span>
-            <div class='views-field-body'>Retrieve a SoftLayer_Notification_User_Subscriber_Preference record.</div>
-        </div>
-        </div>
+</div>
+
+#### [createObject](/reference/services/SoftLayer_Notification_User_Subscriber_Preference/createObject)
+Create a new notification preference for a subscriber.
+
+#### [editObjects](/reference/services/SoftLayer_Notification_User_Subscriber_Preference/editObjects)
+
+
+#### [getDefaultPreference](/reference/services/SoftLayer_Notification_User_Subscriber_Preference/getDefaultPreference)
+Retrieve details such name, keyname, minimum and maximum values for the preference.
+
+#### [getNotificationUserSubscriber](/reference/services/SoftLayer_Notification_User_Subscriber_Preference/getNotificationUserSubscriber)
+Retrieve details of the subscriber tied to the preference.
+
+#### [getObject](/reference/services/SoftLayer_Notification_User_Subscriber_Preference/getObject)
+Retrieve a SoftLayer_Notification_User_Subscriber_Preference record.
+
 </div>
 

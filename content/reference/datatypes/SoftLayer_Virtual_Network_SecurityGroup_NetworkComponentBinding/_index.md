@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-The SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding data type contains general information for a single binding. A binding associates a [[SoftLayer_Virtual_Guest_Network_Component]] with a [[SoftLayer_Network_SecurityGroup]]. 
+The SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding data type contains general information for a single binding. A binding associates a [SoftLayer_Virtual_Guest_Network_Component]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Network_Component">}}) with a [SoftLayer_Network_SecurityGroup]({{<ref "reference/datatypes/SoftLayer_Network_SecurityGroup">}}). 
 
 
 
@@ -36,63 +36,47 @@ The SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding data type co
 <!-- Service Filer END -->
 
 <div id="properties" class="content">
-    <div id="localProperties" class="prop-content" >
-        <h2>Local</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#id" name=id>id</a>
-            </span>
-            <div class='views-field-body'>The unique ID for a binding. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkComponentId" name=networkComponentId>networkComponentId</a>
-            </span>
-            <div class='views-field-body'>The ID of the network component. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityGroupId" name=securityGroupId>securityGroupId</a>
-            </span>
-            <div class='views-field-body'>The ID of the security group. </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p>integer</p>
-            </div>
-        </div>
-            </div>
-        <div id="relationalProperties"  class="prop-content" >
-        <h2>Relational</h2>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#networkComponent" name=networkComponent>networkComponent</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a></p>
-            </div>
-        </div>
-                <div class='prop-row views-row'>
-            <span class='views-field-title'>
-                <a href="#securityGroup" name=securityGroup>securityGroup</a>
-            </span>
-            <div class='views-field-body'> </div>
-            <span class="type-label">Type:</span> 
-            <div class='type-content'>
-                <p><a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a></p>
-            </div>
-        </div>
-                <h2>Count</h2>
-            </div>
+<div id="localProperties" class="prop-content" >
+
+## Local
+-----
+[id]: #id
+#### [id]
+The unique ID for a binding.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[networkComponentId]: #networkcomponentid
+#### [networkComponentId]
+The ID of the network component.  
+<span class="type-label">Type: </span>**integer**
+
+-----
+[securityGroupId]: #securitygroupid
+#### [securityGroupId]
+The ID of the security group.  
+<span class="type-label">Type: </span>**integer**
+
+</div>
+<!-- LOCAL PROPERTY END -->
+
+<div id="relationalProperties"  class="prop-content" >
+
+## Relational
+-----
+[networkComponent]: #networkcomponent
+#### [networkComponent]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a>**
+
+-----
+[securityGroup]: #securitygroup
+#### [securityGroup]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a>**
+
+
+## Count
 </div>
 
 

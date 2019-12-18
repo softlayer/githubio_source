@@ -1,6 +1,6 @@
 ---
 title: "getAttributeByType"
-description: "Retrieve a single [[SoftLayer_Account_Attribute]] record by its [[SoftLayer_Account_Attribute_Type|types's]] key name."
+description: "Retrieve a single [SoftLayer_Account_Attribute]({{<ref 'reference/datatypes/SoftLayer_Account_Attribute'>}}) record by i... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Retrieve an account attribute by type key name.
 
 
 ## Overview 
-Retrieve a single [[SoftLayer_Account_Attribute]] record by its [[SoftLayer_Account_Attribute_Type|types's]] key name. 
+Retrieve a single [SoftLayer_Account_Attribute]({{<ref "reference/datatypes/SoftLayer_Account_Attribute">}}) record by its [SoftLayer_Account_Attribute_Type]({{<ref "reference/datatypes/SoftLayer_Account_Attribute_Type">}}) key name. 
 
 -----
 
