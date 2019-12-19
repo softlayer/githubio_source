@@ -24,7 +24,7 @@ SoftLayer's support ticket groups represent the department at SoftLayer that is 
 
 ### seeAlso
 
-* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+* [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket )
 
 
 * [SoftLayer_Ticket_Group](/reference/datatypes/SoftLayer_Ticket_Group )

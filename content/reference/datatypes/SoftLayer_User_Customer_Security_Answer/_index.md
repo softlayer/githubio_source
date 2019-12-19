@@ -30,10 +30,10 @@ The SoftLayer_User_Customer_Security_Answer type contains user's answers to secu
 
 ### seeAlso
 
-* [SoftLayer_User_Customer](/reference/datatypes/SoftLayer_User_Customer )
+* [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer )
 
 
-* [SoftLayer_User_Security_Question](/reference/datatypes/SoftLayer_User_Security_Question )
+* [SoftLayer_User_Security_Question](/reference/services/SoftLayer_User_Security_Question )
 
 
 

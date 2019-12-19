@@ -24,7 +24,7 @@ Retrieve an update to a ticket made by a SoftLayer employee. Ticket updates crea
 
 ### seeAlso
 
-* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+* [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket )
 
 
 * [SoftLayer_Ticket_Update](/reference/datatypes/SoftLayer_Ticket_Update )

@@ -39,7 +39,7 @@ The SoftLayer_Network_Subnet_IpAddress data type contains general information re
 
 ### seeAlso
 
-* [SoftLayer_Network_Vlan](/reference/datatypes/SoftLayer_Network_Vlan )
+* [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan )
 
 
 * [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet )

@@ -39,7 +39,7 @@ When a Transcode account is created, it creates an FTP account on the Transcode 
 
 ### seeAlso
 
-* [SoftLayer_Network_Media_Transcode_Job](/reference/datatypes/SoftLayer_Network_Media_Transcode_Job )
+* [SoftLayer_Network_Media_Transcode_Job](/reference/services/SoftLayer_Network_Media_Transcode_Job )
 
 
         

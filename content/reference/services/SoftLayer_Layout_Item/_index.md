@@ -28,7 +28,7 @@ Each [SoftLayer_Layout_Container]({{<ref "reference/datatypes/SoftLayer_Layout_C
 
 ### seeAlso
 
-* [SoftLayer_Layout_Profile](/reference/datatypes/SoftLayer_Layout_Profile )
+* [SoftLayer_Layout_Profile](/reference/services/SoftLayer_Layout_Profile )
 
 
 * [SoftLayer_Layout_Container](/reference/services/SoftLayer_Layout_Container )

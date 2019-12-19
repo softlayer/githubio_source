@@ -27,7 +27,7 @@ The SoftLayer_Product_Upgrade_Request data type contains general information rel
 * [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order )
 
 
-* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+* [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket )
 
 
 

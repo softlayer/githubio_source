@@ -24,7 +24,7 @@ SoftLayer tickets have the ability to be assigned to one of SoftLayer's internal
 
 ### seeAlso
 
-* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+* [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket )
 
 
 * [SoftLayer_Ticket_Subject](/reference/services/SoftLayer_Ticket_Subject )

@@ -28,7 +28,7 @@ It is populated via triggers on the network_connection table (SoftLayer_Network_
 
 ### seeAlso
 
-* [SoftLayer_Hardware](/reference/datatypes/SoftLayer_Hardware )
+* [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware )
 
 
 * [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component )
