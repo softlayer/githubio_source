@@ -30,7 +30,7 @@ A ticket usually goes from the Open to Assigned to Closed states during its life
 
 ### seeAlso
 
-* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+* [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket )
 
 
 

@@ -31,10 +31,10 @@ SoftLayer tickets have the ability to be associated with specific dedicated host
 
 ### seeAlso
 
-* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+* [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket )
 
 
-* [SoftLayer_Ticket_Attachment_File](/reference/datatypes/SoftLayer_Ticket_Attachment_File )
+* [SoftLayer_Ticket_Attachment_File](/reference/services/SoftLayer_Ticket_Attachment_File )
 
 
 * [SoftLayer_Ticket_Attachment_Virtual_Guest](/reference/datatypes/SoftLayer_Ticket_Attachment_Virtual_Guest )

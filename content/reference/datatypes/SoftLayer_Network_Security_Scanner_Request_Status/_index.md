@@ -37,7 +37,7 @@ The status of a vulnerability scan will change over the course of a scan's execu
 
 ### seeAlso
 
-* [SoftLayer_Network_Security_Scanner_Request](/reference/datatypes/SoftLayer_Network_Security_Scanner_Request )
+* [SoftLayer_Network_Security_Scanner_Request](/reference/services/SoftLayer_Network_Security_Scanner_Request )
 
 
 

@@ -35,7 +35,7 @@ SoftLayer customers can order and manage IP addresses through the customer porta
 
 ### seeAlso
 
-* [SoftLayer_Network_Vlan](/reference/datatypes/SoftLayer_Network_Vlan )
+* [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan )
 
 
 * [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet )

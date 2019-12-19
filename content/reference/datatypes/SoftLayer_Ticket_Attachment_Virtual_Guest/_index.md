@@ -31,7 +31,7 @@ SoftLayer tickets have the ability to be associated with specific virtual guests
 
 ### seeAlso
 
-* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+* [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket )
 
 
 * [SoftLayer_Ticket_Attachment_File](/reference/services/SoftLayer_Ticket_Attachment_File )

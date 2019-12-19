@@ -24,7 +24,7 @@ The SoftLayer_Ticket_Update_Employee data type models an update to a ticket made
 
 ### seeAlso
 
-* [SoftLayer_Ticket](/reference/datatypes/SoftLayer_Ticket )
+* [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket )
 
 
 * [SoftLayer_Ticket_Update](/reference/datatypes/SoftLayer_Ticket_Update )

@@ -36,7 +36,7 @@ The SoftLayer_Hardware_Component data type abstracts information related to a ha
 
 ### seeAlso
 
-* [SoftLayer_Hardware_Component_Model](/reference/datatypes/SoftLayer_Hardware_Component_Model )
+* [SoftLayer_Hardware_Component_Model](/reference/services/SoftLayer_Hardware_Component_Model )
 
 
 

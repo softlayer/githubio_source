@@ -34,7 +34,7 @@ Note that a status of "PENDING" also has been added. This status is specific to 
 
 ### seeAlso
 
-* [SoftLayer_User_Customer](/reference/datatypes/SoftLayer_User_Customer )
+* [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer )
 
 
 
