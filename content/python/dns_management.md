@@ -1,13 +1,11 @@
 ---
 title: "DNS management"
 description: "How to manage DNS zones and records on SoftLayer's DNS system."
-date: "2017-11-23"
+date: "2020-01-06"
 classes: 
     - "SoftLayer_Dns_Domain"
 tags:
     - "dns"
-    - "rest"
-
 ---
 
 This article will cover how to use the API to manage DNS zones and records. For a higher level documentation on how that all works, check out [DNS Management](https://cloud.ibm.com/docs/infrastructure/dns)
@@ -37,11 +35,13 @@ if __name__ == "__main__":
     main.debug()
 ```
 
-### Creating a zone
+
+## Creating a zone
 A Zone here can either be a top level domain (domain.com) or a sub-domain (company.domain.com). The NS records for the zone will need to point so ns1.softlayer.com and ns2.softlayer.com.
 
 To create a zone, we use [SoftLayer_Dns_Domain::createObject()](https://sldn.softlayer.com/reference/services/SoftLayer_Dns_Domain/createObject/) and pass in a structure of type [SoftLayer_Dns_Domain](https://sldn.softlayer.com/reference/datatypes/SoftLayer_Dns_Domain/). You can pass in a list of resourceRecords during domain creating for them to be added as well. You can not however change the SOA record at creation, but can do so by editing the SOA record after it has been created.
 
+### Python
 ```
     def createZone(self):
         """Creates a DNS zone"""
@@ -59,7 +59,8 @@ To create a zone, we use [SoftLayer_Dns_Domain::createObject()](https://sldn.sof
         pp(result)
 ```
 
-In Rest:
+
+### REST
 ```
 curl -u $SL_USER:$SL_APIKEY -X POST -d \
 '{"parameters": [{"name": "mydomain.com", "resourceRecords": [{"type": "a", "host": "@", "data": "127.0.0.1"}, {"type": "a", "host": "zed", "data": "1.2.3.4"}, {"type": "MX", "host": "@", "data": "zed"}]}]}' \
@@ -67,12 +68,12 @@ curl -u $SL_USER:$SL_APIKEY -X POST -d \
 ```
 
 
-### Creating Records
+## Creating Records
 A record will be any entry under the zone you just created, so you will need to know the ID of the zone, and use that for the `domainId` in the record template.
 
 Much like creating a zone, creating a record is done with a createObject call, but this time in the [SoftLayer_Dns_Domain_ResourceRecord::createObject](https://sldn.softlayer.com/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObject/) method. Use the [SoftLayer_Dns_Domain_ResourceRecord](https://sldn.softlayer.com/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord/) datatype to define exactly how you want the record itself to look. The example below only uses a few of the fields.
 
-
+### Python
 ```
     def addRecord(self, zone_id, record):
         """Adds record to zone_id"""
@@ -92,18 +93,23 @@ if __name__ == "__main__":
     main.addRecord(my_zone_id, record)
 ```
 
-REST:
+
+
+### REST
 ```
 curl -u $SL_USER:$SL_APIKEY -X POST  -d \
 '{"parameters": [{"type": "a", "host": "testa", "domainId": 2986181, "data": "4.4.4.4"}]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Dns_Domain_ResourceRecord/createObject.json'
 ```
 
+
 The SoftLayer_Dns_Domain service has methods like [SoftLayer_Dns_Domain::createARecord](https://sldn.softlayer.com/reference/services/SoftLayer_Dns_Domain/createARecord/) which can make creating records easier, but this approach is a little more flexible. They are both capable of creating the same records though, so feel free to use either approach.
 
-### Viewing
+## Viewing
 There are two main ways of getting information about the domain and its records. If you know the Id of the zone, simply use [SoftLayer_Dns_Domain::getObject()](https://sldn.softlayer.com/reference/services/SoftLayer_Dns_Domain/getObject/), otherwise use [SoftLayer_Dns_Domain::getByDomainName](https://sldn.softlayer.com/reference/services/SoftLayer_Dns_Domain/getByDomainName/) as shown here.
 
+
+### Python
 ```
     def getZone(self, domain_name=None, zone_id=None):
         if (domain_name is None) and (zone_id is None):
@@ -120,13 +126,15 @@ if __name__ == "__main__":
     main.getZone(domain_name='mydomain.com')
 ```
 
-REST:
+
+
+### REST
 ```
 curl -u $SL_USER:$SL_APIKEY \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Dns_Domain/2986181/getObject.json?objectMask=mask%5BresourceRecords%5D'
 
 curl -u $SL_USER:$SL_APIKEY -X POST  -d \
-'{"parameters": ["mydomainzzzzzzzzzzzzzz.com"]}' \
+'{"parameters": ["mydomain.com"]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Dns_Domain/getByDomainName.json?objectMask=mask%5BresourceRecords%5D'
 ```
 
@@ -152,10 +160,12 @@ testa                  86400    IN A     5.5.5.5
 ```
 
 
-### Editing records.
+## Editing records.
 
 Editing an existing record uses [SoftLayer_Dns_Domain_ResourceRecord::editObject()](https://sldn.softlayer.com/reference/services/SoftLayer_Dns_Domain_ResourceRecord/editObject/). You will need to know the Id of the Record (not the zone) for this.
 
+
+### Python
 ```
     def editRecord(self, record_id, new_data):
         """Edits a record with new_data
@@ -176,7 +186,8 @@ if __name__ == "__main__":
     main.editRecord(my_record_id, my_new_record)
 ```
 
-REST:
+
+### REST
 ```
 curl -u $SL_USER:$SL_APIKEY -X -d  \
 '{"parameters": [{"data": "5.5.5.5"}]}' \
@@ -184,7 +195,7 @@ curl -u $SL_USER:$SL_APIKEY -X -d  \
 ```
 
 
-#### Editing SOA
+## Editing SOA
 The SOA for every zone will get set to something like this:
 
 ```
@@ -208,6 +219,8 @@ curl -u $SL_USER:$SL_APIKEY \
 
 Which is usually fine, but if you need to change it, you can do the following. You will need to use the editRecords method mentioned above.
 
+
+### Python
 ```
     def getSoa(self, zone_id):
         return self.client.call('SoftLayer_Dns_Domain', 'getSoaResourceRecord', id=zone_id)
@@ -226,10 +239,12 @@ if __name__ == "__main__":
     pp(main.getSoa(my_zone_id))
 ```
 
-### Delete Records and Zones
+## Delete Records and Zones
 
 Deleting a zone or record can be done with deleteObject.
 
+
+### Python
 ```
     def deleteZone(self, zone_id):
         self.client.call('SoftLayer_Dns_Domain', 'deleteObject', id=zone_id)
@@ -244,8 +259,9 @@ if __name__ == "__main__":
     main.deleteZone(my_zone_id)
 ```
 
-REST:
 
+
+### REST
 You can either user a GET request and specify the deleteObject method, like below.
 ```
 curl -u $SL_USER:$SL_APIKEY -X GET \
@@ -265,7 +281,7 @@ curl -u $SL_USER:$SL_APIKEY -X DELETE \
 
 Both will return True on success, and an exception otherwise.
 
-### Reverse Records
+## Reverse Records
 Reverse PTR records are a special type of DNS zone, as they can't be retrieved from a SoftLayer_Dns_Domain record exactly. Reverse PTR records link a Server or Virtual Guest with an IP. Generally setting this is very important for hosts that send out email (so spam filters can do some checking on the validity of your host).
 
 
@@ -284,6 +300,8 @@ dig -x 169.48.5.100
 
 Each server and virtual guest will have a reverse PTR record associated with its primary IP address. You can get those with [SoftLayer_Hardware_Server::getReverseDomainRecords()](https://sldn.softlayer.com/reference/services/SoftLayer_Hardware_Server/getReverseDomainRecords/) and [SoftLayer_Virtual_Guest::getReverseDomainRecords()](https://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/getReverseDomainRecords)
 
+
+### Python
 ```
 records = self.client.call('SoftLayer_Virtual_Guest', 'getReverseDomainRecords', id=record_id)
 records = self.client.call('SoftLayer_Hardware_Server', 'getReverseDomainRecords', id=record_id)
@@ -291,7 +309,8 @@ records = self.client.call('SoftLayer_Hardware_Server', 'getReverseDomainRecords
 
 Once you have the Id of the record, you can use [SoftLayer_Dns_Domain_ResourceRecord::editObject](https://sldn.softlayer.com/reference/services/SoftLayer_Dns_Domain_ResourceRecord/editObject/) to make changes to it.
 
-REST:
+
+### REST
 In this example 1111111 is the id of the virtual guest, and 222222 is the resulting id from getReverseDomainRecords.
 
 ```
