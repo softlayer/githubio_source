@@ -21,17 +21,28 @@ Currently when an IBMid is linked to SoftLayer, a user record is created in the 
 
 ### SOAP
 
-A SOAP representation of the ''authenticate'' header looks like this:
-<xml>
-<authenticate xsi:type="slt:authenticate" xmlns:slt="http://api.service.softlayer.com/soap/v3/SLTypes/">
-    <username xsi:type="xsd:string">MY_USERNAME</username>
-    <apiKey xsi:type="xsd:string">MY_API_ACCESS_KEY</apiKey>
-</authenticate>
-</xml>
+A SOAP representation of the `authenticate` header looks like this:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://api.service.softlayer.com/soap/v3.1/">
+  <SOAP-ENV:Header>
+    <ns1:authenticate>
+      <username>USERNAME</username>
+      <apiKey>APIKEY</apiKey>
+    </ns1:authenticate>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getObject></ns1:getObject>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+```
 
 ### XMLRPC
 
 while it's XML-RPC counterpart looks like this:
+
+```xml
 <xml>
 <struct>
     <member>
@@ -55,17 +66,15 @@ while it's XML-RPC counterpart looks like this:
     </member>
 </struct>
 </xml>
+```
+
 
 ### REST
 With REST, you can simply use the HTTP Basic Authentication
 `curl  -vvv -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getObject'`
 
 ## Generating Your API Key
-There are two ways to generate an API access key, via the portal or by direct API calls. To generate your own API access key in the customer portal:
-
-1. Log into the [Control Portal](https://control.softlayer.com/) with your customer account master user's username and portal password.
-2. In the top menu, go to [Account -> Users -> User List](https://control.softlayer.com/account/users)
-3. Find the user you are working with, and there should be a `Generate` button in the `API Key` column. If it says `View` instead, that means the user already has an existing key.
+There are two ways to generate an API access key, via the portal or by direct API calls. To generate your own API access key in the customer portal see this article: [Managing classic infrastructure API keys](https://cloud.ibm.com/docs/iam?topic=iam-classic_keys&locale=dk)
 
 To generate an API access key via API calls invoke the [SoftLayer_User_Customer::addApiAuthenticationKey](https://softlayer.github.io/reference/services/SoftLayer_User_Customer/addApiAuthenticationKey) method in the SoftLayer_User_Customer service. To remove a user's API access key execute the [SoftLayer_User_Customer::removeApiAuthenticationKey](https://softlayer.github.io/reference/services/SoftLayer_User_Customer/removeApiAuthenticationKey) method in the same service. Be careful when removing API access keys. Removing these keys will remove that user's ability to use the SoftLayer API.
 
