@@ -16,7 +16,7 @@ tags:
 
 **Order a Block Storage**
 
-The [Block Storage Manager](https://softlayer-python.readthedocs.io/en/latest/api/managers/block.html) class provides different methods which can be used to order, cancel, list, etc., block storage devices, the following example shows how to order an endurance storage in an easy way and it can also be modified to order a performance type.
+The [Block Storage Manager](https://softlayer-python.readthedocs.io/en/latest/api/managers/block/) class provides different methods which can be used to order, cancel, list, etc., block storage devices, the following example shows how to order an endurance storage in an easy way and it can also be modified to order a performance type.
 
 ```python
 import SoftLayer
@@ -47,7 +47,7 @@ except SoftLayer.SoftLayerAPIError as e:
 
 **Order a File Storage**
 
-In the same way than block storage, the [File Storage Manager](https://softlayer-python.readthedocs.io/en/latest/api/managers/file.html) class can be used to order, cancel, list, etc., file storage devices, the following example order a performance storage.
+In the same way than block storage, the [File Storage Manager](https://softlayer-python.readthedocs.io/en/latest/api/managers/file/) class can be used to order, cancel, list, etc., file storage devices, the following example order a performance storage.
 ```python
 import SoftLayer
 from pprint import pprint
