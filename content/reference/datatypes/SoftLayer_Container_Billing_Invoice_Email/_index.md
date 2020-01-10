@@ -24,26 +24,32 @@ This container is used to provide all the options for [SoftLayer_Billing_Invoice
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [excelInvoiceIds]: #excelinvoiceids
 #### [excelInvoiceIds]
 Excel Invoices to email  
 <span class="type-label">Type: </span>**array of integers**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [pdfDetailedInvoiceIds]: #pdfdetailedinvoiceids
@@ -51,11 +57,19 @@ Excel Invoices to email
 PDF Invoice Details to email  
 <span class="type-label">Type: </span>**array of integers**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [pdfInvoiceIds]: #pdfinvoiceids
 #### [pdfInvoiceIds]
 PDF Invoices to email  
 <span class="type-label">Type: </span>**array of integers**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [type]: #type
@@ -63,6 +77,8 @@ PDF Invoices to email
 The type of Invoices to be emailed [current|next]. If next is selected, the account id will be used.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

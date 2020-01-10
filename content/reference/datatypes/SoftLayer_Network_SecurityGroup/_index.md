@@ -24,26 +24,32 @@ The SoftLayer_Network_SecurityGroup data type contains general information for a
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 The date a security group was created.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [description]: #description
@@ -51,11 +57,19 @@ The date a security group was created.
 The (optional) description for a security group.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 The unique ID for a security group.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [metadata]: #metadata
@@ -63,11 +77,19 @@ The unique ID for a security group.
   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date a security group was last modified.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [name]: #name
@@ -75,17 +97,25 @@ The date a security group was last modified.
 The (optional) name for a security group.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [account]: #account
 #### [account]
 The account this security group belongs to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [networkComponentBindings]: #networkcomponentbindings
@@ -93,11 +123,19 @@ The account this security group belongs to.
 The network component bindings for this security group.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding'>SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [orderBindings]: #orderbindings
 #### [orderBindings]
 The order bindings for this security group  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_OrderBinding'>SoftLayer_Network_SecurityGroup_OrderBinding[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [rules]: #rules
@@ -106,7 +144,10 @@ The rules for this security group.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_Rule'>SoftLayer_Network_SecurityGroup_Rule[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [networkComponentBindingCount]: #networkcomponentbindingcount
@@ -115,6 +156,9 @@ A count of the network component bindings for this security group.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [orderBindingCount]: #orderbindingcount
 #### [orderBindingCount]
@@ -122,12 +166,17 @@ A count of the order bindings for this security group
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [ruleCount]: #rulecount
 #### [ruleCount]
 A count of the rules for this security group.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

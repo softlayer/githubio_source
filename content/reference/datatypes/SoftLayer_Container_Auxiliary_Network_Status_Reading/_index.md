@@ -29,26 +29,32 @@ The SoftLayer_Container_Auxiliary_Network_Status_Reading data type contains info
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [averagePing]: #averageping
 #### [averagePing]
 Average packet round-trip time.  
 <span class="type-label">Type: </span>**float**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [fails]: #fails
@@ -56,11 +62,19 @@ Average packet round-trip time.
 Number of failures since the target was last detected to be working properly.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [frequency]: #frequency
 #### [frequency]
 Monitoring frequency in minutes.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [label]: #label
@@ -68,11 +82,19 @@ Monitoring frequency in minutes.
 The target babel.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [lastCheckDate]: #lastcheckdate
 #### [lastCheckDate]
 Last check date and time.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [lastDownDate]: #lastdowndate
@@ -80,11 +102,19 @@ Last check date and time.
 Date and time of the last problem detected.  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [latency]: #latency
 #### [latency]
 The total response time in seconds calculated during the last check.  
 <span class="type-label">Type: </span>**float**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [location]: #location
@@ -92,11 +122,19 @@ The total response time in seconds calculated during the last check.
 The monitoring location name.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [maximumPing]: #maximumping
 #### [maximumPing]
 Maximum packet round-trip time.  
 <span class="type-label">Type: </span>**float**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [minimumPing]: #minimumping
@@ -104,11 +142,19 @@ Maximum packet round-trip time.
 Minimum packet round-trip time.  
 <span class="type-label">Type: </span>**float**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [pingLoss]: #pingloss
 #### [pingLoss]
 Packet loss percentage.  
 <span class="type-label">Type: </span>**float**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [startDate]: #startdate
@@ -116,11 +162,19 @@ Packet loss percentage.
 The date monitoring first began  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [statusCode]: #statuscode
 #### [statusCode]
 Status Code - one of UP, Down, Test pending.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [statusMessage]: #statusmessage
@@ -128,11 +182,19 @@ Status Code - one of UP, Down, Test pending.
 The status message from the last effective check.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [target]: #target
 #### [target]
 The target object.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [targetType]: #targettype
@@ -140,6 +202,8 @@ The target object.
 A letter indicating the target type.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

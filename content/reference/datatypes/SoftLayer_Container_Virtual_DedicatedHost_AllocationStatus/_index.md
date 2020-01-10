@@ -24,26 +24,32 @@ This data type represents the structure to hold the allocation properties of a [
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [cpuAllocated]: #cpuallocated
 #### [cpuAllocated]
 Number of allocated CPU cores on the specified dedicated host.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [cpuAvailable]: #cpuavailable
@@ -51,11 +57,19 @@ Number of allocated CPU cores on the specified dedicated host.
 Number of available CPU cores on the specified dedicated host.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [cpuCount]: #cpucount
 #### [cpuCount]
 Total number of CPU cores on the dedicated host.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [diskAllocated]: #diskallocated
@@ -63,11 +77,19 @@ Total number of CPU cores on the dedicated host.
 Amount of allocated disk space on the specified dedicated host.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [diskAvailable]: #diskavailable
 #### [diskAvailable]
 Amount of available disk space on the specified dedicated host.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [diskCapacity]: #diskcapacity
@@ -75,11 +97,19 @@ Amount of available disk space on the specified dedicated host.
 Total amount of disk capacity on the dedicated host.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [guestCount]: #guestcount
 #### [guestCount]
 Number of allocated guests on the specified dedicated host.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [memoryAllocated]: #memoryallocated
@@ -87,11 +117,19 @@ Number of allocated guests on the specified dedicated host.
 Amount of allocated memory on the specified dedicated host.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [memoryAvailable]: #memoryavailable
 #### [memoryAvailable]
 Amount of available memory on the specified dedicated host.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [memoryCapacity]: #memorycapacity
@@ -99,6 +137,8 @@ Amount of available memory on the specified dedicated host.
 Total amount of memory capacity on the dedicated host.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

@@ -29,26 +29,32 @@ IBMer who is submitting a proof of concept request on behalf of a prospective cu
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [address1]: #address1
 #### [address1]
 Customer's address  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [address2]: #address2
@@ -56,11 +62,19 @@ Customer's address
 Customer's address  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [businessUnit]: #businessunit
 #### [businessUnit]
   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [city]: #city
@@ -68,11 +82,19 @@ Customer's address
 Customer's city  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [country]: #country
 #### [country]
 Customer's ISO country code  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [email]: #email
@@ -80,11 +102,19 @@ Customer's ISO country code
 Customer's email address  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [firstName]: #firstname
 #### [firstName]
 Customer's first name  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [lastName]: #lastname
@@ -92,11 +122,19 @@ Customer's first name
 Customer's last name  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [organizationCountry]: #organizationcountry
 #### [organizationCountry]
   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [paasAccountId]: #paasaccountid
@@ -104,11 +142,19 @@ Customer's last name
   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [phone]: #phone
 #### [phone]
 Customer's primary phone number  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [postalCode]: #postalcode
@@ -116,11 +162,19 @@ Customer's primary phone number
 Customer's postal code  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [state]: #state
 #### [state]
 Customer's state  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [subOrganization]: #suborganization
@@ -128,12 +182,18 @@ Customer's state
   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [uid]: #uid
 #### [uid]
   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

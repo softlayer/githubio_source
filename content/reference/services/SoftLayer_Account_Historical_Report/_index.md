@@ -30,35 +30,62 @@ SoftLayer's account historical report service allows users to access a broad ove
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAccountHostUptimeGraphData](/reference/services/SoftLayer_Account_Historical_Report/getAccountHostUptimeGraphData)
 
+</div>
+
+<div class="method-row">
 
 #### [getAccountHostUptimeSummary](/reference/services/SoftLayer_Account_Historical_Report/getAccountHostUptimeSummary)
 
+</div>
+
+<div class="method-row">
 
 #### [getAccountUrlUptimeGraphData](/reference/services/SoftLayer_Account_Historical_Report/getAccountUrlUptimeGraphData)
 
+</div>
+
+<div class="method-row">
 
 #### [getAccountUrlUptimeSummary](/reference/services/SoftLayer_Account_Historical_Report/getAccountUrlUptimeSummary)
 
+</div>
+
+<div class="method-row">
 
 #### [getHostUptimeDetail](/reference/services/SoftLayer_Account_Historical_Report/getHostUptimeDetail)
 
+</div>
+
+<div class="method-row">
 
 #### [getHostUptimeGraphData](/reference/services/SoftLayer_Account_Historical_Report/getHostUptimeGraphData)
 
+</div>
+
+<div class="method-row">
 
 #### [getUrlUptimeDetail](/reference/services/SoftLayer_Account_Historical_Report/getUrlUptimeDetail)
 
+</div>
+
+<div class="method-row">
 
 #### [getUrlUptimeGraphData](/reference/services/SoftLayer_Account_Historical_Report/getUrlUptimeGraphData)
 
+</div>
+</div>
 
 </div>
 

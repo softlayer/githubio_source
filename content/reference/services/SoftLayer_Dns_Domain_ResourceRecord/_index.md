@@ -87,35 +87,62 @@ As with domain changes, resource record changes happen immediately, but may take
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [createObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObject)
 Create a domain's resource record.
+</div>
+
+<div class="method-row">
 
 #### [createObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObjects)
 Create multiple domain resource records.
+</div>
+
+<div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObject)
 Delete a domain's resource record.
+</div>
+
+<div class="method-row">
 
 #### [deleteObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObjects)
 Delete multiple resource records from a domain.
+</div>
+
+<div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/editObject)
 Edit a domain's resource record.
+</div>
+
+<div class="method-row">
 
 #### [editObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/editObjects)
 Edit multiple domain resource records.
+</div>
+
+<div class="method-row">
 
 #### [getDomain](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/getDomain)
 Retrieve the domain that a resource record belongs to.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/getObject)
 Retrieve a SoftLayer_Dns_Domain_ResourceRecord record.
+</div>
+</div>
 
 </div>
 

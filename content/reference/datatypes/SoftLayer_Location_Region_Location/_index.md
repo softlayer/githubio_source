@@ -24,44 +24,58 @@ The SoftLayer_Location_Region_Location is very specific to the location where se
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [locationId]: #locationid
 #### [locationId]
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [location]: #location
 #### [location]
 The SoftLayer_Location tied to a region's location. This provides more information about the location, including specific datacenter information.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [locationPackageDetails]: #locationpackagedetails
 #### [locationPackageDetails]
 A region's location also has delivery information as well as other information to be determined. For now, availability is provided and could weigh into the decision as to where to decide to have a server provisioned.'  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Locations'>SoftLayer_Product_Package_Locations[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [region]: #region
@@ -70,7 +84,10 @@ The region to which this location belongs.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Region'>SoftLayer_Location_Region </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [locationPackageDetailCount]: #locationpackagedetailcount
@@ -78,6 +95,8 @@ The region to which this location belongs.
 A count of a region's location also has delivery information as well as other information to be determined. For now, availability is provided and could weigh into the decision as to where to decide to have a server provisioned.'   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

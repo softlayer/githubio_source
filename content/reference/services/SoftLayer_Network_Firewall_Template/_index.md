@@ -55,20 +55,32 @@ The provided firewall templates are recommend rule sets for use with SoftLayer H
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAllObjects](/reference/services/SoftLayer_Network_Firewall_Template/getAllObjects)
 Get all available firewall template objects.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Firewall_Template/getObject)
 Retrieve a SoftLayer_Network_Firewall_Template record.
+</div>
+
+<div class="method-row">
 
 #### [getRules](/reference/services/SoftLayer_Network_Firewall_Template/getRules)
 Retrieve the rule set that belongs to this firewall rules template.
+</div>
+</div>
 
 </div>
 

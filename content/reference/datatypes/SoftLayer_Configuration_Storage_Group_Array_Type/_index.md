@@ -24,26 +24,32 @@ Supported hardware raid modes
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [description]: #description
 #### [description]
   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [driveMultiplier]: #drivemultiplier
@@ -51,11 +57,19 @@ Supported hardware raid modes
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hotspareAllow]: #hotspareallow
 #### [hotspareAllow]
   
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -63,11 +77,19 @@ Supported hardware raid modes
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [keyName]: #keyname
 #### [keyName]
   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [maximumDrives]: #maximumdrives
@@ -75,11 +97,19 @@ Supported hardware raid modes
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [minimumDrives]: #minimumdrives
 #### [minimumDrives]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [name]: #name
@@ -87,12 +117,16 @@ Supported hardware raid modes
   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [hardwareComponentModels]: #hardwarecomponentmodels
 #### [hardwareComponentModels]
@@ -100,7 +134,10 @@ Supported hardware raid modes
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [hardwareComponentModelCount]: #hardwarecomponentmodelcount
@@ -108,6 +145,8 @@ Supported hardware raid modes
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

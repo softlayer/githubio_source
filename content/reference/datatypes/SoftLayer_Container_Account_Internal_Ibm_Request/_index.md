@@ -30,26 +30,32 @@ Contains data required to both request a new IaaS account for active IBM employe
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [accountType]: #accounttype
 #### [accountType]
 Purpose of the internal IBM account chosen from the list of available  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [address1]: #address1
@@ -57,11 +63,19 @@ Purpose of the internal IBM account chosen from the list of available
 If not provided, will attempt to retrieve from BluePages  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [address2]: #address2
 #### [address2]
 If no address provided, will attempt to retrieve from BluePages  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [city]: #city
@@ -69,11 +83,19 @@ If no address provided, will attempt to retrieve from BluePages
 If not provided, will attempt to retrieve from BluePages  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [companyName]: #companyname
 #### [companyName]
 Name of the company displayed on the IaaS account  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [country]: #country
@@ -81,11 +103,19 @@ Name of the company displayed on the IaaS account
 If not provided, will attempt to retrieve from BluePages  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [deniedFlag]: #deniedflag
 #### [deniedFlag]
 True if the request has been denied by either the IaaS team or the  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [departmentCode]: #departmentcode
@@ -93,11 +123,19 @@ True if the request has been denied by either the IaaS team or the
 Department within the division which will be changed during cost recovery.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [departmentCountry]: #departmentcountry
 #### [departmentCountry]
 Country assigned to the department for cost recovery.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [divisionCode]: #divisioncode
@@ -105,11 +143,19 @@ Country assigned to the department for cost recovery.
 Division code used for cost recovery.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [emailAddress]: #emailaddress
 #### [emailAddress]
 Account owner's IBM email address. Must be a discoverable email  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [firstName]: #firstname
@@ -117,11 +163,19 @@ Account owner's IBM email address. Must be a discoverable email
 Applicant's first name, as provided by IBM BluePages API.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [lastName]: #lastname
 #### [lastName]
 Applicant's last name, as provided by IBM BluePages API.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [managerApprovalStatus]: #managerapprovalstatus
@@ -129,11 +183,19 @@ Applicant's last name, as provided by IBM BluePages API.
 APPROVED if the request has been approved by the first-line manager,  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [multiTenantFlag]: #multitenantflag
 #### [multiTenantFlag]
 True for accounts intended to be multi-tenant and false otherwise  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [officePhone]: #officephone
@@ -141,11 +203,19 @@ True for accounts intended to be multi-tenant and false otherwise
 Account owner's primary phone number. If no phone number is available  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [paasAccountId]: #paasaccountid
 #### [paasAccountId]
 Bluemix PaaS 32 digit hexadecimal account id being automatically linked  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [postalCode]: #postalcode
@@ -153,11 +223,19 @@ Bluemix PaaS 32 digit hexadecimal account id being automatically linked
 If not provided, will attempt to retrieve from BluePages  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [purpose]: #purpose
 #### [purpose]
 Stated purpose of the new account this request would create  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [securitySubjectMatterExpertEmail]: #securitysubjectmatterexpertemail
@@ -165,11 +243,19 @@ Stated purpose of the new account this request would create
 Division's security SME's email address, if available  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [securitySubjectMatterExpertName]: #securitysubjectmatterexpertname
 #### [securitySubjectMatterExpertName]
 Division's security SME's name, if available  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [securitySubjectMatterExpertPhone]: #securitysubjectmatterexpertphone
@@ -177,12 +263,18 @@ Division's security SME's name, if available
 Division's security SME's phone, if available  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [state]: #state
 #### [state]
 If required for chosen country and not provided, will attempt  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

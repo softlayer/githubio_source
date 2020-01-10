@@ -24,26 +24,32 @@ The SoftLayer_Billing_Payment_PayPal_Transaction data type contains general info
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [accountId]: #accountid
 #### [accountId]
 The account ID to which the PayPal and billing information is associated with.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [addressCityName]: #addresscityname
@@ -51,11 +57,19 @@ The account ID to which the PayPal and billing information is associated with.
 City given in the address of the PayPal user.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [addressCountry]: #addresscountry
 #### [addressCountry]
 Country given in the named address of the PayPal user.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [addressName]: #addressname
@@ -63,11 +77,19 @@ Country given in the named address of the PayPal user.
 Name given to the address provided for the PayPal user.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [addressPostalCode]: #addresspostalcode
 #### [addressPostalCode]
 Postal Code of the address of the PayPal user.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [addressStateProvence]: #addressstateprovence
@@ -75,11 +97,19 @@ Postal Code of the address of the PayPal user.
 State or Province in the address of the PayPal user.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [addressStatus]: #addressstatus
 #### [addressStatus]
 PayPal defined status of the address of the PayPal user.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [addressStreet1]: #addressstreet1
@@ -87,11 +117,19 @@ PayPal defined status of the address of the PayPal user.
 First line of the street address of the PayPal user.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [addressStreet2]: #addressstreet2
 #### [addressStreet2]
 Second line of the street address of the PayPal user.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [contactPhone]: #contactphone
@@ -99,11 +137,19 @@ Second line of the street address of the PayPal user.
 Phone number provided for the PayPal user.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 The date that the transaction was attempted.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [exchangeRate]: #exchangerate
@@ -111,11 +157,19 @@ The date that the transaction was attempted.
 Exchange rate imposed on the payment amount.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [feeAmount]: #feeamount
 #### [feeAmount]
 PayPal fee applied to the payment.  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [grossAmount]: #grossamount
@@ -123,11 +177,19 @@ PayPal fee applied to the payment.
 The total amount of the payment executed by PayPal, represented in decimal format as US Dollars ($USD).  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 The unique identifier for a single PayPal transaction request.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [invoiceId]: #invoiceid
@@ -135,11 +197,19 @@ The unique identifier for a single PayPal transaction request.
 Unique identifier of the invoice to which funds will be applied.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [lastPaypalCommand]: #lastpaypalcommand
 #### [lastPaypalCommand]
 The name of the command issued to PayPal with regards to the attempted transaction.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [modifyDate]: #modifydate
@@ -147,11 +217,19 @@ The name of the command issued to PayPal with regards to the attempted transacti
 The date that the transaction was modified.  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [orderFromIpAddress]: #orderfromipaddress
 #### [orderFromIpAddress]
 The IP address from where the PayPal payment request originated.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [orderTotal]: #ordertotal
@@ -159,11 +237,19 @@ The IP address from where the PayPal payment request originated.
 The amount of the payment submitted through the SoftLayer interface, represented in decimal format as US Dollars ($USD).  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [payer]: #payer
 #### [payer]
 The PayPal user account name (email address) associated with the customer account.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [payerBusiness]: #payerbusiness
@@ -171,11 +257,19 @@ The PayPal user account name (email address) associated with the customer accoun
 The name of the business associated with the PayPal user.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [payerCountry]: #payercountry
 #### [payerCountry]
 Country given in the address of the PayPal user.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [payerFirstName]: #payerfirstname
@@ -183,11 +277,19 @@ Country given in the address of the PayPal user.
 First name of the PayPal user.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [payerId]: #payerid
 #### [payerId]
 Unique PayPal user account identifier.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [payerLastName]: #payerlastname
@@ -195,11 +297,19 @@ Unique PayPal user account identifier.
 Last name of the PayPal user.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [payerStatus]: #payerstatus
 #### [payerStatus]
 Current PayPal status associated with the user account.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [paymentDate]: #paymentdate
@@ -207,11 +317,19 @@ Current PayPal status associated with the user account.
 Date that the payment was confirmed in PayPal by the user.  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [paymentStatus]: #paymentstatus
 #### [paymentStatus]
 PayPal defined status of the attempted payment.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [paymentType]: #paymenttype
@@ -219,11 +337,19 @@ PayPal defined status of the attempted payment.
 PayPal defined code used to identify the type of payment.  Provided in a PayPal response.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [pendingReason]: #pendingreason
 #### [pendingReason]
 Reason provided by PayPal for a payment given a pending status.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [serializedReply]: #serializedreply
@@ -231,11 +357,19 @@ Reason provided by PayPal for a payment given a pending status.
 A serialized, delimited string of the reply received from PayPal.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [serializedRequest]: #serializedrequest
 #### [serializedRequest]
 A serialized, delimited string of the request submitted to PayPal.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [settleAmount]: #settleamount
@@ -243,11 +377,19 @@ A serialized, delimited string of the request submitted to PayPal.
 PayPal defined fee.  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [taxAmount]: #taxamount
 #### [taxAmount]
 Tax applied by PayPal to the payment amount.  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [token]: #token
@@ -255,11 +397,19 @@ Tax applied by PayPal to the payment amount.
 Value issued by PayPal for referencing the attempted transaction.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [transactionId]: #transactionid
 #### [transactionId]
 Unique transaction ID provided in a PayPal response.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [transactionType]: #transactiontype
@@ -267,17 +417,25 @@ Unique transaction ID provided in a PayPal response.
 PayPal defined code used to identify the type of transaction.  Provided in a PayPal response.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [account]: #account
 #### [account]
 The account to which a transaction belongs.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [order]: #order
@@ -285,6 +443,8 @@ The account to which a transaction belongs.
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**
 
+
+</div>
 
 ## Count
 </div>

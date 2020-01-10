@@ -24,26 +24,32 @@ The SoftLayer_Product_Item_Category_Question data type represents a single quest
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [answerValueExpression]: #answervalueexpression
 #### [answerValueExpression]
 The type of answer expected.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [description]: #description
@@ -51,11 +57,19 @@ The type of answer expected.
 The description for the question.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [fieldTypeId]: #fieldtypeid
 #### [fieldTypeId]
 The type of field to use.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -63,11 +77,19 @@ The type of field to use.
 identifier for category.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [keyName]: #keyname
 #### [keyName]
 The keyname for the question.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [question]: #question
@@ -75,23 +97,35 @@ The keyname for the question.
 The question for the category.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [valueExample]: #valueexample
 #### [valueExample]
 An example and/or explanation of what the answer for the question is expected to look like.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [fieldType]: #fieldtype
 #### [fieldType]
 The type of field that should be used in an HTML form to accept an answer from an end user.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question_Field_Type'>SoftLayer_Product_Item_Category_Question_Field_Type </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [itemCategoryReferences]: #itemcategoryreferences
@@ -100,7 +134,10 @@ The link between an item category and an item category question.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question_Xref'>SoftLayer_Product_Item_Category_Question_Xref[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [itemCategoryReferenceCount]: #itemcategoryreferencecount
@@ -108,6 +145,8 @@ The link between an item category and an item category question.
 A count of the link between an item category and an item category question.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

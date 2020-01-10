@@ -30,20 +30,32 @@ classes:
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getFirewallContextAccessControlLists](/reference/services/SoftLayer_Network_Firewall_Module_Context_Interface/getFirewallContextAccessControlLists)
 
+</div>
+
+<div class="method-row">
 
 #### [getNetworkVlan](/reference/services/SoftLayer_Network_Firewall_Module_Context_Interface/getNetworkVlan)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Firewall_Module_Context_Interface/getObject)
 Retrieve a SoftLayer_Network_Firewall_Module_Context_Interface record.
+</div>
+</div>
 
 </div>
 

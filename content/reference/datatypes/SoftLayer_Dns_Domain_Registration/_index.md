@@ -35,26 +35,32 @@ The SoftLayer_Dns_Domain_Registration data type represents a domain registration
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
   
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [domainRegistrationStatusId]: #domainregistrationstatusid
@@ -62,11 +68,19 @@ The SoftLayer_Dns_Domain_Registration data type represents a domain registration
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [expireDate]: #expiredate
 #### [expireDate]
 The date that the domain registration will expire.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -74,11 +88,19 @@ The date that the domain registration will expire.
 A domain record's internal identifier.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [lockedFlag]: #lockedflag
 #### [lockedFlag]
 Indicates whether a domain is locked or unlocked.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [modifyDate]: #modifydate
@@ -86,11 +108,19 @@ Indicates whether a domain is locked or unlocked.
   
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [name]: #name
 #### [name]
 A domain's name, for example "example.com".  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [registrantVerificationStatusId]: #registrantverificationstatusid
@@ -98,23 +128,35 @@ A domain's name, for example "example.com".
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [serviceProviderId]: #serviceproviderid
 #### [serviceProviderId]
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [account]: #account
 #### [account]
 The SoftLayer customer account that the domain is registered to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [domainRegistrationStatus]: #domainregistrationstatus
@@ -122,11 +164,19 @@ The SoftLayer customer account that the domain is registered to.
 The domain registration status.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Status'>SoftLayer_Dns_Domain_Registration_Status </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [registrantVerificationStatus]: #registrantverificationstatus
 #### [registrantVerificationStatus]
 The registrant verification status.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status'>SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [serviceProvider]: #serviceprovider
@@ -134,6 +184,8 @@ The registrant verification status.
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>**
 
+
+</div>
 
 ## Count
 </div>

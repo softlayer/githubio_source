@@ -44,23 +44,38 @@ The SoftLayer_Network_Firewall_AccessControlList service accesses general inform
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getNetworkFirewallUpdateRequests](/reference/services/SoftLayer_Network_Firewall_AccessControlList/getNetworkFirewallUpdateRequests)
 Retrieve the update requests made for this firewall.
+</div>
+
+<div class="method-row">
 
 #### [getNetworkVlan](/reference/services/SoftLayer_Network_Firewall_AccessControlList/getNetworkVlan)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Firewall_AccessControlList/getObject)
 Retrieve a SoftLayer_Network_Firewall_AccessControlList record.
+</div>
+
+<div class="method-row">
 
 #### [getRules](/reference/services/SoftLayer_Network_Firewall_AccessControlList/getRules)
 Retrieve the currently running rule set of this context access control list firewall.
+</div>
+</div>
 
 </div>
 

@@ -30,32 +30,56 @@ A SoftLayer_Network_Backbone represents a single backbone connection from SoftLa
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAllBackbones](/reference/services/SoftLayer_Network_Backbone/getAllBackbones)
 Retrieve a list of all SoftLayer Backbones
+</div>
+
+<div class="method-row">
 
 #### [getBackbonesForLocationName](/reference/services/SoftLayer_Network_Backbone/getBackbonesForLocationName)
 Retrieve a list of all SoftLayer Backbones for a location name
+</div>
+
+<div class="method-row">
 
 #### [getGraphImage](/reference/services/SoftLayer_Network_Backbone/getGraphImage)
 Retrieve a graph of a SoftLayer backbone's last 24 hours of activity.
+</div>
+
+<div class="method-row">
 
 #### [getHealth](/reference/services/SoftLayer_Network_Backbone/getHealth)
 Retrieve a backbone's status.
+</div>
+
+<div class="method-row">
 
 #### [getLocation](/reference/services/SoftLayer_Network_Backbone/getLocation)
 Retrieve which of the SoftLayer datacenters a backbone is connected to.
+</div>
+
+<div class="method-row">
 
 #### [getNetworkComponent](/reference/services/SoftLayer_Network_Backbone/getNetworkComponent)
 Retrieve a backbone's primary network component.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Backbone/getObject)
 Retrieve a SoftLayer_Network_Backbone record.
+</div>
+</div>
 
 </div>
 

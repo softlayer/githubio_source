@@ -24,26 +24,32 @@ The SoftLayer_Network_Bandwidth_Version1_Usage_Detail data type contains specifi
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [amountIn]: #amountin
 #### [amountIn]
 Incoming bandwidth utilization .  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [amountOut]: #amountout
@@ -51,23 +57,35 @@ Incoming bandwidth utilization .
 Outgoing bandwidth utilization .  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [day]: #day
 #### [day]
 Day and time this bandwidth utilization event was recorded.  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [bandwidthUsage]: #bandwidthusage
 #### [bandwidthUsage]
 In and out bandwidth utilization for a specified time stamp.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage'>SoftLayer_Network_Bandwidth_Version1_Usage </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [bandwidthUsageDetailType]: #bandwidthusagedetailtype
@@ -75,6 +93,8 @@ In and out bandwidth utilization for a specified time stamp.
 Describes this bandwidth utilization record as on the public or private network interface.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type </a>**
 
+
+</div>
 
 ## Count
 </div>

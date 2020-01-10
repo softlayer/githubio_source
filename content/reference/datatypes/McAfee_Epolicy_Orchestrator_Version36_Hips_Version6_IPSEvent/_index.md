@@ -24,26 +24,32 @@ The McAfee_Epolicy_Orchestrator_Version36_Hips_Version6_IPSEvent data type repre
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [incidentTime]: #incidenttime
 #### [incidentTime]
 The time when an IPS event occurred.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [processName]: #processname
@@ -51,11 +57,19 @@ The time when an IPS event occurred.
 Name of the process that generated an IPS event.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [reactionText]: #reactiontext
 #### [reactionText]
 The action taken because of an IPS event.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [remoteIpAddress]: #remoteipaddress
@@ -63,24 +77,34 @@ The action taken because of an IPS event.
 The IP address that generated an IPS event.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [severityText]: #severitytext
 #### [severityText]
 The severity level for an IPS event.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [signature]: #signature
 #### [signature]
 The signature that generated an IPS event.  
 <span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Hips_Version6_Event_Signature**
 
+
+</div>
 
 ## Count
 </div>

@@ -24,26 +24,32 @@ The SoftLayer_Layout_Profile contains the definition of the layout profile
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [activeFlag]: #activeflag
 #### [activeFlag]
 Active status of the layout profile  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [createDate]: #createdate
@@ -51,11 +57,19 @@ Active status of the layout profile
 Timestamp of when the layout profile was created  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 The internal identifier of a layout profile  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [modifyDate]: #modifydate
@@ -63,11 +77,19 @@ The internal identifier of a layout profile
 Timestamp of when the layout profile was last updated  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [name]: #name
 #### [name]
 The friendly name of the layout profile  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [userRecordId]: #userrecordid
@@ -75,17 +97,25 @@ The friendly name of the layout profile
 The [SoftLayer_User_Customer]({{<ref "reference/datatypes/SoftLayer_User_Customer">}}) owning this layout profile  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [layoutContainers]: #layoutcontainers
 #### [layoutContainers]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Container'>SoftLayer_Layout_Container[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [layoutPreferences]: #layoutpreferences
@@ -94,7 +124,10 @@ The [SoftLayer_User_Customer]({{<ref "reference/datatypes/SoftLayer_User_Custome
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Profile_Preference'>SoftLayer_Layout_Profile_Preference[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [layoutContainerCount]: #layoutcontainercount
@@ -103,12 +136,17 @@ A count of
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [layoutPreferenceCount]: #layoutpreferencecount
 #### [layoutPreferenceCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

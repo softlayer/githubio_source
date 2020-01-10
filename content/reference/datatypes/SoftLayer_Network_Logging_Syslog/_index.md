@@ -24,26 +24,32 @@ The Syslog class holds a single line from the Networking Firewall "Syslog" recor
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 Timestamp for when the connection was blocked by the firewall  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [destinationIpAddress]: #destinationipaddress
@@ -51,11 +57,19 @@ Timestamp for when the connection was blocked by the firewall
 The Destination IP Address of the blocked connection (your end)  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [destinationPort]: #destinationport
 #### [destinationPort]
 The Destination Port of the blocked connection (your end)  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [eventType]: #eventtype
@@ -63,11 +77,19 @@ The Destination Port of the blocked connection (your end)
 This tells you what kind of firewall event this log line is for:  accept or deny.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [message]: #message
 #### [message]
 Raw syslog message for the event  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [protocol]: #protocol
@@ -75,11 +97,19 @@ Raw syslog message for the event
 Connection protocol used to make the call that was blocked (tcp, udp, etc)  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [sourceIpAddress]: #sourceipaddress
 #### [sourceIpAddress]
 The Source IP Address of the call that was blocked (attacker's end)  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [sourcePort]: #sourceport
@@ -87,12 +117,18 @@ The Source IP Address of the call that was blocked (attacker's end)
 The Source Port where the blocked connection was established (attacker's end)  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [totalEvents]: #totalevents
 #### [totalEvents]
 If this is an aggregation of syslog events, this property shows the total events.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

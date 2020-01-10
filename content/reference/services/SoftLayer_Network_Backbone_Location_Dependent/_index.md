@@ -30,26 +30,44 @@ classes:
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAllObjects](/reference/services/SoftLayer_Network_Backbone_Location_Dependent/getAllObjects)
 
+</div>
+
+<div class="method-row">
 
 #### [getDependentLocation](/reference/services/SoftLayer_Network_Backbone_Location_Dependent/getDependentLocation)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Backbone_Location_Dependent/getObject)
 Retrieve a SoftLayer_Network_Backbone_Location_Dependent record.
+</div>
+
+<div class="method-row">
 
 #### [getSourceDependentsByName](/reference/services/SoftLayer_Network_Backbone_Location_Dependent/getSourceDependentsByName)
 
+</div>
+
+<div class="method-row">
 
 #### [getSourceLocation](/reference/services/SoftLayer_Network_Backbone_Location_Dependent/getSourceLocation)
 
+</div>
+</div>
 
 </div>
 

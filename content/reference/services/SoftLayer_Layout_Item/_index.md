@@ -45,20 +45,32 @@ Each [SoftLayer_Layout_Container]({{<ref "reference/datatypes/SoftLayer_Layout_C
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getLayoutItemPreferences](/reference/services/SoftLayer_Layout_Item/getLayoutItemPreferences)
 Retrieve the layout preferences assigned to this layout item
+</div>
+
+<div class="method-row">
 
 #### [getLayoutItemType](/reference/services/SoftLayer_Layout_Item/getLayoutItemType)
 Retrieve the type of the layout item object
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Layout_Item/getObject)
 Retrieve a SoftLayer_Layout_Item record.
+</div>
+</div>
 
 </div>
 

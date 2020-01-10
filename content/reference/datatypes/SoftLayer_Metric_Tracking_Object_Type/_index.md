@@ -29,26 +29,32 @@ SoftLayer [SoftLayer_Metric_Tracking_Object]({{<ref "reference/datatypes/SoftLay
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [keyname]: #keyname
 #### [keyname]
 Description A tracking object type's key name. This is a shorter description of what kind of data a tracking object group is polling.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [name]: #name
@@ -56,6 +62,8 @@ Description A tracking object type's key name. This is a shorter description of 
 Description A tracking object type's name. This describes what kind of data a tracking object group is polling.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

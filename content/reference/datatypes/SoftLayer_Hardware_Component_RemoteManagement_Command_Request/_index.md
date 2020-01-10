@@ -24,26 +24,32 @@ The SoftLayer_Hardware_Component_RemoteManagement_Command_Request contains detai
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 The timestamp the remote management command was issued.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hardwareId]: #hardwareid
@@ -51,11 +57,19 @@ The timestamp the remote management command was issued.
 The hardware id the command was issued for.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [modifyDate]: #modifydate
 #### [modifyDate]
 The timestamp recorded when the remote management command returned a status of the command issued.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [processed]: #processed
@@ -63,17 +77,25 @@ The timestamp recorded when the remote management command returned a status of t
 Execution status of the remote management command.  True is successful.  False is failure.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [hardware]: #hardware
 #### [hardware]
 The id of the hardware to perform the remote management or powerstrip command on.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [networkComponent]: #networkcomponent
@@ -81,11 +103,19 @@ The id of the hardware to perform the remote management or powerstrip command on
 A hardware's network components. Network components are hardware components such as IPMI cards or Ethernet cards.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [remoteManagementCommand]: #remotemanagementcommand
 #### [remoteManagementCommand]
 The remote management command issued.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_RemoteManagement_Command'>SoftLayer_Hardware_Component_RemoteManagement_Command </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [user]: #user
@@ -93,6 +123,8 @@ The remote management command issued.
 Information regarding the user who issued the remote management command.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
 
+
+</div>
 
 ## Count
 </div>

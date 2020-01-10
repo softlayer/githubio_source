@@ -30,23 +30,38 @@ The SoftLayer_Network_LBaaS_L7Rule service allows consumers to manage the Rules 
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [addL7Rules](/reference/services/SoftLayer_Network_LBaaS_L7Rule/addL7Rules)
 Create and add a L7 Rule to a given L7 policy with the provided rules details. 
+</div>
+
+<div class="method-row">
 
 #### [deleteL7Rules](/reference/services/SoftLayer_Network_LBaaS_L7Rule/deleteL7Rules)
 Delete one or more rules associated with the same policy. 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_LBaaS_L7Rule/getObject)
 Retrieve a SoftLayer_Network_LBaaS_L7Rule record.
+</div>
+
+<div class="method-row">
 
 #### [updateL7Rules](/reference/services/SoftLayer_Network_LBaaS_L7Rule/updateL7Rules)
 Update one or more rules associated with the same policy. 
+</div>
+</div>
 
 </div>
 

@@ -24,26 +24,32 @@ The SoftLayer_Hardware_Router_Backend data type contains general information rel
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [accountId]: #accountid
 #### [accountId]
 A hardware's associated [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) id.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [bareMetalInstanceFlag]: #baremetalinstanceflag
@@ -51,11 +57,19 @@ A hardware's associated [SoftLayer_Account]({{<ref "reference/datatypes/SoftLaye
 When true, this flag specifies that a hardware is Bare Metal Server. Bare Metal Servers are physical bare metal servers that are billed with the same options as Virtual Servers, with monthly and hourly rates.  Bare Metal instances are ordered based on processor core count and ram amount.   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [domain]: #domain
 #### [domain]
 A piece of hardware's local network domain name.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [fullyQualifiedDomainName]: #fullyqualifieddomainname
@@ -63,11 +77,19 @@ A piece of hardware's local network domain name.
 A name reflecting the hostname and domain of the hardware. This is created from the combined values of the hardware's hostname and domain name automatically, and thus should not be edited directly.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hardwareStatusId]: #hardwarestatusid
 #### [hardwareStatusId]
 A number reflecting the state of a hardware  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hostname]: #hostname
@@ -75,11 +97,19 @@ A number reflecting the state of a hardware
 A hardware's hostname  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 A hardware's internal identification number  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [manufacturerSerialNumber]: #manufacturerserialnumber
@@ -87,11 +117,19 @@ A hardware's internal identification number
 A hardware's serial number that is supplied by the manufacturer.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [notes]: #notes
 #### [notes]
 A small note about a piece of hardware to use at your discretion.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [postInstallScriptUri]: #postinstallscripturi
@@ -99,11 +137,19 @@ A small note about a piece of hardware to use at your discretion.
 URI of the script to be downloaded and executed after installation is complete.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [provisionDate]: #provisiondate
 #### [provisionDate]
   
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [serialNumber]: #serialnumber
@@ -111,11 +157,19 @@ URI of the script to be downloaded and executed after installation is complete.
 A hardware's serial number that is supplied by SoftLayer.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [serviceProviderId]: #serviceproviderid
 #### [serviceProviderId]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [serviceProviderResourceId]: #serviceproviderresourceid
@@ -123,17 +177,25 @@ A hardware's serial number that is supplied by SoftLayer.
 A hardware's internal identification number at its service provider  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [account]: #account
 #### [account]
 The account associated with a piece of hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [activeComponents]: #activecomponents
@@ -141,11 +203,19 @@ The account associated with a piece of hardware.
 A piece of hardware's active physical components.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [activeNetworkMonitorIncident]: #activenetworkmonitorincident
 #### [activeNetworkMonitorIncident]
 A piece of hardware's active network monitoring incidents.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Incident'>SoftLayer_Network_Monitor_Version1_Incident[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [allPowerComponents]: #allpowercomponents
@@ -153,11 +223,19 @@ A piece of hardware's active network monitoring incidents.
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Power_Component'>SoftLayer_Hardware_Power_Component[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [allowedHost]: #allowedhost
 #### [allowedHost]
 The SoftLayer_Network_Storage_Allowed_Host information to connect this server to Network Storage volumes that require access control lists.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Allowed_Host'>SoftLayer_Network_Storage_Allowed_Host </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [allowedNetworkStorage]: #allowednetworkstorage
@@ -165,11 +243,19 @@ The SoftLayer_Network_Storage_Allowed_Host information to connect this server to
 The SoftLayer_Network_Storage objects that this SoftLayer_Hardware has access to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [allowedNetworkStorageReplicas]: #allowednetworkstoragereplicas
 #### [allowedNetworkStorageReplicas]
 The SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Hardware has access to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [antivirusSpywareSoftwareComponent]: #antivirusspywaresoftwarecomponent
@@ -177,11 +263,19 @@ The SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Hardware
 Information regarding an antivirus/spyware software component object.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [attributes]: #attributes
 #### [attributes]
 Information regarding a piece of hardware's specific attributes.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Attribute'>SoftLayer_Hardware_Attribute[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [averageDailyPublicBandwidthUsage]: #averagedailypublicbandwidthusage
@@ -189,11 +283,19 @@ Information regarding a piece of hardware's specific attributes.
 The average daily public bandwidth usage for the current billing cycle.  
 <span class="type-label">Type: </span>**float**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [backendNetworkComponents]: #backendnetworkcomponents
 #### [backendNetworkComponents]
 A piece of hardware's back-end or private network components.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [backendRouters]: #backendrouters
@@ -201,11 +303,19 @@ A piece of hardware's back-end or private network components.
 A hardware's backend or private router.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [bandwidthAllocation]: #bandwidthallocation
 #### [bandwidthAllocation]
 A hardware's allotted bandwidth (measured in GB).  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [bandwidthAllotmentDetail]: #bandwidthallotmentdetail
@@ -213,11 +323,19 @@ A hardware's allotted bandwidth (measured in GB).
 A hardware's allotted detail record. Allotment details link bandwidth allocation with allotments.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Detail'>SoftLayer_Network_Bandwidth_Version1_Allotment_Detail </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [benchmarkCertifications]: #benchmarkcertifications
 #### [benchmarkCertifications]
 Information regarding a piece of hardware's benchmark certifications.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Benchmark_Certification'>SoftLayer_Hardware_Benchmark_Certification[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [billingItem]: #billingitem
@@ -225,11 +343,19 @@ Information regarding a piece of hardware's benchmark certifications.
 Information regarding the billing item for a server.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Hardware'>SoftLayer_Billing_Item_Hardware </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [billingItemFlag]: #billingitemflag
 #### [billingItemFlag]
 A flag indicating that a billing item exists.  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [blockCancelBecauseDisconnectedFlag]: #blockcancelbecausedisconnectedflag
@@ -237,11 +363,19 @@ A flag indicating that a billing item exists.
 Determines whether the hardware is ineligible for cancellation because it is disconnected.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [boundSubnets]: #boundsubnets
 #### [boundSubnets]
 Associated subnets for a router object.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [businessContinuanceInsuranceFlag]: #businesscontinuanceinsuranceflag
@@ -249,11 +383,19 @@ Associated subnets for a router object.
 Status indicating whether or not a piece of hardware has business continuance insurance.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [childrenHardware]: #childrenhardware
 #### [childrenHardware]
 Child hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [components]: #components
@@ -261,11 +403,19 @@ Child hardware.
 A piece of hardware's components.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [continuousDataProtectionSoftwareComponent]: #continuousdataprotectionsoftwarecomponent
 #### [continuousDataProtectionSoftwareComponent]
 A continuous data protection/server backup software component object.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [currentBillableBandwidthUsage]: #currentbillablebandwidthusage
@@ -273,11 +423,19 @@ A continuous data protection/server backup software component object.
 The current billable public outbound bandwidth for this hardware for the current billing cycle.  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [datacenter]: #datacenter
 #### [datacenter]
 Information regarding the datacenter in which a piece of hardware resides.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [datacenterName]: #datacentername
@@ -285,11 +443,19 @@ Information regarding the datacenter in which a piece of hardware resides.
 The name of the datacenter in which a piece of hardware resides.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [daysInSparePool]: #daysinsparepool
 #### [daysInSparePool]
 Number of day(s) a server have been in spare pool.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [downlinkHardware]: #downlinkhardware
@@ -297,11 +463,19 @@ Number of day(s) a server have been in spare pool.
 All hardware that has uplink network connections to a piece of hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [downlinkNetworkHardware]: #downlinknetworkhardware
 #### [downlinkNetworkHardware]
 All hardware that has uplink network connections to a piece of hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [downlinkServers]: #downlinkservers
@@ -309,11 +483,19 @@ All hardware that has uplink network connections to a piece of hardware.
 Information regarding all servers attached to a piece of network hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [downlinkVirtualGuests]: #downlinkvirtualguests
 #### [downlinkVirtualGuests]
 Information regarding all virtual guests attached to a piece of network hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [downstreamHardwareBindings]: #downstreamhardwarebindings
@@ -321,11 +503,19 @@ Information regarding all virtual guests attached to a piece of network hardware
 All hardware downstream from a network device.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component_Uplink_Hardware'>SoftLayer_Network_Component_Uplink_Hardware[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [downstreamNetworkHardware]: #downstreamnetworkhardware
 #### [downstreamNetworkHardware]
 All network hardware downstream from the selected piece of hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [downstreamNetworkHardwareWithIncidents]: #downstreamnetworkhardwarewithincidents
@@ -333,11 +523,19 @@ All network hardware downstream from the selected piece of hardware.
 All network hardware with monitoring warnings or errors that are downstream from the selected piece of hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [downstreamServers]: #downstreamservers
 #### [downstreamServers]
 Information regarding all servers attached downstream to a piece of network hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [downstreamVirtualGuests]: #downstreamvirtualguests
@@ -345,11 +543,19 @@ Information regarding all servers attached downstream to a piece of network hard
 Information regarding all virtual guests attached to a piece of network hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [driveControllers]: #drivecontrollers
 #### [driveControllers]
 The drive controllers contained within a piece of hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [evaultNetworkStorage]: #evaultnetworkstorage
@@ -357,11 +563,19 @@ The drive controllers contained within a piece of hardware.
 Information regarding a piece of hardware's associated EVault network storage service account.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [firewallServiceComponent]: #firewallservicecomponent
 #### [firewallServiceComponent]
 Information regarding a piece of hardware's firewall services.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [fixedConfigurationPreset]: #fixedconfigurationpreset
@@ -369,11 +583,19 @@ Information regarding a piece of hardware's firewall services.
 Defines the fixed components in a fixed configuration bare metal server.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [frontendNetworkComponents]: #frontendnetworkcomponents
 #### [frontendNetworkComponents]
 A piece of hardware's front-end or public network components.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [frontendRouters]: #frontendrouters
@@ -381,11 +603,19 @@ A piece of hardware's front-end or public network components.
 A hardware's frontend or public router.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [globalIdentifier]: #globalidentifier
 #### [globalIdentifier]
 A hardware's universally unique identifier.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hardDrives]: #harddrives
@@ -393,11 +623,19 @@ A hardware's universally unique identifier.
 The hard drives contained within a piece of hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hardwareChassis]: #hardwarechassis
 #### [hardwareChassis]
 The chassis that a piece of hardware is housed in.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Chassis'>SoftLayer_Hardware_Chassis </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hardwareFunction]: #hardwarefunction
@@ -405,11 +643,19 @@ The chassis that a piece of hardware is housed in.
 A hardware's function.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Function'>SoftLayer_Hardware_Function </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hardwareFunctionDescription]: #hardwarefunctiondescription
 #### [hardwareFunctionDescription]
 A hardware's function.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hardwareStatus]: #hardwarestatus
@@ -417,11 +663,19 @@ A hardware's function.
 A hardware's status.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Status'>SoftLayer_Hardware_Status </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hasTrustedPlatformModuleBillingItemFlag]: #hastrustedplatformmodulebillingitemflag
 #### [hasTrustedPlatformModuleBillingItemFlag]
 Determine in hardware object has TPM enabled.  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hostIpsSoftwareComponent]: #hostipssoftwarecomponent
@@ -429,11 +683,19 @@ Determine in hardware object has TPM enabled.
 Information regarding a host IPS software component object.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hourlyBillingFlag]: #hourlybillingflag
 #### [hourlyBillingFlag]
 A server's hourly billing status.  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [inboundBandwidthUsage]: #inboundbandwidthusage
@@ -441,11 +703,19 @@ A server's hourly billing status.
 The sum of all the inbound network traffic data for the last 30 days.  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [inboundPublicBandwidthUsage]: #inboundpublicbandwidthusage
 #### [inboundPublicBandwidthUsage]
 The total public inbound bandwidth for this hardware for the current billing cycle.  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [lastTransaction]: #lasttransaction
@@ -453,11 +723,19 @@ The total public inbound bandwidth for this hardware for the current billing cyc
 Information regarding the last transaction a server performed.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [latestNetworkMonitorIncident]: #latestnetworkmonitorincident
 #### [latestNetworkMonitorIncident]
 A piece of hardware's latest network monitoring incident.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Incident'>SoftLayer_Network_Monitor_Version1_Incident </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [localDiskStorageCapabilityFlag]: #localdiskstoragecapabilityflag
@@ -465,11 +743,19 @@ A piece of hardware's latest network monitoring incident.
 A flag indicating that a VLAN on the router can be assigned to a host that has local disk functionality.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [location]: #location
 #### [location]
 Where a piece of hardware is located within SoftLayer's location hierarchy.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [locationPathString]: #locationpathstring
@@ -477,11 +763,19 @@ Where a piece of hardware is located within SoftLayer's location hierarchy.
   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [lockboxNetworkStorage]: #lockboxnetworkstorage
 #### [lockboxNetworkStorage]
 Information regarding a lockbox account associated with a server.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [managedResourceFlag]: #managedresourceflag
@@ -489,11 +783,19 @@ Information regarding a lockbox account associated with a server.
 A flag indicating that the hardware is a managed resource.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [memory]: #memory
 #### [memory]
 Information regarding a piece of hardware's memory.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [memoryCapacity]: #memorycapacity
@@ -501,11 +803,19 @@ Information regarding a piece of hardware's memory.
 The amount of memory a piece of hardware has, measured in gigabytes.  
 <span class="type-label">Type: </span>**unsigned integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [metricTrackingObject]: #metrictrackingobject
 #### [metricTrackingObject]
 A piece of hardware's metric tracking object.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_HardwareServer'>SoftLayer_Metric_Tracking_Object_HardwareServer </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [modules]: #modules
@@ -513,11 +823,19 @@ A piece of hardware's metric tracking object.
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [monitoringAgents]: #monitoringagents
 #### [monitoringAgents]
 Information regarding the monitoring agents associated with a piece of hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Monitoring_Agent'>SoftLayer_Monitoring_Agent[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [monitoringRobot]: #monitoringrobot
@@ -525,11 +843,19 @@ Information regarding the monitoring agents associated with a piece of hardware.
 Information regarding the hardware's monitoring robot.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Monitoring_Robot'>SoftLayer_Monitoring_Robot </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [monitoringServiceComponent]: #monitoringservicecomponent
 #### [monitoringServiceComponent]
 Information regarding a piece of hardware's network monitoring services.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum'>SoftLayer_Network_Monitor_Version1_Query_Host_Stratum </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [monitoringServiceEligibilityFlag]: #monitoringserviceeligibilityflag
@@ -537,11 +863,19 @@ Information regarding a piece of hardware's network monitoring services.
 The monitoring service flag eligibility status for a piece of hardware.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [monitoringServiceFlag]: #monitoringserviceflag
 #### [monitoringServiceFlag]
 The service flag status for a piece of hardware.  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [motherboard]: #motherboard
@@ -549,11 +883,19 @@ The service flag status for a piece of hardware.
 Information regarding a piece of hardware's motherboard.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [networkCards]: #networkcards
 #### [networkCards]
 Information regarding a piece of hardware's network cards.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [networkComponents]: #networkcomponents
@@ -561,11 +903,19 @@ Information regarding a piece of hardware's network cards.
 Returns a hardware's network components.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [networkGatewayMember]: #networkgatewaymember
 #### [networkGatewayMember]
 The gateway member if this device is part of a network gateway.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway_Member'>SoftLayer_Network_Gateway_Member </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [networkGatewayMemberFlag]: #networkgatewaymemberflag
@@ -573,11 +923,19 @@ The gateway member if this device is part of a network gateway.
 Whether or not this device is part of a network gateway.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [networkMonitorAttachedDownHardware]: #networkmonitorattacheddownhardware
 #### [networkMonitorAttachedDownHardware]
 All servers with failed monitoring that are attached downstream to a piece of hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [networkMonitorAttachedDownVirtualGuests]: #networkmonitorattacheddownvirtualguests
@@ -585,11 +943,19 @@ All servers with failed monitoring that are attached downstream to a piece of ha
 Virtual guests that are attached downstream to a hardware that have failed monitoring  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [networkMonitorIncidents]: #networkmonitorincidents
 #### [networkMonitorIncidents]
 The status of all of a piece of hardware's network monitoring incidents.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Incident'>SoftLayer_Network_Monitor_Version1_Incident[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [networkMonitors]: #networkmonitors
@@ -597,11 +963,19 @@ The status of all of a piece of hardware's network monitoring incidents.
 Information regarding a piece of hardware's network monitors.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host'>SoftLayer_Network_Monitor_Version1_Query_Host[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [networkStatus]: #networkstatus
 #### [networkStatus]
 The value of a hardware's network status attribute.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [networkStatusAttribute]: #networkstatusattribute
@@ -609,11 +983,19 @@ The value of a hardware's network status attribute.
 The hardware's related network status attribute.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Attribute'>SoftLayer_Hardware_Attribute </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [networkStorage]: #networkstorage
 #### [networkStorage]
 Information regarding a piece of hardware's associated network storage service account.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [nextBillingCycleBandwidthAllocation]: #nextbillingcyclebandwidthallocation
@@ -621,11 +1003,19 @@ Information regarding a piece of hardware's associated network storage service a
 A hardware's allotted bandwidth for the next billing cycle (measured in GB).  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [notesHistory]: #noteshistory
 #### [notesHistory]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Note'>SoftLayer_Hardware_Note[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [nvRamCapacity]: #nvramcapacity
@@ -633,11 +1023,19 @@ A hardware's allotted bandwidth for the next billing cycle (measured in GB).
 The amount of non-volatile memory a piece of hardware has, measured in gigabytes.  
 <span class="type-label">Type: </span>**unsigned integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [nvRamComponentModels]: #nvramcomponentmodels
 #### [nvRamComponentModels]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [operatingSystem]: #operatingsystem
@@ -645,11 +1043,19 @@ The amount of non-volatile memory a piece of hardware has, measured in gigabytes
 Information regarding a piece of hardware's operating system.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_OperatingSystem'>SoftLayer_Software_Component_OperatingSystem </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [operatingSystemReferenceCode]: #operatingsystemreferencecode
 #### [operatingSystemReferenceCode]
 A hardware's operating system software description.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [outboundBandwidthUsage]: #outboundbandwidthusage
@@ -657,11 +1063,19 @@ A hardware's operating system software description.
 The sum of all the outbound network traffic data for the last 30 days.  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [outboundPublicBandwidthUsage]: #outboundpublicbandwidthusage
 #### [outboundPublicBandwidthUsage]
 The total public outbound bandwidth for this hardware for the current billing cycle.  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [parentBay]: #parentbay
@@ -669,11 +1083,19 @@ The total public outbound bandwidth for this hardware for the current billing cy
 Blade Bay  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Blade'>SoftLayer_Hardware_Blade </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [parentHardware]: #parenthardware
 #### [parentHardware]
 Parent Hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [pointOfPresenceLocation]: #pointofpresencelocation
@@ -681,11 +1103,19 @@ Parent Hardware.
 Information regarding the Point of Presence (PoP) location in which a piece of hardware resides.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [powerComponents]: #powercomponents
 #### [powerComponents]
 The power components for a hardware object.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Power_Component'>SoftLayer_Hardware_Power_Component[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [powerSupply]: #powersupply
@@ -693,11 +1123,19 @@ The power components for a hardware object.
 Information regarding a piece of hardware's power supply.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [primaryBackendNetworkComponent]: #primarybackendnetworkcomponent
 #### [primaryBackendNetworkComponent]
 Information regarding the hardware's primary back-end network component.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [primaryNetworkComponent]: #primarynetworkcomponent
@@ -705,11 +1143,19 @@ Information regarding the hardware's primary back-end network component.
 Information regarding the hardware's primary public network component.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [privateNetworkOnlyFlag]: #privatenetworkonlyflag
 #### [privateNetworkOnlyFlag]
 Whether the hardware only has access to the private network.  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [processorCoreAmount]: #processorcoreamount
@@ -717,11 +1163,19 @@ Whether the hardware only has access to the private network.
 The total number of processor cores, summed from all processors that are attached to a piece of hardware  
 <span class="type-label">Type: </span>**unsigned integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [processorPhysicalCoreAmount]: #processorphysicalcoreamount
 #### [processorPhysicalCoreAmount]
 The total number of physical processor cores, summed from all processors that are attached to a piece of hardware  
 <span class="type-label">Type: </span>**unsigned integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [processors]: #processors
@@ -729,11 +1183,19 @@ The total number of physical processor cores, summed from all processors that ar
 Information regarding a piece of hardware's processors.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [rack]: #rack
 #### [rack]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [raidControllers]: #raidcontrollers
@@ -741,11 +1203,19 @@ Information regarding a piece of hardware's processors.
 The RAID controllers contained within a piece of hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [recentEvents]: #recentevents
 #### [recentEvents]
 Recent events that impact this hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [remoteManagementAccounts]: #remotemanagementaccounts
@@ -753,11 +1223,19 @@ Recent events that impact this hardware.
 User credentials to issue commands and/or interact with the server's remote management card.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_RemoteManagement_User'>SoftLayer_Hardware_Component_RemoteManagement_User[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [remoteManagementComponent]: #remotemanagementcomponent
 #### [remoteManagementComponent]
 A hardware's associated remote management component. This is normally IPMI.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [resourceConfigurations]: #resourceconfigurations
@@ -765,11 +1243,19 @@ A hardware's associated remote management component. This is normally IPMI.
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Resource_Configuration'>SoftLayer_Hardware_Resource_Configuration[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [resourceGroupMemberReferences]: #resourcegroupmemberreferences
 #### [resourceGroupMemberReferences]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [resourceGroupRoles]: #resourcegrouproles
@@ -777,11 +1263,19 @@ A hardware's associated remote management component. This is normally IPMI.
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Role'>SoftLayer_Resource_Group_Role[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [resourceGroups]: #resourcegroups
 #### [resourceGroups]
 The resource groups in which this hardware is a member.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [routers]: #routers
@@ -789,11 +1283,19 @@ The resource groups in which this hardware is a member.
 A hardware's routers.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [sanStorageCapabilityFlag]: #sanstoragecapabilityflag
 #### [sanStorageCapabilityFlag]
 A flag indicating that a VLAN on the router can be assigned to a host that has SAN disk functionality.  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [scaleAssets]: #scaleassets
@@ -801,11 +1303,19 @@ A flag indicating that a VLAN on the router can be assigned to a host that has S
 Collection of scale assets this hardware corresponds to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Asset'>SoftLayer_Scale_Asset[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [securityScanRequests]: #securityscanrequests
 #### [securityScanRequests]
 Information regarding a piece of hardware's vulnerability scan requests.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request'>SoftLayer_Network_Security_Scanner_Request[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [serverRoom]: #serverroom
@@ -813,11 +1323,19 @@ Information regarding a piece of hardware's vulnerability scan requests.
 Information regarding the server room in which the hardware is located.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [serviceProvider]: #serviceprovider
 #### [serviceProvider]
 Information regarding the piece of hardware's service provider.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [softwareComponents]: #softwarecomponents
@@ -825,11 +1343,19 @@ Information regarding the piece of hardware's service provider.
 Information regarding a piece of hardware's installed software.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [sparePoolBillingItem]: #sparepoolbillingitem
 #### [sparePoolBillingItem]
 Information regarding the billing item for a spare pool server.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Hardware'>SoftLayer_Billing_Item_Hardware </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [sshKeys]: #sshkeys
@@ -837,11 +1363,19 @@ Information regarding the billing item for a spare pool server.
 SSH keys to be installed on the server during provisioning or an OS reload.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Ssh_Key'>SoftLayer_Security_Ssh_Key[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [storageNetworkComponents]: #storagenetworkcomponents
 #### [storageNetworkComponents]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [tagReferences]: #tagreferences
@@ -849,11 +1383,19 @@ SSH keys to be installed on the server during provisioning or an OS reload.
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [topLevelLocation]: #toplevellocation
 #### [topLevelLocation]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [upgradeRequest]: #upgraderequest
@@ -861,11 +1403,19 @@ SSH keys to be installed on the server during provisioning or an OS reload.
 An account's associated upgrade request object, if any.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Upgrade_Request'>SoftLayer_Product_Upgrade_Request </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [uplinkHardware]: #uplinkhardware
 #### [uplinkHardware]
 The network device connected to a piece of hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [uplinkNetworkComponents]: #uplinknetworkcomponents
@@ -873,11 +1423,19 @@ The network device connected to a piece of hardware.
 Information regarding the network component that is one level higher than a piece of hardware on the network infrastructure.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [userData]: #userdata
 #### [userData]
 An array containing a single string of custom user data for a hardware order. Max size is 16 kb.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Attribute'>SoftLayer_Hardware_Attribute[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [virtualChassis]: #virtualchassis
@@ -885,11 +1443,19 @@ An array containing a single string of custom user data for a hardware order. Ma
 Information regarding the virtual chassis for a piece of hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Group'>SoftLayer_Hardware_Group </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [virtualChassisSiblings]: #virtualchassissiblings
 #### [virtualChassisSiblings]
 Information regarding the virtual chassis siblings for a piece of hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [virtualHost]: #virtualhost
@@ -897,11 +1463,19 @@ Information regarding the virtual chassis siblings for a piece of hardware.
 A piece of hardware's virtual host record.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Host'>SoftLayer_Virtual_Host </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [virtualLicenses]: #virtuallicenses
 #### [virtualLicenses]
 Information regarding a piece of hardware's virtual software licenses.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_VirtualLicense'>SoftLayer_Software_VirtualLicense[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [virtualRack]: #virtualrack
@@ -909,17 +1483,29 @@ Information regarding a piece of hardware's virtual software licenses.
 Information regarding the bandwidth allotment to which a piece of hardware belongs.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [virtualRackId]: #virtualrackid
 #### [virtualRackId]
 The name of the bandwidth allotment belonging to a piece of hardware.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [virtualRackName]: #virtualrackname
 #### [virtualRackName]
 The name of the bandwidth allotment belonging to a piece of hardware.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [virtualizationPlatform]: #virtualizationplatform
@@ -928,7 +1514,10 @@ A piece of hardware's virtualization platform software.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [activeComponentCount]: #activecomponentcount
@@ -937,12 +1526,18 @@ A count of a piece of hardware's active physical components.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [activeNetworkMonitorIncidentCount]: #activenetworkmonitorincidentcount
 #### [activeNetworkMonitorIncidentCount]
 A count of a piece of hardware's active network monitoring incidents.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [allPowerComponentCount]: #allpowercomponentcount
@@ -951,12 +1546,18 @@ A count of
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [allowedNetworkStorageCount]: #allowednetworkstoragecount
 #### [allowedNetworkStorageCount]
 A count of the SoftLayer_Network_Storage objects that this SoftLayer_Hardware has access to.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [allowedNetworkStorageReplicaCount]: #allowednetworkstoragereplicacount
@@ -965,12 +1566,18 @@ A count of the SoftLayer_Network_Storage objects whose Replica that this SoftLay
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [attributeCount]: #attributecount
 #### [attributeCount]
 A count of information regarding a piece of hardware's specific attributes.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [backendNetworkComponentCount]: #backendnetworkcomponentcount
@@ -979,12 +1586,18 @@ A count of a piece of hardware's back-end or private network components.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [backendRouterCount]: #backendroutercount
 #### [backendRouterCount]
 A count of a hardware's backend or private router.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [benchmarkCertificationCount]: #benchmarkcertificationcount
@@ -993,12 +1606,18 @@ A count of information regarding a piece of hardware's benchmark certifications.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [boundSubnetCount]: #boundsubnetcount
 #### [boundSubnetCount]
 A count of associated subnets for a router object.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [childrenHardwareCount]: #childrenhardwarecount
@@ -1007,12 +1626,18 @@ A count of child hardware.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [componentCount]: #componentcount
 #### [componentCount]
 A count of a piece of hardware's components.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [downlinkHardwareCount]: #downlinkhardwarecount
@@ -1021,12 +1646,18 @@ A count of all hardware that has uplink network connections to a piece of hardwa
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [downlinkNetworkHardwareCount]: #downlinknetworkhardwarecount
 #### [downlinkNetworkHardwareCount]
 A count of all hardware that has uplink network connections to a piece of hardware.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [downlinkServerCount]: #downlinkservercount
@@ -1035,12 +1666,18 @@ A count of information regarding all servers attached to a piece of network hard
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [downlinkVirtualGuestCount]: #downlinkvirtualguestcount
 #### [downlinkVirtualGuestCount]
 A count of information regarding all virtual guests attached to a piece of network hardware.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [downstreamHardwareBindingCount]: #downstreamhardwarebindingcount
@@ -1049,12 +1686,18 @@ A count of all hardware downstream from a network device.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [downstreamNetworkHardwareCount]: #downstreamnetworkhardwarecount
 #### [downstreamNetworkHardwareCount]
 A count of all network hardware downstream from the selected piece of hardware.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [downstreamNetworkHardwareWithIncidentCount]: #downstreamnetworkhardwarewithincidentcount
@@ -1063,12 +1706,18 @@ A count of all network hardware with monitoring warnings or errors that are down
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [downstreamServerCount]: #downstreamservercount
 #### [downstreamServerCount]
 A count of information regarding all servers attached downstream to a piece of network hardware.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [downstreamVirtualGuestCount]: #downstreamvirtualguestcount
@@ -1077,12 +1726,18 @@ A count of information regarding all virtual guests attached to a piece of netwo
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [driveControllerCount]: #drivecontrollercount
 #### [driveControllerCount]
 A count of the drive controllers contained within a piece of hardware.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [evaultNetworkStorageCount]: #evaultnetworkstoragecount
@@ -1091,12 +1746,18 @@ A count of information regarding a piece of hardware's associated EVault network
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [frontendNetworkComponentCount]: #frontendnetworkcomponentcount
 #### [frontendNetworkComponentCount]
 A count of a piece of hardware's front-end or public network components.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [frontendRouterCount]: #frontendroutercount
@@ -1105,12 +1766,18 @@ A count of a hardware's frontend or public router.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [hardDriveCount]: #harddrivecount
 #### [hardDriveCount]
 A count of the hard drives contained within a piece of hardware.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [memoryCount]: #memorycount
@@ -1119,12 +1786,18 @@ A count of information regarding a piece of hardware's memory.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [moduleCount]: #modulecount
 #### [moduleCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [monitoringAgentCount]: #monitoringagentcount
@@ -1133,12 +1806,18 @@ A count of information regarding the monitoring agents associated with a piece o
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [networkCardCount]: #networkcardcount
 #### [networkCardCount]
 A count of information regarding a piece of hardware's network cards.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [networkComponentCount]: #networkcomponentcount
@@ -1147,12 +1826,18 @@ A count of returns a hardware's network components.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [networkMonitorAttachedDownHardwareCount]: #networkmonitorattacheddownhardwarecount
 #### [networkMonitorAttachedDownHardwareCount]
 A count of all servers with failed monitoring that are attached downstream to a piece of hardware.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [networkMonitorAttachedDownVirtualGuestCount]: #networkmonitorattacheddownvirtualguestcount
@@ -1161,12 +1846,18 @@ A count of virtual guests that are attached downstream to a hardware that have f
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [networkMonitorCount]: #networkmonitorcount
 #### [networkMonitorCount]
 A count of information regarding a piece of hardware's network monitors.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [networkMonitorIncidentCount]: #networkmonitorincidentcount
@@ -1175,12 +1866,18 @@ A count of the status of all of a piece of hardware's network monitoring inciden
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [networkStorageCount]: #networkstoragecount
 #### [networkStorageCount]
 A count of information regarding a piece of hardware's associated network storage service account.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [notesHistoryCount]: #noteshistorycount
@@ -1189,12 +1886,18 @@ A count of
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [nvRamComponentModelCount]: #nvramcomponentmodelcount
 #### [nvRamComponentModelCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [powerComponentCount]: #powercomponentcount
@@ -1203,12 +1906,18 @@ A count of the power components for a hardware object.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [powerSupplyCount]: #powersupplycount
 #### [powerSupplyCount]
 A count of information regarding a piece of hardware's power supply.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [processorCount]: #processorcount
@@ -1217,12 +1926,18 @@ A count of information regarding a piece of hardware's processors.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [raidControllerCount]: #raidcontrollercount
 #### [raidControllerCount]
 A count of the RAID controllers contained within a piece of hardware.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [recentEventCount]: #recenteventcount
@@ -1231,12 +1946,18 @@ A count of recent events that impact this hardware.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [remoteManagementAccountCount]: #remotemanagementaccountcount
 #### [remoteManagementAccountCount]
 A count of user credentials to issue commands and/or interact with the server's remote management card.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [resourceConfigurationCount]: #resourceconfigurationcount
@@ -1245,12 +1966,18 @@ A count of
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [resourceGroupCount]: #resourcegroupcount
 #### [resourceGroupCount]
 A count of the resource groups in which this hardware is a member.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [resourceGroupMemberReferenceCount]: #resourcegroupmemberreferencecount
@@ -1259,12 +1986,18 @@ A count of
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [resourceGroupRoleCount]: #resourcegrouprolecount
 #### [resourceGroupRoleCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [routerCount]: #routercount
@@ -1273,12 +2006,18 @@ A count of a hardware's routers.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [scaleAssetCount]: #scaleassetcount
 #### [scaleAssetCount]
 A count of collection of scale assets this hardware corresponds to.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [securityScanRequestCount]: #securityscanrequestcount
@@ -1287,12 +2026,18 @@ A count of information regarding a piece of hardware's vulnerability scan reques
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [softwareComponentCount]: #softwarecomponentcount
 #### [softwareComponentCount]
 A count of information regarding a piece of hardware's installed software.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [sshKeyCount]: #sshkeycount
@@ -1301,12 +2046,18 @@ A count of sSH keys to be installed on the server during provisioning or an OS r
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [storageNetworkComponentCount]: #storagenetworkcomponentcount
 #### [storageNetworkComponentCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [tagReferenceCount]: #tagreferencecount
@@ -1315,12 +2066,18 @@ A count of
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [uplinkNetworkComponentCount]: #uplinknetworkcomponentcount
 #### [uplinkNetworkComponentCount]
 A count of information regarding the network component that is one level higher than a piece of hardware on the network infrastructure.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [userDataCount]: #userdatacount
@@ -1329,6 +2086,9 @@ A count of an array containing a single string of custom user data for a hardwar
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [virtualChassisSiblingCount]: #virtualchassissiblingcount
 #### [virtualChassisSiblingCount]
@@ -1336,12 +2096,17 @@ A count of information regarding the virtual chassis siblings for a piece of har
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [virtualLicenseCount]: #virtuallicensecount
 #### [virtualLicenseCount]
 A count of information regarding a piece of hardware's virtual software licenses.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

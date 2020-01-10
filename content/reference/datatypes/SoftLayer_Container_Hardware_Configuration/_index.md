@@ -41,21 +41,23 @@ The [SoftLayer_Hardware::getCreateObjectOptions]({{<ref "reference/services/Soft
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [datacenters]: #datacenters
 #### [datacenters]
@@ -67,6 +69,10 @@ Available datacenter options.
 The <code>datacenter.name</code> value in the template represents which datacenter the server will be provisioned in. 
 </div>   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [fixedConfigurationPresets]: #fixedconfigurationpresets
@@ -83,6 +89,10 @@ When providing a <code>fixedConfigurationPreset.keyName</code> while ordering a 
 </div>   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hardDrives]: #harddrives
 #### [hardDrives]
@@ -98,6 +108,10 @@ The <code>hardDrives.capacity</code> value in the template represents the size, 
 </div>   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [networkComponents]: #networkcomponents
 #### [networkComponents]
@@ -109,6 +123,10 @@ Available network component options.
 The <code>networkComponent.maxSpeed</code> value in the template represents the link speed, in megabits per second, of the network connections for a server. 
 </div>   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [operatingSystems]: #operatingsystems
@@ -134,6 +152,10 @@ For Windows based operating systems the version will represent both the release 
 </div>   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [processors]: #processors
 #### [processors]
@@ -147,6 +169,8 @@ The <code>memoryCapacity</code> value in the template represents the amount of m
 </div>   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a>**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

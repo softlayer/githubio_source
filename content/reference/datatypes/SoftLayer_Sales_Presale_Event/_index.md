@@ -29,26 +29,32 @@ The presale event data types indicate the information regarding an individual pr
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [description]: #description
 #### [description]
 Description of the presale event.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [endDate]: #enddate
@@ -56,11 +62,19 @@ Description of the presale event.
 End date of the presale event. Orders can be approved and provisioned after this date.  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 Presale event unique identifier.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [itemId]: #itemid
@@ -68,11 +82,19 @@ Presale event unique identifier.
 [SoftLayer_Product_Item]({{<ref "reference/datatypes/SoftLayer_Product_Item">}}) id associated with the presale event.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [locationId]: #locationid
 #### [locationId]
 [SoftLayer_Location]({{<ref "reference/datatypes/SoftLayer_Location">}}) id for the presale event.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [startDate]: #startdate
@@ -80,17 +102,25 @@ Presale event unique identifier.
 Start date of the presale event. Orders cannot be approved before this date.  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [activeFlag]: #activeflag
 #### [activeFlag]
 A flag to indicate that the presale event is currently active. A presale event is active if the current time is between the start and end dates.  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [expiredFlag]: #expiredflag
@@ -98,17 +128,29 @@ A flag to indicate that the presale event is currently active. A presale event i
 A flag to indicate that the presale event is expired. A presale event is expired if the current time is after the end date.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [item]: #item
 #### [item]
 The [SoftLayer_Product_Item]({{<ref "reference/datatypes/SoftLayer_Product_Item">}}) associated with the presale event.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [location]: #location
 #### [location]
 The [SoftLayer_Location]({{<ref "reference/datatypes/SoftLayer_Location">}}) associated with the presale event.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [orders]: #orders
@@ -117,7 +159,10 @@ The orders ([SoftLayer_Billing_Order]({{<ref "reference/datatypes/SoftLayer_Bill
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [orderCount]: #ordercount
@@ -125,6 +170,8 @@ The orders ([SoftLayer_Billing_Order]({{<ref "reference/datatypes/SoftLayer_Bill
 A count of the orders ([SoftLayer_Billing_Order]({{<ref "reference/datatypes/SoftLayer_Billing_Order">}})) associated with this presale event that were created for the customer's account.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

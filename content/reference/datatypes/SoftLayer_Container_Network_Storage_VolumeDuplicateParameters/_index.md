@@ -24,26 +24,32 @@ Container for Volume Duplicate Information
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [iopsPerGb]: #iopspergb
 #### [iopsPerGb]
 The iopsPerGB of the volume  
 <span class="type-label">Type: </span>**float**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [isDuplicatable]: #isduplicatable
@@ -51,11 +57,19 @@ The iopsPerGB of the volume
 Returns true if volume can be duplicated; false otherwise  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [locationId]: #locationid
 #### [locationId]
 This represents the location id  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [locationName]: #locationname
@@ -63,11 +77,19 @@ This represents the location id
 This represents the location name  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [maximumIopsPerGb]: #maximumiopspergb
 #### [maximumIopsPerGb]
 The maximumIopsPerGb allowed for a duplicated volume  
 <span class="type-label">Type: </span>**float**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [maximumIopsTier]: #maximumiopstier
@@ -75,11 +97,19 @@ The maximumIopsPerGb allowed for a duplicated volume
 The maximumIopsTier allowed for a duplicated volume  
 <span class="type-label">Type: </span>**float**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [maximumVolumeSize]: #maximumvolumesize
 #### [maximumVolumeSize]
 The maximumVolumeSize allowed for a duplicated volume  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [minimumIopsPerGb]: #minimumiopspergb
@@ -87,11 +117,19 @@ The maximumVolumeSize allowed for a duplicated volume
 The minimumIopsPerGb allowed for a duplicated volume  
 <span class="type-label">Type: </span>**float**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [minimumIopsTier]: #minimumiopstier
 #### [minimumIopsTier]
 The minimumIopsTier allowed for a duplicated volume  
 <span class="type-label">Type: </span>**float**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [minimumVolumeSize]: #minimumvolumesize
@@ -99,11 +137,19 @@ The minimumIopsTier allowed for a duplicated volume
 The minimumVolumeSize allowed for a duplicated volume  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [status]: #status
 #### [status]
 The volume duplicate status description  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [volumeUsername]: #volumeusername
@@ -111,6 +157,8 @@ The volume duplicate status description
 This represents the volume username  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

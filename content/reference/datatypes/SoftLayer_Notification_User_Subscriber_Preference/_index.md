@@ -31,26 +31,32 @@ NOTE: Some preferences have certain restrictions on values that can be set.
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 Unique identifier for the subscriber's preferences.   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [notificationPreferenceId]: #notificationpreferenceid
@@ -58,11 +64,19 @@ Unique identifier for the subscriber's preferences.
 Unique identifier of the default preference for which the subscriber preference is based on.  For example, if no preferences are supplied during the creation of a subscriber.  The default values are pulled using this property.   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [notificationUserSubscriberId]: #notificationusersubscriberid
 #### [notificationUserSubscriberId]
 Unique identifier of the subscriber tied to the subscriber preference.   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [value]: #value
@@ -70,17 +84,25 @@ Unique identifier of the subscriber tied to the subscriber preference.
 The user supplied value to "override" the "default" preference's value.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [defaultPreference]: #defaultpreference
 #### [defaultPreference]
 Details such name, keyname, minimum and maximum values for the preference.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [notificationUserSubscriber]: #notificationusersubscriber
@@ -88,6 +110,8 @@ Details such name, keyname, minimum and maximum values for the preference.
 Details of the subscriber tied to the preference.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber </a>**
 
+
+</div>
 
 ## Count
 </div>

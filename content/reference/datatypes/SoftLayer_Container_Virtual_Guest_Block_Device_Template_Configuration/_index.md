@@ -29,27 +29,33 @@ The SoftLayer_Container_Virtual_Guest_Block_Device_Template_Configuration data t
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [bootMode]: #bootmode
 #### [bootMode]
 
 Optional virtualization boot mode parameter, if set, can mark a template to boot specifically into PV or HVM.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [byol]: #byol
@@ -58,12 +64,20 @@ Optional virtualization boot mode parameter, if set, can mark a template to boot
 Specifies if image is using a customer's software license.   
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [cloudInit]: #cloudinit
 #### [cloudInit]
 
 Specifies if image requires cloud-init.   
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [crkCrn]: #crkcrn
@@ -72,12 +86,20 @@ Specifies if image requires cloud-init.
 CRN to customer root key   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [environmentType]: #environmenttype
 #### [environmentType]
 
 For future use; not currently defined.   
 <span class="type-label">Type: </span>**array of strings**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [ibmAccessKey]: #ibmaccesskey
@@ -86,12 +108,20 @@ For future use; not currently defined.
 IBM Cloud HMAC Access Key   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [ibmApiKey]: #ibmapikey
 #### [ibmApiKey]
 
 IBM Cloud (Bluemix) API Key   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [ibmSecretKey]: #ibmsecretkey
@@ -100,6 +130,10 @@ IBM Cloud (Bluemix) API Key
 IBM HMAC Secret Key   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [isEncrypted]: #isencrypted
 #### [isEncrypted]
@@ -107,17 +141,29 @@ IBM HMAC Secret Key
 Specifies if image is encrypted or not.   
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [name]: #name
 #### [name]
 The group name to be applied to the imported template  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [note]: #note
 #### [note]
 The note to be applied to the imported template  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [operatingSystemReferenceCode]: #operatingsystemreferencecode
@@ -126,6 +172,10 @@ The note to be applied to the imported template
 The referenceCode of the operating system software description for the imported VHD   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [rootKeyId]: #rootkeyid
 #### [rootKeyId]
@@ -133,12 +183,20 @@ The referenceCode of the operating system software description for the imported 
 Name of the IBM Key Protect Key Name. Required if using an encrypted image.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [supportedBootModes]: #supportedbootmodes
 #### [supportedBootModes]
 
 Optional Collection of modes that this template supports booting into.   
 <span class="type-label">Type: </span>**array of strings**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [uri]: #uri
@@ -148,6 +206,10 @@ The URI for an object storage object (.vhd/.iso file)
 <code>swift://<ObjectStorageAccountName>@<clusterName>/<containerName>/<fileName.(vhd|iso)></code>   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [wrappedDek]: #wrappeddek
 #### [wrappedDek]
@@ -155,6 +217,8 @@ The URI for an object storage object (.vhd/.iso file)
 Wrapped Decryption Key provided by IBM Key Protect   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

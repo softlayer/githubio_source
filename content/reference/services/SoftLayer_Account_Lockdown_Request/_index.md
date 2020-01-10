@@ -36,29 +36,50 @@ Disabling an account is a PERMANENT action. All billable items under the account
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [cancelRequest](/reference/services/SoftLayer_Account_Lockdown_Request/cancelRequest)
 Allows approved brands to cancel a previously scheduled lockdown request.
+</div>
+
+<div class="method-row">
 
 #### [disableLockedAccount](/reference/services/SoftLayer_Account_Lockdown_Request/disableLockedAccount)
 Disabling an account is a PERMANENT action. All billable items associated
+</div>
+
+<div class="method-row">
 
 #### [disconnectCompute](/reference/services/SoftLayer_Account_Lockdown_Request/disconnectCompute)
 Disconnecting a customer will disable all hardware resources (servers and
+</div>
+
+<div class="method-row">
 
 #### [getAccountHistory](/reference/services/SoftLayer_Account_Lockdown_Request/getAccountHistory)
 Provides a history of an account's lockdown requests and their status.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Account_Lockdown_Request/getObject)
 Retrieve a SoftLayer_Account_Lockdown_Request record.
+</div>
+
+<div class="method-row">
 
 #### [reconnectCompute](/reference/services/SoftLayer_Account_Lockdown_Request/reconnectCompute)
 Reconnecting a customer will reconnect all previously disconnected
+</div>
+</div>
 
 </div>
 

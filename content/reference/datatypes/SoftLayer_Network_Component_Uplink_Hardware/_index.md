@@ -36,16 +36,16 @@ It is populated via triggers on the network_connection table (SoftLayer_Network_
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
@@ -57,11 +57,17 @@ It is populated via triggers on the network_connection table (SoftLayer_Network_
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [hardware]: #hardware
 #### [hardware]
 A network component uplink's connected [SoftLayer_Hardware]({{<ref "reference/datatypes/SoftLayer_Hardware">}}).  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [networkComponent]: #networkcomponent
@@ -69,6 +75,8 @@ A network component uplink's connected [SoftLayer_Hardware]({{<ref "reference/da
 The [SoftLayer_Network_Component]({{<ref "reference/datatypes/SoftLayer_Network_Component">}}) that a uplink connection belongs to..  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
 
+
+</div>
 
 ## Count
 </div>

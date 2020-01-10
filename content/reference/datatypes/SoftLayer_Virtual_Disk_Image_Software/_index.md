@@ -32,26 +32,32 @@ A SoftLayer_Virtual_Disk_Image_Software record connects a computing instance's v
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 The unique identifier of a virtual disk image to software relationship.   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [softwareDescriptionId]: #softwaredescriptionid
@@ -59,23 +65,35 @@ The unique identifier of a virtual disk image to software relationship.
 The unique identifier of the software that a virtual disk image is associated with.   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [diskImage]: #diskimage
 #### [diskImage]
 The virtual disk image that is associated with software.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [passwords]: #passwords
 #### [passwords]
 Username/Password pairs used for access to a Software Installation.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Software_Password'>SoftLayer_Virtual_Disk_Image_Software_Password[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [softwareDescription]: #softwaredescription
@@ -84,7 +102,10 @@ The software associated with a virtual disk image.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [passwordCount]: #passwordcount
@@ -92,6 +113,8 @@ The software associated with a virtual disk image.
 A count of username/Password pairs used for access to a Software Installation.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

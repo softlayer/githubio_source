@@ -30,35 +30,62 @@ Global IP Addresses are static IP addresses that can be routed to any server wit
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAccount](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global/getAccount)
 
+</div>
+
+<div class="method-row">
 
 #### [getActiveTransaction](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global/getActiveTransaction)
 Retrieve the active transaction associated with this Global IP.
+</div>
+
+<div class="method-row">
 
 #### [getBillingItem](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global/getBillingItem)
 Retrieve the billing item for this Global IP.
+</div>
+
+<div class="method-row">
 
 #### [getDestinationIpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global/getDestinationIpAddress)
 
+</div>
+
+<div class="method-row">
 
 #### [getIpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global/getIpAddress)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global/getObject)
 Retrieve a SoftLayer_Network_Subnet_IpAddress_Global record.
+</div>
+
+<div class="method-row">
 
 #### [route](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global/route)
 create a new transaction to reroute a global IP.
+</div>
+
+<div class="method-row">
 
 #### [unroute](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global/unroute)
 create a new transaction to unroute a global IP.
+</div>
+</div>
 
 </div>
 

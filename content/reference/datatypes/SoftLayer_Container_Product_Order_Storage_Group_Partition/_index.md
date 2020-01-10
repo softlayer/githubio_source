@@ -28,26 +28,32 @@ This object describes the partitions for a single storage group that can be adde
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [isGrow]: #isgrow
 #### [isGrow]
 Is this a grow partition  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [name]: #name
@@ -55,12 +61,18 @@ Is this a grow partition
 The name of this partition  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [size]: #size
 #### [size]
 The size of this partition  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

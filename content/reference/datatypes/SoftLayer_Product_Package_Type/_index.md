@@ -24,26 +24,32 @@ The [SoftLayer_Product_Package_Type]({{<ref "reference/datatypes/SoftLayer_Produ
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 The package type's unique identifier.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [keyName]: #keyname
@@ -51,18 +57,26 @@ The package type's unique identifier.
 The unique key name of the package type. Use this value when filtering.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [name]: #name
 #### [name]
 The name of the package type.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [packages]: #packages
 #### [packages]
@@ -70,7 +84,10 @@ All the packages associated with the given package type.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [packageCount]: #packagecount
@@ -78,6 +95,8 @@ All the packages associated with the given package type.
 A count of all the packages associated with the given package type.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

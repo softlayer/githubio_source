@@ -24,26 +24,32 @@ The SoftLayer_Network_Bandwidth_Usage_Detail data type contains specific informa
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [amountIn]: #amountin
 #### [amountIn]
 Incoming bandwidth utilization.  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [amountOut]: #amountout
@@ -51,23 +57,35 @@ Incoming bandwidth utilization.
 Outgoing bandwidth utilization.  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [bandwidthUsageDetailTypeId]: #bandwidthusagedetailtypeid
 #### [bandwidthUsageDetailTypeId]
 ID of the bandwidth usage detail type for this record.  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [account]: #account
 #### [account]
 The account tied to this tracking object  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [trackingObject]: #trackingobject
@@ -75,12 +93,18 @@ The account tied to this tracking object
 The tracking object this bandwidth usage record describes.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [type]: #type
 #### [type]
 In and out bandwidth utilization for a specified time stamp.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type </a>**
 
+
+</div>
 
 ## Count
 </div>

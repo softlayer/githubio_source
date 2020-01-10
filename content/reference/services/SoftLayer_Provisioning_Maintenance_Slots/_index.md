@@ -30,14 +30,20 @@ The SoftLayer_Provisioning_Maintenance_Slots service returns available maintenan
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getObject](/reference/services/SoftLayer_Provisioning_Maintenance_Slots/getObject)
 Retrieve a SoftLayer_Provisioning_Maintenance_Slots record.
+</div>
+</div>
 
 </div>
 

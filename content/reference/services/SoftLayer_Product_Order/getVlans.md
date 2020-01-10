@@ -21,11 +21,21 @@ Return collections of public and private VLANs that are available during orderin
 
 For the selectedItems parameter, this is a comma-separated string of category codes and item values. For example: 
 
-<ul> <li><code>port_speed=10,guest_disk0=LOCAL_DISK</code></li> <li><code>port_speed=100,disk0=SAN_DISK</code></li> <li><code>port_speed=100,private_network_only=1,guest_disk0=LOCAL_DISK</code></li> </ul> 
+- `port_speed=10,guest_disk0=LOCAL_DISK` 
+
+- `port_speed=100,disk0=SAN_DISK` 
+
+- `port_speed=100,private_network_only=1,guest_disk0=LOCAL_DISK` 
 
 This parameter is used to narrow the available results down even further. It's not necessary when selecting a VLAN, but it will help avoid errors when attempting to place an order. The only acceptable category codes are: 
 
-<ul> <li><code>port_speed</code></li> <li>A disk category, such as <code>guest_disk0</code> or <code>disk0</code>, with values of either <code>LOCAL_DISK</code> or <code>SAN_DISK</code></li> <li><code>private_network_only</code></li> <li><code>dual_path_network</code></li> </ul> 
+- `port_speed` 
+
+- A disk category, such as `guest_disk0` or `disk0`, with values of either `LOCAL_DISK` or `SAN_DISK` 
+
+- `private_network_only` 
+
+- `dual_path_network` 
 
 For most customers, it's sufficient to only provide the first 2 parameters. 
 

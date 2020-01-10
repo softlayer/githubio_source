@@ -24,26 +24,32 @@ Provides details for the subscriber's delivery methods.
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [active]: #active
 #### [active]
 Indicates the subscriber's delivery method availability for notifications.   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [createDate]: #createdate
@@ -51,11 +57,19 @@ Indicates the subscriber's delivery method availability for notifications.
 Date the subscriber's delivery method was created.   
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [modifyDate]: #modifydate
 #### [modifyDate]
 Date the subscriber's delivery method was last modified.   
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [notificationDeliveryMethodId]: #notificationdeliverymethodid
@@ -63,23 +77,35 @@ Date the subscriber's delivery method was last modified.
 Identifier for the notification delivery method.   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [notificationSubscriberId]: #notificationsubscriberid
 #### [notificationSubscriberId]
 Identifier for the subscriber.   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [notificationDeliveryMethod]: #notificationdeliverymethod
 #### [notificationDeliveryMethod]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Delivery_Method'>SoftLayer_Notification_Delivery_Method </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [notificationSubscriber]: #notificationsubscriber
@@ -87,6 +113,8 @@ Identifier for the subscriber.
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Subscriber'>SoftLayer_Notification_Subscriber </a>**
 
+
+</div>
 
 ## Count
 </div>

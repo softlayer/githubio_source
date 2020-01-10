@@ -29,26 +29,32 @@ SoftLayer_Container_Bandwidth_GraphInputs models a single inbound object for a g
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [endDate]: #enddate
 #### [endDate]
 This is a unix timestamp that represents the stop date/time for a graph.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [networkInterfaceId]: #networkinterfaceid
@@ -56,11 +62,19 @@ This is a unix timestamp that represents the stop date/time for a graph.
 The front-end or back-end network uplink interface associated with this server.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [pod]: #pod
 #### [pod]
 *  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [serverName]: #servername
@@ -68,12 +82,18 @@ The front-end or back-end network uplink interface associated with this server.
 This is a human readable name for the server or rack being graphed.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [startDate]: #startdate
 #### [startDate]
 This is a unix timestamp that represents the begin date/time for a graph.  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

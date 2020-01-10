@@ -24,26 +24,32 @@ Container classed used to hold portal token
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [authenticationToken]: #authenticationtoken
 #### [authenticationToken]
 The unique token that is created by an external authentication request.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [openIdConnectAccessToken]: #openidconnectaccesstoken
@@ -51,11 +57,19 @@ The unique token that is created by an external authentication request.
 The OpenID Connect access token which provides access to a resource by the OpenID Connect provider.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [openIdConnectAccountId]: #openidconnectaccountid
 #### [openIdConnectAccountId]
 The account to login to, if not provided a default will be used.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [openIdConnectProvider]: #openidconnectprovider
@@ -63,11 +77,19 @@ The account to login to, if not provided a default will be used.
 The OpenID Connect provider type, as a string.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [password]: #password
 #### [password]
 Your SoftLayer customer portal user's portal password.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [securityCode]: #securitycode
@@ -75,11 +97,19 @@ Your SoftLayer customer portal user's portal password.
 The security code used to validate a Totp credential.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [securityQuestionAnswer]: #securityquestionanswer
 #### [securityQuestionAnswer]
 The answer to your security question.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [securityQuestionId]: #securityquestionid
@@ -87,11 +117,19 @@ The answer to your security question.
 A security question you wish to answer when authenticating to the SoftLayer customer portal. This parameter isn't required if no security questions are set on your portal account or if your account is configured to not require answering a security account upon login.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [username]: #username
 #### [username]
 The username you wish to authenticate to the SoftLayer customer portal with.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [vendor]: #vendor
@@ -99,6 +137,8 @@ The username you wish to authenticate to the SoftLayer customer portal with.
 The name of the vendor that will be used for external authentication  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

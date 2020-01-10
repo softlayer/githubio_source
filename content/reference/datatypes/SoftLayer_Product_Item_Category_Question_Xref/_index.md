@@ -24,26 +24,32 @@ The SoftLayer_Product_Item_Category_Question_Xref data type represents a link be
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 Identifier for category question xref record.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [itemCategoryId]: #itemcategoryid
@@ -51,11 +57,19 @@ Identifier for category question xref record.
 Identifier for item category.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [locationId]: #locationid
 #### [locationId]
 Identifier for the question.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [questionId]: #questionid
@@ -63,23 +77,35 @@ Identifier for the question.
 Identifier for the question.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [required]: #required
 #### [required]
 Flag to indicate whether an answer is required for the question..  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [itemCategory]: #itemcategory
 #### [itemCategory]
 The product item category that this reference points to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [question]: #question
@@ -87,6 +113,8 @@ The product item category that this reference points to.
 The item category question that this reference points to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question'>SoftLayer_Product_Item_Category_Question </a>**
 
+
+</div>
 
 ## Count
 </div>

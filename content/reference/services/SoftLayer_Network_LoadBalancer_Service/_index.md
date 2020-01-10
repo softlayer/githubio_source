@@ -67,29 +67,50 @@ The affect of other variables are listed in their individual documentation.
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [deleteObject](/reference/services/SoftLayer_Network_LoadBalancer_Service/deleteObject)
 Delete this service, removing it from the load balancer.
+</div>
+
+<div class="method-row">
 
 #### [getGraphImage](/reference/services/SoftLayer_Network_LoadBalancer_Service/getGraphImage)
 Get the connection or status graph image for a load balancer service.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_LoadBalancer_Service/getObject)
 Retrieve a SoftLayer_Network_LoadBalancer_Service record.
+</div>
+
+<div class="method-row">
 
 #### [getStatus](/reference/services/SoftLayer_Network_LoadBalancer_Service/getStatus)
 Returns various status entries for this service as an array of SoftLayer_Container_Network_LoadBalancer_StatusEntry objects
+</div>
+
+<div class="method-row">
 
 #### [getVip](/reference/services/SoftLayer_Network_LoadBalancer_Service/getVip)
 Retrieve the load balancer that this service belongs to.
+</div>
+
+<div class="method-row">
 
 #### [resetPeakConnections](/reference/services/SoftLayer_Network_LoadBalancer_Service/resetPeakConnections)
 Update the PeakConnections value on the service to zero.
+</div>
+</div>
 
 </div>
 

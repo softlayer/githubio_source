@@ -34,26 +34,32 @@ The SoftLayer_Dns_Message data type contains information for a single message ge
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 The date the message was created.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -61,11 +67,19 @@ The date the message was created.
 The internal identifier for a DNS message.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [message]: #message
 #### [message]
 The message text.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [priority]: #priority
@@ -73,17 +87,25 @@ The message text.
 The priority level for a DNS message.  The possible levels are 'notice' and 'error'.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [domain]: #domain
 #### [domain]
 The domain that is associated with a message.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [resourceRecord]: #resourcerecord
@@ -91,12 +113,18 @@ The domain that is associated with a message.
 The resource record that is associated with a message.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord'>SoftLayer_Dns_Domain_ResourceRecord </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [secondary]: #secondary
 #### [secondary]
 The secondary DNS record that a message belongs to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Secondary'>SoftLayer_Dns_Secondary </a>**
 
+
+</div>
 
 ## Count
 </div>

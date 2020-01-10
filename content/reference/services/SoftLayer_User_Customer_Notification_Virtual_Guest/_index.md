@@ -34,32 +34,56 @@ When a monitoring service on that guest instance fails and the monitor is set to
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [createObject](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest/createObject)
 Create a user virtual guest notification entry
+</div>
+
+<div class="method-row">
 
 #### [createObjects](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest/createObjects)
 Create multiple user hardware notification entries at once
+</div>
+
+<div class="method-row">
 
 #### [deleteObjects](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest/deleteObjects)
 Delete a group of SoftLayer_Customer_Notification_Virtual_Guest objects by passing in a collection of them
+</div>
+
+<div class="method-row">
 
 #### [findByGuestId](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest/findByGuestId)
 Return all CloudLayer computing instance notifications associated with the passed ID
+</div>
+
+<div class="method-row">
 
 #### [getGuest](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest/getGuest)
 Retrieve the virtual guest object that will be monitored.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest/getObject)
 Retrieve a SoftLayer_User_Customer_Notification_Virtual_Guest record.
+</div>
+
+<div class="method-row">
 
 #### [getUser](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest/getUser)
 Retrieve the user that will be notified when the associated virtual guest object fails a monitoring instance.
+</div>
+</div>
 
 </div>
 

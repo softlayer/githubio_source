@@ -30,62 +30,116 @@ The SoftLayer_Network_LBaaS_LoadBalancer service allows customers to create, edi
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [cancelLoadBalancer](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/cancelLoadBalancer)
 Cancel the specified load balancer. 
+</div>
+
+<div class="method-row">
 
 #### [enableOrDisableDataLogs](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/enableOrDisableDataLogs)
 Enable or disable data logs forwarding. 
+</div>
+
+<div class="method-row">
 
 #### [getAllObjects](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getAllObjects)
 Get all existing load balancers. 
+</div>
+
+<div class="method-row">
 
 #### [getDatacenter](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getDatacenter)
 Retrieve datacenter, where load balancer is located.
+</div>
+
+<div class="method-row">
 
 #### [getHealthMonitors](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getHealthMonitors)
 Retrieve health monitors for the backend members.
+</div>
+
+<div class="method-row">
 
 #### [getL7Pools](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getL7Pools)
 Retrieve l7Pools for load balancer.
+</div>
+
+<div class="method-row">
 
 #### [getListenerTimeSeriesData](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getListenerTimeSeriesData)
 Return time series datapoints
+</div>
+
+<div class="method-row">
 
 #### [getListeners](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getListeners)
 Retrieve listeners assigned to load balancer.
+</div>
+
+<div class="method-row">
 
 #### [getLoadBalancer](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getLoadBalancer)
 Get a specific load balancer. 
+</div>
+
+<div class="method-row">
 
 #### [getLoadBalancerMemberHealth](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getLoadBalancerMemberHealth)
 Return load balancer members health
+</div>
+
+<div class="method-row">
 
 #### [getLoadBalancerStatistics](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getLoadBalancerStatistics)
 Return load balancers statistics
+</div>
+
+<div class="method-row">
 
 #### [getMembers](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getMembers)
 Retrieve members assigned to load balancer.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getObject)
 Retrieve a SoftLayer_Network_LBaaS_LoadBalancer record.
+</div>
+
+<div class="method-row">
 
 #### [getSslCiphers](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/getSslCiphers)
 Retrieve list of preferred custom ciphers configured for the load balancer.
+</div>
+
+<div class="method-row">
 
 #### [serviceLoadBalancer](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/serviceLoadBalancer)
 Service function for a load balancer. 
+</div>
+
+<div class="method-row">
 
 #### [updateLoadBalancer](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/updateLoadBalancer)
 Update a load balancer's description.
+</div>
+
+<div class="method-row">
 
 #### [updateSslCiphers](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/updateSslCiphers)
 Updates the cipher list of the load balancer
+</div>
+</div>
 
 </div>
 

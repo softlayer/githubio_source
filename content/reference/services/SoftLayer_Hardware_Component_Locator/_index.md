@@ -30,20 +30,32 @@ SoftLayer public API to determine the availability of generic hardware component
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getGenericComponentModelAvailability](/reference/services/SoftLayer_Hardware_Component_Locator/getGenericComponentModelAvailability)
 An API to retrieve Generic Components Model availability at data centers
+</div>
+
+<div class="method-row">
 
 #### [getPackageItemsAvailability](/reference/services/SoftLayer_Hardware_Component_Locator/getPackageItemsAvailability)
 Retrieve availability of specified product package's GPUs and drives
+</div>
+
+<div class="method-row">
 
 #### [getServerPackageAvailability](/reference/services/SoftLayer_Hardware_Component_Locator/getServerPackageAvailability)
 An API to retrieve server package availability at data centers
+</div>
+</div>
 
 </div>
 

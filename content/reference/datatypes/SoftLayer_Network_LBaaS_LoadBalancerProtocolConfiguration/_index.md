@@ -24,26 +24,32 @@ SoftLayer_Network_LBaaS_LoadBalancerProtocolConfiguration specifies the protocol
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [backendPort]: #backendport
 #### [backendPort]
 Backends port  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [backendProtocol]: #backendprotocol
@@ -51,11 +57,19 @@ Backends port
 <<EOT  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [frontendPort]: #frontendport
 #### [frontendPort]
 Frontends port  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [frontendProtocol]: #frontendprotocol
@@ -63,11 +77,19 @@ Frontends port
 <<EOT  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [listenerUuid]: #listeneruuid
 #### [listenerUuid]
 Listeners UUID, required for update only  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [loadBalancingMethod]: #loadbalancingmethod
@@ -75,11 +97,19 @@ Listeners UUID, required for update only
 <<EOT  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [maxConn]: #maxconn
 #### [maxConn]
 Maximum number of allowed connections  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [sessionCookieName]: #sessioncookiename
@@ -87,11 +117,19 @@ Maximum number of allowed connections
 Sessions cookie name  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [sessionType]: #sessiontype
 #### [sessionType]
 Session stickiness type. Valid values are "SOURCE_IP" "HTTP_COOKIE"  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [tlsCertificateId]: #tlscertificateid
@@ -99,6 +137,8 @@ Session stickiness type. Valid values are "SOURCE_IP" "HTTP_COOKIE"
 ssl/tls certificate id  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

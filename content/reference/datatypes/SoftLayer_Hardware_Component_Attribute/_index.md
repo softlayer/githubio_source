@@ -24,26 +24,32 @@ The SoftLayer_Hardware_Component_Attribute data type contains general informatio
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [hardwareComponentAttributeTypeId]: #hardwarecomponentattributetypeid
 #### [hardwareComponentAttributeTypeId]
 A hardware component attribute's associated [SoftLayer_Hardware_Component_Attribute_Type]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Attribute_Type">}}) Id.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hardwareComponentId]: #hardwarecomponentid
@@ -51,23 +57,35 @@ A hardware component attribute's associated [SoftLayer_Hardware_Component_Attrib
 A hardware component attribute's associated [SoftLayer_Hardware_Component]({{<ref "reference/datatypes/SoftLayer_Hardware_Component">}}) Id.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [value]: #value
 #### [value]
 A hardware component attribute's value.  A value can have many different values depending on the attributes [SoftLayer_Hardware_Component_Attribute_Type]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Attribute_Type">}}).  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [hardwareComponent]: #hardwarecomponent
 #### [hardwareComponent]
 A hardware component attribute's associated [SoftLayer_Hardware_Component]({{<ref "reference/datatypes/SoftLayer_Hardware_Component">}}).  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hardwareComponentAttributeType]: #hardwarecomponentattributetype
@@ -75,6 +93,8 @@ A hardware component attribute's associated [SoftLayer_Hardware_Component]({{<re
 A hardware component attribute's associated [SoftLayer_Hardware_Component_Attribute_Type]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Attribute_Type">}}).  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Attribute_Type'>SoftLayer_Hardware_Component_Attribute_Type </a>**
 
+
+</div>
 
 ## Count
 </div>

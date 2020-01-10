@@ -30,20 +30,32 @@ SoftLayer's account historical service allows users to access a broad overview o
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [advancedSearch](/reference/services/SoftLayer_Search/advancedSearch)
 Search for SoftLayer Resources by simple terms.
+</div>
+
+<div class="method-row">
 
 #### [getObjectTypes](/reference/services/SoftLayer_Search/getObjectTypes)
 Return a collection of indexed object types. 
+</div>
+
+<div class="method-row">
 
 #### [search](/reference/services/SoftLayer_Search/search)
 Search for SoftLayer Resources by simple phrase.
+</div>
+</div>
 
 </div>
 

@@ -30,29 +30,50 @@ classes:
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [createObject](/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter/createObject)
 Create a boot parameter record to be used at next boot
+</div>
+
+<div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter/deleteObject)
 Removes a boot parameter
+</div>
+
+<div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter/editObject)
 Edits a single boot parameter
+</div>
+
+<div class="method-row">
 
 #### [getGuest](/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter/getGuest)
 
+</div>
+
+<div class="method-row">
 
 #### [getGuestBootParameterType](/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter/getGuestBootParameterType)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter/getObject)
 Retrieve a SoftLayer_Virtual_Guest_Boot_Parameter record.
+</div>
+</div>
 
 </div>
 

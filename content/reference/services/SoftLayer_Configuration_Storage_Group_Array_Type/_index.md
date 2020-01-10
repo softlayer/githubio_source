@@ -30,20 +30,32 @@ Supported hardware raid modes
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAllObjects](/reference/services/SoftLayer_Configuration_Storage_Group_Array_Type/getAllObjects)
 
+</div>
+
+<div class="method-row">
 
 #### [getHardwareComponentModels](/reference/services/SoftLayer_Configuration_Storage_Group_Array_Type/getHardwareComponentModels)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Configuration_Storage_Group_Array_Type/getObject)
 Retrieve a SoftLayer_Configuration_Storage_Group_Array_Type record.
+</div>
+</div>
 
 </div>
 

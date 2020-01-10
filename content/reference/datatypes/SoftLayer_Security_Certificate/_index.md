@@ -24,21 +24,23 @@ classes:
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [certificate]: #certificate
 #### [certificate]
@@ -46,6 +48,10 @@ The certificate provided publicly to clients requesting identity credentials. Th
 
 This property may only be modified when no services are associated. See associatedServiceCount.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [certificateSigningRequest]: #certificatesigningrequest
@@ -55,6 +61,10 @@ The signing request used to request a certificate authority generate a signed ce
 This property may only be modified when no services are associated. See associatedServiceCount.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [commonName]: #commonname
 #### [commonName]
@@ -62,6 +72,10 @@ The common name (usually a domain name) encoded within the certificate.
 
 This property is read only. Changes made will be silently ignored.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [createDate]: #createdate
@@ -71,11 +85,19 @@ The date the certificate _record_ was created. The contents of the certificate m
 This property is read only. Changes made will be silently ignored.   
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 The ID of the certificate record.   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [intermediateCertificate]: #intermediatecertificate
@@ -85,11 +107,19 @@ The intermediate certificate authorities certificate that completes the certific
 This property may only be modified when no services are associated. See associatedServiceCount.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [keySize]: #keysize
 #### [keySize]
 The size (number of bits) of the public key represented by the certificate.   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [modifyDate]: #modifydate
@@ -99,11 +129,19 @@ The date the certificate _record_ was last modified.The contents of the certific
 This property is read only. Changes made will be silently ignored.   
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [notes]: #notes
 #### [notes]
 A note to help describe the certificate.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [organizationName]: #organizationname
@@ -113,6 +151,10 @@ The organizational name encoded in the certificate.
 This property is read only. Changes made will be silently ignored.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [privateKey]: #privatekey
 #### [privateKey]
@@ -120,6 +162,10 @@ The private key in the key/certificate pair.
 
 This property may only be modified when no services are associated. See associatedServiceCount.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [validityBegin]: #validitybegin
@@ -129,6 +175,10 @@ The UTC timestamp representing the beginning of the certificate's validity
 This property is read only. Changes made will be silently ignored.   
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [validityDays]: #validitydays
 #### [validityDays]
@@ -136,6 +186,10 @@ The number of days remaining in the validity period for the certificate.
 
 This property is read only. Changes made will be silently ignored.   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [validityEnd]: #validityend
@@ -145,17 +199,25 @@ The UTC timestamp representing the end of the certificate's validity period.
 This property is read only. Changes made will be silently ignored.   
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [associatedServiceCount]: #associatedservicecount
 #### [associatedServiceCount]
 The number of services currently associated with the certificate.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [loadBalancerVirtualIpAddresses]: #loadbalancervirtualipaddresses
@@ -164,7 +226,10 @@ The load balancers virtual IP addresses currently associated with the certificat
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [loadBalancerVirtualIpAddressCount]: #loadbalancervirtualipaddresscount
@@ -172,6 +237,8 @@ The load balancers virtual IP addresses currently associated with the certificat
 A count of the load balancers virtual IP addresses currently associated with the certificate.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

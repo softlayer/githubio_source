@@ -24,26 +24,32 @@ classes:
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 A gateway member's internal identifier.   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [lastvSRXVersion]: #lastvsrxversion
@@ -51,11 +57,19 @@ A gateway member's internal identifier.
 The previous vSRX version of the gateway software   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [licenseKey]: #licensekey
 #### [licenseKey]
   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [memberId]: #memberid
@@ -63,11 +77,19 @@ The previous vSRX version of the gateway software
 The gateway member for this attribute.   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [networkModel]: #networkmodel
 #### [networkModel]
 Network model of the gateway.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [password]: #password
@@ -75,11 +97,19 @@ Network model of the gateway.
 Password of the user name.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [sshKeyId]: #sshkeyid
 #### [sshKeyId]
 The SSH key id of key assigned to Gateway.   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [username]: #username
@@ -87,23 +117,35 @@ The SSH key id of key assigned to Gateway.
 Username associated with the gateway.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [vSRXVersion]: #vsrxversion
 #### [vSRXVersion]
 The vSRX version of the gateway software   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [gatewayMember]: #gatewaymember
 #### [gatewayMember]
 The gateway member has these attributes.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway_Member'>SoftLayer_Network_Gateway_Member </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [sshKey]: #sshkey
@@ -111,6 +153,8 @@ The gateway member has these attributes.
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Ssh_Key'>SoftLayer_Security_Ssh_Key </a>**
 
+
+</div>
 
 ## Count
 </div>

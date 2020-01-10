@@ -30,26 +30,44 @@ The SoftLayer_Network_LBaaS_L7Policy service allows consumers to manage the Poli
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [addL7Policies](/reference/services/SoftLayer_Network_LBaaS_L7Policy/addL7Policies)
 Create layer 7 policies with rules for the given listener. 
+</div>
+
+<div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Network_LBaaS_L7Policy/deleteObject)
 Deletes a l7 policy instance and the rules associated with the policy
+</div>
+
+<div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Network_LBaaS_L7Policy/editObject)
 Edit a l7 policy instance's properties
+</div>
+
+<div class="method-row">
 
 #### [getL7Rules](/reference/services/SoftLayer_Network_LBaaS_L7Policy/getL7Rules)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_LBaaS_L7Policy/getObject)
 Retrieve a SoftLayer_Network_LBaaS_L7Policy record.
+</div>
+</div>
 
 </div>
 

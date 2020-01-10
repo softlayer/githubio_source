@@ -45,26 +45,44 @@ For each [SoftLayer_Layout_Profile_Containers]({{<ref "reference/datatypes/SoftL
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getLayoutContainer](/reference/services/SoftLayer_Layout_Profile_Preference/getLayoutContainer)
 
+</div>
+
+<div class="method-row">
 
 #### [getLayoutItem](/reference/services/SoftLayer_Layout_Profile_Preference/getLayoutItem)
 
+</div>
+
+<div class="method-row">
 
 #### [getLayoutPreference](/reference/services/SoftLayer_Layout_Profile_Preference/getLayoutPreference)
 
+</div>
+
+<div class="method-row">
 
 #### [getLayoutProfile](/reference/services/SoftLayer_Layout_Profile_Preference/getLayoutProfile)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Layout_Profile_Preference/getObject)
 Retrieve a SoftLayer_Layout_Profile_Preference record.
+</div>
+</div>
 
 </div>
 

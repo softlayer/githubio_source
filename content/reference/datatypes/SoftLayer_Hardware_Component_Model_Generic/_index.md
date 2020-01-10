@@ -24,26 +24,32 @@ The SoftLayer_Hardware_Component_Model_Generic data type contains general inform
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [capacity]: #capacity
 #### [capacity]
 A generic component model's capacity. The capacity of a generic component model depends on the model itself.  For Example: Hard drives have a capacity that reflects the amount of data that hard drive can store.   
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [description]: #description
@@ -51,11 +57,19 @@ A generic component model's capacity. The capacity of a generic component model 
 A brief description for a generic component model that typically defines it's function.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hardwareComponentTypeId]: #hardwarecomponenttypeid
 #### [hardwareComponentTypeId]
 The internal identifier of the component type for a generic component model.   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -63,11 +77,19 @@ The internal identifier of the component type for a generic component model.
 A generic component model's internal identification number.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [units]: #units
 #### [units]
 The unit of measurement for the capacity of a generic component model.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [upgradePriority]: #upgradepriority
@@ -75,23 +97,35 @@ The unit of measurement for the capacity of a generic component model.
 A generic component model's upgrade priority. The upgrade priority indicates the order a generic component model should be considered over other generic component models. A higher number indicates that a generic component model receives a higher upgrade preference in comparison to a generic component model with a lower priority number.   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [hardwareComponentModels]: #hardwarecomponentmodels
 #### [hardwareComponentModels]
 A generic component model's hardware component model.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hardwareComponentType]: #hardwarecomponenttype
 #### [hardwareComponentType]
 A generic component model's type.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Type'>SoftLayer_Hardware_Component_Type </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [marketingFeatures]: #marketingfeatures
@@ -100,7 +134,10 @@ A list of features that a generic component model can provide.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic_MarketingFeature'>SoftLayer_Hardware_Component_Model_Generic_MarketingFeature </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [hardwareComponentModelCount]: #hardwarecomponentmodelcount
@@ -108,6 +145,8 @@ A list of features that a generic component model can provide.
 A count of a generic component model's hardware component model.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

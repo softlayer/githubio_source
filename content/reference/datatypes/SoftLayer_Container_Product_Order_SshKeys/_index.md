@@ -24,27 +24,31 @@ This object holds all of the ssh key ids that will allow authentication to a sin
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [sshKeyIds]: #sshkeyids
 #### [sshKeyIds]
 An array of SoftLayer_Security_Ssh_Key IDs to assign to a server.  
 <span class="type-label">Type: </span>**array of integers**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

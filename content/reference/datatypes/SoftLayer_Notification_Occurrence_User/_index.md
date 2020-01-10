@@ -24,26 +24,32 @@ This type contains general information relating to a user that may be impacted b
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [acknowledgedFlag]: #acknowledgedflag
 #### [acknowledgedFlag]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [active]: #active
@@ -51,11 +57,19 @@ This type contains general information relating to a user that may be impacted b
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [usrRecordId]: #usrrecordid
@@ -63,23 +77,35 @@ This type contains general information relating to a user that may be impacted b
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [impactedResources]: #impactedresources
 #### [impactedResources]
 A collection of resources impacted by the associated event.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Resource'>SoftLayer_Notification_Occurrence_Resource[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [notificationOccurrenceEvent]: #notificationoccurrenceevent
 #### [notificationOccurrenceEvent]
 The associated event.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [user]: #user
@@ -88,7 +114,10 @@ The impacted user.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [impactedResourceCount]: #impactedresourcecount
@@ -96,6 +125,8 @@ The impacted user.
 A count of a collection of resources impacted by the associated event.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

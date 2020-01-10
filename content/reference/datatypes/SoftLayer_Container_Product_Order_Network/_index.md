@@ -24,26 +24,32 @@ This type contains the structure of network-related objects that may be specifie
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [network]: #network
 #### [network]
 The [SoftLayer_Network]({{<ref "reference/datatypes/SoftLayer_Network">}}) object.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network'>SoftLayer_Network </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [publicVlans]: #publicvlans
@@ -51,12 +57,18 @@ The [SoftLayer_Network]({{<ref "reference/datatypes/SoftLayer_Network">}}) objec
 The list of public [SoftLayer_Container_Product_Order_Network_Vlan]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Vlan">}}) available for ordering. Each VLAN will have list of public subnets that are accessible to the VLAN.   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [subnets]: #subnets
 #### [subnets]
 The list of private [SoftLayer_Container_Product_Order_Network_Subnet]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Subnet">}}) available for ordering with a description of their available IP space.   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a>**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

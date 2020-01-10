@@ -24,26 +24,32 @@ classes:
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [accountId]: #accountid
 #### [accountId]
 The saml account id.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [certificate]: #certificate
@@ -51,11 +57,19 @@ The saml account id.
 The identity provider x509 certificate.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [certificateFingerprint]: #certificatefingerprint
 #### [certificateFingerprint]
 The identity provider x509 certificate fingerprint.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [entityId]: #entityid
@@ -63,11 +77,19 @@ The identity provider x509 certificate fingerprint.
 The identity provider entity ID.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 The saml internal identifying number.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [serviceProviderCertificate]: #serviceprovidercertificate
@@ -75,11 +97,19 @@ The saml internal identifying number.
 The service provider x509 certificate.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [serviceProviderEntityId]: #serviceproviderentityid
 #### [serviceProviderEntityId]
 The service provider entity IDs.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [serviceProviderPublicKey]: #serviceproviderpublickey
@@ -87,11 +117,19 @@ The service provider entity IDs.
 The service provider public key.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [serviceProviderSingleLogoutEncoding]: #serviceprovidersinglelogoutencoding
 #### [serviceProviderSingleLogoutEncoding]
 The service provider signle logout encoding.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [serviceProviderSingleLogoutUrl]: #serviceprovidersinglelogouturl
@@ -99,11 +137,19 @@ The service provider signle logout encoding.
 The service provider signle logout address.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [serviceProviderSingleSignOnEncoding]: #serviceprovidersinglesignonencoding
 #### [serviceProviderSingleSignOnEncoding]
 The service provider signle sign on encoding.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [serviceProviderSingleSignOnUrl]: #serviceprovidersinglesignonurl
@@ -111,11 +157,19 @@ The service provider signle sign on encoding.
 The service provider signle sign on address.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [singleLogoutEncoding]: #singlelogoutencoding
 #### [singleLogoutEncoding]
 The identity provider single logout encoding.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [singleLogoutUrl]: #singlelogouturl
@@ -123,11 +177,19 @@ The identity provider single logout encoding.
 The identity provider sigle logout address.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [singleSignOnEncoding]: #singlesignonencoding
 #### [singleSignOnEncoding]
 The identity provider single sign on encoding.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [singleSignOnUrl]: #singlesignonurl
@@ -135,17 +197,25 @@ The identity provider single sign on encoding.
 The identity provider signle sign on address.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [account]: #account
 #### [account]
 The account associated with this saml configuration.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [attributes]: #attributes
@@ -154,7 +224,10 @@ The saml attribute values for a SoftLayer customer account.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute'>SoftLayer_Account_Authentication_Attribute[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [attributeCount]: #attributecount
@@ -162,6 +235,8 @@ The saml attribute values for a SoftLayer customer account.
 A count of the saml attribute values for a SoftLayer customer account.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

@@ -24,26 +24,32 @@ This type contains general information relating to any hardware or services that
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [active]: #active
 #### [active]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [filterLabel]: #filterlabel
@@ -51,11 +57,19 @@ This type contains general information relating to any hardware or services that
 <<< EOT A label which gives some background as to what piece of  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [notificationOccurrenceEventId]: #notificationoccurrenceeventid
 #### [notificationOccurrenceEventId]
 <<< EOT The unique identifier for the associated  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [resourceAccountId]: #resourceaccountid
@@ -63,11 +77,19 @@ This type contains general information relating to any hardware or services that
 <<< EOT The unique identifier for the [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) associated with  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [resourceName]: #resourcename
 #### [resourceName]
   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [resourceTableId]: #resourcetableid
@@ -75,17 +97,25 @@ This type contains general information relating to any hardware or services that
 <<< EOT The unique identifier for the physical resource that is associated  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [notificationOccurrenceEvent]: #notificationoccurrenceevent
 #### [notificationOccurrenceEvent]
 The associated event.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [resource]: #resource
@@ -93,6 +123,8 @@ The associated event.
 The physical resource.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a>**
 
+
+</div>
 
 ## Count
 </div>

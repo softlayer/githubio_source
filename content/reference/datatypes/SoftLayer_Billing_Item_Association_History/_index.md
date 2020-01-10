@@ -36,26 +36,32 @@ The SoftLayer_Billing_Item_Association_History type keeps a record of which serv
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [associatedBillingItemId]: #associatedbillingitemid
 #### [associatedBillingItemId]
 The internal identifier of the server billing item that an orphaned billing item was associated with.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [billingItemId]: #billingitemid
@@ -63,11 +69,19 @@ The internal identifier of the server billing item that an orphaned billing item
 The internal identifier of the billing item that was associated with a server billing item.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 The date that a billing item association was last changed.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -75,17 +89,25 @@ The date that a billing item association was last changed.
 A billing item association history's internal identifier.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [associatedBillingItem]: #associatedbillingitem
 #### [associatedBillingItem]
 The server billing item that an orphaned billing item was associated with.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [billingItem]: #billingitem
@@ -93,6 +115,8 @@ The server billing item that an orphaned billing item was associated with.
 The billing item that was associated with a server billing item.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
 
+
+</div>
 
 ## Count
 </div>

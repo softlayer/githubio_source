@@ -30,26 +30,44 @@ SoftLayer customers can use this service to manage or view all of the available 
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [disable](/reference/services/SoftLayer_Email_Subscription/disable)
 Disable email subscription.
+</div>
+
+<div class="method-row">
 
 #### [enable](/reference/services/SoftLayer_Email_Subscription/enable)
 Enable email subscription.
+</div>
+
+<div class="method-row">
 
 #### [getAllObjects](/reference/services/SoftLayer_Email_Subscription/getAllObjects)
 
+</div>
+
+<div class="method-row">
 
 #### [getEnabled](/reference/services/SoftLayer_Email_Subscription/getEnabled)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Email_Subscription/getObject)
 Retrieve a SoftLayer_Email_Subscription record.
+</div>
+</div>
 
 </div>
 

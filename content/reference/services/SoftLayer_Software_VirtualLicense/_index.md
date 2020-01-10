@@ -42,35 +42,62 @@ You can also retrieve the subnet that the IP to which a software virtual license
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAccount](/reference/services/SoftLayer_Software_VirtualLicense/getAccount)
 Retrieve the customer account this Virtual License belongs to.
+</div>
+
+<div class="method-row">
 
 #### [getBillingItem](/reference/services/SoftLayer_Software_VirtualLicense/getBillingItem)
 Retrieve the billing item for a software virtual license.
+</div>
+
+<div class="method-row">
 
 #### [getHostHardware](/reference/services/SoftLayer_Software_VirtualLicense/getHostHardware)
 Retrieve the hardware record to which the software virtual license is assigned.
+</div>
+
+<div class="method-row">
 
 #### [getIpAddressRecord](/reference/services/SoftLayer_Software_VirtualLicense/getIpAddressRecord)
 Retrieve the IP Address record associated with a virtual license.
+</div>
+
+<div class="method-row">
 
 #### [getLicenseFile](/reference/services/SoftLayer_Software_VirtualLicense/getLicenseFile)
 Get the file for a virtual license, if it exists
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Software_VirtualLicense/getObject)
 Retrieve a SoftLayer_Software_VirtualLicense record.
+</div>
+
+<div class="method-row">
 
 #### [getSoftwareDescription](/reference/services/SoftLayer_Software_VirtualLicense/getSoftwareDescription)
 Retrieve the SoftLayer_Software_Description that this virtual license is for.
+</div>
+
+<div class="method-row">
 
 #### [getSubnet](/reference/services/SoftLayer_Software_VirtualLicense/getSubnet)
 Retrieve the subnet this Virtual License's IP address belongs to.
+</div>
+</div>
 
 </div>
 

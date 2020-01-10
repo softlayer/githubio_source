@@ -34,26 +34,32 @@ Each billing invoice item makes up a record within an invoice. This provides you
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [associatedInvoiceItemId]: #associatedinvoiceitemid
 #### [associatedInvoiceItemId]
 The associated invoice Item ID.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [billingItemId]: #billingitemid
@@ -61,11 +67,19 @@ The associated invoice Item ID.
 The billing item from which this invoice item was generated.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [categoryCode]: #categorycode
 #### [categoryCode]
 The item category of the invoice item being invoiced.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [createDate]: #createdate
@@ -73,11 +87,19 @@ The item category of the invoice item being invoiced.
 The date the invoice item was created.  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [description]: #description
 #### [description]
 The item description for this invoice item.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [domainName]: #domainname
@@ -85,11 +107,19 @@ The item description for this invoice item.
 The domain name of the invoiced item. This is only used on invoice items whose category is "server".  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hostName]: #hostname
 #### [hostName]
 The Host name of the invoiced item. This is only used on invoice items whose category is "server".  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hourlyRecurringFee]: #hourlyrecurringfee
@@ -97,11 +127,19 @@ The Host name of the invoiced item. This is only used on invoice items whose cat
 The hourly recurring fee of the invoice item represented by a floating point decimal in US Dollars ($USD)  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 The ID of the invoice item.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [invoiceId]: #invoiceid
@@ -109,11 +147,19 @@ The ID of the invoice item.
 The invoice to which this invoice item belongs.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [laborAfterTaxAmount]: #laboraftertaxamount
 #### [laborAfterTaxAmount]
 An invoice item's labor fee total after taxes. This does not include any child invoice items.  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [laborFee]: #laborfee
@@ -121,11 +167,19 @@ An invoice item's labor fee total after taxes. This does not include any child i
 This also a one-time fee of a special type.  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [laborFeeTaxRate]: #laborfeetaxrate
 #### [laborFeeTaxRate]
 The tax rate at which the labor fee is taxed.  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [laborTaxAmount]: #labortaxamount
@@ -133,11 +187,19 @@ The tax rate at which the labor fee is taxed.
 An invoice item's labor tax amount. This does not include any child invoice items.  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [notes]: #notes
 #### [notes]
 A note to help describe more about the item. This normally holds usernames, or some other bit of extra information.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [oneTimeAfterTaxAmount]: #onetimeaftertaxamount
@@ -145,11 +207,19 @@ A note to help describe more about the item. This normally holds usernames, or s
 An invoice item's one-time fee total after taxes. This does not include any child invoice items.  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [oneTimeFee]: #onetimefee
 #### [oneTimeFee]
 If there are any one-time charges assessed, it will show up here represented by a floating point decimal in US Dollars ($USD)  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [oneTimeFeeTaxRate]: #onetimefeetaxrate
@@ -157,11 +227,19 @@ If there are any one-time charges assessed, it will show up here represented by 
 The rate at which the one-time fee is taxed.  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [oneTimeTaxAmount]: #onetimetaxamount
 #### [oneTimeTaxAmount]
 An invoice item's one-time tax amount. This does not include any child invoice items.  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [parentId]: #parentid
@@ -169,11 +247,19 @@ An invoice item's one-time tax amount. This does not include any child invoice i
 The parent invoice item, usually the server invoice item.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [productItemId]: #productitemid
 #### [productItemId]
 The entry in the product catalog that a invoice item is based upon.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [recurringAfterTaxAmount]: #recurringaftertaxamount
@@ -181,11 +267,19 @@ The entry in the product catalog that a invoice item is based upon.
 An invoice item's recurring fee total after taxes. This does not include any child invoice items.  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [recurringFee]: #recurringfee
 #### [recurringFee]
 The recurring fee of the invoice item represented by a floating point decimal in US Dollars ($USD)  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [recurringFeeTaxRate]: #recurringfeetaxrate
@@ -193,11 +287,19 @@ The recurring fee of the invoice item represented by a floating point decimal in
 the rate at which the recurring fee is taxed.  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [recurringTaxAmount]: #recurringtaxamount
 #### [recurringTaxAmount]
 An invoice item's recurring tax amount. This does not include any child invoice items.  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [resourceTableId]: #resourcetableid
@@ -205,11 +307,19 @@ An invoice item's recurring tax amount. This does not include any child invoice 
 A unique identifier for a SoftLayer Service that is associated to an invoice item.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [serviceProviderId]: #serviceproviderid
 #### [serviceProviderId]
 The service provider for the invoice item.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [setupAfterTaxAmount]: #setupaftertaxamount
@@ -217,11 +327,19 @@ The service provider for the invoice item.
 An invoice item's setup fee total after taxes. This does not include any child invoice items.  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [setupFee]: #setupfee
 #### [setupFee]
 If there were any setup fees they will show up here. These are normally a one-time fee.  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [setupFeeDeferralMonths]: #setupfeedeferralmonths
@@ -229,11 +347,19 @@ If there were any setup fees they will show up here. These are normally a one-ti
 The number of months the setup fee is being deferred.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [setupFeeTaxRate]: #setupfeetaxrate
 #### [setupFeeTaxRate]
 The tax rate at which the setup fee is taxed.  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [setupTaxAmount]: #setuptaxamount
@@ -241,17 +367,25 @@ The tax rate at which the setup fee is taxed.
 An invoice item's setup tax amount. This does not include any child invoice items.  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [associatedChildren]: #associatedchildren
 #### [associatedChildren]
 An Invoice Item's associated child invoice items. Only parent invoice items have associated children. For instance, a server invoice item may have associated children.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [associatedInvoiceItem]: #associatedinvoiceitem
@@ -259,11 +393,19 @@ An Invoice Item's associated child invoice items. Only parent invoice items have
 An Invoice Item's associated invoice item. If this is populated, it means this is an orphaned invoice item, but logically belongs to the associated invoice item.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [billingItem]: #billingitem
 #### [billingItem]
 An Invoice Item's billing item, from which this item was generated.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [category]: #category
@@ -271,11 +413,19 @@ An Invoice Item's billing item, from which this item was generated.
 This invoice item's "item category".   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [children]: #children
 #### [children]
 An Invoice Item's child invoice items. Only parent invoice items have children. For instance, a server invoice item will have children.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [filteredAssociatedChildren]: #filteredassociatedchildren
@@ -283,11 +433,19 @@ An Invoice Item's child invoice items. Only parent invoice items have children. 
 An Invoice Item's associated child invoice items, excluding some items with a $0.00 recurring fee. Only parent invoice items have associated children. For instance, a server invoice item may have associated children.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hourlyFlag]: #hourlyflag
 #### [hourlyFlag]
 Indicating whether this invoice item is billed on an hourly basis.  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [invoice]: #invoice
@@ -295,11 +453,19 @@ Indicating whether this invoice item is billed on an hourly basis.
 The invoice to which this item belongs.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [location]: #location
 #### [location]
 An invoice item's location, if one exists.'  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [nonZeroAssociatedChildren]: #nonzeroassociatedchildren
@@ -307,11 +473,19 @@ An invoice item's location, if one exists.'
 An Invoice Item's associated child invoice items, excluding ALL items with a $0.00 recurring fee. Only parent invoice items have associated children. For instance, a server invoice item may have associated children.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [parent]: #parent
 #### [parent]
 Every item tied to a server should have a parent invoice item which is the server line item. This is how we associate items to a server.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [product]: #product
@@ -319,11 +493,19 @@ Every item tied to a server should have a parent invoice item which is the serve
 The entry in the product catalog that a invoice item is based upon.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [topLevelProductGroupName]: #toplevelproductgroupname
 #### [topLevelProductGroupName]
 A string representing the name of parent level product group of an invoice item.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [totalOneTimeAmount]: #totalonetimeamount
@@ -331,11 +513,19 @@ A string representing the name of parent level product group of an invoice item.
 An invoice Item's total, including any child invoice items if they exist.  
 <span class="type-label">Type: </span>**float**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [totalOneTimeTaxAmount]: #totalonetimetaxamount
 #### [totalOneTimeTaxAmount]
 An invoice Item's total, including any child invoice items if they exist.  
 <span class="type-label">Type: </span>**float**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [totalRecurringAmount]: #totalrecurringamount
@@ -343,11 +533,19 @@ An invoice Item's total, including any child invoice items if they exist.
 An invoice Item's total, including any child invoice items if they exist.  
 <span class="type-label">Type: </span>**float**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [totalRecurringTaxAmount]: #totalrecurringtaxamount
 #### [totalRecurringTaxAmount]
 A Billing Item's total, including any child billing items if they exist.'  
 <span class="type-label">Type: </span>**float**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [usageChargeFlag]: #usagechargeflag
@@ -356,7 +554,10 @@ Indicating whether this invoice item is for the usage charge.
 <span class="type-label">Type: </span>**boolean**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [associatedChildrenCount]: #associatedchildrencount
@@ -365,12 +566,18 @@ A count of an Invoice Item's associated child invoice items. Only parent invoice
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [childrenCount]: #childrencount
 #### [childrenCount]
 A count of an Invoice Item's child invoice items. Only parent invoice items have children. For instance, a server invoice item will have children.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [filteredAssociatedChildrenCount]: #filteredassociatedchildrencount
@@ -379,12 +586,17 @@ A count of an Invoice Item's associated child invoice items, excluding some item
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [nonZeroAssociatedChildrenCount]: #nonzeroassociatedchildrencount
 #### [nonZeroAssociatedChildrenCount]
 A count of an Invoice Item's associated child invoice items, excluding ALL items with a $0.00 recurring fee. Only parent invoice items have associated children. For instance, a server invoice item may have associated children.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

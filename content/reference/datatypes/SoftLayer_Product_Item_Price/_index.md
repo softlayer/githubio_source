@@ -32,26 +32,32 @@ The SoftLayer_Product_Item_Price data type contains general information relating
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [currentPriceFlag]: #currentpriceflag
 #### [currentPriceFlag]
 This flag is used by the [SoftLayer_Hardware::getUpgradeItems]({{<ref "reference/services/SoftLayer_Hardware/getUpgradeItems">}}) method to indicate if a product price is used for the current billing item.   
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hourlyRecurringFee]: #hourlyrecurringfee
@@ -59,11 +65,19 @@ This flag is used by the [SoftLayer_Hardware::getUpgradeItems]({{<ref "reference
 The hourly price for this item, should this item be part of an hourly pricing package.   
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 The unique identifier of a Product Item Price.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [itemId]: #itemid
@@ -71,11 +85,19 @@ The unique identifier of a Product Item Price.
 The unique identifier for a product Item  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [laborFee]: #laborfee
 #### [laborFee]
 The labor fee for a product item price.  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [locationGroupId]: #locationgroupid
@@ -85,11 +107,19 @@ The id of the [SoftLayer_Location_Group_Pricing]({{<ref "reference/datatypes/Sof
 During order [SoftLayer_Product_Order::verifyOrder]({{<ref "reference/services/SoftLayer_Product_Order/verifyOrder">}}), if a standard price is used, that price may be replaced with a location based price, which does not have this property set to null. The location based price must be part of a [SoftLayer_Location_Group_Pricing]({{<ref "reference/datatypes/SoftLayer_Location_Group_Pricing">}}) that has the location being ordered in order for this to happen.   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [onSaleFlag]: #onsaleflag
 #### [onSaleFlag]
 On sale flag.  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [oneTimeFee]: #onetimefee
@@ -97,11 +127,19 @@ On sale flag.
 The one time fee for a product item price.  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [oneTimeFeeTax]: #onetimefeetax
 #### [oneTimeFeeTax]
 A price's total tax amount of the one time fees (oneTimeFee, laborFee, and setupFee). This is only populated after the order is verified via SoftLayer_Product_Order::verifyOrder()  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [orderOptions]: #orderoptions
@@ -109,11 +147,19 @@ A price's total tax amount of the one time fees (oneTimeFee, laborFee, and setup
 Order options for the category that this price is associated with.   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Order_Option_Type'>SoftLayer_Product_Item_Category_Order_Option_Type[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [proratedRecurringFee]: #proratedrecurringfee
 #### [proratedRecurringFee]
 A recurring fee is a fee that happens every billing period. This fee is represented as a floating point decimal in US dollars ($USD).  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [proratedRecurringFeeTax]: #proratedrecurringfeetax
@@ -121,11 +167,19 @@ A recurring fee is a fee that happens every billing period. This fee is represen
 A price's tax amount of the recurring fee. This is only populated after the order is verified via SoftLayer_Product_Order::verifyOrder()  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [quantity]: #quantity
 #### [quantity]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [recurringFee]: #recurringfee
@@ -133,11 +187,19 @@ A price's tax amount of the recurring fee. This is only populated after the orde
 A recurring fee is a fee that happens every billing period. This fee is represented as a floating point decimal in US dollars ($USD).  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [recurringFeeTax]: #recurringfeetax
 #### [recurringFeeTax]
 A price's tax amount of the recurring fee. This is only populated after the order is verified via SoftLayer_Product_Order::verifyOrder()  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [setupFee]: #setupfee
@@ -145,11 +207,19 @@ A price's tax amount of the recurring fee. This is only populated after the orde
 The setup fee associated with a product item price.  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [sort]: #sort
 #### [sort]
 Used for ordering items on sales orders.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [tierMinimumThreshold]: #tierminimumthreshold
@@ -157,23 +227,35 @@ Used for ordering items on sales orders.
 The minimum threshold for which this tiered usage price begins to apply.  The unit for the price is defined by the item to which this belongs, see [[SoftLayer_Product_Item::$units]].   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [usageRate]: #usagerate
 #### [usageRate]
 The rate for a usage based item  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [accountRestrictions]: #accountrestrictions
 #### [accountRestrictions]
 The account that the item price is restricted to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price_Account_Restriction'>SoftLayer_Product_Item_Price_Account_Restriction[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [attributes]: #attributes
@@ -181,11 +263,19 @@ The account that the item price is restricted to.
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price_Attribute'>SoftLayer_Product_Item_Price_Attribute[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [bareMetalReservedCapacityFlag]: #baremetalreservedcapacityflag
 #### [bareMetalReservedCapacityFlag]
 Signifies pricing that is only available on a bare metal reserved capacity order.  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [bigDataOsJournalDiskFlag]: #bigdataosjournaldiskflag
@@ -193,11 +283,19 @@ Signifies pricing that is only available on a bare metal reserved capacity order
 Whether the price is for Big Data OS/Journal disks only. (Deprecated)  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [bundleReferences]: #bundlereferences
 #### [bundleReferences]
 cross reference for bundles  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Bundles'>SoftLayer_Product_Item_Bundles[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [capacityRestrictionMaximum]: #capacityrestrictionmaximum
@@ -205,11 +303,19 @@ cross reference for bundles
 The maximum capacity value for which this price is suitable.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [capacityRestrictionMinimum]: #capacityrestrictionminimum
 #### [capacityRestrictionMinimum]
 The minimum capacity value for which this price is suitable.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [capacityRestrictionType]: #capacityrestrictiontype
@@ -217,11 +323,19 @@ The minimum capacity value for which this price is suitable.
 The type of capacity restriction by which this price must abide.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [categories]: #categories
 #### [categories]
 All categories which this item is a member.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [dedicatedHostInstanceFlag]: #dedicatedhostinstanceflag
@@ -229,11 +343,19 @@ All categories which this item is a member.
 Signifies pricing that is only available on a dedicated host virtual server order.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [definedSoftwareLicenseFlag]: #definedsoftwarelicenseflag
 #### [definedSoftwareLicenseFlag]
 Whether this price defines a software license for its product item.  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [eligibilityStrategy]: #eligibilitystrategy
@@ -241,11 +363,19 @@ Whether this price defines a software license for its product item.
 Eligibility strategy to assess if a customer can order using this price.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [item]: #item
 #### [item]
 The product item a price is tied to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [orderPremiums]: #orderpremiums
@@ -253,11 +383,19 @@ The product item a price is tied to.
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price_Premium'>SoftLayer_Product_Item_Price_Premium[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [packageReferences]: #packagereferences
 #### [packageReferences]
 cross reference for packages  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Item_Prices'>SoftLayer_Product_Package_Item_Prices[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [packages]: #packages
@@ -265,11 +403,19 @@ cross reference for packages
 A price's packages under which this item is sold.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [presetConfigurations]: #presetconfigurations
 #### [presetConfigurations]
 A list of preset configurations this price is used in.'  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset_Configuration'>SoftLayer_Product_Package_Preset_Configuration[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [priceType]: #pricetype
@@ -277,17 +423,29 @@ A list of preset configurations this price is used in.'
 The type keyname of this price which can be STANDARD or TIERED.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [pricingLocationGroup]: #pricinglocationgroup
 #### [pricingLocationGroup]
 The pricing location group that this price is applicable for. Prices that have a pricing location group will only be available for ordering with the locations specified on the location group.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group_Pricing'>SoftLayer_Location_Group_Pricing </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [requiredCoreCount]: #requiredcorecount
 #### [requiredCoreCount]
 The number of server cores required to order this item. This is deprecated. Use [SoftLayer_Product_Item_Price::getCapacityRestrictionMinimum]({{<ref "reference/services/SoftLayer_Product_Item_Price/getCapacityRestrictionMinimum">}})  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [reservedCapacityInstanceFlag]: #reservedcapacityinstanceflag
@@ -296,7 +454,10 @@ Signifies pricing that is only available on a reserved capacity virtual server o
 <span class="type-label">Type: </span>**boolean**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [accountRestrictionCount]: #accountrestrictioncount
@@ -305,12 +466,18 @@ A count of the account that the item price is restricted to.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [attributeCount]: #attributecount
 #### [attributeCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [bundleReferenceCount]: #bundlereferencecount
@@ -319,12 +486,18 @@ A count of cross reference for bundles
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [categoryCount]: #categorycount
 #### [categoryCount]
 A count of all categories which this item is a member.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [orderPremiumCount]: #orderpremiumcount
@@ -333,12 +506,18 @@ A count of
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [packageCount]: #packagecount
 #### [packageCount]
 A count of a price's packages under which this item is sold.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [packageReferenceCount]: #packagereferencecount
@@ -347,12 +526,17 @@ A count of cross reference for packages
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [presetConfigurationCount]: #presetconfigurationcount
 #### [presetConfigurationCount]
 A count of a list of preset configurations this price is used in.'   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

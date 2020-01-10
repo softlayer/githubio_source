@@ -24,26 +24,32 @@ The SoftLayer_Layout_Item contains definitions for default layout items
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 The internal identifier of a layout item  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [keyname]: #keyname
@@ -51,11 +57,19 @@ The internal identifier of a layout item
 The unique key name of the layout item, used primarily for programmatic purposes  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [layoutItemTypeId]: #layoutitemtypeid
 #### [layoutItemTypeId]
 The internal identifier of the related [SoftLayer_Layout_Item_Type]({{<ref "reference/datatypes/SoftLayer_Layout_Item_Type">}})  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [name]: #name
@@ -63,17 +77,25 @@ The internal identifier of the related [SoftLayer_Layout_Item_Type]({{<ref "refe
 The friendly name of the layout item  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [layoutItemPreferences]: #layoutitempreferences
 #### [layoutItemPreferences]
 The layout preferences assigned to this layout item  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Preference'>SoftLayer_Layout_Preference[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [layoutItemType]: #layoutitemtype
@@ -82,7 +104,10 @@ The type of the layout item object
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Item_Type'>SoftLayer_Layout_Item_Type </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [layoutItemPreferenceCount]: #layoutitempreferencecount
@@ -90,6 +115,8 @@ The type of the layout item object
 A count of the layout preferences assigned to this layout item   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

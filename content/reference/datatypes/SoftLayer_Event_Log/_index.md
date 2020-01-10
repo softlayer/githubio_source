@@ -24,26 +24,32 @@ The SoftLayer_Event_Log data type contains an event detail occurred upon various
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [accountId]: #accountid
 #### [accountId]
 Account id with which the event is associated   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [eventCreateDate]: #eventcreatedate
@@ -51,11 +57,19 @@ Account id with which the event is associated
 Event creation date in millisecond precision   
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [eventName]: #eventname
 #### [eventName]
 Event name such as "reboot", "cancel", "update host" and so on.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [ipAddress]: #ipaddress
@@ -63,11 +77,19 @@ Event name such as "reboot", "cancel", "update host" and so on.
 The remote IP Address that made the request   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [label]: #label
 #### [label]
 Label or description of the event object   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [metaData]: #metadata
@@ -75,11 +97,19 @@ Label or description of the event object
 Meta data for an event in JSON string   
 <span class="type-label">Type: </span>**JSON string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [objectId]: #objectid
 #### [objectId]
 Event object id   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [objectName]: #objectname
@@ -87,11 +117,19 @@ Event object id
 Event object name such as "server", "dns" and so on.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [openIdConnectUserName]: #openidconnectusername
 #### [openIdConnectUserName]
 OpenIdConnectUserName of the customer who initiated the event   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [resource]: #resource
@@ -99,11 +137,19 @@ OpenIdConnectUserName of the customer who initiated the event
 A resource object that is associated with the event  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [traceId]: #traceid
 #### [traceId]
 A unique trace id. Multiple event can be grouped by a trace id.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [userId]: #userid
@@ -111,11 +157,19 @@ A unique trace id. Multiple event can be grouped by a trace id.
 Id of customer who initiated the event   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [userType]: #usertype
 #### [userType]
 Type of user that triggered the event. User type can be CUSTOMER, EMPLOYEE or SYSTEM.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [username]: #username
@@ -123,18 +177,24 @@ Type of user that triggered the event. User type can be CUSTOMER, EMPLOYEE or SY
 Customer username who initiated the event   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [user]: #user
 #### [user]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
 
+
+</div>
 
 ## Count
 </div>

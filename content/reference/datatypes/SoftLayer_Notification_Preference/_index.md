@@ -24,26 +24,32 @@ Retrieve details for preferences.  Preferences are used to allow the subscriber 
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [description]: #description
 #### [description]
 A description of what the preference is used for.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -51,11 +57,19 @@ A description of what the preference is used for.
 Unique identifier for the notification preference.   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [keyName]: #keyname
 #### [keyName]
 Name that can be used by external systems to refer to preference.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [maximumValue]: #maximumvalue
@@ -63,11 +77,19 @@ Name that can be used by external systems to refer to preference.
 Largest value allowed for the preference.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [minimumValue]: #minimumvalue
 #### [minimumValue]
 Smallest value allowed for the preference.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [name]: #name
@@ -75,11 +97,19 @@ Smallest value allowed for the preference.
 Friendly name for the notification.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [units]: #units
 #### [units]
 The unit of measure used for the preference's value, minimum and maximum as well.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [value]: #value
@@ -87,6 +117,8 @@ The unit of measure used for the preference's value, minimum and maximum as well
 Default value used when setting up preferences for a new subscriber.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

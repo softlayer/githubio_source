@@ -40,38 +40,68 @@ Global load balancer accounts can only be removed by opening a ticket with the S
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [addNsRecord](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/addNsRecord)
 Add the required nameserver resource record for a global load balancer account.
+</div>
+
+<div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/editObject)
 Edit a global load balancer account and the hosts that make up the load balancing pool.
+</div>
+
+<div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getAccount)
 Retrieve your SoftLayer customer account.
+</div>
+
+<div class="method-row">
 
 #### [getBillingItem](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getBillingItem)
 Retrieve the current billing item for a Global Load Balancer account.
+</div>
+
+<div class="method-row">
 
 #### [getHosts](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getHosts)
 Retrieve the hosts in the load balancing pool for a global load balancer account.
+</div>
+
+<div class="method-row">
 
 #### [getLoadBalanceType](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getLoadBalanceType)
 Retrieve the load balance method of a global load balancer account
+</div>
+
+<div class="method-row">
 
 #### [getManagedResourceFlag](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getManagedResourceFlag)
 Retrieve a flag indicating that the global load balancer is a managed resource.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getObject)
 Retrieve a SoftLayer_Network_LoadBalancer_Global_Account record.
+</div>
+
+<div class="method-row">
 
 #### [removeNsRecord](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/removeNsRecord)
 Remove the required nameserver resource record for a global load balancer account.
+</div>
+</div>
 
 </div>
 

@@ -53,110 +53,212 @@ Query the [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}})
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [emailInvoices](/reference/services/SoftLayer_Billing_Invoice/emailInvoices)
 Create a transaction to email invoice links.
+</div>
+
+<div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Billing_Invoice/getAccount)
 Retrieve the account that an invoice belongs to.
+</div>
+
+<div class="method-row">
 
 #### [getAmount](/reference/services/SoftLayer_Billing_Invoice/getAmount)
 Retrieve this is the amount of this invoice.
+</div>
+
+<div class="method-row">
 
 #### [getBrandAtInvoiceCreation](/reference/services/SoftLayer_Billing_Invoice/getBrandAtInvoiceCreation)
 
+</div>
+
+<div class="method-row">
 
 #### [getDetailedPdfGeneratedFlag](/reference/services/SoftLayer_Billing_Invoice/getDetailedPdfGeneratedFlag)
 Retrieve a flag that will reflect whether the detailed version of the pdf has been generated.
+</div>
+
+<div class="method-row">
 
 #### [getExcel](/reference/services/SoftLayer_Billing_Invoice/getExcel)
 Retrieve a Microsoft Excel copy of an invoice.
+</div>
+
+<div class="method-row">
 
 #### [getInvoiceTopLevelItems](/reference/services/SoftLayer_Billing_Invoice/getInvoiceTopLevelItems)
 Retrieve a list of top-level invoice items that are on the currently pending invoice.
+</div>
+
+<div class="method-row">
 
 #### [getInvoiceTotalAmount](/reference/services/SoftLayer_Billing_Invoice/getInvoiceTotalAmount)
 Retrieve the total amount of this invoice.
+</div>
+
+<div class="method-row">
 
 #### [getInvoiceTotalOneTimeAmount](/reference/services/SoftLayer_Billing_Invoice/getInvoiceTotalOneTimeAmount)
 Retrieve the total one-time charges for this invoice. This is the sum of one-time charges + setup fees + labor fees. This does not include taxes.
+</div>
+
+<div class="method-row">
 
 #### [getInvoiceTotalOneTimeTaxAmount](/reference/services/SoftLayer_Billing_Invoice/getInvoiceTotalOneTimeTaxAmount)
 Retrieve a sum of all the taxes related to one time charges for this invoice.
+</div>
+
+<div class="method-row">
 
 #### [getInvoiceTotalPreTaxAmount](/reference/services/SoftLayer_Billing_Invoice/getInvoiceTotalPreTaxAmount)
 Retrieve the total amount of this invoice. This does not include taxes.
+</div>
+
+<div class="method-row">
 
 #### [getInvoiceTotalRecurringAmount](/reference/services/SoftLayer_Billing_Invoice/getInvoiceTotalRecurringAmount)
 Retrieve the total Recurring amount of this invoice. This amount does not include taxes or one time charges.
+</div>
+
+<div class="method-row">
 
 #### [getInvoiceTotalRecurringTaxAmount](/reference/services/SoftLayer_Billing_Invoice/getInvoiceTotalRecurringTaxAmount)
 Retrieve the total amount of the recurring taxes on this invoice.
+</div>
+
+<div class="method-row">
 
 #### [getItems](/reference/services/SoftLayer_Billing_Invoice/getItems)
 Retrieve the items that belong to this invoice.
+</div>
+
+<div class="method-row">
 
 #### [getLocalCurrencyExchangeRate](/reference/services/SoftLayer_Billing_Invoice/getLocalCurrencyExchangeRate)
 Retrieve exchange rate used for billing this invoice.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Billing_Invoice/getObject)
 Retrieve a SoftLayer_Billing_Invoice record.
+</div>
+
+<div class="method-row">
 
 #### [getPayment](/reference/services/SoftLayer_Billing_Invoice/getPayment)
 Retrieve this is the total payment made on this invoice.
+</div>
+
+<div class="method-row">
 
 #### [getPayments](/reference/services/SoftLayer_Billing_Invoice/getPayments)
 Retrieve the payments for the invoice.
+</div>
+
+<div class="method-row">
 
 #### [getPdf](/reference/services/SoftLayer_Billing_Invoice/getPdf)
 Retrieve a PDF copy of an invoice.
+</div>
+
+<div class="method-row">
 
 #### [getPdfDetailed](/reference/services/SoftLayer_Billing_Invoice/getPdfDetailed)
 Retrieve a PDF copy of the detailed invoice summary.
+</div>
+
+<div class="method-row">
 
 #### [getPdfDetailedFilename](/reference/services/SoftLayer_Billing_Invoice/getPdfDetailedFilename)
 Get the name of the detailed version of the PDF.
+</div>
+
+<div class="method-row">
 
 #### [getPdfFileSize](/reference/services/SoftLayer_Billing_Invoice/getPdfFileSize)
 Retrieve the size of a PDF copy of an invoice.
+</div>
+
+<div class="method-row">
 
 #### [getPdfFilename](/reference/services/SoftLayer_Billing_Invoice/getPdfFilename)
 
+</div>
+
+<div class="method-row">
 
 #### [getPreliminaryExcel](/reference/services/SoftLayer_Billing_Invoice/getPreliminaryExcel)
 Retrieve a Microsoft Excel copy of an invoice.
+</div>
+
+<div class="method-row">
 
 #### [getPreliminaryPdf](/reference/services/SoftLayer_Billing_Invoice/getPreliminaryPdf)
 Retrieve a PDF copy of an invoice.
+</div>
+
+<div class="method-row">
 
 #### [getPreliminaryPdfDetailed](/reference/services/SoftLayer_Billing_Invoice/getPreliminaryPdfDetailed)
 Retrieve a PDF copy of the detailed version of an invoice.
+</div>
+
+<div class="method-row">
 
 #### [getSellerRegistration](/reference/services/SoftLayer_Billing_Invoice/getSellerRegistration)
 Retrieve this is the seller's tax registration.
+</div>
+
+<div class="method-row">
 
 #### [getTaxInfo](/reference/services/SoftLayer_Billing_Invoice/getTaxInfo)
 Retrieve this is the tax information that applies to tax auditing. This is the official tax record for this invoice.
+</div>
+
+<div class="method-row">
 
 #### [getTaxInfoHistory](/reference/services/SoftLayer_Billing_Invoice/getTaxInfoHistory)
 Retrieve this is the set of tax information for any tax calculation for this invoice. Note that not all of these are necessarily official, so use the taxInfo key to get the final information.
+</div>
+
+<div class="method-row">
 
 #### [getTaxMessage](/reference/services/SoftLayer_Billing_Invoice/getTaxMessage)
 Retrieve this is a message explaining the tax treatment for this invoice.
+</div>
+
+<div class="method-row">
 
 #### [getTaxType](/reference/services/SoftLayer_Billing_Invoice/getTaxType)
 Retrieve this is the strategy used to calculate tax on this invoice.
+</div>
+
+<div class="method-row">
 
 #### [getXlsFilename](/reference/services/SoftLayer_Billing_Invoice/getXlsFilename)
 
+</div>
+
+<div class="method-row">
 
 #### [getZeroFeeItemCounts](/reference/services/SoftLayer_Billing_Invoice/getZeroFeeItemCounts)
 
+</div>
+</div>
 
 </div>
 

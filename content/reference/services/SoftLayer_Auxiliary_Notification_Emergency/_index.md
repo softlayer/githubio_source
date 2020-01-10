@@ -30,26 +30,44 @@ The SoftLayer_Auxiliary_Notification_Emergency service is associated with all ac
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAllObjects](/reference/services/SoftLayer_Auxiliary_Notification_Emergency/getAllObjects)
 Retrieve all notification events.
+</div>
+
+<div class="method-row">
 
 #### [getCurrentNotifications](/reference/services/SoftLayer_Auxiliary_Notification_Emergency/getCurrentNotifications)
 Retrieve current notification events.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Auxiliary_Notification_Emergency/getObject)
 Retrieve a SoftLayer_Auxiliary_Notification_Emergency record.
+</div>
+
+<div class="method-row">
 
 #### [getSignature](/reference/services/SoftLayer_Auxiliary_Notification_Emergency/getSignature)
 Retrieve the signature of the SoftLayer employee department associated with this notification.
+</div>
+
+<div class="method-row">
 
 #### [getStatus](/reference/services/SoftLayer_Auxiliary_Notification_Emergency/getStatus)
 Retrieve the status of this notification.
+</div>
+</div>
 
 </div>
 

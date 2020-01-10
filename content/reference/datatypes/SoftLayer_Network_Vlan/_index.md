@@ -40,26 +40,32 @@ The SoftLayer_Network_Vlan data type models a single VLAN within SoftLayer's pub
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [accountId]: #accountid
 #### [accountId]
 The internal identifier of the SoftLayer customer account that a VLAN is associated with.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -67,11 +73,19 @@ The internal identifier of the SoftLayer customer account that a VLAN is associa
 A VLAN's internal identifier. This should not be confused with the ''vlanNumber'' property, which is used in network configuration.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date a VLAN was last modified.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [name]: #name
@@ -79,11 +93,19 @@ The date a VLAN was last modified.
 The optional name for this VLAN  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [note]: #note
 #### [note]
 The note for this vlan.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [primarySubnetId]: #primarysubnetid
@@ -91,23 +113,35 @@ The note for this vlan.
 The internal identifier of the primary subnet addressed on a VLAN.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [vlanNumber]: #vlannumber
 #### [vlanNumber]
 A VLAN's number as recorded within the SoftLayer network. This is configured directly on SoftLayer's networking equipment and should not be confused with a VLAN's ''id'' property.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [account]: #account
 #### [account]
 The SoftLayer customer account associated with a VLAN.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [additionalPrimarySubnets]: #additionalprimarysubnets
@@ -115,11 +149,19 @@ The SoftLayer customer account associated with a VLAN.
 A VLAN's additional primary subnets. These are used to extend the number of servers attached to the VLAN by adding more ip addresses to the primary IP address pool.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [attachedNetworkGateway]: #attachednetworkgateway
 #### [attachedNetworkGateway]
 The gateway this VLAN is inside of.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [attachedNetworkGatewayFlag]: #attachednetworkgatewayflag
@@ -127,11 +169,19 @@ The gateway this VLAN is inside of.
 Whether or not this VLAN is inside a gateway.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [attachedNetworkGatewayVlan]: #attachednetworkgatewayvlan
 #### [attachedNetworkGatewayVlan]
 The inside VLAN record if this VLAN is inside a network gateway.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway_Vlan'>SoftLayer_Network_Gateway_Vlan </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [billingItem]: #billingitem
@@ -139,11 +189,19 @@ The inside VLAN record if this VLAN is inside a network gateway.
 The billing item for a network vlan.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [dedicatedFirewallFlag]: #dedicatedfirewallflag
 #### [dedicatedFirewallFlag]
 A flag indicating that a network vlan is on a Hardware Firewall (Dedicated).  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [extensionRouter]: #extensionrouter
@@ -151,11 +209,19 @@ A flag indicating that a network vlan is on a Hardware Firewall (Dedicated).
 The extension router that a VLAN is associated with.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Router'>SoftLayer_Hardware_Router </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [firewallGuestNetworkComponents]: #firewallguestnetworkcomponents
 #### [firewallGuestNetworkComponents]
 A firewalled Vlan's network components.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [firewallInterfaces]: #firewallinterfaces
@@ -163,11 +229,19 @@ A firewalled Vlan's network components.
 A firewalled vlan's inbound/outbound interfaces.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Firewall_Module_Context_Interface'>SoftLayer_Network_Firewall_Module_Context_Interface[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [firewallNetworkComponents]: #firewallnetworkcomponents
 #### [firewallNetworkComponents]
 A firewalled Vlan's network components.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [firewallRules]: #firewallrules
@@ -175,11 +249,19 @@ A firewalled Vlan's network components.
 The currently running rule set of a firewalled VLAN.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan_Firewall_Rule'>SoftLayer_Network_Vlan_Firewall_Rule[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [guestNetworkComponents]: #guestnetworkcomponents
 #### [guestNetworkComponents]
 The networking components that are connected to a VLAN.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hardware]: #hardware
@@ -187,11 +269,19 @@ The networking components that are connected to a VLAN.
 All of the hardware that exists on a VLAN. Hardware is associated with a VLAN by its networking components.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [highAvailabilityFirewallFlag]: #highavailabilityfirewallflag
 #### [highAvailabilityFirewallFlag]
   
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [localDiskStorageCapabilityFlag]: #localdiskstoragecapabilityflag
@@ -199,11 +289,19 @@ All of the hardware that exists on a VLAN. Hardware is associated with a VLAN by
 A flag indicating that a vlan can be assigned to a host that has local disk functionality.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [network]: #network
 #### [network]
 The network in which this VLAN resides.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network'>SoftLayer_Network </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [networkComponentTrunks]: #networkcomponenttrunks
@@ -211,11 +309,19 @@ The network in which this VLAN resides.
 The network components that are connected to this VLAN through a trunk.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component_Network_Vlan_Trunk'>SoftLayer_Network_Component_Network_Vlan_Trunk[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [networkComponents]: #networkcomponents
 #### [networkComponents]
 The networking components that are connected to a VLAN.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [networkSpace]: #networkspace
@@ -223,11 +329,19 @@ The networking components that are connected to a VLAN.
 Identifier to denote whether a VLAN is used for public or private connectivity.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [networkVlanFirewall]: #networkvlanfirewall
 #### [networkVlanFirewall]
 The Hardware Firewall (Dedicated) for a network vlan.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan_Firewall'>SoftLayer_Network_Vlan_Firewall </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [primaryRouter]: #primaryrouter
@@ -235,11 +349,19 @@ The Hardware Firewall (Dedicated) for a network vlan.
 The primary router that a VLAN is associated with. Every SoftLayer VLAN is connected to more than one router for greater network redundancy.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Router'>SoftLayer_Hardware_Router </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [primarySubnet]: #primarysubnet
 #### [primarySubnet]
 A VLAN's primary subnet. Each VLAN has at least one subnet, usually the subnet that is assigned to a server or new IP address block when it's purchased.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [primarySubnetVersion6]: #primarysubnetversion6
@@ -247,11 +369,19 @@ A VLAN's primary subnet. Each VLAN has at least one subnet, usually the subnet t
 A VLAN's primary IPv6 subnet. Some VLAN's may not have a primary IPv6 subnet.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [primarySubnets]: #primarysubnets
 #### [primarySubnets]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [privateNetworkGateways]: #privatenetworkgateways
@@ -259,11 +389,19 @@ A VLAN's primary IPv6 subnet. Some VLAN's may not have a primary IPv6 subnet.
 The gateways this VLAN is the private VLAN of.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [protectedIpAddresses]: #protectedipaddresses
 #### [protectedIpAddresses]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [publicNetworkGateways]: #publicnetworkgateways
@@ -271,11 +409,19 @@ The gateways this VLAN is the private VLAN of.
 The gateways this VLAN is the public VLAN of.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [sanStorageCapabilityFlag]: #sanstoragecapabilityflag
 #### [sanStorageCapabilityFlag]
 A flag indicating that a vlan can be assigned to a host that has SAN disk functionality.  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [scaleVlans]: #scalevlans
@@ -283,11 +429,19 @@ A flag indicating that a vlan can be assigned to a host that has SAN disk functi
 Collection of scale VLANs this VLAN applies to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Network_Vlan'>SoftLayer_Scale_Network_Vlan[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [secondaryRouter]: #secondaryrouter
 #### [secondaryRouter]
 The secondary router that a VLAN is associated with. Every SoftLayer VLAN is connected to more than one router for greater network redundancy.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [secondarySubnets]: #secondarysubnets
@@ -295,11 +449,19 @@ The secondary router that a VLAN is associated with. Every SoftLayer VLAN is con
 The subnets that exist as secondary interfaces on a VLAN  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [subnets]: #subnets
 #### [subnets]
 All of the subnets that exist as VLAN interfaces.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [tagReferences]: #tagreferences
@@ -307,17 +469,29 @@ All of the subnets that exist as VLAN interfaces.
 References to all tags for this VLAN.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [totalPrimaryIpAddressCount]: #totalprimaryipaddresscount
 #### [totalPrimaryIpAddressCount]
 The number of primary IP addresses in a VLAN.  
 <span class="type-label">Type: </span>**unsigned integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [type]: #type
 #### [type]
 The type of this VLAN.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan_Type'>SoftLayer_Network_Vlan_Type </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [virtualGuests]: #virtualguests
@@ -326,7 +500,10 @@ All of the Virtual Servers that are connected to a VLAN.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [additionalPrimarySubnetCount]: #additionalprimarysubnetcount
@@ -335,12 +512,18 @@ A count of a VLAN's additional primary subnets. These are used to extend the num
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [firewallGuestNetworkComponentCount]: #firewallguestnetworkcomponentcount
 #### [firewallGuestNetworkComponentCount]
 A count of a firewalled Vlan's network components.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [firewallInterfaceCount]: #firewallinterfacecount
@@ -349,12 +532,18 @@ A count of a firewalled vlan's inbound/outbound interfaces.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [firewallNetworkComponentCount]: #firewallnetworkcomponentcount
 #### [firewallNetworkComponentCount]
 A count of a firewalled Vlan's network components.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [firewallRuleCount]: #firewallrulecount
@@ -363,12 +552,18 @@ A count of the currently running rule set of a firewalled VLAN.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [guestNetworkComponentCount]: #guestnetworkcomponentcount
 #### [guestNetworkComponentCount]
 A count of the networking components that are connected to a VLAN.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [hardwareCount]: #hardwarecount
@@ -377,12 +572,18 @@ A count of all of the hardware that exists on a VLAN. Hardware is associated wit
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [networkComponentCount]: #networkcomponentcount
 #### [networkComponentCount]
 A count of the networking components that are connected to a VLAN.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [networkComponentTrunkCount]: #networkcomponenttrunkcount
@@ -391,12 +592,18 @@ A count of the network components that are connected to this VLAN through a trun
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [primarySubnetCount]: #primarysubnetcount
 #### [primarySubnetCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [privateNetworkGatewayCount]: #privatenetworkgatewaycount
@@ -405,12 +612,18 @@ A count of the gateways this VLAN is the private VLAN of.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [protectedIpAddressCount]: #protectedipaddresscount
 #### [protectedIpAddressCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [publicNetworkGatewayCount]: #publicnetworkgatewaycount
@@ -419,12 +632,18 @@ A count of the gateways this VLAN is the public VLAN of.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [scaleVlanCount]: #scalevlancount
 #### [scaleVlanCount]
 A count of collection of scale VLANs this VLAN applies to.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [secondarySubnetCount]: #secondarysubnetcount
@@ -433,12 +652,18 @@ A count of the subnets that exist as secondary interfaces on a VLAN
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [subnetCount]: #subnetcount
 #### [subnetCount]
 A count of all of the subnets that exist as VLAN interfaces.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [tagReferenceCount]: #tagreferencecount
@@ -447,12 +672,17 @@ A count of references to all tags for this VLAN.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [virtualGuestCount]: #virtualguestcount
 #### [virtualGuestCount]
 A count of all of the Virtual Servers that are connected to a VLAN.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

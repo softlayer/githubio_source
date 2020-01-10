@@ -62,23 +62,38 @@ The SoftLayer_Network_Firewall_Update_Request_Rule service accesses information 
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [createObject](/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule/createObject)
 Create a new firewall update request rule.
+</div>
+
+<div class="method-row">
 
 #### [getFirewallUpdateRequest](/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule/getFirewallUpdateRequest)
 Retrieve the update request that this rule belongs to.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule/getObject)
 Retrieve a SoftLayer_Network_Firewall_Update_Request_Rule record.
+</div>
+
+<div class="method-row">
 
 #### [validateRule](/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule/validateRule)
 Validate a firewall update request rule.
+</div>
+</div>
 
 </div>
 

@@ -28,26 +28,32 @@ If a server configuration requires a raid configuration this object will describ
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [diskControllerIndex]: #diskcontrollerindex
 #### [diskControllerIndex]
 The disk controller for the array.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [grow]: #grow
@@ -55,11 +61,19 @@ The disk controller for the array.
 Flag to use all available space.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hardDrivesString]: #harddrivesstring
 #### [hardDrivesString]
 Comma delimited integers of drive indexes for the array. This can also be the string 'all' to specify all drives in the server   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hotSpareDrivesString]: #hotsparedrivesstring
@@ -67,11 +81,19 @@ Comma delimited integers of drive indexes for the array. This can also be the st
 Comma delimited integers of drive indexes for hot spares on the array.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [orderIndex]: #orderindex
 #### [orderIndex]
 The order of the arrays in the template.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [size]: #size
@@ -79,18 +101,24 @@ The order of the arrays in the template.
 Size of array. Must be within limitations of the smallest drive and raid mode  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [type]: #type
 #### [type]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group_Array_Type'>SoftLayer_Configuration_Storage_Group_Array_Type </a>**
 
+
+</div>
 
 ## Count
 </div>

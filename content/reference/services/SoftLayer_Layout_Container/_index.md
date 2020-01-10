@@ -42,23 +42,38 @@ A single page in the portal can be thought of as a layout container. The contain
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAllObjects](/reference/services/SoftLayer_Layout_Container/getAllObjects)
 Returns customizable layout containers
+</div>
+
+<div class="method-row">
 
 #### [getLayoutContainerType](/reference/services/SoftLayer_Layout_Container/getLayoutContainerType)
 Retrieve the type of the layout container object
+</div>
+
+<div class="method-row">
 
 #### [getLayoutItems](/reference/services/SoftLayer_Layout_Container/getLayoutItems)
 Retrieve the layout items assigned to this layout container
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Layout_Container/getObject)
 Retrieve a SoftLayer_Layout_Container record.
+</div>
+</div>
 
 </div>
 

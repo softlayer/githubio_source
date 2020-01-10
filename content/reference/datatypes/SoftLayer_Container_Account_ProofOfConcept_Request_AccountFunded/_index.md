@@ -29,26 +29,32 @@ Proof of concept request using the account team funding model. Note that proof o
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [amount]: #amount
 #### [amount]
 Dollar amount of funding requested for the proof of concept period  
 <span class="type-label">Type: </span>**float**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [costRecoveryRequest]: #costrecoveryrequest
@@ -56,11 +62,19 @@ Dollar amount of funding requested for the proof of concept period
 Billing codes for the department paying for the proof of concept account  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Request_CostRecovery'>SoftLayer_Container_Account_ProofOfConcept_Request_CostRecovery </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [customer]: #customer
 #### [customer]
 Customer intended to take over ownership and and billing of the account  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Customer'>SoftLayer_Container_Account_ProofOfConcept_Contact_Customer </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [description]: #description
@@ -68,11 +82,19 @@ Customer intended to take over ownership and and billing of the account
 Explanation of the purpose of the proof of concept request  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [endDate]: #enddate
 #### [endDate]
 End date for the proof of concept period  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [opportunity]: #opportunity
@@ -80,11 +102,19 @@ End date for the proof of concept period
 Internal opportunity system details  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity'>SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [projectName]: #projectname
 #### [projectName]
 Name of the project or company and will become the account companyName  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [regionKeyName]: #regionkeyname
@@ -92,11 +122,19 @@ Name of the project or company and will become the account companyName
 IBM region responsible for overseeing the proof of concept account  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [requester]: #requester
 #### [requester]
 IBMer requesting the proof of concept account  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Requester'>SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Requester </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [startDate]: #startdate
@@ -104,12 +142,18 @@ IBMer requesting the proof of concept account
 Start date for the proof of concept period  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [technicalContact]: #technicalcontact
 #### [technicalContact]
 IBMer assisting with technical aspects of account configuration  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Technical'>SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Technical </a>**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

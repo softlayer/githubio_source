@@ -24,26 +24,32 @@ classes:
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [locationId]: #locationid
 #### [locationId]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [locationReservationId]: #locationreservationid
@@ -51,11 +57,19 @@ classes:
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [networkConnectionCapacity]: #networkconnectioncapacity
 #### [networkConnectionCapacity]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [networkConnectionReservation]: #networkconnectionreservation
@@ -63,11 +77,19 @@ classes:
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [powerConnectionCapacity]: #powerconnectioncapacity
 #### [powerConnectionCapacity]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [powerConnectionReservation]: #powerconnectionreservation
@@ -75,11 +97,19 @@ classes:
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [slotCapacity]: #slotcapacity
 #### [slotCapacity]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [slotReservation]: #slotreservation
@@ -87,17 +117,25 @@ classes:
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [allotment]: #allotment
 #### [allotment]
 The bandwidth allotment that the reservation belongs to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [children]: #children
@@ -105,11 +143,19 @@ The bandwidth allotment that the reservation belongs to.
 Members of the rack.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Reservation_Rack_Member'>SoftLayer_Location_Reservation_Rack_Member[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [location]: #location
 #### [location]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [locationReservation]: #locationreservation
@@ -118,7 +164,10 @@ Members of the rack.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Reservation'>SoftLayer_Location_Reservation </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [childrenCount]: #childrencount
@@ -126,6 +175,8 @@ Members of the rack.
 A count of members of the rack.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

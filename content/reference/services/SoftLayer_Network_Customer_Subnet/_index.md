@@ -32,20 +32,32 @@ For example, customer subnets are tracked for proper management of network tunne
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [createObject](/reference/services/SoftLayer_Network_Customer_Subnet/createObject)
 *
+</div>
+
+<div class="method-row">
 
 #### [getIpAddresses](/reference/services/SoftLayer_Network_Customer_Subnet/getIpAddresses)
 Retrieve all ip addresses associated with a subnet.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Customer_Subnet/getObject)
 Retrieve a SoftLayer_Network_Customer_Subnet record.
+</div>
+</div>
 
 </div>
 

@@ -35,26 +35,32 @@ SoftLayer_Container_Ticket_GraphOutputs models a single outbound object for a gi
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [graphImage]: #graphimage
 #### [graphImage]
 The raw PNG binary data to be displayed once the graph is drawn.  
 <span class="type-label">Type: </span>**binary data**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [graphTitle]: #graphtitle
@@ -62,11 +68,19 @@ The raw PNG binary data to be displayed once the graph is drawn.
 The title that ended up being displayed as part of the graph image.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [maxEndDate]: #maxenddate
 #### [maxEndDate]
 The maximum date included in this graph.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [minStartDate]: #minstartdate
@@ -74,6 +88,8 @@ The maximum date included in this graph.
 The minimum date included in this graph.  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

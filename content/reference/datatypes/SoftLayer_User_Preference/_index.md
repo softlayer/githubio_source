@@ -24,38 +24,48 @@ The SoftLayer_User_Preference data type contains a single user preference to a s
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [value]: #value
 #### [value]
 The users current preference value  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [description]: #description
 #### [description]
 Description of the user preference  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [type]: #type
@@ -63,6 +73,8 @@ Description of the user preference
 Type of user preference  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Preference_Type'>SoftLayer_User_Preference_Type </a>**
 
+
+</div>
 
 ## Count
 </div>

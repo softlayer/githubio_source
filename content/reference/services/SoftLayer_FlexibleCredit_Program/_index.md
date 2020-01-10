@@ -30,23 +30,38 @@ classes:
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAffiliatesAvailableForSelfEnrollmentByVerificationType](/reference/services/SoftLayer_FlexibleCredit_Program/getAffiliatesAvailableForSelfEnrollmentByVerificationType)
 
+</div>
+
+<div class="method-row">
 
 #### [getCompanyTypes](/reference/services/SoftLayer_FlexibleCredit_Program/getCompanyTypes)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_FlexibleCredit_Program/getObject)
 Retrieve a SoftLayer_FlexibleCredit_Program record.
+</div>
+
+<div class="method-row">
 
 #### [selfEnrollNewAccount](/reference/services/SoftLayer_FlexibleCredit_Program/selfEnrollNewAccount)
 
+</div>
+</div>
 
 </div>
 

@@ -30,26 +30,44 @@ The SoftLayer_Network_LBaaS_Listener API service allows consumers to add, edit a
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [deleteLoadBalancerProtocols](/reference/services/SoftLayer_Network_LBaaS_Listener/deleteLoadBalancerProtocols)
 Delete load balancers front- and backend protocols
+</div>
+
+<div class="method-row">
 
 #### [getDefaultPool](/reference/services/SoftLayer_Network_LBaaS_Listener/getDefaultPool)
 
+</div>
+
+<div class="method-row">
 
 #### [getL7Policies](/reference/services/SoftLayer_Network_LBaaS_Listener/getL7Policies)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_LBaaS_Listener/getObject)
 Retrieve a SoftLayer_Network_LBaaS_Listener record.
+</div>
+
+<div class="method-row">
 
 #### [updateLoadBalancerProtocols](/reference/services/SoftLayer_Network_LBaaS_Listener/updateLoadBalancerProtocols)
 Update/create load balancers protocols
+</div>
+</div>
 
 </div>
 

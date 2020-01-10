@@ -24,26 +24,32 @@ The SoftLayer_Network_SecurityGroup_OrderBinding data type contains links betwee
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [guestId]: #guestid
 #### [guestId]
 The ID of the Virtual Guest associated with the security group.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -51,11 +57,19 @@ The ID of the Virtual Guest associated with the security group.
 The unique ID for a security group, order, binding  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [orderId]: #orderid
 #### [orderId]
 The ID of the order associated with the security group.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [securityGroupId]: #securitygroupid
@@ -63,17 +77,25 @@ The ID of the order associated with the security group.
 The ID of the security group that is associated with the order.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [guest]: #guest
 #### [guest]
 The virtual guest associated with the binding  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [order]: #order
@@ -81,12 +103,18 @@ The virtual guest associated with the binding
 The order associated with the binding  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [securityGroup]: #securitygroup
 #### [securityGroup]
 The security group associated with the order  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a>**
 
+
+</div>
 
 ## Count
 </div>

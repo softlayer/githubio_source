@@ -24,26 +24,32 @@ This represents one order item in a tax calculation.
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [categoryCode]: #categorycode
 #### [categoryCode]
 The category code for the referenced product.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [containerHash]: #containerhash
@@ -51,11 +57,19 @@ The category code for the referenced product.
 This hash will match to the hash on an order container.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [itemPriceId]: #itempriceid
 #### [itemPriceId]
 The reference to the price for this order item.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [taxRates]: #taxrates
@@ -63,6 +77,8 @@ The reference to the price for this order item.
 This is the container containing the individual tax rates.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Tax_Rates'>SoftLayer_Container_Tax_Rates </a>**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

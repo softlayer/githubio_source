@@ -24,26 +24,32 @@ SoftLayer_Container_Subnet_Registration_TransactionDetails is provided to return
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [subnetReferences]: #subnetreferences
 #### [subnetReferences]
 The IDs and Subnets of the [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}) object.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Network_Subnet_Registration_SubnetReference'>SoftLayer_Container_Network_Subnet_Registration_SubnetReference[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [transactionId]: #transactionid
@@ -51,6 +57,8 @@ The IDs and Subnets of the [SoftLayer_Network_Subnet_Registration]({{<ref "refer
 The ID of the Transaction object.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

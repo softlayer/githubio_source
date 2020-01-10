@@ -30,26 +30,32 @@ The SoftLayer_Network_LoadBalancer_Global_Account data type contains the propert
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [allowedNumberOfHosts]: #allowednumberofhosts
 #### [allowedNumberOfHosts]
 The maximum number of hosts that a global load balancer account is allowed to have.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [averageConnectionsPerSecond]: #averageconnectionspersecond
@@ -57,11 +63,19 @@ The maximum number of hosts that a global load balancer account is allowed to ha
 The average amount of connections per second used within the current billing cycle.  This number is updated daily.  
 <span class="type-label">Type: </span>**float**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [connectionsPerSecond]: #connectionspersecond
 #### [connectionsPerSecond]
 The amount of connections per second a global load balancer account may use within a billing cycle without being billed for an overage.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [fallbackIp]: #fallbackip
@@ -69,11 +83,19 @@ The amount of connections per second a global load balancer account may use with
 The IP address that will be return to a DNS request when none of the hosts for a global load balancer account could be returned.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hostname]: #hostname
 #### [hostname]
 The hostname of a global load balancer account that is being load balanced.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -81,11 +103,19 @@ The hostname of a global load balancer account that is being load balanced.
 The unique identifier of a global load balancer account.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [loadBalanceTypeId]: #loadbalancetypeid
 #### [loadBalanceTypeId]
 The identifier of the load balance method for a global load balancer account.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [notes]: #notes
@@ -93,17 +123,25 @@ The identifier of the load balance method for a global load balancer account.
 Additional customer defined information for a global load balancer account.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [account]: #account
 #### [account]
 Your SoftLayer customer account.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [billingItem]: #billingitem
@@ -111,17 +149,29 @@ Your SoftLayer customer account.
 The current billing item for a Global Load Balancer account.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hosts]: #hosts
 #### [hosts]
 The hosts in the load balancing pool for a global load balancer account.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Host'>SoftLayer_Network_LoadBalancer_Global_Host[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [loadBalanceType]: #loadbalancetype
 #### [loadBalanceType]
 The load balance method of a global load balancer account  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Type'>SoftLayer_Network_LoadBalancer_Global_Type </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [managedResourceFlag]: #managedresourceflag
@@ -130,7 +180,10 @@ A flag indicating that the global load balancer is a managed resource.
 <span class="type-label">Type: </span>**boolean**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [hostCount]: #hostcount
@@ -138,6 +191,8 @@ A flag indicating that the global load balancer is a managed resource.
 A count of the hosts in the load balancing pool for a global load balancer account.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

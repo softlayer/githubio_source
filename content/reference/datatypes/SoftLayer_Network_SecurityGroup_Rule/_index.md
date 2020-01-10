@@ -24,26 +24,32 @@ The SoftLayer_Network_SecurityGroup_Rule data type contains general information 
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 The createDate field for a rule. It is essentially the date and time that the security group rule was created.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [direction]: #direction
@@ -51,11 +57,19 @@ The createDate field for a rule. It is essentially the date and time that the se
 The direction of traffic (ingress or egress).  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [ethertype]: #ethertype
 #### [ethertype]
 IPv4 or IPv6. If the remoteIp or ethertype properties are not specified, the default is IPv4. Otherwise ethertype will default based on the format of the specified remoteIp.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -63,11 +77,19 @@ IPv4 or IPv6. If the remoteIp or ethertype properties are not specified, the def
 The unique ID for a rule.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [modifyDate]: #modifydate
 #### [modifyDate]
 The modifyDate field for a rule. It is essentially the date and time that the security group rule was last changed.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [portRangeMax]: #portrangemax
@@ -75,11 +97,19 @@ The modifyDate field for a rule. It is essentially the date and time that the se
 The end of the port range for allowed traffic.  When the protocol is icmp, this value specifies the icmp code to permit.  When icmp code is specified, icmp type is required. When the protocol is vrrp, ports cannot be specified.   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [portRangeMin]: #portrangemin
 #### [portRangeMin]
 The start of the port range for allowed traffic.  When the protocol is icmp, this value specifies the icmp type to permit.   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [protocol]: #protocol
@@ -87,11 +117,19 @@ The start of the port range for allowed traffic.  When the protocol is icmp, thi
 The protocol of packets (icmp, tcp, udp, or vrrp).  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [remoteGroupId]: #remotegroupid
 #### [remoteGroupId]
 The ID of the remote security group allowed as part of the rule. This property is mutually exclusive with the remoteIp property.   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [remoteIp]: #remoteip
@@ -99,23 +137,35 @@ The ID of the remote security group allowed as part of the rule. This property i
 CIDR or IP address for allowed connections. This property is mutually exclusive with the remoteGroupId property. When the protocol is vrrp, ports cannot be specified.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [securityGroupId]: #securitygroupid
 #### [securityGroupId]
 The ID of the security group that owns the rule.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [remoteGroup]: #remotegroup
 #### [remoteGroup]
 The remote security group allowed as part of this rule.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [securityGroup]: #securitygroup
@@ -123,6 +173,8 @@ The remote security group allowed as part of this rule.
 The security group of this rule.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a>**
 
+
+</div>
 
 ## Count
 </div>

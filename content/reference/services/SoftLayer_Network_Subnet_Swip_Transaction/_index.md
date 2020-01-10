@@ -43,38 +43,68 @@ Using this API, SoftLayer Customers are able to initiate, monitor, update, and r
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [findMyTransactions](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/findMyTransactions)
 returns SWIP transaction objects that are currently in transaction with ARIN.
+</div>
+
+<div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/getAccount)
 Retrieve the Account whose RWHOIS data was used to SWIP this subnet
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/getObject)
 Retrieve a SoftLayer_Network_Subnet_Swip_Transaction record.
+</div>
+
+<div class="method-row">
 
 #### [getSubnet](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/getSubnet)
 Retrieve the subnet that this SWIP transaction was created for.
+</div>
+
+<div class="method-row">
 
 #### [removeAllSubnetSwips](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/removeAllSubnetSwips)
 Removes registration information from ARIN for all your subnets
+</div>
+
+<div class="method-row">
 
 #### [removeSwipData](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/removeSwipData)
 Deletes registration information from ARIN for a single subnet
+</div>
+
+<div class="method-row">
 
 #### [resendSwipData](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/resendSwipData)
 Sends updated RWHOIS information to ARIN for a single subnet.
+</div>
+
+<div class="method-row">
 
 #### [swipAllSubnets](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/swipAllSubnets)
 create SWIP transactions for all subnets that do not already have a SWIP transaction in progress.
+</div>
+
+<div class="method-row">
 
 #### [updateAllSubnetSwips](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/updateAllSubnetSwips)
 Update all subnets on the account with an "OK" status.
+</div>
+</div>
 
 </div>
 

@@ -30,20 +30,32 @@ classes:
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAllCancellationReasonCategories](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason_Category/getAllCancellationReasonCategories)
 Retrieve all available cancellation reason categories. 
+</div>
+
+<div class="method-row">
 
 #### [getBillingCancellationReasons](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason_Category/getBillingCancellationReasons)
 Retrieve the corresponding billing cancellation reasons having the specific billing cancellation reason category.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason_Category/getObject)
 Retrieve a SoftLayer_Billing_Item_Cancellation_Reason_Category record.
+</div>
+</div>
 
 </div>
 

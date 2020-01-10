@@ -37,26 +37,32 @@ A SoftLayer_Auxiliary_Notification_Emergency data object represents a notificati
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 The date this event was created.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [device]: #device
@@ -64,11 +70,19 @@ The date this event was created.
 The device (if any) effected by this event.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [duration]: #duration
 #### [duration]
 The duration of this event.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -76,11 +90,19 @@ The duration of this event.
 The device (if any) effected by this event.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [location]: #location
 #### [location]
 The location effected by this event.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [message]: #message
@@ -88,11 +110,19 @@ The location effected by this event.
 A message describing this event.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [modifyDate]: #modifydate
 #### [modifyDate]
 The last date this event was modified.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [servicesAffected]: #servicesaffected
@@ -100,11 +130,19 @@ The last date this event was modified.
 The service(s) (if any) effected by this event.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [startDate]: #startdate
 #### [startDate]
 The date this event will start.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [statusId]: #statusid
@@ -112,17 +150,25 @@ The date this event will start.
 Current status record for this event.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [signature]: #signature
 #### [signature]
 The signature of the SoftLayer employee department associated with this notification.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency_Signature'>SoftLayer_Auxiliary_Notification_Emergency_Signature </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [status]: #status
@@ -130,6 +176,8 @@ The signature of the SoftLayer employee department associated with this notifica
 The status of this notification.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency_Status'>SoftLayer_Auxiliary_Notification_Emergency_Status </a>**
 
+
+</div>
 
 ## Count
 </div>

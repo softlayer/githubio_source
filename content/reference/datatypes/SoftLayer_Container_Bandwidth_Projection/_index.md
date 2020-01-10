@@ -29,26 +29,32 @@ SoftLayer_Container_Bandwidth_Projection models projected bandwidth use over a t
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [allowedUsage]: #allowedusage
 #### [allowedUsage]
 Bandwidth limit for this hardware.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [estimatedUsage]: #estimatedusage
@@ -56,11 +62,19 @@ Bandwidth limit for this hardware.
 Estimated bandwidth usage so far this billing cycle.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hardwareId]: #hardwareid
 #### [hardwareId]
 Hardware ID of server to monitor.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [projectedUsage]: #projectedusage
@@ -68,11 +82,19 @@ Hardware ID of server to monitor.
 Projected usage for this hardware based on previous usage this billing cycle.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [serverName]: #servername
 #### [serverName]
 the text name of the server being monitored.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [startDate]: #startdate
@@ -80,6 +102,8 @@ the text name of the server being monitored.
 The minimum date included in this list.  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

@@ -30,26 +30,44 @@ SoftLayer_Virtual_ReservedCapacityGroup_Instance reserves capacity for a single 
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAvailableFlag](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getAvailableFlag)
 Retrieve flag to indecate whether or not the reserved instance is available or not.
+</div>
+
+<div class="method-row">
 
 #### [getBillingItem](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getBillingItem)
 Retrieve the billing item for the reserved capacity group instance.
+</div>
+
+<div class="method-row">
 
 #### [getGuest](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getGuest)
 Retrieve the virtual guest associated with this reserved capacity group instance.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getObject)
 Retrieve a SoftLayer_Virtual_ReservedCapacityGroup_Instance record.
+</div>
+
+<div class="method-row">
 
 #### [getReservedCapacityGroup](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getReservedCapacityGroup)
 Retrieve the reserved instances that are members of this reserved capacity group.
+</div>
+</div>
 
 </div>
 

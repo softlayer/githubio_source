@@ -30,44 +30,80 @@ Configuration section allow you to divide a large configuration values into a sm
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getDefinitions](/reference/services/SoftLayer_Configuration_Template_Section/getDefinitions)
 
+</div>
+
+<div class="method-row">
 
 #### [getDisallowedDeletionFlag](/reference/services/SoftLayer_Configuration_Template_Section/getDisallowedDeletionFlag)
 
+</div>
+
+<div class="method-row">
 
 #### [getLinkedTemplate](/reference/services/SoftLayer_Configuration_Template_Section/getLinkedTemplate)
 
+</div>
+
+<div class="method-row">
 
 #### [getLinkedTemplateReference](/reference/services/SoftLayer_Configuration_Template_Section/getLinkedTemplateReference)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Configuration_Template_Section/getObject)
 Retrieve a SoftLayer_Configuration_Template_Section record.
+</div>
+
+<div class="method-row">
 
 #### [getProfiles](/reference/services/SoftLayer_Configuration_Template_Section/getProfiles)
 
+</div>
+
+<div class="method-row">
 
 #### [getSectionType](/reference/services/SoftLayer_Configuration_Template_Section/getSectionType)
 
+</div>
+
+<div class="method-row">
 
 #### [getSectionTypeName](/reference/services/SoftLayer_Configuration_Template_Section/getSectionTypeName)
 
+</div>
+
+<div class="method-row">
 
 #### [getSubSections](/reference/services/SoftLayer_Configuration_Template_Section/getSubSections)
 
+</div>
+
+<div class="method-row">
 
 #### [getTemplate](/reference/services/SoftLayer_Configuration_Template_Section/getTemplate)
 
+</div>
+
+<div class="method-row">
 
 #### [hasSubSections](/reference/services/SoftLayer_Configuration_Template_Section/hasSubSections)
 Check if object has sub-sections
+</div>
+</div>
 
 </div>
 

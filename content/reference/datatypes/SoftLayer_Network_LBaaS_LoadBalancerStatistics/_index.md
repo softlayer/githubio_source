@@ -24,26 +24,32 @@ SoftLayer_Network_LBaaS_LoadBalancerStatistics is a collection of metrics retrie
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [connectionRate]: #connectionrate
 #### [connectionRate]
 Number of connections seen at the  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [dataProcessedByMonth]: #dataprocessedbymonth
@@ -51,11 +57,19 @@ Number of connections seen at the
 Data processed by month is the total of bin and bout  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [numberOfMembersDown]: #numberofmembersdown
 #### [numberOfMembersDown]
 Number of members in DOWN health state  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [numberOfMembersUp]: #numberofmembersup
@@ -63,11 +77,19 @@ Number of members in DOWN health state
 Number of members in UP health state  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [throughput]: #throughput
 #### [throughput]
 Throughput measures the total number of bits  
 <span class="type-label">Type: </span>**float**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [totalConnections]: #totalconnections
@@ -75,6 +97,8 @@ Throughput measures the total number of bits
 Number of total active established connections  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

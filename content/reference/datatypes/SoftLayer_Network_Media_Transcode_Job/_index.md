@@ -24,26 +24,32 @@ The SoftLayer_Network_Media_Transcode_Job contains information regarding a trans
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [autoDeleteDuration]: #autodeleteduration
 #### [autoDeleteDuration]
 The auto-deletion duration in seconds.  This value determines how long the input file will be kept on the storage.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [byteIn]: #bytein
@@ -51,11 +57,19 @@ The auto-deletion duration in seconds.  This value determines how long the input
 The size of an input file in byte  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 The created date  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -63,11 +77,19 @@ The created date
 The internal identifier of a transcode job  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [inputFile]: #inputfile
 #### [inputFile]
 The input file name  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [modifyDate]: #modifydate
@@ -75,11 +97,19 @@ The input file name
 The last modified date  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [name]: #name
 #### [name]
 The name of a transcode job  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [outputFile]: #outputfile
@@ -87,11 +117,19 @@ The name of a transcode job
 The output file name  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [transcodeAccountId]: #transcodeaccountid
 #### [transcodeAccountId]
 The internal identifier of SoftLayer account  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [transcodeJobGuid]: #transcodejobguid
@@ -99,11 +137,19 @@ The internal identifier of SoftLayer account
 The unique id of a transcode job  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [transcodePresetGuid]: #transcodepresetguid
 #### [transcodePresetGuid]
 The unique id of a pre-defined output format  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [transcodePresetName]: #transcodepresetname
@@ -111,11 +157,19 @@ The unique id of a pre-defined output format
 The name of a transcode output preset  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [transcodeStatusId]: #transcodestatusid
 #### [transcodeStatusId]
 The internal identifier of a transcode status  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [userId]: #userid
@@ -123,23 +177,35 @@ The internal identifier of a transcode status
 The internal identifier of the user who created a transcode job  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [watermark]: #watermark
 #### [watermark]
 Watermark to apply to job  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Network_Media_Transcode_Job_Watermark'>SoftLayer_Container_Network_Media_Transcode_Job_Watermark </a>**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [history]: #history
 #### [history]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Job_History'>SoftLayer_Network_Media_Transcode_Job_History[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [transcodeAccount]: #transcodeaccount
@@ -147,17 +213,29 @@ Watermark to apply to job
 The transcode service account  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Account'>SoftLayer_Network_Media_Transcode_Account </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [transcodeStatus]: #transcodestatus
 #### [transcodeStatus]
 The status information of a transcode job  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Job_Status'>SoftLayer_Network_Media_Transcode_Job_Status </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [transcodeStatusName]: #transcodestatusname
 #### [transcodeStatusName]
 The status of a transcode job  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [user]: #user
@@ -166,7 +244,10 @@ The SoftLayer user that created the transcode job
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [historyCount]: #historycount
@@ -174,6 +255,8 @@ The SoftLayer user that created the transcode job
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

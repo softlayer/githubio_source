@@ -30,23 +30,38 @@ Provides services oriented to network-centric discovery and manipulation.
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [connectPrivateEndpointService](/reference/services/SoftLayer_Network/connectPrivateEndpointService)
 Establishes a connection between the account and Service Endpoint networks.
+</div>
+
+<div class="method-row">
 
 #### [disconnectPrivateEndpointService](/reference/services/SoftLayer_Network/disconnectPrivateEndpointService)
 Terminates the connection between the account and Service Endpoint networks.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network/getObject)
 Retrieve a SoftLayer_Network record.
+</div>
+
+<div class="method-row">
 
 #### [isConnectedToPrivateEndpointService](/reference/services/SoftLayer_Network/isConnectedToPrivateEndpointService)
 Checks the current Service Endpoint network connection status.
+</div>
+</div>
 
 </div>
 

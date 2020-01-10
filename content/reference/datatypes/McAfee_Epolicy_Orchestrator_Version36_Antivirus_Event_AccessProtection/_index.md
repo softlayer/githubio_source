@@ -24,26 +24,32 @@ The McAfee_Epolicy_Orchestrator_Version36_Antivirus_Event_AccessProtection data 
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [eventLocalDateTime]: #eventlocaldatetime
 #### [eventLocalDateTime]
 The date that an access protection event occurs.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [filename]: #filename
@@ -51,11 +57,19 @@ The date that an access protection event occurs.
 The name of the file that was protected from access.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [processName]: #processname
 #### [processName]
 The name of the process that was protected from access.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [ruleName]: #rulename
@@ -63,12 +77,18 @@ The name of the process that was protected from access.
 The name of the rule that triggered an access protection event.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [source]: #source
 #### [source]
 The IP address that caused an access protection event.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

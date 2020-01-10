@@ -24,26 +24,32 @@ SoftLayer employs many different types of repositories that computing instances 
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [description]: #description
 #### [description]
 A brief description os a storage repository type.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [name]: #name
@@ -51,12 +57,16 @@ A brief description os a storage repository type.
 A storage repository type's name.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [storageRepositories]: #storagerepositories
 #### [storageRepositories]
@@ -64,7 +74,10 @@ The storage repositories on a SoftLayer customer account that belong to this typ
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository'>SoftLayer_Virtual_Storage_Repository[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [storageRepositoryCount]: #storagerepositorycount
@@ -72,6 +85,8 @@ The storage repositories on a SoftLayer customer account that belong to this typ
 A count of the storage repositories on a SoftLayer customer account that belong to this type.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 
