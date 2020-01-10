@@ -30,35 +30,62 @@ The SoftLayer_Provisioning_Maintenance_Window service returns available maintena
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [addCustomerUpgradeWindow](/reference/services/SoftLayer_Provisioning_Maintenance_Window/addCustomerUpgradeWindow)
 Updates or creates records in the
+</div>
+
+<div class="method-row">
 
 #### [getMaintenanceClassifications](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceClassifications)
 Returns the maintenance classifications
+</div>
+
+<div class="method-row">
 
 #### [getMaintenanceStartEndTime](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceStartEndTime)
 Returns a specific maintenance window
+</div>
+
+<div class="method-row">
 
 #### [getMaintenanceWindowForTicket](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceWindowForTicket)
 Returns a specific maintenance window
+</div>
+
+<div class="method-row">
 
 #### [getMaintenanceWindowTicketsByTicketId](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceWindowTicketsByTicketId)
 Returns maintenance window ticket
+</div>
+
+<div class="method-row">
 
 #### [getMaintenanceWindows](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceWindows)
 Returns available maintenance windows
+</div>
+
+<div class="method-row">
 
 #### [getMaintenceWindows](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenceWindows)
 Returns available maintenance windows
+</div>
+
+<div class="method-row">
 
 #### [updateCustomerUpgradeWindow](/reference/services/SoftLayer_Provisioning_Maintenance_Window/updateCustomerUpgradeWindow)
 Creates records in the appropriate
+</div>
+</div>
 
 </div>
 

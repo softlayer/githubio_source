@@ -24,26 +24,32 @@ Most packages are available in many locations. This object describes that availa
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [deliveryTimeInformation]: #deliverytimeinformation
 #### [deliveryTimeInformation]
 This describes the availability of the package tied to this location.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [isAvailable]: #isavailable
@@ -51,11 +57,19 @@ This describes the availability of the package tied to this location.
 A simple flag which describes whether or not this location is available for this package.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [locationId]: #locationid
 #### [locationId]
 The location id tied to this object.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [packageId]: #packageid
@@ -63,17 +77,25 @@ The location id tied to this object.
 The SoftLayer_Product_Package ID tied to this object.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [location]: #location
 #### [location]
 The location to which this object belongs.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [package]: #package
@@ -81,6 +103,8 @@ The location to which this object belongs.
 The package to which this object belongs.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**
 
+
+</div>
 
 ## Count
 </div>

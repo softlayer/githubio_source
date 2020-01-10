@@ -30,17 +30,26 @@ classes:
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAllObjects](/reference/services/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status/getAllObjects)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status/getObject)
 Retrieve a SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status record.
+</div>
+</div>
 
 </div>
 

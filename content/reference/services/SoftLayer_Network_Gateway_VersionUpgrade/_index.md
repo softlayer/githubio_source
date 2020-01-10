@@ -30,23 +30,38 @@ A gateway software version upgrade reference provides pairing for possible upgra
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAllByFromVersion](/reference/services/SoftLayer_Network_Gateway_VersionUpgrade/getAllByFromVersion)
 
+</div>
+
+<div class="method-row">
 
 #### [getAllByUpgradePkgUrlId](/reference/services/SoftLayer_Network_Gateway_VersionUpgrade/getAllByUpgradePkgUrlId)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Gateway_VersionUpgrade/getObject)
 Retrieve a SoftLayer_Network_Gateway_VersionUpgrade record.
+</div>
+
+<div class="method-row">
 
 #### [validateVersionChange](/reference/services/SoftLayer_Network_Gateway_VersionUpgrade/validateVersionChange)
 
+</div>
+</div>
 
 </div>
 

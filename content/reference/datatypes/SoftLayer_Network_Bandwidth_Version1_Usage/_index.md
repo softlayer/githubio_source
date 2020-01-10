@@ -24,16 +24,16 @@ The SoftLayer_Network_Bandwidth_Version1_Usage data type contains general inform
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
@@ -45,11 +45,17 @@ The SoftLayer_Network_Bandwidth_Version1_Usage data type contains general inform
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [bandwidthAllotmentDetail]: #bandwidthallotmentdetail
 #### [bandwidthAllotmentDetail]
 Bandwidth allotment detail for this hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Detail'>SoftLayer_Network_Bandwidth_Version1_Allotment_Detail </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [bandwidthUsageDetail]: #bandwidthusagedetail
@@ -58,7 +64,10 @@ Bandwidth usage details for this hardware.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [bandwidthUsageDetailCount]: #bandwidthusagedetailcount
@@ -66,6 +75,8 @@ Bandwidth usage details for this hardware.
 A count of bandwidth usage details for this hardware.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

@@ -31,26 +31,32 @@ SoftLayer customers are unable to change their hardware transactions or the hard
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [averageTimeToComplete]: #averagetimetocomplete
 #### [averageTimeToComplete]
 Average time, in minutes, for this type of transaction to complete. Please note that this is only an estimate.   
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [name]: #name
@@ -58,6 +64,8 @@ Average time, in minutes, for this type of transaction to complete. Please note 
 A transaction group's name.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

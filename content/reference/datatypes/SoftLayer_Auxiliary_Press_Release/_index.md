@@ -43,26 +43,32 @@ classes:
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 A press release's internal identifier.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [publishDate]: #publishdate
@@ -70,11 +76,19 @@ A press release's internal identifier.
 The data a press release was published.  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [releaseLocation]: #releaselocation
 #### [releaseLocation]
 A press release's location.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [subTitle]: #subtitle
@@ -82,11 +96,19 @@ A press release's location.
 A press release's sub-title.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [title]: #title
 #### [title]
 A press release's title.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [websiteHighlightFlag]: #websitehighlightflag
@@ -94,17 +116,25 @@ A press release's title.
 Whether or not a press release is highlighted on the SoftLayer Website.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [about]: #about
 #### [about]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_About_Press_Release'>SoftLayer_Auxiliary_Press_Release_About_Press_Release[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [contacts]: #contacts
@@ -112,11 +142,19 @@ Whether or not a press release is highlighted on the SoftLayer Website.
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_Contact_Press_Release'>SoftLayer_Auxiliary_Press_Release_Contact_Press_Release[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [mediaPartners]: #mediapartners
 #### [mediaPartners]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_Media_Partner_Press_Release'>SoftLayer_Auxiliary_Press_Release_Media_Partner_Press_Release[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [pressReleaseContent]: #pressreleasecontent
@@ -125,7 +163,10 @@ Whether or not a press release is highlighted on the SoftLayer Website.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_Content'>SoftLayer_Auxiliary_Press_Release_Content </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [aboutCount]: #aboutcount
@@ -134,6 +175,9 @@ A count of
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [contactCount]: #contactcount
 #### [contactCount]
@@ -141,12 +185,17 @@ A count of
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [mediaPartnerCount]: #mediapartnercount
 #### [mediaPartnerCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

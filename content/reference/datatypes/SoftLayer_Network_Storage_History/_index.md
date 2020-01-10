@@ -24,26 +24,32 @@ The SoftLayer_Network_Storage_History contains the username/password past histor
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 Date the password was changed.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [notes]: #notes
@@ -51,11 +57,19 @@ Date the password was changed.
 Past notes for the Storage service.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [password]: #password
 #### [password]
 Password for the Storage service that was used in the past.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [username]: #username
@@ -63,17 +77,25 @@ Password for the Storage service that was used in the past.
 Username for the Storage service.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [account]: #account
 #### [account]
 The account that the Storage services belongs to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [nasVolume]: #nasvolume
@@ -81,6 +103,8 @@ The account that the Storage services belongs to.
 The Storage service that the password history belongs to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**
 
+
+</div>
 
 ## Count
 </div>

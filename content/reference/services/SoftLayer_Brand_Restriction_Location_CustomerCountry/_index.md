@@ -30,23 +30,38 @@ The [SoftLayer_Brand_Restriction_Location_CustomerCountry]({{<ref "reference/dat
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAllObjects](/reference/services/SoftLayer_Brand_Restriction_Location_CustomerCountry/getAllObjects)
 
+</div>
+
+<div class="method-row">
 
 #### [getBrand](/reference/services/SoftLayer_Brand_Restriction_Location_CustomerCountry/getBrand)
 Retrieve this references the brand that has a brand-location-country restriction setup.
+</div>
+
+<div class="method-row">
 
 #### [getLocation](/reference/services/SoftLayer_Brand_Restriction_Location_CustomerCountry/getLocation)
 Retrieve this references the datacenter that has a brand-location-country restriction setup. For example, if a datacenter is listed with a restriction for Canada, a Canadian customer may not be eligible to order services at that location.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Brand_Restriction_Location_CustomerCountry/getObject)
 Retrieve a SoftLayer_Brand_Restriction_Location_CustomerCountry record.
+</div>
+</div>
 
 </div>
 

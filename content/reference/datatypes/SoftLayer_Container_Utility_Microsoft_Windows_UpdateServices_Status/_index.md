@@ -40,26 +40,32 @@ SoftLayer customer servers that are purchased with the Microsoft Windows operati
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [lastRebootDate]: #lastrebootdate
 #### [lastRebootDate]
 The last time a server rebooted due to a Windows Update.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [lastStatusDate]: #laststatusdate
@@ -67,11 +73,19 @@ The last time a server rebooted due to a Windows Update.
 The last time that SoftLayer's local WSUS server received a status update from a customer server.  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [lastSyncDate]: #lastsyncdate
 #### [lastSyncDate]
 The last time a server synchronized with SoftLayer's local WSUS server.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [privateIPAddress]: #privateipaddress
@@ -79,11 +93,19 @@ The last time a server synchronized with SoftLayer's local WSUS server.
 This is the private IP address for this server.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [syncStatus]: #syncstatus
 #### [syncStatus]
 The status message returned from a server's last synchronization with SoftLayer's local WSUS server.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [updateStatus]: #updatestatus
@@ -91,6 +113,8 @@ The status message returned from a server's last synchronization with SoftLayer'
 A server's update status, as retrieved form SoftLayer's local WSUS server.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

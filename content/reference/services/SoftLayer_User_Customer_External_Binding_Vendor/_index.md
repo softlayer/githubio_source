@@ -30,17 +30,26 @@ The SoftLayer_User_Customer_External_Binding_Vendor service is used to retrieve 
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAllObjects](/reference/services/SoftLayer_User_Customer_External_Binding_Vendor/getAllObjects)
 Get a list of all available external binding vendors that SoftLayer supports.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_User_Customer_External_Binding_Vendor/getObject)
 Retrieve a SoftLayer_User_Customer_External_Binding_Vendor record.
+</div>
+</div>
 
 </div>
 

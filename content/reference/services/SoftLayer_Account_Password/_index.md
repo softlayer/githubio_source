@@ -32,23 +32,38 @@ For instance, an account's EVault WebCC information is kept in a SoftLayer_Accou
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [editObject](/reference/services/SoftLayer_Account_Password/editObject)
 Edit the password and/or notes for an account password.
+</div>
+
+<div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Account_Password/getAccount)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Account_Password/getObject)
 Retrieve a SoftLayer_Account_Password record.
+</div>
+
+<div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_Account_Password/getType)
 Retrieve the service that an account/password combination is tied to.
+</div>
+</div>
 
 </div>
 

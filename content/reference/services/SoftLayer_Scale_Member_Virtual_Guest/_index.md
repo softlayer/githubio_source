@@ -30,26 +30,44 @@ A guest member is a scaled guest on a scale group. It is added either automatica
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [deleteObject](/reference/services/SoftLayer_Scale_Member_Virtual_Guest/deleteObject)
 Delete this group member. 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Scale_Member_Virtual_Guest/getObject)
 Retrieve a SoftLayer_Scale_Member_Virtual_Guest record.
+</div>
+
+<div class="method-row">
 
 #### [getScaleGroup](/reference/services/SoftLayer_Scale_Member_Virtual_Guest/getScaleGroup)
 Retrieve the group this member belongs to.
+</div>
+
+<div class="method-row">
 
 #### [getVirtualGuest](/reference/services/SoftLayer_Scale_Member_Virtual_Guest/getVirtualGuest)
 Retrieve the guest for this member.
+</div>
+
+<div class="method-row">
 
 #### [getVirtualGuestId](/reference/services/SoftLayer_Scale_Member_Virtual_Guest/getVirtualGuestId)
 Retrieve the identifier of the guest for this member.
+</div>
+</div>
 
 </div>
 

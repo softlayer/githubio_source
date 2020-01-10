@@ -30,20 +30,32 @@ Service for an account's next invoice. The "next invoice" is what a customer wil
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getExcel](/reference/services/SoftLayer_Billing_Invoice_Next/getExcel)
 Retrieve the next billing period's invoice as an Excel.
+</div>
+
+<div class="method-row">
 
 #### [getPdf](/reference/services/SoftLayer_Billing_Invoice_Next/getPdf)
 Retrieve the next billing period's invoice as a PDF.
+</div>
+
+<div class="method-row">
 
 #### [getPdfDetailed](/reference/services/SoftLayer_Billing_Invoice_Next/getPdfDetailed)
 Retrieve the next billing period's detailed invoice as a PDF.
+</div>
+</div>
 
 </div>
 

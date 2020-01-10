@@ -24,26 +24,32 @@ classes:
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [itemPriceAttributeTypeId]: #itempriceattributetypeid
@@ -51,11 +57,19 @@ classes:
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [itemPriceId]: #itempriceid
 #### [itemPriceId]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [value]: #value
@@ -63,17 +77,25 @@ classes:
   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [itemPrice]: #itemprice
 #### [itemPrice]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [itemPriceAttributeType]: #itempriceattributetype
@@ -81,6 +103,8 @@ classes:
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price_Attribute_Type'>SoftLayer_Product_Item_Price_Attribute_Type </a>**
 
+
+</div>
 
 ## Count
 </div>

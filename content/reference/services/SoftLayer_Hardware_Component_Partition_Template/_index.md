@@ -30,29 +30,50 @@ Every SoftLayer Partition Template is defined in the SoftLayer_Hardware_Componen
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAccount](/reference/services/SoftLayer_Hardware_Component_Partition_Template/getAccount)
 Retrieve a partition template's associated [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}).
+</div>
+
+<div class="method-row">
 
 #### [getData](/reference/services/SoftLayer_Hardware_Component_Partition_Template/getData)
 Retrieve an individual partition for a partition template. This is identical to 'partitionTemplatePartition' except this will sort unix partitions.
+</div>
+
+<div class="method-row">
 
 #### [getExpireDate](/reference/services/SoftLayer_Hardware_Component_Partition_Template/getExpireDate)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Hardware_Component_Partition_Template/getObject)
 Retrieve a SoftLayer_Hardware_Component_Partition_Template record.
+</div>
+
+<div class="method-row">
 
 #### [getPartitionOperatingSystem](/reference/services/SoftLayer_Hardware_Component_Partition_Template/getPartitionOperatingSystem)
 Retrieve a partition template's associated [SoftLayer_Hardware_Component_Partition_OperatingSystem]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_OperatingSystem">}}).
+</div>
+
+<div class="method-row">
 
 #### [getPartitionTemplatePartition](/reference/services/SoftLayer_Hardware_Component_Partition_Template/getPartitionTemplatePartition)
 Retrieve an individual partition for a partition template.
+</div>
+</div>
 
 </div>
 

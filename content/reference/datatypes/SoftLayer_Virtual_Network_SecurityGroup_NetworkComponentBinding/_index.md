@@ -24,26 +24,32 @@ The SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding data type co
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 The unique ID for a binding.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [networkComponentId]: #networkcomponentid
@@ -51,23 +57,35 @@ The unique ID for a binding.
 The ID of the network component.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [securityGroupId]: #securitygroupid
 #### [securityGroupId]
 The ID of the security group.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [networkComponent]: #networkcomponent
 #### [networkComponent]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [securityGroup]: #securitygroup
@@ -75,6 +93,8 @@ The ID of the security group.
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a>**
 
+
+</div>
 
 ## Count
 </div>

@@ -24,26 +24,32 @@ This data type represents PCI device allocation properties of a [SoftLayer_Virtu
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [deviceCount]: #devicecount
 #### [deviceCount]
 The number of PCI devices on the host.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [deviceName]: #devicename
@@ -51,11 +57,19 @@ The number of PCI devices on the host.
 The name of the PCI devices on the host.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [devicesAllocated]: #devicesallocated
 #### [devicesAllocated]
 The number of PCI devices currently allocated to guests.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [devicesAvailable]: #devicesavailable
@@ -63,11 +77,19 @@ The number of PCI devices currently allocated to guests.
 The number of PCI devices available for allocation.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hardwareComponentModelGenericId]: #hardwarecomponentmodelgenericid
 #### [hardwareComponentModelGenericId]
 The generic component model ID of the PCI device.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hostId]: #hostid
@@ -75,6 +97,8 @@ The generic component model ID of the PCI device.
 The ID of the host that the dedicated host is on.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

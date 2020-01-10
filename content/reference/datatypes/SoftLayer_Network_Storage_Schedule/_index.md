@@ -24,26 +24,32 @@ Schedules can be created for select Storage services, such as iscsi. These sched
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [active]: #active
 #### [active]
 A flag which determines if a schedule is active.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [createDate]: #createdate
@@ -51,11 +57,19 @@ A flag which determines if a schedule is active.
 The date a schedule was created.  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 A schedule's internal identifier.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [modifyDate]: #modifydate
@@ -63,11 +77,19 @@ A schedule's internal identifier.
 The date a schedule was last modified.  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [name]: #name
 #### [name]
 A schedule's name, for example 'Daily'.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [partnershipId]: #partnershipid
@@ -75,11 +97,19 @@ A schedule's name, for example 'Daily'.
 The partnership id which a schedule is associated with.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [typeId]: #typeid
 #### [typeId]
 The type id which a schedule is associated with.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [volumeId]: #volumeid
@@ -87,17 +117,25 @@ The type id which a schedule is associated with.
 The volume id which a schedule is associated with.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [day]: #day
 #### [day]
 The hour parameter of this schedule.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [dayOfMonth]: #dayofmonth
@@ -105,11 +143,19 @@ The hour parameter of this schedule.
 The day of the month parameter of this schedule.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [dayOfWeek]: #dayofweek
 #### [dayOfWeek]
 The day of the week parameter of this schedule.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [events]: #events
@@ -117,11 +163,19 @@ The day of the week parameter of this schedule.
 Events which have been created as the result of a schedule execution.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Event'>SoftLayer_Network_Storage_Event[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hour]: #hour
 #### [hour]
 The hour parameter of this schedule.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [minute]: #minute
@@ -129,11 +183,19 @@ The hour parameter of this schedule.
 The minute parameter of this schedule.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [monthOfYear]: #monthofyear
 #### [monthOfYear]
 The month of the year parameter of this schedule.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [partnership]: #partnership
@@ -141,11 +203,19 @@ The month of the year parameter of this schedule.
 The associated partnership for a schedule.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Partnership'>SoftLayer_Network_Storage_Partnership </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [properties]: #properties
 #### [properties]
 Properties used for configuration of a schedule.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule_Property'>SoftLayer_Network_Storage_Schedule_Property[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [replicaSnapshots]: #replicasnapshots
@@ -153,11 +223,19 @@ Properties used for configuration of a schedule.
 Replica snapshots which have been created as the result of this schedule's execution.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [retentionCount]: #retentioncount
 #### [retentionCount]
 The number of snapshots this schedule is configured to retain.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [second]: #second
@@ -165,17 +243,29 @@ The number of snapshots this schedule is configured to retain.
 The minute parameter of this schedule.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [snapshots]: #snapshots
 #### [snapshots]
 Snapshots which have been created as the result of this schedule's execution.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [type]: #type
 #### [type]
 The type provides a standardized definition for a schedule.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule_Type'>SoftLayer_Network_Storage_Schedule_Type </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [volume]: #volume
@@ -184,7 +274,10 @@ The associated volume for a schedule.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [eventCount]: #eventcount
@@ -193,12 +286,18 @@ A count of events which have been created as the result of a schedule execution.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [propertyCount]: #propertycount
 #### [propertyCount]
 A count of properties used for configuration of a schedule.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [replicaSnapshotCount]: #replicasnapshotcount
@@ -207,12 +306,17 @@ A count of replica snapshots which have been created as the result of this sched
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [snapshotCount]: #snapshotcount
 #### [snapshotCount]
 A count of snapshots which have been created as the result of this schedule's execution.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

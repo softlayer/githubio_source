@@ -49,26 +49,32 @@ SoftLayer_Container_Subnet_IPAddress models an IP v4 address as it exists as a m
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [hardware]: #hardware
 #### [hardware]
 The hardware that an IP address is associated with.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [ipAddress]: #ipaddress
@@ -76,11 +82,19 @@ The hardware that an IP address is associated with.
 An IP address expressed in dotted-quad notation.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [isBroadcastAddress]: #isbroadcastaddress
 #### [isBroadcastAddress]
 Whether an IP address is its subnet's broadcast address.  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [isGatewayAddress]: #isgatewayaddress
@@ -88,12 +102,18 @@ Whether an IP address is its subnet's broadcast address.
 Whether an IP address is its subnet's gateway address. Gateway addresses exist on SoftLayer's routers and many not be assigned to servers.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [isNetworkAddress]: #isnetworkaddress
 #### [isNetworkAddress]
 Whether an IP address is its subnet's network identifier address.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

@@ -24,26 +24,32 @@ The McAfee_Epolicy_Orchestrator_Version45_Event_Version8 data type represents a 
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [detectedUtc]: #detectedutc
 #### [detectedUtc]
 The time that an event was detected.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [sourceIpv4]: #sourceipv4
@@ -51,11 +57,19 @@ The time that an event was detected.
 The IP address of the source that generated an event.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [sourceProcessName]: #sourceprocessname
 #### [sourceProcessName]
 The name of the process that generated an event.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [targetFilename]: #targetfilename
@@ -63,11 +77,19 @@ The name of the process that generated an event.
 The name of the file that was the target of the event.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [threatActionTaken]: #threatactiontaken
 #### [threatActionTaken]
 The action taken regarding a threat.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [threatName]: #threatname
@@ -75,11 +97,19 @@ The action taken regarding a threat.
 The name of the threat.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [threatSeverityLabel]: #threatseveritylabel
 #### [threatSeverityLabel]
 The textual representation of the severity level.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [threatType]: #threattype
@@ -87,17 +117,25 @@ The textual representation of the severity level.
 The type of threat.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [agentDetails]: #agentdetails
 #### [agentDetails]
 Additional information about an agent.  
 <span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version45_Agent_Details**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [signature]: #signature
@@ -105,12 +143,18 @@ Additional information about an agent.
 The signature information for an event.  
 <span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version45_Hips_Event_Signature_Version8**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [virusActionTaken]: #virusactiontaken
 #### [virusActionTaken]
 The action taken when a virus is detected.  
 <span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version45_Event_Filter_Description**
 
+
+</div>
 
 ## Count
 </div>

@@ -24,26 +24,32 @@ All bandwidth tracking is maintained through the switch that the bandwidth is us
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [hostId]: #hostid
 #### [hostId]
 A interface's host.  The host stores the pod number for the bandwidth data.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [networkComponentId]: #networkcomponentid
@@ -51,17 +57,25 @@ A interface's host.  The host stores the pod number for the bandwidth data.
 The network component for this interface.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [host]: #host
 #### [host]
 The host for an interface. This is not to be confused with a SoftLayer hardware  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Host'>SoftLayer_Network_Bandwidth_Version1_Host </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [networkComponent]: #networkcomponent
@@ -69,6 +83,8 @@ The host for an interface. This is not to be confused with a SoftLayer hardware
 The switch for an interface.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
 
+
+</div>
 
 ## Count
 </div>

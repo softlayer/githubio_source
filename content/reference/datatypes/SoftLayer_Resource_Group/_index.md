@@ -24,26 +24,32 @@ classes:
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 A resource group's creation date.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [description]: #description
@@ -51,11 +57,19 @@ A resource group's creation date.
 A resource group's description.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 A resource group's ID.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [keyName]: #keyname
@@ -63,11 +77,19 @@ A resource group's ID.
 A resource group's keyname.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [name]: #name
 #### [name]
 A resource group's name.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [rootResourceGroupId]: #rootresourcegroupid
@@ -75,23 +97,35 @@ A resource group's name.
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [templateId]: #templateid
 #### [templateId]
 A resource group's template ID.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [ancestorGroups]: #ancestorgroups
 #### [ancestorGroups]
 A resource group's associated group ancestors.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [attributes]: #attributes
@@ -99,11 +133,19 @@ A resource group's associated group ancestors.
 A resource group's associated attributes.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Attribute'>SoftLayer_Resource_Group_Attribute[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hardwareMembers]: #hardwaremembers
 #### [hardwareMembers]
 A resource group's associated hardware members.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [members]: #members
@@ -111,11 +153,19 @@ A resource group's associated hardware members.
 A resource group's associated members.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [rootResourceGroup]: #rootresourcegroup
 #### [rootResourceGroup]
 A resource group's associated root resource group.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [subnetMembers]: #subnetmembers
@@ -123,11 +173,19 @@ A resource group's associated root resource group.
 A resource group's associated subnet members.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [template]: #template
 #### [template]
 A resource group's associated template.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Template'>SoftLayer_Resource_Group_Template </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [vlanMembers]: #vlanmembers
@@ -136,7 +194,10 @@ A resource group's associated VLAN members.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [ancestorGroupCount]: #ancestorgroupcount
@@ -145,12 +206,18 @@ A count of a resource group's associated group ancestors.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [attributeCount]: #attributecount
 #### [attributeCount]
 A count of a resource group's associated attributes.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [hardwareMemberCount]: #hardwaremembercount
@@ -159,12 +226,18 @@ A count of a resource group's associated hardware members.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [memberCount]: #membercount
 #### [memberCount]
 A count of a resource group's associated members.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [subnetMemberCount]: #subnetmembercount
@@ -173,12 +246,17 @@ A count of a resource group's associated subnet members.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [vlanMemberCount]: #vlanmembercount
 #### [vlanMemberCount]
 A count of a resource group's associated VLAN members.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

@@ -26,21 +26,23 @@ You can also use SMS text message or PhoneFactor mobile app modes (in case you'r
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [mode]: #mode
 #### [mode]
@@ -73,11 +75,19 @@ The second authentication is when the user receives a notification in the PhoneF
 **PIN: This mode enhances the security of the authentication by requiring the user to enter their PIN in the phone app.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [pin]: #pin
 #### [pin]
 Optional authentication pin.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [pinMode]: #pinmode
@@ -85,6 +95,8 @@ Optional authentication pin.
 Available Pin modes are: PIN, VOICE_PRINT, STANDARD Default: STANDARD (Pin is not used)   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

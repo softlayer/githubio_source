@@ -24,26 +24,32 @@ classes:
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [accountNoteId]: #accountnoteid
 #### [accountNoteId]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [createDate]: #createdate
@@ -51,11 +57,19 @@ classes:
   
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [modifyDate]: #modifydate
@@ -63,11 +77,19 @@ classes:
   
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [note]: #note
 #### [note]
   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [userId]: #userid
@@ -75,17 +97,25 @@ classes:
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [accountNote]: #accountnote
 #### [accountNote]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Note'>SoftLayer_Account_Note </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [customer]: #customer
@@ -93,6 +123,8 @@ classes:
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
 
+
+</div>
 
 ## Count
 </div>

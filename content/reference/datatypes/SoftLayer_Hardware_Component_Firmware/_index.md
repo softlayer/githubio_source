@@ -24,26 +24,32 @@ classes:
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [buildDate]: #builddate
 #### [buildDate]
   
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [createDate]: #createdate
@@ -51,11 +57,19 @@ classes:
   
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hardwareComponentModelId]: #hardwarecomponentmodelid
 #### [hardwareComponentModelId]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -63,11 +77,19 @@ classes:
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [isQualified]: #isqualified
 #### [isQualified]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [releaseNotes]: #releasenotes
@@ -75,23 +97,35 @@ classes:
   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [version]: #version
 #### [version]
   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [attributes]: #attributes
 #### [attributes]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware_Attribute'>SoftLayer_Hardware_Component_Firmware_Attribute[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hardwareComponentModel]: #hardwarecomponentmodel
@@ -99,11 +133,19 @@ classes:
 The Hardware Component Model this Firmware applies to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [qualificationType]: #qualificationtype
 #### [qualificationType]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware_QualificationTypes'>SoftLayer_Hardware_Component_Firmware_QualificationTypes </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [revisions]: #revisions
@@ -112,7 +154,10 @@ All revisions of this firmware.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Revision'>SoftLayer_Hardware_Component_Revision[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [attributeCount]: #attributecount
@@ -121,12 +166,17 @@ A count of
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [revisionCount]: #revisioncount
 #### [revisionCount]
 A count of all revisions of this firmware.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

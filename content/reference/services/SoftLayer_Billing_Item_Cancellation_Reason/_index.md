@@ -30,26 +30,44 @@ classes:
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAllCancellationReasons](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason/getAllCancellationReasons)
 Retrieve all available cancellation reasons. 
+</div>
+
+<div class="method-row">
 
 #### [getBillingCancellationReasonCategory](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason/getBillingCancellationReasonCategory)
 Retrieve an billing cancellation reason category.
+</div>
+
+<div class="method-row">
 
 #### [getBillingItems](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason/getBillingItems)
 Retrieve the corresponding billing items having the specific cancellation reason.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason/getObject)
 Retrieve a SoftLayer_Billing_Item_Cancellation_Reason record.
+</div>
+
+<div class="method-row">
 
 #### [getTranslatedReason](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason/getTranslatedReason)
 
+</div>
+</div>
 
 </div>
 

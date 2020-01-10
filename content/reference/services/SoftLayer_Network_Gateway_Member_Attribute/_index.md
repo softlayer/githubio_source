@@ -30,20 +30,32 @@ A network gateway member attribute is the attributes associated with a network g
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getGatewayMember](/reference/services/SoftLayer_Network_Gateway_Member_Attribute/getGatewayMember)
 Retrieve the gateway member has these attributes.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Gateway_Member_Attribute/getObject)
 Retrieve a SoftLayer_Network_Gateway_Member_Attribute record.
+</div>
+
+<div class="method-row">
 
 #### [getSshKey](/reference/services/SoftLayer_Network_Gateway_Member_Attribute/getSshKey)
 
+</div>
+</div>
 
 </div>
 

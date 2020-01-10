@@ -24,26 +24,32 @@ The SoftLayer_Layout_Profile_Preference contains definitions for layout preferen
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 Timestamp of when the preference was created  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [defaultValueFlag]: #defaultvalueflag
@@ -51,11 +57,19 @@ Timestamp of when the preference was created
 Indicates whether this is a default value or not  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [layoutContainerId]: #layoutcontainerid
 #### [layoutContainerId]
 The id of the related [SoftLayer_Layout_Container]({{<ref "reference/datatypes/SoftLayer_Layout_Container">}})  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [layoutItemId]: #layoutitemid
@@ -63,11 +77,19 @@ The id of the related [SoftLayer_Layout_Container]({{<ref "reference/datatypes/S
 The id of the related [SoftLayer_Layout_Item]({{<ref "reference/datatypes/SoftLayer_Layout_Item">}})  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [layoutPreferenceId]: #layoutpreferenceid
 #### [layoutPreferenceId]
 The internal identifier of the overridden [SoftLayer_Layout_Preference]({{<ref "reference/datatypes/SoftLayer_Layout_Preference">}})  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [layoutProfileId]: #layoutprofileid
@@ -75,11 +97,19 @@ The internal identifier of the overridden [SoftLayer_Layout_Preference]({{<ref "
 The internal identifier of the related [SoftLayer_Layout_Profile]({{<ref "reference/datatypes/SoftLayer_Layout_Profile">}})  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [modifyDate]: #modifydate
 #### [modifyDate]
 Timestamp of when the preference was last updated  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [value]: #value
@@ -87,17 +117,25 @@ Timestamp of when the preference was last updated
 The value overriding the default value  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [layoutContainer]: #layoutcontainer
 #### [layoutContainer]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Container'>SoftLayer_Layout_Container </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [layoutItem]: #layoutitem
@@ -105,11 +143,19 @@ The value overriding the default value
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Item'>SoftLayer_Layout_Item </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [layoutPreference]: #layoutpreference
 #### [layoutPreference]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Preference'>SoftLayer_Layout_Preference </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [layoutProfile]: #layoutprofile
@@ -117,6 +163,8 @@ The value overriding the default value
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Profile'>SoftLayer_Layout_Profile </a>**
 
+
+</div>
 
 ## Count
 </div>

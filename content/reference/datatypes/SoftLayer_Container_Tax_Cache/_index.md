@@ -24,26 +24,32 @@ These are the results of a tax calculation. The tax calculation was kicked off b
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [effectiveTaxRate]: #effectivetaxrate
 #### [effectiveTaxRate]
 The percentage of the final total that should be tax.  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [items]: #items
@@ -51,11 +57,19 @@ The percentage of the final total that should be tax.
 The container that holds the four actual tax rates, one for each fee type.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Tax_Cache_Item'>SoftLayer_Container_Tax_Cache_Item[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [status]: #status
 #### [status]
 The status of the tax request. This should be PENDING, FAILED, or COMPLETED.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [totalTaxAmount]: #totaltaxamount
@@ -63,6 +77,8 @@ The status of the tax request. This should be PENDING, FAILED, or COMPLETED.
 The final amount of tax for the order.  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

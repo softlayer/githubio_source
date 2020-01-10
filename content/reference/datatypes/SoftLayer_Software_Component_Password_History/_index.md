@@ -32,26 +32,32 @@ This object allows you to find the history of password changes for a specific So
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 The date this username/password pair was created.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [notes]: #notes
@@ -59,11 +65,19 @@ The date this username/password pair was created.
 A note string stored for this username/password pair.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [password]: #password
 #### [password]
 The password part of this specific password history instance.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [softwareComponentId]: #softwarecomponentid
@@ -71,24 +85,34 @@ The password part of this specific password history instance.
 The id number for the Software Component this username/password pair is for.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [username]: #username
 #### [username]
 The username part of this specific password history instance.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [softwareComponent]: #softwarecomponent
 #### [softwareComponent]
 An installed and licensed instance of a piece of software  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>**
 
+
+</div>
 
 ## Count
 </div>

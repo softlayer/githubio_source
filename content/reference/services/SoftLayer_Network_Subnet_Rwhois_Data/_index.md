@@ -37,11 +37,15 @@ This service allows you to update your stored RWHOIS record.  Changing this reco
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
+
+<div id="method-div">
+
+<div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Network_Subnet_Rwhois_Data/editObject)
 Edit the RWHOIS record by passing in a modified version of the record object. All fields are editable. The fields are as follows: 
@@ -53,12 +57,20 @@ Edit the RWHOIS record by passing in a modified version of the record object. Al
 * postalCode
 * abuseEmail
 * address1
+</div>
+
+<div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Network_Subnet_Rwhois_Data/getAccount)
 Retrieve the SoftLayer customer account associated with this reverse WHOIS data.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Subnet_Rwhois_Data/getObject)
 Retrieve a SoftLayer_Network_Subnet_Rwhois_Data record.
+</div>
+</div>
 
 </div>
 

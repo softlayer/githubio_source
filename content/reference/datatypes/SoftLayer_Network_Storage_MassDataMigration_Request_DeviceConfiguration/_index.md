@@ -24,26 +24,32 @@ The SoftLayer_Network_Storage_MassDataMigration_Request_DeviceConfiguration data
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [cosAccountId]: #cosaccountid
 #### [cosAccountId]
 The account id.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [cosBucket]: #cosbucket
@@ -51,11 +57,19 @@ The account id.
 The Cloud Object Storage bucket.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [eth1Gateway]: #eth1gateway
 #### [eth1Gateway]
 The eth1 gateway for connecting to private network in datacenter.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [eth1IpAddress]: #eth1ipaddress
@@ -63,11 +77,19 @@ The eth1 gateway for connecting to private network in datacenter.
 The eth1 IP address for connecting to private network in datacenter.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [eth1Netmask]: #eth1netmask
 #### [eth1Netmask]
 The eth1 netmask for connecting to private network in datacenter.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [eth3Gateway]: #eth3gateway
@@ -75,11 +97,19 @@ The eth1 netmask for connecting to private network in datacenter.
 The eth3 gateway for connecting to private network at customer's location.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [eth3IpAddress]: #eth3ipaddress
 #### [eth3IpAddress]
 The eth3 IP address for connecting to private network at customer location.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [eth3Netmask]: #eth3netmask
@@ -87,11 +117,19 @@ The eth3 IP address for connecting to private network at customer location.
 The eth3 netmask for connecting to private network in at customer's location.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 The unique id of the request status.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [password]: #password
@@ -99,11 +137,19 @@ The unique id of the request status.
 The password for configuring network share.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [poolLockPassword]: #poollockpassword
 #### [poolLockPassword]
 The pool lock password for configuring network share.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [requestId]: #requestid
@@ -111,11 +157,19 @@ The pool lock password for configuring network share.
 The request id.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [s3Url]: #s3url
 #### [s3Url]
 The Cloud Object Storage bucket URL.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [shareName]: #sharename
@@ -123,23 +177,35 @@ The Cloud Object Storage bucket URL.
 The name of network share.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [username]: #username
 #### [username]
 The username for configuring network share.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [request]: #request
 #### [request]
 The request this device configurations belongs to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request'>SoftLayer_Network_Storage_MassDataMigration_Request </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [storageAccount]: #storageaccount
@@ -147,6 +213,8 @@ The request this device configurations belongs to.
 The storage account to use for this request.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Hub_Cleversafe_Account'>SoftLayer_Network_Storage_Hub_Cleversafe_Account </a>**
 
+
+</div>
 
 ## Count
 </div>

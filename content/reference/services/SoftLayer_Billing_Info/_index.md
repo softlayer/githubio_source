@@ -32,32 +32,56 @@ Due to the sensitivity of your billing information we don't allow changing this 
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAccount](/reference/services/SoftLayer_Billing_Info/getAccount)
 Retrieve the SoftLayer customer account associated with this billing information.
+</div>
+
+<div class="method-row">
 
 #### [getAchInformation](/reference/services/SoftLayer_Billing_Info/getAchInformation)
 
+</div>
+
+<div class="method-row">
 
 #### [getCurrency](/reference/services/SoftLayer_Billing_Info/getCurrency)
 Retrieve currency to be used by this customer account.
+</div>
+
+<div class="method-row">
 
 #### [getCurrentBillingCycle](/reference/services/SoftLayer_Billing_Info/getCurrentBillingCycle)
 Retrieve information related to an account's current and previous billing cycles.
+</div>
+
+<div class="method-row">
 
 #### [getLastBillDate](/reference/services/SoftLayer_Billing_Info/getLastBillDate)
 Retrieve the date on which an account was last billed.
+</div>
+
+<div class="method-row">
 
 #### [getNextBillDate](/reference/services/SoftLayer_Billing_Info/getNextBillDate)
 Retrieve the date on which an account will be billed next.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Billing_Info/getObject)
 Retrieve a SoftLayer_Billing_Info record.
+</div>
+</div>
 
 </div>
 

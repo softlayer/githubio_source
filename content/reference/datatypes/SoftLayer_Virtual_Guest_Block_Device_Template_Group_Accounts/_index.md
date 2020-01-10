@@ -38,26 +38,32 @@ It is important to note that this data type should only exist to give accounts a
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [accountId]: #accountid
 #### [accountId]
 The [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) ID which will have access to an image.   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [createDate]: #createdate
@@ -65,23 +71,35 @@ The [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) ID wh
 The date access was granted to an account.   
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [groupId]: #groupid
 #### [groupId]
 The [SoftLayer_Virtual_Guest_Block_Device_Template_Group]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group">}}) ID which access will be granted to.   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [account]: #account
 #### [account]
 The [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) that an image template group is shared with.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [group]: #group
@@ -89,6 +107,8 @@ The [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) that 
 The [SoftLayer_Virtual_Guest_Block_Device_Template_Group]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group">}}) that is shared with an account.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group </a>**
 
+
+</div>
 
 ## Count
 </div>

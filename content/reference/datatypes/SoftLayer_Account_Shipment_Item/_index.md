@@ -24,26 +24,32 @@ The SoftLayer_Account_Shipment_Item data type contains information relating to a
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
   
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [description]: #description
@@ -51,11 +57,19 @@ The SoftLayer_Account_Shipment_Item data type contains information relating to a
 The description of the shipping item.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 The unique id of the shipping item.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [packageId]: #packageid
@@ -63,11 +77,19 @@ The unique id of the shipping item.
 The package id of the shipping item.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [shipmentId]: #shipmentid
 #### [shipmentId]
 The shipment id of the shipping item.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [shipmentItemId]: #shipmentitemid
@@ -75,23 +97,35 @@ The shipment id of the shipping item.
 The item id of the shipping item.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [shipmentItemTypeId]: #shipmentitemtypeid
 #### [shipmentItemTypeId]
 The item type id of the shipping item.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [shipment]: #shipment
 #### [shipment]
 The shipment to which this item belongs.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment'>SoftLayer_Account_Shipment </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [shipmentItemType]: #shipmentitemtype
@@ -99,6 +133,8 @@ The shipment to which this item belongs.
 The type of this shipment item.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment_Item_Type'>SoftLayer_Account_Shipment_Item_Type </a>**
 
+
+</div>
 
 ## Count
 </div>

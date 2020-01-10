@@ -24,26 +24,32 @@ classes:
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [allocation]: #allocation
 #### [allocation]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -51,11 +57,19 @@ classes:
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [name]: #name
 #### [name]
   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [notes]: #notes
@@ -63,11 +77,19 @@ classes:
   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [port]: #port
 #### [port]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [routingMethodId]: #routingmethodid
@@ -75,23 +97,35 @@ classes:
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [virtualIpAddressId]: #virtualipaddressid
 #### [virtualIpAddressId]
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [routingMethod]: #routingmethod
 #### [routingMethod]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Method'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Method </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [scaleLoadBalancers]: #scaleloadbalancers
@@ -99,11 +133,19 @@ classes:
 Collection of scale load balancers this virtual server applies to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_LoadBalancer'>SoftLayer_Scale_LoadBalancer[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [serviceGroups]: #servicegroups
 #### [serviceGroups]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_Group'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_Group[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [virtualIpAddress]: #virtualipaddress
@@ -112,7 +154,10 @@ Collection of scale load balancers this virtual server applies to.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [scaleLoadBalancerCount]: #scaleloadbalancercount
@@ -121,12 +166,17 @@ A count of collection of scale load balancers this virtual server applies to.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [serviceGroupCount]: #servicegroupcount
 #### [serviceGroupCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

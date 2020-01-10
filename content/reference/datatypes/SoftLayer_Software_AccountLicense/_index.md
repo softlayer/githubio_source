@@ -32,26 +32,32 @@ SoftLayer_Software_AccountLicense is a class that represents software licenses t
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [accountId]: #accountid
 #### [accountId]
 The ID of the SoftLayer Account to which this Account License belongs to.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [capacity]: #capacity
@@ -59,11 +65,19 @@ The ID of the SoftLayer Account to which this Account License belongs to.
 Some Account Licenses have capacity information such as CPU specified in the units key. This provides the numerical representation of the capacity of the units.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [key]: #key
 #### [key]
 The License Key for this specific Account License.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [units]: #units
@@ -71,17 +85,25 @@ The License Key for this specific Account License.
 The unit of measurement that an account license has the capacity of.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [account]: #account
 #### [account]
 The customer account this Account License belongs to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [billingItem]: #billingitem
@@ -89,12 +111,18 @@ The customer account this Account License belongs to.
 The billing item for a software account license.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [softwareDescription]: #softwaredescription
 #### [softwareDescription]
 The SoftLayer_Software_Description that this account license is for.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**
 
+
+</div>
 
 ## Count
 </div>

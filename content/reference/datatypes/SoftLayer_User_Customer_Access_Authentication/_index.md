@@ -45,26 +45,32 @@ SoftLayer employees periodically log into our customer portal as users to diagno
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 The date of an attempt to log into the SoftLayer customer portal.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [ipAddress]: #ipaddress
@@ -72,11 +78,19 @@ The date of an attempt to log into the SoftLayer customer portal.
 The IP address of the user who attempted to log into the SoftLayer customer portal.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [successFlag]: #successflag
 #### [successFlag]
 Whether an attempt to log into the SoftLayer customer portal was successful or not.  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [userId]: #userid
@@ -84,24 +98,34 @@ Whether an attempt to log into the SoftLayer customer portal was successful or n
 The internal identifier of the user who attempted to log into the SoftLayer customer portal.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [username]: #username
 #### [username]
 The username used when attempting to log into the SoftLayer customer portal  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [user]: #user
 #### [user]
 The user who has attempted to log into the SoftLayer customer portal.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
 
+
+</div>
 
 ## Count
 </div>

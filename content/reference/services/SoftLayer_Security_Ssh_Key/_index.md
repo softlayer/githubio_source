@@ -30,32 +30,56 @@ classes:
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [createObject](/reference/services/SoftLayer_Security_Ssh_Key/createObject)
 
+</div>
+
+<div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Security_Ssh_Key/deleteObject)
 
+</div>
+
+<div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Security_Ssh_Key/editObject)
 
+</div>
+
+<div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Security_Ssh_Key/getAccount)
 
+</div>
+
+<div class="method-row">
 
 #### [getBlockDeviceTemplateGroups](/reference/services/SoftLayer_Security_Ssh_Key/getBlockDeviceTemplateGroups)
 Retrieve the image template groups that are linked to an SSH key.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Security_Ssh_Key/getObject)
 Retrieve a SoftLayer_Security_Ssh_Key record.
+</div>
+
+<div class="method-row">
 
 #### [getSoftwarePasswords](/reference/services/SoftLayer_Security_Ssh_Key/getSoftwarePasswords)
 Retrieve the OS root users that are linked to an SSH key.
+</div>
+</div>
 
 </div>
 

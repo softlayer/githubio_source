@@ -40,29 +40,50 @@ Use to manually decide which subnets within your virtual private address space a
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [createObjects](/reference/services/SoftLayer_Network_Service_Vpn_Overrides/createObjects)
 Create Softlayer portal user VPN overrides.
+</div>
+
+<div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Network_Service_Vpn_Overrides/deleteObject)
 Delete single override.
+</div>
+
+<div class="method-row">
 
 #### [deleteObjects](/reference/services/SoftLayer_Network_Service_Vpn_Overrides/deleteObjects)
 Delete multiple entries in the overrides 'white list' for a SoftLayer portal VPN user.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Service_Vpn_Overrides/getObject)
 Retrieve a SoftLayer_Network_Service_Vpn_Overrides record.
+</div>
+
+<div class="method-row">
 
 #### [getSubnet](/reference/services/SoftLayer_Network_Service_Vpn_Overrides/getSubnet)
 Retrieve subnet components accessible by a SoftLayer VPN portal user.
+</div>
+
+<div class="method-row">
 
 #### [getUser](/reference/services/SoftLayer_Network_Service_Vpn_Overrides/getUser)
 Retrieve softLayer VPN portal user.
+</div>
+</div>
 
 </div>
 

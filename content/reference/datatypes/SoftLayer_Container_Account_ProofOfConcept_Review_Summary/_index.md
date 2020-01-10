@@ -29,26 +29,32 @@ Summary presented to reviewers when determining whether or not to accept a proof
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [accountName]: #accountname
 #### [accountName]
 Account's companyName  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [accountOwnerName]: #accountownername
@@ -56,11 +62,19 @@ Account's companyName
 Current account owner  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [amount]: #amount
 #### [amount]
 Dollar amount requested  
 <span class="type-label">Type: </span>**float**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [createDate]: #createdate
@@ -68,11 +82,19 @@ Dollar amount requested
 Date the request was submitted  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [customerEmail]: #customeremail
 #### [customerEmail]
 Email of the customer receiving the proof of concept account  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [customerName]: #customername
@@ -80,11 +102,19 @@ Email of the customer receiving the proof of concept account
 Name of the customer receiving the proof of concept account  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 Request record's id  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [lastUpdate]: #lastupdate
@@ -92,11 +122,19 @@ Request record's id
 Date of the last state change on the request  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [nextApproverEmail]: #nextapproveremail
 #### [nextApproverEmail]
 Email address of the reviewer, if any, currently reviewing the request  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [requesterEmail]: #requesteremail
@@ -104,11 +142,19 @@ Email address of the reviewer, if any, currently reviewing the request
 Email address of the requester  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [requesterName]: #requestername
 #### [requesterName]
 Requesting IBMer's full name  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [reviewUrl]: #reviewurl
@@ -116,12 +162,18 @@ Requesting IBMer's full name
 URL for the individual review  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [status]: #status
 #### [status]
 Request's current status (Pending, Denied, or Approved)  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

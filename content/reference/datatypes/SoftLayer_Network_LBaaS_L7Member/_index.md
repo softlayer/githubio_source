@@ -24,26 +24,32 @@ The SoftLayer_Network_LBaaS_L7Member represents the backend member for a L7 pool
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [address]: #address
 #### [address]
 The IP address of a L7 pool member.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [createDate]: #createdate
@@ -51,11 +57,19 @@ The IP address of a L7 pool member.
 <<< EOT Specifies when a L7 pool member  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 The ID of a L7 pool member.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [modifyDate]: #modifydate
@@ -63,11 +77,19 @@ The ID of a L7 pool member.
 <<<EOT Specifies when a L7 Pool  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [port]: #port
 #### [port]
 Backends protocol port  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [provisioningStatus]: #provisioningstatus
@@ -75,11 +97,19 @@ Backends protocol port
 <<< EOT The provisioning status of a L7 pool member.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [uuid]: #uuid
 #### [uuid]
 The UUID of a L7 pool member.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [weight]: #weight
@@ -87,6 +117,8 @@ The UUID of a L7 pool member.
 The weight of a L7 pool member.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

@@ -26,16 +26,16 @@ The SoftLayer_Resource_Group_Descendant_Reference data type simplifies the link 
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
@@ -47,11 +47,17 @@ The SoftLayer_Resource_Group_Descendant_Reference data type simplifies the link 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [group]: #group
 #### [group]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [groupMember]: #groupmember
@@ -59,6 +65,8 @@ The SoftLayer_Resource_Group_Descendant_Reference data type simplifies the link 
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member </a>**
 
+
+</div>
 
 ## Count
 </div>

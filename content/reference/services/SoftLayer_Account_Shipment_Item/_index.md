@@ -30,23 +30,38 @@ SoftLayer's shipment item service allows the user to access information pertaini
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [editObject](/reference/services/SoftLayer_Account_Shipment_Item/editObject)
 Edit a shipment record.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Account_Shipment_Item/getObject)
 Retrieve a SoftLayer_Account_Shipment_Item record.
+</div>
+
+<div class="method-row">
 
 #### [getShipment](/reference/services/SoftLayer_Account_Shipment_Item/getShipment)
 Retrieve the shipment to which this item belongs.
+</div>
+
+<div class="method-row">
 
 #### [getShipmentItemType](/reference/services/SoftLayer_Account_Shipment_Item/getShipmentItemType)
 Retrieve the type of this shipment item.
+</div>
+</div>
 
 </div>
 

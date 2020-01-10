@@ -1,6 +1,7 @@
 ---
 title: "placeOrder"
-description: "Use this method to place bare metal server, virtual server and additional service orders with SoftLayer. Upon success, y... "
+description: "Use this method to place bare metal server, virtual server and additional service orders with SoftLayer. 
+Upon success,... "
 layout: "method"
 tags:
     - "method"
@@ -18,160 +19,81 @@ Place an order using the [SoftLayer_Container_Product_Order]({{<ref "reference/d
 
 ## Overview 
 
-Use this method to place bare metal server, virtual server and additional service orders with SoftLayer. Upon success, your credit card or PayPal account will incur charges for the monthly order total (or prorated value if ordered mid billing cycle). If all products on the order are only billed hourly, you will be charged on your billing anniversary date, which occurs monthly on the day you ordered your first service with SoftLayer. For new customers, you are required to provide billing information when you place an order. For existing customers, the credit card on file will be charged. If you're a PayPal customer, a URL will be returned from the call to [SoftLayer_Product_Order::placeOrder]({{<ref "reference/services/SoftLayer_Product_Order/placeOrder">}}) which is to be used to finish the authorization process. This authorization tells PayPal that you indeed want to place an order with SoftLayer. From PayPal's web site, you will be redirected back to SoftLayer for your order receipt.<br/><br/> 
+Use this method to place bare metal server, virtual server and additional service orders with SoftLayer. 
+Upon success, your credit card or PayPal account will incur charges for the monthly order total 
+(or prorated value if ordered mid billing cycle). If all products on the order are only billed hourly, 
+you will be charged on your billing anniversary date, which occurs monthly on the day you ordered your first 
+service with SoftLayer. For new customers, you are required to provide billing information when you place an order. 
+For existing customers, the credit card on file will be charged. If you're a PayPal customer, a URL will be 
+returned from the call to [SoftLayer_Product_Order::placeOrder]({{<ref "reference/services/SoftLayer_Product_Order/placeOrder">}}) which is to be used to finish the authorization 
+process. This authorization tells PayPal that you indeed want to place an order with SoftLayer. 
+From PayPal's web site, you will be redirected back to SoftLayer for your order receipt. 
 
 
-When an order is placed, your order will be in a "pending approval" state. When all internal checks pass, your order will be automatically approved. For orders that may need extra attention, a Sales representative will review the order and contact you if necessary. Once the order is approved, your server or service will be provisioned and available to you shortly thereafter. Depending on the type of server or service ordered, provisioning times will vary.<br/><br/> 
+When an order is placed, your order will be in a "pending approval" state. When all internal checks pass, 
+your order will be automatically approved. For orders that may need extra attention, a Sales representative 
+will review the order and contact you if necessary. Once the order is approved, your server or service will 
+be provisioned and available to you shortly thereafter. Depending on the type of server or service ordered, 
+provisioning times will vary. 
 
 
-<h2>Order Containers</h2> 
+## Order Containers
 
 
-When placing API orders, it's important to order your server and services on the appropriate [SoftLayer_Container_Product_Order]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order">}}). Failing to provide the correct container may delay your server or service from being provisioned in a timely manner. Some common order containers are included below.<br/><br/> 
+
+When placing API orders, it's important to order your server and services on the appropriate 
+[SoftLayer_Container_Product_Order]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order">}}). Failing to provide the correct container may delay your server or service 
+from being provisioned in a timely manner. Some common order containers are included below. 
 
 
-<strong>Note:</strong> <code>SoftLayer_Container_Product_Order_</code> has been removed from the containers in the table below for readability.<br/><br/> 
+**Note:** `SoftLayer_Container_Product_Order_` has been removed from the containers in the table below for readability.
 
 
-<table style="word-wrap:break-word;"> 
-  <tr style="text-align:left;"> 
-    <th>Product</th> 
-    <th>Order container</th> 
-    <th>Package type</th> 
-  </tr> 
-  <tr> 
-    <td>Bare metal server by CPU</td> 
-    <td>[SoftLayer_Container_Product_Order_Hardware_Server]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Hardware_Server">}})</td> 
-    <td>BARE_METAL_CPU</td> 
-  </tr> 
-  <tr> 
-    <td>Bare metal server by core</td> 
-    <td>[SoftLayer_Container_Product_Order_Hardware_Server]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Hardware_Server">}})</td> 
-    <td>BARE_METAL_CORE</td> 
-  </tr> 
-  <tr> 
-    <td>Virtual server</td> 
-    <td>[SoftLayer_Container_Product_Order_Virtual_Guest]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest">}})</td> 
-    <td>VIRTUAL_SERVER_INSTANCE</td> 
-  </tr> 
-  <tr> 
-    <td>DNS domain registration</td> 
-    <td>[SoftLayer_Container_Product_Order_Dns_Domain_Registration]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Dns_Domain_Registration">}})</td> 
-    <td>ADDITIONAL_SERVICES</td> 
-  </tr> 
-  <tr> 
-    <td>Local & dedicated load balancers</td> 
-    <td>[SoftLayer_Container_Product_Order_Network_LoadBalancer]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_LoadBalancer">}})</td> 
-    <td>ADDITIONAL_SERVICES_LOAD_BALANCER</td> 
-  </tr> 
-  <tr> 
-    <td>Content delivery network</td> 
-    <td>[SoftLayer_Container_Product_Order_Network_ContentDelivery_Account]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_ContentDelivery_Account">}})</td> 
-    <td>ADDITIONAL_SERVICES_CDN</td> 
-  </tr> 
-  <tr> 
-    <td>Content delivery network Addon</td> 
-    <td>[SoftLayer_Container_Product_Order_Network_ContentDelivery_Account_Addon]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_ContentDelivery_Account_Addon">}})</td> 
-    <td>ADDITIONAL_SERVICES_CDN_ADDON</td> 
-  </tr> 
-  <tr> 
-    <td>Hardware & software firewalls</td> 
-    <td>[SoftLayer_Container_Product_Order_Network_Protection_Firewall]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Protection_Firewall">}})</td> 
-    <td>ADDITIONAL_SERVICES_FIREWALL</td> 
-  </tr> 
-  <tr> 
-    <td>Dedicated firewall</td> 
-    <td>[SoftLayer_Container_Product_Order_Network_Protection_Firewall_Dedicated]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Protection_Firewall_Dedicated">}})</td> 
-    <td>ADDITIONAL_SERVICES_FIREWALL</td> 
-  </tr> 
-  <tr> 
-    <td>Object storage</td> 
-    <td>[SoftLayer_Container_Product_Order_Network_Storage_Object]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Storage_Object">}})</td> 
-    <td>ADDITIONAL_SERVICES_OBJECT_STORAGE</td> 
-  </tr> 
-  <tr> 
-    <td>Object storage (hub)</td> 
-    <td>[SoftLayer_Container_Product_Order_Network_Storage_Hub]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Storage_Hub">}})</td> 
-    <td>ADDITIONAL_SERVICES_OBJECT_STORAGE</td> 
-  </tr> 
-  <tr> 
-    <td>Network attached storage</td> 
-    <td>[SoftLayer_Container_Product_Order_Network_Storage_Nas]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Storage_Nas">}})</td> 
-    <td>ADDITIONAL_SERVICES_NETWORK_ATTACHED_STORAGE</td> 
-  </tr> 
-  <tr> 
-    <td>Iscsi storage</td> 
-    <td>[SoftLayer_Container_Product_Order_Network_Storage_Iscsi]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Storage_Iscsi">}})</td> 
-    <td>ADDITIONAL_SERVICES_ISCSI_STORAGE</td> 
-  </tr> 
-  <tr> 
-    <td>Evault</td> 
-    <td>[SoftLayer_Container_Product_Order_Network_Storage_Backup_Evault_Vault]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Storage_Backup_Evault_Vault">}})</td> 
-    <td>ADDITIONAL_SERVICES</td> 
-  </tr> 
-  <tr> 
-    <td>Evault Plugin</td> 
-    <td>[SoftLayer_Container_Product_Order_Network_Storage_Backup_Evault_Plugin]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Storage_Backup_Evault_Plugin">}})</td> 
-    <td>ADDITIONAL_SERVICES</td> 
-  </tr> 
-  <tr> 
-    <td>Application delivery appliance</td> 
-    <td>[SoftLayer_Container_Product_Order_Network_Application_Delivery_Controller]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Application_Delivery_Controller">}})</td> 
-    <td>ADDITIONAL_SERVICES_APPLICATION_DELIVERY_APPLIANCE</td> 
-  </tr> 
-  <tr> 
-    <td>Network subnet</td> 
-    <td>[SoftLayer_Container_Product_Order_Network_Subnet]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Subnet">}})</td> 
-    <td>ADDITIONAL_SERVICES</td> 
-  </tr> 
-  <tr> 
-    <td>Global IPv4</td> 
-    <td>[SoftLayer_Container_Product_Order_Network_Subnet]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Subnet">}})</td> 
-    <td>ADDITIONAL_SERVICES_GLOBAL_IP_ADDRESSES</td> 
-  </tr> 
-  <tr> 
-    <td>Global IPv6</td> 
-    <td>[SoftLayer_Container_Product_Order_Network_Subnet]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Subnet">}})</td> 
-    <td>ADDITIONAL_SERVICES_GLOBAL_IP_ADDRESSES</td> 
-  </tr> 
-  <tr> 
-    <td>Network VLAN</td> 
-    <td>[SoftLayer_Container_Product_Order_Network_Vlan]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Vlan">}})</td> 
-    <td>ADDITIONAL_SERVICES_NETWORK_VLAN</td> 
-  </tr> 
-  <tr> 
-    <td>Portable storage</td> 
-    <td>[SoftLayer_Container_Product_Order_Virtual_Disk_Image]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Disk_Image">}})</td> 
-    <td>ADDITIONAL_SERVICES_PORTABLE_STORAGE</td> 
-  </tr> 
-  <tr> 
-    <td>SSL certificate</td> 
-    <td>[SoftLayer_Container_Product_Order_Security_Certificate]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Security_Certificate">}})</td> 
-    <td>ADDITIONAL_SERVICES_SSL_CERTIFICATE</td> 
-  </tr> 
-  <tr> 
-    <td>External authentication</td> 
-    <td>[SoftLayer_Container_Product_Order_User_Customer_External_Binding]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_User_Customer_External_Binding">}})</td> 
-    <td>ADDITIONAL_SERVICES</td> 
-  </tr> 
-  <tr> 
-    <td>Dedicated Host</td> 
-    <td>[SoftLayer_Container_Product_Order_Virtual_DedicatedHost]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Virtual_DedicatedHost">}})</td> 
-    <td>DEDICATED_HOST</td> 
-  </tr> 
-</table> 
+| Product | Order Container | Package Type |
+| ------- | --------------- | ------------ |
+| Bare metal server by CPU | [SoftLayer_Container_Product_Order_Hardware_Server]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Hardware_Server">}}) | BARE_METAL_CPU |
+| Bare metal server by core | [SoftLayer_Container_Product_Order_Hardware_Server]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Hardware_Server">}}) | BARE_METAL_CORE |
+| Virtual server | [SoftLayer_Container_Product_Order_Virtual_Guest]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest">}}) | VIRTUAL_SERVER_INSTANCE |
+| DNS domain registration | [SoftLayer_Container_Product_Order_Dns_Domain_Registrationn]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Dns_Domain_Registrationn">}}) | ADDITIONAL_SERVICES |
+| Local & dedicated load balancers | [SoftLayer_Container_Product_Order_Network_LoadBalancer]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_LoadBalancer">}}) | ADDITIONAL_SERVICES_LOAD_BALANCER |
+| Content delivery network | [SoftLayer_Container_Product_Order_Network_ContentDelivery_Account]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_ContentDelivery_Account">}}) | ADDITIONAL_SERVICES_CDN |
+| Content delivery network Addon | [SoftLayer_Container_Product_Order_Network_ContentDelivery_Account_Addon]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_ContentDelivery_Account_Addon">}}) | ADDITIONAL_SERVICES_CDN_ADDON |
+| Hardware & software firewalls | [SoftLayer_Container_Product_Order_Network_Protection_Firewall]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Protection_Firewall">}}) | ADDITIONAL_SERVICES_FIREWALL |
+| Dedicated firewall | [SoftLayer_Container_Product_Order_Network_Protection_Firewall_Dedicated]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Protection_Firewall_Dedicated">}}) | ADDITIONAL_SERVICES_FIREWALL |
+| Object storage | [SoftLayer_Container_Product_Order_Network_Storage_Object]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Storage_Object">}}) | ADDITIONAL_SERVICES_OBJECT_STORAGE |
+| Object storage (hub) | [SoftLayer_Container_Product_Order_Network_Storage_Hub]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Storage_Hub">}}) | ADDITIONAL_SERVICES_OBJECT_STORAGE |
+| Network attached storage | [SoftLayer_Container_Product_Order_Network_Storage_Nas]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Storage_Nas">}}) | ADDITIONAL_SERVICES_NETWORK_ATTACHED_STORAGE |
+| Iscsi storage | [SoftLayer_Container_Product_Order_Network_Storage_Iscsi]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Storage_Iscsi">}}) | ADDITIONAL_SERVICES_ISCSI_STORAGE |
+| Evault | [SoftLayer_Container_Product_Order_Network_Storage_Backup_Evault_Vault]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Storage_Backup_Evault_Vault">}}) | ADDITIONAL_SERVICES |
+| Evault Plugin | [SoftLayer_Container_Product_Order_Network_Storage_Backup_Evault_Plugin]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Storage_Backup_Evault_Plugin">}}) | ADDITIONAL_SERVICES |
+| Application delivery appliance | [SoftLayer_Container_Product_Order_Network_Application_Delivery_Controller]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Application_Delivery_Controller">}}) | ADDITIONAL_SERVICES_APPLICATION_DELIVERY_APPLIANCE |
+| Network subnet | [SoftLayer_Container_Product_Order_Network_Subnet]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Subnet">}}) | ADDITIONAL_SERVICES |
+| Global IPv4 | [SoftLayer_Container_Product_Order_Network_Subnet]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Subnet">}}) | ADDITIONAL_SERVICES_GLOBAL_IP_ADDRESSES |
+| Global IPv6 | [SoftLayer_Container_Product_Order_Network_Subnet]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Subnet">}}) | ADDITIONAL_SERVICES_GLOBAL_IP_ADDRESSES |
+| Network VLAN | [SoftLayer_Container_Product_Order_Network_Vlan]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Vlan">}}) | ADDITIONAL_SERVICES_NETWORK_VLAN |
+| Portable storage | [SoftLayer_Container_Product_Order_Virtual_Disk_Image]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Disk_Image">}}) | ADDITIONAL_SERVICES_PORTABLE_STORAGE |
+| SSL certificate | [SoftLayer_Container_Product_Order_Security_Certificate]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Security_Certificate">}}) | ADDITIONAL_SERVICES_SSL_CERTIFICATE |
+| External authentication | [SoftLayer_Container_Product_Order_User_Customer_External_Binding]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_User_Customer_External_Binding">}}) | ADDITIONAL_SERVICES |
+| Dedicated Host | [SoftLayer_Container_Product_Order_Virtual_DedicatedHost]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Virtual_DedicatedHost">}}) | DEDICATED_HOST |
 
 
-<h2>Server example</h2> 
+## Server example
 
 
-This example includes a single bare metal server being ordered with monthly billing.<br/><br/> 
+
+This example includes a single bare metal server being ordered with monthly billing. 
 
 
-<strong>Warning:</strong> the price ids provided below may be outdated or unavailable, so you will need to determine the available prices from the bare metal server [SoftLayer_Product_Package::getAllObjects]({{<ref "reference/services/SoftLayer_Product_Package/getAllObjects">}}), which have a [SoftLayer_Product_Package_Type]({{<ref "reference/datatypes/SoftLayer_Product_Package_Type">}}) to see other potentially available server packages.<br/><br/> 
+**Warning:** the price ids provided below may be outdated or unavailable, so you will need to determine the
+
+available prices from the bare metal server [SoftLayer_Product_Package::getAllObjects]({{<ref "reference/services/SoftLayer_Product_Package/getAllObjects">}}), which have a 
+[SoftLayer_Product_Package_Type]({{<ref "reference/datatypes/SoftLayer_Product_Package_Type">}}) of `BARE_METAL_CPU` or `BARE_METAL_CORE`. You can get a full list of 
+package types with [SoftLayer_Product_Package_Type::getAllObjects]({{<ref "reference/services/SoftLayer_Product_Package_Type/getAllObjects">}}). 
 
 
-<http title="Bare metal server"> 
+### Bare Metal Ordering
+
+```xml 
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://api.service.softlayer.com/soap/v3/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"> 
   <SOAP-ENV:Header> 
     <ns1:authenticate> 
@@ -240,19 +162,27 @@ This example includes a single bare metal server being ordered with monthly bill
     </ns1:placeOrder> 
   </SOAP-ENV:Body> 
 </SOAP-ENV:Envelope> 
-</http><br/><br/> 
+``` 
 
 
-<h2>Virtual server example</h2> 
+## Virtual server example
 
 
-This example includes 2 identical virtual servers (except for hostname) being ordered for hourly billing. It includes an optional image template id and VLAN data specified on the virtualGuest objects - <code>primaryBackendNetworkComponent</code> and <code>primaryNetworkComponent</code>.<br/><br/> 
+
+This example includes 2 identical virtual servers (except for hostname) being ordered for hourly billing. 
+It includes an optional image template id and VLAN data specified on the virtualGuest objects - 
+`primaryBackendNetworkComponent` and `primaryNetworkComponent`. 
 
 
-<strong>Warning:</strong> the price ids provided below may be outdated or unavailable, so you will need to determine the available prices from the virtual server [SoftLayer_Product_Package::getAllObjects]({{<ref "reference/services/SoftLayer_Product_Package/getAllObjects">}}), which has a [SoftLayer_Product_Package_Type]({{<ref "reference/datatypes/SoftLayer_Product_Package_Type">}}) of '''VIRTUAL_SERVER_INSTANCE'''.<br/><br/> 
+**Warning:** the price ids provided below may be outdated or unavailable, so you will need to determine the
+
+available prices from the virtual server package with [SoftLayer_Product_Package::getAllObjects]({{<ref "reference/services/SoftLayer_Product_Package/getAllObjects">}}), 
+which has a [SoftLayer_Product_Package_Type]({{<ref "reference/datatypes/SoftLayer_Product_Package_Type">}}) of `VIRTUAL_SERVER_INSTANCE`. 
 
 
-<http title="Virtual server"> 
+#### Virtual Ordering
+
+```xml 
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://api.service.softlayer.com/soap/v3/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"> 
   <SOAP-ENV:Header> 
     <ns1:authenticate> 
@@ -344,16 +274,23 @@ This example includes 2 identical virtual servers (except for hostname) being or
     </ns1:placeOrder> 
   </SOAP-ENV:Body> 
 </SOAP-ENV:Envelope> 
-</http><br/><br/> 
+``` 
 
 
-<h2>VLAN example</h2> 
+## VLAN example
 
 
-<strong>Warning:</strong> the price ids provided below may be outdated or unavailable, so you will need to determine the available prices from the additional services [SoftLayer_Product_Package::getAllObjects]({{<ref "reference/services/SoftLayer_Product_Package/getAllObjects">}}), which has a [SoftLayer_Product_Package_Type]({{<ref "reference/datatypes/SoftLayer_Product_Package_Type">}}) to find other available additional service packages.<br/><br/> 
+**Warning:** the price ids provided below may be outdated or unavailable, so you will need to determine the
+
+available prices from the additional services pacakge with [SoftLayer_Product_Package::getAllObjects]({{<ref "reference/services/SoftLayer_Product_Package/getAllObjects">}}), 
+which has a [SoftLayer_Product_Package_Type]({{<ref "reference/datatypes/SoftLayer_Product_Package_Type">}}) of `ADDITIONAL_SERVICES`. 
+You can get a full list of [SoftLayer_Product_Package_Type::getAllObjects]({{<ref "reference/services/SoftLayer_Product_Package_Type/getAllObjects">}}) to find other available additional 
+service packages.<br/><br/> 
 
 
-<http title="VLAN"> 
+### VLAN Ordering
+
+```xml 
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://api.service.softlayer.com/soap/v3/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"> 
   <SOAP-ENV:Header> 
     <ns1:authenticate> 
@@ -380,19 +317,30 @@ This example includes 2 identical virtual servers (except for hostname) being or
     </ns1:placeOrder> 
   </SOAP-ENV:Body> 
 </SOAP-ENV:Envelope> 
-</http><br/><br/> 
+``` 
 
 
-<h2>Multiple products example</h2> 
+## Multiple products example
 
 
-This example includes a combination of the above examples in a single order. Note that all the configuration options for each individual order container are the same as above, except now we encapsulate each one within the <code>orderContainers</code> property on the base [SoftLayer_Container_Product_Order]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order">}}).<br/><br/> 
+
+This example includes a combination of the above examples in a single order. Note that all the configuration 
+options for each individual order container are the same as above, except now we encapsulate each one within 
+the `orderContainers` property on the base [SoftLayer_Container_Product_Order]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order">}}). 
 
 
-<strong>Warning:</strong> not all products are available to be ordered with other products. For example, since SSL certificates require validation from a 3rd party, the approval process may take days or even weeks, and this would not be acceptable when you need your hourly virtual server right now. To better accommodate customers, we restrict several products to be ordered individually.<br/><br/> 
+**Warning:** not all products are available to be ordered with other products. For example, since
+
+SSL certificates require validation from a 3rd party, the approval process may take days or even weeks, 
+and this would not be acceptable when you need your hourly virtual server right now. To better accommodate 
+customers, we restrict several products to be ordered individually. 
 
 
-<http title="Bare metal server + virtual server + VLAN"> 
+### Bare metal server + virtual server + VLAN
+
+
+
+```xml 
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://api.service.softlayer.com/soap/v3/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"> 
   <SOAP-ENV:Header> 
     <ns1:authenticate> 
@@ -419,7 +367,7 @@ This example includes a combination of the above examples in a single order. Not
     </ns1:placeOrder> 
   </SOAP-ENV:Body> 
 </SOAP-ENV:Envelope> 
-</http> 
+``` 
 
 
 
@@ -438,6 +386,12 @@ This example includes a combination of the above examples in a single order. Not
 
 ### Return Values
 * <a href='/reference/datatypes/SoftLayer_Container_Product_Order_Receipt'>SoftLayer_Container_Product_Order_Receipt </a>
+
+### External Links
+
+
+* [Understanding Ordering](https://sldn.softlayer.com/article/understanding-ordering/)
+
 
 
 ### Associated Methods

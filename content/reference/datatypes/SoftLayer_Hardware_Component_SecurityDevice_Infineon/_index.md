@@ -24,26 +24,32 @@ The SoftLayer_Hardware_Component_SecurityDevice_Infineon is used to determine th
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [hardwareComponentModelId]: #hardwarecomponentmodelid
 #### [hardwareComponentModelId]
 The internal identifier of a hardware component's component model.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hardwareId]: #hardwareid
@@ -51,11 +57,19 @@ The internal identifier of a hardware component's component model.
 The internal identifier of the hardware that a hardware component resides inside.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 A hardware component's internal identifier.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [modifyDate]: #modifydate
@@ -63,11 +77,19 @@ A hardware component's internal identifier.
 The date that a hardware component was last modified.  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [name]: #name
 #### [name]
 The name of this component as referenced by the operating system.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [serialNumber]: #serialnumber
@@ -75,23 +97,35 @@ The name of this component as referenced by the operating system.
 The component serial number.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [serviceProviderId]: #serviceproviderid
 #### [serviceProviderId]
 A hardware's internal identification number at its service provider  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [capacity]: #capacity
 #### [capacity]
 A component's capacity.  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [children]: #children
@@ -99,11 +133,19 @@ A component's capacity.
 A components sub components. Devices that are usually integrated or in some way attached to a component.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [componentRevision]: #componentrevision
 #### [componentRevision]
 A component's Revision.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [downlinkHardwareComponents]: #downlinkhardwarecomponents
@@ -111,11 +153,19 @@ A component's Revision.
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hardware]: #hardware
 #### [hardware]
 The hardware object that this component belongs to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hardwareComponentModel]: #hardwarecomponentmodel
@@ -123,11 +173,19 @@ The hardware object that this component belongs to.
 The general group of component models.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hardwareComponentType]: #hardwarecomponenttype
 #### [hardwareComponentType]
 A components type.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Type'>SoftLayer_Hardware_Component_Type </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [isChildModule]: #ischildmodule
@@ -135,11 +193,19 @@ A components type.
   
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [m2SataSlotCapacity]: #m2sataslotcapacity
 #### [m2SataSlotCapacity]
 A component's M.2 SATA capacity.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [moduleComponents]: #modulecomponents
@@ -147,11 +213,19 @@ A component's M.2 SATA capacity.
 The module's hardware components  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [moduleHardwareComponents]: #modulehardwarecomponents
 #### [moduleHardwareComponents]
 The module's hardware components  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [moduleNetworkComponents]: #modulenetworkcomponents
@@ -159,11 +233,19 @@ The module's hardware components
 The module's network components  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [modules]: #modules
 #### [modules]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [networkComponents]: #networkcomponents
@@ -171,11 +253,19 @@ The module's network components
 The components local ethernet and remote management interfaces  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [owner]: #owner
 #### [owner]
 The account this component belongs to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [parent]: #parent
@@ -183,11 +273,19 @@ The account this component belongs to.
 A components parent. Devices that are usually integrated or in some way attached to a component.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [parentModule]: #parentmodule
 #### [parentModule]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [prefixAttribute]: #prefixattribute
@@ -195,11 +293,19 @@ A components parent. Devices that are usually integrated or in some way attached
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic_Attribute'>SoftLayer_Hardware_Component_Model_Generic_Attribute </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [raidMode]: #raidmode
 #### [raidMode]
 A RAID controllers RAID mode.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [revision]: #revision
@@ -207,11 +313,19 @@ A RAID controllers RAID mode.
 The component revision designation.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Revision'>SoftLayer_Hardware_Component_Revision </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [serviceProvider]: #serviceprovider
 #### [serviceProvider]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [uplinkHardwareComponents]: #uplinkhardwarecomponents
@@ -220,7 +334,10 @@ The component revision designation.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [childrenCount]: #childrencount
@@ -229,12 +346,18 @@ A count of a components sub components. Devices that are usually integrated or i
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [downlinkHardwareComponentCount]: #downlinkhardwarecomponentcount
 #### [downlinkHardwareComponentCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [moduleComponentCount]: #modulecomponentcount
@@ -243,12 +366,18 @@ A count of the module's hardware components
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [moduleCount]: #modulecount
 #### [moduleCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [moduleHardwareComponentCount]: #modulehardwarecomponentcount
@@ -257,12 +386,18 @@ A count of the module's hardware components
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [moduleNetworkComponentCount]: #modulenetworkcomponentcount
 #### [moduleNetworkComponentCount]
 A count of the module's network components   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [networkComponentCount]: #networkcomponentcount
@@ -271,12 +406,17 @@ A count of the components local ethernet and remote management interfaces
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [uplinkHardwareComponentCount]: #uplinkhardwarecomponentcount
 #### [uplinkHardwareComponentCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

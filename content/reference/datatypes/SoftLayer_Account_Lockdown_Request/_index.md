@@ -24,26 +24,32 @@ The SoftLayer_Account_Lockdown_Request data type holds information on API reques
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [accountId]: #accountid
 #### [accountId]
 Account ID associated with this lockdown request.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [action]: #action
@@ -51,11 +57,19 @@ Account ID associated with this lockdown request.
 Type of request.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 Timestamp when the lockdown request was initially made.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -63,11 +77,19 @@ Timestamp when the lockdown request was initially made.
 ID of this lockdown request.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [modifyDate]: #modifydate
 #### [modifyDate]
 Timestamp when the lockdown request was modified.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [status]: #status
@@ -75,6 +97,8 @@ Timestamp when the lockdown request was modified.
 Status of the lockdown request denoting whether it's been completed.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

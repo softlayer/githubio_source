@@ -30,20 +30,32 @@ An account's user may obtain access to SoftLayer's API through this authenticati
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [editObject](/reference/services/SoftLayer_User_Customer_ApiAuthentication/editObject)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_User_Customer_ApiAuthentication/getObject)
 Retrieve a SoftLayer_User_Customer_ApiAuthentication record.
+</div>
+
+<div class="method-row">
 
 #### [getUser](/reference/services/SoftLayer_User_Customer_ApiAuthentication/getUser)
 Retrieve the user who owns the api authentication key.
+</div>
+</div>
 
 </div>
 

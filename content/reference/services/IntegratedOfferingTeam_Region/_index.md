@@ -30,17 +30,26 @@ This class represents an Integrated Offering Team region.
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAllObjects](/reference/services/IntegratedOfferingTeam_Region/getAllObjects)
 
+</div>
+
+<div class="method-row">
 
 #### [getRegionLeads](/reference/services/IntegratedOfferingTeam_Region/getRegionLeads)
 
+</div>
+</div>
 
 </div>
 

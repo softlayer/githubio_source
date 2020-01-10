@@ -36,26 +36,32 @@ SoftLayer users with an active external binding will be prohibited from using th
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [active]: #active
 #### [active]
 The flag that determines whether the external binding is active will be used for authentication or not.   
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [createDate]: #createdate
@@ -63,11 +69,19 @@ The flag that determines whether the external binding is active will be used for
 The date that the external authentication binding was created.  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [externalId]: #externalid
 #### [externalId]
 The identifier used to identify this binding to an external authentication source.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -75,11 +89,19 @@ The identifier used to identify this binding to an external authentication sourc
 An external authentication binding's internal identifier.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [password]: #password
 #### [password]
 The password used to authenticate the external id at an external authentication source.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [typeId]: #typeid
@@ -87,11 +109,19 @@ The password used to authenticate the external id at an external authentication 
 The [SoftLayer_User_External_Binding_Type]({{<ref "reference/datatypes/SoftLayer_User_External_Binding_Type">}}) identifier of an external authentication binding.   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [userId]: #userid
 #### [userId]
 An external authentication binding's associated [SoftLayer_User_Customer]({{<ref "reference/datatypes/SoftLayer_User_Customer">}}) id.   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [vendorId]: #vendorid
@@ -99,17 +129,25 @@ An external authentication binding's associated [SoftLayer_User_Customer]({{<ref
 The [SoftLayer_User_External_Binding_Vendor]({{<ref "reference/datatypes/SoftLayer_User_External_Binding_Vendor">}}) identifier of an external authentication binding.   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [attributes]: #attributes
 #### [attributes]
 Attributes of an external authentication binding.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_External_Binding_Attribute'>SoftLayer_User_External_Binding_Attribute[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [billingItem]: #billingitem
@@ -117,11 +155,19 @@ Attributes of an external authentication binding.
 The current billing item for an external binding.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [credentialExpirationDate]: #credentialexpirationdate
 #### [credentialExpirationDate]
 The date that a VeriSign credential expires.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [credentialLastUpdateDate]: #credentiallastupdatedate
@@ -129,11 +175,19 @@ The date that a VeriSign credential expires.
 The last time a VeriSign credential was updated.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [credentialState]: #credentialstate
 #### [credentialState]
 The current state of a VeriSign credential. This can be 'Enabled', 'Disabled', or 'Locked'.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [credentialType]: #credentialtype
@@ -141,11 +195,19 @@ The current state of a VeriSign credential. This can be 'Enabled', 'Disabled', o
 The type of VeriSign credential. This can be either 'Hardware' or 'Software'.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [note]: #note
 #### [note]
 An optional note for identifying the external binding.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [type]: #type
@@ -153,11 +215,19 @@ An optional note for identifying the external binding.
 The type of external authentication binding.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_External_Binding_Type'>SoftLayer_User_External_Binding_Type </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [user]: #user
 #### [user]
 The SoftLayer user that the external authentication binding belongs to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [vendor]: #vendor
@@ -166,7 +236,10 @@ The vendor of an external authentication binding.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_External_Binding_Vendor'>SoftLayer_User_External_Binding_Vendor </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [attributeCount]: #attributecount
@@ -174,6 +247,8 @@ The vendor of an external authentication binding.
 A count of attributes of an external authentication binding.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

@@ -24,26 +24,32 @@ The SoftLayer_Hardware_Component_Model data type contains general information re
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [architectureTypeId]: #architecturetypeid
 #### [architectureTypeId]
   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [capacity]: #capacity
@@ -51,11 +57,19 @@ The SoftLayer_Hardware_Component_Model data type contains general information re
 A component model's capacity. The capacity of a component model depends on the model itself.  For Example: Hard drives have a capacity that reflects the amount of data that hard drive can store.   
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [description]: #description
 #### [description]
 A colon delimited list of hardware component model attributes.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hardwareGenericComponentModelId]: #hardwaregenericcomponentmodelid
@@ -63,11 +77,19 @@ A colon delimited list of hardware component model attributes.
 The internal identifier of the generic component model for a component model.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 A hardware component model's internal identifier number.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [longDescription]: #longdescription
@@ -75,11 +97,19 @@ A hardware component model's internal identifier number.
   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [manufacturer]: #manufacturer
 #### [manufacturer]
 A hardware component model's manufacturer.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [name]: #name
@@ -87,23 +117,35 @@ A hardware component model's manufacturer.
 The model name of a hardware component model.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [version]: #version
 #### [version]
 The model number or model description of a hardware component model.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [architectureType]: #architecturetype
 #### [architectureType]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Architecture_Type'>SoftLayer_Hardware_Component_Model_Architecture_Type </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [attributes]: #attributes
@@ -111,11 +153,19 @@ The model number or model description of a hardware component model.
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Attribute'>SoftLayer_Hardware_Component_Model_Attribute[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [compatibleArrayTypes]: #compatiblearraytypes
 #### [compatibleArrayTypes]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group_Array_Type'>SoftLayer_Configuration_Storage_Group_Array_Type[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [compatibleChildComponentModels]: #compatiblechildcomponentmodels
@@ -123,11 +173,19 @@ The model number or model description of a hardware component model.
 All the component models that are compatible with a hardware component model.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [compatibleParentComponentModels]: #compatibleparentcomponentmodels
 #### [compatibleParentComponentModels]
 All the component models that a hardware component model is compatible with.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [firmwareQuantity]: #firmwarequantity
@@ -135,11 +193,19 @@ All the component models that a hardware component model is compatible with.
   
 <span class="type-label">Type: </span>**unsigned integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [firmwares]: #firmwares
 #### [firmwares]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware'>SoftLayer_Hardware_Component_Firmware[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hardwareComponents]: #hardwarecomponents
@@ -147,11 +213,19 @@ All the component models that a hardware component model is compatible with.
 A hardware component model's physical components in inventory.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hardwareGenericComponentModel]: #hardwaregenericcomponentmodel
 #### [hardwareGenericComponentModel]
 The non-vendor specific generic component model for a hardware component model.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [infinibandCompatibleAttribute]: #infinibandcompatibleattribute
@@ -159,11 +233,19 @@ The non-vendor specific generic component model for a hardware component model.
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Attribute'>SoftLayer_Hardware_Component_Model_Attribute </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [isFlexSkuCompatible]: #isflexskucompatible
 #### [isFlexSkuCompatible]
   
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [isInfinibandCompatible]: #isinfinibandcompatible
@@ -171,17 +253,29 @@ The non-vendor specific generic component model for a hardware component model.
   
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [rebootTime]: #reboottime
 #### [rebootTime]
 A motherboard's average reboot time.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Motherboard_Reboot_Time'>SoftLayer_Hardware_Component_Motherboard_Reboot_Time </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [type]: #type
 #### [type]
 A hardware component model's type.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [validAttributeTypes]: #validattributetypes
@@ -190,7 +284,10 @@ The types of attributes that are allowed for a given hardware component model.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Attribute_Type'>SoftLayer_Hardware_Component_Model_Attribute_Type[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [attributeCount]: #attributecount
@@ -199,12 +296,18 @@ A count of
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [compatibleArrayTypeCount]: #compatiblearraytypecount
 #### [compatibleArrayTypeCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [compatibleChildComponentModelCount]: #compatiblechildcomponentmodelcount
@@ -213,12 +316,18 @@ A count of all the component models that are compatible with a hardware componen
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [compatibleParentComponentModelCount]: #compatibleparentcomponentmodelcount
 #### [compatibleParentComponentModelCount]
 A count of all the component models that a hardware component model is compatible with.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [firmwareCount]: #firmwarecount
@@ -227,12 +336,17 @@ A count of
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [validAttributeTypeCount]: #validattributetypecount
 #### [validAttributeTypeCount]
 A count of the types of attributes that are allowed for a given hardware component model.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

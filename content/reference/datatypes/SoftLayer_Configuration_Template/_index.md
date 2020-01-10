@@ -24,26 +24,32 @@ The SoftLayer_Configuration_Template data type contains general information of a
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [accountId]: #accountid
 #### [accountId]
 Internal identifier of a SoftLayer account that this configuration template belongs to  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [createDate]: #createdate
@@ -51,11 +57,19 @@ Internal identifier of a SoftLayer account that this configuration template belo
 Created date  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [description]: #description
 #### [description]
 Configuration template description  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -63,11 +77,19 @@ Configuration template description
 Internal identifier of a configuration template.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [itemId]: #itemid
 #### [itemId]
 Internal identifier of a product item that this configuration template is associated with  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [modifyDate]: #modifydate
@@ -75,11 +97,19 @@ Internal identifier of a product item that this configuration template is associ
 Last modified date  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [name]: #name
 #### [name]
 Configuration template name  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [parentId]: #parentid
@@ -87,23 +117,35 @@ Configuration template name
 Internal identifier of the parent configuration template  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [userRecordId]: #userrecordid
 #### [userRecordId]
 Internal identifier of a user that last modified this configuration template  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [account]: #account
 #### [account]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [configurationSections]: #configurationsections
@@ -111,11 +153,19 @@ Internal identifier of a user that last modified this configuration template
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section'>SoftLayer_Configuration_Template_Section[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [configurationTemplateReference]: #configurationtemplatereference
 #### [configurationTemplateReference]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference'>SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [defaultValues]: #defaultvalues
@@ -123,11 +173,19 @@ Internal identifier of a user that last modified this configuration template
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Value'>SoftLayer_Configuration_Template_Section_Definition_Value[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [definitions]: #definitions
 #### [definitions]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition'>SoftLayer_Configuration_Template_Section_Definition[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [item]: #item
@@ -135,17 +193,29 @@ Internal identifier of a user that last modified this configuration template
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [linkedSectionReferences]: #linkedsectionreferences
 #### [linkedSectionReferences]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Reference'>SoftLayer_Configuration_Template_Section_Reference </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [parent]: #parent
 #### [parent]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [user]: #user
@@ -154,7 +224,10 @@ Internal identifier of a user that last modified this configuration template
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [configurationSectionCount]: #configurationsectioncount
@@ -163,12 +236,18 @@ A count of
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [configurationTemplateReferenceCount]: #configurationtemplatereferencecount
 #### [configurationTemplateReferenceCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [defaultValueCount]: #defaultvaluecount
@@ -177,12 +256,17 @@ A count of
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [definitionCount]: #definitioncount
 #### [definitionCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

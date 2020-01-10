@@ -29,26 +29,32 @@ The SoftLayer_Container_Hardware_Server_Details data type contains information r
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [components]: #components
 #### [components]
 The components that belong to a piece of hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [networkComponents]: #networkcomponents
@@ -56,12 +62,18 @@ The components that belong to a piece of hardware.
 The network components that belong to a piece of hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [software]: #software
 #### [software]
 The software that belong to a piece of hardware.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component[] </a>**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

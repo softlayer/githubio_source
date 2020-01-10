@@ -30,26 +30,32 @@ A region is made up of a keyname and a description of that region. A region keyn
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [description]: #description
 #### [description]
 A short description of a region's name. This description is seen on the order forms.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [keyname]: #keyname
@@ -57,23 +63,35 @@ A short description of a region's name. This description is seen on the order fo
 A unique key name for a region. Provided for easy debugging. This is to be sent in with an order.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [sortOrder]: #sortorder
 #### [sortOrder]
 An integer representing the order in which this element is displayed.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [location]: #location
 #### [location]
 Each region can have many locations tied to it. However, this is the location we currently provision to for a region. This location is the current valid location for a region. (Deprecated, use 'locations')  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Region_Location'>SoftLayer_Location_Region_Location </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [locations]: #locations
@@ -82,7 +100,10 @@ The locations (like datacenters or PoPs) in this region.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Region_Location'>SoftLayer_Location_Region_Location[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [locationCount]: #locationcount
@@ -90,6 +111,8 @@ The locations (like datacenters or PoPs) in this region.
 A count of the locations (like datacenters or PoPs) in this region.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

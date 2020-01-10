@@ -24,26 +24,32 @@ The SoftLayer_Container_RemoteManagement_SensorReadings contains sensor informat
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [lowerCritical]: #lowercritical
 #### [lowerCritical]
 Lower Non-Recoverable threshold  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [lowerNonCritical]: #lowernoncritical
@@ -51,11 +57,19 @@ Lower Non-Recoverable threshold
 Lower Non-Critical threshold  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [lowerNonRecoverable]: #lowernonrecoverable
 #### [lowerNonRecoverable]
 Lower Non-Recoverable threshold  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [sensorId]: #sensorid
@@ -63,11 +77,19 @@ Lower Non-Recoverable threshold
 Sensor ID  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [sensorReading]: #sensorreading
 #### [sensorReading]
 Sensor Reading  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [sensorUnits]: #sensorunits
@@ -75,11 +97,19 @@ Sensor Reading
 Sensor Units  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [status]: #status
 #### [status]
 Sensor Status  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [upperCritical]: #uppercritical
@@ -87,11 +117,19 @@ Sensor Status
 Upper Critical threshold  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [upperNonCritical]: #uppernoncritical
 #### [upperNonCritical]
 Upper Non-Critical threshold  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [upperNonRecoverable]: #uppernonrecoverable
@@ -99,6 +137,8 @@ Upper Non-Critical threshold
 Upper Non-Recoverable threshold  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

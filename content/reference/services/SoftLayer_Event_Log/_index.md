@@ -30,26 +30,44 @@ Event Log service lets you find interesting events related to various SoftLayer 
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAllEventNames](/reference/services/SoftLayer_Event_Log/getAllEventNames)
 Return all indexed event names.
+</div>
+
+<div class="method-row">
 
 #### [getAllEventObjectNames](/reference/services/SoftLayer_Event_Log/getAllEventObjectNames)
 Return all indexed event object names.
+</div>
+
+<div class="method-row">
 
 #### [getAllObjects](/reference/services/SoftLayer_Event_Log/getAllObjects)
 Return the event log data
+</div>
+
+<div class="method-row">
 
 #### [getAllUserTypes](/reference/services/SoftLayer_Event_Log/getAllUserTypes)
 Returns all possible event log user types
+</div>
+
+<div class="method-row">
 
 #### [getUser](/reference/services/SoftLayer_Event_Log/getUser)
 
+</div>
+</div>
 
 </div>
 

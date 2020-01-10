@@ -28,21 +28,23 @@ For users paying with a credit card, a receipt means the order has gone to sales
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [externalPaymentCheckoutUrl]: #externalpaymentcheckouturl
 #### [externalPaymentCheckoutUrl]
@@ -53,11 +55,19 @@ Once you visit this location, you will be presented with the options to confirm 
 Until you confirm payment with the external service, your products will not be provisioned or accessible for your consumption. Upon successfully confirming payment, our system will be notified and the order approval and provisioning systems will begin processing. After provisioning is complete, your services will be available.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [externalPaymentToken]: #externalpaymenttoken
 #### [externalPaymentToken]
 This token refers to the identifier for the external payment authorization. This token is associated with the <code>externalPaymentCheckoutUrl</code> and is only populated when purchasing products with an external service like PayPal.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [orderDate]: #orderdate
@@ -65,17 +75,29 @@ This token refers to the identifier for the external payment authorization. This
 The date when SoftLayer received the order.  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [orderDetails]: #orderdetails
 #### [orderDetails]
 This is a copy of the order container (SoftLayer_Container_Product_Order) which holds all the data related to an order. This will only return when an order is processed successfully. It will contain all the items in an order as well as the order totals.   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [orderId]: #orderid
 #### [orderId]
 SoftLayer's unique identifier for the order.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [paypalCheckoutUrl]: #paypalcheckouturl
@@ -89,6 +111,10 @@ Once you visit PayPal's site, you will be presented with the options to confirm 
 Until you confirm payment with PayPal, your products will not be provisioned or accessible for your consumption. Upon successfully confirming payment, our system will be notified and the order approval and provisioning systems will begin processing. After provisioning is complete, your services will be available.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [paypalToken]: #paypaltoken
 #### [paypalToken]
@@ -97,11 +123,19 @@ Deprecation notice: use <code>externalPaymentToken</code> instead of this proper
 This token refers to the identifier provided when payment is processed via PayPal. This token is associated with the <code>paypalCheckoutUrl</code>.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [placedOrder]: #placedorder
 #### [placedOrder]
 This is a copy of the order that was successfully placed (SoftLayer_Billing_Order). This will only return when an order is processed successfully.   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [quote]: #quote
@@ -109,6 +143,8 @@ This is a copy of the order that was successfully placed (SoftLayer_Billing_Orde
 This is a copy of the quote container (SoftLayer_Billing_Order_Quote) which holds all the data related to a quote. This will only return when a quote is processed successfully.   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Quote'>SoftLayer_Billing_Order_Quote </a>**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

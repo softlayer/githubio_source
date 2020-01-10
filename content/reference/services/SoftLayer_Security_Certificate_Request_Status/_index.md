@@ -34,17 +34,26 @@ There might be a chance that your SSL certificate order could rejected by a CA. 
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getObject](/reference/services/SoftLayer_Security_Certificate_Request_Status/getObject)
 Retrieve a SoftLayer_Security_Certificate_Request_Status record.
+</div>
+
+<div class="method-row">
 
 #### [getSslRequestStatuses](/reference/services/SoftLayer_Security_Certificate_Request_Status/getSslRequestStatuses)
 Returns all SSL certificate request status objects
+</div>
+</div>
 
 </div>
 

@@ -30,41 +30,74 @@ SoftLayer offers several monitoring packages, each containing multiple monitorin
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [createObject](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/createObject)
 Creates a SoftLayer_Monitoring_Agent_Configuration_Template_Group.
+</div>
+
+<div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/deleteObject)
 Deletes a customer configuration template group.
+</div>
+
+<div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/editObject)
 This method edits an existing SoftLayer_Monitoring_Agent_Configuration_Template_Group. 
+</div>
+
+<div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getAccount)
 
+</div>
+
+<div class="method-row">
 
 #### [getAllObjects](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getAllObjects)
 
+</div>
+
+<div class="method-row">
 
 #### [getConfigurationGroups](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getConfigurationGroups)
 retrieves agent package configuration templates available to your account.
+</div>
+
+<div class="method-row">
 
 #### [getConfigurationTemplateReferences](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getConfigurationTemplateReferences)
 
+</div>
+
+<div class="method-row">
 
 #### [getConfigurationTemplates](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getConfigurationTemplates)
 
+</div>
+
+<div class="method-row">
 
 #### [getItem](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getItem)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getObject)
 Retrieve a SoftLayer_Monitoring_Agent_Configuration_Template_Group record.
+</div>
+</div>
 
 </div>
 

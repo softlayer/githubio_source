@@ -28,26 +28,32 @@ If a raid configuration is required this object will describe a single array tha
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [arrayNumber]: #arraynumber
 #### [arrayNumber]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [arraySize]: #arraysize
@@ -55,11 +61,19 @@ If a raid configuration is required this object will describe a single array tha
   
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [arrayTypeId]: #arraytypeid
 #### [arrayTypeId]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [billingOrderItemId]: #billingorderitemid
@@ -67,11 +81,19 @@ If a raid configuration is required this object will describe a single array tha
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [controller]: #controller
 #### [controller]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hardDrives]: #harddrives
@@ -79,11 +101,19 @@ If a raid configuration is required this object will describe a single array tha
   
 <span class="type-label">Type: </span>**array of integers**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hotSpareDrives]: #hotsparedrives
 #### [hotSpareDrives]
   
 <span class="type-label">Type: </span>**array of integers**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [lvmFlag]: #lvmflag
@@ -91,23 +121,35 @@ If a raid configuration is required this object will describe a single array tha
   
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [partitionData]: #partitiondata
 #### [partitionData]
   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [arrayType]: #arraytype
 #### [arrayType]
 Raid mode for the storage group.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group_Array_Type'>SoftLayer_Configuration_Storage_Group_Array_Type </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [billingOrderItem]: #billingorderitem
@@ -115,6 +157,8 @@ Raid mode for the storage group.
 The order item that relates to this storage group.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item </a>**
 
+
+</div>
 
 ## Count
 </div>

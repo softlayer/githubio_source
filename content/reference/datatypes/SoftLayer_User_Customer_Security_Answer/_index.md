@@ -38,26 +38,32 @@ The SoftLayer_User_Customer_Security_Answer type contains user's answers to secu
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [answer]: #answer
 #### [answer]
 A user's answer.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -65,11 +71,19 @@ A user's answer.
 A user's answer identifying number.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [questionId]: #questionid
 #### [questionId]
 A user's question identifying number.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [userId]: #userid
@@ -77,17 +91,25 @@ A user's question identifying number.
 A user's identifying number.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [question]: #question
 #### [question]
 The question the security answer is associated with.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Security_Question'>SoftLayer_User_Security_Question </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [user]: #user
@@ -95,6 +117,8 @@ The question the security answer is associated with.
 The user who the security answer belongs to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
 
+
+</div>
 
 ## Count
 </div>

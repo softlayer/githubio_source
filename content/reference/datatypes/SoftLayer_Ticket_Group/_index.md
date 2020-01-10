@@ -32,26 +32,32 @@ SoftLayer tickets have the ability to be assigned to one of SoftLayer's internal
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 A ticket group's internal identifier.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [name]: #name
@@ -59,24 +65,34 @@ A ticket group's internal identifier.
 A ticket group's name.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [ticketGroupCategoryId]: #ticketgroupcategoryid
 #### [ticketGroupCategoryId]
 The internal identifier for the category that a ticket group belongs to..  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [category]: #category
 #### [category]
 The category that a ticket group belongs to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Group_Category'>SoftLayer_Ticket_Group_Category </a>**
 
+
+</div>
 
 ## Count
 </div>

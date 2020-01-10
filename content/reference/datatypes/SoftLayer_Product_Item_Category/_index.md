@@ -24,26 +24,32 @@ The SoftLayer_Product_Item_Category data type contains general category informat
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [categoryCode]: #categorycode
 #### [categoryCode]
 The code used to identify this category.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -51,11 +57,19 @@ The code used to identify this category.
 identifier for category.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [name]: #name
 #### [name]
 The friendly, descriptive name of the category as seen on the order forms and on invoices.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [quantityLimit]: #quantitylimit
@@ -63,23 +77,35 @@ The friendly, descriptive name of the category as seen on the order forms and on
 Quantity that can be ordered. If 0, it will inherit the quantity from the server quantity ordered. Otherwise it can be specified with the order separately  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [sortOrder]: #sortorder
 #### [sortOrder]
 The sort order of the category. It may be used to affect the order in which the category may appear in lists (on order forms and invoices).  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [billingItems]: #billingitems
 #### [billingItems]
 The billing items associated with an account that share a category code with an item category's category code.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [group]: #group
@@ -87,11 +113,19 @@ The billing items associated with an account that share a category code with an 
 This invoice item's "item category group".   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Group'>SoftLayer_Product_Item_Category_Group </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [groups]: #groups
 #### [groups]
 A collection of service offering category groups. Each group contains a collection of items associated with this category.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Item_Category_Group'>SoftLayer_Product_Package_Item_Category_Group[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [orderOptions]: #orderoptions
@@ -99,11 +133,19 @@ A collection of service offering category groups. Each group contains a collecti
 Any unique options associated with an item category.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Order_Option_Type'>SoftLayer_Product_Item_Category_Order_Option_Type[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [packageConfigurations]: #packageconfigurations
 #### [packageConfigurations]
 A list of configuration available in this category.'  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Order_Configuration'>SoftLayer_Product_Package_Order_Configuration[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [presetConfigurations]: #presetconfigurations
@@ -111,11 +153,19 @@ A list of configuration available in this category.'
 A list of preset configurations this category is used in.'  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset_Configuration'>SoftLayer_Product_Package_Preset_Configuration[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [questionReferences]: #questionreferences
 #### [questionReferences]
 The question references that are associated with an item category.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question_Xref'>SoftLayer_Product_Item_Category_Question_Xref[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [questions]: #questions
@@ -124,7 +174,10 @@ The questions that are associated with an item category.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question'>SoftLayer_Product_Item_Category_Question[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [billingItemCount]: #billingitemcount
@@ -133,12 +186,18 @@ A count of the billing items associated with an account that share a category co
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [groupCount]: #groupcount
 #### [groupCount]
 A count of a collection of service offering category groups. Each group contains a collection of items associated with this category.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [orderOptionCount]: #orderoptioncount
@@ -147,12 +206,18 @@ A count of any unique options associated with an item category.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [packageConfigurationCount]: #packageconfigurationcount
 #### [packageConfigurationCount]
 A count of a list of configuration available in this category.'   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [presetConfigurationCount]: #presetconfigurationcount
@@ -161,6 +226,9 @@ A count of a list of preset configurations this category is used in.'
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [questionCount]: #questioncount
 #### [questionCount]
@@ -168,12 +236,17 @@ A count of the questions that are associated with an item category.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [questionReferenceCount]: #questionreferencecount
 #### [questionReferenceCount]
 A count of the question references that are associated with an item category.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

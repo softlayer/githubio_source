@@ -30,29 +30,50 @@ classes:
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [createObject](/reference/services/SoftLayer_Account_Affiliation/createObject)
 Create a new affiliation.
+</div>
+
+<div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Account_Affiliation/deleteObject)
 Delete an account affiliation
+</div>
+
+<div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Account_Affiliation/editObject)
 Update an account affiliation information.
+</div>
+
+<div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Account_Affiliation/getAccount)
 Retrieve the account that an affiliation belongs to.
+</div>
+
+<div class="method-row">
 
 #### [getAccountAffiliationsByAffiliateId](/reference/services/SoftLayer_Account_Affiliation/getAccountAffiliationsByAffiliateId)
 Get account affiliation information associated with affiliate id.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Account_Affiliation/getObject)
 Retrieve a SoftLayer_Account_Affiliation record.
+</div>
+</div>
 
 </div>
 

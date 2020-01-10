@@ -30,20 +30,32 @@ classes:
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAllObjects](/reference/services/SoftLayer_Ticket_Subject_Category/getAllObjects)
 Retrieve all ticket subject categories.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Ticket_Subject_Category/getObject)
 Retrieve a SoftLayer_Ticket_Subject_Category record.
+</div>
+
+<div class="method-row">
 
 #### [getSubjects](/reference/services/SoftLayer_Ticket_Subject_Category/getSubjects)
 
+</div>
+</div>
 
 </div>
 

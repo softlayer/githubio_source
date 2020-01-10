@@ -38,26 +38,44 @@ SoftLayer_Software_AccountLicense is the application class that handles a specia
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAccount](/reference/services/SoftLayer_Software_AccountLicense/getAccount)
 Retrieve the customer account this Account License belongs to.
+</div>
+
+<div class="method-row">
 
 #### [getAllObjects](/reference/services/SoftLayer_Software_AccountLicense/getAllObjects)
 Return all account licenses
+</div>
+
+<div class="method-row">
 
 #### [getBillingItem](/reference/services/SoftLayer_Software_AccountLicense/getBillingItem)
 Retrieve the billing item for a software account license.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Software_AccountLicense/getObject)
 Retrieve a SoftLayer_Software_AccountLicense record.
+</div>
+
+<div class="method-row">
 
 #### [getSoftwareDescription](/reference/services/SoftLayer_Software_AccountLicense/getSoftwareDescription)
 Retrieve the SoftLayer_Software_Description that this account license is for.
+</div>
+</div>
 
 </div>
 

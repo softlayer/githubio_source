@@ -24,26 +24,32 @@ This is the datatype that needs to be populated and sent to SoftLayer_Provisioni
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [classificationIds]: #classificationids
 #### [classificationIds]
 Maintenance classifications.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification'>SoftLayer_Provisioning_Maintenance_Classification[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [itemCategoryIds]: #itemcategoryids
@@ -51,11 +57,19 @@ Maintenance classifications.
 Maintenance classifications.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [maintenanceWindowId]: #maintenancewindowid
 #### [maintenanceWindowId]
 The maintenance window id  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [ticketId]: #ticketid
@@ -63,12 +77,18 @@ The maintenance window id
 Maintenance window ticket id  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [windowMaintenanceDate]: #windowmaintenancedate
 #### [windowMaintenanceDate]
 Maintenance window date  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

@@ -24,26 +24,32 @@ Contains business partner details associated with an account. Country Enterprise
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [channelId]: #channelid
 #### [channelId]
 Account business partner channel identifier   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [countryEnterpriseCode]: #countryenterprisecode
@@ -51,11 +57,19 @@ Account business partner channel identifier
 Account business partner country enterprise code   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [resellerLevel]: #resellerlevel
 #### [resellerLevel]
 Reseller level of an account business partner   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [segmentId]: #segmentid
@@ -63,17 +77,25 @@ Reseller level of an account business partner
 Account business partner segment identifier   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [account]: #account
 #### [account]
 Account associated with the business partner data  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [channel]: #channel
@@ -81,12 +103,18 @@ Account associated with the business partner data
 Channel indicator used to categorize business partner revenue.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Business_Partner_Channel'>SoftLayer_Business_Partner_Channel </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [segment]: #segment
 #### [segment]
 Segment indicator used to categorize business partner revenue.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Business_Partner_Segment'>SoftLayer_Business_Partner_Segment </a>**
 
+
+</div>
 
 ## Count
 </div>

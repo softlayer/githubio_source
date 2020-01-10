@@ -24,26 +24,32 @@ This class represents a Proof of Concept account approver.
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [approvalOrder]: #approvalorder
 #### [approvalOrder]
 Approval slot of the approver.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [bluepagesUid]: #bluepagesuid
@@ -51,11 +57,19 @@ Approval slot of the approver.
 Internal identifier.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [email]: #email
 #### [email]
 Email of the approver.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [firstName]: #firstname
@@ -63,11 +77,19 @@ Email of the approver.
 First name of the approver.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 Internal identifier of a Proof of Concept account approver.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [lastName]: #lastname
@@ -75,11 +97,19 @@ Internal identifier of a Proof of Concept account approver.
 Last name of the approver.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [regionKeyName]: #regionkeyname
 #### [regionKeyName]
 SoftLayer_Account_ProofOfConcept_Approver_Region identifier of the approver.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [roleId]: #roleid
@@ -87,23 +117,35 @@ SoftLayer_Account_ProofOfConcept_Approver_Region identifier of the approver.
 SoftLayer_Account_ProofOfConcept_Approver_Role identifier of the approver.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [typeId]: #typeid
 #### [typeId]
 SoftLayer_Account_ProofOfConcept_Approver_Type identifier of the approver.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [role]: #role
 #### [role]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver_Role'>SoftLayer_Account_ProofOfConcept_Approver_Role </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [type]: #type
@@ -111,6 +153,8 @@ SoftLayer_Account_ProofOfConcept_Approver_Type identifier of the approver.
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver_Type'>SoftLayer_Account_ProofOfConcept_Approver_Type </a>**
 
+
+</div>
 
 ## Count
 </div>

@@ -32,32 +32,56 @@ This server allows customer to view the currently-active presale events and thei
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getActiveFlag](/reference/services/SoftLayer_Sales_Presale_Event/getActiveFlag)
 Retrieve a flag to indicate that the presale event is currently active. A presale event is active if the current time is between the start and end dates.
+</div>
+
+<div class="method-row">
 
 #### [getAllObjects](/reference/services/SoftLayer_Sales_Presale_Event/getAllObjects)
 
+</div>
+
+<div class="method-row">
 
 #### [getExpiredFlag](/reference/services/SoftLayer_Sales_Presale_Event/getExpiredFlag)
 Retrieve a flag to indicate that the presale event is expired. A presale event is expired if the current time is after the end date.
+</div>
+
+<div class="method-row">
 
 #### [getItem](/reference/services/SoftLayer_Sales_Presale_Event/getItem)
 Retrieve the [SoftLayer_Product_Item]({{<ref "reference/datatypes/SoftLayer_Product_Item">}}) associated with the presale event.
+</div>
+
+<div class="method-row">
 
 #### [getLocation](/reference/services/SoftLayer_Sales_Presale_Event/getLocation)
 Retrieve the [SoftLayer_Location]({{<ref "reference/datatypes/SoftLayer_Location">}}) associated with the presale event.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Sales_Presale_Event/getObject)
 Retrieve a SoftLayer_Sales_Presale_Event record.
+</div>
+
+<div class="method-row">
 
 #### [getOrders](/reference/services/SoftLayer_Sales_Presale_Event/getOrders)
 Retrieve the orders ([SoftLayer_Billing_Order]({{<ref "reference/datatypes/SoftLayer_Billing_Order">}})) associated with this presale event that were created for the customer's account.
+</div>
+</div>
 
 </div>
 

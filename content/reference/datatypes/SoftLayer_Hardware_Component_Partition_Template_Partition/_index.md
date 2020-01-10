@@ -24,26 +24,32 @@ The SoftLayer_Hardware_Component_Partition_Template_Partition data type contains
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 A partition's id.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [isGrow]: #isgrow
@@ -51,11 +57,19 @@ A partition's id.
 A flag indication if a partition will be the grow partition.  The grow partition will have its size adjusted to fill all available space on a hard drive.   
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [partitionName]: #partitionname
 #### [partitionName]
 A partition's default name.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [partitionSize]: #partitionsize
@@ -63,11 +77,19 @@ A partition's default name.
 A partition's default size.  
 <span class="type-label">Type: </span>**decimal**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [partitionTemplateId]: #partitiontemplateid
 #### [partitionTemplateId]
 A partition's associated [SoftLayer_Hardware_Component_Partition_Template]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_Template">}}) Id.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [volumeNumber]: #volumenumber
@@ -75,17 +97,25 @@ A partition's associated [SoftLayer_Hardware_Component_Partition_Template]({{<re
 The volume the partition will be put on  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [filesystemType]: #filesystemtype
 #### [filesystemType]
 The filesystem type of a partition  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Filesystem_Type'>SoftLayer_Configuration_Storage_Filesystem_Type </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [partitionTemplate]: #partitiontemplate
@@ -93,6 +123,8 @@ The filesystem type of a partition
 A partition's [SoftLayer_Hardware_Component_Partition_Template]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_Template">}}).  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template'>SoftLayer_Hardware_Component_Partition_Template </a>**
 
+
+</div>
 
 ## Count
 </div>

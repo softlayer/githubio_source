@@ -24,26 +24,32 @@ The SoftLayer_Container_Utility_Network_Firewall_Rule_Attribute data type contai
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [actions]: #actions
 #### [actions]
 The valid actions for use with rules.  
 <span class="type-label">Type: </span>**array of strings**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [maximumRuleCount]: #maximumrulecount
@@ -51,11 +57,19 @@ The valid actions for use with rules.
 Maximum allowed number of rules.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [protocols]: #protocols
 #### [protocols]
 The valid protocols for use with rules.  
 <span class="type-label">Type: </span>**array of strings**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [sourceIpSubnetMasks]: #sourceipsubnetmasks
@@ -63,6 +77,8 @@ The valid protocols for use with rules.
 The valid source ip subnet masks for use with rules.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Utility_Network_Subnet_Mask_Generic_Detail'>SoftLayer_Container_Utility_Network_Subnet_Mask_Generic_Detail[] </a>**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

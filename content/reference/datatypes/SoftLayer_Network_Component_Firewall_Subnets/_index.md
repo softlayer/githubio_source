@@ -30,26 +30,32 @@ A SoftLayer_Network_Component_Firewall_Subnets object type represents the curren
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [applyServerRulesFlag]: #applyserverrulesflag
 #### [applyServerRulesFlag]
 A boolean flag that indicates whether the subnet should receive all the rules intended for the host on this context slot.  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [subnetId]: #subnetid
@@ -57,17 +63,25 @@ A boolean flag that indicates whether the subnet should receive all the rules in
 The unique identifier of the subnet being linked to the network component firewall.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [networkComponentFirewall]: #networkcomponentfirewall
 #### [networkComponentFirewall]
 The network component firewall that write rules for this subnet.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [subnet]: #subnet
@@ -75,6 +89,8 @@ The network component firewall that write rules for this subnet.
 The subnet that this link binds to the network component firewall.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**
 
+
+</div>
 
 ## Count
 </div>

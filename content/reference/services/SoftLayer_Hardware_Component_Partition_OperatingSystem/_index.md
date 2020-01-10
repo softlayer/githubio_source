@@ -30,23 +30,38 @@ Every SoftLayer Operating System Partition Template is defined in the '''SoftLay
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAllObjects](/reference/services/SoftLayer_Hardware_Component_Partition_OperatingSystem/getAllObjects)
 
+</div>
+
+<div class="method-row">
 
 #### [getByDescription](/reference/services/SoftLayer_Hardware_Component_Partition_OperatingSystem/getByDescription)
 Retrieves a list of all partition templates that match a certain description.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Hardware_Component_Partition_OperatingSystem/getObject)
 Retrieve a SoftLayer_Hardware_Component_Partition_OperatingSystem record.
+</div>
+
+<div class="method-row">
 
 #### [getPartitionTemplates](/reference/services/SoftLayer_Hardware_Component_Partition_OperatingSystem/getPartitionTemplates)
 Retrieve information regarding an operating system's [SoftLayer_Hardware_Component_Partition_Template]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_Template">}}).
+</div>
+</div>
 
 </div>
 

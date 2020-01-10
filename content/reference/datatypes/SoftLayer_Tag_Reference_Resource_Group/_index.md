@@ -24,26 +24,32 @@ classes:
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [empRecordId]: #emprecordid
 #### [empRecordId]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -51,11 +57,19 @@ classes:
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [resourceTableId]: #resourcetableid
 #### [resourceTableId]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [tagId]: #tagid
@@ -63,11 +77,19 @@ classes:
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [tagTypeId]: #tagtypeid
 #### [tagTypeId]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [usrRecordId]: #usrrecordid
@@ -75,17 +97,25 @@ classes:
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [customer]: #customer
 #### [customer]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [employee]: #employee
@@ -93,11 +123,19 @@ classes:
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [resource]: #resource
 #### [resource]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [tag]: #tag
@@ -105,12 +143,18 @@ classes:
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag'>SoftLayer_Tag </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [tagType]: #tagtype
 #### [tagType]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Type'>SoftLayer_Tag_Type </a>**
 
+
+</div>
 
 ## Count
 </div>

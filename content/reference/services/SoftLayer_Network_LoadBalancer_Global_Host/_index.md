@@ -34,20 +34,32 @@ Each account has a limited number of hosts that can be added to the load balanci
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [deleteObject](/reference/services/SoftLayer_Network_LoadBalancer_Global_Host/deleteObject)
 Remove a host from the load balancing pool of a global load balancer account.
+</div>
+
+<div class="method-row">
 
 #### [getLoadBalancerAccount](/reference/services/SoftLayer_Network_LoadBalancer_Global_Host/getLoadBalancerAccount)
 Retrieve the global load balancer account a host belongs to.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_LoadBalancer_Global_Host/getObject)
 Retrieve a SoftLayer_Network_LoadBalancer_Global_Host record.
+</div>
+</div>
 
 </div>
 

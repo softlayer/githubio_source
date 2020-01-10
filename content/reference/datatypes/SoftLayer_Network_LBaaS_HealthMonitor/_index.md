@@ -24,26 +24,32 @@ The SoftLayer_Network_LBaaS_HealthMonitor type presents a structure containing a
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 Create date of the health monitor instance  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -51,11 +57,19 @@ Create date of the health monitor instance
 Health monitor's identifier  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [interval]: #interval
 #### [interval]
 Interval in seconds to perform health check  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [maxRetries]: #maxretries
@@ -63,11 +77,19 @@ Interval in seconds to perform health check
 Maximum number of health check retries in case of failure  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [modifyDate]: #modifydate
 #### [modifyDate]
 Modify date of the health monitor instance  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [monitorType]: #monitortype
@@ -75,11 +97,19 @@ Modify date of the health monitor instance
 Type of health check, valid values are "TCP", "HTTP" and "HTTPS"  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [provisioningStatus]: #provisioningstatus
 #### [provisioningStatus]
 Provisioning status of the health monitor, supported values are "CREATE_PENDING",  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [timeout]: #timeout
@@ -87,11 +117,19 @@ Provisioning status of the health monitor, supported values are "CREATE_PENDING"
 Timeout in seconds to wait for health checks response  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [urlPath]: #urlpath
 #### [urlPath]
 If monitorType is "HTTP" this specifies the whole URL path  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [uuid]: #uuid
@@ -99,6 +137,8 @@ If monitorType is "HTTP" this specifies the whole URL path
 Health monitor's UUID  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

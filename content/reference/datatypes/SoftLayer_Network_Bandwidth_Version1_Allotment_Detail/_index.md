@@ -24,26 +24,32 @@ The SoftLayer_Network_Bandwidth_Version1_Allotment_Detail data type contains spe
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [allocationId]: #allocationid
 #### [allocationId]
 Allocated bandwidth.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [bandwidthAllotmentId]: #bandwidthallotmentid
@@ -51,11 +57,19 @@ Allocated bandwidth.
 Bandwidth Pool associated with this detail.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [effectiveDate]: #effectivedate
 #### [effectiveDate]
 Beginning this date the bandwidth allotment is active.   
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [endEffectiveDate]: #endeffectivedate
@@ -63,11 +77,19 @@ Beginning this date the bandwidth allotment is active.
 From this date the bandwidth allotment is no longer active.   
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 Internal ID associated with this allotment detail.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [serviceProviderId]: #serviceproviderid
@@ -75,23 +97,35 @@ Internal ID associated with this allotment detail.
 Service Provider Id for an allotment  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [allocation]: #allocation
 #### [allocation]
 Allocated bandwidth.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allocation'>SoftLayer_Network_Bandwidth_Version1_Allocation </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [bandwidthAllotment]: #bandwidthallotment
 #### [bandwidthAllotment]
 The parent Bandwidth Pool.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [bandwidthUsage]: #bandwidthusage
@@ -100,7 +134,10 @@ Bandwidth used.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage'>SoftLayer_Network_Bandwidth_Version1_Usage[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [bandwidthUsageCount]: #bandwidthusagecount
@@ -108,6 +145,8 @@ Bandwidth used.
 A count of bandwidth used.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

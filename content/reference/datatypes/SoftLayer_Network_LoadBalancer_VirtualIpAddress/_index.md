@@ -31,26 +31,32 @@ Information retained on the object itself is the virtual IP address, load balanc
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [connectionLimit]: #connectionlimit
 #### [connectionLimit]
 Connection limit on this VIP.  Can be upgraded through the upgradeConnectionLimit() function  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -58,11 +64,19 @@ Connection limit on this VIP.  Can be upgraded through the upgradeConnectionLimi
 Unique ID for this object, used for the getObject method, and must be set if you are editing this object.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [loadBalancingMethod]: #loadbalancingmethod
 #### [loadBalancingMethod]
 The load balancing method that determines which server is used "next" by the load balancer.  The method is stored in an abbreviated form, represented in parentheses after the full name. Methods include: Round Robin (Value "rr"):  Each server is used sequentially in a circular queue Shortest Response (Value "sr"):  The server with the lowest ping at the last health check gets the next request Least Connections (Value "lc"):  The server with the least current connections is given the next request Persistent IP - Round Robin (Value "pi"): The same server will be returned to a request during a users session.  Servers are chosen through round robin. Persistent IP - Shortest Response (Value "pi-sr"): The same server will be returned to a request during a users session.  Servers are chosen through shortest response. Persistent IP - Least Connections (Value "pi-lc"): The same server will be returned to a request during a users session.  Servers are chosen through least connections. Insert Cookie - Round Robin (Value "ic"):  Inserts a cookie into the HTTP stream that will tie that client to a particular balanced server. Servers are chosen through round robin. Insert Cookie - Shortest Response (Value "ic-sr"): Inserts a cookie into the HTTP stream that will tie that client to a particular balanced server. Servers are chosen through shortest response. Insert Cookie - Least Connections (Value "ic-lc"): Inserts a cookie into the HTTP stream that will tie that client to a particular balanced server. Servers are chosen through least connections.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [loadBalancingMethodFullName]: #loadbalancingmethodfullname
@@ -70,11 +84,19 @@ The load balancing method that determines which server is used "next" by the loa
 A human readable version of loadBalancingMethod, intended mainly for API users.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [modifyDate]: #modifydate
 #### [modifyDate]
 Date this load balancer was last modified  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [name]: #name
@@ -82,11 +104,19 @@ Date this load balancer was last modified
 The name of the load balancer instance  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [notes]: #notes
 #### [notes]
 User-created notes on this load balancer.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [securityCertificateId]: #securitycertificateid
@@ -94,11 +124,19 @@ User-created notes on this load balancer.
 The unique identifier of the Security Certificate to be utilized when SSL support is enabled.   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [sourcePort]: #sourceport
 #### [sourcePort]
 This is the port for incoming traffic.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [type]: #type
@@ -106,23 +144,35 @@ This is the port for incoming traffic.
 The connection type of this VIP.  Valid values are HTTP, FTP, TCP, UDP, and DNS.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [virtualIpAddress]: #virtualipaddress
 #### [virtualIpAddress]
 The virtual, public-facing IP address for your load balancer.  This is the address of all incoming traffic  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [account]: #account
 #### [account]
 The account that owns this load balancer.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [billingItem]: #billingitem
@@ -130,17 +180,29 @@ The account that owns this load balancer.
 The current billing item for the Load Balancer.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [customerManagedFlag]: #customermanagedflag
 #### [customerManagedFlag]
 If false, this VIP and associated services may be edited via the portal or the API. If true, you must configure this VIP manually on the device.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [managedResourceFlag]: #managedresourceflag
 #### [managedResourceFlag]
 A flag indicating that the load balancer is a managed resource.  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [services]: #services
@@ -149,7 +211,10 @@ the services on this load balancer.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Service'>SoftLayer_Network_LoadBalancer_Service[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [serviceCount]: #servicecount
@@ -157,6 +222,8 @@ the services on this load balancer.
 A count of the services on this load balancer.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

@@ -41,21 +41,23 @@ The [SoftLayer_Virtual_Guest::getCreateObjectOptions]({{<ref "reference/services
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [blockDevices]: #blockdevices
 #### [blockDevices]
@@ -76,6 +78,10 @@ Note: The block device number <code>'1'</code> is reserved for the SWAP disk att
 </div>   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [datacenters]: #datacenters
 #### [datacenters]
@@ -87,6 +93,10 @@ Available datacenter options.
 The <code>datacenter.name</code> value in the template represents which datacenter the computing instance will be provisioned in. 
 </div>   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [flavors]: #flavors
@@ -105,6 +115,10 @@ When providing a <code>supplementalCreateObjectOptions.flavorKeyName</code> opti
 </div>   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [memory]: #memory
 #### [memory]
@@ -117,6 +131,10 @@ The <code>maxMemory</code> value in the template represents the amount of memory
 </div>   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [networkComponents]: #networkcomponents
 #### [networkComponents]
@@ -128,6 +146,10 @@ Available network component options.
 The <code>networkComponent.maxSpeed</code> value in the template represents the link speed, in megabits per second, of the network connections for a computing instance. 
 </div>   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [operatingSystems]: #operatingsystems
@@ -156,6 +178,10 @@ For Windows based operating systems the version will represent both the release 
 </div>   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [processors]: #processors
 #### [processors]
@@ -169,6 +195,8 @@ The <code>dedicatedAccountHostOnlyFlag</code> value in the template represents w
 </div>   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

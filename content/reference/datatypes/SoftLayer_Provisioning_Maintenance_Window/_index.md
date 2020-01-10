@@ -34,26 +34,32 @@ The SoftLayer_Provisioning_Maintenance_Window represent a time window that SoftL
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [beginDate]: #begindate
 #### [beginDate]
 The date and time a maintenance window is scheduled to begin.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [dayOfWeek]: #dayofweek
@@ -61,11 +67,19 @@ The date and time a maintenance window is scheduled to begin.
 An ISO-8601 numeric representation of the day of the week that a maintenance window is performed. 1: Monday, 7: Sunday  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [endDate]: #enddate
 #### [endDate]
 The date and time a maintenance window is scheduled to end.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -73,11 +87,19 @@ The date and time a maintenance window is scheduled to end.
 Id of the maintenance window  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [locationId]: #locationid
 #### [locationId]
 An internal identifier of the location (data center) record that a maintenance window takes place in.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [portalTzId]: #portaltzid
@@ -85,6 +107,8 @@ An internal identifier of the location (data center) record that a maintenance w
 An internal identifier of the datacenter timezone.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

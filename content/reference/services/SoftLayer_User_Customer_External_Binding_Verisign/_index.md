@@ -34,65 +34,122 @@ Once a SoftLayer user has a valid and active VeriSign external binding, they wil
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [deleteObject](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign/deleteObject)
 Delete a VeriSign external binding.
+</div>
+
+<div class="method-row">
 
 #### [disable](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign/disable)
 Disable an external binding.
+</div>
+
+<div class="method-row">
 
 #### [enable](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign/enable)
 Enable an external binding.
+</div>
+
+<div class="method-row">
 
 #### [getActivationCodeForMobileClient](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign/getActivationCodeForMobileClient)
 Get an activation code that is used for provisioning a mobile credential.
+</div>
+
+<div class="method-row">
 
 #### [getAttributes](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign/getAttributes)
 Retrieve attributes of an external authentication binding.
+</div>
+
+<div class="method-row">
 
 #### [getBillingItem](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign/getBillingItem)
 Retrieve the current billing item for an external binding.
+</div>
+
+<div class="method-row">
 
 #### [getCredentialExpirationDate](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign/getCredentialExpirationDate)
 Retrieve the date that a VeriSign credential expires.
+</div>
+
+<div class="method-row">
 
 #### [getCredentialLastUpdateDate](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign/getCredentialLastUpdateDate)
 Retrieve the last time a VeriSign credential was updated.
+</div>
+
+<div class="method-row">
 
 #### [getCredentialState](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign/getCredentialState)
 Retrieve the current state of a VeriSign credential. This can be 'Enabled', 'Disabled', or 'Locked'.
+</div>
+
+<div class="method-row">
 
 #### [getCredentialType](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign/getCredentialType)
 Retrieve the type of VeriSign credential. This can be either 'Hardware' or 'Software'.
+</div>
+
+<div class="method-row">
 
 #### [getNote](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign/getNote)
 Retrieve an optional note for identifying the external binding.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign/getObject)
 Retrieve a SoftLayer_User_Customer_External_Binding_Verisign record.
+</div>
+
+<div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign/getType)
 Retrieve the type of external authentication binding.
+</div>
+
+<div class="method-row">
 
 #### [getUser](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign/getUser)
 Retrieve the SoftLayer user that the external authentication binding belongs to.
+</div>
+
+<div class="method-row">
 
 #### [getVendor](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign/getVendor)
 Retrieve the vendor of an external authentication binding.
+</div>
+
+<div class="method-row">
 
 #### [unlock](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign/unlock)
 
+</div>
+
+<div class="method-row">
 
 #### [updateNote](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign/updateNote)
 Update the note of an external binding.
+</div>
+
+<div class="method-row">
 
 #### [validateCredentialId](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign/validateCredentialId)
 Validate a VeriSign credential id.
+</div>
+</div>
 
 </div>
 

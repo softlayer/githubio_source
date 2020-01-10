@@ -32,23 +32,38 @@ A ``Pod`` is identified by a ``name``, which is unique. A Pod name follows the f
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAllObjects](/reference/services/SoftLayer_Network_Pod/getAllObjects)
 Retrieve a list of Pods; optionally filtered via datacenter and/or capabilities.
+</div>
+
+<div class="method-row">
 
 #### [getCapabilities](/reference/services/SoftLayer_Network_Pod/getCapabilities)
 Retrieve capabilities for the Pod.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Pod/getObject)
 Retrieve a Pod by name.
+</div>
+
+<div class="method-row">
 
 #### [listCapabilities](/reference/services/SoftLayer_Network_Pod/listCapabilities)
 Retrieve a list of all possible capabilities Pods may fulfill.
+</div>
+</div>
 
 </div>
 

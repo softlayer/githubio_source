@@ -24,26 +24,32 @@ The SoftLayer_Network_Storage_Type contains a description of the associated Soft
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [description]: #description
 #### [description]
 Human readable description for the associated SoftLayer_Network_Storage object.   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -51,18 +57,26 @@ Human readable description for the associated SoftLayer_Network_Storage object.
 ID which corresponds with storageTypeId on storage objects.   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [keyName]: #keyname
 #### [keyName]
 Machine readable description code for the associated SoftLayer_Network_Storage object.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [volumes]: #volumes
 #### [volumes]
@@ -70,7 +84,10 @@ The SoftLayer_Network_Storage object that uses this type.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [volumeCount]: #volumecount
@@ -78,6 +95,8 @@ The SoftLayer_Network_Storage object that uses this type.
 A count of the SoftLayer_Network_Storage object that uses this type.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

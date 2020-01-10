@@ -30,32 +30,56 @@ classes:
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [getAllCurrencyExchangeRates](/reference/services/SoftLayer_Billing_Currency_ExchangeRate/getAllCurrencyExchangeRates)
 
+</div>
+
+<div class="method-row">
 
 #### [getCurrencies](/reference/services/SoftLayer_Billing_Currency_ExchangeRate/getCurrencies)
 
+</div>
+
+<div class="method-row">
 
 #### [getExchangeRate](/reference/services/SoftLayer_Billing_Currency_ExchangeRate/getExchangeRate)
 
+</div>
+
+<div class="method-row">
 
 #### [getFundingCurrency](/reference/services/SoftLayer_Billing_Currency_ExchangeRate/getFundingCurrency)
 
+</div>
+
+<div class="method-row">
 
 #### [getLocalCurrency](/reference/services/SoftLayer_Billing_Currency_ExchangeRate/getLocalCurrency)
 
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Billing_Currency_ExchangeRate/getObject)
 Retrieve a SoftLayer_Billing_Currency_ExchangeRate record.
+</div>
+
+<div class="method-row">
 
 #### [getPrice](/reference/services/SoftLayer_Billing_Currency_ExchangeRate/getPrice)
 
+</div>
+</div>
 
 </div>
 

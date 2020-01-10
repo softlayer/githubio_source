@@ -24,26 +24,32 @@ Summary of review activity for a proof of concept request.
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [accountCreatedFlag]: #accountcreatedflag
 #### [accountCreatedFlag]
 True for approved requests associated with a new account and false otherwise.  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [deniedFlag]: #deniedflag
@@ -51,11 +57,19 @@ True for approved requests associated with a new account and false otherwise.
 True for denied requests and false otherwise.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [events]: #events
 #### [events]
 List of events occurring during the review.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Review_Event'>SoftLayer_Container_Account_ProofOfConcept_Review_Event[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [reviewCompleteFlag]: #reviewcompleteflag
@@ -63,6 +77,8 @@ List of events occurring during the review.
 True for fully reviewed requests and false otherwise.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

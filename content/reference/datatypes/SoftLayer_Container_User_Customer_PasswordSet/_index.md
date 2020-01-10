@@ -24,26 +24,32 @@ Container for holding information necessary for the setting and resetting of cus
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [answeredSecurityQuestionId]: #answeredsecurityquestionid
 #### [answeredSecurityQuestionId]
 Id of SoftLayer_User_Security_Question.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [authenticationMethods]: #authenticationmethods
@@ -51,11 +57,19 @@ Id of SoftLayer_User_Security_Question.
 The authentication methods required.  
 <span class="type-label">Type: </span>**array of integers**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [digitCountRequirement]: #digitcountrequirement
 #### [digitCountRequirement]
 The number of digits required.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [key]: #key
@@ -63,11 +77,19 @@ The number of digits required.
 The password key provided to user in the password set url link sent via email.   
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [lowercaseCountRequirement]: #lowercasecountrequirement
 #### [lowercaseCountRequirement]
 The number of lowercase letters required.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [maximumPasswordLengthRequirement]: #maximumpasswordlengthrequirement
@@ -75,11 +97,19 @@ The number of lowercase letters required.
 The maximum password length requirement.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [minimumPasswordLengthRequirement]: #minimumpasswordlengthrequirement
 #### [minimumPasswordLengthRequirement]
 The minimum password length requirement.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [password]: #password
@@ -87,11 +117,19 @@ The minimum password length requirement.
 The user's new password.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [securityAnswer]: #securityanswer
 #### [securityAnswer]
 Answer to security question provided by the user.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [securityQuestions]: #securityquestions
@@ -99,11 +137,19 @@ Answer to security question provided by the user.
 Array of SoftLayer_User_Security_Question.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Security_Question'>SoftLayer_User_Security_Question[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [specialCharacterCountRequirement]: #specialcharactercountrequirement
 #### [specialCharacterCountRequirement]
 The number of special characters required.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [specialCharactersAllowed]: #specialcharactersallowed
@@ -111,11 +157,19 @@ The number of special characters required.
 List of the allowed special characters.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [uppercaseCountRequirement]: #uppercasecountrequirement
 #### [uppercaseCountRequirement]
 The number of uppercase letters required.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [userId]: #userid
@@ -123,6 +177,8 @@ The number of uppercase letters required.
 The id of the user to authenticate.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

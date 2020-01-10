@@ -28,26 +28,32 @@ Orders submitted with a preset id defined will use the prices included in the pa
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [description]: #description
 #### [description]
 A description of the package preset.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -55,11 +61,19 @@ A description of the package preset.
 A preset's internal identifier. Everything regarding a SoftLayer_Product_Package_Preset is tied back to this id.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [isActive]: #isactive
 #### [isActive]
 The status of the package preset.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [keyName]: #keyname
@@ -67,11 +81,19 @@ The status of the package preset.
 The key name of the package preset. For the base configuration of a package the preset key name is "DEFAULT".  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [name]: #name
 #### [name]
 The name of the package preset.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [packageId]: #packageid
@@ -79,17 +101,25 @@ The name of the package preset.
 The package id for the package this preset belongs to.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [availableStorageUnits]: #availablestorageunits
 #### [availableStorageUnits]
   
 <span class="type-label">Type: </span>**unsigned integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [bareMetalReservedFlag]: #baremetalreservedflag
@@ -97,11 +127,19 @@ The package id for the package this preset belongs to.
 When true this preset is for ordering a Bare Metal Reserved server.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [categories]: #categories
 #### [categories]
 The item categories that are included in this package preset configuration.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [computeGroup]: #computegroup
@@ -109,11 +147,19 @@ The item categories that are included in this package preset configuration.
 The compute family this configuration belongs to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Server_Group'>SoftLayer_Product_Item_Server_Group </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [configuration]: #configuration
 #### [configuration]
 The preset configuration (category and price).  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset_Configuration'>SoftLayer_Product_Package_Preset_Configuration[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [disallowedComputeGroupUpgradeFlag]: #disallowedcomputegroupupgradeflag
@@ -121,11 +167,19 @@ The preset configuration (category and price).
 When true this preset is only allowed to upgrade/downgrade to other presets in the same compute family.  
 <span class="type-label">Type: </span>**boolean**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [fixedConfigurationFlag]: #fixedconfigurationflag
 #### [fixedConfigurationFlag]
 A package preset with this flag set will not allow the price's defined in the preset configuration to be overriden during order placement.  
 <span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [locations]: #locations
@@ -133,11 +187,19 @@ A package preset with this flag set will not allow the price's defined in the pr
 The locations this preset configuration is available in. If empty the preset is available in all locations the package is available in.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [lowestPresetServerPrice]: #lowestpresetserverprice
 #### [lowestPresetServerPrice]
 The lowest server prices related to this package preset.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [package]: #package
@@ -145,11 +207,19 @@ The lowest server prices related to this package preset.
 The package this preset belongs to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [packageConfiguration]: #packageconfiguration
 #### [packageConfiguration]
 The item categories associated with a package preset, including information detailing which item categories are required as part of a SoftLayer product order.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Order_Configuration'>SoftLayer_Product_Package_Order_Configuration[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [prices]: #prices
@@ -157,17 +227,29 @@ The item categories associated with a package preset, including information deta
 The item prices that are included in this package preset configuration.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [storageGroupTemplateArrays]: #storagegrouptemplatearrays
 #### [storageGroupTemplateArrays]
 Describes how all disks in this preset will be configured.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group_Template_Group'>SoftLayer_Configuration_Storage_Group_Template_Group[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [totalMinimumHourlyFee]: #totalminimumhourlyfee
 #### [totalMinimumHourlyFee]
 The starting hourly price for this configuration. Additional options not defined in the preset may increase the cost.  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [totalMinimumRecurringFee]: #totalminimumrecurringfee
@@ -176,7 +258,10 @@ The starting monthly price for this configuration. Additional options not define
 <span class="type-label">Type: </span>**decimal**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [categoryCount]: #categorycount
@@ -185,12 +270,18 @@ A count of the item categories that are included in this package preset configur
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [configurationCount]: #configurationcount
 #### [configurationCount]
 A count of the preset configuration (category and price).   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [locationCount]: #locationcount
@@ -199,12 +290,18 @@ A count of the locations this preset configuration is available in. If empty the
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [packageConfigurationCount]: #packageconfigurationcount
 #### [packageConfigurationCount]
 A count of the item categories associated with a package preset, including information detailing which item categories are required as part of a SoftLayer product order.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [priceCount]: #pricecount
@@ -213,12 +310,17 @@ A count of the item prices that are included in this package preset configuratio
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [storageGroupTemplateArrayCount]: #storagegrouptemplatearraycount
 #### [storageGroupTemplateArrayCount]
 A count of describes how all disks in this preset will be configured.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

@@ -29,26 +29,32 @@ The SoftLayer_Network_LBaaS_L7Pool type presents a structure containing attribut
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 Create date of the L7 pool instance  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -56,11 +62,19 @@ Create date of the L7 pool instance
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [loadBalancingAlgorithm]: #loadbalancingalgorithm
 #### [loadBalancingAlgorithm]
 Load balancing algorithm: "ROUNDROBIN", "WEIGHTED_RR", "LEASTCONNECTION"  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [modifyDate]: #modifydate
@@ -68,11 +82,19 @@ Load balancing algorithm: "ROUNDROBIN", "WEIGHTED_RR", "LEASTCONNECTION"
 Last updated date of the L7 pool  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [name]: #name
 #### [name]
 Name of the L7 pool.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [protocol]: #protocol
@@ -80,11 +102,19 @@ Name of the L7 pool.
 Backends protocol, supported protocol is, "HTTP"  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [provisioningStatus]: #provisioningstatus
 #### [provisioningStatus]
 Provisioning status of a load balancer's L7 pool.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [uuid]: #uuid
@@ -92,17 +122,25 @@ Provisioning status of a load balancer's L7 pool.
 Instance uuid of the L7 pool  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [l7HealthMonitor]: #l7healthmonitor
 #### [l7HealthMonitor]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7HealthMonitor'>SoftLayer_Network_LBaaS_L7HealthMonitor </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [l7Members]: #l7members
@@ -110,11 +148,19 @@ Instance uuid of the L7 pool
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Member'>SoftLayer_Network_LBaaS_L7Member[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [l7Policies]: #l7policies
 #### [l7Policies]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Policy'>SoftLayer_Network_LBaaS_L7Policy[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [l7SessionAffinity]: #l7sessionaffinity
@@ -123,7 +169,10 @@ Instance uuid of the L7 pool
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7SessionAffinity'>SoftLayer_Network_LBaaS_L7SessionAffinity </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [l7MemberCount]: #l7membercount
@@ -132,12 +181,17 @@ A count of
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [l7PolicyCount]: #l7policycount
 #### [l7PolicyCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

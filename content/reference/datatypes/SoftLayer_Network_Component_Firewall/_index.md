@@ -38,26 +38,32 @@ The SoftLayer_Network_Component_Firewall data type contains general information 
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [guestNetworkComponentId]: #guestnetworkcomponentid
 #### [guestNetworkComponentId]
 Unique ID for the network component of the switch interface that this network component firewall is attached to.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -65,11 +71,19 @@ Unique ID for the network component of the switch interface that this network co
 Unique ID for the network component firewall.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [networkComponentId]: #networkcomponentid
 #### [networkComponentId]
 Unique ID for the network component of the switch interface that this network component firewall is attached to.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [status]: #status
@@ -77,17 +91,25 @@ Unique ID for the network component of the switch interface that this network co
 Current status of the network component firewall.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [applyServerRuleSubnets]: #applyserverrulesubnets
 #### [applyServerRuleSubnets]
 The additional subnets linked to this network component firewall, that inherit rules from the host that the context slot is attached to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [billingItem]: #billingitem
@@ -95,11 +117,19 @@ The additional subnets linked to this network component firewall, that inherit r
 The billing item for a Hardware Firewall (Dedicated).  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [guestNetworkComponent]: #guestnetworkcomponent
 #### [guestNetworkComponent]
 The network component of the guest virtual server that this network component firewall belongs to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [networkComponent]: #networkcomponent
@@ -107,17 +137,29 @@ The network component of the guest virtual server that this network component fi
 The network component of the switch interface that this network component firewall belongs to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [networkFirewallUpdateRequest]: #networkfirewallupdaterequest
 #### [networkFirewallUpdateRequest]
 The update requests made for this firewall.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request'>SoftLayer_Network_Firewall_Update_Request[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [rules]: #rules
 #### [rules]
 The currently running rule set of this network component firewall.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall_Rule'>SoftLayer_Network_Component_Firewall_Rule[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [subnets]: #subnets
@@ -126,7 +168,10 @@ The additional subnets linked to this network component firewall.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [applyServerRuleSubnetCount]: #applyserverrulesubnetcount
@@ -135,12 +180,18 @@ A count of the additional subnets linked to this network component firewall, tha
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [networkFirewallUpdateRequestCount]: #networkfirewallupdaterequestcount
 #### [networkFirewallUpdateRequestCount]
 A count of the update requests made for this firewall.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
+<div class="prop-row">
 
 -----
 [ruleCount]: #rulecount
@@ -149,12 +200,17 @@ A count of the currently running rule set of this network component firewall.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [subnetCount]: #subnetcount
 #### [subnetCount]
 A count of the additional subnets linked to this network component firewall.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

@@ -24,26 +24,32 @@ This class represents a mobile device belonging to a user.  The device can be a 
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 Created date for the record.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [displayResolutionXxY]: #displayresolutionxxy
@@ -51,11 +57,19 @@ Created date for the record.
 The device resolution formatted width x height  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 Record Identifier  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [mobileDeviceTypeId]: #mobiledevicetypeid
@@ -63,11 +77,19 @@ Record Identifier
 Device type identifier.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [mobileOperatingSystemId]: #mobileoperatingsystemid
 #### [mobileOperatingSystemId]
 Mobile OS identifier.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [modelNumber]: #modelnumber
@@ -75,11 +97,19 @@ Mobile OS identifier.
 Device model number  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [modifyDate]: #modifydate
 #### [modifyDate]
 Last modify date for the record.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [name]: #name
@@ -87,11 +117,19 @@ Last modify date for the record.
 The name of the device the user is using.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [phoneNumber]: #phonenumber
 #### [phoneNumber]
 Device phone number  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [serialNumber]: #serialnumber
@@ -99,11 +137,19 @@ Device phone number
 Device serial number  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [token]: #token
 #### [token]
 The token that is provided by the mobile device.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [userId]: #userid
@@ -111,17 +157,25 @@ The token that is provided by the mobile device.
 User Identifier  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [availablePushNotificationSubscriptions]: #availablepushnotificationsubscriptions
 #### [availablePushNotificationSubscriptions]
 Notification subscriptions available to a mobile device.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification'>SoftLayer_Notification[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [customer]: #customer
@@ -129,17 +183,29 @@ Notification subscriptions available to a mobile device.
 The user this mobile device belongs to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [operatingSystem]: #operatingsystem
 #### [operatingSystem]
 The operating system this device is using  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice_OperatingSystem'>SoftLayer_User_Customer_MobileDevice_OperatingSystem </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [pushNotificationSubscriptions]: #pushnotificationsubscriptions
 #### [pushNotificationSubscriptions]
 Notification subscriptions attached to a mobile device.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [type]: #type
@@ -148,7 +214,10 @@ The type of device this user is using
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice_Type'>SoftLayer_User_Customer_MobileDevice_Type </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [availablePushNotificationSubscriptionCount]: #availablepushnotificationsubscriptioncount
@@ -157,12 +226,17 @@ A count of notification subscriptions available to a mobile device.
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [pushNotificationSubscriptionCount]: #pushnotificationsubscriptioncount
 #### [pushNotificationSubscriptionCount]
 A count of notification subscriptions attached to a mobile device.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

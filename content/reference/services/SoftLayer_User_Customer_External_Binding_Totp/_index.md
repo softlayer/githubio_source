@@ -34,53 +34,98 @@ Once a SoftLayer user has a valid and active time-based one time password extern
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [activate](/reference/services/SoftLayer_User_Customer_External_Binding_Totp/activate)
 
+</div>
+
+<div class="method-row">
 
 #### [deactivate](/reference/services/SoftLayer_User_Customer_External_Binding_Totp/deactivate)
 
+</div>
+
+<div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_User_Customer_External_Binding_Totp/deleteObject)
 Delete an external authentication binding.
+</div>
+
+<div class="method-row">
 
 #### [disable](/reference/services/SoftLayer_User_Customer_External_Binding_Totp/disable)
 Disable an external binding.
+</div>
+
+<div class="method-row">
 
 #### [enable](/reference/services/SoftLayer_User_Customer_External_Binding_Totp/enable)
 Enable an external binding.
+</div>
+
+<div class="method-row">
 
 #### [generateSecretKey](/reference/services/SoftLayer_User_Customer_External_Binding_Totp/generateSecretKey)
 
+</div>
+
+<div class="method-row">
 
 #### [getAttributes](/reference/services/SoftLayer_User_Customer_External_Binding_Totp/getAttributes)
 Retrieve attributes of an external authentication binding.
+</div>
+
+<div class="method-row">
 
 #### [getBillingItem](/reference/services/SoftLayer_User_Customer_External_Binding_Totp/getBillingItem)
 Retrieve information regarding the billing item for external authentication.
+</div>
+
+<div class="method-row">
 
 #### [getNote](/reference/services/SoftLayer_User_Customer_External_Binding_Totp/getNote)
 Retrieve an optional note for identifying the external binding.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_User_Customer_External_Binding_Totp/getObject)
 Retrieve a SoftLayer_User_Customer_External_Binding_Totp record.
+</div>
+
+<div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_User_Customer_External_Binding_Totp/getType)
 Retrieve the type of external authentication binding.
+</div>
+
+<div class="method-row">
 
 #### [getUser](/reference/services/SoftLayer_User_Customer_External_Binding_Totp/getUser)
 Retrieve the SoftLayer user that the external authentication binding belongs to.
+</div>
+
+<div class="method-row">
 
 #### [getVendor](/reference/services/SoftLayer_User_Customer_External_Binding_Totp/getVendor)
 Retrieve the vendor of an external authentication binding.
+</div>
+
+<div class="method-row">
 
 #### [updateNote](/reference/services/SoftLayer_User_Customer_External_Binding_Totp/updateNote)
 Update the note of an external binding.
+</div>
+</div>
 
 </div>
 

@@ -24,26 +24,32 @@ SoftLayer_Network_LBaaS_LoadBalancerHealthMonitorConfiguration specifies the che
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [backendPort]: #backendport
 #### [backendPort]
 Backends port  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [backendProtocol]: #backendprotocol
@@ -51,11 +57,19 @@ Backends port
 <<EOT  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [healthMonitorUuid]: #healthmonitoruuid
 #### [healthMonitorUuid]
 Health Monitor UUID, required for update only  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [interval]: #interval
@@ -63,11 +77,19 @@ Health Monitor UUID, required for update only
 Interval in seconds to perform  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [maxRetries]: #maxretries
 #### [maxRetries]
 <<EOT  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [timeout]: #timeout
@@ -75,12 +97,18 @@ Interval in seconds to perform
 Health check methods timeout in  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [urlPath]: #urlpath
 #### [urlPath]
 If monitor is "HTTP", this specifies URL path  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

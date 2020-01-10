@@ -24,26 +24,32 @@ classes:
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
   
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [defaultFlag]: #defaultflag
@@ -51,11 +57,19 @@ classes:
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [destinationUserAlphanumericId]: #destinationuseralphanumericid
 #### [destinationUserAlphanumericId]
   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [destinationUserId]: #destinationuserid
@@ -63,11 +77,19 @@ classes:
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [iamIdVerificationFlag]: #iamidverificationflag
 #### [iamIdVerificationFlag]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -75,11 +97,19 @@ classes:
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [realm]: #realm
 #### [realm]
 The realm of the IAMid unique identifier.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [serviceProviderId]: #serviceproviderid
@@ -87,11 +117,19 @@ The realm of the IAMid unique identifier.
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [uniqueIdentifier]: #uniqueidentifier
 #### [uniqueIdentifier]
 The IAMid Unique Identifier formed in the format of "realm-uniqueIdentifier"  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [userId]: #userid
@@ -99,17 +137,25 @@ The IAMid Unique Identifier formed in the format of "realm-uniqueIdentifier"
   
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [serviceProvider]: #serviceprovider
 #### [serviceProvider]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [user]: #user
@@ -117,6 +163,8 @@ The IAMid Unique Identifier formed in the format of "realm-uniqueIdentifier"
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
 
+
+</div>
 
 ## Count
 </div>

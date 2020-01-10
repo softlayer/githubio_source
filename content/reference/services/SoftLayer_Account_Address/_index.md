@@ -30,44 +30,80 @@ SoftLayer's address service allows you to access and manage addresses associated
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [createObject](/reference/services/SoftLayer_Account_Address/createObject)
 Create a new address record.
+</div>
+
+<div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Account_Address/editObject)
 Edit an address record.
+</div>
+
+<div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Account_Address/getAccount)
 Retrieve the account to which this address belongs.
+</div>
+
+<div class="method-row">
 
 #### [getAllDataCenters](/reference/services/SoftLayer_Account_Address/getAllDataCenters)
 Retrieve a list of SoftLayer datacenter addresses.
+</div>
+
+<div class="method-row">
 
 #### [getCreateUser](/reference/services/SoftLayer_Account_Address/getCreateUser)
 Retrieve the customer user who created this address.
+</div>
+
+<div class="method-row">
 
 #### [getLocation](/reference/services/SoftLayer_Account_Address/getLocation)
 Retrieve the location of this address.
+</div>
+
+<div class="method-row">
 
 #### [getModifyEmployee](/reference/services/SoftLayer_Account_Address/getModifyEmployee)
 Retrieve the employee who last modified this address.
+</div>
+
+<div class="method-row">
 
 #### [getModifyUser](/reference/services/SoftLayer_Account_Address/getModifyUser)
 Retrieve the customer user who last modified this address.
+</div>
+
+<div class="method-row">
 
 #### [getNetworkAddress](/reference/services/SoftLayer_Account_Address/getNetworkAddress)
 Retrieve a list of SoftLayer datacenter addresses.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Account_Address/getObject)
 Retrieve a SoftLayer_Account_Address record.
+</div>
+
+<div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_Account_Address/getType)
 Retrieve an account address' type.
+</div>
+</div>
 
 </div>
 

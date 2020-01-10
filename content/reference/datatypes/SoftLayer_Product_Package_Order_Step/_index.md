@@ -24,26 +24,32 @@ Each package has at least 1 step to the ordering process. For server orders, the
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 The unique identifier for this object. It is not used anywhere but in this object.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [step]: #step
@@ -51,23 +57,35 @@ The unique identifier for this object. It is not used anywhere but in this objec
 The number of the step in the order process for this package. These are sequential and only needed for step-based ordering.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [inclusivePreviousSteps]: #inclusiveprevioussteps
 #### [inclusivePreviousSteps]
 The next steps in the ordering process for the package tied to this object, including this step.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Order_Step_Next'>SoftLayer_Product_Package_Order_Step_Next[] </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [nextSteps]: #nextsteps
 #### [nextSteps]
 The next steps in the ordering process for the package tied to this object.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Order_Step_Next'>SoftLayer_Product_Package_Order_Step_Next[] </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [previousSteps]: #previoussteps
@@ -76,7 +94,10 @@ The item to which this object belongs.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Order_Step_Next'>SoftLayer_Product_Package_Order_Step_Next[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [inclusivePreviousStepCount]: #inclusivepreviousstepcount
@@ -85,6 +106,9 @@ A count of the next steps in the ordering process for the package tied to this o
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [nextStepCount]: #nextstepcount
 #### [nextStepCount]
@@ -92,12 +116,17 @@ A count of the next steps in the ordering process for the package tied to this o
 <span class="type-label">Type: </span>**unsigned long**
 
 
+</div>
+<div class="prop-row">
+
 -----
 [previousStepCount]: #previousstepcount
 #### [previousStepCount]
 A count of the item to which this object belongs.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

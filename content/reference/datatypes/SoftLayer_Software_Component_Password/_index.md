@@ -32,26 +32,32 @@ This SoftLayer_Software_Component_Password data type contains a password for a s
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 The date this username/password pair was created.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -59,11 +65,19 @@ The date this username/password pair was created.
 An id number for this specific username/password pair.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date of the last modification to this username/password pair.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [notes]: #notes
@@ -71,11 +85,19 @@ The date of the last modification to this username/password pair.
 A note string stored for this username/password pair.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [password]: #password
 #### [password]
 The password part of the username/password pair.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [port]: #port
@@ -83,11 +105,19 @@ The password part of the username/password pair.
 The application access port for the Software Component.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [softwareId]: #softwareid
 #### [softwareId]
 An id number for the software component this username/password pair is valid for.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [username]: #username
@@ -95,17 +125,25 @@ An id number for the software component this username/password pair is valid for
 The username part of the username/password pair.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [software]: #software
 #### [software]
 The SoftLayer_Software_Component instance that this username/password pair is valid for.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [sshKeys]: #sshkeys
@@ -114,7 +152,10 @@ SSH keys to be installed on the server during provisioning or an OS reload.
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Ssh_Key'>SoftLayer_Security_Ssh_Key[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [sshKeyCount]: #sshkeycount
@@ -122,6 +163,8 @@ SSH keys to be installed on the server during provisioning or an OS reload.
 A count of sSH keys to be installed on the server during provisioning or an OS reload.   
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 

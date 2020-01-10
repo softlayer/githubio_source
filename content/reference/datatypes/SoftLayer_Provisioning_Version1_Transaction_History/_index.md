@@ -24,26 +24,32 @@ classes:
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [finishDate]: #finishdate
 #### [finishDate]
 The finish date of a transaction history record.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [guestId]: #guestid
@@ -51,11 +57,19 @@ The finish date of a transaction history record.
 The guest ID associated with a transaction history.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [hardwareId]: #hardwareid
 #### [hardwareId]
 The hardware ID associated with a transaction history.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hostId]: #hostid
@@ -63,11 +77,19 @@ The hardware ID associated with a transaction history.
 The host ID associated with a transaction history.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [id]: #id
 #### [id]
 The ID associated with a transaction history.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [startDate]: #startdate
@@ -75,11 +97,19 @@ The ID associated with a transaction history.
 The start date of a transaction history record.  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [transactionId]: #transactionid
 #### [transactionId]
 The transaction ID associated with a transaction history.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [transactionStatusId]: #transactionstatusid
@@ -87,17 +117,25 @@ The transaction ID associated with a transaction history.
 The transaction status ID associated with a transaction history.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [guest]: #guest
 #### [guest]
 The guest from where transaction history originates.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [hardware]: #hardware
@@ -105,11 +143,19 @@ The guest from where transaction history originates.
 The hardware from where transaction history originates.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [transaction]: #transaction
 #### [transaction]
 The transaction from where transaction history originates.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [transactionStatus]: #transactionstatus
@@ -117,6 +163,8 @@ The transaction from where transaction history originates.
 The transaction status of a transaction history.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_Status'>SoftLayer_Provisioning_Version1_Transaction_Status </a>**
 
+
+</div>
 
 ## Count
 </div>

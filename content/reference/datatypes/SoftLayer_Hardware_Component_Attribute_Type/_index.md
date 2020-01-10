@@ -24,26 +24,32 @@ The SoftLayer_Hardware_Component_Attribute_Type data type contains general infor
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [description]: #description
 #### [description]
 The description for the date that a hardware component attribute type's [SoftLayer_Hardware_Component_Attribute]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Attribute">}}) contains.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [id]: #id
@@ -51,11 +57,19 @@ The description for the date that a hardware component attribute type's [SoftLay
 A hardware component attribute type's Id.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [keyName]: #keyname
 #### [keyName]
 A hardware component attribute type's unique name.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [name]: #name
@@ -63,6 +77,8 @@ A hardware component attribute type's unique name.
 A hardware component attribute type's name.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

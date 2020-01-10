@@ -24,26 +24,32 @@ A property provides additional information about a volume which it is assigned t
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [createDate]: #createdate
 #### [createDate]
 The date a property was created.  
 <span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [modifyDate]: #modifydate
@@ -51,11 +57,19 @@ The date a property was created.
 The date a property was last modified;  
 <span class="type-label">Type: </span>**dateTime**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [value]: #value
 #### [value]
 The value of a property.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [volumeId]: #volumeid
@@ -63,17 +77,25 @@ The value of a property.
 The volume id which a property is associated with.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [type]: #type
 #### [type]
 The type provides a standardized definition for a property.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Property_Type'>SoftLayer_Network_Storage_Property_Type </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [volume]: #volume
@@ -81,6 +103,8 @@ The type provides a standardized definition for a property.
 The associated volume for a property.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**
 
+
+</div>
 
 ## Count
 </div>

@@ -44,35 +44,62 @@ The SoftLayer_Dns_Domain_ResourceRecord_SrvType service controls the creation, m
 <div class="view-filters">
     <div class="clearfix">
         <div class="search-input-box">
-            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
                 type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
         </div>
     </div>
 </div>
 
+<div id="method-div">
+
+<div class="method-row">
+
 #### [createObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/createObject)
 Create an SRV record.
+</div>
+
+<div class="method-row">
 
 #### [createObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/createObjects)
 Create multiple SRV records.
+</div>
+
+<div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/deleteObject)
 Delete a domain's SRV record.
+</div>
+
+<div class="method-row">
 
 #### [deleteObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/deleteObjects)
 Delete multiple SRV records from a domain.
+</div>
+
+<div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/editObject)
 Edit a domain's SRV record.
+</div>
+
+<div class="method-row">
 
 #### [editObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/editObjects)
 Edit multiple domain SRV records.
+</div>
+
+<div class="method-row">
 
 #### [getDomain](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/getDomain)
 Retrieve the domain that a resource record belongs to.
+</div>
+
+<div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/getObject)
 Retrieve a SoftLayer_Dns_Domain_ResourceRecord_SrvType record.
+</div>
+</div>
 
 </div>
 

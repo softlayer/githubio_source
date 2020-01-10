@@ -24,26 +24,32 @@ This class is used to organize categories for a service offering. A service offe
 
 
 
-<!-- Service Filer BEGIN -->
+<!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
             <div class="search-input-box">
-                <input placeholder="Method Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
                     type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
             </div>
         </div>
 </div>
-<!-- Service Filer END -->
+<!-- Filer END -->
 
 <div id="properties" class="content">
 <div id="localProperties" class="prop-content" >
 
 ## Local
+<div class="prop-row">
+
 -----
 [itemCategoryId]: #itemcategoryid
 #### [itemCategoryId]
 The item category id associated with this group.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [packageId]: #packageid
@@ -51,11 +57,19 @@ The item category id associated with this group.
 The service offering id associated with this group.  
 <span class="type-label">Type: </span>**integer**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [sort]: #sort
 #### [sort]
 The sort value for this group.  
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [title]: #title
@@ -63,23 +77,35 @@ The sort value for this group.
 An optional title associated with this group. E.g., for operating systems, this will be the manufacturer.  
 <span class="type-label">Type: </span>**string**
 
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 
 <div id="relationalProperties"  class="prop-content" >
 
 ## Relational
+<div class="prop-row">
+
 -----
 [category]: #category
 #### [category]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**
 
+
+</div>
+<div class="prop-row">
+
 -----
 [package]: #package
 #### [package]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**
+
+
+</div>
+<div class="prop-row">
 
 -----
 [prices]: #prices
@@ -88,7 +114,10 @@ An optional title associated with this group. E.g., for operating systems, this 
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**
 
 
+</div>
+
 ## Count
+<div class="prop-row">
 
 -----
 [priceCount]: #pricecount
@@ -96,6 +125,8 @@ An optional title associated with this group. E.g., for operating systems, this 
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
+
+</div>
 </div>
 
 
