@@ -12,7 +12,8 @@ tags:
 
 
 
-SoftLayer provides an XML-RPC interface in addition to [[SOAP]] and [[REST]]. The XML-RPC API is built to mimic the SOAP interface. We recommend using the XML-RPC API when your chosen language doesn't have proper SOAP support.
+SoftLayer provides an XML-RPC interface in addition to [SOAP](/article/soap) and [REST](/article/rest). The XML-RPC API is built to mimic the SOAP interface. We recommend using the XML-RPC API when your chosen language doesn't have proper SOAP support.
+
 ## Endpoint URLs
 The SoftLayer XML-RPC API has one endpoint per available API service. Each endpoint has a unique URL containing the service name of the API services that it calls.  For example:
 `https://api.softlayer.com/xmlrpc/v3/<serviceName>`
