@@ -58,6 +58,10 @@ pluralizeListTitles = false
 	identifier = "rest"
 	url = "/rest/"
 [[menu.main]]
+    name = "PHP"
+    identifier = "php"
+    url = "/php/"
+[[menu.main]]
     name = "Tools"
     identifier = "tools"
     url = "/tools/"

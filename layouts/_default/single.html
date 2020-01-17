@@ -25,8 +25,11 @@
     <hr>
     <div class="row">
 		<div class="col-md-12">
-            <div class="well well-sm release-note" style="word-wrap: break-word;">
-				<h3>{{ .Title }}<br> <small>{{ .Description }}</small></h3>
+            <div class="well well-sm  article" style="word-wrap: break-word;">
+                <div class="article-title">
+				    <h1>{{ .Title }}</h1>
+                    <small>{{ .Description }}</small>
+                </div>
 				<!-- Start deprecated block -->
                 {{ if in .Params.tags "deprecated" }}
                     <div class="alert alert-info alert-dismissable" style="margin-top:25px;margin-bottom:5px;">
