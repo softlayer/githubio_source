@@ -194,6 +194,12 @@ Retrieve the number of bytes capacity currently in use on a Storage account.
 
 <div class="method-row">
 
+#### [convertCloneDependentToIndependent](/reference/services/SoftLayer_Network_Storage/convertCloneDependentToIndependent)
+
+</div>
+
+<div class="method-row">
+
 #### [createFolder](/reference/services/SoftLayer_Network_Storage/createFolder)
 Create a new folder in the root directory.
 </div>
@@ -448,6 +454,12 @@ Retrieve the Daily Schedule which is associated with this network storage volume
 
 #### [getDependentDuplicate](/reference/services/SoftLayer_Network_Storage/getDependentDuplicate)
 Retrieve whether or not a network storage volume is a dependent duplicate.
+</div>
+
+<div class="method-row">
+
+#### [getDependentDuplicates](/reference/services/SoftLayer_Network_Storage/getDependentDuplicates)
+Retrieve the network storage volumes configured to be dependent duplicates of a volume.
 </div>
 
 <div class="method-row">
