@@ -1,5 +1,5 @@
 ---
-title: "Working with Metric_Tracking_Object.py"
+title: "Working with Metric_Tracking_Object"
 description: "A few examples on interacting with Metric tracking object"
 
 date: "2019-12-20"
@@ -18,35 +18,12 @@ import SoftLayer
 import json
 
 client = SoftLayer.create_client_from_env()
-virtual_service = client['Account']
+account_service = client['Account']
 
 mask = 'id,metricTrackingObject[id]'
 
 try:
-    response = virtual_service.getVirtualGuests(mask = mask)
-    print(json.dumps(response, sort_keys=True, indent=2, separators=(',', ': ')))
-except SoftLayer.SoftLayerAPIError as e:
-    print("Unable to list the response for the package: \nfaultCode= %s, \n \nfaultString= %s"
-          % (e.faultCode, e.faultString))
-```
-
-### Get back bone bandwidth graph
-
-```python
-import SoftLayer
-import json
-
-
-client = SoftLayer.create_client_from_env()
-virtual_service = client['Metric_Tracking_Object']
-
-body = 'HostReservedMemoryUsage'
-"""
-Set with Metric_Tracking_Object id. 
-"""
-id = '123456789'
-try:
-    response = virtual_service.getBackboneBandwidthGraph(body, id = id)
+    response = account_service.getVirtualGuests(mask = mask)
     print(json.dumps(response, sort_keys=True, indent=2, separators=(',', ': ')))
 except SoftLayer.SoftLayerAPIError as e:
     print("Unable to list the response for the package: \nfaultCode= %s, \n \nfaultString= %s"
@@ -60,10 +37,10 @@ import SoftLayer
 import json
 
 client = SoftLayer.create_client_from_env()
-virtual_service = client['Metric_Tracking_Object']
+metric_service = client['Metric_Tracking_Object']
 
-startDate = '2019-07-09T19:06:11-06:00 America/dallas'
-endDate = '2019-07-09T19:06:11-16:00 America/dallas'
+startDate = '2019-07-09T19:06:11-06:00'
+endDate = '2019-07-09T19:06:11-16:00'
 
 body = 'public'
 
@@ -73,7 +50,7 @@ Set with Metric_Tracking_Object id.
 id = '123456'
 
 try:
-    response = virtual_service.getBandwidthData(startDate, endDate, body, id = id)
+    response = metric_service.getBandwidthData(startDate, endDate, body, id = id)
     print(json.dumps(response, sort_keys=True, indent=2, separators=(',', ': ')))
 except SoftLayer.SoftLayerAPIError as e:
     print("Unable to list the response for the package: \nfaultCode= %s, \n \nfaultString= %s"
@@ -85,11 +62,11 @@ except SoftLayer.SoftLayerAPIError as e:
 import SoftLayer
 
 client = SoftLayer.create_client_from_env()
-virtual_service = client['Metric_Tracking_Object']
+metric_service = client['Metric_Tracking_Object']
 
 body = {
     "baseUnit": "",
-    "endDatetime": "2019-07-09T19:06:11-06:00 America/dallas",
+    "endDatetime": "2019-07-09T19:06:11-06:00",
     "metrics": [{
         "keyName": "VIRTUAL_DEDICATED_RACK",
         "name": "Bandwidth Allotment",
@@ -102,7 +79,7 @@ Set with Metric_Tracking_Object id.
 id = '123456'
 
 try:
-    response = virtual_service.getCustomGraphData(body, id = id)
+    response = metric_service.getCustomGraphData(body, id = id)
     print(response)
 except SoftLayer.SoftLayerAPIError as e:
     print("Unable to list the response for the package: \nfaultCode= %s, \n \nfaultString= %s"
@@ -115,10 +92,10 @@ import SoftLayer
 import json
 
 client = SoftLayer.create_client_from_env()
-virtual_service = client['Metric_Tracking_Object']
+metric_service = client['Metric_Tracking_Object']
 
-startDate = '2019-07-09T19:06:11-06:00 America/dallas'
-endDate = '2019-07-09T19:06:11-16:00 America/dallas'
+startDate = '2019-07-09T19:06:11-06:00'
+endDate = '2019-07-09T19:06:11-16:00'
 
 body = ['InstanceCount','HostMemoryUsage']
 
@@ -128,8 +105,7 @@ Set with Metric_Tracking_Object id.
 id = '123456'
 
 try:
-
-    response = virtual_service.getDetailsForDateRange(startDate, endDate, body, id = id)
+    response = metric_service.getDetailsForDateRange(startDate, endDate, body, id = id)
     print(json.dumps(response, sort_keys=True, indent=2, separators=(',', ': ')))
 except SoftLayer.SoftLayerAPIError as e:
     print("Unable to list the response for the package: \nfaultCode= %s, \n \nfaultString= %s"
@@ -143,7 +119,7 @@ import SoftLayer
 import json
 
 client = SoftLayer.create_client_from_env()
-virtual_service = client['Metric_Tracking_Object']
+metric_service = client['Metric_Tracking_Object']
 
 """
 Set with Metric_Tracking_Object id. 
@@ -151,7 +127,7 @@ Set with Metric_Tracking_Object id.
 id = '123456'
 
 try:
-    response = virtual_service.getMetricDataTypes(id = id)
+    response = metric_service.getMetricDataTypes(id = id)
     print(json.dumps(response, sort_keys=True, indent=2, separators=(',', ': ')))
 except SoftLayer.SoftLayerAPIError as e:
     print("Unable to list the response for the package: \nfaultCode= %s, \n \nfaultString= %s"
@@ -165,7 +141,7 @@ import SoftLayer
 import json
 
 client = SoftLayer.create_client_from_env()
-virtual_service = client['Metric_Tracking_Object']
+metric_service = client['Metric_Tracking_Object']
 
 """
 Set with Metric_Tracking_Object id. 
@@ -173,7 +149,7 @@ Set with Metric_Tracking_Object id.
 id = '123456'
 
 try:
-    response = virtual_service.getObject(id = id)
+    response = metric_service.getObject(id = id)
     print(json.dumps(response, sort_keys=True, indent=2, separators=(',', ': ')))
 except SoftLayer.SoftLayerAPIError as e:
     print("Unable to list the response for the package: \nfaultCode= %s, \n \nfaultString= %s"
@@ -187,10 +163,10 @@ import SoftLayer
 import json
 
 client = SoftLayer.create_client_from_env()
-virtual_service = client['Metric_Tracking_Object']
+metric_service = client['Metric_Tracking_Object']
 
-startDate = '2019-07-09T19:06:11-06:00 America/dallas'
-endDate = '2019-07-09T19:06:11-16:00 America/dallas'
+startDate = '2019-07-09T19:06:11-06:00'
+endDate = '2019-07-09T19:06:11-16:00'
 
 body = [{
     'keyName': 'CPU0',
@@ -215,7 +191,7 @@ Set with Metric_Tracking_Object id.
 id = '123456'    
 
 try:
-    response = virtual_service.getSummaryData(startDate,
+    response = metric_service.getSummaryData(startDate,
                                               endDate, body, 600, id = id)
     print(json.dumps(response, sort_keys=True, indent=2, separators=(',', ': ')))
 except SoftLayer.SoftLayerAPIError as e:
@@ -223,19 +199,14 @@ except SoftLayer.SoftLayerAPIError as e:
           % (e.faultCode, e.faultString))
 ```
 
-### Get summary data
+### Get Metric Tracking Object type
 
 ```python
 import SoftLayer
 import json
 
 client = SoftLayer.create_client_from_env()
-virtual_service = client['Metric_Tracking_Object']
-
-startDate = '2019-07-09T19:06:11-06:00 America/dallas'
-endDate = '2019-07-09T19:06:11-16:00 America/dallas'
-
-body = 'HostReservedMemoryUsage'
+metric_service = client['Metric_Tracking_Object']
 
 """
 Set with Metric_Tracking_Object id. 
@@ -243,29 +214,7 @@ Set with Metric_Tracking_Object id.
 id = '123456'
 
 try:
-    response = virtual_service.getSummaryData(body, id = id)
-    print(json.dumps(response, sort_keys=True, indent=2, separators=(',', ': ')))
-except SoftLayer.SoftLayerAPIError as e:
-    print("Unable to list the response for the package: \nfaultCode= %s, \nfaultString= %s"
-          % (e.faultCode, e.faultString))
-```
-
-### Get summary data
-
-```python
-import SoftLayer
-import json
-
-client = SoftLayer.create_client_from_env()
-virtual_service = client['Metric_Tracking_Object']
-
-"""
-Set with Metric_Tracking_Object id. 
-"""
-id = '123456'
-
-try:
-    response = virtual_service.getType(id = id)
+    response = metric_service.getType(id = id)
     print(json.dumps(response, sort_keys=True, indent=2, separators=(',', ': ')))
 except SoftLayer.SoftLayerAPIError as e:
     print("Unable to list the response for the package: \nfaultCode= %s, \n \nfaultString= %s"
