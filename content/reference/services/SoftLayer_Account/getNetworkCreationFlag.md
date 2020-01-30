@@ -1,6 +1,6 @@
 ---
 title: "getNetworkCreationFlag"
-description: "Retrieve whether or not this account can define their own networks."
+description: "Retrieve [Deprecated] Whether or not this account can define their own networks."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNetworkCreationFlag
 
-Retrieve whether or not this account can define their own networks.
+Retrieve [Deprecated] Whether or not this account can define their own networks.
 
 
 ## Overview 
-Retrieve whether or not this account can define their own networks.
+Retrieve [Deprecated] Whether or not this account can define their own networks.
 
 -----
 

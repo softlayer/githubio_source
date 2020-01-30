@@ -1568,7 +1568,7 @@ An account's associated NAS storage volumes.
 -----
 [networkCreationFlag]: #networkcreationflag
 #### [networkCreationFlag]
-Whether or not this account can define their own networks.  
+[Deprecated] Whether or not this account can define their own networks.  
 <span class="type-label">Type: </span>**boolean**
 
 
