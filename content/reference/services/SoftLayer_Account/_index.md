@@ -1049,7 +1049,7 @@ Get a collection of active NetApp software account license keys.
 <div class="method-row">
 
 #### [getNetworkCreationFlag](/reference/services/SoftLayer_Account/getNetworkCreationFlag)
-Retrieve whether or not this account can define their own networks.
+Retrieve [Deprecated] Whether or not this account can define their own networks.
 </div>
 
 <div class="method-row">

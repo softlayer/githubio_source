@@ -933,6 +933,12 @@ Retrieve when applicable, the virtual guest associated with a Storage service.
 
 <div class="method-row">
 
+#### [getVolumeCountLimits](/reference/services/SoftLayer_Network_Storage_Backup_Evault/getVolumeCountLimits)
+Retrieves an array of volume count limits per location and globally.
+</div>
+
+<div class="method-row">
+
 #### [getVolumeDuplicateParameters](/reference/services/SoftLayer_Network_Storage_Backup_Evault/getVolumeDuplicateParameters)
 
 </div>
