@@ -1427,7 +1427,7 @@ Retrieve customer specified URIs that are downloaded onto a newly provisioned or
 <div class="method-row">
 
 #### [getPptpVpnAllowedFlag](/reference/services/SoftLayer_Account/getPptpVpnAllowedFlag)
-Retrieve boolean flag dictating whether or not this account supports PPTP VPN Access.
+Retrieve (Deprecated) Boolean flag dictating whether or not this account supports PPTP VPN Access.
 </div>
 
 <div class="method-row">

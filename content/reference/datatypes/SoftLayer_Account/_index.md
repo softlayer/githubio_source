@@ -2138,7 +2138,7 @@ Customer specified URIs that are downloaded onto a newly provisioned or reloaded
 -----
 [pptpVpnAllowedFlag]: #pptpvpnallowedflag
 #### [pptpVpnAllowedFlag]
-Boolean flag dictating whether or not this account supports PPTP VPN Access.  
+(Deprecated) Boolean flag dictating whether or not this account supports PPTP VPN Access.  
 <span class="type-label">Type: </span>**boolean**
 
 

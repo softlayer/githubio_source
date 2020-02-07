@@ -1,6 +1,6 @@
 ---
 title: "getPptpVpnAllowedFlag"
-description: "Retrieve boolean flag dictating whether or not this account supports PPTP VPN Access."
+description: "Retrieve (Deprecated) Boolean flag dictating whether or not this account supports PPTP VPN Access."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPptpVpnAllowedFlag
 
-Retrieve boolean flag dictating whether or not this account supports PPTP VPN Access.
+Retrieve (Deprecated) Boolean flag dictating whether or not this account supports PPTP VPN Access.
 
 
 ## Overview 
-Retrieve boolean flag dictating whether or not this account supports PPTP VPN Access.
+Retrieve (Deprecated) Boolean flag dictating whether or not this account supports PPTP VPN Access.
 
 -----
 
