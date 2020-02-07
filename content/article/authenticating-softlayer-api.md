@@ -73,12 +73,39 @@ while it's XML-RPC counterpart looks like this:
 With REST, you can simply use the HTTP Basic Authentication
 `curl  -vvv -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getObject'`
 
-## Generating Your API Key
+## Generating Your SoftLayer API Key
 There are two ways to generate an API access key, via the portal or by direct API calls. To generate your own API access key in the customer portal see this article: [Managing classic infrastructure API keys](https://cloud.ibm.com/docs/iam?topic=iam-classic_keys&locale=dk)
 
 To generate an API access key via API calls invoke the [SoftLayer_User_Customer::addApiAuthenticationKey](https://softlayer.github.io/reference/services/SoftLayer_User_Customer/addApiAuthenticationKey) method in the SoftLayer_User_Customer service. To remove a user's API access key execute the [SoftLayer_User_Customer::removeApiAuthenticationKey](https://softlayer.github.io/reference/services/SoftLayer_User_Customer/removeApiAuthenticationKey) method in the same service. Be careful when removing API access keys. Removing these keys will remove that user's ability to use the SoftLayer API.
 
 [Example](/python/manageUsers/)
+
+### cloud.ibm.com API key
+>*NOTE* when using a cloud.ibm.com key, your username when authenticating with the SL API will be LITTERALLY 'apikey', not your actual username.
+
+- [Understanding API keys](https://cloud.ibm.com/docs/iam?topic=iam-manapikey#manapikey)
+- [Managing user API keys](https://cloud.ibm.com/docs/iam?topic=iam-userapikey#userapikey)
+
+```
+✗ ibmcloud iam api-key-create  TEST-cgallo01 -d "A test api key"
+Creating API key TEST-cgallo01 as cgallo@us.ibm.com...
+OK
+API key TEST-cgallo01 was created
+
+Please preserve the API key! It cannot be retrieved after it's created.
+
+Name          TEST-cgallo01
+Description   A test api key
+Created At    2020-02-07T22:05+0000
+API Key       aAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaA
+Locked        false
+UUID          ApiKey-1c505b6d-9e81-4b87-b929-f9493c2dea63
+
+✗ SL_USER=apikey
+✗ SL_APIKEY=aAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaA
+✗  curl -g -u $SL_USER:$SL_APIKEY  'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getObject.json?objectMask=mask[id]'
+{"id":123456}
+```
 
 ## Temporary API Key
 It is possible to get a short lived API key using a username/password combination with [SoftLayer_User_Customer::getPortalLoginToken](/reference/services/SoftLayer_User_Customer/getPortalLoginToken/). This token can be used in place of an API key during calls and will expire after 48 hours.
