@@ -100,6 +100,12 @@ manufacturer name
 
 <div class="method-row">
 
+#### [getMemberGatewayImagesMatch](/reference/services/SoftLayer_Network_Gateway/getMemberGatewayImagesMatch)
+
+</div>
+
+<div class="method-row">
+
 #### [getMembers](/reference/services/SoftLayer_Network_Gateway/getMembers)
 Retrieve the members for this gateway.
 </div>
@@ -172,8 +178,20 @@ Retrieve available upgrade prices
 
 <div class="method-row">
 
+#### [isAccountWhiteListed](/reference/services/SoftLayer_Network_Gateway/isAccountWhiteListed)
+
+</div>
+
+<div class="method-row">
+
 #### [rebuildvSRXHACluster](/reference/services/SoftLayer_Network_Gateway/rebuildvSRXHACluster)
 Rebuild Juniper vSRX HA Gateway
+</div>
+
+<div class="method-row">
+
+#### [setGatewayPassword](/reference/services/SoftLayer_Network_Gateway/setGatewayPassword)
+
 </div>
 
 <div class="method-row">

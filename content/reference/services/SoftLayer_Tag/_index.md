@@ -64,6 +64,12 @@ Get all valid tag types.
 
 <div class="method-row">
 
+#### [getAttachedTagsForCurrentUser](/reference/services/SoftLayer_Tag/getAttachedTagsForCurrentUser)
+Get the tags attached to references.
+</div>
+
+<div class="method-row">
+
 #### [getObject](/reference/services/SoftLayer_Tag/getObject)
 Retrieve a SoftLayer_Tag record.
 </div>
@@ -78,6 +84,12 @@ Retrieve references that tie object to the tag.
 
 #### [getTagByTagName](/reference/services/SoftLayer_Tag/getTagByTagName)
 Get the tag object based on what the user inputs.
+</div>
+
+<div class="method-row">
+
+#### [getUnattachedTagsForCurrentUser](/reference/services/SoftLayer_Tag/getUnattachedTagsForCurrentUser)
+Get the tags not attached to references.
 </div>
 
 <div class="method-row">
