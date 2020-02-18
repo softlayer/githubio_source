@@ -6,12 +6,12 @@ date: "2020-01-22"
 classes: 
     - "SoftLayer_Network_Pod"    
 tags:
-    - "Network_Pod"
+    - "Network"
 ---
 
 [Network_Pod](https://https://sldn.softlayer.com/reference/services/SoftLayer_Network_Pod/)
 
-### Get the all Metric Pod
+### Get all Metric Pod
 
 ```python
 import SoftLayer
@@ -28,7 +28,7 @@ except SoftLayer.SoftLayerAPIError as e:
           % (e.faultCode, e.faultString))
 ```
 
-### Get the all Metric Pod using filters
+###  Get all Pods in a datacenter
 
 ```python
 import SoftLayer
@@ -48,7 +48,7 @@ except SoftLayer.SoftLayerAPIError as e:
           % (e.faultCode, e.faultString))
 ```
 
-### Get the network pod capabilities
+### Get network pod capabilities
 
 ```python
 import SoftLayer
@@ -86,10 +86,9 @@ try:
 except SoftLayer.SoftLayerAPIError as e:
     print("Unable to list the response for the package: \nfaultCode= %s, \n \nfaultString= %s"
           % (e.faultCode, e.faultString))
-
 ```
 
-### Get the list capabilities network pod
+### List network pod capabilities
 
 ```python
 import SoftLayer
@@ -98,13 +97,19 @@ import json
 client = SoftLayer.create_client_from_env()
 network_pod_service = client['Network_Pod']
 
-# name =  datacenter name . pod name 
-name = "ams01.pod01"
-
 try:
-    response = network_pod_service.listCapabilities(id=name)
+    response = network_pod_service.listCapabilities()
     print(json.dumps(response, sort_keys=True, indent=2, separators=(',', ': ')))
 except SoftLayer.SoftLayerAPIError as e:
     print("Unable to list the response for the package: \nfaultCode= %s, \n \nfaultString= %s"
           % (e.faultCode, e.faultString))
+```
+**Output Example**
+
+```json5
+[
+  "SUPPORTS_CUSTOMER_DEFINED_NETWORK",
+  "SUPPORTS_MULTI_VLAN_DEDICATED_FIREWALL",
+  "SUPPORTS_SECURITY_GROUP"
+]
 ```
