@@ -266,7 +266,7 @@ The hardware that a network component resides in.
 -----
 [interface]: #interface
 #### [interface]
-A hardware switch's interface to the bandwidth pod.  
+[DEPRECATED] A hardware switch's interface to the bandwidth pod.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Interface'>SoftLayer_Network_Bandwidth_Version1_Interface </a>**
 
 

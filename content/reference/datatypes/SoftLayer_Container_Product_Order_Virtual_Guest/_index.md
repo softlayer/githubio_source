@@ -78,6 +78,16 @@ This is the ID of the [SoftLayer_Billing_Order_Item]({{<ref "reference/datatypes
 <div class="prop-row">
 
 -----
+[bootCategoryCode]: #bootcategorycode
+#### [bootCategoryCode]
+Used to identify which category should be used for the boot disk.  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [bootMode]: #bootmode
 #### [bootMode]
 The mode used to boot the [SoftLayer_Virtual_Guest]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest">}}).  Supported values are 'PV' and 'HVM'.  

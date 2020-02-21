@@ -414,6 +414,12 @@ Retrieve the bandwidth allotments for an account projected to go over allocation
 
 <div class="method-row">
 
+#### [getBandwidthList](/reference/services/SoftLayer_Account/getBandwidthList)
+
+</div>
+
+<div class="method-row">
+
 #### [getBareMetalInstances](/reference/services/SoftLayer_Account/getBareMetalInstances)
 Retrieve an account's associated bare metal server objects.
 </div>
