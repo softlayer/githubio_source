@@ -274,6 +274,16 @@ The item categories associated with a package, including information detailing w
 <div class="prop-row">
 
 -----
+[defaultBootCategoryCode]: #defaultbootcategorycode
+#### [defaultBootCategoryCode]
+The default boot category code for the package.  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [defaultRamItems]: #defaultramitems
 #### [defaultRamItems]
 A collection of valid RAM items available for purchase in this package.  
