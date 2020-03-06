@@ -48,7 +48,7 @@ The SoftLayer_Metric_Tracking_Object service contains methods that allow users t
 <div class="method-row">
 
 #### [getBackboneBandwidthGraph](/reference/services/SoftLayer_Metric_Tracking_Object/getBackboneBandwidthGraph)
-Retrieve a graph of a SoftLayer backbone's recent traffic activity.
+[DEPRECATED] Retrieve a graph of a SoftLayer backbone's recent traffic activity.
 </div>
 
 <div class="method-row">

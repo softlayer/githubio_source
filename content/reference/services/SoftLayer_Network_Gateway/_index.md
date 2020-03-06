@@ -64,6 +64,12 @@ Change Juniper vSRX version on a Gateway
 
 <div class="method-row">
 
+#### [checkAccountWhiteList](/reference/services/SoftLayer_Network_Gateway/checkAccountWhiteList)
+
+</div>
+
+<div class="method-row">
+
 #### [createObject](/reference/services/SoftLayer_Network_Gateway/createObject)
 Create a new server gateway
 </div>

@@ -42,6 +42,16 @@ classes:
 <div class="prop-row">
 
 -----
+[descriptions]: #descriptions
+#### [descriptions]
+  
+<span class="type-label">Type: </span>**array of strings**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [names]: #names
 #### [names]
   

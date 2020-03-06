@@ -13,7 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::convertCloneDependentToIndependent
 
-
+Splits a clone from its parent allowing it to be an independent volume.
 
 
 ## Overview 
