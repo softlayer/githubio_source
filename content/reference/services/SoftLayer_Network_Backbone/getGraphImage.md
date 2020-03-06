@@ -1,6 +1,6 @@
 ---
 title: "getGraphImage"
-description: "Retrieve a graph of a SoftLayer backbone's last 24 hours of activity. getGraphImage returns a PNG image measuring 827 pi... "
+description: "[DEPRECATED] Retrieve a graph of a SoftLayer backbone's last 24 hours of activity. getGraphImage returns a PNG image mea... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Network_Backbone](/reference/services/SoftLayer_Network_Backbone)::getGraphImage
 
-Retrieve a graph of a SoftLayer backbone's last 24 hours of activity.
+[DEPRECATED] Retrieve a graph of a SoftLayer backbone's last 24 hours of activity.
 
 
 ## Overview 
-Retrieve a graph of a SoftLayer backbone's last 24 hours of activity. getGraphImage returns a PNG image measuring 827 pixels by 293 pixels.
+[DEPRECATED] Retrieve a graph of a SoftLayer backbone's last 24 hours of activity. getGraphImage returns a PNG image measuring 827 pixels by 293 pixels.
 
 -----
 

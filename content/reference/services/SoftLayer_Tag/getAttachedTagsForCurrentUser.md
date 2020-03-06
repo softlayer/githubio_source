@@ -1,6 +1,6 @@
 ---
 title: "getAttachedTagsForCurrentUser"
-description: "Get all tags with at least one reference attached to it for the current account."
+description: "Get all tags with at least one reference attached to it for the current account. The total items header for this method... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Get the tags attached to references.
 
 
 ## Overview 
-Get all tags with at least one reference attached to it for the current account. 
+Get all tags with at least one reference attached to it for the current account. The total items header for this method contains the total number of attached tags even if a result limit is applied. 
 
 -----
 

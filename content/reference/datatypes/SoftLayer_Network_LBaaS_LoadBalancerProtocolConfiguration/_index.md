@@ -62,6 +62,16 @@ Backends port
 <div class="prop-row">
 
 -----
+[clientTimeout]: #clienttimeout
+#### [clientTimeout]
+maximum idle time in seconds(Range: 1 to 7200), after which the load balancer brings down the client-side connection  
+<span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [frontendPort]: #frontendport
 #### [frontendPort]
 Frontends port  
@@ -105,6 +115,16 @@ Listeners UUID, required for update only
 [maxConn]: #maxconn
 #### [maxConn]
 Maximum number of allowed connections  
+<span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[serverTimeout]: #servertimeout
+#### [serverTimeout]
+maximum idle time in seconds(Range: 1 to 7200), after which the load balancer brings down the server-side connection  
 <span class="type-label">Type: </span>**integer**
 
 

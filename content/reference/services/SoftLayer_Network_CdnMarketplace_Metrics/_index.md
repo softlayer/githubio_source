@@ -46,6 +46,12 @@ Get the static & dynamic bandwidth and mapping hits of predetermined statistics 
 
 <div class="method-row">
 
+#### [getCustomerRealTimeMetrics](/reference/services/SoftLayer_Network_CdnMarketplace_Metrics/getCustomerRealTimeMetrics)
+Get the realtime metrics data for the current account. Takes the startTime and endTime and returns the total metrics data and line graph metrics data divided by the timeInterval. 
+</div>
+
+<div class="method-row">
+
 #### [getCustomerUsageMetrics](/reference/services/SoftLayer_Network_CdnMarketplace_Metrics/getCustomerUsageMetrics)
 Get the total number of predetermined statistics for direct display (no graph) for a customer's account over a given period of time 
 </div>
@@ -72,6 +78,12 @@ Get the total number of hits at a certain frequency over a given range of time. 
 
 #### [getMappingHitsMetrics](/reference/services/SoftLayer_Network_CdnMarketplace_Metrics/getMappingHitsMetrics)
 Get the total number of hits at a certain frequency over a given range of time per domain mapping. Frequency can be day, week, and month where each interval is one plot point for a graph. Return Data will be ordered based on startDate, endDate and frequency. 
+</div>
+
+<div class="method-row">
+
+#### [getMappingRealTimeMetrics](/reference/services/SoftLayer_Network_CdnMarketplace_Metrics/getMappingRealTimeMetrics)
+Get the real time metrics data for the given mapping 
 </div>
 
 <div class="method-row">
