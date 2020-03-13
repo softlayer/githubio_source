@@ -42,6 +42,16 @@ The SoftLayer_Network_LBaaS_Listener type presents a data structure for a load b
 <div class="prop-row">
 
 -----
+[clientTimeout]: #clienttimeout
+#### [clientTimeout]
+maximum idle time in seconds(Range: 1 to 7200), after which the load balancer brings down the  
+<span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [connectionLimit]: #connectionlimit
 #### [connectionLimit]
 Limit of connections a listener can accept  
@@ -106,6 +116,16 @@ Listeners protocol port number.
 #### [provisioningStatus]
 The provisioning status of listener.  
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[serverTimeout]: #servertimeout
+#### [serverTimeout]
+maximum idle time in seconds(Range: 1 to 7200), after which the load balancer brings down the  
+<span class="type-label">Type: </span>**integer**
 
 
 </div>

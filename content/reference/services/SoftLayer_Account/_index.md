@@ -414,6 +414,12 @@ Retrieve the bandwidth allotments for an account projected to go over allocation
 
 <div class="method-row">
 
+#### [getBandwidthList](/reference/services/SoftLayer_Account/getBandwidthList)
+
+</div>
+
+<div class="method-row">
+
 #### [getBareMetalInstances](/reference/services/SoftLayer_Account/getBareMetalInstances)
 Retrieve an account's associated bare metal server objects.
 </div>
@@ -1049,7 +1055,7 @@ Get a collection of active NetApp software account license keys.
 <div class="method-row">
 
 #### [getNetworkCreationFlag](/reference/services/SoftLayer_Account/getNetworkCreationFlag)
-Retrieve whether or not this account can define their own networks.
+Retrieve [Deprecated] Whether or not this account can define their own networks.
 </div>
 
 <div class="method-row">
@@ -1427,7 +1433,7 @@ Retrieve customer specified URIs that are downloaded onto a newly provisioned or
 <div class="method-row">
 
 #### [getPptpVpnAllowedFlag](/reference/services/SoftLayer_Account/getPptpVpnAllowedFlag)
-Retrieve boolean flag dictating whether or not this account supports PPTP VPN Access.
+Retrieve (Deprecated) Boolean flag dictating whether or not this account supports PPTP VPN Access.
 </div>
 
 <div class="method-row">

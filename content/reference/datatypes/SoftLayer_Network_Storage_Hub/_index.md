@@ -392,6 +392,16 @@ Whether or not a network storage volume is a dependent duplicate.
 <div class="prop-row">
 
 -----
+[dependentDuplicates]: #dependentduplicates
+#### [dependentDuplicates]
+The network storage volumes configured to be dependent duplicates of a volume.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [events]: #events
 #### [events]
 The events which have taken place on a network storage volume.  
@@ -1077,6 +1087,16 @@ A count of the billing items tied to a Storage service's bandwidth usage.
 [credentialCount]: #credentialcount
 #### [credentialCount]
 A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[dependentDuplicateCount]: #dependentduplicatecount
+#### [dependentDuplicateCount]
+A count of the network storage volumes configured to be dependent duplicates of a volume.   
 <span class="type-label">Type: </span>**unsigned long**
 
 

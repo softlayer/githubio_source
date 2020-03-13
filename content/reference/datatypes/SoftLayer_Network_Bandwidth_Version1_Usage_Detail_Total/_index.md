@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Total"
-description: "The SoftLayer_Network_Bandwidth_Usage_Detail data type contains specific information relating to bandwidth utilization a... "
+description: "[DEPRECATED] The SoftLayer_Network_Bandwidth_Usage_Detail data type contains specific information relating to bandwidth... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-The SoftLayer_Network_Bandwidth_Usage_Detail data type contains specific information relating to bandwidth utilization at a specific point in time on a given network interface. 
+[DEPRECATED] The SoftLayer_Network_Bandwidth_Usage_Detail data type contains specific information relating to bandwidth utilization at a specific point in time on a given network interface. 
 
 
 

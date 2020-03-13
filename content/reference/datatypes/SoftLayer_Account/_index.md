@@ -1568,7 +1568,7 @@ An account's associated NAS storage volumes.
 -----
 [networkCreationFlag]: #networkcreationflag
 #### [networkCreationFlag]
-Whether or not this account can define their own networks.  
+[Deprecated] Whether or not this account can define their own networks.  
 <span class="type-label">Type: </span>**boolean**
 
 
@@ -2138,7 +2138,7 @@ Customer specified URIs that are downloaded onto a newly provisioned or reloaded
 -----
 [pptpVpnAllowedFlag]: #pptpvpnallowedflag
 #### [pptpVpnAllowedFlag]
-Boolean flag dictating whether or not this account supports PPTP VPN Access.  
+(Deprecated) Boolean flag dictating whether or not this account supports PPTP VPN Access.  
 <span class="type-label">Type: </span>**boolean**
 
 

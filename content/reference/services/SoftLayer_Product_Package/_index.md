@@ -172,6 +172,12 @@ Retrieve the item categories associated with a package, including information de
 
 <div class="method-row">
 
+#### [getDefaultBootCategoryCode](/reference/services/SoftLayer_Product_Package/getDefaultBootCategoryCode)
+Retrieve the default boot category code for the package.
+</div>
+
+<div class="method-row">
+
 #### [getDefaultRamItems](/reference/services/SoftLayer_Product_Package/getDefaultRamItems)
 Retrieve a collection of valid RAM items available for purchase in this package.
 </div>

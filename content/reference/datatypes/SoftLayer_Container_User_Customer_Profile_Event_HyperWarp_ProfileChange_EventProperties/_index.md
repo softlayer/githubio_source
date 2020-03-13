@@ -162,6 +162,16 @@ classes:
 <div class="prop-row">
 
 -----
+[substate]: #substate
+#### [substate]
+  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [user_id]: #user_id
 #### [user_id]
   

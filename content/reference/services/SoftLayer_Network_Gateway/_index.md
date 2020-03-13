@@ -64,6 +64,12 @@ Change Juniper vSRX version on a Gateway
 
 <div class="method-row">
 
+#### [checkAccountWhiteList](/reference/services/SoftLayer_Network_Gateway/checkAccountWhiteList)
+
+</div>
+
+<div class="method-row">
+
 #### [createObject](/reference/services/SoftLayer_Network_Gateway/createObject)
 Create a new server gateway
 </div>
@@ -96,6 +102,12 @@ Retrieve all VLANs trunked to this gateway.
 
 #### [getManufacturer](/reference/services/SoftLayer_Network_Gateway/getManufacturer)
 manufacturer name
+</div>
+
+<div class="method-row">
+
+#### [getMemberGatewayImagesMatch](/reference/services/SoftLayer_Network_Gateway/getMemberGatewayImagesMatch)
+
 </div>
 
 <div class="method-row">
@@ -172,8 +184,20 @@ Retrieve available upgrade prices
 
 <div class="method-row">
 
+#### [isAccountWhiteListed](/reference/services/SoftLayer_Network_Gateway/isAccountWhiteListed)
+
+</div>
+
+<div class="method-row">
+
 #### [rebuildvSRXHACluster](/reference/services/SoftLayer_Network_Gateway/rebuildvSRXHACluster)
 Rebuild Juniper vSRX HA Gateway
+</div>
+
+<div class="method-row">
+
+#### [setGatewayPassword](/reference/services/SoftLayer_Network_Gateway/setGatewayPassword)
+
 </div>
 
 <div class="method-row">

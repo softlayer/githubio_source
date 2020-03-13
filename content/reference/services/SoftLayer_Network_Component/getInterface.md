@@ -1,6 +1,6 @@
 ---
 title: "getInterface"
-description: "Retrieve a hardware switch's interface to the bandwidth pod."
+description: "Retrieve [DEPRECATED] A hardware switch's interface to the bandwidth pod."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getInterface
 
-Retrieve a hardware switch's interface to the bandwidth pod.
+Retrieve [DEPRECATED] A hardware switch's interface to the bandwidth pod.
 
 
 ## Overview 
-Retrieve a hardware switch's interface to the bandwidth pod.
+Retrieve [DEPRECATED] A hardware switch's interface to the bandwidth pod.
 
 -----
 

@@ -89,7 +89,7 @@ Retrieve the hardware that a network component resides in.
 <div class="method-row">
 
 #### [getInterface](/reference/services/SoftLayer_Network_Component/getInterface)
-Retrieve a hardware switch's interface to the bandwidth pod.
+Retrieve [DEPRECATED] A hardware switch's interface to the bandwidth pod.
 </div>
 
 <div class="method-row">

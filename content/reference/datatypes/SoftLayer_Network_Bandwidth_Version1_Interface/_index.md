@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Bandwidth_Version1_Interface"
-description: "All bandwidth tracking is maintained through the switch that the bandwidth is used through.  All bandwidth is stored in... "
+description: "[DEPRECATED] All bandwidth tracking is maintained through the switch that the bandwidth is used through.  All bandwidth... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-All bandwidth tracking is maintained through the switch that the bandwidth is used through.  All bandwidth is stored in a "pod" repository.  An interface links the hardware switch with the pod repository identification number. This is only relevant to bandwidth data.  It is not common to use this. 
+[DEPRECATED] All bandwidth tracking is maintained through the switch that the bandwidth is used through.  All bandwidth is stored in a "pod" repository.  An interface links the hardware switch with the pod repository identification number. This is only relevant to bandwidth data.  It is not common to use this. 
 
 
 
@@ -70,7 +70,7 @@ The network component for this interface.
 -----
 [host]: #host
 #### [host]
-The host for an interface. This is not to be confused with a SoftLayer hardware  
+[DEPRECATED] The host for an interface. This is not to be confused with SoftLayer Hardware  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Host'>SoftLayer_Network_Bandwidth_Version1_Host </a>**
 
 
@@ -80,7 +80,7 @@ The host for an interface. This is not to be confused with a SoftLayer hardware
 -----
 [networkComponent]: #networkcomponent
 #### [networkComponent]
-The switch for an interface.  
+[DEPRECATED] The switch for an interface.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
 
 

@@ -189,6 +189,12 @@ Retrieve the number of bytes capacity currently in use on a Storage account.
 
 <div class="method-row">
 
+#### [convertCloneDependentToIndependent](/reference/services/SoftLayer_Network_Storage_Backup_Evault/convertCloneDependentToIndependent)
+Splits a clone from its parent allowing it to be an independent volume.
+</div>
+
+<div class="method-row">
+
 #### [createFolder](/reference/services/SoftLayer_Network_Storage_Backup_Evault/createFolder)
 Create a new folder in the root directory.
 </div>
@@ -455,6 +461,12 @@ Retrieve the Daily Schedule which is associated with this network storage volume
 
 #### [getDependentDuplicate](/reference/services/SoftLayer_Network_Storage_Backup_Evault/getDependentDuplicate)
 Retrieve whether or not a network storage volume is a dependent duplicate.
+</div>
+
+<div class="method-row">
+
+#### [getDependentDuplicates](/reference/services/SoftLayer_Network_Storage_Backup_Evault/getDependentDuplicates)
+Retrieve the network storage volumes configured to be dependent duplicates of a volume.
 </div>
 
 <div class="method-row">
@@ -921,6 +933,12 @@ Retrieve when applicable, the virtual guest associated with a Storage service.
 
 <div class="method-row">
 
+#### [getVolumeCountLimits](/reference/services/SoftLayer_Network_Storage_Backup_Evault/getVolumeCountLimits)
+Retrieves an array of volume count limits per location and globally.
+</div>
+
+<div class="method-row">
+
 #### [getVolumeDuplicateParameters](/reference/services/SoftLayer_Network_Storage_Backup_Evault/getVolumeDuplicateParameters)
 
 </div>
@@ -995,6 +1013,12 @@ Displays the status of a clone mount.
 
 #### [isVolumeActive](/reference/services/SoftLayer_Network_Storage_Backup_Evault/isVolumeActive)
 
+</div>
+
+<div class="method-row">
+
+#### [refreshDependentDuplicate](/reference/services/SoftLayer_Network_Storage_Backup_Evault/refreshDependentDuplicate)
+Refreshes a dependent duplicate volume with a snapshot taken from its parent.
 </div>
 
 <div class="method-row">

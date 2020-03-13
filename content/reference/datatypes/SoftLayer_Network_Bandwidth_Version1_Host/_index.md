@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Bandwidth_Version1_Host"
-description: "The SoftLayer_Network_Bandwidth_Version1_Host type contains general information used to the route a server to its pod."
+description: "[DEPRECATED] The SoftLayer_Network_Bandwidth_Version1_Host type contains general information used to the route a server... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-The SoftLayer_Network_Bandwidth_Version1_Host type contains general information used to the route a server to its pod. 
+[DEPRECATED] The SoftLayer_Network_Bandwidth_Version1_Host type contains general information used to the route a server to its pod. 
 
 
 

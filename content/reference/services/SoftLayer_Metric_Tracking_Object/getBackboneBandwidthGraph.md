@@ -1,6 +1,6 @@
 ---
 title: "getBackboneBandwidthGraph"
-description: "Retrieve a PNG image of the last 24 hours of bandwidth usage of one of SoftLayer's network backbones."
+description: "[DEPRECATED] Retrieve a PNG image of the last 24 hours of bandwidth usage of one of SoftLayer's network backbones."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getBackboneBandwidthGraph
 
-Retrieve a graph of a SoftLayer backbone's recent traffic activity.
+[DEPRECATED] Retrieve a graph of a SoftLayer backbone's recent traffic activity.
 
 
 ## Overview 
-Retrieve a PNG image of the last 24 hours of bandwidth usage of one of SoftLayer's network backbones. 
+[DEPRECATED] Retrieve a PNG image of the last 24 hours of bandwidth usage of one of SoftLayer's network backbones. 
 
 -----
 

@@ -53,7 +53,7 @@ Retrieve a list of all SoftLayer Backbones for a location name
 <div class="method-row">
 
 #### [getGraphImage](/reference/services/SoftLayer_Network_Backbone/getGraphImage)
-Retrieve a graph of a SoftLayer backbone's last 24 hours of activity.
+[DEPRECATED] Retrieve a graph of a SoftLayer backbone's last 24 hours of activity.
 </div>
 
 <div class="method-row">
