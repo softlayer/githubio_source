@@ -25,7 +25,6 @@ Update a user's VPN password on the SoftLayer customer portal. As with portal pa
 * ...contain at least one number
 * ...contain one of the special characters _ - | @ . , ? / ! ~ # $ % ^ & * ( ) { } [ ] \ =
 * ...not match your username
-* ...not match your forum password
 Finally, users can only update their own VPN password. An account's master user can update any of their account users' VPN passwords. 
 
 -----

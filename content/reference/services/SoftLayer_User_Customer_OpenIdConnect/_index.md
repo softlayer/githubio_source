@@ -646,12 +646,6 @@ Determine if a portal user is a master user.
 
 <div class="method-row">
 
-#### [isValidForumPassword](/reference/services/SoftLayer_User_Customer_OpenIdConnect/isValidForumPassword)
-Determine if a string is a user's forum password.
-</div>
-
-<div class="method-row">
-
 #### [isValidPortalPassword](/reference/services/SoftLayer_User_Customer_OpenIdConnect/isValidPortalPassword)
 Determine if a string is a user's portal password.
 </div>
@@ -804,12 +798,6 @@ Sets the default account for the OpenIdConnect identity that is linked to the cu
 
 #### [silentlyMigrateUserOpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect/silentlyMigrateUserOpenIdConnect)
 This api is used to migrate a user to IBMid without sending an invitation.
-</div>
-
-<div class="method-row">
-
-#### [updateForumPassword](/reference/services/SoftLayer_User_Customer_OpenIdConnect/updateForumPassword)
-Update a user's forum password
 </div>
 
 <div class="method-row">

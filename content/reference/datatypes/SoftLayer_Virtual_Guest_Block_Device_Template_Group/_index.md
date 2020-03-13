@@ -340,6 +340,16 @@ The storage repository that an image template group resides on.
 <div class="prop-row">
 
 -----
+[symantecImageFlag]: #symantecimageflag
+#### [symantecImageFlag]
+A flag indicating if this is a symantec image.  
+<span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [tagReferences]: #tagreferences
 #### [tagReferences]
 The tags associated with this image template group.  
