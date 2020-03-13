@@ -298,6 +298,12 @@ Retrieve the storage repository that an image template group resides on.
 
 <div class="method-row">
 
+#### [getSymantecImageFlag](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getSymantecImageFlag)
+Retrieve a flag indicating if this is a symantec image.
+</div>
+
+<div class="method-row">
+
 #### [getTagReferences](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getTagReferences)
 Retrieve the tags associated with this image template group.
 </div>

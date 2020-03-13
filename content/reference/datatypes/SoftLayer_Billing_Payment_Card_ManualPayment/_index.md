@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Payment_Card_ManualPayment"
-description: "The SoftLayer_Billing_Payment_Card_ManualPayment data type contains general information relating to attempted credit car... "
+description: "The SoftLayer_Billing_Payment_Card_ManualPayment data type contains general information related to requesting a manual p... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,16 @@ classes:
 </div>
 
 ## Description 
-The SoftLayer_Billing_Payment_Card_ManualPayment data type contains general information relating to attempted credit card information changes. 
+The SoftLayer_Billing_Payment_Card_ManualPayment data type contains general information related to requesting a manual payment. This supports enablement of 3D Secure via Cardinal Cruise implementation that allows for credit card authentication and is currently limited to specified merchants. 
+
+### External Links
+
+
+* [3D Secure (3DS)](https://en.wikipedia.org/wiki/3-D_Secure)
+
+
+* [Cardinal Cruise Hybrid](https://cardinaldocs.atlassian.net/wiki/spaces/CC/pages/360668/Cardinal+Cruise+Hybrid)
+
 
 
 
@@ -325,6 +334,30 @@ The unique identifier for a single manual payment request.
 [notes]: #notes
 #### [notes]
 Notes generated as a result of the payment request.  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[payerAuthenticationEnrollmentReferenceId]: #payerauthenticationenrollmentreferenceid
+#### [payerAuthenticationEnrollmentReferenceId]
+The purpose of this property is to allow enablement of 3D Secure (3DS). This is the Reference ID that corresponds to the device data for Payer Authentication. In order to properly enable 3DS, this will require implementation of Cardinal Cruise Hybrid. 
+
+Please refer to https://cardinaldocs.atlassian.net/wiki/spaces/CC/pages/360668/Cardinal+Cruise+Hybrid and view section under "DFReferenceId / ReferenceId" to populate this property accordingly.   
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[payerAuthenticationWebToken]: #payerauthenticationwebtoken
+#### [payerAuthenticationWebToken]
+"Continue with Consumer Authentication" decoded response JWT (JSON Web Token) after successful authentication. The response is part of the implementation of Cardinal Cruise Hybrid. 
+
+Please refer to https://cardinaldocs.atlassian.net/wiki/spaces/CC/pages/360668/Cardinal+Cruise+Hybrid and view section under "Continue with Consumer Authentication" to populate this property accordingly based on the CCA response.   
 <span class="type-label">Type: </span>**string**
 
 

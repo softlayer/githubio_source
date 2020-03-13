@@ -40,4 +40,11 @@ Retrieve the record data associated with the submission of a Manual Payment Requ
 
 
 
+### Error Handling
+
+* SoftLayer_Exception_Billing_Payment_Card_PayerAuthenticationRequired 
+
+> Throw the error "The customer is enrolled in payer authentication. Authenticate the cardholder before continuing with the transaction. ACSUrl={access control server url} | PAReq={payer authentication request message} | TransactionID={Transaction ID}" occurs when payer authentication is required. The error message contains additional applicable data to support continuation of authentication via Cardinal Cruise Hybrid. You must take the ACSUrl, PAReq, and TransactionID and include them in the Cardinal.continue function in order to proceed with the authentication session. NOTE: In the Cardinal.continue function, the 'Payload' field value should be populated with the data from PAReq. 
+
+
 
