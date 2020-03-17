@@ -439,3 +439,105 @@ for price in prices:
 ```
 
 
+### How to figure out capacity restrictions.
+
+How influencing is the capacity Restriction to moment to ordering the capacity restriction from the prices of the items is a condition that taking in the know.
+
+The some no standards item prices have a restriction with some other items, these are restrictions for that the API verifying if the item is can be in another item.
+
+#### Example:
+
+We have three items for show the influence from capacity restrictions: the item ids are:
+
+ 17300: Operation System(Core 13) 
+ 
+ 165567: Processor(Core 24)
+ 
+ 229013: Operation System(Core 36)
+```json
+{
+   "id": 165567,
+   "item": {
+        "description": "Dual Intel Xeon E5-2690 v3 (24 Cores, 2.60 GHz)",
+        "capacityRestrictedProductFlag": false,
+        "totalPhysicalCoreCapacity": 24,
+        "totalPhysicalCoreCount": 24
+ }}
+```   
+
+```json
+{
+   "id": 17300,
+   "capacityRestrictionMaximum": "13",
+   "capacityRestrictionMinimum": "13",
+   "capacityRestrictionType": "CORE",
+   "item": {
+      "description": "Microsoft SQL Server 2012 Standard Edition",
+      "capacityRestrictedProductFlag": true
+ }}
+```
+    
+```json
+{
+   "id": 229013,
+   "capacityRestrictionMaximum": "36",
+   "capacityRestrictionMinimum": "36",
+   "capacityRestrictionType": "CORE",
+   "item": {
+       "description": "Windows Server 2019 Standard Edition (64 bit) ",
+       "capacityRestrictedProductFlag": true
+ }}
+```
+
+As shown in the item JSON 165567 is a processor has a core capacity 24 CORES, this is the limit that item support.
+
+This limit should not pass with the capacity restriction of other items, for example, the 17300 item has a capacity restriction a 13 is lesser to the totalPhysicalCoreCapacity a 24, but the 229013 item has a capacity restriction a 36, by the capacity restriction higher than processor capacity, 
+
+It is important when using the API, should verify the item capacity restrictions for ordering, the API will verify the capacity restriction from items if this is been in the range allowed, case contrary threw an error with capacity restriction.
+
+#### Other example 
+
+``` json
+[{
+	"id": 52227,
+	"item": {
+		"capacity": "3.5",
+		"description": "Single Intel Xeon E3-1270 v3 (4 Cores, 3.50 GHz)",
+		"totalPhysicalCoreCapacity": 4
+		}
+}, {
+	"id": 244570,
+	"item": {
+		"capacity": "3.8",
+		"description": "Single Intel Xeon E-2174G (4 Cores, 3.80 GHz)",
+		"totalPhysicalCoreCapacity": 4
+		}
+}, {
+    "id": 17275,
+    "capacityRestrictionMaximum": "6",
+    "capacityRestrictionMinimum": "6",
+    "capacityRestrictionType": "CORE",
+    "item": {
+        "description": "Microsoft SQL Server 2012 Web Edition",
+        "capacityRestrictedProductFlag": true
+    }    
+},
+{
+   "id": 17291,
+   "capacityRestrictionMaximum": "4",
+   "capacityRestrictionMinimum": "4",
+   "capacityRestrictionType": "CORE",
+   "item": {
+      "keyName": "DATABASE_MICROSOFT_SQL_SERVER_2012_STANDARD",
+      "capacityRestrictedProductFlag": true
+         }
+    }
+
+]
+```
+
+We have two processors with the same core capacity both with 4, also we have two OS with different capacity restriction, item 17275 with 6 and item 17291 with 4.
+
+Notice that the item 17275(capacity restriction 6) is higher than the item 52227 and item 244570 with core capacity 4.
+
+This is the reason the throw error 'Capacity restriction with item', the best choice is to verify the core capacities with capacities restrictions before ordering.
