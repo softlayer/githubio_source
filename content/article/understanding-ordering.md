@@ -441,59 +441,102 @@ for price in prices:
 
 ### How to figure out capacity restrictions.
 
-How influencing is the capacity Restriction to moment to ordering the capacity restriction from the prices of the items is a condition that taking in the know.
-
-The some no standards item prices have a restriction with some other items, these are restrictions for that the API verifying if the item is can be in another item.
+Some items have a capacity restriction, and you must select the item that matches the capacity of the server. These restrictions will generally be on the `CORE` count of your server, although some can be on the `PROCESSOR` count (number of physical CPUs). Ordering storage will also have its own type, `STORAGE` to watch out for.
 
 #### Example:
 
-We have three items for show the influence from capacity restrictions: the item ids are:
+In package `SINGLE_E31270_V3_4_DRIVES` (id=253) there are the following [items](/reference/datatypes/SoftLayer_Product_Item/).
 
- 17300: Operation System(Core 13) 
- 
- 165567: Processor(Core 24)
- 
- 229013: Operation System(Core 36)
-```json
-{
-   "id": 165567,
-   "item": {
-        "description": "Dual Intel Xeon E5-2690 v3 (24 Cores, 2.60 GHz)",
-        "capacityRestrictedProductFlag": false,
-        "totalPhysicalCoreCapacity": 24,
-        "totalPhysicalCoreCount": 24
- }}
-```   
+
++ The Processor
 
 ```json
 {
-   "id": 17300,
-   "capacityRestrictionMaximum": "13",
-   "capacityRestrictionMinimum": "13",
-   "capacityRestrictionType": "CORE",
-   "item": {
-      "description": "Microsoft SQL Server 2012 Standard Edition",
-      "capacityRestrictedProductFlag": true
- }}
+    "capacityRestrictedProductFlag": false,
+    "description": "Dual Intel Xeon E5-2690 v3 (24 Cores, 2.60 GHz)",
+    "id": 6090,
+    "keyName": "INTEL_XEON_2690_2_60",
+    "totalPhysicalCoreCapacity": 24,
+    "totalProcessorCapacity": 2,
+    "prices": [
+        {
+            "id": 47067,
+            "locationGroupId": null
+        },
+    ],
+    "itemCategory": {
+        "categoryCode": "server",
+    }
+},
 ```
-    
+Since `capacityRestrictedProductFlag` is `false`  we can select the price from this item for our order.
+
++ Windows Server
+  
 ```json
 {
-   "id": 229013,
-   "capacityRestrictionMaximum": "36",
-   "capacityRestrictionMinimum": "36",
-   "capacityRestrictionType": "CORE",
-   "item": {
-       "description": "Windows Server 2019 Standard Edition (64 bit) ",
-       "capacityRestrictedProductFlag": true
- }}
+    "capacityRestrictedProductFlag": true,
+    "description": "Windows Server 2019 Standard Edition (64 bit) ",
+    "id": 13385,
+    "keyName": "OS_WINDOWS_2019_FULL_STD_64_BIT",
+    "prices": [
+        {
+            "capacityRestrictionMaximum": "16",
+            "capacityRestrictionMinimum": "6",
+            "capacityRestrictionType": "CORE",
+            "id": 229001,
+            "locationGroupId": null
+        },
+        {
+            "capacityRestrictionMaximum": "20",
+            "capacityRestrictionMinimum": "20",
+            "capacityRestrictionType": "CORE",
+            "id": 229003,
+            "locationGroupId": null
+        },
+        {
+            "capacityRestrictionMaximum": "24",
+            "capacityRestrictionMinimum": "24",
+            "capacityRestrictionType": "CORE",
+            "id": 229005,
+            "locationGroupId": null
+        }
 ```
 
-As shown in the item JSON 165567 is a processor has a core capacity 24 CORES, this is the limit that item support.
+Since this item has `capacityRestrictedProductFlag`, we need to check each price to see if its Minimum and Maximum are valid for the server we are ordering. The `capacityRestrictionType` is `CORE` here, so we check against the `totalPhysicalCoreCapacity` of our SERVER item. In this case we would pick price id `229005`.
 
-This limit should not pass with the capacity restriction of other items, for example, the 17300 item has a capacity restriction a 13 is lesser to the totalPhysicalCoreCapacity a 24, but the 229013 item has a capacity restriction a 36, by the capacity restriction higher than processor capacity, 
 
-It is important when using the API, should verify the item capacity restrictions for ordering, the API will verify the capacity restriction from items if this is been in the range allowed, case contrary threw an error with capacity restriction.
++ VMware
+
+```json
+{
+    "capacityRestrictedProductFlag": true,
+    "description": "VMware Server Virtualization 6.5",
+    "id": 10313,
+    "itemCategory": {
+        "categoryCode": "os",
+        "id": 12,
+        "name": "Operating System",
+        "quantityLimit": 0,
+        "sortOrder": 1
+    },
+    "keyName": "OS_VMWARE_SERVER_VIRTUALIZATION_6_5",
+    "prices": [
+        {
+            "capacityRestrictionMaximum": "2",
+            "capacityRestrictionMinimum": "2",
+            "capacityRestrictionType": "PROCESSOR",
+            "id": 201161,
+            "locationGroupId": null
+        }
+    ],
+    "totalPhysicalCoreCapacity": null,
+    "totalProcessorCapacity": null
+},
+```
+
+Here is an example of a `PROCESSOR` restriction. Here we would match our server item's `totalProcessorCapacity` field.
+
 
 #### Other example 
 
@@ -536,8 +579,38 @@ It is important when using the API, should verify the item capacity restrictions
 ]
 ```
 
-We have two processors with the same core capacity both with 4, also we have two OS with different capacity restriction, item 17275 with 6 and item 17291 with 4.
+If you select a priceId that has a capacity restriction, but do not select the right price, you will get an error similar to this:
 
-Notice that the item 17275(capacity restriction 6) is higher than the item 52227 and item 244570 with core capacity 4.
+> SoftLayer_Exception_Public: Windows Server 2016 Standard Edition (64 bit) (28 Cores), price ID# 179935, has a Cores capacity restriction that does not match the capacity of Dual Intel Xeon E5-2620 v4 (16 Cores, 2.10 GHz), price ID# 177639
 
-This is the reason the throw error 'Capacity restriction with item', the best choice is to verify the core capacities with capacities restrictions before ordering.
+
+
+## Various Ordering Examples
+
+Order from package SINGLE_E31270_2_DRIVES, no raid, with a specific backend network vlan.
+```
+slcli -vvv order place SINGLE_E31270_V3_4_DRIVES DALLAS13 \
+INTEL_SINGLE_XEON_1270_3_50 \
+RAM_32_GB_DDR3_1333_REG_2 \
+OS_RHEL_7_1_64_BIT  \
+DISK_CONTROLLER_NONRAID \
+HARD_DRIVE_1_00_TB_SATA_2 \
+BANDWIDTH_500_GB \
+1_GBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS \
+1_IP_ADDRESS \
+REBOOT_KVM_OVER_IP \
+NESSUS_VULNERABILITY_ASSESSMENT_REPORTING \
+NOTIFICATION_EMAIL_AND_TICKET \
+MONITORING_HOST_PING_AND_TCP_SERVICE UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT \
+AUTOMATED_NOTIFICATION \
+--complex-type SoftLayer_Container_Product_Order_Hardware_Server \
+--extras '{"hardware":[{"domain":"test-cgallo.com","hostname":"testOrderCANCEL"},{"primaryBackendNetworkComponent":{"networkVlan":{"id":2257307}}}]}' \
+ --billing monthly --verify
+
+```
+
+Turns into:
+
+```
+curl -u $SL_USER:$SL_APIKEY -X POST -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress" -d '{"parameters": [{"orderContainers": [{"hardware": [{"domain": "test-cgallo.com", "hostname": "testOrderCANCEL"}, {"primaryBackendNetworkComponent": {"networkVlan": {"id": 2257307}}}], "packageId": 257, "quantity": 1, "location": 1854895, "useHourlyPricing": false, "complexType": "SoftLayer_Container_Product_Order_Hardware_Server", "prices": [{"id": 49515}, {"id": 49415}, {"id": 48999}, {"id": 876}, {"id": 49759}, {"id": 50357}, {"id": 274}, {"id": 21}, {"id": 906}, {"id": 418}, {"id": 57}, {"id": 56}, {"id": 420}, {"id": 58}]}]}]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Order/verifyOrder.json'
+```
