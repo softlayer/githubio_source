@@ -42,16 +42,6 @@ classes:
 <div class="prop-row">
 
 -----
-[createDate]: #createdate
-#### [createDate]
-  
-<span class="type-label">Type: </span>**dateTime**
-
-
-</div>
-<div class="prop-row">
-
------
 [id]: #id
 #### [id]
   
@@ -66,16 +56,6 @@ classes:
 #### [keyName]
   
 <span class="type-label">Type: </span>**string**
-
-
-</div>
-<div class="prop-row">
-
------
-[modifyDate]: #modifydate
-#### [modifyDate]
-  
-<span class="type-label">Type: </span>**dateTime**
 
 
 </div>
@@ -100,7 +80,7 @@ classes:
 -----
 [groups]: #groups
 #### [groups]
-  
+The groups that are of this type.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Group'>SoftLayer_User_Permission_Group[] </a>**
 
 
@@ -112,7 +92,7 @@ classes:
 -----
 [groupCount]: #groupcount
 #### [groupCount]
-A count of    
+A count of the groups that are of this type.   
 <span class="type-label">Type: </span>**unsigned long**
 
 

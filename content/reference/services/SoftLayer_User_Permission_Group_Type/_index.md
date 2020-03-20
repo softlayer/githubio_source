@@ -41,7 +41,7 @@ classes:
 <div class="method-row">
 
 #### [getGroups](/reference/services/SoftLayer_User_Permission_Group_Type/getGroups)
-
+Retrieve the groups that are of this type.
 </div>
 
 <div class="method-row">
