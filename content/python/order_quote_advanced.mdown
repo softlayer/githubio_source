@@ -297,3 +297,10 @@ if __name__ == "__main__":
     main.orderQuote(quote_id, dc_id=dal13, public_vlan=front_vlan,private_vlan=backend_vlan)
     main.debug()
 ```
+
+
+#### Notes
+When placing an order from a quote, it is important to note the following.
+
+1. Use the `Billing_Order_Quote` service, NOT The `Product_Order` service.
+2. Make sure your container that is sent to placeOrder contains the [`billingOrderItemId `](/reference/datatypes/SoftLayer_Container_Product_Order/#billingorderitemid) is set. This will usually be returned from the Billing_Order_Quote::getRecalculatedOrderContainer() API call. But if it is removed, the order you place will not be tracked as being placed from a quote.
