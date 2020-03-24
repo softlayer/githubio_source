@@ -1,5 +1,5 @@
 ---
-title: "SoftLayer Command Line Interface (SLCLI)"
+title: "SoftLayer  CLI"
 description: "The SLCLI is a tool used to easily interact with the SoftLayer API"
 date: "2020-01-20"
 tags:
