@@ -58,7 +58,7 @@ Allow access to multiple SoftLayer_Network_Storage volumes from this device.
 <div class="method-row">
 
 #### [captureImage](/reference/services/SoftLayer_Hardware_Router/captureImage)
-Captures a Flex Image of the hard disk on the physical machine.
+Captures an Image of the hard disk on the physical machine.
 </div>
 
 <div class="method-row">

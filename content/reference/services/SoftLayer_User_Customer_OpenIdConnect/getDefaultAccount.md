@@ -1,6 +1,6 @@
 ---
 title: "getDefaultAccount"
-description: "This API gets the default account for the OpenIdConnect identity that is linked to the current SoftLayer user identity.... "
+description: "This API gets the account associated with the default user for the OpenIdConnect identity that is linked to the current... "
 layout: "method"
 tags:
     - "method"
@@ -13,18 +13,18 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getDefaultAccount
 
-Retrieve the default account for the current for the OpenIdConnect identity that is linked to the current SoftLayer user identity
+Retrieve the default account for the OpenIdConnect identity that is linked to the current active SoftLayer user identity. 
 
 
 ## Overview 
-This API gets the default account for the OpenIdConnect identity that is linked to the current SoftLayer user identity. If there is no default present, the API returns null, except in the special case where we find one active user linked to the IAMid. In that case, we will set the link from the IAMid to that user as default, and return the account of which that user is a member. Invoke this only on IAMid-authenticated users. 
+This API gets the account associated with the default user for the OpenIdConnect identity that is linked to the current active SoftLayer user identity. When a single active user is found for that IAMid, it becomes the default user and the associated account is returned. When multiple default users are found only the first is preserved and the associated account is returned (remaining defaults see their default flag unset). If the current SoftLayer user identity isn't linked to any OpenIdConnect identity, or if none of the linked users were found as defaults, the API returns null. Invoke this only on IAMid-authenticated users. 
 
 -----
 
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|providerType| string| A value representing the OpenID Connect provider type.|
+|providerType| string| A value representing the OpenID Connect provider type. Currently "IBMid" is the only supported provider.|
 
 
 ### Required Headers
