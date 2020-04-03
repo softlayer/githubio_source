@@ -1,10 +1,9 @@
 ---
 title: "Tag Vlans"
-description: "Some examles of how to add vlans to a server"
+description: "Some examles of how to add vlans to a server. AKA Vlan Trunks."
 date: "2017-06-09"
 classes: 
     - "SoftLayer_Network_Component"
-
 tags:
     - "vlan"
     - "server"
@@ -12,6 +11,8 @@ tags:
 
 A rough examples of how to add vlans to servers
 
+
+*NOTE* When trying to get the vlan tags/trunks from a server, the trunk information is on the `Hardware_Server->networkComponent->uplinkComponent->vlanTrunks` relationship. 
 ```python
 """
 @author Christopher Gallo
@@ -25,6 +26,7 @@ Goes through a list of servers, add the specified vlan to each one
 """
 
 import SoftLayer
+from pprint import pprint as pp 
 
 class testVlanTag():
     def __init__(self):
@@ -75,6 +77,7 @@ class testVlanTag():
                     # result = self.client['Network_Component'].clearNetworkVlanTrunks(id=component['id'])
                     mask = 'networkVlan, networkVlanTrunks, uplinkComponent[networkVlanTrunks]'
                     nic = self.client['Network_Component'].getObject(id=component['id'], mask=mask)
+                    pp(nic)
                 except KeyError:
                     continue
 
