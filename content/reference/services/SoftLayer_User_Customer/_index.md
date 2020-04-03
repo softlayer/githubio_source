@@ -265,7 +265,7 @@ Retrieve the dedicated hosts to which the user has been granted access.
 <div class="method-row">
 
 #### [getDefaultAccount](/reference/services/SoftLayer_User_Customer/getDefaultAccount)
-Retrieve the default account for the current for the OpenIdConnect identity that is linked to the current SoftLayer user identity
+This method should never be invoked as it is not applicable to legacy SoftLayer-authenticated users. See SoftLayer_User_Customer_OpenIdConnect::getDefaultAccount instead. 
 </div>
 
 <div class="method-row">

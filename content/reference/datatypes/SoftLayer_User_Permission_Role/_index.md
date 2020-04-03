@@ -114,7 +114,7 @@ A flag showing if new users should be automatically added to this role.
 -----
 [systemFlag]: #systemflag
 #### [systemFlag]
-A flag showing if the permission role was created by our internal system for a single user. If this flag is set only a single user can be assigned to this permission role and it can not be deleted.  
+A flag showing if the permission role was created by our internal system for a single user. If this flag is set, only a single user can be assigned to this permission role and it can not be deleted.   
 <span class="type-label">Type: </span>**integer**
 
 

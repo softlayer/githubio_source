@@ -488,6 +488,16 @@ Status indicating whether or not a piece of hardware has business continuance in
 <div class="prop-row">
 
 -----
+[captureEnabledFlag]: #captureenabledflag
+#### [captureEnabledFlag]
+Determine if the server is able to be image captured. If unable to image capture a reason will be provided.  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [childrenHardware]: #childrenhardware
 #### [childrenHardware]
 Child hardware.  

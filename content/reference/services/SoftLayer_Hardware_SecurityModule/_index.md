@@ -76,7 +76,7 @@ Initiates the Rescue Kernel to bring a server online to troubleshoot system prob
 <div class="method-row">
 
 #### [captureImage](/reference/services/SoftLayer_Hardware_SecurityModule/captureImage)
-Captures a Flex Image of the hard disk on the physical machine.
+Captures an Image of the hard disk on the physical machine.
 </div>
 
 <div class="method-row">
@@ -401,6 +401,12 @@ Retrieve the valid boot modes for this server.
 
 #### [getBusinessContinuanceInsuranceFlag](/reference/services/SoftLayer_Hardware_SecurityModule/getBusinessContinuanceInsuranceFlag)
 Retrieve status indicating whether or not a piece of hardware has business continuance insurance.
+</div>
+
+<div class="method-row">
+
+#### [getCaptureEnabledFlag](/reference/services/SoftLayer_Hardware_SecurityModule/getCaptureEnabledFlag)
+Retrieve determine if the server is able to be image captured. If unable to image capture a reason will be provided.
 </div>
 
 <div class="method-row">
@@ -1745,6 +1751,12 @@ Disconnect a server's public network interface.
 
 #### [sparePool](/reference/services/SoftLayer_Hardware_SecurityModule/sparePool)
 Allows servers to be added to or removed from the spare pool.
+</div>
+
+<div class="method-row">
+
+#### [testRaidAlertService](/reference/services/SoftLayer_Hardware_SecurityModule/testRaidAlertService)
+Tests the RAID Alert service.
 </div>
 
 <div class="method-row">

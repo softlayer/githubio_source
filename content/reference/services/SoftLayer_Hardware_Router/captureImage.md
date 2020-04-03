@@ -1,6 +1,6 @@
 ---
 title: "captureImage"
-description: "Captures a Flex Image of the hard disk on the physical machine, based on the capture template parameter. Returns the ima... "
+description: "Captures an Image of the hard disk on the physical machine, based on the capture template parameter. Returns the image t... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::captureImage
 
-Captures a Flex Image of the hard disk on the physical machine.
+Captures an Image of the hard disk on the physical machine.
 
 
 ## Overview 
-Captures a Flex Image of the hard disk on the physical machine, based on the capture template parameter. Returns the image template group containing the disk image. 
+Captures an Image of the hard disk on the physical machine, based on the capture template parameter. Returns the image template group containing the disk image. 
 
 -----
 

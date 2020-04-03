@@ -44,7 +44,7 @@ The SoftLayer_Network_LBaaS_L7Policy represents the policy for a listener.
 -----
 [action]: #action
 #### [action]
-The Action to take if the rules belonging to this policy match. It can be set to any of the following values: REDIRECT_URL, REDIRECT_POOL, REJECT.   
+The Action to take if the rules belonging to this policy match. It can be set to any of the following values: REDIRECT_URL, REDIRECT_POOL, REDIRECT_HTTPS, REJECT.   
 <span class="type-label">Type: </span>**string**
 
 
@@ -124,7 +124,7 @@ The UUID of the L7 pool object referenced by the policy when the policy action i
 -----
 [redirectUrl]: #redirecturl
 #### [redirectUrl]
-The URL to which traffic is redirected when the action is set to REDIRECT_URL.   
+The URL to which traffic is redirected when the action is set to REDIRECT_URL. Or the port to which listener traffic is redirected to when the action is set to REDIRECT_HTTPS.   
 <span class="type-label">Type: </span>**string**
 
 
