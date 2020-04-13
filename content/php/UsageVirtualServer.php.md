@@ -73,7 +73,28 @@ class VirtualServers
         $memory_record = $this->client_metric->getSummaryData($start_date, $end_date, $valid_types, 3600);
         return $memory_record;
     }
-
+    
+    function memory_graph($start_date, $end_date, $file_path)
+    {
+        $memory = $this->client_virtual->getMemoryMetricImageByDate(date('Y-m-d H:i:s', strtotime($start_date)),
+        date('Y-m-d H:i:s', strtotime($end_date)));
+        
+        $memory_image = $memory->graphImage;
+        $data = base64_decode(preg_replace('#^data:image/\w+;base64,#i', '',
+        base64_encode($memory_image)));
+        file_put_contents($file_path, $data);
+    }
+        
+    function cpu_graph($start_date, $end_date, $file_path, $cpuType)
+    {
+        $usage_cpu = $this->client_metric->getGraph(date('Y-m-d H:i:s', strtotime($start_date)),
+        date('Y-m-d H:i:s', strtotime($end_date)),$cpuType );
+        
+        $cpu_image = $usage_cpu->graphImage;
+        $data = base64_decode(preg_replace('#^data:image/\w+;base64,#i', '',
+        base64_encode($cpu_image)));
+        file_put_contents($file_path, $data);
+    }
 }
 
 /**
@@ -85,6 +106,9 @@ $apiKey = 'set me';
 $guestId = 55984279;
 $start_date = "2020-03-04T00:00:00";
 $end_date = "2020-04-09T23:59:59";
+// change the path data for the path you want.
+$file_path_memory = 'C:\\myfileMemory.png';
+$file_path_cpu = 'C:\\myfileCpu.png';
 
 $client_virtual = \SoftLayer\SoapClient::getClient('SoftLayer_Virtual_Guest', $guestId, $apiUsername, $apiKey);
 $metric_trackingId = $client_virtual->getMetricTrackingObjectId();
@@ -112,6 +136,14 @@ foreach ($cpu_averages as $key => $value){
     print_r($key . ": " . strval($value)."\n");
 }
 
+// cpu graph
+$cpuType = array();
+foreach ($cpu_averages as $key => $value){
+    $cpuType[] = $key;
+}
+
+$virtual_server->cpu_graph($start_date, $end_date, $file_path_cpu, $cpuType);
+
 // print records and memory usage
 echo ("\nMEMORY USAGE RECORDS:\n");
 foreach ($memory_records as $record){
@@ -121,5 +153,8 @@ foreach ($memory_records as $record){
 // # there is only 1 memory and its value must be divided by 2^30 to convert it to GB
 print_r("\nMEMORY AVERAGE: " . strval($memory_averages['memory_usage']/(2**30)) . " GB");
 
+
+// memory graph
+$virtual_server->memory_graph($start_date, $end_date, $file_path_memory);
 
 ```
