@@ -41,14 +41,5 @@ jobs:
         git status
         git commit --message="`date` Release"
         git push origin ${date}
-    - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v2
-      with:
-        token: ${{ secrets.SLDN_GITHUB }}
-        path: softlayer.github.io
-        tite: Automated SLDN update
-        body: Created by the publish github action.
-        labels: Release
-        author: SLDN <sldndeveloperrelations@wwpdl.vnet.ibm.com>
-        committer: SLDN <sldndeveloperrelations@wwpdl.vnet.ibm.com>
+
         
