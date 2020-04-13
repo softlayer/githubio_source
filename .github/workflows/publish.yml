@@ -32,6 +32,7 @@ jobs:
       run: |
         pwd
         cd softlayer.github.io
+        git fetch --prune --unshallow
         git config --local user.email "sldndeveloperrelations@wwpdl.vnet.ibm.com"
         git config --local user.name "SLDN"
         git status
