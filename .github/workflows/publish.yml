@@ -23,6 +23,7 @@ jobs:
       with:
         repository: softlayer/softlayer.github.io
         path: softlayer.github.io
+        ssh-key: ${{secrets.SLDN_SSHKEY}}
     - name: Build Hugo
       run: |
         pwd
@@ -40,8 +41,7 @@ jobs:
         git add --all
         git status
         git commit --message="`date` Release"
-        remote_repo="https://${{secrets.SLDN_USER}}:${{secrets.SLDN_GITHUB}}@github.com/softlayer/softlayer.github.io.git"
-        git push "${remote_repo}" HEAD:${date}
+        git push origin ${date}
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v2
       with:
