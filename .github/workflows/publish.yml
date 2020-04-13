@@ -23,9 +23,10 @@ jobs:
       with:
         repository: softlayer/softlayer.github.io
         path: softlayer.github.io
-    - uses: actions/checkout@v2
     - name: Build Hugo
       run: |
+        ls -la ~/
+        ls -l ./
         cd ~/githubio_source
         ./hugo -d ~/softlayer.github.io -v
     - name: Publish
