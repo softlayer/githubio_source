@@ -41,6 +41,8 @@ jobs:
         git status
         git commit --message="`date` Release"
         remote_repo="https://${{ secrets.SLDN_USER }}:${{ secrets.SLDN_GITHUB }}@github.com/softlayer/softlayer.github.io.git"
+        echo ${remote_repo}
+        echo ^^^^^^^^^^^^^
         git push "${remote_repo}" HEAD:${date}
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v2
