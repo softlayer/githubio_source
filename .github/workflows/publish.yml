@@ -1,0 +1,48 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Publish
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ master ]
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        path: githubio_source
+
+    - name: Checkout SLDN
+      uses: actions/checkout@v2
+      with:
+        repository: softlayer/softlayer.github.io
+        path: softlayer.github.io
+    - uses: actions/checkout@v2
+    - name: Build Hugo
+      run: |
+        cd ~/githubio_source
+        ./hugo -d ~/softlayer.github.io -v
+    - name: Publish
+      run: |
+        cd ~/softlayer.github.io
+        git config --local user.email "sldndeveloperrelations@wwpdl.vnet.ibm.com"
+        git config --local user.name "SLDN"
+        git status
+        git checkout -b `date +%Y%m%d`
+        git add --all
+        git commit --message="`date` Release"
+        git push origin `date +%Y%m%d`
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        path: softlayer.github.io
+        tite: Automated SLDN update
+        body: Created by the publish github action.
+        labels: Release
