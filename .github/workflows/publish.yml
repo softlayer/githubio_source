@@ -35,14 +35,18 @@ jobs:
         git config --local user.email "sldndeveloperrelations@wwpdl.vnet.ibm.com"
         git config --local user.name "SLDN"
         git status
-        git checkout -b `date +%Y%m%d`
         git add --all
         git commit --message="`date` Release"
-        git push origin `date +%Y%m%d`
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.SLDN_GITHUB }}
+        branch: AutoUpdates
+        directory: softlayer.github.io
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v2
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.SLDN_GITHUB }}
         path: softlayer.github.io
         tite: Automated SLDN update
         body: Created by the publish github action.
