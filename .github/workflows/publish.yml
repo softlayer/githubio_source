@@ -31,20 +31,17 @@ jobs:
     - name: Publish
       run: |
         pwd
+        date=`date +%Y%m%d`
         cd softlayer.github.io
         git fetch --prune --unshallow
         git config --local user.email "sldndeveloperrelations@wwpdl.vnet.ibm.com"
         git config --local user.name "SLDN"
-        git status
+        git checkout -b ${date}
         git add --all
+        git status
         git commit --message="`date` Release"
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.SLDN_GITHUB }}
-        branch: AutoUpdates
-        directory: softlayer.github.io
-        repository: softlayer/softlayer.github.io
+        remote_repo="https://${{ secrets.SLDN_USER }}:${{ secrets.SLDN_GITHUB }}@github.com/${REPOSITORY}.git"
+        git push "${remote_repo}" HEAD:${date}
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v2
       with:
@@ -55,4 +52,4 @@ jobs:
         labels: Release
         author: SLDN <sldndeveloperrelations@wwpdl.vnet.ibm.com>
         committer: SLDN <sldndeveloperrelations@wwpdl.vnet.ibm.com>
-        branch: AutoUpdates
+        
