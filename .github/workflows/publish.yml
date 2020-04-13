@@ -44,7 +44,7 @@ jobs:
         github_token: ${{ secrets.SLDN_GITHUB }}
         branch: AutoUpdates
         directory: softlayer.github.io
-        repository: softlayer.github.io
+        repository: softlayer/softlayer.github.io
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v2
       with:
