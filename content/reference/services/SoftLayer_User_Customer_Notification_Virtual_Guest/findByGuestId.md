@@ -17,7 +17,7 @@ Return all CloudLayer computing instance notifications associated with the passe
 
 
 ## Overview 
-This method returns all SoftLayer_User_Customer_Notification_Virtual_Guest objects associated with the passed in ID as long as that hardware ID is owned by the current user's account. 
+This method returns all SoftLayer_User_Customer_Notification_Virtual_Guest objects associated with the passed in ID as long as that Virtual Guest ID is owned by the current user's account. 
 
 This behavior can also be accomplished by simply tapping monitoringUserNotification on the Virtual_Guest object. 
 
