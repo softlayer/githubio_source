@@ -13,7 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_Notification_Virtual_Guest](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest)::createObjects
 
-Create multiple user hardware notification entries at once
+Create multiple user Virtual Guest notification entries at once
 
 
 ## Overview 
