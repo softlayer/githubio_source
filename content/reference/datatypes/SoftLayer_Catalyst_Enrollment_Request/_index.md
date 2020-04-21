@@ -395,6 +395,16 @@ Applicant's vatId, if one exists
 
 
 </div>
+<div class="prop-row">
+
+-----
+[marketingConsent]: #marketingconsent
+#### [marketingConsent]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Catalyst_Enrollment_Request_MarketingConsent'>SoftLayer_Catalyst_Enrollment_Request_MarketingConsent </a>**
+
+
+</div>
 
 ## Count
 </div>

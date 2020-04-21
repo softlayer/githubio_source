@@ -26,14 +26,14 @@ aliases:
 | --- | --- | --- |
 |networkType| string| Specify either the public or private network|
 |direction| string| Specify either in or out usage|
+|startDate| string| Beginning of cycle to sum usage|
+|endDate| string| Beginning of cycle to sum usage|
+|serverIds| array of integers| Integer array of specific server IDs|
 
 
 ### Required Headers
 * authenticate
 
-
-### Optional Headers
-* resultLimit
 
 ### Return Values
 * <a href='/reference/datatypes/SoftLayer_Container_Bandwidth_Usage'>SoftLayer_Container_Bandwidth_Usage[] </a>

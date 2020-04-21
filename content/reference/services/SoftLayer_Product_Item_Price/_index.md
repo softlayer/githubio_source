@@ -149,7 +149,7 @@ Retrieve a list of preset configurations this price is used in.'
 <div class="method-row">
 
 #### [getPriceType](/reference/services/SoftLayer_Product_Item_Price/getPriceType)
-Retrieve the type keyname of this price which can be STANDARD or TIERED.
+Retrieve the type keyname of this price which can be STANDARD, TIERED, or TERM.
 </div>
 
 <div class="method-row">

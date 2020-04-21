@@ -26,6 +26,7 @@ aliases:
 | --- | --- | --- |
 |startDate| string| format: YYYY-MM-DD (2008-11-01)|
 |endDate| string| format: YYYY-MM-DD (2008-11-01)|
+|accountId| integer| Unused, necessary to keep parent API contract.|
 
 
 ### Required Headers

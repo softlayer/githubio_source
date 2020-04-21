@@ -26,6 +26,7 @@ aliases:
 | --- | --- | --- |
 |startDateTime| string| |
 |endDateTime| string| |
+|accountId| integer| Unused, necessary to keep API contract with parent method.|
 
 
 ### Required Headers

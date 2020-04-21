@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Bandwidth_Usage"
-description: ""
+description: "When a customer uses SoftLayer_Account::getBandwidthUsage, this container is used to return their usage information in b... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-
+When a customer uses SoftLayer_Account::getBandwidthUsage, this container is used to return their usage information in bytes 
 
 
 
