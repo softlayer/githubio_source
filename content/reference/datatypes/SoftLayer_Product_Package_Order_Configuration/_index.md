@@ -129,6 +129,16 @@ This is an integer used to show the order in which each item Category should be 
 
 
 </div>
+<div class="prop-row">
+
+-----
+[termFlag]: #termflag
+#### [termFlag]
+Whether or not the item category is term-based.  
+<span class="type-label">Type: </span>**boolean**
+
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

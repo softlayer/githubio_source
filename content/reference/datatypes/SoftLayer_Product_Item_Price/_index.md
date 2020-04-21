@@ -222,6 +222,16 @@ Used for ordering items on sales orders.
 <div class="prop-row">
 
 -----
+[termLength]: #termlength
+#### [termLength]
+The number of months a term lasts for a term-based price  
+<span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [tierMinimumThreshold]: #tierminimumthreshold
 #### [tierMinimumThreshold]
 The minimum threshold for which this tiered usage price begins to apply.  The unit for the price is defined by the item to which this belongs, see [[SoftLayer_Product_Item::$units]].   
@@ -420,7 +430,7 @@ A list of preset configurations this price is used in.'
 -----
 [priceType]: #pricetype
 #### [priceType]
-The type keyname of this price which can be STANDARD or TIERED.  
+The type keyname of this price which can be STANDARD, TIERED, or TERM.  
 <span class="type-label">Type: </span>**string**
 
 

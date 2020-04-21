@@ -194,6 +194,16 @@ Customer's state
 
 
 </div>
+<div class="prop-row">
+
+-----
+[vatId]: #vatid
+#### [vatId]
+Customer's VAT ID  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

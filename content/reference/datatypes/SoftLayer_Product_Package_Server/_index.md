@@ -392,6 +392,16 @@ The monthly starting price for the server. This includes a sum of all the minimu
 <div class="prop-row">
 
 -----
+[termLength]: #termlength
+#### [termLength]
+The length of a term if a server has a term-based price  
+<span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [totalCoreCount]: #totalcorecount
 #### [totalCoreCount]
 The total number of processor cores available for the server.  

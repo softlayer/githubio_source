@@ -1,6 +1,6 @@
 ---
 title: "getPriceType"
-description: "Retrieve the type keyname of this price which can be STANDARD or TIERED."
+description: "Retrieve the type keyname of this price which can be STANDARD, TIERED, or TERM."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getPriceType
 
-Retrieve the type keyname of this price which can be STANDARD or TIERED.
+Retrieve the type keyname of this price which can be STANDARD, TIERED, or TERM.
 
 
 ## Overview 
-Retrieve the type keyname of this price which can be STANDARD or TIERED.
+Retrieve the type keyname of this price which can be STANDARD, TIERED, or TERM.
 
 -----
 
