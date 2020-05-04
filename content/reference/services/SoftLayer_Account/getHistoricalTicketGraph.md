@@ -39,6 +39,7 @@ Given the start and end dates, this method will return a pie chart of ticket sta
 ### Associated Methods
 
 *  [SoftLayer_Account::getCurrentTicketStatisticsGraph](/reference/services/SoftLayer_Account/getCurrentTicketStatisticsGraph )
+*  [SoftLayer_Metric_Tracking_Object::getSummaryData](/reference/services/SoftLayer_Metric_Tracking_Object/getSummaryData )
 
 
 

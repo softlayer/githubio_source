@@ -220,6 +220,16 @@ The number of services currently associated with the certificate.
 <div class="prop-row">
 
 -----
+[lbaasListeners]: #lbaaslisteners
+#### [lbaasListeners]
+Cloud Load Balancer [LBaaS] listeners currently associated with the certificate.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_Listener'>SoftLayer_Network_LBaaS_Listener[] </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [loadBalancerVirtualIpAddresses]: #loadbalancervirtualipaddresses
 #### [loadBalancerVirtualIpAddresses]
 The load balancers virtual IP addresses currently associated with the certificate.  
@@ -229,6 +239,16 @@ The load balancers virtual IP addresses currently associated with the certificat
 </div>
 
 ## Count
+<div class="prop-row">
+
+-----
+[lbaasListenerCount]: #lbaaslistenercount
+#### [lbaasListenerCount]
+A count of cloud Load Balancer [LBaaS] listeners currently associated with the certificate.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+</div>
 <div class="prop-row">
 
 -----

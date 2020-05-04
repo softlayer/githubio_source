@@ -550,6 +550,16 @@ The URLs for scripts to execute on their respective servers after they have been
 <div class="prop-row">
 
 -----
+[publicSubnets]: #publicsubnets
+#### [publicSubnets]
+Specify the public subnet where this load balancer will be provisioned when useSystemPublicIpPool is false. This is valid only for public(1) load balancer. The public subnet should match the private subnet.   
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [quantity]: #quantity
 #### [quantity]
 The quantity of the item being ordered  

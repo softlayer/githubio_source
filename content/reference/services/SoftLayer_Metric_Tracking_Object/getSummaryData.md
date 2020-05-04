@@ -40,4 +40,11 @@ Returns summarized metric data for the date range, metric type and summary perio
 
 
 
+### Error Handling
+
+* SoftLayer_Exception_MaximumResultLimit 
+
+> Throws 'The expected result is too large.' when too many data points are requested 
+
+
 

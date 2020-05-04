@@ -70,6 +70,12 @@ Retrieve the number of services currently associated with the certificate.
 
 <div class="method-row">
 
+#### [getLbaasListeners](/reference/services/SoftLayer_Security_Certificate/getLbaasListeners)
+Retrieve cloud Load Balancer [LBaaS] listeners currently associated with the certificate.
+</div>
+
+<div class="method-row">
+
 #### [getLoadBalancerVirtualIpAddresses](/reference/services/SoftLayer_Security_Certificate/getLoadBalancerVirtualIpAddresses)
 Retrieve the load balancers virtual IP addresses currently associated with the certificate.
 </div>

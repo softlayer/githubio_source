@@ -46,6 +46,10 @@ This method returns the metric data for each of the configuration values provide
 
 ### Error Handling
 
+* SoftLayer_Exception_MaximumResultLimit 
+
+> Throws 'The expected result is too large.' when too many data points are requested 
+
 * SoftLayer_Exception_Public 
 
 > Throws 'Please provide metric data types.' if no metric data types were provided. 
