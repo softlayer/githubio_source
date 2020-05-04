@@ -36,5 +36,10 @@ Returns a graph container instance that is populated with metric data for the tr
 * <a href='/reference/datatypes/SoftLayer_Container_Graph'>SoftLayer_Container_Graph </a>
 
 
+### Associated Methods
+
+*  [SoftLayer_Metric_Tracking_Object::getSummaryData](/reference/services/SoftLayer_Metric_Tracking_Object/getSummaryData )
+
+
 
 

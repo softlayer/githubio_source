@@ -36,5 +36,10 @@ Retrieve disk usage data on a [SoftLayer_Virtual_Guest]({{<ref "reference/dataty
 * <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
 
 
+### Associated Methods
+
+*  [SoftLayer_Metric_Tracking_Object::getSummaryData](/reference/services/SoftLayer_Metric_Tracking_Object/getSummaryData )
+
+
 
 

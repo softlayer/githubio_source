@@ -38,5 +38,10 @@ Use this method when needing the metric data for a single guest's CPUs.  It will
 * <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>
 
 
+### Associated Methods
+
+*  [SoftLayer_Metric_Tracking_Object::getSummaryData](/reference/services/SoftLayer_Metric_Tracking_Object/getSummaryData )
+
+
 
 
