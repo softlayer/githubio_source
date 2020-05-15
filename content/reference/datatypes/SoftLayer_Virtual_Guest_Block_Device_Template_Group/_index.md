@@ -250,6 +250,16 @@ A collection of locations containing a copy of this image template group. Will o
 <div class="prop-row">
 
 -----
+[firstChild]: #firstchild
+#### [firstChild]
+The first clone of the image template group  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [flexImageFlag]: #fleximageflag
 #### [flexImageFlag]
 A flag indicating if this is a flex image.  
@@ -310,6 +320,26 @@ The image template group that another image template group was cloned from.
 <div class="prop-row">
 
 -----
+[region]: #region
+#### [region]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Resource'>SoftLayer_Network_Service_Resource </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[regions]: #regions
+#### [regions]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Resource'>SoftLayer_Network_Service_Resource[] </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [sshKeys]: #sshkeys
 #### [sshKeys]
 The ssh keys to be implemented on the server when provisioned or reloaded from an image template group.  
@@ -334,16 +364,6 @@ A template group's status.
 #### [storageRepository]
 The storage repository that an image template group resides on.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository'>SoftLayer_Virtual_Storage_Repository </a>**
-
-
-</div>
-<div class="prop-row">
-
------
-[symantecImageFlag]: #symantecimageflag
-#### [symantecImageFlag]
-A flag indicating if this is a symantec image.  
-<span class="type-label">Type: </span>**boolean**
 
 
 </div>
@@ -415,6 +435,16 @@ A count of the image template groups that are clones of an image template group.
 [datacenterCount]: #datacentercount
 #### [datacenterCount]
 A count of a collection of locations containing a copy of this image template group. Will only be populated for parent template group objects.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[regionCount]: #regioncount
+#### [regionCount]
+A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
 

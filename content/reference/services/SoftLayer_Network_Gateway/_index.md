@@ -88,6 +88,12 @@ Retrieve the account for this gateway.
 
 <div class="method-row">
 
+#### [getAllowedOsPriceIds](/reference/services/SoftLayer_Network_Gateway/getAllowedOsPriceIds)
+
+</div>
+
+<div class="method-row">
+
 #### [getCapacity](/reference/services/SoftLayer_Network_Gateway/getCapacity)
 
 </div>
@@ -185,6 +191,12 @@ Retrieve available upgrade prices
 <div class="method-row">
 
 #### [isAccountWhiteListed](/reference/services/SoftLayer_Network_Gateway/isAccountWhiteListed)
+
+</div>
+
+<div class="method-row">
+
+#### [isLicenseServerAllowed](/reference/services/SoftLayer_Network_Gateway/isLicenseServerAllowed)
 
 </div>
 

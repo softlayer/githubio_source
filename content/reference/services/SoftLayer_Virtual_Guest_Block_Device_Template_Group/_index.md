@@ -214,6 +214,12 @@ Retrieve a collection of locations containing a copy of this image template grou
 
 <div class="method-row">
 
+#### [getFirstChild](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getFirstChild)
+Retrieve the first clone of the image template group
+</div>
+
+<div class="method-row">
+
 #### [getFlexImageFlag](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getFlexImageFlag)
 Retrieve a flag indicating if this is a flex image.
 </div>
@@ -268,6 +274,18 @@ Gets all public image templates that the user is allowed to see.
 
 <div class="method-row">
 
+#### [getRegion](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getRegion)
+
+</div>
+
+<div class="method-row">
+
+#### [getRegions](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getRegions)
+
+</div>
+
+<div class="method-row">
+
 #### [getSshKeys](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getSshKeys)
 Retrieve the ssh keys to be implemented on the server when provisioned or reloaded from an image template group.
 </div>
@@ -294,12 +312,6 @@ Retrieve the storage repository that an image template group resides on.
 
 #### [getSupportedBootModes](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getSupportedBootModes)
 
-</div>
-
-<div class="method-row">
-
-#### [getSymantecImageFlag](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getSymantecImageFlag)
-Retrieve a flag indicating if this is a symantec image.
 </div>
 
 <div class="method-row">
