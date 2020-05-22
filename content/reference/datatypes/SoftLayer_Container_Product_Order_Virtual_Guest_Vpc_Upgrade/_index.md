@@ -212,6 +212,16 @@ This is the configuration identifier for tracking orders on the HTML order forms
 <div class="prop-row">
 
 -----
+[driveDestructionDisks]: #drivedestructiondisks
+#### [driveDestructionDisks]
+Array of disk drive slot categories to destroy on reclaim. For example: ['disk0', 'disk1', 'disk2']. One drive_destruction price must be included for each slot provided. Note that once the initial order or upgrade order are approved, the destruction property <strong>is not removable</strong> and the drives will be destroyed at the end of the server's lifecycle. Not all drive slots are required, but all can be provided.   
+<span class="type-label">Type: </span>**array of strings**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [extendedHardwareTesting]: #extendedhardwaretesting
 #### [extendedHardwareTesting]
   

@@ -26,7 +26,7 @@ Refer to [[SoftLayer_Layout_Profile::modifyPreference()]] for more information.
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|layoutPreferenceObjects| <a href='/reference/datatypes/SoftLayer_Layout_Profile_Preference'>SoftLayer_Layout_Profile_Preference[] </a>| |
+|layoutPreferenceObjects| <a href='/reference/datatypes/SoftLayer_Layout_Profile_Preference'>SoftLayer_Layout_Profile_Preference[] </a>| All the preferences to modify.|
 
 
 ### Required Headers

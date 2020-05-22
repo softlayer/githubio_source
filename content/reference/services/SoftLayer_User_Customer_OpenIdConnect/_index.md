@@ -569,7 +569,7 @@ Retrieve a user's unsuccessful attempts to log into the SoftLayer customer porta
 <div class="method-row">
 
 #### [getUserForUnifiedInvitation](/reference/services/SoftLayer_User_Customer_OpenIdConnect/getUserForUnifiedInvitation)
-Get the IMS User Object for the provided OpenIdConnect User ID, or
+Get the IMS User Object for the provided OpenIdConnect User ID, or (Optional) IBMid Unique Identifier. 
 </div>
 
 <div class="method-row">

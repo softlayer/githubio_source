@@ -1426,7 +1426,7 @@ Retrieve a server's remote management card used for statistics.
 <div class="method-row">
 
 #### [getStorageNetworkComponents](/reference/services/SoftLayer_Hardware_Server/getStorageNetworkComponents)
-
+Retrieve a piece of hardware's private storage network components. [Deprecated]
 </div>
 
 <div class="method-row">

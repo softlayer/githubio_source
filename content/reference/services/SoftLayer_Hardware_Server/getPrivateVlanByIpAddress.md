@@ -1,6 +1,7 @@
 ---
 title: "getPrivateVlanByIpAddress"
-description: "Retrieve a backend network VLAN by searching for an IP address"
+description: "*** DEPRECATED ***
+Retrieve a backend network VLAN by searching for an IP address"
 layout: "method"
 tags:
     - "method"
@@ -17,6 +18,8 @@ Retrieve a backend network VLAN by searching for an IP address.
 
 
 ## Overview 
+
+*** DEPRECATED ***
 Retrieve a backend network VLAN by searching for an IP address 
 
 -----

@@ -39,11 +39,6 @@ Retrieve the subnet associated with an IP address. You may only retrieve subnets
 * <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
 
 
-### Associated Methods
-
-*  [SoftLayer_Network_Vlan::getPrivateVlanByIpAddress](/reference/services/SoftLayer_Network_Vlan/getPrivateVlanByIpAddress )
-
-
 
 ### Error Handling
 

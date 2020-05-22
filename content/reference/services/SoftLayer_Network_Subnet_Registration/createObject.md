@@ -80,5 +80,9 @@ A template containing the following properties will create a subnet registration
 
 > <<< EOT 
 
+* SoftLayer_Exception_NotReady 
+
+> <<< EOT 
+
 
 

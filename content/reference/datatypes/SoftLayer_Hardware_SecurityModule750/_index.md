@@ -1740,7 +1740,7 @@ A server's remote management card used for statistics.
 -----
 [storageNetworkComponents]: #storagenetworkcomponents
 #### [storageNetworkComponents]
-  
+A piece of hardware's private storage network components. [Deprecated]  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>**
 
 
@@ -2522,7 +2522,7 @@ A count of sSH keys to be installed on the server during provisioning or an OS r
 -----
 [storageNetworkComponentCount]: #storagenetworkcomponentcount
 #### [storageNetworkComponentCount]
-A count of    
+A count of a piece of hardware's private storage network components. [Deprecated]   
 <span class="type-label">Type: </span>**unsigned long**
 
 
