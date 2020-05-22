@@ -1,6 +1,6 @@
 ---
 title: "getStorageNetworkComponents"
-description: ""
+description: "Retrieve a piece of hardware's private storage network components. [Deprecated]"
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getStorageNetworkComponents
 
-
+Retrieve a piece of hardware's private storage network components. [Deprecated]
 
 
 ## Overview 
-
+Retrieve a piece of hardware's private storage network components. [Deprecated]
 
 -----
 

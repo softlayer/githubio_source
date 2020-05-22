@@ -26,7 +26,7 @@ Only preferences that are assigned to a profile may be updated. Attempts to upda
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|templateObject| <a href='/reference/datatypes/SoftLayer_Layout_Profile_Preference'>SoftLayer_Layout_Profile_Preference </a>| |
+|templateObject| <a href='/reference/datatypes/SoftLayer_Layout_Profile_Preference'>SoftLayer_Layout_Profile_Preference </a>| The object whose preference is being modified.|
 
 
 ### Required Headers

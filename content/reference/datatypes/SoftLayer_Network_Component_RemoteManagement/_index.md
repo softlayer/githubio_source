@@ -420,7 +420,7 @@ A network component's routers.
 -----
 [storageNetworkFlag]: #storagenetworkflag
 #### [storageNetworkFlag]
-Whether a network component's primary ip address is from a storage network subnet or not.  
+Whether a network component's primary ip address is from a storage network subnet or not. [Deprecated]  
 <span class="type-label">Type: </span>**boolean**
 
 

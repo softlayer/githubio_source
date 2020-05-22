@@ -209,7 +209,7 @@ Retrieve a network component's routers.
 <div class="method-row">
 
 #### [getStorageNetworkFlag](/reference/services/SoftLayer_Network_Component/getStorageNetworkFlag)
-Retrieve whether a network component's primary ip address is from a storage network subnet or not.
+Retrieve whether a network component's primary ip address is from a storage network subnet or not. [Deprecated]
 </div>
 
 <div class="method-row">

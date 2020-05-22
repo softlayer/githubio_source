@@ -1,6 +1,7 @@
 ---
 title: "getPrivateVlanByIpAddress"
-description: "Retrieve the private network VLAN associated with an IP address."
+description: "*** DEPRECATED ***
+Retrieve the private network VLAN associated with an IP address."
 layout: "method"
 tags:
     - "method"
@@ -17,6 +18,8 @@ Retrieve the private network VLAN associated with an IP address.
 
 
 ## Overview 
+
+*** DEPRECATED ***
 Retrieve the private network VLAN associated with an IP address. 
 
 -----
