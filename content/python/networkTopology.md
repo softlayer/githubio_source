@@ -122,12 +122,12 @@ class example():
         # pp(server)
         if 'frontendNetworkComponents'  in server:
             for eth in server['frontendNetworkComponents']:
-                switch = eth['uplinkComponent']['hardware']['hostname']
+                switch = eth['uplinkComponent']['hardware']['hostname'] if 'hardware' in eth['uplinkComponent'] else "N.A."
                 switch_port = eth['uplinkComponent']['port']
                 print("\t\t\t\teth%s => %s:%s " % (eth['port'],switch,switch_port))
         if 'backendNetworkComponents'  in server:
             for eth in server['backendNetworkComponents']:
-                switch = eth['uplinkComponent']['hardware']['hostname']
+                switch = eth['uplinkComponent']['hardware']['hostname'] if 'hardware' in eth['uplinkComponent'] else "N.A."
                 switch_port = eth['uplinkComponent']['port']
                 print("\t\t\t\teth%s => %s:%s " % (eth['port'],switch,switch_port))
 

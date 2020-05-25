@@ -12,7 +12,7 @@ tags:
   - "permissions"
 ---
 
-This example is a set of scripts I've used for creating and disabling users. This will ONLY create SoftLayer users, and does not work for Bluemix/IbmCloud type accounts. 
+This example is a set of scripts I've used for creating and disabling users. 
 
 Some of this functionality is also in the [SLCLI](https://softlayer-python.readthedocs.io/en/latest/cli/users.html) now.
 
@@ -230,3 +230,25 @@ if __name__ == "__main__":
 
     print 'Complete'
 ```
+
+
+## Users Statuses
+
+The following statuses are available for users:
+
+```
+$ slcli call-api SoftLayer_User_Customer_Status getAllObjects
+ID    KeyName         Description
+1001  ACTIVE          Active
+1002  DISABLED        Disabled
+1003  INACTIVE        Inactive
+1004  PENDING         Pending
+1005  SUSPENDED       Suspended
+1006  IAMID_INVALID   IAMid Invalid
+1021  CANCEL_PENDING  cancel_pending
+1022  VPN_ONLY        VPN Only
+
+```
+
+When a user is set to CANCEL_PENDING, they will now show up in the API results or portal, however the users will still technically exist in the database. So if you try to create another user with the same username, you may get an error. 
+
