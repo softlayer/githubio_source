@@ -1,11 +1,11 @@
 ---
 title: "Classic Infrastructure Networking"
-description: "An overview of how networking is connected "
-date: "2011-06-20"
+description: "An overview of how networking is connected on Classic Infrastructure, and the APIs used to control it. "
+date: "2020-05-29"
 tags:
     - "article"
     - "sldn"
-    - "permissions"
+    - "network"
 ---
 
 
@@ -73,142 +73,29 @@ VLan Trunking (or tagging) allows a server's network component to exist on multi
 - [SoftLayer_Network_Component::getNetworkVlanTrunks](/reference/services/SoftLayer_Network_Component/getNetworkVlanTrunks/) Lists all VLAN trunks on a Network Component
 
 
-## Types of network setups
+## Useful VLAN APIs
++ [SoftLayer_Network_Component::getVlan](reference/services/SoftLayer_Network_Component/getNetworkVlan/) Gets the primary VLAN associated with a specific network component
++ [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan/) most vlans will be of this Class
++ [SoftLayer_Network_Gateway_Vlan](/reference/services/SoftLayer_Network_Gateway_Vlan/) Vlans that belong to a gateway device.
 
+# [Subnets](https://cloud.ibm.com/docs/subnets?topic=subnets-getting-started)
+Subnets exist on VLANs, and provide compute resources IP addresses to access the network.  There are several different types of subnets to be concerned about.
 
-https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-about-bm#network-redundancy
+#### Primary
+These are used by our provisoining system to automatically give an IP address to a compute resource. __NEVER__ manually distribute IP space from these subnets, it disrupt provisioning on your account since our system will not know if you are using an IP out of this subnet.
 
-- Automatic ?
-- User managed
+#### Secondary Static
+These subnets are routed to a specific IP address, and allow the server associated with the static IP to use all the ips in this subnet.
 
+#### Secondary Portable
+These subnets are routed to a VLAN, and allows any server on that vlan access to IP space here. You lose 3 IPs for the Network IP, Gateway Ip, and Broadcast Ip.
 
-VLANS:
-id, networkVlan, name
-2797214 :  826   : networkTest
+## Useful Subnet APIs
++ [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet/) Service used for interacting with subnets
+    * [createReverseDomainRecords](https://sldn.softlayer.com/reference/services/SoftLayer_Network_Subnet/createReverseDomainRecords/) Create the default PTR records for this subnet
+    * [editNote](/reference/services/SoftLayer_Network_Subnet/editNote/) Allows editing a subnet's note.
++ [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress/) Service used for interacting with IP addresses
+    * [findByIpv4Address](/reference/services/SoftLayer_Network_Subnet_IpAddress/findByIpv4Address/) Looks up an IP address record by its ipv4 address
+    * [getVirtualGuest](/reference/services/SoftLayer_Network_Subnet_IpAddress/getVirtualGuest/) and [getHardware](/reference/services/SoftLayer_Network_Subnet_IpAddress/getHardware/) let you look up the VirtualGuest or Hardware object associated with a Primary IP
++ [SoftLayer_Network_Subnet_Rwhois_Data](/reference/services/SoftLayer_Network_Subnet_Rwhois_Data/) Service for interacting with Rwhois data.
 
-COMPONENTS
-
-========
-       {
-            "id": 10626113,
-            "name": "eth",
-            "networkVlanTrunks": [],
-            "port": 1,
-            "primaryIpAddress": "10.152.17.213",
-            "speed": 1000,
-            "uplinkComponent": {
-                "id": 5959217,
-                "networkVlan": {
-                    "accountId": 307608,
-                    "id": 2797108,
-                    "modifyDate": "2020-02-05T14:47:09-06:00",
-                    "primarySubnetId": 2356598,
-                    "vlanNumber": 797
-                },
-                "networkVlanTrunks": [
-                    {
-                        "networkComponentId": 5959217,
-                        "networkVlanId": 2797214
-                    }
-                ]
-            }
-        },
-        {
-            "id": 10626117,
-            "name": "eth",
-            "networkVlanTrunks": [],
-            "port": 3,
-            "primaryIpAddress": null,
-            "speed": 1000,
-            "uplinkComponent": {
-                "id": 5961549,
-                "networkVlan": {
-                    "accountId": 307608,
-                    "id": 2797108,
-                    "modifyDate": "2020-02-05T14:47:09-06:00",
-                    "primarySubnetId": 2356598,
-                    "vlanNumber": 797
-                },
-                "networkVlanTrunks": [
-                    {
-                        "networkComponentId": 5961549,
-                        "networkVlanId": 2797214
-                    }
-                ]
-            }
-        },
-=======
-
-mask[id,hostname,networkComponents[port,speed,networkVlanTrunks,name,id,uplinkComponent[networkVlan,networkVlanTrunks[networkVlan],id],primaryIpAddress],networkVlans]
-
-slcli --format=json call-api SoftLayer_Hardware_Server getObject --id=1398593 --mask="mask[id,hostname,networkComponents[port,speed,networkVlanTrunks,name,id,uplinkComponent[networkVlan,networkVlanTrunks[networkVlan],id],primaryIpAddress],networkVlans]"
-{
-    "hostname": "networktest",
-    "id": 1398593,
-    "networkComponents": [
-        {
-            "id": 10626113,
-            "name": "eth",
-            "networkVlanTrunks": [],
-            "port": 1,
-            "primaryIpAddress": "10.152.17.213",
-            "speed": 1000,
-            "uplinkComponent": {
-                "id": 5959217,
-                "networkVlan": {
-                    "accountId": 307608,
-                    "id": 2797108,
-                    "modifyDate": "2020-02-05T14:47:09-06:00",
-                    "primarySubnetId": 2356598,
-                    "vlanNumber": 797
-                },
-                "networkVlanTrunks": [
-                    {
-                        "networkComponentId": 5959217,
-                        "networkVlan": {
-                            "accountId": 307608,
-                            "id": 2797214,
-                            "modifyDate": "2020-02-05T15:31:46-06:00",
-                            "name": "networkTest",
-                            "primarySubnetId": 1448573,
-                            "vlanNumber": 826
-                        },
-                        "networkVlanId": 2797214
-                    }
-                ]
-            }
-        },
-        {
-            "id": 10626117,
-            "name": "eth",
-            "networkVlanTrunks": [],
-            "port": 3,
-            "primaryIpAddress": null,
-            "speed": 1000,
-            "uplinkComponent": {
-                "id": 5961549,
-                "networkVlan": {
-                    "accountId": 307608,
-                    "id": 2797108,
-                    "modifyDate": "2020-02-05T14:47:09-06:00",
-                    "primarySubnetId": 2356598,
-                    "vlanNumber": 797
-                },
-                "networkVlanTrunks": [
-                    {
-                        "networkComponentId": 5961549,
-                        "networkVlan": {
-                            "accountId": 307608,
-                            "id": 2797214,
-                            "modifyDate": "2020-02-05T15:31:46-06:00",
-                            "name": "networkTest",
-                            "primarySubnetId": 1448573,
-                            "vlanNumber": 826
-                        },
-                        "networkVlanId": 2797214
-                    }
-                ]
-            }
-        },
-    ]
-}
