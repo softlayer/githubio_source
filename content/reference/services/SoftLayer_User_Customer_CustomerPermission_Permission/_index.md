@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description
-Portal account users who are not the master user (account owner) have permissions to allow them access to portal functionalities.
+Portal account users who are not the master user (account owner) have permissions to allow them access to portal functionalities. 
 
 
 
