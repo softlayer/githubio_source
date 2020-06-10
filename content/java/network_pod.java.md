@@ -12,7 +12,7 @@ tags:
 
 [Network_Pod](https://https://sldn.softlayer.com/reference/services/SoftLayer_Network_Pod/)
 
-### Get the all Metric Pod
+### Get the all Metric Pods
 
 ```java
 import com.google.gson.Gson;
@@ -41,9 +41,6 @@ public class getAllObjects {
 }
 
 ```
-
-### Get the all Metric Pod using filters
-
 
 ### Get the network pod object
 
@@ -81,7 +78,7 @@ public class getObject {
 
 ```
 
-### Get the list capabilities network pod
+### List capabilities of the Network Pod
 
 ```java
 import com.google.gson.Gson;
