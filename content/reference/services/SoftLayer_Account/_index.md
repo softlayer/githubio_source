@@ -1613,7 +1613,7 @@ Retrieve all Routers that an accounts VLANs reside on
 <div class="method-row">
 
 #### [getRwhoisData](/reference/services/SoftLayer_Account/getRwhoisData)
-Retrieve an account's reverse WHOIS data. This data is used when making SWIP requests.
+Retrieval: DEPRECATED
 </div>
 
 <div class="method-row">

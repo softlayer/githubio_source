@@ -1,6 +1,7 @@
 ---
 title: "removeSwipData"
-description: "This function, when called on an instantiated SWIP transaction, will allow you to start a 'DELETE' transaction with ARIN... "
+description: "**DEPRECATED**
+This function, when called on an instantiated SWIP transaction, will allow you to start a 'DELETE' transa... "
 layout: "method"
 tags:
     - "method"
@@ -17,6 +18,8 @@ Deletes registration information from ARIN for a single subnet
 
 
 ## Overview 
+
+**DEPRECATED**
 This function, when called on an instantiated SWIP transaction, will allow you to start a "DELETE" transaction with ARIN, allowing you to remove your SWIP registration information. 
 
 -----

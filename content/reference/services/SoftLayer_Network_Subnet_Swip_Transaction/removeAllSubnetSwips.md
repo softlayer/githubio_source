@@ -1,6 +1,7 @@
 ---
 title: "removeAllSubnetSwips"
-description: "This method finds all subnets attached to your account that are in OK status and starts 'DELETE' transactions with ARIN,... "
+description: "**DEPRECATED**
+This method finds all subnets attached to your account that are in OK status and starts 'DELETE' transact... "
 layout: "method"
 tags:
     - "method"
@@ -17,6 +18,8 @@ Removes registration information from ARIN for all your subnets
 
 
 ## Overview 
+
+**DEPRECATED**
 This method finds all subnets attached to your account that are in OK status and starts "DELETE" transactions with ARIN, allowing you to remove your SWIP registration information. 
 
 -----

@@ -1,6 +1,7 @@
 ---
 title: "SoftLayer_Network_Subnet_Swip_Transaction"
-description: "The SoftLayer_Network_Subnet_Swip_Transaction data type contains basic information tracked at SoftLayer to allow automat... "
+description: "**DEPRECATED**
+The SoftLayer_Network_Subnet_Swip_Transaction data type contains basic information tracked at SoftLayer t... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,6 +19,8 @@ classes:
 </div>
 
 ## Description 
+
+**DEPRECATED**
 The SoftLayer_Network_Subnet_Swip_Transaction data type contains basic information tracked at SoftLayer to allow automation of Swip creation, update, and removal requests.  A specific transaction is attached to an accountId and a subnetId. This also contains a "Status Name" which tells the customer what the transaction is doing: 
 
 
