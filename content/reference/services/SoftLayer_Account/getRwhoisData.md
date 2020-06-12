@@ -1,6 +1,6 @@
 ---
 title: "getRwhoisData"
-description: "Retrieve an account's reverse WHOIS data. This data is used when making SWIP requests."
+description: "Retrieval: DEPRECATED"
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getRwhoisData
 
-Retrieve an account's reverse WHOIS data. This data is used when making SWIP requests.
+Retrieval: DEPRECATED
 
 
 ## Overview 
-Retrieve an account's reverse WHOIS data. This data is used when making SWIP requests.
+Retrieval: DEPRECATED
 
 -----
 
@@ -33,10 +33,11 @@ Retrieve an account's reverse WHOIS data. This data is used when making SWIP req
 ### Optional Headers
 * SoftLayer_AccountObjectMask
 * SoftLayer_AccountObjectFilter
+* resultLimit
 * SoftLayer_ObjectMask
 
 ### Return Values
-* <a href='/reference/datatypes/SoftLayer_Network_Subnet_Rwhois_Data'>SoftLayer_Network_Subnet_Rwhois_Data </a>
+* <a href='/reference/datatypes/SoftLayer_Network_Subnet_Rwhois_Data'>SoftLayer_Network_Subnet_Rwhois_Data[] </a>
 
 
 

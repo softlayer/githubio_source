@@ -1,6 +1,7 @@
 ---
 title: "createSwipTransaction"
-description: "This function is used to create a new SoftLayer SWIP transaction to register your RWHOIS data with ARIN. SWIP transactio... "
+description: "***DEPRECATED***
+This function is used to create a new SoftLayer SWIP transaction to register your RWHOIS data with ARIN... "
 layout: "method"
 tags:
     - "method"
@@ -17,6 +18,8 @@ create a SWIP transaction for a subnet
 
 
 ## Overview 
+
+***DEPRECATED***
 This function is used to create a new SoftLayer SWIP transaction to register your RWHOIS data with ARIN. SWIP transactions can only be initiated on subnets that contain more than 8 IP addresses. 
 
 -----

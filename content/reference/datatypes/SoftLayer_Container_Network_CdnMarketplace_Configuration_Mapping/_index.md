@@ -82,6 +82,16 @@ classes:
 <div class="prop-row">
 
 -----
+[createDate]: #createdate
+#### [createDate]
+  
+<span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [domain]: #domain
 #### [domain]
   
@@ -166,6 +176,16 @@ classes:
 #### [httpsPort]
   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[modifyDate]: #modifydate
+#### [modifyDate]
+  
+<span class="type-label">Type: </span>**dateTime**
 
 
 </div>

@@ -1,6 +1,7 @@
 ---
 title: "resendSwipData"
-description: "This function will allow you to update ARIN's registration data for a subnet to your current RWHOIS data."
+description: "**DEPRECATED**
+This function will allow you to update ARIN's registration data for a subnet to your current RWHOIS data."
 layout: "method"
 tags:
     - "method"
@@ -17,6 +18,8 @@ Sends updated RWHOIS information to ARIN for a single subnet.
 
 
 ## Overview 
+
+**DEPRECATED**
 This function will allow you to update ARIN's registration data for a subnet to your current RWHOIS data. 
 
 -----

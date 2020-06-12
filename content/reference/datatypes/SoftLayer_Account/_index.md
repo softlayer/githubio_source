@@ -2408,8 +2408,8 @@ All Routers that an accounts VLANs reside on
 -----
 [rwhoisData]: #rwhoisdata
 #### [rwhoisData]
-An account's reverse WHOIS data. This data is used when making SWIP requests.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Rwhois_Data'>SoftLayer_Network_Subnet_Rwhois_Data </a>**
+DEPRECATED  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Rwhois_Data'>SoftLayer_Network_Subnet_Rwhois_Data[] </a>**
 
 
 </div>
@@ -4321,6 +4321,16 @@ A count of an account's associated top-level resource groups.
 [routerCount]: #routercount
 #### [routerCount]
 A count of all Routers that an accounts VLANs reside on   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[rwhoisDataCount]: #rwhoisdatacount
+#### [rwhoisDataCount]
+A count of dEPRECATED   
 <span class="type-label">Type: </span>**unsigned long**
 
 

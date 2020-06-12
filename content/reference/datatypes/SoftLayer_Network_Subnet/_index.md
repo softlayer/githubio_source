@@ -35,10 +35,8 @@ The SoftLayer_Network_Subnet data type contains general information relating to 
 
 ### associatedMethods
 
-*  [SoftLayer_Network_Subnet::findAllSubnetsAndActiveSwipTransactionStatus](/reference/services/SoftLayer_Network_Subnet/findAllSubnetsAndActiveSwipTransactionStatus )
 *  [SoftLayer_Network_Subnet::getObject](/reference/services/SoftLayer_Network_Subnet/getObject )
 *  [SoftLayer_Network_Subnet::getSubnetForIpAddress](/reference/services/SoftLayer_Network_Subnet/getSubnetForIpAddress )
-*  [SoftLayer_Network_Subnet_Swip_Transaction::getSubnet](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/getSubnet )
 *  [SoftLayer_Network_Vlan::getSubnets](/reference/services/SoftLayer_Network_Vlan/getSubnets )
 *  [SoftLayer_Network_Vlan::getSecondarySubnets](/reference/services/SoftLayer_Network_Vlan/getSecondarySubnets )
 
@@ -252,7 +250,7 @@ If present, the active registration for this subnet.
 -----
 [activeSwipTransaction]: #activeswiptransaction
 #### [activeSwipTransaction]
-All the swip transactions associated with a subnet that are still active.  
+DEPRECATED  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Swip_Transaction'>SoftLayer_Network_Subnet_Swip_Transaction </a>**
 
 
@@ -562,8 +560,18 @@ The name for the type of route then subnet is currently configured for.
 -----
 [swipTransaction]: #swiptransaction
 #### [swipTransaction]
-All the swip transactions associated with a subnet.  
+DEPRECATED  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Swip_Transaction'>SoftLayer_Network_Subnet_Swip_Transaction[] </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[tagReferences]: #tagreferences
+#### [tagReferences]
+References to all tags for this subnet.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**
 
 
 </div>
@@ -724,7 +732,17 @@ A count of all registrations that have been created for this subnet.
 -----
 [swipTransactionCount]: #swiptransactioncount
 #### [swipTransactionCount]
-A count of all the swip transactions associated with a subnet.   
+A count of dEPRECATED   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[tagReferenceCount]: #tagreferencecount
+#### [tagReferenceCount]
+A count of references to all tags for this subnet.   
 <span class="type-label">Type: </span>**unsigned long**
 
 

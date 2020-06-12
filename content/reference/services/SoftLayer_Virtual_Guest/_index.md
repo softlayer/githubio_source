@@ -100,6 +100,12 @@ Configures the guest's metadata disk.
 
 <div class="method-row">
 
+#### [createArchiveTemplate](/reference/services/SoftLayer_Virtual_Guest/createArchiveTemplate)
+[SoftLayer_Virtual_Guest_Block_Devices]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Devices">}}) can be grouped together in and backed up in an archive for later use. This method generates a transaction to perform an archive of the provided block devices. 
+</div>
+
+<div class="method-row">
+
 #### [createArchiveTransaction](/reference/services/SoftLayer_Virtual_Guest/createArchiveTransaction)
 [SoftLayer_Virtual_Guest_Block_Device]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Device">}}) can be grouped together in and backed up in an archive for later use. This method generates a transaction to perform an archive of the provided block devices. 
 </div>

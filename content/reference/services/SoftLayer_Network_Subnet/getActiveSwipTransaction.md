@@ -1,6 +1,6 @@
 ---
 title: "getActiveSwipTransaction"
-description: "Retrieve all the swip transactions associated with a subnet that are still active."
+description: "Retrieval: DEPRECATED"
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getActiveSwipTransaction
 
-Retrieve all the swip transactions associated with a subnet that are still active.
+Retrieval: DEPRECATED
 
 
 ## Overview 
-Retrieve all the swip transactions associated with a subnet that are still active.
+Retrieval: DEPRECATED
 
 -----
 

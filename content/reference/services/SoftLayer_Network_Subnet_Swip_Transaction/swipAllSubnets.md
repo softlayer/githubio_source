@@ -1,6 +1,7 @@
 ---
 title: "swipAllSubnets"
-description: "swipAllSubnets finds all subnets attached to your account and attempts to create a SWIP transaction for all subnets that... "
+description: "**DEPRECATED**
+swipAllSubnets finds all subnets attached to your account and attempts to create a SWIP transaction for a... "
 layout: "method"
 tags:
     - "method"
@@ -17,6 +18,8 @@ create SWIP transactions for all subnets that do not already have a SWIP transac
 
 
 ## Overview 
+
+**DEPRECATED**
 swipAllSubnets finds all subnets attached to your account and attempts to create a SWIP transaction for all subnets that do not already have a SWIP transaction in progress. 
 
 -----

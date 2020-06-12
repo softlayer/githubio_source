@@ -116,7 +116,7 @@ Retrieve if present, the active registration for this subnet.
 <div class="method-row">
 
 #### [getActiveSwipTransaction](/reference/services/SoftLayer_Network_Subnet/getActiveSwipTransaction)
-Retrieve all the swip transactions associated with a subnet that are still active.
+Retrieval: DEPRECATED
 </div>
 
 <div class="method-row">
@@ -338,7 +338,13 @@ Retrieve an IP addresses's associated subnet.
 <div class="method-row">
 
 #### [getSwipTransaction](/reference/services/SoftLayer_Network_Subnet/getSwipTransaction)
-Retrieve all the swip transactions associated with a subnet.
+Retrieval: DEPRECATED
+</div>
+
+<div class="method-row">
+
+#### [getTagReferences](/reference/services/SoftLayer_Network_Subnet/getTagReferences)
+Retrieve references to all tags for this subnet.
 </div>
 
 <div class="method-row">
@@ -363,6 +369,12 @@ Retrieve the Virtual Servers using IP addresses on this subnet.
 
 #### [removeAccessToNetworkStorageList](/reference/services/SoftLayer_Network_Subnet/removeAccessToNetworkStorageList)
 Remove access to multiple SoftLayer_Network_Storage volumes from this device. 
+</div>
+
+<div class="method-row">
+
+#### [setTags](/reference/services/SoftLayer_Network_Subnet/setTags)
+
 </div>
 </div>
 
