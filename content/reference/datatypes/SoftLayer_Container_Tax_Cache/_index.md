@@ -52,6 +52,16 @@ The percentage of the final total that should be tax.
 <div class="prop-row">
 
 -----
+[failureMessage]: #failuremessage
+#### [failureMessage]
+  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [items]: #items
 #### [items]
 The container that holds the four actual tax rates, one for each fee type.  
