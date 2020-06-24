@@ -170,8 +170,8 @@ public class ProductPackage {
     }
 
     public static void main(String[] args) {
-        String user = "sl307608-dcabero";
-        String apiKey = "873e8ac034b1aa17dd082137b67cce605ca4174723f06b7a687f4dd2ec417baf";
+        String user = "set - me";
+        String apiKey = "set - me";
         String namePackage = "BARE_METAL_SERVER";
         Long packageId;
         ProductPackage productPackage = new ProductPackage(user, apiKey);
