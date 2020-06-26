@@ -805,7 +805,7 @@ Retrieve return 1 if one of the account's hardware has an installation of R1Soft
 <div class="method-row">
 
 #### [getHistoricalBandwidthGraph](/reference/services/SoftLayer_Account/getHistoricalBandwidthGraph)
-This method returns a line graph of bandwidth statistics.
+[DEPRECATED] This method returns a line graph of bandwidth statistics.
 </div>
 
 <div class="method-row">

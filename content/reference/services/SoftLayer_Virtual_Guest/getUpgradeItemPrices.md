@@ -1,6 +1,6 @@
 ---
 title: "getUpgradeItemPrices"
-description: "getUpgradeItemPrices() retrieves a list of all upgrades available to a CloudLayer Computing Instance. Upgradeable items... "
+description: "Retrieves a list of all upgrades available to a virtual server. Upgradeable items include, but are not limited to, numbe... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Retrieve a computing instance's upgradeable items.
 
 
 ## Overview 
-getUpgradeItemPrices() retrieves a list of all upgrades available to a CloudLayer Computing Instance. Upgradeable items include, but are not limited to, number of cores, amount of RAM, storage configuration, and network port speed. 
+Retrieves a list of all upgrades available to a virtual server. Upgradeable items include, but are not limited to, number of cores, amount of RAM, storage configuration, and network port speed. 
 
 This method exclude downgrade item prices by default. You can set the "includeDowngradeItemPrices" parameter to true so that it can include downgrade item prices. 
 

@@ -52,7 +52,7 @@ The SoftLayer_Product_Item_Price data type contains general information relating
 -----
 [currentPriceFlag]: #currentpriceflag
 #### [currentPriceFlag]
-This flag is used by the [SoftLayer_Hardware::getUpgradeItems]({{<ref "reference/services/SoftLayer_Hardware/getUpgradeItems">}}) method to indicate if a product price is used for the current billing item.   
+This flag is used by the getUpgradeItemPrices methods available on various resources to indicate if a product price is used for the current billing item.   
 <span class="type-label">Type: </span>**boolean**
 
 
