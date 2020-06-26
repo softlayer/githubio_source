@@ -83,7 +83,7 @@ Retrieve the average daily public bandwidth usage for the current billing cycle.
 <div class="method-row">
 
 #### [getBackendBandwidthByHour](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment/getBackendBandwidthByHour)
-return a collection of private usage objects that contain hourly incoming and outgoing network traffic amounts for a 24 hour period. 
+[DEPRECATED] return a collection of private usage objects that contain hourly incoming and outgoing network traffic amounts for a 24 hour period. 
 </div>
 
 <div class="method-row">
@@ -167,7 +167,7 @@ Retrieve the bandwidth allotment detail records associated with this virtual rac
 <div class="method-row">
 
 #### [getFrontendBandwidthByHour](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment/getFrontendBandwidthByHour)
-return a collection of public usage objects that contain hourly incoming and outgoing network traffic amounts for a 24 hour period. 
+[DEPRECATED] return a collection of public usage objects that contain hourly incoming and outgoing network traffic amounts for a 24 hour period. 
 </div>
 
 <div class="method-row">
