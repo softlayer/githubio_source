@@ -15,7 +15,7 @@ tags:
 ---
 
 
-```
+```python
 """
 Order a new VSI.
 
