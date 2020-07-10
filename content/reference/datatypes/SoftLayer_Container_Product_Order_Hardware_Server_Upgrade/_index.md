@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-This is the datatype that needs to be populated and sent to SoftLayer_Product_Order::placeOrder. This datatype has everything required to place an order with SoftLayer. 
+This is the datatype that needs to be populated and sent to SoftLayer_Product_Order::placeOrder. This datatype has everything required to place a hardware upgrade. 
 
 
 ### associatedMethods

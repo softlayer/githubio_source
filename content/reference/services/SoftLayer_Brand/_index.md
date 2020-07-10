@@ -51,7 +51,7 @@ Create a new customer account record.
 <div class="method-row">
 
 #### [createObject](/reference/services/SoftLayer_Brand/createObject)
-Create a new brand record.
+Create a new brand.
 </div>
 
 <div class="method-row">

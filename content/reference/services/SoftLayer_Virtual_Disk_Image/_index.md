@@ -113,7 +113,7 @@ Retrieve a SoftLayer_Virtual_Disk_Image record.
 <div class="method-row">
 
 #### [getPublicIsoImages](/reference/services/SoftLayer_Virtual_Disk_Image/getPublicIsoImages)
-
+Retrieves images from the public ISO repository.
 </div>
 
 <div class="method-row">

@@ -58,6 +58,16 @@ classes:
 <div class="prop-row">
 
 -----
+[securityLevel]: #securitylevel
+#### [securityLevel]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Level'>SoftLayer_Security_Level </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [ticket]: #ticket
 #### [ticket]
   

@@ -92,6 +92,16 @@ Whether a ticket has a one-time charge associated with it. Standard tickets are 
 <div class="prop-row">
 
 -----
+[bnppSupportedLocationId]: #bnppsupportedlocationid
+#### [bnppSupportedLocationId]
+  
+<span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [changeOwnerFlag]: #changeownerflag
 #### [changeOwnerFlag]
   
@@ -461,6 +471,16 @@ The virtual guests associated with a ticket. This is used in cases where a ticke
 [awaitingUserResponseFlag]: #awaitinguserresponseflag
 #### [awaitingUserResponseFlag]
 Ticket is waiting on a response from a customer flag.  
+<span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[bnppSupportedFlag]: #bnppsupportedflag
+#### [bnppSupportedFlag]
+A ticket's associated BNPP compliant record  
 <span class="type-label">Type: </span>**boolean**
 
 

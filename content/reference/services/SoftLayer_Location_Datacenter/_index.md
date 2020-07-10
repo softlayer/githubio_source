@@ -75,6 +75,12 @@ Get the datacenters where object storage is available
 
 <div class="method-row">
 
+#### [getBnppCompliantFlag](/reference/services/SoftLayer_Location_Datacenter/getBnppCompliantFlag)
+Retrieve a flag indicating whether or not the datacenter/location is BNPP compliant.
+</div>
+
+<div class="method-row">
+
 #### [getBoundSubnets](/reference/services/SoftLayer_Location_Datacenter/getBoundSubnets)
 Retrieve subnets which are directly bound to one or more routers in a given datacenter, and currently allow routing.
 </div>

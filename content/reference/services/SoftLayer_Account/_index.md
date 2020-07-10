@@ -2021,7 +2021,7 @@ This method manually starts a synchronize operation for the current IBMid-authen
 <div class="method-row">
 
 #### [updateVpnUsersForResource](/reference/services/SoftLayer_Account/updateVpnUsersForResource)
-Creates or updates a user VPN access privileges for a server on account.
+[DEPRECATED] Creates or updates a user VPN access privileges for a server on account.
 </div>
 
 <div class="method-row">
