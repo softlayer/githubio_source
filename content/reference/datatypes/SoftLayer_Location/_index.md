@@ -115,6 +115,16 @@ A short location description.
 <div class="prop-row">
 
 -----
+[bnppCompliantFlag]: #bnppcompliantflag
+#### [bnppCompliantFlag]
+A flag indicating whether or not the datacenter/location is BNPP compliant.  
+<span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [euCompliantFlag]: #eucompliantflag
 #### [euCompliantFlag]
 A flag indicating whether or not the datacenter/location is EU compliant.  

@@ -1,6 +1,6 @@
 ---
 title: "getPublicIsoImages"
-description: ""
+description: "Retrieves images from the public ISO repository"
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::getPublicIsoImages
 
-
+Retrieves images from the public ISO repository.
 
 
 ## Overview 
-
+Retrieves images from the public ISO repository 
 
 -----
 

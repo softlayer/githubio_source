@@ -58,6 +58,12 @@ Get the datacenters where object storage is available
 
 <div class="method-row">
 
+#### [getBnppCompliantFlag](/reference/services/SoftLayer_Location/getBnppCompliantFlag)
+Retrieve a flag indicating whether or not the datacenter/location is BNPP compliant.
+</div>
+
+<div class="method-row">
+
 #### [getDatacenters](/reference/services/SoftLayer_Location/getDatacenters)
 Retrieve all datacenter locations
 </div>

@@ -251,6 +251,12 @@ Retrieve ticket is waiting on a response from a customer flag.
 
 <div class="method-row">
 
+#### [getBnppSupportedFlag](/reference/services/SoftLayer_Ticket/getBnppSupportedFlag)
+Retrieve a ticket's associated BNPP compliant record
+</div>
+
+<div class="method-row">
+
 #### [getCancellationRequest](/reference/services/SoftLayer_Ticket/getCancellationRequest)
 Retrieve a service cancellation request.
 </div>

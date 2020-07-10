@@ -494,6 +494,16 @@ This flag indicates that this is a MongoDB engineered package. (Deprecated)
 <div class="prop-row">
 
 -----
+[noUpgradesFlag]: #noupgradesflag
+#### [noUpgradesFlag]
+Services ordered from this package cannot have upgrades or downgrades performed.  
+<span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [nonEuCompliantFlag]: #noneucompliantflag
 #### [nonEuCompliantFlag]
 Whether the package is not in compliance with EU support.  
