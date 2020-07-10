@@ -1,6 +1,6 @@
 ---
 title: "updateVpnUsersForResource"
-description: "Some larger SoftLayer customer accounts may have servers and virtual servers on more subnets than SoftLayer's private ne... "
+description: "[DEPRECATED] This method has been deprecated and will simply return false."
 layout: "method"
 tags:
     - "method"
@@ -13,21 +13,19 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::updateVpnUsersForResource
 
-Creates or updates a user VPN access privileges for a server on account.
+[DEPRECATED] Creates or updates a user VPN access privileges for a server on account.
 
 
 ## Overview 
-Some larger SoftLayer customer accounts may have servers and virtual servers on more subnets than SoftLayer's private network VPN devices can assign routes for. In those cases routes for individual servers and virtual servers may be assigned individually to an account's servers via this method. 
-
-Always call this method to enable changes when manually configuring VPN subnet access. 
+[DEPRECATED] This method has been deprecated and will simply return false. 
 
 -----
 
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|objectId| integer| The unique identifier of the hardware or computing instance you are allowing VPN access to.|
-|objectType| string| The string "SoftLayer_Hardware" or "SoftLayer_Virtual_Guest" that denotes if you are allowing VPN access for a physical server or a computing instance.|
+|objectId| integer| |
+|objectType| string| |
 
 
 ### Required Headers
@@ -37,17 +35,6 @@ Always call this method to enable changes when manually configuring VPN subnet a
 ### Return Values
 * boolean
 
-
-
-### Error Handling
-
-* SoftLayer_Exception_Public 
-
-> Throw the exception "Unable to instantiate ''objectType'' with an ID of ''objectId''." if the API is unable to locate the server or virtual server that you wish to add VPN routes to. 
-
-* SoftLayer_Exception_Public 
-
-> Throw the exception "Unknown object type parameter (''objectType'')." if objectType is a string other than "SoftLayer_Hardware" or "SoftLayer_Virtual_Guest". 
 
 
 

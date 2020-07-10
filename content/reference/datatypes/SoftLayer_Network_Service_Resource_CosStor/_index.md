@@ -178,6 +178,16 @@ The name associated with this resource
 <div class="prop-row">
 
 -----
+[netappVolumeName]: #netappvolumename
+#### [netappVolumeName]
+  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [networkDevice]: #networkdevice
 #### [networkDevice]
 The hardware information associated with this resource.  

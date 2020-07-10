@@ -24,7 +24,6 @@ This method manually starts a synchronize operation for the current IBMid-authen
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|skipIbmidLookupFlag| boolean| True if we decide to skip IBMid lookup during user sync, False otherwise. (optional)|
 
 
 ### Required Headers

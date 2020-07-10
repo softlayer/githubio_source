@@ -328,6 +328,12 @@ Retrieve this flag indicates that this is a MongoDB engineered package. (Depreca
 
 <div class="method-row">
 
+#### [getNoUpgradesFlag](/reference/services/SoftLayer_Product_Package/getNoUpgradesFlag)
+Retrieve services ordered from this package cannot have upgrades or downgrades performed.
+</div>
+
+<div class="method-row">
+
 #### [getNonEuCompliantFlag](/reference/services/SoftLayer_Product_Package/getNonEuCompliantFlag)
 Retrieve whether the package is not in compliance with EU support.
 </div>

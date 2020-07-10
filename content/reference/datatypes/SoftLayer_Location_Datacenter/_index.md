@@ -139,6 +139,16 @@ A short location description.
 <div class="prop-row">
 
 -----
+[bnppCompliantFlag]: #bnppcompliantflag
+#### [bnppCompliantFlag]
+A flag indicating whether or not the datacenter/location is BNPP compliant.  
+<span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [boundSubnets]: #boundsubnets
 #### [boundSubnets]
 Subnets which are directly bound to one or more routers in a given datacenter, and currently allow routing.  

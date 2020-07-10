@@ -314,7 +314,7 @@ Retrieve the name of the role the subnet is within. Roles dictate how a subnet m
 <div class="method-row">
 
 #### [getRoutableEndpointIpAddresses](/reference/services/SoftLayer_Network_Subnet/getRoutableEndpointIpAddresses)
-Retrieve valid routable endpoint addresses for a subnet.
+Retrieve IP addresses which may be used as a routing endpoint from a subnet.
 </div>
 
 <div class="method-row">
