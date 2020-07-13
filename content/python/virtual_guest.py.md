@@ -1,12 +1,13 @@
 ---
-title: "Working with Virtual Guest"
+title: "More Virtual Guest Examples"
 description: "A few examples on interacting with Virtual Guest"
 date: "2020-07-09"
 classes: 
     - "SoftLayer_Virtual_Guest"
     - "SoftLayer_Account"
 tags:
-    - "virtualservers"
+    - "vsi"
+    - "VirtualGuest"
 ---
 
 ### Create Virtual Server
@@ -18,10 +19,7 @@ This method is a simplified alternative to interacting with the ordering system 
 import SoftLayer
 import json
 
-USERNAME = 'set me'
-API_KEY = 'set me'
-
-client = SoftLayer.Client(username=USERNAME, api_key=API_KEY)
+client = SoftLayer.Client()
 virtualGuestService = client['SoftLayer_Virtual_Guest']
 
 # The order template for the new virtual guest
@@ -37,16 +35,18 @@ order = {
             }
         }
     ],
-    "localDiskFlag": True,
+    "hourlyBillingFlag": true,
+    "localDiskFlag": false,
     "datacenter": {
-        "name": "dal10"
+        "name": "dal13"
     },
-    "startCpus": 4,
     "dedicatedHost": {
         "id": 9301
     },
-    "maxMemory": 8192,
-    "operatingSystemReferenceCode": "UBUNTU_LATEST"
+    "operatingSystemReferenceCode": "UBUNTU_LATEST",
+    "supplementalCreateObjectOptions": {
+        "flavorKeyName": "AC1_8X60X25"
+    }
 }
 
 try:
@@ -74,11 +74,10 @@ def create_vsi():
     datacenter = 'wdc07' 
     domain = 'cde.services' 
     os_code = 'UBUNTU_LATEST_64'
-    local_disk = True 
+    local_disk = False
     hourly = True 
     dedicated = False 
     nic_speed = 1000 
-    disks = [100] 
     private = False 
     ssh_keys = [972047] 
     public_security_groups = [43507]
@@ -86,11 +85,10 @@ def create_vsi():
 
     # server properties
     hostname = 'sgvsi'
-    cpus = 2
-    memory = 2048
+    flavor = 'BL1_1X2X100'
 
     result = vsi_mgr.create_instance(hostname=hostname, domain=domain,
-                                     cpus=cpus, memory=memory, datacenter=datacenter,
+                                     flavor=flavor, datacenter=datacenter,
                                      os_code=os_code, local_disk=local_disk,
                                      hourly=hourly, dedicated=dedicated,
                                      disks=disks, nic_speed=nic_speed, private=private,
@@ -112,9 +110,6 @@ import SoftLayer
 # For nice debug output:
 from pprint import pprint as pp
 
-API_USERNAME = 'set me'
-API_KEY = 'set me'
-
 # Set the server id that you wish to get details.
 # Call the getVirtualGuests method from SoftLayer_Account
 serverId = 35747489
@@ -125,10 +120,7 @@ mask = "mask[id, fullyQualifiedDomainName, operatingSystem[passwords], networkCo
        "category[name, id]]]]"
        
 # Make a connection to the Virtual_Guest service.
-client = SoftLayer.create_client_from_env(
-    username=API_USERNAME,
-    api_key=API_KEY
-)
+client = SoftLayer.Client()
 
 try:
     # Make the call to retrieve the server details.
@@ -191,11 +183,7 @@ vsiIp = "169.45.98.148"
 startDate = "2000-01-01"
 endDate = "2016-12-22"
 
-USERNAME = 'set me'
-API_KEY = 'set me'
-
-client = SoftLayer.Client(username=USERNAME,
-                          api_key=API_KEY)
+client = SoftLayer.Client()
 vsiService = client['SoftLayer_Virtual_Guest']
 
 try:
@@ -224,11 +212,7 @@ vsiIp = "169.45.98.148"
 startDate = "2000-01-01"
 endDate = "2016-12-22"
 
-USERNAME = 'set me'
-API_KEY = 'set me'
-
-client = SoftLayer.Client(username=USERNAME,
-                          api_key=API_KEY)
+client = SoftLayer.Client()
 vsiService = client['SoftLayer_Virtual_Guest']
 
 try:
@@ -252,17 +236,11 @@ Create a transaction to perform an OS reload.
 import SoftLayer
 from pprint import pprint as pp
 
-API_USERNAME = 'set me'
-API_KEY = 'set me'
-
 # Set the server id that you wish to reload.
 serverId = 35747489
 
 # Create a SoftLayer Client.
-client = SoftLayer.create_client_from_env(
-    username=API_USERNAME,
-    api_key=API_KEY
-)
+client = SoftLayer.Client()
 
 # Reload the Virtual Guest
 try:
@@ -282,16 +260,13 @@ except SoftLayer.SoftLayerAPIError as e:
 ```python
 import SoftLayer
 
-API_USERNAME = 'set me'
-API_KEY = 'set me'
-
 # the virtual guest ID where you wish to add the tags
 virtualGuestID = 35747489
 
 # the tags you wish to add
 tags = "tag1,tag2,tag3"
 
-client = SoftLayer.create_client_from_env(username=API_USERNAME, api_key=API_KEY)
+client = SoftLayer.Client()
 virtualGuestService = client['SoftLayer_Virtual_Guest']
 
 try:
@@ -315,15 +290,11 @@ The script retrieve all the VSIs which contain an arbitrary list of tags.
 import SoftLayer.API
 from pprint import pprint as pp
 
-# Your SoftLayer API username.
-USERNAME = 'set me'
-API_KEY = 'set me'
-
 # List of tags to look for
 tags = ["mytag1", "tag2"]
 
 # Declare the API client
-client = SoftLayer.Client(username=USERNAME, api_key=API_KEY)
+client = SoftLayer.Client()
 accountService = client['SoftLayer_Account']
 
 # Declaring an object filter to get only the virtual servers which contain the tags that we are looking for
@@ -349,15 +320,8 @@ SoftLayer_Virtual_Guest API service and we set an object mask to get the informa
 ```python
 import SoftLayer
 
-"""
-Client configuration
-Your SoftLayer API username and key.
-"""
-USERNAME = 'set me'
-API_KEY = 'set me'
-
 # Declaring the API client
-client = SoftLayer.Client(username=USERNAME, api_key=API_KEY)
+client = SoftLayer.Client()
 accountService = client['SoftLayer_Account']
 
 # Adding the object mask to the call to get the information about the user data.
@@ -382,19 +346,12 @@ It reboots a SoftLayer Virtual Guest
 import SoftLayer
 from pprint import pprint as pp
 
-# Your SoftLayer API username and key.
-API_USERNAME = 'set me'
-API_KEY = 'set me'
-
 # If you don't know your server id you can call getVirtualGuests() in the
 # SoftLayer_Account API service to get a list of Virtual Guests
 serverId = 35747489
 
 # Create a connection to API service.
-client = SoftLayer.create_client_from_env(
-        username=API_USERNAME,
-        api_key=API_KEY
-)
+client = SoftLayer.Client()
 
 # Reboot the Virtual Guest
 try:
@@ -416,15 +373,11 @@ method.
 ```python
 import SoftLayer
 
-# Your SoftLayer API username and key.
-API_USERNAME = 'set me'
-API_KEY = 'set me'
-
 #Declare variables
 virtualGuestId = 35747489
 
 # Declare the API client
-client = SoftLayer.create_client_from_env(username=API_USERNAME, api_key=API_KEY)
+client = SoftLayer.Client()
 virtualServer = client['SoftLayer_Virtual_Guest']
 
 try:
