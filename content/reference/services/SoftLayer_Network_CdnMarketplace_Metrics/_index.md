@@ -82,6 +82,12 @@ Get the total number of hits at a certain frequency over a given range of time p
 
 <div class="method-row">
 
+#### [getMappingIntegratedMetrics](/reference/services/SoftLayer_Network_CdnMarketplace_Metrics/getMappingIntegratedMetrics)
+Get the integrated metrics data for the given mapping. You can get the the hits, bandwidth, hits by type and bandwidth by region. It will return both the total data and the detail data. 
+</div>
+
+<div class="method-row">
+
 #### [getMappingRealTimeMetrics](/reference/services/SoftLayer_Network_CdnMarketplace_Metrics/getMappingRealTimeMetrics)
 Get the real time metrics data for the given mapping 
 </div>
