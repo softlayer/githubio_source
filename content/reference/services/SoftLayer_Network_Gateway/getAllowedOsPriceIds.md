@@ -26,6 +26,7 @@ Used to get a list of OS prices (ids) which are allowed for the Gateway.
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
+|memberId| integer| |
 
 
 ### Required Headers
