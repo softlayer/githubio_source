@@ -11,6 +11,8 @@ tags:
     - "deprecated"
     - "sshkeys"
     - "hardware"
+aliases:
+    - "/python/reloadcustompartition"
 ---
 
 This article covers a few ways to reload bare metal servers. This article is marked depreciated because of its use of Flex Image Templates, the other ways to reload operating systems are still valid.
@@ -338,6 +340,8 @@ for ipToReload in ipsToReload:
 
 The following code allows you to reload a Bare Metal server with a custom partitioning scheme. You simply need to change the serverId and the partitions to suit your needs. Note that one partition must be marked as the 'grow' partition.
 
+Options for the configuration can be found at the  [SoftLayer_Container_Hardware_Server_Configuration](/reference/datatypes/SoftLayer_Container_Hardware_Server_Configuration/) datatype
+
 ```python
 import SoftLayer
 from pprint import pprint as pp
@@ -350,8 +354,8 @@ class example():
     def main(self):
         serverId = 1154505
         config = {
-        "upgradeHardDriveFirmware": "0",
-        "upgradeBios": "0",
+        "upgradeHardDriveFirmware": 0,
+        "upgradeBios": 0,
         "hardDrives": [
             {
                 "complexType": "SoftLayer_Hardware_Component_HardDrive",
@@ -364,7 +368,8 @@ class example():
                     { "name": "/remove", "minimumSize": "1", "grow": "1"}
                 ]
             }
-        ]}
+        ],
+        "lvmFlag": 0}
 
         output = self.client['Hardware_Server'].reloadOperatingSystem('FORCE', config, id=serverId)
 
