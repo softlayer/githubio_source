@@ -685,7 +685,7 @@ Retrieve timestamp representing the point in time when an account is required to
 <div class="method-row">
 
 #### [getGlobalLoadBalancerAccounts](/reference/services/SoftLayer_Account/getGlobalLoadBalancerAccounts)
-Retrieve the global load balancer accounts for a softlayer customer account.
+Retrieve [Deprecated] The global load balancer accounts for a softlayer customer account.
 </div>
 
 <div class="method-row">

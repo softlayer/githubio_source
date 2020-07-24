@@ -62,6 +62,16 @@ A gateway status's internal identifier.
 <div class="prop-row">
 
 -----
+[osReloadRequired]: #osreloadrequired
+#### [osReloadRequired]
+Is OS Reload required after version upgrade?.   
+<span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [toVersion]: #toversion
 #### [toVersion]
 Gateway version available for upgrade.   

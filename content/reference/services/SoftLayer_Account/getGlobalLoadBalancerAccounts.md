@@ -1,6 +1,6 @@
 ---
 title: "getGlobalLoadBalancerAccounts"
-description: "Retrieve the global load balancer accounts for a softlayer customer account."
+description: "Retrieve [Deprecated] The global load balancer accounts for a softlayer customer account."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getGlobalLoadBalancerAccounts
 
-Retrieve the global load balancer accounts for a softlayer customer account.
+Retrieve [Deprecated] The global load balancer accounts for a softlayer customer account.
 
 
 ## Overview 
-Retrieve the global load balancer accounts for a softlayer customer account.
+Retrieve [Deprecated] The global load balancer accounts for a softlayer customer account.
 
 -----
 

@@ -1,6 +1,8 @@
 ---
 title: "deleteObject"
-description: "Remove a host from the load balancing pool of a global load balancer account."
+description: "The global load balancer service has been deprecated and is no longer available. 
+
+Remove a host from the load balancing... "
 layout: "method"
 tags:
     - "method"
@@ -13,10 +15,12 @@ aliases:
 ---
 # [SoftLayer_Network_LoadBalancer_Global_Host](/reference/services/SoftLayer_Network_LoadBalancer_Global_Host)::deleteObject
 
-Remove a host from the load balancing pool of a global load balancer account.
+[Deprecated] Remove a host from the load balancing pool of a global load balancer account.
 
 
 ## Overview 
+The global load balancer service has been deprecated and is no longer available. 
+
 Remove a host from the load balancing pool of a global load balancer account. 
 
 -----
@@ -34,6 +38,13 @@ Remove a host from the load balancing pool of a global load balancer account.
 ### Return Values
 * boolean
 
+
+
+### Error Handling
+
+* SoftLayer_Exception_Deprecated 
+
+> Throw the exception "Operation removeNsRecord has been deprecated and will be removed in API version 3.2." when attempting to invoke this function. 
 
 
 

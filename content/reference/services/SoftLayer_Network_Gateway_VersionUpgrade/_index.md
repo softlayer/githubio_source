@@ -52,6 +52,12 @@ A gateway software version upgrade reference provides pairing for possible upgra
 
 <div class="method-row">
 
+#### [getAllUpgradesByGatewayId](/reference/services/SoftLayer_Network_Gateway_VersionUpgrade/getAllUpgradesByGatewayId)
+
+</div>
+
+<div class="method-row">
+
 #### [getObject](/reference/services/SoftLayer_Network_Gateway_VersionUpgrade/getObject)
 Retrieve a SoftLayer_Network_Gateway_VersionUpgrade record.
 </div>
