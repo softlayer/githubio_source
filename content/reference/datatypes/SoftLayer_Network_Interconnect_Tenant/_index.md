@@ -162,6 +162,16 @@ Specifies the Interconnect connection name.
 <div class="prop-row">
 
 -----
+[newGlobalRoutingFlag]: #newglobalroutingflag
+#### [newGlobalRoutingFlag]
+Direct Link provider can request change to existing routing, Customer can approve the change. newGlobalRoutingFlag = 1 gives connectivity to all IBM data centers, and if newGlobalRoutingFlag = 0, it gives local connectivity.   
+<span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [newLinkSpeed]: #newlinkspeed
 #### [newLinkSpeed]
 Updated Link speed of a Direct Link connection.  

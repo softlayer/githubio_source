@@ -1,6 +1,6 @@
 ---
 title: "getObject"
-description: "getObject retrieves the SoftLayer_Network_LoadBalancer_Global_Host object whose ID number corresponds to the ID number o... "
+description: "The global load balancer service has been deprecated and is no longer available."
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Retrieve a SoftLayer_Network_LoadBalancer_Global_Host record.
 
 
 ## Overview 
-getObject retrieves the SoftLayer_Network_LoadBalancer_Global_Host object whose ID number corresponds to the ID number of the init paramater passed to the SoftLayer_Network_LoadBalancer_Global_Host service. You can only retrieve a global load balancer host that is assigned to your SoftLayer global load balancer account. 
+The global load balancer service has been deprecated and is no longer available. 
 
 -----
 

@@ -1028,7 +1028,7 @@ Timestamp representing the point in time when an account is required to link wit
 -----
 [globalLoadBalancerAccounts]: #globalloadbalanceraccounts
 #### [globalLoadBalancerAccounts]
-The global load balancer accounts for a softlayer customer account.  
+[Deprecated] The global load balancer accounts for a softlayer customer account.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Account'>SoftLayer_Network_LoadBalancer_Global_Account[] </a>**
 
 
@@ -3350,7 +3350,7 @@ A count of
 -----
 [globalLoadBalancerAccountCount]: #globalloadbalanceraccountcount
 #### [globalLoadBalancerAccountCount]
-A count of the global load balancer accounts for a softlayer customer account.   
+A count of [Deprecated] The global load balancer accounts for a softlayer customer account.   
 <span class="type-label">Type: </span>**unsigned long**
 
 

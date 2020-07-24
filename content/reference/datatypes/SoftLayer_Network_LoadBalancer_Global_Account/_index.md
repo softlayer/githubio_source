@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_LoadBalancer_Global_Account"
-description: "The SoftLayer_Network_LoadBalancer_Global_Account data type contains the properties for a single global load balancer ac... "
+description: "The global load balancer service has been deprecated and is no longer available."
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-The SoftLayer_Network_LoadBalancer_Global_Account data type contains the properties for a single global load balancer account.  The properties you are able to edit are fallbackIp, loadBalanceTypeId, and notes. The hosts relational property can be used for creating and editing hosts that belong to the global load balancer account.  The [SoftLayer_Network_LoadBalancer_Global_Account::editObject]({{<ref "reference/services/SoftLayer_Network_LoadBalancer_Global_Account/editObject">}}) method contains details on creating and edited hosts through the hosts relational property. 
+The global load balancer service has been deprecated and is no longer available. 
 
 
 ### associatedMethods

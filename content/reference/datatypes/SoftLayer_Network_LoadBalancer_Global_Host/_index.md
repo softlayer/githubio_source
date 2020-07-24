@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_LoadBalancer_Global_Host"
-description: "The SoftLayer_Network_LoadBalancer_Global_Host data type represents a single host that belongs to a global load balancer... "
+description: "The global load balancer service has been deprecated and is no longer available."
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,11 +18,7 @@ classes:
 </div>
 
 ## Description 
-The SoftLayer_Network_LoadBalancer_Global_Host data type represents a single host that belongs to a global load balancer account's load balancing pool. 
-
-The destination IP address of a host must be one that belongs to your SoftLayer customer account, or to a datacenter load balancer virtual ip that belongs to your SoftLayer customer account.  The destination IP address and port of a global load balancer host is a required field and must exist during creation and can not be removed.  The acceptable values for the health check type are 'none', 'http', and 'tcp'. The status property is updated in 5 minute intervals and the hits property is updated in 10 minute intervals. 
-
-The order of the host is only important if you are using the 'failover' load balance method, and the weight is only important if you are using the 'weighted round robin' load balance method. 
+The global load balancer service has been deprecated and is no longer available. 
 
 
 ### associatedMethods

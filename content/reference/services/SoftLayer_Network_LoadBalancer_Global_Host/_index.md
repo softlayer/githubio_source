@@ -1,6 +1,8 @@
 ---
 title: "SoftLayer_Network_LoadBalancer_Global_Host"
-description: "Every global load balancer account contains hosts that make up the load balancing pool.  The global load balancers selec... "
+description: "The global load balancer service has been deprecated and is no longer available. 
+
+Every global load balancer account co... "
 date: "2018-02-12"
 layout: "service"
 tags:
@@ -18,11 +20,9 @@ classes:
 </div>
 
 ## Description
+The global load balancer service has been deprecated and is no longer available. 
+
 Every global load balancer account contains hosts that make up the load balancing pool.  The global load balancers select hosts from this pool and return the destination IP in the DNS response.  The SoftLayer_Network_LoadBalancer_Global_Host service represent these hosts. 
-
-Hosts can only be created or modified by using the [SoftLayer_Network_LoadBalancer_Global_Account::editObject]({{<ref "reference/services/SoftLayer_Network_LoadBalancer_Global_Account/editObject">}}) method. 
-
-Each account has a limited number of hosts that can be added to the load balancing pool, which is defined by the allowedNumberOfHosts property on a global load balancer account. 
 
 
 
@@ -45,7 +45,7 @@ Each account has a limited number of hosts that can be added to the load balanci
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Network_LoadBalancer_Global_Host/deleteObject)
-Remove a host from the load balancing pool of a global load balancer account.
+[Deprecated] Remove a host from the load balancing pool of a global load balancer account.
 </div>
 
 <div class="method-row">
