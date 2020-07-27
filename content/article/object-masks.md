@@ -107,6 +107,51 @@ mask[
 ```
 
 
+## Filtered Masks
+
+A filtered mask is like a normal object mask, except it allows you to use an objectFilter to restrict the results of non-root relationships.
+
+As an example, lets try to get the Motherboard component for all of our servers. You might try to make an API call to `SoftLayer_Account::getHardware()` with an objectMask of 
+
+```
+mask[id,hostname,
+    components[id,serialNumber,
+        hardwareComponentModel[description,
+            hardwareGenericComponentModel[id,
+                hardwareComponentType[keyName]
+            ]
+        ]
+    ]
+]
+```
+
+and an objectFilter of 
+
+```
+{"hardware":
+    {"components":
+        {"hardwareComponentModel":
+            {"hardwareGenericComponentModel":
+                {"hardwareComponentType":
+                    {"keyName":{"operation":"MOTHERBOARD"}}
+                }
+            }
+        }
+    }
+}
+```
+
+The problem is this will return all Hardware_Server objects that have a motherboard component, which is not quite what we want.
+
+To get all Hardware_Server objects and only their motherboard component, we just need to use `filteredMask[]` instead of `mask[]`
+
+for an API call that would look something like this:
+
+```
+curl -u $SL_USER:$SL_APIKEY  'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getHardware.json?objectMask=filteredMask[id,hostname,components[id,serialNumber,hardwareComponentModel[description,hardwareGenericComponentModel[id,hardwareComponentType[keyName]]]]]&objectFilter={"hardware":{"components":{"hardwareComponentModel":{"hardwareGenericComponentModel":{"hardwareComponentType":{"keyName":{"operation":"MOTHERBOARD"}}}}}}}'
+```
+
+
 ## API interaction
 ### SOAP
 To send the object mask to the SOAP API you will need to provide a `SoftLayer_ObjectMask` header with the string object mask for the value in the `mask` property of the header.

@@ -131,6 +131,19 @@ $ curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/So
 ```
 
 
+### Filtering Invoices on a date range
+
+You may want to only get invoices in a certain date range, which is possible with a `filteredMask`.
+
+```
+$ curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/OwnedBrands?objectMask=filteredMask.allOwnedAccounts[id,accountStatusId,invoices[invoiceTotalAmount]]&objectFilter={"ownedBrands":{"allOwnedAccounts":{"invoices":{"createDate":{"operation":"betweenDate","options":[{"name":"startDate","value":["06/01/2020"]},{"name":"endDate","value":["07/15/2020 23:59:59"]}]}}}}}
+```
+
+or for a specific brand's accounts
+
+```
+curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Brand/16762/getOwnedAccounts?objectMask=filteredMask[id,accountStatusId,invoices[id,createDate,invoiceTotalAmount]]&objectFilter={"ownedAccounts":{"invoices":{"createDate":{"operation":"betweenDate","options":[{"name":"startDate","value":["07/01/2020"]},{"name":"endDate","value":["07/15/2020"]}]}}}}' | python -m json.tool
+```
 
 ## Sub-Account Master Users
 
