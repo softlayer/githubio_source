@@ -115,7 +115,7 @@ It is possible to get a short lived API key using a username/password combinatio
 *NOTICE* This method also doesn't work with IBMid username/passwords
 
 ## Temporary IBMid Token
-It is possible to use the IBMid authentication service to make softlayer API calls.
+It is possible to use the IBMid authentication service to make softlayer API calls. See [IAM Token API](https://cloud.ibm.com/apidocs/iam-identity-token-api) for more specific details.
 
 ### Get the IMS_TOKEN
 For most users, you will need your username and password, send that to https://iam.ng.bluemix.net/oidc/token, and you will be given a token that can be used to make SoftLayer(IMS) api calls.
@@ -123,18 +123,31 @@ For most users, you will need your username and password, send that to https://i
 ```
 IBMUSER=myemail@email.com
 IBMPASS=123qweasdzxc
-curl -s -u 'bx:bx' -k -X POST --header 'Content-Type: application/x-www-form-urlencoded' --header 'Accept: application/json' -d "grant_type=password&response_type=cloud_iam,ims_portal&username=$IBMUSER&password=$IBMPASS" https://iam.ng.bluemix.net/oidc/token
+curl -s -u 'bx:bx' -k -X POST --header 'Content-Type: application/x-www-form-urlencoded' --header 'Accept: application/json' -d "grant_type=password&response_type=cloud_iam,ims_portal&username=$IBMUSER&password=$IBMPASS" https://iam.cloud.ibm.com/identity/token
 ```
 
 For users with an IBM email, you will need to use the SSO endpoint (the above example will also mention this if you try your username/password)
 
-Tokens are retrieved from https://iam-id-1.ng.bluemix.net/identity/passcode
+Tokens are retrieved from https://iam.cloud.ibm.com/identity/passcode
 ```
 TOKEN=qwe124cxzv
-curl -s -u 'bx:bx' -k -X POST --header 'Content-Type: application/x-www-form-urlencoded' --header 'Accept: application/json' -d "grant_type=urn:ibm:params:oauth:grant-type:passcode&passcode=$TOKEN&response_type=cloud_iam,ims_portal" https://iam.ng.bluemix.net/oidc/token
+curl -s -u 'bx:bx' -k -X POST --header 'Content-Type: application/x-www-form-urlencoded' --header 'Accept: application/json' -d "grant_type=urn:ibm:params:oauth:grant-type:passcode&passcode=$TOKEN&response_type=cloud_iam,ims_portal" https://iam.cloud.ibm.com/identity/token
 ```
 
-In the response, will be a data field call `ims_token` which will let you authenticate to the SoftLayer API until the token expires (which should also be in the returned data)
+
+#### ACCESS_TOKEN
+
+In the response there will be a data field called 'access_token', which is a JWT token you can use for API authentication. Simply add it as a "Authorization: Bearer $TOKEN" HTTP header.
+
+```
+curl -H "Authorization: Bearer zzzzzzzzzzzzzzzzzzzzzzzzzzaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasssssssssssssssssssssssssssssssdddddddddddddddddddddddddddddddddddddd ETC ETC ETC." 'https://api.sotlayer.com/rest/v3.1/SoftLayer_Account/getObject'
+```
+
+There will also be a `refresh_token` which will only work to get you a new token.
+
+#### IMS_TOKEN
+
+In the response there will be a data field call `ims_token` which will let you authenticate to the SoftLayer API until the token expires (which should also be in the returned data)
 
 
 The REST endpoint doesn't support authenticating with tokens, but the MOBILE endpoint works, along with the SOAP/XML endpoints.
