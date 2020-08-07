@@ -122,6 +122,16 @@ classes:
 <div class="prop-row">
 
 -----
+[origin]: #origin
+#### [origin]
+  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [phonenumber]: #phonenumber
 #### [phonenumber]
   
@@ -134,6 +144,16 @@ classes:
 -----
 [photo]: #photo
 #### [photo]
+  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[realm]: #realm
+#### [realm]
   
 <span class="type-label">Type: </span>**string**
 

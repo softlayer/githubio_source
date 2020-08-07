@@ -52,12 +52,6 @@ Bypass VLANs
 
 <div class="method-row">
 
-#### [canRollbackVersion](/reference/services/SoftLayer_Network_Gateway/canRollbackVersion)
-
-</div>
-
-<div class="method-row">
-
 #### [changeGatewayVersion](/reference/services/SoftLayer_Network_Gateway/changeGatewayVersion)
 Change Juniper vSRX version on a Gateway
 </div>
@@ -197,6 +191,12 @@ Retrieve available upgrade prices
 <div class="method-row">
 
 #### [isLicenseServerAllowed](/reference/services/SoftLayer_Network_Gateway/isLicenseServerAllowed)
+
+</div>
+
+<div class="method-row">
+
+#### [isRollbackAllowed](/reference/services/SoftLayer_Network_Gateway/isRollbackAllowed)
 
 </div>
 

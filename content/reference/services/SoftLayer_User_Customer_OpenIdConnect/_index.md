@@ -238,6 +238,12 @@ Retrieve a portal user's additional email addresses. These email addresses are c
 
 <div class="method-row">
 
+#### [getAgentImpersonationToken](/reference/services/SoftLayer_User_Customer_OpenIdConnect/getAgentImpersonationToken)
+
+</div>
+
+<div class="method-row">
+
 #### [getAllowedDedicatedHostIds](/reference/services/SoftLayer_User_Customer_OpenIdConnect/getAllowedDedicatedHostIds)
 
 </div>

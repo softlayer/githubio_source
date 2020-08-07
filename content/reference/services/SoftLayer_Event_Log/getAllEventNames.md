@@ -24,7 +24,7 @@ This all indexed event names.
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|objectName| string| |
+|objectName| string| Object name.|
 
 
 ### Required Headers
