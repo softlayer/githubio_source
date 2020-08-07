@@ -11,7 +11,7 @@ tags:
 
 The first step in ordering is to find the appropriate [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package/) for what you need to order. These packages contain a varierty of items that will describe the order. Each of those items will have properties that define where it  can be ordered, how much it costs, and any restrictions needed to order the item.
 
-[SoftLayer_Product_Package::getAllObject()](m/reference/services/SoftLayer_Product_Package/getAllObjects/) is used to get a list of all packages.
+[SoftLayer_Product_Package::getAllObject()](/reference/services/SoftLayer_Product_Package/getAllObjects/) is used to get a list of all packages.
 
 ```
 $ curl -s  -g -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Package/getAllObjects?objectMask=mask[type[keyName]]'  | python -m json.tool
@@ -119,6 +119,7 @@ Each item in a package will have at least one, often several, prices. The "Defau
 Every item will need a priceId when ordering, even the Zero cost items.
 
 ### Capacity Restrictions
+
 Some prices might have a [capacityRestrictionType](/reference/datatypes/SoftLayer_Product_Item_Price/#capacityrestrictiontype) set, in which case that price would only be valid for items that are >= [capacityRestrictionMinimum](/reference/datatypes/SoftLayer_Product_Item_Price/#capacityrestrictionminimum) and <= [capacityRestrictionMaximum](reference/datatypes/SoftLayer_Product_Item_Price/#capacityrestrictionmaximum).
 
 ### Locations
