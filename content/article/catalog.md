@@ -118,6 +118,8 @@ Each item in a package will have at least one, often several, prices. The "Defau
 
 Every item will need a priceId when ordering, even the Zero cost items.
 
+>*NOTE* Price Ids can change from time to time. It is important to look up items by their KEYNAME, and use that to find the proper price ID before placing an order.
+
 ### Capacity Restrictions
 
 Some prices might have a [capacityRestrictionType](/reference/datatypes/SoftLayer_Product_Item_Price/#capacityrestrictiontype) set, in which case that price would only be valid for items that are >= [capacityRestrictionMinimum](/reference/datatypes/SoftLayer_Product_Item_Price/#capacityrestrictionminimum) and <= [capacityRestrictionMaximum](reference/datatypes/SoftLayer_Product_Item_Price/#capacityrestrictionmaximum).
