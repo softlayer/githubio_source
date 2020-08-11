@@ -79,10 +79,21 @@ nonZeroAssociatedChildren = client['Billing_Invoice_Item'].getNonZeroAssociatedC
 ```
 ## Sample script
 
-The following sample script creates a .csv file of all the billing level detail for an account.
+This sample script is provided as a convienience, you may need to modify some of the data it outputs for your needs.
+
+It should though gather RECURRING invoices from the time specified, and show you all the top level items and their charges.
 
 ```python
-import SoftLayer, configparser, argparse, csv,logging,time
+#!python
+
+import SoftLayer
+import csv
+import logging
+import time
+import click
+import datetime
+from prettytable import PrettyTable
+
 
 def getDescription(categoryCode, detail):
     for item in detail:
@@ -91,150 +102,208 @@ def getDescription(categoryCode, detail):
                 return item['description']
     return "Not Found"
 
-client = SoftLayer.Client()
+class invoices():
 
-startDate = '2018-07-01T00:00:00'
-endDate = '2018-07-31T23:59:59'
-outputname = 'billing-export.csv'
+    def __init__(self, start, end):
+        """
+        :param int start: epoch time to start at. Should align to 00:00 UTC
+        :param int end: epoch time to end at. Should align to 00:00 UTC
+        """
+        self.client = SoftLayer.Client()
+        # Uncomment these lines for the debugger to print API calls.
+        # This script makes quite a few API calls, so this is commented out to not spam the console.
+        # debugger = SoftLayer.DebugTransport(self.client.transport)
+        # self.client.transport = debugger
+        self.start = start
+        self.end = end
 
-#
-# GET LIST OF INVOICES
-#
+    def debug(self):
+        """Useful for seeing what actual API calls were being made"""
+        for call in self.client.transport.get_last_calls():
+            print(self.client.transport.print_reproduceable(call))
 
-outfile = open(outputname, 'w')
-csvwriter = csv.writer(outfile, delimiter='\t', quotechar='"', quoting=csv.QUOTE_ALL)
+    def main(self):
+        """Gets invoices, and parses them into a list data structure"""
+        invoice_rows = []
+        invoices = self.invoices()
+        print('{:<35} {:<30} {:>8} {:>16} {:>16} {:>16} {:<15}'.format(
+            "Invoice Date /", "Invoice Number /", " ", "Items", "Recurring Charge",  "Invoice Amount", "Type"))
+        print('{:<35} {:<30} {:>8} {:>16} {:>16} {:>16} {:<15}'.format(
+            "==============", "================", " ", "=====", "================",  "==============", "===="))
+        for invoice in invoices:
+            invoice_rows.append(self.parse_invoice(invoice))
+        return invoice_rows
 
-fieldnames = ['Invoice_Date', 'Invoice_Number', 'BillingItemId', 'InstanceType', 'hostName', 'Category', 'Description',
-             'Hours', 'Hourly_Rate', 'RecurringCharge', 'InvoiceTotal', 'InvoiceRecurring', 'Type']
-csvwriter = csv.DictWriter(outfile, delimiter=',', fieldnames=fieldnames)
-csvwriter.writerow(dict((fn, fn) for fn in fieldnames))
-
-## OPEN CSV FILE FOR OUTPUT
-print("Looking up invoices....")
-
-# Build Filter for Invoices
-InvoiceList = client['Account'].getInvoices(filter={
-        'invoices': {
-            'createDate': {
-                'operation': 'betweenDate',
-                'options': [
-                     {'name': 'startDate', 'value': [startdate+" 0:0:0"]},
-                     {'name': 'endDate', 'value': [enddate+" 23:59:59"]}
-
-                ]
-            },
-            'typeCode': {
-                'operation': 'in',
-                'options': [
-                    {'name': 'data', 'value': ['RECURRING']}
-                ]
+    def invoices(self):
+        """Gets all the RECURRING invoice between the specified start and end dates"""
+        _filter = {
+            'invoices': {
+                'createDate': {
+                    'operation': 'betweenDate',
+                    'options': [
+                         {'name': 'startDate', 'value': [self.start]},
+                         {'name': 'endDate', 'value': [self.end]}
+                    ]
                 },
-                    }
-        })
+                'typeCode': {'operation': 'RECURRING'}
+            }
+        }
+        invoiceMask = "mask[id]"
+        # As some invoices may have a lot of items, we only get the ID here, and break our API calls up
+        invoices = self.client.call('SoftLayer_Account', 'getInvoices', filter=_filter, iter=True, mask=invoiceMask)
+        return invoices
 
+    def parse_invoice(self, invoice):
+        invoiceMask = "mask[id, createDate, typeCode, invoiceTotalAmount, invoiceTotalRecurringAmount]"
+        itemMask = """mask[id, billingItemId, categoryCode, hostName, domainName, description, createDate, 
+                           totalRecurringAmount, hourlyRecurringFee]"""
+        invoiceID = invoice['id']
 
-print ()
-print ('{:<35} {:<30} {:>8} {:>16} {:>16} {:>16} {:<15}'.format("Invoice Date /", "Invoice Number /", " ", "Items", "Recurring Charge",  "Invoice Amount", "Type"))
-print ('{:<35} {:<30} {:>8} {:>16} {:>16} {:>16} {:<15}'.format("==============", "================", " ", "=====", "================",  "==============", "===="))
-for invoice in InvoiceList:
-    invoiceID = invoice['id']
-    invoiceInfo = client['Billing_Invoice'].getObject(id=invoiceID,mask="id,createDate,typeCode,invoiceTotalAmount,invoiceTotalRecurringAmount,invoiceTopLevelItemCount")
-    invoiceDate = invoiceInfo['createDate'][0:10]
-    invoiceTotalAmount = float(invoiceInfo['invoiceTotalAmount'])
-    invoiceTotalRecurringAmount = float(invoiceInfo['invoiceTotalRecurringAmount'])
-    invoiceType = invoiceInfo['typeCode']
-    totalItems=invoiceInfo['invoiceTopLevelItemCount']
+        # Gets some basic information about the invoice.
+        invoiceInfo = self.client.call('SoftLayer_Billing_Invoice', 'getObject', id=invoiceID, mask=invoiceMask)
 
-    # PRINT INVOICE SUMMARY LINE
-    print('{:35} {:<30} {:>8} {:>16} {:>16,.2f} {:>16,.2f} {:<15}'.format(invoiceDate,
-                                                                          invoiceInfo['id'], " ",
-                                                                          totalItems,
-                                                                          invoiceTotalAmount,
-                                                                          invoiceTotalRecurringAmount, invoiceType))
+        invoiceDate = invoiceInfo['createDate'][0:10] # Just the YYYY-MM-DD part
+        invoiceTotalAmount = float(invoiceInfo['invoiceTotalAmount'])
+        invoiceTotalRecurringAmount = float(invoiceInfo['invoiceTotalRecurringAmount'])
+        invoiceType = invoiceInfo['typeCode']
 
-    limit = 10 ## set limit of record t
-    for offset in range(0,totalItems,limit):
-        print ("Lookup at Offset %s" % offset)
-        time.sleep(1)
-        Billing_Invoice = client['Billing_Invoice'].getInvoiceTopLevelItems(id=invoiceID, limit=limit, offset=offset,
-                                mask='id, billingItemId, categoryCode, hostName, domainName, description, createDate, totalRecurringAmount,hourlyRecurringFee')
-        count=0
-        # ITERATE THROUGH DETAIL
-        for item in Billing_Invoice:
-            billingItemId = item['billingItemId']
-            category = item["categoryCode"]
+        # Gets all the actual Items on the invoice. `iter=True` here will automatically page through the items
+        items = self.client.call('SoftLayer_Billing_Invoice', 'getInvoiceTopLevelItems', id=invoiceID, 
+                                 mask=itemMask, iter=True)
+        print('{:35} {:<30} {:>8} {:>16} {:>16,.2f} {:>16,.2f} {:<15}'.format(
+            invoiceDate, invoiceInfo['id'], " ", len(items), invoiceTotalAmount, invoiceTotalRecurringAmount, invoiceType))
 
-            if 'hostName' in item:
-                hostName = item['hostName']+"."+item['domainName']
+        invoice_rows = []
+        for item in items:
+            invoice_rows.append(self.parse_item(item, invoiceInfo))
+        return invoice_rows
+
+    def parse_item(self, item, invoiceInfo):
+        billingItemId = item['billingItemId']
+        category = item["categoryCode"]
+        invoiceID = invoiceInfo['id']
+        invoiceDate = invoiceInfo['createDate'][0:10] # Just the YYYY-MM-DD part
+        invoiceTotalAmount = float(invoiceInfo['invoiceTotalAmount'])
+        invoiceTotalRecurringAmount = float(invoiceInfo['invoiceTotalRecurringAmount'])
+        invoiceType = invoiceInfo['typeCode']
+
+        childrenMask ="""mask[id, categoryCode, hourlyRecurringFee, recurringFee, description, product]"""
+        if 'hostName' in item:
+            hostName = item.get('hostName')+"."+item.get('domainName', 'NONE!')
+        else:
+            hostName = "Unnamed Device"
+
+        recurringFee = float(item['totalRecurringAmount'])
+
+        #IF Monthly calculate hourly rate and total hours
+        if 'hourlyRecurringFee' in item:
+            instanceType = "Hourly"
+            associated_children = []
+
+            try:
+                # Check associated children, as the top item might not have all relevant charges
+                associated_children = self.client.call('Billing_Invoice_Item', 'getNonZeroAssociatedChildren',
+                                                        id=item['id'], mask=childrenMask)
+            except SoftLayer.SoftLayerAPIError as e:
+                logging.warning("getNonZeroAssociatedChildren(): %s, %s" % (e.faultCode, e.faultString))
+            #calculate total hourlyRecurringFree from associated childrent
+            # pp(associated_children)
+            hourlyRecurringFee = float(item.get('hourlyRecurringFee', 0.0))
+            for child in associated_children:
+                hourlyRecurringFee = hourlyRecurringFee +  float(child.get('hourlyRecurringFee',0.0) )
+
+            if hourlyRecurringFee > 0:
+                hours = round(float(recurringFee) / hourlyRecurringFee)
             else:
-                hostName = "Unnamed Device"
+                hours=0
+        else:
+            instanceType = "Monthly"
+            hourlyRecurringFee = 0
+            hours = 0
 
-            recurringFee = float(item['totalRecurringAmount'])
+        if category=="storage_service_enterprise" or category=="performance_storage_iscsi":
+            billing_detail= []
+            try:
+                # Check children, as the top item might not have all relevant charges
+                billing_detail = self.client.call('Billing_Invoice_Item', 'getChildren',
+                                                  id=item['id'], mask=childrenMask)
+            except SoftLayer.SoftLayerAPIError as e:
+                logging.warning("%s, %s" % (e.faultCode, e.faultString))
 
-            #IF Monthly calculate hourly rate and total hours
-            if 'hourlyRecurringFee' in item:
-                instanceType = "Hourly"
-                associated_children=""
-                while associated_children is "":
-                    try:
-                        time.sleep(0.5)
-                        associated_children = client['Billing_Invoice_Item'].getNonZeroAssociatedChildren(id=item['id'],mask="hourlyRecurringFee")
-                    except SoftLayer.SoftLayerAPIError as e:
-                        logging.warning("getNonZeroAssociatedChildren(): %s, %s" % (e.faultCode, e.faultString))
-                        time.sleep(5)
-                #calculate total hourlyRecurringFree from associated childrent
-
-                hourlyRecurringFee = float(item['hourlyRecurringFee']) + sum(float(child['hourlyRecurringFee']) for child in associated_children)
-                if hourlyRecurringFee > 0:
-                    hours = round(float(recurringFee) / hourlyRecurringFee)
+            if category=="storage_service_enterprise":
+                iops=getDescription("storage_tier_level", billing_detail)
+                storage=getDescription("performance_storage_space",billing_detail)
+                snapshot=getDescription("storage_snapshot_space", billing_detail)
+                if snapshot=="Not Found":
+                    description=storage+" "+iops+" "
                 else:
-                    hours=0
+                    description=storage+" "+iops+" with "+snapshot
             else:
-                instanceType = "Monthly/Other"
-                hourlyRecurringFee = 0
-                hours = 0
+                iops=getDescription("performance_storage_iops", billing_detail)
+                storage=getDescription("performance_storage_space", billing_detail)
+                description=storage+" "+iops
+        else:
+            description=item['description']
+            description = description.replace('\n', " ")
+        # BUILD CSV OUTPUT & WRITE ROW
+        row = {'Date': invoiceDate,
+               'Invoice': invoiceID,
+               'ItemId': billingItemId,
+               'Billing': instanceType,
+               'hostName': hostName,
+               'Category': category,
+               'Description': description,
+               'Hours': hours,
+               'Hourly_Rate': round(hourlyRecurringFee,3),
+               'RecurringCharge': round(recurringFee,2),
+               'InvoiceTotal': invoiceTotalAmount,
+               'InvoiceRecurring': invoiceTotalRecurringAmount,
+               'Type': invoiceType
+            }
+        return row
 
-            if category=="storage_service_enterprise" or category=="performance_storage_iscsi":
-                billing_detail=""
-                while billing_detail is "":
-                    try:
-                        time.sleep(1)
-                        billing_detail = client['Billing_Invoice_Item'].getChildren(id=item['id'], mask="description,categoryCode,product")
-                    except SoftLayer.SoftLayerAPIError as e:
-                        logging.warning("%s, %s" % (e.faultCode, e.faultString))
+    def print_rows(self, invoices):
+        table = PrettyTable()
+        fields = self.get_filed_names()
+        table.field_names  = fields
+        table.align = "l"
+        for invoice in invoices:
+            for row in invoice:
+                # Maps the row into a table
+                table.add_row([row[entry] for entry in fields])
+        print(table)
 
-                if category=="storage_service_enterprise":
-                    iops=getDescription("storage_tier_level", billing_detail)
-                    storage=getDescription("performance_storage_space",billing_detail)
-                    snapshot=getDescription("storage_snapshot_space", billing_detail)
-                    if snapshot=="Not Found":
-                        description=storage+" "+iops+" "
-                    else:
-                        description=storage+" "+iops+" with "+snapshot
-                else:
-                    iops=getDescription("performance_storage_iops", billing_detail)
-                    storage=getDescription("performance_storage_space", billing_detail)
-                    description=storage+" "+iops
-            else:
-                description=item['description']
-                description = description.replace('\n', " ")
-            # BUILD CSV OUTPUT & WRITE ROW
-            row = {'Invoice_Date': invoiceDate,
-                   'Invoice_Number': invoiceID,
-                   'BillingItemId': billingItemId,
-                   'InstanceType': instanceType,
-                   'hostName': hostName,
-                   'Category': category,
-                   'Description': description,
-                   'Hours': hours,
-                   'Hourly_Rate': round(hourlyRecurringFee,3),
-                   'RecurringCharge': round(recurringFee,2),
-                   'InvoiceTotal': invoiceTotalAmount,
-                   'InvoiceRecurring': invoiceTotalRecurringAmount,
-                   'Type': invoiceType
-                    }
-            csvwriter.writerow(row)
-            print(row)
-##close CSV File
-outfile.close()
+    def write_rows(self, invoices, filename):
+        fieldnames = self.get_filed_names()
+
+        with open(filename, 'w', newline='') as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            writer.writeheader()
+            for invoice in invoices:
+                for row in invoice:
+                    writer.writerow(row)
+
+    def get_filed_names(self):
+        fieldnames = ['Date', 'Invoice', 'ItemId', 'Billing', 'hostName', 
+                     'Category', 'Description', 'Hours', 'Hourly_Rate', 'RecurringCharge',
+                     'InvoiceTotal', 'InvoiceRecurring', 'Type']
+        return fieldnames
+
+
+@click.command()
+@click.option('--start', default='2019-01-01', help='Start date, MM/DD/YYYY')
+@click.option('--end', default='2019-02-01', help='End Date, MM/DD/YYYY')
+@click.option('--filename', help="Name of the file you want to output to.")
+def main(start, end, filename):
+    print("MAIN FUNCTION")
+    main = invoices(start, end)
+    invoice_rows = main.main()
+
+    main.print_rows(invoice_rows)
+    if filename:
+        main.write_rows(invoice_rows, filename)
+
+
+if __name__ == "__main__":
+    main()
 ```
