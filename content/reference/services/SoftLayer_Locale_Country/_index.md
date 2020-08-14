@@ -76,6 +76,18 @@ Retrieve states that belong to this country.
 
 <div class="method-row">
 
+#### [getVatCountries](/reference/services/SoftLayer_Locale_Country/getVatCountries)
+
+</div>
+
+<div class="method-row">
+
+#### [getVatRequiredCountryCodes](/reference/services/SoftLayer_Locale_Country/getVatRequiredCountryCodes)
+
+</div>
+
+<div class="method-row">
+
 #### [isEuropeanUnionCountry](/reference/services/SoftLayer_Locale_Country/isEuropeanUnionCountry)
 
 </div>

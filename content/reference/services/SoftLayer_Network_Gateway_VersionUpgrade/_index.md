@@ -64,6 +64,12 @@ Retrieve a SoftLayer_Network_Gateway_VersionUpgrade record.
 
 <div class="method-row">
 
+#### [getVsrxOrdersAllowedOS](/reference/services/SoftLayer_Network_Gateway_VersionUpgrade/getVsrxOrdersAllowedOS)
+
+</div>
+
+<div class="method-row">
+
 #### [validateVersionChange](/reference/services/SoftLayer_Network_Gateway_VersionUpgrade/validateVersionChange)
 
 </div>
