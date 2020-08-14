@@ -109,6 +109,16 @@ Binary flag denoting if this country is part of the European Union
 
 
 </div>
+<div class="prop-row">
+
+-----
+[vatIdRequiredFlag]: #vatidrequiredflag
+#### [vatIdRequiredFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+
+</div>
 </div>
 <!-- LOCAL PROPERTY END -->
 

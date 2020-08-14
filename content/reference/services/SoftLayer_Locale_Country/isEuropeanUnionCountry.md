@@ -1,6 +1,6 @@
 ---
 title: "isEuropeanUnionCountry"
-description: ""
+description: "Returns true if the country code is in the European Union (EU), false otherwise."
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ aliases:
 
 
 ## Overview 
-
+Returns true if the country code is in the European Union (EU), false otherwise. 
 
 -----
 

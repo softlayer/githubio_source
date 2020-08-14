@@ -158,7 +158,7 @@ The total private bandwidth for this item's resource for the current billing cyc
 -----
 [billingCyclePublicBandwidthUsage]: #billingcyclepublicbandwidthusage
 #### [billingCyclePublicBandwidthUsage]
-The raw bandwidth usage data for the current billing cycle. One object is returned for each network this server is attached to.  
+The raw public bandwidth usage data for the current billing cycle. One object is returned for each network this server is attached to.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage </a>**
 
 
