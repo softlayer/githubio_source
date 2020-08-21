@@ -32,7 +32,7 @@ aliases:
 
 
 ### Return Values
-* <a href='/reference/datatypes/SoftLayer_Workload_Citrix_Client_Response_ResourceLocations'>SoftLayer_Workload_Citrix_Client_Response_ResourceLocations </a>
+* <a href='/reference/datatypes/SoftLayer_Workload_Citrix_Client_Response'>SoftLayer_Workload_Citrix_Client_Response </a>
 
 
 
