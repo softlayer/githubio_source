@@ -50,7 +50,7 @@ Internal IBM opportunity codes required when applying for a proof of concept acc
 [monthlyRecurringRevenue]: #monthlyrecurringrevenue
 #### [monthlyRecurringRevenue]
 Expected monthly revenue  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**decimal**
 
 
 </div>
@@ -70,7 +70,7 @@ Internal system identifier
 [totalContractValue]: #totalcontractvalue
 #### [totalContractValue]
 Expected overall contract value  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**decimal**
 
 
 </div>

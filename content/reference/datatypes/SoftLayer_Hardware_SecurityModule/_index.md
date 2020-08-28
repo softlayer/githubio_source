@@ -998,6 +998,16 @@ Information regarding a lockbox account associated with a server.
 <div class="prop-row">
 
 -----
+[logicalVolumeStorageGroups]: #logicalvolumestoragegroups
+#### [logicalVolumeStorageGroups]
+Returns a list of logical volumes on the physical machine.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group'>SoftLayer_Configuration_Storage_Group[] </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [managedResourceFlag]: #managedresourceflag
 #### [managedResourceFlag]
 A flag indicating that the hardware is a managed resource.  
@@ -1738,6 +1748,16 @@ A server's remote management card used for statistics.
 <div class="prop-row">
 
 -----
+[storageGroups]: #storagegroups
+#### [storageGroups]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group'>SoftLayer_Configuration_Storage_Group[] </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [storageNetworkComponents]: #storagenetworkcomponents
 #### [storageNetworkComponents]
 A piece of hardware's private storage network components. [Deprecated]  
@@ -2210,6 +2230,16 @@ A count of the hard drives contained within a piece of hardware.
 <div class="prop-row">
 
 -----
+[logicalVolumeStorageGroupCount]: #logicalvolumestoragegroupcount
+#### [logicalVolumeStorageGroupCount]
+A count of returns a list of logical volumes on the physical machine.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [memoryCount]: #memorycount
 #### [memoryCount]
 A count of information regarding a piece of hardware's memory.   
@@ -2513,6 +2543,16 @@ A count of information regarding a piece of hardware's installed software.
 [sshKeyCount]: #sshkeycount
 #### [sshKeyCount]
 A count of sSH keys to be installed on the server during provisioning or an OS reload.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[storageGroupCount]: #storagegroupcount
+#### [storageGroupCount]
+A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
 
