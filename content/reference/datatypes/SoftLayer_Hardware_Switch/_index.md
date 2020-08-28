@@ -1364,6 +1364,16 @@ SSH keys to be installed on the server during provisioning or an OS reload.
 <div class="prop-row">
 
 -----
+[storageGroups]: #storagegroups
+#### [storageGroups]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group'>SoftLayer_Configuration_Storage_Group[] </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [storageNetworkComponents]: #storagenetworkcomponents
 #### [storageNetworkComponents]
 A piece of hardware's private storage network components. [Deprecated]  
@@ -2039,6 +2049,16 @@ A count of information regarding a piece of hardware's installed software.
 [sshKeyCount]: #sshkeycount
 #### [sshKeyCount]
 A count of sSH keys to be installed on the server during provisioning or an OS reload.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[storageGroupCount]: #storagegroupcount
+#### [storageGroupCount]
+A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
 

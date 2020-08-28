@@ -222,6 +222,16 @@ The block devices that a disk image is attached to. Block devices connect comput
 <div class="prop-row">
 
 -----
+[diskImageStorageGroup]: #diskimagestoragegroup
+#### [diskImageStorageGroup]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group'>SoftLayer_Configuration_Storage_Group </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [importedDiskType]: #importeddisktype
 #### [importedDiskType]
 Return imported disk type  
@@ -276,6 +286,16 @@ References to the software that resides on a disk image.
 #### [sourceDiskImage]
 The original disk image that the current disk image was cloned from.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[storageGroups]: #storagegroups
+#### [storageGroups]
+The storage group for a virtual disk image.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group'>SoftLayer_Configuration_Storage_Group[] </a>**
 
 
 </div>
@@ -347,6 +367,16 @@ A count of
 [softwareReferenceCount]: #softwarereferencecount
 #### [softwareReferenceCount]
 A count of references to the software that resides on a disk image.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[storageGroupCount]: #storagegroupcount
+#### [storageGroupCount]
+A count of the storage group for a virtual disk image.   
 <span class="type-label">Type: </span>**unsigned long**
 
 

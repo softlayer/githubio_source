@@ -964,6 +964,12 @@ Retrieve sSH keys to be installed on the server during provisioning or an OS rel
 
 <div class="method-row">
 
+#### [getStorageGroups](/reference/services/SoftLayer_Hardware/getStorageGroups)
+
+</div>
+
+<div class="method-row">
+
 #### [getStorageNetworkComponents](/reference/services/SoftLayer_Hardware/getStorageNetworkComponents)
 Retrieve a piece of hardware's private storage network components. [Deprecated]
 </div>

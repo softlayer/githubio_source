@@ -82,6 +82,12 @@ Retrieve the block devices that a disk image is attached to. Block devices conne
 
 <div class="method-row">
 
+#### [getDiskImageStorageGroup](/reference/services/SoftLayer_Virtual_Disk_Image/getDiskImageStorageGroup)
+
+</div>
+
+<div class="method-row">
+
 #### [getImportedDiskType](/reference/services/SoftLayer_Virtual_Disk_Image/getImportedDiskType)
 Retrieve return imported disk type
 </div>
@@ -126,6 +132,12 @@ Retrieve references to the software that resides on a disk image.
 
 #### [getSourceDiskImage](/reference/services/SoftLayer_Virtual_Disk_Image/getSourceDiskImage)
 Retrieve the original disk image that the current disk image was cloned from.
+</div>
+
+<div class="method-row">
+
+#### [getStorageGroups](/reference/services/SoftLayer_Virtual_Disk_Image/getStorageGroups)
+Retrieve the storage group for a virtual disk image.
 </div>
 
 <div class="method-row">

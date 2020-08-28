@@ -801,6 +801,12 @@ Retrieve information regarding a lockbox account associated with a server.
 
 <div class="method-row">
 
+#### [getLogicalVolumeStorageGroups](/reference/services/SoftLayer_Hardware_SecurityModule750/getLogicalVolumeStorageGroups)
+Retrieve returns a list of logical volumes on the physical machine.
+</div>
+
+<div class="method-row">
+
 #### [getManagedResourceFlag](/reference/services/SoftLayer_Hardware_SecurityModule750/getManagedResourceFlag)
 Retrieve a flag indicating that the hardware is a managed resource.
 </div>
@@ -1409,6 +1415,12 @@ Retrieve sSH keys to be installed on the server during provisioning or an OS rel
 
 #### [getStatisticsRemoteManagement](/reference/services/SoftLayer_Hardware_SecurityModule750/getStatisticsRemoteManagement)
 Retrieve a server's remote management card used for statistics.
+</div>
+
+<div class="method-row">
+
+#### [getStorageGroups](/reference/services/SoftLayer_Hardware_SecurityModule750/getStorageGroups)
+
 </div>
 
 <div class="method-row">

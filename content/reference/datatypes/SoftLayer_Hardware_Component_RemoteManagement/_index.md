@@ -198,6 +198,16 @@ A components type.
 <div class="prop-row">
 
 -----
+[logicalVolumeStorageGroups]: #logicalvolumestoragegroups
+#### [logicalVolumeStorageGroups]
+Returns the associated logic volume storage groups for the hardware component.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group'>SoftLayer_Configuration_Storage_Group[] </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [m2SataSlotCapacity]: #m2sataslotcapacity
 #### [m2SataSlotCapacity]
 A component's M.2 SATA capacity.  
@@ -363,6 +373,16 @@ A count of a components sub components. Devices that are usually integrated or i
 [downlinkHardwareComponentCount]: #downlinkhardwarecomponentcount
 #### [downlinkHardwareComponentCount]
 A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[logicalVolumeStorageGroupCount]: #logicalvolumestoragegroupcount
+#### [logicalVolumeStorageGroupCount]
+A count of returns the associated logic volume storage groups for the hardware component.   
 <span class="type-label">Type: </span>**unsigned long**
 
 
