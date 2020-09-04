@@ -40,12 +40,6 @@ A gateway software version upgrade reference provides pairing for possible upgra
 
 <div class="method-row">
 
-#### [getAllByFromVersion](/reference/services/SoftLayer_Network_Gateway_VersionUpgrade/getAllByFromVersion)
-
-</div>
-
-<div class="method-row">
-
 #### [getAllByUpgradePkgUrlId](/reference/services/SoftLayer_Network_Gateway_VersionUpgrade/getAllByUpgradePkgUrlId)
 
 </div>

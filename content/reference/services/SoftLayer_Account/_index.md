@@ -180,12 +180,6 @@ Retrieve all active agreements for an account
 
 <div class="method-row">
 
-#### [getActiveAlarms](/reference/services/SoftLayer_Account/getActiveAlarms)
-Get all active alarms on this account.
-</div>
-
-<div class="method-row">
-
 #### [getActiveBillingAgreements](/reference/services/SoftLayer_Account/getActiveBillingAgreements)
 Retrieve all billing agreements for an account
 </div>

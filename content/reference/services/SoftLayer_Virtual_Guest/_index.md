@@ -88,12 +88,6 @@ Captures a Flex Image of the hard disk on the virtual machine.
 
 <div class="method-row">
 
-#### [closeAlarm](/reference/services/SoftLayer_Virtual_Guest/closeAlarm)
-Returns monitoring alarm detailed history
-</div>
-
-<div class="method-row">
-
 #### [configureMetadataDisk](/reference/services/SoftLayer_Virtual_Guest/configureMetadataDisk)
 Configures the guest's metadata disk.
 </div>
@@ -234,12 +228,6 @@ Retrieve any active transaction(s) that are currently running for the server (ex
 
 #### [getAdditionalRequiredPricesForOsReload](/reference/services/SoftLayer_Virtual_Guest/getAdditionalRequiredPricesForOsReload)
 Return a collection of SoftLayer_Item_Price objects for an OS reload
-</div>
-
-<div class="method-row">
-
-#### [getAlarmHistory](/reference/services/SoftLayer_Virtual_Guest/getAlarmHistory)
-Returns monitoring alarm detailed history
 </div>
 
 <div class="method-row">
@@ -712,24 +700,6 @@ Retrieve the metric tracking object id for this guest.
 
 <div class="method-row">
 
-#### [getMonitoringActiveAlarms](/reference/services/SoftLayer_Virtual_Guest/getMonitoringActiveAlarms)
-Returns open monitoring alarms for a given time period
-</div>
-
-<div class="method-row">
-
-#### [getMonitoringAgents](/reference/services/SoftLayer_Virtual_Guest/getMonitoringAgents)
-
-</div>
-
-<div class="method-row">
-
-#### [getMonitoringClosedAlarms](/reference/services/SoftLayer_Virtual_Guest/getMonitoringClosedAlarms)
-Returns closed monitoring alarms for a given time period
-</div>
-
-<div class="method-row">
-
 #### [getMonitoringRobot](/reference/services/SoftLayer_Virtual_Guest/getMonitoringRobot)
 
 </div>
@@ -743,12 +713,6 @@ Retrieve a virtual guest's network monitoring services.
 <div class="method-row">
 
 #### [getMonitoringServiceEligibilityFlag](/reference/services/SoftLayer_Virtual_Guest/getMonitoringServiceEligibilityFlag)
-
-</div>
-
-<div class="method-row">
-
-#### [getMonitoringServiceFlag](/reference/services/SoftLayer_Virtual_Guest/getMonitoringServiceFlag)
 
 </div>
 
@@ -942,18 +906,6 @@ Retrieve the regional group this guest is in.
 
 #### [getRegionalInternetRegistry](/reference/services/SoftLayer_Virtual_Guest/getRegionalInternetRegistry)
 
-</div>
-
-<div class="method-row">
-
-#### [getRemoteMonitoringActiveAlarms](/reference/services/SoftLayer_Virtual_Guest/getRemoteMonitoringActiveAlarms)
-Returns open monitoring alarms for a given time period
-</div>
-
-<div class="method-row">
-
-#### [getRemoteMonitoringClosedAlarms](/reference/services/SoftLayer_Virtual_Guest/getRemoteMonitoringClosedAlarms)
-Returns closed monitoring alarms for a given time period
 </div>
 
 <div class="method-row">
