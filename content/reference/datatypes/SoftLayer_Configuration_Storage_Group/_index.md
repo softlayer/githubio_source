@@ -155,6 +155,16 @@ This class represents a storage groups descendants
 
 
 </div>
+<div class="prop-row">
+
+-----
+[hardDrives]: #harddrives
+#### [hardDrives]
+The hard drives contained within this storage group.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
+
+
+</div>
 
 ## Count
 <div class="prop-row">
@@ -173,6 +183,16 @@ A count of this class represents a storage groups ancestors
 [descendantGroupCount]: #descendantgroupcount
 #### [descendantGroupCount]
 A count of this class represents a storage groups descendants   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[hardDriveCount]: #harddrivecount
+#### [hardDriveCount]
+A count of the hard drives contained within this storage group.   
 <span class="type-label">Type: </span>**unsigned long**
 
 

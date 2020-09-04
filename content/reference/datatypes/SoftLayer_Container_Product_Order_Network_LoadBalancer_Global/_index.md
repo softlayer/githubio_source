@@ -1,6 +1,8 @@
 ---
 title: "SoftLayer_Container_Product_Order_Network_LoadBalancer_Global"
-description: "This is the datatype that needs to be populated and sent to SoftLayer_Product_Order::placeOrder. This datatype has every... "
+description: "The global load balancer service has been deprecated and is no longer available. 
+
+This is the datatype that needs to be... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,6 +20,8 @@ classes:
 </div>
 
 ## Description 
+The global load balancer service has been deprecated and is no longer available. 
+
 This is the datatype that needs to be populated and sent to SoftLayer_Product_Order::placeOrder. This datatype has everything required to place a global load balancer order with SoftLayer. 
 
 

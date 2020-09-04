@@ -292,6 +292,16 @@ The original disk image that the current disk image was cloned from.
 <div class="prop-row">
 
 -----
+[storageGroupDetails]: #storagegroupdetails
+#### [storageGroupDetails]
+Return storage group details for symantec disk  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [storageGroups]: #storagegroups
 #### [storageGroups]
 The storage group for a virtual disk image.  

@@ -136,6 +136,12 @@ Retrieve the original disk image that the current disk image was cloned from.
 
 <div class="method-row">
 
+#### [getStorageGroupDetails](/reference/services/SoftLayer_Virtual_Disk_Image/getStorageGroupDetails)
+Retrieve return storage group details for symantec disk
+</div>
+
+<div class="method-row">
+
 #### [getStorageGroups](/reference/services/SoftLayer_Virtual_Disk_Image/getStorageGroups)
 Retrieve the storage group for a virtual disk image.
 </div>

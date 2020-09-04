@@ -845,16 +845,6 @@ The metric tracking object id for this guest.
 <div class="prop-row">
 
 -----
-[monitoringAgents]: #monitoringagents
-#### [monitoringAgents]
-  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Monitoring_Agent'>SoftLayer_Monitoring_Agent[] </a>**
-
-
-</div>
-<div class="prop-row">
-
------
 [monitoringRobot]: #monitoringrobot
 #### [monitoringRobot]
   
@@ -877,16 +867,6 @@ A virtual guest's network monitoring services.
 -----
 [monitoringServiceEligibilityFlag]: #monitoringserviceeligibilityflag
 #### [monitoringServiceEligibilityFlag]
-  
-<span class="type-label">Type: </span>**boolean**
-
-
-</div>
-<div class="prop-row">
-
------
-[monitoringServiceFlag]: #monitoringserviceflag
-#### [monitoringServiceFlag]
   
 <span class="type-label">Type: </span>**boolean**
 
@@ -1499,16 +1479,6 @@ A count of a guest's frontend network components.
 -----
 [internalTagReferenceCount]: #internaltagreferencecount
 #### [internalTagReferenceCount]
-A count of    
-<span class="type-label">Type: </span>**unsigned long**
-
-
-</div>
-<div class="prop-row">
-
------
-[monitoringAgentCount]: #monitoringagentcount
-#### [monitoringAgentCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
