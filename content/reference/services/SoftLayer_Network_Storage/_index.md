@@ -981,7 +981,13 @@ Displays the status of a clone mount.
 <div class="method-row">
 
 #### [refreshDependentDuplicate](/reference/services/SoftLayer_Network_Storage/refreshDependentDuplicate)
-Refreshes a dependent duplicate volume with a snapshot taken from its parent.
+Refreshes a duplicate volume with a snapshot taken from its parent. This is deprecated now.
+</div>
+
+<div class="method-row">
+
+#### [refreshDuplicate](/reference/services/SoftLayer_Network_Storage/refreshDuplicate)
+Refreshes any duplicate volume with a snapshot taken from its parent.
 </div>
 
 <div class="method-row">

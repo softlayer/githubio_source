@@ -42,6 +42,16 @@ classes:
 <div class="prop-row">
 
 -----
+[bootVolumeFlag]: #bootvolumeflag
+#### [bootVolumeFlag]
+A customer provided flag to indicate that the current volume is the boot drive   
+<span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [name]: #name
 #### [name]
   
@@ -56,6 +66,16 @@ classes:
 #### [partitions]
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Disk_Image_Capture_Template_Volume_Partition'>SoftLayer_Container_Disk_Image_Capture_Template_Volume_Partition[] </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[storageGroupId]: #storagegroupid
+#### [storageGroupId]
+The storage group to capture   
+<span class="type-label">Type: </span>**integer**
 
 
 </div>

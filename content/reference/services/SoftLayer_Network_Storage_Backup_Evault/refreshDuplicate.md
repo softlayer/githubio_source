@@ -1,5 +1,5 @@
 ---
-title: "refreshDependentDuplicate"
+title: "refreshDuplicate"
 description: ""
 layout: "method"
 tags:
@@ -9,11 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
 aliases:
-    - "/reference/services/softlayer_network_storage_backup_evault/refreshDependentDuplicate"
+    - "/reference/services/softlayer_network_storage_backup_evault/refreshDuplicate"
 ---
-# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::refreshDependentDuplicate
+# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::refreshDuplicate
 
-Refreshes a duplicate volume with a snapshot taken from its parent. This is deprecated now.
+Refreshes any duplicate volume with a snapshot taken from its parent.
 
 
 ## Overview 

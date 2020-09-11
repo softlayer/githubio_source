@@ -172,6 +172,12 @@ Retrieve the public VLAN for accessing this gateway.
 
 <div class="method-row">
 
+#### [getRollbackSupport](/reference/services/SoftLayer_Network_Gateway/getRollbackSupport)
+
+</div>
+
+<div class="method-row">
+
 #### [getStatus](/reference/services/SoftLayer_Network_Gateway/getStatus)
 Retrieve the current status of the gateway.
 </div>
