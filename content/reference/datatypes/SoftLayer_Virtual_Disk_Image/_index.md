@@ -202,6 +202,16 @@ The block devices that a disk image is attached to. Block devices connect comput
 <div class="prop-row">
 
 -----
+[cloudInitFlag]: #cloudinitflag
+#### [cloudInitFlag]
+Check if cloud-init is enabled.  
+<span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [coalescedDiskImages]: #coalesceddiskimages
 #### [coalescedDiskImages]
   

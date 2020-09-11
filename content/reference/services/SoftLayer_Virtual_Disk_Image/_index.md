@@ -70,6 +70,12 @@ Retrieve the block devices that a disk image is attached to. Block devices conne
 
 <div class="method-row">
 
+#### [getCloudInitFlag](/reference/services/SoftLayer_Virtual_Disk_Image/getCloudInitFlag)
+Retrieve check if cloud-init is enabled.
+</div>
+
+<div class="method-row">
+
 #### [getCoalescedDiskImages](/reference/services/SoftLayer_Virtual_Disk_Image/getCoalescedDiskImages)
 
 </div>

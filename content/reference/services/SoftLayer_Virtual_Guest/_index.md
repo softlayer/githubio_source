@@ -1060,6 +1060,12 @@ Verifies if a guest's backend ip address is pingable.
 
 <div class="method-row">
 
+#### [isCloudInit](/reference/services/SoftLayer_Virtual_Guest/isCloudInit)
+Determines if the virtual guest was provisioned from a cloud-init enabled image. 
+</div>
+
+<div class="method-row">
+
 #### [isPingable](/reference/services/SoftLayer_Virtual_Guest/isPingable)
 Verifies if guest is pingable.
 </div>

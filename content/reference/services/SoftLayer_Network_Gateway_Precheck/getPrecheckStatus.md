@@ -29,7 +29,9 @@ Object Definition:
 
 category : String : The precheck category which corresponds to one or more executeable actions. 
 
-Current categories include: upgrade_precheck : Required for major and minor upgrade version actions. license_precheck : Required for license upgrade and downgrade actions. reload_precheck : Required for OS Reload action. 
+Current categories include: upgrade_precheck : Required for major and minor upgrade version actions. license_precheck : Required for license upgrade and downgrade actions. reload_precheck : Required for OS Reload action. rollback_precheck : Optional and related to upgrade_precheck.  Only returned if getRollbackPrecheck is provided and set to True (1). 
+
+
 
 memberId : Integer : The softlayer member id. memberReadinessValue : String : The precheck readiness state for the member. See possible readiness values above. gatewayReadinessValue : String : The precheck readiness state for the gateway : See possible readiness values above. returnCode : Integer : The return code. 0 if no error. Reference cloud.ibm.com documentation for details. 
 
@@ -40,7 +42,8 @@ memberId : Integer : The softlayer member id. memberReadinessValue : String : Th
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|gatewayId| integer| |
+|gatewayId| integer| Id of Gateway for the precheck request.|
+|getRollbackPrecheck| boolean| [optional] [default false] If true, then rollback precheck will be included in returned data.|
 
 
 ### Required Headers

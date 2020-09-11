@@ -1,5 +1,5 @@
 ---
-title: "refreshDependentDuplicate"
+title: "refreshDuplicate"
 description: ""
 layout: "method"
 tags:
@@ -9,11 +9,11 @@ tags:
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
 aliases:
-    - "/reference/services/softlayer_network_storage_iscsi/refreshDependentDuplicate"
+    - "/reference/services/softlayer_network_storage_iscsi/refreshDuplicate"
 ---
-# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::refreshDependentDuplicate
+# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::refreshDuplicate
 
-Refreshes a duplicate volume with a snapshot taken from its parent. This is deprecated now.
+Refreshes any duplicate volume with a snapshot taken from its parent.
 
 
 ## Overview 

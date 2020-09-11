@@ -52,6 +52,16 @@ A gateway member's internal identifier.
 <div class="prop-row">
 
 -----
+[isUpgraded]: #isupgraded
+#### [isUpgraded]
+Indicates if the member has been upgraded.   
+<span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [lastvSRXVersion]: #lastvsrxversion
 #### [lastvSRXVersion]
 The previous vSRX version of the gateway software   
@@ -106,6 +116,16 @@ Password of the user name.
 #### [sshKeyId]
 The SSH key id of key assigned to Gateway.   
 <span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[upgradedDate]: #upgradeddate
+#### [upgradedDate]
+Timestamp when this gateway member was last upgraded   
+<span class="type-label">Type: </span>**dateTime**
 
 
 </div>
