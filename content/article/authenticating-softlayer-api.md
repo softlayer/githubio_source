@@ -86,13 +86,13 @@ To generate an API access key via API calls invoke the [SoftLayer_User_Customer:
 - [Understanding API keys](https://cloud.ibm.com/docs/iam?topic=iam-manapikey#manapikey)
 - [Managing user API keys](https://cloud.ibm.com/docs/iam?topic=iam-userapikey#userapikey)
 
-```
-✗ ibmcloud iam api-key-create  TEST-cgallo01 -d "A test api key"
+```bash
+$> ibmcloud iam api-key-create  TEST-cgallo01 -d "A test api key"
 Creating API key TEST-cgallo01 as cgallo@us.ibm.com...
 OK
 API key TEST-cgallo01 was created
 
-Please preserve the API key! It cannot be retrieved after it's created.
+Please preserve the API key! It cannot be retrieved after its created.
 
 Name          TEST-cgallo01
 Description   A test api key
@@ -101,9 +101,9 @@ API Key       aAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaA
 Locked        false
 UUID          ApiKey-1c505b6d-9e81-4b87-b929-f9493c2dea63
 
-✗ SL_USER=apikey
-✗ SL_APIKEY=aAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaA
-✗  curl -g -u $SL_USER:$SL_APIKEY  'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getObject.json?objectMask=mask[id]'
+$> SL_USER=apikey
+$> SL_APIKEY=aAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaA
+$>  curl -g -u $SL_USER:$SL_APIKEY  'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getObject.json?objectMask=mask[id]'
 {"id":123456}
 ```
 
@@ -120,7 +120,7 @@ It is possible to use the IBMid authentication service to make softlayer API cal
 ### Get the IMS_TOKEN
 For most users, you will need your username and password, send that to https://iam.ng.bluemix.net/oidc/token, and you will be given a token that can be used to make SoftLayer(IMS) api calls.
 
-```
+```bash
 IBMUSER=myemail@email.com
 IBMPASS=123qweasdzxc
 curl -s -u 'bx:bx' -k -X POST --header 'Content-Type: application/x-www-form-urlencoded' --header 'Accept: application/json' -d "grant_type=password&response_type=cloud_iam,ims_portal&username=$IBMUSER&password=$IBMPASS" https://iam.cloud.ibm.com/identity/token
@@ -129,7 +129,7 @@ curl -s -u 'bx:bx' -k -X POST --header 'Content-Type: application/x-www-form-url
 For users with an IBM email, you will need to use the SSO endpoint (the above example will also mention this if you try your username/password)
 
 Tokens are retrieved from https://iam.cloud.ibm.com/identity/passcode
-```
+```bash
 TOKEN=qwe124cxzv
 curl -s -u 'bx:bx' -k -X POST --header 'Content-Type: application/x-www-form-urlencoded' --header 'Accept: application/json' -d "grant_type=urn:ibm:params:oauth:grant-type:passcode&passcode=$TOKEN&response_type=cloud_iam,ims_portal" https://iam.cloud.ibm.com/identity/token
 ```
@@ -139,7 +139,7 @@ curl -s -u 'bx:bx' -k -X POST --header 'Content-Type: application/x-www-form-url
 
 In the response there will be a data field called 'access_token', which is a JWT token you can use for API authentication. Simply add it as a "Authorization: Bearer $TOKEN" HTTP header.
 
-```
+```bash
 curl -H "Authorization: Bearer zzzzzzzzzzzzzzzzzzzzzzzzzzaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasssssssssssssssssssssssssssssssdddddddddddddddddddddddddddddddddddddd ETC ETC ETC." 'https://api.sotlayer.com/rest/v3.1/SoftLayer_Account/getObject'
 ```
 
@@ -152,7 +152,7 @@ In the response there will be a data field call `ims_token` which will let you a
 
 The REST endpoint doesn't support authenticating with tokens, but the MOBILE endpoint works, along with the SOAP/XML endpoints.
 
-```
+```bash
 curl -u USERID:IMS_TOKEN 'https://api.softlayer.com/mobile/v3.1/SoftLayer_Account/getObject'
 ```
 

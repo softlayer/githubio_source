@@ -130,7 +130,7 @@ Size, Cost
 
 ### REST API Call
 
-```
+```bash
 curl -u $SL_USER:$SL_APIKEY  'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest/getCreateObjectOptions.json'
 ```
 
@@ -198,7 +198,7 @@ Given how many options there are for creating guests, it is challenging to make 
 
 ### REST API Call
 
-```
+```bash
 # Virtual_Guest::createObject
 curl -u $SL_USER:$SL_APIKEY -X POST -d \ 
 '{"parameters": [{"hostname": "TRXcgezuyxunytl", "domain": "ibm.com", "datacenter": {"name": "dal13"}, "hourlyBillingFlag": true, "operatingSystemReferenceCode": "UBUNTU_LATEST_64", "networkComponents": [{"maxSpeed": 1000}], "blockDevices": [{"device": 2, "diskImage": {"capacity": 30}}], "sshKeys": [{"id": 87634}], "supplementalCreateObjectOptions": {"flavorKeyName": "C1_1X1X100", "postInstallScriptUri": "https://pastebin.com/raw/62wrEKuW"}, "transientGuestFlag": true, "primaryBackendNetworkComponent": {"networkVlan": {"id": 2068355, "primarySubnet": {"id": 1509335}}}, "primaryNetworkComponent": {"networkVlan": {"id": 2068353, "primarySubnet": {"id": 1499537}}, "securityGroupBindings": [{"securityGroup": {"id": 128323}}, {"securityGroup": {"id": 128321}}]}, "userData": [{"value": "Just some random data, you can put anything here you want!"}]}]}' \
@@ -244,7 +244,7 @@ The webhook has two parts. The URI, and the Secret. The URI is simply the locati
 When you make an API call to `sendTestReclaimScheduledAlert`, OR the transient Virtual Guest is reclaimed, a HTTP request will get sent to the TransientWebhookURI. That request will look something like this:
 
 Here I'm using [nc](https://en.wikipedia.org/wiki/Netcat) to catch the requests.
-```
+```bash
 # nc -lk 0.0.0.0 80
 POST /tesdfdsfst HTTP/1.1
 Host: 169.62.147.163
@@ -259,7 +259,7 @@ HEAD /robots.txt HTTP/1.0
 ```
 
 Compared to a REAL reclaim event.
-```
+```bash
 # nc -lk 0.0.0.0 80
 POST /tesdfdsfst HTTP/1.1
 Host: 169.62.147.163
@@ -275,7 +275,7 @@ Content-Length: 222
 
 ### REST API Calls
 
-```
+```bash
 # Virtual_Guest::setTransientWebhook
 curl -u $SL_USER:$SL_APIKEY -X POST  -d \
 '{"parameters": ["http://169.62.147.163/tesdfdsfst", "MySecret123"]}' \

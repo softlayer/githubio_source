@@ -13,7 +13,7 @@ The first step in ordering is to find the appropriate [SoftLayer_Product_Package
 
 [SoftLayer_Product_Package::getAllObject()](/reference/services/SoftLayer_Product_Package/getAllObjects/) is used to get a list of all packages.
 
-```
+```bash
 $ curl -s  -g -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Package/getAllObjects?objectMask=mask[type[keyName]]'  | python -m json.tool
 
 {
@@ -30,7 +30,7 @@ $ curl -s  -g -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLa
 
 While the wider cloud.ibm.com offerings exist in the catalog as packages, they are not usually oderable from the softlayer api. To easily filter these out, the following `objectFilter` can be used
 
-```
+```bash
 curl -s  -g -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Package/getAllObjects?objectMask=mask[type[keyName]]&objectFilter={"type":{"keyName":{"operation":"!=BLUEMIX_SERVICE"}}}' 
 ```
 
@@ -38,7 +38,7 @@ curl -s  -g -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLaye
 
 There are several Virtual Server Instance packages, which are all slightly different.
 
-```
+```bash
 $ curl -s  -g -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Package/getAllObjects?objectMask=mask[id,keyName]&objectFilter={"type":{"keyName":{"operation":"VIRTUAL_SERVER_INSTANCE"}}}' | python -m json.tool
 [
     {
@@ -81,7 +81,7 @@ Notably the `PUBLIC_CLOUD_SERVER` and `BARE_METAL_SERVER` packages require prese
 Now that we have found a Package that we are interested in ordering (lets say package id=835, PUBLIC_CLOUD_SERVER for these examples), we need to find their items. For this we will use [SoftLayer_Product_Package::getItems()](/reference/services/SoftLayer_Product_Package/getItems/).
 
 
-```
+```bash
 curl -s  -g -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Package/835/getItems' | python -m json.tool
 
 {
@@ -129,7 +129,7 @@ Some prices might have a [capacityRestrictionType](/reference/datatypes/SoftLaye
 Some items may have different prices in certain regions, this is indicated by a special Price object with the `locationGroupId` set to a specific location. You can find the specific datacenters a locationGroup corresponds with by tapping into the item->prices->pricingLocationGroup->locations relationship.
 
 
-```
+```bash
 curl -s  -g -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Package/835/getItems?objectMask=mask[prices[pricingLocationGroup[locations]]]' | python -m json.tool 
 {
     "capacity": "1000",
