@@ -81,12 +81,6 @@ Captures an Image of the hard disk on the physical machine.
 
 <div class="method-row">
 
-#### [closeAlarm](/reference/services/SoftLayer_Hardware_SecurityModule/closeAlarm)
-Returns monitoring alarm detailed history
-</div>
-
-<div class="method-row">
-
 #### [createFirmwareReflashTransaction](/reference/services/SoftLayer_Hardware_SecurityModule/createFirmwareReflashTransaction)
 Runs firmware reflash on the servers components.
 </div>
@@ -203,12 +197,6 @@ Retrieve transaction currently running for server.
 
 #### [getActiveTransactions](/reference/services/SoftLayer_Hardware_SecurityModule/getActiveTransactions)
 Retrieve any active transaction(s) that are currently running for the server (example: os reload).
-</div>
-
-<div class="method-row">
-
-#### [getAlarmHistory](/reference/services/SoftLayer_Hardware_SecurityModule/getAlarmHistory)
-Returns monitoring alarm detailed history
 </div>
 
 <div class="method-row">
@@ -849,24 +837,6 @@ Retrieve the metric tracking object id for this server.
 
 <div class="method-row">
 
-#### [getMonitoringActiveAlarms](/reference/services/SoftLayer_Hardware_SecurityModule/getMonitoringActiveAlarms)
-Returns open monitoring alarms for a given time period
-</div>
-
-<div class="method-row">
-
-#### [getMonitoringAgents](/reference/services/SoftLayer_Hardware_SecurityModule/getMonitoringAgents)
-Retrieve information regarding the monitoring agents associated with a piece of hardware.
-</div>
-
-<div class="method-row">
-
-#### [getMonitoringClosedAlarms](/reference/services/SoftLayer_Hardware_SecurityModule/getMonitoringClosedAlarms)
-Returns closed monitoring alarms for a given time period
-</div>
-
-<div class="method-row">
-
 #### [getMonitoringRobot](/reference/services/SoftLayer_Hardware_SecurityModule/getMonitoringRobot)
 Retrieve information regarding the hardware's monitoring robot.
 </div>
@@ -881,12 +851,6 @@ Retrieve information regarding a piece of hardware's network monitoring services
 
 #### [getMonitoringServiceEligibilityFlag](/reference/services/SoftLayer_Hardware_SecurityModule/getMonitoringServiceEligibilityFlag)
 Retrieve the monitoring service flag eligibility status for a piece of hardware.
-</div>
-
-<div class="method-row">
-
-#### [getMonitoringServiceFlag](/reference/services/SoftLayer_Hardware_SecurityModule/getMonitoringServiceFlag)
-Retrieve the service flag status for a piece of hardware.
 </div>
 
 <div class="method-row">

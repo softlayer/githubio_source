@@ -2,7 +2,7 @@
 title: "SoftLayer_Configuration_Template_Section_Definition"
 description: "Configuration definition gives you details of the value that you're setting. 
 
-Some monitoring agents requires values un... "
+If value type is defined as 'Resource Spe... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -22,9 +22,9 @@ classes:
 ## Description 
 Configuration definition gives you details of the value that you're setting. 
 
-Some monitoring agents requires values unique to your system. If value type is defined as "Resource Specific Values", you will have to make an additional API call to retrieve your system specific values. 
+If value type is defined as "Resource Specific Values", you will have to make an additional API call to retrieve your system specific values. 
 
-See [SoftLayer_Monitoring_Agent::getAvailableConfigurationValues]({{<ref "reference/services/SoftLayer_Monitoring_Agent/getAvailableConfigurationValues">}}) service to retrieve your system specific values. 
+
 
 
 

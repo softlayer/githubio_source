@@ -46,12 +46,6 @@ SoftLayer_Configuration_Template_Section_Profile help you keep track of custom c
 
 <div class="method-row">
 
-#### [getMonitoringAgent](/reference/services/SoftLayer_Configuration_Template_Section_Profile/getMonitoringAgent)
-
-</div>
-
-<div class="method-row">
-
 #### [getObject](/reference/services/SoftLayer_Configuration_Template_Section_Profile/getObject)
 Retrieve a SoftLayer_Configuration_Template_Section_Profile record.
 </div>
