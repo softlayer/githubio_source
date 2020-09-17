@@ -34,6 +34,7 @@ Return the event log data
 * SoftLayer_Event_LogObjectMask
 * SoftLayer_ObjectMask
 * SoftLayer_Event_LogObjectFilter
+* resultLimit
 
 ### Return Values
 * <a href='/reference/datatypes/SoftLayer_Event_Log'>SoftLayer_Event_Log[] </a>

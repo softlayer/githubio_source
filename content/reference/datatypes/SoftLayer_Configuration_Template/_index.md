@@ -158,16 +158,6 @@ Internal identifier of a user that last modified this configuration template
 <div class="prop-row">
 
 -----
-[configurationTemplateReference]: #configurationtemplatereference
-#### [configurationTemplateReference]
-  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference'>SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference[] </a>**
-
-
-</div>
-<div class="prop-row">
-
------
 [defaultValues]: #defaultvalues
 #### [defaultValues]
   
@@ -232,16 +222,6 @@ Internal identifier of a user that last modified this configuration template
 -----
 [configurationSectionCount]: #configurationsectioncount
 #### [configurationSectionCount]
-A count of    
-<span class="type-label">Type: </span>**unsigned long**
-
-
-</div>
-<div class="prop-row">
-
------
-[configurationTemplateReferenceCount]: #configurationtemplatereferencecount
-#### [configurationTemplateReferenceCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 

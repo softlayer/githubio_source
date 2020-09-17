@@ -58,12 +58,6 @@ Captures an Image of the hard disk on the physical machine.
 
 <div class="method-row">
 
-#### [closeAlarm](/reference/services/SoftLayer_Hardware/closeAlarm)
-Returns monitoring alarm detailed history
-</div>
-
-<div class="method-row">
-
 #### [createObject](/reference/services/SoftLayer_Hardware/createObject)
 Create a new server
 </div>
@@ -126,12 +120,6 @@ Retrieve a piece of hardware's active physical components.
 
 #### [getActiveNetworkMonitorIncident](/reference/services/SoftLayer_Hardware/getActiveNetworkMonitorIncident)
 Retrieve a piece of hardware's active network monitoring incidents.
-</div>
-
-<div class="method-row">
-
-#### [getAlarmHistory](/reference/services/SoftLayer_Hardware/getAlarmHistory)
-Returns monitoring alarm detailed history
 </div>
 
 <div class="method-row">
@@ -562,24 +550,6 @@ Retrieve a piece of hardware's metric tracking object.
 
 <div class="method-row">
 
-#### [getMonitoringActiveAlarms](/reference/services/SoftLayer_Hardware/getMonitoringActiveAlarms)
-Returns open monitoring alarms for a given time period
-</div>
-
-<div class="method-row">
-
-#### [getMonitoringAgents](/reference/services/SoftLayer_Hardware/getMonitoringAgents)
-Retrieve information regarding the monitoring agents associated with a piece of hardware.
-</div>
-
-<div class="method-row">
-
-#### [getMonitoringClosedAlarms](/reference/services/SoftLayer_Hardware/getMonitoringClosedAlarms)
-Returns closed monitoring alarms for a given time period
-</div>
-
-<div class="method-row">
-
 #### [getMonitoringRobot](/reference/services/SoftLayer_Hardware/getMonitoringRobot)
 Retrieve information regarding the hardware's monitoring robot.
 </div>
@@ -594,12 +564,6 @@ Retrieve information regarding a piece of hardware's network monitoring services
 
 #### [getMonitoringServiceEligibilityFlag](/reference/services/SoftLayer_Hardware/getMonitoringServiceEligibilityFlag)
 Retrieve the monitoring service flag eligibility status for a piece of hardware.
-</div>
-
-<div class="method-row">
-
-#### [getMonitoringServiceFlag](/reference/services/SoftLayer_Hardware/getMonitoringServiceFlag)
-Retrieve the service flag status for a piece of hardware.
 </div>
 
 <div class="method-row">

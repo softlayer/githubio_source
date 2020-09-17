@@ -88,6 +88,12 @@ Retrieve check if cloud-init is enabled.
 
 <div class="method-row">
 
+#### [getDiskFileExtension](/reference/services/SoftLayer_Virtual_Disk_Image/getDiskFileExtension)
+Retrieve return disk file extension
+</div>
+
+<div class="method-row">
+
 #### [getDiskImageStorageGroup](/reference/services/SoftLayer_Virtual_Disk_Image/getDiskImageStorageGroup)
 
 </div>
@@ -162,6 +168,12 @@ Retrieve the storage repository that a disk image resides in.
 
 #### [getStorageRepositoryType](/reference/services/SoftLayer_Virtual_Disk_Image/getStorageRepositoryType)
 Retrieve the type of storage repository that a disk image resides in.
+</div>
+
+<div class="method-row">
+
+#### [getSupportedHardware](/reference/services/SoftLayer_Virtual_Disk_Image/getSupportedHardware)
+Retrieve return supported hardware component IDs for symantec disk
 </div>
 
 <div class="method-row">

@@ -232,6 +232,16 @@ Check if cloud-init is enabled.
 <div class="prop-row">
 
 -----
+[diskFileExtension]: #diskfileextension
+#### [diskFileExtension]
+Return disk file extension  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [diskImageStorageGroup]: #diskimagestoragegroup
 #### [diskImageStorageGroup]
   
@@ -336,6 +346,16 @@ The storage repository that a disk image resides in.
 #### [storageRepositoryType]
 The type of storage repository that a disk image resides in.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository_Type'>SoftLayer_Virtual_Storage_Repository_Type </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[supportedHardware]: #supportedhardware
+#### [supportedHardware]
+Return supported hardware component IDs for symantec disk  
+<span class="type-label">Type: </span>**string**
 
 
 </div>

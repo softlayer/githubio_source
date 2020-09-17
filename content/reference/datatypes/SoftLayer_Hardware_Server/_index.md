@@ -1077,16 +1077,6 @@ The metric tracking object id for this server.
 <div class="prop-row">
 
 -----
-[monitoringAgents]: #monitoringagents
-#### [monitoringAgents]
-Information regarding the monitoring agents associated with a piece of hardware.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Monitoring_Agent'>SoftLayer_Monitoring_Agent[] </a>**
-
-
-</div>
-<div class="prop-row">
-
------
 [monitoringRobot]: #monitoringrobot
 #### [monitoringRobot]
 Information regarding the hardware's monitoring robot.  
@@ -1110,16 +1100,6 @@ Information regarding a piece of hardware's network monitoring services.
 [monitoringServiceEligibilityFlag]: #monitoringserviceeligibilityflag
 #### [monitoringServiceEligibilityFlag]
 The monitoring service flag eligibility status for a piece of hardware.  
-<span class="type-label">Type: </span>**boolean**
-
-
-</div>
-<div class="prop-row">
-
------
-[monitoringServiceFlag]: #monitoringserviceflag
-#### [monitoringServiceFlag]
-The service flag status for a piece of hardware.  
 <span class="type-label">Type: </span>**boolean**
 
 
@@ -2282,16 +2262,6 @@ A count of information regarding a piece of hardware's memory.
 [moduleCount]: #modulecount
 #### [moduleCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
-
-
-</div>
-<div class="prop-row">
-
------
-[monitoringAgentCount]: #monitoringagentcount
-#### [monitoringAgentCount]
-A count of information regarding the monitoring agents associated with a piece of hardware.   
 <span class="type-label">Type: </span>**unsigned long**
 
 

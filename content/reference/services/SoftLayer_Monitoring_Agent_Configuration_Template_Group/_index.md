@@ -76,18 +76,6 @@ retrieves agent package configuration templates available to your account.
 
 <div class="method-row">
 
-#### [getConfigurationTemplateReferences](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getConfigurationTemplateReferences)
-
-</div>
-
-<div class="method-row">
-
-#### [getConfigurationTemplates](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getConfigurationTemplates)
-
-</div>
-
-<div class="method-row">
-
 #### [getItem](/reference/services/SoftLayer_Monitoring_Agent_Configuration_Template_Group/getItem)
 
 </div>
