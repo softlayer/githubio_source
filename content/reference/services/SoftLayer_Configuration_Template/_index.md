@@ -76,12 +76,6 @@ Retrieves all available configuration templates.
 
 <div class="method-row">
 
-#### [getConfigurationTemplateReference](/reference/services/SoftLayer_Configuration_Template/getConfigurationTemplateReference)
-
-</div>
-
-<div class="method-row">
-
 #### [getDefaultValues](/reference/services/SoftLayer_Configuration_Template/getDefaultValues)
 
 </div>

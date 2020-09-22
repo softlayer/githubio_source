@@ -109,16 +109,6 @@ Internal identifier of a configuration section that this profile belongs to.
 
 
 </div>
-<div class="prop-row">
-
------
-[monitoringAgent]: #monitoringagent
-#### [monitoringAgent]
-  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Monitoring_Agent'>SoftLayer_Monitoring_Agent </a>**
-
-
-</div>
 
 ## Count
 </div>

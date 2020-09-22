@@ -133,26 +133,6 @@ Name of a monitoring agent configuration group
 <div class="prop-row">
 
 -----
-[configurationTemplateReferences]: #configurationtemplatereferences
-#### [configurationTemplateReferences]
-  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference'>SoftLayer_Monitoring_Agent_Configuration_Template_Group_Reference[] </a>**
-
-
-</div>
-<div class="prop-row">
-
------
-[configurationTemplates]: #configurationtemplates
-#### [configurationTemplates]
-  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template[] </a>**
-
-
-</div>
-<div class="prop-row">
-
------
 [item]: #item
 #### [item]
   
@@ -162,26 +142,6 @@ Name of a monitoring agent configuration group
 </div>
 
 ## Count
-<div class="prop-row">
-
------
-[configurationTemplateCount]: #configurationtemplatecount
-#### [configurationTemplateCount]
-A count of    
-<span class="type-label">Type: </span>**unsigned long**
-
-
-</div>
-<div class="prop-row">
-
------
-[configurationTemplateReferenceCount]: #configurationtemplatereferencecount
-#### [configurationTemplateReferenceCount]
-A count of    
-<span class="type-label">Type: </span>**unsigned long**
-
-
-</div>
 </div>
 
 

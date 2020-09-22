@@ -174,7 +174,7 @@ This is the note field.
 -----
 [sortOrder]: #sortorder
 #### [sortOrder]
-A subnet can be one of several types. PRIMARY, ADDITIONAL_PRIMARY, SECONDARY, ROUTED_TO_VLAN, SECONDARY_ON_VLAN, and STATIC_IP_ROUTED. The type determines the order in which many subnets are sorted in the SoftLayer customer portal. This groups subnets of similar type together.   
+Used to sort subnets and group subnets of similar type together for use on customer facing portals.   
 <span class="type-label">Type: </span>**string**
 
 
@@ -184,7 +184,16 @@ A subnet can be one of several types. PRIMARY, ADDITIONAL_PRIMARY, SECONDARY, RO
 -----
 [subnetType]: #subnettype
 #### [subnetType]
-A subnet can be one of several types. PRIMARY, ADDITIONAL_PRIMARY, SECONDARY, ROUTED_TO_VLAN, SECONDARY_ON_VLAN, and STATIC_IP_ROUTED. A "PRIMARY" subnet is the primary network bound to a VLAN within the softlayer network. An "ADDITIONAL_PRIMARY" subnet is bound to a network VLAN to augment the pool of available primary IP addresses that may be assigned to a server. A "SECONDARY" subnet is any of the secondary subnet's bound to a VLAN interface. A "ROUTED_TO_VLAN" subnet is a portable subnet that can be routed to any server on a vlan. A "SECONDARY_ON_VLAN" subnet also doesn't exist as a VLAN interface, but is routed directly to a VLAN instead of a single IP address by SoftLayer's routers.   
+A subnet type can be any of the following: 
+* PRIMARY
+* ADDITIONAL_PRIMARY
+* SECONDARY_ON_VLAN
+* STATIC_IP_ROUTED
+* PRIMARY_6
+* SUBNET_ON_VLAN
+* STATIC_IP_ROUTED_6
+* GLOBAL_IP
+A "PRIMARY" subnet is the primary network bound to a VLAN within the softlayer network. An "ADDITIONAL_PRIMARY" subnet is bound to a network VLAN to augment the pool of available primary IP addresses that may be assigned to a server. A "SECONDARY_ON_VLAN" subnet is a secondary portable subnet whose IP addresses are managed by the end user. "STATIC_IP_ROUTED" subnets are subnets that are statically routed to a single endpoint IP address. A "PRIMARY_6" subnet is the primary IPv6 network bound to a VLAN. A "SUBNET_ON_VLAN" subnet is the secondary portable IPv6 subnet whose IP addresses are managed by the end user. A "STATIC_IP_ROUTED_6" subnet is statically routed to a single IPv6 endpoint IP address. A "GLOBAL_IP" subnet is a subnet that is routable to a single endpoint IP address. The "GLOBAL_IP" type is used for both IPv4 and IPv6 subnets.   
 <span class="type-label">Type: </span>**string**
 
 
