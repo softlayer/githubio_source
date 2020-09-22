@@ -20,8 +20,8 @@ For these examples, all API calls will be made by a user under the brand master 
 
 To use the [SoftLayer_Brand](/reference/services/SoftLayer_Brand) you first need to find out the BrandId that the account owns. This can be done with the [SoftLayer_Account::getOwnedBrands()](/reference/services/SoftLayer_Account/getOwnedBrands/) API call.
 
-```
-$ curl -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getOwnedBrands' |  python -m json.tool
+```bash
+curl -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getOwnedBrands' |  python -m json.tool
 [
     {
         "catalogId": 14,
@@ -40,8 +40,8 @@ Now that we have a brandId (16762 in the above example), we can use the Brand se
 
 >-g in the curl command lets you use un-escaped brackets
 
-```
-$ curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Brand/16762/getOwnedAccounts?objectMask=mask[id,companyName,createDate]' |  python -m json.tool
+```bash
+curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Brand/16762/getOwnedAccounts?objectMask=mask[id,companyName,createDate]' |  python -m json.tool
 [
     {
         "companyName": "SoftLayer Distributor Demo - VAR 01 - Child Account",
@@ -61,8 +61,8 @@ $ curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/So
 To see what your accounts are currently using and being billed for, we need to look at each accounts [nextInvoiceTopLevelBillingItems](/reference/datatypes/SoftLayer_Account/#nextinvoicetoplevelbillingitems)
 
 
-```
-$ curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Brand/16762/getOwnedAccounts?objectMask=mask[id,companyName,createDate,nextInvoiceTopLevelBillingItems]&resultLimit=0,1' |  python -m json.tool         
+```bash
+curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Brand/16762/getOwnedAccounts?objectMask=mask[id,companyName,createDate,nextInvoiceTopLevelBillingItems]&resultLimit=0,1' |  python -m json.tool         
 [
     {
         "companyName": "SoftLayer Distributor Demo - VAR 01 - Child Account",
@@ -101,8 +101,8 @@ Invoices can contain a lot of data, so it is best to use the `Brand` service to 
 - [latestRecurringPendingInvoice](/reference/datatypes/SoftLayer_Account/#latestrecurringpendinginvoice) is used to get the accounts most current invoice that is NOT closed. Invoices are usually closed once the balance has been paid.
 - [invoices](/datatypes/SoftLayer_Account/#invoices) will list ALL of the accounts invoices
 
-```
-$ curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Brand/16762/getOwnedAccounts?objectMask=mask[id,companyName,createDate,latestRecurringInvoice]&resultLimit=0,2' |  python -m json.tool 
+```bash
+curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Brand/16762/getOwnedAccounts?objectMask=mask[id,companyName,createDate,latestRecurringInvoice]&resultLimit=0,2' |  python -m json.tool 
 
 ```
 
@@ -114,8 +114,8 @@ $ curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/So
 Once you have the invoice id, you will likely be most concerned with the [invoiceTopLevelItems](/reference/services/SoftLayer_Billing_Invoice/getInvoiceTopLevelItems/)
 
 
-```
-$ curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Invoice/56409210/getInvoiceTopLevelItems?objectMask=mask[children,invoice[id]]&resultLimit=0,200' | python -m json.tool
+```bash
+curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Invoice/56409210/getInvoiceTopLevelItems?objectMask=mask[children,invoice[id]]&resultLimit=0,200' | python -m json.tool
 ```
 
 > the invoice[id] is included in the mask otherwise the whole invoice data will be included in each of the children, generating a lot of returned data. Selecting other local properties from either invoiceTopLevelItems or children would also work.
@@ -126,8 +126,8 @@ Each invoice will contain items from the cloud.ibm.com portal, which you may or 
 
 This will limit the items returned to only those that are not in the paas categories.
 
-```
-$ curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Invoice/56409210/getInvoiceTopLevelItems?objectMask=mask[invoice[id]]&objectFilter={"invoiceTopLevelItems":{"categoryCode":{"operation":"!^=paas_"}}}&resultLimit=0,200'  | python -m json.tool
+```bash
+curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Invoice/56409210/getInvoiceTopLevelItems?objectMask=mask[invoice[id]]&objectFilter={"invoiceTopLevelItems":{"categoryCode":{"operation":"!^=paas_"}}}&resultLimit=0,200'  | python -m json.tool
 ```
 
 
@@ -135,13 +135,13 @@ $ curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/So
 
 You may want to only get invoices in a certain date range, which is possible with a `filteredMask`.
 
-```
-$ curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/OwnedBrands?objectMask=filteredMask.allOwnedAccounts[id,accountStatusId,invoices[invoiceTotalAmount]]&objectFilter={"ownedBrands":{"allOwnedAccounts":{"invoices":{"createDate":{"operation":"betweenDate","options":[{"name":"startDate","value":["06/01/2020"]},{"name":"endDate","value":["07/15/2020 23:59:59"]}]}}}}}
+```bash
+curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/OwnedBrands?objectMask=filteredMask.allOwnedAccounts[id,accountStatusId,invoices[invoiceTotalAmount]]&objectFilter={"ownedBrands":{"allOwnedAccounts":{"invoices":{"createDate":{"operation":"betweenDate","options":[{"name":"startDate","value":["06/01/2020"]},{"name":"endDate","value":["07/15/2020 23:59:59"]}]}}}}}
 ```
 
 or for a specific brand's accounts
 
-```
+```bash
 curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Brand/16762/getOwnedAccounts?objectMask=filteredMask[id,accountStatusId,invoices[id,createDate,invoiceTotalAmount]]&objectFilter={"ownedAccounts":{"invoices":{"createDate":{"operation":"betweenDate","options":[{"name":"startDate","value":["07/01/2020"]},{"name":"endDate","value":["07/15/2020"]}]}}}}' | python -m json.tool
 ```
 
@@ -150,7 +150,7 @@ curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/Soft
 Sometimes as a brand account, it can be easier to use the API as a "normal" user. For this it is easy enough to get the master user of each sub-account and its API key, and make API calls that way.
 
 
-```
+```bash
 curl -g -s -u $SL_BAP_USER:$SL_BAP_KEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Brand/16762/getOwnedAccounts?objectMask=mask[id,companyName,createDate,masterUser[id,username,apiAuthenticationKeys[authenticationKey]]]&resultLimit=0,2' |  python -m json.tool 
 ```
 

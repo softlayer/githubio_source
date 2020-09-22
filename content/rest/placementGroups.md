@@ -17,7 +17,7 @@ To create a group, we need to know a few pieces of information. With the slcli t
 
 1. Router (Pod in a datacenter) the group should be located behind.
 
-```
+```bash
 curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" 'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_PlacementGroup/getAvailableRouters.json'
 ```
 
@@ -25,7 +25,7 @@ curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" 'https://api.softlayer.com/r
 
 2. Rule which the group should enforce
 
-```
+```bash
 curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" 'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_PlacementGroup_Rule/getAllObjects.json'
 ```
 [SoftLayer_Virtual_PlacementGroup_Rule::getAllObjects()](/reference/services/SoftLayer_Virtual_PlacementGroup_Rule/getAllObjects/) will print a list of rules useable, keep track of the Id. At the moment there is only the 'SPREAD' rule which ensures each VSI is on a different host. 
@@ -40,7 +40,7 @@ Next, create the instance.
 
 `slcli vs placementgroup create --name test1234 -b bcr01.wdc01 -r SPREAD`
 
-```
+```bash
 curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [{"name": "test1234", "backendRouterId": 16358, "ruleId": 1}]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_PlacementGroup/createObject.json'
 ```
 
@@ -51,7 +51,7 @@ curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [{"name": "test1234", "ba
 To list out all the placement groups, we use [SoftLayer_Account/getPlacementGroups](/reference/services/SoftLayer_Account/getPlacementGroups/)
 with the mask `mask[id, name, createDate, rule, guestCount, backendRouter[id, hostname]]` 
 
-```
+```bash
 curl -u $SL_USER:$SL_APIKEY -X GET 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getPlacementGroups.json?objectMask=mask%5Bid%2C+name%2C+createDate%2C+rule%2C+guestCount%2C+backendRouter%5Bid%2C+hostname%5D%5D'
 ```
 
@@ -60,7 +60,7 @@ curl -u $SL_USER:$SL_APIKEY -X GET 'https://api.softlayer.com/rest/v3.1/SoftLaye
 
 Deleting is pretty easy, first you will need the PlacementGroup id, then just call [SoftLayer_Virtual_PlacementGroup::deleteObject()](/reference/services/SoftLayer_Virtual_PlacementGroup/deleteObject/)
 
-```
+```bash
 curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*"  'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_PlacementGroup/81435/deleteObject.json
 ```
 
@@ -72,7 +72,7 @@ To create a VSI in a placement group, you need to supply the placementGroupId in
 
 `slcli vs create -H test12345 -D test.com -f  B1_1X2X25 -d mex01 -o DEBIAN_LATEST --placementgroup test12345`
 
-```
+```bash
 curl -u $SL_USER:$SL_APIKEY -X POST  -d '
 {"parameters": [{
     "imageTemplateId": null,
