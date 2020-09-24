@@ -1,24 +1,24 @@
 ---
-title: "SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity"
-description: "Internal IBM opportunity codes required when applying for a Proof of Concept account."
+title: "SoftLayer_Account_ProofOfConcept_Campaign_Code"
+description: "A [SoftLayer_Account_ProofOfConcept_Campaign_Code] provides a `code` and an optional `description`."
 layout: "datatype"
 tags:
     - "datatype"
     - "sldn"
-    - "Container"
+    - "Account"
 classes:
-    - "SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity"
+    - "SoftLayer_Account_ProofOfConcept_Campaign_Code"
 ---
 
-# SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity
+# SoftLayer_Account_ProofOfConcept_Campaign_Code
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity' >Datatype</a></li>
+    <li id='service'> <a href='/reference/services/SoftLayer_Account_ProofOfConcept_Campaign_Code' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Campaign_Code' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
-Internal IBM opportunity codes required when applying for a Proof of Concept account. 
+A [SoftLayer_Account_ProofOfConcept_Campaign_Code] provides a `code` and an optional `description`. 
 
 
 ### associatedMethods
@@ -48,9 +48,9 @@ Internal IBM opportunity codes required when applying for a Proof of Concept acc
 <div class="prop-row">
 
 -----
-[campaignCode]: #campaigncode
-#### [campaignCode]
-The campaign or promotion code for this request, provided by Sales.  
+[code]: #code
+#### [code]
+  
 <span class="type-label">Type: </span>**string**
 
 
@@ -58,30 +58,10 @@ The campaign or promotion code for this request, provided by Sales.
 <div class="prop-row">
 
 -----
-[monthlyRecurringRevenue]: #monthlyrecurringrevenue
-#### [monthlyRecurringRevenue]
-Expected monthly revenue.  
-<span class="type-label">Type: </span>**decimal**
-
-
-</div>
-<div class="prop-row">
-
------
-[opportunityNumber]: #opportunitynumber
-#### [opportunityNumber]
-Internal system identifier.  
+[description]: #description
+#### [description]
+  
 <span class="type-label">Type: </span>**string**
-
-
-</div>
-<div class="prop-row">
-
------
-[totalContractValue]: #totalcontractvalue
-#### [totalContractValue]
-Expected overall contract value.  
-<span class="type-label">Type: </span>**decimal**
 
 
 </div>

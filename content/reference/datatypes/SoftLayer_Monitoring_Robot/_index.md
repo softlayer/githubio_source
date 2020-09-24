@@ -98,16 +98,6 @@ The account associated with the corresponding robot.
 <div class="prop-row">
 
 -----
-[monitoringAgents]: #monitoringagents
-#### [monitoringAgents]
-The program (monitoring agent) that gets details of a system or application and reporting of the metric data and triggers alarms for predefined events.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Monitoring_Agent'>SoftLayer_Monitoring_Agent[] </a>**
-
-
-</div>
-<div class="prop-row">
-
------
 [robotStatus]: #robotstatus
 #### [robotStatus]
 The current status of the robot.  
@@ -127,16 +117,6 @@ The SoftLayer_Software_Component that corresponds to the robot installation on t
 </div>
 
 ## Count
-<div class="prop-row">
-
------
-[monitoringAgentCount]: #monitoringagentcount
-#### [monitoringAgentCount]
-A count of the program (monitoring agent) that gets details of a system or application and reporting of the metric data and triggers alarms for predefined events.   
-<span class="type-label">Type: </span>**unsigned long**
-
-
-</div>
 </div>
 
 
