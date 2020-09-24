@@ -42,6 +42,16 @@ classes:
 <div class="prop-row">
 
 -----
+[akamaiCname]: #akamaicname
+#### [akamaiCname]
+  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [bucketName]: #bucketname
 #### [bucketName]
   

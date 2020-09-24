@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Monitoring_Robot"
-description: "A monitoring robot is a set of essential agents that lets SoftLayer monitoring management system to communicate with a s... "
+description: ""
 date: "2018-02-12"
 layout: "service"
 tags:
@@ -18,11 +18,9 @@ classes:
 </div>
 
 ## Description
-A monitoring robot is a set of essential agents that lets SoftLayer monitoring management system to communicate with a server, a Cloud Computing Instance or a Bare Metal Instance. 
 
-A monitoring robot must be installed in order for any monitoring agent to report monitoring data to a SoftLayer monitoring hub system. 
 
-TCP ports from 48000 to 48020 should be open on your server or cloud instance for advanced monitoring robots and agents. 
+
 
 
 
@@ -50,26 +48,8 @@ Checks if a monitoring robot can communicate with SoftLayer monitoring managemen
 
 <div class="method-row">
 
-#### [deployMonitoringAgents](/reference/services/SoftLayer_Monitoring_Robot/deployMonitoringAgents)
-
-</div>
-
-<div class="method-row">
-
 #### [getAccount](/reference/services/SoftLayer_Monitoring_Robot/getAccount)
 Retrieve the account associated with the corresponding robot.
-</div>
-
-<div class="method-row">
-
-#### [getAvailableConfigurationGroups](/reference/services/SoftLayer_Monitoring_Robot/getAvailableConfigurationGroups)
-Returns available configuration template groups for this monitoring agent.
-</div>
-
-<div class="method-row">
-
-#### [getMonitoringAgents](/reference/services/SoftLayer_Monitoring_Robot/getMonitoringAgents)
-Retrieve the program (monitoring agent) that gets details of a system or application and reporting of the metric data and triggers alarms for predefined events.
 </div>
 
 <div class="method-row">
@@ -88,12 +68,6 @@ Retrieve the current status of the robot.
 
 #### [getSoftwareComponent](/reference/services/SoftLayer_Monitoring_Robot/getSoftwareComponent)
 Retrieve the SoftLayer_Software_Component that corresponds to the robot installation on the server.
-</div>
-
-<div class="method-row">
-
-#### [resetStatus](/reference/services/SoftLayer_Monitoring_Robot/resetStatus)
-Resets monitoring robot status to "Active"
 </div>
 </div>
 
