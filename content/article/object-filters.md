@@ -93,7 +93,7 @@ Some Object Filters require `options` to be passed in addition the operation. Op
 *WARNING* If you don't properly define these operators, the API tends to just ignore the filter and return the normal results. 
 
 ### IN, NOT IN
-The in operation can be used to require the column to match only one of the values. It only supports integer values. For example:
+The in operation can be used to require the column to match only one of the values. For example:
 
 ```python
 object_filter = {
