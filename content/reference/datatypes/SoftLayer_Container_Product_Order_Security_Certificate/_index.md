@@ -656,7 +656,7 @@ The number of cores for the server being ordered. This value is set internally.
 -----
 [serverCount]: #servercount
 #### [serverCount]
-The number of servers.   
+(DEPRECATED) Do not set this property, as it will always be set to 1.   
 <span class="type-label">Type: </span>**integer**
 
 
@@ -812,7 +812,7 @@ An optional flag to use hourly pricing instead of standard monthly pricing.
 -----
 [validityMonths]: #validitymonths
 #### [validityMonths]
-The period that a SSL certificate is valid for.  For example, 12, 24, 36  
+(DEPRECATED) The period that a SSL certificate is valid for.  For example, 12, 24, 36. This property will be set automatically based on the certificate product ordered when verifying or placing orders.   
 <span class="type-label">Type: </span>**integer**
 
 
