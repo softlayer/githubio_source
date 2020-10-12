@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Security_Certificate_Request"
-description: "SoftLayer_Security_Certificate_Request data type is used to harness your SSL certificate order to a Certificate Authorit... "
+description: "The SoftLayer_Security_Certificate_Request data type is used to view details about your SSL certificate order. This cont... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-SoftLayer_Security_Certificate_Request data type is used to harness your SSL certificate order to a Certificate Authority. This contains data that is required by a Certificate Authority to place an SSL certificate order. 
+The SoftLayer_Security_Certificate_Request data type is used to view details about your SSL certificate order. This contains data that is required by a Certificate Authority to place an SSL certificate order. 
 
 
 
