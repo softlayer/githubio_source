@@ -8,7 +8,94 @@ classes:
     - "SoftLayer_Container_Network_CdnMarketplace_Configuration_Input"
 tags:
     - "cdn"
+    
+references:    
+    - "https://cloud.ibm.com/docs/CDN?topic=CDN-faqs&locale=en#how-is-my-ibm-cloud-content-delivery-network-service-account-created" 
+    - "https://cloud.ibm.com/docs/CDN?topic=CDN-cdn-api-reference#create-domain-mapping"
+"
+    
 ---
+
+### Order CDN account
+
+```
+package main
+
+import (
+	"fmt"
+	"github.com/softlayer/softlayer-go/session"
+	"github.com/softlayer/softlayer-go/services"
+	"encoding/json"
+	"github.com/softlayer/softlayer-go/datatypes"
+	"github.com/softlayer/softlayer-go/sl"
+	"github.com/softlayer/softlayer-go/filter"
+)
+
+func main() {
+	// SoftLayer API username and key
+	username := "set - me"
+	apikey := "set - me"
+
+	filter := filter.Build(filter.Path("keyName").Eq("CONTENT_DELIVERY_NETWORK_SERVICE"))
+
+	// Create SoftLayer API session
+	sess := session.New(username, apikey)
+
+	// Get SoftLayer_Product_Order service
+	service := services.GetProductOrderService(sess)
+	productPackageService := services.GetProductPackageService(sess)
+
+	cdnPackageKeyName, err := productPackageService.Filter(filter).GetAllObjects()
+	if err != nil {
+		fmt.Printf("\n Unable to retrieve the cdn key name:\n - %s\n", err)
+		return
+	}
+	cdnPackageId := sl.Int(*cdnPackageKeyName[0].Id)
+
+	cdnItemPrices, err := productPackageService.Id(*cdnPackageId).GetItemPrices()
+	if err != nil {
+		fmt.Printf("\n Unable to get the cdn prices:\n - %s\n", err)
+		return
+	}
+	itemPriceId := sl.Int(*cdnItemPrices[0].Id)
+
+	prices := []datatypes.Product_Item_Price{
+		{Id: sl.Int(*itemPriceId)},
+	}
+	// Build a skeleton SoftLayer_Container_Product_Order_Network_ContentDelivery_Account object
+	// containing the order you wish to place.
+	// Container_Product_Order_Network_ContentDelivery_Account
+	templateObject := datatypes.Container_Product_Order{
+
+		PackageId: sl.Int(*cdnPackageId),
+		Prices:    prices,
+
+		}
+	jsonFormat, jsonErr := json.MarshalIndent(templateObject, "", "     ")
+	if jsonErr != nil {
+		fmt.Println(jsonErr)
+		return
+	}
+	fmt.Println(string(jsonFormat))
+	// Use verifyOrder() method to check for errors. Replace this with placeOrder() when
+	// you are ready to order.
+	receipt, err := service.PlaceOrder(&templateObject,sl.Bool(false))
+	if err != nil {
+		fmt.Printf("\n Unable to place order:\n - %s\n", err)
+		return
+	}
+
+	// Following helps to print the result in json format.
+	jsonFormat1, jsonErr1 := json.MarshalIndent(receipt, "", "     ")
+	if jsonErr1 != nil {
+		fmt.Println(jsonErr1)
+		return
+	}
+	fmt.Println(string(jsonFormat1))
+}
+```
+
+Note: Only create when no exist an account created or disabled
 
 ### ListVendors 
 ```
@@ -137,10 +224,7 @@ func main() {
 	fmt.Println(string(jsonFormat1))
 }
 ```
-Note: In case that the CDN account not exist, this method creates a CDN account internally after you confirm the creation, this creation can wait for some time
 
-reference : https://cloud.ibm.com/docs/CDN?topic=CDN-faqs&locale=en#how-is-my-ibm-cloud-content-delivery-network-service-account-created 
-            https://cloud.ibm.com/docs/CDN?topic=CDN-cdn-api-reference#create-domain-mapping
 ### DeleteDomainMapping
 
 ```
