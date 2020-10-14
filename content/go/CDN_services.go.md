@@ -22,13 +22,13 @@ references:
 package main
 
 import (
-	"fmt"
-	"github.com/softlayer/softlayer-go/session"
-	"github.com/softlayer/softlayer-go/services"
-	"encoding/json"
-	"github.com/softlayer/softlayer-go/datatypes"
-	"github.com/softlayer/softlayer-go/sl"
-	"github.com/softlayer/softlayer-go/filter"
+"fmt"
+"github.com/softlayer/softlayer-go/session"
+"github.com/softlayer/softlayer-go/services"
+"encoding/json"
+"github.com/softlayer/softlayer-go/datatypes"
+"github.com/softlayer/softlayer-go/sl"
+"github.com/softlayer/softlayer-go/filter"
 )
 
 func main() {
@@ -101,10 +101,10 @@ Note: Only create when no exist an account created or disabled
 ```
 package main
 import (
-	"encoding/json"
-	"fmt"
-	"github.com/softlayer/softlayer-go/services"
-	"github.com/softlayer/softlayer-go/session"
+"encoding/json"
+"fmt"
+"github.com/softlayer/softlayer-go/services"
+"github.com/softlayer/softlayer-go/session"
 )
 func main() {
 	// SoftLayer API username and key
@@ -138,11 +138,11 @@ func main() {
 package main
 
 import (
-	"encoding/json"
-	"fmt"
-	"github.com/softlayer/softlayer-go/services"
-	"github.com/softlayer/softlayer-go/session"
-	"github.com/softlayer/softlayer-go/sl"
+"encoding/json"
+"fmt"
+"github.com/softlayer/softlayer-go/services"
+"github.com/softlayer/softlayer-go/session"
+"github.com/softlayer/softlayer-go/sl"
 )
 
 func main() {
@@ -179,12 +179,12 @@ func main() {
 package main
 
 import (
-	"encoding/json"
-	"fmt"
-	"github.com/softlayer/softlayer-go/datatypes"
-	"github.com/softlayer/softlayer-go/services"
-	"github.com/softlayer/softlayer-go/session"
-	"github.com/softlayer/softlayer-go/sl"
+"encoding/json"
+"fmt"
+"github.com/softlayer/softlayer-go/datatypes"
+"github.com/softlayer/softlayer-go/services"
+"github.com/softlayer/softlayer-go/session"
+"github.com/softlayer/softlayer-go/sl"
 )
 
 func main() {
@@ -232,11 +232,11 @@ package main
 
 
 import (
-	"encoding/json"
-	"fmt"
-	"github.com/softlayer/softlayer-go/services"
-	"github.com/softlayer/softlayer-go/session"
-	"github.com/softlayer/softlayer-go/sl"
+"encoding/json"
+"fmt"
+"github.com/softlayer/softlayer-go/services"
+"github.com/softlayer/softlayer-go/session"
+"github.com/softlayer/softlayer-go/sl"
 )
 
 func main() {
@@ -274,11 +274,11 @@ func main() {
 package main
 
 import (
-	"encoding/json"
-	"fmt"
-	"github.com/softlayer/softlayer-go/services"
-	"github.com/softlayer/softlayer-go/session"
-	"github.com/softlayer/softlayer-go/sl"
+"encoding/json"
+"fmt"
+"github.com/softlayer/softlayer-go/services"
+"github.com/softlayer/softlayer-go/session"
+"github.com/softlayer/softlayer-go/sl"
 )
 
 func main() {
@@ -314,11 +314,11 @@ func main() {
 package main
 
 import (
-	"encoding/json"
-	"fmt"
-	"github.com/softlayer/softlayer-go/services"
-	"github.com/softlayer/softlayer-go/session"
-	"github.com/softlayer/softlayer-go/sl"
+"encoding/json"
+"fmt"
+"github.com/softlayer/softlayer-go/services"
+"github.com/softlayer/softlayer-go/session"
+"github.com/softlayer/softlayer-go/sl"
 )
 
 func main() {
@@ -357,11 +357,11 @@ package main
 
 
 import (
-	"encoding/json"
-	"fmt"
-	"github.com/softlayer/softlayer-go/services"
-	"github.com/softlayer/softlayer-go/session"
-	"github.com/softlayer/softlayer-go/sl"
+"encoding/json"
+"fmt"
+"github.com/softlayer/softlayer-go/services"
+"github.com/softlayer/softlayer-go/session"
+"github.com/softlayer/softlayer-go/sl"
 )
 
 func main() {
@@ -399,10 +399,10 @@ func main() {
 package main
 
 import (
-	"encoding/json"
-	"fmt"
-	"github.com/softlayer/softlayer-go/services"
-	"github.com/softlayer/softlayer-go/session"
+"encoding/json"
+"fmt"
+"github.com/softlayer/softlayer-go/services"
+"github.com/softlayer/softlayer-go/session"
 )
 
 func main() {
@@ -437,11 +437,11 @@ func main() {
 package main
 
 import (
-	"encoding/json"
-	"fmt"
-	"github.com/softlayer/softlayer-go/services"
-	"github.com/softlayer/softlayer-go/session"
-	"github.com/softlayer/softlayer-go/sl"
+"encoding/json"
+"fmt"
+"github.com/softlayer/softlayer-go/services"
+"github.com/softlayer/softlayer-go/session"
+"github.com/softlayer/softlayer-go/sl"
 )
 
 func main() {
@@ -479,12 +479,12 @@ func main() {
 package main
 
 import (
-	"encoding/json"
-	"fmt"
-	"github.com/softlayer/softlayer-go/datatypes"
-	"github.com/softlayer/softlayer-go/services"
-	"github.com/softlayer/softlayer-go/session"
-	"github.com/softlayer/softlayer-go/sl"
+"encoding/json"
+"fmt"
+"github.com/softlayer/softlayer-go/datatypes"
+"github.com/softlayer/softlayer-go/services"
+"github.com/softlayer/softlayer-go/session"
+"github.com/softlayer/softlayer-go/sl"
 )
 
 func main() {
@@ -532,11 +532,11 @@ func main() {
 package main
 
 import (
-	"encoding/json"
-	"fmt"
-	"github.com/softlayer/softlayer-go/services"
-	"github.com/softlayer/softlayer-go/session"
-	"github.com/softlayer/softlayer-go/sl"
+"encoding/json"
+"fmt"
+"github.com/softlayer/softlayer-go/services"
+"github.com/softlayer/softlayer-go/session"
+"github.com/softlayer/softlayer-go/sl"
 )
 
 func main() {
