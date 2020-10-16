@@ -29,7 +29,7 @@ SoftLayer_Metric_Tracking_Object_Data models an individual unit of data tracked 
 
 ### seeAlso
 
-* [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object )
+* [SoftLayer_Metric_Tracking_Object](/reference/datatypes/SoftLayer_Metric_Tracking_Object )
 
 
 

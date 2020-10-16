@@ -56,7 +56,7 @@ As ''SoftLayer_Dns_Domain_ResourceRecord'' objects are created and loaded, the A
 
 ### seeAlso
 
-* [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain )
+* [SoftLayer_Dns_Domain](/reference/datatypes/SoftLayer_Dns_Domain )
 
 
 * [SoftLayer_Dns_Domain_Reverse](/reference/datatypes/SoftLayer_Dns_Domain_Reverse )
@@ -71,7 +71,7 @@ As ''SoftLayer_Dns_Domain_ResourceRecord'' objects are created and loaded, the A
 * [SoftLayer_Dns_Domain_ResourceRecord_CnameType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_CnameType )
 
 
-* [SoftLayer_Dns_Domain_ResourceRecord_MxType](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType )
+* [SoftLayer_Dns_Domain_ResourceRecord_MxType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_MxType )
 
 
 * [SoftLayer_Dns_Domain_ResourceRecord_NsType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_NsType )
@@ -86,7 +86,7 @@ As ''SoftLayer_Dns_Domain_ResourceRecord'' objects are created and loaded, the A
 * [SoftLayer_Dns_Domain_ResourceRecord_SpfType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SpfType )
 
 
-* [SoftLayer_Dns_Domain_ResourceRecord_SrvType](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType )
+* [SoftLayer_Dns_Domain_ResourceRecord_SrvType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SrvType )
 
 
 * [SoftLayer_Dns_Domain_ResourceRecord_TxtType](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_TxtType )

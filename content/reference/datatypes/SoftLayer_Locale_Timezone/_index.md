@@ -29,7 +29,7 @@ Each User is assigned a timezone allowing for a precise local timestamp.
 
 ### seeAlso
 
-* [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer )
+* [SoftLayer_User_Customer](/reference/datatypes/SoftLayer_User_Customer )
 
 
 

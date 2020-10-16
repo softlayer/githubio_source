@@ -29,10 +29,10 @@ Account authentication has many different settings that can be set. This class a
 
 ### seeAlso
 
-* [SoftLayer_Account_Authentication_Saml](/reference/services/SoftLayer_Account_Authentication_Saml )
+* [SoftLayer_Account_Authentication_Saml](/reference/datatypes/SoftLayer_Account_Authentication_Saml )
 
 
-* [SoftLayer_Account_Authentication_Attribute_Type](/reference/services/SoftLayer_Account_Authentication_Attribute_Type )
+* [SoftLayer_Account_Authentication_Attribute_Type](/reference/datatypes/SoftLayer_Account_Authentication_Attribute_Type )
 
 
 
