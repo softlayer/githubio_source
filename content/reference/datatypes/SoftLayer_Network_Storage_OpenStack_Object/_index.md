@@ -24,7 +24,7 @@ The SoftLayer_Network_Storage_OpenStack_Object data type models OpenStack specif
 
 ### seeAlso
 
-* [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage )
+* [SoftLayer_Network_Storage](/reference/datatypes/SoftLayer_Network_Storage )
 
 
 

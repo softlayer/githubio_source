@@ -30,10 +30,10 @@ The SoftLayer_Network_Component_Firewall service accesses general information re
 
 ### seeAlso
 
-* [SoftLayer_Network_Firewall_Template](/reference/services/SoftLayer_Network_Firewall_Template )
+* [SoftLayer_Network_Firewall_Template](/reference/datatypes/SoftLayer_Network_Firewall_Template )
 
 
-* [SoftLayer_Network_Firewall_Update_Request](/reference/services/SoftLayer_Network_Firewall_Update_Request )
+* [SoftLayer_Network_Firewall_Update_Request](/reference/datatypes/SoftLayer_Network_Firewall_Update_Request )
 
 
         

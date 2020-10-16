@@ -26,10 +26,10 @@ Use to manually decide which subnets within your virtual private address space a
 
 ### seeAlso
 
-* [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet )
+* [SoftLayer_Network_Subnet](/reference/datatypes/SoftLayer_Network_Subnet )
 
 
-* [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer )
+* [SoftLayer_User_Customer](/reference/datatypes/SoftLayer_User_Customer )
 
 
         

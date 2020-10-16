@@ -24,7 +24,7 @@ Package preset attributes contain supplementary information for a package preset
 
 ### seeAlso
 
-* [SoftLayer_Product_Package_Preset](/reference/services/SoftLayer_Product_Package_Preset )
+* [SoftLayer_Product_Package_Preset](/reference/datatypes/SoftLayer_Product_Package_Preset )
 
 
 * [SoftLayer_Product_Package_Preset_Attribute_Type](/reference/datatypes/SoftLayer_Product_Package_Preset_Attribute_Type )

@@ -66,6 +66,16 @@ A disk image's unique md5 checksum.
 <div class="prop-row">
 
 -----
+[checksumAlgorithm]: #checksumalgorithm
+#### [checksumAlgorithm]
+A column to save the Algorithm being used to store the checksum.   
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [createDate]: #createdate
 #### [createDate]
 The date a disk image was created.   

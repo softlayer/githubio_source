@@ -24,10 +24,10 @@ The SoftLayer_Billing_Item_Network_Application_Delivery_Controller data type des
 
 ### seeAlso
 
-* [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item )
+* [SoftLayer_Billing_Item](/reference/datatypes/SoftLayer_Billing_Item )
 
 
-* [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage )
+* [SoftLayer_Network_Storage](/reference/datatypes/SoftLayer_Network_Storage )
 
 
 
