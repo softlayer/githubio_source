@@ -34,7 +34,7 @@ SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status models the stat
 
 ### seeAlso
 
-* [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration )
+* [SoftLayer_Dns_Domain_Registration](/reference/datatypes/SoftLayer_Dns_Domain_Registration )
 
 
 

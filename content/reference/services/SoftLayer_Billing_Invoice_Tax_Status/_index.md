@@ -24,10 +24,10 @@ Invoice tax status allows the SoftLayer system to track the status of an invoice
 
 ### seeAlso
 
-* [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice )
+* [SoftLayer_Billing_Invoice](/reference/datatypes/SoftLayer_Billing_Invoice )
 
 
-* [SoftLayer_Billing_Invoice_Tax_Type](/reference/services/SoftLayer_Billing_Invoice_Tax_Type )
+* [SoftLayer_Billing_Invoice_Tax_Type](/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Type )
 
 
         

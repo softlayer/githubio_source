@@ -29,7 +29,7 @@ Each billing invoice item makes up a record within an invoice. This provides you
 
 ### seeAlso
 
-* [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice )
+* [SoftLayer_Billing_Invoice](/reference/datatypes/SoftLayer_Billing_Invoice )
 
 
 

@@ -27,7 +27,7 @@ The SoftLayer_Product_Item_Price data type contains general information relating
 * [SoftLayer_Product_Item (type)](/reference/datatypes/SoftLayer_Product_Item (type) )
 
 
-* [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category )
+* [SoftLayer_Product_Item_Category](/reference/datatypes/SoftLayer_Product_Item_Category )
 
 
 

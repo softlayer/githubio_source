@@ -52,16 +52,6 @@ The hardware for uptime details.
 <div class="prop-row">
 
 -----
-[configurationValue]: #configurationvalue
-#### [configurationValue]
-The configuration value for the detail's resource.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Monitoring_Agent_Configuration_Value'>SoftLayer_Monitoring_Agent_Configuration_Value </a>**
-
-
-</div>
-<div class="prop-row">
-
------
 [data]: #data
 #### [data]
 The data associated with a host uptime details.  

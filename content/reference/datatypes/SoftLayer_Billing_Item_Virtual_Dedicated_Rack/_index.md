@@ -24,7 +24,7 @@ A SoftLayer_Billing_Item_Virtual_Dedicated_Rack data type models the billing inf
 
 ### seeAlso
 
-* [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item )
+* [SoftLayer_Billing_Item](/reference/datatypes/SoftLayer_Billing_Item )
 
 
 

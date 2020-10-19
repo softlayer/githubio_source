@@ -27,10 +27,10 @@ The SoftLayer_Product_Item_Bundles contains item to price cross references Relat
 * [SoftLayer_Product_Item](/reference/datatypes/SoftLayer_Product_Item )
 
 
-* [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price )
+* [SoftLayer_Product_Item_Price](/reference/datatypes/SoftLayer_Product_Item_Price )
 
 
-* [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category )
+* [SoftLayer_Product_Item_Category](/reference/datatypes/SoftLayer_Product_Item_Category )
 
 
 

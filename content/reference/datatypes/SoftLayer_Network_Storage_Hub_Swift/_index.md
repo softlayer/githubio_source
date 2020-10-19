@@ -24,7 +24,7 @@ classes:
 
 ### seeAlso
 
-* [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage )
+* [SoftLayer_Network_Storage](/reference/datatypes/SoftLayer_Network_Storage )
 
 
 

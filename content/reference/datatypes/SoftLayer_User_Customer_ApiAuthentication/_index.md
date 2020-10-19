@@ -30,7 +30,7 @@ The SoftLayer_User_Customer_ApiAuthentication type contains user's authenticatio
 
 ### seeAlso
 
-* [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer )
+* [SoftLayer_User_Customer](/reference/datatypes/SoftLayer_User_Customer )
 
 
 
