@@ -7,6 +7,7 @@ classes:
     - "SoftLayer_Metric_Tracking_Object"    
 tags:
     - "metric_tracking"
+    - "bandwidth"
 ---
 
 [Metric_Tracking_Object](https://sldn.softlayer.com/reference/services/SoftLayer_Metric_Tracking_Object/)
