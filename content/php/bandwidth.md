@@ -1,14 +1,16 @@
 ---
-title: "GetBandwidthUsage.php"
-description: "GetBandwidthUsage.php"
+title: "Bandwidth"
+description: "Getting bandwidth data from a server."
 date: "2017-11-23"
 classes: 
     - "SoftLayer_Virtual_Guest"
     - "SoftLayer_SoapClient"
 tags:
-    - "virtualguest"
+    - "bandwidth"
 ---
 
+
+## Usage
 
 ```
 <?php
