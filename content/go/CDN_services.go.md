@@ -21,14 +21,15 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/softlayer/softlayer-go/datatypes"
+	"github.com/softlayer/softlayer-go/filter"
 	"github.com/softlayer/softlayer-go/services"
 	"github.com/softlayer/softlayer-go/session"
 	"github.com/softlayer/softlayer-go/sl"
 )
 
 func main() {
-	username := "sl307608-dcabero"
-	apikey := "8f639dfb380af0667ee4949cdf2dbc9eb8e20b2d777e92aba7312f24a9524988"
+	username := "set- me"
+	apikey := "set - me"
 
 	// Create SoftLayer API session
 	sess := session.New(username, apikey)
@@ -60,7 +61,10 @@ func main() {
 
 	serviceCdn := services.GetNetworkCdnMarketplaceConfigurationMappingService(sess)
 	servicePathCdn := services.GetNetworkCdnMarketplaceConfigurationMappingPathService(sess)
+	serviceProductOrder := services.GetProductOrderService(sess)
+	productPackageService := services.GetProductPackageService(sess)
 
+	fmt.Println(createCdnAccount(serviceProductOrder,productPackageService))
 	fmt.Println(createDomainMapping(serviceCdn ,&templateCdn))
 	fmt.Println(createDomainMappingPath(servicePathCdn,templateCdnPath))
 }
@@ -197,5 +201,44 @@ func verifyDomainMapping(service services.Network_CdnMarketplace_Configuration_M
 		fmt.Printf("\n Unable the Domain mapping:\n - %s\n", err)
 	}
 	return string(jsonFormat1)
+}
+func createCdnAccount(service services.Product_Order, productPackageService services.Product_Package) string{
+
+	filter := filter.Build(filter.Path("keyName").Eq("CONTENT_DELIVERY_NETWORK_SERVICE"))
+	cdnPackageKeyName, err := productPackageService.Filter(filter).GetAllObjects()
+	if err != nil {
+		fmt.Printf("\n Unable to retrieve the cdn key name:\n - %s\n", err)
+	}
+	cdnPackageId := sl.Int(*cdnPackageKeyName[0].Id)
+
+	cdnItemPrices, err := productPackageService.Id(*cdnPackageId).GetItemPrices()
+	if err != nil {
+		fmt.Printf("\n Unable to get the cdn prices:\n - %s\n", err)
+	}
+	itemPriceId := sl.Int(*cdnItemPrices[0].Id)
+
+	prices := []datatypes.Product_Item_Price{
+		{Id: sl.Int(*itemPriceId)},
+	}
+	templateObject := datatypes.Container_Product_Order{
+
+		PackageId: sl.Int(*cdnPackageId),
+		Prices:    prices,
+
+	}
+	jsonFormat, jsonErr := json.MarshalIndent(templateObject, "", "     ")
+	if jsonErr != nil {
+		fmt.Println(jsonErr)
+	}
+	fmt.Println(string(jsonFormat))
+	receipt, err := service.PlaceOrder(&templateObject,sl.Bool(false))
+	if err != nil {
+		fmt.Printf("\n Unable to place order:\n - %s\n", err)
+	}
+	jsonFormat1, jsonErr1 := json.MarshalIndent(receipt, "", "     ")
+	if jsonErr1 != nil {
+		fmt.Println(jsonErr1)
+	}
+	return(string(jsonFormat1))
 }
 ```
