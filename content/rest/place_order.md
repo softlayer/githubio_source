@@ -9,6 +9,7 @@ tags:
   - "ordering"
   - "placeOrder"
   - "objectMask"
+  - "deprecated"
 ---
 
 Operation: `POST`
