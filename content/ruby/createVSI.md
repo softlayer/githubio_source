@@ -42,7 +42,6 @@ productOrder = {
      {'id' => 420 }, # Unlimited SSL VPN Users & 1 PPTP VPN User per account
      {'id' => 56 }, # Host Ping and TCP Service Monitoring
      {'id' => 57 }, # Email and Ticket
-     {'id' => 418 }, # NESSUS_VULNERABILITY_ASSESSMENT_REPORTING
      {'id' => 905 }, # REBOOT_REMOTE_CONSOLE
      {'id' => 58 }  # AUTOMATED_NOTIFICATION
   ]

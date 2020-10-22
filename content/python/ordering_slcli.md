@@ -125,7 +125,6 @@ slcli order place --verify --billing monthly DUAL_E52600_V4_4_DRIVES DALLAS13 \
     AUTOMATED_NOTIFICATION \
     INTEL_INTEL_XEON_E52690_V4_2_60 \
     UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT \
-    NESSUS_VULNERABILITY_ASSESSMENT_REPORTING \
     --extras '{"hardware": [{"hostname" : "testOrder1", "domain": "cgallo.com"}], "sshKeys" : [87634], "tags": "cgallo, test"}'  \
     --complex-type SoftLayer_Container_Product_Order_Hardware_Server
 ```

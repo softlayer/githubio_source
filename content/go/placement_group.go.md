@@ -239,7 +239,6 @@ func main() {
     		"NOTIFICATION_EMAIL_AND_TICKET",
     		"AUTOMATED_REBOOT_FROM_MONITORING",
     		"UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT",
-    		"NESSUS_VULNERABILITY_ASSESSMENT_REPORTING",
     	}
     	// Build a skeleton SoftLayer_Product_Item_Price objects.
     	prices := getItemPriceList(sess, packageId, orderItems)

@@ -140,7 +140,6 @@ productOrder = {
             {'id': items['notification']['items']['NOTIFICATION_EMAIL_AND_TICKET']['id']},
             {'id': items['response']['items']['AUTOMATED_NOTIFICATION']['id']},
             {'id': items['vpn_management']['items']['UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT']['id']},
-            {'id': items['vulnerability_scanner']['items']['NESSUS_VULNERABILITY_ASSESSMENT_REPORTING']['id']},
         ],
     }]
 }

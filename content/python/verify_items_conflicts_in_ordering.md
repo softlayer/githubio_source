@@ -83,7 +83,6 @@ class ItemsConflicts:
             "AUTOMATED_NOTIFICATION",
             "INTEL_INTEL_XEON_E52690_V4_2_60",
             "UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT",
-            "NESSUS_VULNERABILITY_ASSESSMENT_REPORTING",
 
             # e.g. antivirus Windows has a conflict with OS linux.
             'MCAFEE_VIRUSSCAN_ANTIVIRUS_WINDOWS',

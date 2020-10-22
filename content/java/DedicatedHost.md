@@ -98,7 +98,6 @@ public class DedicatedHostExample {
         "NOTIFICATION_EMAIL_AND_TICKET",
         "AUTOMATED_REBOOT_FROM_MONITORING",
         "UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT",
-        "NESSUS_VULNERABILITY_ASSESSMENT_REPORTING",
     };
     Order order = buildGuestTemplate(orderItems, hostId);
     placeOrder(order, true);
