@@ -24,7 +24,7 @@ Invoice tax types allows the SoftLayer system to categorize the different strate
 
 ### seeAlso
 
-* [SoftLayer_Billing_Invoice](/reference/datatypes/SoftLayer_Billing_Invoice )
+* [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice )
 
 
 * [SoftLayer_Billing_Invoice_Tax_Status](/reference/services/SoftLayer_Billing_Invoice_Tax_Status )

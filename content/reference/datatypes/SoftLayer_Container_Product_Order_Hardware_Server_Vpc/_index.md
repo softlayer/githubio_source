@@ -322,6 +322,16 @@ A generic message about the order. Does not need to be sent in with any orders.
 <div class="prop-row">
 
 -----
+[monitoringAgentConfigurationTemplateGroupId]: #monitoringagentconfigurationtemplategroupid
+#### [monitoringAgentConfigurationTemplateGroupId]
+Id used with the monitoring package. (Deprecated)  
+<span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [orderContainers]: #ordercontainers
 #### [orderContainers]
 Orders may contain an array of configurations. Populating this property allows you to purchase multiple configurations within a single order. Each order container will have its own individual settings independent of the other order containers. For example, it is possible to order a bare metal server in one configuration and a virtual server in another. 

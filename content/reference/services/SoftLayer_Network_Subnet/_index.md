@@ -37,7 +37,7 @@ SoftLayer customers can order and manage subnets through the customer portal. If
 
 ### seeAlso
 
-* [SoftLayer_Network_Vlan](/reference/datatypes/SoftLayer_Network_Vlan )
+* [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan )
 
 
 * [SoftLayer_Network_IpAddress](/reference/datatypes/SoftLayer_Network_IpAddress )
@@ -69,6 +69,12 @@ Allow access to a SoftLayer_Network_Storage volume from this device.
 
 #### [allowAccessToNetworkStorageList](/reference/services/SoftLayer_Network_Subnet/allowAccessToNetworkStorageList)
 Allow access to multiple SoftLayer_Network_Storage volumes from this device. 
+</div>
+
+<div class="method-row">
+
+#### [clearRoute](/reference/services/SoftLayer_Network_Subnet/clearRoute)
+
 </div>
 
 <div class="method-row">
@@ -369,6 +375,12 @@ Retrieve the Virtual Servers using IP addresses on this subnet.
 
 #### [removeAccessToNetworkStorageList](/reference/services/SoftLayer_Network_Subnet/removeAccessToNetworkStorageList)
 Remove access to multiple SoftLayer_Network_Storage volumes from this device. 
+</div>
+
+<div class="method-row">
+
+#### [route](/reference/services/SoftLayer_Network_Subnet/route)
+
 </div>
 
 <div class="method-row">

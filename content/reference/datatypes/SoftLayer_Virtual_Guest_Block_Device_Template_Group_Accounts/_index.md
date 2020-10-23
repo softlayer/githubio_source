@@ -33,7 +33,7 @@ It is important to note that this data type should only exist to give accounts a
 
 ### seeAlso
 
-* [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group )
+* [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group )
 
 
 

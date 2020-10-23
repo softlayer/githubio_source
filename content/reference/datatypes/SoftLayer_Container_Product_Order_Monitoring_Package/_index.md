@@ -1,5 +1,5 @@
 ---
-title: "SoftLayer_Container_Product_Order_Hardware_Server_Upgrade"
+title: "SoftLayer_Container_Product_Order_Monitoring_Package"
 description: "This is the datatype that needs to be populated and sent to SoftLayer_Product_Order::placeOrder. This datatype has every... "
 layout: "datatype"
 tags:
@@ -7,18 +7,18 @@ tags:
     - "sldn"
     - "Container"
 classes:
-    - "SoftLayer_Container_Product_Order_Hardware_Server_Upgrade"
+    - "SoftLayer_Container_Product_Order_Monitoring_Package"
 ---
 
-# SoftLayer_Container_Product_Order_Hardware_Server_Upgrade
+# SoftLayer_Container_Product_Order_Monitoring_Package
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Container_Product_Order_Hardware_Server_Upgrade' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Container_Product_Order_Monitoring_Package' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
-This is the datatype that needs to be populated and sent to SoftLayer_Product_Order::placeOrder. This datatype has everything required to place a hardware upgrade. 
+This is the datatype that needs to be populated and sent to SoftLayer_Product_Order::placeOrder. This datatype has everything required to place a Monitoring Package order with SoftLayer. This class is no longer available. 
 
 
 ### associatedMethods
@@ -78,50 +78,10 @@ This is the ID of the [SoftLayer_Billing_Order_Item]({{<ref "reference/datatypes
 <div class="prop-row">
 
 -----
-[bootCategoryCode]: #bootcategorycode
-#### [bootCategoryCode]
-Used to identify which category should be used for the boot disk.  
-<span class="type-label">Type: </span>**string**
-
-
-</div>
-<div class="prop-row">
-
------
 [cancelUrl]: #cancelurl
 #### [cancelUrl]
 The URL to which PayPal redirects browser after checkout has been canceled before completion of a payment.  
 <span class="type-label">Type: </span>**string**
-
-
-</div>
-<div class="prop-row">
-
------
-[clusterIdentifier]: #clusteridentifier
-#### [clusterIdentifier]
-Used to identify which items on an order belong in the same cluster.  
-<span class="type-label">Type: </span>**string**
-
-
-</div>
-<div class="prop-row">
-
------
-[clusterOrderType]: #clusterordertype
-#### [clusterOrderType]
-Indicates what type of cluster order is being placed (HA, Provision).  
-<span class="type-label">Type: </span>**string**
-
-
-</div>
-<div class="prop-row">
-
------
-[clusterResourceId]: #clusterresourceid
-#### [clusterResourceId]
-Used to identify which gateway is being upgraded to HA.  
-<span class="type-label">Type: </span>**integer**
 
 
 </div>
@@ -172,16 +132,6 @@ Device Fingerprint Identifier - Optional.
 #### [displayLayerSessionId]
 This is the configuration identifier for tracking orders on the HTML order forms.   
 <span class="type-label">Type: </span>**string**
-
-
-</div>
-<div class="prop-row">
-
------
-[driveDestructionDisks]: #drivedestructiondisks
-#### [driveDestructionDisks]
-Array of disk drive slot categories to destroy on reclaim. For example: ['disk0', 'disk1', 'disk2']. One drive_destruction price must be included for each slot provided. Note that once the initial order or upgrade order are approved, the destruction property <strong>is not removable</strong> and the drives will be destroyed at the end of the server's lifecycle. Not all drive slots are required, but all can be provided.   
-<span class="type-label">Type: </span>**array of strings**
 
 
 </div>
@@ -292,16 +242,6 @@ This [SoftLayer_Location]({{<ref "reference/datatypes/SoftLayer_Location">}}) ob
 #### [message]
 A generic message about the order. Does not need to be sent in with any orders.   
 <span class="type-label">Type: </span>**string**
-
-
-</div>
-<div class="prop-row">
-
------
-[monitoringAgentConfigurationTemplateGroupId]: #monitoringagentconfigurationtemplategroupid
-#### [monitoringAgentConfigurationTemplateGroupId]
-Id used with the monitoring package. (Deprecated)  
-<span class="type-label">Type: </span>**integer**
 
 
 </div>
@@ -510,16 +450,6 @@ Type of Virtual Server (Private Node) order. Potential values: INITIAL, ADDHOST,
 <div class="prop-row">
 
 -----
-[privateCloudServerRole]: #privatecloudserverrole
-#### [privateCloudServerRole]
-When ordering Virtual Server (Private Node), this variable specifies the role of the server configuration. (Deprecated)  
-<span class="type-label">Type: </span>**string**
-
-
-</div>
-<div class="prop-row">
-
------
 [promotionCode]: #promotioncode
 #### [promotionCode]
 Optional promotion code for an order.  
@@ -604,16 +534,6 @@ If a regional group is provided and VLANs are specified (within the <code>hardwa
 <div class="prop-row">
 
 -----
-[requiredUpstreamDeviceId]: #requiredupstreamdeviceid
-#### [requiredUpstreamDeviceId]
-Used to identify which device the new server should be attached to.  
-<span class="type-label">Type: </span>**integer**
-
-
-</div>
-<div class="prop-row">
-
------
 [resourceGroupId]: #resourcegroupid
 #### [resourceGroupId]
 An optional resource group identifier specifying the resource group to attach the order to  
@@ -674,6 +594,16 @@ The number of cores for the server being ordered. This value is set internally.
 <div class="prop-row">
 
 -----
+[serverType]: #servertype
+#### [serverType]
+  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [serviceToken]: #servicetoken
 #### [serviceToken]
 The token of a requesting service. Do not set.  
@@ -724,16 +654,6 @@ The first storage group in this array will be considered the primary storage gro
 
   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order_Storage_Group'>SoftLayer_Container_Product_Order_Storage_Group[] </a>**
-
-
-</div>
-<div class="prop-row">
-
------
-[tags]: #tags
-#### [tags]
-tags (used in MongoDB deployments). (Deprecated)  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order_Property'>SoftLayer_Container_Product_Order_Property[] </a>**
 
 
 </div>

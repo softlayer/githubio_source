@@ -26,7 +26,7 @@ SOA records typically contain a domain's serial number, but the SoftLayer API as
 
 ### seeAlso
 
-* [SoftLayer_Dns_Domain](/reference/datatypes/SoftLayer_Dns_Domain )
+* [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain )
 
 
 * [SoftLayer_Dns_Domain_ResourceRecord](/reference/services/SoftLayer_Dns_Domain_ResourceRecord )

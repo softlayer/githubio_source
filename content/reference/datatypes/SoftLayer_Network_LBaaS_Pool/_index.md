@@ -24,7 +24,7 @@ The SoftLayer_Network_LBaaS_Pool type presents a structure containing attributes
 
 ### seeAlso
 
-* [SoftLayer_Network_LBaaS_Listener](/reference/datatypes/SoftLayer_Network_LBaaS_Listener )
+* [SoftLayer_Network_LBaaS_Listener](/reference/services/SoftLayer_Network_LBaaS_Listener )
 
 
 
