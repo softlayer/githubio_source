@@ -37,7 +37,7 @@ NS resource records pointing to ns1.softlayer.com or ns2.softlayer.com many not 
 
 ### seeAlso
 
-* [SoftLayer_Dns_Domain](/reference/datatypes/SoftLayer_Dns_Domain )
+* [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain )
 
 
 * [SoftLayer_Dns_Domain_ResourceRecord](/reference/services/SoftLayer_Dns_Domain_ResourceRecord )

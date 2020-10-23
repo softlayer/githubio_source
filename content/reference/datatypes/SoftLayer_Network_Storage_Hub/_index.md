@@ -24,13 +24,13 @@ The SoftLayer_Network_Storage_Hub data type models Virtual Server type Storage s
 
 ### seeAlso
 
-* [SoftLayer_Network_Storage](/reference/datatypes/SoftLayer_Network_Storage )
+* [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage )
 
 
 * [SoftLayer_Network_Storage_Nas](/reference/datatypes/SoftLayer_Network_Storage_Nas )
 
 
-* [SoftLayer_Network_Storage_Iscsi](/reference/datatypes/SoftLayer_Network_Storage_Iscsi )
+* [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi )
 
 
 * [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault )

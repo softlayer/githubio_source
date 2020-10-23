@@ -35,7 +35,7 @@ Locations in use should stay in the ACTIVE state. If a locations status ever rea
 
 ### seeAlso
 
-* [SoftLayer_Location](/reference/datatypes/SoftLayer_Location )
+* [SoftLayer_Location](/reference/services/SoftLayer_Location )
 
 
 

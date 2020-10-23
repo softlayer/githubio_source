@@ -27,7 +27,8 @@ For these examples we will be talking about Hardware_Server objects, but the sae
 - [bandwidthAllotmentDetail](/reference/datatypes/SoftLayer_Hardware_Server/#bandwidthallotmentdetail) The raw details behind a server's bandwidth allotment, useful for servers in a bandwidth pool.
 - [billingCycleBandwidthUsage](/reference/datatypes/SoftLayer_Hardware_Server/#billingcyclebandwidthusage) A quick summary of each interface and how much traffic each has processed this billing cycle. Will include the Metric_Tracking_Object as well.
 - [currentBandwidthSummary](/reference/datatypes/SoftLayer_Hardware_Server/#currentbandwidthsummary) Will include the following information:
-```
+
+```json
 {
     "allocationAmount": 500,
     "amountOut": "0",
@@ -47,7 +48,7 @@ For these examples we will be talking about Hardware_Server objects, but the sae
 
 In this example we force the objectMask to be a SoftLayer_Hardware_Server type because the default type of SoftLayer_Hardware doesn't have the `currentBandwidthSummary` property. This isn't required for `getVirtualGuests`.
 
-```sh
+```bash
 $ slcli -vvv --format=table call-api SoftLayer_Account getHardware --mask="mask(SoftLayer_Hardware_Server)[id,hostname,currentBandwidthSummary[allocationAmount,amountOut,averageDailyUsage]]"
 :..................................:................:.........:
 :     currentBandwidthSummary      :    hostname    :    id   :
@@ -119,7 +120,7 @@ The `keyName` and `summaryType` fields are important here and will be used in so
 
 ### Example
 
-```
+```bash
 $ slcli --format=json -vvv call-api SoftLayer_Metric_Tracking_Object getBandwidthData --id=35258287 2020-09-01 2020-09-30 public  86400
 Calling: SoftLayer_Metric_Tracking_Object::getBandwidthData(id=35258287, mask='', filter='{}', args=('2020-09-01', '2020-09-30', 'public', '86400'), limit=None, offset=None))
 [
@@ -142,7 +143,7 @@ curl -u $SL_USER:$SL_APIKEY -X POST -H "Accept: */*" -H "Accept-Encoding: gzip, 
 You may notice I asked for `2020-09-01` as my start time, but I got back `2020-09-31T23:00:00-06:00`, this is due to fun with timezones. Currently I'm in the -05:00 timezone, so the backend converts my request to `2020-09-01T00:00:00-05:00` (`1598936400`), which is `2020-08-31T23:00:00-06:00`. Luckily, this API also accepts epoch time, so you can just use that value to be a bit more precise, just understand that when your bandwidth usage is calculated, it will be in the -06:00 timezone centric.
 
 
-```
+```bash
 $  date +%s --date='2020-09-01T00:00:00-06:00'
 1598940000
 $  date +%s --date='2020-09-30T23:59:59-06:00'

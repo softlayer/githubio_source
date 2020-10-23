@@ -27,7 +27,7 @@ A SoftLayer_Ticket_Update_Agent type models an update to a ticket made by an age
 * [SoftLayer_Ticket_Update](/reference/datatypes/SoftLayer_Ticket_Update )
 
 
-* [SoftLayer_Ticket_Update_Employee](/reference/datatypes/SoftLayer_Ticket_Update_Employee )
+* [SoftLayer_Ticket_Update_Employee](/reference/services/SoftLayer_Ticket_Update_Employee )
 
 
 * [SoftLayer_Ticket_Update_Customer](/reference/datatypes/SoftLayer_Ticket_Update_Customer )

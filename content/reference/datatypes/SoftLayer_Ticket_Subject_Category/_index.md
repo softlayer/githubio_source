@@ -24,7 +24,7 @@ SoftLayer_Ticket_Subject_Category groups ticket subjects into logical group.
 
 ### seeAlso
 
-* [SoftLayer_Ticket_Subject](/reference/datatypes/SoftLayer_Ticket_Subject )
+* [SoftLayer_Ticket_Subject](/reference/services/SoftLayer_Ticket_Subject )
 
 
 

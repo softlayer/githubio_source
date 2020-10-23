@@ -37,7 +37,7 @@ The SoftLayer_Dns_Domain_Reverse_Version4 data type represents a reverse IPv4 ad
 
 ### seeAlso
 
-* [SoftLayer_Dns_Domain](/reference/datatypes/SoftLayer_Dns_Domain )
+* [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain )
 
 
 * [SoftLayer_Dns_Domain_ResourceRecord](/reference/services/SoftLayer_Dns_Domain_ResourceRecord )

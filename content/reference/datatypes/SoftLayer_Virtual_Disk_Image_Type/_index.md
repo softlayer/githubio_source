@@ -24,7 +24,7 @@ SoftLayer_Virtual_Disk_Image_Type models the types of virtual disk images availa
 
 ### seeAlso
 
-* [SoftLayer_Virtual_Disk_Image](/reference/datatypes/SoftLayer_Virtual_Disk_Image )
+* [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image )
 
 
 

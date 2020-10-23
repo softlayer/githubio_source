@@ -27,7 +27,7 @@ A SoftLayer_Ticket_Update_Customer is a single update made by a customer to a ti
 * [SoftLayer_Ticket_Update](/reference/datatypes/SoftLayer_Ticket_Update )
 
 
-* [SoftLayer_Ticket_Update_Employee](/reference/datatypes/SoftLayer_Ticket_Update_Employee )
+* [SoftLayer_Ticket_Update_Employee](/reference/services/SoftLayer_Ticket_Update_Employee )
 
 
 
