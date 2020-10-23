@@ -150,7 +150,7 @@ First, take note of the [`orderContainers`](/reference/datatypes/SoftLayer_Conta
                "complexType":"SoftLayer_Container_Product_Order_Virtual_Guest",
                "containerIdentifier": "VirtualGuest2",
                "prices":[]
-        },
+        }
     ]}
 ]}
 ```
@@ -176,7 +176,7 @@ curl -u $SL_USER:$SL_APIKEY  -X POST -d  @testOrder.json 'https://api.softlayer.
             "containerIdentifier": "Container1",
             "virtualGuests": [
                 {
-                    "hostname": "test", "domain": "ibm.com"
+                    "hostname": "test", "domain": "ibm.com",
                     "primaryNetworkComponent": {
                             "networkVlan": {
                                     "id": 123, 
@@ -190,7 +190,7 @@ curl -u $SL_USER:$SL_APIKEY  -X POST -d  @testOrder.json 'https://api.softlayer.
             "presetId": 405,
             "prices":[
                 {"id":45466},{"id":2202},{"id":1800},{"id":273},{"id":55},
-                {"id":58},{"id":420},{"id":418},{"id":21},{"id":57},{"id":905}
+                {"id":58},{"id":420},{"id":21},{"id":57},{"id":905}
             ],
             "sshKeys":[{"id":9999}],
             "quantity":1
@@ -215,8 +215,7 @@ curl -u $SL_USER:$SL_APIKEY  -X POST -d  @testOrder.json 'https://api.softlayer.
                 {"id":57, "item":{"keyName":"NOTIFICATION_EMAIL_AND_TICKET"}},
                 {"id":58, "item":{"keyName":"AUTOMATED_NOTIFICATION"}},
                 {"id":36490, "item":{"keyName":"DATABASE_MYSQL_5_7_WINDOWS"}},
-                {"id":420, "item":{"keyName":"UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT"}},
-                {"id":418, "item":{ "keyName":"NESSUS_VULNERABILITY_ASSESSMENT_REPORTING"}}
+                {"id":420, "item":{"keyName":"UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT"}}
             ]
         },
         {
@@ -229,7 +228,7 @@ curl -u $SL_USER:$SL_APIKEY  -X POST -d  @testOrder.json 'https://api.softlayer.
             "prices": [
                 {"id": 200313}, {"id": 200353}, {"id": 45466}, {"id": 200397},
                 {"id": 200425}, {"id": 1800}, {"id": 203857}, {"id": 55},
-                {"id": 58}, {"id": 420}, {"id": 418}, {"id": 21}, {"id": 57},
+                {"id": 58}, {"id": 420}, {"id": 21}, {"id": 57},
                 {"id": 905}
             ],
             "hostId": 542454
