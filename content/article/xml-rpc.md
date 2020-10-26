@@ -22,8 +22,55 @@ or
 
 In these examples, `"<serviceName>"` would be replaced with the name of the API service you wish to call. Use the second URL to access the XML-RPC API over SoftLayer's private network. It's a faster, more secure way to communicate with SoftLayer, but the system making API calls must be on SoftLayer's private network. All SoftLayer servers come with access to our private network, including CCIs.  Additional private IP addresses are available for purchase should they be needed.   
 
+## Your First API Call
+
+The [SoftLayer_Account/getObject|getObject()](/reference/services/SoftLayer_Account/getObject/) method in the [SoftLayer_Account](/reference/services/SoftLayer_Account/) service is a simple call that only requires an authentication header. It returns basic, top-level information about your SoftLayer account and is a great way to test your first API call. Here are a few ways to get it going:
+
+### Raw XML-RPC
+
+```xml
+<?xml version="1.0" encoding="iso-8859-1"?>
+<methodCall>
+    <methodName>getObject</methodName>
+    <params>
+        <param>
+            <value>
+                <struct>
+                    <member>
+                        <name>headers</name>
+                        <value>
+                            <struct>
+                                <member>
+                                    <name>authenticate</name>
+                                    <value>
+                                        <struct>
+                                            <member>
+                                                <name>username</name>
+                                                <value>
+                                                    <string>set me</string>
+                                                </value>
+                                            </member>
+                                            <member>
+                                                <name>apiKey</name>
+                                                <value>
+                                                    <string>set me too</string>
+                                                </value>
+                                            </member>
+                                        </struct>
+                                    </value>
+                                </member>
+                            </struct>
+                        </value>
+                    </member>
+                </struct>
+            </value>
+        </param>
+    </params>
+</methodCall>
+```
+
 ## Data Types
-The XML-RPC API's data types mimic the same data types found in the SOAP API. Complex types are modeled as XML-RPC <code>struct</code>s. Declare and receive these <code>struct</code>s when working with method parameters and return types. A [[SoftLayer_Hardware_Server]] is rendered as a collection of simple types:
+The XML-RPC API's data types mimic the same data types found in the SOAP API. Complex types are modeled as XML-RPC <code>struct</code>s. Declare and receive these <code>struct</code>s when working with method parameters and return types. A [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server/) is rendered as a collection of simple types:
 ```xml
 <xml>
 <struct>
@@ -120,7 +167,7 @@ The first parameter in every XML-RPC call is a <code><struct></code> named "head
 </xml>
 ```
 ## Using Object Masks
-Add an [[object mask]] to your API call by adding a <code><struct></code> to your headers parameter with the name "<serviceName>ObjectMask", where <code><serviceName></code> corresponds to the name of the API service you are calling. For instance, an object mask for the SoftLayer_Account API service has the name <code>SoftLayer_AccountObjectMask</code> and the SoftLayer_Hardware_Server service's corresponding object mask class name is <code>SoftLayer_Hardware_ServerObjectMask</code>.
+Add an [object mask](/article/object-masks/) to your API call by adding a <code><struct></code> to your headers parameter with the name "<serviceName>ObjectMask", where <code><serviceName></code> corresponds to the name of the API service you are calling. For instance, an object mask for the SoftLayer_Account API service has the name <code>SoftLayer_AccountObjectMask</code> and the SoftLayer_Hardware_Server service's corresponding object mask class name is <code>SoftLayer_Hardware_ServerObjectMask</code>.
 
 Declare a <code><struct></code> inside your object with the name "mask" containing the relational and count properties you wish to retrieve along with your API call result. Each item in your object mask is a <code><struct></code> with the name of the property you wish to retrieve and an empty array value.
 This example retrieves the following information:

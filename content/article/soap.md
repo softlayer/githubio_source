@@ -20,6 +20,26 @@ In these examples, `"<serviceName>"` would be replaced with the name of the API 
 
 Each WSDL defines that specific service's available methods and includes an XSD file that defines every complex type available to the SoftLayer API. Once a WSDL is imported by your consuming service,  every data type and API service method should be available in your project.
 
+
+## Your First API Call
+
+The [SoftLayer_Account/getObject|getObject()](/reference/services/SoftLayer_Account/getObject/) method in the [SoftLayer_Account](/reference/services/SoftLayer_Account/) service is a simple call that only requires an authentication header. It returns basic, top-level information about your SoftLayer account and is a great way to test your first API call. Here are a few ways to get it going:
+
+### Raw SOAP
+```xml
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://api.softlayer.com/soap/v3/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+    <SOAP-ENV:Header>
+        <ns1:authenticate>
+            <username>set me</username>
+            <apiKey>set me too</apiKey>
+        </ns1:authenticate>
+    </SOAP-ENV:Header>
+    <SOAP-ENV:Body>
+        <ns1:getObject/>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+```
+
 ## Sending API Call Headers
 Important API headers, such as authentication, initialization parameters, and object masks are sent to the SoftLayer API as SOAP headers. Each call header has an associated complex type. This sample header contains authentication information and an initialization parameter for the [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server) API service.
 
