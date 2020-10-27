@@ -1,16 +1,20 @@
 ---
 title: "Getting Started"
 description: "Basics for the SoftLayer API"
-date: "2011-06-20"
+date: "2020-10-26"
 tags:
     - "article"
     - "sldn"
 ---
 
+# Introduction to the SoftLayer API
+Welcome to SLDN, the home of the documentation for the SoftLayer, or IBM Classic Infrastructure, API. Here you can find a collection of [Articles](/article/) that cover some of the core concepts in details, [Reference Documentation](/reference/softlayerapi/) which is the automatically generated API specifications and documentation, and also a collection of examples in a variety of programming languages like [Golang](/go/), [Python](/python/), and [Java](/java/)
 
 ## Before You Start
 ### Choosing a Protocol
-SoftLayer's API can be accessed by [SOAP](/article/soap/), [XML-RPC](/article/xml-rpc), or [REST](/article/rest/) means. Choose the best protocol for your preferred language and situation. We generally recommend using our SOAP interface, as it's the most comprehensive and most easily models the API's services and data types.
+SoftLayer's API can be accessed by [SOAP](/article/soap/), [XML-RPC](/article/xml-rpc), or [REST](/article/rest/). Choose the best protocol for your preferred language and situation. The SOAP endpoint will be the most precise, but anything you can do in the SOAP endpoint can be done in REST or XML-RPC.
+
+If you just want to make a few simple API calls, REST is likely the easiest to pick up and start working with.
 
 |Protocol |Advantages |Disadvantages | Recommended For | Recommended Languages|
 | ---       |   ---        |       ---       |  ----     |----     |
@@ -26,135 +30,96 @@ SoftLayer has API endpoints listening on the private network. Private network ca
 
 To use the private network in your API call replace `https://api.softlayer.com` with `https://api.service.softlayer.com`. 
 
-## Your First API Call
+-----------------------------------
 
-The [SoftLayer_Account/getObject|getObject()](/reference/services/SoftLayer_Account/getObject/) method in the [SoftLayer_Account](/reference/services/SoftLayer_Account/) service is a simple call that only requires an authentication header. It returns basic, top-level information about your SoftLayer account and is a great way to test your first API call. Here are a few ways to get it going:
+## Core Concepts
+This article will focus mainly on the specifics of the REST interface, as it is the simplest to learn. Everything covered here will apply to the SOAP and XMLRPC interfaces as well, the only difference will be in how you format the request.
+    - Learn more about [SOAP Api Calls](/article/soap/)
+    - Learn more about [XML-RPC API Calls](/article/xml-rpc/)
 
-### Raw SOAP
-```xml
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://api.softlayer.com/soap/v3/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
-    <SOAP-ENV:Header>
-        <ns1:authenticate>
-            <username>set me</username>
-            <apiKey>set me too</apiKey>
-        </ns1:authenticate>
-    </SOAP-ENV:Header>
-    <SOAP-ENV:Body>
-        <ns1:getObject/>
-    </SOAP-ENV:Body>
-</SOAP-ENV:Envelope>
+### URL Format
+
+<pre>
+'https://api.softlayer.com/rest/v3.1/<font color="red">[SERVICE]</font>/<font color="Coral">[INIT PARAMETER]</font>/<font color="blue">[METHOD]</font><font color="green">.json</font>?<font color="teal">[objectMask]</font>&<font color="BlueViolet">[objectFilter]</font>&<font color="DarkOrange">[RESULT LIMIT]</font>'
+</pre>
+
+#### <font color="red">[SERVICE](#service-format)</font> {#service-format .anchor-link}
+Indicates which specific service out of the [Services List](https://sldn.softlayer.com/reference/) you want to interact with. [SoftLayer_Account](/reference/services/SoftLayer_Account/) or [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest/) are examples of services.
+
+A service is a way to group actions (aka methods) that all perform actions related to each other in some way. The SoftLayer_Account service will deal with account actions, SoftLayer_Hardware_Server service will deal with bare metal servers and so forth.
+
+#### <font color="Coral">[INIT PARAMETER](#init-parameter)</font> {#init-parameter .anchor-link}
+If in the documentation for a API call, you see something like `SoftLayer_DatatypeInitParameters` in the `Required Headers` portion, that indicates you need to send in the appropriate `id` for the request. [SoftLayer_Virtual_Guest::getObject()](/reference/services/SoftLayer_Virtual_Guest/getObject/) for examples requires a `SoftLayer_Virtual_GuestInitParameters`, which means you need to send in the `id` of the virtual guest you want to access.
+
+To get a list of virtual guest ids for example, you could use [SoftLayer_Account::getVirtualGuests()](/reference/services/SoftLayer_Account/getVirtualGuests/). The SoftLayer_Account service is a bit special in that it generally doesn't require any `SoftLayer_AccountInitParameters`. This is because it assumes you are using the SoftLayer_Account id associated with the account making API calls.
+
+#### <font color="blue">[METHOD](#the-method)</font> {#the-method .anchor-link}
+Each service will have a SLDN page dedicated to it, which will list out all its available methods that can be called. Each method in turn will have a page dedicated to explaining what it does, and what required and optional headers are available along with the parameters you need to supply. 
+
+#### <font color="green">[.json](#return-format)</font> {#return-format .anchor-link}
+This tells the API how to format the data when you get it back. Also available are .xml and .txt
+
+#### <font color="teal">[objectMask](#objectMask)</font> {#objectMask .anchor-link}
+The [objectMask](/article/object-masks/) allows you to modify the data returned by adding or removing properties that the method's return datatype will be. Generally this will just be a string like `objectMask=mask[id,property1,property2[nested1,nested2]]`. Methods that allow this will have `SoftLayer_ObjectMask` or `SoftLayer_Data_TypeObjectMask` as a optional header. Any property you add here that isn't valid will result in an API error.
+
+
+#### <font color="BlueViolet">[objectFilter](#objectFilter)</font> {#objectFilter .anchor-link}
+The [objectFilter](/article/object-filters/) allow you to fine tune which results in a list get sent back, and these can get quite complicated. They are formatted like JSON objects and need to be parseable as such.
+
+> <font color="red">**WARNING**</font></p>
+> Filters that don't properly tap into properties can be silently ignored, be sure to check your filter is working as expected.
+
+#### <font color="DarkOrange">[RESULT LIMIT](#resultLimit)</font>  {#resultLimit .anchor-link}
+Any method that has a `resultLimit` optional header can use this to paginate through the result set, allowing you to get through a dataset that might be otherwise be too large for a single api call, generating [timeouts and other API errors](/article/how-solve-error-fetching-http-headers/). The format is `resultLimit=0,100`. 0 Being the Start Index, and 100 being the count of objects you want returned.
+
+> <font color="red">**WARNING**</font></p>
+> Specifying a count of 1 like `resultLimit=0,1` can in some cases result in only the first result being returned, no matter the start index. Always use at least a count of 2 or higher to avoid this.
+
+
+#### [Datatypes](#the-datatypes) {#the-datatypes .anchor-link}
+
+The data returned to you will usually be a specific datatype, or a base type (like int, string etc), and will have a link to the appropriate SLDN page on the method's documentation. Any datatype that ends with `[]` means you will get an array of those datatypes back.
+
+You can think of a datatype as baiscally a table in a SQL database. The `local` properties are columns in that table, and the `relational` properties are columns in other tables that you can access with a join (using an objectMask for example).
+
+The base datatype is the `SoftLayer_Entity`, which you may see reference to on any method that can take in a variety of different datatypes as a parameter.
+
+#### [Parameters](#the-paramters) {#the-paramters .anchor-link}
+
+Some methods will require parameters to be sent in, for example [SoftLayer_Virtual_Guest::getBandwidthForDateRange()](/reference/services/SoftLayer_Virtual_Guest/getBandwidthForDateRange/) takes 2 parameters, a `startDate` and an `endDate`. 
+
+The most consistent way to send in parameters to the API is as a `POST` request, the structure of which would look like this:
+
+```bash
+curl  -u $SL_USER:$SL_APIKEY -X POST  -d '{"parameters": ["2020-10-01", "2020-10-26"]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest/107879710/getBandwidthForDateRange.json'
 ```
-### Raw XML-RPC
+>**NOTE**</p>
+>The ORDER of these parameters is important, but the name is not.
 
-```xml
-<?xml version="1.0" encoding="iso-8859-1"?>
-<methodCall>
-    <methodName>getObject</methodName>
-    <params>
-        <param>
-            <value>
-                <struct>
-                    <member>
-                        <name>headers</name>
-                        <value>
-                            <struct>
-                                <member>
-                                    <name>authenticate</name>
-                                    <value>
-                                        <struct>
-                                            <member>
-                                                <name>username</name>
-                                                <value>
-                                                    <string>set me</string>
-                                                </value>
-                                            </member>
-                                            <member>
-                                                <name>apiKey</name>
-                                                <value>
-                                                    <string>set me too</string>
-                                                </value>
-                                            </member>
-                                        </struct>
-                                    </value>
-                                </member>
-                            </struct>
-                        </value>
-                    </member>
-                </struct>
-            </value>
-        </param>
-    </params>
-</methodCall>
-```
-### REST URL
-`https://<username>:<apiKey>@api.service.softlayer.com/rest/v3/SoftLayer_Account`
+The format here is a JSON parseable string, with the first element of the base object being `parameters`, which is an array that matches the method's documentation. Any parameters that are marked as a datatype themself will be a JSON object. When specifying a datatype as a parameter, you usually only have a pass in a few key fields, like `id`, not an entirely fleshed out object.
 
-### C\#
-```csharp
-
-String username = "set me";
-String apiKey = "set me";
- 
-authenticate authenticate = new authenticate();
-authenticate.username = username;
-authenticate.apiKey = apiKey;
- 
-SoftLayer_AccountService accountService = new SoftLayer_AccountService();
-accountService.authenticateValue = authenticate;
-
-SoftLayer_Account account = accountService.getObject();
-```
-
-### Perl 
-
-```perl
-
-use SoftLayer::API::SOAP;
-use strict;
- 
-my $api_username = 'set me';
-my $api_key = 'set me';
- 
-my $account = SoftLayer::API::SOAP->new('SoftLayer_Account', undef, $api_username, $api_key)->getObject();
+For example, [SoftLayer_Virtual_Guest::editObject()] takes in 1 virtual guest datatype, a request would look like this:
 
 ```
-### PHP
-```php
-<?php
- 
-require_once('/path/to/SoftLayer/SoapClient.class.php');
- 
-$apiUsername = 'set me';
-$apiKey = 'set me';
- 
-$client = SoftLayer_SoapClient::getClient('SoftLayer_Account', null, $apiUsername, $apiKey);
-$account = $client->getObject();
+curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [{"hostname": "test1234"}]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest/106291032/editObject.json'
 ```
 
-### Python
-```python
-import SoftLayer
- 
-api_username = 'set me'
-api_key = 'set me'
- 
-client = SoftLayer.Client(username=api_username, username=api_key)
-account = client['Account'].getObject()
-```
-### Visual Basic .NET
-```
-Dim username As String = "set me"
-Dim apiKey As String = "set me"
- 
-Dim authenticate As authenticate = New authenticate()
-authenticate.username = username
-authenticate.apiKey = apiKey
- 
-Dim accountService As SoftLayer_AccountService = New SoftLayer_AccountService()
-accountService.authenticateValue = authenticate
- 
-Dim account as SoftLayer_Account = accountService.getObject()
-```
+-------------------------------------------
+
+## Open Source SDKs and CLI tools
+SoftLayer maintains a variety of SDKs to help in making API calls easier. All of which can be found in the official [softlayer github.com repository](https://github.com/softlayer/softlayer)
+
+- [Python Library and SL CLI tool](https://github.com/softlayer/softlayer-python). 
+    -  A python based CLI tool. Has a [slcli call-api](https://softlayer-python.readthedocs.io/en/latest/cli/commands/#call-api) function that makes command line API calls easy.
+- [ibmcloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-getting-started). 
+    - A CLI tool that uses the softlayer-go library, includes a `ibmcloud sl call-api` function that makes writing API calls on the command line easy.
+- [Golang](https://github.com/softlayer/softlayer-go)
+- [Java](https://github.com/softlayer/softlayer-java)
+- [PHP](https://github.com/softlayer/softlayer-api-php-client)
+- [Ruby](https://github.com/softlayer/softlayer-ruby)
+- [Perl](https://github.com/softlayer/softlayer-api-perl-client)
 
 ## Where To Go From Here
 
