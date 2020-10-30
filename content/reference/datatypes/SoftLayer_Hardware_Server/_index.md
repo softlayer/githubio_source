@@ -500,7 +500,7 @@ Status indicating whether or not a piece of hardware has business continuance in
 [captureEnabledFlag]: #captureenabledflag
 #### [captureEnabledFlag]
 Determine if the server is able to be image captured. If unable to image capture a reason will be provided.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_CaptureEnabled'>SoftLayer_Container_Hardware_CaptureEnabled </a>**
 
 
 </div>
