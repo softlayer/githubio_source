@@ -37,7 +37,7 @@ Retrieve determine if the server is able to be image captured. If unable to imag
 * SoftLayer_ObjectMask
 
 ### Return Values
-* string
+* <a href='/reference/datatypes/SoftLayer_Container_Hardware_CaptureEnabled'>SoftLayer_Container_Hardware_CaptureEnabled </a>
 
 
 

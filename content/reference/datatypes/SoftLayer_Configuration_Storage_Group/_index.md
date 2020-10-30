@@ -131,7 +131,7 @@ This class represents a storage group disk array type
 [captureEnabledFlag]: #captureenabledflag
 #### [captureEnabledFlag]
 Determine if the storage group is able to be image captured. If unable to image capture the reasons will be provided.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_CaptureEnabled'>SoftLayer_Container_Hardware_CaptureEnabled </a>**
 
 
 </div>
