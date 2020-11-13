@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Monitoring_Robot"
-description: ""
+description: "DEPRECATED."
 date: "2018-02-12"
 layout: "service"
 tags:
@@ -18,9 +18,7 @@ classes:
 </div>
 
 ## Description
-
-
-
+DEPRECATED. 
 
 
 
@@ -43,31 +41,13 @@ classes:
 <div class="method-row">
 
 #### [checkConnection](/reference/services/SoftLayer_Monitoring_Robot/checkConnection)
-Checks if a monitoring robot can communicate with SoftLayer monitoring management system 
-</div>
-
-<div class="method-row">
-
-#### [getAccount](/reference/services/SoftLayer_Monitoring_Robot/getAccount)
-Retrieve the account associated with the corresponding robot.
+DEPRECATED. Checks if a monitoring robot can communicate with SoftLayer monitoring management system 
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Monitoring_Robot/getObject)
 Retrieve a SoftLayer_Monitoring_Robot record.
-</div>
-
-<div class="method-row">
-
-#### [getRobotStatus](/reference/services/SoftLayer_Monitoring_Robot/getRobotStatus)
-Retrieve the current status of the robot.
-</div>
-
-<div class="method-row">
-
-#### [getSoftwareComponent](/reference/services/SoftLayer_Monitoring_Robot/getSoftwareComponent)
-Retrieve the SoftLayer_Software_Component that corresponds to the robot installation on the server.
 </div>
 </div>
 

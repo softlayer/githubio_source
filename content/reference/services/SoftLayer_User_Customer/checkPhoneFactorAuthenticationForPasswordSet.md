@@ -51,19 +51,19 @@ Add a description here
 
 * SoftLayer_Exception_Public 
 
-> <<< EOT 
+> Throws the exception "Invalid password recovery key" if no password recovery key was provided, the provided key was invalid, the key has expired, or the recovery key does not belong to this user. 
 
 * SoftLayer_Exception_Public 
 
-> <<< EOT 
+> Throws the exception "Your portal password must" followed by a list of violated password rules if the given password fails to match any of the above restrictions. 
 
 * SoftLayer_Exception_User_Customer_External_Binding_AwaitingResponse 
 
-> <<< EOT 
+> Throws the exception "Waiting on the external authentication response" if phone-based authentication was requested. 
 
 * SoftLayer_Exception_User_Customer_External_Binding_AuthenticationFailed 
 
-> <<< EOT 
+> Throws the exception "External authentication failed" if phone-based authentication failed. 
 
 
 

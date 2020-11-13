@@ -50,47 +50,47 @@ A Brand Agent that has permissions to Add Customer Accounts will be able to requ
 
 * SoftLayer_Exception_Public 
 
-> <<< EOT 
+> Throws the exception "Access is denied" if user does not have access to perform this action. 
 
 * SoftLayer_Exception_Public 
 
-> <<< EOT 
+> Throws the exception "Your account is not a Brand Master Account" if user is not a user of a brand master account. 
 
 * SoftLayer_Exception_Public 
 
-> <<< EOT 
+> Throws the exception "You do not have permission to request password reset for another user" if user does not have the permission to request password reset for another user. 
 
 * SoftLayer_Exception_Public 
 
-> <<< EOT 
+> Throws the exception "You do not have permission to request password reset for this user" if user is attempting to request password reset on a user that is not a master user and/or user on an account that is not owned by this brand. 
 
 * SoftLayer_Exception_InvalidValue 
 
-> <<< EOT 
+> Throws the exception "Invalid value provided for Username" if no username is provided. 
 
 * SoftLayer_Exception_Public 
 
-> <<< EOT 
+> Throws the exception "Username does not exist" if provided username does not exist. 
 
 * SoftLayer_Exception_Public 
 
-> <<< EOT 
+> Throws the exception "This user is authenticated by OpenIdConnect and must use the OpenIdConnect provider to change their password" if the user of the username provided is authenticated by OpenIdConnect. 
 
 * SoftLayer_Exception_Public 
 
-> <<< EOT 
+> Throws the exception "This user is authenticated by SAML Federation and must use the SAML Federation provider to change their password" if the user of the username provided is authenticated by SAML. 
 
 * SoftLayer_Exception_Public 
 
-> <<< EOT 
+> Throws the exception "You must have security questions set on your account before changing your password"s if a master user who has successfully logged into the portal is attempting to initiate a password reset and security questions are not defined. 
 
 * SoftLayer_Exception_Public 
 
-> <<< EOT 
+> Throws the exception "Your request cannot be processed. Please contact support" if the username does not belong to an active user. 
 
 * SoftLayer_Exception_Public 
 
-> <<< EOT 
+> Throws the exception "SoftLayer_Exception_User_Customer_UnauthorizedBrand" if the user does not have access to the portal. 
 
 
 

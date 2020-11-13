@@ -42,6 +42,12 @@ The primary use of this service is to allow self-discovery for newly provisioned
 
 <div class="method-row">
 
+#### [getAccountId](/reference/services/SoftLayer_Resource_Metadata/getAccountId)
+The id for the account which the resource is in
+</div>
+
+<div class="method-row">
+
 #### [getBackendMacAddresses](/reference/services/SoftLayer_Resource_Metadata/getBackendMacAddresses)
 A list of backend MAC addresses
 </div>

@@ -551,7 +551,7 @@ Retrieve a piece of hardware's metric tracking object.
 <div class="method-row">
 
 #### [getMonitoringRobot](/reference/services/SoftLayer_Hardware/getMonitoringRobot)
-Retrieve information regarding the hardware's monitoring robot.
+
 </div>
 
 <div class="method-row">
@@ -563,7 +563,7 @@ Retrieve information regarding a piece of hardware's network monitoring services
 <div class="method-row">
 
 #### [getMonitoringServiceEligibilityFlag](/reference/services/SoftLayer_Hardware/getMonitoringServiceEligibilityFlag)
-Retrieve the monitoring service flag eligibility status for a piece of hardware.
+
 </div>
 
 <div class="method-row">

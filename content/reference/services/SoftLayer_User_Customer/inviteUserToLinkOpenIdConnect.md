@@ -24,7 +24,7 @@ Send email invitation to a user to join a SoftLayer account and authenticate wit
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|providerType| string| A value representing the OpenID Connect provider type.|
+|providerType| string| A value representing the OpenID Connect provider type. Currently "IBMid" is the only supported provider.|
 
 
 ### Required Headers

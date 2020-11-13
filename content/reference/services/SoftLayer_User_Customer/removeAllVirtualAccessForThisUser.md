@@ -49,7 +49,7 @@ Users can call this function on child users, but not to themselves. An account's
 
 * SoftLayer_Exception_PermissionDenied 
 
-> <<< EOT 
+> Throws the exception if the active user is not the master user or the parent of this user. 
 
 
 

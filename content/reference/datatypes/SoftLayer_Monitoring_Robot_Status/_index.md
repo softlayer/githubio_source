@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Monitoring_Robot_Status"
-description: "Your monitoring robot will be in 'Active' status under normal circumstances. If you perform an OS reload, your robot wil... "
+description: "DEPRECATED. Your monitoring robot will be in 'Active' status under normal circumstances. If you perform an OS reload, yo... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-Your monitoring robot will be in "Active" status under normal circumstances. If you perform an OS reload, your robot will be in "Reclaim" status until it's reloaded on your server or virtual server. 
+DEPRECATED. Your monitoring robot will be in "Active" status under normal circumstances. If you perform an OS reload, your robot will be in "Reclaim" status until it's reloaded on your server or virtual server. 
 
 Advanced monitoring system requires "Nimsoft Monitoring (Advanced)" service running and TCP ports 48000 - 48020 to be open on your server or virtual server. Monitoring agents cannot be managed nor can the usage data be updated if these ports are closed. Your monitoring robot will be in "Limited Connectivity" status if our monitoring management system cannot communicate with your system. 
 
@@ -48,7 +48,7 @@ See [SoftLayer_Monitoring_Robot::resetStatus]({{<ref "reference/services/SoftLay
 -----
 [description]: #description
 #### [description]
-Monitoring robot status description  
+DEPRECATED. Monitoring robot status description  
 <span class="type-label">Type: </span>**string**
 
 
@@ -58,7 +58,7 @@ Monitoring robot status description
 -----
 [id]: #id
 #### [id]
-Internal identifier of a monitoring robot status  
+DEPRECATED. Internal identifier of a monitoring robot status  
 <span class="type-label">Type: </span>**integer**
 
 
@@ -68,7 +68,7 @@ Internal identifier of a monitoring robot status
 -----
 [name]: #name
 #### [name]
-Monitoring robot status name  
+DEPRECATED. Monitoring robot status name  
 <span class="type-label">Type: </span>**string**
 
 

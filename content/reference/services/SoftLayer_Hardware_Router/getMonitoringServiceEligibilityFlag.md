@@ -1,6 +1,6 @@
 ---
 title: "getMonitoringServiceEligibilityFlag"
-description: "Retrieve the monitoring service flag eligibility status for a piece of hardware."
+description: ""
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getMonitoringServiceEligibilityFlag
 
-Retrieve the monitoring service flag eligibility status for a piece of hardware.
+
 
 
 ## Overview 
-Retrieve the monitoring service flag eligibility status for a piece of hardware.
+
 
 -----
 

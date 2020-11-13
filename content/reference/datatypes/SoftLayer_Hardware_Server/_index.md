@@ -1079,7 +1079,7 @@ The metric tracking object id for this server.
 -----
 [monitoringRobot]: #monitoringrobot
 #### [monitoringRobot]
-Information regarding the hardware's monitoring robot.  
+  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Monitoring_Robot'>SoftLayer_Monitoring_Robot </a>**
 
 
@@ -1099,7 +1099,7 @@ Information regarding a piece of hardware's network monitoring services.
 -----
 [monitoringServiceEligibilityFlag]: #monitoringserviceeligibilityflag
 #### [monitoringServiceEligibilityFlag]
-The monitoring service flag eligibility status for a piece of hardware.  
+  
 <span class="type-label">Type: </span>**boolean**
 
 

@@ -52,23 +52,23 @@ If the user has full hardware access, then it will provide access to "ALL but pa
 
 * SoftLayer_Exception_PermissionDenied 
 
-> Throw the exception "You may not grant or deny Master User device access." when trying to remove hardware access to a master user. 
+> Throws the exception "You may not grant or deny Master User device access." when trying to remove hardware access to a master user. 
 
 * SoftLayer_Exception_PermissionDenied 
 
-> Throw the exception "You may not grant or deny yourself device access." when trying to remove hardware access to the user making the call to the SoftLayer API. 
+> Throws the exception "You may not grant or deny yourself device access." when trying to remove hardware access to the user making the call to the SoftLayer API. 
 
 * SoftLayer_Exception_PermissionDenied 
 
-> Throw the exception "You may not grant or deny device access to other users." when trying to remove hardware access the user making the API call is not their account's master user or does not have the "USER_MANAGE" portal permission. 
+> Throws the exception "You may not grant or deny device access to other users." when trying to remove hardware access the user making the API call is not their account's master user or does not have the "USER_MANAGE" portal permission. 
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception "Please specify a valid hardware id." if the given hardware id is not a valid hardware id. 
+> Throws the exception "Please specify a valid hardware id." if the given hardware id is not a valid hardware id. 
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception "Unable to remove user hardware access." if the API was unable to remove hardware access from the given portal user. 
+> Throws the exception "Unable to remove user hardware access." if the API was unable to remove hardware access from the given portal user. 
 
 
 

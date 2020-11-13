@@ -24,8 +24,8 @@ aliases:
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|resourceObject| <a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a>| The object of the resource you want removed from this group.|
-|resourceTypeKeyName| string| $resourceTypeKeyName An optional keyname for the type of resource being passed.|
+|resourceObject| <a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a>| The resource record to remove from this group. See [[SoftLayer_User_Permission_Resource_Type (type)]] for the valid entities for this request.|
+|resourceTypeKeyName| string| An optional keyname specifying the type of resource provided. See [[SoftLayer_User_Permission_Resource_Type (type)]] for the valid entities for this request.|
 
 
 ### Required Headers

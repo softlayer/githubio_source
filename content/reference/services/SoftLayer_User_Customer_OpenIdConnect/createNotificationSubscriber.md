@@ -24,8 +24,8 @@ Create a new subscriber for a given resource.
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|keyName| string| |
-|resourceTableId| integer| |
+|keyName| string| The key name of the notification to subscribe. Optional, but must be provided if $resourceTableId is provided.|
+|resourceTableId| integer| The resource subscribing to receive notification.|
 
 
 ### Required Headers

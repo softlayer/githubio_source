@@ -49,7 +49,7 @@ When a new user is created or when a user has requested a password change using 
 
 * SoftLayer_Exception_Public 
 
-> <<< EOT 
+> Throws the exception "Invalid password recovery key" if no password recovery key was provided, the provided key was invalid, the key has expired, or the recovery key does not belong to this user. 
 
 
 
