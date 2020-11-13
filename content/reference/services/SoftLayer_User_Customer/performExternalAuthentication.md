@@ -24,7 +24,7 @@ The perform external authentication method will authenticate the given external 
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|authenticationContainer| <a href='/reference/datatypes/SoftLayer_Container_User_Customer_External_Binding'>SoftLayer_Container_User_Customer_External_Binding </a>| |
+|authenticationContainer| <a href='/reference/datatypes/SoftLayer_Container_User_Customer_External_Binding'>SoftLayer_Container_User_Customer_External_Binding </a>| The authentication container with the external authentication information.|
 
 
 ### Required Headers

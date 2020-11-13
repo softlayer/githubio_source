@@ -52,27 +52,27 @@ Only the USER_MANAGE permission is required to execute this.
 
 * SoftLayer_Exception_PermissionDenied 
 
-> Throw the exception "You may not grant or deny Master User device access." when trying to add virtual guest access to a master user. 
+> Throws the exception "You may not grant or deny Master User device access." when trying to add virtual guest access to a master user. 
 
 * SoftLayer_Exception_PermissionDenied 
 
-> Throw the exception "You may not grant or deny yourself device access." when trying to add virtual guest access to the user making the call to the SoftLayer API. 
+> Throws the exception "You may not grant or deny yourself device access." when trying to add virtual guest access to the user making the call to the SoftLayer API. 
 
 * SoftLayer_Exception_PermissionDenied 
 
-> Throw the exception "You may not grant or deny device access to other users." when trying to add virtual guest access the user making the API call is not their account's master user or does not have the "USER_MANAGE" portal permission. 
+> Throws the exception "You may not grant or deny device access to other users." when trying to add virtual guest access the user making the API call is not their account's master user or does not have the "USER_MANAGE" portal permission. 
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception "You may not add Virtual Server permissions that the parent does not possess to this account." when trying to add Virtual Server access to the user and the parent user does not possess that access to that Virtual Server. 
+> Throws the exception "You may not add Virtual Server permissions that the parent does not possess to this account." when trying to add Virtual Server access to the user and the parent user does not possess that access to that Virtual Server. 
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception "Please specify a valid Virtual Server id." if the given Virtual Server id is not a valid id. 
+> Throws the exception "Please specify a valid Virtual Server id." if the given Virtual Server id is not a valid id. 
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception "Unable to add user Virtual Server access." if the API was unable to assign Virtual Server access to the given portal user. 
+> Throws the exception "Unable to add user Virtual Server access." if the API was unable to assign Virtual Server access to the given portal user. 
 
 
 

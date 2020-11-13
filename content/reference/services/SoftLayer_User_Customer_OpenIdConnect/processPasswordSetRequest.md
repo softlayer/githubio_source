@@ -60,39 +60,39 @@ User portal passwords must match the following restrictions. Portal passwords mu
 
 * SoftLayer_Exception_Public 
 
-> <<< EOT 
+> Throws the exception "Invalid password recovery key" if no password recovery key was provided, the provided key was invalid, the key has expired, or the recovery key does not belong to this user. 
 
 * SoftLayer_Exception_Public 
 
-> <<< EOT 
+> Throws the exception "Your portal password must" followed by a list of violated password rules if the given password fails to match any of the above restrictions. 
 
 * SoftLayer_Exception_InvalidValue 
 
-> <<< EOT 
+> Throws the exception "Invalid value provided for Password" if no password is provided. 
 
 * SoftLayer_Exception_User_Customer_InvalidSecurityQuestionAnswer 
 
-> <<< EOT 
+> Throws the exception "Invalid answer provided for security question" if security question is not answered according to the user's profile. 
 
 * SoftLayer_Exception_User_Customer_AccountLocked 
 
-> <<< EOT 
+> Throws the exception "Account has been locked for 30 minutes" if maximum number of attempts to set password has been reached. 
 
 * SoftLayer_Exception_User_Customer_External_Binding_SecurityCodeRequired 
 
-> <<< EOT 
+> Throws the exception "You must supply external authentication credentials to log in with this user" if external authentication security code is required and not provided. 
 
 * SoftLayer_Exception_User_Customer_External_Binding_TotpAuthenticationRequired 
 
-> <<< EOT 
+> Throws the exception "Time-based One Time Password authentication is required to log in with this user" if TOTP authentication is required and not provided. 
 
 * SoftLayer_Exception_User_Customer_External_Binding_PhoneAuthenticationRequired 
 
-> <<< EOT 
+> Throws the exception "Phone-based authentication is required to log in with this user" if phone-based authentication is required and not provided. 
 
 * SoftLayer_Exception_User_Customer_External_Binding_AwaitingResponse 
 
-> <<< EOT 
+> Throws the exception "Waiting on the external authentication response" if phone-based authentication was requested. 
 
 
 

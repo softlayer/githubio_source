@@ -52,19 +52,19 @@ Use the [SoftLayer_User_Customer_CustomerPermission_Permission::getAllObjects]({
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception "You may not add permissions to your account." when trying to add permissions to the user making calling the SoftLayer API. 
+> Throws the exception "You may not add permissions to your account." when trying to add permissions to the user making calling the SoftLayer API. 
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception "Please specify a permission key name." if the keyName property of the permission parameter is empty. 
+> Throws the exception "Please specify a permission key name." if the keyName property of the permission parameter is empty. 
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception "Unable to locate a permission with the key name {key name}." when trying to assign an unknown permission to a user. 
+> Throws the exception "Unable to locate a permission with the key name {key name}." when trying to assign an unknown permission to a user. 
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception "Unable to add user permission {key name}." if the API was unable to assign the given permission to the given portal user. 
+> Throws the exception "Unable to add user permission {key name}." if the API was unable to assign the given permission to the given portal user. 
 
 
 

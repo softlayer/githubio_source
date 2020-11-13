@@ -28,8 +28,8 @@ If the cascadeFlag is set to false, then an exception will be thrown if the new 
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|parentId| integer| the id of the parent to be assigned to the user|
-|cascadePermissionsFlag| boolean| |
+|parentId| integer| The id of a [[SoftLayer_User_Customer]] to be assigned as the parent to the instantiated user|
+|cascadePermissionsFlag| boolean| Flag specifying whether remove permissions from the user that are not assigned to the new parent|
 
 
 ### Required Headers

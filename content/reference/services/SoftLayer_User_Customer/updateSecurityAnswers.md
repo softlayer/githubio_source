@@ -42,19 +42,19 @@ Update a user's login security questions and answers on the SoftLayer customer p
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception 'Access is denied.' if a user tries to change another user's portal login security questions and answers. 
+> Throws the exception 'Access is denied.' if a user tries to change another user's portal login security questions and answers. 
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception 'Please provide three different security questions.' if the questions parameter does not contain three distinct security questions. 
+> Throws the exception 'Please provide three different security questions.' if the questions parameter does not contain three distinct security questions. 
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception 'Please provide three unique security question answers.' if the answers parameter does not contain three unique answers. 
+> Throws the exception 'Please provide three unique security question answers.' if the answers parameter does not contain three unique answers. 
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception ''Please provide valid security questions.' if any of the given security questions do not exist. 
+> Throws the exception ''Please provide valid security questions.' if any of the given security questions do not exist. 
 
 
 

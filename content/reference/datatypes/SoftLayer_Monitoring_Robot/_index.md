@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Monitoring_Robot"
-description: "The SoftLayer_Monitoring_Robot data type contains general information relating to a monitoring robot."
+description: "DEPRECATED. The SoftLayer_Monitoring_Robot data type contains general information relating to a monitoring robot."
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-The SoftLayer_Monitoring_Robot data type contains general information relating to a monitoring robot. 
+DEPRECATED. The SoftLayer_Monitoring_Robot data type contains general information relating to a monitoring robot. 
 
 
 
@@ -44,7 +44,7 @@ The SoftLayer_Monitoring_Robot data type contains general information relating t
 -----
 [accountId]: #accountid
 #### [accountId]
-Internal identifier of a SoftLayer account that this robot belongs to  
+DEPRECATED. Internal identifier of a SoftLayer account that this robot belongs to  
 <span class="type-label">Type: </span>**integer**
 
 
@@ -54,7 +54,7 @@ Internal identifier of a SoftLayer account that this robot belongs to
 -----
 [id]: #id
 #### [id]
-Internal identifier of a monitoring robot  
+DEPRECATED. Internal identifier of a monitoring robot  
 <span class="type-label">Type: </span>**integer**
 
 
@@ -64,7 +64,7 @@ Internal identifier of a monitoring robot
 -----
 [name]: #name
 #### [name]
-Robot name  
+DEPRECATED. Robot name  
 <span class="type-label">Type: </span>**string**
 
 
@@ -74,7 +74,7 @@ Robot name
 -----
 [statusId]: #statusid
 #### [statusId]
-Internal identifier of a monitoring robot status  
+DEPRECATED. Internal identifier of a monitoring robot status  
 <span class="type-label">Type: </span>**integer**
 
 
@@ -82,41 +82,6 @@ Internal identifier of a monitoring robot status
 </div>
 <!-- LOCAL PROPERTY END -->
 
-<div id="relationalProperties"  class="prop-content" >
-
-## Relational
-<div class="prop-row">
-
------
-[account]: #account
-#### [account]
-The account associated with the corresponding robot.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
-
-
-</div>
-<div class="prop-row">
-
------
-[robotStatus]: #robotstatus
-#### [robotStatus]
-The current status of the robot.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Monitoring_Robot_Status'>SoftLayer_Monitoring_Robot_Status </a>**
-
-
-</div>
-<div class="prop-row">
-
------
-[softwareComponent]: #softwarecomponent
-#### [softwareComponent]
-The SoftLayer_Software_Component that corresponds to the robot installation on the server.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>**
-
-
-</div>
-
-## Count
 </div>
 
 

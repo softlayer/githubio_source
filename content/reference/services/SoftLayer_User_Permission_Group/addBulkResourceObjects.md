@@ -24,8 +24,8 @@ aliases:
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|resourceObjects| <a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity[] </a>| The objects of the resources you want to add to this group.|
-|resourceTypeKeyName| string| $resourceTypeKeyName An optional keyname for the type of resources being passed.|
+|resourceObjects| <a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity[] </a>| $resourceObjects The resource records to add to this group. See [[SoftLayer_User_Permission_Resource_Type (type)]] for the valid entities for this request.|
+|resourceTypeKeyName| string| An optional keyname for the type of resources provided.  See [[SoftLayer_User_Permission_Resource_Type (type)]] for the valid entities for this request.|
 
 
 ### Required Headers

@@ -1,8 +1,6 @@
 ---
 title: "checkConnection"
-description: "Checks if a monitoring robot can communicate with SoftLayer monitoring management system via the private network. 
-
-TCP... "
+description: "DEPRECATED. Checks if a monitoring robot can communicate with SoftLayer monitoring management system via the private net... "
 layout: "method"
 tags:
     - "method"
@@ -15,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Monitoring_Robot](/reference/services/SoftLayer_Monitoring_Robot)::checkConnection
 
-Checks if a monitoring robot can communicate with SoftLayer monitoring management system 
+DEPRECATED. Checks if a monitoring robot can communicate with SoftLayer monitoring management system 
 
 
 ## Overview 
-Checks if a monitoring robot can communicate with SoftLayer monitoring management system via the private network. 
+DEPRECATED. Checks if a monitoring robot can communicate with SoftLayer monitoring management system via the private network. 
 
 TCP port 48000 - 48002 must be open on your server or your virtual server in order for this test to succeed. 
 
@@ -32,7 +30,6 @@ TCP port 48000 - 48002 must be open on your server or your virtual server in ord
 
 ### Required Headers
 * authenticate
-* SoftLayer_Monitoring_RobotInitParameters
 
 
 ### Return Values

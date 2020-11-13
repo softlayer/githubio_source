@@ -45,7 +45,7 @@ Create a user's API authentication key, allowing that user access to query the S
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception <<< EOT 
+> Throws the exception "Each user can only have a single API key." if the given user already has an API key defined. 
 
 
 

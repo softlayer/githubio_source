@@ -26,7 +26,7 @@ If the user has required authentication methods, then authentication information
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|passwordSet| <a href='/reference/datatypes/SoftLayer_Container_User_Customer_PasswordSet'>SoftLayer_Container_User_Customer_PasswordSet </a>| Container used to exchange information|
+|passwordSet| <a href='/reference/datatypes/SoftLayer_Container_User_Customer_PasswordSet'>SoftLayer_Container_User_Customer_PasswordSet </a>| Container used to exchange information pertaining to the password reset process.|
 
 
 ### Required Headers
@@ -50,11 +50,11 @@ If the user has required authentication methods, then authentication information
 
 * SoftLayer_Exception_Public 
 
-> <<< EOT 
+> Throws the exception "Your request cannot be processed" if changes to the account or user has invalidated the password reset request, such as a user's status changes and is no longer Active. 
 
 * SoftLayer_Exception_Public 
 
-> <<< EOT 
+> Throws the exception "Invalid password recovery key" if no password recovery key was provided, the provided key was invalid, the key has expired, or the recovery key does not belong to this user. 
 
 
 

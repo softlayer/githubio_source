@@ -60,7 +60,7 @@ Account ID that this alarm belongs to
 -----
 [agentId]: #agentid
 #### [agentId]
-ID of the monitoring agent that triggered this alarm  
+DEPRECATED. ID of the monitoring agent that triggered this alarm  
 <span class="type-label">Type: </span>**integer**
 
 
@@ -110,7 +110,7 @@ Alarm message
 -----
 [robotId]: #robotid
 #### [robotId]
-Robot ID  
+DEPRECATED. Robot ID  
 <span class="type-label">Type: </span>**integer**
 
 

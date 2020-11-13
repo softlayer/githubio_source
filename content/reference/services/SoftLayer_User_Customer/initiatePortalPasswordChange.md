@@ -51,7 +51,7 @@ Due to security reasons, the number of reset requests per username are limited w
 
 * SoftLayer_Exception_InvalidValue 
 
-> <<< EOT 
+> Throws the exception "Invalid value provided for Username" if no username is provided. 
 
 
 

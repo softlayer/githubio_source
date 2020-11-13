@@ -45,7 +45,7 @@ Remove a user's API authentication key, removing that user's access to query the
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception "Please provide an API Authentication key ID." when not passing or passing an invalid API authentication key ID. 
+> Throws the exception "Please provide an API Authentication key ID." when not passing or passing an invalid API authentication key ID. 
 
 
 

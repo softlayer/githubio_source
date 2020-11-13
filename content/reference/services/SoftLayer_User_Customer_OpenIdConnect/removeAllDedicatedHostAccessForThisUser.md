@@ -49,11 +49,11 @@ Users can call this function on child users, but not to themselves. An account's
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception "Unable to remove user dedicated host access." if the API was unable to remove dedicated host access from the given portal user. 
+> Throws the exception "Unable to remove user dedicated host access." if the API was unable to remove dedicated host access from the given portal user. 
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception "Inadequate permissions." if the active user permissions do allow for access to the userId in question. 
+> Throws the exception "Inadequate permissions." if the active user permissions do allow for access to the userId in question. 
 
 
 

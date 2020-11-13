@@ -60,11 +60,11 @@ Finally, users can only update their own VPN password. An account's master user 
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception "Access is denied." if a user tries to change another user's VPN password and is not the account's master user. 
+> Throws the exception "Access is denied." if a user tries to change another user's VPN password and is not the account's master user. 
 
 * SoftLayer_Exception_Public 
 
-> Throw the exception "Your VPN password must" followed by a list of violated password rules if the given password fails to match any of the above restrictions. 
+> Throws the exception "Your VPN password must" followed by a list of violated password rules if the given password fails to match any of the above restrictions. 
 
 
 

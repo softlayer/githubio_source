@@ -1,6 +1,6 @@
 ---
 title: "getMonitoringRobot"
-description: "Retrieve information regarding the hardware's monitoring robot."
+description: ""
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getMonitoringRobot
 
-Retrieve information regarding the hardware's monitoring robot.
+
 
 
 ## Overview 
-Retrieve information regarding the hardware's monitoring robot.
+
 
 -----
 
