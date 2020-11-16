@@ -37,7 +37,7 @@ Retrieve return storage group details for symantec disk
 * SoftLayer_ObjectMask
 
 ### Return Values
-* string
+* <a href='/reference/datatypes/SoftLayer_Container_Image_StorageGroupDetails'>SoftLayer_Container_Image_StorageGroupDetails </a>
 
 
 
