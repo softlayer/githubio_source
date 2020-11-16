@@ -325,7 +325,7 @@ The original disk image that the current disk image was cloned from.
 [storageGroupDetails]: #storagegroupdetails
 #### [storageGroupDetails]
 Return storage group details for symantec disk  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Image_StorageGroupDetails'>SoftLayer_Container_Image_StorageGroupDetails </a>**
 
 
 </div>
