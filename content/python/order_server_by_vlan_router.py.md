@@ -313,16 +313,16 @@ if __name__ == "__main__":
     priv_router_id = 1884234
 
     """
-    Step 5, To order a hardware server by backend/frontend vlanId use the below option.
+    Step 5, To order a bare metal server by backend/frontend vlan.
     
-    Remove the comment symbol '#' below to order a hardware server.
+    Remove the comment symbol '#' below to order a bare metal server.
     """
     # main.main(package_id, location_id, pub_vlan_id, priv_vlan_id, "vlan")
 
     """
-    Step 6, To order a hardware server by backend/frontend routerId use the below option.
+    Step 6, To order a bare metal server by backend/frontend router.
     
-    Remove the comment symbol '#' below to order a hardware server.
+    Remove the comment symbol '#' below to order a bare metal server.
     """
     # main.main(package_id, location_id, pub_router_id, priv_router_id, "router")
 
@@ -651,17 +651,17 @@ if __name__ == "__main__":
     priv_router_id = 1881234
 
     """
-    Step 6, To order a hardware server by backend/frontend vlanId use the below option.
+    Step 6, To order a virtual server by backend/frontend vlan.
 
-    Remove the comment symbol '#' below to order a hardware server.
+    Remove the comment symbol '#' below to order a virtual server.
     """
 
     # main.main(package_id, location_id, pub_vlan_id, priv_vlan_id, preset_id, "vlan")
 
     """
-    Step 7, To order a hardware server by backend/frontend routerId use the below option.
+    Step 7, To order a virtual server by backend/frontend router.
 
-    Remove the comment symbol '#' below to order a hardware server.
+    Remove the comment symbol '#' below to order a virtual server.
     """
 
     # main.main(package_id, location_id, pub_router_id, priv_router_id, preset_id, "router")
