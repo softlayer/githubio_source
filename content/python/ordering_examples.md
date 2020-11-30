@@ -13,66 +13,6 @@ tags:
 
 *NOTICE:* Be careful using hard coded price IDs, as they can change at any time without notice. For a better way of building orders, see https://softlayer.github.io/article/understanding-ordering/
 
-### CDN
-
-```python
-"""
-Order a new CDN account
-
-Build a SoftLayer_Container_Product_Order_Network_ContentDelivery_Account
-object for a new CDN account order and pass it to the SoftLayer_Product_Order
-API service to order it. In this case we'll order a pay as you go bandwidth
-and storage CDN account. See below for more details.
-
-
-"""
-import SoftLayer
-
-"""
-Build a skeleton SoftLayer_Container_Product_Order_Network_ContentDelivery_Account object
-containing the order you wish to place.
-"""
-orderData = {
-    "complexType": "SoftLayer_Container_Product_Order_Network_ContentDelivery_Account",
-
-    "packageId": 208,  # The package id to order Content Delivery Network
-    # The prices to order the CDN
-    "prices": [
-        {
-            "complexType": "SoftLayer_Product_Item_Price",
-            "id": 1661  # CDN Pay as You Go Bandwidth
-        },
-
-        {
-            "complexType": "SoftLayer_Product_Item_Price",
-            "id": 1670  # CDN No storage (origin pull)
-        }
-    ],
-    "quantity": 1,  # We only want 1 fire-wall
-}
-
-# Declare the API client
-client = SoftLayer.Client()
-productOrderService = client['SoftLayer_Product_Order']
-
-try:
-    """
-    verifyOrder() will check your order for errors. Replace this with a call to
-    placeOrder() when you're ready to order. Both calls return a receipt object
-    that you can use for your records.
-    """
-    response = client['SoftLayer_Product_Order'].verifyOrder(orderData)
-    print(response)
-except SoftLayer.SoftLayerAPIError as e:
-    """
-    If there was an error returned from the SoftLayer API then bomb out with the
-    error message.
-    """
-    print("Unable to place order faultCode=%s, faultString=%s" % (e.faultCode, e.faultString))
-
-```
-
-
 ### EVault
 
 ```python
