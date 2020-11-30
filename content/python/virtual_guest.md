@@ -22,6 +22,9 @@ All these examples will have a function definition that can simply be added to t
 
 ```python
 import SoftLayer
+
+from SoftLayer.managers.ordering import OrderingManager
+
 from pprint import pprint as pp
 
 class example():
@@ -108,6 +111,45 @@ templateObject = {
 `getCreateOptions` has a lot of irrelevant output, and trimming that out takes a bit of code to complete that gets in the way of this example. See [SoftLayer/CLI/virt/create_options.py](https://github.com/softlayer/softlayer-python/blob/master/SoftLayer/CLI/virt/create_options.py) for how the SLCLI handles the output.
 
 SLCLI also has this as a command feature. See  [`slcli vs create`](https://softlayer-python.readthedocs.io/en/latest/cli/vs/#virtual-create) and [`slcli vs create-options`](https://softlayer-python.readthedocs.io/en/latest/cli/vs/#virtual-create-options)
+
+
+## Create with Ordering Manager
+This example uses [Ordering  Manager](https://softlayer-api-python-client.readthedocs.io/en/latest/api/managers/ordering/) for interacting with the API, it is using  the PUBLIC_CLOUD_SERVER package
+and include sshkeys and a post provision script.
+
+```python
+    def create_vsi():
+        vsi_mgr = OrderingManager(client)
+    
+        package = 'PUBLIC_CLOUD_SERVER'
+        location = 'DALLAS13'
+        preset = 'B1_2X8X100'
+        items = ['BANDWIDTH_0_GB_2',
+                 'MONITORING_HOST_PING',
+                 'NOTIFICATION_EMAIL_AND_TICKET',
+                 'OS_DEBIAN_9_X_STRETCH_LAMP_64_BIT',
+                 '1_IP_ADDRESS',
+                 '1_IPV6_ADDRESS',
+                 '1_GBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS',
+                 'REBOOT_REMOTE_CONSOLE',
+                 'AUTOMATED_NOTIFICATION',
+                 'UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT',
+                 ]
+    
+        complex_type = 'SoftLayer_Container_Product_Order_Virtual_Guest'
+        extras = {"virtualGuests": [{"hostname": "test", "domain": "ibm.com"}],
+                  "provisionScripts": ["https://examples.provisioning.org"],
+                  "sshKeys": [{"sshKeyIds": [1234, 1235]}]
+                  }
+        billing_hourly = True
+    
+        # uses vsi_mgr.place_order instead of  vsi_mgr.verify_order to create the vsi
+    
+        vsi = vsi_mgr.verify_order(package, location, items, complex_type=complex_type,
+                                        hourly=billing_hourly, preset_keyname=preset, extras=extras, quantity=1)
+        pp(vsi)
+
+```
 
 
 ## Add tags
