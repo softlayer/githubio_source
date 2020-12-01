@@ -1,7 +1,7 @@
 ---
-title: "get_all_billing_invoice_items.go"
-description: "get_all_billing_invoice_items.go"
-date: "2017-11-23"
+title: "Get all billing invoice items"
+description: "Retrieve all billing invoice items from account"
+date: "2020-12-01"
 classes: 
     - "SoftLayer_Billing_Invoice_Items"
     - "SoftLayer_Billing_Invoice"
@@ -11,33 +11,14 @@ tags:
     - "billing"
 ---
 
-
-```
-/*
-Retrieve all billing invoice items from account.
-
+### Retrieve all billing invoice items from account.
 This script prints all billing invoice items from account, on this case we'll use a large object
 mask in order to retrieve a lot of data. To avoid API errors related to "Time out" or or "size limit",
 first we'll get de ID of all SoftLayer_Billing_Invoice objects between two dates, on this case we'll
 use the method SoftLayer_Account::getInvoices. After that, through loops we will retrieve all invoice
 items, here we'll use the method SoftLayer_Billing_Invoice::getItems and "result limits" to avoid errors.
 See below for more information.
-
-Example based on question:
-http://stackoverflow.com/questions/43666868/getting-error-internal-error-on-postman-and-getting-error-can-not-deseriali
-http://stackoverflow.com/questions/43640651/softlayer-rest-call-giving-multiple-entries-for-invoice-in-json-response-when-ob
-
-Important manual pages
-http://sldn.softlayer.com/reference/services/SoftLayer_Account
-http://sldn.softlayer.com/reference/services/SoftLayer_Account/getInvoices
-http://sldn.softlayer.com/reference/services/SoftLayer_Billing_Invoice/getItems
-http://sldn.softlayer.com/reference/datatypes/SoftLayer_Billing_Invoice_Item
-https://sldn.softlayer.com/article/object-Filters
-https://sldn.softlayer.com/article/object-Masks
-
-License: http://sldn.softlayer.com/article/License
-Author: SoftLayer Technologies, Inc. <sldn@softlayer.com>
-*/
+```
 package main
 
 import (
@@ -99,7 +80,7 @@ func main() {
 
 		// Print Id, createDate and typeCode of each invoice
 		fmt.Printf("\n\nINVOICE ID: %d\t CREATE DATE: %s\t TYPE CODE: %s\n\n",
-			invoice.Id, invoice.CreateDate, *invoice.TypeCode)
+			*invoice.Id, *invoice.CreateDate, *invoice.TypeCode)
 
 		// Some invoices have hundred of items and to avoid limitSize or timeout errors
 		// we'll use result limits in order to get items 100 by 100.
