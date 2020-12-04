@@ -1,6 +1,6 @@
 ---
 title: "getAllObjects"
-description: ""
+description: "Object filters and result limits are enabled on this method."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_User_Permission_Action](/reference/services/SoftLayer_User_Permission_Action)::getAllObjects
 
-
+Retrieve all customer permission actions in IMS.
 
 
 ## Overview 
-
+Object filters and result limits are enabled on this method. 
 
 -----
 

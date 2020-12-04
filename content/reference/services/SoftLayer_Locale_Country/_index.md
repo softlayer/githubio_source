@@ -70,6 +70,12 @@ Retrieve a SoftLayer_Locale_Country record.
 
 <div class="method-row">
 
+#### [getPostalCodeRequiredCountryCodes](/reference/services/SoftLayer_Locale_Country/getPostalCodeRequiredCountryCodes)
+
+</div>
+
+<div class="method-row">
+
 #### [getStates](/reference/services/SoftLayer_Locale_Country/getStates)
 Retrieve states that belong to this country.
 </div>

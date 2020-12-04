@@ -1,6 +1,6 @@
 ---
 title: "removeBulkActions"
-description: ""
+description: "Unassigns multiple SoftLayer_User_Permission_Action objects from the group."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_User_Permission_Group](/reference/services/SoftLayer_User_Permission_Group)::removeBulkActions
 
-
+Remove a list of permission actions from the group.
 
 
 ## Overview 
-
+Unassigns multiple SoftLayer_User_Permission_Action objects from the group. 
 
 -----
 
@@ -35,6 +35,17 @@ aliases:
 ### Return Values
 * void
 
+
+
+### Error Handling
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throws the exception "You cannot remove action to group: Permission Denied." if a customer user attempts this request without the proper permission. 
+
+* SoftLayer_Exception_User_Permission_Inaccessible 
+
+> Throws the exception "Can't access action" if the permission action does not exist. 
 
 
 

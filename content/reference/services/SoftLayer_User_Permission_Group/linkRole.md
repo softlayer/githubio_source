@@ -1,6 +1,6 @@
 ---
 title: "linkRole"
-description: ""
+description: "Links a SoftLayer_User_Permission_Role object to the group."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_User_Permission_Group](/reference/services/SoftLayer_User_Permission_Group)::linkRole
 
-
+Links a permission role to the group.
 
 
 ## Overview 
-
+Links a SoftLayer_User_Permission_Role object to the group. 
 
 -----
 
@@ -35,6 +35,17 @@ aliases:
 ### Return Values
 * void
 
+
+
+### Error Handling
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throws the exception "Can't link role and group: Permission Denied." if a customer user attempts this request without the proper permission. 
+
+* SoftLayer_Exception_User_Permission_Inaccessible 
+
+> Throws the exception "Invalid role" if the permission role does not exist. 
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_User_Permission_Role"
-description: ""
+description: "The SoftLayer_User_Permission_Role data type contains local attributes to identify and describe the permission roles tha... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,9 @@ classes:
 </div>
 
 ## Description 
+The SoftLayer_User_Permission_Role data type contains local attributes to identify and describe the permission roles that have been created within IMS.  These includes a name, description, and account id.  Permission groups are defined specifically for a single [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}). 
 
+It also contains relational attributes that indicate what SoftLayer_User_Permission_Group objects are linked to a particular role, and the SoftLayer_User_Customer objects assigned to the role. 
 
 
 
@@ -44,7 +46,7 @@ classes:
 -----
 [accountId]: #accountid
 #### [accountId]
-A permission roles associated [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) id.  
+Id of a [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) to which this role belongs.  
 <span class="type-label">Type: </span>**integer**
 
 

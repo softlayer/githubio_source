@@ -538,6 +538,16 @@ The first update made to a ticket. This is typically the contents of a ticket wh
 <div class="prop-row">
 
 -----
+[fsboaSupportedFlag]: #fsboasupportedflag
+#### [fsboaSupportedFlag]
+A ticket's associated FSBOA compliant record  
+<span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [group]: #group
 #### [group]
 The SoftLayer department that a ticket is assigned to.  

@@ -287,6 +287,12 @@ Retrieve the first update made to a ticket. This is typically the contents of a 
 
 <div class="method-row">
 
+#### [getFsboaSupportedFlag](/reference/services/SoftLayer_Ticket/getFsboaSupportedFlag)
+Retrieve a ticket's associated FSBOA compliant record
+</div>
+
+<div class="method-row">
+
 #### [getGroup](/reference/services/SoftLayer_Ticket/getGroup)
 Retrieve the SoftLayer department that a ticket is assigned to.
 </div>

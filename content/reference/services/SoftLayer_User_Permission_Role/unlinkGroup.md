@@ -1,6 +1,6 @@
 ---
 title: "unlinkGroup"
-description: ""
+description: "Unlinks a SoftLayer_User_Permission_Group object to the role."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_User_Permission_Role](/reference/services/SoftLayer_User_Permission_Role)::unlinkGroup
 
-
+Unlinks a permission group to the role.
 
 
 ## Overview 
-
+Unlinks a SoftLayer_User_Permission_Group object to the role. 
 
 -----
 
@@ -35,6 +35,17 @@ aliases:
 ### Return Values
 * void
 
+
+
+### Error Handling
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throws the exception "Can't unlink role and group: Permission Denied." if a customer user attempts this request without the proper permission. 
+
+* SoftLayer_Exception_User_Permission_Inaccessible 
+
+> Throws the exception "Invalid group" if the permission group does not exist. 
 
 
 
