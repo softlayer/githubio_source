@@ -1,6 +1,6 @@
 ---
 title: "Managing Metric Tracking Object services"
-description: "How to interact with the Metric Tracking Object services. Order CDN, manage mappings and other related functions"
+description: "How to interact with the Metric Tracking Object services. How to get summary and graph data."
 date: "2020-10-07"
 classes: 
     - "SoftLayer_Virtual_Guest"
