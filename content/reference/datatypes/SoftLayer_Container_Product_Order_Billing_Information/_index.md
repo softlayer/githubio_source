@@ -222,6 +222,30 @@ If true, order is being placed by a business.
 <div class="prop-row">
 
 -----
+[payerAuthenticationEnrollmentReferenceId]: #payerauthenticationenrollmentreferenceid
+#### [payerAuthenticationEnrollmentReferenceId]
+The purpose of this property is to allow enablement of 3D Secure (3DS). This is the Reference ID that corresponds to the device data for Payer Authentication. In order to properly enable 3DS, this will require implementation of Cardinal Cruise Hybrid. 
+
+Please refer to https://cardinaldocs.atlassian.net/wiki/spaces/CC/pages/360668/Cardinal+Cruise+Hybrid and view section under "DFReferenceId / ReferenceId" to populate this property accordingly.   
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[payerAuthenticationWebToken]: #payerauthenticationwebtoken
+#### [payerAuthenticationWebToken]
+"Continue with Consumer Authentication" decoded response JWT (JSON Web Token) after successful authentication. The response is part of the implementation of Cardinal Cruise Hybrid. 
+
+Please refer to https://cardinaldocs.atlassian.net/wiki/spaces/CC/pages/360668/Cardinal+Cruise+Hybrid and view section under "Continue with Consumer Authentication" to populate this property accordingly based on the CCA response.   
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [taxExempt]: #taxexempt
 #### [taxExempt]
 Tax exempt status. 1 = exempt (not taxable),  0 = not exempt (taxable)  

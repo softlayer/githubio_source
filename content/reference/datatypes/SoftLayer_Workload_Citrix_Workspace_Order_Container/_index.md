@@ -140,8 +140,18 @@ The specific [SoftLayer_Location_Datacenter]({{<ref "reference/datatypes/SoftLay
 -----
 [orderContainers]: #ordercontainers
 #### [orderContainers]
-There should be one child orderContainer for each component ordered.  The containerIdentifier should be set on each and have these exact values: proxy server bare metal server with hypervisor dhcp server citrix connector servers active directory server vlan subnet storage   
+There should be one child orderContainer for each component ordered.  The containerIdentifier should be set on each and have these exact values: proxy server, bare metal server with hypervisor, dhcp server, citrix connector servers, active directory server, vlan, subnet, storage   
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[vmwareContainer]: #vmwarecontainer
+#### [vmwareContainer]
+Set this value to order IBM Cloud for VMware Solutions servers as part of your Citrix Virtual Apps and Desktops order   
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Workspace_Order_VMwareContainer'>SoftLayer_Workload_Citrix_Workspace_Order_VMwareContainer </a>**
 
 
 </div>

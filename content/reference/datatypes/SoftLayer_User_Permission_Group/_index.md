@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_User_Permission_Group"
-description: ""
+description: "The SoftLayer_User_Permission_Group data type contains local attributes to identify and describe the permission groups t... "
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,9 @@ classes:
 </div>
 
 ## Description 
+The SoftLayer_User_Permission_Group data type contains local attributes to identify and describe the permission groups that have been created within IMS.  These includes a name, description, and account id.  Permission groups are defined specifically for a single [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}). 
 
+It also contains relational attributes that indicate what SoftLayer_User_Permission_Action objects belong to a particular group, and what SoftLayer_User_Permission_Role objects the group is linked. 
 
 
 
@@ -74,7 +76,7 @@ The description of the permission group.
 -----
 [expirationDate]: #expirationdate
 #### [expirationDate]
-The date the temporary group will be destroyed.  
+The date the group will be destroyed.  
 <span class="type-label">Type: </span>**dateTime**
 
 

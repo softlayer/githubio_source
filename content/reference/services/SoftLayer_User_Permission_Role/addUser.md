@@ -1,6 +1,6 @@
 ---
 title: "addUser"
-description: ""
+description: "Assigns a SoftLayer_User_Customer object to the role."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_User_Permission_Role](/reference/services/SoftLayer_User_Permission_Role)::addUser
 
-
+Assign a user customer to the role.
 
 
 ## Overview 
-
+Assigns a SoftLayer_User_Customer object to the role. 
 
 -----
 
@@ -35,6 +35,17 @@ aliases:
 ### Return Values
 * void
 
+
+
+### Error Handling
+
+* SoftLayer_Exception_PermissionDenied 
+
+> Throws the exception "Can't add user to role: Permission Denied." if a customer user attempts this request without the proper permission. 
+
+* SoftLayer_Exception_User_Permission_Inaccessible 
+
+> Throws the exception "Invalid user" if the user customer does not exist. 
 
 
 
