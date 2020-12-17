@@ -23,7 +23,7 @@ IBMid is how access is managed across IBM's cloud platform. Basically it is the 
 To authenticate with a SoftLaye username and APIkey, you will first need your accounts username. If you are using IBMid to authenticate, this is usually not your email address. The SoftLayer username will usually be in the form of `<ACCOUNT_ID>_<EMAIL_ADDRESS@email.com>`. 
 
 In the portal, this username will also be your VPN username for this account. You can find this in the cloud console by going to 
-> *Manage* -> *Access (IAM)* -> Users -> <select your user> -> VPN section
+> *Manage* -> *Access (IAM)* -> Users -> \<select your user\> -> VPN section
 
 
 Next you will need your API key. This is under the "classic infrastructure" dropdown of the [apikeys](https://cloud.ibm.com/iam/apikeys) page. You can only have one classic infrastructure API key per user. Once created, it will not be displayed again, so make sure to write it down.
