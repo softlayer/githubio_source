@@ -12,6 +12,11 @@ tags:
 IBMid is how access is managed across IBM's cloud platform. Basically it is the email and password you use to login to https://cloud.ibm.com . Once IBMid can have access to multiple accounts. For accessing Classic Infrastructure (AKA SoftLayer) services, this IBMid will have a SoftLayer user on each account they have access to. 
 
 
+## IAM Documentation:
+- [IAM API](https://cloud.ibm.com/apidocs/iam-identity-token-api)
+- [API Keys for Services](https://cloud.ibm.com/docs/account?topic=account-iamapikeysforservices)
+- [User Management](https://cloud.ibm.com/apidocs/user-management#list-users)
+
 
 # [SoftLayer Username and API key](#softlayer-api) {#softlayer-api .anchor-link}
 
