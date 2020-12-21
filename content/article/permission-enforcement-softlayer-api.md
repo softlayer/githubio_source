@@ -132,8 +132,8 @@ If a user has any of the `ACCESS_ALL_` type of permission, that will give them a
 To change a user’s hardware restrictions using a direct API call, use the following guidelines based on the task you would like to accomplish:
 
 
-* To add user hardware access, execute either the addHardwareAccess or addBulkHardwareAccess methods in the SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer/) service.
-* To remove user hardware access execute either the removeHardwareAccess or removeBulkHardwareAccess methods in the SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer/)  service.
+* To add user hardware access, execute either the addHardwareAccess or addBulkHardwareAccess methods in the [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer/) service.
+* To remove user hardware access execute either the removeHardwareAccess or removeBulkHardwareAccess methods in the [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer/)  service.
 
 The same applies for virtualGuest access as well, with just a different method to call.
 
@@ -142,3 +142,4 @@ The same applies for virtualGuest access as well, with just a different method t
 * [Permission Examples](/tags/permissions/)
 * [Permission Service](/reference/services/SoftLayer_User_Customer_CustomerPermission_Permission/)
 * [Customer Service](/reference/services/SoftLayer_User_Customer/)
+* [Python Example](/python/user_customer_permissions.py/
