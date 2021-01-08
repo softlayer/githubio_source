@@ -44,7 +44,7 @@ Retrieve the subnet associated with an IP address. You may only retrieve subnets
 
 * SoftLayer_Exception 
 
-> Throw the exception "You must provide a valid IP address." if the ''ipAddress'' parameter is not a valid IPv4 address. 
+> Throw the exception "You must provide a valid IP address." if the ''ipAddress'' parameter is not a valid IP address. 
 
 * SoftLayer_Exception 
 
