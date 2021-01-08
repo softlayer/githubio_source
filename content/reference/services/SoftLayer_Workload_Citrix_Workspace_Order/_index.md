@@ -40,6 +40,24 @@ This service is used to order an implementation of Citrix Virtual Apps and Deskt
 
 <div class="method-row">
 
+#### [cancelWorkspaceResources](/reference/services/SoftLayer_Workload_Citrix_Workspace_Order/cancelWorkspaceResources)
+Cancel the orders associated with resources on the provided VLAN
+</div>
+
+<div class="method-row">
+
+#### [getWorkspaceNames](/reference/services/SoftLayer_Workload_Citrix_Workspace_Order/getWorkspaceNames)
+Get a list of all VLAN names which have 'cvad' tags associated with them.
+</div>
+
+<div class="method-row">
+
+#### [getWorkspaceResources](/reference/services/SoftLayer_Workload_Citrix_Workspace_Order/getWorkspaceResources)
+List the orders associated with resources on the provided VLAN
+</div>
+
+<div class="method-row">
+
 #### [placeWorkspaceOrder](/reference/services/SoftLayer_Workload_Citrix_Workspace_Order/placeWorkspaceOrder)
 
 </div>

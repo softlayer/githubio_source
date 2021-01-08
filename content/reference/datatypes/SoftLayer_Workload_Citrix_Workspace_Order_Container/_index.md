@@ -78,6 +78,16 @@ The active directory safe mode password
 <div class="prop-row">
 
 -----
+[activeDirectoryTopology]: #activedirectorytopology
+#### [activeDirectoryTopology]
+The active directory topology  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [citrixAPIClientId]: #citrixapiclientid
 #### [citrixAPIClientId]
 The Citrix API Client Id  

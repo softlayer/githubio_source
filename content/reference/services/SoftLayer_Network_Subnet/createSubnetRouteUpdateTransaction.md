@@ -1,6 +1,7 @@
 ---
 title: "createSubnetRouteUpdateTransaction"
-description: "This function is used to create a new transaction to modify a subnet route. Routes are updated in one to two minutes dep... "
+description: "***DEPRECATED***
+This endpoint is deprecated in favor of the more expressive and capable SoftLayer_Network_Subnet::route... "
 layout: "method"
 tags:
     - "method"
@@ -17,9 +18,11 @@ create a new transaction to modify a subnet route.
 
 
 ## Overview 
-This function is used to create a new transaction to modify a subnet route. Routes are updated in one to two minutes depending on the number of transactions that are pending for a router. 
 
-Usage of this function is restricted and may only be called from authorized accounts. It is not available for general API users without justification and consent from a SoftLayer representative. 
+***DEPRECATED***
+This endpoint is deprecated in favor of the more expressive and capable SoftLayer_Network_Subnet::route, to which this endpoint now proxies. Refer to it for more information. 
+
+Similarly, unroute requests are proxied to SoftLayer_Network_Subnet::clearRoute. 
 
 -----
 
