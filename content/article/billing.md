@@ -46,6 +46,13 @@ This method will return all invoices your account has ever had, which can be qui
 curl -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getInvoices.json?objectMask=mask[invoiceTotalAmount,itemCount]&resultLimit=0,50&objectFilter={"invoices":{"createDate":{"operation":"orderBy","options":[{"name":"sort","value":["DESC"]}]}}}'
 ```
 
+To filter between a certain set of dates, use this:
+```shell
+slcli --format=json -vvv call-api SoftLayer_Account getInvoices --mask="mask[id,createDate,invoiceTotalAmount,itemCount]" --json-filter='{"invoices":{"createDate":{"operation":"betweenDate","options":[{"name":"startDate","value":["12/01/2020"]},{"name":"endDate","value":["02/01/2021"]}]}}}'
+
+curl -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getInvoices.json?objectMask=mask[id,createDate,invoiceTotalAmount,itemCount]&objectFilter={"invoices":{"createDate":{"operation":"betweenDate","options":[{"name":"startDate","value":["12/01/2020"]},{"name":"endDate","value":["02/01/2021"]}]}}}'
+```
+
 #### [SoftLayer_Account::getLatestRecurringInvoice](/reference/services/SoftLayer_Account/getLatestRecurringInvoice/)
 
 `getLatestRecurringInvoice` will only return the latest recurring invoice, as the name suggests. This invoice will generally be for the current billing period which needs to be paid. 
@@ -94,6 +101,13 @@ base64 -D  -i invoice.base64 -o invoice.pdf
 
 -----------------------------
 
+## Your Next Invoice
+[SoftLayer_Account::getNextInvoiceTopLevelBillingItems()](https://sldn.softlayer.com/reference/services/SoftLayer_Account/getNextInvoiceTopLevelBillingItems/) will return all of the billing items that will show up on the next invoice, assuming nothing changes between now and the next invoice creation.
+
+```shell
+slcli --format=json -vvv call-api SoftLayer_Account getNextInvoiceTopLevelBillingItems --limit=10
+curl -u $SL_USER:$SL_APIKEY  'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getNextInvoiceTopLevelBillingItems.json?resultLimit=0%2C10'
+```
 
 ## [Billing_Invoice_Item](/reference/datatypes/SoftLayer_Billing_Invoice_Item/)
 
