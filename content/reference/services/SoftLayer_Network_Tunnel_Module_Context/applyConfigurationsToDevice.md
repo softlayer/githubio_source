@@ -1,6 +1,6 @@
 ---
 title: "applyConfigurationsToDevice"
-description: "A transaction will be created to apply the IPSec network tunnel's configuration to SoftLayer network devices.  During th... "
+description: "An asynchronous task will be created to apply the IPSec network tunnel's configuration to network devices. During this t... "
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Apply current configuration settings to the network device
 
 
 ## Overview 
-A transaction will be created to apply the IPSec network tunnel's configuration to SoftLayer network devices.  During this time, an IPSec network tunnel cannot be modified in anyway.  Only one network tunnel configuration transaction can be created.  If a transaction has been created or is running, a new transaction cannot be created until the previous transaction completes. 
+An asynchronous task will be created to apply the IPSec network tunnel's configuration to network devices. During this time, an IPSec network tunnel cannot be modified in anyway. Only one network tunnel configuration task can be created at a time. If a task has already been created and has not completed, a new task cannot be created. 
 
 -----
 
@@ -47,9 +47,23 @@ A transaction will be created to apply the IPSec network tunnel's configuration 
 *  [SoftLayer_Network_Tunnel_Module_Context::createAddressTranslations](/reference/services/SoftLayer_Network_Tunnel_Module_Context/createAddressTranslations )
 *  [SoftLayer_Network_Tunnel_Module_Context::editAddressTranslation](/reference/services/SoftLayer_Network_Tunnel_Module_Context/editAddressTranslation )
 *  [SoftLayer_Network_Tunnel_Module_Context::editAddressTranslations](/reference/services/SoftLayer_Network_Tunnel_Module_Context/editAddressTranslations )
-*  [SoftLayer_Network_Tunnel_Module_Context::applyConfigurationsToDevice](/reference/services/SoftLayer_Network_Tunnel_Module_Context/applyConfigurationsToDevice )
 *  [SoftLayer_Network_Tunnel_Module_Context::editObject](/reference/services/SoftLayer_Network_Tunnel_Module_Context/editObject )
 
+
+
+### Error Handling
+
+* SoftLayer_Exception_NotReady 
+
+> <<< EOT 
+
+* SoftLayer_Exception_NotReady 
+
+> <<< EOT 
+
+* SoftLayer_Exception_NotReady 
+
+> <<< EOT 
 
 
 

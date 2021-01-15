@@ -160,7 +160,7 @@ Device Fingerprint Identifier - Optional.
 -----
 [displayLayerSessionId]: #displaylayersessionid
 #### [displayLayerSessionId]
-This is the configuration identifier for tracking orders on the HTML order forms.   
+This has been deprecated. It is the identifier used to track configurations in legacy order forms.   
 <span class="type-label">Type: </span>**string**
 
 

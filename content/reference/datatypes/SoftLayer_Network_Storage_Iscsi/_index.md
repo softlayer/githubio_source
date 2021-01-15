@@ -458,6 +458,16 @@ Determines whether dependent volume provision is completed on background.
 <div class="prop-row">
 
 -----
+[isInDedicatedServiceResource]: #isindedicatedserviceresource
+#### [isInDedicatedServiceResource]
+  
+<span class="type-label">Type: </span>**boolean**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [isReadyForSnapshot]: #isreadyforsnapshot
 #### [isReadyForSnapshot]
 Determines whether a volume is ready to order snapshot space, or, if snapshot space is already available, to assign a snapshot schedule, or to take a manual snapshot.  
