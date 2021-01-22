@@ -1,6 +1,6 @@
 ---
 title: "getVsrxOrdersAllowedOS"
-description: "Used to get a list per package of prices ids for allowed vSRX OS-es for new orders"
+description: "Used to get a list per package of prices ids for allowed vSRX OS-es for new orders."
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ aliases:
 
 
 ## Overview 
-Used to get a list per package of prices ids for allowed vSRX OS-es for new orders 
+Used to get a list per package of prices ids for allowed vSRX OS-es for new orders. 
 
 
 
@@ -27,6 +27,7 @@ Used to get a list per package of prices ids for allowed vSRX OS-es for new orde
 |Name | Type | Description |
 | --- | --- | --- |
 |accountId| integer| |
+|validate| boolean| [optional] [default true]|
 
 
 ### Required Headers
