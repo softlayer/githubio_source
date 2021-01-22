@@ -9,7 +9,7 @@ tags:
     - "managepassword"
 ---
 
-###Create a Virtual Guest Credential
+### Create a Virtual Guest Credential
 
 ```python
 from pprint import pprint
@@ -84,7 +84,7 @@ if __name__ == "__main__":
 
 ```
 
-###Edit a Virtual Guest Credential
+### Edit a Virtual Guest Credential
 
 ```python
 from pprint import pprint
@@ -150,7 +150,7 @@ if __name__ == "__main__":
 
 ```
 
-###Delete a Virtual Guest Credential
+### Delete a Virtual Guest Credential
 ```python
 from pprint import pprint
 
