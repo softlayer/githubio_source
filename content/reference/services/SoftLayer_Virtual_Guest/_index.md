@@ -178,6 +178,12 @@ Reboot a Linux guest into the Xen rescue image.
 
 <div class="method-row">
 
+#### [findByHostname](/reference/services/SoftLayer_Virtual_Guest/findByHostname)
+
+</div>
+
+<div class="method-row">
+
 #### [findByIpAddress](/reference/services/SoftLayer_Virtual_Guest/findByIpAddress)
 Find CCI by its primary public or private IP (ipv4) address.
 </div>
