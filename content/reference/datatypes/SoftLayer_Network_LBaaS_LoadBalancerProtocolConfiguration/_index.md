@@ -54,7 +54,7 @@ Backends port
 -----
 [backendProtocol]: #backendprotocol
 #### [backendProtocol]
-<<EOT  
+Backends protocol. Valid values are "TCP", "HTTP"   
 <span class="type-label">Type: </span>**string**
 
 
@@ -84,7 +84,7 @@ Frontends port
 -----
 [frontendProtocol]: #frontendprotocol
 #### [frontendProtocol]
-<<EOT  
+Frontends protocol. Valid values are "TCP", "HTTP" and "HTTPS"   
 <span class="type-label">Type: </span>**string**
 
 
@@ -104,7 +104,7 @@ Listeners UUID, required for update only
 -----
 [loadBalancingMethod]: #loadbalancingmethod
 #### [loadBalancingMethod]
-<<EOT  
+Load balancing method. Valid values are "ROUNDROBIN", "WEIGHTED_RR" and "LEASTCONNECTION"   
 <span class="type-label">Type: </span>**string**
 
 
