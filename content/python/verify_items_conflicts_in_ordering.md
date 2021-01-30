@@ -31,27 +31,28 @@ class ItemsConflicts:
         self.client = SoftLayer.create_client_from_env()
         # slcli order package-list --package_type BARE_METAL_CPU
         # Will get you available package keynames
-        self.package_keyname = "DUAL_E52600_V4_4_DRIVES"
+        self.package_keyname = "DUAL_INTEL_XEON_PROCESSOR_SCALABLE_FAMILY_4_DRIVES"
         self.complex_type = 'SoftLayer_Container_Product_Order_Hardware_Server'
 
     def order(self, dc):
         order_svc = self.client['Product_Order']
 
-        order_items = self.itemKeynameList()
-
-        extras = \
-            {"hardware": [
+        order_items = self.item_keynames()
+        extras = {
+            "hardware": [
                 {"hostname": "testOrder1", "domain": "test.com"}
             ],
-                "sshKeys": [87634],
-                "tags": "server, test"}
+            "sshKeys": [87634],
+            "tags": "server, test"
+        }
         if not self.items_conflicts(order_items):
-            server_order = self.getOrderObject(dc, order_items, extras, 1)
-            verify = order_svc.verifyOrder(server_order)
-            # verify = order_svc.placeOrder(server_order)
-            pprint(verify)
+            server_order = self.get_order(dc, order_items, extras, 1)
+            order = order_svc.verifyOrder(server_order)
+            # Uncomment next line for ordering
+            # order = order_svc.placeOrder(server_order)
+            pprint(order)
 
-    def getOrderObject(self, dc, items, extras, quantity=1):
+    def get_order(self, dc, items, extras, quantity=1):
         """Uses the ordering manager to build a order object"""
         om = ordering.OrderingManager(
             self.client)
@@ -66,7 +67,7 @@ class ItemsConflicts:
             quantity)
         return order
 
-    def itemKeynameList(self):
+    def item_keynames(self):
         """Builds a list of item keyNames needed to order"""
 
         required_items = [
@@ -82,9 +83,8 @@ class ItemsConflicts:
             "RAM_128_GB_DDR4_2133_ECC_REG",
             "REBOOT_KVM_OVER_IP",
             "AUTOMATED_NOTIFICATION",
-            "INTEL_INTEL_XEON_E52690_V4_2_60",
             "UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT",
-
+            "INTEL_INTEL_XEON_4110_2_10",
             # e.g. antivirus Windows has a conflict with OS linux.
             'MCAFEE_VIRUSSCAN_ANTIVIRUS_WINDOWS',
         ]
@@ -118,6 +118,4 @@ class ItemsConflicts:
 if __name__ == "__main__":
     main = ItemsConflicts()
     main.order('dal09')
-
-
 ```
