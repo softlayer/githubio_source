@@ -14,11 +14,12 @@ tags:
     - "conflicts"
     - "item"
     - "placeorder"
+    - "verifyorder"
 ---
 This example goes over how to find items conflicts in ordering, e.g. antivirus Windows has a conflict with OS linux, https://sldn.softlayer.com/reference/datatypes/SoftLayer_Product_Item/#conflicts
 
 
-```
+```python
 import SoftLayer
 from SoftLayer.managers import ordering
 from pprint import pprint
