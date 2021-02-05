@@ -1041,6 +1041,12 @@ Retrieve parent Hardware.
 
 <div class="method-row">
 
+#### [getPartitions](/reference/services/SoftLayer_Hardware_SecurityModule/getPartitions)
+
+</div>
+
+<div class="method-row">
+
 #### [getPointOfPresenceLocation](/reference/services/SoftLayer_Hardware_SecurityModule/getPointOfPresenceLocation)
 Retrieve information regarding the Point of Presence (PoP) location in which a piece of hardware resides.
 </div>

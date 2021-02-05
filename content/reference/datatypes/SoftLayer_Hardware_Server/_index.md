@@ -1387,6 +1387,16 @@ Parent Hardware.
 <div class="prop-row">
 
 -----
+[partitions]: #partitions
+#### [partitions]
+  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Server_Partition'>SoftLayer_Hardware_Server_Partition[] </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [pointOfPresenceLocation]: #pointofpresencelocation
 #### [pointOfPresenceLocation]
 Information regarding the Point of Presence (PoP) location in which a piece of hardware resides.  
@@ -2371,6 +2381,16 @@ A count of
 -----
 [nvRamComponentModelCount]: #nvramcomponentmodelcount
 #### [nvRamComponentModelCount]
+A count of    
+<span class="type-label">Type: </span>**unsigned long**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[partitionCount]: #partitioncount
+#### [partitionCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 

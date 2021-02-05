@@ -74,7 +74,7 @@ The ID of a L7 pool member.
 -----
 [modifyDate]: #modifydate
 #### [modifyDate]
-<<<EOT Specifies when a L7 Pool  
+<<< EOT Specifies when a L7 Pool  
 <span class="type-label">Type: </span>**dateTime**
 
 
