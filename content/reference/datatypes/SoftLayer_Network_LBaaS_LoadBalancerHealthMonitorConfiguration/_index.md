@@ -54,7 +54,7 @@ Backends port
 -----
 [backendProtocol]: #backendprotocol
 #### [backendProtocol]
-<<EOT  
+Backends protocol. Valid values are "TCP", "HTTP"   
 <span class="type-label">Type: </span>**string**
 
 
@@ -74,7 +74,7 @@ Health Monitor UUID, required for update only
 -----
 [interval]: #interval
 #### [interval]
-Interval in seconds to perform  
+<<< EOT Interval in seconds to perform  
 <span class="type-label">Type: </span>**integer**
 
 
@@ -84,7 +84,7 @@ Interval in seconds to perform
 -----
 [maxRetries]: #maxretries
 #### [maxRetries]
-<<EOT  
+Max number of retries until the member is considered as DOWN   
 <span class="type-label">Type: </span>**integer**
 
 
