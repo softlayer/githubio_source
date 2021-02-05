@@ -95,16 +95,6 @@ classes:
 
 
 </div>
-<div class="prop-row">
-
------
-[networkComponents]: #networkcomponents
-#### [networkComponents]
-  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>**
-
-
-</div>
 
 ## Count
 <div class="prop-row">
@@ -112,16 +102,6 @@ classes:
 -----
 [networkComponentAttributeCount]: #networkcomponentattributecount
 #### [networkComponentAttributeCount]
-A count of    
-<span class="type-label">Type: </span>**unsigned long**
-
-
-</div>
-<div class="prop-row">
-
------
-[networkComponentCount]: #networkcomponentcount
-#### [networkComponentCount]
 A count of    
 <span class="type-label">Type: </span>**unsigned long**
 
