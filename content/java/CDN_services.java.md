@@ -52,7 +52,7 @@ public class CdnServices {
         String param ="{'certificateType':'SHARED_SAN_CERT'," +
                 "'httpPort':80," +
                 "'originType':'HOST_SERVER','" +
-                "vendorName':'enrique'," +
+                "vendor Name':'akamai'," +
                 "'origin':'10.32.12.125'," +
                 "'header':'www.techsuppottest.com'," +
                 "'path':'/'," +
@@ -85,7 +85,7 @@ public class CdnServices {
         input.setCertificateType(paramObject.get("certificateType"));
         input.setHttpPort(Long.valueOf(paramObject.get("httpPort")));
         input.setOriginType(paramObject.get("originType"));
-        input.setVendorName(paramObject.get("vendorName"));
+        input.setVendorName(paramObject.get("vendor Name"));
         input.setOrigin(paramObject.get("origin"));
         input.setHeader(paramObject.get("header"));
         input.setPath(paramObject.get("path"));
@@ -113,7 +113,7 @@ public class CdnServices {
         input.setCertificateType(String.valueOf(paramObject.get("certificateType")));
         input.setHttpPort(Long.valueOf(paramObject.get("httpPort")));
         input.setOriginType(String.valueOf(paramObject.get("originType")));
-        input.setVendorName(String.valueOf(paramObject.get("vendorName")));
+        input.setVendorName(String.valueOf(paramObject.get("vendor Name")));
         input.setOrigin(String.valueOf(paramObject.get("origin")));
         input.setHeader(String.valueOf(paramObject.get("header")));
         input.setPath(String.valueOf(paramObject.get("path")));
