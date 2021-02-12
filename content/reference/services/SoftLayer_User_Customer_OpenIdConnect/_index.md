@@ -173,7 +173,7 @@ Create a new user record.
 <div class="method-row">
 
 #### [createOpenIdConnectUserAndCompleteInvitation](/reference/services/SoftLayer_User_Customer_OpenIdConnect/createOpenIdConnectUserAndCompleteInvitation)
-Completes invitation processing when a new OpenIdConnect user must be created and return an access token.
+Completes invitation processing when a new OpenIdConnect user must be created.
 </div>
 
 <div class="method-row">
