@@ -120,7 +120,7 @@ classes:
 -----
 [serviceProvider]: #serviceprovider
 #### [serviceProvider]
-  
+DEPRECATED  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>**
 
 
