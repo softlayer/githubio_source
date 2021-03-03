@@ -7,17 +7,19 @@ classes:
     - "SoftLayer_Billing_Order_Quote"
 tags:
     - "quotes"
+    - "ordering"
+
 ---
 
 ### Setup
-All the functions defined in this article will be part of this `Example` class. Which only sets up the SoftLayer Client, and configures the debugger, which allows you to see the exact API calls being made.
+All the functions defined in this article will be part of this `QuoteExample` class. Which only sets up the SoftLayer Client, and configures the debugger, which allows you to see the exact API calls being made.
 
 ```python
 import SoftLayer
 from SoftLayer.managers.ordering import OrderingManager
 from pprint import pprint
 
-class Example:
+class QuoteExample:
 
     def __init__(self):
         self.client = SoftLayer.create_client_from_env()
@@ -110,7 +112,7 @@ class Example:
 
 ```
 ## Saving a Quote
-
+Quotes generally expire after a few days, saving a quote will prevent the system from removing it, letting you order from this quote in the future.
 ### Python
 ```python
 
@@ -138,7 +140,7 @@ class Example:
 
 if __name__ == '__main__':
     quote_identifier=12345
-    quote = Example()
+    quote = QuoteExample()
     quote.create_quote()
     quote.list_active_quotes()
     quote.get_quote_details(quote_identifier)
