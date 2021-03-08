@@ -101,3 +101,45 @@ slcli vs create --os=UBUNTU_LATEST_64 \
     --hostname=sldn-testing  \
     --datacenter=hou02
 ```
+
+# Getting a flavor of a VSI existent 
+
+
+[SoftLayer_Virtual_Guest::getObject](https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/getObject/)  is where you can find out the flavor preset of the VSI specific, use with a mask to getting the information
+
+In the response from getObject, will be a VSI information, and with information about their flavor [preset](https://sldn.softlayer.com/reference/datatypes/SoftLayer_Billing_Order_Item/#preset).
+
+
+``` 
+https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest/123456/getObject?objectMask=mask[billingItem[orderItem[preset]]]
+```
+
+The same information can be retrieved from the SLCLI as well.
+
+
+```
+slcli --format=json call-api Virtual_Guest getObject 
+          --id=123456 
+          --mask=billingItem.orderItem.preset
+```
+
+
+# Getting a order of a VSI existent
+
+[SoftLayer_Virtual_Guest::getObject](https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/getObject/) is where you can find out the order details of the VSI specific, use with a mask to getting the information
+
+In the response from getObject, will be a VSI information, and with information about their [order](https://sldn.softlayer.com/reference/datatypes/SoftLayer_Billing_Order/#items) with items.
+
+
+``` 
+https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest/123456/getObject?objectMask=mask[billingItem[orderItem[order[items]]]]
+```
+
+The same information can be retrieved from the SLCLI as well.
+
+
+```
+slcli --format=json call-api Virtual_Guest getObject 
+          --id=123456 
+          --mask=billingItem.orderItem.order.items
+```
