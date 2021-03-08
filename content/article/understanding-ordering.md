@@ -613,3 +613,87 @@ Turns into:
 ```
 curl -u $SL_USER:$SL_APIKEY -X POST -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress" -d '{"parameters": [{"orderContainers": [{"hardware": [{"domain": "test-cgallo.com", "hostname": "testOrderCANCEL"}, {"primaryBackendNetworkComponent": {"networkVlan": {"id": 2257307}}}], "packageId": 257, "quantity": 1, "location": 1854895, "useHourlyPricing": false, "complexType": "SoftLayer_Container_Product_Order_Hardware_Server", "prices": [{"id": 49515}, {"id": 49415}, {"id": 48999}, {"id": 876}, {"id": 49759}, {"id": 50357}, {"id": 274}, {"id": 21}, {"id": 906}, {"id": 418}, {"id": 57}, {"id": 56}, {"id": 420}, {"id": 58}]}]}]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Order/verifyOrder.json'
 ```
+
+
+## Step by Step Example with ibmcloud CLI
+These commands will use the `ibmcloud sl` command, but it works the same way as `slcli`. The only big difference is `ibmcloud` requires Items be a comma seperated list, where `slcli` requires them be space seperated.
+
+Here we want to order a Cascade Lake Dual Xeon server.
+
+
+#### Get the package.
+
+```
+$ ibmcloud sl order package-list | grep -i Cascade
+1105   Dual Intel Xeon Processor Cascade Lake Scalable Family (4 Drives)         DUAL_INTEL_XEON_PROCESSOR_CASCADE_LAKE_SCALABLE_FAMILY_4_DRIVES   BARE_METAL_CPU
+1107   Dual Intel Xeon Processor Cascade Lake Scalable Family (12 Drives)        DUAL_INTEL_XEON_PROC_CASCADE_LAKE_SCALABLE_FAMILY_12_DRIVES       BARE_METAL_CPU
+```
+
+#### Get the Items
+
+```
+ibmcloud sl order item-list DUAL_INTEL_XEON_PROCESSOR_CASCADE_LAKE_SCALABLE_FAMILY_4_DRIVES
+```
+
+From that list you'll need to select the Processor (`INTEL_XEON_4210_2_20`), RAM (`RAM_32_GB_DDR4_2133_ECC_NON_REG`), OS (`OS_DEBIAN_10_X_BUSTER_MINIMAL_64_BIT`), Port Speed (`1_GBPS_REDUNDANT_PUBLIC_PRIVATE_NETWORK_UPLINKS`, assuming you wanted redundany, but unbonded is an option of too), RAID (`DISK_CONTROLLER_RAID`), DISKS ( 2 of `HARD_DRIVE_2_00_TB_SATA_2` or `HARD_DRIVE_1_9_TB_SSD` if you wanted the SSD drives) and a few other required items (`BANDWIDTH_1000_GB`, `REBOOT_KVM_OVER_IP`, `1_IP_ADDRESS`, `UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT`, `NOTIFICATION_EMAIL_AND_TICKET `, `AUTOMATED_NOTIFICATION`, `MONITORING_HOST_PING`)
+
+
+#### (Optional) SSH Keys
+
+The `ibmcloud sl` command doesn't have a built in way of showing ssh-keys (The `SLCLI`, which is what the `ibmcloud sl` command is based from, does if that is useful: https://softlayer-python.readthedocs.io/en/latest/cli/sshkey/). However you can still get the ssh key id from the following:
+
+`ibmcloud sl call-api SoftLayer_Account getSshKeys`
+you'll need the `id` field that corresponds to the SSH key you want installed on the server.
+
+#### (Optional) Subnets and Vlans
+
+You'll need the subnet and vlan ID for provisioning. 
+`ibmcloud sl subnet list`
+`ibmcloud sl vlan list`
+
+
+#### Raid Configuration
+
+To get all the Raid Type options, use the following command:
+`ibmcloud sl call-api SoftLayer_Configuration_Storage_Group_Array_Type getAllObjects` 
+RAID1 is id=2
+
+To get all the partition templates available, run the following
+`ibmcloud sl call-api SoftLayer_Hardware_Component_Partition_OperatingSystem getObject --init 1 --mask="mask[partitionTemplates[data]]"`
+Linux basic is id=1 (1G /swap, .25G /boot, / set to 'grow')
+
+#### "Extras"
+
+Extras is a JSON string that corresponds to https://sldn.softlayer.com/reference/datatypes/SoftLayer_Container_Product_Order_Hardware_Server/
+It is here you will put your SSH keys, post provision scripts, domain/hostname and other bits of information.
+
+```
+{
+    "hardware":[{
+        "hostname":"ordering-test",
+        "domain":"ibm.com",
+        "primaryBackendNetworkComponent": {"networkVlan": {"primarySubnet":{"id": 1942931}}},
+        "primaryNetworkComponent": {"networkVlan": {"id": 2843340}},
+    }],
+    "storageGroups":[{
+        "arrayTypeId": 2,
+        "arraySize": 2000,
+        "hardDrives": [0,1],
+        "partitionTemplateId": 1
+    }],
+    "sshKeys": [{"sshKeyIds":[87634,92868]}],
+    "provisionScripts": ["https://pastebin.com/raw/SCp607Tm"]
+}
+```
+
+
+#### Everything Together
+
+```
+ibmcloud sl order place DUAL_INTEL_XEON_PROCESSOR_CASCADE_LAKE_SCALABLE_FAMILY_4_DRIVES  DALLAS13  INTEL_XEON_4210_2_20,RAM_32_GB_DDR4_2133_ECC_NON_REG,OS_DEBIAN_10_X_BUSTER_MINIMAL_64_BIT,1_GBPS_REDUNDANT_PUBLIC_PRIVATE_NETWORK_UPLINKS,DISK_CONTROLLER_RAID,HARD_DRIVE_2_00_TB_SATA_2,HARD_DRIVE_2_00_TB_SATA_2,BANDWIDTH_1000_GB,REBOOT_KVM_OVER_IP,1_IP_ADDRESS,UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT,NOTIFICATION_EMAIL_AND_TICKET,MONITORING_HOST_PING,AUTOMATED_NOTIFICATION --complex-type SoftLayer_Container_Product_Order_Hardware_Server --extras '{"hardware":[{"hostname":"cgallo-test","domain":"cgallo.com","primaryBackendNetworkComponent": {"networkVlan": {"primarySubnet":{"id": 1942931}}},"primaryNetworkComponent": {"networkVlan": {"id": 2848660}}}],"storageGroups":[{"arrayTypeId": 2,"arraySize": 2000,"hardDrives": [0,1],"partitionTemplateId": 1}],"sshKeys": [{"sshKeyIds":[87634,92868]}],"provisionScripts": ["https://pastebin.com/raw/SCp607Tm"]}' --billing monthly --verify
+```
+
+
+```
+slcli order place DUAL_INTEL_XEON_PROCESSOR_CASCADE_LAKE_SCALABLE_FAMILY_4_DRIVES  DALLAS13  INTEL_XEON_4210_2_20 RAM_32_GB_DDR4_2133_ECC_NON_REG OS_DEBIAN_10_X_BUSTER_MINIMAL_64_BIT 1_GBPS_REDUNDANT_PUBLIC_PRIVATE_NETWORK_UPLINKS DISK_CONTROLLER_RAID HARD_DRIVE_2_00_TB_SATA_2 HARD_DRIVE_2_00_TB_SATA_2 BANDWIDTH_1000_GB REBOOT_KVM_OVER_IP 1_IP_ADDRESS UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT NOTIFICATION_EMAIL_AND_TICKET MONITORING_HOST_PING AUTOMATED_NOTIFICATION --complex-type SoftLayer_Container_Product_Order_Hardware_Server --extras '{"hardware":[{"hostname":"cgallo-test","domain":"cgallo.com","primaryBackendNetworkComponent": {"networkVlan": {"primarySubnet":{"id": 1942931}}},"primaryNetworkComponent": {"networkVlan": {"id": 2848660}}}],"storageGroups":[{"arrayTypeId": 2,"arraySize": 2000,"hardDrives": [0,1],"partitionTemplateId": 1}],"sshKeys": [{"sshKeyIds":[87634,92868]}],"provisionScripts": ["https://pastebin.com/raw/SCp607Tm"]}' --billing monthly --verify
+```
