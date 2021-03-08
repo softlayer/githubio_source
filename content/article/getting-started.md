@@ -23,7 +23,7 @@ If you just want to make a few simple API calls, REST is likely the easiest to p
 | [REST](/article/rest/) | Most programming languages support standard HTTP protocol operations if they don't have explicit support for SOAP or XML-RPC. |  REST URLs can become complex, especially when working with complex data structures. | Quickly calling get*() methods and retrieving data with a minimum amount of hierarchy. | [Ruby](/ruby), [Go](/go), [Java](/java), Any language that supports standard HTTP protocol operations, JSON parsing, and XML parsing
 
 ### Getting Your API Key
-API calls are authenticated by the username you use to authenticate to the SoftLayer portal and a special [API Key](article/authenticating-softlayer-api/). You'll have the most access by using your account's master user to make API calls, but your code may be more secure if you use a sub-account with a more limited permission set.
+API calls are authenticated by the username you use to authenticate to the SoftLayer portal and a special [API Key](/article/authenticating-softlayer-api/). You'll have the most access by using your account's master user to make API calls, but your code may be more secure if you use a sub-account with a more limited permission set.
 
 ### Using The Private Network
 SoftLayer has API endpoints listening on the private network. Private network calls can only be made from systems on the private network, either from servers or computing instances purchased from SoftLayer or from systems VPN'd into the private network. On the other hand private network calls aren't made over the public Internet. They're more secure and take less time to execute.
@@ -109,7 +109,7 @@ curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [{"hostname": "test1234"}
 -------------------------------------------
 
 ## Open Source SDKs and CLI tools
-SoftLayer maintains a variety of SDKs to help in making API calls easier. All of which can be found in the official [softlayer github.com repository](https://github.com/softlayer/softlayer)
+SoftLayer maintains a variety of SDKs to help in making API calls easier. All of which can be found in the official [softlayer github.com repository](https://github.com/softlayer)
 
 - [Python Library and SL CLI tool](https://github.com/softlayer/softlayer-python). 
     -  A python based CLI tool. Has a [slcli call-api](https://softlayer-python.readthedocs.io/en/latest/cli/commands/#call-api) function that makes command line API calls easy.
