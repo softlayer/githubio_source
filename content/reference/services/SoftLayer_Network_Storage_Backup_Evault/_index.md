@@ -255,6 +255,12 @@ Disable snapshots of this Storage Volume on a schedule.
 
 <div class="method-row">
 
+#### [disasterRecoveryFailoverToReplicant](/reference/services/SoftLayer_Network_Storage_Backup_Evault/disasterRecoveryFailoverToReplicant)
+Failover an inaccessible block/file volume to its available replicant volume.
+</div>
+
+<div class="method-row">
+
 #### [downloadFile](/reference/services/SoftLayer_Network_Storage_Backup_Evault/downloadFile)
 Download a file from a Storage account.
 </div>
@@ -473,6 +479,12 @@ Retrieve the network storage volumes configured to be dependent duplicates of a 
 
 #### [getEvents](/reference/services/SoftLayer_Network_Storage_Backup_Evault/getEvents)
 Retrieve the events which have taken place on a network storage volume.
+</div>
+
+<div class="method-row">
+
+#### [getFailbackNotAllowed](/reference/services/SoftLayer_Network_Storage_Backup_Evault/getFailbackNotAllowed)
+Retrieve determines whether the volume is allowed to failback
 </div>
 
 <div class="method-row">

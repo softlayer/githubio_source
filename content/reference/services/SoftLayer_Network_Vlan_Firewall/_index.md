@@ -108,6 +108,12 @@ Retrieve the datacenter that the firewall resides in.
 
 <div class="method-row">
 
+#### [getFirewallFirmwareVersion](/reference/services/SoftLayer_Network_Vlan_Firewall/getFirewallFirmwareVersion)
+
+</div>
+
+<div class="method-row">
+
 #### [getFirewallType](/reference/services/SoftLayer_Network_Vlan_Firewall/getFirewallType)
 Retrieve the firewall device type.
 </div>

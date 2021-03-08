@@ -118,6 +118,16 @@ The currency type chosen at checkout.
 <div class="prop-row">
 
 -----
+[dedicatedCluster]: #dedicatedcluster
+#### [dedicatedCluster]
+Optional property to specify provisioning to a dedicated cluster at order time. The `id` property of the [SoftLayer_Network_Storage_DedicatedCluster]({{<ref "reference/datatypes/SoftLayer_Network_Storage_DedicatedCluster">}}) should be provided to dictate where to provision storage to. Note your account must be enabled to order into the desired location(s) prior to placing the order.   
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_DedicatedCluster'>SoftLayer_Network_Storage_DedicatedCluster </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [deviceFingerprintId]: #devicefingerprintid
 #### [deviceFingerprintId]
 Device Fingerprint Identifier - Optional.  

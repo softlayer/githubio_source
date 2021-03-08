@@ -398,6 +398,16 @@ When a replicant is in the process of synchronizing with the parent volume this 
 <div class="prop-row">
 
 -----
+[failbackNotAllowed]: #failbacknotallowed
+#### [failbackNotAllowed]
+Determines whether the volume is allowed to failback  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [fileNetworkMountAddress]: #filenetworkmountaddress
 #### [fileNetworkMountAddress]
 Retrieves the NFS Network Mount Address Name for a given File Storage Volume.  
