@@ -398,6 +398,16 @@ The events which have taken place on a network storage volume.
 <div class="prop-row">
 
 -----
+[failbackNotAllowed]: #failbacknotallowed
+#### [failbackNotAllowed]
+Determines whether the volume is allowed to failback  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [fileNetworkMountAddress]: #filenetworkmountaddress
 #### [fileNetworkMountAddress]
 Retrieves the NFS Network Mount Address Name for a given File Storage Volume.  

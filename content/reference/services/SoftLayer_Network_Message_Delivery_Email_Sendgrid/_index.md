@@ -149,7 +149,7 @@ Retrieve the vendor for a network message delivery account.
 <div class="method-row">
 
 #### [sendEmail](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/sendEmail)
-
+This method is deprecated and will be removed in API version 3.2.
 </div>
 
 <div class="method-row">
