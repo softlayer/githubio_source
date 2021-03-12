@@ -111,13 +111,13 @@ In the response from getObject, will be a VSI information, and with information 
 
 
 ``` 
-https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest/123456/getObject?objectMask=mask[billingItem[orderItem[preset]]]
+curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress" 'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest/11223344/getObject.json?objectMask=mask%5BbillingItem%5BorderItem%5Bpreset%5D%5D%5D'
 ```
 
 The same information can be retrieved from the SLCLI as well.
 
 
-```
+```bash
 slcli --format=json call-api Virtual_Guest getObject 
           --id=123456 
           --mask=billingItem.orderItem.preset
@@ -132,13 +132,13 @@ In the response from getObject, will be a VSI information, and with information 
 
 
 ``` 
-https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest/123456/getObject?objectMask=mask[billingItem[orderItem[order[items]]]]
+curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress" 'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest/112238162/getObject.json?objectMask=mask%5BbillingItem%5BorderItem%5Border%5Bitems%5D%5D%5D'
 ```
 
 The same information can be retrieved from the SLCLI as well.
 
 
-```
+```bash
 slcli --format=json call-api Virtual_Guest getObject 
           --id=123456 
           --mask=billingItem.orderItem.order.items
