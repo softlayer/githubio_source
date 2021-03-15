@@ -110,7 +110,7 @@ slcli vs create --os=UBUNTU_LATEST_64 \
 In the response from getObject, will be a VSI information, and with information about their flavor [preset](https://sldn.softlayer.com/reference/datatypes/SoftLayer_Billing_Order_Item/#preset).
 
 
-``` 
+```bash 
 curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress" 'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest/11223344/getObject.json?objectMask=mask%5BbillingItem%5BorderItem%5Bpreset%5D%5D%5D'
 ```
 
@@ -131,7 +131,7 @@ slcli --format=json call-api Virtual_Guest getObject
 In the response from getObject, will be a VSI information, and with information about their [order](https://sldn.softlayer.com/reference/datatypes/SoftLayer_Billing_Order/#items) with items.
 
 
-``` 
+```bash
 curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress" 'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest/112238162/getObject.json?objectMask=mask%5BbillingItem%5BorderItem%5Border%5Bitems%5D%5D%5D'
 ```
 
