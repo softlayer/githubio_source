@@ -23,7 +23,7 @@ Support for flavors has been added to the [SLCLI](https://github.com/softlayer/s
 
 In the response from getCreateObjectOptions, will be a key "flavors", with an array of different flavors and some information about their configuration.
 
-```
+```bash
 curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress"  "https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/getCreateObjectOptions" | python -m json.tool
 
 
@@ -82,7 +82,7 @@ curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, d
 ```
 
 The same information can be retrieved from the SLCLI as well.
-```
+```bash
 slcli vs create-options
 ```
 
@@ -93,7 +93,7 @@ slcli vs create-options
 Basically, instead of specifying a CPU, Memory, and Disk specifically, you remove those options and instead add a new "[supplementalCreateObjectOptions](https://softlayer.github.io/reference/datatypes/SoftLayer_Virtual_Guest_SupplementalCreateObjectOptions/)" field that has the flavor. Here is a [REST Example](https://console.bluemix.net/docs/vsi/vsi_provision_api.html#api-rest-public)
 
 And here is how to use the SLCLI for ordering
-```
+```bash
 slcli vs create --os=UBUNTU_LATEST_64 \
     --flavor=BL1_2X4X100  \
     --billing=hourly  \
