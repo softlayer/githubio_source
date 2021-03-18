@@ -24,7 +24,7 @@ Support for flavors has been added to the [SLCLI](https://github.com/softlayer/s
 In the response from getCreateObjectOptions, will be a key "flavors", with an array of different flavors and some information about their configuration.
 
 ```
-$ curl -g -u ${SLAUTH} "https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/getCreateObjectOptions" | python -m json.tool
+curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress"  "https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/getCreateObjectOptions" | python -m json.tool
 
 
 {ommitted}
