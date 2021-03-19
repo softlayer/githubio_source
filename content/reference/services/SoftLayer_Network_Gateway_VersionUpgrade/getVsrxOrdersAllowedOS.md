@@ -27,7 +27,7 @@ Used to get a list per package of prices ids for allowed vSRX OS-es for new orde
 |Name | Type | Description |
 | --- | --- | --- |
 |accountId| integer| |
-|validate| boolean| [optional] [default true]|
+|validate| boolean| |
 
 
 ### Required Headers
