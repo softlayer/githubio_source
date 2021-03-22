@@ -3,9 +3,11 @@ title: "CPU and Memory usage in Virtual servers"
 description: "How the portal page retrieves the memory and cpu usage"
 date: "2019-04-10"
 classes:
+    - "SoftLayer_Account"
     - "SoftLayer_Virtual_Guest"
     - "SoftLayer_Metric_Tracking_Object"
 tags:
+    - "account"
     - "metric"
     - "virtualguest"
 ---
@@ -15,11 +17,15 @@ import SoftLayer
 class Virtual:
     def __init__(self):
         client = SoftLayer.create_client_from_env()
+        self.virtual_service = client['Account']
         self.virtual_service = client['Virtual_Guest']
         self.metric_service = client['Metric_Tracking_Object']
 
     def _get_metric_tracking_object(self, guest_id):
         return self.virtual_service.getMetricTrackingObjectId(id=guest_id)
+
+    def _get_virtual_guest(self):
+        return self.account_service.getVirtualGuests(mask='id'
 
     def _calculate_averages(self, records):
         # total usage and how many records per item type
@@ -89,5 +95,20 @@ if __name__ == "__main__":
 
     # there is only 1 memory and its value must be divided by 2^30 to convert it to GB
     print("\nMEMORY AVERAGE: " + str(memory_averages['memory_usage']/(2**30)) + " GB")
+
+    virtuals = virtual.get_virtual_guest()
+    for guest in virtuals:
+        if virtual.get_metric_tracking_object(guest['id']) != '':
+            guest_id = guest['id']
+            cpu_records, cpu_averages = virtual.get_cpu_usage(guest_id,
+                                                              start_date, end_date)
+            memory_records, memory_averages = virtual.get_memory_usage(guest_id,
+                                                                       start_date, end_date)
+
+
+            if memory_averages.keys().__contains__('memory_usage'):
+                print("\nTHE VIRTUAL GUEST: " + str(guest['id']))
+                print("MEMORY AVERAGE: " + str(memory_averages['memory_usage']/(2**30)) 
+                 print("CPU AVERAGE: " + str(cpu_averages['cpu0']) + " GB")
 ```
 
