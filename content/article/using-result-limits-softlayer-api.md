@@ -10,6 +10,21 @@ tags:
 
 Many of the methods in the SoftLayer API return arrays of data types. In these cases it may be useful to limit the number of results that the API retrieves from your method call. Fortunately SoftLayer provides an easy way to accomplish this via a method analogous to the SQL <tt>LIMIT</tt> statement that you can apply in the header of your method calls. Result limits are optional for  all method calls, and a method's manual page states whether or not it can use a result limit. Methods that retrieve only one item cannot use result limits.
 
+#### Result Order
+
+> Unless explicitly set, the order of the API results are dependant on the order they are returned from the database, which might be inconsistent between different API calls.
+
+To explicity set an order to the results of your query, you need to use an [Object Filter](/article/object-filters/) on a unique field, `id` would usually be a good choice. Just remember that you cannot filter and sort by the same property.
+
+For example:
+```
+slcli -vvv --format=table call-api SoftLayer_Account getHardware --mask="mask[id,hostname,domain]" --json-filter='{"hardware":{"id":{"operation":"orderBy","options":[{"name":"sort","value":["DESC"]}]}}}'
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getHardware.json?objectMask=mask[id,hostname,domain]&objectFilter={"hardware":{"id":{"operation":"orderBy","options":[{"name":"sort","value":["DESC"]}]}}}&resultLimit=0,10'
+```
+
+While subsequent queries might maintain the same order, its not gauranteed unless you put an `orderBy` clause in your objectFilter.
+
+
 ## Structure
 A result limit is an object of the type `resultLimit` with two integer properties, `limit` and `offset`. The result limit's `limit` defines how many items you wish your limit result set to while its `offset` defines the starting point in your result set list to begin your limit. For instance, if you want to only retrieve 10 items in an API call starting with item 5 then your `limit` is 10 and `offset` is 5.
 
