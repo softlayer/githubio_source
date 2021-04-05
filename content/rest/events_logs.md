@@ -14,7 +14,7 @@ tags:
 # Event Log
 This example deals with a few ways of pulling data from [SoftLayer_Event_Log](https://sldn.softlayer.com/reference/services/SoftLayer_Event_Log/). There can be quite a few Logs here, so using a filter it recommends like in the [Get Recent Events](#get-recent-events) to limit how far back your search for Events, otherwise you will be paging through Events for a long time.
 
-## Get All Events 
+## [Get All Events](#get-all-events) {#get-all-events .anchor-link}
 
 To get all Events logs, We use [SoftLayer_Event_Log::getAllObjects()](https://softlayer.github.io/reference/services/SoftLayer_Event_Log/getAllObjects/), in this case just the first 50 events by using pagination as `resultLimit=0,50`,  See [Using Result Limits in the SoftLayer API](https://sldn.softlayer.com/article/using-result-limits-softlayer-api/). Also, We add a mask `mask[eventName,eventCreateDate,userType]` to restrict other local fields to limit the amount of information We get back to fields We care about at the moment.
 
@@ -39,7 +39,7 @@ The output will look something like this,in this case just the first event in th
 
 ```
 
-## Get Recent Events
+## [Get Recent Events](#get-recent-events) {#get-recent-events .anchor-link}
 
 This query will get all the Recent Events that were created AFTER `03/29/2021 01:00:00` (this date is just an example so keep in mind updating the date example to retrieve the most recent events), [object-filters](https://sldn.softlayer.com/article/object-filters/) has more details on other date time operations you can use.
 
@@ -107,7 +107,7 @@ Output:
 
 ```
 
-## Get Event Log Names
+## [Get Event Log Names](#get-event-log-names) {#get-event-log-names .anchor-link}
 To retrieve all event names We use [SoftLayer_Event_Log::getAllEventObjectNames](https://sldn.softlayer.com/reference/services/SoftLayer_Event_Log/getAllEventObjectNames/).
 ```bash
 https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllEventObjectNames.json
@@ -133,7 +133,7 @@ Output:
  'Bluemix LB']
 ```
 
-## Event Log User Types
+## [Event Log User Types](#event-log-user-types) {#event-log-user-types .anchor-link}
 To retrieve all user types We use [SoftLayer_Event_Log::getAllUserTypes](https://sldn.softlayer.com/reference/services/SoftLayer_Event_Log/getAllUserTypes/).
 ```bash
 https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllUserTypes.json
@@ -148,7 +148,7 @@ Output:
     ['CUSTOMER', 'EMPLOYEE', 'SYSTEM']
 ```
 
-## Get System Logs
+## [Get System Logs](#get-system-logs) {#get-system-logs .anchor-link}
 
 To retrieve all the SYSTEM logs events.
 ```bash
@@ -206,7 +206,7 @@ Output:
 ```
 
 
-## Get Login Events 
+## [Get Login Events](#get-login-events) {#get-login-events .anchor-link}
 
 ```bash
 https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?
