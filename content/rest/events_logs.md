@@ -24,7 +24,7 @@ https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?
                     objectMask=mask[eventName,eventCreateDate,userType]
 ```
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress"  'https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?objectMask=mask%5BeventName%2CeventCreateDate%2CuserType%5D&resultLimit=0%2C50'
+curl -g -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?objectMask=mask[eventName,eventCreateDate,userType]&resultLimit=0,50'
 ```
 
 The output will look something like this,in this case just the first event in the list.
@@ -52,10 +52,10 @@ https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?
 ```
 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress"  'https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?objectMask=mask%5BeventName%2CeventCreateDate%2CuserType%5D&resultLimit=0%2C50&objectFilter=%7B%22eventCreateDate%22%3A+%7B%22operation%22%3A+%22greaterThanDate%22%2C+%22options%22%3A+%5B%7B%22name%22%3A+%22date%22%2C+%22value%22%3A+%5B%222021-03-01T00%3A00%3A00.0000-06%3A00%22%5D%7D%5D%7D%7D'
+curl -g -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?objectMask=mask[eventName,eventCreateDate,userType]&resultLimit=0,50&objectFilter={"eventCreateDate":{"operation":"greaterThanDate","options":[{"name":"date","value":["2021-03-01T00:00:00.0000-06:00"]}]}}'
 ```
 
-Output:
+Output example (first two events):
 ```json
 [
     {
@@ -66,41 +66,6 @@ Output:
     {
         "eventCreateDate": "2021-03-26T14:22:06.201563-06:00",
         "eventName": "Power Off",
-        "userType": "SYSTEM"
-    },
-    {
-        "eventCreateDate": "2021-03-26T14:21:06.125771-06:00",
-        "eventName": "Power On",
-        "userType": "SYSTEM"
-    },
-    {
-        "eventCreateDate": "2021-03-22T13:25:25.301942-06:00",
-        "eventName": "Power Off",
-        "userType": "SYSTEM"
-    },
-    {
-        "eventCreateDate": "2021-03-22T12:35:20.713762-06:00",
-        "eventName": "Power On",
-        "userType": "SYSTEM"
-    },
-    {
-        "eventCreateDate": "2021-03-22T12:34:59.853209-06:00",
-        "eventName": "Power Off",
-        "userType": "SYSTEM"
-    },
-    {
-        "eventCreateDate": "2021-03-22T10:29:33.964135-06:00",
-        "eventName": "Power On",
-        "userType": "SYSTEM"
-    },
-    {
-        "eventCreateDate": "2021-03-19T16:34:54.570774-06:00",
-        "eventName": "IPMI Reset",
-        "userType": "SYSTEM"
-    },
-    {
-        "eventCreateDate": "2021-03-19T16:28:04.355664-06:00",
-        "eventName": "Reboot",
         "userType": "SYSTEM"
     }
   ]
@@ -113,7 +78,7 @@ To retrieve all event names We use [SoftLayer_Event_Log::getAllEventObjectNames]
 https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllEventObjectNames.json
 ```
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress"  'https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllEventObjectNames.json'
+curl -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllEventObjectNames.json'
 
 ```
 Output:
@@ -140,7 +105,7 @@ https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllUserTypes.json
 ```
   
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress"  'https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllUserTypes.json'
+curl -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllUserTypes.json'
 
 ```
 Output:
@@ -160,37 +125,12 @@ https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?
 ```
     
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress"  'https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?objectMask=mask%5BeventName%2CeventCreateDate%2CuserType%5D&resultLimit=0%2C50&objectFilter=%7B%22userType%22%3A+%7B%22operation%22%3A+%22SYSTEM%22%7D%7D'
+curl -g -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?objectMask=mask[eventName,eventCreateDate,userType]&resultLimit=0,50&objectFilter={"userType":+{"operation":+"SYSTEM"}}'
 ```
 
-Output:
+Output example (first two events):
 ```json
 [
-    {
-        "eventCreateDate": "2021-03-26T14:22:26.349808-06:00",
-        "eventName": "Power On",
-        "userType": "SYSTEM"
-    },
-    {
-        "eventCreateDate": "2021-03-26T14:22:06.201563-06:00",
-        "eventName": "Power Off",
-        "userType": "SYSTEM"
-    },   
-    {
-        "eventCreateDate": "2021-03-26T13:37:34.045099-06:00",
-        "eventName": "Login Failed",
-        "userType": "SYSTEM"
-    },
-    {
-        "eventCreateDate": "2021-03-19T16:34:54.570774-06:00",
-        "eventName": "IPMI Reset",
-        "userType": "SYSTEM"
-    },
-    {
-        "eventCreateDate": "2021-03-19T16:28:04.355664-06:00",
-        "eventName": "Reboot",
-        "userType": "SYSTEM"
-    },
     {
         "eventCreateDate": "2021-03-19T14:10:28.976723-06:00",
         "eventName": "Disable Port",
@@ -217,10 +157,10 @@ https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?
 
 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress"  'https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?objectMask=mask%5BeventName%2CeventCreateDate%2CuserType%5D&resultLimit=0%2C50&objectFilter=%7B%22eventName%22%3A+%7B%22operation%22%3A+%22%5E%3D+Login%22%7D%7D'
+curl -g -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?objectMask=mask[eventName,eventCreateDate,userType]&resultLimit=0,50&objectFilter={"eventName":+{"operation":+"^=+Login"}}'
 ```
 
-Output:
+Output example (first two events):
 ```json
 [
     {
