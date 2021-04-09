@@ -77,13 +77,13 @@ Retrieve a SoftLayer_Network_Subnet_IpAddress_Global record.
 <div class="method-row">
 
 #### [route](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global/route)
-create a new transaction to reroute a global IP.
+
 </div>
 
 <div class="method-row">
 
 #### [unroute](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global/unroute)
-create a new transaction to unroute a global IP.
+
 </div>
 </div>
 

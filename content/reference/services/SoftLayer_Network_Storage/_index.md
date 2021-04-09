@@ -794,6 +794,12 @@ Retrieve the current replication status of a network storage volume. Indicates F
 
 <div class="method-row">
 
+#### [getReplicationTimestamp](/reference/services/SoftLayer_Network_Storage/getReplicationTimestamp)
+An API call to fetch the last timestamp of the replication process
+</div>
+
+<div class="method-row">
+
 #### [getSchedules](/reference/services/SoftLayer_Network_Storage/getSchedules)
 Retrieve the schedules which are associated with a network storage volume.
 </div>
@@ -970,6 +976,18 @@ Retrieve the Weekly Schedule which is associated with this network storage volum
 
 #### [immediateFailoverToReplicant](/reference/services/SoftLayer_Network_Storage/immediateFailoverToReplicant)
 Immediate Failover to a volume replicant.
+</div>
+
+<div class="method-row">
+
+#### [initiateOriginVolumeReclaim](/reference/services/SoftLayer_Network_Storage/initiateOriginVolumeReclaim)
+Initiates Origin Volume Reclaim to delete volume from NetApp.
+</div>
+
+<div class="method-row">
+
+#### [initiateVolumeCutover](/reference/services/SoftLayer_Network_Storage/initiateVolumeCutover)
+Initiates Volume Cutover to remove access from the old volume.
 </div>
 
 <div class="method-row">
