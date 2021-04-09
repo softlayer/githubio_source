@@ -813,6 +813,12 @@ Retrieve the current replication status of a network storage volume. Indicates F
 
 <div class="method-row">
 
+#### [getReplicationTimestamp](/reference/services/SoftLayer_Network_Storage_Backup_Evault/getReplicationTimestamp)
+An API call to fetch the last timestamp of the replication process
+</div>
+
+<div class="method-row">
+
 #### [getSchedules](/reference/services/SoftLayer_Network_Storage_Backup_Evault/getSchedules)
 Retrieve the schedules which are associated with a network storage volume.
 </div>
@@ -1007,6 +1013,18 @@ Initiate a bare metal restore for the server tied to the EVault account
 
 #### [initiateBareMetalRestoreForServer](/reference/services/SoftLayer_Network_Storage_Backup_Evault/initiateBareMetalRestoreForServer)
 Initiate a bare metal restore for the specified server
+</div>
+
+<div class="method-row">
+
+#### [initiateOriginVolumeReclaim](/reference/services/SoftLayer_Network_Storage_Backup_Evault/initiateOriginVolumeReclaim)
+Initiates Origin Volume Reclaim to delete volume from NetApp.
+</div>
+
+<div class="method-row">
+
+#### [initiateVolumeCutover](/reference/services/SoftLayer_Network_Storage_Backup_Evault/initiateVolumeCutover)
+Initiates Volume Cutover to remove access from the old volume.
 </div>
 
 <div class="method-row">

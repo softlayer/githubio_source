@@ -1,6 +1,7 @@
 ---
 title: "unroute"
-description: "This function is used to create a new transaction to unroute a global IP address. Routes are updated in one to two minut... "
+description: "***DEPRECATED***
+This endpoint is deprecated in favor of SoftLayer_Network_Subnet::clearRoute, to which this endpoint no... "
 layout: "method"
 tags:
     - "method"
@@ -13,11 +14,13 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_IpAddress_Global](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global)::unroute
 
-create a new transaction to unroute a global IP.
+
 
 
 ## Overview 
-This function is used to create a new transaction to unroute a global IP address. Routes are updated in one to two minutes depending on the number of transactions that are pending for a router. 
+
+***DEPRECATED***
+This endpoint is deprecated in favor of SoftLayer_Network_Subnet::clearRoute, to which this endpoint now proxies. Refer to it for more information. 
 
 -----
 
@@ -31,12 +34,8 @@ This function is used to create a new transaction to unroute a global IP address
 * SoftLayer_Network_Subnet_IpAddress_GlobalInitParameters
 
 
-### Optional Headers
-* SoftLayer_Network_Subnet_IpAddress_GlobalObjectMask
-* SoftLayer_ObjectMask
-
 ### Return Values
-* <a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>
+* boolean
 
 
 
