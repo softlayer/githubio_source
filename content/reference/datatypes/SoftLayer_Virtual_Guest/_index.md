@@ -545,6 +545,26 @@ A computing instance's block devices. Block devices link [SoftLayer_Virtual_Disk
 <div class="prop-row">
 
 -----
+[browserConsoleAccessLogs]: #browserconsoleaccesslogs
+#### [browserConsoleAccessLogs]
+A virtual guest's browser access logs.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_BrowserConsoleAccessLog'>SoftLayer_Virtual_Guest_BrowserConsoleAccessLog[] </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[consoleData]: #consoledata
+#### [consoleData]
+A container for a guest's console data  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_ConsoleData'>SoftLayer_Container_Virtual_Guest_ConsoleData </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [consoleIpAddressFlag]: #consoleipaddressflag
 #### [consoleIpAddressFlag]
 A flag indicating a computing instance's console IP address is assigned.  
@@ -1450,6 +1470,16 @@ A count of the raw bandwidth usage data for the current billing cycle. One objec
 [blockDeviceCount]: #blockdevicecount
 #### [blockDeviceCount]
 A count of a computing instance's block devices. Block devices link [SoftLayer_Virtual_Disk_Image]({{<ref "reference/datatypes/SoftLayer_Virtual_Disk_Image">}}) to computing instances.   
+<span class="type-label">Type: </span>**unsigned long**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[browserConsoleAccessLogCount]: #browserconsoleaccesslogcount
+#### [browserConsoleAccessLogCount]
+A count of a virtual guest's browser access logs.   
 <span class="type-label">Type: </span>**unsigned long**
 
 

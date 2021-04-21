@@ -130,7 +130,7 @@ The Citrix resource location name
 -----
 [domain]: #domain
 #### [domain]
-The default domain to be used for all server orders where the domain is not specified.  
+The default domain to be used for all server orders where the domain is not specified.   
 <span class="type-label">Type: </span>**string**
 
 

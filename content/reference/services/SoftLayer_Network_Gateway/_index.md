@@ -214,6 +214,12 @@ Rebuild Juniper vSRX HA Gateway
 
 <div class="method-row">
 
+#### [refreshGatewayLicense](/reference/services/SoftLayer_Network_Gateway/refreshGatewayLicense)
+
+</div>
+
+<div class="method-row">
+
 #### [setGatewayPassword](/reference/services/SoftLayer_Network_Gateway/setGatewayPassword)
 
 </div>

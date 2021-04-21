@@ -72,6 +72,16 @@ The previous vSRX version of the gateway software
 <div class="prop-row">
 
 -----
+[licenseExpirationDate]: #licenseexpirationdate
+#### [licenseExpirationDate]
+Timestamp for the expiration date of the license key   
+<span class="type-label">Type: </span>**dateTime**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [licenseKey]: #licensekey
 #### [licenseKey]
   
