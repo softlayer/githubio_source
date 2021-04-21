@@ -418,8 +418,20 @@ Retrieves the boot mode of the VSI.
 
 <div class="method-row">
 
+#### [getBrowserConsoleAccessLogs](/reference/services/SoftLayer_Virtual_Guest/getBrowserConsoleAccessLogs)
+Retrieve a virtual guest's browser access logs.
+</div>
+
+<div class="method-row">
+
 #### [getConsoleAccessLog](/reference/services/SoftLayer_Virtual_Guest/getConsoleAccessLog)
 get console access logs
+</div>
+
+<div class="method-row">
+
+#### [getConsoleData](/reference/services/SoftLayer_Virtual_Guest/getConsoleData)
+Retrieve a container for a guest's console data
 </div>
 
 <div class="method-row">
