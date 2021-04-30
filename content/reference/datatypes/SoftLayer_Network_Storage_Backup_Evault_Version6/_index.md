@@ -573,6 +573,16 @@ A network storage volume's metric tracking object. This object records all perio
 <div class="prop-row">
 
 -----
+[mountPath]: #mountpath
+#### [mountPath]
+Retrieves the NFS Network Mount Path for a given File Storage Volume.  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [mountableFlag]: #mountableflag
 #### [mountableFlag]
 Whether or not a network storage volume may be mounted.  
