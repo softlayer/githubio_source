@@ -106,8 +106,18 @@ Date modified
 -----
 [sourceIp]: #sourceip
 #### [sourceIp]
-The ip address of the client that triggered the event   
+The IP address of the client that triggered the event   
 <span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[sourcePort]: #sourceport
+#### [sourcePort]
+The IP port of the client that triggered the event   
+<span class="type-label">Type: </span>**integer**
 
 
 </div>

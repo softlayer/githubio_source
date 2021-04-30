@@ -610,6 +610,12 @@ Retrieve a network storage volume's metric tracking object. This object records 
 
 <div class="method-row">
 
+#### [getMountPath](/reference/services/SoftLayer_Network_Storage_Iscsi/getMountPath)
+Retrieve retrieves the NFS Network Mount Path for a given File Storage Volume.
+</div>
+
+<div class="method-row">
+
 #### [getMountableFlag](/reference/services/SoftLayer_Network_Storage_Iscsi/getMountableFlag)
 Retrieve whether or not a network storage volume may be mounted.
 </div>
@@ -629,6 +635,12 @@ Retrieve network connection details for complex network storage volumes.
 <div class="method-row">
 
 #### [getNetworkMountAddress](/reference/services/SoftLayer_Network_Storage_Iscsi/getNetworkMountAddress)
+Displays the mount path of a storage volume.
+</div>
+
+<div class="method-row">
+
+#### [getNetworkMountPath](/reference/services/SoftLayer_Network_Storage_Iscsi/getNetworkMountPath)
 Displays the mount path of a storage volume.
 </div>
 
