@@ -548,7 +548,7 @@ A computing instance's block devices. Block devices link [SoftLayer_Virtual_Disk
 [browserConsoleAccessLogs]: #browserconsoleaccesslogs
 #### [browserConsoleAccessLogs]
 A virtual guest's browser access logs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_BrowserConsoleAccessLog'>SoftLayer_Virtual_Guest_BrowserConsoleAccessLog[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_BrowserConsoleAccessLog'>SoftLayer_Virtual_BrowserConsoleAccessLog[] </a>**
 
 
 </div>
@@ -558,7 +558,7 @@ A virtual guest's browser access logs.
 [consoleData]: #consoledata
 #### [consoleData]
 A container for a guest's console data  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_ConsoleData'>SoftLayer_Container_Virtual_Guest_ConsoleData </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_ConsoleData'>SoftLayer_Container_Virtual_ConsoleData </a>**
 
 
 </div>

@@ -36,7 +36,7 @@ SoftLayer_Software_VirtualLicense is the application class that handles a specia
 * [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet )
 
 
-* [SoftLayer_Account](/reference/services/SoftLayer_Account )
+* [SoftLayer_Account](/reference/datatypes/SoftLayer_Account )
 
 
 

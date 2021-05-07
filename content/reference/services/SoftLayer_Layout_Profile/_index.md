@@ -26,7 +26,7 @@ In order to take full advantage of the flexible customization of the portal, eac
 
 ### seeAlso
 
-* [SoftLayer_Layout_Profile_Preference](/reference/services/SoftLayer_Layout_Profile_Preference )
+* [SoftLayer_Layout_Profile_Preference](/reference/datatypes/SoftLayer_Layout_Profile_Preference )
 
 
 * [SoftLayer_Layout_Container](/reference/services/SoftLayer_Layout_Container )
@@ -35,7 +35,7 @@ In order to take full advantage of the flexible customization of the portal, eac
 * [SoftLayer_Layout_Preference](/reference/datatypes/SoftLayer_Layout_Preference )
 
 
-* [SoftLayer_Layout_Profile_Containers](/reference/services/SoftLayer_Layout_Profile_Containers )
+* [SoftLayer_Layout_Profile_Containers](/reference/datatypes/SoftLayer_Layout_Profile_Containers )
 
 
         

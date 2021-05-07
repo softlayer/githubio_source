@@ -1,26 +1,24 @@
 ---
-title: "SoftLayer_Virtual_Guest_BrowserConsoleAccessLog"
-description: "The SoftLayer_Virtual_Guest_BrowserConsoleAccessLog data type presents the data for events associated with accessing a V... "
+title: "SoftLayer_Virtual_BrowserConsoleAccessLog"
+description: "The SoftLayer_Virtual_BrowserConsoleAccessLog data type presents the data for events associated with accessing a VSIs co... "
 layout: "datatype"
 tags:
     - "datatype"
     - "sldn"
     - "Virtual"
 classes:
-    - "SoftLayer_Virtual_Guest_BrowserConsoleAccessLog"
+    - "SoftLayer_Virtual_BrowserConsoleAccessLog"
 ---
 
-# SoftLayer_Virtual_Guest_BrowserConsoleAccessLog
+# SoftLayer_Virtual_BrowserConsoleAccessLog
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Virtual_Guest_BrowserConsoleAccessLog' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Virtual_BrowserConsoleAccessLog' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
-The SoftLayer_Virtual_Guest_BrowserConsoleAccessLog data type presents the data for events associated with accessing a VSIs console via the browser interface. 
-
-
+The SoftLayer_Virtual_BrowserConsoleAccessLog data type presents the data for events associated with accessing a VSIs console via the browser interface. 
 
 
 
@@ -58,16 +56,6 @@ Date created
 #### [eventType]
 The event type that was triggered   
 <span class="type-label">Type: </span>**string**
-
-
-</div>
-<div class="prop-row">
-
------
-[guestId]: #guestid
-#### [guestId]
-The guest id that this access log belongs to   
-<span class="type-label">Type: </span>**integer**
 
 
 </div>

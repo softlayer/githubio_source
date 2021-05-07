@@ -24,7 +24,7 @@ This service provides access to the device responsible for routing a particular 
 
 ### seeAlso
 
-* [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware )
+* [SoftLayer_Hardware](/reference/datatypes/SoftLayer_Hardware )
 
 
         

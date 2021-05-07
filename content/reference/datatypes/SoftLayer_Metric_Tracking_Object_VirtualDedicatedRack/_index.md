@@ -24,7 +24,7 @@ SoftLayer_Metric_Tracking_Object_VirtualDedicatedRack models tracking objects sp
 
 ### seeAlso
 
-* [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object )
+* [SoftLayer_Metric_Tracking_Object](/reference/datatypes/SoftLayer_Metric_Tracking_Object )
 
 
 
