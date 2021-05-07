@@ -33,7 +33,7 @@ This service allows you to update your stored RWHOIS record.  Changing this reco
 
 ### seeAlso
 
-* [SoftLayer_Network_Subnet_Swip_Transaction](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction )
+* [SoftLayer_Network_Subnet_Swip_Transaction](/reference/datatypes/SoftLayer_Network_Subnet_Swip_Transaction )
 
 
         

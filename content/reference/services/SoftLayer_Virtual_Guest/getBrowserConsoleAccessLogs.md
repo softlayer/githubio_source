@@ -38,7 +38,7 @@ Retrieve a virtual guest's browser access logs.
 * SoftLayer_ObjectMask
 
 ### Return Values
-* <a href='/reference/datatypes/SoftLayer_Virtual_Guest_BrowserConsoleAccessLog'>SoftLayer_Virtual_Guest_BrowserConsoleAccessLog[] </a>
+* <a href='/reference/datatypes/SoftLayer_Virtual_BrowserConsoleAccessLog'>SoftLayer_Virtual_BrowserConsoleAccessLog[] </a>
 
 
 

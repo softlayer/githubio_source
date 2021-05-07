@@ -37,7 +37,7 @@ Retrieve a container for a guest's console data
 * SoftLayer_ObjectMask
 
 ### Return Values
-* <a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_ConsoleData'>SoftLayer_Container_Virtual_Guest_ConsoleData </a>
+* <a href='/reference/datatypes/SoftLayer_Container_Virtual_ConsoleData'>SoftLayer_Container_Virtual_ConsoleData </a>
 
 
 

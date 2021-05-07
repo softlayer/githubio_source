@@ -24,7 +24,7 @@ SoftLayer_Account_Authentication_Attribute_Type models the type of attribute tha
 
 ### seeAlso
 
-* [SoftLayer_Account_Authentication_Attribute](/reference/services/SoftLayer_Account_Authentication_Attribute )
+* [SoftLayer_Account_Authentication_Attribute](/reference/datatypes/SoftLayer_Account_Authentication_Attribute )
 
 
 

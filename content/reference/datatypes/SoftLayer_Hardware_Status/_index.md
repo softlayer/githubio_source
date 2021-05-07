@@ -39,7 +39,7 @@ Servers in production and in use should stay in the ACTIVE state. If a server's 
 
 ### seeAlso
 
-* [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware )
+* [SoftLayer_Hardware](/reference/datatypes/SoftLayer_Hardware )
 
 
 

@@ -1,24 +1,24 @@
 ---
-title: "SoftLayer_Container_Virtual_Guest_ConsoleData"
-description: "The SoftLayer_Container_Virtual_Guest_ConsoleData data type contains information used to access a VSIs console"
+title: "SoftLayer_Container_Virtual_ConsoleData"
+description: "The SoftLayer_Container_Virtual_ConsoleData data type contains information used to access a VSIs console"
 layout: "datatype"
 tags:
     - "datatype"
     - "sldn"
     - "Container"
 classes:
-    - "SoftLayer_Container_Virtual_Guest_ConsoleData"
+    - "SoftLayer_Container_Virtual_ConsoleData"
 ---
 
-# SoftLayer_Container_Virtual_Guest_ConsoleData
+# SoftLayer_Container_Virtual_ConsoleData
 <div id='service-datatype'>
     <ul id='sldn-reference-tabs'>
-        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_ConsoleData' >Datatype</a></li>
+        <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Container_Virtual_ConsoleData' >Datatype</a></li>
     </ul>
 </div>
 
 ## Description 
-The SoftLayer_Container_Virtual_Guest_ConsoleData data type contains information used to access a VSIs console 
+The SoftLayer_Container_Virtual_ConsoleData data type contains information used to access a VSIs console 
 
 
 
@@ -45,6 +45,16 @@ The SoftLayer_Container_Virtual_Guest_ConsoleData data type contains information
 [websocketHost]: #websockethost
 #### [websocketHost]
 The websocket host address used to access the console  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[websocketPath]: #websocketpath
+#### [websocketPath]
+The path to the websocket  
 <span class="type-label">Type: </span>**string**
 
 

@@ -35,7 +35,7 @@ Billing items exist in a tree relationship. Items are associated with each other
 * [SoftLayer_Billing_Item_Hardware](/reference/datatypes/SoftLayer_Billing_Item_Hardware )
 
 
-* [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice )
+* [SoftLayer_Billing_Invoice](/reference/datatypes/SoftLayer_Billing_Invoice )
 
 
 
