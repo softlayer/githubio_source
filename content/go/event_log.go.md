@@ -12,7 +12,7 @@ tags:
 ---
 
 
-This example deals with a few ways of pulling data from [SoftLayer_Event_Log](https://sldn.softlayer.com/reference/services/SoftLayer_Event_Log/). There can be quite a few Logs here, therefore it is recommended to use a filter like in `getRecentLogs` to limit how far back your search for Events, otherwise you will be paging through Events for a long time.
+This example deals with a few ways of pulling data from [SoftLayer_Event_Log](https://sldn.softlayer.com/reference/services/SoftLayer_Event_Log/). There can be quite a few Logs here, therefore it is recommended to use a filter like in `getRecentLogs` to limit how far back your search for Events, otherwise you will be paging through Events for a long time. Moreover, this example uses the `maxNumberOfEvents` value to limit the number of event logs that will be retrieved.
 
 ```go
 package main
@@ -27,16 +27,74 @@ import (
 	"time"
 )
 
-func main() {
-	sess := session.New()
-	sess.Debug = true
-	getSystemLogs(sess)
-	getLoginLogs(sess)
-	getRecentLogs(sess)
-	getEventUserTypes(sess)
-	getEventNames(sess)
+// Session created using values set in the environment, or from the local configuration file (i.e. ~/.softlayer).
+var sess = session.New()
 
+// Set the limit number of events that the API retrieves in each SoftLayer_Event_Log::getAllObjects  method call.
+var pagination = 50
+
+// Set the max number of events to retrieve in each log example function.
+var maxNumberOfEvents =200
+
+func main() {
+
+	sess.Debug = true
+
+	//shows the all user type events
+	getEventUserTypes()
+	userType:="EMPLOYEE"
+	//shows the events with names is a userType value
+	getLogsByUserType(userType)
+
+	//shows the all user type events
+	getEventNames()
+	eventName:="Authentication"
+	//shows the events which names contain the eventName value
+	getLogsByName(eventName)
+
+	//shows the events created from a specific number of days ago
+	daysAgo:=30
+	getRecentLogs(daysAgo)
+
+	//shows the system logs
+	getSystemLogs()
+
+	//shows the login logs
+	getLoginLogs()
 }
+
+/**
+Shows the Event Logs by user type.
+Request URL:
+GET https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?
+objectFilter={"userType":{"operation":"userType"}}&
+objectMask=mask[userType,eventName,eventCreateDate]&
+resultLimit=0,50
+*/
+func getLogsByUserType(eventUserType string) {
+	filter := filter.Build(filter.Path("userType").Eq(eventUserType))
+	mask:="userType,eventName,eventCreateDate"
+	systemEvents:=getAllEvents(filter,mask,pagination,maxNumberOfEvents)
+	printLogs(systemEvents)
+}
+
+/**
+Shows the Event Logs which eventName contains nameQuery value
+RequestURL:
+GET https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?
+objectFilter={"eventName":{"operation":"^=+nameQuery"}}&
+objectMask=mask[userType;eventName,eventCreateDate]&
+resultLimit=0,50
+*/
+func
+getLogsByName(nameQuery string){
+	filterQuery:=fmt.Sprintf("^= %s",nameQuery)
+	filter := filter.Build(filter.Path("eventName").Eq(filterQuery))
+	mask:="userType;eventName,eventCreateDate"
+	eventLogs :=getAllEvents(filter,mask,pagination,maxNumberOfEvents)
+	printLogs(eventLogs)
+}
+
 
 /**
 Shows the SYSTEM Logs.
@@ -45,12 +103,9 @@ GET https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?
 objectFilter={"userType":{"operation":"SYSTEM"}}&
 objectMask=mask[userType,eventName,eventCreateDate]&
 resultLimit=0,50
- */
-func getSystemLogs(sess *session.Session){
-	filter := filter.Build(filter.Path("userType").Eq("SYSTEM"))
-	mask:="userType,eventName,eventCreateDate"
-	systemEvents:=getAllEvents(sess,filter,mask)
-	printLogs(systemEvents)
+*/
+func getSystemLogs(){
+	getLogsByUserType("SYSTEM")
 }
 
 /**
@@ -60,28 +115,25 @@ GET https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?
 objectFilter={"eventName":{"operation":"^=+Login"}}&
 objectMask=mask[userType;eventName,eventCreateDate]&
 resultLimit=0,50
- */
-func getLoginLogs(sess *session.Session){
-	filter := filter.Build(filter.Path("eventName").Eq("^= Login"))
-	mask:="userType;eventName,eventCreateDate"
-	eventLogs :=getAllEvents(sess,filter,mask)
-	printLogs(eventLogs)
+*/
+func getLoginLogs(){
+	getLogsByName("Login")
 }
 
 /**
-Shows the recent Logs
+Shows the recent Logs, based on a number of days ago.
 Request URL:
 GET https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?
 objectFilter={"eventCreateDate":{"operation":"greaterThanDate",
 	"options":[{"name":"date","value":["2021-04-24T00:00:00.0000-06:00"]}]}}&
 objectMask=mask[userType;eventName,eventCreateDate]&
 resultLimit=0,50
- */
-func getRecentLogs(sess *session.Session){
-	offsetDate :=getDateString(-10)
+*/
+func getRecentLogs(daysAgo int){
+	offsetDate :=getDateString(-daysAgo)
 	filterObject:=filter.Build(filter.Path("eventCreateDate").DateAfter(offsetDate))
 	mask:="userType;eventName,eventCreateDate"
-	recentEvents:=getAllEvents(sess, filterObject,mask)
+	recentEvents:=getAllEvents(filterObject,mask,pagination,maxNumberOfEvents)
 	printLogs(recentEvents)
 }
 
@@ -89,19 +141,19 @@ func getRecentLogs(sess *session.Session){
 Pages through all results from the Event_Log. This might take long time.
 */
 func getAllEvents(
-	sess *session.Session,
 	filter string,
 	mask string,
+	pagination int,
+	maxNumberOfEvents int,
 ) (resp []datatypes.Event_Log) {
-	limit:=50
+	limit:=pagination
 	offset:=0
 	eventsSize:=limit
 	var allEvents []datatypes.Event_Log
-	for limit==eventsSize {
-		events := getAllObjects(sess, limit,offset,filter,mask)
+	for eventsSize<=maxNumberOfEvents {
+		events := getAllObjects(limit,offset,filter,mask)
 		allEvents=append(allEvents, events...)
-		eventsSize=len(events)
-		eventsSize=0 // comment this line to get all events
+		eventsSize=len(allEvents)+pagination
 	}
 	return allEvents
 }
@@ -112,9 +164,10 @@ GET https://api.softlayer.com/rest/v3.1/SoftLayer_Event_Log/getAllObjects.json?
 objectFilter= filter &
 objectMask= mask &
 resultLimit=0,50
- */
+
+It returns an array of Event_Log encountered.
+*/
 func getAllObjects(
-	sess *session.Session,
 	limit int,
 	offset int,
 	filter string,
@@ -136,9 +189,9 @@ func getAllObjects(
 }
 
 /**
- Shows the Event Logs Names.
- */
-func getEventNames(sess *session.Session){
+Shows the Event Logs Names.
+*/
+func getEventNames(){
 	var service = services.GetEventLogService(sess)
 	result, err := service.GetAllEventObjectNames()
 	if err != nil {
@@ -149,9 +202,9 @@ func getEventNames(sess *session.Session){
 }
 
 /**
- Shows the Event Logs User Types.
- */
-func getEventUserTypes(	sess *session.Session) {
+Shows the Event Logs User Types.
+*/
+func getEventUserTypes() {
 	var service = services.GetEventLogService(sess)
 	result, err := service.GetAllUserTypes()
 	if err != nil {
@@ -162,8 +215,9 @@ func getEventUserTypes(	sess *session.Session) {
 }
 
 /**
- Gets a date offset in days determined by offsetDays value.
- */
+Gets a date offset in days determined by offsetDays value.
+It returns a string date with SL API date filtering format.
+*/
 func getDateString(offsetDays int) (resp string) {
 	years:=0
 	months:=0
@@ -177,8 +231,8 @@ func getDateString(offsetDays int) (resp string) {
 }
 
 /**
- Prints the data as format JSON
- */
+Prints the data as format JSON.
+*/
 func printAsJsonFormat(data interface{}){
 	jsonData, jsonErr := json.MarshalIndent(data, "", "    ")
 	if jsonErr != nil {
@@ -189,17 +243,16 @@ func printAsJsonFormat(data interface{}){
 }
 
 /**
-Prints the Event Logs
+Prints the Event Logs.
 */
 func printLogs(logs []datatypes.Event_Log){
-	fmt.Printf("| %20s | %25s |%10s |\n","Event Name","Event Create Date","User Type")
-		for _, log := range logs {
-			if log!=(datatypes.Event_Log{}){
-				fmt.Printf("| %20s ", *log.EventName)
-				fmt.Printf("| %25s ", log.EventCreateDate)
-				fmt.Printf("| %10s |\n", *log.UserType)
-			}
+	fmt.Printf("| %35s | %25s |%10s |\n","Event Name","Event Create Date","User Type")
+	for _, log := range logs {
+		if log!=(datatypes.Event_Log{}){
+			fmt.Printf("| %35s ", *log.EventName)
+			fmt.Printf("| %25s ", log.EventCreateDate)
+			fmt.Printf("| %10s |\n", *log.UserType)
+		}
 	}
 }
-
 ```
