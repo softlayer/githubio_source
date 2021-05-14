@@ -152,8 +152,12 @@ func getAllEvents(
 	var allEvents []datatypes.Event_Log
 	for eventsSize<=maxNumberOfEvents {
 		events := getAllObjects(limit,offset,filter,mask)
+		// return if the events are a list of empty structure like [{}]
+		if events[0]==(datatypes.Event_Log{}){
+			return allEvents
+		}
 		allEvents=append(allEvents, events...)
-		eventsSize=len(allEvents)+pagination
+		eventsSize=eventsSize+pagination
 	}
 	return allEvents
 }
