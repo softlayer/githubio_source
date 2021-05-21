@@ -102,6 +102,16 @@ classes:
 <div class="prop-row">
 
 -----
+[severity]: #severity
+#### [severity]
+  
+<span class="type-label">Type: </span>**integer**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [version]: #version
 #### [version]
   

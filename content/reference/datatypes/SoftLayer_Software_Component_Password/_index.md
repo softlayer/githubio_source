@@ -24,7 +24,7 @@ This SoftLayer_Software_Component_Password data type contains a password for a s
 
 ### seeAlso
 
-* [SoftLayer_Software_Component](/reference/datatypes/SoftLayer_Software_Component )
+* [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component )
 
 
 * [SoftLayer_Software_Password_History](/reference/datatypes/SoftLayer_Software_Password_History )

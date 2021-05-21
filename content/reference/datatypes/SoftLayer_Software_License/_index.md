@@ -24,7 +24,7 @@ This class describes a specific type of license, like a Microsoft Windows Site L
 
 ### seeAlso
 
-* [SoftLayer_Software_Component](/reference/datatypes/SoftLayer_Software_Component )
+* [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component )
 
 
 * [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description )
