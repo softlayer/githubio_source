@@ -41,10 +41,10 @@ A SoftLayer customer's RWHOIS data may not necessarily match their account or po
 
 ### seeAlso
 
-* [SoftLayer_Account](/reference/datatypes/SoftLayer_Account )
+* [SoftLayer_Account](/reference/services/SoftLayer_Account )
 
 
-* [SoftLayer_Network_Subnet_Swip_Transaction](/reference/datatypes/SoftLayer_Network_Subnet_Swip_Transaction )
+* [SoftLayer_Network_Subnet_Swip_Transaction](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction )
 
 
 

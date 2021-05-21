@@ -24,7 +24,7 @@ classes:
 
 ### seeAlso
 
-* [SoftLayer_Hardware](/reference/datatypes/SoftLayer_Hardware )
+* [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware )
 
 
         

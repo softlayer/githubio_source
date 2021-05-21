@@ -30,7 +30,7 @@ The "Manufacturer" and "Name" properties of a SoftLayer_Software_Description are
 
 ### seeAlso
 
-* [SoftLayer_Software_Component](/reference/datatypes/SoftLayer_Software_Component )
+* [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component )
 
 
 * [SoftLayer_Software_License](/reference/datatypes/SoftLayer_Software_License )

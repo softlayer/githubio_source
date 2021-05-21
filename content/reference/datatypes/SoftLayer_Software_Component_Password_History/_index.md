@@ -24,7 +24,7 @@ This object allows you to find the history of password changes for a specific So
 
 ### seeAlso
 
-* [SoftLayer_Software_Component](/reference/datatypes/SoftLayer_Software_Component )
+* [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component )
 
 
 * [SoftLayer_Software_Password](/reference/datatypes/SoftLayer_Software_Password )

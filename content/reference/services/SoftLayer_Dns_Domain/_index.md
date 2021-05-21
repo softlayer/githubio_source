@@ -37,13 +37,13 @@ SoftLayer provides secondary DNS hosting services if you wish to maintain DNS re
 
 ### seeAlso
 
-* [SoftLayer_Dns_Domain_ResourceRecord](/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord )
+* [SoftLayer_Dns_Domain_ResourceRecord](/reference/services/SoftLayer_Dns_Domain_ResourceRecord )
 
 
 * [SoftLayer_Dns_Domain_Reverse](/reference/datatypes/SoftLayer_Dns_Domain_Reverse )
 
 
-* [SoftLayer_Dns_Secondary](/reference/datatypes/SoftLayer_Dns_Secondary )
+* [SoftLayer_Dns_Secondary](/reference/services/SoftLayer_Dns_Secondary )
 
 
         

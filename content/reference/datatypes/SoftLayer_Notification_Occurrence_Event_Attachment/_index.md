@@ -29,7 +29,7 @@ SoftLayer events can have have files attached to them by a SoftLayer employee. A
 
 ### seeAlso
 
-* [SoftLayer_Notification_Occurrence_Event](/reference/datatypes/SoftLayer_Notification_Occurrence_Event )
+* [SoftLayer_Notification_Occurrence_Event](/reference/services/SoftLayer_Notification_Occurrence_Event )
 
 
 
