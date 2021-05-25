@@ -1,6 +1,6 @@
 ---
 title: "getHasFullVirtualGuestAccessFlag"
-description: "Retrieve whether or not a portal user has access to all hardware on their account."
+description: "Retrieve whether or not a portal user has access to all virtual guests on their account."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getHasFullVirtualGuestAccessFlag
 
-Retrieve whether or not a portal user has access to all hardware on their account.
+Retrieve whether or not a portal user has access to all virtual guests on their account.
 
 
 ## Overview 
-Retrieve whether or not a portal user has access to all hardware on their account.
+Retrieve whether or not a portal user has access to all virtual guests on their account.
 
 -----
 

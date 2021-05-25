@@ -716,7 +716,7 @@ Whether or not a portal user has access to all hardware on their account.
 -----
 [hasFullVirtualGuestAccessFlag]: #hasfullvirtualguestaccessflag
 #### [hasFullVirtualGuestAccessFlag]
-Whether or not a portal user has access to all hardware on their account.  
+Whether or not a portal user has access to all virtual guests on their account.  
 <span class="type-label">Type: </span>**boolean**
 
 

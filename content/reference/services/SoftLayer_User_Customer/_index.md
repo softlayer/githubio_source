@@ -321,7 +321,7 @@ Retrieve whether or not a portal user has access to all hardware on their accoun
 <div class="method-row">
 
 #### [getHasFullVirtualGuestAccessFlag](/reference/services/SoftLayer_User_Customer/getHasFullVirtualGuestAccessFlag)
-Retrieve whether or not a portal user has access to all hardware on their account.
+Retrieve whether or not a portal user has access to all virtual guests on their account.
 </div>
 
 <div class="method-row">
