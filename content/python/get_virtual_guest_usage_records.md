@@ -27,7 +27,6 @@ Not all virtual guests will have a metric tracking object, for example any suspe
 ```py
 import SoftLayer
 import sys
-from pprint import pprint as pp 
 
 class Virtual:
     def __init__(self):
@@ -122,6 +121,10 @@ if __name__ == "__main__":
 
     start_date = '2021-05-01T00:00:00'
     end_date = '2021-05-31T23:59:59'
+    
+    # Dates in EPOCH format can be used as well
+    # start_date = '1623700798'
+    # end_date = '1623707798'
 
     virtual = Virtual()
     # Get all virtual guests on our account
