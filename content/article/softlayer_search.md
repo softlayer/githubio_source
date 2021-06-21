@@ -72,7 +72,8 @@ The `name` property referes to the type of SoftLayer Datatype being tracked, and
 
 ## Find all Virtual and Hardware servers.
 
-By specifying an `_objectType` of `SoftLayer_Hardware` and ``SoftLayer_Virtual_Guest` and not defining a search term, this API call will return all Hardware and Virtual objects on your account.
+By specifying an `_objectType` of `SoftLayer_Hardware` and `SoftLayer_Virtual_Guest` and not defining a search term, this API call will return all Hardware and Virtual objects on your account.
+
 
 ```bash
 curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": ["_objectType:SoftLayer_Hardware,SoftLayer_Virtual_Guest"]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Search/search.json'
