@@ -10,12 +10,12 @@
         <div class="col-md-12">
                 <strong>Classes <span class="fa fa-book"/></strong>
                 {{ range .Params.classes }}
-                    <a class="label label-primary" href="/classes/{{lower . | urlize }}">{{. }}</a>
+                    <a class="label label-primary" href="/classes/{{. | urlize}}">{{. }}</a>
                 {{ end }}
                 <br>
                 <strong>Tags <span class="fa fa-tags"/></strong>
                 {{ range .Params.tags }}
-                    <a class="label label-danger" href="/tags/{{lower . | urlize }}">{{ . }}</a>
+                    <a class="label label-danger" href="/tags/{{. | urlize}}">{{ . }}</a>
                 {{ end }}          
         </div>
     </div>
