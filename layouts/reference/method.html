@@ -21,6 +21,7 @@
     <hr>
 
 {{ partial "footer.copyright.html" . }}
+{{ .Title }} was last updated on {{ .Lastmod.Format "January 2, 2006" }}: {{ .GitInfo.Subject }} ({{ .GitInfo.AbbreviatedHash }})
 </div>
 {{ partial "footer.html" . }}
 

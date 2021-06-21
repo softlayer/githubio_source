@@ -13,11 +13,14 @@ pygmentsCodefencesGuessSyntax = true
 
 refLinksErrorLevel = "WARNING"
 refLinksNotFoundURL = '#'
+enableGitInfo = true
 
 [params]
   description = "SoftLayer API Examples, implementations, and release notes."
   author = "SoftLayer"
 
+[frontmatter]
+  lastmod = [":git", "date"]
 
 [taxonomies]
 	tag = "tags"
