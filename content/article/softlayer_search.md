@@ -5,6 +5,7 @@ date: "2021-06-18"
 tags:
     - "article"
     - "sldn"
+    - "search"
 ---
 
 # Introduction
@@ -42,7 +43,7 @@ curl -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Searc
 slcli --format=json call-api SoftLayer_Search getObjectTypes
 ```
 
-```
+```bash
 ibmcloud sl call-api call-api SoftLayer_Search getObjectTypes
 ```
 
@@ -61,7 +62,9 @@ The output will look something like this:
             "name": "datacenter.longName",
             "sortableFlag": true,
             "type": "string"
-        },
+        }
+    ]
+}
 ```
 
 The `name` property referes to the type of SoftLayer Datatype being tracked, and the `properties` are the searchable fields, which are relational properties on the named datatype.
@@ -94,7 +97,7 @@ While you can search by tags, they are not included in the default output. To fi
 
 If you want to search for both Hardware and Virtual servers, and get both of their tags included in the output, your mask would look like this:
 
-```
+```bash
 mask[
     resource(SoftLayer_Virtual_Guest)[tagReferences.tag.name],
     resource(SoftLayer_Hardware)[tagReferences.tag.name]
@@ -104,7 +107,7 @@ mask[
 The `resource(SoftLayer_Virtual_Guest)` bit forces that object mask to be of the SoftLayer_Virtual_Guest type, allowing you to specify those datatype properties. 
 
 
-```
+```bash
 slcli -vvv --format=json call-api SoftLayer_Search search "_objectType:SoftLayer_Hardware,SoftLayer_Virtual_Guest test1234"  --mask="mask[resource(SoftLayer_Virtual_Guest)[tagReferences.tag.name],resource(SoftLayer_Hardware)[tagReferences.tag.name]]"
 
 curl -u $SL_USER:$SL_APIKEY -X POST  -d '{"parameters": ["_objectType:SoftLayer_Hardware,SoftLayer_Virtual_Guest test1234"]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Search/search.json?objectMask=mask%5Bresource%28SoftLayer_Virtual_Guest%29%5BtagReferences.tag.name%5D%2Cresource%28SoftLayer_Hardware%29%5BtagReferences.tag.name%5D%5D'
@@ -113,10 +116,10 @@ curl -u $SL_USER:$SL_APIKEY -X POST  -d '{"parameters": ["_objectType:SoftLayer_
 
 You can use the same strategy to pull in other details as well, like Billing Item, or Active Transactions.
 
-```
+```bash
 slcli -vvv --format=json call-api SoftLayer_Search search "_objectType:SoftLayer_Hardware,SoftLayer_Virtual_Guest test1234"  --mask="mask[resource(SoftLayer_Virtual_Guest)[tagReferences.tag.name,billingItem,activeTransactions],resource(SoftLayer_Hardware)[tagReferences.tag.name]]"
 
-curl -u $SL_USER:$SL_APIKEY -X POST -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress" -d '{"parameters": ["_objectType:SoftLayer_Hardware,SoftLayer_Virtual_Guest test1234"]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Search/search.json?objectMask=mask%5Bresource%28SoftLayer_Virtual_Guest%29%5BtagReferences.tag.name%2CbillingItem%2CactiveTransactions%5D%2Cresource%28SoftLayer_Hardware%29%5BtagReferences.tag.name%5D%5D'
+curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": ["_objectType:SoftLayer_Hardware,SoftLayer_Virtual_Guest test1234"]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Search/search.json?objectMask=mask%5Bresource%28SoftLayer_Virtual_Guest%29%5BtagReferences.tag.name%2CbillingItem%2CactiveTransactions%5D%2Cresource%28SoftLayer_Hardware%29%5BtagReferences.tag.name%5D%5D'
 ```
 
 In that example, I only included billingItem and activeTransaction properties in the Virtual_Guest resource, which results in any Hardware items included in the search results not having those properties, which is expected.
@@ -128,7 +131,7 @@ The format for [SoftLayer_Search::advancedSearch(search_term)](/reference/servic
 
 For example, finding all Network_Vlans with a specific name and number would look like this:
 
-```
+```bash
 slcli -vvv --format=json call-api SoftLayer_Search advancedSearch "_objectType:SoftLayer_Network_Vlan name: testdemo0604 vlanNumber: 808"
 
 [
@@ -156,10 +159,11 @@ curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": ["_objectType:SoftLayer_N
 
 # [Special Notes](#search_notes) {#search_notes .anchor-link}
 
-## Valid Characters
+## Valid Search Characters
 
 + `[a-zA-Z]`
-+ `-` *NOTE* a `-` at the START of a string means negation, and so any search for `-term` will not have that search term in the results.
++ `-`
+ > *NOTE*: a `-` at the START of a string means negation, and so any search for `-term` will not have that search term in the results.
 + `.`
 + `:`
 + `@`
@@ -170,7 +174,7 @@ curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": ["_objectType:SoftLayer_N
 To sort, simply add something like this to your search string `_sort:[index1:asc,index2:desc]`. You can only sort by indexed properties though, any non-indexed property will be ignored.
 
 
-```
+```bash
 slcli -vvv --format=json call-api SoftLayer_Search advancedSearch '_objectType:SoftLayer_Event_Log _sort:[eventCreateDate:asc] eventName:"Login Successful"'  --limit=20
 
 curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": ["_objectType:SoftLayer_Event_Log _sort:[eventCreateDate:asc] eventName:\"Login Successful\""]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Search/advancedSearch.json?resultLimit=0%2C20'
@@ -180,7 +184,7 @@ curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": ["_objectType:SoftLayer_E
 
 On date properties, you can specify a date range to search for. Either with exact date like `eventCreateDate:[2021-06-01 TO 2021-06-16]` 
 
-```
+```bash
 slcli -vvv --format=json call-api SoftLayer_Search advancedSearch '_objectType:SoftLayer_Event_Log  eventCreateDate:[2021-06-01 TO 2021-06-16]'   --limit=20
 
 curl -u $SL_USER:$SL_APIKEY -X POST-d '{"parameters": ["_objectType:SoftLayer_Event_Log  eventCreateDate:[2021-06-01 TO 2021-06-16]"]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Search/advancedSearch.json?resultLimit=0%2C20'
@@ -188,7 +192,7 @@ curl -u $SL_USER:$SL_APIKEY -X POST-d '{"parameters": ["_objectType:SoftLayer_Ev
 
 Or relative dates like `eventCreateDate:[now-1M TO now]`
 
-```
+```bash
 slcli -vvv --format=json call-api SoftLayer_Search advancedSearch '_objectType:SoftLayer_Event_Log  eventCreateDate:[now-1M TO now]'   --limit=20
 
 curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": ["_objectType:SoftLayer_Event_Log  eventCreateDate:[now-1M TO now]"]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Search/advancedSearch.json?resultLimit=0%2C20'
@@ -202,7 +206,7 @@ Make sure to capitalize the term `TO`, it is required to be that way.
 ## [And, Or, Not](#search_andornot) {#search_andornot .anchor-link}
 
 Will match Virtual_Guests with a domain of test.com AND a hostname of testTor01
-```
+```bash
 slcli -vvv --format=json call-api SoftLayer_Search advancedSearch "_objectType:SoftLayer_Virtual_Guest  domain:test.com && hostname:testTor01"
 
 curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": ["_objectType:SoftLayer_Virtual_Guest  domain:test.com && hostname:testTor01"]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Search/advancedSearch.json'
@@ -210,7 +214,7 @@ curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": ["_objectType:SoftLayer_V
 ```
 
 Will match Virtual_Guests with a domain of test.com OR a hostname of testTor01
-```
+```bash
 slcli -vvv --format=json call-api SoftLayer_Search advancedSearch "_objectType:SoftLayer_Virtual_Guest  domain:test.com || hostname:testTor01"
 
 curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": ["_objectType:SoftLayer_Virtual_Guest  domain:test.com || hostname:testTor01"]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Search/advancedSearch.json'
@@ -218,7 +222,7 @@ curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": ["_objectType:SoftLayer_V
 ```
 
 Will match Virtual_Guests with a domain of test.com but NOT a hostname of testTor01
-```
+```bash
 slcli -vvv --format=json call-api SoftLayer_Search advancedSearch "_objectType:SoftLayer_Virtual_Guest  domain:test.com hostname:-testTor01"
 
 curl -u $SL_USER:$SL_APIKEY -X POST  -d '{"parameters": ["_objectType:SoftLayer_Virtual_Guest  domain:test.com hostname:-testTor01"]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Search/advancedSearch.json'
