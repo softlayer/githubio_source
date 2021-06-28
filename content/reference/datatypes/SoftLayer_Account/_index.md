@@ -2863,6 +2863,16 @@ An account's associated VPC configured virtual guest objects.
 
 
 </div>
+<div class="prop-row">
+
+-----
+[vpnConfigRequiresVPNManageFlag]: #vpnconfigrequiresvpnmanageflag
+#### [vpnConfigRequiresVPNManageFlag]
+  
+<span class="type-label">Type: </span>**boolean**
+
+
+</div>
 
 ## Count
 <div class="prop-row">

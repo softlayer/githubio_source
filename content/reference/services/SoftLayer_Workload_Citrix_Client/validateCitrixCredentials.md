@@ -24,7 +24,7 @@ aliases:
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|citrixCredentials| <a href='/reference/datatypes/SoftLayer_Workload_Citrix_Request'>SoftLayer_Workload_Citrix_Request </a>| |
+|citrixCredentials| <a href='/reference/datatypes/SoftLayer_Workload_Citrix_Request'>SoftLayer_Workload_Citrix_Request </a>| null $citrixCredentials|
 
 
 ### Required Headers
