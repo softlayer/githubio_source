@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Product_Order_Network"
-description: "This type contains the structure of network-related objects that may be specified when ordering services."
+description: "(DEPRECATED) This type contains the structure of network-related objects that may be specified when ordering services."
 layout: "datatype"
 tags:
     - "datatype"
@@ -18,7 +18,7 @@ classes:
 </div>
 
 ## Description 
-This type contains the structure of network-related objects that may be specified when ordering services. 
+(DEPRECATED) This type contains the structure of network-related objects that may be specified when ordering services. 
 
 
 
