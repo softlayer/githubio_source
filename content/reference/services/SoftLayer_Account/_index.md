@@ -96,6 +96,12 @@ Turn off the EU Supported account flag.
 
 <div class="method-row">
 
+#### [disableVpnConfigRequiresVpnManageAttribute](/reference/services/SoftLayer_Account/disableVpnConfigRequiresVpnManageAttribute)
+Disable the VPN Config Requires VPN Manage attribute, creating it if necessary.
+</div>
+
+<div class="method-row">
+
 #### [editAccount](/reference/services/SoftLayer_Account/editAccount)
 Edit an account's information.
 </div>
@@ -104,6 +110,12 @@ Edit an account's information.
 
 #### [enableEuSupport](/reference/services/SoftLayer_Account/enableEuSupport)
 Turn on the EU Supported account flag.
+</div>
+
+<div class="method-row">
+
+#### [enableVpnConfigRequiresVpnManageAttribute](/reference/services/SoftLayer_Account/enableVpnConfigRequiresVpnManageAttribute)
+Enable the VPN Config Requires VPN Manage attribute, creating it if necessary.
 </div>
 
 <div class="method-row">
@@ -1908,6 +1920,12 @@ Get a collection of active VMware software account license keys.
 
 #### [getVpcVirtualGuests](/reference/services/SoftLayer_Account/getVpcVirtualGuests)
 Retrieve an account's associated VPC configured virtual guest objects.
+</div>
+
+<div class="method-row">
+
+#### [getVpnConfigRequiresVPNManageFlag](/reference/services/SoftLayer_Account/getVpnConfigRequiresVPNManageFlag)
+
 </div>
 
 <div class="method-row">

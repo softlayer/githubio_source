@@ -715,6 +715,16 @@ The name of the GPU type attached to the guest.
 <div class="prop-row">
 
 -----
+[hardwareFunctionDescription]: #hardwarefunctiondescription
+#### [hardwareFunctionDescription]
+The object's function.  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [host]: #host
 #### [host]
 The virtual host on which a virtual guest resides (available only on private clouds).  

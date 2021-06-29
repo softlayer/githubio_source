@@ -81,7 +81,7 @@ Returns an order receipt for a completed external (PayPal) payment authorization
 <div class="method-row">
 
 #### [getNetworks](/reference/services/SoftLayer_Product_Order/getNetworks)
-Retrieve the networks that are available during ordering.
+(DEPRECATED) Retrieve the networks that are available during ordering.
 </div>
 
 <div class="method-row">

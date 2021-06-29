@@ -1,6 +1,6 @@
 ---
 title: "getDiskUsageMetricImageByDate"
-description: "Returns a disk usage image based on disk usage specified by the input parameters."
+description: "[DEPRECATED] JpGraph has been removed, so this method is no longer functional."
 layout: "method"
 tags:
     - "method"
@@ -17,7 +17,7 @@ Retrieve an image of the disk usage data on a [SoftLayer_Virtual_Guest]({{<ref "
 
 
 ## Overview 
-Returns a disk usage image based on disk usage specified by the input parameters. 
+[DEPRECATED] JpGraph has been removed, so this method is no longer functional. 
 
 -----
 

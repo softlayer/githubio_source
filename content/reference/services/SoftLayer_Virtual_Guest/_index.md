@@ -598,6 +598,12 @@ Retrieve the name of the GPU type attached to the guest.
 
 <div class="method-row">
 
+#### [getHardwareFunctionDescription](/reference/services/SoftLayer_Virtual_Guest/getHardwareFunctionDescription)
+Retrieve the object's function.
+</div>
+
+<div class="method-row">
+
 #### [getHost](/reference/services/SoftLayer_Virtual_Guest/getHost)
 Retrieve the virtual host on which a virtual guest resides (available only on private clouds).
 </div>
