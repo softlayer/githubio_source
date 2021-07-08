@@ -20,18 +20,18 @@ tags:
 
 ### Order a Bare Metal by frondend/backend vlan or router.
 
-    1. Find the package that you want to order. listServerPackages() will filter out all that are not bare metal 
+1. Find the package that you want to order. listServerPackages() will filter out all that are not bare metal 
     servers.
 
-    2. Use getServerPrices() to find the item keyNames you want to include in your order. These price IDs can be 
+2. Use getServerPrices() to find the item keyNames you want to include in your order. These price IDs can be 
     included prices array directly, but I’ve included gatherPriceIds() to match up KeyNames to build a list of price 
     ids. getServerPrices() will also show the locations available for ordering.
 
-    3. listAvailableVlans() if you want to place the server on a specific VLAN.
+3. listAvailableVlans() if you want to place the server on a specific VLAN.
 
-    4. listAvailableRouters() if you want to place the server on a specific router.
+4. listAvailableRouters() if you want to place the server on a specific router.
 
-```
+```go
 package main
 
 import (
@@ -408,17 +408,17 @@ func ListAvailableRouters(locationId int) {
 
 ### Order a Virtual Server by backend/frontend vlan ids.
 
-    1. Find the package that you want to order. listServerPackages() will filter out all VIRTUAL_SERVER_INSTANCE.
+1. Find the package that you want to order. listServerPackages() will filter out all VIRTUAL_SERVER_INSTANCE.
 
-    2. Use getServerPrices() to find the item keyNames you want to include in your order. These price IDs can be 
+2. Use getServerPrices() to find the item keyNames you want to include in your order. These price IDs can be 
     included prices array directly, but I’ve included gatherPriceIds() to match up KeyNames to build a list of price 
     ids. getServerPrices() will also show the locations available for ordering.
 
-    3. listActivePresets() will list all active presets for a specific package.
+3. listActivePresets() will list all active presets for a specific package.
 
-    4. listAvailableVlans() if you want to place the server on a specific VLAN.
+4. listAvailableVlans() if you want to place the server on a specific VLAN.
 
-```
+```go
 package main
 
 import (
@@ -502,11 +502,11 @@ func main() {
 
 	locationKeyName := "DALLAS05"
 
-	OrderHardwareServer(packageId, locationKeyName, presetId, pubVlanId, privVlanId)
+	OrderVirtualServer(packageId, locationKeyName, presetId, pubVlanId, privVlanId)
 
 }
 
-func OrderHardwareServer(packageId int, locationKeyName string, flavor int, frontend int, backend int) {
+func OrderVirtualServer(packageId int, locationKeyName string, flavor int, frontend int, backend int) {
 	// KeyNames of the items
 	items := []string{
 		"1_GBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS",
@@ -534,7 +534,7 @@ func OrderHardwareServer(packageId int, locationKeyName string, flavor int, fron
 
 	prices := GetPrices(packageId, items)
 
-	// Build the Hardware Server array object.
+	// Build the Virtual Server array object.
 	virtualGuests := BuildArrayVirtualServer(parameters)
 
 	// Build the Container_Product_Order with the basic required data
