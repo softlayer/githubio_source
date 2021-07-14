@@ -58,7 +58,7 @@ func main() {
 	serverCreate()
 
 	//Shows some details for a Bare Metal Server.
-	hostname := "bardcabero"
+	hostname := "server-hostname"
 	serverId := getServerId(hostname)
 	serverDetails(serverId)
 
@@ -68,11 +68,11 @@ func main() {
 		//"Hostaname": "NewHostname",
 		//"Domain": "NewDomain",
 	}
-	hostname = "bardcabero"
+	hostname = "server-hostname-to-edit"
 	editServer(hostname, paramsToEdit)
 
 	//Cancel a Bare Metal Server.
-	hostname = "server-hostname"
+	hostname = "server-hostname-to-cancel"
 	serverId = getServerId(hostname)
 	cancelServer(serverId)
 
@@ -179,7 +179,7 @@ func getItemPriceList(packageId int, itemKeyNames []string) (resp []datatypes.Pr
 
 //Gets the items for the given package identifier.
 func getPackageItems(packageId int) (resp []datatypes.Product_Item) {
-	var mask = "id, itemCategory, keyName, prices[id,categories]"
+	var mask = "id, itemCategory, keyName, prices[id, categories]"
 	var service = services.GetProductPackageService(sess)
 	receipt, err := service.Id(packageId).Mask(mask).GetItems()
 	if err != nil {
@@ -199,7 +199,7 @@ func listItemsByPackageKeyname(keyname string) {
 		filter.Path("keyName").
 			Eq(keyname),
 	)
-	mask := "id,keyName,description,items"
+	mask := "id, keyName, description, items"
 	// Call the method SoftLayer_Product_Package:getAllObjects
 	packages, err := service.Filter(filter).Mask(mask).GetAllObjects()
 	if err != nil {
@@ -395,7 +395,12 @@ Prints server details by server identifier
 */
 func serverDetails(serverId int) {
 	hardwareService := services.GetHardwareServerService(sess)
-	mask := "id,hostname,domain,globalIdentifier,fullyQualifiedDomainName,hardwareStatus,processorPhysicalCoreAmount,memoryCapacity,primaryBackendIpAddress,primaryIpAddress,networkManagementIpAddress,datacenter,operatingSystem[softwareLicense[softwareDescription[manufacturer,name,version,referenceCode]]],billingItem[id,nextInvoiceTotalRecurringAmount,children[nextInvoiceTotalRecurringAmount],orderItem.order.userRecord[username]],tagReferences[id,tag[name,id]],notes"
+	mask := "id, hostname, domain, globalIdentifier, fullyQualifiedDomainName, hardwareStatus," +
+		"processorPhysicalCoreAmount, memoryCapacity, primaryBackendIpAddress, primaryIpAddress," +
+		"networkManagementIpAddress, datacenter," +
+		"operatingSystem[softwareLicense[softwareDescription[manufacturer, name, version, referenceCode]]]," +
+		"billingItem[id, nextInvoiceTotalRecurringAmount, children[nextInvoiceTotalRecurringAmount]," +
+		"orderItem.order.userRecord[username]], tagReferences[id, tag[name, id]], notes"
 	server, err := hardwareService.Id(serverId).Mask(mask).GetObject()
 	if err != nil {
 		fmt.Printf("%s\n", err)
@@ -446,7 +451,7 @@ func printServerDetail(server datatypes.Hardware_Server) {
 		table.Add("Datacenter", sl.Get(server.Datacenter.Name).(string))
 	}
 	table.Add("CPU cores", fmt.Sprintf("%d", *server.ProcessorPhysicalCoreAmount))
-	table.Add("Memory", (fmt.Sprintf("%d", *server.MemoryCapacity) + "G"))
+	table.Add("Memory", (fmt.Sprintf("%d", *server.MemoryCapacity) + "GB"))
 	table.Add("Public IP", sl.Get(server.PrimaryIpAddress).(string))
 	table.Add("Private IP", sl.Get(server.PrimaryBackendIpAddress).(string))
 	table.Add("IPMI IP", sl.Get(server.NetworkManagementIpAddress).(string))
