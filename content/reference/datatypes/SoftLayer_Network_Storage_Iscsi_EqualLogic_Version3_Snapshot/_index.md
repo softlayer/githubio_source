@@ -220,6 +220,16 @@ The currently active transactions on a network storage volume.
 <div class="prop-row">
 
 -----
+[allowDisasterRecoveryFailover]: #allowdisasterrecoveryfailover
+#### [allowDisasterRecoveryFailover]
+  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [allowedHardware]: #allowedhardware
 #### [allowedHardware]
 The SoftLayer_Hardware objects which are allowed access to this storage volume.  
