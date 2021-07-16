@@ -310,6 +310,12 @@ Retrieve a listing of all files matching the filter's criteria in a Storage acco
 
 <div class="method-row">
 
+#### [getAllowDisasterRecoveryFailover](/reference/services/SoftLayer_Network_Storage_Iscsi/getAllowDisasterRecoveryFailover)
+
+</div>
+
+<div class="method-row">
+
 #### [getAllowableHardware](/reference/services/SoftLayer_Network_Storage_Iscsi/getAllowableHardware)
 Return a list of SoftLayer_Hardware that can be authorized to this volume. 
 </div>
