@@ -76,6 +76,12 @@ Edit Gateway
 
 <div class="method-row">
 
+#### [forceRebuildvSRXCluster](/reference/services/SoftLayer_Network_Gateway/forceRebuildvSRXCluster)
+Rebuild HA GAteway
+</div>
+
+<div class="method-row">
+
 #### [getAccount](/reference/services/SoftLayer_Network_Gateway/getAccount)
 Retrieve the account for this gateway.
 </div>
