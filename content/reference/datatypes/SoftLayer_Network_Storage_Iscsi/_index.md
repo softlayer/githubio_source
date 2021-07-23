@@ -488,6 +488,16 @@ Determines whether dependent volume provision is completed on background.
 <div class="prop-row">
 
 -----
+[isMagneticStorage]: #ismagneticstorage
+#### [isMagneticStorage]
+  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [isReadyForSnapshot]: #isreadyforsnapshot
 #### [isReadyForSnapshot]
 Determines whether a volume is ready to order snapshot space, or, if snapshot space is already available, to assign a snapshot schedule, or to take a manual snapshot.  

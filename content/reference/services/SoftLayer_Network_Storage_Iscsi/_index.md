@@ -568,6 +568,12 @@ Retrieve determines whether dependent volume provision is completed on backgroun
 
 <div class="method-row">
 
+#### [getIsMagneticStorage](/reference/services/SoftLayer_Network_Storage_Iscsi/getIsMagneticStorage)
+
+</div>
+
+<div class="method-row">
+
 #### [getIsReadyForSnapshot](/reference/services/SoftLayer_Network_Storage_Iscsi/getIsReadyForSnapshot)
 Retrieve determines whether a volume is ready to order snapshot space, or, if snapshot space is already available, to assign a snapshot schedule, or to take a manual snapshot.
 </div>
