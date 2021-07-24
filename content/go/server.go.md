@@ -41,41 +41,45 @@ type Dictionary map[string]string
 
 func main() {
 
-	//Shows all servers in the account.
+	// Shows all servers in the account.
 	listServers()
 
-	//Shows all available packages to order/create a Bare Metal server.
+	// Shows all available packages to order/create a Bare Metal server.
 	listServerPackages()
 
-	//Shows just billing hourly packages to order/create a Bare Metal server.
-	listServerPackagesHourly()
+	// Shows just fast provision packages to order/create a Bare Metal server.
+	listServerPackagesFastProvision()
 
-	//Shows the items within the package
+	// Shows available locations for the package and the items within the package.
 	packageKeyname := "DUAL_E52600_V4_12_DRIVES"
-	listItemsByPackageKeyname(packageKeyname)
+	listPackageDetais(packageKeyname)
 
-	//Function to create a hardware server, it contains an example to build an order for Bare Metal Server.
+	// Function to create a hardware server, it contains an example that could use as a template,
+	// so changing the values within the example we can order a different server,
+	// the functions provided above,
+	// helps to get all available values to build an order for Bare Metal Server.
 	serverCreate()
 
 	//Shows some details for a Bare Metal Server.
 	hostname := "server-hostname"
-	serverId := getServerId(hostname)
-	serverDetails(serverId)
+	serverDetails(hostname)
 
-	//Edit some parameters for a server, just uncomment hostname and domain if you want to update them.
+	// Edit some parameters for a server, just uncomment hostname and domain if you want to update them.
 	paramsToEdit := Dictionary{
 		"Notes": "My golang note",
 		//"Hostaname": "NewHostname",
 		//"Domain": "NewDomain",
 	}
-	hostname = "server-hostname-to-edit"
+
+	hostname = "server-hostname"
 	editServer(hostname, paramsToEdit)
 
-	//Cancel a Bare Metal Server.
+	// Cancel a bare metal server.
+	// To make sure the server specified to cancel is the one you want
+	// verify that the identifier passed to cancelServer is correct.
 	hostname = "server-hostname-to-cancel"
-	serverId = getServerId(hostname)
+	serverId := getServerId(hostname)
 	cancelServer(serverId)
-
 }
 
 /**
@@ -118,7 +122,7 @@ func serverCreate() {
 		"HARD_DRIVE_2_00_TB_SATA_2",
 		"HARD_DRIVE_2_00_TB_SATA_2",
 		"HARD_DRIVE_2_00_TB_SATA_2",
-		"HARD_DRIVE_2_00_TB_SATA_2",
+		"HARD_DRIVE_12_00_TB_SATA",
 		"RAM_64_GB_DDR4_2133_ECC_NON_REG",
 		"OS_CENTOS_7_X_64_BIT",
 		"INTEL_INTEL_XEON_E52620_V4_2_10",
@@ -154,32 +158,32 @@ func serverCreate() {
 }
 
 /**
-  Converts a list of item keyNames to a list of item prices,
-  given package associated with the prices and a list of items KeyNames.
+Converts a list of item keyNames to a list of strandart item prices,
+given package associated with the prices and a list of items KeyNames.
 */
 func getItemPriceList(packageId int, itemKeyNames []string) (resp []datatypes.Product_Item_Price) {
 
 	items := getPackageItems(packageId)
 	var prices []datatypes.Product_Item_Price
+
 	for _, itemKeyName := range itemKeyNames {
 		for _, item := range items {
 			if (*item.KeyName) == itemKeyName {
-				for _, itemPrice := range item.Prices {
-					if itemPrice.LocationGroupId == nil {
-						prices = append(prices, itemPrice)
-						break
-					}
-				}
+				itemPrice := getStandartPrice(item)
+				prices = append(prices, itemPrice)
+				break
 
 			}
 		}
 	}
+
 	return prices
 }
 
 //Gets the items for the given package identifier.
 func getPackageItems(packageId int) (resp []datatypes.Product_Item) {
-	var mask = "id, itemCategory, keyName, prices[id, categories]"
+	var mask = "id, itemCategory, keyName," +
+		"prices[id, hourlyRecurringFee, recurringFee, categories]"
 	var service = services.GetProductPackageService(sess)
 	receipt, err := service.Id(packageId).Mask(mask).GetItems()
 	if err != nil {
@@ -190,8 +194,10 @@ func getPackageItems(packageId int) (resp []datatypes.Product_Item) {
 	return receipt
 }
 
-//Prints the items for the given package keyname.
-func listItemsByPackageKeyname(keyname string) {
+/**
+Prints the items and location avalibles in the given package
+*/
+func listPackageDetais(keyname string) {
 
 	// Get SoftLayer_Product_Package service
 	service := services.GetProductPackageService(sess)
@@ -199,34 +205,99 @@ func listItemsByPackageKeyname(keyname string) {
 		filter.Path("keyName").
 			Eq(keyname),
 	)
-	mask := "id, keyName, description, items"
+	mask := "id, keyName, description, regions," +
+		"items[id, keyName, description," +
+		"prices[hourlyRecurringFee, recurringFee," +
+		"capacityRestrictionMaximum, capacityRestrictionMinimum, capacityRestrictionType]]"
 	// Call the method SoftLayer_Product_Package:getAllObjects
 	packages, err := service.Filter(filter).Mask(mask).GetAllObjects()
 	if err != nil {
 		fmt.Printf("%s\n", err)
 		return
 	}
+	productPackage := packages[0]
+	printLocations(productPackage)
+	printItemsDetails(productPackage.Items)
 
-	printItemsDetails(packages[0].Items)
+}
 
+/**
+Prints the locations for a Product_Package.
+*/
+func printLocations(packageInstance datatypes.Product_Package) {
+	rows := []string{
+		"Locations",
+	}
+	cmd := terminal.NewStdUI()
+	table := cmd.Table(rows)
+	for _, region := range packageInstance.Regions {
+		keyname := sl.Get(region.Keyname).(string)
+		table.Add(keyname)
+	}
+	cmd.Say("List of Locations")
+	table.Print()
 }
 
 /**
 Prints a list of product items.
 */
 func printItemsDetails(items []datatypes.Product_Item) {
-	rows := []string{"id", "keyname", "description"}
+	rows := []string{
+		"Keyname",
+		"restriction _ minimum _ maximum",
+		"standard_monthly_price",
+		"standard_hourly_price",
+	}
 	cmd := terminal.NewStdUI()
 	table := cmd.Table(rows)
 	for _, item := range items {
-		id := fmt.Sprintf("%d", *item.Id)
+		itemPrice := getStandartPrice(item)
 		keyname := sl.Get(item.KeyName).(string)
-		name := sl.Get(item.Description).(string)
-
-		table.Add(id, keyname, name)
+		capacityRestrictionType := sl.Get(itemPrice.CapacityRestrictionType).(string)
+		capacityRestrictionMinimum := sl.Get(itemPrice.CapacityRestrictionMinimum).(string)
+		capacityRestrictionMaximum := sl.Get(itemPrice.CapacityRestrictionMaximum).(string)
+		restriction := fmt.Sprintf("%s _ %s _ %s",
+			capacityRestrictionType,
+			capacityRestrictionMinimum,
+			capacityRestrictionMaximum)
+		hourly := true
+		hourlyPrice := sl.Get(getFee(item, hourly)).(string)
+		hourly = false
+		monthlyPrice := sl.Get(getFee(item, hourly)).(string)
+		table.Add(keyname, restriction, monthlyPrice, hourlyPrice)
 	}
 	cmd.Say("List of product items")
 	table.Print()
+}
+
+/**
+Gets the HourlyRecurringFee or monthly RecurringFee from a Product_Item_Price.
+*/
+func getFee(item datatypes.Product_Item, hourlyPriceFlag bool) (resp string) {
+
+	itemPrice := getStandartPrice(item)
+
+	if itemPrice.HourlyRecurringFee != nil && hourlyPriceFlag {
+		return fmt.Sprintf("%.2f", *itemPrice.HourlyRecurringFee)
+	}
+
+	if itemPrice.RecurringFee != nil && !hourlyPriceFlag {
+		return fmt.Sprintf("%.2f", *itemPrice.RecurringFee)
+	}
+	return "_"
+}
+
+/**
+Gets the standart Price from a item.
+*/
+func getStandartPrice(item datatypes.Product_Item) (resp datatypes.Product_Item_Price) {
+	for _, itemPrice := range item.Prices {
+		if itemPrice.LocationGroupId == nil {
+			return itemPrice
+		}
+	}
+	return datatypes.Product_Item_Price{}
+
 }
 
 /**
@@ -297,14 +368,14 @@ func listServerPackages() {
 }
 
 /**
-Prints the available Bare Metal Servers packages with billing hourly.
+Prints the available Bare Metal Servers packages BARE_METAL_CPU_FAST_PROVISION type.
 */
-func listServerPackagesHourly() {
+func listServerPackagesFastProvision() {
 
 	// Get SoftLayer_Product_Package_Server service
 	service := services.GetProductPackageServerService(sess)
 
-	// In order to get all 'hourly' servers to order we will use the following filter
+	// In order to get all 'BARE_METAL_CPU_FAST_PROVISION' servers to order we will use the following filter
 	filter := filter.Build(
 		filter.Path("packageType").Eq("BARE_METAL_CPU_FAST_PROVISION"),
 	)
@@ -356,56 +427,43 @@ func editServer(serverName string, params Dictionary) {
 		objectTemplate.Notes = sl.String(domain)
 	}
 
-	accountService := services.GetAccountService(sess)
 	hardwareService := services.GetHardwareServerService(sess)
+	serverId := getServerId(serverName)
 
-	// Following filter and mask helps to get the ID of bare metal server
-	filter := filter.Build(filter.Path("hardware.hostname").Eq(serverName))
-	mask := "id;hostname"
-
-	// Call the getHardware() method to get list of hardware that matches with the filter
-	hardware, err := accountService.Mask(mask).Filter(filter).GetHardware()
+	result, err := hardwareService.Id(serverId).EditObject(&objectTemplate)
 	if err != nil {
-		fmt.Printf("\n Unable to find server '"+serverName+"'\n - %s\n", err)
+		fmt.Printf("\n Unable to edit the server '"+serverName+"'\n - %s\n", err)
 		return
 	}
 
-	// If server name was not found we throw a message
-	if len(hardware) < 1 {
-		fmt.Printf("\n Unable to find server '%s'\n", serverName)
-	} else {
-		// Call the editObject() method in order to made changes in the server
-		server := hardware[0]
-		result, err := hardwareService.Id(*server.Id).EditObject(&objectTemplate)
-		if err != nil {
-			fmt.Printf("\n Unable to edit the server '"+serverName+"'\n - %s\n", err)
-			return
-		}
-
-		// Print final result
-		if result {
-			fmt.Printf("\n Server '%s' was successfuly edited\n", serverName)
-			serverDetails(*server.Id)
-		}
+	if result {
+		fmt.Printf("\n Server '%s' was successfuly edited\n", serverName)
+		serverDetails(serverId)
 	}
+
 }
 
 /**
 Prints server details by server identifier
 */
-func serverDetails(serverId int) {
-	hardwareService := services.GetHardwareServerService(sess)
+func serverDetails(identifier interface{}) {
+	serverId := 0
+	switch identifier := identifier.(type) {
+	case int:
+		serverId = identifier
+	case string:
+		hostname := identifier
+		serverId = getServerId(hostname)
+	}
+
 	mask := "id, hostname, domain, globalIdentifier, fullyQualifiedDomainName, hardwareStatus," +
 		"processorPhysicalCoreAmount, memoryCapacity, primaryBackendIpAddress, primaryIpAddress," +
 		"networkManagementIpAddress, datacenter," +
 		"operatingSystem[softwareLicense[softwareDescription[manufacturer, name, version, referenceCode]]]," +
 		"billingItem[id, nextInvoiceTotalRecurringAmount, children[nextInvoiceTotalRecurringAmount]," +
 		"orderItem.order.userRecord[username]], tagReferences[id, tag[name, id]], notes"
-	server, err := hardwareService.Id(serverId).Mask(mask).GetObject()
-	if err != nil {
-		fmt.Printf("%s\n", err)
-		return
-	}
+
+	server := getServerIntance(serverId, mask)
 	printServerDetail(server)
 }
 
@@ -458,8 +516,10 @@ func printServerDetail(server datatypes.Hardware_Server) {
 	if server.OperatingSystem != nil &&
 		server.OperatingSystem.SoftwareLicense != nil &&
 		server.OperatingSystem.SoftwareLicense.SoftwareDescription != nil {
-		table.Add("OS", sl.Get(server.OperatingSystem.SoftwareLicense.SoftwareDescription.Name).(string))
-		table.Add("OS version", sl.Get(server.OperatingSystem.SoftwareLicense.SoftwareDescription.Version).(string))
+		table.Add("OS",
+			sl.Get(server.OperatingSystem.SoftwareLicense.SoftwareDescription.Name).(string))
+		table.Add("OS version",
+			sl.Get(server.OperatingSystem.SoftwareLicense.SoftwareDescription.Version).(string))
 	}
 	if server.Notes != nil && *server.Notes != "" {
 		table.Add("Note", sl.Get(server.Notes).(string))
@@ -481,10 +541,9 @@ func printAsJsonFormat(data interface{}) {
 }
 
 /*
-Cancel a bare metal server
-
-This function looks for a server by hostname to cancel it. The server will be cancelled immediately if
-it is billed Hourly, for Monthly server the cancellation will be made after next bill date.
+Cancel a bare metal server.
+The server will be cancelled immediately if it is billed Hourly,
+for Monthly server the cancellation will be made after next bill date.
 */
 
 func cancelServer(serverId int) {
@@ -494,15 +553,10 @@ func cancelServer(serverId int) {
 	reason := "No longer needed"
 	customerNote := "BMS - canceled"
 
-	// Get SoftLayer_Hardware_Server, and SoftLayer_Billing_Item services
-	hardwareService := services.GetHardwareServerService(sess)
+	// Get SoftLayer_Billing_Item service
 	billingService := services.GetBillingItemService(sess)
 	mask := "id;hostname;billingItem;hourlyBillingFlag"
-	server, err := hardwareService.Id(serverId).Mask(mask).GetObject()
-	if err != nil {
-		fmt.Printf("\n Unable to get server \n - %s\n", err)
-		return
-	}
+	server := getServerIntance(serverId, mask)
 
 	// If server is billed hourly it will be cancelled immediately, for monthly server
 	// the cancellation will be made after next bill date.
@@ -524,4 +578,18 @@ func cancelServer(serverId int) {
 	}
 
 }
+
+//Gets the server instance by identifier using a specific object mask.
+func getServerIntance(serverId int, mask string) (resp datatypes.Hardware_Server) {
+
+	hardwareService := services.GetHardwareServerService(sess)
+	server, err := hardwareService.Id(serverId).Mask(mask).GetObject()
+	if err != nil {
+		fmt.Printf("\n Unable to get server \n - %s\n", err)
+		return
+	}
+	return server
+
+}
+
 ```
