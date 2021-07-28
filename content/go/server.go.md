@@ -52,7 +52,7 @@ func main() {
 
 	// Shows available locations for the package and the items within the package.
 	packageKeyname := "DUAL_E52600_V4_12_DRIVES"
-	listPackageDetais(packageKeyname)
+	listPackageDetails(packageKeyname)
 
 	// Function to create a hardware server, it contains an example that could use as a template,
 	// so changing the values within the example we can order a different server,
@@ -158,7 +158,7 @@ func serverCreate() {
 }
 
 /**
-Converts a list of item keyNames to a list of strandart item prices,
+Converts a list of item keyNames to a list of standard item prices,
 given package associated with the prices and a list of items KeyNames.
 */
 func getItemPriceList(packageId int, itemKeyNames []string) (resp []datatypes.Product_Item_Price) {
@@ -169,7 +169,7 @@ func getItemPriceList(packageId int, itemKeyNames []string) (resp []datatypes.Pr
 	for _, itemKeyName := range itemKeyNames {
 		for _, item := range items {
 			if (*item.KeyName) == itemKeyName {
-				itemPrice := getStandartPrice(item)
+				itemPrice := getStandardPrice(item)
 				prices = append(prices, itemPrice)
 				break
 
@@ -197,7 +197,7 @@ func getPackageItems(packageId int) (resp []datatypes.Product_Item) {
 /**
 Prints the items and location avalibles in the given package
 */
-func listPackageDetais(keyname string) {
+func listPackageDetails(keyname string) {
 
 	// Get SoftLayer_Product_Package service
 	service := services.GetProductPackageService(sess)
@@ -251,7 +251,7 @@ func printItemsDetails(items []datatypes.Product_Item) {
 	cmd := terminal.NewStdUI()
 	table := cmd.Table(rows)
 	for _, item := range items {
-		itemPrice := getStandartPrice(item)
+		itemPrice := getStandardPrice(item)
 		keyname := sl.Get(item.KeyName).(string)
 		capacityRestrictionType := sl.Get(itemPrice.CapacityRestrictionType).(string)
 		capacityRestrictionMinimum := sl.Get(itemPrice.CapacityRestrictionMinimum).(string)
@@ -275,7 +275,7 @@ Gets the HourlyRecurringFee or monthly RecurringFee from a Product_Item_Price.
 */
 func getFee(item datatypes.Product_Item, hourlyPriceFlag bool) (resp string) {
 
-	itemPrice := getStandartPrice(item)
+	itemPrice := getStandardPrice(item)
 
 	if itemPrice.HourlyRecurringFee != nil && hourlyPriceFlag {
 		return fmt.Sprintf("%.2f", *itemPrice.HourlyRecurringFee)
@@ -288,9 +288,9 @@ func getFee(item datatypes.Product_Item, hourlyPriceFlag bool) (resp string) {
 }
 
 /**
-Gets the standart Price from a item.
+Gets the standard Price from a item.
 */
-func getStandartPrice(item datatypes.Product_Item) (resp datatypes.Product_Item_Price) {
+func getStandardPrice(item datatypes.Product_Item) (resp datatypes.Product_Item_Price) {
 	for _, itemPrice := range item.Prices {
 		if itemPrice.LocationGroupId == nil {
 			return itemPrice
