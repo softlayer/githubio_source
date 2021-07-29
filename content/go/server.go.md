@@ -195,7 +195,7 @@ func getPackageItems(packageId int) (resp []datatypes.Product_Item) {
 }
 
 /**
-Prints the items and location avalibles in the given package
+Prints the items and locations available in the given package
 */
 func listPackageDetails(keyname string) {
 
@@ -288,7 +288,7 @@ func getFee(item datatypes.Product_Item, hourlyPriceFlag bool) (resp string) {
 }
 
 /**
-Gets the standard Price from a item.
+Gets the standard Price from an item.
 */
 func getStandardPrice(item datatypes.Product_Item) (resp datatypes.Product_Item_Price) {
 	for _, itemPrice := range item.Prices {
@@ -542,8 +542,8 @@ func printAsJsonFormat(data interface{}) {
 
 /*
 Cancel a bare metal server.
-The server will be cancelled immediately if it is billed Hourly,
-for Monthly server the cancellation will be made after next bill date.
+The server will be canceled immediately if it is billed Hourly,
+for the Monthly server, the cancellation will be made after the next bill date.
 */
 
 func cancelServer(serverId int) {
@@ -558,7 +558,7 @@ func cancelServer(serverId int) {
 	mask := "id;hostname;billingItem;hourlyBillingFlag"
 	server := getServerIntance(serverId, mask)
 
-	// If server is billed hourly it will be cancelled immediately, for monthly server
+	// If server is billed hourly it will be canceled immediately, for monthly server
 	// the cancellation will be made after next bill date.
 	cancelImmediately := server.HourlyBillingFlag
 
