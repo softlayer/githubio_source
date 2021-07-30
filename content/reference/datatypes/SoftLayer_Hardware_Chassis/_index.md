@@ -98,7 +98,7 @@ A hardware chassis' name.
 [unitSize]: #unitsize
 #### [unitSize]
 The physical size of a hardware chassis.  Currently this relates to the 'U' size of a chassis buy default.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**integer**
 
 
 </div>
