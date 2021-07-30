@@ -114,7 +114,7 @@ A SoftLayer employee's last name. Last names are only visible to [SoftLayer_Acco
 -----
 [username]: #username
 #### [username]
-A representation of a SoftLayer employee's username. In all cases this should simply state "Employee".  
+A representation of a SoftLayer employee's username.  
 <span class="type-label">Type: </span>**string**
 
 
