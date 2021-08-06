@@ -1,6 +1,6 @@
 ---
 title: "getActiveTransaction"
-description: "Retrieve the active transaction associated with this Global IP."
+description: "Retrieval: DEPRECATED"
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_IpAddress_Global](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global)::getActiveTransaction
 
-Retrieve the active transaction associated with this Global IP.
+Retrieval: DEPRECATED
 
 
 ## Overview 
-Retrieve the active transaction associated with this Global IP.
+Retrieval: DEPRECATED
 
 -----
 

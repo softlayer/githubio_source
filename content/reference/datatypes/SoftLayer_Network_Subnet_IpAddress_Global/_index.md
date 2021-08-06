@@ -110,7 +110,7 @@ A Global IP Address' associated type [SoftLayer_Network_Subnet_IpAddress_Global_
 -----
 [activeTransaction]: #activetransaction
 #### [activeTransaction]
-The active transaction associated with this Global IP.  
+DEPRECATED  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**
 
 

@@ -166,6 +166,12 @@ Retrieve information regarding a piece of hardware's specific attributes.
 
 <div class="method-row">
 
+#### [getAvailableBillingTermChangePrices](/reference/services/SoftLayer_Hardware/getAvailableBillingTermChangePrices)
+Retrieves a list of available term prices available to this of hardware. 
+</div>
+
+<div class="method-row">
+
 #### [getAvailableNetworkStorages](/reference/services/SoftLayer_Hardware/getAvailableNetworkStorages)
 Return a list of SoftLayer_Network_Storage volumes that can be authorized to this device. 
 </div>
@@ -418,6 +424,12 @@ Retrieve a hardware's frontend or public router.
 
 <div class="method-row">
 
+#### [getFutureBillingItem](/reference/services/SoftLayer_Hardware/getFutureBillingItem)
+Retrieve information regarding the future billing item for a server.
+</div>
+
+<div class="method-row">
+
 #### [getGlobalIdentifier](/reference/services/SoftLayer_Hardware/getGlobalIdentifier)
 Retrieve a hardware's universally unique identifier.
 </div>
@@ -486,6 +498,12 @@ Retrieve the sum of all the inbound network traffic data for the last 30 days.
 
 #### [getInboundPublicBandwidthUsage](/reference/services/SoftLayer_Hardware/getInboundPublicBandwidthUsage)
 Retrieve the total public inbound bandwidth for this hardware for the current billing cycle.
+</div>
+
+<div class="method-row">
+
+#### [getIsBillingTermChangeAvailableFlag](/reference/services/SoftLayer_Hardware/getIsBillingTermChangeAvailableFlag)
+Retrieve whether or not this hardware object is eligible to change to term billing.
 </div>
 
 <div class="method-row">

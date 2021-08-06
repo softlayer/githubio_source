@@ -128,7 +128,7 @@ Retrieval: DEPRECATED
 <div class="method-row">
 
 #### [getActiveTransaction](/reference/services/SoftLayer_Network_Subnet/getActiveTransaction)
-Retrieve the billing item for a subnet.
+Retrieval: DEPRECATED
 </div>
 
 <div class="method-row">

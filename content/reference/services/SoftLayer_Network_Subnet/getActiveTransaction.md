@@ -1,6 +1,6 @@
 ---
 title: "getActiveTransaction"
-description: "Retrieve the billing item for a subnet."
+description: "Retrieval: DEPRECATED"
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getActiveTransaction
 
-Retrieve the billing item for a subnet.
+Retrieval: DEPRECATED
 
 
 ## Overview 
-Retrieve the billing item for a subnet.
+Retrieval: DEPRECATED
 
 -----
 
