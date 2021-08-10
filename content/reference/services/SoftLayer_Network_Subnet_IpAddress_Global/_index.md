@@ -47,7 +47,7 @@ Global IP Addresses are static IP addresses that can be routed to any server wit
 <div class="method-row">
 
 #### [getActiveTransaction](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global/getActiveTransaction)
-Retrieve the active transaction associated with this Global IP.
+Retrieval: DEPRECATED
 </div>
 
 <div class="method-row">

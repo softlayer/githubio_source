@@ -205,16 +205,6 @@ The current locations status.
 <div class="prop-row">
 
 -----
-[onlinePptpVpnUserCount]: #onlinepptpvpnusercount
-#### [onlinePptpVpnUserCount]
-The total number of users online using SoftLayer's PPTP VPN service for a location.  
-<span class="type-label">Type: </span>**integer**
-
-
-</div>
-<div class="prop-row">
-
------
 [onlineSslVpnUserCount]: #onlinesslvpnusercount
 #### [onlineSslVpnUserCount]
 The total number of users online using SoftLayer's SSL VPN service for a location.  

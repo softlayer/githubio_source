@@ -598,6 +598,16 @@ A hardware's frontend or public router.
 <div class="prop-row">
 
 -----
+[futureBillingItem]: #futurebillingitem
+#### [futureBillingItem]
+Information regarding the future billing item for a server.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Hardware'>SoftLayer_Billing_Item_Hardware </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [globalIdentifier]: #globalidentifier
 #### [globalIdentifier]
 A hardware's universally unique identifier.  
@@ -702,6 +712,16 @@ The sum of all the inbound network traffic data for the last 30 days.
 #### [inboundPublicBandwidthUsage]
 The total public inbound bandwidth for this hardware for the current billing cycle.  
 <span class="type-label">Type: </span>**decimal**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[isBillingTermChangeAvailableFlag]: #isbillingtermchangeavailableflag
+#### [isBillingTermChangeAvailableFlag]
+Whether or not this hardware object is eligible to change to term billing.  
+<span class="type-label">Type: </span>**boolean**
 
 
 </div>

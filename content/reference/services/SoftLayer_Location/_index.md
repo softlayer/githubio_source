@@ -130,12 +130,6 @@ Retrieve a SoftLayer_Location record.
 
 <div class="method-row">
 
-#### [getOnlinePptpVpnUserCount](/reference/services/SoftLayer_Location/getOnlinePptpVpnUserCount)
-Retrieve the total number of users online using SoftLayer's PPTP VPN service for a location.
-</div>
-
-<div class="method-row">
-
 #### [getOnlineSslVpnUserCount](/reference/services/SoftLayer_Location/getOnlineSslVpnUserCount)
 Retrieve the total number of users online using SoftLayer's SSL VPN service for a location.
 </div>

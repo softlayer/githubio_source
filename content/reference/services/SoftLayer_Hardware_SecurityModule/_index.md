@@ -243,6 +243,12 @@ Retrieve information regarding a piece of hardware's specific attributes.
 
 <div class="method-row">
 
+#### [getAvailableBillingTermChangePrices](/reference/services/SoftLayer_Hardware_SecurityModule/getAvailableBillingTermChangePrices)
+Retrieves a list of available term prices available to this of hardware. 
+</div>
+
+<div class="method-row">
+
 #### [getAvailableMonitoring](/reference/services/SoftLayer_Hardware_SecurityModule/getAvailableMonitoring)
 Retrieve an object that stores the maximum level for the monitoring query types and response types.
 </div>
@@ -639,6 +645,12 @@ Retrieve a hardware's frontend or public router.
 
 <div class="method-row">
 
+#### [getFutureBillingItem](/reference/services/SoftLayer_Hardware_SecurityModule/getFutureBillingItem)
+Retrieve information regarding the future billing item for a server.
+</div>
+
+<div class="method-row">
+
 #### [getGlobalIdentifier](/reference/services/SoftLayer_Hardware_SecurityModule/getGlobalIdentifier)
 Retrieve a hardware's universally unique identifier.
 </div>
@@ -725,6 +737,12 @@ Retrieve the total private inbound bandwidth for this hardware for the current b
 
 #### [getInboundPublicBandwidthUsage](/reference/services/SoftLayer_Hardware_SecurityModule/getInboundPublicBandwidthUsage)
 Retrieve the total public inbound bandwidth for this hardware for the current billing cycle.
+</div>
+
+<div class="method-row">
+
+#### [getIsBillingTermChangeAvailableFlag](/reference/services/SoftLayer_Hardware_SecurityModule/getIsBillingTermChangeAvailableFlag)
+Retrieve whether or not this hardware object is eligible to change to term billing.
 </div>
 
 <div class="method-row">

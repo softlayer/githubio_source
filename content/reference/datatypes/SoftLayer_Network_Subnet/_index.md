@@ -269,7 +269,7 @@ DEPRECATED
 -----
 [activeTransaction]: #activetransaction
 #### [activeTransaction]
-The billing item for a subnet.  
+DEPRECATED  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**
 
 
