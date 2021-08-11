@@ -152,6 +152,72 @@ client['SoftLayer_Account'].getObject()
 
 The parameters you pass into that method are the same as `client.call()`, it is basically just formatted different.
 
+#### [Method Parameters](#method-parameters) (#method-parameters .anchor-link)
+
+If a specific method takes input parameters, for example [SoftLayer_Dns_Domain::createARecord()](/reference/services/SoftLayer_Dns_Domain/createARecord/) takes 3 parameters (host, data, ttl). You specify these parameters as function parameters to `client.call()`. 
+
+><font color=red>NOTE: </font> Parameters are specified in the order they appear in the documentation. They are NOT specified by name.
+
+```python
+domain_id = 123456
+try:
+    new_record = client.call('SoftLayer_Dns_Domain', 'createARecord', 'newHost', '1.2.3.4', '6000', id=domain_id)
+    pp(new_record)
+except SoftLayer.SoftLayerAPIError as e:
+    print("Unable to create domain\nError: {}".format(e))
+```
+
+#### [Object Masks](#object-masks) {#object-masks .anchor-link}
+
+[Object Masks](https://sldn.softlayer.com/article/object-masks/) are a complex concept of the API, but setting them is straightforward.
+
+The basics is that it should be a string, starting with `mask[` and ending with `]`, and between should be the list of properties you want to get back from the API. If you want to select propertyX of a property1, propertyX needs to be enclosed in `[]` and the end of property1, like this:
+
+```python
+mask = "mask[id, hostname, backendRouters[hostname]"
+guests = client.call('SoftLayer_Account', 'getVirtualGuests', mask=mask)
+for guest in guests:
+    pp(guest)
+```
+
+#### [Object Filters](#object-filters) {#object-filters .anchor-link}
+
+[Object Filters](https://sldn.softlayer.com/article/object-filters/) are another critical API concept. In this case you would specify them as a Python nested dictionary.
+
+```python
+_filter = {"virtualGuests": {"hostname": {"operation": "testHost"}}}
+guests = client.call('SoftLayer_Account', 'getVirtualGuests', filter=_filter)
+for guest in guests:
+    pp(guest)
+```
+
+#### [Result Limits and Pagination](#result-limits) {#result-limits .anchor-link}
+
+You can automatically paginate API requests by using the `iter=True` parameter of `client.call()`, or by using `client.iter_call()` directly.  If you want to control pagination yourself you can use the `offset` and `limit` paramters.
+
+> API results are not guaranteed to be in order from one API call to another, so if you do pagination, make sure to use an OrderBy Object Filter on some unique property
+
+```python
+from SoftLayer import utils
+
+_filter = {"virtualGuests": {"id": utils.query_filter_orderby()}
+guests = client.call('SoftLayer_Account', 'getVirtualGuests', filter=_filter, limit=10, offset=0)
+for guest in guests:
+    pp(guest)
+```
+
+#### [Error Handling](#error-handling) {#error-handling .anchor-link}
+
+[SoftLayer.Exceptions](https://github.com/softlayer/softlayer-python/blob/master/SoftLayer/exceptions.py) has a few defined Exceptions for handling API related errors.
+
+```python
+try:
+    account = client.call('SoftLayer_Account', 'getObject')
+except SoftLayer.SoftLayerAPIError as e:
+    print("Unable to retrieve account information faultCode={}, faultString={}".format(e.faultCode, e.faultString)
+
+```
+
 --------------
 
 ## [Advanced Usage](#advanced-usage) {#advanced-usage .anchor-link}
