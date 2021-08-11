@@ -1,124 +1,247 @@
 ---
-title: "Python"
-description: "Using the SoftLayer API with python"
-date: "2011-06-20"
+title: "The SoftLayer Python Library"
+description: "Covers using the softlayer-python project to interact with the SoftLayer API, along with how to use the `slcli`, a command line tool, which is bundled with the softlayer-python library"
+date: "2021-08-10"
 tags:
     - "tools"
-    - "sldn"
+    - "slcli"
     - "article"
     - "python"
 ---
 
-<script type="text/javascript">toc_collapse=0;</script><div class="toc" id="toc1">
-<div class="toc-title">Table of contents<span class="toc-toggle-message">&nbsp;</span></div>
-<div class="toc-list">
-<ol>
-<li class="toc-level-1"><a href="#Python">Python</a></li>
-<li class="toc-level-1"><a href="#Making_API_Calls">Making API Calls</a></li>
-<li class="toc-level-1"><a href="#Using_Object_Masks">Using Object Masks</a></li>
-<li class="toc-level-1"><a href="#Using_Result_Limits">Using Result Limits</a></li>
-<li class="toc-level-1"><a href="#Error_Handling">Error Handling</a></li>
-<li class="toc-level-1"><a href="#Managers">Managers</a></li>
-<li class="toc-level-1"><a href="#More_Resources">More Resources</a></li>
-</ol>
-</div>
-</div>
-<h2 id="Python">Python</h2>
-<p>SoftLayer, an IBM company, provides a <a href="http://www.python.org/">Python-based</a> API package that takes the heavy lifting out of making manual XML-RPC API calls. Our Python-based API requires  a <a href="http://www.python.org/download/">minimum of Python 2.6</a> To install the Python package into your Python installation’s site-packages directory, run the following command:</p>
-<p><bash><br />
-pip install softlayer<br />
-</bash></p>
-<p>Refer to our <a href="https://softlayer-api-python-client.readthedocs.org/en/latest/install/">Python bindings documentation</a> for more install options.</p>
-<h2 id="Making_API_Calls">Making API Calls</h2>
-<p>Once the API client is installed, the first thing to do is import the SoftLayer package in your script. Use the following line to do that:</p>
-<div class="geshifilter">
-<pre class="python geshifilter-python" style="font-family:monospace;"><span style="color: #ff7700;font-weight:bold;">import</span> SoftLayer</pre></div>
-<p>Next, we need to create a client object. The code snippet below provides an example of setting up an API client:</p>
-<div class="geshifilter">
-<pre class="python geshifilter-python" style="font-family:monospace;"><span style="color: #ff7700;font-weight:bold;">import</span> SoftLayer
-client <span style="color: #66cc66;">=</span> SoftLayer.<span style="color: black;">Client</span><span style="color: black;">&#40;</span>username<span style="color: #66cc66;">=</span><span style="color: #483d8b;">'YOUR_USERNAME'</span><span style="color: #66cc66;">,</span> api_key<span style="color: #66cc66;">=</span><span style="color: #483d8b;">'YOUR_API_KEY'</span><span style="color: black;">&#41;</span></pre></div>
-<p>Once your API client object is ready, we can make calls with it. Here's how to get the account details for the current account. The call takes no parameters and doesn't require an id so it's the natural starting point.</p>
-<div class="geshifilter">
-<pre class="python geshifilter-python" style="font-family:monospace;">client<span style="color: black;">&#91;</span><span style="color: #483d8b;">'Account'</span><span style="color: black;">&#93;</span>.<span style="color: black;">getObject</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span></pre></div>
-<p>Here's how you'd create a new CloudLayer Computing Instance, which requires the use of the Virtual Guest record. The virtual guest record is a complex type, which is passed in as a Python dictionary.</p>
-<div class="geshifilter">
-<pre class="python geshifilter-python" style="font-family:monospace;">&nbsp;
-client<span style="color: black;">&#91;</span><span style="color: #483d8b;">'Virtual_Guest'</span><span style="color: black;">&#93;</span>.<span style="color: black;">createObject</span><span style="color: black;">&#40;</span><span style="color: black;">&#123;</span>
-    <span style="color: #483d8b;">'hostname'</span>: <span style="color: #483d8b;">'myhostname'</span><span style="color: #66cc66;">,</span>
-    <span style="color: #483d8b;">'domain'</span>: <span style="color: #483d8b;">'example.org'</span><span style="color: #66cc66;">,</span>
-    <span style="color: #483d8b;">'startCpus'</span>: <span style="color: #ff4500;">1</span><span style="color: #66cc66;">,</span>
-    <span style="color: #483d8b;">'maxMemory'</span>: <span style="color: #ff4500;">1024</span><span style="color: #66cc66;">,</span>
-    <span style="color: #483d8b;">'hourlyBillingFlag'</span>: <span style="color: #483d8b;">'true'</span><span style="color: #66cc66;">,</span>
-    <span style="color: #483d8b;">'operatingSystemReferenceCode'</span>: <span style="color: #483d8b;">'UBUNTU_LATEST'</span><span style="color: #66cc66;">,</span>
-    <span style="color: #483d8b;">'localDiskFlag'</span>: <span style="color: #483d8b;">'false'</span><span style="color: #66cc66;">,</span>
-    <span style="color: #483d8b;">'datacenter'</span>: {<span style="color: #483d8b;">'name'</span>: <span style="color: #483d8b;">'dal09'</span>}
-<span style="color: black;">&#125;</span><span style="color: black;">&#41;</span></pre></div>
-<p>Here's how you'd create a new domain zone on our DNS service.</p>
-<div class="geshifilter">
-<pre class="python geshifilter-python" style="font-family:monospace;">&nbsp;
-new_domain <span style="color: #66cc66;">=</span> client<span style="color: black;">&#91;</span><span style="color: #483d8b;">'Dns_Domain'</span><span style="color: black;">&#93;</span>.<span style="color: black;">createObject</span><span style="color: black;">&#40;</span><span style="color: black;">&#123;</span><span style="color: black;">&#123;</span>
-    <span style="color: #483d8b;">'name'</span> : <span style="color: #483d8b;">'example.org'</span><span style="color: #66cc66;">,</span>
-    <span style="color: #483d8b;">'resourceRecords'</span> <span style="color: #66cc66;">=></span> <span style="color: black;">&#91;</span>
-        <span style="color: black;">&#123;</span>
-            <span style="color: #483d8b;">'host'</span> : <span style="color: #483d8b;">'@'</span><span style="color: #66cc66;">,</span>
-            <span style="color: #483d8b;">'data'</span> : <span style="color: #483d8b;">'127.0.0.1'</span><span style="color: #66cc66;">,</span>
-            <span style="color: #483d8b;">'type'</span> : <span style="color: #483d8b;">'a'</span><span style="color: #66cc66;">,</span>
-        <span style="color: black;">&#125;</span>
-    <span style="color: black;">&#93;</span>
-<span style="color: black;">&#125;</span><span style="color: black;">&#41;</span></pre></div>
-<p>Now that we have a zone created for our domain, the following example shows how you add an A record in that zone after the fact. Note how parameters are passed in as positional arguments and the required domain id is passed using the id keyword argument. This example uses the domain id that was created in the last call.</p>
-<div class="geshifilter">
-<pre class="python geshifilter-python" style="font-family:monospace;">new_record <span style="color: #66cc66;">=</span> client<span style="color: black;">&#91;</span><span style="color: #483d8b;">'Dns_Domain'</span><span style="color: black;">&#93;</span>.<span style="color: black;">createARecord</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">'myhost'</span><span style="color: #66cc66;">,</span> <span style="color: #483d8b;">'127.0.0.1'</span><span style="color: #66cc66;">,</span> <span style="color: #ff4500;">86400</span><span style="color: #66cc66;">,</span> <span style="color: #008000;">id</span><span style="color: #66cc66;">=</span>new_domain<span style="color: black;">&#91;</span><span style="color: #483d8b;">'id'</span><span style="color: black;">&#93;</span><span style="color: black;">&#41;</span>
-&nbsp;
-<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">"New A record id: %"</span><span style="color: #66cc66;">,</span> new_record<span style="color: black;">&#91;</span><span style="color: #483d8b;">'id'</span><span style="color: black;">&#93;</span><span style="color: black;">&#41;</span></pre></div>
-<h2 id="Using_Object_Masks">Using Object Masks</h2>
-<p>Object masks allow you to control what attributes are returned in each call. It can be used to dig much deeper into an object to get specific</p>
-<div class="geshifilter">
-<pre class="python geshifilter-python" style="font-family:monospace;"><span style="color: #808080; font-style: italic;"># Because of the object mask that we're using we will retrieve the following</span>
-<span style="color: #808080; font-style: italic;"># for each server:</span>
-<span style="color: #808080; font-style: italic;"># * operating system passwords</span>
-<span style="color: #808080; font-style: italic;"># * all network components</span>
-<span style="color: #808080; font-style: italic;"># * the datacenter the server is located in</span>
-<span style="color: #808080; font-style: italic;"># * the number of processors</span>
-object_mask <span style="color: #66cc66;">=</span> <span style="color: #483d8b;">'operatingSystem.passwords, networkComponents, datacenter, processorCount'</span>
-hardware <span style="color: #66cc66;">=</span> client<span style="color: black;">&#91;</span><span style="color: #483d8b;">'Account'</span><span style="color: black;">&#93;</span>.<span style="color: black;">getHardware</span><span style="color: black;">&#40;</span>mask<span style="color: #66cc66;">=</span>object_mask<span style="color: black;">&#41;</span></pre></div>
-<h2 id="Using_Result_Limits">Using Result Limits</h2>
-<p>The SoftLayer API allows limits to the number of returned results and offsets to better control the amount of data returned on certain calls. Below is an example showing pagination.</p>
-<div class="geshifilter">
-<pre class="python geshifilter-python" style="font-family:monospace;">client<span style="color: black;">&#91;</span><span style="color: #483d8b;">'Account'</span><span style="color: black;">&#93;</span>.<span style="color: black;">getVirtualGuests</span><span style="color: black;">&#40;</span>limit<span style="color: #66cc66;">=</span><span style="color: #ff4500;">10</span><span style="color: #66cc66;">,</span> offset<span style="color: #66cc66;">=</span><span style="color: #ff4500;">0</span><span style="color: black;">&#41;</span>  <span style="color: #808080; font-style: italic;"># Page 1</span>
-client<span style="color: black;">&#91;</span><span style="color: #483d8b;">'Account'</span><span style="color: black;">&#93;</span>.<span style="color: black;">getVirtualGuests</span><span style="color: black;">&#40;</span>limit<span style="color: #66cc66;">=</span><span style="color: #ff4500;">10</span><span style="color: #66cc66;">,</span> offset<span style="color: #66cc66;">=</span><span style="color: #ff4500;">10</span><span style="color: black;">&#41;</span>  <span style="color: #808080; font-style: italic;"># Page 2</span></pre></div>
-<h2 id="Error_Handling">Error Handling</h2>
-<p>Errors that happen when making SoftLayer API calls appear as exceptions. The following script provides an example of how an API error can be handled. In this case we simply print out the details of the error and exit:</p>
-<div class="geshifilter">
-<pre class="python geshifilter-python" style="font-family:monospace;">client <span style="color: #66cc66;">=</span> SoftLayer.<span style="color: black;">Client</span><span style="color: black;">&#40;</span>username<span style="color: #66cc66;">=</span><span style="color: #483d8b;">'invalid'</span><span style="color: #66cc66;">,</span> api_key<span style="color: #66cc66;">=</span><span style="color: #483d8b;">'invalid'</span><span style="color: black;">&#41;</span>
-&nbsp;
-<span style="color: #ff7700;font-weight:bold;">try</span>:
-    account <span style="color: #66cc66;">=</span> client<span style="color: black;">&#91;</span><span style="color: #483d8b;">'Account'</span><span style="color: black;">&#93;</span>.<span style="color: black;">getObject</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
-<span style="color: #ff7700;font-weight:bold;">except</span> SoftLayer.<span style="color: black;">SoftLayerAPIError</span> <span style="color: #ff7700;font-weight:bold;">as</span> e:
-    <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">"Unable to retrieve account information faultCode=%s, faultString=%s"</span>
-          % <span style="color: black;">&#40;</span>e.<span style="color: black;">faultCode</span><span style="color: #66cc66;">,</span> e.<span style="color: black;">faultString</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
-    exit<span style="color: black;">&#40;</span><span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span>
-<span style="color: #808080; font-style: italic;"># This should output:</span>
-<span style="color: #808080; font-style: italic;"># Unable to retrieve account information faultCode=SoftLayer_Exception, faultString=Invalid API token.</span></pre></div>
-<h2 id="Managers">Managers</h2>
-<p>Everything above this section has addressed how to use the base API client to interact with the XML-RPC API that's documented here on SLDN. The Python bindings also have managers that abstract away some functionality from direct API calls. For reference of all available managers, refer to our <a href="https://softlayer-api-python-client.readthedocs.org/en/latest/api/client/#managers">API Python Client documentation</a>.</p>
-<p>Creating a new CloudLayer Computing Instance, as we did above, would look something like this using our Python API Client managers (unsure if Python API Client managers is right, but feel free to replace that with what is, if you need to):</p>
-<div class="geshifilter">
-<pre class="python geshifilter-python" style="font-family:monospace;"><span style="color: #ff7700;font-weight:bold;">import</span> SoftLayer
-client <span style="color: #66cc66;">=</span> SoftLayer.<span style="color: black;">Client</span><span style="color: black;">&#40;</span>username<span style="color: #66cc66;">=</span><span style="color: #483d8b;">'YOUR_USERNAME'</span><span style="color: #66cc66;">,</span> api_key<span style="color: #66cc66;">=</span><span style="color: #483d8b;">'YOUR_API_KEY'</span><span style="color: black;">&#41;</span>
-cci_manager <span style="color: #66cc66;">=</span> SoftLayer.<span style="color: black;">CCIManager</span><span style="color: black;">&#40;</span>client<span style="color: black;">&#41;</span>
-cci_manager.<span style="color: black;">create_instance</span><span style="color: black;">&#40;</span>
-    hostname<span style="color: #66cc66;">=</span><span style="color: #483d8b;">'myhostname'</span><span style="color: #66cc66;">,</span>
-    domain<span style="color: #66cc66;">=</span><span style="color: #483d8b;">'example.org'</span><span style="color: #66cc66;">,</span>
-    cpus<span style="color: #66cc66;">=</span><span style="color: #ff4500;">1</span><span style="color: #66cc66;">,</span>
-    memory<span style="color: #66cc66;">=</span><span style="color: #ff4500;">1024</span><span style="color: #66cc66;">,</span>
-    hourly<span style="color: #66cc66;">=</span><span style="color: #008000;">True</span><span style="color: #66cc66;">,</span>
-    os_code<span style="color: #66cc66;">=</span><span style="color: #483d8b;">'UBUNTU_LATEST'</span><span style="color: #66cc66;">,</span>
-    local_disk<span style="color: #66cc66;">=</span><span style="color: #008000;">False</span><span style="color: black;">&#41;</span></pre></div>
-<p>Below is an example of listing hardware servers with more than 8 gigabytes of memory in the dal05 datacenter.</p>
-<div class="geshifilter">
-<pre class="python geshifilter-python" style="font-family:monospace;">hardware_manager <span style="color: #66cc66;">=</span> SoftLayer.<span style="color: black;">HardwareManager</span><span style="color: black;">&#40;</span>client<span style="color: black;">&#41;</span>
-hardware <span style="color: #66cc66;">=</span> hardware_manager.<span style="color: black;">list_hardware</span><span style="color: black;">&#40;</span>datacenter<span style="color: #66cc66;">=</span><span style="color: #483d8b;">'dal05'</span><span style="color: #66cc66;">,</span> memory<span style="color: #66cc66;">=</span><span style="color: #483d8b;">'> 8'</span><span style="color: black;">&#41;</span></pre></div>
-<p>The managers are a good way of being introduced to a smaller subset of the API and provide a reference for doing common tasks.</p>
-<h2 id="More_Resources">More Resources</h2>
-<p>The Python bindings are publicly developed <a href="https://github.com/softlayer/softlayer-api-python-client">on GitHub</a>. New features are developed and bugs are reported through <a href="https://github.com/softlayer/softlayer-api-python-client/issues">GitHub's Integrated Issue Tracking</a>. The full documentation for SoftLayer API Python client is available <a href="https://softlayer-api-python-client.readthedocs.org">here</a>. The bindings also have a command-line interface that hasn't been mentioned here. You can find more information on that in its <a href="https://softlayer-api-python-client.readthedocs.org">full documentation site</a>.</p>
+
+## The Basics
+
+- [softlayer-python](https://github.com/softlayer/softlayer-python) project homepage. For source code and submitting issues.
+- [Documentation](https://softlayer-python.readthedocs.io/en/latest/) Covers both the SLCLI and softlayer-python library.
+- [PyPi project](https://pypi.org/project/SoftLayer/) For latest information about the softlayer-python package, which is kept updated on PyPi.
+
+
+#### <font color=red>Python 2.7 Support</font>
+As of version 5.8.0 SoftLayer-Python will no longer support python2.7, which is [End Of Life as of 2020](https://www.python.org/dev/peps/pep-0373/) . If you cannot install python 3.6+ for some reason, you will need to use a version of softlayer-python <= 5.7.2
+
+--------------
+
+## Authentication
+
+When making API calls in python, you will first create an instance of the [SoftLayer Client class](https://github.com/softlayer/softlayer-python/blob/master/SoftLayer/API.py#L155). This client object is responsible for all the communication with the SoftLayer API server. 
+
+The first step for setting up a client is getting authentication information, and there are several ways to do this.
+
+To get started, we will assume you are setting up your code something like this:
+
+```python
+import SoftLayer
+# This is nice for printing out results from the API as raw JSON
+from pprint import pprint as pp 
+
+client = SoftLayer.create_client_from_env()
+```
+
+#### [The ~/.softlayer config](#softlayer-config) {#softlayer-config .anchor-link}
+
+By default,  [`SoftLayer.create_client_from_env()`](https://github.com/softlayer/softlayer-python/blob/master/SoftLayer/API.py#L50) will read in the configuration from a file in your home directory called `~/.softlayer` ( and `~/AppData/Roaming/softlayer` on Windows)
+
+This file can be setup manually with the `slcli config setup` command, or if you already know what the config should be, this file can be set up by copying over a known good configuration.
+
+Listed below is an example config file, with comments and optional settings.
+
+```bash
+$ cat ~/.softlayer
+[softlayer]
+username = SLUserName
+api_key = 64CharacterLongApiKeyGoesHere
+
+# For IBMCloud ApiKeys
+# https://sldn.softlayer.com/article/authenticating-softlayer-api/#cloud-api
+# username = apikey
+# api_key = 32CharacterLongKey
+
+# Both rest and xmlrpc will work with this client
+# however the format of the request, and output of any logging/debugging 
+# information will change based on this.
+endpoint_url = https://api.softlayer.com/rest/v3.1
+#endpoint_url = https://api.softlayer.com/xmlrpc/v3.1
+
+# Set to a number to stop waiting after that many seconds
+timeout = 0
+
+# If you need to proxy requests through something
+# proxy = 'http://somehost'
+```
+
+
+#### [Environment Variables](#softlayer-environment) {#softlayer-environment .anchor-link}
+
+You can also use the following environment variables to control authentication.
+
+- `https_proxy`: For anyone needing to proxy requests through a middle server
+- `SL_USERNAME`: `username` in the config
+- `SL_API_KEY`: `api_key` in the config
+
+
+#### Setting during client creation
+
+You can of course set these variables when you are creating the client itself as well.
+
+```python
+client = SoftLayer.create_client_from_env(
+    username='SL_USERNAME', api_key="64CharacterLongAPiKey"
+)
+```
+
+See [SoftLayer.create_client_from_env()](https://softlayer-python.readthedocs.io/en/latest/api/client/#SoftLayer.create_client_from_env) for a full list of parameters. 
+
+The only ones that are not checked for in the config are 
+
+- `config_file`: which will just tell the client to read from a non-default location
+- `user_agent`: Make API calls with a non-standard user_agent. Can be somewhat useful if you want your API calls to have some style in our API logs.
+- `transport `: Useful if you want to use a debugging transport, or maybe some special modified transport.
+- `verify`: which will prevent SSL verification checks. Don't turn this off unless you mean to.
+
+--------------
+
+## [Making API Calls](#making-api-calls) {#making-api-calls .anchor-link}
+
+Now that the client is setup, we are able to make API calls and get data back.
+
+
+#### [client.call](#client-call) {#client-call .anchor-link}
+
+`client.call()` is generally what you should use to interact with the API. The [client.call() documentation](https://softlayer-python.readthedocs.io/en/latest/api/client/#SoftLayer.BaseClient.call) has a full listing of all the supported parameters, but the basic syntax is as follows:
+
+```python
+result = client.call('SoftLayer_Account', 'getObject')
+pp(result)
+```
+[Making API Calls](https://softlayer-python.readthedocs.io/en/latest/api/client/#making-api-calls) has some more examples of how to use this method if needed.
+
+#### [client.iter_call](#client-itercall) {#client-itercall .anchor-link}
+
+[client.iter_call()](https://softlayer-python.readthedocs.io/en/latest/api/client/#SoftLayer.BaseClient.iter_call) is useful if you want to iterate over a large return set from the API. It takes the same arguments as `client.call()`, however this method will return a [Python Generator](https://wiki.python.org/moin/Generators) and only make API calls to get more data when you read the end of the current data set.
+
+For example, the following code will first get all virtual guests on the account, THEN lookup information on each of them in turn.
+
+```python
+
+virtualGuests = client.call('SoftLayer_Account', 'getVirtualGuests', mask="mask[id]", iter=True)
+for guest in virtualGuest:
+    guestInfo = client.call('SoftLayer_Virtual_Guest', 'getObject', id=guest.get('id'))
+    pp(guestInfo)
+```
+
+However the following code will get virtual guests in batches of 10, get the info on each, then get the next batch of 10. This will continue until the client gets less than 10 results back
+
+```python
+virtualGuests = client.iter_call('SoftLayer_Account', 'getVirtualGuests', mask="mask[id]", limit=10)
+for guest in virtualGuest:
+    guestInfo = client.call('SoftLayer_Virtual_Guest', 'getObject', id=guest.get('id'))
+    pp(guestInfo)
+```
+This is mostly useful when getting all the results back from the API might take a very long time, and you want to do something in between API calls.
+
+#### Service.call()
+
+This is an older form of making API calls and you may see it in some examples occasionally. It is supported, but if you are writing new code you should use `client.call()`
+
+The basic format for this type is like this:
+
+```python
+client['SoftLayer_Account'].getObject()
+```
+
+The parameters you pass into that method are the same as `client.call()`, it is basically just formatted different.
+
+--------------
+
+## [Advanced Usage](#advanced-usage) {#advanced-usage .anchor-link}
+
+#### Retry Decorator
+The [Retry Decorator](https://github.com/softlayer/softlayer-python/blob/master/SoftLayer/decoration.py#L21) is a [Python Decorator](https://www.python.org/dev/peps/pep-0318/) that will automatically retry an API call based on a few types of API issues.
+
+The [virtual guest manager](https://github.com/softlayer/softlayer-python/blob/master/SoftLayer/managers/vs.py) has a few good examples of this in practice
+
+```python
+import logging
+from SoftLayer.decoration import retry
+
+LOGGER = logging.getLogger(__name__)
+
+
+@retry(logger=LOGGER)
+def listGuests():
+    return client.call('Account', 'getVirtualGuests')
+```
+
+If during this API call we get one of the following exceptions, the code will automatically retry after waiting a little bit.
+```python
+    exceptions.ServerError,
+    exceptions.ApplicationError,
+    exceptions.RemoteSystemError,
+```
+
+#### Debugging
+
+The Client object keeps track of all API calls made, and has a handy feature to be able to print them out in a raw format that doesn't rely on the SoftLayer library.
+
+If you are using the XMLRPC endpoint, this will result it a bit of python code that will directly use the requests library to send in the API call and show the payload it is sending.
+
+The REST endpoint though will print out a nice CURL command that is nice and copy-pasteable.
+
+[Debugging Documentation](https://softlayer-python.readthedocs.io/en/latest/api/client/#debugging) has the steps needed to set up the debugger and print out the API calls.
+
+--------------
+
+## [Managers](#managers) {#managers .anchor-link}
+
+The [Managers](https://softlayer-python.readthedocs.io/en/latest/api/client/#managers) are a collection of helper classes to make dealing with some of the more complex portions of the API a lot easier. 
+
+While it is not required to use them, they can serve as a good example to build off from. Most of the managers were designed for use with the CLI, but of note is the [Ordering Manager](https://softlayer-python.readthedocs.io/en/latest/api/managers/ordering/) which can help take a lot of the complexity out of creating orders.
+
+
+```python
+from SoftLayer.managers import ordering
+
+manager = ordering.OrderingManager(client)
+# This just excludes all non-classic infrastructure packages
+_filter = {'type': {'keyName': {'operation': '!= BLUEMIX_SERVICE'}}}
+packages = manager.list_packages(filter = _filter)
+print("Id, KeyName")
+for package in packages:
+    print("{}, {}".format(package.get('id'),package.get('keyName'))
+```
+
+--------------
+
+## [Utilities](#utilities) {#utilities .anchor-link}
+
+The [SoftLayer.utils](https://github.com/softlayer/softlayer-python/blob/master/SoftLayer/utils.py) section has a variety of functions that can make your life easier as well. Noteably the `query_filter` type functions can help format Object Filters properly and take a lot of the guess working out of the more complex filters.
+
+
+```python
+from SoftLayer import utils
+
+_filter = {"virtualGuests": {"hostname": utils.query_filter_orderby()}
+guestsByHostname = client.call('SoftLayer_Account', 'getVirtualGuests', filter=_filter)
+for guest in guestsByHostname:
+    pp(guest)
+```
+
+--------------
+
+## [SLCLI](#slcli) {#slcli .anchor-link}
+
+The [slcli](https://softlayer-python.readthedocs.io/en/latest/cli_directory/) command is included as part of the softlayer-python package. It contains a lot of prebuilt functionality that you can also find in the web portal, although some formats and outputs will be different of course. 
+
+It is a sister program of the [`ibmcloud sl`](https://cloud.ibm.com/docs/cli?topic=cli-sl-all-api) command, but a different code base. The two strive to have the same functionality, but some differences do exist, so be aware of which one you are using.
+
+--------------
+
+## Further Reading
+
+- [SLDN Python Library](https://sldn.softlayer.com/python/)
+- [SoftLayer-Python Project Homepage](https://github.com/softlayer/softlayer-python)
+- [IBMCloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-getting-started)
+- [SLCLI Command Directory](https://softlayer-python.readthedocs.io/en/latest/cli_directory/)
+- [SLCLI Change Log](https://github.com/softlayer/softlayer-python/blob/master/CHANGELOG.md)
+- [softlayer-python Versions](https://github.com/softlayer/softlayer-python/releases)
