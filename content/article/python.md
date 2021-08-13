@@ -174,7 +174,7 @@ except SoftLayer.SoftLayerAPIError as e:
 The basics is that it should be a string, starting with `mask[` and ending with `]`, and between should be the list of properties you want to get back from the API. If you want to select propertyX of a property1, propertyX needs to be enclosed in `[]` and the end of property1, like this:
 
 ```python
-mask = "mask[id, hostname, backendRouters[hostname]"
+mask = "mask[id, hostname, backendRouters[hostname]]"
 guests = client.call('SoftLayer_Account', 'getVirtualGuests', mask=mask)
 for guest in guests:
     pp(guest)
