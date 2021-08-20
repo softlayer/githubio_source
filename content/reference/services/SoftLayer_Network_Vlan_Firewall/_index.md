@@ -192,6 +192,12 @@ Retrieve a firewall's associated upgrade request object, if any.
 
 <div class="method-row">
 
+#### [isAccountAllowed](/reference/services/SoftLayer_Network_Vlan_Firewall/isAccountAllowed)
+
+</div>
+
+<div class="method-row">
+
 #### [isHighAvailabilityUpgradeAvailable](/reference/services/SoftLayer_Network_Vlan_Firewall/isHighAvailabilityUpgradeAvailable)
 
 </div>
@@ -205,7 +211,7 @@ Reject a request from technical support to bypass the firewall.
 <div class="method-row">
 
 #### [restoreDefaults](/reference/services/SoftLayer_Network_Vlan_Firewall/restoreDefaults)
-
+Reset the FSA 10G firewall to factory settings.
 </div>
 
 <div class="method-row">
@@ -217,7 +223,7 @@ Reject a request from technical support to bypass the firewall.
 <div class="method-row">
 
 #### [updateRouteBypass](/reference/services/SoftLayer_Network_Vlan_Firewall/updateRouteBypass)
-
+Enable or disable route bypass.
 </div>
 </div>
 
