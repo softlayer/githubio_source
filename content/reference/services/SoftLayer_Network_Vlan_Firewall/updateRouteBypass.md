@@ -13,7 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::updateRouteBypass
 
-
+Enable or disable route bypass.
 
 
 ## Overview 
