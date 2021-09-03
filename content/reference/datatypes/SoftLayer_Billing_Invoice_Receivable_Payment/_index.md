@@ -98,26 +98,6 @@ The type of payment.
 <div class="prop-row">
 
 -----
-[creditCardLastFourDigits]: #creditcardlastfourdigits
-#### [creditCardLastFourDigits]
-  
-<span class="type-label">Type: </span>**integer**
-
-
-</div>
-<div class="prop-row">
-
------
-[creditCardRequestId]: #creditcardrequestid
-#### [creditCardRequestId]
-  
-<span class="type-label">Type: </span>**string**
-
-
-</div>
-<div class="prop-row">
-
------
 [creditCardTransaction]: #creditcardtransaction
 #### [creditCardTransaction]
   
