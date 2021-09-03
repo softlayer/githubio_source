@@ -722,6 +722,18 @@ Remove a CloudLayer Computing Instance from a portal user's access list.
 
 <div class="method-row">
 
+#### [resetOpenIdConnectLink](/reference/services/SoftLayer_User_Customer/resetOpenIdConnectLink)
+Change the link of a user for OpenIdConnect managed accounts, provided the
+</div>
+
+<div class="method-row">
+
+#### [resetOpenIdConnectLinkUnifiedUserManagementMode](/reference/services/SoftLayer_User_Customer/resetOpenIdConnectLinkUnifiedUserManagementMode)
+Change the link of a master user for OpenIdConnect managed accounts,
+</div>
+
+<div class="method-row">
+
 #### [samlAuthenticate](/reference/services/SoftLayer_User_Customer/samlAuthenticate)
 
 </div>
