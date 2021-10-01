@@ -99,6 +99,12 @@ Retrieve the currently running rule set of this network component firewall.
 #### [getSubnets](/reference/services/SoftLayer_Network_Component_Firewall/getSubnets)
 Retrieve the additional subnets linked to this network component firewall.
 </div>
+
+<div class="method-row">
+
+#### [hasActiveTransactions](/reference/services/SoftLayer_Network_Component_Firewall/hasActiveTransactions)
+
+</div>
 </div>
 
 </div>
