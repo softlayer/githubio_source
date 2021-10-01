@@ -192,6 +192,12 @@ Retrieve a firewall's associated upgrade request object, if any.
 
 <div class="method-row">
 
+#### [hasActiveTransactions](/reference/services/SoftLayer_Network_Vlan_Firewall/hasActiveTransactions)
+
+</div>
+
+<div class="method-row">
+
 #### [isAccountAllowed](/reference/services/SoftLayer_Network_Vlan_Firewall/isAccountAllowed)
 
 </div>
