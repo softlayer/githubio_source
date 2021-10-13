@@ -140,7 +140,7 @@ code {
     font-family: "Lato";
     margin: 4px 0;
     display: block;
-    color: #222222;
+    /*color: #222222;*/
 }
 
 .prop-content > div.prop-row > p > strong {
@@ -175,4 +175,16 @@ code {
 .anchor-link {
    padding-top: 45px; 
    margin-top: -45px;
+}
+
+
+.deprecation-label {
+    background-color: #930000;
+}
+
+.deprecated {
+    background-color: #930000;
+    
+    color: #FF9B9B;
+    width:  100%;
 }
