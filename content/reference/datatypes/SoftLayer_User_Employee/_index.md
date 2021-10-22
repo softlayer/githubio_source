@@ -102,16 +102,6 @@ A SoftLayer employee's last name. Last names are only visible to [SoftLayer_Acco
 <div class="prop-row">
 
 -----
-[officePhone]: #officephone
-#### [officePhone]
-  
-<span class="type-label">Type: </span>**string**
-
-
-</div>
-<div class="prop-row">
-
------
 [username]: #username
 #### [username]
 A representation of a SoftLayer employee's username.  

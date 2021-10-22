@@ -1,6 +1,6 @@
 ---
 title: "getLayoutProfiles"
-description: ""
+description: "Retrieve contains the definition of the layout profile."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getLayoutProfiles
 
-
+Retrieve contains the definition of the layout profile.
 
 
 ## Overview 
-
+Retrieve contains the definition of the layout profile.
 
 -----
 

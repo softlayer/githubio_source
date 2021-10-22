@@ -1,6 +1,6 @@
 ---
 title: "getUserLinks"
-description: ""
+description: "Retrieve user customer link with IBMid and IAMid."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getUserLinks
 
-
+Retrieve user customer link with IBMid and IAMid.
 
 
 ## Overview 
-
+Retrieve user customer link with IBMid and IAMid.
 
 -----
 

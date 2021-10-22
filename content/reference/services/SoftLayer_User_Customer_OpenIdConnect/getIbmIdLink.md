@@ -1,6 +1,6 @@
 ---
 title: "getIbmIdLink"
-description: ""
+description: "Retrieve specifically relating the Customer instance to an IBMid. A Customer instance may or may not have an IBMid link."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getIbmIdLink
 
-
+Retrieve specifically relating the Customer instance to an IBMid. A Customer instance may or may not have an IBMid link.
 
 
 ## Overview 
-
+Retrieve specifically relating the Customer instance to an IBMid. A Customer instance may or may not have an IBMid link.
 
 -----
 
