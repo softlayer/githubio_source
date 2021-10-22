@@ -219,7 +219,7 @@ The total recurring fee amount for servers that are in the spare pool status.
 -----
 [taxCertificateId]: #taxcertificateid
 #### [taxCertificateId]
-  
+This property has been deprecated.  
 <span class="type-label">Type: </span>**string**
 
 
