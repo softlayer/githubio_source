@@ -58,6 +58,16 @@ classes:
 <div class="prop-row">
 
 -----
+[membersDescription]: #membersdescription
+#### [membersDescription]
+A succinct label describing the members of this grouping.  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [networkComponents]: #networkcomponents
 #### [networkComponents]
 A network component group's associated network components.  

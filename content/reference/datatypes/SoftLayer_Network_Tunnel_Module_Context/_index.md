@@ -258,7 +258,7 @@ The account that a network tunnel belongs to.
 -----
 [activeTransaction]: #activetransaction
 #### [activeTransaction]
-The transaction that is currently applying configurations for the network tunnel.  
+DEPRECATED  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**
 
 
@@ -348,7 +348,7 @@ Subnets used for a network tunnel's address translations.
 -----
 [transactionHistory]: #transactionhistory
 #### [transactionHistory]
-The transaction history for this network tunnel.  
+DEPRECATED  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a>**
 
 
@@ -420,7 +420,7 @@ A count of subnets used for a network tunnel's address translations.
 -----
 [transactionHistoryCount]: #transactionhistorycount
 #### [transactionHistoryCount]
-A count of the transaction history for this network tunnel.   
+A count of dEPRECATED   
 <span class="type-label">Type: </span>**unsigned long**
 
 

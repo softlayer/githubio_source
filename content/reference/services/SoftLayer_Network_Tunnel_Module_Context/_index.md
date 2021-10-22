@@ -123,7 +123,7 @@ Retrieve the account that a network tunnel belongs to.
 <div class="method-row">
 
 #### [getActiveTransaction](/reference/services/SoftLayer_Network_Tunnel_Module_Context/getActiveTransaction)
-Retrieve the transaction that is currently applying configurations for the network tunnel.
+Retrieval: DEPRECATED
 </div>
 
 <div class="method-row">
@@ -249,7 +249,7 @@ Retrieve subnets used for a network tunnel's address translations.
 <div class="method-row">
 
 #### [getTransactionHistory](/reference/services/SoftLayer_Network_Tunnel_Module_Context/getTransactionHistory)
-Retrieve the transaction history for this network tunnel.
+Retrieval: DEPRECATED
 </div>
 
 <div class="method-row">

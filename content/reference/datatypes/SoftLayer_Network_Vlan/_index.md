@@ -68,6 +68,16 @@ The internal identifier of the SoftLayer customer account that a VLAN is associa
 <div class="prop-row">
 
 -----
+[fullyQualifiedName]: #fullyqualifiedname
+#### [fullyQualifiedName]
+A human readable, unique identifier for a VLAN.  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [id]: #id
 #### [id]
 A VLAN's internal identifier. This should not be confused with the ''vlanNumber'' property, which is used in network configuration.  
@@ -317,6 +327,16 @@ The network components that are connected to this VLAN through a trunk.
 [networkComponents]: #networkcomponents
 #### [networkComponents]
 The networking components that are connected to a VLAN.  
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[networkComponentsTrunkable]: #networkcomponentstrunkable
+#### [networkComponentsTrunkable]
+The viable trunking targets of this VLAN. Viable targets include accessible components of assigned hardware in the same pod and network as this VLAN, which are not already natively attached nor trunked.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>**
 
 
