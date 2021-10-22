@@ -347,7 +347,7 @@ Retrieve whether or not a portal user has access to all virtual guests on their 
 <div class="method-row">
 
 #### [getIbmIdLink](/reference/services/SoftLayer_User_Customer_OpenIdConnect/getIbmIdLink)
-
+Retrieve specifically relating the Customer instance to an IBMid. A Customer instance may or may not have an IBMid link.
 </div>
 
 <div class="method-row">
@@ -359,7 +359,7 @@ Retrieve whether or not a portal user has access to all virtual guests on their 
 <div class="method-row">
 
 #### [getLayoutProfiles](/reference/services/SoftLayer_User_Customer_OpenIdConnect/getLayoutProfiles)
-
+Retrieve contains the definition of the layout profile.
 </div>
 
 <div class="method-row">
@@ -479,7 +479,7 @@ Get all available preference types
 <div class="method-row">
 
 #### [getPreferences](/reference/services/SoftLayer_User_Customer_OpenIdConnect/getPreferences)
-
+Retrieve data type contains a single user preference to a specific preference type.
 </div>
 
 <div class="method-row">
@@ -587,7 +587,7 @@ Retrieve a user id using a password request key
 <div class="method-row">
 
 #### [getUserLinks](/reference/services/SoftLayer_User_Customer_OpenIdConnect/getUserLinks)
-
+Retrieve user customer link with IBMid and IAMid.
 </div>
 
 <div class="method-row">

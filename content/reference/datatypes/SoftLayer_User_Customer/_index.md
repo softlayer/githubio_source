@@ -726,7 +726,7 @@ Whether or not a portal user has access to all virtual guests on their account.
 -----
 [ibmIdLink]: #ibmidlink
 #### [ibmIdLink]
-  
+Specifically relating the Customer instance to an IBMid. A Customer instance may or may not have an IBMid link.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link </a>**
 
 
@@ -736,7 +736,7 @@ Whether or not a portal user has access to all virtual guests on their account.
 -----
 [layoutProfiles]: #layoutprofiles
 #### [layoutProfiles]
-  
+Contains the definition of the layout profile.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Profile'>SoftLayer_Layout_Profile[] </a>**
 
 
@@ -826,7 +826,7 @@ A portal user's permissions. These permissions control that user's access to fun
 -----
 [preferences]: #preferences
 #### [preferences]
-  
+Data type contains a single user preference to a specific preference type.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Preference'>SoftLayer_User_Preference[] </a>**
 
 
@@ -946,7 +946,7 @@ A user's unsuccessful attempts to log into the SoftLayer customer portal.
 -----
 [userLinks]: #userlinks
 #### [userLinks]
-  
+User customer link with IBMid and IAMid.  
 <span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link[] </a>**
 
 
@@ -1068,7 +1068,7 @@ A count of hardware notifications associated with this user. A hardware notifica
 -----
 [layoutProfileCount]: #layoutprofilecount
 #### [layoutProfileCount]
-A count of    
+A count of contains the definition of the layout profile.   
 <span class="type-label">Type: </span>**unsigned long**
 
 
@@ -1138,7 +1138,7 @@ A count of a portal user's permissions. These permissions control that user's ac
 -----
 [preferenceCount]: #preferencecount
 #### [preferenceCount]
-A count of    
+A count of data type contains a single user preference to a specific preference type.   
 <span class="type-label">Type: </span>**unsigned long**
 
 
@@ -1218,7 +1218,7 @@ A count of a user's unsuccessful attempts to log into the SoftLayer customer por
 -----
 [userLinkCount]: #userlinkcount
 #### [userLinkCount]
-A count of    
+A count of user customer link with IBMid and IAMid.   
 <span class="type-label">Type: </span>**unsigned long**
 
 
