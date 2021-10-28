@@ -885,6 +885,12 @@ Retrieve the percentage of used snapshot space after which to delete automated s
 
 <div class="method-row">
 
+#### [getSnapshotNotificationStatus](/reference/services/SoftLayer_Network_Storage_Backup_Evault/getSnapshotNotificationStatus)
+Retrieve whether or not a network storage volume may be mounted.
+</div>
+
+<div class="method-row">
+
 #### [getSnapshotSizeBytes](/reference/services/SoftLayer_Network_Storage_Backup_Evault/getSnapshotSizeBytes)
 Retrieve the snapshot size in bytes.
 </div>
@@ -1211,6 +1217,12 @@ Enable or disable mounting of a Storage volume.
 
 #### [setSnapshotAllocation](/reference/services/SoftLayer_Network_Storage_Backup_Evault/setSnapshotAllocation)
 
+</div>
+
+<div class="method-row">
+
+#### [setSnapshotNotification](/reference/services/SoftLayer_Network_Storage_Backup_Evault/setSnapshotNotification)
+Function to enable/disable snapshot warning notification.
 </div>
 
 <div class="method-row">
