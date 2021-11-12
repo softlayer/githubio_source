@@ -1,6 +1,6 @@
 ---
-title: "list_items_for_order_server.py"
-description: "list_items_for_order_server.py"
+title: "List items for a Server Order"
+description: "The script displays the available data centers and items for a package."
 date: "2017-11-23"
 classes: 
     - "SoftLayer_Product_Item"
@@ -12,39 +12,25 @@ classes:
     - "SoftLayer_Product_Package"
     - "SoftLayer_Location_Region"
 tags:
-    - "baremetalservers"
+    - "server"
+    - "ordering"
 ---
 
+This is an older article, the following might provide better instructions.
+- [The Catalog](/article/catalog/)
+- [SLCLI Ordering](/article/understanding-ordering/)
+- [Basic and Advanced Ordering](/article/understanding-ordering-basics/)
 
-```
+```python
 """
 List items to order device.
 
 The script displays the available data centers and items for a package.
 Note: The displayed prices are standard prices.
-
-Important manual pages
-http://sldn.softlayer.com/reference/services/SoftLayer_Product_Package/getObject
-http://sldn.softlayer.com/reference/services/SoftLayer_Product_Package/getItems
-http://sldn.softlayer.com/reference/services/SoftLayer_Product_Package/getConfiguration
-http://sldn.softlayer.com/reference/services/SoftLayer_Product_Package/getPresetConfigurationRequiredFlag
-http://sldn.softlayer.com/reference/services/SoftLayer_Product_Package/getActivePresets
-http://sldn.softlayer.com/reference/datatypes/SoftLayer_Product_Package/
-http://sldn.softlayer.com/reference/datatypes/SoftLayer_Product_Package_Preset/
-http://sldn.softlayer.com/article/Object-Masks
-http://sldn.softlayer.com/article/Object-Filters
-
-License: http://sldn.softlayer.com/article/License
-Author: SoftLayer Technologies, Inc. <sldn@softlayer.com>
 """
 
 import SoftLayer
 
-# Your SoftLayer API username and key.
-API_USERNAME = 'Set-me'
-
-# Generate one at https://control.softlayer.com/account/users
-API_KEY = 'Set-me'
 
 package_id = 200
 # Set True to see the hourly prices.
@@ -55,7 +41,7 @@ hourly = False
 # Configure the value with "" in case the packages do not requires a preset id.
 preset_id = 385
 
-client = SoftLayer.create_client_from_env(username=API_USERNAME, api_key=API_KEY)
+client = SoftLayer.create_client_from_env()
 package_service = client['SoftLayer_Product_Package']
 
 
