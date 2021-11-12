@@ -36,7 +36,7 @@ Passing in a collection of unsaved instances of Customer_Notification_Hardware o
 * SoftLayer_ObjectMask
 
 ### Return Values
-* <a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain[] </a>
+* <a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Hardware'>SoftLayer_User_Customer_Notification_Hardware[] </a>
 
 
 

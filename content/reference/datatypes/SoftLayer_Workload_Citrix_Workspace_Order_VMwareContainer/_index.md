@@ -150,7 +150,7 @@ The bare metal shared nfs storage (optional)
 -----
 [subdomain]: #subdomain
 #### [subdomain]
-The subdomain for the ordered hosts (e.g. corp)  
+The subdomain for the ordered hosts (e.g. corp).  
 <span class="type-label">Type: </span>**string**
 
 
