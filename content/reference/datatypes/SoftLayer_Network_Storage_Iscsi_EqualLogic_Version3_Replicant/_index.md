@@ -218,6 +218,16 @@ The currently active transactions on a network storage volume.
 <div class="prop-row">
 
 -----
+[allowDisasterRecoveryFailback]: #allowdisasterrecoveryfailback
+#### [allowDisasterRecoveryFailback]
+  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [allowDisasterRecoveryFailover]: #allowdisasterrecoveryfailover
 #### [allowDisasterRecoveryFailover]
   
@@ -411,6 +421,16 @@ When a replicant is in the process of synchronizing with the parent volume this 
 [failbackNotAllowed]: #failbacknotallowed
 #### [failbackNotAllowed]
 Determines whether the volume is allowed to failback  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
+[failoverNotAllowed]: #failovernotallowed
+#### [failoverNotAllowed]
+Determines whether the volume is allowed to failover  
 <span class="type-label">Type: </span>**string**
 
 

@@ -326,6 +326,12 @@ Retrieve a listing of all files matching the filter's criteria in a Storage acco
 
 <div class="method-row">
 
+#### [getAllowDisasterRecoveryFailback](/reference/services/SoftLayer_Network_Storage/getAllowDisasterRecoveryFailback)
+
+</div>
+
+<div class="method-row">
+
 #### [getAllowDisasterRecoveryFailover](/reference/services/SoftLayer_Network_Storage/getAllowDisasterRecoveryFailover)
 
 </div>
@@ -484,6 +490,12 @@ Retrieve the events which have taken place on a network storage volume.
 
 #### [getFailbackNotAllowed](/reference/services/SoftLayer_Network_Storage/getFailbackNotAllowed)
 Retrieve determines whether the volume is allowed to failback
+</div>
+
+<div class="method-row">
+
+#### [getFailoverNotAllowed](/reference/services/SoftLayer_Network_Storage/getFailoverNotAllowed)
+Retrieve determines whether the volume is allowed to failover
 </div>
 
 <div class="method-row">
