@@ -189,3 +189,12 @@ code {
     /*color: #FF9B9B;*/
     width:  100%;
 }
+
+.deprecated > h4 > a {
+    color: #FF0000!important;
+}
+
+.deprecated > h1  {
+    color: #FF0000!important;
+}
+
