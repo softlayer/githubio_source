@@ -178,12 +178,14 @@ code {
 
 
 .deprecation-label {
-    background-color: #930000;
+    color: #FF0000;
+    font-size: 18px;
+    font-family: monospace;
 }
 
 .deprecated {
-    background-color: #930000;
+    background-image: linear-gradient(to right, rgba(255,0,0,0) , #FF9B9B);
     
-    color: #FF9B9B;
+    /*color: #FF9B9B;*/
     width:  100%;
 }
