@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::cancelPayPalTransaction
 
+
 Cancel the PayPal Payment Request process.
 
 

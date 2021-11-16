@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This class represents a Proof of Concept account approver. 
 
 
@@ -45,7 +47,8 @@ This class represents a Proof of Concept account approver.
 [approvalOrder]: #approvalorder
 #### [approvalOrder]
 Approval slot of the approver.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Approval slot of the approver.
 [bluepagesUid]: #bluepagesuid
 #### [bluepagesUid]
 Internal identifier.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Internal identifier.
 [email]: #email
 #### [email]
 Email of the approver.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Email of the approver.
 [firstName]: #firstname
 #### [firstName]
 First name of the approver.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ First name of the approver.
 [id]: #id
 #### [id]
 Internal identifier of a Proof of Concept account approver.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Internal identifier of a Proof of Concept account approver.
 [lastName]: #lastname
 #### [lastName]
 Last name of the approver.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Last name of the approver.
 [regionKeyName]: #regionkeyname
 #### [regionKeyName]
 SoftLayer_Account_ProofOfConcept_Approver_Region identifier of the approver.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ SoftLayer_Account_ProofOfConcept_Approver_Region identifier of the approver.
 [roleId]: #roleid
 #### [roleId]
 SoftLayer_Account_ProofOfConcept_Approver_Role identifier of the approver.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ SoftLayer_Account_ProofOfConcept_Approver_Role identifier of the approver.
 [typeId]: #typeid
 #### [typeId]
 SoftLayer_Account_ProofOfConcept_Approver_Type identifier of the approver.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ SoftLayer_Account_ProofOfConcept_Approver_Type identifier of the approver.
 [role]: #role
 #### [role]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver_Role'>SoftLayer_Account_ProofOfConcept_Approver_Role </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver_Role'>SoftLayer_Account_ProofOfConcept_Approver_Role </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ SoftLayer_Account_ProofOfConcept_Approver_Type identifier of the approver.
 [type]: #type
 #### [type]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver_Type'>SoftLayer_Account_ProofOfConcept_Approver_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver_Type'>SoftLayer_Account_ProofOfConcept_Approver_Type </a>**  
+
 
 
 </div>

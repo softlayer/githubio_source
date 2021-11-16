@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Event_Log](/reference/services/SoftLayer_Event_Log)::getAllUserTypes
 
+
 Returns all possible event log user types
 
 

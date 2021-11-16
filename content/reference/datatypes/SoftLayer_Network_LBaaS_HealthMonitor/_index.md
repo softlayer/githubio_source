@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_LBaaS_HealthMonitor type presents a structure containing attributes of a health monitor object associated with load balancer instance. Note that the relationship between backend (pool) and health monitor is N-to-1, especially that the pools object associated with a health monitor must have the same pair of protocol and port. Example: frontend FA: http, 80   - backend BA: tcp, 3456 - healthmonitor HM_tcp3456 frontend FB: https, 443 - backend BB: tcp, 3456 - healthmonitor HM_tcp3456 In above example both backends BA and BB share the same healthmonitor HM_tcp3456 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_LBaaS_HealthMonitor type presents a structure containing a
 [createDate]: #createdate
 #### [createDate]
 Create date of the health monitor instance  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Create date of the health monitor instance
 [id]: #id
 #### [id]
 Health monitor's identifier  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Health monitor's identifier
 [interval]: #interval
 #### [interval]
 Interval in seconds to perform health check  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Interval in seconds to perform health check
 [maxRetries]: #maxretries
 #### [maxRetries]
 Maximum number of health check retries in case of failure  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Maximum number of health check retries in case of failure
 [modifyDate]: #modifydate
 #### [modifyDate]
 Modify date of the health monitor instance  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Modify date of the health monitor instance
 [monitorType]: #monitortype
 #### [monitorType]
 Type of health check, valid values are "TCP", "HTTP" and "HTTPS"  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Type of health check, valid values are "TCP", "HTTP" and "HTTPS"
 [provisioningStatus]: #provisioningstatus
 #### [provisioningStatus]
 Provisioning status of the health monitor, supported values are "CREATE_PENDING",  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Provisioning status of the health monitor, supported values are "CREATE_PENDING"
 [timeout]: #timeout
 #### [timeout]
 Timeout in seconds to wait for health checks response  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ Timeout in seconds to wait for health checks response
 [urlPath]: #urlpath
 #### [urlPath]
 If monitorType is "HTTP" this specifies the whole URL path  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ If monitorType is "HTTP" this specifies the whole URL path
 [uuid]: #uuid
 #### [uuid]
 Health monitor's UUID  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

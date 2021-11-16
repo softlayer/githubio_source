@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest](/reference/services/SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest)::getCompanyType
 
+
 Retrieve catalyst company types.
 
 

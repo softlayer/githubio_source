@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_ProofOfConcept_Campaign_Code](/reference/services/SoftLayer_Account_ProofOfConcept_Campaign_Code)::getObject
 
+
 Retrieve a SoftLayer_Account_ProofOfConcept_Campaign_Code record.
 
 

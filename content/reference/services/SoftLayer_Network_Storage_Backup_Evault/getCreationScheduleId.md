@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getCreationScheduleId
 
+
 Retrieve the schedule id which was executed to create a snapshot.
 
 

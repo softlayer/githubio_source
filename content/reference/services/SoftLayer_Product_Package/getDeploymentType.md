@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getDeploymentType
 
+
 Retrieve the solution deployment type.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Compliance_Report_Type](/reference/services/SoftLayer_Compliance_Report_Type)::getObject
 
+
 Retrieve a SoftLayer_Compliance_Report_Type record.
 
 

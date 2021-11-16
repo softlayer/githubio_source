@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The service lists the different types of transactions. This includes operating system reloads and new operating system provisions. 
 
 
@@ -42,12 +44,14 @@ The service lists the different types of transactions. This includes operating s
 
 #### [getAllObjects](/reference/services/SoftLayer_Provisioning_Version1_Transaction_Group/getAllObjects)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Provisioning_Version1_Transaction_Group/getObject)
 Retrieve a SoftLayer_Provisioning_Version1_Transaction_Group record.
+
 </div>
 </div>
 

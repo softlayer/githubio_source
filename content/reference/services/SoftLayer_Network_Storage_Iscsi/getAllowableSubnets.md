@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getAllowableSubnets
 
+
 Return a list of SoftLayer_Network_Subnet that can be authorized to this volume. 
 
 

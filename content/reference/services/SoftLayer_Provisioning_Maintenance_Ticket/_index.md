@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,11 +44,13 @@ classes:
 
 #### [getAvailableSlots](/reference/services/SoftLayer_Provisioning_Maintenance_Ticket/getAvailableSlots)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getMaintenanceClass](/reference/services/SoftLayer_Provisioning_Maintenance_Ticket/getMaintenanceClass)
+
 
 </div>
 
@@ -54,11 +58,13 @@ classes:
 
 #### [getObject](/reference/services/SoftLayer_Provisioning_Maintenance_Ticket/getObject)
 Retrieve a SoftLayer_Provisioning_Maintenance_Ticket record.
+
 </div>
 
 <div class="method-row">
 
 #### [getTicket](/reference/services/SoftLayer_Provisioning_Maintenance_Ticket/getTicket)
+
 
 </div>
 </div>

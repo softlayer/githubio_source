@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getManagedVirtualGuests
 
+
 Retrieve the managed Virtual Server contained within a virtual rack.
 
 

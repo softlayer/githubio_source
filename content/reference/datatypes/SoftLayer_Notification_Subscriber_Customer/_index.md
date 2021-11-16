@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [active]: #active
 #### [active]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [modifyDate]: #modifydate
 #### [modifyDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ classes:
 [notificationId]: #notificationid
 #### [notificationId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ classes:
 [notificationSubscriberTypeId]: #notificationsubscribertypeid
 #### [notificationSubscriberTypeId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ classes:
 [notificationSubscriberTypeResourceId]: #notificationsubscribertyperesourceid
 #### [notificationSubscriberTypeResourceId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ classes:
 [deliveryMethods]: #deliverymethods
 #### [deliveryMethods]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Subscriber_Delivery_Method'>SoftLayer_Notification_Subscriber_Delivery_Method[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Subscriber_Delivery_Method'>SoftLayer_Notification_Subscriber_Delivery_Method[] </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ classes:
 [notification]: #notification
 #### [notification]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification'>SoftLayer_Notification </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification'>SoftLayer_Notification </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ classes:
 [subscriberRecord]: #subscriberrecord
 #### [subscriberRecord]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -153,7 +165,8 @@ classes:
 [deliveryMethodCount]: #deliverymethodcount
 #### [deliveryMethodCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

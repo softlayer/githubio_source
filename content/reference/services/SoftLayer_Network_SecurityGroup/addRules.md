@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_SecurityGroup](/reference/services/SoftLayer_Network_SecurityGroup)::addRules
 
+
 Add new rules to a security group.
 
 

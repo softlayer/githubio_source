@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getAllowableHardware
 
+
 Return a list of SoftLayer_Hardware that can be authorized to this volume. 
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description)::getSoftwareLicenses
 
+
 Retrieve software Licenses that govern this Software Description.
 
 

@@ -15,6 +15,8 @@ aliases:
 ---
 # [SoftLayer_Network_LoadBalancer_Global_Account](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account)::editObject
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 [Deprecated] Edit a global load balancer account and the hosts that make up the load balancing pool.
 
 

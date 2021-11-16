@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::getNetworkFirewallFlag
 
+
 Retrieve whether or not there is a firewall associated with this gateway.
 
 

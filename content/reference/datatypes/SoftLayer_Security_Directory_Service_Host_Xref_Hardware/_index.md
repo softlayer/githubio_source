@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Security_Directory_Service_Host_Xref_Hardware extends the [SoftLayer_Security_Directory_Service_Host_Xref]({{<ref "reference/datatypes/SoftLayer_Security_Directory_Service_Host_Xref">}}) data type to include hardware specific properties. 
 
 
@@ -56,7 +58,8 @@ SoftLayer_Security_Directory_Service_Host_Xref_Hardware extends the [SoftLayer_S
 [host]: #host
 #### [host]
 The hardware object.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>

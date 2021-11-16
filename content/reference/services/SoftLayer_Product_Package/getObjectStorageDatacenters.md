@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getObjectStorageDatacenters
 
+
 Returns a collection of datacenters where object storage is available plus the associated active usage rate prices. 
 
 

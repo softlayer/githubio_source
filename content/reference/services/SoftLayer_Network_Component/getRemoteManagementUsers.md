@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getRemoteManagementUsers
 
+
 Retrieve user(s) credentials to issue commands and/or interact with the server's remote management card.
 
 

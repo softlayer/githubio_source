@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getAccount
 
+
 Retrieve the account that a Storage services belongs to.
 
 

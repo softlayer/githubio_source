@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getBillingCyclePublicBandwidthUsage
 
+
 Retrieve the raw public bandwidth usage data for the current billing cycle.
 
 

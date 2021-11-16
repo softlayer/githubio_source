@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The Customer_Notification_Hardware object stores links between customers and the hardware devices they wish to monitor.  This link is not enough, the user must be sure to also create SoftLayer_Network_Monitor_Version1_Query_Host instance with the response action set to "notify users" in order for the users linked to that hardware object to be notified on failure. 
 
 
@@ -50,7 +52,8 @@ The Customer_Notification_Hardware object stores links between customers and the
 [hardwareId]: #hardwareid
 #### [hardwareId]
 The ID of the Hardware object that is to be monitored.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The ID of the Hardware object that is to be monitored.
 [id]: #id
 #### [id]
 The unique identifier for this object  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ The unique identifier for this object
 [userId]: #userid
 #### [userId]
 The ID of the SoftLayer_User_Customer object that represents the user to be notified on monitoring failure.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -86,7 +91,8 @@ The ID of the SoftLayer_User_Customer object that represents the user to be noti
 [hardware]: #hardware
 #### [hardware]
 The hardware object that will be monitored.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -96,7 +102,8 @@ The hardware object that will be monitored.
 [user]: #user
 #### [user]
 The user that will be notified when the associated hardware object fails a monitoring instance.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getBusinessPartnerFlag
 
+
 Retrieve flag indicating if the brand is a business partner.
 
 

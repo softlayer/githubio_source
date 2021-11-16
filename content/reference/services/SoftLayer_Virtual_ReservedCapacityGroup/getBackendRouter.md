@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_ReservedCapacityGroup](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup)::getBackendRouter
 
+
 Retrieve the router the reserved capacity group is implemented on.
 
 

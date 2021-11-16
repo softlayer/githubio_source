@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Workload_Citrix_Deployment](/reference/services/SoftLayer_Workload_Citrix_Deployment)::getType
 
+
 Retrieve it shows if the deployment is for Citrix Hypervisor or VMware.
 
 

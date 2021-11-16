@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::addAttachedFile
 
+
 Attach a file to a ticket.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getFixedConfigurationPreset
 
+
 Retrieve defines the fixed components in a fixed configuration bare metal server.
 
 

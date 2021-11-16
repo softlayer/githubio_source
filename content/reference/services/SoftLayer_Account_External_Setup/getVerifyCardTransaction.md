@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_External_Setup](/reference/services/SoftLayer_Account_External_Setup)::getVerifyCardTransaction
 
+
 Retrieve the transaction information related to verifying the customer credit card.
 
 

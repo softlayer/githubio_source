@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Firewall_AccessControlList data type contains general information relating to a single SoftLayer firewall access to controll list. This is the object which ties the running rules to a specific context. Use the [[SoftLayer Network Firewall Template]] service to pull SoftLayer recommended rule set templates. Use the [[SoftLayer Network Firewall Update Request]] service to submit a firewall update request. 
 
 ### External Links
@@ -59,7 +61,8 @@ The SoftLayer_Network_Firewall_AccessControlList data type contains general info
 [direction]: #direction
 #### [direction]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -69,7 +72,8 @@ The SoftLayer_Network_Firewall_AccessControlList data type contains general info
 [firewallContextInterfaceId]: #firewallcontextinterfaceid
 #### [firewallContextInterfaceId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -79,7 +83,8 @@ The SoftLayer_Network_Firewall_AccessControlList data type contains general info
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +100,8 @@ The SoftLayer_Network_Firewall_AccessControlList data type contains general info
 [networkFirewallUpdateRequests]: #networkfirewallupdaterequests
 #### [networkFirewallUpdateRequests]
 The update requests made for this firewall.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request'>SoftLayer_Network_Firewall_Update_Request[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request'>SoftLayer_Network_Firewall_Update_Request[] </a>**  
+
 
 
 </div>
@@ -105,7 +111,8 @@ The update requests made for this firewall.
 [networkVlan]: #networkvlan
 #### [networkVlan]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**  
+
 
 
 </div>
@@ -115,7 +122,8 @@ The update requests made for this firewall.
 [rules]: #rules
 #### [rules]
 The currently running rule set of this context access control list firewall.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan_Firewall_Rule'>SoftLayer_Network_Vlan_Firewall_Rule[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan_Firewall_Rule'>SoftLayer_Network_Vlan_Firewall_Rule[] </a>**  
+
 
 
 </div>
@@ -127,7 +135,8 @@ The currently running rule set of this context access control list firewall.
 [networkFirewallUpdateRequestCount]: #networkfirewallupdaterequestcount
 #### [networkFirewallUpdateRequestCount]
 A count of the update requests made for this firewall.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -137,7 +146,8 @@ A count of the update requests made for this firewall.
 [ruleCount]: #rulecount
 #### [ruleCount]
 A count of the currently running rule set of this context access control list firewall.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

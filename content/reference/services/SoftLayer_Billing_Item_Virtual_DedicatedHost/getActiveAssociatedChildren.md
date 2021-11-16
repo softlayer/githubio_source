@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getActiveAssociatedChildren
 
+
 Retrieve a billing item's active associated child billing items. This includes "floating" items that are not necessarily child items of this billing item.
 
 

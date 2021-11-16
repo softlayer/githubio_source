@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_LoadBalancer](/reference/services/SoftLayer_Scale_LoadBalancer)::createObject
 
+
 Create a load balancer for a scale group. 
 
 

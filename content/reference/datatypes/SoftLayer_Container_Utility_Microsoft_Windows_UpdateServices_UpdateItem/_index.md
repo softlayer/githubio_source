@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Utility_Microsoft_Windows_UpdateServices_UpdateItem models a single Microsoft Update as reported by SoftLayer's private Windows Server Update Services (WSUS) services. All servers purchased with Microsoft Windows retrieve updates from SoftLayer's WSUS servers by default.
 
 ### External Links
@@ -65,7 +67,8 @@ SoftLayer_Container_Utility_Microsoft_Windows_UpdateServices_UpdateItem models a
 [description]: #description
 #### [description]
 A short description of a Microsoft Windows Update.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +78,8 @@ A short description of a Microsoft Windows Update.
 [failed]: #failed
 #### [failed]
 Flag indicating that this patch failed to properly install  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -85,7 +89,8 @@ Flag indicating that this patch failed to properly install
 [kbArticleNumber]: #kbarticlenumber
 #### [kbArticleNumber]
 A Windows Update's knowledge base article number. Every Windows Update can be referenced on the Microsoft Help and Support site at the URL <nowiki>http://support.microsoft.com/kb/<article number></nowiki>.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +100,8 @@ A Windows Update's knowledge base article number. Every Windows Update can be re
 [optional]: #optional
 #### [optional]
 Flag indicating that the update is entirely optionals  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -105,7 +111,8 @@ Flag indicating that the update is entirely optionals
 [requiresReboot]: #requiresreboot
 #### [requiresReboot]
 Flag indicating that a reboot is needed for this update to be fully applied  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>

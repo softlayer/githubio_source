@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Component_Partition_Template](/reference/services/SoftLayer_Hardware_Component_Partition_Template)::getPartitionTemplatePartition
 
+
 Retrieve an individual partition for a partition template.
 
 

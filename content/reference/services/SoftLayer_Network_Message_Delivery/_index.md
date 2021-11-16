@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,36 +44,42 @@ classes:
 
 #### [editObject](/reference/services/SoftLayer_Network_Message_Delivery/editObject)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Network_Message_Delivery/getAccount)
 Retrieve the SoftLayer customer account that a network message delivery account belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getBillingItem](/reference/services/SoftLayer_Network_Message_Delivery/getBillingItem)
 Retrieve the billing item for a network message delivery account.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Message_Delivery/getObject)
 Retrieve a SoftLayer_Network_Message_Delivery record.
+
 </div>
 
 <div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_Network_Message_Delivery/getType)
 Retrieve the message delivery type of a network message delivery account.
+
 </div>
 
 <div class="method-row">
 
 #### [getVendor](/reference/services/SoftLayer_Network_Message_Delivery/getVendor)
 Retrieve the vendor for a network message delivery account.
+
 </div>
 </div>
 

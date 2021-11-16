@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Resource_Metadata](/reference/services/SoftLayer_Resource_Metadata)::getAccountId
 
+
 The id for the account which the resource is in
 
 

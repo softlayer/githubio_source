@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAverageArchiveUsageMetricDataByDate
 
+
 Returns the average disk usage for all archive repositories for the timeframe based on the parameters provided. 
 
 

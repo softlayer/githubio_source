@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category)::getValidCancelableServiceItemCategories
 
+
 Returns service product categories that can be canceled via API
 
 

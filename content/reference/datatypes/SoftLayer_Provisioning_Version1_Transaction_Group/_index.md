@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Provisioning_Version1_Transaction_Group data type contains general information relating to a single SoftLayer hardware transaction group. 
 
 SoftLayer customers are unable to change their hardware transactions or the hardware transaction group. 
@@ -52,7 +54,8 @@ SoftLayer customers are unable to change their hardware transactions or the hard
 [averageTimeToComplete]: #averagetimetocomplete
 #### [averageTimeToComplete]
 Average time, in minutes, for this type of transaction to complete. Please note that this is only an estimate.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -62,7 +65,8 @@ Average time, in minutes, for this type of transaction to complete. Please note 
 [name]: #name
 #### [name]
 A transaction group's name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

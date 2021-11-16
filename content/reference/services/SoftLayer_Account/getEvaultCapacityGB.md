@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getEvaultCapacityGB
 
+
 Retrieve the total capacity of Legacy EVault Volumes on an account, in GB.
 
 

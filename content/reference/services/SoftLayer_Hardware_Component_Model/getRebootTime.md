@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Component_Model](/reference/services/SoftLayer_Hardware_Component_Model)::getRebootTime
 
+
 Retrieve a motherboard's average reboot time.
 
 

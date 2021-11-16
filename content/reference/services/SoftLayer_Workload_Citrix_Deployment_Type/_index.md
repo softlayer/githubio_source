@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Workload_Citrix_Deployment_Type service tells the kind of Citrix Virtual Apps and Desktop deployment order. 
 
 The Citrix Virtual Apps and Desktop deployment can be in one of the following two types, - Citrix Hypervisor: This type of deployment uses XenServer Hypervisor provided by Citrix to create virtual machines - VMware: This type of deployment uses VMware hypervisor with NFS or VSAN for the storage solution. 
@@ -44,6 +46,7 @@ The Citrix Virtual Apps and Desktop deployment can be in one of the following tw
 
 #### [getObject](/reference/services/SoftLayer_Workload_Citrix_Deployment_Type/getObject)
 Retrieve a SoftLayer_Workload_Citrix_Deployment_Type record.
+
 </div>
 </div>
 

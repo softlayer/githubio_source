@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::getStorageGroups
 
+
 Retrieve the storage group for a virtual disk image.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getInProgressExternalAccountSetup
 
+
 Retrieve an in progress request to switch billing systems.
 
 

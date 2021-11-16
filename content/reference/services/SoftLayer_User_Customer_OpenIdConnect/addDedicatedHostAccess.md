@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::addDedicatedHostAccess
 
+
 Grant access to the user for a single dedicated host device.
 
 

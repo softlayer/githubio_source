@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getWindowsUpdateStatus
 
+
 Retrieve a list of an account's hardware's Windows Update status.
 
 

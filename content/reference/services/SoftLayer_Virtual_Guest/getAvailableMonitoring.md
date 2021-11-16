@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getAvailableMonitoring
 
+
 Retrieve an object that stores the maximum level for the monitoring query types and response types.
 
 

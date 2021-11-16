@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getCurrentBillingTotal
 
+
 Get the billing total for this instance's usage up to this point. This total includes all bandwidth charges. 
 
 

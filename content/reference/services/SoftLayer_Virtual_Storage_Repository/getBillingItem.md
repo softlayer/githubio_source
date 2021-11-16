@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getBillingItem
 
+
 Retrieve the current billing item for a storage repository.
 
 

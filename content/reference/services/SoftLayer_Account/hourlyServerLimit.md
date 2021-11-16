@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::hourlyServerLimit
 
+
 Retrieve the number of hourly bare metal servers that an account is allowed to have 
 
 

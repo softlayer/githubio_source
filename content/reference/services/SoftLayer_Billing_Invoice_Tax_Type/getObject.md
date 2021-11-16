@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Invoice_Tax_Type](/reference/services/SoftLayer_Billing_Invoice_Tax_Type)::getObject
 
+
 Retrieve a SoftLayer_Billing_Invoice_Tax_Type record.
 
 

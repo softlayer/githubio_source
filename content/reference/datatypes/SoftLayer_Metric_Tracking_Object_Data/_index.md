@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Metric_Tracking_Object_Data models an individual unit of data tracked by a SoftLayer tracking object, including the type of data polled, the date it was polled at, and the counter value that was measured at polling time. 
 
 
@@ -55,7 +57,8 @@ SoftLayer_Metric_Tracking_Object_Data models an individual unit of data tracked 
 [counter]: #counter
 #### [counter]
 The value stored for a data record.   
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ The value stored for a data record.
 [dateTime]: #datetime
 #### [dateTime]
 The time a data record was stored.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +79,8 @@ The time a data record was stored.
 [type]: #type
 #### [type]
 The type of data held in a record.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

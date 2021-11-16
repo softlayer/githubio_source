@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Load balancer services represent the "routes" that the load balancer will have available to route requests. Each service has a source port (located on the load balancer itself), and a destination IP address and port. Any services that share a source port will be used as potential routes for traffic coming into the load balancer on that port.  For instance, if there are two services that both have a source port of 80, both of those services will be used as balanced servers for traffic coming into your virtual IP on port 80.  For a more complete example, consider the following scenario: 
 
 
@@ -79,36 +81,42 @@ The affect of other variables are listed in their individual documentation.
 
 #### [deleteObject](/reference/services/SoftLayer_Network_LoadBalancer_Service/deleteObject)
 Delete this service, removing it from the load balancer.
+
 </div>
 
 <div class="method-row">
 
 #### [getGraphImage](/reference/services/SoftLayer_Network_LoadBalancer_Service/getGraphImage)
 Get the connection or status graph image for a load balancer service.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_LoadBalancer_Service/getObject)
 Retrieve a SoftLayer_Network_LoadBalancer_Service record.
+
 </div>
 
 <div class="method-row">
 
 #### [getStatus](/reference/services/SoftLayer_Network_LoadBalancer_Service/getStatus)
 Returns various status entries for this service as an array of SoftLayer_Container_Network_LoadBalancer_StatusEntry objects
+
 </div>
 
 <div class="method-row">
 
 #### [getVip](/reference/services/SoftLayer_Network_LoadBalancer_Service/getVip)
 Retrieve the load balancer that this service belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [resetPeakConnections](/reference/services/SoftLayer_Network_LoadBalancer_Service/resetPeakConnections)
 Update the PeakConnections value on the service to zero.
+
 </div>
 </div>
 

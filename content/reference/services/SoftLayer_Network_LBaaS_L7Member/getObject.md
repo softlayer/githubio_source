@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_LBaaS_L7Member](/reference/services/SoftLayer_Network_LBaaS_L7Member)::getObject
 
+
 Retrieve a SoftLayer_Network_LBaaS_L7Member record.
 
 

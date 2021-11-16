@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getCost
 
+
 Retrieve the total cost of a server, measured in US Dollars ($USD).
 
 

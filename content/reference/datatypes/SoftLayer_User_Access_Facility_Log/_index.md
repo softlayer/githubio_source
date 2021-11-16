@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This class represents a login/logout sheet for facility visitors.
 
 
@@ -45,7 +47,8 @@ This class represents a login/logout sheet for facility visitors.
 [accountId]: #accountid
 #### [accountId]
 This is the account associated with a log record. For a customer logging into a datacenter, this is the customer's account. For a contractor or any other guest logging into a customer's cabinet or colocation cage, this is the customer's account.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ This is the account associated with a log record. For a customer logging into a 
 [description]: #description
 #### [description]
 This is a short description of why the person is at the location.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ This is a short description of why the person is at the location.
 [hardwareId]: #hardwareid
 #### [hardwareId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ This is a short description of why the person is at the location.
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ This is a short description of why the person is at the location.
 [locationId]: #locationid
 #### [locationId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ This is a short description of why the person is at the location.
 [timeIn]: #timein
 #### [timeIn]
 This is the date and time the person arrived.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ This is the date and time the person arrived.
 [timeOut]: #timeout
 #### [timeOut]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ This is the date and time the person arrived.
 [account]: #account
 #### [account]
 This is the account associated with the log entry. For users under a customer's account, it is the customer's account. For contractors and others visiting a colocation area, it is the account associated with the area they visited.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ This is the account associated with the log entry. For users under a customer's 
 [datacenter]: #datacenter
 #### [datacenter]
 This is the location of the facility.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ This is the location of the facility.
 [hardware]: #hardware
 #### [hardware]
 This is the colocation hardware that was visited.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ This is the colocation hardware that was visited.
 [logType]: #logtype
 #### [logType]
 This is the type of person entering the facility.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Access_Facility_Log_Type'>SoftLayer_User_Access_Facility_Log_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Access_Facility_Log_Type'>SoftLayer_User_Access_Facility_Log_Type </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ This is the type of person entering the facility.
 [visitor]: #visitor
 #### [visitor]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a>**  
+
 
 
 </div>

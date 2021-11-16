@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::createNotificationSubscriber
 
+
 Create a new subscriber for a given resource.
 
 

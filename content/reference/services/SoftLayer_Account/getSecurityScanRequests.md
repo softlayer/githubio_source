@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSecurityScanRequests
 
+
 Retrieve an account's vulnerability scan requests.
 
 

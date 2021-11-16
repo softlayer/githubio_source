@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Every SoftLayer_Auxiliary_Notification_Emergency has a signatureId that references a SoftLayer_Auxiliary_Notification_Emergency_Signature data type.  The signature is the user or group  responsible for the current event. 
 
 
@@ -50,7 +52,8 @@ Every SoftLayer_Auxiliary_Notification_Emergency has a signatureId that referenc
 [name]: #name
 #### [name]
 The name or signature for the current Emergency Notification.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

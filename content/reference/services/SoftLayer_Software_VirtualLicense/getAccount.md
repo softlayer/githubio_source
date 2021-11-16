@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_VirtualLicense](/reference/services/SoftLayer_Software_VirtualLicense)::getAccount
 
+
 Retrieve the customer account this Virtual License belongs to.
 
 

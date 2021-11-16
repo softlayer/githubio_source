@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer_Software_AccountLicense is the application class that handles a special type of Software License.  Most software licenses are licensed to a specific hardware ID or IP address, this is tied to an account. 
 
 
@@ -50,30 +52,35 @@ SoftLayer_Software_AccountLicense is the application class that handles a specia
 
 #### [getAccount](/reference/services/SoftLayer_Software_AccountLicense/getAccount)
 Retrieve the customer account this Account License belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getAllObjects](/reference/services/SoftLayer_Software_AccountLicense/getAllObjects)
 Return all account licenses
+
 </div>
 
 <div class="method-row">
 
 #### [getBillingItem](/reference/services/SoftLayer_Software_AccountLicense/getBillingItem)
 Retrieve the billing item for a software account license.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Software_AccountLicense/getObject)
 Retrieve a SoftLayer_Software_AccountLicense record.
+
 </div>
 
 <div class="method-row">
 
 #### [getSoftwareDescription](/reference/services/SoftLayer_Software_AccountLicense/getSoftwareDescription)
 Retrieve the SoftLayer_Software_Description that this account license is for.
+
 </div>
 </div>
 

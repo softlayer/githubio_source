@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getPdfFileSize
 
+
 Retrieve the size of a PDF copy of an invoice.
 
 

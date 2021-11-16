@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::uploadFile
 
+
 Upload a file to a Storage account's root directory.
 
 

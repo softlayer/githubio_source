@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Provision provides description of a provision 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Provision provides descrip
 [accountId]: #accountid
 #### [accountId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Provision provides descrip
 [provision]: #provision
 #### [provision]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Provision provides descrip
 [provisionCreateDate]: #provisioncreatedate
 #### [provisionCreateDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Provision provides descrip
 [provisionModifyDate]: #provisionmodifydate
 #### [provisionModifyDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Provision provides descrip
 [provisionTime]: #provisiontime
 #### [provisionTime]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

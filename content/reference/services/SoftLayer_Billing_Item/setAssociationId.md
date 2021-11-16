@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::setAssociationId
 
+
 Set the associated billing item for an orphan billing item.
 
 

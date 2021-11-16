@@ -20,6 +20,9 @@ classes:
 </div>
 
 ## Description 
+
+<div class="deprecated"><span class="deprecation-label">Deprecated  </span></div>
+
 The global load balancer service has been deprecated and is no longer available. 
 
 The SoftLayer_Network_LoadBalancer_Global_Type data type represents a single load balance method that can be assigned to a global load balancer account. The load balance method determines how hosts in a load balancing pool are chosen by the global load balancers. 
@@ -49,7 +52,8 @@ The SoftLayer_Network_LoadBalancer_Global_Type data type represents a single loa
 [id]: #id
 #### [id]
 The unique identifier of a load balance method.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -59,7 +63,8 @@ The unique identifier of a load balance method.
 [name]: #name
 #### [name]
 The name of a load balance method.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getTaxMessage
 
+
 Retrieve this is a message explaining the tax treatment for this invoice.
 
 

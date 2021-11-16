@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The McAfee_Epolicy_Orchestrator_Version36_Hips_Version7_IPSEvent data type represents a single IPS event.  It contains details about the event such as the date the event occurred, the process that generated it, the severity of the event, and the action taken. 
 
 
@@ -45,7 +47,8 @@ The McAfee_Epolicy_Orchestrator_Version36_Hips_Version7_IPSEvent data type repre
 [incidentTime]: #incidenttime
 #### [incidentTime]
 The time when an IPS event occurred.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The time when an IPS event occurred.
 [processName]: #processname
 #### [processName]
 Name of the process that generated an IPS event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Name of the process that generated an IPS event.
 [reactionText]: #reactiontext
 #### [reactionText]
 The action taken because of an IPS event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The action taken because of an IPS event.
 [remoteIpAddress]: #remoteipaddress
 #### [remoteIpAddress]
 The IP address that generated an IPS event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The IP address that generated an IPS event.
 [severityText]: #severitytext
 #### [severityText]
 The severity level for an IPS event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The severity level for an IPS event.
 [signature]: #signature
 #### [signature]
 The signature that generated an IPS event.  
-<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Hips_Version7_Event_Signature**
+<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Hips_Version7_Event_Signature**  
+
 
 
 </div>

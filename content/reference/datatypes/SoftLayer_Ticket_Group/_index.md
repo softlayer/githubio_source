@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer tickets have the ability to be assigned to one of SoftLayer's internal departments. The department that a ticket is assigned to is modeled by the SoftLayer_Ticket_Group data type. Ticket groups help to ensure that the proper department is handling a ticket. Standard support tickets are created from a number of pre-determined subjects. These subjects help determine which group a standard ticket is assigned to. 
 
 
@@ -53,7 +55,8 @@ SoftLayer tickets have the ability to be assigned to one of SoftLayer's internal
 [id]: #id
 #### [id]
 A ticket group's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -63,7 +66,8 @@ A ticket group's internal identifier.
 [name]: #name
 #### [name]
 A ticket group's name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -73,7 +77,8 @@ A ticket group's name.
 [ticketGroupCategoryId]: #ticketgroupcategoryid
 #### [ticketGroupCategoryId]
 The internal identifier for the category that a ticket group belongs to..  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -89,7 +94,8 @@ The internal identifier for the category that a ticket group belongs to..
 [category]: #category
 #### [category]
 The category that a ticket group belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Group_Category'>SoftLayer_Ticket_Group_Category </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Group_Category'>SoftLayer_Ticket_Group_Category </a>**  
+
 
 
 </div>

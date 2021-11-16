@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::getApplicationDeliveryController
 
+
 Retrieve the application delivery controller using this address.
 
 

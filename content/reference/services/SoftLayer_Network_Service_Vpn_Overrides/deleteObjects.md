@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Service_Vpn_Overrides](/reference/services/SoftLayer_Network_Service_Vpn_Overrides)::deleteObjects
 
+
 Delete multiple entries in the overrides 'white list' for a SoftLayer portal VPN user.
 
 

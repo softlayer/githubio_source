@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getPendingOrderItem
 
+
 Retrieve the new order item that will replace this billing item.
 
 

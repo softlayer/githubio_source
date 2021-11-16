@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::createCancelServiceTicket
 
+
 Create a sales cancel service ticket.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardwareWithHelm
 
+
 Retrieve all hardware associated with an account that has the Helm web hosting control panel installed.
 
 

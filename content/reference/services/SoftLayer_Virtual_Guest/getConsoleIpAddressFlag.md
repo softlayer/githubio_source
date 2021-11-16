@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getConsoleIpAddressFlag
 
+
 Retrieve a flag indicating a computing instance's console IP address is assigned.
 
 

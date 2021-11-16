@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualGuests
 
+
 Retrieve an account's associated virtual guest objects.
 
 

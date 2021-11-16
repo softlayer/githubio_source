@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Account_Media data type contains information on a single piece of media associated with a Data Transfer Service request. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Account_Media data type contains information on a single piece of 
 [description]: #description
 #### [description]
 The description of the media.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The description of the media.
 [id]: #id
 #### [id]
 The unique id of the media.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique id of the media.
 [requestId]: #requestid
 #### [requestId]
 The request id of the media.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The request id of the media.
 [serialNumber]: #serialnumber
 #### [serialNumber]
 The manufacturer's serial number of the media.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The manufacturer's serial number of the media.
 [typeId]: #typeid
 #### [typeId]
 The type id of the media.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The type id of the media.
 [account]: #account
 #### [account]
 The account to which the media belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The account to which the media belongs.
 [createUser]: #createuser
 #### [createUser]
 The customer user who created the media object.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The customer user who created the media object.
 [datacenter]: #datacenter
 #### [datacenter]
 The datacenter where the media resides.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The datacenter where the media resides.
 [modifyEmployee]: #modifyemployee
 #### [modifyEmployee]
 The employee who last modified the media.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The employee who last modified the media.
 [modifyUser]: #modifyuser
 #### [modifyUser]
 The customer user who last modified the media.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The customer user who last modified the media.
 [request]: #request
 #### [request]
 The request to which the media belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Media_Data_Transfer_Request'>SoftLayer_Account_Media_Data_Transfer_Request </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Media_Data_Transfer_Request'>SoftLayer_Account_Media_Data_Transfer_Request </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The request to which the media belongs.
 [type]: #type
 #### [type]
 The media's type.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Media_Type'>SoftLayer_Account_Media_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Media_Type'>SoftLayer_Account_Media_Type </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The media's type.
 [volume]: #volume
 #### [volume]
 A guest's associated EVault network storage service account.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**  
+
 
 
 </div>

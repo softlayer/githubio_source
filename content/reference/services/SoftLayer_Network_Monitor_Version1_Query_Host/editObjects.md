@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Monitor_Version1_Query_Host](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host)::editObjects
 
+
 Edit a group of Query_Host objects by passing in a collection of them.
 
 

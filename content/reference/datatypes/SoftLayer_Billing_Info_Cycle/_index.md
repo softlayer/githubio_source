@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Billing_Info_Cycle data type models basic information concerning a SoftLayer account's previous and current billing cycles. The information in this class is only populated for SoftLayer customers who are billed monthly. 
 
 
@@ -50,7 +52,8 @@ The SoftLayer_Billing_Info_Cycle data type models basic information concerning a
 [currentCycleEndDate]: #currentcycleenddate
 #### [currentCycleEndDate]
 The ending date of an account's current billing cycle.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The ending date of an account's current billing cycle.
 [currentCycleStartDate]: #currentcyclestartdate
 #### [currentCycleStartDate]
 The starting date of an account's current billing cycle.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ The starting date of an account's current billing cycle.
 [nextCycleStartDate]: #nextcyclestartdate
 #### [nextCycleStartDate]
 The start date of an account's next billing cycle.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ The start date of an account's next billing cycle.
 [previousCycleEndDate]: #previouscycleenddate
 #### [previousCycleEndDate]
 The ending date of an account's previous billing cycle.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ The ending date of an account's previous billing cycle.
 [previousCycleStartDate]: #previouscyclestartdate
 #### [previousCycleStartDate]
 The starting date of an account's previous billing cycle.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -106,7 +113,8 @@ The starting date of an account's previous billing cycle.
 [account]: #account
 #### [account]
 The account that a current billing cycle is associated with.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>

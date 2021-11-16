@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Quote](/reference/services/SoftLayer_Billing_Order_Quote)::getOrdersFromQuote
 
+
 Retrieve these are all the orders that were created from this quote.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Authentication_Response_Common data type contains common information for responses from the getPortalLogin API. This is an abstract class that serves as a base that more specialized classes will derive from. For example, a response class that is specific to a successful response from the getPortalLogin API. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Authentication_Response_Common data type contains common
 [accounts]: #accounts
 #### [accounts]
 The list of linked accounts for the authenticated SoftLayer customer portal user.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Authentication_Response_Account'>SoftLayer_Container_Authentication_Response_Account[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Authentication_Response_Account'>SoftLayer_Container_Authentication_Response_Account[] </a>**  
+
 
 
 </div>

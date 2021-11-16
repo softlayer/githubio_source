@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_VirtualLicense](/reference/services/SoftLayer_Software_VirtualLicense)::getIpAddressRecord
 
+
 Retrieve the IP Address record associated with a virtual license.
 
 

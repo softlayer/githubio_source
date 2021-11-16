@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Authentication_Saml](/reference/services/SoftLayer_Account_Authentication_Saml)::getAttributes
 
+
 Retrieve the saml attribute values for a SoftLayer customer account.
 
 

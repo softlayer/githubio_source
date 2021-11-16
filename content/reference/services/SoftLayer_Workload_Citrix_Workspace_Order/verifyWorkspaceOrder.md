@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Workload_Citrix_Workspace_Order](/reference/services/SoftLayer_Workload_Citrix_Workspace_Order)::verifyWorkspaceOrder
 
+
 Verify that an order may be successfully placed with the details provided.
 
 

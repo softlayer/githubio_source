@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [createTimestamp]: #createtimestamp
 #### [createTimestamp]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [value]: #value
 #### [value]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ classes:
 [editor]: #editor
 #### [editor]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Interface'>SoftLayer_User_Interface </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Interface'>SoftLayer_User_Interface </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ classes:
 [ticket]: #ticket
 #### [ticket]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ classes:
 [ticketUpdate]: #ticketupdate
 #### [ticketUpdate]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Update'>SoftLayer_Ticket_Update </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Update'>SoftLayer_Ticket_Update </a>**  
+
 
 
 </div>

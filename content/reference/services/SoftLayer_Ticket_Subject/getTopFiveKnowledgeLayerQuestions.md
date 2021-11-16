@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket_Subject](/reference/services/SoftLayer_Ticket_Subject)::getTopFiveKnowledgeLayerQuestions
 
+
 Retrieve the top five KnowledgeLayer questions for a ticket subject
 
 

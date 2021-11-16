@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getHourlyFlag
 
+
 Retrieve a flag that will reflect whether this billing item is billed on an hourly basis or not.
 
 

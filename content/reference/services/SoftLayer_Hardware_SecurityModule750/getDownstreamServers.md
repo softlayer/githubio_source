@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getDownstreamServers
 
+
 Retrieve information regarding all servers attached downstream to a piece of network hardware.
 
 

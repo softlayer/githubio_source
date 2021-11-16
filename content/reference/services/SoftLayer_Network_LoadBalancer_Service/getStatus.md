@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_LoadBalancer_Service](/reference/services/SoftLayer_Network_LoadBalancer_Service)::getStatus
 
+
 Returns various status entries for this service as an array of SoftLayer_Container_Network_LoadBalancer_StatusEntry objects
 
 

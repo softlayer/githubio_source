@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getGatewayApplianceFlag
 
+
 Retrieve whether the package is a specialized network gateway appliance package.
 
 

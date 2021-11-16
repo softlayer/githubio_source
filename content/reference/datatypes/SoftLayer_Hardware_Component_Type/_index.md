@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Hardware_Component_Type data type provides details on the type of component requested 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Hardware_Component_Type data type provides details on the type of 
 [id]: #id
 #### [id]
 The ID associated with this component type.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The ID associated with this component type.
 [keyName]: #keyname
 #### [keyName]
 The hardware component type key name or code.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The hardware component type key name or code.
 [type]: #type
 #### [type]
 The type associated with this component type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The type associated with this component type.
 [typeParentId]: #typeparentid
 #### [typeParentId]
 The parent id associated with this component type.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The parent id associated with this component type.
 [hardwareGenericComponentModels]: #hardwaregenericcomponentmodels
 #### [hardwareGenericComponentModels]
 The generic component model description for this component type object.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic[] </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The generic component model description for this component type object.
 [typeParent]: #typeparent
 #### [typeParent]
 The parent generic component model object for this generic component model object.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Type'>SoftLayer_Hardware_Component_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Type'>SoftLayer_Hardware_Component_Type </a>**  
+
 
 
 </div>
@@ -113,7 +121,8 @@ The parent generic component model object for this generic component model objec
 [hardwareGenericComponentModelCount]: #hardwaregenericcomponentmodelcount
 #### [hardwareGenericComponentModelCount]
 A count of the generic component model description for this component type object.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

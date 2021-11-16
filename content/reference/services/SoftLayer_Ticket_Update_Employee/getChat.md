@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket_Update_Employee](/reference/services/SoftLayer_Ticket_Update_Employee)::getChat
 
+
 Retrieve the chat between the Customer and Agent
 
 

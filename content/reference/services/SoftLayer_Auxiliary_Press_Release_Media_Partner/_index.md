@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Auxiliary_Press_Release_Media_Partner service provides all media partners associated to a press release. 
 
 
@@ -42,6 +44,7 @@ The SoftLayer_Auxiliary_Press_Release_Media_Partner service provides all media p
 
 #### [getObject](/reference/services/SoftLayer_Auxiliary_Press_Release_Media_Partner/getObject)
 Retrieve a SoftLayer_Auxiliary_Press_Release_Media_Partner record.
+
 </div>
 </div>
 

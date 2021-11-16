@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getVlanForIpAddress
 
+
 Retrieve an IP addresses's associated VLAN.
 
 

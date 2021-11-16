@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Hub_Cleversafe_Account](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account)::getAccount
 
+
 Retrieve softLayer account to which an IBM Cloud Object Storage account belongs to.
 
 

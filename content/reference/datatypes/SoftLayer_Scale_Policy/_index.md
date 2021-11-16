@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [cooldown]: #cooldown
 #### [cooldown]
 The number of seconds this policy will wait after lastActionDate on group before performing another action. If not present, the group's cooldown value is used.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The number of seconds this policy will wait after lastActionDate on group before
 [createDate]: #createdate
 #### [createDate]
 When this policy was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ When this policy was created.
 [deleteFlag]: #deleteflag
 #### [deleteFlag]
 When set and true any edit that happens on this object, be it calling edit on this directly or setting as a child while editing a parent object, will end up being a deletion.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ When set and true any edit that happens on this object, be it calling edit on th
 [id]: #id
 #### [id]
 A policy's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ A policy's internal identifier.
 [modifyDate]: #modifydate
 #### [modifyDate]
 When this policy was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ When this policy was last modified.
 [name]: #name
 #### [name]
 The name of this policy. It must be unique within the group.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The name of this policy. It must be unique within the group.
 [scaleGroupId]: #scalegroupid
 #### [scaleGroupId]
 The identifier of the group this member belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The identifier of the group this member belongs to.
 [actions]: #actions
 #### [actions]
 The actions to perform upon any trigger hit. Currently this must be a single value.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Policy_Action'>SoftLayer_Scale_Policy_Action[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Policy_Action'>SoftLayer_Scale_Policy_Action[] </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The actions to perform upon any trigger hit. Currently this must be a single val
 [oneTimeTriggers]: #onetimetriggers
 #### [oneTimeTriggers]
 The one-time triggers to check for this group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger'>SoftLayer_Scale_Policy_Trigger[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger'>SoftLayer_Scale_Policy_Trigger[] </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The one-time triggers to check for this group.
 [repeatingTriggers]: #repeatingtriggers
 #### [repeatingTriggers]
 The repeating triggers to check for this group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger'>SoftLayer_Scale_Policy_Trigger[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger'>SoftLayer_Scale_Policy_Trigger[] </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The repeating triggers to check for this group.
 [resourceUseTriggers]: #resourceusetriggers
 #### [resourceUseTriggers]
 The resource-use triggers to check for this group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger'>SoftLayer_Scale_Policy_Trigger[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger'>SoftLayer_Scale_Policy_Trigger[] </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The resource-use triggers to check for this group.
 [scaleActions]: #scaleactions
 #### [scaleActions]
 The scale actions to perform upon any trigger hit. Currently this must be a single value.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Policy_Action'>SoftLayer_Scale_Policy_Action[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Policy_Action'>SoftLayer_Scale_Policy_Action[] </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The scale actions to perform upon any trigger hit. Currently this must be a sing
 [scaleGroup]: #scalegroup
 #### [scaleGroup]
 The group this policy is on.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ The group this policy is on.
 [triggers]: #triggers
 #### [triggers]
 The triggers to check for this group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger'>SoftLayer_Scale_Policy_Trigger[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Policy_Trigger'>SoftLayer_Scale_Policy_Trigger[] </a>**  
+
 
 
 </div>
@@ -193,7 +209,8 @@ The triggers to check for this group.
 [actionCount]: #actioncount
 #### [actionCount]
 A count of the actions to perform upon any trigger hit. Currently this must be a single value.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -203,7 +220,8 @@ A count of the actions to perform upon any trigger hit. Currently this must be a
 [oneTimeTriggerCount]: #onetimetriggercount
 #### [oneTimeTriggerCount]
 A count of the one-time triggers to check for this group.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -213,7 +231,8 @@ A count of the one-time triggers to check for this group.
 [repeatingTriggerCount]: #repeatingtriggercount
 #### [repeatingTriggerCount]
 A count of the repeating triggers to check for this group.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -223,7 +242,8 @@ A count of the repeating triggers to check for this group.
 [resourceUseTriggerCount]: #resourceusetriggercount
 #### [resourceUseTriggerCount]
 A count of the resource-use triggers to check for this group.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -233,7 +253,8 @@ A count of the resource-use triggers to check for this group.
 [scaleActionCount]: #scaleactioncount
 #### [scaleActionCount]
 A count of the scale actions to perform upon any trigger hit. Currently this must be a single value.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -243,7 +264,8 @@ A count of the scale actions to perform upon any trigger hit. Currently this mus
 [triggerCount]: #triggercount
 #### [triggerCount]
 A count of the triggers to check for this group.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

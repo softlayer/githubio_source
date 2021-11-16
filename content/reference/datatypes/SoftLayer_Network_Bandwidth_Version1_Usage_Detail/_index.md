@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Bandwidth_Version1_Usage_Detail data type contains specific information relating to bandwidth utilization at a specific point in time on a given network interface. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Bandwidth_Version1_Usage_Detail data type contains specifi
 [amountIn]: #amountin
 #### [amountIn]
 Incoming bandwidth utilization .  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Incoming bandwidth utilization .
 [amountOut]: #amountout
 #### [amountOut]
 Outgoing bandwidth utilization .  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Outgoing bandwidth utilization .
 [day]: #day
 #### [day]
 Day and time this bandwidth utilization event was recorded.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ Day and time this bandwidth utilization event was recorded.
 [bandwidthUsage]: #bandwidthusage
 #### [bandwidthUsage]
 In and out bandwidth utilization for a specified time stamp.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage'>SoftLayer_Network_Bandwidth_Version1_Usage </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage'>SoftLayer_Network_Bandwidth_Version1_Usage </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ In and out bandwidth utilization for a specified time stamp.
 [bandwidthUsageDetailType]: #bandwidthusagedetailtype
 #### [bandwidthUsageDetailType]
 Describes this bandwidth utilization record as on the public or private network interface.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type </a>**  
+
 
 
 </div>

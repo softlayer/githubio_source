@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Billing_Order_Status models an order status.
 
 
@@ -50,7 +52,8 @@ SoftLayer_Container_Billing_Order_Status models an order status.
 [description]: #description
 #### [description]
 The description of the status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The description of the status.
 [status]: #status
 #### [status]
 The keyname of the status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

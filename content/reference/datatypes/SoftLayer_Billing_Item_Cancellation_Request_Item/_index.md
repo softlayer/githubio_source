@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Billing_Item_Cancellation_Request_Item data type contains a billing item for cancellation. This data type is used to harness billing items to the associated service. 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Billing_Item_Cancellation_Request_Item data type contains a billing it
 [billingItemId]: #billingitemid
 #### [billingItemId]
 The internal identifier of a billing item  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The internal identifier of a billing item
 [cancellationRequestId]: #cancellationrequestid
 #### [cancellationRequestId]
 A cancellation request's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A cancellation request's internal identifier.
 [id]: #id
 #### [id]
 A cancellation request item's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A cancellation request item's internal identifier.
 [immediateCancellationFlag]: #immediatecancellationflag
 #### [immediateCancellationFlag]
 This flag indicated if a billing item should be canceled immediately or not.  Set this flag to true when creating a cancellation request.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ This flag indicated if a billing item should be canceled immediately or not.  Se
 [scheduledCancellationDate]: #scheduledcancellationdate
 #### [scheduledCancellationDate]
 The scheduled cancellation date  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The scheduled cancellation date
 [serviceReclaimStatusCode]: #servicereclaimstatuscode
 #### [serviceReclaimStatusCode]
 The reclaim status of a service.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The reclaim status of a service.
 [billingItem]: #billingitem
 #### [billingItem]
 The billing item for cancellation.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The billing item for cancellation.
 [cancellationRequest]: #cancellationrequest
 #### [cancellationRequest]
 The service cancellation request that a cancellation item belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request'>SoftLayer_Billing_Item_Cancellation_Request </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request'>SoftLayer_Billing_Item_Cancellation_Request </a>**  
+
 
 
 </div>

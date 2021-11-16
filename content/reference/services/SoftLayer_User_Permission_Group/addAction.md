@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Permission_Group](/reference/services/SoftLayer_User_Permission_Group)::addAction
 
+
 Add a permission action to the group.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This data type models a purge group event that occurs in caching server. It contains a reference to a mapping configuration and the path to execute the purge on. 
 
 

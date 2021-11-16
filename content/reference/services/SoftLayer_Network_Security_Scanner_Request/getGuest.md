@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Security_Scanner_Request](/reference/services/SoftLayer_Network_Security_Scanner_Request)::getGuest
 
+
 Retrieve the virtual guest a security scan is run against.
 
 

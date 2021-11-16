@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The McAfee_Epolicy_Orchestrator_Version36_Antivirus_Event_AccessProtection data type represents an access protection event. It contains details about the event such as when it occurs, the process that caused it, and the rule that triggered the event. 
 
 
@@ -45,7 +47,8 @@ The McAfee_Epolicy_Orchestrator_Version36_Antivirus_Event_AccessProtection data 
 [eventLocalDateTime]: #eventlocaldatetime
 #### [eventLocalDateTime]
 The date that an access protection event occurs.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The date that an access protection event occurs.
 [filename]: #filename
 #### [filename]
 The name of the file that was protected from access.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The name of the file that was protected from access.
 [processName]: #processname
 #### [processName]
 The name of the process that was protected from access.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The name of the process that was protected from access.
 [ruleName]: #rulename
 #### [ruleName]
 The name of the rule that triggered an access protection event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The name of the rule that triggered an access protection event.
 [source]: #source
 #### [source]
 The IP address that caused an access protection event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Component_Firewall_Rule type contains general information relating to a single SoftLayer firewall template rule. Use the [[SoftLayer Network Component Firewall]] service to view current rules. Use the [[SoftLayer Network Firewall Update Request]] service to submit a firewall update request. 
 
 ### External Links
@@ -51,7 +53,8 @@ The SoftLayer_Network_Component_Firewall_Rule type contains general information 
 [action]: #action
 #### [action]
 The action that this template rule is to take [permit or deny].  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ The action that this template rule is to take [permit or deny].
 [destinationIpAddress]: #destinationipaddress
 #### [destinationIpAddress]
 The destination IP address considered for determining rule application.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ The destination IP address considered for determining rule application.
 [destinationIpSubnetMask]: #destinationipsubnetmask
 #### [destinationIpSubnetMask]
 The destination IP subnet mask considered for determining rule application.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The destination IP subnet mask considered for determining rule application.
 [destinationPortRangeEnd]: #destinationportrangeend
 #### [destinationPortRangeEnd]
 The ending (upper end of range) destination port considered for determining rule application.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The ending (upper end of range) destination port considered for determining rule
 [destinationPortRangeStart]: #destinationportrangestart
 #### [destinationPortRangeStart]
 The starting (lower end of range) destination port considered for determining rule application.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The starting (lower end of range) destination port considered for determining ru
 [firewallTemplateId]: #firewalltemplateid
 #### [firewallTemplateId]
 The unique identifier of the firewall template that a firewall template rule is associated with.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The unique identifier of the firewall template that a firewall template rule is 
 [id]: #id
 #### [id]
 A Firewall template rule's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ A Firewall template rule's internal identifier.
 [notes]: #notes
 #### [notes]
 The notes field for the firewall template rule.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The notes field for the firewall template rule.
 [orderValue]: #ordervalue
 #### [orderValue]
 The numeric value describing the order in which the rule set should be applied.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The numeric value describing the order in which the rule set should be applied.
 [protocol]: #protocol
 #### [protocol]
 The protocol considered for determining rule application.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The protocol considered for determining rule application.
 [sourceIpAddress]: #sourceipaddress
 #### [sourceIpAddress]
 The source IP address considered for determining rule application.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The source IP address considered for determining rule application.
 [sourceIpSubnetMask]: #sourceipsubnetmask
 #### [sourceIpSubnetMask]
 The source IP subnet mask considered for determining rule application.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -177,7 +191,8 @@ The source IP subnet mask considered for determining rule application.
 [firewallTemplate]: #firewalltemplate
 #### [firewallTemplate]
 The firewall template that this rule is attached to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Firewall_Template'>SoftLayer_Network_Firewall_Template </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Firewall_Template'>SoftLayer_Network_Firewall_Template </a>**  
+
 
 
 </div>

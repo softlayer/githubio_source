@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getUpgradeItemPrices
 
+
 Retrieve a list of upgradable items available to a piece of hardware.
 
 

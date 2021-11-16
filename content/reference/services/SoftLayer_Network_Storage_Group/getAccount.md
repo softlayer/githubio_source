@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Group](/reference/services/SoftLayer_Network_Storage_Group)::getAccount
 
+
 Retrieve the SoftLayer_Account which owns this group.
 
 

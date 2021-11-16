@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::captureImage
 
+
 Captures an Image of the hard disk on the physical machine.
 
 

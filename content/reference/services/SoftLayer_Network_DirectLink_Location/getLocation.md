@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_DirectLink_Location](/reference/services/SoftLayer_Network_DirectLink_Location)::getLocation
 
+
 Retrieve the location of Direct Link facility.
 
 

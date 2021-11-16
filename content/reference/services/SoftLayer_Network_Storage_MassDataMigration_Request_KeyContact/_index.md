@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact data type contains name, email, and phone for key contact at customer location who will handle Mass Data Migration. 
 
 
@@ -42,18 +44,21 @@ The SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact data type con
 
 #### [getAccount](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact/getAccount)
 Retrieve the request this key contact belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact/getObject)
 Retrieve a SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact record.
+
 </div>
 
 <div class="method-row">
 
 #### [getRequest](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact/getRequest)
 Retrieve the request this key contact belongs to.
+
 </div>
 </div>
 

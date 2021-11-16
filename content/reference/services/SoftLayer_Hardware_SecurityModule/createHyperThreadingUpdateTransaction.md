@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::createHyperThreadingUpdateTransaction
 
+
 Runs BIOS update on the server to change the hyper-threading configuration.
 
 

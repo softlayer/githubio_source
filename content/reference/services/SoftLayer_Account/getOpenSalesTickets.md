@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getOpenSalesTickets
 
+
 Retrieve the open sales tickets associated with an account.
 
 

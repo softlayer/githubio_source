@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [bucketName]: #bucketname
 #### [bucketName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [cacheKeyQueryRule]: #cachekeyqueryrule
 #### [cacheKeyQueryRule]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [certificateType]: #certificatetype
 #### [certificateType]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [cname]: #cname
 #### [cname]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ classes:
 [domain]: #domain
 #### [domain]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ classes:
 [dynamicContentAcceleration]: #dynamiccontentacceleration
 #### [dynamicContentAcceleration]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Performance_DynamicContentAcceleration'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Performance_DynamicContentAcceleration </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Performance_DynamicContentAcceleration'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Performance_DynamicContentAcceleration </a>**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ classes:
 [fileExtension]: #fileextension
 #### [fileExtension]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ classes:
 [geoblockingRule]: #geoblockingrule
 #### [geoblockingRule]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking'>SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking'>SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking </a>**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ classes:
 [header]: #header
 #### [header]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ classes:
 [hotlinkProtection]: #hotlinkprotection
 #### [hotlinkProtection]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection'>SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection'>SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection </a>**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ classes:
 [httpPort]: #httpport
 #### [httpPort]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ classes:
 [httpsPort]: #httpsport
 #### [httpsPort]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ classes:
 [oldPath]: #oldpath
 #### [oldPath]
 Used by the following method: updateOriginPath(). This property will store the path of the path record to be saved. The $path attribute stores the new path.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ Used by the following method: updateOriginPath(). This property will store the p
 [origin]: #origin
 #### [origin]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -185,7 +201,8 @@ Used by the following method: updateOriginPath(). This property will store the p
 [originType]: #origintype
 #### [originType]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -195,7 +212,8 @@ Used by the following method: updateOriginPath(). This property will store the p
 [path]: #path
 #### [path]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -205,7 +223,8 @@ Used by the following method: updateOriginPath(). This property will store the p
 [performanceConfiguration]: #performanceconfiguration
 #### [performanceConfiguration]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -215,7 +234,8 @@ Used by the following method: updateOriginPath(). This property will store the p
 [protocol]: #protocol
 #### [protocol]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -225,7 +245,8 @@ Used by the following method: updateOriginPath(). This property will store the p
 [respectHeaders]: #respectheaders
 #### [respectHeaders]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -235,7 +256,8 @@ Used by the following method: updateOriginPath(). This property will store the p
 [serveStale]: #servestale
 #### [serveStale]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -245,7 +267,8 @@ Used by the following method: updateOriginPath(). This property will store the p
 [status]: #status
 #### [status]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -255,7 +278,8 @@ Used by the following method: updateOriginPath(). This property will store the p
 [uniqueId]: #uniqueid
 #### [uniqueId]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -265,7 +289,8 @@ Used by the following method: updateOriginPath(). This property will store the p
 [vendorName]: #vendorname
 #### [vendorName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

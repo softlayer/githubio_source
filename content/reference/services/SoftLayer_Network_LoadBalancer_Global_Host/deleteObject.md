@@ -15,6 +15,8 @@ aliases:
 ---
 # [SoftLayer_Network_LoadBalancer_Global_Host](/reference/services/SoftLayer_Network_LoadBalancer_Global_Host)::deleteObject
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 [Deprecated] Remove a host from the load balancing pool of a global load balancer account.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getBackendBandwidthUse
 
+
 return a collection of private usage objects that contain hourly incoming and outgoing network traffic amounts for a customer date period. 
 
 

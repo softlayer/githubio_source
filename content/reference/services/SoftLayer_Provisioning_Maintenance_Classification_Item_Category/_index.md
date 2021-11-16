@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,12 +44,14 @@ classes:
 
 #### [getMaintenanceClassification](/reference/services/SoftLayer_Provisioning_Maintenance_Classification_Item_Category/getMaintenanceClassification)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Provisioning_Maintenance_Classification_Item_Category/getObject)
 Retrieve a SoftLayer_Provisioning_Maintenance_Classification_Item_Category record.
+
 </div>
 </div>
 

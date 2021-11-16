@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Reports_Request](/reference/services/SoftLayer_Account_Reports_Request)::getRequestorContact
 
+
 Retrieve a request's corresponding requestor contact, if one exists.
 
 

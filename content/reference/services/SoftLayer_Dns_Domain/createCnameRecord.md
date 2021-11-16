@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::createCnameRecord
 
+
 Create a CNAME record on a domain.
 
 

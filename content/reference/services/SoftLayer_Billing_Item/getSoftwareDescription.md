@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getSoftwareDescription
 
+
 Retrieve a friendly description of software component
 
 

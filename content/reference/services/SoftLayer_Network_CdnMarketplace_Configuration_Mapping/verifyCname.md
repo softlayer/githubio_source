@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Mapping](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Mapping)::verifyCname
 
+
 This method will verify the CNAME given is unique. 
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The McAfee_Epolicy_Orchestrator_Version36_Antivirus_Event_Filter_Description data type contains the name of the rule that was triggered by an anti-virus event.
 
 
@@ -45,7 +47,8 @@ The McAfee_Epolicy_Orchestrator_Version36_Antivirus_Event_Filter_Description dat
 [name]: #name
 #### [name]
 The name of the rule that triggered an anti-virus event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

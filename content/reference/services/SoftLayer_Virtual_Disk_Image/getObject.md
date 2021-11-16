@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::getObject
 
+
 Retrieve a SoftLayer_Virtual_Disk_Image record.
 
 

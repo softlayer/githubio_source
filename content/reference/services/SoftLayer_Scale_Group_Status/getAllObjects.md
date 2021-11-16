@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Group_Status](/reference/services/SoftLayer_Scale_Group_Status)::getAllObjects
 
+
 Get all group statuses
 
 

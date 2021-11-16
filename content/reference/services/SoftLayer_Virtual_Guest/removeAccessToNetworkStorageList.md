@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::removeAccessToNetworkStorageList
 
+
 Remove access to multiple SoftLayer_Network_Storage volumes from this device. 
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getAllowedNetworkStorageReplicas
 
+
 Retrieve the SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Hardware has access to.
 
 

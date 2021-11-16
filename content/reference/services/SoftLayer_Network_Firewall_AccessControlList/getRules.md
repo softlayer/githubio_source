@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Firewall_AccessControlList](/reference/services/SoftLayer_Network_Firewall_AccessControlList)::getRules
 
+
 Retrieve the currently running rule set of this context access control list firewall.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_SecurityGroup data type contains general information for a single security group. A security group contains a set of IP filter [SoftLayer_Network_SecurityGroup_Rule]({{<ref "reference/datatypes/SoftLayer_Network_SecurityGroup_Rule">}}) to associate virtual guest network components with the security group. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_SecurityGroup data type contains general information for a
 [createDate]: #createdate
 #### [createDate]
 The date a security group was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The date a security group was created.
 [description]: #description
 #### [description]
 The (optional) description for a security group.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The (optional) description for a security group.
 [id]: #id
 #### [id]
 The unique ID for a security group.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The unique ID for a security group.
 [metadata]: #metadata
 #### [metadata]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The unique ID for a security group.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date a security group was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The date a security group was last modified.
 [name]: #name
 #### [name]
 The (optional) name for a security group.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The (optional) name for a security group.
 [account]: #account
 #### [account]
 The account this security group belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The account this security group belongs to.
 [networkComponentBindings]: #networkcomponentbindings
 #### [networkComponentBindings]
 The network component bindings for this security group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding'>SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding'>SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding[] </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The network component bindings for this security group.
 [orderBindings]: #orderbindings
 #### [orderBindings]
 The order bindings for this security group  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_OrderBinding'>SoftLayer_Network_SecurityGroup_OrderBinding[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_OrderBinding'>SoftLayer_Network_SecurityGroup_OrderBinding[] </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The order bindings for this security group
 [rules]: #rules
 #### [rules]
 The rules for this security group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_Rule'>SoftLayer_Network_SecurityGroup_Rule[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_Rule'>SoftLayer_Network_SecurityGroup_Rule[] </a>**  
+
 
 
 </div>
@@ -153,7 +165,8 @@ The rules for this security group.
 [networkComponentBindingCount]: #networkcomponentbindingcount
 #### [networkComponentBindingCount]
 A count of the network component bindings for this security group.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -163,7 +176,8 @@ A count of the network component bindings for this security group.
 [orderBindingCount]: #orderbindingcount
 #### [orderBindingCount]
 A count of the order bindings for this security group   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -173,7 +187,8 @@ A count of the order bindings for this security group
 [ruleCount]: #rulecount
 #### [ruleCount]
 A count of the rules for this security group.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

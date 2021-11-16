@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_RemoteManagement_PmInfo contains pminfo information retrieved from a server's remote management card. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_RemoteManagement_PmInfo contains pminfo information retr
 [pmInfoId]: #pminfoid
 #### [pmInfoId]
 PmInfo ID  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ PmInfo ID
 [pmInfoReading]: #pminforeading
 #### [pmInfoReading]
 PmInfo Reading  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

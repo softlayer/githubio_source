@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location_Group](/reference/services/SoftLayer_Location_Group)::getLocationGroupType
 
+
 Retrieve the type for this location group.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getRemainingAllowedHosts
 
+
 Retrieves the remaining number of allowed hosts per volume.
 
 

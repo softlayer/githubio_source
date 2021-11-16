@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Single storage group(array) used in a storage group template. 
 
 If a server configuration requires a raid configuration this object will describe a single array to be configured. 
@@ -49,7 +51,8 @@ If a server configuration requires a raid configuration this object will describ
 [diskControllerIndex]: #diskcontrollerindex
 #### [diskControllerIndex]
 The disk controller for the array.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -59,7 +62,8 @@ The disk controller for the array.
 [grow]: #grow
 #### [grow]
 Flag to use all available space.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -69,7 +73,8 @@ Flag to use all available space.
 [hardDrivesString]: #harddrivesstring
 #### [hardDrivesString]
 Comma delimited integers of drive indexes for the array. This can also be the string 'all' to specify all drives in the server   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -79,7 +84,8 @@ Comma delimited integers of drive indexes for the array. This can also be the st
 [hotSpareDrivesString]: #hotsparedrivesstring
 #### [hotSpareDrivesString]
 Comma delimited integers of drive indexes for hot spares on the array.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -89,7 +95,8 @@ Comma delimited integers of drive indexes for hot spares on the array.
 [orderIndex]: #orderindex
 #### [orderIndex]
 The order of the arrays in the template.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -99,7 +106,8 @@ The order of the arrays in the template.
 [size]: #size
 #### [size]
 Size of array. Must be within limitations of the smallest drive and raid mode  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -115,7 +123,8 @@ Size of array. Must be within limitations of the smallest drive and raid mode
 [type]: #type
 #### [type]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group_Array_Type'>SoftLayer_Configuration_Storage_Group_Array_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group_Array_Type'>SoftLayer_Configuration_Storage_Group_Array_Type </a>**  
+
 
 
 </div>

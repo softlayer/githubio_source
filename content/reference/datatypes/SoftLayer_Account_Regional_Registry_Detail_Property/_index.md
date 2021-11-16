@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Subnet registration properties are used to define various attributes of the [SoftLayer_Account_Regional_Registry_Detail]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail">}}) objects, which describe the available value formats. 
 
 
@@ -45,7 +47,8 @@ Subnet registration properties are used to define various attributes of the [Sof
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Subnet registration properties are used to define various attributes of the [Sof
 [id]: #id
 #### [id]
 Unique ID of the property object   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Unique ID of the property object
 [modifyDate]: #modifydate
 #### [modifyDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Unique ID of the property object
 [propertyTypeId]: #propertytypeid
 #### [propertyTypeId]
 The numeric ID of the related [SoftLayer_Account_Regional_Registry_Detail_Property_Type]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property_Type">}})   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The numeric ID of the related [SoftLayer_Account_Regional_Registry_Detail_Proper
 [registrationDetailId]: #registrationdetailid
 #### [registrationDetailId]
 The numeric ID of the related [SoftLayer_Account_Regional_Registry_Detail]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail">}})   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The numeric ID of the related [SoftLayer_Account_Regional_Registry_Detail]({{<re
 [sequencePosition]: #sequenceposition
 #### [sequencePosition]
 When multiple properties exist for a property type, defines the position in the sequence of those properties   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ When multiple properties exist for a property type, defines the position in the 
 [value]: #value
 #### [value]
 The value of the property   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The value of the property
 [detail]: #detail
 #### [detail]
 The [SoftLayer_Account_Regional_Registry_Detail]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail">}}) object this property belongs to  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail'>SoftLayer_Account_Regional_Registry_Detail </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail'>SoftLayer_Account_Regional_Registry_Detail </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The [SoftLayer_Account_Regional_Registry_Detail]({{<ref "reference/datatypes/Sof
 [propertyType]: #propertytype
 #### [propertyType]
 The [SoftLayer_Account_Regional_Registry_Detail_Property_Type]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property_Type">}}) object this property belongs to  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property_Type'>SoftLayer_Account_Regional_Registry_Detail_Property_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property_Type'>SoftLayer_Account_Regional_Registry_Detail_Property_Type </a>**  
+
 
 
 </div>

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Billing_Oder_Quote data type records acceptance of policy documents for a quote. 
 
 
@@ -51,7 +53,8 @@ The SoftLayer_Billing_Oder_Quote data type records acceptance of policy document
 [resource]: #resource
 #### [resource]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Quote'>SoftLayer_Billing_Order_Quote </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Quote'>SoftLayer_Billing_Order_Quote </a>**  
+
 
 
 </div>

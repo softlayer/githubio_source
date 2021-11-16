@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getAllowAccountCreationFlag
 
+
 Retrieve this flag indicates if creation of accounts is allowed.
 
 

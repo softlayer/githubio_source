@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This data type models a purge event that occurs repetitively and automatically in caching server after a set interval of time. A time to live instance contains a reference to a mapping configuration, the path to execute the purge on, the result of the purge, and the time interval after which the purge will be executed. 
 
 
@@ -45,7 +47,8 @@ This data type models a purge event that occurs repetitively and automatically i
 [createDate]: #createdate
 #### [createDate]
 date record is created   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ date record is created
 [path]: #path
 #### [path]
 Path where purge will be executed after TTL   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Path where purge will be executed after TTL
 [timeToLive]: #timetolive
 #### [timeToLive]
 Time interval after which purge will occur repeatedly   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

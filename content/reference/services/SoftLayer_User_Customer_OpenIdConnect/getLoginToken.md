@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getLoginToken
 
+
 Authenticate a user for the SoftLayer customer portal
 
 

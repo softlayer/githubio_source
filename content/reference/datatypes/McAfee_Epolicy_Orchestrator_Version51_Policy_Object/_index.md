@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The McAfee_Epolicy_Orchestrator_Version51_Policy_Object data type represents a virus scan agent and contains details about its version.
 
 
@@ -45,7 +47,8 @@ The McAfee_Epolicy_Orchestrator_Version51_Policy_Object data type represents a v
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

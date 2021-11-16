@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Invoice tax status allows the SoftLayer system to track the status of an invoice if the related tax is being calculated by a third-party service. This allows us to know when tax has been calculated and applied successfully and when it has not. 
 
 
@@ -50,12 +52,14 @@ Invoice tax status allows the SoftLayer system to track the status of an invoice
 
 #### [getAllObjects](/reference/services/SoftLayer_Billing_Invoice_Tax_Status/getAllObjects)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Billing_Invoice_Tax_Status/getObject)
 Retrieve a SoftLayer_Billing_Invoice_Tax_Status record.
+
 </div>
 </div>
 

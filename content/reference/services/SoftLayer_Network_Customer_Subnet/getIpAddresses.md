@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Customer_Subnet](/reference/services/SoftLayer_Network_Customer_Subnet)::getIpAddresses
 
+
 Retrieve all ip addresses associated with a subnet.
 
 

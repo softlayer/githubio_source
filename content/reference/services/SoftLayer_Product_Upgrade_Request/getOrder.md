@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Upgrade_Request](/reference/services/SoftLayer_Product_Upgrade_Request)::getOrder
 
+
 Retrieve an order record associated to the upgrade request
 
 

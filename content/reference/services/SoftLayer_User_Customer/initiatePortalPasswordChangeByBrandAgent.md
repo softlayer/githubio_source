@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::initiatePortalPasswordChangeByBrandAgent
 
+
 Allows a Brand Agent to request password reset email to be sent to
 
 

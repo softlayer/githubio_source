@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,17 +44,20 @@ classes:
 
 #### [deleteObject](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer/deleteObject)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer/getObject)
 Retrieve a SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer record.
+
 </div>
 
 <div class="method-row">
 
 #### [getRoutingMethod](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer/getRoutingMethod)
+
 
 </div>
 
@@ -60,11 +65,13 @@ Retrieve a SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Virtua
 
 #### [getScaleLoadBalancers](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer/getScaleLoadBalancers)
 Retrieve collection of scale load balancers this virtual server applies to.
+
 </div>
 
 <div class="method-row">
 
 #### [getServiceGroups](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer/getServiceGroups)
+
 
 </div>
 
@@ -72,17 +79,26 @@ Retrieve collection of scale load balancers this virtual server applies to.
 
 #### [getVirtualIpAddress](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer/getVirtualIpAddress)
 
+
 </div>
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [startSsl](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer/startSsl)
 
+
+<span class="deprecation-label">Deprecated  </span>
+
+
 </div>
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [stopSsl](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer/stopSsl)
+
+
+<span class="deprecation-label">Deprecated  </span>
+
 
 </div>
 </div>

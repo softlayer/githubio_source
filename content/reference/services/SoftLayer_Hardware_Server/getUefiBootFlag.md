@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getUefiBootFlag
 
+
 Retrieve whether to use UEFI boot instead of BIOS.
 
 

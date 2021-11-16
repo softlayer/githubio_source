@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Monitoring_Robot](/reference/services/SoftLayer_Monitoring_Robot)::getObject
 
+
 Retrieve a SoftLayer_Monitoring_Robot record.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::powerOffSoft
 
+
 Cleanly shut down a guest and disable power
 
 

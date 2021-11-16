@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The virtual host represents the platform on which virtual guests reside. At times a virtual host has no allocations on the physical server, however with many modern platforms it is a virtual machine with small CPU and Memory allocations that runs in the Control Domain. 
 
 
@@ -45,7 +47,8 @@ The virtual host represents the platform on which virtual guests reside. At time
 [accountId]: #accountid
 #### [accountId]
 A virtual host's associated account id   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A virtual host's associated account id
 [createDate]: #createdate
 #### [createDate]
 The date a virtual host was created.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The date a virtual host was created.
 [description]: #description
 #### [description]
 A virtual host's description.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A virtual host's description.
 [enabledFlag]: #enabledflag
 #### [enabledFlag]
 The enabled flag specifies whether a virtual host can run guests.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The enabled flag specifies whether a virtual host can run guests.
 [hardwareId]: #hardwareid
 #### [hardwareId]
 A hardware device which a virtual host resides.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ A hardware device which a virtual host resides.
 [id]: #id
 #### [id]
 Unique ID for a virtual host.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Unique ID for a virtual host.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date a virtual host was last modified.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The date a virtual host was last modified.
 [name]: #name
 #### [name]
 A virtual host's name.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ A virtual host's name.
 [physicalMemoryCapacity]: #physicalmemorycapacity
 #### [physicalMemoryCapacity]
 The amount of memory physically available for a virtual host.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The amount of memory physically available for a virtual host.
 [uuid]: #uuid
 #### [uuid]
 Unique ID for a virtual host's record on a virtualization platform.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ Unique ID for a virtual host's record on a virtualization platform.
 [account]: #account
 #### [account]
 The account which a virtual host belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The account which a virtual host belongs to.
 [billedPerGuestFlag]: #billedperguestflag
 #### [billedPerGuestFlag]
 Boolean flag indicating whether this virtualization platform gets billed per guest rather than at a fixed rate.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ Boolean flag indicating whether this virtualization platform gets billed per gue
 [billedPerMemoryUsageFlag]: #billedpermemoryusageflag
 #### [billedPerMemoryUsageFlag]
 Boolean flag indicating whether this virtualization platform gets billed per memory usage rather than at a fixed rate.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ Boolean flag indicating whether this virtualization platform gets billed per mem
 [guests]: #guests
 #### [guests]
 The guests associated with a virtual host.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ The guests associated with a virtual host.
 [hardware]: #hardware
 #### [hardware]
 The hardware record which a virtual host resides on.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Server'>SoftLayer_Hardware_Server </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Server'>SoftLayer_Hardware_Server </a>**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ The hardware record which a virtual host resides on.
 [metricTrackingObject]: #metrictrackingobject
 #### [metricTrackingObject]
 The metric tracking object for this virtual host.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ The metric tracking object for this virtual host.
 [pciDevices]: #pcidevices
 #### [pciDevices]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Host_PciDevice'>SoftLayer_Virtual_Host_PciDevice[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Host_PciDevice'>SoftLayer_Virtual_Host_PciDevice[] </a>**  
+
 
 
 </div>
@@ -223,7 +242,8 @@ The metric tracking object for this virtual host.
 [guestCount]: #guestcount
 #### [guestCount]
 A count of the guests associated with a virtual host.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -233,7 +253,8 @@ A count of the guests associated with a virtual host.
 [pciDeviceCount]: #pcidevicecount
 #### [pciDeviceCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

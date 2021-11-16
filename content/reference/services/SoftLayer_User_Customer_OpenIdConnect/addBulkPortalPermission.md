@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::addBulkPortalPermission
 
+
 Add multiple permissions to a portal user's permission set.
 
 

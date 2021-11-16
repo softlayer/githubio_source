@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_User_Customer_Access_Authentication models a single attempt to log into the SoftLayer customer portal. A SoftLayer_User_Customer_Access_Authentication record is created every time a user attempts to log into the portal. Use this service to audit your users' portal activity and diagnose potential security breaches of your SoftLayer portal accounts. 
 
 Unsuccessful login attempts can be caused by an incorrect password, failing to answer or not answering a login security question if the user has them configured, or attempting to log in from an IP address outside of the user's IP address restriction list. 
@@ -66,7 +68,8 @@ SoftLayer employees periodically log into our customer portal as users to diagno
 [createDate]: #createdate
 #### [createDate]
 The date of an attempt to log into the SoftLayer customer portal.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -76,7 +79,8 @@ The date of an attempt to log into the SoftLayer customer portal.
 [ipAddress]: #ipaddress
 #### [ipAddress]
 The IP address of the user who attempted to log into the SoftLayer customer portal.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -86,7 +90,8 @@ The IP address of the user who attempted to log into the SoftLayer customer port
 [successFlag]: #successflag
 #### [successFlag]
 Whether an attempt to log into the SoftLayer customer portal was successful or not.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -96,7 +101,8 @@ Whether an attempt to log into the SoftLayer customer portal was successful or n
 [userId]: #userid
 #### [userId]
 The internal identifier of the user who attempted to log into the SoftLayer customer portal.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -106,7 +112,8 @@ The internal identifier of the user who attempted to log into the SoftLayer cust
 [username]: #username
 #### [username]
 The username used when attempting to log into the SoftLayer customer portal  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -122,7 +129,8 @@ The username used when attempting to log into the SoftLayer customer portal
 [user]: #user
 #### [user]
 The user who has attempted to log into the SoftLayer customer portal.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>

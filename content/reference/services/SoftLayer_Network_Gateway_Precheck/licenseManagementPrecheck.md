@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Gateway_Precheck](/reference/services/SoftLayer_Network_Gateway_Precheck)::licenseManagementPrecheck
 
+
 License Management Gateway Precheck
 
 

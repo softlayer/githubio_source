@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getFirewallInterfaces
 
+
 Retrieve a firewalled vlan's inbound/outbound interfaces.
 
 

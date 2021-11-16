@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_Notification_Hardware](/reference/services/SoftLayer_User_Customer_Notification_Hardware)::getUser
 
+
 Retrieve the user that will be notified when the associated hardware object fails a monitoring instance.
 
 

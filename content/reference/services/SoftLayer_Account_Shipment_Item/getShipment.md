@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Shipment_Item](/reference/services/SoftLayer_Account_Shipment_Item)::getShipment
 
+
 Retrieve the shipment to which this item belongs.
 
 

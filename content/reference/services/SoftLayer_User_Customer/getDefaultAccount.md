@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getDefaultAccount
 
+
 This method should never be invoked as it is not applicable to legacy SoftLayer-authenticated users. See SoftLayer_User_Customer_OpenIdConnect::getDefaultAccount instead. 
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The credentials used for remote management such as username, password, etc... 
 
 
@@ -45,7 +47,8 @@ The credentials used for remote management such as username, password, etc...
 [password]: #password
 #### [password]
 The password used for this remote management command.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The password used for this remote management command.
 [username]: #username
 #### [username]
 The username used for this remote management command.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ The username used for this remote management command.
 [hardware]: #hardware
 #### [hardware]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The username used for this remote management command.
 [networkComponent]: #networkcomponent
 #### [networkComponent]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**  
+
 
 
 </div>

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Service for an account's next invoice. The "next invoice" is what a customer will be billed on their next invoice, assuming no changes are made. Currently this does not include Bandwidth Pooling charges. Note, this should be considered preliminary as you may add, remove, or change billing items on your account. 
 
 
@@ -42,18 +44,21 @@ Service for an account's next invoice. The "next invoice" is what a customer wil
 
 #### [getExcel](/reference/services/SoftLayer_Billing_Invoice_Next/getExcel)
 Retrieve the next billing period's invoice as an Excel.
+
 </div>
 
 <div class="method-row">
 
 #### [getPdf](/reference/services/SoftLayer_Billing_Invoice_Next/getPdf)
 Retrieve the next billing period's invoice as a PDF.
+
 </div>
 
 <div class="method-row">
 
 #### [getPdfDetailed](/reference/services/SoftLayer_Billing_Invoice_Next/getPdfDetailed)
 Retrieve the next billing period's detailed invoice as a PDF.
+
 </div>
 </div>
 

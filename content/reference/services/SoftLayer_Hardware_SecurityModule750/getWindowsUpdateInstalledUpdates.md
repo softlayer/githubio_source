@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getWindowsUpdateInstalledUpdates
 
+
 Retrieve a list of Windows updates installed on a server.
 
 

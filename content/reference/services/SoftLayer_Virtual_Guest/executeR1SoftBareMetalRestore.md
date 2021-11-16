@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::executeR1SoftBareMetalRestore
 
+
 Reboot a guest into the R1Soft Bare Metal Restore image.
 
 

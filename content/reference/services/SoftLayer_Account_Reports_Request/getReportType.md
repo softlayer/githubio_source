@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Reports_Request](/reference/services/SoftLayer_Account_Reports_Request)::getReportType
 
+
 Retrieve type of the report customer is requesting for.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getPendingCancellationFlag
 
+
 Retrieve this flag indicates whether a billing item is scheduled to be canceled or not.
 
 

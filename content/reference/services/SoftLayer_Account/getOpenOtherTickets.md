@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getOpenOtherTickets
 
+
 Retrieve the open tickets that do not belong to the abuse, accounting, sales, or support groups associated with an account.
 
 

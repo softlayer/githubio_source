@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getSnapshotSpaceAvailable
 
+
 Retrieve an volume's available snapshot reservation space.
 
 

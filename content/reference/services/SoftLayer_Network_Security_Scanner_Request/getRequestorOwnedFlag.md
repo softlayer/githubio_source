@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Security_Scanner_Request](/reference/services/SoftLayer_Network_Security_Scanner_Request)::getRequestorOwnedFlag
 
+
 Retrieve flag whether the requestor owns the hardware the scan was run on. This flag will  return for hardware servers only, virtual servers will result in a null return even if you have  a request out for them.
 
 

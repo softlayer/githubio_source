@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Configuration_Template](/reference/services/SoftLayer_Configuration_Template)::deleteObject
 
+
 Deletes a customer configuration template.
 
 

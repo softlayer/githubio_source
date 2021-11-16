@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getWeeklySchedule
 
+
 Retrieve the Weekly Schedule which is associated with this network storage volume.
 
 

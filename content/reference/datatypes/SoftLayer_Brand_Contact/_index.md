@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Brand_Contact contains the contact information for the brand such as Corporate or Support contact information 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Brand_Contact contains the contact information for the brand such as C
 [address1]: #address1
 #### [address1]
 The contact's address 1.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The contact's address 1.
 [address2]: #address2
 #### [address2]
 The contact's address 2.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The contact's address 2.
 [alternatePhone]: #alternatephone
 #### [alternatePhone]
 The contact's alternate phone number.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The contact's alternate phone number.
 [brandContactTypeId]: #brandcontacttypeid
 #### [brandContactTypeId]
 The contact's type identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The contact's type identifier.
 [city]: #city
 #### [city]
 The contact's city.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The contact's city.
 [country]: #country
 #### [country]
 The contact's country.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The contact's country.
 [email]: #email
 #### [email]
 The contact's email address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The contact's email address.
 [faxPhone]: #faxphone
 #### [faxPhone]
 The contact's fax number.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The contact's fax number.
 [firstName]: #firstname
 #### [firstName]
 The contact's first name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The contact's first name.
 [lastName]: #lastname
 #### [lastName]
 The contact's last name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ The contact's last name.
 [officePhone]: #officephone
 #### [officePhone]
 The contact's phone number.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ The contact's phone number.
 [postalCode]: #postalcode
 #### [postalCode]
 The contact's postal code.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ The contact's postal code.
 [state]: #state
 #### [state]
 The contact's state.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ The contact's state.
 [brand]: #brand
 #### [brand]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ The contact's state.
 [brandContactType]: #brandcontacttype
 #### [brandContactType]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand_Contact_Type'>SoftLayer_Brand_Contact_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand_Contact_Type'>SoftLayer_Brand_Contact_Type </a>**  
+
 
 
 </div>

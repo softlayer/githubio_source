@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAttributes
 
+
 Retrieve the account attribute values for a SoftLayer customer account.
 
 

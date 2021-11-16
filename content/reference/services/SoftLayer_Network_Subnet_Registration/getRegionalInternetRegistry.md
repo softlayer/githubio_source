@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_Registration](/reference/services/SoftLayer_Network_Subnet_Registration)::getRegionalInternetRegistry
 
+
 Retrieve the related Regional Internet Registry.
 
 

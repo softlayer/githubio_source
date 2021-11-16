@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_PlacementGroup](/reference/services/SoftLayer_Virtual_PlacementGroup)::getBackendRouter
 
+
 Retrieve the router the placement group is implemented on.
 
 

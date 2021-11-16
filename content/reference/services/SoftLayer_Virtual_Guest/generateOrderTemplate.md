@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::generateOrderTemplate
 
+
 Obtain an order container for a given template object
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Subnet Registration Detail Type objects describe the nature of a [SoftLayer_Account_Regional_Registry_Detail]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail">}}) object. 
 
 The standard values for these objects are as follows: <ul> <li><strong>NETWORK</strong> - The detail object represents the information for a [SoftLayer_Network_Subnet]({{<ref "reference/datatypes/SoftLayer_Network_Subnet">}})</li> <li><strong>PERSON</strong> - The detail object represents the information for a customer with the RIR</li> </ul> 
@@ -47,7 +49,8 @@ The standard values for these objects are as follows: <ul> <li><strong>NETWORK</
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -57,7 +60,8 @@ The standard values for these objects are as follows: <ul> <li><strong>NETWORK</
 [id]: #id
 #### [id]
 Unique numeric ID of the detail type object   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -67,7 +71,8 @@ Unique numeric ID of the detail type object
 [keyName]: #keyname
 #### [keyName]
 Code-friendly string name of the detail type   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -77,7 +82,8 @@ Code-friendly string name of the detail type
 [modifyDate]: #modifydate
 #### [modifyDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -87,7 +93,8 @@ Code-friendly string name of the detail type
 [name]: #name
 #### [name]
 Human-readable name of the detail type   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

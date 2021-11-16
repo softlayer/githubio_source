@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Configuration template attribute class contains supplementary information for a configuration template. 
 
 
@@ -45,7 +47,8 @@ Configuration template attribute class contains supplementary information for a 
 [value]: #value
 #### [value]
 Value of a configuration template attribute  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ Value of a configuration template attribute
 [configurationTemplate]: #configurationtemplate
 #### [configurationTemplate]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>**  
+
 
 
 </div>

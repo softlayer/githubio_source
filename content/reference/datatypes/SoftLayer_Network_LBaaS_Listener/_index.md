@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_LBaaS_Listener type presents a data structure for a load balancers listener, also called frontend. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_LBaaS_Listener type presents a data structure for a load b
 [clientTimeout]: #clienttimeout
 #### [clientTimeout]
 maximum idle time in seconds(Range: 1 to 7200), after which the load balancer brings down the  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ maximum idle time in seconds(Range: 1 to 7200), after which the load balancer br
 [connectionLimit]: #connectionlimit
 #### [connectionLimit]
 Limit of connections a listener can accept  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Limit of connections a listener can accept
 [createDate]: #createdate
 #### [createDate]
 Specifies when the listener was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Specifies when the listener was created.
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Specifies when the listener was created.
 [modifyDate]: #modifydate
 #### [modifyDate]
 Specifies when the listener was updated previously.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Specifies when the listener was updated previously.
 [protocol]: #protocol
 #### [protocol]
 Listeners protocol, one of "TCP", "HTTP", "HTTPS".  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Listeners protocol, one of "TCP", "HTTP", "HTTPS".
 [protocolPort]: #protocolport
 #### [protocolPort]
 Listeners protocol port number.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Listeners protocol port number.
 [provisioningStatus]: #provisioningstatus
 #### [provisioningStatus]
 The provisioning status of listener.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The provisioning status of listener.
 [serverTimeout]: #servertimeout
 #### [serverTimeout]
 maximum idle time in seconds(Range: 1 to 7200), after which the load balancer brings down the  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ maximum idle time in seconds(Range: 1 to 7200), after which the load balancer br
 [tlsCertificateId]: #tlscertificateid
 #### [tlsCertificateId]
 This references to SSL/TLS certificate (optional) for a listener  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ This references to SSL/TLS certificate (optional) for a listener
 [uuid]: #uuid
 #### [uuid]
 The UUID of a listener.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The UUID of a listener.
 [defaultPool]: #defaultpool
 #### [defaultPool]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_Pool'>SoftLayer_Network_LBaaS_Pool </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_Pool'>SoftLayer_Network_LBaaS_Pool </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The UUID of a listener.
 [l7Policies]: #l7policies
 #### [l7Policies]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Policy'>SoftLayer_Network_LBaaS_L7Policy[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Policy'>SoftLayer_Network_LBaaS_L7Policy[] </a>**  
+
 
 
 </div>
@@ -183,7 +198,8 @@ The UUID of a listener.
 [l7PolicyCount]: #l7policycount
 #### [l7PolicyCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

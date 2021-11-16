@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getItem
 
+
 Retrieve the SoftLayer_Product_Item tied to an order item. The item is the actual definition of the product being sold.
 
 

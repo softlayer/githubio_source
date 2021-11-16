@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_MassDataMigration_Request](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request)::getDeviceModel
 
+
 Retrieve the model of device assigned to this request.
 
 

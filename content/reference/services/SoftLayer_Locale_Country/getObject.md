@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Locale_Country](/reference/services/SoftLayer_Locale_Country)::getObject
 
+
 Retrieve a SoftLayer_Locale_Country record.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Firewall_Update_Request](/reference/services/SoftLayer_Network_Firewall_Update_Request)::createObject
 
+
 Create a new firewall update request.
 
 

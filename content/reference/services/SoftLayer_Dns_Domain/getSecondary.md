@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::getSecondary
 
+
 Retrieve the secondary DNS record that defines this domain as being managed through zone transfers.
 
 

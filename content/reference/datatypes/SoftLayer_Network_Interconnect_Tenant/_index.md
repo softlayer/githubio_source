@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [accountId]: #accountid
 #### [accountId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [bgpAsn]: #bgpasn
 #### [bgpAsn]
 Specifies ASN used for BGP.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Specifies ASN used for BGP.
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Specifies ASN used for BGP.
 [errorMessage]: #errormessage
 #### [errorMessage]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Specifies ASN used for BGP.
 [globalRoutingFlag]: #globalroutingflag
 #### [globalRoutingFlag]
 The Direct Link connectivity to all SoftLayer data centers if globalRoutingFlag = 1 and local connectivity if globalRoutingFlag = 0.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The Direct Link connectivity to all SoftLayer data centers if globalRoutingFlag 
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The Direct Link connectivity to all SoftLayer data centers if globalRoutingFlag 
 [interconnectType]: #interconnecttype
 #### [interconnectType]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The Direct Link connectivity to all SoftLayer data centers if globalRoutingFlag 
 [linkSpeed]: #linkspeed
 #### [linkSpeed]
 Link speed of a Direct Link connection.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ Link speed of a Direct Link connection.
 [localIpAddress]: #localipaddress
 #### [localIpAddress]
 IP address (v4 or v6) of "near" router serial interface. No check/update of IP Address table.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ IP address (v4 or v6) of "near" router serial interface. No check/update of IP A
 [location]: #location
 #### [location]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ IP address (v4 or v6) of "near" router serial interface. No check/update of IP A
 [modifyDate]: #modifydate
 #### [modifyDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ IP address (v4 or v6) of "near" router serial interface. No check/update of IP A
 [name]: #name
 #### [name]
 Specifies the Interconnect connection name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ Specifies the Interconnect connection name.
 [newGlobalRoutingFlag]: #newglobalroutingflag
 #### [newGlobalRoutingFlag]
 Direct Link provider can request change to existing routing, Customer can approve the change. newGlobalRoutingFlag = 1 gives connectivity to all IBM data centers, and if newGlobalRoutingFlag = 0, it gives local connectivity.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ Direct Link provider can request change to existing routing, Customer can approv
 [newLinkSpeed]: #newlinkspeed
 #### [newLinkSpeed]
 Updated Link speed of a Direct Link connection.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -185,7 +201,8 @@ Updated Link speed of a Direct Link connection.
 [note]: #note
 #### [note]
 This field will have the ticket id if the tenant workflow fails   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -195,7 +212,8 @@ This field will have the ticket id if the tenant workflow fails
 [peerLinkSpeed]: #peerlinkspeed
 #### [peerLinkSpeed]
 Link speed of a Direct Link connection on Equinix Side.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -205,7 +223,8 @@ Link speed of a Direct Link connection on Equinix Side.
 [port]: #port
 #### [port]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -215,7 +234,8 @@ Link speed of a Direct Link connection on Equinix Side.
 [provider]: #provider
 #### [provider]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -225,7 +245,8 @@ Link speed of a Direct Link connection on Equinix Side.
 [providerAccountId]: #provideraccountid
 #### [providerAccountId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -235,7 +256,8 @@ Link speed of a Direct Link connection on Equinix Side.
 [redundancyFlag]: #redundancyflag
 #### [redundancyFlag]
 Specifies redundant connection is available if 1.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -245,7 +267,8 @@ Specifies redundant connection is available if 1.
 [remoteIpAddress]: #remoteipaddress
 #### [remoteIpAddress]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -255,7 +278,8 @@ Specifies redundant connection is available if 1.
 [serviceKey]: #servicekey
 #### [serviceKey]
 Service key for Interconnect connection.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -265,7 +289,8 @@ Service key for Interconnect connection.
 [serviceTypeId]: #servicetypeid
 #### [serviceTypeId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -275,7 +300,8 @@ Service key for Interconnect connection.
 [status]: #status
 #### [status]
 The direct link connection status. IN_PROGRESS, PROVISIONING, CONNECTION_UP, CONNECTION_DOWN   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -285,7 +311,8 @@ The direct link connection status. IN_PROGRESS, PROVISIONING, CONNECTION_UP, CON
 [vlanId]: #vlanid
 #### [vlanId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -301,7 +328,8 @@ The direct link connection status. IN_PROGRESS, PROVISIONING, CONNECTION_UP, CON
 [billingItem]: #billingitem
 #### [billingItem]
 The active billing item for a network interconnect.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Network_Interconnect'>SoftLayer_Billing_Item_Network_Interconnect </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Network_Interconnect'>SoftLayer_Billing_Item_Network_Interconnect </a>**  
+
 
 
 </div>
@@ -311,7 +339,8 @@ The active billing item for a network interconnect.
 [datacenterName]: #datacentername
 #### [datacenterName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -321,7 +350,8 @@ The active billing item for a network interconnect.
 [portLabel]: #portlabel
 #### [portLabel]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -331,7 +361,8 @@ The active billing item for a network interconnect.
 [serviceType]: #servicetype
 #### [serviceType]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_DirectLink_ServiceType'>SoftLayer_Network_DirectLink_ServiceType </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_DirectLink_ServiceType'>SoftLayer_Network_DirectLink_ServiceType </a>**  
+
 
 
 </div>
@@ -341,7 +372,8 @@ The active billing item for a network interconnect.
 [vendorName]: #vendorname
 #### [vendorName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -351,7 +383,8 @@ The active billing item for a network interconnect.
 [zoneName]: #zonename
 #### [zoneName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

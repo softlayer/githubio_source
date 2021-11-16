@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_RemoteManagement_Graphs_SensorSpeed contains graphs to  display speed for each of the server's fans.  Fan speeds are gathered from the server's remote management card. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_RemoteManagement_Graphs_SensorSpeed contains graphs to  
 [graph]: #graph
 #### [graph]
 The graph to display the server's fan speed.  
-<span class="type-label">Type: </span>**binary data**
+<span class="type-label">Type: </span>**binary data**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The graph to display the server's fan speed.
 [title]: #title
 #### [title]
 A title that may be used to display for the graph.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::assignNewCredential
 
+
 This method will set up a new credential for the remote storage volume.
 
 

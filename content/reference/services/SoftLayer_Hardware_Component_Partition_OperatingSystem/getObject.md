@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Component_Partition_OperatingSystem](/reference/services/SoftLayer_Hardware_Component_Partition_OperatingSystem)::getObject
 
+
 Retrieve a SoftLayer_Hardware_Component_Partition_OperatingSystem record.
 
 

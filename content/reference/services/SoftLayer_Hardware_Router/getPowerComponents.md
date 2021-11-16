@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getPowerComponents
 
+
 Retrieve the power components for a hardware object.
 
 

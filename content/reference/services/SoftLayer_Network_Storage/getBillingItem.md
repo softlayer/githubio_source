@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getBillingItem
 
+
 Retrieve the current billing item for a Storage volume.
 
 

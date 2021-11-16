@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getRegionalGroup
 
+
 Retrieve the regional group this guest is in.
 
 

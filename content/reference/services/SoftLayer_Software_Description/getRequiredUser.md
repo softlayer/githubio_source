@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description)::getRequiredUser
 
+
 Retrieve the default user created for a given a software description.
 
 

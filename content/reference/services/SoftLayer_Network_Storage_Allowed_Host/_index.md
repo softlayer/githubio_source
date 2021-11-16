@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,11 +44,13 @@ classes:
 
 #### [assignSubnetsToAcl](/reference/services/SoftLayer_Network_Storage_Allowed_Host/assignSubnetsToAcl)
 
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Network_Storage_Allowed_Host/editObject)
+
 
 </div>
 
@@ -54,65 +58,76 @@ classes:
 
 #### [getAllObjects](/reference/services/SoftLayer_Network_Storage_Allowed_Host/getAllObjects)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getAssignedGroups](/reference/services/SoftLayer_Network_Storage_Allowed_Host/getAssignedGroups)
 Retrieve the SoftLayer_Network_Storage_Group objects this SoftLayer_Network_Storage_Allowed_Host is present in.
+
 </div>
 
 <div class="method-row">
 
 #### [getAssignedIscsiVolumes](/reference/services/SoftLayer_Network_Storage_Allowed_Host/getAssignedIscsiVolumes)
 Retrieve the SoftLayer_Network_Storage volumes to which this SoftLayer_Network_Storage_Allowed_Host is allowed access.
+
 </div>
 
 <div class="method-row">
 
 #### [getAssignedNfsVolumes](/reference/services/SoftLayer_Network_Storage_Allowed_Host/getAssignedNfsVolumes)
 Retrieve the SoftLayer_Network_Storage volumes to which this SoftLayer_Network_Storage_Allowed_Host is allowed access.
+
 </div>
 
 <div class="method-row">
 
 #### [getAssignedReplicationVolumes](/reference/services/SoftLayer_Network_Storage_Allowed_Host/getAssignedReplicationVolumes)
 Retrieve the SoftLayer_Network_Storage primary volumes whose replicas are allowed access.
+
 </div>
 
 <div class="method-row">
 
 #### [getAssignedVolumes](/reference/services/SoftLayer_Network_Storage_Allowed_Host/getAssignedVolumes)
 Retrieve the SoftLayer_Network_Storage volumes to which this SoftLayer_Network_Storage_Allowed_Host is allowed access.
+
 </div>
 
 <div class="method-row">
 
 #### [getCredential](/reference/services/SoftLayer_Network_Storage_Allowed_Host/getCredential)
 Retrieve the SoftLayer_Network_Storage_Credential this allowed host uses.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Storage_Allowed_Host/getObject)
 Retrieve a SoftLayer_Network_Storage_Allowed_Host record.
+
 </div>
 
 <div class="method-row">
 
 #### [getSourceSubnet](/reference/services/SoftLayer_Network_Storage_Allowed_Host/getSourceSubnet)
 Retrieve connections to a target with a source IP in this subnet prefix are allowed.
+
 </div>
 
 <div class="method-row">
 
 #### [getSubnetsInAcl](/reference/services/SoftLayer_Network_Storage_Allowed_Host/getSubnetsInAcl)
 Retrieve the SoftLayer_Network_Subnet records assigned to the ACL for this allowed host.
+
 </div>
 
 <div class="method-row">
 
 #### [removeSubnetsFromAcl](/reference/services/SoftLayer_Network_Storage_Allowed_Host/removeSubnetsFromAcl)
+
 
 </div>
 
@@ -120,6 +135,7 @@ Retrieve the SoftLayer_Network_Subnet records assigned to the ACL for this allow
 
 #### [setCredentialPassword](/reference/services/SoftLayer_Network_Storage_Allowed_Host/setCredentialPassword)
 Modify the credential password for this SoftLayer_Network_Storage_Allowed_Host
+
 </div>
 </div>
 

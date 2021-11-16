@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,24 +44,28 @@ classes:
 
 #### [getAllObjects](/reference/services/SoftLayer_Location_Group/getAllObjects)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getLocationGroupType](/reference/services/SoftLayer_Location_Group/getLocationGroupType)
 Retrieve the type for this location group.
+
 </div>
 
 <div class="method-row">
 
 #### [getLocations](/reference/services/SoftLayer_Location_Group/getLocations)
 Retrieve the locations in a group.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Location_Group/getObject)
 Retrieve a SoftLayer_Location_Group record.
+
 </div>
 </div>
 

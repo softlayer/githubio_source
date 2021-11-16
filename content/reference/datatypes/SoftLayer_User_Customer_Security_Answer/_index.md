@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_User_Customer_Security_Answer type contains user's answers to security questions.
 
 
@@ -59,7 +61,8 @@ The SoftLayer_User_Customer_Security_Answer type contains user's answers to secu
 [answer]: #answer
 #### [answer]
 A user's answer.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -69,7 +72,8 @@ A user's answer.
 [id]: #id
 #### [id]
 A user's answer identifying number.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -79,7 +83,8 @@ A user's answer identifying number.
 [questionId]: #questionid
 #### [questionId]
 A user's question identifying number.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -89,7 +94,8 @@ A user's question identifying number.
 [userId]: #userid
 #### [userId]
 A user's identifying number.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +111,8 @@ A user's identifying number.
 [question]: #question
 #### [question]
 The question the security answer is associated with.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Security_Question'>SoftLayer_User_Security_Question </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Security_Question'>SoftLayer_User_Security_Question </a>**  
+
 
 
 </div>
@@ -115,7 +122,8 @@ The question the security answer is associated with.
 [user]: #user
 #### [user]
 The user who the security answer belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>

@@ -21,6 +21,8 @@ classes:
 
 
 
+
+
 ### associatedMethods
 
 *  [SoftLayer_Auxiliary_Press_Release_Contact::getObject](/reference/services/SoftLayer_Auxiliary_Press_Release_Contact/getObject )
@@ -55,7 +57,8 @@ classes:
 [id]: #id
 #### [id]
 A press release media partner's  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ A press release media partner's
 [name]: #name
 #### [name]
 A press release media partner's name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

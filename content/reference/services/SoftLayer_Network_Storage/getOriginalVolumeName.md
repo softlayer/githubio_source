@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getOriginalVolumeName
 
+
 Retrieve the name of the volume that this volume was duplicated from.
 
 

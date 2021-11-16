@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNetworkMonitorDownVirtualGuests
 
+
 Retrieve virtual guest which is currently experiencing a service failure.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category)::getQuestionReferences
 
+
 Retrieve the question references that are associated with an item category.
 
 

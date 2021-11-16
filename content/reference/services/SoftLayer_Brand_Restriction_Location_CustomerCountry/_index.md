@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The [SoftLayer_Brand_Restriction_Location_CustomerCountry]({{<ref "reference/datatypes/SoftLayer_Brand_Restriction_Location_CustomerCountry">}}) service defines the relationship between brands, locations and countries associated with a user's account that are ineligible when ordering products. For example, the India datacenter may not be available on the SoftLayer US brand for customers that live in Great Britain. 
 
 
@@ -42,24 +44,28 @@ The [SoftLayer_Brand_Restriction_Location_CustomerCountry]({{<ref "reference/dat
 
 #### [getAllObjects](/reference/services/SoftLayer_Brand_Restriction_Location_CustomerCountry/getAllObjects)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getBrand](/reference/services/SoftLayer_Brand_Restriction_Location_CustomerCountry/getBrand)
 Retrieve this references the brand that has a brand-location-country restriction setup.
+
 </div>
 
 <div class="method-row">
 
 #### [getLocation](/reference/services/SoftLayer_Brand_Restriction_Location_CustomerCountry/getLocation)
 Retrieve this references the datacenter that has a brand-location-country restriction setup. For example, if a datacenter is listed with a restriction for Canada, a Canadian customer may not be eligible to order services at that location.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Brand_Restriction_Location_CustomerCountry/getObject)
 Retrieve a SoftLayer_Brand_Restriction_Location_CustomerCountry record.
+
 </div>
 </div>
 

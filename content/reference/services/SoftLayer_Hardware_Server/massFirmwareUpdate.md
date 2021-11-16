@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::massFirmwareUpdate
 
+
 Runs firmware updates on the servers components.
 
 

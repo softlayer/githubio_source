@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location](/reference/services/SoftLayer_Location)::getOnlineSslVpnUserCount
 
+
 Retrieve the total number of users online using SoftLayer's SSL VPN service for a location.
 
 

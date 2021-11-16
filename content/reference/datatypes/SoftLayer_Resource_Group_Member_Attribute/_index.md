@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [createDate]: #createdate
 #### [createDate]
 A resource group member attribute's creation date.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A resource group member attribute's creation date.
 [id]: #id
 #### [id]
 A resource group member attribute's ID.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A resource group member attribute's ID.
 [value]: #value
 #### [value]
 A resource group member attribute's value.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ A resource group member attribute's value.
 [member]: #member
 #### [member]
 A resource group member attribute's resource group member.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ A resource group member attribute's resource group member.
 [type]: #type
 #### [type]
 A resource group member attribute's type.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Attribute_Type'>SoftLayer_Resource_Group_Member_Attribute_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Attribute_Type'>SoftLayer_Resource_Group_Member_Attribute_Type </a>**  
+
 
 
 </div>

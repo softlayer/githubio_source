@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Security_Certificate](/reference/services/SoftLayer_Security_Certificate)::getAssociatedServiceCount
 
+
 Retrieve the number of services currently associated with the certificate.
 
 

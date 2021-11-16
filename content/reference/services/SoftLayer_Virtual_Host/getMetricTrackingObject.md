@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::getMetricTrackingObject
 
+
 Retrieve the metric tracking object for this virtual host.
 
 

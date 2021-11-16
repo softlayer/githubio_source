@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Billing_Oder_Quote data type contains general information relating to an individual order applied to a SoftLayer customer account or to a new customer. Personal information in this type such as names, addresses, and phone numbers are taken from the account's contact information at the time the quote is generated for existing SoftLayer customer. 
 
 
@@ -55,7 +57,8 @@ The SoftLayer_Billing_Oder_Quote data type contains general information relating
 [accountId]: #accountid
 #### [accountId]
 Identification Number of the account record tied to the quote  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ Identification Number of the account record tied to the quote
 [completedPurchaseDataId]: #completedpurchasedataid
 #### [completedPurchaseDataId]
 Identification Number of the order record tied to the quote.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +79,8 @@ Identification Number of the order record tied to the quote.
 [createDate]: #createdate
 #### [createDate]
 Holds the date the quote record was created  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +90,8 @@ Holds the date the quote record was created
 [expirationDate]: #expirationdate
 #### [expirationDate]
 This property holds the date of expiration of a quote, after that date the quote would be deem expired  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +101,8 @@ This property holds the date of expiration of a quote, after that date the quote
 [id]: #id
 #### [id]
 The id use to identify a quote.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +112,8 @@ The id use to identify a quote.
 [modifyDate]: #modifydate
 #### [modifyDate]
 Holds the date when the quote record was modified with reference to its creation date  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -115,7 +123,8 @@ Holds the date when the quote record was modified with reference to its creation
 [name]: #name
 #### [name]
 The name given to quote by the initiator  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +134,8 @@ The name given to quote by the initiator
 [publicNote]: #publicnote
 #### [publicNote]
 This property Holds system generated notes. In our case if a quote is tied to an order where one of the order item has an inactive promotion code, the quote will be considered invalid.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +145,8 @@ This property Holds system generated notes. In our case if a quote is tied to an
 [quoteKey]: #quotekey
 #### [quoteKey]
 Holds system generated hash password for the Quote  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +156,8 @@ Holds system generated hash password for the Quote
 [status]: #status
 #### [status]
 This property Holds the current status of a Quote: pending,expired, saved or deleted  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -161,7 +173,8 @@ This property Holds the current status of a Quote: pending,expired, saved or del
 [account]: #account
 #### [account]
 A quote's corresponding account.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -171,7 +184,8 @@ A quote's corresponding account.
 [doNotContactFlag]: #donotcontactflag
 #### [doNotContactFlag]
 Indicates whether the owner of the quote chosen to no longer be contacted.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -181,7 +195,8 @@ Indicates whether the owner of the quote chosen to no longer be contacted.
 [order]: #order
 #### [order]
 This order contains the records for which products were selected for this quote.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**  
+
 
 
 </div>
@@ -191,7 +206,8 @@ This order contains the records for which products were selected for this quote.
 [ordersFromQuote]: #ordersfromquote
 #### [ordersFromQuote]
 These are all the orders that were created from this quote.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order[] </a>**  
+
 
 
 </div>
@@ -203,7 +219,8 @@ These are all the orders that were created from this quote.
 [ordersFromQuoteCount]: #ordersfromquotecount
 #### [ordersFromQuoteCount]
 A count of these are all the orders that were created from this quote.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

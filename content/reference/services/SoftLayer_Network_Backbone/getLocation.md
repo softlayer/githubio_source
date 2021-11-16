@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Backbone](/reference/services/SoftLayer_Network_Backbone)::getLocation
 
+
 Retrieve which of the SoftLayer datacenters a backbone is connected to.
 
 

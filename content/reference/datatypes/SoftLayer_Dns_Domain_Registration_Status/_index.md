@@ -21,6 +21,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Dns_Domain_Registration_Status models the state of domain name. Here are the following status codes: 
 
 
@@ -62,7 +64,8 @@ SoftLayer_Dns_Domain_Registration_Status models the state of domain name. Here a
 [description]: #description
 #### [description]
 The description of the domain registration status names.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -72,7 +75,8 @@ The description of the domain registration status names.
 [id]: #id
 #### [id]
 The unique identifier of the domain registration status  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -82,7 +86,8 @@ The unique identifier of the domain registration status
 [keyName]: #keyname
 #### [keyName]
 The unique keyname of the domain registration status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -92,7 +97,8 @@ The unique keyname of the domain registration status.
 [name]: #name
 #### [name]
 The name of the domain registration status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

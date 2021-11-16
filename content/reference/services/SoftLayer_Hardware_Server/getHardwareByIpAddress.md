@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getHardwareByIpAddress
 
+
 Retrieve a SoftLayer_Hardware_Server object by IP address.
 
 

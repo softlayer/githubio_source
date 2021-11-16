@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getPrimarySubnetVersion6
 
+
 Retrieve a VLAN's primary IPv6 subnet. Some VLAN's may not have a primary IPv6 subnet.
 
 

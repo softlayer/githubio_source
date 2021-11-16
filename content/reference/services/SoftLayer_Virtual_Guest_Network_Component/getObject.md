@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Network_Component](/reference/services/SoftLayer_Virtual_Guest_Network_Component)::getObject
 
+
 Retrieve a SoftLayer_Virtual_Guest_Network_Component record.
 
 

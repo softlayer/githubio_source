@@ -20,6 +20,9 @@ classes:
 </div>
 
 ## Description
+
+<div class="deprecated"><span class="deprecation-label">Deprecated  </span></div>
+
 The global load balancer service has been deprecated and is no longer available. 
 
 Every global load balancer account contains hosts that make up the load balancing pool.  The global load balancers select hosts from this pool and return the destination IP in the DNS response.  The SoftLayer_Network_LoadBalancer_Global_Host service represent these hosts. 
@@ -42,22 +45,28 @@ Every global load balancer account contains hosts that make up the load balancin
 
 <div id="method-div">
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [deleteObject](/reference/services/SoftLayer_Network_LoadBalancer_Global_Host/deleteObject)
 [Deprecated] Remove a host from the load balancing pool of a global load balancer account.
+
+<span class="deprecation-label">Deprecated  </span>
+
+
 </div>
 
 <div class="method-row">
 
 #### [getLoadBalancerAccount](/reference/services/SoftLayer_Network_LoadBalancer_Global_Host/getLoadBalancerAccount)
 Retrieve the global load balancer account a host belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_LoadBalancer_Global_Host/getObject)
 Retrieve a SoftLayer_Network_LoadBalancer_Global_Host record.
+
 </div>
 </div>
 

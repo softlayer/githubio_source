@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::setPublicNetworkInterfaceSpeed
 
+
 Updates the public network interface (eth1) speed.
 
 

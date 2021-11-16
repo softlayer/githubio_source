@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getHardware
 
+
 Retrieve when applicable, the hardware associated with a Storage service.
 
 

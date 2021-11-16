@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getPermissions
 
+
 Retrieve a portal user's permissions. These permissions control that user's access to functions within the SoftLayer customer portal and API.
 
 

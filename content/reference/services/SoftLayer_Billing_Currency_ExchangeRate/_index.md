@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,11 +44,13 @@ classes:
 
 #### [getAllCurrencyExchangeRates](/reference/services/SoftLayer_Billing_Currency_ExchangeRate/getAllCurrencyExchangeRates)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getCurrencies](/reference/services/SoftLayer_Billing_Currency_ExchangeRate/getCurrencies)
+
 
 </div>
 
@@ -54,11 +58,13 @@ classes:
 
 #### [getExchangeRate](/reference/services/SoftLayer_Billing_Currency_ExchangeRate/getExchangeRate)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getFundingCurrency](/reference/services/SoftLayer_Billing_Currency_ExchangeRate/getFundingCurrency)
+
 
 </div>
 
@@ -66,17 +72,20 @@ classes:
 
 #### [getLocalCurrency](/reference/services/SoftLayer_Billing_Currency_ExchangeRate/getLocalCurrency)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Billing_Currency_ExchangeRate/getObject)
 Retrieve a SoftLayer_Billing_Currency_ExchangeRate record.
+
 </div>
 
 <div class="method-row">
 
 #### [getPrice](/reference/services/SoftLayer_Billing_Currency_ExchangeRate/getPrice)
+
 
 </div>
 </div>

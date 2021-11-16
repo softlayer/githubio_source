@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Backbone](/reference/services/SoftLayer_Network_Backbone)::getObject
 
+
 Retrieve a SoftLayer_Network_Backbone record.
 
 

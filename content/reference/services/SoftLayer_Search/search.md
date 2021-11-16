@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Search](/reference/services/SoftLayer_Search)::search
 
+
 Search for SoftLayer Resources by simple phrase.
 
 

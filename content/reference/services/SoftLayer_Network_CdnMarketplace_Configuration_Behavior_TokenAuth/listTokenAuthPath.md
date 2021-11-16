@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth)::listTokenAuthPath
 
+
 SOAP API will list token authentication paths for an existing mapping and for a particular customer. 
 
 

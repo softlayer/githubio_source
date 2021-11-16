@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [hardwareId]: #hardwareid
 #### [hardwareId]
 The internal identifier of the hardware for this member.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The internal identifier of the hardware for this member.
 [id]: #id
 #### [id]
 A gateway member's internal identifier.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A gateway member's internal identifier.
 [networkGatewayId]: #networkgatewayid
 #### [networkGatewayId]
 The internal identifier of the gateway this member belongs to.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The internal identifier of the gateway this member belongs to.
 [priority]: #priority
 #### [priority]
 The priority for this gateway member. This is set internally and cannot be provided on create.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The priority for this gateway member. This is set internally and cannot be provi
 [attributes]: #attributes
 #### [attributes]
 The attributes for this member.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway_Member_Attribute'>SoftLayer_Network_Gateway_Member_Attribute </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway_Member_Attribute'>SoftLayer_Network_Gateway_Member_Attribute </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The attributes for this member.
 [hardware]: #hardware
 #### [hardware]
 The device for this member.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The device for this member.
 [networkGateway]: #networkgateway
 #### [networkGateway]
 The gateway this member belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a>**  
+
 
 
 </div>

@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -51,7 +53,8 @@ classes:
 [subscription]: #subscription
 #### [subscription]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Email_Subscription'>SoftLayer_Email_Subscription </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Email_Subscription'>SoftLayer_Email_Subscription </a>**  
+
 
 
 </div>

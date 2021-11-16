@@ -14,6 +14,8 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_Swip_Transaction](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction)::findMyTransactions
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 returns SWIP transaction objects that are currently in transaction with ARIN.
 
 

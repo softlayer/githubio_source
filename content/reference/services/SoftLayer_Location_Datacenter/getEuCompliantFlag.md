@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location_Datacenter](/reference/services/SoftLayer_Location_Datacenter)::getEuCompliantFlag
 
+
 Retrieve a flag indicating whether or not the datacenter/location is EU compliant.
 
 

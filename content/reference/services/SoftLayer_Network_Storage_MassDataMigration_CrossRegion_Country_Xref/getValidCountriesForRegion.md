@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref](/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref)::getValidCountriesForRegion
 
+
 return countries assigned to the region having pricing info set.
 
 

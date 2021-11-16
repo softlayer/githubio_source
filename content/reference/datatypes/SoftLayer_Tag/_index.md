@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Tag data type is an optional type associated with hardware. The account ID that the tag is tied to, and the tag itself are stored in this data type. There is also a flag to denote whether the tag is internal or not. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Tag data type is an optional type associated with hardware. The ac
 [accountId]: #accountid
 #### [accountId]
 Account the tag belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Account the tag belongs to.
 [id]: #id
 #### [id]
 Unique identifier for a tag.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Unique identifier for a tag.
 [internal]: #internal
 #### [internal]
 Indicates whether a tag is internal.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Indicates whether a tag is internal.
 [name]: #name
 #### [name]
 Name of the tag. The characters permitted are A-Z, 0-9, whitespace,  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ Name of the tag. The characters permitted are A-Z, 0-9, whitespace,
 [account]: #account
 #### [account]
 The account to which the tag is tied.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The account to which the tag is tied.
 [references]: #references
 #### [references]
 References that tie object to the tag.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**  
+
 
 
 </div>
@@ -113,7 +121,8 @@ References that tie object to the tag.
 [referenceCount]: #referencecount
 #### [referenceCount]
 A count of references that tie object to the tag.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

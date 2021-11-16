@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getDomainsWithoutSecondaryDnsRecords
 
+
 Retrieve the DNS domains associated with an account that were not created as a result of a secondary DNS zone transfer.
 
 

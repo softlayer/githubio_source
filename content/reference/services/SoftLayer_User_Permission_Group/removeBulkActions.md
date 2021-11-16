@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Permission_Group](/reference/services/SoftLayer_User_Permission_Group)::removeBulkActions
 
+
 Remove a list of permission actions from the group.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Configuration_Template](/reference/services/SoftLayer_Configuration_Template)::copyTemplate
 
+
 Copy a configuration template and returns a newly created template copy
 
 

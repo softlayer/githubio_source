@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge)::getPurgeHistoryPerMapping
 
+
 This method returns the purge history for a given domain and CDN account. 
 
 

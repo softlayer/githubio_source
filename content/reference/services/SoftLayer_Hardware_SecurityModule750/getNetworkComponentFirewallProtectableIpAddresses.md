@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getNetworkComponentFirewallProtectableIpAddresses
 
+
 Get the IP addresses associated with this server that are protectable by a network component firewall.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getMemory
 
+
 Retrieve information regarding a piece of hardware's memory.
 
 

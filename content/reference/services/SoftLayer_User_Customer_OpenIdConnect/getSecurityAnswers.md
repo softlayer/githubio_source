@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getSecurityAnswers
 
+
 Retrieve a portal user's security question answers. Some portal users may not have security answers or may not be configured to require answering a security question on login.
 
 

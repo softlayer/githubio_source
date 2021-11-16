@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getAllowableIpAddresses
 
+
 Return a list of SoftLayer_Network_Subnet_IpAddress that can be authorized to this volume. 
 
 

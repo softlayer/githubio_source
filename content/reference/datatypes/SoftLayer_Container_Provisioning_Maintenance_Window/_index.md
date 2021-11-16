@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This is the datatype that needs to be populated and sent to SoftLayer_Provisioning_Maintenance_Window::addCustomerUpgradeWindow. This datatype has everything required to place an order with SoftLayer. 
 
 
@@ -45,7 +47,8 @@ This is the datatype that needs to be populated and sent to SoftLayer_Provisioni
 [classificationIds]: #classificationids
 #### [classificationIds]
 Maintenance classifications.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification'>SoftLayer_Provisioning_Maintenance_Classification[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification'>SoftLayer_Provisioning_Maintenance_Classification[] </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Maintenance classifications.
 [itemCategoryIds]: #itemcategoryids
 #### [itemCategoryIds]
 Maintenance classifications.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Maintenance classifications.
 [maintenanceWindowId]: #maintenancewindowid
 #### [maintenanceWindowId]
 The maintenance window id  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The maintenance window id
 [ticketId]: #ticketid
 #### [ticketId]
 Maintenance window ticket id  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Maintenance window ticket id
 [windowMaintenanceDate]: #windowmaintenancedate
 #### [windowMaintenanceDate]
 Maintenance window date  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>

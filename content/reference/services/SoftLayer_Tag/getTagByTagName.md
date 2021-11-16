@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Tag](/reference/services/SoftLayer_Tag)::getTagByTagName
 
+
 Get the tag object based on what the user inputs.
 
 

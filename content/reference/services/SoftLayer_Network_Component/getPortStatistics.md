@@ -14,6 +14,8 @@ aliases:
 ---
 # [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getPortStatistics
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 Retrieve various network statistics for the specific port.
 
 

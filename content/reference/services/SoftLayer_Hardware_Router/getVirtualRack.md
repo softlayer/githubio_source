@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getVirtualRack
 
+
 Retrieve information regarding the bandwidth allotment to which a piece of hardware belongs.
 
 

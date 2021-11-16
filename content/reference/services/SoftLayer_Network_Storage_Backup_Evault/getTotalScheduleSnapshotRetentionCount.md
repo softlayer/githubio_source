@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getTotalScheduleSnapshotRetentionCount
 
+
 Retrieve the total snapshot retention count of all schedules on this network storage volume.
 
 

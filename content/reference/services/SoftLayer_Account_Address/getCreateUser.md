@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Address](/reference/services/SoftLayer_Account_Address)::getCreateUser
 
+
 Retrieve the customer user who created this address.
 
 

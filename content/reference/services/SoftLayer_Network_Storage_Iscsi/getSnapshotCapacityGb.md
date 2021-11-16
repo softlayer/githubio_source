@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getSnapshotCapacityGb
 
+
 Retrieve a volume's configured snapshot space size.
 
 

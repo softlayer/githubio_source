@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_MobileDevice](/reference/services/SoftLayer_User_Customer_MobileDevice)::getOperatingSystem
 
+
 Retrieve the operating system this device is using
 
 

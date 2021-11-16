@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getDowngradeItems
 
+
 Retrieve for product items which have a downgrade path defined, this will return those product items.
 
 

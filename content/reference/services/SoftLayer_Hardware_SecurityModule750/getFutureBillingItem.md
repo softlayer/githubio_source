@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getFutureBillingItem
 
+
 Retrieve information regarding the future billing item for a server.
 
 

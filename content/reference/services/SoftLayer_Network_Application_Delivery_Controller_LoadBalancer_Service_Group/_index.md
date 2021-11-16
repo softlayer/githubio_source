@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,17 +44,20 @@ classes:
 
 #### [getGraphImage](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_Group/getGraphImage)
 Get the connection or status graph image for a load balancer service group.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_Group/getObject)
 Retrieve a SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_Group record.
+
 </div>
 
 <div class="method-row">
 
 #### [getRoutingMethod](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_Group/getRoutingMethod)
+
 
 </div>
 
@@ -60,11 +65,13 @@ Retrieve a SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Servic
 
 #### [getRoutingType](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_Group/getRoutingType)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getServiceReferences](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_Group/getServiceReferences)
+
 
 </div>
 
@@ -72,11 +79,13 @@ Retrieve a SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Servic
 
 #### [getServices](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_Group/getServices)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getVirtualServer](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_Group/getVirtualServer)
+
 
 </div>
 
@@ -84,11 +93,13 @@ Retrieve a SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Servic
 
 #### [getVirtualServers](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_Group/getVirtualServers)
 
+
 </div>
 
 <div class="method-row">
 
 #### [kickAllConnections](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_Group/kickAllConnections)
+
 
 </div>
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getUserIdForPasswordSet
 
+
 Retrieve a user id using a password request key
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getAccount
 
+
 Retrieve the SoftLayer customer account associated with a ticket.
 
 

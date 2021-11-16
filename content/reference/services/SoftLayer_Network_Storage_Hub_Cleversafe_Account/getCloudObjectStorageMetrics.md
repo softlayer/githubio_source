@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 Makes a request to Cloud Object Storage metricsAPI service and when successful, returns an associative array with two elements: 
 

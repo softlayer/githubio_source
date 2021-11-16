@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::requestManualPaymentUsingCreditCardOnFile
 
+
 Retrieve the record data associated with the submission of a Manual Payment Request which charges the manual payment to a credit card already on file. 
 
 

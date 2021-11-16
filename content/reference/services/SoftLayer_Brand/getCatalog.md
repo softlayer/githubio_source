@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getCatalog
 
+
 Retrieve the Product Catalog for the Brand
 
 

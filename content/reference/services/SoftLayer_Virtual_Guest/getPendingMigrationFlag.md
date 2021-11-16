@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getPendingMigrationFlag
 
+
 Retrieve when true this virtual guest must be migrated using SoftLayer_Virtual_Guest::migrate.
 
 

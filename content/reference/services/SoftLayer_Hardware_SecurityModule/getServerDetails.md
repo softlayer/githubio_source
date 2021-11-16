@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getServerDetails
 
+
 Retrieve a server's hardware components, software, and network components.
 
 

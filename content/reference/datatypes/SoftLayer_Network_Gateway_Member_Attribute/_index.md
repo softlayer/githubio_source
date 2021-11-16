@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [id]: #id
 #### [id]
 A gateway member's internal identifier.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A gateway member's internal identifier.
 [isUpgraded]: #isupgraded
 #### [isUpgraded]
 Indicates if the member has been upgraded.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Indicates if the member has been upgraded.
 [lastvSRXVersion]: #lastvsrxversion
 #### [lastvSRXVersion]
 The previous vSRX version of the gateway software   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The previous vSRX version of the gateway software
 [licenseExpirationDate]: #licenseexpirationdate
 #### [licenseExpirationDate]
 Timestamp for the expiration date of the license key   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Timestamp for the expiration date of the license key
 [licenseKey]: #licensekey
 #### [licenseKey]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Timestamp for the expiration date of the license key
 [memberId]: #memberid
 #### [memberId]
 The gateway member for this attribute.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The gateway member for this attribute.
 [networkModel]: #networkmodel
 #### [networkModel]
 Network model of the gateway.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Network model of the gateway.
 [password]: #password
 #### [password]
 Password of the user name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ Password of the user name.
 [sshKeyId]: #sshkeyid
 #### [sshKeyId]
 The SSH key id of key assigned to Gateway.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The SSH key id of key assigned to Gateway.
 [upgradedDate]: #upgradeddate
 #### [upgradedDate]
 Timestamp when this gateway member was last upgraded   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ Timestamp when this gateway member was last upgraded
 [username]: #username
 #### [username]
 Username associated with the gateway.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ Username associated with the gateway.
 [vSRXVersion]: #vsrxversion
 #### [vSRXVersion]
 The vSRX version of the gateway software   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The vSRX version of the gateway software
 [gatewayMember]: #gatewaymember
 #### [gatewayMember]
 The gateway member has these attributes.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway_Member'>SoftLayer_Network_Gateway_Member </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway_Member'>SoftLayer_Network_Gateway_Member </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ The gateway member has these attributes.
 [sshKey]: #sshkey
 #### [sshKey]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Ssh_Key'>SoftLayer_Security_Ssh_Key </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Ssh_Key'>SoftLayer_Security_Ssh_Key </a>**  
+
 
 
 </div>

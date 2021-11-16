@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getFilesPendingDelete
 
+
 Retrieve a list of files in a Storage account's recycle bin.
 
 

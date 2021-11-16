@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Lookup items container for domain registration 
 
 
@@ -45,7 +47,8 @@ Lookup items container for domain registration
 [domainName]: #domainname
 #### [domainName]
 The domain name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The domain name.
 [status]: #status
 #### [status]
 The status of the domain name if available and can be registered.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

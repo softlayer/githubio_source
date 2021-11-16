@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getBareMetalReservedCapacityFlag
 
+
 Retrieve signifies pricing that is only available on a bare metal reserved capacity order.
 
 

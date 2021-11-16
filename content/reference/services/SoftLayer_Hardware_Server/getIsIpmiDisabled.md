@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getIsIpmiDisabled
 
+
 Retrieve determine if remote management has been disabled due to port speed.
 
 

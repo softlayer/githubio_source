@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::setSnapshotNotification
 
+
 Function to enable/disable snapshot warning notification.
 
 

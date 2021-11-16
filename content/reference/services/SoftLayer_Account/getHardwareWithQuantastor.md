@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardwareWithQuantastor
 
+
 Retrieve all hardware associated with an account that has the QuantaStor storage system installed.
 
 

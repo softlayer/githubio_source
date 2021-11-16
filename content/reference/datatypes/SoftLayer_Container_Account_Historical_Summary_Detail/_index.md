@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Historical Summary Details Container for a resource's data 
 
 
@@ -45,7 +47,8 @@ Historical Summary Details Container for a resource's data
 [endDate]: #enddate
 #### [endDate]
 The maximum date included in the detail.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The maximum date included in the detail.
 [startDate]: #startdate
 #### [startDate]
 The minimum date included in the detail.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>

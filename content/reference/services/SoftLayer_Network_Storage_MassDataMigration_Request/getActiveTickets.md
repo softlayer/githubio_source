@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_MassDataMigration_Request](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request)::getActiveTickets
 
+
 Retrieve the active tickets that are attached to the MDMS request.
 
 

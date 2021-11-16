@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Policy_Assignment](/reference/services/SoftLayer_Product_Item_Policy_Assignment)::getObject
 
+
 Retrieve a SoftLayer_Product_Item_Policy_Assignment record.
 
 

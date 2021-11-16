@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getBandwidthImage
 
+
 Retrieve a bandwidth image and textual description of that image for this server.
 
 

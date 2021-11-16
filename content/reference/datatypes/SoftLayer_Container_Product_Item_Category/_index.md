@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Product_Item_Category data type represents a single product item category. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Product_Item_Category data type represents a single prod
 [id]: #id
 #### [id]
 identifier for category.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

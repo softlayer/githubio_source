@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,11 +44,13 @@ classes:
 
 #### [createObject](/reference/services/SoftLayer_Account_Authentication_Saml/createObject)
 
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Account_Authentication_Saml/deleteObject)
+
 
 </div>
 
@@ -54,30 +58,35 @@ classes:
 
 #### [editObject](/reference/services/SoftLayer_Account_Authentication_Saml/editObject)
 Edit the object by passing in a modified instance of the object.
+
 </div>
 
 <div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Account_Authentication_Saml/getAccount)
 Retrieve the account associated with this saml configuration.
+
 </div>
 
 <div class="method-row">
 
 #### [getAttributes](/reference/services/SoftLayer_Account_Authentication_Saml/getAttributes)
 Retrieve the saml attribute values for a SoftLayer customer account.
+
 </div>
 
 <div class="method-row">
 
 #### [getMetadata](/reference/services/SoftLayer_Account_Authentication_Saml/getMetadata)
 Get the service provider meta data.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Account_Authentication_Saml/getObject)
 Retrieve a SoftLayer_Account_Authentication_Saml record.
+
 </div>
 </div>
 

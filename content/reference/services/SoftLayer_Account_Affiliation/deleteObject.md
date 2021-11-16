@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Affiliation](/reference/services/SoftLayer_Account_Affiliation)::deleteObject
 
+
 Delete an account affiliation
 
 

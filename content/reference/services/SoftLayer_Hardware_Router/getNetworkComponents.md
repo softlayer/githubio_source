@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getNetworkComponents
 
+
 Retrieve returns a hardware's network components.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location](/reference/services/SoftLayer_Location)::getViewablePopsAndDataCenters
 
+
 Retrieve viewable pops and datacenters in a combined list.
 
 

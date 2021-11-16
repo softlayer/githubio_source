@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer [SoftLayer_Metric_Tracking_Object]({{<ref "reference/datatypes/SoftLayer_Metric_Tracking_Object">}}) can model various kinds of measured data, from server and virtual server bandwidth usage to CPU use to remote storage usage. SoftLayer_Metric_Tracking_Object_Type models one of these types and is referred to in tracking objects to reflect what type of data they track. 
 
 
@@ -50,7 +52,8 @@ SoftLayer [SoftLayer_Metric_Tracking_Object]({{<ref "reference/datatypes/SoftLay
 [keyname]: #keyname
 #### [keyname]
 Description A tracking object type's key name. This is a shorter description of what kind of data a tracking object group is polling.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ Description A tracking object type's key name. This is a shorter description of 
 [name]: #name
 #### [name]
 Description A tracking object type's name. This describes what kind of data a tracking object group is polling.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

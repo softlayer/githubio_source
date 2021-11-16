@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getFirstAttachedResource
 
+
 Retrieve the first physical or virtual server attached to a ticket.
 
 

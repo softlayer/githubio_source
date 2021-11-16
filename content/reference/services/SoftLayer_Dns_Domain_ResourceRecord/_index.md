@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Every domain record hosted on the SoftLayer name servers is comprised of a series or resource records that control how the domain operates, translates host names, and translates service location. Each of those resource records is controlled by the SoftLayer_Dns_Domain_ResourceRecord service. SoftLayer domains have the following resource records: 
 * A single SOA record
 * A records
@@ -99,48 +101,56 @@ As with domain changes, resource record changes happen immediately, but may take
 
 #### [createObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObject)
 Create a domain's resource record.
+
 </div>
 
 <div class="method-row">
 
 #### [createObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObjects)
 Create multiple domain resource records.
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObject)
 Delete a domain's resource record.
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/deleteObjects)
 Delete multiple resource records from a domain.
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/editObject)
 Edit a domain's resource record.
+
 </div>
 
 <div class="method-row">
 
 #### [editObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/editObjects)
 Edit multiple domain resource records.
+
 </div>
 
 <div class="method-row">
 
 #### [getDomain](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/getDomain)
 Retrieve the domain that a resource record belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/getObject)
 Retrieve a SoftLayer_Dns_Domain_ResourceRecord record.
+
 </div>
 </div>
 

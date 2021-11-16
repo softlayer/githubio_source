@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer_Workload_Citrix_Deployment_Resource represents the resource of Citrix Virtual Apps & Desktops deployment. 
 
 
@@ -42,17 +44,20 @@ SoftLayer_Workload_Citrix_Deployment_Resource represents the resource of Citrix 
 
 #### [createObject](/reference/services/SoftLayer_Workload_Citrix_Deployment_Resource/createObject)
 Add the resource into CVAD deployment resources.
+
 </div>
 
 <div class="method-row">
 
 #### [getAllObjects](/reference/services/SoftLayer_Workload_Citrix_Deployment_Resource/getAllObjects)
 Get all the Citrix deployment resources.
+
 </div>
 
 <div class="method-row">
 
 #### [getBillingItem](/reference/services/SoftLayer_Workload_Citrix_Deployment_Resource/getBillingItem)
+
 
 </div>
 
@@ -60,23 +65,27 @@ Get all the Citrix deployment resources.
 
 #### [getDeployment](/reference/services/SoftLayer_Workload_Citrix_Deployment_Resource/getDeployment)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Workload_Citrix_Deployment_Resource/getObject)
 Retrieve a SoftLayer_Workload_Citrix_Deployment_Resource record.
+
 </div>
 
 <div class="method-row">
 
 #### [getOrder](/reference/services/SoftLayer_Workload_Citrix_Deployment_Resource/getOrder)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getRole](/reference/services/SoftLayer_Workload_Citrix_Deployment_Resource/getRole)
+
 
 </div>
 </div>

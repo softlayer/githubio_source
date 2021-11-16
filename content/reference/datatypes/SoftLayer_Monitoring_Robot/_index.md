@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 DEPRECATED. The SoftLayer_Monitoring_Robot data type contains general information relating to a monitoring robot. 
 
 
@@ -45,7 +47,8 @@ DEPRECATED. The SoftLayer_Monitoring_Robot data type contains general informatio
 [accountId]: #accountid
 #### [accountId]
 DEPRECATED. Internal identifier of a SoftLayer account that this robot belongs to  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ DEPRECATED. Internal identifier of a SoftLayer account that this robot belongs t
 [id]: #id
 #### [id]
 DEPRECATED. Internal identifier of a monitoring robot  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ DEPRECATED. Internal identifier of a monitoring robot
 [name]: #name
 #### [name]
 DEPRECATED. Robot name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ DEPRECATED. Robot name
 [statusId]: #statusid
 #### [statusId]
 DEPRECATED. Internal identifier of a monitoring robot status  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

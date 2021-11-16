@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Account](/reference/services/SoftLayer_Network_CdnMarketplace_Account)::getBillingItem
 
+
 Retrieve an associated parent billing item which is active.
 
 

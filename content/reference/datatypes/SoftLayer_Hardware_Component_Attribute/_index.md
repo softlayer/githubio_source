@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Hardware_Component_Attribute data type contains general information relating to a single hardware setting or attribute for a component model. For Example: A RAID controller may be setup for many different RAID configurations.  A RAID controller with a configuration of RAID-1 will have a single attribute for this RAID setting. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Hardware_Component_Attribute data type contains general informatio
 [hardwareComponentAttributeTypeId]: #hardwarecomponentattributetypeid
 #### [hardwareComponentAttributeTypeId]
 A hardware component attribute's associated [SoftLayer_Hardware_Component_Attribute_Type]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Attribute_Type">}}) Id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A hardware component attribute's associated [SoftLayer_Hardware_Component_Attrib
 [hardwareComponentId]: #hardwarecomponentid
 #### [hardwareComponentId]
 A hardware component attribute's associated [SoftLayer_Hardware_Component]({{<ref "reference/datatypes/SoftLayer_Hardware_Component">}}) Id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A hardware component attribute's associated [SoftLayer_Hardware_Component]({{<re
 [value]: #value
 #### [value]
 A hardware component attribute's value.  A value can have many different values depending on the attributes [SoftLayer_Hardware_Component_Attribute_Type]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Attribute_Type">}}).  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ A hardware component attribute's value.  A value can have many different values 
 [hardwareComponent]: #hardwarecomponent
 #### [hardwareComponent]
 A hardware component attribute's associated [SoftLayer_Hardware_Component]({{<ref "reference/datatypes/SoftLayer_Hardware_Component">}}).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ A hardware component attribute's associated [SoftLayer_Hardware_Component]({{<re
 [hardwareComponentAttributeType]: #hardwarecomponentattributetype
 #### [hardwareComponentAttributeType]
 A hardware component attribute's associated [SoftLayer_Hardware_Component_Attribute_Type]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Attribute_Type">}}).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Attribute_Type'>SoftLayer_Hardware_Component_Attribute_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Attribute_Type'>SoftLayer_Hardware_Component_Attribute_Type </a>**  
+
 
 
 </div>

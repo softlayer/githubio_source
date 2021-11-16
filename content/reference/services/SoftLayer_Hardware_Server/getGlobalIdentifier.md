@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getGlobalIdentifier
 
+
 Retrieve a hardware's universally unique identifier.
 
 

@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_Rwhois_Data](/reference/services/SoftLayer_Network_Subnet_Rwhois_Data)::editObject
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 Edit the RWHOIS record by passing in a modified version of the record object. All fields are editable. The fields are as follows: 
 * companyName
 * firstName

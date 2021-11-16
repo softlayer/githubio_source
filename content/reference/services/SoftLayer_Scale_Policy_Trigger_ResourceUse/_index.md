@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A trigger that will only execute only when all guests on the group (both static and member) satisfy certain resource watches. 
 
 
@@ -42,42 +44,49 @@ A trigger that will only execute only when all guests on the group (both static 
 
 #### [createObject](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/createObject)
 Create a resource-use policy trigger.
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/deleteObject)
 Delete this trigger.
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/editObject)
 Edit this trigger.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/getObject)
 Retrieve a SoftLayer_Scale_Policy_Trigger_ResourceUse record.
+
 </div>
 
 <div class="method-row">
 
 #### [getScalePolicy](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/getScalePolicy)
 Retrieve the policy this trigger is on.
+
 </div>
 
 <div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/getType)
 Retrieve the type of trigger.
+
 </div>
 
 <div class="method-row">
 
 #### [getWatches](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse/getWatches)
 Retrieve the resource watches for this trigger.
+
 </div>
 </div>
 

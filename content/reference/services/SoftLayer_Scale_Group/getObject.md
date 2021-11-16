@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::getObject
 
+
 Retrieve a SoftLayer_Scale_Group record.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_DirectLink_ServiceType](/reference/services/SoftLayer_Network_DirectLink_ServiceType)::getObject
 
+
 Retrieve a SoftLayer_Network_DirectLink_ServiceType record.
 
 

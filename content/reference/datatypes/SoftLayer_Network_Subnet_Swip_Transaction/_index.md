@@ -20,6 +20,9 @@ classes:
 
 ## Description 
 
+<div class="deprecated"><span class="deprecation-label">Deprecated  </span></div>
+
+
 **DEPRECATED**
 The SoftLayer_Network_Subnet_Swip_Transaction data type contains basic information tracked at SoftLayer to allow automation of Swip creation, update, and removal requests.  A specific transaction is attached to an accountId and a subnetId. This also contains a "Status Name" which tells the customer what the transaction is doing: 
 
@@ -70,7 +73,8 @@ The SoftLayer_Network_Subnet_Swip_Transaction data type contains basic informati
 [id]: #id
 #### [id]
 A SWIP transaction's unique identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -80,7 +84,8 @@ A SWIP transaction's unique identifier.
 [statusName]: #statusname
 #### [statusName]
 A Name describing which state a SWIP  transaction is in.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -90,7 +95,8 @@ A Name describing which state a SWIP  transaction is in.
 [subnetId]: #subnetid
 #### [subnetId]
 ID Number of the Subnet for this SWIP transaction.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -106,7 +112,8 @@ ID Number of the Subnet for this SWIP transaction.
 [account]: #account
 #### [account]
 The Account whose RWHOIS data was used to SWIP this subnet  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -116,7 +123,8 @@ The Account whose RWHOIS data was used to SWIP this subnet
 [subnet]: #subnet
 #### [subnet]
 The subnet that this SWIP transaction was created for.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**  
+
 
 
 </div>

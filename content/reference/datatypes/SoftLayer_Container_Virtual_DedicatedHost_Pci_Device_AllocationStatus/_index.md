@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This data type represents PCI device allocation properties of a [SoftLayer_Virtual_DedicatedHost]({{<ref "reference/datatypes/SoftLayer_Virtual_DedicatedHost">}}). 
 
 
@@ -45,7 +47,8 @@ This data type represents PCI device allocation properties of a [SoftLayer_Virtu
 [deviceCount]: #devicecount
 #### [deviceCount]
 The number of PCI devices on the host.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The number of PCI devices on the host.
 [deviceName]: #devicename
 #### [deviceName]
 The name of the PCI devices on the host.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The name of the PCI devices on the host.
 [devicesAllocated]: #devicesallocated
 #### [devicesAllocated]
 The number of PCI devices currently allocated to guests.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The number of PCI devices currently allocated to guests.
 [devicesAvailable]: #devicesavailable
 #### [devicesAvailable]
 The number of PCI devices available for allocation.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The number of PCI devices available for allocation.
 [hardwareComponentModelGenericId]: #hardwarecomponentmodelgenericid
 #### [hardwareComponentModelGenericId]
 The generic component model ID of the PCI device.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The generic component model ID of the PCI device.
 [hostId]: #hostid
 #### [hostId]
 The ID of the host that the dedicated host is on.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

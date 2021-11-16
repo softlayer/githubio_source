@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [daysToGracePeriodEnd]: #daystograceperiodend
 #### [daysToGracePeriodEnd]
 The number of days remaining in the grace period for this user's account to  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The number of days remaining in the grace period for this user's account to
 [emailAlreadyUsedForInvitationToAccount]: #emailalreadyusedforinvitationtoaccount
 #### [emailAlreadyUsedForInvitationToAccount]
 Flag for whether the email address inside this SoftLayer_User_Customer object  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Flag for whether the email address inside this SoftLayer_User_Customer object
 [emailAlreadyUsedForLinkToAccount]: #emailalreadyusedforlinktoaccount
 #### [emailAlreadyUsedForLinkToAccount]
 Flag for whether the email address inside this SoftLayer_User_Customer object  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Flag for whether the email address inside this SoftLayer_User_Customer object
 [existingInvitationOpenIdConnectName]: #existinginvitationopenidconnectname
 #### [existingInvitationOpenIdConnectName]
 The IBMid email address where an invitation was sent.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The IBMid email address where an invitation was sent.
 [isAccountOpenIdConnectAuthenticated]: #isaccountopenidconnectauthenticated
 #### [isAccountOpenIdConnectAuthenticated]
 Flag for whether the account is OpenIdConnect authenticated or not.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>

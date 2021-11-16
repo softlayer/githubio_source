@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::surveyEligible
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 
 
 

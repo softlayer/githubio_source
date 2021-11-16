@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,18 +44,21 @@ classes:
 
 #### [getContainerList](/reference/services/SoftLayer_Network_Storage_Hub_Swift_Share/getContainerList)
 Get a list of the file containers for a brand.
+
 </div>
 
 <div class="method-row">
 
 #### [getFile](/reference/services/SoftLayer_Network_Storage_Hub_Swift_Share/getFile)
 Download a file.
+
 </div>
 
 <div class="method-row">
 
 #### [getFileList](/reference/services/SoftLayer_Network_Storage_Hub_Swift_Share/getFileList)
 Get a list of the files in a container and path.
+
 </div>
 </div>
 

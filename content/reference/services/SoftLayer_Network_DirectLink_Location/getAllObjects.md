@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_DirectLink_Location](/reference/services/SoftLayer_Network_DirectLink_Location)::getAllObjects
 
+
 Get all existing Direct Link location. 
 
 

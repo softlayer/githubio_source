@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Group_Iscsi](/reference/services/SoftLayer_Network_Storage_Group_Iscsi)::addAllowedHost
 
+
 Attach a SoftLayer_Network_Storage_Allowed_Host object to this group
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getDownstreamNetworkHardware
 
+
 Retrieve all network hardware downstream from the selected piece of hardware.
 
 

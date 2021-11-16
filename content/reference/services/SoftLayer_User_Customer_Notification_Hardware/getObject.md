@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_Notification_Hardware](/reference/services/SoftLayer_User_Customer_Notification_Hardware)::getObject
 
+
 Retrieve a SoftLayer_User_Customer_Notification_Hardware record.
 
 

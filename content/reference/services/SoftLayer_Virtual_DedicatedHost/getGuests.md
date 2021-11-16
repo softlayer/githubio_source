@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_DedicatedHost](/reference/services/SoftLayer_Virtual_DedicatedHost)::getGuests
 
+
 Retrieve the guests associated with the dedicated host.
 
 

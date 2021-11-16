@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Every SoftLayer customer account has billing specific information which is kept in the SoftLayer_Billing_Info data type. This information is used by the SoftLayer accounting group when sending invoices and making billing inquiries. 
 
 
@@ -50,7 +52,8 @@ Every SoftLayer customer account has billing specific information which is kept 
 [accountId]: #accountid
 #### [accountId]
 A SoftLayer account's identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ A SoftLayer account's identifier.
 [anniversaryDayOfMonth]: #anniversarydayofmonth
 #### [anniversaryDayOfMonth]
 The day of the month that a SoftLayer customer is billed.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ The day of the month that a SoftLayer customer is billed.
 [cardAccountNumber]: #cardaccountnumber
 #### [cardAccountNumber]
 This value doesn't persist to this object. It's used as part of the account creation process only;  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ This value doesn't persist to this object. It's used as part of the account crea
 [cardExpirationMonth]: #cardexpirationmonth
 #### [cardExpirationMonth]
 the expiration month of the credit card on file  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ the expiration month of the credit card on file
 [cardExpirationYear]: #cardexpirationyear
 #### [cardExpirationYear]
 the expiration year of the credit card on file  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -100,7 +107,8 @@ the expiration year of the credit card on file
 [cardNickname]: #cardnickname
 #### [cardNickname]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -110,7 +118,8 @@ the expiration year of the credit card on file
 [cardType]: #cardtype
 #### [cardType]
 the type of the credit card on file  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -120,7 +129,8 @@ the type of the credit card on file
 [cardVerificationNumber]: #cardverificationnumber
 #### [cardVerificationNumber]
 This value doesn't persist to this object. It's used as part of the account creation process only.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -130,7 +140,8 @@ This value doesn't persist to this object. It's used as part of the account crea
 [createDate]: #createdate
 #### [createDate]
 The date a customer's billing information was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -140,7 +151,8 @@ The date a customer's billing information was created.
 [id]: #id
 #### [id]
 A SoftLayer customer's billing information identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -150,7 +162,8 @@ A SoftLayer customer's billing information identifier.
 [lastFourPaymentCardDigits]: #lastfourpaymentcarddigits
 #### [lastFourPaymentCardDigits]
 The last four digits of the credit card currently on the account. This is the only portion of the card that we store. For Paypal customers, this value will be empty.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -160,7 +173,8 @@ The last four digits of the credit card currently on the account. This is the on
 [lastPaymentDate]: #lastpaymentdate
 #### [lastPaymentDate]
 The date of the last payment received by SoftLayer from the account holder.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -170,7 +184,8 @@ The date of the last payment received by SoftLayer from the account holder.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date a customer's billing information was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -180,7 +195,8 @@ The date a customer's billing information was last modified.
 [paymentTerms]: #paymentterms
 #### [paymentTerms]
 The payment terms for an account.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -190,7 +206,8 @@ The payment terms for an account.
 [percentDiscountOnetime]: #percentdiscountonetime
 #### [percentDiscountOnetime]
 The percentage discount received on all one-time charges on a customer's monthly bill.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -200,7 +217,8 @@ The percentage discount received on all one-time charges on a customer's monthly
 [percentDiscountRecurring]: #percentdiscountrecurring
 #### [percentDiscountRecurring]
 The percentage discount received on all recurring charges on a customer's monthly bill.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -210,7 +228,8 @@ The percentage discount received on all recurring charges on a customer's monthl
 [sparePoolAmount]: #sparepoolamount
 #### [sparePoolAmount]
 The total recurring fee amount for servers that are in the spare pool status.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -220,7 +239,8 @@ The total recurring fee amount for servers that are in the spare pool status.
 [taxCertificateId]: #taxcertificateid
 #### [taxCertificateId]
 This property has been deprecated.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -230,7 +250,8 @@ This property has been deprecated.
 [vatId]: #vatid
 #### [vatId]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -246,7 +267,8 @@ This property has been deprecated.
 [account]: #account
 #### [account]
 The SoftLayer customer account associated with this billing information.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -256,7 +278,8 @@ The SoftLayer customer account associated with this billing information.
 [achInformation]: #achinformation
 #### [achInformation]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Info_Ach'>SoftLayer_Billing_Info_Ach[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Info_Ach'>SoftLayer_Billing_Info_Ach[] </a>**  
+
 
 
 </div>
@@ -266,7 +289,8 @@ The SoftLayer customer account associated with this billing information.
 [currency]: #currency
 #### [currency]
 Currency to be used by this customer account.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a>**  
+
 
 
 </div>
@@ -276,7 +300,8 @@ Currency to be used by this customer account.
 [currentBillingCycle]: #currentbillingcycle
 #### [currentBillingCycle]
 Information related to an account's current and previous billing cycles.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Info_Cycle'>SoftLayer_Billing_Info_Cycle </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Info_Cycle'>SoftLayer_Billing_Info_Cycle </a>**  
+
 
 
 </div>
@@ -286,7 +311,8 @@ Information related to an account's current and previous billing cycles.
 [lastBillDate]: #lastbilldate
 #### [lastBillDate]
 The date on which an account was last billed.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -296,7 +322,8 @@ The date on which an account was last billed.
 [nextBillDate]: #nextbilldate
 #### [nextBillDate]
 The date on which an account will be billed next.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -308,7 +335,8 @@ The date on which an account will be billed next.
 [achInformationCount]: #achinformationcount
 #### [achInformationCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

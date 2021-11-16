@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Regional_Registry_Detail_Property](/reference/services/SoftLayer_Account_Regional_Registry_Detail_Property)::getDetail
 
+
 Retrieve the [SoftLayer_Account_Regional_Registry_Detail]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail">}}) object this property belongs to
 
 

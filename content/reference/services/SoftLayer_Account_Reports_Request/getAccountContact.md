@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Reports_Request](/reference/services/SoftLayer_Account_Reports_Request)::getAccountContact
 
+
 Retrieve a request's corresponding external contact, if one exists.
 
 

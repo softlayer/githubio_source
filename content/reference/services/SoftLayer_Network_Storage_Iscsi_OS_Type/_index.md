@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,12 +44,14 @@ classes:
 
 #### [getAllObjects](/reference/services/SoftLayer_Network_Storage_Iscsi_OS_Type/getAllObjects)
 Returns all iSCSI OS Types
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Storage_Iscsi_OS_Type/getObject)
 Retrieve a SoftLayer_Network_Storage_Iscsi_OS_Type record.
+
 </div>
 </div>
 

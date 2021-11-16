@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Allowed_Host_Subnet](/reference/services/SoftLayer_Network_Storage_Allowed_Host_Subnet)::getResource
 
+
 Retrieve the SoftLayer_Network_Subnet object which this SoftLayer_Network_Storage_Allowed_Host is referencing.
 
 

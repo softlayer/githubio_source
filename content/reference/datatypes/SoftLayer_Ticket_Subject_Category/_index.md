@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Ticket_Subject_Category groups ticket subjects into logical group. 
 
 
@@ -50,7 +52,8 @@ SoftLayer_Ticket_Subject_Category groups ticket subjects into logical group.
 [id]: #id
 #### [id]
 A unique identifier of a ticket subject category.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ A unique identifier of a ticket subject category.
 [name]: #name
 #### [name]
 A ticket subject category name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -76,7 +80,8 @@ A ticket subject category name.
 [subjects]: #subjects
 #### [subjects]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject[] </a>**  
+
 
 
 </div>
@@ -88,7 +93,8 @@ A ticket subject category name.
 [subjectCount]: #subjectcount
 #### [subjectCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getAverageDailyPublicBandwidthUsage
 
+
 Retrieve the average daily public bandwidth usage for the current billing cycle.
 
 

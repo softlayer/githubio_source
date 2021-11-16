@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getReferralPartner
 
+
 Retrieve the Referral Partner for this account, if any.
 
 

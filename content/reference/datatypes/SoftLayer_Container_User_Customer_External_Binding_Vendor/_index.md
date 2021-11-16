@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Container classed used to hold details about an external authentication vendor. 
 
 
@@ -45,7 +47,8 @@ Container classed used to hold details about an external authentication vendor.
 [keyName]: #keyname
 #### [keyName]
 The keyname used to identify an external authentication vendor.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The keyname used to identify an external authentication vendor.
 [name]: #name
 #### [name]
 The name of an external authentication vendor.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

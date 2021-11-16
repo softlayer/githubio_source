@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 This method indicates whether this image template contains an encrypted disk image. 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getCurrentBandwidthSummary
 
+
 Retrieve an object that provides commonly used bandwidth summary components for the current billing cycle.
 
 

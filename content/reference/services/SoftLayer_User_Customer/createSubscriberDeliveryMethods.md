@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::createSubscriberDeliveryMethods
 
+
 Create delivery methods for the subscriber.
 
 

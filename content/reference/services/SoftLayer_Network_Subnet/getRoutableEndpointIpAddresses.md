@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getRoutableEndpointIpAddresses
 
+
 Retrieve IP addresses which may be used as a routing endpoint from a subnet.
 
 

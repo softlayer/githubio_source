@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_User_Permission_Group data type contains local attributes to identify and describe the permission groups that have been created within IMS.  These includes a name, description, and account id.  Permission groups are defined specifically for a single [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}). 
 
 It also contains relational attributes that indicate what SoftLayer_User_Permission_Action objects belong to a particular group, and what SoftLayer_User_Permission_Role objects the group is linked. 
@@ -47,7 +49,8 @@ It also contains relational attributes that indicate what SoftLayer_User_Permiss
 [accountId]: #accountid
 #### [accountId]
 A permission groups associated [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -57,7 +60,8 @@ A permission groups associated [SoftLayer_Account]({{<ref "reference/datatypes/S
 [createDate]: #createdate
 #### [createDate]
 The date the permission group record was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -67,7 +71,8 @@ The date the permission group record was created.
 [description]: #description
 #### [description]
 The description of the permission group.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -77,7 +82,8 @@ The description of the permission group.
 [expirationDate]: #expirationdate
 #### [expirationDate]
 The date the group will be destroyed.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -87,7 +93,8 @@ The date the group will be destroyed.
 [id]: #id
 #### [id]
 A permission groups internal identifying number.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -97,7 +104,8 @@ A permission groups internal identifying number.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date the permission group record was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -107,7 +115,8 @@ The date the permission group record was last modified.
 [name]: #name
 #### [name]
 The name of the permission group.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -117,7 +126,8 @@ The name of the permission group.
 [typeId]: #typeid
 #### [typeId]
 The type of permission group.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -133,7 +143,8 @@ The type of permission group.
 [account]: #account
 #### [account]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -143,7 +154,8 @@ The type of permission group.
 [actions]: #actions
 #### [actions]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Action'>SoftLayer_User_Permission_Action[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Action'>SoftLayer_User_Permission_Action[] </a>**  
+
 
 
 </div>
@@ -153,7 +165,8 @@ The type of permission group.
 [roles]: #roles
 #### [roles]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Role'>SoftLayer_User_Permission_Role[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Role'>SoftLayer_User_Permission_Role[] </a>**  
+
 
 
 </div>
@@ -163,7 +176,8 @@ The type of permission group.
 [type]: #type
 #### [type]
 The type of the permission group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Group_Type'>SoftLayer_User_Permission_Group_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Group_Type'>SoftLayer_User_Permission_Group_Type </a>**  
+
 
 
 </div>
@@ -175,7 +189,8 @@ The type of the permission group.
 [actionCount]: #actioncount
 #### [actionCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -185,7 +200,8 @@ A count of
 [roleCount]: #rolecount
 #### [roleCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

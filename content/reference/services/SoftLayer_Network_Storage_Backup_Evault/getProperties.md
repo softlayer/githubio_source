@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getProperties
 
+
 Retrieve the properties used to provide additional details about a network storage volume.
 
 

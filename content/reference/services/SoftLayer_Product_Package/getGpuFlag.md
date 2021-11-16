@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getGpuFlag
 
+
 Retrieve this flag indicates that the package supports GPUs.
 
 

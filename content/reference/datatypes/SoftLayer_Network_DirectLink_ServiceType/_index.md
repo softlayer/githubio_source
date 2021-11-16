@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_DirectLink_ServiceType presents a structure containing attributes of a Direct Link Service Type. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_DirectLink_ServiceType presents a structure containing att
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The SoftLayer_Network_DirectLink_ServiceType presents a structure containing att
 [type]: #type
 #### [type]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

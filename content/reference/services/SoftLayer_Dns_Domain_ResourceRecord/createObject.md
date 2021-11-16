@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Dns_Domain_ResourceRecord](/reference/services/SoftLayer_Dns_Domain_ResourceRecord)::createObject
 
+
 Create a domain's resource record.
 
 

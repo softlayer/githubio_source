@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Quote](/reference/services/SoftLayer_Billing_Order_Quote)::getQuoteByQuoteKey
 
+
 Retrieve a [SoftLayer_Billing_Order_Quote]({{<ref "reference/datatypes/SoftLayer_Billing_Order_Quote">}}) by the quote key specified.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::removeBulkPortalPermission
 
+
 Remove multiple permissions from a portal user's permission set.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Component_Partition_OperatingSystem](/reference/services/SoftLayer_Hardware_Component_Partition_OperatingSystem)::getByDescription
 
+
 Retrieves a list of all partition templates that match a certain description.
 
 

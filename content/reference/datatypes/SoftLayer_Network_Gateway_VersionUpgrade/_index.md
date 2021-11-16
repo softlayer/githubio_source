@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [fromVersion]: #fromversion
 #### [fromVersion]
 Gateway version being upgraded from.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Gateway version being upgraded from.
 [id]: #id
 #### [id]
 A gateway status's internal identifier.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A gateway status's internal identifier.
 [osReloadRequired]: #osreloadrequired
 #### [osReloadRequired]
 Is OS Reload required after version upgrade?.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Is OS Reload required after version upgrade?.
 [toVersion]: #toversion
 #### [toVersion]
 Gateway version available for upgrade.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

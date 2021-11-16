@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getRegions
 
+
 Retrieve the regional locations that a package is available in.
 
 

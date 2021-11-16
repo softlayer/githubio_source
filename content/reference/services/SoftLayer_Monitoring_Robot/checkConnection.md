@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_Monitoring_Robot](/reference/services/SoftLayer_Monitoring_Robot)::checkConnection
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 DEPRECATED. Checks if a monitoring robot can communicate with SoftLayer monitoring management system 
 
 

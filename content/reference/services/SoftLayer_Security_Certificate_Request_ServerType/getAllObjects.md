@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Security_Certificate_Request_ServerType](/reference/services/SoftLayer_Security_Certificate_Request_ServerType)::getAllObjects
 
+
 Returns all SSL certificate server types
 
 

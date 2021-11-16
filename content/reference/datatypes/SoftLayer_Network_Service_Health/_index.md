@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Many general services that SoftLayer provides are tracked on the customer portal with a quick status message. These status message provide users with a quick reference to the health of a service, whether it's up or down. These services include SoftLayer's Internet backbone connections, VPN entry points, and router networks. The SoftLayer_Network_Service_Health data type provides the relationship between these services and their health status. 
 
 
@@ -50,7 +52,8 @@ Many general services that SoftLayer provides are tracked on the customer portal
 [createDate]: #createdate
 #### [createDate]
 The date that a service's status was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The date that a service's status was created.
 [locationId]: #locationid
 #### [locationId]
 A service's location identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ A service's location identifier.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date that a service's status was last changed.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ The date that a service's status was last changed.
 [statusId]: #statusid
 #### [statusId]
 A service's status identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -96,7 +102,8 @@ A service's status identifier.
 [location]: #location
 #### [location]
 A service's location.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -106,7 +113,8 @@ A service's location.
 [status]: #status
 #### [status]
 The status portion of a service/status relationship.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Health_Status'>SoftLayer_Network_Service_Health_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Health_Status'>SoftLayer_Network_Service_Health_Status </a>**  
+
 
 
 </div>

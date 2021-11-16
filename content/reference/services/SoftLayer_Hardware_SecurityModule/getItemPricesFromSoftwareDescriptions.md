@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getItemPricesFromSoftwareDescriptions
 
+
 Return a collection of SoftLayer_Item_Price objects from a collection of SoftLayer_Software_Description
 
 

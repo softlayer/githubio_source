@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_SecurityGroup_Rule data type contains general information for a single rule that belongs to a [SoftLayer_Network_SecurityGroup]({{<ref "reference/datatypes/SoftLayer_Network_SecurityGroup">}}). By default, all traffic (both inbound and  outbound) to a virtual server instance is blocked. Security group rules are permissive, and define the allowed incoming (ingress) and outgoing (egress) traffic to both the public and private interfaces of a  virtual server instance. The order of rules within a security group does not matter and priority always falls to the least restrictive rule. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_SecurityGroup_Rule data type contains general information 
 [createDate]: #createdate
 #### [createDate]
 The createDate field for a rule. It is essentially the date and time that the security group rule was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The createDate field for a rule. It is essentially the date and time that the se
 [direction]: #direction
 #### [direction]
 The direction of traffic (ingress or egress).  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The direction of traffic (ingress or egress).
 [ethertype]: #ethertype
 #### [ethertype]
 IPv4 or IPv6. If the remoteIp or ethertype properties are not specified, the default is IPv4. Otherwise ethertype will default based on the format of the specified remoteIp.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ IPv4 or IPv6. If the remoteIp or ethertype properties are not specified, the def
 [id]: #id
 #### [id]
 The unique ID for a rule.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The unique ID for a rule.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The modifyDate field for a rule. It is essentially the date and time that the security group rule was last changed.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The modifyDate field for a rule. It is essentially the date and time that the se
 [portRangeMax]: #portrangemax
 #### [portRangeMax]
 The end of the port range for allowed traffic.  When the protocol is icmp, this value specifies the icmp code to permit.  When icmp code is specified, icmp type is required. When the protocol is vrrp, ports cannot be specified.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The end of the port range for allowed traffic.  When the protocol is icmp, this 
 [portRangeMin]: #portrangemin
 #### [portRangeMin]
 The start of the port range for allowed traffic.  When the protocol is icmp, this value specifies the icmp type to permit.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The start of the port range for allowed traffic.  When the protocol is icmp, thi
 [protocol]: #protocol
 #### [protocol]
 The protocol of packets (icmp, tcp, udp, or vrrp).  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The protocol of packets (icmp, tcp, udp, or vrrp).
 [remoteGroupId]: #remotegroupid
 #### [remoteGroupId]
 The ID of the remote security group allowed as part of the rule. This property is mutually exclusive with the remoteIp property.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The ID of the remote security group allowed as part of the rule. This property i
 [remoteIp]: #remoteip
 #### [remoteIp]
 CIDR or IP address for allowed connections. This property is mutually exclusive with the remoteGroupId property. When the protocol is vrrp, ports cannot be specified.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ CIDR or IP address for allowed connections. This property is mutually exclusive 
 [securityGroupId]: #securitygroupid
 #### [securityGroupId]
 The ID of the security group that owns the rule.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The ID of the security group that owns the rule.
 [remoteGroup]: #remotegroup
 #### [remoteGroup]
 The remote security group allowed as part of this rule.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The remote security group allowed as part of this rule.
 [securityGroup]: #securitygroup
 #### [securityGroup]
 The security group of this rule.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a>**  
+
 
 
 </div>

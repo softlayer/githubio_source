@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Contains user marketing consent information for Catalyst self-enrollment. 
 
 
@@ -45,7 +47,8 @@ Contains user marketing consent information for Catalyst self-enrollment.
 [marketingByEmailFlag]: #marketingbyemailflag
 #### [marketingByEmailFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Contains user marketing consent information for Catalyst self-enrollment.
 [marketingByPostalMailFlag]: #marketingbypostalmailflag
 #### [marketingByPostalMailFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Contains user marketing consent information for Catalyst self-enrollment.
 [marketingByTelephoneFlag]: #marketingbytelephoneflag
 #### [marketingByTelephoneFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ Contains user marketing consent information for Catalyst self-enrollment.
 [request]: #request
 #### [request]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Catalyst_Enrollment_Request'>SoftLayer_Catalyst_Enrollment_Request </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Catalyst_Enrollment_Request'>SoftLayer_Catalyst_Enrollment_Request </a>**  
+
 
 
 </div>

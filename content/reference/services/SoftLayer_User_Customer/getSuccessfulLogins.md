@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getSuccessfulLogins
 
+
 Retrieve a user's successful attempts to log into the SoftLayer customer portal.
 
 

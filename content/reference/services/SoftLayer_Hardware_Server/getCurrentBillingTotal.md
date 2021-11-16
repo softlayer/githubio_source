@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getCurrentBillingTotal
 
+
 Get the billing total for this instance's usage up to this point. This total includes all bandwidth charges. 
 
 

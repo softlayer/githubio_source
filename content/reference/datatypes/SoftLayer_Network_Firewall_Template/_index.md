@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Firewall_Template type contains general information for a SoftLayer network firewall template. 
 
 Firewall templates are recommend rule sets for use with SoftLayer Hardware Firewall (Dedicated).  These optimized templates are designed to balance security restriction with application availability.  The templates given may be altered to provide custom network security, or may be used as-is for basic security. At least one rule set MUST be applied for the firewall to block traffic. Use the [[SoftLayer Network Component Firewall]] service to view current rules. Use the [[SoftLayer Network Firewall Update Request]] service to submit a firewall update request. 
@@ -55,7 +57,8 @@ Firewall templates are recommend rule sets for use with SoftLayer Hardware Firew
 [id]: #id
 #### [id]
 A Firewall template's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ A Firewall template's internal identifier.
 [name]: #name
 #### [name]
 The name of the firewall rules template.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +85,8 @@ The name of the firewall rules template.
 [rules]: #rules
 #### [rules]
 The rule set that belongs to this firewall rules template.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Firewall_Template_Rule'>SoftLayer_Network_Firewall_Template_Rule[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Firewall_Template_Rule'>SoftLayer_Network_Firewall_Template_Rule[] </a>**  
+
 
 
 </div>
@@ -93,7 +98,8 @@ The rule set that belongs to this firewall rules template.
 [ruleCount]: #rulecount
 #### [ruleCount]
 A count of the rule set that belongs to this firewall rules template.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

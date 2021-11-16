@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_DirectLink_Provider presents a structure containing attributes of a Direct Link provider. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_DirectLink_Provider presents a structure containing attrib
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The SoftLayer_Network_DirectLink_Provider presents a structure containing attrib
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

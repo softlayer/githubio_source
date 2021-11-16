@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Layout_Item contains definitions for default layout items 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Layout_Item contains definitions for default layout items
 [id]: #id
 #### [id]
 The internal identifier of a layout item  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The internal identifier of a layout item
 [keyname]: #keyname
 #### [keyname]
 The unique key name of the layout item, used primarily for programmatic purposes  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique key name of the layout item, used primarily for programmatic purposes
 [layoutItemTypeId]: #layoutitemtypeid
 #### [layoutItemTypeId]
 The internal identifier of the related [SoftLayer_Layout_Item_Type]({{<ref "reference/datatypes/SoftLayer_Layout_Item_Type">}})  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The internal identifier of the related [SoftLayer_Layout_Item_Type]({{<ref "refe
 [name]: #name
 #### [name]
 The friendly name of the layout item  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The friendly name of the layout item
 [layoutItemPreferences]: #layoutitempreferences
 #### [layoutItemPreferences]
 The layout preferences assigned to this layout item  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Preference'>SoftLayer_Layout_Preference[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Preference'>SoftLayer_Layout_Preference[] </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The layout preferences assigned to this layout item
 [layoutItemType]: #layoutitemtype
 #### [layoutItemType]
 The type of the layout item object  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Item_Type'>SoftLayer_Layout_Item_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Item_Type'>SoftLayer_Layout_Item_Type </a>**  
+
 
 
 </div>
@@ -113,7 +121,8 @@ The type of the layout item object
 [layoutItemPreferenceCount]: #layoutitempreferencecount
 #### [layoutItemPreferenceCount]
 A count of the layout preferences assigned to this layout item   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

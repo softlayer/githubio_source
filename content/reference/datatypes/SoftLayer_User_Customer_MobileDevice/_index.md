@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This class represents a mobile device belonging to a user.  The device can be a phone, tablet, or possibly even some Android based net books.  The purpose is to tie just enough info with the device and the user to enable push notifications through non-softlayer entities (Google, Apple, RIM). 
 
 
@@ -45,7 +47,8 @@ This class represents a mobile device belonging to a user.  The device can be a 
 [createDate]: #createdate
 #### [createDate]
 Created date for the record.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Created date for the record.
 [displayResolutionXxY]: #displayresolutionxxy
 #### [displayResolutionXxY]
 The device resolution formatted width x height  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The device resolution formatted width x height
 [id]: #id
 #### [id]
 Record Identifier  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Record Identifier
 [mobileDeviceTypeId]: #mobiledevicetypeid
 #### [mobileDeviceTypeId]
 Device type identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Device type identifier.
 [mobileOperatingSystemId]: #mobileoperatingsystemid
 #### [mobileOperatingSystemId]
 Mobile OS identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Mobile OS identifier.
 [modelNumber]: #modelnumber
 #### [modelNumber]
 Device model number  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Device model number
 [modifyDate]: #modifydate
 #### [modifyDate]
 Last modify date for the record.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Last modify date for the record.
 [name]: #name
 #### [name]
 The name of the device the user is using.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The name of the device the user is using.
 [phoneNumber]: #phonenumber
 #### [phoneNumber]
 Device phone number  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ Device phone number
 [serialNumber]: #serialnumber
 #### [serialNumber]
 Device serial number  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ Device serial number
 [token]: #token
 #### [token]
 The token that is provided by the mobile device.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ The token that is provided by the mobile device.
 [userId]: #userid
 #### [userId]
 User Identifier  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ User Identifier
 [availablePushNotificationSubscriptions]: #availablepushnotificationsubscriptions
 #### [availablePushNotificationSubscriptions]
 Notification subscriptions available to a mobile device.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification'>SoftLayer_Notification[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification'>SoftLayer_Notification[] </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ Notification subscriptions available to a mobile device.
 [customer]: #customer
 #### [customer]
 The user this mobile device belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ The user this mobile device belongs to.
 [operatingSystem]: #operatingsystem
 #### [operatingSystem]
 The operating system this device is using  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice_OperatingSystem'>SoftLayer_User_Customer_MobileDevice_OperatingSystem </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice_OperatingSystem'>SoftLayer_User_Customer_MobileDevice_OperatingSystem </a>**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ The operating system this device is using
 [pushNotificationSubscriptions]: #pushnotificationsubscriptions
 #### [pushNotificationSubscriptions]
 Notification subscriptions attached to a mobile device.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber[] </a>**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ Notification subscriptions attached to a mobile device.
 [type]: #type
 #### [type]
 The type of device this user is using  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice_Type'>SoftLayer_User_Customer_MobileDevice_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice_Type'>SoftLayer_User_Customer_MobileDevice_Type </a>**  
+
 
 
 </div>
@@ -223,7 +242,8 @@ The type of device this user is using
 [availablePushNotificationSubscriptionCount]: #availablepushnotificationsubscriptioncount
 #### [availablePushNotificationSubscriptionCount]
 A count of notification subscriptions available to a mobile device.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -233,7 +253,8 @@ A count of notification subscriptions available to a mobile device.
 [pushNotificationSubscriptionCount]: #pushnotificationsubscriptioncount
 #### [pushNotificationSubscriptionCount]
 A count of notification subscriptions attached to a mobile device.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

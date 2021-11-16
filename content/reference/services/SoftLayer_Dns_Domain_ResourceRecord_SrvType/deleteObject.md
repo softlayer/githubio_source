@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Dns_Domain_ResourceRecord_SrvType](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType)::deleteObject
 
+
 Delete a domain's SRV record.
 
 

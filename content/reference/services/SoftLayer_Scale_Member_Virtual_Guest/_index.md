@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A guest member is a scaled guest on a scale group. It is added either automatically or manually based on group settings. It can be removed here, but is usually best removed using one of the scaling features of the group as a whole. 
 
 
@@ -42,30 +44,35 @@ A guest member is a scaled guest on a scale group. It is added either automatica
 
 #### [deleteObject](/reference/services/SoftLayer_Scale_Member_Virtual_Guest/deleteObject)
 Delete this group member. 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Scale_Member_Virtual_Guest/getObject)
 Retrieve a SoftLayer_Scale_Member_Virtual_Guest record.
+
 </div>
 
 <div class="method-row">
 
 #### [getScaleGroup](/reference/services/SoftLayer_Scale_Member_Virtual_Guest/getScaleGroup)
 Retrieve the group this member belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getVirtualGuest](/reference/services/SoftLayer_Scale_Member_Virtual_Guest/getVirtualGuest)
 Retrieve the guest for this member.
+
 </div>
 
 <div class="method-row">
 
 #### [getVirtualGuestId](/reference/services/SoftLayer_Scale_Member_Virtual_Guest/getVirtualGuestId)
 Retrieve the identifier of the guest for this member.
+
 </div>
 </div>
 

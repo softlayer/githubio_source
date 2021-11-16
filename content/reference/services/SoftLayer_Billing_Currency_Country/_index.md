@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Billing_Currency_Country service provides information about what currencies a customer in a specific country is eligible to use. 
 
 
@@ -42,12 +44,14 @@ The SoftLayer_Billing_Currency_Country service provides information about what c
 
 #### [getCountriesWithListOfEligibleCurrencies](/reference/services/SoftLayer_Billing_Currency_Country/getCountriesWithListOfEligibleCurrencies)
 Get map between countries and what currencies can be supported for customers in that country. 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Billing_Currency_Country/getObject)
 Retrieve a SoftLayer_Billing_Currency_Country record.
+
 </div>
 </div>
 

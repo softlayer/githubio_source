@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getCurrentTicketStatisticsGraph
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 (Deprecated)
 
 

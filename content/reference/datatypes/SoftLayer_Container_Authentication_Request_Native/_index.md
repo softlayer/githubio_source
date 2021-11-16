@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Authentication_Request_Native data type contains information for requests to the getPortalLogin API. This class is specific to the SoftLayer Native login (username/password). The request information will be verified to ensure it is valid, and then there will be an attempt to obtain a portal login token in authenticating the user with the provided information. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Authentication_Request_Native data type contains informa
 [auxiliaryClaimsMiniToken]: #auxiliaryclaimsminitoken
 #### [auxiliaryClaimsMiniToken]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The SoftLayer_Container_Authentication_Request_Native data type contains informa
 [password]: #password
 #### [password]
 Your SoftLayer customer portal user's portal password.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Your SoftLayer customer portal user's portal password.
 [securityQuestionAnswer]: #securityquestionanswer
 #### [securityQuestionAnswer]
 The answer to your security question.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The answer to your security question.
 [securityQuestionId]: #securityquestionid
 #### [securityQuestionId]
 A security question you wish to answer when authenticating to the SoftLayer customer portal. This parameter isn't required if no security questions are set on your portal account or if your account is configured to not require answering a security account upon login.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ A security question you wish to answer when authenticating to the SoftLayer cust
 [username]: #username
 #### [username]
 The username you wish to authenticate to the SoftLayer customer portal with.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

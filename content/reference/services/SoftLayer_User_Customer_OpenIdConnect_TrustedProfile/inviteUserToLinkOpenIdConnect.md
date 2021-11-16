@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect_TrustedProfile](/reference/services/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile)::inviteUserToLinkOpenIdConnect
 
+
 Send email invitation to a user to join a SoftLayer account and authenticate with OpenIdConnect.
 
 

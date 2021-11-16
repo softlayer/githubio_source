@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getRecentEvents
 
+
 Retrieve recent events that impact this hardware.
 
 

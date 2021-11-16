@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Workload_Citrix_Deployment_Response constructs a response object for the [SoftLayer_Workload_Citrix_Deployment]({{<ref "reference/datatypes/SoftLayer_Workload_Citrix_Deployment">}}) that includes all resources, i.e., [SoftLayer_Workload_Citrix_Deployment_Resource]({{<ref "reference/datatypes/SoftLayer_Workload_Citrix_Deployment_Resource">}}). 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Workload_Citrix_Deployment_Response constructs a response object f
 [accountId]: #accountid
 #### [accountId]
 The account ID to which the deployment belongs.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The account ID to which the deployment belongs.
 [activeDirectoryTopology]: #activedirectorytopology
 #### [activeDirectoryTopology]
 Topology used for the CVAD deployment  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Topology used for the CVAD deployment
 [createDate]: #createdate
 #### [createDate]
 The date when this deployment was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The date when this deployment was created.
 [id]: #id
 #### [id]
 ID of the CVAD deployment.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ ID of the CVAD deployment.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date when this deployment was modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The date when this deployment was modified.
 [resources]: #resources
 #### [resources]
 It is a collection of objects representing deployment resources such as VLAN, subnet, bare metal, proxy, DHCP, cloud connectors.   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Deployment_Resource_Response'>SoftLayer_Workload_Citrix_Deployment_Resource_Response[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Deployment_Resource_Response'>SoftLayer_Workload_Citrix_Deployment_Resource_Response[] </a>**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ It is a collection of objects representing deployment resources such as VLAN, su
 [type]: #type
 #### [type]
 Represents if the deployment is for Citrix Hypervisor or VMware  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Deployment_Type'>SoftLayer_Workload_Citrix_Deployment_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Deployment_Type'>SoftLayer_Workload_Citrix_Deployment_Type </a>**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Represents if the deployment is for Citrix Hypervisor or VMware
 [userRecordId]: #userrecordid
 #### [userRecordId]
 The identifier for the customer who placed the CVAD order.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The identifier for the customer who placed the CVAD order.
 [vlanId]: #vlanid
 #### [vlanId]
 VLAN ID of the deployment.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ VLAN ID of the deployment.
 [vmwareOrderId]: #vmwareorderid
 #### [vmwareOrderId]
 It is an internal identifier for the VMware solution. It gets set if the CVAD order is for VMware.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

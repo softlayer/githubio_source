@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Network_LBaaS_PolicyRule 
 
 This class contains layer 7 policy specifications and an array of associated rules An array of objects of this class must be passed to the API in order to create a policy and its associated rules. <ul> <li>The layer 7 policy object </li> <li>An array of layer 7 rules </li> </ul> 
@@ -49,7 +51,8 @@ This class contains layer 7 policy specifications and an array of associated rul
 [l7Policy]: #l7policy
 #### [l7Policy]
 L7 Policy  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Policy'>SoftLayer_Network_LBaaS_L7Policy </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Policy'>SoftLayer_Network_LBaaS_L7Policy </a>**  
+
 
 
 </div>
@@ -59,7 +62,8 @@ L7 Policy
 [l7Rules]: #l7rules
 #### [l7Rules]
 L7 Rules  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Rule'>SoftLayer_Network_LBaaS_L7Rule[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Rule'>SoftLayer_Network_LBaaS_L7Rule[] </a>**  
+
 
 
 </div>

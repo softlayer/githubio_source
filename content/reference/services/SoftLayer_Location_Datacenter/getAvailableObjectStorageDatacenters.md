@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location_Datacenter](/reference/services/SoftLayer_Location_Datacenter)::getAvailableObjectStorageDatacenters
 
+
 Get the datacenters where object storage is available
 
 

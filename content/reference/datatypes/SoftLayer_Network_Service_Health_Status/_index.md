@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Many general services that SoftLayer provides are marked by a status message. These health messages give portal users a quick way of determining the state of a SoftLayer service. Services range from backbones to VPN endpoints and routers. Generally a health status is either "Up" or "Down". 
 
 
@@ -45,7 +47,8 @@ Many general services that SoftLayer provides are marked by a status message. Th
 [name]: #name
 #### [name]
 The status of a SoftLayer service. This is typically "Up" or "Down".  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This container is used to hold information regarding a state or province. 
 
 
@@ -45,7 +47,8 @@ This container is used to hold information regarding a state or province.
 [longName]: #longname
 #### [longName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ This container is used to hold information regarding a state or province.
 [shortName]: #shortname
 #### [shortName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

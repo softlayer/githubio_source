@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::allowAccessToReplicantFromVirtualGuestList
 
+
 allow access to this volume's replica from multiple SoftLayer_Virtual_Guest objects.
 
 

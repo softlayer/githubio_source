@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getActiveComponents
 
+
 Retrieve a piece of hardware's active physical components.
 
 

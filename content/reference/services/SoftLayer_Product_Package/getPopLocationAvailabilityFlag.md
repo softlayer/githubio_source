@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getPopLocationAvailabilityFlag
 
+
 Retrieve this flag indicates if the package may be available in PoP locations in addition to Datacenters.
 
 

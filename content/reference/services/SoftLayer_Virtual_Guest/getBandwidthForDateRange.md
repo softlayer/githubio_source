@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBandwidthForDateRange
 
+
 Retrieve bandwidth data from a tracking object.
 
 

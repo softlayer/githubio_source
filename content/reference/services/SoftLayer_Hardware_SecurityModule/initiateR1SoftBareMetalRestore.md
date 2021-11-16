@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::initiateR1SoftBareMetalRestore
 
+
 Initiate an R1Soft bare metal restore for the server tied to an R1Soft CDP Server
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Currency_Country](/reference/services/SoftLayer_Billing_Currency_Country)::getObject
 
+
 Retrieve a SoftLayer_Billing_Currency_Country record.
 
 

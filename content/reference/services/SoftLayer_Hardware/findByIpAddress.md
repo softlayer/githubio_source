@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::findByIpAddress
 
+
 Find hardware by its primary public or private IP (ipv4) address.
 
 

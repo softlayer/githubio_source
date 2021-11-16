@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Retrieve attributes associated with a hardware object. 
 
 
@@ -45,7 +47,8 @@ Retrieve attributes associated with a hardware object.
 [keyname]: #keyname
 #### [keyname]
 The attribute type key name or code.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The attribute type key name or code.
 [name]: #name
 #### [name]
 The attribute type name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

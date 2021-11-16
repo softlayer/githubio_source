@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardwareWithWindows
 
+
 Retrieve all hardware associated with an account that is running a version of the Microsoft Windows operating system.
 
 

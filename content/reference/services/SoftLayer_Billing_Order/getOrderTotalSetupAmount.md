@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getOrderTotalSetupAmount
 
+
 Retrieve an order's total setup fee.
 
 

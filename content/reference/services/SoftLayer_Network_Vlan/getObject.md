@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getObject
 
+
 Retrieve a SoftLayer_Network_Vlan record.
 
 

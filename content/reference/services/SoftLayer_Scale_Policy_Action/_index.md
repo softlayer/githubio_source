@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 An action to execute when a policy is triggered. Currently only one action can be associated with a policy and it must be created with the policy. 
 
 
@@ -42,30 +44,35 @@ An action to execute when a policy is triggered. Currently only one action can b
 
 #### [deleteObject](/reference/services/SoftLayer_Scale_Policy_Action/deleteObject)
 Delete this action.
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Scale_Policy_Action/editObject)
 Edit this action.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Scale_Policy_Action/getObject)
 Retrieve a SoftLayer_Scale_Policy_Action record.
+
 </div>
 
 <div class="method-row">
 
 #### [getScalePolicy](/reference/services/SoftLayer_Scale_Policy_Action/getScalePolicy)
 Retrieve the policy this action is on.
+
 </div>
 
 <div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_Scale_Policy_Action/getType)
 Retrieve the type of action.
+
 </div>
 </div>
 

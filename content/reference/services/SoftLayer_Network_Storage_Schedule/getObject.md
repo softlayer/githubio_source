@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Schedule](/reference/services/SoftLayer_Network_Storage_Schedule)::getObject
 
+
 Retrieve a SoftLayer_Network_Storage_Schedule record.
 
 

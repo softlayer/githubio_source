@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getSoftwareDescription
 
+
 Retrieve for ordered items that are software items, a full description of that software can be found with this property. 
 
 

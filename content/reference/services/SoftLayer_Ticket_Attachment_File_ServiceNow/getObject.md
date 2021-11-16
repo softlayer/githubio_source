@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket_Attachment_File_ServiceNow](/reference/services/SoftLayer_Ticket_Attachment_File_ServiceNow)::getObject
 
+
 Retrieve a SoftLayer_Ticket_Attachment_File_ServiceNow record.
 
 

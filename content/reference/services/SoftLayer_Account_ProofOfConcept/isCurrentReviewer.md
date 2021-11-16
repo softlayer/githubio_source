@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_ProofOfConcept](/reference/services/SoftLayer_Account_ProofOfConcept)::isCurrentReviewer
 
+
 Determines if the user is one of the reviewers currently able to act
 
 

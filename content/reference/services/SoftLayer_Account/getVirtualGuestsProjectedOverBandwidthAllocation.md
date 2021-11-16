@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualGuestsProjectedOverBandwidthAllocation
 
+
 Retrieve an account's associated virtual guest objects currently over bandwidth allocation.
 
 

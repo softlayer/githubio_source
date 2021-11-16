@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer)::getScaleLoadBalancers
 
+
 Retrieve collection of scale load balancers this virtual server applies to.
 
 

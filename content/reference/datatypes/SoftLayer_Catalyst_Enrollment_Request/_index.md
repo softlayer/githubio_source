@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Contains user information for Catalyst self-enrollment. 
 
 
@@ -45,7 +47,8 @@ Contains user information for Catalyst self-enrollment.
 [address1]: #address1
 #### [address1]
 Applicant's address  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Applicant's address
 [address2]: #address2
 #### [address2]
 Additional field for extended address  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Additional field for extended address
 [affiliateId]: #affiliateid
 #### [affiliateId]
 Id of the affiliate who referred applicant's  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Id of the affiliate who referred applicant's
 [agreementCompleteFlag]: #agreementcompleteflag
 #### [agreementCompleteFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Id of the affiliate who referred applicant's
 [applyToGepFlag]: #applytogepflag
 #### [applyToGepFlag]
 Determines whether or not to also apply to the GEP program  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Determines whether or not to also apply to the GEP program
 [cardAccountNumber]: #cardaccountnumber
 #### [cardAccountNumber]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Determines whether or not to also apply to the GEP program
 [cardExpirationMonth]: #cardexpirationmonth
 #### [cardExpirationMonth]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Determines whether or not to also apply to the GEP program
 [cardExpirationYear]: #cardexpirationyear
 #### [cardExpirationYear]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ Determines whether or not to also apply to the GEP program
 [cardType]: #cardtype
 #### [cardType]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ Determines whether or not to also apply to the GEP program
 [cardVerificationNumber]: #cardverificationnumber
 #### [cardVerificationNumber]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ Determines whether or not to also apply to the GEP program
 [city]: #city
 #### [city]
 Applicant's city  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ Applicant's city
 [companyDescription]: #companydescription
 #### [companyDescription]
 Brief description of Startup's product and key differentiators  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ Brief description of Startup's product and key differentiators
 [companyName]: #companyname
 #### [companyName]
 Name of the applicant's company  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ Name of the applicant's company
 [companyTypeId]: #companytypeid
 #### [companyTypeId]
 Id of the company type which best describes applicant's company  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -185,7 +201,8 @@ Id of the company type which best describes applicant's company
 [companyUrl]: #companyurl
 #### [companyUrl]
 URL to the Startup's site  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -195,7 +212,8 @@ URL to the Startup's site
 [country]: #country
 #### [country]
 Applicant's country code  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -205,7 +223,8 @@ Applicant's country code
 [currentUserChoice]: #currentuserchoice
 #### [currentUserChoice]
 Index of answer chosen for how many current users question  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -215,7 +234,8 @@ Index of answer chosen for how many current users question
 [deviceFingerprintId]: #devicefingerprintid
 #### [deviceFingerprintId]
 Id of the fingerprint  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -225,7 +245,8 @@ Id of the fingerprint
 [email]: #email
 #### [email]
 Applicant's email address  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -235,7 +256,8 @@ Applicant's email address
 [firstName]: #firstname
 #### [firstName]
 Applicant's first name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -245,7 +267,8 @@ Applicant's first name
 [futureUserChoice]: #futureuserchoice
 #### [futureUserChoice]
 Index of answer chosen for how many future users question  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -255,7 +278,8 @@ Index of answer chosen for how many future users question
 [ibmIdUsername]: #ibmidusername
 #### [ibmIdUsername]
 Master user's IBMId username  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -265,7 +289,8 @@ Master user's IBMId username
 [incubatorName]: #incubatorname
 #### [incubatorName]
 Name of accelerator or incubator startup belongs to, if any  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -275,7 +300,8 @@ Name of accelerator or incubator startup belongs to, if any
 [investorName]: #investorname
 #### [investorName]
 Name of the investor, if any  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -285,7 +311,8 @@ Name of the investor, if any
 [lastName]: #lastname
 #### [lastName]
 Applicant's last name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -295,7 +322,8 @@ Applicant's last name
 [officePhone]: #officephone
 #### [officePhone]
 Applicant's primary phone number  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -305,7 +333,8 @@ Applicant's primary phone number
 [overFiveYearsOldFlag]: #overfiveyearsoldflag
 #### [overFiveYearsOldFlag]
 Whether or not the startup has been operating for more than five years  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -315,7 +344,8 @@ Whether or not the startup has been operating for more than five years
 [postalCode]: #postalcode
 #### [postalCode]
 Applicant's postal code  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -325,7 +355,8 @@ Applicant's postal code
 [referralCode]: #referralcode
 #### [referralCode]
 IBM referral code, if any  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -335,7 +366,8 @@ IBM referral code, if any
 [revenueOverOneMillionFlag]: #revenueoveronemillionflag
 #### [revenueOverOneMillionFlag]
 Whether or not the startup has over one million in annual revenue  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -345,7 +377,8 @@ Whether or not the startup has over one million in annual revenue
 [skipCatalystApplicationFlag]: #skipcatalystapplicationflag
 #### [skipCatalystApplicationFlag]
 Determines whether or not to apply to the Catalyst program  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -355,7 +388,8 @@ Determines whether or not to apply to the Catalyst program
 [state]: #state
 #### [state]
 Applicant's state/region code  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -365,7 +399,8 @@ Applicant's state/region code
 [vatId]: #vatid
 #### [vatId]
 Applicant's vatId, if one exists  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -381,7 +416,8 @@ Applicant's vatId, if one exists
 [affiliate]: #affiliate
 #### [affiliate]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Catalyst_Affiliate'>SoftLayer_Catalyst_Affiliate </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Catalyst_Affiliate'>SoftLayer_Catalyst_Affiliate </a>**  
+
 
 
 </div>
@@ -391,7 +427,8 @@ Applicant's vatId, if one exists
 [companyType]: #companytype
 #### [companyType]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Catalyst_Company_Type'>SoftLayer_Catalyst_Company_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Catalyst_Company_Type'>SoftLayer_Catalyst_Company_Type </a>**  
+
 
 
 </div>
@@ -401,7 +438,8 @@ Applicant's vatId, if one exists
 [marketingConsent]: #marketingconsent
 #### [marketingConsent]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Catalyst_Enrollment_Request_MarketingConsent'>SoftLayer_Catalyst_Enrollment_Request_MarketingConsent </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Catalyst_Enrollment_Request_MarketingConsent'>SoftLayer_Catalyst_Enrollment_Request_MarketingConsent </a>**  
+
 
 
 </div>

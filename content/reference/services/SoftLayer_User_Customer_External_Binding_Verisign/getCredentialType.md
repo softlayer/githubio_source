@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_External_Binding_Verisign](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign)::getCredentialType
 
+
 Retrieve the type of VeriSign credential. This can be either 'Hardware' or 'Software'.
 
 

@@ -14,6 +14,8 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_IpAddress_Global](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global)::route
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 
 
 

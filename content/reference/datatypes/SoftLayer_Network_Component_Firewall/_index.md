@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Component_Firewall data type contains general information relating to a single SoftLayer network component firewall. This is the object which ties the running rules to a specific downstream server. Use the [[SoftLayer Network Firewall Template]] service to pull SoftLayer recommended rule set templates. Use the [[SoftLayer Network Firewall Update Request]] service to submit a firewall update request. 
 
 ### External Links
@@ -59,7 +61,8 @@ The SoftLayer_Network_Component_Firewall data type contains general information 
 [guestNetworkComponentId]: #guestnetworkcomponentid
 #### [guestNetworkComponentId]
 Unique ID for the network component of the switch interface that this network component firewall is attached to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -69,7 +72,8 @@ Unique ID for the network component of the switch interface that this network co
 [id]: #id
 #### [id]
 Unique ID for the network component firewall.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -79,7 +83,8 @@ Unique ID for the network component firewall.
 [networkComponentId]: #networkcomponentid
 #### [networkComponentId]
 Unique ID for the network component of the switch interface that this network component firewall is attached to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -89,7 +94,8 @@ Unique ID for the network component of the switch interface that this network co
 [status]: #status
 #### [status]
 Current status of the network component firewall.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +111,8 @@ Current status of the network component firewall.
 [applyServerRuleSubnets]: #applyserverrulesubnets
 #### [applyServerRuleSubnets]
 The additional subnets linked to this network component firewall, that inherit rules from the host that the context slot is attached to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**  
+
 
 
 </div>
@@ -115,7 +122,8 @@ The additional subnets linked to this network component firewall, that inherit r
 [billingItem]: #billingitem
 #### [billingItem]
 The billing item for a Hardware Firewall (Dedicated).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -125,7 +133,8 @@ The billing item for a Hardware Firewall (Dedicated).
 [guestNetworkComponent]: #guestnetworkcomponent
 #### [guestNetworkComponent]
 The network component of the guest virtual server that this network component firewall belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a>**  
+
 
 
 </div>
@@ -135,7 +144,8 @@ The network component of the guest virtual server that this network component fi
 [networkComponent]: #networkcomponent
 #### [networkComponent]
 The network component of the switch interface that this network component firewall belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**  
+
 
 
 </div>
@@ -145,7 +155,8 @@ The network component of the switch interface that this network component firewa
 [networkFirewallUpdateRequest]: #networkfirewallupdaterequest
 #### [networkFirewallUpdateRequest]
 The update requests made for this firewall.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request'>SoftLayer_Network_Firewall_Update_Request[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request'>SoftLayer_Network_Firewall_Update_Request[] </a>**  
+
 
 
 </div>
@@ -155,7 +166,8 @@ The update requests made for this firewall.
 [rules]: #rules
 #### [rules]
 The currently running rule set of this network component firewall.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall_Rule'>SoftLayer_Network_Component_Firewall_Rule[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall_Rule'>SoftLayer_Network_Component_Firewall_Rule[] </a>**  
+
 
 
 </div>
@@ -165,7 +177,8 @@ The currently running rule set of this network component firewall.
 [subnets]: #subnets
 #### [subnets]
 The additional subnets linked to this network component firewall.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**  
+
 
 
 </div>
@@ -177,7 +190,8 @@ The additional subnets linked to this network component firewall.
 [applyServerRuleSubnetCount]: #applyserverrulesubnetcount
 #### [applyServerRuleSubnetCount]
 A count of the additional subnets linked to this network component firewall, that inherit rules from the host that the context slot is attached to.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -187,7 +201,8 @@ A count of the additional subnets linked to this network component firewall, tha
 [networkFirewallUpdateRequestCount]: #networkfirewallupdaterequestcount
 #### [networkFirewallUpdateRequestCount]
 A count of the update requests made for this firewall.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -197,7 +212,8 @@ A count of the update requests made for this firewall.
 [ruleCount]: #rulecount
 #### [ruleCount]
 A count of the currently running rule set of this network component firewall.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -207,7 +223,8 @@ A count of the currently running rule set of this network component firewall.
 [subnetCount]: #subnetcount
 #### [subnetCount]
 A count of the additional subnets linked to this network component firewall.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

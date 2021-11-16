@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getMonthlyVirtualGuests
 
+
 Retrieve an account's associated monthly virtual guest objects.
 
 

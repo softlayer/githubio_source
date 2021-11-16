@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Metric_Tracking_Object_Summary This container is a parent class for summarizing diverse metrics.
 
 
@@ -56,7 +58,8 @@ SoftLayer_Container_Metric_Tracking_Object_Summary This container is a parent cl
 [metricName]: #metricname
 #### [metricName]
 The name that best describes the metric being collected.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

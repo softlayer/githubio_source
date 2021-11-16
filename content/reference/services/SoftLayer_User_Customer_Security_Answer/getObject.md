@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_Security_Answer](/reference/services/SoftLayer_User_Customer_Security_Answer)::getObject
 
+
 Retrieve a SoftLayer_User_Customer_Security_Answer record.
 
 

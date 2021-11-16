@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getServerRoom
 
+
 Retrieve the server room that a guest is located at. There may be more than one server room for every data center.
 
 

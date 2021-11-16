@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Configuration_Template data type contains general information of an arbitrary resource. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Configuration_Template data type contains general information of a
 [accountId]: #accountid
 #### [accountId]
 Internal identifier of a SoftLayer account that this configuration template belongs to  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Internal identifier of a SoftLayer account that this configuration template belo
 [createDate]: #createdate
 #### [createDate]
 Created date  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Created date
 [description]: #description
 #### [description]
 Configuration template description  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Configuration template description
 [id]: #id
 #### [id]
 Internal identifier of a configuration template.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Internal identifier of a configuration template.
 [itemId]: #itemid
 #### [itemId]
 Internal identifier of a product item that this configuration template is associated with  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Internal identifier of a product item that this configuration template is associ
 [modifyDate]: #modifydate
 #### [modifyDate]
 Last modified date  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Last modified date
 [name]: #name
 #### [name]
 Configuration template name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Configuration template name
 [parentId]: #parentid
 #### [parentId]
 Internal identifier of the parent configuration template  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ Internal identifier of the parent configuration template
 [userRecordId]: #userrecordid
 #### [userRecordId]
 Internal identifier of a user that last modified this configuration template  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ Internal identifier of a user that last modified this configuration template
 [account]: #account
 #### [account]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ Internal identifier of a user that last modified this configuration template
 [configurationSections]: #configurationsections
 #### [configurationSections]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section'>SoftLayer_Configuration_Template_Section[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section'>SoftLayer_Configuration_Template_Section[] </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ Internal identifier of a user that last modified this configuration template
 [defaultValues]: #defaultvalues
 #### [defaultValues]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Value'>SoftLayer_Configuration_Template_Section_Definition_Value[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Value'>SoftLayer_Configuration_Template_Section_Definition_Value[] </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ Internal identifier of a user that last modified this configuration template
 [definitions]: #definitions
 #### [definitions]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition'>SoftLayer_Configuration_Template_Section_Definition[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition'>SoftLayer_Configuration_Template_Section_Definition[] </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ Internal identifier of a user that last modified this configuration template
 [item]: #item
 #### [item]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ Internal identifier of a user that last modified this configuration template
 [linkedSectionReferences]: #linkedsectionreferences
 #### [linkedSectionReferences]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Reference'>SoftLayer_Configuration_Template_Section_Reference </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Reference'>SoftLayer_Configuration_Template_Section_Reference </a>**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ Internal identifier of a user that last modified this configuration template
 [parent]: #parent
 #### [parent]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ Internal identifier of a user that last modified this configuration template
 [user]: #user
 #### [user]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -223,7 +242,8 @@ Internal identifier of a user that last modified this configuration template
 [configurationSectionCount]: #configurationsectioncount
 #### [configurationSectionCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -233,7 +253,8 @@ A count of
 [defaultValueCount]: #defaultvaluecount
 #### [defaultValueCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -243,7 +264,8 @@ A count of
 [definitionCount]: #definitioncount
 #### [definitionCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

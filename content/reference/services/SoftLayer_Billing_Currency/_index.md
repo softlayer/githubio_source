@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,23 +44,27 @@ classes:
 
 #### [getAllObjects](/reference/services/SoftLayer_Billing_Currency/getAllObjects)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getCurrentExchangeRate](/reference/services/SoftLayer_Billing_Currency/getCurrentExchangeRate)
 Retrieve the current exchange rate
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Billing_Currency/getObject)
 Retrieve a SoftLayer_Billing_Currency record.
+
 </div>
 
 <div class="method-row">
 
 #### [getPrice](/reference/services/SoftLayer_Billing_Currency/getPrice)
+
 
 </div>
 </div>

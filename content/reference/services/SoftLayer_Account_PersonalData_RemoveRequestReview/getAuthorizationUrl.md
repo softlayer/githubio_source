@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_PersonalData_RemoveRequestReview](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview)::getAuthorizationUrl
 
+
 Gets the redirect URL for GDPR removal review.
 
 

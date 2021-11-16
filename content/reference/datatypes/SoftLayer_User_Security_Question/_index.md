@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_User_Security_Question data type contains questions. 
 
 
@@ -50,7 +52,8 @@ The SoftLayer_User_Security_Question data type contains questions.
 [displayOrder]: #displayorder
 #### [displayOrder]
 A security question's display order.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ A security question's display order.
 [id]: #id
 #### [id]
 A security question's internal identifying number.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ A security question's internal identifying number.
 [question]: #question
 #### [question]
 A security question's question.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ A security question's question.
 [viewable]: #viewable
 #### [viewable]
 A security question's viewable flag.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

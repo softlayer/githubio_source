@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Sales_Presale_Event](/reference/services/SoftLayer_Sales_Presale_Event)::getActiveFlag
 
+
 Retrieve a flag to indicate that the presale event is currently active. A presale event is active if the current time is between the start and end dates.
 
 

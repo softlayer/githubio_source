@@ -15,6 +15,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::restoreFile
 
+
 Restore access to an individual file in a Storage account.
 
 

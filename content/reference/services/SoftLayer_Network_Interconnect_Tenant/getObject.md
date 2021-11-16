@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Interconnect_Tenant](/reference/services/SoftLayer_Network_Interconnect_Tenant)::getObject
 
+
 Retrieve a SoftLayer_Network_Interconnect_Tenant record.
 
 

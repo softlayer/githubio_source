@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::isBackendPingable
 
+
 Verifies if a guest's backend ip address is pingable.
 
 

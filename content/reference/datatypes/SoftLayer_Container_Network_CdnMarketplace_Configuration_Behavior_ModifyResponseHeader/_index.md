@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Network_CdnMarketplace_Configuration_Behavior_ModifyResponseHeader data type contains information for specific responses from the modify response header API. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Network_CdnMarketplace_Configuration_Behavior_ModifyResp
 [delimiter]: #delimiter
 #### [delimiter]
 Specifies the delimiter to be used when indicating multiple values for a header. Valid delimiter is, a <space>, , (comma), ; (semicolon), ,<space> (comma and space), or ;<space> (semicolon and space).   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Specifies the delimiter to be used when indicating multiple values for a header.
 [description]: #description
 #### [description]
 The description of modify response header.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The description of modify response header.
 [headers]: #headers
 #### [headers]
 A collection of key value pairs that specify the headers and associated values to be modified. The header name and header value must be separated by colon (:). Example: ['header1:value1','header2:Value2']   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A collection of key value pairs that specify the headers and associated values t
 [modResHeaderUniqueId]: #modresheaderuniqueid
 #### [modResHeaderUniqueId]
 The uniqueId of the modify response header to which the existing behavior belongs.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The uniqueId of the modify response header to which the existing behavior belong
 [path]: #path
 #### [path]
 The path, relative to the domain that is accessed via modify response header.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The path, relative to the domain that is accessed via modify response header.
 [type]: #type
 #### [type]
 The type of the modify response header, could be append/modify/delete. Set this to append to add a given header value to a header name set in the headerList. Set this to delete to remove a given header value from a header name set in the headerList. Set this to overwrite to match on a specified header name and replace its existing header value with a new one you specify.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The type of the modify response header, could be append/modify/delete. Set this 
 [uniqueId]: #uniqueid
 #### [uniqueId]
 The uniqueId of the mapping to which the existing behavior belongs.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

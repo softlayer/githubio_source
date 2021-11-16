@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getWindowsUpdateAvailableUpdates
 
+
 Retrieve a list of Windows updates available to a server.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The promotion web service is used to find information regarding a specific promotion using a promotion code. 
 
 
@@ -42,12 +44,14 @@ The promotion web service is used to find information regarding a specific promo
 
 #### [findByPromoCode](/reference/services/SoftLayer_Product_Promotion/findByPromoCode)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Product_Promotion/getObject)
 Retrieve a SoftLayer_Product_Promotion record.
+
 </div>
 </div>
 

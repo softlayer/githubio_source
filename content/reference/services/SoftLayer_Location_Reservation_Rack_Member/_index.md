@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,11 +44,13 @@ classes:
 
 #### [getLocation](/reference/services/SoftLayer_Location_Reservation_Rack_Member/getLocation)
 Retrieve location relation for the rack member
+
 </div>
 
 <div class="method-row">
 
 #### [getLocationReservationRack](/reference/services/SoftLayer_Location_Reservation_Rack_Member/getLocationReservationRack)
+
 
 </div>
 
@@ -54,6 +58,7 @@ Retrieve location relation for the rack member
 
 #### [getObject](/reference/services/SoftLayer_Location_Reservation_Rack_Member/getObject)
 Retrieve a SoftLayer_Location_Reservation_Rack_Member record.
+
 </div>
 </div>
 

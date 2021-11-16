@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBackendRouters
 
+
 Retrieve a guest's backend or private router.
 
 

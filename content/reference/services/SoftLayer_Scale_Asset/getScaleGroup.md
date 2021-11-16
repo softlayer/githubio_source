@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Asset](/reference/services/SoftLayer_Scale_Asset)::getScaleGroup
 
+
 Retrieve the group this asset belongs to.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNetAppActiveAccountLicenseKeys
 
+
 Get a collection of active NetApp software account license keys.
 
 

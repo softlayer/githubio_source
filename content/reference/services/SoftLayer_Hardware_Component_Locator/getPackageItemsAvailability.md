@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Component_Locator](/reference/services/SoftLayer_Hardware_Component_Locator)::getPackageItemsAvailability
 
+
 Retrieve availability of specified product package's GPUs and drives
 
 

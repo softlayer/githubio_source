@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getPackage
 
+
 Retrieve the SoftLayer_Product_Package an order item is a part of.
 
 

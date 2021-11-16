@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardwareProjectedOverBandwidthAllocation
 
+
 Retrieve an account's associated hardware objects projected to go over bandwidth allocation.
 
 

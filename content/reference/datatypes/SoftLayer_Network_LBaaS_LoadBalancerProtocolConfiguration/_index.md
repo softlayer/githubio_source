@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Network_LBaaS_LoadBalancerProtocolConfiguration specifies the protocol, port, maximum number of allowed connections and session stickiness for load balancer's front- and backend. 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Network_LBaaS_LoadBalancerProtocolConfiguration specifies the protocol
 [backendPort]: #backendport
 #### [backendPort]
 Backends port  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Backends port
 [backendProtocol]: #backendprotocol
 #### [backendProtocol]
 Backends protocol. Valid values are "TCP", "HTTP"   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Backends protocol. Valid values are "TCP", "HTTP"
 [clientTimeout]: #clienttimeout
 #### [clientTimeout]
 maximum idle time in seconds(Range: 1 to 7200), after which the load balancer brings down the client-side connection  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ maximum idle time in seconds(Range: 1 to 7200), after which the load balancer br
 [frontendPort]: #frontendport
 #### [frontendPort]
 Frontends port  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Frontends port
 [frontendProtocol]: #frontendprotocol
 #### [frontendProtocol]
 Frontends protocol. Valid values are "TCP", "HTTP" and "HTTPS"   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Frontends protocol. Valid values are "TCP", "HTTP" and "HTTPS"
 [listenerUuid]: #listeneruuid
 #### [listenerUuid]
 Listeners UUID, required for update only  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Listeners UUID, required for update only
 [loadBalancingMethod]: #loadbalancingmethod
 #### [loadBalancingMethod]
 Load balancing method. Valid values are "ROUNDROBIN", "WEIGHTED_RR" and "LEASTCONNECTION"   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Load balancing method. Valid values are "ROUNDROBIN", "WEIGHTED_RR" and "LEASTCO
 [maxConn]: #maxconn
 #### [maxConn]
 Maximum number of allowed connections  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ Maximum number of allowed connections
 [serverTimeout]: #servertimeout
 #### [serverTimeout]
 maximum idle time in seconds(Range: 1 to 7200), after which the load balancer brings down the server-side connection  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ maximum idle time in seconds(Range: 1 to 7200), after which the load balancer br
 [sessionCookieName]: #sessioncookiename
 #### [sessionCookieName]
 Sessions cookie name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ Sessions cookie name
 [sessionType]: #sessiontype
 #### [sessionType]
 Session stickiness type. Valid values are "SOURCE_IP" "HTTP_COOKIE"  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ Session stickiness type. Valid values are "SOURCE_IP" "HTTP_COOKIE"
 [tlsCertificateId]: #tlscertificateid
 #### [tlsCertificateId]
 ssl/tls certificate id  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

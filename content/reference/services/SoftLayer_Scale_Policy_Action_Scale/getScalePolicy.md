@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Policy_Action_Scale](/reference/services/SoftLayer_Scale_Policy_Action_Scale)::getScalePolicy
 
+
 Retrieve the policy this action is on.
 
 

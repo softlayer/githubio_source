@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [accountId]: #accountid
 #### [accountId]
 Account ID associated with this enrollment  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Account ID associated with this enrollment
 [affiliateId]: #affiliateid
 #### [affiliateId]
 ID of the corresponding Flexible Credit Program Affiliate  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ ID of the corresponding Flexible Credit Program Affiliate
 [agreementCompleteFlag]: #agreementcompleteflag
 #### [agreementCompleteFlag]
 Indicates signing of Flexible Credit agreement (independent from MSA)  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Indicates signing of Flexible Credit agreement (independent from MSA)
 [companyDescription]: #companydescription
 #### [companyDescription]
 Brief description of the company  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Brief description of the company
 [companyTypeId]: #companytypeid
 #### [companyTypeId]
 ID of the Flexible Credit Program Company classification for this enrollment  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ ID of the Flexible Credit Program Company classification for this enrollment
 [enrollmentDate]: #enrollmentdate
 #### [enrollmentDate]
 Date when participation in the Flexible Credit program began  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Date when participation in the Flexible Credit program began
 [graduationDate]: #graduationdate
 #### [graduationDate]
 Date Flexible Credit Program benefits end.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Date Flexible Credit Program benefits end.
 [monthlyCreditAmount]: #monthlycreditamount
 #### [monthlyCreditAmount]
 Amount of monthly credit (USD) given to the account  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ Amount of monthly credit (USD) given to the account
 [representativeEmployeeId]: #representativeemployeeid
 #### [representativeEmployeeId]
 ID of the employee representing this account.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ ID of the employee representing this account.
 [account]: #account
 #### [account]
 Account the enrollment belongs to  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ Account the enrollment belongs to
 [affiliate]: #affiliate
 #### [affiliate]
 Affiliate associated with the account enrollment  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_FlexibleCredit_Affiliate'>SoftLayer_FlexibleCredit_Affiliate </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_FlexibleCredit_Affiliate'>SoftLayer_FlexibleCredit_Affiliate </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ Affiliate associated with the account enrollment
 [companyType]: #companytype
 #### [companyType]
 Category which best describes the company  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_FlexibleCredit_Company_Type'>SoftLayer_FlexibleCredit_Company_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_FlexibleCredit_Company_Type'>SoftLayer_FlexibleCredit_Company_Type </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ Category which best describes the company
 [flexibleCreditProgram]: #flexiblecreditprogram
 #### [flexibleCreditProgram]
 Discount program the enrollment belongs to  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_FlexibleCredit_Program'>SoftLayer_FlexibleCredit_Program </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_FlexibleCredit_Program'>SoftLayer_FlexibleCredit_Program </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ Discount program the enrollment belongs to
 [isActiveFlag]: #isactiveflag
 #### [isActiveFlag]
 Flag indicating whether an enrollment is active (true) or inactive (false)  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ Flag indicating whether an enrollment is active (true) or inactive (false)
 [representative]: #representative
 #### [representative]
 Employee overseeing the enrollment  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**  
+
 
 
 </div>

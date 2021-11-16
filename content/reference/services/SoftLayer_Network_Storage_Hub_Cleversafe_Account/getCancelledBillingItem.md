@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Hub_Cleversafe_Account](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account)::getCancelledBillingItem
 
+
 Retrieve an associated parent billing item which has been cancelled.
 
 

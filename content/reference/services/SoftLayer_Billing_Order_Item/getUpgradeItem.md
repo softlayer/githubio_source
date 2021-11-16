@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getUpgradeItem
 
+
 Retrieve the next SoftLayer_Product_Item in the upgrade path for this order item.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Schedule](/reference/services/SoftLayer_Network_Storage_Schedule)::getPartnership
 
+
 Retrieve the associated partnership for a schedule.
 
 

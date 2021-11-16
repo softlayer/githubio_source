@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Security_Certificate_Request](/reference/services/SoftLayer_Security_Certificate_Request)::getPreviousOrderData
 
+
 Returns previous SSL certificate order data.
 
 

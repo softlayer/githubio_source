@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getBillableChildren
 
+
 Retrieve a billing item's recurring child items that have once been billed and are scheduled to be billed in the future.
 
 

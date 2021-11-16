@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getFileCount
 
+
 Retrieve the file number of files in a Virtual Server Storage account's root directory.
 
 

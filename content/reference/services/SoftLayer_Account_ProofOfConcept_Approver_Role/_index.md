@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This class represents a Proof of Concept account approver role. The current roles are Primary and Backup approvers. 
 
 
@@ -42,6 +44,7 @@ This class represents a Proof of Concept account approver role. The current role
 
 #### [getObject](/reference/services/SoftLayer_Account_ProofOfConcept_Approver_Role/getObject)
 Retrieve a SoftLayer_Account_ProofOfConcept_Approver_Role record.
+
 </div>
 </div>
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getFutureBillingItem
 
+
 Retrieve information regarding the future billing item for a server.
 
 

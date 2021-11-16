@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 Returns true if no mismatch is found, gateway is not Juniper vSRX or SA gateway 
 

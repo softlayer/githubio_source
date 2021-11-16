@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_SecurityGroup](/reference/services/SoftLayer_Network_SecurityGroup)::getOrderBindings
 
+
 Retrieve the order bindings for this security group
 
 

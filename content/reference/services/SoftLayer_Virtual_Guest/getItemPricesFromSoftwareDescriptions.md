@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getItemPricesFromSoftwareDescriptions
 
+
 Return a collection of SoftLayer_Item_Price objects from a collection of SoftLayer_Software_Description
 
 

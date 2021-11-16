@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_SecurityGroup](/reference/services/SoftLayer_Network_SecurityGroup)::getObject
 
+
 Retrieve a SoftLayer_Network_SecurityGroup record.
 
 

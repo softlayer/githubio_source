@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The invoice tax status data type models a single status or state that an invoice can reflect in regard to an integration with a third-party tax calculation service. 
 
 
@@ -45,7 +47,8 @@ The invoice tax status data type models a single status or state that an invoice
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The invoice tax status data type models a single status or state that an invoice
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The invoice tax status data type models a single status or state that an invoice
 [keyName]: #keyname
 #### [keyName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The invoice tax status data type models a single status or state that an invoice
 [modifyDate]: #modifydate
 #### [modifyDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The invoice tax status data type models a single status or state that an invoice
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

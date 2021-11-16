@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getHasAcknowledgedSupportPolicyFlag
 
+
 Retrieve whether or not a user has acknowledged the support policy.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Currency](/reference/services/SoftLayer_Billing_Currency)::getCurrentExchangeRate
 
+
 Retrieve the current exchange rate
 
 

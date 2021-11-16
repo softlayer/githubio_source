@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Quote](/reference/services/SoftLayer_Billing_Order_Quote)::withdrawGdprAcceptance
 
+
 Withdraws the users acceptance of the GDPR terms.
 
 

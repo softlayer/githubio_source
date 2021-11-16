@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Configuration section type 
 
 
@@ -42,6 +44,7 @@ Configuration section type
 
 #### [getObject](/reference/services/SoftLayer_Configuration_Template_Section_Type/getObject)
 Retrieve a SoftLayer_Configuration_Template_Section_Type record.
+
 </div>
 </div>
 

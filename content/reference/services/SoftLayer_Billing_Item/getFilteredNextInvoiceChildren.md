@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getFilteredNextInvoiceChildren
 
+
 Retrieve a Billing Item's associated child billing items, excluding some items with a $0.00 recurring fee.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Notification_Mobile](/reference/services/SoftLayer_Notification_Mobile)::getRequiredPreferences
 
+
 Retrieve the required preferences related to the notification. While configurable, the subscriber does not have the option whether to use the preference.
 
 

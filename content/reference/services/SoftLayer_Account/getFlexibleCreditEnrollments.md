@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getFlexibleCreditEnrollments
 
+
 Retrieve all of the account's current and former Flexible Credit enrollments.
 
 

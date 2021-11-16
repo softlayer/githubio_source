@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This container class holds information on a media file such as file name, codec, frame rate and so on 
 
 
@@ -55,7 +57,8 @@ This container class holds information on a media file such as file name, codec,
 [audioBitRate]: #audiobitrate
 #### [audioBitRate]
 The audio bit rate  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ The audio bit rate
 [audioChannelMode]: #audiochannelmode
 #### [audioChannelMode]
 The audio channel mode  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +79,8 @@ The audio channel mode
 [audioChannels]: #audiochannels
 #### [audioChannels]
 The number of audio channels  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +90,8 @@ The number of audio channels
 [audioCodec]: #audiocodec
 #### [audioCodec]
 The audio codec name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +101,8 @@ The audio codec name
 [audioSampleRate]: #audiosamplerate
 #### [audioSampleRate]
 The audio sample rate  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +112,8 @@ The audio sample rate
 [duration]: #duration
 #### [duration]
 The duration of a media  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -115,7 +123,8 @@ The duration of a media
 [errorMessage]: #errormessage
 #### [errorMessage]
 The error message if any.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +134,8 @@ The error message if any.
 [file]: #file
 #### [file]
 The name of a media file  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +145,8 @@ The name of a media file
 [fileFormat]: #fileformat
 #### [fileFormat]
 The file format  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +156,8 @@ The file format
 [fileSize]: #filesize
 #### [fileSize]
 The size of a media file in byte  
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -155,7 +167,8 @@ The size of a media file in byte
 [frameRate]: #framerate
 #### [frameRate]
 The frame rate  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -165,7 +178,8 @@ The frame rate
 [sizeX]: #sizex
 #### [sizeX]
 The width of a media in pixel  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -175,7 +189,8 @@ The width of a media in pixel
 [sizeY]: #sizey
 #### [sizeY]
 The height of a media in pixel  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -185,7 +200,8 @@ The height of a media in pixel
 [totalFrames]: #totalframes
 #### [totalFrames]
 The total of frames  
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -195,7 +211,8 @@ The total of frames
 [videoAspectX]: #videoaspectx
 #### [videoAspectX]
 The width in a video's width to height aspect ratio  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -205,7 +222,8 @@ The width in a video's width to height aspect ratio
 [videoAspectY]: #videoaspecty
 #### [videoAspectY]
 The height in a video's width to height aspect ratio  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -215,7 +233,8 @@ The height in a video's width to height aspect ratio
 [videoCodec]: #videocodec
 #### [videoCodec]
 The video codec name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

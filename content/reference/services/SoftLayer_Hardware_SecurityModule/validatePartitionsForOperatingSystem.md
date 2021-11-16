@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::validatePartitionsForOperatingSystem
 
+
 Validates a collection of partitions for an operating system
 
 

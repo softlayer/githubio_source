@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Media_Data_Transfer_Request](/reference/services/SoftLayer_Account_Media_Data_Transfer_Request)::getObject
 
+
 Retrieve a SoftLayer_Account_Media_Data_Transfer_Request record.
 
 

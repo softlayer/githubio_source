@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Provisioning_Maintenance_Slots service returns available maintenance slots at SoftLayer data centers. 
 
 
@@ -42,6 +44,7 @@ The SoftLayer_Provisioning_Maintenance_Slots service returns available maintenan
 
 #### [getObject](/reference/services/SoftLayer_Provisioning_Maintenance_Slots/getObject)
 Retrieve a SoftLayer_Provisioning_Maintenance_Slots record.
+
 </div>
 </div>
 

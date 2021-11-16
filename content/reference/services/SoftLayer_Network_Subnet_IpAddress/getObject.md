@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::getObject
 
+
 Retrieve a SoftLayer_Network_Subnet_IpAddress record.
 
 

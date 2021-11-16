@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Configuration_Template_Section](/reference/services/SoftLayer_Configuration_Template_Section)::hasSubSections
 
+
 Check if object has sub-sections
 
 

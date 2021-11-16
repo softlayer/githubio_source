@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Container classed used to hold mobile portal token 
 
 
@@ -45,7 +47,8 @@ Container classed used to hold mobile portal token
 [hasExternalBinding]: #hasexternalbinding
 #### [hasExternalBinding]
 True if this user login required an external binding.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ True if this user login required an external binding.
 [hash]: #hash
 #### [hash]
 hash of logged in user session id  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ hash of logged in user session id
 [user]: #user
 #### [user]
 the logged in user data  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ the logged in user data
 [userId]: #userid
 #### [userId]
 the id of the logged in user  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getActiveServerItems
 
+
 Retrieve a collection of valid server items available for purchase in this package.
 
 

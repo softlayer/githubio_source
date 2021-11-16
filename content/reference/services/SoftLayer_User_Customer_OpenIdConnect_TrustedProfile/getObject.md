@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect_TrustedProfile](/reference/services/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile)::getObject
 
+
 Retrieve a SoftLayer_User_Customer_OpenIdConnect_TrustedProfile record.
 
 

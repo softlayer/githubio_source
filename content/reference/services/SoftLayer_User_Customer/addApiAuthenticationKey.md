@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::addApiAuthenticationKey
 
+
 Create a user's API authentication key.
 
 

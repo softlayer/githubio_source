@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::createReverseDomainRecords
 
+
 Create the default PTR records for this subnet
 
 

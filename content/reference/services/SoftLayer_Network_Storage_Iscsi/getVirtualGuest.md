@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getVirtualGuest
 
+
 Retrieve when applicable, the virtual guest associated with a Storage service.
 
 

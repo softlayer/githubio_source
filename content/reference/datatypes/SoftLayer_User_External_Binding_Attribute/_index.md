@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_User_External_Binding_Attribute data type contains the value for a single attribute associated with an external binding. External binding attributes contain additional information about an external binding.  An attribute can be generic or specific to a 3rd party vendor.  For example these attributes relate to Verisign: 
 *Credential Type
 *Credential State
@@ -49,7 +51,8 @@ The SoftLayer_User_External_Binding_Attribute data type contains the value for a
 [value]: #value
 #### [value]
 The value of an external binding attribute.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ The value of an external binding attribute.
 [externalBinding]: #externalbinding
 #### [externalBinding]
 The external authentication binding an attribute belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_External_Binding'>SoftLayer_User_External_Binding </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_External_Binding'>SoftLayer_User_External_Binding </a>**  
+
 
 
 </div>

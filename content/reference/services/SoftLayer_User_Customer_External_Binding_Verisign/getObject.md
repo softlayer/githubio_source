@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_External_Binding_Verisign](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign)::getObject
 
+
 Retrieve a SoftLayer_User_Customer_External_Binding_Verisign record.
 
 

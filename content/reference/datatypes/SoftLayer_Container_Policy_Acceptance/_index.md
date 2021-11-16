@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Represents the acceptance status of a Policy.
 
 
@@ -45,7 +47,8 @@ Represents the acceptance status of a Policy.
 [acceptedFlag]: #acceptedflag
 #### [acceptedFlag]
 Flag to indicate if a policy has been previously accepted.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Flag to indicate if a policy has been previously accepted.
 [policyName]: #policyname
 #### [policyName]
 Name of the policy for which we are representing it's acceptance status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Name of the policy for which we are representing it's acceptance status.
 [productPolicyAssignmentId]: #productpolicyassignmentid
 #### [productPolicyAssignmentId]
 ID of the [SoftLayer_Product_Item_Policy_Assignment]({{<ref "reference/datatypes/SoftLayer_Product_Item_Policy_Assignment">}}).  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

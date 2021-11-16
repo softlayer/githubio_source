@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Preferences are settings that can be modified to change the behavior of the subscription.  For example, modify the limit preference to only receive notifications 10 times instead of 1 during a billing cycle. 
 
 NOTE: Some preferences have certain restrictions on values that can be set. 
@@ -52,7 +54,8 @@ NOTE: Some preferences have certain restrictions on values that can be set.
 [id]: #id
 #### [id]
 Unique identifier for the subscriber's preferences.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -62,7 +65,8 @@ Unique identifier for the subscriber's preferences.
 [notificationPreferenceId]: #notificationpreferenceid
 #### [notificationPreferenceId]
 Unique identifier of the default preference for which the subscriber preference is based on.  For example, if no preferences are supplied during the creation of a subscriber.  The default values are pulled using this property.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -72,7 +76,8 @@ Unique identifier of the default preference for which the subscriber preference 
 [notificationUserSubscriberId]: #notificationusersubscriberid
 #### [notificationUserSubscriberId]
 Unique identifier of the subscriber tied to the subscriber preference.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -82,7 +87,8 @@ Unique identifier of the subscriber tied to the subscriber preference.
 [value]: #value
 #### [value]
 The user supplied value to "override" the "default" preference's value.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -98,7 +104,8 @@ The user supplied value to "override" the "default" preference's value.
 [defaultPreference]: #defaultpreference
 #### [defaultPreference]
 Details such name, keyname, minimum and maximum values for the preference.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference </a>**  
+
 
 
 </div>
@@ -108,7 +115,8 @@ Details such name, keyname, minimum and maximum values for the preference.
 [notificationUserSubscriber]: #notificationusersubscriber
 #### [notificationUserSubscriber]
 Details of the subscriber tied to the preference.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber </a>**  
+
 
 
 </div>

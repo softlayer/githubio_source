@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getCustomerInstalledOperatingSystemFlag
 
+
 Retrieve indicates if a server has a Customer Installed OS
 
 

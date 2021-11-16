@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Internal_Ibm](/reference/services/SoftLayer_Account_Internal_Ibm)::managerDeny
 
+
 Applies manager denial to a pending request
 
 

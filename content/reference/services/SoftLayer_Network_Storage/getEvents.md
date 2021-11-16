@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getEvents
 
+
 Retrieve the events which have taken place on a network storage volume.
 
 

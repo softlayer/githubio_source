@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The item rule resource data type represents a resource that is part of an item rule. The item rule resource is used when its item rule is checked on an order. 
 
 
@@ -45,7 +47,8 @@ The item rule resource data type represents a resource that is part of an item r
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The item rule resource data type represents a resource that is part of an item r
 [resourceTableId]: #resourcetableid
 #### [resourceTableId]
 The unique identifier of the resource.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique identifier of the resource.
 [ruleId]: #ruleid
 #### [ruleId]
 The unique identifier of the rule this resource is included in.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The unique identifier of the rule this resource is included in.
 [rule]: #rule
 #### [rule]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule'>SoftLayer_Product_Item_Rule </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule'>SoftLayer_Product_Item_Rule </a>**  
+
 
 
 </div>

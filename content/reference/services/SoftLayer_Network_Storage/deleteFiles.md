@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::deleteFiles
 
+
 Delete multiple files within a Storage account.
 
 

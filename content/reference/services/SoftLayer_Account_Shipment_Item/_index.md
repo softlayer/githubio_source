@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer's shipment item service allows the user to access information pertaining to a shipment's item from the user to SoftLayer or from SoftLayer to the user. 
 
 
@@ -42,24 +44,28 @@ SoftLayer's shipment item service allows the user to access information pertaini
 
 #### [editObject](/reference/services/SoftLayer_Account_Shipment_Item/editObject)
 Edit a shipment record.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Account_Shipment_Item/getObject)
 Retrieve a SoftLayer_Account_Shipment_Item record.
+
 </div>
 
 <div class="method-row">
 
 #### [getShipment](/reference/services/SoftLayer_Account_Shipment_Item/getShipment)
 Retrieve the shipment to which this item belongs.
+
 </div>
 
 <div class="method-row">
 
 #### [getShipmentItemType](/reference/services/SoftLayer_Account_Shipment_Item/getShipmentItemType)
 Retrieve the type of this shipment item.
+
 </div>
 </div>
 

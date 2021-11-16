@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::removeAccessFromVirtualGuest
 
+
 Remove access to this volume from a specified SoftLayer_Virtual_Guest object.
 
 

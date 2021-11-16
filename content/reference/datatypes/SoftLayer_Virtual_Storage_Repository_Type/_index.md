@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer employs many different types of repositories that computing instances use as their storage volume. SoftLayer_Virtual_Storage_Repository_Type models a single storage type. Common types of storage repositories include networked file systems, logical volume management, and local disk volumes for swap and page file management. 
 
 
@@ -45,7 +47,8 @@ SoftLayer employs many different types of repositories that computing instances 
 [description]: #description
 #### [description]
 A brief description os a storage repository type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A brief description os a storage repository type.
 [name]: #name
 #### [name]
 A storage repository type's name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ A storage repository type's name.
 [storageRepositories]: #storagerepositories
 #### [storageRepositories]
 The storage repositories on a SoftLayer customer account that belong to this type.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository'>SoftLayer_Virtual_Storage_Repository[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository'>SoftLayer_Virtual_Storage_Repository[] </a>**  
+
 
 
 </div>
@@ -83,7 +88,8 @@ The storage repositories on a SoftLayer customer account that belong to this typ
 [storageRepositoryCount]: #storagerepositorycount
 #### [storageRepositoryCount]
 A count of the storage repositories on a SoftLayer customer account that belong to this type.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

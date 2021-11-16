@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getPreviousCyclePeakUsage
 
+
 Retrieve peak number of bytes used in the vault for the previous billing cycle.
 
 

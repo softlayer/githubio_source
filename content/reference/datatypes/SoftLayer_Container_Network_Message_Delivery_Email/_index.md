@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This datatype is deprecated and will be removed in API version 3.2.
 
 
@@ -45,7 +47,8 @@ This datatype is deprecated and will be removed in API version 3.2.
 [body]: #body
 #### [body]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ This datatype is deprecated and will be removed in API version 3.2.
 [containsHtml]: #containshtml
 #### [containsHtml]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ This datatype is deprecated and will be removed in API version 3.2.
 [from]: #from
 #### [from]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ This datatype is deprecated and will be removed in API version 3.2.
 [subject]: #subject
 #### [subject]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ This datatype is deprecated and will be removed in API version 3.2.
 [to]: #to
 #### [to]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

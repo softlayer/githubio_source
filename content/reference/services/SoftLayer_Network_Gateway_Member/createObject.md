@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Gateway_Member](/reference/services/SoftLayer_Network_Gateway_Member)::createObject
 
+
 Add a member to a gateway
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getActiveFlexibleCreditEnrollment
 
+
 Retrieve [Deprecated] Please use SoftLayer_Account::activeFlexibleCreditEnrollments.
 
 

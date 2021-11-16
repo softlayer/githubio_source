@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Event_Log data type contains an event detail occurred upon various SoftLayer resources. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Event_Log data type contains an event detail occurred upon various
 [accountId]: #accountid
 #### [accountId]
 Account id with which the event is associated   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Account id with which the event is associated
 [eventCreateDate]: #eventcreatedate
 #### [eventCreateDate]
 Event creation date in millisecond precision   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Event creation date in millisecond precision
 [eventName]: #eventname
 #### [eventName]
 Event name such as "reboot", "cancel", "update host" and so on.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Event name such as "reboot", "cancel", "update host" and so on.
 [ipAddress]: #ipaddress
 #### [ipAddress]
 The remote IP Address that made the request   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The remote IP Address that made the request
 [label]: #label
 #### [label]
 Label or description of the event object   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Label or description of the event object
 [metaData]: #metadata
 #### [metaData]
 Meta data for an event in JSON string   
-<span class="type-label">Type: </span>**JSON string**
+<span class="type-label">Type: </span>**JSON string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Meta data for an event in JSON string
 [objectId]: #objectid
 #### [objectId]
 Event object id   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Event object id
 [objectName]: #objectname
 #### [objectName]
 Event object name such as "server", "dns" and so on.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ Event object name such as "server", "dns" and so on.
 [openIdConnectUserName]: #openidconnectusername
 #### [openIdConnectUserName]
 OpenIdConnectUserName of the customer who initiated the event   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ OpenIdConnectUserName of the customer who initiated the event
 [resource]: #resource
 #### [resource]
 A resource object that is associated with the event  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a>**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ A resource object that is associated with the event
 [traceId]: #traceid
 #### [traceId]
 A unique trace id. Multiple event can be grouped by a trace id.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ A unique trace id. Multiple event can be grouped by a trace id.
 [userId]: #userid
 #### [userId]
 Id of customer who initiated the event   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ Id of customer who initiated the event
 [userType]: #usertype
 #### [userType]
 Type of user that triggered the event. User type can be CUSTOMER, EMPLOYEE or SYSTEM.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ Type of user that triggered the event. User type can be CUSTOMER, EMPLOYEE or SY
 [username]: #username
 #### [username]
 Customer username who initiated the event   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ Customer username who initiated the event
 [user]: #user
 #### [user]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>

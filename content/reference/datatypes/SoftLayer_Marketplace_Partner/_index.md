@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [accountId]: #accountid
 #### [accountId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [attachedFiles]: #attachedfiles
 #### [attachedFiles]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment[] </a>**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [companyDescription]: #companydescription
 #### [companyDescription]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [companyName]: #companyname
 #### [companyName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ classes:
 [headlineDescription]: #headlinedescription
 #### [headlineDescription]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ classes:
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ classes:
 [linkFreeTrial]: #linkfreetrial
 #### [linkFreeTrial]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ classes:
 [linkOrderPage]: #linkorderpage
 #### [linkOrderPage]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ classes:
 [linkWebsite]: #linkwebsite
 #### [linkWebsite]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ classes:
 [metaDescription]: #metadescription
 #### [metaDescription]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ classes:
 [metaKeywords]: #metakeywords
 #### [metaKeywords]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ classes:
 [productBenefits]: #productbenefits
 #### [productBenefits]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ classes:
 [productCategoryId]: #productcategoryid
 #### [productCategoryId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ classes:
 [productDescriptionLong]: #productdescriptionlong
 #### [productDescriptionLong]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -185,7 +201,8 @@ classes:
 [productDescriptionShort]: #productdescriptionshort
 #### [productDescriptionShort]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -195,7 +212,8 @@ classes:
 [productFeatures]: #productfeatures
 #### [productFeatures]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -205,7 +223,8 @@ classes:
 [productName]: #productname
 #### [productName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -215,7 +234,8 @@ classes:
 [productTitle]: #producttitle
 #### [productTitle]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -225,7 +245,8 @@ classes:
 [urlIdentifier]: #urlidentifier
 #### [urlIdentifier]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -241,7 +262,8 @@ classes:
 [attachments]: #attachments
 #### [attachments]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment[] </a>**  
+
 
 
 </div>
@@ -251,7 +273,8 @@ classes:
 [logoMedium]: #logomedium
 #### [logoMedium]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment </a>**  
+
 
 
 </div>
@@ -261,7 +284,8 @@ classes:
 [logoMediumTemp]: #logomediumtemp
 #### [logoMediumTemp]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment </a>**  
+
 
 
 </div>
@@ -271,7 +295,8 @@ classes:
 [logoSmall]: #logosmall
 #### [logoSmall]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment </a>**  
+
 
 
 </div>
@@ -281,7 +306,8 @@ classes:
 [logoSmallTemp]: #logosmalltemp
 #### [logoSmallTemp]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment'>SoftLayer_Marketplace_Partner_Attachment </a>**  
+
 
 
 </div>
@@ -293,7 +319,8 @@ classes:
 [attachmentCount]: #attachmentcount
 #### [attachmentCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

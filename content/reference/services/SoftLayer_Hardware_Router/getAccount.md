@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getAccount
 
+
 Retrieve the account associated with a piece of hardware.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Policy_Trigger_ResourceUse](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse)::getWatches
 
+
 Retrieve the resource watches for this trigger.
 
 

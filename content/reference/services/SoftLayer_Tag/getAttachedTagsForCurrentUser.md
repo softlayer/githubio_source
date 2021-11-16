@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Tag](/reference/services/SoftLayer_Tag)::getAttachedTagsForCurrentUser
 
+
 Get the tags attached to references.
 
 

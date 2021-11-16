@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Layout_Preference_Type contains definitions for preference types 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Layout_Preference_Type contains definitions for preference types
 [id]: #id
 #### [id]
 The internal identifier of the item type  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The internal identifier of the item type
 [keyname]: #keyname
 #### [keyname]
 The unique key name of the item type, used primarily for programmatic purposes  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique key name of the item type, used primarily for programmatic purposes
 [name]: #name
 #### [name]
 The friendly name of the item type  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The friendly name of the item type
 [valueExpression]: #valueexpression
 #### [valueExpression]
 A regular expression used to validate the related [SoftLayer_Layout_Preference]({{<ref "reference/datatypes/SoftLayer_Layout_Preference">}})  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

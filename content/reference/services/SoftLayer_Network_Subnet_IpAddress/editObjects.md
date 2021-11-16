@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::editObjects
 
+
 Edit multiple objects by passing in modified instances of the object.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getPrivateNetworkOnlyFlag
 
+
 Retrieve whether the computing instance only has access to the private network.
 
 

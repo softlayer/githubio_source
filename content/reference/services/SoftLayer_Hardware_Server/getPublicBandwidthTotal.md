@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getPublicBandwidthTotal
 
+
 Retrieve total number of public bytes used by a server over time period specified.
 
 

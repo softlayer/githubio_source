@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Member](/reference/services/SoftLayer_Scale_Member)::getScaleGroup
 
+
 Retrieve the group this member belongs to.
 
 

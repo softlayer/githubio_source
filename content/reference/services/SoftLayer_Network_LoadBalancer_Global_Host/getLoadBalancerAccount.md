@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_LoadBalancer_Global_Host](/reference/services/SoftLayer_Network_LoadBalancer_Global_Host)::getLoadBalancerAccount
 
+
 Retrieve the global load balancer account a host belongs to.
 
 

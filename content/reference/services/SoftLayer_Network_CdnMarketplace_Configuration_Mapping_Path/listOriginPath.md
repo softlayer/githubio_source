@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path)::listOriginPath
 
+
 SOAP API will list origin path for an existing mapping and for a particular customer. 
 
 

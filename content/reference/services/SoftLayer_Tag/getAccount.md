@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Tag](/reference/services/SoftLayer_Tag)::getAccount
 
+
 Retrieve the account to which the tag is tied.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getTopLevelItemCategoryCode
 
+
 Retrieve the top level category code for this service offering.
 
 

@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [endDate]: #enddate
 #### [endDate]
 When this event will end.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ When this event will end.
 [id]: #id
 #### [id]
 Unique identifier for this event.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Unique identifier for this event.
 [lastImpactedUserCount]: #lastimpactedusercount
 #### [lastImpactedUserCount]
 Latest count of users impacted by this event.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Latest count of users impacted by this event.
 [modifyDate]: #modifydate
 #### [modifyDate]
 When this event was last updated.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ When this event was last updated.
 [recoveryTime]: #recoverytime
 #### [recoveryTime]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ When this event was last updated.
 [startDate]: #startdate
 #### [startDate]
 When this event started.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ When this event started.
 [subject]: #subject
 #### [subject]
 Brief description of this event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Brief description of this event.
 [summary]: #summary
 #### [summary]
 Details of this event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ Details of this event.
 [systemTicketId]: #systemticketid
 #### [systemTicketId]
 Unique identifier for the [SoftLayer_Ticket]({{<ref "reference/datatypes/SoftLayer_Ticket">}}) associated with this event.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ Unique identifier for the [SoftLayer_Ticket]({{<ref "reference/datatypes/SoftLay
 [acknowledgedFlag]: #acknowledgedflag
 #### [acknowledgedFlag]
 Indicates whether or not this event has been acknowledged by the user.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ Indicates whether or not this event has been acknowledged by the user.
 [attachments]: #attachments
 #### [attachments]
 A collection of attachments for this event which provide supplementary information to impacted users some examples are RFO (Reason For Outage) and root cause analysis documents.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event_Attachment'>SoftLayer_Notification_Occurrence_Event_Attachment[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event_Attachment'>SoftLayer_Notification_Occurrence_Event_Attachment[] </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ A collection of attachments for this event which provide supplementary informati
 [firstUpdate]: #firstupdate
 #### [firstUpdate]
 The first update for this event.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Update'>SoftLayer_Notification_Occurrence_Update </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Update'>SoftLayer_Notification_Occurrence_Update </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The first update for this event.
 [impactedAccounts]: #impactedaccounts
 #### [impactedAccounts]
 A collection of accounts impacted by this event. Each impacted account record relates directly to a [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Account'>SoftLayer_Notification_Occurrence_Account[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Account'>SoftLayer_Notification_Occurrence_Account[] </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ A collection of accounts impacted by this event. Each impacted account record re
 [impactedResources]: #impactedresources
 #### [impactedResources]
 A collection of resources impacted by this event. Each record will relate to some physical resource that the user has access to such as [SoftLayer_Hardware]({{<ref "reference/datatypes/SoftLayer_Hardware">}}) or [SoftLayer_Virtual_Guest]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest">}}).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Resource'>SoftLayer_Notification_Occurrence_Resource[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Resource'>SoftLayer_Notification_Occurrence_Resource[] </a>**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ A collection of resources impacted by this event. Each record will relate to som
 [impactedUsers]: #impactedusers
 #### [impactedUsers]
 A collection of users impacted by this event. Each impacted user record relates directly to a [SoftLayer_User_Customer]({{<ref "reference/datatypes/SoftLayer_User_Customer">}}).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_User'>SoftLayer_Notification_Occurrence_User[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_User'>SoftLayer_Notification_Occurrence_User[] </a>**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ A collection of users impacted by this event. Each impacted user record relates 
 [lastUpdate]: #lastupdate
 #### [lastUpdate]
 The last update for this event.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Update'>SoftLayer_Notification_Occurrence_Update </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Update'>SoftLayer_Notification_Occurrence_Update </a>**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ The last update for this event.
 [notificationOccurrenceEventType]: #notificationoccurrenceeventtype
 #### [notificationOccurrenceEventType]
 The type of event such as planned or unplanned maintenance.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event_Type'>SoftLayer_Notification_Occurrence_Event_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event_Type'>SoftLayer_Notification_Occurrence_Event_Type </a>**  
+
 
 
 </div>
@@ -221,7 +240,8 @@ The type of event such as planned or unplanned maintenance.
 [statusCode]: #statuscode
 #### [statusCode]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Status_Code'>SoftLayer_Notification_Occurrence_Status_Code </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Status_Code'>SoftLayer_Notification_Occurrence_Status_Code </a>**  
+
 
 
 </div>
@@ -231,7 +251,8 @@ The type of event such as planned or unplanned maintenance.
 [updates]: #updates
 #### [updates]
 All updates for this event.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Update'>SoftLayer_Notification_Occurrence_Update[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Update'>SoftLayer_Notification_Occurrence_Update[] </a>**  
+
 
 
 </div>
@@ -243,7 +264,8 @@ All updates for this event.
 [attachmentCount]: #attachmentcount
 #### [attachmentCount]
 A count of a collection of attachments for this event which provide supplementary information to impacted users some examples are RFO (Reason For Outage) and root cause analysis documents.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -253,7 +275,8 @@ A count of a collection of attachments for this event which provide supplementar
 [impactedAccountCount]: #impactedaccountcount
 #### [impactedAccountCount]
 A count of a collection of accounts impacted by this event. Each impacted account record relates directly to a [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}).   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -263,7 +286,8 @@ A count of a collection of accounts impacted by this event. Each impacted accoun
 [impactedResourceCount]: #impactedresourcecount
 #### [impactedResourceCount]
 A count of a collection of resources impacted by this event. Each record will relate to some physical resource that the user has access to such as [SoftLayer_Hardware]({{<ref "reference/datatypes/SoftLayer_Hardware">}}) or [SoftLayer_Virtual_Guest]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest">}}).   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -273,7 +297,8 @@ A count of a collection of resources impacted by this event. Each record will re
 [impactedUserCount]: #impactedusercount
 #### [impactedUserCount]
 A count of a collection of users impacted by this event. Each impacted user record relates directly to a [SoftLayer_User_Customer]({{<ref "reference/datatypes/SoftLayer_User_Customer">}}).   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -283,7 +308,8 @@ A count of a collection of users impacted by this event. Each impacted user reco
 [updateCount]: #updatecount
 #### [updateCount]
 A count of all updates for this event.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

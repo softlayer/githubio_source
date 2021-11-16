@@ -15,6 +15,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::reloadOperatingSystem
 
+
 Reloads operating system configuration.
 
 

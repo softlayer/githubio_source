@@ -21,6 +21,8 @@ classes:
 </div>
 
 ## Description
+
+
 The status of a scale group. This status affects what actions can occur on a group. The values can be: 
 
 
@@ -52,12 +54,14 @@ suspended state, a scale group cannot have any members added or deleted, or chan
 
 #### [getAllObjects](/reference/services/SoftLayer_Scale_Group_Status/getAllObjects)
 Get all group statuses
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Scale_Group_Status/getObject)
 Retrieve a SoftLayer_Scale_Group_Status record.
+
 </div>
 </div>
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Auxiliary_Press_Release_About](/reference/services/SoftLayer_Auxiliary_Press_Release_About)::getObject
 
+
 Retrieve a SoftLayer_Auxiliary_Press_Release_About record.
 
 

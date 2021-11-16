@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_PlacementGroup](/reference/services/SoftLayer_Virtual_PlacementGroup)::getAccount
 
+
 Retrieve the account that the placement group is implemented on.
 
 

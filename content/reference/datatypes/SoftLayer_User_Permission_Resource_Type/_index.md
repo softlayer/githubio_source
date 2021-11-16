@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 These are the variables relating to SoftLayer_User_Permission_Resource_Type. Collectively they describe the types of resources which can be linked to [SoftLayer_User_Permission_Group]({{<ref "reference/datatypes/SoftLayer_User_Permission_Group">}}). 
 
 
@@ -45,7 +47,8 @@ These are the variables relating to SoftLayer_User_Permission_Resource_Type. Col
 [className]: #classname
 #### [className]
 The associated IMS class name for a resource type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The associated IMS class name for a resource type.
 [id]: #id
 #### [id]
 Resource Type record ID.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Resource Type record ID.
 [keyName]: #keyname
 #### [keyName]
 Descriptive Identifier for a Resource Type. A key name contains no spaces, but may use underscores.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Descriptive Identifier for a Resource Type. A key name contains no spaces, but m
 [name]: #name
 #### [name]
 A name for the resource type. It is the most descriptive variable of the resource type and can include spaces.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

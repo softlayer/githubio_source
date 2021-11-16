@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Regional_Registry_Detail](/reference/services/SoftLayer_Account_Regional_Registry_Detail)::getDetailType
 
+
 Retrieve the associated type of this detail object.
 
 

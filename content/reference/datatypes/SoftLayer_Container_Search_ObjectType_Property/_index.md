@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This data type is a container that stores information about a single property of a searchable object type.  Each <b>[SoftLayer_Container_Search_ObjectType]({{<ref "reference/datatypes/SoftLayer_Container_Search_ObjectType">}})</b> method.  Refer to the <b>advancedSearch()</b> method for information on using properties in search strings. 
 
 
@@ -56,7 +58,8 @@ This data type is a container that stores information about a single property of
 [name]: #name
 #### [name]
 Name of property.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -66,7 +69,8 @@ Name of property.
 [sortableFlag]: #sortableflag
 #### [sortableFlag]
 Indicates if this property can be sorted.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -76,7 +80,8 @@ Indicates if this property can be sorted.
 [type]: #type
 #### [type]
 Property data type.  Valid values include 'boolean', 'integer', 'date', 'string' or 'text'.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

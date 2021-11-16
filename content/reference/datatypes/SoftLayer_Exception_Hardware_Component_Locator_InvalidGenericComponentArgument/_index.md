@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This exception is thrown if the argument is of incorrect type. 
 
 

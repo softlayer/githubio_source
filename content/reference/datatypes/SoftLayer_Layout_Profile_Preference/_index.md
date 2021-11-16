@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Layout_Profile_Preference contains definitions for layout preferences 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Layout_Profile_Preference contains definitions for layout preferen
 [createDate]: #createdate
 #### [createDate]
 Timestamp of when the preference was created  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Timestamp of when the preference was created
 [defaultValueFlag]: #defaultvalueflag
 #### [defaultValueFlag]
 Indicates whether this is a default value or not  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Indicates whether this is a default value or not
 [layoutContainerId]: #layoutcontainerid
 #### [layoutContainerId]
 The id of the related [SoftLayer_Layout_Container]({{<ref "reference/datatypes/SoftLayer_Layout_Container">}})  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The id of the related [SoftLayer_Layout_Container]({{<ref "reference/datatypes/S
 [layoutItemId]: #layoutitemid
 #### [layoutItemId]
 The id of the related [SoftLayer_Layout_Item]({{<ref "reference/datatypes/SoftLayer_Layout_Item">}})  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The id of the related [SoftLayer_Layout_Item]({{<ref "reference/datatypes/SoftLa
 [layoutPreferenceId]: #layoutpreferenceid
 #### [layoutPreferenceId]
 The internal identifier of the overridden [SoftLayer_Layout_Preference]({{<ref "reference/datatypes/SoftLayer_Layout_Preference">}})  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The internal identifier of the overridden [SoftLayer_Layout_Preference]({{<ref "
 [layoutProfileId]: #layoutprofileid
 #### [layoutProfileId]
 The internal identifier of the related [SoftLayer_Layout_Profile]({{<ref "reference/datatypes/SoftLayer_Layout_Profile">}})  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The internal identifier of the related [SoftLayer_Layout_Profile]({{<ref "refere
 [modifyDate]: #modifydate
 #### [modifyDate]
 Timestamp of when the preference was last updated  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Timestamp of when the preference was last updated
 [value]: #value
 #### [value]
 The value overriding the default value  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The value overriding the default value
 [layoutContainer]: #layoutcontainer
 #### [layoutContainer]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Container'>SoftLayer_Layout_Container </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Container'>SoftLayer_Layout_Container </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The value overriding the default value
 [layoutItem]: #layoutitem
 #### [layoutItem]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Item'>SoftLayer_Layout_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Item'>SoftLayer_Layout_Item </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The value overriding the default value
 [layoutPreference]: #layoutpreference
 #### [layoutPreference]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Preference'>SoftLayer_Layout_Preference </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Preference'>SoftLayer_Layout_Preference </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The value overriding the default value
 [layoutProfile]: #layoutprofile
 #### [layoutProfile]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Profile'>SoftLayer_Layout_Profile </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Profile'>SoftLayer_Layout_Profile </a>**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getPrimaryNetworkComponent
 
+
 Retrieve information regarding the hardware's primary public network component.
 
 

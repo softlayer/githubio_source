@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::getPublicIpv6Address
 
+
 Retrieve the public gateway IPv6 address.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Dns_Domain_ResourceRecord_MxType service controls the creation, modification, and deletion of MX records within a domain hosted on SoftLayer's DNS servers. It exists separately from the SoftLayer_Dns_Domain_ResourceRecord to provide control for MX priority in addition to host, data, and time-to-live. 
 
 ### External Links
@@ -56,48 +58,56 @@ The SoftLayer_Dns_Domain_ResourceRecord_MxType service controls the creation, mo
 
 #### [createObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/createObject)
 Create an MX record.
+
 </div>
 
 <div class="method-row">
 
 #### [createObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/createObjects)
 Create multiple MX records.
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/deleteObject)
 Delete a domain's MX record.
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/deleteObjects)
 Delete multiple MX records from a domain.
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/editObject)
 Edit a domain's MX record.
+
 </div>
 
 <div class="method-row">
 
 #### [editObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/editObjects)
 Edit multiple domain MX records.
+
 </div>
 
 <div class="method-row">
 
 #### [getDomain](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/getDomain)
 Retrieve the domain that a resource record belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_MxType/getObject)
 Retrieve a SoftLayer_Dns_Domain_ResourceRecord_MxType record.
+
 </div>
 </div>
 

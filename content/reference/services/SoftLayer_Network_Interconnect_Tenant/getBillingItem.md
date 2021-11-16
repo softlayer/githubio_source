@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Interconnect_Tenant](/reference/services/SoftLayer_Network_Interconnect_Tenant)::getBillingItem
 
+
 Retrieve the active billing item for a network interconnect.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getRules
 
+
 Retrieve the currently running rule set of this network component firewall.
 
 

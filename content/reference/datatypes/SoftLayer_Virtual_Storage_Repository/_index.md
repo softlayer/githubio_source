@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Virtual_Storage_Repository represents a web based storage system that can be accessed through many types of devices, interfaces, and other resources. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Virtual_Storage_Repository represents a web based storage system t
 [capacity]: #capacity
 #### [capacity]
 A storage repositories capacity measured in Giga-Bytes (GB)   
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A storage repositories capacity measured in Giga-Bytes (GB)
 [description]: #description
 #### [description]
 A storage repositories description that describes its purpose or contents   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A storage repositories description that describes its purpose or contents
 [id]: #id
 #### [id]
 Unique ID for a storage repository.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Unique ID for a storage repository.
 [name]: #name
 #### [name]
 A storage repositories name that describes its purpose or contents   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ A storage repositories name that describes its purpose or contents
 [publicFlag]: #publicflag
 #### [publicFlag]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ A storage repositories name that describes its purpose or contents
 [typeId]: #typeid
 #### [typeId]
 A storage repositories [SoftLayer_Virtual_Storage_Repository_Type]({{<ref "reference/datatypes/SoftLayer_Virtual_Storage_Repository_Type">}}) ID   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ A storage repositories [SoftLayer_Virtual_Storage_Repository_Type]({{<ref "refer
 [account]: #account
 #### [account]
 The [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) that a storage repository belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) that 
 [billingItem]: #billingitem
 #### [billingItem]
 The current billing item for a storage repository.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The current billing item for a storage repository.
 [datacenter]: #datacenter
 #### [datacenter]
 The datacenter that a virtual storage repository resides in.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The datacenter that a virtual storage repository resides in.
 [diskImages]: #diskimages
 #### [diskImages]
 The [SoftLayer_Virtual_Disk_Image]({{<ref "reference/datatypes/SoftLayer_Virtual_Disk_Image">}}) that are in a storage repository. Disk images are the virtual hard drives for a virtual guest.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image[] </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The [SoftLayer_Virtual_Disk_Image]({{<ref "reference/datatypes/SoftLayer_Virtual
 [guests]: #guests
 #### [guests]
 The computing instances that have disk images in a storage repository.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The computing instances that have disk images in a storage repository.
 [metricTrackingObject]: #metrictrackingobject
 #### [metricTrackingObject]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Virtual_Storage_Repository'>SoftLayer_Metric_Tracking_Object_Virtual_Storage_Repository </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Virtual_Storage_Repository'>SoftLayer_Metric_Tracking_Object_Virtual_Storage_Repository </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The computing instances that have disk images in a storage repository.
 [publicImageBillingItem]: #publicimagebillingitem
 #### [publicImageBillingItem]
 The current billing item for a public storage repository.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ The current billing item for a public storage repository.
 [type]: #type
 #### [type]
 A storage repository's [SoftLayer_Virtual_Storage_Repository_Type]({{<ref "reference/datatypes/SoftLayer_Virtual_Storage_Repository_Type">}}).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository_Type'>SoftLayer_Virtual_Storage_Repository_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository_Type'>SoftLayer_Virtual_Storage_Repository_Type </a>**  
+
 
 
 </div>
@@ -193,7 +209,8 @@ A storage repository's [SoftLayer_Virtual_Storage_Repository_Type]({{<ref "refer
 [diskImageCount]: #diskimagecount
 #### [diskImageCount]
 A count of the [SoftLayer_Virtual_Disk_Image]({{<ref "reference/datatypes/SoftLayer_Virtual_Disk_Image">}}) that are in a storage repository. Disk images are the virtual hard drives for a virtual guest.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -203,7 +220,8 @@ A count of the [SoftLayer_Virtual_Disk_Image]({{<ref "reference/datatypes/SoftLa
 [guestCount]: #guestcount
 #### [guestCount]
 A count of the computing instances that have disk images in a storage repository.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

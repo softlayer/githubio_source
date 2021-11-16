@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Service_External_Resource is a placeholder that references a service being provided outside of the standard SoftLayer system. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Service_External_Resource is a placeholder that references a servi
 [accountId]: #accountid
 #### [accountId]
 The customer account that is consuming the related service.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The customer account that is consuming the related service.
 [externalIdentifier]: #externalidentifier
 #### [externalIdentifier]
 The unique identifier in the service provider's system.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique identifier in the service provider's system.
 [id]: #id
 #### [id]
 An external resource's unique identifier in the SoftLayer system.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ An external resource's unique identifier in the SoftLayer system.
 [account]: #account
 #### [account]
 The customer account that is consuming the service.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>

@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [countryId]: #countryid
 #### [countryId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [locationGroupId]: #locationgroupid
 #### [locationGroupId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ classes:
 [country]: #country
 #### [country]
 SoftLayer_Locale_Country Id.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Locale_Country'>SoftLayer_Locale_Country </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Locale_Country'>SoftLayer_Locale_Country </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ SoftLayer_Locale_Country Id.
 [locationGroup]: #locationgroup
 #### [locationGroup]
 Location Group ID of CleverSafe cross region.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group </a>**  
+
 
 
 </div>

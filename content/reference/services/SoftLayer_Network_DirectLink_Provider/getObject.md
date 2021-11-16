@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_DirectLink_Provider](/reference/services/SoftLayer_Network_DirectLink_Provider)::getObject
 
+
 Retrieve a SoftLayer_Network_DirectLink_Provider record.
 
 

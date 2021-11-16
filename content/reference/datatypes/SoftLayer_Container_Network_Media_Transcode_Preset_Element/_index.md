@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Transcode preset element 
 
 
@@ -58,7 +60,8 @@ Transcode preset element
 [additionalElements]: #additionalelements
 #### [additionalElements]
 The additional elements for DROPDOWNLIST element  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Network_Media_Transcode_Preset_Element_Option'>SoftLayer_Container_Network_Media_Transcode_Preset_Element_Option[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Network_Media_Transcode_Preset_Element_Option'>SoftLayer_Container_Network_Media_Transcode_Preset_Element_Option[] </a>**  
+
 
 
 </div>
@@ -68,7 +71,8 @@ The additional elements for DROPDOWNLIST element
 [defaultValue]: #defaultvalue
 #### [defaultValue]
 The default value of an element.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -78,7 +82,8 @@ The default value of an element.
 [description]: #description
 #### [description]
 The description of a preset element  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -88,7 +93,8 @@ The description of a preset element
 [enabled]: #enabled
 #### [enabled]
 The flag that indicates whether an element is enabled or not  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -98,7 +104,8 @@ The flag that indicates whether an element is enabled or not
 [extendedDescription]: #extendeddescription
 #### [extendedDescription]
 The extended description of a preset element  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -108,7 +115,8 @@ The extended description of a preset element
 [hidden]: #hidden
 #### [hidden]
 The flag that indicates whether an element is hidden or not  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -118,7 +126,8 @@ The flag that indicates whether an element is hidden or not
 [maximumValue]: #maximumvalue
 #### [maximumValue]
 The maximum value of an element  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -128,7 +137,8 @@ The maximum value of an element
 [minimumValue]: #minimumvalue
 #### [minimumValue]
 The minimum value of an element  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -138,7 +148,8 @@ The minimum value of an element
 [name]: #name
 #### [name]
 The name of an preset element  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -148,7 +159,8 @@ The name of an preset element
 [parentName]: #parentname
 #### [parentName]
 The name of a parent element  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -158,7 +170,8 @@ The name of a parent element
 [type]: #type
 #### [type]
 The type of an preset element.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

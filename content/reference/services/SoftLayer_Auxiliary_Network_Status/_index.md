@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This service provides a way for a SoftLayer customer to obtain current latency information from around the world to our datacenters, and segments of our network both public and private. There are a few valid targets. Currently the valid targets are as follows: 
 * ALL
 * NETWORK_DALLAS
@@ -61,6 +63,7 @@ Information
 
 #### [getNetworkStatus](/reference/services/SoftLayer_Auxiliary_Network_Status/getNetworkStatus)
 return current network status for a given target.
+
 </div>
 </div>
 

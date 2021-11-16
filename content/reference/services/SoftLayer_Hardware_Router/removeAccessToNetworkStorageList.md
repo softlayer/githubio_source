@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::removeAccessToNetworkStorageList
 
+
 Remove access to multiple SoftLayer_Network_Storage volumes from this device. 
 
 

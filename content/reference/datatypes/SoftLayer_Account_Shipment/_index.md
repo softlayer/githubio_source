@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Account_Shipment data type contains information relating to a shipment. Basic information such as addresses, the shipment courier, and any tracking information for as shipment is accessible with this data type. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Account_Shipment data type contains information relating to a ship
 [accountId]: #accountid
 #### [accountId]
 The account id of the shipment.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The account id of the shipment.
 [courierId]: #courierid
 #### [courierId]
 The courier id of the shipment.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The courier id of the shipment.
 [courierName]: #couriername
 #### [courierName]
 The courier name of the shipment.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The courier name of the shipment.
 [createUserId]: #createuserid
 #### [createUserId]
 The create user id of the shipment.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The create user id of the shipment.
 [destinationAddressId]: #destinationaddressid
 #### [destinationAddressId]
 The destination address id of the shipment.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The destination address id of the shipment.
 [destinationDate]: #destinationdate
 #### [destinationDate]
 The destination date of the shipment.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The destination date of the shipment.
 [id]: #id
 #### [id]
 The unique id of the shipment.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The unique id of the shipment.
 [modifyUserId]: #modifyuserid
 #### [modifyUserId]
 The modify user id of the shipment.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The modify user id of the shipment.
 [note]: #note
 #### [note]
 The shipment note (special handling instructions).  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The shipment note (special handling instructions).
 [originationAddressId]: #originationaddressid
 #### [originationAddressId]
 The origination address id of the shipment.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ The origination address id of the shipment.
 [originationDate]: #originationdate
 #### [originationDate]
 The origination date of the shipment.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ The origination date of the shipment.
 [statusId]: #statusid
 #### [statusId]
 The status id of the shipment.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ The status id of the shipment.
 [typeId]: #typeid
 #### [typeId]
 The type id of the shipment.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ The type id of the shipment.
 [viaAddressId]: #viaaddressid
 #### [viaAddressId]
 The via address id of the shipment.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ The via address id of the shipment.
 [account]: #account
 #### [account]
 The account to which the shipment belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ The account to which the shipment belongs.
 [courier]: #courier
 #### [courier]
 The courier handling the shipment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Shipping_Courier'>SoftLayer_Auxiliary_Shipping_Courier </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Shipping_Courier'>SoftLayer_Auxiliary_Shipping_Courier </a>**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ The courier handling the shipment.
 [createEmployee]: #createemployee
 #### [createEmployee]
 The employee who created the shipment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**  
+
 
 
 </div>
@@ -221,7 +240,8 @@ The employee who created the shipment.
 [createUser]: #createuser
 #### [createUser]
 The customer user who created the shipment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -231,7 +251,8 @@ The customer user who created the shipment.
 [currency]: #currency
 #### [currency]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a>**  
+
 
 
 </div>
@@ -241,7 +262,8 @@ The customer user who created the shipment.
 [destinationAddress]: #destinationaddress
 #### [destinationAddress]
 The address at which the shipment is received.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a>**  
+
 
 
 </div>
@@ -251,7 +273,8 @@ The address at which the shipment is received.
 [masterTrackingData]: #mastertrackingdata
 #### [masterTrackingData]
 The one master tracking data for the shipment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment_Tracking_Data'>SoftLayer_Account_Shipment_Tracking_Data </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment_Tracking_Data'>SoftLayer_Account_Shipment_Tracking_Data </a>**  
+
 
 
 </div>
@@ -261,7 +284,8 @@ The one master tracking data for the shipment.
 [modifyEmployee]: #modifyemployee
 #### [modifyEmployee]
 The employee who last modified the shipment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**  
+
 
 
 </div>
@@ -271,7 +295,8 @@ The employee who last modified the shipment.
 [modifyUser]: #modifyuser
 #### [modifyUser]
 The customer user who last modified the shipment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -281,7 +306,8 @@ The customer user who last modified the shipment.
 [originationAddress]: #originationaddress
 #### [originationAddress]
 The address from which the shipment is sent.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a>**  
+
 
 
 </div>
@@ -291,7 +317,8 @@ The address from which the shipment is sent.
 [shipmentItems]: #shipmentitems
 #### [shipmentItems]
 The items in the shipment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment_Item'>SoftLayer_Account_Shipment_Item[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment_Item'>SoftLayer_Account_Shipment_Item[] </a>**  
+
 
 
 </div>
@@ -301,7 +328,8 @@ The items in the shipment.
 [status]: #status
 #### [status]
 The status of the shipment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment_Status'>SoftLayer_Account_Shipment_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment_Status'>SoftLayer_Account_Shipment_Status </a>**  
+
 
 
 </div>
@@ -311,7 +339,8 @@ The status of the shipment.
 [trackingData]: #trackingdata
 #### [trackingData]
 All tracking data for the shipment and packages.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment_Tracking_Data'>SoftLayer_Account_Shipment_Tracking_Data[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment_Tracking_Data'>SoftLayer_Account_Shipment_Tracking_Data[] </a>**  
+
 
 
 </div>
@@ -321,7 +350,8 @@ All tracking data for the shipment and packages.
 [type]: #type
 #### [type]
 The type of shipment (e.g. for Data Transfer Service or Colocation Service).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment_Type'>SoftLayer_Account_Shipment_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment_Type'>SoftLayer_Account_Shipment_Type </a>**  
+
 
 
 </div>
@@ -331,7 +361,8 @@ The type of shipment (e.g. for Data Transfer Service or Colocation Service).
 [viaAddress]: #viaaddress
 #### [viaAddress]
 The address at which the shipment is received.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a>**  
+
 
 
 </div>
@@ -343,7 +374,8 @@ The address at which the shipment is received.
 [shipmentItemCount]: #shipmentitemcount
 #### [shipmentItemCount]
 A count of the items in the shipment.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -353,7 +385,8 @@ A count of the items in the shipment.
 [trackingDataCount]: #trackingdatacount
 #### [trackingDataCount]
 A count of all tracking data for the shipment and packages.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

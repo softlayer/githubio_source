@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getAvailableStorageUnits
 
+
 Retrieve the maximum number of available disk storage units associated with the servers in a package.
 
 

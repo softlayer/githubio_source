@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::getAllowedNetworkStorageReplicas
 
+
 Retrieve the SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Hardware has access to.
 
 

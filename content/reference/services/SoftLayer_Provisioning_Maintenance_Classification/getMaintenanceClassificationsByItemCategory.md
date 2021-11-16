@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Provisioning_Maintenance_Classification](/reference/services/SoftLayer_Provisioning_Maintenance_Classification)::getMaintenanceClassificationsByItemCategory
 
+
 Retrieve all maintenance classifications.
 
 

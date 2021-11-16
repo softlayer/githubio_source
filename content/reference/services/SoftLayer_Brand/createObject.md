@@ -14,6 +14,7 @@ aliases:
 ---
 # [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::createObject
 
+
 Create a new brand.
 
 

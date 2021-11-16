@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Network_Storage_Evault_WebCc_AgentStatus will contain the timestamp of the last backup performed by the EVault agent.  The agent status will also be returned. 
 
 
@@ -52,7 +54,8 @@ The SoftLayer_Container_Network_Storage_Evault_WebCc_AgentStatus will contain th
 [lastBackup]: #lastbackup
 #### [lastBackup]
 Timestamp of last backup performed by the EVault backup agent  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -62,7 +65,8 @@ Timestamp of last backup performed by the EVault backup agent
 [status]: #status
 #### [status]
 Status indicating the accumulative status result of all jobs performed by the evault agent.  For example, if one job out three jobs failed agent status will by "Failed Backup(s)".   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

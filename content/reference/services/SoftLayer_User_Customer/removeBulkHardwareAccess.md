@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::removeBulkHardwareAccess
 
+
 Remove multiple hardware from a portal user's hardware access list.
 
 

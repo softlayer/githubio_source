@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getLockboxNetworkStorage
 
+
 Retrieve information regarding a lockbox account associated with a server.
 
 

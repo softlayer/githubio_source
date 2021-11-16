@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getRecentRemoteManagementCommands
 
+
 Retrieve the last five commands issued to the server's remote management card.
 
 

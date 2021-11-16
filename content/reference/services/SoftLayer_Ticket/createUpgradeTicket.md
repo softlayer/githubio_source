@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::createUpgradeTicket
 
+
 Create an upgrade request ticket for the SoftLayer sales team.
 
 

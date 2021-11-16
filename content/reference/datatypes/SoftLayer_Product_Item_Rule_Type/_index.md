@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The item rule type data type represents the type of an item rule. 
 
 
@@ -45,7 +47,8 @@ The item rule type data type represents the type of an item rule.
 [keyName]: #keyname
 #### [keyName]
 The identifier for the item rule type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

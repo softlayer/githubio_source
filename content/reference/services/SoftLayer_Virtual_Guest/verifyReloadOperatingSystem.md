@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::verifyReloadOperatingSystem
 
+
 Verify that a virtual server can go through the operating system reload process.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getPrimaryIpAddress
 
+
 Retrieve the guest's primary public IP address.
 
 

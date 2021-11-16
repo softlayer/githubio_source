@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The block device data type presents the structure in which all block devices will be presented. A block device attaches a disk image to a guest. Internally, the structure supports various virtualization platforms with no change to external interaction. 
 
 A guest, also known as a virtual server, represents an allocation of resources on a virtual host. 
@@ -47,7 +49,8 @@ A guest, also known as a virtual server, represents an allocation of resources o
 [bootableFlag]: #bootableflag
 #### [bootableFlag]
 A flag indicating if a block device can be booted from.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -57,7 +60,8 @@ A flag indicating if a block device can be booted from.
 [createDate]: #createdate
 #### [createDate]
 The date a block device was created.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -67,7 +71,8 @@ The date a block device was created.
 [device]: #device
 #### [device]
 A name used to identify a block device.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -77,7 +82,8 @@ A name used to identify a block device.
 [diskImageId]: #diskimageid
 #### [diskImageId]
 A block device [SoftLayer_Virtual_Disk_Image]({{<ref "reference/datatypes/SoftLayer_Virtual_Disk_Image">}})'s unique ID.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -87,7 +93,8 @@ A block device [SoftLayer_Virtual_Disk_Image]({{<ref "reference/datatypes/SoftLa
 [guestId]: #guestid
 #### [guestId]
 The [SoftLayer_Virtual_Guest]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest">}}) that a block device is associated with.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -97,7 +104,8 @@ The [SoftLayer_Virtual_Guest]({{<ref "reference/datatypes/SoftLayer_Virtual_Gues
 [hotPlugFlag]: #hotplugflag
 #### [hotPlugFlag]
 A flag indicating if a block device can be plugged into a computing instance without having to shut down the instance.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -107,7 +115,8 @@ A flag indicating if a block device can be plugged into a computing instance wit
 [id]: #id
 #### [id]
 A computing instance block device's unique ID.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -117,7 +126,8 @@ A computing instance block device's unique ID.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The data a block device was last modified.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -127,7 +137,8 @@ The data a block device was last modified.
 [mountMode]: #mountmode
 #### [mountMode]
 The writing mode that a virtual block device is mounted as, either "RO" for read-only mode or "RW" for read and write mode.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -137,7 +148,8 @@ The writing mode that a virtual block device is mounted as, either "RO" for read
 [mountType]: #mounttype
 #### [mountType]
 The type of device that a virtual block device is mounted as, either "Disk" for a directly connected storage disk or "CD" for devices that are mounted as optical drives..   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -147,7 +159,8 @@ The type of device that a virtual block device is mounted as, either "Disk" for 
 [statusId]: #statusid
 #### [statusId]
 The status of the device, either disconnected or connected   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -157,7 +170,8 @@ The status of the device, either disconnected or connected
 [uuid]: #uuid
 #### [uuid]
 A block device's unique ID on a virtualization platform.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -173,7 +187,8 @@ A block device's unique ID on a virtualization platform.
 [diskImage]: #diskimage
 #### [diskImage]
 The disk image that a block device connects to in a computing instance.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image </a>**  
+
 
 
 </div>
@@ -183,7 +198,8 @@ The disk image that a block device connects to in a computing instance.
 [guest]: #guest
 #### [guest]
 The computing instance that this block device is attached to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**  
+
 
 
 </div>
@@ -193,7 +209,8 @@ The computing instance that this block device is attached to.
 [status]: #status
 #### [status]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Status'>SoftLayer_Virtual_Guest_Block_Device_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Status'>SoftLayer_Virtual_Guest_Block_Device_Status </a>**  
+
 
 
 </div>

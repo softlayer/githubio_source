@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Single storage group(array) used for a hardware server order. 
 
 If a raid configuration is required this object will describe a single array that will be configured on the server. If the server requires more than one array, a storage group will need to be created for each array. 
@@ -49,7 +51,8 @@ If a raid configuration is required this object will describe a single array tha
 [arrayNumber]: #arraynumber
 #### [arrayNumber]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -59,7 +62,8 @@ If a raid configuration is required this object will describe a single array tha
 [arraySize]: #arraysize
 #### [arraySize]
   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -69,7 +73,8 @@ If a raid configuration is required this object will describe a single array tha
 [arrayTypeId]: #arraytypeid
 #### [arrayTypeId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -79,7 +84,8 @@ If a raid configuration is required this object will describe a single array tha
 [billingOrderItemId]: #billingorderitemid
 #### [billingOrderItemId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -89,7 +95,8 @@ If a raid configuration is required this object will describe a single array tha
 [controller]: #controller
 #### [controller]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -99,7 +106,8 @@ If a raid configuration is required this object will describe a single array tha
 [hardDrives]: #harddrives
 #### [hardDrives]
   
-<span class="type-label">Type: </span>**array of integers**
+<span class="type-label">Type: </span>**array of integers**  
+
 
 
 </div>
@@ -109,7 +117,8 @@ If a raid configuration is required this object will describe a single array tha
 [hotSpareDrives]: #hotsparedrives
 #### [hotSpareDrives]
   
-<span class="type-label">Type: </span>**array of integers**
+<span class="type-label">Type: </span>**array of integers**  
+
 
 
 </div>
@@ -119,7 +128,8 @@ If a raid configuration is required this object will describe a single array tha
 [lvmFlag]: #lvmflag
 #### [lvmFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -129,7 +139,8 @@ If a raid configuration is required this object will describe a single array tha
 [partitionData]: #partitiondata
 #### [partitionData]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +156,8 @@ If a raid configuration is required this object will describe a single array tha
 [arrayType]: #arraytype
 #### [arrayType]
 Raid mode for the storage group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group_Array_Type'>SoftLayer_Configuration_Storage_Group_Array_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group_Array_Type'>SoftLayer_Configuration_Storage_Group_Array_Type </a>**  
+
 
 
 </div>
@@ -155,7 +167,8 @@ Raid mode for the storage group.
 [billingOrderItem]: #billingorderitem
 #### [billingOrderItem]
 The order item that relates to this storage group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item </a>**  
+
 
 
 </div>

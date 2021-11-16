@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Currency_ExchangeRate](/reference/services/SoftLayer_Billing_Currency_ExchangeRate)::getObject
 
+
 Retrieve a SoftLayer_Billing_Currency_ExchangeRate record.
 
 

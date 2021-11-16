@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 OpenStack project creation details
 
 
@@ -45,7 +47,8 @@ OpenStack project creation details
 [domainId]: #domainid
 #### [domainId]
 Id for the domain this project was added to.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Id for the domain this project was added to.
 [projectId]: #projectid
 #### [projectId]
 Id for this project.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Id for this project.
 [projectName]: #projectname
 #### [projectName]
 Name for this project.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Name for this project.
 [userId]: #userid
 #### [userId]
 Id for the user given the Project Admin role for this project.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Id for the user given the Project Admin role for this project.
 [userName]: #username
 #### [userName]
 Name for the user given the Project Admin role for this project.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

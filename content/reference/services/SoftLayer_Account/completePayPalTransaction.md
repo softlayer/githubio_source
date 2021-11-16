@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::completePayPalTransaction
 
+
 Complete the PayPal Payment Request process and receive confirmation message.
 
 

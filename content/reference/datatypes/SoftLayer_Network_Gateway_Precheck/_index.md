@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [category]: #category
 #### [category]
 Category name   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Category name
 [gatewayReadinessValue]: #gatewayreadinessvalue
 #### [gatewayReadinessValue]
 Gateway precheck status   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Gateway precheck status
 [memberId]: #memberid
 #### [memberId]
 The gateway member for this precheck.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The gateway member for this precheck.
 [memberReadinessValue]: #memberreadinessvalue
 #### [memberReadinessValue]
 Gateway precheck status   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Gateway precheck status
 [returnCode]: #returncode
 #### [returnCode]
 The precheck error status of the member   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

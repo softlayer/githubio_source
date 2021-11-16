@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Media_Transcode_Job](/reference/services/SoftLayer_Network_Media_Transcode_Job)::getTranscodeStatus
 
+
 Retrieve the status information of a transcode job
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category)::getBillingItems
 
+
 Retrieve the billing items associated with an account that share a category code with an item category's category code.
 
 

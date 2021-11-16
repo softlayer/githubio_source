@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::areVdrUpdatesBlockedForBilling
 
+
 This method returns true if Bandwidth Pooling updates are blocked so billing can run for this account.
 
 

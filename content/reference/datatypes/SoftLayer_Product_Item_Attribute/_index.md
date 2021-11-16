@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The [SoftLayer_Product_Item_Attribute]({{<ref "reference/datatypes/SoftLayer_Product_Item_Attribute">}}) data type allows us to describe a [SoftLayer_Product_Item]({{<ref "reference/datatypes/SoftLayer_Product_Item">}}) by attaching specific attributes, which may dictate how it interacts with other products and services. Most, if not all, of these attributes are geared towards internal usage, so customers should rarely be concerned with them. 
 
 
@@ -45,7 +47,8 @@ The [SoftLayer_Product_Item_Attribute]({{<ref "reference/datatypes/SoftLayer_Pro
 [id]: #id
 #### [id]
 This is the primary key value for the product attribute.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ This is the primary key value for the product attribute.
 [itemAttributeTypeId]: #itemattributetypeid
 #### [itemAttributeTypeId]
 This is a foreign key value for the [SoftLayer_Product_Item_Attribute_Type]({{<ref "reference/datatypes/SoftLayer_Product_Item_Attribute_Type">}}).  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ This is a foreign key value for the [SoftLayer_Product_Item_Attribute_Type]({{<r
 [itemId]: #itemid
 #### [itemId]
 This is a foreign key value for the [SoftLayer_Product_Item]({{<ref "reference/datatypes/SoftLayer_Product_Item">}}).  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ This is a foreign key value for the [SoftLayer_Product_Item]({{<ref "reference/d
 [value]: #value
 #### [value]
 This is the value for the attribute.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ This is the value for the attribute.
 [attributeType]: #attributetype
 #### [attributeType]
 This represents the attribute type of this product attribute.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Attribute_Type'>SoftLayer_Product_Item_Attribute_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Attribute_Type'>SoftLayer_Product_Item_Attribute_Type </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ This represents the attribute type of this product attribute.
 [attributeTypeKeyName]: #attributetypekeyname
 #### [attributeTypeKeyName]
 This represents the attribute type's key name of this product attribute.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ This represents the attribute type's key name of this product attribute.
 [item]: #item
 #### [item]
 This represents the product that an attribute is tied to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**  
+
 
 
 </div>

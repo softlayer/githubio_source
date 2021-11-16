@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 An account's user have security answers for secondary security measures. These questions/answers can be found during login and password update. These questions/answers are also needed for password reset. 
 
 
@@ -42,18 +44,21 @@ An account's user have security answers for secondary security measures. These q
 
 #### [getObject](/reference/services/SoftLayer_User_Customer_Security_Answer/getObject)
 Retrieve a SoftLayer_User_Customer_Security_Answer record.
+
 </div>
 
 <div class="method-row">
 
 #### [getQuestion](/reference/services/SoftLayer_User_Customer_Security_Answer/getQuestion)
 Retrieve the question the security answer is associated with.
+
 </div>
 
 <div class="method-row">
 
 #### [getUser](/reference/services/SoftLayer_User_Customer_Security_Answer/getUser)
 Retrieve the user who the security answer belongs to.
+
 </div>
 </div>
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Provisioning_Maintenance_Window](/reference/services/SoftLayer_Provisioning_Maintenance_Window)::getMaintenanceWindows
 
+
 Returns available maintenance windows
 
 

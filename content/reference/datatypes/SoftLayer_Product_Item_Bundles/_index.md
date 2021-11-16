@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Product_Item_Bundles contains item to price cross references Relates a category, price and item to a bundle.  Match bundle ids to see all items and prices in a particular bundle. 
 
 
@@ -56,7 +58,8 @@ The SoftLayer_Product_Item_Bundles contains item to price cross references Relat
 [bundleItemId]: #bundleitemid
 #### [bundleItemId]
 Identifier for bundle.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -66,7 +69,8 @@ Identifier for bundle.
 [id]: #id
 #### [id]
 Identifier for record.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -76,7 +80,8 @@ Identifier for record.
 [itemPriceId]: #itempriceid
 #### [itemPriceId]
 Identifier for price.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -92,7 +97,8 @@ Identifier for price.
 [bundleItem]: #bundleitem
 #### [bundleItem]
 Item in bundle.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**  
+
 
 
 </div>
@@ -102,7 +108,8 @@ Item in bundle.
 [category]: #category
 #### [category]
 Category bundle falls in.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**  
+
 
 
 </div>
@@ -112,7 +119,8 @@ Category bundle falls in.
 [itemPrice]: #itemprice
 #### [itemPrice]
 Price of item in bundle  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>**  
+
 
 
 </div>

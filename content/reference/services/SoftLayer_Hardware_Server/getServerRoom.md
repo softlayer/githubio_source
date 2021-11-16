@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getServerRoom
 
+
 Retrieve information regarding the server room in which the hardware is located.
 
 

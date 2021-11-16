@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::getLiveGuestByUuid
 
+
 Query a virtualization platform directly to retrieve details regarding a guest. 
 
 

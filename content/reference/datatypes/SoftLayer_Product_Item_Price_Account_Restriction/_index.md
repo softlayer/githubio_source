@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Product_Item_Price data type gives more information about the item price restrictions.  An item price may be restricted to one or more accounts. If the item price is restricted to an account, only that account will see the restriction details. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Product_Item_Price data type gives more information about the item
 [accountId]: #accountid
 #### [accountId]
 The account id for the item price account restriction.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The account id for the item price account restriction.
 [id]: #id
 #### [id]
 The unique identifier for the item price account restriction.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique identifier for the item price account restriction.
 [itemPriceId]: #itempriceid
 #### [itemPriceId]
 The item price id for the item price account restriction.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The item price id for the item price account restriction.
 [account]: #account
 #### [account]
 The account the item price is restricted to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The account the item price is restricted to.
 [itemPrice]: #itemprice
 #### [itemPrice]
 The item price that has the account restriction.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>**  
+
 
 
 </div>

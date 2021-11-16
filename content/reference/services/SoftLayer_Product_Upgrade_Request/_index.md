@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer_Product_Upgrade_Request tracks the progress of an upgrade, and allows modification of the maintenance window and other information. 
 
 
@@ -42,72 +44,84 @@ SoftLayer_Product_Upgrade_Request tracks the progress of an upgrade, and allows 
 
 #### [approveChanges](/reference/services/SoftLayer_Product_Upgrade_Request/approveChanges)
 Approves the upgrade request order that was revised by SoftLayer Sales
+
 </div>
 
 <div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Product_Upgrade_Request/getAccount)
 Retrieve the account that an order belongs to
+
 </div>
 
 <div class="method-row">
 
 #### [getCompletedFlag](/reference/services/SoftLayer_Product_Upgrade_Request/getCompletedFlag)
 Retrieve indicates that the upgrade request has completed or has been cancelled.
+
 </div>
 
 <div class="method-row">
 
 #### [getInvoice](/reference/services/SoftLayer_Product_Upgrade_Request/getInvoice)
 Retrieve this is the invoice associated with the upgrade request. For hourly servers or services, an invoice will not be available.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Product_Upgrade_Request/getObject)
 Retrieve a SoftLayer_Product_Upgrade_Request record.
+
 </div>
 
 <div class="method-row">
 
 #### [getOrder](/reference/services/SoftLayer_Product_Upgrade_Request/getOrder)
 Retrieve an order record associated to the upgrade request
+
 </div>
 
 <div class="method-row">
 
 #### [getServer](/reference/services/SoftLayer_Product_Upgrade_Request/getServer)
 Retrieve a server object associated with the upgrade request if any.
+
 </div>
 
 <div class="method-row">
 
 #### [getStatus](/reference/services/SoftLayer_Product_Upgrade_Request/getStatus)
 Retrieve the current status of the upgrade request.
+
 </div>
 
 <div class="method-row">
 
 #### [getTicket](/reference/services/SoftLayer_Product_Upgrade_Request/getTicket)
 Retrieve the ticket that is used to coordinate the upgrade process.
+
 </div>
 
 <div class="method-row">
 
 #### [getUser](/reference/services/SoftLayer_Product_Upgrade_Request/getUser)
 Retrieve the user that placed the order.
+
 </div>
 
 <div class="method-row">
 
 #### [getVirtualGuest](/reference/services/SoftLayer_Product_Upgrade_Request/getVirtualGuest)
 Retrieve a virtual server object associated with the upgrade request if any.
+
 </div>
 
 <div class="method-row">
 
 #### [updateMaintenanceWindow](/reference/services/SoftLayer_Product_Upgrade_Request/updateMaintenanceWindow)
 Updates the maintenance window
+
 </div>
 </div>
 

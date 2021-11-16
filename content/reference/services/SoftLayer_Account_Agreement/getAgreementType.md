@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Agreement](/reference/services/SoftLayer_Account_Agreement)::getAgreementType
 
+
 Retrieve the type of agreement.
 
 

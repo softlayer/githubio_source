@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBillingItem
 
+
 Retrieve the billing item for a CloudLayer Compute Instance.
 
 

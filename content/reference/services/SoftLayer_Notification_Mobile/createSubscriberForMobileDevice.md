@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Notification_Mobile](/reference/services/SoftLayer_Notification_Mobile)::createSubscriberForMobileDevice
 
+
 Create a new subscriber for a given resource.
 
 

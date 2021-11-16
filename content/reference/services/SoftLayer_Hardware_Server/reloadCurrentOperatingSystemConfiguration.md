@@ -15,6 +15,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::reloadCurrentOperatingSystemConfiguration
 
+
 Reloads current operating system configuration.
 
 

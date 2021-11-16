@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Schedule](/reference/services/SoftLayer_Network_Storage_Schedule)::getMonthOfYear
 
+
 Retrieve the month of the year parameter of this schedule.
 
 

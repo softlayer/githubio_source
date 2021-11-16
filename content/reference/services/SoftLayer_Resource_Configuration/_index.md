@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The Resource Configuration service enables the user to update data regarding a resource from which the request originates. It is a requirement that the request must have an authentication token as well as originate from the backend network of the resource. 
 
 
@@ -42,6 +44,7 @@ The Resource Configuration service enables the user to update data regarding a r
 
 #### [setOsPasswordFromEncrypted](/reference/services/SoftLayer_Resource_Configuration/setOsPasswordFromEncrypted)
 Set resource operating system password from an encrypted password
+
 </div>
 </div>
 

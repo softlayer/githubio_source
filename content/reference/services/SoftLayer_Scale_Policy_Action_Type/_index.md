@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 An action type
 
 
@@ -42,12 +44,14 @@ An action type
 
 #### [getAllObjects](/reference/services/SoftLayer_Scale_Policy_Action_Type/getAllObjects)
 Get all action types
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Scale_Policy_Action_Type/getObject)
 Retrieve a SoftLayer_Scale_Policy_Action_Type record.
+
 </div>
 </div>
 

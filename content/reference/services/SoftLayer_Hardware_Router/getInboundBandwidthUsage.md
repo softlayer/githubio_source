@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getInboundBandwidthUsage
 
+
 Retrieve the sum of all the inbound network traffic data for the last 30 days.
 
 

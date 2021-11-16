@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::isPendingEditApproval
 
+
 Determine if the existing order is pending edit approval
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Hardware_Blade service provides specific information about blade servers. 
 
 
@@ -42,11 +44,13 @@ The SoftLayer_Hardware_Blade service provides specific information about blade s
 
 #### [getHardwareChild](/reference/services/SoftLayer_Hardware_Blade/getHardwareChild)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getHardwareParent](/reference/services/SoftLayer_Hardware_Blade/getHardwareParent)
+
 
 </div>
 
@@ -54,6 +58,7 @@ The SoftLayer_Hardware_Blade service provides specific information about blade s
 
 #### [getObject](/reference/services/SoftLayer_Hardware_Blade/getObject)
 Retrieve a SoftLayer_Hardware_Blade record.
+
 </div>
 </div>
 

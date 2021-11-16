@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Order](/reference/services/SoftLayer_Product_Order)::verifyOrder
 
+
 Verify that an order may be successfully placed with the details provided.
 
 

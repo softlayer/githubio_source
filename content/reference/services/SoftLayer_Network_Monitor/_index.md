@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,12 +44,14 @@ classes:
 
 #### [getIpAddressesByHardware](/reference/services/SoftLayer_Network_Monitor/getIpAddressesByHardware)
 Returns an ArrayObject of subnet ip address objects for a hardware
+
 </div>
 
 <div class="method-row">
 
 #### [getIpAddressesByVirtualGuest](/reference/services/SoftLayer_Network_Monitor/getIpAddressesByVirtualGuest)
 Returns an ArrayObject of subnet ip address objects for a guest resource.
+
 </div>
 </div>
 

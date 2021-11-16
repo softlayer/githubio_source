@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::findGcImagesByCurrentUser
 
+
 Fetch a sorted collection of GC enabled cloudinit images for the account of the current active customer user. 
 
 

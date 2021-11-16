@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Media](/reference/services/SoftLayer_Account_Media)::getAccount
 
+
 Retrieve the account to which the media belongs.
 
 

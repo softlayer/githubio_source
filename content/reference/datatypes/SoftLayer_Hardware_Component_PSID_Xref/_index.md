@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Hardware_Component_PSID_Xref data type holds physical security ID information for hard drives 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Hardware_Component_PSID_Xref data type holds physical security ID 
 [componentId]: #componentid
 #### [componentId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The SoftLayer_Hardware_Component_PSID_Xref data type holds physical security ID 
 [psid]: #psid
 #### [psid]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ The SoftLayer_Hardware_Component_PSID_Xref data type holds physical security ID 
 [component]: #component
 #### [component]
 The hardware component the PSID belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>**  
+
 
 
 </div>

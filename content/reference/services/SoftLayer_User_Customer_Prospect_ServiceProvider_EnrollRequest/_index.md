@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,18 +44,21 @@ classes:
 
 #### [enroll](/reference/services/SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest/enroll)
 Creates a new Service Provider Enrollment
+
 </div>
 
 <div class="method-row">
 
 #### [getCompanyType](/reference/services/SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest/getCompanyType)
 Retrieve catalyst company types.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest/getObject)
 Retrieve a SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest record.
+
 </div>
 </div>
 

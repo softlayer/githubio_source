@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Each User is assigned a timezone allowing for a precise local timestamp.
 
 
@@ -42,12 +44,14 @@ Each User is assigned a timezone allowing for a precise local timestamp.
 
 #### [getAllObjects](/reference/services/SoftLayer_Locale_Timezone/getAllObjects)
 Retrieve all timezone objects.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Locale_Timezone/getObject)
 Retrieve a SoftLayer_Locale_Timezone record.
+
 </div>
 </div>
 

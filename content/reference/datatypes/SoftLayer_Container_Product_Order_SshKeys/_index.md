@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This object holds all of the ssh key ids that will allow authentication to a single server. 
 
 
@@ -45,7 +47,8 @@ This object holds all of the ssh key ids that will allow authentication to a sin
 [sshKeyIds]: #sshkeyids
 #### [sshKeyIds]
 An array of SoftLayer_Security_Ssh_Key IDs to assign to a server.  
-<span class="type-label">Type: </span>**array of integers**
+<span class="type-label">Type: </span>**array of integers**  
+
 
 
 </div>

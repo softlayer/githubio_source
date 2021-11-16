@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getNetworkCards
 
+
 Retrieve information regarding a piece of hardware's network cards.
 
 

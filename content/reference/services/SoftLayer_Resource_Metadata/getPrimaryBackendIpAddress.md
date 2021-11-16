@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Resource_Metadata](/reference/services/SoftLayer_Resource_Metadata)::getPrimaryBackendIpAddress
 
+
 The primary backend IP address for the resource
 
 

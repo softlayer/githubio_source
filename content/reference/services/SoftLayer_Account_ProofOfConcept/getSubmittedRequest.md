@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_ProofOfConcept](/reference/services/SoftLayer_Account_ProofOfConcept)::getSubmittedRequest
 
+
 Retrieves full details of one PoC request submitted by an IBMer.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_User_Customer_AdditionalEmail data type contains the additional email for use in ticket update notifications. 
 
 
@@ -52,7 +54,8 @@ The SoftLayer_User_Customer_AdditionalEmail data type contains the additional em
 [email]: #email
 #### [email]
 Email assigned to user for use in ticket update notifications.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -62,7 +65,8 @@ Email assigned to user for use in ticket update notifications.
 [userId]: #userid
 #### [userId]
 An internal identifier for the portal user who this additional email belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -78,7 +82,8 @@ An internal identifier for the portal user who this additional email belongs to.
 [user]: #user
 #### [user]
 The portal user that owns this additional email address.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>

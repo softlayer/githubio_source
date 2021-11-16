@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Firewall_Update_Request_Rule](/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule)::getObject
 
+
 Retrieve a SoftLayer_Network_Firewall_Update_Request_Rule record.
 
 

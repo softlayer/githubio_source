@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getSupportedLocales
 
+
 Returns all supported locales for the current user
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getBandwidthAllocation
 
+
 Retrieve the bandwidth allocation for a billing item.
 
 

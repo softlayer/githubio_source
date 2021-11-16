@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getReadyNodeFlag
 
+
 Retrieve determine if hardware object is vSan Ready Node.
 
 

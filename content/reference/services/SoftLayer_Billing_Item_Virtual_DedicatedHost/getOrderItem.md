@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getOrderItem
 
+
 Retrieve a billing item's original order item. Simply a reference to the original order from which this billing item was created.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getSecondarySubnets
 
+
 Retrieve the subnets that exist as secondary interfaces on a VLAN
 
 

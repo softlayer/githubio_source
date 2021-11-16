@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getSurveys
 
+
 Retrieve the surveys that a user has taken in the SoftLayer customer portal.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getStorageGroups
 
+
 Retrieve the drive storage groups that are attached to this billing order item.
 
 

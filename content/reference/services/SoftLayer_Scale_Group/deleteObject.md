@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::deleteObject
 
+
 Delete this group. This can only be done on an empty, active group. 
 
 

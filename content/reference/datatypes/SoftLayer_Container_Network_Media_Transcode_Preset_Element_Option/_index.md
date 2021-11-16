@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Transcode preset element 
 
 
@@ -58,7 +60,8 @@ Transcode preset element
 [name]: #name
 #### [name]
 The name of a additional preset element  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -68,7 +71,8 @@ The name of a additional preset element
 [value]: #value
 #### [value]
 The value of a additional preset element  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

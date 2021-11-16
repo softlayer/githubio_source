@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getOutboundPublicBandwidthUsage
 
+
 Retrieve the total public outbound bandwidth for this hardware for the current billing cycle.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This SoftLayer_Virtual_Disk_Image_Software_Password data type contains a password for a specific virtual disk image software instance. 
 
 
@@ -50,7 +52,8 @@ This SoftLayer_Virtual_Disk_Image_Software_Password data type contains a passwor
 [password]: #password
 #### [password]
 A virtual disk images' password.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ A virtual disk images' password.
 [username]: #username
 #### [username]
 A virtual disk images' username.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -76,7 +80,8 @@ A virtual disk images' username.
 [software]: #software
 #### [software]
 The instance that this username/password pair is valid for.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Software'>SoftLayer_Virtual_Disk_Image_Software </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Software'>SoftLayer_Virtual_Disk_Image_Software </a>**  
+
 
 
 </div>

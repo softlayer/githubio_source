@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_SecurityGroup_RequestRules data type contains the ID of a specific request sent to the API, as well as an associative array of the rules that were created, edited, or removed by the request. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_SecurityGroup_RequestRules data type contains the ID of a 
 [requestId]: #requestid
 #### [requestId]
 The unique ID for a request.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The unique ID for a request.
 [rules]: #rules
 #### [rules]
 Whether the API call was valid or not.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_Rule'>SoftLayer_Network_SecurityGroup_Rule[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_Rule'>SoftLayer_Network_SecurityGroup_Rule[] </a>**  
+
 
 
 </div>

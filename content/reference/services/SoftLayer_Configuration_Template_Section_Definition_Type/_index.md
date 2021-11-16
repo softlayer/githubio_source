@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer_Configuration_Template_Section_Definition_Type further defines the value of a configuration definition. 
 
 
@@ -42,6 +44,7 @@ SoftLayer_Configuration_Template_Section_Definition_Type further defines the val
 
 #### [getObject](/reference/services/SoftLayer_Configuration_Template_Section_Definition_Type/getObject)
 Retrieve a SoftLayer_Configuration_Template_Section_Definition_Type record.
+
 </div>
 </div>
 

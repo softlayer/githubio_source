@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Software_VirtualLicense is the application class that handles a special type of Software License.  Most software licenses are licensed to a specific hardware ID;  virtual licenses are designed for virtual machines and therefore are assigned to an IP Address.  Not all software packages can be "virtual licensed". 
 
 
@@ -62,7 +64,8 @@ SoftLayer_Software_VirtualLicense is the application class that handles a specia
 [accountId]: #accountid
 #### [accountId]
 The ID of the SoftLayer Account to which this Virtual License belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -72,7 +75,8 @@ The ID of the SoftLayer Account to which this Virtual License belongs to.
 [hostHardwareId]: #hosthardwareid
 #### [hostHardwareId]
 The ID of the SoftLayer Hardware Server record to which this Virtual License belongs.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -82,7 +86,8 @@ The ID of the SoftLayer Hardware Server record to which this Virtual License bel
 [id]: #id
 #### [id]
 An ID number for this Virtual License instance.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -92,7 +97,8 @@ An ID number for this Virtual License instance.
 [ipAddress]: #ipaddress
 #### [ipAddress]
 The specific IP address this Virtual License belongs to.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -102,7 +108,8 @@ The specific IP address this Virtual License belongs to.
 [key]: #key
 #### [key]
 The License Key for this specific Virtual License.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -112,7 +119,8 @@ The License Key for this specific Virtual License.
 [notes]: #notes
 #### [notes]
 A "notes" string attached to this specific Virtual License.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -122,7 +130,8 @@ A "notes" string attached to this specific Virtual License.
 [softwareDescriptionId]: #softwaredescriptionid
 #### [softwareDescriptionId]
 The Software Description ID this Virtual License is for.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -132,7 +141,8 @@ The Software Description ID this Virtual License is for.
 [subnetId]: #subnetid
 #### [subnetId]
 The ID of the SoftLayer Network Subnet this Virtual License belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -148,7 +158,8 @@ The ID of the SoftLayer Network Subnet this Virtual License belongs to.
 [account]: #account
 #### [account]
 The customer account this Virtual License belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -158,7 +169,8 @@ The customer account this Virtual License belongs to.
 [billingItem]: #billingitem
 #### [billingItem]
 The billing item for a software virtual license.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -168,7 +180,8 @@ The billing item for a software virtual license.
 [hostHardware]: #hosthardware
 #### [hostHardware]
 The hardware record to which the software virtual license is assigned.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Server'>SoftLayer_Hardware_Server </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Server'>SoftLayer_Hardware_Server </a>**  
+
 
 
 </div>
@@ -178,7 +191,8 @@ The hardware record to which the software virtual license is assigned.
 [ipAddressRecord]: #ipaddressrecord
 #### [ipAddressRecord]
 The IP Address record associated with a virtual license.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>**  
+
 
 
 </div>
@@ -188,7 +202,8 @@ The IP Address record associated with a virtual license.
 [softwareDescription]: #softwaredescription
 #### [softwareDescription]
 The SoftLayer_Software_Description that this virtual license is for.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**  
+
 
 
 </div>
@@ -198,7 +213,8 @@ The SoftLayer_Software_Description that this virtual license is for.
 [subnet]: #subnet
 #### [subnet]
 The subnet this Virtual License's IP address belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**  
+
 
 
 </div>

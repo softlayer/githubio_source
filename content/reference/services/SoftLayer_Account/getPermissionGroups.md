@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPermissionGroups
 
+
 Retrieve an account's permission groups.
 
 

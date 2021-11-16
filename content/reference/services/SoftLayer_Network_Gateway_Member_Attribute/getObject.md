@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Gateway_Member_Attribute](/reference/services/SoftLayer_Network_Gateway_Member_Attribute)::getObject
 
+
 Retrieve a SoftLayer_Network_Gateway_Member_Attribute record.
 
 

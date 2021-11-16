@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Account_Password contains username, passwords and notes for services that may require for external applications such the Webcc interface for the EVault Storage service. 
 
 
@@ -55,7 +57,8 @@ The SoftLayer_Account_Password contains username, passwords and notes for servic
 [accountId]: #accountid
 #### [accountId]
 The SoftLayer customer account id that a username/password combination is associated with.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ The SoftLayer customer account id that a username/password combination is associ
 [id]: #id
 #### [id]
 A username/password combination's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +79,8 @@ A username/password combination's internal identifier.
 [notes]: #notes
 #### [notes]
 A simple description of a username/password combination. These notes don't affect portal functionality.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +90,8 @@ A simple description of a username/password combination. These notes don't affec
 [password]: #password
 #### [password]
 The password portion of a username/password combination.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +101,8 @@ The password portion of a username/password combination.
 [typeId]: #typeid
 #### [typeId]
 An identifier relating to a username/password combinations's associated service.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +112,8 @@ An identifier relating to a username/password combinations's associated service.
 [username]: #username
 #### [username]
 The username portion of a username/password combination.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -121,7 +129,8 @@ The username portion of a username/password combination.
 [account]: #account
 #### [account]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -131,7 +140,8 @@ The username portion of a username/password combination.
 [type]: #type
 #### [type]
 The service that an account/password combination is tied to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Password_Type'>SoftLayer_Account_Password_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Password_Type'>SoftLayer_Account_Password_Type </a>**  
+
 
 
 </div>

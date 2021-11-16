@@ -15,6 +15,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getGraph
 
+
 Retrieve a graph representing the bandwidth used by a Storage account.
 
 

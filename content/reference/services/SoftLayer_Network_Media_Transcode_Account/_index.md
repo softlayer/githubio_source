@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Transcoding is a service which allows you to transcode media files to different formats. For example, if you have a Windows Media Video file you wish to stream in Flash Video format, transcoding would be the process to make this change. Individual SoftLayer customer can have a single Transcode account and you need to create a Transcode account to use the service. To create a Transcode account, go to the "Private Network" -> "Transcoding" page in the SoftLayer [https://manage.softlayer.com customer portal] or invoke [SoftLayer_Network_Media_Transcode_Account::createTranscodeAccount]({{<ref "reference/services/SoftLayer_Network_Media_Transcode_Account/createTranscodeAccount">}}) method. 
 
 SoftLayer Transcoding service supports a large number of video and audio codecs. This means you can transcode many different types of movies.  Refer to [http://knowledgelayer.softlayer.com/questions/409/SoftLayer+Transcoding+FAQ Transcode FAQ] for supported codes and media containers. Transcode server also has hundreds of pre-defined output formats that you can choose from. 
@@ -62,60 +64,70 @@ When a Transcode account is created, it creates an FTP account on the Transcode 
 
 #### [createTranscodeAccount](/reference/services/SoftLayer_Network_Media_Transcode_Account/createTranscodeAccount)
 Creates a new transcode account
+
 </div>
 
 <div class="method-row">
 
 #### [createTranscodeJob](/reference/services/SoftLayer_Network_Media_Transcode_Account/createTranscodeJob)
 Creates a transcode job
+
 </div>
 
 <div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Network_Media_Transcode_Account/getAccount)
 Retrieve the SoftLayer account information
+
 </div>
 
 <div class="method-row">
 
 #### [getDirectoryInformation](/reference/services/SoftLayer_Network_Media_Transcode_Account/getDirectoryInformation)
 Returns a directory listing
+
 </div>
 
 <div class="method-row">
 
 #### [getFileDetail](/reference/services/SoftLayer_Network_Media_Transcode_Account/getFileDetail)
 Returns detailed information on a video or audio file
+
 </div>
 
 <div class="method-row">
 
 #### [getFtpAttributes](/reference/services/SoftLayer_Network_Media_Transcode_Account/getFtpAttributes)
 Returns Transcode FTP login credentials
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Media_Transcode_Account/getObject)
 Retrieve a SoftLayer_Network_Media_Transcode_Account record.
+
 </div>
 
 <div class="method-row">
 
 #### [getPresetDetail](/reference/services/SoftLayer_Network_Media_Transcode_Account/getPresetDetail)
 Returns details on a transcode output preset
+
 </div>
 
 <div class="method-row">
 
 #### [getPresets](/reference/services/SoftLayer_Network_Media_Transcode_Account/getPresets)
 Returns an array of transcoding preset objects
+
 </div>
 
 <div class="method-row">
 
 #### [getTranscodeJobs](/reference/services/SoftLayer_Network_Media_Transcode_Account/getTranscodeJobs)
 Retrieve transcode jobs
+
 </div>
 </div>
 

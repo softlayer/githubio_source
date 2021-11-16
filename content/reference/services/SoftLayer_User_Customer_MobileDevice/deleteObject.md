@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_MobileDevice](/reference/services/SoftLayer_User_Customer_MobileDevice)::deleteObject
 
+
 Delete a mobile device association for a user.
 
 

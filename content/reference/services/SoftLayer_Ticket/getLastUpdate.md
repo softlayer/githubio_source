@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getLastUpdate
 
+
 Retrieve the last update made to a ticket.
 
 

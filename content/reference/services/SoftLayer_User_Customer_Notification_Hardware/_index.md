@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description
+
+
 This service represents the link between a monitored hardware instance, and a user account. 
 
 When a monitoring service on that hardware instance fails and the monitor is set to "notify users," any users linked to that hardware instance using this service will be notified of the failure. 
@@ -46,42 +48,49 @@ When a monitoring service on that hardware instance fails and the monitor is set
 
 #### [createObject](/reference/services/SoftLayer_User_Customer_Notification_Hardware/createObject)
 Create a user hardware notification entry
+
 </div>
 
 <div class="method-row">
 
 #### [createObjects](/reference/services/SoftLayer_User_Customer_Notification_Hardware/createObjects)
 Create multiple user hardware notification entries at once
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObjects](/reference/services/SoftLayer_User_Customer_Notification_Hardware/deleteObjects)
 Delete a group of Customer_Notification_Hardware objects by passing in a collection of them
+
 </div>
 
 <div class="method-row">
 
 #### [findByHardwareId](/reference/services/SoftLayer_User_Customer_Notification_Hardware/findByHardwareId)
 Return all hardware notifications associated with the passed hardware ID
+
 </div>
 
 <div class="method-row">
 
 #### [getHardware](/reference/services/SoftLayer_User_Customer_Notification_Hardware/getHardware)
 Retrieve the hardware object that will be monitored.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_User_Customer_Notification_Hardware/getObject)
 Retrieve a SoftLayer_User_Customer_Notification_Hardware record.
+
 </div>
 
 <div class="method-row">
 
 #### [getUser](/reference/services/SoftLayer_User_Customer_Notification_Hardware/getUser)
 Retrieve the user that will be notified when the associated hardware object fails a monitoring instance.
+
 </div>
 </div>
 

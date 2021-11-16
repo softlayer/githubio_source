@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getResourceGroups
 
+
 Retrieve an account's associated top-level resource groups.
 
 

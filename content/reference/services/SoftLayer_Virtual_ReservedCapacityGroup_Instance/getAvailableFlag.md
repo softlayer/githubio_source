@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_ReservedCapacityGroup_Instance](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance)::getAvailableFlag
 
+
 Retrieve flag to indecate whether or not the reserved instance is available or not.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Summary of review activity for a proof of concept request. 
 
 
@@ -45,7 +47,8 @@ Summary of review activity for a proof of concept request.
 [accountCreatedFlag]: #accountcreatedflag
 #### [accountCreatedFlag]
 True for approved requests associated with a new account and false otherwise.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ True for approved requests associated with a new account and false otherwise.
 [deniedFlag]: #deniedflag
 #### [deniedFlag]
 True for denied requests and false otherwise.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ True for denied requests and false otherwise.
 [events]: #events
 #### [events]
 List of events occurring during the review.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Review_Event'>SoftLayer_Container_Account_ProofOfConcept_Review_Event[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Review_Event'>SoftLayer_Container_Account_ProofOfConcept_Review_Event[] </a>**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ List of events occurring during the review.
 [reviewCompleteFlag]: #reviewcompleteflag
 #### [reviewCompleteFlag]
 True for fully reviewed requests and false otherwise.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>

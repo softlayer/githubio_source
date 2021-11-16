@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getHardware
 
+
 Retrieve a portal user's accessible hardware. These permissions control which hardware a user has access to in the SoftLayer customer portal.
 
 

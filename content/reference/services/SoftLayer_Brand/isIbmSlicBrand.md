@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::isIbmSlicBrand
 
+
 Check if the brand is IBM SLIC top level brand or sub brand.
 
 

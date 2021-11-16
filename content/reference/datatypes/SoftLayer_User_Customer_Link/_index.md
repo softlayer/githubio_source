@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [defaultFlag]: #defaultflag
 #### [defaultFlag]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [destinationUserAlphanumericId]: #destinationuseralphanumericid
 #### [destinationUserAlphanumericId]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [destinationUserId]: #destinationuserid
 #### [destinationUserId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ classes:
 [iamIdVerificationFlag]: #iamidverificationflag
 #### [iamIdVerificationFlag]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ classes:
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ classes:
 [realm]: #realm
 #### [realm]
 The realm of the IAMid unique identifier.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The realm of the IAMid unique identifier.
 [serviceProviderId]: #serviceproviderid
 #### [serviceProviderId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The realm of the IAMid unique identifier.
 [uniqueIdentifier]: #uniqueidentifier
 #### [uniqueIdentifier]
 The IAMid Unique Identifier formed in the format of "realm-uniqueIdentifier"  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The IAMid Unique Identifier formed in the format of "realm-uniqueIdentifier"
 [userId]: #userid
 #### [userId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The IAMid Unique Identifier formed in the format of "realm-uniqueIdentifier"
 [serviceProvider]: #serviceprovider
 #### [serviceProvider]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The IAMid Unique Identifier formed in the format of "realm-uniqueIdentifier"
 [user]: #user
 #### [user]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Provides mapping details of how the subscriber's notification will be delivered.  This maps the subscriber's id with all the delivery method ids used to delivery the notification. 
 
 
@@ -45,7 +47,8 @@ Provides mapping details of how the subscriber's notification will be delivered.
 [active]: #active
 #### [active]
 Determines if the delivery method is active for the user.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Determines if the delivery method is active for the user.
 [notificationMethodId]: #notificationmethodid
 #### [notificationMethodId]
 Unique identifier of the method used to deliver notification.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Unique identifier of the method used to deliver notification.
 [notificationUserSubscriberId]: #notificationusersubscriberid
 #### [notificationUserSubscriberId]
 Unique identifier of the subscriber tied to the delivery method.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ Unique identifier of the subscriber tied to the delivery method.
 [deliveryMethod]: #deliverymethod
 #### [deliveryMethod]
 Provides details for the method used to deliver the notification (email, sms, ticket).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Delivery_Method'>SoftLayer_Notification_Delivery_Method </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Delivery_Method'>SoftLayer_Notification_Delivery_Method </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ Provides details for the method used to deliver the notification (email, sms, ti
 [notificationUserSubscriber]: #notificationusersubscriber
 #### [notificationUserSubscriber]
 The Subscriber information tied to the delivery method.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber </a>**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Cancellation_Request](/reference/services/SoftLayer_Billing_Item_Cancellation_Request)::getAccount
 
+
 Retrieve the SoftLayer account that a service cancellation request belongs to.
 
 

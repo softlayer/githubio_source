@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getAllowableVirtualGuests
 
+
 Return a list of SoftLayer_Virtual_Guest that can be authorized to this volume. 
 
 

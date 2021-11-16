@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getGroup
 
+
 Retrieve the SoftLayer department that a ticket is assigned to.
 
 

@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -38,21 +40,33 @@ classes:
 
 <div id="method-div">
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [getPreference](/reference/services/SoftLayer_Ticket_Survey/getPreference)
 
+
+<span class="deprecation-label">Deprecated  </span>
+
+
 </div>
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [optIn](/reference/services/SoftLayer_Ticket_Survey/optIn)
 
+
+<span class="deprecation-label">Deprecated  </span>
+
+
 </div>
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [optOut](/reference/services/SoftLayer_Ticket_Survey/optOut)
+
+
+<span class="deprecation-label">Deprecated  </span>
+
 
 </div>
 </div>

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This data type presents the structure for a virtual reserved capacity group. 
 
 
@@ -45,7 +47,8 @@ This data type presents the structure for a virtual reserved capacity group.
 [accountId]: #accountid
 #### [accountId]
 The unique ID of the account that created the reserved capacity group.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The unique ID of the account that created the reserved capacity group.
 [backendRouterId]: #backendrouterid
 #### [backendRouterId]
 The reserved capacity group's backend router's associated unique ID.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The reserved capacity group's backend router's associated unique ID.
 [createDate]: #createdate
 #### [createDate]
 The date that the reserved capacity group was created.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The date that the reserved capacity group was created.
 [id]: #id
 #### [id]
 The reserved capacity group's associated unique ID.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The reserved capacity group's associated unique ID.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date that the reserved capacity group was last modified.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The date that the reserved capacity group was last modified.
 [name]: #name
 #### [name]
 The reserved capacity group's name.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The reserved capacity group's name.
 [account]: #account
 #### [account]
 The account that the reserved capacity group is implemented on.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The account that the reserved capacity group is implemented on.
 [availableInstances]: #availableinstances
 #### [availableInstances]
 The instances available for guest provisions on this reserved capacity group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance[] </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The instances available for guest provisions on this reserved capacity group.
 [backendRouter]: #backendrouter
 #### [backendRouter]
 The router the reserved capacity group is implemented on.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Router_Backend'>SoftLayer_Hardware_Router_Backend </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Router_Backend'>SoftLayer_Hardware_Router_Backend </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The router the reserved capacity group is implemented on.
 [instances]: #instances
 #### [instances]
 The guest instances that are members of this reserved capacity group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance[] </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The guest instances that are members of this reserved capacity group.
 [instancesCount]: #instancescount
 #### [instancesCount]
 The number of instances that are members of this reserved capacity group.  
-<span class="type-label">Type: </span>**unsigned integer**
+<span class="type-label">Type: </span>**unsigned integer**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The number of instances that are members of this reserved capacity group.
 [occupiedInstances]: #occupiedinstances
 #### [occupiedInstances]
 The instances already occupied by a guest on this reserved capacity group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup_Instance'>SoftLayer_Virtual_ReservedCapacityGroup_Instance[] </a>**  
+
 
 
 </div>
@@ -173,7 +187,8 @@ The instances already occupied by a guest on this reserved capacity group.
 [availableInstanceCount]: #availableinstancecount
 #### [availableInstanceCount]
 A count of the instances available for guest provisions on this reserved capacity group.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -183,7 +198,8 @@ A count of the instances available for guest provisions on this reserved capacit
 [instanceCount]: #instancecount
 #### [instanceCount]
 A count of the guest instances that are members of this reserved capacity group.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -193,7 +209,8 @@ A count of the guest instances that are members of this reserved capacity group.
 [occupiedInstanceCount]: #occupiedinstancecount
 #### [occupiedInstanceCount]
 A count of the instances already occupied by a guest on this reserved capacity group.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

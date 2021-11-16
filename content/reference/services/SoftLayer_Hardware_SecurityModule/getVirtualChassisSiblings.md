@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getVirtualChassisSiblings
 
+
 Retrieve information regarding the virtual chassis siblings for a piece of hardware.
 
 

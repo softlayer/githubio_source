@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status models the state of the registrant. Here are the following status codes: 
 
 
@@ -60,7 +62,8 @@ SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status models the stat
 [description]: #description
 #### [description]
 The description of the registrant verification status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -70,7 +73,8 @@ The description of the registrant verification status.
 [id]: #id
 #### [id]
 The unique identifier of the registrant verification status  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -80,7 +84,8 @@ The unique identifier of the registrant verification status
 [keyName]: #keyname
 #### [keyName]
 The unique keyname of the registrant verification status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -90,7 +95,8 @@ The unique keyname of the registrant verification status.
 [name]: #name
 #### [name]
 The name of the registrant verification status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

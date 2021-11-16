@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getMountableFlag
 
+
 Retrieve whether or not a network storage volume may be mounted.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getPrimaryIpAddress
 
+
 Retrieve the hardware's primary public IP address.
 
 

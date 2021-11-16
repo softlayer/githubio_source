@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getNetworkConnectionDetails
 
+
 Retrieve network connection details for complex network storage volumes.
 
 

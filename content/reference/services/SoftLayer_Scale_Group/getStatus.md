@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::getStatus
 
+
 Retrieve the status for this scale group.
 
 

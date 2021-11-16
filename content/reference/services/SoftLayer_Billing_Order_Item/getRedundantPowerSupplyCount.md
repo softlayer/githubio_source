@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getRedundantPowerSupplyCount
 
+
 Retrieve a count of power supplies contained within this SoftLayer_Billing_Order
 
 

@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [attachmentId]: #attachmentid
 #### [attachmentId]
 The internal identifier of an item that is attached to a ticket.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The internal identifier of an item that is attached to a ticket.
 [createDate]: #createdate
 #### [createDate]
 The date that an item was attached to a ticket.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The date that an item was attached to a ticket.
 [id]: #id
 #### [id]
 A ticket attachment's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A ticket attachment's internal identifier.
 [runDate]: #rundate
 #### [runDate]
 The internal identifier of a scheduled action transaction that is attached to a ticket.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The internal identifier of a scheduled action transaction that is attached to a 
 [ticketId]: #ticketid
 #### [ticketId]
 The internal identifier of the ticket that an item is attached to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The internal identifier of the ticket that an item is attached to.
 [transactionId]: #transactionid
 #### [transactionId]
 The internal identifier of a scheduled action transaction that is attached to a ticket.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The internal identifier of a scheduled action transaction that is attached to a 
 [resource]: #resource
 #### [resource]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The internal identifier of a scheduled action transaction that is attached to a 
 [scheduledAction]: #scheduledaction
 #### [scheduledAction]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The internal identifier of a scheduled action transaction that is attached to a 
 [ticket]: #ticket
 #### [ticket]
 The ticket that an item is attached to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The ticket that an item is attached to.
 [transaction]: #transaction
 #### [transaction]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**  
+
 
 
 </div>

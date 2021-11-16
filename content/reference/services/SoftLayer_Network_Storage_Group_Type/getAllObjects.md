@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Group_Type](/reference/services/SoftLayer_Network_Storage_Group_Type)::getAllObjects
 
+
 Returns all storage group types available
 
 

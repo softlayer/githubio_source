@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getConfiguration
 
+
 Retrieve the item categories associated with a package, including information detailing which item categories are required as part of a SoftLayer product order.
 
 

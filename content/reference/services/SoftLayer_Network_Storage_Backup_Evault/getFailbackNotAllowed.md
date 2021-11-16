@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getFailbackNotAllowed
 
+
 Retrieve determines whether the volume is allowed to failback
 
 

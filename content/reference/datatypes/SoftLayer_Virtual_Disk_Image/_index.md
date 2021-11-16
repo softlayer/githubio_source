@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The virtual disk image data type presents the structure in which a virtual disk image will be presented. 
 
 Virtual block devices are assigned to disk images. 
@@ -49,7 +51,8 @@ Virtual block devices are assigned to disk images.
 [capacity]: #capacity
 #### [capacity]
 A disk image's size measured in gigabytes.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -59,7 +62,8 @@ A disk image's size measured in gigabytes.
 [checksum]: #checksum
 #### [checksum]
 A disk image's unique md5 checksum.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -69,7 +73,8 @@ A disk image's unique md5 checksum.
 [checksumAlgorithm]: #checksumalgorithm
 #### [checksumAlgorithm]
 A column to save the Algorithm being used to store the checksum.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -79,7 +84,8 @@ A column to save the Algorithm being used to store the checksum.
 [createDate]: #createdate
 #### [createDate]
 The date a disk image was created.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -89,7 +95,8 @@ The date a disk image was created.
 [description]: #description
 #### [description]
 A brief description of a virtual disk image.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -99,7 +106,8 @@ A brief description of a virtual disk image.
 [id]: #id
 #### [id]
 A disk image's unique ID.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -109,7 +117,8 @@ A disk image's unique ID.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date a disk image was last modified.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -119,7 +128,8 @@ The date a disk image was last modified.
 [name]: #name
 #### [name]
 A descriptive name used to identify a disk image to a user.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -129,7 +139,8 @@ A descriptive name used to identify a disk image to a user.
 [parentId]: #parentid
 #### [parentId]
 The ID of the the disk image that this disk image is based on, if applicable.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -139,7 +150,8 @@ The ID of the the disk image that this disk image is based on, if applicable.
 [storageRepositoryId]: #storagerepositoryid
 #### [storageRepositoryId]
 The [SoftLayer_Virtual_Storage_Repository]({{<ref "reference/datatypes/SoftLayer_Virtual_Storage_Repository">}}) that a disk image is in.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -149,7 +161,8 @@ The [SoftLayer_Virtual_Storage_Repository]({{<ref "reference/datatypes/SoftLayer
 [typeId]: #typeid
 #### [typeId]
 A disk image's [SoftLayer_Virtual_Disk_Image_Type]({{<ref "reference/datatypes/SoftLayer_Virtual_Disk_Image_Type">}}) ID   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -159,7 +172,8 @@ A disk image's [SoftLayer_Virtual_Disk_Image_Type]({{<ref "reference/datatypes/S
 [units]: #units
 #### [units]
 The unit of storage in which the size of the image is measured. Defaults to "GB" for gigabytes.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -169,7 +183,8 @@ The unit of storage in which the size of the image is measured. Defaults to "GB"
 [uuid]: #uuid
 #### [uuid]
 A disk image's unique ID on a virtualization platform.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -185,7 +200,8 @@ A disk image's unique ID on a virtualization platform.
 [billingItem]: #billingitem
 #### [billingItem]
 The billing item for a virtual disk image.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Virtual_Disk_Image'>SoftLayer_Billing_Item_Virtual_Disk_Image </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Virtual_Disk_Image'>SoftLayer_Billing_Item_Virtual_Disk_Image </a>**  
+
 
 
 </div>
@@ -195,7 +211,8 @@ The billing item for a virtual disk image.
 [blockDevices]: #blockdevices
 #### [blockDevices]
 The block devices that a disk image is attached to. Block devices connect computing instances to disk images.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device'>SoftLayer_Virtual_Guest_Block_Device[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device'>SoftLayer_Virtual_Guest_Block_Device[] </a>**  
+
 
 
 </div>
@@ -205,7 +222,8 @@ The block devices that a disk image is attached to. Block devices connect comput
 [bootableVolumeFlag]: #bootablevolumeflag
 #### [bootableVolumeFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -215,7 +233,8 @@ The block devices that a disk image is attached to. Block devices connect comput
 [cloudInitFlag]: #cloudinitflag
 #### [cloudInitFlag]
 Check if cloud-init is enabled.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -225,7 +244,8 @@ Check if cloud-init is enabled.
 [coalescedDiskImages]: #coalesceddiskimages
 #### [coalescedDiskImages]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image[] </a>**  
+
 
 
 </div>
@@ -235,7 +255,8 @@ Check if cloud-init is enabled.
 [copyOnWriteFlag]: #copyonwriteflag
 #### [copyOnWriteFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -245,7 +266,8 @@ Check if cloud-init is enabled.
 [diskFileExtension]: #diskfileextension
 #### [diskFileExtension]
 Return disk file extension  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -255,7 +277,8 @@ Return disk file extension
 [diskImageStorageGroup]: #diskimagestoragegroup
 #### [diskImageStorageGroup]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group'>SoftLayer_Configuration_Storage_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group'>SoftLayer_Configuration_Storage_Group </a>**  
+
 
 
 </div>
@@ -265,7 +288,8 @@ Return disk file extension
 [importedDiskType]: #importeddisktype
 #### [importedDiskType]
 Return imported disk type  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -275,7 +299,8 @@ Return imported disk type
 [isEncrypted]: #isencrypted
 #### [isEncrypted]
 Return if image is encrypted  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -285,7 +310,8 @@ Return if image is encrypted
 [localDiskFlag]: #localdiskflag
 #### [localDiskFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -295,7 +321,8 @@ Return if image is encrypted
 [metadataFlag]: #metadataflag
 #### [metadataFlag]
 Whether this disk image is meant for storage of custom user data supplied with a Cloud Computing Instance order.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -305,7 +332,8 @@ Whether this disk image is meant for storage of custom user data supplied with a
 [softwareReferences]: #softwarereferences
 #### [softwareReferences]
 References to the software that resides on a disk image.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Software'>SoftLayer_Virtual_Disk_Image_Software[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Software'>SoftLayer_Virtual_Disk_Image_Software[] </a>**  
+
 
 
 </div>
@@ -315,7 +343,8 @@ References to the software that resides on a disk image.
 [sourceDiskImage]: #sourcediskimage
 #### [sourceDiskImage]
 The original disk image that the current disk image was cloned from.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image </a>**  
+
 
 
 </div>
@@ -325,7 +354,8 @@ The original disk image that the current disk image was cloned from.
 [storageGroupDetails]: #storagegroupdetails
 #### [storageGroupDetails]
 Return storage group details for symantec disk  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Image_StorageGroupDetails'>SoftLayer_Container_Image_StorageGroupDetails </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Image_StorageGroupDetails'>SoftLayer_Container_Image_StorageGroupDetails </a>**  
+
 
 
 </div>
@@ -335,7 +365,8 @@ Return storage group details for symantec disk
 [storageGroups]: #storagegroups
 #### [storageGroups]
 The storage group for a virtual disk image.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group'>SoftLayer_Configuration_Storage_Group[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group'>SoftLayer_Configuration_Storage_Group[] </a>**  
+
 
 
 </div>
@@ -345,7 +376,8 @@ The storage group for a virtual disk image.
 [storageRepository]: #storagerepository
 #### [storageRepository]
 The storage repository that a disk image resides in.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository'>SoftLayer_Virtual_Storage_Repository </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository'>SoftLayer_Virtual_Storage_Repository </a>**  
+
 
 
 </div>
@@ -355,7 +387,8 @@ The storage repository that a disk image resides in.
 [storageRepositoryType]: #storagerepositorytype
 #### [storageRepositoryType]
 The type of storage repository that a disk image resides in.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository_Type'>SoftLayer_Virtual_Storage_Repository_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository_Type'>SoftLayer_Virtual_Storage_Repository_Type </a>**  
+
 
 
 </div>
@@ -365,7 +398,8 @@ The type of storage repository that a disk image resides in.
 [supportedHardware]: #supportedhardware
 #### [supportedHardware]
 Return supported hardware component IDs for symantec disk  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -375,7 +409,8 @@ Return supported hardware component IDs for symantec disk
 [templateBlockDevice]: #templateblockdevice
 #### [templateBlockDevice]
 The template that attaches a disk image to a [SoftLayer_Virtual_Guest_Block_Device_Template_Group]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group">}}).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template'>SoftLayer_Virtual_Guest_Block_Device_Template </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template'>SoftLayer_Virtual_Guest_Block_Device_Template </a>**  
+
 
 
 </div>
@@ -385,7 +420,8 @@ The template that attaches a disk image to a [SoftLayer_Virtual_Guest_Block_Devi
 [type]: #type
 #### [type]
 A virtual disk image's type.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Type'>SoftLayer_Virtual_Disk_Image_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Type'>SoftLayer_Virtual_Disk_Image_Type </a>**  
+
 
 
 </div>
@@ -397,7 +433,8 @@ A virtual disk image's type.
 [blockDeviceCount]: #blockdevicecount
 #### [blockDeviceCount]
 A count of the block devices that a disk image is attached to. Block devices connect computing instances to disk images.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -407,7 +444,8 @@ A count of the block devices that a disk image is attached to. Block devices con
 [coalescedDiskImageCount]: #coalesceddiskimagecount
 #### [coalescedDiskImageCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -417,7 +455,8 @@ A count of
 [softwareReferenceCount]: #softwarereferencecount
 #### [softwareReferenceCount]
 A count of references to the software that resides on a disk image.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -427,7 +466,8 @@ A count of references to the software that resides on a disk image.
 [storageGroupCount]: #storagegroupcount
 #### [storageGroupCount]
 A count of the storage group for a virtual disk image.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

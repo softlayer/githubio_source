@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Configuration_Template_Section data type contains information of a configuration section. 
 
 Configuration can contain sub-sections. 
@@ -49,7 +51,8 @@ Configuration can contain sub-sections.
 [createDate]: #createdate
 #### [createDate]
 Created date  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -59,7 +62,8 @@ Created date
 [description]: #description
 #### [description]
 Configuration section description  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -69,7 +73,8 @@ Configuration section description
 [id]: #id
 #### [id]
 Internal identifier of a configuration section.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -79,7 +84,8 @@ Internal identifier of a configuration section.
 [linkedTemplateId]: #linkedtemplateid
 #### [linkedTemplateId]
 Internal identifier of a sub configuration template that this section points to. Use this property if you wish to create a reference to a sub configuration template when creating a linked section.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -89,7 +95,8 @@ Internal identifier of a sub configuration template that this section points to.
 [modifyDate]: #modifydate
 #### [modifyDate]
 Last modified date  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -99,7 +106,8 @@ Last modified date
 [name]: #name
 #### [name]
 Configuration section name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -109,7 +117,8 @@ Configuration section name
 [parentId]: #parentid
 #### [parentId]
 Internal identifier of the parent configuration section  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -119,7 +128,8 @@ Internal identifier of the parent configuration section
 [sort]: #sort
 #### [sort]
 Sort order  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -129,7 +139,8 @@ Sort order
 [templateId]: #templateid
 #### [templateId]
 Internal identifier of a configuration template that this section belongs to  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -139,7 +150,8 @@ Internal identifier of a configuration template that this section belongs to
 [typeId]: #typeid
 #### [typeId]
 Internal identifier of the configuration section type  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -155,7 +167,8 @@ Internal identifier of the configuration section type
 [definitions]: #definitions
 #### [definitions]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition'>SoftLayer_Configuration_Template_Section_Definition[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition'>SoftLayer_Configuration_Template_Section_Definition[] </a>**  
+
 
 
 </div>
@@ -165,7 +178,8 @@ Internal identifier of the configuration section type
 [disallowedDeletionFlag]: #disalloweddeletionflag
 #### [disallowedDeletionFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -175,7 +189,8 @@ Internal identifier of the configuration section type
 [linkedTemplate]: #linkedtemplate
 #### [linkedTemplate]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>**  
+
 
 
 </div>
@@ -185,7 +200,8 @@ Internal identifier of the configuration section type
 [linkedTemplateReference]: #linkedtemplatereference
 #### [linkedTemplateReference]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Reference'>SoftLayer_Configuration_Template_Section_Reference </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Reference'>SoftLayer_Configuration_Template_Section_Reference </a>**  
+
 
 
 </div>
@@ -195,7 +211,8 @@ Internal identifier of the configuration section type
 [profiles]: #profiles
 #### [profiles]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Profile'>SoftLayer_Configuration_Template_Section_Profile[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Profile'>SoftLayer_Configuration_Template_Section_Profile[] </a>**  
+
 
 
 </div>
@@ -205,7 +222,8 @@ Internal identifier of the configuration section type
 [sectionType]: #sectiontype
 #### [sectionType]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Type'>SoftLayer_Configuration_Template_Section_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Type'>SoftLayer_Configuration_Template_Section_Type </a>**  
+
 
 
 </div>
@@ -215,7 +233,8 @@ Internal identifier of the configuration section type
 [sectionTypeName]: #sectiontypename
 #### [sectionTypeName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -225,7 +244,8 @@ Internal identifier of the configuration section type
 [subSections]: #subsections
 #### [subSections]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section'>SoftLayer_Configuration_Template_Section[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section'>SoftLayer_Configuration_Template_Section[] </a>**  
+
 
 
 </div>
@@ -235,7 +255,8 @@ Internal identifier of the configuration section type
 [template]: #template
 #### [template]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>**  
+
 
 
 </div>
@@ -247,7 +268,8 @@ Internal identifier of the configuration section type
 [definitionCount]: #definitioncount
 #### [definitionCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -257,7 +279,8 @@ A count of
 [profileCount]: #profilecount
 #### [profileCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -267,7 +290,8 @@ A count of
 [subSectionCount]: #subsectioncount
 #### [subSectionCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

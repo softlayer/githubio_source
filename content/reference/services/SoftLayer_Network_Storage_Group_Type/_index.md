@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,12 +44,14 @@ classes:
 
 #### [getAllObjects](/reference/services/SoftLayer_Network_Storage_Group_Type/getAllObjects)
 Returns all storage group types available
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Storage_Group_Type/getObject)
 Retrieve a SoftLayer_Network_Storage_Group_Type record.
+
 </div>
 </div>
 

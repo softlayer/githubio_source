@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::upgrade
 
+
 Convert the VLAN to a paid resource. That is, from an Automatic to a Premium VLAN.
 
 

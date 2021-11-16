@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getUsageNotification
 
+
 Retrieve the usage notification for SL Storage services.
 
 

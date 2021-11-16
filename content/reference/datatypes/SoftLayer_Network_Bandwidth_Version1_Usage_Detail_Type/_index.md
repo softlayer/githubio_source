@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type data type contains generic information relating to the types of bandwidth records available, currently just public and private. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type data type contains ge
 [alias]: #alias
 #### [alias]
 Database key associated with this bandwidth detail type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

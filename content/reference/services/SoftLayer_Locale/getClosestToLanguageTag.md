@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Locale](/reference/services/SoftLayer_Locale)::getClosestToLanguageTag
 
+
 Get the closest locale for the language tag (ISO 639-1 & 3166-1) format.
 
 

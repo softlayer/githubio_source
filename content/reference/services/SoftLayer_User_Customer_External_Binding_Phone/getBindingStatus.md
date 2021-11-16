@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_External_Binding_Phone](/reference/services/SoftLayer_User_Customer_External_Binding_Phone)::getBindingStatus
 
+
 Retrieve the current external binding status. It can be "ACTIVE" or "BLOCKED".
 
 

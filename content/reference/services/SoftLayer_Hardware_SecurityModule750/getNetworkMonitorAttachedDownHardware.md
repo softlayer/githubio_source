@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getNetworkMonitorAttachedDownHardware
 
+
 Retrieve all servers with failed monitoring that are attached downstream to a piece of hardware.
 
 

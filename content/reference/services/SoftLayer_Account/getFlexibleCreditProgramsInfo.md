@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getFlexibleCreditProgramsInfo
 
+
 This method retrieves information on all of your Flexible Credit Program enrollments for your account. 
 
 

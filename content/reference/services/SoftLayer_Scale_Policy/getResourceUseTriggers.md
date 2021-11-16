@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Policy](/reference/services/SoftLayer_Scale_Policy)::getResourceUseTriggers
 
+
 Retrieve the resource-use triggers to check for this group.
 
 

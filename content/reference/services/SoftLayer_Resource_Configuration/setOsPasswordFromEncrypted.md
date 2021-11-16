@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Resource_Configuration](/reference/services/SoftLayer_Resource_Configuration)::setOsPasswordFromEncrypted
 
+
 Set resource operating system password from an encrypted password
 
 

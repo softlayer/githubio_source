@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Configuration section allow you to divide a large configuration values into a smaller pieces. 
 
 
@@ -42,11 +44,13 @@ Configuration section allow you to divide a large configuration values into a sm
 
 #### [getDefinitions](/reference/services/SoftLayer_Configuration_Template_Section/getDefinitions)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getDisallowedDeletionFlag](/reference/services/SoftLayer_Configuration_Template_Section/getDisallowedDeletionFlag)
+
 
 </div>
 
@@ -54,11 +58,13 @@ Configuration section allow you to divide a large configuration values into a sm
 
 #### [getLinkedTemplate](/reference/services/SoftLayer_Configuration_Template_Section/getLinkedTemplate)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getLinkedTemplateReference](/reference/services/SoftLayer_Configuration_Template_Section/getLinkedTemplateReference)
+
 
 </div>
 
@@ -66,11 +72,13 @@ Configuration section allow you to divide a large configuration values into a sm
 
 #### [getObject](/reference/services/SoftLayer_Configuration_Template_Section/getObject)
 Retrieve a SoftLayer_Configuration_Template_Section record.
+
 </div>
 
 <div class="method-row">
 
 #### [getProfiles](/reference/services/SoftLayer_Configuration_Template_Section/getProfiles)
+
 
 </div>
 
@@ -78,11 +86,13 @@ Retrieve a SoftLayer_Configuration_Template_Section record.
 
 #### [getSectionType](/reference/services/SoftLayer_Configuration_Template_Section/getSectionType)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getSectionTypeName](/reference/services/SoftLayer_Configuration_Template_Section/getSectionTypeName)
+
 
 </div>
 
@@ -90,11 +100,13 @@ Retrieve a SoftLayer_Configuration_Template_Section record.
 
 #### [getSubSections](/reference/services/SoftLayer_Configuration_Template_Section/getSubSections)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getTemplate](/reference/services/SoftLayer_Configuration_Template_Section/getTemplate)
+
 
 </div>
 
@@ -102,6 +114,7 @@ Retrieve a SoftLayer_Configuration_Template_Section record.
 
 #### [hasSubSections](/reference/services/SoftLayer_Configuration_Template_Section/hasSubSections)
 Check if object has sub-sections
+
 </div>
 </div>
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 An account's user may obtain access to SoftLayer's API through this authentication service. 
 
 
@@ -42,18 +44,21 @@ An account's user may obtain access to SoftLayer's API through this authenticati
 
 #### [editObject](/reference/services/SoftLayer_User_Customer_ApiAuthentication/editObject)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_User_Customer_ApiAuthentication/getObject)
 Retrieve a SoftLayer_User_Customer_ApiAuthentication record.
+
 </div>
 
 <div class="method-row">
 
 #### [getUser](/reference/services/SoftLayer_User_Customer_ApiAuthentication/getUser)
 Retrieve the user who owns the api authentication key.
+
 </div>
 </div>
 

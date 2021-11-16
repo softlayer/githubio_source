@@ -14,6 +14,8 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::findAllSubnetsAndActiveSwipTransactionStatus
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 Retrieve a list of subnets along with their SWIP transaction statuses.
 
 

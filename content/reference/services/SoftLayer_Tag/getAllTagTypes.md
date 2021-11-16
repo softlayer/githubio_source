@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Tag](/reference/services/SoftLayer_Tag)::getAllTagTypes
 
+
 Get all valid tag types.
 
 

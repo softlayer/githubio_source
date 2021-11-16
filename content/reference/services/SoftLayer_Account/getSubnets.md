@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSubnets
 
+
 Retrieve all network subnets associated with an account.
 
 

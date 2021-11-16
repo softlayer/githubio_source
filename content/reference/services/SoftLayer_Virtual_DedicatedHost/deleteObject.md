@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_DedicatedHost](/reference/services/SoftLayer_Virtual_DedicatedHost)::deleteObject
 
+
 Reclaim a dedicated host to cancel it's use. 
 
 

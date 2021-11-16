@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::updateNotificationSubscriber
 
+
 Update the active status for a notification subscription.
 
 

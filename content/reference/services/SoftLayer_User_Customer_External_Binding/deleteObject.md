@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_External_Binding](/reference/services/SoftLayer_User_Customer_External_Binding)::deleteObject
 
+
 Delete an external authentication binding.
 
 

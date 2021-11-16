@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This SoftLayer_Software_Component_Password data type contains a password for a specific software component instance. 
 
 
@@ -53,7 +55,8 @@ This SoftLayer_Software_Component_Password data type contains a password for a s
 [createDate]: #createdate
 #### [createDate]
 The date this username/password pair was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -63,7 +66,8 @@ The date this username/password pair was created.
 [id]: #id
 #### [id]
 An id number for this specific username/password pair.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -73,7 +77,8 @@ An id number for this specific username/password pair.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date of the last modification to this username/password pair.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -83,7 +88,8 @@ The date of the last modification to this username/password pair.
 [notes]: #notes
 #### [notes]
 A note string stored for this username/password pair.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -93,7 +99,8 @@ A note string stored for this username/password pair.
 [password]: #password
 #### [password]
 The password part of the username/password pair.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -103,7 +110,8 @@ The password part of the username/password pair.
 [port]: #port
 #### [port]
 The application access port for the Software Component.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -113,7 +121,8 @@ The application access port for the Software Component.
 [softwareId]: #softwareid
 #### [softwareId]
 An id number for the software component this username/password pair is valid for.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -123,7 +132,8 @@ An id number for the software component this username/password pair is valid for
 [username]: #username
 #### [username]
 The username part of the username/password pair.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -139,7 +149,8 @@ The username part of the username/password pair.
 [software]: #software
 #### [software]
 The SoftLayer_Software_Component instance that this username/password pair is valid for.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>**  
+
 
 
 </div>
@@ -149,7 +160,8 @@ The SoftLayer_Software_Component instance that this username/password pair is va
 [sshKeys]: #sshkeys
 #### [sshKeys]
 SSH keys to be installed on the server during provisioning or an OS reload.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Ssh_Key'>SoftLayer_Security_Ssh_Key[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Ssh_Key'>SoftLayer_Security_Ssh_Key[] </a>**  
+
 
 
 </div>
@@ -161,7 +173,8 @@ SSH keys to be installed on the server during provisioning or an OS reload.
 [sshKeyCount]: #sshkeycount
 #### [sshKeyCount]
 A count of sSH keys to be installed on the server during provisioning or an OS reload.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

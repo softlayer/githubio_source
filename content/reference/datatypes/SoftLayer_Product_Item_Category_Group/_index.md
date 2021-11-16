@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Product_Item_Category_Group data type contains general category group information. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Product_Item_Category_Group data type contains general category gr
 [id]: #id
 #### [id]
 identifier for category group.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ identifier for category group.
 [name]: #name
 #### [name]
 The friendly, descriptive name of the category group as seen on the order forms and on invoices.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

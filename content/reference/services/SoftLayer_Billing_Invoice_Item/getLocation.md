@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Invoice_Item](/reference/services/SoftLayer_Billing_Invoice_Item)::getLocation
 
+
 Retrieve an invoice item's location, if one exists.'
 
 

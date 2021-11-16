@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getSnapshotDeletionThresholdPercentage
 
+
 Retrieve the percentage of used snapshot space after which to delete automated snapshots.
 
 

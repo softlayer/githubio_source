@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Behavior_ModifyResponseHeader](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_ModifyResponseHeader)::listModifyResponseHeader
 
+
 SOAP API will list modify response headers for an existing mapping and for a particular customer. 
 
 

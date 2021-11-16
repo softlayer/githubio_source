@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Sales_Presale_Event](/reference/services/SoftLayer_Sales_Presale_Event)::getObject
 
+
 Retrieve a SoftLayer_Sales_Presale_Event record.
 
 

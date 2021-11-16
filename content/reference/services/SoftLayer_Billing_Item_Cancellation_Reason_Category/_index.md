@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,18 +44,21 @@ classes:
 
 #### [getAllCancellationReasonCategories](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason_Category/getAllCancellationReasonCategories)
 Retrieve all available cancellation reason categories. 
+
 </div>
 
 <div class="method-row">
 
 #### [getBillingCancellationReasons](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason_Category/getBillingCancellationReasons)
 Retrieve the corresponding billing cancellation reasons having the specific billing cancellation reason category.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason_Category/getObject)
 Retrieve a SoftLayer_Billing_Item_Cancellation_Reason_Category record.
+
 </div>
 </div>
 

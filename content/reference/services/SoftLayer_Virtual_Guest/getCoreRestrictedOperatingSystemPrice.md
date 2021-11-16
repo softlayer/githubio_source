@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getCoreRestrictedOperatingSystemPrice
 
+
 Return the associated core-restricted operating system item price for the virtual server.
 
 

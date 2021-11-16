@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getCancelFailureReasons
 
+
 Get a set of reasons why this VLAN may not be cancelled.
 
 

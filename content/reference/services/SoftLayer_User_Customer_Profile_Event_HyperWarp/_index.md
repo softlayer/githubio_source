@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,6 +44,7 @@ classes:
 
 #### [receiveEventDirect](/reference/services/SoftLayer_User_Customer_Profile_Event_HyperWarp/receiveEventDirect)
 Modifies linked Paas user data based on changes initiated by Bluemix.
+
 </div>
 </div>
 

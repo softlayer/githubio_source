@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Bandwidth_Version1_Usage data type contains general information relating to a single bandwidth usage record. 
 
 
@@ -51,7 +53,8 @@ The SoftLayer_Network_Bandwidth_Version1_Usage data type contains general inform
 [bandwidthAllotmentDetail]: #bandwidthallotmentdetail
 #### [bandwidthAllotmentDetail]
 Bandwidth allotment detail for this hardware.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Detail'>SoftLayer_Network_Bandwidth_Version1_Allotment_Detail </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Detail'>SoftLayer_Network_Bandwidth_Version1_Allotment_Detail </a>**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ Bandwidth allotment detail for this hardware.
 [bandwidthUsageDetail]: #bandwidthusagedetail
 #### [bandwidthUsageDetail]
 Bandwidth usage details for this hardware.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail[] </a>**  
+
 
 
 </div>
@@ -73,7 +77,8 @@ Bandwidth usage details for this hardware.
 [bandwidthUsageDetailCount]: #bandwidthusagedetailcount
 #### [bandwidthUsageDetailCount]
 A count of bandwidth usage details for this hardware.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

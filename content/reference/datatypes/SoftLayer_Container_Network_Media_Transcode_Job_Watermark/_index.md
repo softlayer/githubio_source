@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [endTime]: #endtime
 #### [endTime]
 Time to stop showing watermark in milliseconds  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Time to stop showing watermark in milliseconds
 [fileName]: #filename
 #### [fileName]
 Filename of image to use as watermark in transcoding job  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Filename of image to use as watermark in transcoding job
 [position]: #position
 #### [position]
 Position to place watermark at  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Network_Media_Transcode_Job_Watermark_Position'>SoftLayer_Container_Network_Media_Transcode_Job_Watermark_Position </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Network_Media_Transcode_Job_Watermark_Position'>SoftLayer_Container_Network_Media_Transcode_Job_Watermark_Position </a>**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Position to place watermark at
 [startTime]: #starttime
 #### [startTime]
 Time to start showing watermark in milliseconds  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Time to start showing watermark in milliseconds
 [text]: #text
 #### [text]
 Text to Place in Watermark  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Text to Place in Watermark
 [transparencyPercentage]: #transparencypercentage
 #### [transparencyPercentage]
 Percentage Transparent watermark should be  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

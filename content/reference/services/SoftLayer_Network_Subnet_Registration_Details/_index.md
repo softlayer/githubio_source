@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,30 +44,35 @@ classes:
 
 #### [createObject](/reference/services/SoftLayer_Network_Subnet_Registration_Details/createObject)
 Create a new association between a [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}) object and a [SoftLayer_Account_Regional_Registry_Detail]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail">}}) object. 
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Network_Subnet_Registration_Details/deleteObject)
 Remove an existing association between a [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}) object and a [SoftLayer_Account_Regional_Registry_Detail]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail">}}) object. 
+
 </div>
 
 <div class="method-row">
 
 #### [getDetail](/reference/services/SoftLayer_Network_Subnet_Registration_Details/getDetail)
 Retrieve the related [SoftLayer_Account_Regional_Registry_Detail]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail">}}).
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Subnet_Registration_Details/getObject)
 Retrieve a SoftLayer_Network_Subnet_Registration_Details record.
+
 </div>
 
 <div class="method-row">
 
 #### [getRegistration](/reference/services/SoftLayer_Network_Subnet_Registration_Details/getRegistration)
 Retrieve the related [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}).
+
 </div>
 </div>
 

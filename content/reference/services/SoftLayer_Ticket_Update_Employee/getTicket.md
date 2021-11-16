@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket_Update_Employee](/reference/services/SoftLayer_Ticket_Update_Employee)::getTicket
 
+
 Retrieve the ticket that a ticket update belongs to.
 
 

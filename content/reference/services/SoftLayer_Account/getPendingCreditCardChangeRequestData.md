@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPendingCreditCardChangeRequestData
 
+
 Retrieve details of all credit card change requests which have not been processed by a SoftLayer agent.
 
 

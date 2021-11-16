@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Configuration_Template](/reference/services/SoftLayer_Configuration_Template)::getAllObjects
 
+
 Retrieves all available configuration templates.
 
 

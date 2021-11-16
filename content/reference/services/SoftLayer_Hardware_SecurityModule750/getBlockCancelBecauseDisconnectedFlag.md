@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getBlockCancelBecauseDisconnectedFlag
 
+
 Retrieve determines whether the hardware is ineligible for cancellation because it is disconnected.
 
 

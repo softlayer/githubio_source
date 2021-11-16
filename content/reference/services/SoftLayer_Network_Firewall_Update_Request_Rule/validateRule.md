@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Firewall_Update_Request_Rule](/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule)::validateRule
 
+
 Validate a firewall update request rule.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Customer_Subnet data type contains general information relating to a single customer subnet (remote). 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Customer_Subnet data type contains general information rel
 [accountId]: #accountid
 #### [accountId]
 The account id a customer subnet belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The account id a customer subnet belongs to.
 [cidr]: #cidr
 #### [cidr]
 A subnet's Classless Inter-Domain Routing prefix. This is a number between 0 and 32 signifying the number of bits in a subnet's netmask. These bits separate a subnet's network address from it's host addresses. It performs the same function as the ''netmask'' property, but is represented as an integer.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A subnet's Classless Inter-Domain Routing prefix. This is a number between 0 and
 [id]: #id
 #### [id]
 A customer subnet's unique identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A customer subnet's unique identifier.
 [netmask]: #netmask
 #### [netmask]
 A bitmask in dotted-quad format that is used to separate a subnet's network address from it's host addresses. This performs the same function as the ''cidr'' property, but is expressed in a string format.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ A bitmask in dotted-quad format that is used to separate a subnet's network addr
 [networkIdentifier]: #networkidentifier
 #### [networkIdentifier]
 A subnet's network identifier. This is the first IP address of a subnet.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ A subnet's network identifier. This is the first IP address of a subnet.
 [totalIpAddresses]: #totalipaddresses
 #### [totalIpAddresses]
 The total number of ip addresses in a subnet.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The total number of ip addresses in a subnet.
 [ipAddresses]: #ipaddresses
 #### [ipAddresses]
 All ip addresses associated with a subnet.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet_IpAddress'>SoftLayer_Network_Customer_Subnet_IpAddress[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet_IpAddress'>SoftLayer_Network_Customer_Subnet_IpAddress[] </a>**  
+
 
 
 </div>
@@ -123,7 +132,8 @@ All ip addresses associated with a subnet.
 [ipAddressCount]: #ipaddresscount
 #### [ipAddressCount]
 A count of all ip addresses associated with a subnet.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

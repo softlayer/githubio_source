@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Group](/reference/services/SoftLayer_Network_Storage_Group)::addAllowedHost
 
+
 Attach a SoftLayer_Network_Storage_Allowed_Host object to this group
 
 

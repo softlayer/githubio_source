@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Media](/reference/services/SoftLayer_Account_Media)::getType
 
+
 Retrieve the media's type.
 
 

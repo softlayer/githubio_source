@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This object holds a generic component model id and the list of datacenter names where it is available. 
 
 
@@ -45,7 +47,8 @@ This object holds a generic component model id and the list of datacenter names 
 [datacenters]: #datacenters
 #### [datacenters]
 array of datacenter names where generic component model is available  
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ array of datacenter names where generic component model is available
 [genericComponentModelId]: #genericcomponentmodelid
 #### [genericComponentModelId]
 generic component model id  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ generic component model id
 [serverPackageId]: #serverpackageid
 #### [serverPackageId]
 Id of SoftLayer_Product_Package_Server  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

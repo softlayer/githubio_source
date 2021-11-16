@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth)::updateTokenAuthPath
 
+
 SOAP API will update Token authentication Path for an existing mapping and for a particular customer. 
 
 

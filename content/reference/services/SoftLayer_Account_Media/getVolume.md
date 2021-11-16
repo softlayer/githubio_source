@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Media](/reference/services/SoftLayer_Account_Media)::getVolume
 
+
 Retrieve a guest's associated EVault network storage service account.
 
 

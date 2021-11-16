@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getObject
 
+
 Retrieve a SoftLayer_Product_Item_Price record.
 
 

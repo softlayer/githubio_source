@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The LoadBalancer_StatusEntry object stores information about the current status of a particular load balancer service. 
 
 It is a data container that cannot be edited, deleted, or saved. 
@@ -49,7 +51,8 @@ It is returned exclusively by the getStatus method on the [SoftLayer_Network_Loa
 [content]: #content
 #### [content]
 The value of the entry.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -59,7 +62,8 @@ The value of the entry.
 [label]: #label
 #### [label]
 Text description of the status entry  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

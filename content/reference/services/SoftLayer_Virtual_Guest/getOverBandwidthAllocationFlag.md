@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getOverBandwidthAllocationFlag
 
+
 Retrieve whether the bandwidth usage for this computing instance for the current billing cycle exceeds the allocation.
 
 

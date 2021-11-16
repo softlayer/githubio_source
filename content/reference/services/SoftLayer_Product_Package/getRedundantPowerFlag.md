@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getRedundantPowerFlag
 
+
 Retrieve this flag determines if the package contains a redundant power supply product.
 
 

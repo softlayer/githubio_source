@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Cart](/reference/services/SoftLayer_Billing_Order_Cart)::getDoNotContactFlag
 
+
 Retrieve indicates whether the owner of the quote chosen to no longer be contacted.
 
 

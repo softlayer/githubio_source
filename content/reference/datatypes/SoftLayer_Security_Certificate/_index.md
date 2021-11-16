@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -47,7 +49,8 @@ classes:
 The certificate provided publicly to clients requesting identity credentials. This certificate is usually signed by a source trusted by the client or a signature chain can be established between this certificate and the truested certificate. 
 
 This property may only be modified when no services are associated. See associatedServiceCount.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -59,7 +62,8 @@ This property may only be modified when no services are associated. See associat
 The signing request used to request a certificate authority generate a signed certificate. 
 
 This property may only be modified when no services are associated. See associatedServiceCount.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ This property may only be modified when no services are associated. See associat
 The common name (usually a domain name) encoded within the certificate. 
 
 This property is read only. Changes made will be silently ignored.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -83,7 +88,8 @@ This property is read only. Changes made will be silently ignored.
 The date the certificate _record_ was created. The contents of the certificate may of changed since the record was created, so this does not represent anything about the certificate itself. 
 
 This property is read only. Changes made will be silently ignored.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -93,7 +99,8 @@ This property is read only. Changes made will be silently ignored.
 [id]: #id
 #### [id]
 The ID of the certificate record.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +112,8 @@ The ID of the certificate record.
 The intermediate certificate authorities certificate that completes the certificate chain for the issued certificate. Required when clients will only trust the root certificate. 
 
 This property may only be modified when no services are associated. See associatedServiceCount.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +123,8 @@ This property may only be modified when no services are associated. See associat
 [keySize]: #keysize
 #### [keySize]
 The size (number of bits) of the public key represented by the certificate.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -127,7 +136,8 @@ The size (number of bits) of the public key represented by the certificate.
 The date the certificate _record_ was last modified.The contents of the certificate may of changed since the record was created, so this does not represent anything about the certificate itself. 
 
 This property is read only. Changes made will be silently ignored.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -137,7 +147,8 @@ This property is read only. Changes made will be silently ignored.
 [notes]: #notes
 #### [notes]
 A note to help describe the certificate.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -149,7 +160,8 @@ A note to help describe the certificate.
 The organizational name encoded in the certificate. 
 
 This property is read only. Changes made will be silently ignored.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -161,7 +173,8 @@ This property is read only. Changes made will be silently ignored.
 The private key in the key/certificate pair. 
 
 This property may only be modified when no services are associated. See associatedServiceCount.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -173,7 +186,8 @@ This property may only be modified when no services are associated. See associat
 The UTC timestamp representing the beginning of the certificate's validity 
 
 This property is read only. Changes made will be silently ignored.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -185,7 +199,8 @@ This property is read only. Changes made will be silently ignored.
 The number of days remaining in the validity period for the certificate. 
 
 This property is read only. Changes made will be silently ignored.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -197,7 +212,8 @@ This property is read only. Changes made will be silently ignored.
 The UTC timestamp representing the end of the certificate's validity period. 
 
 This property is read only. Changes made will be silently ignored.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -213,7 +229,8 @@ This property is read only. Changes made will be silently ignored.
 [associatedServiceCount]: #associatedservicecount
 #### [associatedServiceCount]
 The number of services currently associated with the certificate.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -223,7 +240,8 @@ The number of services currently associated with the certificate.
 [lbaasListeners]: #lbaaslisteners
 #### [lbaasListeners]
 Cloud Load Balancer [LBaaS] listeners currently associated with the certificate.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_Listener'>SoftLayer_Network_LBaaS_Listener[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_Listener'>SoftLayer_Network_LBaaS_Listener[] </a>**  
+
 
 
 </div>
@@ -233,7 +251,8 @@ Cloud Load Balancer [LBaaS] listeners currently associated with the certificate.
 [loadBalancerVirtualIpAddresses]: #loadbalancervirtualipaddresses
 #### [loadBalancerVirtualIpAddresses]
 The load balancers virtual IP addresses currently associated with the certificate.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress[] </a>**  
+
 
 
 </div>
@@ -245,7 +264,8 @@ The load balancers virtual IP addresses currently associated with the certificat
 [lbaasListenerCount]: #lbaaslistenercount
 #### [lbaasListenerCount]
 A count of cloud Load Balancer [LBaaS] listeners currently associated with the certificate.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -255,7 +275,8 @@ A count of cloud Load Balancer [LBaaS] listeners currently associated with the c
 [loadBalancerVirtualIpAddressCount]: #loadbalancervirtualipaddresscount
 #### [loadBalancerVirtualIpAddressCount]
 A count of the load balancers virtual IP addresses currently associated with the certificate.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

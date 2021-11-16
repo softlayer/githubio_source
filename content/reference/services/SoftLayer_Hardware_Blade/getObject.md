@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Blade](/reference/services/SoftLayer_Hardware_Blade)::getObject
 
+
 Retrieve a SoftLayer_Hardware_Blade record.
 
 

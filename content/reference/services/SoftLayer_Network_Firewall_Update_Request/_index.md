@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Network_Firewall_Update_Request service can be used to create SoftLayer network component firewall rules update requests.  Update requests are added to a transaction queue and are typically posted in about 60 seconds.  After they are posted, they are listed as current rules via the [[SoftLayer Network Component Firewall]] service. Use the [[SoftLayer Network Component Firewall]] service to view current rules. Use the [[SoftLayer Network Firewall Template]] service to pull SoftLayer recommended rule set templates. 
 
 ### External Links
@@ -62,53 +64,62 @@ The SoftLayer_Network_Firewall_Update_Request service can be used to create Soft
 
 #### [createObject](/reference/services/SoftLayer_Network_Firewall_Update_Request/createObject)
 Create a new firewall update request.
+
 </div>
 
 <div class="method-row">
 
 #### [getAuthorizingUser](/reference/services/SoftLayer_Network_Firewall_Update_Request/getAuthorizingUser)
 Retrieve the user that authorized this firewall update request.
+
 </div>
 
 <div class="method-row">
 
 #### [getFirewallUpdateRequestRuleAttributes](/reference/services/SoftLayer_Network_Firewall_Update_Request/getFirewallUpdateRequestRuleAttributes)
 Get the possible attribute values for a firewall update request rule.
+
 </div>
 
 <div class="method-row">
 
 #### [getGuest](/reference/services/SoftLayer_Network_Firewall_Update_Request/getGuest)
 Retrieve the downstream virtual server that the rule set will be applied to.
+
 </div>
 
 <div class="method-row">
 
 #### [getHardware](/reference/services/SoftLayer_Network_Firewall_Update_Request/getHardware)
 Retrieve the downstream server that the rule set will be applied to.
+
 </div>
 
 <div class="method-row">
 
 #### [getNetworkComponentFirewall](/reference/services/SoftLayer_Network_Firewall_Update_Request/getNetworkComponentFirewall)
 Retrieve the network component firewall that the rule set will be applied to.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Firewall_Update_Request/getObject)
 Retrieve a SoftLayer_Network_Firewall_Update_Request record.
+
 </div>
 
 <div class="method-row">
 
 #### [getRules](/reference/services/SoftLayer_Network_Firewall_Update_Request/getRules)
 Retrieve the group of rules contained within the update request.
+
 </div>
 
 <div class="method-row">
 
 #### [updateRuleNote](/reference/services/SoftLayer_Network_Firewall_Update_Request/updateRuleNote)
+
 
 </div>
 </div>

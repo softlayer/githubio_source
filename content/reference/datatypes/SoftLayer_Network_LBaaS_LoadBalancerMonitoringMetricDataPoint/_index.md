@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Network_LBaaS_LoadBalancerMonitoringMetricDataPoint is a collection of datapoints retrieved from a load balancer instance. The available metrics are: <ul> <li>The metric value </li> <li>The timestamp when the metric value was obtained </li> </ul> 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Network_LBaaS_LoadBalancerMonitoringMetricDataPoint is a collection of
 [epochTimestamp]: #epochtimestamp
 #### [epochTimestamp]
 Epoch Time  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Epoch Time
 [value]: #value
 #### [value]
 a value  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>

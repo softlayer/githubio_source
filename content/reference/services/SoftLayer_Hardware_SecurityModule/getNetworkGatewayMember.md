@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getNetworkGatewayMember
 
+
 Retrieve the gateway member if this device is part of a network gateway.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getPartnerships
 
+
 Retrieve the volumes or snapshots partnered with a network storage volume.
 
 

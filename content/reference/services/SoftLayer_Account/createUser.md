@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::createUser
 
+
 Create a new user record, optionally skipping the IBMid email ("silently").
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Details required for OpenStack link request
 
 
@@ -45,7 +47,8 @@ Details required for OpenStack link request
 [desiredPassword]: #desiredpassword
 #### [desiredPassword]
 Optional password  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Optional password
 [desiredProjectName]: #desiredprojectname
 #### [desiredProjectName]
 Optional projectName  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Optional projectName
 [desiredUsername]: #desiredusername
 #### [desiredUsername]
 Required username  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

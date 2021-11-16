@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getBillingCyclePublicBandwidthUsage
 
+
 Retrieve the raw public bandwidth usage data for the current billing cycle.
 
 

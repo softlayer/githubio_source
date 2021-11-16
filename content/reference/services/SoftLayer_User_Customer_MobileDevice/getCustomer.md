@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_MobileDevice](/reference/services/SoftLayer_User_Customer_MobileDevice)::getCustomer
 
+
 Retrieve the user this mobile device belongs to.
 
 

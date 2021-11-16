@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,11 +44,13 @@ classes:
 
 #### [createObject](/reference/services/SoftLayer_Account_Note/createObject)
 
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Account_Note/deleteObject)
+
 
 </div>
 
@@ -54,11 +58,13 @@ classes:
 
 #### [editObject](/reference/services/SoftLayer_Account_Note/editObject)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Account_Note/getAccount)
+
 
 </div>
 
@@ -66,11 +72,13 @@ classes:
 
 #### [getCustomer](/reference/services/SoftLayer_Account_Note/getCustomer)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getNoteHistory](/reference/services/SoftLayer_Account_Note/getNoteHistory)
+
 
 </div>
 
@@ -78,6 +86,7 @@ classes:
 
 #### [getObject](/reference/services/SoftLayer_Account_Note/getObject)
 Retrieve a SoftLayer_Account_Note record.
+
 </div>
 </div>
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getLastFiveClosedAccountingTickets
 
+
 Retrieve the five most recently closed accounting tickets associated with an account.
 
 

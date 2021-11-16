@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Some configuration templates let you create a unique configuration profiles. 
 
 For example, you can create multiple configuration profiles to monitor multiple hard drives with "CPU/Memory/Disk Monitoring Agent". SoftLayer_Configuration_Template_Section_Profile help you keep track of custom configuration profiles. 
@@ -49,7 +51,8 @@ For example, you can create multiple configuration profiles to monitor multiple 
 [agentId]: #agentid
 #### [agentId]
 Internal identifier of a monitoring agent this profile belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -59,7 +62,8 @@ Internal identifier of a monitoring agent this profile belongs to.
 [createDate]: #createdate
 #### [createDate]
 Created date  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -69,7 +73,8 @@ Created date
 [id]: #id
 #### [id]
 Internal identifier of a configuration profile.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -79,7 +84,8 @@ Internal identifier of a configuration profile.
 [name]: #name
 #### [name]
 Name of a configuration profile  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -89,7 +95,8 @@ Name of a configuration profile
 [sectionId]: #sectionid
 #### [sectionId]
 Internal identifier of a configuration section that this profile belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +112,8 @@ Internal identifier of a configuration section that this profile belongs to.
 [configurationSection]: #configurationsection
 #### [configurationSection]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section'>SoftLayer_Configuration_Template_Section </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section'>SoftLayer_Configuration_Template_Section </a>**  
+
 
 
 </div>

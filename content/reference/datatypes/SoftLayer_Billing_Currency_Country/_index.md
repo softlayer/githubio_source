@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Billing_Currency_Country data type maps what currencies are valid for specific countries. US Dollars are valid from any country, but other currencies are only available to customers in certain countries. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Billing_Currency_Country data type maps what currencies are valid 
 [countryId]: #countryid
 #### [countryId]
 A unique identifier for the related country.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A unique identifier for the related country.
 [currencyId]: #currencyid
 #### [currencyId]
 A unique identifier for the related currency.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A unique identifier for the related currency.
 [id]: #id
 #### [id]
 A unique identifier for a map between a country and currency.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A unique identifier for a map between a country and currency.
 [locale]: #locale
 #### [locale]
 The country currency locale.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

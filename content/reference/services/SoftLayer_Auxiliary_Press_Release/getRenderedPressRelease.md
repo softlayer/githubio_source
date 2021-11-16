@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Auxiliary_Press_Release](/reference/services/SoftLayer_Auxiliary_Press_Release)::getRenderedPressRelease
 
+
 Retrieve a press release.
 
 

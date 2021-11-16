@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This data type presents the structure for a virtual reserved capacity group instance. 
 
 
@@ -45,7 +47,8 @@ This data type presents the structure for a virtual reserved capacity group inst
 [createDate]: #createdate
 #### [createDate]
 The date that the reserved capacity group instance was created.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The date that the reserved capacity group instance was created.
 [guestId]: #guestid
 #### [guestId]
 The virtual guest ID associated with this reserved capacity group instance.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The virtual guest ID associated with this reserved capacity group instance.
 [id]: #id
 #### [id]
 The reserved capacity group instance's associated unique ID.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The reserved capacity group instance's associated unique ID.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date that the reserved capacity group instance was last modified.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The date that the reserved capacity group instance was last modified.
 [reservedCapacityGroupId]: #reservedcapacitygroupid
 #### [reservedCapacityGroupId]
 The ID of the reserved capacity group this instance is associated with.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The ID of the reserved capacity group this instance is associated with.
 [availableFlag]: #availableflag
 #### [availableFlag]
 Flag to indecate whether or not the reserved instance is available or not.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ Flag to indecate whether or not the reserved instance is available or not.
 [billingItem]: #billingitem
 #### [billingItem]
 The billing item for the reserved capacity group instance.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The billing item for the reserved capacity group instance.
 [guest]: #guest
 #### [guest]
 The virtual guest associated with this reserved capacity group instance.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The virtual guest associated with this reserved capacity group instance.
 [reservedCapacityGroup]: #reservedcapacitygroup
 #### [reservedCapacityGroup]
 The reserved instances that are members of this reserved capacity group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup'>SoftLayer_Virtual_ReservedCapacityGroup </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup'>SoftLayer_Virtual_ReservedCapacityGroup </a>**  
+
 
 
 </div>

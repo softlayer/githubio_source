@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Virtual_Guest_Block_Device_Template_Group_Accounts data type represents the SoftLayer customer accounts which have access to provision CloudLayer Computing Instances from an image template group. 
 
 All accounts other than the image template group owner have read-only access to that image template group. 
@@ -59,7 +61,8 @@ It is important to note that this data type should only exist to give accounts a
 [accountId]: #accountid
 #### [accountId]
 The [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) ID which will have access to an image.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -69,7 +72,8 @@ The [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) ID wh
 [createDate]: #createdate
 #### [createDate]
 The date access was granted to an account.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -79,7 +83,8 @@ The date access was granted to an account.
 [groupId]: #groupid
 #### [groupId]
 The [SoftLayer_Virtual_Guest_Block_Device_Template_Group]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group">}}) ID which access will be granted to.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +100,8 @@ The [SoftLayer_Virtual_Guest_Block_Device_Template_Group]({{<ref "reference/data
 [account]: #account
 #### [account]
 The [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) that an image template group is shared with.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -105,7 +111,8 @@ The [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) that 
 [group]: #group
 #### [group]
 The [SoftLayer_Virtual_Guest_Block_Device_Template_Group]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group">}}) that is shared with an account.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group </a>**  
+
 
 
 </div>

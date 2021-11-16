@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Message_Delivery](/reference/services/SoftLayer_Network_Message_Delivery)::getType
 
+
 Retrieve the message delivery type of a network message delivery account.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::removeAccessToReplicantFromIpAddressList
 
+
 Remove access to this replica volume's replica from multiple SoftLayer_Network_Subnet_IpAddress objects.
 
 

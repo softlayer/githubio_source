@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getPrimaryVersion6IpAddressRecord
 
+
 Retrieve the primary IPv6 Address record for a network component.
 
 

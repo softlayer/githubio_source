@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Configuration_Template_Attribute_Type models the type of attribute that can be assigned to a configuration definition. 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Configuration_Template_Attribute_Type models the type of attribute tha
 [description]: #description
 #### [description]
 Description of a definition attribute type  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Description of a definition attribute type
 [name]: #name
 #### [name]
 Name of a definition attribute type  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

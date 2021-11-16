@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getServerTemperatureGraphs
 
+
 Retrieve server's temperature graphs
 
 

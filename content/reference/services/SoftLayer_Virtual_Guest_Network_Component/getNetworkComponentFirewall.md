@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Network_Component](/reference/services/SoftLayer_Virtual_Guest_Network_Component)::getNetworkComponentFirewall
 
+
 Retrieve the upstream network component firewall.
 
 

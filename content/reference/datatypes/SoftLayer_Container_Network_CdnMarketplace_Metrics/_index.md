@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [descriptions]: #descriptions
 #### [descriptions]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [names]: #names
 #### [names]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [percentage]: #percentage
 #### [percentage]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [time]: #time
 #### [time]
   
-<span class="type-label">Type: </span>**array of integers**
+<span class="type-label">Type: </span>**array of integers**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ classes:
 [totals]: #totals
 #### [totals]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ classes:
 [type]: #type
 #### [type]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ classes:
 [xaxis]: #xaxis
 #### [xaxis]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ classes:
 [yaxis1]: #yaxis1
 #### [yaxis1]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ classes:
 [yaxis10]: #yaxis10
 #### [yaxis10]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ classes:
 [yaxis11]: #yaxis11
 #### [yaxis11]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ classes:
 [yaxis12]: #yaxis12
 #### [yaxis12]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ classes:
 [yaxis13]: #yaxis13
 #### [yaxis13]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ classes:
 [yaxis14]: #yaxis14
 #### [yaxis14]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ classes:
 [yaxis15]: #yaxis15
 #### [yaxis15]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -185,7 +201,8 @@ classes:
 [yaxis16]: #yaxis16
 #### [yaxis16]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -195,7 +212,8 @@ classes:
 [yaxis17]: #yaxis17
 #### [yaxis17]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -205,7 +223,8 @@ classes:
 [yaxis18]: #yaxis18
 #### [yaxis18]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -215,7 +234,8 @@ classes:
 [yaxis19]: #yaxis19
 #### [yaxis19]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -225,7 +245,8 @@ classes:
 [yaxis2]: #yaxis2
 #### [yaxis2]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -235,7 +256,8 @@ classes:
 [yaxis20]: #yaxis20
 #### [yaxis20]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -245,7 +267,8 @@ classes:
 [yaxis3]: #yaxis3
 #### [yaxis3]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -255,7 +278,8 @@ classes:
 [yaxis4]: #yaxis4
 #### [yaxis4]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -265,7 +289,8 @@ classes:
 [yaxis5]: #yaxis5
 #### [yaxis5]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -275,7 +300,8 @@ classes:
 [yaxis6]: #yaxis6
 #### [yaxis6]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -285,7 +311,8 @@ classes:
 [yaxis7]: #yaxis7
 #### [yaxis7]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -295,7 +322,8 @@ classes:
 [yaxis8]: #yaxis8
 #### [yaxis8]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -305,7 +333,8 @@ classes:
 [yaxis9]: #yaxis9
 #### [yaxis9]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>

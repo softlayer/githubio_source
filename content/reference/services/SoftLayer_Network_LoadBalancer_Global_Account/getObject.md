@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_LoadBalancer_Global_Account](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account)::getObject
 
+
 Retrieve a SoftLayer_Network_LoadBalancer_Global_Account record.
 
 

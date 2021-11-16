@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPriceRestrictions
 
+
 Retrieve the item price that an account is restricted to.
 
 

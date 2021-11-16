@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Component_HostIps](/reference/services/SoftLayer_Software_Component_HostIps)::getCurrentHostIpsPolicies
 
+
 Get the current Host IPS policies.
 
 

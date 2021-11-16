@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [availableCurrencies]: #availablecurrencies
 #### [availableCurrencies]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency[] </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [country]: #country
 #### [country]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Locale_Country'>SoftLayer_Locale_Country </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Locale_Country'>SoftLayer_Locale_Country </a>**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [currencyCountryLocales]: #currencycountrylocales
 #### [currencyCountryLocales]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency_Country'>SoftLayer_Billing_Currency_Country[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency_Country'>SoftLayer_Billing_Currency_Country[] </a>**  
+
 
 
 </div>

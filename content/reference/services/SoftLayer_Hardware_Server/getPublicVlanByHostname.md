@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getPublicVlanByHostname
 
+
 Retrieve the frontend VLAN by a server's hostname.
 
 

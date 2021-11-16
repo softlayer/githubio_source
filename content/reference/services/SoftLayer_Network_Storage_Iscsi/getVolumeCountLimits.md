@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getVolumeCountLimits
 
+
 Retrieves an array of volume count limits per location and globally.
 
 

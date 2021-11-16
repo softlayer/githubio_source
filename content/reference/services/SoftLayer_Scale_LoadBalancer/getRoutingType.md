@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_LoadBalancer](/reference/services/SoftLayer_Scale_LoadBalancer)::getRoutingType
 
+
 Retrieve the routing type.
 
 

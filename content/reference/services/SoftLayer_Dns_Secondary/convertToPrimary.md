@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Dns_Secondary](/reference/services/SoftLayer_Dns_Secondary)::convertToPrimary
 
+
 Convert a secondary DNS record into a primary DNS record.
 
 

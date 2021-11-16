@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Info](/reference/services/SoftLayer_Billing_Info)::getCurrentBillingCycle
 
+
 Retrieve information related to an account's current and previous billing cycles.
 
 

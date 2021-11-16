@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_User_External_Binding_Type data type contains information relating to a type of external authentication binding.  It contains a user friendly name as well as a unique key name. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_User_External_Binding_Type data type contains information relating
 [keyName]: #keyname
 #### [keyName]
 The unique name used to identify a type of external authentication binding.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The unique name used to identify a type of external authentication binding.
 [name]: #name
 #### [name]
 The user friendly name of a type of external authentication binding.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

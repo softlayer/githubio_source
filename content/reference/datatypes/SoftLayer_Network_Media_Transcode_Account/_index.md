@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Media_Transcode_Account contains information regarding a transcode account. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Media_Transcode_Account contains information regarding a t
 [accountId]: #accountid
 #### [accountId]
 The internal identifier of a SoftLayer account  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The internal identifier of a SoftLayer account
 [createDate]: #createdate
 #### [createDate]
 The created date  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The created date
 [id]: #id
 #### [id]
 The internal identifier of a transcode account  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The internal identifier of a transcode account
 [modifyDate]: #modifydate
 #### [modifyDate]
 The last modified date  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The last modified date
 [account]: #account
 #### [account]
 The SoftLayer account information  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The SoftLayer account information
 [transcodeJobs]: #transcodejobs
 #### [transcodeJobs]
 Transcode jobs  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Job'>SoftLayer_Network_Media_Transcode_Job[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Media_Transcode_Job'>SoftLayer_Network_Media_Transcode_Job[] </a>**  
+
 
 
 </div>
@@ -113,7 +121,8 @@ Transcode jobs
 [transcodeJobCount]: #transcodejobcount
 #### [transcodeJobCount]
 A count of transcode jobs   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

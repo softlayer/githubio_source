@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getCustomerOwnedFlag
 
+
 Retrieve indicates if a server is a customer owned device.
 
 

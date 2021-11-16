@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network](/reference/services/SoftLayer_Network)::disconnectPrivateEndpointService
 
+
 Terminates the connection between the account and Service Endpoint networks.
 
 

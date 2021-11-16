@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Component_Model](/reference/services/SoftLayer_Hardware_Component_Model)::getHardwareComponents
 
+
 Retrieve a hardware component model's physical components in inventory.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getOpenRecurringInvoices
 
+
 Retrieve an account's recurring invoices.
 
 

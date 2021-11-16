@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Node provides detailed information for a particular object storage node 
 
 
@@ -56,7 +58,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Node provides detailed inf
 [deviceName]: #devicename
 #### [deviceName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -66,7 +69,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Node provides detailed inf
 [resourceName]: #resourcename
 #### [resourceName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -76,7 +80,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Node provides detailed inf
 [userAuthUrl]: #userauthurl
 #### [userAuthUrl]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

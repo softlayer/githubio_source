@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getSoftwareGuardExtensionEnabled
 
+
 Retrieve determine if hardware object has Software Guard Extension (SGX) enabled.
 
 

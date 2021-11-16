@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Cart](/reference/services/SoftLayer_Billing_Order_Cart)::getAccount
 
+
 Retrieve a quote's corresponding account.
 
 

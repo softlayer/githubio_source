@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Firewall_Template](/reference/services/SoftLayer_Network_Firewall_Template)::getObject
 
+
 Retrieve a SoftLayer_Network_Firewall_Template record.
 
 

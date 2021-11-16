@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Nameservers list container for domain registration 
 
 
@@ -45,7 +47,8 @@ Nameservers list container for domain registration
 [ipv4Address]: #ipv4address
 #### [ipv4Address]
 The IPv4 address of the nameserver.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The IPv4 address of the nameserver.
 [ipv6Address]: #ipv6address
 #### [ipv6Address]
 The IPv6 address of the nameserver.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The IPv6 address of the nameserver.
 [name]: #name
 #### [name]
 The fully qualified name of the nameserver  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The fully qualified name of the nameserver
 [sortOrder]: #sortorder
 #### [sortOrder]
 The sort order of the nameserver  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

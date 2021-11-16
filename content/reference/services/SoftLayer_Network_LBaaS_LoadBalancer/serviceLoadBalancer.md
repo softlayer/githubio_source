@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_LBaaS_LoadBalancer](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer)::serviceLoadBalancer
 
+
 Service function for a load balancer. 
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getCreateObjectOptions
 
+
 Determine options available when creating a computing instance
 
 

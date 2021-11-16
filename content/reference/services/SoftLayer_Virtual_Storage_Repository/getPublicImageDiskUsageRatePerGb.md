@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getPublicImageDiskUsageRatePerGb
 
+
 The rate that is charged for publishing every 1 gigabyte of data for an image template 
 
 

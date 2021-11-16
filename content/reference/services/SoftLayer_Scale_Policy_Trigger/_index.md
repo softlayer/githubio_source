@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A trigger to determine when a policy's actions should be fired.
 
 
@@ -42,36 +44,42 @@ A trigger to determine when a policy's actions should be fired.
 
 #### [createObject](/reference/services/SoftLayer_Scale_Policy_Trigger/createObject)
 Create a policy trigger.
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Scale_Policy_Trigger/deleteObject)
 Delete this trigger.
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Scale_Policy_Trigger/editObject)
 Edit this trigger.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Scale_Policy_Trigger/getObject)
 Retrieve a SoftLayer_Scale_Policy_Trigger record.
+
 </div>
 
 <div class="method-row">
 
 #### [getScalePolicy](/reference/services/SoftLayer_Scale_Policy_Trigger/getScalePolicy)
 Retrieve the policy this trigger is on.
+
 </div>
 
 <div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_Scale_Policy_Trigger/getType)
 Retrieve the type of trigger.
+
 </div>
 </div>
 

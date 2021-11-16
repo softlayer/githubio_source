@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getRedundancyCapableFlag
 
+
 Retrieve indicates whether the network component is participating in a group of two or more components capable of being operationally redundant, if enabled.
 
 

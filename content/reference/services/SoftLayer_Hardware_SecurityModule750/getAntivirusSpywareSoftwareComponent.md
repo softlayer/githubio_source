@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getAntivirusSpywareSoftwareComponent
 
+
 Retrieve information regarding an antivirus/spyware software component object.
 
 

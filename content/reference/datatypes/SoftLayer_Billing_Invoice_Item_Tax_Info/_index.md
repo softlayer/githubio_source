@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Information about the tax rates that apply to a particular invoice item. 
 
 
@@ -45,7 +47,8 @@ Information about the tax rates that apply to a particular invoice item.
 [createDate]: #createdate
 #### [createDate]
 The date and time the tax information was recorded.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The date and time the tax information was recorded.
 [description]: #description
 #### [description]
 The invoice description with special information about the invoice.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The invoice description with special information about the invoice.
 [effectiveTaxRate]: #effectivetaxrate
 #### [effectiveTaxRate]
 The tax rate that can be multiplied by the subtotal to get the  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The tax rate that can be multiplied by the subtotal to get the
 [exemptAmount]: #exemptamount
 #### [exemptAmount]
 The amount that is exempt from tax.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The amount that is exempt from tax.
 [feeProperty]: #feeproperty
 #### [feeProperty]
 The type of fee being tracked for this particular set of tax information.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The type of fee being tracked for this particular set of tax information.
 [id]: #id
 #### [id]
 An invoice item's tax information internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ An invoice item's tax information internal identifier.
 [invoiceItemId]: #invoiceitemid
 #### [invoiceItemId]
 A reference to the related invoice item.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ A reference to the related invoice item.
 [invoiceTaxInfoId]: #invoicetaxinfoid
 #### [invoiceTaxInfoId]
 A reference to the tax information for the parent invoice.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ A reference to the tax information for the parent invoice.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date and time the tax information was modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The date and time the tax information was modified.
 [nonTaxableBasis]: #nontaxablebasis
 #### [nonTaxableBasis]
 The amount that is exempt from tax.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ The amount that is exempt from tax.
 [reportedFlag]: #reportedflag
 #### [reportedFlag]
 A flag to indicate whether this is the official record for this invoice item.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ A flag to indicate whether this is the official record for this invoice item.
 [sellerRegistration]: #sellerregistration
 #### [sellerRegistration]
 The registration that the seller will use to report the invoice.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ The registration that the seller will use to report the invoice.
 [taxAmount]: #taxamount
 #### [taxAmount]
 The tax amount associated with this line item.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ The tax amount associated with this line item.
 [taxAmountToCurrency]: #taxamounttocurrency
 #### [taxAmountToCurrency]
 The tax amount (converted to the 'to' currency) associated with this line item.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -185,7 +201,8 @@ The tax amount (converted to the 'to' currency) associated with this line item.
 [taxRate]: #taxrate
 #### [taxRate]
 The tax rate used. Note that this might apply to only part of the  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -195,7 +212,8 @@ The tax rate used. Note that this might apply to only part of the
 [taxableBasis]: #taxablebasis
 #### [taxableBasis]
 The amount that is subject to tax.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -205,7 +223,8 @@ The amount that is subject to tax.
 [toCurrencyId]: #tocurrencyid
 #### [toCurrencyId]
 The currency code that the invoice is being converted to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -221,7 +240,8 @@ The currency code that the invoice is being converted to.
 [invoiceItem]: #invoiceitem
 #### [invoiceItem]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item </a>**  
+
 
 
 </div>
@@ -231,7 +251,8 @@ The currency code that the invoice is being converted to.
 [invoiceTaxInfo]: #invoicetaxinfo
 #### [invoiceTaxInfo]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Info'>SoftLayer_Billing_Invoice_Tax_Info </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Info'>SoftLayer_Billing_Invoice_Tax_Info </a>**  
+
 
 
 </div>
@@ -241,7 +262,8 @@ The currency code that the invoice is being converted to.
 [toCurrency]: #tocurrency
 #### [toCurrency]
 This is the currency the invoice will be converted to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a>**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getUsers
 
+
 Retrieve an account's portal users.
 
 

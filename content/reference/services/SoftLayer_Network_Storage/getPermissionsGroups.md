@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getPermissionsGroups
 
+
 Retrieve all permissions group(s) this volume is in.
 
 

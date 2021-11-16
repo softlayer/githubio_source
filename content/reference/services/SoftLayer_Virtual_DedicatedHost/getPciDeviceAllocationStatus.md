@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_DedicatedHost](/reference/services/SoftLayer_Virtual_DedicatedHost)::getPciDeviceAllocationStatus
 
+
 Retrieve the container that represents PCI device allocations on the dedicated host.
 
 

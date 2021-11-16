@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer Customers can use this service to view all of the available notifications that can be subscribed to. Some of the notifications are required while others are not. 
 
 
@@ -42,24 +44,28 @@ SoftLayer Customers can use this service to view all of the available notificati
 
 #### [getAllObjects](/reference/services/SoftLayer_Notification/getAllObjects)
 Retrieve all Notifications that can be subscribed to.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Notification/getObject)
 Retrieve a SoftLayer_Notification record.
+
 </div>
 
 <div class="method-row">
 
 #### [getPreferences](/reference/services/SoftLayer_Notification/getPreferences)
 Retrieve the preferences related to the notification. These are preferences are configurable and optional for subscribers to use.
+
 </div>
 
 <div class="method-row">
 
 #### [getRequiredPreferences](/reference/services/SoftLayer_Notification/getRequiredPreferences)
 Retrieve the required preferences related to the notification. While configurable, the subscriber does not have the option whether to use the preference.
+
 </div>
 </div>
 

@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 This method indicates whether or not this image uses an operating system that requires cloud init 
 

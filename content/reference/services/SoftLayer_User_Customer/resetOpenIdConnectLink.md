@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::resetOpenIdConnectLink
 
+
 Change the link of a user for OpenIdConnect managed accounts, provided the
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getSurveys
 
+
 Retrieve the surveys that a user has taken in the SoftLayer customer portal.
 
 

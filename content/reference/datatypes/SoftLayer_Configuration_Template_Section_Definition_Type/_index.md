@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Configuration_Template_Section_Definition_Type further defines the value of a configuration definition. 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Configuration_Template_Section_Definition_Type further defines the val
 [description]: #description
 #### [description]
 Description of a configuration value type  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Description of a configuration value type
 [id]: #id
 #### [id]
 Internal identifier of a configuration value type  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Internal identifier of a configuration value type
 [name]: #name
 #### [name]
 Name of a configuration value type  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

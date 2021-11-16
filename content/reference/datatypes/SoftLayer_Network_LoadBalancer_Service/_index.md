@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_LoadBalancer_Service data type contains all the information relating to a specific service (destination) on a particular load balancer. 
 
 Information retained on the object itself is the the source and destination of the service, routing type, weight, and whether or not the service is currently enabled. 
@@ -52,7 +54,8 @@ Information retained on the object itself is the the source and destination of t
 [connectionLimit]: #connectionlimit
 #### [connectionLimit]
 Connection limit on this service.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -62,7 +65,8 @@ Connection limit on this service.
 [createDate]: #createdate
 #### [createDate]
 Creation Date of this service  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -72,7 +76,8 @@ Creation Date of this service
 [destinationIpAddress]: #destinationipaddress
 #### [destinationIpAddress]
 The IP Address of the real server you wish to direct traffic to.  Your account must own this IP  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -82,7 +87,8 @@ The IP Address of the real server you wish to direct traffic to.  Your account m
 [destinationPort]: #destinationport
 #### [destinationPort]
 The port on the real server to direct the traffic.  This can be different than the source port.  If you wish to obfuscate your HTTP traffic, you can accept requests on port 80 on the load balancer, then redirect them to port 932 on your real server.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -92,7 +98,8 @@ The port on the real server to direct the traffic.  This can be different than t
 [enabled]: #enabled
 #### [enabled]
 A flag (either true or false) that determines if this particular service should be enabled on the load balancer.  Set to false to bring the server out of rotation without losing your configuration  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -125,7 +132,8 @@ The health check type for this service.  If one is supplied, the load balancer w
 |}
 
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +143,8 @@ The health check type for this service.  If one is supplied, the load balancer w
 [healthCheckURL]: #healthcheckurl
 #### [healthCheckURL]
 The URL provided here (starting with /) is what the load balancer will request in order to perform a custom HTTP health check.  You must specify either "GET /location/of/file.html" or "HEAD /location/of/file.php"  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +154,8 @@ The URL provided here (starting with /) is what the load balancer will request i
 [healthResponse]: #healthresponse
 #### [healthResponse]
 The expected response from the custom HTTP health check.  If the requested page contains this response, the check succeeds.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +165,8 @@ The expected response from the custom HTTP health check.  If the requested page 
 [id]: #id
 #### [id]
 Unique ID for this object, used for the getObject method, and must be set if you are editing this object.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -165,7 +176,8 @@ Unique ID for this object, used for the getObject method, and must be set if you
 [modifyDate]: #modifydate
 #### [modifyDate]
 Last modification date of this service  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -175,7 +187,8 @@ Last modification date of this service
 [name]: #name
 #### [name]
 Name of the load balancer service  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -185,7 +198,8 @@ Name of the load balancer service
 [notes]: #notes
 #### [notes]
 Holds whether this server is up or down.  Does not affect load balancer configuration at all, just for the customer's informational purposes  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -195,7 +209,8 @@ Holds whether this server is up or down.  Does not affect load balancer configur
 [peakConnections]: #peakconnections
 #### [peakConnections]
 Peak historical connections since the creation of this service.  Is reset any time you make a configuration change  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -205,7 +220,8 @@ Peak historical connections since the creation of this service.  Is reset any ti
 [sourcePort]: #sourceport
 #### [sourcePort]
 The port on the load balancer that this service maps to.  This is the port for incoming traffic, it needs to be shared with other services to form a group.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -215,7 +231,8 @@ The port on the load balancer that this service maps to.  This is the port for i
 [type]: #type
 #### [type]
 The connection type of this service.  Valid values are HTTP, FTP, TCP, UDP, and DNS.  The value of this variable affects available values of healthCheck, listed in that variable's description  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -225,7 +242,8 @@ The connection type of this service.  Valid values are HTTP, FTP, TCP, UDP, and 
 [vipId]: #vipid
 #### [vipId]
 Unique ID for this object's parent.  Probably not useful in the API, as this object will always be a child of a VirtualIpAddress anyway.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -235,7 +253,8 @@ Unique ID for this object's parent.  Probably not useful in the API, as this obj
 [weight]: #weight
 #### [weight]
 Weight affects the choices the load balancer makes between your services.  The weight of each service is expressed as a percentage of the TOTAL CONNECTION LIMIT on the virtual IP Address.  All services draw from the same pool of connections, so if you expect to have 4 times as much HTTP traffic as HTTPS, your weights for the above example routes would be 40%, 40%, 10%, 10% respectively.  The weights should add up to 100%  If you go over 100%, an exception will be thrown.  Weights must be whole numbers, no fractions or decimals are accepted.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -251,7 +270,8 @@ Weight affects the choices the load balancer makes between your services.  The w
 [vip]: #vip
 #### [vip]
 The load balancer that this service belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_LoadBalancer_VirtualIpAddress </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_LoadBalancer_VirtualIpAddress </a>**  
+
 
 
 </div>

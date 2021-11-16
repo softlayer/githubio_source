@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_LoadBalancer](/reference/services/SoftLayer_Scale_LoadBalancer)::getVirtualIpAddressId
 
+
 Retrieve the ID of the virtual IP address.
 
 

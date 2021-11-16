@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This is the datatype that needs to be populated and sent to SoftLayer_Product_Order::placeOrder. The SoftLayer_Container_Product_Order_Attribute_Organization datatype contains the organization information. 
 
 
@@ -45,7 +47,8 @@ This is the datatype that needs to be populated and sent to SoftLayer_Product_Or
 [address]: #address
 #### [address]
 The address information of the contact.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order_Attribute_Address'>SoftLayer_Container_Product_Order_Attribute_Address </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order_Attribute_Address'>SoftLayer_Container_Product_Order_Attribute_Address </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The address information of the contact.
 [faxNumber]: #faxnumber
 #### [faxNumber]
 The fax number associated with an organization. This is an optional value.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The fax number associated with an organization. This is an optional value.
 [organizationName]: #organizationname
 #### [organizationName]
 The name of an organization.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The name of an organization.
 [phoneNumber]: #phonenumber
 #### [phoneNumber]
 The phone number associated with an organization.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

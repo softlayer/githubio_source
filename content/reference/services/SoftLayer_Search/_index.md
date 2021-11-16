@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer's account historical service allows users to access a broad overview of devices for that account and historical details concerning the overall function and performance of the devices on that account 
 
 
@@ -42,18 +44,21 @@ SoftLayer's account historical service allows users to access a broad overview o
 
 #### [advancedSearch](/reference/services/SoftLayer_Search/advancedSearch)
 Search for SoftLayer Resources by simple terms.
+
 </div>
 
 <div class="method-row">
 
 #### [getObjectTypes](/reference/services/SoftLayer_Search/getObjectTypes)
 Return a collection of indexed object types. 
+
 </div>
 
 <div class="method-row">
 
 #### [search](/reference/services/SoftLayer_Search/search)
 Search for SoftLayer Resources by simple phrase.
+
 </div>
 </div>
 

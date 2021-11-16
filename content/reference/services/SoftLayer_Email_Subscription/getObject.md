@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Email_Subscription](/reference/services/SoftLayer_Email_Subscription)::getObject
 
+
 Retrieve a SoftLayer_Email_Subscription record.
 
 

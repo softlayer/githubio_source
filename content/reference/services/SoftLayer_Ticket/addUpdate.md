@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::addUpdate
 
+
 Add an update to a ticket.
 
 

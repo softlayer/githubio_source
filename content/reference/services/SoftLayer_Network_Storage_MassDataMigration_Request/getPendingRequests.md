@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_MassDataMigration_Request](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request)::getPendingRequests
 
+
 Returns placeholder MDMS requests for any MDMS order pending approval.
 
 

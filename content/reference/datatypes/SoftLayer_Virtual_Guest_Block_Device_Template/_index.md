@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The virtual block device template data type presents the structure in which all archived image templates are presented. 
 
 A virtual block device template, also known as a image template, represents the image of a virtual guest instance. 
@@ -47,7 +49,8 @@ A virtual block device template, also known as a image template, represents the 
 [device]: #device
 #### [device]
 A name that identifies a block device template.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -57,7 +60,8 @@ A name that identifies a block device template.
 [diskImageId]: #diskimageid
 #### [diskImageId]
 A block device template's [SoftLayer_Virtual_Disk_Image]({{<ref "reference/datatypes/SoftLayer_Virtual_Disk_Image">}}) ID.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -67,7 +71,8 @@ A block device template's [SoftLayer_Virtual_Disk_Image]({{<ref "reference/datat
 [diskSpace]: #diskspace
 #### [diskSpace]
 The amount of disk space that a block device template is using.  Use this number along with the units property to obtain the correct space used.   
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -77,7 +82,8 @@ The amount of disk space that a block device template is using.  Use this number
 [groupId]: #groupid
 #### [groupId]
 A block device template's [SoftLayer_Virtual_Guest_Block_Device_Template_Group]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group">}}) ID.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -87,7 +93,8 @@ A block device template's [SoftLayer_Virtual_Guest_Block_Device_Template_Group](
 [id]: #id
 #### [id]
 A block device template's unique ID.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -97,7 +104,8 @@ A block device template's unique ID.
 [units]: #units
 #### [units]
 The units that will be used with the disk space property to identify the amount of disk space used.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -113,7 +121,8 @@ The units that will be used with the disk space property to identify the amount 
 [diskImage]: #diskimage
 #### [diskImage]
 A block device template's disk image.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image </a>**  
+
 
 
 </div>
@@ -123,7 +132,8 @@ A block device template's disk image.
 [group]: #group
 #### [group]
 A block device template's group. Several block device templates can be combined together into a group for archiving purposes.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group </a>**  
+
 
 
 </div>

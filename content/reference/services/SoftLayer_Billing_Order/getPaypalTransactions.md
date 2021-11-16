@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getPaypalTransactions
 
+
 Retrieve all PayPal transactions associated with this order. If this order was not placed with PayPal, this will be empty.
 
 

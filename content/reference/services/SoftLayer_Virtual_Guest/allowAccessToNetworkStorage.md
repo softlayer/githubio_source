@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::allowAccessToNetworkStorage
 
+
 Allow access to a SoftLayer_Network_Storage volume from this device. 
 
 

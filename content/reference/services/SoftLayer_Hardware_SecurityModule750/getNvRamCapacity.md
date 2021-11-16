@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getNvRamCapacity
 
+
 Retrieve the amount of non-volatile memory a piece of hardware has, measured in gigabytes.
 
 

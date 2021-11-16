@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Component_AntivirusSpyware](/reference/services/SoftLayer_Software_Component_AntivirusSpyware)::getAverageInstallationDuration
 
+
 Retrieve the average amount of time that a software component takes to install.
 
 

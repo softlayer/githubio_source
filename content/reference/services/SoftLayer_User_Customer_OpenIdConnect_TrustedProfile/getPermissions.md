@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect_TrustedProfile](/reference/services/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile)::getPermissions
 
+
 Retrieve a portal user's permissions. These permissions control that user's access to functions within the SoftLayer customer portal and API.
 
 

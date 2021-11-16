@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Provides details for the delivery methods available. 
 
 
@@ -45,7 +47,8 @@ Provides details for the delivery methods available.
 [active]: #active
 #### [active]
 Determines if the delivery method is still used by the system.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Determines if the delivery method is still used by the system.
 [description]: #description
 #### [description]
 Description used for the delivery method.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Description used for the delivery method.
 [id]: #id
 #### [id]
 Unique identifier for the various notification delivery methods.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Unique identifier for the various notification delivery methods.
 [keyName]: #keyname
 #### [keyName]
 Name that can be used by external systems to refer to delivery method.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Name that can be used by external systems to refer to delivery method.
 [name]: #name
 #### [name]
 Friendly name used for the delivery method.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

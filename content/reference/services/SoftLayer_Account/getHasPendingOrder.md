@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHasPendingOrder
 
+
 Retrieve the number of orders in a PENDING status for a SoftLayer customer account.
 
 

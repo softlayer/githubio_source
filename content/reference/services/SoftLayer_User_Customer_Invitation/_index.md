@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,11 +44,13 @@ classes:
 
 #### [getObject](/reference/services/SoftLayer_User_Customer_Invitation/getObject)
 Retrieve a SoftLayer_User_Customer_Invitation record.
+
 </div>
 
 <div class="method-row">
 
 #### [getUser](/reference/services/SoftLayer_User_Customer_Invitation/getUser)
+
 
 </div>
 </div>

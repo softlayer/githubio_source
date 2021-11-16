@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getSnapshotSpaceAvailable
 
+
 Retrieve a volume's available snapshot reservation space.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Product_Package_Item_Prices contains price to package cross references Relates a category, price and item to a bundle.  Match bundle ids to see all items and prices in a particular bundle. 
 
 
@@ -56,7 +58,8 @@ The SoftLayer_Product_Package_Item_Prices contains price to package cross refere
 [id]: #id
 #### [id]
 The unique identifier for SoftLayer_Product_Package_Item_Price. This is only needed as a reference. The important data is the itemPriceId property.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -66,7 +69,8 @@ The unique identifier for SoftLayer_Product_Package_Item_Price. This is only nee
 [itemPriceId]: #itempriceid
 #### [itemPriceId]
 The SoftLayer_Product_Item_Price id. This value is to be used when placing orders. To get more information about this item price, go from the item price to the item description   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -76,7 +80,8 @@ The SoftLayer_Product_Item_Price id. This value is to be used when placing order
 [packageId]: #packageid
 #### [packageId]
 The Package ID to which this price reference belongs  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -92,7 +97,8 @@ The Package ID to which this price reference belongs
 [itemPrice]: #itemprice
 #### [itemPrice]
 The item price to which this object belongs. The item price has details regarding cost for the item it belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>**  
+
 
 
 </div>
@@ -102,7 +108,8 @@ The item price to which this object belongs. The item price has details regardin
 [package]: #package
 #### [package]
 The package to which this object belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**  
+
 
 
 </div>

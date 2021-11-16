@@ -14,6 +14,8 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_Swip_Transaction](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction)::resendSwipData
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 Sends updated RWHOIS information to ARIN for a single subnet.
 
 

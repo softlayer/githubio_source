@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 <<<
 
 
@@ -45,7 +47,8 @@ classes:
 [createDate]: #createdate
 #### [createDate]
 The date a credential type was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The date a credential type was created.
 [description]: #description
 #### [description]
 A short description of the credential type  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A short description of the credential type
 [keyName]: #keyname
 #### [keyName]
 The key name of the credential type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The key name of the credential type.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date a credential was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The date a credential was last modified.
 [name]: #name
 #### [name]
 The human readable name of the credential type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

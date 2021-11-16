@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getPMInfo
 
+
 Retrieve a server's hardware state via its internal sensors.
 
 

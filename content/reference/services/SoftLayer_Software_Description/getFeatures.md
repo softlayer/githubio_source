@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description)::getFeatures
 
+
 Retrieve the feature attributes of a software description.
 
 

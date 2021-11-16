@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getMetricTrackingObject
 
+
 Retrieve a piece of hardware's metric tracking object.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Event Log service lets you find interesting events related to various SoftLayer products and services such as hardware, virtual server or DNS. 
 
 
@@ -42,29 +44,34 @@ Event Log service lets you find interesting events related to various SoftLayer 
 
 #### [getAllEventNames](/reference/services/SoftLayer_Event_Log/getAllEventNames)
 Return all indexed event names.
+
 </div>
 
 <div class="method-row">
 
 #### [getAllEventObjectNames](/reference/services/SoftLayer_Event_Log/getAllEventObjectNames)
 Return all indexed event object names.
+
 </div>
 
 <div class="method-row">
 
 #### [getAllObjects](/reference/services/SoftLayer_Event_Log/getAllObjects)
 Return the event log data
+
 </div>
 
 <div class="method-row">
 
 #### [getAllUserTypes](/reference/services/SoftLayer_Event_Log/getAllUserTypes)
 Returns all possible event log user types
+
 </div>
 
 <div class="method-row">
 
 #### [getUser](/reference/services/SoftLayer_Event_Log/getUser)
+
 
 </div>
 </div>

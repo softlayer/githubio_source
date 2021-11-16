@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getCreateObjectOptions
 
+
 Determine options available when creating a server
 
 

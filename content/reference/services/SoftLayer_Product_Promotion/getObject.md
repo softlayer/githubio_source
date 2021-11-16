@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Promotion](/reference/services/SoftLayer_Product_Promotion)::getObject
 
+
 Retrieve a SoftLayer_Product_Promotion record.
 
 

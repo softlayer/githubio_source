@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Authentication_Request_Native_External data type contains information for requests to the getPortalLogin API. This class serves as a base class for more specialized external authentication classes to the SoftLayer Native login (username/password). 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Authentication_Request_Native_External data type contain
 [auxiliaryClaimsMiniToken]: #auxiliaryclaimsminitoken
 #### [auxiliaryClaimsMiniToken]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The SoftLayer_Container_Authentication_Request_Native_External data type contain
 [password]: #password
 #### [password]
 Your SoftLayer customer portal user's portal password.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Your SoftLayer customer portal user's portal password.
 [securityQuestionAnswer]: #securityquestionanswer
 #### [securityQuestionAnswer]
 The answer to your security question.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The answer to your security question.
 [securityQuestionId]: #securityquestionid
 #### [securityQuestionId]
 A security question you wish to answer when authenticating to the SoftLayer customer portal. This parameter isn't required if no security questions are set on your portal account or if your account is configured to not require answering a security account upon login.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ A security question you wish to answer when authenticating to the SoftLayer cust
 [username]: #username
 #### [username]
 The username you wish to authenticate to the SoftLayer customer portal with.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

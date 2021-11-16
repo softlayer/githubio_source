@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getFrontendOutgoingBandwidth
 
+
 Retrieve the amount of outgoing public network bandwidth used by a server over a period of time. 
 
 

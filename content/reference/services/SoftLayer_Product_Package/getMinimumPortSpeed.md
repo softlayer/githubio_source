@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getMinimumPortSpeed
 
+
 Retrieve the minimum available network speed associated with the package.
 
 

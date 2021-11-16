@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_LoadBalancer_Service](/reference/services/SoftLayer_Network_LoadBalancer_Service)::getObject
 
+
 Retrieve a SoftLayer_Network_LoadBalancer_Service record.
 
 

@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 (DEPRECATED) Use [SoftLayer_User_Customer::getImpersonationToken]({{<ref "reference/services/SoftLayer_User_Customer/getImpersonationToken">}}) method. 
 

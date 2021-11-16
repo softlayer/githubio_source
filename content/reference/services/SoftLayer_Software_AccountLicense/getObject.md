@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_AccountLicense](/reference/services/SoftLayer_Software_AccountLicense)::getObject
 
+
 Retrieve a SoftLayer_Software_AccountLicense record.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Storage_MassDataMigration_Request data type contains information on a single Mass Data Migration request. Creation of these requests is limited to SoftLayer customers through the SoftLayer Customer Portal. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Storage_MassDataMigration_Request data type contains infor
 [accountId]: #accountid
 #### [accountId]
 The account id of the request.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The account id of the request.
 [addressId]: #addressid
 #### [addressId]
 The address id of address assigned to this request.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The address id of address assigned to this request.
 [createUserId]: #createuserid
 #### [createUserId]
 The create user id of the request.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The create user id of the request.
 [endDate]: #enddate
 #### [endDate]
 The end date of the request.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The end date of the request.
 [id]: #id
 #### [id]
 The unique id of the request.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The unique id of the request.
 [modifyUserId]: #modifyuserid
 #### [modifyUserId]
 The modify user id of the request.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The modify user id of the request.
 [name]: #name
 #### [name]
 The unique id of the request.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The unique id of the request.
 [startDate]: #startdate
 #### [startDate]
 The start date of the request.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The start date of the request.
 [statusId]: #statusid
 #### [statusId]
 The status id of the request.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The status id of the request.
 [account]: #account
 #### [account]
 The account to which the request belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The account to which the request belongs.
 [activeTickets]: #activetickets
 #### [activeTickets]
 The active tickets that are attached to the MDMS request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The active tickets that are attached to the MDMS request.
 [address]: #address
 #### [address]
 The customer address where the device is shipped to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The customer address where the device is shipped to.
 [billingItem]: #billingitem
 #### [billingItem]
 An associated parent billing item which is active. Includes billing items which are scheduled to be cancelled in the future.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ An associated parent billing item which is active. Includes billing items which 
 [createEmployee]: #createemployee
 #### [createEmployee]
 The employee user who created the request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ The employee user who created the request.
 [createUser]: #createuser
 #### [createUser]
 The customer user who created the request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ The customer user who created the request.
 [deviceConfiguration]: #deviceconfiguration
 #### [deviceConfiguration]
 The device configurations.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request_DeviceConfiguration'>SoftLayer_Network_Storage_MassDataMigration_Request_DeviceConfiguration </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request_DeviceConfiguration'>SoftLayer_Network_Storage_MassDataMigration_Request_DeviceConfiguration </a>**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ The device configurations.
 [deviceModel]: #devicemodel
 #### [deviceModel]
 The model of device assigned to this request.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -221,7 +240,8 @@ The model of device assigned to this request.
 [keyContacts]: #keycontacts
 #### [keyContacts]
 The key contacts for this requests.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact'>SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact'>SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact[] </a>**  
+
 
 
 </div>
@@ -231,7 +251,8 @@ The key contacts for this requests.
 [modifyEmployee]: #modifyemployee
 #### [modifyEmployee]
 The employee who last modified the request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**  
+
 
 
 </div>
@@ -241,7 +262,8 @@ The employee who last modified the request.
 [modifyUser]: #modifyuser
 #### [modifyUser]
 The customer user who last modified the request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -251,7 +273,8 @@ The customer user who last modified the request.
 [shipments]: #shipments
 #### [shipments]
 The shipments of the request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment'>SoftLayer_Account_Shipment[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment'>SoftLayer_Account_Shipment[] </a>**  
+
 
 
 </div>
@@ -261,7 +284,8 @@ The shipments of the request.
 [status]: #status
 #### [status]
 The status of the request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request_Status'>SoftLayer_Network_Storage_MassDataMigration_Request_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request_Status'>SoftLayer_Network_Storage_MassDataMigration_Request_Status </a>**  
+
 
 
 </div>
@@ -271,7 +295,8 @@ The status of the request.
 [ticket]: #ticket
 #### [ticket]
 Ticket that is attached to this mass data migration request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**  
+
 
 
 </div>
@@ -281,7 +306,8 @@ Ticket that is attached to this mass data migration request.
 [tickets]: #tickets
 #### [tickets]
 All tickets that are attached to the mass data migration request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**  
+
 
 
 </div>
@@ -293,7 +319,8 @@ All tickets that are attached to the mass data migration request.
 [activeTicketCount]: #activeticketcount
 #### [activeTicketCount]
 A count of the active tickets that are attached to the MDMS request.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -303,7 +330,8 @@ A count of the active tickets that are attached to the MDMS request.
 [keyContactCount]: #keycontactcount
 #### [keyContactCount]
 A count of the key contacts for this requests.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -313,7 +341,8 @@ A count of the key contacts for this requests.
 [shipmentCount]: #shipmentcount
 #### [shipmentCount]
 A count of the shipments of the request.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -323,7 +352,8 @@ A count of the shipments of the request.
 [ticketCount]: #ticketcount
 #### [ticketCount]
 A count of all tickets that are attached to the mass data migration request.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

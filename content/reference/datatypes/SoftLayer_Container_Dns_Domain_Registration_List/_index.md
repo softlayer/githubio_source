@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [domainName]: #domainname
 #### [domainName]
 The domain name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The domain name.
 [encodingType]: #encodingtype
 #### [encodingType]
 Three-character language tag for the IDN domain that you're trying to register. This is only required for IDN domains.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -67,7 +71,8 @@ Three-character language tag for the IDN domain that you're trying to register. 
 Data required by the Registry for some country code top level domains (i.e. example.us). 
 
 In order to determine if a domain requires extended attributes, use [SoftLayer_Dns_Domain_Registration::getExtendedAttributes]({{<ref "reference/services/SoftLayer_Dns_Domain_Registration/getExtendedAttributes">}}) service.   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute_Configuration'>SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute_Configuration[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute_Configuration'>SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute_Configuration[] </a>**  
+
 
 
 </div>
@@ -77,7 +82,8 @@ In order to determine if a domain requires extended attributes, use [SoftLayer_D
 [registrationPeriod]: #registrationperiod
 #### [registrationPeriod]
 The length of the registration period in years. Valid values are 1 – 10.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getOpenCancellationRequests
 
+
 Retrieve an open ticket requesting cancellation of this server, if one exists.
 
 

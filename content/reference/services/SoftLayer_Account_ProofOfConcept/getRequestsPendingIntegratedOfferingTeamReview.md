@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_ProofOfConcept](/reference/services/SoftLayer_Account_ProofOfConcept)::getRequestsPendingIntegratedOfferingTeamReview
 
+
 Retrieves a list of requests pending IOT review in the specified regions
 
 

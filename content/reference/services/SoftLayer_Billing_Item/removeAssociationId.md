@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::removeAssociationId
 
+
 Remove an association from an orphan billing item.
 
 

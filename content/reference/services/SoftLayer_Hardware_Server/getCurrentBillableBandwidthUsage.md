@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getCurrentBillableBandwidthUsage
 
+
 Retrieve the current billable public outbound bandwidth for this hardware for the current billing cycle.
 
 

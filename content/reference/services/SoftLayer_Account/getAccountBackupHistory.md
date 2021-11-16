@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAccountBackupHistory
 
+
 This method provides a history of account backups.
 
 

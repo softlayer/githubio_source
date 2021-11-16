@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,12 +44,14 @@ classes:
 
 #### [getClosestToLanguageTag](/reference/services/SoftLayer_Locale/getClosestToLanguageTag)
 Get the closest locale for the language tag (ISO 639-1 & 3166-1) format.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Locale/getObject)
 Retrieve a SoftLayer_Locale record.
+
 </div>
 </div>
 

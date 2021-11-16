@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The McAfee_Epolicy_Orchestrator_Version36_Hips_Version7_BlockedApplicationEvent data type contains a single blocked application event. The details of the event are the time the event occurred, the process that generated the event and a brief description of the application that was blocked. 
 
 
@@ -45,7 +47,8 @@ The McAfee_Epolicy_Orchestrator_Version36_Hips_Version7_BlockedApplicationEvent 
 [applicationDescription]: #applicationdescription
 #### [applicationDescription]
 A brief description of the application that is blocked.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A brief description of the application that is blocked.
 [incidentTime]: #incidenttime
 #### [incidentTime]
 The time that an application is blocked.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The time that an application is blocked.
 [processName]: #processname
 #### [processName]
 The name of a process that is blocked.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -18,6 +18,9 @@ classes:
 </div>
 
 ## Description 
+
+<div class="deprecated"><span class="deprecation-label">Deprecated  </span></div>
+
 The global load balancer service has been deprecated and is no longer available. 
 
 
@@ -51,7 +54,8 @@ The global load balancer service has been deprecated and is no longer available.
 [destinationIp]: #destinationip
 #### [destinationIp]
 The IP address of the host that will be returned by the global load balancers in response to a dns request.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +65,8 @@ The IP address of the host that will be returned by the global load balancers in
 [destinationPort]: #destinationport
 #### [destinationPort]
 The port of the host that will be used for health checks.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -71,7 +76,8 @@ The port of the host that will be used for health checks.
 [enabled]: #enabled
 #### [enabled]
 Whether the host is enabled or not.  The value can be '0' for disabled, or '1' for enabled.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +87,8 @@ Whether the host is enabled or not.  The value can be '0' for disabled, or '1' f
 [healthCheck]: #healthcheck
 #### [healthCheck]
 The health check type of a host.  Valid values include 'none', 'http', and 'tcp'.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +98,8 @@ The health check type of a host.  Valid values include 'none', 'http', and 'tcp'
 [hits]: #hits
 #### [hits]
 The number of times the host was selected by the load balance method.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -101,7 +109,8 @@ The number of times the host was selected by the load balance method.
 [id]: #id
 #### [id]
 The unique identifier of a global load balancer host.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -111,7 +120,8 @@ The unique identifier of a global load balancer host.
 [loadBalanceOrder]: #loadbalanceorder
 #### [loadBalanceOrder]
 The order of this host within the load balance pool.  This is only significant if the load balance method is set to failover.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -121,7 +131,8 @@ The order of this host within the load balance pool.  This is only significant i
 [location]: #location
 #### [location]
 The location of a host in a datacenter.serverRoom format.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -131,7 +142,8 @@ The location of a host in a datacenter.serverRoom format.
 [status]: #status
 #### [status]
 The health status of a host.  The status can be either 'UP', 'DOWN', or null which could mean that the health check type is set to 'none' or an update to the ip, port, or health check type was recently done and the host is waiting for the new status.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -141,7 +153,8 @@ The health status of a host.  The status can be either 'UP', 'DOWN', or null whi
 [weight]: #weight
 #### [weight]
 The load balance weight of a host.  The total weight of all hosts in the load balancing pool must not exceed 100.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -157,7 +170,8 @@ The load balance weight of a host.  The total weight of all hosts in the load ba
 [loadBalancerAccount]: #loadbalanceraccount
 #### [loadBalancerAccount]
 The global load balancer account a host belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Account'>SoftLayer_Network_LoadBalancer_Global_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Account'>SoftLayer_Network_LoadBalancer_Global_Account </a>**  
+
 
 
 </div>

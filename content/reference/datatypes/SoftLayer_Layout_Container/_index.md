@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Layout_Container contains definitions for default page layouts 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Layout_Container contains definitions for default page layouts
 [id]: #id
 #### [id]
 The internal identifier of a layout container  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The internal identifier of a layout container
 [keyname]: #keyname
 #### [keyname]
 The unique key name of the layout container, used primarily for programmatic purposes  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique key name of the layout container, used primarily for programmatic pur
 [layoutContainerTypeId]: #layoutcontainertypeid
 #### [layoutContainerTypeId]
 The internal identifier of the related [SoftLayer_Layout_Container_Type]({{<ref "reference/datatypes/SoftLayer_Layout_Container_Type">}})  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The internal identifier of the related [SoftLayer_Layout_Container_Type]({{<ref 
 [name]: #name
 #### [name]
 The friendly name of the layout container  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The friendly name of the layout container
 [layoutContainerType]: #layoutcontainertype
 #### [layoutContainerType]
 The type of the layout container object  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Container_Type'>SoftLayer_Layout_Container_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Container_Type'>SoftLayer_Layout_Container_Type </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The type of the layout container object
 [layoutItems]: #layoutitems
 #### [layoutItems]
 The layout items assigned to this layout container  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Item'>SoftLayer_Layout_Item[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Item'>SoftLayer_Layout_Item[] </a>**  
+
 
 
 </div>
@@ -113,7 +121,8 @@ The layout items assigned to this layout container
 [layoutItemCount]: #layoutitemcount
 #### [layoutItemCount]
 A count of the layout items assigned to this layout container   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

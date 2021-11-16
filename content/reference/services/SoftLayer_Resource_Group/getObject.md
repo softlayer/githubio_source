@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Resource_Group](/reference/services/SoftLayer_Resource_Group)::getObject
 
+
 Retrieve a SoftLayer_Resource_Group record.
 
 

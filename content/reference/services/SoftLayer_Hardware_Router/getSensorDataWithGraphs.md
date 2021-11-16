@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getSensorDataWithGraphs
 
+
 Retrieve server's temperature and fan speed graphs as well the sensor raw data.
 
 

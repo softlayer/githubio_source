@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Hardware_Component_Firmware_Attribute data type contains general information for a hardware model's firmware. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Hardware_Component_Firmware_Attribute data type contains general i
 [firmwareId]: #firmwareid
 #### [firmwareId]
 A hardware component firmware attribute's firmware Id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A hardware component firmware attribute's firmware Id.
 [id]: #id
 #### [id]
 A hardware component firmware attribute's Id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A hardware component firmware attribute's Id.
 [typeId]: #typeid
 #### [typeId]
 A hardware component firmware attribute's type Id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A hardware component firmware attribute's type Id.
 [value]: #value
 #### [value]
 A hardware component firmware attribute's value.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ A hardware component firmware attribute's value.
 [firmware]: #firmware
 #### [firmware]
 A hardware component firmware attribute's associated [SoftLayer_Hardware_Component_Firmware]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Firmware">}}).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware'>SoftLayer_Hardware_Component_Firmware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware'>SoftLayer_Hardware_Component_Firmware </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ A hardware component firmware attribute's associated [SoftLayer_Hardware_Compone
 [type]: #type
 #### [type]
 A hardware component firmware attribute's associated [SoftLayer_Hardware_Component_Firmware_Attribute_Type]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Firmware_Attribute_Type">}}).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware_Attribute_Type'>SoftLayer_Hardware_Component_Firmware_Attribute_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware_Attribute_Type'>SoftLayer_Hardware_Component_Firmware_Attribute_Type </a>**  
+
 
 
 </div>

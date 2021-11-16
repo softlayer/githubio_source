@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,11 +44,13 @@ classes:
 
 #### [addUnsubscribeEmailAddress](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/addUnsubscribeEmailAddress)
 
+
 </div>
 
 <div class="method-row">
 
 #### [deleteEmailListEntries](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/deleteEmailListEntries)
+
 
 </div>
 
@@ -54,11 +58,13 @@ classes:
 
 #### [disableSmtpAccess](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/disableSmtpAccess)
 
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/editObject)
+
 
 </div>
 
@@ -66,17 +72,20 @@ classes:
 
 #### [enableSmtpAccess](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/enableSmtpAccess)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/getAccount)
 Retrieve the SoftLayer customer account that a network message delivery account belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getAccountOverview](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/getAccountOverview)
+
 
 </div>
 
@@ -84,11 +93,13 @@ Retrieve the SoftLayer customer account that a network message delivery account 
 
 #### [getBillingItem](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/getBillingItem)
 Retrieve the billing item for a network message delivery account.
+
 </div>
 
 <div class="method-row">
 
 #### [getCategoryList](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/getCategoryList)
+
 
 </div>
 
@@ -96,11 +107,13 @@ Retrieve the billing item for a network message delivery account.
 
 #### [getEmailAddress](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/getEmailAddress)
 Retrieve the contact e-mail address used by SendGrid.
+
 </div>
 
 <div class="method-row">
 
 #### [getEmailList](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/getEmailList)
+
 
 </div>
 
@@ -108,17 +121,20 @@ Retrieve the contact e-mail address used by SendGrid.
 
 #### [getObject](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/getObject)
 Retrieve a SoftLayer_Network_Message_Delivery_Email_Sendgrid record.
+
 </div>
 
 <div class="method-row">
 
 #### [getSmtpAccess](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/getSmtpAccess)
 Retrieve a flag that determines if a SendGrid e-mail delivery account has access to send mail through the SendGrid SMTP server.
+
 </div>
 
 <div class="method-row">
 
 #### [getStatistics](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/getStatistics)
+
 
 </div>
 
@@ -126,23 +142,27 @@ Retrieve a flag that determines if a SendGrid e-mail delivery account has access
 
 #### [getStatisticsGraph](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/getStatisticsGraph)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/getType)
 Retrieve the message delivery type of a network message delivery account.
+
 </div>
 
 <div class="method-row">
 
 #### [getVendor](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/getVendor)
 Retrieve the vendor for a network message delivery account.
+
 </div>
 
 <div class="method-row">
 
 #### [getVendorPortalUrl](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/getVendorPortalUrl)
+
 
 </div>
 
@@ -150,11 +170,13 @@ Retrieve the vendor for a network message delivery account.
 
 #### [sendEmail](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/sendEmail)
 This method is deprecated and will be removed in API version 3.2.
+
 </div>
 
 <div class="method-row">
 
 #### [updateEmailAddress](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid/updateEmailAddress)
+
 
 </div>
 </div>

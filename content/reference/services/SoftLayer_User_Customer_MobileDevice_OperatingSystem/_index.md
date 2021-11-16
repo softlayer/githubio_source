@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,12 +44,14 @@ classes:
 
 #### [getAllObjects](/reference/services/SoftLayer_User_Customer_MobileDevice_OperatingSystem/getAllObjects)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_User_Customer_MobileDevice_OperatingSystem/getObject)
 Retrieve a SoftLayer_User_Customer_MobileDevice_OperatingSystem record.
+
 </div>
 </div>
 

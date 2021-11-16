@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVpcVirtualGuests
 
+
 Retrieve an account's associated VPC configured virtual guest objects.
 
 

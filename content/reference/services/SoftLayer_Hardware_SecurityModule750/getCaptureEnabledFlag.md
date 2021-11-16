@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getCaptureEnabledFlag
 
+
 Retrieve determine if the server is able to be image captured. If unable to image capture a reason will be provided.
 
 

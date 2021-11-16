@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Billing_Order_Item_Category_Answer data type represents a single answer to an item category question. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Billing_Order_Item_Category_Answer data type represents a single a
 [answer]: #answer
 #### [answer]
 The answer to the question.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The answer to the question.
 [createDate]: #createdate
 #### [createDate]
 The date that the answer was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The date that the answer was created.
 [questionId]: #questionid
 #### [questionId]
 The identifier for the question that the answer belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The identifier for the question that the answer belongs to.
 [orderItem]: #orderitem
 #### [orderItem]
 The billing order item that the answer is for.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The billing order item that the answer is for.
 [question]: #question
 #### [question]
 The question that is being answered.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question'>SoftLayer_Product_Item_Category_Question </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question'>SoftLayer_Product_Item_Category_Question </a>**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Benchmark_Certification](/reference/services/SoftLayer_Hardware_Benchmark_Certification)::getHardware
 
+
 Retrieve information regarding the piece of hardware on which a benchmark certification test was performed.
 
 

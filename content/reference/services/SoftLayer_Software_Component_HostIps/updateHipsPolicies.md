@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Component_HostIps](/reference/services/SoftLayer_Software_Component_HostIps)::updateHipsPolicies
 
+
 Update the Host IPS policies.
 
 

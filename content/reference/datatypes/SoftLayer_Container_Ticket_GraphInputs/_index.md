@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Ticket_GraphInputs models a single inbound object for a given ticket graph.
 
 
@@ -56,7 +58,8 @@ SoftLayer_Container_Ticket_GraphInputs models a single inbound object for a give
 [endDate]: #enddate
 #### [endDate]
 This is a unix timestamp that represents the stop date/time for a graph.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -66,7 +69,8 @@ This is a unix timestamp that represents the stop date/time for a graph.
 [networkInterfaceId]: #networkinterfaceid
 #### [networkInterfaceId]
 The front-end or back-end network uplink interface associated with this server.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -76,7 +80,8 @@ The front-end or back-end network uplink interface associated with this server.
 [pod]: #pod
 #### [pod]
 *  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -86,7 +91,8 @@ The front-end or back-end network uplink interface associated with this server.
 [serverName]: #servername
 #### [serverName]
 This is a human readable name for the server or rack being graphed.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -96,7 +102,8 @@ This is a human readable name for the server or rack being graphed.
 [startDate]: #startdate
 #### [startDate]
 This is a unix timestamp that represents the begin date/time for a graph.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::initiateIderaBareMetalRestore
 
+
 Initiate an Idera bare metal restore for the server tied to an Idera Server Backup
 
 

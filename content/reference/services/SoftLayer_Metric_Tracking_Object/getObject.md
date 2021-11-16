@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getObject
 
+
 Retrieve a SoftLayer_Metric_Tracking_Object record.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::getGuestNetworkComponentBinding
 
+
 Retrieve a network component that is statically routed to an IP address.
 
 

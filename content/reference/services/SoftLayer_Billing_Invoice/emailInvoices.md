@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::emailInvoices
 
+
 Create a transaction to email invoice links.
 
 

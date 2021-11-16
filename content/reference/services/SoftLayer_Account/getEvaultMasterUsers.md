@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getEvaultMasterUsers
 
+
 Retrieve an account's master EVault user. This is only used when an account has EVault service.
 
 

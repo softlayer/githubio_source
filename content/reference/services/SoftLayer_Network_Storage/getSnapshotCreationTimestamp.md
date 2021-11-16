@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getSnapshotCreationTimestamp
 
+
 Retrieve the creation timestamp of the snapshot on the storage platform.
 
 

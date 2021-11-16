@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getMobileDevices
 
+
 Retrieve a portal user's associated mobile device profiles.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This container data type contains extended attribute options information for a domain of country code TLD. 
 
 
@@ -50,7 +52,8 @@ This container data type contains extended attribute options information for a d
 [description]: #description
 #### [description]
 The description of an option.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The description of an option.
 [requireExtendedAttributes]: #requireextendedattributes
 #### [requireExtendedAttributes]
 Extended Attribute that is required for an option.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute_Option_Require'>SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute_Option_Require[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute_Option_Require'>SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute_Option_Require[] </a>**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ Extended Attribute that is required for an option.
 [title]: #title
 #### [title]
 The title of an option.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ The title of an option.
 [value]: #value
 #### [value]
 The value of an option.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

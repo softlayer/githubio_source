@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer_Configuration_Template_Section_Profile help you keep track of custom configuration profiles. 
 
 
@@ -42,12 +44,14 @@ SoftLayer_Configuration_Template_Section_Profile help you keep track of custom c
 
 #### [getConfigurationSection](/reference/services/SoftLayer_Configuration_Template_Section_Profile/getConfigurationSection)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Configuration_Template_Section_Profile/getObject)
 Retrieve a SoftLayer_Configuration_Template_Section_Profile record.
+
 </div>
 </div>
 

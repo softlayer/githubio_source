@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Security_Scanner_Request](/reference/services/SoftLayer_Network_Security_Scanner_Request)::getObject
 
+
 Retrieve a SoftLayer_Network_Security_Scanner_Request record.
 
 

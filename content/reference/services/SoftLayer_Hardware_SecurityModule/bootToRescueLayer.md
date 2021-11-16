@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::bootToRescueLayer
 
+
 Initiates the Rescue Kernel to bring a server online to troubleshoot system problems.
 
 

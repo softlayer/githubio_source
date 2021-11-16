@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Upgrade_Request](/reference/services/SoftLayer_Product_Upgrade_Request)::getStatus
 
+
 Retrieve the current status of the upgrade request.
 
 

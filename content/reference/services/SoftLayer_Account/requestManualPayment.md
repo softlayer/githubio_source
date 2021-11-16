@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::requestManualPayment
 
+
 Retrieve the record data associated with the submission of a Manual Payment Request.
 
 

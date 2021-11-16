@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHasEvaultBareMetalRestorePluginFlag
 
+
 Retrieve return 1 if one of the account's hardware has the EVault Bare Metal Server Restore Plugin otherwise 0.
 
 

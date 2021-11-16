@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Hardware_Attribute type contains general information for a hardware attribute. Hardware attributes can be assigned to specific hardware objects to describe relatively arbitrary information. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Hardware_Attribute type contains general information for a hardwar
 [hardwareAttributeTypeId]: #hardwareattributetypeid
 #### [hardwareAttributeTypeId]
 The unique identifier of a hardware attribute's type.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The unique identifier of a hardware attribute's type.
 [id]: #id
 #### [id]
 A hardware attribute's unique identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A hardware attribute's unique identifier.
 [value]: #value
 #### [value]
 A hardware attribute's value.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ A hardware attribute's value.
 [hardwareAttributeType]: #hardwareattributetype
 #### [hardwareAttributeType]
 The type of hardware attribute that this represents.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Attribute_Type'>SoftLayer_Hardware_Attribute_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Attribute_Type'>SoftLayer_Hardware_Attribute_Type </a>**  
+
 
 
 </div>

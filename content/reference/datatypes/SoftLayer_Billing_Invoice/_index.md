@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Billing_Invoice data type contains general information relating to an individual invoice applied to a SoftLayer customer account. Personal information in this type such as names, addresses, and phone numbers are taken from the account's contact information at the time the invoice is generated. 
 
 
@@ -56,7 +58,8 @@ The SoftLayer_Billing_Invoice data type contains general information relating to
 [accountId]: #accountid
 #### [accountId]
 The SoftLayer customer account that an invoice belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -66,7 +69,8 @@ The SoftLayer customer account that an invoice belongs to.
 [address1]: #address1
 #### [address1]
 The first line of an address belonging to an account at the time an invoice is created.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -76,7 +80,8 @@ The first line of an address belonging to an account at the time an invoice is c
 [address2]: #address2
 #### [address2]
 The second line of an address belonging to an account at the time an invoice is created.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -86,7 +91,8 @@ The second line of an address belonging to an account at the time an invoice is 
 [city]: #city
 #### [city]
 The city portion of an address belonging to an account at the time an invoice is created.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -96,7 +102,8 @@ The city portion of an address belonging to an account at the time an invoice is
 [claimedTaxExemptTxFlag]: #claimedtaxexempttxflag
 #### [claimedTaxExemptTxFlag]
 Whether an account was exempt from taxes on their invoices at the time an invoice is created.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -106,7 +113,8 @@ Whether an account was exempt from taxes on their invoices at the time an invoic
 [closedDate]: #closeddate
 #### [closedDate]
 The date an invoice was closed. Open invoices have a null closed date.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -116,7 +124,8 @@ The date an invoice was closed. Open invoices have a null closed date.
 [companyName]: #companyname
 #### [companyName]
 The company name belonging to an account at the time an invoice is created.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -126,7 +135,8 @@ The company name belonging to an account at the time an invoice is created.
 [country]: #country
 #### [country]
 A two-letter abbreviation of the country portion of an address belonging to an account at the time an invoice is created.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -136,7 +146,8 @@ A two-letter abbreviation of the country portion of an address belonging to an a
 [createDate]: #createdate
 #### [createDate]
 The date an invoice was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -146,7 +157,8 @@ The date an invoice was created.
 [documentsGeneratedFlag]: #documentsgeneratedflag
 #### [documentsGeneratedFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -156,7 +168,8 @@ The date an invoice was created.
 [email]: #email
 #### [email]
 The email address belonging to an account at the time an invoice is created.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -166,7 +179,8 @@ The email address belonging to an account at the time an invoice is created.
 [endingBalance]: #endingbalance
 #### [endingBalance]
 An SoftLayer account's balance at the time an invoice is closed. This value is measured in US Dollar ($USD) currency.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -176,7 +190,8 @@ An SoftLayer account's balance at the time an invoice is closed. This value is m
 [faxPhone]: #faxphone
 #### [faxPhone]
 The fax telephone number belonging to an account at the time an invoice is created.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -186,7 +201,8 @@ The fax telephone number belonging to an account at the time an invoice is creat
 [firstName]: #firstname
 #### [firstName]
 The first name of the account holder at the time an invoice is created.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -196,7 +212,8 @@ The first name of the account holder at the time an invoice is created.
 [id]: #id
 #### [id]
 An invoice's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -206,7 +223,8 @@ An invoice's internal identifier.
 [lastName]: #lastname
 #### [lastName]
 The last name of the account holder at the time an invoice is created.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -216,7 +234,8 @@ The last name of the account holder at the time an invoice is created.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date an invoice was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -226,7 +245,8 @@ The date an invoice was last modified.
 [officePhone]: #officephone
 #### [officePhone]
 The telephone number belonging to an account at the time an invoice is created.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -236,7 +256,8 @@ The telephone number belonging to an account at the time an invoice is created.
 [postalCode]: #postalcode
 #### [postalCode]
 The postal code portion of an address belonging to an account at the time an invoice is created.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -246,7 +267,8 @@ The postal code portion of an address belonging to an account at the time an inv
 [purchaseOrderNumber]: #purchaseordernumber
 #### [purchaseOrderNumber]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -256,7 +278,8 @@ The postal code portion of an address belonging to an account at the time an inv
 [startingBalance]: #startingbalance
 #### [startingBalance]
 An SoftLayer account's balance at the time an invoice is created. This value is measured in US Dollar ($USD) currency.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -266,7 +289,8 @@ An SoftLayer account's balance at the time an invoice is created. This value is 
 [state]: #state
 #### [state]
 A two-letter abbreviation of the state portion of an address belonging to an account at the time an invoice is created. If the account that the invoice was generated for resides outside a province then this is set to "other".  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -276,7 +300,8 @@ A two-letter abbreviation of the state portion of an address belonging to an acc
 [statusCode]: #statuscode
 #### [statusCode]
 An invoice's status. The "OPEN" status means SoftLayer has not yet received payment for this invoice. "CLOSED" status means that SoftLayer has received payment and closed the invoice. The "CLOSED_FAILED" status code means SoftLayer closed the invoice without receiving a payment. Invoices are usually set to CLOSED_FAILED status in cases where customer accounts are terminated for non-payment.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -286,7 +311,8 @@ An invoice's status. The "OPEN" status means SoftLayer has not yet received paym
 [taxStatusId]: #taxstatusid
 #### [taxStatusId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -296,7 +322,8 @@ An invoice's status. The "OPEN" status means SoftLayer has not yet received paym
 [taxTypeId]: #taxtypeid
 #### [taxTypeId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -306,7 +333,8 @@ An invoice's status. The "OPEN" status means SoftLayer has not yet received paym
 [typeCode]: #typecode
 #### [typeCode]
 An invoice's type. SoftLayer invoices and service credits are differentiated by their type. The "NEW" type code signifies an invoice for new service. A SoftLayer customer's first invoice has the NEW type code. "RECURRING" invoices are generated on a SoftLayer customer's anniversary billing date for monthly services. "ONE-TIME-CHARGE" invoices are generated when one-time charges are applied to an account. "CREDIT" invoices are generated whenever SoftLayer applies a credit against an account's balance. There are two special types of service credits. "REFUND" type credits are applied against a customer's account balance along with the receivables on their account. "MANUAL_PAYMENT_CREDIT" invoice credits are generated whenever a customer makes an unscheduled payment.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -322,7 +350,8 @@ An invoice's type. SoftLayer invoices and service credits are differentiated by 
 [account]: #account
 #### [account]
 The account that an invoice belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -332,7 +361,8 @@ The account that an invoice belongs to.
 [amount]: #amount
 #### [amount]
 This is the amount of this invoice.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -342,7 +372,8 @@ This is the amount of this invoice.
 [brandAtInvoiceCreation]: #brandatinvoicecreation
 #### [brandAtInvoiceCreation]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>**  
+
 
 
 </div>
@@ -352,7 +383,8 @@ This is the amount of this invoice.
 [detailedPdfGeneratedFlag]: #detailedpdfgeneratedflag
 #### [detailedPdfGeneratedFlag]
 A flag that will reflect whether the detailed version of the pdf has been generated.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -362,7 +394,8 @@ A flag that will reflect whether the detailed version of the pdf has been genera
 [invoiceTopLevelItems]: #invoicetoplevelitems
 #### [invoiceTopLevelItems]
 A list of top-level invoice items that are on the currently pending invoice.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a>**  
+
 
 
 </div>
@@ -372,7 +405,8 @@ A list of top-level invoice items that are on the currently pending invoice.
 [invoiceTotalAmount]: #invoicetotalamount
 #### [invoiceTotalAmount]
 The total amount of this invoice.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -382,7 +416,8 @@ The total amount of this invoice.
 [invoiceTotalOneTimeAmount]: #invoicetotalonetimeamount
 #### [invoiceTotalOneTimeAmount]
 The total one-time charges for this invoice. This is the sum of one-time charges + setup fees + labor fees. This does not include taxes.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -392,7 +427,8 @@ The total one-time charges for this invoice. This is the sum of one-time charges
 [invoiceTotalOneTimeTaxAmount]: #invoicetotalonetimetaxamount
 #### [invoiceTotalOneTimeTaxAmount]
 A sum of all the taxes related to one time charges for this invoice.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -402,7 +438,8 @@ A sum of all the taxes related to one time charges for this invoice.
 [invoiceTotalPreTaxAmount]: #invoicetotalpretaxamount
 #### [invoiceTotalPreTaxAmount]
 The total amount of this invoice. This does not include taxes.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -412,7 +449,8 @@ The total amount of this invoice. This does not include taxes.
 [invoiceTotalRecurringAmount]: #invoicetotalrecurringamount
 #### [invoiceTotalRecurringAmount]
 The total Recurring amount of this invoice. This amount does not include taxes or one time charges.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -422,7 +460,8 @@ The total Recurring amount of this invoice. This amount does not include taxes o
 [invoiceTotalRecurringTaxAmount]: #invoicetotalrecurringtaxamount
 #### [invoiceTotalRecurringTaxAmount]
 The total amount of the recurring taxes on this invoice.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -432,7 +471,8 @@ The total amount of the recurring taxes on this invoice.
 [items]: #items
 #### [items]
 The items that belong to this invoice.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a>**  
+
 
 
 </div>
@@ -442,7 +482,8 @@ The items that belong to this invoice.
 [localCurrencyExchangeRate]: #localcurrencyexchangerate
 #### [localCurrencyExchangeRate]
 Exchange rate used for billing this invoice.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency_ExchangeRate'>SoftLayer_Billing_Currency_ExchangeRate </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency_ExchangeRate'>SoftLayer_Billing_Currency_ExchangeRate </a>**  
+
 
 
 </div>
@@ -452,7 +493,8 @@ Exchange rate used for billing this invoice.
 [payment]: #payment
 #### [payment]
 This is the total payment made on this invoice.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -462,7 +504,8 @@ This is the total payment made on this invoice.
 [payments]: #payments
 #### [payments]
 The payments for the invoice.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Receivable_Payment'>SoftLayer_Billing_Invoice_Receivable_Payment[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Receivable_Payment'>SoftLayer_Billing_Invoice_Receivable_Payment[] </a>**  
+
 
 
 </div>
@@ -472,7 +515,8 @@ The payments for the invoice.
 [sellerRegistration]: #sellerregistration
 #### [sellerRegistration]
 This is the seller's tax registration.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -482,7 +526,8 @@ This is the seller's tax registration.
 [taxInfo]: #taxinfo
 #### [taxInfo]
 This is the tax information that applies to tax auditing. This is the official tax record for this invoice.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Info'>SoftLayer_Billing_Invoice_Tax_Info </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Info'>SoftLayer_Billing_Invoice_Tax_Info </a>**  
+
 
 
 </div>
@@ -492,7 +537,8 @@ This is the tax information that applies to tax auditing. This is the official t
 [taxInfoHistory]: #taxinfohistory
 #### [taxInfoHistory]
 This is the set of tax information for any tax calculation for this invoice. Note that not all of these are necessarily official, so use the taxInfo key to get the final information.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Info'>SoftLayer_Billing_Invoice_Tax_Info[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Info'>SoftLayer_Billing_Invoice_Tax_Info[] </a>**  
+
 
 
 </div>
@@ -502,7 +548,8 @@ This is the set of tax information for any tax calculation for this invoice. Not
 [taxMessage]: #taxmessage
 #### [taxMessage]
 This is a message explaining the tax treatment for this invoice.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -512,7 +559,8 @@ This is a message explaining the tax treatment for this invoice.
 [taxType]: #taxtype
 #### [taxType]
 This is the strategy used to calculate tax on this invoice.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Type'>SoftLayer_Billing_Invoice_Tax_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Tax_Type'>SoftLayer_Billing_Invoice_Tax_Type </a>**  
+
 
 
 </div>
@@ -524,7 +572,8 @@ This is the strategy used to calculate tax on this invoice.
 [invoiceTopLevelItemCount]: #invoicetoplevelitemcount
 #### [invoiceTopLevelItemCount]
 A count of a list of top-level invoice items that are on the currently pending invoice.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -534,7 +583,8 @@ A count of a list of top-level invoice items that are on the currently pending i
 [itemCount]: #itemcount
 #### [itemCount]
 A count of the items that belong to this invoice.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -544,7 +594,8 @@ A count of the items that belong to this invoice.
 [paymentCount]: #paymentcount
 #### [paymentCount]
 A count of the payments for the invoice.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -554,7 +605,8 @@ A count of the payments for the invoice.
 [taxInfoHistoryCount]: #taxinfohistorycount
 #### [taxInfoHistoryCount]
 A count of this is the set of tax information for any tax calculation for this invoice. Note that not all of these are necessarily official, so use the taxInfo key to get the final information.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

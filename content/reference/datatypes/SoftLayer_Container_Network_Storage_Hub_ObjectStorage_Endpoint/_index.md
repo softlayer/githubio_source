@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Endpoint provides specific details on available endpoint URLs and locations. 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Endpoint provides specific
 [legacy]: #legacy
 #### [legacy]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Endpoint provides specific
 [location]: #location
 #### [location]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Endpoint provides specific
 [region]: #region
 #### [region]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Endpoint provides specific
 [type]: #type
 #### [type]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Endpoint provides specific
 [url]: #url
 #### [url]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

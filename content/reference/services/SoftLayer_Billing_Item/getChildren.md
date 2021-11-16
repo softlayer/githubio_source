@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getChildren
 
+
 Retrieve a Billing Item's child billing items'
 
 

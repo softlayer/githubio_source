@@ -14,6 +14,8 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::createSwipTransaction
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 create a SWIP transaction for a subnet
 
 

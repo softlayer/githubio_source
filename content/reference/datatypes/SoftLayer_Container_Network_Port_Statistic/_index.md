@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [administrativeStatus]: #administrativestatus
 #### [administrativeStatus]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [inDiscardPackets]: #indiscardpackets
 #### [inDiscardPackets]
   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [inErrorPackets]: #inerrorpackets
 #### [inErrorPackets]
   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [inOctets]: #inoctets
 #### [inOctets]
   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ classes:
 [inUnicastPackets]: #inunicastpackets
 #### [inUnicastPackets]
   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ classes:
 [maximumTransmissionUnit]: #maximumtransmissionunit
 #### [maximumTransmissionUnit]
   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ classes:
 [operationalStatus]: #operationalstatus
 #### [operationalStatus]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ classes:
 [outDiscardPackets]: #outdiscardpackets
 #### [outDiscardPackets]
   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ classes:
 [outErrorPackets]: #outerrorpackets
 #### [outErrorPackets]
   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ classes:
 [outOctets]: #outoctets
 #### [outOctets]
   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ classes:
 [outUnicastPackets]: #outunicastpackets
 #### [outUnicastPackets]
   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ classes:
 [portDuplex]: #portduplex
 #### [portDuplex]
   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ classes:
 [speed]: #speed
 #### [speed]
   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

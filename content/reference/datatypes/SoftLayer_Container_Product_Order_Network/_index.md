@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 (DEPRECATED) This type contains the structure of network-related objects that may be specified when ordering services. 
 
 
@@ -45,7 +47,8 @@ classes:
 [network]: #network
 #### [network]
 The [SoftLayer_Network]({{<ref "reference/datatypes/SoftLayer_Network">}}) object.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network'>SoftLayer_Network </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network'>SoftLayer_Network </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The [SoftLayer_Network]({{<ref "reference/datatypes/SoftLayer_Network">}}) objec
 [publicVlans]: #publicvlans
 #### [publicVlans]
 The list of public [SoftLayer_Container_Product_Order_Network_Vlan]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Vlan">}}) available for ordering. Each VLAN will have list of public subnets that are accessible to the VLAN.   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a>**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The list of public [SoftLayer_Container_Product_Order_Network_Vlan]({{<ref "refe
 [subnets]: #subnets
 #### [subnets]
 The list of private [SoftLayer_Container_Product_Order_Network_Subnet]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Network_Subnet">}}) available for ordering with a description of their available IP space.   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a>**  
+
 
 
 </div>

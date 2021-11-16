@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getPrimaryBackendIpAddress
 
+
 Retrieve the hardware's primary private IP address.
 
 

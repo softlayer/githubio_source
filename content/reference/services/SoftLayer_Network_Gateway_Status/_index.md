@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A network gateway status is a value representing the state of a network gateway. The possible values are "ACTIVE" for when the gateway is ready for normal use and "UPDATING" for when the gateway is being updated. 
 
 
@@ -42,6 +44,7 @@ A network gateway status is a value representing the state of a network gateway.
 
 #### [getObject](/reference/services/SoftLayer_Network_Gateway_Status/getObject)
 Retrieve a SoftLayer_Network_Gateway_Status record.
+
 </div>
 </div>
 

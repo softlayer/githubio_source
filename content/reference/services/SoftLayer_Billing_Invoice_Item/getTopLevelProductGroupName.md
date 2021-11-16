@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Invoice_Item](/reference/services/SoftLayer_Billing_Invoice_Item)::getTopLevelProductGroupName
 
+
 Retrieve a string representing the name of parent level product group of an invoice item.
 
 

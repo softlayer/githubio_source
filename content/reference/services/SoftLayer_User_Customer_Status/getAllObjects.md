@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_Status](/reference/services/SoftLayer_User_Customer_Status)::getAllObjects
 
+
 Retrieve all user status objects.
 
 

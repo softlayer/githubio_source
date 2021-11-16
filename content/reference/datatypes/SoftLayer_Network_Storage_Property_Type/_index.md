@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The storage property types provide standard definitions for properties which can be used with any type for Storage offering.  The properties provide additional information about a volume which they are assigned to. 
 
 
@@ -45,7 +47,8 @@ The storage property types provide standard definitions for properties which can
 [description]: #description
 #### [description]
 A type's description, for example 'Determines whether the volume is currently mountable'.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A type's description, for example 'Determines whether the volume is currently mo
 [keyname]: #keyname
 #### [keyname]
 A type's keyname, for example 'MOUNTABLE'.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A type's keyname, for example 'MOUNTABLE'.
 [name]: #name
 #### [name]
 A type's name, for example 'Mountable'.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

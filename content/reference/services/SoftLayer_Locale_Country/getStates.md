@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Locale_Country](/reference/services/SoftLayer_Locale_Country)::getStates
 
+
 Retrieve states that belong to this country.
 
 

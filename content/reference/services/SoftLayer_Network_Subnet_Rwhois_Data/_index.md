@@ -22,6 +22,9 @@ classes:
 
 ## Description
 
+<div class="deprecated"><span class="deprecation-label">Deprecated  </span></div>
+
+
 **DEPRECATED**
 Use SoftLayer_Account_Regional_Registry_Detail and SoftLayer_Network_Subnet_Registration instead. 
 
@@ -52,7 +55,7 @@ This service allows you to update your stored RWHOIS record.  Changing this reco
 
 <div id="method-div">
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [editObject](/reference/services/SoftLayer_Network_Subnet_Rwhois_Data/editObject)
 Edit the RWHOIS record by passing in a modified version of the record object. All fields are editable. The fields are as follows: 
@@ -64,18 +67,24 @@ Edit the RWHOIS record by passing in a modified version of the record object. Al
 * postalCode
 * abuseEmail
 * address1
+
+<span class="deprecation-label">Deprecated  </span>
+
+
 </div>
 
 <div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Network_Subnet_Rwhois_Data/getAccount)
 Retrieve the SoftLayer customer account associated with this reverse WHOIS data.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Subnet_Rwhois_Data/getObject)
 Retrieve a SoftLayer_Network_Subnet_Rwhois_Data record.
+
 </div>
 </div>
 

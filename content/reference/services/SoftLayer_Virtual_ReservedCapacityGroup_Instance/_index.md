@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer_Virtual_ReservedCapacityGroup_Instance reserves capacity for a single instance of a reserved capacity group. 
 
 
@@ -42,30 +44,35 @@ SoftLayer_Virtual_ReservedCapacityGroup_Instance reserves capacity for a single 
 
 #### [getAvailableFlag](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getAvailableFlag)
 Retrieve flag to indecate whether or not the reserved instance is available or not.
+
 </div>
 
 <div class="method-row">
 
 #### [getBillingItem](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getBillingItem)
 Retrieve the billing item for the reserved capacity group instance.
+
 </div>
 
 <div class="method-row">
 
 #### [getGuest](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getGuest)
 Retrieve the virtual guest associated with this reserved capacity group instance.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getObject)
 Retrieve a SoftLayer_Virtual_ReservedCapacityGroup_Instance record.
+
 </div>
 
 <div class="method-row">
 
 #### [getReservedCapacityGroup](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance/getReservedCapacityGroup)
 Retrieve the reserved instances that are members of this reserved capacity group.
+
 </div>
 </div>
 

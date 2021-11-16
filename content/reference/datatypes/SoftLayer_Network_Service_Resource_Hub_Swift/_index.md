@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
 ### seeAlso
 
 * [SoftLayer_Network_Service_Resource](/reference/datatypes/SoftLayer_Network_Service_Resource )
@@ -50,7 +52,8 @@ classes:
 [backendIpAddress]: #backendipaddress
 #### [backendIpAddress]
 The backend IP address for this resource   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The backend IP address for this resource
 [frontendIpAddress]: #frontendipaddress
 #### [frontendIpAddress]
 The frontend IP address for this resource   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ The frontend IP address for this resource
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ The frontend IP address for this resource
 [name]: #name
 #### [name]
 The name associated with this resource   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -96,7 +102,8 @@ The name associated with this resource
 [apiHost]: #apihost
 #### [apiHost]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -106,7 +113,8 @@ The name associated with this resource
 [apiPassword]: #apipassword
 #### [apiPassword]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -116,7 +124,8 @@ The name associated with this resource
 [apiPath]: #apipath
 #### [apiPath]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -126,7 +135,8 @@ The name associated with this resource
 [apiPort]: #apiport
 #### [apiPort]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -136,7 +146,8 @@ The name associated with this resource
 [apiProtocol]: #apiprotocol
 #### [apiProtocol]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -146,7 +157,8 @@ The name associated with this resource
 [apiUsername]: #apiusername
 #### [apiUsername]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -156,7 +168,8 @@ The name associated with this resource
 [apiVersion]: #apiversion
 #### [apiVersion]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -166,7 +179,8 @@ The name associated with this resource
 [attributes]: #attributes
 #### [attributes]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Resource_Attribute'>SoftLayer_Network_Service_Resource_Attribute[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Resource_Attribute'>SoftLayer_Network_Service_Resource_Attribute[] </a>**  
+
 
 
 </div>
@@ -176,7 +190,8 @@ The name associated with this resource
 [datacenter]: #datacenter
 #### [datacenter]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -186,7 +201,8 @@ The name associated with this resource
 [netappVolumeName]: #netappvolumename
 #### [netappVolumeName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -196,7 +212,8 @@ The name associated with this resource
 [networkDevice]: #networkdevice
 #### [networkDevice]
 The hardware information associated with this resource.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -206,7 +223,8 @@ The hardware information associated with this resource.
 [sshUsername]: #sshusername
 #### [sshUsername]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -216,7 +234,8 @@ The hardware information associated with this resource.
 [type]: #type
 #### [type]
 The network information associated with this resource.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Resource_Type'>SoftLayer_Network_Service_Resource_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Resource_Type'>SoftLayer_Network_Service_Resource_Type </a>**  
+
 
 
 </div>
@@ -228,7 +247,8 @@ The network information associated with this resource.
 [attributeCount]: #attributecount
 #### [attributeCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

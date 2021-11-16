@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Workload_Citrix_Deployment_Type](/reference/services/SoftLayer_Workload_Citrix_Deployment_Type)::getObject
 
+
 Retrieve a SoftLayer_Workload_Citrix_Deployment_Type record.
 
 

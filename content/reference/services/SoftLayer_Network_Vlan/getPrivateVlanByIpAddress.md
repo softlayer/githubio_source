@@ -14,6 +14,8 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getPrivateVlanByIpAddress
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 Retrieve the private network VLAN associated with an IP address.
 
 

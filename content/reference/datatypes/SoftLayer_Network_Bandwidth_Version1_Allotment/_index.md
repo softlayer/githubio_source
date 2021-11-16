@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Bandwidth_Version1_Allotment class provides methods and data structures necessary to work with an array of hardware objects associated with a single Bandwidth Pooling. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Bandwidth_Version1_Allotment class provides methods and da
 [accountId]: #accountid
 #### [accountId]
 The user account identifier associated with this allotment.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The user account identifier associated with this allotment.
 [bandwidthAllotmentTypeId]: #bandwidthallotmenttypeid
 #### [bandwidthAllotmentTypeId]
 An identifier marking this allotment as a virtual private rack (1) or a bandwidth pooling(2).  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ An identifier marking this allotment as a virtual private rack (1) or a bandwidt
 [createDate]: #createdate
 #### [createDate]
 Creation date for an allotment.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Creation date for an allotment.
 [endDate]: #enddate
 #### [endDate]
 End date for an allotment.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ End date for an allotment.
 [id]: #id
 #### [id]
 A virtual rack's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ A virtual rack's internal identifier.
 [locationGroupId]: #locationgroupid
 #### [locationGroupId]
 Location Group Id for an allotment  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Location Group Id for an allotment
 [name]: #name
 #### [name]
 Text A virtual rack's name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Text A virtual rack's name.
 [serviceProviderId]: #serviceproviderid
 #### [serviceProviderId]
 Service Provider Id for an allotment  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ Service Provider Id for an allotment
 [account]: #account
 #### [account]
 The account associated with this virtual rack.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The account associated with this virtual rack.
 [activeDetails]: #activedetails
 #### [activeDetails]
 The bandwidth allotment detail records associated with this virtual rack.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Detail'>SoftLayer_Network_Bandwidth_Version1_Allotment_Detail[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Detail'>SoftLayer_Network_Bandwidth_Version1_Allotment_Detail[] </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The bandwidth allotment detail records associated with this virtual rack.
 [applicationDeliveryControllers]: #applicationdeliverycontrollers
 #### [applicationDeliveryControllers]
 The Application Delivery Controller contained within a virtual rack.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller[] </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The Application Delivery Controller contained within a virtual rack.
 [averageDailyPublicBandwidthUsage]: #averagedailypublicbandwidthusage
 #### [averageDailyPublicBandwidthUsage]
 The average daily public bandwidth usage for the current billing cycle.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The average daily public bandwidth usage for the current billing cycle.
 [bandwidthAllotmentType]: #bandwidthallotmenttype
 #### [bandwidthAllotmentType]
 The bandwidth allotment type of this virtual rack.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Type'>SoftLayer_Network_Bandwidth_Version1_Allotment_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Type'>SoftLayer_Network_Bandwidth_Version1_Allotment_Type </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ The bandwidth allotment type of this virtual rack.
 [bareMetalInstances]: #baremetalinstances
 #### [bareMetalInstances]
 The bare metal server instances contained within a virtual rack.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ The bare metal server instances contained within a virtual rack.
 [billingCycleBandwidthUsage]: #billingcyclebandwidthusage
 #### [billingCycleBandwidthUsage]
 A virtual rack's raw bandwidth usage data for an account's current billing cycle. One object is returned for each network this server is attached to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage[] </a>**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ A virtual rack's raw bandwidth usage data for an account's current billing cycle
 [billingCyclePrivateBandwidthUsage]: #billingcycleprivatebandwidthusage
 #### [billingCyclePrivateBandwidthUsage]
 A virtual rack's raw private network bandwidth usage data for an account's current billing cycle.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage </a>**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ A virtual rack's raw private network bandwidth usage data for an account's curre
 [billingCyclePublicBandwidthUsage]: #billingcyclepublicbandwidthusage
 #### [billingCyclePublicBandwidthUsage]
 A virtual rack's raw public network bandwidth usage data for an account's current billing cycle.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage </a>**  
+
 
 
 </div>
@@ -221,7 +240,8 @@ A virtual rack's raw public network bandwidth usage data for an account's curren
 [billingCyclePublicUsageTotal]: #billingcyclepublicusagetotal
 #### [billingCyclePublicUsageTotal]
 The total public bandwidth used in this virtual rack for an account's current billing cycle.  
-<span class="type-label">Type: </span>**unsigned integer**
+<span class="type-label">Type: </span>**unsigned integer**  
+
 
 
 </div>
@@ -231,7 +251,8 @@ The total public bandwidth used in this virtual rack for an account's current bi
 [billingItem]: #billingitem
 #### [billingItem]
 A virtual rack's billing item.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -241,7 +262,8 @@ A virtual rack's billing item.
 [currentBandwidthSummary]: #currentbandwidthsummary
 #### [currentBandwidthSummary]
 An object that provides commonly used bandwidth summary components for the current billing cycle.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Bandwidth_Summary'>SoftLayer_Metric_Tracking_Object_Bandwidth_Summary </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Bandwidth_Summary'>SoftLayer_Metric_Tracking_Object_Bandwidth_Summary </a>**  
+
 
 
 </div>
@@ -251,7 +273,8 @@ An object that provides commonly used bandwidth summary components for the curre
 [details]: #details
 #### [details]
 The bandwidth allotment detail records associated with this virtual rack.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Detail'>SoftLayer_Network_Bandwidth_Version1_Allotment_Detail[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment_Detail'>SoftLayer_Network_Bandwidth_Version1_Allotment_Detail[] </a>**  
+
 
 
 </div>
@@ -261,7 +284,8 @@ The bandwidth allotment detail records associated with this virtual rack.
 [hardware]: #hardware
 #### [hardware]
 The hardware contained within a virtual rack.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**  
+
 
 
 </div>
@@ -271,7 +295,8 @@ The hardware contained within a virtual rack.
 [inboundPublicBandwidthUsage]: #inboundpublicbandwidthusage
 #### [inboundPublicBandwidthUsage]
 The total public inbound bandwidth used in this virtual rack for an account's current billing cycle.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -281,7 +306,8 @@ The total public inbound bandwidth used in this virtual rack for an account's cu
 [locationGroup]: #locationgroup
 #### [locationGroup]
 The location group associated with this virtual rack.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group </a>**  
+
 
 
 </div>
@@ -291,7 +317,8 @@ The location group associated with this virtual rack.
 [managedBareMetalInstances]: #managedbaremetalinstances
 #### [managedBareMetalInstances]
 The managed bare metal server instances contained within a virtual rack.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**  
+
 
 
 </div>
@@ -301,7 +328,8 @@ The managed bare metal server instances contained within a virtual rack.
 [managedHardware]: #managedhardware
 #### [managedHardware]
 The managed hardware contained within a virtual rack.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**  
+
 
 
 </div>
@@ -311,7 +339,8 @@ The managed hardware contained within a virtual rack.
 [managedVirtualGuests]: #managedvirtualguests
 #### [managedVirtualGuests]
 The managed Virtual Server contained within a virtual rack.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**  
+
 
 
 </div>
@@ -321,7 +350,8 @@ The managed Virtual Server contained within a virtual rack.
 [metricTrackingObject]: #metrictrackingobject
 #### [metricTrackingObject]
 A virtual rack's metric tracking object. This object records all periodic polled data available to this rack.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_VirtualDedicatedRack'>SoftLayer_Metric_Tracking_Object_VirtualDedicatedRack </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_VirtualDedicatedRack'>SoftLayer_Metric_Tracking_Object_VirtualDedicatedRack </a>**  
+
 
 
 </div>
@@ -331,7 +361,8 @@ A virtual rack's metric tracking object. This object records all periodic polled
 [metricTrackingObjectId]: #metrictrackingobjectid
 #### [metricTrackingObjectId]
 The metric tracking object id for this allotment.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -341,7 +372,8 @@ The metric tracking object id for this allotment.
 [outboundPublicBandwidthUsage]: #outboundpublicbandwidthusage
 #### [outboundPublicBandwidthUsage]
 The total public outbound bandwidth used in this virtual rack for an account's current billing cycle.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -351,7 +383,8 @@ The total public outbound bandwidth used in this virtual rack for an account's c
 [overBandwidthAllocationFlag]: #overbandwidthallocationflag
 #### [overBandwidthAllocationFlag]
 Whether the bandwidth usage for this bandwidth pool for the current billing cycle exceeds the allocation.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -361,7 +394,8 @@ Whether the bandwidth usage for this bandwidth pool for the current billing cycl
 [privateNetworkOnlyHardware]: #privatenetworkonlyhardware
 #### [privateNetworkOnlyHardware]
 The private network only hardware contained within a virtual rack.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**  
+
 
 
 </div>
@@ -371,7 +405,8 @@ The private network only hardware contained within a virtual rack.
 [projectedOverBandwidthAllocationFlag]: #projectedoverbandwidthallocationflag
 #### [projectedOverBandwidthAllocationFlag]
 Whether the bandwidth usage for this bandwidth pool for the current billing cycle is projected to exceed the allocation.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -381,7 +416,8 @@ Whether the bandwidth usage for this bandwidth pool for the current billing cycl
 [projectedPublicBandwidthUsage]: #projectedpublicbandwidthusage
 #### [projectedPublicBandwidthUsage]
 The projected public outbound bandwidth for this virtual server for the current billing cycle.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -391,7 +427,8 @@ The projected public outbound bandwidth for this virtual server for the current 
 [serviceProvider]: #serviceprovider
 #### [serviceProvider]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>**  
+
 
 
 </div>
@@ -401,7 +438,8 @@ The projected public outbound bandwidth for this virtual server for the current 
 [totalBandwidthAllocated]: #totalbandwidthallocated
 #### [totalBandwidthAllocated]
 The combined allocated bandwidth for all servers in a virtual rack.  
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -411,7 +449,8 @@ The combined allocated bandwidth for all servers in a virtual rack.
 [virtualGuests]: #virtualguests
 #### [virtualGuests]
 The Virtual Server contained within a virtual rack.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**  
+
 
 
 </div>
@@ -423,7 +462,8 @@ The Virtual Server contained within a virtual rack.
 [activeDetailCount]: #activedetailcount
 #### [activeDetailCount]
 A count of the bandwidth allotment detail records associated with this virtual rack.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -433,7 +473,8 @@ A count of the bandwidth allotment detail records associated with this virtual r
 [applicationDeliveryControllerCount]: #applicationdeliverycontrollercount
 #### [applicationDeliveryControllerCount]
 A count of the Application Delivery Controller contained within a virtual rack.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -443,7 +484,8 @@ A count of the Application Delivery Controller contained within a virtual rack.
 [bareMetalInstanceCount]: #baremetalinstancecount
 #### [bareMetalInstanceCount]
 A count of the bare metal server instances contained within a virtual rack.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -453,7 +495,8 @@ A count of the bare metal server instances contained within a virtual rack.
 [billingCycleBandwidthUsageCount]: #billingcyclebandwidthusagecount
 #### [billingCycleBandwidthUsageCount]
 A count of a virtual rack's raw bandwidth usage data for an account's current billing cycle. One object is returned for each network this server is attached to.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -463,7 +506,8 @@ A count of a virtual rack's raw bandwidth usage data for an account's current bi
 [detailCount]: #detailcount
 #### [detailCount]
 A count of the bandwidth allotment detail records associated with this virtual rack.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -473,7 +517,8 @@ A count of the bandwidth allotment detail records associated with this virtual r
 [hardwareCount]: #hardwarecount
 #### [hardwareCount]
 A count of the hardware contained within a virtual rack.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -483,7 +528,8 @@ A count of the hardware contained within a virtual rack.
 [managedBareMetalInstanceCount]: #managedbaremetalinstancecount
 #### [managedBareMetalInstanceCount]
 A count of the managed bare metal server instances contained within a virtual rack.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -493,7 +539,8 @@ A count of the managed bare metal server instances contained within a virtual ra
 [managedHardwareCount]: #managedhardwarecount
 #### [managedHardwareCount]
 A count of the managed hardware contained within a virtual rack.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -503,7 +550,8 @@ A count of the managed hardware contained within a virtual rack.
 [managedVirtualGuestCount]: #managedvirtualguestcount
 #### [managedVirtualGuestCount]
 A count of the managed Virtual Server contained within a virtual rack.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -513,7 +561,8 @@ A count of the managed Virtual Server contained within a virtual rack.
 [privateNetworkOnlyHardwareCount]: #privatenetworkonlyhardwarecount
 #### [privateNetworkOnlyHardwareCount]
 A count of the private network only hardware contained within a virtual rack.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -523,7 +572,8 @@ A count of the private network only hardware contained within a virtual rack.
 [virtualGuestCount]: #virtualguestcount
 #### [virtualGuestCount]
 A count of the Virtual Server contained within a virtual rack.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

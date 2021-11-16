@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Account_Authentication_Attribute_Type models the type of attribute that can be assigned to a SoftLayer customer account authentication. 
 
 
@@ -50,7 +52,8 @@ SoftLayer_Account_Authentication_Attribute_Type models the type of attribute tha
 [description]: #description
 #### [description]
 A brief description of a SoftLayer account authentication attribute type.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ A brief description of a SoftLayer account authentication attribute type.
 [id]: #id
 #### [id]
 A SoftLayer account authentication attribute type's internal identifier.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ A SoftLayer account authentication attribute type's internal identifier.
 [keyName]: #keyname
 #### [keyName]
 A SoftLayer account authentication attribute type's key name. This is typically a shorter version of an attribute type's name.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ A SoftLayer account authentication attribute type's key name. This is typically 
 [name]: #name
 #### [name]
 A SoftLayer account authentication attribute type's name.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ A SoftLayer account authentication attribute type's name.
 [valueExample]: #valueexample
 #### [valueExample]
 An example of what you can put in as your value.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

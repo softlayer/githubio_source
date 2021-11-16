@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getSecurityScanRequests
 
+
 Retrieve information regarding a piece of hardware's vulnerability scan requests.
 
 

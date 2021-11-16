@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Regional Internet Registries are the organizations who delegate IP address blocks to other groups or organizations around the Internet. The information contained in this data type is used throughout the networking-related services in our systems. 
 
 
@@ -45,7 +47,8 @@ Regional Internet Registries are the organizations who delegate IP address block
 [id]: #id
 #### [id]
 Unique ID of the object   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Unique ID of the object
 [keyName]: #keyname
 #### [keyName]
 The system-level name of the registry   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The system-level name of the registry
 [name]: #name
 #### [name]
 The friendly name of the registry   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

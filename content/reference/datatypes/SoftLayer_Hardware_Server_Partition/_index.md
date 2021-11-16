@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [hardwareId]: #hardwareid
 #### [hardwareId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [hostname]: #hostname
 #### [hostname]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [macAddress]: #macaddress
 #### [macAddress]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ classes:
 [hardware]: #hardware
 #### [hardware]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ classes:
 [networkComponentAttributes]: #networkcomponentattributes
 #### [networkComponentAttributes]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Server_Partition_Network_Attribute'>SoftLayer_Hardware_Server_Partition_Network_Attribute[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Server_Partition_Network_Attribute'>SoftLayer_Hardware_Server_Partition_Network_Attribute[] </a>**  
+
 
 
 </div>
@@ -103,7 +110,8 @@ classes:
 [networkComponentAttributeCount]: #networkcomponentattributecount
 #### [networkComponentAttributeCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

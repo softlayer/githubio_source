@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getDiffieHellmanGroupDefault
 
+
 Returns the diffie hellman group default.
 
 

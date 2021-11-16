@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A SoftLayer_Auxiliary_Notification_Emergency data object represents a notification event being broadcast to the SoftLayer customer base. It is used to provide information regarding outages or current known issues. 
 
 
@@ -58,7 +60,8 @@ A SoftLayer_Auxiliary_Notification_Emergency data object represents a notificati
 [createDate]: #createdate
 #### [createDate]
 The date this event was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -68,7 +71,8 @@ The date this event was created.
 [device]: #device
 #### [device]
 The device (if any) effected by this event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -78,7 +82,8 @@ The device (if any) effected by this event.
 [duration]: #duration
 #### [duration]
 The duration of this event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -88,7 +93,8 @@ The duration of this event.
 [id]: #id
 #### [id]
 The device (if any) effected by this event.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -98,7 +104,8 @@ The device (if any) effected by this event.
 [location]: #location
 #### [location]
 The location effected by this event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -108,7 +115,8 @@ The location effected by this event.
 [message]: #message
 #### [message]
 A message describing this event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -118,7 +126,8 @@ A message describing this event.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The last date this event was modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -128,7 +137,8 @@ The last date this event was modified.
 [servicesAffected]: #servicesaffected
 #### [servicesAffected]
 The service(s) (if any) effected by this event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -138,7 +148,8 @@ The service(s) (if any) effected by this event.
 [startDate]: #startdate
 #### [startDate]
 The date this event will start.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -148,7 +159,8 @@ The date this event will start.
 [statusId]: #statusid
 #### [statusId]
 Current status record for this event.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -164,7 +176,8 @@ Current status record for this event.
 [signature]: #signature
 #### [signature]
 The signature of the SoftLayer employee department associated with this notification.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency_Signature'>SoftLayer_Auxiliary_Notification_Emergency_Signature </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency_Signature'>SoftLayer_Auxiliary_Notification_Emergency_Signature </a>**  
+
 
 
 </div>
@@ -174,7 +187,8 @@ The signature of the SoftLayer employee department associated with this notifica
 [status]: #status
 #### [status]
 The status of this notification.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency_Status'>SoftLayer_Auxiliary_Notification_Emergency_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency_Status'>SoftLayer_Auxiliary_Notification_Emergency_Status </a>**  
+
 
 
 </div>

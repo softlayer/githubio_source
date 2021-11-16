@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,11 +44,13 @@ classes:
 
 #### [getAllObjects](/reference/services/SoftLayer_Marketplace_Partner/getAllObjects)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getAllPublishedPartners](/reference/services/SoftLayer_Marketplace_Partner/getAllPublishedPartners)
+
 
 </div>
 
@@ -54,11 +58,13 @@ classes:
 
 #### [getAttachments](/reference/services/SoftLayer_Marketplace_Partner/getAttachments)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getFeaturedPartners](/reference/services/SoftLayer_Marketplace_Partner/getFeaturedPartners)
+
 
 </div>
 
@@ -66,11 +72,13 @@ classes:
 
 #### [getFile](/reference/services/SoftLayer_Marketplace_Partner/getFile)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getLogoMedium](/reference/services/SoftLayer_Marketplace_Partner/getLogoMedium)
+
 
 </div>
 
@@ -78,11 +86,13 @@ classes:
 
 #### [getLogoMediumTemp](/reference/services/SoftLayer_Marketplace_Partner/getLogoMediumTemp)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getLogoSmall](/reference/services/SoftLayer_Marketplace_Partner/getLogoSmall)
+
 
 </div>
 
@@ -90,17 +100,20 @@ classes:
 
 #### [getLogoSmallTemp](/reference/services/SoftLayer_Marketplace_Partner/getLogoSmallTemp)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Marketplace_Partner/getObject)
 Retrieve a SoftLayer_Marketplace_Partner record.
+
 </div>
 
 <div class="method-row">
 
 #### [getPartnerByUrlIdentifier](/reference/services/SoftLayer_Marketplace_Partner/getPartnerByUrlIdentifier)
+
 
 </div>
 </div>

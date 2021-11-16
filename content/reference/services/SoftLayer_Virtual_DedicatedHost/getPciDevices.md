@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_DedicatedHost](/reference/services/SoftLayer_Virtual_DedicatedHost)::getPciDevices
 
+
 Retrieve a collection of SoftLayer_Virtual_Host_PciDevice objects on the host.
 
 

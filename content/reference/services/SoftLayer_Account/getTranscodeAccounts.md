@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getTranscodeAccounts
 
+
 Retrieve an account's associated Transcode account.
 
 

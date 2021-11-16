@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_CustomerPermission_Permission](/reference/services/SoftLayer_User_Customer_CustomerPermission_Permission)::getObject
 
+
 Retrieve a SoftLayer_User_Customer_CustomerPermission_Permission record.
 
 

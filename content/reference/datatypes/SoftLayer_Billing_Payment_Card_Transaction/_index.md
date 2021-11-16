@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Billing_Payment_Card_Transaction data type contains general information relating to attempted credit card transactions. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Billing_Payment_Card_Transaction data type contains general inform
 [accountId]: #accountid
 #### [accountId]
 The account ID to which the credit card and billing information is associated with.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The account ID to which the credit card and billing information is associated wi
 [amount]: #amount
 #### [amount]
 The total amount of the attempted transaction, represented in decimal format as US Dollars ($USD).  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The total amount of the attempted transaction, represented in decimal format as 
 [billingAddressLine1]: #billingaddressline1
 #### [billingAddressLine1]
 The physical street address. Reserve information such as "apartment #123" or "Suite 2" for line 1.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The physical street address. Reserve information such as "apartment #123" or "Su
 [billingAddressLine2]: #billingaddressline2
 #### [billingAddressLine2]
 The second line in the address. Information such as suite number goes here.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The second line in the address. Information such as suite number goes here.
 [billingCity]: #billingcity
 #### [billingCity]
 The city in which a customer's account resides.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The city in which a customer's account resides.
 [billingCountryCode]: #billingcountrycode
 #### [billingCountryCode]
 The 2-character Country code for an account's address. (i.e. US)  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The 2-character Country code for an account's address. (i.e. US)
 [billingEmail]: #billingemail
 #### [billingEmail]
 The email address associated with a customer account.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The email address associated with a customer account.
 [billingNameCompany]: #billingnamecompany
 #### [billingNameCompany]
 the company name for an account.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ the company name for an account.
 [billingNameFirst]: #billingnamefirst
 #### [billingNameFirst]
 The first name of the customer account owner.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The first name of the customer account owner.
 [billingNameLast]: #billingnamelast
 #### [billingNameLast]
 The last name of the customer account owner.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ The last name of the customer account owner.
 [billingPhoneFax]: #billingphonefax
 #### [billingPhoneFax]
 The fax number associated with a customer account.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ The fax number associated with a customer account.
 [billingPhoneVoice]: #billingphonevoice
 #### [billingPhoneVoice]
 The phone number associated with a customer account.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ The phone number associated with a customer account.
 [billingPostalCode]: #billingpostalcode
 #### [billingPostalCode]
 The Zip or Postal Code for the billing address on an account.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ The Zip or Postal Code for the billing address on an account.
 [billingState]: #billingstate
 #### [billingState]
 The State for the account.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -185,7 +201,8 @@ The State for the account.
 [cardAccountLast4]: #cardaccountlast4
 #### [cardAccountLast4]
 The last 4 digits of a customer's credit card.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -195,7 +212,8 @@ The last 4 digits of a customer's credit card.
 [cardExpirationMonth]: #cardexpirationmonth
 #### [cardExpirationMonth]
 The month (MM) in which a customer's payment card will expire.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -205,7 +223,8 @@ The month (MM) in which a customer's payment card will expire.
 [cardExpirationYear]: #cardexpirationyear
 #### [cardExpirationYear]
 The year (YYYY) in which a customer's payment card will expire.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -215,7 +234,8 @@ The year (YYYY) in which a customer's payment card will expire.
 [cardType]: #cardtype
 #### [cardType]
 The type of payment issued (i.e. Visa, MasterCard, American Express).  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -225,7 +245,8 @@ The type of payment issued (i.e. Visa, MasterCard, American Express).
 [createDate]: #createdate
 #### [createDate]
 The date that the transaction was attempted.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -235,7 +256,8 @@ The date that the transaction was attempted.
 [id]: #id
 #### [id]
 The unique identifier for a single credit card transaction request.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -245,7 +267,8 @@ The unique identifier for a single credit card transaction request.
 [invoiceId]: #invoiceid
 #### [invoiceId]
 Unique identifier of the invoice to which funds will be applied.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -255,7 +278,8 @@ Unique identifier of the invoice to which funds will be applied.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date that the transaction was modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -265,7 +289,8 @@ The date that the transaction was modified.
 [orderFromIpAddress]: #orderfromipaddress
 #### [orderFromIpAddress]
 The IP address from which the transaction originates.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -275,7 +300,8 @@ The IP address from which the transaction originates.
 [referenceCode]: #referencecode
 #### [referenceCode]
 A code used by the financial institution to refer to the requested transaction.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -285,7 +311,8 @@ A code used by the financial institution to refer to the requested transaction.
 [requestId]: #requestid
 #### [requestId]
 The unique identifier of the request submitted to the financial institution.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -295,7 +322,8 @@ The unique identifier of the request submitted to the financial institution.
 [returnStatus]: #returnstatus
 #### [returnStatus]
 The status code returned from the financial institution.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -305,7 +333,8 @@ The status code returned from the financial institution.
 [serializedReply]: #serializedreply
 #### [serializedReply]
 A serialized, delimited string of the transaction request sent to the financial institution.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -315,7 +344,8 @@ A serialized, delimited string of the transaction request sent to the financial 
 [serializedRequest]: #serializedrequest
 #### [serializedRequest]
 A serialized, delimited string of the transaction request sent to the financial institution.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -331,7 +361,8 @@ A serialized, delimited string of the transaction request sent to the financial 
 [account]: #account
 #### [account]
 The account to which a transaction belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -341,7 +372,8 @@ The account to which a transaction belongs.
 [order]: #order
 #### [order]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**  
+
 
 
 </div>

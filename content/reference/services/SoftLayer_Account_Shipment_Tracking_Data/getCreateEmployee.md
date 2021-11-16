@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Shipment_Tracking_Data](/reference/services/SoftLayer_Account_Shipment_Tracking_Data)::getCreateEmployee
 
+
 Retrieve the employee who created the tracking datum.
 
 

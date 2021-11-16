@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_User_Permission_Action data type contains local attributes to identify and describe the valid actions a customer user can perform within IMS.  This includes a name, key name, and description.  This data can not be modified by users of IMS. 
 
 It also contains relational attributes that indicate which SoftLayer_User_Permission_Group's include the action. 
@@ -53,7 +55,8 @@ It also contains relational attributes that indicate which SoftLayer_User_Permis
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -63,7 +66,8 @@ It also contains relational attributes that indicate which SoftLayer_User_Permis
 [description]: #description
 #### [description]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -73,7 +77,8 @@ It also contains relational attributes that indicate which SoftLayer_User_Permis
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -83,7 +88,8 @@ It also contains relational attributes that indicate which SoftLayer_User_Permis
 [key]: #key
 #### [key]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -93,7 +99,8 @@ It also contains relational attributes that indicate which SoftLayer_User_Permis
 [keyName]: #keyname
 #### [keyName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -103,7 +110,8 @@ It also contains relational attributes that indicate which SoftLayer_User_Permis
 [modifyDate]: #modifydate
 #### [modifyDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -113,7 +121,8 @@ It also contains relational attributes that indicate which SoftLayer_User_Permis
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

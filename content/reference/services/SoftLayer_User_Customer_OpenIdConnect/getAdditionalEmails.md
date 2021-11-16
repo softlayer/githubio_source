@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getAdditionalEmails
 
+
 Retrieve a portal user's additional email addresses. These email addresses are contacted when updates are made to support tickets.
 
 

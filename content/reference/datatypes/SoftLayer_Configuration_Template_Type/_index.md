@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Configuration_Template_Type data type contains configuration template type information. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Configuration_Template_Type data type contains configuration templ
 [createDate]: #createdate
 #### [createDate]
 Created date. This is deprecated now.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Created date. This is deprecated now.
 [description]: #description
 #### [description]
 Description of a configuration template  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Description of a configuration template
 [id]: #id
 #### [id]
 Internal identifier of a configuration template type  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Internal identifier of a configuration template type
 [name]: #name
 #### [name]
 Name of a configuration template type  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

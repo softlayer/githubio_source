@@ -14,6 +14,8 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getPrivateVlanByIpAddress
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 Retrieve a backend network VLAN by searching for an IP address.
 
 

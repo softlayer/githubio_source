@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getBundledItems
 
+
 Retrieve a Billing Item's bundled billing items'
 
 

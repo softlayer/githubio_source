@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location_Datacenter](/reference/services/SoftLayer_Location_Datacenter)::getStatisticsGraphImage
 
+
 Retrieve a graph of a SoftLayer datacenter's last 48 hours of network activity.
 
 

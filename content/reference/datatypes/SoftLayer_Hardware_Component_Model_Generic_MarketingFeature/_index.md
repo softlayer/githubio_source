@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Hardware_Component_Model_Generic_MarketingFeature data type contains general information relating to all the advertising features of a single SoftLayer hardware generic component model. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Hardware_Component_Model_Generic_MarketingFeature data type contai
 [features]: #features
 #### [features]
 An html formatted list of all features.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ An html formatted list of all features.
 [price]: #price
 #### [price]
 A hardware component's upgrade price.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ A hardware component's upgrade price.
 [hardwareGenericComponentModel]: #hardwaregenericcomponentmodel
 #### [hardwareGenericComponentModel]
 The generic component model for a list of advertising or marketing features  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic </a>**  
+
 
 
 </div>

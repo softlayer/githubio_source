@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect_TrustedProfile](/reference/services/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile)::getPortalLoginTokenOpenIdConnect
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 Authenticate a user for the SoftLayer customer portal via an openIdConnect provider.
 
 

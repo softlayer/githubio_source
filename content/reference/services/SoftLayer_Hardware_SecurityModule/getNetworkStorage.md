@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getNetworkStorage
 
+
 Retrieve information regarding a piece of hardware's associated network storage service account.
 
 

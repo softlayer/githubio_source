@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Hardware_Component_Partition_Template_Partition data type contains general information relating to a single SoftLayer Template Partition. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Hardware_Component_Partition_Template_Partition data type contains
 [id]: #id
 #### [id]
 A partition's id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A partition's id.
 [isGrow]: #isgrow
 #### [isGrow]
 A flag indication if a partition will be the grow partition.  The grow partition will have its size adjusted to fill all available space on a hard drive.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A flag indication if a partition will be the grow partition.  The grow partition
 [partitionName]: #partitionname
 #### [partitionName]
 A partition's default name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A partition's default name.
 [partitionSize]: #partitionsize
 #### [partitionSize]
 A partition's default size.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ A partition's default size.
 [partitionTemplateId]: #partitiontemplateid
 #### [partitionTemplateId]
 A partition's associated [SoftLayer_Hardware_Component_Partition_Template]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_Template">}}) Id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ A partition's associated [SoftLayer_Hardware_Component_Partition_Template]({{<re
 [volumeNumber]: #volumenumber
 #### [volumeNumber]
 The volume the partition will be put on  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The volume the partition will be put on
 [filesystemType]: #filesystemtype
 #### [filesystemType]
 The filesystem type of a partition  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Filesystem_Type'>SoftLayer_Configuration_Storage_Filesystem_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Filesystem_Type'>SoftLayer_Configuration_Storage_Filesystem_Type </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The filesystem type of a partition
 [partitionTemplate]: #partitiontemplate
 #### [partitionTemplate]
 A partition's [SoftLayer_Hardware_Component_Partition_Template]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_Template">}}).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template'>SoftLayer_Hardware_Component_Partition_Template </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template'>SoftLayer_Hardware_Component_Partition_Template </a>**  
+
 
 
 </div>

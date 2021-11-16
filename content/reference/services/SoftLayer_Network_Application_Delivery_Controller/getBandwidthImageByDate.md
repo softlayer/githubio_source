@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getBandwidthImageByDate
 
+
 Retrieve a visual representation of the amount of network traffic that occurred for the specified time frame for an application delivery controller. 
 
 

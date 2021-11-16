@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Hub_Swift_Share](/reference/services/SoftLayer_Network_Storage_Hub_Swift_Share)::getFile
 
+
 Download a file.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Auxiliary_Network_Status](/reference/services/SoftLayer_Auxiliary_Network_Status)::getNetworkStatus
 
+
 return current network status for a given target.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_External_Binding](/reference/services/SoftLayer_User_Customer_External_Binding)::getVendor
 
+
 Retrieve the vendor of an external authentication binding.
 
 

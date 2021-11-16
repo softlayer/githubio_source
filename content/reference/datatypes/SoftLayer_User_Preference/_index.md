@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_User_Preference data type contains a single user preference to a specific preference type. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_User_Preference data type contains a single user preference to a s
 [value]: #value
 #### [value]
 The users current preference value  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ The users current preference value
 [description]: #description
 #### [description]
 Description of the user preference  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ Description of the user preference
 [type]: #type
 #### [type]
 Type of user preference  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Preference_Type'>SoftLayer_User_Preference_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Preference_Type'>SoftLayer_User_Preference_Type </a>**  
+
 
 
 </div>

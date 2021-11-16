@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This service allows for a unique identifier to be associated to an existing customer account. 
 
 
@@ -45,7 +47,8 @@ This service allows for a unique identifier to be associated to an existing cust
 [accountId]: #accountid
 #### [accountId]
 A customer account's internal identifier.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A customer account's internal identifier.
 [affiliateId]: #affiliateid
 #### [affiliateId]
 An affiliate identifier associated with the customer account.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ An affiliate identifier associated with the customer account.
 [createDate]: #createdate
 #### [createDate]
 The date an account affiliation was created.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The date an account affiliation was created.
 [id]: #id
 #### [id]
 A customer affiliation internal identifier.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ A customer affiliation internal identifier.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date an account affiliation was last modified.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The date an account affiliation was last modified.
 [account]: #account
 #### [account]
 The account that an affiliation belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>

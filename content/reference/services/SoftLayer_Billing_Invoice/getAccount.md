@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getAccount
 
+
 Retrieve the account that an invoice belongs to.
 
 

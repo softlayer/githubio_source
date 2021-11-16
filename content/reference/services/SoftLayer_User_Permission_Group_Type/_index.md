@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_User_Permission_Group_Type class is one of several classes that make up the customer permission system.  This class defines the valid group types.  The SYSTEM group type is reserved for internal use. 
 
 It is a role-based system that includes defined actions which can be "grouped" together using a SoftLayer_User_Permission_Group class. These groups of actions are then used to define roles, and the roles are assigned to users. 
@@ -46,12 +48,14 @@ When a [SoftLayer_User_Customer]({{<ref "reference/datatypes/SoftLayer_User_Cust
 
 #### [getGroups](/reference/services/SoftLayer_User_Permission_Group_Type/getGroups)
 Retrieve the groups that are of this type.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_User_Permission_Group_Type/getObject)
 Retrieve a SoftLayer_User_Permission_Group_Type record.
+
 </div>
 </div>
 

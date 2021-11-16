@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Sales_Presale_Event](/reference/services/SoftLayer_Sales_Presale_Event)::getExpiredFlag
 
+
 Retrieve a flag to indicate that the presale event is expired. A presale event is expired if the current time is after the end date.
 
 

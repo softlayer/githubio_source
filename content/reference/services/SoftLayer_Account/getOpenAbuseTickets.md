@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getOpenAbuseTickets
 
+
 Retrieve the open abuse tickets associated with an account.
 
 

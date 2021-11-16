@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Locale_Timezone](/reference/services/SoftLayer_Locale_Timezone)::getAllObjects
 
+
 Retrieve all timezone objects.
 
 
