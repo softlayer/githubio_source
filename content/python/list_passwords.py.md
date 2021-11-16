@@ -12,16 +12,9 @@ tags:
 ---
 
 
-```
+```python
 """
 List the passwords of the devices in the account.
-
-Important manual pages:
-http://sldn.softlayer.com/reference/services/SoftLayer_Search
-http://sldn.softlayer.com/reference/services/SoftLayer_Search/advancedSearch
-
-License: http://sldn.softlayer.com/article/License
-Author: SoftLayer Technologies, Inc. <sldn@softlayer.com>
 """
 
 import SoftLayer
