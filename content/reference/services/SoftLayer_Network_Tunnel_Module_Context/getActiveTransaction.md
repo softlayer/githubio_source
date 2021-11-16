@@ -1,6 +1,6 @@
 ---
 title: "getActiveTransaction"
-description: "Retrieve the transaction that is currently applying configurations for the network tunnel."
+description: "Retrieval: DEPRECATED"
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getActiveTransaction
 
-Retrieve the transaction that is currently applying configurations for the network tunnel.
+Retrieval: DEPRECATED
 
 
 ## Overview 
-Retrieve the transaction that is currently applying configurations for the network tunnel.
+Retrieval: DEPRECATED
 
 -----
 

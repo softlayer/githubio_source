@@ -875,6 +875,16 @@ The percentage of used snapshot space after which to delete automated snapshots.
 <div class="prop-row">
 
 -----
+[snapshotNotificationStatus]: #snapshotnotificationstatus
+#### [snapshotNotificationStatus]
+Whether or not a network storage volume may be mounted.  
+<span class="type-label">Type: </span>**string**
+
+
+</div>
+<div class="prop-row">
+
+-----
 [snapshotSizeBytes]: #snapshotsizebytes
 #### [snapshotSizeBytes]
 The snapshot size in bytes.  

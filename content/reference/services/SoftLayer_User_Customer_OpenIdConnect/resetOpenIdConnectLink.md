@@ -25,7 +25,7 @@ This method will change the IBMid that a SoftLayer user is linked to, if we need
 |Name | Type | Description |
 | --- | --- | --- |
 |providerType| string| The provider type. Currently only 'IBMid' is considered a valid value.|
-|newIbmId| string| The new IBMid the user is trying to switch to.|
+|newIbmIdUsername| string| The new IBMid the user is trying to switch to.|
 |removeSecuritySettings| boolean| Flag to indicate if the security settings for the user should be|
 
 

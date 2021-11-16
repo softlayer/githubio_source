@@ -1,6 +1,6 @@
 ---
 title: "getPreferences"
-description: ""
+description: "Retrieve data type contains a single user preference to a specific preference type."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getPreferences
 
-
+Retrieve data type contains a single user preference to a specific preference type.
 
 
 ## Overview 
-
+Retrieve data type contains a single user preference to a specific preference type.
 
 -----
 

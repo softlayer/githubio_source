@@ -1,6 +1,6 @@
 ---
 title: "getTransactionHistory"
-description: "Retrieve the transaction history for this network tunnel."
+description: "Retrieval: DEPRECATED"
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,11 @@ aliases:
 ---
 # [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getTransactionHistory
 
-Retrieve the transaction history for this network tunnel.
+Retrieval: DEPRECATED
 
 
 ## Overview 
-Retrieve the transaction history for this network tunnel.
+Retrieval: DEPRECATED
 
 -----
 
