@@ -2,7 +2,7 @@
    {{ if not (isset . "noservice") }}
       <div class='list-row'>
          {{ $service := replace .name "SoftLayer_" "" }}
-          <div class='list-row-title'><a href='/reference/services/{{$service}}'> {{$service}}</a></div>
+          <div class='list-row-title'><a href='/reference/services/{{.name}}'> {{$service}}</a></div>
       </div>
    {{end }}
    
