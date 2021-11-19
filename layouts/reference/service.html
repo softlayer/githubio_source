@@ -1,3 +1,5 @@
+{{ $thisPage := index $.Site.Data.sldn_metadata .Title }}
+
 {{ partial "header.html" . }}
 <body>
 
@@ -12,8 +14,13 @@
         </div>
         <div class="col-md-9 zeroPad">
  
+                <h1 id="{{.Title}}"> {{.Title}} </h1>
+                {{ partial "service_datatype_links.html" $thisPage}}
+                
+                <h2 id="description">Description</h2>
+                {{ $thisPage.serviceDoc | markdownify }}
 
-                {{ .Content }}
+                {{ partial "service_methods.html" $thisPage}}
 
         </div>
 

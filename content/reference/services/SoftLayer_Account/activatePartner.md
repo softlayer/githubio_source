@@ -1,27 +1,30 @@
 ---
 title: "activatePartner"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account"
+type: reference
+layout: method
 aliases:
     - "/reference/services/softlayer_account/activatePartner"
 ---
+
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::activatePartner
 
 This service enables a partner account that has been created but is currently inactive. This restricted service is only available for certain accounts. Please contact support for questions. 
 
 
-## Overview 
+## Overview
 
 
 -----
 
-### Parameters 
+### Parameters
 |Name | Type | Description |
 | --- | --- | --- |
 |accountId| string| Specify the account ID that needs to be activated.|
@@ -38,7 +41,3 @@ This service enables a partner account that has been created but is currently in
 
 ### Return Values
 * <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
-
-
-
-

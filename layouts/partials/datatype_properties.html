@@ -1,0 +1,55 @@
+<div id="properties" class="content service-content">
+
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Datatype Filter" onkeyup="titleSearch(inputId='prop-input', divId='properties', elementClass='prop-row')" 
+                type="text" id="prop-input" value="" size="30" maxlength="128" class="form-text">
+        </div>
+    </div>
+</div>
+    <div id="properties" class="content">
+
+        {{ $service := .name }}
+        
+        <div id="localProperties" class="prop-content" >
+            <h2 id="local">Local</h2> 
+            {{ range $property := .properties}}
+                {{ if eq $property.form "local"}}
+                <div class="prop-row">
+                    <hr>
+                    <h4 id="{{$property.name}}"><a href="#{{$property.name}}">{{$property.name}}</a></h4>
+                    <p>{{$property.doc | markdownify}}<br>
+                    <span class="type-label">Type: </span><strong>{{$property.type}}</strong></p>
+                </div>
+                {{ end }}
+            {{ end }}
+        </div>
+        <div id="relationalProperties" class="prop-content" >
+            <h2 id="relational">Relational</h2> 
+            {{ range $property := .properties}}
+                {{ if eq $property.form "relational"}}
+                <div class="prop-row">
+                    <hr>
+                    <h4 id="{{$property.name}}"><a href="#{{$property.name}}">{{$property.name}}</a></h4>
+                    <p>{{$property.doc | markdownify}}<br>
+                    <span class="type-label">Type: </span><strong>{{$property.type}}</strong></p>
+                </div>
+                {{ end }}
+            {{ end }}
+
+
+            <h2 id="count">Count</h2> 
+            {{ range $property := .properties}}
+                {{ if eq $property.form "count"}}
+                <div class="prop-row">
+                    <hr>
+                    <h4 id="{{$property.name}}"><a href="#{{$property.name}}">{{$property.name}}</a></h4>
+                    <p>{{$property.doc | markdownify}}<br>
+                    <span class="type-label">Type: </span><strong>{{$property.type}}</strong></p>
+                </div>
+                {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</div>
