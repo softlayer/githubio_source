@@ -1,0 +1,14 @@
+---
+title: "getAttachedTagsForCurrentUser"
+description: "Get all tags with at least one reference attached to it for the current account. The total items header for this method contains the total number of attached tags even if a result limit is applied. "
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Tag"
+classes:
+    - "getAttachedTagsForCurrentUser"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Tag"
+---

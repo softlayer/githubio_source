@@ -1,0 +1,14 @@
+---
+title: "SoftLayer_Billing_Invoice_Item_Hardware"
+description: ""
+date: "2018-02-12"
+tags:
+    - "datatype"
+    - "sldn"
+    - "Billing"
+classes:
+    - "SoftLayer_Billing_Invoice_Item_Hardware"
+type: "reference"
+layout: "datatype"
+mainService : "SoftLayer_Billing_Invoice_Item_Hardware"
+---

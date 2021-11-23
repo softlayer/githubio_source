@@ -1,0 +1,14 @@
+---
+title: "setBootMode"
+description: "This method allows you to specify the boot mode for a given image template. "
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Virtual"
+classes:
+    - "setBootMode"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Guest_Block_Device_Template_Group"
+---

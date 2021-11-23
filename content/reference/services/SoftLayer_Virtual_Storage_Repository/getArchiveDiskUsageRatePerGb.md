@@ -1,0 +1,14 @@
+---
+title: "getArchiveDiskUsageRatePerGb"
+description: "Returns the archive storage disk usage fee rate per gigabyte. "
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Virtual"
+classes:
+    - "getArchiveDiskUsageRatePerGb"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Storage_Repository"
+---

@@ -1,0 +1,14 @@
+---
+title: "getAuthenticationCode"
+description: "The getAuthenticationCode method retrieves the authentication code for the domain. "
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Dns"
+classes:
+    - "getAuthenticationCode"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Dns_Domain_Registration"
+---

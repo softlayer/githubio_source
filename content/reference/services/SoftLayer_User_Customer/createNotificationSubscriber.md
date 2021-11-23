@@ -1,0 +1,14 @@
+---
+title: "createNotificationSubscriber"
+description: "Create a new subscriber for a given resource. "
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "User"
+classes:
+    - "createNotificationSubscriber"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_User_Customer"
+---

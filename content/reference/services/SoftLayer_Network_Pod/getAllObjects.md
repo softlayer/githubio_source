@@ -1,0 +1,22 @@
+---
+title: "getAllObjects"
+description: "Filtering is supported for ``datacenterName`` and ``capabilities``. When filtering on capabilities, use the ``in`` operation. Pods fulfilling all capabilities provided will be returned. ``datacenterName`` represents an operation against ``SoftLayer_Location_Datacenter.name`, such as dal05 when referring to Dallas 5. 
+
+```Examples:``` 
+
+List Pods in a specific datacenter. <pre> datacenterName.operation = 'dal06' </pre> 
+
+List Pods in a geographical area. <pre> datacenterName.operation = '^= dal' </pre> 
+
+List Pods in a region fulfilling capabilities. <pre> datacenterName.operation = '^= dal' capabilities.operation = 'in' capabilities.options = [ { name = data, value = [SOME_CAPABILITY, ANOTHER_CAPABILITY] } ] </pre> "
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Network"
+classes:
+    - "getAllObjects"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Pod"
+---

@@ -1,0 +1,14 @@
+---
+title: "getBackendMacAddresses"
+description: "The getBackendMacAddresses method retrieves a list of backend MAC addresses for the resource"
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Resource"
+classes:
+    - "getBackendMacAddresses"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Resource_Metadata"
+---

@@ -1,0 +1,16 @@
+---
+title: "getPrivateVlanByIpAddress"
+description: "
+*** DEPRECATED ***
+Retrieve the private network VLAN associated with an IP address. "
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Network"
+classes:
+    - "getPrivateVlanByIpAddress"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Vlan"
+---

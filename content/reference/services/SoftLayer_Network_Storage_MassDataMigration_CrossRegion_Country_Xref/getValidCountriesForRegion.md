@@ -1,0 +1,14 @@
+---
+title: "getValidCountriesForRegion"
+description: "Returns countries assigned to the region having pricing info set. "
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Network"
+classes:
+    - "getValidCountriesForRegion"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref"
+---

@@ -15,13 +15,14 @@ title: "$service"
 description: "$documentation"
 date: "2018-02-12"
 tags:
-    - "service"
+    - "$layoutType"
     - "sldn"
     - "$serviceType"
 classes:
-    - "$service"
+    - "$mainService"
 type: "reference"
-layout: "service"
+layout: "$layoutType"
+mainService : "$mainService"
 ---
 """
 
@@ -48,14 +49,15 @@ class SLDNgenerator():
             json.dump(metajson, f, indent=4)
 
 
-    def generateServices(self, metajson):
-        for name, service in metajson.items():
-            print(f"Working on: {name}")
+    def generateMarkdown(self, metajson):
+        for serviceName, service in metajson.items():
+            print(f"Working on: {serviceName}")
             # noservice means datatype only.
-            if service.get('noservice', False) == True:
-                continue
-            else:
+            if service.get('noservice', False) == False:
                 self.writeServiceMarkdown(service)
+                for methodName, method in service.get('methods', {}).items():
+                    self.writeMethodMarkdown(method, serviceName=serviceName)
+            self.writeDatatypeMarkdown(service)
 
     def writeServiceMarkdown(self, serviceJson):
         service_dir = f"./content/reference/services/{serviceJson.get('name')}/"
@@ -68,12 +70,54 @@ class SLDNgenerator():
         substitions = {
             'service': serviceJson.get('name'),
             'documentation': serviceJson.get('serviceDoc', '').replace('"', "'"),
-            'serviceType': service_parts[1]
+            'serviceType': service_parts[1],
+            'layoutType' : 'service',
+            'mainService': serviceJson.get('name')
         }
         with open(f"{service_dir}/_index.md", "w", encoding="utf-8") as f:
             f.write(template.substitute(substitions))
         
+    def writeDatatypeMarkdown(self, serviceJson):
+        service_dir = f"./content/reference/datatypes/{serviceJson.get('name')}.md"
+        # if not (os.path.isdir(service_dir)):
+        #     os.mkdir(service_dir)
+        template = Template(SERVICEMARKDOWN)
+        # Needed to get the category of the service.
+        service_parts = serviceJson.get('name').split('_')
 
+        # For datatypes, docs will either be in one of these 2 fields.
+        documentation = serviceJson.get('typeDoc', '')
+        if documentation == '':
+            documentation = serviceJson.get('serviceDoc', '')
+
+        substitions = {
+            'service': serviceJson.get('name'),
+            'documentation': serviceJson.get('serviceDoc', '').replace('"', "'"),
+            'serviceType': service_parts[1],
+            'layoutType' : 'datatype',
+            'mainService': serviceJson.get('name')
+        }
+        with open(f"{service_dir}", "w", encoding="utf-8") as f:
+            f.write(template.substitute(substitions))
+
+    def writeMethodMarkdown(self, serviceJson, serviceName):
+        service_dir = f"./content/reference/services/{serviceName}/"
+        if not (os.path.isdir(service_dir)):
+            os.mkdir(service_dir)
+        template = Template(SERVICEMARKDOWN)
+        # Needed to get the category of the service.
+        service_parts = serviceName.split('_')
+        documentation = serviceJson.get('doc', '').replace('"', "'")
+
+        substitions = {
+            'service': serviceJson.get('name'),
+            'documentation': documentation,
+            'serviceType': service_parts[1],
+            'layoutType' : 'method',
+            'mainService': serviceName
+        }
+        with open(f"{service_dir}/{serviceJson.get('name','')}.md", "w", encoding="utf-8") as f:
+            f.write(template.substitute(substitions))       
 
 @click.command()
 @click.option('--download', default=False)
@@ -90,9 +134,9 @@ def main(download):
     else:
         metajson = generator.getLocalMetadata()
 
-    print("Generating Services....")
+    print("Generating Markdown....")
     # print(metajson)
-    generator.generateServices(metajson)
+    generator.generateMarkdown(metajson)
 
 
 if __name__ == "__main__":

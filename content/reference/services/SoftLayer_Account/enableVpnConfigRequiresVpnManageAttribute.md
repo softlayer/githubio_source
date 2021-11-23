@@ -1,0 +1,14 @@
+---
+title: "enableVpnConfigRequiresVpnManageAttribute"
+description: "Enables the VPN_CONFIG_REQUIRES_VPN_MANAGE attribute on the account. If the attribute does not exist for the account, it will be created and set to true. "
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Account"
+classes:
+    - "enableVpnConfigRequiresVpnManageAttribute"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account"
+---

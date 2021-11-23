@@ -1,0 +1,14 @@
+---
+title: "getAllObjects"
+description: "This method will retrieve all SoftLayer_Account_ProofOfConcept_Campaign_Code objects. Use the `code` field when submitting a request on the [[SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity]] container. "
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Account"
+classes:
+    - "getAllObjects"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account_ProofOfConcept_Campaign_Code"
+---
