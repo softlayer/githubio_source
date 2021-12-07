@@ -9,7 +9,7 @@ tags:
 author: "sldn"
 ---
 
-As of the publication of this article, [SLDN](https://sldn.softlayer.com) will now highlight areas of the API that are deprecated in red. These features stil exist, but will usually not actually do anything, and will be removed in a future version of the API.
+As of the publication of this article, [SLDN](https://sldn.softlayer.com) will now highlight areas of the API that are deprecated in red. These features still exist, but will usually not actually do anything, and will be removed in a future version of the API.
 
 Deprecated features will usually still return the same type of data, but with a placeholder values instead of valid data. For example a property that returned an array of objects might now just return an empty array (`[]`), or a boolean might just return `false` at all times now.
 
